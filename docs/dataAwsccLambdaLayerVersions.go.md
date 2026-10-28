@@ -4,12 +4,12 @@
 
 ### DataAwsccLambdaLayerVersions <a name="DataAwsccLambdaLayerVersions" id="@cdktn/provider-awscc.dataAwsccLambdaLayerVersions.DataAwsccLambdaLayerVersions"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lambda_layer_versions awscc_lambda_layer_versions}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lambda_layer_versions awscc_lambda_layer_versions}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaLayerVersions.DataAwsccLambdaLayerVersions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdalayerversions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdalayerversions"
 
 dataawscclambdalayerversions.NewDataAwsccLambdaLayerVersions(scope Construct, id *string, config DataAwsccLambdaLayerVersionsConfig) DataAwsccLambdaLayerVersions
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccLambdaLayerVersions.DataAwsccLambdaLayerVersions.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdalayerversions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdalayerversions"
 
 dataawscclambdalayerversions.DataAwsccLambdaLayerVersions_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccLambdaLayerVersions.DataAwsccLambdaLayerVersions.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdalayerversions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdalayerversions"
 
 dataawscclambdalayerversions.DataAwsccLambdaLayerVersions_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscclambdalayerversions.DataAwsccLambdaLayerVersions_IsTerraformElement(x i
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccLambdaLayerVersions.DataAwsccLambdaLayerVersions.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdalayerversions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdalayerversions"
 
 dataawscclambdalayerversions.DataAwsccLambdaLayerVersions_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscclambdalayerversions.DataAwsccLambdaLayerVersions_IsTerraformDataSource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccLambdaLayerVersions.DataAwsccLambdaLayerVersions.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdalayerversions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdalayerversions"
 
 dataawscclambdalayerversions.DataAwsccLambdaLayerVersions_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLambdaLayerVersio
 
 The id of the existing DataAwsccLambdaLayerVersions that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lambda_layer_versions#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lambda_layer_versions#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaLayerVersions.DataAwsccLambdaLayerVersionsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdalayerversions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdalayerversions"
 
 &dataawscclambdalayerversions.DataAwsccLambdaLayerVersionsConfig {
 	Connection: interface{},

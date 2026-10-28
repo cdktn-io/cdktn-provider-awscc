@@ -4,12 +4,12 @@
 
 ### BedrockagentcorePolicy <a name="BedrockagentcorePolicy" id="@cdktn/provider-awscc.bedrockagentcorePolicy.BedrockagentcorePolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_policy awscc_bedrockagentcore_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_policy awscc_bedrockagentcore_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockagentcorePolicy.BedrockagentcorePolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagentcorepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagentcorepolicy"
 
 bedrockagentcorepolicy.NewBedrockagentcorePolicy(scope Construct, id *string, config BedrockagentcorePolicyConfig) BedrockagentcorePolicy
 ```
@@ -434,7 +434,7 @@ func ResetValidationMode()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.bedrockagentcorePolicy.BedrockagentcorePolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagentcorepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagentcorepolicy"
 
 bedrockagentcorepolicy.BedrockagentcorePolicy_IsConstruct(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.bedrockagentcorePolicy.BedrockagentcorePolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagentcorepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagentcorepolicy"
 
 bedrockagentcorepolicy.BedrockagentcorePolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ bedrockagentcorepolicy.BedrockagentcorePolicy_IsTerraformElement(x interface{}) 
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.bedrockagentcorePolicy.BedrockagentcorePolicy.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagentcorepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagentcorepolicy"
 
 bedrockagentcorepolicy.BedrockagentcorePolicy_IsTerraformResource(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ bedrockagentcorepolicy.BedrockagentcorePolicy_IsTerraformResource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.bedrockagentcorePolicy.BedrockagentcorePolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagentcorepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagentcorepolicy"
 
 bedrockagentcorepolicy.BedrockagentcorePolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -523,7 +523,7 @@ The construct id used in the generated config for the BedrockagentcorePolicy to 
 
 The id of the existing BedrockagentcorePolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -932,7 +932,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockagentcorePolicy.BedrockagentcorePolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagentcorepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagentcorepolicy"
 
 &bedrockagentcorepolicy.BedrockagentcorePolicyConfig {
 	Connection: interface{},
@@ -942,7 +942,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagentcorepolicy
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	Definition: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockagentcorePolicy.BedrockagentcorePolicyDefinition,
+	Definition: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockagentcorePolicy.BedrockagentcorePolicyDefinition,
 	Name: *string,
 	PolicyEngineId: *string,
 	Description: *string,
@@ -1051,7 +1051,7 @@ Definition BedrockagentcorePolicyDefinition
 
 The definition structure for policies. Encapsulates different policy formats.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_policy#definition BedrockagentcorePolicy#definition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_policy#definition BedrockagentcorePolicy#definition}
 
 ---
 
@@ -1065,7 +1065,7 @@ Name *string
 
 The customer-assigned immutable name for the policy. Must be unique within the policy engine.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_policy#name BedrockagentcorePolicy#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_policy#name BedrockagentcorePolicy#name}
 
 ---
 
@@ -1079,7 +1079,7 @@ PolicyEngineId *string
 
 The identifier of the policy engine which contains this policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_policy#policy_engine_id BedrockagentcorePolicy#policy_engine_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_policy#policy_engine_id BedrockagentcorePolicy#policy_engine_id}
 
 ---
 
@@ -1093,7 +1093,7 @@ Description *string
 
 A human-readable description of the policy's purpose and functionality.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_policy#description BedrockagentcorePolicy#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_policy#description BedrockagentcorePolicy#description}
 
 ---
 
@@ -1109,7 +1109,7 @@ Whether the policy contributes to the enforce decision returned to Gateway.
 
 LOG_ONLY policies are still evaluated but their decisions are observed only, allowing customers to validate a policy against real traffic before promoting it.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_policy#enforcement_mode BedrockagentcorePolicy#enforcement_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_policy#enforcement_mode BedrockagentcorePolicy#enforcement_mode}
 
 ---
 
@@ -1123,7 +1123,7 @@ ValidationMode *string
 
 The validation mode for the policy. Determines how Cedar analyzer validation results are handled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_policy#validation_mode BedrockagentcorePolicy#validation_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_policy#validation_mode BedrockagentcorePolicy#validation_mode}
 
 ---
 
@@ -1132,11 +1132,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockagentcorePolicy.BedrockagentcorePolicyDefinition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagentcorepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagentcorepolicy"
 
 &bedrockagentcorepolicy.BedrockagentcorePolicyDefinition {
-	Cedar: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockagentcorePolicy.BedrockagentcorePolicyDefinitionCedar,
-	Policy: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockagentcorePolicy.BedrockagentcorePolicyDefinitionPolicy,
+	Cedar: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockagentcorePolicy.BedrockagentcorePolicyDefinitionCedar,
+	Policy: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockagentcorePolicy.BedrockagentcorePolicyDefinitionPolicy,
 }
 ```
 
@@ -1159,7 +1159,7 @@ Cedar BedrockagentcorePolicyDefinitionCedar
 
 A Cedar policy statement within the AgentCore Policy system.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_policy#cedar BedrockagentcorePolicy#cedar}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_policy#cedar BedrockagentcorePolicy#cedar}
 
 ---
 
@@ -1173,7 +1173,7 @@ Policy BedrockagentcorePolicyDefinitionPolicy
 
 A policy statement within the AgentCore Policy system.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_policy#policy BedrockagentcorePolicy#policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_policy#policy BedrockagentcorePolicy#policy}
 
 ---
 
@@ -1182,7 +1182,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockagentcorePolicy.BedrockagentcorePolicyDefinitionCedar.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagentcorepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagentcorepolicy"
 
 &bedrockagentcorepolicy.BedrockagentcorePolicyDefinitionCedar {
 	Statement: *string,
@@ -1207,7 +1207,7 @@ Statement *string
 
 The Cedar policy statement that defines the authorization logic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_policy#statement BedrockagentcorePolicy#statement}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_policy#statement BedrockagentcorePolicy#statement}
 
 ---
 
@@ -1216,7 +1216,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockagentcorePolicy.BedrockagentcorePolicyDefinitionPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagentcorepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagentcorepolicy"
 
 &bedrockagentcorepolicy.BedrockagentcorePolicyDefinitionPolicy {
 	Statement: *string,
@@ -1241,7 +1241,7 @@ Statement *string
 
 The policy statement.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_policy#statement BedrockagentcorePolicy#statement}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_policy#statement BedrockagentcorePolicy#statement}
 
 ---
 
@@ -1252,7 +1252,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockagentcorePolicy.BedrockagentcorePolicyDefinitionCedarOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagentcorepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagentcorepolicy"
 
 bedrockagentcorepolicy.NewBedrockagentcorePolicyDefinitionCedarOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockagentcorePolicyDefinitionCedarOutputReference
 ```
@@ -1530,7 +1530,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockagentcorePolicy.BedrockagentcorePolicyDefinitionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagentcorepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagentcorepolicy"
 
 bedrockagentcorepolicy.NewBedrockagentcorePolicyDefinitionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockagentcorePolicyDefinitionOutputReference
 ```
@@ -1863,7 +1863,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockagentcorePolicy.BedrockagentcorePolicyDefinitionPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagentcorepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagentcorepolicy"
 
 bedrockagentcorepolicy.NewBedrockagentcorePolicyDefinitionPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockagentcorePolicyDefinitionPolicyOutputReference
 ```

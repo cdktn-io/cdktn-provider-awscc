@@ -4,12 +4,12 @@
 
 ### DataAwsccComputeoptimizerAutomationRule <a name="DataAwsccComputeoptimizerAutomationRule" id="@cdktn/provider-awscc.dataAwsccComputeoptimizerAutomationRule.DataAwsccComputeoptimizerAutomationRule"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/computeoptimizer_automation_rule awscc_computeoptimizer_automation_rule}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/computeoptimizer_automation_rule awscc_computeoptimizer_automation_rule}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccComputeoptimizerAutomationRule.DataAwsccComputeoptimizerAutomationRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomputeoptimizerautomationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomputeoptimizerautomationrule"
 
 dataawscccomputeoptimizerautomationrule.NewDataAwsccComputeoptimizerAutomationRule(scope Construct, id *string, config DataAwsccComputeoptimizerAutomationRuleConfig) DataAwsccComputeoptimizerAutomationRule
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccComputeoptimizerAutomationRule.DataAwsccComputeoptimizerAutomationRule.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomputeoptimizerautomationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomputeoptimizerautomationrule"
 
 dataawscccomputeoptimizerautomationrule.DataAwsccComputeoptimizerAutomationRule_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccComputeoptimizerAutomationRule.DataAwsccComputeoptimizerAutomationRule.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomputeoptimizerautomationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomputeoptimizerautomationrule"
 
 dataawscccomputeoptimizerautomationrule.DataAwsccComputeoptimizerAutomationRule_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccomputeoptimizerautomationrule.DataAwsccComputeoptimizerAutomationRule_
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccComputeoptimizerAutomationRule.DataAwsccComputeoptimizerAutomationRule.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomputeoptimizerautomationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomputeoptimizerautomationrule"
 
 dataawscccomputeoptimizerautomationrule.DataAwsccComputeoptimizerAutomationRule_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccomputeoptimizerautomationrule.DataAwsccComputeoptimizerAutomationRule_
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccComputeoptimizerAutomationRule.DataAwsccComputeoptimizerAutomationRule.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomputeoptimizerautomationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomputeoptimizerautomationrule"
 
 dataawscccomputeoptimizerautomationrule.DataAwsccComputeoptimizerAutomationRule_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccComputeoptimizerA
 
 The id of the existing DataAwsccComputeoptimizerAutomationRule that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/computeoptimizer_automation_rule#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/computeoptimizer_automation_rule#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -763,7 +763,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccComputeoptimizerAutomationRule.DataAwsccComputeoptimizerAutomationRuleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomputeoptimizerautomationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomputeoptimizerautomationrule"
 
 &dataawscccomputeoptimizerautomationrule.DataAwsccComputeoptimizerAutomationRuleConfig {
 	Connection: interface{},
@@ -872,7 +872,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/computeoptimizer_automation_rule#id DataAwsccComputeoptimizerAutomationRule#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/computeoptimizer_automation_rule#id DataAwsccComputeoptimizerAutomationRule#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -884,7 +884,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccComputeoptimizerAutomationRule.DataAwsccComputeoptimizerAutomationRuleCriteria.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomputeoptimizerautomationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomputeoptimizerautomationrule"
 
 &dataawscccomputeoptimizerautomationrule.DataAwsccComputeoptimizerAutomationRuleCriteria {
 
@@ -897,7 +897,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomputeoptimi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccComputeoptimizerAutomationRule.DataAwsccComputeoptimizerAutomationRuleCriteriaEbsVolumeSizeInGib.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomputeoptimizerautomationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomputeoptimizerautomationrule"
 
 &dataawscccomputeoptimizerautomationrule.DataAwsccComputeoptimizerAutomationRuleCriteriaEbsVolumeSizeInGib {
 
@@ -910,7 +910,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomputeoptimi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccComputeoptimizerAutomationRule.DataAwsccComputeoptimizerAutomationRuleCriteriaEbsVolumeType.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomputeoptimizerautomationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomputeoptimizerautomationrule"
 
 &dataawscccomputeoptimizerautomationrule.DataAwsccComputeoptimizerAutomationRuleCriteriaEbsVolumeType {
 
@@ -923,7 +923,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomputeoptimi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccComputeoptimizerAutomationRule.DataAwsccComputeoptimizerAutomationRuleCriteriaEstimatedMonthlySavings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomputeoptimizerautomationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomputeoptimizerautomationrule"
 
 &dataawscccomputeoptimizerautomationrule.DataAwsccComputeoptimizerAutomationRuleCriteriaEstimatedMonthlySavings {
 
@@ -936,7 +936,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomputeoptimi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccComputeoptimizerAutomationRule.DataAwsccComputeoptimizerAutomationRuleCriteriaLookBackPeriodInDays.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomputeoptimizerautomationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomputeoptimizerautomationrule"
 
 &dataawscccomputeoptimizerautomationrule.DataAwsccComputeoptimizerAutomationRuleCriteriaLookBackPeriodInDays {
 
@@ -949,7 +949,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomputeoptimi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccComputeoptimizerAutomationRule.DataAwsccComputeoptimizerAutomationRuleCriteriaRegion.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomputeoptimizerautomationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomputeoptimizerautomationrule"
 
 &dataawscccomputeoptimizerautomationrule.DataAwsccComputeoptimizerAutomationRuleCriteriaRegion {
 
@@ -962,7 +962,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomputeoptimi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccComputeoptimizerAutomationRule.DataAwsccComputeoptimizerAutomationRuleCriteriaResourceArn.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomputeoptimizerautomationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomputeoptimizerautomationrule"
 
 &dataawscccomputeoptimizerautomationrule.DataAwsccComputeoptimizerAutomationRuleCriteriaResourceArn {
 
@@ -975,7 +975,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomputeoptimi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccComputeoptimizerAutomationRule.DataAwsccComputeoptimizerAutomationRuleCriteriaResourceTag.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomputeoptimizerautomationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomputeoptimizerautomationrule"
 
 &dataawscccomputeoptimizerautomationrule.DataAwsccComputeoptimizerAutomationRuleCriteriaResourceTag {
 
@@ -988,7 +988,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomputeoptimi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccComputeoptimizerAutomationRule.DataAwsccComputeoptimizerAutomationRuleCriteriaRestartNeeded.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomputeoptimizerautomationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomputeoptimizerautomationrule"
 
 &dataawscccomputeoptimizerautomationrule.DataAwsccComputeoptimizerAutomationRuleCriteriaRestartNeeded {
 
@@ -1001,7 +1001,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomputeoptimi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccComputeoptimizerAutomationRule.DataAwsccComputeoptimizerAutomationRuleOrganizationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomputeoptimizerautomationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomputeoptimizerautomationrule"
 
 &dataawscccomputeoptimizerautomationrule.DataAwsccComputeoptimizerAutomationRuleOrganizationConfiguration {
 
@@ -1014,7 +1014,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomputeoptimi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccComputeoptimizerAutomationRule.DataAwsccComputeoptimizerAutomationRuleSchedule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomputeoptimizerautomationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomputeoptimizerautomationrule"
 
 &dataawscccomputeoptimizerautomationrule.DataAwsccComputeoptimizerAutomationRuleSchedule {
 
@@ -1027,7 +1027,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomputeoptimi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccComputeoptimizerAutomationRule.DataAwsccComputeoptimizerAutomationRuleTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomputeoptimizerautomationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomputeoptimizerautomationrule"
 
 &dataawscccomputeoptimizerautomationrule.DataAwsccComputeoptimizerAutomationRuleTags {
 
@@ -1042,7 +1042,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomputeoptimi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccComputeoptimizerAutomationRule.DataAwsccComputeoptimizerAutomationRuleCriteriaEbsVolumeSizeInGibList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomputeoptimizerautomationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomputeoptimizerautomationrule"
 
 dataawscccomputeoptimizerautomationrule.NewDataAwsccComputeoptimizerAutomationRuleCriteriaEbsVolumeSizeInGibList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccComputeoptimizerAutomationRuleCriteriaEbsVolumeSizeInGibList
 ```
@@ -1191,7 +1191,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccComputeoptimizerAutomationRule.DataAwsccComputeoptimizerAutomationRuleCriteriaEbsVolumeSizeInGibOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomputeoptimizerautomationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomputeoptimizerautomationrule"
 
 dataawscccomputeoptimizerautomationrule.NewDataAwsccComputeoptimizerAutomationRuleCriteriaEbsVolumeSizeInGibOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccComputeoptimizerAutomationRuleCriteriaEbsVolumeSizeInGibOutputReference
 ```
@@ -1480,7 +1480,7 @@ func InternalValue() DataAwsccComputeoptimizerAutomationRuleCriteriaEbsVolumeSiz
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccComputeoptimizerAutomationRule.DataAwsccComputeoptimizerAutomationRuleCriteriaEbsVolumeTypeList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomputeoptimizerautomationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomputeoptimizerautomationrule"
 
 dataawscccomputeoptimizerautomationrule.NewDataAwsccComputeoptimizerAutomationRuleCriteriaEbsVolumeTypeList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccComputeoptimizerAutomationRuleCriteriaEbsVolumeTypeList
 ```
@@ -1629,7 +1629,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccComputeoptimizerAutomationRule.DataAwsccComputeoptimizerAutomationRuleCriteriaEbsVolumeTypeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomputeoptimizerautomationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomputeoptimizerautomationrule"
 
 dataawscccomputeoptimizerautomationrule.NewDataAwsccComputeoptimizerAutomationRuleCriteriaEbsVolumeTypeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccComputeoptimizerAutomationRuleCriteriaEbsVolumeTypeOutputReference
 ```
@@ -1918,7 +1918,7 @@ func InternalValue() DataAwsccComputeoptimizerAutomationRuleCriteriaEbsVolumeTyp
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccComputeoptimizerAutomationRule.DataAwsccComputeoptimizerAutomationRuleCriteriaEstimatedMonthlySavingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomputeoptimizerautomationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomputeoptimizerautomationrule"
 
 dataawscccomputeoptimizerautomationrule.NewDataAwsccComputeoptimizerAutomationRuleCriteriaEstimatedMonthlySavingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccComputeoptimizerAutomationRuleCriteriaEstimatedMonthlySavingsList
 ```
@@ -2067,7 +2067,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccComputeoptimizerAutomationRule.DataAwsccComputeoptimizerAutomationRuleCriteriaEstimatedMonthlySavingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomputeoptimizerautomationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomputeoptimizerautomationrule"
 
 dataawscccomputeoptimizerautomationrule.NewDataAwsccComputeoptimizerAutomationRuleCriteriaEstimatedMonthlySavingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccComputeoptimizerAutomationRuleCriteriaEstimatedMonthlySavingsOutputReference
 ```
@@ -2356,7 +2356,7 @@ func InternalValue() DataAwsccComputeoptimizerAutomationRuleCriteriaEstimatedMon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccComputeoptimizerAutomationRule.DataAwsccComputeoptimizerAutomationRuleCriteriaLookBackPeriodInDaysList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomputeoptimizerautomationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomputeoptimizerautomationrule"
 
 dataawscccomputeoptimizerautomationrule.NewDataAwsccComputeoptimizerAutomationRuleCriteriaLookBackPeriodInDaysList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccComputeoptimizerAutomationRuleCriteriaLookBackPeriodInDaysList
 ```
@@ -2505,7 +2505,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccComputeoptimizerAutomationRule.DataAwsccComputeoptimizerAutomationRuleCriteriaLookBackPeriodInDaysOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomputeoptimizerautomationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomputeoptimizerautomationrule"
 
 dataawscccomputeoptimizerautomationrule.NewDataAwsccComputeoptimizerAutomationRuleCriteriaLookBackPeriodInDaysOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccComputeoptimizerAutomationRuleCriteriaLookBackPeriodInDaysOutputReference
 ```
@@ -2794,7 +2794,7 @@ func InternalValue() DataAwsccComputeoptimizerAutomationRuleCriteriaLookBackPeri
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccComputeoptimizerAutomationRule.DataAwsccComputeoptimizerAutomationRuleCriteriaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomputeoptimizerautomationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomputeoptimizerautomationrule"
 
 dataawscccomputeoptimizerautomationrule.NewDataAwsccComputeoptimizerAutomationRuleCriteriaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccComputeoptimizerAutomationRuleCriteriaOutputReference
 ```
@@ -3131,7 +3131,7 @@ func InternalValue() DataAwsccComputeoptimizerAutomationRuleCriteria
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccComputeoptimizerAutomationRule.DataAwsccComputeoptimizerAutomationRuleCriteriaRegionList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomputeoptimizerautomationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomputeoptimizerautomationrule"
 
 dataawscccomputeoptimizerautomationrule.NewDataAwsccComputeoptimizerAutomationRuleCriteriaRegionList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccComputeoptimizerAutomationRuleCriteriaRegionList
 ```
@@ -3280,7 +3280,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccComputeoptimizerAutomationRule.DataAwsccComputeoptimizerAutomationRuleCriteriaRegionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomputeoptimizerautomationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomputeoptimizerautomationrule"
 
 dataawscccomputeoptimizerautomationrule.NewDataAwsccComputeoptimizerAutomationRuleCriteriaRegionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccComputeoptimizerAutomationRuleCriteriaRegionOutputReference
 ```
@@ -3569,7 +3569,7 @@ func InternalValue() DataAwsccComputeoptimizerAutomationRuleCriteriaRegion
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccComputeoptimizerAutomationRule.DataAwsccComputeoptimizerAutomationRuleCriteriaResourceArnList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomputeoptimizerautomationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomputeoptimizerautomationrule"
 
 dataawscccomputeoptimizerautomationrule.NewDataAwsccComputeoptimizerAutomationRuleCriteriaResourceArnList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccComputeoptimizerAutomationRuleCriteriaResourceArnList
 ```
@@ -3718,7 +3718,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccComputeoptimizerAutomationRule.DataAwsccComputeoptimizerAutomationRuleCriteriaResourceArnOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomputeoptimizerautomationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomputeoptimizerautomationrule"
 
 dataawscccomputeoptimizerautomationrule.NewDataAwsccComputeoptimizerAutomationRuleCriteriaResourceArnOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccComputeoptimizerAutomationRuleCriteriaResourceArnOutputReference
 ```
@@ -4007,7 +4007,7 @@ func InternalValue() DataAwsccComputeoptimizerAutomationRuleCriteriaResourceArn
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccComputeoptimizerAutomationRule.DataAwsccComputeoptimizerAutomationRuleCriteriaResourceTagList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomputeoptimizerautomationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomputeoptimizerautomationrule"
 
 dataawscccomputeoptimizerautomationrule.NewDataAwsccComputeoptimizerAutomationRuleCriteriaResourceTagList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccComputeoptimizerAutomationRuleCriteriaResourceTagList
 ```
@@ -4156,7 +4156,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccComputeoptimizerAutomationRule.DataAwsccComputeoptimizerAutomationRuleCriteriaResourceTagOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomputeoptimizerautomationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomputeoptimizerautomationrule"
 
 dataawscccomputeoptimizerautomationrule.NewDataAwsccComputeoptimizerAutomationRuleCriteriaResourceTagOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccComputeoptimizerAutomationRuleCriteriaResourceTagOutputReference
 ```
@@ -4456,7 +4456,7 @@ func InternalValue() DataAwsccComputeoptimizerAutomationRuleCriteriaResourceTag
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccComputeoptimizerAutomationRule.DataAwsccComputeoptimizerAutomationRuleCriteriaRestartNeededList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomputeoptimizerautomationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomputeoptimizerautomationrule"
 
 dataawscccomputeoptimizerautomationrule.NewDataAwsccComputeoptimizerAutomationRuleCriteriaRestartNeededList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccComputeoptimizerAutomationRuleCriteriaRestartNeededList
 ```
@@ -4605,7 +4605,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccComputeoptimizerAutomationRule.DataAwsccComputeoptimizerAutomationRuleCriteriaRestartNeededOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomputeoptimizerautomationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomputeoptimizerautomationrule"
 
 dataawscccomputeoptimizerautomationrule.NewDataAwsccComputeoptimizerAutomationRuleCriteriaRestartNeededOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccComputeoptimizerAutomationRuleCriteriaRestartNeededOutputReference
 ```
@@ -4894,7 +4894,7 @@ func InternalValue() DataAwsccComputeoptimizerAutomationRuleCriteriaRestartNeede
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccComputeoptimizerAutomationRule.DataAwsccComputeoptimizerAutomationRuleOrganizationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomputeoptimizerautomationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomputeoptimizerautomationrule"
 
 dataawscccomputeoptimizerautomationrule.NewDataAwsccComputeoptimizerAutomationRuleOrganizationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccComputeoptimizerAutomationRuleOrganizationConfigurationOutputReference
 ```
@@ -5165,7 +5165,7 @@ func InternalValue() DataAwsccComputeoptimizerAutomationRuleOrganizationConfigur
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccComputeoptimizerAutomationRule.DataAwsccComputeoptimizerAutomationRuleScheduleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomputeoptimizerautomationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomputeoptimizerautomationrule"
 
 dataawscccomputeoptimizerautomationrule.NewDataAwsccComputeoptimizerAutomationRuleScheduleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccComputeoptimizerAutomationRuleScheduleOutputReference
 ```
@@ -5447,7 +5447,7 @@ func InternalValue() DataAwsccComputeoptimizerAutomationRuleSchedule
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccComputeoptimizerAutomationRule.DataAwsccComputeoptimizerAutomationRuleTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomputeoptimizerautomationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomputeoptimizerautomationrule"
 
 dataawscccomputeoptimizerautomationrule.NewDataAwsccComputeoptimizerAutomationRuleTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccComputeoptimizerAutomationRuleTagsList
 ```
@@ -5596,7 +5596,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccComputeoptimizerAutomationRule.DataAwsccComputeoptimizerAutomationRuleTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomputeoptimizerautomationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomputeoptimizerautomationrule"
 
 dataawscccomputeoptimizerautomationrule.NewDataAwsccComputeoptimizerAutomationRuleTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccComputeoptimizerAutomationRuleTagsOutputReference
 ```

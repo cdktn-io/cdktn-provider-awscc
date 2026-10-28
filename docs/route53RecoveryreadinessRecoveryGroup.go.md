@@ -4,12 +4,12 @@
 
 ### Route53RecoveryreadinessRecoveryGroup <a name="Route53RecoveryreadinessRecoveryGroup" id="@cdktn/provider-awscc.route53RecoveryreadinessRecoveryGroup.Route53RecoveryreadinessRecoveryGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53recoveryreadiness_recovery_group awscc_route53recoveryreadiness_recovery_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53recoveryreadiness_recovery_group awscc_route53recoveryreadiness_recovery_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.route53RecoveryreadinessRecoveryGroup.Route53RecoveryreadinessRecoveryGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53recoveryreadinessrecoverygroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53recoveryreadinessrecoverygroup"
 
 route53recoveryreadinessrecoverygroup.NewRoute53RecoveryreadinessRecoveryGroup(scope Construct, id *string, config Route53RecoveryreadinessRecoveryGroupConfig) Route53RecoveryreadinessRecoveryGroup
 ```
@@ -434,7 +434,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.route53RecoveryreadinessRecoveryGroup.Route53RecoveryreadinessRecoveryGroup.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53recoveryreadinessrecoverygroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53recoveryreadinessrecoverygroup"
 
 route53recoveryreadinessrecoverygroup.Route53RecoveryreadinessRecoveryGroup_IsConstruct(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.route53RecoveryreadinessRecoveryGroup.Route53RecoveryreadinessRecoveryGroup.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53recoveryreadinessrecoverygroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53recoveryreadinessrecoverygroup"
 
 route53recoveryreadinessrecoverygroup.Route53RecoveryreadinessRecoveryGroup_IsTerraformElement(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ route53recoveryreadinessrecoverygroup.Route53RecoveryreadinessRecoveryGroup_IsTe
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.route53RecoveryreadinessRecoveryGroup.Route53RecoveryreadinessRecoveryGroup.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53recoveryreadinessrecoverygroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53recoveryreadinessrecoverygroup"
 
 route53recoveryreadinessrecoverygroup.Route53RecoveryreadinessRecoveryGroup_IsTerraformResource(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ route53recoveryreadinessrecoverygroup.Route53RecoveryreadinessRecoveryGroup_IsTe
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.route53RecoveryreadinessRecoveryGroup.Route53RecoveryreadinessRecoveryGroup.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53recoveryreadinessrecoverygroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53recoveryreadinessrecoverygroup"
 
 route53recoveryreadinessrecoverygroup.Route53RecoveryreadinessRecoveryGroup_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -523,7 +523,7 @@ The construct id used in the generated config for the Route53RecoveryreadinessRe
 
 The id of the existing Route53RecoveryreadinessRecoveryGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53recoveryreadiness_recovery_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53recoveryreadiness_recovery_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -811,7 +811,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.route53RecoveryreadinessRecoveryGroup.Route53RecoveryreadinessRecoveryGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53recoveryreadinessrecoverygroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53recoveryreadinessrecoverygroup"
 
 &route53recoveryreadinessrecoverygroup.Route53RecoveryreadinessRecoveryGroupConfig {
 	Connection: interface{},
@@ -924,7 +924,7 @@ Cells *[]*string
 
 A list of the cell Amazon Resource Names (ARNs) in the recovery group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53recoveryreadiness_recovery_group#cells Route53RecoveryreadinessRecoveryGroup#cells}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53recoveryreadiness_recovery_group#cells Route53RecoveryreadinessRecoveryGroup#cells}
 
 ---
 
@@ -938,7 +938,7 @@ RecoveryGroupName *string
 
 The name of the recovery group to create.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53recoveryreadiness_recovery_group#recovery_group_name Route53RecoveryreadinessRecoveryGroup#recovery_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53recoveryreadiness_recovery_group#recovery_group_name Route53RecoveryreadinessRecoveryGroup#recovery_group_name}
 
 ---
 
@@ -952,7 +952,7 @@ Tags interface{}
 
 A collection of tags associated with a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53recoveryreadiness_recovery_group#tags Route53RecoveryreadinessRecoveryGroup#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53recoveryreadiness_recovery_group#tags Route53RecoveryreadinessRecoveryGroup#tags}
 
 ---
 
@@ -961,7 +961,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.route53RecoveryreadinessRecoveryGroup.Route53RecoveryreadinessRecoveryGroupTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53recoveryreadinessrecoverygroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53recoveryreadinessrecoverygroup"
 
 &route53recoveryreadinessrecoverygroup.Route53RecoveryreadinessRecoveryGroupTags {
 	Key: *string,
@@ -973,8 +973,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53recoveryreadine
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.route53RecoveryreadinessRecoveryGroup.Route53RecoveryreadinessRecoveryGroupTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53recoveryreadiness_recovery_group#key Route53RecoveryreadinessRecoveryGroup#key}. |
-| <code><a href="#@cdktn/provider-awscc.route53RecoveryreadinessRecoveryGroup.Route53RecoveryreadinessRecoveryGroupTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53recoveryreadiness_recovery_group#value Route53RecoveryreadinessRecoveryGroup#value}. |
+| <code><a href="#@cdktn/provider-awscc.route53RecoveryreadinessRecoveryGroup.Route53RecoveryreadinessRecoveryGroupTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53recoveryreadiness_recovery_group#key Route53RecoveryreadinessRecoveryGroup#key}. |
+| <code><a href="#@cdktn/provider-awscc.route53RecoveryreadinessRecoveryGroup.Route53RecoveryreadinessRecoveryGroupTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53recoveryreadiness_recovery_group#value Route53RecoveryreadinessRecoveryGroup#value}. |
 
 ---
 
@@ -986,7 +986,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53recoveryreadiness_recovery_group#key Route53RecoveryreadinessRecoveryGroup#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53recoveryreadiness_recovery_group#key Route53RecoveryreadinessRecoveryGroup#key}.
 
 ---
 
@@ -998,7 +998,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53recoveryreadiness_recovery_group#value Route53RecoveryreadinessRecoveryGroup#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53recoveryreadiness_recovery_group#value Route53RecoveryreadinessRecoveryGroup#value}.
 
 ---
 
@@ -1009,7 +1009,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.route53RecoveryreadinessRecoveryGroup.Route53RecoveryreadinessRecoveryGroupTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53recoveryreadinessrecoverygroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53recoveryreadinessrecoverygroup"
 
 route53recoveryreadinessrecoverygroup.NewRoute53RecoveryreadinessRecoveryGroupTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Route53RecoveryreadinessRecoveryGroupTagsList
 ```
@@ -1169,7 +1169,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.route53RecoveryreadinessRecoveryGroup.Route53RecoveryreadinessRecoveryGroupTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53recoveryreadinessrecoverygroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53recoveryreadinessrecoverygroup"
 
 route53recoveryreadinessrecoverygroup.NewRoute53RecoveryreadinessRecoveryGroupTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) Route53RecoveryreadinessRecoveryGroupTagsOutputReference
 ```

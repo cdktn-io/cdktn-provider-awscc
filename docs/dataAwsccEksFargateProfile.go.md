@@ -4,12 +4,12 @@
 
 ### DataAwsccEksFargateProfile <a name="DataAwsccEksFargateProfile" id="@cdktn/provider-awscc.dataAwsccEksFargateProfile.DataAwsccEksFargateProfile"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/eks_fargate_profile awscc_eks_fargate_profile}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/eks_fargate_profile awscc_eks_fargate_profile}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEksFargateProfile.DataAwsccEksFargateProfile.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceksfargateprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceksfargateprofile"
 
 dataawscceksfargateprofile.NewDataAwsccEksFargateProfile(scope Construct, id *string, config DataAwsccEksFargateProfileConfig) DataAwsccEksFargateProfile
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEksFargateProfile.DataAwsccEksFargateProfile.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceksfargateprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceksfargateprofile"
 
 dataawscceksfargateprofile.DataAwsccEksFargateProfile_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEksFargateProfile.DataAwsccEksFargateProfile.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceksfargateprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceksfargateprofile"
 
 dataawscceksfargateprofile.DataAwsccEksFargateProfile_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscceksfargateprofile.DataAwsccEksFargateProfile_IsTerraformElement(x inter
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEksFargateProfile.DataAwsccEksFargateProfile.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceksfargateprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceksfargateprofile"
 
 dataawscceksfargateprofile.DataAwsccEksFargateProfile_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscceksfargateprofile.DataAwsccEksFargateProfile_IsTerraformDataSource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEksFargateProfile.DataAwsccEksFargateProfile.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceksfargateprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceksfargateprofile"
 
 dataawscceksfargateprofile.DataAwsccEksFargateProfile_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEksFargateProfile
 
 The id of the existing DataAwsccEksFargateProfile that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/eks_fargate_profile#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/eks_fargate_profile#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -664,7 +664,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEksFargateProfile.DataAwsccEksFargateProfileConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceksfargateprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceksfargateprofile"
 
 &dataawscceksfargateprofile.DataAwsccEksFargateProfileConfig {
 	Connection: interface{},
@@ -773,7 +773,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/eks_fargate_profile#id DataAwsccEksFargateProfile#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/eks_fargate_profile#id DataAwsccEksFargateProfile#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -785,7 +785,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEksFargateProfile.DataAwsccEksFargateProfileSelectors.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceksfargateprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceksfargateprofile"
 
 &dataawscceksfargateprofile.DataAwsccEksFargateProfileSelectors {
 
@@ -798,7 +798,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceksfargatepro
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEksFargateProfile.DataAwsccEksFargateProfileSelectorsLabels.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceksfargateprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceksfargateprofile"
 
 &dataawscceksfargateprofile.DataAwsccEksFargateProfileSelectorsLabels {
 
@@ -811,7 +811,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceksfargatepro
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEksFargateProfile.DataAwsccEksFargateProfileTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceksfargateprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceksfargateprofile"
 
 &dataawscceksfargateprofile.DataAwsccEksFargateProfileTags {
 
@@ -826,7 +826,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceksfargatepro
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEksFargateProfile.DataAwsccEksFargateProfileSelectorsLabelsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceksfargateprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceksfargateprofile"
 
 dataawscceksfargateprofile.NewDataAwsccEksFargateProfileSelectorsLabelsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEksFargateProfileSelectorsLabelsList
 ```
@@ -975,7 +975,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEksFargateProfile.DataAwsccEksFargateProfileSelectorsLabelsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceksfargateprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceksfargateprofile"
 
 dataawscceksfargateprofile.NewDataAwsccEksFargateProfileSelectorsLabelsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEksFargateProfileSelectorsLabelsOutputReference
 ```
@@ -1264,7 +1264,7 @@ func InternalValue() DataAwsccEksFargateProfileSelectorsLabels
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEksFargateProfile.DataAwsccEksFargateProfileSelectorsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceksfargateprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceksfargateprofile"
 
 dataawscceksfargateprofile.NewDataAwsccEksFargateProfileSelectorsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEksFargateProfileSelectorsList
 ```
@@ -1413,7 +1413,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEksFargateProfile.DataAwsccEksFargateProfileSelectorsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceksfargateprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceksfargateprofile"
 
 dataawscceksfargateprofile.NewDataAwsccEksFargateProfileSelectorsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEksFargateProfileSelectorsOutputReference
 ```
@@ -1702,7 +1702,7 @@ func InternalValue() DataAwsccEksFargateProfileSelectors
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEksFargateProfile.DataAwsccEksFargateProfileTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceksfargateprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceksfargateprofile"
 
 dataawscceksfargateprofile.NewDataAwsccEksFargateProfileTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEksFargateProfileTagsList
 ```
@@ -1851,7 +1851,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEksFargateProfile.DataAwsccEksFargateProfileTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceksfargateprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceksfargateprofile"
 
 dataawscceksfargateprofile.NewDataAwsccEksFargateProfileTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEksFargateProfileTagsOutputReference
 ```

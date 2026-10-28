@@ -4,12 +4,12 @@
 
 ### TransferWorkflow <a name="TransferWorkflow" id="@cdktn/provider-awscc.transferWorkflow.TransferWorkflow"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow awscc_transfer_workflow}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow awscc_transfer_workflow}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.transferWorkflow.TransferWorkflow.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferworkflow"
 
 transferworkflow.NewTransferWorkflow(scope Construct, id *string, config TransferWorkflowConfig) TransferWorkflow
 ```
@@ -460,7 +460,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.transferWorkflow.TransferWorkflow.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferworkflow"
 
 transferworkflow.TransferWorkflow_IsConstruct(x interface{}) *bool
 ```
@@ -492,7 +492,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.transferWorkflow.TransferWorkflow.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferworkflow"
 
 transferworkflow.TransferWorkflow_IsTerraformElement(x interface{}) *bool
 ```
@@ -506,7 +506,7 @@ transferworkflow.TransferWorkflow_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.transferWorkflow.TransferWorkflow.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferworkflow"
 
 transferworkflow.TransferWorkflow_IsTerraformResource(x interface{}) *bool
 ```
@@ -520,7 +520,7 @@ transferworkflow.TransferWorkflow_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.transferWorkflow.TransferWorkflow.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferworkflow"
 
 transferworkflow.TransferWorkflow_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -549,7 +549,7 @@ The construct id used in the generated config for the TransferWorkflow to import
 
 The id of the existing TransferWorkflow that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -870,7 +870,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.transferWorkflow.TransferWorkflowConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferworkflow"
 
 &transferworkflow.TransferWorkflowConfig {
 	Connection: interface{},
@@ -985,7 +985,7 @@ Steps interface{}
 
 Specifies the details for the steps that are in the specified workflow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#steps TransferWorkflow#steps}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#steps TransferWorkflow#steps}
 
 ---
 
@@ -999,7 +999,7 @@ Description *string
 
 A textual description for the workflow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#description TransferWorkflow#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#description TransferWorkflow#description}
 
 ---
 
@@ -1013,7 +1013,7 @@ OnExceptionSteps interface{}
 
 Specifies the steps (actions) to take if any errors are encountered during execution of the workflow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#on_exception_steps TransferWorkflow#on_exception_steps}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#on_exception_steps TransferWorkflow#on_exception_steps}
 
 ---
 
@@ -1029,7 +1029,7 @@ Key-value pairs that can be used to group and search for workflows.
 
 Tags are metadata attached to workflows for any purpose.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#tags TransferWorkflow#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#tags TransferWorkflow#tags}
 
 ---
 
@@ -1038,14 +1038,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.transferWorkflow.TransferWorkflowOnExceptionSteps.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferworkflow"
 
 &transferworkflow.TransferWorkflowOnExceptionSteps {
-	CopyStepDetails: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.transferWorkflow.TransferWorkflowOnExceptionStepsCopyStepDetails,
-	CustomStepDetails: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.transferWorkflow.TransferWorkflowOnExceptionStepsCustomStepDetails,
-	DecryptStepDetails: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.transferWorkflow.TransferWorkflowOnExceptionStepsDecryptStepDetails,
-	DeleteStepDetails: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.transferWorkflow.TransferWorkflowOnExceptionStepsDeleteStepDetails,
-	TagStepDetails: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.transferWorkflow.TransferWorkflowOnExceptionStepsTagStepDetails,
+	CopyStepDetails: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.transferWorkflow.TransferWorkflowOnExceptionStepsCopyStepDetails,
+	CustomStepDetails: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.transferWorkflow.TransferWorkflowOnExceptionStepsCustomStepDetails,
+	DecryptStepDetails: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.transferWorkflow.TransferWorkflowOnExceptionStepsDecryptStepDetails,
+	DeleteStepDetails: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.transferWorkflow.TransferWorkflowOnExceptionStepsDeleteStepDetails,
+	TagStepDetails: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.transferWorkflow.TransferWorkflowOnExceptionStepsTagStepDetails,
 	Type: *string,
 }
 ```
@@ -1059,7 +1059,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferworkflow"
 | <code><a href="#@cdktn/provider-awscc.transferWorkflow.TransferWorkflowOnExceptionSteps.property.decryptStepDetails">DecryptStepDetails</a></code> | <code><a href="#@cdktn/provider-awscc.transferWorkflow.TransferWorkflowOnExceptionStepsDecryptStepDetails">TransferWorkflowOnExceptionStepsDecryptStepDetails</a></code> | Details for a step that performs a file decryption. |
 | <code><a href="#@cdktn/provider-awscc.transferWorkflow.TransferWorkflowOnExceptionSteps.property.deleteStepDetails">DeleteStepDetails</a></code> | <code><a href="#@cdktn/provider-awscc.transferWorkflow.TransferWorkflowOnExceptionStepsDeleteStepDetails">TransferWorkflowOnExceptionStepsDeleteStepDetails</a></code> | Details for a step that deletes the file. |
 | <code><a href="#@cdktn/provider-awscc.transferWorkflow.TransferWorkflowOnExceptionSteps.property.tagStepDetails">TagStepDetails</a></code> | <code><a href="#@cdktn/provider-awscc.transferWorkflow.TransferWorkflowOnExceptionStepsTagStepDetails">TransferWorkflowOnExceptionStepsTagStepDetails</a></code> | Details for a step that creates one or more tags. |
-| <code><a href="#@cdktn/provider-awscc.transferWorkflow.TransferWorkflowOnExceptionSteps.property.type">Type</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#type TransferWorkflow#type}. |
+| <code><a href="#@cdktn/provider-awscc.transferWorkflow.TransferWorkflowOnExceptionSteps.property.type">Type</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#type TransferWorkflow#type}. |
 
 ---
 
@@ -1073,7 +1073,7 @@ CopyStepDetails TransferWorkflowOnExceptionStepsCopyStepDetails
 
 Details for a step that performs a file copy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#copy_step_details TransferWorkflow#copy_step_details}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#copy_step_details TransferWorkflow#copy_step_details}
 
 ---
 
@@ -1087,7 +1087,7 @@ CustomStepDetails TransferWorkflowOnExceptionStepsCustomStepDetails
 
 Details for a step that invokes a lambda function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#custom_step_details TransferWorkflow#custom_step_details}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#custom_step_details TransferWorkflow#custom_step_details}
 
 ---
 
@@ -1101,7 +1101,7 @@ DecryptStepDetails TransferWorkflowOnExceptionStepsDecryptStepDetails
 
 Details for a step that performs a file decryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#decrypt_step_details TransferWorkflow#decrypt_step_details}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#decrypt_step_details TransferWorkflow#decrypt_step_details}
 
 ---
 
@@ -1115,7 +1115,7 @@ DeleteStepDetails TransferWorkflowOnExceptionStepsDeleteStepDetails
 
 Details for a step that deletes the file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#delete_step_details TransferWorkflow#delete_step_details}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#delete_step_details TransferWorkflow#delete_step_details}
 
 ---
 
@@ -1129,7 +1129,7 @@ TagStepDetails TransferWorkflowOnExceptionStepsTagStepDetails
 
 Details for a step that creates one or more tags.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#tag_step_details TransferWorkflow#tag_step_details}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#tag_step_details TransferWorkflow#tag_step_details}
 
 ---
 
@@ -1141,7 +1141,7 @@ Type *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#type TransferWorkflow#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#type TransferWorkflow#type}.
 
 ---
 
@@ -1150,10 +1150,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.transferWorkflow.TransferWorkflowOnExceptionStepsCopyStepDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferworkflow"
 
 &transferworkflow.TransferWorkflowOnExceptionStepsCopyStepDetails {
-	DestinationFileLocation: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.transferWorkflow.TransferWorkflowOnExceptionStepsCopyStepDetailsDestinationFileLocation,
+	DestinationFileLocation: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.transferWorkflow.TransferWorkflowOnExceptionStepsCopyStepDetailsDestinationFileLocation,
 	Name: *string,
 	OverwriteExisting: *string,
 	SourceFileLocation: *string,
@@ -1181,7 +1181,7 @@ DestinationFileLocation TransferWorkflowOnExceptionStepsCopyStepDetailsDestinati
 
 Specifies the location for the file being copied. Only applicable for the Copy type of workflow steps.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#destination_file_location TransferWorkflow#destination_file_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#destination_file_location TransferWorkflow#destination_file_location}
 
 ---
 
@@ -1195,7 +1195,7 @@ Name *string
 
 The name of the step, used as an identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
 
 ---
 
@@ -1211,7 +1211,7 @@ A flag that indicates whether or not to overwrite an existing file of the same n
 
 The default is FALSE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#overwrite_existing TransferWorkflow#overwrite_existing}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#overwrite_existing TransferWorkflow#overwrite_existing}
 
 ---
 
@@ -1225,7 +1225,7 @@ SourceFileLocation *string
 
 Specifies which file to use as input to the workflow step.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
 
 ---
 
@@ -1234,10 +1234,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.transferWorkflow.TransferWorkflowOnExceptionStepsCopyStepDetailsDestinationFileLocation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferworkflow"
 
 &transferworkflow.TransferWorkflowOnExceptionStepsCopyStepDetailsDestinationFileLocation {
-	S3FileLocation: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.transferWorkflow.TransferWorkflowOnExceptionStepsCopyStepDetailsDestinationFileLocationS3FileLocation,
+	S3FileLocation: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.transferWorkflow.TransferWorkflowOnExceptionStepsCopyStepDetailsDestinationFileLocationS3FileLocation,
 }
 ```
 
@@ -1259,7 +1259,7 @@ S3FileLocation TransferWorkflowOnExceptionStepsCopyStepDetailsDestinationFileLoc
 
 Specifies the details for a S3 file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#s3_file_location TransferWorkflow#s3_file_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#s3_file_location TransferWorkflow#s3_file_location}
 
 ---
 
@@ -1268,7 +1268,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.transferWorkflow.TransferWorkflowOnExceptionStepsCopyStepDetailsDestinationFileLocationS3FileLocation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferworkflow"
 
 &transferworkflow.TransferWorkflowOnExceptionStepsCopyStepDetailsDestinationFileLocationS3FileLocation {
 	Bucket: *string,
@@ -1295,7 +1295,7 @@ Bucket *string
 
 Specifies the S3 bucket that contains the file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#bucket TransferWorkflow#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#bucket TransferWorkflow#bucket}
 
 ---
 
@@ -1311,7 +1311,7 @@ The name assigned to the file when it was created in S3.
 
 You use the object key to retrieve the object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#key TransferWorkflow#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#key TransferWorkflow#key}
 
 ---
 
@@ -1320,7 +1320,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.transferWorkflow.TransferWorkflowOnExceptionStepsCustomStepDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferworkflow"
 
 &transferworkflow.TransferWorkflowOnExceptionStepsCustomStepDetails {
 	Name: *string,
@@ -1351,7 +1351,7 @@ Name *string
 
 The name of the step, used as an identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
 
 ---
 
@@ -1365,7 +1365,7 @@ SourceFileLocation *string
 
 Specifies which file to use as input to the workflow step.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
 
 ---
 
@@ -1379,7 +1379,7 @@ Target *string
 
 The ARN for the lambda function that is being called.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#target TransferWorkflow#target}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#target TransferWorkflow#target}
 
 ---
 
@@ -1393,7 +1393,7 @@ TimeoutSeconds *f64
 
 Timeout, in seconds, for the step.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#timeout_seconds TransferWorkflow#timeout_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#timeout_seconds TransferWorkflow#timeout_seconds}
 
 ---
 
@@ -1402,10 +1402,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.transferWorkflow.TransferWorkflowOnExceptionStepsDecryptStepDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferworkflow"
 
 &transferworkflow.TransferWorkflowOnExceptionStepsDecryptStepDetails {
-	DestinationFileLocation: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.transferWorkflow.TransferWorkflowOnExceptionStepsDecryptStepDetailsDestinationFileLocation,
+	DestinationFileLocation: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.transferWorkflow.TransferWorkflowOnExceptionStepsDecryptStepDetailsDestinationFileLocation,
 	Name: *string,
 	OverwriteExisting: *string,
 	SourceFileLocation: *string,
@@ -1435,7 +1435,7 @@ DestinationFileLocation TransferWorkflowOnExceptionStepsDecryptStepDetailsDestin
 
 Specifies the location for the file being decrypted. Only applicable for the Decrypt type of workflow steps.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#destination_file_location TransferWorkflow#destination_file_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#destination_file_location TransferWorkflow#destination_file_location}
 
 ---
 
@@ -1449,7 +1449,7 @@ Name *string
 
 The name of the step, used as an identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
 
 ---
 
@@ -1465,7 +1465,7 @@ A flag that indicates whether or not to overwrite an existing file of the same n
 
 The default is FALSE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#overwrite_existing TransferWorkflow#overwrite_existing}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#overwrite_existing TransferWorkflow#overwrite_existing}
 
 ---
 
@@ -1479,7 +1479,7 @@ SourceFileLocation *string
 
 Specifies which file to use as input to the workflow step.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
 
 ---
 
@@ -1493,7 +1493,7 @@ Type *string
 
 Specifies which encryption method to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#type TransferWorkflow#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#type TransferWorkflow#type}
 
 ---
 
@@ -1502,11 +1502,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.transferWorkflow.TransferWorkflowOnExceptionStepsDecryptStepDetailsDestinationFileLocation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferworkflow"
 
 &transferworkflow.TransferWorkflowOnExceptionStepsDecryptStepDetailsDestinationFileLocation {
-	EfsFileLocation: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.transferWorkflow.TransferWorkflowOnExceptionStepsDecryptStepDetailsDestinationFileLocationEfsFileLocation,
-	S3FileLocation: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.transferWorkflow.TransferWorkflowOnExceptionStepsDecryptStepDetailsDestinationFileLocationS3FileLocation,
+	EfsFileLocation: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.transferWorkflow.TransferWorkflowOnExceptionStepsDecryptStepDetailsDestinationFileLocationEfsFileLocation,
+	S3FileLocation: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.transferWorkflow.TransferWorkflowOnExceptionStepsDecryptStepDetailsDestinationFileLocationS3FileLocation,
 }
 ```
 
@@ -1529,7 +1529,7 @@ EfsFileLocation TransferWorkflowOnExceptionStepsDecryptStepDetailsDestinationFil
 
 Specifies the details for an EFS file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#efs_file_location TransferWorkflow#efs_file_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#efs_file_location TransferWorkflow#efs_file_location}
 
 ---
 
@@ -1543,7 +1543,7 @@ S3FileLocation TransferWorkflowOnExceptionStepsDecryptStepDetailsDestinationFile
 
 Specifies the details for a S3 file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#s3_file_location TransferWorkflow#s3_file_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#s3_file_location TransferWorkflow#s3_file_location}
 
 ---
 
@@ -1552,7 +1552,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.transferWorkflow.TransferWorkflowOnExceptionStepsDecryptStepDetailsDestinationFileLocationEfsFileLocation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferworkflow"
 
 &transferworkflow.TransferWorkflowOnExceptionStepsDecryptStepDetailsDestinationFileLocationEfsFileLocation {
 	FileSystemId: *string,
@@ -1579,7 +1579,7 @@ FileSystemId *string
 
 Specifies the EFS filesystem that contains the file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#file_system_id TransferWorkflow#file_system_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#file_system_id TransferWorkflow#file_system_id}
 
 ---
 
@@ -1595,7 +1595,7 @@ The name assigned to the file when it was created in EFS.
 
 You use the object path to retrieve the object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#path TransferWorkflow#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#path TransferWorkflow#path}
 
 ---
 
@@ -1604,7 +1604,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.transferWorkflow.TransferWorkflowOnExceptionStepsDecryptStepDetailsDestinationFileLocationS3FileLocation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferworkflow"
 
 &transferworkflow.TransferWorkflowOnExceptionStepsDecryptStepDetailsDestinationFileLocationS3FileLocation {
 	Bucket: *string,
@@ -1631,7 +1631,7 @@ Bucket *string
 
 Specifies the S3 bucket that contains the file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#bucket TransferWorkflow#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#bucket TransferWorkflow#bucket}
 
 ---
 
@@ -1647,7 +1647,7 @@ The name assigned to the file when it was created in S3.
 
 You use the object key to retrieve the object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#key TransferWorkflow#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#key TransferWorkflow#key}
 
 ---
 
@@ -1656,7 +1656,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.transferWorkflow.TransferWorkflowOnExceptionStepsDeleteStepDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferworkflow"
 
 &transferworkflow.TransferWorkflowOnExceptionStepsDeleteStepDetails {
 	Name: *string,
@@ -1683,7 +1683,7 @@ Name *string
 
 The name of the step, used as an identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
 
 ---
 
@@ -1697,7 +1697,7 @@ SourceFileLocation *string
 
 Specifies which file to use as input to the workflow step.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
 
 ---
 
@@ -1706,7 +1706,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.transferWorkflow.TransferWorkflowOnExceptionStepsTagStepDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferworkflow"
 
 &transferworkflow.TransferWorkflowOnExceptionStepsTagStepDetails {
 	Name: *string,
@@ -1735,7 +1735,7 @@ Name *string
 
 The name of the step, used as an identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
 
 ---
 
@@ -1749,7 +1749,7 @@ SourceFileLocation *string
 
 Specifies which file to use as input to the workflow step.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
 
 ---
 
@@ -1763,7 +1763,7 @@ Tags interface{}
 
 Array that contains from 1 to 10 key/value pairs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#tags TransferWorkflow#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#tags TransferWorkflow#tags}
 
 ---
 
@@ -1772,7 +1772,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.transferWorkflow.TransferWorkflowOnExceptionStepsTagStepDetailsTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferworkflow"
 
 &transferworkflow.TransferWorkflowOnExceptionStepsTagStepDetailsTags {
 	Key: *string,
@@ -1799,7 +1799,7 @@ Key *string
 
 The name assigned to the tag that you create.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#key TransferWorkflow#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#key TransferWorkflow#key}
 
 ---
 
@@ -1813,7 +1813,7 @@ Value *string
 
 The value that corresponds to the key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#value TransferWorkflow#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#value TransferWorkflow#value}
 
 ---
 
@@ -1822,14 +1822,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.transferWorkflow.TransferWorkflowSteps.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferworkflow"
 
 &transferworkflow.TransferWorkflowSteps {
-	CopyStepDetails: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.transferWorkflow.TransferWorkflowStepsCopyStepDetails,
-	CustomStepDetails: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.transferWorkflow.TransferWorkflowStepsCustomStepDetails,
-	DecryptStepDetails: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.transferWorkflow.TransferWorkflowStepsDecryptStepDetails,
-	DeleteStepDetails: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.transferWorkflow.TransferWorkflowStepsDeleteStepDetails,
-	TagStepDetails: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.transferWorkflow.TransferWorkflowStepsTagStepDetails,
+	CopyStepDetails: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.transferWorkflow.TransferWorkflowStepsCopyStepDetails,
+	CustomStepDetails: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.transferWorkflow.TransferWorkflowStepsCustomStepDetails,
+	DecryptStepDetails: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.transferWorkflow.TransferWorkflowStepsDecryptStepDetails,
+	DeleteStepDetails: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.transferWorkflow.TransferWorkflowStepsDeleteStepDetails,
+	TagStepDetails: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.transferWorkflow.TransferWorkflowStepsTagStepDetails,
 	Type: *string,
 }
 ```
@@ -1843,7 +1843,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferworkflow"
 | <code><a href="#@cdktn/provider-awscc.transferWorkflow.TransferWorkflowSteps.property.decryptStepDetails">DecryptStepDetails</a></code> | <code><a href="#@cdktn/provider-awscc.transferWorkflow.TransferWorkflowStepsDecryptStepDetails">TransferWorkflowStepsDecryptStepDetails</a></code> | Details for a step that performs a file decryption. |
 | <code><a href="#@cdktn/provider-awscc.transferWorkflow.TransferWorkflowSteps.property.deleteStepDetails">DeleteStepDetails</a></code> | <code><a href="#@cdktn/provider-awscc.transferWorkflow.TransferWorkflowStepsDeleteStepDetails">TransferWorkflowStepsDeleteStepDetails</a></code> | Details for a step that deletes the file. |
 | <code><a href="#@cdktn/provider-awscc.transferWorkflow.TransferWorkflowSteps.property.tagStepDetails">TagStepDetails</a></code> | <code><a href="#@cdktn/provider-awscc.transferWorkflow.TransferWorkflowStepsTagStepDetails">TransferWorkflowStepsTagStepDetails</a></code> | Details for a step that creates one or more tags. |
-| <code><a href="#@cdktn/provider-awscc.transferWorkflow.TransferWorkflowSteps.property.type">Type</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#type TransferWorkflow#type}. |
+| <code><a href="#@cdktn/provider-awscc.transferWorkflow.TransferWorkflowSteps.property.type">Type</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#type TransferWorkflow#type}. |
 
 ---
 
@@ -1857,7 +1857,7 @@ CopyStepDetails TransferWorkflowStepsCopyStepDetails
 
 Details for a step that performs a file copy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#copy_step_details TransferWorkflow#copy_step_details}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#copy_step_details TransferWorkflow#copy_step_details}
 
 ---
 
@@ -1871,7 +1871,7 @@ CustomStepDetails TransferWorkflowStepsCustomStepDetails
 
 Details for a step that invokes a lambda function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#custom_step_details TransferWorkflow#custom_step_details}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#custom_step_details TransferWorkflow#custom_step_details}
 
 ---
 
@@ -1885,7 +1885,7 @@ DecryptStepDetails TransferWorkflowStepsDecryptStepDetails
 
 Details for a step that performs a file decryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#decrypt_step_details TransferWorkflow#decrypt_step_details}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#decrypt_step_details TransferWorkflow#decrypt_step_details}
 
 ---
 
@@ -1899,7 +1899,7 @@ DeleteStepDetails TransferWorkflowStepsDeleteStepDetails
 
 Details for a step that deletes the file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#delete_step_details TransferWorkflow#delete_step_details}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#delete_step_details TransferWorkflow#delete_step_details}
 
 ---
 
@@ -1913,7 +1913,7 @@ TagStepDetails TransferWorkflowStepsTagStepDetails
 
 Details for a step that creates one or more tags.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#tag_step_details TransferWorkflow#tag_step_details}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#tag_step_details TransferWorkflow#tag_step_details}
 
 ---
 
@@ -1925,7 +1925,7 @@ Type *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#type TransferWorkflow#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#type TransferWorkflow#type}.
 
 ---
 
@@ -1934,10 +1934,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.transferWorkflow.TransferWorkflowStepsCopyStepDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferworkflow"
 
 &transferworkflow.TransferWorkflowStepsCopyStepDetails {
-	DestinationFileLocation: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.transferWorkflow.TransferWorkflowStepsCopyStepDetailsDestinationFileLocation,
+	DestinationFileLocation: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.transferWorkflow.TransferWorkflowStepsCopyStepDetailsDestinationFileLocation,
 	Name: *string,
 	OverwriteExisting: *string,
 	SourceFileLocation: *string,
@@ -1965,7 +1965,7 @@ DestinationFileLocation TransferWorkflowStepsCopyStepDetailsDestinationFileLocat
 
 Specifies the location for the file being copied. Only applicable for the Copy type of workflow steps.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#destination_file_location TransferWorkflow#destination_file_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#destination_file_location TransferWorkflow#destination_file_location}
 
 ---
 
@@ -1979,7 +1979,7 @@ Name *string
 
 The name of the step, used as an identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
 
 ---
 
@@ -1995,7 +1995,7 @@ A flag that indicates whether or not to overwrite an existing file of the same n
 
 The default is FALSE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#overwrite_existing TransferWorkflow#overwrite_existing}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#overwrite_existing TransferWorkflow#overwrite_existing}
 
 ---
 
@@ -2009,7 +2009,7 @@ SourceFileLocation *string
 
 Specifies which file to use as input to the workflow step.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
 
 ---
 
@@ -2018,10 +2018,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.transferWorkflow.TransferWorkflowStepsCopyStepDetailsDestinationFileLocation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferworkflow"
 
 &transferworkflow.TransferWorkflowStepsCopyStepDetailsDestinationFileLocation {
-	S3FileLocation: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.transferWorkflow.TransferWorkflowStepsCopyStepDetailsDestinationFileLocationS3FileLocation,
+	S3FileLocation: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.transferWorkflow.TransferWorkflowStepsCopyStepDetailsDestinationFileLocationS3FileLocation,
 }
 ```
 
@@ -2043,7 +2043,7 @@ S3FileLocation TransferWorkflowStepsCopyStepDetailsDestinationFileLocationS3File
 
 Specifies the details for a S3 file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#s3_file_location TransferWorkflow#s3_file_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#s3_file_location TransferWorkflow#s3_file_location}
 
 ---
 
@@ -2052,7 +2052,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.transferWorkflow.TransferWorkflowStepsCopyStepDetailsDestinationFileLocationS3FileLocation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferworkflow"
 
 &transferworkflow.TransferWorkflowStepsCopyStepDetailsDestinationFileLocationS3FileLocation {
 	Bucket: *string,
@@ -2079,7 +2079,7 @@ Bucket *string
 
 Specifies the S3 bucket that contains the file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#bucket TransferWorkflow#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#bucket TransferWorkflow#bucket}
 
 ---
 
@@ -2095,7 +2095,7 @@ The name assigned to the file when it was created in S3.
 
 You use the object key to retrieve the object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#key TransferWorkflow#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#key TransferWorkflow#key}
 
 ---
 
@@ -2104,7 +2104,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.transferWorkflow.TransferWorkflowStepsCustomStepDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferworkflow"
 
 &transferworkflow.TransferWorkflowStepsCustomStepDetails {
 	Name: *string,
@@ -2135,7 +2135,7 @@ Name *string
 
 The name of the step, used as an identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
 
 ---
 
@@ -2149,7 +2149,7 @@ SourceFileLocation *string
 
 Specifies which file to use as input to the workflow step.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
 
 ---
 
@@ -2163,7 +2163,7 @@ Target *string
 
 The ARN for the lambda function that is being called.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#target TransferWorkflow#target}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#target TransferWorkflow#target}
 
 ---
 
@@ -2177,7 +2177,7 @@ TimeoutSeconds *f64
 
 Timeout, in seconds, for the step.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#timeout_seconds TransferWorkflow#timeout_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#timeout_seconds TransferWorkflow#timeout_seconds}
 
 ---
 
@@ -2186,10 +2186,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.transferWorkflow.TransferWorkflowStepsDecryptStepDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferworkflow"
 
 &transferworkflow.TransferWorkflowStepsDecryptStepDetails {
-	DestinationFileLocation: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.transferWorkflow.TransferWorkflowStepsDecryptStepDetailsDestinationFileLocation,
+	DestinationFileLocation: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.transferWorkflow.TransferWorkflowStepsDecryptStepDetailsDestinationFileLocation,
 	Name: *string,
 	OverwriteExisting: *string,
 	SourceFileLocation: *string,
@@ -2219,7 +2219,7 @@ DestinationFileLocation TransferWorkflowStepsDecryptStepDetailsDestinationFileLo
 
 Specifies the location for the file being decrypted. Only applicable for the Decrypt type of workflow steps.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#destination_file_location TransferWorkflow#destination_file_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#destination_file_location TransferWorkflow#destination_file_location}
 
 ---
 
@@ -2233,7 +2233,7 @@ Name *string
 
 The name of the step, used as an identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
 
 ---
 
@@ -2249,7 +2249,7 @@ A flag that indicates whether or not to overwrite an existing file of the same n
 
 The default is FALSE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#overwrite_existing TransferWorkflow#overwrite_existing}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#overwrite_existing TransferWorkflow#overwrite_existing}
 
 ---
 
@@ -2263,7 +2263,7 @@ SourceFileLocation *string
 
 Specifies which file to use as input to the workflow step.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
 
 ---
 
@@ -2277,7 +2277,7 @@ Type *string
 
 Specifies which encryption method to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#type TransferWorkflow#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#type TransferWorkflow#type}
 
 ---
 
@@ -2286,11 +2286,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.transferWorkflow.TransferWorkflowStepsDecryptStepDetailsDestinationFileLocation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferworkflow"
 
 &transferworkflow.TransferWorkflowStepsDecryptStepDetailsDestinationFileLocation {
-	EfsFileLocation: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.transferWorkflow.TransferWorkflowStepsDecryptStepDetailsDestinationFileLocationEfsFileLocation,
-	S3FileLocation: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.transferWorkflow.TransferWorkflowStepsDecryptStepDetailsDestinationFileLocationS3FileLocation,
+	EfsFileLocation: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.transferWorkflow.TransferWorkflowStepsDecryptStepDetailsDestinationFileLocationEfsFileLocation,
+	S3FileLocation: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.transferWorkflow.TransferWorkflowStepsDecryptStepDetailsDestinationFileLocationS3FileLocation,
 }
 ```
 
@@ -2313,7 +2313,7 @@ EfsFileLocation TransferWorkflowStepsDecryptStepDetailsDestinationFileLocationEf
 
 Specifies the details for an EFS file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#efs_file_location TransferWorkflow#efs_file_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#efs_file_location TransferWorkflow#efs_file_location}
 
 ---
 
@@ -2327,7 +2327,7 @@ S3FileLocation TransferWorkflowStepsDecryptStepDetailsDestinationFileLocationS3F
 
 Specifies the details for a S3 file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#s3_file_location TransferWorkflow#s3_file_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#s3_file_location TransferWorkflow#s3_file_location}
 
 ---
 
@@ -2336,7 +2336,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.transferWorkflow.TransferWorkflowStepsDecryptStepDetailsDestinationFileLocationEfsFileLocation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferworkflow"
 
 &transferworkflow.TransferWorkflowStepsDecryptStepDetailsDestinationFileLocationEfsFileLocation {
 	FileSystemId: *string,
@@ -2363,7 +2363,7 @@ FileSystemId *string
 
 Specifies the EFS filesystem that contains the file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#file_system_id TransferWorkflow#file_system_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#file_system_id TransferWorkflow#file_system_id}
 
 ---
 
@@ -2379,7 +2379,7 @@ The name assigned to the file when it was created in EFS.
 
 You use the object path to retrieve the object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#path TransferWorkflow#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#path TransferWorkflow#path}
 
 ---
 
@@ -2388,7 +2388,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.transferWorkflow.TransferWorkflowStepsDecryptStepDetailsDestinationFileLocationS3FileLocation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferworkflow"
 
 &transferworkflow.TransferWorkflowStepsDecryptStepDetailsDestinationFileLocationS3FileLocation {
 	Bucket: *string,
@@ -2415,7 +2415,7 @@ Bucket *string
 
 Specifies the S3 bucket that contains the file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#bucket TransferWorkflow#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#bucket TransferWorkflow#bucket}
 
 ---
 
@@ -2431,7 +2431,7 @@ The name assigned to the file when it was created in S3.
 
 You use the object key to retrieve the object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#key TransferWorkflow#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#key TransferWorkflow#key}
 
 ---
 
@@ -2440,7 +2440,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.transferWorkflow.TransferWorkflowStepsDeleteStepDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferworkflow"
 
 &transferworkflow.TransferWorkflowStepsDeleteStepDetails {
 	Name: *string,
@@ -2467,7 +2467,7 @@ Name *string
 
 The name of the step, used as an identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
 
 ---
 
@@ -2481,7 +2481,7 @@ SourceFileLocation *string
 
 Specifies which file to use as input to the workflow step.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
 
 ---
 
@@ -2490,7 +2490,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.transferWorkflow.TransferWorkflowStepsTagStepDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferworkflow"
 
 &transferworkflow.TransferWorkflowStepsTagStepDetails {
 	Name: *string,
@@ -2519,7 +2519,7 @@ Name *string
 
 The name of the step, used as an identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
 
 ---
 
@@ -2533,7 +2533,7 @@ SourceFileLocation *string
 
 Specifies which file to use as input to the workflow step.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
 
 ---
 
@@ -2547,7 +2547,7 @@ Tags interface{}
 
 Array that contains from 1 to 10 key/value pairs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#tags TransferWorkflow#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#tags TransferWorkflow#tags}
 
 ---
 
@@ -2556,7 +2556,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.transferWorkflow.TransferWorkflowStepsTagStepDetailsTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferworkflow"
 
 &transferworkflow.TransferWorkflowStepsTagStepDetailsTags {
 	Key: *string,
@@ -2583,7 +2583,7 @@ Key *string
 
 The name assigned to the tag that you create.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#key TransferWorkflow#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#key TransferWorkflow#key}
 
 ---
 
@@ -2597,7 +2597,7 @@ Value *string
 
 The value that corresponds to the key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#value TransferWorkflow#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#value TransferWorkflow#value}
 
 ---
 
@@ -2606,7 +2606,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.transferWorkflow.TransferWorkflowTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferworkflow"
 
 &transferworkflow.TransferWorkflowTags {
 	Key: *string,
@@ -2633,7 +2633,7 @@ Key *string
 
 The name assigned to the tag that you create.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#key TransferWorkflow#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#key TransferWorkflow#key}
 
 ---
 
@@ -2647,7 +2647,7 @@ Value *string
 
 Contains one or more values that you assigned to the key name you create.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_workflow#value TransferWorkflow#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_workflow#value TransferWorkflow#value}
 
 ---
 
@@ -2658,7 +2658,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.transferWorkflow.TransferWorkflowOnExceptionStepsCopyStepDetailsDestinationFileLocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferworkflow"
 
 transferworkflow.NewTransferWorkflowOnExceptionStepsCopyStepDetailsDestinationFileLocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) TransferWorkflowOnExceptionStepsCopyStepDetailsDestinationFileLocationOutputReference
 ```
@@ -2949,7 +2949,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.transferWorkflow.TransferWorkflowOnExceptionStepsCopyStepDetailsDestinationFileLocationS3FileLocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferworkflow"
 
 transferworkflow.NewTransferWorkflowOnExceptionStepsCopyStepDetailsDestinationFileLocationS3FileLocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) TransferWorkflowOnExceptionStepsCopyStepDetailsDestinationFileLocationS3FileLocationOutputReference
 ```
@@ -3256,7 +3256,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.transferWorkflow.TransferWorkflowOnExceptionStepsCopyStepDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferworkflow"
 
 transferworkflow.NewTransferWorkflowOnExceptionStepsCopyStepDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) TransferWorkflowOnExceptionStepsCopyStepDetailsOutputReference
 ```
@@ -3634,7 +3634,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.transferWorkflow.TransferWorkflowOnExceptionStepsCustomStepDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferworkflow"
 
 transferworkflow.NewTransferWorkflowOnExceptionStepsCustomStepDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) TransferWorkflowOnExceptionStepsCustomStepDetailsOutputReference
 ```
@@ -3999,7 +3999,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.transferWorkflow.TransferWorkflowOnExceptionStepsDecryptStepDetailsDestinationFileLocationEfsFileLocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferworkflow"
 
 transferworkflow.NewTransferWorkflowOnExceptionStepsDecryptStepDetailsDestinationFileLocationEfsFileLocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) TransferWorkflowOnExceptionStepsDecryptStepDetailsDestinationFileLocationEfsFileLocationOutputReference
 ```
@@ -4306,7 +4306,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.transferWorkflow.TransferWorkflowOnExceptionStepsDecryptStepDetailsDestinationFileLocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferworkflow"
 
 transferworkflow.NewTransferWorkflowOnExceptionStepsDecryptStepDetailsDestinationFileLocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) TransferWorkflowOnExceptionStepsDecryptStepDetailsDestinationFileLocationOutputReference
 ```
@@ -4639,7 +4639,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.transferWorkflow.TransferWorkflowOnExceptionStepsDecryptStepDetailsDestinationFileLocationS3FileLocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferworkflow"
 
 transferworkflow.NewTransferWorkflowOnExceptionStepsDecryptStepDetailsDestinationFileLocationS3FileLocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) TransferWorkflowOnExceptionStepsDecryptStepDetailsDestinationFileLocationS3FileLocationOutputReference
 ```
@@ -4946,7 +4946,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.transferWorkflow.TransferWorkflowOnExceptionStepsDecryptStepDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferworkflow"
 
 transferworkflow.NewTransferWorkflowOnExceptionStepsDecryptStepDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) TransferWorkflowOnExceptionStepsDecryptStepDetailsOutputReference
 ```
@@ -5353,7 +5353,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.transferWorkflow.TransferWorkflowOnExceptionStepsDeleteStepDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferworkflow"
 
 transferworkflow.NewTransferWorkflowOnExceptionStepsDeleteStepDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) TransferWorkflowOnExceptionStepsDeleteStepDetailsOutputReference
 ```
@@ -5660,7 +5660,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.transferWorkflow.TransferWorkflowOnExceptionStepsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferworkflow"
 
 transferworkflow.NewTransferWorkflowOnExceptionStepsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) TransferWorkflowOnExceptionStepsList
 ```
@@ -5820,7 +5820,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.transferWorkflow.TransferWorkflowOnExceptionStepsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferworkflow"
 
 transferworkflow.NewTransferWorkflowOnExceptionStepsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) TransferWorkflowOnExceptionStepsOutputReference
 ```
@@ -6326,7 +6326,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.transferWorkflow.TransferWorkflowOnExceptionStepsTagStepDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferworkflow"
 
 transferworkflow.NewTransferWorkflowOnExceptionStepsTagStepDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) TransferWorkflowOnExceptionStepsTagStepDetailsOutputReference
 ```
@@ -6675,7 +6675,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.transferWorkflow.TransferWorkflowOnExceptionStepsTagStepDetailsTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferworkflow"
 
 transferworkflow.NewTransferWorkflowOnExceptionStepsTagStepDetailsTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) TransferWorkflowOnExceptionStepsTagStepDetailsTagsList
 ```
@@ -6835,7 +6835,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.transferWorkflow.TransferWorkflowOnExceptionStepsTagStepDetailsTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferworkflow"
 
 transferworkflow.NewTransferWorkflowOnExceptionStepsTagStepDetailsTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) TransferWorkflowOnExceptionStepsTagStepDetailsTagsOutputReference
 ```
@@ -7160,7 +7160,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.transferWorkflow.TransferWorkflowStepsCopyStepDetailsDestinationFileLocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferworkflow"
 
 transferworkflow.NewTransferWorkflowStepsCopyStepDetailsDestinationFileLocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) TransferWorkflowStepsCopyStepDetailsDestinationFileLocationOutputReference
 ```
@@ -7451,7 +7451,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.transferWorkflow.TransferWorkflowStepsCopyStepDetailsDestinationFileLocationS3FileLocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferworkflow"
 
 transferworkflow.NewTransferWorkflowStepsCopyStepDetailsDestinationFileLocationS3FileLocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) TransferWorkflowStepsCopyStepDetailsDestinationFileLocationS3FileLocationOutputReference
 ```
@@ -7758,7 +7758,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.transferWorkflow.TransferWorkflowStepsCopyStepDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferworkflow"
 
 transferworkflow.NewTransferWorkflowStepsCopyStepDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) TransferWorkflowStepsCopyStepDetailsOutputReference
 ```
@@ -8136,7 +8136,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.transferWorkflow.TransferWorkflowStepsCustomStepDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferworkflow"
 
 transferworkflow.NewTransferWorkflowStepsCustomStepDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) TransferWorkflowStepsCustomStepDetailsOutputReference
 ```
@@ -8501,7 +8501,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.transferWorkflow.TransferWorkflowStepsDecryptStepDetailsDestinationFileLocationEfsFileLocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferworkflow"
 
 transferworkflow.NewTransferWorkflowStepsDecryptStepDetailsDestinationFileLocationEfsFileLocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) TransferWorkflowStepsDecryptStepDetailsDestinationFileLocationEfsFileLocationOutputReference
 ```
@@ -8808,7 +8808,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.transferWorkflow.TransferWorkflowStepsDecryptStepDetailsDestinationFileLocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferworkflow"
 
 transferworkflow.NewTransferWorkflowStepsDecryptStepDetailsDestinationFileLocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) TransferWorkflowStepsDecryptStepDetailsDestinationFileLocationOutputReference
 ```
@@ -9141,7 +9141,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.transferWorkflow.TransferWorkflowStepsDecryptStepDetailsDestinationFileLocationS3FileLocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferworkflow"
 
 transferworkflow.NewTransferWorkflowStepsDecryptStepDetailsDestinationFileLocationS3FileLocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) TransferWorkflowStepsDecryptStepDetailsDestinationFileLocationS3FileLocationOutputReference
 ```
@@ -9448,7 +9448,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.transferWorkflow.TransferWorkflowStepsDecryptStepDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferworkflow"
 
 transferworkflow.NewTransferWorkflowStepsDecryptStepDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) TransferWorkflowStepsDecryptStepDetailsOutputReference
 ```
@@ -9855,7 +9855,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.transferWorkflow.TransferWorkflowStepsDeleteStepDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferworkflow"
 
 transferworkflow.NewTransferWorkflowStepsDeleteStepDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) TransferWorkflowStepsDeleteStepDetailsOutputReference
 ```
@@ -10162,7 +10162,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.transferWorkflow.TransferWorkflowStepsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferworkflow"
 
 transferworkflow.NewTransferWorkflowStepsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) TransferWorkflowStepsList
 ```
@@ -10322,7 +10322,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.transferWorkflow.TransferWorkflowStepsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferworkflow"
 
 transferworkflow.NewTransferWorkflowStepsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) TransferWorkflowStepsOutputReference
 ```
@@ -10828,7 +10828,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.transferWorkflow.TransferWorkflowStepsTagStepDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferworkflow"
 
 transferworkflow.NewTransferWorkflowStepsTagStepDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) TransferWorkflowStepsTagStepDetailsOutputReference
 ```
@@ -11177,7 +11177,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.transferWorkflow.TransferWorkflowStepsTagStepDetailsTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferworkflow"
 
 transferworkflow.NewTransferWorkflowStepsTagStepDetailsTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) TransferWorkflowStepsTagStepDetailsTagsList
 ```
@@ -11337,7 +11337,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.transferWorkflow.TransferWorkflowStepsTagStepDetailsTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferworkflow"
 
 transferworkflow.NewTransferWorkflowStepsTagStepDetailsTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) TransferWorkflowStepsTagStepDetailsTagsOutputReference
 ```
@@ -11662,7 +11662,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.transferWorkflow.TransferWorkflowTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferworkflow"
 
 transferworkflow.NewTransferWorkflowTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) TransferWorkflowTagsList
 ```
@@ -11822,7 +11822,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.transferWorkflow.TransferWorkflowTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferworkflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferworkflow"
 
 transferworkflow.NewTransferWorkflowTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) TransferWorkflowTagsOutputReference
 ```

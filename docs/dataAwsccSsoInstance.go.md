@@ -4,12 +4,12 @@
 
 ### DataAwsccSsoInstance <a name="DataAwsccSsoInstance" id="@cdktn/provider-awscc.dataAwsccSsoInstance.DataAwsccSsoInstance"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sso_instance awscc_sso_instance}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sso_instance awscc_sso_instance}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsoInstance.DataAwsccSsoInstance.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssoinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssoinstance"
 
 dataawsccssoinstance.NewDataAwsccSsoInstance(scope Construct, id *string, config DataAwsccSsoInstanceConfig) DataAwsccSsoInstance
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSsoInstance.DataAwsccSsoInstance.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssoinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssoinstance"
 
 dataawsccssoinstance.DataAwsccSsoInstance_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSsoInstance.DataAwsccSsoInstance.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssoinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssoinstance"
 
 dataawsccssoinstance.DataAwsccSsoInstance_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccssoinstance.DataAwsccSsoInstance_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSsoInstance.DataAwsccSsoInstance.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssoinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssoinstance"
 
 dataawsccssoinstance.DataAwsccSsoInstance_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccssoinstance.DataAwsccSsoInstance_IsTerraformDataSource(x interface{}) *
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSsoInstance.DataAwsccSsoInstance.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssoinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssoinstance"
 
 dataawsccssoinstance.DataAwsccSsoInstance_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSsoInstance to im
 
 The id of the existing DataAwsccSsoInstance that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sso_instance#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sso_instance#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -653,7 +653,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSsoInstance.DataAwsccSsoInstanceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssoinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssoinstance"
 
 &dataawsccssoinstance.DataAwsccSsoInstanceConfig {
 	Connection: interface{},
@@ -762,7 +762,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sso_instance#id DataAwsccSsoInstance#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sso_instance#id DataAwsccSsoInstance#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -774,7 +774,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSsoInstance.DataAwsccSsoInstanceTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssoinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssoinstance"
 
 &dataawsccssoinstance.DataAwsccSsoInstanceTags {
 
@@ -789,7 +789,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssoinstance"
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsoInstance.DataAwsccSsoInstanceTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssoinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssoinstance"
 
 dataawsccssoinstance.NewDataAwsccSsoInstanceTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSsoInstanceTagsList
 ```
@@ -938,7 +938,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsoInstance.DataAwsccSsoInstanceTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssoinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssoinstance"
 
 dataawsccssoinstance.NewDataAwsccSsoInstanceTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSsoInstanceTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### ConnectTestCase <a name="ConnectTestCase" id="@cdktn/provider-awscc.connectTestCase.ConnectTestCase"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_test_case awscc_connect_test_case}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_test_case awscc_connect_test_case}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectTestCase.ConnectTestCase.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecttestcase"
 
 connecttestcase.NewConnectTestCase(scope Construct, id *string, config ConnectTestCaseConfig) ConnectTestCase
 ```
@@ -461,7 +461,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.connectTestCase.ConnectTestCase.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecttestcase"
 
 connecttestcase.ConnectTestCase_IsConstruct(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.connectTestCase.ConnectTestCase.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecttestcase"
 
 connecttestcase.ConnectTestCase_IsTerraformElement(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ connecttestcase.ConnectTestCase_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.connectTestCase.ConnectTestCase.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecttestcase"
 
 connecttestcase.ConnectTestCase_IsTerraformResource(x interface{}) *bool
 ```
@@ -521,7 +521,7 @@ connecttestcase.ConnectTestCase_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.connectTestCase.ConnectTestCase.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecttestcase"
 
 connecttestcase.ConnectTestCase_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -550,7 +550,7 @@ The construct id used in the generated config for the ConnectTestCase to import.
 
 The id of the existing ConnectTestCase that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_test_case#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_test_case#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -970,7 +970,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectTestCase.ConnectTestCaseConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecttestcase"
 
 &connecttestcase.ConnectTestCaseConfig {
 	Connection: interface{},
@@ -984,7 +984,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecttestcase"
 	InstanceArn: *string,
 	Name: *string,
 	Description: *string,
-	EntryPoint: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.connectTestCase.ConnectTestCaseEntryPoint,
+	EntryPoint: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.connectTestCase.ConnectTestCaseEntryPoint,
 	InitializationData: *string,
 	Status: *string,
 	Tags: interface{},
@@ -1093,7 +1093,7 @@ Content *string
 
 The content of the test case.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_test_case#content ConnectTestCase#content}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_test_case#content ConnectTestCase#content}
 
 ---
 
@@ -1107,7 +1107,7 @@ InstanceArn *string
 
 The identifier of the Amazon Connect instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_test_case#instance_arn ConnectTestCase#instance_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_test_case#instance_arn ConnectTestCase#instance_arn}
 
 ---
 
@@ -1121,7 +1121,7 @@ Name *string
 
 The name of the test case.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_test_case#name ConnectTestCase#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_test_case#name ConnectTestCase#name}
 
 ---
 
@@ -1135,7 +1135,7 @@ Description *string
 
 The description of the test case.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_test_case#description ConnectTestCase#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_test_case#description ConnectTestCase#description}
 
 ---
 
@@ -1149,7 +1149,7 @@ EntryPoint ConnectTestCaseEntryPoint
 
 Entry point for Testcase.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_test_case#entry_point ConnectTestCase#entry_point}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_test_case#entry_point ConnectTestCase#entry_point}
 
 ---
 
@@ -1163,7 +1163,7 @@ InitializationData *string
 
 The initialization data of the test case.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_test_case#initialization_data ConnectTestCase#initialization_data}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_test_case#initialization_data ConnectTestCase#initialization_data}
 
 ---
 
@@ -1177,7 +1177,7 @@ Status *string
 
 The status of the test case.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_test_case#status ConnectTestCase#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_test_case#status ConnectTestCase#status}
 
 ---
 
@@ -1191,7 +1191,7 @@ Tags interface{}
 
 One or more tags.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_test_case#tags ConnectTestCase#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_test_case#tags ConnectTestCase#tags}
 
 ---
 
@@ -1200,12 +1200,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectTestCase.ConnectTestCaseEntryPoint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecttestcase"
 
 &connecttestcase.ConnectTestCaseEntryPoint {
-	ChatEntryPointParameters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.connectTestCase.ConnectTestCaseEntryPointChatEntryPointParameters,
+	ChatEntryPointParameters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.connectTestCase.ConnectTestCaseEntryPointChatEntryPointParameters,
 	Type: *string,
-	VoiceCallEntryPointParameters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.connectTestCase.ConnectTestCaseEntryPointVoiceCallEntryPointParameters,
+	VoiceCallEntryPointParameters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.connectTestCase.ConnectTestCaseEntryPointVoiceCallEntryPointParameters,
 }
 ```
 
@@ -1229,7 +1229,7 @@ ChatEntryPointParameters ConnectTestCaseEntryPointChatEntryPointParameters
 
 The chat entry point parameters for the test case.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_test_case#chat_entry_point_parameters ConnectTestCase#chat_entry_point_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_test_case#chat_entry_point_parameters ConnectTestCase#chat_entry_point_parameters}
 
 ---
 
@@ -1243,7 +1243,7 @@ Type *string
 
 The type of the Entry Point.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_test_case#type ConnectTestCase#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_test_case#type ConnectTestCase#type}
 
 ---
 
@@ -1257,7 +1257,7 @@ VoiceCallEntryPointParameters ConnectTestCaseEntryPointVoiceCallEntryPointParame
 
 The voice call entry point parameters for the test case.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_test_case#voice_call_entry_point_parameters ConnectTestCase#voice_call_entry_point_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_test_case#voice_call_entry_point_parameters ConnectTestCase#voice_call_entry_point_parameters}
 
 ---
 
@@ -1266,7 +1266,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectTestCase.ConnectTestCaseEntryPointChatEntryPointParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecttestcase"
 
 &connecttestcase.ConnectTestCaseEntryPointChatEntryPointParameters {
 	FlowId: *string,
@@ -1291,7 +1291,7 @@ FlowId *string
 
 The flow id used for the TestCase.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_test_case#flow_id ConnectTestCase#flow_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_test_case#flow_id ConnectTestCase#flow_id}
 
 ---
 
@@ -1300,7 +1300,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectTestCase.ConnectTestCaseEntryPointVoiceCallEntryPointParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecttestcase"
 
 &connecttestcase.ConnectTestCaseEntryPointVoiceCallEntryPointParameters {
 	DestinationPhoneNumber: *string,
@@ -1329,7 +1329,7 @@ DestinationPhoneNumber *string
 
 The destination phonenumber of the EntryPoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_test_case#destination_phone_number ConnectTestCase#destination_phone_number}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_test_case#destination_phone_number ConnectTestCase#destination_phone_number}
 
 ---
 
@@ -1343,7 +1343,7 @@ FlowId *string
 
 The flow id used for the TestCase.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_test_case#flow_id ConnectTestCase#flow_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_test_case#flow_id ConnectTestCase#flow_id}
 
 ---
 
@@ -1357,7 +1357,7 @@ SourcePhoneNumber *string
 
 The source phonenumber of the EntryPoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_test_case#source_phone_number ConnectTestCase#source_phone_number}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_test_case#source_phone_number ConnectTestCase#source_phone_number}
 
 ---
 
@@ -1366,7 +1366,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectTestCase.ConnectTestCaseTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecttestcase"
 
 &connecttestcase.ConnectTestCaseTags {
 	Key: *string,
@@ -1395,7 +1395,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_test_case#key ConnectTestCase#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_test_case#key ConnectTestCase#key}
 
 ---
 
@@ -1411,7 +1411,7 @@ The value for the tag.
 
 You can specify a value that is maximum of 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_test_case#value ConnectTestCase#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_test_case#value ConnectTestCase#value}
 
 ---
 
@@ -1422,7 +1422,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectTestCase.ConnectTestCaseEntryPointChatEntryPointParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecttestcase"
 
 connecttestcase.NewConnectTestCaseEntryPointChatEntryPointParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ConnectTestCaseEntryPointChatEntryPointParametersOutputReference
 ```
@@ -1700,7 +1700,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectTestCase.ConnectTestCaseEntryPointOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecttestcase"
 
 connecttestcase.NewConnectTestCaseEntryPointOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ConnectTestCaseEntryPointOutputReference
 ```
@@ -2062,7 +2062,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectTestCase.ConnectTestCaseEntryPointVoiceCallEntryPointParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecttestcase"
 
 connecttestcase.NewConnectTestCaseEntryPointVoiceCallEntryPointParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ConnectTestCaseEntryPointVoiceCallEntryPointParametersOutputReference
 ```
@@ -2398,7 +2398,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectTestCase.ConnectTestCaseTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecttestcase"
 
 connecttestcase.NewConnectTestCaseTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ConnectTestCaseTagsList
 ```
@@ -2558,7 +2558,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectTestCase.ConnectTestCaseTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecttestcase"
 
 connecttestcase.NewConnectTestCaseTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ConnectTestCaseTagsOutputReference
 ```

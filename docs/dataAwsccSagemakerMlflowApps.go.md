@@ -4,12 +4,12 @@
 
 ### DataAwsccSagemakerMlflowApps <a name="DataAwsccSagemakerMlflowApps" id="@cdktn/provider-awscc.dataAwsccSagemakerMlflowApps.DataAwsccSagemakerMlflowApps"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_mlflow_apps awscc_sagemaker_mlflow_apps}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_mlflow_apps awscc_sagemaker_mlflow_apps}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerMlflowApps.DataAwsccSagemakerMlflowApps.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermlflowapps"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermlflowapps"
 
 dataawsccsagemakermlflowapps.NewDataAwsccSagemakerMlflowApps(scope Construct, id *string, config DataAwsccSagemakerMlflowAppsConfig) DataAwsccSagemakerMlflowApps
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSagemakerMlflowApps.DataAwsccSagemakerMlflowApps.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermlflowapps"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermlflowapps"
 
 dataawsccsagemakermlflowapps.DataAwsccSagemakerMlflowApps_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSagemakerMlflowApps.DataAwsccSagemakerMlflowApps.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermlflowapps"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermlflowapps"
 
 dataawsccsagemakermlflowapps.DataAwsccSagemakerMlflowApps_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsagemakermlflowapps.DataAwsccSagemakerMlflowApps_IsTerraformElement(x i
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSagemakerMlflowApps.DataAwsccSagemakerMlflowApps.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermlflowapps"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermlflowapps"
 
 dataawsccsagemakermlflowapps.DataAwsccSagemakerMlflowApps_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsagemakermlflowapps.DataAwsccSagemakerMlflowApps_IsTerraformDataSource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSagemakerMlflowApps.DataAwsccSagemakerMlflowApps.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermlflowapps"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermlflowapps"
 
 dataawsccsagemakermlflowapps.DataAwsccSagemakerMlflowApps_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSagemakerMlflowAp
 
 The id of the existing DataAwsccSagemakerMlflowApps that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_mlflow_apps#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_mlflow_apps#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerMlflowApps.DataAwsccSagemakerMlflowAppsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermlflowapps"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermlflowapps"
 
 &dataawsccsagemakermlflowapps.DataAwsccSagemakerMlflowAppsConfig {
 	Connection: interface{},

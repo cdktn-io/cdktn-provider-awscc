@@ -4,12 +4,12 @@
 
 ### Apigatewayv2ApiGatewayManagedOverrides <a name="Apigatewayv2ApiGatewayManagedOverrides" id="@cdktn/provider-awscc.apigatewayv2ApiGatewayManagedOverrides.Apigatewayv2ApiGatewayManagedOverrides"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_api_gateway_managed_overrides awscc_apigatewayv2_api_gateway_managed_overrides}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_api_gateway_managed_overrides awscc_apigatewayv2_api_gateway_managed_overrides}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apigatewayv2ApiGatewayManagedOverrides.Apigatewayv2ApiGatewayManagedOverrides.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayv2apigatewaymanagedoverrides"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayv2apigatewaymanagedoverrides"
 
 apigatewayv2apigatewaymanagedoverrides.NewApigatewayv2ApiGatewayManagedOverrides(scope Construct, id *string, config Apigatewayv2ApiGatewayManagedOverridesConfig) Apigatewayv2ApiGatewayManagedOverrides
 ```
@@ -460,7 +460,7 @@ func ResetStage()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.apigatewayv2ApiGatewayManagedOverrides.Apigatewayv2ApiGatewayManagedOverrides.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayv2apigatewaymanagedoverrides"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayv2apigatewaymanagedoverrides"
 
 apigatewayv2apigatewaymanagedoverrides.Apigatewayv2ApiGatewayManagedOverrides_IsConstruct(x interface{}) *bool
 ```
@@ -492,7 +492,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.apigatewayv2ApiGatewayManagedOverrides.Apigatewayv2ApiGatewayManagedOverrides.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayv2apigatewaymanagedoverrides"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayv2apigatewaymanagedoverrides"
 
 apigatewayv2apigatewaymanagedoverrides.Apigatewayv2ApiGatewayManagedOverrides_IsTerraformElement(x interface{}) *bool
 ```
@@ -506,7 +506,7 @@ apigatewayv2apigatewaymanagedoverrides.Apigatewayv2ApiGatewayManagedOverrides_Is
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.apigatewayv2ApiGatewayManagedOverrides.Apigatewayv2ApiGatewayManagedOverrides.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayv2apigatewaymanagedoverrides"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayv2apigatewaymanagedoverrides"
 
 apigatewayv2apigatewaymanagedoverrides.Apigatewayv2ApiGatewayManagedOverrides_IsTerraformResource(x interface{}) *bool
 ```
@@ -520,7 +520,7 @@ apigatewayv2apigatewaymanagedoverrides.Apigatewayv2ApiGatewayManagedOverrides_Is
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.apigatewayv2ApiGatewayManagedOverrides.Apigatewayv2ApiGatewayManagedOverrides.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayv2apigatewaymanagedoverrides"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayv2apigatewaymanagedoverrides"
 
 apigatewayv2apigatewaymanagedoverrides.Apigatewayv2ApiGatewayManagedOverrides_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -549,7 +549,7 @@ The construct id used in the generated config for the Apigatewayv2ApiGatewayMana
 
 The id of the existing Apigatewayv2ApiGatewayManagedOverrides that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_api_gateway_managed_overrides#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_api_gateway_managed_overrides#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -859,7 +859,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.apigatewayv2ApiGatewayManagedOverrides.Apigatewayv2ApiGatewayManagedOverridesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayv2apigatewaymanagedoverrides"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayv2apigatewaymanagedoverrides"
 
 &apigatewayv2apigatewaymanagedoverrides.Apigatewayv2ApiGatewayManagedOverridesConfig {
 	Connection: interface{},
@@ -870,9 +870,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayv2apigateway
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	ApiId: *string,
-	Integration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.apigatewayv2ApiGatewayManagedOverrides.Apigatewayv2ApiGatewayManagedOverridesIntegration,
-	Route: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.apigatewayv2ApiGatewayManagedOverrides.Apigatewayv2ApiGatewayManagedOverridesRoute,
-	Stage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.apigatewayv2ApiGatewayManagedOverrides.Apigatewayv2ApiGatewayManagedOverridesStage,
+	Integration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.apigatewayv2ApiGatewayManagedOverrides.Apigatewayv2ApiGatewayManagedOverridesIntegration,
+	Route: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.apigatewayv2ApiGatewayManagedOverrides.Apigatewayv2ApiGatewayManagedOverridesRoute,
+	Stage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.apigatewayv2ApiGatewayManagedOverrides.Apigatewayv2ApiGatewayManagedOverridesStage,
 }
 ```
 
@@ -974,7 +974,7 @@ ApiId *string
 
 The ID of the API for which to override the configuration of API Gateway-managed resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_api_gateway_managed_overrides#api_id Apigatewayv2ApiGatewayManagedOverrides#api_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_api_gateway_managed_overrides#api_id Apigatewayv2ApiGatewayManagedOverrides#api_id}
 
 ---
 
@@ -988,7 +988,7 @@ Integration Apigatewayv2ApiGatewayManagedOverridesIntegration
 
 Overrides the integration configuration for an API Gateway-managed integration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_api_gateway_managed_overrides#integration Apigatewayv2ApiGatewayManagedOverrides#integration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_api_gateway_managed_overrides#integration Apigatewayv2ApiGatewayManagedOverrides#integration}
 
 ---
 
@@ -1002,7 +1002,7 @@ Route Apigatewayv2ApiGatewayManagedOverridesRoute
 
 Overrides the route configuration for an API Gateway-managed route.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_api_gateway_managed_overrides#route Apigatewayv2ApiGatewayManagedOverrides#route}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_api_gateway_managed_overrides#route Apigatewayv2ApiGatewayManagedOverrides#route}
 
 ---
 
@@ -1016,7 +1016,7 @@ Stage Apigatewayv2ApiGatewayManagedOverridesStage
 
 Overrides the stage configuration for an API Gateway-managed stage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_api_gateway_managed_overrides#stage Apigatewayv2ApiGatewayManagedOverrides#stage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_api_gateway_managed_overrides#stage Apigatewayv2ApiGatewayManagedOverrides#stage}
 
 ---
 
@@ -1025,7 +1025,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.apigatewayv2ApiGatewayManagedOverrides.Apigatewayv2ApiGatewayManagedOverridesIntegration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayv2apigatewaymanagedoverrides"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayv2apigatewaymanagedoverrides"
 
 &apigatewayv2apigatewaymanagedoverrides.Apigatewayv2ApiGatewayManagedOverridesIntegration {
 	Description: *string,
@@ -1056,7 +1056,7 @@ Description *string
 
 The description of the integration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_api_gateway_managed_overrides#description Apigatewayv2ApiGatewayManagedOverrides#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_api_gateway_managed_overrides#description Apigatewayv2ApiGatewayManagedOverrides#description}
 
 ---
 
@@ -1072,7 +1072,7 @@ Specifies the integration's HTTP method type.
 
 For WebSocket APIs, if you use a Lambda integration, you must set the integration method to POST.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_api_gateway_managed_overrides#integration_method Apigatewayv2ApiGatewayManagedOverrides#integration_method}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_api_gateway_managed_overrides#integration_method Apigatewayv2ApiGatewayManagedOverrides#integration_method}
 
 ---
 
@@ -1088,7 +1088,7 @@ Specifies the format of the payload sent to an integration.
 
 Required for HTTP APIs. For HTTP APIs, supported values for Lambda proxy integrations are 1.0 and 2.0. For all other integrations, 1.0 is the only supported value
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_api_gateway_managed_overrides#payload_format_version Apigatewayv2ApiGatewayManagedOverrides#payload_format_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_api_gateway_managed_overrides#payload_format_version Apigatewayv2ApiGatewayManagedOverrides#payload_format_version}
 
 ---
 
@@ -1104,7 +1104,7 @@ Custom timeout between 50 and 29,000 milliseconds for WebSocket APIs and between
 
 The default timeout is 29 seconds for WebSocket APIs and 30 seconds for HTTP APIs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_api_gateway_managed_overrides#timeout_in_millis Apigatewayv2ApiGatewayManagedOverrides#timeout_in_millis}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_api_gateway_managed_overrides#timeout_in_millis Apigatewayv2ApiGatewayManagedOverrides#timeout_in_millis}
 
 ---
 
@@ -1113,7 +1113,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.apigatewayv2ApiGatewayManagedOverrides.Apigatewayv2ApiGatewayManagedOverridesRoute.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayv2apigatewaymanagedoverrides"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayv2apigatewaymanagedoverrides"
 
 &apigatewayv2apigatewaymanagedoverrides.Apigatewayv2ApiGatewayManagedOverridesRoute {
 	AuthorizationScopes: *[]*string,
@@ -1146,7 +1146,7 @@ AuthorizationScopes *[]*string
 
 The authorization scopes supported by this route.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_api_gateway_managed_overrides#authorization_scopes Apigatewayv2ApiGatewayManagedOverrides#authorization_scopes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_api_gateway_managed_overrides#authorization_scopes Apigatewayv2ApiGatewayManagedOverrides#authorization_scopes}
 
 ---
 
@@ -1160,7 +1160,7 @@ AuthorizationType *string
 
 The authorization type for the route. To learn more, see AuthorizationType.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_api_gateway_managed_overrides#authorization_type Apigatewayv2ApiGatewayManagedOverrides#authorization_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_api_gateway_managed_overrides#authorization_type Apigatewayv2ApiGatewayManagedOverrides#authorization_type}
 
 ---
 
@@ -1176,7 +1176,7 @@ The identifier of the Authorizer resource to be associated with this route.
 
 The authorizer identifier is generated by API Gateway when you created the authorizer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_api_gateway_managed_overrides#authorizer_id Apigatewayv2ApiGatewayManagedOverrides#authorizer_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_api_gateway_managed_overrides#authorizer_id Apigatewayv2ApiGatewayManagedOverrides#authorizer_id}
 
 ---
 
@@ -1190,7 +1190,7 @@ OperationName *string
 
 The operation name for the route.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_api_gateway_managed_overrides#operation_name Apigatewayv2ApiGatewayManagedOverrides#operation_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_api_gateway_managed_overrides#operation_name Apigatewayv2ApiGatewayManagedOverrides#operation_name}
 
 ---
 
@@ -1206,7 +1206,7 @@ For HTTP integrations, specify a fully qualified URL.
 
 For Lambda integrations, specify a function ARN. The type of the integration will be HTTP_PROXY or AWS_PROXY, respectively.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_api_gateway_managed_overrides#target Apigatewayv2ApiGatewayManagedOverrides#target}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_api_gateway_managed_overrides#target Apigatewayv2ApiGatewayManagedOverrides#target}
 
 ---
 
@@ -1215,12 +1215,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.apigatewayv2ApiGatewayManagedOverrides.Apigatewayv2ApiGatewayManagedOverridesStage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayv2apigatewaymanagedoverrides"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayv2apigatewaymanagedoverrides"
 
 &apigatewayv2apigatewaymanagedoverrides.Apigatewayv2ApiGatewayManagedOverridesStage {
-	AccessLogSettings: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.apigatewayv2ApiGatewayManagedOverrides.Apigatewayv2ApiGatewayManagedOverridesStageAccessLogSettings,
+	AccessLogSettings: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.apigatewayv2ApiGatewayManagedOverrides.Apigatewayv2ApiGatewayManagedOverridesStageAccessLogSettings,
 	AutoDeploy: interface{},
-	DefaultRouteSettings: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.apigatewayv2ApiGatewayManagedOverrides.Apigatewayv2ApiGatewayManagedOverridesStageDefaultRouteSettings,
+	DefaultRouteSettings: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.apigatewayv2ApiGatewayManagedOverrides.Apigatewayv2ApiGatewayManagedOverridesStageDefaultRouteSettings,
 	Description: *string,
 	RouteSettings: interface{},
 	StageVariables: *map[string]*string,
@@ -1250,7 +1250,7 @@ AccessLogSettings Apigatewayv2ApiGatewayManagedOverridesStageAccessLogSettings
 
 Settings for logging access in a stage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_api_gateway_managed_overrides#access_log_settings Apigatewayv2ApiGatewayManagedOverrides#access_log_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_api_gateway_managed_overrides#access_log_settings Apigatewayv2ApiGatewayManagedOverrides#access_log_settings}
 
 ---
 
@@ -1264,7 +1264,7 @@ AutoDeploy interface{}
 
 Specifies whether updates to an API automatically trigger a new deployment. The default value is true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_api_gateway_managed_overrides#auto_deploy Apigatewayv2ApiGatewayManagedOverrides#auto_deploy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_api_gateway_managed_overrides#auto_deploy Apigatewayv2ApiGatewayManagedOverrides#auto_deploy}
 
 ---
 
@@ -1278,7 +1278,7 @@ DefaultRouteSettings Apigatewayv2ApiGatewayManagedOverridesStageDefaultRouteSett
 
 The default route settings for the stage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_api_gateway_managed_overrides#default_route_settings Apigatewayv2ApiGatewayManagedOverrides#default_route_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_api_gateway_managed_overrides#default_route_settings Apigatewayv2ApiGatewayManagedOverrides#default_route_settings}
 
 ---
 
@@ -1292,7 +1292,7 @@ Description *string
 
 The description for the API stage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_api_gateway_managed_overrides#description Apigatewayv2ApiGatewayManagedOverrides#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_api_gateway_managed_overrides#description Apigatewayv2ApiGatewayManagedOverrides#description}
 
 ---
 
@@ -1306,7 +1306,7 @@ RouteSettings interface{}
 
 Route settings for the stage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_api_gateway_managed_overrides#route_settings Apigatewayv2ApiGatewayManagedOverrides#route_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_api_gateway_managed_overrides#route_settings Apigatewayv2ApiGatewayManagedOverrides#route_settings}
 
 ---
 
@@ -1322,7 +1322,7 @@ A map that defines the stage variables for a Stage.
 
 Variable names can have alphanumeric and underscore characters, and the values must match [A-Za-z0-9-._~:/?#&=,]+.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_api_gateway_managed_overrides#stage_variables Apigatewayv2ApiGatewayManagedOverrides#stage_variables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_api_gateway_managed_overrides#stage_variables Apigatewayv2ApiGatewayManagedOverrides#stage_variables}
 
 ---
 
@@ -1331,7 +1331,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.apigatewayv2ApiGatewayManagedOverrides.Apigatewayv2ApiGatewayManagedOverridesStageAccessLogSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayv2apigatewaymanagedoverrides"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayv2apigatewaymanagedoverrides"
 
 &apigatewayv2apigatewaymanagedoverrides.Apigatewayv2ApiGatewayManagedOverridesStageAccessLogSettings {
 	DestinationArn: *string,
@@ -1358,7 +1358,7 @@ DestinationArn *string
 
 The ARN of the CloudWatch Logs log group to receive access logs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_api_gateway_managed_overrides#destination_arn Apigatewayv2ApiGatewayManagedOverrides#destination_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_api_gateway_managed_overrides#destination_arn Apigatewayv2ApiGatewayManagedOverrides#destination_arn}
 
 ---
 
@@ -1374,7 +1374,7 @@ A single line format of the access logs of data, as specified by selected $conte
 
 The format must include at least $context.requestId.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_api_gateway_managed_overrides#format Apigatewayv2ApiGatewayManagedOverrides#format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_api_gateway_managed_overrides#format Apigatewayv2ApiGatewayManagedOverrides#format}
 
 ---
 
@@ -1383,7 +1383,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.apigatewayv2ApiGatewayManagedOverrides.Apigatewayv2ApiGatewayManagedOverridesStageDefaultRouteSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayv2apigatewaymanagedoverrides"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayv2apigatewaymanagedoverrides"
 
 &apigatewayv2apigatewaymanagedoverrides.Apigatewayv2ApiGatewayManagedOverridesStageDefaultRouteSettings {
 	DetailedMetricsEnabled: interface{},
@@ -1412,7 +1412,7 @@ DetailedMetricsEnabled interface{}
 
 Specifies whether detailed metrics are enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_api_gateway_managed_overrides#detailed_metrics_enabled Apigatewayv2ApiGatewayManagedOverrides#detailed_metrics_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_api_gateway_managed_overrides#detailed_metrics_enabled Apigatewayv2ApiGatewayManagedOverrides#detailed_metrics_enabled}
 
 ---
 
@@ -1426,7 +1426,7 @@ ThrottlingBurstLimit *f64
 
 Specifies the throttling burst limit.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_api_gateway_managed_overrides#throttling_burst_limit Apigatewayv2ApiGatewayManagedOverrides#throttling_burst_limit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_api_gateway_managed_overrides#throttling_burst_limit Apigatewayv2ApiGatewayManagedOverrides#throttling_burst_limit}
 
 ---
 
@@ -1440,7 +1440,7 @@ ThrottlingRateLimit *f64
 
 Specifies the throttling rate limit.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_api_gateway_managed_overrides#throttling_rate_limit Apigatewayv2ApiGatewayManagedOverrides#throttling_rate_limit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_api_gateway_managed_overrides#throttling_rate_limit Apigatewayv2ApiGatewayManagedOverrides#throttling_rate_limit}
 
 ---
 
@@ -1449,7 +1449,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.apigatewayv2ApiGatewayManagedOverrides.Apigatewayv2ApiGatewayManagedOverridesStageRouteSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayv2apigatewaymanagedoverrides"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayv2apigatewaymanagedoverrides"
 
 &apigatewayv2apigatewaymanagedoverrides.Apigatewayv2ApiGatewayManagedOverridesStageRouteSettings {
 	DetailedMetricsEnabled: interface{},
@@ -1478,7 +1478,7 @@ DetailedMetricsEnabled interface{}
 
 Specifies whether detailed metrics are enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_api_gateway_managed_overrides#detailed_metrics_enabled Apigatewayv2ApiGatewayManagedOverrides#detailed_metrics_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_api_gateway_managed_overrides#detailed_metrics_enabled Apigatewayv2ApiGatewayManagedOverrides#detailed_metrics_enabled}
 
 ---
 
@@ -1492,7 +1492,7 @@ ThrottlingBurstLimit *f64
 
 Specifies the throttling burst limit.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_api_gateway_managed_overrides#throttling_burst_limit Apigatewayv2ApiGatewayManagedOverrides#throttling_burst_limit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_api_gateway_managed_overrides#throttling_burst_limit Apigatewayv2ApiGatewayManagedOverrides#throttling_burst_limit}
 
 ---
 
@@ -1506,7 +1506,7 @@ ThrottlingRateLimit *f64
 
 Specifies the throttling rate limit.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_api_gateway_managed_overrides#throttling_rate_limit Apigatewayv2ApiGatewayManagedOverrides#throttling_rate_limit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_api_gateway_managed_overrides#throttling_rate_limit Apigatewayv2ApiGatewayManagedOverrides#throttling_rate_limit}
 
 ---
 
@@ -1517,7 +1517,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apigatewayv2ApiGatewayManagedOverrides.Apigatewayv2ApiGatewayManagedOverridesIntegrationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayv2apigatewaymanagedoverrides"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayv2apigatewaymanagedoverrides"
 
 apigatewayv2apigatewaymanagedoverrides.NewApigatewayv2ApiGatewayManagedOverridesIntegrationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Apigatewayv2ApiGatewayManagedOverridesIntegrationOutputReference
 ```
@@ -1882,7 +1882,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apigatewayv2ApiGatewayManagedOverrides.Apigatewayv2ApiGatewayManagedOverridesRouteOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayv2apigatewaymanagedoverrides"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayv2apigatewaymanagedoverrides"
 
 apigatewayv2apigatewaymanagedoverrides.NewApigatewayv2ApiGatewayManagedOverridesRouteOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Apigatewayv2ApiGatewayManagedOverridesRouteOutputReference
 ```
@@ -2276,7 +2276,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apigatewayv2ApiGatewayManagedOverrides.Apigatewayv2ApiGatewayManagedOverridesStageAccessLogSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayv2apigatewaymanagedoverrides"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayv2apigatewaymanagedoverrides"
 
 apigatewayv2apigatewaymanagedoverrides.NewApigatewayv2ApiGatewayManagedOverridesStageAccessLogSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Apigatewayv2ApiGatewayManagedOverridesStageAccessLogSettingsOutputReference
 ```
@@ -2583,7 +2583,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apigatewayv2ApiGatewayManagedOverrides.Apigatewayv2ApiGatewayManagedOverridesStageDefaultRouteSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayv2apigatewaymanagedoverrides"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayv2apigatewaymanagedoverrides"
 
 apigatewayv2apigatewaymanagedoverrides.NewApigatewayv2ApiGatewayManagedOverridesStageDefaultRouteSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Apigatewayv2ApiGatewayManagedOverridesStageDefaultRouteSettingsOutputReference
 ```
@@ -2919,7 +2919,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apigatewayv2ApiGatewayManagedOverrides.Apigatewayv2ApiGatewayManagedOverridesStageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayv2apigatewaymanagedoverrides"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayv2apigatewaymanagedoverrides"
 
 apigatewayv2apigatewaymanagedoverrides.NewApigatewayv2ApiGatewayManagedOverridesStageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Apigatewayv2ApiGatewayManagedOverridesStageOutputReference
 ```
@@ -3381,7 +3381,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apigatewayv2ApiGatewayManagedOverrides.Apigatewayv2ApiGatewayManagedOverridesStageRouteSettingsMap.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayv2apigatewaymanagedoverrides"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayv2apigatewaymanagedoverrides"
 
 apigatewayv2apigatewaymanagedoverrides.NewApigatewayv2ApiGatewayManagedOverridesStageRouteSettingsMap(terraformResource IInterpolatingParent, terraformAttribute *string) Apigatewayv2ApiGatewayManagedOverridesStageRouteSettingsMap
 ```
@@ -3528,7 +3528,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apigatewayv2ApiGatewayManagedOverrides.Apigatewayv2ApiGatewayManagedOverridesStageRouteSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayv2apigatewaymanagedoverrides"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayv2apigatewaymanagedoverrides"
 
 apigatewayv2apigatewaymanagedoverrides.NewApigatewayv2ApiGatewayManagedOverridesStageRouteSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectKey *string) Apigatewayv2ApiGatewayManagedOverridesStageRouteSettingsOutputReference
 ```

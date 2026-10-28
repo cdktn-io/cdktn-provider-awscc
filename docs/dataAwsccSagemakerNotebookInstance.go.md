@@ -4,12 +4,12 @@
 
 ### DataAwsccSagemakerNotebookInstance <a name="DataAwsccSagemakerNotebookInstance" id="@cdktn/provider-awscc.dataAwsccSagemakerNotebookInstance.DataAwsccSagemakerNotebookInstance"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_notebook_instance awscc_sagemaker_notebook_instance}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_notebook_instance awscc_sagemaker_notebook_instance}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerNotebookInstance.DataAwsccSagemakerNotebookInstance.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakernotebookinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakernotebookinstance"
 
 dataawsccsagemakernotebookinstance.NewDataAwsccSagemakerNotebookInstance(scope Construct, id *string, config DataAwsccSagemakerNotebookInstanceConfig) DataAwsccSagemakerNotebookInstance
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSagemakerNotebookInstance.DataAwsccSagemakerNotebookInstance.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakernotebookinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakernotebookinstance"
 
 dataawsccsagemakernotebookinstance.DataAwsccSagemakerNotebookInstance_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSagemakerNotebookInstance.DataAwsccSagemakerNotebookInstance.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakernotebookinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakernotebookinstance"
 
 dataawsccsagemakernotebookinstance.DataAwsccSagemakerNotebookInstance_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsagemakernotebookinstance.DataAwsccSagemakerNotebookInstance_IsTerrafor
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSagemakerNotebookInstance.DataAwsccSagemakerNotebookInstance.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakernotebookinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakernotebookinstance"
 
 dataawsccsagemakernotebookinstance.DataAwsccSagemakerNotebookInstance_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsagemakernotebookinstance.DataAwsccSagemakerNotebookInstance_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSagemakerNotebookInstance.DataAwsccSagemakerNotebookInstance.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakernotebookinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakernotebookinstance"
 
 dataawsccsagemakernotebookinstance.DataAwsccSagemakerNotebookInstance_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSagemakerNotebook
 
 The id of the existing DataAwsccSagemakerNotebookInstance that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_notebook_instance#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_notebook_instance#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -774,7 +774,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerNotebookInstance.DataAwsccSagemakerNotebookInstanceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakernotebookinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakernotebookinstance"
 
 &dataawsccsagemakernotebookinstance.DataAwsccSagemakerNotebookInstanceConfig {
 	Connection: interface{},
@@ -883,7 +883,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_notebook_instance#id DataAwsccSagemakerNotebookInstance#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_notebook_instance#id DataAwsccSagemakerNotebookInstance#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -895,7 +895,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerNotebookInstance.DataAwsccSagemakerNotebookInstanceInstanceMetadataServiceConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakernotebookinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakernotebookinstance"
 
 &dataawsccsagemakernotebookinstance.DataAwsccSagemakerNotebookInstanceInstanceMetadataServiceConfiguration {
 
@@ -908,7 +908,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakernote
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerNotebookInstance.DataAwsccSagemakerNotebookInstanceTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakernotebookinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakernotebookinstance"
 
 &dataawsccsagemakernotebookinstance.DataAwsccSagemakerNotebookInstanceTags {
 
@@ -923,7 +923,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakernote
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerNotebookInstance.DataAwsccSagemakerNotebookInstanceInstanceMetadataServiceConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakernotebookinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakernotebookinstance"
 
 dataawsccsagemakernotebookinstance.NewDataAwsccSagemakerNotebookInstanceInstanceMetadataServiceConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerNotebookInstanceInstanceMetadataServiceConfigurationOutputReference
 ```
@@ -1183,7 +1183,7 @@ func InternalValue() DataAwsccSagemakerNotebookInstanceInstanceMetadataServiceCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerNotebookInstance.DataAwsccSagemakerNotebookInstanceTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakernotebookinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakernotebookinstance"
 
 dataawsccsagemakernotebookinstance.NewDataAwsccSagemakerNotebookInstanceTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSagemakerNotebookInstanceTagsList
 ```
@@ -1332,7 +1332,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerNotebookInstance.DataAwsccSagemakerNotebookInstanceTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakernotebookinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakernotebookinstance"
 
 dataawsccsagemakernotebookinstance.NewDataAwsccSagemakerNotebookInstanceTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSagemakerNotebookInstanceTagsOutputReference
 ```

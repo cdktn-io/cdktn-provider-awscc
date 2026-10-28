@@ -4,12 +4,12 @@
 
 ### DataAwsccRoute53RecoverycontrolControlPanel <a name="DataAwsccRoute53RecoverycontrolControlPanel" id="@cdktn/provider-awscc.dataAwsccRoute53RecoverycontrolControlPanel.DataAwsccRoute53RecoverycontrolControlPanel"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53recoverycontrol_control_panel awscc_route53recoverycontrol_control_panel}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53recoverycontrol_control_panel awscc_route53recoverycontrol_control_panel}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53RecoverycontrolControlPanel.DataAwsccRoute53RecoverycontrolControlPanel.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recoverycontrolcontrolpanel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53recoverycontrolcontrolpanel"
 
 dataawsccroute53recoverycontrolcontrolpanel.NewDataAwsccRoute53RecoverycontrolControlPanel(scope Construct, id *string, config DataAwsccRoute53RecoverycontrolControlPanelConfig) DataAwsccRoute53RecoverycontrolControlPanel
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccRoute53RecoverycontrolControlPanel.DataAwsccRoute53RecoverycontrolControlPanel.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recoverycontrolcontrolpanel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53recoverycontrolcontrolpanel"
 
 dataawsccroute53recoverycontrolcontrolpanel.DataAwsccRoute53RecoverycontrolControlPanel_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccRoute53RecoverycontrolControlPanel.DataAwsccRoute53RecoverycontrolControlPanel.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recoverycontrolcontrolpanel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53recoverycontrolcontrolpanel"
 
 dataawsccroute53recoverycontrolcontrolpanel.DataAwsccRoute53RecoverycontrolControlPanel_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccroute53recoverycontrolcontrolpanel.DataAwsccRoute53RecoverycontrolContr
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccRoute53RecoverycontrolControlPanel.DataAwsccRoute53RecoverycontrolControlPanel.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recoverycontrolcontrolpanel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53recoverycontrolcontrolpanel"
 
 dataawsccroute53recoverycontrolcontrolpanel.DataAwsccRoute53RecoverycontrolControlPanel_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccroute53recoverycontrolcontrolpanel.DataAwsccRoute53RecoverycontrolContr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccRoute53RecoverycontrolControlPanel.DataAwsccRoute53RecoverycontrolControlPanel.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recoverycontrolcontrolpanel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53recoverycontrolcontrolpanel"
 
 dataawsccroute53recoverycontrolcontrolpanel.DataAwsccRoute53RecoverycontrolControlPanel_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRoute53Recoveryco
 
 The id of the existing DataAwsccRoute53RecoverycontrolControlPanel that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53recoverycontrol_control_panel#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53recoverycontrol_control_panel#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -664,7 +664,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRoute53RecoverycontrolControlPanel.DataAwsccRoute53RecoverycontrolControlPanelConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recoverycontrolcontrolpanel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53recoverycontrolcontrolpanel"
 
 &dataawsccroute53recoverycontrolcontrolpanel.DataAwsccRoute53RecoverycontrolControlPanelConfig {
 	Connection: interface{},
@@ -773,7 +773,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53recoverycontrol_control_panel#id DataAwsccRoute53RecoverycontrolControlPanel#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53recoverycontrol_control_panel#id DataAwsccRoute53RecoverycontrolControlPanel#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -785,7 +785,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRoute53RecoverycontrolControlPanel.DataAwsccRoute53RecoverycontrolControlPanelTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recoverycontrolcontrolpanel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53recoverycontrolcontrolpanel"
 
 &dataawsccroute53recoverycontrolcontrolpanel.DataAwsccRoute53RecoverycontrolControlPanelTags {
 
@@ -800,7 +800,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recove
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53RecoverycontrolControlPanel.DataAwsccRoute53RecoverycontrolControlPanelTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recoverycontrolcontrolpanel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53recoverycontrolcontrolpanel"
 
 dataawsccroute53recoverycontrolcontrolpanel.NewDataAwsccRoute53RecoverycontrolControlPanelTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccRoute53RecoverycontrolControlPanelTagsList
 ```
@@ -949,7 +949,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53RecoverycontrolControlPanel.DataAwsccRoute53RecoverycontrolControlPanelTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recoverycontrolcontrolpanel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53recoverycontrolcontrolpanel"
 
 dataawsccroute53recoverycontrolcontrolpanel.NewDataAwsccRoute53RecoverycontrolControlPanelTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccRoute53RecoverycontrolControlPanelTagsOutputReference
 ```

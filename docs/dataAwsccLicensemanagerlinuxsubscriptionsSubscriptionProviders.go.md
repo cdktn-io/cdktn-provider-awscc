@@ -4,12 +4,12 @@
 
 ### DataAwsccLicensemanagerlinuxsubscriptionsSubscriptionProviders <a name="DataAwsccLicensemanagerlinuxsubscriptionsSubscriptionProviders" id="@cdktn/provider-awscc.dataAwsccLicensemanagerlinuxsubscriptionsSubscriptionProviders.DataAwsccLicensemanagerlinuxsubscriptionsSubscriptionProviders"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/licensemanagerlinuxsubscriptions_subscription_providers awscc_licensemanagerlinuxsubscriptions_subscription_providers}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/licensemanagerlinuxsubscriptions_subscription_providers awscc_licensemanagerlinuxsubscriptions_subscription_providers}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLicensemanagerlinuxsubscriptionsSubscriptionProviders.DataAwsccLicensemanagerlinuxsubscriptionsSubscriptionProviders.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclicensemanagerlinuxsubscriptionssubscriptionproviders"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclicensemanagerlinuxsubscriptionssubscriptionproviders"
 
 dataawscclicensemanagerlinuxsubscriptionssubscriptionproviders.NewDataAwsccLicensemanagerlinuxsubscriptionsSubscriptionProviders(scope Construct, id *string, config DataAwsccLicensemanagerlinuxsubscriptionsSubscriptionProvidersConfig) DataAwsccLicensemanagerlinuxsubscriptionsSubscriptionProviders
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccLicensemanagerlinuxsubscriptionsSubscriptionProviders.DataAwsccLicensemanagerlinuxsubscriptionsSubscriptionProviders.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclicensemanagerlinuxsubscriptionssubscriptionproviders"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclicensemanagerlinuxsubscriptionssubscriptionproviders"
 
 dataawscclicensemanagerlinuxsubscriptionssubscriptionproviders.DataAwsccLicensemanagerlinuxsubscriptionsSubscriptionProviders_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccLicensemanagerlinuxsubscriptionsSubscriptionProviders.DataAwsccLicensemanagerlinuxsubscriptionsSubscriptionProviders.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclicensemanagerlinuxsubscriptionssubscriptionproviders"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclicensemanagerlinuxsubscriptionssubscriptionproviders"
 
 dataawscclicensemanagerlinuxsubscriptionssubscriptionproviders.DataAwsccLicensemanagerlinuxsubscriptionsSubscriptionProviders_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscclicensemanagerlinuxsubscriptionssubscriptionproviders.DataAwsccLicensem
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccLicensemanagerlinuxsubscriptionsSubscriptionProviders.DataAwsccLicensemanagerlinuxsubscriptionsSubscriptionProviders.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclicensemanagerlinuxsubscriptionssubscriptionproviders"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclicensemanagerlinuxsubscriptionssubscriptionproviders"
 
 dataawscclicensemanagerlinuxsubscriptionssubscriptionproviders.DataAwsccLicensemanagerlinuxsubscriptionsSubscriptionProviders_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscclicensemanagerlinuxsubscriptionssubscriptionproviders.DataAwsccLicensem
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccLicensemanagerlinuxsubscriptionsSubscriptionProviders.DataAwsccLicensemanagerlinuxsubscriptionsSubscriptionProviders.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclicensemanagerlinuxsubscriptionssubscriptionproviders"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclicensemanagerlinuxsubscriptionssubscriptionproviders"
 
 dataawscclicensemanagerlinuxsubscriptionssubscriptionproviders.DataAwsccLicensemanagerlinuxsubscriptionsSubscriptionProviders_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLicensemanagerlin
 
 The id of the existing DataAwsccLicensemanagerlinuxsubscriptionsSubscriptionProviders that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/licensemanagerlinuxsubscriptions_subscription_providers#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/licensemanagerlinuxsubscriptions_subscription_providers#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLicensemanagerlinuxsubscriptionsSubscriptionProviders.DataAwsccLicensemanagerlinuxsubscriptionsSubscriptionProvidersConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclicensemanagerlinuxsubscriptionssubscriptionproviders"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclicensemanagerlinuxsubscriptionssubscriptionproviders"
 
 &dataawscclicensemanagerlinuxsubscriptionssubscriptionproviders.DataAwsccLicensemanagerlinuxsubscriptionsSubscriptionProvidersConfig {
 	Connection: interface{},

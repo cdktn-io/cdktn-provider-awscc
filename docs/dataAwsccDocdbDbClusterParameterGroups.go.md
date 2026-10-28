@@ -4,12 +4,12 @@
 
 ### DataAwsccDocdbDbClusterParameterGroups <a name="DataAwsccDocdbDbClusterParameterGroups" id="@cdktn/provider-awscc.dataAwsccDocdbDbClusterParameterGroups.DataAwsccDocdbDbClusterParameterGroups"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/docdb_db_cluster_parameter_groups awscc_docdb_db_cluster_parameter_groups}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/docdb_db_cluster_parameter_groups awscc_docdb_db_cluster_parameter_groups}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDocdbDbClusterParameterGroups.DataAwsccDocdbDbClusterParameterGroups.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdocdbdbclusterparametergroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdocdbdbclusterparametergroups"
 
 dataawsccdocdbdbclusterparametergroups.NewDataAwsccDocdbDbClusterParameterGroups(scope Construct, id *string, config DataAwsccDocdbDbClusterParameterGroupsConfig) DataAwsccDocdbDbClusterParameterGroups
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccDocdbDbClusterParameterGroups.DataAwsccDocdbDbClusterParameterGroups.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdocdbdbclusterparametergroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdocdbdbclusterparametergroups"
 
 dataawsccdocdbdbclusterparametergroups.DataAwsccDocdbDbClusterParameterGroups_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccDocdbDbClusterParameterGroups.DataAwsccDocdbDbClusterParameterGroups.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdocdbdbclusterparametergroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdocdbdbclusterparametergroups"
 
 dataawsccdocdbdbclusterparametergroups.DataAwsccDocdbDbClusterParameterGroups_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccdocdbdbclusterparametergroups.DataAwsccDocdbDbClusterParameterGroups_Is
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccDocdbDbClusterParameterGroups.DataAwsccDocdbDbClusterParameterGroups.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdocdbdbclusterparametergroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdocdbdbclusterparametergroups"
 
 dataawsccdocdbdbclusterparametergroups.DataAwsccDocdbDbClusterParameterGroups_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccdocdbdbclusterparametergroups.DataAwsccDocdbDbClusterParameterGroups_Is
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccDocdbDbClusterParameterGroups.DataAwsccDocdbDbClusterParameterGroups.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdocdbdbclusterparametergroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdocdbdbclusterparametergroups"
 
 dataawsccdocdbdbclusterparametergroups.DataAwsccDocdbDbClusterParameterGroups_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDocdbDbClusterPar
 
 The id of the existing DataAwsccDocdbDbClusterParameterGroups that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/docdb_db_cluster_parameter_groups#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/docdb_db_cluster_parameter_groups#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDocdbDbClusterParameterGroups.DataAwsccDocdbDbClusterParameterGroupsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdocdbdbclusterparametergroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdocdbdbclusterparametergroups"
 
 &dataawsccdocdbdbclusterparametergroups.DataAwsccDocdbDbClusterParameterGroupsConfig {
 	Connection: interface{},

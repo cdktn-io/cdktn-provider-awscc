@@ -4,12 +4,12 @@
 
 ### FmsApplicationsList <a name="FmsApplicationsList" id="@cdktn/provider-awscc.fmsApplicationsList.FmsApplicationsList"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fms_applications_list awscc_fms_applications_list}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fms_applications_list awscc_fms_applications_list}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.fmsApplicationsList.FmsApplicationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fmsapplicationslist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fmsapplicationslist"
 
 fmsapplicationslist.NewFmsApplicationsList(scope Construct, id *string, config FmsApplicationsListConfig) FmsApplicationsList
 ```
@@ -433,7 +433,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.fmsApplicationsList.FmsApplicationsList.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fmsapplicationslist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fmsapplicationslist"
 
 fmsapplicationslist.FmsApplicationsList_IsConstruct(x interface{}) *bool
 ```
@@ -465,7 +465,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.fmsApplicationsList.FmsApplicationsList.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fmsapplicationslist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fmsapplicationslist"
 
 fmsapplicationslist.FmsApplicationsList_IsTerraformElement(x interface{}) *bool
 ```
@@ -479,7 +479,7 @@ fmsapplicationslist.FmsApplicationsList_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.fmsApplicationsList.FmsApplicationsList.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fmsapplicationslist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fmsapplicationslist"
 
 fmsapplicationslist.FmsApplicationsList_IsTerraformResource(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ fmsapplicationslist.FmsApplicationsList_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.fmsApplicationsList.FmsApplicationsList.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fmsapplicationslist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fmsapplicationslist"
 
 fmsapplicationslist.FmsApplicationsList_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -522,7 +522,7 @@ The construct id used in the generated config for the FmsApplicationsList to imp
 
 The id of the existing FmsApplicationsList that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fms_applications_list#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fms_applications_list#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -843,7 +843,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.fmsApplicationsList.FmsApplicationsListAppsListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fmsapplicationslist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fmsapplicationslist"
 
 &fmsapplicationslist.FmsApplicationsListAppsListStruct {
 	AppName: *string,
@@ -872,7 +872,7 @@ AppName *string
 
 The application's name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fms_applications_list#app_name FmsApplicationsList#app_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fms_applications_list#app_name FmsApplicationsList#app_name}
 
 ---
 
@@ -886,7 +886,7 @@ Port *f64
 
 The application's port number, for example 80.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fms_applications_list#port FmsApplicationsList#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fms_applications_list#port FmsApplicationsList#port}
 
 ---
 
@@ -902,7 +902,7 @@ The IP protocol name or number.
 
 The name can be one of tcp, udp, or icmp. For information on possible numbers, see Protocol Numbers (https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xhtml).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fms_applications_list#protocol FmsApplicationsList#protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fms_applications_list#protocol FmsApplicationsList#protocol}
 
 ---
 
@@ -911,7 +911,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.fmsApplicationsList.FmsApplicationsListConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fmsapplicationslist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fmsapplicationslist"
 
 &fmsapplicationslist.FmsApplicationsListConfig {
 	Connection: interface{},
@@ -1024,7 +1024,7 @@ AppsList interface{}
 
 An array of applications in the Firewall Manager applications list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fms_applications_list#apps_list FmsApplicationsList#apps_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fms_applications_list#apps_list FmsApplicationsList#apps_list}
 
 ---
 
@@ -1038,7 +1038,7 @@ ListName *string
 
 The name of the Firewall Manager applications list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fms_applications_list#list_name FmsApplicationsList#list_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fms_applications_list#list_name FmsApplicationsList#list_name}
 
 ---
 
@@ -1052,7 +1052,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to the applications list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fms_applications_list#tags FmsApplicationsList#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fms_applications_list#tags FmsApplicationsList#tags}
 
 ---
 
@@ -1061,7 +1061,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.fmsApplicationsList.FmsApplicationsListTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fmsapplicationslist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fmsapplicationslist"
 
 &fmsapplicationslist.FmsApplicationsListTags {
 	Key: *string,
@@ -1088,7 +1088,7 @@ Key *string
 
 The tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fms_applications_list#key FmsApplicationsList#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fms_applications_list#key FmsApplicationsList#key}
 
 ---
 
@@ -1102,7 +1102,7 @@ Value *string
 
 The tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fms_applications_list#value FmsApplicationsList#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fms_applications_list#value FmsApplicationsList#value}
 
 ---
 
@@ -1113,7 +1113,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.fmsApplicationsList.FmsApplicationsListAppsListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fmsapplicationslist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fmsapplicationslist"
 
 fmsapplicationslist.NewFmsApplicationsListAppsListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) FmsApplicationsListAppsListStructList
 ```
@@ -1273,7 +1273,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.fmsApplicationsList.FmsApplicationsListAppsListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fmsapplicationslist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fmsapplicationslist"
 
 fmsapplicationslist.NewFmsApplicationsListAppsListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) FmsApplicationsListAppsListStructOutputReference
 ```
@@ -1606,7 +1606,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.fmsApplicationsList.FmsApplicationsListTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fmsapplicationslist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fmsapplicationslist"
 
 fmsapplicationslist.NewFmsApplicationsListTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) FmsApplicationsListTagsList
 ```
@@ -1766,7 +1766,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.fmsApplicationsList.FmsApplicationsListTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fmsapplicationslist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fmsapplicationslist"
 
 fmsapplicationslist.NewFmsApplicationsListTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) FmsApplicationsListTagsOutputReference
 ```

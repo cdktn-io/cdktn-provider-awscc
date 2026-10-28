@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2IpamPool <a name="DataAwsccEc2IpamPool" id="@cdktn/provider-awscc.dataAwsccEc2IpamPool.DataAwsccEc2IpamPool"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_ipam_pool awscc_ec2_ipam_pool}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_ipam_pool awscc_ec2_ipam_pool}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2IpamPool.DataAwsccEc2IpamPool.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipampool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ipampool"
 
 dataawsccec2ipampool.NewDataAwsccEc2IpamPool(scope Construct, id *string, config DataAwsccEc2IpamPoolConfig) DataAwsccEc2IpamPool
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2IpamPool.DataAwsccEc2IpamPool.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipampool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ipampool"
 
 dataawsccec2ipampool.DataAwsccEc2IpamPool_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2IpamPool.DataAwsccEc2IpamPool.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipampool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ipampool"
 
 dataawsccec2ipampool.DataAwsccEc2IpamPool_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2ipampool.DataAwsccEc2IpamPool_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2IpamPool.DataAwsccEc2IpamPool.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipampool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ipampool"
 
 dataawsccec2ipampool.DataAwsccEc2IpamPool_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2ipampool.DataAwsccEc2IpamPool_IsTerraformDataSource(x interface{}) *
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2IpamPool.DataAwsccEc2IpamPool.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipampool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ipampool"
 
 dataawsccec2ipampool.DataAwsccEc2IpamPool_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2IpamPool to im
 
 The id of the existing DataAwsccEc2IpamPool that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_ipam_pool#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_ipam_pool#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -851,7 +851,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2IpamPool.DataAwsccEc2IpamPoolAllocationResourceTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipampool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ipampool"
 
 &dataawsccec2ipampool.DataAwsccEc2IpamPoolAllocationResourceTags {
 
@@ -864,7 +864,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipampool"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2IpamPool.DataAwsccEc2IpamPoolConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipampool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ipampool"
 
 &dataawsccec2ipampool.DataAwsccEc2IpamPoolConfig {
 	Connection: interface{},
@@ -973,7 +973,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_ipam_pool#id DataAwsccEc2IpamPool#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_ipam_pool#id DataAwsccEc2IpamPool#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -985,7 +985,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2IpamPool.DataAwsccEc2IpamPoolProvisionedCidrs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipampool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ipampool"
 
 &dataawsccec2ipampool.DataAwsccEc2IpamPoolProvisionedCidrs {
 
@@ -998,7 +998,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipampool"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2IpamPool.DataAwsccEc2IpamPoolSourceResource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipampool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ipampool"
 
 &dataawsccec2ipampool.DataAwsccEc2IpamPoolSourceResource {
 
@@ -1011,7 +1011,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipampool"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2IpamPool.DataAwsccEc2IpamPoolTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipampool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ipampool"
 
 &dataawsccec2ipampool.DataAwsccEc2IpamPoolTags {
 
@@ -1026,7 +1026,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipampool"
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2IpamPool.DataAwsccEc2IpamPoolAllocationResourceTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipampool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ipampool"
 
 dataawsccec2ipampool.NewDataAwsccEc2IpamPoolAllocationResourceTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEc2IpamPoolAllocationResourceTagsList
 ```
@@ -1175,7 +1175,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2IpamPool.DataAwsccEc2IpamPoolAllocationResourceTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipampool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ipampool"
 
 dataawsccec2ipampool.NewDataAwsccEc2IpamPoolAllocationResourceTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEc2IpamPoolAllocationResourceTagsOutputReference
 ```
@@ -1464,7 +1464,7 @@ func InternalValue() DataAwsccEc2IpamPoolAllocationResourceTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2IpamPool.DataAwsccEc2IpamPoolProvisionedCidrsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipampool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ipampool"
 
 dataawsccec2ipampool.NewDataAwsccEc2IpamPoolProvisionedCidrsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEc2IpamPoolProvisionedCidrsList
 ```
@@ -1613,7 +1613,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2IpamPool.DataAwsccEc2IpamPoolProvisionedCidrsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipampool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ipampool"
 
 dataawsccec2ipampool.NewDataAwsccEc2IpamPoolProvisionedCidrsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEc2IpamPoolProvisionedCidrsOutputReference
 ```
@@ -1891,7 +1891,7 @@ func InternalValue() DataAwsccEc2IpamPoolProvisionedCidrs
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2IpamPool.DataAwsccEc2IpamPoolSourceResourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipampool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ipampool"
 
 dataawsccec2ipampool.NewDataAwsccEc2IpamPoolSourceResourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEc2IpamPoolSourceResourceOutputReference
 ```
@@ -2184,7 +2184,7 @@ func InternalValue() DataAwsccEc2IpamPoolSourceResource
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2IpamPool.DataAwsccEc2IpamPoolTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipampool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ipampool"
 
 dataawsccec2ipampool.NewDataAwsccEc2IpamPoolTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEc2IpamPoolTagsList
 ```
@@ -2333,7 +2333,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2IpamPool.DataAwsccEc2IpamPoolTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipampool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ipampool"
 
 dataawsccec2ipampool.NewDataAwsccEc2IpamPoolTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEc2IpamPoolTagsOutputReference
 ```

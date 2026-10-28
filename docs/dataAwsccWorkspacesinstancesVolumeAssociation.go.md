@@ -4,12 +4,12 @@
 
 ### DataAwsccWorkspacesinstancesVolumeAssociation <a name="DataAwsccWorkspacesinstancesVolumeAssociation" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesVolumeAssociation.DataAwsccWorkspacesinstancesVolumeAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspacesinstances_volume_association awscc_workspacesinstances_volume_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspacesinstances_volume_association awscc_workspacesinstances_volume_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesVolumeAssociation.DataAwsccWorkspacesinstancesVolumeAssociation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesvolumeassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesvolumeassociation"
 
 dataawsccworkspacesinstancesvolumeassociation.NewDataAwsccWorkspacesinstancesVolumeAssociation(scope Construct, id *string, config DataAwsccWorkspacesinstancesVolumeAssociationConfig) DataAwsccWorkspacesinstancesVolumeAssociation
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesVolumeAssociation.DataAwsccWorkspacesinstancesVolumeAssociation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesvolumeassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesvolumeassociation"
 
 dataawsccworkspacesinstancesvolumeassociation.DataAwsccWorkspacesinstancesVolumeAssociation_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesVolumeAssociation.DataAwsccWorkspacesinstancesVolumeAssociation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesvolumeassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesvolumeassociation"
 
 dataawsccworkspacesinstancesvolumeassociation.DataAwsccWorkspacesinstancesVolumeAssociation_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccworkspacesinstancesvolumeassociation.DataAwsccWorkspacesinstancesVolume
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesVolumeAssociation.DataAwsccWorkspacesinstancesVolumeAssociation.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesvolumeassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesvolumeassociation"
 
 dataawsccworkspacesinstancesvolumeassociation.DataAwsccWorkspacesinstancesVolumeAssociation_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccworkspacesinstancesvolumeassociation.DataAwsccWorkspacesinstancesVolume
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesVolumeAssociation.DataAwsccWorkspacesinstancesVolumeAssociation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesvolumeassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesvolumeassociation"
 
 dataawsccworkspacesinstancesvolumeassociation.DataAwsccWorkspacesinstancesVolumeAssociation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccWorkspacesinstanc
 
 The id of the existing DataAwsccWorkspacesinstancesVolumeAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspacesinstances_volume_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspacesinstances_volume_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -631,7 +631,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspacesinstancesVolumeAssociation.DataAwsccWorkspacesinstancesVolumeAssociationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesvolumeassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesvolumeassociation"
 
 &dataawsccworkspacesinstancesvolumeassociation.DataAwsccWorkspacesinstancesVolumeAssociationConfig {
 	Connection: interface{},
@@ -740,7 +740,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspacesinstances_volume_association#id DataAwsccWorkspacesinstancesVolumeAssociation#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspacesinstances_volume_association#id DataAwsccWorkspacesinstancesVolumeAssociation#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

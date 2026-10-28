@@ -4,12 +4,12 @@
 
 ### DataAwsccWellarchitectedReviewTemplates <a name="DataAwsccWellarchitectedReviewTemplates" id="@cdktn/provider-awscc.dataAwsccWellarchitectedReviewTemplates.DataAwsccWellarchitectedReviewTemplates"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/wellarchitected_review_templates awscc_wellarchitected_review_templates}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/wellarchitected_review_templates awscc_wellarchitected_review_templates}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWellarchitectedReviewTemplates.DataAwsccWellarchitectedReviewTemplates.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwellarchitectedreviewtemplates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwellarchitectedreviewtemplates"
 
 dataawsccwellarchitectedreviewtemplates.NewDataAwsccWellarchitectedReviewTemplates(scope Construct, id *string, config DataAwsccWellarchitectedReviewTemplatesConfig) DataAwsccWellarchitectedReviewTemplates
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccWellarchitectedReviewTemplates.DataAwsccWellarchitectedReviewTemplates.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwellarchitectedreviewtemplates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwellarchitectedreviewtemplates"
 
 dataawsccwellarchitectedreviewtemplates.DataAwsccWellarchitectedReviewTemplates_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccWellarchitectedReviewTemplates.DataAwsccWellarchitectedReviewTemplates.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwellarchitectedreviewtemplates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwellarchitectedreviewtemplates"
 
 dataawsccwellarchitectedreviewtemplates.DataAwsccWellarchitectedReviewTemplates_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccwellarchitectedreviewtemplates.DataAwsccWellarchitectedReviewTemplates_
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccWellarchitectedReviewTemplates.DataAwsccWellarchitectedReviewTemplates.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwellarchitectedreviewtemplates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwellarchitectedreviewtemplates"
 
 dataawsccwellarchitectedreviewtemplates.DataAwsccWellarchitectedReviewTemplates_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccwellarchitectedreviewtemplates.DataAwsccWellarchitectedReviewTemplates_
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccWellarchitectedReviewTemplates.DataAwsccWellarchitectedReviewTemplates.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwellarchitectedreviewtemplates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwellarchitectedreviewtemplates"
 
 dataawsccwellarchitectedreviewtemplates.DataAwsccWellarchitectedReviewTemplates_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccWellarchitectedRe
 
 The id of the existing DataAwsccWellarchitectedReviewTemplates that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/wellarchitected_review_templates#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/wellarchitected_review_templates#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWellarchitectedReviewTemplates.DataAwsccWellarchitectedReviewTemplatesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwellarchitectedreviewtemplates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwellarchitectedreviewtemplates"
 
 &dataawsccwellarchitectedreviewtemplates.DataAwsccWellarchitectedReviewTemplatesConfig {
 	Connection: interface{},

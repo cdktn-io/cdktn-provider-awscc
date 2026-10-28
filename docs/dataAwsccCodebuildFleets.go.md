@@ -4,12 +4,12 @@
 
 ### DataAwsccCodebuildFleets <a name="DataAwsccCodebuildFleets" id="@cdktn/provider-awscc.dataAwsccCodebuildFleets.DataAwsccCodebuildFleets"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/codebuild_fleets awscc_codebuild_fleets}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/codebuild_fleets awscc_codebuild_fleets}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodebuildFleets.DataAwsccCodebuildFleets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodebuildfleets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodebuildfleets"
 
 dataawscccodebuildfleets.NewDataAwsccCodebuildFleets(scope Construct, id *string, config DataAwsccCodebuildFleetsConfig) DataAwsccCodebuildFleets
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCodebuildFleets.DataAwsccCodebuildFleets.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodebuildfleets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodebuildfleets"
 
 dataawscccodebuildfleets.DataAwsccCodebuildFleets_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCodebuildFleets.DataAwsccCodebuildFleets.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodebuildfleets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodebuildfleets"
 
 dataawscccodebuildfleets.DataAwsccCodebuildFleets_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccodebuildfleets.DataAwsccCodebuildFleets_IsTerraformElement(x interface
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCodebuildFleets.DataAwsccCodebuildFleets.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodebuildfleets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodebuildfleets"
 
 dataawscccodebuildfleets.DataAwsccCodebuildFleets_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccodebuildfleets.DataAwsccCodebuildFleets_IsTerraformDataSource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCodebuildFleets.DataAwsccCodebuildFleets.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodebuildfleets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodebuildfleets"
 
 dataawscccodebuildfleets.DataAwsccCodebuildFleets_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCodebuildFleets t
 
 The id of the existing DataAwsccCodebuildFleets that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/codebuild_fleets#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/codebuild_fleets#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodebuildFleets.DataAwsccCodebuildFleetsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodebuildfleets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodebuildfleets"
 
 &dataawscccodebuildfleets.DataAwsccCodebuildFleetsConfig {
 	Connection: interface{},

@@ -4,12 +4,12 @@
 
 ### DataAwsccConnectQueue <a name="DataAwsccConnectQueue" id="@cdktn/provider-awscc.dataAwsccConnectQueue.DataAwsccConnectQueue"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_queue awscc_connect_queue}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_queue awscc_connect_queue}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectQueue.DataAwsccConnectQueue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectqueue"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectqueue"
 
 dataawsccconnectqueue.NewDataAwsccConnectQueue(scope Construct, id *string, config DataAwsccConnectQueueConfig) DataAwsccConnectQueue
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccConnectQueue.DataAwsccConnectQueue.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectqueue"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectqueue"
 
 dataawsccconnectqueue.DataAwsccConnectQueue_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccConnectQueue.DataAwsccConnectQueue.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectqueue"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectqueue"
 
 dataawsccconnectqueue.DataAwsccConnectQueue_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccconnectqueue.DataAwsccConnectQueue_IsTerraformElement(x interface{}) *b
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccConnectQueue.DataAwsccConnectQueue.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectqueue"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectqueue"
 
 dataawsccconnectqueue.DataAwsccConnectQueue_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccconnectqueue.DataAwsccConnectQueue_IsTerraformDataSource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccConnectQueue.DataAwsccConnectQueue.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectqueue"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectqueue"
 
 dataawsccconnectqueue.DataAwsccConnectQueue_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccConnectQueue to i
 
 The id of the existing DataAwsccConnectQueue that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_queue#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_queue#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -752,7 +752,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectQueue.DataAwsccConnectQueueAdditionalEmailAddresses.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectqueue"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectqueue"
 
 &dataawsccconnectqueue.DataAwsccConnectQueueAdditionalEmailAddresses {
 
@@ -765,7 +765,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectqueue"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectQueue.DataAwsccConnectQueueConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectqueue"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectqueue"
 
 &dataawsccconnectqueue.DataAwsccConnectQueueConfig {
 	Connection: interface{},
@@ -874,7 +874,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_queue#id DataAwsccConnectQueue#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_queue#id DataAwsccConnectQueue#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -886,7 +886,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectQueue.DataAwsccConnectQueueOutboundCallerConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectqueue"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectqueue"
 
 &dataawsccconnectqueue.DataAwsccConnectQueueOutboundCallerConfig {
 
@@ -899,7 +899,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectqueue"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectQueue.DataAwsccConnectQueueOutboundEmailConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectqueue"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectqueue"
 
 &dataawsccconnectqueue.DataAwsccConnectQueueOutboundEmailConfig {
 
@@ -912,7 +912,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectqueue"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectQueue.DataAwsccConnectQueueTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectqueue"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectqueue"
 
 &dataawsccconnectqueue.DataAwsccConnectQueueTags {
 
@@ -927,7 +927,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectqueue"
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectQueue.DataAwsccConnectQueueAdditionalEmailAddressesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectqueue"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectqueue"
 
 dataawsccconnectqueue.NewDataAwsccConnectQueueAdditionalEmailAddressesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccConnectQueueAdditionalEmailAddressesList
 ```
@@ -1076,7 +1076,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectQueue.DataAwsccConnectQueueAdditionalEmailAddressesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectqueue"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectqueue"
 
 dataawsccconnectqueue.NewDataAwsccConnectQueueAdditionalEmailAddressesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccConnectQueueAdditionalEmailAddressesOutputReference
 ```
@@ -1354,7 +1354,7 @@ func InternalValue() DataAwsccConnectQueueAdditionalEmailAddresses
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectQueue.DataAwsccConnectQueueOutboundCallerConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectqueue"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectqueue"
 
 dataawsccconnectqueue.NewDataAwsccConnectQueueOutboundCallerConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectQueueOutboundCallerConfigOutputReference
 ```
@@ -1636,7 +1636,7 @@ func InternalValue() DataAwsccConnectQueueOutboundCallerConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectQueue.DataAwsccConnectQueueOutboundEmailConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectqueue"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectqueue"
 
 dataawsccconnectqueue.NewDataAwsccConnectQueueOutboundEmailConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectQueueOutboundEmailConfigOutputReference
 ```
@@ -1896,7 +1896,7 @@ func InternalValue() DataAwsccConnectQueueOutboundEmailConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectQueue.DataAwsccConnectQueueTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectqueue"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectqueue"
 
 dataawsccconnectqueue.NewDataAwsccConnectQueueTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccConnectQueueTagsList
 ```
@@ -2045,7 +2045,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectQueue.DataAwsccConnectQueueTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectqueue"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectqueue"
 
 dataawsccconnectqueue.NewDataAwsccConnectQueueTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccConnectQueueTagsOutputReference
 ```

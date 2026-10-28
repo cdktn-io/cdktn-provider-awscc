@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2InstanceConnectEndpoints <a name="DataAwsccEc2InstanceConnectEndpoints" id="@cdktn/provider-awscc.dataAwsccEc2InstanceConnectEndpoints.DataAwsccEc2InstanceConnectEndpoints"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_instance_connect_endpoints awscc_ec2_instance_connect_endpoints}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_instance_connect_endpoints awscc_ec2_instance_connect_endpoints}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2InstanceConnectEndpoints.DataAwsccEc2InstanceConnectEndpoints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instanceconnectendpoints"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instanceconnectendpoints"
 
 dataawsccec2instanceconnectendpoints.NewDataAwsccEc2InstanceConnectEndpoints(scope Construct, id *string, config DataAwsccEc2InstanceConnectEndpointsConfig) DataAwsccEc2InstanceConnectEndpoints
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2InstanceConnectEndpoints.DataAwsccEc2InstanceConnectEndpoints.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instanceconnectendpoints"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instanceconnectendpoints"
 
 dataawsccec2instanceconnectendpoints.DataAwsccEc2InstanceConnectEndpoints_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2InstanceConnectEndpoints.DataAwsccEc2InstanceConnectEndpoints.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instanceconnectendpoints"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instanceconnectendpoints"
 
 dataawsccec2instanceconnectendpoints.DataAwsccEc2InstanceConnectEndpoints_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2instanceconnectendpoints.DataAwsccEc2InstanceConnectEndpoints_IsTerr
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2InstanceConnectEndpoints.DataAwsccEc2InstanceConnectEndpoints.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instanceconnectendpoints"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instanceconnectendpoints"
 
 dataawsccec2instanceconnectendpoints.DataAwsccEc2InstanceConnectEndpoints_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2instanceconnectendpoints.DataAwsccEc2InstanceConnectEndpoints_IsTerr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2InstanceConnectEndpoints.DataAwsccEc2InstanceConnectEndpoints.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instanceconnectendpoints"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instanceconnectendpoints"
 
 dataawsccec2instanceconnectendpoints.DataAwsccEc2InstanceConnectEndpoints_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2InstanceConnec
 
 The id of the existing DataAwsccEc2InstanceConnectEndpoints that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_instance_connect_endpoints#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_instance_connect_endpoints#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2InstanceConnectEndpoints.DataAwsccEc2InstanceConnectEndpointsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instanceconnectendpoints"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instanceconnectendpoints"
 
 &dataawsccec2instanceconnectendpoints.DataAwsccEc2InstanceConnectEndpointsConfig {
 	Connection: interface{},

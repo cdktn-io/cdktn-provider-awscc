@@ -4,12 +4,12 @@
 
 ### DataAwsccEcrReplicationConfigurations <a name="DataAwsccEcrReplicationConfigurations" id="@cdktn/provider-awscc.dataAwsccEcrReplicationConfigurations.DataAwsccEcrReplicationConfigurations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ecr_replication_configurations awscc_ecr_replication_configurations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ecr_replication_configurations awscc_ecr_replication_configurations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcrReplicationConfigurations.DataAwsccEcrReplicationConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecrreplicationconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecrreplicationconfigurations"
 
 dataawsccecrreplicationconfigurations.NewDataAwsccEcrReplicationConfigurations(scope Construct, id *string, config DataAwsccEcrReplicationConfigurationsConfig) DataAwsccEcrReplicationConfigurations
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEcrReplicationConfigurations.DataAwsccEcrReplicationConfigurations.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecrreplicationconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecrreplicationconfigurations"
 
 dataawsccecrreplicationconfigurations.DataAwsccEcrReplicationConfigurations_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEcrReplicationConfigurations.DataAwsccEcrReplicationConfigurations.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecrreplicationconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecrreplicationconfigurations"
 
 dataawsccecrreplicationconfigurations.DataAwsccEcrReplicationConfigurations_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccecrreplicationconfigurations.DataAwsccEcrReplicationConfigurations_IsTe
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEcrReplicationConfigurations.DataAwsccEcrReplicationConfigurations.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecrreplicationconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecrreplicationconfigurations"
 
 dataawsccecrreplicationconfigurations.DataAwsccEcrReplicationConfigurations_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccecrreplicationconfigurations.DataAwsccEcrReplicationConfigurations_IsTe
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEcrReplicationConfigurations.DataAwsccEcrReplicationConfigurations.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecrreplicationconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecrreplicationconfigurations"
 
 dataawsccecrreplicationconfigurations.DataAwsccEcrReplicationConfigurations_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEcrReplicationCon
 
 The id of the existing DataAwsccEcrReplicationConfigurations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ecr_replication_configurations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ecr_replication_configurations#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcrReplicationConfigurations.DataAwsccEcrReplicationConfigurationsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecrreplicationconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecrreplicationconfigurations"
 
 &dataawsccecrreplicationconfigurations.DataAwsccEcrReplicationConfigurationsConfig {
 	Connection: interface{},

@@ -4,12 +4,12 @@
 
 ### DataAwsccGlueDatabase <a name="DataAwsccGlueDatabase" id="@cdktn/provider-awscc.dataAwsccGlueDatabase.DataAwsccGlueDatabase"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/glue_database awscc_glue_database}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/glue_database awscc_glue_database}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueDatabase.DataAwsccGlueDatabase.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluedatabase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluedatabase"
 
 dataawsccgluedatabase.NewDataAwsccGlueDatabase(scope Construct, id *string, config DataAwsccGlueDatabaseConfig) DataAwsccGlueDatabase
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccGlueDatabase.DataAwsccGlueDatabase.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluedatabase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluedatabase"
 
 dataawsccgluedatabase.DataAwsccGlueDatabase_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccGlueDatabase.DataAwsccGlueDatabase.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluedatabase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluedatabase"
 
 dataawsccgluedatabase.DataAwsccGlueDatabase_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccgluedatabase.DataAwsccGlueDatabase_IsTerraformElement(x interface{}) *b
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccGlueDatabase.DataAwsccGlueDatabase.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluedatabase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluedatabase"
 
 dataawsccgluedatabase.DataAwsccGlueDatabase_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccgluedatabase.DataAwsccGlueDatabase_IsTerraformDataSource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccGlueDatabase.DataAwsccGlueDatabase.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluedatabase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluedatabase"
 
 dataawsccgluedatabase.DataAwsccGlueDatabase_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccGlueDatabase to i
 
 The id of the existing DataAwsccGlueDatabase that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/glue_database#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/glue_database#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -620,7 +620,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueDatabase.DataAwsccGlueDatabaseConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluedatabase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluedatabase"
 
 &dataawsccgluedatabase.DataAwsccGlueDatabaseConfig {
 	Connection: interface{},
@@ -729,7 +729,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/glue_database#id DataAwsccGlueDatabase#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/glue_database#id DataAwsccGlueDatabase#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -741,7 +741,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueDatabase.DataAwsccGlueDatabaseDatabaseInput.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluedatabase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluedatabase"
 
 &dataawsccgluedatabase.DataAwsccGlueDatabaseDatabaseInput {
 
@@ -754,7 +754,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluedatabase"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueDatabase.DataAwsccGlueDatabaseDatabaseInputCreateTableDefaultPermissions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluedatabase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluedatabase"
 
 &dataawsccgluedatabase.DataAwsccGlueDatabaseDatabaseInputCreateTableDefaultPermissions {
 
@@ -767,7 +767,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluedatabase"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueDatabase.DataAwsccGlueDatabaseDatabaseInputCreateTableDefaultPermissionsPrincipal.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluedatabase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluedatabase"
 
 &dataawsccgluedatabase.DataAwsccGlueDatabaseDatabaseInputCreateTableDefaultPermissionsPrincipal {
 
@@ -780,7 +780,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluedatabase"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueDatabase.DataAwsccGlueDatabaseDatabaseInputFederatedDatabase.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluedatabase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluedatabase"
 
 &dataawsccgluedatabase.DataAwsccGlueDatabaseDatabaseInputFederatedDatabase {
 
@@ -793,7 +793,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluedatabase"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueDatabase.DataAwsccGlueDatabaseDatabaseInputTargetDatabase.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluedatabase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluedatabase"
 
 &dataawsccgluedatabase.DataAwsccGlueDatabaseDatabaseInputTargetDatabase {
 
@@ -808,7 +808,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluedatabase"
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueDatabase.DataAwsccGlueDatabaseDatabaseInputCreateTableDefaultPermissionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluedatabase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluedatabase"
 
 dataawsccgluedatabase.NewDataAwsccGlueDatabaseDatabaseInputCreateTableDefaultPermissionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccGlueDatabaseDatabaseInputCreateTableDefaultPermissionsList
 ```
@@ -957,7 +957,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueDatabase.DataAwsccGlueDatabaseDatabaseInputCreateTableDefaultPermissionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluedatabase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluedatabase"
 
 dataawsccgluedatabase.NewDataAwsccGlueDatabaseDatabaseInputCreateTableDefaultPermissionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccGlueDatabaseDatabaseInputCreateTableDefaultPermissionsOutputReference
 ```
@@ -1246,7 +1246,7 @@ func InternalValue() DataAwsccGlueDatabaseDatabaseInputCreateTableDefaultPermiss
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueDatabase.DataAwsccGlueDatabaseDatabaseInputCreateTableDefaultPermissionsPrincipalOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluedatabase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluedatabase"
 
 dataawsccgluedatabase.NewDataAwsccGlueDatabaseDatabaseInputCreateTableDefaultPermissionsPrincipalOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGlueDatabaseDatabaseInputCreateTableDefaultPermissionsPrincipalOutputReference
 ```
@@ -1506,7 +1506,7 @@ func InternalValue() DataAwsccGlueDatabaseDatabaseInputCreateTableDefaultPermiss
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueDatabase.DataAwsccGlueDatabaseDatabaseInputFederatedDatabaseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluedatabase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluedatabase"
 
 dataawsccgluedatabase.NewDataAwsccGlueDatabaseDatabaseInputFederatedDatabaseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGlueDatabaseDatabaseInputFederatedDatabaseOutputReference
 ```
@@ -1777,7 +1777,7 @@ func InternalValue() DataAwsccGlueDatabaseDatabaseInputFederatedDatabase
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueDatabase.DataAwsccGlueDatabaseDatabaseInputOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluedatabase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluedatabase"
 
 dataawsccgluedatabase.NewDataAwsccGlueDatabaseDatabaseInputOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGlueDatabaseDatabaseInputOutputReference
 ```
@@ -2103,7 +2103,7 @@ func InternalValue() DataAwsccGlueDatabaseDatabaseInput
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueDatabase.DataAwsccGlueDatabaseDatabaseInputTargetDatabaseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluedatabase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluedatabase"
 
 dataawsccgluedatabase.NewDataAwsccGlueDatabaseDatabaseInputTargetDatabaseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGlueDatabaseDatabaseInputTargetDatabaseOutputReference
 ```

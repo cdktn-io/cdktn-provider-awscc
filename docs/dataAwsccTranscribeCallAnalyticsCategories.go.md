@@ -4,12 +4,12 @@
 
 ### DataAwsccTranscribeCallAnalyticsCategories <a name="DataAwsccTranscribeCallAnalyticsCategories" id="@cdktn/provider-awscc.dataAwsccTranscribeCallAnalyticsCategories.DataAwsccTranscribeCallAnalyticsCategories"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/transcribe_call_analytics_categories awscc_transcribe_call_analytics_categories}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/transcribe_call_analytics_categories awscc_transcribe_call_analytics_categories}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTranscribeCallAnalyticsCategories.DataAwsccTranscribeCallAnalyticsCategories.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribecallanalyticscategories"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranscribecallanalyticscategories"
 
 dataawscctranscribecallanalyticscategories.NewDataAwsccTranscribeCallAnalyticsCategories(scope Construct, id *string, config DataAwsccTranscribeCallAnalyticsCategoriesConfig) DataAwsccTranscribeCallAnalyticsCategories
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccTranscribeCallAnalyticsCategories.DataAwsccTranscribeCallAnalyticsCategories.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribecallanalyticscategories"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranscribecallanalyticscategories"
 
 dataawscctranscribecallanalyticscategories.DataAwsccTranscribeCallAnalyticsCategories_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccTranscribeCallAnalyticsCategories.DataAwsccTranscribeCallAnalyticsCategories.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribecallanalyticscategories"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranscribecallanalyticscategories"
 
 dataawscctranscribecallanalyticscategories.DataAwsccTranscribeCallAnalyticsCategories_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscctranscribecallanalyticscategories.DataAwsccTranscribeCallAnalyticsCateg
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccTranscribeCallAnalyticsCategories.DataAwsccTranscribeCallAnalyticsCategories.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribecallanalyticscategories"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranscribecallanalyticscategories"
 
 dataawscctranscribecallanalyticscategories.DataAwsccTranscribeCallAnalyticsCategories_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscctranscribecallanalyticscategories.DataAwsccTranscribeCallAnalyticsCateg
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccTranscribeCallAnalyticsCategories.DataAwsccTranscribeCallAnalyticsCategories.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribecallanalyticscategories"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranscribecallanalyticscategories"
 
 dataawscctranscribecallanalyticscategories.DataAwsccTranscribeCallAnalyticsCategories_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccTranscribeCallAna
 
 The id of the existing DataAwsccTranscribeCallAnalyticsCategories that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/transcribe_call_analytics_categories#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/transcribe_call_analytics_categories#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTranscribeCallAnalyticsCategories.DataAwsccTranscribeCallAnalyticsCategoriesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribecallanalyticscategories"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranscribecallanalyticscategories"
 
 &dataawscctranscribecallanalyticscategories.DataAwsccTranscribeCallAnalyticsCategoriesConfig {
 	Connection: interface{},

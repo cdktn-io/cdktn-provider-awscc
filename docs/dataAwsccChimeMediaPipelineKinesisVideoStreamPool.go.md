@@ -4,12 +4,12 @@
 
 ### DataAwsccChimeMediaPipelineKinesisVideoStreamPool <a name="DataAwsccChimeMediaPipelineKinesisVideoStreamPool" id="@cdktn/provider-awscc.dataAwsccChimeMediaPipelineKinesisVideoStreamPool.DataAwsccChimeMediaPipelineKinesisVideoStreamPool"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/chime_media_pipeline_kinesis_video_stream_pool awscc_chime_media_pipeline_kinesis_video_stream_pool}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/chime_media_pipeline_kinesis_video_stream_pool awscc_chime_media_pipeline_kinesis_video_stream_pool}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccChimeMediaPipelineKinesisVideoStreamPool.DataAwsccChimeMediaPipelineKinesisVideoStreamPool.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimemediapipelinekinesisvideostreampool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchimemediapipelinekinesisvideostreampool"
 
 dataawsccchimemediapipelinekinesisvideostreampool.NewDataAwsccChimeMediaPipelineKinesisVideoStreamPool(scope Construct, id *string, config DataAwsccChimeMediaPipelineKinesisVideoStreamPoolConfig) DataAwsccChimeMediaPipelineKinesisVideoStreamPool
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccChimeMediaPipelineKinesisVideoStreamPool.DataAwsccChimeMediaPipelineKinesisVideoStreamPool.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimemediapipelinekinesisvideostreampool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchimemediapipelinekinesisvideostreampool"
 
 dataawsccchimemediapipelinekinesisvideostreampool.DataAwsccChimeMediaPipelineKinesisVideoStreamPool_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccChimeMediaPipelineKinesisVideoStreamPool.DataAwsccChimeMediaPipelineKinesisVideoStreamPool.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimemediapipelinekinesisvideostreampool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchimemediapipelinekinesisvideostreampool"
 
 dataawsccchimemediapipelinekinesisvideostreampool.DataAwsccChimeMediaPipelineKinesisVideoStreamPool_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccchimemediapipelinekinesisvideostreampool.DataAwsccChimeMediaPipelineKin
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccChimeMediaPipelineKinesisVideoStreamPool.DataAwsccChimeMediaPipelineKinesisVideoStreamPool.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimemediapipelinekinesisvideostreampool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchimemediapipelinekinesisvideostreampool"
 
 dataawsccchimemediapipelinekinesisvideostreampool.DataAwsccChimeMediaPipelineKinesisVideoStreamPool_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccchimemediapipelinekinesisvideostreampool.DataAwsccChimeMediaPipelineKin
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccChimeMediaPipelineKinesisVideoStreamPool.DataAwsccChimeMediaPipelineKinesisVideoStreamPool.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimemediapipelinekinesisvideostreampool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchimemediapipelinekinesisvideostreampool"
 
 dataawsccchimemediapipelinekinesisvideostreampool.DataAwsccChimeMediaPipelineKinesisVideoStreamPool_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccChimeMediaPipelin
 
 The id of the existing DataAwsccChimeMediaPipelineKinesisVideoStreamPool that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/chime_media_pipeline_kinesis_video_stream_pool#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/chime_media_pipeline_kinesis_video_stream_pool#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -675,7 +675,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccChimeMediaPipelineKinesisVideoStreamPool.DataAwsccChimeMediaPipelineKinesisVideoStreamPoolConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimemediapipelinekinesisvideostreampool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchimemediapipelinekinesisvideostreampool"
 
 &dataawsccchimemediapipelinekinesisvideostreampool.DataAwsccChimeMediaPipelineKinesisVideoStreamPoolConfig {
 	Connection: interface{},
@@ -784,7 +784,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/chime_media_pipeline_kinesis_video_stream_pool#id DataAwsccChimeMediaPipelineKinesisVideoStreamPool#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/chime_media_pipeline_kinesis_video_stream_pool#id DataAwsccChimeMediaPipelineKinesisVideoStreamPool#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -796,7 +796,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccChimeMediaPipelineKinesisVideoStreamPool.DataAwsccChimeMediaPipelineKinesisVideoStreamPoolStreamConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimemediapipelinekinesisvideostreampool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchimemediapipelinekinesisvideostreampool"
 
 &dataawsccchimemediapipelinekinesisvideostreampool.DataAwsccChimeMediaPipelineKinesisVideoStreamPoolStreamConfiguration {
 
@@ -809,7 +809,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimemediapip
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccChimeMediaPipelineKinesisVideoStreamPool.DataAwsccChimeMediaPipelineKinesisVideoStreamPoolTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimemediapipelinekinesisvideostreampool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchimemediapipelinekinesisvideostreampool"
 
 &dataawsccchimemediapipelinekinesisvideostreampool.DataAwsccChimeMediaPipelineKinesisVideoStreamPoolTags {
 
@@ -824,7 +824,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimemediapip
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccChimeMediaPipelineKinesisVideoStreamPool.DataAwsccChimeMediaPipelineKinesisVideoStreamPoolStreamConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimemediapipelinekinesisvideostreampool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchimemediapipelinekinesisvideostreampool"
 
 dataawsccchimemediapipelinekinesisvideostreampool.NewDataAwsccChimeMediaPipelineKinesisVideoStreamPoolStreamConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccChimeMediaPipelineKinesisVideoStreamPoolStreamConfigurationOutputReference
 ```
@@ -1095,7 +1095,7 @@ func InternalValue() DataAwsccChimeMediaPipelineKinesisVideoStreamPoolStreamConf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccChimeMediaPipelineKinesisVideoStreamPool.DataAwsccChimeMediaPipelineKinesisVideoStreamPoolTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimemediapipelinekinesisvideostreampool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchimemediapipelinekinesisvideostreampool"
 
 dataawsccchimemediapipelinekinesisvideostreampool.NewDataAwsccChimeMediaPipelineKinesisVideoStreamPoolTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccChimeMediaPipelineKinesisVideoStreamPoolTagsList
 ```
@@ -1244,7 +1244,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccChimeMediaPipelineKinesisVideoStreamPool.DataAwsccChimeMediaPipelineKinesisVideoStreamPoolTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimemediapipelinekinesisvideostreampool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchimemediapipelinekinesisvideostreampool"
 
 dataawsccchimemediapipelinekinesisvideostreampool.NewDataAwsccChimeMediaPipelineKinesisVideoStreamPoolTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccChimeMediaPipelineKinesisVideoStreamPoolTagsOutputReference
 ```

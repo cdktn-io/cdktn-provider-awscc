@@ -4,12 +4,12 @@
 
 ### Ec2NetworkInsightsAccessScopeAnalysis <a name="Ec2NetworkInsightsAccessScopeAnalysis" id="@cdktn/provider-awscc.ec2NetworkInsightsAccessScopeAnalysis.Ec2NetworkInsightsAccessScopeAnalysis"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_insights_access_scope_analysis awscc_ec2_network_insights_access_scope_analysis}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_insights_access_scope_analysis awscc_ec2_network_insights_access_scope_analysis}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2NetworkInsightsAccessScopeAnalysis.Ec2NetworkInsightsAccessScopeAnalysis.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkinsightsaccessscopeanalysis"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2networkinsightsaccessscopeanalysis"
 
 ec2networkinsightsaccessscopeanalysis.NewEc2NetworkInsightsAccessScopeAnalysis(scope Construct, id *string, config Ec2NetworkInsightsAccessScopeAnalysisConfig) Ec2NetworkInsightsAccessScopeAnalysis
 ```
@@ -420,7 +420,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.ec2NetworkInsightsAccessScopeAnalysis.Ec2NetworkInsightsAccessScopeAnalysis.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkinsightsaccessscopeanalysis"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2networkinsightsaccessscopeanalysis"
 
 ec2networkinsightsaccessscopeanalysis.Ec2NetworkInsightsAccessScopeAnalysis_IsConstruct(x interface{}) *bool
 ```
@@ -452,7 +452,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.ec2NetworkInsightsAccessScopeAnalysis.Ec2NetworkInsightsAccessScopeAnalysis.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkinsightsaccessscopeanalysis"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2networkinsightsaccessscopeanalysis"
 
 ec2networkinsightsaccessscopeanalysis.Ec2NetworkInsightsAccessScopeAnalysis_IsTerraformElement(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ ec2networkinsightsaccessscopeanalysis.Ec2NetworkInsightsAccessScopeAnalysis_IsTe
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.ec2NetworkInsightsAccessScopeAnalysis.Ec2NetworkInsightsAccessScopeAnalysis.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkinsightsaccessscopeanalysis"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2networkinsightsaccessscopeanalysis"
 
 ec2networkinsightsaccessscopeanalysis.Ec2NetworkInsightsAccessScopeAnalysis_IsTerraformResource(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ ec2networkinsightsaccessscopeanalysis.Ec2NetworkInsightsAccessScopeAnalysis_IsTe
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.ec2NetworkInsightsAccessScopeAnalysis.Ec2NetworkInsightsAccessScopeAnalysis.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkinsightsaccessscopeanalysis"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2networkinsightsaccessscopeanalysis"
 
 ec2networkinsightsaccessscopeanalysis.Ec2NetworkInsightsAccessScopeAnalysis_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -509,7 +509,7 @@ The construct id used in the generated config for the Ec2NetworkInsightsAccessSc
 
 The id of the existing Ec2NetworkInsightsAccessScopeAnalysis that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_insights_access_scope_analysis#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_insights_access_scope_analysis#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -852,7 +852,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2NetworkInsightsAccessScopeAnalysis.Ec2NetworkInsightsAccessScopeAnalysisConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkinsightsaccessscopeanalysis"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2networkinsightsaccessscopeanalysis"
 
 &ec2networkinsightsaccessscopeanalysis.Ec2NetworkInsightsAccessScopeAnalysisConfig {
 	Connection: interface{},
@@ -878,8 +878,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkinsightsacce
 | <code><a href="#@cdktn/provider-awscc.ec2NetworkInsightsAccessScopeAnalysis.Ec2NetworkInsightsAccessScopeAnalysisConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ec2NetworkInsightsAccessScopeAnalysis.Ec2NetworkInsightsAccessScopeAnalysisConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ec2NetworkInsightsAccessScopeAnalysis.Ec2NetworkInsightsAccessScopeAnalysisConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.ec2NetworkInsightsAccessScopeAnalysis.Ec2NetworkInsightsAccessScopeAnalysisConfig.property.networkInsightsAccessScopeId">NetworkInsightsAccessScopeId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_insights_access_scope_analysis#network_insights_access_scope_id Ec2NetworkInsightsAccessScopeAnalysis#network_insights_access_scope_id}. |
-| <code><a href="#@cdktn/provider-awscc.ec2NetworkInsightsAccessScopeAnalysis.Ec2NetworkInsightsAccessScopeAnalysisConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_insights_access_scope_analysis#tags Ec2NetworkInsightsAccessScopeAnalysis#tags}. |
+| <code><a href="#@cdktn/provider-awscc.ec2NetworkInsightsAccessScopeAnalysis.Ec2NetworkInsightsAccessScopeAnalysisConfig.property.networkInsightsAccessScopeId">NetworkInsightsAccessScopeId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_insights_access_scope_analysis#network_insights_access_scope_id Ec2NetworkInsightsAccessScopeAnalysis#network_insights_access_scope_id}. |
+| <code><a href="#@cdktn/provider-awscc.ec2NetworkInsightsAccessScopeAnalysis.Ec2NetworkInsightsAccessScopeAnalysisConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_insights_access_scope_analysis#tags Ec2NetworkInsightsAccessScopeAnalysis#tags}. |
 
 ---
 
@@ -961,7 +961,7 @@ NetworkInsightsAccessScopeId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_insights_access_scope_analysis#network_insights_access_scope_id Ec2NetworkInsightsAccessScopeAnalysis#network_insights_access_scope_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_insights_access_scope_analysis#network_insights_access_scope_id Ec2NetworkInsightsAccessScopeAnalysis#network_insights_access_scope_id}.
 
 ---
 
@@ -973,7 +973,7 @@ Tags interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_insights_access_scope_analysis#tags Ec2NetworkInsightsAccessScopeAnalysis#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_insights_access_scope_analysis#tags Ec2NetworkInsightsAccessScopeAnalysis#tags}.
 
 ---
 
@@ -982,7 +982,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2NetworkInsightsAccessScopeAnalysis.Ec2NetworkInsightsAccessScopeAnalysisTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkinsightsaccessscopeanalysis"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2networkinsightsaccessscopeanalysis"
 
 &ec2networkinsightsaccessscopeanalysis.Ec2NetworkInsightsAccessScopeAnalysisTags {
 	Key: *string,
@@ -994,8 +994,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkinsightsacce
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2NetworkInsightsAccessScopeAnalysis.Ec2NetworkInsightsAccessScopeAnalysisTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_insights_access_scope_analysis#key Ec2NetworkInsightsAccessScopeAnalysis#key}. |
-| <code><a href="#@cdktn/provider-awscc.ec2NetworkInsightsAccessScopeAnalysis.Ec2NetworkInsightsAccessScopeAnalysisTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_insights_access_scope_analysis#value Ec2NetworkInsightsAccessScopeAnalysis#value}. |
+| <code><a href="#@cdktn/provider-awscc.ec2NetworkInsightsAccessScopeAnalysis.Ec2NetworkInsightsAccessScopeAnalysisTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_insights_access_scope_analysis#key Ec2NetworkInsightsAccessScopeAnalysis#key}. |
+| <code><a href="#@cdktn/provider-awscc.ec2NetworkInsightsAccessScopeAnalysis.Ec2NetworkInsightsAccessScopeAnalysisTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_insights_access_scope_analysis#value Ec2NetworkInsightsAccessScopeAnalysis#value}. |
 
 ---
 
@@ -1007,7 +1007,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_insights_access_scope_analysis#key Ec2NetworkInsightsAccessScopeAnalysis#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_insights_access_scope_analysis#key Ec2NetworkInsightsAccessScopeAnalysis#key}.
 
 ---
 
@@ -1019,7 +1019,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_insights_access_scope_analysis#value Ec2NetworkInsightsAccessScopeAnalysis#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_insights_access_scope_analysis#value Ec2NetworkInsightsAccessScopeAnalysis#value}.
 
 ---
 
@@ -1030,7 +1030,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2NetworkInsightsAccessScopeAnalysis.Ec2NetworkInsightsAccessScopeAnalysisTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkinsightsaccessscopeanalysis"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2networkinsightsaccessscopeanalysis"
 
 ec2networkinsightsaccessscopeanalysis.NewEc2NetworkInsightsAccessScopeAnalysisTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Ec2NetworkInsightsAccessScopeAnalysisTagsList
 ```
@@ -1190,7 +1190,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2NetworkInsightsAccessScopeAnalysis.Ec2NetworkInsightsAccessScopeAnalysisTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkinsightsaccessscopeanalysis"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2networkinsightsaccessscopeanalysis"
 
 ec2networkinsightsaccessscopeanalysis.NewEc2NetworkInsightsAccessScopeAnalysisTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) Ec2NetworkInsightsAccessScopeAnalysisTagsOutputReference
 ```

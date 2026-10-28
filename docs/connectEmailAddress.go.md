@@ -4,12 +4,12 @@
 
 ### ConnectEmailAddress <a name="ConnectEmailAddress" id="@cdktn/provider-awscc.connectEmailAddress.ConnectEmailAddress"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_email_address awscc_connect_email_address}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_email_address awscc_connect_email_address}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectEmailAddress.ConnectEmailAddress.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectemailaddress"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectemailaddress"
 
 connectemailaddress.NewConnectEmailAddress(scope Construct, id *string, config ConnectEmailAddressConfig) ConnectEmailAddress
 ```
@@ -454,7 +454,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.connectEmailAddress.ConnectEmailAddress.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectemailaddress"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectemailaddress"
 
 connectemailaddress.ConnectEmailAddress_IsConstruct(x interface{}) *bool
 ```
@@ -486,7 +486,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.connectEmailAddress.ConnectEmailAddress.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectemailaddress"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectemailaddress"
 
 connectemailaddress.ConnectEmailAddress_IsTerraformElement(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ connectemailaddress.ConnectEmailAddress_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.connectEmailAddress.ConnectEmailAddress.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectemailaddress"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectemailaddress"
 
 connectemailaddress.ConnectEmailAddress_IsTerraformResource(x interface{}) *bool
 ```
@@ -514,7 +514,7 @@ connectemailaddress.ConnectEmailAddress_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.connectEmailAddress.ConnectEmailAddress.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectemailaddress"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectemailaddress"
 
 connectemailaddress.ConnectEmailAddress_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -543,7 +543,7 @@ The construct id used in the generated config for the ConnectEmailAddress to imp
 
 The id of the existing ConnectEmailAddress that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_email_address#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_email_address#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -897,7 +897,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectEmailAddress.ConnectEmailAddressAliasConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectemailaddress"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectemailaddress"
 
 &connectemailaddress.ConnectEmailAddressAliasConfigurations {
 	EmailAddressArn: *string,
@@ -922,7 +922,7 @@ EmailAddressArn *string
 
 The identifier of the email address alias.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_email_address#email_address_arn ConnectEmailAddress#email_address_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_email_address#email_address_arn ConnectEmailAddress#email_address_arn}
 
 ---
 
@@ -931,7 +931,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectEmailAddress.ConnectEmailAddressConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectemailaddress"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectemailaddress"
 
 &connectemailaddress.ConnectEmailAddressConfig {
 	Connection: interface{},
@@ -1050,7 +1050,7 @@ EmailAddress *string
 
 Email address to be created for this instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_email_address#email_address ConnectEmailAddress#email_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_email_address#email_address ConnectEmailAddress#email_address}
 
 ---
 
@@ -1064,7 +1064,7 @@ InstanceArn *string
 
 The identifier of the Amazon Connect instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_email_address#instance_arn ConnectEmailAddress#instance_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_email_address#instance_arn ConnectEmailAddress#instance_arn}
 
 ---
 
@@ -1078,7 +1078,7 @@ AliasConfigurations interface{}
 
 List of alias configurations for the email address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_email_address#alias_configurations ConnectEmailAddress#alias_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_email_address#alias_configurations ConnectEmailAddress#alias_configurations}
 
 ---
 
@@ -1092,7 +1092,7 @@ Description *string
 
 A description for the email address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_email_address#description ConnectEmailAddress#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_email_address#description ConnectEmailAddress#description}
 
 ---
 
@@ -1106,7 +1106,7 @@ DisplayName *string
 
 The display name for the email address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_email_address#display_name ConnectEmailAddress#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_email_address#display_name ConnectEmailAddress#display_name}
 
 ---
 
@@ -1120,7 +1120,7 @@ Tags interface{}
 
 One or more tags.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_email_address#tags ConnectEmailAddress#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_email_address#tags ConnectEmailAddress#tags}
 
 ---
 
@@ -1129,7 +1129,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectEmailAddress.ConnectEmailAddressTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectemailaddress"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectemailaddress"
 
 &connectemailaddress.ConnectEmailAddressTags {
 	Key: *string,
@@ -1158,7 +1158,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_email_address#key ConnectEmailAddress#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_email_address#key ConnectEmailAddress#key}
 
 ---
 
@@ -1174,7 +1174,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_email_address#value ConnectEmailAddress#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_email_address#value ConnectEmailAddress#value}
 
 ---
 
@@ -1185,7 +1185,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectEmailAddress.ConnectEmailAddressAliasConfigurationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectemailaddress"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectemailaddress"
 
 connectemailaddress.NewConnectEmailAddressAliasConfigurationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ConnectEmailAddressAliasConfigurationsList
 ```
@@ -1345,7 +1345,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectEmailAddress.ConnectEmailAddressAliasConfigurationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectemailaddress"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectemailaddress"
 
 connectemailaddress.NewConnectEmailAddressAliasConfigurationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ConnectEmailAddressAliasConfigurationsOutputReference
 ```
@@ -1641,7 +1641,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectEmailAddress.ConnectEmailAddressTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectemailaddress"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectemailaddress"
 
 connectemailaddress.NewConnectEmailAddressTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ConnectEmailAddressTagsList
 ```
@@ -1801,7 +1801,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectEmailAddress.ConnectEmailAddressTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectemailaddress"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectemailaddress"
 
 connectemailaddress.NewConnectEmailAddressTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ConnectEmailAddressTagsOutputReference
 ```

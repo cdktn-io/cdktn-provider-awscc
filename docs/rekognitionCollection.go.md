@@ -4,12 +4,12 @@
 
 ### RekognitionCollection <a name="RekognitionCollection" id="@cdktn/provider-awscc.rekognitionCollection.RekognitionCollection"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rekognition_collection awscc_rekognition_collection}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rekognition_collection awscc_rekognition_collection}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.rekognitionCollection.RekognitionCollection.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rekognitioncollection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rekognitioncollection"
 
 rekognitioncollection.NewRekognitionCollection(scope Construct, id *string, config RekognitionCollectionConfig) RekognitionCollection
 ```
@@ -420,7 +420,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.rekognitionCollection.RekognitionCollection.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rekognitioncollection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rekognitioncollection"
 
 rekognitioncollection.RekognitionCollection_IsConstruct(x interface{}) *bool
 ```
@@ -452,7 +452,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.rekognitionCollection.RekognitionCollection.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rekognitioncollection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rekognitioncollection"
 
 rekognitioncollection.RekognitionCollection_IsTerraformElement(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ rekognitioncollection.RekognitionCollection_IsTerraformElement(x interface{}) *b
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.rekognitionCollection.RekognitionCollection.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rekognitioncollection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rekognitioncollection"
 
 rekognitioncollection.RekognitionCollection_IsTerraformResource(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ rekognitioncollection.RekognitionCollection_IsTerraformResource(x interface{}) *
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.rekognitionCollection.RekognitionCollection.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rekognitioncollection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rekognitioncollection"
 
 rekognitioncollection.RekognitionCollection_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -509,7 +509,7 @@ The construct id used in the generated config for the RekognitionCollection to i
 
 The id of the existing RekognitionCollection that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rekognition_collection#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rekognition_collection#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -775,7 +775,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.rekognitionCollection.RekognitionCollectionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rekognitioncollection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rekognitioncollection"
 
 &rekognitioncollection.RekognitionCollectionConfig {
 	Connection: interface{},
@@ -886,7 +886,7 @@ CollectionId *string
 
 The name of the collection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rekognition_collection#collection_id RekognitionCollection#collection_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rekognition_collection#collection_id RekognitionCollection#collection_id}
 
 ---
 
@@ -900,7 +900,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rekognition_collection#tags RekognitionCollection#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rekognition_collection#tags RekognitionCollection#tags}
 
 ---
 
@@ -909,7 +909,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.rekognitionCollection.RekognitionCollectionTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rekognitioncollection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rekognitioncollection"
 
 &rekognitioncollection.RekognitionCollectionTags {
 	Key: *string,
@@ -938,7 +938,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rekognition_collection#key RekognitionCollection#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rekognition_collection#key RekognitionCollection#key}
 
 ---
 
@@ -954,7 +954,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rekognition_collection#value RekognitionCollection#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rekognition_collection#value RekognitionCollection#value}
 
 ---
 
@@ -965,7 +965,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.rekognitionCollection.RekognitionCollectionTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rekognitioncollection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rekognitioncollection"
 
 rekognitioncollection.NewRekognitionCollectionTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) RekognitionCollectionTagsList
 ```
@@ -1125,7 +1125,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.rekognitionCollection.RekognitionCollectionTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rekognitioncollection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rekognitioncollection"
 
 rekognitioncollection.NewRekognitionCollectionTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) RekognitionCollectionTagsOutputReference
 ```

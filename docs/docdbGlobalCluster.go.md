@@ -4,12 +4,12 @@
 
 ### DocdbGlobalCluster <a name="DocdbGlobalCluster" id="@cdktn/provider-awscc.docdbGlobalCluster.DocdbGlobalCluster"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/docdb_global_cluster awscc_docdb_global_cluster}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/docdb_global_cluster awscc_docdb_global_cluster}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.docdbGlobalCluster.DocdbGlobalCluster.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/docdbglobalcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/docdbglobalcluster"
 
 docdbglobalcluster.NewDocdbGlobalCluster(scope Construct, id *string, config DocdbGlobalClusterConfig) DocdbGlobalCluster
 ```
@@ -455,7 +455,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.docdbGlobalCluster.DocdbGlobalCluster.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/docdbglobalcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/docdbglobalcluster"
 
 docdbglobalcluster.DocdbGlobalCluster_IsConstruct(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.docdbGlobalCluster.DocdbGlobalCluster.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/docdbglobalcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/docdbglobalcluster"
 
 docdbglobalcluster.DocdbGlobalCluster_IsTerraformElement(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ docdbglobalcluster.DocdbGlobalCluster_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.docdbGlobalCluster.DocdbGlobalCluster.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/docdbglobalcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/docdbglobalcluster"
 
 docdbglobalcluster.DocdbGlobalCluster_IsTerraformResource(x interface{}) *bool
 ```
@@ -515,7 +515,7 @@ docdbglobalcluster.DocdbGlobalCluster_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.docdbGlobalCluster.DocdbGlobalCluster.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/docdbglobalcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/docdbglobalcluster"
 
 docdbglobalcluster.DocdbGlobalCluster_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -544,7 +544,7 @@ The construct id used in the generated config for the DocdbGlobalCluster to impo
 
 The id of the existing DocdbGlobalCluster that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/docdb_global_cluster#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/docdb_global_cluster#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -931,7 +931,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.docdbGlobalCluster.DocdbGlobalClusterConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/docdbglobalcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/docdbglobalcluster"
 
 &docdbglobalcluster.DocdbGlobalClusterConfig {
 	Connection: interface{},
@@ -1052,7 +1052,7 @@ GlobalClusterIdentifier *string
 
 The cluster identifier of the global cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/docdb_global_cluster#global_cluster_identifier DocdbGlobalCluster#global_cluster_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/docdb_global_cluster#global_cluster_identifier DocdbGlobalCluster#global_cluster_identifier}
 
 ---
 
@@ -1068,7 +1068,7 @@ Indicates whether the global cluster has deletion protection enabled.
 
 The global cluster can't be deleted when deletion protection is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/docdb_global_cluster#deletion_protection DocdbGlobalCluster#deletion_protection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/docdb_global_cluster#deletion_protection DocdbGlobalCluster#deletion_protection}
 
 ---
 
@@ -1082,7 +1082,7 @@ Engine *string
 
 The database engine to use for this global cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/docdb_global_cluster#engine DocdbGlobalCluster#engine}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/docdb_global_cluster#engine DocdbGlobalCluster#engine}
 
 ---
 
@@ -1096,7 +1096,7 @@ EngineVersion *string
 
 The engine version to use for this global cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/docdb_global_cluster#engine_version DocdbGlobalCluster#engine_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/docdb_global_cluster#engine_version DocdbGlobalCluster#engine_version}
 
 ---
 
@@ -1112,7 +1112,7 @@ The Amazon Resource Name (ARN) to use as the primary cluster of the global clust
 
 You may also choose to instead specify the DBClusterIdentifier. If you provide a value for this parameter, don't specify values for the following settings because Amazon DocumentDB uses the values from the specified source DB cluster: Engine, EngineVersion, StorageEncrypted
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/docdb_global_cluster#source_db_cluster_identifier DocdbGlobalCluster#source_db_cluster_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/docdb_global_cluster#source_db_cluster_identifier DocdbGlobalCluster#source_db_cluster_identifier}
 
 ---
 
@@ -1126,7 +1126,7 @@ StorageEncrypted interface{}
 
 Indicates whether the global cluster has storage encryption enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/docdb_global_cluster#storage_encrypted DocdbGlobalCluster#storage_encrypted}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/docdb_global_cluster#storage_encrypted DocdbGlobalCluster#storage_encrypted}
 
 ---
 
@@ -1140,7 +1140,7 @@ Tags interface{}
 
 The tags to be assigned to the Amazon DocumentDB resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/docdb_global_cluster#tags DocdbGlobalCluster#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/docdb_global_cluster#tags DocdbGlobalCluster#tags}
 
 ---
 
@@ -1149,7 +1149,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.docdbGlobalCluster.DocdbGlobalClusterTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/docdbglobalcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/docdbglobalcluster"
 
 &docdbglobalcluster.DocdbGlobalClusterTags {
 	Key: *string,
@@ -1178,7 +1178,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/docdb_global_cluster#key DocdbGlobalCluster#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/docdb_global_cluster#key DocdbGlobalCluster#key}
 
 ---
 
@@ -1194,7 +1194,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/docdb_global_cluster#value DocdbGlobalCluster#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/docdb_global_cluster#value DocdbGlobalCluster#value}
 
 ---
 
@@ -1205,7 +1205,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.docdbGlobalCluster.DocdbGlobalClusterTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/docdbglobalcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/docdbglobalcluster"
 
 docdbglobalcluster.NewDocdbGlobalClusterTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DocdbGlobalClusterTagsList
 ```
@@ -1365,7 +1365,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.docdbGlobalCluster.DocdbGlobalClusterTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/docdbglobalcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/docdbglobalcluster"
 
 docdbglobalcluster.NewDocdbGlobalClusterTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DocdbGlobalClusterTagsOutputReference
 ```

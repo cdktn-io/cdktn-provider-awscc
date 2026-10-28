@@ -4,12 +4,12 @@
 
 ### DataAwsccSesContactList <a name="DataAwsccSesContactList" id="@cdktn/provider-awscc.dataAwsccSesContactList.DataAwsccSesContactList"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_contact_list awscc_ses_contact_list}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ses_contact_list awscc_ses_contact_list}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesContactList.DataAwsccSesContactList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsescontactlist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsescontactlist"
 
 dataawsccsescontactlist.NewDataAwsccSesContactList(scope Construct, id *string, config DataAwsccSesContactListConfig) DataAwsccSesContactList
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSesContactList.DataAwsccSesContactList.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsescontactlist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsescontactlist"
 
 dataawsccsescontactlist.DataAwsccSesContactList_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSesContactList.DataAwsccSesContactList.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsescontactlist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsescontactlist"
 
 dataawsccsescontactlist.DataAwsccSesContactList_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsescontactlist.DataAwsccSesContactList_IsTerraformElement(x interface{}
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSesContactList.DataAwsccSesContactList.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsescontactlist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsescontactlist"
 
 dataawsccsescontactlist.DataAwsccSesContactList_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsescontactlist.DataAwsccSesContactList_IsTerraformDataSource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSesContactList.DataAwsccSesContactList.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsescontactlist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsescontactlist"
 
 dataawsccsescontactlist.DataAwsccSesContactList_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSesContactList to
 
 The id of the existing DataAwsccSesContactList that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_contact_list#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ses_contact_list#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -631,7 +631,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesContactList.DataAwsccSesContactListConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsescontactlist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsescontactlist"
 
 &dataawsccsescontactlist.DataAwsccSesContactListConfig {
 	Connection: interface{},
@@ -740,7 +740,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_contact_list#id DataAwsccSesContactList#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ses_contact_list#id DataAwsccSesContactList#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -752,7 +752,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesContactList.DataAwsccSesContactListTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsescontactlist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsescontactlist"
 
 &dataawsccsescontactlist.DataAwsccSesContactListTags {
 
@@ -765,7 +765,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsescontactlis
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesContactList.DataAwsccSesContactListTopics.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsescontactlist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsescontactlist"
 
 &dataawsccsescontactlist.DataAwsccSesContactListTopics {
 
@@ -780,7 +780,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsescontactlis
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesContactList.DataAwsccSesContactListTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsescontactlist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsescontactlist"
 
 dataawsccsescontactlist.NewDataAwsccSesContactListTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSesContactListTagsList
 ```
@@ -929,7 +929,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesContactList.DataAwsccSesContactListTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsescontactlist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsescontactlist"
 
 dataawsccsescontactlist.NewDataAwsccSesContactListTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSesContactListTagsOutputReference
 ```
@@ -1218,7 +1218,7 @@ func InternalValue() DataAwsccSesContactListTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesContactList.DataAwsccSesContactListTopicsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsescontactlist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsescontactlist"
 
 dataawsccsescontactlist.NewDataAwsccSesContactListTopicsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSesContactListTopicsList
 ```
@@ -1367,7 +1367,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesContactList.DataAwsccSesContactListTopicsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsescontactlist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsescontactlist"
 
 dataawsccsescontactlist.NewDataAwsccSesContactListTopicsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSesContactListTopicsOutputReference
 ```

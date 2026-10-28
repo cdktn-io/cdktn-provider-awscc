@@ -4,12 +4,12 @@
 
 ### BedrockAgentAlias <a name="BedrockAgentAlias" id="@cdktn/provider-awscc.bedrockAgentAlias.BedrockAgentAlias"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent_alias awscc_bedrock_agent_alias}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent_alias awscc_bedrock_agent_alias}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockAgentAlias.BedrockAgentAlias.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagentalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagentalias"
 
 bedrockagentalias.NewBedrockAgentAlias(scope Construct, id *string, config BedrockAgentAliasConfig) BedrockAgentAlias
 ```
@@ -434,7 +434,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.bedrockAgentAlias.BedrockAgentAlias.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagentalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagentalias"
 
 bedrockagentalias.BedrockAgentAlias_IsConstruct(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.bedrockAgentAlias.BedrockAgentAlias.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagentalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagentalias"
 
 bedrockagentalias.BedrockAgentAlias_IsTerraformElement(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ bedrockagentalias.BedrockAgentAlias_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.bedrockAgentAlias.BedrockAgentAlias.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagentalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagentalias"
 
 bedrockagentalias.BedrockAgentAlias_IsTerraformResource(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ bedrockagentalias.BedrockAgentAlias_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.bedrockAgentAlias.BedrockAgentAlias.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagentalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagentalias"
 
 bedrockagentalias.BedrockAgentAlias_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -523,7 +523,7 @@ The construct id used in the generated config for the BedrockAgentAlias to impor
 
 The id of the existing BedrockAgentAlias that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent_alias#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent_alias#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -910,7 +910,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockAgentAlias.BedrockAgentAliasAgentAliasHistoryEvents.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagentalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagentalias"
 
 &bedrockagentalias.BedrockAgentAliasAgentAliasHistoryEvents {
 
@@ -923,7 +923,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagentalias"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockAgentAlias.BedrockAgentAliasAgentAliasHistoryEventsRoutingConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagentalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagentalias"
 
 &bedrockagentalias.BedrockAgentAliasAgentAliasHistoryEventsRoutingConfiguration {
 
@@ -936,7 +936,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagentalias"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockAgentAlias.BedrockAgentAliasConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagentalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagentalias"
 
 &bedrockagentalias.BedrockAgentAliasConfig {
 	Connection: interface{},
@@ -1053,7 +1053,7 @@ AgentAliasName *string
 
 Name for a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent_alias#agent_alias_name BedrockAgentAlias#agent_alias_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent_alias#agent_alias_name BedrockAgentAlias#agent_alias_name}
 
 ---
 
@@ -1067,7 +1067,7 @@ AgentId *string
 
 Identifier for a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent_alias#agent_id BedrockAgentAlias#agent_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent_alias#agent_id BedrockAgentAlias#agent_id}
 
 ---
 
@@ -1081,7 +1081,7 @@ Description *string
 
 Description of the Resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent_alias#description BedrockAgentAlias#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent_alias#description BedrockAgentAlias#description}
 
 ---
 
@@ -1095,7 +1095,7 @@ RoutingConfiguration interface{}
 
 Routing configuration for an Agent alias.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent_alias#routing_configuration BedrockAgentAlias#routing_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent_alias#routing_configuration BedrockAgentAlias#routing_configuration}
 
 ---
 
@@ -1109,7 +1109,7 @@ Tags *map[string]*string
 
 A map of tag keys and values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent_alias#tags BedrockAgentAlias#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent_alias#tags BedrockAgentAlias#tags}
 
 ---
 
@@ -1118,7 +1118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockAgentAlias.BedrockAgentAliasRoutingConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagentalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagentalias"
 
 &bedrockagentalias.BedrockAgentAliasRoutingConfiguration {
 	AgentVersion: *string,
@@ -1143,7 +1143,7 @@ AgentVersion *string
 
 Agent Version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent_alias#agent_version BedrockAgentAlias#agent_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent_alias#agent_version BedrockAgentAlias#agent_version}
 
 ---
 
@@ -1154,7 +1154,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockAgentAlias.BedrockAgentAliasAgentAliasHistoryEventsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagentalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagentalias"
 
 bedrockagentalias.NewBedrockAgentAliasAgentAliasHistoryEventsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BedrockAgentAliasAgentAliasHistoryEventsList
 ```
@@ -1303,7 +1303,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockAgentAlias.BedrockAgentAliasAgentAliasHistoryEventsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagentalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagentalias"
 
 bedrockagentalias.NewBedrockAgentAliasAgentAliasHistoryEventsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) BedrockAgentAliasAgentAliasHistoryEventsOutputReference
 ```
@@ -1603,7 +1603,7 @@ func InternalValue() BedrockAgentAliasAgentAliasHistoryEvents
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockAgentAlias.BedrockAgentAliasAgentAliasHistoryEventsRoutingConfigurationList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagentalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagentalias"
 
 bedrockagentalias.NewBedrockAgentAliasAgentAliasHistoryEventsRoutingConfigurationList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BedrockAgentAliasAgentAliasHistoryEventsRoutingConfigurationList
 ```
@@ -1752,7 +1752,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockAgentAlias.BedrockAgentAliasAgentAliasHistoryEventsRoutingConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagentalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagentalias"
 
 bedrockagentalias.NewBedrockAgentAliasAgentAliasHistoryEventsRoutingConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) BedrockAgentAliasAgentAliasHistoryEventsRoutingConfigurationOutputReference
 ```
@@ -2030,7 +2030,7 @@ func InternalValue() BedrockAgentAliasAgentAliasHistoryEventsRoutingConfiguratio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockAgentAlias.BedrockAgentAliasRoutingConfigurationList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagentalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagentalias"
 
 bedrockagentalias.NewBedrockAgentAliasRoutingConfigurationList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BedrockAgentAliasRoutingConfigurationList
 ```
@@ -2190,7 +2190,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockAgentAlias.BedrockAgentAliasRoutingConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagentalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagentalias"
 
 bedrockagentalias.NewBedrockAgentAliasRoutingConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) BedrockAgentAliasRoutingConfigurationOutputReference
 ```

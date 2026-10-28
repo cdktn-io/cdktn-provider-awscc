@@ -4,12 +4,12 @@
 
 ### LambdaUrl <a name="LambdaUrl" id="@cdktn/provider-awscc.lambdaUrl.LambdaUrl"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_url awscc_lambda_url}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_url awscc_lambda_url}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lambdaUrl.LambdaUrl.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdaurl"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdaurl"
 
 lambdaurl.NewLambdaUrl(scope Construct, id *string, config LambdaUrlConfig) LambdaUrl
 ```
@@ -434,7 +434,7 @@ func ResetQualifier()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.lambdaUrl.LambdaUrl.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdaurl"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdaurl"
 
 lambdaurl.LambdaUrl_IsConstruct(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.lambdaUrl.LambdaUrl.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdaurl"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdaurl"
 
 lambdaurl.LambdaUrl_IsTerraformElement(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ lambdaurl.LambdaUrl_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.lambdaUrl.LambdaUrl.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdaurl"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdaurl"
 
 lambdaurl.LambdaUrl_IsTerraformResource(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ lambdaurl.LambdaUrl_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.lambdaUrl.LambdaUrl.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdaurl"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdaurl"
 
 lambdaurl.LambdaUrl_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -523,7 +523,7 @@ The construct id used in the generated config for the LambdaUrl to import.
 
 The id of the existing LambdaUrl that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_url#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_url#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -866,7 +866,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lambdaUrl.LambdaUrlConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdaurl"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdaurl"
 
 &lambdaurl.LambdaUrlConfig {
 	Connection: interface{},
@@ -878,7 +878,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdaurl"
 	Provisioners: *[]interface{},
 	AuthType: *string,
 	TargetFunctionArn: *string,
-	Cors: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lambdaUrl.LambdaUrlCors,
+	Cors: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lambdaUrl.LambdaUrlCors,
 	InvokeMode: *string,
 	Qualifier: *string,
 }
@@ -897,7 +897,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdaurl"
 | <code><a href="#@cdktn/provider-awscc.lambdaUrl.LambdaUrlConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.lambdaUrl.LambdaUrlConfig.property.authType">AuthType</a></code> | <code>*string</code> | Can be either AWS_IAM if the requests are authorized via IAM, or NONE if no authorization is configured on the Function URL. |
 | <code><a href="#@cdktn/provider-awscc.lambdaUrl.LambdaUrlConfig.property.targetFunctionArn">TargetFunctionArn</a></code> | <code>*string</code> | The Amazon Resource Name (ARN) of the function associated with the Function URL. |
-| <code><a href="#@cdktn/provider-awscc.lambdaUrl.LambdaUrlConfig.property.cors">Cors</a></code> | <code><a href="#@cdktn/provider-awscc.lambdaUrl.LambdaUrlCors">LambdaUrlCors</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_url#cors LambdaUrl#cors}. |
+| <code><a href="#@cdktn/provider-awscc.lambdaUrl.LambdaUrlConfig.property.cors">Cors</a></code> | <code><a href="#@cdktn/provider-awscc.lambdaUrl.LambdaUrlCors">LambdaUrlCors</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_url#cors LambdaUrl#cors}. |
 | <code><a href="#@cdktn/provider-awscc.lambdaUrl.LambdaUrlConfig.property.invokeMode">InvokeMode</a></code> | <code>*string</code> | The invocation mode for the function's URL. |
 | <code><a href="#@cdktn/provider-awscc.lambdaUrl.LambdaUrlConfig.property.qualifier">Qualifier</a></code> | <code>*string</code> | The alias qualifier for the target function. If TargetFunctionArn is unqualified then Qualifier must be passed. |
 
@@ -983,7 +983,7 @@ AuthType *string
 
 Can be either AWS_IAM if the requests are authorized via IAM, or NONE if no authorization is configured on the Function URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_url#auth_type LambdaUrl#auth_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_url#auth_type LambdaUrl#auth_type}
 
 ---
 
@@ -997,7 +997,7 @@ TargetFunctionArn *string
 
 The Amazon Resource Name (ARN) of the function associated with the Function URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_url#target_function_arn LambdaUrl#target_function_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_url#target_function_arn LambdaUrl#target_function_arn}
 
 ---
 
@@ -1009,7 +1009,7 @@ Cors LambdaUrlCors
 
 - *Type:* <a href="#@cdktn/provider-awscc.lambdaUrl.LambdaUrlCors">LambdaUrlCors</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_url#cors LambdaUrl#cors}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_url#cors LambdaUrl#cors}.
 
 ---
 
@@ -1025,7 +1025,7 @@ The invocation mode for the function's URL.
 
 Set to BUFFERED if you want to buffer responses before returning them to the client. Set to RESPONSE_STREAM if you want to stream responses, allowing faster time to first byte and larger response payload sizes. If not set, defaults to BUFFERED.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_url#invoke_mode LambdaUrl#invoke_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_url#invoke_mode LambdaUrl#invoke_mode}
 
 ---
 
@@ -1039,7 +1039,7 @@ Qualifier *string
 
 The alias qualifier for the target function. If TargetFunctionArn is unqualified then Qualifier must be passed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_url#qualifier LambdaUrl#qualifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_url#qualifier LambdaUrl#qualifier}
 
 ---
 
@@ -1048,7 +1048,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lambdaUrl.LambdaUrlCors.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdaurl"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdaurl"
 
 &lambdaurl.LambdaUrlCors {
 	AllowCredentials: interface{},
@@ -1069,7 +1069,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdaurl"
 | <code><a href="#@cdktn/provider-awscc.lambdaUrl.LambdaUrlCors.property.allowMethods">AllowMethods</a></code> | <code>*[]*string</code> | Represents a collection of allowed HTTP methods. |
 | <code><a href="#@cdktn/provider-awscc.lambdaUrl.LambdaUrlCors.property.allowOrigins">AllowOrigins</a></code> | <code>*[]*string</code> | Represents a collection of allowed origins. |
 | <code><a href="#@cdktn/provider-awscc.lambdaUrl.LambdaUrlCors.property.exposeHeaders">ExposeHeaders</a></code> | <code>*[]*string</code> | Represents a collection of exposed headers. |
-| <code><a href="#@cdktn/provider-awscc.lambdaUrl.LambdaUrlCors.property.maxAge">MaxAge</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_url#max_age LambdaUrl#max_age}. |
+| <code><a href="#@cdktn/provider-awscc.lambdaUrl.LambdaUrlCors.property.maxAge">MaxAge</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_url#max_age LambdaUrl#max_age}. |
 
 ---
 
@@ -1083,7 +1083,7 @@ AllowCredentials interface{}
 
 Specifies whether credentials are included in the CORS request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_url#allow_credentials LambdaUrl#allow_credentials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_url#allow_credentials LambdaUrl#allow_credentials}
 
 ---
 
@@ -1097,7 +1097,7 @@ AllowHeaders *[]*string
 
 Represents a collection of allowed headers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_url#allow_headers LambdaUrl#allow_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_url#allow_headers LambdaUrl#allow_headers}
 
 ---
 
@@ -1111,7 +1111,7 @@ AllowMethods *[]*string
 
 Represents a collection of allowed HTTP methods.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_url#allow_methods LambdaUrl#allow_methods}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_url#allow_methods LambdaUrl#allow_methods}
 
 ---
 
@@ -1125,7 +1125,7 @@ AllowOrigins *[]*string
 
 Represents a collection of allowed origins.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_url#allow_origins LambdaUrl#allow_origins}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_url#allow_origins LambdaUrl#allow_origins}
 
 ---
 
@@ -1139,7 +1139,7 @@ ExposeHeaders *[]*string
 
 Represents a collection of exposed headers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_url#expose_headers LambdaUrl#expose_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_url#expose_headers LambdaUrl#expose_headers}
 
 ---
 
@@ -1151,7 +1151,7 @@ MaxAge *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_url#max_age LambdaUrl#max_age}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_url#max_age LambdaUrl#max_age}.
 
 ---
 
@@ -1162,7 +1162,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lambdaUrl.LambdaUrlCorsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdaurl"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdaurl"
 
 lambdaurl.NewLambdaUrlCorsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LambdaUrlCorsOutputReference
 ```

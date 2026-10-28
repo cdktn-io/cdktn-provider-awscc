@@ -4,12 +4,12 @@
 
 ### MediatailorChannel <a name="MediatailorChannel" id="@cdktn/provider-awscc.mediatailorChannel.MediatailorChannel"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_channel awscc_mediatailor_channel}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_channel awscc_mediatailor_channel}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediatailorChannel.MediatailorChannel.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorchannel"
 
 mediatailorchannel.NewMediatailorChannel(scope Construct, id *string, config MediatailorChannelConfig) MediatailorChannel
 ```
@@ -507,7 +507,7 @@ func ResetTimeShiftConfiguration()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.mediatailorChannel.MediatailorChannel.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorchannel"
 
 mediatailorchannel.MediatailorChannel_IsConstruct(x interface{}) *bool
 ```
@@ -539,7 +539,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.mediatailorChannel.MediatailorChannel.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorchannel"
 
 mediatailorchannel.MediatailorChannel_IsTerraformElement(x interface{}) *bool
 ```
@@ -553,7 +553,7 @@ mediatailorchannel.MediatailorChannel_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.mediatailorChannel.MediatailorChannel.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorchannel"
 
 mediatailorchannel.MediatailorChannel_IsTerraformResource(x interface{}) *bool
 ```
@@ -567,7 +567,7 @@ mediatailorchannel.MediatailorChannel_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.mediatailorChannel.MediatailorChannel.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorchannel"
 
 mediatailorchannel.MediatailorChannel_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -596,7 +596,7 @@ The construct id used in the generated config for the MediatailorChannel to impo
 
 The id of the existing MediatailorChannel that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_channel#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_channel#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1016,7 +1016,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediatailorChannel.MediatailorChannelConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorchannel"
 
 &mediatailorchannel.MediatailorChannelConfig {
 	Connection: interface{},
@@ -1030,11 +1030,11 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorchannel"
 	Outputs: interface{},
 	PlaybackMode: *string,
 	Audiences: *[]*string,
-	FillerSlate: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.mediatailorChannel.MediatailorChannelFillerSlate,
-	LogConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.mediatailorChannel.MediatailorChannelLogConfiguration,
+	FillerSlate: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.mediatailorChannel.MediatailorChannelFillerSlate,
+	LogConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.mediatailorChannel.MediatailorChannelLogConfiguration,
 	Tags: interface{},
 	Tier: *string,
-	TimeShiftConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.mediatailorChannel.MediatailorChannelTimeShiftConfiguration,
+	TimeShiftConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.mediatailorChannel.MediatailorChannelTimeShiftConfiguration,
 }
 ```
 
@@ -1049,14 +1049,14 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorchannel"
 | <code><a href="#@cdktn/provider-awscc.mediatailorChannel.MediatailorChannelConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediatailorChannel.MediatailorChannelConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediatailorChannel.MediatailorChannelConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.mediatailorChannel.MediatailorChannelConfig.property.channelName">ChannelName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_channel#channel_name MediatailorChannel#channel_name}. |
+| <code><a href="#@cdktn/provider-awscc.mediatailorChannel.MediatailorChannelConfig.property.channelName">ChannelName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_channel#channel_name MediatailorChannel#channel_name}. |
 | <code><a href="#@cdktn/provider-awscc.mediatailorChannel.MediatailorChannelConfig.property.outputs">Outputs</a></code> | <code>interface{}</code> | <p>The channel's output properties.</p>. |
-| <code><a href="#@cdktn/provider-awscc.mediatailorChannel.MediatailorChannelConfig.property.playbackMode">PlaybackMode</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_channel#playback_mode MediatailorChannel#playback_mode}. |
+| <code><a href="#@cdktn/provider-awscc.mediatailorChannel.MediatailorChannelConfig.property.playbackMode">PlaybackMode</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_channel#playback_mode MediatailorChannel#playback_mode}. |
 | <code><a href="#@cdktn/provider-awscc.mediatailorChannel.MediatailorChannelConfig.property.audiences">Audiences</a></code> | <code>*[]*string</code> | <p>The list of audiences defined in channel.</p>. |
 | <code><a href="#@cdktn/provider-awscc.mediatailorChannel.MediatailorChannelConfig.property.fillerSlate">FillerSlate</a></code> | <code><a href="#@cdktn/provider-awscc.mediatailorChannel.MediatailorChannelFillerSlate">MediatailorChannelFillerSlate</a></code> | <p>Slate VOD source configuration.</p>. |
 | <code><a href="#@cdktn/provider-awscc.mediatailorChannel.MediatailorChannelConfig.property.logConfiguration">LogConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.mediatailorChannel.MediatailorChannelLogConfiguration">MediatailorChannelLogConfiguration</a></code> | <p>The log configuration for the channel.</p>. |
 | <code><a href="#@cdktn/provider-awscc.mediatailorChannel.MediatailorChannelConfig.property.tags">Tags</a></code> | <code>interface{}</code> | The tags to assign to the channel. |
-| <code><a href="#@cdktn/provider-awscc.mediatailorChannel.MediatailorChannelConfig.property.tier">Tier</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_channel#tier MediatailorChannel#tier}. |
+| <code><a href="#@cdktn/provider-awscc.mediatailorChannel.MediatailorChannelConfig.property.tier">Tier</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_channel#tier MediatailorChannel#tier}. |
 | <code><a href="#@cdktn/provider-awscc.mediatailorChannel.MediatailorChannelConfig.property.timeShiftConfiguration">TimeShiftConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.mediatailorChannel.MediatailorChannelTimeShiftConfiguration">MediatailorChannelTimeShiftConfiguration</a></code> | <p>The configuration for time-shifted viewing.</p>. |
 
 ---
@@ -1139,7 +1139,7 @@ ChannelName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_channel#channel_name MediatailorChannel#channel_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_channel#channel_name MediatailorChannel#channel_name}.
 
 ---
 
@@ -1153,7 +1153,7 @@ Outputs interface{}
 
 <p>The channel's output properties.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_channel#outputs MediatailorChannel#outputs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_channel#outputs MediatailorChannel#outputs}
 
 ---
 
@@ -1165,7 +1165,7 @@ PlaybackMode *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_channel#playback_mode MediatailorChannel#playback_mode}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_channel#playback_mode MediatailorChannel#playback_mode}.
 
 ---
 
@@ -1179,7 +1179,7 @@ Audiences *[]*string
 
 <p>The list of audiences defined in channel.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_channel#audiences MediatailorChannel#audiences}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_channel#audiences MediatailorChannel#audiences}
 
 ---
 
@@ -1193,7 +1193,7 @@ FillerSlate MediatailorChannelFillerSlate
 
 <p>Slate VOD source configuration.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_channel#filler_slate MediatailorChannel#filler_slate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_channel#filler_slate MediatailorChannel#filler_slate}
 
 ---
 
@@ -1207,7 +1207,7 @@ LogConfiguration MediatailorChannelLogConfiguration
 
 <p>The log configuration for the channel.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_channel#log_configuration MediatailorChannel#log_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_channel#log_configuration MediatailorChannel#log_configuration}
 
 ---
 
@@ -1221,7 +1221,7 @@ Tags interface{}
 
 The tags to assign to the channel.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_channel#tags MediatailorChannel#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_channel#tags MediatailorChannel#tags}
 
 ---
 
@@ -1233,7 +1233,7 @@ Tier *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_channel#tier MediatailorChannel#tier}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_channel#tier MediatailorChannel#tier}.
 
 ---
 
@@ -1247,7 +1247,7 @@ TimeShiftConfiguration MediatailorChannelTimeShiftConfiguration
 
 <p>The configuration for time-shifted viewing.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_channel#time_shift_configuration MediatailorChannel#time_shift_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_channel#time_shift_configuration MediatailorChannel#time_shift_configuration}
 
 ---
 
@@ -1256,7 +1256,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediatailorChannel.MediatailorChannelFillerSlate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorchannel"
 
 &mediatailorchannel.MediatailorChannelFillerSlate {
 	SourceLocationName: *string,
@@ -1283,7 +1283,7 @@ SourceLocationName *string
 
 <p>The name of the source location where the slate VOD source is stored.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_channel#source_location_name MediatailorChannel#source_location_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_channel#source_location_name MediatailorChannel#source_location_name}
 
 ---
 
@@ -1299,7 +1299,7 @@ VodSourceName *string
 
 The VOD source must already exist in a source location before it can be used for slate.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_channel#vod_source_name MediatailorChannel#vod_source_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_channel#vod_source_name MediatailorChannel#vod_source_name}
 
 ---
 
@@ -1308,7 +1308,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediatailorChannel.MediatailorChannelLogConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorchannel"
 
 &mediatailorchannel.MediatailorChannelLogConfiguration {
 	LogTypes: *[]*string,
@@ -1333,7 +1333,7 @@ LogTypes *[]*string
 
 <p>The log types.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_channel#log_types MediatailorChannel#log_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_channel#log_types MediatailorChannel#log_types}
 
 ---
 
@@ -1342,13 +1342,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediatailorChannel.MediatailorChannelOutputs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorchannel"
 
 &mediatailorchannel.MediatailorChannelOutputs {
 	ManifestName: *string,
 	SourceGroup: *string,
-	DashPlaylistSettings: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.mediatailorChannel.MediatailorChannelOutputsDashPlaylistSettings,
-	HlsPlaylistSettings: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.mediatailorChannel.MediatailorChannelOutputsHlsPlaylistSettings,
+	DashPlaylistSettings: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.mediatailorChannel.MediatailorChannelOutputsDashPlaylistSettings,
+	HlsPlaylistSettings: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.mediatailorChannel.MediatailorChannelOutputsHlsPlaylistSettings,
 }
 ```
 
@@ -1373,7 +1373,7 @@ ManifestName *string
 
 <p>The name of the manifest for the channel. The name appears in the <code>PlaybackUrl</code>.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_channel#manifest_name MediatailorChannel#manifest_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_channel#manifest_name MediatailorChannel#manifest_name}
 
 ---
 
@@ -1387,7 +1387,7 @@ SourceGroup *string
 
 <p>A string used to match which <code>HttpPackageConfiguration</code> is used for each <code>VodSource</code>.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_channel#source_group MediatailorChannel#source_group}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_channel#source_group MediatailorChannel#source_group}
 
 ---
 
@@ -1401,7 +1401,7 @@ DashPlaylistSettings MediatailorChannelOutputsDashPlaylistSettings
 
 <p>Dash manifest configuration parameters.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_channel#dash_playlist_settings MediatailorChannel#dash_playlist_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_channel#dash_playlist_settings MediatailorChannel#dash_playlist_settings}
 
 ---
 
@@ -1415,7 +1415,7 @@ HlsPlaylistSettings MediatailorChannelOutputsHlsPlaylistSettings
 
 <p>HLS playlist configuration parameters.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_channel#hls_playlist_settings MediatailorChannel#hls_playlist_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_channel#hls_playlist_settings MediatailorChannel#hls_playlist_settings}
 
 ---
 
@@ -1424,7 +1424,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediatailorChannel.MediatailorChannelOutputsDashPlaylistSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorchannel"
 
 &mediatailorchannel.MediatailorChannelOutputsDashPlaylistSettings {
 	ManifestWindowSeconds: *f64,
@@ -1455,7 +1455,7 @@ ManifestWindowSeconds *f64
 
 <p>The total duration (in seconds) of each manifest. Minimum value: <code>30</code> seconds. Maximum value: <code>3600</code> seconds.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_channel#manifest_window_seconds MediatailorChannel#manifest_window_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_channel#manifest_window_seconds MediatailorChannel#manifest_window_seconds}
 
 ---
 
@@ -1471,7 +1471,7 @@ MinBufferTimeSeconds *f64
 
 Minimum value: <code>2</code> seconds. Maximum value: <code>60</code> seconds.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_channel#min_buffer_time_seconds MediatailorChannel#min_buffer_time_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_channel#min_buffer_time_seconds MediatailorChannel#min_buffer_time_seconds}
 
 ---
 
@@ -1487,7 +1487,7 @@ MinUpdatePeriodSeconds *f64
 
 Minimum value: <code>2</code> seconds. Maximum value: <code>60</code> seconds.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_channel#min_update_period_seconds MediatailorChannel#min_update_period_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_channel#min_update_period_seconds MediatailorChannel#min_update_period_seconds}
 
 ---
 
@@ -1503,7 +1503,7 @@ SuggestedPresentationDelaySeconds *f64
 
 Minimum value: <code>2</code> seconds. Maximum value: <code>60</code> seconds.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_channel#suggested_presentation_delay_seconds MediatailorChannel#suggested_presentation_delay_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_channel#suggested_presentation_delay_seconds MediatailorChannel#suggested_presentation_delay_seconds}
 
 ---
 
@@ -1512,7 +1512,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediatailorChannel.MediatailorChannelOutputsHlsPlaylistSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorchannel"
 
 &mediatailorchannel.MediatailorChannelOutputsHlsPlaylistSettings {
 	AdMarkupType: *[]*string,
@@ -1541,7 +1541,7 @@ AdMarkupType *[]*string
 
 Specify <code>DATERANGE</code> to use <code>DATERANGE</code> tags (for live or VOD content). Specify <code>SCTE35_ENHANCED</code> to use <code>EXT-X-CUE-OUT</code> and <code>EXT-X-CUE-IN</code> tags (for VOD content only).</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_channel#ad_markup_type MediatailorChannel#ad_markup_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_channel#ad_markup_type MediatailorChannel#ad_markup_type}
 
 ---
 
@@ -1555,7 +1555,7 @@ ManifestWindowSeconds *f64
 
 <p>The total duration (in seconds) of each manifest. Minimum value: <code>30</code> seconds. Maximum value: <code>3600</code> seconds.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_channel#manifest_window_seconds MediatailorChannel#manifest_window_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_channel#manifest_window_seconds MediatailorChannel#manifest_window_seconds}
 
 ---
 
@@ -1564,7 +1564,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediatailorChannel.MediatailorChannelTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorchannel"
 
 &mediatailorchannel.MediatailorChannelTags {
 	Key: *string,
@@ -1576,8 +1576,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorchannel"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.mediatailorChannel.MediatailorChannelTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_channel#key MediatailorChannel#key}. |
-| <code><a href="#@cdktn/provider-awscc.mediatailorChannel.MediatailorChannelTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_channel#value MediatailorChannel#value}. |
+| <code><a href="#@cdktn/provider-awscc.mediatailorChannel.MediatailorChannelTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_channel#key MediatailorChannel#key}. |
+| <code><a href="#@cdktn/provider-awscc.mediatailorChannel.MediatailorChannelTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_channel#value MediatailorChannel#value}. |
 
 ---
 
@@ -1589,7 +1589,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_channel#key MediatailorChannel#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_channel#key MediatailorChannel#key}.
 
 ---
 
@@ -1601,7 +1601,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_channel#value MediatailorChannel#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_channel#value MediatailorChannel#value}.
 
 ---
 
@@ -1610,7 +1610,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediatailorChannel.MediatailorChannelTimeShiftConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorchannel"
 
 &mediatailorchannel.MediatailorChannelTimeShiftConfiguration {
 	MaxTimeDelaySeconds: *f64,
@@ -1637,7 +1637,7 @@ MaxTimeDelaySeconds *f64
 
 The minimum allowed maximum time delay is 0 seconds, and the maximum allowed maximum time delay is 21600 seconds (6 hours).</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_channel#max_time_delay_seconds MediatailorChannel#max_time_delay_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_channel#max_time_delay_seconds MediatailorChannel#max_time_delay_seconds}
 
 ---
 
@@ -1648,7 +1648,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediatailorChannel.MediatailorChannelFillerSlateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorchannel"
 
 mediatailorchannel.NewMediatailorChannelFillerSlateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) MediatailorChannelFillerSlateOutputReference
 ```
@@ -1955,7 +1955,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediatailorChannel.MediatailorChannelLogConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorchannel"
 
 mediatailorchannel.NewMediatailorChannelLogConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) MediatailorChannelLogConfigurationOutputReference
 ```
@@ -2233,7 +2233,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediatailorChannel.MediatailorChannelOutputsDashPlaylistSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorchannel"
 
 mediatailorchannel.NewMediatailorChannelOutputsDashPlaylistSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) MediatailorChannelOutputsDashPlaylistSettingsOutputReference
 ```
@@ -2598,7 +2598,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediatailorChannel.MediatailorChannelOutputsHlsPlaylistSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorchannel"
 
 mediatailorchannel.NewMediatailorChannelOutputsHlsPlaylistSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) MediatailorChannelOutputsHlsPlaylistSettingsOutputReference
 ```
@@ -2905,7 +2905,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediatailorChannel.MediatailorChannelOutputsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorchannel"
 
 mediatailorchannel.NewMediatailorChannelOutputsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MediatailorChannelOutputsList
 ```
@@ -3065,7 +3065,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediatailorChannel.MediatailorChannelOutputsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorchannel"
 
 mediatailorchannel.NewMediatailorChannelOutputsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) MediatailorChannelOutputsOutputReference
 ```
@@ -3460,7 +3460,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediatailorChannel.MediatailorChannelTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorchannel"
 
 mediatailorchannel.NewMediatailorChannelTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MediatailorChannelTagsList
 ```
@@ -3620,7 +3620,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediatailorChannel.MediatailorChannelTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorchannel"
 
 mediatailorchannel.NewMediatailorChannelTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) MediatailorChannelTagsOutputReference
 ```
@@ -3945,7 +3945,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediatailorChannel.MediatailorChannelTimeShiftConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorchannel"
 
 mediatailorchannel.NewMediatailorChannelTimeShiftConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) MediatailorChannelTimeShiftConfigurationOutputReference
 ```

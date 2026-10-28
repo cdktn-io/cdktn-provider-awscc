@@ -4,12 +4,12 @@
 
 ### DataAwsccBedrockAutomatedReasoningPolicies <a name="DataAwsccBedrockAutomatedReasoningPolicies" id="@cdktn/provider-awscc.dataAwsccBedrockAutomatedReasoningPolicies.DataAwsccBedrockAutomatedReasoningPolicies"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrock_automated_reasoning_policies awscc_bedrock_automated_reasoning_policies}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrock_automated_reasoning_policies awscc_bedrock_automated_reasoning_policies}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockAutomatedReasoningPolicies.DataAwsccBedrockAutomatedReasoningPolicies.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockautomatedreasoningpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockautomatedreasoningpolicies"
 
 dataawsccbedrockautomatedreasoningpolicies.NewDataAwsccBedrockAutomatedReasoningPolicies(scope Construct, id *string, config DataAwsccBedrockAutomatedReasoningPoliciesConfig) DataAwsccBedrockAutomatedReasoningPolicies
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccBedrockAutomatedReasoningPolicies.DataAwsccBedrockAutomatedReasoningPolicies.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockautomatedreasoningpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockautomatedreasoningpolicies"
 
 dataawsccbedrockautomatedreasoningpolicies.DataAwsccBedrockAutomatedReasoningPolicies_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccBedrockAutomatedReasoningPolicies.DataAwsccBedrockAutomatedReasoningPolicies.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockautomatedreasoningpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockautomatedreasoningpolicies"
 
 dataawsccbedrockautomatedreasoningpolicies.DataAwsccBedrockAutomatedReasoningPolicies_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccbedrockautomatedreasoningpolicies.DataAwsccBedrockAutomatedReasoningPol
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccBedrockAutomatedReasoningPolicies.DataAwsccBedrockAutomatedReasoningPolicies.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockautomatedreasoningpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockautomatedreasoningpolicies"
 
 dataawsccbedrockautomatedreasoningpolicies.DataAwsccBedrockAutomatedReasoningPolicies_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccbedrockautomatedreasoningpolicies.DataAwsccBedrockAutomatedReasoningPol
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccBedrockAutomatedReasoningPolicies.DataAwsccBedrockAutomatedReasoningPolicies.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockautomatedreasoningpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockautomatedreasoningpolicies"
 
 dataawsccbedrockautomatedreasoningpolicies.DataAwsccBedrockAutomatedReasoningPolicies_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccBedrockAutomatedR
 
 The id of the existing DataAwsccBedrockAutomatedReasoningPolicies that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrock_automated_reasoning_policies#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrock_automated_reasoning_policies#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockAutomatedReasoningPolicies.DataAwsccBedrockAutomatedReasoningPoliciesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockautomatedreasoningpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockautomatedreasoningpolicies"
 
 &dataawsccbedrockautomatedreasoningpolicies.DataAwsccBedrockAutomatedReasoningPoliciesConfig {
 	Connection: interface{},

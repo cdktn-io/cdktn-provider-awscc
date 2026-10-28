@@ -4,12 +4,12 @@
 
 ### DataAwsccObservabilityadminOrganizationTelemetryRule <a name="DataAwsccObservabilityadminOrganizationTelemetryRule" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationTelemetryRule.DataAwsccObservabilityadminOrganizationTelemetryRule"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/observabilityadmin_organization_telemetry_rule awscc_observabilityadmin_organization_telemetry_rule}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/observabilityadmin_organization_telemetry_rule awscc_observabilityadmin_organization_telemetry_rule}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationTelemetryRule.DataAwsccObservabilityadminOrganizationTelemetryRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationtelemetryrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationtelemetryrule"
 
 dataawsccobservabilityadminorganizationtelemetryrule.NewDataAwsccObservabilityadminOrganizationTelemetryRule(scope Construct, id *string, config DataAwsccObservabilityadminOrganizationTelemetryRuleConfig) DataAwsccObservabilityadminOrganizationTelemetryRule
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationTelemetryRule.DataAwsccObservabilityadminOrganizationTelemetryRule.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationtelemetryrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationtelemetryrule"
 
 dataawsccobservabilityadminorganizationtelemetryrule.DataAwsccObservabilityadminOrganizationTelemetryRule_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationTelemetryRule.DataAwsccObservabilityadminOrganizationTelemetryRule.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationtelemetryrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationtelemetryrule"
 
 dataawsccobservabilityadminorganizationtelemetryrule.DataAwsccObservabilityadminOrganizationTelemetryRule_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccobservabilityadminorganizationtelemetryrule.DataAwsccObservabilityadmin
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationTelemetryRule.DataAwsccObservabilityadminOrganizationTelemetryRule.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationtelemetryrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationtelemetryrule"
 
 dataawsccobservabilityadminorganizationtelemetryrule.DataAwsccObservabilityadminOrganizationTelemetryRule_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccobservabilityadminorganizationtelemetryrule.DataAwsccObservabilityadmin
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationTelemetryRule.DataAwsccObservabilityadminOrganizationTelemetryRule.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationtelemetryrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationtelemetryrule"
 
 dataawsccobservabilityadminorganizationtelemetryrule.DataAwsccObservabilityadminOrganizationTelemetryRule_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccObservabilityadmi
 
 The id of the existing DataAwsccObservabilityadminOrganizationTelemetryRule that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/observabilityadmin_organization_telemetry_rule#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/observabilityadmin_organization_telemetry_rule#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -642,7 +642,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationTelemetryRule.DataAwsccObservabilityadminOrganizationTelemetryRuleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationtelemetryrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationtelemetryrule"
 
 &dataawsccobservabilityadminorganizationtelemetryrule.DataAwsccObservabilityadminOrganizationTelemetryRuleConfig {
 	Connection: interface{},
@@ -751,7 +751,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/observabilityadmin_organization_telemetry_rule#id DataAwsccObservabilityadminOrganizationTelemetryRule#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/observabilityadmin_organization_telemetry_rule#id DataAwsccObservabilityadminOrganizationTelemetryRule#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -763,7 +763,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationTelemetryRule.DataAwsccObservabilityadminOrganizationTelemetryRuleRegionStatuses.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationtelemetryrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationtelemetryrule"
 
 &dataawsccobservabilityadminorganizationtelemetryrule.DataAwsccObservabilityadminOrganizationTelemetryRuleRegionStatuses {
 
@@ -776,7 +776,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservability
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationTelemetryRule.DataAwsccObservabilityadminOrganizationTelemetryRuleRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationtelemetryrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationtelemetryrule"
 
 &dataawsccobservabilityadminorganizationtelemetryrule.DataAwsccObservabilityadminOrganizationTelemetryRuleRule {
 
@@ -789,7 +789,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservability
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationTelemetryRule.DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationtelemetryrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationtelemetryrule"
 
 &dataawsccobservabilityadminorganizationtelemetryrule.DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfiguration {
 
@@ -802,7 +802,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservability
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationTelemetryRule.DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationCloudtrailParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationtelemetryrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationtelemetryrule"
 
 &dataawsccobservabilityadminorganizationtelemetryrule.DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationCloudtrailParameters {
 
@@ -815,7 +815,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservability
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationTelemetryRule.DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationCloudtrailParametersAdvancedEventSelectors.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationtelemetryrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationtelemetryrule"
 
 &dataawsccobservabilityadminorganizationtelemetryrule.DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationCloudtrailParametersAdvancedEventSelectors {
 
@@ -828,7 +828,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservability
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationTelemetryRule.DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationCloudtrailParametersAdvancedEventSelectorsFieldSelectors.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationtelemetryrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationtelemetryrule"
 
 &dataawsccobservabilityadminorganizationtelemetryrule.DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationCloudtrailParametersAdvancedEventSelectorsFieldSelectors {
 
@@ -841,7 +841,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservability
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationTelemetryRule.DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationElbLoadBalancerLoggingParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationtelemetryrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationtelemetryrule"
 
 &dataawsccobservabilityadminorganizationtelemetryrule.DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationElbLoadBalancerLoggingParameters {
 
@@ -854,7 +854,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservability
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationTelemetryRule.DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationLogDeliveryParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationtelemetryrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationtelemetryrule"
 
 &dataawsccobservabilityadminorganizationtelemetryrule.DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationLogDeliveryParameters {
 
@@ -867,7 +867,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservability
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationTelemetryRule.DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationMskMonitoringParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationtelemetryrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationtelemetryrule"
 
 &dataawsccobservabilityadminorganizationtelemetryrule.DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationMskMonitoringParameters {
 
@@ -880,7 +880,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservability
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationTelemetryRule.DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationVpcFlowLogParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationtelemetryrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationtelemetryrule"
 
 &dataawsccobservabilityadminorganizationtelemetryrule.DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationVpcFlowLogParameters {
 
@@ -893,7 +893,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservability
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationTelemetryRule.DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationWafLoggingParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationtelemetryrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationtelemetryrule"
 
 &dataawsccobservabilityadminorganizationtelemetryrule.DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationWafLoggingParameters {
 
@@ -906,7 +906,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservability
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationTelemetryRule.DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationWafLoggingParametersLoggingFilter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationtelemetryrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationtelemetryrule"
 
 &dataawsccobservabilityadminorganizationtelemetryrule.DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationWafLoggingParametersLoggingFilter {
 
@@ -919,7 +919,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservability
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationTelemetryRule.DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationWafLoggingParametersLoggingFilterFilters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationtelemetryrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationtelemetryrule"
 
 &dataawsccobservabilityadminorganizationtelemetryrule.DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationWafLoggingParametersLoggingFilterFilters {
 
@@ -932,7 +932,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservability
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationTelemetryRule.DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationWafLoggingParametersLoggingFilterFiltersConditions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationtelemetryrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationtelemetryrule"
 
 &dataawsccobservabilityadminorganizationtelemetryrule.DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationWafLoggingParametersLoggingFilterFiltersConditions {
 
@@ -945,7 +945,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservability
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationTelemetryRule.DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationWafLoggingParametersLoggingFilterFiltersConditionsActionCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationtelemetryrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationtelemetryrule"
 
 &dataawsccobservabilityadminorganizationtelemetryrule.DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationWafLoggingParametersLoggingFilterFiltersConditionsActionCondition {
 
@@ -958,7 +958,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservability
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationTelemetryRule.DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationWafLoggingParametersLoggingFilterFiltersConditionsLabelNameCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationtelemetryrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationtelemetryrule"
 
 &dataawsccobservabilityadminorganizationtelemetryrule.DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationWafLoggingParametersLoggingFilterFiltersConditionsLabelNameCondition {
 
@@ -971,7 +971,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservability
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationTelemetryRule.DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationWafLoggingParametersRedactedFields.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationtelemetryrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationtelemetryrule"
 
 &dataawsccobservabilityadminorganizationtelemetryrule.DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationWafLoggingParametersRedactedFields {
 
@@ -984,7 +984,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservability
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationTelemetryRule.DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationWafLoggingParametersRedactedFieldsSingleHeader.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationtelemetryrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationtelemetryrule"
 
 &dataawsccobservabilityadminorganizationtelemetryrule.DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationWafLoggingParametersRedactedFieldsSingleHeader {
 
@@ -997,7 +997,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservability
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationTelemetryRule.DataAwsccObservabilityadminOrganizationTelemetryRuleTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationtelemetryrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationtelemetryrule"
 
 &dataawsccobservabilityadminorganizationtelemetryrule.DataAwsccObservabilityadminOrganizationTelemetryRuleTags {
 
@@ -1012,7 +1012,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservability
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationTelemetryRule.DataAwsccObservabilityadminOrganizationTelemetryRuleRegionStatusesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationtelemetryrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationtelemetryrule"
 
 dataawsccobservabilityadminorganizationtelemetryrule.NewDataAwsccObservabilityadminOrganizationTelemetryRuleRegionStatusesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccObservabilityadminOrganizationTelemetryRuleRegionStatusesList
 ```
@@ -1161,7 +1161,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationTelemetryRule.DataAwsccObservabilityadminOrganizationTelemetryRuleRegionStatusesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationtelemetryrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationtelemetryrule"
 
 dataawsccobservabilityadminorganizationtelemetryrule.NewDataAwsccObservabilityadminOrganizationTelemetryRuleRegionStatusesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccObservabilityadminOrganizationTelemetryRuleRegionStatusesOutputReference
 ```
@@ -1461,7 +1461,7 @@ func InternalValue() DataAwsccObservabilityadminOrganizationTelemetryRuleRegionS
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationTelemetryRule.DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationCloudtrailParametersAdvancedEventSelectorsFieldSelectorsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationtelemetryrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationtelemetryrule"
 
 dataawsccobservabilityadminorganizationtelemetryrule.NewDataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationCloudtrailParametersAdvancedEventSelectorsFieldSelectorsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationCloudtrailParametersAdvancedEventSelectorsFieldSelectorsList
 ```
@@ -1610,7 +1610,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationTelemetryRule.DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationCloudtrailParametersAdvancedEventSelectorsFieldSelectorsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationtelemetryrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationtelemetryrule"
 
 dataawsccobservabilityadminorganizationtelemetryrule.NewDataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationCloudtrailParametersAdvancedEventSelectorsFieldSelectorsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationCloudtrailParametersAdvancedEventSelectorsFieldSelectorsOutputReference
 ```
@@ -1954,7 +1954,7 @@ func InternalValue() DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDes
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationTelemetryRule.DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationCloudtrailParametersAdvancedEventSelectorsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationtelemetryrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationtelemetryrule"
 
 dataawsccobservabilityadminorganizationtelemetryrule.NewDataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationCloudtrailParametersAdvancedEventSelectorsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationCloudtrailParametersAdvancedEventSelectorsList
 ```
@@ -2103,7 +2103,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationTelemetryRule.DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationCloudtrailParametersAdvancedEventSelectorsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationtelemetryrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationtelemetryrule"
 
 dataawsccobservabilityadminorganizationtelemetryrule.NewDataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationCloudtrailParametersAdvancedEventSelectorsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationCloudtrailParametersAdvancedEventSelectorsOutputReference
 ```
@@ -2392,7 +2392,7 @@ func InternalValue() DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDes
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationTelemetryRule.DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationCloudtrailParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationtelemetryrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationtelemetryrule"
 
 dataawsccobservabilityadminorganizationtelemetryrule.NewDataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationCloudtrailParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationCloudtrailParametersOutputReference
 ```
@@ -2652,7 +2652,7 @@ func InternalValue() DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDes
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationTelemetryRule.DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationElbLoadBalancerLoggingParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationtelemetryrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationtelemetryrule"
 
 dataawsccobservabilityadminorganizationtelemetryrule.NewDataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationElbLoadBalancerLoggingParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationElbLoadBalancerLoggingParametersOutputReference
 ```
@@ -2923,7 +2923,7 @@ func InternalValue() DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDes
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationTelemetryRule.DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationLogDeliveryParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationtelemetryrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationtelemetryrule"
 
 dataawsccobservabilityadminorganizationtelemetryrule.NewDataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationLogDeliveryParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationLogDeliveryParametersOutputReference
 ```
@@ -3183,7 +3183,7 @@ func InternalValue() DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDes
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationTelemetryRule.DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationMskMonitoringParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationtelemetryrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationtelemetryrule"
 
 dataawsccobservabilityadminorganizationtelemetryrule.NewDataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationMskMonitoringParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationMskMonitoringParametersOutputReference
 ```
@@ -3443,7 +3443,7 @@ func InternalValue() DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDes
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationTelemetryRule.DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationtelemetryrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationtelemetryrule"
 
 dataawsccobservabilityadminorganizationtelemetryrule.NewDataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationOutputReference
 ```
@@ -3802,7 +3802,7 @@ func InternalValue() DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDes
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationTelemetryRule.DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationVpcFlowLogParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationtelemetryrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationtelemetryrule"
 
 dataawsccobservabilityadminorganizationtelemetryrule.NewDataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationVpcFlowLogParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationVpcFlowLogParametersOutputReference
 ```
@@ -4084,7 +4084,7 @@ func InternalValue() DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDes
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationTelemetryRule.DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationWafLoggingParametersLoggingFilterFiltersConditionsActionConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationtelemetryrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationtelemetryrule"
 
 dataawsccobservabilityadminorganizationtelemetryrule.NewDataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationWafLoggingParametersLoggingFilterFiltersConditionsActionConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationWafLoggingParametersLoggingFilterFiltersConditionsActionConditionOutputReference
 ```
@@ -4344,7 +4344,7 @@ func InternalValue() DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDes
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationTelemetryRule.DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationWafLoggingParametersLoggingFilterFiltersConditionsLabelNameConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationtelemetryrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationtelemetryrule"
 
 dataawsccobservabilityadminorganizationtelemetryrule.NewDataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationWafLoggingParametersLoggingFilterFiltersConditionsLabelNameConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationWafLoggingParametersLoggingFilterFiltersConditionsLabelNameConditionOutputReference
 ```
@@ -4604,7 +4604,7 @@ func InternalValue() DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDes
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationTelemetryRule.DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationWafLoggingParametersLoggingFilterFiltersConditionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationtelemetryrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationtelemetryrule"
 
 dataawsccobservabilityadminorganizationtelemetryrule.NewDataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationWafLoggingParametersLoggingFilterFiltersConditionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationWafLoggingParametersLoggingFilterFiltersConditionsList
 ```
@@ -4753,7 +4753,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationTelemetryRule.DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationWafLoggingParametersLoggingFilterFiltersConditionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationtelemetryrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationtelemetryrule"
 
 dataawsccobservabilityadminorganizationtelemetryrule.NewDataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationWafLoggingParametersLoggingFilterFiltersConditionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationWafLoggingParametersLoggingFilterFiltersConditionsOutputReference
 ```
@@ -5042,7 +5042,7 @@ func InternalValue() DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDes
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationTelemetryRule.DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationWafLoggingParametersLoggingFilterFiltersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationtelemetryrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationtelemetryrule"
 
 dataawsccobservabilityadminorganizationtelemetryrule.NewDataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationWafLoggingParametersLoggingFilterFiltersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationWafLoggingParametersLoggingFilterFiltersList
 ```
@@ -5191,7 +5191,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationTelemetryRule.DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationWafLoggingParametersLoggingFilterFiltersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationtelemetryrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationtelemetryrule"
 
 dataawsccobservabilityadminorganizationtelemetryrule.NewDataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationWafLoggingParametersLoggingFilterFiltersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationWafLoggingParametersLoggingFilterFiltersOutputReference
 ```
@@ -5491,7 +5491,7 @@ func InternalValue() DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDes
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationTelemetryRule.DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationWafLoggingParametersLoggingFilterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationtelemetryrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationtelemetryrule"
 
 dataawsccobservabilityadminorganizationtelemetryrule.NewDataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationWafLoggingParametersLoggingFilterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationWafLoggingParametersLoggingFilterOutputReference
 ```
@@ -5762,7 +5762,7 @@ func InternalValue() DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDes
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationTelemetryRule.DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationWafLoggingParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationtelemetryrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationtelemetryrule"
 
 dataawsccobservabilityadminorganizationtelemetryrule.NewDataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationWafLoggingParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationWafLoggingParametersOutputReference
 ```
@@ -6044,7 +6044,7 @@ func InternalValue() DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDes
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationTelemetryRule.DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationWafLoggingParametersRedactedFieldsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationtelemetryrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationtelemetryrule"
 
 dataawsccobservabilityadminorganizationtelemetryrule.NewDataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationWafLoggingParametersRedactedFieldsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationWafLoggingParametersRedactedFieldsList
 ```
@@ -6193,7 +6193,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationTelemetryRule.DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationWafLoggingParametersRedactedFieldsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationtelemetryrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationtelemetryrule"
 
 dataawsccobservabilityadminorganizationtelemetryrule.NewDataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationWafLoggingParametersRedactedFieldsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationWafLoggingParametersRedactedFieldsOutputReference
 ```
@@ -6504,7 +6504,7 @@ func InternalValue() DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDes
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationTelemetryRule.DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationWafLoggingParametersRedactedFieldsSingleHeaderOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationtelemetryrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationtelemetryrule"
 
 dataawsccobservabilityadminorganizationtelemetryrule.NewDataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationWafLoggingParametersRedactedFieldsSingleHeaderOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationWafLoggingParametersRedactedFieldsSingleHeaderOutputReference
 ```
@@ -6764,7 +6764,7 @@ func InternalValue() DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDes
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationTelemetryRule.DataAwsccObservabilityadminOrganizationTelemetryRuleRuleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationtelemetryrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationtelemetryrule"
 
 dataawsccobservabilityadminorganizationtelemetryrule.NewDataAwsccObservabilityadminOrganizationTelemetryRuleRuleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccObservabilityadminOrganizationTelemetryRuleRuleOutputReference
 ```
@@ -7112,7 +7112,7 @@ func InternalValue() DataAwsccObservabilityadminOrganizationTelemetryRuleRule
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationTelemetryRule.DataAwsccObservabilityadminOrganizationTelemetryRuleTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationtelemetryrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationtelemetryrule"
 
 dataawsccobservabilityadminorganizationtelemetryrule.NewDataAwsccObservabilityadminOrganizationTelemetryRuleTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccObservabilityadminOrganizationTelemetryRuleTagsList
 ```
@@ -7261,7 +7261,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationTelemetryRule.DataAwsccObservabilityadminOrganizationTelemetryRuleTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationtelemetryrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationtelemetryrule"
 
 dataawsccobservabilityadminorganizationtelemetryrule.NewDataAwsccObservabilityadminOrganizationTelemetryRuleTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccObservabilityadminOrganizationTelemetryRuleTagsOutputReference
 ```

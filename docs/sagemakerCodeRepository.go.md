@@ -4,12 +4,12 @@
 
 ### SagemakerCodeRepository <a name="SagemakerCodeRepository" id="@cdktn/provider-awscc.sagemakerCodeRepository.SagemakerCodeRepository"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_code_repository awscc_sagemaker_code_repository}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_code_repository awscc_sagemaker_code_repository}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerCodeRepository.SagemakerCodeRepository.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakercoderepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakercoderepository"
 
 sagemakercoderepository.NewSagemakerCodeRepository(scope Construct, id *string, config SagemakerCodeRepositoryConfig) SagemakerCodeRepository
 ```
@@ -440,7 +440,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.sagemakerCodeRepository.SagemakerCodeRepository.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakercoderepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakercoderepository"
 
 sagemakercoderepository.SagemakerCodeRepository_IsConstruct(x interface{}) *bool
 ```
@@ -472,7 +472,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.sagemakerCodeRepository.SagemakerCodeRepository.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakercoderepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakercoderepository"
 
 sagemakercoderepository.SagemakerCodeRepository_IsTerraformElement(x interface{}) *bool
 ```
@@ -486,7 +486,7 @@ sagemakercoderepository.SagemakerCodeRepository_IsTerraformElement(x interface{}
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.sagemakerCodeRepository.SagemakerCodeRepository.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakercoderepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakercoderepository"
 
 sagemakercoderepository.SagemakerCodeRepository_IsTerraformResource(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ sagemakercoderepository.SagemakerCodeRepository_IsTerraformResource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.sagemakerCodeRepository.SagemakerCodeRepository.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakercoderepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakercoderepository"
 
 sagemakercoderepository.SagemakerCodeRepository_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -529,7 +529,7 @@ The construct id used in the generated config for the SagemakerCodeRepository to
 
 The id of the existing SagemakerCodeRepository that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_code_repository#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_code_repository#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -817,7 +817,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sagemakerCodeRepository.SagemakerCodeRepositoryConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakercoderepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakercoderepository"
 
 &sagemakercoderepository.SagemakerCodeRepositoryConfig {
 	Connection: interface{},
@@ -827,7 +827,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakercoderepositor
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	GitConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.sagemakerCodeRepository.SagemakerCodeRepositoryGitConfig,
+	GitConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.sagemakerCodeRepository.SagemakerCodeRepositoryGitConfig,
 	CodeRepositoryName: *string,
 	Tags: interface{},
 }
@@ -930,7 +930,7 @@ GitConfig SagemakerCodeRepositoryGitConfig
 
 Configuration details for the Git repository, including the URL where it is located and the ARN of the AWS Secrets Manager secret that contains the credentials used to access the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_code_repository#git_config SagemakerCodeRepository#git_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_code_repository#git_config SagemakerCodeRepository#git_config}
 
 ---
 
@@ -944,7 +944,7 @@ CodeRepositoryName *string
 
 The name of the Git repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_code_repository#code_repository_name SagemakerCodeRepository#code_repository_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_code_repository#code_repository_name SagemakerCodeRepository#code_repository_name}
 
 ---
 
@@ -958,7 +958,7 @@ Tags interface{}
 
 An array of key-value pairs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_code_repository#tags SagemakerCodeRepository#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_code_repository#tags SagemakerCodeRepository#tags}
 
 ---
 
@@ -967,7 +967,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sagemakerCodeRepository.SagemakerCodeRepositoryGitConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakercoderepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakercoderepository"
 
 &sagemakercoderepository.SagemakerCodeRepositoryGitConfig {
 	RepositoryUrl: *string,
@@ -996,7 +996,7 @@ RepositoryUrl *string
 
 The URL where the Git repository is located.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_code_repository#repository_url SagemakerCodeRepository#repository_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_code_repository#repository_url SagemakerCodeRepository#repository_url}
 
 ---
 
@@ -1010,7 +1010,7 @@ Branch *string
 
 The default branch for the Git repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_code_repository#branch SagemakerCodeRepository#branch}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_code_repository#branch SagemakerCodeRepository#branch}
 
 ---
 
@@ -1024,7 +1024,7 @@ SecretArn *string
 
 The Amazon Resource Name (ARN) of the AWS Secrets Manager secret that contains the credentials used to access the git repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_code_repository#secret_arn SagemakerCodeRepository#secret_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_code_repository#secret_arn SagemakerCodeRepository#secret_arn}
 
 ---
 
@@ -1033,7 +1033,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sagemakerCodeRepository.SagemakerCodeRepositoryTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakercoderepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakercoderepository"
 
 &sagemakercoderepository.SagemakerCodeRepositoryTags {
 	Key: *string,
@@ -1060,7 +1060,7 @@ Key *string
 
 The key of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_code_repository#key SagemakerCodeRepository#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_code_repository#key SagemakerCodeRepository#key}
 
 ---
 
@@ -1074,7 +1074,7 @@ Value *string
 
 The value of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_code_repository#value SagemakerCodeRepository#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_code_repository#value SagemakerCodeRepository#value}
 
 ---
 
@@ -1085,7 +1085,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerCodeRepository.SagemakerCodeRepositoryGitConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakercoderepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakercoderepository"
 
 sagemakercoderepository.NewSagemakerCodeRepositoryGitConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SagemakerCodeRepositoryGitConfigOutputReference
 ```
@@ -1414,7 +1414,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerCodeRepository.SagemakerCodeRepositoryTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakercoderepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakercoderepository"
 
 sagemakercoderepository.NewSagemakerCodeRepositoryTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SagemakerCodeRepositoryTagsList
 ```
@@ -1574,7 +1574,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerCodeRepository.SagemakerCodeRepositoryTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakercoderepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakercoderepository"
 
 sagemakercoderepository.NewSagemakerCodeRepositoryTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SagemakerCodeRepositoryTagsOutputReference
 ```

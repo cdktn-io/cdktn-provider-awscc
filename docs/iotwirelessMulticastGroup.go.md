@@ -4,12 +4,12 @@
 
 ### IotwirelessMulticastGroup <a name="IotwirelessMulticastGroup" id="@cdktn/provider-awscc.iotwirelessMulticastGroup.IotwirelessMulticastGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_multicast_group awscc_iotwireless_multicast_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_multicast_group awscc_iotwireless_multicast_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotwirelessMulticastGroup.IotwirelessMulticastGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotwirelessmulticastgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotwirelessmulticastgroup"
 
 iotwirelessmulticastgroup.NewIotwirelessMulticastGroup(scope Construct, id *string, config IotwirelessMulticastGroupConfig) IotwirelessMulticastGroup
 ```
@@ -461,7 +461,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.iotwirelessMulticastGroup.IotwirelessMulticastGroup.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotwirelessmulticastgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotwirelessmulticastgroup"
 
 iotwirelessmulticastgroup.IotwirelessMulticastGroup_IsConstruct(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.iotwirelessMulticastGroup.IotwirelessMulticastGroup.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotwirelessmulticastgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotwirelessmulticastgroup"
 
 iotwirelessmulticastgroup.IotwirelessMulticastGroup_IsTerraformElement(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ iotwirelessmulticastgroup.IotwirelessMulticastGroup_IsTerraformElement(x interfa
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.iotwirelessMulticastGroup.IotwirelessMulticastGroup.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotwirelessmulticastgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotwirelessmulticastgroup"
 
 iotwirelessmulticastgroup.IotwirelessMulticastGroup_IsTerraformResource(x interface{}) *bool
 ```
@@ -521,7 +521,7 @@ iotwirelessmulticastgroup.IotwirelessMulticastGroup_IsTerraformResource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.iotwirelessMulticastGroup.IotwirelessMulticastGroup.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotwirelessmulticastgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotwirelessmulticastgroup"
 
 iotwirelessmulticastgroup.IotwirelessMulticastGroup_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -550,7 +550,7 @@ The construct id used in the generated config for the IotwirelessMulticastGroup 
 
 The id of the existing IotwirelessMulticastGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_multicast_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_multicast_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -926,7 +926,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotwirelessMulticastGroup.IotwirelessMulticastGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotwirelessmulticastgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotwirelessmulticastgroup"
 
 &iotwirelessmulticastgroup.IotwirelessMulticastGroupConfig {
 	Connection: interface{},
@@ -936,7 +936,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotwirelessmulticastgr
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	LoRaWan: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotwirelessMulticastGroup.IotwirelessMulticastGroupLoRaWan,
+	LoRaWan: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotwirelessMulticastGroup.IotwirelessMulticastGroupLoRaWan,
 	AssociateWirelessDevice: *string,
 	Description: *string,
 	DisassociateWirelessDevice: *string,
@@ -1045,7 +1045,7 @@ LoRaWan IotwirelessMulticastGroupLoRaWan
 
 Multicast group LoRaWAN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_multicast_group#lo_ra_wan IotwirelessMulticastGroup#lo_ra_wan}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_multicast_group#lo_ra_wan IotwirelessMulticastGroup#lo_ra_wan}
 
 ---
 
@@ -1059,7 +1059,7 @@ AssociateWirelessDevice *string
 
 Wireless device to associate. Only for update request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_multicast_group#associate_wireless_device IotwirelessMulticastGroup#associate_wireless_device}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_multicast_group#associate_wireless_device IotwirelessMulticastGroup#associate_wireless_device}
 
 ---
 
@@ -1073,7 +1073,7 @@ Description *string
 
 Multicast group description.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_multicast_group#description IotwirelessMulticastGroup#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_multicast_group#description IotwirelessMulticastGroup#description}
 
 ---
 
@@ -1087,7 +1087,7 @@ DisassociateWirelessDevice *string
 
 Wireless device to disassociate. Only for update request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_multicast_group#disassociate_wireless_device IotwirelessMulticastGroup#disassociate_wireless_device}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_multicast_group#disassociate_wireless_device IotwirelessMulticastGroup#disassociate_wireless_device}
 
 ---
 
@@ -1101,7 +1101,7 @@ Name *string
 
 Name of Multicast group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_multicast_group#name IotwirelessMulticastGroup#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_multicast_group#name IotwirelessMulticastGroup#name}
 
 ---
 
@@ -1115,7 +1115,7 @@ Tags interface{}
 
 A list of key-value pairs that contain metadata for the Multicast group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_multicast_group#tags IotwirelessMulticastGroup#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_multicast_group#tags IotwirelessMulticastGroup#tags}
 
 ---
 
@@ -1124,7 +1124,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotwirelessMulticastGroup.IotwirelessMulticastGroupLoRaWan.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotwirelessmulticastgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotwirelessmulticastgroup"
 
 &iotwirelessmulticastgroup.IotwirelessMulticastGroupLoRaWan {
 	DlClass: *string,
@@ -1151,7 +1151,7 @@ DlClass *string
 
 Multicast group LoRaWAN DL Class.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_multicast_group#dl_class IotwirelessMulticastGroup#dl_class}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_multicast_group#dl_class IotwirelessMulticastGroup#dl_class}
 
 ---
 
@@ -1165,7 +1165,7 @@ RfRegion *string
 
 Multicast group LoRaWAN RF region.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_multicast_group#rf_region IotwirelessMulticastGroup#rf_region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_multicast_group#rf_region IotwirelessMulticastGroup#rf_region}
 
 ---
 
@@ -1174,7 +1174,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotwirelessMulticastGroup.IotwirelessMulticastGroupTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotwirelessmulticastgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotwirelessmulticastgroup"
 
 &iotwirelessmulticastgroup.IotwirelessMulticastGroupTags {
 	Key: *string,
@@ -1186,8 +1186,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotwirelessmulticastgr
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotwirelessMulticastGroup.IotwirelessMulticastGroupTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_multicast_group#key IotwirelessMulticastGroup#key}. |
-| <code><a href="#@cdktn/provider-awscc.iotwirelessMulticastGroup.IotwirelessMulticastGroupTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_multicast_group#value IotwirelessMulticastGroup#value}. |
+| <code><a href="#@cdktn/provider-awscc.iotwirelessMulticastGroup.IotwirelessMulticastGroupTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_multicast_group#key IotwirelessMulticastGroup#key}. |
+| <code><a href="#@cdktn/provider-awscc.iotwirelessMulticastGroup.IotwirelessMulticastGroupTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_multicast_group#value IotwirelessMulticastGroup#value}. |
 
 ---
 
@@ -1199,7 +1199,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_multicast_group#key IotwirelessMulticastGroup#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_multicast_group#key IotwirelessMulticastGroup#key}.
 
 ---
 
@@ -1211,7 +1211,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_multicast_group#value IotwirelessMulticastGroup#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_multicast_group#value IotwirelessMulticastGroup#value}.
 
 ---
 
@@ -1222,7 +1222,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotwirelessMulticastGroup.IotwirelessMulticastGroupLoRaWanOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotwirelessmulticastgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotwirelessmulticastgroup"
 
 iotwirelessmulticastgroup.NewIotwirelessMulticastGroupLoRaWanOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotwirelessMulticastGroupLoRaWanOutputReference
 ```
@@ -1537,7 +1537,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotwirelessMulticastGroup.IotwirelessMulticastGroupTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotwirelessmulticastgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotwirelessmulticastgroup"
 
 iotwirelessmulticastgroup.NewIotwirelessMulticastGroupTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IotwirelessMulticastGroupTagsList
 ```
@@ -1697,7 +1697,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotwirelessMulticastGroup.IotwirelessMulticastGroupTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotwirelessmulticastgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotwirelessmulticastgroup"
 
 iotwirelessmulticastgroup.NewIotwirelessMulticastGroupTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IotwirelessMulticastGroupTagsOutputReference
 ```

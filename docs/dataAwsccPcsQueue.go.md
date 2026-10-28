@@ -4,12 +4,12 @@
 
 ### DataAwsccPcsQueue <a name="DataAwsccPcsQueue" id="@cdktn/provider-awscc.dataAwsccPcsQueue.DataAwsccPcsQueue"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/pcs_queue awscc_pcs_queue}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/pcs_queue awscc_pcs_queue}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcsQueue.DataAwsccPcsQueue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcsqueue"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcsqueue"
 
 dataawsccpcsqueue.NewDataAwsccPcsQueue(scope Construct, id *string, config DataAwsccPcsQueueConfig) DataAwsccPcsQueue
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccPcsQueue.DataAwsccPcsQueue.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcsqueue"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcsqueue"
 
 dataawsccpcsqueue.DataAwsccPcsQueue_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccPcsQueue.DataAwsccPcsQueue.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcsqueue"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcsqueue"
 
 dataawsccpcsqueue.DataAwsccPcsQueue_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccpcsqueue.DataAwsccPcsQueue_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccPcsQueue.DataAwsccPcsQueue.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcsqueue"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcsqueue"
 
 dataawsccpcsqueue.DataAwsccPcsQueue_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccpcsqueue.DataAwsccPcsQueue_IsTerraformDataSource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccPcsQueue.DataAwsccPcsQueue.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcsqueue"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcsqueue"
 
 dataawsccpcsqueue.DataAwsccPcsQueue_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccPcsQueue to impor
 
 The id of the existing DataAwsccPcsQueue that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/pcs_queue#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/pcs_queue#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -686,7 +686,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcsQueue.DataAwsccPcsQueueComputeNodeGroupConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcsqueue"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcsqueue"
 
 &dataawsccpcsqueue.DataAwsccPcsQueueComputeNodeGroupConfigurations {
 
@@ -699,7 +699,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcsqueue"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcsQueue.DataAwsccPcsQueueConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcsqueue"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcsqueue"
 
 &dataawsccpcsqueue.DataAwsccPcsQueueConfig {
 	Connection: interface{},
@@ -808,7 +808,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/pcs_queue#id DataAwsccPcsQueue#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/pcs_queue#id DataAwsccPcsQueue#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -820,7 +820,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcsQueue.DataAwsccPcsQueueErrorInfo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcsqueue"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcsqueue"
 
 &dataawsccpcsqueue.DataAwsccPcsQueueErrorInfo {
 
@@ -833,7 +833,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcsqueue"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcsQueue.DataAwsccPcsQueueSlurmConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcsqueue"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcsqueue"
 
 &dataawsccpcsqueue.DataAwsccPcsQueueSlurmConfiguration {
 
@@ -846,7 +846,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcsqueue"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcsQueue.DataAwsccPcsQueueSlurmConfigurationSlurmCustomSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcsqueue"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcsqueue"
 
 &dataawsccpcsqueue.DataAwsccPcsQueueSlurmConfigurationSlurmCustomSettings {
 
@@ -861,7 +861,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcsqueue"
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcsQueue.DataAwsccPcsQueueComputeNodeGroupConfigurationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcsqueue"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcsqueue"
 
 dataawsccpcsqueue.NewDataAwsccPcsQueueComputeNodeGroupConfigurationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccPcsQueueComputeNodeGroupConfigurationsList
 ```
@@ -1010,7 +1010,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcsQueue.DataAwsccPcsQueueComputeNodeGroupConfigurationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcsqueue"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcsqueue"
 
 dataawsccpcsqueue.NewDataAwsccPcsQueueComputeNodeGroupConfigurationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccPcsQueueComputeNodeGroupConfigurationsOutputReference
 ```
@@ -1288,7 +1288,7 @@ func InternalValue() DataAwsccPcsQueueComputeNodeGroupConfigurations
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcsQueue.DataAwsccPcsQueueErrorInfoList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcsqueue"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcsqueue"
 
 dataawsccpcsqueue.NewDataAwsccPcsQueueErrorInfoList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccPcsQueueErrorInfoList
 ```
@@ -1437,7 +1437,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcsQueue.DataAwsccPcsQueueErrorInfoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcsqueue"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcsqueue"
 
 dataawsccpcsqueue.NewDataAwsccPcsQueueErrorInfoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccPcsQueueErrorInfoOutputReference
 ```
@@ -1726,7 +1726,7 @@ func InternalValue() DataAwsccPcsQueueErrorInfo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcsQueue.DataAwsccPcsQueueSlurmConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcsqueue"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcsqueue"
 
 dataawsccpcsqueue.NewDataAwsccPcsQueueSlurmConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPcsQueueSlurmConfigurationOutputReference
 ```
@@ -1986,7 +1986,7 @@ func InternalValue() DataAwsccPcsQueueSlurmConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcsQueue.DataAwsccPcsQueueSlurmConfigurationSlurmCustomSettingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcsqueue"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcsqueue"
 
 dataawsccpcsqueue.NewDataAwsccPcsQueueSlurmConfigurationSlurmCustomSettingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccPcsQueueSlurmConfigurationSlurmCustomSettingsList
 ```
@@ -2135,7 +2135,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcsQueue.DataAwsccPcsQueueSlurmConfigurationSlurmCustomSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcsqueue"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcsqueue"
 
 dataawsccpcsqueue.NewDataAwsccPcsQueueSlurmConfigurationSlurmCustomSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccPcsQueueSlurmConfigurationSlurmCustomSettingsOutputReference
 ```

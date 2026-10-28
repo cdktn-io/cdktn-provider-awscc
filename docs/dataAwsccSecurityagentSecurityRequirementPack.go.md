@@ -4,12 +4,12 @@
 
 ### DataAwsccSecurityagentSecurityRequirementPack <a name="DataAwsccSecurityagentSecurityRequirementPack" id="@cdktn/provider-awscc.dataAwsccSecurityagentSecurityRequirementPack.DataAwsccSecurityagentSecurityRequirementPack"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securityagent_security_requirement_pack awscc_securityagent_security_requirement_pack}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securityagent_security_requirement_pack awscc_securityagent_security_requirement_pack}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityagentSecurityRequirementPack.DataAwsccSecurityagentSecurityRequirementPack.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityagentsecurityrequirementpack"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityagentsecurityrequirementpack"
 
 dataawsccsecurityagentsecurityrequirementpack.NewDataAwsccSecurityagentSecurityRequirementPack(scope Construct, id *string, config DataAwsccSecurityagentSecurityRequirementPackConfig) DataAwsccSecurityagentSecurityRequirementPack
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSecurityagentSecurityRequirementPack.DataAwsccSecurityagentSecurityRequirementPack.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityagentsecurityrequirementpack"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityagentsecurityrequirementpack"
 
 dataawsccsecurityagentsecurityrequirementpack.DataAwsccSecurityagentSecurityRequirementPack_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSecurityagentSecurityRequirementPack.DataAwsccSecurityagentSecurityRequirementPack.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityagentsecurityrequirementpack"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityagentsecurityrequirementpack"
 
 dataawsccsecurityagentsecurityrequirementpack.DataAwsccSecurityagentSecurityRequirementPack_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsecurityagentsecurityrequirementpack.DataAwsccSecurityagentSecurityRequ
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSecurityagentSecurityRequirementPack.DataAwsccSecurityagentSecurityRequirementPack.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityagentsecurityrequirementpack"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityagentsecurityrequirementpack"
 
 dataawsccsecurityagentsecurityrequirementpack.DataAwsccSecurityagentSecurityRequirementPack_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsecurityagentsecurityrequirementpack.DataAwsccSecurityagentSecurityRequ
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSecurityagentSecurityRequirementPack.DataAwsccSecurityagentSecurityRequirementPack.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityagentsecurityrequirementpack"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityagentsecurityrequirementpack"
 
 dataawsccsecurityagentsecurityrequirementpack.DataAwsccSecurityagentSecurityRequirementPack_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSecurityagentSecu
 
 The id of the existing DataAwsccSecurityagentSecurityRequirementPack that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securityagent_security_requirement_pack#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securityagent_security_requirement_pack#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -664,7 +664,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityagentSecurityRequirementPack.DataAwsccSecurityagentSecurityRequirementPackConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityagentsecurityrequirementpack"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityagentsecurityrequirementpack"
 
 &dataawsccsecurityagentsecurityrequirementpack.DataAwsccSecurityagentSecurityRequirementPackConfig {
 	Connection: interface{},
@@ -773,7 +773,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securityagent_security_requirement_pack#id DataAwsccSecurityagentSecurityRequirementPack#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securityagent_security_requirement_pack#id DataAwsccSecurityagentSecurityRequirementPack#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -785,7 +785,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityagentSecurityRequirementPack.DataAwsccSecurityagentSecurityRequirementPackSecurityRequirements.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityagentsecurityrequirementpack"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityagentsecurityrequirementpack"
 
 &dataawsccsecurityagentsecurityrequirementpack.DataAwsccSecurityagentSecurityRequirementPackSecurityRequirements {
 
@@ -798,7 +798,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityagent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityagentSecurityRequirementPack.DataAwsccSecurityagentSecurityRequirementPackTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityagentsecurityrequirementpack"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityagentsecurityrequirementpack"
 
 &dataawsccsecurityagentsecurityrequirementpack.DataAwsccSecurityagentSecurityRequirementPackTags {
 
@@ -813,7 +813,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityagent
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityagentSecurityRequirementPack.DataAwsccSecurityagentSecurityRequirementPackSecurityRequirementsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityagentsecurityrequirementpack"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityagentsecurityrequirementpack"
 
 dataawsccsecurityagentsecurityrequirementpack.NewDataAwsccSecurityagentSecurityRequirementPackSecurityRequirementsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityagentSecurityRequirementPackSecurityRequirementsList
 ```
@@ -962,7 +962,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityagentSecurityRequirementPack.DataAwsccSecurityagentSecurityRequirementPackSecurityRequirementsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityagentsecurityrequirementpack"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityagentsecurityrequirementpack"
 
 dataawsccsecurityagentsecurityrequirementpack.NewDataAwsccSecurityagentSecurityRequirementPackSecurityRequirementsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityagentSecurityRequirementPackSecurityRequirementsOutputReference
 ```
@@ -1284,7 +1284,7 @@ func InternalValue() DataAwsccSecurityagentSecurityRequirementPackSecurityRequir
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityagentSecurityRequirementPack.DataAwsccSecurityagentSecurityRequirementPackTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityagentsecurityrequirementpack"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityagentsecurityrequirementpack"
 
 dataawsccsecurityagentsecurityrequirementpack.NewDataAwsccSecurityagentSecurityRequirementPackTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityagentSecurityRequirementPackTagsList
 ```
@@ -1433,7 +1433,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityagentSecurityRequirementPack.DataAwsccSecurityagentSecurityRequirementPackTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityagentsecurityrequirementpack"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityagentsecurityrequirementpack"
 
 dataawsccsecurityagentsecurityrequirementpack.NewDataAwsccSecurityagentSecurityRequirementPackTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityagentSecurityRequirementPackTagsOutputReference
 ```

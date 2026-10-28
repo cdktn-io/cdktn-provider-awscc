@@ -4,12 +4,12 @@
 
 ### LightsailDisk <a name="LightsailDisk" id="@cdktn/provider-awscc.lightsailDisk.LightsailDisk"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_disk awscc_lightsail_disk}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_disk awscc_lightsail_disk}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lightsailDisk.LightsailDisk.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildisk"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildisk"
 
 lightsaildisk.NewLightsailDisk(scope Construct, id *string, config LightsailDiskConfig) LightsailDisk
 ```
@@ -467,7 +467,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.lightsailDisk.LightsailDisk.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildisk"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildisk"
 
 lightsaildisk.LightsailDisk_IsConstruct(x interface{}) *bool
 ```
@@ -499,7 +499,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.lightsailDisk.LightsailDisk.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildisk"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildisk"
 
 lightsaildisk.LightsailDisk_IsTerraformElement(x interface{}) *bool
 ```
@@ -513,7 +513,7 @@ lightsaildisk.LightsailDisk_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.lightsailDisk.LightsailDisk.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildisk"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildisk"
 
 lightsaildisk.LightsailDisk_IsTerraformResource(x interface{}) *bool
 ```
@@ -527,7 +527,7 @@ lightsaildisk.LightsailDisk_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.lightsailDisk.LightsailDisk.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildisk"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildisk"
 
 lightsaildisk.LightsailDisk_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -556,7 +556,7 @@ The construct id used in the generated config for the LightsailDisk to import.
 
 The id of the existing LightsailDisk that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_disk#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_disk#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -998,11 +998,11 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lightsailDisk.LightsailDiskAddOns.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildisk"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildisk"
 
 &lightsaildisk.LightsailDiskAddOns {
 	AddOnType: *string,
-	AutoSnapshotAddOnRequest: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lightsailDisk.LightsailDiskAddOnsAutoSnapshotAddOnRequest,
+	AutoSnapshotAddOnRequest: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lightsailDisk.LightsailDiskAddOnsAutoSnapshotAddOnRequest,
 	Status: *string,
 }
 ```
@@ -1027,7 +1027,7 @@ AddOnType *string
 
 The add-on type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_disk#add_on_type LightsailDisk#add_on_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_disk#add_on_type LightsailDisk#add_on_type}
 
 ---
 
@@ -1041,7 +1041,7 @@ AutoSnapshotAddOnRequest LightsailDiskAddOnsAutoSnapshotAddOnRequest
 
 An object that represents additional parameters when enabling or modifying the automatic snapshot add-on.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_disk#auto_snapshot_add_on_request LightsailDisk#auto_snapshot_add_on_request}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_disk#auto_snapshot_add_on_request LightsailDisk#auto_snapshot_add_on_request}
 
 ---
 
@@ -1055,7 +1055,7 @@ Status *string
 
 Status of the Addon.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_disk#status LightsailDisk#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_disk#status LightsailDisk#status}
 
 ---
 
@@ -1064,7 +1064,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lightsailDisk.LightsailDiskAddOnsAutoSnapshotAddOnRequest.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildisk"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildisk"
 
 &lightsaildisk.LightsailDiskAddOnsAutoSnapshotAddOnRequest {
 	SnapshotTimeOfDay: *string,
@@ -1089,7 +1089,7 @@ SnapshotTimeOfDay *string
 
 The daily time when an automatic snapshot will be created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_disk#snapshot_time_of_day LightsailDisk#snapshot_time_of_day}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_disk#snapshot_time_of_day LightsailDisk#snapshot_time_of_day}
 
 ---
 
@@ -1098,7 +1098,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lightsailDisk.LightsailDiskConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildisk"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildisk"
 
 &lightsaildisk.LightsailDiskConfig {
 	Connection: interface{},
@@ -1112,7 +1112,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildisk"
 	SizeInGb: *f64,
 	AddOns: interface{},
 	AvailabilityZone: *string,
-	Location: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lightsailDisk.LightsailDiskLocation,
+	Location: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lightsailDisk.LightsailDiskLocation,
 	Tags: interface{},
 }
 ```
@@ -1217,7 +1217,7 @@ DiskName *string
 
 The names to use for your new Lightsail disk.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_disk#disk_name LightsailDisk#disk_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_disk#disk_name LightsailDisk#disk_name}
 
 ---
 
@@ -1231,7 +1231,7 @@ SizeInGb *f64
 
 Size of the Lightsail disk.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_disk#size_in_gb LightsailDisk#size_in_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_disk#size_in_gb LightsailDisk#size_in_gb}
 
 ---
 
@@ -1245,7 +1245,7 @@ AddOns interface{}
 
 An array of objects representing the add-ons to enable for the new instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_disk#add_ons LightsailDisk#add_ons}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_disk#add_ons LightsailDisk#add_ons}
 
 ---
 
@@ -1261,7 +1261,7 @@ The Availability Zone in which to create your instance.
 
 Use the following format: us-east-2a (case sensitive). Be sure to add the include Availability Zones parameter to your request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_disk#availability_zone LightsailDisk#availability_zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_disk#availability_zone LightsailDisk#availability_zone}
 
 ---
 
@@ -1275,7 +1275,7 @@ Location LightsailDiskLocation
 
 Location of a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_disk#location LightsailDisk#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_disk#location LightsailDisk#location}
 
 ---
 
@@ -1289,7 +1289,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_disk#tags LightsailDisk#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_disk#tags LightsailDisk#tags}
 
 ---
 
@@ -1298,7 +1298,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lightsailDisk.LightsailDiskLocation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildisk"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildisk"
 
 &lightsaildisk.LightsailDiskLocation {
 
@@ -1311,7 +1311,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildisk"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lightsailDisk.LightsailDiskTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildisk"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildisk"
 
 &lightsaildisk.LightsailDiskTags {
 	Key: *string,
@@ -1340,7 +1340,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_disk#key LightsailDisk#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_disk#key LightsailDisk#key}
 
 ---
 
@@ -1356,7 +1356,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_disk#value LightsailDisk#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_disk#value LightsailDisk#value}
 
 ---
 
@@ -1367,7 +1367,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lightsailDisk.LightsailDiskAddOnsAutoSnapshotAddOnRequestOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildisk"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildisk"
 
 lightsaildisk.NewLightsailDiskAddOnsAutoSnapshotAddOnRequestOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LightsailDiskAddOnsAutoSnapshotAddOnRequestOutputReference
 ```
@@ -1645,7 +1645,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lightsailDisk.LightsailDiskAddOnsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildisk"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildisk"
 
 lightsaildisk.NewLightsailDiskAddOnsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LightsailDiskAddOnsList
 ```
@@ -1805,7 +1805,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lightsailDisk.LightsailDiskAddOnsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildisk"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildisk"
 
 lightsaildisk.NewLightsailDiskAddOnsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LightsailDiskAddOnsOutputReference
 ```
@@ -2172,7 +2172,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lightsailDisk.LightsailDiskLocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildisk"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildisk"
 
 lightsaildisk.NewLightsailDiskLocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LightsailDiskLocationOutputReference
 ```
@@ -2443,7 +2443,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lightsailDisk.LightsailDiskTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildisk"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildisk"
 
 lightsaildisk.NewLightsailDiskTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LightsailDiskTagsList
 ```
@@ -2603,7 +2603,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lightsailDisk.LightsailDiskTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildisk"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildisk"
 
 lightsaildisk.NewLightsailDiskTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LightsailDiskTagsOutputReference
 ```

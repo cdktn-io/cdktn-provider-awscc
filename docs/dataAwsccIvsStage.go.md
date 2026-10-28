@@ -4,12 +4,12 @@
 
 ### DataAwsccIvsStage <a name="DataAwsccIvsStage" id="@cdktn/provider-awscc.dataAwsccIvsStage.DataAwsccIvsStage"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ivs_stage awscc_ivs_stage}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ivs_stage awscc_ivs_stage}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIvsStage.DataAwsccIvsStage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsstage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsstage"
 
 dataawsccivsstage.NewDataAwsccIvsStage(scope Construct, id *string, config DataAwsccIvsStageConfig) DataAwsccIvsStage
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIvsStage.DataAwsccIvsStage.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsstage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsstage"
 
 dataawsccivsstage.DataAwsccIvsStage_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIvsStage.DataAwsccIvsStage.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsstage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsstage"
 
 dataawsccivsstage.DataAwsccIvsStage_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccivsstage.DataAwsccIvsStage_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIvsStage.DataAwsccIvsStage.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsstage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsstage"
 
 dataawsccivsstage.DataAwsccIvsStage_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccivsstage.DataAwsccIvsStage_IsTerraformDataSource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIvsStage.DataAwsccIvsStage.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsstage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsstage"
 
 dataawsccivsstage.DataAwsccIvsStage_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIvsStage to impor
 
 The id of the existing DataAwsccIvsStage that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ivs_stage#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ivs_stage#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -642,7 +642,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIvsStage.DataAwsccIvsStageAutoParticipantRecordingConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsstage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsstage"
 
 &dataawsccivsstage.DataAwsccIvsStageAutoParticipantRecordingConfiguration {
 
@@ -655,7 +655,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsstage"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIvsStage.DataAwsccIvsStageAutoParticipantRecordingConfigurationHlsConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsstage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsstage"
 
 &dataawsccivsstage.DataAwsccIvsStageAutoParticipantRecordingConfigurationHlsConfiguration {
 
@@ -668,7 +668,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsstage"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIvsStage.DataAwsccIvsStageAutoParticipantRecordingConfigurationHlsConfigurationParticipantRecordingHlsConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsstage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsstage"
 
 &dataawsccivsstage.DataAwsccIvsStageAutoParticipantRecordingConfigurationHlsConfigurationParticipantRecordingHlsConfiguration {
 
@@ -681,7 +681,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsstage"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIvsStage.DataAwsccIvsStageAutoParticipantRecordingConfigurationThumbnailConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsstage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsstage"
 
 &dataawsccivsstage.DataAwsccIvsStageAutoParticipantRecordingConfigurationThumbnailConfiguration {
 
@@ -694,7 +694,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsstage"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIvsStage.DataAwsccIvsStageAutoParticipantRecordingConfigurationThumbnailConfigurationParticipantThumbnailConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsstage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsstage"
 
 &dataawsccivsstage.DataAwsccIvsStageAutoParticipantRecordingConfigurationThumbnailConfigurationParticipantThumbnailConfiguration {
 
@@ -707,7 +707,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsstage"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIvsStage.DataAwsccIvsStageConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsstage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsstage"
 
 &dataawsccivsstage.DataAwsccIvsStageConfig {
 	Connection: interface{},
@@ -816,7 +816,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ivs_stage#id DataAwsccIvsStage#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ivs_stage#id DataAwsccIvsStage#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -828,7 +828,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIvsStage.DataAwsccIvsStageTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsstage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsstage"
 
 &dataawsccivsstage.DataAwsccIvsStageTags {
 
@@ -843,7 +843,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsstage"
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIvsStage.DataAwsccIvsStageAutoParticipantRecordingConfigurationHlsConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsstage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsstage"
 
 dataawsccivsstage.NewDataAwsccIvsStageAutoParticipantRecordingConfigurationHlsConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIvsStageAutoParticipantRecordingConfigurationHlsConfigurationOutputReference
 ```
@@ -1103,7 +1103,7 @@ func InternalValue() DataAwsccIvsStageAutoParticipantRecordingConfigurationHlsCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIvsStage.DataAwsccIvsStageAutoParticipantRecordingConfigurationHlsConfigurationParticipantRecordingHlsConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsstage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsstage"
 
 dataawsccivsstage.NewDataAwsccIvsStageAutoParticipantRecordingConfigurationHlsConfigurationParticipantRecordingHlsConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIvsStageAutoParticipantRecordingConfigurationHlsConfigurationParticipantRecordingHlsConfigurationOutputReference
 ```
@@ -1363,7 +1363,7 @@ func InternalValue() DataAwsccIvsStageAutoParticipantRecordingConfigurationHlsCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIvsStage.DataAwsccIvsStageAutoParticipantRecordingConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsstage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsstage"
 
 dataawsccivsstage.NewDataAwsccIvsStageAutoParticipantRecordingConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIvsStageAutoParticipantRecordingConfigurationOutputReference
 ```
@@ -1667,7 +1667,7 @@ func InternalValue() DataAwsccIvsStageAutoParticipantRecordingConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIvsStage.DataAwsccIvsStageAutoParticipantRecordingConfigurationThumbnailConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsstage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsstage"
 
 dataawsccivsstage.NewDataAwsccIvsStageAutoParticipantRecordingConfigurationThumbnailConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIvsStageAutoParticipantRecordingConfigurationThumbnailConfigurationOutputReference
 ```
@@ -1927,7 +1927,7 @@ func InternalValue() DataAwsccIvsStageAutoParticipantRecordingConfigurationThumb
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIvsStage.DataAwsccIvsStageAutoParticipantRecordingConfigurationThumbnailConfigurationParticipantThumbnailConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsstage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsstage"
 
 dataawsccivsstage.NewDataAwsccIvsStageAutoParticipantRecordingConfigurationThumbnailConfigurationParticipantThumbnailConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIvsStageAutoParticipantRecordingConfigurationThumbnailConfigurationParticipantThumbnailConfigurationOutputReference
 ```
@@ -2209,7 +2209,7 @@ func InternalValue() DataAwsccIvsStageAutoParticipantRecordingConfigurationThumb
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIvsStage.DataAwsccIvsStageTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsstage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsstage"
 
 dataawsccivsstage.NewDataAwsccIvsStageTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIvsStageTagsList
 ```
@@ -2358,7 +2358,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIvsStage.DataAwsccIvsStageTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsstage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsstage"
 
 dataawsccivsstage.NewDataAwsccIvsStageTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIvsStageTagsOutputReference
 ```

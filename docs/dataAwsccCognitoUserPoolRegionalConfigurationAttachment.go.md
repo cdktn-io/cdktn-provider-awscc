@@ -4,12 +4,12 @@
 
 ### DataAwsccCognitoUserPoolRegionalConfigurationAttachment <a name="DataAwsccCognitoUserPoolRegionalConfigurationAttachment" id="@cdktn/provider-awscc.dataAwsccCognitoUserPoolRegionalConfigurationAttachment.DataAwsccCognitoUserPoolRegionalConfigurationAttachment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cognito_user_pool_regional_configuration_attachment awscc_cognito_user_pool_regional_configuration_attachment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cognito_user_pool_regional_configuration_attachment awscc_cognito_user_pool_regional_configuration_attachment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCognitoUserPoolRegionalConfigurationAttachment.DataAwsccCognitoUserPoolRegionalConfigurationAttachment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpoolregionalconfigurationattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitouserpoolregionalconfigurationattachment"
 
 dataawscccognitouserpoolregionalconfigurationattachment.NewDataAwsccCognitoUserPoolRegionalConfigurationAttachment(scope Construct, id *string, config DataAwsccCognitoUserPoolRegionalConfigurationAttachmentConfig) DataAwsccCognitoUserPoolRegionalConfigurationAttachment
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCognitoUserPoolRegionalConfigurationAttachment.DataAwsccCognitoUserPoolRegionalConfigurationAttachment.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpoolregionalconfigurationattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitouserpoolregionalconfigurationattachment"
 
 dataawscccognitouserpoolregionalconfigurationattachment.DataAwsccCognitoUserPoolRegionalConfigurationAttachment_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCognitoUserPoolRegionalConfigurationAttachment.DataAwsccCognitoUserPoolRegionalConfigurationAttachment.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpoolregionalconfigurationattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitouserpoolregionalconfigurationattachment"
 
 dataawscccognitouserpoolregionalconfigurationattachment.DataAwsccCognitoUserPoolRegionalConfigurationAttachment_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccognitouserpoolregionalconfigurationattachment.DataAwsccCognitoUserPool
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCognitoUserPoolRegionalConfigurationAttachment.DataAwsccCognitoUserPoolRegionalConfigurationAttachment.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpoolregionalconfigurationattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitouserpoolregionalconfigurationattachment"
 
 dataawscccognitouserpoolregionalconfigurationattachment.DataAwsccCognitoUserPoolRegionalConfigurationAttachment_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccognitouserpoolregionalconfigurationattachment.DataAwsccCognitoUserPool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCognitoUserPoolRegionalConfigurationAttachment.DataAwsccCognitoUserPoolRegionalConfigurationAttachment.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpoolregionalconfigurationattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitouserpoolregionalconfigurationattachment"
 
 dataawscccognitouserpoolregionalconfigurationattachment.DataAwsccCognitoUserPoolRegionalConfigurationAttachment_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCognitoUserPoolRe
 
 The id of the existing DataAwsccCognitoUserPoolRegionalConfigurationAttachment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cognito_user_pool_regional_configuration_attachment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cognito_user_pool_regional_configuration_attachment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -653,7 +653,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCognitoUserPoolRegionalConfigurationAttachment.DataAwsccCognitoUserPoolRegionalConfigurationAttachmentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpoolregionalconfigurationattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitouserpoolregionalconfigurationattachment"
 
 &dataawscccognitouserpoolregionalconfigurationattachment.DataAwsccCognitoUserPoolRegionalConfigurationAttachmentConfig {
 	Connection: interface{},
@@ -762,7 +762,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cognito_user_pool_regional_configuration_attachment#id DataAwsccCognitoUserPoolRegionalConfigurationAttachment#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cognito_user_pool_regional_configuration_attachment#id DataAwsccCognitoUserPoolRegionalConfigurationAttachment#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -774,7 +774,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCognitoUserPoolRegionalConfigurationAttachment.DataAwsccCognitoUserPoolRegionalConfigurationAttachmentEmailConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpoolregionalconfigurationattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitouserpoolregionalconfigurationattachment"
 
 &dataawscccognitouserpoolregionalconfigurationattachment.DataAwsccCognitoUserPoolRegionalConfigurationAttachmentEmailConfiguration {
 
@@ -787,7 +787,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpo
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCognitoUserPoolRegionalConfigurationAttachment.DataAwsccCognitoUserPoolRegionalConfigurationAttachmentLambdaConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpoolregionalconfigurationattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitouserpoolregionalconfigurationattachment"
 
 &dataawscccognitouserpoolregionalconfigurationattachment.DataAwsccCognitoUserPoolRegionalConfigurationAttachmentLambdaConfig {
 
@@ -800,7 +800,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpo
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCognitoUserPoolRegionalConfigurationAttachment.DataAwsccCognitoUserPoolRegionalConfigurationAttachmentLambdaConfigCustomEmailSender.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpoolregionalconfigurationattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitouserpoolregionalconfigurationattachment"
 
 &dataawscccognitouserpoolregionalconfigurationattachment.DataAwsccCognitoUserPoolRegionalConfigurationAttachmentLambdaConfigCustomEmailSender {
 
@@ -813,7 +813,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpo
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCognitoUserPoolRegionalConfigurationAttachment.DataAwsccCognitoUserPoolRegionalConfigurationAttachmentLambdaConfigCustomSmsSender.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpoolregionalconfigurationattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitouserpoolregionalconfigurationattachment"
 
 &dataawscccognitouserpoolregionalconfigurationattachment.DataAwsccCognitoUserPoolRegionalConfigurationAttachmentLambdaConfigCustomSmsSender {
 
@@ -826,7 +826,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpo
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCognitoUserPoolRegionalConfigurationAttachment.DataAwsccCognitoUserPoolRegionalConfigurationAttachmentLambdaConfigInboundFederation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpoolregionalconfigurationattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitouserpoolregionalconfigurationattachment"
 
 &dataawscccognitouserpoolregionalconfigurationattachment.DataAwsccCognitoUserPoolRegionalConfigurationAttachmentLambdaConfigInboundFederation {
 
@@ -839,7 +839,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpo
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCognitoUserPoolRegionalConfigurationAttachment.DataAwsccCognitoUserPoolRegionalConfigurationAttachmentLambdaConfigPreTokenGenerationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpoolregionalconfigurationattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitouserpoolregionalconfigurationattachment"
 
 &dataawscccognitouserpoolregionalconfigurationattachment.DataAwsccCognitoUserPoolRegionalConfigurationAttachmentLambdaConfigPreTokenGenerationConfig {
 
@@ -852,7 +852,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpo
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCognitoUserPoolRegionalConfigurationAttachment.DataAwsccCognitoUserPoolRegionalConfigurationAttachmentSmsConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpoolregionalconfigurationattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitouserpoolregionalconfigurationattachment"
 
 &dataawscccognitouserpoolregionalconfigurationattachment.DataAwsccCognitoUserPoolRegionalConfigurationAttachmentSmsConfiguration {
 
@@ -865,7 +865,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpo
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCognitoUserPoolRegionalConfigurationAttachment.DataAwsccCognitoUserPoolRegionalConfigurationAttachmentSmsConfigurationEumsSms.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpoolregionalconfigurationattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitouserpoolregionalconfigurationattachment"
 
 &dataawscccognitouserpoolregionalconfigurationattachment.DataAwsccCognitoUserPoolRegionalConfigurationAttachmentSmsConfigurationEumsSms {
 
@@ -880,7 +880,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCognitoUserPoolRegionalConfigurationAttachment.DataAwsccCognitoUserPoolRegionalConfigurationAttachmentEmailConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpoolregionalconfigurationattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitouserpoolregionalconfigurationattachment"
 
 dataawscccognitouserpoolregionalconfigurationattachment.NewDataAwsccCognitoUserPoolRegionalConfigurationAttachmentEmailConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCognitoUserPoolRegionalConfigurationAttachmentEmailConfigurationOutputReference
 ```
@@ -1184,7 +1184,7 @@ func InternalValue() DataAwsccCognitoUserPoolRegionalConfigurationAttachmentEmai
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCognitoUserPoolRegionalConfigurationAttachment.DataAwsccCognitoUserPoolRegionalConfigurationAttachmentLambdaConfigCustomEmailSenderOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpoolregionalconfigurationattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitouserpoolregionalconfigurationattachment"
 
 dataawscccognitouserpoolregionalconfigurationattachment.NewDataAwsccCognitoUserPoolRegionalConfigurationAttachmentLambdaConfigCustomEmailSenderOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCognitoUserPoolRegionalConfigurationAttachmentLambdaConfigCustomEmailSenderOutputReference
 ```
@@ -1455,7 +1455,7 @@ func InternalValue() DataAwsccCognitoUserPoolRegionalConfigurationAttachmentLamb
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCognitoUserPoolRegionalConfigurationAttachment.DataAwsccCognitoUserPoolRegionalConfigurationAttachmentLambdaConfigCustomSmsSenderOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpoolregionalconfigurationattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitouserpoolregionalconfigurationattachment"
 
 dataawscccognitouserpoolregionalconfigurationattachment.NewDataAwsccCognitoUserPoolRegionalConfigurationAttachmentLambdaConfigCustomSmsSenderOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCognitoUserPoolRegionalConfigurationAttachmentLambdaConfigCustomSmsSenderOutputReference
 ```
@@ -1726,7 +1726,7 @@ func InternalValue() DataAwsccCognitoUserPoolRegionalConfigurationAttachmentLamb
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCognitoUserPoolRegionalConfigurationAttachment.DataAwsccCognitoUserPoolRegionalConfigurationAttachmentLambdaConfigInboundFederationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpoolregionalconfigurationattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitouserpoolregionalconfigurationattachment"
 
 dataawscccognitouserpoolregionalconfigurationattachment.NewDataAwsccCognitoUserPoolRegionalConfigurationAttachmentLambdaConfigInboundFederationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCognitoUserPoolRegionalConfigurationAttachmentLambdaConfigInboundFederationOutputReference
 ```
@@ -1997,7 +1997,7 @@ func InternalValue() DataAwsccCognitoUserPoolRegionalConfigurationAttachmentLamb
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCognitoUserPoolRegionalConfigurationAttachment.DataAwsccCognitoUserPoolRegionalConfigurationAttachmentLambdaConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpoolregionalconfigurationattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitouserpoolregionalconfigurationattachment"
 
 dataawscccognitouserpoolregionalconfigurationattachment.NewDataAwsccCognitoUserPoolRegionalConfigurationAttachmentLambdaConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCognitoUserPoolRegionalConfigurationAttachmentLambdaConfigOutputReference
 ```
@@ -2411,7 +2411,7 @@ func InternalValue() DataAwsccCognitoUserPoolRegionalConfigurationAttachmentLamb
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCognitoUserPoolRegionalConfigurationAttachment.DataAwsccCognitoUserPoolRegionalConfigurationAttachmentLambdaConfigPreTokenGenerationConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpoolregionalconfigurationattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitouserpoolregionalconfigurationattachment"
 
 dataawscccognitouserpoolregionalconfigurationattachment.NewDataAwsccCognitoUserPoolRegionalConfigurationAttachmentLambdaConfigPreTokenGenerationConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCognitoUserPoolRegionalConfigurationAttachmentLambdaConfigPreTokenGenerationConfigOutputReference
 ```
@@ -2682,7 +2682,7 @@ func InternalValue() DataAwsccCognitoUserPoolRegionalConfigurationAttachmentLamb
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCognitoUserPoolRegionalConfigurationAttachment.DataAwsccCognitoUserPoolRegionalConfigurationAttachmentSmsConfigurationEumsSmsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpoolregionalconfigurationattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitouserpoolregionalconfigurationattachment"
 
 dataawscccognitouserpoolregionalconfigurationattachment.NewDataAwsccCognitoUserPoolRegionalConfigurationAttachmentSmsConfigurationEumsSmsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCognitoUserPoolRegionalConfigurationAttachmentSmsConfigurationEumsSmsOutputReference
 ```
@@ -3008,7 +3008,7 @@ func InternalValue() DataAwsccCognitoUserPoolRegionalConfigurationAttachmentSmsC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCognitoUserPoolRegionalConfigurationAttachment.DataAwsccCognitoUserPoolRegionalConfigurationAttachmentSmsConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpoolregionalconfigurationattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitouserpoolregionalconfigurationattachment"
 
 dataawscccognitouserpoolregionalconfigurationattachment.NewDataAwsccCognitoUserPoolRegionalConfigurationAttachmentSmsConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCognitoUserPoolRegionalConfigurationAttachmentSmsConfigurationOutputReference
 ```

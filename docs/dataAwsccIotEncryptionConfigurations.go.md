@@ -4,12 +4,12 @@
 
 ### DataAwsccIotEncryptionConfigurations <a name="DataAwsccIotEncryptionConfigurations" id="@cdktn/provider-awscc.dataAwsccIotEncryptionConfigurations.DataAwsccIotEncryptionConfigurations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_encryption_configurations awscc_iot_encryption_configurations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_encryption_configurations awscc_iot_encryption_configurations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotEncryptionConfigurations.DataAwsccIotEncryptionConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotencryptionconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotencryptionconfigurations"
 
 dataawscciotencryptionconfigurations.NewDataAwsccIotEncryptionConfigurations(scope Construct, id *string, config DataAwsccIotEncryptionConfigurationsConfig) DataAwsccIotEncryptionConfigurations
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIotEncryptionConfigurations.DataAwsccIotEncryptionConfigurations.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotencryptionconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotencryptionconfigurations"
 
 dataawscciotencryptionconfigurations.DataAwsccIotEncryptionConfigurations_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIotEncryptionConfigurations.DataAwsccIotEncryptionConfigurations.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotencryptionconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotencryptionconfigurations"
 
 dataawscciotencryptionconfigurations.DataAwsccIotEncryptionConfigurations_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciotencryptionconfigurations.DataAwsccIotEncryptionConfigurations_IsTerr
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIotEncryptionConfigurations.DataAwsccIotEncryptionConfigurations.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotencryptionconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotencryptionconfigurations"
 
 dataawscciotencryptionconfigurations.DataAwsccIotEncryptionConfigurations_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciotencryptionconfigurations.DataAwsccIotEncryptionConfigurations_IsTerr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIotEncryptionConfigurations.DataAwsccIotEncryptionConfigurations.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotencryptionconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotencryptionconfigurations"
 
 dataawscciotencryptionconfigurations.DataAwsccIotEncryptionConfigurations_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotEncryptionConf
 
 The id of the existing DataAwsccIotEncryptionConfigurations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_encryption_configurations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_encryption_configurations#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotEncryptionConfigurations.DataAwsccIotEncryptionConfigurationsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotencryptionconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotencryptionconfigurations"
 
 &dataawscciotencryptionconfigurations.DataAwsccIotEncryptionConfigurationsConfig {
 	Connection: interface{},

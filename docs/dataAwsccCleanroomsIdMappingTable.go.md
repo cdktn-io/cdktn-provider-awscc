@@ -4,12 +4,12 @@
 
 ### DataAwsccCleanroomsIdMappingTable <a name="DataAwsccCleanroomsIdMappingTable" id="@cdktn/provider-awscc.dataAwsccCleanroomsIdMappingTable.DataAwsccCleanroomsIdMappingTable"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cleanrooms_id_mapping_table awscc_cleanrooms_id_mapping_table}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cleanrooms_id_mapping_table awscc_cleanrooms_id_mapping_table}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsIdMappingTable.DataAwsccCleanroomsIdMappingTable.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsidmappingtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsidmappingtable"
 
 dataawscccleanroomsidmappingtable.NewDataAwsccCleanroomsIdMappingTable(scope Construct, id *string, config DataAwsccCleanroomsIdMappingTableConfig) DataAwsccCleanroomsIdMappingTable
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCleanroomsIdMappingTable.DataAwsccCleanroomsIdMappingTable.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsidmappingtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsidmappingtable"
 
 dataawscccleanroomsidmappingtable.DataAwsccCleanroomsIdMappingTable_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCleanroomsIdMappingTable.DataAwsccCleanroomsIdMappingTable.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsidmappingtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsidmappingtable"
 
 dataawscccleanroomsidmappingtable.DataAwsccCleanroomsIdMappingTable_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccleanroomsidmappingtable.DataAwsccCleanroomsIdMappingTable_IsTerraformE
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCleanroomsIdMappingTable.DataAwsccCleanroomsIdMappingTable.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsidmappingtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsidmappingtable"
 
 dataawscccleanroomsidmappingtable.DataAwsccCleanroomsIdMappingTable_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccleanroomsidmappingtable.DataAwsccCleanroomsIdMappingTable_IsTerraformD
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCleanroomsIdMappingTable.DataAwsccCleanroomsIdMappingTable.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsidmappingtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsidmappingtable"
 
 dataawscccleanroomsidmappingtable.DataAwsccCleanroomsIdMappingTable_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCleanroomsIdMappi
 
 The id of the existing DataAwsccCleanroomsIdMappingTable that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cleanrooms_id_mapping_table#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cleanrooms_id_mapping_table#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -719,7 +719,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCleanroomsIdMappingTable.DataAwsccCleanroomsIdMappingTableConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsidmappingtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsidmappingtable"
 
 &dataawscccleanroomsidmappingtable.DataAwsccCleanroomsIdMappingTableConfig {
 	Connection: interface{},
@@ -828,7 +828,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cleanrooms_id_mapping_table#id DataAwsccCleanroomsIdMappingTable#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cleanrooms_id_mapping_table#id DataAwsccCleanroomsIdMappingTable#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -840,7 +840,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCleanroomsIdMappingTable.DataAwsccCleanroomsIdMappingTableInputReferenceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsidmappingtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsidmappingtable"
 
 &dataawscccleanroomsidmappingtable.DataAwsccCleanroomsIdMappingTableInputReferenceConfig {
 
@@ -853,7 +853,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsidm
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCleanroomsIdMappingTable.DataAwsccCleanroomsIdMappingTableInputReferenceProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsidmappingtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsidmappingtable"
 
 &dataawscccleanroomsidmappingtable.DataAwsccCleanroomsIdMappingTableInputReferenceProperties {
 
@@ -866,7 +866,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsidm
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCleanroomsIdMappingTable.DataAwsccCleanroomsIdMappingTableInputReferencePropertiesIdMappingTableInputSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsidmappingtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsidmappingtable"
 
 &dataawscccleanroomsidmappingtable.DataAwsccCleanroomsIdMappingTableInputReferencePropertiesIdMappingTableInputSource {
 
@@ -879,7 +879,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsidm
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCleanroomsIdMappingTable.DataAwsccCleanroomsIdMappingTableTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsidmappingtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsidmappingtable"
 
 &dataawscccleanroomsidmappingtable.DataAwsccCleanroomsIdMappingTableTags {
 
@@ -894,7 +894,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsidm
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsIdMappingTable.DataAwsccCleanroomsIdMappingTableInputReferenceConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsidmappingtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsidmappingtable"
 
 dataawscccleanroomsidmappingtable.NewDataAwsccCleanroomsIdMappingTableInputReferenceConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCleanroomsIdMappingTableInputReferenceConfigOutputReference
 ```
@@ -1165,7 +1165,7 @@ func InternalValue() DataAwsccCleanroomsIdMappingTableInputReferenceConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsIdMappingTable.DataAwsccCleanroomsIdMappingTableInputReferencePropertiesIdMappingTableInputSourceList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsidmappingtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsidmappingtable"
 
 dataawscccleanroomsidmappingtable.NewDataAwsccCleanroomsIdMappingTableInputReferencePropertiesIdMappingTableInputSourceList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCleanroomsIdMappingTableInputReferencePropertiesIdMappingTableInputSourceList
 ```
@@ -1314,7 +1314,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsIdMappingTable.DataAwsccCleanroomsIdMappingTableInputReferencePropertiesIdMappingTableInputSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsidmappingtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsidmappingtable"
 
 dataawscccleanroomsidmappingtable.NewDataAwsccCleanroomsIdMappingTableInputReferencePropertiesIdMappingTableInputSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCleanroomsIdMappingTableInputReferencePropertiesIdMappingTableInputSourceOutputReference
 ```
@@ -1603,7 +1603,7 @@ func InternalValue() DataAwsccCleanroomsIdMappingTableInputReferencePropertiesId
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsIdMappingTable.DataAwsccCleanroomsIdMappingTableInputReferencePropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsidmappingtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsidmappingtable"
 
 dataawscccleanroomsidmappingtable.NewDataAwsccCleanroomsIdMappingTableInputReferencePropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCleanroomsIdMappingTableInputReferencePropertiesOutputReference
 ```
@@ -1863,7 +1863,7 @@ func InternalValue() DataAwsccCleanroomsIdMappingTableInputReferenceProperties
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsIdMappingTable.DataAwsccCleanroomsIdMappingTableTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsidmappingtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsidmappingtable"
 
 dataawscccleanroomsidmappingtable.NewDataAwsccCleanroomsIdMappingTableTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCleanroomsIdMappingTableTagsList
 ```
@@ -2012,7 +2012,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsIdMappingTable.DataAwsccCleanroomsIdMappingTableTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsidmappingtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsidmappingtable"
 
 dataawscccleanroomsidmappingtable.NewDataAwsccCleanroomsIdMappingTableTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCleanroomsIdMappingTableTagsOutputReference
 ```

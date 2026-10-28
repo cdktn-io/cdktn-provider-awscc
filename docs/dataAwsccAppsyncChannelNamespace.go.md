@@ -4,12 +4,12 @@
 
 ### DataAwsccAppsyncChannelNamespace <a name="DataAwsccAppsyncChannelNamespace" id="@cdktn/provider-awscc.dataAwsccAppsyncChannelNamespace.DataAwsccAppsyncChannelNamespace"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appsync_channel_namespace awscc_appsync_channel_namespace}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appsync_channel_namespace awscc_appsync_channel_namespace}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppsyncChannelNamespace.DataAwsccAppsyncChannelNamespace.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncchannelnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncchannelnamespace"
 
 dataawsccappsyncchannelnamespace.NewDataAwsccAppsyncChannelNamespace(scope Construct, id *string, config DataAwsccAppsyncChannelNamespaceConfig) DataAwsccAppsyncChannelNamespace
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccAppsyncChannelNamespace.DataAwsccAppsyncChannelNamespace.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncchannelnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncchannelnamespace"
 
 dataawsccappsyncchannelnamespace.DataAwsccAppsyncChannelNamespace_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccAppsyncChannelNamespace.DataAwsccAppsyncChannelNamespace.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncchannelnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncchannelnamespace"
 
 dataawsccappsyncchannelnamespace.DataAwsccAppsyncChannelNamespace_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccappsyncchannelnamespace.DataAwsccAppsyncChannelNamespace_IsTerraformEle
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccAppsyncChannelNamespace.DataAwsccAppsyncChannelNamespace.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncchannelnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncchannelnamespace"
 
 dataawsccappsyncchannelnamespace.DataAwsccAppsyncChannelNamespace_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccappsyncchannelnamespace.DataAwsccAppsyncChannelNamespace_IsTerraformDat
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccAppsyncChannelNamespace.DataAwsccAppsyncChannelNamespace.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncchannelnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncchannelnamespace"
 
 dataawsccappsyncchannelnamespace.DataAwsccAppsyncChannelNamespace_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccAppsyncChannelNam
 
 The id of the existing DataAwsccAppsyncChannelNamespace that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appsync_channel_namespace#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appsync_channel_namespace#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -686,7 +686,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppsyncChannelNamespace.DataAwsccAppsyncChannelNamespaceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncchannelnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncchannelnamespace"
 
 &dataawsccappsyncchannelnamespace.DataAwsccAppsyncChannelNamespaceConfig {
 	Connection: interface{},
@@ -795,7 +795,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appsync_channel_namespace#id DataAwsccAppsyncChannelNamespace#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appsync_channel_namespace#id DataAwsccAppsyncChannelNamespace#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -807,7 +807,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppsyncChannelNamespace.DataAwsccAppsyncChannelNamespaceHandlerConfigs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncchannelnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncchannelnamespace"
 
 &dataawsccappsyncchannelnamespace.DataAwsccAppsyncChannelNamespaceHandlerConfigs {
 
@@ -820,7 +820,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncchanne
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppsyncChannelNamespace.DataAwsccAppsyncChannelNamespaceHandlerConfigsOnPublish.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncchannelnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncchannelnamespace"
 
 &dataawsccappsyncchannelnamespace.DataAwsccAppsyncChannelNamespaceHandlerConfigsOnPublish {
 
@@ -833,7 +833,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncchanne
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppsyncChannelNamespace.DataAwsccAppsyncChannelNamespaceHandlerConfigsOnPublishIntegration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncchannelnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncchannelnamespace"
 
 &dataawsccappsyncchannelnamespace.DataAwsccAppsyncChannelNamespaceHandlerConfigsOnPublishIntegration {
 
@@ -846,7 +846,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncchanne
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppsyncChannelNamespace.DataAwsccAppsyncChannelNamespaceHandlerConfigsOnPublishIntegrationLambdaConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncchannelnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncchannelnamespace"
 
 &dataawsccappsyncchannelnamespace.DataAwsccAppsyncChannelNamespaceHandlerConfigsOnPublishIntegrationLambdaConfig {
 
@@ -859,7 +859,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncchanne
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppsyncChannelNamespace.DataAwsccAppsyncChannelNamespaceHandlerConfigsOnSubscribe.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncchannelnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncchannelnamespace"
 
 &dataawsccappsyncchannelnamespace.DataAwsccAppsyncChannelNamespaceHandlerConfigsOnSubscribe {
 
@@ -872,7 +872,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncchanne
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppsyncChannelNamespace.DataAwsccAppsyncChannelNamespaceHandlerConfigsOnSubscribeIntegration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncchannelnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncchannelnamespace"
 
 &dataawsccappsyncchannelnamespace.DataAwsccAppsyncChannelNamespaceHandlerConfigsOnSubscribeIntegration {
 
@@ -885,7 +885,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncchanne
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppsyncChannelNamespace.DataAwsccAppsyncChannelNamespaceHandlerConfigsOnSubscribeIntegrationLambdaConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncchannelnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncchannelnamespace"
 
 &dataawsccappsyncchannelnamespace.DataAwsccAppsyncChannelNamespaceHandlerConfigsOnSubscribeIntegrationLambdaConfig {
 
@@ -898,7 +898,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncchanne
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppsyncChannelNamespace.DataAwsccAppsyncChannelNamespacePublishAuthModes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncchannelnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncchannelnamespace"
 
 &dataawsccappsyncchannelnamespace.DataAwsccAppsyncChannelNamespacePublishAuthModes {
 
@@ -911,7 +911,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncchanne
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppsyncChannelNamespace.DataAwsccAppsyncChannelNamespaceSubscribeAuthModes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncchannelnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncchannelnamespace"
 
 &dataawsccappsyncchannelnamespace.DataAwsccAppsyncChannelNamespaceSubscribeAuthModes {
 
@@ -924,7 +924,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncchanne
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppsyncChannelNamespace.DataAwsccAppsyncChannelNamespaceTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncchannelnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncchannelnamespace"
 
 &dataawsccappsyncchannelnamespace.DataAwsccAppsyncChannelNamespaceTags {
 
@@ -939,7 +939,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncchanne
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppsyncChannelNamespace.DataAwsccAppsyncChannelNamespaceHandlerConfigsOnPublishIntegrationLambdaConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncchannelnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncchannelnamespace"
 
 dataawsccappsyncchannelnamespace.NewDataAwsccAppsyncChannelNamespaceHandlerConfigsOnPublishIntegrationLambdaConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppsyncChannelNamespaceHandlerConfigsOnPublishIntegrationLambdaConfigOutputReference
 ```
@@ -1199,7 +1199,7 @@ func InternalValue() DataAwsccAppsyncChannelNamespaceHandlerConfigsOnPublishInte
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppsyncChannelNamespace.DataAwsccAppsyncChannelNamespaceHandlerConfigsOnPublishIntegrationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncchannelnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncchannelnamespace"
 
 dataawsccappsyncchannelnamespace.NewDataAwsccAppsyncChannelNamespaceHandlerConfigsOnPublishIntegrationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppsyncChannelNamespaceHandlerConfigsOnPublishIntegrationOutputReference
 ```
@@ -1470,7 +1470,7 @@ func InternalValue() DataAwsccAppsyncChannelNamespaceHandlerConfigsOnPublishInte
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppsyncChannelNamespace.DataAwsccAppsyncChannelNamespaceHandlerConfigsOnPublishOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncchannelnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncchannelnamespace"
 
 dataawsccappsyncchannelnamespace.NewDataAwsccAppsyncChannelNamespaceHandlerConfigsOnPublishOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppsyncChannelNamespaceHandlerConfigsOnPublishOutputReference
 ```
@@ -1741,7 +1741,7 @@ func InternalValue() DataAwsccAppsyncChannelNamespaceHandlerConfigsOnPublish
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppsyncChannelNamespace.DataAwsccAppsyncChannelNamespaceHandlerConfigsOnSubscribeIntegrationLambdaConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncchannelnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncchannelnamespace"
 
 dataawsccappsyncchannelnamespace.NewDataAwsccAppsyncChannelNamespaceHandlerConfigsOnSubscribeIntegrationLambdaConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppsyncChannelNamespaceHandlerConfigsOnSubscribeIntegrationLambdaConfigOutputReference
 ```
@@ -2001,7 +2001,7 @@ func InternalValue() DataAwsccAppsyncChannelNamespaceHandlerConfigsOnSubscribeIn
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppsyncChannelNamespace.DataAwsccAppsyncChannelNamespaceHandlerConfigsOnSubscribeIntegrationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncchannelnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncchannelnamespace"
 
 dataawsccappsyncchannelnamespace.NewDataAwsccAppsyncChannelNamespaceHandlerConfigsOnSubscribeIntegrationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppsyncChannelNamespaceHandlerConfigsOnSubscribeIntegrationOutputReference
 ```
@@ -2272,7 +2272,7 @@ func InternalValue() DataAwsccAppsyncChannelNamespaceHandlerConfigsOnSubscribeIn
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppsyncChannelNamespace.DataAwsccAppsyncChannelNamespaceHandlerConfigsOnSubscribeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncchannelnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncchannelnamespace"
 
 dataawsccappsyncchannelnamespace.NewDataAwsccAppsyncChannelNamespaceHandlerConfigsOnSubscribeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppsyncChannelNamespaceHandlerConfigsOnSubscribeOutputReference
 ```
@@ -2543,7 +2543,7 @@ func InternalValue() DataAwsccAppsyncChannelNamespaceHandlerConfigsOnSubscribe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppsyncChannelNamespace.DataAwsccAppsyncChannelNamespaceHandlerConfigsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncchannelnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncchannelnamespace"
 
 dataawsccappsyncchannelnamespace.NewDataAwsccAppsyncChannelNamespaceHandlerConfigsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppsyncChannelNamespaceHandlerConfigsOutputReference
 ```
@@ -2814,7 +2814,7 @@ func InternalValue() DataAwsccAppsyncChannelNamespaceHandlerConfigs
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppsyncChannelNamespace.DataAwsccAppsyncChannelNamespacePublishAuthModesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncchannelnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncchannelnamespace"
 
 dataawsccappsyncchannelnamespace.NewDataAwsccAppsyncChannelNamespacePublishAuthModesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccAppsyncChannelNamespacePublishAuthModesList
 ```
@@ -2963,7 +2963,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppsyncChannelNamespace.DataAwsccAppsyncChannelNamespacePublishAuthModesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncchannelnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncchannelnamespace"
 
 dataawsccappsyncchannelnamespace.NewDataAwsccAppsyncChannelNamespacePublishAuthModesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccAppsyncChannelNamespacePublishAuthModesOutputReference
 ```
@@ -3241,7 +3241,7 @@ func InternalValue() DataAwsccAppsyncChannelNamespacePublishAuthModes
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppsyncChannelNamespace.DataAwsccAppsyncChannelNamespaceSubscribeAuthModesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncchannelnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncchannelnamespace"
 
 dataawsccappsyncchannelnamespace.NewDataAwsccAppsyncChannelNamespaceSubscribeAuthModesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccAppsyncChannelNamespaceSubscribeAuthModesList
 ```
@@ -3390,7 +3390,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppsyncChannelNamespace.DataAwsccAppsyncChannelNamespaceSubscribeAuthModesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncchannelnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncchannelnamespace"
 
 dataawsccappsyncchannelnamespace.NewDataAwsccAppsyncChannelNamespaceSubscribeAuthModesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccAppsyncChannelNamespaceSubscribeAuthModesOutputReference
 ```
@@ -3668,7 +3668,7 @@ func InternalValue() DataAwsccAppsyncChannelNamespaceSubscribeAuthModes
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppsyncChannelNamespace.DataAwsccAppsyncChannelNamespaceTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncchannelnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncchannelnamespace"
 
 dataawsccappsyncchannelnamespace.NewDataAwsccAppsyncChannelNamespaceTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccAppsyncChannelNamespaceTagsList
 ```
@@ -3817,7 +3817,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppsyncChannelNamespace.DataAwsccAppsyncChannelNamespaceTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncchannelnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncchannelnamespace"
 
 dataawsccappsyncchannelnamespace.NewDataAwsccAppsyncChannelNamespaceTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccAppsyncChannelNamespaceTagsOutputReference
 ```

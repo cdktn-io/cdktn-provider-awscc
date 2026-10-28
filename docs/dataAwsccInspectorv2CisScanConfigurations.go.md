@@ -4,12 +4,12 @@
 
 ### DataAwsccInspectorv2CisScanConfigurations <a name="DataAwsccInspectorv2CisScanConfigurations" id="@cdktn/provider-awscc.dataAwsccInspectorv2CisScanConfigurations.DataAwsccInspectorv2CisScanConfigurations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/inspectorv2_cis_scan_configurations awscc_inspectorv2_cis_scan_configurations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/inspectorv2_cis_scan_configurations awscc_inspectorv2_cis_scan_configurations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2CisScanConfigurations.DataAwsccInspectorv2CisScanConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2cisscanconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2cisscanconfigurations"
 
 dataawsccinspectorv2cisscanconfigurations.NewDataAwsccInspectorv2CisScanConfigurations(scope Construct, id *string, config DataAwsccInspectorv2CisScanConfigurationsConfig) DataAwsccInspectorv2CisScanConfigurations
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccInspectorv2CisScanConfigurations.DataAwsccInspectorv2CisScanConfigurations.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2cisscanconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2cisscanconfigurations"
 
 dataawsccinspectorv2cisscanconfigurations.DataAwsccInspectorv2CisScanConfigurations_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccInspectorv2CisScanConfigurations.DataAwsccInspectorv2CisScanConfigurations.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2cisscanconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2cisscanconfigurations"
 
 dataawsccinspectorv2cisscanconfigurations.DataAwsccInspectorv2CisScanConfigurations_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccinspectorv2cisscanconfigurations.DataAwsccInspectorv2CisScanConfigurati
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccInspectorv2CisScanConfigurations.DataAwsccInspectorv2CisScanConfigurations.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2cisscanconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2cisscanconfigurations"
 
 dataawsccinspectorv2cisscanconfigurations.DataAwsccInspectorv2CisScanConfigurations_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccinspectorv2cisscanconfigurations.DataAwsccInspectorv2CisScanConfigurati
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccInspectorv2CisScanConfigurations.DataAwsccInspectorv2CisScanConfigurations.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2cisscanconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2cisscanconfigurations"
 
 dataawsccinspectorv2cisscanconfigurations.DataAwsccInspectorv2CisScanConfigurations_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccInspectorv2CisSca
 
 The id of the existing DataAwsccInspectorv2CisScanConfigurations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/inspectorv2_cis_scan_configurations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/inspectorv2_cis_scan_configurations#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorv2CisScanConfigurations.DataAwsccInspectorv2CisScanConfigurationsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2cisscanconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2cisscanconfigurations"
 
 &dataawsccinspectorv2cisscanconfigurations.DataAwsccInspectorv2CisScanConfigurationsConfig {
 	Connection: interface{},

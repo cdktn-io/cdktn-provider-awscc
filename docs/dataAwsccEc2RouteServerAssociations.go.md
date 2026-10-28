@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2RouteServerAssociations <a name="DataAwsccEc2RouteServerAssociations" id="@cdktn/provider-awscc.dataAwsccEc2RouteServerAssociations.DataAwsccEc2RouteServerAssociations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_route_server_associations awscc_ec2_route_server_associations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_route_server_associations awscc_ec2_route_server_associations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2RouteServerAssociations.DataAwsccEc2RouteServerAssociations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2routeserverassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2routeserverassociations"
 
 dataawsccec2routeserverassociations.NewDataAwsccEc2RouteServerAssociations(scope Construct, id *string, config DataAwsccEc2RouteServerAssociationsConfig) DataAwsccEc2RouteServerAssociations
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2RouteServerAssociations.DataAwsccEc2RouteServerAssociations.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2routeserverassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2routeserverassociations"
 
 dataawsccec2routeserverassociations.DataAwsccEc2RouteServerAssociations_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2RouteServerAssociations.DataAwsccEc2RouteServerAssociations.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2routeserverassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2routeserverassociations"
 
 dataawsccec2routeserverassociations.DataAwsccEc2RouteServerAssociations_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2routeserverassociations.DataAwsccEc2RouteServerAssociations_IsTerraf
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2RouteServerAssociations.DataAwsccEc2RouteServerAssociations.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2routeserverassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2routeserverassociations"
 
 dataawsccec2routeserverassociations.DataAwsccEc2RouteServerAssociations_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2routeserverassociations.DataAwsccEc2RouteServerAssociations_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2RouteServerAssociations.DataAwsccEc2RouteServerAssociations.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2routeserverassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2routeserverassociations"
 
 dataawsccec2routeserverassociations.DataAwsccEc2RouteServerAssociations_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2RouteServerAss
 
 The id of the existing DataAwsccEc2RouteServerAssociations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_route_server_associations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_route_server_associations#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2RouteServerAssociations.DataAwsccEc2RouteServerAssociationsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2routeserverassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2routeserverassociations"
 
 &dataawsccec2routeserverassociations.DataAwsccEc2RouteServerAssociationsConfig {
 	Connection: interface{},

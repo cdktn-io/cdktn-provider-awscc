@@ -4,12 +4,12 @@
 
 ### DataAwsccGlueIntegrationResourceProperties <a name="DataAwsccGlueIntegrationResourceProperties" id="@cdktn/provider-awscc.dataAwsccGlueIntegrationResourceProperties.DataAwsccGlueIntegrationResourceProperties"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/glue_integration_resource_properties awscc_glue_integration_resource_properties}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/glue_integration_resource_properties awscc_glue_integration_resource_properties}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueIntegrationResourceProperties.DataAwsccGlueIntegrationResourceProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueintegrationresourceproperties"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueintegrationresourceproperties"
 
 dataawsccglueintegrationresourceproperties.NewDataAwsccGlueIntegrationResourceProperties(scope Construct, id *string, config DataAwsccGlueIntegrationResourcePropertiesConfig) DataAwsccGlueIntegrationResourceProperties
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccGlueIntegrationResourceProperties.DataAwsccGlueIntegrationResourceProperties.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueintegrationresourceproperties"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueintegrationresourceproperties"
 
 dataawsccglueintegrationresourceproperties.DataAwsccGlueIntegrationResourceProperties_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccGlueIntegrationResourceProperties.DataAwsccGlueIntegrationResourceProperties.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueintegrationresourceproperties"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueintegrationresourceproperties"
 
 dataawsccglueintegrationresourceproperties.DataAwsccGlueIntegrationResourceProperties_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccglueintegrationresourceproperties.DataAwsccGlueIntegrationResourcePrope
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccGlueIntegrationResourceProperties.DataAwsccGlueIntegrationResourceProperties.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueintegrationresourceproperties"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueintegrationresourceproperties"
 
 dataawsccglueintegrationresourceproperties.DataAwsccGlueIntegrationResourceProperties_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccglueintegrationresourceproperties.DataAwsccGlueIntegrationResourcePrope
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccGlueIntegrationResourceProperties.DataAwsccGlueIntegrationResourceProperties.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueintegrationresourceproperties"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueintegrationresourceproperties"
 
 dataawsccglueintegrationresourceproperties.DataAwsccGlueIntegrationResourceProperties_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccGlueIntegrationRe
 
 The id of the existing DataAwsccGlueIntegrationResourceProperties that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/glue_integration_resource_properties#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/glue_integration_resource_properties#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueIntegrationResourceProperties.DataAwsccGlueIntegrationResourcePropertiesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueintegrationresourceproperties"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueintegrationresourceproperties"
 
 &dataawsccglueintegrationresourceproperties.DataAwsccGlueIntegrationResourcePropertiesConfig {
 	Connection: interface{},

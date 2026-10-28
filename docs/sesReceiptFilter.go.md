@@ -4,12 +4,12 @@
 
 ### SesReceiptFilter <a name="SesReceiptFilter" id="@cdktn/provider-awscc.sesReceiptFilter.SesReceiptFilter"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_receipt_filter awscc_ses_receipt_filter}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_receipt_filter awscc_ses_receipt_filter}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesReceiptFilter.SesReceiptFilter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesreceiptfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesreceiptfilter"
 
 sesreceiptfilter.NewSesReceiptFilter(scope Construct, id *string, config SesReceiptFilterConfig) SesReceiptFilter
 ```
@@ -413,7 +413,7 @@ func PutFilter(value SesReceiptFilterFilter)
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.sesReceiptFilter.SesReceiptFilter.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesreceiptfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesreceiptfilter"
 
 sesreceiptfilter.SesReceiptFilter_IsConstruct(x interface{}) *bool
 ```
@@ -445,7 +445,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.sesReceiptFilter.SesReceiptFilter.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesreceiptfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesreceiptfilter"
 
 sesreceiptfilter.SesReceiptFilter_IsTerraformElement(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ sesreceiptfilter.SesReceiptFilter_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.sesReceiptFilter.SesReceiptFilter.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesreceiptfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesreceiptfilter"
 
 sesreceiptfilter.SesReceiptFilter_IsTerraformResource(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ sesreceiptfilter.SesReceiptFilter_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.sesReceiptFilter.SesReceiptFilter.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesreceiptfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesreceiptfilter"
 
 sesreceiptfilter.SesReceiptFilter_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -502,7 +502,7 @@ The construct id used in the generated config for the SesReceiptFilter to import
 
 The id of the existing SesReceiptFilter that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_receipt_filter#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_receipt_filter#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -746,7 +746,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sesReceiptFilter.SesReceiptFilterConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesreceiptfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesreceiptfilter"
 
 &sesreceiptfilter.SesReceiptFilterConfig {
 	Connection: interface{},
@@ -756,7 +756,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesreceiptfilter"
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	Filter: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.sesReceiptFilter.SesReceiptFilterFilter,
+	Filter: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.sesReceiptFilter.SesReceiptFilterFilter,
 }
 ```
 
@@ -855,7 +855,7 @@ Filter SesReceiptFilterFilter
 
 A structure that describes the IP address filter to create, which consists of a name, an IP address range, and whether to allow or block mail from it.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_receipt_filter#filter SesReceiptFilter#filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_receipt_filter#filter SesReceiptFilter#filter}
 
 ---
 
@@ -864,10 +864,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sesReceiptFilter.SesReceiptFilterFilter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesreceiptfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesreceiptfilter"
 
 &sesreceiptfilter.SesReceiptFilterFilter {
-	IpFilter: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.sesReceiptFilter.SesReceiptFilterFilterIpFilter,
+	IpFilter: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.sesReceiptFilter.SesReceiptFilterFilterIpFilter,
 	Name: *string,
 }
 ```
@@ -891,7 +891,7 @@ IpFilter SesReceiptFilterFilterIpFilter
 
 A structure that provides the IP addresses to block or allow, and whether to block or allow incoming mail from them.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_receipt_filter#ip_filter SesReceiptFilter#ip_filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_receipt_filter#ip_filter SesReceiptFilter#ip_filter}
 
 ---
 
@@ -905,7 +905,7 @@ Name *string
 
 The name of the IP address filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_receipt_filter#name SesReceiptFilter#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_receipt_filter#name SesReceiptFilter#name}
 
 ---
 
@@ -914,7 +914,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sesReceiptFilter.SesReceiptFilterFilterIpFilter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesreceiptfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesreceiptfilter"
 
 &sesreceiptfilter.SesReceiptFilterFilterIpFilter {
 	Cidr: *string,
@@ -941,7 +941,7 @@ Cidr *string
 
 A single IP address or a range of IP addresses to block or allow, specified in CIDR notation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_receipt_filter#cidr SesReceiptFilter#cidr}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_receipt_filter#cidr SesReceiptFilter#cidr}
 
 ---
 
@@ -955,7 +955,7 @@ Policy *string
 
 Indicates whether to block or allow incoming mail from the specified IP addresses.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_receipt_filter#policy SesReceiptFilter#policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_receipt_filter#policy SesReceiptFilter#policy}
 
 ---
 
@@ -966,7 +966,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesReceiptFilter.SesReceiptFilterFilterIpFilterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesreceiptfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesreceiptfilter"
 
 sesreceiptfilter.NewSesReceiptFilterFilterIpFilterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SesReceiptFilterFilterIpFilterOutputReference
 ```
@@ -1259,7 +1259,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesReceiptFilter.SesReceiptFilterFilterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesreceiptfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesreceiptfilter"
 
 sesreceiptfilter.NewSesReceiptFilterFilterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SesReceiptFilterFilterOutputReference
 ```

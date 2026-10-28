@@ -4,12 +4,12 @@
 
 ### DataAwsccIotfleetwiseCampaigns <a name="DataAwsccIotfleetwiseCampaigns" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseCampaigns.DataAwsccIotfleetwiseCampaigns"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotfleetwise_campaigns awscc_iotfleetwise_campaigns}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotfleetwise_campaigns awscc_iotfleetwise_campaigns}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseCampaigns.DataAwsccIotfleetwiseCampaigns.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisecampaigns"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisecampaigns"
 
 dataawscciotfleetwisecampaigns.NewDataAwsccIotfleetwiseCampaigns(scope Construct, id *string, config DataAwsccIotfleetwiseCampaignsConfig) DataAwsccIotfleetwiseCampaigns
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseCampaigns.DataAwsccIotfleetwiseCampaigns.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisecampaigns"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisecampaigns"
 
 dataawscciotfleetwisecampaigns.DataAwsccIotfleetwiseCampaigns_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseCampaigns.DataAwsccIotfleetwiseCampaigns.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisecampaigns"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisecampaigns"
 
 dataawscciotfleetwisecampaigns.DataAwsccIotfleetwiseCampaigns_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciotfleetwisecampaigns.DataAwsccIotfleetwiseCampaigns_IsTerraformElement
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseCampaigns.DataAwsccIotfleetwiseCampaigns.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisecampaigns"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisecampaigns"
 
 dataawscciotfleetwisecampaigns.DataAwsccIotfleetwiseCampaigns_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciotfleetwisecampaigns.DataAwsccIotfleetwiseCampaigns_IsTerraformDataSou
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseCampaigns.DataAwsccIotfleetwiseCampaigns.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisecampaigns"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisecampaigns"
 
 dataawscciotfleetwisecampaigns.DataAwsccIotfleetwiseCampaigns_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotfleetwiseCampa
 
 The id of the existing DataAwsccIotfleetwiseCampaigns that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotfleetwise_campaigns#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotfleetwise_campaigns#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseCampaigns.DataAwsccIotfleetwiseCampaignsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisecampaigns"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisecampaigns"
 
 &dataawscciotfleetwisecampaigns.DataAwsccIotfleetwiseCampaignsConfig {
 	Connection: interface{},

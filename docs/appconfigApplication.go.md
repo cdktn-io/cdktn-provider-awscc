@@ -4,12 +4,12 @@
 
 ### AppconfigApplication <a name="AppconfigApplication" id="@cdktn/provider-awscc.appconfigApplication.AppconfigApplication"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appconfig_application awscc_appconfig_application}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appconfig_application awscc_appconfig_application}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appconfigApplication.AppconfigApplication.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appconfigapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appconfigapplication"
 
 appconfigapplication.NewAppconfigApplication(scope Construct, id *string, config AppconfigApplicationConfig) AppconfigApplication
 ```
@@ -427,7 +427,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.appconfigApplication.AppconfigApplication.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appconfigapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appconfigapplication"
 
 appconfigapplication.AppconfigApplication_IsConstruct(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.appconfigApplication.AppconfigApplication.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appconfigapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appconfigapplication"
 
 appconfigapplication.AppconfigApplication_IsTerraformElement(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ appconfigapplication.AppconfigApplication_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.appconfigApplication.AppconfigApplication.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appconfigapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appconfigapplication"
 
 appconfigapplication.AppconfigApplication_IsTerraformResource(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ appconfigapplication.AppconfigApplication_IsTerraformResource(x interface{}) *bo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.appconfigApplication.AppconfigApplication.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appconfigapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appconfigapplication"
 
 appconfigapplication.AppconfigApplication_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -516,7 +516,7 @@ The construct id used in the generated config for the AppconfigApplication to im
 
 The id of the existing AppconfigApplication that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appconfig_application#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appconfig_application#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -804,7 +804,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.appconfigApplication.AppconfigApplicationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appconfigapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appconfigapplication"
 
 &appconfigapplication.AppconfigApplicationConfig {
 	Connection: interface{},
@@ -917,7 +917,7 @@ Name *string
 
 A name for the application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appconfig_application#name AppconfigApplication#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appconfig_application#name AppconfigApplication#name}
 
 ---
 
@@ -931,7 +931,7 @@ Description *string
 
 A description of the application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appconfig_application#description AppconfigApplication#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appconfig_application#description AppconfigApplication#description}
 
 ---
 
@@ -947,7 +947,7 @@ Metadata to assign to the application.
 
 Tags help organize and categorize your AWS AppConfig resources. Each tag consists of a key and an optional value, both of which you define.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appconfig_application#tags AppconfigApplication#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appconfig_application#tags AppconfigApplication#tags}
 
 ---
 
@@ -956,7 +956,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.appconfigApplication.AppconfigApplicationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appconfigapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appconfigapplication"
 
 &appconfigapplication.AppconfigApplicationTags {
 	Key: *string,
@@ -985,7 +985,7 @@ The key-value string map.
 
 The valid character set is [a-zA-Z1-9 +-=._:/-]. The tag key can be up to 128 characters and must not start with aws:.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appconfig_application#key AppconfigApplication#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appconfig_application#key AppconfigApplication#key}
 
 ---
 
@@ -999,7 +999,7 @@ Value *string
 
 The tag value can be up to 256 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appconfig_application#value AppconfigApplication#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appconfig_application#value AppconfigApplication#value}
 
 ---
 
@@ -1010,7 +1010,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appconfigApplication.AppconfigApplicationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appconfigapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appconfigapplication"
 
 appconfigapplication.NewAppconfigApplicationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) AppconfigApplicationTagsList
 ```
@@ -1170,7 +1170,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appconfigApplication.AppconfigApplicationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appconfigapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appconfigapplication"
 
 appconfigapplication.NewAppconfigApplicationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) AppconfigApplicationTagsOutputReference
 ```

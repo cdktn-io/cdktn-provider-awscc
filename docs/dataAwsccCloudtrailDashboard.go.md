@@ -4,12 +4,12 @@
 
 ### DataAwsccCloudtrailDashboard <a name="DataAwsccCloudtrailDashboard" id="@cdktn/provider-awscc.dataAwsccCloudtrailDashboard.DataAwsccCloudtrailDashboard"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudtrail_dashboard awscc_cloudtrail_dashboard}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudtrail_dashboard awscc_cloudtrail_dashboard}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudtrailDashboard.DataAwsccCloudtrailDashboard.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudtraildashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudtraildashboard"
 
 dataawscccloudtraildashboard.NewDataAwsccCloudtrailDashboard(scope Construct, id *string, config DataAwsccCloudtrailDashboardConfig) DataAwsccCloudtrailDashboard
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCloudtrailDashboard.DataAwsccCloudtrailDashboard.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudtraildashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudtraildashboard"
 
 dataawscccloudtraildashboard.DataAwsccCloudtrailDashboard_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCloudtrailDashboard.DataAwsccCloudtrailDashboard.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudtraildashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudtraildashboard"
 
 dataawscccloudtraildashboard.DataAwsccCloudtrailDashboard_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccloudtraildashboard.DataAwsccCloudtrailDashboard_IsTerraformElement(x i
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCloudtrailDashboard.DataAwsccCloudtrailDashboard.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudtraildashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudtraildashboard"
 
 dataawscccloudtraildashboard.DataAwsccCloudtrailDashboard_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccloudtraildashboard.DataAwsccCloudtrailDashboard_IsTerraformDataSource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCloudtrailDashboard.DataAwsccCloudtrailDashboard.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudtraildashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudtraildashboard"
 
 dataawscccloudtraildashboard.DataAwsccCloudtrailDashboard_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCloudtrailDashboa
 
 The id of the existing DataAwsccCloudtrailDashboard that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudtrail_dashboard#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudtrail_dashboard#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -697,7 +697,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloudtrailDashboard.DataAwsccCloudtrailDashboardConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudtraildashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudtraildashboard"
 
 &dataawscccloudtraildashboard.DataAwsccCloudtrailDashboardConfig {
 	Connection: interface{},
@@ -806,7 +806,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudtrail_dashboard#id DataAwsccCloudtrailDashboard#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudtrail_dashboard#id DataAwsccCloudtrailDashboard#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -818,7 +818,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloudtrailDashboard.DataAwsccCloudtrailDashboardRefreshSchedule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudtraildashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudtraildashboard"
 
 &dataawscccloudtraildashboard.DataAwsccCloudtrailDashboardRefreshSchedule {
 
@@ -831,7 +831,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudtraildas
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloudtrailDashboard.DataAwsccCloudtrailDashboardRefreshScheduleFrequency.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudtraildashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudtraildashboard"
 
 &dataawscccloudtraildashboard.DataAwsccCloudtrailDashboardRefreshScheduleFrequency {
 
@@ -844,7 +844,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudtraildas
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloudtrailDashboard.DataAwsccCloudtrailDashboardTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudtraildashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudtraildashboard"
 
 &dataawscccloudtraildashboard.DataAwsccCloudtrailDashboardTags {
 
@@ -857,7 +857,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudtraildas
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloudtrailDashboard.DataAwsccCloudtrailDashboardWidgets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudtraildashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudtraildashboard"
 
 &dataawscccloudtraildashboard.DataAwsccCloudtrailDashboardWidgets {
 
@@ -872,7 +872,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudtraildas
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudtrailDashboard.DataAwsccCloudtrailDashboardRefreshScheduleFrequencyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudtraildashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudtraildashboard"
 
 dataawscccloudtraildashboard.NewDataAwsccCloudtrailDashboardRefreshScheduleFrequencyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCloudtrailDashboardRefreshScheduleFrequencyOutputReference
 ```
@@ -1143,7 +1143,7 @@ func InternalValue() DataAwsccCloudtrailDashboardRefreshScheduleFrequency
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudtrailDashboard.DataAwsccCloudtrailDashboardRefreshScheduleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudtraildashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudtraildashboard"
 
 dataawscccloudtraildashboard.NewDataAwsccCloudtrailDashboardRefreshScheduleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCloudtrailDashboardRefreshScheduleOutputReference
 ```
@@ -1425,7 +1425,7 @@ func InternalValue() DataAwsccCloudtrailDashboardRefreshSchedule
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudtrailDashboard.DataAwsccCloudtrailDashboardTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudtraildashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudtraildashboard"
 
 dataawscccloudtraildashboard.NewDataAwsccCloudtrailDashboardTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCloudtrailDashboardTagsList
 ```
@@ -1574,7 +1574,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudtrailDashboard.DataAwsccCloudtrailDashboardTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudtraildashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudtraildashboard"
 
 dataawscccloudtraildashboard.NewDataAwsccCloudtrailDashboardTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCloudtrailDashboardTagsOutputReference
 ```
@@ -1863,7 +1863,7 @@ func InternalValue() DataAwsccCloudtrailDashboardTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudtrailDashboard.DataAwsccCloudtrailDashboardWidgetsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudtraildashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudtraildashboard"
 
 dataawscccloudtraildashboard.NewDataAwsccCloudtrailDashboardWidgetsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCloudtrailDashboardWidgetsList
 ```
@@ -2012,7 +2012,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudtrailDashboard.DataAwsccCloudtrailDashboardWidgetsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudtraildashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudtraildashboard"
 
 dataawscccloudtraildashboard.NewDataAwsccCloudtrailDashboardWidgetsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCloudtrailDashboardWidgetsOutputReference
 ```

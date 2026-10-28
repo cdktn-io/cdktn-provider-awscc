@@ -4,12 +4,12 @@
 
 ### SecurityagentTargetDomain <a name="SecurityagentTargetDomain" id="@cdktn/provider-awscc.securityagentTargetDomain.SecurityagentTargetDomain"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_target_domain awscc_securityagent_target_domain}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_target_domain awscc_securityagent_target_domain}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityagentTargetDomain.SecurityagentTargetDomain.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityagenttargetdomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityagenttargetdomain"
 
 securityagenttargetdomain.NewSecurityagentTargetDomain(scope Construct, id *string, config SecurityagentTargetDomainConfig) SecurityagentTargetDomain
 ```
@@ -420,7 +420,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.securityagentTargetDomain.SecurityagentTargetDomain.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityagenttargetdomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityagenttargetdomain"
 
 securityagenttargetdomain.SecurityagentTargetDomain_IsConstruct(x interface{}) *bool
 ```
@@ -452,7 +452,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.securityagentTargetDomain.SecurityagentTargetDomain.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityagenttargetdomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityagenttargetdomain"
 
 securityagenttargetdomain.SecurityagentTargetDomain_IsTerraformElement(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ securityagenttargetdomain.SecurityagentTargetDomain_IsTerraformElement(x interfa
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.securityagentTargetDomain.SecurityagentTargetDomain.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityagenttargetdomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityagenttargetdomain"
 
 securityagenttargetdomain.SecurityagentTargetDomain_IsTerraformResource(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ securityagenttargetdomain.SecurityagentTargetDomain_IsTerraformResource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.securityagentTargetDomain.SecurityagentTargetDomain.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityagenttargetdomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityagenttargetdomain"
 
 securityagenttargetdomain.SecurityagentTargetDomain_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -509,7 +509,7 @@ The construct id used in the generated config for the SecurityagentTargetDomain 
 
 The id of the existing SecurityagentTargetDomain that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_target_domain#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_target_domain#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -852,7 +852,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityagentTargetDomain.SecurityagentTargetDomainConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityagenttargetdomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityagenttargetdomain"
 
 &securityagenttargetdomain.SecurityagentTargetDomainConfig {
 	Connection: interface{},
@@ -965,7 +965,7 @@ TargetDomainName *string
 
 Domain name of the target domain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_target_domain#target_domain_name SecurityagentTargetDomain#target_domain_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_target_domain#target_domain_name SecurityagentTargetDomain#target_domain_name}
 
 ---
 
@@ -979,7 +979,7 @@ VerificationMethod *string
 
 Verification method for the target domain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_target_domain#verification_method SecurityagentTargetDomain#verification_method}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_target_domain#verification_method SecurityagentTargetDomain#verification_method}
 
 ---
 
@@ -993,7 +993,7 @@ Tags interface{}
 
 Tags for the target domain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_target_domain#tags SecurityagentTargetDomain#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_target_domain#tags SecurityagentTargetDomain#tags}
 
 ---
 
@@ -1002,7 +1002,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityagentTargetDomain.SecurityagentTargetDomainTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityagenttargetdomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityagenttargetdomain"
 
 &securityagenttargetdomain.SecurityagentTargetDomainTags {
 	Key: *string,
@@ -1029,7 +1029,7 @@ Key *string
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_target_domain#key SecurityagentTargetDomain#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_target_domain#key SecurityagentTargetDomain#key}
 
 ---
 
@@ -1043,7 +1043,7 @@ Value *string
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_target_domain#value SecurityagentTargetDomain#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_target_domain#value SecurityagentTargetDomain#value}
 
 ---
 
@@ -1052,7 +1052,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityagentTargetDomain.SecurityagentTargetDomainVerificationDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityagenttargetdomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityagenttargetdomain"
 
 &securityagenttargetdomain.SecurityagentTargetDomainVerificationDetails {
 
@@ -1065,7 +1065,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityagenttargetdom
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityagentTargetDomain.SecurityagentTargetDomainVerificationDetailsDnsTxt.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityagenttargetdomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityagenttargetdomain"
 
 &securityagenttargetdomain.SecurityagentTargetDomainVerificationDetailsDnsTxt {
 
@@ -1078,7 +1078,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityagenttargetdom
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityagentTargetDomain.SecurityagentTargetDomainVerificationDetailsHttpRoute.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityagenttargetdomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityagenttargetdomain"
 
 &securityagenttargetdomain.SecurityagentTargetDomainVerificationDetailsHttpRoute {
 
@@ -1093,7 +1093,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityagenttargetdom
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityagentTargetDomain.SecurityagentTargetDomainTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityagenttargetdomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityagenttargetdomain"
 
 securityagenttargetdomain.NewSecurityagentTargetDomainTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SecurityagentTargetDomainTagsList
 ```
@@ -1253,7 +1253,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityagentTargetDomain.SecurityagentTargetDomainTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityagenttargetdomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityagenttargetdomain"
 
 securityagenttargetdomain.NewSecurityagentTargetDomainTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SecurityagentTargetDomainTagsOutputReference
 ```
@@ -1578,7 +1578,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityagentTargetDomain.SecurityagentTargetDomainVerificationDetailsDnsTxtOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityagenttargetdomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityagenttargetdomain"
 
 securityagenttargetdomain.NewSecurityagentTargetDomainVerificationDetailsDnsTxtOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SecurityagentTargetDomainVerificationDetailsDnsTxtOutputReference
 ```
@@ -1860,7 +1860,7 @@ func InternalValue() SecurityagentTargetDomainVerificationDetailsDnsTxt
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityagentTargetDomain.SecurityagentTargetDomainVerificationDetailsHttpRouteOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityagenttargetdomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityagenttargetdomain"
 
 securityagenttargetdomain.NewSecurityagentTargetDomainVerificationDetailsHttpRouteOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SecurityagentTargetDomainVerificationDetailsHttpRouteOutputReference
 ```
@@ -2131,7 +2131,7 @@ func InternalValue() SecurityagentTargetDomainVerificationDetailsHttpRoute
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityagentTargetDomain.SecurityagentTargetDomainVerificationDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityagenttargetdomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityagenttargetdomain"
 
 securityagenttargetdomain.NewSecurityagentTargetDomainVerificationDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SecurityagentTargetDomainVerificationDetailsOutputReference
 ```

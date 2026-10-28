@@ -4,12 +4,12 @@
 
 ### DataAwsccDrsReplicationConfigurationTemplate <a name="DataAwsccDrsReplicationConfigurationTemplate" id="@cdktn/provider-awscc.dataAwsccDrsReplicationConfigurationTemplate.DataAwsccDrsReplicationConfigurationTemplate"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/drs_replication_configuration_template awscc_drs_replication_configuration_template}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/drs_replication_configuration_template awscc_drs_replication_configuration_template}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDrsReplicationConfigurationTemplate.DataAwsccDrsReplicationConfigurationTemplate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdrsreplicationconfigurationtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdrsreplicationconfigurationtemplate"
 
 dataawsccdrsreplicationconfigurationtemplate.NewDataAwsccDrsReplicationConfigurationTemplate(scope Construct, id *string, config DataAwsccDrsReplicationConfigurationTemplateConfig) DataAwsccDrsReplicationConfigurationTemplate
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccDrsReplicationConfigurationTemplate.DataAwsccDrsReplicationConfigurationTemplate.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdrsreplicationconfigurationtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdrsreplicationconfigurationtemplate"
 
 dataawsccdrsreplicationconfigurationtemplate.DataAwsccDrsReplicationConfigurationTemplate_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccDrsReplicationConfigurationTemplate.DataAwsccDrsReplicationConfigurationTemplate.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdrsreplicationconfigurationtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdrsreplicationconfigurationtemplate"
 
 dataawsccdrsreplicationconfigurationtemplate.DataAwsccDrsReplicationConfigurationTemplate_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccdrsreplicationconfigurationtemplate.DataAwsccDrsReplicationConfiguratio
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccDrsReplicationConfigurationTemplate.DataAwsccDrsReplicationConfigurationTemplate.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdrsreplicationconfigurationtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdrsreplicationconfigurationtemplate"
 
 dataawsccdrsreplicationconfigurationtemplate.DataAwsccDrsReplicationConfigurationTemplate_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccdrsreplicationconfigurationtemplate.DataAwsccDrsReplicationConfiguratio
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccDrsReplicationConfigurationTemplate.DataAwsccDrsReplicationConfigurationTemplate.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdrsreplicationconfigurationtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdrsreplicationconfigurationtemplate"
 
 dataawsccdrsreplicationconfigurationtemplate.DataAwsccDrsReplicationConfigurationTemplate_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDrsReplicationCon
 
 The id of the existing DataAwsccDrsReplicationConfigurationTemplate that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/drs_replication_configuration_template#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/drs_replication_configuration_template#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -785,7 +785,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDrsReplicationConfigurationTemplate.DataAwsccDrsReplicationConfigurationTemplateConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdrsreplicationconfigurationtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdrsreplicationconfigurationtemplate"
 
 &dataawsccdrsreplicationconfigurationtemplate.DataAwsccDrsReplicationConfigurationTemplateConfig {
 	Connection: interface{},
@@ -894,7 +894,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/drs_replication_configuration_template#id DataAwsccDrsReplicationConfigurationTemplate#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/drs_replication_configuration_template#id DataAwsccDrsReplicationConfigurationTemplate#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -906,7 +906,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDrsReplicationConfigurationTemplate.DataAwsccDrsReplicationConfigurationTemplatePitPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdrsreplicationconfigurationtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdrsreplicationconfigurationtemplate"
 
 &dataawsccdrsreplicationconfigurationtemplate.DataAwsccDrsReplicationConfigurationTemplatePitPolicy {
 
@@ -919,7 +919,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdrsreplicatio
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDrsReplicationConfigurationTemplate.DataAwsccDrsReplicationConfigurationTemplateTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdrsreplicationconfigurationtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdrsreplicationconfigurationtemplate"
 
 &dataawsccdrsreplicationconfigurationtemplate.DataAwsccDrsReplicationConfigurationTemplateTags {
 
@@ -934,7 +934,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdrsreplicatio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDrsReplicationConfigurationTemplate.DataAwsccDrsReplicationConfigurationTemplatePitPolicyList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdrsreplicationconfigurationtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdrsreplicationconfigurationtemplate"
 
 dataawsccdrsreplicationconfigurationtemplate.NewDataAwsccDrsReplicationConfigurationTemplatePitPolicyList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDrsReplicationConfigurationTemplatePitPolicyList
 ```
@@ -1083,7 +1083,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDrsReplicationConfigurationTemplate.DataAwsccDrsReplicationConfigurationTemplatePitPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdrsreplicationconfigurationtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdrsreplicationconfigurationtemplate"
 
 dataawsccdrsreplicationconfigurationtemplate.NewDataAwsccDrsReplicationConfigurationTemplatePitPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDrsReplicationConfigurationTemplatePitPolicyOutputReference
 ```
@@ -1405,7 +1405,7 @@ func InternalValue() DataAwsccDrsReplicationConfigurationTemplatePitPolicy
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDrsReplicationConfigurationTemplate.DataAwsccDrsReplicationConfigurationTemplateTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdrsreplicationconfigurationtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdrsreplicationconfigurationtemplate"
 
 dataawsccdrsreplicationconfigurationtemplate.NewDataAwsccDrsReplicationConfigurationTemplateTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDrsReplicationConfigurationTemplateTagsList
 ```
@@ -1554,7 +1554,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDrsReplicationConfigurationTemplate.DataAwsccDrsReplicationConfigurationTemplateTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdrsreplicationconfigurationtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdrsreplicationconfigurationtemplate"
 
 dataawsccdrsreplicationconfigurationtemplate.NewDataAwsccDrsReplicationConfigurationTemplateTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDrsReplicationConfigurationTemplateTagsOutputReference
 ```

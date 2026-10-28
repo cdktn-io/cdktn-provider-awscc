@@ -4,12 +4,12 @@
 
 ### DataAwsccLogsLogGroups <a name="DataAwsccLogsLogGroups" id="@cdktn/provider-awscc.dataAwsccLogsLogGroups.DataAwsccLogsLogGroups"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/logs_log_groups awscc_logs_log_groups}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/logs_log_groups awscc_logs_log_groups}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLogsLogGroups.DataAwsccLogsLogGroups.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclogsloggroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclogsloggroups"
 
 dataawscclogsloggroups.NewDataAwsccLogsLogGroups(scope Construct, id *string, config DataAwsccLogsLogGroupsConfig) DataAwsccLogsLogGroups
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccLogsLogGroups.DataAwsccLogsLogGroups.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclogsloggroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclogsloggroups"
 
 dataawscclogsloggroups.DataAwsccLogsLogGroups_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccLogsLogGroups.DataAwsccLogsLogGroups.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclogsloggroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclogsloggroups"
 
 dataawscclogsloggroups.DataAwsccLogsLogGroups_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscclogsloggroups.DataAwsccLogsLogGroups_IsTerraformElement(x interface{}) 
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccLogsLogGroups.DataAwsccLogsLogGroups.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclogsloggroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclogsloggroups"
 
 dataawscclogsloggroups.DataAwsccLogsLogGroups_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscclogsloggroups.DataAwsccLogsLogGroups_IsTerraformDataSource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccLogsLogGroups.DataAwsccLogsLogGroups.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclogsloggroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclogsloggroups"
 
 dataawscclogsloggroups.DataAwsccLogsLogGroups_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLogsLogGroups to 
 
 The id of the existing DataAwsccLogsLogGroups that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/logs_log_groups#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/logs_log_groups#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLogsLogGroups.DataAwsccLogsLogGroupsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclogsloggroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclogsloggroups"
 
 &dataawscclogsloggroups.DataAwsccLogsLogGroupsConfig {
 	Connection: interface{},

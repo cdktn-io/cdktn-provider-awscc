@@ -4,12 +4,12 @@
 
 ### DataAwsccNimblestudioStreamingImage <a name="DataAwsccNimblestudioStreamingImage" id="@cdktn/provider-awscc.dataAwsccNimblestudioStreamingImage.DataAwsccNimblestudioStreamingImage"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/nimblestudio_streaming_image awscc_nimblestudio_streaming_image}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/nimblestudio_streaming_image awscc_nimblestudio_streaming_image}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNimblestudioStreamingImage.DataAwsccNimblestudioStreamingImage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudiostreamingimage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnimblestudiostreamingimage"
 
 dataawsccnimblestudiostreamingimage.NewDataAwsccNimblestudioStreamingImage(scope Construct, id *string, config DataAwsccNimblestudioStreamingImageConfig) DataAwsccNimblestudioStreamingImage
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccNimblestudioStreamingImage.DataAwsccNimblestudioStreamingImage.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudiostreamingimage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnimblestudiostreamingimage"
 
 dataawsccnimblestudiostreamingimage.DataAwsccNimblestudioStreamingImage_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccNimblestudioStreamingImage.DataAwsccNimblestudioStreamingImage.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudiostreamingimage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnimblestudiostreamingimage"
 
 dataawsccnimblestudiostreamingimage.DataAwsccNimblestudioStreamingImage_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccnimblestudiostreamingimage.DataAwsccNimblestudioStreamingImage_IsTerraf
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccNimblestudioStreamingImage.DataAwsccNimblestudioStreamingImage.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudiostreamingimage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnimblestudiostreamingimage"
 
 dataawsccnimblestudiostreamingimage.DataAwsccNimblestudioStreamingImage_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccnimblestudiostreamingimage.DataAwsccNimblestudioStreamingImage_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccNimblestudioStreamingImage.DataAwsccNimblestudioStreamingImage.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudiostreamingimage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnimblestudiostreamingimage"
 
 dataawsccnimblestudiostreamingimage.DataAwsccNimblestudioStreamingImage_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccNimblestudioStrea
 
 The id of the existing DataAwsccNimblestudioStreamingImage that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/nimblestudio_streaming_image#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/nimblestudio_streaming_image#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -719,7 +719,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccNimblestudioStreamingImage.DataAwsccNimblestudioStreamingImageConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudiostreamingimage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnimblestudiostreamingimage"
 
 &dataawsccnimblestudiostreamingimage.DataAwsccNimblestudioStreamingImageConfig {
 	Connection: interface{},
@@ -828,7 +828,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/nimblestudio_streaming_image#id DataAwsccNimblestudioStreamingImage#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/nimblestudio_streaming_image#id DataAwsccNimblestudioStreamingImage#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -840,7 +840,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccNimblestudioStreamingImage.DataAwsccNimblestudioStreamingImageEncryptionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudiostreamingimage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnimblestudiostreamingimage"
 
 &dataawsccnimblestudiostreamingimage.DataAwsccNimblestudioStreamingImageEncryptionConfiguration {
 
@@ -855,7 +855,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudios
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNimblestudioStreamingImage.DataAwsccNimblestudioStreamingImageEncryptionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudiostreamingimage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnimblestudiostreamingimage"
 
 dataawsccnimblestudiostreamingimage.NewDataAwsccNimblestudioStreamingImageEncryptionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccNimblestudioStreamingImageEncryptionConfigurationOutputReference
 ```

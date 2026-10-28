@@ -4,12 +4,12 @@
 
 ### DataAwsccLambdaCapacityProvider <a name="DataAwsccLambdaCapacityProvider" id="@cdktn/provider-awscc.dataAwsccLambdaCapacityProvider.DataAwsccLambdaCapacityProvider"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lambda_capacity_provider awscc_lambda_capacity_provider}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lambda_capacity_provider awscc_lambda_capacity_provider}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaCapacityProvider.DataAwsccLambdaCapacityProvider.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdacapacityprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdacapacityprovider"
 
 dataawscclambdacapacityprovider.NewDataAwsccLambdaCapacityProvider(scope Construct, id *string, config DataAwsccLambdaCapacityProviderConfig) DataAwsccLambdaCapacityProvider
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccLambdaCapacityProvider.DataAwsccLambdaCapacityProvider.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdacapacityprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdacapacityprovider"
 
 dataawscclambdacapacityprovider.DataAwsccLambdaCapacityProvider_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccLambdaCapacityProvider.DataAwsccLambdaCapacityProvider.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdacapacityprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdacapacityprovider"
 
 dataawscclambdacapacityprovider.DataAwsccLambdaCapacityProvider_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscclambdacapacityprovider.DataAwsccLambdaCapacityProvider_IsTerraformEleme
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccLambdaCapacityProvider.DataAwsccLambdaCapacityProvider.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdacapacityprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdacapacityprovider"
 
 dataawscclambdacapacityprovider.DataAwsccLambdaCapacityProvider_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscclambdacapacityprovider.DataAwsccLambdaCapacityProvider_IsTerraformDataS
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccLambdaCapacityProvider.DataAwsccLambdaCapacityProvider.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdacapacityprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdacapacityprovider"
 
 dataawscclambdacapacityprovider.DataAwsccLambdaCapacityProvider_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLambdaCapacityPro
 
 The id of the existing DataAwsccLambdaCapacityProvider that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lambda_capacity_provider#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lambda_capacity_provider#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -708,7 +708,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaCapacityProvider.DataAwsccLambdaCapacityProviderCapacityProviderScalingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdacapacityprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdacapacityprovider"
 
 &dataawscclambdacapacityprovider.DataAwsccLambdaCapacityProviderCapacityProviderScalingConfig {
 
@@ -721,7 +721,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdacapacit
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaCapacityProvider.DataAwsccLambdaCapacityProviderCapacityProviderScalingConfigScalingPolicies.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdacapacityprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdacapacityprovider"
 
 &dataawscclambdacapacityprovider.DataAwsccLambdaCapacityProviderCapacityProviderScalingConfigScalingPolicies {
 
@@ -734,7 +734,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdacapacit
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaCapacityProvider.DataAwsccLambdaCapacityProviderConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdacapacityprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdacapacityprovider"
 
 &dataawscclambdacapacityprovider.DataAwsccLambdaCapacityProviderConfig {
 	Connection: interface{},
@@ -843,7 +843,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lambda_capacity_provider#id DataAwsccLambdaCapacityProvider#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lambda_capacity_provider#id DataAwsccLambdaCapacityProvider#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -855,7 +855,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaCapacityProvider.DataAwsccLambdaCapacityProviderInstanceRequirements.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdacapacityprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdacapacityprovider"
 
 &dataawscclambdacapacityprovider.DataAwsccLambdaCapacityProviderInstanceRequirements {
 
@@ -868,7 +868,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdacapacit
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaCapacityProvider.DataAwsccLambdaCapacityProviderPermissionsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdacapacityprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdacapacityprovider"
 
 &dataawscclambdacapacityprovider.DataAwsccLambdaCapacityProviderPermissionsConfig {
 
@@ -881,7 +881,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdacapacit
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaCapacityProvider.DataAwsccLambdaCapacityProviderPropagateTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdacapacityprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdacapacityprovider"
 
 &dataawscclambdacapacityprovider.DataAwsccLambdaCapacityProviderPropagateTags {
 
@@ -894,7 +894,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdacapacit
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaCapacityProvider.DataAwsccLambdaCapacityProviderPropagateTagsExplicitTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdacapacityprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdacapacityprovider"
 
 &dataawscclambdacapacityprovider.DataAwsccLambdaCapacityProviderPropagateTagsExplicitTags {
 
@@ -907,7 +907,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdacapacit
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaCapacityProvider.DataAwsccLambdaCapacityProviderTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdacapacityprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdacapacityprovider"
 
 &dataawscclambdacapacityprovider.DataAwsccLambdaCapacityProviderTags {
 
@@ -920,7 +920,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdacapacit
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaCapacityProvider.DataAwsccLambdaCapacityProviderTelemetryConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdacapacityprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdacapacityprovider"
 
 &dataawscclambdacapacityprovider.DataAwsccLambdaCapacityProviderTelemetryConfig {
 
@@ -933,7 +933,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdacapacit
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaCapacityProvider.DataAwsccLambdaCapacityProviderTelemetryConfigLoggingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdacapacityprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdacapacityprovider"
 
 &dataawscclambdacapacityprovider.DataAwsccLambdaCapacityProviderTelemetryConfigLoggingConfig {
 
@@ -946,7 +946,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdacapacit
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaCapacityProvider.DataAwsccLambdaCapacityProviderVpcConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdacapacityprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdacapacityprovider"
 
 &dataawscclambdacapacityprovider.DataAwsccLambdaCapacityProviderVpcConfig {
 
@@ -961,7 +961,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdacapacit
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaCapacityProvider.DataAwsccLambdaCapacityProviderCapacityProviderScalingConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdacapacityprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdacapacityprovider"
 
 dataawscclambdacapacityprovider.NewDataAwsccLambdaCapacityProviderCapacityProviderScalingConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLambdaCapacityProviderCapacityProviderScalingConfigOutputReference
 ```
@@ -1243,7 +1243,7 @@ func InternalValue() DataAwsccLambdaCapacityProviderCapacityProviderScalingConfi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaCapacityProvider.DataAwsccLambdaCapacityProviderCapacityProviderScalingConfigScalingPoliciesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdacapacityprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdacapacityprovider"
 
 dataawscclambdacapacityprovider.NewDataAwsccLambdaCapacityProviderCapacityProviderScalingConfigScalingPoliciesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLambdaCapacityProviderCapacityProviderScalingConfigScalingPoliciesList
 ```
@@ -1392,7 +1392,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaCapacityProvider.DataAwsccLambdaCapacityProviderCapacityProviderScalingConfigScalingPoliciesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdacapacityprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdacapacityprovider"
 
 dataawscclambdacapacityprovider.NewDataAwsccLambdaCapacityProviderCapacityProviderScalingConfigScalingPoliciesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLambdaCapacityProviderCapacityProviderScalingConfigScalingPoliciesOutputReference
 ```
@@ -1681,7 +1681,7 @@ func InternalValue() DataAwsccLambdaCapacityProviderCapacityProviderScalingConfi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaCapacityProvider.DataAwsccLambdaCapacityProviderInstanceRequirementsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdacapacityprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdacapacityprovider"
 
 dataawscclambdacapacityprovider.NewDataAwsccLambdaCapacityProviderInstanceRequirementsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLambdaCapacityProviderInstanceRequirementsOutputReference
 ```
@@ -1963,7 +1963,7 @@ func InternalValue() DataAwsccLambdaCapacityProviderInstanceRequirements
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaCapacityProvider.DataAwsccLambdaCapacityProviderPermissionsConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdacapacityprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdacapacityprovider"
 
 dataawscclambdacapacityprovider.NewDataAwsccLambdaCapacityProviderPermissionsConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLambdaCapacityProviderPermissionsConfigOutputReference
 ```
@@ -2223,7 +2223,7 @@ func InternalValue() DataAwsccLambdaCapacityProviderPermissionsConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaCapacityProvider.DataAwsccLambdaCapacityProviderPropagateTagsExplicitTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdacapacityprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdacapacityprovider"
 
 dataawscclambdacapacityprovider.NewDataAwsccLambdaCapacityProviderPropagateTagsExplicitTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLambdaCapacityProviderPropagateTagsExplicitTagsList
 ```
@@ -2372,7 +2372,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaCapacityProvider.DataAwsccLambdaCapacityProviderPropagateTagsExplicitTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdacapacityprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdacapacityprovider"
 
 dataawscclambdacapacityprovider.NewDataAwsccLambdaCapacityProviderPropagateTagsExplicitTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLambdaCapacityProviderPropagateTagsExplicitTagsOutputReference
 ```
@@ -2661,7 +2661,7 @@ func InternalValue() DataAwsccLambdaCapacityProviderPropagateTagsExplicitTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaCapacityProvider.DataAwsccLambdaCapacityProviderPropagateTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdacapacityprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdacapacityprovider"
 
 dataawscclambdacapacityprovider.NewDataAwsccLambdaCapacityProviderPropagateTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLambdaCapacityProviderPropagateTagsOutputReference
 ```
@@ -2932,7 +2932,7 @@ func InternalValue() DataAwsccLambdaCapacityProviderPropagateTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaCapacityProvider.DataAwsccLambdaCapacityProviderTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdacapacityprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdacapacityprovider"
 
 dataawscclambdacapacityprovider.NewDataAwsccLambdaCapacityProviderTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLambdaCapacityProviderTagsList
 ```
@@ -3081,7 +3081,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaCapacityProvider.DataAwsccLambdaCapacityProviderTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdacapacityprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdacapacityprovider"
 
 dataawscclambdacapacityprovider.NewDataAwsccLambdaCapacityProviderTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLambdaCapacityProviderTagsOutputReference
 ```
@@ -3370,7 +3370,7 @@ func InternalValue() DataAwsccLambdaCapacityProviderTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaCapacityProvider.DataAwsccLambdaCapacityProviderTelemetryConfigLoggingConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdacapacityprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdacapacityprovider"
 
 dataawscclambdacapacityprovider.NewDataAwsccLambdaCapacityProviderTelemetryConfigLoggingConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLambdaCapacityProviderTelemetryConfigLoggingConfigOutputReference
 ```
@@ -3641,7 +3641,7 @@ func InternalValue() DataAwsccLambdaCapacityProviderTelemetryConfigLoggingConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaCapacityProvider.DataAwsccLambdaCapacityProviderTelemetryConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdacapacityprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdacapacityprovider"
 
 dataawscclambdacapacityprovider.NewDataAwsccLambdaCapacityProviderTelemetryConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLambdaCapacityProviderTelemetryConfigOutputReference
 ```
@@ -3901,7 +3901,7 @@ func InternalValue() DataAwsccLambdaCapacityProviderTelemetryConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaCapacityProvider.DataAwsccLambdaCapacityProviderVpcConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdacapacityprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdacapacityprovider"
 
 dataawscclambdacapacityprovider.NewDataAwsccLambdaCapacityProviderVpcConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLambdaCapacityProviderVpcConfigOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### ObservabilityadminTelemetryEnrichment <a name="ObservabilityadminTelemetryEnrichment" id="@cdktn/provider-awscc.observabilityadminTelemetryEnrichment.ObservabilityadminTelemetryEnrichment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/observabilityadmin_telemetry_enrichment awscc_observabilityadmin_telemetry_enrichment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/observabilityadmin_telemetry_enrichment awscc_observabilityadmin_telemetry_enrichment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.observabilityadminTelemetryEnrichment.ObservabilityadminTelemetryEnrichment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/observabilityadmintelemetryenrichment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/observabilityadmintelemetryenrichment"
 
 observabilityadmintelemetryenrichment.NewObservabilityadminTelemetryEnrichment(scope Construct, id *string, config ObservabilityadminTelemetryEnrichmentConfig) ObservabilityadminTelemetryEnrichment
 ```
@@ -400,7 +400,7 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.observabilityadminTelemetryEnrichment.ObservabilityadminTelemetryEnrichment.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/observabilityadmintelemetryenrichment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/observabilityadmintelemetryenrichment"
 
 observabilityadmintelemetryenrichment.ObservabilityadminTelemetryEnrichment_IsConstruct(x interface{}) *bool
 ```
@@ -432,7 +432,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.observabilityadminTelemetryEnrichment.ObservabilityadminTelemetryEnrichment.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/observabilityadmintelemetryenrichment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/observabilityadmintelemetryenrichment"
 
 observabilityadmintelemetryenrichment.ObservabilityadminTelemetryEnrichment_IsTerraformElement(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ observabilityadmintelemetryenrichment.ObservabilityadminTelemetryEnrichment_IsTe
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.observabilityadminTelemetryEnrichment.ObservabilityadminTelemetryEnrichment.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/observabilityadmintelemetryenrichment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/observabilityadmintelemetryenrichment"
 
 observabilityadmintelemetryenrichment.ObservabilityadminTelemetryEnrichment_IsTerraformResource(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ observabilityadmintelemetryenrichment.ObservabilityadminTelemetryEnrichment_IsTe
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.observabilityadminTelemetryEnrichment.ObservabilityadminTelemetryEnrichment.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/observabilityadmintelemetryenrichment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/observabilityadmintelemetryenrichment"
 
 observabilityadmintelemetryenrichment.ObservabilityadminTelemetryEnrichment_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -489,7 +489,7 @@ The construct id used in the generated config for the ObservabilityadminTelemetr
 
 The id of the existing ObservabilityadminTelemetryEnrichment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/observabilityadmin_telemetry_enrichment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/observabilityadmin_telemetry_enrichment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -733,7 +733,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.observabilityadminTelemetryEnrichment.ObservabilityadminTelemetryEnrichmentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/observabilityadmintelemetryenrichment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/observabilityadmintelemetryenrichment"
 
 &observabilityadmintelemetryenrichment.ObservabilityadminTelemetryEnrichmentConfig {
 	Connection: interface{},
@@ -842,7 +842,7 @@ Scope *string
 
 Scope of the Telemetry Enrichment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/observabilityadmin_telemetry_enrichment#scope ObservabilityadminTelemetryEnrichment#scope}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/observabilityadmin_telemetry_enrichment#scope ObservabilityadminTelemetryEnrichment#scope}
 
 ---
 

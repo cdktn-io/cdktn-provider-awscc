@@ -4,12 +4,12 @@
 
 ### DataAwsccPcsCluster <a name="DataAwsccPcsCluster" id="@cdktn/provider-awscc.dataAwsccPcsCluster.DataAwsccPcsCluster"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/pcs_cluster awscc_pcs_cluster}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/pcs_cluster awscc_pcs_cluster}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcsCluster.DataAwsccPcsCluster.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcscluster"
 
 dataawsccpcscluster.NewDataAwsccPcsCluster(scope Construct, id *string, config DataAwsccPcsClusterConfig) DataAwsccPcsCluster
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccPcsCluster.DataAwsccPcsCluster.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcscluster"
 
 dataawsccpcscluster.DataAwsccPcsCluster_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccPcsCluster.DataAwsccPcsCluster.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcscluster"
 
 dataawsccpcscluster.DataAwsccPcsCluster_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccpcscluster.DataAwsccPcsCluster_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccPcsCluster.DataAwsccPcsCluster.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcscluster"
 
 dataawsccpcscluster.DataAwsccPcsCluster_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccpcscluster.DataAwsccPcsCluster_IsTerraformDataSource(x interface{}) *bo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccPcsCluster.DataAwsccPcsCluster.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcscluster"
 
 dataawsccpcscluster.DataAwsccPcsCluster_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccPcsCluster to imp
 
 The id of the existing DataAwsccPcsCluster that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/pcs_cluster#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/pcs_cluster#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -708,7 +708,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcsCluster.DataAwsccPcsClusterConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcscluster"
 
 &dataawsccpcscluster.DataAwsccPcsClusterConfig {
 	Connection: interface{},
@@ -817,7 +817,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/pcs_cluster#id DataAwsccPcsCluster#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/pcs_cluster#id DataAwsccPcsCluster#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -829,7 +829,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcsCluster.DataAwsccPcsClusterEndpoints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcscluster"
 
 &dataawsccpcscluster.DataAwsccPcsClusterEndpoints {
 
@@ -842,7 +842,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcscluster"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcsCluster.DataAwsccPcsClusterErrorInfo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcscluster"
 
 &dataawsccpcscluster.DataAwsccPcsClusterErrorInfo {
 
@@ -855,7 +855,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcscluster"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcsCluster.DataAwsccPcsClusterNetworking.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcscluster"
 
 &dataawsccpcscluster.DataAwsccPcsClusterNetworking {
 
@@ -868,7 +868,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcscluster"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcsCluster.DataAwsccPcsClusterScheduler.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcscluster"
 
 &dataawsccpcscluster.DataAwsccPcsClusterScheduler {
 
@@ -881,7 +881,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcscluster"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcsCluster.DataAwsccPcsClusterSlurmConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcscluster"
 
 &dataawsccpcscluster.DataAwsccPcsClusterSlurmConfiguration {
 
@@ -894,7 +894,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcscluster"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcsCluster.DataAwsccPcsClusterSlurmConfigurationAccounting.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcscluster"
 
 &dataawsccpcscluster.DataAwsccPcsClusterSlurmConfigurationAccounting {
 
@@ -907,7 +907,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcscluster"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcsCluster.DataAwsccPcsClusterSlurmConfigurationAuthKey.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcscluster"
 
 &dataawsccpcscluster.DataAwsccPcsClusterSlurmConfigurationAuthKey {
 
@@ -920,7 +920,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcscluster"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcsCluster.DataAwsccPcsClusterSlurmConfigurationCgroupCustomSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcscluster"
 
 &dataawsccpcscluster.DataAwsccPcsClusterSlurmConfigurationCgroupCustomSettings {
 
@@ -933,7 +933,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcscluster"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcsCluster.DataAwsccPcsClusterSlurmConfigurationJwtAuth.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcscluster"
 
 &dataawsccpcscluster.DataAwsccPcsClusterSlurmConfigurationJwtAuth {
 
@@ -946,7 +946,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcscluster"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcsCluster.DataAwsccPcsClusterSlurmConfigurationJwtAuthJwtKey.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcscluster"
 
 &dataawsccpcscluster.DataAwsccPcsClusterSlurmConfigurationJwtAuthJwtKey {
 
@@ -959,7 +959,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcscluster"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcsCluster.DataAwsccPcsClusterSlurmConfigurationSlurmCustomSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcscluster"
 
 &dataawsccpcscluster.DataAwsccPcsClusterSlurmConfigurationSlurmCustomSettings {
 
@@ -972,7 +972,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcscluster"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcsCluster.DataAwsccPcsClusterSlurmConfigurationSlurmdbdCustomSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcscluster"
 
 &dataawsccpcscluster.DataAwsccPcsClusterSlurmConfigurationSlurmdbdCustomSettings {
 
@@ -985,7 +985,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcscluster"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcsCluster.DataAwsccPcsClusterSlurmConfigurationSlurmRest.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcscluster"
 
 &dataawsccpcscluster.DataAwsccPcsClusterSlurmConfigurationSlurmRest {
 
@@ -1000,7 +1000,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcscluster"
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcsCluster.DataAwsccPcsClusterEndpointsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcscluster"
 
 dataawsccpcscluster.NewDataAwsccPcsClusterEndpointsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccPcsClusterEndpointsList
 ```
@@ -1149,7 +1149,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcsCluster.DataAwsccPcsClusterEndpointsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcscluster"
 
 dataawsccpcscluster.NewDataAwsccPcsClusterEndpointsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccPcsClusterEndpointsOutputReference
 ```
@@ -1471,7 +1471,7 @@ func InternalValue() DataAwsccPcsClusterEndpoints
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcsCluster.DataAwsccPcsClusterErrorInfoList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcscluster"
 
 dataawsccpcscluster.NewDataAwsccPcsClusterErrorInfoList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccPcsClusterErrorInfoList
 ```
@@ -1620,7 +1620,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcsCluster.DataAwsccPcsClusterErrorInfoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcscluster"
 
 dataawsccpcscluster.NewDataAwsccPcsClusterErrorInfoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccPcsClusterErrorInfoOutputReference
 ```
@@ -1909,7 +1909,7 @@ func InternalValue() DataAwsccPcsClusterErrorInfo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcsCluster.DataAwsccPcsClusterNetworkingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcscluster"
 
 dataawsccpcscluster.NewDataAwsccPcsClusterNetworkingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPcsClusterNetworkingOutputReference
 ```
@@ -2191,7 +2191,7 @@ func InternalValue() DataAwsccPcsClusterNetworking
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcsCluster.DataAwsccPcsClusterSchedulerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcscluster"
 
 dataawsccpcscluster.NewDataAwsccPcsClusterSchedulerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPcsClusterSchedulerOutputReference
 ```
@@ -2462,7 +2462,7 @@ func InternalValue() DataAwsccPcsClusterScheduler
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcsCluster.DataAwsccPcsClusterSlurmConfigurationAccountingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcscluster"
 
 dataawsccpcscluster.NewDataAwsccPcsClusterSlurmConfigurationAccountingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPcsClusterSlurmConfigurationAccountingOutputReference
 ```
@@ -2733,7 +2733,7 @@ func InternalValue() DataAwsccPcsClusterSlurmConfigurationAccounting
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcsCluster.DataAwsccPcsClusterSlurmConfigurationAuthKeyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcscluster"
 
 dataawsccpcscluster.NewDataAwsccPcsClusterSlurmConfigurationAuthKeyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPcsClusterSlurmConfigurationAuthKeyOutputReference
 ```
@@ -3004,7 +3004,7 @@ func InternalValue() DataAwsccPcsClusterSlurmConfigurationAuthKey
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcsCluster.DataAwsccPcsClusterSlurmConfigurationCgroupCustomSettingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcscluster"
 
 dataawsccpcscluster.NewDataAwsccPcsClusterSlurmConfigurationCgroupCustomSettingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccPcsClusterSlurmConfigurationCgroupCustomSettingsList
 ```
@@ -3153,7 +3153,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcsCluster.DataAwsccPcsClusterSlurmConfigurationCgroupCustomSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcscluster"
 
 dataawsccpcscluster.NewDataAwsccPcsClusterSlurmConfigurationCgroupCustomSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccPcsClusterSlurmConfigurationCgroupCustomSettingsOutputReference
 ```
@@ -3442,7 +3442,7 @@ func InternalValue() DataAwsccPcsClusterSlurmConfigurationCgroupCustomSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcsCluster.DataAwsccPcsClusterSlurmConfigurationJwtAuthJwtKeyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcscluster"
 
 dataawsccpcscluster.NewDataAwsccPcsClusterSlurmConfigurationJwtAuthJwtKeyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPcsClusterSlurmConfigurationJwtAuthJwtKeyOutputReference
 ```
@@ -3713,7 +3713,7 @@ func InternalValue() DataAwsccPcsClusterSlurmConfigurationJwtAuthJwtKey
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcsCluster.DataAwsccPcsClusterSlurmConfigurationJwtAuthOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcscluster"
 
 dataawsccpcscluster.NewDataAwsccPcsClusterSlurmConfigurationJwtAuthOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPcsClusterSlurmConfigurationJwtAuthOutputReference
 ```
@@ -3973,7 +3973,7 @@ func InternalValue() DataAwsccPcsClusterSlurmConfigurationJwtAuth
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcsCluster.DataAwsccPcsClusterSlurmConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcscluster"
 
 dataawsccpcscluster.NewDataAwsccPcsClusterSlurmConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPcsClusterSlurmConfigurationOutputReference
 ```
@@ -4310,7 +4310,7 @@ func InternalValue() DataAwsccPcsClusterSlurmConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcsCluster.DataAwsccPcsClusterSlurmConfigurationSlurmCustomSettingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcscluster"
 
 dataawsccpcscluster.NewDataAwsccPcsClusterSlurmConfigurationSlurmCustomSettingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccPcsClusterSlurmConfigurationSlurmCustomSettingsList
 ```
@@ -4459,7 +4459,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcsCluster.DataAwsccPcsClusterSlurmConfigurationSlurmCustomSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcscluster"
 
 dataawsccpcscluster.NewDataAwsccPcsClusterSlurmConfigurationSlurmCustomSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccPcsClusterSlurmConfigurationSlurmCustomSettingsOutputReference
 ```
@@ -4748,7 +4748,7 @@ func InternalValue() DataAwsccPcsClusterSlurmConfigurationSlurmCustomSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcsCluster.DataAwsccPcsClusterSlurmConfigurationSlurmdbdCustomSettingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcscluster"
 
 dataawsccpcscluster.NewDataAwsccPcsClusterSlurmConfigurationSlurmdbdCustomSettingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccPcsClusterSlurmConfigurationSlurmdbdCustomSettingsList
 ```
@@ -4897,7 +4897,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcsCluster.DataAwsccPcsClusterSlurmConfigurationSlurmdbdCustomSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcscluster"
 
 dataawsccpcscluster.NewDataAwsccPcsClusterSlurmConfigurationSlurmdbdCustomSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccPcsClusterSlurmConfigurationSlurmdbdCustomSettingsOutputReference
 ```
@@ -5186,7 +5186,7 @@ func InternalValue() DataAwsccPcsClusterSlurmConfigurationSlurmdbdCustomSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcsCluster.DataAwsccPcsClusterSlurmConfigurationSlurmRestOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcscluster"
 
 dataawsccpcscluster.NewDataAwsccPcsClusterSlurmConfigurationSlurmRestOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPcsClusterSlurmConfigurationSlurmRestOutputReference
 ```

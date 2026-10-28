@@ -4,12 +4,12 @@
 
 ### DataAwsccCodeartifactRepositories <a name="DataAwsccCodeartifactRepositories" id="@cdktn/provider-awscc.dataAwsccCodeartifactRepositories.DataAwsccCodeartifactRepositories"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/codeartifact_repositories awscc_codeartifact_repositories}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/codeartifact_repositories awscc_codeartifact_repositories}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodeartifactRepositories.DataAwsccCodeartifactRepositories.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodeartifactrepositories"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodeartifactrepositories"
 
 dataawscccodeartifactrepositories.NewDataAwsccCodeartifactRepositories(scope Construct, id *string, config DataAwsccCodeartifactRepositoriesConfig) DataAwsccCodeartifactRepositories
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCodeartifactRepositories.DataAwsccCodeartifactRepositories.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodeartifactrepositories"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodeartifactrepositories"
 
 dataawscccodeartifactrepositories.DataAwsccCodeartifactRepositories_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCodeartifactRepositories.DataAwsccCodeartifactRepositories.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodeartifactrepositories"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodeartifactrepositories"
 
 dataawscccodeartifactrepositories.DataAwsccCodeartifactRepositories_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccodeartifactrepositories.DataAwsccCodeartifactRepositories_IsTerraformE
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCodeartifactRepositories.DataAwsccCodeartifactRepositories.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodeartifactrepositories"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodeartifactrepositories"
 
 dataawscccodeartifactrepositories.DataAwsccCodeartifactRepositories_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccodeartifactrepositories.DataAwsccCodeartifactRepositories_IsTerraformD
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCodeartifactRepositories.DataAwsccCodeartifactRepositories.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodeartifactrepositories"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodeartifactrepositories"
 
 dataawscccodeartifactrepositories.DataAwsccCodeartifactRepositories_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCodeartifactRepos
 
 The id of the existing DataAwsccCodeartifactRepositories that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/codeartifact_repositories#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/codeartifact_repositories#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodeartifactRepositories.DataAwsccCodeartifactRepositoriesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodeartifactrepositories"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodeartifactrepositories"
 
 &dataawscccodeartifactrepositories.DataAwsccCodeartifactRepositoriesConfig {
 	Connection: interface{},

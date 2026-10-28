@@ -4,12 +4,12 @@
 
 ### DataAwsccIotResourceSpecificLogging <a name="DataAwsccIotResourceSpecificLogging" id="@cdktn/provider-awscc.dataAwsccIotResourceSpecificLogging.DataAwsccIotResourceSpecificLogging"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_resource_specific_logging awscc_iot_resource_specific_logging}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_resource_specific_logging awscc_iot_resource_specific_logging}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotResourceSpecificLogging.DataAwsccIotResourceSpecificLogging.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotresourcespecificlogging"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotresourcespecificlogging"
 
 dataawscciotresourcespecificlogging.NewDataAwsccIotResourceSpecificLogging(scope Construct, id *string, config DataAwsccIotResourceSpecificLoggingConfig) DataAwsccIotResourceSpecificLogging
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIotResourceSpecificLogging.DataAwsccIotResourceSpecificLogging.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotresourcespecificlogging"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotresourcespecificlogging"
 
 dataawscciotresourcespecificlogging.DataAwsccIotResourceSpecificLogging_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIotResourceSpecificLogging.DataAwsccIotResourceSpecificLogging.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotresourcespecificlogging"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotresourcespecificlogging"
 
 dataawscciotresourcespecificlogging.DataAwsccIotResourceSpecificLogging_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciotresourcespecificlogging.DataAwsccIotResourceSpecificLogging_IsTerraf
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIotResourceSpecificLogging.DataAwsccIotResourceSpecificLogging.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotresourcespecificlogging"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotresourcespecificlogging"
 
 dataawscciotresourcespecificlogging.DataAwsccIotResourceSpecificLogging_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciotresourcespecificlogging.DataAwsccIotResourceSpecificLogging_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIotResourceSpecificLogging.DataAwsccIotResourceSpecificLogging.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotresourcespecificlogging"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotresourcespecificlogging"
 
 dataawscciotresourcespecificlogging.DataAwsccIotResourceSpecificLogging_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotResourceSpecif
 
 The id of the existing DataAwsccIotResourceSpecificLogging that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_resource_specific_logging#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_resource_specific_logging#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -631,7 +631,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotResourceSpecificLogging.DataAwsccIotResourceSpecificLoggingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotresourcespecificlogging"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotresourcespecificlogging"
 
 &dataawscciotresourcespecificlogging.DataAwsccIotResourceSpecificLoggingConfig {
 	Connection: interface{},
@@ -740,7 +740,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_resource_specific_logging#id DataAwsccIotResourceSpecificLogging#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_resource_specific_logging#id DataAwsccIotResourceSpecificLogging#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

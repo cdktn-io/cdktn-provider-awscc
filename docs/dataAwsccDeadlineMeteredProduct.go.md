@@ -4,12 +4,12 @@
 
 ### DataAwsccDeadlineMeteredProduct <a name="DataAwsccDeadlineMeteredProduct" id="@cdktn/provider-awscc.dataAwsccDeadlineMeteredProduct.DataAwsccDeadlineMeteredProduct"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/deadline_metered_product awscc_deadline_metered_product}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/deadline_metered_product awscc_deadline_metered_product}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDeadlineMeteredProduct.DataAwsccDeadlineMeteredProduct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinemeteredproduct"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinemeteredproduct"
 
 dataawsccdeadlinemeteredproduct.NewDataAwsccDeadlineMeteredProduct(scope Construct, id *string, config DataAwsccDeadlineMeteredProductConfig) DataAwsccDeadlineMeteredProduct
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccDeadlineMeteredProduct.DataAwsccDeadlineMeteredProduct.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinemeteredproduct"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinemeteredproduct"
 
 dataawsccdeadlinemeteredproduct.DataAwsccDeadlineMeteredProduct_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccDeadlineMeteredProduct.DataAwsccDeadlineMeteredProduct.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinemeteredproduct"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinemeteredproduct"
 
 dataawsccdeadlinemeteredproduct.DataAwsccDeadlineMeteredProduct_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccdeadlinemeteredproduct.DataAwsccDeadlineMeteredProduct_IsTerraformEleme
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccDeadlineMeteredProduct.DataAwsccDeadlineMeteredProduct.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinemeteredproduct"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinemeteredproduct"
 
 dataawsccdeadlinemeteredproduct.DataAwsccDeadlineMeteredProduct_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccdeadlinemeteredproduct.DataAwsccDeadlineMeteredProduct_IsTerraformDataS
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccDeadlineMeteredProduct.DataAwsccDeadlineMeteredProduct.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinemeteredproduct"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinemeteredproduct"
 
 dataawsccdeadlinemeteredproduct.DataAwsccDeadlineMeteredProduct_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDeadlineMeteredPr
 
 The id of the existing DataAwsccDeadlineMeteredProduct that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/deadline_metered_product#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/deadline_metered_product#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -653,7 +653,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDeadlineMeteredProduct.DataAwsccDeadlineMeteredProductConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinemeteredproduct"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinemeteredproduct"
 
 &dataawsccdeadlinemeteredproduct.DataAwsccDeadlineMeteredProductConfig {
 	Connection: interface{},
@@ -762,7 +762,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/deadline_metered_product#id DataAwsccDeadlineMeteredProduct#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/deadline_metered_product#id DataAwsccDeadlineMeteredProduct#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

@@ -4,12 +4,12 @@
 
 ### DataAwsccSesReceiptFilter <a name="DataAwsccSesReceiptFilter" id="@cdktn/provider-awscc.dataAwsccSesReceiptFilter.DataAwsccSesReceiptFilter"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_receipt_filter awscc_ses_receipt_filter}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ses_receipt_filter awscc_ses_receipt_filter}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesReceiptFilter.DataAwsccSesReceiptFilter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesreceiptfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesreceiptfilter"
 
 dataawsccsesreceiptfilter.NewDataAwsccSesReceiptFilter(scope Construct, id *string, config DataAwsccSesReceiptFilterConfig) DataAwsccSesReceiptFilter
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSesReceiptFilter.DataAwsccSesReceiptFilter.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesreceiptfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesreceiptfilter"
 
 dataawsccsesreceiptfilter.DataAwsccSesReceiptFilter_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSesReceiptFilter.DataAwsccSesReceiptFilter.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesreceiptfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesreceiptfilter"
 
 dataawsccsesreceiptfilter.DataAwsccSesReceiptFilter_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsesreceiptfilter.DataAwsccSesReceiptFilter_IsTerraformElement(x interfa
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSesReceiptFilter.DataAwsccSesReceiptFilter.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesreceiptfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesreceiptfilter"
 
 dataawsccsesreceiptfilter.DataAwsccSesReceiptFilter_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsesreceiptfilter.DataAwsccSesReceiptFilter_IsTerraformDataSource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSesReceiptFilter.DataAwsccSesReceiptFilter.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesreceiptfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesreceiptfilter"
 
 dataawsccsesreceiptfilter.DataAwsccSesReceiptFilter_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSesReceiptFilter 
 
 The id of the existing DataAwsccSesReceiptFilter that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_receipt_filter#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ses_receipt_filter#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -609,7 +609,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesReceiptFilter.DataAwsccSesReceiptFilterConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesreceiptfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesreceiptfilter"
 
 &dataawsccsesreceiptfilter.DataAwsccSesReceiptFilterConfig {
 	Connection: interface{},
@@ -718,7 +718,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_receipt_filter#id DataAwsccSesReceiptFilter#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ses_receipt_filter#id DataAwsccSesReceiptFilter#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -730,7 +730,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesReceiptFilter.DataAwsccSesReceiptFilterFilter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesreceiptfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesreceiptfilter"
 
 &dataawsccsesreceiptfilter.DataAwsccSesReceiptFilterFilter {
 
@@ -743,7 +743,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesreceiptfil
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesReceiptFilter.DataAwsccSesReceiptFilterFilterIpFilter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesreceiptfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesreceiptfilter"
 
 &dataawsccsesreceiptfilter.DataAwsccSesReceiptFilterFilterIpFilter {
 
@@ -758,7 +758,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesreceiptfil
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesReceiptFilter.DataAwsccSesReceiptFilterFilterIpFilterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesreceiptfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesreceiptfilter"
 
 dataawsccsesreceiptfilter.NewDataAwsccSesReceiptFilterFilterIpFilterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesReceiptFilterFilterIpFilterOutputReference
 ```
@@ -1029,7 +1029,7 @@ func InternalValue() DataAwsccSesReceiptFilterFilterIpFilter
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesReceiptFilter.DataAwsccSesReceiptFilterFilterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesreceiptfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesreceiptfilter"
 
 dataawsccsesreceiptfilter.NewDataAwsccSesReceiptFilterFilterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesReceiptFilterFilterOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccRtbfabricResponderGateway <a name="DataAwsccRtbfabricResponderGateway" id="@cdktn/provider-awscc.dataAwsccRtbfabricResponderGateway.DataAwsccRtbfabricResponderGateway"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rtbfabric_responder_gateway awscc_rtbfabric_responder_gateway}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rtbfabric_responder_gateway awscc_rtbfabric_responder_gateway}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRtbfabricResponderGateway.DataAwsccRtbfabricResponderGateway.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabricrespondergateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabricrespondergateway"
 
 dataawsccrtbfabricrespondergateway.NewDataAwsccRtbfabricResponderGateway(scope Construct, id *string, config DataAwsccRtbfabricResponderGatewayConfig) DataAwsccRtbfabricResponderGateway
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccRtbfabricResponderGateway.DataAwsccRtbfabricResponderGateway.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabricrespondergateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabricrespondergateway"
 
 dataawsccrtbfabricrespondergateway.DataAwsccRtbfabricResponderGateway_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccRtbfabricResponderGateway.DataAwsccRtbfabricResponderGateway.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabricrespondergateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabricrespondergateway"
 
 dataawsccrtbfabricrespondergateway.DataAwsccRtbfabricResponderGateway_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccrtbfabricrespondergateway.DataAwsccRtbfabricResponderGateway_IsTerrafor
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccRtbfabricResponderGateway.DataAwsccRtbfabricResponderGateway.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabricrespondergateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabricrespondergateway"
 
 dataawsccrtbfabricrespondergateway.DataAwsccRtbfabricResponderGateway_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccrtbfabricrespondergateway.DataAwsccRtbfabricResponderGateway_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccRtbfabricResponderGateway.DataAwsccRtbfabricResponderGateway.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabricrespondergateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabricrespondergateway"
 
 dataawsccrtbfabricrespondergateway.DataAwsccRtbfabricResponderGateway_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRtbfabricResponde
 
 The id of the existing DataAwsccRtbfabricResponderGateway that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rtbfabric_responder_gateway#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rtbfabric_responder_gateway#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -807,7 +807,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRtbfabricResponderGateway.DataAwsccRtbfabricResponderGatewayConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabricrespondergateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabricrespondergateway"
 
 &dataawsccrtbfabricrespondergateway.DataAwsccRtbfabricResponderGatewayConfig {
 	Connection: interface{},
@@ -916,7 +916,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rtbfabric_responder_gateway#id DataAwsccRtbfabricResponderGateway#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rtbfabric_responder_gateway#id DataAwsccRtbfabricResponderGateway#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -928,7 +928,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRtbfabricResponderGateway.DataAwsccRtbfabricResponderGatewayListenerConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabricrespondergateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabricrespondergateway"
 
 &dataawsccrtbfabricrespondergateway.DataAwsccRtbfabricResponderGatewayListenerConfig {
 
@@ -941,7 +941,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabricresp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRtbfabricResponderGateway.DataAwsccRtbfabricResponderGatewayManagedEndpointConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabricrespondergateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabricrespondergateway"
 
 &dataawsccrtbfabricrespondergateway.DataAwsccRtbfabricResponderGatewayManagedEndpointConfiguration {
 
@@ -954,7 +954,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabricresp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRtbfabricResponderGateway.DataAwsccRtbfabricResponderGatewayManagedEndpointConfigurationAutoScalingGroupsConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabricrespondergateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabricrespondergateway"
 
 &dataawsccrtbfabricrespondergateway.DataAwsccRtbfabricResponderGatewayManagedEndpointConfigurationAutoScalingGroupsConfiguration {
 
@@ -967,7 +967,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabricresp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRtbfabricResponderGateway.DataAwsccRtbfabricResponderGatewayManagedEndpointConfigurationAutoScalingGroupsConfigurationHealthCheckConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabricrespondergateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabricrespondergateway"
 
 &dataawsccrtbfabricrespondergateway.DataAwsccRtbfabricResponderGatewayManagedEndpointConfigurationAutoScalingGroupsConfigurationHealthCheckConfig {
 
@@ -980,7 +980,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabricresp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRtbfabricResponderGateway.DataAwsccRtbfabricResponderGatewayManagedEndpointConfigurationEksEndpointsConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabricrespondergateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabricrespondergateway"
 
 &dataawsccrtbfabricrespondergateway.DataAwsccRtbfabricResponderGatewayManagedEndpointConfigurationEksEndpointsConfiguration {
 
@@ -993,7 +993,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabricresp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRtbfabricResponderGateway.DataAwsccRtbfabricResponderGatewayTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabricrespondergateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabricrespondergateway"
 
 &dataawsccrtbfabricrespondergateway.DataAwsccRtbfabricResponderGatewayTags {
 
@@ -1006,7 +1006,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabricresp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRtbfabricResponderGateway.DataAwsccRtbfabricResponderGatewayTrustStoreConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabricrespondergateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabricrespondergateway"
 
 &dataawsccrtbfabricrespondergateway.DataAwsccRtbfabricResponderGatewayTrustStoreConfiguration {
 
@@ -1021,7 +1021,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabricresp
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRtbfabricResponderGateway.DataAwsccRtbfabricResponderGatewayListenerConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabricrespondergateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabricrespondergateway"
 
 dataawsccrtbfabricrespondergateway.NewDataAwsccRtbfabricResponderGatewayListenerConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccRtbfabricResponderGatewayListenerConfigOutputReference
 ```
@@ -1281,7 +1281,7 @@ func InternalValue() DataAwsccRtbfabricResponderGatewayListenerConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRtbfabricResponderGateway.DataAwsccRtbfabricResponderGatewayManagedEndpointConfigurationAutoScalingGroupsConfigurationHealthCheckConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabricrespondergateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabricrespondergateway"
 
 dataawsccrtbfabricrespondergateway.NewDataAwsccRtbfabricResponderGatewayManagedEndpointConfigurationAutoScalingGroupsConfigurationHealthCheckConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccRtbfabricResponderGatewayManagedEndpointConfigurationAutoScalingGroupsConfigurationHealthCheckConfigOutputReference
 ```
@@ -1618,7 +1618,7 @@ func InternalValue() DataAwsccRtbfabricResponderGatewayManagedEndpointConfigurat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRtbfabricResponderGateway.DataAwsccRtbfabricResponderGatewayManagedEndpointConfigurationAutoScalingGroupsConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabricrespondergateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabricrespondergateway"
 
 dataawsccrtbfabricrespondergateway.NewDataAwsccRtbfabricResponderGatewayManagedEndpointConfigurationAutoScalingGroupsConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccRtbfabricResponderGatewayManagedEndpointConfigurationAutoScalingGroupsConfigurationOutputReference
 ```
@@ -1900,7 +1900,7 @@ func InternalValue() DataAwsccRtbfabricResponderGatewayManagedEndpointConfigurat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRtbfabricResponderGateway.DataAwsccRtbfabricResponderGatewayManagedEndpointConfigurationEksEndpointsConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabricrespondergateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabricrespondergateway"
 
 dataawsccrtbfabricrespondergateway.NewDataAwsccRtbfabricResponderGatewayManagedEndpointConfigurationEksEndpointsConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccRtbfabricResponderGatewayManagedEndpointConfigurationEksEndpointsConfigurationOutputReference
 ```
@@ -2215,7 +2215,7 @@ func InternalValue() DataAwsccRtbfabricResponderGatewayManagedEndpointConfigurat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRtbfabricResponderGateway.DataAwsccRtbfabricResponderGatewayManagedEndpointConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabricrespondergateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabricrespondergateway"
 
 dataawsccrtbfabricrespondergateway.NewDataAwsccRtbfabricResponderGatewayManagedEndpointConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccRtbfabricResponderGatewayManagedEndpointConfigurationOutputReference
 ```
@@ -2486,7 +2486,7 @@ func InternalValue() DataAwsccRtbfabricResponderGatewayManagedEndpointConfigurat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRtbfabricResponderGateway.DataAwsccRtbfabricResponderGatewayTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabricrespondergateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabricrespondergateway"
 
 dataawsccrtbfabricrespondergateway.NewDataAwsccRtbfabricResponderGatewayTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccRtbfabricResponderGatewayTagsList
 ```
@@ -2635,7 +2635,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRtbfabricResponderGateway.DataAwsccRtbfabricResponderGatewayTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabricrespondergateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabricrespondergateway"
 
 dataawsccrtbfabricrespondergateway.NewDataAwsccRtbfabricResponderGatewayTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccRtbfabricResponderGatewayTagsOutputReference
 ```
@@ -2924,7 +2924,7 @@ func InternalValue() DataAwsccRtbfabricResponderGatewayTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRtbfabricResponderGateway.DataAwsccRtbfabricResponderGatewayTrustStoreConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabricrespondergateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabricrespondergateway"
 
 dataawsccrtbfabricrespondergateway.NewDataAwsccRtbfabricResponderGatewayTrustStoreConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccRtbfabricResponderGatewayTrustStoreConfigurationOutputReference
 ```

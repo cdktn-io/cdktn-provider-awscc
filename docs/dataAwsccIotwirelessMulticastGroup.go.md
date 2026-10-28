@@ -4,12 +4,12 @@
 
 ### DataAwsccIotwirelessMulticastGroup <a name="DataAwsccIotwirelessMulticastGroup" id="@cdktn/provider-awscc.dataAwsccIotwirelessMulticastGroup.DataAwsccIotwirelessMulticastGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotwireless_multicast_group awscc_iotwireless_multicast_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotwireless_multicast_group awscc_iotwireless_multicast_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotwirelessMulticastGroup.DataAwsccIotwirelessMulticastGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelessmulticastgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelessmulticastgroup"
 
 dataawscciotwirelessmulticastgroup.NewDataAwsccIotwirelessMulticastGroup(scope Construct, id *string, config DataAwsccIotwirelessMulticastGroupConfig) DataAwsccIotwirelessMulticastGroup
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIotwirelessMulticastGroup.DataAwsccIotwirelessMulticastGroup.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelessmulticastgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelessmulticastgroup"
 
 dataawscciotwirelessmulticastgroup.DataAwsccIotwirelessMulticastGroup_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIotwirelessMulticastGroup.DataAwsccIotwirelessMulticastGroup.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelessmulticastgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelessmulticastgroup"
 
 dataawscciotwirelessmulticastgroup.DataAwsccIotwirelessMulticastGroup_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciotwirelessmulticastgroup.DataAwsccIotwirelessMulticastGroup_IsTerrafor
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIotwirelessMulticastGroup.DataAwsccIotwirelessMulticastGroup.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelessmulticastgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelessmulticastgroup"
 
 dataawscciotwirelessmulticastgroup.DataAwsccIotwirelessMulticastGroup_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciotwirelessmulticastgroup.DataAwsccIotwirelessMulticastGroup_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIotwirelessMulticastGroup.DataAwsccIotwirelessMulticastGroup.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelessmulticastgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelessmulticastgroup"
 
 dataawscciotwirelessmulticastgroup.DataAwsccIotwirelessMulticastGroup_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotwirelessMultic
 
 The id of the existing DataAwsccIotwirelessMulticastGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotwireless_multicast_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotwireless_multicast_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -686,7 +686,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotwirelessMulticastGroup.DataAwsccIotwirelessMulticastGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelessmulticastgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelessmulticastgroup"
 
 &dataawscciotwirelessmulticastgroup.DataAwsccIotwirelessMulticastGroupConfig {
 	Connection: interface{},
@@ -795,7 +795,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotwireless_multicast_group#id DataAwsccIotwirelessMulticastGroup#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotwireless_multicast_group#id DataAwsccIotwirelessMulticastGroup#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -807,7 +807,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotwirelessMulticastGroup.DataAwsccIotwirelessMulticastGroupLoRaWan.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelessmulticastgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelessmulticastgroup"
 
 &dataawscciotwirelessmulticastgroup.DataAwsccIotwirelessMulticastGroupLoRaWan {
 
@@ -820,7 +820,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelessmu
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotwirelessMulticastGroup.DataAwsccIotwirelessMulticastGroupTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelessmulticastgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelessmulticastgroup"
 
 &dataawscciotwirelessmulticastgroup.DataAwsccIotwirelessMulticastGroupTags {
 
@@ -835,7 +835,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelessmu
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotwirelessMulticastGroup.DataAwsccIotwirelessMulticastGroupLoRaWanOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelessmulticastgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelessmulticastgroup"
 
 dataawscciotwirelessmulticastgroup.NewDataAwsccIotwirelessMulticastGroupLoRaWanOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotwirelessMulticastGroupLoRaWanOutputReference
 ```
@@ -1128,7 +1128,7 @@ func InternalValue() DataAwsccIotwirelessMulticastGroupLoRaWan
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotwirelessMulticastGroup.DataAwsccIotwirelessMulticastGroupTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelessmulticastgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelessmulticastgroup"
 
 dataawscciotwirelessmulticastgroup.NewDataAwsccIotwirelessMulticastGroupTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIotwirelessMulticastGroupTagsList
 ```
@@ -1277,7 +1277,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotwirelessMulticastGroup.DataAwsccIotwirelessMulticastGroupTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelessmulticastgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelessmulticastgroup"
 
 dataawscciotwirelessmulticastgroup.NewDataAwsccIotwirelessMulticastGroupTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIotwirelessMulticastGroupTagsOutputReference
 ```

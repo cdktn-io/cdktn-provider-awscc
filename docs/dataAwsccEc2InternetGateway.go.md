@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2InternetGateway <a name="DataAwsccEc2InternetGateway" id="@cdktn/provider-awscc.dataAwsccEc2InternetGateway.DataAwsccEc2InternetGateway"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_internet_gateway awscc_ec2_internet_gateway}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_internet_gateway awscc_ec2_internet_gateway}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2InternetGateway.DataAwsccEc2InternetGateway.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2internetgateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2internetgateway"
 
 dataawsccec2internetgateway.NewDataAwsccEc2InternetGateway(scope Construct, id *string, config DataAwsccEc2InternetGatewayConfig) DataAwsccEc2InternetGateway
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2InternetGateway.DataAwsccEc2InternetGateway.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2internetgateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2internetgateway"
 
 dataawsccec2internetgateway.DataAwsccEc2InternetGateway_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2InternetGateway.DataAwsccEc2InternetGateway.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2internetgateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2internetgateway"
 
 dataawsccec2internetgateway.DataAwsccEc2InternetGateway_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2internetgateway.DataAwsccEc2InternetGateway_IsTerraformElement(x int
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2InternetGateway.DataAwsccEc2InternetGateway.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2internetgateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2internetgateway"
 
 dataawsccec2internetgateway.DataAwsccEc2InternetGateway_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2internetgateway.DataAwsccEc2InternetGateway_IsTerraformDataSource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2InternetGateway.DataAwsccEc2InternetGateway.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2internetgateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2internetgateway"
 
 dataawsccec2internetgateway.DataAwsccEc2InternetGateway_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2InternetGatewa
 
 The id of the existing DataAwsccEc2InternetGateway that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_internet_gateway#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_internet_gateway#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -609,7 +609,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2InternetGateway.DataAwsccEc2InternetGatewayConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2internetgateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2internetgateway"
 
 &dataawsccec2internetgateway.DataAwsccEc2InternetGatewayConfig {
 	Connection: interface{},
@@ -718,7 +718,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_internet_gateway#id DataAwsccEc2InternetGateway#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_internet_gateway#id DataAwsccEc2InternetGateway#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -730,7 +730,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2InternetGateway.DataAwsccEc2InternetGatewayTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2internetgateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2internetgateway"
 
 &dataawsccec2internetgateway.DataAwsccEc2InternetGatewayTags {
 
@@ -745,7 +745,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2internetga
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2InternetGateway.DataAwsccEc2InternetGatewayTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2internetgateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2internetgateway"
 
 dataawsccec2internetgateway.NewDataAwsccEc2InternetGatewayTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEc2InternetGatewayTagsList
 ```
@@ -894,7 +894,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2InternetGateway.DataAwsccEc2InternetGatewayTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2internetgateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2internetgateway"
 
 dataawsccec2internetgateway.NewDataAwsccEc2InternetGatewayTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEc2InternetGatewayTagsOutputReference
 ```

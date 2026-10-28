@@ -4,12 +4,12 @@
 
 ### DataAwsccIotScheduledAudit <a name="DataAwsccIotScheduledAudit" id="@cdktn/provider-awscc.dataAwsccIotScheduledAudit.DataAwsccIotScheduledAudit"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_scheduled_audit awscc_iot_scheduled_audit}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_scheduled_audit awscc_iot_scheduled_audit}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotScheduledAudit.DataAwsccIotScheduledAudit.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotscheduledaudit"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotscheduledaudit"
 
 dataawscciotscheduledaudit.NewDataAwsccIotScheduledAudit(scope Construct, id *string, config DataAwsccIotScheduledAuditConfig) DataAwsccIotScheduledAudit
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIotScheduledAudit.DataAwsccIotScheduledAudit.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotscheduledaudit"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotscheduledaudit"
 
 dataawscciotscheduledaudit.DataAwsccIotScheduledAudit_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIotScheduledAudit.DataAwsccIotScheduledAudit.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotscheduledaudit"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotscheduledaudit"
 
 dataawscciotscheduledaudit.DataAwsccIotScheduledAudit_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciotscheduledaudit.DataAwsccIotScheduledAudit_IsTerraformElement(x inter
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIotScheduledAudit.DataAwsccIotScheduledAudit.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotscheduledaudit"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotscheduledaudit"
 
 dataawscciotscheduledaudit.DataAwsccIotScheduledAudit_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciotscheduledaudit.DataAwsccIotScheduledAudit_IsTerraformDataSource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIotScheduledAudit.DataAwsccIotScheduledAudit.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotscheduledaudit"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotscheduledaudit"
 
 dataawscciotscheduledaudit.DataAwsccIotScheduledAudit_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotScheduledAudit
 
 The id of the existing DataAwsccIotScheduledAudit that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_scheduled_audit#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_scheduled_audit#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -664,7 +664,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotScheduledAudit.DataAwsccIotScheduledAuditConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotscheduledaudit"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotscheduledaudit"
 
 &dataawscciotscheduledaudit.DataAwsccIotScheduledAuditConfig {
 	Connection: interface{},
@@ -773,7 +773,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_scheduled_audit#id DataAwsccIotScheduledAudit#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_scheduled_audit#id DataAwsccIotScheduledAudit#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -785,7 +785,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotScheduledAudit.DataAwsccIotScheduledAuditTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotscheduledaudit"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotscheduledaudit"
 
 &dataawscciotscheduledaudit.DataAwsccIotScheduledAuditTags {
 
@@ -800,7 +800,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotscheduleda
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotScheduledAudit.DataAwsccIotScheduledAuditTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotscheduledaudit"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotscheduledaudit"
 
 dataawscciotscheduledaudit.NewDataAwsccIotScheduledAuditTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIotScheduledAuditTagsList
 ```
@@ -949,7 +949,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotScheduledAudit.DataAwsccIotScheduledAuditTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotscheduledaudit"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotscheduledaudit"
 
 dataawscciotscheduledaudit.NewDataAwsccIotScheduledAuditTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIotScheduledAuditTagsOutputReference
 ```

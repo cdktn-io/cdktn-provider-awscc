@@ -4,12 +4,12 @@
 
 ### S3ExpressAccessPoint <a name="S3ExpressAccessPoint" id="@cdktn/provider-awscc.s3ExpressAccessPoint.S3ExpressAccessPoint"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3express_access_point awscc_s3express_access_point}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3express_access_point awscc_s3express_access_point}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3ExpressAccessPoint.S3ExpressAccessPoint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3expressaccesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3expressaccesspoint"
 
 s3expressaccesspoint.NewS3ExpressAccessPoint(scope Construct, id *string, config S3ExpressAccessPointConfig) S3ExpressAccessPoint
 ```
@@ -501,7 +501,7 @@ func ResetVpcConfiguration()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.s3ExpressAccessPoint.S3ExpressAccessPoint.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3expressaccesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3expressaccesspoint"
 
 s3expressaccesspoint.S3ExpressAccessPoint_IsConstruct(x interface{}) *bool
 ```
@@ -533,7 +533,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.s3ExpressAccessPoint.S3ExpressAccessPoint.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3expressaccesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3expressaccesspoint"
 
 s3expressaccesspoint.S3ExpressAccessPoint_IsTerraformElement(x interface{}) *bool
 ```
@@ -547,7 +547,7 @@ s3expressaccesspoint.S3ExpressAccessPoint_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.s3ExpressAccessPoint.S3ExpressAccessPoint.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3expressaccesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3expressaccesspoint"
 
 s3expressaccesspoint.S3ExpressAccessPoint_IsTerraformResource(x interface{}) *bool
 ```
@@ -561,7 +561,7 @@ s3expressaccesspoint.S3ExpressAccessPoint_IsTerraformResource(x interface{}) *bo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.s3ExpressAccessPoint.S3ExpressAccessPoint.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3expressaccesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3expressaccesspoint"
 
 s3expressaccesspoint.S3ExpressAccessPoint_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -590,7 +590,7 @@ The construct id used in the generated config for the S3ExpressAccessPoint to im
 
 The id of the existing S3ExpressAccessPoint that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3express_access_point#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3express_access_point#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -999,7 +999,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.s3ExpressAccessPoint.S3ExpressAccessPointConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3expressaccesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3expressaccesspoint"
 
 &s3expressaccesspoint.S3ExpressAccessPointConfig {
 	Connection: interface{},
@@ -1013,10 +1013,10 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3expressaccesspoint"
 	BucketAccountId: *string,
 	Name: *string,
 	Policy: *string,
-	PublicAccessBlockConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.s3ExpressAccessPoint.S3ExpressAccessPointPublicAccessBlockConfiguration,
-	Scope: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.s3ExpressAccessPoint.S3ExpressAccessPointScope,
+	PublicAccessBlockConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.s3ExpressAccessPoint.S3ExpressAccessPointPublicAccessBlockConfiguration,
+	Scope: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.s3ExpressAccessPoint.S3ExpressAccessPointScope,
 	Tags: interface{},
-	VpcConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.s3ExpressAccessPoint.S3ExpressAccessPointVpcConfiguration,
+	VpcConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.s3ExpressAccessPoint.S3ExpressAccessPointVpcConfiguration,
 }
 ```
 
@@ -1037,7 +1037,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3expressaccesspoint"
 | <code><a href="#@cdktn/provider-awscc.s3ExpressAccessPoint.S3ExpressAccessPointConfig.property.policy">Policy</a></code> | <code>*string</code> | The Access Point Policy you want to apply to this access point. |
 | <code><a href="#@cdktn/provider-awscc.s3ExpressAccessPoint.S3ExpressAccessPointConfig.property.publicAccessBlockConfiguration">PublicAccessBlockConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.s3ExpressAccessPoint.S3ExpressAccessPointPublicAccessBlockConfiguration">S3ExpressAccessPointPublicAccessBlockConfiguration</a></code> | The PublicAccessBlock configuration that you want to apply to this Access Point. |
 | <code><a href="#@cdktn/provider-awscc.s3ExpressAccessPoint.S3ExpressAccessPointConfig.property.scope">Scope</a></code> | <code><a href="#@cdktn/provider-awscc.s3ExpressAccessPoint.S3ExpressAccessPointScope">S3ExpressAccessPointScope</a></code> | For directory buckets, you can ?lter access control to speci?c pre?xes, API operations, or a combination of both. |
-| <code><a href="#@cdktn/provider-awscc.s3ExpressAccessPoint.S3ExpressAccessPointConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3express_access_point#tags S3ExpressAccessPoint#tags}. |
+| <code><a href="#@cdktn/provider-awscc.s3ExpressAccessPoint.S3ExpressAccessPointConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3express_access_point#tags S3ExpressAccessPoint#tags}. |
 | <code><a href="#@cdktn/provider-awscc.s3ExpressAccessPoint.S3ExpressAccessPointConfig.property.vpcConfiguration">VpcConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.s3ExpressAccessPoint.S3ExpressAccessPointVpcConfiguration">S3ExpressAccessPointVpcConfiguration</a></code> | If you include this field, Amazon S3 restricts access to this Access Point to requests from the specified Virtual Private Cloud (VPC). |
 
 ---
@@ -1122,7 +1122,7 @@ Bucket *string
 
 The name of the bucket that you want to associate this Access Point with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3express_access_point#bucket S3ExpressAccessPoint#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3express_access_point#bucket S3ExpressAccessPoint#bucket}
 
 ---
 
@@ -1136,7 +1136,7 @@ BucketAccountId *string
 
 The AWS account ID associated with the S3 bucket associated with this access point.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3express_access_point#bucket_account_id S3ExpressAccessPoint#bucket_account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3express_access_point#bucket_account_id S3ExpressAccessPoint#bucket_account_id}
 
 ---
 
@@ -1152,7 +1152,7 @@ The name you want to assign to this Access Point.
 
 If you don't specify a name, AWS CloudFormation generates a unique ID and uses that ID for the access point name. For directory buckets, the access point name must consist of a base name that you provide and su?x that includes the ZoneID (AWS Availability Zone or Local Zone) of your bucket location, followed by --xa-s3.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3express_access_point#name S3ExpressAccessPoint#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3express_access_point#name S3ExpressAccessPoint#name}
 
 ---
 
@@ -1166,7 +1166,7 @@ Policy *string
 
 The Access Point Policy you want to apply to this access point.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3express_access_point#policy S3ExpressAccessPoint#policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3express_access_point#policy S3ExpressAccessPoint#policy}
 
 ---
 
@@ -1180,7 +1180,7 @@ PublicAccessBlockConfiguration S3ExpressAccessPointPublicAccessBlockConfiguratio
 
 The PublicAccessBlock configuration that you want to apply to this Access Point.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3express_access_point#public_access_block_configuration S3ExpressAccessPoint#public_access_block_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3express_access_point#public_access_block_configuration S3ExpressAccessPoint#public_access_block_configuration}
 
 ---
 
@@ -1194,7 +1194,7 @@ Scope S3ExpressAccessPointScope
 
 For directory buckets, you can ?lter access control to speci?c pre?xes, API operations, or a combination of both.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3express_access_point#scope S3ExpressAccessPoint#scope}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3express_access_point#scope S3ExpressAccessPoint#scope}
 
 ---
 
@@ -1206,7 +1206,7 @@ Tags interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3express_access_point#tags S3ExpressAccessPoint#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3express_access_point#tags S3ExpressAccessPoint#tags}.
 
 ---
 
@@ -1220,7 +1220,7 @@ VpcConfiguration S3ExpressAccessPointVpcConfiguration
 
 If you include this field, Amazon S3 restricts access to this Access Point to requests from the specified Virtual Private Cloud (VPC).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3express_access_point#vpc_configuration S3ExpressAccessPoint#vpc_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3express_access_point#vpc_configuration S3ExpressAccessPoint#vpc_configuration}
 
 ---
 
@@ -1229,7 +1229,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.s3ExpressAccessPoint.S3ExpressAccessPointPublicAccessBlockConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3expressaccesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3expressaccesspoint"
 
 &s3expressaccesspoint.S3ExpressAccessPointPublicAccessBlockConfiguration {
 	BlockPublicAcls: interface{},
@@ -1267,7 +1267,7 @@ Setting this element to TRUE causes the following behavior:
   . - PUT Bucket calls fail if the request includes a public ACL.
   Enabling this setting doesn't affect existing policies or ACLs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3express_access_point#block_public_acls S3ExpressAccessPoint#block_public_acls}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3express_access_point#block_public_acls S3ExpressAccessPoint#block_public_acls}
 
 ---
 
@@ -1283,7 +1283,7 @@ Specifies whether Amazon S3 should block public bucket policies for buckets in t
 
 Setting this element to TRUE causes Amazon S3 to reject calls to PUT Bucket policy if the specified bucket policy allows public access. Enabling this setting doesn't affect existing bucket policies.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3express_access_point#block_public_policy S3ExpressAccessPoint#block_public_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3express_access_point#block_public_policy S3ExpressAccessPoint#block_public_policy}
 
 ---
 
@@ -1299,7 +1299,7 @@ Specifies whether Amazon S3 should ignore public ACLs for buckets in this accoun
 
 Setting this element to TRUE causes Amazon S3 to ignore all public ACLs on buckets in this account and any objects that they contain. Enabling this setting doesn't affect the persistence of any existing ACLs and doesn't prevent new public ACLs from being set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3express_access_point#ignore_public_acls S3ExpressAccessPoint#ignore_public_acls}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3express_access_point#ignore_public_acls S3ExpressAccessPoint#ignore_public_acls}
 
 ---
 
@@ -1316,7 +1316,7 @@ Specifies whether Amazon S3 should restrict public bucket policies for this buck
 Setting this element to TRUE restricts access to this bucket to only AWS services and authorized users within this account if the bucket has a public policy.
 Enabling this setting doesn't affect previously stored bucket policies, except that public and cross-account access within any public bucket policy, including non-public delegation to specific accounts, is blocked.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3express_access_point#restrict_public_buckets S3ExpressAccessPoint#restrict_public_buckets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3express_access_point#restrict_public_buckets S3ExpressAccessPoint#restrict_public_buckets}
 
 ---
 
@@ -1325,7 +1325,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.s3ExpressAccessPoint.S3ExpressAccessPointScope.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3expressaccesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3expressaccesspoint"
 
 &s3expressaccesspoint.S3ExpressAccessPointScope {
 	Permissions: *[]*string,
@@ -1352,7 +1352,7 @@ Permissions *[]*string
 
 You can include one or more API operations as permissions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3express_access_point#permissions S3ExpressAccessPoint#permissions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3express_access_point#permissions S3ExpressAccessPoint#permissions}
 
 ---
 
@@ -1366,7 +1366,7 @@ Prefixes *[]*string
 
 You can specify any amount of pre?xes, but the total length of characters of all pre?xes must be less than 256 bytes in size.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3express_access_point#prefixes S3ExpressAccessPoint#prefixes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3express_access_point#prefixes S3ExpressAccessPoint#prefixes}
 
 ---
 
@@ -1375,7 +1375,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.s3ExpressAccessPoint.S3ExpressAccessPointTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3expressaccesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3expressaccesspoint"
 
 &s3expressaccesspoint.S3ExpressAccessPointTags {
 	Key: *string,
@@ -1387,8 +1387,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3expressaccesspoint"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.s3ExpressAccessPoint.S3ExpressAccessPointTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3express_access_point#key S3ExpressAccessPoint#key}. |
-| <code><a href="#@cdktn/provider-awscc.s3ExpressAccessPoint.S3ExpressAccessPointTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3express_access_point#value S3ExpressAccessPoint#value}. |
+| <code><a href="#@cdktn/provider-awscc.s3ExpressAccessPoint.S3ExpressAccessPointTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3express_access_point#key S3ExpressAccessPoint#key}. |
+| <code><a href="#@cdktn/provider-awscc.s3ExpressAccessPoint.S3ExpressAccessPointTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3express_access_point#value S3ExpressAccessPoint#value}. |
 
 ---
 
@@ -1400,7 +1400,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3express_access_point#key S3ExpressAccessPoint#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3express_access_point#key S3ExpressAccessPoint#key}.
 
 ---
 
@@ -1412,7 +1412,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3express_access_point#value S3ExpressAccessPoint#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3express_access_point#value S3ExpressAccessPoint#value}.
 
 ---
 
@@ -1421,7 +1421,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.s3ExpressAccessPoint.S3ExpressAccessPointVpcConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3expressaccesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3expressaccesspoint"
 
 &s3expressaccesspoint.S3ExpressAccessPointVpcConfiguration {
 	VpcId: *string,
@@ -1446,7 +1446,7 @@ VpcId *string
 
 If this field is specified, this access point will only allow connections from the specified VPC ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3express_access_point#vpc_id S3ExpressAccessPoint#vpc_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3express_access_point#vpc_id S3ExpressAccessPoint#vpc_id}
 
 ---
 
@@ -1457,7 +1457,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3ExpressAccessPoint.S3ExpressAccessPointPublicAccessBlockConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3expressaccesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3expressaccesspoint"
 
 s3expressaccesspoint.NewS3ExpressAccessPointPublicAccessBlockConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) S3ExpressAccessPointPublicAccessBlockConfigurationOutputReference
 ```
@@ -1822,7 +1822,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3ExpressAccessPoint.S3ExpressAccessPointScopeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3expressaccesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3expressaccesspoint"
 
 s3expressaccesspoint.NewS3ExpressAccessPointScopeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) S3ExpressAccessPointScopeOutputReference
 ```
@@ -2129,7 +2129,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3ExpressAccessPoint.S3ExpressAccessPointTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3expressaccesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3expressaccesspoint"
 
 s3expressaccesspoint.NewS3ExpressAccessPointTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) S3ExpressAccessPointTagsList
 ```
@@ -2289,7 +2289,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3ExpressAccessPoint.S3ExpressAccessPointTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3expressaccesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3expressaccesspoint"
 
 s3expressaccesspoint.NewS3ExpressAccessPointTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) S3ExpressAccessPointTagsOutputReference
 ```
@@ -2614,7 +2614,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3ExpressAccessPoint.S3ExpressAccessPointVpcConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3expressaccesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3expressaccesspoint"
 
 s3expressaccesspoint.NewS3ExpressAccessPointVpcConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) S3ExpressAccessPointVpcConfigurationOutputReference
 ```

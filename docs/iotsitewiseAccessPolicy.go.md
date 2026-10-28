@@ -4,12 +4,12 @@
 
 ### IotsitewiseAccessPolicy <a name="IotsitewiseAccessPolicy" id="@cdktn/provider-awscc.iotsitewiseAccessPolicy.IotsitewiseAccessPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_access_policy awscc_iotsitewise_access_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_access_policy awscc_iotsitewise_access_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseAccessPolicy.IotsitewiseAccessPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseaccesspolicy"
 
 iotsitewiseaccesspolicy.NewIotsitewiseAccessPolicy(scope Construct, id *string, config IotsitewiseAccessPolicyConfig) IotsitewiseAccessPolicy
 ```
@@ -426,7 +426,7 @@ func PutAccessPolicyResource(value IotsitewiseAccessPolicyAccessPolicyResource)
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.iotsitewiseAccessPolicy.IotsitewiseAccessPolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseaccesspolicy"
 
 iotsitewiseaccesspolicy.IotsitewiseAccessPolicy_IsConstruct(x interface{}) *bool
 ```
@@ -458,7 +458,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.iotsitewiseAccessPolicy.IotsitewiseAccessPolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseaccesspolicy"
 
 iotsitewiseaccesspolicy.IotsitewiseAccessPolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -472,7 +472,7 @@ iotsitewiseaccesspolicy.IotsitewiseAccessPolicy_IsTerraformElement(x interface{}
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.iotsitewiseAccessPolicy.IotsitewiseAccessPolicy.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseaccesspolicy"
 
 iotsitewiseaccesspolicy.IotsitewiseAccessPolicy_IsTerraformResource(x interface{}) *bool
 ```
@@ -486,7 +486,7 @@ iotsitewiseaccesspolicy.IotsitewiseAccessPolicy_IsTerraformResource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.iotsitewiseAccessPolicy.IotsitewiseAccessPolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseaccesspolicy"
 
 iotsitewiseaccesspolicy.IotsitewiseAccessPolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -515,7 +515,7 @@ The construct id used in the generated config for the IotsitewiseAccessPolicy to
 
 The id of the existing IotsitewiseAccessPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_access_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_access_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -814,12 +814,12 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsitewiseAccessPolicy.IotsitewiseAccessPolicyAccessPolicyIdentity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseaccesspolicy"
 
 &iotsitewiseaccesspolicy.IotsitewiseAccessPolicyAccessPolicyIdentity {
-	IamRole: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotsitewiseAccessPolicy.IotsitewiseAccessPolicyAccessPolicyIdentityIamRole,
-	IamUser: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotsitewiseAccessPolicy.IotsitewiseAccessPolicyAccessPolicyIdentityIamUser,
-	User: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotsitewiseAccessPolicy.IotsitewiseAccessPolicyAccessPolicyIdentityUser,
+	IamRole: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotsitewiseAccessPolicy.IotsitewiseAccessPolicyAccessPolicyIdentityIamRole,
+	IamUser: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotsitewiseAccessPolicy.IotsitewiseAccessPolicyAccessPolicyIdentityIamUser,
+	User: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotsitewiseAccessPolicy.IotsitewiseAccessPolicyAccessPolicyIdentityUser,
 }
 ```
 
@@ -843,7 +843,7 @@ IamRole IotsitewiseAccessPolicyAccessPolicyIdentityIamRole
 
 Contains information for an IAM role identity in an access policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_access_policy#iam_role IotsitewiseAccessPolicy#iam_role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_access_policy#iam_role IotsitewiseAccessPolicy#iam_role}
 
 ---
 
@@ -857,7 +857,7 @@ IamUser IotsitewiseAccessPolicyAccessPolicyIdentityIamUser
 
 Contains information for an IAM user identity in an access policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_access_policy#iam_user IotsitewiseAccessPolicy#iam_user}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_access_policy#iam_user IotsitewiseAccessPolicy#iam_user}
 
 ---
 
@@ -871,7 +871,7 @@ User IotsitewiseAccessPolicyAccessPolicyIdentityUser
 
 Contains information for a user identity in an access policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_access_policy#user IotsitewiseAccessPolicy#user}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_access_policy#user IotsitewiseAccessPolicy#user}
 
 ---
 
@@ -880,7 +880,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsitewiseAccessPolicy.IotsitewiseAccessPolicyAccessPolicyIdentityIamRole.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseaccesspolicy"
 
 &iotsitewiseaccesspolicy.IotsitewiseAccessPolicyAccessPolicyIdentityIamRole {
 	Arn: *string,
@@ -905,7 +905,7 @@ Arn *string
 
 The ARN of the IAM role.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_access_policy#arn IotsitewiseAccessPolicy#arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_access_policy#arn IotsitewiseAccessPolicy#arn}
 
 ---
 
@@ -914,7 +914,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsitewiseAccessPolicy.IotsitewiseAccessPolicyAccessPolicyIdentityIamUser.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseaccesspolicy"
 
 &iotsitewiseaccesspolicy.IotsitewiseAccessPolicyAccessPolicyIdentityIamUser {
 	Arn: *string,
@@ -939,7 +939,7 @@ Arn *string
 
 The ARN of the IAM user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_access_policy#arn IotsitewiseAccessPolicy#arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_access_policy#arn IotsitewiseAccessPolicy#arn}
 
 ---
 
@@ -948,7 +948,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsitewiseAccessPolicy.IotsitewiseAccessPolicyAccessPolicyIdentityUser.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseaccesspolicy"
 
 &iotsitewiseaccesspolicy.IotsitewiseAccessPolicyAccessPolicyIdentityUser {
 	Id: *string,
@@ -973,7 +973,7 @@ Id *string
 
 The AWS SSO ID of the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_access_policy#id IotsitewiseAccessPolicy#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_access_policy#id IotsitewiseAccessPolicy#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -985,11 +985,11 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsitewiseAccessPolicy.IotsitewiseAccessPolicyAccessPolicyResource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseaccesspolicy"
 
 &iotsitewiseaccesspolicy.IotsitewiseAccessPolicyAccessPolicyResource {
-	Portal: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotsitewiseAccessPolicy.IotsitewiseAccessPolicyAccessPolicyResourcePortal,
-	Project: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotsitewiseAccessPolicy.IotsitewiseAccessPolicyAccessPolicyResourceProject,
+	Portal: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotsitewiseAccessPolicy.IotsitewiseAccessPolicyAccessPolicyResourcePortal,
+	Project: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotsitewiseAccessPolicy.IotsitewiseAccessPolicyAccessPolicyResourceProject,
 }
 ```
 
@@ -1012,7 +1012,7 @@ Portal IotsitewiseAccessPolicyAccessPolicyResourcePortal
 
 A portal resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_access_policy#portal IotsitewiseAccessPolicy#portal}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_access_policy#portal IotsitewiseAccessPolicy#portal}
 
 ---
 
@@ -1026,7 +1026,7 @@ Project IotsitewiseAccessPolicyAccessPolicyResourceProject
 
 A project resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_access_policy#project IotsitewiseAccessPolicy#project}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_access_policy#project IotsitewiseAccessPolicy#project}
 
 ---
 
@@ -1035,7 +1035,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsitewiseAccessPolicy.IotsitewiseAccessPolicyAccessPolicyResourcePortal.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseaccesspolicy"
 
 &iotsitewiseaccesspolicy.IotsitewiseAccessPolicyAccessPolicyResourcePortal {
 	Id: *string,
@@ -1060,7 +1060,7 @@ Id *string
 
 The ID of the portal.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_access_policy#id IotsitewiseAccessPolicy#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_access_policy#id IotsitewiseAccessPolicy#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1072,7 +1072,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsitewiseAccessPolicy.IotsitewiseAccessPolicyAccessPolicyResourceProject.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseaccesspolicy"
 
 &iotsitewiseaccesspolicy.IotsitewiseAccessPolicyAccessPolicyResourceProject {
 	Id: *string,
@@ -1097,7 +1097,7 @@ Id *string
 
 The ID of the project.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_access_policy#id IotsitewiseAccessPolicy#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_access_policy#id IotsitewiseAccessPolicy#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1109,7 +1109,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsitewiseAccessPolicy.IotsitewiseAccessPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseaccesspolicy"
 
 &iotsitewiseaccesspolicy.IotsitewiseAccessPolicyConfig {
 	Connection: interface{},
@@ -1119,9 +1119,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseaccesspolic
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	AccessPolicyIdentity: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotsitewiseAccessPolicy.IotsitewiseAccessPolicyAccessPolicyIdentity,
+	AccessPolicyIdentity: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotsitewiseAccessPolicy.IotsitewiseAccessPolicyAccessPolicyIdentity,
 	AccessPolicyPermission: *string,
-	AccessPolicyResource: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotsitewiseAccessPolicy.IotsitewiseAccessPolicyAccessPolicyResource,
+	AccessPolicyResource: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotsitewiseAccessPolicy.IotsitewiseAccessPolicyAccessPolicyResource,
 }
 ```
 
@@ -1222,7 +1222,7 @@ AccessPolicyIdentity IotsitewiseAccessPolicyAccessPolicyIdentity
 
 The identity for this access policy. Choose either a user or a group but not both.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_access_policy#access_policy_identity IotsitewiseAccessPolicy#access_policy_identity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_access_policy#access_policy_identity IotsitewiseAccessPolicy#access_policy_identity}
 
 ---
 
@@ -1236,7 +1236,7 @@ AccessPolicyPermission *string
 
 The permission level for this access policy. Valid values are ADMINISTRATOR or VIEWER.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_access_policy#access_policy_permission IotsitewiseAccessPolicy#access_policy_permission}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_access_policy#access_policy_permission IotsitewiseAccessPolicy#access_policy_permission}
 
 ---
 
@@ -1250,7 +1250,7 @@ AccessPolicyResource IotsitewiseAccessPolicyAccessPolicyResource
 
 The AWS IoT SiteWise Monitor resource for this access policy. Choose either portal or project but not both.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_access_policy#access_policy_resource IotsitewiseAccessPolicy#access_policy_resource}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_access_policy#access_policy_resource IotsitewiseAccessPolicy#access_policy_resource}
 
 ---
 
@@ -1261,7 +1261,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseAccessPolicy.IotsitewiseAccessPolicyAccessPolicyIdentityIamRoleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseaccesspolicy"
 
 iotsitewiseaccesspolicy.NewIotsitewiseAccessPolicyAccessPolicyIdentityIamRoleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotsitewiseAccessPolicyAccessPolicyIdentityIamRoleOutputReference
 ```
@@ -1539,7 +1539,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseAccessPolicy.IotsitewiseAccessPolicyAccessPolicyIdentityIamUserOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseaccesspolicy"
 
 iotsitewiseaccesspolicy.NewIotsitewiseAccessPolicyAccessPolicyIdentityIamUserOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotsitewiseAccessPolicyAccessPolicyIdentityIamUserOutputReference
 ```
@@ -1817,7 +1817,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseAccessPolicy.IotsitewiseAccessPolicyAccessPolicyIdentityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseaccesspolicy"
 
 iotsitewiseaccesspolicy.NewIotsitewiseAccessPolicyAccessPolicyIdentityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotsitewiseAccessPolicyAccessPolicyIdentityOutputReference
 ```
@@ -2192,7 +2192,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseAccessPolicy.IotsitewiseAccessPolicyAccessPolicyIdentityUserOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseaccesspolicy"
 
 iotsitewiseaccesspolicy.NewIotsitewiseAccessPolicyAccessPolicyIdentityUserOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotsitewiseAccessPolicyAccessPolicyIdentityUserOutputReference
 ```
@@ -2470,7 +2470,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseAccessPolicy.IotsitewiseAccessPolicyAccessPolicyResourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseaccesspolicy"
 
 iotsitewiseaccesspolicy.NewIotsitewiseAccessPolicyAccessPolicyResourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotsitewiseAccessPolicyAccessPolicyResourceOutputReference
 ```
@@ -2803,7 +2803,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseAccessPolicy.IotsitewiseAccessPolicyAccessPolicyResourcePortalOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseaccesspolicy"
 
 iotsitewiseaccesspolicy.NewIotsitewiseAccessPolicyAccessPolicyResourcePortalOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotsitewiseAccessPolicyAccessPolicyResourcePortalOutputReference
 ```
@@ -3081,7 +3081,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseAccessPolicy.IotsitewiseAccessPolicyAccessPolicyResourceProjectOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseaccesspolicy"
 
 iotsitewiseaccesspolicy.NewIotsitewiseAccessPolicyAccessPolicyResourceProjectOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotsitewiseAccessPolicyAccessPolicyResourceProjectOutputReference
 ```

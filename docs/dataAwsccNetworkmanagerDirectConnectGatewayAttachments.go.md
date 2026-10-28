@@ -4,12 +4,12 @@
 
 ### DataAwsccNetworkmanagerDirectConnectGatewayAttachments <a name="DataAwsccNetworkmanagerDirectConnectGatewayAttachments" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerDirectConnectGatewayAttachments.DataAwsccNetworkmanagerDirectConnectGatewayAttachments"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/networkmanager_direct_connect_gateway_attachments awscc_networkmanager_direct_connect_gateway_attachments}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/networkmanager_direct_connect_gateway_attachments awscc_networkmanager_direct_connect_gateway_attachments}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerDirectConnectGatewayAttachments.DataAwsccNetworkmanagerDirectConnectGatewayAttachments.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagerdirectconnectgatewayattachments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagerdirectconnectgatewayattachments"
 
 dataawsccnetworkmanagerdirectconnectgatewayattachments.NewDataAwsccNetworkmanagerDirectConnectGatewayAttachments(scope Construct, id *string, config DataAwsccNetworkmanagerDirectConnectGatewayAttachmentsConfig) DataAwsccNetworkmanagerDirectConnectGatewayAttachments
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerDirectConnectGatewayAttachments.DataAwsccNetworkmanagerDirectConnectGatewayAttachments.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagerdirectconnectgatewayattachments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagerdirectconnectgatewayattachments"
 
 dataawsccnetworkmanagerdirectconnectgatewayattachments.DataAwsccNetworkmanagerDirectConnectGatewayAttachments_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerDirectConnectGatewayAttachments.DataAwsccNetworkmanagerDirectConnectGatewayAttachments.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagerdirectconnectgatewayattachments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagerdirectconnectgatewayattachments"
 
 dataawsccnetworkmanagerdirectconnectgatewayattachments.DataAwsccNetworkmanagerDirectConnectGatewayAttachments_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccnetworkmanagerdirectconnectgatewayattachments.DataAwsccNetworkmanagerDi
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerDirectConnectGatewayAttachments.DataAwsccNetworkmanagerDirectConnectGatewayAttachments.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagerdirectconnectgatewayattachments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagerdirectconnectgatewayattachments"
 
 dataawsccnetworkmanagerdirectconnectgatewayattachments.DataAwsccNetworkmanagerDirectConnectGatewayAttachments_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccnetworkmanagerdirectconnectgatewayattachments.DataAwsccNetworkmanagerDi
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerDirectConnectGatewayAttachments.DataAwsccNetworkmanagerDirectConnectGatewayAttachments.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagerdirectconnectgatewayattachments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagerdirectconnectgatewayattachments"
 
 dataawsccnetworkmanagerdirectconnectgatewayattachments.DataAwsccNetworkmanagerDirectConnectGatewayAttachments_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccNetworkmanagerDir
 
 The id of the existing DataAwsccNetworkmanagerDirectConnectGatewayAttachments that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/networkmanager_direct_connect_gateway_attachments#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/networkmanager_direct_connect_gateway_attachments#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerDirectConnectGatewayAttachments.DataAwsccNetworkmanagerDirectConnectGatewayAttachmentsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagerdirectconnectgatewayattachments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagerdirectconnectgatewayattachments"
 
 &dataawsccnetworkmanagerdirectconnectgatewayattachments.DataAwsccNetworkmanagerDirectConnectGatewayAttachmentsConfig {
 	Connection: interface{},

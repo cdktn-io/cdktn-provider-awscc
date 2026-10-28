@@ -4,12 +4,12 @@
 
 ### DataAwsccVoiceidDomain <a name="DataAwsccVoiceidDomain" id="@cdktn/provider-awscc.dataAwsccVoiceidDomain.DataAwsccVoiceidDomain"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/voiceid_domain awscc_voiceid_domain}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/voiceid_domain awscc_voiceid_domain}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccVoiceidDomain.DataAwsccVoiceidDomain.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvoiceiddomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvoiceiddomain"
 
 dataawsccvoiceiddomain.NewDataAwsccVoiceidDomain(scope Construct, id *string, config DataAwsccVoiceidDomainConfig) DataAwsccVoiceidDomain
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccVoiceidDomain.DataAwsccVoiceidDomain.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvoiceiddomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvoiceiddomain"
 
 dataawsccvoiceiddomain.DataAwsccVoiceidDomain_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccVoiceidDomain.DataAwsccVoiceidDomain.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvoiceiddomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvoiceiddomain"
 
 dataawsccvoiceiddomain.DataAwsccVoiceidDomain_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccvoiceiddomain.DataAwsccVoiceidDomain_IsTerraformElement(x interface{}) 
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccVoiceidDomain.DataAwsccVoiceidDomain.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvoiceiddomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvoiceiddomain"
 
 dataawsccvoiceiddomain.DataAwsccVoiceidDomain_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccvoiceiddomain.DataAwsccVoiceidDomain_IsTerraformDataSource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccVoiceidDomain.DataAwsccVoiceidDomain.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvoiceiddomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvoiceiddomain"
 
 dataawsccvoiceiddomain.DataAwsccVoiceidDomain_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccVoiceidDomain to 
 
 The id of the existing DataAwsccVoiceidDomain that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/voiceid_domain#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/voiceid_domain#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -642,7 +642,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccVoiceidDomain.DataAwsccVoiceidDomainConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvoiceiddomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvoiceiddomain"
 
 &dataawsccvoiceiddomain.DataAwsccVoiceidDomainConfig {
 	Connection: interface{},
@@ -751,7 +751,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/voiceid_domain#id DataAwsccVoiceidDomain#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/voiceid_domain#id DataAwsccVoiceidDomain#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -763,7 +763,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccVoiceidDomain.DataAwsccVoiceidDomainServerSideEncryptionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvoiceiddomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvoiceiddomain"
 
 &dataawsccvoiceiddomain.DataAwsccVoiceidDomainServerSideEncryptionConfiguration {
 
@@ -776,7 +776,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvoiceiddomain
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccVoiceidDomain.DataAwsccVoiceidDomainTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvoiceiddomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvoiceiddomain"
 
 &dataawsccvoiceiddomain.DataAwsccVoiceidDomainTags {
 
@@ -791,7 +791,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvoiceiddomain
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccVoiceidDomain.DataAwsccVoiceidDomainServerSideEncryptionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvoiceiddomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvoiceiddomain"
 
 dataawsccvoiceiddomain.NewDataAwsccVoiceidDomainServerSideEncryptionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccVoiceidDomainServerSideEncryptionConfigurationOutputReference
 ```
@@ -1051,7 +1051,7 @@ func InternalValue() DataAwsccVoiceidDomainServerSideEncryptionConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccVoiceidDomain.DataAwsccVoiceidDomainTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvoiceiddomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvoiceiddomain"
 
 dataawsccvoiceiddomain.NewDataAwsccVoiceidDomainTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccVoiceidDomainTagsList
 ```
@@ -1200,7 +1200,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccVoiceidDomain.DataAwsccVoiceidDomainTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvoiceiddomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvoiceiddomain"
 
 dataawsccvoiceiddomain.NewDataAwsccVoiceidDomainTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccVoiceidDomainTagsOutputReference
 ```

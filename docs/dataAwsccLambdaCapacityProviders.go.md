@@ -4,12 +4,12 @@
 
 ### DataAwsccLambdaCapacityProviders <a name="DataAwsccLambdaCapacityProviders" id="@cdktn/provider-awscc.dataAwsccLambdaCapacityProviders.DataAwsccLambdaCapacityProviders"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lambda_capacity_providers awscc_lambda_capacity_providers}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lambda_capacity_providers awscc_lambda_capacity_providers}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaCapacityProviders.DataAwsccLambdaCapacityProviders.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdacapacityproviders"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdacapacityproviders"
 
 dataawscclambdacapacityproviders.NewDataAwsccLambdaCapacityProviders(scope Construct, id *string, config DataAwsccLambdaCapacityProvidersConfig) DataAwsccLambdaCapacityProviders
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccLambdaCapacityProviders.DataAwsccLambdaCapacityProviders.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdacapacityproviders"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdacapacityproviders"
 
 dataawscclambdacapacityproviders.DataAwsccLambdaCapacityProviders_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccLambdaCapacityProviders.DataAwsccLambdaCapacityProviders.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdacapacityproviders"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdacapacityproviders"
 
 dataawscclambdacapacityproviders.DataAwsccLambdaCapacityProviders_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscclambdacapacityproviders.DataAwsccLambdaCapacityProviders_IsTerraformEle
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccLambdaCapacityProviders.DataAwsccLambdaCapacityProviders.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdacapacityproviders"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdacapacityproviders"
 
 dataawscclambdacapacityproviders.DataAwsccLambdaCapacityProviders_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscclambdacapacityproviders.DataAwsccLambdaCapacityProviders_IsTerraformDat
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccLambdaCapacityProviders.DataAwsccLambdaCapacityProviders.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdacapacityproviders"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdacapacityproviders"
 
 dataawscclambdacapacityproviders.DataAwsccLambdaCapacityProviders_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLambdaCapacityPro
 
 The id of the existing DataAwsccLambdaCapacityProviders that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lambda_capacity_providers#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lambda_capacity_providers#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaCapacityProviders.DataAwsccLambdaCapacityProvidersConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdacapacityproviders"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdacapacityproviders"
 
 &dataawscclambdacapacityproviders.DataAwsccLambdaCapacityProvidersConfig {
 	Connection: interface{},

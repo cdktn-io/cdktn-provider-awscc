@@ -4,12 +4,12 @@
 
 ### DataAwsccCustomerprofilesObjectType <a name="DataAwsccCustomerprofilesObjectType" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesObjectType.DataAwsccCustomerprofilesObjectType"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/customerprofiles_object_type awscc_customerprofiles_object_type}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/customerprofiles_object_type awscc_customerprofiles_object_type}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesObjectType.DataAwsccCustomerprofilesObjectType.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilesobjecttype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilesobjecttype"
 
 dataawscccustomerprofilesobjecttype.NewDataAwsccCustomerprofilesObjectType(scope Construct, id *string, config DataAwsccCustomerprofilesObjectTypeConfig) DataAwsccCustomerprofilesObjectType
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesObjectType.DataAwsccCustomerprofilesObjectType.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilesobjecttype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilesobjecttype"
 
 dataawscccustomerprofilesobjecttype.DataAwsccCustomerprofilesObjectType_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesObjectType.DataAwsccCustomerprofilesObjectType.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilesobjecttype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilesobjecttype"
 
 dataawscccustomerprofilesobjecttype.DataAwsccCustomerprofilesObjectType_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccustomerprofilesobjecttype.DataAwsccCustomerprofilesObjectType_IsTerraf
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesObjectType.DataAwsccCustomerprofilesObjectType.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilesobjecttype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilesobjecttype"
 
 dataawscccustomerprofilesobjecttype.DataAwsccCustomerprofilesObjectType_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccustomerprofilesobjecttype.DataAwsccCustomerprofilesObjectType_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesObjectType.DataAwsccCustomerprofilesObjectType.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilesobjecttype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilesobjecttype"
 
 dataawscccustomerprofilesobjecttype.DataAwsccCustomerprofilesObjectType_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCustomerprofilesO
 
 The id of the existing DataAwsccCustomerprofilesObjectType that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/customerprofiles_object_type#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/customerprofiles_object_type#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -763,7 +763,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesObjectType.DataAwsccCustomerprofilesObjectTypeConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilesobjecttype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilesobjecttype"
 
 &dataawscccustomerprofilesobjecttype.DataAwsccCustomerprofilesObjectTypeConfig {
 	Connection: interface{},
@@ -872,7 +872,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/customerprofiles_object_type#id DataAwsccCustomerprofilesObjectType#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/customerprofiles_object_type#id DataAwsccCustomerprofilesObjectType#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -884,7 +884,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesObjectType.DataAwsccCustomerprofilesObjectTypeFields.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilesobjecttype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilesobjecttype"
 
 &dataawscccustomerprofilesobjecttype.DataAwsccCustomerprofilesObjectTypeFields {
 
@@ -897,7 +897,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesObjectType.DataAwsccCustomerprofilesObjectTypeFieldsObjectTypeField.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilesobjecttype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilesobjecttype"
 
 &dataawscccustomerprofilesobjecttype.DataAwsccCustomerprofilesObjectTypeFieldsObjectTypeField {
 
@@ -910,7 +910,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesObjectType.DataAwsccCustomerprofilesObjectTypeKeys.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilesobjecttype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilesobjecttype"
 
 &dataawscccustomerprofilesobjecttype.DataAwsccCustomerprofilesObjectTypeKeys {
 
@@ -923,7 +923,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesObjectType.DataAwsccCustomerprofilesObjectTypeKeysObjectTypeKeyListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilesobjecttype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilesobjecttype"
 
 &dataawscccustomerprofilesobjecttype.DataAwsccCustomerprofilesObjectTypeKeysObjectTypeKeyListStruct {
 
@@ -936,7 +936,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesObjectType.DataAwsccCustomerprofilesObjectTypeTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilesobjecttype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilesobjecttype"
 
 &dataawscccustomerprofilesobjecttype.DataAwsccCustomerprofilesObjectTypeTags {
 
@@ -951,7 +951,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesObjectType.DataAwsccCustomerprofilesObjectTypeFieldsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilesobjecttype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilesobjecttype"
 
 dataawscccustomerprofilesobjecttype.NewDataAwsccCustomerprofilesObjectTypeFieldsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCustomerprofilesObjectTypeFieldsList
 ```
@@ -1100,7 +1100,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesObjectType.DataAwsccCustomerprofilesObjectTypeFieldsObjectTypeFieldOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilesobjecttype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilesobjecttype"
 
 dataawscccustomerprofilesobjecttype.NewDataAwsccCustomerprofilesObjectTypeFieldsObjectTypeFieldOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCustomerprofilesObjectTypeFieldsObjectTypeFieldOutputReference
 ```
@@ -1382,7 +1382,7 @@ func InternalValue() DataAwsccCustomerprofilesObjectTypeFieldsObjectTypeField
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesObjectType.DataAwsccCustomerprofilesObjectTypeFieldsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilesobjecttype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilesobjecttype"
 
 dataawscccustomerprofilesobjecttype.NewDataAwsccCustomerprofilesObjectTypeFieldsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCustomerprofilesObjectTypeFieldsOutputReference
 ```
@@ -1671,7 +1671,7 @@ func InternalValue() DataAwsccCustomerprofilesObjectTypeFields
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesObjectType.DataAwsccCustomerprofilesObjectTypeKeysList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilesobjecttype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilesobjecttype"
 
 dataawscccustomerprofilesobjecttype.NewDataAwsccCustomerprofilesObjectTypeKeysList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCustomerprofilesObjectTypeKeysList
 ```
@@ -1820,7 +1820,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesObjectType.DataAwsccCustomerprofilesObjectTypeKeysObjectTypeKeyListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilesobjecttype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilesobjecttype"
 
 dataawscccustomerprofilesobjecttype.NewDataAwsccCustomerprofilesObjectTypeKeysObjectTypeKeyListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCustomerprofilesObjectTypeKeysObjectTypeKeyListStructList
 ```
@@ -1969,7 +1969,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesObjectType.DataAwsccCustomerprofilesObjectTypeKeysObjectTypeKeyListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilesobjecttype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilesobjecttype"
 
 dataawscccustomerprofilesobjecttype.NewDataAwsccCustomerprofilesObjectTypeKeysObjectTypeKeyListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCustomerprofilesObjectTypeKeysObjectTypeKeyListStructOutputReference
 ```
@@ -2258,7 +2258,7 @@ func InternalValue() DataAwsccCustomerprofilesObjectTypeKeysObjectTypeKeyListStr
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesObjectType.DataAwsccCustomerprofilesObjectTypeKeysOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilesobjecttype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilesobjecttype"
 
 dataawscccustomerprofilesobjecttype.NewDataAwsccCustomerprofilesObjectTypeKeysOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCustomerprofilesObjectTypeKeysOutputReference
 ```
@@ -2547,7 +2547,7 @@ func InternalValue() DataAwsccCustomerprofilesObjectTypeKeys
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesObjectType.DataAwsccCustomerprofilesObjectTypeTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilesobjecttype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilesobjecttype"
 
 dataawscccustomerprofilesobjecttype.NewDataAwsccCustomerprofilesObjectTypeTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCustomerprofilesObjectTypeTagsList
 ```
@@ -2696,7 +2696,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCustomerprofilesObjectType.DataAwsccCustomerprofilesObjectTypeTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilesobjecttype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilesobjecttype"
 
 dataawscccustomerprofilesobjecttype.NewDataAwsccCustomerprofilesObjectTypeTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCustomerprofilesObjectTypeTagsOutputReference
 ```

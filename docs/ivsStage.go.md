@@ -4,12 +4,12 @@
 
 ### IvsStage <a name="IvsStage" id="@cdktn/provider-awscc.ivsStage.IvsStage"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_stage awscc_ivs_stage}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_stage awscc_ivs_stage}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ivsStage.IvsStage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivsstage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivsstage"
 
 ivsstage.NewIvsStage(scope Construct, id *string, config IvsStageConfig) IvsStage
 ```
@@ -447,7 +447,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.ivsStage.IvsStage.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivsstage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivsstage"
 
 ivsstage.IvsStage_IsConstruct(x interface{}) *bool
 ```
@@ -479,7 +479,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.ivsStage.IvsStage.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivsstage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivsstage"
 
 ivsstage.IvsStage_IsTerraformElement(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ ivsstage.IvsStage_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.ivsStage.IvsStage.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivsstage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivsstage"
 
 ivsstage.IvsStage_IsTerraformResource(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ ivsstage.IvsStage_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.ivsStage.IvsStage.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivsstage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivsstage"
 
 ivsstage.IvsStage_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -536,7 +536,7 @@ The construct id used in the generated config for the IvsStage to import.
 
 The id of the existing IvsStage that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_stage#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_stage#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -835,14 +835,14 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ivsStage.IvsStageAutoParticipantRecordingConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivsstage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivsstage"
 
 &ivsstage.IvsStageAutoParticipantRecordingConfiguration {
-	HlsConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ivsStage.IvsStageAutoParticipantRecordingConfigurationHlsConfiguration,
+	HlsConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ivsStage.IvsStageAutoParticipantRecordingConfigurationHlsConfiguration,
 	MediaTypes: *[]*string,
 	RecordingReconnectWindowSeconds: *f64,
 	StorageConfigurationArn: *string,
-	ThumbnailConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ivsStage.IvsStageAutoParticipantRecordingConfigurationThumbnailConfiguration,
+	ThumbnailConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ivsStage.IvsStageAutoParticipantRecordingConfigurationThumbnailConfiguration,
 }
 ```
 
@@ -868,7 +868,7 @@ HlsConfiguration IvsStageAutoParticipantRecordingConfigurationHlsConfiguration
 
 HLS configuration object for individual participant recording.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_stage#hls_configuration IvsStage#hls_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_stage#hls_configuration IvsStage#hls_configuration}
 
 ---
 
@@ -882,7 +882,7 @@ MediaTypes *[]*string
 
 Types of media to be recorded. Default: AUDIO_VIDEO.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_stage#media_types IvsStage#media_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_stage#media_types IvsStage#media_types}
 
 ---
 
@@ -898,7 +898,7 @@ If a stage publisher disconnects and then reconnects within the specified interv
 
 The default value is 0, which disables merging.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_stage#recording_reconnect_window_seconds IvsStage#recording_reconnect_window_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_stage#recording_reconnect_window_seconds IvsStage#recording_reconnect_window_seconds}
 
 ---
 
@@ -912,7 +912,7 @@ StorageConfigurationArn *string
 
 ARN of the StorageConfiguration resource to use for individual participant recording.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_stage#storage_configuration_arn IvsStage#storage_configuration_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_stage#storage_configuration_arn IvsStage#storage_configuration_arn}
 
 ---
 
@@ -926,7 +926,7 @@ ThumbnailConfiguration IvsStageAutoParticipantRecordingConfigurationThumbnailCon
 
 A complex type that allows you to enable/disable the recording of thumbnails for individual participant recording and modify the interval at which thumbnails are generated for the live session.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_stage#thumbnail_configuration IvsStage#thumbnail_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_stage#thumbnail_configuration IvsStage#thumbnail_configuration}
 
 ---
 
@@ -935,10 +935,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ivsStage.IvsStageAutoParticipantRecordingConfigurationHlsConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivsstage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivsstage"
 
 &ivsstage.IvsStageAutoParticipantRecordingConfigurationHlsConfiguration {
-	ParticipantRecordingHlsConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ivsStage.IvsStageAutoParticipantRecordingConfigurationHlsConfigurationParticipantRecordingHlsConfiguration,
+	ParticipantRecordingHlsConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ivsStage.IvsStageAutoParticipantRecordingConfigurationHlsConfigurationParticipantRecordingHlsConfiguration,
 }
 ```
 
@@ -960,7 +960,7 @@ ParticipantRecordingHlsConfiguration IvsStageAutoParticipantRecordingConfigurati
 
 An object representing a configuration of participant HLS recordings for individual participant recording.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_stage#participant_recording_hls_configuration IvsStage#participant_recording_hls_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_stage#participant_recording_hls_configuration IvsStage#participant_recording_hls_configuration}
 
 ---
 
@@ -969,7 +969,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ivsStage.IvsStageAutoParticipantRecordingConfigurationHlsConfigurationParticipantRecordingHlsConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivsstage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivsstage"
 
 &ivsstage.IvsStageAutoParticipantRecordingConfigurationHlsConfigurationParticipantRecordingHlsConfiguration {
 	TargetSegmentDurationSeconds: *f64,
@@ -996,7 +996,7 @@ Defines the target duration for recorded segments generated when recording a sta
 
 Segments may have durations longer than the specified value when needed to ensure each segment begins with a keyframe. Default: 6.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_stage#target_segment_duration_seconds IvsStage#target_segment_duration_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_stage#target_segment_duration_seconds IvsStage#target_segment_duration_seconds}
 
 ---
 
@@ -1005,10 +1005,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ivsStage.IvsStageAutoParticipantRecordingConfigurationThumbnailConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivsstage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivsstage"
 
 &ivsstage.IvsStageAutoParticipantRecordingConfigurationThumbnailConfiguration {
-	ParticipantThumbnailConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ivsStage.IvsStageAutoParticipantRecordingConfigurationThumbnailConfigurationParticipantThumbnailConfiguration,
+	ParticipantThumbnailConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ivsStage.IvsStageAutoParticipantRecordingConfigurationThumbnailConfigurationParticipantThumbnailConfiguration,
 }
 ```
 
@@ -1030,7 +1030,7 @@ ParticipantThumbnailConfiguration IvsStageAutoParticipantRecordingConfigurationT
 
 An object representing a configuration of thumbnails for recorded video from an individual participant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_stage#participant_thumbnail_configuration IvsStage#participant_thumbnail_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_stage#participant_thumbnail_configuration IvsStage#participant_thumbnail_configuration}
 
 ---
 
@@ -1039,7 +1039,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ivsStage.IvsStageAutoParticipantRecordingConfigurationThumbnailConfigurationParticipantThumbnailConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivsstage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivsstage"
 
 &ivsstage.IvsStageAutoParticipantRecordingConfigurationThumbnailConfigurationParticipantThumbnailConfiguration {
 	RecordingMode: *string,
@@ -1068,7 +1068,7 @@ RecordingMode *string
 
 Thumbnail recording mode. Default: DISABLED.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_stage#recording_mode IvsStage#recording_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_stage#recording_mode IvsStage#recording_mode}
 
 ---
 
@@ -1084,7 +1084,7 @@ Indicates the format in which thumbnails are recorded.
 
 SEQUENTIAL records all generated thumbnails in a serial manner, to the media/thumbnails/high directory. LATEST saves the latest thumbnail in media/latest_thumbnail/high/thumb.jpg and overwrites it at the interval specified by targetIntervalSeconds. You can enable both SEQUENTIAL and LATEST. Default: SEQUENTIAL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_stage#storage IvsStage#storage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_stage#storage IvsStage#storage}
 
 ---
 
@@ -1098,7 +1098,7 @@ TargetIntervalSeconds *f64
 
 The targeted thumbnail-generation interval in seconds. This is configurable only if recordingMode is INTERVAL. Default: 60.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_stage#target_interval_seconds IvsStage#target_interval_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_stage#target_interval_seconds IvsStage#target_interval_seconds}
 
 ---
 
@@ -1107,7 +1107,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ivsStage.IvsStageConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivsstage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivsstage"
 
 &ivsstage.IvsStageConfig {
 	Connection: interface{},
@@ -1117,7 +1117,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivsstage"
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	AutoParticipantRecordingConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ivsStage.IvsStageAutoParticipantRecordingConfiguration,
+	AutoParticipantRecordingConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ivsStage.IvsStageAutoParticipantRecordingConfiguration,
 	Name: *string,
 	Tags: interface{},
 }
@@ -1220,7 +1220,7 @@ AutoParticipantRecordingConfiguration IvsStageAutoParticipantRecordingConfigurat
 
 Configuration object for individual participant recording, to attach to the new stage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_stage#auto_participant_recording_configuration IvsStage#auto_participant_recording_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_stage#auto_participant_recording_configuration IvsStage#auto_participant_recording_configuration}
 
 ---
 
@@ -1234,7 +1234,7 @@ Name *string
 
 Stage name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_stage#name IvsStage#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_stage#name IvsStage#name}
 
 ---
 
@@ -1248,7 +1248,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_stage#tags IvsStage#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_stage#tags IvsStage#tags}
 
 ---
 
@@ -1257,7 +1257,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ivsStage.IvsStageTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivsstage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivsstage"
 
 &ivsstage.IvsStageTags {
 	Key: *string,
@@ -1286,7 +1286,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_stage#key IvsStage#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_stage#key IvsStage#key}
 
 ---
 
@@ -1302,7 +1302,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_stage#value IvsStage#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_stage#value IvsStage#value}
 
 ---
 
@@ -1313,7 +1313,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ivsStage.IvsStageAutoParticipantRecordingConfigurationHlsConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivsstage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivsstage"
 
 ivsstage.NewIvsStageAutoParticipantRecordingConfigurationHlsConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IvsStageAutoParticipantRecordingConfigurationHlsConfigurationOutputReference
 ```
@@ -1604,7 +1604,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ivsStage.IvsStageAutoParticipantRecordingConfigurationHlsConfigurationParticipantRecordingHlsConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivsstage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivsstage"
 
 ivsstage.NewIvsStageAutoParticipantRecordingConfigurationHlsConfigurationParticipantRecordingHlsConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IvsStageAutoParticipantRecordingConfigurationHlsConfigurationParticipantRecordingHlsConfigurationOutputReference
 ```
@@ -1882,7 +1882,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ivsStage.IvsStageAutoParticipantRecordingConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivsstage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivsstage"
 
 ivsstage.NewIvsStageAutoParticipantRecordingConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IvsStageAutoParticipantRecordingConfigurationOutputReference
 ```
@@ -2302,7 +2302,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ivsStage.IvsStageAutoParticipantRecordingConfigurationThumbnailConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivsstage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivsstage"
 
 ivsstage.NewIvsStageAutoParticipantRecordingConfigurationThumbnailConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IvsStageAutoParticipantRecordingConfigurationThumbnailConfigurationOutputReference
 ```
@@ -2593,7 +2593,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ivsStage.IvsStageAutoParticipantRecordingConfigurationThumbnailConfigurationParticipantThumbnailConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivsstage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivsstage"
 
 ivsstage.NewIvsStageAutoParticipantRecordingConfigurationThumbnailConfigurationParticipantThumbnailConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IvsStageAutoParticipantRecordingConfigurationThumbnailConfigurationParticipantThumbnailConfigurationOutputReference
 ```
@@ -2929,7 +2929,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ivsStage.IvsStageTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivsstage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivsstage"
 
 ivsstage.NewIvsStageTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IvsStageTagsList
 ```
@@ -3089,7 +3089,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ivsStage.IvsStageTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivsstage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivsstage"
 
 ivsstage.NewIvsStageTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IvsStageTagsOutputReference
 ```

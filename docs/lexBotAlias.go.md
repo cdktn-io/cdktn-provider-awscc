@@ -4,12 +4,12 @@
 
 ### LexBotAlias <a name="LexBotAlias" id="@cdktn/provider-awscc.lexBotAlias.LexBotAlias"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot_alias awscc_lex_bot_alias}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot_alias awscc_lex_bot_alias}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBotAlias.LexBotAlias.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbotalias"
 
 lexbotalias.NewLexBotAlias(scope Construct, id *string, config LexBotAliasConfig) LexBotAlias
 ```
@@ -494,7 +494,7 @@ func ResetSentimentAnalysisSettings()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.lexBotAlias.LexBotAlias.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbotalias"
 
 lexbotalias.LexBotAlias_IsConstruct(x interface{}) *bool
 ```
@@ -526,7 +526,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.lexBotAlias.LexBotAlias.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbotalias"
 
 lexbotalias.LexBotAlias_IsTerraformElement(x interface{}) *bool
 ```
@@ -540,7 +540,7 @@ lexbotalias.LexBotAlias_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.lexBotAlias.LexBotAlias.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbotalias"
 
 lexbotalias.LexBotAlias_IsTerraformResource(x interface{}) *bool
 ```
@@ -554,7 +554,7 @@ lexbotalias.LexBotAlias_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.lexBotAlias.LexBotAlias.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbotalias"
 
 lexbotalias.LexBotAlias_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -583,7 +583,7 @@ The construct id used in the generated config for the LexBotAlias to import.
 
 The id of the existing LexBotAlias that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot_alias#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot_alias#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1003,10 +1003,10 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBotAlias.LexBotAliasBotAliasLocaleSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbotalias"
 
 &lexbotalias.LexBotAliasBotAliasLocaleSettings {
-	BotAliasLocaleSetting: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBotAlias.LexBotAliasBotAliasLocaleSettingsBotAliasLocaleSetting,
+	BotAliasLocaleSetting: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBotAlias.LexBotAliasBotAliasLocaleSettingsBotAliasLocaleSetting,
 	LocaleId: *string,
 }
 ```
@@ -1030,7 +1030,7 @@ BotAliasLocaleSetting LexBotAliasBotAliasLocaleSettingsBotAliasLocaleSetting
 
 You can use this parameter to specify a specific Lambda function to run different functions in different locales.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot_alias#bot_alias_locale_setting LexBotAlias#bot_alias_locale_setting}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot_alias#bot_alias_locale_setting LexBotAlias#bot_alias_locale_setting}
 
 ---
 
@@ -1044,7 +1044,7 @@ LocaleId *string
 
 A string used to identify the locale.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot_alias#locale_id LexBotAlias#locale_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot_alias#locale_id LexBotAlias#locale_id}
 
 ---
 
@@ -1053,10 +1053,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBotAlias.LexBotAliasBotAliasLocaleSettingsBotAliasLocaleSetting.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbotalias"
 
 &lexbotalias.LexBotAliasBotAliasLocaleSettingsBotAliasLocaleSetting {
-	CodeHookSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBotAlias.LexBotAliasBotAliasLocaleSettingsBotAliasLocaleSettingCodeHookSpecification,
+	CodeHookSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBotAlias.LexBotAliasBotAliasLocaleSettingsBotAliasLocaleSettingCodeHookSpecification,
 	Enabled: interface{},
 }
 ```
@@ -1080,7 +1080,7 @@ CodeHookSpecification LexBotAliasBotAliasLocaleSettingsBotAliasLocaleSettingCode
 
 Contains information about code hooks that Amazon Lex calls during a conversation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot_alias#code_hook_specification LexBotAlias#code_hook_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot_alias#code_hook_specification LexBotAlias#code_hook_specification}
 
 ---
 
@@ -1094,7 +1094,7 @@ Enabled interface{}
 
 Whether the Lambda code hook is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot_alias#enabled LexBotAlias#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot_alias#enabled LexBotAlias#enabled}
 
 ---
 
@@ -1103,10 +1103,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBotAlias.LexBotAliasBotAliasLocaleSettingsBotAliasLocaleSettingCodeHookSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbotalias"
 
 &lexbotalias.LexBotAliasBotAliasLocaleSettingsBotAliasLocaleSettingCodeHookSpecification {
-	LambdaCodeHook: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBotAlias.LexBotAliasBotAliasLocaleSettingsBotAliasLocaleSettingCodeHookSpecificationLambdaCodeHook,
+	LambdaCodeHook: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBotAlias.LexBotAliasBotAliasLocaleSettingsBotAliasLocaleSettingCodeHookSpecificationLambdaCodeHook,
 }
 ```
 
@@ -1128,7 +1128,7 @@ LambdaCodeHook LexBotAliasBotAliasLocaleSettingsBotAliasLocaleSettingCodeHookSpe
 
 Contains information about code hooks that Amazon Lex calls during a conversation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot_alias#lambda_code_hook LexBotAlias#lambda_code_hook}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot_alias#lambda_code_hook LexBotAlias#lambda_code_hook}
 
 ---
 
@@ -1137,7 +1137,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBotAlias.LexBotAliasBotAliasLocaleSettingsBotAliasLocaleSettingCodeHookSpecificationLambdaCodeHook.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbotalias"
 
 &lexbotalias.LexBotAliasBotAliasLocaleSettingsBotAliasLocaleSettingCodeHookSpecificationLambdaCodeHook {
 	CodeHookInterfaceVersion: *string,
@@ -1164,7 +1164,7 @@ CodeHookInterfaceVersion *string
 
 The version of the request-response that you want Amazon Lex to use to invoke your Lambda function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot_alias#code_hook_interface_version LexBotAlias#code_hook_interface_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot_alias#code_hook_interface_version LexBotAlias#code_hook_interface_version}
 
 ---
 
@@ -1178,7 +1178,7 @@ LambdaArn *string
 
 The Amazon Resource Name (ARN) of the Lambda function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot_alias#lambda_arn LexBotAlias#lambda_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot_alias#lambda_arn LexBotAlias#lambda_arn}
 
 ---
 
@@ -1187,7 +1187,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBotAlias.LexBotAliasBotAliasTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbotalias"
 
 &lexbotalias.LexBotAliasBotAliasTags {
 	Key: *string,
@@ -1214,7 +1214,7 @@ Key *string
 
 A string used to identify this tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot_alias#key LexBotAlias#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot_alias#key LexBotAlias#key}
 
 ---
 
@@ -1228,7 +1228,7 @@ Value *string
 
 A string containing the value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot_alias#value LexBotAlias#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot_alias#value LexBotAlias#value}
 
 ---
 
@@ -1237,7 +1237,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBotAlias.LexBotAliasConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbotalias"
 
 &lexbotalias.LexBotAliasConfig {
 	Connection: interface{},
@@ -1252,9 +1252,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbotalias"
 	BotAliasLocaleSettings: interface{},
 	BotAliasTags: interface{},
 	BotVersion: *string,
-	ConversationLogSettings: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBotAlias.LexBotAliasConversationLogSettings,
+	ConversationLogSettings: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBotAlias.LexBotAliasConversationLogSettings,
 	Description: *string,
-	SentimentAnalysisSettings: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBotAlias.LexBotAliasSentimentAnalysisSettings,
+	SentimentAnalysisSettings: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBotAlias.LexBotAliasSentimentAnalysisSettings,
 }
 ```
 
@@ -1360,7 +1360,7 @@ BotAliasName *string
 
 A unique identifier for a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot_alias#bot_alias_name LexBotAlias#bot_alias_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot_alias#bot_alias_name LexBotAlias#bot_alias_name}
 
 ---
 
@@ -1374,7 +1374,7 @@ BotId *string
 
 Unique ID of resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot_alias#bot_id LexBotAlias#bot_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot_alias#bot_id LexBotAlias#bot_id}
 
 ---
 
@@ -1388,7 +1388,7 @@ BotAliasLocaleSettings interface{}
 
 A list of bot alias locale settings to add to the bot alias.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot_alias#bot_alias_locale_settings LexBotAlias#bot_alias_locale_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot_alias#bot_alias_locale_settings LexBotAlias#bot_alias_locale_settings}
 
 ---
 
@@ -1402,7 +1402,7 @@ BotAliasTags interface{}
 
 A list of tags to add to the bot alias.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot_alias#bot_alias_tags LexBotAlias#bot_alias_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot_alias#bot_alias_tags LexBotAlias#bot_alias_tags}
 
 ---
 
@@ -1416,7 +1416,7 @@ BotVersion *string
 
 The version of a bot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot_alias#bot_version LexBotAlias#bot_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot_alias#bot_version LexBotAlias#bot_version}
 
 ---
 
@@ -1430,7 +1430,7 @@ ConversationLogSettings LexBotAliasConversationLogSettings
 
 Contains information about code hooks that Amazon Lex calls during a conversation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot_alias#conversation_log_settings LexBotAlias#conversation_log_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot_alias#conversation_log_settings LexBotAlias#conversation_log_settings}
 
 ---
 
@@ -1444,7 +1444,7 @@ Description *string
 
 A description of the bot alias. Use the description to help identify the bot alias in lists.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot_alias#description LexBotAlias#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot_alias#description LexBotAlias#description}
 
 ---
 
@@ -1458,7 +1458,7 @@ SentimentAnalysisSettings LexBotAliasSentimentAnalysisSettings
 
 Determines whether Amazon Lex will use Amazon Comprehend to detect the sentiment of user utterances.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot_alias#sentiment_analysis_settings LexBotAlias#sentiment_analysis_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot_alias#sentiment_analysis_settings LexBotAlias#sentiment_analysis_settings}
 
 ---
 
@@ -1467,7 +1467,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBotAlias.LexBotAliasConversationLogSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbotalias"
 
 &lexbotalias.LexBotAliasConversationLogSettings {
 	AudioLogSettings: interface{},
@@ -1494,7 +1494,7 @@ AudioLogSettings interface{}
 
 List of audio log settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot_alias#audio_log_settings LexBotAlias#audio_log_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot_alias#audio_log_settings LexBotAlias#audio_log_settings}
 
 ---
 
@@ -1508,7 +1508,7 @@ TextLogSettings interface{}
 
 List of text log settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot_alias#text_log_settings LexBotAlias#text_log_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot_alias#text_log_settings LexBotAlias#text_log_settings}
 
 ---
 
@@ -1517,10 +1517,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBotAlias.LexBotAliasConversationLogSettingsAudioLogSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbotalias"
 
 &lexbotalias.LexBotAliasConversationLogSettingsAudioLogSettings {
-	Destination: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBotAlias.LexBotAliasConversationLogSettingsAudioLogSettingsDestination,
+	Destination: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBotAlias.LexBotAliasConversationLogSettingsAudioLogSettingsDestination,
 	Enabled: interface{},
 }
 ```
@@ -1530,7 +1530,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbotalias"
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.lexBotAlias.LexBotAliasConversationLogSettingsAudioLogSettings.property.destination">Destination</a></code> | <code><a href="#@cdktn/provider-awscc.lexBotAlias.LexBotAliasConversationLogSettingsAudioLogSettingsDestination">LexBotAliasConversationLogSettingsAudioLogSettingsDestination</a></code> | The location of audio log files collected when conversation logging is enabled for a bot. |
-| <code><a href="#@cdktn/provider-awscc.lexBotAlias.LexBotAliasConversationLogSettingsAudioLogSettings.property.enabled">Enabled</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot_alias#enabled LexBotAlias#enabled}. |
+| <code><a href="#@cdktn/provider-awscc.lexBotAlias.LexBotAliasConversationLogSettingsAudioLogSettings.property.enabled">Enabled</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot_alias#enabled LexBotAlias#enabled}. |
 
 ---
 
@@ -1544,7 +1544,7 @@ Destination LexBotAliasConversationLogSettingsAudioLogSettingsDestination
 
 The location of audio log files collected when conversation logging is enabled for a bot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot_alias#destination LexBotAlias#destination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot_alias#destination LexBotAlias#destination}
 
 ---
 
@@ -1556,7 +1556,7 @@ Enabled interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot_alias#enabled LexBotAlias#enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot_alias#enabled LexBotAlias#enabled}.
 
 ---
 
@@ -1565,10 +1565,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBotAlias.LexBotAliasConversationLogSettingsAudioLogSettingsDestination.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbotalias"
 
 &lexbotalias.LexBotAliasConversationLogSettingsAudioLogSettingsDestination {
-	S3Bucket: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBotAlias.LexBotAliasConversationLogSettingsAudioLogSettingsDestinationS3Bucket,
+	S3Bucket: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBotAlias.LexBotAliasConversationLogSettingsAudioLogSettingsDestinationS3Bucket,
 }
 ```
 
@@ -1590,7 +1590,7 @@ S3Bucket LexBotAliasConversationLogSettingsAudioLogSettingsDestinationS3Bucket
 
 Specifies an Amazon S3 bucket for logging audio conversations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot_alias#s3_bucket LexBotAlias#s3_bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot_alias#s3_bucket LexBotAlias#s3_bucket}
 
 ---
 
@@ -1599,7 +1599,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBotAlias.LexBotAliasConversationLogSettingsAudioLogSettingsDestinationS3Bucket.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbotalias"
 
 &lexbotalias.LexBotAliasConversationLogSettingsAudioLogSettingsDestinationS3Bucket {
 	KmsKeyArn: *string,
@@ -1628,7 +1628,7 @@ KmsKeyArn *string
 
 The Amazon Resource Name (ARN) of an AWS Key Management Service (KMS) key for encrypting audio log files stored in an S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot_alias#kms_key_arn LexBotAlias#kms_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot_alias#kms_key_arn LexBotAlias#kms_key_arn}
 
 ---
 
@@ -1642,7 +1642,7 @@ LogPrefix *string
 
 The Amazon S3 key of the deployment package.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot_alias#log_prefix LexBotAlias#log_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot_alias#log_prefix LexBotAlias#log_prefix}
 
 ---
 
@@ -1656,7 +1656,7 @@ S3BucketArn *string
 
 The Amazon Resource Name (ARN) of an Amazon S3 bucket where audio log files are stored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot_alias#s3_bucket_arn LexBotAlias#s3_bucket_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot_alias#s3_bucket_arn LexBotAlias#s3_bucket_arn}
 
 ---
 
@@ -1665,10 +1665,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBotAlias.LexBotAliasConversationLogSettingsTextLogSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbotalias"
 
 &lexbotalias.LexBotAliasConversationLogSettingsTextLogSettings {
-	Destination: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBotAlias.LexBotAliasConversationLogSettingsTextLogSettingsDestination,
+	Destination: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBotAlias.LexBotAliasConversationLogSettingsTextLogSettingsDestination,
 	Enabled: interface{},
 }
 ```
@@ -1678,7 +1678,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbotalias"
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.lexBotAlias.LexBotAliasConversationLogSettingsTextLogSettings.property.destination">Destination</a></code> | <code><a href="#@cdktn/provider-awscc.lexBotAlias.LexBotAliasConversationLogSettingsTextLogSettingsDestination">LexBotAliasConversationLogSettingsTextLogSettingsDestination</a></code> | Defines the Amazon CloudWatch Logs destination log group for conversation text logs. |
-| <code><a href="#@cdktn/provider-awscc.lexBotAlias.LexBotAliasConversationLogSettingsTextLogSettings.property.enabled">Enabled</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot_alias#enabled LexBotAlias#enabled}. |
+| <code><a href="#@cdktn/provider-awscc.lexBotAlias.LexBotAliasConversationLogSettingsTextLogSettings.property.enabled">Enabled</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot_alias#enabled LexBotAlias#enabled}. |
 
 ---
 
@@ -1692,7 +1692,7 @@ Destination LexBotAliasConversationLogSettingsTextLogSettingsDestination
 
 Defines the Amazon CloudWatch Logs destination log group for conversation text logs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot_alias#destination LexBotAlias#destination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot_alias#destination LexBotAlias#destination}
 
 ---
 
@@ -1704,7 +1704,7 @@ Enabled interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot_alias#enabled LexBotAlias#enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot_alias#enabled LexBotAlias#enabled}.
 
 ---
 
@@ -1713,10 +1713,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBotAlias.LexBotAliasConversationLogSettingsTextLogSettingsDestination.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbotalias"
 
 &lexbotalias.LexBotAliasConversationLogSettingsTextLogSettingsDestination {
-	Cloudwatch: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lexBotAlias.LexBotAliasConversationLogSettingsTextLogSettingsDestinationCloudwatch,
+	Cloudwatch: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lexBotAlias.LexBotAliasConversationLogSettingsTextLogSettingsDestinationCloudwatch,
 }
 ```
 
@@ -1724,7 +1724,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbotalias"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.lexBotAlias.LexBotAliasConversationLogSettingsTextLogSettingsDestination.property.cloudwatch">Cloudwatch</a></code> | <code><a href="#@cdktn/provider-awscc.lexBotAlias.LexBotAliasConversationLogSettingsTextLogSettingsDestinationCloudwatch">LexBotAliasConversationLogSettingsTextLogSettingsDestinationCloudwatch</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot_alias#cloudwatch LexBotAlias#cloudwatch}. |
+| <code><a href="#@cdktn/provider-awscc.lexBotAlias.LexBotAliasConversationLogSettingsTextLogSettingsDestination.property.cloudwatch">Cloudwatch</a></code> | <code><a href="#@cdktn/provider-awscc.lexBotAlias.LexBotAliasConversationLogSettingsTextLogSettingsDestinationCloudwatch">LexBotAliasConversationLogSettingsTextLogSettingsDestinationCloudwatch</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot_alias#cloudwatch LexBotAlias#cloudwatch}. |
 
 ---
 
@@ -1736,7 +1736,7 @@ Cloudwatch LexBotAliasConversationLogSettingsTextLogSettingsDestinationCloudwatc
 
 - *Type:* <a href="#@cdktn/provider-awscc.lexBotAlias.LexBotAliasConversationLogSettingsTextLogSettingsDestinationCloudwatch">LexBotAliasConversationLogSettingsTextLogSettingsDestinationCloudwatch</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot_alias#cloudwatch LexBotAlias#cloudwatch}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot_alias#cloudwatch LexBotAlias#cloudwatch}.
 
 ---
 
@@ -1745,7 +1745,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBotAlias.LexBotAliasConversationLogSettingsTextLogSettingsDestinationCloudwatch.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbotalias"
 
 &lexbotalias.LexBotAliasConversationLogSettingsTextLogSettingsDestinationCloudwatch {
 	CloudwatchLogGroupArn: *string,
@@ -1772,7 +1772,7 @@ CloudwatchLogGroupArn *string
 
 A string used to identify the groupArn for the Cloudwatch Log Group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot_alias#cloudwatch_log_group_arn LexBotAlias#cloudwatch_log_group_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot_alias#cloudwatch_log_group_arn LexBotAlias#cloudwatch_log_group_arn}
 
 ---
 
@@ -1786,7 +1786,7 @@ LogPrefix *string
 
 A string containing the value for the Log Prefix.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot_alias#log_prefix LexBotAlias#log_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot_alias#log_prefix LexBotAlias#log_prefix}
 
 ---
 
@@ -1795,7 +1795,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lexBotAlias.LexBotAliasSentimentAnalysisSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbotalias"
 
 &lexbotalias.LexBotAliasSentimentAnalysisSettings {
 	DetectSentiment: interface{},
@@ -1820,7 +1820,7 @@ DetectSentiment interface{}
 
 Enable to call Amazon Comprehend for Sentiment natively within Lex.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot_alias#detect_sentiment LexBotAlias#detect_sentiment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot_alias#detect_sentiment LexBotAlias#detect_sentiment}
 
 ---
 
@@ -1831,7 +1831,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBotAlias.LexBotAliasBotAliasLocaleSettingsBotAliasLocaleSettingCodeHookSpecificationLambdaCodeHookOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbotalias"
 
 lexbotalias.NewLexBotAliasBotAliasLocaleSettingsBotAliasLocaleSettingCodeHookSpecificationLambdaCodeHookOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotAliasBotAliasLocaleSettingsBotAliasLocaleSettingCodeHookSpecificationLambdaCodeHookOutputReference
 ```
@@ -2138,7 +2138,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBotAlias.LexBotAliasBotAliasLocaleSettingsBotAliasLocaleSettingCodeHookSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbotalias"
 
 lexbotalias.NewLexBotAliasBotAliasLocaleSettingsBotAliasLocaleSettingCodeHookSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotAliasBotAliasLocaleSettingsBotAliasLocaleSettingCodeHookSpecificationOutputReference
 ```
@@ -2429,7 +2429,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBotAlias.LexBotAliasBotAliasLocaleSettingsBotAliasLocaleSettingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbotalias"
 
 lexbotalias.NewLexBotAliasBotAliasLocaleSettingsBotAliasLocaleSettingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotAliasBotAliasLocaleSettingsBotAliasLocaleSettingOutputReference
 ```
@@ -2749,7 +2749,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBotAlias.LexBotAliasBotAliasLocaleSettingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbotalias"
 
 lexbotalias.NewLexBotAliasBotAliasLocaleSettingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LexBotAliasBotAliasLocaleSettingsList
 ```
@@ -2909,7 +2909,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBotAlias.LexBotAliasBotAliasLocaleSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbotalias"
 
 lexbotalias.NewLexBotAliasBotAliasLocaleSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LexBotAliasBotAliasLocaleSettingsOutputReference
 ```
@@ -3247,7 +3247,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBotAlias.LexBotAliasBotAliasTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbotalias"
 
 lexbotalias.NewLexBotAliasBotAliasTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LexBotAliasBotAliasTagsList
 ```
@@ -3407,7 +3407,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBotAlias.LexBotAliasBotAliasTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbotalias"
 
 lexbotalias.NewLexBotAliasBotAliasTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LexBotAliasBotAliasTagsOutputReference
 ```
@@ -3732,7 +3732,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBotAlias.LexBotAliasConversationLogSettingsAudioLogSettingsDestinationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbotalias"
 
 lexbotalias.NewLexBotAliasConversationLogSettingsAudioLogSettingsDestinationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotAliasConversationLogSettingsAudioLogSettingsDestinationOutputReference
 ```
@@ -4023,7 +4023,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBotAlias.LexBotAliasConversationLogSettingsAudioLogSettingsDestinationS3BucketOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbotalias"
 
 lexbotalias.NewLexBotAliasConversationLogSettingsAudioLogSettingsDestinationS3BucketOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotAliasConversationLogSettingsAudioLogSettingsDestinationS3BucketOutputReference
 ```
@@ -4359,7 +4359,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBotAlias.LexBotAliasConversationLogSettingsAudioLogSettingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbotalias"
 
 lexbotalias.NewLexBotAliasConversationLogSettingsAudioLogSettingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LexBotAliasConversationLogSettingsAudioLogSettingsList
 ```
@@ -4519,7 +4519,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBotAlias.LexBotAliasConversationLogSettingsAudioLogSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbotalias"
 
 lexbotalias.NewLexBotAliasConversationLogSettingsAudioLogSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LexBotAliasConversationLogSettingsAudioLogSettingsOutputReference
 ```
@@ -4857,7 +4857,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBotAlias.LexBotAliasConversationLogSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbotalias"
 
 lexbotalias.NewLexBotAliasConversationLogSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotAliasConversationLogSettingsOutputReference
 ```
@@ -5190,7 +5190,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBotAlias.LexBotAliasConversationLogSettingsTextLogSettingsDestinationCloudwatchOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbotalias"
 
 lexbotalias.NewLexBotAliasConversationLogSettingsTextLogSettingsDestinationCloudwatchOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotAliasConversationLogSettingsTextLogSettingsDestinationCloudwatchOutputReference
 ```
@@ -5497,7 +5497,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBotAlias.LexBotAliasConversationLogSettingsTextLogSettingsDestinationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbotalias"
 
 lexbotalias.NewLexBotAliasConversationLogSettingsTextLogSettingsDestinationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotAliasConversationLogSettingsTextLogSettingsDestinationOutputReference
 ```
@@ -5788,7 +5788,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBotAlias.LexBotAliasConversationLogSettingsTextLogSettingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbotalias"
 
 lexbotalias.NewLexBotAliasConversationLogSettingsTextLogSettingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LexBotAliasConversationLogSettingsTextLogSettingsList
 ```
@@ -5948,7 +5948,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBotAlias.LexBotAliasConversationLogSettingsTextLogSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbotalias"
 
 lexbotalias.NewLexBotAliasConversationLogSettingsTextLogSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LexBotAliasConversationLogSettingsTextLogSettingsOutputReference
 ```
@@ -6286,7 +6286,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBotAlias.LexBotAliasSentimentAnalysisSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbotalias"
 
 lexbotalias.NewLexBotAliasSentimentAnalysisSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LexBotAliasSentimentAnalysisSettingsOutputReference
 ```

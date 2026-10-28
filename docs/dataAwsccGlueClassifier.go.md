@@ -4,12 +4,12 @@
 
 ### DataAwsccGlueClassifier <a name="DataAwsccGlueClassifier" id="@cdktn/provider-awscc.dataAwsccGlueClassifier.DataAwsccGlueClassifier"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/glue_classifier awscc_glue_classifier}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/glue_classifier awscc_glue_classifier}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueClassifier.DataAwsccGlueClassifier.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueclassifier"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueclassifier"
 
 dataawsccglueclassifier.NewDataAwsccGlueClassifier(scope Construct, id *string, config DataAwsccGlueClassifierConfig) DataAwsccGlueClassifier
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccGlueClassifier.DataAwsccGlueClassifier.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueclassifier"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueclassifier"
 
 dataawsccglueclassifier.DataAwsccGlueClassifier_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccGlueClassifier.DataAwsccGlueClassifier.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueclassifier"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueclassifier"
 
 dataawsccglueclassifier.DataAwsccGlueClassifier_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccglueclassifier.DataAwsccGlueClassifier_IsTerraformElement(x interface{}
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccGlueClassifier.DataAwsccGlueClassifier.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueclassifier"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueclassifier"
 
 dataawsccglueclassifier.DataAwsccGlueClassifier_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccglueclassifier.DataAwsccGlueClassifier_IsTerraformDataSource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccGlueClassifier.DataAwsccGlueClassifier.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueclassifier"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueclassifier"
 
 dataawsccglueclassifier.DataAwsccGlueClassifier_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccGlueClassifier to
 
 The id of the existing DataAwsccGlueClassifier that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/glue_classifier#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/glue_classifier#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -642,7 +642,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueClassifier.DataAwsccGlueClassifierConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueclassifier"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueclassifier"
 
 &dataawsccglueclassifier.DataAwsccGlueClassifierConfig {
 	Connection: interface{},
@@ -751,7 +751,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/glue_classifier#id DataAwsccGlueClassifier#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/glue_classifier#id DataAwsccGlueClassifier#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -763,7 +763,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueClassifier.DataAwsccGlueClassifierCsvClassifier.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueclassifier"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueclassifier"
 
 &dataawsccglueclassifier.DataAwsccGlueClassifierCsvClassifier {
 
@@ -776,7 +776,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueclassifie
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueClassifier.DataAwsccGlueClassifierGrokClassifier.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueclassifier"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueclassifier"
 
 &dataawsccglueclassifier.DataAwsccGlueClassifierGrokClassifier {
 
@@ -789,7 +789,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueclassifie
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueClassifier.DataAwsccGlueClassifierJsonClassifier.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueclassifier"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueclassifier"
 
 &dataawsccglueclassifier.DataAwsccGlueClassifierJsonClassifier {
 
@@ -802,7 +802,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueclassifie
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueClassifier.DataAwsccGlueClassifierXmlClassifier.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueclassifier"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueclassifier"
 
 &dataawsccglueclassifier.DataAwsccGlueClassifierXmlClassifier {
 
@@ -817,7 +817,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueclassifie
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueClassifier.DataAwsccGlueClassifierCsvClassifierOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueclassifier"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueclassifier"
 
 dataawsccglueclassifier.NewDataAwsccGlueClassifierCsvClassifierOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGlueClassifierCsvClassifierOutputReference
 ```
@@ -1165,7 +1165,7 @@ func InternalValue() DataAwsccGlueClassifierCsvClassifier
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueClassifier.DataAwsccGlueClassifierGrokClassifierOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueclassifier"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueclassifier"
 
 dataawsccglueclassifier.NewDataAwsccGlueClassifierGrokClassifierOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGlueClassifierGrokClassifierOutputReference
 ```
@@ -1458,7 +1458,7 @@ func InternalValue() DataAwsccGlueClassifierGrokClassifier
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueClassifier.DataAwsccGlueClassifierJsonClassifierOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueclassifier"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueclassifier"
 
 dataawsccglueclassifier.NewDataAwsccGlueClassifierJsonClassifierOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGlueClassifierJsonClassifierOutputReference
 ```
@@ -1729,7 +1729,7 @@ func InternalValue() DataAwsccGlueClassifierJsonClassifier
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueClassifier.DataAwsccGlueClassifierXmlClassifierOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueclassifier"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueclassifier"
 
 dataawsccglueclassifier.NewDataAwsccGlueClassifierXmlClassifierOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGlueClassifierXmlClassifierOutputReference
 ```

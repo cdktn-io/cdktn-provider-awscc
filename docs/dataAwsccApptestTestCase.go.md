@@ -4,12 +4,12 @@
 
 ### DataAwsccApptestTestCase <a name="DataAwsccApptestTestCase" id="@cdktn/provider-awscc.dataAwsccApptestTestCase.DataAwsccApptestTestCase"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apptest_test_case awscc_apptest_test_case}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apptest_test_case awscc_apptest_test_case}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApptestTestCase.DataAwsccApptestTestCase.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapptesttestcase"
 
 dataawsccapptesttestcase.NewDataAwsccApptestTestCase(scope Construct, id *string, config DataAwsccApptestTestCaseConfig) DataAwsccApptestTestCase
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccApptestTestCase.DataAwsccApptestTestCase.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapptesttestcase"
 
 dataawsccapptesttestcase.DataAwsccApptestTestCase_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccApptestTestCase.DataAwsccApptestTestCase.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapptesttestcase"
 
 dataawsccapptesttestcase.DataAwsccApptestTestCase_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccapptesttestcase.DataAwsccApptestTestCase_IsTerraformElement(x interface
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccApptestTestCase.DataAwsccApptestTestCase.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapptesttestcase"
 
 dataawsccapptesttestcase.DataAwsccApptestTestCase_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccapptesttestcase.DataAwsccApptestTestCase_IsTerraformDataSource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccApptestTestCase.DataAwsccApptestTestCase.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapptesttestcase"
 
 dataawsccapptesttestcase.DataAwsccApptestTestCase_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccApptestTestCase t
 
 The id of the existing DataAwsccApptestTestCase that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apptest_test_case#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apptest_test_case#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -708,7 +708,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApptestTestCase.DataAwsccApptestTestCaseConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapptesttestcase"
 
 &dataawsccapptesttestcase.DataAwsccApptestTestCaseConfig {
 	Connection: interface{},
@@ -817,7 +817,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apptest_test_case#id DataAwsccApptestTestCase#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apptest_test_case#id DataAwsccApptestTestCase#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -829,7 +829,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApptestTestCase.DataAwsccApptestTestCaseLatestVersion.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapptesttestcase"
 
 &dataawsccapptesttestcase.DataAwsccApptestTestCaseLatestVersion {
 
@@ -842,7 +842,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestca
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApptestTestCase.DataAwsccApptestTestCaseSteps.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapptesttestcase"
 
 &dataawsccapptesttestcase.DataAwsccApptestTestCaseSteps {
 
@@ -855,7 +855,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestca
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApptestTestCase.DataAwsccApptestTestCaseStepsAction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapptesttestcase"
 
 &dataawsccapptesttestcase.DataAwsccApptestTestCaseStepsAction {
 
@@ -868,7 +868,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestca
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApptestTestCase.DataAwsccApptestTestCaseStepsActionCompareAction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapptesttestcase"
 
 &dataawsccapptesttestcase.DataAwsccApptestTestCaseStepsActionCompareAction {
 
@@ -881,7 +881,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestca
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApptestTestCase.DataAwsccApptestTestCaseStepsActionCompareActionInput.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapptesttestcase"
 
 &dataawsccapptesttestcase.DataAwsccApptestTestCaseStepsActionCompareActionInput {
 
@@ -894,7 +894,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestca
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApptestTestCase.DataAwsccApptestTestCaseStepsActionCompareActionInputFile.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapptesttestcase"
 
 &dataawsccapptesttestcase.DataAwsccApptestTestCaseStepsActionCompareActionInputFile {
 
@@ -907,7 +907,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestca
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApptestTestCase.DataAwsccApptestTestCaseStepsActionCompareActionInputFileFileMetadata.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapptesttestcase"
 
 &dataawsccapptesttestcase.DataAwsccApptestTestCaseStepsActionCompareActionInputFileFileMetadata {
 
@@ -920,7 +920,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestca
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApptestTestCase.DataAwsccApptestTestCaseStepsActionCompareActionInputFileFileMetadataDatabaseCdc.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapptesttestcase"
 
 &dataawsccapptesttestcase.DataAwsccApptestTestCaseStepsActionCompareActionInputFileFileMetadataDatabaseCdc {
 
@@ -933,7 +933,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestca
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApptestTestCase.DataAwsccApptestTestCaseStepsActionCompareActionInputFileFileMetadataDatabaseCdcSourceMetadata.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapptesttestcase"
 
 &dataawsccapptesttestcase.DataAwsccApptestTestCaseStepsActionCompareActionInputFileFileMetadataDatabaseCdcSourceMetadata {
 
@@ -946,7 +946,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestca
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApptestTestCase.DataAwsccApptestTestCaseStepsActionCompareActionInputFileFileMetadataDatabaseCdcTargetMetadata.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapptesttestcase"
 
 &dataawsccapptesttestcase.DataAwsccApptestTestCaseStepsActionCompareActionInputFileFileMetadataDatabaseCdcTargetMetadata {
 
@@ -959,7 +959,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestca
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApptestTestCase.DataAwsccApptestTestCaseStepsActionCompareActionInputFileFileMetadataDataSets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapptesttestcase"
 
 &dataawsccapptesttestcase.DataAwsccApptestTestCaseStepsActionCompareActionInputFileFileMetadataDataSets {
 
@@ -972,7 +972,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestca
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApptestTestCase.DataAwsccApptestTestCaseStepsActionCompareActionOutput.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapptesttestcase"
 
 &dataawsccapptesttestcase.DataAwsccApptestTestCaseStepsActionCompareActionOutput {
 
@@ -985,7 +985,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestca
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApptestTestCase.DataAwsccApptestTestCaseStepsActionCompareActionOutputFile.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapptesttestcase"
 
 &dataawsccapptesttestcase.DataAwsccApptestTestCaseStepsActionCompareActionOutputFile {
 
@@ -998,7 +998,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestca
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApptestTestCase.DataAwsccApptestTestCaseStepsActionMainframeAction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapptesttestcase"
 
 &dataawsccapptesttestcase.DataAwsccApptestTestCaseStepsActionMainframeAction {
 
@@ -1011,7 +1011,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestca
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApptestTestCase.DataAwsccApptestTestCaseStepsActionMainframeActionActionType.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapptesttestcase"
 
 &dataawsccapptesttestcase.DataAwsccApptestTestCaseStepsActionMainframeActionActionType {
 
@@ -1024,7 +1024,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestca
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApptestTestCase.DataAwsccApptestTestCaseStepsActionMainframeActionActionTypeBatch.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapptesttestcase"
 
 &dataawsccapptesttestcase.DataAwsccApptestTestCaseStepsActionMainframeActionActionTypeBatch {
 
@@ -1037,7 +1037,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestca
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApptestTestCase.DataAwsccApptestTestCaseStepsActionMainframeActionActionTypeTn3270.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapptesttestcase"
 
 &dataawsccapptesttestcase.DataAwsccApptestTestCaseStepsActionMainframeActionActionTypeTn3270 {
 
@@ -1050,7 +1050,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestca
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApptestTestCase.DataAwsccApptestTestCaseStepsActionMainframeActionActionTypeTn3270Script.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapptesttestcase"
 
 &dataawsccapptesttestcase.DataAwsccApptestTestCaseStepsActionMainframeActionActionTypeTn3270Script {
 
@@ -1063,7 +1063,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestca
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApptestTestCase.DataAwsccApptestTestCaseStepsActionMainframeActionProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapptesttestcase"
 
 &dataawsccapptesttestcase.DataAwsccApptestTestCaseStepsActionMainframeActionProperties {
 
@@ -1076,7 +1076,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestca
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApptestTestCase.DataAwsccApptestTestCaseStepsActionResourceAction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapptesttestcase"
 
 &dataawsccapptesttestcase.DataAwsccApptestTestCaseStepsActionResourceAction {
 
@@ -1089,7 +1089,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestca
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApptestTestCase.DataAwsccApptestTestCaseStepsActionResourceActionCloudformationAction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapptesttestcase"
 
 &dataawsccapptesttestcase.DataAwsccApptestTestCaseStepsActionResourceActionCloudformationAction {
 
@@ -1102,7 +1102,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestca
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApptestTestCase.DataAwsccApptestTestCaseStepsActionResourceActionM2ManagedApplicationAction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapptesttestcase"
 
 &dataawsccapptesttestcase.DataAwsccApptestTestCaseStepsActionResourceActionM2ManagedApplicationAction {
 
@@ -1115,7 +1115,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestca
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApptestTestCase.DataAwsccApptestTestCaseStepsActionResourceActionM2ManagedApplicationActionProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapptesttestcase"
 
 &dataawsccapptesttestcase.DataAwsccApptestTestCaseStepsActionResourceActionM2ManagedApplicationActionProperties {
 
@@ -1128,7 +1128,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestca
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApptestTestCase.DataAwsccApptestTestCaseStepsActionResourceActionM2NonManagedApplicationAction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapptesttestcase"
 
 &dataawsccapptesttestcase.DataAwsccApptestTestCaseStepsActionResourceActionM2NonManagedApplicationAction {
 
@@ -1143,7 +1143,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestca
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApptestTestCase.DataAwsccApptestTestCaseLatestVersionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapptesttestcase"
 
 dataawsccapptesttestcase.NewDataAwsccApptestTestCaseLatestVersionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApptestTestCaseLatestVersionOutputReference
 ```
@@ -1414,7 +1414,7 @@ func InternalValue() DataAwsccApptestTestCaseLatestVersion
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApptestTestCase.DataAwsccApptestTestCaseStepsActionCompareActionInputFileFileMetadataDatabaseCdcOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapptesttestcase"
 
 dataawsccapptesttestcase.NewDataAwsccApptestTestCaseStepsActionCompareActionInputFileFileMetadataDatabaseCdcOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApptestTestCaseStepsActionCompareActionInputFileFileMetadataDatabaseCdcOutputReference
 ```
@@ -1685,7 +1685,7 @@ func InternalValue() DataAwsccApptestTestCaseStepsActionCompareActionInputFileFi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApptestTestCase.DataAwsccApptestTestCaseStepsActionCompareActionInputFileFileMetadataDatabaseCdcSourceMetadataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapptesttestcase"
 
 dataawsccapptesttestcase.NewDataAwsccApptestTestCaseStepsActionCompareActionInputFileFileMetadataDatabaseCdcSourceMetadataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApptestTestCaseStepsActionCompareActionInputFileFileMetadataDatabaseCdcSourceMetadataOutputReference
 ```
@@ -1956,7 +1956,7 @@ func InternalValue() DataAwsccApptestTestCaseStepsActionCompareActionInputFileFi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApptestTestCase.DataAwsccApptestTestCaseStepsActionCompareActionInputFileFileMetadataDatabaseCdcTargetMetadataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapptesttestcase"
 
 dataawsccapptesttestcase.NewDataAwsccApptestTestCaseStepsActionCompareActionInputFileFileMetadataDatabaseCdcTargetMetadataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApptestTestCaseStepsActionCompareActionInputFileFileMetadataDatabaseCdcTargetMetadataOutputReference
 ```
@@ -2227,7 +2227,7 @@ func InternalValue() DataAwsccApptestTestCaseStepsActionCompareActionInputFileFi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApptestTestCase.DataAwsccApptestTestCaseStepsActionCompareActionInputFileFileMetadataDataSetsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapptesttestcase"
 
 dataawsccapptesttestcase.NewDataAwsccApptestTestCaseStepsActionCompareActionInputFileFileMetadataDataSetsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccApptestTestCaseStepsActionCompareActionInputFileFileMetadataDataSetsList
 ```
@@ -2376,7 +2376,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApptestTestCase.DataAwsccApptestTestCaseStepsActionCompareActionInputFileFileMetadataDataSetsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapptesttestcase"
 
 dataawsccapptesttestcase.NewDataAwsccApptestTestCaseStepsActionCompareActionInputFileFileMetadataDataSetsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccApptestTestCaseStepsActionCompareActionInputFileFileMetadataDataSetsOutputReference
 ```
@@ -2698,7 +2698,7 @@ func InternalValue() DataAwsccApptestTestCaseStepsActionCompareActionInputFileFi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApptestTestCase.DataAwsccApptestTestCaseStepsActionCompareActionInputFileFileMetadataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapptesttestcase"
 
 dataawsccapptesttestcase.NewDataAwsccApptestTestCaseStepsActionCompareActionInputFileFileMetadataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApptestTestCaseStepsActionCompareActionInputFileFileMetadataOutputReference
 ```
@@ -2969,7 +2969,7 @@ func InternalValue() DataAwsccApptestTestCaseStepsActionCompareActionInputFileFi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApptestTestCase.DataAwsccApptestTestCaseStepsActionCompareActionInputFileOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapptesttestcase"
 
 dataawsccapptesttestcase.NewDataAwsccApptestTestCaseStepsActionCompareActionInputFileOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApptestTestCaseStepsActionCompareActionInputFileOutputReference
 ```
@@ -3251,7 +3251,7 @@ func InternalValue() DataAwsccApptestTestCaseStepsActionCompareActionInputFile
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApptestTestCase.DataAwsccApptestTestCaseStepsActionCompareActionInputOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapptesttestcase"
 
 dataawsccapptesttestcase.NewDataAwsccApptestTestCaseStepsActionCompareActionInputOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApptestTestCaseStepsActionCompareActionInputOutputReference
 ```
@@ -3511,7 +3511,7 @@ func InternalValue() DataAwsccApptestTestCaseStepsActionCompareActionInput
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApptestTestCase.DataAwsccApptestTestCaseStepsActionCompareActionOutputFileOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapptesttestcase"
 
 dataawsccapptesttestcase.NewDataAwsccApptestTestCaseStepsActionCompareActionOutputFileOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApptestTestCaseStepsActionCompareActionOutputFileOutputReference
 ```
@@ -3771,7 +3771,7 @@ func InternalValue() DataAwsccApptestTestCaseStepsActionCompareActionOutputFile
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApptestTestCase.DataAwsccApptestTestCaseStepsActionCompareActionOutputOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapptesttestcase"
 
 dataawsccapptesttestcase.NewDataAwsccApptestTestCaseStepsActionCompareActionOutputOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApptestTestCaseStepsActionCompareActionOutputOutputReference
 ```
@@ -4031,7 +4031,7 @@ func InternalValue() DataAwsccApptestTestCaseStepsActionCompareActionOutput
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApptestTestCase.DataAwsccApptestTestCaseStepsActionCompareActionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapptesttestcase"
 
 dataawsccapptesttestcase.NewDataAwsccApptestTestCaseStepsActionCompareActionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApptestTestCaseStepsActionCompareActionOutputReference
 ```
@@ -4302,7 +4302,7 @@ func InternalValue() DataAwsccApptestTestCaseStepsActionCompareAction
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApptestTestCase.DataAwsccApptestTestCaseStepsActionMainframeActionActionTypeBatchOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapptesttestcase"
 
 dataawsccapptesttestcase.NewDataAwsccApptestTestCaseStepsActionMainframeActionActionTypeBatchOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApptestTestCaseStepsActionMainframeActionActionTypeBatchOutputReference
 ```
@@ -4584,7 +4584,7 @@ func InternalValue() DataAwsccApptestTestCaseStepsActionMainframeActionActionTyp
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApptestTestCase.DataAwsccApptestTestCaseStepsActionMainframeActionActionTypeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapptesttestcase"
 
 dataawsccapptesttestcase.NewDataAwsccApptestTestCaseStepsActionMainframeActionActionTypeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApptestTestCaseStepsActionMainframeActionActionTypeOutputReference
 ```
@@ -4855,7 +4855,7 @@ func InternalValue() DataAwsccApptestTestCaseStepsActionMainframeActionActionTyp
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApptestTestCase.DataAwsccApptestTestCaseStepsActionMainframeActionActionTypeTn3270OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapptesttestcase"
 
 dataawsccapptesttestcase.NewDataAwsccApptestTestCaseStepsActionMainframeActionActionTypeTn3270OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApptestTestCaseStepsActionMainframeActionActionTypeTn3270OutputReference
 ```
@@ -5126,7 +5126,7 @@ func InternalValue() DataAwsccApptestTestCaseStepsActionMainframeActionActionTyp
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApptestTestCase.DataAwsccApptestTestCaseStepsActionMainframeActionActionTypeTn3270ScriptOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapptesttestcase"
 
 dataawsccapptesttestcase.NewDataAwsccApptestTestCaseStepsActionMainframeActionActionTypeTn3270ScriptOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApptestTestCaseStepsActionMainframeActionActionTypeTn3270ScriptOutputReference
 ```
@@ -5397,7 +5397,7 @@ func InternalValue() DataAwsccApptestTestCaseStepsActionMainframeActionActionTyp
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApptestTestCase.DataAwsccApptestTestCaseStepsActionMainframeActionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapptesttestcase"
 
 dataawsccapptesttestcase.NewDataAwsccApptestTestCaseStepsActionMainframeActionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApptestTestCaseStepsActionMainframeActionOutputReference
 ```
@@ -5679,7 +5679,7 @@ func InternalValue() DataAwsccApptestTestCaseStepsActionMainframeAction
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApptestTestCase.DataAwsccApptestTestCaseStepsActionMainframeActionPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapptesttestcase"
 
 dataawsccapptesttestcase.NewDataAwsccApptestTestCaseStepsActionMainframeActionPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApptestTestCaseStepsActionMainframeActionPropertiesOutputReference
 ```
@@ -5939,7 +5939,7 @@ func InternalValue() DataAwsccApptestTestCaseStepsActionMainframeActionPropertie
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApptestTestCase.DataAwsccApptestTestCaseStepsActionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapptesttestcase"
 
 dataawsccapptesttestcase.NewDataAwsccApptestTestCaseStepsActionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApptestTestCaseStepsActionOutputReference
 ```
@@ -6221,7 +6221,7 @@ func InternalValue() DataAwsccApptestTestCaseStepsAction
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApptestTestCase.DataAwsccApptestTestCaseStepsActionResourceActionCloudformationActionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapptesttestcase"
 
 dataawsccapptesttestcase.NewDataAwsccApptestTestCaseStepsActionResourceActionCloudformationActionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApptestTestCaseStepsActionResourceActionCloudformationActionOutputReference
 ```
@@ -6492,7 +6492,7 @@ func InternalValue() DataAwsccApptestTestCaseStepsActionResourceActionCloudforma
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApptestTestCase.DataAwsccApptestTestCaseStepsActionResourceActionM2ManagedApplicationActionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapptesttestcase"
 
 dataawsccapptesttestcase.NewDataAwsccApptestTestCaseStepsActionResourceActionM2ManagedApplicationActionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApptestTestCaseStepsActionResourceActionM2ManagedApplicationActionOutputReference
 ```
@@ -6774,7 +6774,7 @@ func InternalValue() DataAwsccApptestTestCaseStepsActionResourceActionM2ManagedA
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApptestTestCase.DataAwsccApptestTestCaseStepsActionResourceActionM2ManagedApplicationActionPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapptesttestcase"
 
 dataawsccapptesttestcase.NewDataAwsccApptestTestCaseStepsActionResourceActionM2ManagedApplicationActionPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApptestTestCaseStepsActionResourceActionM2ManagedApplicationActionPropertiesOutputReference
 ```
@@ -7045,7 +7045,7 @@ func InternalValue() DataAwsccApptestTestCaseStepsActionResourceActionM2ManagedA
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApptestTestCase.DataAwsccApptestTestCaseStepsActionResourceActionM2NonManagedApplicationActionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapptesttestcase"
 
 dataawsccapptesttestcase.NewDataAwsccApptestTestCaseStepsActionResourceActionM2NonManagedApplicationActionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApptestTestCaseStepsActionResourceActionM2NonManagedApplicationActionOutputReference
 ```
@@ -7316,7 +7316,7 @@ func InternalValue() DataAwsccApptestTestCaseStepsActionResourceActionM2NonManag
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApptestTestCase.DataAwsccApptestTestCaseStepsActionResourceActionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapptesttestcase"
 
 dataawsccapptesttestcase.NewDataAwsccApptestTestCaseStepsActionResourceActionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApptestTestCaseStepsActionResourceActionOutputReference
 ```
@@ -7598,7 +7598,7 @@ func InternalValue() DataAwsccApptestTestCaseStepsActionResourceAction
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApptestTestCase.DataAwsccApptestTestCaseStepsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapptesttestcase"
 
 dataawsccapptesttestcase.NewDataAwsccApptestTestCaseStepsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccApptestTestCaseStepsList
 ```
@@ -7747,7 +7747,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApptestTestCase.DataAwsccApptestTestCaseStepsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapptesttestcase"
 
 dataawsccapptesttestcase.NewDataAwsccApptestTestCaseStepsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccApptestTestCaseStepsOutputReference
 ```

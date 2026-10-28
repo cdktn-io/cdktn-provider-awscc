@@ -4,12 +4,12 @@
 
 ### ConnectRoutingProfile <a name="ConnectRoutingProfile" id="@cdktn/provider-awscc.connectRoutingProfile.ConnectRoutingProfile"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_routing_profile awscc_connect_routing_profile}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_routing_profile awscc_connect_routing_profile}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectRoutingProfile.ConnectRoutingProfile.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectroutingprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectroutingprofile"
 
 connectroutingprofile.NewConnectRoutingProfile(scope Construct, id *string, config ConnectRoutingProfileConfig) ConnectRoutingProfile
 ```
@@ -480,7 +480,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.connectRoutingProfile.ConnectRoutingProfile.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectroutingprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectroutingprofile"
 
 connectroutingprofile.ConnectRoutingProfile_IsConstruct(x interface{}) *bool
 ```
@@ -512,7 +512,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.connectRoutingProfile.ConnectRoutingProfile.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectroutingprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectroutingprofile"
 
 connectroutingprofile.ConnectRoutingProfile_IsTerraformElement(x interface{}) *bool
 ```
@@ -526,7 +526,7 @@ connectroutingprofile.ConnectRoutingProfile_IsTerraformElement(x interface{}) *b
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.connectRoutingProfile.ConnectRoutingProfile.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectroutingprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectroutingprofile"
 
 connectroutingprofile.ConnectRoutingProfile_IsTerraformResource(x interface{}) *bool
 ```
@@ -540,7 +540,7 @@ connectroutingprofile.ConnectRoutingProfile_IsTerraformResource(x interface{}) *
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.connectRoutingProfile.ConnectRoutingProfile.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectroutingprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectroutingprofile"
 
 connectroutingprofile.ConnectRoutingProfile_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -569,7 +569,7 @@ The construct id used in the generated config for the ConnectRoutingProfile to i
 
 The id of the existing ConnectRoutingProfile that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_routing_profile#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_routing_profile#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -989,7 +989,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectRoutingProfile.ConnectRoutingProfileConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectroutingprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectroutingprofile"
 
 &connectroutingprofile.ConnectRoutingProfileConfig {
 	Connection: interface{},
@@ -1114,7 +1114,7 @@ DefaultOutboundQueueArn *string
 
 The identifier of the default outbound queue for this routing profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_routing_profile#default_outbound_queue_arn ConnectRoutingProfile#default_outbound_queue_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_routing_profile#default_outbound_queue_arn ConnectRoutingProfile#default_outbound_queue_arn}
 
 ---
 
@@ -1128,7 +1128,7 @@ Description *string
 
 The description of the routing profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_routing_profile#description ConnectRoutingProfile#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_routing_profile#description ConnectRoutingProfile#description}
 
 ---
 
@@ -1142,7 +1142,7 @@ InstanceArn *string
 
 The identifier of the Amazon Connect instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_routing_profile#instance_arn ConnectRoutingProfile#instance_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_routing_profile#instance_arn ConnectRoutingProfile#instance_arn}
 
 ---
 
@@ -1156,7 +1156,7 @@ MediaConcurrencies interface{}
 
 The channels agents can handle in the Contact Control Panel (CCP) for this routing profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_routing_profile#media_concurrencies ConnectRoutingProfile#media_concurrencies}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_routing_profile#media_concurrencies ConnectRoutingProfile#media_concurrencies}
 
 ---
 
@@ -1170,7 +1170,7 @@ Name *string
 
 The name of the routing profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_routing_profile#name ConnectRoutingProfile#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_routing_profile#name ConnectRoutingProfile#name}
 
 ---
 
@@ -1184,7 +1184,7 @@ AgentAvailabilityTimer *string
 
 Whether agents with this routing profile will have their routing order calculated based on longest idle time or time since their last inbound contact.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_routing_profile#agent_availability_timer ConnectRoutingProfile#agent_availability_timer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_routing_profile#agent_availability_timer ConnectRoutingProfile#agent_availability_timer}
 
 ---
 
@@ -1198,7 +1198,7 @@ ManualAssignmentQueueConfigs interface{}
 
 The manual assignment queues to associate with this routing profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_routing_profile#manual_assignment_queue_configs ConnectRoutingProfile#manual_assignment_queue_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_routing_profile#manual_assignment_queue_configs ConnectRoutingProfile#manual_assignment_queue_configs}
 
 ---
 
@@ -1212,7 +1212,7 @@ QueueConfigs interface{}
 
 The queues to associate with this routing profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_routing_profile#queue_configs ConnectRoutingProfile#queue_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_routing_profile#queue_configs ConnectRoutingProfile#queue_configs}
 
 ---
 
@@ -1226,7 +1226,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_routing_profile#tags ConnectRoutingProfile#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_routing_profile#tags ConnectRoutingProfile#tags}
 
 ---
 
@@ -1235,10 +1235,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectRoutingProfile.ConnectRoutingProfileManualAssignmentQueueConfigs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectroutingprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectroutingprofile"
 
 &connectroutingprofile.ConnectRoutingProfileManualAssignmentQueueConfigs {
-	QueueReference: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.connectRoutingProfile.ConnectRoutingProfileManualAssignmentQueueConfigsQueueReference,
+	QueueReference: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.connectRoutingProfile.ConnectRoutingProfileManualAssignmentQueueConfigsQueueReference,
 }
 ```
 
@@ -1260,7 +1260,7 @@ QueueReference ConnectRoutingProfileManualAssignmentQueueConfigsQueueReference
 
 Contains the channel and queue identifier for a routing profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_routing_profile#queue_reference ConnectRoutingProfile#queue_reference}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_routing_profile#queue_reference ConnectRoutingProfile#queue_reference}
 
 ---
 
@@ -1269,7 +1269,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectRoutingProfile.ConnectRoutingProfileManualAssignmentQueueConfigsQueueReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectroutingprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectroutingprofile"
 
 &connectroutingprofile.ConnectRoutingProfileManualAssignmentQueueConfigsQueueReference {
 	Channel: *string,
@@ -1296,7 +1296,7 @@ Channel *string
 
 The channels that agents can handle in the Contact Control Panel (CCP).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_routing_profile#channel ConnectRoutingProfile#channel}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_routing_profile#channel ConnectRoutingProfile#channel}
 
 ---
 
@@ -1310,7 +1310,7 @@ QueueArn *string
 
 The Amazon Resource Name (ARN) for the queue.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_routing_profile#queue_arn ConnectRoutingProfile#queue_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_routing_profile#queue_arn ConnectRoutingProfile#queue_arn}
 
 ---
 
@@ -1319,12 +1319,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectRoutingProfile.ConnectRoutingProfileMediaConcurrencies.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectroutingprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectroutingprofile"
 
 &connectroutingprofile.ConnectRoutingProfileMediaConcurrencies {
 	Channel: *string,
 	Concurrency: *f64,
-	CrossChannelBehavior: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.connectRoutingProfile.ConnectRoutingProfileMediaConcurrenciesCrossChannelBehavior,
+	CrossChannelBehavior: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.connectRoutingProfile.ConnectRoutingProfileMediaConcurrenciesCrossChannelBehavior,
 }
 ```
 
@@ -1348,7 +1348,7 @@ Channel *string
 
 The channels that agents can handle in the Contact Control Panel (CCP).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_routing_profile#channel ConnectRoutingProfile#channel}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_routing_profile#channel ConnectRoutingProfile#channel}
 
 ---
 
@@ -1362,7 +1362,7 @@ Concurrency *f64
 
 The number of contacts an agent can have on a channel simultaneously.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_routing_profile#concurrency ConnectRoutingProfile#concurrency}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_routing_profile#concurrency ConnectRoutingProfile#concurrency}
 
 ---
 
@@ -1376,7 +1376,7 @@ CrossChannelBehavior ConnectRoutingProfileMediaConcurrenciesCrossChannelBehavior
 
 Defines the cross-channel routing behavior that allows an agent working on a contact in one channel to be offered a contact from a different channel.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_routing_profile#cross_channel_behavior ConnectRoutingProfile#cross_channel_behavior}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_routing_profile#cross_channel_behavior ConnectRoutingProfile#cross_channel_behavior}
 
 ---
 
@@ -1385,7 +1385,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectRoutingProfile.ConnectRoutingProfileMediaConcurrenciesCrossChannelBehavior.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectroutingprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectroutingprofile"
 
 &connectroutingprofile.ConnectRoutingProfileMediaConcurrenciesCrossChannelBehavior {
 	BehaviorType: *string,
@@ -1410,7 +1410,7 @@ BehaviorType *string
 
 Specifies the other channels that can be routed to an agent handling their current channel.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_routing_profile#behavior_type ConnectRoutingProfile#behavior_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_routing_profile#behavior_type ConnectRoutingProfile#behavior_type}
 
 ---
 
@@ -1419,12 +1419,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectRoutingProfile.ConnectRoutingProfileQueueConfigs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectroutingprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectroutingprofile"
 
 &connectroutingprofile.ConnectRoutingProfileQueueConfigs {
 	Delay: *f64,
 	Priority: *f64,
-	QueueReference: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.connectRoutingProfile.ConnectRoutingProfileQueueConfigsQueueReference,
+	QueueReference: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.connectRoutingProfile.ConnectRoutingProfileQueueConfigsQueueReference,
 }
 ```
 
@@ -1448,7 +1448,7 @@ Delay *f64
 
 The delay, in seconds, a contact should wait in the queue before they are routed to an available agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_routing_profile#delay ConnectRoutingProfile#delay}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_routing_profile#delay ConnectRoutingProfile#delay}
 
 ---
 
@@ -1462,7 +1462,7 @@ Priority *f64
 
 The order in which contacts are to be handled for the queue.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_routing_profile#priority ConnectRoutingProfile#priority}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_routing_profile#priority ConnectRoutingProfile#priority}
 
 ---
 
@@ -1476,7 +1476,7 @@ QueueReference ConnectRoutingProfileQueueConfigsQueueReference
 
 Contains the channel and queue identifier for a routing profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_routing_profile#queue_reference ConnectRoutingProfile#queue_reference}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_routing_profile#queue_reference ConnectRoutingProfile#queue_reference}
 
 ---
 
@@ -1485,7 +1485,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectRoutingProfile.ConnectRoutingProfileQueueConfigsQueueReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectroutingprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectroutingprofile"
 
 &connectroutingprofile.ConnectRoutingProfileQueueConfigsQueueReference {
 	Channel: *string,
@@ -1512,7 +1512,7 @@ Channel *string
 
 The channels that agents can handle in the Contact Control Panel (CCP).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_routing_profile#channel ConnectRoutingProfile#channel}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_routing_profile#channel ConnectRoutingProfile#channel}
 
 ---
 
@@ -1526,7 +1526,7 @@ QueueArn *string
 
 The Amazon Resource Name (ARN) for the queue.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_routing_profile#queue_arn ConnectRoutingProfile#queue_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_routing_profile#queue_arn ConnectRoutingProfile#queue_arn}
 
 ---
 
@@ -1535,7 +1535,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectRoutingProfile.ConnectRoutingProfileTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectroutingprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectroutingprofile"
 
 &connectroutingprofile.ConnectRoutingProfileTags {
 	Key: *string,
@@ -1564,7 +1564,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_routing_profile#key ConnectRoutingProfile#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_routing_profile#key ConnectRoutingProfile#key}
 
 ---
 
@@ -1580,7 +1580,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_routing_profile#value ConnectRoutingProfile#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_routing_profile#value ConnectRoutingProfile#value}
 
 ---
 
@@ -1591,7 +1591,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectRoutingProfile.ConnectRoutingProfileManualAssignmentQueueConfigsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectroutingprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectroutingprofile"
 
 connectroutingprofile.NewConnectRoutingProfileManualAssignmentQueueConfigsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ConnectRoutingProfileManualAssignmentQueueConfigsList
 ```
@@ -1751,7 +1751,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectRoutingProfile.ConnectRoutingProfileManualAssignmentQueueConfigsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectroutingprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectroutingprofile"
 
 connectroutingprofile.NewConnectRoutingProfileManualAssignmentQueueConfigsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ConnectRoutingProfileManualAssignmentQueueConfigsOutputReference
 ```
@@ -2060,7 +2060,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectRoutingProfile.ConnectRoutingProfileManualAssignmentQueueConfigsQueueReferenceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectroutingprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectroutingprofile"
 
 connectroutingprofile.NewConnectRoutingProfileManualAssignmentQueueConfigsQueueReferenceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ConnectRoutingProfileManualAssignmentQueueConfigsQueueReferenceOutputReference
 ```
@@ -2367,7 +2367,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectRoutingProfile.ConnectRoutingProfileMediaConcurrenciesCrossChannelBehaviorOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectroutingprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectroutingprofile"
 
 connectroutingprofile.NewConnectRoutingProfileMediaConcurrenciesCrossChannelBehaviorOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ConnectRoutingProfileMediaConcurrenciesCrossChannelBehaviorOutputReference
 ```
@@ -2645,7 +2645,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectRoutingProfile.ConnectRoutingProfileMediaConcurrenciesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectroutingprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectroutingprofile"
 
 connectroutingprofile.NewConnectRoutingProfileMediaConcurrenciesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ConnectRoutingProfileMediaConcurrenciesList
 ```
@@ -2805,7 +2805,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectRoutingProfile.ConnectRoutingProfileMediaConcurrenciesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectroutingprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectroutingprofile"
 
 connectroutingprofile.NewConnectRoutingProfileMediaConcurrenciesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ConnectRoutingProfileMediaConcurrenciesOutputReference
 ```
@@ -3158,7 +3158,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectRoutingProfile.ConnectRoutingProfileQueueConfigsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectroutingprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectroutingprofile"
 
 connectroutingprofile.NewConnectRoutingProfileQueueConfigsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ConnectRoutingProfileQueueConfigsList
 ```
@@ -3318,7 +3318,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectRoutingProfile.ConnectRoutingProfileQueueConfigsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectroutingprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectroutingprofile"
 
 connectroutingprofile.NewConnectRoutingProfileQueueConfigsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ConnectRoutingProfileQueueConfigsOutputReference
 ```
@@ -3685,7 +3685,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectRoutingProfile.ConnectRoutingProfileQueueConfigsQueueReferenceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectroutingprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectroutingprofile"
 
 connectroutingprofile.NewConnectRoutingProfileQueueConfigsQueueReferenceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ConnectRoutingProfileQueueConfigsQueueReferenceOutputReference
 ```
@@ -3992,7 +3992,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectRoutingProfile.ConnectRoutingProfileTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectroutingprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectroutingprofile"
 
 connectroutingprofile.NewConnectRoutingProfileTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ConnectRoutingProfileTagsList
 ```
@@ -4152,7 +4152,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectRoutingProfile.ConnectRoutingProfileTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectroutingprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectroutingprofile"
 
 connectroutingprofile.NewConnectRoutingProfileTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ConnectRoutingProfileTagsOutputReference
 ```

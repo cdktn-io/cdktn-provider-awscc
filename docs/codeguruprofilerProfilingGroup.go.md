@@ -4,12 +4,12 @@
 
 ### CodeguruprofilerProfilingGroup <a name="CodeguruprofilerProfilingGroup" id="@cdktn/provider-awscc.codeguruprofilerProfilingGroup.CodeguruprofilerProfilingGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codeguruprofiler_profiling_group awscc_codeguruprofiler_profiling_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codeguruprofiler_profiling_group awscc_codeguruprofiler_profiling_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codeguruprofilerProfilingGroup.CodeguruprofilerProfilingGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codeguruprofilerprofilinggroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codeguruprofilerprofilinggroup"
 
 codeguruprofilerprofilinggroup.NewCodeguruprofilerProfilingGroup(scope Construct, id *string, config CodeguruprofilerProfilingGroupConfig) CodeguruprofilerProfilingGroup
 ```
@@ -467,7 +467,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.codeguruprofilerProfilingGroup.CodeguruprofilerProfilingGroup.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codeguruprofilerprofilinggroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codeguruprofilerprofilinggroup"
 
 codeguruprofilerprofilinggroup.CodeguruprofilerProfilingGroup_IsConstruct(x interface{}) *bool
 ```
@@ -499,7 +499,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.codeguruprofilerProfilingGroup.CodeguruprofilerProfilingGroup.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codeguruprofilerprofilinggroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codeguruprofilerprofilinggroup"
 
 codeguruprofilerprofilinggroup.CodeguruprofilerProfilingGroup_IsTerraformElement(x interface{}) *bool
 ```
@@ -513,7 +513,7 @@ codeguruprofilerprofilinggroup.CodeguruprofilerProfilingGroup_IsTerraformElement
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.codeguruprofilerProfilingGroup.CodeguruprofilerProfilingGroup.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codeguruprofilerprofilinggroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codeguruprofilerprofilinggroup"
 
 codeguruprofilerprofilinggroup.CodeguruprofilerProfilingGroup_IsTerraformResource(x interface{}) *bool
 ```
@@ -527,7 +527,7 @@ codeguruprofilerprofilinggroup.CodeguruprofilerProfilingGroup_IsTerraformResourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.codeguruprofilerProfilingGroup.CodeguruprofilerProfilingGroup.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codeguruprofilerprofilinggroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codeguruprofilerprofilinggroup"
 
 codeguruprofilerprofilinggroup.CodeguruprofilerProfilingGroup_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -556,7 +556,7 @@ The construct id used in the generated config for the CodeguruprofilerProfilingG
 
 The id of the existing CodeguruprofilerProfilingGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codeguruprofiler_profiling_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codeguruprofiler_profiling_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -888,7 +888,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codeguruprofilerProfilingGroup.CodeguruprofilerProfilingGroupAgentPermissions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codeguruprofilerprofilinggroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codeguruprofilerprofilinggroup"
 
 &codeguruprofilerprofilinggroup.CodeguruprofilerProfilingGroupAgentPermissions {
 	Principals: *[]*string,
@@ -913,7 +913,7 @@ Principals *[]*string
 
 The principals for the agent permissions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codeguruprofiler_profiling_group#principals CodeguruprofilerProfilingGroup#principals}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codeguruprofiler_profiling_group#principals CodeguruprofilerProfilingGroup#principals}
 
 ---
 
@@ -922,7 +922,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codeguruprofilerProfilingGroup.CodeguruprofilerProfilingGroupAnomalyDetectionNotificationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codeguruprofilerprofilinggroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codeguruprofilerprofilinggroup"
 
 &codeguruprofilerprofilinggroup.CodeguruprofilerProfilingGroupAnomalyDetectionNotificationConfiguration {
 	ChannelId: *string,
@@ -949,7 +949,7 @@ ChannelId *string
 
 Unique identifier for each Channel in the notification configuration of a Profiling Group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codeguruprofiler_profiling_group#channel_id CodeguruprofilerProfilingGroup#channel_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codeguruprofiler_profiling_group#channel_id CodeguruprofilerProfilingGroup#channel_id}
 
 ---
 
@@ -965,7 +965,7 @@ Unique arn of the resource to be used for notifications.
 
 We support a valid SNS topic arn as a channel uri.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codeguruprofiler_profiling_group#channel_uri CodeguruprofilerProfilingGroup#channel_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codeguruprofiler_profiling_group#channel_uri CodeguruprofilerProfilingGroup#channel_uri}
 
 ---
 
@@ -974,7 +974,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codeguruprofilerProfilingGroup.CodeguruprofilerProfilingGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codeguruprofilerprofilinggroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codeguruprofilerprofilinggroup"
 
 &codeguruprofilerprofilinggroup.CodeguruprofilerProfilingGroupConfig {
 	Connection: interface{},
@@ -985,7 +985,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codeguruprofilerprofil
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	ProfilingGroupName: *string,
-	AgentPermissions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.codeguruprofilerProfilingGroup.CodeguruprofilerProfilingGroupAgentPermissions,
+	AgentPermissions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.codeguruprofilerProfilingGroup.CodeguruprofilerProfilingGroupAgentPermissions,
 	AnomalyDetectionNotificationConfiguration: interface{},
 	ComputePlatform: *string,
 	Tags: interface{},
@@ -1091,7 +1091,7 @@ ProfilingGroupName *string
 
 The name of the profiling group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codeguruprofiler_profiling_group#profiling_group_name CodeguruprofilerProfilingGroup#profiling_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codeguruprofiler_profiling_group#profiling_group_name CodeguruprofilerProfilingGroup#profiling_group_name}
 
 ---
 
@@ -1105,7 +1105,7 @@ AgentPermissions CodeguruprofilerProfilingGroupAgentPermissions
 
 The agent permissions attached to this profiling group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codeguruprofiler_profiling_group#agent_permissions CodeguruprofilerProfilingGroup#agent_permissions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codeguruprofiler_profiling_group#agent_permissions CodeguruprofilerProfilingGroup#agent_permissions}
 
 ---
 
@@ -1119,7 +1119,7 @@ AnomalyDetectionNotificationConfiguration interface{}
 
 Configuration for Notification Channels for Anomaly Detection feature in CodeGuru Profiler which enables customers to detect anomalies in the application profile for those methods that represent the highest proportion of CPU time or latency.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codeguruprofiler_profiling_group#anomaly_detection_notification_configuration CodeguruprofilerProfilingGroup#anomaly_detection_notification_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codeguruprofiler_profiling_group#anomaly_detection_notification_configuration CodeguruprofilerProfilingGroup#anomaly_detection_notification_configuration}
 
 ---
 
@@ -1133,7 +1133,7 @@ ComputePlatform *string
 
 The compute platform of the profiling group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codeguruprofiler_profiling_group#compute_platform CodeguruprofilerProfilingGroup#compute_platform}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codeguruprofiler_profiling_group#compute_platform CodeguruprofilerProfilingGroup#compute_platform}
 
 ---
 
@@ -1147,7 +1147,7 @@ Tags interface{}
 
 The tags associated with a profiling group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codeguruprofiler_profiling_group#tags CodeguruprofilerProfilingGroup#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codeguruprofiler_profiling_group#tags CodeguruprofilerProfilingGroup#tags}
 
 ---
 
@@ -1156,7 +1156,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codeguruprofilerProfilingGroup.CodeguruprofilerProfilingGroupTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codeguruprofilerprofilinggroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codeguruprofilerprofilinggroup"
 
 &codeguruprofilerprofilinggroup.CodeguruprofilerProfilingGroupTags {
 	Key: *string,
@@ -1208,7 +1208,7 @@ You can specify a value that is 0 to 256 Unicode characters in length. The allow
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codeguruprofilerProfilingGroup.CodeguruprofilerProfilingGroupAgentPermissionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codeguruprofilerprofilinggroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codeguruprofilerprofilinggroup"
 
 codeguruprofilerprofilinggroup.NewCodeguruprofilerProfilingGroupAgentPermissionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CodeguruprofilerProfilingGroupAgentPermissionsOutputReference
 ```
@@ -1486,7 +1486,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codeguruprofilerProfilingGroup.CodeguruprofilerProfilingGroupAnomalyDetectionNotificationConfigurationList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codeguruprofilerprofilinggroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codeguruprofilerprofilinggroup"
 
 codeguruprofilerprofilinggroup.NewCodeguruprofilerProfilingGroupAnomalyDetectionNotificationConfigurationList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CodeguruprofilerProfilingGroupAnomalyDetectionNotificationConfigurationList
 ```
@@ -1646,7 +1646,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codeguruprofilerProfilingGroup.CodeguruprofilerProfilingGroupAnomalyDetectionNotificationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codeguruprofilerprofilinggroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codeguruprofilerprofilinggroup"
 
 codeguruprofilerprofilinggroup.NewCodeguruprofilerProfilingGroupAnomalyDetectionNotificationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CodeguruprofilerProfilingGroupAnomalyDetectionNotificationConfigurationOutputReference
 ```
@@ -1971,7 +1971,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codeguruprofilerProfilingGroup.CodeguruprofilerProfilingGroupTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codeguruprofilerprofilinggroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codeguruprofilerprofilinggroup"
 
 codeguruprofilerprofilinggroup.NewCodeguruprofilerProfilingGroupTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CodeguruprofilerProfilingGroupTagsList
 ```
@@ -2131,7 +2131,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codeguruprofilerProfilingGroup.CodeguruprofilerProfilingGroupTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codeguruprofilerprofilinggroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codeguruprofilerprofilinggroup"
 
 codeguruprofilerprofilinggroup.NewCodeguruprofilerProfilingGroupTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CodeguruprofilerProfilingGroupTagsOutputReference
 ```

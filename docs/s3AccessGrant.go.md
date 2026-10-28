@@ -4,12 +4,12 @@
 
 ### S3AccessGrant <a name="S3AccessGrant" id="@cdktn/provider-awscc.s3AccessGrant.S3AccessGrant"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_access_grant awscc_s3_access_grant}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_access_grant awscc_s3_access_grant}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3AccessGrant.S3AccessGrant.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3accessgrant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3accessgrant"
 
 s3accessgrant.NewS3AccessGrant(scope Construct, id *string, config S3AccessGrantConfig) S3AccessGrant
 ```
@@ -467,7 +467,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.s3AccessGrant.S3AccessGrant.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3accessgrant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3accessgrant"
 
 s3accessgrant.S3AccessGrant_IsConstruct(x interface{}) *bool
 ```
@@ -499,7 +499,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.s3AccessGrant.S3AccessGrant.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3accessgrant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3accessgrant"
 
 s3accessgrant.S3AccessGrant_IsTerraformElement(x interface{}) *bool
 ```
@@ -513,7 +513,7 @@ s3accessgrant.S3AccessGrant_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.s3AccessGrant.S3AccessGrant.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3accessgrant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3accessgrant"
 
 s3accessgrant.S3AccessGrant_IsTerraformResource(x interface{}) *bool
 ```
@@ -527,7 +527,7 @@ s3accessgrant.S3AccessGrant_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.s3AccessGrant.S3AccessGrant.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3accessgrant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3accessgrant"
 
 s3accessgrant.S3AccessGrant_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -556,7 +556,7 @@ The construct id used in the generated config for the S3AccessGrant to import.
 
 The id of the existing S3AccessGrant that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_access_grant#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_access_grant#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -954,7 +954,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.s3AccessGrant.S3AccessGrantAccessGrantsLocationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3accessgrant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3accessgrant"
 
 &s3accessgrant.S3AccessGrantAccessGrantsLocationConfiguration {
 	S3SubPrefix: *string,
@@ -979,7 +979,7 @@ S3SubPrefix *string
 
 The S3 sub prefix of a registered location in your S3 Access Grants instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_access_grant#s3_sub_prefix S3AccessGrant#s3_sub_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_access_grant#s3_sub_prefix S3AccessGrant#s3_sub_prefix}
 
 ---
 
@@ -988,7 +988,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.s3AccessGrant.S3AccessGrantConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3accessgrant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3accessgrant"
 
 &s3accessgrant.S3AccessGrantConfig {
 	Connection: interface{},
@@ -999,9 +999,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3accessgrant"
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	AccessGrantsLocationId: *string,
-	Grantee: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.s3AccessGrant.S3AccessGrantGrantee,
+	Grantee: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.s3AccessGrant.S3AccessGrantGrantee,
 	Permission: *string,
-	AccessGrantsLocationConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.s3AccessGrant.S3AccessGrantAccessGrantsLocationConfiguration,
+	AccessGrantsLocationConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.s3AccessGrant.S3AccessGrantAccessGrantsLocationConfiguration,
 	ApplicationArn: *string,
 	S3PrefixType: *string,
 	Tags: interface{},
@@ -1025,7 +1025,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3accessgrant"
 | <code><a href="#@cdktn/provider-awscc.s3AccessGrant.S3AccessGrantConfig.property.accessGrantsLocationConfiguration">AccessGrantsLocationConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.s3AccessGrant.S3AccessGrantAccessGrantsLocationConfiguration">S3AccessGrantAccessGrantsLocationConfiguration</a></code> | The configuration options of the grant location, which is the S3 path to the data to which you are granting access. |
 | <code><a href="#@cdktn/provider-awscc.s3AccessGrant.S3AccessGrantConfig.property.applicationArn">ApplicationArn</a></code> | <code>*string</code> | The ARN of the application grantees will use to access the location. |
 | <code><a href="#@cdktn/provider-awscc.s3AccessGrant.S3AccessGrantConfig.property.s3PrefixType">S3PrefixType</a></code> | <code>*string</code> | The type of S3SubPrefix. |
-| <code><a href="#@cdktn/provider-awscc.s3AccessGrant.S3AccessGrantConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_access_grant#tags S3AccessGrant#tags}. |
+| <code><a href="#@cdktn/provider-awscc.s3AccessGrant.S3AccessGrantConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_access_grant#tags S3AccessGrant#tags}. |
 
 ---
 
@@ -1109,7 +1109,7 @@ AccessGrantsLocationId *string
 
 The custom S3 location to be accessed by the grantee.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_access_grant#access_grants_location_id S3AccessGrant#access_grants_location_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_access_grant#access_grants_location_id S3AccessGrant#access_grants_location_id}
 
 ---
 
@@ -1123,7 +1123,7 @@ Grantee S3AccessGrantGrantee
 
 The principal who will be granted permission to access S3.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_access_grant#grantee S3AccessGrant#grantee}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_access_grant#grantee S3AccessGrant#grantee}
 
 ---
 
@@ -1137,7 +1137,7 @@ Permission *string
 
 The level of access to be afforded to the grantee.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_access_grant#permission S3AccessGrant#permission}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_access_grant#permission S3AccessGrant#permission}
 
 ---
 
@@ -1151,7 +1151,7 @@ AccessGrantsLocationConfiguration S3AccessGrantAccessGrantsLocationConfiguration
 
 The configuration options of the grant location, which is the S3 path to the data to which you are granting access.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_access_grant#access_grants_location_configuration S3AccessGrant#access_grants_location_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_access_grant#access_grants_location_configuration S3AccessGrant#access_grants_location_configuration}
 
 ---
 
@@ -1165,7 +1165,7 @@ ApplicationArn *string
 
 The ARN of the application grantees will use to access the location.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_access_grant#application_arn S3AccessGrant#application_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_access_grant#application_arn S3AccessGrant#application_arn}
 
 ---
 
@@ -1179,7 +1179,7 @@ S3PrefixType *string
 
 The type of S3SubPrefix.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_access_grant#s3_prefix_type S3AccessGrant#s3_prefix_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_access_grant#s3_prefix_type S3AccessGrant#s3_prefix_type}
 
 ---
 
@@ -1191,7 +1191,7 @@ Tags interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_access_grant#tags S3AccessGrant#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_access_grant#tags S3AccessGrant#tags}.
 
 ---
 
@@ -1200,7 +1200,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.s3AccessGrant.S3AccessGrantGrantee.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3accessgrant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3accessgrant"
 
 &s3accessgrant.S3AccessGrantGrantee {
 	GranteeIdentifier: *string,
@@ -1227,7 +1227,7 @@ GranteeIdentifier *string
 
 The unique identifier of the Grantee.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_access_grant#grantee_identifier S3AccessGrant#grantee_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_access_grant#grantee_identifier S3AccessGrant#grantee_identifier}
 
 ---
 
@@ -1241,7 +1241,7 @@ GranteeType *string
 
 Configures the transfer acceleration state for an Amazon S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_access_grant#grantee_type S3AccessGrant#grantee_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_access_grant#grantee_type S3AccessGrant#grantee_type}
 
 ---
 
@@ -1250,7 +1250,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.s3AccessGrant.S3AccessGrantTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3accessgrant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3accessgrant"
 
 &s3accessgrant.S3AccessGrantTags {
 	Key: *string,
@@ -1262,8 +1262,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3accessgrant"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.s3AccessGrant.S3AccessGrantTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_access_grant#key S3AccessGrant#key}. |
-| <code><a href="#@cdktn/provider-awscc.s3AccessGrant.S3AccessGrantTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_access_grant#value S3AccessGrant#value}. |
+| <code><a href="#@cdktn/provider-awscc.s3AccessGrant.S3AccessGrantTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_access_grant#key S3AccessGrant#key}. |
+| <code><a href="#@cdktn/provider-awscc.s3AccessGrant.S3AccessGrantTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_access_grant#value S3AccessGrant#value}. |
 
 ---
 
@@ -1275,7 +1275,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_access_grant#key S3AccessGrant#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_access_grant#key S3AccessGrant#key}.
 
 ---
 
@@ -1287,7 +1287,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_access_grant#value S3AccessGrant#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_access_grant#value S3AccessGrant#value}.
 
 ---
 
@@ -1298,7 +1298,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3AccessGrant.S3AccessGrantAccessGrantsLocationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3accessgrant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3accessgrant"
 
 s3accessgrant.NewS3AccessGrantAccessGrantsLocationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) S3AccessGrantAccessGrantsLocationConfigurationOutputReference
 ```
@@ -1576,7 +1576,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3AccessGrant.S3AccessGrantGranteeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3accessgrant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3accessgrant"
 
 s3accessgrant.NewS3AccessGrantGranteeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) S3AccessGrantGranteeOutputReference
 ```
@@ -1869,7 +1869,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3AccessGrant.S3AccessGrantTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3accessgrant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3accessgrant"
 
 s3accessgrant.NewS3AccessGrantTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) S3AccessGrantTagsList
 ```
@@ -2029,7 +2029,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3AccessGrant.S3AccessGrantTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3accessgrant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3accessgrant"
 
 s3accessgrant.NewS3AccessGrantTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) S3AccessGrantTagsOutputReference
 ```

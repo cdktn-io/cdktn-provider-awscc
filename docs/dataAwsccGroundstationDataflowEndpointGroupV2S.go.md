@@ -4,12 +4,12 @@
 
 ### DataAwsccGroundstationDataflowEndpointGroupV2S <a name="DataAwsccGroundstationDataflowEndpointGroupV2S" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2S.DataAwsccGroundstationDataflowEndpointGroupV2S"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/groundstation_dataflow_endpoint_group_v2s awscc_groundstation_dataflow_endpoint_group_v2s}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/groundstation_dataflow_endpoint_group_v2s awscc_groundstation_dataflow_endpoint_group_v2s}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2S.DataAwsccGroundstationDataflowEndpointGroupV2S.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2s"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2s"
 
 dataawsccgroundstationdataflowendpointgroupv2s.NewDataAwsccGroundstationDataflowEndpointGroupV2S(scope Construct, id *string, config DataAwsccGroundstationDataflowEndpointGroupV2SConfig) DataAwsccGroundstationDataflowEndpointGroupV2S
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2S.DataAwsccGroundstationDataflowEndpointGroupV2S.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2s"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2s"
 
 dataawsccgroundstationdataflowendpointgroupv2s.DataAwsccGroundstationDataflowEndpointGroupV2S_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2S.DataAwsccGroundstationDataflowEndpointGroupV2S.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2s"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2s"
 
 dataawsccgroundstationdataflowendpointgroupv2s.DataAwsccGroundstationDataflowEndpointGroupV2S_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccgroundstationdataflowendpointgroupv2s.DataAwsccGroundstationDataflowEnd
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2S.DataAwsccGroundstationDataflowEndpointGroupV2S.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2s"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2s"
 
 dataawsccgroundstationdataflowendpointgroupv2s.DataAwsccGroundstationDataflowEndpointGroupV2S_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccgroundstationdataflowendpointgroupv2s.DataAwsccGroundstationDataflowEnd
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2S.DataAwsccGroundstationDataflowEndpointGroupV2S.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2s"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2s"
 
 dataawsccgroundstationdataflowendpointgroupv2s.DataAwsccGroundstationDataflowEndpointGroupV2S_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccGroundstationData
 
 The id of the existing DataAwsccGroundstationDataflowEndpointGroupV2S that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/groundstation_dataflow_endpoint_group_v2s#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/groundstation_dataflow_endpoint_group_v2s#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGroundstationDataflowEndpointGroupV2S.DataAwsccGroundstationDataflowEndpointGroupV2SConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationdataflowendpointgroupv2s"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationdataflowendpointgroupv2s"
 
 &dataawsccgroundstationdataflowendpointgroupv2s.DataAwsccGroundstationDataflowEndpointGroupV2SConfig {
 	Connection: interface{},

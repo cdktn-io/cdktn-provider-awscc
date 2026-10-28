@@ -4,12 +4,12 @@
 
 ### DataAwsccFrauddetectorEventTypes <a name="DataAwsccFrauddetectorEventTypes" id="@cdktn/provider-awscc.dataAwsccFrauddetectorEventTypes.DataAwsccFrauddetectorEventTypes"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/frauddetector_event_types awscc_frauddetector_event_types}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/frauddetector_event_types awscc_frauddetector_event_types}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFrauddetectorEventTypes.DataAwsccFrauddetectorEventTypes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectoreventtypes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectoreventtypes"
 
 dataawsccfrauddetectoreventtypes.NewDataAwsccFrauddetectorEventTypes(scope Construct, id *string, config DataAwsccFrauddetectorEventTypesConfig) DataAwsccFrauddetectorEventTypes
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccFrauddetectorEventTypes.DataAwsccFrauddetectorEventTypes.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectoreventtypes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectoreventtypes"
 
 dataawsccfrauddetectoreventtypes.DataAwsccFrauddetectorEventTypes_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccFrauddetectorEventTypes.DataAwsccFrauddetectorEventTypes.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectoreventtypes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectoreventtypes"
 
 dataawsccfrauddetectoreventtypes.DataAwsccFrauddetectorEventTypes_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccfrauddetectoreventtypes.DataAwsccFrauddetectorEventTypes_IsTerraformEle
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccFrauddetectorEventTypes.DataAwsccFrauddetectorEventTypes.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectoreventtypes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectoreventtypes"
 
 dataawsccfrauddetectoreventtypes.DataAwsccFrauddetectorEventTypes_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccfrauddetectoreventtypes.DataAwsccFrauddetectorEventTypes_IsTerraformDat
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccFrauddetectorEventTypes.DataAwsccFrauddetectorEventTypes.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectoreventtypes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectoreventtypes"
 
 dataawsccfrauddetectoreventtypes.DataAwsccFrauddetectorEventTypes_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccFrauddetectorEven
 
 The id of the existing DataAwsccFrauddetectorEventTypes that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/frauddetector_event_types#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/frauddetector_event_types#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccFrauddetectorEventTypes.DataAwsccFrauddetectorEventTypesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectoreventtypes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectoreventtypes"
 
 &dataawsccfrauddetectoreventtypes.DataAwsccFrauddetectorEventTypesConfig {
 	Connection: interface{},

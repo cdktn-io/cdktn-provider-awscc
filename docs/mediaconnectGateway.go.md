@@ -4,12 +4,12 @@
 
 ### MediaconnectGateway <a name="MediaconnectGateway" id="@cdktn/provider-awscc.mediaconnectGateway.MediaconnectGateway"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_gateway awscc_mediaconnect_gateway}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_gateway awscc_mediaconnect_gateway}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediaconnectGateway.MediaconnectGateway.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectgateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconnectgateway"
 
 mediaconnectgateway.NewMediaconnectGateway(scope Construct, id *string, config MediaconnectGatewayConfig) MediaconnectGateway
 ```
@@ -413,7 +413,7 @@ func PutNetworks(value interface{})
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.mediaconnectGateway.MediaconnectGateway.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectgateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconnectgateway"
 
 mediaconnectgateway.MediaconnectGateway_IsConstruct(x interface{}) *bool
 ```
@@ -445,7 +445,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.mediaconnectGateway.MediaconnectGateway.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectgateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconnectgateway"
 
 mediaconnectgateway.MediaconnectGateway_IsTerraformElement(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ mediaconnectgateway.MediaconnectGateway_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.mediaconnectGateway.MediaconnectGateway.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectgateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconnectgateway"
 
 mediaconnectgateway.MediaconnectGateway_IsTerraformResource(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ mediaconnectgateway.MediaconnectGateway_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.mediaconnectGateway.MediaconnectGateway.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectgateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconnectgateway"
 
 mediaconnectgateway.MediaconnectGateway_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -502,7 +502,7 @@ The construct id used in the generated config for the MediaconnectGateway to imp
 
 The id of the existing MediaconnectGateway that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_gateway#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_gateway#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -801,7 +801,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediaconnectGateway.MediaconnectGatewayConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectgateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconnectgateway"
 
 &mediaconnectgateway.MediaconnectGatewayConfig {
 	Connection: interface{},
@@ -916,7 +916,7 @@ The range of IP addresses that contribute content or initiate output requests fo
 
 These IP addresses should be in the form of a Classless Inter-Domain Routing (CIDR) block; for example, 10.0.0.0/16.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_gateway#egress_cidr_blocks MediaconnectGateway#egress_cidr_blocks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_gateway#egress_cidr_blocks MediaconnectGateway#egress_cidr_blocks}
 
 ---
 
@@ -930,7 +930,7 @@ Name *string
 
 The name of the gateway. This name can not be modified after the gateway is created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_gateway#name MediaconnectGateway#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_gateway#name MediaconnectGateway#name}
 
 ---
 
@@ -944,7 +944,7 @@ Networks interface{}
 
 The list of networks in the gateway.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_gateway#networks MediaconnectGateway#networks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_gateway#networks MediaconnectGateway#networks}
 
 ---
 
@@ -953,7 +953,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediaconnectGateway.MediaconnectGatewayNetworks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectgateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconnectgateway"
 
 &mediaconnectgateway.MediaconnectGatewayNetworks {
 	CidrBlock: *string,
@@ -982,7 +982,7 @@ A unique IP address range to use for this network.
 
 These IP addresses should be in the form of a Classless Inter-Domain Routing (CIDR) block; for example, 10.0.0.0/16.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_gateway#cidr_block MediaconnectGateway#cidr_block}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_gateway#cidr_block MediaconnectGateway#cidr_block}
 
 ---
 
@@ -998,7 +998,7 @@ The name of the network.
 
 This name is used to reference the network and must be unique among networks in this gateway.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_gateway#name MediaconnectGateway#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_gateway#name MediaconnectGateway#name}
 
 ---
 
@@ -1009,7 +1009,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediaconnectGateway.MediaconnectGatewayNetworksList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectgateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconnectgateway"
 
 mediaconnectgateway.NewMediaconnectGatewayNetworksList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MediaconnectGatewayNetworksList
 ```
@@ -1169,7 +1169,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediaconnectGateway.MediaconnectGatewayNetworksOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectgateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconnectgateway"
 
 mediaconnectgateway.NewMediaconnectGatewayNetworksOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) MediaconnectGatewayNetworksOutputReference
 ```

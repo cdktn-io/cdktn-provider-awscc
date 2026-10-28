@@ -4,12 +4,12 @@
 
 ### DatabrewDataset <a name="DatabrewDataset" id="@cdktn/provider-awscc.databrewDataset.DatabrewDataset"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset awscc_databrew_dataset}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset awscc_databrew_dataset}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.databrewDataset.DatabrewDataset.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/databrewdataset"
 
 databrewdataset.NewDatabrewDataset(scope Construct, id *string, config DatabrewDatasetConfig) DatabrewDataset
 ```
@@ -487,7 +487,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.databrewDataset.DatabrewDataset.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/databrewdataset"
 
 databrewdataset.DatabrewDataset_IsConstruct(x interface{}) *bool
 ```
@@ -519,7 +519,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.databrewDataset.DatabrewDataset.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/databrewdataset"
 
 databrewdataset.DatabrewDataset_IsTerraformElement(x interface{}) *bool
 ```
@@ -533,7 +533,7 @@ databrewdataset.DatabrewDataset_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.databrewDataset.DatabrewDataset.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/databrewdataset"
 
 databrewdataset.DatabrewDataset_IsTerraformResource(x interface{}) *bool
 ```
@@ -547,7 +547,7 @@ databrewdataset.DatabrewDataset_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.databrewDataset.DatabrewDataset.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/databrewdataset"
 
 databrewdataset.DatabrewDataset_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -576,7 +576,7 @@ The construct id used in the generated config for the DatabrewDataset to import.
 
 The id of the existing DatabrewDataset that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -941,7 +941,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.databrewDataset.DatabrewDatasetConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/databrewdataset"
 
 &databrewdataset.DatabrewDatasetConfig {
 	Connection: interface{},
@@ -951,11 +951,11 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewdataset"
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	Input: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.databrewDataset.DatabrewDatasetInput,
+	Input: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.databrewDataset.DatabrewDatasetInput,
 	Name: *string,
 	Format: *string,
-	FormatOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.databrewDataset.DatabrewDatasetFormatOptions,
-	PathOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.databrewDataset.DatabrewDatasetPathOptions,
+	FormatOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.databrewDataset.DatabrewDatasetFormatOptions,
+	PathOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.databrewDataset.DatabrewDatasetPathOptions,
 	Source: *string,
 	Tags: interface{},
 }
@@ -978,7 +978,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewdataset"
 | <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetConfig.property.formatOptions">FormatOptions</a></code> | <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetFormatOptions">DatabrewDatasetFormatOptions</a></code> | Format options for dataset. |
 | <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetConfig.property.pathOptions">PathOptions</a></code> | <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetPathOptions">DatabrewDatasetPathOptions</a></code> | PathOptions. |
 | <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetConfig.property.source">Source</a></code> | <code>*string</code> | Source type of the dataset. |
-| <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#tags DatabrewDataset#tags}. |
+| <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#tags DatabrewDataset#tags}. |
 
 ---
 
@@ -1062,7 +1062,7 @@ Input DatabrewDatasetInput
 
 Input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#input DatabrewDataset#input}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#input DatabrewDataset#input}
 
 ---
 
@@ -1076,7 +1076,7 @@ Name *string
 
 Dataset name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#name DatabrewDataset#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#name DatabrewDataset#name}
 
 ---
 
@@ -1090,7 +1090,7 @@ Format *string
 
 Dataset format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#format DatabrewDataset#format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#format DatabrewDataset#format}
 
 ---
 
@@ -1104,7 +1104,7 @@ FormatOptions DatabrewDatasetFormatOptions
 
 Format options for dataset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#format_options DatabrewDataset#format_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#format_options DatabrewDataset#format_options}
 
 ---
 
@@ -1118,7 +1118,7 @@ PathOptions DatabrewDatasetPathOptions
 
 PathOptions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#path_options DatabrewDataset#path_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#path_options DatabrewDataset#path_options}
 
 ---
 
@@ -1132,7 +1132,7 @@ Source *string
 
 Source type of the dataset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#source DatabrewDataset#source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#source DatabrewDataset#source}
 
 ---
 
@@ -1144,7 +1144,7 @@ Tags interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#tags DatabrewDataset#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#tags DatabrewDataset#tags}.
 
 ---
 
@@ -1153,12 +1153,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.databrewDataset.DatabrewDatasetFormatOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/databrewdataset"
 
 &databrewdataset.DatabrewDatasetFormatOptions {
-	Csv: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.databrewDataset.DatabrewDatasetFormatOptionsCsv,
-	Excel: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.databrewDataset.DatabrewDatasetFormatOptionsExcel,
-	Json: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.databrewDataset.DatabrewDatasetFormatOptionsJson,
+	Csv: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.databrewDataset.DatabrewDatasetFormatOptionsCsv,
+	Excel: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.databrewDataset.DatabrewDatasetFormatOptionsExcel,
+	Json: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.databrewDataset.DatabrewDatasetFormatOptionsJson,
 }
 ```
 
@@ -1167,7 +1167,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewdataset"
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetFormatOptions.property.csv">Csv</a></code> | <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetFormatOptionsCsv">DatabrewDatasetFormatOptionsCsv</a></code> | Csv options. |
-| <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetFormatOptions.property.excel">Excel</a></code> | <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetFormatOptionsExcel">DatabrewDatasetFormatOptionsExcel</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#excel DatabrewDataset#excel}. |
+| <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetFormatOptions.property.excel">Excel</a></code> | <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetFormatOptionsExcel">DatabrewDatasetFormatOptionsExcel</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#excel DatabrewDataset#excel}. |
 | <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetFormatOptions.property.json">Json</a></code> | <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetFormatOptionsJson">DatabrewDatasetFormatOptionsJson</a></code> | Json options. |
 
 ---
@@ -1182,7 +1182,7 @@ Csv DatabrewDatasetFormatOptionsCsv
 
 Csv options.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#csv DatabrewDataset#csv}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#csv DatabrewDataset#csv}
 
 ---
 
@@ -1194,7 +1194,7 @@ Excel DatabrewDatasetFormatOptionsExcel
 
 - *Type:* <a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetFormatOptionsExcel">DatabrewDatasetFormatOptionsExcel</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#excel DatabrewDataset#excel}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#excel DatabrewDataset#excel}.
 
 ---
 
@@ -1208,7 +1208,7 @@ Json DatabrewDatasetFormatOptionsJson
 
 Json options.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#json DatabrewDataset#json}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#json DatabrewDataset#json}
 
 ---
 
@@ -1217,7 +1217,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.databrewDataset.DatabrewDatasetFormatOptionsCsv.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/databrewdataset"
 
 &databrewdataset.DatabrewDatasetFormatOptionsCsv {
 	Delimiter: *string,
@@ -1229,8 +1229,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewdataset"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetFormatOptionsCsv.property.delimiter">Delimiter</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#delimiter DatabrewDataset#delimiter}. |
-| <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetFormatOptionsCsv.property.headerRow">HeaderRow</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#header_row DatabrewDataset#header_row}. |
+| <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetFormatOptionsCsv.property.delimiter">Delimiter</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#delimiter DatabrewDataset#delimiter}. |
+| <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetFormatOptionsCsv.property.headerRow">HeaderRow</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#header_row DatabrewDataset#header_row}. |
 
 ---
 
@@ -1242,7 +1242,7 @@ Delimiter *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#delimiter DatabrewDataset#delimiter}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#delimiter DatabrewDataset#delimiter}.
 
 ---
 
@@ -1254,7 +1254,7 @@ HeaderRow interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#header_row DatabrewDataset#header_row}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#header_row DatabrewDataset#header_row}.
 
 ---
 
@@ -1263,7 +1263,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.databrewDataset.DatabrewDatasetFormatOptionsExcel.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/databrewdataset"
 
 &databrewdataset.DatabrewDatasetFormatOptionsExcel {
 	HeaderRow: interface{},
@@ -1276,9 +1276,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewdataset"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetFormatOptionsExcel.property.headerRow">HeaderRow</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#header_row DatabrewDataset#header_row}. |
-| <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetFormatOptionsExcel.property.sheetIndexes">SheetIndexes</a></code> | <code>*[]*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#sheet_indexes DatabrewDataset#sheet_indexes}. |
-| <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetFormatOptionsExcel.property.sheetNames">SheetNames</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#sheet_names DatabrewDataset#sheet_names}. |
+| <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetFormatOptionsExcel.property.headerRow">HeaderRow</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#header_row DatabrewDataset#header_row}. |
+| <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetFormatOptionsExcel.property.sheetIndexes">SheetIndexes</a></code> | <code>*[]*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#sheet_indexes DatabrewDataset#sheet_indexes}. |
+| <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetFormatOptionsExcel.property.sheetNames">SheetNames</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#sheet_names DatabrewDataset#sheet_names}. |
 
 ---
 
@@ -1290,7 +1290,7 @@ HeaderRow interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#header_row DatabrewDataset#header_row}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#header_row DatabrewDataset#header_row}.
 
 ---
 
@@ -1302,7 +1302,7 @@ SheetIndexes *[]*f64
 
 - *Type:* *[]*f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#sheet_indexes DatabrewDataset#sheet_indexes}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#sheet_indexes DatabrewDataset#sheet_indexes}.
 
 ---
 
@@ -1314,7 +1314,7 @@ SheetNames *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#sheet_names DatabrewDataset#sheet_names}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#sheet_names DatabrewDataset#sheet_names}.
 
 ---
 
@@ -1323,7 +1323,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.databrewDataset.DatabrewDatasetFormatOptionsJson.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/databrewdataset"
 
 &databrewdataset.DatabrewDatasetFormatOptionsJson {
 	MultiLine: interface{},
@@ -1334,7 +1334,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewdataset"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetFormatOptionsJson.property.multiLine">MultiLine</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#multi_line DatabrewDataset#multi_line}. |
+| <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetFormatOptionsJson.property.multiLine">MultiLine</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#multi_line DatabrewDataset#multi_line}. |
 
 ---
 
@@ -1346,7 +1346,7 @@ MultiLine interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#multi_line DatabrewDataset#multi_line}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#multi_line DatabrewDataset#multi_line}.
 
 ---
 
@@ -1355,13 +1355,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.databrewDataset.DatabrewDatasetInput.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/databrewdataset"
 
 &databrewdataset.DatabrewDatasetInput {
-	DatabaseInputDefinition: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.databrewDataset.DatabrewDatasetInputDatabaseInputDefinition,
-	DataCatalogInputDefinition: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.databrewDataset.DatabrewDatasetInputDataCatalogInputDefinition,
-	Metadata: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.databrewDataset.DatabrewDatasetInputMetadata,
-	S3InputDefinition: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.databrewDataset.DatabrewDatasetInputS3InputDefinition,
+	DatabaseInputDefinition: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.databrewDataset.DatabrewDatasetInputDatabaseInputDefinition,
+	DataCatalogInputDefinition: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.databrewDataset.DatabrewDatasetInputDataCatalogInputDefinition,
+	Metadata: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.databrewDataset.DatabrewDatasetInputMetadata,
+	S3InputDefinition: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.databrewDataset.DatabrewDatasetInputS3InputDefinition,
 }
 ```
 
@@ -1369,9 +1369,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewdataset"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetInput.property.databaseInputDefinition">DatabaseInputDefinition</a></code> | <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetInputDatabaseInputDefinition">DatabrewDatasetInputDatabaseInputDefinition</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#database_input_definition DatabrewDataset#database_input_definition}. |
-| <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetInput.property.dataCatalogInputDefinition">DataCatalogInputDefinition</a></code> | <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetInputDataCatalogInputDefinition">DatabrewDatasetInputDataCatalogInputDefinition</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#data_catalog_input_definition DatabrewDataset#data_catalog_input_definition}. |
-| <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetInput.property.metadata">Metadata</a></code> | <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetInputMetadata">DatabrewDatasetInputMetadata</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#metadata DatabrewDataset#metadata}. |
+| <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetInput.property.databaseInputDefinition">DatabaseInputDefinition</a></code> | <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetInputDatabaseInputDefinition">DatabrewDatasetInputDatabaseInputDefinition</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#database_input_definition DatabrewDataset#database_input_definition}. |
+| <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetInput.property.dataCatalogInputDefinition">DataCatalogInputDefinition</a></code> | <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetInputDataCatalogInputDefinition">DatabrewDatasetInputDataCatalogInputDefinition</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#data_catalog_input_definition DatabrewDataset#data_catalog_input_definition}. |
+| <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetInput.property.metadata">Metadata</a></code> | <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetInputMetadata">DatabrewDatasetInputMetadata</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#metadata DatabrewDataset#metadata}. |
 | <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetInput.property.s3InputDefinition">S3InputDefinition</a></code> | <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetInputS3InputDefinition">DatabrewDatasetInputS3InputDefinition</a></code> | Input location. |
 
 ---
@@ -1384,7 +1384,7 @@ DatabaseInputDefinition DatabrewDatasetInputDatabaseInputDefinition
 
 - *Type:* <a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetInputDatabaseInputDefinition">DatabrewDatasetInputDatabaseInputDefinition</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#database_input_definition DatabrewDataset#database_input_definition}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#database_input_definition DatabrewDataset#database_input_definition}.
 
 ---
 
@@ -1396,7 +1396,7 @@ DataCatalogInputDefinition DatabrewDatasetInputDataCatalogInputDefinition
 
 - *Type:* <a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetInputDataCatalogInputDefinition">DatabrewDatasetInputDataCatalogInputDefinition</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#data_catalog_input_definition DatabrewDataset#data_catalog_input_definition}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#data_catalog_input_definition DatabrewDataset#data_catalog_input_definition}.
 
 ---
 
@@ -1408,7 +1408,7 @@ Metadata DatabrewDatasetInputMetadata
 
 - *Type:* <a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetInputMetadata">DatabrewDatasetInputMetadata</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#metadata DatabrewDataset#metadata}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#metadata DatabrewDataset#metadata}.
 
 ---
 
@@ -1422,7 +1422,7 @@ S3InputDefinition DatabrewDatasetInputS3InputDefinition
 
 Input location.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#s3_input_definition DatabrewDataset#s3_input_definition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#s3_input_definition DatabrewDataset#s3_input_definition}
 
 ---
 
@@ -1431,13 +1431,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.databrewDataset.DatabrewDatasetInputDatabaseInputDefinition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/databrewdataset"
 
 &databrewdataset.DatabrewDatasetInputDatabaseInputDefinition {
 	DatabaseTableName: *string,
 	GlueConnectionName: *string,
 	QueryString: *string,
-	TempDirectory: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.databrewDataset.DatabrewDatasetInputDatabaseInputDefinitionTempDirectory,
+	TempDirectory: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.databrewDataset.DatabrewDatasetInputDatabaseInputDefinitionTempDirectory,
 }
 ```
 
@@ -1462,7 +1462,7 @@ DatabaseTableName *string
 
 Database table name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#database_table_name DatabrewDataset#database_table_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#database_table_name DatabrewDataset#database_table_name}
 
 ---
 
@@ -1476,7 +1476,7 @@ GlueConnectionName *string
 
 Glue connection name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#glue_connection_name DatabrewDataset#glue_connection_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#glue_connection_name DatabrewDataset#glue_connection_name}
 
 ---
 
@@ -1492,7 +1492,7 @@ Custom SQL to run against the provided AWS Glue connection.
 
 This SQL will be used as the input for DataBrew projects and jobs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#query_string DatabrewDataset#query_string}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#query_string DatabrewDataset#query_string}
 
 ---
 
@@ -1506,7 +1506,7 @@ TempDirectory DatabrewDatasetInputDatabaseInputDefinitionTempDirectory
 
 Input location.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#temp_directory DatabrewDataset#temp_directory}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#temp_directory DatabrewDataset#temp_directory}
 
 ---
 
@@ -1515,7 +1515,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.databrewDataset.DatabrewDatasetInputDatabaseInputDefinitionTempDirectory.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/databrewdataset"
 
 &databrewdataset.DatabrewDatasetInputDatabaseInputDefinitionTempDirectory {
 	Bucket: *string,
@@ -1528,9 +1528,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewdataset"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetInputDatabaseInputDefinitionTempDirectory.property.bucket">Bucket</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#bucket DatabrewDataset#bucket}. |
+| <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetInputDatabaseInputDefinitionTempDirectory.property.bucket">Bucket</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#bucket DatabrewDataset#bucket}. |
 | <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetInputDatabaseInputDefinitionTempDirectory.property.bucketOwner">BucketOwner</a></code> | <code>*string</code> | Bucket owner. |
-| <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetInputDatabaseInputDefinitionTempDirectory.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#key DatabrewDataset#key}. |
+| <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetInputDatabaseInputDefinitionTempDirectory.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#key DatabrewDataset#key}. |
 
 ---
 
@@ -1542,7 +1542,7 @@ Bucket *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#bucket DatabrewDataset#bucket}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#bucket DatabrewDataset#bucket}.
 
 ---
 
@@ -1556,7 +1556,7 @@ BucketOwner *string
 
 Bucket owner.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#bucket_owner DatabrewDataset#bucket_owner}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#bucket_owner DatabrewDataset#bucket_owner}
 
 ---
 
@@ -1568,7 +1568,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#key DatabrewDataset#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#key DatabrewDataset#key}.
 
 ---
 
@@ -1577,13 +1577,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.databrewDataset.DatabrewDatasetInputDataCatalogInputDefinition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/databrewdataset"
 
 &databrewdataset.DatabrewDatasetInputDataCatalogInputDefinition {
 	CatalogId: *string,
 	DatabaseName: *string,
 	TableName: *string,
-	TempDirectory: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.databrewDataset.DatabrewDatasetInputDataCatalogInputDefinitionTempDirectory,
+	TempDirectory: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.databrewDataset.DatabrewDatasetInputDataCatalogInputDefinitionTempDirectory,
 }
 ```
 
@@ -1608,7 +1608,7 @@ CatalogId *string
 
 Catalog id.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#catalog_id DatabrewDataset#catalog_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#catalog_id DatabrewDataset#catalog_id}
 
 ---
 
@@ -1622,7 +1622,7 @@ DatabaseName *string
 
 Database name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#database_name DatabrewDataset#database_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#database_name DatabrewDataset#database_name}
 
 ---
 
@@ -1636,7 +1636,7 @@ TableName *string
 
 Table name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#table_name DatabrewDataset#table_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#table_name DatabrewDataset#table_name}
 
 ---
 
@@ -1650,7 +1650,7 @@ TempDirectory DatabrewDatasetInputDataCatalogInputDefinitionTempDirectory
 
 Input location.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#temp_directory DatabrewDataset#temp_directory}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#temp_directory DatabrewDataset#temp_directory}
 
 ---
 
@@ -1659,7 +1659,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.databrewDataset.DatabrewDatasetInputDataCatalogInputDefinitionTempDirectory.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/databrewdataset"
 
 &databrewdataset.DatabrewDatasetInputDataCatalogInputDefinitionTempDirectory {
 	Bucket: *string,
@@ -1672,9 +1672,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewdataset"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetInputDataCatalogInputDefinitionTempDirectory.property.bucket">Bucket</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#bucket DatabrewDataset#bucket}. |
+| <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetInputDataCatalogInputDefinitionTempDirectory.property.bucket">Bucket</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#bucket DatabrewDataset#bucket}. |
 | <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetInputDataCatalogInputDefinitionTempDirectory.property.bucketOwner">BucketOwner</a></code> | <code>*string</code> | Bucket owner. |
-| <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetInputDataCatalogInputDefinitionTempDirectory.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#key DatabrewDataset#key}. |
+| <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetInputDataCatalogInputDefinitionTempDirectory.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#key DatabrewDataset#key}. |
 
 ---
 
@@ -1686,7 +1686,7 @@ Bucket *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#bucket DatabrewDataset#bucket}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#bucket DatabrewDataset#bucket}.
 
 ---
 
@@ -1700,7 +1700,7 @@ BucketOwner *string
 
 Bucket owner.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#bucket_owner DatabrewDataset#bucket_owner}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#bucket_owner DatabrewDataset#bucket_owner}
 
 ---
 
@@ -1712,7 +1712,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#key DatabrewDataset#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#key DatabrewDataset#key}.
 
 ---
 
@@ -1721,7 +1721,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.databrewDataset.DatabrewDatasetInputMetadata.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/databrewdataset"
 
 &databrewdataset.DatabrewDatasetInputMetadata {
 	SourceArn: *string,
@@ -1746,7 +1746,7 @@ SourceArn *string
 
 Arn of the source of the dataset. For e.g.: AppFlow Flow ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#source_arn DatabrewDataset#source_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#source_arn DatabrewDataset#source_arn}
 
 ---
 
@@ -1755,7 +1755,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.databrewDataset.DatabrewDatasetInputS3InputDefinition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/databrewdataset"
 
 &databrewdataset.DatabrewDatasetInputS3InputDefinition {
 	Bucket: *string,
@@ -1768,9 +1768,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewdataset"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetInputS3InputDefinition.property.bucket">Bucket</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#bucket DatabrewDataset#bucket}. |
+| <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetInputS3InputDefinition.property.bucket">Bucket</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#bucket DatabrewDataset#bucket}. |
 | <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetInputS3InputDefinition.property.bucketOwner">BucketOwner</a></code> | <code>*string</code> | Bucket owner. |
-| <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetInputS3InputDefinition.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#key DatabrewDataset#key}. |
+| <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetInputS3InputDefinition.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#key DatabrewDataset#key}. |
 
 ---
 
@@ -1782,7 +1782,7 @@ Bucket *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#bucket DatabrewDataset#bucket}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#bucket DatabrewDataset#bucket}.
 
 ---
 
@@ -1796,7 +1796,7 @@ BucketOwner *string
 
 Bucket owner.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#bucket_owner DatabrewDataset#bucket_owner}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#bucket_owner DatabrewDataset#bucket_owner}
 
 ---
 
@@ -1808,7 +1808,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#key DatabrewDataset#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#key DatabrewDataset#key}.
 
 ---
 
@@ -1817,11 +1817,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.databrewDataset.DatabrewDatasetPathOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/databrewdataset"
 
 &databrewdataset.DatabrewDatasetPathOptions {
-	FilesLimit: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.databrewDataset.DatabrewDatasetPathOptionsFilesLimit,
-	LastModifiedDateCondition: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.databrewDataset.DatabrewDatasetPathOptionsLastModifiedDateCondition,
+	FilesLimit: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.databrewDataset.DatabrewDatasetPathOptionsFilesLimit,
+	LastModifiedDateCondition: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.databrewDataset.DatabrewDatasetPathOptionsLastModifiedDateCondition,
 	Parameters: interface{},
 }
 ```
@@ -1830,9 +1830,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewdataset"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetPathOptions.property.filesLimit">FilesLimit</a></code> | <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetPathOptionsFilesLimit">DatabrewDatasetPathOptionsFilesLimit</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#files_limit DatabrewDataset#files_limit}. |
-| <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetPathOptions.property.lastModifiedDateCondition">LastModifiedDateCondition</a></code> | <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetPathOptionsLastModifiedDateCondition">DatabrewDatasetPathOptionsLastModifiedDateCondition</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#last_modified_date_condition DatabrewDataset#last_modified_date_condition}. |
-| <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetPathOptions.property.parameters">Parameters</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#parameters DatabrewDataset#parameters}. |
+| <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetPathOptions.property.filesLimit">FilesLimit</a></code> | <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetPathOptionsFilesLimit">DatabrewDatasetPathOptionsFilesLimit</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#files_limit DatabrewDataset#files_limit}. |
+| <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetPathOptions.property.lastModifiedDateCondition">LastModifiedDateCondition</a></code> | <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetPathOptionsLastModifiedDateCondition">DatabrewDatasetPathOptionsLastModifiedDateCondition</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#last_modified_date_condition DatabrewDataset#last_modified_date_condition}. |
+| <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetPathOptions.property.parameters">Parameters</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#parameters DatabrewDataset#parameters}. |
 
 ---
 
@@ -1844,7 +1844,7 @@ FilesLimit DatabrewDatasetPathOptionsFilesLimit
 
 - *Type:* <a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetPathOptionsFilesLimit">DatabrewDatasetPathOptionsFilesLimit</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#files_limit DatabrewDataset#files_limit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#files_limit DatabrewDataset#files_limit}.
 
 ---
 
@@ -1856,7 +1856,7 @@ LastModifiedDateCondition DatabrewDatasetPathOptionsLastModifiedDateCondition
 
 - *Type:* <a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetPathOptionsLastModifiedDateCondition">DatabrewDatasetPathOptionsLastModifiedDateCondition</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#last_modified_date_condition DatabrewDataset#last_modified_date_condition}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#last_modified_date_condition DatabrewDataset#last_modified_date_condition}.
 
 ---
 
@@ -1868,7 +1868,7 @@ Parameters interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#parameters DatabrewDataset#parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#parameters DatabrewDataset#parameters}.
 
 ---
 
@@ -1877,7 +1877,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.databrewDataset.DatabrewDatasetPathOptionsFilesLimit.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/databrewdataset"
 
 &databrewdataset.DatabrewDatasetPathOptionsFilesLimit {
 	MaxFiles: *f64,
@@ -1906,7 +1906,7 @@ MaxFiles *f64
 
 Maximum number of files.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#max_files DatabrewDataset#max_files}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#max_files DatabrewDataset#max_files}
 
 ---
 
@@ -1920,7 +1920,7 @@ Order *string
 
 Order.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#order DatabrewDataset#order}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#order DatabrewDataset#order}
 
 ---
 
@@ -1934,7 +1934,7 @@ OrderedBy *string
 
 Ordered by.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#ordered_by DatabrewDataset#ordered_by}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#ordered_by DatabrewDataset#ordered_by}
 
 ---
 
@@ -1943,7 +1943,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.databrewDataset.DatabrewDatasetPathOptionsLastModifiedDateCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/databrewdataset"
 
 &databrewdataset.DatabrewDatasetPathOptionsLastModifiedDateCondition {
 	Expression: *string,
@@ -1956,7 +1956,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewdataset"
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetPathOptionsLastModifiedDateCondition.property.expression">Expression</a></code> | <code>*string</code> | Filtering expression for a parameter. |
-| <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetPathOptionsLastModifiedDateCondition.property.valuesMap">ValuesMap</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#values_map DatabrewDataset#values_map}. |
+| <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetPathOptionsLastModifiedDateCondition.property.valuesMap">ValuesMap</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#values_map DatabrewDataset#values_map}. |
 
 ---
 
@@ -1970,7 +1970,7 @@ Expression *string
 
 Filtering expression for a parameter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#expression DatabrewDataset#expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#expression DatabrewDataset#expression}
 
 ---
 
@@ -1982,7 +1982,7 @@ ValuesMap interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#values_map DatabrewDataset#values_map}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#values_map DatabrewDataset#values_map}.
 
 ---
 
@@ -1991,7 +1991,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.databrewDataset.DatabrewDatasetPathOptionsLastModifiedDateConditionValuesMap.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/databrewdataset"
 
 &databrewdataset.DatabrewDatasetPathOptionsLastModifiedDateConditionValuesMap {
 	Value: *string,
@@ -2003,7 +2003,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewdataset"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetPathOptionsLastModifiedDateConditionValuesMap.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#value DatabrewDataset#value}. |
+| <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetPathOptionsLastModifiedDateConditionValuesMap.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#value DatabrewDataset#value}. |
 | <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetPathOptionsLastModifiedDateConditionValuesMap.property.valueReference">ValueReference</a></code> | <code>*string</code> | Variable name. |
 
 ---
@@ -2016,7 +2016,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#value DatabrewDataset#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#value DatabrewDataset#value}.
 
 ---
 
@@ -2030,7 +2030,7 @@ ValueReference *string
 
 Variable name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#value_reference DatabrewDataset#value_reference}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#value_reference DatabrewDataset#value_reference}
 
 ---
 
@@ -2039,10 +2039,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.databrewDataset.DatabrewDatasetPathOptionsParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/databrewdataset"
 
 &databrewdataset.DatabrewDatasetPathOptionsParameters {
-	DatasetParameter: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.databrewDataset.DatabrewDatasetPathOptionsParametersDatasetParameter,
+	DatasetParameter: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.databrewDataset.DatabrewDatasetPathOptionsParametersDatasetParameter,
 	PathParameterName: *string,
 }
 ```
@@ -2051,7 +2051,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewdataset"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetPathOptionsParameters.property.datasetParameter">DatasetParameter</a></code> | <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetPathOptionsParametersDatasetParameter">DatabrewDatasetPathOptionsParametersDatasetParameter</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#dataset_parameter DatabrewDataset#dataset_parameter}. |
+| <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetPathOptionsParameters.property.datasetParameter">DatasetParameter</a></code> | <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetPathOptionsParametersDatasetParameter">DatabrewDatasetPathOptionsParametersDatasetParameter</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#dataset_parameter DatabrewDataset#dataset_parameter}. |
 | <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetPathOptionsParameters.property.pathParameterName">PathParameterName</a></code> | <code>*string</code> | Parameter name. |
 
 ---
@@ -2064,7 +2064,7 @@ DatasetParameter DatabrewDatasetPathOptionsParametersDatasetParameter
 
 - *Type:* <a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetPathOptionsParametersDatasetParameter">DatabrewDatasetPathOptionsParametersDatasetParameter</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#dataset_parameter DatabrewDataset#dataset_parameter}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#dataset_parameter DatabrewDataset#dataset_parameter}.
 
 ---
 
@@ -2078,7 +2078,7 @@ PathParameterName *string
 
 Parameter name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#path_parameter_name DatabrewDataset#path_parameter_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#path_parameter_name DatabrewDataset#path_parameter_name}
 
 ---
 
@@ -2087,12 +2087,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.databrewDataset.DatabrewDatasetPathOptionsParametersDatasetParameter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/databrewdataset"
 
 &databrewdataset.DatabrewDatasetPathOptionsParametersDatasetParameter {
 	CreateColumn: interface{},
-	DatetimeOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.databrewDataset.DatabrewDatasetPathOptionsParametersDatasetParameterDatetimeOptions,
-	Filter: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.databrewDataset.DatabrewDatasetPathOptionsParametersDatasetParameterFilter,
+	DatetimeOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.databrewDataset.DatabrewDatasetPathOptionsParametersDatasetParameterDatetimeOptions,
+	Filter: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.databrewDataset.DatabrewDatasetPathOptionsParametersDatasetParameterFilter,
 	Name: *string,
 	Type: *string,
 }
@@ -2103,8 +2103,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewdataset"
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetPathOptionsParametersDatasetParameter.property.createColumn">CreateColumn</a></code> | <code>interface{}</code> | Add the value of this parameter as a column in a dataset. |
-| <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetPathOptionsParametersDatasetParameter.property.datetimeOptions">DatetimeOptions</a></code> | <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetPathOptionsParametersDatasetParameterDatetimeOptions">DatabrewDatasetPathOptionsParametersDatasetParameterDatetimeOptions</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#datetime_options DatabrewDataset#datetime_options}. |
-| <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetPathOptionsParametersDatasetParameter.property.filter">Filter</a></code> | <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetPathOptionsParametersDatasetParameterFilter">DatabrewDatasetPathOptionsParametersDatasetParameterFilter</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#filter DatabrewDataset#filter}. |
+| <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetPathOptionsParametersDatasetParameter.property.datetimeOptions">DatetimeOptions</a></code> | <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetPathOptionsParametersDatasetParameterDatetimeOptions">DatabrewDatasetPathOptionsParametersDatasetParameterDatetimeOptions</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#datetime_options DatabrewDataset#datetime_options}. |
+| <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetPathOptionsParametersDatasetParameter.property.filter">Filter</a></code> | <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetPathOptionsParametersDatasetParameterFilter">DatabrewDatasetPathOptionsParametersDatasetParameterFilter</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#filter DatabrewDataset#filter}. |
 | <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetPathOptionsParametersDatasetParameter.property.name">Name</a></code> | <code>*string</code> | Parameter name. |
 | <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetPathOptionsParametersDatasetParameter.property.type">Type</a></code> | <code>*string</code> | Parameter type. |
 
@@ -2120,7 +2120,7 @@ CreateColumn interface{}
 
 Add the value of this parameter as a column in a dataset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#create_column DatabrewDataset#create_column}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#create_column DatabrewDataset#create_column}
 
 ---
 
@@ -2132,7 +2132,7 @@ DatetimeOptions DatabrewDatasetPathOptionsParametersDatasetParameterDatetimeOpti
 
 - *Type:* <a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetPathOptionsParametersDatasetParameterDatetimeOptions">DatabrewDatasetPathOptionsParametersDatasetParameterDatetimeOptions</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#datetime_options DatabrewDataset#datetime_options}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#datetime_options DatabrewDataset#datetime_options}.
 
 ---
 
@@ -2144,7 +2144,7 @@ Filter DatabrewDatasetPathOptionsParametersDatasetParameterFilter
 
 - *Type:* <a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetPathOptionsParametersDatasetParameterFilter">DatabrewDatasetPathOptionsParametersDatasetParameterFilter</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#filter DatabrewDataset#filter}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#filter DatabrewDataset#filter}.
 
 ---
 
@@ -2158,7 +2158,7 @@ Name *string
 
 Parameter name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#name DatabrewDataset#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#name DatabrewDataset#name}
 
 ---
 
@@ -2172,7 +2172,7 @@ Type *string
 
 Parameter type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#type DatabrewDataset#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#type DatabrewDataset#type}
 
 ---
 
@@ -2181,7 +2181,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.databrewDataset.DatabrewDatasetPathOptionsParametersDatasetParameterDatetimeOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/databrewdataset"
 
 &databrewdataset.DatabrewDatasetPathOptionsParametersDatasetParameterDatetimeOptions {
 	Format: *string,
@@ -2210,7 +2210,7 @@ Format *string
 
 Date/time format of a date parameter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#format DatabrewDataset#format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#format DatabrewDataset#format}
 
 ---
 
@@ -2224,7 +2224,7 @@ LocaleCode *string
 
 Locale code for a date parameter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#locale_code DatabrewDataset#locale_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#locale_code DatabrewDataset#locale_code}
 
 ---
 
@@ -2238,7 +2238,7 @@ TimezoneOffset *string
 
 Timezone offset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#timezone_offset DatabrewDataset#timezone_offset}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#timezone_offset DatabrewDataset#timezone_offset}
 
 ---
 
@@ -2247,7 +2247,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.databrewDataset.DatabrewDatasetPathOptionsParametersDatasetParameterFilter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/databrewdataset"
 
 &databrewdataset.DatabrewDatasetPathOptionsParametersDatasetParameterFilter {
 	Expression: *string,
@@ -2260,7 +2260,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewdataset"
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetPathOptionsParametersDatasetParameterFilter.property.expression">Expression</a></code> | <code>*string</code> | Filtering expression for a parameter. |
-| <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetPathOptionsParametersDatasetParameterFilter.property.valuesMap">ValuesMap</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#values_map DatabrewDataset#values_map}. |
+| <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetPathOptionsParametersDatasetParameterFilter.property.valuesMap">ValuesMap</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#values_map DatabrewDataset#values_map}. |
 
 ---
 
@@ -2274,7 +2274,7 @@ Expression *string
 
 Filtering expression for a parameter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#expression DatabrewDataset#expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#expression DatabrewDataset#expression}
 
 ---
 
@@ -2286,7 +2286,7 @@ ValuesMap interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#values_map DatabrewDataset#values_map}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#values_map DatabrewDataset#values_map}.
 
 ---
 
@@ -2295,7 +2295,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.databrewDataset.DatabrewDatasetPathOptionsParametersDatasetParameterFilterValuesMap.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/databrewdataset"
 
 &databrewdataset.DatabrewDatasetPathOptionsParametersDatasetParameterFilterValuesMap {
 	Value: *string,
@@ -2307,7 +2307,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewdataset"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetPathOptionsParametersDatasetParameterFilterValuesMap.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#value DatabrewDataset#value}. |
+| <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetPathOptionsParametersDatasetParameterFilterValuesMap.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#value DatabrewDataset#value}. |
 | <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetPathOptionsParametersDatasetParameterFilterValuesMap.property.valueReference">ValueReference</a></code> | <code>*string</code> | Variable name. |
 
 ---
@@ -2320,7 +2320,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#value DatabrewDataset#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#value DatabrewDataset#value}.
 
 ---
 
@@ -2334,7 +2334,7 @@ ValueReference *string
 
 Variable name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#value_reference DatabrewDataset#value_reference}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#value_reference DatabrewDataset#value_reference}
 
 ---
 
@@ -2343,7 +2343,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.databrewDataset.DatabrewDatasetTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/databrewdataset"
 
 &databrewdataset.DatabrewDatasetTags {
 	Key: *string,
@@ -2355,8 +2355,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewdataset"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#key DatabrewDataset#key}. |
-| <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#value DatabrewDataset#value}. |
+| <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#key DatabrewDataset#key}. |
+| <code><a href="#@cdktn/provider-awscc.databrewDataset.DatabrewDatasetTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#value DatabrewDataset#value}. |
 
 ---
 
@@ -2368,7 +2368,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#key DatabrewDataset#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#key DatabrewDataset#key}.
 
 ---
 
@@ -2380,7 +2380,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_dataset#value DatabrewDataset#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_dataset#value DatabrewDataset#value}.
 
 ---
 
@@ -2391,7 +2391,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.databrewDataset.DatabrewDatasetFormatOptionsCsvOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/databrewdataset"
 
 databrewdataset.NewDatabrewDatasetFormatOptionsCsvOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DatabrewDatasetFormatOptionsCsvOutputReference
 ```
@@ -2698,7 +2698,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.databrewDataset.DatabrewDatasetFormatOptionsExcelOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/databrewdataset"
 
 databrewdataset.NewDatabrewDatasetFormatOptionsExcelOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DatabrewDatasetFormatOptionsExcelOutputReference
 ```
@@ -3034,7 +3034,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.databrewDataset.DatabrewDatasetFormatOptionsJsonOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/databrewdataset"
 
 databrewdataset.NewDatabrewDatasetFormatOptionsJsonOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DatabrewDatasetFormatOptionsJsonOutputReference
 ```
@@ -3312,7 +3312,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.databrewDataset.DatabrewDatasetFormatOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/databrewdataset"
 
 databrewdataset.NewDatabrewDatasetFormatOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DatabrewDatasetFormatOptionsOutputReference
 ```
@@ -3687,7 +3687,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.databrewDataset.DatabrewDatasetInputDatabaseInputDefinitionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/databrewdataset"
 
 databrewdataset.NewDatabrewDatasetInputDatabaseInputDefinitionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DatabrewDatasetInputDatabaseInputDefinitionOutputReference
 ```
@@ -4065,7 +4065,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.databrewDataset.DatabrewDatasetInputDatabaseInputDefinitionTempDirectoryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/databrewdataset"
 
 databrewdataset.NewDatabrewDatasetInputDatabaseInputDefinitionTempDirectoryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DatabrewDatasetInputDatabaseInputDefinitionTempDirectoryOutputReference
 ```
@@ -4401,7 +4401,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.databrewDataset.DatabrewDatasetInputDataCatalogInputDefinitionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/databrewdataset"
 
 databrewdataset.NewDatabrewDatasetInputDataCatalogInputDefinitionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DatabrewDatasetInputDataCatalogInputDefinitionOutputReference
 ```
@@ -4779,7 +4779,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.databrewDataset.DatabrewDatasetInputDataCatalogInputDefinitionTempDirectoryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/databrewdataset"
 
 databrewdataset.NewDatabrewDatasetInputDataCatalogInputDefinitionTempDirectoryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DatabrewDatasetInputDataCatalogInputDefinitionTempDirectoryOutputReference
 ```
@@ -5115,7 +5115,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.databrewDataset.DatabrewDatasetInputMetadataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/databrewdataset"
 
 databrewdataset.NewDatabrewDatasetInputMetadataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DatabrewDatasetInputMetadataOutputReference
 ```
@@ -5393,7 +5393,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.databrewDataset.DatabrewDatasetInputOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/databrewdataset"
 
 databrewdataset.NewDatabrewDatasetInputOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DatabrewDatasetInputOutputReference
 ```
@@ -5810,7 +5810,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.databrewDataset.DatabrewDatasetInputS3InputDefinitionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/databrewdataset"
 
 databrewdataset.NewDatabrewDatasetInputS3InputDefinitionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DatabrewDatasetInputS3InputDefinitionOutputReference
 ```
@@ -6146,7 +6146,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.databrewDataset.DatabrewDatasetPathOptionsFilesLimitOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/databrewdataset"
 
 databrewdataset.NewDatabrewDatasetPathOptionsFilesLimitOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DatabrewDatasetPathOptionsFilesLimitOutputReference
 ```
@@ -6482,7 +6482,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.databrewDataset.DatabrewDatasetPathOptionsLastModifiedDateConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/databrewdataset"
 
 databrewdataset.NewDatabrewDatasetPathOptionsLastModifiedDateConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DatabrewDatasetPathOptionsLastModifiedDateConditionOutputReference
 ```
@@ -6802,7 +6802,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.databrewDataset.DatabrewDatasetPathOptionsLastModifiedDateConditionValuesMapList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/databrewdataset"
 
 databrewdataset.NewDatabrewDatasetPathOptionsLastModifiedDateConditionValuesMapList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DatabrewDatasetPathOptionsLastModifiedDateConditionValuesMapList
 ```
@@ -6962,7 +6962,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.databrewDataset.DatabrewDatasetPathOptionsLastModifiedDateConditionValuesMapOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/databrewdataset"
 
 databrewdataset.NewDatabrewDatasetPathOptionsLastModifiedDateConditionValuesMapOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DatabrewDatasetPathOptionsLastModifiedDateConditionValuesMapOutputReference
 ```
@@ -7287,7 +7287,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.databrewDataset.DatabrewDatasetPathOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/databrewdataset"
 
 databrewdataset.NewDatabrewDatasetPathOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DatabrewDatasetPathOptionsOutputReference
 ```
@@ -7662,7 +7662,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.databrewDataset.DatabrewDatasetPathOptionsParametersDatasetParameterDatetimeOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/databrewdataset"
 
 databrewdataset.NewDatabrewDatasetPathOptionsParametersDatasetParameterDatetimeOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DatabrewDatasetPathOptionsParametersDatasetParameterDatetimeOptionsOutputReference
 ```
@@ -7998,7 +7998,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.databrewDataset.DatabrewDatasetPathOptionsParametersDatasetParameterFilterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/databrewdataset"
 
 databrewdataset.NewDatabrewDatasetPathOptionsParametersDatasetParameterFilterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DatabrewDatasetPathOptionsParametersDatasetParameterFilterOutputReference
 ```
@@ -8318,7 +8318,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.databrewDataset.DatabrewDatasetPathOptionsParametersDatasetParameterFilterValuesMapList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/databrewdataset"
 
 databrewdataset.NewDatabrewDatasetPathOptionsParametersDatasetParameterFilterValuesMapList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DatabrewDatasetPathOptionsParametersDatasetParameterFilterValuesMapList
 ```
@@ -8478,7 +8478,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.databrewDataset.DatabrewDatasetPathOptionsParametersDatasetParameterFilterValuesMapOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/databrewdataset"
 
 databrewdataset.NewDatabrewDatasetPathOptionsParametersDatasetParameterFilterValuesMapOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DatabrewDatasetPathOptionsParametersDatasetParameterFilterValuesMapOutputReference
 ```
@@ -8803,7 +8803,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.databrewDataset.DatabrewDatasetPathOptionsParametersDatasetParameterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/databrewdataset"
 
 databrewdataset.NewDatabrewDatasetPathOptionsParametersDatasetParameterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DatabrewDatasetPathOptionsParametersDatasetParameterOutputReference
 ```
@@ -9223,7 +9223,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.databrewDataset.DatabrewDatasetPathOptionsParametersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/databrewdataset"
 
 databrewdataset.NewDatabrewDatasetPathOptionsParametersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DatabrewDatasetPathOptionsParametersList
 ```
@@ -9383,7 +9383,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.databrewDataset.DatabrewDatasetPathOptionsParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/databrewdataset"
 
 databrewdataset.NewDatabrewDatasetPathOptionsParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DatabrewDatasetPathOptionsParametersOutputReference
 ```
@@ -9721,7 +9721,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.databrewDataset.DatabrewDatasetTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/databrewdataset"
 
 databrewdataset.NewDatabrewDatasetTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DatabrewDatasetTagsList
 ```
@@ -9881,7 +9881,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.databrewDataset.DatabrewDatasetTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/databrewdataset"
 
 databrewdataset.NewDatabrewDatasetTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DatabrewDatasetTagsOutputReference
 ```

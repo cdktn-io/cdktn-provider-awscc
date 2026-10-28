@@ -4,12 +4,12 @@
 
 ### MediaconnectRouterNetworkInterface <a name="MediaconnectRouterNetworkInterface" id="@cdktn/provider-awscc.mediaconnectRouterNetworkInterface.MediaconnectRouterNetworkInterface"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_router_network_interface awscc_mediaconnect_router_network_interface}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_router_network_interface awscc_mediaconnect_router_network_interface}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediaconnectRouterNetworkInterface.MediaconnectRouterNetworkInterface.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectrouternetworkinterface"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconnectrouternetworkinterface"
 
 mediaconnectrouternetworkinterface.NewMediaconnectRouterNetworkInterface(scope Construct, id *string, config MediaconnectRouterNetworkInterfaceConfig) MediaconnectRouterNetworkInterface
 ```
@@ -440,7 +440,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.mediaconnectRouterNetworkInterface.MediaconnectRouterNetworkInterface.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectrouternetworkinterface"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconnectrouternetworkinterface"
 
 mediaconnectrouternetworkinterface.MediaconnectRouterNetworkInterface_IsConstruct(x interface{}) *bool
 ```
@@ -472,7 +472,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.mediaconnectRouterNetworkInterface.MediaconnectRouterNetworkInterface.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectrouternetworkinterface"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconnectrouternetworkinterface"
 
 mediaconnectrouternetworkinterface.MediaconnectRouterNetworkInterface_IsTerraformElement(x interface{}) *bool
 ```
@@ -486,7 +486,7 @@ mediaconnectrouternetworkinterface.MediaconnectRouterNetworkInterface_IsTerrafor
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.mediaconnectRouterNetworkInterface.MediaconnectRouterNetworkInterface.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectrouternetworkinterface"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconnectrouternetworkinterface"
 
 mediaconnectrouternetworkinterface.MediaconnectRouterNetworkInterface_IsTerraformResource(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ mediaconnectrouternetworkinterface.MediaconnectRouterNetworkInterface_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.mediaconnectRouterNetworkInterface.MediaconnectRouterNetworkInterface.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectrouternetworkinterface"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconnectrouternetworkinterface"
 
 mediaconnectrouternetworkinterface.MediaconnectRouterNetworkInterface_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -529,7 +529,7 @@ The construct id used in the generated config for the MediaconnectRouterNetworkI
 
 The id of the existing MediaconnectRouterNetworkInterface that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_router_network_interface#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_router_network_interface#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -916,7 +916,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediaconnectRouterNetworkInterface.MediaconnectRouterNetworkInterfaceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectrouternetworkinterface"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconnectrouternetworkinterface"
 
 &mediaconnectrouternetworkinterface.MediaconnectRouterNetworkInterfaceConfig {
 	Connection: interface{},
@@ -926,7 +926,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectrouternetw
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	Configuration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.mediaconnectRouterNetworkInterface.MediaconnectRouterNetworkInterfaceConfiguration,
+	Configuration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.mediaconnectRouterNetworkInterface.MediaconnectRouterNetworkInterfaceConfiguration,
 	Name: *string,
 	RegionName: *string,
 	Tags: interface{},
@@ -1031,7 +1031,7 @@ Configuration MediaconnectRouterNetworkInterfaceConfiguration
 
 The configuration settings for a router network interface.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_router_network_interface#configuration MediaconnectRouterNetworkInterface#configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_router_network_interface#configuration MediaconnectRouterNetworkInterface#configuration}
 
 ---
 
@@ -1045,7 +1045,7 @@ Name *string
 
 The name of the router network interface.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_router_network_interface#name MediaconnectRouterNetworkInterface#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_router_network_interface#name MediaconnectRouterNetworkInterface#name}
 
 ---
 
@@ -1059,7 +1059,7 @@ RegionName *string
 
 The AWS Region for the router network interface. Defaults to the current region if not specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_router_network_interface#region_name MediaconnectRouterNetworkInterface#region_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_router_network_interface#region_name MediaconnectRouterNetworkInterface#region_name}
 
 ---
 
@@ -1073,7 +1073,7 @@ Tags interface{}
 
 Key-value pairs that can be used to tag and organize this router network interface.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_router_network_interface#tags MediaconnectRouterNetworkInterface#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_router_network_interface#tags MediaconnectRouterNetworkInterface#tags}
 
 ---
 
@@ -1082,11 +1082,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediaconnectRouterNetworkInterface.MediaconnectRouterNetworkInterfaceConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectrouternetworkinterface"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconnectrouternetworkinterface"
 
 &mediaconnectrouternetworkinterface.MediaconnectRouterNetworkInterfaceConfiguration {
-	Public: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.mediaconnectRouterNetworkInterface.MediaconnectRouterNetworkInterfaceConfigurationPublic,
-	Vpc: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.mediaconnectRouterNetworkInterface.MediaconnectRouterNetworkInterfaceConfigurationVpc,
+	Public: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.mediaconnectRouterNetworkInterface.MediaconnectRouterNetworkInterfaceConfigurationPublic,
+	Vpc: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.mediaconnectRouterNetworkInterface.MediaconnectRouterNetworkInterfaceConfigurationVpc,
 }
 ```
 
@@ -1109,7 +1109,7 @@ Public MediaconnectRouterNetworkInterfaceConfigurationPublic
 
 The configuration settings for a public router network interface, including the list of allowed CIDR blocks.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_router_network_interface#public MediaconnectRouterNetworkInterface#public}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_router_network_interface#public MediaconnectRouterNetworkInterface#public}
 
 ---
 
@@ -1123,7 +1123,7 @@ Vpc MediaconnectRouterNetworkInterfaceConfigurationVpc
 
 The configuration settings for a router network interface within a VPC, including the security group IDs and subnet ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_router_network_interface#vpc MediaconnectRouterNetworkInterface#vpc}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_router_network_interface#vpc MediaconnectRouterNetworkInterface#vpc}
 
 ---
 
@@ -1132,7 +1132,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediaconnectRouterNetworkInterface.MediaconnectRouterNetworkInterfaceConfigurationPublic.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectrouternetworkinterface"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconnectrouternetworkinterface"
 
 &mediaconnectrouternetworkinterface.MediaconnectRouterNetworkInterfaceConfigurationPublic {
 	AllowRules: interface{},
@@ -1157,7 +1157,7 @@ AllowRules interface{}
 
 The list of allowed CIDR blocks for the public router network interface.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_router_network_interface#allow_rules MediaconnectRouterNetworkInterface#allow_rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_router_network_interface#allow_rules MediaconnectRouterNetworkInterface#allow_rules}
 
 ---
 
@@ -1166,7 +1166,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediaconnectRouterNetworkInterface.MediaconnectRouterNetworkInterfaceConfigurationPublicAllowRules.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectrouternetworkinterface"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconnectrouternetworkinterface"
 
 &mediaconnectrouternetworkinterface.MediaconnectRouterNetworkInterfaceConfigurationPublicAllowRules {
 	Cidr: *string,
@@ -1191,7 +1191,7 @@ Cidr *string
 
 The CIDR block that is allowed to access the public router network interface.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_router_network_interface#cidr MediaconnectRouterNetworkInterface#cidr}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_router_network_interface#cidr MediaconnectRouterNetworkInterface#cidr}
 
 ---
 
@@ -1200,7 +1200,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediaconnectRouterNetworkInterface.MediaconnectRouterNetworkInterfaceConfigurationVpc.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectrouternetworkinterface"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconnectrouternetworkinterface"
 
 &mediaconnectrouternetworkinterface.MediaconnectRouterNetworkInterfaceConfigurationVpc {
 	SecurityGroupIds: *[]*string,
@@ -1227,7 +1227,7 @@ SecurityGroupIds *[]*string
 
 The IDs of the security groups to associate with the router network interface within the VPC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_router_network_interface#security_group_ids MediaconnectRouterNetworkInterface#security_group_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_router_network_interface#security_group_ids MediaconnectRouterNetworkInterface#security_group_ids}
 
 ---
 
@@ -1241,7 +1241,7 @@ SubnetId *string
 
 The ID of the subnet within the VPC to associate the router network interface with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_router_network_interface#subnet_id MediaconnectRouterNetworkInterface#subnet_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_router_network_interface#subnet_id MediaconnectRouterNetworkInterface#subnet_id}
 
 ---
 
@@ -1250,7 +1250,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediaconnectRouterNetworkInterface.MediaconnectRouterNetworkInterfaceTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectrouternetworkinterface"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconnectrouternetworkinterface"
 
 &mediaconnectrouternetworkinterface.MediaconnectRouterNetworkInterfaceTags {
 	Key: *string,
@@ -1262,8 +1262,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectrouternetw
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterNetworkInterface.MediaconnectRouterNetworkInterfaceTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_router_network_interface#key MediaconnectRouterNetworkInterface#key}. |
-| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterNetworkInterface.MediaconnectRouterNetworkInterfaceTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_router_network_interface#value MediaconnectRouterNetworkInterface#value}. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterNetworkInterface.MediaconnectRouterNetworkInterfaceTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_router_network_interface#key MediaconnectRouterNetworkInterface#key}. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterNetworkInterface.MediaconnectRouterNetworkInterfaceTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_router_network_interface#value MediaconnectRouterNetworkInterface#value}. |
 
 ---
 
@@ -1275,7 +1275,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_router_network_interface#key MediaconnectRouterNetworkInterface#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_router_network_interface#key MediaconnectRouterNetworkInterface#key}.
 
 ---
 
@@ -1287,7 +1287,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_router_network_interface#value MediaconnectRouterNetworkInterface#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_router_network_interface#value MediaconnectRouterNetworkInterface#value}.
 
 ---
 
@@ -1298,7 +1298,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediaconnectRouterNetworkInterface.MediaconnectRouterNetworkInterfaceConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectrouternetworkinterface"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconnectrouternetworkinterface"
 
 mediaconnectrouternetworkinterface.NewMediaconnectRouterNetworkInterfaceConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) MediaconnectRouterNetworkInterfaceConfigurationOutputReference
 ```
@@ -1631,7 +1631,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediaconnectRouterNetworkInterface.MediaconnectRouterNetworkInterfaceConfigurationPublicAllowRulesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectrouternetworkinterface"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconnectrouternetworkinterface"
 
 mediaconnectrouternetworkinterface.NewMediaconnectRouterNetworkInterfaceConfigurationPublicAllowRulesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MediaconnectRouterNetworkInterfaceConfigurationPublicAllowRulesList
 ```
@@ -1791,7 +1791,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediaconnectRouterNetworkInterface.MediaconnectRouterNetworkInterfaceConfigurationPublicAllowRulesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectrouternetworkinterface"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconnectrouternetworkinterface"
 
 mediaconnectrouternetworkinterface.NewMediaconnectRouterNetworkInterfaceConfigurationPublicAllowRulesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) MediaconnectRouterNetworkInterfaceConfigurationPublicAllowRulesOutputReference
 ```
@@ -2087,7 +2087,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediaconnectRouterNetworkInterface.MediaconnectRouterNetworkInterfaceConfigurationPublicOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectrouternetworkinterface"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconnectrouternetworkinterface"
 
 mediaconnectrouternetworkinterface.NewMediaconnectRouterNetworkInterfaceConfigurationPublicOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) MediaconnectRouterNetworkInterfaceConfigurationPublicOutputReference
 ```
@@ -2378,7 +2378,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediaconnectRouterNetworkInterface.MediaconnectRouterNetworkInterfaceConfigurationVpcOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectrouternetworkinterface"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconnectrouternetworkinterface"
 
 mediaconnectrouternetworkinterface.NewMediaconnectRouterNetworkInterfaceConfigurationVpcOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) MediaconnectRouterNetworkInterfaceConfigurationVpcOutputReference
 ```
@@ -2685,7 +2685,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediaconnectRouterNetworkInterface.MediaconnectRouterNetworkInterfaceTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectrouternetworkinterface"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconnectrouternetworkinterface"
 
 mediaconnectrouternetworkinterface.NewMediaconnectRouterNetworkInterfaceTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MediaconnectRouterNetworkInterfaceTagsList
 ```
@@ -2845,7 +2845,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediaconnectRouterNetworkInterface.MediaconnectRouterNetworkInterfaceTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectrouternetworkinterface"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconnectrouternetworkinterface"
 
 mediaconnectrouternetworkinterface.NewMediaconnectRouterNetworkInterfaceTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) MediaconnectRouterNetworkInterfaceTagsOutputReference
 ```

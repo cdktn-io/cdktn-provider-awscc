@@ -4,12 +4,12 @@
 
 ### EksAccessEntry <a name="EksAccessEntry" id="@cdktn/provider-awscc.eksAccessEntry.EksAccessEntry"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/eks_access_entry awscc_eks_access_entry}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/eks_access_entry awscc_eks_access_entry}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eksAccessEntry.EksAccessEntry.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eksaccessentry"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eksaccessentry"
 
 eksaccessentry.NewEksAccessEntry(scope Construct, id *string, config EksAccessEntryConfig) EksAccessEntry
 ```
@@ -461,7 +461,7 @@ func ResetUsername()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.eksAccessEntry.EksAccessEntry.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eksaccessentry"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eksaccessentry"
 
 eksaccessentry.EksAccessEntry_IsConstruct(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.eksAccessEntry.EksAccessEntry.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eksaccessentry"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eksaccessentry"
 
 eksaccessentry.EksAccessEntry_IsTerraformElement(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ eksaccessentry.EksAccessEntry_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.eksAccessEntry.EksAccessEntry.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eksaccessentry"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eksaccessentry"
 
 eksaccessentry.EksAccessEntry_IsTerraformResource(x interface{}) *bool
 ```
@@ -521,7 +521,7 @@ eksaccessentry.EksAccessEntry_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.eksAccessEntry.EksAccessEntry.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eksaccessentry"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eksaccessentry"
 
 eksaccessentry.EksAccessEntry_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -550,7 +550,7 @@ The construct id used in the generated config for the EksAccessEntry to import.
 
 The id of the existing EksAccessEntry that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/eks_access_entry#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/eks_access_entry#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -926,10 +926,10 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.eksAccessEntry.EksAccessEntryAccessPolicies.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eksaccessentry"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eksaccessentry"
 
 &eksaccessentry.EksAccessEntryAccessPolicies {
-	AccessScope: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.eksAccessEntry.EksAccessEntryAccessPoliciesAccessScope,
+	AccessScope: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.eksAccessEntry.EksAccessEntryAccessPoliciesAccessScope,
 	PolicyArn: *string,
 }
 ```
@@ -953,7 +953,7 @@ AccessScope EksAccessEntryAccessPoliciesAccessScope
 
 The access scope of the access policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/eks_access_entry#access_scope EksAccessEntry#access_scope}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/eks_access_entry#access_scope EksAccessEntry#access_scope}
 
 ---
 
@@ -967,7 +967,7 @@ PolicyArn *string
 
 The ARN of the access policy to add to the access entry.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/eks_access_entry#policy_arn EksAccessEntry#policy_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/eks_access_entry#policy_arn EksAccessEntry#policy_arn}
 
 ---
 
@@ -976,7 +976,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.eksAccessEntry.EksAccessEntryAccessPoliciesAccessScope.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eksaccessentry"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eksaccessentry"
 
 &eksaccessentry.EksAccessEntryAccessPoliciesAccessScope {
 	Namespaces: *[]*string,
@@ -1003,7 +1003,7 @@ Namespaces *[]*string
 
 The namespaces to associate with the access scope. Only specify if Type is set to 'namespace'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/eks_access_entry#namespaces EksAccessEntry#namespaces}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/eks_access_entry#namespaces EksAccessEntry#namespaces}
 
 ---
 
@@ -1017,7 +1017,7 @@ Type *string
 
 The type of the access scope.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/eks_access_entry#type EksAccessEntry#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/eks_access_entry#type EksAccessEntry#type}
 
 ---
 
@@ -1026,7 +1026,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.eksAccessEntry.EksAccessEntryConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eksaccessentry"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eksaccessentry"
 
 &eksaccessentry.EksAccessEntryConfig {
 	Connection: interface{},
@@ -1147,7 +1147,7 @@ ClusterName *string
 
 The cluster that the access entry is created for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/eks_access_entry#cluster_name EksAccessEntry#cluster_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/eks_access_entry#cluster_name EksAccessEntry#cluster_name}
 
 ---
 
@@ -1161,7 +1161,7 @@ PrincipalArn *string
 
 The principal ARN that the access entry is created for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/eks_access_entry#principal_arn EksAccessEntry#principal_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/eks_access_entry#principal_arn EksAccessEntry#principal_arn}
 
 ---
 
@@ -1175,7 +1175,7 @@ AccessPolicies interface{}
 
 An array of access policies that are associated with the access entry.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/eks_access_entry#access_policies EksAccessEntry#access_policies}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/eks_access_entry#access_policies EksAccessEntry#access_policies}
 
 ---
 
@@ -1189,7 +1189,7 @@ KubernetesGroups *[]*string
 
 The Kubernetes groups that the access entry is associated with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/eks_access_entry#kubernetes_groups EksAccessEntry#kubernetes_groups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/eks_access_entry#kubernetes_groups EksAccessEntry#kubernetes_groups}
 
 ---
 
@@ -1203,7 +1203,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/eks_access_entry#tags EksAccessEntry#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/eks_access_entry#tags EksAccessEntry#tags}
 
 ---
 
@@ -1217,7 +1217,7 @@ Type *string
 
 The node type to associate with the access entry.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/eks_access_entry#type EksAccessEntry#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/eks_access_entry#type EksAccessEntry#type}
 
 ---
 
@@ -1231,7 +1231,7 @@ Username *string
 
 The Kubernetes user that the access entry is associated with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/eks_access_entry#username EksAccessEntry#username}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/eks_access_entry#username EksAccessEntry#username}
 
 ---
 
@@ -1240,7 +1240,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.eksAccessEntry.EksAccessEntryTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eksaccessentry"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eksaccessentry"
 
 &eksaccessentry.EksAccessEntryTags {
 	Key: *string,
@@ -1269,7 +1269,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/eks_access_entry#key EksAccessEntry#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/eks_access_entry#key EksAccessEntry#key}
 
 ---
 
@@ -1285,7 +1285,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/eks_access_entry#value EksAccessEntry#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/eks_access_entry#value EksAccessEntry#value}
 
 ---
 
@@ -1296,7 +1296,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eksAccessEntry.EksAccessEntryAccessPoliciesAccessScopeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eksaccessentry"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eksaccessentry"
 
 eksaccessentry.NewEksAccessEntryAccessPoliciesAccessScopeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) EksAccessEntryAccessPoliciesAccessScopeOutputReference
 ```
@@ -1603,7 +1603,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eksAccessEntry.EksAccessEntryAccessPoliciesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eksaccessentry"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eksaccessentry"
 
 eksaccessentry.NewEksAccessEntryAccessPoliciesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) EksAccessEntryAccessPoliciesList
 ```
@@ -1763,7 +1763,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eksAccessEntry.EksAccessEntryAccessPoliciesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eksaccessentry"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eksaccessentry"
 
 eksaccessentry.NewEksAccessEntryAccessPoliciesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) EksAccessEntryAccessPoliciesOutputReference
 ```
@@ -2101,7 +2101,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eksAccessEntry.EksAccessEntryTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eksaccessentry"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eksaccessentry"
 
 eksaccessentry.NewEksAccessEntryTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) EksAccessEntryTagsList
 ```
@@ -2261,7 +2261,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eksAccessEntry.EksAccessEntryTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eksaccessentry"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eksaccessentry"
 
 eksaccessentry.NewEksAccessEntryTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) EksAccessEntryTagsOutputReference
 ```

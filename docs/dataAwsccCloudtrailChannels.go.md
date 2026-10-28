@@ -4,12 +4,12 @@
 
 ### DataAwsccCloudtrailChannels <a name="DataAwsccCloudtrailChannels" id="@cdktn/provider-awscc.dataAwsccCloudtrailChannels.DataAwsccCloudtrailChannels"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudtrail_channels awscc_cloudtrail_channels}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudtrail_channels awscc_cloudtrail_channels}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudtrailChannels.DataAwsccCloudtrailChannels.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudtrailchannels"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudtrailchannels"
 
 dataawscccloudtrailchannels.NewDataAwsccCloudtrailChannels(scope Construct, id *string, config DataAwsccCloudtrailChannelsConfig) DataAwsccCloudtrailChannels
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCloudtrailChannels.DataAwsccCloudtrailChannels.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudtrailchannels"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudtrailchannels"
 
 dataawscccloudtrailchannels.DataAwsccCloudtrailChannels_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCloudtrailChannels.DataAwsccCloudtrailChannels.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudtrailchannels"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudtrailchannels"
 
 dataawscccloudtrailchannels.DataAwsccCloudtrailChannels_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccloudtrailchannels.DataAwsccCloudtrailChannels_IsTerraformElement(x int
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCloudtrailChannels.DataAwsccCloudtrailChannels.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudtrailchannels"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudtrailchannels"
 
 dataawscccloudtrailchannels.DataAwsccCloudtrailChannels_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccloudtrailchannels.DataAwsccCloudtrailChannels_IsTerraformDataSource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCloudtrailChannels.DataAwsccCloudtrailChannels.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudtrailchannels"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudtrailchannels"
 
 dataawscccloudtrailchannels.DataAwsccCloudtrailChannels_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCloudtrailChannel
 
 The id of the existing DataAwsccCloudtrailChannels that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudtrail_channels#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudtrail_channels#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloudtrailChannels.DataAwsccCloudtrailChannelsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudtrailchannels"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudtrailchannels"
 
 &dataawscccloudtrailchannels.DataAwsccCloudtrailChannelsConfig {
 	Connection: interface{},

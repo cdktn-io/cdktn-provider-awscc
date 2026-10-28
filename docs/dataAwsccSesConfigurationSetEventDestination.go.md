@@ -4,12 +4,12 @@
 
 ### DataAwsccSesConfigurationSetEventDestination <a name="DataAwsccSesConfigurationSetEventDestination" id="@cdktn/provider-awscc.dataAwsccSesConfigurationSetEventDestination.DataAwsccSesConfigurationSetEventDestination"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_configuration_set_event_destination awscc_ses_configuration_set_event_destination}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ses_configuration_set_event_destination awscc_ses_configuration_set_event_destination}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesConfigurationSetEventDestination.DataAwsccSesConfigurationSetEventDestination.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesconfigurationseteventdestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesconfigurationseteventdestination"
 
 dataawsccsesconfigurationseteventdestination.NewDataAwsccSesConfigurationSetEventDestination(scope Construct, id *string, config DataAwsccSesConfigurationSetEventDestinationConfig) DataAwsccSesConfigurationSetEventDestination
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSesConfigurationSetEventDestination.DataAwsccSesConfigurationSetEventDestination.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesconfigurationseteventdestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesconfigurationseteventdestination"
 
 dataawsccsesconfigurationseteventdestination.DataAwsccSesConfigurationSetEventDestination_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSesConfigurationSetEventDestination.DataAwsccSesConfigurationSetEventDestination.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesconfigurationseteventdestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesconfigurationseteventdestination"
 
 dataawsccsesconfigurationseteventdestination.DataAwsccSesConfigurationSetEventDestination_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsesconfigurationseteventdestination.DataAwsccSesConfigurationSetEventDe
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSesConfigurationSetEventDestination.DataAwsccSesConfigurationSetEventDestination.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesconfigurationseteventdestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesconfigurationseteventdestination"
 
 dataawsccsesconfigurationseteventdestination.DataAwsccSesConfigurationSetEventDestination_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsesconfigurationseteventdestination.DataAwsccSesConfigurationSetEventDe
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSesConfigurationSetEventDestination.DataAwsccSesConfigurationSetEventDestination.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesconfigurationseteventdestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesconfigurationseteventdestination"
 
 dataawsccsesconfigurationseteventdestination.DataAwsccSesConfigurationSetEventDestination_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSesConfigurationS
 
 The id of the existing DataAwsccSesConfigurationSetEventDestination that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_configuration_set_event_destination#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ses_configuration_set_event_destination#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -620,7 +620,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesConfigurationSetEventDestination.DataAwsccSesConfigurationSetEventDestinationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesconfigurationseteventdestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesconfigurationseteventdestination"
 
 &dataawsccsesconfigurationseteventdestination.DataAwsccSesConfigurationSetEventDestinationConfig {
 	Connection: interface{},
@@ -729,7 +729,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_configuration_set_event_destination#id DataAwsccSesConfigurationSetEventDestination#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ses_configuration_set_event_destination#id DataAwsccSesConfigurationSetEventDestination#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -741,7 +741,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesConfigurationSetEventDestination.DataAwsccSesConfigurationSetEventDestinationEventDestination.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesconfigurationseteventdestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesconfigurationseteventdestination"
 
 &dataawsccsesconfigurationseteventdestination.DataAwsccSesConfigurationSetEventDestinationEventDestination {
 
@@ -754,7 +754,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesconfigurat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesConfigurationSetEventDestination.DataAwsccSesConfigurationSetEventDestinationEventDestinationCloudwatchDestination.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesconfigurationseteventdestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesconfigurationseteventdestination"
 
 &dataawsccsesconfigurationseteventdestination.DataAwsccSesConfigurationSetEventDestinationEventDestinationCloudwatchDestination {
 
@@ -767,7 +767,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesconfigurat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesConfigurationSetEventDestination.DataAwsccSesConfigurationSetEventDestinationEventDestinationCloudwatchDestinationDimensionConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesconfigurationseteventdestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesconfigurationseteventdestination"
 
 &dataawsccsesconfigurationseteventdestination.DataAwsccSesConfigurationSetEventDestinationEventDestinationCloudwatchDestinationDimensionConfigurations {
 
@@ -780,7 +780,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesconfigurat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesConfigurationSetEventDestination.DataAwsccSesConfigurationSetEventDestinationEventDestinationEventBridgeDestination.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesconfigurationseteventdestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesconfigurationseteventdestination"
 
 &dataawsccsesconfigurationseteventdestination.DataAwsccSesConfigurationSetEventDestinationEventDestinationEventBridgeDestination {
 
@@ -793,7 +793,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesconfigurat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesConfigurationSetEventDestination.DataAwsccSesConfigurationSetEventDestinationEventDestinationKinesisFirehoseDestination.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesconfigurationseteventdestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesconfigurationseteventdestination"
 
 &dataawsccsesconfigurationseteventdestination.DataAwsccSesConfigurationSetEventDestinationEventDestinationKinesisFirehoseDestination {
 
@@ -806,7 +806,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesconfigurat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesConfigurationSetEventDestination.DataAwsccSesConfigurationSetEventDestinationEventDestinationSnsDestination.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesconfigurationseteventdestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesconfigurationseteventdestination"
 
 &dataawsccsesconfigurationseteventdestination.DataAwsccSesConfigurationSetEventDestinationEventDestinationSnsDestination {
 
@@ -821,7 +821,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesconfigurat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesConfigurationSetEventDestination.DataAwsccSesConfigurationSetEventDestinationEventDestinationCloudwatchDestinationDimensionConfigurationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesconfigurationseteventdestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesconfigurationseteventdestination"
 
 dataawsccsesconfigurationseteventdestination.NewDataAwsccSesConfigurationSetEventDestinationEventDestinationCloudwatchDestinationDimensionConfigurationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSesConfigurationSetEventDestinationEventDestinationCloudwatchDestinationDimensionConfigurationsList
 ```
@@ -970,7 +970,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesConfigurationSetEventDestination.DataAwsccSesConfigurationSetEventDestinationEventDestinationCloudwatchDestinationDimensionConfigurationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesconfigurationseteventdestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesconfigurationseteventdestination"
 
 dataawsccsesconfigurationseteventdestination.NewDataAwsccSesConfigurationSetEventDestinationEventDestinationCloudwatchDestinationDimensionConfigurationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSesConfigurationSetEventDestinationEventDestinationCloudwatchDestinationDimensionConfigurationsOutputReference
 ```
@@ -1270,7 +1270,7 @@ func InternalValue() DataAwsccSesConfigurationSetEventDestinationEventDestinatio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesConfigurationSetEventDestination.DataAwsccSesConfigurationSetEventDestinationEventDestinationCloudwatchDestinationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesconfigurationseteventdestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesconfigurationseteventdestination"
 
 dataawsccsesconfigurationseteventdestination.NewDataAwsccSesConfigurationSetEventDestinationEventDestinationCloudwatchDestinationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesConfigurationSetEventDestinationEventDestinationCloudwatchDestinationOutputReference
 ```
@@ -1530,7 +1530,7 @@ func InternalValue() DataAwsccSesConfigurationSetEventDestinationEventDestinatio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesConfigurationSetEventDestination.DataAwsccSesConfigurationSetEventDestinationEventDestinationEventBridgeDestinationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesconfigurationseteventdestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesconfigurationseteventdestination"
 
 dataawsccsesconfigurationseteventdestination.NewDataAwsccSesConfigurationSetEventDestinationEventDestinationEventBridgeDestinationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesConfigurationSetEventDestinationEventDestinationEventBridgeDestinationOutputReference
 ```
@@ -1790,7 +1790,7 @@ func InternalValue() DataAwsccSesConfigurationSetEventDestinationEventDestinatio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesConfigurationSetEventDestination.DataAwsccSesConfigurationSetEventDestinationEventDestinationKinesisFirehoseDestinationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesconfigurationseteventdestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesconfigurationseteventdestination"
 
 dataawsccsesconfigurationseteventdestination.NewDataAwsccSesConfigurationSetEventDestinationEventDestinationKinesisFirehoseDestinationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesConfigurationSetEventDestinationEventDestinationKinesisFirehoseDestinationOutputReference
 ```
@@ -2061,7 +2061,7 @@ func InternalValue() DataAwsccSesConfigurationSetEventDestinationEventDestinatio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesConfigurationSetEventDestination.DataAwsccSesConfigurationSetEventDestinationEventDestinationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesconfigurationseteventdestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesconfigurationseteventdestination"
 
 dataawsccsesconfigurationseteventdestination.NewDataAwsccSesConfigurationSetEventDestinationEventDestinationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesConfigurationSetEventDestinationEventDestinationOutputReference
 ```
@@ -2387,7 +2387,7 @@ func InternalValue() DataAwsccSesConfigurationSetEventDestinationEventDestinatio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesConfigurationSetEventDestination.DataAwsccSesConfigurationSetEventDestinationEventDestinationSnsDestinationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesconfigurationseteventdestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesconfigurationseteventdestination"
 
 dataawsccsesconfigurationseteventdestination.NewDataAwsccSesConfigurationSetEventDestinationEventDestinationSnsDestinationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesConfigurationSetEventDestinationEventDestinationSnsDestinationOutputReference
 ```

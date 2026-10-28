@@ -4,12 +4,12 @@
 
 ### DataAwsccSagemakerPartnerApps <a name="DataAwsccSagemakerPartnerApps" id="@cdktn/provider-awscc.dataAwsccSagemakerPartnerApps.DataAwsccSagemakerPartnerApps"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_partner_apps awscc_sagemaker_partner_apps}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_partner_apps awscc_sagemaker_partner_apps}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerPartnerApps.DataAwsccSagemakerPartnerApps.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerpartnerapps"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerpartnerapps"
 
 dataawsccsagemakerpartnerapps.NewDataAwsccSagemakerPartnerApps(scope Construct, id *string, config DataAwsccSagemakerPartnerAppsConfig) DataAwsccSagemakerPartnerApps
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSagemakerPartnerApps.DataAwsccSagemakerPartnerApps.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerpartnerapps"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerpartnerapps"
 
 dataawsccsagemakerpartnerapps.DataAwsccSagemakerPartnerApps_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSagemakerPartnerApps.DataAwsccSagemakerPartnerApps.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerpartnerapps"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerpartnerapps"
 
 dataawsccsagemakerpartnerapps.DataAwsccSagemakerPartnerApps_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsagemakerpartnerapps.DataAwsccSagemakerPartnerApps_IsTerraformElement(x
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSagemakerPartnerApps.DataAwsccSagemakerPartnerApps.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerpartnerapps"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerpartnerapps"
 
 dataawsccsagemakerpartnerapps.DataAwsccSagemakerPartnerApps_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsagemakerpartnerapps.DataAwsccSagemakerPartnerApps_IsTerraformDataSourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSagemakerPartnerApps.DataAwsccSagemakerPartnerApps.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerpartnerapps"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerpartnerapps"
 
 dataawsccsagemakerpartnerapps.DataAwsccSagemakerPartnerApps_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSagemakerPartnerA
 
 The id of the existing DataAwsccSagemakerPartnerApps that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_partner_apps#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_partner_apps#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerPartnerApps.DataAwsccSagemakerPartnerAppsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerpartnerapps"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerpartnerapps"
 
 &dataawsccsagemakerpartnerapps.DataAwsccSagemakerPartnerAppsConfig {
 	Connection: interface{},

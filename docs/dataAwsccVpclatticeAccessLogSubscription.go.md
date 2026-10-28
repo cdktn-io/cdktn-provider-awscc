@@ -4,12 +4,12 @@
 
 ### DataAwsccVpclatticeAccessLogSubscription <a name="DataAwsccVpclatticeAccessLogSubscription" id="@cdktn/provider-awscc.dataAwsccVpclatticeAccessLogSubscription.DataAwsccVpclatticeAccessLogSubscription"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/vpclattice_access_log_subscription awscc_vpclattice_access_log_subscription}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/vpclattice_access_log_subscription awscc_vpclattice_access_log_subscription}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccVpclatticeAccessLogSubscription.DataAwsccVpclatticeAccessLogSubscription.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticeaccesslogsubscription"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticeaccesslogsubscription"
 
 dataawsccvpclatticeaccesslogsubscription.NewDataAwsccVpclatticeAccessLogSubscription(scope Construct, id *string, config DataAwsccVpclatticeAccessLogSubscriptionConfig) DataAwsccVpclatticeAccessLogSubscription
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccVpclatticeAccessLogSubscription.DataAwsccVpclatticeAccessLogSubscription.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticeaccesslogsubscription"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticeaccesslogsubscription"
 
 dataawsccvpclatticeaccesslogsubscription.DataAwsccVpclatticeAccessLogSubscription_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccVpclatticeAccessLogSubscription.DataAwsccVpclatticeAccessLogSubscription.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticeaccesslogsubscription"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticeaccesslogsubscription"
 
 dataawsccvpclatticeaccesslogsubscription.DataAwsccVpclatticeAccessLogSubscription_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccvpclatticeaccesslogsubscription.DataAwsccVpclatticeAccessLogSubscriptio
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccVpclatticeAccessLogSubscription.DataAwsccVpclatticeAccessLogSubscription.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticeaccesslogsubscription"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticeaccesslogsubscription"
 
 dataawsccvpclatticeaccesslogsubscription.DataAwsccVpclatticeAccessLogSubscription_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccvpclatticeaccesslogsubscription.DataAwsccVpclatticeAccessLogSubscriptio
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccVpclatticeAccessLogSubscription.DataAwsccVpclatticeAccessLogSubscription.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticeaccesslogsubscription"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticeaccesslogsubscription"
 
 dataawsccvpclatticeaccesslogsubscription.DataAwsccVpclatticeAccessLogSubscription_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccVpclatticeAccessL
 
 The id of the existing DataAwsccVpclatticeAccessLogSubscription that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/vpclattice_access_log_subscription#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/vpclattice_access_log_subscription#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -675,7 +675,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccVpclatticeAccessLogSubscription.DataAwsccVpclatticeAccessLogSubscriptionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticeaccesslogsubscription"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticeaccesslogsubscription"
 
 &dataawsccvpclatticeaccesslogsubscription.DataAwsccVpclatticeAccessLogSubscriptionConfig {
 	Connection: interface{},
@@ -784,7 +784,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/vpclattice_access_log_subscription#id DataAwsccVpclatticeAccessLogSubscription#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/vpclattice_access_log_subscription#id DataAwsccVpclatticeAccessLogSubscription#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -796,7 +796,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccVpclatticeAccessLogSubscription.DataAwsccVpclatticeAccessLogSubscriptionTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticeaccesslogsubscription"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticeaccesslogsubscription"
 
 &dataawsccvpclatticeaccesslogsubscription.DataAwsccVpclatticeAccessLogSubscriptionTags {
 
@@ -811,7 +811,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticeacc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccVpclatticeAccessLogSubscription.DataAwsccVpclatticeAccessLogSubscriptionTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticeaccesslogsubscription"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticeaccesslogsubscription"
 
 dataawsccvpclatticeaccesslogsubscription.NewDataAwsccVpclatticeAccessLogSubscriptionTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccVpclatticeAccessLogSubscriptionTagsList
 ```
@@ -960,7 +960,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccVpclatticeAccessLogSubscription.DataAwsccVpclatticeAccessLogSubscriptionTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticeaccesslogsubscription"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticeaccesslogsubscription"
 
 dataawsccvpclatticeaccesslogsubscription.NewDataAwsccVpclatticeAccessLogSubscriptionTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccVpclatticeAccessLogSubscriptionTagsOutputReference
 ```

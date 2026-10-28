@@ -4,12 +4,12 @@
 
 ### DataAwsccIotSoftwarePackageVersion <a name="DataAwsccIotSoftwarePackageVersion" id="@cdktn/provider-awscc.dataAwsccIotSoftwarePackageVersion.DataAwsccIotSoftwarePackageVersion"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_software_package_version awscc_iot_software_package_version}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_software_package_version awscc_iot_software_package_version}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotSoftwarePackageVersion.DataAwsccIotSoftwarePackageVersion.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsoftwarepackageversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsoftwarepackageversion"
 
 dataawscciotsoftwarepackageversion.NewDataAwsccIotSoftwarePackageVersion(scope Construct, id *string, config DataAwsccIotSoftwarePackageVersionConfig) DataAwsccIotSoftwarePackageVersion
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIotSoftwarePackageVersion.DataAwsccIotSoftwarePackageVersion.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsoftwarepackageversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsoftwarepackageversion"
 
 dataawscciotsoftwarepackageversion.DataAwsccIotSoftwarePackageVersion_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIotSoftwarePackageVersion.DataAwsccIotSoftwarePackageVersion.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsoftwarepackageversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsoftwarepackageversion"
 
 dataawscciotsoftwarepackageversion.DataAwsccIotSoftwarePackageVersion_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciotsoftwarepackageversion.DataAwsccIotSoftwarePackageVersion_IsTerrafor
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIotSoftwarePackageVersion.DataAwsccIotSoftwarePackageVersion.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsoftwarepackageversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsoftwarepackageversion"
 
 dataawscciotsoftwarepackageversion.DataAwsccIotSoftwarePackageVersion_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciotsoftwarepackageversion.DataAwsccIotSoftwarePackageVersion_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIotSoftwarePackageVersion.DataAwsccIotSoftwarePackageVersion.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsoftwarepackageversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsoftwarepackageversion"
 
 dataawscciotsoftwarepackageversion.DataAwsccIotSoftwarePackageVersion_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotSoftwarePackag
 
 The id of the existing DataAwsccIotSoftwarePackageVersion that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_software_package_version#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_software_package_version#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -719,7 +719,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotSoftwarePackageVersion.DataAwsccIotSoftwarePackageVersionArtifact.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsoftwarepackageversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsoftwarepackageversion"
 
 &dataawscciotsoftwarepackageversion.DataAwsccIotSoftwarePackageVersionArtifact {
 
@@ -732,7 +732,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsoftwarepa
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotSoftwarePackageVersion.DataAwsccIotSoftwarePackageVersionArtifactS3Location.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsoftwarepackageversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsoftwarepackageversion"
 
 &dataawscciotsoftwarepackageversion.DataAwsccIotSoftwarePackageVersionArtifactS3Location {
 
@@ -745,7 +745,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsoftwarepa
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotSoftwarePackageVersion.DataAwsccIotSoftwarePackageVersionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsoftwarepackageversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsoftwarepackageversion"
 
 &dataawscciotsoftwarepackageversion.DataAwsccIotSoftwarePackageVersionConfig {
 	Connection: interface{},
@@ -854,7 +854,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_software_package_version#id DataAwsccIotSoftwarePackageVersion#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_software_package_version#id DataAwsccIotSoftwarePackageVersion#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -866,7 +866,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotSoftwarePackageVersion.DataAwsccIotSoftwarePackageVersionSbom.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsoftwarepackageversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsoftwarepackageversion"
 
 &dataawscciotsoftwarepackageversion.DataAwsccIotSoftwarePackageVersionSbom {
 
@@ -879,7 +879,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsoftwarepa
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotSoftwarePackageVersion.DataAwsccIotSoftwarePackageVersionSbomS3Location.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsoftwarepackageversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsoftwarepackageversion"
 
 &dataawscciotsoftwarepackageversion.DataAwsccIotSoftwarePackageVersionSbomS3Location {
 
@@ -892,7 +892,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsoftwarepa
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotSoftwarePackageVersion.DataAwsccIotSoftwarePackageVersionTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsoftwarepackageversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsoftwarepackageversion"
 
 &dataawscciotsoftwarepackageversion.DataAwsccIotSoftwarePackageVersionTags {
 
@@ -907,7 +907,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsoftwarepa
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotSoftwarePackageVersion.DataAwsccIotSoftwarePackageVersionArtifactOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsoftwarepackageversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsoftwarepackageversion"
 
 dataawscciotsoftwarepackageversion.NewDataAwsccIotSoftwarePackageVersionArtifactOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotSoftwarePackageVersionArtifactOutputReference
 ```
@@ -1167,7 +1167,7 @@ func InternalValue() DataAwsccIotSoftwarePackageVersionArtifact
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotSoftwarePackageVersion.DataAwsccIotSoftwarePackageVersionArtifactS3LocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsoftwarepackageversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsoftwarepackageversion"
 
 dataawscciotsoftwarepackageversion.NewDataAwsccIotSoftwarePackageVersionArtifactS3LocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotSoftwarePackageVersionArtifactS3LocationOutputReference
 ```
@@ -1449,7 +1449,7 @@ func InternalValue() DataAwsccIotSoftwarePackageVersionArtifactS3Location
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotSoftwarePackageVersion.DataAwsccIotSoftwarePackageVersionSbomOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsoftwarepackageversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsoftwarepackageversion"
 
 dataawscciotsoftwarepackageversion.NewDataAwsccIotSoftwarePackageVersionSbomOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotSoftwarePackageVersionSbomOutputReference
 ```
@@ -1709,7 +1709,7 @@ func InternalValue() DataAwsccIotSoftwarePackageVersionSbom
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotSoftwarePackageVersion.DataAwsccIotSoftwarePackageVersionSbomS3LocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsoftwarepackageversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsoftwarepackageversion"
 
 dataawscciotsoftwarepackageversion.NewDataAwsccIotSoftwarePackageVersionSbomS3LocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotSoftwarePackageVersionSbomS3LocationOutputReference
 ```
@@ -1991,7 +1991,7 @@ func InternalValue() DataAwsccIotSoftwarePackageVersionSbomS3Location
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotSoftwarePackageVersion.DataAwsccIotSoftwarePackageVersionTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsoftwarepackageversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsoftwarepackageversion"
 
 dataawscciotsoftwarepackageversion.NewDataAwsccIotSoftwarePackageVersionTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIotSoftwarePackageVersionTagsList
 ```
@@ -2140,7 +2140,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotSoftwarePackageVersion.DataAwsccIotSoftwarePackageVersionTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsoftwarepackageversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsoftwarepackageversion"
 
 dataawscciotsoftwarepackageversion.NewDataAwsccIotSoftwarePackageVersionTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIotSoftwarePackageVersionTagsOutputReference
 ```

@@ -4,7 +4,7 @@
 
 ### DataAwsccConfigOrganizationConfigRules <a name="DataAwsccConfigOrganizationConfigRules" id="@cdktn/provider-awscc.dataAwsccConfigOrganizationConfigRules.DataAwsccConfigOrganizationConfigRules"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/config_organization_config_rules awscc_config_organization_config_rules}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/config_organization_config_rules awscc_config_organization_config_rules}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConfigOrganizationConfigRules.DataAwsccConfigOrganizationConfigRules.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccConfigOrganizatio
 
 The id of the existing DataAwsccConfigOrganizationConfigRules that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/config_organization_config_rules#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/config_organization_config_rules#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -4,12 +4,12 @@
 
 ### DataAwsccEventsEndpoints <a name="DataAwsccEventsEndpoints" id="@cdktn/provider-awscc.dataAwsccEventsEndpoints.DataAwsccEventsEndpoints"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/events_endpoints awscc_events_endpoints}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/events_endpoints awscc_events_endpoints}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsEndpoints.DataAwsccEventsEndpoints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsendpoints"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsendpoints"
 
 dataawscceventsendpoints.NewDataAwsccEventsEndpoints(scope Construct, id *string, config DataAwsccEventsEndpointsConfig) DataAwsccEventsEndpoints
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEventsEndpoints.DataAwsccEventsEndpoints.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsendpoints"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsendpoints"
 
 dataawscceventsendpoints.DataAwsccEventsEndpoints_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEventsEndpoints.DataAwsccEventsEndpoints.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsendpoints"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsendpoints"
 
 dataawscceventsendpoints.DataAwsccEventsEndpoints_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscceventsendpoints.DataAwsccEventsEndpoints_IsTerraformElement(x interface
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEventsEndpoints.DataAwsccEventsEndpoints.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsendpoints"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsendpoints"
 
 dataawscceventsendpoints.DataAwsccEventsEndpoints_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscceventsendpoints.DataAwsccEventsEndpoints_IsTerraformDataSource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEventsEndpoints.DataAwsccEventsEndpoints.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsendpoints"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsendpoints"
 
 dataawscceventsendpoints.DataAwsccEventsEndpoints_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEventsEndpoints t
 
 The id of the existing DataAwsccEventsEndpoints that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/events_endpoints#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/events_endpoints#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventsEndpoints.DataAwsccEventsEndpointsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsendpoints"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsendpoints"
 
 &dataawscceventsendpoints.DataAwsccEventsEndpointsConfig {
 	Connection: interface{},

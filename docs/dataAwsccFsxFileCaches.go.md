@@ -4,12 +4,12 @@
 
 ### DataAwsccFsxFileCaches <a name="DataAwsccFsxFileCaches" id="@cdktn/provider-awscc.dataAwsccFsxFileCaches.DataAwsccFsxFileCaches"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/fsx_file_caches awscc_fsx_file_caches}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/fsx_file_caches awscc_fsx_file_caches}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFsxFileCaches.DataAwsccFsxFileCaches.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxfilecaches"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfsxfilecaches"
 
 dataawsccfsxfilecaches.NewDataAwsccFsxFileCaches(scope Construct, id *string, config DataAwsccFsxFileCachesConfig) DataAwsccFsxFileCaches
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccFsxFileCaches.DataAwsccFsxFileCaches.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxfilecaches"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfsxfilecaches"
 
 dataawsccfsxfilecaches.DataAwsccFsxFileCaches_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccFsxFileCaches.DataAwsccFsxFileCaches.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxfilecaches"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfsxfilecaches"
 
 dataawsccfsxfilecaches.DataAwsccFsxFileCaches_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccfsxfilecaches.DataAwsccFsxFileCaches_IsTerraformElement(x interface{}) 
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccFsxFileCaches.DataAwsccFsxFileCaches.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxfilecaches"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfsxfilecaches"
 
 dataawsccfsxfilecaches.DataAwsccFsxFileCaches_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccfsxfilecaches.DataAwsccFsxFileCaches_IsTerraformDataSource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccFsxFileCaches.DataAwsccFsxFileCaches.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxfilecaches"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfsxfilecaches"
 
 dataawsccfsxfilecaches.DataAwsccFsxFileCaches_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccFsxFileCaches to 
 
 The id of the existing DataAwsccFsxFileCaches that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/fsx_file_caches#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/fsx_file_caches#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccFsxFileCaches.DataAwsccFsxFileCachesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxfilecaches"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfsxfilecaches"
 
 &dataawsccfsxfilecaches.DataAwsccFsxFileCachesConfig {
 	Connection: interface{},

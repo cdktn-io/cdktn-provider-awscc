@@ -4,12 +4,12 @@
 
 ### DataAwsccRoute53GlobalresolverAccessToken <a name="DataAwsccRoute53GlobalresolverAccessToken" id="@cdktn/provider-awscc.dataAwsccRoute53GlobalresolverAccessToken.DataAwsccRoute53GlobalresolverAccessToken"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53globalresolver_access_token awscc_route53globalresolver_access_token}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53globalresolver_access_token awscc_route53globalresolver_access_token}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53GlobalresolverAccessToken.DataAwsccRoute53GlobalresolverAccessToken.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53globalresolveraccesstoken"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53globalresolveraccesstoken"
 
 dataawsccroute53globalresolveraccesstoken.NewDataAwsccRoute53GlobalresolverAccessToken(scope Construct, id *string, config DataAwsccRoute53GlobalresolverAccessTokenConfig) DataAwsccRoute53GlobalresolverAccessToken
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccRoute53GlobalresolverAccessToken.DataAwsccRoute53GlobalresolverAccessToken.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53globalresolveraccesstoken"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53globalresolveraccesstoken"
 
 dataawsccroute53globalresolveraccesstoken.DataAwsccRoute53GlobalresolverAccessToken_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccRoute53GlobalresolverAccessToken.DataAwsccRoute53GlobalresolverAccessToken.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53globalresolveraccesstoken"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53globalresolveraccesstoken"
 
 dataawsccroute53globalresolveraccesstoken.DataAwsccRoute53GlobalresolverAccessToken_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccroute53globalresolveraccesstoken.DataAwsccRoute53GlobalresolverAccessTo
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccRoute53GlobalresolverAccessToken.DataAwsccRoute53GlobalresolverAccessToken.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53globalresolveraccesstoken"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53globalresolveraccesstoken"
 
 dataawsccroute53globalresolveraccesstoken.DataAwsccRoute53GlobalresolverAccessToken_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccroute53globalresolveraccesstoken.DataAwsccRoute53GlobalresolverAccessTo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccRoute53GlobalresolverAccessToken.DataAwsccRoute53GlobalresolverAccessToken.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53globalresolveraccesstoken"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53globalresolveraccesstoken"
 
 dataawsccroute53globalresolveraccesstoken.DataAwsccRoute53GlobalresolverAccessToken_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRoute53Globalreso
 
 The id of the existing DataAwsccRoute53GlobalresolverAccessToken that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53globalresolver_access_token#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53globalresolver_access_token#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -719,7 +719,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRoute53GlobalresolverAccessToken.DataAwsccRoute53GlobalresolverAccessTokenConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53globalresolveraccesstoken"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53globalresolveraccesstoken"
 
 &dataawsccroute53globalresolveraccesstoken.DataAwsccRoute53GlobalresolverAccessTokenConfig {
 	Connection: interface{},
@@ -828,7 +828,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53globalresolver_access_token#id DataAwsccRoute53GlobalresolverAccessToken#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53globalresolver_access_token#id DataAwsccRoute53GlobalresolverAccessToken#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -840,7 +840,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRoute53GlobalresolverAccessToken.DataAwsccRoute53GlobalresolverAccessTokenTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53globalresolveraccesstoken"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53globalresolveraccesstoken"
 
 &dataawsccroute53globalresolveraccesstoken.DataAwsccRoute53GlobalresolverAccessTokenTags {
 
@@ -855,7 +855,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53global
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53GlobalresolverAccessToken.DataAwsccRoute53GlobalresolverAccessTokenTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53globalresolveraccesstoken"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53globalresolveraccesstoken"
 
 dataawsccroute53globalresolveraccesstoken.NewDataAwsccRoute53GlobalresolverAccessTokenTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccRoute53GlobalresolverAccessTokenTagsList
 ```
@@ -1004,7 +1004,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53GlobalresolverAccessToken.DataAwsccRoute53GlobalresolverAccessTokenTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53globalresolveraccesstoken"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53globalresolveraccesstoken"
 
 dataawsccroute53globalresolveraccesstoken.NewDataAwsccRoute53GlobalresolverAccessTokenTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccRoute53GlobalresolverAccessTokenTagsOutputReference
 ```

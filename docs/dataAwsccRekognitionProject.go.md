@@ -4,12 +4,12 @@
 
 ### DataAwsccRekognitionProject <a name="DataAwsccRekognitionProject" id="@cdktn/provider-awscc.dataAwsccRekognitionProject.DataAwsccRekognitionProject"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rekognition_project awscc_rekognition_project}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rekognition_project awscc_rekognition_project}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRekognitionProject.DataAwsccRekognitionProject.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrekognitionproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrekognitionproject"
 
 dataawsccrekognitionproject.NewDataAwsccRekognitionProject(scope Construct, id *string, config DataAwsccRekognitionProjectConfig) DataAwsccRekognitionProject
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccRekognitionProject.DataAwsccRekognitionProject.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrekognitionproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrekognitionproject"
 
 dataawsccrekognitionproject.DataAwsccRekognitionProject_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccRekognitionProject.DataAwsccRekognitionProject.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrekognitionproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrekognitionproject"
 
 dataawsccrekognitionproject.DataAwsccRekognitionProject_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccrekognitionproject.DataAwsccRekognitionProject_IsTerraformElement(x int
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccRekognitionProject.DataAwsccRekognitionProject.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrekognitionproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrekognitionproject"
 
 dataawsccrekognitionproject.DataAwsccRekognitionProject_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccrekognitionproject.DataAwsccRekognitionProject_IsTerraformDataSource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccRekognitionProject.DataAwsccRekognitionProject.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrekognitionproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrekognitionproject"
 
 dataawsccrekognitionproject.DataAwsccRekognitionProject_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRekognitionProjec
 
 The id of the existing DataAwsccRekognitionProject that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rekognition_project#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rekognition_project#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -620,7 +620,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRekognitionProject.DataAwsccRekognitionProjectConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrekognitionproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrekognitionproject"
 
 &dataawsccrekognitionproject.DataAwsccRekognitionProjectConfig {
 	Connection: interface{},
@@ -729,7 +729,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rekognition_project#id DataAwsccRekognitionProject#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rekognition_project#id DataAwsccRekognitionProject#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -741,7 +741,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRekognitionProject.DataAwsccRekognitionProjectTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrekognitionproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrekognitionproject"
 
 &dataawsccrekognitionproject.DataAwsccRekognitionProjectTags {
 
@@ -756,7 +756,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrekognitionpr
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRekognitionProject.DataAwsccRekognitionProjectTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrekognitionproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrekognitionproject"
 
 dataawsccrekognitionproject.NewDataAwsccRekognitionProjectTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccRekognitionProjectTagsList
 ```
@@ -905,7 +905,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRekognitionProject.DataAwsccRekognitionProjectTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrekognitionproject"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrekognitionproject"
 
 dataawsccrekognitionproject.NewDataAwsccRekognitionProjectTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccRekognitionProjectTagsOutputReference
 ```

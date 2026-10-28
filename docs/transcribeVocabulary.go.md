@@ -4,12 +4,12 @@
 
 ### TranscribeVocabulary <a name="TranscribeVocabulary" id="@cdktn/provider-awscc.transcribeVocabulary.TranscribeVocabulary"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transcribe_vocabulary awscc_transcribe_vocabulary}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transcribe_vocabulary awscc_transcribe_vocabulary}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.transcribeVocabulary.TranscribeVocabulary.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transcribevocabulary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transcribevocabulary"
 
 transcribevocabulary.NewTranscribeVocabulary(scope Construct, id *string, config TranscribeVocabularyConfig) TranscribeVocabulary
 ```
@@ -441,7 +441,7 @@ func ResetVocabularyFileUri()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.transcribeVocabulary.TranscribeVocabulary.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transcribevocabulary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transcribevocabulary"
 
 transcribevocabulary.TranscribeVocabulary_IsConstruct(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.transcribeVocabulary.TranscribeVocabulary.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transcribevocabulary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transcribevocabulary"
 
 transcribevocabulary.TranscribeVocabulary_IsTerraformElement(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ transcribevocabulary.TranscribeVocabulary_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.transcribeVocabulary.TranscribeVocabulary.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transcribevocabulary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transcribevocabulary"
 
 transcribevocabulary.TranscribeVocabulary_IsTerraformResource(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ transcribevocabulary.TranscribeVocabulary_IsTerraformResource(x interface{}) *bo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.transcribeVocabulary.TranscribeVocabulary.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transcribevocabulary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transcribevocabulary"
 
 transcribevocabulary.TranscribeVocabulary_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -530,7 +530,7 @@ The construct id used in the generated config for the TranscribeVocabulary to im
 
 The id of the existing TranscribeVocabulary that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transcribe_vocabulary#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transcribe_vocabulary#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -906,7 +906,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.transcribeVocabulary.TranscribeVocabularyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transcribevocabulary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transcribevocabulary"
 
 &transcribevocabulary.TranscribeVocabularyConfig {
 	Connection: interface{},
@@ -1027,7 +1027,7 @@ The language code that represents the language of the entries in your custom voc
 
 Each custom vocabulary must contain terms in only one language.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transcribe_vocabulary#language_code TranscribeVocabulary#language_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transcribe_vocabulary#language_code TranscribeVocabulary#language_code}
 
 ---
 
@@ -1043,7 +1043,7 @@ A unique name, chosen by you, for your custom vocabulary.
 
 This name is case sensitive, cannot contain spaces, and must be unique within an AWS account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transcribe_vocabulary#vocabulary_name TranscribeVocabulary#vocabulary_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transcribe_vocabulary#vocabulary_name TranscribeVocabulary#vocabulary_name}
 
 ---
 
@@ -1057,7 +1057,7 @@ DataAccessRoleArn *string
 
 The Amazon Resource Name (ARN) of an IAM role that has permissions to access the Amazon S3 bucket that contains your input file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transcribe_vocabulary#data_access_role_arn TranscribeVocabulary#data_access_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transcribe_vocabulary#data_access_role_arn TranscribeVocabulary#data_access_role_arn}
 
 ---
 
@@ -1073,7 +1073,7 @@ Use this parameter if you want to create your custom vocabulary by including all
 
 You cannot use this parameter together with VocabularyFileUri.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transcribe_vocabulary#phrases TranscribeVocabulary#phrases}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transcribe_vocabulary#phrases TranscribeVocabulary#phrases}
 
 ---
 
@@ -1087,7 +1087,7 @@ Tags interface{}
 
 Adds one or more custom tags, each in the form of a key:value pair, to the custom vocabulary.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transcribe_vocabulary#tags TranscribeVocabulary#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transcribe_vocabulary#tags TranscribeVocabulary#tags}
 
 ---
 
@@ -1103,7 +1103,7 @@ The Amazon S3 location of the text file that contains your custom vocabulary.
 
 You cannot use this parameter together with Phrases.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transcribe_vocabulary#vocabulary_file_uri TranscribeVocabulary#vocabulary_file_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transcribe_vocabulary#vocabulary_file_uri TranscribeVocabulary#vocabulary_file_uri}
 
 ---
 
@@ -1112,7 +1112,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.transcribeVocabulary.TranscribeVocabularyTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transcribevocabulary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transcribevocabulary"
 
 &transcribevocabulary.TranscribeVocabularyTags {
 	Key: *string,
@@ -1139,7 +1139,7 @@ Key *string
 
 The key of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transcribe_vocabulary#key TranscribeVocabulary#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transcribe_vocabulary#key TranscribeVocabulary#key}
 
 ---
 
@@ -1153,7 +1153,7 @@ Value *string
 
 The value of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transcribe_vocabulary#value TranscribeVocabulary#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transcribe_vocabulary#value TranscribeVocabulary#value}
 
 ---
 
@@ -1164,7 +1164,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.transcribeVocabulary.TranscribeVocabularyTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transcribevocabulary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transcribevocabulary"
 
 transcribevocabulary.NewTranscribeVocabularyTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) TranscribeVocabularyTagsList
 ```
@@ -1324,7 +1324,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.transcribeVocabulary.TranscribeVocabularyTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transcribevocabulary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transcribevocabulary"
 
 transcribevocabulary.NewTranscribeVocabularyTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) TranscribeVocabularyTagsOutputReference
 ```

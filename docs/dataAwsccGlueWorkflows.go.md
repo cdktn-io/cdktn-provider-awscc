@@ -4,12 +4,12 @@
 
 ### DataAwsccGlueWorkflows <a name="DataAwsccGlueWorkflows" id="@cdktn/provider-awscc.dataAwsccGlueWorkflows.DataAwsccGlueWorkflows"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/glue_workflows awscc_glue_workflows}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/glue_workflows awscc_glue_workflows}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueWorkflows.DataAwsccGlueWorkflows.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueworkflows"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueworkflows"
 
 dataawsccglueworkflows.NewDataAwsccGlueWorkflows(scope Construct, id *string, config DataAwsccGlueWorkflowsConfig) DataAwsccGlueWorkflows
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccGlueWorkflows.DataAwsccGlueWorkflows.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueworkflows"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueworkflows"
 
 dataawsccglueworkflows.DataAwsccGlueWorkflows_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccGlueWorkflows.DataAwsccGlueWorkflows.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueworkflows"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueworkflows"
 
 dataawsccglueworkflows.DataAwsccGlueWorkflows_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccglueworkflows.DataAwsccGlueWorkflows_IsTerraformElement(x interface{}) 
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccGlueWorkflows.DataAwsccGlueWorkflows.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueworkflows"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueworkflows"
 
 dataawsccglueworkflows.DataAwsccGlueWorkflows_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccglueworkflows.DataAwsccGlueWorkflows_IsTerraformDataSource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccGlueWorkflows.DataAwsccGlueWorkflows.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueworkflows"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueworkflows"
 
 dataawsccglueworkflows.DataAwsccGlueWorkflows_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccGlueWorkflows to 
 
 The id of the existing DataAwsccGlueWorkflows that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/glue_workflows#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/glue_workflows#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueWorkflows.DataAwsccGlueWorkflowsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueworkflows"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueworkflows"
 
 &dataawsccglueworkflows.DataAwsccGlueWorkflowsConfig {
 	Connection: interface{},

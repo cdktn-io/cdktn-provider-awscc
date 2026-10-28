@@ -4,12 +4,12 @@
 
 ### DataAwsccOmicsAnnotationStores <a name="DataAwsccOmicsAnnotationStores" id="@cdktn/provider-awscc.dataAwsccOmicsAnnotationStores.DataAwsccOmicsAnnotationStores"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/omics_annotation_stores awscc_omics_annotation_stores}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/omics_annotation_stores awscc_omics_annotation_stores}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOmicsAnnotationStores.DataAwsccOmicsAnnotationStores.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccomicsannotationstores"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccomicsannotationstores"
 
 dataawsccomicsannotationstores.NewDataAwsccOmicsAnnotationStores(scope Construct, id *string, config DataAwsccOmicsAnnotationStoresConfig) DataAwsccOmicsAnnotationStores
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccOmicsAnnotationStores.DataAwsccOmicsAnnotationStores.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccomicsannotationstores"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccomicsannotationstores"
 
 dataawsccomicsannotationstores.DataAwsccOmicsAnnotationStores_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccOmicsAnnotationStores.DataAwsccOmicsAnnotationStores.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccomicsannotationstores"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccomicsannotationstores"
 
 dataawsccomicsannotationstores.DataAwsccOmicsAnnotationStores_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccomicsannotationstores.DataAwsccOmicsAnnotationStores_IsTerraformElement
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccOmicsAnnotationStores.DataAwsccOmicsAnnotationStores.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccomicsannotationstores"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccomicsannotationstores"
 
 dataawsccomicsannotationstores.DataAwsccOmicsAnnotationStores_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccomicsannotationstores.DataAwsccOmicsAnnotationStores_IsTerraformDataSou
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccOmicsAnnotationStores.DataAwsccOmicsAnnotationStores.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccomicsannotationstores"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccomicsannotationstores"
 
 dataawsccomicsannotationstores.DataAwsccOmicsAnnotationStores_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccOmicsAnnotationSt
 
 The id of the existing DataAwsccOmicsAnnotationStores that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/omics_annotation_stores#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/omics_annotation_stores#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOmicsAnnotationStores.DataAwsccOmicsAnnotationStoresConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccomicsannotationstores"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccomicsannotationstores"
 
 &dataawsccomicsannotationstores.DataAwsccOmicsAnnotationStoresConfig {
 	Connection: interface{},

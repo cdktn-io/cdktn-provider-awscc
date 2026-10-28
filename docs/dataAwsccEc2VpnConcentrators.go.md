@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2VpnConcentrators <a name="DataAwsccEc2VpnConcentrators" id="@cdktn/provider-awscc.dataAwsccEc2VpnConcentrators.DataAwsccEc2VpnConcentrators"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_vpn_concentrators awscc_ec2_vpn_concentrators}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_vpn_concentrators awscc_ec2_vpn_concentrators}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2VpnConcentrators.DataAwsccEc2VpnConcentrators.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2vpnconcentrators"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2vpnconcentrators"
 
 dataawsccec2vpnconcentrators.NewDataAwsccEc2VpnConcentrators(scope Construct, id *string, config DataAwsccEc2VpnConcentratorsConfig) DataAwsccEc2VpnConcentrators
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2VpnConcentrators.DataAwsccEc2VpnConcentrators.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2vpnconcentrators"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2vpnconcentrators"
 
 dataawsccec2vpnconcentrators.DataAwsccEc2VpnConcentrators_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2VpnConcentrators.DataAwsccEc2VpnConcentrators.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2vpnconcentrators"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2vpnconcentrators"
 
 dataawsccec2vpnconcentrators.DataAwsccEc2VpnConcentrators_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2vpnconcentrators.DataAwsccEc2VpnConcentrators_IsTerraformElement(x i
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2VpnConcentrators.DataAwsccEc2VpnConcentrators.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2vpnconcentrators"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2vpnconcentrators"
 
 dataawsccec2vpnconcentrators.DataAwsccEc2VpnConcentrators_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2vpnconcentrators.DataAwsccEc2VpnConcentrators_IsTerraformDataSource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2VpnConcentrators.DataAwsccEc2VpnConcentrators.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2vpnconcentrators"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2vpnconcentrators"
 
 dataawsccec2vpnconcentrators.DataAwsccEc2VpnConcentrators_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2VpnConcentrato
 
 The id of the existing DataAwsccEc2VpnConcentrators that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_vpn_concentrators#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_vpn_concentrators#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2VpnConcentrators.DataAwsccEc2VpnConcentratorsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2vpnconcentrators"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2vpnconcentrators"
 
 &dataawsccec2vpnconcentrators.DataAwsccEc2VpnConcentratorsConfig {
 	Connection: interface{},

@@ -4,12 +4,12 @@
 
 ### CertificatemanagerAcmeDomainValidation <a name="CertificatemanagerAcmeDomainValidation" id="@cdktn/provider-awscc.certificatemanagerAcmeDomainValidation.CertificatemanagerAcmeDomainValidation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/certificatemanager_acme_domain_validation awscc_certificatemanager_acme_domain_validation}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/certificatemanager_acme_domain_validation awscc_certificatemanager_acme_domain_validation}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.certificatemanagerAcmeDomainValidation.CertificatemanagerAcmeDomainValidation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/certificatemanageracmedomainvalidation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/certificatemanageracmedomainvalidation"
 
 certificatemanageracmedomainvalidation.NewCertificatemanagerAcmeDomainValidation(scope Construct, id *string, config CertificatemanagerAcmeDomainValidationConfig) CertificatemanagerAcmeDomainValidation
 ```
@@ -433,7 +433,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.certificatemanagerAcmeDomainValidation.CertificatemanagerAcmeDomainValidation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/certificatemanageracmedomainvalidation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/certificatemanageracmedomainvalidation"
 
 certificatemanageracmedomainvalidation.CertificatemanagerAcmeDomainValidation_IsConstruct(x interface{}) *bool
 ```
@@ -465,7 +465,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.certificatemanagerAcmeDomainValidation.CertificatemanagerAcmeDomainValidation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/certificatemanageracmedomainvalidation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/certificatemanageracmedomainvalidation"
 
 certificatemanageracmedomainvalidation.CertificatemanagerAcmeDomainValidation_IsTerraformElement(x interface{}) *bool
 ```
@@ -479,7 +479,7 @@ certificatemanageracmedomainvalidation.CertificatemanagerAcmeDomainValidation_Is
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.certificatemanagerAcmeDomainValidation.CertificatemanagerAcmeDomainValidation.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/certificatemanageracmedomainvalidation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/certificatemanageracmedomainvalidation"
 
 certificatemanageracmedomainvalidation.CertificatemanagerAcmeDomainValidation_IsTerraformResource(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ certificatemanageracmedomainvalidation.CertificatemanagerAcmeDomainValidation_Is
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.certificatemanagerAcmeDomainValidation.CertificatemanagerAcmeDomainValidation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/certificatemanageracmedomainvalidation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/certificatemanageracmedomainvalidation"
 
 certificatemanageracmedomainvalidation.CertificatemanagerAcmeDomainValidation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -522,7 +522,7 @@ The construct id used in the generated config for the CertificatemanagerAcmeDoma
 
 The id of the existing CertificatemanagerAcmeDomainValidation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/certificatemanager_acme_domain_validation#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/certificatemanager_acme_domain_validation#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -832,7 +832,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.certificatemanagerAcmeDomainValidation.CertificatemanagerAcmeDomainValidationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/certificatemanageracmedomainvalidation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/certificatemanageracmedomainvalidation"
 
 &certificatemanageracmedomainvalidation.CertificatemanagerAcmeDomainValidationConfig {
 	Connection: interface{},
@@ -844,7 +844,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/certificatemanageracme
 	Provisioners: *[]interface{},
 	AcmeEndpointArn: *string,
 	DomainName: *string,
-	PrevalidationOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.certificatemanagerAcmeDomainValidation.CertificatemanagerAcmeDomainValidationPrevalidationOptions,
+	PrevalidationOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.certificatemanagerAcmeDomainValidation.CertificatemanagerAcmeDomainValidationPrevalidationOptions,
 	Tags: interface{},
 }
 ```
@@ -947,7 +947,7 @@ AcmeEndpointArn *string
 
 The ARN of the ACME endpoint this domain validation is associated with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/certificatemanager_acme_domain_validation#acme_endpoint_arn CertificatemanagerAcmeDomainValidation#acme_endpoint_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/certificatemanager_acme_domain_validation#acme_endpoint_arn CertificatemanagerAcmeDomainValidation#acme_endpoint_arn}
 
 ---
 
@@ -961,7 +961,7 @@ DomainName *string
 
 The domain name to validate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/certificatemanager_acme_domain_validation#domain_name CertificatemanagerAcmeDomainValidation#domain_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/certificatemanager_acme_domain_validation#domain_name CertificatemanagerAcmeDomainValidation#domain_name}
 
 ---
 
@@ -975,7 +975,7 @@ PrevalidationOptions CertificatemanagerAcmeDomainValidationPrevalidationOptions
 
 Prevalidation method configuration. Currently only DNS-based prevalidation is supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/certificatemanager_acme_domain_validation#prevalidation_options CertificatemanagerAcmeDomainValidation#prevalidation_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/certificatemanager_acme_domain_validation#prevalidation_options CertificatemanagerAcmeDomainValidation#prevalidation_options}
 
 ---
 
@@ -989,7 +989,7 @@ Tags interface{}
 
 Tags associated with the domain validation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/certificatemanager_acme_domain_validation#tags CertificatemanagerAcmeDomainValidation#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/certificatemanager_acme_domain_validation#tags CertificatemanagerAcmeDomainValidation#tags}
 
 ---
 
@@ -998,10 +998,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.certificatemanagerAcmeDomainValidation.CertificatemanagerAcmeDomainValidationPrevalidationOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/certificatemanageracmedomainvalidation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/certificatemanageracmedomainvalidation"
 
 &certificatemanageracmedomainvalidation.CertificatemanagerAcmeDomainValidationPrevalidationOptions {
-	DnsPrevalidation: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.certificatemanagerAcmeDomainValidation.CertificatemanagerAcmeDomainValidationPrevalidationOptionsDnsPrevalidation,
+	DnsPrevalidation: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.certificatemanagerAcmeDomainValidation.CertificatemanagerAcmeDomainValidationPrevalidationOptionsDnsPrevalidation,
 }
 ```
 
@@ -1023,7 +1023,7 @@ DnsPrevalidation CertificatemanagerAcmeDomainValidationPrevalidationOptionsDnsPr
 
 DNS-based prevalidation options for the domain validation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/certificatemanager_acme_domain_validation#dns_prevalidation CertificatemanagerAcmeDomainValidation#dns_prevalidation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/certificatemanager_acme_domain_validation#dns_prevalidation CertificatemanagerAcmeDomainValidation#dns_prevalidation}
 
 ---
 
@@ -1032,10 +1032,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.certificatemanagerAcmeDomainValidation.CertificatemanagerAcmeDomainValidationPrevalidationOptionsDnsPrevalidation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/certificatemanageracmedomainvalidation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/certificatemanageracmedomainvalidation"
 
 &certificatemanageracmedomainvalidation.CertificatemanagerAcmeDomainValidationPrevalidationOptionsDnsPrevalidation {
-	DomainScope: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.certificatemanagerAcmeDomainValidation.CertificatemanagerAcmeDomainValidationPrevalidationOptionsDnsPrevalidationDomainScope,
+	DomainScope: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.certificatemanagerAcmeDomainValidation.CertificatemanagerAcmeDomainValidationPrevalidationOptionsDnsPrevalidationDomainScope,
 	HostedZoneId: *string,
 }
 ```
@@ -1059,7 +1059,7 @@ DomainScope CertificatemanagerAcmeDomainValidationPrevalidationOptionsDnsPrevali
 
 Controls which certificate types are authorized to be issued for the domain via the ACME endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/certificatemanager_acme_domain_validation#domain_scope CertificatemanagerAcmeDomainValidation#domain_scope}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/certificatemanager_acme_domain_validation#domain_scope CertificatemanagerAcmeDomainValidation#domain_scope}
 
 ---
 
@@ -1075,7 +1075,7 @@ The Route 53 hosted zone ID for automatic DNS record management.
 
 When provided, the service creates the validation DNS record on the customer's behalf.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/certificatemanager_acme_domain_validation#hosted_zone_id CertificatemanagerAcmeDomainValidation#hosted_zone_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/certificatemanager_acme_domain_validation#hosted_zone_id CertificatemanagerAcmeDomainValidation#hosted_zone_id}
 
 ---
 
@@ -1084,7 +1084,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.certificatemanagerAcmeDomainValidation.CertificatemanagerAcmeDomainValidationPrevalidationOptionsDnsPrevalidationDomainScope.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/certificatemanageracmedomainvalidation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/certificatemanageracmedomainvalidation"
 
 &certificatemanageracmedomainvalidation.CertificatemanagerAcmeDomainValidationPrevalidationOptionsDnsPrevalidationDomainScope {
 	ExactDomain: *string,
@@ -1113,7 +1113,7 @@ ExactDomain *string
 
 Whether certificates may be issued for the exact domain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/certificatemanager_acme_domain_validation#exact_domain CertificatemanagerAcmeDomainValidation#exact_domain}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/certificatemanager_acme_domain_validation#exact_domain CertificatemanagerAcmeDomainValidation#exact_domain}
 
 ---
 
@@ -1127,7 +1127,7 @@ Subdomains *string
 
 Whether certificates may be issued for subdomains of the domain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/certificatemanager_acme_domain_validation#subdomains CertificatemanagerAcmeDomainValidation#subdomains}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/certificatemanager_acme_domain_validation#subdomains CertificatemanagerAcmeDomainValidation#subdomains}
 
 ---
 
@@ -1141,7 +1141,7 @@ Wildcards *string
 
 Whether wildcard certificates may be issued for the domain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/certificatemanager_acme_domain_validation#wildcards CertificatemanagerAcmeDomainValidation#wildcards}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/certificatemanager_acme_domain_validation#wildcards CertificatemanagerAcmeDomainValidation#wildcards}
 
 ---
 
@@ -1150,7 +1150,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.certificatemanagerAcmeDomainValidation.CertificatemanagerAcmeDomainValidationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/certificatemanageracmedomainvalidation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/certificatemanageracmedomainvalidation"
 
 &certificatemanageracmedomainvalidation.CertificatemanagerAcmeDomainValidationTags {
 	Key: *string,
@@ -1177,7 +1177,7 @@ Key *string
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/certificatemanager_acme_domain_validation#key CertificatemanagerAcmeDomainValidation#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/certificatemanager_acme_domain_validation#key CertificatemanagerAcmeDomainValidation#key}
 
 ---
 
@@ -1191,7 +1191,7 @@ Value *string
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/certificatemanager_acme_domain_validation#value CertificatemanagerAcmeDomainValidation#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/certificatemanager_acme_domain_validation#value CertificatemanagerAcmeDomainValidation#value}
 
 ---
 
@@ -1202,7 +1202,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.certificatemanagerAcmeDomainValidation.CertificatemanagerAcmeDomainValidationPrevalidationOptionsDnsPrevalidationDomainScopeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/certificatemanageracmedomainvalidation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/certificatemanageracmedomainvalidation"
 
 certificatemanageracmedomainvalidation.NewCertificatemanagerAcmeDomainValidationPrevalidationOptionsDnsPrevalidationDomainScopeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CertificatemanagerAcmeDomainValidationPrevalidationOptionsDnsPrevalidationDomainScopeOutputReference
 ```
@@ -1538,7 +1538,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.certificatemanagerAcmeDomainValidation.CertificatemanagerAcmeDomainValidationPrevalidationOptionsDnsPrevalidationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/certificatemanageracmedomainvalidation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/certificatemanageracmedomainvalidation"
 
 certificatemanageracmedomainvalidation.NewCertificatemanagerAcmeDomainValidationPrevalidationOptionsDnsPrevalidationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CertificatemanagerAcmeDomainValidationPrevalidationOptionsDnsPrevalidationOutputReference
 ```
@@ -1858,7 +1858,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.certificatemanagerAcmeDomainValidation.CertificatemanagerAcmeDomainValidationPrevalidationOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/certificatemanageracmedomainvalidation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/certificatemanageracmedomainvalidation"
 
 certificatemanageracmedomainvalidation.NewCertificatemanagerAcmeDomainValidationPrevalidationOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CertificatemanagerAcmeDomainValidationPrevalidationOptionsOutputReference
 ```
@@ -2142,7 +2142,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.certificatemanagerAcmeDomainValidation.CertificatemanagerAcmeDomainValidationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/certificatemanageracmedomainvalidation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/certificatemanageracmedomainvalidation"
 
 certificatemanageracmedomainvalidation.NewCertificatemanagerAcmeDomainValidationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CertificatemanagerAcmeDomainValidationTagsList
 ```
@@ -2302,7 +2302,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.certificatemanagerAcmeDomainValidation.CertificatemanagerAcmeDomainValidationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/certificatemanageracmedomainvalidation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/certificatemanageracmedomainvalidation"
 
 certificatemanageracmedomainvalidation.NewCertificatemanagerAcmeDomainValidationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CertificatemanagerAcmeDomainValidationTagsOutputReference
 ```

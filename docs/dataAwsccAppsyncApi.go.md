@@ -4,12 +4,12 @@
 
 ### DataAwsccAppsyncApi <a name="DataAwsccAppsyncApi" id="@cdktn/provider-awscc.dataAwsccAppsyncApi.DataAwsccAppsyncApi"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appsync_api awscc_appsync_api}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appsync_api awscc_appsync_api}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppsyncApi.DataAwsccAppsyncApi.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncapi"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncapi"
 
 dataawsccappsyncapi.NewDataAwsccAppsyncApi(scope Construct, id *string, config DataAwsccAppsyncApiConfig) DataAwsccAppsyncApi
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccAppsyncApi.DataAwsccAppsyncApi.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncapi"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncapi"
 
 dataawsccappsyncapi.DataAwsccAppsyncApi_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccAppsyncApi.DataAwsccAppsyncApi.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncapi"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncapi"
 
 dataawsccappsyncapi.DataAwsccAppsyncApi_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccappsyncapi.DataAwsccAppsyncApi_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccAppsyncApi.DataAwsccAppsyncApi.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncapi"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncapi"
 
 dataawsccappsyncapi.DataAwsccAppsyncApi_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccappsyncapi.DataAwsccAppsyncApi_IsTerraformDataSource(x interface{}) *bo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccAppsyncApi.DataAwsccAppsyncApi.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncapi"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncapi"
 
 dataawsccappsyncapi.DataAwsccAppsyncApi_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccAppsyncApi to imp
 
 The id of the existing DataAwsccAppsyncApi that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appsync_api#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appsync_api#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -664,7 +664,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppsyncApi.DataAwsccAppsyncApiConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncapi"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncapi"
 
 &dataawsccappsyncapi.DataAwsccAppsyncApiConfig {
 	Connection: interface{},
@@ -773,7 +773,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appsync_api#id DataAwsccAppsyncApi#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appsync_api#id DataAwsccAppsyncApi#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -785,7 +785,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppsyncApi.DataAwsccAppsyncApiDns.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncapi"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncapi"
 
 &dataawsccappsyncapi.DataAwsccAppsyncApiDns {
 
@@ -798,7 +798,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncapi"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppsyncApi.DataAwsccAppsyncApiEventConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncapi"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncapi"
 
 &dataawsccappsyncapi.DataAwsccAppsyncApiEventConfig {
 
@@ -811,7 +811,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncapi"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppsyncApi.DataAwsccAppsyncApiEventConfigAuthProviders.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncapi"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncapi"
 
 &dataawsccappsyncapi.DataAwsccAppsyncApiEventConfigAuthProviders {
 
@@ -824,7 +824,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncapi"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppsyncApi.DataAwsccAppsyncApiEventConfigAuthProvidersCognitoConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncapi"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncapi"
 
 &dataawsccappsyncapi.DataAwsccAppsyncApiEventConfigAuthProvidersCognitoConfig {
 
@@ -837,7 +837,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncapi"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppsyncApi.DataAwsccAppsyncApiEventConfigAuthProvidersLambdaAuthorizerConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncapi"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncapi"
 
 &dataawsccappsyncapi.DataAwsccAppsyncApiEventConfigAuthProvidersLambdaAuthorizerConfig {
 
@@ -850,7 +850,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncapi"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppsyncApi.DataAwsccAppsyncApiEventConfigAuthProvidersOpenIdConnectConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncapi"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncapi"
 
 &dataawsccappsyncapi.DataAwsccAppsyncApiEventConfigAuthProvidersOpenIdConnectConfig {
 
@@ -863,7 +863,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncapi"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppsyncApi.DataAwsccAppsyncApiEventConfigConnectionAuthModes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncapi"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncapi"
 
 &dataawsccappsyncapi.DataAwsccAppsyncApiEventConfigConnectionAuthModes {
 
@@ -876,7 +876,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncapi"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppsyncApi.DataAwsccAppsyncApiEventConfigDefaultPublishAuthModes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncapi"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncapi"
 
 &dataawsccappsyncapi.DataAwsccAppsyncApiEventConfigDefaultPublishAuthModes {
 
@@ -889,7 +889,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncapi"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppsyncApi.DataAwsccAppsyncApiEventConfigDefaultSubscribeAuthModes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncapi"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncapi"
 
 &dataawsccappsyncapi.DataAwsccAppsyncApiEventConfigDefaultSubscribeAuthModes {
 
@@ -902,7 +902,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncapi"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppsyncApi.DataAwsccAppsyncApiEventConfigLogConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncapi"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncapi"
 
 &dataawsccappsyncapi.DataAwsccAppsyncApiEventConfigLogConfig {
 
@@ -915,7 +915,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncapi"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppsyncApi.DataAwsccAppsyncApiTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncapi"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncapi"
 
 &dataawsccappsyncapi.DataAwsccAppsyncApiTags {
 
@@ -930,7 +930,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncapi"
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppsyncApi.DataAwsccAppsyncApiDnsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncapi"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncapi"
 
 dataawsccappsyncapi.NewDataAwsccAppsyncApiDnsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppsyncApiDnsOutputReference
 ```
@@ -1201,7 +1201,7 @@ func InternalValue() DataAwsccAppsyncApiDns
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppsyncApi.DataAwsccAppsyncApiEventConfigAuthProvidersCognitoConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncapi"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncapi"
 
 dataawsccappsyncapi.NewDataAwsccAppsyncApiEventConfigAuthProvidersCognitoConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppsyncApiEventConfigAuthProvidersCognitoConfigOutputReference
 ```
@@ -1483,7 +1483,7 @@ func InternalValue() DataAwsccAppsyncApiEventConfigAuthProvidersCognitoConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppsyncApi.DataAwsccAppsyncApiEventConfigAuthProvidersLambdaAuthorizerConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncapi"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncapi"
 
 dataawsccappsyncapi.NewDataAwsccAppsyncApiEventConfigAuthProvidersLambdaAuthorizerConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppsyncApiEventConfigAuthProvidersLambdaAuthorizerConfigOutputReference
 ```
@@ -1765,7 +1765,7 @@ func InternalValue() DataAwsccAppsyncApiEventConfigAuthProvidersLambdaAuthorizer
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppsyncApi.DataAwsccAppsyncApiEventConfigAuthProvidersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncapi"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncapi"
 
 dataawsccappsyncapi.NewDataAwsccAppsyncApiEventConfigAuthProvidersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccAppsyncApiEventConfigAuthProvidersList
 ```
@@ -1914,7 +1914,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppsyncApi.DataAwsccAppsyncApiEventConfigAuthProvidersOpenIdConnectConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncapi"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncapi"
 
 dataawsccappsyncapi.NewDataAwsccAppsyncApiEventConfigAuthProvidersOpenIdConnectConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppsyncApiEventConfigAuthProvidersOpenIdConnectConfigOutputReference
 ```
@@ -2207,7 +2207,7 @@ func InternalValue() DataAwsccAppsyncApiEventConfigAuthProvidersOpenIdConnectCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppsyncApi.DataAwsccAppsyncApiEventConfigAuthProvidersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncapi"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncapi"
 
 dataawsccappsyncapi.NewDataAwsccAppsyncApiEventConfigAuthProvidersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccAppsyncApiEventConfigAuthProvidersOutputReference
 ```
@@ -2518,7 +2518,7 @@ func InternalValue() DataAwsccAppsyncApiEventConfigAuthProviders
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppsyncApi.DataAwsccAppsyncApiEventConfigConnectionAuthModesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncapi"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncapi"
 
 dataawsccappsyncapi.NewDataAwsccAppsyncApiEventConfigConnectionAuthModesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccAppsyncApiEventConfigConnectionAuthModesList
 ```
@@ -2667,7 +2667,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppsyncApi.DataAwsccAppsyncApiEventConfigConnectionAuthModesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncapi"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncapi"
 
 dataawsccappsyncapi.NewDataAwsccAppsyncApiEventConfigConnectionAuthModesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccAppsyncApiEventConfigConnectionAuthModesOutputReference
 ```
@@ -2945,7 +2945,7 @@ func InternalValue() DataAwsccAppsyncApiEventConfigConnectionAuthModes
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppsyncApi.DataAwsccAppsyncApiEventConfigDefaultPublishAuthModesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncapi"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncapi"
 
 dataawsccappsyncapi.NewDataAwsccAppsyncApiEventConfigDefaultPublishAuthModesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccAppsyncApiEventConfigDefaultPublishAuthModesList
 ```
@@ -3094,7 +3094,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppsyncApi.DataAwsccAppsyncApiEventConfigDefaultPublishAuthModesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncapi"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncapi"
 
 dataawsccappsyncapi.NewDataAwsccAppsyncApiEventConfigDefaultPublishAuthModesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccAppsyncApiEventConfigDefaultPublishAuthModesOutputReference
 ```
@@ -3372,7 +3372,7 @@ func InternalValue() DataAwsccAppsyncApiEventConfigDefaultPublishAuthModes
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppsyncApi.DataAwsccAppsyncApiEventConfigDefaultSubscribeAuthModesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncapi"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncapi"
 
 dataawsccappsyncapi.NewDataAwsccAppsyncApiEventConfigDefaultSubscribeAuthModesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccAppsyncApiEventConfigDefaultSubscribeAuthModesList
 ```
@@ -3521,7 +3521,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppsyncApi.DataAwsccAppsyncApiEventConfigDefaultSubscribeAuthModesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncapi"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncapi"
 
 dataawsccappsyncapi.NewDataAwsccAppsyncApiEventConfigDefaultSubscribeAuthModesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccAppsyncApiEventConfigDefaultSubscribeAuthModesOutputReference
 ```
@@ -3799,7 +3799,7 @@ func InternalValue() DataAwsccAppsyncApiEventConfigDefaultSubscribeAuthModes
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppsyncApi.DataAwsccAppsyncApiEventConfigLogConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncapi"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncapi"
 
 dataawsccappsyncapi.NewDataAwsccAppsyncApiEventConfigLogConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppsyncApiEventConfigLogConfigOutputReference
 ```
@@ -4070,7 +4070,7 @@ func InternalValue() DataAwsccAppsyncApiEventConfigLogConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppsyncApi.DataAwsccAppsyncApiEventConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncapi"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncapi"
 
 dataawsccappsyncapi.NewDataAwsccAppsyncApiEventConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppsyncApiEventConfigOutputReference
 ```
@@ -4374,7 +4374,7 @@ func InternalValue() DataAwsccAppsyncApiEventConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppsyncApi.DataAwsccAppsyncApiTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncapi"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncapi"
 
 dataawsccappsyncapi.NewDataAwsccAppsyncApiTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccAppsyncApiTagsList
 ```
@@ -4523,7 +4523,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppsyncApi.DataAwsccAppsyncApiTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncapi"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncapi"
 
 dataawsccappsyncapi.NewDataAwsccAppsyncApiTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccAppsyncApiTagsOutputReference
 ```

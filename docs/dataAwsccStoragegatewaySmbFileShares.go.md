@@ -4,12 +4,12 @@
 
 ### DataAwsccStoragegatewaySmbFileShares <a name="DataAwsccStoragegatewaySmbFileShares" id="@cdktn/provider-awscc.dataAwsccStoragegatewaySmbFileShares.DataAwsccStoragegatewaySmbFileShares"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/storagegateway_smb_file_shares awscc_storagegateway_smb_file_shares}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/storagegateway_smb_file_shares awscc_storagegateway_smb_file_shares}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccStoragegatewaySmbFileShares.DataAwsccStoragegatewaySmbFileShares.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstoragegatewaysmbfileshares"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstoragegatewaysmbfileshares"
 
 dataawsccstoragegatewaysmbfileshares.NewDataAwsccStoragegatewaySmbFileShares(scope Construct, id *string, config DataAwsccStoragegatewaySmbFileSharesConfig) DataAwsccStoragegatewaySmbFileShares
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccStoragegatewaySmbFileShares.DataAwsccStoragegatewaySmbFileShares.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstoragegatewaysmbfileshares"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstoragegatewaysmbfileshares"
 
 dataawsccstoragegatewaysmbfileshares.DataAwsccStoragegatewaySmbFileShares_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccStoragegatewaySmbFileShares.DataAwsccStoragegatewaySmbFileShares.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstoragegatewaysmbfileshares"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstoragegatewaysmbfileshares"
 
 dataawsccstoragegatewaysmbfileshares.DataAwsccStoragegatewaySmbFileShares_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccstoragegatewaysmbfileshares.DataAwsccStoragegatewaySmbFileShares_IsTerr
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccStoragegatewaySmbFileShares.DataAwsccStoragegatewaySmbFileShares.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstoragegatewaysmbfileshares"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstoragegatewaysmbfileshares"
 
 dataawsccstoragegatewaysmbfileshares.DataAwsccStoragegatewaySmbFileShares_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccstoragegatewaysmbfileshares.DataAwsccStoragegatewaySmbFileShares_IsTerr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccStoragegatewaySmbFileShares.DataAwsccStoragegatewaySmbFileShares.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstoragegatewaysmbfileshares"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstoragegatewaysmbfileshares"
 
 dataawsccstoragegatewaysmbfileshares.DataAwsccStoragegatewaySmbFileShares_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccStoragegatewaySmb
 
 The id of the existing DataAwsccStoragegatewaySmbFileShares that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/storagegateway_smb_file_shares#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/storagegateway_smb_file_shares#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccStoragegatewaySmbFileShares.DataAwsccStoragegatewaySmbFileSharesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstoragegatewaysmbfileshares"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstoragegatewaysmbfileshares"
 
 &dataawsccstoragegatewaysmbfileshares.DataAwsccStoragegatewaySmbFileSharesConfig {
 	Connection: interface{},

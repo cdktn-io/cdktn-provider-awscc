@@ -4,12 +4,12 @@
 
 ### DataAwsccS3StorageLensGroups <a name="DataAwsccS3StorageLensGroups" id="@cdktn/provider-awscc.dataAwsccS3StorageLensGroups.DataAwsccS3StorageLensGroups"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3_storage_lens_groups awscc_s3_storage_lens_groups}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3_storage_lens_groups awscc_s3_storage_lens_groups}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3StorageLensGroups.DataAwsccS3StorageLensGroups.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelensgroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelensgroups"
 
 dataawsccs3storagelensgroups.NewDataAwsccS3StorageLensGroups(scope Construct, id *string, config DataAwsccS3StorageLensGroupsConfig) DataAwsccS3StorageLensGroups
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccS3StorageLensGroups.DataAwsccS3StorageLensGroups.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelensgroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelensgroups"
 
 dataawsccs3storagelensgroups.DataAwsccS3StorageLensGroups_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccS3StorageLensGroups.DataAwsccS3StorageLensGroups.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelensgroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelensgroups"
 
 dataawsccs3storagelensgroups.DataAwsccS3StorageLensGroups_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccs3storagelensgroups.DataAwsccS3StorageLensGroups_IsTerraformElement(x i
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccS3StorageLensGroups.DataAwsccS3StorageLensGroups.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelensgroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelensgroups"
 
 dataawsccs3storagelensgroups.DataAwsccS3StorageLensGroups_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccs3storagelensgroups.DataAwsccS3StorageLensGroups_IsTerraformDataSource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccS3StorageLensGroups.DataAwsccS3StorageLensGroups.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelensgroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelensgroups"
 
 dataawsccs3storagelensgroups.DataAwsccS3StorageLensGroups_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccS3StorageLensGrou
 
 The id of the existing DataAwsccS3StorageLensGroups that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3_storage_lens_groups#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3_storage_lens_groups#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3StorageLensGroups.DataAwsccS3StorageLensGroupsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelensgroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelensgroups"
 
 &dataawsccs3storagelensgroups.DataAwsccS3StorageLensGroupsConfig {
 	Connection: interface{},

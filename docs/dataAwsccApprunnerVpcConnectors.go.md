@@ -4,12 +4,12 @@
 
 ### DataAwsccApprunnerVpcConnectors <a name="DataAwsccApprunnerVpcConnectors" id="@cdktn/provider-awscc.dataAwsccApprunnerVpcConnectors.DataAwsccApprunnerVpcConnectors"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apprunner_vpc_connectors awscc_apprunner_vpc_connectors}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apprunner_vpc_connectors awscc_apprunner_vpc_connectors}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApprunnerVpcConnectors.DataAwsccApprunnerVpcConnectors.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnervpcconnectors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnervpcconnectors"
 
 dataawsccapprunnervpcconnectors.NewDataAwsccApprunnerVpcConnectors(scope Construct, id *string, config DataAwsccApprunnerVpcConnectorsConfig) DataAwsccApprunnerVpcConnectors
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccApprunnerVpcConnectors.DataAwsccApprunnerVpcConnectors.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnervpcconnectors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnervpcconnectors"
 
 dataawsccapprunnervpcconnectors.DataAwsccApprunnerVpcConnectors_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccApprunnerVpcConnectors.DataAwsccApprunnerVpcConnectors.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnervpcconnectors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnervpcconnectors"
 
 dataawsccapprunnervpcconnectors.DataAwsccApprunnerVpcConnectors_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccapprunnervpcconnectors.DataAwsccApprunnerVpcConnectors_IsTerraformEleme
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccApprunnerVpcConnectors.DataAwsccApprunnerVpcConnectors.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnervpcconnectors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnervpcconnectors"
 
 dataawsccapprunnervpcconnectors.DataAwsccApprunnerVpcConnectors_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccapprunnervpcconnectors.DataAwsccApprunnerVpcConnectors_IsTerraformDataS
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccApprunnerVpcConnectors.DataAwsccApprunnerVpcConnectors.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnervpcconnectors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnervpcconnectors"
 
 dataawsccapprunnervpcconnectors.DataAwsccApprunnerVpcConnectors_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccApprunnerVpcConne
 
 The id of the existing DataAwsccApprunnerVpcConnectors that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apprunner_vpc_connectors#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apprunner_vpc_connectors#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApprunnerVpcConnectors.DataAwsccApprunnerVpcConnectorsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnervpcconnectors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnervpcconnectors"
 
 &dataawsccapprunnervpcconnectors.DataAwsccApprunnerVpcConnectorsConfig {
 	Connection: interface{},

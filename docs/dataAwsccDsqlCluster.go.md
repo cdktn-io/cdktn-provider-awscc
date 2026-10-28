@@ -4,12 +4,12 @@
 
 ### DataAwsccDsqlCluster <a name="DataAwsccDsqlCluster" id="@cdktn/provider-awscc.dataAwsccDsqlCluster.DataAwsccDsqlCluster"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/dsql_cluster awscc_dsql_cluster}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/dsql_cluster awscc_dsql_cluster}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDsqlCluster.DataAwsccDsqlCluster.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdsqlcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdsqlcluster"
 
 dataawsccdsqlcluster.NewDataAwsccDsqlCluster(scope Construct, id *string, config DataAwsccDsqlClusterConfig) DataAwsccDsqlCluster
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccDsqlCluster.DataAwsccDsqlCluster.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdsqlcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdsqlcluster"
 
 dataawsccdsqlcluster.DataAwsccDsqlCluster_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccDsqlCluster.DataAwsccDsqlCluster.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdsqlcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdsqlcluster"
 
 dataawsccdsqlcluster.DataAwsccDsqlCluster_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccdsqlcluster.DataAwsccDsqlCluster_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccDsqlCluster.DataAwsccDsqlCluster.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdsqlcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdsqlcluster"
 
 dataawsccdsqlcluster.DataAwsccDsqlCluster_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccdsqlcluster.DataAwsccDsqlCluster_IsTerraformDataSource(x interface{}) *
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccDsqlCluster.DataAwsccDsqlCluster.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdsqlcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdsqlcluster"
 
 dataawsccdsqlcluster.DataAwsccDsqlCluster_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDsqlCluster to im
 
 The id of the existing DataAwsccDsqlCluster that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/dsql_cluster#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/dsql_cluster#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -741,7 +741,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDsqlCluster.DataAwsccDsqlClusterConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdsqlcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdsqlcluster"
 
 &dataawsccdsqlcluster.DataAwsccDsqlClusterConfig {
 	Connection: interface{},
@@ -850,7 +850,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/dsql_cluster#id DataAwsccDsqlCluster#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/dsql_cluster#id DataAwsccDsqlCluster#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -862,7 +862,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDsqlCluster.DataAwsccDsqlClusterEncryptionDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdsqlcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdsqlcluster"
 
 &dataawsccdsqlcluster.DataAwsccDsqlClusterEncryptionDetails {
 
@@ -875,7 +875,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdsqlcluster"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDsqlCluster.DataAwsccDsqlClusterMultiRegionProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdsqlcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdsqlcluster"
 
 &dataawsccdsqlcluster.DataAwsccDsqlClusterMultiRegionProperties {
 
@@ -888,7 +888,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdsqlcluster"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDsqlCluster.DataAwsccDsqlClusterTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdsqlcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdsqlcluster"
 
 &dataawsccdsqlcluster.DataAwsccDsqlClusterTags {
 
@@ -903,7 +903,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdsqlcluster"
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDsqlCluster.DataAwsccDsqlClusterEncryptionDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdsqlcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdsqlcluster"
 
 dataawsccdsqlcluster.NewDataAwsccDsqlClusterEncryptionDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDsqlClusterEncryptionDetailsOutputReference
 ```
@@ -1185,7 +1185,7 @@ func InternalValue() DataAwsccDsqlClusterEncryptionDetails
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDsqlCluster.DataAwsccDsqlClusterMultiRegionPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdsqlcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdsqlcluster"
 
 dataawsccdsqlcluster.NewDataAwsccDsqlClusterMultiRegionPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDsqlClusterMultiRegionPropertiesOutputReference
 ```
@@ -1456,7 +1456,7 @@ func InternalValue() DataAwsccDsqlClusterMultiRegionProperties
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDsqlCluster.DataAwsccDsqlClusterTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdsqlcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdsqlcluster"
 
 dataawsccdsqlcluster.NewDataAwsccDsqlClusterTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDsqlClusterTagsList
 ```
@@ -1605,7 +1605,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDsqlCluster.DataAwsccDsqlClusterTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdsqlcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdsqlcluster"
 
 dataawsccdsqlcluster.NewDataAwsccDsqlClusterTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDsqlClusterTagsOutputReference
 ```

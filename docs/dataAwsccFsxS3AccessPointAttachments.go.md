@@ -4,12 +4,12 @@
 
 ### DataAwsccFsxS3AccessPointAttachments <a name="DataAwsccFsxS3AccessPointAttachments" id="@cdktn/provider-awscc.dataAwsccFsxS3AccessPointAttachments.DataAwsccFsxS3AccessPointAttachments"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/fsx_s3_access_point_attachments awscc_fsx_s3_access_point_attachments}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/fsx_s3_access_point_attachments awscc_fsx_s3_access_point_attachments}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFsxS3AccessPointAttachments.DataAwsccFsxS3AccessPointAttachments.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxs3accesspointattachments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfsxs3accesspointattachments"
 
 dataawsccfsxs3accesspointattachments.NewDataAwsccFsxS3AccessPointAttachments(scope Construct, id *string, config DataAwsccFsxS3AccessPointAttachmentsConfig) DataAwsccFsxS3AccessPointAttachments
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccFsxS3AccessPointAttachments.DataAwsccFsxS3AccessPointAttachments.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxs3accesspointattachments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfsxs3accesspointattachments"
 
 dataawsccfsxs3accesspointattachments.DataAwsccFsxS3AccessPointAttachments_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccFsxS3AccessPointAttachments.DataAwsccFsxS3AccessPointAttachments.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxs3accesspointattachments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfsxs3accesspointattachments"
 
 dataawsccfsxs3accesspointattachments.DataAwsccFsxS3AccessPointAttachments_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccfsxs3accesspointattachments.DataAwsccFsxS3AccessPointAttachments_IsTerr
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccFsxS3AccessPointAttachments.DataAwsccFsxS3AccessPointAttachments.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxs3accesspointattachments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfsxs3accesspointattachments"
 
 dataawsccfsxs3accesspointattachments.DataAwsccFsxS3AccessPointAttachments_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccfsxs3accesspointattachments.DataAwsccFsxS3AccessPointAttachments_IsTerr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccFsxS3AccessPointAttachments.DataAwsccFsxS3AccessPointAttachments.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxs3accesspointattachments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfsxs3accesspointattachments"
 
 dataawsccfsxs3accesspointattachments.DataAwsccFsxS3AccessPointAttachments_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccFsxS3AccessPointA
 
 The id of the existing DataAwsccFsxS3AccessPointAttachments that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/fsx_s3_access_point_attachments#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/fsx_s3_access_point_attachments#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccFsxS3AccessPointAttachments.DataAwsccFsxS3AccessPointAttachmentsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxs3accesspointattachments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfsxs3accesspointattachments"
 
 &dataawsccfsxs3accesspointattachments.DataAwsccFsxS3AccessPointAttachmentsConfig {
 	Connection: interface{},

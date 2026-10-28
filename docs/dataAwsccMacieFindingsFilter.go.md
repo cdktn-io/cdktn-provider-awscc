@@ -4,12 +4,12 @@
 
 ### DataAwsccMacieFindingsFilter <a name="DataAwsccMacieFindingsFilter" id="@cdktn/provider-awscc.dataAwsccMacieFindingsFilter.DataAwsccMacieFindingsFilter"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/macie_findings_filter awscc_macie_findings_filter}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/macie_findings_filter awscc_macie_findings_filter}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMacieFindingsFilter.DataAwsccMacieFindingsFilter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmaciefindingsfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmaciefindingsfilter"
 
 dataawsccmaciefindingsfilter.NewDataAwsccMacieFindingsFilter(scope Construct, id *string, config DataAwsccMacieFindingsFilterConfig) DataAwsccMacieFindingsFilter
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccMacieFindingsFilter.DataAwsccMacieFindingsFilter.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmaciefindingsfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmaciefindingsfilter"
 
 dataawsccmaciefindingsfilter.DataAwsccMacieFindingsFilter_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccMacieFindingsFilter.DataAwsccMacieFindingsFilter.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmaciefindingsfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmaciefindingsfilter"
 
 dataawsccmaciefindingsfilter.DataAwsccMacieFindingsFilter_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccmaciefindingsfilter.DataAwsccMacieFindingsFilter_IsTerraformElement(x i
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccMacieFindingsFilter.DataAwsccMacieFindingsFilter.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmaciefindingsfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmaciefindingsfilter"
 
 dataawsccmaciefindingsfilter.DataAwsccMacieFindingsFilter_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccmaciefindingsfilter.DataAwsccMacieFindingsFilter_IsTerraformDataSource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccMacieFindingsFilter.DataAwsccMacieFindingsFilter.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmaciefindingsfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmaciefindingsfilter"
 
 dataawsccmaciefindingsfilter.DataAwsccMacieFindingsFilter_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccMacieFindingsFilt
 
 The id of the existing DataAwsccMacieFindingsFilter that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/macie_findings_filter#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/macie_findings_filter#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -675,7 +675,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMacieFindingsFilter.DataAwsccMacieFindingsFilterConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmaciefindingsfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmaciefindingsfilter"
 
 &dataawsccmaciefindingsfilter.DataAwsccMacieFindingsFilterConfig {
 	Connection: interface{},
@@ -784,7 +784,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/macie_findings_filter#id DataAwsccMacieFindingsFilter#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/macie_findings_filter#id DataAwsccMacieFindingsFilter#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -796,7 +796,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMacieFindingsFilter.DataAwsccMacieFindingsFilterFindingCriteria.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmaciefindingsfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmaciefindingsfilter"
 
 &dataawsccmaciefindingsfilter.DataAwsccMacieFindingsFilterFindingCriteria {
 
@@ -809,7 +809,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmaciefindings
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMacieFindingsFilter.DataAwsccMacieFindingsFilterFindingCriteriaCriterion.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmaciefindingsfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmaciefindingsfilter"
 
 &dataawsccmaciefindingsfilter.DataAwsccMacieFindingsFilterFindingCriteriaCriterion {
 
@@ -822,7 +822,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmaciefindings
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMacieFindingsFilter.DataAwsccMacieFindingsFilterTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmaciefindingsfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmaciefindingsfilter"
 
 &dataawsccmaciefindingsfilter.DataAwsccMacieFindingsFilterTags {
 
@@ -837,7 +837,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmaciefindings
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMacieFindingsFilter.DataAwsccMacieFindingsFilterFindingCriteriaCriterionMap.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmaciefindingsfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmaciefindingsfilter"
 
 dataawsccmaciefindingsfilter.NewDataAwsccMacieFindingsFilterFindingCriteriaCriterionMap(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMacieFindingsFilterFindingCriteriaCriterionMap
 ```
@@ -973,7 +973,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMacieFindingsFilter.DataAwsccMacieFindingsFilterFindingCriteriaCriterionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmaciefindingsfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmaciefindingsfilter"
 
 dataawsccmaciefindingsfilter.NewDataAwsccMacieFindingsFilterFindingCriteriaCriterionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectKey *string) DataAwsccMacieFindingsFilterFindingCriteriaCriterionOutputReference
 ```
@@ -1297,7 +1297,7 @@ func InternalValue() DataAwsccMacieFindingsFilterFindingCriteriaCriterion
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMacieFindingsFilter.DataAwsccMacieFindingsFilterFindingCriteriaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmaciefindingsfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmaciefindingsfilter"
 
 dataawsccmaciefindingsfilter.NewDataAwsccMacieFindingsFilterFindingCriteriaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMacieFindingsFilterFindingCriteriaOutputReference
 ```
@@ -1557,7 +1557,7 @@ func InternalValue() DataAwsccMacieFindingsFilterFindingCriteria
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMacieFindingsFilter.DataAwsccMacieFindingsFilterTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmaciefindingsfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmaciefindingsfilter"
 
 dataawsccmaciefindingsfilter.NewDataAwsccMacieFindingsFilterTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccMacieFindingsFilterTagsList
 ```
@@ -1706,7 +1706,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMacieFindingsFilter.DataAwsccMacieFindingsFilterTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmaciefindingsfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmaciefindingsfilter"
 
 dataawsccmaciefindingsfilter.NewDataAwsccMacieFindingsFilterTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccMacieFindingsFilterTagsOutputReference
 ```

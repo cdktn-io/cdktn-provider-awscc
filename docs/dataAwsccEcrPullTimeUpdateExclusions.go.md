@@ -4,12 +4,12 @@
 
 ### DataAwsccEcrPullTimeUpdateExclusions <a name="DataAwsccEcrPullTimeUpdateExclusions" id="@cdktn/provider-awscc.dataAwsccEcrPullTimeUpdateExclusions.DataAwsccEcrPullTimeUpdateExclusions"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ecr_pull_time_update_exclusions awscc_ecr_pull_time_update_exclusions}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ecr_pull_time_update_exclusions awscc_ecr_pull_time_update_exclusions}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcrPullTimeUpdateExclusions.DataAwsccEcrPullTimeUpdateExclusions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecrpulltimeupdateexclusions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecrpulltimeupdateexclusions"
 
 dataawsccecrpulltimeupdateexclusions.NewDataAwsccEcrPullTimeUpdateExclusions(scope Construct, id *string, config DataAwsccEcrPullTimeUpdateExclusionsConfig) DataAwsccEcrPullTimeUpdateExclusions
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEcrPullTimeUpdateExclusions.DataAwsccEcrPullTimeUpdateExclusions.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecrpulltimeupdateexclusions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecrpulltimeupdateexclusions"
 
 dataawsccecrpulltimeupdateexclusions.DataAwsccEcrPullTimeUpdateExclusions_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEcrPullTimeUpdateExclusions.DataAwsccEcrPullTimeUpdateExclusions.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecrpulltimeupdateexclusions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecrpulltimeupdateexclusions"
 
 dataawsccecrpulltimeupdateexclusions.DataAwsccEcrPullTimeUpdateExclusions_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccecrpulltimeupdateexclusions.DataAwsccEcrPullTimeUpdateExclusions_IsTerr
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEcrPullTimeUpdateExclusions.DataAwsccEcrPullTimeUpdateExclusions.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecrpulltimeupdateexclusions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecrpulltimeupdateexclusions"
 
 dataawsccecrpulltimeupdateexclusions.DataAwsccEcrPullTimeUpdateExclusions_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccecrpulltimeupdateexclusions.DataAwsccEcrPullTimeUpdateExclusions_IsTerr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEcrPullTimeUpdateExclusions.DataAwsccEcrPullTimeUpdateExclusions.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecrpulltimeupdateexclusions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecrpulltimeupdateexclusions"
 
 dataawsccecrpulltimeupdateexclusions.DataAwsccEcrPullTimeUpdateExclusions_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEcrPullTimeUpdate
 
 The id of the existing DataAwsccEcrPullTimeUpdateExclusions that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ecr_pull_time_update_exclusions#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ecr_pull_time_update_exclusions#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcrPullTimeUpdateExclusions.DataAwsccEcrPullTimeUpdateExclusionsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecrpulltimeupdateexclusions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecrpulltimeupdateexclusions"
 
 &dataawsccecrpulltimeupdateexclusions.DataAwsccEcrPullTimeUpdateExclusionsConfig {
 	Connection: interface{},

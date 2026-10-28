@@ -4,12 +4,12 @@
 
 ### AppsyncType <a name="AppsyncType" id="@cdktn/provider-awscc.appsyncType.AppsyncType"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appsync_type awscc_appsync_type}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appsync_type awscc_appsync_type}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appsyncType.AppsyncType.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appsynctype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appsynctype"
 
 appsynctype.NewAppsyncType(scope Construct, id *string, config AppsyncTypeConfig) AppsyncType
 ```
@@ -400,7 +400,7 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.appsyncType.AppsyncType.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appsynctype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appsynctype"
 
 appsynctype.AppsyncType_IsConstruct(x interface{}) *bool
 ```
@@ -432,7 +432,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.appsyncType.AppsyncType.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appsynctype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appsynctype"
 
 appsynctype.AppsyncType_IsTerraformElement(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ appsynctype.AppsyncType_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.appsyncType.AppsyncType.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appsynctype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appsynctype"
 
 appsynctype.AppsyncType_IsTerraformResource(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ appsynctype.AppsyncType_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.appsyncType.AppsyncType.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appsynctype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appsynctype"
 
 appsynctype.AppsyncType_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -489,7 +489,7 @@ The construct id used in the generated config for the AppsyncType to import.
 
 The id of the existing AppsyncType that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appsync_type#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appsync_type#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -788,7 +788,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.appsyncType.AppsyncTypeConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appsynctype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appsynctype"
 
 &appsynctype.AppsyncTypeConfig {
 	Connection: interface{},
@@ -901,7 +901,7 @@ ApiId *string
 
 The API ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appsync_type#api_id AppsyncType#api_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appsync_type#api_id AppsyncType#api_id}
 
 ---
 
@@ -915,7 +915,7 @@ Definition *string
 
 The type definition, in GraphQL Schema Definition Language (SDL) format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appsync_type#definition AppsyncType#definition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appsync_type#definition AppsyncType#definition}
 
 ---
 
@@ -929,7 +929,7 @@ Format *string
 
 The type format: SDL or JSON.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appsync_type#format AppsyncType#format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appsync_type#format AppsyncType#format}
 
 ---
 

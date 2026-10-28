@@ -4,12 +4,12 @@
 
 ### TimestreamTable <a name="TimestreamTable" id="@cdktn/provider-awscc.timestreamTable.TimestreamTable"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_table awscc_timestream_table}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_table awscc_timestream_table}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.timestreamTable.TimestreamTable.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/timestreamtable"
 
 timestreamtable.NewTimestreamTable(scope Construct, id *string, config TimestreamTableConfig) TimestreamTable
 ```
@@ -487,7 +487,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.timestreamTable.TimestreamTable.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/timestreamtable"
 
 timestreamtable.TimestreamTable_IsConstruct(x interface{}) *bool
 ```
@@ -519,7 +519,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.timestreamTable.TimestreamTable.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/timestreamtable"
 
 timestreamtable.TimestreamTable_IsTerraformElement(x interface{}) *bool
 ```
@@ -533,7 +533,7 @@ timestreamtable.TimestreamTable_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.timestreamTable.TimestreamTable.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/timestreamtable"
 
 timestreamtable.TimestreamTable_IsTerraformResource(x interface{}) *bool
 ```
@@ -547,7 +547,7 @@ timestreamtable.TimestreamTable_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.timestreamTable.TimestreamTable.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/timestreamtable"
 
 timestreamtable.TimestreamTable_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -576,7 +576,7 @@ The construct id used in the generated config for the TimestreamTable to import.
 
 The id of the existing TimestreamTable that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_table#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_table#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -941,7 +941,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.timestreamTable.TimestreamTableConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/timestreamtable"
 
 &timestreamtable.TimestreamTableConfig {
 	Connection: interface{},
@@ -952,9 +952,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamtable"
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	DatabaseName: *string,
-	MagneticStoreWriteProperties: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.timestreamTable.TimestreamTableMagneticStoreWriteProperties,
-	RetentionProperties: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.timestreamTable.TimestreamTableRetentionProperties,
-	Schema: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.timestreamTable.TimestreamTableSchema,
+	MagneticStoreWriteProperties: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.timestreamTable.TimestreamTableMagneticStoreWriteProperties,
+	RetentionProperties: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.timestreamTable.TimestreamTableRetentionProperties,
+	Schema: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.timestreamTable.TimestreamTableSchema,
 	TableName: *string,
 	Tags: interface{},
 }
@@ -1060,7 +1060,7 @@ DatabaseName *string
 
 The name for the database which the table to be created belongs to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_table#database_name TimestreamTable#database_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_table#database_name TimestreamTable#database_name}
 
 ---
 
@@ -1074,7 +1074,7 @@ MagneticStoreWriteProperties TimestreamTableMagneticStoreWriteProperties
 
 The properties that determine whether magnetic store writes are enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_table#magnetic_store_write_properties TimestreamTable#magnetic_store_write_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_table#magnetic_store_write_properties TimestreamTable#magnetic_store_write_properties}
 
 ---
 
@@ -1088,7 +1088,7 @@ RetentionProperties TimestreamTableRetentionProperties
 
 The retention duration of the memory store and the magnetic store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_table#retention_properties TimestreamTable#retention_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_table#retention_properties TimestreamTable#retention_properties}
 
 ---
 
@@ -1102,7 +1102,7 @@ Schema TimestreamTableSchema
 
 A Schema specifies the expected data model of the table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_table#schema TimestreamTable#schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_table#schema TimestreamTable#schema}
 
 ---
 
@@ -1118,7 +1118,7 @@ The name for the table.
 
 If you don't specify a name, AWS CloudFormation generates a unique physical ID and uses that ID for the table name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_table#table_name TimestreamTable#table_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_table#table_name TimestreamTable#table_name}
 
 ---
 
@@ -1132,7 +1132,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_table#tags TimestreamTable#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_table#tags TimestreamTable#tags}
 
 ---
 
@@ -1141,11 +1141,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.timestreamTable.TimestreamTableMagneticStoreWriteProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/timestreamtable"
 
 &timestreamtable.TimestreamTableMagneticStoreWriteProperties {
 	EnableMagneticStoreWrites: interface{},
-	MagneticStoreRejectedDataLocation: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.timestreamTable.TimestreamTableMagneticStoreWritePropertiesMagneticStoreRejectedDataLocation,
+	MagneticStoreRejectedDataLocation: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.timestreamTable.TimestreamTableMagneticStoreWritePropertiesMagneticStoreRejectedDataLocation,
 }
 ```
 
@@ -1168,7 +1168,7 @@ EnableMagneticStoreWrites interface{}
 
 Boolean flag indicating whether magnetic store writes are enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_table#enable_magnetic_store_writes TimestreamTable#enable_magnetic_store_writes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_table#enable_magnetic_store_writes TimestreamTable#enable_magnetic_store_writes}
 
 ---
 
@@ -1182,7 +1182,7 @@ MagneticStoreRejectedDataLocation TimestreamTableMagneticStoreWritePropertiesMag
 
 Location to store information about records that were asynchronously rejected during magnetic store writes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_table#magnetic_store_rejected_data_location TimestreamTable#magnetic_store_rejected_data_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_table#magnetic_store_rejected_data_location TimestreamTable#magnetic_store_rejected_data_location}
 
 ---
 
@@ -1191,10 +1191,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.timestreamTable.TimestreamTableMagneticStoreWritePropertiesMagneticStoreRejectedDataLocation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/timestreamtable"
 
 &timestreamtable.TimestreamTableMagneticStoreWritePropertiesMagneticStoreRejectedDataLocation {
-	S3Configuration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.timestreamTable.TimestreamTableMagneticStoreWritePropertiesMagneticStoreRejectedDataLocationS3Configuration,
+	S3Configuration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.timestreamTable.TimestreamTableMagneticStoreWritePropertiesMagneticStoreRejectedDataLocationS3Configuration,
 }
 ```
 
@@ -1216,7 +1216,7 @@ S3Configuration TimestreamTableMagneticStoreWritePropertiesMagneticStoreRejected
 
 S3 configuration for location to store rejections from magnetic store writes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_table#s3_configuration TimestreamTable#s3_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_table#s3_configuration TimestreamTable#s3_configuration}
 
 ---
 
@@ -1225,7 +1225,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.timestreamTable.TimestreamTableMagneticStoreWritePropertiesMagneticStoreRejectedDataLocationS3Configuration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/timestreamtable"
 
 &timestreamtable.TimestreamTableMagneticStoreWritePropertiesMagneticStoreRejectedDataLocationS3Configuration {
 	BucketName: *string,
@@ -1256,7 +1256,7 @@ BucketName *string
 
 The bucket name used to store the data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_table#bucket_name TimestreamTable#bucket_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_table#bucket_name TimestreamTable#bucket_name}
 
 ---
 
@@ -1270,7 +1270,7 @@ EncryptionOption *string
 
 Either SSE_KMS or SSE_S3.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_table#encryption_option TimestreamTable#encryption_option}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_table#encryption_option TimestreamTable#encryption_option}
 
 ---
 
@@ -1284,7 +1284,7 @@ KmsKeyId *string
 
 Must be provided if SSE_KMS is specified as the encryption option.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_table#kms_key_id TimestreamTable#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_table#kms_key_id TimestreamTable#kms_key_id}
 
 ---
 
@@ -1298,7 +1298,7 @@ ObjectKeyPrefix *string
 
 String used to prefix all data in the bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_table#object_key_prefix TimestreamTable#object_key_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_table#object_key_prefix TimestreamTable#object_key_prefix}
 
 ---
 
@@ -1307,7 +1307,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.timestreamTable.TimestreamTableRetentionProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/timestreamtable"
 
 &timestreamtable.TimestreamTableRetentionProperties {
 	MagneticStoreRetentionPeriodInDays: *string,
@@ -1334,7 +1334,7 @@ MagneticStoreRetentionPeriodInDays *string
 
 The duration for which data must be stored in the magnetic store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_table#magnetic_store_retention_period_in_days TimestreamTable#magnetic_store_retention_period_in_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_table#magnetic_store_retention_period_in_days TimestreamTable#magnetic_store_retention_period_in_days}
 
 ---
 
@@ -1348,7 +1348,7 @@ MemoryStoreRetentionPeriodInHours *string
 
 The duration for which data must be stored in the memory store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_table#memory_store_retention_period_in_hours TimestreamTable#memory_store_retention_period_in_hours}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_table#memory_store_retention_period_in_hours TimestreamTable#memory_store_retention_period_in_hours}
 
 ---
 
@@ -1357,7 +1357,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.timestreamTable.TimestreamTableSchema.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/timestreamtable"
 
 &timestreamtable.TimestreamTableSchema {
 	CompositePartitionKey: interface{},
@@ -1384,7 +1384,7 @@ A list of partition keys defining the attributes used to partition the table dat
 
 The order of the list determines the partition hierarchy. The name and type of each partition key as well as the partition key order cannot be changed after the table is created. However, the enforcement level of each partition key can be changed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_table#composite_partition_key TimestreamTable#composite_partition_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_table#composite_partition_key TimestreamTable#composite_partition_key}
 
 ---
 
@@ -1393,7 +1393,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.timestreamTable.TimestreamTableSchemaCompositePartitionKey.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/timestreamtable"
 
 &timestreamtable.TimestreamTableSchemaCompositePartitionKey {
 	EnforcementInRecord: *string,
@@ -1424,7 +1424,7 @@ The level of enforcement for the specification of a dimension key in ingested re
 
 Options are REQUIRED (dimension key must be specified) and OPTIONAL (dimension key does not have to be specified).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_table#enforcement_in_record TimestreamTable#enforcement_in_record}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_table#enforcement_in_record TimestreamTable#enforcement_in_record}
 
 ---
 
@@ -1438,7 +1438,7 @@ Name *string
 
 The name of the attribute used for a dimension key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_table#name TimestreamTable#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_table#name TimestreamTable#name}
 
 ---
 
@@ -1452,7 +1452,7 @@ Type *string
 
 The type of the partition key. Options are DIMENSION (dimension key) and MEASURE (measure key).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_table#type TimestreamTable#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_table#type TimestreamTable#type}
 
 ---
 
@@ -1461,7 +1461,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.timestreamTable.TimestreamTableTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/timestreamtable"
 
 &timestreamtable.TimestreamTableTags {
 	Key: *string,
@@ -1473,8 +1473,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamtable"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.timestreamTable.TimestreamTableTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_table#key TimestreamTable#key}. |
-| <code><a href="#@cdktn/provider-awscc.timestreamTable.TimestreamTableTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_table#value TimestreamTable#value}. |
+| <code><a href="#@cdktn/provider-awscc.timestreamTable.TimestreamTableTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_table#key TimestreamTable#key}. |
+| <code><a href="#@cdktn/provider-awscc.timestreamTable.TimestreamTableTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_table#value TimestreamTable#value}. |
 
 ---
 
@@ -1486,7 +1486,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_table#key TimestreamTable#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_table#key TimestreamTable#key}.
 
 ---
 
@@ -1498,7 +1498,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_table#value TimestreamTable#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_table#value TimestreamTable#value}.
 
 ---
 
@@ -1509,7 +1509,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.timestreamTable.TimestreamTableMagneticStoreWritePropertiesMagneticStoreRejectedDataLocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/timestreamtable"
 
 timestreamtable.NewTimestreamTableMagneticStoreWritePropertiesMagneticStoreRejectedDataLocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) TimestreamTableMagneticStoreWritePropertiesMagneticStoreRejectedDataLocationOutputReference
 ```
@@ -1800,7 +1800,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.timestreamTable.TimestreamTableMagneticStoreWritePropertiesMagneticStoreRejectedDataLocationS3ConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/timestreamtable"
 
 timestreamtable.NewTimestreamTableMagneticStoreWritePropertiesMagneticStoreRejectedDataLocationS3ConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) TimestreamTableMagneticStoreWritePropertiesMagneticStoreRejectedDataLocationS3ConfigurationOutputReference
 ```
@@ -2165,7 +2165,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.timestreamTable.TimestreamTableMagneticStoreWritePropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/timestreamtable"
 
 timestreamtable.NewTimestreamTableMagneticStoreWritePropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) TimestreamTableMagneticStoreWritePropertiesOutputReference
 ```
@@ -2485,7 +2485,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.timestreamTable.TimestreamTableRetentionPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/timestreamtable"
 
 timestreamtable.NewTimestreamTableRetentionPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) TimestreamTableRetentionPropertiesOutputReference
 ```
@@ -2792,7 +2792,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.timestreamTable.TimestreamTableSchemaCompositePartitionKeyList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/timestreamtable"
 
 timestreamtable.NewTimestreamTableSchemaCompositePartitionKeyList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) TimestreamTableSchemaCompositePartitionKeyList
 ```
@@ -2952,7 +2952,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.timestreamTable.TimestreamTableSchemaCompositePartitionKeyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/timestreamtable"
 
 timestreamtable.NewTimestreamTableSchemaCompositePartitionKeyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) TimestreamTableSchemaCompositePartitionKeyOutputReference
 ```
@@ -3306,7 +3306,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.timestreamTable.TimestreamTableSchemaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/timestreamtable"
 
 timestreamtable.NewTimestreamTableSchemaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) TimestreamTableSchemaOutputReference
 ```
@@ -3597,7 +3597,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.timestreamTable.TimestreamTableTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/timestreamtable"
 
 timestreamtable.NewTimestreamTableTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) TimestreamTableTagsList
 ```
@@ -3757,7 +3757,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.timestreamTable.TimestreamTableTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamtable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/timestreamtable"
 
 timestreamtable.NewTimestreamTableTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) TimestreamTableTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccCeCostCategories <a name="DataAwsccCeCostCategories" id="@cdktn/provider-awscc.dataAwsccCeCostCategories.DataAwsccCeCostCategories"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ce_cost_categories awscc_ce_cost_categories}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ce_cost_categories awscc_ce_cost_categories}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCeCostCategories.DataAwsccCeCostCategories.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccecostcategories"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccecostcategories"
 
 dataawscccecostcategories.NewDataAwsccCeCostCategories(scope Construct, id *string, config DataAwsccCeCostCategoriesConfig) DataAwsccCeCostCategories
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCeCostCategories.DataAwsccCeCostCategories.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccecostcategories"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccecostcategories"
 
 dataawscccecostcategories.DataAwsccCeCostCategories_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCeCostCategories.DataAwsccCeCostCategories.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccecostcategories"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccecostcategories"
 
 dataawscccecostcategories.DataAwsccCeCostCategories_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccecostcategories.DataAwsccCeCostCategories_IsTerraformElement(x interfa
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCeCostCategories.DataAwsccCeCostCategories.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccecostcategories"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccecostcategories"
 
 dataawscccecostcategories.DataAwsccCeCostCategories_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccecostcategories.DataAwsccCeCostCategories_IsTerraformDataSource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCeCostCategories.DataAwsccCeCostCategories.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccecostcategories"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccecostcategories"
 
 dataawscccecostcategories.DataAwsccCeCostCategories_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCeCostCategories 
 
 The id of the existing DataAwsccCeCostCategories that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ce_cost_categories#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ce_cost_categories#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCeCostCategories.DataAwsccCeCostCategoriesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccecostcategories"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccecostcategories"
 
 &dataawscccecostcategories.DataAwsccCeCostCategoriesConfig {
 	Connection: interface{},

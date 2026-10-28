@@ -4,12 +4,12 @@
 
 ### DataAwsccLambdaEventInvokeConfig <a name="DataAwsccLambdaEventInvokeConfig" id="@cdktn/provider-awscc.dataAwsccLambdaEventInvokeConfig.DataAwsccLambdaEventInvokeConfig"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lambda_event_invoke_config awscc_lambda_event_invoke_config}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lambda_event_invoke_config awscc_lambda_event_invoke_config}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaEventInvokeConfig.DataAwsccLambdaEventInvokeConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventinvokeconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaeventinvokeconfig"
 
 dataawscclambdaeventinvokeconfig.NewDataAwsccLambdaEventInvokeConfig(scope Construct, id *string, config DataAwsccLambdaEventInvokeConfigConfig) DataAwsccLambdaEventInvokeConfig
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccLambdaEventInvokeConfig.DataAwsccLambdaEventInvokeConfig.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventinvokeconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaeventinvokeconfig"
 
 dataawscclambdaeventinvokeconfig.DataAwsccLambdaEventInvokeConfig_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccLambdaEventInvokeConfig.DataAwsccLambdaEventInvokeConfig.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventinvokeconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaeventinvokeconfig"
 
 dataawscclambdaeventinvokeconfig.DataAwsccLambdaEventInvokeConfig_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscclambdaeventinvokeconfig.DataAwsccLambdaEventInvokeConfig_IsTerraformEle
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccLambdaEventInvokeConfig.DataAwsccLambdaEventInvokeConfig.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventinvokeconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaeventinvokeconfig"
 
 dataawscclambdaeventinvokeconfig.DataAwsccLambdaEventInvokeConfig_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscclambdaeventinvokeconfig.DataAwsccLambdaEventInvokeConfig_IsTerraformDat
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccLambdaEventInvokeConfig.DataAwsccLambdaEventInvokeConfig.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventinvokeconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaeventinvokeconfig"
 
 dataawscclambdaeventinvokeconfig.DataAwsccLambdaEventInvokeConfig_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLambdaEventInvoke
 
 The id of the existing DataAwsccLambdaEventInvokeConfig that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lambda_event_invoke_config#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lambda_event_invoke_config#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -642,7 +642,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaEventInvokeConfig.DataAwsccLambdaEventInvokeConfigConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventinvokeconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaeventinvokeconfig"
 
 &dataawscclambdaeventinvokeconfig.DataAwsccLambdaEventInvokeConfigConfig {
 	Connection: interface{},
@@ -751,7 +751,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lambda_event_invoke_config#id DataAwsccLambdaEventInvokeConfig#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lambda_event_invoke_config#id DataAwsccLambdaEventInvokeConfig#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -763,7 +763,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaEventInvokeConfig.DataAwsccLambdaEventInvokeConfigDestinationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventinvokeconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaeventinvokeconfig"
 
 &dataawscclambdaeventinvokeconfig.DataAwsccLambdaEventInvokeConfigDestinationConfig {
 
@@ -776,7 +776,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaEventInvokeConfig.DataAwsccLambdaEventInvokeConfigDestinationConfigOnFailure.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventinvokeconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaeventinvokeconfig"
 
 &dataawscclambdaeventinvokeconfig.DataAwsccLambdaEventInvokeConfigDestinationConfigOnFailure {
 
@@ -789,7 +789,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaEventInvokeConfig.DataAwsccLambdaEventInvokeConfigDestinationConfigOnSuccess.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventinvokeconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaeventinvokeconfig"
 
 &dataawscclambdaeventinvokeconfig.DataAwsccLambdaEventInvokeConfigDestinationConfigOnSuccess {
 
@@ -804,7 +804,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaEventInvokeConfig.DataAwsccLambdaEventInvokeConfigDestinationConfigOnFailureOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventinvokeconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaeventinvokeconfig"
 
 dataawscclambdaeventinvokeconfig.NewDataAwsccLambdaEventInvokeConfigDestinationConfigOnFailureOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLambdaEventInvokeConfigDestinationConfigOnFailureOutputReference
 ```
@@ -1064,7 +1064,7 @@ func InternalValue() DataAwsccLambdaEventInvokeConfigDestinationConfigOnFailure
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaEventInvokeConfig.DataAwsccLambdaEventInvokeConfigDestinationConfigOnSuccessOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventinvokeconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaeventinvokeconfig"
 
 dataawscclambdaeventinvokeconfig.NewDataAwsccLambdaEventInvokeConfigDestinationConfigOnSuccessOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLambdaEventInvokeConfigDestinationConfigOnSuccessOutputReference
 ```
@@ -1324,7 +1324,7 @@ func InternalValue() DataAwsccLambdaEventInvokeConfigDestinationConfigOnSuccess
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaEventInvokeConfig.DataAwsccLambdaEventInvokeConfigDestinationConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventinvokeconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaeventinvokeconfig"
 
 dataawscclambdaeventinvokeconfig.NewDataAwsccLambdaEventInvokeConfigDestinationConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLambdaEventInvokeConfigDestinationConfigOutputReference
 ```

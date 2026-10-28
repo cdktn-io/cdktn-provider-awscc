@@ -4,12 +4,12 @@
 
 ### DataAwsccKendraFeaturedResultsSet <a name="DataAwsccKendraFeaturedResultsSet" id="@cdktn/provider-awscc.dataAwsccKendraFeaturedResultsSet.DataAwsccKendraFeaturedResultsSet"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/kendra_featured_results_set awscc_kendra_featured_results_set}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/kendra_featured_results_set awscc_kendra_featured_results_set}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraFeaturedResultsSet.DataAwsccKendraFeaturedResultsSet.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendrafeaturedresultsset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendrafeaturedresultsset"
 
 dataawscckendrafeaturedresultsset.NewDataAwsccKendraFeaturedResultsSet(scope Construct, id *string, config DataAwsccKendraFeaturedResultsSetConfig) DataAwsccKendraFeaturedResultsSet
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccKendraFeaturedResultsSet.DataAwsccKendraFeaturedResultsSet.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendrafeaturedresultsset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendrafeaturedresultsset"
 
 dataawscckendrafeaturedresultsset.DataAwsccKendraFeaturedResultsSet_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccKendraFeaturedResultsSet.DataAwsccKendraFeaturedResultsSet.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendrafeaturedresultsset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendrafeaturedresultsset"
 
 dataawscckendrafeaturedresultsset.DataAwsccKendraFeaturedResultsSet_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscckendrafeaturedresultsset.DataAwsccKendraFeaturedResultsSet_IsTerraformE
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccKendraFeaturedResultsSet.DataAwsccKendraFeaturedResultsSet.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendrafeaturedresultsset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendrafeaturedresultsset"
 
 dataawscckendrafeaturedresultsset.DataAwsccKendraFeaturedResultsSet_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscckendrafeaturedresultsset.DataAwsccKendraFeaturedResultsSet_IsTerraformD
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccKendraFeaturedResultsSet.DataAwsccKendraFeaturedResultsSet.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendrafeaturedresultsset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendrafeaturedresultsset"
 
 dataawscckendrafeaturedresultsset.DataAwsccKendraFeaturedResultsSet_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccKendraFeaturedRes
 
 The id of the existing DataAwsccKendraFeaturedResultsSet that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/kendra_featured_results_set#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/kendra_featured_results_set#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -686,7 +686,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraFeaturedResultsSet.DataAwsccKendraFeaturedResultsSetConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendrafeaturedresultsset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendrafeaturedresultsset"
 
 &dataawscckendrafeaturedresultsset.DataAwsccKendraFeaturedResultsSetConfig {
 	Connection: interface{},
@@ -795,7 +795,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/kendra_featured_results_set#id DataAwsccKendraFeaturedResultsSet#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/kendra_featured_results_set#id DataAwsccKendraFeaturedResultsSet#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -807,7 +807,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraFeaturedResultsSet.DataAwsccKendraFeaturedResultsSetFeaturedDocuments.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendrafeaturedresultsset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendrafeaturedresultsset"
 
 &dataawscckendrafeaturedresultsset.DataAwsccKendraFeaturedResultsSetFeaturedDocuments {
 
@@ -820,7 +820,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendrafeature
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraFeaturedResultsSet.DataAwsccKendraFeaturedResultsSetTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendrafeaturedresultsset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendrafeaturedresultsset"
 
 &dataawscckendrafeaturedresultsset.DataAwsccKendraFeaturedResultsSetTags {
 
@@ -835,7 +835,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendrafeature
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraFeaturedResultsSet.DataAwsccKendraFeaturedResultsSetFeaturedDocumentsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendrafeaturedresultsset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendrafeaturedresultsset"
 
 dataawscckendrafeaturedresultsset.NewDataAwsccKendraFeaturedResultsSetFeaturedDocumentsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccKendraFeaturedResultsSetFeaturedDocumentsList
 ```
@@ -984,7 +984,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraFeaturedResultsSet.DataAwsccKendraFeaturedResultsSetFeaturedDocumentsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendrafeaturedresultsset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendrafeaturedresultsset"
 
 dataawscckendrafeaturedresultsset.NewDataAwsccKendraFeaturedResultsSetFeaturedDocumentsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccKendraFeaturedResultsSetFeaturedDocumentsOutputReference
 ```
@@ -1262,7 +1262,7 @@ func InternalValue() DataAwsccKendraFeaturedResultsSetFeaturedDocuments
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraFeaturedResultsSet.DataAwsccKendraFeaturedResultsSetTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendrafeaturedresultsset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendrafeaturedresultsset"
 
 dataawscckendrafeaturedresultsset.NewDataAwsccKendraFeaturedResultsSetTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccKendraFeaturedResultsSetTagsList
 ```
@@ -1411,7 +1411,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraFeaturedResultsSet.DataAwsccKendraFeaturedResultsSetTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendrafeaturedresultsset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendrafeaturedresultsset"
 
 dataawscckendrafeaturedresultsset.NewDataAwsccKendraFeaturedResultsSetTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccKendraFeaturedResultsSetTagsOutputReference
 ```

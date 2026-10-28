@@ -4,12 +4,12 @@
 
 ### DataAwsccLocationApiKeys <a name="DataAwsccLocationApiKeys" id="@cdktn/provider-awscc.dataAwsccLocationApiKeys.DataAwsccLocationApiKeys"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/location_api_keys awscc_location_api_keys}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/location_api_keys awscc_location_api_keys}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLocationApiKeys.DataAwsccLocationApiKeys.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationapikeys"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationapikeys"
 
 dataawscclocationapikeys.NewDataAwsccLocationApiKeys(scope Construct, id *string, config DataAwsccLocationApiKeysConfig) DataAwsccLocationApiKeys
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccLocationApiKeys.DataAwsccLocationApiKeys.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationapikeys"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationapikeys"
 
 dataawscclocationapikeys.DataAwsccLocationApiKeys_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccLocationApiKeys.DataAwsccLocationApiKeys.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationapikeys"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationapikeys"
 
 dataawscclocationapikeys.DataAwsccLocationApiKeys_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscclocationapikeys.DataAwsccLocationApiKeys_IsTerraformElement(x interface
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccLocationApiKeys.DataAwsccLocationApiKeys.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationapikeys"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationapikeys"
 
 dataawscclocationapikeys.DataAwsccLocationApiKeys_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscclocationapikeys.DataAwsccLocationApiKeys_IsTerraformDataSource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccLocationApiKeys.DataAwsccLocationApiKeys.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationapikeys"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationapikeys"
 
 dataawscclocationapikeys.DataAwsccLocationApiKeys_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLocationApiKeys t
 
 The id of the existing DataAwsccLocationApiKeys that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/location_api_keys#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/location_api_keys#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLocationApiKeys.DataAwsccLocationApiKeysConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationapikeys"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationapikeys"
 
 &dataawscclocationapikeys.DataAwsccLocationApiKeysConfig {
 	Connection: interface{},

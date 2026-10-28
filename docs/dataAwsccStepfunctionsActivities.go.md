@@ -4,12 +4,12 @@
 
 ### DataAwsccStepfunctionsActivities <a name="DataAwsccStepfunctionsActivities" id="@cdktn/provider-awscc.dataAwsccStepfunctionsActivities.DataAwsccStepfunctionsActivities"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/stepfunctions_activities awscc_stepfunctions_activities}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/stepfunctions_activities awscc_stepfunctions_activities}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccStepfunctionsActivities.DataAwsccStepfunctionsActivities.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstepfunctionsactivities"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstepfunctionsactivities"
 
 dataawsccstepfunctionsactivities.NewDataAwsccStepfunctionsActivities(scope Construct, id *string, config DataAwsccStepfunctionsActivitiesConfig) DataAwsccStepfunctionsActivities
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccStepfunctionsActivities.DataAwsccStepfunctionsActivities.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstepfunctionsactivities"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstepfunctionsactivities"
 
 dataawsccstepfunctionsactivities.DataAwsccStepfunctionsActivities_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccStepfunctionsActivities.DataAwsccStepfunctionsActivities.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstepfunctionsactivities"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstepfunctionsactivities"
 
 dataawsccstepfunctionsactivities.DataAwsccStepfunctionsActivities_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccstepfunctionsactivities.DataAwsccStepfunctionsActivities_IsTerraformEle
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccStepfunctionsActivities.DataAwsccStepfunctionsActivities.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstepfunctionsactivities"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstepfunctionsactivities"
 
 dataawsccstepfunctionsactivities.DataAwsccStepfunctionsActivities_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccstepfunctionsactivities.DataAwsccStepfunctionsActivities_IsTerraformDat
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccStepfunctionsActivities.DataAwsccStepfunctionsActivities.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstepfunctionsactivities"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstepfunctionsactivities"
 
 dataawsccstepfunctionsactivities.DataAwsccStepfunctionsActivities_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccStepfunctionsActi
 
 The id of the existing DataAwsccStepfunctionsActivities that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/stepfunctions_activities#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/stepfunctions_activities#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccStepfunctionsActivities.DataAwsccStepfunctionsActivitiesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstepfunctionsactivities"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstepfunctionsactivities"
 
 &dataawsccstepfunctionsactivities.DataAwsccStepfunctionsActivitiesConfig {
 	Connection: interface{},

@@ -4,12 +4,12 @@
 
 ### DataAwsccMedialiveCloudwatchAlarmTemplateGroups <a name="DataAwsccMedialiveCloudwatchAlarmTemplateGroups" id="@cdktn/provider-awscc.dataAwsccMedialiveCloudwatchAlarmTemplateGroups.DataAwsccMedialiveCloudwatchAlarmTemplateGroups"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/medialive_cloudwatch_alarm_template_groups awscc_medialive_cloudwatch_alarm_template_groups}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/medialive_cloudwatch_alarm_template_groups awscc_medialive_cloudwatch_alarm_template_groups}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMedialiveCloudwatchAlarmTemplateGroups.DataAwsccMedialiveCloudwatchAlarmTemplateGroups.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmedialivecloudwatchalarmtemplategroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmedialivecloudwatchalarmtemplategroups"
 
 dataawsccmedialivecloudwatchalarmtemplategroups.NewDataAwsccMedialiveCloudwatchAlarmTemplateGroups(scope Construct, id *string, config DataAwsccMedialiveCloudwatchAlarmTemplateGroupsConfig) DataAwsccMedialiveCloudwatchAlarmTemplateGroups
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccMedialiveCloudwatchAlarmTemplateGroups.DataAwsccMedialiveCloudwatchAlarmTemplateGroups.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmedialivecloudwatchalarmtemplategroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmedialivecloudwatchalarmtemplategroups"
 
 dataawsccmedialivecloudwatchalarmtemplategroups.DataAwsccMedialiveCloudwatchAlarmTemplateGroups_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccMedialiveCloudwatchAlarmTemplateGroups.DataAwsccMedialiveCloudwatchAlarmTemplateGroups.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmedialivecloudwatchalarmtemplategroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmedialivecloudwatchalarmtemplategroups"
 
 dataawsccmedialivecloudwatchalarmtemplategroups.DataAwsccMedialiveCloudwatchAlarmTemplateGroups_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccmedialivecloudwatchalarmtemplategroups.DataAwsccMedialiveCloudwatchAlar
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccMedialiveCloudwatchAlarmTemplateGroups.DataAwsccMedialiveCloudwatchAlarmTemplateGroups.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmedialivecloudwatchalarmtemplategroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmedialivecloudwatchalarmtemplategroups"
 
 dataawsccmedialivecloudwatchalarmtemplategroups.DataAwsccMedialiveCloudwatchAlarmTemplateGroups_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccmedialivecloudwatchalarmtemplategroups.DataAwsccMedialiveCloudwatchAlar
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccMedialiveCloudwatchAlarmTemplateGroups.DataAwsccMedialiveCloudwatchAlarmTemplateGroups.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmedialivecloudwatchalarmtemplategroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmedialivecloudwatchalarmtemplategroups"
 
 dataawsccmedialivecloudwatchalarmtemplategroups.DataAwsccMedialiveCloudwatchAlarmTemplateGroups_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccMedialiveCloudwat
 
 The id of the existing DataAwsccMedialiveCloudwatchAlarmTemplateGroups that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/medialive_cloudwatch_alarm_template_groups#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/medialive_cloudwatch_alarm_template_groups#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMedialiveCloudwatchAlarmTemplateGroups.DataAwsccMedialiveCloudwatchAlarmTemplateGroupsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmedialivecloudwatchalarmtemplategroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmedialivecloudwatchalarmtemplategroups"
 
 &dataawsccmedialivecloudwatchalarmtemplategroups.DataAwsccMedialiveCloudwatchAlarmTemplateGroupsConfig {
 	Connection: interface{},

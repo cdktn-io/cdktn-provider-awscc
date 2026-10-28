@@ -4,12 +4,12 @@
 
 ### DataAwsccGreengrassv2Deployment <a name="DataAwsccGreengrassv2Deployment" id="@cdktn/provider-awscc.dataAwsccGreengrassv2Deployment.DataAwsccGreengrassv2Deployment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/greengrassv2_deployment awscc_greengrassv2_deployment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/greengrassv2_deployment awscc_greengrassv2_deployment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGreengrassv2Deployment.DataAwsccGreengrassv2Deployment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2deployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2deployment"
 
 dataawsccgreengrassv2deployment.NewDataAwsccGreengrassv2Deployment(scope Construct, id *string, config DataAwsccGreengrassv2DeploymentConfig) DataAwsccGreengrassv2Deployment
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccGreengrassv2Deployment.DataAwsccGreengrassv2Deployment.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2deployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2deployment"
 
 dataawsccgreengrassv2deployment.DataAwsccGreengrassv2Deployment_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccGreengrassv2Deployment.DataAwsccGreengrassv2Deployment.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2deployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2deployment"
 
 dataawsccgreengrassv2deployment.DataAwsccGreengrassv2Deployment_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccgreengrassv2deployment.DataAwsccGreengrassv2Deployment_IsTerraformEleme
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccGreengrassv2Deployment.DataAwsccGreengrassv2Deployment.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2deployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2deployment"
 
 dataawsccgreengrassv2deployment.DataAwsccGreengrassv2Deployment_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccgreengrassv2deployment.DataAwsccGreengrassv2Deployment_IsTerraformDataS
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccGreengrassv2Deployment.DataAwsccGreengrassv2Deployment.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2deployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2deployment"
 
 dataawsccgreengrassv2deployment.DataAwsccGreengrassv2Deployment_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccGreengrassv2Deplo
 
 The id of the existing DataAwsccGreengrassv2Deployment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/greengrassv2_deployment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/greengrassv2_deployment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -675,7 +675,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGreengrassv2Deployment.DataAwsccGreengrassv2DeploymentComponents.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2deployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2deployment"
 
 &dataawsccgreengrassv2deployment.DataAwsccGreengrassv2DeploymentComponents {
 
@@ -688,7 +688,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2d
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGreengrassv2Deployment.DataAwsccGreengrassv2DeploymentComponentsConfigurationUpdate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2deployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2deployment"
 
 &dataawsccgreengrassv2deployment.DataAwsccGreengrassv2DeploymentComponentsConfigurationUpdate {
 
@@ -701,7 +701,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2d
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGreengrassv2Deployment.DataAwsccGreengrassv2DeploymentComponentsRunWith.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2deployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2deployment"
 
 &dataawsccgreengrassv2deployment.DataAwsccGreengrassv2DeploymentComponentsRunWith {
 
@@ -714,7 +714,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2d
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGreengrassv2Deployment.DataAwsccGreengrassv2DeploymentComponentsRunWithSystemResourceLimits.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2deployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2deployment"
 
 &dataawsccgreengrassv2deployment.DataAwsccGreengrassv2DeploymentComponentsRunWithSystemResourceLimits {
 
@@ -727,7 +727,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2d
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGreengrassv2Deployment.DataAwsccGreengrassv2DeploymentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2deployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2deployment"
 
 &dataawsccgreengrassv2deployment.DataAwsccGreengrassv2DeploymentConfig {
 	Connection: interface{},
@@ -836,7 +836,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/greengrassv2_deployment#id DataAwsccGreengrassv2Deployment#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/greengrassv2_deployment#id DataAwsccGreengrassv2Deployment#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -848,7 +848,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGreengrassv2Deployment.DataAwsccGreengrassv2DeploymentDeploymentPolicies.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2deployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2deployment"
 
 &dataawsccgreengrassv2deployment.DataAwsccGreengrassv2DeploymentDeploymentPolicies {
 
@@ -861,7 +861,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2d
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGreengrassv2Deployment.DataAwsccGreengrassv2DeploymentDeploymentPoliciesComponentUpdatePolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2deployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2deployment"
 
 &dataawsccgreengrassv2deployment.DataAwsccGreengrassv2DeploymentDeploymentPoliciesComponentUpdatePolicy {
 
@@ -874,7 +874,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2d
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGreengrassv2Deployment.DataAwsccGreengrassv2DeploymentDeploymentPoliciesConfigurationValidationPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2deployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2deployment"
 
 &dataawsccgreengrassv2deployment.DataAwsccGreengrassv2DeploymentDeploymentPoliciesConfigurationValidationPolicy {
 
@@ -887,7 +887,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2d
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGreengrassv2Deployment.DataAwsccGreengrassv2DeploymentIotJobConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2deployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2deployment"
 
 &dataawsccgreengrassv2deployment.DataAwsccGreengrassv2DeploymentIotJobConfiguration {
 
@@ -900,7 +900,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2d
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGreengrassv2Deployment.DataAwsccGreengrassv2DeploymentIotJobConfigurationAbortConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2deployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2deployment"
 
 &dataawsccgreengrassv2deployment.DataAwsccGreengrassv2DeploymentIotJobConfigurationAbortConfig {
 
@@ -913,7 +913,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2d
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGreengrassv2Deployment.DataAwsccGreengrassv2DeploymentIotJobConfigurationAbortConfigCriteriaListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2deployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2deployment"
 
 &dataawsccgreengrassv2deployment.DataAwsccGreengrassv2DeploymentIotJobConfigurationAbortConfigCriteriaListStruct {
 
@@ -926,7 +926,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2d
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGreengrassv2Deployment.DataAwsccGreengrassv2DeploymentIotJobConfigurationJobExecutionsRolloutConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2deployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2deployment"
 
 &dataawsccgreengrassv2deployment.DataAwsccGreengrassv2DeploymentIotJobConfigurationJobExecutionsRolloutConfig {
 
@@ -939,7 +939,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2d
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGreengrassv2Deployment.DataAwsccGreengrassv2DeploymentIotJobConfigurationJobExecutionsRolloutConfigExponentialRate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2deployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2deployment"
 
 &dataawsccgreengrassv2deployment.DataAwsccGreengrassv2DeploymentIotJobConfigurationJobExecutionsRolloutConfigExponentialRate {
 
@@ -952,7 +952,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2d
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGreengrassv2Deployment.DataAwsccGreengrassv2DeploymentIotJobConfigurationJobExecutionsRolloutConfigExponentialRateRateIncreaseCriteria.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2deployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2deployment"
 
 &dataawsccgreengrassv2deployment.DataAwsccGreengrassv2DeploymentIotJobConfigurationJobExecutionsRolloutConfigExponentialRateRateIncreaseCriteria {
 
@@ -965,7 +965,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2d
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGreengrassv2Deployment.DataAwsccGreengrassv2DeploymentIotJobConfigurationTimeoutConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2deployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2deployment"
 
 &dataawsccgreengrassv2deployment.DataAwsccGreengrassv2DeploymentIotJobConfigurationTimeoutConfig {
 
@@ -980,7 +980,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2d
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGreengrassv2Deployment.DataAwsccGreengrassv2DeploymentComponentsConfigurationUpdateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2deployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2deployment"
 
 dataawsccgreengrassv2deployment.NewDataAwsccGreengrassv2DeploymentComponentsConfigurationUpdateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGreengrassv2DeploymentComponentsConfigurationUpdateOutputReference
 ```
@@ -1251,7 +1251,7 @@ func InternalValue() DataAwsccGreengrassv2DeploymentComponentsConfigurationUpdat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGreengrassv2Deployment.DataAwsccGreengrassv2DeploymentComponentsMap.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2deployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2deployment"
 
 dataawsccgreengrassv2deployment.NewDataAwsccGreengrassv2DeploymentComponentsMap(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGreengrassv2DeploymentComponentsMap
 ```
@@ -1387,7 +1387,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGreengrassv2Deployment.DataAwsccGreengrassv2DeploymentComponentsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2deployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2deployment"
 
 dataawsccgreengrassv2deployment.NewDataAwsccGreengrassv2DeploymentComponentsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectKey *string) DataAwsccGreengrassv2DeploymentComponentsOutputReference
 ```
@@ -1678,7 +1678,7 @@ func InternalValue() DataAwsccGreengrassv2DeploymentComponents
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGreengrassv2Deployment.DataAwsccGreengrassv2DeploymentComponentsRunWithOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2deployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2deployment"
 
 dataawsccgreengrassv2deployment.NewDataAwsccGreengrassv2DeploymentComponentsRunWithOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGreengrassv2DeploymentComponentsRunWithOutputReference
 ```
@@ -1960,7 +1960,7 @@ func InternalValue() DataAwsccGreengrassv2DeploymentComponentsRunWith
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGreengrassv2Deployment.DataAwsccGreengrassv2DeploymentComponentsRunWithSystemResourceLimitsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2deployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2deployment"
 
 dataawsccgreengrassv2deployment.NewDataAwsccGreengrassv2DeploymentComponentsRunWithSystemResourceLimitsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGreengrassv2DeploymentComponentsRunWithSystemResourceLimitsOutputReference
 ```
@@ -2231,7 +2231,7 @@ func InternalValue() DataAwsccGreengrassv2DeploymentComponentsRunWithSystemResou
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGreengrassv2Deployment.DataAwsccGreengrassv2DeploymentDeploymentPoliciesComponentUpdatePolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2deployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2deployment"
 
 dataawsccgreengrassv2deployment.NewDataAwsccGreengrassv2DeploymentDeploymentPoliciesComponentUpdatePolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGreengrassv2DeploymentDeploymentPoliciesComponentUpdatePolicyOutputReference
 ```
@@ -2502,7 +2502,7 @@ func InternalValue() DataAwsccGreengrassv2DeploymentDeploymentPoliciesComponentU
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGreengrassv2Deployment.DataAwsccGreengrassv2DeploymentDeploymentPoliciesConfigurationValidationPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2deployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2deployment"
 
 dataawsccgreengrassv2deployment.NewDataAwsccGreengrassv2DeploymentDeploymentPoliciesConfigurationValidationPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGreengrassv2DeploymentDeploymentPoliciesConfigurationValidationPolicyOutputReference
 ```
@@ -2762,7 +2762,7 @@ func InternalValue() DataAwsccGreengrassv2DeploymentDeploymentPoliciesConfigurat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGreengrassv2Deployment.DataAwsccGreengrassv2DeploymentDeploymentPoliciesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2deployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2deployment"
 
 dataawsccgreengrassv2deployment.NewDataAwsccGreengrassv2DeploymentDeploymentPoliciesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGreengrassv2DeploymentDeploymentPoliciesOutputReference
 ```
@@ -3044,7 +3044,7 @@ func InternalValue() DataAwsccGreengrassv2DeploymentDeploymentPolicies
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGreengrassv2Deployment.DataAwsccGreengrassv2DeploymentIotJobConfigurationAbortConfigCriteriaListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2deployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2deployment"
 
 dataawsccgreengrassv2deployment.NewDataAwsccGreengrassv2DeploymentIotJobConfigurationAbortConfigCriteriaListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccGreengrassv2DeploymentIotJobConfigurationAbortConfigCriteriaListStructList
 ```
@@ -3193,7 +3193,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGreengrassv2Deployment.DataAwsccGreengrassv2DeploymentIotJobConfigurationAbortConfigCriteriaListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2deployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2deployment"
 
 dataawsccgreengrassv2deployment.NewDataAwsccGreengrassv2DeploymentIotJobConfigurationAbortConfigCriteriaListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccGreengrassv2DeploymentIotJobConfigurationAbortConfigCriteriaListStructOutputReference
 ```
@@ -3504,7 +3504,7 @@ func InternalValue() DataAwsccGreengrassv2DeploymentIotJobConfigurationAbortConf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGreengrassv2Deployment.DataAwsccGreengrassv2DeploymentIotJobConfigurationAbortConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2deployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2deployment"
 
 dataawsccgreengrassv2deployment.NewDataAwsccGreengrassv2DeploymentIotJobConfigurationAbortConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGreengrassv2DeploymentIotJobConfigurationAbortConfigOutputReference
 ```
@@ -3764,7 +3764,7 @@ func InternalValue() DataAwsccGreengrassv2DeploymentIotJobConfigurationAbortConf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGreengrassv2Deployment.DataAwsccGreengrassv2DeploymentIotJobConfigurationJobExecutionsRolloutConfigExponentialRateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2deployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2deployment"
 
 dataawsccgreengrassv2deployment.NewDataAwsccGreengrassv2DeploymentIotJobConfigurationJobExecutionsRolloutConfigExponentialRateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGreengrassv2DeploymentIotJobConfigurationJobExecutionsRolloutConfigExponentialRateOutputReference
 ```
@@ -4046,7 +4046,7 @@ func InternalValue() DataAwsccGreengrassv2DeploymentIotJobConfigurationJobExecut
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGreengrassv2Deployment.DataAwsccGreengrassv2DeploymentIotJobConfigurationJobExecutionsRolloutConfigExponentialRateRateIncreaseCriteriaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2deployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2deployment"
 
 dataawsccgreengrassv2deployment.NewDataAwsccGreengrassv2DeploymentIotJobConfigurationJobExecutionsRolloutConfigExponentialRateRateIncreaseCriteriaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGreengrassv2DeploymentIotJobConfigurationJobExecutionsRolloutConfigExponentialRateRateIncreaseCriteriaOutputReference
 ```
@@ -4317,7 +4317,7 @@ func InternalValue() DataAwsccGreengrassv2DeploymentIotJobConfigurationJobExecut
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGreengrassv2Deployment.DataAwsccGreengrassv2DeploymentIotJobConfigurationJobExecutionsRolloutConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2deployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2deployment"
 
 dataawsccgreengrassv2deployment.NewDataAwsccGreengrassv2DeploymentIotJobConfigurationJobExecutionsRolloutConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGreengrassv2DeploymentIotJobConfigurationJobExecutionsRolloutConfigOutputReference
 ```
@@ -4588,7 +4588,7 @@ func InternalValue() DataAwsccGreengrassv2DeploymentIotJobConfigurationJobExecut
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGreengrassv2Deployment.DataAwsccGreengrassv2DeploymentIotJobConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2deployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2deployment"
 
 dataawsccgreengrassv2deployment.NewDataAwsccGreengrassv2DeploymentIotJobConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGreengrassv2DeploymentIotJobConfigurationOutputReference
 ```
@@ -4870,7 +4870,7 @@ func InternalValue() DataAwsccGreengrassv2DeploymentIotJobConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGreengrassv2Deployment.DataAwsccGreengrassv2DeploymentIotJobConfigurationTimeoutConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2deployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2deployment"
 
 dataawsccgreengrassv2deployment.NewDataAwsccGreengrassv2DeploymentIotJobConfigurationTimeoutConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGreengrassv2DeploymentIotJobConfigurationTimeoutConfigOutputReference
 ```

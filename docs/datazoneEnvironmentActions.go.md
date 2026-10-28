@@ -4,12 +4,12 @@
 
 ### DatazoneEnvironmentActions <a name="DatazoneEnvironmentActions" id="@cdktn/provider-awscc.datazoneEnvironmentActions.DatazoneEnvironmentActions"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datazone_environment_actions awscc_datazone_environment_actions}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datazone_environment_actions awscc_datazone_environment_actions}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datazoneEnvironmentActions.DatazoneEnvironmentActions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datazoneenvironmentactions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datazoneenvironmentactions"
 
 datazoneenvironmentactions.NewDatazoneEnvironmentActions(scope Construct, id *string, config DatazoneEnvironmentActionsConfig) DatazoneEnvironmentActions
 ```
@@ -448,7 +448,7 @@ func ResetParameters()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.datazoneEnvironmentActions.DatazoneEnvironmentActions.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datazoneenvironmentactions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datazoneenvironmentactions"
 
 datazoneenvironmentactions.DatazoneEnvironmentActions_IsConstruct(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.datazoneEnvironmentActions.DatazoneEnvironmentActions.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datazoneenvironmentactions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datazoneenvironmentactions"
 
 datazoneenvironmentactions.DatazoneEnvironmentActions_IsTerraformElement(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ datazoneenvironmentactions.DatazoneEnvironmentActions_IsTerraformElement(x inter
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.datazoneEnvironmentActions.DatazoneEnvironmentActions.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datazoneenvironmentactions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datazoneenvironmentactions"
 
 datazoneenvironmentactions.DatazoneEnvironmentActions_IsTerraformResource(x interface{}) *bool
 ```
@@ -508,7 +508,7 @@ datazoneenvironmentactions.DatazoneEnvironmentActions_IsTerraformResource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.datazoneEnvironmentActions.DatazoneEnvironmentActions.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datazoneenvironmentactions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datazoneenvironmentactions"
 
 datazoneenvironmentactions.DatazoneEnvironmentActions_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -537,7 +537,7 @@ The construct id used in the generated config for the DatazoneEnvironmentActions
 
 The id of the existing DatazoneEnvironmentActions that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datazone_environment_actions#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datazone_environment_actions#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -913,7 +913,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.datazoneEnvironmentActions.DatazoneEnvironmentActionsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datazoneenvironmentactions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datazoneenvironmentactions"
 
 &datazoneenvironmentactions.DatazoneEnvironmentActionsConfig {
 	Connection: interface{},
@@ -928,7 +928,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datazoneenvironmentact
 	DomainIdentifier: *string,
 	EnvironmentIdentifier: *string,
 	Identifier: *string,
-	Parameters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.datazoneEnvironmentActions.DatazoneEnvironmentActionsParameters,
+	Parameters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.datazoneEnvironmentActions.DatazoneEnvironmentActionsParameters,
 }
 ```
 
@@ -1032,7 +1032,7 @@ Name *string
 
 The name of the environment action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datazone_environment_actions#name DatazoneEnvironmentActions#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datazone_environment_actions#name DatazoneEnvironmentActions#name}
 
 ---
 
@@ -1046,7 +1046,7 @@ Description *string
 
 The description of the Amazon DataZone environment action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datazone_environment_actions#description DatazoneEnvironmentActions#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datazone_environment_actions#description DatazoneEnvironmentActions#description}
 
 ---
 
@@ -1060,7 +1060,7 @@ DomainIdentifier *string
 
 The identifier of the Amazon DataZone domain in which the environment would be created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datazone_environment_actions#domain_identifier DatazoneEnvironmentActions#domain_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datazone_environment_actions#domain_identifier DatazoneEnvironmentActions#domain_identifier}
 
 ---
 
@@ -1074,7 +1074,7 @@ EnvironmentIdentifier *string
 
 The identifier of the Amazon DataZone environment in which the action is taking place.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datazone_environment_actions#environment_identifier DatazoneEnvironmentActions#environment_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datazone_environment_actions#environment_identifier DatazoneEnvironmentActions#environment_identifier}
 
 ---
 
@@ -1088,7 +1088,7 @@ Identifier *string
 
 The ID of the Amazon DataZone environment action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datazone_environment_actions#identifier DatazoneEnvironmentActions#identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datazone_environment_actions#identifier DatazoneEnvironmentActions#identifier}
 
 ---
 
@@ -1102,7 +1102,7 @@ Parameters DatazoneEnvironmentActionsParameters
 
 The parameters of the environment action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datazone_environment_actions#parameters DatazoneEnvironmentActions#parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datazone_environment_actions#parameters DatazoneEnvironmentActions#parameters}
 
 ---
 
@@ -1111,7 +1111,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.datazoneEnvironmentActions.DatazoneEnvironmentActionsParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datazoneenvironmentactions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datazoneenvironmentactions"
 
 &datazoneenvironmentactions.DatazoneEnvironmentActionsParameters {
 	Uri: *string,
@@ -1136,7 +1136,7 @@ Uri *string
 
 The URI of the console link specified as part of the environment action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datazone_environment_actions#uri DatazoneEnvironmentActions#uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datazone_environment_actions#uri DatazoneEnvironmentActions#uri}
 
 ---
 
@@ -1147,7 +1147,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datazoneEnvironmentActions.DatazoneEnvironmentActionsParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datazoneenvironmentactions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datazoneenvironmentactions"
 
 datazoneenvironmentactions.NewDatazoneEnvironmentActionsParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DatazoneEnvironmentActionsParametersOutputReference
 ```

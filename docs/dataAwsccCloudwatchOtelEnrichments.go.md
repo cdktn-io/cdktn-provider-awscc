@@ -4,12 +4,12 @@
 
 ### DataAwsccCloudwatchOtelEnrichments <a name="DataAwsccCloudwatchOtelEnrichments" id="@cdktn/provider-awscc.dataAwsccCloudwatchOtelEnrichments.DataAwsccCloudwatchOtelEnrichments"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudwatch_otel_enrichments awscc_cloudwatch_otel_enrichments}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudwatch_otel_enrichments awscc_cloudwatch_otel_enrichments}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudwatchOtelEnrichments.DataAwsccCloudwatchOtelEnrichments.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudwatchotelenrichments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudwatchotelenrichments"
 
 dataawscccloudwatchotelenrichments.NewDataAwsccCloudwatchOtelEnrichments(scope Construct, id *string, config DataAwsccCloudwatchOtelEnrichmentsConfig) DataAwsccCloudwatchOtelEnrichments
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCloudwatchOtelEnrichments.DataAwsccCloudwatchOtelEnrichments.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudwatchotelenrichments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudwatchotelenrichments"
 
 dataawscccloudwatchotelenrichments.DataAwsccCloudwatchOtelEnrichments_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCloudwatchOtelEnrichments.DataAwsccCloudwatchOtelEnrichments.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudwatchotelenrichments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudwatchotelenrichments"
 
 dataawscccloudwatchotelenrichments.DataAwsccCloudwatchOtelEnrichments_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccloudwatchotelenrichments.DataAwsccCloudwatchOtelEnrichments_IsTerrafor
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCloudwatchOtelEnrichments.DataAwsccCloudwatchOtelEnrichments.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudwatchotelenrichments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudwatchotelenrichments"
 
 dataawscccloudwatchotelenrichments.DataAwsccCloudwatchOtelEnrichments_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccloudwatchotelenrichments.DataAwsccCloudwatchOtelEnrichments_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCloudwatchOtelEnrichments.DataAwsccCloudwatchOtelEnrichments.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudwatchotelenrichments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudwatchotelenrichments"
 
 dataawscccloudwatchotelenrichments.DataAwsccCloudwatchOtelEnrichments_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCloudwatchOtelEnr
 
 The id of the existing DataAwsccCloudwatchOtelEnrichments that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudwatch_otel_enrichments#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudwatch_otel_enrichments#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloudwatchOtelEnrichments.DataAwsccCloudwatchOtelEnrichmentsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudwatchotelenrichments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudwatchotelenrichments"
 
 &dataawscccloudwatchotelenrichments.DataAwsccCloudwatchOtelEnrichmentsConfig {
 	Connection: interface{},

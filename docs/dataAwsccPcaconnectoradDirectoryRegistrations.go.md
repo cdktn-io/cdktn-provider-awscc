@@ -4,12 +4,12 @@
 
 ### DataAwsccPcaconnectoradDirectoryRegistrations <a name="DataAwsccPcaconnectoradDirectoryRegistrations" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradDirectoryRegistrations.DataAwsccPcaconnectoradDirectoryRegistrations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/pcaconnectorad_directory_registrations awscc_pcaconnectorad_directory_registrations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/pcaconnectorad_directory_registrations awscc_pcaconnectorad_directory_registrations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradDirectoryRegistrations.DataAwsccPcaconnectoradDirectoryRegistrations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoraddirectoryregistrations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoraddirectoryregistrations"
 
 dataawsccpcaconnectoraddirectoryregistrations.NewDataAwsccPcaconnectoradDirectoryRegistrations(scope Construct, id *string, config DataAwsccPcaconnectoradDirectoryRegistrationsConfig) DataAwsccPcaconnectoradDirectoryRegistrations
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradDirectoryRegistrations.DataAwsccPcaconnectoradDirectoryRegistrations.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoraddirectoryregistrations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoraddirectoryregistrations"
 
 dataawsccpcaconnectoraddirectoryregistrations.DataAwsccPcaconnectoradDirectoryRegistrations_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradDirectoryRegistrations.DataAwsccPcaconnectoradDirectoryRegistrations.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoraddirectoryregistrations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoraddirectoryregistrations"
 
 dataawsccpcaconnectoraddirectoryregistrations.DataAwsccPcaconnectoradDirectoryRegistrations_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccpcaconnectoraddirectoryregistrations.DataAwsccPcaconnectoradDirectoryRe
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradDirectoryRegistrations.DataAwsccPcaconnectoradDirectoryRegistrations.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoraddirectoryregistrations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoraddirectoryregistrations"
 
 dataawsccpcaconnectoraddirectoryregistrations.DataAwsccPcaconnectoradDirectoryRegistrations_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccpcaconnectoraddirectoryregistrations.DataAwsccPcaconnectoradDirectoryRe
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradDirectoryRegistrations.DataAwsccPcaconnectoradDirectoryRegistrations.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoraddirectoryregistrations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoraddirectoryregistrations"
 
 dataawsccpcaconnectoraddirectoryregistrations.DataAwsccPcaconnectoradDirectoryRegistrations_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccPcaconnectoradDir
 
 The id of the existing DataAwsccPcaconnectoradDirectoryRegistrations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/pcaconnectorad_directory_registrations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/pcaconnectorad_directory_registrations#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradDirectoryRegistrations.DataAwsccPcaconnectoradDirectoryRegistrationsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoraddirectoryregistrations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoraddirectoryregistrations"
 
 &dataawsccpcaconnectoraddirectoryregistrations.DataAwsccPcaconnectoradDirectoryRegistrationsConfig {
 	Connection: interface{},

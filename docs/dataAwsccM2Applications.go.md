@@ -4,12 +4,12 @@
 
 ### DataAwsccM2Applications <a name="DataAwsccM2Applications" id="@cdktn/provider-awscc.dataAwsccM2Applications.DataAwsccM2Applications"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/m2_applications awscc_m2_applications}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/m2_applications awscc_m2_applications}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccM2Applications.DataAwsccM2Applications.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccm2applications"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccm2applications"
 
 dataawsccm2applications.NewDataAwsccM2Applications(scope Construct, id *string, config DataAwsccM2ApplicationsConfig) DataAwsccM2Applications
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccM2Applications.DataAwsccM2Applications.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccm2applications"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccm2applications"
 
 dataawsccm2applications.DataAwsccM2Applications_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccM2Applications.DataAwsccM2Applications.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccm2applications"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccm2applications"
 
 dataawsccm2applications.DataAwsccM2Applications_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccm2applications.DataAwsccM2Applications_IsTerraformElement(x interface{}
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccM2Applications.DataAwsccM2Applications.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccm2applications"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccm2applications"
 
 dataawsccm2applications.DataAwsccM2Applications_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccm2applications.DataAwsccM2Applications_IsTerraformDataSource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccM2Applications.DataAwsccM2Applications.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccm2applications"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccm2applications"
 
 dataawsccm2applications.DataAwsccM2Applications_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccM2Applications to
 
 The id of the existing DataAwsccM2Applications that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/m2_applications#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/m2_applications#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccM2Applications.DataAwsccM2ApplicationsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccm2applications"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccm2applications"
 
 &dataawsccm2applications.DataAwsccM2ApplicationsConfig {
 	Connection: interface{},

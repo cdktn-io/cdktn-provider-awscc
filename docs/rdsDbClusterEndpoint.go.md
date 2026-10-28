@@ -4,12 +4,12 @@
 
 ### RdsDbClusterEndpointA <a name="RdsDbClusterEndpointA" id="@cdktn/provider-awscc.rdsDbClusterEndpoint.RdsDbClusterEndpointA"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_cluster_endpoint awscc_rds_db_cluster_endpoint}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_cluster_endpoint awscc_rds_db_cluster_endpoint}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.rdsDbClusterEndpoint.RdsDbClusterEndpointA.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsdbclusterendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsdbclusterendpoint"
 
 rdsdbclusterendpoint.NewRdsDbClusterEndpointA(scope Construct, id *string, config RdsDbClusterEndpointAConfig) RdsDbClusterEndpointA
 ```
@@ -434,7 +434,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.rdsDbClusterEndpoint.RdsDbClusterEndpointA.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsdbclusterendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsdbclusterendpoint"
 
 rdsdbclusterendpoint.RdsDbClusterEndpointA_IsConstruct(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.rdsDbClusterEndpoint.RdsDbClusterEndpointA.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsdbclusterendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsdbclusterendpoint"
 
 rdsdbclusterendpoint.RdsDbClusterEndpointA_IsTerraformElement(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ rdsdbclusterendpoint.RdsDbClusterEndpointA_IsTerraformElement(x interface{}) *bo
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.rdsDbClusterEndpoint.RdsDbClusterEndpointA.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsdbclusterendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsdbclusterendpoint"
 
 rdsdbclusterendpoint.RdsDbClusterEndpointA_IsTerraformResource(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ rdsdbclusterendpoint.RdsDbClusterEndpointA_IsTerraformResource(x interface{}) *b
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.rdsDbClusterEndpoint.RdsDbClusterEndpointA.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsdbclusterendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsdbclusterendpoint"
 
 rdsdbclusterendpoint.RdsDbClusterEndpointA_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -523,7 +523,7 @@ The construct id used in the generated config for the RdsDbClusterEndpointA to i
 
 The id of the existing RdsDbClusterEndpointA that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_cluster_endpoint#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_cluster_endpoint#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -921,7 +921,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.rdsDbClusterEndpoint.RdsDbClusterEndpointAConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsdbclusterendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsdbclusterendpoint"
 
 &rdsdbclusterendpoint.RdsDbClusterEndpointAConfig {
 	Connection: interface{},
@@ -1040,7 +1040,7 @@ CustomEndpointType *string
 
 The type of the custom endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_cluster_endpoint#custom_endpoint_type RdsDbClusterEndpointA#custom_endpoint_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_cluster_endpoint#custom_endpoint_type RdsDbClusterEndpointA#custom_endpoint_type}
 
 ---
 
@@ -1054,7 +1054,7 @@ DbClusterEndpointIdentifier *string
 
 The identifier to use for the new endpoint. This parameter is stored as a lowercase string.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_cluster_endpoint#db_cluster_endpoint_identifier RdsDbClusterEndpointA#db_cluster_endpoint_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_cluster_endpoint#db_cluster_endpoint_identifier RdsDbClusterEndpointA#db_cluster_endpoint_identifier}
 
 ---
 
@@ -1070,7 +1070,7 @@ The DB cluster identifier of the DB cluster associated with the endpoint.
 
 This parameter is stored as a lowercase string.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_cluster_endpoint#db_cluster_identifier RdsDbClusterEndpointA#db_cluster_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_cluster_endpoint#db_cluster_identifier RdsDbClusterEndpointA#db_cluster_identifier}
 
 ---
 
@@ -1086,7 +1086,7 @@ List of DB instance identifiers that aren't part of the custom endpoint group.
 
 All other eligible instances are reachable through the custom endpoint. Only relevant if the list of static members is empty. Once either member list is set, it can be changed or replaced by the other list, but both lists cannot be removed in place; removing them requires replacing the endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_cluster_endpoint#excluded_members RdsDbClusterEndpointA#excluded_members}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_cluster_endpoint#excluded_members RdsDbClusterEndpointA#excluded_members}
 
 ---
 
@@ -1102,7 +1102,7 @@ List of DB instance identifiers that are part of the custom endpoint group.
 
 Once either member list is set, it can be changed or replaced by the other list, but both lists cannot be removed in place; removing them requires replacing the endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_cluster_endpoint#static_members RdsDbClusterEndpointA#static_members}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_cluster_endpoint#static_members RdsDbClusterEndpointA#static_members}
 
 ---
 
@@ -1116,7 +1116,7 @@ Tags interface{}
 
 The tags to be assigned to the DB cluster endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_cluster_endpoint#tags RdsDbClusterEndpointA#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_cluster_endpoint#tags RdsDbClusterEndpointA#tags}
 
 ---
 
@@ -1125,7 +1125,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.rdsDbClusterEndpoint.RdsDbClusterEndpointTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsdbclusterendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsdbclusterendpoint"
 
 &rdsdbclusterendpoint.RdsDbClusterEndpointTags {
 	Key: *string,
@@ -1152,7 +1152,7 @@ Key *string
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_cluster_endpoint#key RdsDbClusterEndpointA#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_cluster_endpoint#key RdsDbClusterEndpointA#key}
 
 ---
 
@@ -1166,7 +1166,7 @@ Value *string
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_cluster_endpoint#value RdsDbClusterEndpointA#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_cluster_endpoint#value RdsDbClusterEndpointA#value}
 
 ---
 
@@ -1177,7 +1177,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.rdsDbClusterEndpoint.RdsDbClusterEndpointTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsdbclusterendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsdbclusterendpoint"
 
 rdsdbclusterendpoint.NewRdsDbClusterEndpointTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) RdsDbClusterEndpointTagsList
 ```
@@ -1337,7 +1337,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.rdsDbClusterEndpoint.RdsDbClusterEndpointTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsdbclusterendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsdbclusterendpoint"
 
 rdsdbclusterendpoint.NewRdsDbClusterEndpointTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) RdsDbClusterEndpointTagsOutputReference
 ```

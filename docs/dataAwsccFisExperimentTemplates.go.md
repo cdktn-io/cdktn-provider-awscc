@@ -4,12 +4,12 @@
 
 ### DataAwsccFisExperimentTemplates <a name="DataAwsccFisExperimentTemplates" id="@cdktn/provider-awscc.dataAwsccFisExperimentTemplates.DataAwsccFisExperimentTemplates"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/fis_experiment_templates awscc_fis_experiment_templates}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/fis_experiment_templates awscc_fis_experiment_templates}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFisExperimentTemplates.DataAwsccFisExperimentTemplates.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfisexperimenttemplates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfisexperimenttemplates"
 
 dataawsccfisexperimenttemplates.NewDataAwsccFisExperimentTemplates(scope Construct, id *string, config DataAwsccFisExperimentTemplatesConfig) DataAwsccFisExperimentTemplates
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccFisExperimentTemplates.DataAwsccFisExperimentTemplates.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfisexperimenttemplates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfisexperimenttemplates"
 
 dataawsccfisexperimenttemplates.DataAwsccFisExperimentTemplates_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccFisExperimentTemplates.DataAwsccFisExperimentTemplates.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfisexperimenttemplates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfisexperimenttemplates"
 
 dataawsccfisexperimenttemplates.DataAwsccFisExperimentTemplates_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccfisexperimenttemplates.DataAwsccFisExperimentTemplates_IsTerraformEleme
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccFisExperimentTemplates.DataAwsccFisExperimentTemplates.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfisexperimenttemplates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfisexperimenttemplates"
 
 dataawsccfisexperimenttemplates.DataAwsccFisExperimentTemplates_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccfisexperimenttemplates.DataAwsccFisExperimentTemplates_IsTerraformDataS
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccFisExperimentTemplates.DataAwsccFisExperimentTemplates.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfisexperimenttemplates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfisexperimenttemplates"
 
 dataawsccfisexperimenttemplates.DataAwsccFisExperimentTemplates_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccFisExperimentTemp
 
 The id of the existing DataAwsccFisExperimentTemplates that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/fis_experiment_templates#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/fis_experiment_templates#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccFisExperimentTemplates.DataAwsccFisExperimentTemplatesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfisexperimenttemplates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfisexperimenttemplates"
 
 &dataawsccfisexperimenttemplates.DataAwsccFisExperimentTemplatesConfig {
 	Connection: interface{},

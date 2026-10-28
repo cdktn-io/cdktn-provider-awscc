@@ -4,12 +4,12 @@
 
 ### DataAwsccRoute53ResolverOutpostResolver <a name="DataAwsccRoute53ResolverOutpostResolver" id="@cdktn/provider-awscc.dataAwsccRoute53ResolverOutpostResolver.DataAwsccRoute53ResolverOutpostResolver"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53resolver_outpost_resolver awscc_route53resolver_outpost_resolver}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53resolver_outpost_resolver awscc_route53resolver_outpost_resolver}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53ResolverOutpostResolver.DataAwsccRoute53ResolverOutpostResolver.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53resolveroutpostresolver"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53resolveroutpostresolver"
 
 dataawsccroute53resolveroutpostresolver.NewDataAwsccRoute53ResolverOutpostResolver(scope Construct, id *string, config DataAwsccRoute53ResolverOutpostResolverConfig) DataAwsccRoute53ResolverOutpostResolver
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccRoute53ResolverOutpostResolver.DataAwsccRoute53ResolverOutpostResolver.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53resolveroutpostresolver"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53resolveroutpostresolver"
 
 dataawsccroute53resolveroutpostresolver.DataAwsccRoute53ResolverOutpostResolver_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccRoute53ResolverOutpostResolver.DataAwsccRoute53ResolverOutpostResolver.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53resolveroutpostresolver"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53resolveroutpostresolver"
 
 dataawsccroute53resolveroutpostresolver.DataAwsccRoute53ResolverOutpostResolver_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccroute53resolveroutpostresolver.DataAwsccRoute53ResolverOutpostResolver_
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccRoute53ResolverOutpostResolver.DataAwsccRoute53ResolverOutpostResolver.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53resolveroutpostresolver"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53resolveroutpostresolver"
 
 dataawsccroute53resolveroutpostresolver.DataAwsccRoute53ResolverOutpostResolver_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccroute53resolveroutpostresolver.DataAwsccRoute53ResolverOutpostResolver_
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccRoute53ResolverOutpostResolver.DataAwsccRoute53ResolverOutpostResolver.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53resolveroutpostresolver"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53resolveroutpostresolver"
 
 dataawsccroute53resolveroutpostresolver.DataAwsccRoute53ResolverOutpostResolver_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRoute53ResolverOu
 
 The id of the existing DataAwsccRoute53ResolverOutpostResolver that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53resolver_outpost_resolver#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53resolver_outpost_resolver#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -719,7 +719,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRoute53ResolverOutpostResolver.DataAwsccRoute53ResolverOutpostResolverConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53resolveroutpostresolver"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53resolveroutpostresolver"
 
 &dataawsccroute53resolveroutpostresolver.DataAwsccRoute53ResolverOutpostResolverConfig {
 	Connection: interface{},
@@ -828,7 +828,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53resolver_outpost_resolver#id DataAwsccRoute53ResolverOutpostResolver#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53resolver_outpost_resolver#id DataAwsccRoute53ResolverOutpostResolver#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -840,7 +840,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRoute53ResolverOutpostResolver.DataAwsccRoute53ResolverOutpostResolverTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53resolveroutpostresolver"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53resolveroutpostresolver"
 
 &dataawsccroute53resolveroutpostresolver.DataAwsccRoute53ResolverOutpostResolverTags {
 
@@ -855,7 +855,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53resolv
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53ResolverOutpostResolver.DataAwsccRoute53ResolverOutpostResolverTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53resolveroutpostresolver"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53resolveroutpostresolver"
 
 dataawsccroute53resolveroutpostresolver.NewDataAwsccRoute53ResolverOutpostResolverTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccRoute53ResolverOutpostResolverTagsList
 ```
@@ -1004,7 +1004,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53ResolverOutpostResolver.DataAwsccRoute53ResolverOutpostResolverTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53resolveroutpostresolver"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53resolveroutpostresolver"
 
 dataawsccroute53resolveroutpostresolver.NewDataAwsccRoute53ResolverOutpostResolverTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccRoute53ResolverOutpostResolverTagsOutputReference
 ```

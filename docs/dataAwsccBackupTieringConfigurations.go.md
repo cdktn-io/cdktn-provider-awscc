@@ -4,12 +4,12 @@
 
 ### DataAwsccBackupTieringConfigurations <a name="DataAwsccBackupTieringConfigurations" id="@cdktn/provider-awscc.dataAwsccBackupTieringConfigurations.DataAwsccBackupTieringConfigurations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/backup_tiering_configurations awscc_backup_tiering_configurations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/backup_tiering_configurations awscc_backup_tiering_configurations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBackupTieringConfigurations.DataAwsccBackupTieringConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackuptieringconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackuptieringconfigurations"
 
 dataawsccbackuptieringconfigurations.NewDataAwsccBackupTieringConfigurations(scope Construct, id *string, config DataAwsccBackupTieringConfigurationsConfig) DataAwsccBackupTieringConfigurations
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccBackupTieringConfigurations.DataAwsccBackupTieringConfigurations.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackuptieringconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackuptieringconfigurations"
 
 dataawsccbackuptieringconfigurations.DataAwsccBackupTieringConfigurations_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccBackupTieringConfigurations.DataAwsccBackupTieringConfigurations.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackuptieringconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackuptieringconfigurations"
 
 dataawsccbackuptieringconfigurations.DataAwsccBackupTieringConfigurations_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccbackuptieringconfigurations.DataAwsccBackupTieringConfigurations_IsTerr
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccBackupTieringConfigurations.DataAwsccBackupTieringConfigurations.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackuptieringconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackuptieringconfigurations"
 
 dataawsccbackuptieringconfigurations.DataAwsccBackupTieringConfigurations_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccbackuptieringconfigurations.DataAwsccBackupTieringConfigurations_IsTerr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccBackupTieringConfigurations.DataAwsccBackupTieringConfigurations.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackuptieringconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackuptieringconfigurations"
 
 dataawsccbackuptieringconfigurations.DataAwsccBackupTieringConfigurations_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccBackupTieringConf
 
 The id of the existing DataAwsccBackupTieringConfigurations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/backup_tiering_configurations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/backup_tiering_configurations#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBackupTieringConfigurations.DataAwsccBackupTieringConfigurationsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackuptieringconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackuptieringconfigurations"
 
 &dataawsccbackuptieringconfigurations.DataAwsccBackupTieringConfigurationsConfig {
 	Connection: interface{},

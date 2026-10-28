@@ -4,12 +4,12 @@
 
 ### IotsitewisePipeline <a name="IotsitewisePipeline" id="@cdktn/provider-awscc.iotsitewisePipeline.IotsitewisePipeline"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_pipeline awscc_iotsitewise_pipeline}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_pipeline awscc_iotsitewise_pipeline}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewisePipeline.IotsitewisePipeline.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisepipeline"
 
 iotsitewisepipeline.NewIotsitewisePipeline(scope Construct, id *string, config IotsitewisePipelineConfig) IotsitewisePipeline
 ```
@@ -447,7 +447,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.iotsitewisePipeline.IotsitewisePipeline.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisepipeline"
 
 iotsitewisepipeline.IotsitewisePipeline_IsConstruct(x interface{}) *bool
 ```
@@ -479,7 +479,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.iotsitewisePipeline.IotsitewisePipeline.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisepipeline"
 
 iotsitewisepipeline.IotsitewisePipeline_IsTerraformElement(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ iotsitewisepipeline.IotsitewisePipeline_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.iotsitewisePipeline.IotsitewisePipeline.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisepipeline"
 
 iotsitewisepipeline.IotsitewisePipeline_IsTerraformResource(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ iotsitewisepipeline.IotsitewisePipeline_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.iotsitewisePipeline.IotsitewisePipeline.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisepipeline"
 
 iotsitewisepipeline.IotsitewisePipeline_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -536,7 +536,7 @@ The construct id used in the generated config for the IotsitewisePipeline to imp
 
 The id of the existing IotsitewisePipeline that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_pipeline#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_pipeline#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -901,7 +901,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsitewisePipeline.IotsitewisePipelineComputations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisepipeline"
 
 &iotsitewisepipeline.IotsitewisePipelineComputations {
 	ComputeNodeName: *string,
@@ -932,7 +932,7 @@ ComputeNodeName *string
 
 The unique name for this compute node within the pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_pipeline#compute_node_name IotsitewisePipeline#compute_node_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_pipeline#compute_node_name IotsitewisePipeline#compute_node_name}
 
 ---
 
@@ -946,7 +946,7 @@ TaskName *string
 
 The name of the task to execute for this compute node.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_pipeline#task_name IotsitewisePipeline#task_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_pipeline#task_name IotsitewisePipeline#task_name}
 
 ---
 
@@ -960,7 +960,7 @@ DependsOn *[]*string
 
 A list of compute node names that must complete successfully before this node can start.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_pipeline#depends_on IotsitewisePipeline#depends_on}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_pipeline#depends_on IotsitewisePipeline#depends_on}
 
 ---
 
@@ -974,7 +974,7 @@ EnvironmentVariables *map[string]*string
 
 A map of environment variable key-value pairs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_pipeline#environment_variables IotsitewisePipeline#environment_variables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_pipeline#environment_variables IotsitewisePipeline#environment_variables}
 
 ---
 
@@ -983,7 +983,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsitewisePipeline.IotsitewisePipelineConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisepipeline"
 
 &iotsitewisepipeline.IotsitewisePipelineConfig {
 	Connection: interface{},
@@ -1102,7 +1102,7 @@ Computations interface{}
 
 The list of compute nodes that form the pipeline DAG.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_pipeline#computations IotsitewisePipeline#computations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_pipeline#computations IotsitewisePipeline#computations}
 
 ---
 
@@ -1116,7 +1116,7 @@ PipelineName *string
 
 The name of the pipeline. Must be unique within the workspace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_pipeline#pipeline_name IotsitewisePipeline#pipeline_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_pipeline#pipeline_name IotsitewisePipeline#pipeline_name}
 
 ---
 
@@ -1130,7 +1130,7 @@ WorkspaceName *string
 
 The name of the workspace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_pipeline#workspace_name IotsitewisePipeline#workspace_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_pipeline#workspace_name IotsitewisePipeline#workspace_name}
 
 ---
 
@@ -1144,7 +1144,7 @@ Description *string
 
 A description of the pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_pipeline#description IotsitewisePipeline#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_pipeline#description IotsitewisePipeline#description}
 
 ---
 
@@ -1158,7 +1158,7 @@ EnvironmentVariables *map[string]*string
 
 Environment variables shared across all compute nodes in the pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_pipeline#environment_variables IotsitewisePipeline#environment_variables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_pipeline#environment_variables IotsitewisePipeline#environment_variables}
 
 ---
 
@@ -1172,7 +1172,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_pipeline#tags IotsitewisePipeline#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_pipeline#tags IotsitewisePipeline#tags}
 
 ---
 
@@ -1181,7 +1181,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsitewisePipeline.IotsitewisePipelineTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisepipeline"
 
 &iotsitewisepipeline.IotsitewisePipelineTags {
 	Key: *string,
@@ -1208,7 +1208,7 @@ Key *string
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_pipeline#key IotsitewisePipeline#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_pipeline#key IotsitewisePipeline#key}
 
 ---
 
@@ -1222,7 +1222,7 @@ Value *string
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_pipeline#value IotsitewisePipeline#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_pipeline#value IotsitewisePipeline#value}
 
 ---
 
@@ -1233,7 +1233,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewisePipeline.IotsitewisePipelineComputationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisepipeline"
 
 iotsitewisepipeline.NewIotsitewisePipelineComputationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IotsitewisePipelineComputationsList
 ```
@@ -1393,7 +1393,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewisePipeline.IotsitewisePipelineComputationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisepipeline"
 
 iotsitewisepipeline.NewIotsitewisePipelineComputationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IotsitewisePipelineComputationsOutputReference
 ```
@@ -1762,7 +1762,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewisePipeline.IotsitewisePipelineTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisepipeline"
 
 iotsitewisepipeline.NewIotsitewisePipelineTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IotsitewisePipelineTagsList
 ```
@@ -1922,7 +1922,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewisePipeline.IotsitewisePipelineTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisepipeline"
 
 iotsitewisepipeline.NewIotsitewisePipelineTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IotsitewisePipelineTagsOutputReference
 ```

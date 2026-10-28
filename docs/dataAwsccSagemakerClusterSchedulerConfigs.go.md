@@ -4,12 +4,12 @@
 
 ### DataAwsccSagemakerClusterSchedulerConfigs <a name="DataAwsccSagemakerClusterSchedulerConfigs" id="@cdktn/provider-awscc.dataAwsccSagemakerClusterSchedulerConfigs.DataAwsccSagemakerClusterSchedulerConfigs"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_cluster_scheduler_configs awscc_sagemaker_cluster_scheduler_configs}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_cluster_scheduler_configs awscc_sagemaker_cluster_scheduler_configs}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerClusterSchedulerConfigs.DataAwsccSagemakerClusterSchedulerConfigs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerclusterschedulerconfigs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerclusterschedulerconfigs"
 
 dataawsccsagemakerclusterschedulerconfigs.NewDataAwsccSagemakerClusterSchedulerConfigs(scope Construct, id *string, config DataAwsccSagemakerClusterSchedulerConfigsConfig) DataAwsccSagemakerClusterSchedulerConfigs
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSagemakerClusterSchedulerConfigs.DataAwsccSagemakerClusterSchedulerConfigs.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerclusterschedulerconfigs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerclusterschedulerconfigs"
 
 dataawsccsagemakerclusterschedulerconfigs.DataAwsccSagemakerClusterSchedulerConfigs_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSagemakerClusterSchedulerConfigs.DataAwsccSagemakerClusterSchedulerConfigs.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerclusterschedulerconfigs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerclusterschedulerconfigs"
 
 dataawsccsagemakerclusterschedulerconfigs.DataAwsccSagemakerClusterSchedulerConfigs_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsagemakerclusterschedulerconfigs.DataAwsccSagemakerClusterSchedulerConf
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSagemakerClusterSchedulerConfigs.DataAwsccSagemakerClusterSchedulerConfigs.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerclusterschedulerconfigs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerclusterschedulerconfigs"
 
 dataawsccsagemakerclusterschedulerconfigs.DataAwsccSagemakerClusterSchedulerConfigs_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsagemakerclusterschedulerconfigs.DataAwsccSagemakerClusterSchedulerConf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSagemakerClusterSchedulerConfigs.DataAwsccSagemakerClusterSchedulerConfigs.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerclusterschedulerconfigs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerclusterschedulerconfigs"
 
 dataawsccsagemakerclusterschedulerconfigs.DataAwsccSagemakerClusterSchedulerConfigs_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSagemakerClusterS
 
 The id of the existing DataAwsccSagemakerClusterSchedulerConfigs that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_cluster_scheduler_configs#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_cluster_scheduler_configs#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerClusterSchedulerConfigs.DataAwsccSagemakerClusterSchedulerConfigsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerclusterschedulerconfigs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerclusterschedulerconfigs"
 
 &dataawsccsagemakerclusterschedulerconfigs.DataAwsccSagemakerClusterSchedulerConfigsConfig {
 	Connection: interface{},

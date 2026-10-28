@@ -4,12 +4,12 @@
 
 ### DataAwsccWorkspacesWorkspacesPool <a name="DataAwsccWorkspacesWorkspacesPool" id="@cdktn/provider-awscc.dataAwsccWorkspacesWorkspacesPool.DataAwsccWorkspacesWorkspacesPool"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspaces_workspaces_pool awscc_workspaces_workspaces_pool}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspaces_workspaces_pool awscc_workspaces_workspaces_pool}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspacesWorkspacesPool.DataAwsccWorkspacesWorkspacesPool.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesworkspacespool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesworkspacespool"
 
 dataawsccworkspacesworkspacespool.NewDataAwsccWorkspacesWorkspacesPool(scope Construct, id *string, config DataAwsccWorkspacesWorkspacesPoolConfig) DataAwsccWorkspacesWorkspacesPool
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccWorkspacesWorkspacesPool.DataAwsccWorkspacesWorkspacesPool.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesworkspacespool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesworkspacespool"
 
 dataawsccworkspacesworkspacespool.DataAwsccWorkspacesWorkspacesPool_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccWorkspacesWorkspacesPool.DataAwsccWorkspacesWorkspacesPool.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesworkspacespool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesworkspacespool"
 
 dataawsccworkspacesworkspacespool.DataAwsccWorkspacesWorkspacesPool_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccworkspacesworkspacespool.DataAwsccWorkspacesWorkspacesPool_IsTerraformE
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccWorkspacesWorkspacesPool.DataAwsccWorkspacesWorkspacesPool.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesworkspacespool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesworkspacespool"
 
 dataawsccworkspacesworkspacespool.DataAwsccWorkspacesWorkspacesPool_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccworkspacesworkspacespool.DataAwsccWorkspacesWorkspacesPool_IsTerraformD
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccWorkspacesWorkspacesPool.DataAwsccWorkspacesWorkspacesPool.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesworkspacespool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesworkspacespool"
 
 dataawsccworkspacesworkspacespool.DataAwsccWorkspacesWorkspacesPool_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccWorkspacesWorkspa
 
 The id of the existing DataAwsccWorkspacesWorkspacesPool that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspaces_workspaces_pool#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspaces_workspaces_pool#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -719,7 +719,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspacesWorkspacesPool.DataAwsccWorkspacesWorkspacesPoolApplicationSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesworkspacespool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesworkspacespool"
 
 &dataawsccworkspacesworkspacespool.DataAwsccWorkspacesWorkspacesPoolApplicationSettings {
 
@@ -732,7 +732,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswor
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspacesWorkspacesPool.DataAwsccWorkspacesWorkspacesPoolCapacity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesworkspacespool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesworkspacespool"
 
 &dataawsccworkspacesworkspacespool.DataAwsccWorkspacesWorkspacesPoolCapacity {
 
@@ -745,7 +745,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswor
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspacesWorkspacesPool.DataAwsccWorkspacesWorkspacesPoolConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesworkspacespool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesworkspacespool"
 
 &dataawsccworkspacesworkspacespool.DataAwsccWorkspacesWorkspacesPoolConfig {
 	Connection: interface{},
@@ -854,7 +854,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspaces_workspaces_pool#id DataAwsccWorkspacesWorkspacesPool#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspaces_workspaces_pool#id DataAwsccWorkspacesWorkspacesPool#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -866,7 +866,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspacesWorkspacesPool.DataAwsccWorkspacesWorkspacesPoolTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesworkspacespool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesworkspacespool"
 
 &dataawsccworkspacesworkspacespool.DataAwsccWorkspacesWorkspacesPoolTags {
 
@@ -879,7 +879,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswor
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspacesWorkspacesPool.DataAwsccWorkspacesWorkspacesPoolTimeoutSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesworkspacespool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesworkspacespool"
 
 &dataawsccworkspacesworkspacespool.DataAwsccWorkspacesWorkspacesPoolTimeoutSettings {
 
@@ -894,7 +894,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswor
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspacesWorkspacesPool.DataAwsccWorkspacesWorkspacesPoolApplicationSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesworkspacespool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesworkspacespool"
 
 dataawsccworkspacesworkspacespool.NewDataAwsccWorkspacesWorkspacesPoolApplicationSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWorkspacesWorkspacesPoolApplicationSettingsOutputReference
 ```
@@ -1165,7 +1165,7 @@ func InternalValue() DataAwsccWorkspacesWorkspacesPoolApplicationSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspacesWorkspacesPool.DataAwsccWorkspacesWorkspacesPoolCapacityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesworkspacespool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesworkspacespool"
 
 dataawsccworkspacesworkspacespool.NewDataAwsccWorkspacesWorkspacesPoolCapacityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWorkspacesWorkspacesPoolCapacityOutputReference
 ```
@@ -1425,7 +1425,7 @@ func InternalValue() DataAwsccWorkspacesWorkspacesPoolCapacity
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspacesWorkspacesPool.DataAwsccWorkspacesWorkspacesPoolTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesworkspacespool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesworkspacespool"
 
 dataawsccworkspacesworkspacespool.NewDataAwsccWorkspacesWorkspacesPoolTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccWorkspacesWorkspacesPoolTagsList
 ```
@@ -1574,7 +1574,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspacesWorkspacesPool.DataAwsccWorkspacesWorkspacesPoolTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesworkspacespool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesworkspacespool"
 
 dataawsccworkspacesworkspacespool.NewDataAwsccWorkspacesWorkspacesPoolTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccWorkspacesWorkspacesPoolTagsOutputReference
 ```
@@ -1863,7 +1863,7 @@ func InternalValue() DataAwsccWorkspacesWorkspacesPoolTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspacesWorkspacesPool.DataAwsccWorkspacesWorkspacesPoolTimeoutSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesworkspacespool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesworkspacespool"
 
 dataawsccworkspacesworkspacespool.NewDataAwsccWorkspacesWorkspacesPoolTimeoutSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWorkspacesWorkspacesPoolTimeoutSettingsOutputReference
 ```

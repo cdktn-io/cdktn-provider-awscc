@@ -4,12 +4,12 @@
 
 ### DataAwsccLogsIntegrations <a name="DataAwsccLogsIntegrations" id="@cdktn/provider-awscc.dataAwsccLogsIntegrations.DataAwsccLogsIntegrations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/logs_integrations awscc_logs_integrations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/logs_integrations awscc_logs_integrations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLogsIntegrations.DataAwsccLogsIntegrations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclogsintegrations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclogsintegrations"
 
 dataawscclogsintegrations.NewDataAwsccLogsIntegrations(scope Construct, id *string, config DataAwsccLogsIntegrationsConfig) DataAwsccLogsIntegrations
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccLogsIntegrations.DataAwsccLogsIntegrations.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclogsintegrations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclogsintegrations"
 
 dataawscclogsintegrations.DataAwsccLogsIntegrations_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccLogsIntegrations.DataAwsccLogsIntegrations.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclogsintegrations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclogsintegrations"
 
 dataawscclogsintegrations.DataAwsccLogsIntegrations_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscclogsintegrations.DataAwsccLogsIntegrations_IsTerraformElement(x interfa
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccLogsIntegrations.DataAwsccLogsIntegrations.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclogsintegrations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclogsintegrations"
 
 dataawscclogsintegrations.DataAwsccLogsIntegrations_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscclogsintegrations.DataAwsccLogsIntegrations_IsTerraformDataSource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccLogsIntegrations.DataAwsccLogsIntegrations.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclogsintegrations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclogsintegrations"
 
 dataawscclogsintegrations.DataAwsccLogsIntegrations_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLogsIntegrations 
 
 The id of the existing DataAwsccLogsIntegrations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/logs_integrations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/logs_integrations#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLogsIntegrations.DataAwsccLogsIntegrationsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclogsintegrations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclogsintegrations"
 
 &dataawscclogsintegrations.DataAwsccLogsIntegrationsConfig {
 	Connection: interface{},

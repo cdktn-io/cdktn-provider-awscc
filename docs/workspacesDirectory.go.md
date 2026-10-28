@@ -4,12 +4,12 @@
 
 ### WorkspacesDirectory <a name="WorkspacesDirectory" id="@cdktn/provider-awscc.workspacesDirectory.WorkspacesDirectory"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory awscc_workspaces_directory}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory awscc_workspaces_directory}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.workspacesDirectory.WorkspacesDirectory.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesdirectory"
 
 workspacesdirectory.NewWorkspacesDirectory(scope Construct, id *string, config WorkspacesDirectoryConfig) WorkspacesDirectory
 ```
@@ -650,7 +650,7 @@ func ResetWorkspaceType()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.workspacesDirectory.WorkspacesDirectory.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesdirectory"
 
 workspacesdirectory.WorkspacesDirectory_IsConstruct(x interface{}) *bool
 ```
@@ -682,7 +682,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.workspacesDirectory.WorkspacesDirectory.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesdirectory"
 
 workspacesdirectory.WorkspacesDirectory_IsTerraformElement(x interface{}) *bool
 ```
@@ -696,7 +696,7 @@ workspacesdirectory.WorkspacesDirectory_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.workspacesDirectory.WorkspacesDirectory.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesdirectory"
 
 workspacesdirectory.WorkspacesDirectory_IsTerraformResource(x interface{}) *bool
 ```
@@ -710,7 +710,7 @@ workspacesdirectory.WorkspacesDirectory_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.workspacesDirectory.WorkspacesDirectory.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesdirectory"
 
 workspacesdirectory.WorkspacesDirectory_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -739,7 +739,7 @@ The construct id used in the generated config for the WorkspacesDirectory to imp
 
 The id of the existing WorkspacesDirectory that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1511,7 +1511,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.workspacesDirectory.WorkspacesDirectoryActiveDirectoryConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesdirectory"
 
 &workspacesdirectory.WorkspacesDirectoryActiveDirectoryConfig {
 	DomainName: *string,
@@ -1538,7 +1538,7 @@ DomainName *string
 
 The name of the domain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#domain_name WorkspacesDirectory#domain_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#domain_name WorkspacesDirectory#domain_name}
 
 ---
 
@@ -1552,7 +1552,7 @@ ServiceAccountSecretArn *string
 
 Indicates the secret ARN on the service account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#service_account_secret_arn WorkspacesDirectory#service_account_secret_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#service_account_secret_arn WorkspacesDirectory#service_account_secret_arn}
 
 ---
 
@@ -1561,7 +1561,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.workspacesDirectory.WorkspacesDirectoryCertificateBasedAuthProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesdirectory"
 
 &workspacesdirectory.WorkspacesDirectoryCertificateBasedAuthProperties {
 	CertificateAuthorityArn: *string,
@@ -1588,7 +1588,7 @@ CertificateAuthorityArn *string
 
 The Amazon Resource Name (ARN) of the Amazon Web Services Certificate Manager Private CA resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#certificate_authority_arn WorkspacesDirectory#certificate_authority_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#certificate_authority_arn WorkspacesDirectory#certificate_authority_arn}
 
 ---
 
@@ -1602,7 +1602,7 @@ Status *string
 
 The status of the certificate-based authentication properties.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#status WorkspacesDirectory#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#status WorkspacesDirectory#status}
 
 ---
 
@@ -1611,7 +1611,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.workspacesDirectory.WorkspacesDirectoryConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesdirectory"
 
 &workspacesdirectory.WorkspacesDirectoryConfig {
 	Connection: interface{},
@@ -1621,22 +1621,22 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesdirectory"
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	ActiveDirectoryConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.workspacesDirectory.WorkspacesDirectoryActiveDirectoryConfig,
-	CertificateBasedAuthProperties: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.workspacesDirectory.WorkspacesDirectoryCertificateBasedAuthProperties,
+	ActiveDirectoryConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.workspacesDirectory.WorkspacesDirectoryActiveDirectoryConfig,
+	CertificateBasedAuthProperties: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.workspacesDirectory.WorkspacesDirectoryCertificateBasedAuthProperties,
 	EnableSelfService: interface{},
 	EndpointEncryptionMode: *string,
 	IdcInstanceArn: *string,
 	IpGroupIds: *[]*string,
-	MicrosoftEntraConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.workspacesDirectory.WorkspacesDirectoryMicrosoftEntraConfig,
-	SamlProperties: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.workspacesDirectory.WorkspacesDirectorySamlProperties,
-	SelfservicePermissions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.workspacesDirectory.WorkspacesDirectorySelfservicePermissions,
-	StreamingProperties: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.workspacesDirectory.WorkspacesDirectoryStreamingProperties,
+	MicrosoftEntraConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.workspacesDirectory.WorkspacesDirectoryMicrosoftEntraConfig,
+	SamlProperties: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.workspacesDirectory.WorkspacesDirectorySamlProperties,
+	SelfservicePermissions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.workspacesDirectory.WorkspacesDirectorySelfservicePermissions,
+	StreamingProperties: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.workspacesDirectory.WorkspacesDirectoryStreamingProperties,
 	SubnetIds: *[]*string,
 	Tags: interface{},
 	Tenancy: *string,
 	UserIdentityType: *string,
-	WorkspaceAccessProperties: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.workspacesDirectory.WorkspacesDirectoryWorkspaceAccessProperties,
-	WorkspaceCreationProperties: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.workspacesDirectory.WorkspacesDirectoryWorkspaceCreationProperties,
+	WorkspaceAccessProperties: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.workspacesDirectory.WorkspacesDirectoryWorkspaceAccessProperties,
+	WorkspaceCreationProperties: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.workspacesDirectory.WorkspacesDirectoryWorkspaceCreationProperties,
 	WorkspaceDirectoryDescription: *string,
 	WorkspaceDirectoryName: *string,
 	WorkspaceType: *string,
@@ -1756,7 +1756,7 @@ ActiveDirectoryConfig WorkspacesDirectoryActiveDirectoryConfig
 
 Information about the Active Directory config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#active_directory_config WorkspacesDirectory#active_directory_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#active_directory_config WorkspacesDirectory#active_directory_config}
 
 ---
 
@@ -1770,7 +1770,7 @@ CertificateBasedAuthProperties WorkspacesDirectoryCertificateBasedAuthProperties
 
 Describes the properties of the certificate-based authentication you want to use with your WorkSpaces.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#certificate_based_auth_properties WorkspacesDirectory#certificate_based_auth_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#certificate_based_auth_properties WorkspacesDirectory#certificate_based_auth_properties}
 
 ---
 
@@ -1784,7 +1784,7 @@ EnableSelfService interface{}
 
 Indicates whether self-service capabilities are enabled or disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#enable_self_service WorkspacesDirectory#enable_self_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#enable_self_service WorkspacesDirectory#enable_self_service}
 
 ---
 
@@ -1798,7 +1798,7 @@ EndpointEncryptionMode *string
 
 Endpoint encryption mode that allows you to configure the specified directory between Standard TLS and FIPS 140-2 validated mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#endpoint_encryption_mode WorkspacesDirectory#endpoint_encryption_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#endpoint_encryption_mode WorkspacesDirectory#endpoint_encryption_mode}
 
 ---
 
@@ -1812,7 +1812,7 @@ IdcInstanceArn *string
 
 The Amazon Resource Name (ARN) of the identity center instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#idc_instance_arn WorkspacesDirectory#idc_instance_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#idc_instance_arn WorkspacesDirectory#idc_instance_arn}
 
 ---
 
@@ -1826,7 +1826,7 @@ IpGroupIds *[]*string
 
 The identifiers of the IP access control groups associated with the directory.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#ip_group_ids WorkspacesDirectory#ip_group_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#ip_group_ids WorkspacesDirectory#ip_group_ids}
 
 ---
 
@@ -1840,7 +1840,7 @@ MicrosoftEntraConfig WorkspacesDirectoryMicrosoftEntraConfig
 
 Specifies the configurations of the Microsoft Entra.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#microsoft_entra_config WorkspacesDirectory#microsoft_entra_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#microsoft_entra_config WorkspacesDirectory#microsoft_entra_config}
 
 ---
 
@@ -1854,7 +1854,7 @@ SamlProperties WorkspacesDirectorySamlProperties
 
 Describes the enablement status, user access URL, and relay state parameter name that are used for configuring federation with an SAML 2.0 identity provider.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#saml_properties WorkspacesDirectory#saml_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#saml_properties WorkspacesDirectory#saml_properties}
 
 ---
 
@@ -1868,7 +1868,7 @@ SelfservicePermissions WorkspacesDirectorySelfservicePermissions
 
 Describes the self-service permissions for a directory.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#selfservice_permissions WorkspacesDirectory#selfservice_permissions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#selfservice_permissions WorkspacesDirectory#selfservice_permissions}
 
 ---
 
@@ -1882,7 +1882,7 @@ StreamingProperties WorkspacesDirectoryStreamingProperties
 
 Describes the streaming properties.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#streaming_properties WorkspacesDirectory#streaming_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#streaming_properties WorkspacesDirectory#streaming_properties}
 
 ---
 
@@ -1896,7 +1896,7 @@ SubnetIds *[]*string
 
 The identifiers of the subnets for your virtual private cloud (VPC).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#subnet_ids WorkspacesDirectory#subnet_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#subnet_ids WorkspacesDirectory#subnet_ids}
 
 ---
 
@@ -1910,7 +1910,7 @@ Tags interface{}
 
 The tags associated with the directory.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#tags WorkspacesDirectory#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#tags WorkspacesDirectory#tags}
 
 ---
 
@@ -1924,7 +1924,7 @@ Tenancy *string
 
 Indicates whether your WorkSpace directory is dedicated or shared.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#tenancy WorkspacesDirectory#tenancy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#tenancy WorkspacesDirectory#tenancy}
 
 ---
 
@@ -1938,7 +1938,7 @@ UserIdentityType *string
 
 The type of identity management the user is using.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#user_identity_type WorkspacesDirectory#user_identity_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#user_identity_type WorkspacesDirectory#user_identity_type}
 
 ---
 
@@ -1952,7 +1952,7 @@ WorkspaceAccessProperties WorkspacesDirectoryWorkspaceAccessProperties
 
 The device types and operating systems that can be used to access a WorkSpace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#workspace_access_properties WorkspacesDirectory#workspace_access_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#workspace_access_properties WorkspacesDirectory#workspace_access_properties}
 
 ---
 
@@ -1966,7 +1966,7 @@ WorkspaceCreationProperties WorkspacesDirectoryWorkspaceCreationProperties
 
 The default values that are used to create WorkSpaces.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#workspace_creation_properties WorkspacesDirectory#workspace_creation_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#workspace_creation_properties WorkspacesDirectory#workspace_creation_properties}
 
 ---
 
@@ -1980,7 +1980,7 @@ WorkspaceDirectoryDescription *string
 
 Description of the directory to register.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#workspace_directory_description WorkspacesDirectory#workspace_directory_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#workspace_directory_description WorkspacesDirectory#workspace_directory_description}
 
 ---
 
@@ -1994,7 +1994,7 @@ WorkspaceDirectoryName *string
 
 The name of the directory to register.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#workspace_directory_name WorkspacesDirectory#workspace_directory_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#workspace_directory_name WorkspacesDirectory#workspace_directory_name}
 
 ---
 
@@ -2008,7 +2008,7 @@ WorkspaceType *string
 
 Indicates whether the directory's WorkSpace type is personal or pools.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#workspace_type WorkspacesDirectory#workspace_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#workspace_type WorkspacesDirectory#workspace_type}
 
 ---
 
@@ -2017,7 +2017,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.workspacesDirectory.WorkspacesDirectoryIdcConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesdirectory"
 
 &workspacesdirectory.WorkspacesDirectoryIdcConfig {
 
@@ -2030,7 +2030,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesdirectory"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.workspacesDirectory.WorkspacesDirectoryMicrosoftEntraConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesdirectory"
 
 &workspacesdirectory.WorkspacesDirectoryMicrosoftEntraConfig {
 	ApplicationConfigSecretArn: *string,
@@ -2057,7 +2057,7 @@ ApplicationConfigSecretArn *string
 
 The Amazon Resource Name (ARN) of the application config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#application_config_secret_arn WorkspacesDirectory#application_config_secret_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#application_config_secret_arn WorkspacesDirectory#application_config_secret_arn}
 
 ---
 
@@ -2071,7 +2071,7 @@ TenantId *string
 
 The identifier of the tenant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#tenant_id WorkspacesDirectory#tenant_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#tenant_id WorkspacesDirectory#tenant_id}
 
 ---
 
@@ -2080,7 +2080,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.workspacesDirectory.WorkspacesDirectorySamlProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesdirectory"
 
 &workspacesdirectory.WorkspacesDirectorySamlProperties {
 	RelayStateParameterName: *string,
@@ -2109,7 +2109,7 @@ RelayStateParameterName *string
 
 The relay state parameter name supported by the SAML 2.0 identity provider (IdP).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#relay_state_parameter_name WorkspacesDirectory#relay_state_parameter_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#relay_state_parameter_name WorkspacesDirectory#relay_state_parameter_name}
 
 ---
 
@@ -2123,7 +2123,7 @@ Status *string
 
 Indicates the status of SAML 2.0 authentication.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#status WorkspacesDirectory#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#status WorkspacesDirectory#status}
 
 ---
 
@@ -2137,7 +2137,7 @@ UserAccessUrl *string
 
 The SAML 2.0 identity provider (IdP) user access URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#user_access_url WorkspacesDirectory#user_access_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#user_access_url WorkspacesDirectory#user_access_url}
 
 ---
 
@@ -2146,7 +2146,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.workspacesDirectory.WorkspacesDirectorySelfservicePermissions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesdirectory"
 
 &workspacesdirectory.WorkspacesDirectorySelfservicePermissions {
 	ChangeComputeType: *string,
@@ -2179,7 +2179,7 @@ ChangeComputeType *string
 
 Specifies whether users can change the compute type (bundle) for their WorkSpace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#change_compute_type WorkspacesDirectory#change_compute_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#change_compute_type WorkspacesDirectory#change_compute_type}
 
 ---
 
@@ -2193,7 +2193,7 @@ IncreaseVolumeSize *string
 
 Specifies whether users can increase the volume size of the drives on their WorkSpace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#increase_volume_size WorkspacesDirectory#increase_volume_size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#increase_volume_size WorkspacesDirectory#increase_volume_size}
 
 ---
 
@@ -2207,7 +2207,7 @@ RebuildWorkspace *string
 
 Specifies whether users can rebuild the operating system of a WorkSpace to its original state.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#rebuild_workspace WorkspacesDirectory#rebuild_workspace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#rebuild_workspace WorkspacesDirectory#rebuild_workspace}
 
 ---
 
@@ -2221,7 +2221,7 @@ RestartWorkspace *string
 
 Specifies whether users can restart their WorkSpace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#restart_workspace WorkspacesDirectory#restart_workspace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#restart_workspace WorkspacesDirectory#restart_workspace}
 
 ---
 
@@ -2235,7 +2235,7 @@ SwitchRunningMode *string
 
 Specifies whether users can switch the running mode of their WorkSpace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#switch_running_mode WorkspacesDirectory#switch_running_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#switch_running_mode WorkspacesDirectory#switch_running_mode}
 
 ---
 
@@ -2244,10 +2244,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.workspacesDirectory.WorkspacesDirectoryStreamingProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesdirectory"
 
 &workspacesdirectory.WorkspacesDirectoryStreamingProperties {
-	GlobalAccelerator: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.workspacesDirectory.WorkspacesDirectoryStreamingPropertiesGlobalAccelerator,
+	GlobalAccelerator: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.workspacesDirectory.WorkspacesDirectoryStreamingPropertiesGlobalAccelerator,
 	StorageConnectors: interface{},
 	StreamingExperiencePreferredProtocol: *string,
 	UserSettings: interface{},
@@ -2275,7 +2275,7 @@ GlobalAccelerator WorkspacesDirectoryStreamingPropertiesGlobalAccelerator
 
 Describes the Global Accelerator for directory.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#global_accelerator WorkspacesDirectory#global_accelerator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#global_accelerator WorkspacesDirectory#global_accelerator}
 
 ---
 
@@ -2289,7 +2289,7 @@ StorageConnectors interface{}
 
 Indicates the storage connector used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#storage_connectors WorkspacesDirectory#storage_connectors}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#storage_connectors WorkspacesDirectory#storage_connectors}
 
 ---
 
@@ -2303,7 +2303,7 @@ StreamingExperiencePreferredProtocol *string
 
 Indicates the type of preferred protocol for the streaming experience.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#streaming_experience_preferred_protocol WorkspacesDirectory#streaming_experience_preferred_protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#streaming_experience_preferred_protocol WorkspacesDirectory#streaming_experience_preferred_protocol}
 
 ---
 
@@ -2317,7 +2317,7 @@ UserSettings interface{}
 
 Indicates the permission settings associated with the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#user_settings WorkspacesDirectory#user_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#user_settings WorkspacesDirectory#user_settings}
 
 ---
 
@@ -2326,7 +2326,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.workspacesDirectory.WorkspacesDirectoryStreamingPropertiesGlobalAccelerator.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesdirectory"
 
 &workspacesdirectory.WorkspacesDirectoryStreamingPropertiesGlobalAccelerator {
 	Mode: *string,
@@ -2353,7 +2353,7 @@ Mode *string
 
 Indicates if Global Accelerator for directory is enabled or disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#mode WorkspacesDirectory#mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#mode WorkspacesDirectory#mode}
 
 ---
 
@@ -2367,7 +2367,7 @@ PreferredProtocol *string
 
 Indicates the preferred protocol for Global Accelerator.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#preferred_protocol WorkspacesDirectory#preferred_protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#preferred_protocol WorkspacesDirectory#preferred_protocol}
 
 ---
 
@@ -2376,7 +2376,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.workspacesDirectory.WorkspacesDirectoryStreamingPropertiesStorageConnectors.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesdirectory"
 
 &workspacesdirectory.WorkspacesDirectoryStreamingPropertiesStorageConnectors {
 	ConnectorType: *string,
@@ -2403,7 +2403,7 @@ ConnectorType *string
 
 The type of connector used to save user files.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#connector_type WorkspacesDirectory#connector_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#connector_type WorkspacesDirectory#connector_type}
 
 ---
 
@@ -2417,7 +2417,7 @@ Status *string
 
 Indicates if the storage connector is enabled or disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#status WorkspacesDirectory#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#status WorkspacesDirectory#status}
 
 ---
 
@@ -2426,7 +2426,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.workspacesDirectory.WorkspacesDirectoryStreamingPropertiesUserSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesdirectory"
 
 &workspacesdirectory.WorkspacesDirectoryStreamingPropertiesUserSettings {
 	Action: *string,
@@ -2455,7 +2455,7 @@ Action *string
 
 Indicates the type of action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#action WorkspacesDirectory#action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#action WorkspacesDirectory#action}
 
 ---
 
@@ -2469,7 +2469,7 @@ MaximumLength *f64
 
 Indicates the maximum character length for the specified user setting.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#maximum_length WorkspacesDirectory#maximum_length}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#maximum_length WorkspacesDirectory#maximum_length}
 
 ---
 
@@ -2483,7 +2483,7 @@ Permission *string
 
 Indicates if the setting is enabled or disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#permission WorkspacesDirectory#permission}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#permission WorkspacesDirectory#permission}
 
 ---
 
@@ -2492,7 +2492,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.workspacesDirectory.WorkspacesDirectoryTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesdirectory"
 
 &workspacesdirectory.WorkspacesDirectoryTags {
 	Key: *string,
@@ -2519,7 +2519,7 @@ Key *string
 
 The key of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#key WorkspacesDirectory#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#key WorkspacesDirectory#key}
 
 ---
 
@@ -2533,7 +2533,7 @@ Value *string
 
 The value of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#value WorkspacesDirectory#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#value WorkspacesDirectory#value}
 
 ---
 
@@ -2542,10 +2542,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.workspacesDirectory.WorkspacesDirectoryWorkspaceAccessProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesdirectory"
 
 &workspacesdirectory.WorkspacesDirectoryWorkspaceAccessProperties {
-	AccessEndpointConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.workspacesDirectory.WorkspacesDirectoryWorkspaceAccessPropertiesAccessEndpointConfig,
+	AccessEndpointConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.workspacesDirectory.WorkspacesDirectoryWorkspaceAccessPropertiesAccessEndpointConfig,
 	DeviceTypeAndroid: *string,
 	DeviceTypeChromeOs: *string,
 	DeviceTypeIos: *string,
@@ -2585,7 +2585,7 @@ AccessEndpointConfig WorkspacesDirectoryWorkspaceAccessPropertiesAccessEndpointC
 
 Describes the access endpoint configuration for a WorkSpace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#access_endpoint_config WorkspacesDirectory#access_endpoint_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#access_endpoint_config WorkspacesDirectory#access_endpoint_config}
 
 ---
 
@@ -2599,7 +2599,7 @@ DeviceTypeAndroid *string
 
 Indicates whether users can use Android and Android-compatible Chrome OS devices to access their WorkSpaces.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#device_type_android WorkspacesDirectory#device_type_android}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#device_type_android WorkspacesDirectory#device_type_android}
 
 ---
 
@@ -2613,7 +2613,7 @@ DeviceTypeChromeOs *string
 
 Indicates whether users can use Chromebooks to access their WorkSpaces.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#device_type_chrome_os WorkspacesDirectory#device_type_chrome_os}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#device_type_chrome_os WorkspacesDirectory#device_type_chrome_os}
 
 ---
 
@@ -2627,7 +2627,7 @@ DeviceTypeIos *string
 
 Indicates whether users can use iOS devices to access their WorkSpaces.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#device_type_ios WorkspacesDirectory#device_type_ios}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#device_type_ios WorkspacesDirectory#device_type_ios}
 
 ---
 
@@ -2641,7 +2641,7 @@ DeviceTypeLinux *string
 
 Indicates whether users can use Linux clients to access their WorkSpaces.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#device_type_linux WorkspacesDirectory#device_type_linux}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#device_type_linux WorkspacesDirectory#device_type_linux}
 
 ---
 
@@ -2655,7 +2655,7 @@ DeviceTypeOsx *string
 
 Indicates whether users can use macOS clients to access their WorkSpaces.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#device_type_osx WorkspacesDirectory#device_type_osx}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#device_type_osx WorkspacesDirectory#device_type_osx}
 
 ---
 
@@ -2669,7 +2669,7 @@ DeviceTypeWeb *string
 
 Indicates whether users can access their WorkSpaces through a web browser.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#device_type_web WorkspacesDirectory#device_type_web}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#device_type_web WorkspacesDirectory#device_type_web}
 
 ---
 
@@ -2683,7 +2683,7 @@ DeviceTypeWindows *string
 
 Indicates whether users can use Windows clients to access their WorkSpaces.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#device_type_windows WorkspacesDirectory#device_type_windows}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#device_type_windows WorkspacesDirectory#device_type_windows}
 
 ---
 
@@ -2697,7 +2697,7 @@ DeviceTypeWorkSpacesThinClient *string
 
 Indicates whether users can access their WorkSpaces through a WorkSpaces Thin Client.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#device_type_work_spaces_thin_client WorkspacesDirectory#device_type_work_spaces_thin_client}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#device_type_work_spaces_thin_client WorkspacesDirectory#device_type_work_spaces_thin_client}
 
 ---
 
@@ -2711,7 +2711,7 @@ DeviceTypeZeroClient *string
 
 Indicates whether users can use zero client devices to access their WorkSpaces.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#device_type_zero_client WorkspacesDirectory#device_type_zero_client}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#device_type_zero_client WorkspacesDirectory#device_type_zero_client}
 
 ---
 
@@ -2720,7 +2720,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.workspacesDirectory.WorkspacesDirectoryWorkspaceAccessPropertiesAccessEndpointConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesdirectory"
 
 &workspacesdirectory.WorkspacesDirectoryWorkspaceAccessPropertiesAccessEndpointConfig {
 	AccessEndpoints: interface{},
@@ -2747,7 +2747,7 @@ AccessEndpoints interface{}
 
 Indicates a list of access endpoints associated with this directory.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#access_endpoints WorkspacesDirectory#access_endpoints}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#access_endpoints WorkspacesDirectory#access_endpoints}
 
 ---
 
@@ -2761,7 +2761,7 @@ InternetFallbackProtocols *[]*string
 
 Indicates a list of protocols that fallback to using the public Internet when streaming over a VPC endpoint is not available.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#internet_fallback_protocols WorkspacesDirectory#internet_fallback_protocols}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#internet_fallback_protocols WorkspacesDirectory#internet_fallback_protocols}
 
 ---
 
@@ -2770,7 +2770,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.workspacesDirectory.WorkspacesDirectoryWorkspaceAccessPropertiesAccessEndpointConfigAccessEndpoints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesdirectory"
 
 &workspacesdirectory.WorkspacesDirectoryWorkspaceAccessPropertiesAccessEndpointConfigAccessEndpoints {
 	AccessEndpointType: *string,
@@ -2797,7 +2797,7 @@ AccessEndpointType *string
 
 Indicates the type of access endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#access_endpoint_type WorkspacesDirectory#access_endpoint_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#access_endpoint_type WorkspacesDirectory#access_endpoint_type}
 
 ---
 
@@ -2811,7 +2811,7 @@ VpcEndpointId *string
 
 Indicates the VPC endpoint to use for access.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#vpc_endpoint_id WorkspacesDirectory#vpc_endpoint_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#vpc_endpoint_id WorkspacesDirectory#vpc_endpoint_id}
 
 ---
 
@@ -2820,7 +2820,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.workspacesDirectory.WorkspacesDirectoryWorkspaceCreationProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesdirectory"
 
 &workspacesdirectory.WorkspacesDirectoryWorkspaceCreationProperties {
 	CustomSecurityGroupId: *string,
@@ -2855,7 +2855,7 @@ CustomSecurityGroupId *string
 
 The identifier of the default security group to apply to WorkSpaces when they are created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#custom_security_group_id WorkspacesDirectory#custom_security_group_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#custom_security_group_id WorkspacesDirectory#custom_security_group_id}
 
 ---
 
@@ -2869,7 +2869,7 @@ DefaultOu *string
 
 The organizational unit (OU) in the directory for the WorkSpace machine accounts.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#default_ou WorkspacesDirectory#default_ou}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#default_ou WorkspacesDirectory#default_ou}
 
 ---
 
@@ -2883,7 +2883,7 @@ EnableInternetAccess interface{}
 
 Specifies whether to automatically assign an Elastic public IP address to WorkSpaces in this directory by default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#enable_internet_access WorkspacesDirectory#enable_internet_access}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#enable_internet_access WorkspacesDirectory#enable_internet_access}
 
 ---
 
@@ -2897,7 +2897,7 @@ EnableMaintenanceMode interface{}
 
 Specifies whether maintenance mode is enabled for WorkSpaces.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#enable_maintenance_mode WorkspacesDirectory#enable_maintenance_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#enable_maintenance_mode WorkspacesDirectory#enable_maintenance_mode}
 
 ---
 
@@ -2911,7 +2911,7 @@ InstanceIamRoleArn *string
 
 Indicates the IAM role ARN of the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#instance_iam_role_arn WorkspacesDirectory#instance_iam_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#instance_iam_role_arn WorkspacesDirectory#instance_iam_role_arn}
 
 ---
 
@@ -2925,7 +2925,7 @@ UserEnabledAsLocalAdministrator interface{}
 
 Specifies whether WorkSpace users are local administrators on their WorkSpaces.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#user_enabled_as_local_administrator WorkspacesDirectory#user_enabled_as_local_administrator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#user_enabled_as_local_administrator WorkspacesDirectory#user_enabled_as_local_administrator}
 
 ---
 
@@ -2936,7 +2936,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.workspacesDirectory.WorkspacesDirectoryActiveDirectoryConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesdirectory"
 
 workspacesdirectory.NewWorkspacesDirectoryActiveDirectoryConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) WorkspacesDirectoryActiveDirectoryConfigOutputReference
 ```
@@ -3243,7 +3243,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.workspacesDirectory.WorkspacesDirectoryCertificateBasedAuthPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesdirectory"
 
 workspacesdirectory.NewWorkspacesDirectoryCertificateBasedAuthPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) WorkspacesDirectoryCertificateBasedAuthPropertiesOutputReference
 ```
@@ -3550,7 +3550,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.workspacesDirectory.WorkspacesDirectoryIdcConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesdirectory"
 
 workspacesdirectory.NewWorkspacesDirectoryIdcConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) WorkspacesDirectoryIdcConfigOutputReference
 ```
@@ -3821,7 +3821,7 @@ func InternalValue() WorkspacesDirectoryIdcConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.workspacesDirectory.WorkspacesDirectoryMicrosoftEntraConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesdirectory"
 
 workspacesdirectory.NewWorkspacesDirectoryMicrosoftEntraConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) WorkspacesDirectoryMicrosoftEntraConfigOutputReference
 ```
@@ -4128,7 +4128,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.workspacesDirectory.WorkspacesDirectorySamlPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesdirectory"
 
 workspacesdirectory.NewWorkspacesDirectorySamlPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) WorkspacesDirectorySamlPropertiesOutputReference
 ```
@@ -4464,7 +4464,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.workspacesDirectory.WorkspacesDirectorySelfservicePermissionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesdirectory"
 
 workspacesdirectory.NewWorkspacesDirectorySelfservicePermissionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) WorkspacesDirectorySelfservicePermissionsOutputReference
 ```
@@ -4858,7 +4858,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.workspacesDirectory.WorkspacesDirectoryStreamingPropertiesGlobalAcceleratorOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesdirectory"
 
 workspacesdirectory.NewWorkspacesDirectoryStreamingPropertiesGlobalAcceleratorOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) WorkspacesDirectoryStreamingPropertiesGlobalAcceleratorOutputReference
 ```
@@ -5165,7 +5165,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.workspacesDirectory.WorkspacesDirectoryStreamingPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesdirectory"
 
 workspacesdirectory.NewWorkspacesDirectoryStreamingPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) WorkspacesDirectoryStreamingPropertiesOutputReference
 ```
@@ -5569,7 +5569,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.workspacesDirectory.WorkspacesDirectoryStreamingPropertiesStorageConnectorsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesdirectory"
 
 workspacesdirectory.NewWorkspacesDirectoryStreamingPropertiesStorageConnectorsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) WorkspacesDirectoryStreamingPropertiesStorageConnectorsList
 ```
@@ -5729,7 +5729,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.workspacesDirectory.WorkspacesDirectoryStreamingPropertiesStorageConnectorsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesdirectory"
 
 workspacesdirectory.NewWorkspacesDirectoryStreamingPropertiesStorageConnectorsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) WorkspacesDirectoryStreamingPropertiesStorageConnectorsOutputReference
 ```
@@ -6054,7 +6054,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.workspacesDirectory.WorkspacesDirectoryStreamingPropertiesUserSettingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesdirectory"
 
 workspacesdirectory.NewWorkspacesDirectoryStreamingPropertiesUserSettingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) WorkspacesDirectoryStreamingPropertiesUserSettingsList
 ```
@@ -6214,7 +6214,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.workspacesDirectory.WorkspacesDirectoryStreamingPropertiesUserSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesdirectory"
 
 workspacesdirectory.NewWorkspacesDirectoryStreamingPropertiesUserSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) WorkspacesDirectoryStreamingPropertiesUserSettingsOutputReference
 ```
@@ -6568,7 +6568,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.workspacesDirectory.WorkspacesDirectoryTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesdirectory"
 
 workspacesdirectory.NewWorkspacesDirectoryTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) WorkspacesDirectoryTagsList
 ```
@@ -6728,7 +6728,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.workspacesDirectory.WorkspacesDirectoryTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesdirectory"
 
 workspacesdirectory.NewWorkspacesDirectoryTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) WorkspacesDirectoryTagsOutputReference
 ```
@@ -7053,7 +7053,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.workspacesDirectory.WorkspacesDirectoryWorkspaceAccessPropertiesAccessEndpointConfigAccessEndpointsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesdirectory"
 
 workspacesdirectory.NewWorkspacesDirectoryWorkspaceAccessPropertiesAccessEndpointConfigAccessEndpointsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) WorkspacesDirectoryWorkspaceAccessPropertiesAccessEndpointConfigAccessEndpointsList
 ```
@@ -7213,7 +7213,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.workspacesDirectory.WorkspacesDirectoryWorkspaceAccessPropertiesAccessEndpointConfigAccessEndpointsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesdirectory"
 
 workspacesdirectory.NewWorkspacesDirectoryWorkspaceAccessPropertiesAccessEndpointConfigAccessEndpointsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) WorkspacesDirectoryWorkspaceAccessPropertiesAccessEndpointConfigAccessEndpointsOutputReference
 ```
@@ -7538,7 +7538,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.workspacesDirectory.WorkspacesDirectoryWorkspaceAccessPropertiesAccessEndpointConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesdirectory"
 
 workspacesdirectory.NewWorkspacesDirectoryWorkspaceAccessPropertiesAccessEndpointConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) WorkspacesDirectoryWorkspaceAccessPropertiesAccessEndpointConfigOutputReference
 ```
@@ -7858,7 +7858,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.workspacesDirectory.WorkspacesDirectoryWorkspaceAccessPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesdirectory"
 
 workspacesdirectory.NewWorkspacesDirectoryWorkspaceAccessPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) WorkspacesDirectoryWorkspaceAccessPropertiesOutputReference
 ```
@@ -8410,7 +8410,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.workspacesDirectory.WorkspacesDirectoryWorkspaceCreationPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesdirectory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesdirectory"
 
 workspacesdirectory.NewWorkspacesDirectoryWorkspaceCreationPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) WorkspacesDirectoryWorkspaceCreationPropertiesOutputReference
 ```

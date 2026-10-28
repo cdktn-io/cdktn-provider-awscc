@@ -4,12 +4,12 @@
 
 ### DataAwsccRolesanywhereCrl <a name="DataAwsccRolesanywhereCrl" id="@cdktn/provider-awscc.dataAwsccRolesanywhereCrl.DataAwsccRolesanywhereCrl"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rolesanywhere_crl awscc_rolesanywhere_crl}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rolesanywhere_crl awscc_rolesanywhere_crl}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRolesanywhereCrl.DataAwsccRolesanywhereCrl.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrolesanywherecrl"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrolesanywherecrl"
 
 dataawsccrolesanywherecrl.NewDataAwsccRolesanywhereCrl(scope Construct, id *string, config DataAwsccRolesanywhereCrlConfig) DataAwsccRolesanywhereCrl
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccRolesanywhereCrl.DataAwsccRolesanywhereCrl.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrolesanywherecrl"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrolesanywherecrl"
 
 dataawsccrolesanywherecrl.DataAwsccRolesanywhereCrl_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccRolesanywhereCrl.DataAwsccRolesanywhereCrl.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrolesanywherecrl"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrolesanywherecrl"
 
 dataawsccrolesanywherecrl.DataAwsccRolesanywhereCrl_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccrolesanywherecrl.DataAwsccRolesanywhereCrl_IsTerraformElement(x interfa
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccRolesanywhereCrl.DataAwsccRolesanywhereCrl.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrolesanywherecrl"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrolesanywherecrl"
 
 dataawsccrolesanywherecrl.DataAwsccRolesanywhereCrl_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccrolesanywherecrl.DataAwsccRolesanywhereCrl_IsTerraformDataSource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccRolesanywhereCrl.DataAwsccRolesanywhereCrl.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrolesanywherecrl"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrolesanywherecrl"
 
 dataawsccrolesanywherecrl.DataAwsccRolesanywhereCrl_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRolesanywhereCrl 
 
 The id of the existing DataAwsccRolesanywhereCrl that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rolesanywhere_crl#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rolesanywhere_crl#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -653,7 +653,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRolesanywhereCrl.DataAwsccRolesanywhereCrlConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrolesanywherecrl"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrolesanywherecrl"
 
 &dataawsccrolesanywherecrl.DataAwsccRolesanywhereCrlConfig {
 	Connection: interface{},
@@ -762,7 +762,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rolesanywhere_crl#id DataAwsccRolesanywhereCrl#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rolesanywhere_crl#id DataAwsccRolesanywhereCrl#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -774,7 +774,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRolesanywhereCrl.DataAwsccRolesanywhereCrlTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrolesanywherecrl"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrolesanywherecrl"
 
 &dataawsccrolesanywherecrl.DataAwsccRolesanywhereCrlTags {
 
@@ -789,7 +789,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrolesanywhere
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRolesanywhereCrl.DataAwsccRolesanywhereCrlTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrolesanywherecrl"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrolesanywherecrl"
 
 dataawsccrolesanywherecrl.NewDataAwsccRolesanywhereCrlTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccRolesanywhereCrlTagsList
 ```
@@ -938,7 +938,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRolesanywhereCrl.DataAwsccRolesanywhereCrlTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrolesanywherecrl"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrolesanywherecrl"
 
 dataawsccrolesanywherecrl.NewDataAwsccRolesanywhereCrlTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccRolesanywhereCrlTagsOutputReference
 ```

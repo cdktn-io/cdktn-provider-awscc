@@ -4,12 +4,12 @@
 
 ### LicensemanagerlinuxsubscriptionsSubscriptionProvider <a name="LicensemanagerlinuxsubscriptionsSubscriptionProvider" id="@cdktn/provider-awscc.licensemanagerlinuxsubscriptionsSubscriptionProvider.LicensemanagerlinuxsubscriptionsSubscriptionProvider"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanagerlinuxsubscriptions_subscription_provider awscc_licensemanagerlinuxsubscriptions_subscription_provider}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanagerlinuxsubscriptions_subscription_provider awscc_licensemanagerlinuxsubscriptions_subscription_provider}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.licensemanagerlinuxsubscriptionsSubscriptionProvider.LicensemanagerlinuxsubscriptionsSubscriptionProvider.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerlinuxsubscriptionssubscriptionprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/licensemanagerlinuxsubscriptionssubscriptionprovider"
 
 licensemanagerlinuxsubscriptionssubscriptionprovider.NewLicensemanagerlinuxsubscriptionsSubscriptionProvider(scope Construct, id *string, config LicensemanagerlinuxsubscriptionsSubscriptionProviderConfig) LicensemanagerlinuxsubscriptionsSubscriptionProvider
 ```
@@ -420,7 +420,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.licensemanagerlinuxsubscriptionsSubscriptionProvider.LicensemanagerlinuxsubscriptionsSubscriptionProvider.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerlinuxsubscriptionssubscriptionprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/licensemanagerlinuxsubscriptionssubscriptionprovider"
 
 licensemanagerlinuxsubscriptionssubscriptionprovider.LicensemanagerlinuxsubscriptionsSubscriptionProvider_IsConstruct(x interface{}) *bool
 ```
@@ -452,7 +452,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.licensemanagerlinuxsubscriptionsSubscriptionProvider.LicensemanagerlinuxsubscriptionsSubscriptionProvider.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerlinuxsubscriptionssubscriptionprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/licensemanagerlinuxsubscriptionssubscriptionprovider"
 
 licensemanagerlinuxsubscriptionssubscriptionprovider.LicensemanagerlinuxsubscriptionsSubscriptionProvider_IsTerraformElement(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ licensemanagerlinuxsubscriptionssubscriptionprovider.Licensemanagerlinuxsubscrip
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.licensemanagerlinuxsubscriptionsSubscriptionProvider.LicensemanagerlinuxsubscriptionsSubscriptionProvider.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerlinuxsubscriptionssubscriptionprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/licensemanagerlinuxsubscriptionssubscriptionprovider"
 
 licensemanagerlinuxsubscriptionssubscriptionprovider.LicensemanagerlinuxsubscriptionsSubscriptionProvider_IsTerraformResource(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ licensemanagerlinuxsubscriptionssubscriptionprovider.Licensemanagerlinuxsubscrip
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.licensemanagerlinuxsubscriptionsSubscriptionProvider.LicensemanagerlinuxsubscriptionsSubscriptionProvider.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerlinuxsubscriptionssubscriptionprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/licensemanagerlinuxsubscriptionssubscriptionprovider"
 
 licensemanagerlinuxsubscriptionssubscriptionprovider.LicensemanagerlinuxsubscriptionsSubscriptionProvider_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -509,7 +509,7 @@ The construct id used in the generated config for the Licensemanagerlinuxsubscri
 
 The id of the existing LicensemanagerlinuxsubscriptionsSubscriptionProvider that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanagerlinuxsubscriptions_subscription_provider#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanagerlinuxsubscriptions_subscription_provider#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -830,7 +830,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.licensemanagerlinuxsubscriptionsSubscriptionProvider.LicensemanagerlinuxsubscriptionsSubscriptionProviderConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerlinuxsubscriptionssubscriptionprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/licensemanagerlinuxsubscriptionssubscriptionprovider"
 
 &licensemanagerlinuxsubscriptionssubscriptionprovider.LicensemanagerlinuxsubscriptionsSubscriptionProviderConfig {
 	Connection: interface{},
@@ -943,7 +943,7 @@ SecretArn *string
 
 The Amazon Resource Name (ARN) of the Secrets Manager secret that contains the access token for the third-party Linux subscription provider.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanagerlinuxsubscriptions_subscription_provider#secret_arn LicensemanagerlinuxsubscriptionsSubscriptionProvider#secret_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanagerlinuxsubscriptions_subscription_provider#secret_arn LicensemanagerlinuxsubscriptionsSubscriptionProvider#secret_arn}
 
 ---
 
@@ -957,7 +957,7 @@ SubscriptionProviderSource *string
 
 The Linux subscription provider that the registration is for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanagerlinuxsubscriptions_subscription_provider#subscription_provider_source LicensemanagerlinuxsubscriptionsSubscriptionProvider#subscription_provider_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanagerlinuxsubscriptions_subscription_provider#subscription_provider_source LicensemanagerlinuxsubscriptionsSubscriptionProvider#subscription_provider_source}
 
 ---
 
@@ -971,7 +971,7 @@ Tags interface{}
 
 The metadata tags assigned to the registered subscription provider.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanagerlinuxsubscriptions_subscription_provider#tags LicensemanagerlinuxsubscriptionsSubscriptionProvider#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanagerlinuxsubscriptions_subscription_provider#tags LicensemanagerlinuxsubscriptionsSubscriptionProvider#tags}
 
 ---
 
@@ -980,7 +980,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.licensemanagerlinuxsubscriptionsSubscriptionProvider.LicensemanagerlinuxsubscriptionsSubscriptionProviderTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerlinuxsubscriptionssubscriptionprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/licensemanagerlinuxsubscriptionssubscriptionprovider"
 
 &licensemanagerlinuxsubscriptionssubscriptionprovider.LicensemanagerlinuxsubscriptionsSubscriptionProviderTags {
 	Key: *string,
@@ -1009,7 +1009,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanagerlinuxsubscriptions_subscription_provider#key LicensemanagerlinuxsubscriptionsSubscriptionProvider#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanagerlinuxsubscriptions_subscription_provider#key LicensemanagerlinuxsubscriptionsSubscriptionProvider#key}
 
 ---
 
@@ -1023,7 +1023,7 @@ Value *string
 
 The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanagerlinuxsubscriptions_subscription_provider#value LicensemanagerlinuxsubscriptionsSubscriptionProvider#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanagerlinuxsubscriptions_subscription_provider#value LicensemanagerlinuxsubscriptionsSubscriptionProvider#value}
 
 ---
 
@@ -1034,7 +1034,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.licensemanagerlinuxsubscriptionsSubscriptionProvider.LicensemanagerlinuxsubscriptionsSubscriptionProviderTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerlinuxsubscriptionssubscriptionprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/licensemanagerlinuxsubscriptionssubscriptionprovider"
 
 licensemanagerlinuxsubscriptionssubscriptionprovider.NewLicensemanagerlinuxsubscriptionsSubscriptionProviderTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LicensemanagerlinuxsubscriptionsSubscriptionProviderTagsList
 ```
@@ -1194,7 +1194,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.licensemanagerlinuxsubscriptionsSubscriptionProvider.LicensemanagerlinuxsubscriptionsSubscriptionProviderTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerlinuxsubscriptionssubscriptionprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/licensemanagerlinuxsubscriptionssubscriptionprovider"
 
 licensemanagerlinuxsubscriptionssubscriptionprovider.NewLicensemanagerlinuxsubscriptionsSubscriptionProviderTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LicensemanagerlinuxsubscriptionsSubscriptionProviderTagsOutputReference
 ```

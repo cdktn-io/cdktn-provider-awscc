@@ -4,12 +4,12 @@
 
 ### DataAwsccQuicksightActionConnector <a name="DataAwsccQuicksightActionConnector" id="@cdktn/provider-awscc.dataAwsccQuicksightActionConnector.DataAwsccQuicksightActionConnector"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/quicksight_action_connector awscc_quicksight_action_connector}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_action_connector awscc_quicksight_action_connector}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightActionConnector.DataAwsccQuicksightActionConnector.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightactionconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightactionconnector"
 
 dataawsccquicksightactionconnector.NewDataAwsccQuicksightActionConnector(scope Construct, id *string, config DataAwsccQuicksightActionConnectorConfig) DataAwsccQuicksightActionConnector
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccQuicksightActionConnector.DataAwsccQuicksightActionConnector.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightactionconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightactionconnector"
 
 dataawsccquicksightactionconnector.DataAwsccQuicksightActionConnector_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccQuicksightActionConnector.DataAwsccQuicksightActionConnector.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightactionconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightactionconnector"
 
 dataawsccquicksightactionconnector.DataAwsccQuicksightActionConnector_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccquicksightactionconnector.DataAwsccQuicksightActionConnector_IsTerrafor
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightActionConnector.DataAwsccQuicksightActionConnector.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightactionconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightactionconnector"
 
 dataawsccquicksightactionconnector.DataAwsccQuicksightActionConnector_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccquicksightactionconnector.DataAwsccQuicksightActionConnector_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccQuicksightActionConnector.DataAwsccQuicksightActionConnector.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightactionconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightactionconnector"
 
 dataawsccquicksightactionconnector.DataAwsccQuicksightActionConnector_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccQuicksightActionC
 
 The id of the existing DataAwsccQuicksightActionConnector that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/quicksight_action_connector#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_action_connector#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -741,7 +741,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightActionConnector.DataAwsccQuicksightActionConnectorAuthenticationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightactionconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightactionconnector"
 
 &dataawsccquicksightactionconnector.DataAwsccQuicksightActionConnectorAuthenticationConfig {
 
@@ -754,7 +754,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightact
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightActionConnector.DataAwsccQuicksightActionConnectorAuthenticationConfigAuthenticationMetadata.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightactionconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightactionconnector"
 
 &dataawsccquicksightactionconnector.DataAwsccQuicksightActionConnectorAuthenticationConfigAuthenticationMetadata {
 
@@ -767,7 +767,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightact
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightActionConnector.DataAwsccQuicksightActionConnectorAuthenticationConfigAuthenticationMetadataApiKeyConnectionMetadata.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightactionconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightactionconnector"
 
 &dataawsccquicksightactionconnector.DataAwsccQuicksightActionConnectorAuthenticationConfigAuthenticationMetadataApiKeyConnectionMetadata {
 
@@ -780,7 +780,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightact
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightActionConnector.DataAwsccQuicksightActionConnectorAuthenticationConfigAuthenticationMetadataAuthorizationCodeGrantMetadata.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightactionconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightactionconnector"
 
 &dataawsccquicksightactionconnector.DataAwsccQuicksightActionConnectorAuthenticationConfigAuthenticationMetadataAuthorizationCodeGrantMetadata {
 
@@ -793,7 +793,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightact
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightActionConnector.DataAwsccQuicksightActionConnectorAuthenticationConfigAuthenticationMetadataAuthorizationCodeGrantMetadataAuthorizationCodeGrantCredentialsDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightactionconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightactionconnector"
 
 &dataawsccquicksightactionconnector.DataAwsccQuicksightActionConnectorAuthenticationConfigAuthenticationMetadataAuthorizationCodeGrantMetadataAuthorizationCodeGrantCredentialsDetails {
 
@@ -806,7 +806,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightact
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightActionConnector.DataAwsccQuicksightActionConnectorAuthenticationConfigAuthenticationMetadataAuthorizationCodeGrantMetadataAuthorizationCodeGrantCredentialsDetailsAuthorizationCodeGrantDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightactionconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightactionconnector"
 
 &dataawsccquicksightactionconnector.DataAwsccQuicksightActionConnectorAuthenticationConfigAuthenticationMetadataAuthorizationCodeGrantMetadataAuthorizationCodeGrantCredentialsDetailsAuthorizationCodeGrantDetails {
 
@@ -819,7 +819,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightact
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightActionConnector.DataAwsccQuicksightActionConnectorAuthenticationConfigAuthenticationMetadataBasicAuthConnectionMetadata.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightactionconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightactionconnector"
 
 &dataawsccquicksightactionconnector.DataAwsccQuicksightActionConnectorAuthenticationConfigAuthenticationMetadataBasicAuthConnectionMetadata {
 
@@ -832,7 +832,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightact
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightActionConnector.DataAwsccQuicksightActionConnectorAuthenticationConfigAuthenticationMetadataClientCredentialsGrantMetadata.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightactionconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightactionconnector"
 
 &dataawsccquicksightactionconnector.DataAwsccQuicksightActionConnectorAuthenticationConfigAuthenticationMetadataClientCredentialsGrantMetadata {
 
@@ -845,7 +845,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightact
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightActionConnector.DataAwsccQuicksightActionConnectorAuthenticationConfigAuthenticationMetadataClientCredentialsGrantMetadataClientCredentialsDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightactionconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightactionconnector"
 
 &dataawsccquicksightactionconnector.DataAwsccQuicksightActionConnectorAuthenticationConfigAuthenticationMetadataClientCredentialsGrantMetadataClientCredentialsDetails {
 
@@ -858,7 +858,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightact
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightActionConnector.DataAwsccQuicksightActionConnectorAuthenticationConfigAuthenticationMetadataClientCredentialsGrantMetadataClientCredentialsDetailsClientCredentialsGrantDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightactionconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightactionconnector"
 
 &dataawsccquicksightactionconnector.DataAwsccQuicksightActionConnectorAuthenticationConfigAuthenticationMetadataClientCredentialsGrantMetadataClientCredentialsDetailsClientCredentialsGrantDetails {
 
@@ -871,7 +871,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightact
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightActionConnector.DataAwsccQuicksightActionConnectorAuthenticationConfigAuthenticationMetadataIamConnectionMetadata.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightactionconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightactionconnector"
 
 &dataawsccquicksightactionconnector.DataAwsccQuicksightActionConnectorAuthenticationConfigAuthenticationMetadataIamConnectionMetadata {
 
@@ -884,7 +884,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightact
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightActionConnector.DataAwsccQuicksightActionConnectorAuthenticationConfigAuthenticationMetadataNoneConnectionMetadata.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightactionconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightactionconnector"
 
 &dataawsccquicksightactionconnector.DataAwsccQuicksightActionConnectorAuthenticationConfigAuthenticationMetadataNoneConnectionMetadata {
 
@@ -897,7 +897,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightact
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightActionConnector.DataAwsccQuicksightActionConnectorConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightactionconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightactionconnector"
 
 &dataawsccquicksightactionconnector.DataAwsccQuicksightActionConnectorConfig {
 	Connection: interface{},
@@ -1006,7 +1006,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/quicksight_action_connector#id DataAwsccQuicksightActionConnector#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_action_connector#id DataAwsccQuicksightActionConnector#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1018,7 +1018,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightActionConnector.DataAwsccQuicksightActionConnectorPermissions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightactionconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightactionconnector"
 
 &dataawsccquicksightactionconnector.DataAwsccQuicksightActionConnectorPermissions {
 
@@ -1031,7 +1031,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightact
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightActionConnector.DataAwsccQuicksightActionConnectorTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightactionconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightactionconnector"
 
 &dataawsccquicksightactionconnector.DataAwsccQuicksightActionConnectorTags {
 
@@ -1046,7 +1046,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightact
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightActionConnector.DataAwsccQuicksightActionConnectorAuthenticationConfigAuthenticationMetadataApiKeyConnectionMetadataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightactionconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightactionconnector"
 
 dataawsccquicksightactionconnector.NewDataAwsccQuicksightActionConnectorAuthenticationConfigAuthenticationMetadataApiKeyConnectionMetadataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightActionConnectorAuthenticationConfigAuthenticationMetadataApiKeyConnectionMetadataOutputReference
 ```
@@ -1328,7 +1328,7 @@ func InternalValue() DataAwsccQuicksightActionConnectorAuthenticationConfigAuthe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightActionConnector.DataAwsccQuicksightActionConnectorAuthenticationConfigAuthenticationMetadataAuthorizationCodeGrantMetadataAuthorizationCodeGrantCredentialsDetailsAuthorizationCodeGrantDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightactionconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightactionconnector"
 
 dataawsccquicksightactionconnector.NewDataAwsccQuicksightActionConnectorAuthenticationConfigAuthenticationMetadataAuthorizationCodeGrantMetadataAuthorizationCodeGrantCredentialsDetailsAuthorizationCodeGrantDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightActionConnectorAuthenticationConfigAuthenticationMetadataAuthorizationCodeGrantMetadataAuthorizationCodeGrantCredentialsDetailsAuthorizationCodeGrantDetailsOutputReference
 ```
@@ -1621,7 +1621,7 @@ func InternalValue() DataAwsccQuicksightActionConnectorAuthenticationConfigAuthe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightActionConnector.DataAwsccQuicksightActionConnectorAuthenticationConfigAuthenticationMetadataAuthorizationCodeGrantMetadataAuthorizationCodeGrantCredentialsDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightactionconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightactionconnector"
 
 dataawsccquicksightactionconnector.NewDataAwsccQuicksightActionConnectorAuthenticationConfigAuthenticationMetadataAuthorizationCodeGrantMetadataAuthorizationCodeGrantCredentialsDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightActionConnectorAuthenticationConfigAuthenticationMetadataAuthorizationCodeGrantMetadataAuthorizationCodeGrantCredentialsDetailsOutputReference
 ```
@@ -1881,7 +1881,7 @@ func InternalValue() DataAwsccQuicksightActionConnectorAuthenticationConfigAuthe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightActionConnector.DataAwsccQuicksightActionConnectorAuthenticationConfigAuthenticationMetadataAuthorizationCodeGrantMetadataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightactionconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightactionconnector"
 
 dataawsccquicksightactionconnector.NewDataAwsccQuicksightActionConnectorAuthenticationConfigAuthenticationMetadataAuthorizationCodeGrantMetadataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightActionConnectorAuthenticationConfigAuthenticationMetadataAuthorizationCodeGrantMetadataOutputReference
 ```
@@ -2174,7 +2174,7 @@ func InternalValue() DataAwsccQuicksightActionConnectorAuthenticationConfigAuthe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightActionConnector.DataAwsccQuicksightActionConnectorAuthenticationConfigAuthenticationMetadataBasicAuthConnectionMetadataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightactionconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightactionconnector"
 
 dataawsccquicksightactionconnector.NewDataAwsccQuicksightActionConnectorAuthenticationConfigAuthenticationMetadataBasicAuthConnectionMetadataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightActionConnectorAuthenticationConfigAuthenticationMetadataBasicAuthConnectionMetadataOutputReference
 ```
@@ -2456,7 +2456,7 @@ func InternalValue() DataAwsccQuicksightActionConnectorAuthenticationConfigAuthe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightActionConnector.DataAwsccQuicksightActionConnectorAuthenticationConfigAuthenticationMetadataClientCredentialsGrantMetadataClientCredentialsDetailsClientCredentialsGrantDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightactionconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightactionconnector"
 
 dataawsccquicksightactionconnector.NewDataAwsccQuicksightActionConnectorAuthenticationConfigAuthenticationMetadataClientCredentialsGrantMetadataClientCredentialsDetailsClientCredentialsGrantDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightActionConnectorAuthenticationConfigAuthenticationMetadataClientCredentialsGrantMetadataClientCredentialsDetailsClientCredentialsGrantDetailsOutputReference
 ```
@@ -2738,7 +2738,7 @@ func InternalValue() DataAwsccQuicksightActionConnectorAuthenticationConfigAuthe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightActionConnector.DataAwsccQuicksightActionConnectorAuthenticationConfigAuthenticationMetadataClientCredentialsGrantMetadataClientCredentialsDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightactionconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightactionconnector"
 
 dataawsccquicksightactionconnector.NewDataAwsccQuicksightActionConnectorAuthenticationConfigAuthenticationMetadataClientCredentialsGrantMetadataClientCredentialsDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightActionConnectorAuthenticationConfigAuthenticationMetadataClientCredentialsGrantMetadataClientCredentialsDetailsOutputReference
 ```
@@ -2998,7 +2998,7 @@ func InternalValue() DataAwsccQuicksightActionConnectorAuthenticationConfigAuthe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightActionConnector.DataAwsccQuicksightActionConnectorAuthenticationConfigAuthenticationMetadataClientCredentialsGrantMetadataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightactionconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightactionconnector"
 
 dataawsccquicksightactionconnector.NewDataAwsccQuicksightActionConnectorAuthenticationConfigAuthenticationMetadataClientCredentialsGrantMetadataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightActionConnectorAuthenticationConfigAuthenticationMetadataClientCredentialsGrantMetadataOutputReference
 ```
@@ -3280,7 +3280,7 @@ func InternalValue() DataAwsccQuicksightActionConnectorAuthenticationConfigAuthe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightActionConnector.DataAwsccQuicksightActionConnectorAuthenticationConfigAuthenticationMetadataIamConnectionMetadataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightactionconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightactionconnector"
 
 dataawsccquicksightactionconnector.NewDataAwsccQuicksightActionConnectorAuthenticationConfigAuthenticationMetadataIamConnectionMetadataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightActionConnectorAuthenticationConfigAuthenticationMetadataIamConnectionMetadataOutputReference
 ```
@@ -3540,7 +3540,7 @@ func InternalValue() DataAwsccQuicksightActionConnectorAuthenticationConfigAuthe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightActionConnector.DataAwsccQuicksightActionConnectorAuthenticationConfigAuthenticationMetadataNoneConnectionMetadataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightactionconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightactionconnector"
 
 dataawsccquicksightactionconnector.NewDataAwsccQuicksightActionConnectorAuthenticationConfigAuthenticationMetadataNoneConnectionMetadataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightActionConnectorAuthenticationConfigAuthenticationMetadataNoneConnectionMetadataOutputReference
 ```
@@ -3800,7 +3800,7 @@ func InternalValue() DataAwsccQuicksightActionConnectorAuthenticationConfigAuthe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightActionConnector.DataAwsccQuicksightActionConnectorAuthenticationConfigAuthenticationMetadataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightactionconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightactionconnector"
 
 dataawsccquicksightactionconnector.NewDataAwsccQuicksightActionConnectorAuthenticationConfigAuthenticationMetadataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightActionConnectorAuthenticationConfigAuthenticationMetadataOutputReference
 ```
@@ -4115,7 +4115,7 @@ func InternalValue() DataAwsccQuicksightActionConnectorAuthenticationConfigAuthe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightActionConnector.DataAwsccQuicksightActionConnectorAuthenticationConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightactionconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightactionconnector"
 
 dataawsccquicksightactionconnector.NewDataAwsccQuicksightActionConnectorAuthenticationConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightActionConnectorAuthenticationConfigOutputReference
 ```
@@ -4386,7 +4386,7 @@ func InternalValue() DataAwsccQuicksightActionConnectorAuthenticationConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightActionConnector.DataAwsccQuicksightActionConnectorPermissionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightactionconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightactionconnector"
 
 dataawsccquicksightactionconnector.NewDataAwsccQuicksightActionConnectorPermissionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccQuicksightActionConnectorPermissionsList
 ```
@@ -4535,7 +4535,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightActionConnector.DataAwsccQuicksightActionConnectorPermissionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightactionconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightactionconnector"
 
 dataawsccquicksightactionconnector.NewDataAwsccQuicksightActionConnectorPermissionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccQuicksightActionConnectorPermissionsOutputReference
 ```
@@ -4824,7 +4824,7 @@ func InternalValue() DataAwsccQuicksightActionConnectorPermissions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightActionConnector.DataAwsccQuicksightActionConnectorTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightactionconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightactionconnector"
 
 dataawsccquicksightactionconnector.NewDataAwsccQuicksightActionConnectorTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccQuicksightActionConnectorTagsList
 ```
@@ -4973,7 +4973,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightActionConnector.DataAwsccQuicksightActionConnectorTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightactionconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightactionconnector"
 
 dataawsccquicksightactionconnector.NewDataAwsccQuicksightActionConnectorTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccQuicksightActionConnectorTagsOutputReference
 ```

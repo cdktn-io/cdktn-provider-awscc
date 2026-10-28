@@ -4,12 +4,12 @@
 
 ### DataAwsccAppstreamFleet <a name="DataAwsccAppstreamFleet" id="@cdktn/provider-awscc.dataAwsccAppstreamFleet.DataAwsccAppstreamFleet"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appstream_fleet awscc_appstream_fleet}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appstream_fleet awscc_appstream_fleet}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppstreamFleet.DataAwsccAppstreamFleet.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamfleet"
 
 dataawsccappstreamfleet.NewDataAwsccAppstreamFleet(scope Construct, id *string, config DataAwsccAppstreamFleetConfig) DataAwsccAppstreamFleet
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccAppstreamFleet.DataAwsccAppstreamFleet.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamfleet"
 
 dataawsccappstreamfleet.DataAwsccAppstreamFleet_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccAppstreamFleet.DataAwsccAppstreamFleet.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamfleet"
 
 dataawsccappstreamfleet.DataAwsccAppstreamFleet_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccappstreamfleet.DataAwsccAppstreamFleet_IsTerraformElement(x interface{}
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccAppstreamFleet.DataAwsccAppstreamFleet.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamfleet"
 
 dataawsccappstreamfleet.DataAwsccAppstreamFleet_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccappstreamfleet.DataAwsccAppstreamFleet_IsTerraformDataSource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccAppstreamFleet.DataAwsccAppstreamFleet.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamfleet"
 
 dataawsccappstreamfleet.DataAwsccAppstreamFleet_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccAppstreamFleet to
 
 The id of the existing DataAwsccAppstreamFleet that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appstream_fleet#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appstream_fleet#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -873,7 +873,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppstreamFleet.DataAwsccAppstreamFleetComputeCapacity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamfleet"
 
 &dataawsccappstreamfleet.DataAwsccAppstreamFleetComputeCapacity {
 
@@ -886,7 +886,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamflee
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppstreamFleet.DataAwsccAppstreamFleetConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamfleet"
 
 &dataawsccappstreamfleet.DataAwsccAppstreamFleetConfig {
 	Connection: interface{},
@@ -995,7 +995,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appstream_fleet#id DataAwsccAppstreamFleet#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appstream_fleet#id DataAwsccAppstreamFleet#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1007,7 +1007,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppstreamFleet.DataAwsccAppstreamFleetDomainJoinInfo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamfleet"
 
 &dataawsccappstreamfleet.DataAwsccAppstreamFleetDomainJoinInfo {
 
@@ -1020,7 +1020,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamflee
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppstreamFleet.DataAwsccAppstreamFleetRootVolumeConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamfleet"
 
 &dataawsccappstreamfleet.DataAwsccAppstreamFleetRootVolumeConfig {
 
@@ -1033,7 +1033,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamflee
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppstreamFleet.DataAwsccAppstreamFleetSessionScriptS3Location.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamfleet"
 
 &dataawsccappstreamfleet.DataAwsccAppstreamFleetSessionScriptS3Location {
 
@@ -1046,7 +1046,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamflee
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppstreamFleet.DataAwsccAppstreamFleetTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamfleet"
 
 &dataawsccappstreamfleet.DataAwsccAppstreamFleetTags {
 
@@ -1059,7 +1059,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamflee
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppstreamFleet.DataAwsccAppstreamFleetVpcConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamfleet"
 
 &dataawsccappstreamfleet.DataAwsccAppstreamFleetVpcConfig {
 
@@ -1074,7 +1074,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamflee
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppstreamFleet.DataAwsccAppstreamFleetComputeCapacityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamfleet"
 
 dataawsccappstreamfleet.NewDataAwsccAppstreamFleetComputeCapacityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppstreamFleetComputeCapacityOutputReference
 ```
@@ -1345,7 +1345,7 @@ func InternalValue() DataAwsccAppstreamFleetComputeCapacity
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppstreamFleet.DataAwsccAppstreamFleetDomainJoinInfoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamfleet"
 
 dataawsccappstreamfleet.NewDataAwsccAppstreamFleetDomainJoinInfoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppstreamFleetDomainJoinInfoOutputReference
 ```
@@ -1616,7 +1616,7 @@ func InternalValue() DataAwsccAppstreamFleetDomainJoinInfo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppstreamFleet.DataAwsccAppstreamFleetRootVolumeConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamfleet"
 
 dataawsccappstreamfleet.NewDataAwsccAppstreamFleetRootVolumeConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppstreamFleetRootVolumeConfigOutputReference
 ```
@@ -1876,7 +1876,7 @@ func InternalValue() DataAwsccAppstreamFleetRootVolumeConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppstreamFleet.DataAwsccAppstreamFleetSessionScriptS3LocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamfleet"
 
 dataawsccappstreamfleet.NewDataAwsccAppstreamFleetSessionScriptS3LocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppstreamFleetSessionScriptS3LocationOutputReference
 ```
@@ -2147,7 +2147,7 @@ func InternalValue() DataAwsccAppstreamFleetSessionScriptS3Location
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppstreamFleet.DataAwsccAppstreamFleetTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamfleet"
 
 dataawsccappstreamfleet.NewDataAwsccAppstreamFleetTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccAppstreamFleetTagsList
 ```
@@ -2296,7 +2296,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppstreamFleet.DataAwsccAppstreamFleetTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamfleet"
 
 dataawsccappstreamfleet.NewDataAwsccAppstreamFleetTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccAppstreamFleetTagsOutputReference
 ```
@@ -2585,7 +2585,7 @@ func InternalValue() DataAwsccAppstreamFleetTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppstreamFleet.DataAwsccAppstreamFleetVpcConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamfleet"
 
 dataawsccappstreamfleet.NewDataAwsccAppstreamFleetVpcConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppstreamFleetVpcConfigOutputReference
 ```

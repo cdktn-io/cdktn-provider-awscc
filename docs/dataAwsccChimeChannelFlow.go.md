@@ -4,12 +4,12 @@
 
 ### DataAwsccChimeChannelFlow <a name="DataAwsccChimeChannelFlow" id="@cdktn/provider-awscc.dataAwsccChimeChannelFlow.DataAwsccChimeChannelFlow"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/chime_channel_flow awscc_chime_channel_flow}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/chime_channel_flow awscc_chime_channel_flow}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccChimeChannelFlow.DataAwsccChimeChannelFlow.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimechannelflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchimechannelflow"
 
 dataawsccchimechannelflow.NewDataAwsccChimeChannelFlow(scope Construct, id *string, config DataAwsccChimeChannelFlowConfig) DataAwsccChimeChannelFlow
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccChimeChannelFlow.DataAwsccChimeChannelFlow.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimechannelflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchimechannelflow"
 
 dataawsccchimechannelflow.DataAwsccChimeChannelFlow_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccChimeChannelFlow.DataAwsccChimeChannelFlow.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimechannelflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchimechannelflow"
 
 dataawsccchimechannelflow.DataAwsccChimeChannelFlow_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccchimechannelflow.DataAwsccChimeChannelFlow_IsTerraformElement(x interfa
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccChimeChannelFlow.DataAwsccChimeChannelFlow.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimechannelflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchimechannelflow"
 
 dataawsccchimechannelflow.DataAwsccChimeChannelFlow_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccchimechannelflow.DataAwsccChimeChannelFlow_IsTerraformDataSource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccChimeChannelFlow.DataAwsccChimeChannelFlow.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimechannelflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchimechannelflow"
 
 dataawsccchimechannelflow.DataAwsccChimeChannelFlow_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccChimeChannelFlow 
 
 The id of the existing DataAwsccChimeChannelFlow that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/chime_channel_flow#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/chime_channel_flow#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -686,7 +686,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccChimeChannelFlow.DataAwsccChimeChannelFlowConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimechannelflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchimechannelflow"
 
 &dataawsccchimechannelflow.DataAwsccChimeChannelFlowConfig {
 	Connection: interface{},
@@ -795,7 +795,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/chime_channel_flow#id DataAwsccChimeChannelFlow#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/chime_channel_flow#id DataAwsccChimeChannelFlow#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -807,7 +807,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccChimeChannelFlow.DataAwsccChimeChannelFlowProcessors.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimechannelflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchimechannelflow"
 
 &dataawsccchimechannelflow.DataAwsccChimeChannelFlowProcessors {
 
@@ -820,7 +820,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimechannelf
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccChimeChannelFlow.DataAwsccChimeChannelFlowProcessorsConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimechannelflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchimechannelflow"
 
 &dataawsccchimechannelflow.DataAwsccChimeChannelFlowProcessorsConfiguration {
 
@@ -833,7 +833,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimechannelf
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccChimeChannelFlow.DataAwsccChimeChannelFlowProcessorsConfigurationLambda.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimechannelflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchimechannelflow"
 
 &dataawsccchimechannelflow.DataAwsccChimeChannelFlowProcessorsConfigurationLambda {
 
@@ -846,7 +846,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimechannelf
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccChimeChannelFlow.DataAwsccChimeChannelFlowTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimechannelflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchimechannelflow"
 
 &dataawsccchimechannelflow.DataAwsccChimeChannelFlowTags {
 
@@ -861,7 +861,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimechannelf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccChimeChannelFlow.DataAwsccChimeChannelFlowProcessorsConfigurationLambdaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimechannelflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchimechannelflow"
 
 dataawsccchimechannelflow.NewDataAwsccChimeChannelFlowProcessorsConfigurationLambdaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccChimeChannelFlowProcessorsConfigurationLambdaOutputReference
 ```
@@ -1132,7 +1132,7 @@ func InternalValue() DataAwsccChimeChannelFlowProcessorsConfigurationLambda
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccChimeChannelFlow.DataAwsccChimeChannelFlowProcessorsConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimechannelflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchimechannelflow"
 
 dataawsccchimechannelflow.NewDataAwsccChimeChannelFlowProcessorsConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccChimeChannelFlowProcessorsConfigurationOutputReference
 ```
@@ -1392,7 +1392,7 @@ func InternalValue() DataAwsccChimeChannelFlowProcessorsConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccChimeChannelFlow.DataAwsccChimeChannelFlowProcessorsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimechannelflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchimechannelflow"
 
 dataawsccchimechannelflow.NewDataAwsccChimeChannelFlowProcessorsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccChimeChannelFlowProcessorsList
 ```
@@ -1541,7 +1541,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccChimeChannelFlow.DataAwsccChimeChannelFlowProcessorsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimechannelflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchimechannelflow"
 
 dataawsccchimechannelflow.NewDataAwsccChimeChannelFlowProcessorsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccChimeChannelFlowProcessorsOutputReference
 ```
@@ -1852,7 +1852,7 @@ func InternalValue() DataAwsccChimeChannelFlowProcessors
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccChimeChannelFlow.DataAwsccChimeChannelFlowTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimechannelflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchimechannelflow"
 
 dataawsccchimechannelflow.NewDataAwsccChimeChannelFlowTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccChimeChannelFlowTagsList
 ```
@@ -2001,7 +2001,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccChimeChannelFlow.DataAwsccChimeChannelFlowTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimechannelflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchimechannelflow"
 
 dataawsccchimechannelflow.NewDataAwsccChimeChannelFlowTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccChimeChannelFlowTagsOutputReference
 ```

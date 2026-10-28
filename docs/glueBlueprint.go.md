@@ -4,12 +4,12 @@
 
 ### GlueBlueprint <a name="GlueBlueprint" id="@cdktn/provider-awscc.glueBlueprint.GlueBlueprint"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_blueprint awscc_glue_blueprint}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_blueprint awscc_glue_blueprint}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueBlueprint.GlueBlueprint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueblueprint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueblueprint"
 
 glueblueprint.NewGlueBlueprint(scope Construct, id *string, config GlueBlueprintConfig) GlueBlueprint
 ```
@@ -427,7 +427,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.glueBlueprint.GlueBlueprint.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueblueprint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueblueprint"
 
 glueblueprint.GlueBlueprint_IsConstruct(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.glueBlueprint.GlueBlueprint.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueblueprint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueblueprint"
 
 glueblueprint.GlueBlueprint_IsTerraformElement(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ glueblueprint.GlueBlueprint_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.glueBlueprint.GlueBlueprint.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueblueprint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueblueprint"
 
 glueblueprint.GlueBlueprint_IsTerraformResource(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ glueblueprint.GlueBlueprint_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.glueBlueprint.GlueBlueprint.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueblueprint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueblueprint"
 
 glueblueprint.GlueBlueprint_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -516,7 +516,7 @@ The construct id used in the generated config for the GlueBlueprint to import.
 
 The id of the existing GlueBlueprint that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_blueprint#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_blueprint#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -870,7 +870,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueBlueprint.GlueBlueprintConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueblueprint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueblueprint"
 
 &glueblueprint.GlueBlueprintConfig {
 	Connection: interface{},
@@ -985,7 +985,7 @@ BlueprintLocation *string
 
 Specifies a path in Amazon S3 where the blueprint is published.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_blueprint#blueprint_location GlueBlueprint#blueprint_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_blueprint#blueprint_location GlueBlueprint#blueprint_location}
 
 ---
 
@@ -999,7 +999,7 @@ Name *string
 
 The name of the blueprint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_blueprint#name GlueBlueprint#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_blueprint#name GlueBlueprint#name}
 
 ---
 
@@ -1013,7 +1013,7 @@ Description *string
 
 A description of the blueprint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_blueprint#description GlueBlueprint#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_blueprint#description GlueBlueprint#description}
 
 ---
 
@@ -1027,7 +1027,7 @@ Tags interface{}
 
 The tags to be applied to this blueprint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_blueprint#tags GlueBlueprint#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_blueprint#tags GlueBlueprint#tags}
 
 ---
 
@@ -1036,7 +1036,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueBlueprint.GlueBlueprintTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueblueprint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueblueprint"
 
 &glueblueprint.GlueBlueprintTags {
 	Key: *string,
@@ -1063,7 +1063,7 @@ Key *string
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_blueprint#key GlueBlueprint#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_blueprint#key GlueBlueprint#key}
 
 ---
 
@@ -1077,7 +1077,7 @@ Value *string
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_blueprint#value GlueBlueprint#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_blueprint#value GlueBlueprint#value}
 
 ---
 
@@ -1088,7 +1088,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueBlueprint.GlueBlueprintTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueblueprint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueblueprint"
 
 glueblueprint.NewGlueBlueprintTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GlueBlueprintTagsList
 ```
@@ -1248,7 +1248,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueBlueprint.GlueBlueprintTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueblueprint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueblueprint"
 
 glueblueprint.NewGlueBlueprintTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GlueBlueprintTagsOutputReference
 ```

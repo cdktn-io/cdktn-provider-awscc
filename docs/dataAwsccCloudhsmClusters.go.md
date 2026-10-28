@@ -4,12 +4,12 @@
 
 ### DataAwsccCloudhsmClusters <a name="DataAwsccCloudhsmClusters" id="@cdktn/provider-awscc.dataAwsccCloudhsmClusters.DataAwsccCloudhsmClusters"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudhsm_clusters awscc_cloudhsm_clusters}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudhsm_clusters awscc_cloudhsm_clusters}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudhsmClusters.DataAwsccCloudhsmClusters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudhsmclusters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudhsmclusters"
 
 dataawscccloudhsmclusters.NewDataAwsccCloudhsmClusters(scope Construct, id *string, config DataAwsccCloudhsmClustersConfig) DataAwsccCloudhsmClusters
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCloudhsmClusters.DataAwsccCloudhsmClusters.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudhsmclusters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudhsmclusters"
 
 dataawscccloudhsmclusters.DataAwsccCloudhsmClusters_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCloudhsmClusters.DataAwsccCloudhsmClusters.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudhsmclusters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudhsmclusters"
 
 dataawscccloudhsmclusters.DataAwsccCloudhsmClusters_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccloudhsmclusters.DataAwsccCloudhsmClusters_IsTerraformElement(x interfa
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCloudhsmClusters.DataAwsccCloudhsmClusters.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudhsmclusters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudhsmclusters"
 
 dataawscccloudhsmclusters.DataAwsccCloudhsmClusters_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccloudhsmclusters.DataAwsccCloudhsmClusters_IsTerraformDataSource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCloudhsmClusters.DataAwsccCloudhsmClusters.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudhsmclusters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudhsmclusters"
 
 dataawscccloudhsmclusters.DataAwsccCloudhsmClusters_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCloudhsmClusters 
 
 The id of the existing DataAwsccCloudhsmClusters that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudhsm_clusters#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudhsm_clusters#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloudhsmClusters.DataAwsccCloudhsmClustersConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudhsmclusters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudhsmclusters"
 
 &dataawscccloudhsmclusters.DataAwsccCloudhsmClustersConfig {
 	Connection: interface{},

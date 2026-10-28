@@ -4,12 +4,12 @@
 
 ### DataAwsccSsmguiconnectPreferencesPlural <a name="DataAwsccSsmguiconnectPreferencesPlural" id="@cdktn/provider-awscc.dataAwsccSsmguiconnectPreferencesPlural.DataAwsccSsmguiconnectPreferencesPlural"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ssmguiconnect_preferences_plural awscc_ssmguiconnect_preferences_plural}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ssmguiconnect_preferences_plural awscc_ssmguiconnect_preferences_plural}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmguiconnectPreferencesPlural.DataAwsccSsmguiconnectPreferencesPlural.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmguiconnectpreferencesplural"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmguiconnectpreferencesplural"
 
 dataawsccssmguiconnectpreferencesplural.NewDataAwsccSsmguiconnectPreferencesPlural(scope Construct, id *string, config DataAwsccSsmguiconnectPreferencesPluralConfig) DataAwsccSsmguiconnectPreferencesPlural
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSsmguiconnectPreferencesPlural.DataAwsccSsmguiconnectPreferencesPlural.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmguiconnectpreferencesplural"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmguiconnectpreferencesplural"
 
 dataawsccssmguiconnectpreferencesplural.DataAwsccSsmguiconnectPreferencesPlural_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSsmguiconnectPreferencesPlural.DataAwsccSsmguiconnectPreferencesPlural.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmguiconnectpreferencesplural"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmguiconnectpreferencesplural"
 
 dataawsccssmguiconnectpreferencesplural.DataAwsccSsmguiconnectPreferencesPlural_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccssmguiconnectpreferencesplural.DataAwsccSsmguiconnectPreferencesPlural_
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSsmguiconnectPreferencesPlural.DataAwsccSsmguiconnectPreferencesPlural.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmguiconnectpreferencesplural"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmguiconnectpreferencesplural"
 
 dataawsccssmguiconnectpreferencesplural.DataAwsccSsmguiconnectPreferencesPlural_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccssmguiconnectpreferencesplural.DataAwsccSsmguiconnectPreferencesPlural_
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSsmguiconnectPreferencesPlural.DataAwsccSsmguiconnectPreferencesPlural.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmguiconnectpreferencesplural"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmguiconnectpreferencesplural"
 
 dataawsccssmguiconnectpreferencesplural.DataAwsccSsmguiconnectPreferencesPlural_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSsmguiconnectPref
 
 The id of the existing DataAwsccSsmguiconnectPreferencesPlural that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ssmguiconnect_preferences_plural#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ssmguiconnect_preferences_plural#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSsmguiconnectPreferencesPlural.DataAwsccSsmguiconnectPreferencesPluralConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmguiconnectpreferencesplural"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmguiconnectpreferencesplural"
 
 &dataawsccssmguiconnectpreferencesplural.DataAwsccSsmguiconnectPreferencesPluralConfig {
 	Connection: interface{},

@@ -4,12 +4,12 @@
 
 ### DataAwsccIotwirelessTaskDefinitions <a name="DataAwsccIotwirelessTaskDefinitions" id="@cdktn/provider-awscc.dataAwsccIotwirelessTaskDefinitions.DataAwsccIotwirelessTaskDefinitions"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotwireless_task_definitions awscc_iotwireless_task_definitions}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotwireless_task_definitions awscc_iotwireless_task_definitions}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotwirelessTaskDefinitions.DataAwsccIotwirelessTaskDefinitions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelesstaskdefinitions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelesstaskdefinitions"
 
 dataawscciotwirelesstaskdefinitions.NewDataAwsccIotwirelessTaskDefinitions(scope Construct, id *string, config DataAwsccIotwirelessTaskDefinitionsConfig) DataAwsccIotwirelessTaskDefinitions
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIotwirelessTaskDefinitions.DataAwsccIotwirelessTaskDefinitions.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelesstaskdefinitions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelesstaskdefinitions"
 
 dataawscciotwirelesstaskdefinitions.DataAwsccIotwirelessTaskDefinitions_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIotwirelessTaskDefinitions.DataAwsccIotwirelessTaskDefinitions.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelesstaskdefinitions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelesstaskdefinitions"
 
 dataawscciotwirelesstaskdefinitions.DataAwsccIotwirelessTaskDefinitions_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciotwirelesstaskdefinitions.DataAwsccIotwirelessTaskDefinitions_IsTerraf
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIotwirelessTaskDefinitions.DataAwsccIotwirelessTaskDefinitions.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelesstaskdefinitions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelesstaskdefinitions"
 
 dataawscciotwirelesstaskdefinitions.DataAwsccIotwirelessTaskDefinitions_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciotwirelesstaskdefinitions.DataAwsccIotwirelessTaskDefinitions_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIotwirelessTaskDefinitions.DataAwsccIotwirelessTaskDefinitions.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelesstaskdefinitions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelesstaskdefinitions"
 
 dataawscciotwirelesstaskdefinitions.DataAwsccIotwirelessTaskDefinitions_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotwirelessTaskDe
 
 The id of the existing DataAwsccIotwirelessTaskDefinitions that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotwireless_task_definitions#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotwireless_task_definitions#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotwirelessTaskDefinitions.DataAwsccIotwirelessTaskDefinitionsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelesstaskdefinitions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelesstaskdefinitions"
 
 &dataawscciotwirelesstaskdefinitions.DataAwsccIotwirelessTaskDefinitionsConfig {
 	Connection: interface{},

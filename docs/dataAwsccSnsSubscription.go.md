@@ -4,12 +4,12 @@
 
 ### DataAwsccSnsSubscription <a name="DataAwsccSnsSubscription" id="@cdktn/provider-awscc.dataAwsccSnsSubscription.DataAwsccSnsSubscription"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sns_subscription awscc_sns_subscription}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sns_subscription awscc_sns_subscription}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSnsSubscription.DataAwsccSnsSubscription.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsnssubscription"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsnssubscription"
 
 dataawsccsnssubscription.NewDataAwsccSnsSubscription(scope Construct, id *string, config DataAwsccSnsSubscriptionConfig) DataAwsccSnsSubscription
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSnsSubscription.DataAwsccSnsSubscription.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsnssubscription"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsnssubscription"
 
 dataawsccsnssubscription.DataAwsccSnsSubscription_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSnsSubscription.DataAwsccSnsSubscription.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsnssubscription"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsnssubscription"
 
 dataawsccsnssubscription.DataAwsccSnsSubscription_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsnssubscription.DataAwsccSnsSubscription_IsTerraformElement(x interface
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSnsSubscription.DataAwsccSnsSubscription.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsnssubscription"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsnssubscription"
 
 dataawsccsnssubscription.DataAwsccSnsSubscription_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsnssubscription.DataAwsccSnsSubscription_IsTerraformDataSource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSnsSubscription.DataAwsccSnsSubscription.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsnssubscription"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsnssubscription"
 
 dataawsccsnssubscription.DataAwsccSnsSubscription_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSnsSubscription t
 
 The id of the existing DataAwsccSnsSubscription that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sns_subscription#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sns_subscription#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -719,7 +719,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSnsSubscription.DataAwsccSnsSubscriptionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsnssubscription"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsnssubscription"
 
 &dataawsccsnssubscription.DataAwsccSnsSubscriptionConfig {
 	Connection: interface{},
@@ -828,7 +828,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sns_subscription#id DataAwsccSnsSubscription#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sns_subscription#id DataAwsccSnsSubscription#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

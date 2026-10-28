@@ -4,12 +4,12 @@
 
 ### EventsEndpoint <a name="EventsEndpoint" id="@cdktn/provider-awscc.eventsEndpoint.EventsEndpoint"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_endpoint awscc_events_endpoint}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_endpoint awscc_events_endpoint}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsEndpoint.EventsEndpoint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsendpoint"
 
 eventsendpoint.NewEventsEndpoint(scope Construct, id *string, config EventsEndpointConfig) EventsEndpoint
 ```
@@ -467,7 +467,7 @@ func ResetRoleArn()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.eventsEndpoint.EventsEndpoint.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsendpoint"
 
 eventsendpoint.EventsEndpoint_IsConstruct(x interface{}) *bool
 ```
@@ -499,7 +499,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.eventsEndpoint.EventsEndpoint.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsendpoint"
 
 eventsendpoint.EventsEndpoint_IsTerraformElement(x interface{}) *bool
 ```
@@ -513,7 +513,7 @@ eventsendpoint.EventsEndpoint_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.eventsEndpoint.EventsEndpoint.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsendpoint"
 
 eventsendpoint.EventsEndpoint_IsTerraformResource(x interface{}) *bool
 ```
@@ -527,7 +527,7 @@ eventsendpoint.EventsEndpoint_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.eventsEndpoint.EventsEndpoint.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsendpoint"
 
 eventsendpoint.EventsEndpoint_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -556,7 +556,7 @@ The construct id used in the generated config for the EventsEndpoint to import.
 
 The id of the existing EventsEndpoint that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_endpoint#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_endpoint#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -954,7 +954,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.eventsEndpoint.EventsEndpointConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsendpoint"
 
 &eventsendpoint.EventsEndpointConfig {
 	Connection: interface{},
@@ -965,10 +965,10 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsendpoint"
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	EventBuses: interface{},
-	RoutingConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.eventsEndpoint.EventsEndpointRoutingConfig,
+	RoutingConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.eventsEndpoint.EventsEndpointRoutingConfig,
 	Description: *string,
 	Name: *string,
-	ReplicationConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.eventsEndpoint.EventsEndpointReplicationConfig,
+	ReplicationConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.eventsEndpoint.EventsEndpointReplicationConfig,
 	RoleArn: *string,
 }
 ```
@@ -984,12 +984,12 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsendpoint"
 | <code><a href="#@cdktn/provider-awscc.eventsEndpoint.EventsEndpointConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.eventsEndpoint.EventsEndpointConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.eventsEndpoint.EventsEndpointConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.eventsEndpoint.EventsEndpointConfig.property.eventBuses">EventBuses</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_endpoint#event_buses EventsEndpoint#event_buses}. |
-| <code><a href="#@cdktn/provider-awscc.eventsEndpoint.EventsEndpointConfig.property.routingConfig">RoutingConfig</a></code> | <code><a href="#@cdktn/provider-awscc.eventsEndpoint.EventsEndpointRoutingConfig">EventsEndpointRoutingConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_endpoint#routing_config EventsEndpoint#routing_config}. |
-| <code><a href="#@cdktn/provider-awscc.eventsEndpoint.EventsEndpointConfig.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_endpoint#description EventsEndpoint#description}. |
-| <code><a href="#@cdktn/provider-awscc.eventsEndpoint.EventsEndpointConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_endpoint#name EventsEndpoint#name}. |
-| <code><a href="#@cdktn/provider-awscc.eventsEndpoint.EventsEndpointConfig.property.replicationConfig">ReplicationConfig</a></code> | <code><a href="#@cdktn/provider-awscc.eventsEndpoint.EventsEndpointReplicationConfig">EventsEndpointReplicationConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_endpoint#replication_config EventsEndpoint#replication_config}. |
-| <code><a href="#@cdktn/provider-awscc.eventsEndpoint.EventsEndpointConfig.property.roleArn">RoleArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_endpoint#role_arn EventsEndpoint#role_arn}. |
+| <code><a href="#@cdktn/provider-awscc.eventsEndpoint.EventsEndpointConfig.property.eventBuses">EventBuses</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_endpoint#event_buses EventsEndpoint#event_buses}. |
+| <code><a href="#@cdktn/provider-awscc.eventsEndpoint.EventsEndpointConfig.property.routingConfig">RoutingConfig</a></code> | <code><a href="#@cdktn/provider-awscc.eventsEndpoint.EventsEndpointRoutingConfig">EventsEndpointRoutingConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_endpoint#routing_config EventsEndpoint#routing_config}. |
+| <code><a href="#@cdktn/provider-awscc.eventsEndpoint.EventsEndpointConfig.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_endpoint#description EventsEndpoint#description}. |
+| <code><a href="#@cdktn/provider-awscc.eventsEndpoint.EventsEndpointConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_endpoint#name EventsEndpoint#name}. |
+| <code><a href="#@cdktn/provider-awscc.eventsEndpoint.EventsEndpointConfig.property.replicationConfig">ReplicationConfig</a></code> | <code><a href="#@cdktn/provider-awscc.eventsEndpoint.EventsEndpointReplicationConfig">EventsEndpointReplicationConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_endpoint#replication_config EventsEndpoint#replication_config}. |
+| <code><a href="#@cdktn/provider-awscc.eventsEndpoint.EventsEndpointConfig.property.roleArn">RoleArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_endpoint#role_arn EventsEndpoint#role_arn}. |
 
 ---
 
@@ -1071,7 +1071,7 @@ EventBuses interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_endpoint#event_buses EventsEndpoint#event_buses}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_endpoint#event_buses EventsEndpoint#event_buses}.
 
 ---
 
@@ -1083,7 +1083,7 @@ RoutingConfig EventsEndpointRoutingConfig
 
 - *Type:* <a href="#@cdktn/provider-awscc.eventsEndpoint.EventsEndpointRoutingConfig">EventsEndpointRoutingConfig</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_endpoint#routing_config EventsEndpoint#routing_config}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_endpoint#routing_config EventsEndpoint#routing_config}.
 
 ---
 
@@ -1095,7 +1095,7 @@ Description *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_endpoint#description EventsEndpoint#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_endpoint#description EventsEndpoint#description}.
 
 ---
 
@@ -1107,7 +1107,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_endpoint#name EventsEndpoint#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_endpoint#name EventsEndpoint#name}.
 
 ---
 
@@ -1119,7 +1119,7 @@ ReplicationConfig EventsEndpointReplicationConfig
 
 - *Type:* <a href="#@cdktn/provider-awscc.eventsEndpoint.EventsEndpointReplicationConfig">EventsEndpointReplicationConfig</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_endpoint#replication_config EventsEndpoint#replication_config}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_endpoint#replication_config EventsEndpoint#replication_config}.
 
 ---
 
@@ -1131,7 +1131,7 @@ RoleArn *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_endpoint#role_arn EventsEndpoint#role_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_endpoint#role_arn EventsEndpoint#role_arn}.
 
 ---
 
@@ -1140,7 +1140,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.eventsEndpoint.EventsEndpointEventBuses.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsendpoint"
 
 &eventsendpoint.EventsEndpointEventBuses {
 	EventBusArn: *string,
@@ -1151,7 +1151,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsendpoint"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.eventsEndpoint.EventsEndpointEventBuses.property.eventBusArn">EventBusArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_endpoint#event_bus_arn EventsEndpoint#event_bus_arn}. |
+| <code><a href="#@cdktn/provider-awscc.eventsEndpoint.EventsEndpointEventBuses.property.eventBusArn">EventBusArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_endpoint#event_bus_arn EventsEndpoint#event_bus_arn}. |
 
 ---
 
@@ -1163,7 +1163,7 @@ EventBusArn *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_endpoint#event_bus_arn EventsEndpoint#event_bus_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_endpoint#event_bus_arn EventsEndpoint#event_bus_arn}.
 
 ---
 
@@ -1172,7 +1172,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.eventsEndpoint.EventsEndpointReplicationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsendpoint"
 
 &eventsendpoint.EventsEndpointReplicationConfig {
 	State: *string,
@@ -1183,7 +1183,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsendpoint"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.eventsEndpoint.EventsEndpointReplicationConfig.property.state">State</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_endpoint#state EventsEndpoint#state}. |
+| <code><a href="#@cdktn/provider-awscc.eventsEndpoint.EventsEndpointReplicationConfig.property.state">State</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_endpoint#state EventsEndpoint#state}. |
 
 ---
 
@@ -1195,7 +1195,7 @@ State *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_endpoint#state EventsEndpoint#state}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_endpoint#state EventsEndpoint#state}.
 
 ---
 
@@ -1204,10 +1204,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.eventsEndpoint.EventsEndpointRoutingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsendpoint"
 
 &eventsendpoint.EventsEndpointRoutingConfig {
-	FailoverConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.eventsEndpoint.EventsEndpointRoutingConfigFailoverConfig,
+	FailoverConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.eventsEndpoint.EventsEndpointRoutingConfigFailoverConfig,
 }
 ```
 
@@ -1215,7 +1215,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsendpoint"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.eventsEndpoint.EventsEndpointRoutingConfig.property.failoverConfig">FailoverConfig</a></code> | <code><a href="#@cdktn/provider-awscc.eventsEndpoint.EventsEndpointRoutingConfigFailoverConfig">EventsEndpointRoutingConfigFailoverConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_endpoint#failover_config EventsEndpoint#failover_config}. |
+| <code><a href="#@cdktn/provider-awscc.eventsEndpoint.EventsEndpointRoutingConfig.property.failoverConfig">FailoverConfig</a></code> | <code><a href="#@cdktn/provider-awscc.eventsEndpoint.EventsEndpointRoutingConfigFailoverConfig">EventsEndpointRoutingConfigFailoverConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_endpoint#failover_config EventsEndpoint#failover_config}. |
 
 ---
 
@@ -1227,7 +1227,7 @@ FailoverConfig EventsEndpointRoutingConfigFailoverConfig
 
 - *Type:* <a href="#@cdktn/provider-awscc.eventsEndpoint.EventsEndpointRoutingConfigFailoverConfig">EventsEndpointRoutingConfigFailoverConfig</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_endpoint#failover_config EventsEndpoint#failover_config}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_endpoint#failover_config EventsEndpoint#failover_config}.
 
 ---
 
@@ -1236,11 +1236,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.eventsEndpoint.EventsEndpointRoutingConfigFailoverConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsendpoint"
 
 &eventsendpoint.EventsEndpointRoutingConfigFailoverConfig {
-	Primary: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.eventsEndpoint.EventsEndpointRoutingConfigFailoverConfigPrimary,
-	Secondary: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.eventsEndpoint.EventsEndpointRoutingConfigFailoverConfigSecondary,
+	Primary: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.eventsEndpoint.EventsEndpointRoutingConfigFailoverConfigPrimary,
+	Secondary: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.eventsEndpoint.EventsEndpointRoutingConfigFailoverConfigSecondary,
 }
 ```
 
@@ -1248,8 +1248,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsendpoint"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.eventsEndpoint.EventsEndpointRoutingConfigFailoverConfig.property.primary">Primary</a></code> | <code><a href="#@cdktn/provider-awscc.eventsEndpoint.EventsEndpointRoutingConfigFailoverConfigPrimary">EventsEndpointRoutingConfigFailoverConfigPrimary</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_endpoint#primary EventsEndpoint#primary}. |
-| <code><a href="#@cdktn/provider-awscc.eventsEndpoint.EventsEndpointRoutingConfigFailoverConfig.property.secondary">Secondary</a></code> | <code><a href="#@cdktn/provider-awscc.eventsEndpoint.EventsEndpointRoutingConfigFailoverConfigSecondary">EventsEndpointRoutingConfigFailoverConfigSecondary</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_endpoint#secondary EventsEndpoint#secondary}. |
+| <code><a href="#@cdktn/provider-awscc.eventsEndpoint.EventsEndpointRoutingConfigFailoverConfig.property.primary">Primary</a></code> | <code><a href="#@cdktn/provider-awscc.eventsEndpoint.EventsEndpointRoutingConfigFailoverConfigPrimary">EventsEndpointRoutingConfigFailoverConfigPrimary</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_endpoint#primary EventsEndpoint#primary}. |
+| <code><a href="#@cdktn/provider-awscc.eventsEndpoint.EventsEndpointRoutingConfigFailoverConfig.property.secondary">Secondary</a></code> | <code><a href="#@cdktn/provider-awscc.eventsEndpoint.EventsEndpointRoutingConfigFailoverConfigSecondary">EventsEndpointRoutingConfigFailoverConfigSecondary</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_endpoint#secondary EventsEndpoint#secondary}. |
 
 ---
 
@@ -1261,7 +1261,7 @@ Primary EventsEndpointRoutingConfigFailoverConfigPrimary
 
 - *Type:* <a href="#@cdktn/provider-awscc.eventsEndpoint.EventsEndpointRoutingConfigFailoverConfigPrimary">EventsEndpointRoutingConfigFailoverConfigPrimary</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_endpoint#primary EventsEndpoint#primary}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_endpoint#primary EventsEndpoint#primary}.
 
 ---
 
@@ -1273,7 +1273,7 @@ Secondary EventsEndpointRoutingConfigFailoverConfigSecondary
 
 - *Type:* <a href="#@cdktn/provider-awscc.eventsEndpoint.EventsEndpointRoutingConfigFailoverConfigSecondary">EventsEndpointRoutingConfigFailoverConfigSecondary</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_endpoint#secondary EventsEndpoint#secondary}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_endpoint#secondary EventsEndpoint#secondary}.
 
 ---
 
@@ -1282,7 +1282,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.eventsEndpoint.EventsEndpointRoutingConfigFailoverConfigPrimary.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsendpoint"
 
 &eventsendpoint.EventsEndpointRoutingConfigFailoverConfigPrimary {
 	HealthCheck: *string,
@@ -1293,7 +1293,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsendpoint"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.eventsEndpoint.EventsEndpointRoutingConfigFailoverConfigPrimary.property.healthCheck">HealthCheck</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_endpoint#health_check EventsEndpoint#health_check}. |
+| <code><a href="#@cdktn/provider-awscc.eventsEndpoint.EventsEndpointRoutingConfigFailoverConfigPrimary.property.healthCheck">HealthCheck</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_endpoint#health_check EventsEndpoint#health_check}. |
 
 ---
 
@@ -1305,7 +1305,7 @@ HealthCheck *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_endpoint#health_check EventsEndpoint#health_check}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_endpoint#health_check EventsEndpoint#health_check}.
 
 ---
 
@@ -1314,7 +1314,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.eventsEndpoint.EventsEndpointRoutingConfigFailoverConfigSecondary.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsendpoint"
 
 &eventsendpoint.EventsEndpointRoutingConfigFailoverConfigSecondary {
 	Route: *string,
@@ -1325,7 +1325,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsendpoint"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.eventsEndpoint.EventsEndpointRoutingConfigFailoverConfigSecondary.property.route">Route</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_endpoint#route EventsEndpoint#route}. |
+| <code><a href="#@cdktn/provider-awscc.eventsEndpoint.EventsEndpointRoutingConfigFailoverConfigSecondary.property.route">Route</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_endpoint#route EventsEndpoint#route}. |
 
 ---
 
@@ -1337,7 +1337,7 @@ Route *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_endpoint#route EventsEndpoint#route}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_endpoint#route EventsEndpoint#route}.
 
 ---
 
@@ -1348,7 +1348,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsEndpoint.EventsEndpointEventBusesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsendpoint"
 
 eventsendpoint.NewEventsEndpointEventBusesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) EventsEndpointEventBusesList
 ```
@@ -1508,7 +1508,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsEndpoint.EventsEndpointEventBusesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsendpoint"
 
 eventsendpoint.NewEventsEndpointEventBusesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) EventsEndpointEventBusesOutputReference
 ```
@@ -1797,7 +1797,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsEndpoint.EventsEndpointReplicationConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsendpoint"
 
 eventsendpoint.NewEventsEndpointReplicationConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) EventsEndpointReplicationConfigOutputReference
 ```
@@ -2075,7 +2075,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsEndpoint.EventsEndpointRoutingConfigFailoverConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsendpoint"
 
 eventsendpoint.NewEventsEndpointRoutingConfigFailoverConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) EventsEndpointRoutingConfigFailoverConfigOutputReference
 ```
@@ -2394,7 +2394,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsEndpoint.EventsEndpointRoutingConfigFailoverConfigPrimaryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsendpoint"
 
 eventsendpoint.NewEventsEndpointRoutingConfigFailoverConfigPrimaryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) EventsEndpointRoutingConfigFailoverConfigPrimaryOutputReference
 ```
@@ -2665,7 +2665,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsEndpoint.EventsEndpointRoutingConfigFailoverConfigSecondaryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsendpoint"
 
 eventsendpoint.NewEventsEndpointRoutingConfigFailoverConfigSecondaryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) EventsEndpointRoutingConfigFailoverConfigSecondaryOutputReference
 ```
@@ -2936,7 +2936,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsEndpoint.EventsEndpointRoutingConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsendpoint"
 
 eventsendpoint.NewEventsEndpointRoutingConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) EventsEndpointRoutingConfigOutputReference
 ```

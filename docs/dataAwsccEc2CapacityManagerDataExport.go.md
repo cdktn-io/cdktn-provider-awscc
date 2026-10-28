@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2CapacityManagerDataExport <a name="DataAwsccEc2CapacityManagerDataExport" id="@cdktn/provider-awscc.dataAwsccEc2CapacityManagerDataExport.DataAwsccEc2CapacityManagerDataExport"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_capacity_manager_data_export awscc_ec2_capacity_manager_data_export}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_capacity_manager_data_export awscc_ec2_capacity_manager_data_export}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2CapacityManagerDataExport.DataAwsccEc2CapacityManagerDataExport.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2capacitymanagerdataexport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2capacitymanagerdataexport"
 
 dataawsccec2capacitymanagerdataexport.NewDataAwsccEc2CapacityManagerDataExport(scope Construct, id *string, config DataAwsccEc2CapacityManagerDataExportConfig) DataAwsccEc2CapacityManagerDataExport
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2CapacityManagerDataExport.DataAwsccEc2CapacityManagerDataExport.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2capacitymanagerdataexport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2capacitymanagerdataexport"
 
 dataawsccec2capacitymanagerdataexport.DataAwsccEc2CapacityManagerDataExport_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2CapacityManagerDataExport.DataAwsccEc2CapacityManagerDataExport.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2capacitymanagerdataexport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2capacitymanagerdataexport"
 
 dataawsccec2capacitymanagerdataexport.DataAwsccEc2CapacityManagerDataExport_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2capacitymanagerdataexport.DataAwsccEc2CapacityManagerDataExport_IsTe
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2CapacityManagerDataExport.DataAwsccEc2CapacityManagerDataExport.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2capacitymanagerdataexport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2capacitymanagerdataexport"
 
 dataawsccec2capacitymanagerdataexport.DataAwsccEc2CapacityManagerDataExport_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2capacitymanagerdataexport.DataAwsccEc2CapacityManagerDataExport_IsTe
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2CapacityManagerDataExport.DataAwsccEc2CapacityManagerDataExport.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2capacitymanagerdataexport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2capacitymanagerdataexport"
 
 dataawsccec2capacitymanagerdataexport.DataAwsccEc2CapacityManagerDataExport_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2CapacityManage
 
 The id of the existing DataAwsccEc2CapacityManagerDataExport that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_capacity_manager_data_export#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_capacity_manager_data_export#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -653,7 +653,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2CapacityManagerDataExport.DataAwsccEc2CapacityManagerDataExportConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2capacitymanagerdataexport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2capacitymanagerdataexport"
 
 &dataawsccec2capacitymanagerdataexport.DataAwsccEc2CapacityManagerDataExportConfig {
 	Connection: interface{},
@@ -762,7 +762,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_capacity_manager_data_export#id DataAwsccEc2CapacityManagerDataExport#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_capacity_manager_data_export#id DataAwsccEc2CapacityManagerDataExport#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -774,7 +774,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2CapacityManagerDataExport.DataAwsccEc2CapacityManagerDataExportTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2capacitymanagerdataexport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2capacitymanagerdataexport"
 
 &dataawsccec2capacitymanagerdataexport.DataAwsccEc2CapacityManagerDataExportTags {
 
@@ -789,7 +789,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2capacityma
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2CapacityManagerDataExport.DataAwsccEc2CapacityManagerDataExportTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2capacitymanagerdataexport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2capacitymanagerdataexport"
 
 dataawsccec2capacitymanagerdataexport.NewDataAwsccEc2CapacityManagerDataExportTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEc2CapacityManagerDataExportTagsList
 ```
@@ -938,7 +938,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2CapacityManagerDataExport.DataAwsccEc2CapacityManagerDataExportTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2capacitymanagerdataexport"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2capacitymanagerdataexport"
 
 dataawsccec2capacitymanagerdataexport.NewDataAwsccEc2CapacityManagerDataExportTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEc2CapacityManagerDataExportTagsOutputReference
 ```

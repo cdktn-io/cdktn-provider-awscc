@@ -4,12 +4,12 @@
 
 ### DataAwsccXraySamplingRules <a name="DataAwsccXraySamplingRules" id="@cdktn/provider-awscc.dataAwsccXraySamplingRules.DataAwsccXraySamplingRules"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/xray_sampling_rules awscc_xray_sampling_rules}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/xray_sampling_rules awscc_xray_sampling_rules}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccXraySamplingRules.DataAwsccXraySamplingRules.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccxraysamplingrules"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccxraysamplingrules"
 
 dataawsccxraysamplingrules.NewDataAwsccXraySamplingRules(scope Construct, id *string, config DataAwsccXraySamplingRulesConfig) DataAwsccXraySamplingRules
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccXraySamplingRules.DataAwsccXraySamplingRules.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccxraysamplingrules"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccxraysamplingrules"
 
 dataawsccxraysamplingrules.DataAwsccXraySamplingRules_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccXraySamplingRules.DataAwsccXraySamplingRules.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccxraysamplingrules"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccxraysamplingrules"
 
 dataawsccxraysamplingrules.DataAwsccXraySamplingRules_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccxraysamplingrules.DataAwsccXraySamplingRules_IsTerraformElement(x inter
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccXraySamplingRules.DataAwsccXraySamplingRules.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccxraysamplingrules"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccxraysamplingrules"
 
 dataawsccxraysamplingrules.DataAwsccXraySamplingRules_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccxraysamplingrules.DataAwsccXraySamplingRules_IsTerraformDataSource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccXraySamplingRules.DataAwsccXraySamplingRules.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccxraysamplingrules"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccxraysamplingrules"
 
 dataawsccxraysamplingrules.DataAwsccXraySamplingRules_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccXraySamplingRules
 
 The id of the existing DataAwsccXraySamplingRules that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/xray_sampling_rules#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/xray_sampling_rules#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccXraySamplingRules.DataAwsccXraySamplingRulesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccxraysamplingrules"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccxraysamplingrules"
 
 &dataawsccxraysamplingrules.DataAwsccXraySamplingRulesConfig {
 	Connection: interface{},

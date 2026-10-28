@@ -4,12 +4,12 @@
 
 ### IoteventsDetectorModel <a name="IoteventsDetectorModel" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModel"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model awscc_iotevents_detector_model}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model awscc_iotevents_detector_model}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModel.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModel(scope Construct, id *string, config IoteventsDetectorModelConfig) IoteventsDetectorModel
 ```
@@ -461,7 +461,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModel.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.IoteventsDetectorModel_IsConstruct(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModel.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.IoteventsDetectorModel_IsTerraformElement(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ ioteventsdetectormodel.IoteventsDetectorModel_IsTerraformElement(x interface{}) 
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModel.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.IoteventsDetectorModel_IsTerraformResource(x interface{}) *bool
 ```
@@ -521,7 +521,7 @@ ioteventsdetectormodel.IoteventsDetectorModel_IsTerraformResource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModel.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.IoteventsDetectorModel_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -550,7 +550,7 @@ The construct id used in the generated config for the IoteventsDetectorModel to 
 
 The id of the existing IoteventsDetectorModel that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -915,7 +915,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelConfig {
 	Connection: interface{},
@@ -925,7 +925,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	DetectorModelDefinition: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinition,
+	DetectorModelDefinition: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinition,
 	RoleArn: *string,
 	DetectorModelDescription: *string,
 	DetectorModelName: *string,
@@ -1036,7 +1036,7 @@ DetectorModelDefinition IoteventsDetectorModelDetectorModelDefinition
 
 Information that defines how a detector operates.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#detector_model_definition IoteventsDetectorModel#detector_model_definition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#detector_model_definition IoteventsDetectorModel#detector_model_definition}
 
 ---
 
@@ -1050,7 +1050,7 @@ RoleArn *string
 
 The ARN of the role that grants permission to ITE to perform its operations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#role_arn IoteventsDetectorModel#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#role_arn IoteventsDetectorModel#role_arn}
 
 ---
 
@@ -1064,7 +1064,7 @@ DetectorModelDescription *string
 
 A brief description of the detector model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#detector_model_description IoteventsDetectorModel#detector_model_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#detector_model_description IoteventsDetectorModel#detector_model_description}
 
 ---
 
@@ -1078,7 +1078,7 @@ DetectorModelName *string
 
 The name of the detector model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#detector_model_name IoteventsDetectorModel#detector_model_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#detector_model_name IoteventsDetectorModel#detector_model_name}
 
 ---
 
@@ -1092,7 +1092,7 @@ EvaluationMethod *string
 
 Information about the order in which events are evaluated and how actions are executed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#evaluation_method IoteventsDetectorModel#evaluation_method}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#evaluation_method IoteventsDetectorModel#evaluation_method}
 
 ---
 
@@ -1109,7 +1109,7 @@ The value used to identify a detector instance.
 When a device or system sends input, a new detector instance with a unique key value is created. ITE can continue to route input to its corresponding detector instance based on this identifying information.
 This parameter uses a JSON-path expression to select the attribute-value pair in the message payload that is used for identification. To route the message to the correct detector instance, the device must send a message payload that contains the same attribute-value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#key IoteventsDetectorModel#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#key IoteventsDetectorModel#key}
 
 ---
 
@@ -1123,7 +1123,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.  For more information, see [Tag](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-resource-tags.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#tags IoteventsDetectorModel#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#tags IoteventsDetectorModel#tags}
 
 ---
 
@@ -1132,7 +1132,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinition {
 	InitialStateName: *string,
@@ -1159,7 +1159,7 @@ InitialStateName *string
 
 The state that is entered at the creation of each detector (instance).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#initial_state_name IoteventsDetectorModel#initial_state_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#initial_state_name IoteventsDetectorModel#initial_state_name}
 
 ---
 
@@ -1173,7 +1173,7 @@ States interface{}
 
 Information about the states of the detector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#states IoteventsDetectorModel#states}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#states IoteventsDetectorModel#states}
 
 ---
 
@@ -1182,13 +1182,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStates.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStates {
 	StateName: *string,
-	OnEnter: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnter,
-	OnExit: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExit,
-	OnInput: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInput,
+	OnEnter: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnter,
+	OnExit: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExit,
+	OnInput: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInput,
 }
 ```
 
@@ -1213,7 +1213,7 @@ StateName *string
 
 The name of the state.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#state_name IoteventsDetectorModel#state_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#state_name IoteventsDetectorModel#state_name}
 
 ---
 
@@ -1227,7 +1227,7 @@ OnEnter IoteventsDetectorModelDetectorModelDefinitionStatesOnEnter
 
 When entering this state, perform these ``actions`` if the ``condition`` is TRUE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#on_enter IoteventsDetectorModel#on_enter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#on_enter IoteventsDetectorModel#on_enter}
 
 ---
 
@@ -1241,7 +1241,7 @@ OnExit IoteventsDetectorModelDetectorModelDefinitionStatesOnExit
 
 When exiting this state, perform these ``actions`` if the specified ``condition`` is ``TRUE``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#on_exit IoteventsDetectorModel#on_exit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#on_exit IoteventsDetectorModel#on_exit}
 
 ---
 
@@ -1255,7 +1255,7 @@ OnInput IoteventsDetectorModelDetectorModelDefinitionStatesOnInput
 
 When an input is received and the ``condition`` is TRUE, perform the specified ``actions``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#on_input IoteventsDetectorModel#on_input}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#on_input IoteventsDetectorModel#on_input}
 
 ---
 
@@ -1264,7 +1264,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnter {
 	Events: interface{},
@@ -1289,7 +1289,7 @@ Events interface{}
 
 Specifies the actions that are performed when the state is entered and the ``condition`` is ``TRUE``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#events IoteventsDetectorModel#events}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#events IoteventsDetectorModel#events}
 
 ---
 
@@ -1298,7 +1298,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEvents.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEvents {
 	Actions: interface{},
@@ -1327,7 +1327,7 @@ Actions interface{}
 
 The actions to be performed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#actions IoteventsDetectorModel#actions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#actions IoteventsDetectorModel#actions}
 
 ---
 
@@ -1343,7 +1343,7 @@ Optional.
 
 The Boolean expression that, when TRUE, causes the `actions` to be performed. If not present, the actions are performed (=TRUE). If the expression result is not a Boolean value, the actions are not performed (=FALSE).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#condition IoteventsDetectorModel#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#condition IoteventsDetectorModel#condition}
 
 ---
 
@@ -1357,7 +1357,7 @@ EventName *string
 
 The name of the event.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#event_name IoteventsDetectorModel#event_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#event_name IoteventsDetectorModel#event_name}
 
 ---
 
@@ -1366,22 +1366,22 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActions {
-	ClearTimer: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsClearTimer,
-	DynamoDb: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsDynamoDb,
-	DynamoDBv2: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsDynamoDBv2,
-	Firehose: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsFirehose,
-	IotEvents: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotEvents,
-	IotSiteWise: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotSiteWise,
-	IotTopicPublish: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotTopicPublish,
-	Lambda: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsLambda,
-	ResetTimer: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsResetTimer,
-	SetTimer: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSetTimer,
-	SetVariable: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSetVariable,
-	Sns: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSns,
-	Sqs: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSqs,
+	ClearTimer: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsClearTimer,
+	DynamoDb: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsDynamoDb,
+	DynamoDBv2: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsDynamoDBv2,
+	Firehose: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsFirehose,
+	IotEvents: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotEvents,
+	IotSiteWise: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotSiteWise,
+	IotTopicPublish: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotTopicPublish,
+	Lambda: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsLambda,
+	ResetTimer: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsResetTimer,
+	SetTimer: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSetTimer,
+	SetVariable: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSetVariable,
+	Sns: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSns,
+	Sqs: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSqs,
 }
 ```
 
@@ -1415,7 +1415,7 @@ ClearTimer IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActio
 
 Information needed to clear the timer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#clear_timer IoteventsDetectorModel#clear_timer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#clear_timer IoteventsDetectorModel#clear_timer}
 
 ---
 
@@ -1431,7 +1431,7 @@ Writes to the DynamoDB table that you created.
 
 The default action payload contains all attribute-value pairs that have the information about the detector model instance and the event that triggered the action. You can customize the [payload](https://docs.aws.amazon.com/iotevents/latest/apireference/API_Payload.html). One column of the DynamoDB table receives all attribute-value pairs in the payload that you specify. For more information, see [Actions](https://docs.aws.amazon.com/iotevents/latest/developerguide/iotevents-event-actions.html) in *Developer Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#dynamo_db IoteventsDetectorModel#dynamo_db}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#dynamo_db IoteventsDetectorModel#dynamo_db}
 
 ---
 
@@ -1447,7 +1447,7 @@ Writes to the DynamoDB table that you created.
 
 The default action payload contains all attribute-value pairs that have the information about the detector model instance and the event that triggered the action. You can customize the [payload](https://docs.aws.amazon.com/iotevents/latest/apireference/API_Payload.html). A separate column of the DynamoDB table receives one attribute-value pair in the payload that you specify. For more information, see [Actions](https://docs.aws.amazon.com/iotevents/latest/developerguide/iotevents-event-actions.html) in *Developer Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#dynamo_d_bv_2 IoteventsDetectorModel#dynamo_d_bv_2}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#dynamo_d_bv_2 IoteventsDetectorModel#dynamo_d_bv_2}
 
 ---
 
@@ -1461,7 +1461,7 @@ Firehose IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActions
 
 Sends information about the detector model instance and the event that triggered the action to an Amazon Kinesis Data Firehose delivery stream.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#firehose IoteventsDetectorModel#firehose}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#firehose IoteventsDetectorModel#firehose}
 
 ---
 
@@ -1475,7 +1475,7 @@ IotEvents IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsAction
 
 Sends ITE input, which passes information about the detector model instance and the event that triggered the action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#iot_events IoteventsDetectorModel#iot_events}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#iot_events IoteventsDetectorModel#iot_events}
 
 ---
 
@@ -1489,7 +1489,7 @@ IotSiteWise IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActi
 
 Sends information about the detector model instance and the event that triggered the action to an asset property in ITSW .
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#iot_site_wise IoteventsDetectorModel#iot_site_wise}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#iot_site_wise IoteventsDetectorModel#iot_site_wise}
 
 ---
 
@@ -1503,7 +1503,7 @@ IotTopicPublish IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEvents
 
 Publishes an MQTT message with the given topic to the IoT message broker.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#iot_topic_publish IoteventsDetectorModel#iot_topic_publish}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#iot_topic_publish IoteventsDetectorModel#iot_topic_publish}
 
 ---
 
@@ -1517,7 +1517,7 @@ Lambda IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsLa
 
 Calls a Lambda function, passing in information about the detector model instance and the event that triggered the action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#lambda IoteventsDetectorModel#lambda}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#lambda IoteventsDetectorModel#lambda}
 
 ---
 
@@ -1531,7 +1531,7 @@ ResetTimer IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActio
 
 Information needed to reset the timer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#reset_timer IoteventsDetectorModel#reset_timer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#reset_timer IoteventsDetectorModel#reset_timer}
 
 ---
 
@@ -1545,7 +1545,7 @@ SetTimer IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActions
 
 Information needed to set the timer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#set_timer IoteventsDetectorModel#set_timer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#set_timer IoteventsDetectorModel#set_timer}
 
 ---
 
@@ -1559,7 +1559,7 @@ SetVariable IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActi
 
 Sets a variable to a specified value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#set_variable IoteventsDetectorModel#set_variable}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#set_variable IoteventsDetectorModel#set_variable}
 
 ---
 
@@ -1573,7 +1573,7 @@ Sns IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSns
 
 Sends an Amazon SNS message.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#sns IoteventsDetectorModel#sns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#sns IoteventsDetectorModel#sns}
 
 ---
 
@@ -1587,7 +1587,7 @@ Sqs IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSqs
 
 Sends an Amazon SNS message.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#sqs IoteventsDetectorModel#sqs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#sqs IoteventsDetectorModel#sqs}
 
 ---
 
@@ -1596,7 +1596,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsClearTimer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsClearTimer {
 	TimerName: *string,
@@ -1621,7 +1621,7 @@ TimerName *string
 
 The name of the timer to clear.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#timer_name IoteventsDetectorModel#timer_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#timer_name IoteventsDetectorModel#timer_name}
 
 ---
 
@@ -1630,14 +1630,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsDynamoDb.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsDynamoDb {
 	HashKeyField: *string,
 	HashKeyType: *string,
 	HashKeyValue: *string,
 	Operation: *string,
-	Payload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsDynamoDbPayload,
+	Payload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsDynamoDbPayload,
 	PayloadField: *string,
 	RangeKeyField: *string,
 	RangeKeyType: *string,
@@ -1675,7 +1675,7 @@ The name of the hash key (also called the partition key).
 
 The `hashKeyField` value must match the partition key of the target DynamoDB table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#hash_key_field IoteventsDetectorModel#hash_key_field}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#hash_key_field IoteventsDetectorModel#hash_key_field}
 
 ---
 
@@ -1696,7 +1696,7 @@ You can specify the following values:
 
 If you don't specify `hashKeyType`, the default value is `'STRING'`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#hash_key_type IoteventsDetectorModel#hash_key_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#hash_key_type IoteventsDetectorModel#hash_key_type}
 
 ---
 
@@ -1710,7 +1710,7 @@ HashKeyValue *string
 
 The value of the hash key (also called the partition key).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#hash_key_value IoteventsDetectorModel#hash_key_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#hash_key_value IoteventsDetectorModel#hash_key_value}
 
 ---
 
@@ -1732,7 +1732,7 @@ You can specify the following values:
 
 If you don't specify this parameter, ITE triggers the `'INSERT'` operation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#operation IoteventsDetectorModel#operation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#operation IoteventsDetectorModel#operation}
 
 ---
 
@@ -1748,7 +1748,7 @@ Information needed to configure the payload.
 
 By default, ITE generates a standard payload in JSON for any action. This action payload contains all attribute-value pairs that have the information about the detector model instance and the event triggered the action. To configure the action payload, you can use `contentExpression`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#payload IoteventsDetectorModel#payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#payload IoteventsDetectorModel#payload}
 
 ---
 
@@ -1764,7 +1764,7 @@ The name of the DynamoDB column that receives the action payload.
 
 If you don't specify this parameter, the name of the DynamoDB column is `payload`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#payload_field IoteventsDetectorModel#payload_field}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#payload_field IoteventsDetectorModel#payload_field}
 
 ---
 
@@ -1780,7 +1780,7 @@ The name of the range key (also called the sort key).
 
 The `rangeKeyField` value must match the sort key of the target DynamoDB table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#range_key_field IoteventsDetectorModel#range_key_field}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#range_key_field IoteventsDetectorModel#range_key_field}
 
 ---
 
@@ -1798,7 +1798,7 @@ The data type for the range key (also called the sort key), You can specify the 
 
 If you don't specify `rangeKeyField`, the default value is `'STRING'`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#range_key_type IoteventsDetectorModel#range_key_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#range_key_type IoteventsDetectorModel#range_key_type}
 
 ---
 
@@ -1812,7 +1812,7 @@ RangeKeyValue *string
 
 The value of the range key (also called the sort key).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#range_key_value IoteventsDetectorModel#range_key_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#range_key_value IoteventsDetectorModel#range_key_value}
 
 ---
 
@@ -1826,7 +1826,7 @@ TableName *string
 
 The name of the DynamoDB table. The ``tableName`` value must match the table name of the target DynamoDB table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#table_name IoteventsDetectorModel#table_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#table_name IoteventsDetectorModel#table_name}
 
 ---
 
@@ -1835,7 +1835,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsDynamoDbPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsDynamoDbPayload {
 	ContentExpression: *string,
@@ -1864,7 +1864,7 @@ The content of the payload.
 
 You can use a string expression that includes quoted strings (`'<string>'`), variables (`$variable.<variable-name>`), input values (`$input.<input-name>.<path-to-datum>`), string concatenations, and quoted strings that contain `${}` as the content. The recommended maximum size of a content expression is 1 KB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#content_expression IoteventsDetectorModel#content_expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#content_expression IoteventsDetectorModel#content_expression}
 
 ---
 
@@ -1878,7 +1878,7 @@ Type *string
 
 The value of the payload type can be either ``STRING`` or ``JSON``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#type IoteventsDetectorModel#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#type IoteventsDetectorModel#type}
 
 ---
 
@@ -1887,10 +1887,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsDynamoDBv2.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsDynamoDBv2 {
-	Payload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsDynamoDBv2Payload,
+	Payload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsDynamoDBv2Payload,
 	TableName: *string,
 }
 ```
@@ -1916,7 +1916,7 @@ Information needed to configure the payload.
 
 By default, ITE generates a standard payload in JSON for any action. This action payload contains all attribute-value pairs that have the information about the detector model instance and the event triggered the action. To configure the action payload, you can use `contentExpression`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#payload IoteventsDetectorModel#payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#payload IoteventsDetectorModel#payload}
 
 ---
 
@@ -1930,7 +1930,7 @@ TableName *string
 
 The name of the DynamoDB table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#table_name IoteventsDetectorModel#table_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#table_name IoteventsDetectorModel#table_name}
 
 ---
 
@@ -1939,7 +1939,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsDynamoDBv2Payload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsDynamoDBv2Payload {
 	ContentExpression: *string,
@@ -1968,7 +1968,7 @@ The content of the payload.
 
 You can use a string expression that includes quoted strings (`'<string>'`), variables (`$variable.<variable-name>`), input values (`$input.<input-name>.<path-to-datum>`), string concatenations, and quoted strings that contain `${}` as the content. The recommended maximum size of a content expression is 1 KB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#content_expression IoteventsDetectorModel#content_expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#content_expression IoteventsDetectorModel#content_expression}
 
 ---
 
@@ -1982,7 +1982,7 @@ Type *string
 
 The value of the payload type can be either ``STRING`` or ``JSON``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#type IoteventsDetectorModel#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#type IoteventsDetectorModel#type}
 
 ---
 
@@ -1991,11 +1991,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsFirehose.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsFirehose {
 	DeliveryStreamName: *string,
-	Payload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsFirehosePayload,
+	Payload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsFirehosePayload,
 	Separator: *string,
 }
 ```
@@ -2020,7 +2020,7 @@ DeliveryStreamName *string
 
 The name of the Kinesis Data Firehose delivery stream where the data is written.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#delivery_stream_name IoteventsDetectorModel#delivery_stream_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#delivery_stream_name IoteventsDetectorModel#delivery_stream_name}
 
 ---
 
@@ -2034,7 +2034,7 @@ Payload IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsF
 
 You can configure the action payload when you send a message to an Amazon Data Firehose delivery stream.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#payload IoteventsDetectorModel#payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#payload IoteventsDetectorModel#payload}
 
 ---
 
@@ -2050,7 +2050,7 @@ A character separator that is used to separate records written to the Kinesis Da
 
 Valid values are: '\n' (newline), '\t' (tab), '\r\n' (Windows newline), ',' (comma).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#separator IoteventsDetectorModel#separator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#separator IoteventsDetectorModel#separator}
 
 ---
 
@@ -2059,7 +2059,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsFirehosePayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsFirehosePayload {
 	ContentExpression: *string,
@@ -2088,7 +2088,7 @@ The content of the payload.
 
 You can use a string expression that includes quoted strings (`'<string>'`), variables (`$variable.<variable-name>`), input values (`$input.<input-name>.<path-to-datum>`), string concatenations, and quoted strings that contain `${}` as the content. The recommended maximum size of a content expression is 1 KB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#content_expression IoteventsDetectorModel#content_expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#content_expression IoteventsDetectorModel#content_expression}
 
 ---
 
@@ -2102,7 +2102,7 @@ Type *string
 
 The value of the payload type can be either ``STRING`` or ``JSON``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#type IoteventsDetectorModel#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#type IoteventsDetectorModel#type}
 
 ---
 
@@ -2111,11 +2111,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotEvents.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotEvents {
 	InputName: *string,
-	Payload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotEventsPayload,
+	Payload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotEventsPayload,
 }
 ```
 
@@ -2138,7 +2138,7 @@ InputName *string
 
 The name of the ITE input where the data is sent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#input_name IoteventsDetectorModel#input_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#input_name IoteventsDetectorModel#input_name}
 
 ---
 
@@ -2152,7 +2152,7 @@ Payload IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsI
 
 You can configure the action payload when you send a message to an ITE input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#payload IoteventsDetectorModel#payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#payload IoteventsDetectorModel#payload}
 
 ---
 
@@ -2161,7 +2161,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotEventsPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotEventsPayload {
 	ContentExpression: *string,
@@ -2190,7 +2190,7 @@ The content of the payload.
 
 You can use a string expression that includes quoted strings (`'<string>'`), variables (`$variable.<variable-name>`), input values (`$input.<input-name>.<path-to-datum>`), string concatenations, and quoted strings that contain `${}` as the content. The recommended maximum size of a content expression is 1 KB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#content_expression IoteventsDetectorModel#content_expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#content_expression IoteventsDetectorModel#content_expression}
 
 ---
 
@@ -2204,7 +2204,7 @@ Type *string
 
 The value of the payload type can be either ``STRING`` or ``JSON``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#type IoteventsDetectorModel#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#type IoteventsDetectorModel#type}
 
 ---
 
@@ -2213,14 +2213,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotSiteWise.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotSiteWise {
 	AssetId: *string,
 	EntryId: *string,
 	PropertyAlias: *string,
 	PropertyId: *string,
-	PropertyValue: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotSiteWisePropertyValue,
+	PropertyValue: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotSiteWisePropertyValue,
 }
 ```
 
@@ -2246,7 +2246,7 @@ AssetId *string
 
 The ID of the asset that has the specified property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#asset_id IoteventsDetectorModel#asset_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#asset_id IoteventsDetectorModel#asset_id}
 
 ---
 
@@ -2262,7 +2262,7 @@ A unique identifier for this entry.
 
 You can use the entry ID to track which data entry causes an error in case of failure. The default is a new unique identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#entry_id IoteventsDetectorModel#entry_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#entry_id IoteventsDetectorModel#entry_id}
 
 ---
 
@@ -2276,7 +2276,7 @@ PropertyAlias *string
 
 The alias of the asset property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#property_alias IoteventsDetectorModel#property_alias}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#property_alias IoteventsDetectorModel#property_alias}
 
 ---
 
@@ -2290,7 +2290,7 @@ PropertyId *string
 
 The ID of the asset property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#property_id IoteventsDetectorModel#property_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#property_id IoteventsDetectorModel#property_id}
 
 ---
 
@@ -2304,7 +2304,7 @@ PropertyValue IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsAc
 
 The value to send to the asset property. This value contains timestamp, quality, and value (TQV) information.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#property_value IoteventsDetectorModel#property_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#property_value IoteventsDetectorModel#property_value}
 
 ---
 
@@ -2313,12 +2313,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotSiteWisePropertyValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotSiteWisePropertyValue {
 	Quality: *string,
-	Timestamp: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotSiteWisePropertyValueTimestamp,
-	Value: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotSiteWisePropertyValueValue,
+	Timestamp: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotSiteWisePropertyValueTimestamp,
+	Value: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotSiteWisePropertyValueValue,
 }
 ```
 
@@ -2342,7 +2342,7 @@ Quality *string
 
 The quality of the asset property value. The value must be ``'GOOD'``, ``'BAD'``, or ``'UNCERTAIN'``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#quality IoteventsDetectorModel#quality}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#quality IoteventsDetectorModel#quality}
 
 ---
 
@@ -2356,7 +2356,7 @@ Timestamp IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsAction
 
 The timestamp associated with the asset property value. The default is the current event time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#timestamp IoteventsDetectorModel#timestamp}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#timestamp IoteventsDetectorModel#timestamp}
 
 ---
 
@@ -2370,7 +2370,7 @@ Value IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIot
 
 The value to send to an asset property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#value IoteventsDetectorModel#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#value IoteventsDetectorModel#value}
 
 ---
 
@@ -2379,7 +2379,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotSiteWisePropertyValueTimestamp.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotSiteWisePropertyValueTimestamp {
 	OffsetInNanos: *string,
@@ -2406,7 +2406,7 @@ OffsetInNanos *string
 
 The nanosecond offset converted from ``timeInSeconds``. The valid range is between 0-999999999.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#offset_in_nanos IoteventsDetectorModel#offset_in_nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#offset_in_nanos IoteventsDetectorModel#offset_in_nanos}
 
 ---
 
@@ -2420,7 +2420,7 @@ TimeInSeconds *string
 
 The timestamp, in seconds, in the Unix epoch format. The valid range is between 1-31556889864403199.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#time_in_seconds IoteventsDetectorModel#time_in_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#time_in_seconds IoteventsDetectorModel#time_in_seconds}
 
 ---
 
@@ -2429,7 +2429,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotSiteWisePropertyValueValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotSiteWisePropertyValueValue {
 	BooleanValue: *string,
@@ -2462,7 +2462,7 @@ The asset property value is a Boolean value that must be ``'TRUE'`` or ``'FALSE'
 
 You must use an expression, and the evaluated result should be a Boolean value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#boolean_value IoteventsDetectorModel#boolean_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#boolean_value IoteventsDetectorModel#boolean_value}
 
 ---
 
@@ -2478,7 +2478,7 @@ The asset property value is a double.
 
 You must use an expression, and the evaluated result should be a double.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#double_value IoteventsDetectorModel#double_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#double_value IoteventsDetectorModel#double_value}
 
 ---
 
@@ -2494,7 +2494,7 @@ The asset property value is an integer.
 
 You must use an expression, and the evaluated result should be an integer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#integer_value IoteventsDetectorModel#integer_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#integer_value IoteventsDetectorModel#integer_value}
 
 ---
 
@@ -2510,7 +2510,7 @@ The asset property value is a string.
 
 You must use an expression, and the evaluated result should be a string.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#string_value IoteventsDetectorModel#string_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#string_value IoteventsDetectorModel#string_value}
 
 ---
 
@@ -2519,11 +2519,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotTopicPublish.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotTopicPublish {
 	MqttTopic: *string,
-	Payload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotTopicPublishPayload,
+	Payload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotTopicPublishPayload,
 }
 ```
 
@@ -2548,7 +2548,7 @@ The MQTT topic of the message.
 
 You can use a string expression that includes variables (`$variable.<variable-name>`) and input values (`$input.<input-name>.<path-to-datum>`) as the topic string.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#mqtt_topic IoteventsDetectorModel#mqtt_topic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#mqtt_topic IoteventsDetectorModel#mqtt_topic}
 
 ---
 
@@ -2562,7 +2562,7 @@ Payload IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsI
 
 You can configure the action payload when you publish a message to an IoTCore topic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#payload IoteventsDetectorModel#payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#payload IoteventsDetectorModel#payload}
 
 ---
 
@@ -2571,7 +2571,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotTopicPublishPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotTopicPublishPayload {
 	ContentExpression: *string,
@@ -2600,7 +2600,7 @@ The content of the payload.
 
 You can use a string expression that includes quoted strings (`'<string>'`), variables (`$variable.<variable-name>`), input values (`$input.<input-name>.<path-to-datum>`), string concatenations, and quoted strings that contain `${}` as the content. The recommended maximum size of a content expression is 1 KB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#content_expression IoteventsDetectorModel#content_expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#content_expression IoteventsDetectorModel#content_expression}
 
 ---
 
@@ -2614,7 +2614,7 @@ Type *string
 
 The value of the payload type can be either ``STRING`` or ``JSON``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#type IoteventsDetectorModel#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#type IoteventsDetectorModel#type}
 
 ---
 
@@ -2623,11 +2623,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsLambda.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsLambda {
 	FunctionArn: *string,
-	Payload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsLambdaPayload,
+	Payload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsLambdaPayload,
 }
 ```
 
@@ -2650,7 +2650,7 @@ FunctionArn *string
 
 The ARN of the Lambda function that is executed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#function_arn IoteventsDetectorModel#function_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#function_arn IoteventsDetectorModel#function_arn}
 
 ---
 
@@ -2664,7 +2664,7 @@ Payload IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsL
 
 You can configure the action payload when you send a message to a Lambda function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#payload IoteventsDetectorModel#payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#payload IoteventsDetectorModel#payload}
 
 ---
 
@@ -2673,7 +2673,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsLambdaPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsLambdaPayload {
 	ContentExpression: *string,
@@ -2702,7 +2702,7 @@ The content of the payload.
 
 You can use a string expression that includes quoted strings (`'<string>'`), variables (`$variable.<variable-name>`), input values (`$input.<input-name>.<path-to-datum>`), string concatenations, and quoted strings that contain `${}` as the content. The recommended maximum size of a content expression is 1 KB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#content_expression IoteventsDetectorModel#content_expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#content_expression IoteventsDetectorModel#content_expression}
 
 ---
 
@@ -2716,7 +2716,7 @@ Type *string
 
 The value of the payload type can be either ``STRING`` or ``JSON``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#type IoteventsDetectorModel#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#type IoteventsDetectorModel#type}
 
 ---
 
@@ -2725,7 +2725,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsResetTimer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsResetTimer {
 	TimerName: *string,
@@ -2750,7 +2750,7 @@ TimerName *string
 
 The name of the timer to reset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#timer_name IoteventsDetectorModel#timer_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#timer_name IoteventsDetectorModel#timer_name}
 
 ---
 
@@ -2759,7 +2759,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSetTimer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSetTimer {
 	DurationExpression: *string,
@@ -2790,7 +2790,7 @@ The duration of the timer, in seconds.
 
 You can use a string expression that includes numbers, variables (`$variable.<variable-name>`), and input values (`$input.<input-name>.<path-to-datum>`) as the duration. The range of the duration is 1-31622400 seconds. To ensure accuracy, the minimum duration is 60 seconds. The evaluated result of the duration is rounded down to the nearest whole number.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#duration_expression IoteventsDetectorModel#duration_expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#duration_expression IoteventsDetectorModel#duration_expression}
 
 ---
 
@@ -2806,7 +2806,7 @@ The number of seconds until the timer expires.
 
 The minimum value is 60 seconds to ensure accuracy. The maximum value is 31622400 seconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#seconds IoteventsDetectorModel#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#seconds IoteventsDetectorModel#seconds}
 
 ---
 
@@ -2820,7 +2820,7 @@ TimerName *string
 
 The name of the timer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#timer_name IoteventsDetectorModel#timer_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#timer_name IoteventsDetectorModel#timer_name}
 
 ---
 
@@ -2829,7 +2829,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSetVariable.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSetVariable {
 	Value: *string,
@@ -2856,7 +2856,7 @@ Value *string
 
 The new value of the variable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#value IoteventsDetectorModel#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#value IoteventsDetectorModel#value}
 
 ---
 
@@ -2870,7 +2870,7 @@ VariableName *string
 
 The name of the variable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#variable_name IoteventsDetectorModel#variable_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#variable_name IoteventsDetectorModel#variable_name}
 
 ---
 
@@ -2879,10 +2879,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSns.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSns {
-	Payload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSnsPayload,
+	Payload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSnsPayload,
 	TargetArn: *string,
 }
 ```
@@ -2906,7 +2906,7 @@ Payload IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsS
 
 You can configure the action payload when you send a message as an Amazon SNS push notification.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#payload IoteventsDetectorModel#payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#payload IoteventsDetectorModel#payload}
 
 ---
 
@@ -2920,7 +2920,7 @@ TargetArn *string
 
 The ARN of the Amazon SNS target where the message is sent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#target_arn IoteventsDetectorModel#target_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#target_arn IoteventsDetectorModel#target_arn}
 
 ---
 
@@ -2929,7 +2929,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSnsPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSnsPayload {
 	ContentExpression: *string,
@@ -2958,7 +2958,7 @@ The content of the payload.
 
 You can use a string expression that includes quoted strings (`'<string>'`), variables (`$variable.<variable-name>`), input values (`$input.<input-name>.<path-to-datum>`), string concatenations, and quoted strings that contain `${}` as the content. The recommended maximum size of a content expression is 1 KB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#content_expression IoteventsDetectorModel#content_expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#content_expression IoteventsDetectorModel#content_expression}
 
 ---
 
@@ -2972,7 +2972,7 @@ Type *string
 
 The value of the payload type can be either ``STRING`` or ``JSON``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#type IoteventsDetectorModel#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#type IoteventsDetectorModel#type}
 
 ---
 
@@ -2981,10 +2981,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSqs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSqs {
-	Payload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSqsPayload,
+	Payload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSqsPayload,
 	QueueUrl: *string,
 	UseBase64: interface{},
 }
@@ -3010,7 +3010,7 @@ Payload IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsS
 
 You can configure the action payload when you send a message to an Amazon SQS queue.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#payload IoteventsDetectorModel#payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#payload IoteventsDetectorModel#payload}
 
 ---
 
@@ -3024,7 +3024,7 @@ QueueUrl *string
 
 The URL of the SQS queue where the data is written.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#queue_url IoteventsDetectorModel#queue_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#queue_url IoteventsDetectorModel#queue_url}
 
 ---
 
@@ -3040,7 +3040,7 @@ Set this to TRUE if you want the data to be base-64 encoded before it is written
 
 Otherwise, set this to FALSE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#use_base_64 IoteventsDetectorModel#use_base_64}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#use_base_64 IoteventsDetectorModel#use_base_64}
 
 ---
 
@@ -3049,7 +3049,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSqsPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSqsPayload {
 	ContentExpression: *string,
@@ -3078,7 +3078,7 @@ The content of the payload.
 
 You can use a string expression that includes quoted strings (`'<string>'`), variables (`$variable.<variable-name>`), input values (`$input.<input-name>.<path-to-datum>`), string concatenations, and quoted strings that contain `${}` as the content. The recommended maximum size of a content expression is 1 KB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#content_expression IoteventsDetectorModel#content_expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#content_expression IoteventsDetectorModel#content_expression}
 
 ---
 
@@ -3092,7 +3092,7 @@ Type *string
 
 The value of the payload type can be either ``STRING`` or ``JSON``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#type IoteventsDetectorModel#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#type IoteventsDetectorModel#type}
 
 ---
 
@@ -3101,7 +3101,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExit.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExit {
 	Events: interface{},
@@ -3126,7 +3126,7 @@ Events interface{}
 
 Specifies the ``actions`` that are performed when the state is exited and the ``condition`` is ``TRUE``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#events IoteventsDetectorModel#events}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#events IoteventsDetectorModel#events}
 
 ---
 
@@ -3135,7 +3135,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEvents.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEvents {
 	Actions: interface{},
@@ -3164,7 +3164,7 @@ Actions interface{}
 
 The actions to be performed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#actions IoteventsDetectorModel#actions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#actions IoteventsDetectorModel#actions}
 
 ---
 
@@ -3180,7 +3180,7 @@ Optional.
 
 The Boolean expression that, when TRUE, causes the `actions` to be performed. If not present, the actions are performed (=TRUE). If the expression result is not a Boolean value, the actions are not performed (=FALSE).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#condition IoteventsDetectorModel#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#condition IoteventsDetectorModel#condition}
 
 ---
 
@@ -3194,7 +3194,7 @@ EventName *string
 
 The name of the event.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#event_name IoteventsDetectorModel#event_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#event_name IoteventsDetectorModel#event_name}
 
 ---
 
@@ -3203,22 +3203,22 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActions {
-	ClearTimer: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsClearTimer,
-	DynamoDb: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsDynamoDb,
-	DynamoDBv2: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsDynamoDBv2,
-	Firehose: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsFirehose,
-	IotEvents: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotEvents,
-	IotSiteWise: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotSiteWise,
-	IotTopicPublish: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotTopicPublish,
-	Lambda: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsLambda,
-	ResetTimer: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsResetTimer,
-	SetTimer: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSetTimer,
-	SetVariable: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSetVariable,
-	Sns: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSns,
-	Sqs: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSqs,
+	ClearTimer: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsClearTimer,
+	DynamoDb: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsDynamoDb,
+	DynamoDBv2: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsDynamoDBv2,
+	Firehose: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsFirehose,
+	IotEvents: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotEvents,
+	IotSiteWise: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotSiteWise,
+	IotTopicPublish: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotTopicPublish,
+	Lambda: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsLambda,
+	ResetTimer: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsResetTimer,
+	SetTimer: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSetTimer,
+	SetVariable: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSetVariable,
+	Sns: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSns,
+	Sqs: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSqs,
 }
 ```
 
@@ -3252,7 +3252,7 @@ ClearTimer IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsAction
 
 Information needed to clear the timer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#clear_timer IoteventsDetectorModel#clear_timer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#clear_timer IoteventsDetectorModel#clear_timer}
 
 ---
 
@@ -3268,7 +3268,7 @@ Writes to the DynamoDB table that you created.
 
 The default action payload contains all attribute-value pairs that have the information about the detector model instance and the event that triggered the action. You can customize the [payload](https://docs.aws.amazon.com/iotevents/latest/apireference/API_Payload.html). One column of the DynamoDB table receives all attribute-value pairs in the payload that you specify. For more information, see [Actions](https://docs.aws.amazon.com/iotevents/latest/developerguide/iotevents-event-actions.html) in *Developer Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#dynamo_db IoteventsDetectorModel#dynamo_db}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#dynamo_db IoteventsDetectorModel#dynamo_db}
 
 ---
 
@@ -3284,7 +3284,7 @@ Writes to the DynamoDB table that you created.
 
 The default action payload contains all attribute-value pairs that have the information about the detector model instance and the event that triggered the action. You can customize the [payload](https://docs.aws.amazon.com/iotevents/latest/apireference/API_Payload.html). A separate column of the DynamoDB table receives one attribute-value pair in the payload that you specify. For more information, see [Actions](https://docs.aws.amazon.com/iotevents/latest/developerguide/iotevents-event-actions.html) in *Developer Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#dynamo_d_bv_2 IoteventsDetectorModel#dynamo_d_bv_2}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#dynamo_d_bv_2 IoteventsDetectorModel#dynamo_d_bv_2}
 
 ---
 
@@ -3298,7 +3298,7 @@ Firehose IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsF
 
 Sends information about the detector model instance and the event that triggered the action to an Amazon Kinesis Data Firehose delivery stream.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#firehose IoteventsDetectorModel#firehose}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#firehose IoteventsDetectorModel#firehose}
 
 ---
 
@@ -3312,7 +3312,7 @@ IotEvents IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActions
 
 Sends ITE input, which passes information about the detector model instance and the event that triggered the action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#iot_events IoteventsDetectorModel#iot_events}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#iot_events IoteventsDetectorModel#iot_events}
 
 ---
 
@@ -3326,7 +3326,7 @@ IotSiteWise IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActio
 
 Sends information about the detector model instance and the event that triggered the action to an asset property in ITSW .
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#iot_site_wise IoteventsDetectorModel#iot_site_wise}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#iot_site_wise IoteventsDetectorModel#iot_site_wise}
 
 ---
 
@@ -3340,7 +3340,7 @@ IotTopicPublish IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsA
 
 Publishes an MQTT message with the given topic to the IoT message broker.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#iot_topic_publish IoteventsDetectorModel#iot_topic_publish}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#iot_topic_publish IoteventsDetectorModel#iot_topic_publish}
 
 ---
 
@@ -3354,7 +3354,7 @@ Lambda IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsLam
 
 Calls a Lambda function, passing in information about the detector model instance and the event that triggered the action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#lambda IoteventsDetectorModel#lambda}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#lambda IoteventsDetectorModel#lambda}
 
 ---
 
@@ -3368,7 +3368,7 @@ ResetTimer IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsAction
 
 Information needed to reset the timer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#reset_timer IoteventsDetectorModel#reset_timer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#reset_timer IoteventsDetectorModel#reset_timer}
 
 ---
 
@@ -3382,7 +3382,7 @@ SetTimer IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsS
 
 Information needed to set the timer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#set_timer IoteventsDetectorModel#set_timer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#set_timer IoteventsDetectorModel#set_timer}
 
 ---
 
@@ -3396,7 +3396,7 @@ SetVariable IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActio
 
 Sets a variable to a specified value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#set_variable IoteventsDetectorModel#set_variable}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#set_variable IoteventsDetectorModel#set_variable}
 
 ---
 
@@ -3410,7 +3410,7 @@ Sns IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSns
 
 Sends an Amazon SNS message.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#sns IoteventsDetectorModel#sns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#sns IoteventsDetectorModel#sns}
 
 ---
 
@@ -3424,7 +3424,7 @@ Sqs IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSqs
 
 Sends an Amazon SNS message.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#sqs IoteventsDetectorModel#sqs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#sqs IoteventsDetectorModel#sqs}
 
 ---
 
@@ -3433,7 +3433,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsClearTimer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsClearTimer {
 	TimerName: *string,
@@ -3458,7 +3458,7 @@ TimerName *string
 
 The name of the timer to clear.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#timer_name IoteventsDetectorModel#timer_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#timer_name IoteventsDetectorModel#timer_name}
 
 ---
 
@@ -3467,14 +3467,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsDynamoDb.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsDynamoDb {
 	HashKeyField: *string,
 	HashKeyType: *string,
 	HashKeyValue: *string,
 	Operation: *string,
-	Payload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsDynamoDbPayload,
+	Payload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsDynamoDbPayload,
 	PayloadField: *string,
 	RangeKeyField: *string,
 	RangeKeyType: *string,
@@ -3512,7 +3512,7 @@ The name of the hash key (also called the partition key).
 
 The `hashKeyField` value must match the partition key of the target DynamoDB table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#hash_key_field IoteventsDetectorModel#hash_key_field}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#hash_key_field IoteventsDetectorModel#hash_key_field}
 
 ---
 
@@ -3533,7 +3533,7 @@ You can specify the following values:
 
 If you don't specify `hashKeyType`, the default value is `'STRING'`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#hash_key_type IoteventsDetectorModel#hash_key_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#hash_key_type IoteventsDetectorModel#hash_key_type}
 
 ---
 
@@ -3547,7 +3547,7 @@ HashKeyValue *string
 
 The value of the hash key (also called the partition key).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#hash_key_value IoteventsDetectorModel#hash_key_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#hash_key_value IoteventsDetectorModel#hash_key_value}
 
 ---
 
@@ -3569,7 +3569,7 @@ You can specify the following values:
 
 If you don't specify this parameter, ITE triggers the `'INSERT'` operation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#operation IoteventsDetectorModel#operation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#operation IoteventsDetectorModel#operation}
 
 ---
 
@@ -3585,7 +3585,7 @@ Information needed to configure the payload.
 
 By default, ITE generates a standard payload in JSON for any action. This action payload contains all attribute-value pairs that have the information about the detector model instance and the event triggered the action. To configure the action payload, you can use `contentExpression`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#payload IoteventsDetectorModel#payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#payload IoteventsDetectorModel#payload}
 
 ---
 
@@ -3601,7 +3601,7 @@ The name of the DynamoDB column that receives the action payload.
 
 If you don't specify this parameter, the name of the DynamoDB column is `payload`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#payload_field IoteventsDetectorModel#payload_field}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#payload_field IoteventsDetectorModel#payload_field}
 
 ---
 
@@ -3617,7 +3617,7 @@ The name of the range key (also called the sort key).
 
 The `rangeKeyField` value must match the sort key of the target DynamoDB table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#range_key_field IoteventsDetectorModel#range_key_field}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#range_key_field IoteventsDetectorModel#range_key_field}
 
 ---
 
@@ -3635,7 +3635,7 @@ The data type for the range key (also called the sort key), You can specify the 
 
 If you don't specify `rangeKeyField`, the default value is `'STRING'`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#range_key_type IoteventsDetectorModel#range_key_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#range_key_type IoteventsDetectorModel#range_key_type}
 
 ---
 
@@ -3649,7 +3649,7 @@ RangeKeyValue *string
 
 The value of the range key (also called the sort key).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#range_key_value IoteventsDetectorModel#range_key_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#range_key_value IoteventsDetectorModel#range_key_value}
 
 ---
 
@@ -3663,7 +3663,7 @@ TableName *string
 
 The name of the DynamoDB table. The ``tableName`` value must match the table name of the target DynamoDB table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#table_name IoteventsDetectorModel#table_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#table_name IoteventsDetectorModel#table_name}
 
 ---
 
@@ -3672,7 +3672,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsDynamoDbPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsDynamoDbPayload {
 	ContentExpression: *string,
@@ -3701,7 +3701,7 @@ The content of the payload.
 
 You can use a string expression that includes quoted strings (`'<string>'`), variables (`$variable.<variable-name>`), input values (`$input.<input-name>.<path-to-datum>`), string concatenations, and quoted strings that contain `${}` as the content. The recommended maximum size of a content expression is 1 KB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#content_expression IoteventsDetectorModel#content_expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#content_expression IoteventsDetectorModel#content_expression}
 
 ---
 
@@ -3715,7 +3715,7 @@ Type *string
 
 The value of the payload type can be either ``STRING`` or ``JSON``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#type IoteventsDetectorModel#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#type IoteventsDetectorModel#type}
 
 ---
 
@@ -3724,10 +3724,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsDynamoDBv2.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsDynamoDBv2 {
-	Payload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsDynamoDBv2Payload,
+	Payload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsDynamoDBv2Payload,
 	TableName: *string,
 }
 ```
@@ -3753,7 +3753,7 @@ Information needed to configure the payload.
 
 By default, ITE generates a standard payload in JSON for any action. This action payload contains all attribute-value pairs that have the information about the detector model instance and the event triggered the action. To configure the action payload, you can use `contentExpression`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#payload IoteventsDetectorModel#payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#payload IoteventsDetectorModel#payload}
 
 ---
 
@@ -3767,7 +3767,7 @@ TableName *string
 
 The name of the DynamoDB table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#table_name IoteventsDetectorModel#table_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#table_name IoteventsDetectorModel#table_name}
 
 ---
 
@@ -3776,7 +3776,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsDynamoDBv2Payload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsDynamoDBv2Payload {
 	ContentExpression: *string,
@@ -3805,7 +3805,7 @@ The content of the payload.
 
 You can use a string expression that includes quoted strings (`'<string>'`), variables (`$variable.<variable-name>`), input values (`$input.<input-name>.<path-to-datum>`), string concatenations, and quoted strings that contain `${}` as the content. The recommended maximum size of a content expression is 1 KB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#content_expression IoteventsDetectorModel#content_expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#content_expression IoteventsDetectorModel#content_expression}
 
 ---
 
@@ -3819,7 +3819,7 @@ Type *string
 
 The value of the payload type can be either ``STRING`` or ``JSON``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#type IoteventsDetectorModel#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#type IoteventsDetectorModel#type}
 
 ---
 
@@ -3828,11 +3828,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsFirehose.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsFirehose {
 	DeliveryStreamName: *string,
-	Payload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsFirehosePayload,
+	Payload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsFirehosePayload,
 	Separator: *string,
 }
 ```
@@ -3857,7 +3857,7 @@ DeliveryStreamName *string
 
 The name of the Kinesis Data Firehose delivery stream where the data is written.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#delivery_stream_name IoteventsDetectorModel#delivery_stream_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#delivery_stream_name IoteventsDetectorModel#delivery_stream_name}
 
 ---
 
@@ -3871,7 +3871,7 @@ Payload IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsFi
 
 You can configure the action payload when you send a message to an Amazon Data Firehose delivery stream.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#payload IoteventsDetectorModel#payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#payload IoteventsDetectorModel#payload}
 
 ---
 
@@ -3887,7 +3887,7 @@ A character separator that is used to separate records written to the Kinesis Da
 
 Valid values are: '\n' (newline), '\t' (tab), '\r\n' (Windows newline), ',' (comma).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#separator IoteventsDetectorModel#separator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#separator IoteventsDetectorModel#separator}
 
 ---
 
@@ -3896,7 +3896,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsFirehosePayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsFirehosePayload {
 	ContentExpression: *string,
@@ -3925,7 +3925,7 @@ The content of the payload.
 
 You can use a string expression that includes quoted strings (`'<string>'`), variables (`$variable.<variable-name>`), input values (`$input.<input-name>.<path-to-datum>`), string concatenations, and quoted strings that contain `${}` as the content. The recommended maximum size of a content expression is 1 KB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#content_expression IoteventsDetectorModel#content_expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#content_expression IoteventsDetectorModel#content_expression}
 
 ---
 
@@ -3939,7 +3939,7 @@ Type *string
 
 The value of the payload type can be either ``STRING`` or ``JSON``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#type IoteventsDetectorModel#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#type IoteventsDetectorModel#type}
 
 ---
 
@@ -3948,11 +3948,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotEvents.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotEvents {
 	InputName: *string,
-	Payload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotEventsPayload,
+	Payload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotEventsPayload,
 }
 ```
 
@@ -3975,7 +3975,7 @@ InputName *string
 
 The name of the ITE input where the data is sent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#input_name IoteventsDetectorModel#input_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#input_name IoteventsDetectorModel#input_name}
 
 ---
 
@@ -3989,7 +3989,7 @@ Payload IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIo
 
 You can configure the action payload when you send a message to an ITE input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#payload IoteventsDetectorModel#payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#payload IoteventsDetectorModel#payload}
 
 ---
 
@@ -3998,7 +3998,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotEventsPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotEventsPayload {
 	ContentExpression: *string,
@@ -4027,7 +4027,7 @@ The content of the payload.
 
 You can use a string expression that includes quoted strings (`'<string>'`), variables (`$variable.<variable-name>`), input values (`$input.<input-name>.<path-to-datum>`), string concatenations, and quoted strings that contain `${}` as the content. The recommended maximum size of a content expression is 1 KB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#content_expression IoteventsDetectorModel#content_expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#content_expression IoteventsDetectorModel#content_expression}
 
 ---
 
@@ -4041,7 +4041,7 @@ Type *string
 
 The value of the payload type can be either ``STRING`` or ``JSON``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#type IoteventsDetectorModel#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#type IoteventsDetectorModel#type}
 
 ---
 
@@ -4050,14 +4050,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotSiteWise.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotSiteWise {
 	AssetId: *string,
 	EntryId: *string,
 	PropertyAlias: *string,
 	PropertyId: *string,
-	PropertyValue: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotSiteWisePropertyValue,
+	PropertyValue: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotSiteWisePropertyValue,
 }
 ```
 
@@ -4083,7 +4083,7 @@ AssetId *string
 
 The ID of the asset that has the specified property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#asset_id IoteventsDetectorModel#asset_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#asset_id IoteventsDetectorModel#asset_id}
 
 ---
 
@@ -4099,7 +4099,7 @@ A unique identifier for this entry.
 
 You can use the entry ID to track which data entry causes an error in case of failure. The default is a new unique identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#entry_id IoteventsDetectorModel#entry_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#entry_id IoteventsDetectorModel#entry_id}
 
 ---
 
@@ -4113,7 +4113,7 @@ PropertyAlias *string
 
 The alias of the asset property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#property_alias IoteventsDetectorModel#property_alias}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#property_alias IoteventsDetectorModel#property_alias}
 
 ---
 
@@ -4127,7 +4127,7 @@ PropertyId *string
 
 The ID of the asset property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#property_id IoteventsDetectorModel#property_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#property_id IoteventsDetectorModel#property_id}
 
 ---
 
@@ -4141,7 +4141,7 @@ PropertyValue IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsAct
 
 The value to send to the asset property. This value contains timestamp, quality, and value (TQV) information.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#property_value IoteventsDetectorModel#property_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#property_value IoteventsDetectorModel#property_value}
 
 ---
 
@@ -4150,12 +4150,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotSiteWisePropertyValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotSiteWisePropertyValue {
 	Quality: *string,
-	Timestamp: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotSiteWisePropertyValueTimestamp,
-	Value: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotSiteWisePropertyValueValue,
+	Timestamp: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotSiteWisePropertyValueTimestamp,
+	Value: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotSiteWisePropertyValueValue,
 }
 ```
 
@@ -4179,7 +4179,7 @@ Quality *string
 
 The quality of the asset property value. The value must be ``'GOOD'``, ``'BAD'``, or ``'UNCERTAIN'``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#quality IoteventsDetectorModel#quality}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#quality IoteventsDetectorModel#quality}
 
 ---
 
@@ -4193,7 +4193,7 @@ Timestamp IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActions
 
 The timestamp associated with the asset property value. The default is the current event time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#timestamp IoteventsDetectorModel#timestamp}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#timestamp IoteventsDetectorModel#timestamp}
 
 ---
 
@@ -4207,7 +4207,7 @@ Value IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotS
 
 The value to send to an asset property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#value IoteventsDetectorModel#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#value IoteventsDetectorModel#value}
 
 ---
 
@@ -4216,7 +4216,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotSiteWisePropertyValueTimestamp.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotSiteWisePropertyValueTimestamp {
 	OffsetInNanos: *string,
@@ -4243,7 +4243,7 @@ OffsetInNanos *string
 
 The nanosecond offset converted from ``timeInSeconds``. The valid range is between 0-999999999.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#offset_in_nanos IoteventsDetectorModel#offset_in_nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#offset_in_nanos IoteventsDetectorModel#offset_in_nanos}
 
 ---
 
@@ -4257,7 +4257,7 @@ TimeInSeconds *string
 
 The timestamp, in seconds, in the Unix epoch format. The valid range is between 1-31556889864403199.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#time_in_seconds IoteventsDetectorModel#time_in_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#time_in_seconds IoteventsDetectorModel#time_in_seconds}
 
 ---
 
@@ -4266,7 +4266,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotSiteWisePropertyValueValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotSiteWisePropertyValueValue {
 	BooleanValue: *string,
@@ -4299,7 +4299,7 @@ The asset property value is a Boolean value that must be ``'TRUE'`` or ``'FALSE'
 
 You must use an expression, and the evaluated result should be a Boolean value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#boolean_value IoteventsDetectorModel#boolean_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#boolean_value IoteventsDetectorModel#boolean_value}
 
 ---
 
@@ -4315,7 +4315,7 @@ The asset property value is a double.
 
 You must use an expression, and the evaluated result should be a double.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#double_value IoteventsDetectorModel#double_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#double_value IoteventsDetectorModel#double_value}
 
 ---
 
@@ -4331,7 +4331,7 @@ The asset property value is an integer.
 
 You must use an expression, and the evaluated result should be an integer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#integer_value IoteventsDetectorModel#integer_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#integer_value IoteventsDetectorModel#integer_value}
 
 ---
 
@@ -4347,7 +4347,7 @@ The asset property value is a string.
 
 You must use an expression, and the evaluated result should be a string.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#string_value IoteventsDetectorModel#string_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#string_value IoteventsDetectorModel#string_value}
 
 ---
 
@@ -4356,11 +4356,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotTopicPublish.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotTopicPublish {
 	MqttTopic: *string,
-	Payload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotTopicPublishPayload,
+	Payload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotTopicPublishPayload,
 }
 ```
 
@@ -4385,7 +4385,7 @@ The MQTT topic of the message.
 
 You can use a string expression that includes variables (`$variable.<variable-name>`) and input values (`$input.<input-name>.<path-to-datum>`) as the topic string.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#mqtt_topic IoteventsDetectorModel#mqtt_topic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#mqtt_topic IoteventsDetectorModel#mqtt_topic}
 
 ---
 
@@ -4399,7 +4399,7 @@ Payload IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIo
 
 You can configure the action payload when you publish a message to an IoTCore topic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#payload IoteventsDetectorModel#payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#payload IoteventsDetectorModel#payload}
 
 ---
 
@@ -4408,7 +4408,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotTopicPublishPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotTopicPublishPayload {
 	ContentExpression: *string,
@@ -4437,7 +4437,7 @@ The content of the payload.
 
 You can use a string expression that includes quoted strings (`'<string>'`), variables (`$variable.<variable-name>`), input values (`$input.<input-name>.<path-to-datum>`), string concatenations, and quoted strings that contain `${}` as the content. The recommended maximum size of a content expression is 1 KB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#content_expression IoteventsDetectorModel#content_expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#content_expression IoteventsDetectorModel#content_expression}
 
 ---
 
@@ -4451,7 +4451,7 @@ Type *string
 
 The value of the payload type can be either ``STRING`` or ``JSON``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#type IoteventsDetectorModel#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#type IoteventsDetectorModel#type}
 
 ---
 
@@ -4460,11 +4460,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsLambda.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsLambda {
 	FunctionArn: *string,
-	Payload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsLambdaPayload,
+	Payload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsLambdaPayload,
 }
 ```
 
@@ -4487,7 +4487,7 @@ FunctionArn *string
 
 The ARN of the Lambda function that is executed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#function_arn IoteventsDetectorModel#function_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#function_arn IoteventsDetectorModel#function_arn}
 
 ---
 
@@ -4501,7 +4501,7 @@ Payload IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsLa
 
 You can configure the action payload when you send a message to a Lambda function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#payload IoteventsDetectorModel#payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#payload IoteventsDetectorModel#payload}
 
 ---
 
@@ -4510,7 +4510,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsLambdaPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsLambdaPayload {
 	ContentExpression: *string,
@@ -4539,7 +4539,7 @@ The content of the payload.
 
 You can use a string expression that includes quoted strings (`'<string>'`), variables (`$variable.<variable-name>`), input values (`$input.<input-name>.<path-to-datum>`), string concatenations, and quoted strings that contain `${}` as the content. The recommended maximum size of a content expression is 1 KB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#content_expression IoteventsDetectorModel#content_expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#content_expression IoteventsDetectorModel#content_expression}
 
 ---
 
@@ -4553,7 +4553,7 @@ Type *string
 
 The value of the payload type can be either ``STRING`` or ``JSON``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#type IoteventsDetectorModel#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#type IoteventsDetectorModel#type}
 
 ---
 
@@ -4562,7 +4562,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsResetTimer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsResetTimer {
 	TimerName: *string,
@@ -4587,7 +4587,7 @@ TimerName *string
 
 The name of the timer to reset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#timer_name IoteventsDetectorModel#timer_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#timer_name IoteventsDetectorModel#timer_name}
 
 ---
 
@@ -4596,7 +4596,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSetTimer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSetTimer {
 	DurationExpression: *string,
@@ -4627,7 +4627,7 @@ The duration of the timer, in seconds.
 
 You can use a string expression that includes numbers, variables (`$variable.<variable-name>`), and input values (`$input.<input-name>.<path-to-datum>`) as the duration. The range of the duration is 1-31622400 seconds. To ensure accuracy, the minimum duration is 60 seconds. The evaluated result of the duration is rounded down to the nearest whole number.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#duration_expression IoteventsDetectorModel#duration_expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#duration_expression IoteventsDetectorModel#duration_expression}
 
 ---
 
@@ -4643,7 +4643,7 @@ The number of seconds until the timer expires.
 
 The minimum value is 60 seconds to ensure accuracy. The maximum value is 31622400 seconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#seconds IoteventsDetectorModel#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#seconds IoteventsDetectorModel#seconds}
 
 ---
 
@@ -4657,7 +4657,7 @@ TimerName *string
 
 The name of the timer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#timer_name IoteventsDetectorModel#timer_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#timer_name IoteventsDetectorModel#timer_name}
 
 ---
 
@@ -4666,7 +4666,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSetVariable.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSetVariable {
 	Value: *string,
@@ -4693,7 +4693,7 @@ Value *string
 
 The new value of the variable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#value IoteventsDetectorModel#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#value IoteventsDetectorModel#value}
 
 ---
 
@@ -4707,7 +4707,7 @@ VariableName *string
 
 The name of the variable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#variable_name IoteventsDetectorModel#variable_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#variable_name IoteventsDetectorModel#variable_name}
 
 ---
 
@@ -4716,10 +4716,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSns.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSns {
-	Payload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSnsPayload,
+	Payload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSnsPayload,
 	TargetArn: *string,
 }
 ```
@@ -4743,7 +4743,7 @@ Payload IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSn
 
 You can configure the action payload when you send a message as an Amazon SNS push notification.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#payload IoteventsDetectorModel#payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#payload IoteventsDetectorModel#payload}
 
 ---
 
@@ -4757,7 +4757,7 @@ TargetArn *string
 
 The ARN of the Amazon SNS target where the message is sent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#target_arn IoteventsDetectorModel#target_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#target_arn IoteventsDetectorModel#target_arn}
 
 ---
 
@@ -4766,7 +4766,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSnsPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSnsPayload {
 	ContentExpression: *string,
@@ -4795,7 +4795,7 @@ The content of the payload.
 
 You can use a string expression that includes quoted strings (`'<string>'`), variables (`$variable.<variable-name>`), input values (`$input.<input-name>.<path-to-datum>`), string concatenations, and quoted strings that contain `${}` as the content. The recommended maximum size of a content expression is 1 KB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#content_expression IoteventsDetectorModel#content_expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#content_expression IoteventsDetectorModel#content_expression}
 
 ---
 
@@ -4809,7 +4809,7 @@ Type *string
 
 The value of the payload type can be either ``STRING`` or ``JSON``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#type IoteventsDetectorModel#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#type IoteventsDetectorModel#type}
 
 ---
 
@@ -4818,10 +4818,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSqs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSqs {
-	Payload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSqsPayload,
+	Payload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSqsPayload,
 	QueueUrl: *string,
 	UseBase64: interface{},
 }
@@ -4847,7 +4847,7 @@ Payload IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSq
 
 You can configure the action payload when you send a message to an Amazon SQS queue.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#payload IoteventsDetectorModel#payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#payload IoteventsDetectorModel#payload}
 
 ---
 
@@ -4861,7 +4861,7 @@ QueueUrl *string
 
 The URL of the SQS queue where the data is written.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#queue_url IoteventsDetectorModel#queue_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#queue_url IoteventsDetectorModel#queue_url}
 
 ---
 
@@ -4877,7 +4877,7 @@ Set this to TRUE if you want the data to be base-64 encoded before it is written
 
 Otherwise, set this to FALSE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#use_base_64 IoteventsDetectorModel#use_base_64}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#use_base_64 IoteventsDetectorModel#use_base_64}
 
 ---
 
@@ -4886,7 +4886,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSqsPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSqsPayload {
 	ContentExpression: *string,
@@ -4915,7 +4915,7 @@ The content of the payload.
 
 You can use a string expression that includes quoted strings (`'<string>'`), variables (`$variable.<variable-name>`), input values (`$input.<input-name>.<path-to-datum>`), string concatenations, and quoted strings that contain `${}` as the content. The recommended maximum size of a content expression is 1 KB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#content_expression IoteventsDetectorModel#content_expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#content_expression IoteventsDetectorModel#content_expression}
 
 ---
 
@@ -4929,7 +4929,7 @@ Type *string
 
 The value of the payload type can be either ``STRING`` or ``JSON``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#type IoteventsDetectorModel#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#type IoteventsDetectorModel#type}
 
 ---
 
@@ -4938,7 +4938,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInput.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInput {
 	Events: interface{},
@@ -4965,7 +4965,7 @@ Events interface{}
 
 Specifies the actions performed when the ``condition`` evaluates to TRUE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#events IoteventsDetectorModel#events}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#events IoteventsDetectorModel#events}
 
 ---
 
@@ -4979,7 +4979,7 @@ TransitionEvents interface{}
 
 Specifies the actions performed, and the next state entered, when a ``condition`` evaluates to TRUE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#transition_events IoteventsDetectorModel#transition_events}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#transition_events IoteventsDetectorModel#transition_events}
 
 ---
 
@@ -4988,7 +4988,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEvents.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEvents {
 	Actions: interface{},
@@ -5017,7 +5017,7 @@ Actions interface{}
 
 The actions to be performed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#actions IoteventsDetectorModel#actions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#actions IoteventsDetectorModel#actions}
 
 ---
 
@@ -5033,7 +5033,7 @@ Optional.
 
 The Boolean expression that, when TRUE, causes the `actions` to be performed. If not present, the actions are performed (=TRUE). If the expression result is not a Boolean value, the actions are not performed (=FALSE).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#condition IoteventsDetectorModel#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#condition IoteventsDetectorModel#condition}
 
 ---
 
@@ -5047,7 +5047,7 @@ EventName *string
 
 The name of the event.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#event_name IoteventsDetectorModel#event_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#event_name IoteventsDetectorModel#event_name}
 
 ---
 
@@ -5056,22 +5056,22 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActions {
-	ClearTimer: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsClearTimer,
-	DynamoDb: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsDynamoDb,
-	DynamoDBv2: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsDynamoDBv2,
-	Firehose: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsFirehose,
-	IotEvents: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotEvents,
-	IotSiteWise: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotSiteWise,
-	IotTopicPublish: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotTopicPublish,
-	Lambda: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsLambda,
-	ResetTimer: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsResetTimer,
-	SetTimer: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSetTimer,
-	SetVariable: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSetVariable,
-	Sns: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSns,
-	Sqs: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSqs,
+	ClearTimer: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsClearTimer,
+	DynamoDb: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsDynamoDb,
+	DynamoDBv2: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsDynamoDBv2,
+	Firehose: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsFirehose,
+	IotEvents: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotEvents,
+	IotSiteWise: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotSiteWise,
+	IotTopicPublish: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotTopicPublish,
+	Lambda: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsLambda,
+	ResetTimer: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsResetTimer,
+	SetTimer: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSetTimer,
+	SetVariable: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSetVariable,
+	Sns: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSns,
+	Sqs: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSqs,
 }
 ```
 
@@ -5105,7 +5105,7 @@ ClearTimer IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActio
 
 Information needed to clear the timer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#clear_timer IoteventsDetectorModel#clear_timer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#clear_timer IoteventsDetectorModel#clear_timer}
 
 ---
 
@@ -5121,7 +5121,7 @@ Writes to the DynamoDB table that you created.
 
 The default action payload contains all attribute-value pairs that have the information about the detector model instance and the event that triggered the action. You can customize the [payload](https://docs.aws.amazon.com/iotevents/latest/apireference/API_Payload.html). One column of the DynamoDB table receives all attribute-value pairs in the payload that you specify. For more information, see [Actions](https://docs.aws.amazon.com/iotevents/latest/developerguide/iotevents-event-actions.html) in *Developer Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#dynamo_db IoteventsDetectorModel#dynamo_db}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#dynamo_db IoteventsDetectorModel#dynamo_db}
 
 ---
 
@@ -5137,7 +5137,7 @@ Writes to the DynamoDB table that you created.
 
 The default action payload contains all attribute-value pairs that have the information about the detector model instance and the event that triggered the action. You can customize the [payload](https://docs.aws.amazon.com/iotevents/latest/apireference/API_Payload.html). A separate column of the DynamoDB table receives one attribute-value pair in the payload that you specify. For more information, see [Actions](https://docs.aws.amazon.com/iotevents/latest/developerguide/iotevents-event-actions.html) in *Developer Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#dynamo_d_bv_2 IoteventsDetectorModel#dynamo_d_bv_2}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#dynamo_d_bv_2 IoteventsDetectorModel#dynamo_d_bv_2}
 
 ---
 
@@ -5151,7 +5151,7 @@ Firehose IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActions
 
 Sends information about the detector model instance and the event that triggered the action to an Amazon Kinesis Data Firehose delivery stream.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#firehose IoteventsDetectorModel#firehose}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#firehose IoteventsDetectorModel#firehose}
 
 ---
 
@@ -5165,7 +5165,7 @@ IotEvents IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsAction
 
 Sends ITE input, which passes information about the detector model instance and the event that triggered the action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#iot_events IoteventsDetectorModel#iot_events}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#iot_events IoteventsDetectorModel#iot_events}
 
 ---
 
@@ -5179,7 +5179,7 @@ IotSiteWise IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActi
 
 Sends information about the detector model instance and the event that triggered the action to an asset property in ITSW .
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#iot_site_wise IoteventsDetectorModel#iot_site_wise}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#iot_site_wise IoteventsDetectorModel#iot_site_wise}
 
 ---
 
@@ -5193,7 +5193,7 @@ IotTopicPublish IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEvents
 
 Publishes an MQTT message with the given topic to the IoT message broker.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#iot_topic_publish IoteventsDetectorModel#iot_topic_publish}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#iot_topic_publish IoteventsDetectorModel#iot_topic_publish}
 
 ---
 
@@ -5207,7 +5207,7 @@ Lambda IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsLa
 
 Calls a Lambda function, passing in information about the detector model instance and the event that triggered the action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#lambda IoteventsDetectorModel#lambda}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#lambda IoteventsDetectorModel#lambda}
 
 ---
 
@@ -5221,7 +5221,7 @@ ResetTimer IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActio
 
 Information needed to reset the timer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#reset_timer IoteventsDetectorModel#reset_timer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#reset_timer IoteventsDetectorModel#reset_timer}
 
 ---
 
@@ -5235,7 +5235,7 @@ SetTimer IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActions
 
 Information needed to set the timer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#set_timer IoteventsDetectorModel#set_timer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#set_timer IoteventsDetectorModel#set_timer}
 
 ---
 
@@ -5249,7 +5249,7 @@ SetVariable IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActi
 
 Sets a variable to a specified value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#set_variable IoteventsDetectorModel#set_variable}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#set_variable IoteventsDetectorModel#set_variable}
 
 ---
 
@@ -5263,7 +5263,7 @@ Sns IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSns
 
 Sends an Amazon SNS message.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#sns IoteventsDetectorModel#sns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#sns IoteventsDetectorModel#sns}
 
 ---
 
@@ -5277,7 +5277,7 @@ Sqs IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSqs
 
 Sends an Amazon SNS message.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#sqs IoteventsDetectorModel#sqs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#sqs IoteventsDetectorModel#sqs}
 
 ---
 
@@ -5286,7 +5286,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsClearTimer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsClearTimer {
 	TimerName: *string,
@@ -5311,7 +5311,7 @@ TimerName *string
 
 The name of the timer to clear.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#timer_name IoteventsDetectorModel#timer_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#timer_name IoteventsDetectorModel#timer_name}
 
 ---
 
@@ -5320,14 +5320,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsDynamoDb.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsDynamoDb {
 	HashKeyField: *string,
 	HashKeyType: *string,
 	HashKeyValue: *string,
 	Operation: *string,
-	Payload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsDynamoDbPayload,
+	Payload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsDynamoDbPayload,
 	PayloadField: *string,
 	RangeKeyField: *string,
 	RangeKeyType: *string,
@@ -5365,7 +5365,7 @@ The name of the hash key (also called the partition key).
 
 The `hashKeyField` value must match the partition key of the target DynamoDB table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#hash_key_field IoteventsDetectorModel#hash_key_field}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#hash_key_field IoteventsDetectorModel#hash_key_field}
 
 ---
 
@@ -5386,7 +5386,7 @@ You can specify the following values:
 
 If you don't specify `hashKeyType`, the default value is `'STRING'`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#hash_key_type IoteventsDetectorModel#hash_key_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#hash_key_type IoteventsDetectorModel#hash_key_type}
 
 ---
 
@@ -5400,7 +5400,7 @@ HashKeyValue *string
 
 The value of the hash key (also called the partition key).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#hash_key_value IoteventsDetectorModel#hash_key_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#hash_key_value IoteventsDetectorModel#hash_key_value}
 
 ---
 
@@ -5422,7 +5422,7 @@ You can specify the following values:
 
 If you don't specify this parameter, ITE triggers the `'INSERT'` operation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#operation IoteventsDetectorModel#operation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#operation IoteventsDetectorModel#operation}
 
 ---
 
@@ -5438,7 +5438,7 @@ Information needed to configure the payload.
 
 By default, ITE generates a standard payload in JSON for any action. This action payload contains all attribute-value pairs that have the information about the detector model instance and the event triggered the action. To configure the action payload, you can use `contentExpression`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#payload IoteventsDetectorModel#payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#payload IoteventsDetectorModel#payload}
 
 ---
 
@@ -5454,7 +5454,7 @@ The name of the DynamoDB column that receives the action payload.
 
 If you don't specify this parameter, the name of the DynamoDB column is `payload`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#payload_field IoteventsDetectorModel#payload_field}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#payload_field IoteventsDetectorModel#payload_field}
 
 ---
 
@@ -5470,7 +5470,7 @@ The name of the range key (also called the sort key).
 
 The `rangeKeyField` value must match the sort key of the target DynamoDB table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#range_key_field IoteventsDetectorModel#range_key_field}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#range_key_field IoteventsDetectorModel#range_key_field}
 
 ---
 
@@ -5488,7 +5488,7 @@ The data type for the range key (also called the sort key), You can specify the 
 
 If you don't specify `rangeKeyField`, the default value is `'STRING'`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#range_key_type IoteventsDetectorModel#range_key_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#range_key_type IoteventsDetectorModel#range_key_type}
 
 ---
 
@@ -5502,7 +5502,7 @@ RangeKeyValue *string
 
 The value of the range key (also called the sort key).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#range_key_value IoteventsDetectorModel#range_key_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#range_key_value IoteventsDetectorModel#range_key_value}
 
 ---
 
@@ -5516,7 +5516,7 @@ TableName *string
 
 The name of the DynamoDB table. The ``tableName`` value must match the table name of the target DynamoDB table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#table_name IoteventsDetectorModel#table_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#table_name IoteventsDetectorModel#table_name}
 
 ---
 
@@ -5525,7 +5525,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsDynamoDbPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsDynamoDbPayload {
 	ContentExpression: *string,
@@ -5554,7 +5554,7 @@ The content of the payload.
 
 You can use a string expression that includes quoted strings (`'<string>'`), variables (`$variable.<variable-name>`), input values (`$input.<input-name>.<path-to-datum>`), string concatenations, and quoted strings that contain `${}` as the content. The recommended maximum size of a content expression is 1 KB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#content_expression IoteventsDetectorModel#content_expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#content_expression IoteventsDetectorModel#content_expression}
 
 ---
 
@@ -5568,7 +5568,7 @@ Type *string
 
 The value of the payload type can be either ``STRING`` or ``JSON``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#type IoteventsDetectorModel#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#type IoteventsDetectorModel#type}
 
 ---
 
@@ -5577,10 +5577,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsDynamoDBv2.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsDynamoDBv2 {
-	Payload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsDynamoDBv2Payload,
+	Payload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsDynamoDBv2Payload,
 	TableName: *string,
 }
 ```
@@ -5606,7 +5606,7 @@ Information needed to configure the payload.
 
 By default, ITE generates a standard payload in JSON for any action. This action payload contains all attribute-value pairs that have the information about the detector model instance and the event triggered the action. To configure the action payload, you can use `contentExpression`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#payload IoteventsDetectorModel#payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#payload IoteventsDetectorModel#payload}
 
 ---
 
@@ -5620,7 +5620,7 @@ TableName *string
 
 The name of the DynamoDB table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#table_name IoteventsDetectorModel#table_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#table_name IoteventsDetectorModel#table_name}
 
 ---
 
@@ -5629,7 +5629,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsDynamoDBv2Payload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsDynamoDBv2Payload {
 	ContentExpression: *string,
@@ -5658,7 +5658,7 @@ The content of the payload.
 
 You can use a string expression that includes quoted strings (`'<string>'`), variables (`$variable.<variable-name>`), input values (`$input.<input-name>.<path-to-datum>`), string concatenations, and quoted strings that contain `${}` as the content. The recommended maximum size of a content expression is 1 KB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#content_expression IoteventsDetectorModel#content_expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#content_expression IoteventsDetectorModel#content_expression}
 
 ---
 
@@ -5672,7 +5672,7 @@ Type *string
 
 The value of the payload type can be either ``STRING`` or ``JSON``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#type IoteventsDetectorModel#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#type IoteventsDetectorModel#type}
 
 ---
 
@@ -5681,11 +5681,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsFirehose.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsFirehose {
 	DeliveryStreamName: *string,
-	Payload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsFirehosePayload,
+	Payload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsFirehosePayload,
 	Separator: *string,
 }
 ```
@@ -5710,7 +5710,7 @@ DeliveryStreamName *string
 
 The name of the Kinesis Data Firehose delivery stream where the data is written.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#delivery_stream_name IoteventsDetectorModel#delivery_stream_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#delivery_stream_name IoteventsDetectorModel#delivery_stream_name}
 
 ---
 
@@ -5724,7 +5724,7 @@ Payload IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsF
 
 You can configure the action payload when you send a message to an Amazon Data Firehose delivery stream.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#payload IoteventsDetectorModel#payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#payload IoteventsDetectorModel#payload}
 
 ---
 
@@ -5740,7 +5740,7 @@ A character separator that is used to separate records written to the Kinesis Da
 
 Valid values are: '\n' (newline), '\t' (tab), '\r\n' (Windows newline), ',' (comma).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#separator IoteventsDetectorModel#separator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#separator IoteventsDetectorModel#separator}
 
 ---
 
@@ -5749,7 +5749,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsFirehosePayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsFirehosePayload {
 	ContentExpression: *string,
@@ -5778,7 +5778,7 @@ The content of the payload.
 
 You can use a string expression that includes quoted strings (`'<string>'`), variables (`$variable.<variable-name>`), input values (`$input.<input-name>.<path-to-datum>`), string concatenations, and quoted strings that contain `${}` as the content. The recommended maximum size of a content expression is 1 KB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#content_expression IoteventsDetectorModel#content_expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#content_expression IoteventsDetectorModel#content_expression}
 
 ---
 
@@ -5792,7 +5792,7 @@ Type *string
 
 The value of the payload type can be either ``STRING`` or ``JSON``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#type IoteventsDetectorModel#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#type IoteventsDetectorModel#type}
 
 ---
 
@@ -5801,11 +5801,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotEvents.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotEvents {
 	InputName: *string,
-	Payload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotEventsPayload,
+	Payload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotEventsPayload,
 }
 ```
 
@@ -5828,7 +5828,7 @@ InputName *string
 
 The name of the ITE input where the data is sent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#input_name IoteventsDetectorModel#input_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#input_name IoteventsDetectorModel#input_name}
 
 ---
 
@@ -5842,7 +5842,7 @@ Payload IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsI
 
 You can configure the action payload when you send a message to an ITE input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#payload IoteventsDetectorModel#payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#payload IoteventsDetectorModel#payload}
 
 ---
 
@@ -5851,7 +5851,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotEventsPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotEventsPayload {
 	ContentExpression: *string,
@@ -5880,7 +5880,7 @@ The content of the payload.
 
 You can use a string expression that includes quoted strings (`'<string>'`), variables (`$variable.<variable-name>`), input values (`$input.<input-name>.<path-to-datum>`), string concatenations, and quoted strings that contain `${}` as the content. The recommended maximum size of a content expression is 1 KB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#content_expression IoteventsDetectorModel#content_expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#content_expression IoteventsDetectorModel#content_expression}
 
 ---
 
@@ -5894,7 +5894,7 @@ Type *string
 
 The value of the payload type can be either ``STRING`` or ``JSON``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#type IoteventsDetectorModel#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#type IoteventsDetectorModel#type}
 
 ---
 
@@ -5903,14 +5903,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotSiteWise.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotSiteWise {
 	AssetId: *string,
 	EntryId: *string,
 	PropertyAlias: *string,
 	PropertyId: *string,
-	PropertyValue: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotSiteWisePropertyValue,
+	PropertyValue: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotSiteWisePropertyValue,
 }
 ```
 
@@ -5936,7 +5936,7 @@ AssetId *string
 
 The ID of the asset that has the specified property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#asset_id IoteventsDetectorModel#asset_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#asset_id IoteventsDetectorModel#asset_id}
 
 ---
 
@@ -5952,7 +5952,7 @@ A unique identifier for this entry.
 
 You can use the entry ID to track which data entry causes an error in case of failure. The default is a new unique identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#entry_id IoteventsDetectorModel#entry_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#entry_id IoteventsDetectorModel#entry_id}
 
 ---
 
@@ -5966,7 +5966,7 @@ PropertyAlias *string
 
 The alias of the asset property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#property_alias IoteventsDetectorModel#property_alias}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#property_alias IoteventsDetectorModel#property_alias}
 
 ---
 
@@ -5980,7 +5980,7 @@ PropertyId *string
 
 The ID of the asset property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#property_id IoteventsDetectorModel#property_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#property_id IoteventsDetectorModel#property_id}
 
 ---
 
@@ -5994,7 +5994,7 @@ PropertyValue IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsAc
 
 The value to send to the asset property. This value contains timestamp, quality, and value (TQV) information.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#property_value IoteventsDetectorModel#property_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#property_value IoteventsDetectorModel#property_value}
 
 ---
 
@@ -6003,12 +6003,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotSiteWisePropertyValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotSiteWisePropertyValue {
 	Quality: *string,
-	Timestamp: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotSiteWisePropertyValueTimestamp,
-	Value: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotSiteWisePropertyValueValue,
+	Timestamp: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotSiteWisePropertyValueTimestamp,
+	Value: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotSiteWisePropertyValueValue,
 }
 ```
 
@@ -6032,7 +6032,7 @@ Quality *string
 
 The quality of the asset property value. The value must be ``'GOOD'``, ``'BAD'``, or ``'UNCERTAIN'``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#quality IoteventsDetectorModel#quality}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#quality IoteventsDetectorModel#quality}
 
 ---
 
@@ -6046,7 +6046,7 @@ Timestamp IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsAction
 
 The timestamp associated with the asset property value. The default is the current event time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#timestamp IoteventsDetectorModel#timestamp}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#timestamp IoteventsDetectorModel#timestamp}
 
 ---
 
@@ -6060,7 +6060,7 @@ Value IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIot
 
 The value to send to an asset property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#value IoteventsDetectorModel#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#value IoteventsDetectorModel#value}
 
 ---
 
@@ -6069,7 +6069,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotSiteWisePropertyValueTimestamp.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotSiteWisePropertyValueTimestamp {
 	OffsetInNanos: *string,
@@ -6096,7 +6096,7 @@ OffsetInNanos *string
 
 The nanosecond offset converted from ``timeInSeconds``. The valid range is between 0-999999999.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#offset_in_nanos IoteventsDetectorModel#offset_in_nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#offset_in_nanos IoteventsDetectorModel#offset_in_nanos}
 
 ---
 
@@ -6110,7 +6110,7 @@ TimeInSeconds *string
 
 The timestamp, in seconds, in the Unix epoch format. The valid range is between 1-31556889864403199.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#time_in_seconds IoteventsDetectorModel#time_in_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#time_in_seconds IoteventsDetectorModel#time_in_seconds}
 
 ---
 
@@ -6119,7 +6119,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotSiteWisePropertyValueValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotSiteWisePropertyValueValue {
 	BooleanValue: *string,
@@ -6152,7 +6152,7 @@ The asset property value is a Boolean value that must be ``'TRUE'`` or ``'FALSE'
 
 You must use an expression, and the evaluated result should be a Boolean value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#boolean_value IoteventsDetectorModel#boolean_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#boolean_value IoteventsDetectorModel#boolean_value}
 
 ---
 
@@ -6168,7 +6168,7 @@ The asset property value is a double.
 
 You must use an expression, and the evaluated result should be a double.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#double_value IoteventsDetectorModel#double_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#double_value IoteventsDetectorModel#double_value}
 
 ---
 
@@ -6184,7 +6184,7 @@ The asset property value is an integer.
 
 You must use an expression, and the evaluated result should be an integer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#integer_value IoteventsDetectorModel#integer_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#integer_value IoteventsDetectorModel#integer_value}
 
 ---
 
@@ -6200,7 +6200,7 @@ The asset property value is a string.
 
 You must use an expression, and the evaluated result should be a string.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#string_value IoteventsDetectorModel#string_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#string_value IoteventsDetectorModel#string_value}
 
 ---
 
@@ -6209,11 +6209,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotTopicPublish.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotTopicPublish {
 	MqttTopic: *string,
-	Payload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotTopicPublishPayload,
+	Payload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotTopicPublishPayload,
 }
 ```
 
@@ -6238,7 +6238,7 @@ The MQTT topic of the message.
 
 You can use a string expression that includes variables (`$variable.<variable-name>`) and input values (`$input.<input-name>.<path-to-datum>`) as the topic string.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#mqtt_topic IoteventsDetectorModel#mqtt_topic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#mqtt_topic IoteventsDetectorModel#mqtt_topic}
 
 ---
 
@@ -6252,7 +6252,7 @@ Payload IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsI
 
 You can configure the action payload when you publish a message to an IoTCore topic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#payload IoteventsDetectorModel#payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#payload IoteventsDetectorModel#payload}
 
 ---
 
@@ -6261,7 +6261,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotTopicPublishPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotTopicPublishPayload {
 	ContentExpression: *string,
@@ -6290,7 +6290,7 @@ The content of the payload.
 
 You can use a string expression that includes quoted strings (`'<string>'`), variables (`$variable.<variable-name>`), input values (`$input.<input-name>.<path-to-datum>`), string concatenations, and quoted strings that contain `${}` as the content. The recommended maximum size of a content expression is 1 KB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#content_expression IoteventsDetectorModel#content_expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#content_expression IoteventsDetectorModel#content_expression}
 
 ---
 
@@ -6304,7 +6304,7 @@ Type *string
 
 The value of the payload type can be either ``STRING`` or ``JSON``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#type IoteventsDetectorModel#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#type IoteventsDetectorModel#type}
 
 ---
 
@@ -6313,11 +6313,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsLambda.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsLambda {
 	FunctionArn: *string,
-	Payload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsLambdaPayload,
+	Payload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsLambdaPayload,
 }
 ```
 
@@ -6340,7 +6340,7 @@ FunctionArn *string
 
 The ARN of the Lambda function that is executed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#function_arn IoteventsDetectorModel#function_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#function_arn IoteventsDetectorModel#function_arn}
 
 ---
 
@@ -6354,7 +6354,7 @@ Payload IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsL
 
 You can configure the action payload when you send a message to a Lambda function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#payload IoteventsDetectorModel#payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#payload IoteventsDetectorModel#payload}
 
 ---
 
@@ -6363,7 +6363,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsLambdaPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsLambdaPayload {
 	ContentExpression: *string,
@@ -6392,7 +6392,7 @@ The content of the payload.
 
 You can use a string expression that includes quoted strings (`'<string>'`), variables (`$variable.<variable-name>`), input values (`$input.<input-name>.<path-to-datum>`), string concatenations, and quoted strings that contain `${}` as the content. The recommended maximum size of a content expression is 1 KB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#content_expression IoteventsDetectorModel#content_expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#content_expression IoteventsDetectorModel#content_expression}
 
 ---
 
@@ -6406,7 +6406,7 @@ Type *string
 
 The value of the payload type can be either ``STRING`` or ``JSON``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#type IoteventsDetectorModel#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#type IoteventsDetectorModel#type}
 
 ---
 
@@ -6415,7 +6415,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsResetTimer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsResetTimer {
 	TimerName: *string,
@@ -6440,7 +6440,7 @@ TimerName *string
 
 The name of the timer to reset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#timer_name IoteventsDetectorModel#timer_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#timer_name IoteventsDetectorModel#timer_name}
 
 ---
 
@@ -6449,7 +6449,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSetTimer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSetTimer {
 	DurationExpression: *string,
@@ -6480,7 +6480,7 @@ The duration of the timer, in seconds.
 
 You can use a string expression that includes numbers, variables (`$variable.<variable-name>`), and input values (`$input.<input-name>.<path-to-datum>`) as the duration. The range of the duration is 1-31622400 seconds. To ensure accuracy, the minimum duration is 60 seconds. The evaluated result of the duration is rounded down to the nearest whole number.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#duration_expression IoteventsDetectorModel#duration_expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#duration_expression IoteventsDetectorModel#duration_expression}
 
 ---
 
@@ -6496,7 +6496,7 @@ The number of seconds until the timer expires.
 
 The minimum value is 60 seconds to ensure accuracy. The maximum value is 31622400 seconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#seconds IoteventsDetectorModel#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#seconds IoteventsDetectorModel#seconds}
 
 ---
 
@@ -6510,7 +6510,7 @@ TimerName *string
 
 The name of the timer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#timer_name IoteventsDetectorModel#timer_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#timer_name IoteventsDetectorModel#timer_name}
 
 ---
 
@@ -6519,7 +6519,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSetVariable.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSetVariable {
 	Value: *string,
@@ -6546,7 +6546,7 @@ Value *string
 
 The new value of the variable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#value IoteventsDetectorModel#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#value IoteventsDetectorModel#value}
 
 ---
 
@@ -6560,7 +6560,7 @@ VariableName *string
 
 The name of the variable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#variable_name IoteventsDetectorModel#variable_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#variable_name IoteventsDetectorModel#variable_name}
 
 ---
 
@@ -6569,10 +6569,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSns.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSns {
-	Payload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSnsPayload,
+	Payload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSnsPayload,
 	TargetArn: *string,
 }
 ```
@@ -6596,7 +6596,7 @@ Payload IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsS
 
 You can configure the action payload when you send a message as an Amazon SNS push notification.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#payload IoteventsDetectorModel#payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#payload IoteventsDetectorModel#payload}
 
 ---
 
@@ -6610,7 +6610,7 @@ TargetArn *string
 
 The ARN of the Amazon SNS target where the message is sent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#target_arn IoteventsDetectorModel#target_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#target_arn IoteventsDetectorModel#target_arn}
 
 ---
 
@@ -6619,7 +6619,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSnsPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSnsPayload {
 	ContentExpression: *string,
@@ -6648,7 +6648,7 @@ The content of the payload.
 
 You can use a string expression that includes quoted strings (`'<string>'`), variables (`$variable.<variable-name>`), input values (`$input.<input-name>.<path-to-datum>`), string concatenations, and quoted strings that contain `${}` as the content. The recommended maximum size of a content expression is 1 KB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#content_expression IoteventsDetectorModel#content_expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#content_expression IoteventsDetectorModel#content_expression}
 
 ---
 
@@ -6662,7 +6662,7 @@ Type *string
 
 The value of the payload type can be either ``STRING`` or ``JSON``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#type IoteventsDetectorModel#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#type IoteventsDetectorModel#type}
 
 ---
 
@@ -6671,10 +6671,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSqs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSqs {
-	Payload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSqsPayload,
+	Payload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSqsPayload,
 	QueueUrl: *string,
 	UseBase64: interface{},
 }
@@ -6700,7 +6700,7 @@ Payload IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsS
 
 You can configure the action payload when you send a message to an Amazon SQS queue.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#payload IoteventsDetectorModel#payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#payload IoteventsDetectorModel#payload}
 
 ---
 
@@ -6714,7 +6714,7 @@ QueueUrl *string
 
 The URL of the SQS queue where the data is written.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#queue_url IoteventsDetectorModel#queue_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#queue_url IoteventsDetectorModel#queue_url}
 
 ---
 
@@ -6730,7 +6730,7 @@ Set this to TRUE if you want the data to be base-64 encoded before it is written
 
 Otherwise, set this to FALSE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#use_base_64 IoteventsDetectorModel#use_base_64}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#use_base_64 IoteventsDetectorModel#use_base_64}
 
 ---
 
@@ -6739,7 +6739,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSqsPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSqsPayload {
 	ContentExpression: *string,
@@ -6768,7 +6768,7 @@ The content of the payload.
 
 You can use a string expression that includes quoted strings (`'<string>'`), variables (`$variable.<variable-name>`), input values (`$input.<input-name>.<path-to-datum>`), string concatenations, and quoted strings that contain `${}` as the content. The recommended maximum size of a content expression is 1 KB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#content_expression IoteventsDetectorModel#content_expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#content_expression IoteventsDetectorModel#content_expression}
 
 ---
 
@@ -6782,7 +6782,7 @@ Type *string
 
 The value of the payload type can be either ``STRING`` or ``JSON``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#type IoteventsDetectorModel#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#type IoteventsDetectorModel#type}
 
 ---
 
@@ -6791,7 +6791,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEvents.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEvents {
 	Actions: interface{},
@@ -6822,7 +6822,7 @@ Actions interface{}
 
 The actions to be performed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#actions IoteventsDetectorModel#actions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#actions IoteventsDetectorModel#actions}
 
 ---
 
@@ -6836,7 +6836,7 @@ Condition *string
 
 Required. A Boolean expression that when TRUE causes the actions to be performed and the ``nextState`` to be entered.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#condition IoteventsDetectorModel#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#condition IoteventsDetectorModel#condition}
 
 ---
 
@@ -6850,7 +6850,7 @@ EventName *string
 
 The name of the transition event.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#event_name IoteventsDetectorModel#event_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#event_name IoteventsDetectorModel#event_name}
 
 ---
 
@@ -6864,7 +6864,7 @@ NextState *string
 
 The next state to enter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#next_state IoteventsDetectorModel#next_state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#next_state IoteventsDetectorModel#next_state}
 
 ---
 
@@ -6873,22 +6873,22 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActions {
-	ClearTimer: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsClearTimer,
-	DynamoDb: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsDynamoDb,
-	DynamoDBv2: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsDynamoDBv2,
-	Firehose: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsFirehose,
-	IotEvents: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotEvents,
-	IotSiteWise: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotSiteWise,
-	IotTopicPublish: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotTopicPublish,
-	Lambda: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsLambda,
-	ResetTimer: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsResetTimer,
-	SetTimer: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSetTimer,
-	SetVariable: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSetVariable,
-	Sns: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSns,
-	Sqs: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSqs,
+	ClearTimer: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsClearTimer,
+	DynamoDb: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsDynamoDb,
+	DynamoDBv2: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsDynamoDBv2,
+	Firehose: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsFirehose,
+	IotEvents: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotEvents,
+	IotSiteWise: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotSiteWise,
+	IotTopicPublish: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotTopicPublish,
+	Lambda: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsLambda,
+	ResetTimer: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsResetTimer,
+	SetTimer: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSetTimer,
+	SetVariable: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSetVariable,
+	Sns: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSns,
+	Sqs: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSqs,
 }
 ```
 
@@ -6922,7 +6922,7 @@ ClearTimer IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionE
 
 Information needed to clear the timer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#clear_timer IoteventsDetectorModel#clear_timer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#clear_timer IoteventsDetectorModel#clear_timer}
 
 ---
 
@@ -6938,7 +6938,7 @@ Writes to the DynamoDB table that you created.
 
 The default action payload contains all attribute-value pairs that have the information about the detector model instance and the event that triggered the action. You can customize the [payload](https://docs.aws.amazon.com/iotevents/latest/apireference/API_Payload.html). One column of the DynamoDB table receives all attribute-value pairs in the payload that you specify. For more information, see [Actions](https://docs.aws.amazon.com/iotevents/latest/developerguide/iotevents-event-actions.html) in *Developer Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#dynamo_db IoteventsDetectorModel#dynamo_db}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#dynamo_db IoteventsDetectorModel#dynamo_db}
 
 ---
 
@@ -6954,7 +6954,7 @@ Writes to the DynamoDB table that you created.
 
 The default action payload contains all attribute-value pairs that have the information about the detector model instance and the event that triggered the action. You can customize the [payload](https://docs.aws.amazon.com/iotevents/latest/apireference/API_Payload.html). A separate column of the DynamoDB table receives one attribute-value pair in the payload that you specify. For more information, see [Actions](https://docs.aws.amazon.com/iotevents/latest/developerguide/iotevents-event-actions.html) in *Developer Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#dynamo_d_bv_2 IoteventsDetectorModel#dynamo_d_bv_2}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#dynamo_d_bv_2 IoteventsDetectorModel#dynamo_d_bv_2}
 
 ---
 
@@ -6968,7 +6968,7 @@ Firehose IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEve
 
 Sends information about the detector model instance and the event that triggered the action to an Amazon Kinesis Data Firehose delivery stream.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#firehose IoteventsDetectorModel#firehose}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#firehose IoteventsDetectorModel#firehose}
 
 ---
 
@@ -6982,7 +6982,7 @@ IotEvents IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEv
 
 Sends ITE input, which passes information about the detector model instance and the event that triggered the action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#iot_events IoteventsDetectorModel#iot_events}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#iot_events IoteventsDetectorModel#iot_events}
 
 ---
 
@@ -6996,7 +6996,7 @@ IotSiteWise IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransition
 
 Sends information about the detector model instance and the event that triggered the action to an asset property in ITSW .
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#iot_site_wise IoteventsDetectorModel#iot_site_wise}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#iot_site_wise IoteventsDetectorModel#iot_site_wise}
 
 ---
 
@@ -7010,7 +7010,7 @@ IotTopicPublish IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransi
 
 Publishes an MQTT message with the given topic to the IoT message broker.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#iot_topic_publish IoteventsDetectorModel#iot_topic_publish}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#iot_topic_publish IoteventsDetectorModel#iot_topic_publish}
 
 ---
 
@@ -7024,7 +7024,7 @@ Lambda IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEvent
 
 Calls a Lambda function, passing in information about the detector model instance and the event that triggered the action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#lambda IoteventsDetectorModel#lambda}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#lambda IoteventsDetectorModel#lambda}
 
 ---
 
@@ -7038,7 +7038,7 @@ ResetTimer IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionE
 
 Information needed to reset the timer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#reset_timer IoteventsDetectorModel#reset_timer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#reset_timer IoteventsDetectorModel#reset_timer}
 
 ---
 
@@ -7052,7 +7052,7 @@ SetTimer IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEve
 
 Information needed to set the timer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#set_timer IoteventsDetectorModel#set_timer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#set_timer IoteventsDetectorModel#set_timer}
 
 ---
 
@@ -7066,7 +7066,7 @@ SetVariable IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransition
 
 Sets a variable to a specified value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#set_variable IoteventsDetectorModel#set_variable}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#set_variable IoteventsDetectorModel#set_variable}
 
 ---
 
@@ -7080,7 +7080,7 @@ Sns IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsAc
 
 Sends an Amazon SNS message.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#sns IoteventsDetectorModel#sns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#sns IoteventsDetectorModel#sns}
 
 ---
 
@@ -7094,7 +7094,7 @@ Sqs IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsAc
 
 Sends an Amazon SNS message.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#sqs IoteventsDetectorModel#sqs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#sqs IoteventsDetectorModel#sqs}
 
 ---
 
@@ -7103,7 +7103,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsClearTimer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsClearTimer {
 	TimerName: *string,
@@ -7128,7 +7128,7 @@ TimerName *string
 
 The name of the timer to clear.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#timer_name IoteventsDetectorModel#timer_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#timer_name IoteventsDetectorModel#timer_name}
 
 ---
 
@@ -7137,14 +7137,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsDynamoDb.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsDynamoDb {
 	HashKeyField: *string,
 	HashKeyType: *string,
 	HashKeyValue: *string,
 	Operation: *string,
-	Payload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsDynamoDbPayload,
+	Payload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsDynamoDbPayload,
 	PayloadField: *string,
 	RangeKeyField: *string,
 	RangeKeyType: *string,
@@ -7182,7 +7182,7 @@ The name of the hash key (also called the partition key).
 
 The `hashKeyField` value must match the partition key of the target DynamoDB table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#hash_key_field IoteventsDetectorModel#hash_key_field}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#hash_key_field IoteventsDetectorModel#hash_key_field}
 
 ---
 
@@ -7203,7 +7203,7 @@ You can specify the following values:
 
 If you don't specify `hashKeyType`, the default value is `'STRING'`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#hash_key_type IoteventsDetectorModel#hash_key_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#hash_key_type IoteventsDetectorModel#hash_key_type}
 
 ---
 
@@ -7217,7 +7217,7 @@ HashKeyValue *string
 
 The value of the hash key (also called the partition key).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#hash_key_value IoteventsDetectorModel#hash_key_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#hash_key_value IoteventsDetectorModel#hash_key_value}
 
 ---
 
@@ -7239,7 +7239,7 @@ You can specify the following values:
 
 If you don't specify this parameter, ITE triggers the `'INSERT'` operation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#operation IoteventsDetectorModel#operation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#operation IoteventsDetectorModel#operation}
 
 ---
 
@@ -7255,7 +7255,7 @@ Information needed to configure the payload.
 
 By default, ITE generates a standard payload in JSON for any action. This action payload contains all attribute-value pairs that have the information about the detector model instance and the event triggered the action. To configure the action payload, you can use `contentExpression`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#payload IoteventsDetectorModel#payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#payload IoteventsDetectorModel#payload}
 
 ---
 
@@ -7271,7 +7271,7 @@ The name of the DynamoDB column that receives the action payload.
 
 If you don't specify this parameter, the name of the DynamoDB column is `payload`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#payload_field IoteventsDetectorModel#payload_field}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#payload_field IoteventsDetectorModel#payload_field}
 
 ---
 
@@ -7287,7 +7287,7 @@ The name of the range key (also called the sort key).
 
 The `rangeKeyField` value must match the sort key of the target DynamoDB table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#range_key_field IoteventsDetectorModel#range_key_field}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#range_key_field IoteventsDetectorModel#range_key_field}
 
 ---
 
@@ -7305,7 +7305,7 @@ The data type for the range key (also called the sort key), You can specify the 
 
 If you don't specify `rangeKeyField`, the default value is `'STRING'`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#range_key_type IoteventsDetectorModel#range_key_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#range_key_type IoteventsDetectorModel#range_key_type}
 
 ---
 
@@ -7319,7 +7319,7 @@ RangeKeyValue *string
 
 The value of the range key (also called the sort key).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#range_key_value IoteventsDetectorModel#range_key_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#range_key_value IoteventsDetectorModel#range_key_value}
 
 ---
 
@@ -7333,7 +7333,7 @@ TableName *string
 
 The name of the DynamoDB table. The ``tableName`` value must match the table name of the target DynamoDB table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#table_name IoteventsDetectorModel#table_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#table_name IoteventsDetectorModel#table_name}
 
 ---
 
@@ -7342,7 +7342,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsDynamoDbPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsDynamoDbPayload {
 	ContentExpression: *string,
@@ -7371,7 +7371,7 @@ The content of the payload.
 
 You can use a string expression that includes quoted strings (`'<string>'`), variables (`$variable.<variable-name>`), input values (`$input.<input-name>.<path-to-datum>`), string concatenations, and quoted strings that contain `${}` as the content. The recommended maximum size of a content expression is 1 KB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#content_expression IoteventsDetectorModel#content_expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#content_expression IoteventsDetectorModel#content_expression}
 
 ---
 
@@ -7385,7 +7385,7 @@ Type *string
 
 The value of the payload type can be either ``STRING`` or ``JSON``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#type IoteventsDetectorModel#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#type IoteventsDetectorModel#type}
 
 ---
 
@@ -7394,10 +7394,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsDynamoDBv2.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsDynamoDBv2 {
-	Payload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsDynamoDBv2Payload,
+	Payload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsDynamoDBv2Payload,
 	TableName: *string,
 }
 ```
@@ -7423,7 +7423,7 @@ Information needed to configure the payload.
 
 By default, ITE generates a standard payload in JSON for any action. This action payload contains all attribute-value pairs that have the information about the detector model instance and the event triggered the action. To configure the action payload, you can use `contentExpression`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#payload IoteventsDetectorModel#payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#payload IoteventsDetectorModel#payload}
 
 ---
 
@@ -7437,7 +7437,7 @@ TableName *string
 
 The name of the DynamoDB table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#table_name IoteventsDetectorModel#table_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#table_name IoteventsDetectorModel#table_name}
 
 ---
 
@@ -7446,7 +7446,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsDynamoDBv2Payload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsDynamoDBv2Payload {
 	ContentExpression: *string,
@@ -7475,7 +7475,7 @@ The content of the payload.
 
 You can use a string expression that includes quoted strings (`'<string>'`), variables (`$variable.<variable-name>`), input values (`$input.<input-name>.<path-to-datum>`), string concatenations, and quoted strings that contain `${}` as the content. The recommended maximum size of a content expression is 1 KB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#content_expression IoteventsDetectorModel#content_expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#content_expression IoteventsDetectorModel#content_expression}
 
 ---
 
@@ -7489,7 +7489,7 @@ Type *string
 
 The value of the payload type can be either ``STRING`` or ``JSON``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#type IoteventsDetectorModel#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#type IoteventsDetectorModel#type}
 
 ---
 
@@ -7498,11 +7498,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsFirehose.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsFirehose {
 	DeliveryStreamName: *string,
-	Payload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsFirehosePayload,
+	Payload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsFirehosePayload,
 	Separator: *string,
 }
 ```
@@ -7527,7 +7527,7 @@ DeliveryStreamName *string
 
 The name of the Kinesis Data Firehose delivery stream where the data is written.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#delivery_stream_name IoteventsDetectorModel#delivery_stream_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#delivery_stream_name IoteventsDetectorModel#delivery_stream_name}
 
 ---
 
@@ -7541,7 +7541,7 @@ Payload IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEven
 
 You can configure the action payload when you send a message to an Amazon Data Firehose delivery stream.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#payload IoteventsDetectorModel#payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#payload IoteventsDetectorModel#payload}
 
 ---
 
@@ -7557,7 +7557,7 @@ A character separator that is used to separate records written to the Kinesis Da
 
 Valid values are: '\n' (newline), '\t' (tab), '\r\n' (Windows newline), ',' (comma).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#separator IoteventsDetectorModel#separator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#separator IoteventsDetectorModel#separator}
 
 ---
 
@@ -7566,7 +7566,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsFirehosePayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsFirehosePayload {
 	ContentExpression: *string,
@@ -7595,7 +7595,7 @@ The content of the payload.
 
 You can use a string expression that includes quoted strings (`'<string>'`), variables (`$variable.<variable-name>`), input values (`$input.<input-name>.<path-to-datum>`), string concatenations, and quoted strings that contain `${}` as the content. The recommended maximum size of a content expression is 1 KB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#content_expression IoteventsDetectorModel#content_expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#content_expression IoteventsDetectorModel#content_expression}
 
 ---
 
@@ -7609,7 +7609,7 @@ Type *string
 
 The value of the payload type can be either ``STRING`` or ``JSON``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#type IoteventsDetectorModel#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#type IoteventsDetectorModel#type}
 
 ---
 
@@ -7618,11 +7618,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotEvents.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotEvents {
 	InputName: *string,
-	Payload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotEventsPayload,
+	Payload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotEventsPayload,
 }
 ```
 
@@ -7645,7 +7645,7 @@ InputName *string
 
 The name of the ITE input where the data is sent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#input_name IoteventsDetectorModel#input_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#input_name IoteventsDetectorModel#input_name}
 
 ---
 
@@ -7659,7 +7659,7 @@ Payload IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEven
 
 You can configure the action payload when you send a message to an ITE input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#payload IoteventsDetectorModel#payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#payload IoteventsDetectorModel#payload}
 
 ---
 
@@ -7668,7 +7668,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotEventsPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotEventsPayload {
 	ContentExpression: *string,
@@ -7697,7 +7697,7 @@ The content of the payload.
 
 You can use a string expression that includes quoted strings (`'<string>'`), variables (`$variable.<variable-name>`), input values (`$input.<input-name>.<path-to-datum>`), string concatenations, and quoted strings that contain `${}` as the content. The recommended maximum size of a content expression is 1 KB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#content_expression IoteventsDetectorModel#content_expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#content_expression IoteventsDetectorModel#content_expression}
 
 ---
 
@@ -7711,7 +7711,7 @@ Type *string
 
 The value of the payload type can be either ``STRING`` or ``JSON``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#type IoteventsDetectorModel#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#type IoteventsDetectorModel#type}
 
 ---
 
@@ -7720,14 +7720,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotSiteWise.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotSiteWise {
 	AssetId: *string,
 	EntryId: *string,
 	PropertyAlias: *string,
 	PropertyId: *string,
-	PropertyValue: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotSiteWisePropertyValue,
+	PropertyValue: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotSiteWisePropertyValue,
 }
 ```
 
@@ -7753,7 +7753,7 @@ AssetId *string
 
 The ID of the asset that has the specified property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#asset_id IoteventsDetectorModel#asset_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#asset_id IoteventsDetectorModel#asset_id}
 
 ---
 
@@ -7769,7 +7769,7 @@ A unique identifier for this entry.
 
 You can use the entry ID to track which data entry causes an error in case of failure. The default is a new unique identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#entry_id IoteventsDetectorModel#entry_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#entry_id IoteventsDetectorModel#entry_id}
 
 ---
 
@@ -7783,7 +7783,7 @@ PropertyAlias *string
 
 The alias of the asset property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#property_alias IoteventsDetectorModel#property_alias}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#property_alias IoteventsDetectorModel#property_alias}
 
 ---
 
@@ -7797,7 +7797,7 @@ PropertyId *string
 
 The ID of the asset property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#property_id IoteventsDetectorModel#property_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#property_id IoteventsDetectorModel#property_id}
 
 ---
 
@@ -7811,7 +7811,7 @@ PropertyValue IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransiti
 
 The value to send to the asset property. This value contains timestamp, quality, and value (TQV) information.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#property_value IoteventsDetectorModel#property_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#property_value IoteventsDetectorModel#property_value}
 
 ---
 
@@ -7820,12 +7820,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotSiteWisePropertyValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotSiteWisePropertyValue {
 	Quality: *string,
-	Timestamp: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotSiteWisePropertyValueTimestamp,
-	Value: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotSiteWisePropertyValueValue,
+	Timestamp: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotSiteWisePropertyValueTimestamp,
+	Value: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotSiteWisePropertyValueValue,
 }
 ```
 
@@ -7849,7 +7849,7 @@ Quality *string
 
 The quality of the asset property value. The value must be ``'GOOD'``, ``'BAD'``, or ``'UNCERTAIN'``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#quality IoteventsDetectorModel#quality}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#quality IoteventsDetectorModel#quality}
 
 ---
 
@@ -7863,7 +7863,7 @@ Timestamp IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEv
 
 The timestamp associated with the asset property value. The default is the current event time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#timestamp IoteventsDetectorModel#timestamp}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#timestamp IoteventsDetectorModel#timestamp}
 
 ---
 
@@ -7877,7 +7877,7 @@ Value IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEvents
 
 The value to send to an asset property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#value IoteventsDetectorModel#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#value IoteventsDetectorModel#value}
 
 ---
 
@@ -7886,7 +7886,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotSiteWisePropertyValueTimestamp.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotSiteWisePropertyValueTimestamp {
 	OffsetInNanos: *string,
@@ -7913,7 +7913,7 @@ OffsetInNanos *string
 
 The nanosecond offset converted from ``timeInSeconds``. The valid range is between 0-999999999.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#offset_in_nanos IoteventsDetectorModel#offset_in_nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#offset_in_nanos IoteventsDetectorModel#offset_in_nanos}
 
 ---
 
@@ -7927,7 +7927,7 @@ TimeInSeconds *string
 
 The timestamp, in seconds, in the Unix epoch format. The valid range is between 1-31556889864403199.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#time_in_seconds IoteventsDetectorModel#time_in_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#time_in_seconds IoteventsDetectorModel#time_in_seconds}
 
 ---
 
@@ -7936,7 +7936,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotSiteWisePropertyValueValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotSiteWisePropertyValueValue {
 	BooleanValue: *string,
@@ -7969,7 +7969,7 @@ The asset property value is a Boolean value that must be ``'TRUE'`` or ``'FALSE'
 
 You must use an expression, and the evaluated result should be a Boolean value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#boolean_value IoteventsDetectorModel#boolean_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#boolean_value IoteventsDetectorModel#boolean_value}
 
 ---
 
@@ -7985,7 +7985,7 @@ The asset property value is a double.
 
 You must use an expression, and the evaluated result should be a double.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#double_value IoteventsDetectorModel#double_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#double_value IoteventsDetectorModel#double_value}
 
 ---
 
@@ -8001,7 +8001,7 @@ The asset property value is an integer.
 
 You must use an expression, and the evaluated result should be an integer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#integer_value IoteventsDetectorModel#integer_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#integer_value IoteventsDetectorModel#integer_value}
 
 ---
 
@@ -8017,7 +8017,7 @@ The asset property value is a string.
 
 You must use an expression, and the evaluated result should be a string.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#string_value IoteventsDetectorModel#string_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#string_value IoteventsDetectorModel#string_value}
 
 ---
 
@@ -8026,11 +8026,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotTopicPublish.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotTopicPublish {
 	MqttTopic: *string,
-	Payload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotTopicPublishPayload,
+	Payload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotTopicPublishPayload,
 }
 ```
 
@@ -8055,7 +8055,7 @@ The MQTT topic of the message.
 
 You can use a string expression that includes variables (`$variable.<variable-name>`) and input values (`$input.<input-name>.<path-to-datum>`) as the topic string.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#mqtt_topic IoteventsDetectorModel#mqtt_topic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#mqtt_topic IoteventsDetectorModel#mqtt_topic}
 
 ---
 
@@ -8069,7 +8069,7 @@ Payload IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEven
 
 You can configure the action payload when you publish a message to an IoTCore topic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#payload IoteventsDetectorModel#payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#payload IoteventsDetectorModel#payload}
 
 ---
 
@@ -8078,7 +8078,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotTopicPublishPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotTopicPublishPayload {
 	ContentExpression: *string,
@@ -8107,7 +8107,7 @@ The content of the payload.
 
 You can use a string expression that includes quoted strings (`'<string>'`), variables (`$variable.<variable-name>`), input values (`$input.<input-name>.<path-to-datum>`), string concatenations, and quoted strings that contain `${}` as the content. The recommended maximum size of a content expression is 1 KB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#content_expression IoteventsDetectorModel#content_expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#content_expression IoteventsDetectorModel#content_expression}
 
 ---
 
@@ -8121,7 +8121,7 @@ Type *string
 
 The value of the payload type can be either ``STRING`` or ``JSON``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#type IoteventsDetectorModel#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#type IoteventsDetectorModel#type}
 
 ---
 
@@ -8130,11 +8130,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsLambda.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsLambda {
 	FunctionArn: *string,
-	Payload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsLambdaPayload,
+	Payload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsLambdaPayload,
 }
 ```
 
@@ -8157,7 +8157,7 @@ FunctionArn *string
 
 The ARN of the Lambda function that is executed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#function_arn IoteventsDetectorModel#function_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#function_arn IoteventsDetectorModel#function_arn}
 
 ---
 
@@ -8171,7 +8171,7 @@ Payload IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEven
 
 You can configure the action payload when you send a message to a Lambda function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#payload IoteventsDetectorModel#payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#payload IoteventsDetectorModel#payload}
 
 ---
 
@@ -8180,7 +8180,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsLambdaPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsLambdaPayload {
 	ContentExpression: *string,
@@ -8209,7 +8209,7 @@ The content of the payload.
 
 You can use a string expression that includes quoted strings (`'<string>'`), variables (`$variable.<variable-name>`), input values (`$input.<input-name>.<path-to-datum>`), string concatenations, and quoted strings that contain `${}` as the content. The recommended maximum size of a content expression is 1 KB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#content_expression IoteventsDetectorModel#content_expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#content_expression IoteventsDetectorModel#content_expression}
 
 ---
 
@@ -8223,7 +8223,7 @@ Type *string
 
 The value of the payload type can be either ``STRING`` or ``JSON``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#type IoteventsDetectorModel#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#type IoteventsDetectorModel#type}
 
 ---
 
@@ -8232,7 +8232,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsResetTimer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsResetTimer {
 	TimerName: *string,
@@ -8257,7 +8257,7 @@ TimerName *string
 
 The name of the timer to reset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#timer_name IoteventsDetectorModel#timer_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#timer_name IoteventsDetectorModel#timer_name}
 
 ---
 
@@ -8266,7 +8266,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSetTimer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSetTimer {
 	DurationExpression: *string,
@@ -8297,7 +8297,7 @@ The duration of the timer, in seconds.
 
 You can use a string expression that includes numbers, variables (`$variable.<variable-name>`), and input values (`$input.<input-name>.<path-to-datum>`) as the duration. The range of the duration is 1-31622400 seconds. To ensure accuracy, the minimum duration is 60 seconds. The evaluated result of the duration is rounded down to the nearest whole number.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#duration_expression IoteventsDetectorModel#duration_expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#duration_expression IoteventsDetectorModel#duration_expression}
 
 ---
 
@@ -8313,7 +8313,7 @@ The number of seconds until the timer expires.
 
 The minimum value is 60 seconds to ensure accuracy. The maximum value is 31622400 seconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#seconds IoteventsDetectorModel#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#seconds IoteventsDetectorModel#seconds}
 
 ---
 
@@ -8327,7 +8327,7 @@ TimerName *string
 
 The name of the timer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#timer_name IoteventsDetectorModel#timer_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#timer_name IoteventsDetectorModel#timer_name}
 
 ---
 
@@ -8336,7 +8336,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSetVariable.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSetVariable {
 	Value: *string,
@@ -8363,7 +8363,7 @@ Value *string
 
 The new value of the variable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#value IoteventsDetectorModel#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#value IoteventsDetectorModel#value}
 
 ---
 
@@ -8377,7 +8377,7 @@ VariableName *string
 
 The name of the variable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#variable_name IoteventsDetectorModel#variable_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#variable_name IoteventsDetectorModel#variable_name}
 
 ---
 
@@ -8386,10 +8386,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSns.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSns {
-	Payload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSnsPayload,
+	Payload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSnsPayload,
 	TargetArn: *string,
 }
 ```
@@ -8413,7 +8413,7 @@ Payload IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEven
 
 You can configure the action payload when you send a message as an Amazon SNS push notification.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#payload IoteventsDetectorModel#payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#payload IoteventsDetectorModel#payload}
 
 ---
 
@@ -8427,7 +8427,7 @@ TargetArn *string
 
 The ARN of the Amazon SNS target where the message is sent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#target_arn IoteventsDetectorModel#target_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#target_arn IoteventsDetectorModel#target_arn}
 
 ---
 
@@ -8436,7 +8436,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSnsPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSnsPayload {
 	ContentExpression: *string,
@@ -8465,7 +8465,7 @@ The content of the payload.
 
 You can use a string expression that includes quoted strings (`'<string>'`), variables (`$variable.<variable-name>`), input values (`$input.<input-name>.<path-to-datum>`), string concatenations, and quoted strings that contain `${}` as the content. The recommended maximum size of a content expression is 1 KB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#content_expression IoteventsDetectorModel#content_expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#content_expression IoteventsDetectorModel#content_expression}
 
 ---
 
@@ -8479,7 +8479,7 @@ Type *string
 
 The value of the payload type can be either ``STRING`` or ``JSON``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#type IoteventsDetectorModel#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#type IoteventsDetectorModel#type}
 
 ---
 
@@ -8488,10 +8488,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSqs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSqs {
-	Payload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSqsPayload,
+	Payload: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSqsPayload,
 	QueueUrl: *string,
 	UseBase64: interface{},
 }
@@ -8517,7 +8517,7 @@ Payload IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEven
 
 You can configure the action payload when you send a message to an Amazon SQS queue.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#payload IoteventsDetectorModel#payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#payload IoteventsDetectorModel#payload}
 
 ---
 
@@ -8531,7 +8531,7 @@ QueueUrl *string
 
 The URL of the SQS queue where the data is written.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#queue_url IoteventsDetectorModel#queue_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#queue_url IoteventsDetectorModel#queue_url}
 
 ---
 
@@ -8547,7 +8547,7 @@ Set this to TRUE if you want the data to be base-64 encoded before it is written
 
 Otherwise, set this to FALSE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#use_base_64 IoteventsDetectorModel#use_base_64}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#use_base_64 IoteventsDetectorModel#use_base_64}
 
 ---
 
@@ -8556,7 +8556,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSqsPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSqsPayload {
 	ContentExpression: *string,
@@ -8585,7 +8585,7 @@ The content of the payload.
 
 You can use a string expression that includes quoted strings (`'<string>'`), variables (`$variable.<variable-name>`), input values (`$input.<input-name>.<path-to-datum>`), string concatenations, and quoted strings that contain `${}` as the content. The recommended maximum size of a content expression is 1 KB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#content_expression IoteventsDetectorModel#content_expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#content_expression IoteventsDetectorModel#content_expression}
 
 ---
 
@@ -8599,7 +8599,7 @@ Type *string
 
 The value of the payload type can be either ``STRING`` or ``JSON``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#type IoteventsDetectorModel#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#type IoteventsDetectorModel#type}
 
 ---
 
@@ -8608,7 +8608,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 &ioteventsdetectormodel.IoteventsDetectorModelTags {
 	Key: *string,
@@ -8635,7 +8635,7 @@ Key *string
 
 The tag's key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#key IoteventsDetectorModel#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#key IoteventsDetectorModel#key}
 
 ---
 
@@ -8649,7 +8649,7 @@ Value *string
 
 The tag's value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_detector_model#value IoteventsDetectorModel#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_detector_model#value IoteventsDetectorModel#value}
 
 ---
 
@@ -8660,7 +8660,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionOutputReference
 ```
@@ -8966,7 +8966,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IoteventsDetectorModelDetectorModelDefinitionStatesList
 ```
@@ -9126,7 +9126,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsClearTimerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsClearTimerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsClearTimerOutputReference
 ```
@@ -9404,7 +9404,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsDynamoDbOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsDynamoDbOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsDynamoDbOutputReference
 ```
@@ -9956,7 +9956,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsDynamoDbPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsDynamoDbPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsDynamoDbPayloadOutputReference
 ```
@@ -10263,7 +10263,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsDynamoDBv2OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsDynamoDBv2OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsDynamoDBv2OutputReference
 ```
@@ -10583,7 +10583,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsDynamoDBv2PayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsDynamoDBv2PayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsDynamoDBv2PayloadOutputReference
 ```
@@ -10890,7 +10890,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsFirehoseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsFirehoseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsFirehoseOutputReference
 ```
@@ -11239,7 +11239,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsFirehosePayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsFirehosePayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsFirehosePayloadOutputReference
 ```
@@ -11546,7 +11546,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotEventsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotEventsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotEventsOutputReference
 ```
@@ -11866,7 +11866,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotEventsPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotEventsPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotEventsPayloadOutputReference
 ```
@@ -12173,7 +12173,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotSiteWiseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotSiteWiseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotSiteWiseOutputReference
 ```
@@ -12580,7 +12580,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotSiteWisePropertyValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotSiteWisePropertyValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotSiteWisePropertyValueOutputReference
 ```
@@ -12942,7 +12942,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotSiteWisePropertyValueTimestampOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotSiteWisePropertyValueTimestampOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotSiteWisePropertyValueTimestampOutputReference
 ```
@@ -13249,7 +13249,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotSiteWisePropertyValueValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotSiteWisePropertyValueValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotSiteWisePropertyValueValueOutputReference
 ```
@@ -13614,7 +13614,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotTopicPublishOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotTopicPublishOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotTopicPublishOutputReference
 ```
@@ -13934,7 +13934,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotTopicPublishPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotTopicPublishPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotTopicPublishPayloadOutputReference
 ```
@@ -14241,7 +14241,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsLambdaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsLambdaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsLambdaOutputReference
 ```
@@ -14561,7 +14561,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsLambdaPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsLambdaPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsLambdaPayloadOutputReference
 ```
@@ -14868,7 +14868,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsList
 ```
@@ -15028,7 +15028,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsOutputReference
 ```
@@ -15841,7 +15841,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsResetTimerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsResetTimerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsResetTimerOutputReference
 ```
@@ -16119,7 +16119,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSetTimerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSetTimerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSetTimerOutputReference
 ```
@@ -16455,7 +16455,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSetVariableOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSetVariableOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSetVariableOutputReference
 ```
@@ -16762,7 +16762,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSnsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSnsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSnsOutputReference
 ```
@@ -17082,7 +17082,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSnsPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSnsPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSnsPayloadOutputReference
 ```
@@ -17389,7 +17389,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSqsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSqsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSqsOutputReference
 ```
@@ -17738,7 +17738,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSqsPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSqsPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSqsPayloadOutputReference
 ```
@@ -18045,7 +18045,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsList
 ```
@@ -18205,7 +18205,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsOutputReference
 ```
@@ -18572,7 +18572,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterOutputReference
 ```
@@ -18863,7 +18863,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsClearTimerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsClearTimerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsClearTimerOutputReference
 ```
@@ -19141,7 +19141,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsDynamoDbOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsDynamoDbOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsDynamoDbOutputReference
 ```
@@ -19693,7 +19693,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsDynamoDbPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsDynamoDbPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsDynamoDbPayloadOutputReference
 ```
@@ -20000,7 +20000,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsDynamoDBv2OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsDynamoDBv2OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsDynamoDBv2OutputReference
 ```
@@ -20320,7 +20320,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsDynamoDBv2PayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsDynamoDBv2PayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsDynamoDBv2PayloadOutputReference
 ```
@@ -20627,7 +20627,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsFirehoseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsFirehoseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsFirehoseOutputReference
 ```
@@ -20976,7 +20976,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsFirehosePayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsFirehosePayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsFirehosePayloadOutputReference
 ```
@@ -21283,7 +21283,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotEventsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotEventsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotEventsOutputReference
 ```
@@ -21603,7 +21603,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotEventsPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotEventsPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotEventsPayloadOutputReference
 ```
@@ -21910,7 +21910,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotSiteWiseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotSiteWiseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotSiteWiseOutputReference
 ```
@@ -22317,7 +22317,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotSiteWisePropertyValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotSiteWisePropertyValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotSiteWisePropertyValueOutputReference
 ```
@@ -22679,7 +22679,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotSiteWisePropertyValueTimestampOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotSiteWisePropertyValueTimestampOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotSiteWisePropertyValueTimestampOutputReference
 ```
@@ -22986,7 +22986,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotSiteWisePropertyValueValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotSiteWisePropertyValueValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotSiteWisePropertyValueValueOutputReference
 ```
@@ -23351,7 +23351,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotTopicPublishOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotTopicPublishOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotTopicPublishOutputReference
 ```
@@ -23671,7 +23671,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotTopicPublishPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotTopicPublishPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotTopicPublishPayloadOutputReference
 ```
@@ -23978,7 +23978,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsLambdaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsLambdaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsLambdaOutputReference
 ```
@@ -24298,7 +24298,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsLambdaPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsLambdaPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsLambdaPayloadOutputReference
 ```
@@ -24605,7 +24605,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsList
 ```
@@ -24765,7 +24765,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsOutputReference
 ```
@@ -25578,7 +25578,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsResetTimerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsResetTimerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsResetTimerOutputReference
 ```
@@ -25856,7 +25856,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSetTimerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSetTimerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSetTimerOutputReference
 ```
@@ -26192,7 +26192,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSetVariableOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSetVariableOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSetVariableOutputReference
 ```
@@ -26499,7 +26499,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSnsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSnsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSnsOutputReference
 ```
@@ -26819,7 +26819,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSnsPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSnsPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSnsPayloadOutputReference
 ```
@@ -27126,7 +27126,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSqsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSqsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSqsOutputReference
 ```
@@ -27475,7 +27475,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSqsPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSqsPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSqsPayloadOutputReference
 ```
@@ -27782,7 +27782,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsList
 ```
@@ -27942,7 +27942,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsOutputReference
 ```
@@ -28309,7 +28309,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnExitOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnExitOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnExitOutputReference
 ```
@@ -28600,7 +28600,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsClearTimerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsClearTimerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsClearTimerOutputReference
 ```
@@ -28878,7 +28878,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsDynamoDbOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsDynamoDbOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsDynamoDbOutputReference
 ```
@@ -29430,7 +29430,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsDynamoDbPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsDynamoDbPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsDynamoDbPayloadOutputReference
 ```
@@ -29737,7 +29737,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsDynamoDBv2OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsDynamoDBv2OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsDynamoDBv2OutputReference
 ```
@@ -30057,7 +30057,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsDynamoDBv2PayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsDynamoDBv2PayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsDynamoDBv2PayloadOutputReference
 ```
@@ -30364,7 +30364,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsFirehoseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsFirehoseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsFirehoseOutputReference
 ```
@@ -30713,7 +30713,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsFirehosePayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsFirehosePayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsFirehosePayloadOutputReference
 ```
@@ -31020,7 +31020,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotEventsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotEventsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotEventsOutputReference
 ```
@@ -31340,7 +31340,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotEventsPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotEventsPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotEventsPayloadOutputReference
 ```
@@ -31647,7 +31647,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotSiteWiseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotSiteWiseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotSiteWiseOutputReference
 ```
@@ -32054,7 +32054,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotSiteWisePropertyValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotSiteWisePropertyValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotSiteWisePropertyValueOutputReference
 ```
@@ -32416,7 +32416,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotSiteWisePropertyValueTimestampOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotSiteWisePropertyValueTimestampOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotSiteWisePropertyValueTimestampOutputReference
 ```
@@ -32723,7 +32723,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotSiteWisePropertyValueValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotSiteWisePropertyValueValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotSiteWisePropertyValueValueOutputReference
 ```
@@ -33088,7 +33088,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotTopicPublishOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotTopicPublishOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotTopicPublishOutputReference
 ```
@@ -33408,7 +33408,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotTopicPublishPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotTopicPublishPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotTopicPublishPayloadOutputReference
 ```
@@ -33715,7 +33715,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsLambdaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsLambdaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsLambdaOutputReference
 ```
@@ -34035,7 +34035,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsLambdaPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsLambdaPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsLambdaPayloadOutputReference
 ```
@@ -34342,7 +34342,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsList
 ```
@@ -34502,7 +34502,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsOutputReference
 ```
@@ -35315,7 +35315,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsResetTimerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsResetTimerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsResetTimerOutputReference
 ```
@@ -35593,7 +35593,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSetTimerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSetTimerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSetTimerOutputReference
 ```
@@ -35929,7 +35929,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSetVariableOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSetVariableOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSetVariableOutputReference
 ```
@@ -36236,7 +36236,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSnsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSnsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSnsOutputReference
 ```
@@ -36556,7 +36556,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSnsPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSnsPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSnsPayloadOutputReference
 ```
@@ -36863,7 +36863,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSqsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSqsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSqsOutputReference
 ```
@@ -37212,7 +37212,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSqsPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSqsPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSqsPayloadOutputReference
 ```
@@ -37519,7 +37519,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsList
 ```
@@ -37679,7 +37679,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsOutputReference
 ```
@@ -38046,7 +38046,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnInputOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnInputOutputReference
 ```
@@ -38379,7 +38379,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsClearTimerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsClearTimerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsClearTimerOutputReference
 ```
@@ -38657,7 +38657,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsDynamoDbOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsDynamoDbOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsDynamoDbOutputReference
 ```
@@ -39209,7 +39209,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsDynamoDbPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsDynamoDbPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsDynamoDbPayloadOutputReference
 ```
@@ -39516,7 +39516,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsDynamoDBv2OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsDynamoDBv2OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsDynamoDBv2OutputReference
 ```
@@ -39836,7 +39836,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsDynamoDBv2PayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsDynamoDBv2PayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsDynamoDBv2PayloadOutputReference
 ```
@@ -40143,7 +40143,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsFirehoseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsFirehoseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsFirehoseOutputReference
 ```
@@ -40492,7 +40492,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsFirehosePayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsFirehosePayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsFirehosePayloadOutputReference
 ```
@@ -40799,7 +40799,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotEventsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotEventsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotEventsOutputReference
 ```
@@ -41119,7 +41119,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotEventsPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotEventsPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotEventsPayloadOutputReference
 ```
@@ -41426,7 +41426,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotSiteWiseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotSiteWiseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotSiteWiseOutputReference
 ```
@@ -41833,7 +41833,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotSiteWisePropertyValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotSiteWisePropertyValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotSiteWisePropertyValueOutputReference
 ```
@@ -42195,7 +42195,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotSiteWisePropertyValueTimestampOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotSiteWisePropertyValueTimestampOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotSiteWisePropertyValueTimestampOutputReference
 ```
@@ -42502,7 +42502,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotSiteWisePropertyValueValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotSiteWisePropertyValueValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotSiteWisePropertyValueValueOutputReference
 ```
@@ -42867,7 +42867,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotTopicPublishOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotTopicPublishOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotTopicPublishOutputReference
 ```
@@ -43187,7 +43187,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotTopicPublishPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotTopicPublishPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotTopicPublishPayloadOutputReference
 ```
@@ -43494,7 +43494,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsLambdaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsLambdaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsLambdaOutputReference
 ```
@@ -43814,7 +43814,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsLambdaPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsLambdaPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsLambdaPayloadOutputReference
 ```
@@ -44121,7 +44121,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsList
 ```
@@ -44281,7 +44281,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsOutputReference
 ```
@@ -45094,7 +45094,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsResetTimerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsResetTimerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsResetTimerOutputReference
 ```
@@ -45372,7 +45372,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSetTimerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSetTimerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSetTimerOutputReference
 ```
@@ -45708,7 +45708,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSetVariableOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSetVariableOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSetVariableOutputReference
 ```
@@ -46015,7 +46015,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSnsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSnsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSnsOutputReference
 ```
@@ -46335,7 +46335,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSnsPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSnsPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSnsPayloadOutputReference
 ```
@@ -46642,7 +46642,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSqsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSqsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSqsOutputReference
 ```
@@ -46991,7 +46991,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSqsPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSqsPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSqsPayloadOutputReference
 ```
@@ -47298,7 +47298,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsList
 ```
@@ -47458,7 +47458,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsOutputReference
 ```
@@ -47854,7 +47854,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelDetectorModelDefinitionStatesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelDetectorModelDefinitionStatesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IoteventsDetectorModelDetectorModelDefinitionStatesOutputReference
 ```
@@ -48269,7 +48269,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IoteventsDetectorModelTagsList
 ```
@@ -48429,7 +48429,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsDetectorModel.IoteventsDetectorModelTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsdetectormodel"
 
 ioteventsdetectormodel.NewIoteventsDetectorModelTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IoteventsDetectorModelTagsOutputReference
 ```

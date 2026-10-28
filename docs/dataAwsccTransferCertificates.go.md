@@ -4,12 +4,12 @@
 
 ### DataAwsccTransferCertificates <a name="DataAwsccTransferCertificates" id="@cdktn/provider-awscc.dataAwsccTransferCertificates.DataAwsccTransferCertificates"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/transfer_certificates awscc_transfer_certificates}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/transfer_certificates awscc_transfer_certificates}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTransferCertificates.DataAwsccTransferCertificates.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransfercertificates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransfercertificates"
 
 dataawscctransfercertificates.NewDataAwsccTransferCertificates(scope Construct, id *string, config DataAwsccTransferCertificatesConfig) DataAwsccTransferCertificates
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccTransferCertificates.DataAwsccTransferCertificates.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransfercertificates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransfercertificates"
 
 dataawscctransfercertificates.DataAwsccTransferCertificates_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccTransferCertificates.DataAwsccTransferCertificates.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransfercertificates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransfercertificates"
 
 dataawscctransfercertificates.DataAwsccTransferCertificates_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscctransfercertificates.DataAwsccTransferCertificates_IsTerraformElement(x
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccTransferCertificates.DataAwsccTransferCertificates.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransfercertificates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransfercertificates"
 
 dataawscctransfercertificates.DataAwsccTransferCertificates_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscctransfercertificates.DataAwsccTransferCertificates_IsTerraformDataSourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccTransferCertificates.DataAwsccTransferCertificates.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransfercertificates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransfercertificates"
 
 dataawscctransfercertificates.DataAwsccTransferCertificates_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccTransferCertifica
 
 The id of the existing DataAwsccTransferCertificates that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/transfer_certificates#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/transfer_certificates#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTransferCertificates.DataAwsccTransferCertificatesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransfercertificates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransfercertificates"
 
 &dataawscctransfercertificates.DataAwsccTransferCertificatesConfig {
 	Connection: interface{},

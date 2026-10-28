@@ -4,12 +4,12 @@
 
 ### BedrockEnforcedGuardrailConfiguration <a name="BedrockEnforcedGuardrailConfiguration" id="@cdktn/provider-awscc.bedrockEnforcedGuardrailConfiguration.BedrockEnforcedGuardrailConfiguration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_enforced_guardrail_configuration awscc_bedrock_enforced_guardrail_configuration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_enforced_guardrail_configuration awscc_bedrock_enforced_guardrail_configuration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockEnforcedGuardrailConfiguration.BedrockEnforcedGuardrailConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockenforcedguardrailconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockenforcedguardrailconfiguration"
 
 bedrockenforcedguardrailconfiguration.NewBedrockEnforcedGuardrailConfiguration(scope Construct, id *string, config BedrockEnforcedGuardrailConfigurationConfig) BedrockEnforcedGuardrailConfiguration
 ```
@@ -440,7 +440,7 @@ func ResetSelectiveContentGuarding()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.bedrockEnforcedGuardrailConfiguration.BedrockEnforcedGuardrailConfiguration.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockenforcedguardrailconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockenforcedguardrailconfiguration"
 
 bedrockenforcedguardrailconfiguration.BedrockEnforcedGuardrailConfiguration_IsConstruct(x interface{}) *bool
 ```
@@ -472,7 +472,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.bedrockEnforcedGuardrailConfiguration.BedrockEnforcedGuardrailConfiguration.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockenforcedguardrailconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockenforcedguardrailconfiguration"
 
 bedrockenforcedguardrailconfiguration.BedrockEnforcedGuardrailConfiguration_IsTerraformElement(x interface{}) *bool
 ```
@@ -486,7 +486,7 @@ bedrockenforcedguardrailconfiguration.BedrockEnforcedGuardrailConfiguration_IsTe
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.bedrockEnforcedGuardrailConfiguration.BedrockEnforcedGuardrailConfiguration.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockenforcedguardrailconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockenforcedguardrailconfiguration"
 
 bedrockenforcedguardrailconfiguration.BedrockEnforcedGuardrailConfiguration_IsTerraformResource(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ bedrockenforcedguardrailconfiguration.BedrockEnforcedGuardrailConfiguration_IsTe
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.bedrockEnforcedGuardrailConfiguration.BedrockEnforcedGuardrailConfiguration.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockenforcedguardrailconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockenforcedguardrailconfiguration"
 
 bedrockenforcedguardrailconfiguration.BedrockEnforcedGuardrailConfiguration_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -529,7 +529,7 @@ The construct id used in the generated config for the BedrockEnforcedGuardrailCo
 
 The id of the existing BedrockEnforcedGuardrailConfiguration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_enforced_guardrail_configuration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_enforced_guardrail_configuration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -916,7 +916,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockEnforcedGuardrailConfiguration.BedrockEnforcedGuardrailConfigurationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockenforcedguardrailconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockenforcedguardrailconfiguration"
 
 &bedrockenforcedguardrailconfiguration.BedrockEnforcedGuardrailConfigurationConfig {
 	Connection: interface{},
@@ -928,8 +928,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockenforcedguardra
 	Provisioners: *[]interface{},
 	GuardrailIdentifier: *string,
 	GuardrailVersion: *string,
-	ModelEnforcement: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockEnforcedGuardrailConfiguration.BedrockEnforcedGuardrailConfigurationModelEnforcement,
-	SelectiveContentGuarding: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockEnforcedGuardrailConfiguration.BedrockEnforcedGuardrailConfigurationSelectiveContentGuarding,
+	ModelEnforcement: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockEnforcedGuardrailConfiguration.BedrockEnforcedGuardrailConfigurationModelEnforcement,
+	SelectiveContentGuarding: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockEnforcedGuardrailConfiguration.BedrockEnforcedGuardrailConfigurationSelectiveContentGuarding,
 }
 ```
 
@@ -1031,7 +1031,7 @@ GuardrailIdentifier *string
 
 Identifier for the guardrail, could be the ID or the ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_enforced_guardrail_configuration#guardrail_identifier BedrockEnforcedGuardrailConfiguration#guardrail_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_enforced_guardrail_configuration#guardrail_identifier BedrockEnforcedGuardrailConfiguration#guardrail_identifier}
 
 ---
 
@@ -1045,7 +1045,7 @@ GuardrailVersion *string
 
 Numerical guardrail version (not DRAFT).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_enforced_guardrail_configuration#guardrail_version BedrockEnforcedGuardrailConfiguration#guardrail_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_enforced_guardrail_configuration#guardrail_version BedrockEnforcedGuardrailConfiguration#guardrail_version}
 
 ---
 
@@ -1059,7 +1059,7 @@ ModelEnforcement BedrockEnforcedGuardrailConfigurationModelEnforcement
 
 Model-specific information for the enforced guardrail configuration. If not present, the configuration is enforced on all models.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_enforced_guardrail_configuration#model_enforcement BedrockEnforcedGuardrailConfiguration#model_enforcement}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_enforced_guardrail_configuration#model_enforcement BedrockEnforcedGuardrailConfiguration#model_enforcement}
 
 ---
 
@@ -1073,7 +1073,7 @@ SelectiveContentGuarding BedrockEnforcedGuardrailConfigurationSelectiveContentGu
 
 Selective content guarding controls for enforced guardrails.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_enforced_guardrail_configuration#selective_content_guarding BedrockEnforcedGuardrailConfiguration#selective_content_guarding}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_enforced_guardrail_configuration#selective_content_guarding BedrockEnforcedGuardrailConfiguration#selective_content_guarding}
 
 ---
 
@@ -1082,7 +1082,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockEnforcedGuardrailConfiguration.BedrockEnforcedGuardrailConfigurationModelEnforcement.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockenforcedguardrailconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockenforcedguardrailconfiguration"
 
 &bedrockenforcedguardrailconfiguration.BedrockEnforcedGuardrailConfigurationModelEnforcement {
 	ExcludedModels: *[]*string,
@@ -1109,7 +1109,7 @@ ExcludedModels *[]*string
 
 Models to exclude from enforcement. If a model is in both lists, it is excluded.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_enforced_guardrail_configuration#excluded_models BedrockEnforcedGuardrailConfiguration#excluded_models}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_enforced_guardrail_configuration#excluded_models BedrockEnforcedGuardrailConfiguration#excluded_models}
 
 ---
 
@@ -1123,7 +1123,7 @@ IncludedModels *[]*string
 
 Models to enforce the guardrail on.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_enforced_guardrail_configuration#included_models BedrockEnforcedGuardrailConfiguration#included_models}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_enforced_guardrail_configuration#included_models BedrockEnforcedGuardrailConfiguration#included_models}
 
 ---
 
@@ -1132,7 +1132,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockEnforcedGuardrailConfiguration.BedrockEnforcedGuardrailConfigurationSelectiveContentGuarding.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockenforcedguardrailconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockenforcedguardrailconfiguration"
 
 &bedrockenforcedguardrailconfiguration.BedrockEnforcedGuardrailConfigurationSelectiveContentGuarding {
 	Messages: *string,
@@ -1159,7 +1159,7 @@ Messages *string
 
 Selective guarding mode for user messages.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_enforced_guardrail_configuration#messages BedrockEnforcedGuardrailConfiguration#messages}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_enforced_guardrail_configuration#messages BedrockEnforcedGuardrailConfiguration#messages}
 
 ---
 
@@ -1173,7 +1173,7 @@ SystemAttribute *string
 
 Selective guarding mode for system prompts.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_enforced_guardrail_configuration#system BedrockEnforcedGuardrailConfiguration#system}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_enforced_guardrail_configuration#system BedrockEnforcedGuardrailConfiguration#system}
 
 ---
 
@@ -1184,7 +1184,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockEnforcedGuardrailConfiguration.BedrockEnforcedGuardrailConfigurationModelEnforcementOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockenforcedguardrailconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockenforcedguardrailconfiguration"
 
 bedrockenforcedguardrailconfiguration.NewBedrockEnforcedGuardrailConfigurationModelEnforcementOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockEnforcedGuardrailConfigurationModelEnforcementOutputReference
 ```
@@ -1491,7 +1491,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockEnforcedGuardrailConfiguration.BedrockEnforcedGuardrailConfigurationSelectiveContentGuardingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockenforcedguardrailconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockenforcedguardrailconfiguration"
 
 bedrockenforcedguardrailconfiguration.NewBedrockEnforcedGuardrailConfigurationSelectiveContentGuardingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockEnforcedGuardrailConfigurationSelectiveContentGuardingOutputReference
 ```

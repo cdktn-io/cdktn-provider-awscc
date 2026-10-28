@@ -4,12 +4,12 @@
 
 ### CloudformationHookVersion <a name="CloudformationHookVersion" id="@cdktn/provider-awscc.cloudformationHookVersion.CloudformationHookVersion"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_hook_version awscc_cloudformation_hook_version}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_hook_version awscc_cloudformation_hook_version}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudformationHookVersion.CloudformationHookVersion.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationhookversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationhookversion"
 
 cloudformationhookversion.NewCloudformationHookVersion(scope Construct, id *string, config CloudformationHookVersionConfig) CloudformationHookVersion
 ```
@@ -427,7 +427,7 @@ func ResetLoggingConfig()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.cloudformationHookVersion.CloudformationHookVersion.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationhookversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationhookversion"
 
 cloudformationhookversion.CloudformationHookVersion_IsConstruct(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.cloudformationHookVersion.CloudformationHookVersion.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationhookversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationhookversion"
 
 cloudformationhookversion.CloudformationHookVersion_IsTerraformElement(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ cloudformationhookversion.CloudformationHookVersion_IsTerraformElement(x interfa
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.cloudformationHookVersion.CloudformationHookVersion.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationhookversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationhookversion"
 
 cloudformationhookversion.CloudformationHookVersion_IsTerraformResource(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ cloudformationhookversion.CloudformationHookVersion_IsTerraformResource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.cloudformationHookVersion.CloudformationHookVersion.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationhookversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationhookversion"
 
 cloudformationhookversion.CloudformationHookVersion_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -516,7 +516,7 @@ The construct id used in the generated config for the CloudformationHookVersion 
 
 The id of the existing CloudformationHookVersion that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_hook_version#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_hook_version#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -870,7 +870,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudformationHookVersion.CloudformationHookVersionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationhookversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationhookversion"
 
 &cloudformationhookversion.CloudformationHookVersionConfig {
 	Connection: interface{},
@@ -883,7 +883,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationhookvers
 	SchemaHandlerPackage: *string,
 	TypeName: *string,
 	ExecutionRoleArn: *string,
-	LoggingConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.cloudformationHookVersion.CloudformationHookVersionLoggingConfig,
+	LoggingConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.cloudformationHookVersion.CloudformationHookVersionLoggingConfig,
 }
 ```
 
@@ -987,7 +987,7 @@ A url to the S3 bucket containing the schema handler package that contains the s
 
 For information on generating a schema handler package for the type you want to register, see submit in the CloudFormation CLI User Guide.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_hook_version#schema_handler_package CloudformationHookVersion#schema_handler_package}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_hook_version#schema_handler_package CloudformationHookVersion#schema_handler_package}
 
 ---
 
@@ -1003,7 +1003,7 @@ The name of the type being registered.
 
 We recommend that type names adhere to the following pattern: company_or_organization::service::type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_hook_version#type_name CloudformationHookVersion#type_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_hook_version#type_name CloudformationHookVersion#type_name}
 
 ---
 
@@ -1019,7 +1019,7 @@ The Amazon Resource Name (ARN) of the IAM execution role to use to register the 
 
 If your resource type calls AWS APIs in any of its handlers, you must create an IAM execution role that includes the necessary permissions to call those AWS APIs, and provision that execution role in your account. CloudFormation then assumes that execution role to provide your resource type with the appropriate credentials.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_hook_version#execution_role_arn CloudformationHookVersion#execution_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_hook_version#execution_role_arn CloudformationHookVersion#execution_role_arn}
 
 ---
 
@@ -1033,7 +1033,7 @@ LoggingConfig CloudformationHookVersionLoggingConfig
 
 Specifies logging configuration information for a type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_hook_version#logging_config CloudformationHookVersion#logging_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_hook_version#logging_config CloudformationHookVersion#logging_config}
 
 ---
 
@@ -1042,7 +1042,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudformationHookVersion.CloudformationHookVersionLoggingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationhookversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationhookversion"
 
 &cloudformationhookversion.CloudformationHookVersionLoggingConfig {
 	LogGroupName: *string,
@@ -1069,7 +1069,7 @@ LogGroupName *string
 
 The Amazon CloudWatch log group to which CloudFormation sends error logging information when invoking the type's handlers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_hook_version#log_group_name CloudformationHookVersion#log_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_hook_version#log_group_name CloudformationHookVersion#log_group_name}
 
 ---
 
@@ -1083,7 +1083,7 @@ LogRoleArn *string
 
 The ARN of the role that CloudFormation should assume when sending log entries to CloudWatch logs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_hook_version#log_role_arn CloudformationHookVersion#log_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_hook_version#log_role_arn CloudformationHookVersion#log_role_arn}
 
 ---
 
@@ -1094,7 +1094,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudformationHookVersion.CloudformationHookVersionLoggingConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationhookversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationhookversion"
 
 cloudformationhookversion.NewCloudformationHookVersionLoggingConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CloudformationHookVersionLoggingConfigOutputReference
 ```

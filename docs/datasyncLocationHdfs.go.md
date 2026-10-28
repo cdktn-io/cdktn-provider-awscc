@@ -4,12 +4,12 @@
 
 ### DatasyncLocationHdfs <a name="DatasyncLocationHdfs" id="@cdktn/provider-awscc.datasyncLocationHdfs.DatasyncLocationHdfs"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_hdfs awscc_datasync_location_hdfs}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_hdfs awscc_datasync_location_hdfs}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datasyncLocationHdfs.DatasyncLocationHdfs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationhdfs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationhdfs"
 
 datasynclocationhdfs.NewDatasyncLocationHdfs(scope Construct, id *string, config DatasyncLocationHdfsConfig) DatasyncLocationHdfs
 ```
@@ -549,7 +549,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.datasyncLocationHdfs.DatasyncLocationHdfs.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationhdfs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationhdfs"
 
 datasynclocationhdfs.DatasyncLocationHdfs_IsConstruct(x interface{}) *bool
 ```
@@ -581,7 +581,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.datasyncLocationHdfs.DatasyncLocationHdfs.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationhdfs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationhdfs"
 
 datasynclocationhdfs.DatasyncLocationHdfs_IsTerraformElement(x interface{}) *bool
 ```
@@ -595,7 +595,7 @@ datasynclocationhdfs.DatasyncLocationHdfs_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.datasyncLocationHdfs.DatasyncLocationHdfs.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationhdfs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationhdfs"
 
 datasynclocationhdfs.DatasyncLocationHdfs_IsTerraformResource(x interface{}) *bool
 ```
@@ -609,7 +609,7 @@ datasynclocationhdfs.DatasyncLocationHdfs_IsTerraformResource(x interface{}) *bo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.datasyncLocationHdfs.DatasyncLocationHdfs.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationhdfs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationhdfs"
 
 datasynclocationhdfs.DatasyncLocationHdfs_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -638,7 +638,7 @@ The construct id used in the generated config for the DatasyncLocationHdfs to im
 
 The id of the existing DatasyncLocationHdfs that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_hdfs#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_hdfs#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1212,7 +1212,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.datasyncLocationHdfs.DatasyncLocationHdfsCmkSecretConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationhdfs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationhdfs"
 
 &datasynclocationhdfs.DatasyncLocationHdfsCmkSecretConfig {
 	KmsKeyArn: *string,
@@ -1239,7 +1239,7 @@ Specifies the ARN for the customer-managed AWS KMS key used to encrypt the secre
 
 DataSync provides this key to AWS Secrets Manager.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_hdfs#kms_key_arn DatasyncLocationHdfs#kms_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_hdfs#kms_key_arn DatasyncLocationHdfs#kms_key_arn}
 
 ---
 
@@ -1248,7 +1248,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.datasyncLocationHdfs.DatasyncLocationHdfsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationhdfs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationhdfs"
 
 &datasynclocationhdfs.DatasyncLocationHdfsConfig {
 	Connection: interface{},
@@ -1262,13 +1262,13 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationhdfs"
 	AuthenticationType: *string,
 	NameNodes: interface{},
 	BlockSize: *f64,
-	CmkSecretConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.datasyncLocationHdfs.DatasyncLocationHdfsCmkSecretConfig,
-	CustomSecretConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.datasyncLocationHdfs.DatasyncLocationHdfsCustomSecretConfig,
+	CmkSecretConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.datasyncLocationHdfs.DatasyncLocationHdfsCmkSecretConfig,
+	CustomSecretConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.datasyncLocationHdfs.DatasyncLocationHdfsCustomSecretConfig,
 	KerberosKeytab: *string,
 	KerberosKrb5Conf: *string,
 	KerberosPrincipal: *string,
 	KmsKeyProviderUri: *string,
-	QopConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.datasyncLocationHdfs.DatasyncLocationHdfsQopConfiguration,
+	QopConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.datasyncLocationHdfs.DatasyncLocationHdfsQopConfiguration,
 	ReplicationFactor: *f64,
 	SimpleUser: *string,
 	Subdirectory: *string,
@@ -1385,7 +1385,7 @@ AgentArns *[]*string
 
 ARN(s) of the agent(s) to use for an HDFS location.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_hdfs#agent_arns DatasyncLocationHdfs#agent_arns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_hdfs#agent_arns DatasyncLocationHdfs#agent_arns}
 
 ---
 
@@ -1399,7 +1399,7 @@ AuthenticationType *string
 
 The authentication mode used to determine identity of user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_hdfs#authentication_type DatasyncLocationHdfs#authentication_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_hdfs#authentication_type DatasyncLocationHdfs#authentication_type}
 
 ---
 
@@ -1413,7 +1413,7 @@ NameNodes interface{}
 
 An array of Name Node(s) of the HDFS location.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_hdfs#name_nodes DatasyncLocationHdfs#name_nodes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_hdfs#name_nodes DatasyncLocationHdfs#name_nodes}
 
 ---
 
@@ -1427,7 +1427,7 @@ BlockSize *f64
 
 Size of chunks (blocks) in bytes that the data is divided into when stored in the HDFS cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_hdfs#block_size DatasyncLocationHdfs#block_size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_hdfs#block_size DatasyncLocationHdfs#block_size}
 
 ---
 
@@ -1441,7 +1441,7 @@ CmkSecretConfig DatasyncLocationHdfsCmkSecretConfig
 
 Specifies configuration information for a DataSync-managed secret, such as an authentication token or set of credentials that DataSync uses to access a specific transfer location, and a customer-managed AWS KMS key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_hdfs#cmk_secret_config DatasyncLocationHdfs#cmk_secret_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_hdfs#cmk_secret_config DatasyncLocationHdfs#cmk_secret_config}
 
 ---
 
@@ -1455,7 +1455,7 @@ CustomSecretConfig DatasyncLocationHdfsCustomSecretConfig
 
 Specifies configuration information for a customer-managed secret, such as an authentication token or set of credentials that DataSync uses to access a specific transfer location, and an IAM role that DataSync can assume and access the customer-managed secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_hdfs#custom_secret_config DatasyncLocationHdfs#custom_secret_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_hdfs#custom_secret_config DatasyncLocationHdfs#custom_secret_config}
 
 ---
 
@@ -1469,7 +1469,7 @@ KerberosKeytab *string
 
 The Base64 string representation of the Keytab file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_hdfs#kerberos_keytab DatasyncLocationHdfs#kerberos_keytab}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_hdfs#kerberos_keytab DatasyncLocationHdfs#kerberos_keytab}
 
 ---
 
@@ -1483,7 +1483,7 @@ KerberosKrb5Conf *string
 
 The string representation of the Krb5Conf file, or the presigned URL to access the Krb5.conf file within an S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_hdfs#kerberos_krb_5_conf DatasyncLocationHdfs#kerberos_krb_5_conf}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_hdfs#kerberos_krb_5_conf DatasyncLocationHdfs#kerberos_krb_5_conf}
 
 ---
 
@@ -1497,7 +1497,7 @@ KerberosPrincipal *string
 
 The unique identity, or principal, to which Kerberos can assign tickets.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_hdfs#kerberos_principal DatasyncLocationHdfs#kerberos_principal}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_hdfs#kerberos_principal DatasyncLocationHdfs#kerberos_principal}
 
 ---
 
@@ -1511,7 +1511,7 @@ KmsKeyProviderUri *string
 
 The identifier for the Key Management Server where the encryption keys that encrypt data inside HDFS clusters are stored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_hdfs#kms_key_provider_uri DatasyncLocationHdfs#kms_key_provider_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_hdfs#kms_key_provider_uri DatasyncLocationHdfs#kms_key_provider_uri}
 
 ---
 
@@ -1527,7 +1527,7 @@ Configuration information for RPC Protection and Data Transfer Protection.
 
 These parameters can be set to AUTHENTICATION, INTEGRITY, or PRIVACY. The default value is PRIVACY.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_hdfs#qop_configuration DatasyncLocationHdfs#qop_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_hdfs#qop_configuration DatasyncLocationHdfs#qop_configuration}
 
 ---
 
@@ -1541,7 +1541,7 @@ ReplicationFactor *f64
 
 Number of copies of each block that exists inside the HDFS cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_hdfs#replication_factor DatasyncLocationHdfs#replication_factor}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_hdfs#replication_factor DatasyncLocationHdfs#replication_factor}
 
 ---
 
@@ -1555,7 +1555,7 @@ SimpleUser *string
 
 The user name that has read and write permissions on the specified HDFS cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_hdfs#simple_user DatasyncLocationHdfs#simple_user}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_hdfs#simple_user DatasyncLocationHdfs#simple_user}
 
 ---
 
@@ -1569,7 +1569,7 @@ Subdirectory *string
 
 The subdirectory in HDFS that is used to read data from the HDFS source location or write data to the HDFS destination.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_hdfs#subdirectory DatasyncLocationHdfs#subdirectory}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_hdfs#subdirectory DatasyncLocationHdfs#subdirectory}
 
 ---
 
@@ -1583,7 +1583,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_hdfs#tags DatasyncLocationHdfs#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_hdfs#tags DatasyncLocationHdfs#tags}
 
 ---
 
@@ -1592,7 +1592,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.datasyncLocationHdfs.DatasyncLocationHdfsCustomSecretConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationhdfs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationhdfs"
 
 &datasynclocationhdfs.DatasyncLocationHdfsCustomSecretConfig {
 	SecretAccessRoleArn: *string,
@@ -1619,7 +1619,7 @@ SecretAccessRoleArn *string
 
 Specifies the ARN for the AWS Identity and Access Management role that DataSync uses to access the secret specified for SecretArn.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_hdfs#secret_access_role_arn DatasyncLocationHdfs#secret_access_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_hdfs#secret_access_role_arn DatasyncLocationHdfs#secret_access_role_arn}
 
 ---
 
@@ -1633,7 +1633,7 @@ SecretArn *string
 
 Specifies the ARN for a customer created AWS Secrets Manager secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_hdfs#secret_arn DatasyncLocationHdfs#secret_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_hdfs#secret_arn DatasyncLocationHdfs#secret_arn}
 
 ---
 
@@ -1642,7 +1642,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.datasyncLocationHdfs.DatasyncLocationHdfsManagedSecretConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationhdfs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationhdfs"
 
 &datasynclocationhdfs.DatasyncLocationHdfsManagedSecretConfig {
 
@@ -1655,7 +1655,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationhdfs"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.datasyncLocationHdfs.DatasyncLocationHdfsNameNodes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationhdfs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationhdfs"
 
 &datasynclocationhdfs.DatasyncLocationHdfsNameNodes {
 	Hostname: *string,
@@ -1682,7 +1682,7 @@ Hostname *string
 
 The DNS name or IP address of the Name Node in the customer's on premises HDFS cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_hdfs#hostname DatasyncLocationHdfs#hostname}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_hdfs#hostname DatasyncLocationHdfs#hostname}
 
 ---
 
@@ -1696,7 +1696,7 @@ Port *f64
 
 The port on which the Name Node is listening on for client requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_hdfs#port DatasyncLocationHdfs#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_hdfs#port DatasyncLocationHdfs#port}
 
 ---
 
@@ -1705,7 +1705,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.datasyncLocationHdfs.DatasyncLocationHdfsQopConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationhdfs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationhdfs"
 
 &datasynclocationhdfs.DatasyncLocationHdfsQopConfiguration {
 	DataTransferProtection: *string,
@@ -1732,7 +1732,7 @@ DataTransferProtection *string
 
 Configuration for Data Transfer Protection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_hdfs#data_transfer_protection DatasyncLocationHdfs#data_transfer_protection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_hdfs#data_transfer_protection DatasyncLocationHdfs#data_transfer_protection}
 
 ---
 
@@ -1746,7 +1746,7 @@ RpcProtection *string
 
 Configuration for RPC Protection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_hdfs#rpc_protection DatasyncLocationHdfs#rpc_protection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_hdfs#rpc_protection DatasyncLocationHdfs#rpc_protection}
 
 ---
 
@@ -1755,7 +1755,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.datasyncLocationHdfs.DatasyncLocationHdfsTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationhdfs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationhdfs"
 
 &datasynclocationhdfs.DatasyncLocationHdfsTags {
 	Key: *string,
@@ -1784,7 +1784,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_hdfs#key DatasyncLocationHdfs#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_hdfs#key DatasyncLocationHdfs#key}
 
 ---
 
@@ -1800,7 +1800,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_hdfs#value DatasyncLocationHdfs#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_hdfs#value DatasyncLocationHdfs#value}
 
 ---
 
@@ -1811,7 +1811,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datasyncLocationHdfs.DatasyncLocationHdfsCmkSecretConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationhdfs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationhdfs"
 
 datasynclocationhdfs.NewDatasyncLocationHdfsCmkSecretConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DatasyncLocationHdfsCmkSecretConfigOutputReference
 ```
@@ -2100,7 +2100,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datasyncLocationHdfs.DatasyncLocationHdfsCustomSecretConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationhdfs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationhdfs"
 
 datasynclocationhdfs.NewDatasyncLocationHdfsCustomSecretConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DatasyncLocationHdfsCustomSecretConfigOutputReference
 ```
@@ -2407,7 +2407,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datasyncLocationHdfs.DatasyncLocationHdfsManagedSecretConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationhdfs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationhdfs"
 
 datasynclocationhdfs.NewDatasyncLocationHdfsManagedSecretConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DatasyncLocationHdfsManagedSecretConfigOutputReference
 ```
@@ -2667,7 +2667,7 @@ func InternalValue() DatasyncLocationHdfsManagedSecretConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datasyncLocationHdfs.DatasyncLocationHdfsNameNodesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationhdfs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationhdfs"
 
 datasynclocationhdfs.NewDatasyncLocationHdfsNameNodesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DatasyncLocationHdfsNameNodesList
 ```
@@ -2827,7 +2827,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datasyncLocationHdfs.DatasyncLocationHdfsNameNodesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationhdfs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationhdfs"
 
 datasynclocationhdfs.NewDatasyncLocationHdfsNameNodesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DatasyncLocationHdfsNameNodesOutputReference
 ```
@@ -3138,7 +3138,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datasyncLocationHdfs.DatasyncLocationHdfsQopConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationhdfs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationhdfs"
 
 datasynclocationhdfs.NewDatasyncLocationHdfsQopConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DatasyncLocationHdfsQopConfigurationOutputReference
 ```
@@ -3445,7 +3445,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datasyncLocationHdfs.DatasyncLocationHdfsTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationhdfs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationhdfs"
 
 datasynclocationhdfs.NewDatasyncLocationHdfsTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DatasyncLocationHdfsTagsList
 ```
@@ -3605,7 +3605,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datasyncLocationHdfs.DatasyncLocationHdfsTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationhdfs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationhdfs"
 
 datasynclocationhdfs.NewDatasyncLocationHdfsTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DatasyncLocationHdfsTagsOutputReference
 ```

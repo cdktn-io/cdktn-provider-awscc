@@ -4,12 +4,12 @@
 
 ### CloudhsmCluster <a name="CloudhsmCluster" id="@cdktn/provider-awscc.cloudhsmCluster.CloudhsmCluster"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudhsm_cluster awscc_cloudhsm_cluster}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudhsm_cluster awscc_cloudhsm_cluster}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudhsmCluster.CloudhsmCluster.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudhsmcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudhsmcluster"
 
 cloudhsmcluster.NewCloudhsmCluster(scope Construct, id *string, config CloudhsmClusterConfig) CloudhsmCluster
 ```
@@ -461,7 +461,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.cloudhsmCluster.CloudhsmCluster.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudhsmcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudhsmcluster"
 
 cloudhsmcluster.CloudhsmCluster_IsConstruct(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.cloudhsmCluster.CloudhsmCluster.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudhsmcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudhsmcluster"
 
 cloudhsmcluster.CloudhsmCluster_IsTerraformElement(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ cloudhsmcluster.CloudhsmCluster_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.cloudhsmCluster.CloudhsmCluster.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudhsmcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudhsmcluster"
 
 cloudhsmcluster.CloudhsmCluster_IsTerraformResource(x interface{}) *bool
 ```
@@ -521,7 +521,7 @@ cloudhsmcluster.CloudhsmCluster_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.cloudhsmCluster.CloudhsmCluster.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudhsmcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudhsmcluster"
 
 cloudhsmcluster.CloudhsmCluster_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -550,7 +550,7 @@ The construct id used in the generated config for the CloudhsmCluster to import.
 
 The id of the existing CloudhsmCluster that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudhsm_cluster#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudhsm_cluster#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -970,7 +970,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudhsmCluster.CloudhsmClusterBackupRetentionPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudhsmcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudhsmcluster"
 
 &cloudhsmcluster.CloudhsmClusterBackupRetentionPolicy {
 	Type: *string,
@@ -997,7 +997,7 @@ Type *string
 
 The type of backup retention policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudhsm_cluster#type CloudhsmCluster#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudhsm_cluster#type CloudhsmCluster#type}
 
 ---
 
@@ -1011,7 +1011,7 @@ Value *string
 
 Use a value between 7 - 379.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudhsm_cluster#value CloudhsmCluster#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudhsm_cluster#value CloudhsmCluster#value}
 
 ---
 
@@ -1020,7 +1020,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudhsmCluster.CloudhsmClusterConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudhsmcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudhsmcluster"
 
 &cloudhsmcluster.CloudhsmClusterConfig {
 	Connection: interface{},
@@ -1031,7 +1031,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudhsmcluster"
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	HsmType: *string,
-	BackupRetentionPolicy: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.cloudhsmCluster.CloudhsmClusterBackupRetentionPolicy,
+	BackupRetentionPolicy: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.cloudhsmCluster.CloudhsmClusterBackupRetentionPolicy,
 	Mode: *string,
 	NetworkType: *string,
 	SubnetIds: *[]*string,
@@ -1139,7 +1139,7 @@ HsmType *string
 
 The type of HSM to use in the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudhsm_cluster#hsm_type CloudhsmCluster#hsm_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudhsm_cluster#hsm_type CloudhsmCluster#hsm_type}
 
 ---
 
@@ -1153,7 +1153,7 @@ BackupRetentionPolicy CloudhsmClusterBackupRetentionPolicy
 
 A policy that defines how the service retains backups.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudhsm_cluster#backup_retention_policy CloudhsmCluster#backup_retention_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudhsm_cluster#backup_retention_policy CloudhsmCluster#backup_retention_policy}
 
 ---
 
@@ -1167,7 +1167,7 @@ Mode *string
 
 The mode to use in the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudhsm_cluster#mode CloudhsmCluster#mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudhsm_cluster#mode CloudhsmCluster#mode}
 
 ---
 
@@ -1181,7 +1181,7 @@ NetworkType *string
 
 The NetworkType to create a cluster with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudhsm_cluster#network_type CloudhsmCluster#network_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudhsm_cluster#network_type CloudhsmCluster#network_type}
 
 ---
 
@@ -1195,7 +1195,7 @@ SubnetIds *[]*string
 
 The identifiers (IDs) of the subnets where the cluster is created. You must specify at least one subnet.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudhsm_cluster#subnet_ids CloudhsmCluster#subnet_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudhsm_cluster#subnet_ids CloudhsmCluster#subnet_ids}
 
 ---
 
@@ -1209,7 +1209,7 @@ Tags interface{}
 
 Tags to apply to the CloudHSM cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudhsm_cluster#tags CloudhsmCluster#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudhsm_cluster#tags CloudhsmCluster#tags}
 
 ---
 
@@ -1218,7 +1218,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudhsmCluster.CloudhsmClusterTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudhsmcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudhsmcluster"
 
 &cloudhsmcluster.CloudhsmClusterTags {
 	Key: *string,
@@ -1245,7 +1245,7 @@ Key *string
 
 The key of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudhsm_cluster#key CloudhsmCluster#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudhsm_cluster#key CloudhsmCluster#key}
 
 ---
 
@@ -1259,7 +1259,7 @@ Value *string
 
 The value of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudhsm_cluster#value CloudhsmCluster#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudhsm_cluster#value CloudhsmCluster#value}
 
 ---
 
@@ -1270,7 +1270,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudhsmCluster.CloudhsmClusterBackupRetentionPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudhsmcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudhsmcluster"
 
 cloudhsmcluster.NewCloudhsmClusterBackupRetentionPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CloudhsmClusterBackupRetentionPolicyOutputReference
 ```
@@ -1577,7 +1577,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudhsmCluster.CloudhsmClusterTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudhsmcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudhsmcluster"
 
 cloudhsmcluster.NewCloudhsmClusterTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CloudhsmClusterTagsList
 ```
@@ -1737,7 +1737,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudhsmCluster.CloudhsmClusterTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudhsmcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudhsmcluster"
 
 cloudhsmcluster.NewCloudhsmClusterTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CloudhsmClusterTagsOutputReference
 ```

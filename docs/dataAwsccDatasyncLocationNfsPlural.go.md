@@ -4,12 +4,12 @@
 
 ### DataAwsccDatasyncLocationNfsPlural <a name="DataAwsccDatasyncLocationNfsPlural" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationNfsPlural.DataAwsccDatasyncLocationNfsPlural"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datasync_location_nfs_plural awscc_datasync_location_nfs_plural}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datasync_location_nfs_plural awscc_datasync_location_nfs_plural}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationNfsPlural.DataAwsccDatasyncLocationNfsPlural.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationnfsplural"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationnfsplural"
 
 dataawsccdatasynclocationnfsplural.NewDataAwsccDatasyncLocationNfsPlural(scope Construct, id *string, config DataAwsccDatasyncLocationNfsPluralConfig) DataAwsccDatasyncLocationNfsPlural
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationNfsPlural.DataAwsccDatasyncLocationNfsPlural.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationnfsplural"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationnfsplural"
 
 dataawsccdatasynclocationnfsplural.DataAwsccDatasyncLocationNfsPlural_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationNfsPlural.DataAwsccDatasyncLocationNfsPlural.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationnfsplural"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationnfsplural"
 
 dataawsccdatasynclocationnfsplural.DataAwsccDatasyncLocationNfsPlural_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccdatasynclocationnfsplural.DataAwsccDatasyncLocationNfsPlural_IsTerrafor
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationNfsPlural.DataAwsccDatasyncLocationNfsPlural.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationnfsplural"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationnfsplural"
 
 dataawsccdatasynclocationnfsplural.DataAwsccDatasyncLocationNfsPlural_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccdatasynclocationnfsplural.DataAwsccDatasyncLocationNfsPlural_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationNfsPlural.DataAwsccDatasyncLocationNfsPlural.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationnfsplural"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationnfsplural"
 
 dataawsccdatasynclocationnfsplural.DataAwsccDatasyncLocationNfsPlural_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDatasyncLocationN
 
 The id of the existing DataAwsccDatasyncLocationNfsPlural that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datasync_location_nfs_plural#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datasync_location_nfs_plural#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationNfsPlural.DataAwsccDatasyncLocationNfsPluralConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationnfsplural"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationnfsplural"
 
 &dataawsccdatasynclocationnfsplural.DataAwsccDatasyncLocationNfsPluralConfig {
 	Connection: interface{},

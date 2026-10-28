@@ -4,12 +4,12 @@
 
 ### LicensemanagerusersubscriptionsLicenseServerEndpoint <a name="LicensemanagerusersubscriptionsLicenseServerEndpoint" id="@cdktn/provider-awscc.licensemanagerusersubscriptionsLicenseServerEndpoint.LicensemanagerusersubscriptionsLicenseServerEndpoint"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanagerusersubscriptions_license_server_endpoint awscc_licensemanagerusersubscriptions_license_server_endpoint}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanagerusersubscriptions_license_server_endpoint awscc_licensemanagerusersubscriptions_license_server_endpoint}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.licensemanagerusersubscriptionsLicenseServerEndpoint.LicensemanagerusersubscriptionsLicenseServerEndpoint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerusersubscriptionslicenseserverendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/licensemanagerusersubscriptionslicenseserverendpoint"
 
 licensemanagerusersubscriptionslicenseserverendpoint.NewLicensemanagerusersubscriptionsLicenseServerEndpoint(scope Construct, id *string, config LicensemanagerusersubscriptionsLicenseServerEndpointConfig) LicensemanagerusersubscriptionsLicenseServerEndpoint
 ```
@@ -440,7 +440,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.licensemanagerusersubscriptionsLicenseServerEndpoint.LicensemanagerusersubscriptionsLicenseServerEndpoint.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerusersubscriptionslicenseserverendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/licensemanagerusersubscriptionslicenseserverendpoint"
 
 licensemanagerusersubscriptionslicenseserverendpoint.LicensemanagerusersubscriptionsLicenseServerEndpoint_IsConstruct(x interface{}) *bool
 ```
@@ -472,7 +472,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.licensemanagerusersubscriptionsLicenseServerEndpoint.LicensemanagerusersubscriptionsLicenseServerEndpoint.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerusersubscriptionslicenseserverendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/licensemanagerusersubscriptionslicenseserverendpoint"
 
 licensemanagerusersubscriptionslicenseserverendpoint.LicensemanagerusersubscriptionsLicenseServerEndpoint_IsTerraformElement(x interface{}) *bool
 ```
@@ -486,7 +486,7 @@ licensemanagerusersubscriptionslicenseserverendpoint.Licensemanagerusersubscript
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.licensemanagerusersubscriptionsLicenseServerEndpoint.LicensemanagerusersubscriptionsLicenseServerEndpoint.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerusersubscriptionslicenseserverendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/licensemanagerusersubscriptionslicenseserverendpoint"
 
 licensemanagerusersubscriptionslicenseserverendpoint.LicensemanagerusersubscriptionsLicenseServerEndpoint_IsTerraformResource(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ licensemanagerusersubscriptionslicenseserverendpoint.Licensemanagerusersubscript
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.licensemanagerusersubscriptionsLicenseServerEndpoint.LicensemanagerusersubscriptionsLicenseServerEndpoint.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerusersubscriptionslicenseserverendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/licensemanagerusersubscriptionslicenseserverendpoint"
 
 licensemanagerusersubscriptionslicenseserverendpoint.LicensemanagerusersubscriptionsLicenseServerEndpoint_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -529,7 +529,7 @@ The construct id used in the generated config for the Licensemanagerusersubscrip
 
 The id of the existing LicensemanagerusersubscriptionsLicenseServerEndpoint that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanagerusersubscriptions_license_server_endpoint#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanagerusersubscriptions_license_server_endpoint#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -883,7 +883,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.licensemanagerusersubscriptionsLicenseServerEndpoint.LicensemanagerusersubscriptionsLicenseServerEndpointConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerusersubscriptionslicenseserverendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/licensemanagerusersubscriptionslicenseserverendpoint"
 
 &licensemanagerusersubscriptionslicenseserverendpoint.LicensemanagerusersubscriptionsLicenseServerEndpointConfig {
 	Connection: interface{},
@@ -894,7 +894,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerusersubs
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	IdentityProviderArn: *string,
-	LicenseServerSettings: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.licensemanagerusersubscriptionsLicenseServerEndpoint.LicensemanagerusersubscriptionsLicenseServerEndpointLicenseServerSettings,
+	LicenseServerSettings: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.licensemanagerusersubscriptionsLicenseServerEndpoint.LicensemanagerusersubscriptionsLicenseServerEndpointLicenseServerSettings,
 	Tags: interface{},
 }
 ```
@@ -998,7 +998,7 @@ The Amazon Resource Name (ARN) that identifies the registered identity provider 
 
 For Active Directory, that can be a self-managed Active Directory or an AWS Managed Microsoft AD.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanagerusersubscriptions_license_server_endpoint#identity_provider_arn LicensemanagerusersubscriptionsLicenseServerEndpoint#identity_provider_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanagerusersubscriptions_license_server_endpoint#identity_provider_arn LicensemanagerusersubscriptionsLicenseServerEndpoint#identity_provider_arn}
 
 ---
 
@@ -1012,7 +1012,7 @@ LicenseServerSettings LicensemanagerusersubscriptionsLicenseServerEndpointLicens
 
 The settings of the RDS license server to create the endpoint for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanagerusersubscriptions_license_server_endpoint#license_server_settings LicensemanagerusersubscriptionsLicenseServerEndpoint#license_server_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanagerusersubscriptions_license_server_endpoint#license_server_settings LicensemanagerusersubscriptionsLicenseServerEndpoint#license_server_settings}
 
 ---
 
@@ -1026,7 +1026,7 @@ Tags interface{}
 
 The tags that apply for the license server endpoint. A maximum of 50 tags.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanagerusersubscriptions_license_server_endpoint#tags LicensemanagerusersubscriptionsLicenseServerEndpoint#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanagerusersubscriptions_license_server_endpoint#tags LicensemanagerusersubscriptionsLicenseServerEndpoint#tags}
 
 ---
 
@@ -1035,7 +1035,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.licensemanagerusersubscriptionsLicenseServerEndpoint.LicensemanagerusersubscriptionsLicenseServerEndpointLicenseServers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerusersubscriptionslicenseserverendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/licensemanagerusersubscriptionslicenseserverendpoint"
 
 &licensemanagerusersubscriptionslicenseserverendpoint.LicensemanagerusersubscriptionsLicenseServerEndpointLicenseServers {
 
@@ -1048,10 +1048,10 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerusersubs
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.licensemanagerusersubscriptionsLicenseServerEndpoint.LicensemanagerusersubscriptionsLicenseServerEndpointLicenseServerSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerusersubscriptionslicenseserverendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/licensemanagerusersubscriptionslicenseserverendpoint"
 
 &licensemanagerusersubscriptionslicenseserverendpoint.LicensemanagerusersubscriptionsLicenseServerEndpointLicenseServerSettings {
-	ServerSettings: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.licensemanagerusersubscriptionsLicenseServerEndpoint.LicensemanagerusersubscriptionsLicenseServerEndpointLicenseServerSettingsServerSettings,
+	ServerSettings: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.licensemanagerusersubscriptionsLicenseServerEndpoint.LicensemanagerusersubscriptionsLicenseServerEndpointLicenseServerSettingsServerSettings,
 	ServerType: *string,
 }
 ```
@@ -1075,7 +1075,7 @@ ServerSettings LicensemanagerusersubscriptionsLicenseServerEndpointLicenseServer
 
 The settings of a license server, by server type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanagerusersubscriptions_license_server_endpoint#server_settings LicensemanagerusersubscriptionsLicenseServerEndpoint#server_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanagerusersubscriptions_license_server_endpoint#server_settings LicensemanagerusersubscriptionsLicenseServerEndpoint#server_settings}
 
 ---
 
@@ -1089,7 +1089,7 @@ ServerType *string
 
 The type of license server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanagerusersubscriptions_license_server_endpoint#server_type LicensemanagerusersubscriptionsLicenseServerEndpoint#server_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanagerusersubscriptions_license_server_endpoint#server_type LicensemanagerusersubscriptionsLicenseServerEndpoint#server_type}
 
 ---
 
@@ -1098,10 +1098,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.licensemanagerusersubscriptionsLicenseServerEndpoint.LicensemanagerusersubscriptionsLicenseServerEndpointLicenseServerSettingsServerSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerusersubscriptionslicenseserverendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/licensemanagerusersubscriptionslicenseserverendpoint"
 
 &licensemanagerusersubscriptionslicenseserverendpoint.LicensemanagerusersubscriptionsLicenseServerEndpointLicenseServerSettingsServerSettings {
-	RdsSalSettings: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.licensemanagerusersubscriptionsLicenseServerEndpoint.LicensemanagerusersubscriptionsLicenseServerEndpointLicenseServerSettingsServerSettingsRdsSalSettings,
+	RdsSalSettings: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.licensemanagerusersubscriptionsLicenseServerEndpoint.LicensemanagerusersubscriptionsLicenseServerEndpointLicenseServerSettingsServerSettingsRdsSalSettings,
 }
 ```
 
@@ -1123,7 +1123,7 @@ RdsSalSettings LicensemanagerusersubscriptionsLicenseServerEndpointLicenseServer
 
 The settings of a Remote Desktop Services Subscriber Access License server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanagerusersubscriptions_license_server_endpoint#rds_sal_settings LicensemanagerusersubscriptionsLicenseServerEndpoint#rds_sal_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanagerusersubscriptions_license_server_endpoint#rds_sal_settings LicensemanagerusersubscriptionsLicenseServerEndpoint#rds_sal_settings}
 
 ---
 
@@ -1132,10 +1132,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.licensemanagerusersubscriptionsLicenseServerEndpoint.LicensemanagerusersubscriptionsLicenseServerEndpointLicenseServerSettingsServerSettingsRdsSalSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerusersubscriptionslicenseserverendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/licensemanagerusersubscriptionslicenseserverendpoint"
 
 &licensemanagerusersubscriptionslicenseserverendpoint.LicensemanagerusersubscriptionsLicenseServerEndpointLicenseServerSettingsServerSettingsRdsSalSettings {
-	RdsSalCredentialsProvider: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.licensemanagerusersubscriptionsLicenseServerEndpoint.LicensemanagerusersubscriptionsLicenseServerEndpointLicenseServerSettingsServerSettingsRdsSalSettingsRdsSalCredentialsProvider,
+	RdsSalCredentialsProvider: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.licensemanagerusersubscriptionsLicenseServerEndpoint.LicensemanagerusersubscriptionsLicenseServerEndpointLicenseServerSettingsServerSettingsRdsSalSettingsRdsSalCredentialsProvider,
 }
 ```
 
@@ -1157,7 +1157,7 @@ RdsSalCredentialsProvider LicensemanagerusersubscriptionsLicenseServerEndpointLi
 
 The source of the credentials that License Manager uses to reach the license server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanagerusersubscriptions_license_server_endpoint#rds_sal_credentials_provider LicensemanagerusersubscriptionsLicenseServerEndpoint#rds_sal_credentials_provider}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanagerusersubscriptions_license_server_endpoint#rds_sal_credentials_provider LicensemanagerusersubscriptionsLicenseServerEndpoint#rds_sal_credentials_provider}
 
 ---
 
@@ -1166,10 +1166,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.licensemanagerusersubscriptionsLicenseServerEndpoint.LicensemanagerusersubscriptionsLicenseServerEndpointLicenseServerSettingsServerSettingsRdsSalSettingsRdsSalCredentialsProvider.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerusersubscriptionslicenseserverendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/licensemanagerusersubscriptionslicenseserverendpoint"
 
 &licensemanagerusersubscriptionslicenseserverendpoint.LicensemanagerusersubscriptionsLicenseServerEndpointLicenseServerSettingsServerSettingsRdsSalSettingsRdsSalCredentialsProvider {
-	SecretsManagerCredentialsProvider: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.licensemanagerusersubscriptionsLicenseServerEndpoint.LicensemanagerusersubscriptionsLicenseServerEndpointLicenseServerSettingsServerSettingsRdsSalSettingsRdsSalCredentialsProviderSecretsManagerCredentialsProvider,
+	SecretsManagerCredentialsProvider: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.licensemanagerusersubscriptionsLicenseServerEndpoint.LicensemanagerusersubscriptionsLicenseServerEndpointLicenseServerSettingsServerSettingsRdsSalSettingsRdsSalCredentialsProviderSecretsManagerCredentialsProvider,
 }
 ```
 
@@ -1191,7 +1191,7 @@ SecretsManagerCredentialsProvider LicensemanagerusersubscriptionsLicenseServerEn
 
 Credentials held in AWS Secrets Manager.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanagerusersubscriptions_license_server_endpoint#secrets_manager_credentials_provider LicensemanagerusersubscriptionsLicenseServerEndpoint#secrets_manager_credentials_provider}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanagerusersubscriptions_license_server_endpoint#secrets_manager_credentials_provider LicensemanagerusersubscriptionsLicenseServerEndpoint#secrets_manager_credentials_provider}
 
 ---
 
@@ -1200,7 +1200,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.licensemanagerusersubscriptionsLicenseServerEndpoint.LicensemanagerusersubscriptionsLicenseServerEndpointLicenseServerSettingsServerSettingsRdsSalSettingsRdsSalCredentialsProviderSecretsManagerCredentialsProvider.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerusersubscriptionslicenseserverendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/licensemanagerusersubscriptionslicenseserverendpoint"
 
 &licensemanagerusersubscriptionslicenseserverendpoint.LicensemanagerusersubscriptionsLicenseServerEndpointLicenseServerSettingsServerSettingsRdsSalSettingsRdsSalCredentialsProviderSecretsManagerCredentialsProvider {
 	SecretId: *string,
@@ -1227,7 +1227,7 @@ The identifier of the Secrets Manager secret that holds the license server admin
 
 The name of the secret must begin with the prefix license-manager-user-.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanagerusersubscriptions_license_server_endpoint#secret_id LicensemanagerusersubscriptionsLicenseServerEndpoint#secret_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanagerusersubscriptions_license_server_endpoint#secret_id LicensemanagerusersubscriptionsLicenseServerEndpoint#secret_id}
 
 ---
 
@@ -1236,7 +1236,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.licensemanagerusersubscriptionsLicenseServerEndpoint.LicensemanagerusersubscriptionsLicenseServerEndpointServerEndpoint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerusersubscriptionslicenseserverendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/licensemanagerusersubscriptionslicenseserverendpoint"
 
 &licensemanagerusersubscriptionslicenseserverendpoint.LicensemanagerusersubscriptionsLicenseServerEndpointServerEndpoint {
 
@@ -1249,7 +1249,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerusersubs
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.licensemanagerusersubscriptionsLicenseServerEndpoint.LicensemanagerusersubscriptionsLicenseServerEndpointTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerusersubscriptionslicenseserverendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/licensemanagerusersubscriptionslicenseserverendpoint"
 
 &licensemanagerusersubscriptionslicenseserverendpoint.LicensemanagerusersubscriptionsLicenseServerEndpointTags {
 	Key: *string,
@@ -1276,7 +1276,7 @@ Key *string
 
 The tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanagerusersubscriptions_license_server_endpoint#key LicensemanagerusersubscriptionsLicenseServerEndpoint#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanagerusersubscriptions_license_server_endpoint#key LicensemanagerusersubscriptionsLicenseServerEndpoint#key}
 
 ---
 
@@ -1290,7 +1290,7 @@ Value *string
 
 The tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanagerusersubscriptions_license_server_endpoint#value LicensemanagerusersubscriptionsLicenseServerEndpoint#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanagerusersubscriptions_license_server_endpoint#value LicensemanagerusersubscriptionsLicenseServerEndpoint#value}
 
 ---
 
@@ -1301,7 +1301,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.licensemanagerusersubscriptionsLicenseServerEndpoint.LicensemanagerusersubscriptionsLicenseServerEndpointLicenseServerSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerusersubscriptionslicenseserverendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/licensemanagerusersubscriptionslicenseserverendpoint"
 
 licensemanagerusersubscriptionslicenseserverendpoint.NewLicensemanagerusersubscriptionsLicenseServerEndpointLicenseServerSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LicensemanagerusersubscriptionsLicenseServerEndpointLicenseServerSettingsOutputReference
 ```
@@ -1621,7 +1621,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.licensemanagerusersubscriptionsLicenseServerEndpoint.LicensemanagerusersubscriptionsLicenseServerEndpointLicenseServerSettingsServerSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerusersubscriptionslicenseserverendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/licensemanagerusersubscriptionslicenseserverendpoint"
 
 licensemanagerusersubscriptionslicenseserverendpoint.NewLicensemanagerusersubscriptionsLicenseServerEndpointLicenseServerSettingsServerSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LicensemanagerusersubscriptionsLicenseServerEndpointLicenseServerSettingsServerSettingsOutputReference
 ```
@@ -1912,7 +1912,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.licensemanagerusersubscriptionsLicenseServerEndpoint.LicensemanagerusersubscriptionsLicenseServerEndpointLicenseServerSettingsServerSettingsRdsSalSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerusersubscriptionslicenseserverendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/licensemanagerusersubscriptionslicenseserverendpoint"
 
 licensemanagerusersubscriptionslicenseserverendpoint.NewLicensemanagerusersubscriptionsLicenseServerEndpointLicenseServerSettingsServerSettingsRdsSalSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LicensemanagerusersubscriptionsLicenseServerEndpointLicenseServerSettingsServerSettingsRdsSalSettingsOutputReference
 ```
@@ -2203,7 +2203,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.licensemanagerusersubscriptionsLicenseServerEndpoint.LicensemanagerusersubscriptionsLicenseServerEndpointLicenseServerSettingsServerSettingsRdsSalSettingsRdsSalCredentialsProviderOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerusersubscriptionslicenseserverendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/licensemanagerusersubscriptionslicenseserverendpoint"
 
 licensemanagerusersubscriptionslicenseserverendpoint.NewLicensemanagerusersubscriptionsLicenseServerEndpointLicenseServerSettingsServerSettingsRdsSalSettingsRdsSalCredentialsProviderOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LicensemanagerusersubscriptionsLicenseServerEndpointLicenseServerSettingsServerSettingsRdsSalSettingsRdsSalCredentialsProviderOutputReference
 ```
@@ -2494,7 +2494,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.licensemanagerusersubscriptionsLicenseServerEndpoint.LicensemanagerusersubscriptionsLicenseServerEndpointLicenseServerSettingsServerSettingsRdsSalSettingsRdsSalCredentialsProviderSecretsManagerCredentialsProviderOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerusersubscriptionslicenseserverendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/licensemanagerusersubscriptionslicenseserverendpoint"
 
 licensemanagerusersubscriptionslicenseserverendpoint.NewLicensemanagerusersubscriptionsLicenseServerEndpointLicenseServerSettingsServerSettingsRdsSalSettingsRdsSalCredentialsProviderSecretsManagerCredentialsProviderOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LicensemanagerusersubscriptionsLicenseServerEndpointLicenseServerSettingsServerSettingsRdsSalSettingsRdsSalCredentialsProviderSecretsManagerCredentialsProviderOutputReference
 ```
@@ -2772,7 +2772,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.licensemanagerusersubscriptionsLicenseServerEndpoint.LicensemanagerusersubscriptionsLicenseServerEndpointLicenseServersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerusersubscriptionslicenseserverendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/licensemanagerusersubscriptionslicenseserverendpoint"
 
 licensemanagerusersubscriptionslicenseserverendpoint.NewLicensemanagerusersubscriptionsLicenseServerEndpointLicenseServersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LicensemanagerusersubscriptionsLicenseServerEndpointLicenseServersList
 ```
@@ -2921,7 +2921,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.licensemanagerusersubscriptionsLicenseServerEndpoint.LicensemanagerusersubscriptionsLicenseServerEndpointLicenseServersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerusersubscriptionslicenseserverendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/licensemanagerusersubscriptionslicenseserverendpoint"
 
 licensemanagerusersubscriptionslicenseserverendpoint.NewLicensemanagerusersubscriptionsLicenseServerEndpointLicenseServersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LicensemanagerusersubscriptionsLicenseServerEndpointLicenseServersOutputReference
 ```
@@ -3232,7 +3232,7 @@ func InternalValue() LicensemanagerusersubscriptionsLicenseServerEndpointLicense
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.licensemanagerusersubscriptionsLicenseServerEndpoint.LicensemanagerusersubscriptionsLicenseServerEndpointServerEndpointOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerusersubscriptionslicenseserverendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/licensemanagerusersubscriptionslicenseserverendpoint"
 
 licensemanagerusersubscriptionslicenseserverendpoint.NewLicensemanagerusersubscriptionsLicenseServerEndpointServerEndpointOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LicensemanagerusersubscriptionsLicenseServerEndpointServerEndpointOutputReference
 ```
@@ -3492,7 +3492,7 @@ func InternalValue() LicensemanagerusersubscriptionsLicenseServerEndpointServerE
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.licensemanagerusersubscriptionsLicenseServerEndpoint.LicensemanagerusersubscriptionsLicenseServerEndpointTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerusersubscriptionslicenseserverendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/licensemanagerusersubscriptionslicenseserverendpoint"
 
 licensemanagerusersubscriptionslicenseserverendpoint.NewLicensemanagerusersubscriptionsLicenseServerEndpointTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LicensemanagerusersubscriptionsLicenseServerEndpointTagsList
 ```
@@ -3652,7 +3652,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.licensemanagerusersubscriptionsLicenseServerEndpoint.LicensemanagerusersubscriptionsLicenseServerEndpointTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerusersubscriptionslicenseserverendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/licensemanagerusersubscriptionslicenseserverendpoint"
 
 licensemanagerusersubscriptionslicenseserverendpoint.NewLicensemanagerusersubscriptionsLicenseServerEndpointTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LicensemanagerusersubscriptionsLicenseServerEndpointTagsOutputReference
 ```

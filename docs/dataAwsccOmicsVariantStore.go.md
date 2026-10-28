@@ -4,12 +4,12 @@
 
 ### DataAwsccOmicsVariantStore <a name="DataAwsccOmicsVariantStore" id="@cdktn/provider-awscc.dataAwsccOmicsVariantStore.DataAwsccOmicsVariantStore"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/omics_variant_store awscc_omics_variant_store}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/omics_variant_store awscc_omics_variant_store}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOmicsVariantStore.DataAwsccOmicsVariantStore.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccomicsvariantstore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccomicsvariantstore"
 
 dataawsccomicsvariantstore.NewDataAwsccOmicsVariantStore(scope Construct, id *string, config DataAwsccOmicsVariantStoreConfig) DataAwsccOmicsVariantStore
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccOmicsVariantStore.DataAwsccOmicsVariantStore.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccomicsvariantstore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccomicsvariantstore"
 
 dataawsccomicsvariantstore.DataAwsccOmicsVariantStore_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccOmicsVariantStore.DataAwsccOmicsVariantStore.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccomicsvariantstore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccomicsvariantstore"
 
 dataawsccomicsvariantstore.DataAwsccOmicsVariantStore_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccomicsvariantstore.DataAwsccOmicsVariantStore_IsTerraformElement(x inter
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccOmicsVariantStore.DataAwsccOmicsVariantStore.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccomicsvariantstore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccomicsvariantstore"
 
 dataawsccomicsvariantstore.DataAwsccOmicsVariantStore_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccomicsvariantstore.DataAwsccOmicsVariantStore_IsTerraformDataSource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccOmicsVariantStore.DataAwsccOmicsVariantStore.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccomicsvariantstore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccomicsvariantstore"
 
 dataawsccomicsvariantstore.DataAwsccOmicsVariantStore_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccOmicsVariantStore
 
 The id of the existing DataAwsccOmicsVariantStore that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/omics_variant_store#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/omics_variant_store#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -719,7 +719,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOmicsVariantStore.DataAwsccOmicsVariantStoreConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccomicsvariantstore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccomicsvariantstore"
 
 &dataawsccomicsvariantstore.DataAwsccOmicsVariantStoreConfig {
 	Connection: interface{},
@@ -828,7 +828,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/omics_variant_store#id DataAwsccOmicsVariantStore#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/omics_variant_store#id DataAwsccOmicsVariantStore#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -840,7 +840,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOmicsVariantStore.DataAwsccOmicsVariantStoreReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccomicsvariantstore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccomicsvariantstore"
 
 &dataawsccomicsvariantstore.DataAwsccOmicsVariantStoreReference {
 
@@ -853,7 +853,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccomicsvariants
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOmicsVariantStore.DataAwsccOmicsVariantStoreSseConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccomicsvariantstore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccomicsvariantstore"
 
 &dataawsccomicsvariantstore.DataAwsccOmicsVariantStoreSseConfig {
 
@@ -868,7 +868,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccomicsvariants
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOmicsVariantStore.DataAwsccOmicsVariantStoreReferenceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccomicsvariantstore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccomicsvariantstore"
 
 dataawsccomicsvariantstore.NewDataAwsccOmicsVariantStoreReferenceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccOmicsVariantStoreReferenceOutputReference
 ```
@@ -1128,7 +1128,7 @@ func InternalValue() DataAwsccOmicsVariantStoreReference
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOmicsVariantStore.DataAwsccOmicsVariantStoreSseConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccomicsvariantstore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccomicsvariantstore"
 
 dataawsccomicsvariantstore.NewDataAwsccOmicsVariantStoreSseConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccOmicsVariantStoreSseConfigOutputReference
 ```

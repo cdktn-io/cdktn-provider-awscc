@@ -4,12 +4,12 @@
 
 ### SdbDomain <a name="SdbDomain" id="@cdktn/provider-awscc.sdbDomain.SdbDomain"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sdb_domain awscc_sdb_domain}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sdb_domain awscc_sdb_domain}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sdbDomain.SdbDomain.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sdbdomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sdbdomain"
 
 sdbdomain.NewSdbDomain(scope Construct, id *string, config SdbDomainConfig) SdbDomain
 ```
@@ -407,7 +407,7 @@ func ResetDescription()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.sdbDomain.SdbDomain.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sdbdomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sdbdomain"
 
 sdbdomain.SdbDomain_IsConstruct(x interface{}) *bool
 ```
@@ -439,7 +439,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.sdbDomain.SdbDomain.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sdbdomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sdbdomain"
 
 sdbdomain.SdbDomain_IsTerraformElement(x interface{}) *bool
 ```
@@ -453,7 +453,7 @@ sdbdomain.SdbDomain_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.sdbDomain.SdbDomain.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sdbdomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sdbdomain"
 
 sdbdomain.SdbDomain_IsTerraformResource(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ sdbdomain.SdbDomain_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.sdbDomain.SdbDomain.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sdbdomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sdbdomain"
 
 sdbdomain.SdbDomain_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -496,7 +496,7 @@ The construct id used in the generated config for the SdbDomain to import.
 
 The id of the existing SdbDomain that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sdb_domain#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sdb_domain#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -740,7 +740,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sdbDomain.SdbDomainConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sdbdomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sdbdomain"
 
 &sdbdomain.SdbDomainConfig {
 	Connection: interface{},
@@ -849,7 +849,7 @@ Description *string
 
 Information about the SimpleDB domain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sdb_domain#description SdbDomain#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sdb_domain#description SdbDomain#description}
 
 ---
 

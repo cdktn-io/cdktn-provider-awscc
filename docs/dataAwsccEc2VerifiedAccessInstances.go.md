@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2VerifiedAccessInstances <a name="DataAwsccEc2VerifiedAccessInstances" id="@cdktn/provider-awscc.dataAwsccEc2VerifiedAccessInstances.DataAwsccEc2VerifiedAccessInstances"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_verified_access_instances awscc_ec2_verified_access_instances}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_verified_access_instances awscc_ec2_verified_access_instances}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2VerifiedAccessInstances.DataAwsccEc2VerifiedAccessInstances.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2verifiedaccessinstances"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2verifiedaccessinstances"
 
 dataawsccec2verifiedaccessinstances.NewDataAwsccEc2VerifiedAccessInstances(scope Construct, id *string, config DataAwsccEc2VerifiedAccessInstancesConfig) DataAwsccEc2VerifiedAccessInstances
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2VerifiedAccessInstances.DataAwsccEc2VerifiedAccessInstances.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2verifiedaccessinstances"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2verifiedaccessinstances"
 
 dataawsccec2verifiedaccessinstances.DataAwsccEc2VerifiedAccessInstances_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2VerifiedAccessInstances.DataAwsccEc2VerifiedAccessInstances.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2verifiedaccessinstances"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2verifiedaccessinstances"
 
 dataawsccec2verifiedaccessinstances.DataAwsccEc2VerifiedAccessInstances_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2verifiedaccessinstances.DataAwsccEc2VerifiedAccessInstances_IsTerraf
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2VerifiedAccessInstances.DataAwsccEc2VerifiedAccessInstances.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2verifiedaccessinstances"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2verifiedaccessinstances"
 
 dataawsccec2verifiedaccessinstances.DataAwsccEc2VerifiedAccessInstances_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2verifiedaccessinstances.DataAwsccEc2VerifiedAccessInstances_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2VerifiedAccessInstances.DataAwsccEc2VerifiedAccessInstances.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2verifiedaccessinstances"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2verifiedaccessinstances"
 
 dataawsccec2verifiedaccessinstances.DataAwsccEc2VerifiedAccessInstances_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2VerifiedAccess
 
 The id of the existing DataAwsccEc2VerifiedAccessInstances that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_verified_access_instances#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_verified_access_instances#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2VerifiedAccessInstances.DataAwsccEc2VerifiedAccessInstancesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2verifiedaccessinstances"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2verifiedaccessinstances"
 
 &dataawsccec2verifiedaccessinstances.DataAwsccEc2VerifiedAccessInstancesConfig {
 	Connection: interface{},

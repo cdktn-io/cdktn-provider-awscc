@@ -4,12 +4,12 @@
 
 ### LightsailDatabaseSnapshot <a name="LightsailDatabaseSnapshot" id="@cdktn/provider-awscc.lightsailDatabaseSnapshot.LightsailDatabaseSnapshot"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_database_snapshot awscc_lightsail_database_snapshot}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_database_snapshot awscc_lightsail_database_snapshot}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lightsailDatabaseSnapshot.LightsailDatabaseSnapshot.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildatabasesnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildatabasesnapshot"
 
 lightsaildatabasesnapshot.NewLightsailDatabaseSnapshot(scope Construct, id *string, config LightsailDatabaseSnapshotConfig) LightsailDatabaseSnapshot
 ```
@@ -420,7 +420,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.lightsailDatabaseSnapshot.LightsailDatabaseSnapshot.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildatabasesnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildatabasesnapshot"
 
 lightsaildatabasesnapshot.LightsailDatabaseSnapshot_IsConstruct(x interface{}) *bool
 ```
@@ -452,7 +452,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.lightsailDatabaseSnapshot.LightsailDatabaseSnapshot.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildatabasesnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildatabasesnapshot"
 
 lightsaildatabasesnapshot.LightsailDatabaseSnapshot_IsTerraformElement(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ lightsaildatabasesnapshot.LightsailDatabaseSnapshot_IsTerraformElement(x interfa
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.lightsailDatabaseSnapshot.LightsailDatabaseSnapshot.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildatabasesnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildatabasesnapshot"
 
 lightsaildatabasesnapshot.LightsailDatabaseSnapshot_IsTerraformResource(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ lightsaildatabasesnapshot.LightsailDatabaseSnapshot_IsTerraformResource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.lightsailDatabaseSnapshot.LightsailDatabaseSnapshot.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildatabasesnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildatabasesnapshot"
 
 lightsaildatabasesnapshot.LightsailDatabaseSnapshot_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -509,7 +509,7 @@ The construct id used in the generated config for the LightsailDatabaseSnapshot 
 
 The id of the existing LightsailDatabaseSnapshot that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_database_snapshot#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_database_snapshot#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -940,7 +940,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lightsailDatabaseSnapshot.LightsailDatabaseSnapshotConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildatabasesnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildatabasesnapshot"
 
 &lightsaildatabasesnapshot.LightsailDatabaseSnapshotConfig {
 	Connection: interface{},
@@ -1053,7 +1053,7 @@ RelationalDatabaseName *string
 
 The name of the database on which to base your new snapshot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_database_snapshot#relational_database_name LightsailDatabaseSnapshot#relational_database_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_database_snapshot#relational_database_name LightsailDatabaseSnapshot#relational_database_name}
 
 ---
 
@@ -1067,7 +1067,7 @@ RelationalDatabaseSnapshotName *string
 
 The name for your new database snapshot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_database_snapshot#relational_database_snapshot_name LightsailDatabaseSnapshot#relational_database_snapshot_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_database_snapshot#relational_database_snapshot_name LightsailDatabaseSnapshot#relational_database_snapshot_name}
 
 ---
 
@@ -1081,7 +1081,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_database_snapshot#tags LightsailDatabaseSnapshot#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_database_snapshot#tags LightsailDatabaseSnapshot#tags}
 
 ---
 
@@ -1090,7 +1090,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lightsailDatabaseSnapshot.LightsailDatabaseSnapshotLocation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildatabasesnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildatabasesnapshot"
 
 &lightsaildatabasesnapshot.LightsailDatabaseSnapshotLocation {
 
@@ -1103,7 +1103,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildatabasesnaps
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lightsailDatabaseSnapshot.LightsailDatabaseSnapshotTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildatabasesnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildatabasesnapshot"
 
 &lightsaildatabasesnapshot.LightsailDatabaseSnapshotTags {
 	Key: *string,
@@ -1132,7 +1132,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_database_snapshot#key LightsailDatabaseSnapshot#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_database_snapshot#key LightsailDatabaseSnapshot#key}
 
 ---
 
@@ -1148,7 +1148,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_database_snapshot#value LightsailDatabaseSnapshot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_database_snapshot#value LightsailDatabaseSnapshot#value}
 
 ---
 
@@ -1159,7 +1159,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lightsailDatabaseSnapshot.LightsailDatabaseSnapshotLocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildatabasesnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildatabasesnapshot"
 
 lightsaildatabasesnapshot.NewLightsailDatabaseSnapshotLocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LightsailDatabaseSnapshotLocationOutputReference
 ```
@@ -1430,7 +1430,7 @@ func InternalValue() LightsailDatabaseSnapshotLocation
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lightsailDatabaseSnapshot.LightsailDatabaseSnapshotTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildatabasesnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildatabasesnapshot"
 
 lightsaildatabasesnapshot.NewLightsailDatabaseSnapshotTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LightsailDatabaseSnapshotTagsList
 ```
@@ -1590,7 +1590,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lightsailDatabaseSnapshot.LightsailDatabaseSnapshotTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildatabasesnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildatabasesnapshot"
 
 lightsaildatabasesnapshot.NewLightsailDatabaseSnapshotTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LightsailDatabaseSnapshotTagsOutputReference
 ```

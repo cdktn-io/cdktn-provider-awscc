@@ -4,12 +4,12 @@
 
 ### DataAwsccRoute53KeySigningKeys <a name="DataAwsccRoute53KeySigningKeys" id="@cdktn/provider-awscc.dataAwsccRoute53KeySigningKeys.DataAwsccRoute53KeySigningKeys"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53_key_signing_keys awscc_route53_key_signing_keys}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53_key_signing_keys awscc_route53_key_signing_keys}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53KeySigningKeys.DataAwsccRoute53KeySigningKeys.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53keysigningkeys"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53keysigningkeys"
 
 dataawsccroute53keysigningkeys.NewDataAwsccRoute53KeySigningKeys(scope Construct, id *string, config DataAwsccRoute53KeySigningKeysConfig) DataAwsccRoute53KeySigningKeys
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccRoute53KeySigningKeys.DataAwsccRoute53KeySigningKeys.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53keysigningkeys"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53keysigningkeys"
 
 dataawsccroute53keysigningkeys.DataAwsccRoute53KeySigningKeys_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccRoute53KeySigningKeys.DataAwsccRoute53KeySigningKeys.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53keysigningkeys"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53keysigningkeys"
 
 dataawsccroute53keysigningkeys.DataAwsccRoute53KeySigningKeys_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccroute53keysigningkeys.DataAwsccRoute53KeySigningKeys_IsTerraformElement
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccRoute53KeySigningKeys.DataAwsccRoute53KeySigningKeys.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53keysigningkeys"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53keysigningkeys"
 
 dataawsccroute53keysigningkeys.DataAwsccRoute53KeySigningKeys_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccroute53keysigningkeys.DataAwsccRoute53KeySigningKeys_IsTerraformDataSou
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccRoute53KeySigningKeys.DataAwsccRoute53KeySigningKeys.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53keysigningkeys"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53keysigningkeys"
 
 dataawsccroute53keysigningkeys.DataAwsccRoute53KeySigningKeys_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRoute53KeySigning
 
 The id of the existing DataAwsccRoute53KeySigningKeys that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53_key_signing_keys#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53_key_signing_keys#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRoute53KeySigningKeys.DataAwsccRoute53KeySigningKeysConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53keysigningkeys"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53keysigningkeys"
 
 &dataawsccroute53keysigningkeys.DataAwsccRoute53KeySigningKeysConfig {
 	Connection: interface{},

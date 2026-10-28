@@ -4,12 +4,12 @@
 
 ### EventsRule <a name="EventsRule" id="@cdktn/provider-awscc.eventsRule.EventsRule"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule awscc_events_rule}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule awscc_events_rule}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsRule.EventsRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsrule"
 
 eventsrule.NewEventsRule(scope Construct, id *string, config EventsRuleConfig) EventsRule
 ```
@@ -489,7 +489,7 @@ func ResetTargets()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.eventsRule.EventsRule.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsrule"
 
 eventsrule.EventsRule_IsConstruct(x interface{}) *bool
 ```
@@ -521,7 +521,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.eventsRule.EventsRule.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsrule"
 
 eventsrule.EventsRule_IsTerraformElement(x interface{}) *bool
 ```
@@ -535,7 +535,7 @@ eventsrule.EventsRule_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.eventsRule.EventsRule.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsrule"
 
 eventsrule.EventsRule_IsTerraformResource(x interface{}) *bool
 ```
@@ -549,7 +549,7 @@ eventsrule.EventsRule_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.eventsRule.EventsRule.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsrule"
 
 eventsrule.EventsRule_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -578,7 +578,7 @@ The construct id used in the generated config for the EventsRule to import.
 
 The id of the existing EventsRule that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1009,7 +1009,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.eventsRule.EventsRuleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsrule"
 
 &eventsrule.EventsRuleConfig {
 	Connection: interface{},
@@ -1134,7 +1134,7 @@ Description *string
 
 The description of the rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#description EventsRule#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#description EventsRule#description}
 
 ---
 
@@ -1150,7 +1150,7 @@ The name or ARN of the event bus associated with the rule.
 
 If you omit this, the default event bus is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#event_bus_name EventsRule#event_bus_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#event_bus_name EventsRule#event_bus_name}
 
 ---
 
@@ -1166,7 +1166,7 @@ The event pattern of the rule.
 
 For more information, see Events and Event Patterns in the Amazon EventBridge User Guide.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#event_pattern EventsRule#event_pattern}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#event_pattern EventsRule#event_pattern}
 
 ---
 
@@ -1180,7 +1180,7 @@ Name *string
 
 The name of the rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#name EventsRule#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#name EventsRule#name}
 
 ---
 
@@ -1194,7 +1194,7 @@ RoleArn *string
 
 The Amazon Resource Name (ARN) of the role that is used for target invocation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#role_arn EventsRule#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#role_arn EventsRule#role_arn}
 
 ---
 
@@ -1210,7 +1210,7 @@ The scheduling expression.
 
 For example, "cron(0 20 * * ? *)", "rate(5 minutes)". For more information, see Creating an Amazon EventBridge rule that runs on a schedule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#schedule_expression EventsRule#schedule_expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#schedule_expression EventsRule#schedule_expression}
 
 ---
 
@@ -1224,7 +1224,7 @@ State *string
 
 The state of the rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#state EventsRule#state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#state EventsRule#state}
 
 ---
 
@@ -1238,7 +1238,7 @@ Tags interface{}
 
 Any tags assigned to the event rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#tags EventsRule#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#tags EventsRule#tags}
 
 ---
 
@@ -1254,7 +1254,7 @@ Adds the specified targets to the specified rule, or updates the targets if they
 
 Targets are the resources that are invoked when a rule is triggered.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#targets EventsRule#targets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#targets EventsRule#targets}
 
 ---
 
@@ -1263,7 +1263,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.eventsRule.EventsRuleTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsrule"
 
 &eventsrule.EventsRuleTags {
 	Key: *string,
@@ -1275,8 +1275,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#key EventsRule#key}. |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#value EventsRule#value}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#key EventsRule#key}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#value EventsRule#value}. |
 
 ---
 
@@ -1288,7 +1288,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#key EventsRule#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#key EventsRule#key}.
 
 ---
 
@@ -1300,7 +1300,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#value EventsRule#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#value EventsRule#value}.
 
 ---
 
@@ -1309,26 +1309,26 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.eventsRule.EventsRuleTargets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsrule"
 
 &eventsrule.EventsRuleTargets {
-	AppSyncParameters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.eventsRule.EventsRuleTargetsAppSyncParameters,
+	AppSyncParameters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.eventsRule.EventsRuleTargetsAppSyncParameters,
 	Arn: *string,
-	BatchParameters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.eventsRule.EventsRuleTargetsBatchParameters,
-	DeadLetterConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.eventsRule.EventsRuleTargetsDeadLetterConfig,
-	EcsParameters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.eventsRule.EventsRuleTargetsEcsParameters,
-	HttpParameters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.eventsRule.EventsRuleTargetsHttpParameters,
+	BatchParameters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.eventsRule.EventsRuleTargetsBatchParameters,
+	DeadLetterConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.eventsRule.EventsRuleTargetsDeadLetterConfig,
+	EcsParameters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.eventsRule.EventsRuleTargetsEcsParameters,
+	HttpParameters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.eventsRule.EventsRuleTargetsHttpParameters,
 	Id: *string,
 	Input: *string,
 	InputPath: *string,
-	InputTransformer: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.eventsRule.EventsRuleTargetsInputTransformer,
-	KinesisParameters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.eventsRule.EventsRuleTargetsKinesisParameters,
-	RedshiftDataParameters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.eventsRule.EventsRuleTargetsRedshiftDataParameters,
-	RetryPolicy: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.eventsRule.EventsRuleTargetsRetryPolicy,
+	InputTransformer: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.eventsRule.EventsRuleTargetsInputTransformer,
+	KinesisParameters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.eventsRule.EventsRuleTargetsKinesisParameters,
+	RedshiftDataParameters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.eventsRule.EventsRuleTargetsRedshiftDataParameters,
+	RetryPolicy: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.eventsRule.EventsRuleTargetsRetryPolicy,
 	RoleArn: *string,
-	RunCommandParameters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.eventsRule.EventsRuleTargetsRunCommandParameters,
-	SageMakerPipelineParameters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.eventsRule.EventsRuleTargetsSageMakerPipelineParameters,
-	SqsParameters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.eventsRule.EventsRuleTargetsSqsParameters,
+	RunCommandParameters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.eventsRule.EventsRuleTargetsRunCommandParameters,
+	SageMakerPipelineParameters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.eventsRule.EventsRuleTargetsSageMakerPipelineParameters,
+	SqsParameters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.eventsRule.EventsRuleTargetsSqsParameters,
 }
 ```
 
@@ -1336,23 +1336,23 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargets.property.appSyncParameters">AppSyncParameters</a></code> | <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsAppSyncParameters">EventsRuleTargetsAppSyncParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#app_sync_parameters EventsRule#app_sync_parameters}. |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargets.property.arn">Arn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#arn EventsRule#arn}. |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargets.property.batchParameters">BatchParameters</a></code> | <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsBatchParameters">EventsRuleTargetsBatchParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#batch_parameters EventsRule#batch_parameters}. |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargets.property.deadLetterConfig">DeadLetterConfig</a></code> | <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsDeadLetterConfig">EventsRuleTargetsDeadLetterConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#dead_letter_config EventsRule#dead_letter_config}. |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargets.property.ecsParameters">EcsParameters</a></code> | <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParameters">EventsRuleTargetsEcsParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#ecs_parameters EventsRule#ecs_parameters}. |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargets.property.httpParameters">HttpParameters</a></code> | <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsHttpParameters">EventsRuleTargetsHttpParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#http_parameters EventsRule#http_parameters}. |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargets.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#id EventsRule#id}. |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargets.property.input">Input</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#input EventsRule#input}. |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargets.property.inputPath">InputPath</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#input_path EventsRule#input_path}. |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargets.property.inputTransformer">InputTransformer</a></code> | <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsInputTransformer">EventsRuleTargetsInputTransformer</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#input_transformer EventsRule#input_transformer}. |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargets.property.kinesisParameters">KinesisParameters</a></code> | <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsKinesisParameters">EventsRuleTargetsKinesisParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#kinesis_parameters EventsRule#kinesis_parameters}. |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargets.property.redshiftDataParameters">RedshiftDataParameters</a></code> | <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsRedshiftDataParameters">EventsRuleTargetsRedshiftDataParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#redshift_data_parameters EventsRule#redshift_data_parameters}. |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargets.property.retryPolicy">RetryPolicy</a></code> | <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsRetryPolicy">EventsRuleTargetsRetryPolicy</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#retry_policy EventsRule#retry_policy}. |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargets.property.roleArn">RoleArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#role_arn EventsRule#role_arn}. |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargets.property.runCommandParameters">RunCommandParameters</a></code> | <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsRunCommandParameters">EventsRuleTargetsRunCommandParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#run_command_parameters EventsRule#run_command_parameters}. |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargets.property.sageMakerPipelineParameters">SageMakerPipelineParameters</a></code> | <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsSageMakerPipelineParameters">EventsRuleTargetsSageMakerPipelineParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#sage_maker_pipeline_parameters EventsRule#sage_maker_pipeline_parameters}. |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargets.property.sqsParameters">SqsParameters</a></code> | <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsSqsParameters">EventsRuleTargetsSqsParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#sqs_parameters EventsRule#sqs_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargets.property.appSyncParameters">AppSyncParameters</a></code> | <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsAppSyncParameters">EventsRuleTargetsAppSyncParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#app_sync_parameters EventsRule#app_sync_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargets.property.arn">Arn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#arn EventsRule#arn}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargets.property.batchParameters">BatchParameters</a></code> | <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsBatchParameters">EventsRuleTargetsBatchParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#batch_parameters EventsRule#batch_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargets.property.deadLetterConfig">DeadLetterConfig</a></code> | <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsDeadLetterConfig">EventsRuleTargetsDeadLetterConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#dead_letter_config EventsRule#dead_letter_config}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargets.property.ecsParameters">EcsParameters</a></code> | <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParameters">EventsRuleTargetsEcsParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#ecs_parameters EventsRule#ecs_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargets.property.httpParameters">HttpParameters</a></code> | <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsHttpParameters">EventsRuleTargetsHttpParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#http_parameters EventsRule#http_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargets.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#id EventsRule#id}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargets.property.input">Input</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#input EventsRule#input}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargets.property.inputPath">InputPath</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#input_path EventsRule#input_path}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargets.property.inputTransformer">InputTransformer</a></code> | <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsInputTransformer">EventsRuleTargetsInputTransformer</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#input_transformer EventsRule#input_transformer}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargets.property.kinesisParameters">KinesisParameters</a></code> | <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsKinesisParameters">EventsRuleTargetsKinesisParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#kinesis_parameters EventsRule#kinesis_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargets.property.redshiftDataParameters">RedshiftDataParameters</a></code> | <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsRedshiftDataParameters">EventsRuleTargetsRedshiftDataParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#redshift_data_parameters EventsRule#redshift_data_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargets.property.retryPolicy">RetryPolicy</a></code> | <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsRetryPolicy">EventsRuleTargetsRetryPolicy</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#retry_policy EventsRule#retry_policy}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargets.property.roleArn">RoleArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#role_arn EventsRule#role_arn}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargets.property.runCommandParameters">RunCommandParameters</a></code> | <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsRunCommandParameters">EventsRuleTargetsRunCommandParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#run_command_parameters EventsRule#run_command_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargets.property.sageMakerPipelineParameters">SageMakerPipelineParameters</a></code> | <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsSageMakerPipelineParameters">EventsRuleTargetsSageMakerPipelineParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#sage_maker_pipeline_parameters EventsRule#sage_maker_pipeline_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargets.property.sqsParameters">SqsParameters</a></code> | <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsSqsParameters">EventsRuleTargetsSqsParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#sqs_parameters EventsRule#sqs_parameters}. |
 
 ---
 
@@ -1364,7 +1364,7 @@ AppSyncParameters EventsRuleTargetsAppSyncParameters
 
 - *Type:* <a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsAppSyncParameters">EventsRuleTargetsAppSyncParameters</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#app_sync_parameters EventsRule#app_sync_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#app_sync_parameters EventsRule#app_sync_parameters}.
 
 ---
 
@@ -1376,7 +1376,7 @@ Arn *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#arn EventsRule#arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#arn EventsRule#arn}.
 
 ---
 
@@ -1388,7 +1388,7 @@ BatchParameters EventsRuleTargetsBatchParameters
 
 - *Type:* <a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsBatchParameters">EventsRuleTargetsBatchParameters</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#batch_parameters EventsRule#batch_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#batch_parameters EventsRule#batch_parameters}.
 
 ---
 
@@ -1400,7 +1400,7 @@ DeadLetterConfig EventsRuleTargetsDeadLetterConfig
 
 - *Type:* <a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsDeadLetterConfig">EventsRuleTargetsDeadLetterConfig</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#dead_letter_config EventsRule#dead_letter_config}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#dead_letter_config EventsRule#dead_letter_config}.
 
 ---
 
@@ -1412,7 +1412,7 @@ EcsParameters EventsRuleTargetsEcsParameters
 
 - *Type:* <a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParameters">EventsRuleTargetsEcsParameters</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#ecs_parameters EventsRule#ecs_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#ecs_parameters EventsRule#ecs_parameters}.
 
 ---
 
@@ -1424,7 +1424,7 @@ HttpParameters EventsRuleTargetsHttpParameters
 
 - *Type:* <a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsHttpParameters">EventsRuleTargetsHttpParameters</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#http_parameters EventsRule#http_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#http_parameters EventsRule#http_parameters}.
 
 ---
 
@@ -1436,7 +1436,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#id EventsRule#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#id EventsRule#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1451,7 +1451,7 @@ Input *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#input EventsRule#input}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#input EventsRule#input}.
 
 ---
 
@@ -1463,7 +1463,7 @@ InputPath *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#input_path EventsRule#input_path}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#input_path EventsRule#input_path}.
 
 ---
 
@@ -1475,7 +1475,7 @@ InputTransformer EventsRuleTargetsInputTransformer
 
 - *Type:* <a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsInputTransformer">EventsRuleTargetsInputTransformer</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#input_transformer EventsRule#input_transformer}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#input_transformer EventsRule#input_transformer}.
 
 ---
 
@@ -1487,7 +1487,7 @@ KinesisParameters EventsRuleTargetsKinesisParameters
 
 - *Type:* <a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsKinesisParameters">EventsRuleTargetsKinesisParameters</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#kinesis_parameters EventsRule#kinesis_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#kinesis_parameters EventsRule#kinesis_parameters}.
 
 ---
 
@@ -1499,7 +1499,7 @@ RedshiftDataParameters EventsRuleTargetsRedshiftDataParameters
 
 - *Type:* <a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsRedshiftDataParameters">EventsRuleTargetsRedshiftDataParameters</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#redshift_data_parameters EventsRule#redshift_data_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#redshift_data_parameters EventsRule#redshift_data_parameters}.
 
 ---
 
@@ -1511,7 +1511,7 @@ RetryPolicy EventsRuleTargetsRetryPolicy
 
 - *Type:* <a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsRetryPolicy">EventsRuleTargetsRetryPolicy</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#retry_policy EventsRule#retry_policy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#retry_policy EventsRule#retry_policy}.
 
 ---
 
@@ -1523,7 +1523,7 @@ RoleArn *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#role_arn EventsRule#role_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#role_arn EventsRule#role_arn}.
 
 ---
 
@@ -1535,7 +1535,7 @@ RunCommandParameters EventsRuleTargetsRunCommandParameters
 
 - *Type:* <a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsRunCommandParameters">EventsRuleTargetsRunCommandParameters</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#run_command_parameters EventsRule#run_command_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#run_command_parameters EventsRule#run_command_parameters}.
 
 ---
 
@@ -1547,7 +1547,7 @@ SageMakerPipelineParameters EventsRuleTargetsSageMakerPipelineParameters
 
 - *Type:* <a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsSageMakerPipelineParameters">EventsRuleTargetsSageMakerPipelineParameters</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#sage_maker_pipeline_parameters EventsRule#sage_maker_pipeline_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#sage_maker_pipeline_parameters EventsRule#sage_maker_pipeline_parameters}.
 
 ---
 
@@ -1559,7 +1559,7 @@ SqsParameters EventsRuleTargetsSqsParameters
 
 - *Type:* <a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsSqsParameters">EventsRuleTargetsSqsParameters</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#sqs_parameters EventsRule#sqs_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#sqs_parameters EventsRule#sqs_parameters}.
 
 ---
 
@@ -1568,7 +1568,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.eventsRule.EventsRuleTargetsAppSyncParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsrule"
 
 &eventsrule.EventsRuleTargetsAppSyncParameters {
 	GraphQlOperation: *string,
@@ -1579,7 +1579,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsAppSyncParameters.property.graphQlOperation">GraphQlOperation</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#graph_ql_operation EventsRule#graph_ql_operation}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsAppSyncParameters.property.graphQlOperation">GraphQlOperation</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#graph_ql_operation EventsRule#graph_ql_operation}. |
 
 ---
 
@@ -1591,7 +1591,7 @@ GraphQlOperation *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#graph_ql_operation EventsRule#graph_ql_operation}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#graph_ql_operation EventsRule#graph_ql_operation}.
 
 ---
 
@@ -1600,13 +1600,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.eventsRule.EventsRuleTargetsBatchParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsrule"
 
 &eventsrule.EventsRuleTargetsBatchParameters {
-	ArrayProperties: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.eventsRule.EventsRuleTargetsBatchParametersArrayProperties,
+	ArrayProperties: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.eventsRule.EventsRuleTargetsBatchParametersArrayProperties,
 	JobDefinition: *string,
 	JobName: *string,
-	RetryStrategy: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.eventsRule.EventsRuleTargetsBatchParametersRetryStrategy,
+	RetryStrategy: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.eventsRule.EventsRuleTargetsBatchParametersRetryStrategy,
 }
 ```
 
@@ -1614,10 +1614,10 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsBatchParameters.property.arrayProperties">ArrayProperties</a></code> | <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsBatchParametersArrayProperties">EventsRuleTargetsBatchParametersArrayProperties</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#array_properties EventsRule#array_properties}. |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsBatchParameters.property.jobDefinition">JobDefinition</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#job_definition EventsRule#job_definition}. |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsBatchParameters.property.jobName">JobName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#job_name EventsRule#job_name}. |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsBatchParameters.property.retryStrategy">RetryStrategy</a></code> | <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsBatchParametersRetryStrategy">EventsRuleTargetsBatchParametersRetryStrategy</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#retry_strategy EventsRule#retry_strategy}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsBatchParameters.property.arrayProperties">ArrayProperties</a></code> | <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsBatchParametersArrayProperties">EventsRuleTargetsBatchParametersArrayProperties</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#array_properties EventsRule#array_properties}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsBatchParameters.property.jobDefinition">JobDefinition</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#job_definition EventsRule#job_definition}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsBatchParameters.property.jobName">JobName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#job_name EventsRule#job_name}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsBatchParameters.property.retryStrategy">RetryStrategy</a></code> | <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsBatchParametersRetryStrategy">EventsRuleTargetsBatchParametersRetryStrategy</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#retry_strategy EventsRule#retry_strategy}. |
 
 ---
 
@@ -1629,7 +1629,7 @@ ArrayProperties EventsRuleTargetsBatchParametersArrayProperties
 
 - *Type:* <a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsBatchParametersArrayProperties">EventsRuleTargetsBatchParametersArrayProperties</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#array_properties EventsRule#array_properties}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#array_properties EventsRule#array_properties}.
 
 ---
 
@@ -1641,7 +1641,7 @@ JobDefinition *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#job_definition EventsRule#job_definition}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#job_definition EventsRule#job_definition}.
 
 ---
 
@@ -1653,7 +1653,7 @@ JobName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#job_name EventsRule#job_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#job_name EventsRule#job_name}.
 
 ---
 
@@ -1665,7 +1665,7 @@ RetryStrategy EventsRuleTargetsBatchParametersRetryStrategy
 
 - *Type:* <a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsBatchParametersRetryStrategy">EventsRuleTargetsBatchParametersRetryStrategy</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#retry_strategy EventsRule#retry_strategy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#retry_strategy EventsRule#retry_strategy}.
 
 ---
 
@@ -1674,7 +1674,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.eventsRule.EventsRuleTargetsBatchParametersArrayProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsrule"
 
 &eventsrule.EventsRuleTargetsBatchParametersArrayProperties {
 	Size: *f64,
@@ -1685,7 +1685,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsBatchParametersArrayProperties.property.size">Size</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#size EventsRule#size}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsBatchParametersArrayProperties.property.size">Size</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#size EventsRule#size}. |
 
 ---
 
@@ -1697,7 +1697,7 @@ Size *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#size EventsRule#size}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#size EventsRule#size}.
 
 ---
 
@@ -1706,7 +1706,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.eventsRule.EventsRuleTargetsBatchParametersRetryStrategy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsrule"
 
 &eventsrule.EventsRuleTargetsBatchParametersRetryStrategy {
 	Attempts: *f64,
@@ -1717,7 +1717,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsBatchParametersRetryStrategy.property.attempts">Attempts</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#attempts EventsRule#attempts}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsBatchParametersRetryStrategy.property.attempts">Attempts</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#attempts EventsRule#attempts}. |
 
 ---
 
@@ -1729,7 +1729,7 @@ Attempts *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#attempts EventsRule#attempts}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#attempts EventsRule#attempts}.
 
 ---
 
@@ -1738,7 +1738,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.eventsRule.EventsRuleTargetsDeadLetterConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsrule"
 
 &eventsrule.EventsRuleTargetsDeadLetterConfig {
 	Arn: *string,
@@ -1749,7 +1749,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsDeadLetterConfig.property.arn">Arn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#arn EventsRule#arn}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsDeadLetterConfig.property.arn">Arn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#arn EventsRule#arn}. |
 
 ---
 
@@ -1761,7 +1761,7 @@ Arn *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#arn EventsRule#arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#arn EventsRule#arn}.
 
 ---
 
@@ -1770,7 +1770,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsrule"
 
 &eventsrule.EventsRuleTargetsEcsParameters {
 	CapacityProviderStrategy: interface{},
@@ -1778,7 +1778,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
 	EnableExecuteCommand: interface{},
 	Group: *string,
 	LaunchType: *string,
-	NetworkConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.eventsRule.EventsRuleTargetsEcsParametersNetworkConfiguration,
+	NetworkConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.eventsRule.EventsRuleTargetsEcsParametersNetworkConfiguration,
 	PlacementConstraints: interface{},
 	PlacementStrategies: interface{},
 	PlatformVersion: *string,
@@ -1794,20 +1794,20 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParameters.property.capacityProviderStrategy">CapacityProviderStrategy</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#capacity_provider_strategy EventsRule#capacity_provider_strategy}. |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParameters.property.enableEcsManagedTags">EnableEcsManagedTags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#enable_ecs_managed_tags EventsRule#enable_ecs_managed_tags}. |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParameters.property.enableExecuteCommand">EnableExecuteCommand</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#enable_execute_command EventsRule#enable_execute_command}. |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParameters.property.group">Group</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#group EventsRule#group}. |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParameters.property.launchType">LaunchType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#launch_type EventsRule#launch_type}. |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParameters.property.networkConfiguration">NetworkConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParametersNetworkConfiguration">EventsRuleTargetsEcsParametersNetworkConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#network_configuration EventsRule#network_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParameters.property.placementConstraints">PlacementConstraints</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#placement_constraints EventsRule#placement_constraints}. |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParameters.property.placementStrategies">PlacementStrategies</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#placement_strategies EventsRule#placement_strategies}. |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParameters.property.platformVersion">PlatformVersion</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#platform_version EventsRule#platform_version}. |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParameters.property.propagateTags">PropagateTags</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#propagate_tags EventsRule#propagate_tags}. |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParameters.property.referenceId">ReferenceId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#reference_id EventsRule#reference_id}. |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParameters.property.tagList">TagList</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#tag_list EventsRule#tag_list}. |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParameters.property.taskCount">TaskCount</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#task_count EventsRule#task_count}. |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParameters.property.taskDefinitionArn">TaskDefinitionArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#task_definition_arn EventsRule#task_definition_arn}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParameters.property.capacityProviderStrategy">CapacityProviderStrategy</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#capacity_provider_strategy EventsRule#capacity_provider_strategy}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParameters.property.enableEcsManagedTags">EnableEcsManagedTags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#enable_ecs_managed_tags EventsRule#enable_ecs_managed_tags}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParameters.property.enableExecuteCommand">EnableExecuteCommand</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#enable_execute_command EventsRule#enable_execute_command}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParameters.property.group">Group</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#group EventsRule#group}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParameters.property.launchType">LaunchType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#launch_type EventsRule#launch_type}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParameters.property.networkConfiguration">NetworkConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParametersNetworkConfiguration">EventsRuleTargetsEcsParametersNetworkConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#network_configuration EventsRule#network_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParameters.property.placementConstraints">PlacementConstraints</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#placement_constraints EventsRule#placement_constraints}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParameters.property.placementStrategies">PlacementStrategies</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#placement_strategies EventsRule#placement_strategies}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParameters.property.platformVersion">PlatformVersion</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#platform_version EventsRule#platform_version}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParameters.property.propagateTags">PropagateTags</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#propagate_tags EventsRule#propagate_tags}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParameters.property.referenceId">ReferenceId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#reference_id EventsRule#reference_id}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParameters.property.tagList">TagList</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#tag_list EventsRule#tag_list}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParameters.property.taskCount">TaskCount</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#task_count EventsRule#task_count}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParameters.property.taskDefinitionArn">TaskDefinitionArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#task_definition_arn EventsRule#task_definition_arn}. |
 
 ---
 
@@ -1819,7 +1819,7 @@ CapacityProviderStrategy interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#capacity_provider_strategy EventsRule#capacity_provider_strategy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#capacity_provider_strategy EventsRule#capacity_provider_strategy}.
 
 ---
 
@@ -1831,7 +1831,7 @@ EnableEcsManagedTags interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#enable_ecs_managed_tags EventsRule#enable_ecs_managed_tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#enable_ecs_managed_tags EventsRule#enable_ecs_managed_tags}.
 
 ---
 
@@ -1843,7 +1843,7 @@ EnableExecuteCommand interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#enable_execute_command EventsRule#enable_execute_command}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#enable_execute_command EventsRule#enable_execute_command}.
 
 ---
 
@@ -1855,7 +1855,7 @@ Group *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#group EventsRule#group}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#group EventsRule#group}.
 
 ---
 
@@ -1867,7 +1867,7 @@ LaunchType *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#launch_type EventsRule#launch_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#launch_type EventsRule#launch_type}.
 
 ---
 
@@ -1879,7 +1879,7 @@ NetworkConfiguration EventsRuleTargetsEcsParametersNetworkConfiguration
 
 - *Type:* <a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParametersNetworkConfiguration">EventsRuleTargetsEcsParametersNetworkConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#network_configuration EventsRule#network_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#network_configuration EventsRule#network_configuration}.
 
 ---
 
@@ -1891,7 +1891,7 @@ PlacementConstraints interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#placement_constraints EventsRule#placement_constraints}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#placement_constraints EventsRule#placement_constraints}.
 
 ---
 
@@ -1903,7 +1903,7 @@ PlacementStrategies interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#placement_strategies EventsRule#placement_strategies}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#placement_strategies EventsRule#placement_strategies}.
 
 ---
 
@@ -1915,7 +1915,7 @@ PlatformVersion *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#platform_version EventsRule#platform_version}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#platform_version EventsRule#platform_version}.
 
 ---
 
@@ -1927,7 +1927,7 @@ PropagateTags *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#propagate_tags EventsRule#propagate_tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#propagate_tags EventsRule#propagate_tags}.
 
 ---
 
@@ -1939,7 +1939,7 @@ ReferenceId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#reference_id EventsRule#reference_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#reference_id EventsRule#reference_id}.
 
 ---
 
@@ -1951,7 +1951,7 @@ TagList interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#tag_list EventsRule#tag_list}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#tag_list EventsRule#tag_list}.
 
 ---
 
@@ -1963,7 +1963,7 @@ TaskCount *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#task_count EventsRule#task_count}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#task_count EventsRule#task_count}.
 
 ---
 
@@ -1975,7 +1975,7 @@ TaskDefinitionArn *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#task_definition_arn EventsRule#task_definition_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#task_definition_arn EventsRule#task_definition_arn}.
 
 ---
 
@@ -1984,7 +1984,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParametersCapacityProviderStrategy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsrule"
 
 &eventsrule.EventsRuleTargetsEcsParametersCapacityProviderStrategy {
 	Base: *f64,
@@ -1997,9 +1997,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParametersCapacityProviderStrategy.property.base">Base</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#base EventsRule#base}. |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParametersCapacityProviderStrategy.property.capacityProvider">CapacityProvider</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#capacity_provider EventsRule#capacity_provider}. |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParametersCapacityProviderStrategy.property.weight">Weight</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#weight EventsRule#weight}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParametersCapacityProviderStrategy.property.base">Base</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#base EventsRule#base}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParametersCapacityProviderStrategy.property.capacityProvider">CapacityProvider</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#capacity_provider EventsRule#capacity_provider}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParametersCapacityProviderStrategy.property.weight">Weight</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#weight EventsRule#weight}. |
 
 ---
 
@@ -2011,7 +2011,7 @@ Base *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#base EventsRule#base}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#base EventsRule#base}.
 
 ---
 
@@ -2023,7 +2023,7 @@ CapacityProvider *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#capacity_provider EventsRule#capacity_provider}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#capacity_provider EventsRule#capacity_provider}.
 
 ---
 
@@ -2035,7 +2035,7 @@ Weight *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#weight EventsRule#weight}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#weight EventsRule#weight}.
 
 ---
 
@@ -2044,10 +2044,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParametersNetworkConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsrule"
 
 &eventsrule.EventsRuleTargetsEcsParametersNetworkConfiguration {
-	AwsVpcConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.eventsRule.EventsRuleTargetsEcsParametersNetworkConfigurationAwsVpcConfiguration,
+	AwsVpcConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.eventsRule.EventsRuleTargetsEcsParametersNetworkConfigurationAwsVpcConfiguration,
 }
 ```
 
@@ -2055,7 +2055,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParametersNetworkConfiguration.property.awsVpcConfiguration">AwsVpcConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParametersNetworkConfigurationAwsVpcConfiguration">EventsRuleTargetsEcsParametersNetworkConfigurationAwsVpcConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#aws_vpc_configuration EventsRule#aws_vpc_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParametersNetworkConfiguration.property.awsVpcConfiguration">AwsVpcConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParametersNetworkConfigurationAwsVpcConfiguration">EventsRuleTargetsEcsParametersNetworkConfigurationAwsVpcConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#aws_vpc_configuration EventsRule#aws_vpc_configuration}. |
 
 ---
 
@@ -2067,7 +2067,7 @@ AwsVpcConfiguration EventsRuleTargetsEcsParametersNetworkConfigurationAwsVpcConf
 
 - *Type:* <a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParametersNetworkConfigurationAwsVpcConfiguration">EventsRuleTargetsEcsParametersNetworkConfigurationAwsVpcConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#aws_vpc_configuration EventsRule#aws_vpc_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#aws_vpc_configuration EventsRule#aws_vpc_configuration}.
 
 ---
 
@@ -2076,7 +2076,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParametersNetworkConfigurationAwsVpcConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsrule"
 
 &eventsrule.EventsRuleTargetsEcsParametersNetworkConfigurationAwsVpcConfiguration {
 	AssignPublicIp: *string,
@@ -2089,9 +2089,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParametersNetworkConfigurationAwsVpcConfiguration.property.assignPublicIp">AssignPublicIp</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#assign_public_ip EventsRule#assign_public_ip}. |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParametersNetworkConfigurationAwsVpcConfiguration.property.securityGroups">SecurityGroups</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#security_groups EventsRule#security_groups}. |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParametersNetworkConfigurationAwsVpcConfiguration.property.subnets">Subnets</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#subnets EventsRule#subnets}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParametersNetworkConfigurationAwsVpcConfiguration.property.assignPublicIp">AssignPublicIp</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#assign_public_ip EventsRule#assign_public_ip}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParametersNetworkConfigurationAwsVpcConfiguration.property.securityGroups">SecurityGroups</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#security_groups EventsRule#security_groups}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParametersNetworkConfigurationAwsVpcConfiguration.property.subnets">Subnets</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#subnets EventsRule#subnets}. |
 
 ---
 
@@ -2103,7 +2103,7 @@ AssignPublicIp *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#assign_public_ip EventsRule#assign_public_ip}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#assign_public_ip EventsRule#assign_public_ip}.
 
 ---
 
@@ -2115,7 +2115,7 @@ SecurityGroups *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#security_groups EventsRule#security_groups}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#security_groups EventsRule#security_groups}.
 
 ---
 
@@ -2127,7 +2127,7 @@ Subnets *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#subnets EventsRule#subnets}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#subnets EventsRule#subnets}.
 
 ---
 
@@ -2136,7 +2136,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParametersPlacementConstraints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsrule"
 
 &eventsrule.EventsRuleTargetsEcsParametersPlacementConstraints {
 	Expression: *string,
@@ -2148,8 +2148,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParametersPlacementConstraints.property.expression">Expression</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#expression EventsRule#expression}. |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParametersPlacementConstraints.property.type">Type</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#type EventsRule#type}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParametersPlacementConstraints.property.expression">Expression</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#expression EventsRule#expression}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParametersPlacementConstraints.property.type">Type</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#type EventsRule#type}. |
 
 ---
 
@@ -2161,7 +2161,7 @@ Expression *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#expression EventsRule#expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#expression EventsRule#expression}.
 
 ---
 
@@ -2173,7 +2173,7 @@ Type *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#type EventsRule#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#type EventsRule#type}.
 
 ---
 
@@ -2182,7 +2182,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParametersPlacementStrategies.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsrule"
 
 &eventsrule.EventsRuleTargetsEcsParametersPlacementStrategies {
 	Field: *string,
@@ -2194,8 +2194,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParametersPlacementStrategies.property.field">Field</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#field EventsRule#field}. |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParametersPlacementStrategies.property.type">Type</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#type EventsRule#type}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParametersPlacementStrategies.property.field">Field</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#field EventsRule#field}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParametersPlacementStrategies.property.type">Type</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#type EventsRule#type}. |
 
 ---
 
@@ -2207,7 +2207,7 @@ Field *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#field EventsRule#field}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#field EventsRule#field}.
 
 ---
 
@@ -2219,7 +2219,7 @@ Type *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#type EventsRule#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#type EventsRule#type}.
 
 ---
 
@@ -2228,7 +2228,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParametersTagListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsrule"
 
 &eventsrule.EventsRuleTargetsEcsParametersTagListStruct {
 	Key: *string,
@@ -2240,8 +2240,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParametersTagListStruct.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#key EventsRule#key}. |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParametersTagListStruct.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#value EventsRule#value}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParametersTagListStruct.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#key EventsRule#key}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParametersTagListStruct.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#value EventsRule#value}. |
 
 ---
 
@@ -2253,7 +2253,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#key EventsRule#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#key EventsRule#key}.
 
 ---
 
@@ -2265,7 +2265,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#value EventsRule#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#value EventsRule#value}.
 
 ---
 
@@ -2274,7 +2274,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.eventsRule.EventsRuleTargetsHttpParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsrule"
 
 &eventsrule.EventsRuleTargetsHttpParameters {
 	HeaderParameters: *map[string]*string,
@@ -2287,9 +2287,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsHttpParameters.property.headerParameters">HeaderParameters</a></code> | <code>*map[string]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#header_parameters EventsRule#header_parameters}. |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsHttpParameters.property.pathParameterValues">PathParameterValues</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#path_parameter_values EventsRule#path_parameter_values}. |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsHttpParameters.property.queryStringParameters">QueryStringParameters</a></code> | <code>*map[string]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#query_string_parameters EventsRule#query_string_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsHttpParameters.property.headerParameters">HeaderParameters</a></code> | <code>*map[string]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#header_parameters EventsRule#header_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsHttpParameters.property.pathParameterValues">PathParameterValues</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#path_parameter_values EventsRule#path_parameter_values}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsHttpParameters.property.queryStringParameters">QueryStringParameters</a></code> | <code>*map[string]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#query_string_parameters EventsRule#query_string_parameters}. |
 
 ---
 
@@ -2301,7 +2301,7 @@ HeaderParameters *map[string]*string
 
 - *Type:* *map[string]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#header_parameters EventsRule#header_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#header_parameters EventsRule#header_parameters}.
 
 ---
 
@@ -2313,7 +2313,7 @@ PathParameterValues *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#path_parameter_values EventsRule#path_parameter_values}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#path_parameter_values EventsRule#path_parameter_values}.
 
 ---
 
@@ -2325,7 +2325,7 @@ QueryStringParameters *map[string]*string
 
 - *Type:* *map[string]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#query_string_parameters EventsRule#query_string_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#query_string_parameters EventsRule#query_string_parameters}.
 
 ---
 
@@ -2334,7 +2334,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.eventsRule.EventsRuleTargetsInputTransformer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsrule"
 
 &eventsrule.EventsRuleTargetsInputTransformer {
 	InputPathsMap: *map[string]*string,
@@ -2346,8 +2346,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsInputTransformer.property.inputPathsMap">InputPathsMap</a></code> | <code>*map[string]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#input_paths_map EventsRule#input_paths_map}. |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsInputTransformer.property.inputTemplate">InputTemplate</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#input_template EventsRule#input_template}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsInputTransformer.property.inputPathsMap">InputPathsMap</a></code> | <code>*map[string]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#input_paths_map EventsRule#input_paths_map}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsInputTransformer.property.inputTemplate">InputTemplate</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#input_template EventsRule#input_template}. |
 
 ---
 
@@ -2359,7 +2359,7 @@ InputPathsMap *map[string]*string
 
 - *Type:* *map[string]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#input_paths_map EventsRule#input_paths_map}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#input_paths_map EventsRule#input_paths_map}.
 
 ---
 
@@ -2371,7 +2371,7 @@ InputTemplate *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#input_template EventsRule#input_template}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#input_template EventsRule#input_template}.
 
 ---
 
@@ -2380,7 +2380,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.eventsRule.EventsRuleTargetsKinesisParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsrule"
 
 &eventsrule.EventsRuleTargetsKinesisParameters {
 	PartitionKeyPath: *string,
@@ -2391,7 +2391,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsKinesisParameters.property.partitionKeyPath">PartitionKeyPath</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#partition_key_path EventsRule#partition_key_path}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsKinesisParameters.property.partitionKeyPath">PartitionKeyPath</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#partition_key_path EventsRule#partition_key_path}. |
 
 ---
 
@@ -2403,7 +2403,7 @@ PartitionKeyPath *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#partition_key_path EventsRule#partition_key_path}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#partition_key_path EventsRule#partition_key_path}.
 
 ---
 
@@ -2412,7 +2412,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.eventsRule.EventsRuleTargetsRedshiftDataParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsrule"
 
 &eventsrule.EventsRuleTargetsRedshiftDataParameters {
 	Database: *string,
@@ -2429,13 +2429,13 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsRedshiftDataParameters.property.database">Database</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#database EventsRule#database}. |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsRedshiftDataParameters.property.dbUser">DbUser</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#db_user EventsRule#db_user}. |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsRedshiftDataParameters.property.secretManagerArn">SecretManagerArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#secret_manager_arn EventsRule#secret_manager_arn}. |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsRedshiftDataParameters.property.sql">Sql</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#sql EventsRule#sql}. |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsRedshiftDataParameters.property.sqls">Sqls</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#sqls EventsRule#sqls}. |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsRedshiftDataParameters.property.statementName">StatementName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#statement_name EventsRule#statement_name}. |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsRedshiftDataParameters.property.withEvent">WithEvent</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#with_event EventsRule#with_event}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsRedshiftDataParameters.property.database">Database</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#database EventsRule#database}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsRedshiftDataParameters.property.dbUser">DbUser</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#db_user EventsRule#db_user}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsRedshiftDataParameters.property.secretManagerArn">SecretManagerArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#secret_manager_arn EventsRule#secret_manager_arn}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsRedshiftDataParameters.property.sql">Sql</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#sql EventsRule#sql}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsRedshiftDataParameters.property.sqls">Sqls</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#sqls EventsRule#sqls}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsRedshiftDataParameters.property.statementName">StatementName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#statement_name EventsRule#statement_name}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsRedshiftDataParameters.property.withEvent">WithEvent</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#with_event EventsRule#with_event}. |
 
 ---
 
@@ -2447,7 +2447,7 @@ Database *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#database EventsRule#database}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#database EventsRule#database}.
 
 ---
 
@@ -2459,7 +2459,7 @@ DbUser *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#db_user EventsRule#db_user}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#db_user EventsRule#db_user}.
 
 ---
 
@@ -2471,7 +2471,7 @@ SecretManagerArn *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#secret_manager_arn EventsRule#secret_manager_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#secret_manager_arn EventsRule#secret_manager_arn}.
 
 ---
 
@@ -2483,7 +2483,7 @@ Sql *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#sql EventsRule#sql}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#sql EventsRule#sql}.
 
 ---
 
@@ -2495,7 +2495,7 @@ Sqls *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#sqls EventsRule#sqls}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#sqls EventsRule#sqls}.
 
 ---
 
@@ -2507,7 +2507,7 @@ StatementName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#statement_name EventsRule#statement_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#statement_name EventsRule#statement_name}.
 
 ---
 
@@ -2519,7 +2519,7 @@ WithEvent interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#with_event EventsRule#with_event}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#with_event EventsRule#with_event}.
 
 ---
 
@@ -2528,7 +2528,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.eventsRule.EventsRuleTargetsRetryPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsrule"
 
 &eventsrule.EventsRuleTargetsRetryPolicy {
 	MaximumEventAgeInSeconds: *f64,
@@ -2540,8 +2540,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsRetryPolicy.property.maximumEventAgeInSeconds">MaximumEventAgeInSeconds</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#maximum_event_age_in_seconds EventsRule#maximum_event_age_in_seconds}. |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsRetryPolicy.property.maximumRetryAttempts">MaximumRetryAttempts</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#maximum_retry_attempts EventsRule#maximum_retry_attempts}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsRetryPolicy.property.maximumEventAgeInSeconds">MaximumEventAgeInSeconds</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#maximum_event_age_in_seconds EventsRule#maximum_event_age_in_seconds}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsRetryPolicy.property.maximumRetryAttempts">MaximumRetryAttempts</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#maximum_retry_attempts EventsRule#maximum_retry_attempts}. |
 
 ---
 
@@ -2553,7 +2553,7 @@ MaximumEventAgeInSeconds *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#maximum_event_age_in_seconds EventsRule#maximum_event_age_in_seconds}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#maximum_event_age_in_seconds EventsRule#maximum_event_age_in_seconds}.
 
 ---
 
@@ -2565,7 +2565,7 @@ MaximumRetryAttempts *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#maximum_retry_attempts EventsRule#maximum_retry_attempts}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#maximum_retry_attempts EventsRule#maximum_retry_attempts}.
 
 ---
 
@@ -2574,7 +2574,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.eventsRule.EventsRuleTargetsRunCommandParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsrule"
 
 &eventsrule.EventsRuleTargetsRunCommandParameters {
 	RunCommandTargets: interface{},
@@ -2585,7 +2585,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsRunCommandParameters.property.runCommandTargets">RunCommandTargets</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#run_command_targets EventsRule#run_command_targets}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsRunCommandParameters.property.runCommandTargets">RunCommandTargets</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#run_command_targets EventsRule#run_command_targets}. |
 
 ---
 
@@ -2597,7 +2597,7 @@ RunCommandTargets interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#run_command_targets EventsRule#run_command_targets}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#run_command_targets EventsRule#run_command_targets}.
 
 ---
 
@@ -2606,7 +2606,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.eventsRule.EventsRuleTargetsRunCommandParametersRunCommandTargets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsrule"
 
 &eventsrule.EventsRuleTargetsRunCommandParametersRunCommandTargets {
 	Key: *string,
@@ -2618,8 +2618,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsRunCommandParametersRunCommandTargets.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#key EventsRule#key}. |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsRunCommandParametersRunCommandTargets.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#values EventsRule#values}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsRunCommandParametersRunCommandTargets.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#key EventsRule#key}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsRunCommandParametersRunCommandTargets.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#values EventsRule#values}. |
 
 ---
 
@@ -2631,7 +2631,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#key EventsRule#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#key EventsRule#key}.
 
 ---
 
@@ -2643,7 +2643,7 @@ Values *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#values EventsRule#values}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#values EventsRule#values}.
 
 ---
 
@@ -2652,7 +2652,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.eventsRule.EventsRuleTargetsSageMakerPipelineParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsrule"
 
 &eventsrule.EventsRuleTargetsSageMakerPipelineParameters {
 	PipelineParameterList: interface{},
@@ -2663,7 +2663,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsSageMakerPipelineParameters.property.pipelineParameterList">PipelineParameterList</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#pipeline_parameter_list EventsRule#pipeline_parameter_list}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsSageMakerPipelineParameters.property.pipelineParameterList">PipelineParameterList</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#pipeline_parameter_list EventsRule#pipeline_parameter_list}. |
 
 ---
 
@@ -2675,7 +2675,7 @@ PipelineParameterList interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#pipeline_parameter_list EventsRule#pipeline_parameter_list}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#pipeline_parameter_list EventsRule#pipeline_parameter_list}.
 
 ---
 
@@ -2684,7 +2684,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.eventsRule.EventsRuleTargetsSageMakerPipelineParametersPipelineParameterListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsrule"
 
 &eventsrule.EventsRuleTargetsSageMakerPipelineParametersPipelineParameterListStruct {
 	Name: *string,
@@ -2696,8 +2696,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsSageMakerPipelineParametersPipelineParameterListStruct.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#name EventsRule#name}. |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsSageMakerPipelineParametersPipelineParameterListStruct.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#value EventsRule#value}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsSageMakerPipelineParametersPipelineParameterListStruct.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#name EventsRule#name}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsSageMakerPipelineParametersPipelineParameterListStruct.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#value EventsRule#value}. |
 
 ---
 
@@ -2709,7 +2709,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#name EventsRule#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#name EventsRule#name}.
 
 ---
 
@@ -2721,7 +2721,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#value EventsRule#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#value EventsRule#value}.
 
 ---
 
@@ -2730,7 +2730,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.eventsRule.EventsRuleTargetsSqsParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsrule"
 
 &eventsrule.EventsRuleTargetsSqsParameters {
 	MessageGroupId: *string,
@@ -2741,7 +2741,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsSqsParameters.property.messageGroupId">MessageGroupId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#message_group_id EventsRule#message_group_id}. |
+| <code><a href="#@cdktn/provider-awscc.eventsRule.EventsRuleTargetsSqsParameters.property.messageGroupId">MessageGroupId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#message_group_id EventsRule#message_group_id}. |
 
 ---
 
@@ -2753,7 +2753,7 @@ MessageGroupId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_rule#message_group_id EventsRule#message_group_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_rule#message_group_id EventsRule#message_group_id}.
 
 ---
 
@@ -2764,7 +2764,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsRule.EventsRuleTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsrule"
 
 eventsrule.NewEventsRuleTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) EventsRuleTagsList
 ```
@@ -2924,7 +2924,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsRule.EventsRuleTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsrule"
 
 eventsrule.NewEventsRuleTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) EventsRuleTagsOutputReference
 ```
@@ -3249,7 +3249,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsRule.EventsRuleTargetsAppSyncParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsrule"
 
 eventsrule.NewEventsRuleTargetsAppSyncParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) EventsRuleTargetsAppSyncParametersOutputReference
 ```
@@ -3527,7 +3527,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsRule.EventsRuleTargetsBatchParametersArrayPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsrule"
 
 eventsrule.NewEventsRuleTargetsBatchParametersArrayPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) EventsRuleTargetsBatchParametersArrayPropertiesOutputReference
 ```
@@ -3805,7 +3805,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsRule.EventsRuleTargetsBatchParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsrule"
 
 eventsrule.NewEventsRuleTargetsBatchParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) EventsRuleTargetsBatchParametersOutputReference
 ```
@@ -4196,7 +4196,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsRule.EventsRuleTargetsBatchParametersRetryStrategyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsrule"
 
 eventsrule.NewEventsRuleTargetsBatchParametersRetryStrategyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) EventsRuleTargetsBatchParametersRetryStrategyOutputReference
 ```
@@ -4474,7 +4474,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsRule.EventsRuleTargetsDeadLetterConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsrule"
 
 eventsrule.NewEventsRuleTargetsDeadLetterConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) EventsRuleTargetsDeadLetterConfigOutputReference
 ```
@@ -4752,7 +4752,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParametersCapacityProviderStrategyList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsrule"
 
 eventsrule.NewEventsRuleTargetsEcsParametersCapacityProviderStrategyList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) EventsRuleTargetsEcsParametersCapacityProviderStrategyList
 ```
@@ -4912,7 +4912,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParametersCapacityProviderStrategyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsrule"
 
 eventsrule.NewEventsRuleTargetsEcsParametersCapacityProviderStrategyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) EventsRuleTargetsEcsParametersCapacityProviderStrategyOutputReference
 ```
@@ -5266,7 +5266,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParametersNetworkConfigurationAwsVpcConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsrule"
 
 eventsrule.NewEventsRuleTargetsEcsParametersNetworkConfigurationAwsVpcConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) EventsRuleTargetsEcsParametersNetworkConfigurationAwsVpcConfigurationOutputReference
 ```
@@ -5602,7 +5602,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParametersNetworkConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsrule"
 
 eventsrule.NewEventsRuleTargetsEcsParametersNetworkConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) EventsRuleTargetsEcsParametersNetworkConfigurationOutputReference
 ```
@@ -5893,7 +5893,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsrule"
 
 eventsrule.NewEventsRuleTargetsEcsParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) EventsRuleTargetsEcsParametersOutputReference
 ```
@@ -6613,7 +6613,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParametersPlacementConstraintsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsrule"
 
 eventsrule.NewEventsRuleTargetsEcsParametersPlacementConstraintsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) EventsRuleTargetsEcsParametersPlacementConstraintsList
 ```
@@ -6773,7 +6773,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParametersPlacementConstraintsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsrule"
 
 eventsrule.NewEventsRuleTargetsEcsParametersPlacementConstraintsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) EventsRuleTargetsEcsParametersPlacementConstraintsOutputReference
 ```
@@ -7098,7 +7098,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParametersPlacementStrategiesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsrule"
 
 eventsrule.NewEventsRuleTargetsEcsParametersPlacementStrategiesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) EventsRuleTargetsEcsParametersPlacementStrategiesList
 ```
@@ -7258,7 +7258,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParametersPlacementStrategiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsrule"
 
 eventsrule.NewEventsRuleTargetsEcsParametersPlacementStrategiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) EventsRuleTargetsEcsParametersPlacementStrategiesOutputReference
 ```
@@ -7583,7 +7583,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParametersTagListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsrule"
 
 eventsrule.NewEventsRuleTargetsEcsParametersTagListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) EventsRuleTargetsEcsParametersTagListStructList
 ```
@@ -7743,7 +7743,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsRule.EventsRuleTargetsEcsParametersTagListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsrule"
 
 eventsrule.NewEventsRuleTargetsEcsParametersTagListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) EventsRuleTargetsEcsParametersTagListStructOutputReference
 ```
@@ -8068,7 +8068,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsRule.EventsRuleTargetsHttpParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsrule"
 
 eventsrule.NewEventsRuleTargetsHttpParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) EventsRuleTargetsHttpParametersOutputReference
 ```
@@ -8404,7 +8404,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsRule.EventsRuleTargetsInputTransformerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsrule"
 
 eventsrule.NewEventsRuleTargetsInputTransformerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) EventsRuleTargetsInputTransformerOutputReference
 ```
@@ -8711,7 +8711,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsRule.EventsRuleTargetsKinesisParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsrule"
 
 eventsrule.NewEventsRuleTargetsKinesisParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) EventsRuleTargetsKinesisParametersOutputReference
 ```
@@ -8989,7 +8989,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsRule.EventsRuleTargetsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsrule"
 
 eventsrule.NewEventsRuleTargetsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) EventsRuleTargetsList
 ```
@@ -9149,7 +9149,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsRule.EventsRuleTargetsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsrule"
 
 eventsrule.NewEventsRuleTargetsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) EventsRuleTargetsOutputReference
 ```
@@ -10065,7 +10065,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsRule.EventsRuleTargetsRedshiftDataParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsrule"
 
 eventsrule.NewEventsRuleTargetsRedshiftDataParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) EventsRuleTargetsRedshiftDataParametersOutputReference
 ```
@@ -10517,7 +10517,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsRule.EventsRuleTargetsRetryPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsrule"
 
 eventsrule.NewEventsRuleTargetsRetryPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) EventsRuleTargetsRetryPolicyOutputReference
 ```
@@ -10824,7 +10824,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsRule.EventsRuleTargetsRunCommandParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsrule"
 
 eventsrule.NewEventsRuleTargetsRunCommandParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) EventsRuleTargetsRunCommandParametersOutputReference
 ```
@@ -11115,7 +11115,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsRule.EventsRuleTargetsRunCommandParametersRunCommandTargetsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsrule"
 
 eventsrule.NewEventsRuleTargetsRunCommandParametersRunCommandTargetsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) EventsRuleTargetsRunCommandParametersRunCommandTargetsList
 ```
@@ -11275,7 +11275,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsRule.EventsRuleTargetsRunCommandParametersRunCommandTargetsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsrule"
 
 eventsrule.NewEventsRuleTargetsRunCommandParametersRunCommandTargetsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) EventsRuleTargetsRunCommandParametersRunCommandTargetsOutputReference
 ```
@@ -11600,7 +11600,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsRule.EventsRuleTargetsSageMakerPipelineParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsrule"
 
 eventsrule.NewEventsRuleTargetsSageMakerPipelineParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) EventsRuleTargetsSageMakerPipelineParametersOutputReference
 ```
@@ -11891,7 +11891,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsRule.EventsRuleTargetsSageMakerPipelineParametersPipelineParameterListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsrule"
 
 eventsrule.NewEventsRuleTargetsSageMakerPipelineParametersPipelineParameterListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) EventsRuleTargetsSageMakerPipelineParametersPipelineParameterListStructList
 ```
@@ -12051,7 +12051,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsRule.EventsRuleTargetsSageMakerPipelineParametersPipelineParameterListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsrule"
 
 eventsrule.NewEventsRuleTargetsSageMakerPipelineParametersPipelineParameterListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) EventsRuleTargetsSageMakerPipelineParametersPipelineParameterListStructOutputReference
 ```
@@ -12376,7 +12376,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsRule.EventsRuleTargetsSqsParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsrule"
 
 eventsrule.NewEventsRuleTargetsSqsParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) EventsRuleTargetsSqsParametersOutputReference
 ```

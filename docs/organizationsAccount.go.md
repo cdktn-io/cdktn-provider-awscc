@@ -4,12 +4,12 @@
 
 ### OrganizationsAccount <a name="OrganizationsAccount" id="@cdktn/provider-awscc.organizationsAccount.OrganizationsAccount"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/organizations_account awscc_organizations_account}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/organizations_account awscc_organizations_account}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.organizationsAccount.OrganizationsAccount.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/organizationsaccount"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/organizationsaccount"
 
 organizationsaccount.NewOrganizationsAccount(scope Construct, id *string, config OrganizationsAccountConfig) OrganizationsAccount
 ```
@@ -434,7 +434,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.organizationsAccount.OrganizationsAccount.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/organizationsaccount"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/organizationsaccount"
 
 organizationsaccount.OrganizationsAccount_IsConstruct(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.organizationsAccount.OrganizationsAccount.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/organizationsaccount"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/organizationsaccount"
 
 organizationsaccount.OrganizationsAccount_IsTerraformElement(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ organizationsaccount.OrganizationsAccount_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.organizationsAccount.OrganizationsAccount.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/organizationsaccount"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/organizationsaccount"
 
 organizationsaccount.OrganizationsAccount_IsTerraformResource(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ organizationsaccount.OrganizationsAccount_IsTerraformResource(x interface{}) *bo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.organizationsAccount.OrganizationsAccount.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/organizationsaccount"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/organizationsaccount"
 
 organizationsaccount.OrganizationsAccount_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -523,7 +523,7 @@ The construct id used in the generated config for the OrganizationsAccount to im
 
 The id of the existing OrganizationsAccount that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/organizations_account#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/organizations_account#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -921,7 +921,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.organizationsAccount.OrganizationsAccountConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/organizationsaccount"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/organizationsaccount"
 
 &organizationsaccount.OrganizationsAccountConfig {
 	Connection: interface{},
@@ -1038,7 +1038,7 @@ AccountName *string
 
 The friendly name of the member account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/organizations_account#account_name OrganizationsAccount#account_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/organizations_account#account_name OrganizationsAccount#account_name}
 
 ---
 
@@ -1052,7 +1052,7 @@ Email *string
 
 The email address of the owner to assign to the new member account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/organizations_account#email OrganizationsAccount#email}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/organizations_account#email OrganizationsAccount#email}
 
 ---
 
@@ -1068,7 +1068,7 @@ List of parent nodes for the member account.
 
 Currently only one parent at a time is supported. Default is root.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/organizations_account#parent_ids OrganizationsAccount#parent_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/organizations_account#parent_ids OrganizationsAccount#parent_ids}
 
 ---
 
@@ -1084,7 +1084,7 @@ The name of an IAM role that AWS Organizations automatically preconfigures in th
 
 Default name is OrganizationAccountAccessRole if not specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/organizations_account#role_name OrganizationsAccount#role_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/organizations_account#role_name OrganizationsAccount#role_name}
 
 ---
 
@@ -1100,7 +1100,7 @@ A list of tags that you want to attach to the newly created account.
 
 For each tag in the list, you must specify both a tag key and a value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/organizations_account#tags OrganizationsAccount#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/organizations_account#tags OrganizationsAccount#tags}
 
 ---
 
@@ -1109,7 +1109,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.organizationsAccount.OrganizationsAccountTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/organizationsaccount"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/organizationsaccount"
 
 &organizationsaccount.OrganizationsAccountTags {
 	Key: *string,
@@ -1136,7 +1136,7 @@ Key *string
 
 The key identifier, or name, of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/organizations_account#key OrganizationsAccount#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/organizations_account#key OrganizationsAccount#key}
 
 ---
 
@@ -1152,7 +1152,7 @@ The string value that's associated with the key of the tag.
 
 You can set the value of a tag to an empty string, but you can't set the value of a tag to null.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/organizations_account#value OrganizationsAccount#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/organizations_account#value OrganizationsAccount#value}
 
 ---
 
@@ -1163,7 +1163,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.organizationsAccount.OrganizationsAccountTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/organizationsaccount"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/organizationsaccount"
 
 organizationsaccount.NewOrganizationsAccountTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OrganizationsAccountTagsList
 ```
@@ -1323,7 +1323,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.organizationsAccount.OrganizationsAccountTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/organizationsaccount"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/organizationsaccount"
 
 organizationsaccount.NewOrganizationsAccountTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OrganizationsAccountTagsOutputReference
 ```

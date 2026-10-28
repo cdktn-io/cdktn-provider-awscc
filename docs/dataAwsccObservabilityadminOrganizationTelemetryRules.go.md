@@ -4,12 +4,12 @@
 
 ### DataAwsccObservabilityadminOrganizationTelemetryRules <a name="DataAwsccObservabilityadminOrganizationTelemetryRules" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationTelemetryRules.DataAwsccObservabilityadminOrganizationTelemetryRules"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/observabilityadmin_organization_telemetry_rules awscc_observabilityadmin_organization_telemetry_rules}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/observabilityadmin_organization_telemetry_rules awscc_observabilityadmin_organization_telemetry_rules}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationTelemetryRules.DataAwsccObservabilityadminOrganizationTelemetryRules.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationtelemetryrules"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationtelemetryrules"
 
 dataawsccobservabilityadminorganizationtelemetryrules.NewDataAwsccObservabilityadminOrganizationTelemetryRules(scope Construct, id *string, config DataAwsccObservabilityadminOrganizationTelemetryRulesConfig) DataAwsccObservabilityadminOrganizationTelemetryRules
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationTelemetryRules.DataAwsccObservabilityadminOrganizationTelemetryRules.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationtelemetryrules"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationtelemetryrules"
 
 dataawsccobservabilityadminorganizationtelemetryrules.DataAwsccObservabilityadminOrganizationTelemetryRules_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationTelemetryRules.DataAwsccObservabilityadminOrganizationTelemetryRules.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationtelemetryrules"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationtelemetryrules"
 
 dataawsccobservabilityadminorganizationtelemetryrules.DataAwsccObservabilityadminOrganizationTelemetryRules_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccobservabilityadminorganizationtelemetryrules.DataAwsccObservabilityadmi
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationTelemetryRules.DataAwsccObservabilityadminOrganizationTelemetryRules.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationtelemetryrules"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationtelemetryrules"
 
 dataawsccobservabilityadminorganizationtelemetryrules.DataAwsccObservabilityadminOrganizationTelemetryRules_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccobservabilityadminorganizationtelemetryrules.DataAwsccObservabilityadmi
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationTelemetryRules.DataAwsccObservabilityadminOrganizationTelemetryRules.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationtelemetryrules"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationtelemetryrules"
 
 dataawsccobservabilityadminorganizationtelemetryrules.DataAwsccObservabilityadminOrganizationTelemetryRules_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccObservabilityadmi
 
 The id of the existing DataAwsccObservabilityadminOrganizationTelemetryRules that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/observabilityadmin_organization_telemetry_rules#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/observabilityadmin_organization_telemetry_rules#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccObservabilityadminOrganizationTelemetryRules.DataAwsccObservabilityadminOrganizationTelemetryRulesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadminorganizationtelemetryrules"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadminorganizationtelemetryrules"
 
 &dataawsccobservabilityadminorganizationtelemetryrules.DataAwsccObservabilityadminOrganizationTelemetryRulesConfig {
 	Connection: interface{},

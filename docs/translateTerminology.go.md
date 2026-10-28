@@ -4,12 +4,12 @@
 
 ### TranslateTerminology <a name="TranslateTerminology" id="@cdktn/provider-awscc.translateTerminology.TranslateTerminology"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/translate_terminology awscc_translate_terminology}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/translate_terminology awscc_translate_terminology}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.translateTerminology.TranslateTerminology.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/translateterminology"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/translateterminology"
 
 translateterminology.NewTranslateTerminology(scope Construct, id *string, config TranslateTerminologyConfig) TranslateTerminology
 ```
@@ -474,7 +474,7 @@ func ResetTerminologyData()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.translateTerminology.TranslateTerminology.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/translateterminology"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/translateterminology"
 
 translateterminology.TranslateTerminology_IsConstruct(x interface{}) *bool
 ```
@@ -506,7 +506,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.translateTerminology.TranslateTerminology.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/translateterminology"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/translateterminology"
 
 translateterminology.TranslateTerminology_IsTerraformElement(x interface{}) *bool
 ```
@@ -520,7 +520,7 @@ translateterminology.TranslateTerminology_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.translateTerminology.TranslateTerminology.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/translateterminology"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/translateterminology"
 
 translateterminology.TranslateTerminology_IsTerraformResource(x interface{}) *bool
 ```
@@ -534,7 +534,7 @@ translateterminology.TranslateTerminology_IsTerraformResource(x interface{}) *bo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.translateTerminology.TranslateTerminology.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/translateterminology"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/translateterminology"
 
 translateterminology.TranslateTerminology_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -563,7 +563,7 @@ The construct id used in the generated config for the TranslateTerminology to im
 
 The id of the existing TranslateTerminology that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/translate_terminology#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/translate_terminology#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1005,7 +1005,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.translateTerminology.TranslateTerminologyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/translateterminology"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/translateterminology"
 
 &translateterminology.TranslateTerminologyConfig {
 	Connection: interface{},
@@ -1017,10 +1017,10 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/translateterminology"
 	Provisioners: *[]interface{},
 	Name: *string,
 	Description: *string,
-	EncryptionKey: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.translateTerminology.TranslateTerminologyEncryptionKey,
+	EncryptionKey: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.translateTerminology.TranslateTerminologyEncryptionKey,
 	MergeStrategy: *string,
 	Tags: interface{},
-	TerminologyData: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.translateTerminology.TranslateTerminologyTerminologyData,
+	TerminologyData: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.translateTerminology.TranslateTerminologyTerminologyData,
 }
 ```
 
@@ -1124,7 +1124,7 @@ Name *string
 
 The name of the custom terminology.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/translate_terminology#name TranslateTerminology#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/translate_terminology#name TranslateTerminology#name}
 
 ---
 
@@ -1138,7 +1138,7 @@ Description *string
 
 The description of the custom terminology.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/translate_terminology#description TranslateTerminology#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/translate_terminology#description TranslateTerminology#description}
 
 ---
 
@@ -1152,7 +1152,7 @@ EncryptionKey TranslateTerminologyEncryptionKey
 
 The encryption key for the custom terminology.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/translate_terminology#encryption_key TranslateTerminology#encryption_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/translate_terminology#encryption_key TranslateTerminology#encryption_key}
 
 ---
 
@@ -1166,7 +1166,7 @@ MergeStrategy *string
 
 The merge strategy for the custom terminology. Currently only OVERWRITE is supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/translate_terminology#merge_strategy TranslateTerminology#merge_strategy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/translate_terminology#merge_strategy TranslateTerminology#merge_strategy}
 
 ---
 
@@ -1180,7 +1180,7 @@ Tags interface{}
 
 Tags associated with the terminology.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/translate_terminology#tags TranslateTerminology#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/translate_terminology#tags TranslateTerminology#tags}
 
 ---
 
@@ -1194,7 +1194,7 @@ TerminologyData TranslateTerminologyTerminologyData
 
 The terminology data for the custom terminology being imported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/translate_terminology#terminology_data TranslateTerminology#terminology_data}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/translate_terminology#terminology_data TranslateTerminology#terminology_data}
 
 ---
 
@@ -1203,7 +1203,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.translateTerminology.TranslateTerminologyEncryptionKey.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/translateterminology"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/translateterminology"
 
 &translateterminology.TranslateTerminologyEncryptionKey {
 	Id: *string,
@@ -1230,7 +1230,7 @@ Id *string
 
 The Amazon Resource Name (ARN) of the encryption key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/translate_terminology#id TranslateTerminology#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/translate_terminology#id TranslateTerminology#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1247,7 +1247,7 @@ Type *string
 
 The type of encryption key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/translate_terminology#type TranslateTerminology#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/translate_terminology#type TranslateTerminology#type}
 
 ---
 
@@ -1256,7 +1256,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.translateTerminology.TranslateTerminologyTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/translateterminology"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/translateterminology"
 
 &translateterminology.TranslateTerminologyTags {
 	Key: *string,
@@ -1283,7 +1283,7 @@ Key *string
 
 The key of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/translate_terminology#key TranslateTerminology#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/translate_terminology#key TranslateTerminology#key}
 
 ---
 
@@ -1297,7 +1297,7 @@ Value *string
 
 The value of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/translate_terminology#value TranslateTerminology#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/translate_terminology#value TranslateTerminology#value}
 
 ---
 
@@ -1306,7 +1306,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.translateTerminology.TranslateTerminologyTerminologyData.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/translateterminology"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/translateterminology"
 
 &translateterminology.TranslateTerminologyTerminologyData {
 	Directionality: *string,
@@ -1335,7 +1335,7 @@ Directionality *string
 
 The directionality of the terminology resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/translate_terminology#directionality TranslateTerminology#directionality}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/translate_terminology#directionality TranslateTerminology#directionality}
 
 ---
 
@@ -1349,7 +1349,7 @@ File *string
 
 The file containing the custom terminology data, base64-encoded.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/translate_terminology#file TranslateTerminology#file}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/translate_terminology#file TranslateTerminology#file}
 
 ---
 
@@ -1363,7 +1363,7 @@ Format *string
 
 The data format of the custom terminology.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/translate_terminology#format TranslateTerminology#format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/translate_terminology#format TranslateTerminology#format}
 
 ---
 
@@ -1374,7 +1374,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.translateTerminology.TranslateTerminologyEncryptionKeyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/translateterminology"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/translateterminology"
 
 translateterminology.NewTranslateTerminologyEncryptionKeyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) TranslateTerminologyEncryptionKeyOutputReference
 ```
@@ -1681,7 +1681,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.translateTerminology.TranslateTerminologyTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/translateterminology"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/translateterminology"
 
 translateterminology.NewTranslateTerminologyTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) TranslateTerminologyTagsList
 ```
@@ -1841,7 +1841,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.translateTerminology.TranslateTerminologyTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/translateterminology"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/translateterminology"
 
 translateterminology.NewTranslateTerminologyTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) TranslateTerminologyTagsOutputReference
 ```
@@ -2166,7 +2166,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.translateTerminology.TranslateTerminologyTerminologyDataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/translateterminology"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/translateterminology"
 
 translateterminology.NewTranslateTerminologyTerminologyDataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) TranslateTerminologyTerminologyDataOutputReference
 ```

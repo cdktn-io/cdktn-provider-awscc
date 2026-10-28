@@ -4,12 +4,12 @@
 
 ### DataAwsccGlueMlTransform <a name="DataAwsccGlueMlTransform" id="@cdktn/provider-awscc.dataAwsccGlueMlTransform.DataAwsccGlueMlTransform"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/glue_ml_transform awscc_glue_ml_transform}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/glue_ml_transform awscc_glue_ml_transform}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueMlTransform.DataAwsccGlueMlTransform.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluemltransform"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluemltransform"
 
 dataawsccgluemltransform.NewDataAwsccGlueMlTransform(scope Construct, id *string, config DataAwsccGlueMlTransformConfig) DataAwsccGlueMlTransform
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccGlueMlTransform.DataAwsccGlueMlTransform.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluemltransform"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluemltransform"
 
 dataawsccgluemltransform.DataAwsccGlueMlTransform_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccGlueMlTransform.DataAwsccGlueMlTransform.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluemltransform"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluemltransform"
 
 dataawsccgluemltransform.DataAwsccGlueMlTransform_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccgluemltransform.DataAwsccGlueMlTransform_IsTerraformElement(x interface
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccGlueMlTransform.DataAwsccGlueMlTransform.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluemltransform"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluemltransform"
 
 dataawsccgluemltransform.DataAwsccGlueMlTransform_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccgluemltransform.DataAwsccGlueMlTransform_IsTerraformDataSource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccGlueMlTransform.DataAwsccGlueMlTransform.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluemltransform"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluemltransform"
 
 dataawsccgluemltransform.DataAwsccGlueMlTransform_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccGlueMlTransform t
 
 The id of the existing DataAwsccGlueMlTransform that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/glue_ml_transform#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/glue_ml_transform#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -741,7 +741,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueMlTransform.DataAwsccGlueMlTransformConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluemltransform"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluemltransform"
 
 &dataawsccgluemltransform.DataAwsccGlueMlTransformConfig {
 	Connection: interface{},
@@ -850,7 +850,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/glue_ml_transform#id DataAwsccGlueMlTransform#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/glue_ml_transform#id DataAwsccGlueMlTransform#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -862,7 +862,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueMlTransform.DataAwsccGlueMlTransformInputRecordTables.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluemltransform"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluemltransform"
 
 &dataawsccgluemltransform.DataAwsccGlueMlTransformInputRecordTables {
 
@@ -875,7 +875,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluemltransfo
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueMlTransform.DataAwsccGlueMlTransformInputRecordTablesGlueTables.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluemltransform"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluemltransform"
 
 &dataawsccgluemltransform.DataAwsccGlueMlTransformInputRecordTablesGlueTables {
 
@@ -888,7 +888,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluemltransfo
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueMlTransform.DataAwsccGlueMlTransformTransformEncryption.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluemltransform"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluemltransform"
 
 &dataawsccgluemltransform.DataAwsccGlueMlTransformTransformEncryption {
 
@@ -901,7 +901,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluemltransfo
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueMlTransform.DataAwsccGlueMlTransformTransformEncryptionMlUserDataEncryption.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluemltransform"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluemltransform"
 
 &dataawsccgluemltransform.DataAwsccGlueMlTransformTransformEncryptionMlUserDataEncryption {
 
@@ -914,7 +914,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluemltransfo
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueMlTransform.DataAwsccGlueMlTransformTransformParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluemltransform"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluemltransform"
 
 &dataawsccgluemltransform.DataAwsccGlueMlTransformTransformParameters {
 
@@ -927,7 +927,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluemltransfo
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueMlTransform.DataAwsccGlueMlTransformTransformParametersFindMatchesParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluemltransform"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluemltransform"
 
 &dataawsccgluemltransform.DataAwsccGlueMlTransformTransformParametersFindMatchesParameters {
 
@@ -942,7 +942,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluemltransfo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueMlTransform.DataAwsccGlueMlTransformInputRecordTablesGlueTablesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluemltransform"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluemltransform"
 
 dataawsccgluemltransform.NewDataAwsccGlueMlTransformInputRecordTablesGlueTablesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccGlueMlTransformInputRecordTablesGlueTablesList
 ```
@@ -1091,7 +1091,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueMlTransform.DataAwsccGlueMlTransformInputRecordTablesGlueTablesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluemltransform"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluemltransform"
 
 dataawsccgluemltransform.NewDataAwsccGlueMlTransformInputRecordTablesGlueTablesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccGlueMlTransformInputRecordTablesGlueTablesOutputReference
 ```
@@ -1402,7 +1402,7 @@ func InternalValue() DataAwsccGlueMlTransformInputRecordTablesGlueTables
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueMlTransform.DataAwsccGlueMlTransformInputRecordTablesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluemltransform"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluemltransform"
 
 dataawsccgluemltransform.NewDataAwsccGlueMlTransformInputRecordTablesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGlueMlTransformInputRecordTablesOutputReference
 ```
@@ -1662,7 +1662,7 @@ func InternalValue() DataAwsccGlueMlTransformInputRecordTables
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueMlTransform.DataAwsccGlueMlTransformTransformEncryptionMlUserDataEncryptionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluemltransform"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluemltransform"
 
 dataawsccgluemltransform.NewDataAwsccGlueMlTransformTransformEncryptionMlUserDataEncryptionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGlueMlTransformTransformEncryptionMlUserDataEncryptionOutputReference
 ```
@@ -1933,7 +1933,7 @@ func InternalValue() DataAwsccGlueMlTransformTransformEncryptionMlUserDataEncryp
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueMlTransform.DataAwsccGlueMlTransformTransformEncryptionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluemltransform"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluemltransform"
 
 dataawsccgluemltransform.NewDataAwsccGlueMlTransformTransformEncryptionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGlueMlTransformTransformEncryptionOutputReference
 ```
@@ -2204,7 +2204,7 @@ func InternalValue() DataAwsccGlueMlTransformTransformEncryption
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueMlTransform.DataAwsccGlueMlTransformTransformParametersFindMatchesParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluemltransform"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluemltransform"
 
 dataawsccgluemltransform.NewDataAwsccGlueMlTransformTransformParametersFindMatchesParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGlueMlTransformTransformParametersFindMatchesParametersOutputReference
 ```
@@ -2497,7 +2497,7 @@ func InternalValue() DataAwsccGlueMlTransformTransformParametersFindMatchesParam
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueMlTransform.DataAwsccGlueMlTransformTransformParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluemltransform"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluemltransform"
 
 dataawsccgluemltransform.NewDataAwsccGlueMlTransformTransformParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGlueMlTransformTransformParametersOutputReference
 ```

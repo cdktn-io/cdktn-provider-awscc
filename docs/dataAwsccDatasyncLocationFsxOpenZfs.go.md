@@ -4,12 +4,12 @@
 
 ### DataAwsccDatasyncLocationFsxOpenZfs <a name="DataAwsccDatasyncLocationFsxOpenZfs" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxOpenZfs.DataAwsccDatasyncLocationFsxOpenZfs"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datasync_location_fsx_open_zfs awscc_datasync_location_fsx_open_zfs}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datasync_location_fsx_open_zfs awscc_datasync_location_fsx_open_zfs}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxOpenZfs.DataAwsccDatasyncLocationFsxOpenZfs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationfsxopenzfs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationfsxopenzfs"
 
 dataawsccdatasynclocationfsxopenzfs.NewDataAwsccDatasyncLocationFsxOpenZfs(scope Construct, id *string, config DataAwsccDatasyncLocationFsxOpenZfsConfig) DataAwsccDatasyncLocationFsxOpenZfs
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxOpenZfs.DataAwsccDatasyncLocationFsxOpenZfs.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationfsxopenzfs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationfsxopenzfs"
 
 dataawsccdatasynclocationfsxopenzfs.DataAwsccDatasyncLocationFsxOpenZfs_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxOpenZfs.DataAwsccDatasyncLocationFsxOpenZfs.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationfsxopenzfs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationfsxopenzfs"
 
 dataawsccdatasynclocationfsxopenzfs.DataAwsccDatasyncLocationFsxOpenZfs_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccdatasynclocationfsxopenzfs.DataAwsccDatasyncLocationFsxOpenZfs_IsTerraf
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxOpenZfs.DataAwsccDatasyncLocationFsxOpenZfs.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationfsxopenzfs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationfsxopenzfs"
 
 dataawsccdatasynclocationfsxopenzfs.DataAwsccDatasyncLocationFsxOpenZfs_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccdatasynclocationfsxopenzfs.DataAwsccDatasyncLocationFsxOpenZfs_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxOpenZfs.DataAwsccDatasyncLocationFsxOpenZfs.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationfsxopenzfs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationfsxopenzfs"
 
 dataawsccdatasynclocationfsxopenzfs.DataAwsccDatasyncLocationFsxOpenZfs_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDatasyncLocationF
 
 The id of the existing DataAwsccDatasyncLocationFsxOpenZfs that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datasync_location_fsx_open_zfs#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datasync_location_fsx_open_zfs#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -664,7 +664,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxOpenZfs.DataAwsccDatasyncLocationFsxOpenZfsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationfsxopenzfs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationfsxopenzfs"
 
 &dataawsccdatasynclocationfsxopenzfs.DataAwsccDatasyncLocationFsxOpenZfsConfig {
 	Connection: interface{},
@@ -773,7 +773,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datasync_location_fsx_open_zfs#id DataAwsccDatasyncLocationFsxOpenZfs#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datasync_location_fsx_open_zfs#id DataAwsccDatasyncLocationFsxOpenZfs#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -785,7 +785,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxOpenZfs.DataAwsccDatasyncLocationFsxOpenZfsProtocol.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationfsxopenzfs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationfsxopenzfs"
 
 &dataawsccdatasynclocationfsxopenzfs.DataAwsccDatasyncLocationFsxOpenZfsProtocol {
 
@@ -798,7 +798,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxOpenZfs.DataAwsccDatasyncLocationFsxOpenZfsProtocolNfs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationfsxopenzfs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationfsxopenzfs"
 
 &dataawsccdatasynclocationfsxopenzfs.DataAwsccDatasyncLocationFsxOpenZfsProtocolNfs {
 
@@ -811,7 +811,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxOpenZfs.DataAwsccDatasyncLocationFsxOpenZfsProtocolNfsMountOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationfsxopenzfs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationfsxopenzfs"
 
 &dataawsccdatasynclocationfsxopenzfs.DataAwsccDatasyncLocationFsxOpenZfsProtocolNfsMountOptions {
 
@@ -824,7 +824,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxOpenZfs.DataAwsccDatasyncLocationFsxOpenZfsTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationfsxopenzfs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationfsxopenzfs"
 
 &dataawsccdatasynclocationfsxopenzfs.DataAwsccDatasyncLocationFsxOpenZfsTags {
 
@@ -839,7 +839,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxOpenZfs.DataAwsccDatasyncLocationFsxOpenZfsProtocolNfsMountOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationfsxopenzfs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationfsxopenzfs"
 
 dataawsccdatasynclocationfsxopenzfs.NewDataAwsccDatasyncLocationFsxOpenZfsProtocolNfsMountOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatasyncLocationFsxOpenZfsProtocolNfsMountOptionsOutputReference
 ```
@@ -1099,7 +1099,7 @@ func InternalValue() DataAwsccDatasyncLocationFsxOpenZfsProtocolNfsMountOptions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxOpenZfs.DataAwsccDatasyncLocationFsxOpenZfsProtocolNfsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationfsxopenzfs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationfsxopenzfs"
 
 dataawsccdatasynclocationfsxopenzfs.NewDataAwsccDatasyncLocationFsxOpenZfsProtocolNfsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatasyncLocationFsxOpenZfsProtocolNfsOutputReference
 ```
@@ -1359,7 +1359,7 @@ func InternalValue() DataAwsccDatasyncLocationFsxOpenZfsProtocolNfs
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxOpenZfs.DataAwsccDatasyncLocationFsxOpenZfsProtocolOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationfsxopenzfs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationfsxopenzfs"
 
 dataawsccdatasynclocationfsxopenzfs.NewDataAwsccDatasyncLocationFsxOpenZfsProtocolOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatasyncLocationFsxOpenZfsProtocolOutputReference
 ```
@@ -1619,7 +1619,7 @@ func InternalValue() DataAwsccDatasyncLocationFsxOpenZfsProtocol
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxOpenZfs.DataAwsccDatasyncLocationFsxOpenZfsTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationfsxopenzfs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationfsxopenzfs"
 
 dataawsccdatasynclocationfsxopenzfs.NewDataAwsccDatasyncLocationFsxOpenZfsTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDatasyncLocationFsxOpenZfsTagsList
 ```
@@ -1768,7 +1768,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxOpenZfs.DataAwsccDatasyncLocationFsxOpenZfsTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationfsxopenzfs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationfsxopenzfs"
 
 dataawsccdatasynclocationfsxopenzfs.NewDataAwsccDatasyncLocationFsxOpenZfsTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDatasyncLocationFsxOpenZfsTagsOutputReference
 ```

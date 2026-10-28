@@ -4,12 +4,12 @@
 
 ### DataAwsccKafkaconnectWorkerConfigurations <a name="DataAwsccKafkaconnectWorkerConfigurations" id="@cdktn/provider-awscc.dataAwsccKafkaconnectWorkerConfigurations.DataAwsccKafkaconnectWorkerConfigurations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/kafkaconnect_worker_configurations awscc_kafkaconnect_worker_configurations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/kafkaconnect_worker_configurations awscc_kafkaconnect_worker_configurations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKafkaconnectWorkerConfigurations.DataAwsccKafkaconnectWorkerConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectworkerconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectworkerconfigurations"
 
 dataawscckafkaconnectworkerconfigurations.NewDataAwsccKafkaconnectWorkerConfigurations(scope Construct, id *string, config DataAwsccKafkaconnectWorkerConfigurationsConfig) DataAwsccKafkaconnectWorkerConfigurations
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccKafkaconnectWorkerConfigurations.DataAwsccKafkaconnectWorkerConfigurations.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectworkerconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectworkerconfigurations"
 
 dataawscckafkaconnectworkerconfigurations.DataAwsccKafkaconnectWorkerConfigurations_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccKafkaconnectWorkerConfigurations.DataAwsccKafkaconnectWorkerConfigurations.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectworkerconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectworkerconfigurations"
 
 dataawscckafkaconnectworkerconfigurations.DataAwsccKafkaconnectWorkerConfigurations_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscckafkaconnectworkerconfigurations.DataAwsccKafkaconnectWorkerConfigurati
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccKafkaconnectWorkerConfigurations.DataAwsccKafkaconnectWorkerConfigurations.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectworkerconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectworkerconfigurations"
 
 dataawscckafkaconnectworkerconfigurations.DataAwsccKafkaconnectWorkerConfigurations_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscckafkaconnectworkerconfigurations.DataAwsccKafkaconnectWorkerConfigurati
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccKafkaconnectWorkerConfigurations.DataAwsccKafkaconnectWorkerConfigurations.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectworkerconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectworkerconfigurations"
 
 dataawscckafkaconnectworkerconfigurations.DataAwsccKafkaconnectWorkerConfigurations_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccKafkaconnectWorke
 
 The id of the existing DataAwsccKafkaconnectWorkerConfigurations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/kafkaconnect_worker_configurations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/kafkaconnect_worker_configurations#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKafkaconnectWorkerConfigurations.DataAwsccKafkaconnectWorkerConfigurationsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckafkaconnectworkerconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckafkaconnectworkerconfigurations"
 
 &dataawscckafkaconnectworkerconfigurations.DataAwsccKafkaconnectWorkerConfigurationsConfig {
 	Connection: interface{},

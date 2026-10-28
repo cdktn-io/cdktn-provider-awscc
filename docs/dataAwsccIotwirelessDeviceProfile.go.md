@@ -4,12 +4,12 @@
 
 ### DataAwsccIotwirelessDeviceProfile <a name="DataAwsccIotwirelessDeviceProfile" id="@cdktn/provider-awscc.dataAwsccIotwirelessDeviceProfile.DataAwsccIotwirelessDeviceProfile"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotwireless_device_profile awscc_iotwireless_device_profile}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotwireless_device_profile awscc_iotwireless_device_profile}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotwirelessDeviceProfile.DataAwsccIotwirelessDeviceProfile.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelessdeviceprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelessdeviceprofile"
 
 dataawscciotwirelessdeviceprofile.NewDataAwsccIotwirelessDeviceProfile(scope Construct, id *string, config DataAwsccIotwirelessDeviceProfileConfig) DataAwsccIotwirelessDeviceProfile
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIotwirelessDeviceProfile.DataAwsccIotwirelessDeviceProfile.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelessdeviceprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelessdeviceprofile"
 
 dataawscciotwirelessdeviceprofile.DataAwsccIotwirelessDeviceProfile_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIotwirelessDeviceProfile.DataAwsccIotwirelessDeviceProfile.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelessdeviceprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelessdeviceprofile"
 
 dataawscciotwirelessdeviceprofile.DataAwsccIotwirelessDeviceProfile_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciotwirelessdeviceprofile.DataAwsccIotwirelessDeviceProfile_IsTerraformE
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIotwirelessDeviceProfile.DataAwsccIotwirelessDeviceProfile.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelessdeviceprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelessdeviceprofile"
 
 dataawscciotwirelessdeviceprofile.DataAwsccIotwirelessDeviceProfile_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciotwirelessdeviceprofile.DataAwsccIotwirelessDeviceProfile_IsTerraformD
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIotwirelessDeviceProfile.DataAwsccIotwirelessDeviceProfile.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelessdeviceprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelessdeviceprofile"
 
 dataawscciotwirelessdeviceprofile.DataAwsccIotwirelessDeviceProfile_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotwirelessDevice
 
 The id of the existing DataAwsccIotwirelessDeviceProfile that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotwireless_device_profile#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotwireless_device_profile#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -642,7 +642,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotwirelessDeviceProfile.DataAwsccIotwirelessDeviceProfileConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelessdeviceprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelessdeviceprofile"
 
 &dataawscciotwirelessdeviceprofile.DataAwsccIotwirelessDeviceProfileConfig {
 	Connection: interface{},
@@ -751,7 +751,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotwireless_device_profile#id DataAwsccIotwirelessDeviceProfile#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotwireless_device_profile#id DataAwsccIotwirelessDeviceProfile#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -763,7 +763,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotwirelessDeviceProfile.DataAwsccIotwirelessDeviceProfileLoRaWan.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelessdeviceprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelessdeviceprofile"
 
 &dataawscciotwirelessdeviceprofile.DataAwsccIotwirelessDeviceProfileLoRaWan {
 
@@ -776,7 +776,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelessde
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotwirelessDeviceProfile.DataAwsccIotwirelessDeviceProfileTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelessdeviceprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelessdeviceprofile"
 
 &dataawscciotwirelessdeviceprofile.DataAwsccIotwirelessDeviceProfileTags {
 
@@ -791,7 +791,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelessde
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotwirelessDeviceProfile.DataAwsccIotwirelessDeviceProfileLoRaWanOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelessdeviceprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelessdeviceprofile"
 
 dataawscciotwirelessdeviceprofile.NewDataAwsccIotwirelessDeviceProfileLoRaWanOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotwirelessDeviceProfileLoRaWanOutputReference
 ```
@@ -1249,7 +1249,7 @@ func InternalValue() DataAwsccIotwirelessDeviceProfileLoRaWan
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotwirelessDeviceProfile.DataAwsccIotwirelessDeviceProfileTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelessdeviceprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelessdeviceprofile"
 
 dataawscciotwirelessdeviceprofile.NewDataAwsccIotwirelessDeviceProfileTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIotwirelessDeviceProfileTagsList
 ```
@@ -1398,7 +1398,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotwirelessDeviceProfile.DataAwsccIotwirelessDeviceProfileTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelessdeviceprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelessdeviceprofile"
 
 dataawscciotwirelessdeviceprofile.NewDataAwsccIotwirelessDeviceProfileTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIotwirelessDeviceProfileTagsOutputReference
 ```

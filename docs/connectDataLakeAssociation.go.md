@@ -4,12 +4,12 @@
 
 ### ConnectDataLakeAssociation <a name="ConnectDataLakeAssociation" id="@cdktn/provider-awscc.connectDataLakeAssociation.ConnectDataLakeAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_data_lake_association awscc_connect_data_lake_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_data_lake_association awscc_connect_data_lake_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectDataLakeAssociation.ConnectDataLakeAssociation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectdatalakeassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectdatalakeassociation"
 
 connectdatalakeassociation.NewConnectDataLakeAssociation(scope Construct, id *string, config ConnectDataLakeAssociationConfig) ConnectDataLakeAssociation
 ```
@@ -407,7 +407,7 @@ func ResetTargetAccountId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.connectDataLakeAssociation.ConnectDataLakeAssociation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectdatalakeassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectdatalakeassociation"
 
 connectdatalakeassociation.ConnectDataLakeAssociation_IsConstruct(x interface{}) *bool
 ```
@@ -439,7 +439,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.connectDataLakeAssociation.ConnectDataLakeAssociation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectdatalakeassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectdatalakeassociation"
 
 connectdatalakeassociation.ConnectDataLakeAssociation_IsTerraformElement(x interface{}) *bool
 ```
@@ -453,7 +453,7 @@ connectdatalakeassociation.ConnectDataLakeAssociation_IsTerraformElement(x inter
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.connectDataLakeAssociation.ConnectDataLakeAssociation.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectdatalakeassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectdatalakeassociation"
 
 connectdatalakeassociation.ConnectDataLakeAssociation_IsTerraformResource(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ connectdatalakeassociation.ConnectDataLakeAssociation_IsTerraformResource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.connectDataLakeAssociation.ConnectDataLakeAssociation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectdatalakeassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectdatalakeassociation"
 
 connectdatalakeassociation.ConnectDataLakeAssociation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -496,7 +496,7 @@ The construct id used in the generated config for the ConnectDataLakeAssociation
 
 The id of the existing ConnectDataLakeAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_data_lake_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_data_lake_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -795,7 +795,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectDataLakeAssociation.ConnectDataLakeAssociationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectdatalakeassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectdatalakeassociation"
 
 &connectdatalakeassociation.ConnectDataLakeAssociationConfig {
 	Connection: interface{},
@@ -908,7 +908,7 @@ DataSetId *string
 
 The identifier of the analytics data set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_data_lake_association#data_set_id ConnectDataLakeAssociation#data_set_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_data_lake_association#data_set_id ConnectDataLakeAssociation#data_set_id}
 
 ---
 
@@ -922,7 +922,7 @@ InstanceId *string
 
 The identifier of the Amazon Connect instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_data_lake_association#instance_id ConnectDataLakeAssociation#instance_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_data_lake_association#instance_id ConnectDataLakeAssociation#instance_id}
 
 ---
 
@@ -936,7 +936,7 @@ TargetAccountId *string
 
 The identifier of the target account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_data_lake_association#target_account_id ConnectDataLakeAssociation#target_account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_data_lake_association#target_account_id ConnectDataLakeAssociation#target_account_id}
 
 ---
 

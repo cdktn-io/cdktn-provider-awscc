@@ -4,12 +4,12 @@
 
 ### DataAwsccRobomakerSimulationApplicationVersion <a name="DataAwsccRobomakerSimulationApplicationVersion" id="@cdktn/provider-awscc.dataAwsccRobomakerSimulationApplicationVersion.DataAwsccRobomakerSimulationApplicationVersion"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/robomaker_simulation_application_version awscc_robomaker_simulation_application_version}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/robomaker_simulation_application_version awscc_robomaker_simulation_application_version}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRobomakerSimulationApplicationVersion.DataAwsccRobomakerSimulationApplicationVersion.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrobomakersimulationapplicationversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrobomakersimulationapplicationversion"
 
 dataawsccrobomakersimulationapplicationversion.NewDataAwsccRobomakerSimulationApplicationVersion(scope Construct, id *string, config DataAwsccRobomakerSimulationApplicationVersionConfig) DataAwsccRobomakerSimulationApplicationVersion
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccRobomakerSimulationApplicationVersion.DataAwsccRobomakerSimulationApplicationVersion.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrobomakersimulationapplicationversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrobomakersimulationapplicationversion"
 
 dataawsccrobomakersimulationapplicationversion.DataAwsccRobomakerSimulationApplicationVersion_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccRobomakerSimulationApplicationVersion.DataAwsccRobomakerSimulationApplicationVersion.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrobomakersimulationapplicationversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrobomakersimulationapplicationversion"
 
 dataawsccrobomakersimulationapplicationversion.DataAwsccRobomakerSimulationApplicationVersion_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccrobomakersimulationapplicationversion.DataAwsccRobomakerSimulationAppli
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccRobomakerSimulationApplicationVersion.DataAwsccRobomakerSimulationApplicationVersion.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrobomakersimulationapplicationversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrobomakersimulationapplicationversion"
 
 dataawsccrobomakersimulationapplicationversion.DataAwsccRobomakerSimulationApplicationVersion_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccrobomakersimulationapplicationversion.DataAwsccRobomakerSimulationAppli
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccRobomakerSimulationApplicationVersion.DataAwsccRobomakerSimulationApplicationVersion.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrobomakersimulationapplicationversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrobomakersimulationapplicationversion"
 
 dataawsccrobomakersimulationapplicationversion.DataAwsccRobomakerSimulationApplicationVersion_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRobomakerSimulati
 
 The id of the existing DataAwsccRobomakerSimulationApplicationVersion that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/robomaker_simulation_application_version#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/robomaker_simulation_application_version#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -631,7 +631,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRobomakerSimulationApplicationVersion.DataAwsccRobomakerSimulationApplicationVersionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrobomakersimulationapplicationversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrobomakersimulationapplicationversion"
 
 &dataawsccrobomakersimulationapplicationversion.DataAwsccRobomakerSimulationApplicationVersionConfig {
 	Connection: interface{},
@@ -740,7 +740,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/robomaker_simulation_application_version#id DataAwsccRobomakerSimulationApplicationVersion#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/robomaker_simulation_application_version#id DataAwsccRobomakerSimulationApplicationVersion#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

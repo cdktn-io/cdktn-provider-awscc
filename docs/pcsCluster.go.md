@@ -4,12 +4,12 @@
 
 ### PcsCluster <a name="PcsCluster" id="@cdktn/provider-awscc.pcsCluster.PcsCluster"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pcs_cluster awscc_pcs_cluster}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pcs_cluster awscc_pcs_cluster}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.pcsCluster.PcsCluster.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pcscluster"
 
 pcscluster.NewPcsCluster(scope Construct, id *string, config PcsClusterConfig) PcsCluster
 ```
@@ -460,7 +460,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.pcsCluster.PcsCluster.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pcscluster"
 
 pcscluster.PcsCluster_IsConstruct(x interface{}) *bool
 ```
@@ -492,7 +492,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.pcsCluster.PcsCluster.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pcscluster"
 
 pcscluster.PcsCluster_IsTerraformElement(x interface{}) *bool
 ```
@@ -506,7 +506,7 @@ pcscluster.PcsCluster_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.pcsCluster.PcsCluster.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pcscluster"
 
 pcscluster.PcsCluster_IsTerraformResource(x interface{}) *bool
 ```
@@ -520,7 +520,7 @@ pcscluster.PcsCluster_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.pcsCluster.PcsCluster.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pcscluster"
 
 pcscluster.PcsCluster_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -549,7 +549,7 @@ The construct id used in the generated config for the PcsCluster to import.
 
 The id of the existing PcsCluster that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pcs_cluster#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pcs_cluster#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -947,7 +947,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.pcsCluster.PcsClusterConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pcscluster"
 
 &pcscluster.PcsClusterConfig {
 	Connection: interface{},
@@ -957,11 +957,11 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcscluster"
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	Networking: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.pcsCluster.PcsClusterNetworking,
-	Scheduler: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.pcsCluster.PcsClusterScheduler,
+	Networking: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.pcsCluster.PcsClusterNetworking,
+	Scheduler: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.pcsCluster.PcsClusterScheduler,
 	Size: *string,
 	Name: *string,
-	SlurmConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.pcsCluster.PcsClusterSlurmConfiguration,
+	SlurmConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.pcsCluster.PcsClusterSlurmConfiguration,
 	Tags: *map[string]*string,
 }
 ```
@@ -1066,7 +1066,7 @@ Networking PcsClusterNetworking
 
 The networking configuration for the cluster's control plane.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pcs_cluster#networking PcsCluster#networking}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pcs_cluster#networking PcsCluster#networking}
 
 ---
 
@@ -1080,7 +1080,7 @@ Scheduler PcsClusterScheduler
 
 The cluster management and job scheduling software associated with the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pcs_cluster#scheduler PcsCluster#scheduler}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pcs_cluster#scheduler PcsCluster#scheduler}
 
 ---
 
@@ -1094,7 +1094,7 @@ Size *string
 
 The size of the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pcs_cluster#size PcsCluster#size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pcs_cluster#size PcsCluster#size}
 
 ---
 
@@ -1108,7 +1108,7 @@ Name *string
 
 The name that identifies the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pcs_cluster#name PcsCluster#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pcs_cluster#name PcsCluster#name}
 
 ---
 
@@ -1122,7 +1122,7 @@ SlurmConfiguration PcsClusterSlurmConfiguration
 
 Additional options related to the Slurm scheduler.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pcs_cluster#slurm_configuration PcsCluster#slurm_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pcs_cluster#slurm_configuration PcsCluster#slurm_configuration}
 
 ---
 
@@ -1138,7 +1138,7 @@ Tags *map[string]*string
 
 Each tag consists of a tag key and tag value. The tag value is optional and can be an empty string.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pcs_cluster#tags PcsCluster#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pcs_cluster#tags PcsCluster#tags}
 
 ---
 
@@ -1147,7 +1147,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.pcsCluster.PcsClusterEndpoints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pcscluster"
 
 &pcscluster.PcsClusterEndpoints {
 
@@ -1160,7 +1160,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcscluster"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.pcsCluster.PcsClusterErrorInfo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pcscluster"
 
 &pcscluster.PcsClusterErrorInfo {
 
@@ -1173,7 +1173,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcscluster"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.pcsCluster.PcsClusterNetworking.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pcscluster"
 
 &pcscluster.PcsClusterNetworking {
 	NetworkType: *string,
@@ -1202,7 +1202,7 @@ NetworkType *string
 
 The IP of the cluster (IPV4 or IPV6).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pcs_cluster#network_type PcsCluster#network_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pcs_cluster#network_type PcsCluster#network_type}
 
 ---
 
@@ -1216,7 +1216,7 @@ SecurityGroupIds *[]*string
 
 The list of security group IDs associated with the Elastic Network Interface (ENI) created in subnets.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pcs_cluster#security_group_ids PcsCluster#security_group_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pcs_cluster#security_group_ids PcsCluster#security_group_ids}
 
 ---
 
@@ -1232,7 +1232,7 @@ The list of subnet IDs where AWS PCS creates an Elastic Network Interface (ENI) 
 
 The subnet must have an available IP address, cannot reside in AWS Outposts, AWS Wavelength, or an AWS Local Zone. AWS PCS currently supports only 1 subnet in this list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pcs_cluster#subnet_ids PcsCluster#subnet_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pcs_cluster#subnet_ids PcsCluster#subnet_ids}
 
 ---
 
@@ -1241,7 +1241,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.pcsCluster.PcsClusterScheduler.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pcscluster"
 
 &pcscluster.PcsClusterScheduler {
 	Type: *string,
@@ -1268,7 +1268,7 @@ Type *string
 
 The software AWS PCS uses to manage cluster scaling and job scheduling.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pcs_cluster#type PcsCluster#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pcs_cluster#type PcsCluster#type}
 
 ---
 
@@ -1282,7 +1282,7 @@ Version *string
 
 The version of the specified scheduling software that AWS PCS uses to manage cluster scaling and job scheduling.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pcs_cluster#version PcsCluster#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pcs_cluster#version PcsCluster#version}
 
 ---
 
@@ -1291,17 +1291,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.pcsCluster.PcsClusterSlurmConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pcscluster"
 
 &pcscluster.PcsClusterSlurmConfiguration {
-	Accounting: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.pcsCluster.PcsClusterSlurmConfigurationAccounting,
-	AuthKey: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.pcsCluster.PcsClusterSlurmConfigurationAuthKey,
+	Accounting: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.pcsCluster.PcsClusterSlurmConfigurationAccounting,
+	AuthKey: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.pcsCluster.PcsClusterSlurmConfigurationAuthKey,
 	CgroupCustomSettings: interface{},
-	JwtAuth: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.pcsCluster.PcsClusterSlurmConfigurationJwtAuth,
+	JwtAuth: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.pcsCluster.PcsClusterSlurmConfigurationJwtAuth,
 	ScaleDownIdleTimeInSeconds: *f64,
 	SlurmCustomSettings: interface{},
 	SlurmdbdCustomSettings: interface{},
-	SlurmRest: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.pcsCluster.PcsClusterSlurmConfigurationSlurmRest,
+	SlurmRest: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.pcsCluster.PcsClusterSlurmConfigurationSlurmRest,
 }
 ```
 
@@ -1330,7 +1330,7 @@ Accounting PcsClusterSlurmConfigurationAccounting
 
 The accounting configuration includes configurable settings for Slurm accounting.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pcs_cluster#accounting PcsCluster#accounting}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pcs_cluster#accounting PcsCluster#accounting}
 
 ---
 
@@ -1344,7 +1344,7 @@ AuthKey PcsClusterSlurmConfigurationAuthKey
 
 The shared Slurm key for authentication, also known as the cluster secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pcs_cluster#auth_key PcsCluster#auth_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pcs_cluster#auth_key PcsCluster#auth_key}
 
 ---
 
@@ -1358,7 +1358,7 @@ CgroupCustomSettings interface{}
 
 Additional cgroup-specific configuration that directly maps to cgroup.conf settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pcs_cluster#cgroup_custom_settings PcsCluster#cgroup_custom_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pcs_cluster#cgroup_custom_settings PcsCluster#cgroup_custom_settings}
 
 ---
 
@@ -1372,7 +1372,7 @@ JwtAuth PcsClusterSlurmConfigurationJwtAuth
 
 JWT authentication configuration for Slurm.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pcs_cluster#jwt_auth PcsCluster#jwt_auth}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pcs_cluster#jwt_auth PcsCluster#jwt_auth}
 
 ---
 
@@ -1386,7 +1386,7 @@ ScaleDownIdleTimeInSeconds *f64
 
 The time before an idle node is scaled down.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pcs_cluster#scale_down_idle_time_in_seconds PcsCluster#scale_down_idle_time_in_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pcs_cluster#scale_down_idle_time_in_seconds PcsCluster#scale_down_idle_time_in_seconds}
 
 ---
 
@@ -1400,7 +1400,7 @@ SlurmCustomSettings interface{}
 
 Additional Slurm-specific configuration that directly maps to Slurm settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pcs_cluster#slurm_custom_settings PcsCluster#slurm_custom_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pcs_cluster#slurm_custom_settings PcsCluster#slurm_custom_settings}
 
 ---
 
@@ -1414,7 +1414,7 @@ SlurmdbdCustomSettings interface{}
 
 Additional slurmdbd-specific configuration that directly maps to slurmdbd.conf settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pcs_cluster#slurmdbd_custom_settings PcsCluster#slurmdbd_custom_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pcs_cluster#slurmdbd_custom_settings PcsCluster#slurmdbd_custom_settings}
 
 ---
 
@@ -1428,7 +1428,7 @@ SlurmRest PcsClusterSlurmConfigurationSlurmRest
 
 The SlurmRest configuration includes configurable settings for Slurm Rest.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pcs_cluster#slurm_rest PcsCluster#slurm_rest}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pcs_cluster#slurm_rest PcsCluster#slurm_rest}
 
 ---
 
@@ -1437,7 +1437,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.pcsCluster.PcsClusterSlurmConfigurationAccounting.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pcscluster"
 
 &pcscluster.PcsClusterSlurmConfigurationAccounting {
 	DefaultPurgeTimeInDays: *f64,
@@ -1464,7 +1464,7 @@ DefaultPurgeTimeInDays *f64
 
 The default value for all purge settings for `slurmdbd.conf`. For more information, see the [slurmdbd.conf documentation at SchedMD](https://slurm.schedmd.com/slurmdbd.conf.html). The default value is `-1`. A value of `-1` means there is no purge time and records persist as long as the cluster exists.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pcs_cluster#default_purge_time_in_days PcsCluster#default_purge_time_in_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pcs_cluster#default_purge_time_in_days PcsCluster#default_purge_time_in_days}
 
 ---
 
@@ -1478,7 +1478,7 @@ Mode *string
 
 The default value is `NONE`. A value of `STANDARD` means that Slurm accounting is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pcs_cluster#mode PcsCluster#mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pcs_cluster#mode PcsCluster#mode}
 
 ---
 
@@ -1487,7 +1487,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.pcsCluster.PcsClusterSlurmConfigurationAuthKey.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pcscluster"
 
 &pcscluster.PcsClusterSlurmConfigurationAuthKey {
 	SecretArn: *string,
@@ -1514,7 +1514,7 @@ SecretArn *string
 
 The Amazon Resource Name (ARN) of the the shared Slurm key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pcs_cluster#secret_arn PcsCluster#secret_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pcs_cluster#secret_arn PcsCluster#secret_arn}
 
 ---
 
@@ -1528,7 +1528,7 @@ SecretVersion *string
 
 The version of the shared Slurm key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pcs_cluster#secret_version PcsCluster#secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pcs_cluster#secret_version PcsCluster#secret_version}
 
 ---
 
@@ -1537,7 +1537,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.pcsCluster.PcsClusterSlurmConfigurationCgroupCustomSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pcscluster"
 
 &pcscluster.PcsClusterSlurmConfigurationCgroupCustomSettings {
 	ParameterName: *string,
@@ -1564,7 +1564,7 @@ ParameterName *string
 
 The cgroup.conf parameter name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pcs_cluster#parameter_name PcsCluster#parameter_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pcs_cluster#parameter_name PcsCluster#parameter_name}
 
 ---
 
@@ -1578,7 +1578,7 @@ ParameterValue *string
 
 The value for the cgroup.conf parameter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pcs_cluster#parameter_value PcsCluster#parameter_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pcs_cluster#parameter_value PcsCluster#parameter_value}
 
 ---
 
@@ -1587,10 +1587,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.pcsCluster.PcsClusterSlurmConfigurationJwtAuth.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pcscluster"
 
 &pcscluster.PcsClusterSlurmConfigurationJwtAuth {
-	JwtKey: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.pcsCluster.PcsClusterSlurmConfigurationJwtAuthJwtKey,
+	JwtKey: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.pcsCluster.PcsClusterSlurmConfigurationJwtAuthJwtKey,
 }
 ```
 
@@ -1612,7 +1612,7 @@ JwtKey PcsClusterSlurmConfigurationJwtAuthJwtKey
 
 JWT key configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pcs_cluster#jwt_key PcsCluster#jwt_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pcs_cluster#jwt_key PcsCluster#jwt_key}
 
 ---
 
@@ -1621,7 +1621,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.pcsCluster.PcsClusterSlurmConfigurationJwtAuthJwtKey.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pcscluster"
 
 &pcscluster.PcsClusterSlurmConfigurationJwtAuthJwtKey {
 	SecretArn: *string,
@@ -1648,7 +1648,7 @@ SecretArn *string
 
 The Amazon Resource Name (ARN) of the JWT key secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pcs_cluster#secret_arn PcsCluster#secret_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pcs_cluster#secret_arn PcsCluster#secret_arn}
 
 ---
 
@@ -1662,7 +1662,7 @@ SecretVersion *string
 
 The version of the JWT key secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pcs_cluster#secret_version PcsCluster#secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pcs_cluster#secret_version PcsCluster#secret_version}
 
 ---
 
@@ -1671,7 +1671,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.pcsCluster.PcsClusterSlurmConfigurationSlurmCustomSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pcscluster"
 
 &pcscluster.PcsClusterSlurmConfigurationSlurmCustomSettings {
 	ParameterName: *string,
@@ -1698,7 +1698,7 @@ ParameterName *string
 
 AWS PCS supports configuration of the following Slurm parameters for clusters: Prolog, Epilog, and SelectTypeParameters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pcs_cluster#parameter_name PcsCluster#parameter_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pcs_cluster#parameter_name PcsCluster#parameter_name}
 
 ---
 
@@ -1712,7 +1712,7 @@ ParameterValue *string
 
 The value for the configured Slurm setting.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pcs_cluster#parameter_value PcsCluster#parameter_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pcs_cluster#parameter_value PcsCluster#parameter_value}
 
 ---
 
@@ -1721,7 +1721,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.pcsCluster.PcsClusterSlurmConfigurationSlurmdbdCustomSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pcscluster"
 
 &pcscluster.PcsClusterSlurmConfigurationSlurmdbdCustomSettings {
 	ParameterName: *string,
@@ -1748,7 +1748,7 @@ ParameterName *string
 
 The slurmdbd.conf parameter name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pcs_cluster#parameter_name PcsCluster#parameter_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pcs_cluster#parameter_name PcsCluster#parameter_name}
 
 ---
 
@@ -1762,7 +1762,7 @@ ParameterValue *string
 
 The value for the slurmdbd.conf parameter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pcs_cluster#parameter_value PcsCluster#parameter_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pcs_cluster#parameter_value PcsCluster#parameter_value}
 
 ---
 
@@ -1771,7 +1771,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.pcsCluster.PcsClusterSlurmConfigurationSlurmRest.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pcscluster"
 
 &pcscluster.PcsClusterSlurmConfigurationSlurmRest {
 	Mode: *string,
@@ -1796,7 +1796,7 @@ Mode *string
 
 The default value is `NONE`. A value of `STANDARD` means that Slurm Rest is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pcs_cluster#mode PcsCluster#mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pcs_cluster#mode PcsCluster#mode}
 
 ---
 
@@ -1807,7 +1807,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.pcsCluster.PcsClusterEndpointsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pcscluster"
 
 pcscluster.NewPcsClusterEndpointsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) PcsClusterEndpointsList
 ```
@@ -1956,7 +1956,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.pcsCluster.PcsClusterEndpointsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pcscluster"
 
 pcscluster.NewPcsClusterEndpointsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) PcsClusterEndpointsOutputReference
 ```
@@ -2278,7 +2278,7 @@ func InternalValue() PcsClusterEndpoints
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.pcsCluster.PcsClusterErrorInfoList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pcscluster"
 
 pcscluster.NewPcsClusterErrorInfoList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) PcsClusterErrorInfoList
 ```
@@ -2427,7 +2427,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.pcsCluster.PcsClusterErrorInfoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pcscluster"
 
 pcscluster.NewPcsClusterErrorInfoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) PcsClusterErrorInfoOutputReference
 ```
@@ -2716,7 +2716,7 @@ func InternalValue() PcsClusterErrorInfo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.pcsCluster.PcsClusterNetworkingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pcscluster"
 
 pcscluster.NewPcsClusterNetworkingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) PcsClusterNetworkingOutputReference
 ```
@@ -3052,7 +3052,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.pcsCluster.PcsClusterSchedulerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pcscluster"
 
 pcscluster.NewPcsClusterSchedulerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) PcsClusterSchedulerOutputReference
 ```
@@ -3345,7 +3345,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.pcsCluster.PcsClusterSlurmConfigurationAccountingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pcscluster"
 
 pcscluster.NewPcsClusterSlurmConfigurationAccountingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) PcsClusterSlurmConfigurationAccountingOutputReference
 ```
@@ -3652,7 +3652,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.pcsCluster.PcsClusterSlurmConfigurationAuthKeyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pcscluster"
 
 pcscluster.NewPcsClusterSlurmConfigurationAuthKeyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) PcsClusterSlurmConfigurationAuthKeyOutputReference
 ```
@@ -3959,7 +3959,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.pcsCluster.PcsClusterSlurmConfigurationCgroupCustomSettingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pcscluster"
 
 pcscluster.NewPcsClusterSlurmConfigurationCgroupCustomSettingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) PcsClusterSlurmConfigurationCgroupCustomSettingsList
 ```
@@ -4119,7 +4119,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.pcsCluster.PcsClusterSlurmConfigurationCgroupCustomSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pcscluster"
 
 pcscluster.NewPcsClusterSlurmConfigurationCgroupCustomSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) PcsClusterSlurmConfigurationCgroupCustomSettingsOutputReference
 ```
@@ -4444,7 +4444,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.pcsCluster.PcsClusterSlurmConfigurationJwtAuthJwtKeyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pcscluster"
 
 pcscluster.NewPcsClusterSlurmConfigurationJwtAuthJwtKeyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) PcsClusterSlurmConfigurationJwtAuthJwtKeyOutputReference
 ```
@@ -4751,7 +4751,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.pcsCluster.PcsClusterSlurmConfigurationJwtAuthOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pcscluster"
 
 pcscluster.NewPcsClusterSlurmConfigurationJwtAuthOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) PcsClusterSlurmConfigurationJwtAuthOutputReference
 ```
@@ -5042,7 +5042,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.pcsCluster.PcsClusterSlurmConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pcscluster"
 
 pcscluster.NewPcsClusterSlurmConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) PcsClusterSlurmConfigurationOutputReference
 ```
@@ -5614,7 +5614,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.pcsCluster.PcsClusterSlurmConfigurationSlurmCustomSettingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pcscluster"
 
 pcscluster.NewPcsClusterSlurmConfigurationSlurmCustomSettingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) PcsClusterSlurmConfigurationSlurmCustomSettingsList
 ```
@@ -5774,7 +5774,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.pcsCluster.PcsClusterSlurmConfigurationSlurmCustomSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pcscluster"
 
 pcscluster.NewPcsClusterSlurmConfigurationSlurmCustomSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) PcsClusterSlurmConfigurationSlurmCustomSettingsOutputReference
 ```
@@ -6099,7 +6099,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.pcsCluster.PcsClusterSlurmConfigurationSlurmdbdCustomSettingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pcscluster"
 
 pcscluster.NewPcsClusterSlurmConfigurationSlurmdbdCustomSettingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) PcsClusterSlurmConfigurationSlurmdbdCustomSettingsList
 ```
@@ -6259,7 +6259,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.pcsCluster.PcsClusterSlurmConfigurationSlurmdbdCustomSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pcscluster"
 
 pcscluster.NewPcsClusterSlurmConfigurationSlurmdbdCustomSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) PcsClusterSlurmConfigurationSlurmdbdCustomSettingsOutputReference
 ```
@@ -6584,7 +6584,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.pcsCluster.PcsClusterSlurmConfigurationSlurmRestOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcscluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pcscluster"
 
 pcscluster.NewPcsClusterSlurmConfigurationSlurmRestOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) PcsClusterSlurmConfigurationSlurmRestOutputReference
 ```

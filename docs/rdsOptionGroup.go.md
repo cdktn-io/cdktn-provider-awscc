@@ -4,12 +4,12 @@
 
 ### RdsOptionGroup <a name="RdsOptionGroup" id="@cdktn/provider-awscc.rdsOptionGroup.RdsOptionGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_option_group awscc_rds_option_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_option_group awscc_rds_option_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.rdsOptionGroup.RdsOptionGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsoptiongroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsoptiongroup"
 
 rdsoptiongroup.NewRdsOptionGroup(scope Construct, id *string, config RdsOptionGroupConfig) RdsOptionGroup
 ```
@@ -447,7 +447,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.rdsOptionGroup.RdsOptionGroup.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsoptiongroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsoptiongroup"
 
 rdsoptiongroup.RdsOptionGroup_IsConstruct(x interface{}) *bool
 ```
@@ -479,7 +479,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.rdsOptionGroup.RdsOptionGroup.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsoptiongroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsoptiongroup"
 
 rdsoptiongroup.RdsOptionGroup_IsTerraformElement(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ rdsoptiongroup.RdsOptionGroup_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.rdsOptionGroup.RdsOptionGroup.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsoptiongroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsoptiongroup"
 
 rdsoptiongroup.RdsOptionGroup_IsTerraformResource(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ rdsoptiongroup.RdsOptionGroup_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.rdsOptionGroup.RdsOptionGroup.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsoptiongroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsoptiongroup"
 
 rdsoptiongroup.RdsOptionGroup_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -536,7 +536,7 @@ The construct id used in the generated config for the RdsOptionGroup to import.
 
 The id of the existing RdsOptionGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_option_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_option_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -879,7 +879,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.rdsOptionGroup.RdsOptionGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsoptiongroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsoptiongroup"
 
 &rdsoptiongroup.RdsOptionGroupConfig {
 	Connection: interface{},
@@ -1012,7 +1012,7 @@ Valid Values:
 * `sqlserver-ex`
 * `sqlserver-web`
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_option_group#engine_name RdsOptionGroup#engine_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_option_group#engine_name RdsOptionGroup#engine_name}
 
 ---
 
@@ -1026,7 +1026,7 @@ MajorEngineVersion *string
 
 Specifies the major version of the engine that this option group should be associated with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_option_group#major_engine_version RdsOptionGroup#major_engine_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_option_group#major_engine_version RdsOptionGroup#major_engine_version}
 
 ---
 
@@ -1040,7 +1040,7 @@ OptionGroupDescription *string
 
 The description of the option group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_option_group#option_group_description RdsOptionGroup#option_group_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_option_group#option_group_description RdsOptionGroup#option_group_description}
 
 ---
 
@@ -1054,7 +1054,7 @@ OptionConfigurations interface{}
 
 A list of all available options for an option group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_option_group#option_configurations RdsOptionGroup#option_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_option_group#option_configurations RdsOptionGroup#option_configurations}
 
 ---
 
@@ -1078,7 +1078,7 @@ Example: `myoptiongroup`
 If you don't specify a value for `OptionGroupName` property, a name is automatically created for the option group.
 This value is stored as a lowercase string.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_option_group#option_group_name RdsOptionGroup#option_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_option_group#option_group_name RdsOptionGroup#option_group_name}
 
 ---
 
@@ -1092,7 +1092,7 @@ Tags interface{}
 
 Tags to assign to the option group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_option_group#tags RdsOptionGroup#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_option_group#tags RdsOptionGroup#tags}
 
 ---
 
@@ -1101,7 +1101,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.rdsOptionGroup.RdsOptionGroupOptionConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsoptiongroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsoptiongroup"
 
 &rdsoptiongroup.RdsOptionGroupOptionConfigurations {
 	DbSecurityGroupMemberships: *[]*string,
@@ -1136,7 +1136,7 @@ DbSecurityGroupMemberships *[]*string
 
 A list of DB security groups used for this option.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_option_group#db_security_group_memberships RdsOptionGroup#db_security_group_memberships}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_option_group#db_security_group_memberships RdsOptionGroup#db_security_group_memberships}
 
 ---
 
@@ -1150,7 +1150,7 @@ OptionName *string
 
 The configuration of options to include in a group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_option_group#option_name RdsOptionGroup#option_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_option_group#option_name RdsOptionGroup#option_name}
 
 ---
 
@@ -1164,7 +1164,7 @@ OptionSettings interface{}
 
 The option settings to include in an option group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_option_group#option_settings RdsOptionGroup#option_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_option_group#option_settings RdsOptionGroup#option_settings}
 
 ---
 
@@ -1178,7 +1178,7 @@ OptionVersion *string
 
 The version for the option.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_option_group#option_version RdsOptionGroup#option_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_option_group#option_version RdsOptionGroup#option_version}
 
 ---
 
@@ -1192,7 +1192,7 @@ Port *f64
 
 The optional port for the option.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_option_group#port RdsOptionGroup#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_option_group#port RdsOptionGroup#port}
 
 ---
 
@@ -1206,7 +1206,7 @@ VpcSecurityGroupMemberships *[]*string
 
 A list of VPC security group names used for this option.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_option_group#vpc_security_group_memberships RdsOptionGroup#vpc_security_group_memberships}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_option_group#vpc_security_group_memberships RdsOptionGroup#vpc_security_group_memberships}
 
 ---
 
@@ -1215,7 +1215,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.rdsOptionGroup.RdsOptionGroupOptionConfigurationsOptionSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsoptiongroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsoptiongroup"
 
 &rdsoptiongroup.RdsOptionGroupOptionConfigurationsOptionSettings {
 	Name: *string,
@@ -1242,7 +1242,7 @@ Name *string
 
 The name of the option that has settings that you can set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_option_group#name RdsOptionGroup#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_option_group#name RdsOptionGroup#name}
 
 ---
 
@@ -1256,7 +1256,7 @@ Value *string
 
 The current value of the option setting.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_option_group#value RdsOptionGroup#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_option_group#value RdsOptionGroup#value}
 
 ---
 
@@ -1265,7 +1265,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.rdsOptionGroup.RdsOptionGroupTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsoptiongroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsoptiongroup"
 
 &rdsoptiongroup.RdsOptionGroupTags {
 	Key: *string,
@@ -1294,7 +1294,7 @@ A key is the required name of the tag.
 
 The string value can be from 1 to 128 Unicode characters in length and can't be prefixed with `aws:` or `rds:`. The string can only contain only the set of Unicode letters, digits, white-space, '*', '.', ':', '/', '=', '+', '-', '@' (Java regex: "^([\p{L}\p{Z}\p{N}*.:/=+\-@]*)$").
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_option_group#key RdsOptionGroup#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_option_group#key RdsOptionGroup#key}
 
 ---
 
@@ -1310,7 +1310,7 @@ A value is the optional value of the tag.
 
 The string value can be from 1 to 256 Unicode characters in length and can't be prefixed with `aws:` or `rds:`. The string can only contain only the set of Unicode letters, digits, white-space, '*', '.', ':', '/', '=', '+', '-', '@' (Java regex: "^([\p{L}\p{Z}\p{N}*.:/=+\-@]*)$").
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_option_group#value RdsOptionGroup#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_option_group#value RdsOptionGroup#value}
 
 ---
 
@@ -1321,7 +1321,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.rdsOptionGroup.RdsOptionGroupOptionConfigurationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsoptiongroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsoptiongroup"
 
 rdsoptiongroup.NewRdsOptionGroupOptionConfigurationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) RdsOptionGroupOptionConfigurationsList
 ```
@@ -1481,7 +1481,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.rdsOptionGroup.RdsOptionGroupOptionConfigurationsOptionSettingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsoptiongroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsoptiongroup"
 
 rdsoptiongroup.NewRdsOptionGroupOptionConfigurationsOptionSettingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) RdsOptionGroupOptionConfigurationsOptionSettingsList
 ```
@@ -1641,7 +1641,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.rdsOptionGroup.RdsOptionGroupOptionConfigurationsOptionSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsoptiongroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsoptiongroup"
 
 rdsoptiongroup.NewRdsOptionGroupOptionConfigurationsOptionSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) RdsOptionGroupOptionConfigurationsOptionSettingsOutputReference
 ```
@@ -1966,7 +1966,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.rdsOptionGroup.RdsOptionGroupOptionConfigurationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsoptiongroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsoptiongroup"
 
 rdsoptiongroup.NewRdsOptionGroupOptionConfigurationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) RdsOptionGroupOptionConfigurationsOutputReference
 ```
@@ -2420,7 +2420,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.rdsOptionGroup.RdsOptionGroupTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsoptiongroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsoptiongroup"
 
 rdsoptiongroup.NewRdsOptionGroupTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) RdsOptionGroupTagsList
 ```
@@ -2580,7 +2580,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.rdsOptionGroup.RdsOptionGroupTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsoptiongroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsoptiongroup"
 
 rdsoptiongroup.NewRdsOptionGroupTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) RdsOptionGroupTagsOutputReference
 ```

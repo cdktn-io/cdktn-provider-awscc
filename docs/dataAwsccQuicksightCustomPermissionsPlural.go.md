@@ -4,12 +4,12 @@
 
 ### DataAwsccQuicksightCustomPermissionsPlural <a name="DataAwsccQuicksightCustomPermissionsPlural" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissionsPlural.DataAwsccQuicksightCustomPermissionsPlural"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/quicksight_custom_permissions_plural awscc_quicksight_custom_permissions_plural}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_custom_permissions_plural awscc_quicksight_custom_permissions_plural}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissionsPlural.DataAwsccQuicksightCustomPermissionsPlural.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightcustompermissionsplural"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightcustompermissionsplural"
 
 dataawsccquicksightcustompermissionsplural.NewDataAwsccQuicksightCustomPermissionsPlural(scope Construct, id *string, config DataAwsccQuicksightCustomPermissionsPluralConfig) DataAwsccQuicksightCustomPermissionsPlural
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissionsPlural.DataAwsccQuicksightCustomPermissionsPlural.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightcustompermissionsplural"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightcustompermissionsplural"
 
 dataawsccquicksightcustompermissionsplural.DataAwsccQuicksightCustomPermissionsPlural_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissionsPlural.DataAwsccQuicksightCustomPermissionsPlural.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightcustompermissionsplural"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightcustompermissionsplural"
 
 dataawsccquicksightcustompermissionsplural.DataAwsccQuicksightCustomPermissionsPlural_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccquicksightcustompermissionsplural.DataAwsccQuicksightCustomPermissionsP
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissionsPlural.DataAwsccQuicksightCustomPermissionsPlural.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightcustompermissionsplural"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightcustompermissionsplural"
 
 dataawsccquicksightcustompermissionsplural.DataAwsccQuicksightCustomPermissionsPlural_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccquicksightcustompermissionsplural.DataAwsccQuicksightCustomPermissionsP
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissionsPlural.DataAwsccQuicksightCustomPermissionsPlural.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightcustompermissionsplural"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightcustompermissionsplural"
 
 dataawsccquicksightcustompermissionsplural.DataAwsccQuicksightCustomPermissionsPlural_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccQuicksightCustomP
 
 The id of the existing DataAwsccQuicksightCustomPermissionsPlural that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/quicksight_custom_permissions_plural#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_custom_permissions_plural#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissionsPlural.DataAwsccQuicksightCustomPermissionsPluralConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightcustompermissionsplural"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightcustompermissionsplural"
 
 &dataawsccquicksightcustompermissionsplural.DataAwsccQuicksightCustomPermissionsPluralConfig {
 	Connection: interface{},

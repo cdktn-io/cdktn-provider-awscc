@@ -4,12 +4,12 @@
 
 ### DataAwsccEcrRepository <a name="DataAwsccEcrRepository" id="@cdktn/provider-awscc.dataAwsccEcrRepository.DataAwsccEcrRepository"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ecr_repository awscc_ecr_repository}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ecr_repository awscc_ecr_repository}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcrRepository.DataAwsccEcrRepository.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecrrepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecrrepository"
 
 dataawsccecrrepository.NewDataAwsccEcrRepository(scope Construct, id *string, config DataAwsccEcrRepositoryConfig) DataAwsccEcrRepository
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEcrRepository.DataAwsccEcrRepository.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecrrepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecrrepository"
 
 dataawsccecrrepository.DataAwsccEcrRepository_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEcrRepository.DataAwsccEcrRepository.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecrrepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecrrepository"
 
 dataawsccecrrepository.DataAwsccEcrRepository_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccecrrepository.DataAwsccEcrRepository_IsTerraformElement(x interface{}) 
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEcrRepository.DataAwsccEcrRepository.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecrrepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecrrepository"
 
 dataawsccecrrepository.DataAwsccEcrRepository_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccecrrepository.DataAwsccEcrRepository_IsTerraformDataSource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEcrRepository.DataAwsccEcrRepository.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecrrepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecrrepository"
 
 dataawsccecrrepository.DataAwsccEcrRepository_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEcrRepository to 
 
 The id of the existing DataAwsccEcrRepository that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ecr_repository#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ecr_repository#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -708,7 +708,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcrRepository.DataAwsccEcrRepositoryConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecrrepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecrrepository"
 
 &dataawsccecrrepository.DataAwsccEcrRepositoryConfig {
 	Connection: interface{},
@@ -817,7 +817,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ecr_repository#id DataAwsccEcrRepository#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ecr_repository#id DataAwsccEcrRepository#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -829,7 +829,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcrRepository.DataAwsccEcrRepositoryEncryptionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecrrepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecrrepository"
 
 &dataawsccecrrepository.DataAwsccEcrRepositoryEncryptionConfiguration {
 
@@ -842,7 +842,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecrrepository
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcrRepository.DataAwsccEcrRepositoryImageScanningConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecrrepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecrrepository"
 
 &dataawsccecrrepository.DataAwsccEcrRepositoryImageScanningConfiguration {
 
@@ -855,7 +855,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecrrepository
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcrRepository.DataAwsccEcrRepositoryImageTagMutabilityExclusionFilters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecrrepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecrrepository"
 
 &dataawsccecrrepository.DataAwsccEcrRepositoryImageTagMutabilityExclusionFilters {
 
@@ -868,7 +868,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecrrepository
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcrRepository.DataAwsccEcrRepositoryLifecyclePolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecrrepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecrrepository"
 
 &dataawsccecrrepository.DataAwsccEcrRepositoryLifecyclePolicy {
 
@@ -881,7 +881,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecrrepository
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcrRepository.DataAwsccEcrRepositoryTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecrrepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecrrepository"
 
 &dataawsccecrrepository.DataAwsccEcrRepositoryTags {
 
@@ -896,7 +896,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecrrepository
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcrRepository.DataAwsccEcrRepositoryEncryptionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecrrepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecrrepository"
 
 dataawsccecrrepository.NewDataAwsccEcrRepositoryEncryptionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEcrRepositoryEncryptionConfigurationOutputReference
 ```
@@ -1167,7 +1167,7 @@ func InternalValue() DataAwsccEcrRepositoryEncryptionConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcrRepository.DataAwsccEcrRepositoryImageScanningConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecrrepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecrrepository"
 
 dataawsccecrrepository.NewDataAwsccEcrRepositoryImageScanningConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEcrRepositoryImageScanningConfigurationOutputReference
 ```
@@ -1427,7 +1427,7 @@ func InternalValue() DataAwsccEcrRepositoryImageScanningConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcrRepository.DataAwsccEcrRepositoryImageTagMutabilityExclusionFiltersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecrrepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecrrepository"
 
 dataawsccecrrepository.NewDataAwsccEcrRepositoryImageTagMutabilityExclusionFiltersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEcrRepositoryImageTagMutabilityExclusionFiltersList
 ```
@@ -1576,7 +1576,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcrRepository.DataAwsccEcrRepositoryImageTagMutabilityExclusionFiltersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecrrepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecrrepository"
 
 dataawsccecrrepository.NewDataAwsccEcrRepositoryImageTagMutabilityExclusionFiltersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEcrRepositoryImageTagMutabilityExclusionFiltersOutputReference
 ```
@@ -1865,7 +1865,7 @@ func InternalValue() DataAwsccEcrRepositoryImageTagMutabilityExclusionFilters
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcrRepository.DataAwsccEcrRepositoryLifecyclePolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecrrepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecrrepository"
 
 dataawsccecrrepository.NewDataAwsccEcrRepositoryLifecyclePolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEcrRepositoryLifecyclePolicyOutputReference
 ```
@@ -2136,7 +2136,7 @@ func InternalValue() DataAwsccEcrRepositoryLifecyclePolicy
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcrRepository.DataAwsccEcrRepositoryTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecrrepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecrrepository"
 
 dataawsccecrrepository.NewDataAwsccEcrRepositoryTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEcrRepositoryTagsList
 ```
@@ -2285,7 +2285,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcrRepository.DataAwsccEcrRepositoryTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecrrepository"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecrrepository"
 
 dataawsccecrrepository.NewDataAwsccEcrRepositoryTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEcrRepositoryTagsOutputReference
 ```

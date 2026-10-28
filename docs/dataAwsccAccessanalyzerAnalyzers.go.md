@@ -4,12 +4,12 @@
 
 ### DataAwsccAccessanalyzerAnalyzers <a name="DataAwsccAccessanalyzerAnalyzers" id="@cdktn/provider-awscc.dataAwsccAccessanalyzerAnalyzers.DataAwsccAccessanalyzerAnalyzers"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/accessanalyzer_analyzers awscc_accessanalyzer_analyzers}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/accessanalyzer_analyzers awscc_accessanalyzer_analyzers}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAccessanalyzerAnalyzers.DataAwsccAccessanalyzerAnalyzers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccessanalyzeranalyzers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaccessanalyzeranalyzers"
 
 dataawsccaccessanalyzeranalyzers.NewDataAwsccAccessanalyzerAnalyzers(scope Construct, id *string, config DataAwsccAccessanalyzerAnalyzersConfig) DataAwsccAccessanalyzerAnalyzers
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccAccessanalyzerAnalyzers.DataAwsccAccessanalyzerAnalyzers.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccessanalyzeranalyzers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaccessanalyzeranalyzers"
 
 dataawsccaccessanalyzeranalyzers.DataAwsccAccessanalyzerAnalyzers_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccAccessanalyzerAnalyzers.DataAwsccAccessanalyzerAnalyzers.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccessanalyzeranalyzers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaccessanalyzeranalyzers"
 
 dataawsccaccessanalyzeranalyzers.DataAwsccAccessanalyzerAnalyzers_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccaccessanalyzeranalyzers.DataAwsccAccessanalyzerAnalyzers_IsTerraformEle
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccAccessanalyzerAnalyzers.DataAwsccAccessanalyzerAnalyzers.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccessanalyzeranalyzers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaccessanalyzeranalyzers"
 
 dataawsccaccessanalyzeranalyzers.DataAwsccAccessanalyzerAnalyzers_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccaccessanalyzeranalyzers.DataAwsccAccessanalyzerAnalyzers_IsTerraformDat
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccAccessanalyzerAnalyzers.DataAwsccAccessanalyzerAnalyzers.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccessanalyzeranalyzers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaccessanalyzeranalyzers"
 
 dataawsccaccessanalyzeranalyzers.DataAwsccAccessanalyzerAnalyzers_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccAccessanalyzerAna
 
 The id of the existing DataAwsccAccessanalyzerAnalyzers that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/accessanalyzer_analyzers#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/accessanalyzer_analyzers#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAccessanalyzerAnalyzers.DataAwsccAccessanalyzerAnalyzersConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccessanalyzeranalyzers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaccessanalyzeranalyzers"
 
 &dataawsccaccessanalyzeranalyzers.DataAwsccAccessanalyzerAnalyzersConfig {
 	Connection: interface{},

@@ -4,12 +4,12 @@
 
 ### DataAwsccGlueClassifiers <a name="DataAwsccGlueClassifiers" id="@cdktn/provider-awscc.dataAwsccGlueClassifiers.DataAwsccGlueClassifiers"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/glue_classifiers awscc_glue_classifiers}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/glue_classifiers awscc_glue_classifiers}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueClassifiers.DataAwsccGlueClassifiers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueclassifiers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueclassifiers"
 
 dataawsccglueclassifiers.NewDataAwsccGlueClassifiers(scope Construct, id *string, config DataAwsccGlueClassifiersConfig) DataAwsccGlueClassifiers
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccGlueClassifiers.DataAwsccGlueClassifiers.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueclassifiers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueclassifiers"
 
 dataawsccglueclassifiers.DataAwsccGlueClassifiers_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccGlueClassifiers.DataAwsccGlueClassifiers.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueclassifiers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueclassifiers"
 
 dataawsccglueclassifiers.DataAwsccGlueClassifiers_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccglueclassifiers.DataAwsccGlueClassifiers_IsTerraformElement(x interface
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccGlueClassifiers.DataAwsccGlueClassifiers.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueclassifiers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueclassifiers"
 
 dataawsccglueclassifiers.DataAwsccGlueClassifiers_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccglueclassifiers.DataAwsccGlueClassifiers_IsTerraformDataSource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccGlueClassifiers.DataAwsccGlueClassifiers.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueclassifiers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueclassifiers"
 
 dataawsccglueclassifiers.DataAwsccGlueClassifiers_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccGlueClassifiers t
 
 The id of the existing DataAwsccGlueClassifiers that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/glue_classifiers#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/glue_classifiers#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueClassifiers.DataAwsccGlueClassifiersConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueclassifiers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueclassifiers"
 
 &dataawsccglueclassifiers.DataAwsccGlueClassifiersConfig {
 	Connection: interface{},

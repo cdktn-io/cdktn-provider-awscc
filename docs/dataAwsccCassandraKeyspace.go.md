@@ -4,12 +4,12 @@
 
 ### DataAwsccCassandraKeyspace <a name="DataAwsccCassandraKeyspace" id="@cdktn/provider-awscc.dataAwsccCassandraKeyspace.DataAwsccCassandraKeyspace"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cassandra_keyspace awscc_cassandra_keyspace}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cassandra_keyspace awscc_cassandra_keyspace}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCassandraKeyspace.DataAwsccCassandraKeyspace.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandrakeyspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandrakeyspace"
 
 dataawscccassandrakeyspace.NewDataAwsccCassandraKeyspace(scope Construct, id *string, config DataAwsccCassandraKeyspaceConfig) DataAwsccCassandraKeyspace
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCassandraKeyspace.DataAwsccCassandraKeyspace.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandrakeyspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandrakeyspace"
 
 dataawscccassandrakeyspace.DataAwsccCassandraKeyspace_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCassandraKeyspace.DataAwsccCassandraKeyspace.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandrakeyspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandrakeyspace"
 
 dataawscccassandrakeyspace.DataAwsccCassandraKeyspace_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccassandrakeyspace.DataAwsccCassandraKeyspace_IsTerraformElement(x inter
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCassandraKeyspace.DataAwsccCassandraKeyspace.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandrakeyspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandrakeyspace"
 
 dataawscccassandrakeyspace.DataAwsccCassandraKeyspace_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccassandrakeyspace.DataAwsccCassandraKeyspace_IsTerraformDataSource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCassandraKeyspace.DataAwsccCassandraKeyspace.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandrakeyspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandrakeyspace"
 
 dataawscccassandrakeyspace.DataAwsccCassandraKeyspace_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCassandraKeyspace
 
 The id of the existing DataAwsccCassandraKeyspace that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cassandra_keyspace#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cassandra_keyspace#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -631,7 +631,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCassandraKeyspace.DataAwsccCassandraKeyspaceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandrakeyspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandrakeyspace"
 
 &dataawscccassandrakeyspace.DataAwsccCassandraKeyspaceConfig {
 	Connection: interface{},
@@ -740,7 +740,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cassandra_keyspace#id DataAwsccCassandraKeyspace#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cassandra_keyspace#id DataAwsccCassandraKeyspace#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -752,7 +752,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCassandraKeyspace.DataAwsccCassandraKeyspaceReplicationSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandrakeyspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandrakeyspace"
 
 &dataawscccassandrakeyspace.DataAwsccCassandraKeyspaceReplicationSpecification {
 
@@ -765,7 +765,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandrakeys
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCassandraKeyspace.DataAwsccCassandraKeyspaceTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandrakeyspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandrakeyspace"
 
 &dataawscccassandrakeyspace.DataAwsccCassandraKeyspaceTags {
 
@@ -780,7 +780,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandrakeys
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCassandraKeyspace.DataAwsccCassandraKeyspaceReplicationSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandrakeyspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandrakeyspace"
 
 dataawscccassandrakeyspace.NewDataAwsccCassandraKeyspaceReplicationSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCassandraKeyspaceReplicationSpecificationOutputReference
 ```
@@ -1051,7 +1051,7 @@ func InternalValue() DataAwsccCassandraKeyspaceReplicationSpecification
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCassandraKeyspace.DataAwsccCassandraKeyspaceTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandrakeyspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandrakeyspace"
 
 dataawscccassandrakeyspace.NewDataAwsccCassandraKeyspaceTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCassandraKeyspaceTagsList
 ```
@@ -1200,7 +1200,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCassandraKeyspace.DataAwsccCassandraKeyspaceTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandrakeyspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandrakeyspace"
 
 dataawscccassandrakeyspace.NewDataAwsccCassandraKeyspaceTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCassandraKeyspaceTagsOutputReference
 ```

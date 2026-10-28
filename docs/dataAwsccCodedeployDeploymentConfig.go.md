@@ -4,12 +4,12 @@
 
 ### DataAwsccCodedeployDeploymentConfig <a name="DataAwsccCodedeployDeploymentConfig" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentConfig.DataAwsccCodedeployDeploymentConfig"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/codedeploy_deployment_config awscc_codedeploy_deployment_config}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/codedeploy_deployment_config awscc_codedeploy_deployment_config}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentConfig.DataAwsccCodedeployDeploymentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentconfig"
 
 dataawscccodedeploydeploymentconfig.NewDataAwsccCodedeployDeploymentConfig(scope Construct, id *string, config DataAwsccCodedeployDeploymentConfigConfig) DataAwsccCodedeployDeploymentConfig
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentConfig.DataAwsccCodedeployDeploymentConfig.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentconfig"
 
 dataawscccodedeploydeploymentconfig.DataAwsccCodedeployDeploymentConfig_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentConfig.DataAwsccCodedeployDeploymentConfig.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentconfig"
 
 dataawscccodedeploydeploymentconfig.DataAwsccCodedeployDeploymentConfig_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccodedeploydeploymentconfig.DataAwsccCodedeployDeploymentConfig_IsTerraf
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentConfig.DataAwsccCodedeployDeploymentConfig.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentconfig"
 
 dataawscccodedeploydeploymentconfig.DataAwsccCodedeployDeploymentConfig_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccodedeploydeploymentconfig.DataAwsccCodedeployDeploymentConfig_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentConfig.DataAwsccCodedeployDeploymentConfig.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentconfig"
 
 dataawscccodedeploydeploymentconfig.DataAwsccCodedeployDeploymentConfig_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCodedeployDeploym
 
 The id of the existing DataAwsccCodedeployDeploymentConfig that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/codedeploy_deployment_config#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/codedeploy_deployment_config#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -642,7 +642,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentConfig.DataAwsccCodedeployDeploymentConfigConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentconfig"
 
 &dataawscccodedeploydeploymentconfig.DataAwsccCodedeployDeploymentConfigConfig {
 	Connection: interface{},
@@ -751,7 +751,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/codedeploy_deployment_config#id DataAwsccCodedeployDeploymentConfig#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/codedeploy_deployment_config#id DataAwsccCodedeployDeploymentConfig#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -763,7 +763,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentConfig.DataAwsccCodedeployDeploymentConfigMinimumHealthyHosts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentconfig"
 
 &dataawscccodedeploydeploymentconfig.DataAwsccCodedeployDeploymentConfigMinimumHealthyHosts {
 
@@ -776,7 +776,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentConfig.DataAwsccCodedeployDeploymentConfigTrafficRoutingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentconfig"
 
 &dataawscccodedeploydeploymentconfig.DataAwsccCodedeployDeploymentConfigTrafficRoutingConfig {
 
@@ -789,7 +789,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentConfig.DataAwsccCodedeployDeploymentConfigTrafficRoutingConfigTimeBasedCanary.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentconfig"
 
 &dataawscccodedeploydeploymentconfig.DataAwsccCodedeployDeploymentConfigTrafficRoutingConfigTimeBasedCanary {
 
@@ -802,7 +802,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentConfig.DataAwsccCodedeployDeploymentConfigTrafficRoutingConfigTimeBasedLinear.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentconfig"
 
 &dataawscccodedeploydeploymentconfig.DataAwsccCodedeployDeploymentConfigTrafficRoutingConfigTimeBasedLinear {
 
@@ -815,7 +815,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentConfig.DataAwsccCodedeployDeploymentConfigZonalConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentconfig"
 
 &dataawscccodedeploydeploymentconfig.DataAwsccCodedeployDeploymentConfigZonalConfig {
 
@@ -828,7 +828,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentConfig.DataAwsccCodedeployDeploymentConfigZonalConfigMinimumHealthyHostsPerZone.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentconfig"
 
 &dataawscccodedeploydeploymentconfig.DataAwsccCodedeployDeploymentConfigZonalConfigMinimumHealthyHostsPerZone {
 
@@ -843,7 +843,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydep
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentConfig.DataAwsccCodedeployDeploymentConfigMinimumHealthyHostsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentconfig"
 
 dataawscccodedeploydeploymentconfig.NewDataAwsccCodedeployDeploymentConfigMinimumHealthyHostsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCodedeployDeploymentConfigMinimumHealthyHostsOutputReference
 ```
@@ -1114,7 +1114,7 @@ func InternalValue() DataAwsccCodedeployDeploymentConfigMinimumHealthyHosts
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentConfig.DataAwsccCodedeployDeploymentConfigTrafficRoutingConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentconfig"
 
 dataawscccodedeploydeploymentconfig.NewDataAwsccCodedeployDeploymentConfigTrafficRoutingConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCodedeployDeploymentConfigTrafficRoutingConfigOutputReference
 ```
@@ -1396,7 +1396,7 @@ func InternalValue() DataAwsccCodedeployDeploymentConfigTrafficRoutingConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentConfig.DataAwsccCodedeployDeploymentConfigTrafficRoutingConfigTimeBasedCanaryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentconfig"
 
 dataawscccodedeploydeploymentconfig.NewDataAwsccCodedeployDeploymentConfigTrafficRoutingConfigTimeBasedCanaryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCodedeployDeploymentConfigTrafficRoutingConfigTimeBasedCanaryOutputReference
 ```
@@ -1667,7 +1667,7 @@ func InternalValue() DataAwsccCodedeployDeploymentConfigTrafficRoutingConfigTime
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentConfig.DataAwsccCodedeployDeploymentConfigTrafficRoutingConfigTimeBasedLinearOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentconfig"
 
 dataawscccodedeploydeploymentconfig.NewDataAwsccCodedeployDeploymentConfigTrafficRoutingConfigTimeBasedLinearOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCodedeployDeploymentConfigTrafficRoutingConfigTimeBasedLinearOutputReference
 ```
@@ -1938,7 +1938,7 @@ func InternalValue() DataAwsccCodedeployDeploymentConfigTrafficRoutingConfigTime
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentConfig.DataAwsccCodedeployDeploymentConfigZonalConfigMinimumHealthyHostsPerZoneOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentconfig"
 
 dataawscccodedeploydeploymentconfig.NewDataAwsccCodedeployDeploymentConfigZonalConfigMinimumHealthyHostsPerZoneOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCodedeployDeploymentConfigZonalConfigMinimumHealthyHostsPerZoneOutputReference
 ```
@@ -2209,7 +2209,7 @@ func InternalValue() DataAwsccCodedeployDeploymentConfigZonalConfigMinimumHealth
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentConfig.DataAwsccCodedeployDeploymentConfigZonalConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentconfig"
 
 dataawscccodedeploydeploymentconfig.NewDataAwsccCodedeployDeploymentConfigZonalConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCodedeployDeploymentConfigZonalConfigOutputReference
 ```

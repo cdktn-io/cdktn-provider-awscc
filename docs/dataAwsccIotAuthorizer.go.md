@@ -4,12 +4,12 @@
 
 ### DataAwsccIotAuthorizer <a name="DataAwsccIotAuthorizer" id="@cdktn/provider-awscc.dataAwsccIotAuthorizer.DataAwsccIotAuthorizer"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_authorizer awscc_iot_authorizer}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_authorizer awscc_iot_authorizer}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotAuthorizer.DataAwsccIotAuthorizer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotauthorizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotauthorizer"
 
 dataawscciotauthorizer.NewDataAwsccIotAuthorizer(scope Construct, id *string, config DataAwsccIotAuthorizerConfig) DataAwsccIotAuthorizer
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIotAuthorizer.DataAwsccIotAuthorizer.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotauthorizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotauthorizer"
 
 dataawscciotauthorizer.DataAwsccIotAuthorizer_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIotAuthorizer.DataAwsccIotAuthorizer.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotauthorizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotauthorizer"
 
 dataawscciotauthorizer.DataAwsccIotAuthorizer_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciotauthorizer.DataAwsccIotAuthorizer_IsTerraformElement(x interface{}) 
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIotAuthorizer.DataAwsccIotAuthorizer.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotauthorizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotauthorizer"
 
 dataawscciotauthorizer.DataAwsccIotAuthorizer_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciotauthorizer.DataAwsccIotAuthorizer_IsTerraformDataSource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIotAuthorizer.DataAwsccIotAuthorizer.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotauthorizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotauthorizer"
 
 dataawscciotauthorizer.DataAwsccIotAuthorizer_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotAuthorizer to 
 
 The id of the existing DataAwsccIotAuthorizer that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_authorizer#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_authorizer#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -686,7 +686,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotAuthorizer.DataAwsccIotAuthorizerConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotauthorizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotauthorizer"
 
 &dataawscciotauthorizer.DataAwsccIotAuthorizerConfig {
 	Connection: interface{},
@@ -795,7 +795,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_authorizer#id DataAwsccIotAuthorizer#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_authorizer#id DataAwsccIotAuthorizer#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -807,7 +807,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotAuthorizer.DataAwsccIotAuthorizerTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotauthorizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotauthorizer"
 
 &dataawscciotauthorizer.DataAwsccIotAuthorizerTags {
 
@@ -822,7 +822,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotauthorizer
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotAuthorizer.DataAwsccIotAuthorizerTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotauthorizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotauthorizer"
 
 dataawscciotauthorizer.NewDataAwsccIotAuthorizerTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIotAuthorizerTagsList
 ```
@@ -971,7 +971,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotAuthorizer.DataAwsccIotAuthorizerTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotauthorizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotauthorizer"
 
 dataawscciotauthorizer.NewDataAwsccIotAuthorizerTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIotAuthorizerTagsOutputReference
 ```

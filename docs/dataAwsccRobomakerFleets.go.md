@@ -4,12 +4,12 @@
 
 ### DataAwsccRobomakerFleets <a name="DataAwsccRobomakerFleets" id="@cdktn/provider-awscc.dataAwsccRobomakerFleets.DataAwsccRobomakerFleets"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/robomaker_fleets awscc_robomaker_fleets}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/robomaker_fleets awscc_robomaker_fleets}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRobomakerFleets.DataAwsccRobomakerFleets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrobomakerfleets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrobomakerfleets"
 
 dataawsccrobomakerfleets.NewDataAwsccRobomakerFleets(scope Construct, id *string, config DataAwsccRobomakerFleetsConfig) DataAwsccRobomakerFleets
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccRobomakerFleets.DataAwsccRobomakerFleets.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrobomakerfleets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrobomakerfleets"
 
 dataawsccrobomakerfleets.DataAwsccRobomakerFleets_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccRobomakerFleets.DataAwsccRobomakerFleets.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrobomakerfleets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrobomakerfleets"
 
 dataawsccrobomakerfleets.DataAwsccRobomakerFleets_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccrobomakerfleets.DataAwsccRobomakerFleets_IsTerraformElement(x interface
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccRobomakerFleets.DataAwsccRobomakerFleets.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrobomakerfleets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrobomakerfleets"
 
 dataawsccrobomakerfleets.DataAwsccRobomakerFleets_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccrobomakerfleets.DataAwsccRobomakerFleets_IsTerraformDataSource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccRobomakerFleets.DataAwsccRobomakerFleets.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrobomakerfleets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrobomakerfleets"
 
 dataawsccrobomakerfleets.DataAwsccRobomakerFleets_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRobomakerFleets t
 
 The id of the existing DataAwsccRobomakerFleets that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/robomaker_fleets#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/robomaker_fleets#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRobomakerFleets.DataAwsccRobomakerFleetsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrobomakerfleets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrobomakerfleets"
 
 &dataawsccrobomakerfleets.DataAwsccRobomakerFleetsConfig {
 	Connection: interface{},

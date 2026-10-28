@@ -4,12 +4,12 @@
 
 ### DataAwsccMediaconnectFlowOutputs <a name="DataAwsccMediaconnectFlowOutputs" id="@cdktn/provider-awscc.dataAwsccMediaconnectFlowOutputs.DataAwsccMediaconnectFlowOutputs"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediaconnect_flow_outputs awscc_mediaconnect_flow_outputs}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediaconnect_flow_outputs awscc_mediaconnect_flow_outputs}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediaconnectFlowOutputs.DataAwsccMediaconnectFlowOutputs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectflowoutputs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectflowoutputs"
 
 dataawsccmediaconnectflowoutputs.NewDataAwsccMediaconnectFlowOutputs(scope Construct, id *string, config DataAwsccMediaconnectFlowOutputsConfig) DataAwsccMediaconnectFlowOutputs
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccMediaconnectFlowOutputs.DataAwsccMediaconnectFlowOutputs.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectflowoutputs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectflowoutputs"
 
 dataawsccmediaconnectflowoutputs.DataAwsccMediaconnectFlowOutputs_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccMediaconnectFlowOutputs.DataAwsccMediaconnectFlowOutputs.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectflowoutputs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectflowoutputs"
 
 dataawsccmediaconnectflowoutputs.DataAwsccMediaconnectFlowOutputs_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccmediaconnectflowoutputs.DataAwsccMediaconnectFlowOutputs_IsTerraformEle
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccMediaconnectFlowOutputs.DataAwsccMediaconnectFlowOutputs.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectflowoutputs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectflowoutputs"
 
 dataawsccmediaconnectflowoutputs.DataAwsccMediaconnectFlowOutputs_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccmediaconnectflowoutputs.DataAwsccMediaconnectFlowOutputs_IsTerraformDat
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccMediaconnectFlowOutputs.DataAwsccMediaconnectFlowOutputs.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectflowoutputs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectflowoutputs"
 
 dataawsccmediaconnectflowoutputs.DataAwsccMediaconnectFlowOutputs_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccMediaconnectFlowO
 
 The id of the existing DataAwsccMediaconnectFlowOutputs that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediaconnect_flow_outputs#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediaconnect_flow_outputs#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediaconnectFlowOutputs.DataAwsccMediaconnectFlowOutputsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectflowoutputs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectflowoutputs"
 
 &dataawsccmediaconnectflowoutputs.DataAwsccMediaconnectFlowOutputsConfig {
 	Connection: interface{},

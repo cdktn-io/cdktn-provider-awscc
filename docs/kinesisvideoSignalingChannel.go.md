@@ -4,12 +4,12 @@
 
 ### KinesisvideoSignalingChannel <a name="KinesisvideoSignalingChannel" id="@cdktn/provider-awscc.kinesisvideoSignalingChannel.KinesisvideoSignalingChannel"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesisvideo_signaling_channel awscc_kinesisvideo_signaling_channel}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesisvideo_signaling_channel awscc_kinesisvideo_signaling_channel}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kinesisvideoSignalingChannel.KinesisvideoSignalingChannel.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kinesisvideosignalingchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kinesisvideosignalingchannel"
 
 kinesisvideosignalingchannel.NewKinesisvideoSignalingChannel(scope Construct, id *string, config KinesisvideoSignalingChannelConfig) KinesisvideoSignalingChannel
 ```
@@ -441,7 +441,7 @@ func ResetType()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.kinesisvideoSignalingChannel.KinesisvideoSignalingChannel.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kinesisvideosignalingchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kinesisvideosignalingchannel"
 
 kinesisvideosignalingchannel.KinesisvideoSignalingChannel_IsConstruct(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.kinesisvideoSignalingChannel.KinesisvideoSignalingChannel.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kinesisvideosignalingchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kinesisvideosignalingchannel"
 
 kinesisvideosignalingchannel.KinesisvideoSignalingChannel_IsTerraformElement(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ kinesisvideosignalingchannel.KinesisvideoSignalingChannel_IsTerraformElement(x i
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.kinesisvideoSignalingChannel.KinesisvideoSignalingChannel.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kinesisvideosignalingchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kinesisvideosignalingchannel"
 
 kinesisvideosignalingchannel.KinesisvideoSignalingChannel_IsTerraformResource(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ kinesisvideosignalingchannel.KinesisvideoSignalingChannel_IsTerraformResource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.kinesisvideoSignalingChannel.KinesisvideoSignalingChannel.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kinesisvideosignalingchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kinesisvideosignalingchannel"
 
 kinesisvideosignalingchannel.KinesisvideoSignalingChannel_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -530,7 +530,7 @@ The construct id used in the generated config for the KinesisvideoSignalingChann
 
 The id of the existing KinesisvideoSignalingChannel that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesisvideo_signaling_channel#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesisvideo_signaling_channel#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -840,7 +840,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.kinesisvideoSignalingChannel.KinesisvideoSignalingChannelConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kinesisvideosignalingchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kinesisvideosignalingchannel"
 
 &kinesisvideosignalingchannel.KinesisvideoSignalingChannelConfig {
 	Connection: interface{},
@@ -955,7 +955,7 @@ MessageTtlSeconds *f64
 
 The period of time a signaling channel retains undelivered messages before they are discarded.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesisvideo_signaling_channel#message_ttl_seconds KinesisvideoSignalingChannel#message_ttl_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesisvideo_signaling_channel#message_ttl_seconds KinesisvideoSignalingChannel#message_ttl_seconds}
 
 ---
 
@@ -969,7 +969,7 @@ Name *string
 
 The name of the Kinesis Video Signaling Channel.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesisvideo_signaling_channel#name KinesisvideoSignalingChannel#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesisvideo_signaling_channel#name KinesisvideoSignalingChannel#name}
 
 ---
 
@@ -983,7 +983,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesisvideo_signaling_channel#tags KinesisvideoSignalingChannel#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesisvideo_signaling_channel#tags KinesisvideoSignalingChannel#tags}
 
 ---
 
@@ -997,7 +997,7 @@ Type *string
 
 The type of the Kinesis Video Signaling Channel to create. Currently, SINGLE_MASTER is the only supported channel type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesisvideo_signaling_channel#type KinesisvideoSignalingChannel#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesisvideo_signaling_channel#type KinesisvideoSignalingChannel#type}
 
 ---
 
@@ -1006,7 +1006,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.kinesisvideoSignalingChannel.KinesisvideoSignalingChannelTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kinesisvideosignalingchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kinesisvideosignalingchannel"
 
 &kinesisvideosignalingchannel.KinesisvideoSignalingChannelTags {
 	Key: *string,
@@ -1035,7 +1035,7 @@ The key name of the tag.
 
 Specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. The following characters can be used: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesisvideo_signaling_channel#key KinesisvideoSignalingChannel#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesisvideo_signaling_channel#key KinesisvideoSignalingChannel#key}
 
 ---
 
@@ -1051,7 +1051,7 @@ The value for the tag.
 
 Specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:.  The following characters can be used: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesisvideo_signaling_channel#value KinesisvideoSignalingChannel#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesisvideo_signaling_channel#value KinesisvideoSignalingChannel#value}
 
 ---
 
@@ -1062,7 +1062,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kinesisvideoSignalingChannel.KinesisvideoSignalingChannelTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kinesisvideosignalingchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kinesisvideosignalingchannel"
 
 kinesisvideosignalingchannel.NewKinesisvideoSignalingChannelTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) KinesisvideoSignalingChannelTagsList
 ```
@@ -1222,7 +1222,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kinesisvideoSignalingChannel.KinesisvideoSignalingChannelTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kinesisvideosignalingchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kinesisvideosignalingchannel"
 
 kinesisvideosignalingchannel.NewKinesisvideoSignalingChannelTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) KinesisvideoSignalingChannelTagsOutputReference
 ```

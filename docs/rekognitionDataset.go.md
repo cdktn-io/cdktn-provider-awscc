@@ -4,12 +4,12 @@
 
 ### RekognitionDataset <a name="RekognitionDataset" id="@cdktn/provider-awscc.rekognitionDataset.RekognitionDataset"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rekognition_dataset awscc_rekognition_dataset}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rekognition_dataset awscc_rekognition_dataset}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.rekognitionDataset.RekognitionDataset.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rekognitiondataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rekognitiondataset"
 
 rekognitiondataset.NewRekognitionDataset(scope Construct, id *string, config RekognitionDatasetConfig) RekognitionDataset
 ```
@@ -427,7 +427,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.rekognitionDataset.RekognitionDataset.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rekognitiondataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rekognitiondataset"
 
 rekognitiondataset.RekognitionDataset_IsConstruct(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.rekognitionDataset.RekognitionDataset.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rekognitiondataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rekognitiondataset"
 
 rekognitiondataset.RekognitionDataset_IsTerraformElement(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ rekognitiondataset.RekognitionDataset_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.rekognitionDataset.RekognitionDataset.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rekognitiondataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rekognitiondataset"
 
 rekognitiondataset.RekognitionDataset_IsTerraformResource(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ rekognitiondataset.RekognitionDataset_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.rekognitionDataset.RekognitionDataset.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rekognitiondataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rekognitiondataset"
 
 rekognitiondataset.RekognitionDataset_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -516,7 +516,7 @@ The construct id used in the generated config for the RekognitionDataset to impo
 
 The id of the existing RekognitionDataset that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rekognition_dataset#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rekognition_dataset#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -804,7 +804,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.rekognitionDataset.RekognitionDatasetConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rekognitiondataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rekognitiondataset"
 
 &rekognitiondataset.RekognitionDatasetConfig {
 	Connection: interface{},
@@ -917,7 +917,7 @@ DatasetType *string
 
 The type of the dataset. Specify TRAIN to create a training dataset. Specify TEST to create a test dataset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rekognition_dataset#dataset_type RekognitionDataset#dataset_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rekognition_dataset#dataset_type RekognitionDataset#dataset_type}
 
 ---
 
@@ -931,7 +931,7 @@ ProjectArn *string
 
 The ARN of the project to which the dataset belongs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rekognition_dataset#project_arn RekognitionDataset#project_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rekognition_dataset#project_arn RekognitionDataset#project_arn}
 
 ---
 
@@ -945,7 +945,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rekognition_dataset#tags RekognitionDataset#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rekognition_dataset#tags RekognitionDataset#tags}
 
 ---
 
@@ -954,7 +954,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.rekognitionDataset.RekognitionDatasetTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rekognitiondataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rekognitiondataset"
 
 &rekognitiondataset.RekognitionDatasetTags {
 	Key: *string,
@@ -981,7 +981,7 @@ Key *string
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rekognition_dataset#key RekognitionDataset#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rekognition_dataset#key RekognitionDataset#key}
 
 ---
 
@@ -995,7 +995,7 @@ Value *string
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rekognition_dataset#value RekognitionDataset#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rekognition_dataset#value RekognitionDataset#value}
 
 ---
 
@@ -1006,7 +1006,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.rekognitionDataset.RekognitionDatasetTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rekognitiondataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rekognitiondataset"
 
 rekognitiondataset.NewRekognitionDatasetTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) RekognitionDatasetTagsList
 ```
@@ -1166,7 +1166,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.rekognitionDataset.RekognitionDatasetTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rekognitiondataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rekognitiondataset"
 
 rekognitiondataset.NewRekognitionDatasetTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) RekognitionDatasetTagsOutputReference
 ```

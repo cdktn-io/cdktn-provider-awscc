@@ -4,12 +4,12 @@
 
 ### DataAwsccElasticloadbalancingv2TargetGroups <a name="DataAwsccElasticloadbalancingv2TargetGroups" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2TargetGroups.DataAwsccElasticloadbalancingv2TargetGroups"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/elasticloadbalancingv2_target_groups awscc_elasticloadbalancingv2_target_groups}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/elasticloadbalancingv2_target_groups awscc_elasticloadbalancingv2_target_groups}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2TargetGroups.DataAwsccElasticloadbalancingv2TargetGroups.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2targetgroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2targetgroups"
 
 dataawsccelasticloadbalancingv2targetgroups.NewDataAwsccElasticloadbalancingv2TargetGroups(scope Construct, id *string, config DataAwsccElasticloadbalancingv2TargetGroupsConfig) DataAwsccElasticloadbalancingv2TargetGroups
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2TargetGroups.DataAwsccElasticloadbalancingv2TargetGroups.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2targetgroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2targetgroups"
 
 dataawsccelasticloadbalancingv2targetgroups.DataAwsccElasticloadbalancingv2TargetGroups_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2TargetGroups.DataAwsccElasticloadbalancingv2TargetGroups.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2targetgroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2targetgroups"
 
 dataawsccelasticloadbalancingv2targetgroups.DataAwsccElasticloadbalancingv2TargetGroups_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccelasticloadbalancingv2targetgroups.DataAwsccElasticloadbalancingv2Targe
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2TargetGroups.DataAwsccElasticloadbalancingv2TargetGroups.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2targetgroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2targetgroups"
 
 dataawsccelasticloadbalancingv2targetgroups.DataAwsccElasticloadbalancingv2TargetGroups_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccelasticloadbalancingv2targetgroups.DataAwsccElasticloadbalancingv2Targe
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2TargetGroups.DataAwsccElasticloadbalancingv2TargetGroups.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2targetgroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2targetgroups"
 
 dataawsccelasticloadbalancingv2targetgroups.DataAwsccElasticloadbalancingv2TargetGroups_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccElasticloadbalanc
 
 The id of the existing DataAwsccElasticloadbalancingv2TargetGroups that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/elasticloadbalancingv2_target_groups#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/elasticloadbalancingv2_target_groups#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2TargetGroups.DataAwsccElasticloadbalancingv2TargetGroupsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticloadbalancingv2targetgroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticloadbalancingv2targetgroups"
 
 &dataawsccelasticloadbalancingv2targetgroups.DataAwsccElasticloadbalancingv2TargetGroupsConfig {
 	Connection: interface{},

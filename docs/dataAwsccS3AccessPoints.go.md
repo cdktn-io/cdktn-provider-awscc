@@ -4,12 +4,12 @@
 
 ### DataAwsccS3AccessPoints <a name="DataAwsccS3AccessPoints" id="@cdktn/provider-awscc.dataAwsccS3AccessPoints.DataAwsccS3AccessPoints"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3_access_points awscc_s3_access_points}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3_access_points awscc_s3_access_points}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3AccessPoints.DataAwsccS3AccessPoints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3accesspoints"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3accesspoints"
 
 dataawsccs3accesspoints.NewDataAwsccS3AccessPoints(scope Construct, id *string, config DataAwsccS3AccessPointsConfig) DataAwsccS3AccessPoints
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccS3AccessPoints.DataAwsccS3AccessPoints.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3accesspoints"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3accesspoints"
 
 dataawsccs3accesspoints.DataAwsccS3AccessPoints_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccS3AccessPoints.DataAwsccS3AccessPoints.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3accesspoints"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3accesspoints"
 
 dataawsccs3accesspoints.DataAwsccS3AccessPoints_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccs3accesspoints.DataAwsccS3AccessPoints_IsTerraformElement(x interface{}
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccS3AccessPoints.DataAwsccS3AccessPoints.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3accesspoints"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3accesspoints"
 
 dataawsccs3accesspoints.DataAwsccS3AccessPoints_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccs3accesspoints.DataAwsccS3AccessPoints_IsTerraformDataSource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccS3AccessPoints.DataAwsccS3AccessPoints.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3accesspoints"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3accesspoints"
 
 dataawsccs3accesspoints.DataAwsccS3AccessPoints_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccS3AccessPoints to
 
 The id of the existing DataAwsccS3AccessPoints that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3_access_points#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3_access_points#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3AccessPoints.DataAwsccS3AccessPointsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3accesspoints"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3accesspoints"
 
 &dataawsccs3accesspoints.DataAwsccS3AccessPointsConfig {
 	Connection: interface{},

@@ -4,12 +4,12 @@
 
 ### DataAwsccDatazonePolicyGrant <a name="DataAwsccDatazonePolicyGrant" id="@cdktn/provider-awscc.dataAwsccDatazonePolicyGrant.DataAwsccDatazonePolicyGrant"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datazone_policy_grant awscc_datazone_policy_grant}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datazone_policy_grant awscc_datazone_policy_grant}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatazonePolicyGrant.DataAwsccDatazonePolicyGrant.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonepolicygrant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazonepolicygrant"
 
 dataawsccdatazonepolicygrant.NewDataAwsccDatazonePolicyGrant(scope Construct, id *string, config DataAwsccDatazonePolicyGrantConfig) DataAwsccDatazonePolicyGrant
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccDatazonePolicyGrant.DataAwsccDatazonePolicyGrant.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonepolicygrant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazonepolicygrant"
 
 dataawsccdatazonepolicygrant.DataAwsccDatazonePolicyGrant_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccDatazonePolicyGrant.DataAwsccDatazonePolicyGrant.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonepolicygrant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazonepolicygrant"
 
 dataawsccdatazonepolicygrant.DataAwsccDatazonePolicyGrant_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccdatazonepolicygrant.DataAwsccDatazonePolicyGrant_IsTerraformElement(x i
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccDatazonePolicyGrant.DataAwsccDatazonePolicyGrant.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonepolicygrant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazonepolicygrant"
 
 dataawsccdatazonepolicygrant.DataAwsccDatazonePolicyGrant_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccdatazonepolicygrant.DataAwsccDatazonePolicyGrant_IsTerraformDataSource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccDatazonePolicyGrant.DataAwsccDatazonePolicyGrant.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonepolicygrant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazonepolicygrant"
 
 dataawsccdatazonepolicygrant.DataAwsccDatazonePolicyGrant_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDatazonePolicyGra
 
 The id of the existing DataAwsccDatazonePolicyGrant that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datazone_policy_grant#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datazone_policy_grant#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -686,7 +686,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatazonePolicyGrant.DataAwsccDatazonePolicyGrantConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonepolicygrant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazonepolicygrant"
 
 &dataawsccdatazonepolicygrant.DataAwsccDatazonePolicyGrantConfig {
 	Connection: interface{},
@@ -795,7 +795,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datazone_policy_grant#id DataAwsccDatazonePolicyGrant#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datazone_policy_grant#id DataAwsccDatazonePolicyGrant#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -807,7 +807,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatazonePolicyGrant.DataAwsccDatazonePolicyGrantDetail.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonepolicygrant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazonepolicygrant"
 
 &dataawsccdatazonepolicygrant.DataAwsccDatazonePolicyGrantDetail {
 
@@ -820,7 +820,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonepolic
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatazonePolicyGrant.DataAwsccDatazonePolicyGrantDetailAddToProjectMemberPool.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonepolicygrant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazonepolicygrant"
 
 &dataawsccdatazonepolicygrant.DataAwsccDatazonePolicyGrantDetailAddToProjectMemberPool {
 
@@ -833,7 +833,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonepolic
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatazonePolicyGrant.DataAwsccDatazonePolicyGrantDetailCreateAssetType.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonepolicygrant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazonepolicygrant"
 
 &dataawsccdatazonepolicygrant.DataAwsccDatazonePolicyGrantDetailCreateAssetType {
 
@@ -846,7 +846,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonepolic
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatazonePolicyGrant.DataAwsccDatazonePolicyGrantDetailCreateDomainUnit.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonepolicygrant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazonepolicygrant"
 
 &dataawsccdatazonepolicygrant.DataAwsccDatazonePolicyGrantDetailCreateDomainUnit {
 
@@ -859,7 +859,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonepolic
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatazonePolicyGrant.DataAwsccDatazonePolicyGrantDetailCreateEnvironmentProfile.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonepolicygrant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazonepolicygrant"
 
 &dataawsccdatazonepolicygrant.DataAwsccDatazonePolicyGrantDetailCreateEnvironmentProfile {
 
@@ -872,7 +872,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonepolic
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatazonePolicyGrant.DataAwsccDatazonePolicyGrantDetailCreateFormType.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonepolicygrant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazonepolicygrant"
 
 &dataawsccdatazonepolicygrant.DataAwsccDatazonePolicyGrantDetailCreateFormType {
 
@@ -885,7 +885,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonepolic
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatazonePolicyGrant.DataAwsccDatazonePolicyGrantDetailCreateGlossary.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonepolicygrant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazonepolicygrant"
 
 &dataawsccdatazonepolicygrant.DataAwsccDatazonePolicyGrantDetailCreateGlossary {
 
@@ -898,7 +898,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonepolic
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatazonePolicyGrant.DataAwsccDatazonePolicyGrantDetailCreateProject.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonepolicygrant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazonepolicygrant"
 
 &dataawsccdatazonepolicygrant.DataAwsccDatazonePolicyGrantDetailCreateProject {
 
@@ -911,7 +911,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonepolic
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatazonePolicyGrant.DataAwsccDatazonePolicyGrantDetailCreateProjectFromProjectProfile.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonepolicygrant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazonepolicygrant"
 
 &dataawsccdatazonepolicygrant.DataAwsccDatazonePolicyGrantDetailCreateProjectFromProjectProfile {
 
@@ -924,7 +924,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonepolic
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatazonePolicyGrant.DataAwsccDatazonePolicyGrantDetailOverrideDomainUnitOwners.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonepolicygrant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazonepolicygrant"
 
 &dataawsccdatazonepolicygrant.DataAwsccDatazonePolicyGrantDetailOverrideDomainUnitOwners {
 
@@ -937,7 +937,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonepolic
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatazonePolicyGrant.DataAwsccDatazonePolicyGrantDetailOverrideProjectOwners.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonepolicygrant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazonepolicygrant"
 
 &dataawsccdatazonepolicygrant.DataAwsccDatazonePolicyGrantDetailOverrideProjectOwners {
 
@@ -950,7 +950,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonepolic
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatazonePolicyGrant.DataAwsccDatazonePolicyGrantPrincipal.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonepolicygrant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazonepolicygrant"
 
 &dataawsccdatazonepolicygrant.DataAwsccDatazonePolicyGrantPrincipal {
 
@@ -963,7 +963,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonepolic
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatazonePolicyGrant.DataAwsccDatazonePolicyGrantPrincipalDomainUnit.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonepolicygrant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazonepolicygrant"
 
 &dataawsccdatazonepolicygrant.DataAwsccDatazonePolicyGrantPrincipalDomainUnit {
 
@@ -976,7 +976,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonepolic
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatazonePolicyGrant.DataAwsccDatazonePolicyGrantPrincipalDomainUnitDomainUnitGrantFilter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonepolicygrant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazonepolicygrant"
 
 &dataawsccdatazonepolicygrant.DataAwsccDatazonePolicyGrantPrincipalDomainUnitDomainUnitGrantFilter {
 
@@ -989,7 +989,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonepolic
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatazonePolicyGrant.DataAwsccDatazonePolicyGrantPrincipalGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonepolicygrant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazonepolicygrant"
 
 &dataawsccdatazonepolicygrant.DataAwsccDatazonePolicyGrantPrincipalGroup {
 
@@ -1002,7 +1002,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonepolic
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatazonePolicyGrant.DataAwsccDatazonePolicyGrantPrincipalProject.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonepolicygrant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazonepolicygrant"
 
 &dataawsccdatazonepolicygrant.DataAwsccDatazonePolicyGrantPrincipalProject {
 
@@ -1015,7 +1015,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonepolic
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatazonePolicyGrant.DataAwsccDatazonePolicyGrantPrincipalProjectProjectGrantFilter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonepolicygrant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazonepolicygrant"
 
 &dataawsccdatazonepolicygrant.DataAwsccDatazonePolicyGrantPrincipalProjectProjectGrantFilter {
 
@@ -1028,7 +1028,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonepolic
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatazonePolicyGrant.DataAwsccDatazonePolicyGrantPrincipalProjectProjectGrantFilterDomainUnitFilter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonepolicygrant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazonepolicygrant"
 
 &dataawsccdatazonepolicygrant.DataAwsccDatazonePolicyGrantPrincipalProjectProjectGrantFilterDomainUnitFilter {
 
@@ -1041,7 +1041,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonepolic
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatazonePolicyGrant.DataAwsccDatazonePolicyGrantPrincipalUser.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonepolicygrant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazonepolicygrant"
 
 &dataawsccdatazonepolicygrant.DataAwsccDatazonePolicyGrantPrincipalUser {
 
@@ -1056,7 +1056,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonepolic
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatazonePolicyGrant.DataAwsccDatazonePolicyGrantDetailAddToProjectMemberPoolOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonepolicygrant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazonepolicygrant"
 
 dataawsccdatazonepolicygrant.NewDataAwsccDatazonePolicyGrantDetailAddToProjectMemberPoolOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatazonePolicyGrantDetailAddToProjectMemberPoolOutputReference
 ```
@@ -1316,7 +1316,7 @@ func InternalValue() DataAwsccDatazonePolicyGrantDetailAddToProjectMemberPool
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatazonePolicyGrant.DataAwsccDatazonePolicyGrantDetailCreateAssetTypeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonepolicygrant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazonepolicygrant"
 
 dataawsccdatazonepolicygrant.NewDataAwsccDatazonePolicyGrantDetailCreateAssetTypeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatazonePolicyGrantDetailCreateAssetTypeOutputReference
 ```
@@ -1576,7 +1576,7 @@ func InternalValue() DataAwsccDatazonePolicyGrantDetailCreateAssetType
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatazonePolicyGrant.DataAwsccDatazonePolicyGrantDetailCreateDomainUnitOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonepolicygrant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazonepolicygrant"
 
 dataawsccdatazonepolicygrant.NewDataAwsccDatazonePolicyGrantDetailCreateDomainUnitOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatazonePolicyGrantDetailCreateDomainUnitOutputReference
 ```
@@ -1836,7 +1836,7 @@ func InternalValue() DataAwsccDatazonePolicyGrantDetailCreateDomainUnit
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatazonePolicyGrant.DataAwsccDatazonePolicyGrantDetailCreateEnvironmentProfileOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonepolicygrant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazonepolicygrant"
 
 dataawsccdatazonepolicygrant.NewDataAwsccDatazonePolicyGrantDetailCreateEnvironmentProfileOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatazonePolicyGrantDetailCreateEnvironmentProfileOutputReference
 ```
@@ -2096,7 +2096,7 @@ func InternalValue() DataAwsccDatazonePolicyGrantDetailCreateEnvironmentProfile
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatazonePolicyGrant.DataAwsccDatazonePolicyGrantDetailCreateFormTypeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonepolicygrant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazonepolicygrant"
 
 dataawsccdatazonepolicygrant.NewDataAwsccDatazonePolicyGrantDetailCreateFormTypeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatazonePolicyGrantDetailCreateFormTypeOutputReference
 ```
@@ -2356,7 +2356,7 @@ func InternalValue() DataAwsccDatazonePolicyGrantDetailCreateFormType
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatazonePolicyGrant.DataAwsccDatazonePolicyGrantDetailCreateGlossaryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonepolicygrant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazonepolicygrant"
 
 dataawsccdatazonepolicygrant.NewDataAwsccDatazonePolicyGrantDetailCreateGlossaryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatazonePolicyGrantDetailCreateGlossaryOutputReference
 ```
@@ -2616,7 +2616,7 @@ func InternalValue() DataAwsccDatazonePolicyGrantDetailCreateGlossary
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatazonePolicyGrant.DataAwsccDatazonePolicyGrantDetailCreateProjectFromProjectProfileOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonepolicygrant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazonepolicygrant"
 
 dataawsccdatazonepolicygrant.NewDataAwsccDatazonePolicyGrantDetailCreateProjectFromProjectProfileOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatazonePolicyGrantDetailCreateProjectFromProjectProfileOutputReference
 ```
@@ -2887,7 +2887,7 @@ func InternalValue() DataAwsccDatazonePolicyGrantDetailCreateProjectFromProjectP
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatazonePolicyGrant.DataAwsccDatazonePolicyGrantDetailCreateProjectOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonepolicygrant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazonepolicygrant"
 
 dataawsccdatazonepolicygrant.NewDataAwsccDatazonePolicyGrantDetailCreateProjectOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatazonePolicyGrantDetailCreateProjectOutputReference
 ```
@@ -3147,7 +3147,7 @@ func InternalValue() DataAwsccDatazonePolicyGrantDetailCreateProject
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatazonePolicyGrant.DataAwsccDatazonePolicyGrantDetailOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonepolicygrant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazonepolicygrant"
 
 dataawsccdatazonepolicygrant.NewDataAwsccDatazonePolicyGrantDetailOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatazonePolicyGrantDetailOutputReference
 ```
@@ -3539,7 +3539,7 @@ func InternalValue() DataAwsccDatazonePolicyGrantDetail
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatazonePolicyGrant.DataAwsccDatazonePolicyGrantDetailOverrideDomainUnitOwnersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonepolicygrant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazonepolicygrant"
 
 dataawsccdatazonepolicygrant.NewDataAwsccDatazonePolicyGrantDetailOverrideDomainUnitOwnersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatazonePolicyGrantDetailOverrideDomainUnitOwnersOutputReference
 ```
@@ -3799,7 +3799,7 @@ func InternalValue() DataAwsccDatazonePolicyGrantDetailOverrideDomainUnitOwners
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatazonePolicyGrant.DataAwsccDatazonePolicyGrantDetailOverrideProjectOwnersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonepolicygrant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazonepolicygrant"
 
 dataawsccdatazonepolicygrant.NewDataAwsccDatazonePolicyGrantDetailOverrideProjectOwnersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatazonePolicyGrantDetailOverrideProjectOwnersOutputReference
 ```
@@ -4059,7 +4059,7 @@ func InternalValue() DataAwsccDatazonePolicyGrantDetailOverrideProjectOwners
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatazonePolicyGrant.DataAwsccDatazonePolicyGrantPrincipalDomainUnitDomainUnitGrantFilterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonepolicygrant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazonepolicygrant"
 
 dataawsccdatazonepolicygrant.NewDataAwsccDatazonePolicyGrantPrincipalDomainUnitDomainUnitGrantFilterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatazonePolicyGrantPrincipalDomainUnitDomainUnitGrantFilterOutputReference
 ```
@@ -4319,7 +4319,7 @@ func InternalValue() DataAwsccDatazonePolicyGrantPrincipalDomainUnitDomainUnitGr
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatazonePolicyGrant.DataAwsccDatazonePolicyGrantPrincipalDomainUnitOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonepolicygrant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazonepolicygrant"
 
 dataawsccdatazonepolicygrant.NewDataAwsccDatazonePolicyGrantPrincipalDomainUnitOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatazonePolicyGrantPrincipalDomainUnitOutputReference
 ```
@@ -4601,7 +4601,7 @@ func InternalValue() DataAwsccDatazonePolicyGrantPrincipalDomainUnit
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatazonePolicyGrant.DataAwsccDatazonePolicyGrantPrincipalGroupOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonepolicygrant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazonepolicygrant"
 
 dataawsccdatazonepolicygrant.NewDataAwsccDatazonePolicyGrantPrincipalGroupOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatazonePolicyGrantPrincipalGroupOutputReference
 ```
@@ -4861,7 +4861,7 @@ func InternalValue() DataAwsccDatazonePolicyGrantPrincipalGroup
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatazonePolicyGrant.DataAwsccDatazonePolicyGrantPrincipalOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonepolicygrant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazonepolicygrant"
 
 dataawsccdatazonepolicygrant.NewDataAwsccDatazonePolicyGrantPrincipalOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatazonePolicyGrantPrincipalOutputReference
 ```
@@ -5154,7 +5154,7 @@ func InternalValue() DataAwsccDatazonePolicyGrantPrincipal
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatazonePolicyGrant.DataAwsccDatazonePolicyGrantPrincipalProjectOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonepolicygrant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazonepolicygrant"
 
 dataawsccdatazonepolicygrant.NewDataAwsccDatazonePolicyGrantPrincipalProjectOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatazonePolicyGrantPrincipalProjectOutputReference
 ```
@@ -5436,7 +5436,7 @@ func InternalValue() DataAwsccDatazonePolicyGrantPrincipalProject
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatazonePolicyGrant.DataAwsccDatazonePolicyGrantPrincipalProjectProjectGrantFilterDomainUnitFilterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonepolicygrant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazonepolicygrant"
 
 dataawsccdatazonepolicygrant.NewDataAwsccDatazonePolicyGrantPrincipalProjectProjectGrantFilterDomainUnitFilterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatazonePolicyGrantPrincipalProjectProjectGrantFilterDomainUnitFilterOutputReference
 ```
@@ -5707,7 +5707,7 @@ func InternalValue() DataAwsccDatazonePolicyGrantPrincipalProjectProjectGrantFil
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatazonePolicyGrant.DataAwsccDatazonePolicyGrantPrincipalProjectProjectGrantFilterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonepolicygrant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazonepolicygrant"
 
 dataawsccdatazonepolicygrant.NewDataAwsccDatazonePolicyGrantPrincipalProjectProjectGrantFilterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatazonePolicyGrantPrincipalProjectProjectGrantFilterOutputReference
 ```
@@ -5967,7 +5967,7 @@ func InternalValue() DataAwsccDatazonePolicyGrantPrincipalProjectProjectGrantFil
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatazonePolicyGrant.DataAwsccDatazonePolicyGrantPrincipalUserOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazonepolicygrant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazonepolicygrant"
 
 dataawsccdatazonepolicygrant.NewDataAwsccDatazonePolicyGrantPrincipalUserOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatazonePolicyGrantPrincipalUserOutputReference
 ```

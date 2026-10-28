@@ -4,12 +4,12 @@
 
 ### ConnectSecurityKey <a name="ConnectSecurityKey" id="@cdktn/provider-awscc.connectSecurityKey.ConnectSecurityKey"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_security_key awscc_connect_security_key}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_security_key awscc_connect_security_key}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectSecurityKey.ConnectSecurityKey.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectsecuritykey"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectsecuritykey"
 
 connectsecuritykey.NewConnectSecurityKey(scope Construct, id *string, config ConnectSecurityKeyConfig) ConnectSecurityKey
 ```
@@ -400,7 +400,7 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.connectSecurityKey.ConnectSecurityKey.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectsecuritykey"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectsecuritykey"
 
 connectsecuritykey.ConnectSecurityKey_IsConstruct(x interface{}) *bool
 ```
@@ -432,7 +432,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.connectSecurityKey.ConnectSecurityKey.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectsecuritykey"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectsecuritykey"
 
 connectsecuritykey.ConnectSecurityKey_IsTerraformElement(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ connectsecuritykey.ConnectSecurityKey_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.connectSecurityKey.ConnectSecurityKey.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectsecuritykey"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectsecuritykey"
 
 connectsecuritykey.ConnectSecurityKey_IsTerraformResource(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ connectsecuritykey.ConnectSecurityKey_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.connectSecurityKey.ConnectSecurityKey.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectsecuritykey"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectsecuritykey"
 
 connectsecuritykey.ConnectSecurityKey_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -489,7 +489,7 @@ The construct id used in the generated config for the ConnectSecurityKey to impo
 
 The id of the existing ConnectSecurityKey that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_security_key#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_security_key#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -755,7 +755,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectSecurityKey.ConnectSecurityKeyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectsecuritykey"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectsecuritykey"
 
 &connectsecuritykey.ConnectSecurityKeyConfig {
 	Connection: interface{},
@@ -866,7 +866,7 @@ InstanceId *string
 
 Amazon Connect instance identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_security_key#instance_id ConnectSecurityKey#instance_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_security_key#instance_id ConnectSecurityKey#instance_id}
 
 ---
 
@@ -880,7 +880,7 @@ Key *string
 
 A valid security key in PEM format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_security_key#key ConnectSecurityKey#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_security_key#key ConnectSecurityKey#key}
 
 ---
 

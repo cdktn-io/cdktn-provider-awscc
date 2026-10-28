@@ -4,12 +4,12 @@
 
 ### DataAwsccRedshiftEventSubscription <a name="DataAwsccRedshiftEventSubscription" id="@cdktn/provider-awscc.dataAwsccRedshiftEventSubscription.DataAwsccRedshiftEventSubscription"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/redshift_event_subscription awscc_redshift_event_subscription}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/redshift_event_subscription awscc_redshift_event_subscription}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRedshiftEventSubscription.DataAwsccRedshiftEventSubscription.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshifteventsubscription"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshifteventsubscription"
 
 dataawsccredshifteventsubscription.NewDataAwsccRedshiftEventSubscription(scope Construct, id *string, config DataAwsccRedshiftEventSubscriptionConfig) DataAwsccRedshiftEventSubscription
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccRedshiftEventSubscription.DataAwsccRedshiftEventSubscription.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshifteventsubscription"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshifteventsubscription"
 
 dataawsccredshifteventsubscription.DataAwsccRedshiftEventSubscription_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccRedshiftEventSubscription.DataAwsccRedshiftEventSubscription.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshifteventsubscription"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshifteventsubscription"
 
 dataawsccredshifteventsubscription.DataAwsccRedshiftEventSubscription_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccredshifteventsubscription.DataAwsccRedshiftEventSubscription_IsTerrafor
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccRedshiftEventSubscription.DataAwsccRedshiftEventSubscription.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshifteventsubscription"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshifteventsubscription"
 
 dataawsccredshifteventsubscription.DataAwsccRedshiftEventSubscription_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccredshifteventsubscription.DataAwsccRedshiftEventSubscription_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccRedshiftEventSubscription.DataAwsccRedshiftEventSubscription.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshifteventsubscription"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshifteventsubscription"
 
 dataawsccredshifteventsubscription.DataAwsccRedshiftEventSubscription_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRedshiftEventSubs
 
 The id of the existing DataAwsccRedshiftEventSubscription that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/redshift_event_subscription#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/redshift_event_subscription#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -741,7 +741,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRedshiftEventSubscription.DataAwsccRedshiftEventSubscriptionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshifteventsubscription"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshifteventsubscription"
 
 &dataawsccredshifteventsubscription.DataAwsccRedshiftEventSubscriptionConfig {
 	Connection: interface{},
@@ -850,7 +850,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/redshift_event_subscription#id DataAwsccRedshiftEventSubscription#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/redshift_event_subscription#id DataAwsccRedshiftEventSubscription#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -862,7 +862,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRedshiftEventSubscription.DataAwsccRedshiftEventSubscriptionTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshifteventsubscription"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshifteventsubscription"
 
 &dataawsccredshifteventsubscription.DataAwsccRedshiftEventSubscriptionTags {
 
@@ -877,7 +877,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftevent
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRedshiftEventSubscription.DataAwsccRedshiftEventSubscriptionTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshifteventsubscription"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshifteventsubscription"
 
 dataawsccredshifteventsubscription.NewDataAwsccRedshiftEventSubscriptionTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccRedshiftEventSubscriptionTagsList
 ```
@@ -1026,7 +1026,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRedshiftEventSubscription.DataAwsccRedshiftEventSubscriptionTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshifteventsubscription"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshifteventsubscription"
 
 dataawsccredshifteventsubscription.NewDataAwsccRedshiftEventSubscriptionTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccRedshiftEventSubscriptionTagsOutputReference
 ```

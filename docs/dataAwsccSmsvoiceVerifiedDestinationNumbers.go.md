@@ -4,12 +4,12 @@
 
 ### DataAwsccSmsvoiceVerifiedDestinationNumbers <a name="DataAwsccSmsvoiceVerifiedDestinationNumbers" id="@cdktn/provider-awscc.dataAwsccSmsvoiceVerifiedDestinationNumbers.DataAwsccSmsvoiceVerifiedDestinationNumbers"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/smsvoice_verified_destination_numbers awscc_smsvoice_verified_destination_numbers}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/smsvoice_verified_destination_numbers awscc_smsvoice_verified_destination_numbers}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSmsvoiceVerifiedDestinationNumbers.DataAwsccSmsvoiceVerifiedDestinationNumbers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoiceverifieddestinationnumbers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoiceverifieddestinationnumbers"
 
 dataawsccsmsvoiceverifieddestinationnumbers.NewDataAwsccSmsvoiceVerifiedDestinationNumbers(scope Construct, id *string, config DataAwsccSmsvoiceVerifiedDestinationNumbersConfig) DataAwsccSmsvoiceVerifiedDestinationNumbers
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSmsvoiceVerifiedDestinationNumbers.DataAwsccSmsvoiceVerifiedDestinationNumbers.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoiceverifieddestinationnumbers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoiceverifieddestinationnumbers"
 
 dataawsccsmsvoiceverifieddestinationnumbers.DataAwsccSmsvoiceVerifiedDestinationNumbers_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSmsvoiceVerifiedDestinationNumbers.DataAwsccSmsvoiceVerifiedDestinationNumbers.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoiceverifieddestinationnumbers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoiceverifieddestinationnumbers"
 
 dataawsccsmsvoiceverifieddestinationnumbers.DataAwsccSmsvoiceVerifiedDestinationNumbers_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsmsvoiceverifieddestinationnumbers.DataAwsccSmsvoiceVerifiedDestination
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSmsvoiceVerifiedDestinationNumbers.DataAwsccSmsvoiceVerifiedDestinationNumbers.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoiceverifieddestinationnumbers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoiceverifieddestinationnumbers"
 
 dataawsccsmsvoiceverifieddestinationnumbers.DataAwsccSmsvoiceVerifiedDestinationNumbers_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsmsvoiceverifieddestinationnumbers.DataAwsccSmsvoiceVerifiedDestination
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSmsvoiceVerifiedDestinationNumbers.DataAwsccSmsvoiceVerifiedDestinationNumbers.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoiceverifieddestinationnumbers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoiceverifieddestinationnumbers"
 
 dataawsccsmsvoiceverifieddestinationnumbers.DataAwsccSmsvoiceVerifiedDestinationNumbers_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSmsvoiceVerifiedD
 
 The id of the existing DataAwsccSmsvoiceVerifiedDestinationNumbers that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/smsvoice_verified_destination_numbers#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/smsvoice_verified_destination_numbers#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSmsvoiceVerifiedDestinationNumbers.DataAwsccSmsvoiceVerifiedDestinationNumbersConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoiceverifieddestinationnumbers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoiceverifieddestinationnumbers"
 
 &dataawsccsmsvoiceverifieddestinationnumbers.DataAwsccSmsvoiceVerifiedDestinationNumbersConfig {
 	Connection: interface{},

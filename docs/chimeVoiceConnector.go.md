@@ -4,12 +4,12 @@
 
 ### ChimeVoiceConnector <a name="ChimeVoiceConnector" id="@cdktn/provider-awscc.chimeVoiceConnector.ChimeVoiceConnector"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/chime_voice_connector awscc_chime_voice_connector}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/chime_voice_connector awscc_chime_voice_connector}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.chimeVoiceConnector.ChimeVoiceConnector.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/chimevoiceconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/chimevoiceconnector"
 
 chimevoiceconnector.NewChimeVoiceConnector(scope Construct, id *string, config ChimeVoiceConnectorConfig) ChimeVoiceConnector
 ```
@@ -434,7 +434,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.chimeVoiceConnector.ChimeVoiceConnector.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/chimevoiceconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/chimevoiceconnector"
 
 chimevoiceconnector.ChimeVoiceConnector_IsConstruct(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.chimeVoiceConnector.ChimeVoiceConnector.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/chimevoiceconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/chimevoiceconnector"
 
 chimevoiceconnector.ChimeVoiceConnector_IsTerraformElement(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ chimevoiceconnector.ChimeVoiceConnector_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.chimeVoiceConnector.ChimeVoiceConnector.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/chimevoiceconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/chimevoiceconnector"
 
 chimevoiceconnector.ChimeVoiceConnector_IsTerraformResource(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ chimevoiceconnector.ChimeVoiceConnector_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.chimeVoiceConnector.ChimeVoiceConnector.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/chimevoiceconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/chimevoiceconnector"
 
 chimevoiceconnector.ChimeVoiceConnector_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -523,7 +523,7 @@ The construct id used in the generated config for the ChimeVoiceConnector to imp
 
 The id of the existing ChimeVoiceConnector that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/chime_voice_connector#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/chime_voice_connector#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -899,7 +899,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.chimeVoiceConnector.ChimeVoiceConnectorConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/chimevoiceconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/chimevoiceconnector"
 
 &chimevoiceconnector.ChimeVoiceConnectorConfig {
 	Connection: interface{},
@@ -1016,7 +1016,7 @@ Name *string
 
 The name of the Voice Connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/chime_voice_connector#name ChimeVoiceConnector#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/chime_voice_connector#name ChimeVoiceConnector#name}
 
 ---
 
@@ -1030,7 +1030,7 @@ RequireEncryption interface{}
 
 Enables or disables encryption for the Voice Connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/chime_voice_connector#require_encryption ChimeVoiceConnector#require_encryption}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/chime_voice_connector#require_encryption ChimeVoiceConnector#require_encryption}
 
 ---
 
@@ -1044,7 +1044,7 @@ AwsRegion *string
 
 The AWS Region in which the Voice Connector is created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/chime_voice_connector#aws_region ChimeVoiceConnector#aws_region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/chime_voice_connector#aws_region ChimeVoiceConnector#aws_region}
 
 ---
 
@@ -1058,7 +1058,7 @@ NetworkType *string
 
 The type of network for the Voice Connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/chime_voice_connector#network_type ChimeVoiceConnector#network_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/chime_voice_connector#network_type ChimeVoiceConnector#network_type}
 
 ---
 
@@ -1072,7 +1072,7 @@ Tags interface{}
 
 The tags assigned to the Voice Connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/chime_voice_connector#tags ChimeVoiceConnector#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/chime_voice_connector#tags ChimeVoiceConnector#tags}
 
 ---
 
@@ -1081,7 +1081,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.chimeVoiceConnector.ChimeVoiceConnectorTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/chimevoiceconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/chimevoiceconnector"
 
 &chimevoiceconnector.ChimeVoiceConnectorTags {
 	Key: *string,
@@ -1108,7 +1108,7 @@ Key *string
 
 The tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/chime_voice_connector#key ChimeVoiceConnector#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/chime_voice_connector#key ChimeVoiceConnector#key}
 
 ---
 
@@ -1122,7 +1122,7 @@ Value *string
 
 The tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/chime_voice_connector#value ChimeVoiceConnector#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/chime_voice_connector#value ChimeVoiceConnector#value}
 
 ---
 
@@ -1133,7 +1133,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.chimeVoiceConnector.ChimeVoiceConnectorTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/chimevoiceconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/chimevoiceconnector"
 
 chimevoiceconnector.NewChimeVoiceConnectorTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ChimeVoiceConnectorTagsList
 ```
@@ -1293,7 +1293,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.chimeVoiceConnector.ChimeVoiceConnectorTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/chimevoiceconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/chimevoiceconnector"
 
 chimevoiceconnector.NewChimeVoiceConnectorTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ChimeVoiceConnectorTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccEksCapability <a name="DataAwsccEksCapability" id="@cdktn/provider-awscc.dataAwsccEksCapability.DataAwsccEksCapability"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/eks_capability awscc_eks_capability}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/eks_capability awscc_eks_capability}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEksCapability.DataAwsccEksCapability.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccekscapability"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccekscapability"
 
 dataawsccekscapability.NewDataAwsccEksCapability(scope Construct, id *string, config DataAwsccEksCapabilityConfig) DataAwsccEksCapability
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEksCapability.DataAwsccEksCapability.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccekscapability"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccekscapability"
 
 dataawsccekscapability.DataAwsccEksCapability_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEksCapability.DataAwsccEksCapability.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccekscapability"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccekscapability"
 
 dataawsccekscapability.DataAwsccEksCapability_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccekscapability.DataAwsccEksCapability_IsTerraformElement(x interface{}) 
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEksCapability.DataAwsccEksCapability.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccekscapability"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccekscapability"
 
 dataawsccekscapability.DataAwsccEksCapability_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccekscapability.DataAwsccEksCapability_IsTerraformDataSource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEksCapability.DataAwsccEksCapability.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccekscapability"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccekscapability"
 
 dataawsccekscapability.DataAwsccEksCapability_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEksCapability to 
 
 The id of the existing DataAwsccEksCapability that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/eks_capability#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/eks_capability#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -719,7 +719,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEksCapability.DataAwsccEksCapabilityConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccekscapability"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccekscapability"
 
 &dataawsccekscapability.DataAwsccEksCapabilityConfig {
 	Connection: interface{},
@@ -828,7 +828,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/eks_capability#id DataAwsccEksCapability#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/eks_capability#id DataAwsccEksCapability#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -840,7 +840,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEksCapability.DataAwsccEksCapabilityConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccekscapability"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccekscapability"
 
 &dataawsccekscapability.DataAwsccEksCapabilityConfiguration {
 
@@ -853,7 +853,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccekscapability
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEksCapability.DataAwsccEksCapabilityConfigurationAck.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccekscapability"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccekscapability"
 
 &dataawsccekscapability.DataAwsccEksCapabilityConfigurationAck {
 
@@ -866,7 +866,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccekscapability
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEksCapability.DataAwsccEksCapabilityConfigurationArgoCd.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccekscapability"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccekscapability"
 
 &dataawsccekscapability.DataAwsccEksCapabilityConfigurationArgoCd {
 
@@ -879,7 +879,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccekscapability
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEksCapability.DataAwsccEksCapabilityConfigurationArgoCdAwsIdc.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccekscapability"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccekscapability"
 
 &dataawsccekscapability.DataAwsccEksCapabilityConfigurationArgoCdAwsIdc {
 
@@ -892,7 +892,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccekscapability
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEksCapability.DataAwsccEksCapabilityConfigurationArgoCdNetworkAccess.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccekscapability"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccekscapability"
 
 &dataawsccekscapability.DataAwsccEksCapabilityConfigurationArgoCdNetworkAccess {
 
@@ -905,7 +905,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccekscapability
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEksCapability.DataAwsccEksCapabilityConfigurationArgoCdRbacRoleMappings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccekscapability"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccekscapability"
 
 &dataawsccekscapability.DataAwsccEksCapabilityConfigurationArgoCdRbacRoleMappings {
 
@@ -918,7 +918,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccekscapability
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEksCapability.DataAwsccEksCapabilityConfigurationArgoCdRbacRoleMappingsIdentities.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccekscapability"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccekscapability"
 
 &dataawsccekscapability.DataAwsccEksCapabilityConfigurationArgoCdRbacRoleMappingsIdentities {
 
@@ -931,7 +931,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccekscapability
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEksCapability.DataAwsccEksCapabilityTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccekscapability"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccekscapability"
 
 &dataawsccekscapability.DataAwsccEksCapabilityTags {
 
@@ -946,7 +946,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccekscapability
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEksCapability.DataAwsccEksCapabilityConfigurationAckOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccekscapability"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccekscapability"
 
 dataawsccekscapability.NewDataAwsccEksCapabilityConfigurationAckOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEksCapabilityConfigurationAckOutputReference
 ```
@@ -1217,7 +1217,7 @@ func InternalValue() DataAwsccEksCapabilityConfigurationAck
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEksCapability.DataAwsccEksCapabilityConfigurationArgoCdAwsIdcOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccekscapability"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccekscapability"
 
 dataawsccekscapability.NewDataAwsccEksCapabilityConfigurationArgoCdAwsIdcOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEksCapabilityConfigurationArgoCdAwsIdcOutputReference
 ```
@@ -1499,7 +1499,7 @@ func InternalValue() DataAwsccEksCapabilityConfigurationArgoCdAwsIdc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEksCapability.DataAwsccEksCapabilityConfigurationArgoCdNetworkAccessOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccekscapability"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccekscapability"
 
 dataawsccekscapability.NewDataAwsccEksCapabilityConfigurationArgoCdNetworkAccessOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEksCapabilityConfigurationArgoCdNetworkAccessOutputReference
 ```
@@ -1759,7 +1759,7 @@ func InternalValue() DataAwsccEksCapabilityConfigurationArgoCdNetworkAccess
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEksCapability.DataAwsccEksCapabilityConfigurationArgoCdOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccekscapability"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccekscapability"
 
 dataawsccekscapability.NewDataAwsccEksCapabilityConfigurationArgoCdOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEksCapabilityConfigurationArgoCdOutputReference
 ```
@@ -2074,7 +2074,7 @@ func InternalValue() DataAwsccEksCapabilityConfigurationArgoCd
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEksCapability.DataAwsccEksCapabilityConfigurationArgoCdRbacRoleMappingsIdentitiesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccekscapability"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccekscapability"
 
 dataawsccekscapability.NewDataAwsccEksCapabilityConfigurationArgoCdRbacRoleMappingsIdentitiesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEksCapabilityConfigurationArgoCdRbacRoleMappingsIdentitiesList
 ```
@@ -2223,7 +2223,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEksCapability.DataAwsccEksCapabilityConfigurationArgoCdRbacRoleMappingsIdentitiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccekscapability"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccekscapability"
 
 dataawsccekscapability.NewDataAwsccEksCapabilityConfigurationArgoCdRbacRoleMappingsIdentitiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEksCapabilityConfigurationArgoCdRbacRoleMappingsIdentitiesOutputReference
 ```
@@ -2512,7 +2512,7 @@ func InternalValue() DataAwsccEksCapabilityConfigurationArgoCdRbacRoleMappingsId
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEksCapability.DataAwsccEksCapabilityConfigurationArgoCdRbacRoleMappingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccekscapability"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccekscapability"
 
 dataawsccekscapability.NewDataAwsccEksCapabilityConfigurationArgoCdRbacRoleMappingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEksCapabilityConfigurationArgoCdRbacRoleMappingsList
 ```
@@ -2661,7 +2661,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEksCapability.DataAwsccEksCapabilityConfigurationArgoCdRbacRoleMappingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccekscapability"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccekscapability"
 
 dataawsccekscapability.NewDataAwsccEksCapabilityConfigurationArgoCdRbacRoleMappingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEksCapabilityConfigurationArgoCdRbacRoleMappingsOutputReference
 ```
@@ -2950,7 +2950,7 @@ func InternalValue() DataAwsccEksCapabilityConfigurationArgoCdRbacRoleMappings
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEksCapability.DataAwsccEksCapabilityConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccekscapability"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccekscapability"
 
 dataawsccekscapability.NewDataAwsccEksCapabilityConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEksCapabilityConfigurationOutputReference
 ```
@@ -3221,7 +3221,7 @@ func InternalValue() DataAwsccEksCapabilityConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEksCapability.DataAwsccEksCapabilityTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccekscapability"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccekscapability"
 
 dataawsccekscapability.NewDataAwsccEksCapabilityTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEksCapabilityTagsList
 ```
@@ -3370,7 +3370,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEksCapability.DataAwsccEksCapabilityTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccekscapability"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccekscapability"
 
 dataawsccekscapability.NewDataAwsccEksCapabilityTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEksCapabilityTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### LicensemanagerReportGenerator <a name="LicensemanagerReportGenerator" id="@cdktn/provider-awscc.licensemanagerReportGenerator.LicensemanagerReportGenerator"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanager_report_generator awscc_licensemanager_report_generator}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanager_report_generator awscc_licensemanager_report_generator}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.licensemanagerReportGenerator.LicensemanagerReportGenerator.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerreportgenerator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/licensemanagerreportgenerator"
 
 licensemanagerreportgenerator.NewLicensemanagerReportGenerator(scope Construct, id *string, config LicensemanagerReportGeneratorConfig) LicensemanagerReportGenerator
 ```
@@ -453,7 +453,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.licensemanagerReportGenerator.LicensemanagerReportGenerator.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerreportgenerator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/licensemanagerreportgenerator"
 
 licensemanagerreportgenerator.LicensemanagerReportGenerator_IsConstruct(x interface{}) *bool
 ```
@@ -485,7 +485,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.licensemanagerReportGenerator.LicensemanagerReportGenerator.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerreportgenerator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/licensemanagerreportgenerator"
 
 licensemanagerreportgenerator.LicensemanagerReportGenerator_IsTerraformElement(x interface{}) *bool
 ```
@@ -499,7 +499,7 @@ licensemanagerreportgenerator.LicensemanagerReportGenerator_IsTerraformElement(x
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.licensemanagerReportGenerator.LicensemanagerReportGenerator.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerreportgenerator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/licensemanagerreportgenerator"
 
 licensemanagerreportgenerator.LicensemanagerReportGenerator_IsTerraformResource(x interface{}) *bool
 ```
@@ -513,7 +513,7 @@ licensemanagerreportgenerator.LicensemanagerReportGenerator_IsTerraformResource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.licensemanagerReportGenerator.LicensemanagerReportGenerator.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerreportgenerator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/licensemanagerreportgenerator"
 
 licensemanagerreportgenerator.LicensemanagerReportGenerator_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -542,7 +542,7 @@ The construct id used in the generated config for the LicensemanagerReportGenera
 
 The id of the existing LicensemanagerReportGenerator that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanager_report_generator#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanager_report_generator#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -929,7 +929,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.licensemanagerReportGenerator.LicensemanagerReportGeneratorConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerreportgenerator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/licensemanagerreportgenerator"
 
 &licensemanagerreportgenerator.LicensemanagerReportGeneratorConfig {
 	Connection: interface{},
@@ -939,8 +939,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerreportge
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	ReportContext: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.licensemanagerReportGenerator.LicensemanagerReportGeneratorReportContext,
-	ReportFrequency: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.licensemanagerReportGenerator.LicensemanagerReportGeneratorReportFrequency,
+	ReportContext: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.licensemanagerReportGenerator.LicensemanagerReportGeneratorReportContext,
+	ReportFrequency: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.licensemanagerReportGenerator.LicensemanagerReportGeneratorReportFrequency,
 	ReportGeneratorName: *string,
 	ReportType: *[]*string,
 	Description: *string,
@@ -1048,7 +1048,7 @@ ReportContext LicensemanagerReportGeneratorReportContext
 
 Details of the license configurations and asset groups that this generator reports on.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanager_report_generator#report_context LicensemanagerReportGenerator#report_context}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanager_report_generator#report_context LicensemanagerReportGenerator#report_context}
 
 ---
 
@@ -1062,7 +1062,7 @@ ReportFrequency LicensemanagerReportGeneratorReportFrequency
 
 Details about how frequently reports are generated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanager_report_generator#report_frequency LicensemanagerReportGenerator#report_frequency}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanager_report_generator#report_frequency LicensemanagerReportGenerator#report_frequency}
 
 ---
 
@@ -1076,7 +1076,7 @@ ReportGeneratorName *string
 
 Name of the report generator.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanager_report_generator#report_generator_name LicensemanagerReportGenerator#report_generator_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanager_report_generator#report_generator_name LicensemanagerReportGenerator#report_generator_name}
 
 ---
 
@@ -1090,7 +1090,7 @@ ReportType *[]*string
 
 Type of reports to generate. The report type determines the data reported on.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanager_report_generator#report_type LicensemanagerReportGenerator#report_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanager_report_generator#report_type LicensemanagerReportGenerator#report_type}
 
 ---
 
@@ -1104,7 +1104,7 @@ Description *string
 
 Description of the report generator.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanager_report_generator#description LicensemanagerReportGenerator#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanager_report_generator#description LicensemanagerReportGenerator#description}
 
 ---
 
@@ -1118,7 +1118,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanager_report_generator#tags LicensemanagerReportGenerator#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanager_report_generator#tags LicensemanagerReportGenerator#tags}
 
 ---
 
@@ -1127,7 +1127,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.licensemanagerReportGenerator.LicensemanagerReportGeneratorReportContext.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerreportgenerator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/licensemanagerreportgenerator"
 
 &licensemanagerreportgenerator.LicensemanagerReportGeneratorReportContext {
 	LicenseAssetGroupArns: *[]*string,
@@ -1158,7 +1158,7 @@ LicenseAssetGroupArns *[]*string
 
 Amazon Resource Names (ARNs) of the license asset groups to include in the report.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanager_report_generator#license_asset_group_arns LicensemanagerReportGenerator#license_asset_group_arns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanager_report_generator#license_asset_group_arns LicensemanagerReportGenerator#license_asset_group_arns}
 
 ---
 
@@ -1172,7 +1172,7 @@ LicenseConfigurationArns *[]*string
 
 Amazon Resource Names (ARNs) of the license configurations that this generator reports on.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanager_report_generator#license_configuration_arns LicensemanagerReportGenerator#license_configuration_arns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanager_report_generator#license_configuration_arns LicensemanagerReportGenerator#license_configuration_arns}
 
 ---
 
@@ -1186,7 +1186,7 @@ ReportEndDate *string
 
 End date for the report data collection period.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanager_report_generator#report_end_date LicensemanagerReportGenerator#report_end_date}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanager_report_generator#report_end_date LicensemanagerReportGenerator#report_end_date}
 
 ---
 
@@ -1200,7 +1200,7 @@ ReportStartDate *string
 
 Start date for the report data collection period.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanager_report_generator#report_start_date LicensemanagerReportGenerator#report_start_date}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanager_report_generator#report_start_date LicensemanagerReportGenerator#report_start_date}
 
 ---
 
@@ -1209,7 +1209,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.licensemanagerReportGenerator.LicensemanagerReportGeneratorReportFrequency.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerreportgenerator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/licensemanagerreportgenerator"
 
 &licensemanagerreportgenerator.LicensemanagerReportGeneratorReportFrequency {
 	Period: *string,
@@ -1236,7 +1236,7 @@ Period *string
 
 Time period between each report. The period can be daily, weekly, or monthly.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanager_report_generator#period LicensemanagerReportGenerator#period}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanager_report_generator#period LicensemanagerReportGenerator#period}
 
 ---
 
@@ -1250,7 +1250,7 @@ Value *f64
 
 Number of times within the frequency period that a report is generated. The only supported value is 1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanager_report_generator#value LicensemanagerReportGenerator#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanager_report_generator#value LicensemanagerReportGenerator#value}
 
 ---
 
@@ -1259,7 +1259,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.licensemanagerReportGenerator.LicensemanagerReportGeneratorS3Location.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerreportgenerator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/licensemanagerreportgenerator"
 
 &licensemanagerreportgenerator.LicensemanagerReportGeneratorS3Location {
 
@@ -1272,7 +1272,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerreportge
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.licensemanagerReportGenerator.LicensemanagerReportGeneratorTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerreportgenerator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/licensemanagerreportgenerator"
 
 &licensemanagerreportgenerator.LicensemanagerReportGeneratorTags {
 	Key: *string,
@@ -1299,7 +1299,7 @@ Key *string
 
 The tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanager_report_generator#key LicensemanagerReportGenerator#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanager_report_generator#key LicensemanagerReportGenerator#key}
 
 ---
 
@@ -1313,7 +1313,7 @@ Value *string
 
 The tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanager_report_generator#value LicensemanagerReportGenerator#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanager_report_generator#value LicensemanagerReportGenerator#value}
 
 ---
 
@@ -1324,7 +1324,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.licensemanagerReportGenerator.LicensemanagerReportGeneratorReportContextOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerreportgenerator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/licensemanagerreportgenerator"
 
 licensemanagerreportgenerator.NewLicensemanagerReportGeneratorReportContextOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LicensemanagerReportGeneratorReportContextOutputReference
 ```
@@ -1689,7 +1689,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.licensemanagerReportGenerator.LicensemanagerReportGeneratorReportFrequencyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerreportgenerator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/licensemanagerreportgenerator"
 
 licensemanagerreportgenerator.NewLicensemanagerReportGeneratorReportFrequencyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LicensemanagerReportGeneratorReportFrequencyOutputReference
 ```
@@ -1996,7 +1996,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.licensemanagerReportGenerator.LicensemanagerReportGeneratorS3LocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerreportgenerator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/licensemanagerreportgenerator"
 
 licensemanagerreportgenerator.NewLicensemanagerReportGeneratorS3LocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LicensemanagerReportGeneratorS3LocationOutputReference
 ```
@@ -2267,7 +2267,7 @@ func InternalValue() LicensemanagerReportGeneratorS3Location
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.licensemanagerReportGenerator.LicensemanagerReportGeneratorTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerreportgenerator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/licensemanagerreportgenerator"
 
 licensemanagerreportgenerator.NewLicensemanagerReportGeneratorTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LicensemanagerReportGeneratorTagsList
 ```
@@ -2427,7 +2427,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.licensemanagerReportGenerator.LicensemanagerReportGeneratorTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerreportgenerator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/licensemanagerreportgenerator"
 
 licensemanagerreportgenerator.NewLicensemanagerReportGeneratorTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LicensemanagerReportGeneratorTagsOutputReference
 ```

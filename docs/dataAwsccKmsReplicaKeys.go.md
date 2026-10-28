@@ -4,12 +4,12 @@
 
 ### DataAwsccKmsReplicaKeys <a name="DataAwsccKmsReplicaKeys" id="@cdktn/provider-awscc.dataAwsccKmsReplicaKeys.DataAwsccKmsReplicaKeys"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/kms_replica_keys awscc_kms_replica_keys}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/kms_replica_keys awscc_kms_replica_keys}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKmsReplicaKeys.DataAwsccKmsReplicaKeys.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckmsreplicakeys"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckmsreplicakeys"
 
 dataawscckmsreplicakeys.NewDataAwsccKmsReplicaKeys(scope Construct, id *string, config DataAwsccKmsReplicaKeysConfig) DataAwsccKmsReplicaKeys
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccKmsReplicaKeys.DataAwsccKmsReplicaKeys.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckmsreplicakeys"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckmsreplicakeys"
 
 dataawscckmsreplicakeys.DataAwsccKmsReplicaKeys_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccKmsReplicaKeys.DataAwsccKmsReplicaKeys.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckmsreplicakeys"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckmsreplicakeys"
 
 dataawscckmsreplicakeys.DataAwsccKmsReplicaKeys_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscckmsreplicakeys.DataAwsccKmsReplicaKeys_IsTerraformElement(x interface{}
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccKmsReplicaKeys.DataAwsccKmsReplicaKeys.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckmsreplicakeys"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckmsreplicakeys"
 
 dataawscckmsreplicakeys.DataAwsccKmsReplicaKeys_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscckmsreplicakeys.DataAwsccKmsReplicaKeys_IsTerraformDataSource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccKmsReplicaKeys.DataAwsccKmsReplicaKeys.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckmsreplicakeys"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckmsreplicakeys"
 
 dataawscckmsreplicakeys.DataAwsccKmsReplicaKeys_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccKmsReplicaKeys to
 
 The id of the existing DataAwsccKmsReplicaKeys that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/kms_replica_keys#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/kms_replica_keys#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKmsReplicaKeys.DataAwsccKmsReplicaKeysConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckmsreplicakeys"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckmsreplicakeys"
 
 &dataawscckmsreplicakeys.DataAwsccKmsReplicaKeysConfig {
 	Connection: interface{},

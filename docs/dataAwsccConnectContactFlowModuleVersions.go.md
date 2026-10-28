@@ -4,12 +4,12 @@
 
 ### DataAwsccConnectContactFlowModuleVersions <a name="DataAwsccConnectContactFlowModuleVersions" id="@cdktn/provider-awscc.dataAwsccConnectContactFlowModuleVersions.DataAwsccConnectContactFlowModuleVersions"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_contact_flow_module_versions awscc_connect_contact_flow_module_versions}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_contact_flow_module_versions awscc_connect_contact_flow_module_versions}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectContactFlowModuleVersions.DataAwsccConnectContactFlowModuleVersions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcontactflowmoduleversions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcontactflowmoduleversions"
 
 dataawsccconnectcontactflowmoduleversions.NewDataAwsccConnectContactFlowModuleVersions(scope Construct, id *string, config DataAwsccConnectContactFlowModuleVersionsConfig) DataAwsccConnectContactFlowModuleVersions
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccConnectContactFlowModuleVersions.DataAwsccConnectContactFlowModuleVersions.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcontactflowmoduleversions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcontactflowmoduleversions"
 
 dataawsccconnectcontactflowmoduleversions.DataAwsccConnectContactFlowModuleVersions_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccConnectContactFlowModuleVersions.DataAwsccConnectContactFlowModuleVersions.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcontactflowmoduleversions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcontactflowmoduleversions"
 
 dataawsccconnectcontactflowmoduleversions.DataAwsccConnectContactFlowModuleVersions_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccconnectcontactflowmoduleversions.DataAwsccConnectContactFlowModuleVersi
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccConnectContactFlowModuleVersions.DataAwsccConnectContactFlowModuleVersions.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcontactflowmoduleversions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcontactflowmoduleversions"
 
 dataawsccconnectcontactflowmoduleversions.DataAwsccConnectContactFlowModuleVersions_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccconnectcontactflowmoduleversions.DataAwsccConnectContactFlowModuleVersi
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccConnectContactFlowModuleVersions.DataAwsccConnectContactFlowModuleVersions.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcontactflowmoduleversions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcontactflowmoduleversions"
 
 dataawsccconnectcontactflowmoduleversions.DataAwsccConnectContactFlowModuleVersions_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccConnectContactFlo
 
 The id of the existing DataAwsccConnectContactFlowModuleVersions that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_contact_flow_module_versions#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_contact_flow_module_versions#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectContactFlowModuleVersions.DataAwsccConnectContactFlowModuleVersionsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcontactflowmoduleversions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcontactflowmoduleversions"
 
 &dataawsccconnectcontactflowmoduleversions.DataAwsccConnectContactFlowModuleVersionsConfig {
 	Connection: interface{},

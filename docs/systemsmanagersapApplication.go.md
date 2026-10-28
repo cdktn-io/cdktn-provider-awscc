@@ -4,12 +4,12 @@
 
 ### SystemsmanagersapApplication <a name="SystemsmanagersapApplication" id="@cdktn/provider-awscc.systemsmanagersapApplication.SystemsmanagersapApplication"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/systemsmanagersap_application awscc_systemsmanagersap_application}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/systemsmanagersap_application awscc_systemsmanagersap_application}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.systemsmanagersapApplication.SystemsmanagersapApplication.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/systemsmanagersapapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/systemsmanagersapapplication"
 
 systemsmanagersapapplication.NewSystemsmanagersapApplication(scope Construct, id *string, config SystemsmanagersapApplicationConfig) SystemsmanagersapApplication
 ```
@@ -488,7 +488,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.systemsmanagersapApplication.SystemsmanagersapApplication.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/systemsmanagersapapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/systemsmanagersapapplication"
 
 systemsmanagersapapplication.SystemsmanagersapApplication_IsConstruct(x interface{}) *bool
 ```
@@ -520,7 +520,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.systemsmanagersapApplication.SystemsmanagersapApplication.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/systemsmanagersapapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/systemsmanagersapapplication"
 
 systemsmanagersapapplication.SystemsmanagersapApplication_IsTerraformElement(x interface{}) *bool
 ```
@@ -534,7 +534,7 @@ systemsmanagersapapplication.SystemsmanagersapApplication_IsTerraformElement(x i
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.systemsmanagersapApplication.SystemsmanagersapApplication.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/systemsmanagersapapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/systemsmanagersapapplication"
 
 systemsmanagersapapplication.SystemsmanagersapApplication_IsTerraformResource(x interface{}) *bool
 ```
@@ -548,7 +548,7 @@ systemsmanagersapapplication.SystemsmanagersapApplication_IsTerraformResource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.systemsmanagersapApplication.SystemsmanagersapApplication.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/systemsmanagersapapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/systemsmanagersapapplication"
 
 systemsmanagersapapplication.SystemsmanagersapApplication_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -577,7 +577,7 @@ The construct id used in the generated config for the SystemsmanagersapApplicati
 
 The id of the existing SystemsmanagersapApplication that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/systemsmanagersap_application#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/systemsmanagersap_application#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -997,7 +997,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.systemsmanagersapApplication.SystemsmanagersapApplicationComponentsInfo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/systemsmanagersapapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/systemsmanagersapapplication"
 
 &systemsmanagersapapplication.SystemsmanagersapApplicationComponentsInfo {
 	ComponentType: *string,
@@ -1010,9 +1010,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/systemsmanagersapappli
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.systemsmanagersapApplication.SystemsmanagersapApplicationComponentsInfo.property.componentType">ComponentType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/systemsmanagersap_application#component_type SystemsmanagersapApplication#component_type}. |
-| <code><a href="#@cdktn/provider-awscc.systemsmanagersapApplication.SystemsmanagersapApplicationComponentsInfo.property.ec2InstanceId">Ec2InstanceId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/systemsmanagersap_application#ec_2_instance_id SystemsmanagersapApplication#ec_2_instance_id}. |
-| <code><a href="#@cdktn/provider-awscc.systemsmanagersapApplication.SystemsmanagersapApplicationComponentsInfo.property.sid">Sid</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/systemsmanagersap_application#sid SystemsmanagersapApplication#sid}. |
+| <code><a href="#@cdktn/provider-awscc.systemsmanagersapApplication.SystemsmanagersapApplicationComponentsInfo.property.componentType">ComponentType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/systemsmanagersap_application#component_type SystemsmanagersapApplication#component_type}. |
+| <code><a href="#@cdktn/provider-awscc.systemsmanagersapApplication.SystemsmanagersapApplicationComponentsInfo.property.ec2InstanceId">Ec2InstanceId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/systemsmanagersap_application#ec_2_instance_id SystemsmanagersapApplication#ec_2_instance_id}. |
+| <code><a href="#@cdktn/provider-awscc.systemsmanagersapApplication.SystemsmanagersapApplicationComponentsInfo.property.sid">Sid</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/systemsmanagersap_application#sid SystemsmanagersapApplication#sid}. |
 
 ---
 
@@ -1024,7 +1024,7 @@ ComponentType *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/systemsmanagersap_application#component_type SystemsmanagersapApplication#component_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/systemsmanagersap_application#component_type SystemsmanagersapApplication#component_type}.
 
 ---
 
@@ -1036,7 +1036,7 @@ Ec2InstanceId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/systemsmanagersap_application#ec_2_instance_id SystemsmanagersapApplication#ec_2_instance_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/systemsmanagersap_application#ec_2_instance_id SystemsmanagersapApplication#ec_2_instance_id}.
 
 ---
 
@@ -1048,7 +1048,7 @@ Sid *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/systemsmanagersap_application#sid SystemsmanagersapApplication#sid}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/systemsmanagersap_application#sid SystemsmanagersapApplication#sid}.
 
 ---
 
@@ -1057,7 +1057,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.systemsmanagersapApplication.SystemsmanagersapApplicationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/systemsmanagersapapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/systemsmanagersapapplication"
 
 &systemsmanagersapapplication.SystemsmanagersapApplicationConfig {
 	Connection: interface{},
@@ -1090,14 +1090,14 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/systemsmanagersapappli
 | <code><a href="#@cdktn/provider-awscc.systemsmanagersapApplication.SystemsmanagersapApplicationConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.systemsmanagersapApplication.SystemsmanagersapApplicationConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.systemsmanagersapApplication.SystemsmanagersapApplicationConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.systemsmanagersapApplication.SystemsmanagersapApplicationConfig.property.applicationId">ApplicationId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/systemsmanagersap_application#application_id SystemsmanagersapApplication#application_id}. |
-| <code><a href="#@cdktn/provider-awscc.systemsmanagersapApplication.SystemsmanagersapApplicationConfig.property.applicationType">ApplicationType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/systemsmanagersap_application#application_type SystemsmanagersapApplication#application_type}. |
+| <code><a href="#@cdktn/provider-awscc.systemsmanagersapApplication.SystemsmanagersapApplicationConfig.property.applicationId">ApplicationId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/systemsmanagersap_application#application_id SystemsmanagersapApplication#application_id}. |
+| <code><a href="#@cdktn/provider-awscc.systemsmanagersapApplication.SystemsmanagersapApplicationConfig.property.applicationType">ApplicationType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/systemsmanagersap_application#application_type SystemsmanagersapApplication#application_type}. |
 | <code><a href="#@cdktn/provider-awscc.systemsmanagersapApplication.SystemsmanagersapApplicationConfig.property.componentsInfo">ComponentsInfo</a></code> | <code>interface{}</code> | This is an optional parameter for component details to which the SAP ABAP application is attached, such as Web Dispatcher. |
-| <code><a href="#@cdktn/provider-awscc.systemsmanagersapApplication.SystemsmanagersapApplicationConfig.property.credentials">Credentials</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/systemsmanagersap_application#credentials SystemsmanagersapApplication#credentials}. |
+| <code><a href="#@cdktn/provider-awscc.systemsmanagersapApplication.SystemsmanagersapApplicationConfig.property.credentials">Credentials</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/systemsmanagersap_application#credentials SystemsmanagersapApplication#credentials}. |
 | <code><a href="#@cdktn/provider-awscc.systemsmanagersapApplication.SystemsmanagersapApplicationConfig.property.databaseArn">DatabaseArn</a></code> | <code>*string</code> | The ARN of the SAP HANA database. |
-| <code><a href="#@cdktn/provider-awscc.systemsmanagersapApplication.SystemsmanagersapApplicationConfig.property.instances">Instances</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/systemsmanagersap_application#instances SystemsmanagersapApplication#instances}. |
-| <code><a href="#@cdktn/provider-awscc.systemsmanagersapApplication.SystemsmanagersapApplicationConfig.property.sapInstanceNumber">SapInstanceNumber</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/systemsmanagersap_application#sap_instance_number SystemsmanagersapApplication#sap_instance_number}. |
-| <code><a href="#@cdktn/provider-awscc.systemsmanagersapApplication.SystemsmanagersapApplicationConfig.property.sid">Sid</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/systemsmanagersap_application#sid SystemsmanagersapApplication#sid}. |
+| <code><a href="#@cdktn/provider-awscc.systemsmanagersapApplication.SystemsmanagersapApplicationConfig.property.instances">Instances</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/systemsmanagersap_application#instances SystemsmanagersapApplication#instances}. |
+| <code><a href="#@cdktn/provider-awscc.systemsmanagersapApplication.SystemsmanagersapApplicationConfig.property.sapInstanceNumber">SapInstanceNumber</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/systemsmanagersap_application#sap_instance_number SystemsmanagersapApplication#sap_instance_number}. |
+| <code><a href="#@cdktn/provider-awscc.systemsmanagersapApplication.SystemsmanagersapApplicationConfig.property.sid">Sid</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/systemsmanagersap_application#sid SystemsmanagersapApplication#sid}. |
 | <code><a href="#@cdktn/provider-awscc.systemsmanagersapApplication.SystemsmanagersapApplicationConfig.property.tags">Tags</a></code> | <code>interface{}</code> | The tags of a SystemsManagerSAP application. |
 
 ---
@@ -1180,7 +1180,7 @@ ApplicationId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/systemsmanagersap_application#application_id SystemsmanagersapApplication#application_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/systemsmanagersap_application#application_id SystemsmanagersapApplication#application_id}.
 
 ---
 
@@ -1192,7 +1192,7 @@ ApplicationType *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/systemsmanagersap_application#application_type SystemsmanagersapApplication#application_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/systemsmanagersap_application#application_type SystemsmanagersapApplication#application_type}.
 
 ---
 
@@ -1206,7 +1206,7 @@ ComponentsInfo interface{}
 
 This is an optional parameter for component details to which the SAP ABAP application is attached, such as Web Dispatcher.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/systemsmanagersap_application#components_info SystemsmanagersapApplication#components_info}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/systemsmanagersap_application#components_info SystemsmanagersapApplication#components_info}
 
 ---
 
@@ -1218,7 +1218,7 @@ Credentials interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/systemsmanagersap_application#credentials SystemsmanagersapApplication#credentials}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/systemsmanagersap_application#credentials SystemsmanagersapApplication#credentials}.
 
 ---
 
@@ -1232,7 +1232,7 @@ DatabaseArn *string
 
 The ARN of the SAP HANA database.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/systemsmanagersap_application#database_arn SystemsmanagersapApplication#database_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/systemsmanagersap_application#database_arn SystemsmanagersapApplication#database_arn}
 
 ---
 
@@ -1244,7 +1244,7 @@ Instances *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/systemsmanagersap_application#instances SystemsmanagersapApplication#instances}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/systemsmanagersap_application#instances SystemsmanagersapApplication#instances}.
 
 ---
 
@@ -1256,7 +1256,7 @@ SapInstanceNumber *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/systemsmanagersap_application#sap_instance_number SystemsmanagersapApplication#sap_instance_number}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/systemsmanagersap_application#sap_instance_number SystemsmanagersapApplication#sap_instance_number}.
 
 ---
 
@@ -1268,7 +1268,7 @@ Sid *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/systemsmanagersap_application#sid SystemsmanagersapApplication#sid}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/systemsmanagersap_application#sid SystemsmanagersapApplication#sid}.
 
 ---
 
@@ -1282,7 +1282,7 @@ Tags interface{}
 
 The tags of a SystemsManagerSAP application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/systemsmanagersap_application#tags SystemsmanagersapApplication#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/systemsmanagersap_application#tags SystemsmanagersapApplication#tags}
 
 ---
 
@@ -1291,7 +1291,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.systemsmanagersapApplication.SystemsmanagersapApplicationCredentials.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/systemsmanagersapapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/systemsmanagersapapplication"
 
 &systemsmanagersapapplication.SystemsmanagersapApplicationCredentials {
 	CredentialType: *string,
@@ -1304,9 +1304,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/systemsmanagersapappli
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.systemsmanagersapApplication.SystemsmanagersapApplicationCredentials.property.credentialType">CredentialType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/systemsmanagersap_application#credential_type SystemsmanagersapApplication#credential_type}. |
-| <code><a href="#@cdktn/provider-awscc.systemsmanagersapApplication.SystemsmanagersapApplicationCredentials.property.databaseName">DatabaseName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/systemsmanagersap_application#database_name SystemsmanagersapApplication#database_name}. |
-| <code><a href="#@cdktn/provider-awscc.systemsmanagersapApplication.SystemsmanagersapApplicationCredentials.property.secretId">SecretId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/systemsmanagersap_application#secret_id SystemsmanagersapApplication#secret_id}. |
+| <code><a href="#@cdktn/provider-awscc.systemsmanagersapApplication.SystemsmanagersapApplicationCredentials.property.credentialType">CredentialType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/systemsmanagersap_application#credential_type SystemsmanagersapApplication#credential_type}. |
+| <code><a href="#@cdktn/provider-awscc.systemsmanagersapApplication.SystemsmanagersapApplicationCredentials.property.databaseName">DatabaseName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/systemsmanagersap_application#database_name SystemsmanagersapApplication#database_name}. |
+| <code><a href="#@cdktn/provider-awscc.systemsmanagersapApplication.SystemsmanagersapApplicationCredentials.property.secretId">SecretId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/systemsmanagersap_application#secret_id SystemsmanagersapApplication#secret_id}. |
 
 ---
 
@@ -1318,7 +1318,7 @@ CredentialType *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/systemsmanagersap_application#credential_type SystemsmanagersapApplication#credential_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/systemsmanagersap_application#credential_type SystemsmanagersapApplication#credential_type}.
 
 ---
 
@@ -1330,7 +1330,7 @@ DatabaseName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/systemsmanagersap_application#database_name SystemsmanagersapApplication#database_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/systemsmanagersap_application#database_name SystemsmanagersapApplication#database_name}.
 
 ---
 
@@ -1342,7 +1342,7 @@ SecretId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/systemsmanagersap_application#secret_id SystemsmanagersapApplication#secret_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/systemsmanagersap_application#secret_id SystemsmanagersapApplication#secret_id}.
 
 ---
 
@@ -1351,7 +1351,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.systemsmanagersapApplication.SystemsmanagersapApplicationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/systemsmanagersapapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/systemsmanagersapapplication"
 
 &systemsmanagersapapplication.SystemsmanagersapApplicationTags {
 	Key: *string,
@@ -1380,7 +1380,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/systemsmanagersap_application#key SystemsmanagersapApplication#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/systemsmanagersap_application#key SystemsmanagersapApplication#key}
 
 ---
 
@@ -1396,7 +1396,7 @@ The value for the tag.
 
 You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/systemsmanagersap_application#value SystemsmanagersapApplication#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/systemsmanagersap_application#value SystemsmanagersapApplication#value}
 
 ---
 
@@ -1407,7 +1407,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.systemsmanagersapApplication.SystemsmanagersapApplicationComponentsInfoList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/systemsmanagersapapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/systemsmanagersapapplication"
 
 systemsmanagersapapplication.NewSystemsmanagersapApplicationComponentsInfoList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SystemsmanagersapApplicationComponentsInfoList
 ```
@@ -1567,7 +1567,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.systemsmanagersapApplication.SystemsmanagersapApplicationComponentsInfoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/systemsmanagersapapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/systemsmanagersapapplication"
 
 systemsmanagersapapplication.NewSystemsmanagersapApplicationComponentsInfoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SystemsmanagersapApplicationComponentsInfoOutputReference
 ```
@@ -1921,7 +1921,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.systemsmanagersapApplication.SystemsmanagersapApplicationCredentialsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/systemsmanagersapapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/systemsmanagersapapplication"
 
 systemsmanagersapapplication.NewSystemsmanagersapApplicationCredentialsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SystemsmanagersapApplicationCredentialsList
 ```
@@ -2081,7 +2081,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.systemsmanagersapApplication.SystemsmanagersapApplicationCredentialsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/systemsmanagersapapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/systemsmanagersapapplication"
 
 systemsmanagersapapplication.NewSystemsmanagersapApplicationCredentialsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SystemsmanagersapApplicationCredentialsOutputReference
 ```
@@ -2435,7 +2435,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.systemsmanagersapApplication.SystemsmanagersapApplicationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/systemsmanagersapapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/systemsmanagersapapplication"
 
 systemsmanagersapapplication.NewSystemsmanagersapApplicationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SystemsmanagersapApplicationTagsList
 ```
@@ -2595,7 +2595,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.systemsmanagersapApplication.SystemsmanagersapApplicationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/systemsmanagersapapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/systemsmanagersapapplication"
 
 systemsmanagersapapplication.NewSystemsmanagersapApplicationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SystemsmanagersapApplicationTagsOutputReference
 ```

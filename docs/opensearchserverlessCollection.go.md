@@ -4,12 +4,12 @@
 
 ### OpensearchserverlessCollection <a name="OpensearchserverlessCollection" id="@cdktn/provider-awscc.opensearchserverlessCollection.OpensearchserverlessCollection"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearchserverless_collection awscc_opensearchserverless_collection}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchserverless_collection awscc_opensearchserverless_collection}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.opensearchserverlessCollection.OpensearchserverlessCollection.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchserverlesscollection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/opensearchserverlesscollection"
 
 opensearchserverlesscollection.NewOpensearchserverlessCollection(scope Construct, id *string, config OpensearchserverlessCollectionConfig) OpensearchserverlessCollection
 ```
@@ -495,7 +495,7 @@ func ResetVectorOptions()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.opensearchserverlessCollection.OpensearchserverlessCollection.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchserverlesscollection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/opensearchserverlesscollection"
 
 opensearchserverlesscollection.OpensearchserverlessCollection_IsConstruct(x interface{}) *bool
 ```
@@ -527,7 +527,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.opensearchserverlessCollection.OpensearchserverlessCollection.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchserverlesscollection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/opensearchserverlesscollection"
 
 opensearchserverlesscollection.OpensearchserverlessCollection_IsTerraformElement(x interface{}) *bool
 ```
@@ -541,7 +541,7 @@ opensearchserverlesscollection.OpensearchserverlessCollection_IsTerraformElement
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.opensearchserverlessCollection.OpensearchserverlessCollection.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchserverlesscollection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/opensearchserverlesscollection"
 
 opensearchserverlesscollection.OpensearchserverlessCollection_IsTerraformResource(x interface{}) *bool
 ```
@@ -555,7 +555,7 @@ opensearchserverlesscollection.OpensearchserverlessCollection_IsTerraformResourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.opensearchserverlessCollection.OpensearchserverlessCollection.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchserverlesscollection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/opensearchserverlesscollection"
 
 opensearchserverlesscollection.OpensearchserverlessCollection_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -584,7 +584,7 @@ The construct id used in the generated config for the OpensearchserverlessCollec
 
 The id of the existing OpensearchserverlessCollection that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearchserverless_collection#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchserverless_collection#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1059,7 +1059,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.opensearchserverlessCollection.OpensearchserverlessCollectionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchserverlesscollection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/opensearchserverlesscollection"
 
 &opensearchserverlesscollection.OpensearchserverlessCollectionConfig {
 	Connection: interface{},
@@ -1073,11 +1073,11 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchserverlessco
 	CollectionGroupName: *string,
 	DeletionProtection: *string,
 	Description: *string,
-	EncryptionConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.opensearchserverlessCollection.OpensearchserverlessCollectionEncryptionConfig,
+	EncryptionConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.opensearchserverlessCollection.OpensearchserverlessCollectionEncryptionConfig,
 	StandbyReplicas: *string,
 	Tags: interface{},
 	Type: *string,
-	VectorOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.opensearchserverlessCollection.OpensearchserverlessCollectionVectorOptions,
+	VectorOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.opensearchserverlessCollection.OpensearchserverlessCollectionVectorOptions,
 }
 ```
 
@@ -1190,7 +1190,7 @@ Starts with a lowercase letter
 Contains only lowercase letters a-z, the numbers 0-9 and the hyphen (-)
 Contains between 3 and 64 characters
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearchserverless_collection#name OpensearchserverlessCollection#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchserverless_collection#name OpensearchserverlessCollection#name}
 
 ---
 
@@ -1204,7 +1204,7 @@ CollectionGroupName *string
 
 The name of the collection group to associate with the collection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearchserverless_collection#collection_group_name OpensearchserverlessCollection#collection_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchserverless_collection#collection_group_name OpensearchserverlessCollection#collection_group_name}
 
 ---
 
@@ -1218,7 +1218,7 @@ DeletionProtection *string
 
 The deletion protection state of the collection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearchserverless_collection#deletion_protection OpensearchserverlessCollection#deletion_protection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchserverless_collection#deletion_protection OpensearchserverlessCollection#deletion_protection}
 
 ---
 
@@ -1232,7 +1232,7 @@ Description *string
 
 The description of the collection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearchserverless_collection#description OpensearchserverlessCollection#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchserverless_collection#description OpensearchserverlessCollection#description}
 
 ---
 
@@ -1246,7 +1246,7 @@ EncryptionConfig OpensearchserverlessCollectionEncryptionConfig
 
 Encryption settings for the collection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearchserverless_collection#encryption_config OpensearchserverlessCollection#encryption_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchserverless_collection#encryption_config OpensearchserverlessCollection#encryption_config}
 
 ---
 
@@ -1260,7 +1260,7 @@ StandbyReplicas *string
 
 The possible standby replicas for the collection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearchserverless_collection#standby_replicas OpensearchserverlessCollection#standby_replicas}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchserverless_collection#standby_replicas OpensearchserverlessCollection#standby_replicas}
 
 ---
 
@@ -1274,7 +1274,7 @@ Tags interface{}
 
 List of tags to be added to the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearchserverless_collection#tags OpensearchserverlessCollection#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchserverless_collection#tags OpensearchserverlessCollection#tags}
 
 ---
 
@@ -1288,7 +1288,7 @@ Type *string
 
 The possible types for the collection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearchserverless_collection#type OpensearchserverlessCollection#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchserverless_collection#type OpensearchserverlessCollection#type}
 
 ---
 
@@ -1302,7 +1302,7 @@ VectorOptions OpensearchserverlessCollectionVectorOptions
 
 Vector search configuration options for the collection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearchserverless_collection#vector_options OpensearchserverlessCollection#vector_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchserverless_collection#vector_options OpensearchserverlessCollection#vector_options}
 
 ---
 
@@ -1311,7 +1311,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.opensearchserverlessCollection.OpensearchserverlessCollectionEncryptionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchserverlesscollection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/opensearchserverlesscollection"
 
 &opensearchserverlesscollection.OpensearchserverlessCollectionEncryptionConfig {
 	AwsOwnedKey: interface{},
@@ -1338,7 +1338,7 @@ AwsOwnedKey interface{}
 
 Indicates whether to use an AWS owned key for encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearchserverless_collection#aws_owned_key OpensearchserverlessCollection#aws_owned_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchserverless_collection#aws_owned_key OpensearchserverlessCollection#aws_owned_key}
 
 ---
 
@@ -1352,7 +1352,7 @@ KmsKeyArn *string
 
 Key Management Service key used to encrypt the collection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearchserverless_collection#kms_key_arn OpensearchserverlessCollection#kms_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchserverless_collection#kms_key_arn OpensearchserverlessCollection#kms_key_arn}
 
 ---
 
@@ -1361,7 +1361,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.opensearchserverlessCollection.OpensearchserverlessCollectionFipsEndpoints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchserverlesscollection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/opensearchserverlesscollection"
 
 &opensearchserverlesscollection.OpensearchserverlessCollectionFipsEndpoints {
 
@@ -1374,7 +1374,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchserverlessco
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.opensearchserverlessCollection.OpensearchserverlessCollectionTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchserverlesscollection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/opensearchserverlesscollection"
 
 &opensearchserverlesscollection.OpensearchserverlessCollectionTags {
 	Key: *string,
@@ -1401,7 +1401,7 @@ Key *string
 
 The key in the key-value pair.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearchserverless_collection#key OpensearchserverlessCollection#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchserverless_collection#key OpensearchserverlessCollection#key}
 
 ---
 
@@ -1415,7 +1415,7 @@ Value *string
 
 The value in the key-value pair.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearchserverless_collection#value OpensearchserverlessCollection#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchserverless_collection#value OpensearchserverlessCollection#value}
 
 ---
 
@@ -1424,7 +1424,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.opensearchserverlessCollection.OpensearchserverlessCollectionVectorOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchserverlesscollection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/opensearchserverlesscollection"
 
 &opensearchserverlesscollection.OpensearchserverlessCollectionVectorOptions {
 	ServerlessVectorAcceleration: *string,
@@ -1449,7 +1449,7 @@ ServerlessVectorAcceleration *string
 
 Indicates whether GPU acceleration is enabled for vector indexing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearchserverless_collection#serverless_vector_acceleration OpensearchserverlessCollection#serverless_vector_acceleration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchserverless_collection#serverless_vector_acceleration OpensearchserverlessCollection#serverless_vector_acceleration}
 
 ---
 
@@ -1460,7 +1460,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.opensearchserverlessCollection.OpensearchserverlessCollectionEncryptionConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchserverlesscollection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/opensearchserverlesscollection"
 
 opensearchserverlesscollection.NewOpensearchserverlessCollectionEncryptionConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OpensearchserverlessCollectionEncryptionConfigOutputReference
 ```
@@ -1767,7 +1767,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.opensearchserverlessCollection.OpensearchserverlessCollectionFipsEndpointsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchserverlesscollection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/opensearchserverlesscollection"
 
 opensearchserverlesscollection.NewOpensearchserverlessCollectionFipsEndpointsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OpensearchserverlessCollectionFipsEndpointsOutputReference
 ```
@@ -2038,7 +2038,7 @@ func InternalValue() OpensearchserverlessCollectionFipsEndpoints
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.opensearchserverlessCollection.OpensearchserverlessCollectionTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchserverlesscollection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/opensearchserverlesscollection"
 
 opensearchserverlesscollection.NewOpensearchserverlessCollectionTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OpensearchserverlessCollectionTagsList
 ```
@@ -2198,7 +2198,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.opensearchserverlessCollection.OpensearchserverlessCollectionTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchserverlesscollection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/opensearchserverlesscollection"
 
 opensearchserverlesscollection.NewOpensearchserverlessCollectionTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OpensearchserverlessCollectionTagsOutputReference
 ```
@@ -2523,7 +2523,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.opensearchserverlessCollection.OpensearchserverlessCollectionVectorOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchserverlesscollection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/opensearchserverlesscollection"
 
 opensearchserverlesscollection.NewOpensearchserverlessCollectionVectorOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OpensearchserverlessCollectionVectorOptionsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### SsmMaintenanceWindowTarget <a name="SsmMaintenanceWindowTarget" id="@cdktn/provider-awscc.ssmMaintenanceWindowTarget.SsmMaintenanceWindowTarget"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_maintenance_window_target awscc_ssm_maintenance_window_target}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_maintenance_window_target awscc_ssm_maintenance_window_target}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssmMaintenanceWindowTarget.SsmMaintenanceWindowTarget.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmmaintenancewindowtarget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmmaintenancewindowtarget"
 
 ssmmaintenancewindowtarget.NewSsmMaintenanceWindowTarget(scope Construct, id *string, config SsmMaintenanceWindowTargetConfig) SsmMaintenanceWindowTarget
 ```
@@ -434,7 +434,7 @@ func ResetOwnerInformation()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.ssmMaintenanceWindowTarget.SsmMaintenanceWindowTarget.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmmaintenancewindowtarget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmmaintenancewindowtarget"
 
 ssmmaintenancewindowtarget.SsmMaintenanceWindowTarget_IsConstruct(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.ssmMaintenanceWindowTarget.SsmMaintenanceWindowTarget.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmmaintenancewindowtarget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmmaintenancewindowtarget"
 
 ssmmaintenancewindowtarget.SsmMaintenanceWindowTarget_IsTerraformElement(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ ssmmaintenancewindowtarget.SsmMaintenanceWindowTarget_IsTerraformElement(x inter
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.ssmMaintenanceWindowTarget.SsmMaintenanceWindowTarget.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmmaintenancewindowtarget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmmaintenancewindowtarget"
 
 ssmmaintenancewindowtarget.SsmMaintenanceWindowTarget_IsTerraformResource(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ ssmmaintenancewindowtarget.SsmMaintenanceWindowTarget_IsTerraformResource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.ssmMaintenanceWindowTarget.SsmMaintenanceWindowTarget.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmmaintenancewindowtarget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmmaintenancewindowtarget"
 
 ssmmaintenancewindowtarget.SsmMaintenanceWindowTarget_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -523,7 +523,7 @@ The construct id used in the generated config for the SsmMaintenanceWindowTarget
 
 The id of the existing SsmMaintenanceWindowTarget that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_maintenance_window_target#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_maintenance_window_target#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -877,7 +877,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ssmMaintenanceWindowTarget.SsmMaintenanceWindowTargetConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmmaintenancewindowtarget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmmaintenancewindowtarget"
 
 &ssmmaintenancewindowtarget.SsmMaintenanceWindowTargetConfig {
 	Connection: interface{},
@@ -996,7 +996,7 @@ ResourceType *string
 
 The type of target that is being registered with the maintenance window.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_maintenance_window_target#resource_type SsmMaintenanceWindowTarget#resource_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_maintenance_window_target#resource_type SsmMaintenanceWindowTarget#resource_type}
 
 ---
 
@@ -1010,7 +1010,7 @@ Targets interface{}
 
 The targets to register with the maintenance window.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_maintenance_window_target#targets SsmMaintenanceWindowTarget#targets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_maintenance_window_target#targets SsmMaintenanceWindowTarget#targets}
 
 ---
 
@@ -1024,7 +1024,7 @@ WindowId *string
 
 The ID of the maintenance window to register the target with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_maintenance_window_target#window_id SsmMaintenanceWindowTarget#window_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_maintenance_window_target#window_id SsmMaintenanceWindowTarget#window_id}
 
 ---
 
@@ -1038,7 +1038,7 @@ Description *string
 
 A description for the target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_maintenance_window_target#description SsmMaintenanceWindowTarget#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_maintenance_window_target#description SsmMaintenanceWindowTarget#description}
 
 ---
 
@@ -1052,7 +1052,7 @@ Name *string
 
 The name for the maintenance window target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_maintenance_window_target#name SsmMaintenanceWindowTarget#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_maintenance_window_target#name SsmMaintenanceWindowTarget#name}
 
 ---
 
@@ -1066,7 +1066,7 @@ OwnerInformation *string
 
 A user-provided value that will be included in any Amazon CloudWatch Events events that are raised while running tasks for these targets in this maintenance window.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_maintenance_window_target#owner_information SsmMaintenanceWindowTarget#owner_information}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_maintenance_window_target#owner_information SsmMaintenanceWindowTarget#owner_information}
 
 ---
 
@@ -1075,7 +1075,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ssmMaintenanceWindowTarget.SsmMaintenanceWindowTargetTargets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmmaintenancewindowtarget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmmaintenancewindowtarget"
 
 &ssmmaintenancewindowtarget.SsmMaintenanceWindowTargetTargets {
 	Key: *string,
@@ -1102,7 +1102,7 @@ Key *string
 
 User-defined criteria for sending commands that target managed nodes that meet the criteria.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_maintenance_window_target#key SsmMaintenanceWindowTarget#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_maintenance_window_target#key SsmMaintenanceWindowTarget#key}
 
 ---
 
@@ -1116,7 +1116,7 @@ Values *[]*string
 
 User-defined criteria that maps to Key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_maintenance_window_target#values SsmMaintenanceWindowTarget#values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_maintenance_window_target#values SsmMaintenanceWindowTarget#values}
 
 ---
 
@@ -1127,7 +1127,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssmMaintenanceWindowTarget.SsmMaintenanceWindowTargetTargetsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmmaintenancewindowtarget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmmaintenancewindowtarget"
 
 ssmmaintenancewindowtarget.NewSsmMaintenanceWindowTargetTargetsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SsmMaintenanceWindowTargetTargetsList
 ```
@@ -1287,7 +1287,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssmMaintenanceWindowTarget.SsmMaintenanceWindowTargetTargetsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmmaintenancewindowtarget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmmaintenancewindowtarget"
 
 ssmmaintenancewindowtarget.NewSsmMaintenanceWindowTargetTargetsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SsmMaintenanceWindowTargetTargetsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccAmplifyApp <a name="DataAwsccAmplifyApp" id="@cdktn/provider-awscc.dataAwsccAmplifyApp.DataAwsccAmplifyApp"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/amplify_app awscc_amplify_app}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/amplify_app awscc_amplify_app}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAmplifyApp.DataAwsccAmplifyApp.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifyapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamplifyapp"
 
 dataawsccamplifyapp.NewDataAwsccAmplifyApp(scope Construct, id *string, config DataAwsccAmplifyAppConfig) DataAwsccAmplifyApp
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccAmplifyApp.DataAwsccAmplifyApp.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifyapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamplifyapp"
 
 dataawsccamplifyapp.DataAwsccAmplifyApp_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccAmplifyApp.DataAwsccAmplifyApp.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifyapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamplifyapp"
 
 dataawsccamplifyapp.DataAwsccAmplifyApp_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccamplifyapp.DataAwsccAmplifyApp_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccAmplifyApp.DataAwsccAmplifyApp.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifyapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamplifyapp"
 
 dataawsccamplifyapp.DataAwsccAmplifyApp_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccamplifyapp.DataAwsccAmplifyApp_IsTerraformDataSource(x interface{}) *bo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccAmplifyApp.DataAwsccAmplifyApp.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifyapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamplifyapp"
 
 dataawsccamplifyapp.DataAwsccAmplifyApp_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccAmplifyApp to imp
 
 The id of the existing DataAwsccAmplifyApp that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/amplify_app#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/amplify_app#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -829,7 +829,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAmplifyApp.DataAwsccAmplifyAppAutoBranchCreationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifyapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamplifyapp"
 
 &dataawsccamplifyapp.DataAwsccAmplifyAppAutoBranchCreationConfig {
 
@@ -842,7 +842,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifyapp"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAmplifyApp.DataAwsccAmplifyAppAutoBranchCreationConfigBasicAuthConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifyapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamplifyapp"
 
 &dataawsccamplifyapp.DataAwsccAmplifyAppAutoBranchCreationConfigBasicAuthConfig {
 
@@ -855,7 +855,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifyapp"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAmplifyApp.DataAwsccAmplifyAppAutoBranchCreationConfigEnvironmentVariables.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifyapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamplifyapp"
 
 &dataawsccamplifyapp.DataAwsccAmplifyAppAutoBranchCreationConfigEnvironmentVariables {
 
@@ -868,7 +868,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifyapp"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAmplifyApp.DataAwsccAmplifyAppBasicAuthConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifyapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamplifyapp"
 
 &dataawsccamplifyapp.DataAwsccAmplifyAppBasicAuthConfig {
 
@@ -881,7 +881,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifyapp"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAmplifyApp.DataAwsccAmplifyAppCacheConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifyapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamplifyapp"
 
 &dataawsccamplifyapp.DataAwsccAmplifyAppCacheConfig {
 
@@ -894,7 +894,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifyapp"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAmplifyApp.DataAwsccAmplifyAppConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifyapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamplifyapp"
 
 &dataawsccamplifyapp.DataAwsccAmplifyAppConfig {
 	Connection: interface{},
@@ -1003,7 +1003,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/amplify_app#id DataAwsccAmplifyApp#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/amplify_app#id DataAwsccAmplifyApp#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1015,7 +1015,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAmplifyApp.DataAwsccAmplifyAppCustomRules.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifyapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamplifyapp"
 
 &dataawsccamplifyapp.DataAwsccAmplifyAppCustomRules {
 
@@ -1028,7 +1028,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifyapp"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAmplifyApp.DataAwsccAmplifyAppEnvironmentVariables.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifyapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamplifyapp"
 
 &dataawsccamplifyapp.DataAwsccAmplifyAppEnvironmentVariables {
 
@@ -1041,7 +1041,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifyapp"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAmplifyApp.DataAwsccAmplifyAppJobConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifyapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamplifyapp"
 
 &dataawsccamplifyapp.DataAwsccAmplifyAppJobConfig {
 
@@ -1054,7 +1054,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifyapp"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAmplifyApp.DataAwsccAmplifyAppTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifyapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamplifyapp"
 
 &dataawsccamplifyapp.DataAwsccAmplifyAppTags {
 
@@ -1069,7 +1069,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifyapp"
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAmplifyApp.DataAwsccAmplifyAppAutoBranchCreationConfigBasicAuthConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifyapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamplifyapp"
 
 dataawsccamplifyapp.NewDataAwsccAmplifyAppAutoBranchCreationConfigBasicAuthConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAmplifyAppAutoBranchCreationConfigBasicAuthConfigOutputReference
 ```
@@ -1351,7 +1351,7 @@ func InternalValue() DataAwsccAmplifyAppAutoBranchCreationConfigBasicAuthConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAmplifyApp.DataAwsccAmplifyAppAutoBranchCreationConfigEnvironmentVariablesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifyapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamplifyapp"
 
 dataawsccamplifyapp.NewDataAwsccAmplifyAppAutoBranchCreationConfigEnvironmentVariablesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccAmplifyAppAutoBranchCreationConfigEnvironmentVariablesList
 ```
@@ -1500,7 +1500,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAmplifyApp.DataAwsccAmplifyAppAutoBranchCreationConfigEnvironmentVariablesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifyapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamplifyapp"
 
 dataawsccamplifyapp.NewDataAwsccAmplifyAppAutoBranchCreationConfigEnvironmentVariablesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccAmplifyAppAutoBranchCreationConfigEnvironmentVariablesOutputReference
 ```
@@ -1789,7 +1789,7 @@ func InternalValue() DataAwsccAmplifyAppAutoBranchCreationConfigEnvironmentVaria
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAmplifyApp.DataAwsccAmplifyAppAutoBranchCreationConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifyapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamplifyapp"
 
 dataawsccamplifyapp.NewDataAwsccAmplifyAppAutoBranchCreationConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAmplifyAppAutoBranchCreationConfigOutputReference
 ```
@@ -2159,7 +2159,7 @@ func InternalValue() DataAwsccAmplifyAppAutoBranchCreationConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAmplifyApp.DataAwsccAmplifyAppBasicAuthConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifyapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamplifyapp"
 
 dataawsccamplifyapp.NewDataAwsccAmplifyAppBasicAuthConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAmplifyAppBasicAuthConfigOutputReference
 ```
@@ -2441,7 +2441,7 @@ func InternalValue() DataAwsccAmplifyAppBasicAuthConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAmplifyApp.DataAwsccAmplifyAppCacheConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifyapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamplifyapp"
 
 dataawsccamplifyapp.NewDataAwsccAmplifyAppCacheConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAmplifyAppCacheConfigOutputReference
 ```
@@ -2701,7 +2701,7 @@ func InternalValue() DataAwsccAmplifyAppCacheConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAmplifyApp.DataAwsccAmplifyAppCustomRulesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifyapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamplifyapp"
 
 dataawsccamplifyapp.NewDataAwsccAmplifyAppCustomRulesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccAmplifyAppCustomRulesList
 ```
@@ -2850,7 +2850,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAmplifyApp.DataAwsccAmplifyAppCustomRulesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifyapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamplifyapp"
 
 dataawsccamplifyapp.NewDataAwsccAmplifyAppCustomRulesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccAmplifyAppCustomRulesOutputReference
 ```
@@ -3161,7 +3161,7 @@ func InternalValue() DataAwsccAmplifyAppCustomRules
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAmplifyApp.DataAwsccAmplifyAppEnvironmentVariablesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifyapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamplifyapp"
 
 dataawsccamplifyapp.NewDataAwsccAmplifyAppEnvironmentVariablesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccAmplifyAppEnvironmentVariablesList
 ```
@@ -3310,7 +3310,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAmplifyApp.DataAwsccAmplifyAppEnvironmentVariablesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifyapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamplifyapp"
 
 dataawsccamplifyapp.NewDataAwsccAmplifyAppEnvironmentVariablesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccAmplifyAppEnvironmentVariablesOutputReference
 ```
@@ -3599,7 +3599,7 @@ func InternalValue() DataAwsccAmplifyAppEnvironmentVariables
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAmplifyApp.DataAwsccAmplifyAppJobConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifyapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamplifyapp"
 
 dataawsccamplifyapp.NewDataAwsccAmplifyAppJobConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAmplifyAppJobConfigOutputReference
 ```
@@ -3859,7 +3859,7 @@ func InternalValue() DataAwsccAmplifyAppJobConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAmplifyApp.DataAwsccAmplifyAppTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifyapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamplifyapp"
 
 dataawsccamplifyapp.NewDataAwsccAmplifyAppTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccAmplifyAppTagsList
 ```
@@ -4008,7 +4008,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAmplifyApp.DataAwsccAmplifyAppTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifyapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamplifyapp"
 
 dataawsccamplifyapp.NewDataAwsccAmplifyAppTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccAmplifyAppTagsOutputReference
 ```

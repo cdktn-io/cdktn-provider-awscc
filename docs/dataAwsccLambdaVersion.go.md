@@ -4,12 +4,12 @@
 
 ### DataAwsccLambdaVersion <a name="DataAwsccLambdaVersion" id="@cdktn/provider-awscc.dataAwsccLambdaVersion.DataAwsccLambdaVersion"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lambda_version awscc_lambda_version}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lambda_version awscc_lambda_version}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaVersion.DataAwsccLambdaVersion.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaversion"
 
 dataawscclambdaversion.NewDataAwsccLambdaVersion(scope Construct, id *string, config DataAwsccLambdaVersionConfig) DataAwsccLambdaVersion
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccLambdaVersion.DataAwsccLambdaVersion.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaversion"
 
 dataawscclambdaversion.DataAwsccLambdaVersion_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccLambdaVersion.DataAwsccLambdaVersion.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaversion"
 
 dataawscclambdaversion.DataAwsccLambdaVersion_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscclambdaversion.DataAwsccLambdaVersion_IsTerraformElement(x interface{}) 
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccLambdaVersion.DataAwsccLambdaVersion.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaversion"
 
 dataawscclambdaversion.DataAwsccLambdaVersion_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscclambdaversion.DataAwsccLambdaVersion_IsTerraformDataSource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccLambdaVersion.DataAwsccLambdaVersion.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaversion"
 
 dataawscclambdaversion.DataAwsccLambdaVersion_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLambdaVersion to 
 
 The id of the existing DataAwsccLambdaVersion that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lambda_version#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lambda_version#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -675,7 +675,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaVersion.DataAwsccLambdaVersionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaversion"
 
 &dataawscclambdaversion.DataAwsccLambdaVersionConfig {
 	Connection: interface{},
@@ -784,7 +784,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lambda_version#id DataAwsccLambdaVersion#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lambda_version#id DataAwsccLambdaVersion#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -796,7 +796,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaVersion.DataAwsccLambdaVersionFunctionScalingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaversion"
 
 &dataawscclambdaversion.DataAwsccLambdaVersionFunctionScalingConfig {
 
@@ -809,7 +809,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaversion
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaVersion.DataAwsccLambdaVersionProvisionedConcurrencyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaversion"
 
 &dataawscclambdaversion.DataAwsccLambdaVersionProvisionedConcurrencyConfig {
 
@@ -822,7 +822,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaversion
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaVersion.DataAwsccLambdaVersionRuntimePolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaversion"
 
 &dataawscclambdaversion.DataAwsccLambdaVersionRuntimePolicy {
 
@@ -837,7 +837,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaversion
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaVersion.DataAwsccLambdaVersionFunctionScalingConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaversion"
 
 dataawscclambdaversion.NewDataAwsccLambdaVersionFunctionScalingConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLambdaVersionFunctionScalingConfigOutputReference
 ```
@@ -1108,7 +1108,7 @@ func InternalValue() DataAwsccLambdaVersionFunctionScalingConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaVersion.DataAwsccLambdaVersionProvisionedConcurrencyConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaversion"
 
 dataawscclambdaversion.NewDataAwsccLambdaVersionProvisionedConcurrencyConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLambdaVersionProvisionedConcurrencyConfigOutputReference
 ```
@@ -1368,7 +1368,7 @@ func InternalValue() DataAwsccLambdaVersionProvisionedConcurrencyConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaVersion.DataAwsccLambdaVersionRuntimePolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaversion"
 
 dataawscclambdaversion.NewDataAwsccLambdaVersionRuntimePolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLambdaVersionRuntimePolicyOutputReference
 ```

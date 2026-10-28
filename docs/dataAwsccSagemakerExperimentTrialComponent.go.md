@@ -4,12 +4,12 @@
 
 ### DataAwsccSagemakerExperimentTrialComponent <a name="DataAwsccSagemakerExperimentTrialComponent" id="@cdktn/provider-awscc.dataAwsccSagemakerExperimentTrialComponent.DataAwsccSagemakerExperimentTrialComponent"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_experiment_trial_component awscc_sagemaker_experiment_trial_component}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_experiment_trial_component awscc_sagemaker_experiment_trial_component}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerExperimentTrialComponent.DataAwsccSagemakerExperimentTrialComponent.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerexperimenttrialcomponent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerexperimenttrialcomponent"
 
 dataawsccsagemakerexperimenttrialcomponent.NewDataAwsccSagemakerExperimentTrialComponent(scope Construct, id *string, config DataAwsccSagemakerExperimentTrialComponentConfig) DataAwsccSagemakerExperimentTrialComponent
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSagemakerExperimentTrialComponent.DataAwsccSagemakerExperimentTrialComponent.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerexperimenttrialcomponent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerexperimenttrialcomponent"
 
 dataawsccsagemakerexperimenttrialcomponent.DataAwsccSagemakerExperimentTrialComponent_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSagemakerExperimentTrialComponent.DataAwsccSagemakerExperimentTrialComponent.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerexperimenttrialcomponent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerexperimenttrialcomponent"
 
 dataawsccsagemakerexperimenttrialcomponent.DataAwsccSagemakerExperimentTrialComponent_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsagemakerexperimenttrialcomponent.DataAwsccSagemakerExperimentTrialComp
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSagemakerExperimentTrialComponent.DataAwsccSagemakerExperimentTrialComponent.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerexperimenttrialcomponent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerexperimenttrialcomponent"
 
 dataawsccsagemakerexperimenttrialcomponent.DataAwsccSagemakerExperimentTrialComponent_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsagemakerexperimenttrialcomponent.DataAwsccSagemakerExperimentTrialComp
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSagemakerExperimentTrialComponent.DataAwsccSagemakerExperimentTrialComponent.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerexperimenttrialcomponent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerexperimenttrialcomponent"
 
 dataawsccsagemakerexperimenttrialcomponent.DataAwsccSagemakerExperimentTrialComponent_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSagemakerExperime
 
 The id of the existing DataAwsccSagemakerExperimentTrialComponent that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_experiment_trial_component#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_experiment_trial_component#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -708,7 +708,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerExperimentTrialComponent.DataAwsccSagemakerExperimentTrialComponentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerexperimenttrialcomponent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerexperimenttrialcomponent"
 
 &dataawsccsagemakerexperimenttrialcomponent.DataAwsccSagemakerExperimentTrialComponentConfig {
 	Connection: interface{},
@@ -817,7 +817,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_experiment_trial_component#id DataAwsccSagemakerExperimentTrialComponent#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_experiment_trial_component#id DataAwsccSagemakerExperimentTrialComponent#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -829,7 +829,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerExperimentTrialComponent.DataAwsccSagemakerExperimentTrialComponentMetadataProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerexperimenttrialcomponent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerexperimenttrialcomponent"
 
 &dataawsccsagemakerexperimenttrialcomponent.DataAwsccSagemakerExperimentTrialComponentMetadataProperties {
 
@@ -842,7 +842,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerexpe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerExperimentTrialComponent.DataAwsccSagemakerExperimentTrialComponentStatus.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerexperimenttrialcomponent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerexperimenttrialcomponent"
 
 &dataawsccsagemakerexperimenttrialcomponent.DataAwsccSagemakerExperimentTrialComponentStatus {
 
@@ -855,7 +855,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerexpe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerExperimentTrialComponent.DataAwsccSagemakerExperimentTrialComponentTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerexperimenttrialcomponent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerexperimenttrialcomponent"
 
 &dataawsccsagemakerexperimenttrialcomponent.DataAwsccSagemakerExperimentTrialComponentTags {
 
@@ -870,7 +870,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerexpe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerExperimentTrialComponent.DataAwsccSagemakerExperimentTrialComponentMetadataPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerexperimenttrialcomponent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerexperimenttrialcomponent"
 
 dataawsccsagemakerexperimenttrialcomponent.NewDataAwsccSagemakerExperimentTrialComponentMetadataPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerExperimentTrialComponentMetadataPropertiesOutputReference
 ```
@@ -1163,7 +1163,7 @@ func InternalValue() DataAwsccSagemakerExperimentTrialComponentMetadataPropertie
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerExperimentTrialComponent.DataAwsccSagemakerExperimentTrialComponentStatusOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerexperimenttrialcomponent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerexperimenttrialcomponent"
 
 dataawsccsagemakerexperimenttrialcomponent.NewDataAwsccSagemakerExperimentTrialComponentStatusOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerExperimentTrialComponentStatusOutputReference
 ```
@@ -1434,7 +1434,7 @@ func InternalValue() DataAwsccSagemakerExperimentTrialComponentStatus
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerExperimentTrialComponent.DataAwsccSagemakerExperimentTrialComponentTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerexperimenttrialcomponent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerexperimenttrialcomponent"
 
 dataawsccsagemakerexperimenttrialcomponent.NewDataAwsccSagemakerExperimentTrialComponentTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSagemakerExperimentTrialComponentTagsList
 ```
@@ -1583,7 +1583,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerExperimentTrialComponent.DataAwsccSagemakerExperimentTrialComponentTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerexperimenttrialcomponent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerexperimenttrialcomponent"
 
 dataawsccsagemakerexperimenttrialcomponent.NewDataAwsccSagemakerExperimentTrialComponentTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSagemakerExperimentTrialComponentTagsOutputReference
 ```

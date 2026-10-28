@@ -4,12 +4,12 @@
 
 ### CloudformationPublisher <a name="CloudformationPublisher" id="@cdktn/provider-awscc.cloudformationPublisher.CloudformationPublisher"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_publisher awscc_cloudformation_publisher}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_publisher awscc_cloudformation_publisher}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudformationPublisher.CloudformationPublisher.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationpublisher"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationpublisher"
 
 cloudformationpublisher.NewCloudformationPublisher(scope Construct, id *string, config CloudformationPublisherConfig) CloudformationPublisher
 ```
@@ -407,7 +407,7 @@ func ResetConnectionArn()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.cloudformationPublisher.CloudformationPublisher.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationpublisher"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationpublisher"
 
 cloudformationpublisher.CloudformationPublisher_IsConstruct(x interface{}) *bool
 ```
@@ -439,7 +439,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.cloudformationPublisher.CloudformationPublisher.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationpublisher"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationpublisher"
 
 cloudformationpublisher.CloudformationPublisher_IsTerraformElement(x interface{}) *bool
 ```
@@ -453,7 +453,7 @@ cloudformationpublisher.CloudformationPublisher_IsTerraformElement(x interface{}
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.cloudformationPublisher.CloudformationPublisher.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationpublisher"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationpublisher"
 
 cloudformationpublisher.CloudformationPublisher_IsTerraformResource(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ cloudformationpublisher.CloudformationPublisher_IsTerraformResource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.cloudformationPublisher.CloudformationPublisher.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationpublisher"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationpublisher"
 
 cloudformationpublisher.CloudformationPublisher_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -496,7 +496,7 @@ The construct id used in the generated config for the CloudformationPublisher to
 
 The id of the existing CloudformationPublisher that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_publisher#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_publisher#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -795,7 +795,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudformationPublisher.CloudformationPublisherConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationpublisher"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationpublisher"
 
 &cloudformationpublisher.CloudformationPublisherConfig {
 	Connection: interface{},
@@ -908,7 +908,7 @@ Whether you accept the terms and conditions for publishing extensions in the Clo
 
 You must accept the terms and conditions in order to publish public extensions to the CloudFormation registry. The terms and conditions can be found at https://cloudformation-registry-documents.s3.amazonaws.com/Terms_and_Conditions_for_AWS_CloudFormation_Registry_Publishers.pdf
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_publisher#accept_terms_and_conditions CloudformationPublisher#accept_terms_and_conditions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_publisher#accept_terms_and_conditions CloudformationPublisher#accept_terms_and_conditions}
 
 ---
 
@@ -922,7 +922,7 @@ ConnectionArn *string
 
 If you are using a Bitbucket or GitHub account for identity verification, the Amazon Resource Name (ARN) for your connection to that account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_publisher#connection_arn CloudformationPublisher#connection_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_publisher#connection_arn CloudformationPublisher#connection_arn}
 
 ---
 

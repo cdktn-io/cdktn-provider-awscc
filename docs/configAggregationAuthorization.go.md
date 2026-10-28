@@ -4,12 +4,12 @@
 
 ### ConfigAggregationAuthorization <a name="ConfigAggregationAuthorization" id="@cdktn/provider-awscc.configAggregationAuthorization.ConfigAggregationAuthorization"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/config_aggregation_authorization awscc_config_aggregation_authorization}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/config_aggregation_authorization awscc_config_aggregation_authorization}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.configAggregationAuthorization.ConfigAggregationAuthorization.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/configaggregationauthorization"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/configaggregationauthorization"
 
 configaggregationauthorization.NewConfigAggregationAuthorization(scope Construct, id *string, config ConfigAggregationAuthorizationConfig) ConfigAggregationAuthorization
 ```
@@ -420,7 +420,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.configAggregationAuthorization.ConfigAggregationAuthorization.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/configaggregationauthorization"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/configaggregationauthorization"
 
 configaggregationauthorization.ConfigAggregationAuthorization_IsConstruct(x interface{}) *bool
 ```
@@ -452,7 +452,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.configAggregationAuthorization.ConfigAggregationAuthorization.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/configaggregationauthorization"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/configaggregationauthorization"
 
 configaggregationauthorization.ConfigAggregationAuthorization_IsTerraformElement(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ configaggregationauthorization.ConfigAggregationAuthorization_IsTerraformElement
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.configAggregationAuthorization.ConfigAggregationAuthorization.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/configaggregationauthorization"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/configaggregationauthorization"
 
 configaggregationauthorization.ConfigAggregationAuthorization_IsTerraformResource(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ configaggregationauthorization.ConfigAggregationAuthorization_IsTerraformResourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.configAggregationAuthorization.ConfigAggregationAuthorization.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/configaggregationauthorization"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/configaggregationauthorization"
 
 configaggregationauthorization.ConfigAggregationAuthorization_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -509,7 +509,7 @@ The construct id used in the generated config for the ConfigAggregationAuthoriza
 
 The id of the existing ConfigAggregationAuthorization that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/config_aggregation_authorization#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/config_aggregation_authorization#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -797,7 +797,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.configAggregationAuthorization.ConfigAggregationAuthorizationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/configaggregationauthorization"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/configaggregationauthorization"
 
 &configaggregationauthorization.ConfigAggregationAuthorizationConfig {
 	Connection: interface{},
@@ -910,7 +910,7 @@ AuthorizedAccountId *string
 
 The 12-digit account ID of the account authorized to aggregate data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/config_aggregation_authorization#authorized_account_id ConfigAggregationAuthorization#authorized_account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/config_aggregation_authorization#authorized_account_id ConfigAggregationAuthorization#authorized_account_id}
 
 ---
 
@@ -924,7 +924,7 @@ AuthorizedAwsRegion *string
 
 The region authorized to collect aggregated data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/config_aggregation_authorization#authorized_aws_region ConfigAggregationAuthorization#authorized_aws_region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/config_aggregation_authorization#authorized_aws_region ConfigAggregationAuthorization#authorized_aws_region}
 
 ---
 
@@ -938,7 +938,7 @@ Tags interface{}
 
 The tags for the AggregationAuthorization.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/config_aggregation_authorization#tags ConfigAggregationAuthorization#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/config_aggregation_authorization#tags ConfigAggregationAuthorization#tags}
 
 ---
 
@@ -947,7 +947,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.configAggregationAuthorization.ConfigAggregationAuthorizationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/configaggregationauthorization"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/configaggregationauthorization"
 
 &configaggregationauthorization.ConfigAggregationAuthorizationTags {
 	Key: *string,
@@ -976,7 +976,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/config_aggregation_authorization#key ConfigAggregationAuthorization#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/config_aggregation_authorization#key ConfigAggregationAuthorization#key}
 
 ---
 
@@ -992,7 +992,7 @@ The value for the tag.
 
 You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/config_aggregation_authorization#value ConfigAggregationAuthorization#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/config_aggregation_authorization#value ConfigAggregationAuthorization#value}
 
 ---
 
@@ -1003,7 +1003,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.configAggregationAuthorization.ConfigAggregationAuthorizationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/configaggregationauthorization"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/configaggregationauthorization"
 
 configaggregationauthorization.NewConfigAggregationAuthorizationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ConfigAggregationAuthorizationTagsList
 ```
@@ -1163,7 +1163,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.configAggregationAuthorization.ConfigAggregationAuthorizationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/configaggregationauthorization"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/configaggregationauthorization"
 
 configaggregationauthorization.NewConfigAggregationAuthorizationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ConfigAggregationAuthorizationTagsOutputReference
 ```

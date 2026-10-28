@@ -4,12 +4,12 @@
 
 ### DataAwsccIotfleetwiseCampaign <a name="DataAwsccIotfleetwiseCampaign" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseCampaign.DataAwsccIotfleetwiseCampaign"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotfleetwise_campaign awscc_iotfleetwise_campaign}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotfleetwise_campaign awscc_iotfleetwise_campaign}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseCampaign.DataAwsccIotfleetwiseCampaign.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisecampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisecampaign"
 
 dataawscciotfleetwisecampaign.NewDataAwsccIotfleetwiseCampaign(scope Construct, id *string, config DataAwsccIotfleetwiseCampaignConfig) DataAwsccIotfleetwiseCampaign
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseCampaign.DataAwsccIotfleetwiseCampaign.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisecampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisecampaign"
 
 dataawscciotfleetwisecampaign.DataAwsccIotfleetwiseCampaign_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseCampaign.DataAwsccIotfleetwiseCampaign.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisecampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisecampaign"
 
 dataawscciotfleetwisecampaign.DataAwsccIotfleetwiseCampaign_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciotfleetwisecampaign.DataAwsccIotfleetwiseCampaign_IsTerraformElement(x
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseCampaign.DataAwsccIotfleetwiseCampaign.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisecampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisecampaign"
 
 dataawscciotfleetwisecampaign.DataAwsccIotfleetwiseCampaign_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciotfleetwisecampaign.DataAwsccIotfleetwiseCampaign_IsTerraformDataSourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseCampaign.DataAwsccIotfleetwiseCampaign.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisecampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisecampaign"
 
 dataawscciotfleetwisecampaign.DataAwsccIotfleetwiseCampaign_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotfleetwiseCampa
 
 The id of the existing DataAwsccIotfleetwiseCampaign that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotfleetwise_campaign#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotfleetwise_campaign#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -840,7 +840,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseCampaign.DataAwsccIotfleetwiseCampaignCollectionScheme.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisecampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisecampaign"
 
 &dataawscciotfleetwisecampaign.DataAwsccIotfleetwiseCampaignCollectionScheme {
 
@@ -853,7 +853,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseCampaign.DataAwsccIotfleetwiseCampaignCollectionSchemeConditionBasedCollectionScheme.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisecampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisecampaign"
 
 &dataawscciotfleetwisecampaign.DataAwsccIotfleetwiseCampaignCollectionSchemeConditionBasedCollectionScheme {
 
@@ -866,7 +866,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseCampaign.DataAwsccIotfleetwiseCampaignCollectionSchemeTimeBasedCollectionScheme.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisecampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisecampaign"
 
 &dataawscciotfleetwisecampaign.DataAwsccIotfleetwiseCampaignCollectionSchemeTimeBasedCollectionScheme {
 
@@ -879,7 +879,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseCampaign.DataAwsccIotfleetwiseCampaignConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisecampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisecampaign"
 
 &dataawscciotfleetwisecampaign.DataAwsccIotfleetwiseCampaignConfig {
 	Connection: interface{},
@@ -988,7 +988,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotfleetwise_campaign#id DataAwsccIotfleetwiseCampaign#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotfleetwise_campaign#id DataAwsccIotfleetwiseCampaign#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1000,7 +1000,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseCampaign.DataAwsccIotfleetwiseCampaignDataDestinationConfigs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisecampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisecampaign"
 
 &dataawscciotfleetwisecampaign.DataAwsccIotfleetwiseCampaignDataDestinationConfigs {
 
@@ -1013,7 +1013,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseCampaign.DataAwsccIotfleetwiseCampaignDataDestinationConfigsMqttTopicConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisecampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisecampaign"
 
 &dataawscciotfleetwisecampaign.DataAwsccIotfleetwiseCampaignDataDestinationConfigsMqttTopicConfig {
 
@@ -1026,7 +1026,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseCampaign.DataAwsccIotfleetwiseCampaignDataDestinationConfigsS3Config.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisecampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisecampaign"
 
 &dataawscciotfleetwisecampaign.DataAwsccIotfleetwiseCampaignDataDestinationConfigsS3Config {
 
@@ -1039,7 +1039,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseCampaign.DataAwsccIotfleetwiseCampaignDataDestinationConfigsTimestreamConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisecampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisecampaign"
 
 &dataawscciotfleetwisecampaign.DataAwsccIotfleetwiseCampaignDataDestinationConfigsTimestreamConfig {
 
@@ -1052,7 +1052,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseCampaign.DataAwsccIotfleetwiseCampaignDataPartitions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisecampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisecampaign"
 
 &dataawscciotfleetwisecampaign.DataAwsccIotfleetwiseCampaignDataPartitions {
 
@@ -1065,7 +1065,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseCampaign.DataAwsccIotfleetwiseCampaignDataPartitionsStorageOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisecampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisecampaign"
 
 &dataawscciotfleetwisecampaign.DataAwsccIotfleetwiseCampaignDataPartitionsStorageOptions {
 
@@ -1078,7 +1078,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseCampaign.DataAwsccIotfleetwiseCampaignDataPartitionsStorageOptionsMaximumSize.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisecampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisecampaign"
 
 &dataawscciotfleetwisecampaign.DataAwsccIotfleetwiseCampaignDataPartitionsStorageOptionsMaximumSize {
 
@@ -1091,7 +1091,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseCampaign.DataAwsccIotfleetwiseCampaignDataPartitionsStorageOptionsMinimumTimeToLive.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisecampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisecampaign"
 
 &dataawscciotfleetwisecampaign.DataAwsccIotfleetwiseCampaignDataPartitionsStorageOptionsMinimumTimeToLive {
 
@@ -1104,7 +1104,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseCampaign.DataAwsccIotfleetwiseCampaignDataPartitionsUploadOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisecampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisecampaign"
 
 &dataawscciotfleetwisecampaign.DataAwsccIotfleetwiseCampaignDataPartitionsUploadOptions {
 
@@ -1117,7 +1117,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseCampaign.DataAwsccIotfleetwiseCampaignSignalsToCollect.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisecampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisecampaign"
 
 &dataawscciotfleetwisecampaign.DataAwsccIotfleetwiseCampaignSignalsToCollect {
 
@@ -1130,7 +1130,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseCampaign.DataAwsccIotfleetwiseCampaignSignalsToFetch.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisecampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisecampaign"
 
 &dataawscciotfleetwisecampaign.DataAwsccIotfleetwiseCampaignSignalsToFetch {
 
@@ -1143,7 +1143,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseCampaign.DataAwsccIotfleetwiseCampaignSignalsToFetchSignalFetchConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisecampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisecampaign"
 
 &dataawscciotfleetwisecampaign.DataAwsccIotfleetwiseCampaignSignalsToFetchSignalFetchConfig {
 
@@ -1156,7 +1156,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseCampaign.DataAwsccIotfleetwiseCampaignSignalsToFetchSignalFetchConfigConditionBased.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisecampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisecampaign"
 
 &dataawscciotfleetwisecampaign.DataAwsccIotfleetwiseCampaignSignalsToFetchSignalFetchConfigConditionBased {
 
@@ -1169,7 +1169,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseCampaign.DataAwsccIotfleetwiseCampaignSignalsToFetchSignalFetchConfigTimeBased.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisecampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisecampaign"
 
 &dataawscciotfleetwisecampaign.DataAwsccIotfleetwiseCampaignSignalsToFetchSignalFetchConfigTimeBased {
 
@@ -1182,7 +1182,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseCampaign.DataAwsccIotfleetwiseCampaignTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisecampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisecampaign"
 
 &dataawscciotfleetwisecampaign.DataAwsccIotfleetwiseCampaignTags {
 
@@ -1197,7 +1197,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisec
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseCampaign.DataAwsccIotfleetwiseCampaignCollectionSchemeConditionBasedCollectionSchemeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisecampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisecampaign"
 
 dataawscciotfleetwisecampaign.NewDataAwsccIotfleetwiseCampaignCollectionSchemeConditionBasedCollectionSchemeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotfleetwiseCampaignCollectionSchemeConditionBasedCollectionSchemeOutputReference
 ```
@@ -1490,7 +1490,7 @@ func InternalValue() DataAwsccIotfleetwiseCampaignCollectionSchemeConditionBased
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseCampaign.DataAwsccIotfleetwiseCampaignCollectionSchemeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisecampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisecampaign"
 
 dataawscciotfleetwisecampaign.NewDataAwsccIotfleetwiseCampaignCollectionSchemeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotfleetwiseCampaignCollectionSchemeOutputReference
 ```
@@ -1761,7 +1761,7 @@ func InternalValue() DataAwsccIotfleetwiseCampaignCollectionScheme
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseCampaign.DataAwsccIotfleetwiseCampaignCollectionSchemeTimeBasedCollectionSchemeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisecampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisecampaign"
 
 dataawscciotfleetwisecampaign.NewDataAwsccIotfleetwiseCampaignCollectionSchemeTimeBasedCollectionSchemeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotfleetwiseCampaignCollectionSchemeTimeBasedCollectionSchemeOutputReference
 ```
@@ -2021,7 +2021,7 @@ func InternalValue() DataAwsccIotfleetwiseCampaignCollectionSchemeTimeBasedColle
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseCampaign.DataAwsccIotfleetwiseCampaignDataDestinationConfigsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisecampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisecampaign"
 
 dataawscciotfleetwisecampaign.NewDataAwsccIotfleetwiseCampaignDataDestinationConfigsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIotfleetwiseCampaignDataDestinationConfigsList
 ```
@@ -2170,7 +2170,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseCampaign.DataAwsccIotfleetwiseCampaignDataDestinationConfigsMqttTopicConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisecampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisecampaign"
 
 dataawscciotfleetwisecampaign.NewDataAwsccIotfleetwiseCampaignDataDestinationConfigsMqttTopicConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotfleetwiseCampaignDataDestinationConfigsMqttTopicConfigOutputReference
 ```
@@ -2441,7 +2441,7 @@ func InternalValue() DataAwsccIotfleetwiseCampaignDataDestinationConfigsMqttTopi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseCampaign.DataAwsccIotfleetwiseCampaignDataDestinationConfigsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisecampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisecampaign"
 
 dataawscciotfleetwisecampaign.NewDataAwsccIotfleetwiseCampaignDataDestinationConfigsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIotfleetwiseCampaignDataDestinationConfigsOutputReference
 ```
@@ -2741,7 +2741,7 @@ func InternalValue() DataAwsccIotfleetwiseCampaignDataDestinationConfigs
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseCampaign.DataAwsccIotfleetwiseCampaignDataDestinationConfigsS3ConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisecampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisecampaign"
 
 dataawscciotfleetwisecampaign.NewDataAwsccIotfleetwiseCampaignDataDestinationConfigsS3ConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotfleetwiseCampaignDataDestinationConfigsS3ConfigOutputReference
 ```
@@ -3034,7 +3034,7 @@ func InternalValue() DataAwsccIotfleetwiseCampaignDataDestinationConfigsS3Config
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseCampaign.DataAwsccIotfleetwiseCampaignDataDestinationConfigsTimestreamConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisecampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisecampaign"
 
 dataawscciotfleetwisecampaign.NewDataAwsccIotfleetwiseCampaignDataDestinationConfigsTimestreamConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotfleetwiseCampaignDataDestinationConfigsTimestreamConfigOutputReference
 ```
@@ -3305,7 +3305,7 @@ func InternalValue() DataAwsccIotfleetwiseCampaignDataDestinationConfigsTimestre
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseCampaign.DataAwsccIotfleetwiseCampaignDataPartitionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisecampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisecampaign"
 
 dataawscciotfleetwisecampaign.NewDataAwsccIotfleetwiseCampaignDataPartitionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIotfleetwiseCampaignDataPartitionsList
 ```
@@ -3454,7 +3454,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseCampaign.DataAwsccIotfleetwiseCampaignDataPartitionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisecampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisecampaign"
 
 dataawscciotfleetwisecampaign.NewDataAwsccIotfleetwiseCampaignDataPartitionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIotfleetwiseCampaignDataPartitionsOutputReference
 ```
@@ -3754,7 +3754,7 @@ func InternalValue() DataAwsccIotfleetwiseCampaignDataPartitions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseCampaign.DataAwsccIotfleetwiseCampaignDataPartitionsStorageOptionsMaximumSizeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisecampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisecampaign"
 
 dataawscciotfleetwisecampaign.NewDataAwsccIotfleetwiseCampaignDataPartitionsStorageOptionsMaximumSizeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotfleetwiseCampaignDataPartitionsStorageOptionsMaximumSizeOutputReference
 ```
@@ -4025,7 +4025,7 @@ func InternalValue() DataAwsccIotfleetwiseCampaignDataPartitionsStorageOptionsMa
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseCampaign.DataAwsccIotfleetwiseCampaignDataPartitionsStorageOptionsMinimumTimeToLiveOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisecampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisecampaign"
 
 dataawscciotfleetwisecampaign.NewDataAwsccIotfleetwiseCampaignDataPartitionsStorageOptionsMinimumTimeToLiveOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotfleetwiseCampaignDataPartitionsStorageOptionsMinimumTimeToLiveOutputReference
 ```
@@ -4296,7 +4296,7 @@ func InternalValue() DataAwsccIotfleetwiseCampaignDataPartitionsStorageOptionsMi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseCampaign.DataAwsccIotfleetwiseCampaignDataPartitionsStorageOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisecampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisecampaign"
 
 dataawscciotfleetwisecampaign.NewDataAwsccIotfleetwiseCampaignDataPartitionsStorageOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotfleetwiseCampaignDataPartitionsStorageOptionsOutputReference
 ```
@@ -4578,7 +4578,7 @@ func InternalValue() DataAwsccIotfleetwiseCampaignDataPartitionsStorageOptions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseCampaign.DataAwsccIotfleetwiseCampaignDataPartitionsUploadOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisecampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisecampaign"
 
 dataawscciotfleetwisecampaign.NewDataAwsccIotfleetwiseCampaignDataPartitionsUploadOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotfleetwiseCampaignDataPartitionsUploadOptionsOutputReference
 ```
@@ -4849,7 +4849,7 @@ func InternalValue() DataAwsccIotfleetwiseCampaignDataPartitionsUploadOptions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseCampaign.DataAwsccIotfleetwiseCampaignSignalsToCollectList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisecampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisecampaign"
 
 dataawscciotfleetwisecampaign.NewDataAwsccIotfleetwiseCampaignSignalsToCollectList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIotfleetwiseCampaignSignalsToCollectList
 ```
@@ -4998,7 +4998,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseCampaign.DataAwsccIotfleetwiseCampaignSignalsToCollectOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisecampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisecampaign"
 
 dataawscciotfleetwisecampaign.NewDataAwsccIotfleetwiseCampaignSignalsToCollectOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIotfleetwiseCampaignSignalsToCollectOutputReference
 ```
@@ -5309,7 +5309,7 @@ func InternalValue() DataAwsccIotfleetwiseCampaignSignalsToCollect
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseCampaign.DataAwsccIotfleetwiseCampaignSignalsToFetchList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisecampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisecampaign"
 
 dataawscciotfleetwisecampaign.NewDataAwsccIotfleetwiseCampaignSignalsToFetchList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIotfleetwiseCampaignSignalsToFetchList
 ```
@@ -5458,7 +5458,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseCampaign.DataAwsccIotfleetwiseCampaignSignalsToFetchOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisecampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisecampaign"
 
 dataawscciotfleetwisecampaign.NewDataAwsccIotfleetwiseCampaignSignalsToFetchOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIotfleetwiseCampaignSignalsToFetchOutputReference
 ```
@@ -5769,7 +5769,7 @@ func InternalValue() DataAwsccIotfleetwiseCampaignSignalsToFetch
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseCampaign.DataAwsccIotfleetwiseCampaignSignalsToFetchSignalFetchConfigConditionBasedOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisecampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisecampaign"
 
 dataawscciotfleetwisecampaign.NewDataAwsccIotfleetwiseCampaignSignalsToFetchSignalFetchConfigConditionBasedOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotfleetwiseCampaignSignalsToFetchSignalFetchConfigConditionBasedOutputReference
 ```
@@ -6040,7 +6040,7 @@ func InternalValue() DataAwsccIotfleetwiseCampaignSignalsToFetchSignalFetchConfi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseCampaign.DataAwsccIotfleetwiseCampaignSignalsToFetchSignalFetchConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisecampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisecampaign"
 
 dataawscciotfleetwisecampaign.NewDataAwsccIotfleetwiseCampaignSignalsToFetchSignalFetchConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotfleetwiseCampaignSignalsToFetchSignalFetchConfigOutputReference
 ```
@@ -6311,7 +6311,7 @@ func InternalValue() DataAwsccIotfleetwiseCampaignSignalsToFetchSignalFetchConfi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseCampaign.DataAwsccIotfleetwiseCampaignSignalsToFetchSignalFetchConfigTimeBasedOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisecampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisecampaign"
 
 dataawscciotfleetwisecampaign.NewDataAwsccIotfleetwiseCampaignSignalsToFetchSignalFetchConfigTimeBasedOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotfleetwiseCampaignSignalsToFetchSignalFetchConfigTimeBasedOutputReference
 ```
@@ -6571,7 +6571,7 @@ func InternalValue() DataAwsccIotfleetwiseCampaignSignalsToFetchSignalFetchConfi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseCampaign.DataAwsccIotfleetwiseCampaignTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisecampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisecampaign"
 
 dataawscciotfleetwisecampaign.NewDataAwsccIotfleetwiseCampaignTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIotfleetwiseCampaignTagsList
 ```
@@ -6720,7 +6720,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseCampaign.DataAwsccIotfleetwiseCampaignTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisecampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisecampaign"
 
 dataawscciotfleetwisecampaign.NewDataAwsccIotfleetwiseCampaignTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIotfleetwiseCampaignTagsOutputReference
 ```

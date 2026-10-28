@@ -4,12 +4,12 @@
 
 ### Ec2VerifiedAccessEndpoint <a name="Ec2VerifiedAccessEndpoint" id="@cdktn/provider-awscc.ec2VerifiedAccessEndpoint.Ec2VerifiedAccessEndpoint"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_endpoint awscc_ec2_verified_access_endpoint}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_endpoint awscc_ec2_verified_access_endpoint}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2VerifiedAccessEndpoint.Ec2VerifiedAccessEndpoint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2verifiedaccessendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2verifiedaccessendpoint"
 
 ec2verifiedaccessendpoint.NewEc2VerifiedAccessEndpoint(scope Construct, id *string, config Ec2VerifiedAccessEndpointConfig) Ec2VerifiedAccessEndpoint
 ```
@@ -569,7 +569,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.ec2VerifiedAccessEndpoint.Ec2VerifiedAccessEndpoint.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2verifiedaccessendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2verifiedaccessendpoint"
 
 ec2verifiedaccessendpoint.Ec2VerifiedAccessEndpoint_IsConstruct(x interface{}) *bool
 ```
@@ -601,7 +601,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.ec2VerifiedAccessEndpoint.Ec2VerifiedAccessEndpoint.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2verifiedaccessendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2verifiedaccessendpoint"
 
 ec2verifiedaccessendpoint.Ec2VerifiedAccessEndpoint_IsTerraformElement(x interface{}) *bool
 ```
@@ -615,7 +615,7 @@ ec2verifiedaccessendpoint.Ec2VerifiedAccessEndpoint_IsTerraformElement(x interfa
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.ec2VerifiedAccessEndpoint.Ec2VerifiedAccessEndpoint.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2verifiedaccessendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2verifiedaccessendpoint"
 
 ec2verifiedaccessendpoint.Ec2VerifiedAccessEndpoint_IsTerraformResource(x interface{}) *bool
 ```
@@ -629,7 +629,7 @@ ec2verifiedaccessendpoint.Ec2VerifiedAccessEndpoint_IsTerraformResource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.ec2VerifiedAccessEndpoint.Ec2VerifiedAccessEndpoint.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2verifiedaccessendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2verifiedaccessendpoint"
 
 ec2verifiedaccessendpoint.Ec2VerifiedAccessEndpoint_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -658,7 +658,7 @@ The construct id used in the generated config for the Ec2VerifiedAccessEndpoint 
 
 The id of the existing Ec2VerifiedAccessEndpoint that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_endpoint#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_endpoint#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1298,7 +1298,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2VerifiedAccessEndpoint.Ec2VerifiedAccessEndpointCidrOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2verifiedaccessendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2verifiedaccessendpoint"
 
 &ec2verifiedaccessendpoint.Ec2VerifiedAccessEndpointCidrOptions {
 	Cidr: *string,
@@ -1329,7 +1329,7 @@ Cidr *string
 
 The IP address range, in CIDR notation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_endpoint#cidr Ec2VerifiedAccessEndpoint#cidr}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_endpoint#cidr Ec2VerifiedAccessEndpoint#cidr}
 
 ---
 
@@ -1343,7 +1343,7 @@ PortRanges interface{}
 
 The list of port range.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_endpoint#port_ranges Ec2VerifiedAccessEndpoint#port_ranges}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_endpoint#port_ranges Ec2VerifiedAccessEndpoint#port_ranges}
 
 ---
 
@@ -1357,7 +1357,7 @@ Protocol *string
 
 The IP protocol.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_endpoint#protocol Ec2VerifiedAccessEndpoint#protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_endpoint#protocol Ec2VerifiedAccessEndpoint#protocol}
 
 ---
 
@@ -1371,7 +1371,7 @@ SubnetIds *[]*string
 
 The IDs of the subnets.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_endpoint#subnet_ids Ec2VerifiedAccessEndpoint#subnet_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_endpoint#subnet_ids Ec2VerifiedAccessEndpoint#subnet_ids}
 
 ---
 
@@ -1380,7 +1380,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2VerifiedAccessEndpoint.Ec2VerifiedAccessEndpointCidrOptionsPortRanges.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2verifiedaccessendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2verifiedaccessendpoint"
 
 &ec2verifiedaccessendpoint.Ec2VerifiedAccessEndpointCidrOptionsPortRanges {
 	FromPort: *f64,
@@ -1407,7 +1407,7 @@ FromPort *f64
 
 The first port in the range.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_endpoint#from_port Ec2VerifiedAccessEndpoint#from_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_endpoint#from_port Ec2VerifiedAccessEndpoint#from_port}
 
 ---
 
@@ -1421,7 +1421,7 @@ ToPort *f64
 
 The last port in the range.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_endpoint#to_port Ec2VerifiedAccessEndpoint#to_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_endpoint#to_port Ec2VerifiedAccessEndpoint#to_port}
 
 ---
 
@@ -1430,7 +1430,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2VerifiedAccessEndpoint.Ec2VerifiedAccessEndpointConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2verifiedaccessendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2verifiedaccessendpoint"
 
 &ec2verifiedaccessendpoint.Ec2VerifiedAccessEndpointConfig {
 	Connection: interface{},
@@ -1444,17 +1444,17 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2verifiedaccessendpo
 	EndpointType: *string,
 	VerifiedAccessGroupId: *string,
 	ApplicationDomain: *string,
-	CidrOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ec2VerifiedAccessEndpoint.Ec2VerifiedAccessEndpointCidrOptions,
+	CidrOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ec2VerifiedAccessEndpoint.Ec2VerifiedAccessEndpointCidrOptions,
 	Description: *string,
 	DomainCertificateArn: *string,
 	EndpointDomainPrefix: *string,
-	LoadBalancerOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ec2VerifiedAccessEndpoint.Ec2VerifiedAccessEndpointLoadBalancerOptions,
-	NetworkInterfaceOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ec2VerifiedAccessEndpoint.Ec2VerifiedAccessEndpointNetworkInterfaceOptions,
+	LoadBalancerOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ec2VerifiedAccessEndpoint.Ec2VerifiedAccessEndpointLoadBalancerOptions,
+	NetworkInterfaceOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ec2VerifiedAccessEndpoint.Ec2VerifiedAccessEndpointNetworkInterfaceOptions,
 	PolicyDocument: *string,
 	PolicyEnabled: interface{},
-	RdsOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ec2VerifiedAccessEndpoint.Ec2VerifiedAccessEndpointRdsOptions,
+	RdsOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ec2VerifiedAccessEndpoint.Ec2VerifiedAccessEndpointRdsOptions,
 	SecurityGroupIds: *[]*string,
-	SseSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ec2VerifiedAccessEndpoint.Ec2VerifiedAccessEndpointSseSpecification,
+	SseSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ec2VerifiedAccessEndpoint.Ec2VerifiedAccessEndpointSseSpecification,
 	Tags: interface{},
 }
 ```
@@ -1569,7 +1569,7 @@ AttachmentType *string
 
 The type of attachment used to provide connectivity between the AWS Verified Access endpoint and the application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_endpoint#attachment_type Ec2VerifiedAccessEndpoint#attachment_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_endpoint#attachment_type Ec2VerifiedAccessEndpoint#attachment_type}
 
 ---
 
@@ -1585,7 +1585,7 @@ The type of AWS Verified Access endpoint.
 
 Incoming application requests will be sent to an IP address, load balancer or a network interface depending on the endpoint type specified.The type of AWS Verified Access endpoint. Incoming application requests will be sent to an IP address, load balancer or a network interface depending on the endpoint type specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_endpoint#endpoint_type Ec2VerifiedAccessEndpoint#endpoint_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_endpoint#endpoint_type Ec2VerifiedAccessEndpoint#endpoint_type}
 
 ---
 
@@ -1599,7 +1599,7 @@ VerifiedAccessGroupId *string
 
 The ID of the AWS Verified Access group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_endpoint#verified_access_group_id Ec2VerifiedAccessEndpoint#verified_access_group_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_endpoint#verified_access_group_id Ec2VerifiedAccessEndpoint#verified_access_group_id}
 
 ---
 
@@ -1613,7 +1613,7 @@ ApplicationDomain *string
 
 The DNS name for users to reach your application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_endpoint#application_domain Ec2VerifiedAccessEndpoint#application_domain}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_endpoint#application_domain Ec2VerifiedAccessEndpoint#application_domain}
 
 ---
 
@@ -1627,7 +1627,7 @@ CidrOptions Ec2VerifiedAccessEndpointCidrOptions
 
 The options for cidr type endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_endpoint#cidr_options Ec2VerifiedAccessEndpoint#cidr_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_endpoint#cidr_options Ec2VerifiedAccessEndpoint#cidr_options}
 
 ---
 
@@ -1641,7 +1641,7 @@ Description *string
 
 A description for the AWS Verified Access endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_endpoint#description Ec2VerifiedAccessEndpoint#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_endpoint#description Ec2VerifiedAccessEndpoint#description}
 
 ---
 
@@ -1655,7 +1655,7 @@ DomainCertificateArn *string
 
 The ARN of a public TLS/SSL certificate imported into or created with ACM.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_endpoint#domain_certificate_arn Ec2VerifiedAccessEndpoint#domain_certificate_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_endpoint#domain_certificate_arn Ec2VerifiedAccessEndpoint#domain_certificate_arn}
 
 ---
 
@@ -1669,7 +1669,7 @@ EndpointDomainPrefix *string
 
 A custom identifier that gets prepended to a DNS name that is generated for the endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_endpoint#endpoint_domain_prefix Ec2VerifiedAccessEndpoint#endpoint_domain_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_endpoint#endpoint_domain_prefix Ec2VerifiedAccessEndpoint#endpoint_domain_prefix}
 
 ---
 
@@ -1683,7 +1683,7 @@ LoadBalancerOptions Ec2VerifiedAccessEndpointLoadBalancerOptions
 
 The load balancer details if creating the AWS Verified Access endpoint as load-balancer type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_endpoint#load_balancer_options Ec2VerifiedAccessEndpoint#load_balancer_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_endpoint#load_balancer_options Ec2VerifiedAccessEndpoint#load_balancer_options}
 
 ---
 
@@ -1697,7 +1697,7 @@ NetworkInterfaceOptions Ec2VerifiedAccessEndpointNetworkInterfaceOptions
 
 The options for network-interface type endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_endpoint#network_interface_options Ec2VerifiedAccessEndpoint#network_interface_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_endpoint#network_interface_options Ec2VerifiedAccessEndpoint#network_interface_options}
 
 ---
 
@@ -1711,7 +1711,7 @@ PolicyDocument *string
 
 The AWS Verified Access policy document.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_endpoint#policy_document Ec2VerifiedAccessEndpoint#policy_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_endpoint#policy_document Ec2VerifiedAccessEndpoint#policy_document}
 
 ---
 
@@ -1725,7 +1725,7 @@ PolicyEnabled interface{}
 
 The status of the Verified Access policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_endpoint#policy_enabled Ec2VerifiedAccessEndpoint#policy_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_endpoint#policy_enabled Ec2VerifiedAccessEndpoint#policy_enabled}
 
 ---
 
@@ -1739,7 +1739,7 @@ RdsOptions Ec2VerifiedAccessEndpointRdsOptions
 
 The options for rds type endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_endpoint#rds_options Ec2VerifiedAccessEndpoint#rds_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_endpoint#rds_options Ec2VerifiedAccessEndpoint#rds_options}
 
 ---
 
@@ -1753,7 +1753,7 @@ SecurityGroupIds *[]*string
 
 The IDs of the security groups for the endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_endpoint#security_group_ids Ec2VerifiedAccessEndpoint#security_group_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_endpoint#security_group_ids Ec2VerifiedAccessEndpoint#security_group_ids}
 
 ---
 
@@ -1767,7 +1767,7 @@ SseSpecification Ec2VerifiedAccessEndpointSseSpecification
 
 The configuration options for customer provided KMS encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_endpoint#sse_specification Ec2VerifiedAccessEndpoint#sse_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_endpoint#sse_specification Ec2VerifiedAccessEndpoint#sse_specification}
 
 ---
 
@@ -1781,7 +1781,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_endpoint#tags Ec2VerifiedAccessEndpoint#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_endpoint#tags Ec2VerifiedAccessEndpoint#tags}
 
 ---
 
@@ -1790,7 +1790,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2VerifiedAccessEndpoint.Ec2VerifiedAccessEndpointLoadBalancerOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2verifiedaccessendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2verifiedaccessendpoint"
 
 &ec2verifiedaccessendpoint.Ec2VerifiedAccessEndpointLoadBalancerOptions {
 	LoadBalancerArn: *string,
@@ -1823,7 +1823,7 @@ LoadBalancerArn *string
 
 The ARN of the load balancer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_endpoint#load_balancer_arn Ec2VerifiedAccessEndpoint#load_balancer_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_endpoint#load_balancer_arn Ec2VerifiedAccessEndpoint#load_balancer_arn}
 
 ---
 
@@ -1837,7 +1837,7 @@ Port *f64
 
 The IP port number.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_endpoint#port Ec2VerifiedAccessEndpoint#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_endpoint#port Ec2VerifiedAccessEndpoint#port}
 
 ---
 
@@ -1851,7 +1851,7 @@ PortRanges interface{}
 
 The list of port range.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_endpoint#port_ranges Ec2VerifiedAccessEndpoint#port_ranges}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_endpoint#port_ranges Ec2VerifiedAccessEndpoint#port_ranges}
 
 ---
 
@@ -1865,7 +1865,7 @@ Protocol *string
 
 The IP protocol.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_endpoint#protocol Ec2VerifiedAccessEndpoint#protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_endpoint#protocol Ec2VerifiedAccessEndpoint#protocol}
 
 ---
 
@@ -1879,7 +1879,7 @@ SubnetIds *[]*string
 
 The IDs of the subnets.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_endpoint#subnet_ids Ec2VerifiedAccessEndpoint#subnet_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_endpoint#subnet_ids Ec2VerifiedAccessEndpoint#subnet_ids}
 
 ---
 
@@ -1888,7 +1888,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2VerifiedAccessEndpoint.Ec2VerifiedAccessEndpointLoadBalancerOptionsPortRanges.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2verifiedaccessendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2verifiedaccessendpoint"
 
 &ec2verifiedaccessendpoint.Ec2VerifiedAccessEndpointLoadBalancerOptionsPortRanges {
 	FromPort: *f64,
@@ -1915,7 +1915,7 @@ FromPort *f64
 
 The first port in the range.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_endpoint#from_port Ec2VerifiedAccessEndpoint#from_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_endpoint#from_port Ec2VerifiedAccessEndpoint#from_port}
 
 ---
 
@@ -1929,7 +1929,7 @@ ToPort *f64
 
 The last port in the range.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_endpoint#to_port Ec2VerifiedAccessEndpoint#to_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_endpoint#to_port Ec2VerifiedAccessEndpoint#to_port}
 
 ---
 
@@ -1938,7 +1938,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2VerifiedAccessEndpoint.Ec2VerifiedAccessEndpointNetworkInterfaceOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2verifiedaccessendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2verifiedaccessendpoint"
 
 &ec2verifiedaccessendpoint.Ec2VerifiedAccessEndpointNetworkInterfaceOptions {
 	NetworkInterfaceId: *string,
@@ -1969,7 +1969,7 @@ NetworkInterfaceId *string
 
 The ID of the network interface.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_endpoint#network_interface_id Ec2VerifiedAccessEndpoint#network_interface_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_endpoint#network_interface_id Ec2VerifiedAccessEndpoint#network_interface_id}
 
 ---
 
@@ -1983,7 +1983,7 @@ Port *f64
 
 The IP port number.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_endpoint#port Ec2VerifiedAccessEndpoint#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_endpoint#port Ec2VerifiedAccessEndpoint#port}
 
 ---
 
@@ -1997,7 +1997,7 @@ PortRanges interface{}
 
 The list of port ranges.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_endpoint#port_ranges Ec2VerifiedAccessEndpoint#port_ranges}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_endpoint#port_ranges Ec2VerifiedAccessEndpoint#port_ranges}
 
 ---
 
@@ -2011,7 +2011,7 @@ Protocol *string
 
 The IP protocol.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_endpoint#protocol Ec2VerifiedAccessEndpoint#protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_endpoint#protocol Ec2VerifiedAccessEndpoint#protocol}
 
 ---
 
@@ -2020,7 +2020,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2VerifiedAccessEndpoint.Ec2VerifiedAccessEndpointNetworkInterfaceOptionsPortRanges.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2verifiedaccessendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2verifiedaccessendpoint"
 
 &ec2verifiedaccessendpoint.Ec2VerifiedAccessEndpointNetworkInterfaceOptionsPortRanges {
 	FromPort: *f64,
@@ -2047,7 +2047,7 @@ FromPort *f64
 
 The first port in the range.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_endpoint#from_port Ec2VerifiedAccessEndpoint#from_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_endpoint#from_port Ec2VerifiedAccessEndpoint#from_port}
 
 ---
 
@@ -2061,7 +2061,7 @@ ToPort *f64
 
 The last port in the range.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_endpoint#to_port Ec2VerifiedAccessEndpoint#to_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_endpoint#to_port Ec2VerifiedAccessEndpoint#to_port}
 
 ---
 
@@ -2070,7 +2070,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2VerifiedAccessEndpoint.Ec2VerifiedAccessEndpointRdsOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2verifiedaccessendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2verifiedaccessendpoint"
 
 &ec2verifiedaccessendpoint.Ec2VerifiedAccessEndpointRdsOptions {
 	Port: *f64,
@@ -2107,7 +2107,7 @@ Port *f64
 
 The IP port number.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_endpoint#port Ec2VerifiedAccessEndpoint#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_endpoint#port Ec2VerifiedAccessEndpoint#port}
 
 ---
 
@@ -2121,7 +2121,7 @@ Protocol *string
 
 The IP protocol.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_endpoint#protocol Ec2VerifiedAccessEndpoint#protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_endpoint#protocol Ec2VerifiedAccessEndpoint#protocol}
 
 ---
 
@@ -2135,7 +2135,7 @@ RdsDbClusterArn *string
 
 The ARN of the RDS DB cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_endpoint#rds_db_cluster_arn Ec2VerifiedAccessEndpoint#rds_db_cluster_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_endpoint#rds_db_cluster_arn Ec2VerifiedAccessEndpoint#rds_db_cluster_arn}
 
 ---
 
@@ -2149,7 +2149,7 @@ RdsDbInstanceArn *string
 
 The ARN of the RDS DB instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_endpoint#rds_db_instance_arn Ec2VerifiedAccessEndpoint#rds_db_instance_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_endpoint#rds_db_instance_arn Ec2VerifiedAccessEndpoint#rds_db_instance_arn}
 
 ---
 
@@ -2163,7 +2163,7 @@ RdsDbProxyArn *string
 
 The ARN of the RDS DB proxy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_endpoint#rds_db_proxy_arn Ec2VerifiedAccessEndpoint#rds_db_proxy_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_endpoint#rds_db_proxy_arn Ec2VerifiedAccessEndpoint#rds_db_proxy_arn}
 
 ---
 
@@ -2177,7 +2177,7 @@ RdsEndpoint *string
 
 The RDS endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_endpoint#rds_endpoint Ec2VerifiedAccessEndpoint#rds_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_endpoint#rds_endpoint Ec2VerifiedAccessEndpoint#rds_endpoint}
 
 ---
 
@@ -2191,7 +2191,7 @@ SubnetIds *[]*string
 
 The IDs of the subnets.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_endpoint#subnet_ids Ec2VerifiedAccessEndpoint#subnet_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_endpoint#subnet_ids Ec2VerifiedAccessEndpoint#subnet_ids}
 
 ---
 
@@ -2200,7 +2200,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2VerifiedAccessEndpoint.Ec2VerifiedAccessEndpointSseSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2verifiedaccessendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2verifiedaccessendpoint"
 
 &ec2verifiedaccessendpoint.Ec2VerifiedAccessEndpointSseSpecification {
 	CustomerManagedKeyEnabled: interface{},
@@ -2227,7 +2227,7 @@ CustomerManagedKeyEnabled interface{}
 
 Whether to encrypt the policy with the provided key or disable encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_endpoint#customer_managed_key_enabled Ec2VerifiedAccessEndpoint#customer_managed_key_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_endpoint#customer_managed_key_enabled Ec2VerifiedAccessEndpoint#customer_managed_key_enabled}
 
 ---
 
@@ -2241,7 +2241,7 @@ KmsKeyArn *string
 
 KMS Key Arn used to encrypt the group policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_endpoint#kms_key_arn Ec2VerifiedAccessEndpoint#kms_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_endpoint#kms_key_arn Ec2VerifiedAccessEndpoint#kms_key_arn}
 
 ---
 
@@ -2250,7 +2250,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2VerifiedAccessEndpoint.Ec2VerifiedAccessEndpointTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2verifiedaccessendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2verifiedaccessendpoint"
 
 &ec2verifiedaccessendpoint.Ec2VerifiedAccessEndpointTags {
 	Key: *string,
@@ -2279,7 +2279,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_endpoint#key Ec2VerifiedAccessEndpoint#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_endpoint#key Ec2VerifiedAccessEndpoint#key}
 
 ---
 
@@ -2295,7 +2295,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_endpoint#value Ec2VerifiedAccessEndpoint#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_endpoint#value Ec2VerifiedAccessEndpoint#value}
 
 ---
 
@@ -2306,7 +2306,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2VerifiedAccessEndpoint.Ec2VerifiedAccessEndpointCidrOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2verifiedaccessendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2verifiedaccessendpoint"
 
 ec2verifiedaccessendpoint.NewEc2VerifiedAccessEndpointCidrOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Ec2VerifiedAccessEndpointCidrOptionsOutputReference
 ```
@@ -2684,7 +2684,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2VerifiedAccessEndpoint.Ec2VerifiedAccessEndpointCidrOptionsPortRangesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2verifiedaccessendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2verifiedaccessendpoint"
 
 ec2verifiedaccessendpoint.NewEc2VerifiedAccessEndpointCidrOptionsPortRangesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Ec2VerifiedAccessEndpointCidrOptionsPortRangesList
 ```
@@ -2844,7 +2844,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2VerifiedAccessEndpoint.Ec2VerifiedAccessEndpointCidrOptionsPortRangesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2verifiedaccessendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2verifiedaccessendpoint"
 
 ec2verifiedaccessendpoint.NewEc2VerifiedAccessEndpointCidrOptionsPortRangesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) Ec2VerifiedAccessEndpointCidrOptionsPortRangesOutputReference
 ```
@@ -3169,7 +3169,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2VerifiedAccessEndpoint.Ec2VerifiedAccessEndpointLoadBalancerOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2verifiedaccessendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2verifiedaccessendpoint"
 
 ec2verifiedaccessendpoint.NewEc2VerifiedAccessEndpointLoadBalancerOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Ec2VerifiedAccessEndpointLoadBalancerOptionsOutputReference
 ```
@@ -3576,7 +3576,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2VerifiedAccessEndpoint.Ec2VerifiedAccessEndpointLoadBalancerOptionsPortRangesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2verifiedaccessendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2verifiedaccessendpoint"
 
 ec2verifiedaccessendpoint.NewEc2VerifiedAccessEndpointLoadBalancerOptionsPortRangesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Ec2VerifiedAccessEndpointLoadBalancerOptionsPortRangesList
 ```
@@ -3736,7 +3736,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2VerifiedAccessEndpoint.Ec2VerifiedAccessEndpointLoadBalancerOptionsPortRangesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2verifiedaccessendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2verifiedaccessendpoint"
 
 ec2verifiedaccessendpoint.NewEc2VerifiedAccessEndpointLoadBalancerOptionsPortRangesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) Ec2VerifiedAccessEndpointLoadBalancerOptionsPortRangesOutputReference
 ```
@@ -4061,7 +4061,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2VerifiedAccessEndpoint.Ec2VerifiedAccessEndpointNetworkInterfaceOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2verifiedaccessendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2verifiedaccessendpoint"
 
 ec2verifiedaccessendpoint.NewEc2VerifiedAccessEndpointNetworkInterfaceOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Ec2VerifiedAccessEndpointNetworkInterfaceOptionsOutputReference
 ```
@@ -4439,7 +4439,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2VerifiedAccessEndpoint.Ec2VerifiedAccessEndpointNetworkInterfaceOptionsPortRangesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2verifiedaccessendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2verifiedaccessendpoint"
 
 ec2verifiedaccessendpoint.NewEc2VerifiedAccessEndpointNetworkInterfaceOptionsPortRangesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Ec2VerifiedAccessEndpointNetworkInterfaceOptionsPortRangesList
 ```
@@ -4599,7 +4599,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2VerifiedAccessEndpoint.Ec2VerifiedAccessEndpointNetworkInterfaceOptionsPortRangesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2verifiedaccessendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2verifiedaccessendpoint"
 
 ec2verifiedaccessendpoint.NewEc2VerifiedAccessEndpointNetworkInterfaceOptionsPortRangesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) Ec2VerifiedAccessEndpointNetworkInterfaceOptionsPortRangesOutputReference
 ```
@@ -4924,7 +4924,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2VerifiedAccessEndpoint.Ec2VerifiedAccessEndpointRdsOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2verifiedaccessendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2verifiedaccessendpoint"
 
 ec2verifiedaccessendpoint.NewEc2VerifiedAccessEndpointRdsOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Ec2VerifiedAccessEndpointRdsOptionsOutputReference
 ```
@@ -5376,7 +5376,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2VerifiedAccessEndpoint.Ec2VerifiedAccessEndpointSseSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2verifiedaccessendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2verifiedaccessendpoint"
 
 ec2verifiedaccessendpoint.NewEc2VerifiedAccessEndpointSseSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Ec2VerifiedAccessEndpointSseSpecificationOutputReference
 ```
@@ -5683,7 +5683,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2VerifiedAccessEndpoint.Ec2VerifiedAccessEndpointTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2verifiedaccessendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2verifiedaccessendpoint"
 
 ec2verifiedaccessendpoint.NewEc2VerifiedAccessEndpointTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Ec2VerifiedAccessEndpointTagsList
 ```
@@ -5843,7 +5843,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2VerifiedAccessEndpoint.Ec2VerifiedAccessEndpointTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2verifiedaccessendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2verifiedaccessendpoint"
 
 ec2verifiedaccessendpoint.NewEc2VerifiedAccessEndpointTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) Ec2VerifiedAccessEndpointTagsOutputReference
 ```

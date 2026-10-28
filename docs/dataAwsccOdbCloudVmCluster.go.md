@@ -4,12 +4,12 @@
 
 ### DataAwsccOdbCloudVmCluster <a name="DataAwsccOdbCloudVmCluster" id="@cdktn/provider-awscc.dataAwsccOdbCloudVmCluster.DataAwsccOdbCloudVmCluster"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/odb_cloud_vm_cluster awscc_odb_cloud_vm_cluster}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/odb_cloud_vm_cluster awscc_odb_cloud_vm_cluster}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOdbCloudVmCluster.DataAwsccOdbCloudVmCluster.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbcloudvmcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbcloudvmcluster"
 
 dataawsccodbcloudvmcluster.NewDataAwsccOdbCloudVmCluster(scope Construct, id *string, config DataAwsccOdbCloudVmClusterConfig) DataAwsccOdbCloudVmCluster
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccOdbCloudVmCluster.DataAwsccOdbCloudVmCluster.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbcloudvmcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbcloudvmcluster"
 
 dataawsccodbcloudvmcluster.DataAwsccOdbCloudVmCluster_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccOdbCloudVmCluster.DataAwsccOdbCloudVmCluster.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbcloudvmcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbcloudvmcluster"
 
 dataawsccodbcloudvmcluster.DataAwsccOdbCloudVmCluster_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccodbcloudvmcluster.DataAwsccOdbCloudVmCluster_IsTerraformElement(x inter
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccOdbCloudVmCluster.DataAwsccOdbCloudVmCluster.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbcloudvmcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbcloudvmcluster"
 
 dataawsccodbcloudvmcluster.DataAwsccOdbCloudVmCluster_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccodbcloudvmcluster.DataAwsccOdbCloudVmCluster_IsTerraformDataSource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccOdbCloudVmCluster.DataAwsccOdbCloudVmCluster.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbcloudvmcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbcloudvmcluster"
 
 dataawsccodbcloudvmcluster.DataAwsccOdbCloudVmCluster_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccOdbCloudVmCluster
 
 The id of the existing DataAwsccOdbCloudVmCluster that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/odb_cloud_vm_cluster#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/odb_cloud_vm_cluster#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -994,7 +994,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOdbCloudVmCluster.DataAwsccOdbCloudVmClusterConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbcloudvmcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbcloudvmcluster"
 
 &dataawsccodbcloudvmcluster.DataAwsccOdbCloudVmClusterConfig {
 	Connection: interface{},
@@ -1103,7 +1103,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/odb_cloud_vm_cluster#id DataAwsccOdbCloudVmCluster#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/odb_cloud_vm_cluster#id DataAwsccOdbCloudVmCluster#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1115,7 +1115,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOdbCloudVmCluster.DataAwsccOdbCloudVmClusterDataCollectionOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbcloudvmcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbcloudvmcluster"
 
 &dataawsccodbcloudvmcluster.DataAwsccOdbCloudVmClusterDataCollectionOptions {
 
@@ -1128,7 +1128,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbcloudvmclu
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOdbCloudVmCluster.DataAwsccOdbCloudVmClusterDbNodes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbcloudvmcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbcloudvmcluster"
 
 &dataawsccodbcloudvmcluster.DataAwsccOdbCloudVmClusterDbNodes {
 
@@ -1141,7 +1141,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbcloudvmclu
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOdbCloudVmCluster.DataAwsccOdbCloudVmClusterDbNodesTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbcloudvmcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbcloudvmcluster"
 
 &dataawsccodbcloudvmcluster.DataAwsccOdbCloudVmClusterDbNodesTags {
 
@@ -1154,7 +1154,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbcloudvmclu
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOdbCloudVmCluster.DataAwsccOdbCloudVmClusterIamRoles.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbcloudvmcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbcloudvmcluster"
 
 &dataawsccodbcloudvmcluster.DataAwsccOdbCloudVmClusterIamRoles {
 
@@ -1167,7 +1167,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbcloudvmclu
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOdbCloudVmCluster.DataAwsccOdbCloudVmClusterTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbcloudvmcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbcloudvmcluster"
 
 &dataawsccodbcloudvmcluster.DataAwsccOdbCloudVmClusterTags {
 
@@ -1182,7 +1182,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbcloudvmclu
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOdbCloudVmCluster.DataAwsccOdbCloudVmClusterDataCollectionOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbcloudvmcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbcloudvmcluster"
 
 dataawsccodbcloudvmcluster.NewDataAwsccOdbCloudVmClusterDataCollectionOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccOdbCloudVmClusterDataCollectionOptionsOutputReference
 ```
@@ -1464,7 +1464,7 @@ func InternalValue() DataAwsccOdbCloudVmClusterDataCollectionOptions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOdbCloudVmCluster.DataAwsccOdbCloudVmClusterDbNodesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbcloudvmcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbcloudvmcluster"
 
 dataawsccodbcloudvmcluster.NewDataAwsccOdbCloudVmClusterDbNodesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccOdbCloudVmClusterDbNodesList
 ```
@@ -1613,7 +1613,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOdbCloudVmCluster.DataAwsccOdbCloudVmClusterDbNodesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbcloudvmcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbcloudvmcluster"
 
 dataawsccodbcloudvmcluster.NewDataAwsccOdbCloudVmClusterDbNodesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccOdbCloudVmClusterDbNodesOutputReference
 ```
@@ -2056,7 +2056,7 @@ func InternalValue() DataAwsccOdbCloudVmClusterDbNodes
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOdbCloudVmCluster.DataAwsccOdbCloudVmClusterDbNodesTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbcloudvmcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbcloudvmcluster"
 
 dataawsccodbcloudvmcluster.NewDataAwsccOdbCloudVmClusterDbNodesTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccOdbCloudVmClusterDbNodesTagsList
 ```
@@ -2205,7 +2205,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOdbCloudVmCluster.DataAwsccOdbCloudVmClusterDbNodesTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbcloudvmcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbcloudvmcluster"
 
 dataawsccodbcloudvmcluster.NewDataAwsccOdbCloudVmClusterDbNodesTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccOdbCloudVmClusterDbNodesTagsOutputReference
 ```
@@ -2494,7 +2494,7 @@ func InternalValue() DataAwsccOdbCloudVmClusterDbNodesTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOdbCloudVmCluster.DataAwsccOdbCloudVmClusterIamRolesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbcloudvmcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbcloudvmcluster"
 
 dataawsccodbcloudvmcluster.NewDataAwsccOdbCloudVmClusterIamRolesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccOdbCloudVmClusterIamRolesList
 ```
@@ -2643,7 +2643,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOdbCloudVmCluster.DataAwsccOdbCloudVmClusterIamRolesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbcloudvmcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbcloudvmcluster"
 
 dataawsccodbcloudvmcluster.NewDataAwsccOdbCloudVmClusterIamRolesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccOdbCloudVmClusterIamRolesOutputReference
 ```
@@ -2943,7 +2943,7 @@ func InternalValue() DataAwsccOdbCloudVmClusterIamRoles
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOdbCloudVmCluster.DataAwsccOdbCloudVmClusterTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbcloudvmcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbcloudvmcluster"
 
 dataawsccodbcloudvmcluster.NewDataAwsccOdbCloudVmClusterTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccOdbCloudVmClusterTagsList
 ```
@@ -3092,7 +3092,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOdbCloudVmCluster.DataAwsccOdbCloudVmClusterTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbcloudvmcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbcloudvmcluster"
 
 dataawsccodbcloudvmcluster.NewDataAwsccOdbCloudVmClusterTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccOdbCloudVmClusterTagsOutputReference
 ```

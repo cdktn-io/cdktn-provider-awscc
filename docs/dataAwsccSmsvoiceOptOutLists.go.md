@@ -4,12 +4,12 @@
 
 ### DataAwsccSmsvoiceOptOutLists <a name="DataAwsccSmsvoiceOptOutLists" id="@cdktn/provider-awscc.dataAwsccSmsvoiceOptOutLists.DataAwsccSmsvoiceOptOutLists"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/smsvoice_opt_out_lists awscc_smsvoice_opt_out_lists}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/smsvoice_opt_out_lists awscc_smsvoice_opt_out_lists}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSmsvoiceOptOutLists.DataAwsccSmsvoiceOptOutLists.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoiceoptoutlists"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoiceoptoutlists"
 
 dataawsccsmsvoiceoptoutlists.NewDataAwsccSmsvoiceOptOutLists(scope Construct, id *string, config DataAwsccSmsvoiceOptOutListsConfig) DataAwsccSmsvoiceOptOutLists
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSmsvoiceOptOutLists.DataAwsccSmsvoiceOptOutLists.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoiceoptoutlists"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoiceoptoutlists"
 
 dataawsccsmsvoiceoptoutlists.DataAwsccSmsvoiceOptOutLists_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSmsvoiceOptOutLists.DataAwsccSmsvoiceOptOutLists.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoiceoptoutlists"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoiceoptoutlists"
 
 dataawsccsmsvoiceoptoutlists.DataAwsccSmsvoiceOptOutLists_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsmsvoiceoptoutlists.DataAwsccSmsvoiceOptOutLists_IsTerraformElement(x i
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSmsvoiceOptOutLists.DataAwsccSmsvoiceOptOutLists.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoiceoptoutlists"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoiceoptoutlists"
 
 dataawsccsmsvoiceoptoutlists.DataAwsccSmsvoiceOptOutLists_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsmsvoiceoptoutlists.DataAwsccSmsvoiceOptOutLists_IsTerraformDataSource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSmsvoiceOptOutLists.DataAwsccSmsvoiceOptOutLists.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoiceoptoutlists"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoiceoptoutlists"
 
 dataawsccsmsvoiceoptoutlists.DataAwsccSmsvoiceOptOutLists_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSmsvoiceOptOutLis
 
 The id of the existing DataAwsccSmsvoiceOptOutLists that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/smsvoice_opt_out_lists#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/smsvoice_opt_out_lists#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSmsvoiceOptOutLists.DataAwsccSmsvoiceOptOutListsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoiceoptoutlists"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoiceoptoutlists"
 
 &dataawsccsmsvoiceoptoutlists.DataAwsccSmsvoiceOptOutListsConfig {
 	Connection: interface{},

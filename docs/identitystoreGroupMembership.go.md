@@ -4,12 +4,12 @@
 
 ### IdentitystoreGroupMembership <a name="IdentitystoreGroupMembership" id="@cdktn/provider-awscc.identitystoreGroupMembership.IdentitystoreGroupMembership"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/identitystore_group_membership awscc_identitystore_group_membership}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/identitystore_group_membership awscc_identitystore_group_membership}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.identitystoreGroupMembership.IdentitystoreGroupMembership.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/identitystoregroupmembership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/identitystoregroupmembership"
 
 identitystoregroupmembership.NewIdentitystoreGroupMembership(scope Construct, id *string, config IdentitystoreGroupMembershipConfig) IdentitystoreGroupMembership
 ```
@@ -413,7 +413,7 @@ func PutMemberId(value IdentitystoreGroupMembershipMemberId)
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.identitystoreGroupMembership.IdentitystoreGroupMembership.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/identitystoregroupmembership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/identitystoregroupmembership"
 
 identitystoregroupmembership.IdentitystoreGroupMembership_IsConstruct(x interface{}) *bool
 ```
@@ -445,7 +445,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.identitystoreGroupMembership.IdentitystoreGroupMembership.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/identitystoregroupmembership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/identitystoregroupmembership"
 
 identitystoregroupmembership.IdentitystoreGroupMembership_IsTerraformElement(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ identitystoregroupmembership.IdentitystoreGroupMembership_IsTerraformElement(x i
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.identitystoreGroupMembership.IdentitystoreGroupMembership.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/identitystoregroupmembership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/identitystoregroupmembership"
 
 identitystoregroupmembership.IdentitystoreGroupMembership_IsTerraformResource(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ identitystoregroupmembership.IdentitystoreGroupMembership_IsTerraformResource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.identitystoreGroupMembership.IdentitystoreGroupMembership.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/identitystoregroupmembership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/identitystoregroupmembership"
 
 identitystoregroupmembership.IdentitystoreGroupMembership_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -502,7 +502,7 @@ The construct id used in the generated config for the IdentitystoreGroupMembersh
 
 The id of the existing IdentitystoreGroupMembership that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/identitystore_group_membership#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/identitystore_group_membership#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -790,7 +790,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.identitystoreGroupMembership.IdentitystoreGroupMembershipConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/identitystoregroupmembership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/identitystoregroupmembership"
 
 &identitystoregroupmembership.IdentitystoreGroupMembershipConfig {
 	Connection: interface{},
@@ -802,7 +802,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/identitystoregroupmemb
 	Provisioners: *[]interface{},
 	GroupId: *string,
 	IdentityStoreId: *string,
-	MemberId: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.identitystoreGroupMembership.IdentitystoreGroupMembershipMemberId,
+	MemberId: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.identitystoreGroupMembership.IdentitystoreGroupMembershipMemberId,
 }
 ```
 
@@ -903,7 +903,7 @@ GroupId *string
 
 The unique identifier for a group in the identity store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/identitystore_group_membership#group_id IdentitystoreGroupMembership#group_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/identitystore_group_membership#group_id IdentitystoreGroupMembership#group_id}
 
 ---
 
@@ -917,7 +917,7 @@ IdentityStoreId *string
 
 The globally unique identifier for the identity store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/identitystore_group_membership#identity_store_id IdentitystoreGroupMembership#identity_store_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/identitystore_group_membership#identity_store_id IdentitystoreGroupMembership#identity_store_id}
 
 ---
 
@@ -931,7 +931,7 @@ MemberId IdentitystoreGroupMembershipMemberId
 
 An object containing the identifier of a group member.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/identitystore_group_membership#member_id IdentitystoreGroupMembership#member_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/identitystore_group_membership#member_id IdentitystoreGroupMembership#member_id}
 
 ---
 
@@ -940,7 +940,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.identitystoreGroupMembership.IdentitystoreGroupMembershipMemberId.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/identitystoregroupmembership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/identitystoregroupmembership"
 
 &identitystoregroupmembership.IdentitystoreGroupMembershipMemberId {
 	UserId: *string,
@@ -965,7 +965,7 @@ UserId *string
 
 The identifier for a user in the identity store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/identitystore_group_membership#user_id IdentitystoreGroupMembership#user_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/identitystore_group_membership#user_id IdentitystoreGroupMembership#user_id}
 
 ---
 
@@ -976,7 +976,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.identitystoreGroupMembership.IdentitystoreGroupMembershipMemberIdOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/identitystoregroupmembership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/identitystoregroupmembership"
 
 identitystoregroupmembership.NewIdentitystoreGroupMembershipMemberIdOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IdentitystoreGroupMembershipMemberIdOutputReference
 ```

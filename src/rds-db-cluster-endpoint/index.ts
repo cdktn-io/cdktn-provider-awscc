@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_cluster_endpoint
+// https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_cluster_endpoint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,37 +15,37 @@ export interface RdsDbClusterEndpointAConfig extends cdktn.TerraformMetaArgument
   /**
   * The type of the custom endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_cluster_endpoint#custom_endpoint_type RdsDbClusterEndpointA#custom_endpoint_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_cluster_endpoint#custom_endpoint_type RdsDbClusterEndpointA#custom_endpoint_type}
   */
   readonly customEndpointType: string;
   /**
   * The identifier to use for the new endpoint. This parameter is stored as a lowercase string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_cluster_endpoint#db_cluster_endpoint_identifier RdsDbClusterEndpointA#db_cluster_endpoint_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_cluster_endpoint#db_cluster_endpoint_identifier RdsDbClusterEndpointA#db_cluster_endpoint_identifier}
   */
   readonly dbClusterEndpointIdentifier: string;
   /**
   * The DB cluster identifier of the DB cluster associated with the endpoint. This parameter is stored as a lowercase string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_cluster_endpoint#db_cluster_identifier RdsDbClusterEndpointA#db_cluster_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_cluster_endpoint#db_cluster_identifier RdsDbClusterEndpointA#db_cluster_identifier}
   */
   readonly dbClusterIdentifier: string;
   /**
   * List of DB instance identifiers that aren't part of the custom endpoint group. All other eligible instances are reachable through the custom endpoint. Only relevant if the list of static members is empty. Once either member list is set, it can be changed or replaced by the other list, but both lists cannot be removed in place; removing them requires replacing the endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_cluster_endpoint#excluded_members RdsDbClusterEndpointA#excluded_members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_cluster_endpoint#excluded_members RdsDbClusterEndpointA#excluded_members}
   */
   readonly excludedMembers?: string[];
   /**
   * List of DB instance identifiers that are part of the custom endpoint group. Once either member list is set, it can be changed or replaced by the other list, but both lists cannot be removed in place; removing them requires replacing the endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_cluster_endpoint#static_members RdsDbClusterEndpointA#static_members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_cluster_endpoint#static_members RdsDbClusterEndpointA#static_members}
   */
   readonly staticMembers?: string[];
   /**
   * The tags to be assigned to the DB cluster endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_cluster_endpoint#tags RdsDbClusterEndpointA#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_cluster_endpoint#tags RdsDbClusterEndpointA#tags}
   */
   readonly tags?: RdsDbClusterEndpointTags[] | cdktn.IResolvable;
 }
@@ -53,13 +53,13 @@ export interface RdsDbClusterEndpointTags {
   /**
   * The key name of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_cluster_endpoint#key RdsDbClusterEndpointA#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_cluster_endpoint#key RdsDbClusterEndpointA#key}
   */
   readonly key?: string;
   /**
   * The value for the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_cluster_endpoint#value RdsDbClusterEndpointA#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_cluster_endpoint#value RdsDbClusterEndpointA#value}
   */
   readonly value?: string;
 }
@@ -204,7 +204,7 @@ export class RdsDbClusterEndpointTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_cluster_endpoint awscc_rds_db_cluster_endpoint}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_cluster_endpoint awscc_rds_db_cluster_endpoint}
 */
 export class RdsDbClusterEndpointA extends cdktn.TerraformResource {
 
@@ -220,7 +220,7 @@ export class RdsDbClusterEndpointA extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a RdsDbClusterEndpointA resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RdsDbClusterEndpointA to import
-  * @param importFromId The id of the existing RdsDbClusterEndpointA that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_cluster_endpoint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RdsDbClusterEndpointA that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_cluster_endpoint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RdsDbClusterEndpointA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -232,7 +232,7 @@ export class RdsDbClusterEndpointA extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_cluster_endpoint awscc_rds_db_cluster_endpoint} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_cluster_endpoint awscc_rds_db_cluster_endpoint} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -243,7 +243,7 @@ export class RdsDbClusterEndpointA extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_rds_db_cluster_endpoint',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.106.0',
+        providerVersion: '1.107.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

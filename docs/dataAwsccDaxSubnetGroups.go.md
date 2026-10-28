@@ -4,12 +4,12 @@
 
 ### DataAwsccDaxSubnetGroups <a name="DataAwsccDaxSubnetGroups" id="@cdktn/provider-awscc.dataAwsccDaxSubnetGroups.DataAwsccDaxSubnetGroups"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/dax_subnet_groups awscc_dax_subnet_groups}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/dax_subnet_groups awscc_dax_subnet_groups}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDaxSubnetGroups.DataAwsccDaxSubnetGroups.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdaxsubnetgroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdaxsubnetgroups"
 
 dataawsccdaxsubnetgroups.NewDataAwsccDaxSubnetGroups(scope Construct, id *string, config DataAwsccDaxSubnetGroupsConfig) DataAwsccDaxSubnetGroups
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccDaxSubnetGroups.DataAwsccDaxSubnetGroups.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdaxsubnetgroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdaxsubnetgroups"
 
 dataawsccdaxsubnetgroups.DataAwsccDaxSubnetGroups_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccDaxSubnetGroups.DataAwsccDaxSubnetGroups.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdaxsubnetgroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdaxsubnetgroups"
 
 dataawsccdaxsubnetgroups.DataAwsccDaxSubnetGroups_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccdaxsubnetgroups.DataAwsccDaxSubnetGroups_IsTerraformElement(x interface
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccDaxSubnetGroups.DataAwsccDaxSubnetGroups.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdaxsubnetgroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdaxsubnetgroups"
 
 dataawsccdaxsubnetgroups.DataAwsccDaxSubnetGroups_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccdaxsubnetgroups.DataAwsccDaxSubnetGroups_IsTerraformDataSource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccDaxSubnetGroups.DataAwsccDaxSubnetGroups.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdaxsubnetgroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdaxsubnetgroups"
 
 dataawsccdaxsubnetgroups.DataAwsccDaxSubnetGroups_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDaxSubnetGroups t
 
 The id of the existing DataAwsccDaxSubnetGroups that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/dax_subnet_groups#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/dax_subnet_groups#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDaxSubnetGroups.DataAwsccDaxSubnetGroupsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdaxsubnetgroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdaxsubnetgroups"
 
 &dataawsccdaxsubnetgroups.DataAwsccDaxSubnetGroupsConfig {
 	Connection: interface{},

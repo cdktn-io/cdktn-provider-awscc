@@ -4,12 +4,12 @@
 
 ### DataAwsccLakeformationTagAssociation <a name="DataAwsccLakeformationTagAssociation" id="@cdktn/provider-awscc.dataAwsccLakeformationTagAssociation.DataAwsccLakeformationTagAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lakeformation_tag_association awscc_lakeformation_tag_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lakeformation_tag_association awscc_lakeformation_tag_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLakeformationTagAssociation.DataAwsccLakeformationTagAssociation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformationtagassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclakeformationtagassociation"
 
 dataawscclakeformationtagassociation.NewDataAwsccLakeformationTagAssociation(scope Construct, id *string, config DataAwsccLakeformationTagAssociationConfig) DataAwsccLakeformationTagAssociation
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccLakeformationTagAssociation.DataAwsccLakeformationTagAssociation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformationtagassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclakeformationtagassociation"
 
 dataawscclakeformationtagassociation.DataAwsccLakeformationTagAssociation_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccLakeformationTagAssociation.DataAwsccLakeformationTagAssociation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformationtagassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclakeformationtagassociation"
 
 dataawscclakeformationtagassociation.DataAwsccLakeformationTagAssociation_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscclakeformationtagassociation.DataAwsccLakeformationTagAssociation_IsTerr
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccLakeformationTagAssociation.DataAwsccLakeformationTagAssociation.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformationtagassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclakeformationtagassociation"
 
 dataawscclakeformationtagassociation.DataAwsccLakeformationTagAssociation_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscclakeformationtagassociation.DataAwsccLakeformationTagAssociation_IsTerr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccLakeformationTagAssociation.DataAwsccLakeformationTagAssociation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformationtagassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclakeformationtagassociation"
 
 dataawscclakeformationtagassociation.DataAwsccLakeformationTagAssociation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLakeformationTagA
 
 The id of the existing DataAwsccLakeformationTagAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lakeformation_tag_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lakeformation_tag_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -631,7 +631,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLakeformationTagAssociation.DataAwsccLakeformationTagAssociationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformationtagassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclakeformationtagassociation"
 
 &dataawscclakeformationtagassociation.DataAwsccLakeformationTagAssociationConfig {
 	Connection: interface{},
@@ -740,7 +740,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lakeformation_tag_association#id DataAwsccLakeformationTagAssociation#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lakeformation_tag_association#id DataAwsccLakeformationTagAssociation#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -752,7 +752,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLakeformationTagAssociation.DataAwsccLakeformationTagAssociationLfTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformationtagassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclakeformationtagassociation"
 
 &dataawscclakeformationtagassociation.DataAwsccLakeformationTagAssociationLfTags {
 
@@ -765,7 +765,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLakeformationTagAssociation.DataAwsccLakeformationTagAssociationResource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformationtagassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclakeformationtagassociation"
 
 &dataawscclakeformationtagassociation.DataAwsccLakeformationTagAssociationResource {
 
@@ -778,7 +778,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLakeformationTagAssociation.DataAwsccLakeformationTagAssociationResourceDatabase.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformationtagassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclakeformationtagassociation"
 
 &dataawscclakeformationtagassociation.DataAwsccLakeformationTagAssociationResourceDatabase {
 
@@ -791,7 +791,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLakeformationTagAssociation.DataAwsccLakeformationTagAssociationResourceTable.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformationtagassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclakeformationtagassociation"
 
 &dataawscclakeformationtagassociation.DataAwsccLakeformationTagAssociationResourceTable {
 
@@ -804,7 +804,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLakeformationTagAssociation.DataAwsccLakeformationTagAssociationResourceTableWithColumns.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformationtagassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclakeformationtagassociation"
 
 &dataawscclakeformationtagassociation.DataAwsccLakeformationTagAssociationResourceTableWithColumns {
 
@@ -819,7 +819,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformation
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLakeformationTagAssociation.DataAwsccLakeformationTagAssociationLfTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformationtagassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclakeformationtagassociation"
 
 dataawscclakeformationtagassociation.NewDataAwsccLakeformationTagAssociationLfTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLakeformationTagAssociationLfTagsList
 ```
@@ -968,7 +968,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLakeformationTagAssociation.DataAwsccLakeformationTagAssociationLfTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformationtagassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclakeformationtagassociation"
 
 dataawscclakeformationtagassociation.NewDataAwsccLakeformationTagAssociationLfTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLakeformationTagAssociationLfTagsOutputReference
 ```
@@ -1268,7 +1268,7 @@ func InternalValue() DataAwsccLakeformationTagAssociationLfTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLakeformationTagAssociation.DataAwsccLakeformationTagAssociationResourceDatabaseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformationtagassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclakeformationtagassociation"
 
 dataawscclakeformationtagassociation.NewDataAwsccLakeformationTagAssociationResourceDatabaseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLakeformationTagAssociationResourceDatabaseOutputReference
 ```
@@ -1539,7 +1539,7 @@ func InternalValue() DataAwsccLakeformationTagAssociationResourceDatabase
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLakeformationTagAssociation.DataAwsccLakeformationTagAssociationResourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformationtagassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclakeformationtagassociation"
 
 dataawscclakeformationtagassociation.NewDataAwsccLakeformationTagAssociationResourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLakeformationTagAssociationResourceOutputReference
 ```
@@ -1832,7 +1832,7 @@ func InternalValue() DataAwsccLakeformationTagAssociationResource
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLakeformationTagAssociation.DataAwsccLakeformationTagAssociationResourceTableOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformationtagassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclakeformationtagassociation"
 
 dataawscclakeformationtagassociation.NewDataAwsccLakeformationTagAssociationResourceTableOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLakeformationTagAssociationResourceTableOutputReference
 ```
@@ -2125,7 +2125,7 @@ func InternalValue() DataAwsccLakeformationTagAssociationResourceTable
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLakeformationTagAssociation.DataAwsccLakeformationTagAssociationResourceTableWithColumnsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformationtagassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclakeformationtagassociation"
 
 dataawscclakeformationtagassociation.NewDataAwsccLakeformationTagAssociationResourceTableWithColumnsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLakeformationTagAssociationResourceTableWithColumnsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccCodepipelineCustomActionType <a name="DataAwsccCodepipelineCustomActionType" id="@cdktn/provider-awscc.dataAwsccCodepipelineCustomActionType.DataAwsccCodepipelineCustomActionType"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/codepipeline_custom_action_type awscc_codepipeline_custom_action_type}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/codepipeline_custom_action_type awscc_codepipeline_custom_action_type}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelineCustomActionType.DataAwsccCodepipelineCustomActionType.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinecustomactiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinecustomactiontype"
 
 dataawscccodepipelinecustomactiontype.NewDataAwsccCodepipelineCustomActionType(scope Construct, id *string, config DataAwsccCodepipelineCustomActionTypeConfig) DataAwsccCodepipelineCustomActionType
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCodepipelineCustomActionType.DataAwsccCodepipelineCustomActionType.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinecustomactiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinecustomactiontype"
 
 dataawscccodepipelinecustomactiontype.DataAwsccCodepipelineCustomActionType_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCodepipelineCustomActionType.DataAwsccCodepipelineCustomActionType.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinecustomactiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinecustomactiontype"
 
 dataawscccodepipelinecustomactiontype.DataAwsccCodepipelineCustomActionType_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccodepipelinecustomactiontype.DataAwsccCodepipelineCustomActionType_IsTe
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCodepipelineCustomActionType.DataAwsccCodepipelineCustomActionType.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinecustomactiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinecustomactiontype"
 
 dataawscccodepipelinecustomactiontype.DataAwsccCodepipelineCustomActionType_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccodepipelinecustomactiontype.DataAwsccCodepipelineCustomActionType_IsTe
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCodepipelineCustomActionType.DataAwsccCodepipelineCustomActionType.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinecustomactiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinecustomactiontype"
 
 dataawscccodepipelinecustomactiontype.DataAwsccCodepipelineCustomActionType_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCodepipelineCusto
 
 The id of the existing DataAwsccCodepipelineCustomActionType that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/codepipeline_custom_action_type#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/codepipeline_custom_action_type#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -686,7 +686,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodepipelineCustomActionType.DataAwsccCodepipelineCustomActionTypeConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinecustomactiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinecustomactiontype"
 
 &dataawscccodepipelinecustomactiontype.DataAwsccCodepipelineCustomActionTypeConfig {
 	Connection: interface{},
@@ -795,7 +795,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/codepipeline_custom_action_type#id DataAwsccCodepipelineCustomActionType#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/codepipeline_custom_action_type#id DataAwsccCodepipelineCustomActionType#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -807,7 +807,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodepipelineCustomActionType.DataAwsccCodepipelineCustomActionTypeConfigurationProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinecustomactiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinecustomactiontype"
 
 &dataawscccodepipelinecustomactiontype.DataAwsccCodepipelineCustomActionTypeConfigurationProperties {
 
@@ -820,7 +820,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodepipelineCustomActionType.DataAwsccCodepipelineCustomActionTypeInputArtifactDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinecustomactiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinecustomactiontype"
 
 &dataawscccodepipelinecustomactiontype.DataAwsccCodepipelineCustomActionTypeInputArtifactDetails {
 
@@ -833,7 +833,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodepipelineCustomActionType.DataAwsccCodepipelineCustomActionTypeOutputArtifactDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinecustomactiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinecustomactiontype"
 
 &dataawscccodepipelinecustomactiontype.DataAwsccCodepipelineCustomActionTypeOutputArtifactDetails {
 
@@ -846,7 +846,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodepipelineCustomActionType.DataAwsccCodepipelineCustomActionTypeSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinecustomactiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinecustomactiontype"
 
 &dataawscccodepipelinecustomactiontype.DataAwsccCodepipelineCustomActionTypeSettings {
 
@@ -859,7 +859,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodepipelineCustomActionType.DataAwsccCodepipelineCustomActionTypeTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinecustomactiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinecustomactiontype"
 
 &dataawscccodepipelinecustomactiontype.DataAwsccCodepipelineCustomActionTypeTags {
 
@@ -874,7 +874,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinec
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelineCustomActionType.DataAwsccCodepipelineCustomActionTypeConfigurationPropertiesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinecustomactiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinecustomactiontype"
 
 dataawscccodepipelinecustomactiontype.NewDataAwsccCodepipelineCustomActionTypeConfigurationPropertiesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCodepipelineCustomActionTypeConfigurationPropertiesList
 ```
@@ -1023,7 +1023,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelineCustomActionType.DataAwsccCodepipelineCustomActionTypeConfigurationPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinecustomactiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinecustomactiontype"
 
 dataawscccodepipelinecustomactiontype.NewDataAwsccCodepipelineCustomActionTypeConfigurationPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCodepipelineCustomActionTypeConfigurationPropertiesOutputReference
 ```
@@ -1367,7 +1367,7 @@ func InternalValue() DataAwsccCodepipelineCustomActionTypeConfigurationPropertie
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelineCustomActionType.DataAwsccCodepipelineCustomActionTypeInputArtifactDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinecustomactiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinecustomactiontype"
 
 dataawscccodepipelinecustomactiontype.NewDataAwsccCodepipelineCustomActionTypeInputArtifactDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCodepipelineCustomActionTypeInputArtifactDetailsOutputReference
 ```
@@ -1638,7 +1638,7 @@ func InternalValue() DataAwsccCodepipelineCustomActionTypeInputArtifactDetails
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelineCustomActionType.DataAwsccCodepipelineCustomActionTypeOutputArtifactDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinecustomactiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinecustomactiontype"
 
 dataawscccodepipelinecustomactiontype.NewDataAwsccCodepipelineCustomActionTypeOutputArtifactDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCodepipelineCustomActionTypeOutputArtifactDetailsOutputReference
 ```
@@ -1909,7 +1909,7 @@ func InternalValue() DataAwsccCodepipelineCustomActionTypeOutputArtifactDetails
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelineCustomActionType.DataAwsccCodepipelineCustomActionTypeSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinecustomactiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinecustomactiontype"
 
 dataawscccodepipelinecustomactiontype.NewDataAwsccCodepipelineCustomActionTypeSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCodepipelineCustomActionTypeSettingsOutputReference
 ```
@@ -2202,7 +2202,7 @@ func InternalValue() DataAwsccCodepipelineCustomActionTypeSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelineCustomActionType.DataAwsccCodepipelineCustomActionTypeTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinecustomactiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinecustomactiontype"
 
 dataawscccodepipelinecustomactiontype.NewDataAwsccCodepipelineCustomActionTypeTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCodepipelineCustomActionTypeTagsList
 ```
@@ -2351,7 +2351,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelineCustomActionType.DataAwsccCodepipelineCustomActionTypeTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinecustomactiontype"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinecustomactiontype"
 
 dataawscccodepipelinecustomactiontype.NewDataAwsccCodepipelineCustomActionTypeTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCodepipelineCustomActionTypeTagsOutputReference
 ```

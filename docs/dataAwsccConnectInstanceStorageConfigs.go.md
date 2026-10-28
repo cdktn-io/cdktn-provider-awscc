@@ -4,12 +4,12 @@
 
 ### DataAwsccConnectInstanceStorageConfigs <a name="DataAwsccConnectInstanceStorageConfigs" id="@cdktn/provider-awscc.dataAwsccConnectInstanceStorageConfigs.DataAwsccConnectInstanceStorageConfigs"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_instance_storage_configs awscc_connect_instance_storage_configs}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_instance_storage_configs awscc_connect_instance_storage_configs}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectInstanceStorageConfigs.DataAwsccConnectInstanceStorageConfigs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectinstancestorageconfigs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectinstancestorageconfigs"
 
 dataawsccconnectinstancestorageconfigs.NewDataAwsccConnectInstanceStorageConfigs(scope Construct, id *string, config DataAwsccConnectInstanceStorageConfigsConfig) DataAwsccConnectInstanceStorageConfigs
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccConnectInstanceStorageConfigs.DataAwsccConnectInstanceStorageConfigs.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectinstancestorageconfigs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectinstancestorageconfigs"
 
 dataawsccconnectinstancestorageconfigs.DataAwsccConnectInstanceStorageConfigs_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccConnectInstanceStorageConfigs.DataAwsccConnectInstanceStorageConfigs.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectinstancestorageconfigs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectinstancestorageconfigs"
 
 dataawsccconnectinstancestorageconfigs.DataAwsccConnectInstanceStorageConfigs_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccconnectinstancestorageconfigs.DataAwsccConnectInstanceStorageConfigs_Is
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccConnectInstanceStorageConfigs.DataAwsccConnectInstanceStorageConfigs.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectinstancestorageconfigs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectinstancestorageconfigs"
 
 dataawsccconnectinstancestorageconfigs.DataAwsccConnectInstanceStorageConfigs_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccconnectinstancestorageconfigs.DataAwsccConnectInstanceStorageConfigs_Is
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccConnectInstanceStorageConfigs.DataAwsccConnectInstanceStorageConfigs.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectinstancestorageconfigs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectinstancestorageconfigs"
 
 dataawsccconnectinstancestorageconfigs.DataAwsccConnectInstanceStorageConfigs_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccConnectInstanceSt
 
 The id of the existing DataAwsccConnectInstanceStorageConfigs that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_instance_storage_configs#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_instance_storage_configs#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectInstanceStorageConfigs.DataAwsccConnectInstanceStorageConfigsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectinstancestorageconfigs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectinstancestorageconfigs"
 
 &dataawsccconnectinstancestorageconfigs.DataAwsccConnectInstanceStorageConfigsConfig {
 	Connection: interface{},

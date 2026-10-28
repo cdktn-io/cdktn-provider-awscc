@@ -4,12 +4,12 @@
 
 ### AthenaDataCatalog <a name="AthenaDataCatalog" id="@cdktn/provider-awscc.athenaDataCatalog.AthenaDataCatalog"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_data_catalog awscc_athena_data_catalog}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_data_catalog awscc_athena_data_catalog}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.athenaDataCatalog.AthenaDataCatalog.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenadatacatalog"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenadatacatalog"
 
 athenadatacatalog.NewAthenaDataCatalog(scope Construct, id *string, config AthenaDataCatalogConfig) AthenaDataCatalog
 ```
@@ -455,7 +455,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.athenaDataCatalog.AthenaDataCatalog.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenadatacatalog"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenadatacatalog"
 
 athenadatacatalog.AthenaDataCatalog_IsConstruct(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.athenaDataCatalog.AthenaDataCatalog.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenadatacatalog"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenadatacatalog"
 
 athenadatacatalog.AthenaDataCatalog_IsTerraformElement(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ athenadatacatalog.AthenaDataCatalog_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.athenaDataCatalog.AthenaDataCatalog.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenadatacatalog"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenadatacatalog"
 
 athenadatacatalog.AthenaDataCatalog_IsTerraformResource(x interface{}) *bool
 ```
@@ -515,7 +515,7 @@ athenadatacatalog.AthenaDataCatalog_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.athenaDataCatalog.AthenaDataCatalog.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenadatacatalog"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenadatacatalog"
 
 athenadatacatalog.AthenaDataCatalog_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -544,7 +544,7 @@ The construct id used in the generated config for the AthenaDataCatalog to impor
 
 The id of the existing AthenaDataCatalog that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_data_catalog#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_data_catalog#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -931,7 +931,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.athenaDataCatalog.AthenaDataCatalogConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenadatacatalog"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenadatacatalog"
 
 &athenadatacatalog.AthenaDataCatalogConfig {
 	Connection: interface{},
@@ -1056,7 +1056,7 @@ The name of the data catalog to create.
 
 The catalog name must be unique for the AWS account and can use a maximum of 128 alphanumeric, underscore, at sign, or hyphen characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_data_catalog#name AthenaDataCatalog#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_data_catalog#name AthenaDataCatalog#name}
 
 ---
 
@@ -1072,7 +1072,7 @@ The type of data catalog to create: LAMBDA for a federated catalog, GLUE for AWS
 
 FEDERATED is a federated catalog for which Athena creates the connection and the Lambda function for you based on the parameters that you pass.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_data_catalog#type AthenaDataCatalog#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_data_catalog#type AthenaDataCatalog#type}
 
 ---
 
@@ -1086,7 +1086,7 @@ ConnectionType *string
 
 The type of connection for a FEDERATED data catalog.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_data_catalog#connection_type AthenaDataCatalog#connection_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_data_catalog#connection_type AthenaDataCatalog#connection_type}
 
 ---
 
@@ -1100,7 +1100,7 @@ Description *string
 
 A description of the data catalog to be created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_data_catalog#description AthenaDataCatalog#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_data_catalog#description AthenaDataCatalog#description}
 
 ---
 
@@ -1114,7 +1114,7 @@ Error *string
 
 Text of the error that occurred during data catalog creation or deletion.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_data_catalog#error AthenaDataCatalog#error}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_data_catalog#error AthenaDataCatalog#error}
 
 ---
 
@@ -1130,7 +1130,7 @@ Specifies the Lambda function or functions to use for creating the data catalog.
 
 This is a mapping whose values depend on the catalog type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_data_catalog#parameters AthenaDataCatalog#parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_data_catalog#parameters AthenaDataCatalog#parameters}
 
 ---
 
@@ -1146,7 +1146,7 @@ The status of the creation or deletion of the data catalog.
 
 LAMBDA, GLUE, and HIVE data catalog types are created synchronously. Their status is either CREATE_COMPLETE or CREATE_FAILED. The FEDERATED data catalog type is created asynchronously.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_data_catalog#status AthenaDataCatalog#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_data_catalog#status AthenaDataCatalog#status}
 
 ---
 
@@ -1160,7 +1160,7 @@ Tags interface{}
 
 A list of comma separated tags to add to the data catalog that is created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_data_catalog#tags AthenaDataCatalog#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_data_catalog#tags AthenaDataCatalog#tags}
 
 ---
 
@@ -1169,7 +1169,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.athenaDataCatalog.AthenaDataCatalogTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenadatacatalog"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenadatacatalog"
 
 &athenadatacatalog.AthenaDataCatalogTags {
 	Key: *string,
@@ -1181,8 +1181,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenadatacatalog"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.athenaDataCatalog.AthenaDataCatalogTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_data_catalog#key AthenaDataCatalog#key}. |
-| <code><a href="#@cdktn/provider-awscc.athenaDataCatalog.AthenaDataCatalogTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_data_catalog#value AthenaDataCatalog#value}. |
+| <code><a href="#@cdktn/provider-awscc.athenaDataCatalog.AthenaDataCatalogTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_data_catalog#key AthenaDataCatalog#key}. |
+| <code><a href="#@cdktn/provider-awscc.athenaDataCatalog.AthenaDataCatalogTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_data_catalog#value AthenaDataCatalog#value}. |
 
 ---
 
@@ -1194,7 +1194,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_data_catalog#key AthenaDataCatalog#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_data_catalog#key AthenaDataCatalog#key}.
 
 ---
 
@@ -1206,7 +1206,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_data_catalog#value AthenaDataCatalog#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_data_catalog#value AthenaDataCatalog#value}.
 
 ---
 
@@ -1217,7 +1217,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.athenaDataCatalog.AthenaDataCatalogTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenadatacatalog"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenadatacatalog"
 
 athenadatacatalog.NewAthenaDataCatalogTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) AthenaDataCatalogTagsList
 ```
@@ -1377,7 +1377,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.athenaDataCatalog.AthenaDataCatalogTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenadatacatalog"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenadatacatalog"
 
 athenadatacatalog.NewAthenaDataCatalogTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) AthenaDataCatalogTagsOutputReference
 ```

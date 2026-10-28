@@ -4,12 +4,12 @@
 
 ### DataAwsccIotcoredeviceadvisorSuiteDefinition <a name="DataAwsccIotcoredeviceadvisorSuiteDefinition" id="@cdktn/provider-awscc.dataAwsccIotcoredeviceadvisorSuiteDefinition.DataAwsccIotcoredeviceadvisorSuiteDefinition"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotcoredeviceadvisor_suite_definition awscc_iotcoredeviceadvisor_suite_definition}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotcoredeviceadvisor_suite_definition awscc_iotcoredeviceadvisor_suite_definition}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotcoredeviceadvisorSuiteDefinition.DataAwsccIotcoredeviceadvisorSuiteDefinition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcoredeviceadvisorsuitedefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotcoredeviceadvisorsuitedefinition"
 
 dataawscciotcoredeviceadvisorsuitedefinition.NewDataAwsccIotcoredeviceadvisorSuiteDefinition(scope Construct, id *string, config DataAwsccIotcoredeviceadvisorSuiteDefinitionConfig) DataAwsccIotcoredeviceadvisorSuiteDefinition
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIotcoredeviceadvisorSuiteDefinition.DataAwsccIotcoredeviceadvisorSuiteDefinition.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcoredeviceadvisorsuitedefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotcoredeviceadvisorsuitedefinition"
 
 dataawscciotcoredeviceadvisorsuitedefinition.DataAwsccIotcoredeviceadvisorSuiteDefinition_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIotcoredeviceadvisorSuiteDefinition.DataAwsccIotcoredeviceadvisorSuiteDefinition.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcoredeviceadvisorsuitedefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotcoredeviceadvisorsuitedefinition"
 
 dataawscciotcoredeviceadvisorsuitedefinition.DataAwsccIotcoredeviceadvisorSuiteDefinition_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciotcoredeviceadvisorsuitedefinition.DataAwsccIotcoredeviceadvisorSuiteD
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIotcoredeviceadvisorSuiteDefinition.DataAwsccIotcoredeviceadvisorSuiteDefinition.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcoredeviceadvisorsuitedefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotcoredeviceadvisorsuitedefinition"
 
 dataawscciotcoredeviceadvisorsuitedefinition.DataAwsccIotcoredeviceadvisorSuiteDefinition_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciotcoredeviceadvisorsuitedefinition.DataAwsccIotcoredeviceadvisorSuiteD
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIotcoredeviceadvisorSuiteDefinition.DataAwsccIotcoredeviceadvisorSuiteDefinition.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcoredeviceadvisorsuitedefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotcoredeviceadvisorsuitedefinition"
 
 dataawscciotcoredeviceadvisorsuitedefinition.DataAwsccIotcoredeviceadvisorSuiteDefinition_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotcoredeviceadvi
 
 The id of the existing DataAwsccIotcoredeviceadvisorSuiteDefinition that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotcoredeviceadvisor_suite_definition#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotcoredeviceadvisor_suite_definition#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -642,7 +642,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotcoredeviceadvisorSuiteDefinition.DataAwsccIotcoredeviceadvisorSuiteDefinitionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcoredeviceadvisorsuitedefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotcoredeviceadvisorsuitedefinition"
 
 &dataawscciotcoredeviceadvisorsuitedefinition.DataAwsccIotcoredeviceadvisorSuiteDefinitionConfig {
 	Connection: interface{},
@@ -751,7 +751,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotcoredeviceadvisor_suite_definition#id DataAwsccIotcoredeviceadvisorSuiteDefinition#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotcoredeviceadvisor_suite_definition#id DataAwsccIotcoredeviceadvisorSuiteDefinition#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -763,7 +763,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotcoredeviceadvisorSuiteDefinition.DataAwsccIotcoredeviceadvisorSuiteDefinitionSuiteDefinitionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcoredeviceadvisorsuitedefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotcoredeviceadvisorsuitedefinition"
 
 &dataawscciotcoredeviceadvisorsuitedefinition.DataAwsccIotcoredeviceadvisorSuiteDefinitionSuiteDefinitionConfiguration {
 
@@ -776,7 +776,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcoredevice
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotcoredeviceadvisorSuiteDefinition.DataAwsccIotcoredeviceadvisorSuiteDefinitionSuiteDefinitionConfigurationDevices.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcoredeviceadvisorsuitedefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotcoredeviceadvisorsuitedefinition"
 
 &dataawscciotcoredeviceadvisorsuitedefinition.DataAwsccIotcoredeviceadvisorSuiteDefinitionSuiteDefinitionConfigurationDevices {
 
@@ -789,7 +789,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcoredevice
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotcoredeviceadvisorSuiteDefinition.DataAwsccIotcoredeviceadvisorSuiteDefinitionTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcoredeviceadvisorsuitedefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotcoredeviceadvisorsuitedefinition"
 
 &dataawscciotcoredeviceadvisorsuitedefinition.DataAwsccIotcoredeviceadvisorSuiteDefinitionTags {
 
@@ -804,7 +804,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcoredevice
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotcoredeviceadvisorSuiteDefinition.DataAwsccIotcoredeviceadvisorSuiteDefinitionSuiteDefinitionConfigurationDevicesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcoredeviceadvisorsuitedefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotcoredeviceadvisorsuitedefinition"
 
 dataawscciotcoredeviceadvisorsuitedefinition.NewDataAwsccIotcoredeviceadvisorSuiteDefinitionSuiteDefinitionConfigurationDevicesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIotcoredeviceadvisorSuiteDefinitionSuiteDefinitionConfigurationDevicesList
 ```
@@ -953,7 +953,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotcoredeviceadvisorSuiteDefinition.DataAwsccIotcoredeviceadvisorSuiteDefinitionSuiteDefinitionConfigurationDevicesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcoredeviceadvisorsuitedefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotcoredeviceadvisorsuitedefinition"
 
 dataawscciotcoredeviceadvisorsuitedefinition.NewDataAwsccIotcoredeviceadvisorSuiteDefinitionSuiteDefinitionConfigurationDevicesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIotcoredeviceadvisorSuiteDefinitionSuiteDefinitionConfigurationDevicesOutputReference
 ```
@@ -1242,7 +1242,7 @@ func InternalValue() DataAwsccIotcoredeviceadvisorSuiteDefinitionSuiteDefinition
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotcoredeviceadvisorSuiteDefinition.DataAwsccIotcoredeviceadvisorSuiteDefinitionSuiteDefinitionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcoredeviceadvisorsuitedefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotcoredeviceadvisorsuitedefinition"
 
 dataawscciotcoredeviceadvisorsuitedefinition.NewDataAwsccIotcoredeviceadvisorSuiteDefinitionSuiteDefinitionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotcoredeviceadvisorSuiteDefinitionSuiteDefinitionConfigurationOutputReference
 ```
@@ -1546,7 +1546,7 @@ func InternalValue() DataAwsccIotcoredeviceadvisorSuiteDefinitionSuiteDefinition
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotcoredeviceadvisorSuiteDefinition.DataAwsccIotcoredeviceadvisorSuiteDefinitionTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcoredeviceadvisorsuitedefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotcoredeviceadvisorsuitedefinition"
 
 dataawscciotcoredeviceadvisorsuitedefinition.NewDataAwsccIotcoredeviceadvisorSuiteDefinitionTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIotcoredeviceadvisorSuiteDefinitionTagsList
 ```
@@ -1695,7 +1695,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotcoredeviceadvisorSuiteDefinition.DataAwsccIotcoredeviceadvisorSuiteDefinitionTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcoredeviceadvisorsuitedefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotcoredeviceadvisorsuitedefinition"
 
 dataawscciotcoredeviceadvisorsuitedefinition.NewDataAwsccIotcoredeviceadvisorSuiteDefinitionTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIotcoredeviceadvisorSuiteDefinitionTagsOutputReference
 ```

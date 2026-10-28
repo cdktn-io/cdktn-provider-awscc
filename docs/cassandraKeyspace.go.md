@@ -4,12 +4,12 @@
 
 ### CassandraKeyspace <a name="CassandraKeyspace" id="@cdktn/provider-awscc.cassandraKeyspace.CassandraKeyspace"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_keyspace awscc_cassandra_keyspace}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_keyspace awscc_cassandra_keyspace}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cassandraKeyspace.CassandraKeyspace.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandrakeyspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandrakeyspace"
 
 cassandrakeyspace.NewCassandraKeyspace(scope Construct, id *string, config CassandraKeyspaceConfig) CassandraKeyspace
 ```
@@ -454,7 +454,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.cassandraKeyspace.CassandraKeyspace.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandrakeyspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandrakeyspace"
 
 cassandrakeyspace.CassandraKeyspace_IsConstruct(x interface{}) *bool
 ```
@@ -486,7 +486,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.cassandraKeyspace.CassandraKeyspace.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandrakeyspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandrakeyspace"
 
 cassandrakeyspace.CassandraKeyspace_IsTerraformElement(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ cassandrakeyspace.CassandraKeyspace_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.cassandraKeyspace.CassandraKeyspace.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandrakeyspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandrakeyspace"
 
 cassandrakeyspace.CassandraKeyspace_IsTerraformResource(x interface{}) *bool
 ```
@@ -514,7 +514,7 @@ cassandrakeyspace.CassandraKeyspace_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.cassandraKeyspace.CassandraKeyspace.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandrakeyspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandrakeyspace"
 
 cassandrakeyspace.CassandraKeyspace_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -543,7 +543,7 @@ The construct id used in the generated config for the CassandraKeyspace to impor
 
 The id of the existing CassandraKeyspace that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_keyspace#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_keyspace#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -842,7 +842,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cassandraKeyspace.CassandraKeyspaceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandrakeyspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandrakeyspace"
 
 &cassandrakeyspace.CassandraKeyspaceConfig {
 	Connection: interface{},
@@ -854,7 +854,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandrakeyspace"
 	Provisioners: *[]interface{},
 	ClientSideTimestampsEnabled: interface{},
 	KeyspaceName: *string,
-	ReplicationSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.cassandraKeyspace.CassandraKeyspaceReplicationSpecification,
+	ReplicationSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.cassandraKeyspace.CassandraKeyspaceReplicationSpecification,
 	Tags: interface{},
 }
 ```
@@ -872,8 +872,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandrakeyspace"
 | <code><a href="#@cdktn/provider-awscc.cassandraKeyspace.CassandraKeyspaceConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cassandraKeyspace.CassandraKeyspaceConfig.property.clientSideTimestampsEnabled">ClientSideTimestampsEnabled</a></code> | <code>interface{}</code> | Indicates whether client-side timestamps are enabled (true) or disabled (false) for all tables in the keyspace. |
 | <code><a href="#@cdktn/provider-awscc.cassandraKeyspace.CassandraKeyspaceConfig.property.keyspaceName">KeyspaceName</a></code> | <code>*string</code> | Name for Cassandra keyspace. |
-| <code><a href="#@cdktn/provider-awscc.cassandraKeyspace.CassandraKeyspaceConfig.property.replicationSpecification">ReplicationSpecification</a></code> | <code><a href="#@cdktn/provider-awscc.cassandraKeyspace.CassandraKeyspaceReplicationSpecification">CassandraKeyspaceReplicationSpecification</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_keyspace#replication_specification CassandraKeyspace#replication_specification}. |
-| <code><a href="#@cdktn/provider-awscc.cassandraKeyspace.CassandraKeyspaceConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_keyspace#tags CassandraKeyspace#tags}. |
+| <code><a href="#@cdktn/provider-awscc.cassandraKeyspace.CassandraKeyspaceConfig.property.replicationSpecification">ReplicationSpecification</a></code> | <code><a href="#@cdktn/provider-awscc.cassandraKeyspace.CassandraKeyspaceReplicationSpecification">CassandraKeyspaceReplicationSpecification</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_keyspace#replication_specification CassandraKeyspace#replication_specification}. |
+| <code><a href="#@cdktn/provider-awscc.cassandraKeyspace.CassandraKeyspaceConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_keyspace#tags CassandraKeyspace#tags}. |
 
 ---
 
@@ -959,7 +959,7 @@ Indicates whether client-side timestamps are enabled (true) or disabled (false) 
 
 To add a Region to a single-Region keyspace with at least one table, the value must be set to true. After you enabled client-side timestamps for a table, you can?t disable it again.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_keyspace#client_side_timestamps_enabled CassandraKeyspace#client_side_timestamps_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_keyspace#client_side_timestamps_enabled CassandraKeyspace#client_side_timestamps_enabled}
 
 ---
 
@@ -973,7 +973,7 @@ KeyspaceName *string
 
 Name for Cassandra keyspace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_keyspace#keyspace_name CassandraKeyspace#keyspace_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_keyspace#keyspace_name CassandraKeyspace#keyspace_name}
 
 ---
 
@@ -985,7 +985,7 @@ ReplicationSpecification CassandraKeyspaceReplicationSpecification
 
 - *Type:* <a href="#@cdktn/provider-awscc.cassandraKeyspace.CassandraKeyspaceReplicationSpecification">CassandraKeyspaceReplicationSpecification</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_keyspace#replication_specification CassandraKeyspace#replication_specification}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_keyspace#replication_specification CassandraKeyspace#replication_specification}.
 
 ---
 
@@ -997,7 +997,7 @@ Tags interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_keyspace#tags CassandraKeyspace#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_keyspace#tags CassandraKeyspace#tags}.
 
 ---
 
@@ -1006,7 +1006,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cassandraKeyspace.CassandraKeyspaceReplicationSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandrakeyspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandrakeyspace"
 
 &cassandrakeyspace.CassandraKeyspaceReplicationSpecification {
 	RegionList: *[]*string,
@@ -1018,8 +1018,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandrakeyspace"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.cassandraKeyspace.CassandraKeyspaceReplicationSpecification.property.regionList">RegionList</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_keyspace#region_list CassandraKeyspace#region_list}. |
-| <code><a href="#@cdktn/provider-awscc.cassandraKeyspace.CassandraKeyspaceReplicationSpecification.property.replicationStrategy">ReplicationStrategy</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_keyspace#replication_strategy CassandraKeyspace#replication_strategy}. |
+| <code><a href="#@cdktn/provider-awscc.cassandraKeyspace.CassandraKeyspaceReplicationSpecification.property.regionList">RegionList</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_keyspace#region_list CassandraKeyspace#region_list}. |
+| <code><a href="#@cdktn/provider-awscc.cassandraKeyspace.CassandraKeyspaceReplicationSpecification.property.replicationStrategy">ReplicationStrategy</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_keyspace#replication_strategy CassandraKeyspace#replication_strategy}. |
 
 ---
 
@@ -1031,7 +1031,7 @@ RegionList *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_keyspace#region_list CassandraKeyspace#region_list}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_keyspace#region_list CassandraKeyspace#region_list}.
 
 ---
 
@@ -1043,7 +1043,7 @@ ReplicationStrategy *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_keyspace#replication_strategy CassandraKeyspace#replication_strategy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_keyspace#replication_strategy CassandraKeyspace#replication_strategy}.
 
 ---
 
@@ -1052,7 +1052,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cassandraKeyspace.CassandraKeyspaceTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandrakeyspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandrakeyspace"
 
 &cassandrakeyspace.CassandraKeyspaceTags {
 	Key: *string,
@@ -1064,8 +1064,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandrakeyspace"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.cassandraKeyspace.CassandraKeyspaceTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_keyspace#key CassandraKeyspace#key}. |
-| <code><a href="#@cdktn/provider-awscc.cassandraKeyspace.CassandraKeyspaceTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_keyspace#value CassandraKeyspace#value}. |
+| <code><a href="#@cdktn/provider-awscc.cassandraKeyspace.CassandraKeyspaceTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_keyspace#key CassandraKeyspace#key}. |
+| <code><a href="#@cdktn/provider-awscc.cassandraKeyspace.CassandraKeyspaceTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_keyspace#value CassandraKeyspace#value}. |
 
 ---
 
@@ -1077,7 +1077,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_keyspace#key CassandraKeyspace#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_keyspace#key CassandraKeyspace#key}.
 
 ---
 
@@ -1089,7 +1089,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_keyspace#value CassandraKeyspace#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_keyspace#value CassandraKeyspace#value}.
 
 ---
 
@@ -1100,7 +1100,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cassandraKeyspace.CassandraKeyspaceReplicationSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandrakeyspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandrakeyspace"
 
 cassandrakeyspace.NewCassandraKeyspaceReplicationSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CassandraKeyspaceReplicationSpecificationOutputReference
 ```
@@ -1407,7 +1407,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cassandraKeyspace.CassandraKeyspaceTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandrakeyspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandrakeyspace"
 
 cassandrakeyspace.NewCassandraKeyspaceTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CassandraKeyspaceTagsList
 ```
@@ -1567,7 +1567,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cassandraKeyspace.CassandraKeyspaceTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandrakeyspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandrakeyspace"
 
 cassandrakeyspace.NewCassandraKeyspaceTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CassandraKeyspaceTagsOutputReference
 ```

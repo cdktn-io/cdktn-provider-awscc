@@ -4,12 +4,12 @@
 
 ### DataAwsccGuarddutyCustomDetectionRuleAssociations <a name="DataAwsccGuarddutyCustomDetectionRuleAssociations" id="@cdktn/provider-awscc.dataAwsccGuarddutyCustomDetectionRuleAssociations.DataAwsccGuarddutyCustomDetectionRuleAssociations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/guardduty_custom_detection_rule_associations awscc_guardduty_custom_detection_rule_associations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/guardduty_custom_detection_rule_associations awscc_guardduty_custom_detection_rule_associations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGuarddutyCustomDetectionRuleAssociations.DataAwsccGuarddutyCustomDetectionRuleAssociations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccguarddutycustomdetectionruleassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccguarddutycustomdetectionruleassociations"
 
 dataawsccguarddutycustomdetectionruleassociations.NewDataAwsccGuarddutyCustomDetectionRuleAssociations(scope Construct, id *string, config DataAwsccGuarddutyCustomDetectionRuleAssociationsConfig) DataAwsccGuarddutyCustomDetectionRuleAssociations
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccGuarddutyCustomDetectionRuleAssociations.DataAwsccGuarddutyCustomDetectionRuleAssociations.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccguarddutycustomdetectionruleassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccguarddutycustomdetectionruleassociations"
 
 dataawsccguarddutycustomdetectionruleassociations.DataAwsccGuarddutyCustomDetectionRuleAssociations_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccGuarddutyCustomDetectionRuleAssociations.DataAwsccGuarddutyCustomDetectionRuleAssociations.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccguarddutycustomdetectionruleassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccguarddutycustomdetectionruleassociations"
 
 dataawsccguarddutycustomdetectionruleassociations.DataAwsccGuarddutyCustomDetectionRuleAssociations_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccguarddutycustomdetectionruleassociations.DataAwsccGuarddutyCustomDetect
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccGuarddutyCustomDetectionRuleAssociations.DataAwsccGuarddutyCustomDetectionRuleAssociations.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccguarddutycustomdetectionruleassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccguarddutycustomdetectionruleassociations"
 
 dataawsccguarddutycustomdetectionruleassociations.DataAwsccGuarddutyCustomDetectionRuleAssociations_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccguarddutycustomdetectionruleassociations.DataAwsccGuarddutyCustomDetect
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccGuarddutyCustomDetectionRuleAssociations.DataAwsccGuarddutyCustomDetectionRuleAssociations.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccguarddutycustomdetectionruleassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccguarddutycustomdetectionruleassociations"
 
 dataawsccguarddutycustomdetectionruleassociations.DataAwsccGuarddutyCustomDetectionRuleAssociations_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccGuarddutyCustomDe
 
 The id of the existing DataAwsccGuarddutyCustomDetectionRuleAssociations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/guardduty_custom_detection_rule_associations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/guardduty_custom_detection_rule_associations#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGuarddutyCustomDetectionRuleAssociations.DataAwsccGuarddutyCustomDetectionRuleAssociationsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccguarddutycustomdetectionruleassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccguarddutycustomdetectionruleassociations"
 
 &dataawsccguarddutycustomdetectionruleassociations.DataAwsccGuarddutyCustomDetectionRuleAssociationsConfig {
 	Connection: interface{},

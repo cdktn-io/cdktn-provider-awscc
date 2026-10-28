@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2Instance <a name="DataAwsccEc2Instance" id="@cdktn/provider-awscc.dataAwsccEc2Instance.DataAwsccEc2Instance"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_instance awscc_ec2_instance}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_instance awscc_ec2_instance}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2Instance.DataAwsccEc2Instance.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instance"
 
 dataawsccec2instance.NewDataAwsccEc2Instance(scope Construct, id *string, config DataAwsccEc2InstanceConfig) DataAwsccEc2Instance
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2Instance.DataAwsccEc2Instance.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instance"
 
 dataawsccec2instance.DataAwsccEc2Instance_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2Instance.DataAwsccEc2Instance.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instance"
 
 dataawsccec2instance.DataAwsccEc2Instance_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2instance.DataAwsccEc2Instance_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2Instance.DataAwsccEc2Instance.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instance"
 
 dataawsccec2instance.DataAwsccEc2Instance_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2instance.DataAwsccEc2Instance_IsTerraformDataSource(x interface{}) *
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2Instance.DataAwsccEc2Instance.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instance"
 
 dataawsccec2instance.DataAwsccEc2Instance_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2Instance to im
 
 The id of the existing DataAwsccEc2Instance that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_instance#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_instance#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1115,7 +1115,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2Instance.DataAwsccEc2InstanceBlockDeviceMappings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instance"
 
 &dataawsccec2instance.DataAwsccEc2InstanceBlockDeviceMappings {
 
@@ -1128,7 +1128,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2Instance.DataAwsccEc2InstanceBlockDeviceMappingsEbs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instance"
 
 &dataawsccec2instance.DataAwsccEc2InstanceBlockDeviceMappingsEbs {
 
@@ -1141,7 +1141,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2Instance.DataAwsccEc2InstanceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instance"
 
 &dataawsccec2instance.DataAwsccEc2InstanceConfig {
 	Connection: interface{},
@@ -1250,7 +1250,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_instance#id DataAwsccEc2Instance#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_instance#id DataAwsccEc2Instance#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1262,7 +1262,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2Instance.DataAwsccEc2InstanceCpuOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instance"
 
 &dataawsccec2instance.DataAwsccEc2InstanceCpuOptions {
 
@@ -1275,7 +1275,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2Instance.DataAwsccEc2InstanceCreditSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instance"
 
 &dataawsccec2instance.DataAwsccEc2InstanceCreditSpecification {
 
@@ -1288,7 +1288,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2Instance.DataAwsccEc2InstanceElasticGpuSpecifications.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instance"
 
 &dataawsccec2instance.DataAwsccEc2InstanceElasticGpuSpecifications {
 
@@ -1301,7 +1301,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2Instance.DataAwsccEc2InstanceElasticInferenceAccelerators.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instance"
 
 &dataawsccec2instance.DataAwsccEc2InstanceElasticInferenceAccelerators {
 
@@ -1314,7 +1314,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2Instance.DataAwsccEc2InstanceEnclaveOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instance"
 
 &dataawsccec2instance.DataAwsccEc2InstanceEnclaveOptions {
 
@@ -1327,7 +1327,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2Instance.DataAwsccEc2InstanceHibernationOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instance"
 
 &dataawsccec2instance.DataAwsccEc2InstanceHibernationOptions {
 
@@ -1340,7 +1340,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2Instance.DataAwsccEc2InstanceIpv6Addresses.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instance"
 
 &dataawsccec2instance.DataAwsccEc2InstanceIpv6Addresses {
 
@@ -1353,7 +1353,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2Instance.DataAwsccEc2InstanceLaunchTemplate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instance"
 
 &dataawsccec2instance.DataAwsccEc2InstanceLaunchTemplate {
 
@@ -1366,7 +1366,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2Instance.DataAwsccEc2InstanceLicenseSpecifications.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instance"
 
 &dataawsccec2instance.DataAwsccEc2InstanceLicenseSpecifications {
 
@@ -1379,7 +1379,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2Instance.DataAwsccEc2InstanceMetadataOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instance"
 
 &dataawsccec2instance.DataAwsccEc2InstanceMetadataOptions {
 
@@ -1392,7 +1392,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2Instance.DataAwsccEc2InstanceNetworkInterfaces.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instance"
 
 &dataawsccec2instance.DataAwsccEc2InstanceNetworkInterfaces {
 
@@ -1405,7 +1405,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2Instance.DataAwsccEc2InstanceNetworkInterfacesEnaSrdSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instance"
 
 &dataawsccec2instance.DataAwsccEc2InstanceNetworkInterfacesEnaSrdSpecification {
 
@@ -1418,7 +1418,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2Instance.DataAwsccEc2InstanceNetworkInterfacesEnaSrdSpecificationEnaSrdUdpSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instance"
 
 &dataawsccec2instance.DataAwsccEc2InstanceNetworkInterfacesEnaSrdSpecificationEnaSrdUdpSpecification {
 
@@ -1431,7 +1431,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2Instance.DataAwsccEc2InstanceNetworkInterfacesIpv6Addresses.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instance"
 
 &dataawsccec2instance.DataAwsccEc2InstanceNetworkInterfacesIpv6Addresses {
 
@@ -1444,7 +1444,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2Instance.DataAwsccEc2InstanceNetworkInterfacesPrivateIpAddresses.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instance"
 
 &dataawsccec2instance.DataAwsccEc2InstanceNetworkInterfacesPrivateIpAddresses {
 
@@ -1457,7 +1457,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2Instance.DataAwsccEc2InstancePrivateDnsNameOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instance"
 
 &dataawsccec2instance.DataAwsccEc2InstancePrivateDnsNameOptions {
 
@@ -1470,7 +1470,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2Instance.DataAwsccEc2InstanceSsmAssociations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instance"
 
 &dataawsccec2instance.DataAwsccEc2InstanceSsmAssociations {
 
@@ -1483,7 +1483,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2Instance.DataAwsccEc2InstanceSsmAssociationsAssociationParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instance"
 
 &dataawsccec2instance.DataAwsccEc2InstanceSsmAssociationsAssociationParameters {
 
@@ -1496,7 +1496,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2Instance.DataAwsccEc2InstanceState.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instance"
 
 &dataawsccec2instance.DataAwsccEc2InstanceState {
 
@@ -1509,7 +1509,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2Instance.DataAwsccEc2InstanceTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instance"
 
 &dataawsccec2instance.DataAwsccEc2InstanceTags {
 
@@ -1522,7 +1522,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2Instance.DataAwsccEc2InstanceVolumes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instance"
 
 &dataawsccec2instance.DataAwsccEc2InstanceVolumes {
 
@@ -1537,7 +1537,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2Instance.DataAwsccEc2InstanceBlockDeviceMappingsEbsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instance"
 
 dataawsccec2instance.NewDataAwsccEc2InstanceBlockDeviceMappingsEbsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEc2InstanceBlockDeviceMappingsEbsOutputReference
 ```
@@ -1863,7 +1863,7 @@ func InternalValue() DataAwsccEc2InstanceBlockDeviceMappingsEbs
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2Instance.DataAwsccEc2InstanceBlockDeviceMappingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instance"
 
 dataawsccec2instance.NewDataAwsccEc2InstanceBlockDeviceMappingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEc2InstanceBlockDeviceMappingsList
 ```
@@ -2012,7 +2012,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2Instance.DataAwsccEc2InstanceBlockDeviceMappingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instance"
 
 dataawsccec2instance.NewDataAwsccEc2InstanceBlockDeviceMappingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEc2InstanceBlockDeviceMappingsOutputReference
 ```
@@ -2323,7 +2323,7 @@ func InternalValue() DataAwsccEc2InstanceBlockDeviceMappings
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2Instance.DataAwsccEc2InstanceCpuOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instance"
 
 dataawsccec2instance.NewDataAwsccEc2InstanceCpuOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEc2InstanceCpuOptionsOutputReference
 ```
@@ -2594,7 +2594,7 @@ func InternalValue() DataAwsccEc2InstanceCpuOptions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2Instance.DataAwsccEc2InstanceCreditSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instance"
 
 dataawsccec2instance.NewDataAwsccEc2InstanceCreditSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEc2InstanceCreditSpecificationOutputReference
 ```
@@ -2854,7 +2854,7 @@ func InternalValue() DataAwsccEc2InstanceCreditSpecification
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2Instance.DataAwsccEc2InstanceElasticGpuSpecificationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instance"
 
 dataawsccec2instance.NewDataAwsccEc2InstanceElasticGpuSpecificationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEc2InstanceElasticGpuSpecificationsList
 ```
@@ -3003,7 +3003,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2Instance.DataAwsccEc2InstanceElasticGpuSpecificationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instance"
 
 dataawsccec2instance.NewDataAwsccEc2InstanceElasticGpuSpecificationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEc2InstanceElasticGpuSpecificationsOutputReference
 ```
@@ -3281,7 +3281,7 @@ func InternalValue() DataAwsccEc2InstanceElasticGpuSpecifications
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2Instance.DataAwsccEc2InstanceElasticInferenceAcceleratorsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instance"
 
 dataawsccec2instance.NewDataAwsccEc2InstanceElasticInferenceAcceleratorsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEc2InstanceElasticInferenceAcceleratorsList
 ```
@@ -3430,7 +3430,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2Instance.DataAwsccEc2InstanceElasticInferenceAcceleratorsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instance"
 
 dataawsccec2instance.NewDataAwsccEc2InstanceElasticInferenceAcceleratorsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEc2InstanceElasticInferenceAcceleratorsOutputReference
 ```
@@ -3719,7 +3719,7 @@ func InternalValue() DataAwsccEc2InstanceElasticInferenceAccelerators
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2Instance.DataAwsccEc2InstanceEnclaveOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instance"
 
 dataawsccec2instance.NewDataAwsccEc2InstanceEnclaveOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEc2InstanceEnclaveOptionsOutputReference
 ```
@@ -3979,7 +3979,7 @@ func InternalValue() DataAwsccEc2InstanceEnclaveOptions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2Instance.DataAwsccEc2InstanceHibernationOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instance"
 
 dataawsccec2instance.NewDataAwsccEc2InstanceHibernationOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEc2InstanceHibernationOptionsOutputReference
 ```
@@ -4239,7 +4239,7 @@ func InternalValue() DataAwsccEc2InstanceHibernationOptions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2Instance.DataAwsccEc2InstanceIpv6AddressesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instance"
 
 dataawsccec2instance.NewDataAwsccEc2InstanceIpv6AddressesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEc2InstanceIpv6AddressesList
 ```
@@ -4388,7 +4388,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2Instance.DataAwsccEc2InstanceIpv6AddressesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instance"
 
 dataawsccec2instance.NewDataAwsccEc2InstanceIpv6AddressesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEc2InstanceIpv6AddressesOutputReference
 ```
@@ -4666,7 +4666,7 @@ func InternalValue() DataAwsccEc2InstanceIpv6Addresses
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2Instance.DataAwsccEc2InstanceLaunchTemplateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instance"
 
 dataawsccec2instance.NewDataAwsccEc2InstanceLaunchTemplateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEc2InstanceLaunchTemplateOutputReference
 ```
@@ -4948,7 +4948,7 @@ func InternalValue() DataAwsccEc2InstanceLaunchTemplate
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2Instance.DataAwsccEc2InstanceLicenseSpecificationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instance"
 
 dataawsccec2instance.NewDataAwsccEc2InstanceLicenseSpecificationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEc2InstanceLicenseSpecificationsList
 ```
@@ -5097,7 +5097,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2Instance.DataAwsccEc2InstanceLicenseSpecificationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instance"
 
 dataawsccec2instance.NewDataAwsccEc2InstanceLicenseSpecificationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEc2InstanceLicenseSpecificationsOutputReference
 ```
@@ -5375,7 +5375,7 @@ func InternalValue() DataAwsccEc2InstanceLicenseSpecifications
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2Instance.DataAwsccEc2InstanceMetadataOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instance"
 
 dataawsccec2instance.NewDataAwsccEc2InstanceMetadataOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEc2InstanceMetadataOptionsOutputReference
 ```
@@ -5679,7 +5679,7 @@ func InternalValue() DataAwsccEc2InstanceMetadataOptions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2Instance.DataAwsccEc2InstanceNetworkInterfacesEnaSrdSpecificationEnaSrdUdpSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instance"
 
 dataawsccec2instance.NewDataAwsccEc2InstanceNetworkInterfacesEnaSrdSpecificationEnaSrdUdpSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEc2InstanceNetworkInterfacesEnaSrdSpecificationEnaSrdUdpSpecificationOutputReference
 ```
@@ -5939,7 +5939,7 @@ func InternalValue() DataAwsccEc2InstanceNetworkInterfacesEnaSrdSpecificationEna
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2Instance.DataAwsccEc2InstanceNetworkInterfacesEnaSrdSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instance"
 
 dataawsccec2instance.NewDataAwsccEc2InstanceNetworkInterfacesEnaSrdSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEc2InstanceNetworkInterfacesEnaSrdSpecificationOutputReference
 ```
@@ -6210,7 +6210,7 @@ func InternalValue() DataAwsccEc2InstanceNetworkInterfacesEnaSrdSpecification
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2Instance.DataAwsccEc2InstanceNetworkInterfacesIpv6AddressesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instance"
 
 dataawsccec2instance.NewDataAwsccEc2InstanceNetworkInterfacesIpv6AddressesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEc2InstanceNetworkInterfacesIpv6AddressesList
 ```
@@ -6359,7 +6359,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2Instance.DataAwsccEc2InstanceNetworkInterfacesIpv6AddressesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instance"
 
 dataawsccec2instance.NewDataAwsccEc2InstanceNetworkInterfacesIpv6AddressesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEc2InstanceNetworkInterfacesIpv6AddressesOutputReference
 ```
@@ -6637,7 +6637,7 @@ func InternalValue() DataAwsccEc2InstanceNetworkInterfacesIpv6Addresses
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2Instance.DataAwsccEc2InstanceNetworkInterfacesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instance"
 
 dataawsccec2instance.NewDataAwsccEc2InstanceNetworkInterfacesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEc2InstanceNetworkInterfacesList
 ```
@@ -6786,7 +6786,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2Instance.DataAwsccEc2InstanceNetworkInterfacesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instance"
 
 dataawsccec2instance.NewDataAwsccEc2InstanceNetworkInterfacesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEc2InstanceNetworkInterfacesOutputReference
 ```
@@ -7207,7 +7207,7 @@ func InternalValue() DataAwsccEc2InstanceNetworkInterfaces
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2Instance.DataAwsccEc2InstanceNetworkInterfacesPrivateIpAddressesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instance"
 
 dataawsccec2instance.NewDataAwsccEc2InstanceNetworkInterfacesPrivateIpAddressesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEc2InstanceNetworkInterfacesPrivateIpAddressesList
 ```
@@ -7356,7 +7356,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2Instance.DataAwsccEc2InstanceNetworkInterfacesPrivateIpAddressesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instance"
 
 dataawsccec2instance.NewDataAwsccEc2InstanceNetworkInterfacesPrivateIpAddressesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEc2InstanceNetworkInterfacesPrivateIpAddressesOutputReference
 ```
@@ -7645,7 +7645,7 @@ func InternalValue() DataAwsccEc2InstanceNetworkInterfacesPrivateIpAddresses
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2Instance.DataAwsccEc2InstancePrivateDnsNameOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instance"
 
 dataawsccec2instance.NewDataAwsccEc2InstancePrivateDnsNameOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEc2InstancePrivateDnsNameOptionsOutputReference
 ```
@@ -7927,7 +7927,7 @@ func InternalValue() DataAwsccEc2InstancePrivateDnsNameOptions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2Instance.DataAwsccEc2InstanceSsmAssociationsAssociationParametersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instance"
 
 dataawsccec2instance.NewDataAwsccEc2InstanceSsmAssociationsAssociationParametersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEc2InstanceSsmAssociationsAssociationParametersList
 ```
@@ -8076,7 +8076,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2Instance.DataAwsccEc2InstanceSsmAssociationsAssociationParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instance"
 
 dataawsccec2instance.NewDataAwsccEc2InstanceSsmAssociationsAssociationParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEc2InstanceSsmAssociationsAssociationParametersOutputReference
 ```
@@ -8365,7 +8365,7 @@ func InternalValue() DataAwsccEc2InstanceSsmAssociationsAssociationParameters
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2Instance.DataAwsccEc2InstanceSsmAssociationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instance"
 
 dataawsccec2instance.NewDataAwsccEc2InstanceSsmAssociationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEc2InstanceSsmAssociationsList
 ```
@@ -8514,7 +8514,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2Instance.DataAwsccEc2InstanceSsmAssociationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instance"
 
 dataawsccec2instance.NewDataAwsccEc2InstanceSsmAssociationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEc2InstanceSsmAssociationsOutputReference
 ```
@@ -8803,7 +8803,7 @@ func InternalValue() DataAwsccEc2InstanceSsmAssociations
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2Instance.DataAwsccEc2InstanceStateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instance"
 
 dataawsccec2instance.NewDataAwsccEc2InstanceStateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEc2InstanceStateOutputReference
 ```
@@ -9074,7 +9074,7 @@ func InternalValue() DataAwsccEc2InstanceState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2Instance.DataAwsccEc2InstanceTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instance"
 
 dataawsccec2instance.NewDataAwsccEc2InstanceTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEc2InstanceTagsList
 ```
@@ -9223,7 +9223,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2Instance.DataAwsccEc2InstanceTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instance"
 
 dataawsccec2instance.NewDataAwsccEc2InstanceTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEc2InstanceTagsOutputReference
 ```
@@ -9512,7 +9512,7 @@ func InternalValue() DataAwsccEc2InstanceTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2Instance.DataAwsccEc2InstanceVolumesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instance"
 
 dataawsccec2instance.NewDataAwsccEc2InstanceVolumesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEc2InstanceVolumesList
 ```
@@ -9661,7 +9661,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2Instance.DataAwsccEc2InstanceVolumesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instance"
 
 dataawsccec2instance.NewDataAwsccEc2InstanceVolumesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEc2InstanceVolumesOutputReference
 ```

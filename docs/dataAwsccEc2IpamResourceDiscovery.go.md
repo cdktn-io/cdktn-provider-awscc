@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2IpamResourceDiscovery <a name="DataAwsccEc2IpamResourceDiscovery" id="@cdktn/provider-awscc.dataAwsccEc2IpamResourceDiscovery.DataAwsccEc2IpamResourceDiscovery"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_ipam_resource_discovery awscc_ec2_ipam_resource_discovery}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_ipam_resource_discovery awscc_ec2_ipam_resource_discovery}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2IpamResourceDiscovery.DataAwsccEc2IpamResourceDiscovery.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipamresourcediscovery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ipamresourcediscovery"
 
 dataawsccec2ipamresourcediscovery.NewDataAwsccEc2IpamResourceDiscovery(scope Construct, id *string, config DataAwsccEc2IpamResourceDiscoveryConfig) DataAwsccEc2IpamResourceDiscovery
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2IpamResourceDiscovery.DataAwsccEc2IpamResourceDiscovery.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipamresourcediscovery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ipamresourcediscovery"
 
 dataawsccec2ipamresourcediscovery.DataAwsccEc2IpamResourceDiscovery_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2IpamResourceDiscovery.DataAwsccEc2IpamResourceDiscovery.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipamresourcediscovery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ipamresourcediscovery"
 
 dataawsccec2ipamresourcediscovery.DataAwsccEc2IpamResourceDiscovery_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2ipamresourcediscovery.DataAwsccEc2IpamResourceDiscovery_IsTerraformE
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2IpamResourceDiscovery.DataAwsccEc2IpamResourceDiscovery.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipamresourcediscovery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ipamresourcediscovery"
 
 dataawsccec2ipamresourcediscovery.DataAwsccEc2IpamResourceDiscovery_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2ipamresourcediscovery.DataAwsccEc2IpamResourceDiscovery_IsTerraformD
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2IpamResourceDiscovery.DataAwsccEc2IpamResourceDiscovery.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipamresourcediscovery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ipamresourcediscovery"
 
 dataawsccec2ipamresourcediscovery.DataAwsccEc2IpamResourceDiscovery_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2IpamResourceDi
 
 The id of the existing DataAwsccEc2IpamResourceDiscovery that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_ipam_resource_discovery#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_ipam_resource_discovery#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -697,7 +697,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2IpamResourceDiscovery.DataAwsccEc2IpamResourceDiscoveryConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipamresourcediscovery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ipamresourcediscovery"
 
 &dataawsccec2ipamresourcediscovery.DataAwsccEc2IpamResourceDiscoveryConfig {
 	Connection: interface{},
@@ -806,7 +806,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_ipam_resource_discovery#id DataAwsccEc2IpamResourceDiscovery#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_ipam_resource_discovery#id DataAwsccEc2IpamResourceDiscovery#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -818,7 +818,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2IpamResourceDiscovery.DataAwsccEc2IpamResourceDiscoveryOperatingRegions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipamresourcediscovery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ipamresourcediscovery"
 
 &dataawsccec2ipamresourcediscovery.DataAwsccEc2IpamResourceDiscoveryOperatingRegions {
 
@@ -831,7 +831,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipamresour
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2IpamResourceDiscovery.DataAwsccEc2IpamResourceDiscoveryOrganizationalUnitExclusions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipamresourcediscovery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ipamresourcediscovery"
 
 &dataawsccec2ipamresourcediscovery.DataAwsccEc2IpamResourceDiscoveryOrganizationalUnitExclusions {
 
@@ -844,7 +844,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipamresour
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2IpamResourceDiscovery.DataAwsccEc2IpamResourceDiscoveryTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipamresourcediscovery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ipamresourcediscovery"
 
 &dataawsccec2ipamresourcediscovery.DataAwsccEc2IpamResourceDiscoveryTags {
 
@@ -859,7 +859,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipamresour
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2IpamResourceDiscovery.DataAwsccEc2IpamResourceDiscoveryOperatingRegionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipamresourcediscovery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ipamresourcediscovery"
 
 dataawsccec2ipamresourcediscovery.NewDataAwsccEc2IpamResourceDiscoveryOperatingRegionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEc2IpamResourceDiscoveryOperatingRegionsList
 ```
@@ -1008,7 +1008,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2IpamResourceDiscovery.DataAwsccEc2IpamResourceDiscoveryOperatingRegionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipamresourcediscovery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ipamresourcediscovery"
 
 dataawsccec2ipamresourcediscovery.NewDataAwsccEc2IpamResourceDiscoveryOperatingRegionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEc2IpamResourceDiscoveryOperatingRegionsOutputReference
 ```
@@ -1286,7 +1286,7 @@ func InternalValue() DataAwsccEc2IpamResourceDiscoveryOperatingRegions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2IpamResourceDiscovery.DataAwsccEc2IpamResourceDiscoveryOrganizationalUnitExclusionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipamresourcediscovery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ipamresourcediscovery"
 
 dataawsccec2ipamresourcediscovery.NewDataAwsccEc2IpamResourceDiscoveryOrganizationalUnitExclusionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEc2IpamResourceDiscoveryOrganizationalUnitExclusionsList
 ```
@@ -1435,7 +1435,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2IpamResourceDiscovery.DataAwsccEc2IpamResourceDiscoveryOrganizationalUnitExclusionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipamresourcediscovery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ipamresourcediscovery"
 
 dataawsccec2ipamresourcediscovery.NewDataAwsccEc2IpamResourceDiscoveryOrganizationalUnitExclusionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEc2IpamResourceDiscoveryOrganizationalUnitExclusionsOutputReference
 ```
@@ -1713,7 +1713,7 @@ func InternalValue() DataAwsccEc2IpamResourceDiscoveryOrganizationalUnitExclusio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2IpamResourceDiscovery.DataAwsccEc2IpamResourceDiscoveryTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipamresourcediscovery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ipamresourcediscovery"
 
 dataawsccec2ipamresourcediscovery.NewDataAwsccEc2IpamResourceDiscoveryTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEc2IpamResourceDiscoveryTagsList
 ```
@@ -1862,7 +1862,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2IpamResourceDiscovery.DataAwsccEc2IpamResourceDiscoveryTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipamresourcediscovery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ipamresourcediscovery"
 
 dataawsccec2ipamresourcediscovery.NewDataAwsccEc2IpamResourceDiscoveryTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEc2IpamResourceDiscoveryTagsOutputReference
 ```

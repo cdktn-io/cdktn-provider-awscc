@@ -4,12 +4,12 @@
 
 ### DataAwsccBedrockDataAutomationLibrary <a name="DataAwsccBedrockDataAutomationLibrary" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationLibrary.DataAwsccBedrockDataAutomationLibrary"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrock_data_automation_library awscc_bedrock_data_automation_library}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrock_data_automation_library awscc_bedrock_data_automation_library}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationLibrary.DataAwsccBedrockDataAutomationLibrary.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationlibrary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationlibrary"
 
 dataawsccbedrockdataautomationlibrary.NewDataAwsccBedrockDataAutomationLibrary(scope Construct, id *string, config DataAwsccBedrockDataAutomationLibraryConfig) DataAwsccBedrockDataAutomationLibrary
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationLibrary.DataAwsccBedrockDataAutomationLibrary.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationlibrary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationlibrary"
 
 dataawsccbedrockdataautomationlibrary.DataAwsccBedrockDataAutomationLibrary_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationLibrary.DataAwsccBedrockDataAutomationLibrary.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationlibrary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationlibrary"
 
 dataawsccbedrockdataautomationlibrary.DataAwsccBedrockDataAutomationLibrary_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccbedrockdataautomationlibrary.DataAwsccBedrockDataAutomationLibrary_IsTe
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationLibrary.DataAwsccBedrockDataAutomationLibrary.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationlibrary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationlibrary"
 
 dataawsccbedrockdataautomationlibrary.DataAwsccBedrockDataAutomationLibrary_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccbedrockdataautomationlibrary.DataAwsccBedrockDataAutomationLibrary_IsTe
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationLibrary.DataAwsccBedrockDataAutomationLibrary.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationlibrary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationlibrary"
 
 dataawsccbedrockdataautomationlibrary.DataAwsccBedrockDataAutomationLibrary_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccBedrockDataAutoma
 
 The id of the existing DataAwsccBedrockDataAutomationLibrary that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrock_data_automation_library#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrock_data_automation_library#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -675,7 +675,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationLibrary.DataAwsccBedrockDataAutomationLibraryConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationlibrary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationlibrary"
 
 &dataawsccbedrockdataautomationlibrary.DataAwsccBedrockDataAutomationLibraryConfig {
 	Connection: interface{},
@@ -784,7 +784,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrock_data_automation_library#id DataAwsccBedrockDataAutomationLibrary#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrock_data_automation_library#id DataAwsccBedrockDataAutomationLibrary#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -796,7 +796,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationLibrary.DataAwsccBedrockDataAutomationLibraryEncryptionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationlibrary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationlibrary"
 
 &dataawsccbedrockdataautomationlibrary.DataAwsccBedrockDataAutomationLibraryEncryptionConfiguration {
 
@@ -809,7 +809,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataau
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationLibrary.DataAwsccBedrockDataAutomationLibraryEntityTypes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationlibrary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationlibrary"
 
 &dataawsccbedrockdataautomationlibrary.DataAwsccBedrockDataAutomationLibraryEntityTypes {
 
@@ -822,7 +822,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataau
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationLibrary.DataAwsccBedrockDataAutomationLibraryTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationlibrary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationlibrary"
 
 &dataawsccbedrockdataautomationlibrary.DataAwsccBedrockDataAutomationLibraryTags {
 
@@ -837,7 +837,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataau
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationLibrary.DataAwsccBedrockDataAutomationLibraryEncryptionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationlibrary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationlibrary"
 
 dataawsccbedrockdataautomationlibrary.NewDataAwsccBedrockDataAutomationLibraryEncryptionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockDataAutomationLibraryEncryptionConfigurationOutputReference
 ```
@@ -1108,7 +1108,7 @@ func InternalValue() DataAwsccBedrockDataAutomationLibraryEncryptionConfiguratio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationLibrary.DataAwsccBedrockDataAutomationLibraryEntityTypesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationlibrary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationlibrary"
 
 dataawsccbedrockdataautomationlibrary.NewDataAwsccBedrockDataAutomationLibraryEntityTypesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBedrockDataAutomationLibraryEntityTypesList
 ```
@@ -1257,7 +1257,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationLibrary.DataAwsccBedrockDataAutomationLibraryEntityTypesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationlibrary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationlibrary"
 
 dataawsccbedrockdataautomationlibrary.NewDataAwsccBedrockDataAutomationLibraryEntityTypesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBedrockDataAutomationLibraryEntityTypesOutputReference
 ```
@@ -1546,7 +1546,7 @@ func InternalValue() DataAwsccBedrockDataAutomationLibraryEntityTypes
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationLibrary.DataAwsccBedrockDataAutomationLibraryTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationlibrary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationlibrary"
 
 dataawsccbedrockdataautomationlibrary.NewDataAwsccBedrockDataAutomationLibraryTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBedrockDataAutomationLibraryTagsList
 ```
@@ -1695,7 +1695,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationLibrary.DataAwsccBedrockDataAutomationLibraryTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationlibrary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationlibrary"
 
 dataawsccbedrockdataautomationlibrary.NewDataAwsccBedrockDataAutomationLibraryTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBedrockDataAutomationLibraryTagsOutputReference
 ```

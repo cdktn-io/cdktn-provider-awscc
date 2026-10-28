@@ -4,12 +4,12 @@
 
 ### ConnectContactFlow <a name="ConnectContactFlow" id="@cdktn/provider-awscc.connectContactFlow.ConnectContactFlow"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_contact_flow awscc_connect_contact_flow}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_contact_flow awscc_connect_contact_flow}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectContactFlow.ConnectContactFlow.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcontactflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcontactflow"
 
 connectcontactflow.NewConnectContactFlow(scope Construct, id *string, config ConnectContactFlowConfig) ConnectContactFlow
 ```
@@ -434,7 +434,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.connectContactFlow.ConnectContactFlow.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcontactflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcontactflow"
 
 connectcontactflow.ConnectContactFlow_IsConstruct(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.connectContactFlow.ConnectContactFlow.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcontactflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcontactflow"
 
 connectcontactflow.ConnectContactFlow_IsTerraformElement(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ connectcontactflow.ConnectContactFlow_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.connectContactFlow.ConnectContactFlow.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcontactflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcontactflow"
 
 connectcontactflow.ConnectContactFlow_IsTerraformResource(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ connectcontactflow.ConnectContactFlow_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.connectContactFlow.ConnectContactFlow.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcontactflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcontactflow"
 
 connectcontactflow.ConnectContactFlow_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -523,7 +523,7 @@ The construct id used in the generated config for the ConnectContactFlow to impo
 
 The id of the existing ConnectContactFlow that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_contact_flow#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_contact_flow#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -899,7 +899,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectContactFlow.ConnectContactFlowConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcontactflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcontactflow"
 
 &connectcontactflow.ConnectContactFlowConfig {
 	Connection: interface{},
@@ -1020,7 +1020,7 @@ Content *string
 
 The content of the contact flow in JSON format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_contact_flow#content ConnectContactFlow#content}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_contact_flow#content ConnectContactFlow#content}
 
 ---
 
@@ -1034,7 +1034,7 @@ InstanceArn *string
 
 The identifier of the Amazon Connect instance (ARN).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_contact_flow#instance_arn ConnectContactFlow#instance_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_contact_flow#instance_arn ConnectContactFlow#instance_arn}
 
 ---
 
@@ -1048,7 +1048,7 @@ Name *string
 
 The name of the contact flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_contact_flow#name ConnectContactFlow#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_contact_flow#name ConnectContactFlow#name}
 
 ---
 
@@ -1062,7 +1062,7 @@ Type *string
 
 The type of the contact flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_contact_flow#type ConnectContactFlow#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_contact_flow#type ConnectContactFlow#type}
 
 ---
 
@@ -1076,7 +1076,7 @@ Description *string
 
 The description of the contact flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_contact_flow#description ConnectContactFlow#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_contact_flow#description ConnectContactFlow#description}
 
 ---
 
@@ -1090,7 +1090,7 @@ State *string
 
 The state of the contact flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_contact_flow#state ConnectContactFlow#state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_contact_flow#state ConnectContactFlow#state}
 
 ---
 
@@ -1104,7 +1104,7 @@ Tags interface{}
 
 One or more tags.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_contact_flow#tags ConnectContactFlow#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_contact_flow#tags ConnectContactFlow#tags}
 
 ---
 
@@ -1113,7 +1113,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectContactFlow.ConnectContactFlowTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcontactflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcontactflow"
 
 &connectcontactflow.ConnectContactFlowTags {
 	Key: *string,
@@ -1142,7 +1142,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_contact_flow#key ConnectContactFlow#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_contact_flow#key ConnectContactFlow#key}
 
 ---
 
@@ -1158,7 +1158,7 @@ The value for the tag.
 
 . You can specify a value that is maximum of 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_contact_flow#value ConnectContactFlow#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_contact_flow#value ConnectContactFlow#value}
 
 ---
 
@@ -1169,7 +1169,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectContactFlow.ConnectContactFlowTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcontactflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcontactflow"
 
 connectcontactflow.NewConnectContactFlowTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ConnectContactFlowTagsList
 ```
@@ -1329,7 +1329,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectContactFlow.ConnectContactFlowTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcontactflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcontactflow"
 
 connectcontactflow.NewConnectContactFlowTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ConnectContactFlowTagsOutputReference
 ```

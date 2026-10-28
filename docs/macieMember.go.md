@@ -4,12 +4,12 @@
 
 ### MacieMember <a name="MacieMember" id="@cdktn/provider-awscc.macieMember.MacieMember"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/macie_member awscc_macie_member}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/macie_member awscc_macie_member}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.macieMember.MacieMember.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/maciemember"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/maciemember"
 
 maciemember.NewMacieMember(scope Construct, id *string, config MacieMemberConfig) MacieMember
 ```
@@ -427,7 +427,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.macieMember.MacieMember.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/maciemember"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/maciemember"
 
 maciemember.MacieMember_IsConstruct(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.macieMember.MacieMember.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/maciemember"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/maciemember"
 
 maciemember.MacieMember_IsTerraformElement(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ maciemember.MacieMember_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.macieMember.MacieMember.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/maciemember"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/maciemember"
 
 maciemember.MacieMember_IsTerraformResource(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ maciemember.MacieMember_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.macieMember.MacieMember.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/maciemember"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/maciemember"
 
 maciemember.MacieMember_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -516,7 +516,7 @@ The construct id used in the generated config for the MacieMember to import.
 
 The id of the existing MacieMember that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/macie_member#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/macie_member#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -837,7 +837,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.macieMember.MacieMemberConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/maciemember"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/maciemember"
 
 &maciemember.MacieMemberConfig {
 	Connection: interface{},
@@ -950,7 +950,7 @@ AccountId *string
 
 The AWS account ID for the account to associate with the Amazon Macie administrator account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/macie_member#account_id MacieMember#account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/macie_member#account_id MacieMember#account_id}
 
 ---
 
@@ -966,7 +966,7 @@ The email address for the account to associate with the Amazon Macie administrat
 
 Required by the Amazon Macie CreateMember API at creation time; it is write-only because the service does not return it (it is null when the account is associated through AWS Organizations).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/macie_member#email MacieMember#email}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/macie_member#email MacieMember#email}
 
 ---
 
@@ -980,7 +980,7 @@ Tags interface{}
 
 The tags to associate with the member account in Amazon Macie.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/macie_member#tags MacieMember#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/macie_member#tags MacieMember#tags}
 
 ---
 
@@ -989,7 +989,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.macieMember.MacieMemberTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/maciemember"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/maciemember"
 
 &maciemember.MacieMemberTags {
 	Key: *string,
@@ -1016,7 +1016,7 @@ Key *string
 
 The key of the tag. The maximum length of a tag key is 128 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/macie_member#key MacieMember#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/macie_member#key MacieMember#key}
 
 ---
 
@@ -1030,7 +1030,7 @@ Value *string
 
 The value of the tag. The maximum length of a tag value is 256 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/macie_member#value MacieMember#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/macie_member#value MacieMember#value}
 
 ---
 
@@ -1041,7 +1041,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.macieMember.MacieMemberTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/maciemember"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/maciemember"
 
 maciemember.NewMacieMemberTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MacieMemberTagsList
 ```
@@ -1201,7 +1201,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.macieMember.MacieMemberTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/maciemember"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/maciemember"
 
 maciemember.NewMacieMemberTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) MacieMemberTagsOutputReference
 ```

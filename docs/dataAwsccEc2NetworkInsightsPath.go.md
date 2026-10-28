@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2NetworkInsightsPath <a name="DataAwsccEc2NetworkInsightsPath" id="@cdktn/provider-awscc.dataAwsccEc2NetworkInsightsPath.DataAwsccEc2NetworkInsightsPath"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_network_insights_path awscc_ec2_network_insights_path}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_network_insights_path awscc_ec2_network_insights_path}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2NetworkInsightsPath.DataAwsccEc2NetworkInsightsPath.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2networkinsightspath"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2networkinsightspath"
 
 dataawsccec2networkinsightspath.NewDataAwsccEc2NetworkInsightsPath(scope Construct, id *string, config DataAwsccEc2NetworkInsightsPathConfig) DataAwsccEc2NetworkInsightsPath
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2NetworkInsightsPath.DataAwsccEc2NetworkInsightsPath.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2networkinsightspath"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2networkinsightspath"
 
 dataawsccec2networkinsightspath.DataAwsccEc2NetworkInsightsPath_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2NetworkInsightsPath.DataAwsccEc2NetworkInsightsPath.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2networkinsightspath"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2networkinsightspath"
 
 dataawsccec2networkinsightspath.DataAwsccEc2NetworkInsightsPath_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2networkinsightspath.DataAwsccEc2NetworkInsightsPath_IsTerraformEleme
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2NetworkInsightsPath.DataAwsccEc2NetworkInsightsPath.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2networkinsightspath"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2networkinsightspath"
 
 dataawsccec2networkinsightspath.DataAwsccEc2NetworkInsightsPath_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2networkinsightspath.DataAwsccEc2NetworkInsightsPath_IsTerraformDataS
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2NetworkInsightsPath.DataAwsccEc2NetworkInsightsPath.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2networkinsightspath"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2networkinsightspath"
 
 dataawsccec2networkinsightspath.DataAwsccEc2NetworkInsightsPath_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2NetworkInsight
 
 The id of the existing DataAwsccEc2NetworkInsightsPath that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_network_insights_path#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_network_insights_path#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -741,7 +741,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2NetworkInsightsPath.DataAwsccEc2NetworkInsightsPathConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2networkinsightspath"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2networkinsightspath"
 
 &dataawsccec2networkinsightspath.DataAwsccEc2NetworkInsightsPathConfig {
 	Connection: interface{},
@@ -850,7 +850,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_network_insights_path#id DataAwsccEc2NetworkInsightsPath#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_network_insights_path#id DataAwsccEc2NetworkInsightsPath#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -862,7 +862,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2NetworkInsightsPath.DataAwsccEc2NetworkInsightsPathFilterAtDestination.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2networkinsightspath"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2networkinsightspath"
 
 &dataawsccec2networkinsightspath.DataAwsccEc2NetworkInsightsPathFilterAtDestination {
 
@@ -875,7 +875,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2networkins
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2NetworkInsightsPath.DataAwsccEc2NetworkInsightsPathFilterAtDestinationDestinationPortRange.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2networkinsightspath"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2networkinsightspath"
 
 &dataawsccec2networkinsightspath.DataAwsccEc2NetworkInsightsPathFilterAtDestinationDestinationPortRange {
 
@@ -888,7 +888,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2networkins
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2NetworkInsightsPath.DataAwsccEc2NetworkInsightsPathFilterAtDestinationSourcePortRange.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2networkinsightspath"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2networkinsightspath"
 
 &dataawsccec2networkinsightspath.DataAwsccEc2NetworkInsightsPathFilterAtDestinationSourcePortRange {
 
@@ -901,7 +901,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2networkins
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2NetworkInsightsPath.DataAwsccEc2NetworkInsightsPathFilterAtSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2networkinsightspath"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2networkinsightspath"
 
 &dataawsccec2networkinsightspath.DataAwsccEc2NetworkInsightsPathFilterAtSource {
 
@@ -914,7 +914,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2networkins
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2NetworkInsightsPath.DataAwsccEc2NetworkInsightsPathFilterAtSourceDestinationPortRange.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2networkinsightspath"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2networkinsightspath"
 
 &dataawsccec2networkinsightspath.DataAwsccEc2NetworkInsightsPathFilterAtSourceDestinationPortRange {
 
@@ -927,7 +927,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2networkins
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2NetworkInsightsPath.DataAwsccEc2NetworkInsightsPathFilterAtSourceSourcePortRange.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2networkinsightspath"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2networkinsightspath"
 
 &dataawsccec2networkinsightspath.DataAwsccEc2NetworkInsightsPathFilterAtSourceSourcePortRange {
 
@@ -940,7 +940,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2networkins
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2NetworkInsightsPath.DataAwsccEc2NetworkInsightsPathTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2networkinsightspath"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2networkinsightspath"
 
 &dataawsccec2networkinsightspath.DataAwsccEc2NetworkInsightsPathTags {
 
@@ -955,7 +955,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2networkins
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2NetworkInsightsPath.DataAwsccEc2NetworkInsightsPathFilterAtDestinationDestinationPortRangeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2networkinsightspath"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2networkinsightspath"
 
 dataawsccec2networkinsightspath.NewDataAwsccEc2NetworkInsightsPathFilterAtDestinationDestinationPortRangeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEc2NetworkInsightsPathFilterAtDestinationDestinationPortRangeOutputReference
 ```
@@ -1226,7 +1226,7 @@ func InternalValue() DataAwsccEc2NetworkInsightsPathFilterAtDestinationDestinati
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2NetworkInsightsPath.DataAwsccEc2NetworkInsightsPathFilterAtDestinationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2networkinsightspath"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2networkinsightspath"
 
 dataawsccec2networkinsightspath.NewDataAwsccEc2NetworkInsightsPathFilterAtDestinationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEc2NetworkInsightsPathFilterAtDestinationOutputReference
 ```
@@ -1519,7 +1519,7 @@ func InternalValue() DataAwsccEc2NetworkInsightsPathFilterAtDestination
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2NetworkInsightsPath.DataAwsccEc2NetworkInsightsPathFilterAtDestinationSourcePortRangeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2networkinsightspath"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2networkinsightspath"
 
 dataawsccec2networkinsightspath.NewDataAwsccEc2NetworkInsightsPathFilterAtDestinationSourcePortRangeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEc2NetworkInsightsPathFilterAtDestinationSourcePortRangeOutputReference
 ```
@@ -1790,7 +1790,7 @@ func InternalValue() DataAwsccEc2NetworkInsightsPathFilterAtDestinationSourcePor
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2NetworkInsightsPath.DataAwsccEc2NetworkInsightsPathFilterAtSourceDestinationPortRangeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2networkinsightspath"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2networkinsightspath"
 
 dataawsccec2networkinsightspath.NewDataAwsccEc2NetworkInsightsPathFilterAtSourceDestinationPortRangeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEc2NetworkInsightsPathFilterAtSourceDestinationPortRangeOutputReference
 ```
@@ -2061,7 +2061,7 @@ func InternalValue() DataAwsccEc2NetworkInsightsPathFilterAtSourceDestinationPor
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2NetworkInsightsPath.DataAwsccEc2NetworkInsightsPathFilterAtSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2networkinsightspath"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2networkinsightspath"
 
 dataawsccec2networkinsightspath.NewDataAwsccEc2NetworkInsightsPathFilterAtSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEc2NetworkInsightsPathFilterAtSourceOutputReference
 ```
@@ -2354,7 +2354,7 @@ func InternalValue() DataAwsccEc2NetworkInsightsPathFilterAtSource
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2NetworkInsightsPath.DataAwsccEc2NetworkInsightsPathFilterAtSourceSourcePortRangeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2networkinsightspath"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2networkinsightspath"
 
 dataawsccec2networkinsightspath.NewDataAwsccEc2NetworkInsightsPathFilterAtSourceSourcePortRangeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEc2NetworkInsightsPathFilterAtSourceSourcePortRangeOutputReference
 ```
@@ -2625,7 +2625,7 @@ func InternalValue() DataAwsccEc2NetworkInsightsPathFilterAtSourceSourcePortRang
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2NetworkInsightsPath.DataAwsccEc2NetworkInsightsPathTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2networkinsightspath"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2networkinsightspath"
 
 dataawsccec2networkinsightspath.NewDataAwsccEc2NetworkInsightsPathTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEc2NetworkInsightsPathTagsList
 ```
@@ -2774,7 +2774,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2NetworkInsightsPath.DataAwsccEc2NetworkInsightsPathTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2networkinsightspath"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2networkinsightspath"
 
 dataawsccec2networkinsightspath.NewDataAwsccEc2NetworkInsightsPathTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEc2NetworkInsightsPathTagsOutputReference
 ```

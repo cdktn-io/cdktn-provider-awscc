@@ -4,12 +4,12 @@
 
 ### DataAwsccAutoscalingLaunchConfigurations <a name="DataAwsccAutoscalingLaunchConfigurations" id="@cdktn/provider-awscc.dataAwsccAutoscalingLaunchConfigurations.DataAwsccAutoscalingLaunchConfigurations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/autoscaling_launch_configurations awscc_autoscaling_launch_configurations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/autoscaling_launch_configurations awscc_autoscaling_launch_configurations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAutoscalingLaunchConfigurations.DataAwsccAutoscalingLaunchConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccautoscalinglaunchconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccautoscalinglaunchconfigurations"
 
 dataawsccautoscalinglaunchconfigurations.NewDataAwsccAutoscalingLaunchConfigurations(scope Construct, id *string, config DataAwsccAutoscalingLaunchConfigurationsConfig) DataAwsccAutoscalingLaunchConfigurations
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccAutoscalingLaunchConfigurations.DataAwsccAutoscalingLaunchConfigurations.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccautoscalinglaunchconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccautoscalinglaunchconfigurations"
 
 dataawsccautoscalinglaunchconfigurations.DataAwsccAutoscalingLaunchConfigurations_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccAutoscalingLaunchConfigurations.DataAwsccAutoscalingLaunchConfigurations.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccautoscalinglaunchconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccautoscalinglaunchconfigurations"
 
 dataawsccautoscalinglaunchconfigurations.DataAwsccAutoscalingLaunchConfigurations_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccautoscalinglaunchconfigurations.DataAwsccAutoscalingLaunchConfiguration
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccAutoscalingLaunchConfigurations.DataAwsccAutoscalingLaunchConfigurations.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccautoscalinglaunchconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccautoscalinglaunchconfigurations"
 
 dataawsccautoscalinglaunchconfigurations.DataAwsccAutoscalingLaunchConfigurations_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccautoscalinglaunchconfigurations.DataAwsccAutoscalingLaunchConfiguration
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccAutoscalingLaunchConfigurations.DataAwsccAutoscalingLaunchConfigurations.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccautoscalinglaunchconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccautoscalinglaunchconfigurations"
 
 dataawsccautoscalinglaunchconfigurations.DataAwsccAutoscalingLaunchConfigurations_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccAutoscalingLaunch
 
 The id of the existing DataAwsccAutoscalingLaunchConfigurations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/autoscaling_launch_configurations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/autoscaling_launch_configurations#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAutoscalingLaunchConfigurations.DataAwsccAutoscalingLaunchConfigurationsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccautoscalinglaunchconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccautoscalinglaunchconfigurations"
 
 &dataawsccautoscalinglaunchconfigurations.DataAwsccAutoscalingLaunchConfigurationsConfig {
 	Connection: interface{},

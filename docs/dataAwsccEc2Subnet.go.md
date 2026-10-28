@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2Subnet <a name="DataAwsccEc2Subnet" id="@cdktn/provider-awscc.dataAwsccEc2Subnet.DataAwsccEc2Subnet"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_subnet awscc_ec2_subnet}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_subnet awscc_ec2_subnet}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2Subnet.DataAwsccEc2Subnet.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2subnet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2subnet"
 
 dataawsccec2subnet.NewDataAwsccEc2Subnet(scope Construct, id *string, config DataAwsccEc2SubnetConfig) DataAwsccEc2Subnet
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2Subnet.DataAwsccEc2Subnet.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2subnet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2subnet"
 
 dataawsccec2subnet.DataAwsccEc2Subnet_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2Subnet.DataAwsccEc2Subnet.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2subnet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2subnet"
 
 dataawsccec2subnet.DataAwsccEc2Subnet_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2subnet.DataAwsccEc2Subnet_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2Subnet.DataAwsccEc2Subnet.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2subnet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2subnet"
 
 dataawsccec2subnet.DataAwsccEc2Subnet_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2subnet.DataAwsccEc2Subnet_IsTerraformDataSource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2Subnet.DataAwsccEc2Subnet.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2subnet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2subnet"
 
 dataawsccec2subnet.DataAwsccEc2Subnet_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2Subnet to impo
 
 The id of the existing DataAwsccEc2Subnet that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_subnet#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_subnet#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -818,7 +818,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2Subnet.DataAwsccEc2SubnetBlockPublicAccessStates.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2subnet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2subnet"
 
 &dataawsccec2subnet.DataAwsccEc2SubnetBlockPublicAccessStates {
 
@@ -831,7 +831,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2subnet"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2Subnet.DataAwsccEc2SubnetConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2subnet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2subnet"
 
 &dataawsccec2subnet.DataAwsccEc2SubnetConfig {
 	Connection: interface{},
@@ -940,7 +940,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_subnet#id DataAwsccEc2Subnet#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_subnet#id DataAwsccEc2Subnet#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -952,7 +952,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2Subnet.DataAwsccEc2SubnetPrivateDnsNameOptionsOnLaunch.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2subnet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2subnet"
 
 &dataawsccec2subnet.DataAwsccEc2SubnetPrivateDnsNameOptionsOnLaunch {
 
@@ -965,7 +965,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2subnet"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2Subnet.DataAwsccEc2SubnetTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2subnet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2subnet"
 
 &dataawsccec2subnet.DataAwsccEc2SubnetTags {
 
@@ -980,7 +980,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2subnet"
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2Subnet.DataAwsccEc2SubnetBlockPublicAccessStatesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2subnet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2subnet"
 
 dataawsccec2subnet.NewDataAwsccEc2SubnetBlockPublicAccessStatesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEc2SubnetBlockPublicAccessStatesOutputReference
 ```
@@ -1240,7 +1240,7 @@ func InternalValue() DataAwsccEc2SubnetBlockPublicAccessStates
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2Subnet.DataAwsccEc2SubnetPrivateDnsNameOptionsOnLaunchOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2subnet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2subnet"
 
 dataawsccec2subnet.NewDataAwsccEc2SubnetPrivateDnsNameOptionsOnLaunchOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEc2SubnetPrivateDnsNameOptionsOnLaunchOutputReference
 ```
@@ -1522,7 +1522,7 @@ func InternalValue() DataAwsccEc2SubnetPrivateDnsNameOptionsOnLaunch
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2Subnet.DataAwsccEc2SubnetTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2subnet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2subnet"
 
 dataawsccec2subnet.NewDataAwsccEc2SubnetTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEc2SubnetTagsList
 ```
@@ -1671,7 +1671,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2Subnet.DataAwsccEc2SubnetTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2subnet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2subnet"
 
 dataawsccec2subnet.NewDataAwsccEc2SubnetTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEc2SubnetTagsOutputReference
 ```

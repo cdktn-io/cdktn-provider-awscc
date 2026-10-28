@@ -4,12 +4,12 @@
 
 ### DataAwsccNimblestudioStudioComponent <a name="DataAwsccNimblestudioStudioComponent" id="@cdktn/provider-awscc.dataAwsccNimblestudioStudioComponent.DataAwsccNimblestudioStudioComponent"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/nimblestudio_studio_component awscc_nimblestudio_studio_component}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/nimblestudio_studio_component awscc_nimblestudio_studio_component}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNimblestudioStudioComponent.DataAwsccNimblestudioStudioComponent.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudiostudiocomponent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnimblestudiostudiocomponent"
 
 dataawsccnimblestudiostudiocomponent.NewDataAwsccNimblestudioStudioComponent(scope Construct, id *string, config DataAwsccNimblestudioStudioComponentConfig) DataAwsccNimblestudioStudioComponent
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccNimblestudioStudioComponent.DataAwsccNimblestudioStudioComponent.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudiostudiocomponent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnimblestudiostudiocomponent"
 
 dataawsccnimblestudiostudiocomponent.DataAwsccNimblestudioStudioComponent_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccNimblestudioStudioComponent.DataAwsccNimblestudioStudioComponent.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudiostudiocomponent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnimblestudiostudiocomponent"
 
 dataawsccnimblestudiostudiocomponent.DataAwsccNimblestudioStudioComponent_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccnimblestudiostudiocomponent.DataAwsccNimblestudioStudioComponent_IsTerr
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccNimblestudioStudioComponent.DataAwsccNimblestudioStudioComponent.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudiostudiocomponent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnimblestudiostudiocomponent"
 
 dataawsccnimblestudiostudiocomponent.DataAwsccNimblestudioStudioComponent_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccnimblestudiostudiocomponent.DataAwsccNimblestudioStudioComponent_IsTerr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccNimblestudioStudioComponent.DataAwsccNimblestudioStudioComponent.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudiostudiocomponent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnimblestudiostudiocomponent"
 
 dataawsccnimblestudiostudiocomponent.DataAwsccNimblestudioStudioComponent_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccNimblestudioStudi
 
 The id of the existing DataAwsccNimblestudioStudioComponent that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/nimblestudio_studio_component#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/nimblestudio_studio_component#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -708,7 +708,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccNimblestudioStudioComponent.DataAwsccNimblestudioStudioComponentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudiostudiocomponent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnimblestudiostudiocomponent"
 
 &dataawsccnimblestudiostudiocomponent.DataAwsccNimblestudioStudioComponentConfig {
 	Connection: interface{},
@@ -817,7 +817,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/nimblestudio_studio_component#id DataAwsccNimblestudioStudioComponent#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/nimblestudio_studio_component#id DataAwsccNimblestudioStudioComponent#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -829,7 +829,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccNimblestudioStudioComponent.DataAwsccNimblestudioStudioComponentConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudiostudiocomponent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnimblestudiostudiocomponent"
 
 &dataawsccnimblestudiostudiocomponent.DataAwsccNimblestudioStudioComponentConfiguration {
 
@@ -842,7 +842,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudios
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccNimblestudioStudioComponent.DataAwsccNimblestudioStudioComponentConfigurationActiveDirectoryConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudiostudiocomponent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnimblestudiostudiocomponent"
 
 &dataawsccnimblestudiostudiocomponent.DataAwsccNimblestudioStudioComponentConfigurationActiveDirectoryConfiguration {
 
@@ -855,7 +855,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudios
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccNimblestudioStudioComponent.DataAwsccNimblestudioStudioComponentConfigurationActiveDirectoryConfigurationComputerAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudiostudiocomponent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnimblestudiostudiocomponent"
 
 &dataawsccnimblestudiostudiocomponent.DataAwsccNimblestudioStudioComponentConfigurationActiveDirectoryConfigurationComputerAttributes {
 
@@ -868,7 +868,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudios
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccNimblestudioStudioComponent.DataAwsccNimblestudioStudioComponentConfigurationComputeFarmConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudiostudiocomponent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnimblestudiostudiocomponent"
 
 &dataawsccnimblestudiostudiocomponent.DataAwsccNimblestudioStudioComponentConfigurationComputeFarmConfiguration {
 
@@ -881,7 +881,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudios
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccNimblestudioStudioComponent.DataAwsccNimblestudioStudioComponentConfigurationLicenseServiceConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudiostudiocomponent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnimblestudiostudiocomponent"
 
 &dataawsccnimblestudiostudiocomponent.DataAwsccNimblestudioStudioComponentConfigurationLicenseServiceConfiguration {
 
@@ -894,7 +894,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudios
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccNimblestudioStudioComponent.DataAwsccNimblestudioStudioComponentConfigurationSharedFileSystemConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudiostudiocomponent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnimblestudiostudiocomponent"
 
 &dataawsccnimblestudiostudiocomponent.DataAwsccNimblestudioStudioComponentConfigurationSharedFileSystemConfiguration {
 
@@ -907,7 +907,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudios
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccNimblestudioStudioComponent.DataAwsccNimblestudioStudioComponentInitializationScripts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudiostudiocomponent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnimblestudiostudiocomponent"
 
 &dataawsccnimblestudiostudiocomponent.DataAwsccNimblestudioStudioComponentInitializationScripts {
 
@@ -920,7 +920,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudios
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccNimblestudioStudioComponent.DataAwsccNimblestudioStudioComponentScriptParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudiostudiocomponent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnimblestudiostudiocomponent"
 
 &dataawsccnimblestudiostudiocomponent.DataAwsccNimblestudioStudioComponentScriptParameters {
 
@@ -935,7 +935,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudios
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNimblestudioStudioComponent.DataAwsccNimblestudioStudioComponentConfigurationActiveDirectoryConfigurationComputerAttributesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudiostudiocomponent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnimblestudiostudiocomponent"
 
 dataawsccnimblestudiostudiocomponent.NewDataAwsccNimblestudioStudioComponentConfigurationActiveDirectoryConfigurationComputerAttributesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccNimblestudioStudioComponentConfigurationActiveDirectoryConfigurationComputerAttributesList
 ```
@@ -1084,7 +1084,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNimblestudioStudioComponent.DataAwsccNimblestudioStudioComponentConfigurationActiveDirectoryConfigurationComputerAttributesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudiostudiocomponent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnimblestudiostudiocomponent"
 
 dataawsccnimblestudiostudiocomponent.NewDataAwsccNimblestudioStudioComponentConfigurationActiveDirectoryConfigurationComputerAttributesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccNimblestudioStudioComponentConfigurationActiveDirectoryConfigurationComputerAttributesOutputReference
 ```
@@ -1373,7 +1373,7 @@ func InternalValue() DataAwsccNimblestudioStudioComponentConfigurationActiveDire
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNimblestudioStudioComponent.DataAwsccNimblestudioStudioComponentConfigurationActiveDirectoryConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudiostudiocomponent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnimblestudiostudiocomponent"
 
 dataawsccnimblestudiostudiocomponent.NewDataAwsccNimblestudioStudioComponentConfigurationActiveDirectoryConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccNimblestudioStudioComponentConfigurationActiveDirectoryConfigurationOutputReference
 ```
@@ -1655,7 +1655,7 @@ func InternalValue() DataAwsccNimblestudioStudioComponentConfigurationActiveDire
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNimblestudioStudioComponent.DataAwsccNimblestudioStudioComponentConfigurationComputeFarmConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudiostudiocomponent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnimblestudiostudiocomponent"
 
 dataawsccnimblestudiostudiocomponent.NewDataAwsccNimblestudioStudioComponentConfigurationComputeFarmConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccNimblestudioStudioComponentConfigurationComputeFarmConfigurationOutputReference
 ```
@@ -1926,7 +1926,7 @@ func InternalValue() DataAwsccNimblestudioStudioComponentConfigurationComputeFar
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNimblestudioStudioComponent.DataAwsccNimblestudioStudioComponentConfigurationLicenseServiceConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudiostudiocomponent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnimblestudiostudiocomponent"
 
 dataawsccnimblestudiostudiocomponent.NewDataAwsccNimblestudioStudioComponentConfigurationLicenseServiceConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccNimblestudioStudioComponentConfigurationLicenseServiceConfigurationOutputReference
 ```
@@ -2186,7 +2186,7 @@ func InternalValue() DataAwsccNimblestudioStudioComponentConfigurationLicenseSer
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNimblestudioStudioComponent.DataAwsccNimblestudioStudioComponentConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudiostudiocomponent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnimblestudiostudiocomponent"
 
 dataawsccnimblestudiostudiocomponent.NewDataAwsccNimblestudioStudioComponentConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccNimblestudioStudioComponentConfigurationOutputReference
 ```
@@ -2479,7 +2479,7 @@ func InternalValue() DataAwsccNimblestudioStudioComponentConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNimblestudioStudioComponent.DataAwsccNimblestudioStudioComponentConfigurationSharedFileSystemConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudiostudiocomponent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnimblestudiostudiocomponent"
 
 dataawsccnimblestudiostudiocomponent.NewDataAwsccNimblestudioStudioComponentConfigurationSharedFileSystemConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccNimblestudioStudioComponentConfigurationSharedFileSystemConfigurationOutputReference
 ```
@@ -2783,7 +2783,7 @@ func InternalValue() DataAwsccNimblestudioStudioComponentConfigurationSharedFile
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNimblestudioStudioComponent.DataAwsccNimblestudioStudioComponentInitializationScriptsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudiostudiocomponent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnimblestudiostudiocomponent"
 
 dataawsccnimblestudiostudiocomponent.NewDataAwsccNimblestudioStudioComponentInitializationScriptsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccNimblestudioStudioComponentInitializationScriptsList
 ```
@@ -2932,7 +2932,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNimblestudioStudioComponent.DataAwsccNimblestudioStudioComponentInitializationScriptsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudiostudiocomponent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnimblestudiostudiocomponent"
 
 dataawsccnimblestudiostudiocomponent.NewDataAwsccNimblestudioStudioComponentInitializationScriptsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccNimblestudioStudioComponentInitializationScriptsOutputReference
 ```
@@ -3243,7 +3243,7 @@ func InternalValue() DataAwsccNimblestudioStudioComponentInitializationScripts
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNimblestudioStudioComponent.DataAwsccNimblestudioStudioComponentScriptParametersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudiostudiocomponent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnimblestudiostudiocomponent"
 
 dataawsccnimblestudiostudiocomponent.NewDataAwsccNimblestudioStudioComponentScriptParametersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccNimblestudioStudioComponentScriptParametersList
 ```
@@ -3392,7 +3392,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNimblestudioStudioComponent.DataAwsccNimblestudioStudioComponentScriptParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudiostudiocomponent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnimblestudiostudiocomponent"
 
 dataawsccnimblestudiostudiocomponent.NewDataAwsccNimblestudioStudioComponentScriptParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccNimblestudioStudioComponentScriptParametersOutputReference
 ```

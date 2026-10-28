@@ -4,12 +4,12 @@
 
 ### DataAwsccLexBot <a name="DataAwsccLexBot" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBot"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lex_bot awscc_lex_bot}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lex_bot awscc_lex_bot}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBot.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBot(scope Construct, id *string, config DataAwsccLexBotConfig) DataAwsccLexBot
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBot.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.DataAwsccLexBot_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBot.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.DataAwsccLexBot_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscclexbot.DataAwsccLexBot_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBot.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.DataAwsccLexBot_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscclexbot.DataAwsccLexBot_IsTerraformDataSource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBot.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.DataAwsccLexBot_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLexBot to import.
 
 The id of the existing DataAwsccLexBot that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lex_bot#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lex_bot#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -730,7 +730,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotFileS3Location.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotFileS3Location {
 
@@ -743,7 +743,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocales.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocales {
 
@@ -756,7 +756,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesCustomVocabulary.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesCustomVocabulary {
 
@@ -769,7 +769,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesCustomVocabularyCustomVocabularyItems.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesCustomVocabularyCustomVocabularyItems {
 
@@ -782,7 +782,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntents.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntents {
 
@@ -795,7 +795,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsDialogCodeHook.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsDialogCodeHook {
 
@@ -808,7 +808,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHook.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHook {
 
@@ -821,7 +821,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecification {
 
@@ -834,7 +834,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponse.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponse {
 
@@ -847,7 +847,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroups.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroups {
 
@@ -860,7 +860,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessage {
 
@@ -873,7 +873,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessageCustomPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessageCustomPayload {
 
@@ -886,7 +886,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessageImageResponseCard.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessageImageResponseCard {
 
@@ -899,7 +899,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessageImageResponseCardButtons.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessageImageResponseCardButtons {
 
@@ -912,7 +912,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessagePlainTextMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessagePlainTextMessage {
 
@@ -925,7 +925,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessageSsmlMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessageSsmlMessage {
 
@@ -938,7 +938,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariations {
 
@@ -951,7 +951,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsCustomPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsCustomPayload {
 
@@ -964,7 +964,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsImageResponseCard.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsImageResponseCard {
 
@@ -977,7 +977,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsImageResponseCardButtons.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsImageResponseCardButtons {
 
@@ -990,7 +990,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsPlainTextMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsPlainTextMessage {
 
@@ -1003,7 +1003,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsSsmlMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsSsmlMessage {
 
@@ -1016,7 +1016,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponse.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponse {
 
@@ -1029,7 +1029,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroups.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroups {
 
@@ -1042,7 +1042,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessage {
 
@@ -1055,7 +1055,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessageCustomPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessageCustomPayload {
 
@@ -1068,7 +1068,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessageImageResponseCard.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessageImageResponseCard {
 
@@ -1081,7 +1081,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessageImageResponseCardButtons.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessageImageResponseCardButtons {
 
@@ -1094,7 +1094,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessagePlainTextMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessagePlainTextMessage {
 
@@ -1107,7 +1107,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessageSsmlMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessageSsmlMessage {
 
@@ -1120,7 +1120,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariations {
 
@@ -1133,7 +1133,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsCustomPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsCustomPayload {
 
@@ -1146,7 +1146,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsImageResponseCard.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsImageResponseCard {
 
@@ -1159,7 +1159,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsImageResponseCardButtons.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsImageResponseCardButtons {
 
@@ -1172,7 +1172,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsPlainTextMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsPlainTextMessage {
 
@@ -1185,7 +1185,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsSsmlMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsSsmlMessage {
 
@@ -1198,7 +1198,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecification {
 
@@ -1211,7 +1211,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponse.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponse {
 
@@ -1224,7 +1224,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessage {
 
@@ -1237,7 +1237,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessageCustomPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessageCustomPayload {
 
@@ -1250,7 +1250,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessageImageResponseCard.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessageImageResponseCard {
 
@@ -1263,7 +1263,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessageImageResponseCardButtons.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessageImageResponseCardButtons {
 
@@ -1276,7 +1276,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessagePlainTextMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessagePlainTextMessage {
 
@@ -1289,7 +1289,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessageSsmlMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessageSsmlMessage {
 
@@ -1302,7 +1302,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListStruct {
 
@@ -1315,7 +1315,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariations {
 
@@ -1328,7 +1328,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsCustomPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsCustomPayload {
 
@@ -1341,7 +1341,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsImageResponseCard.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsImageResponseCard {
 
@@ -1354,7 +1354,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsImageResponseCardButtons.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsImageResponseCardButtons {
 
@@ -1367,7 +1367,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsPlainTextMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsPlainTextMessage {
 
@@ -1380,7 +1380,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsSsmlMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsSsmlMessage {
 
@@ -1393,7 +1393,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponse.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponse {
 
@@ -1406,7 +1406,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessage {
 
@@ -1419,7 +1419,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessageCustomPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessageCustomPayload {
 
@@ -1432,7 +1432,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessageImageResponseCard.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessageImageResponseCard {
 
@@ -1445,7 +1445,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessageImageResponseCardButtons.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessageImageResponseCardButtons {
 
@@ -1458,7 +1458,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessagePlainTextMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessagePlainTextMessage {
 
@@ -1471,7 +1471,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessageSsmlMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessageSsmlMessage {
 
@@ -1484,7 +1484,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListStruct {
 
@@ -1497,7 +1497,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariations {
 
@@ -1510,7 +1510,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsCustomPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsCustomPayload {
 
@@ -1523,7 +1523,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsImageResponseCard.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsImageResponseCard {
 
@@ -1536,7 +1536,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsImageResponseCardButtons.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsImageResponseCardButtons {
 
@@ -1549,7 +1549,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsPlainTextMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsPlainTextMessage {
 
@@ -1562,7 +1562,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsSsmlMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsSsmlMessage {
 
@@ -1575,7 +1575,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponse.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponse {
 
@@ -1588,7 +1588,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessage {
 
@@ -1601,7 +1601,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessageCustomPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessageCustomPayload {
 
@@ -1614,7 +1614,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessageImageResponseCard.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessageImageResponseCard {
 
@@ -1627,7 +1627,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessageImageResponseCardButtons.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessageImageResponseCardButtons {
 
@@ -1640,7 +1640,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessagePlainTextMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessagePlainTextMessage {
 
@@ -1653,7 +1653,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessageSsmlMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessageSsmlMessage {
 
@@ -1666,7 +1666,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListStruct {
 
@@ -1679,7 +1679,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariations {
 
@@ -1692,7 +1692,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsCustomPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsCustomPayload {
 
@@ -1705,7 +1705,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsImageResponseCard.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsImageResponseCard {
 
@@ -1718,7 +1718,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsImageResponseCardButtons.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsImageResponseCardButtons {
 
@@ -1731,7 +1731,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsPlainTextMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsPlainTextMessage {
 
@@ -1744,7 +1744,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsSsmlMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsSsmlMessage {
 
@@ -1757,7 +1757,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsInputContexts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsInputContexts {
 
@@ -1770,7 +1770,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentClosingSetting.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsIntentClosingSetting {
 
@@ -1783,7 +1783,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponse.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponse {
 
@@ -1796,7 +1796,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessage {
 
@@ -1809,7 +1809,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessageCustomPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessageCustomPayload {
 
@@ -1822,7 +1822,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessageImageResponseCard.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessageImageResponseCard {
 
@@ -1835,7 +1835,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessageImageResponseCardButtons.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessageImageResponseCardButtons {
 
@@ -1848,7 +1848,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessagePlainTextMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessagePlainTextMessage {
 
@@ -1861,7 +1861,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessageSsmlMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessageSsmlMessage {
 
@@ -1874,7 +1874,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListStruct {
 
@@ -1887,7 +1887,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariations {
 
@@ -1900,7 +1900,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsCustomPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsCustomPayload {
 
@@ -1913,7 +1913,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsImageResponseCard.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsImageResponseCard {
 
@@ -1926,7 +1926,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsImageResponseCardButtons.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsImageResponseCardButtons {
 
@@ -1939,7 +1939,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsPlainTextMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsPlainTextMessage {
 
@@ -1952,7 +1952,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsSsmlMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsSsmlMessage {
 
@@ -1965,7 +1965,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSetting.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSetting {
 
@@ -1978,7 +1978,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponse.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponse {
 
@@ -1991,7 +1991,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessage {
 
@@ -2004,7 +2004,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessageCustomPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessageCustomPayload {
 
@@ -2017,7 +2017,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessageImageResponseCard.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessageImageResponseCard {
 
@@ -2030,7 +2030,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessageImageResponseCardButtons.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessageImageResponseCardButtons {
 
@@ -2043,7 +2043,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessagePlainTextMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessagePlainTextMessage {
 
@@ -2056,7 +2056,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessageSsmlMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessageSsmlMessage {
 
@@ -2069,7 +2069,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListStruct {
 
@@ -2082,7 +2082,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariations {
 
@@ -2095,7 +2095,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsCustomPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsCustomPayload {
 
@@ -2108,7 +2108,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsImageResponseCard.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsImageResponseCard {
 
@@ -2121,7 +2121,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsImageResponseCardButtons.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsImageResponseCardButtons {
 
@@ -2134,7 +2134,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsPlainTextMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsPlainTextMessage {
 
@@ -2147,7 +2147,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsSsmlMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsSsmlMessage {
 
@@ -2160,7 +2160,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecification {
 
@@ -2173,7 +2173,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessage {
 
@@ -2186,7 +2186,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessageCustomPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessageCustomPayload {
 
@@ -2199,7 +2199,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessageImageResponseCard.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessageImageResponseCard {
 
@@ -2212,7 +2212,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessageImageResponseCardButtons.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessageImageResponseCardButtons {
 
@@ -2225,7 +2225,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessagePlainTextMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessagePlainTextMessage {
 
@@ -2238,7 +2238,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessageSsmlMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessageSsmlMessage {
 
@@ -2251,7 +2251,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListStruct {
 
@@ -2264,7 +2264,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariations {
 
@@ -2277,7 +2277,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsCustomPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsCustomPayload {
 
@@ -2290,7 +2290,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsImageResponseCard.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsImageResponseCard {
 
@@ -2303,7 +2303,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsImageResponseCardButtons.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsImageResponseCardButtons {
 
@@ -2316,7 +2316,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsPlainTextMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsPlainTextMessage {
 
@@ -2329,7 +2329,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsSsmlMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsSsmlMessage {
 
@@ -2342,7 +2342,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecification {
 
@@ -2355,7 +2355,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationAllowedInputTypes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationAllowedInputTypes {
 
@@ -2368,7 +2368,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecification {
 
@@ -2381,7 +2381,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecificationAudioSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecificationAudioSpecification {
 
@@ -2394,7 +2394,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecificationDtmfSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecificationDtmfSpecification {
 
@@ -2407,7 +2407,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationTextInputSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationTextInputSpecification {
 
@@ -2420,7 +2420,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsKendraConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsKendraConfiguration {
 
@@ -2433,7 +2433,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsOutputContexts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsOutputContexts {
 
@@ -2446,7 +2446,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSampleUtterances.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSampleUtterances {
 
@@ -2459,7 +2459,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotPriorities.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSlotPriorities {
 
@@ -2472,7 +2472,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlots.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSlots {
 
@@ -2485,7 +2485,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsMultipleValuesSetting.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSlotsMultipleValuesSetting {
 
@@ -2498,7 +2498,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsObfuscationSetting.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSlotsObfuscationSetting {
 
@@ -2511,7 +2511,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSetting.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSetting {
 
@@ -2524,7 +2524,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingDefaultValueSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingDefaultValueSpecification {
 
@@ -2537,7 +2537,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingDefaultValueSpecificationDefaultValueListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingDefaultValueSpecificationDefaultValueListStruct {
 
@@ -2550,7 +2550,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecification {
 
@@ -2563,7 +2563,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessage {
 
@@ -2576,7 +2576,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessageCustomPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessageCustomPayload {
 
@@ -2589,7 +2589,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessageImageResponseCard.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessageImageResponseCard {
 
@@ -2602,7 +2602,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessageImageResponseCardButtons.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessageImageResponseCardButtons {
 
@@ -2615,7 +2615,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessagePlainTextMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessagePlainTextMessage {
 
@@ -2628,7 +2628,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessageSsmlMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessageSsmlMessage {
 
@@ -2641,7 +2641,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListStruct {
 
@@ -2654,7 +2654,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariations {
 
@@ -2667,7 +2667,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsCustomPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsCustomPayload {
 
@@ -2680,7 +2680,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsImageResponseCard.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsImageResponseCard {
 
@@ -2693,7 +2693,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsImageResponseCardButtons.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsImageResponseCardButtons {
 
@@ -2706,7 +2706,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsPlainTextMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsPlainTextMessage {
 
@@ -2719,7 +2719,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsSsmlMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsSsmlMessage {
 
@@ -2732,7 +2732,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecification {
 
@@ -2745,7 +2745,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAllowedInputTypes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAllowedInputTypes {
 
@@ -2758,7 +2758,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecification {
 
@@ -2771,7 +2771,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecificationAudioSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecificationAudioSpecification {
 
@@ -2784,7 +2784,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecificationDtmfSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecificationDtmfSpecification {
 
@@ -2797,7 +2797,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationTextInputSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationTextInputSpecification {
 
@@ -2810,7 +2810,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingSampleUtterances.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingSampleUtterances {
 
@@ -2823,7 +2823,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecification {
 
@@ -2836,7 +2836,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponse.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponse {
 
@@ -2849,7 +2849,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessage {
 
@@ -2862,7 +2862,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessageCustomPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessageCustomPayload {
 
@@ -2875,7 +2875,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessageImageResponseCard.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessageImageResponseCard {
 
@@ -2888,7 +2888,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessageImageResponseCardButtons.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessageImageResponseCardButtons {
 
@@ -2901,7 +2901,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessagePlainTextMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessagePlainTextMessage {
 
@@ -2914,7 +2914,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessageSsmlMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessageSsmlMessage {
 
@@ -2927,7 +2927,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListStruct {
 
@@ -2940,7 +2940,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariations {
 
@@ -2953,7 +2953,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsCustomPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsCustomPayload {
 
@@ -2966,7 +2966,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsImageResponseCard.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsImageResponseCard {
 
@@ -2979,7 +2979,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsImageResponseCardButtons.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsImageResponseCardButtons {
 
@@ -2992,7 +2992,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsPlainTextMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsPlainTextMessage {
 
@@ -3005,7 +3005,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsSsmlMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsSsmlMessage {
 
@@ -3018,7 +3018,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponse.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponse {
 
@@ -3031,7 +3031,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessage {
 
@@ -3044,7 +3044,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessageCustomPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessageCustomPayload {
 
@@ -3057,7 +3057,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessageImageResponseCard.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessageImageResponseCard {
 
@@ -3070,7 +3070,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessageImageResponseCardButtons.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessageImageResponseCardButtons {
 
@@ -3083,7 +3083,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessagePlainTextMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessagePlainTextMessage {
 
@@ -3096,7 +3096,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessageSsmlMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessageSsmlMessage {
 
@@ -3109,7 +3109,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListStruct {
 
@@ -3122,7 +3122,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariations {
 
@@ -3135,7 +3135,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsCustomPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsCustomPayload {
 
@@ -3148,7 +3148,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsImageResponseCard.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsImageResponseCard {
 
@@ -3161,7 +3161,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsImageResponseCardButtons.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsImageResponseCardButtons {
 
@@ -3174,7 +3174,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsPlainTextMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsPlainTextMessage {
 
@@ -3187,7 +3187,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsSsmlMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsSsmlMessage {
 
@@ -3200,7 +3200,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponse.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponse {
 
@@ -3213,7 +3213,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessage {
 
@@ -3226,7 +3226,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessageCustomPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessageCustomPayload {
 
@@ -3239,7 +3239,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessageImageResponseCard.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessageImageResponseCard {
 
@@ -3252,7 +3252,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessageImageResponseCardButtons.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessageImageResponseCardButtons {
 
@@ -3265,7 +3265,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessagePlainTextMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessagePlainTextMessage {
 
@@ -3278,7 +3278,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessageSsmlMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessageSsmlMessage {
 
@@ -3291,7 +3291,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListStruct {
 
@@ -3304,7 +3304,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariations {
 
@@ -3317,7 +3317,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsCustomPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsCustomPayload {
 
@@ -3330,7 +3330,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsImageResponseCard.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsImageResponseCard {
 
@@ -3343,7 +3343,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsImageResponseCardButtons.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsImageResponseCardButtons {
 
@@ -3356,7 +3356,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsPlainTextMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsPlainTextMessage {
 
@@ -3369,7 +3369,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsSsmlMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsSsmlMessage {
 
@@ -3382,7 +3382,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesSlotTypes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesSlotTypes {
 
@@ -3395,7 +3395,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesSlotTypesExternalSourceSetting.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesSlotTypesExternalSourceSetting {
 
@@ -3408,7 +3408,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesSlotTypesExternalSourceSettingGrammarSlotTypeSetting.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesSlotTypesExternalSourceSettingGrammarSlotTypeSetting {
 
@@ -3421,7 +3421,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesSlotTypesExternalSourceSettingGrammarSlotTypeSettingSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesSlotTypesExternalSourceSettingGrammarSlotTypeSettingSource {
 
@@ -3434,7 +3434,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesSlotTypesSlotTypeValues.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesSlotTypesSlotTypeValues {
 
@@ -3447,7 +3447,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesSlotTypesSlotTypeValuesSampleValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesSlotTypesSlotTypeValuesSampleValue {
 
@@ -3460,7 +3460,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesSlotTypesSlotTypeValuesSynonyms.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesSlotTypesSlotTypeValuesSynonyms {
 
@@ -3473,7 +3473,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesSlotTypesValueSelectionSetting.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesSlotTypesValueSelectionSetting {
 
@@ -3486,7 +3486,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesSlotTypesValueSelectionSettingAdvancedRecognitionSetting.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesSlotTypesValueSelectionSettingAdvancedRecognitionSetting {
 
@@ -3499,7 +3499,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesSlotTypesValueSelectionSettingRegexFilter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesSlotTypesValueSelectionSettingRegexFilter {
 
@@ -3512,7 +3512,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesVoiceSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotLocalesVoiceSettings {
 
@@ -3525,7 +3525,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotBotTags {
 
@@ -3538,7 +3538,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotConfig {
 	Connection: interface{},
@@ -3647,7 +3647,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lex_bot#id DataAwsccLexBot#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lex_bot#id DataAwsccLexBot#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3659,7 +3659,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotDataPrivacy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotDataPrivacy {
 
@@ -3672,7 +3672,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotTestBotAliasSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotTestBotAliasSettings {
 
@@ -3685,7 +3685,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotTestBotAliasSettingsBotAliasLocaleSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotTestBotAliasSettingsBotAliasLocaleSettings {
 
@@ -3698,7 +3698,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotTestBotAliasSettingsBotAliasLocaleSettingsBotAliasLocaleSetting.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotTestBotAliasSettingsBotAliasLocaleSettingsBotAliasLocaleSetting {
 
@@ -3711,7 +3711,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotTestBotAliasSettingsBotAliasLocaleSettingsBotAliasLocaleSettingCodeHookSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotTestBotAliasSettingsBotAliasLocaleSettingsBotAliasLocaleSettingCodeHookSpecification {
 
@@ -3724,7 +3724,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotTestBotAliasSettingsBotAliasLocaleSettingsBotAliasLocaleSettingCodeHookSpecificationLambdaCodeHook.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotTestBotAliasSettingsBotAliasLocaleSettingsBotAliasLocaleSettingCodeHookSpecificationLambdaCodeHook {
 
@@ -3737,7 +3737,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotTestBotAliasSettingsConversationLogSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotTestBotAliasSettingsConversationLogSettings {
 
@@ -3750,7 +3750,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotTestBotAliasSettingsConversationLogSettingsAudioLogSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotTestBotAliasSettingsConversationLogSettingsAudioLogSettings {
 
@@ -3763,7 +3763,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotTestBotAliasSettingsConversationLogSettingsAudioLogSettingsDestination.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotTestBotAliasSettingsConversationLogSettingsAudioLogSettingsDestination {
 
@@ -3776,7 +3776,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotTestBotAliasSettingsConversationLogSettingsAudioLogSettingsDestinationS3Bucket.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotTestBotAliasSettingsConversationLogSettingsAudioLogSettingsDestinationS3Bucket {
 
@@ -3789,7 +3789,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotTestBotAliasSettingsConversationLogSettingsTextLogSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotTestBotAliasSettingsConversationLogSettingsTextLogSettings {
 
@@ -3802,7 +3802,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsDestination.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsDestination {
 
@@ -3815,7 +3815,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsDestinationCloudwatch.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsDestinationCloudwatch {
 
@@ -3828,7 +3828,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotTestBotAliasSettingsSentimentAnalysisSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotTestBotAliasSettingsSentimentAnalysisSettings {
 
@@ -3841,7 +3841,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotTestBotAliasTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 &dataawscclexbot.DataAwsccLexBotTestBotAliasTags {
 
@@ -3856,7 +3856,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotFileS3LocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotFileS3LocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotFileS3LocationOutputReference
 ```
@@ -4138,7 +4138,7 @@ func InternalValue() DataAwsccLexBotBotFileS3Location
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesCustomVocabularyCustomVocabularyItemsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesCustomVocabularyCustomVocabularyItemsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLexBotBotLocalesCustomVocabularyCustomVocabularyItemsList
 ```
@@ -4287,7 +4287,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesCustomVocabularyCustomVocabularyItemsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesCustomVocabularyCustomVocabularyItemsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLexBotBotLocalesCustomVocabularyCustomVocabularyItemsOutputReference
 ```
@@ -4576,7 +4576,7 @@ func InternalValue() DataAwsccLexBotBotLocalesCustomVocabularyCustomVocabularyIt
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesCustomVocabularyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesCustomVocabularyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesCustomVocabularyOutputReference
 ```
@@ -4836,7 +4836,7 @@ func InternalValue() DataAwsccLexBotBotLocalesCustomVocabulary
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsDialogCodeHookOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsDialogCodeHookOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsDialogCodeHookOutputReference
 ```
@@ -5096,7 +5096,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsDialogCodeHook
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationOutputReference
 ```
@@ -5389,7 +5389,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillm
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsList
 ```
@@ -5538,7 +5538,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessageCustomPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessageCustomPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessageCustomPayloadOutputReference
 ```
@@ -5798,7 +5798,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillm
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessageImageResponseCardButtonsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessageImageResponseCardButtonsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessageImageResponseCardButtonsList
 ```
@@ -5947,7 +5947,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessageImageResponseCardButtonsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessageImageResponseCardButtonsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessageImageResponseCardButtonsOutputReference
 ```
@@ -6236,7 +6236,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillm
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessageImageResponseCardOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessageImageResponseCardOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessageImageResponseCardOutputReference
 ```
@@ -6529,7 +6529,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillm
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessageOutputReference
 ```
@@ -6822,7 +6822,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillm
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessagePlainTextMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessagePlainTextMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessagePlainTextMessageOutputReference
 ```
@@ -7082,7 +7082,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillm
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessageSsmlMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessageSsmlMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsMessageSsmlMessageOutputReference
 ```
@@ -7342,7 +7342,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillm
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsOutputReference
 ```
@@ -7631,7 +7631,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillm
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsCustomPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsCustomPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsCustomPayloadOutputReference
 ```
@@ -7891,7 +7891,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillm
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsImageResponseCardButtonsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsImageResponseCardButtonsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsImageResponseCardButtonsList
 ```
@@ -8040,7 +8040,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsImageResponseCardButtonsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsImageResponseCardButtonsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsImageResponseCardButtonsOutputReference
 ```
@@ -8329,7 +8329,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillm
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsImageResponseCardOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsImageResponseCardOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsImageResponseCardOutputReference
 ```
@@ -8622,7 +8622,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillm
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsList
 ```
@@ -8771,7 +8771,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsOutputReference
 ```
@@ -9082,7 +9082,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillm
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsPlainTextMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsPlainTextMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsPlainTextMessageOutputReference
 ```
@@ -9342,7 +9342,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillm
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsSsmlMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsSsmlMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseMessageGroupsVariationsSsmlMessageOutputReference
 ```
@@ -9602,7 +9602,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillm
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationStartResponseOutputReference
 ```
@@ -9884,7 +9884,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillm
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsList
 ```
@@ -10033,7 +10033,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessageCustomPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessageCustomPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessageCustomPayloadOutputReference
 ```
@@ -10293,7 +10293,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillm
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessageImageResponseCardButtonsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessageImageResponseCardButtonsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessageImageResponseCardButtonsList
 ```
@@ -10442,7 +10442,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessageImageResponseCardButtonsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessageImageResponseCardButtonsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessageImageResponseCardButtonsOutputReference
 ```
@@ -10731,7 +10731,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillm
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessageImageResponseCardOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessageImageResponseCardOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessageImageResponseCardOutputReference
 ```
@@ -11024,7 +11024,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillm
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessageOutputReference
 ```
@@ -11317,7 +11317,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillm
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessagePlainTextMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessagePlainTextMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessagePlainTextMessageOutputReference
 ```
@@ -11577,7 +11577,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillm
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessageSsmlMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessageSsmlMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsMessageSsmlMessageOutputReference
 ```
@@ -11837,7 +11837,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillm
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsOutputReference
 ```
@@ -12126,7 +12126,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillm
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsCustomPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsCustomPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsCustomPayloadOutputReference
 ```
@@ -12386,7 +12386,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillm
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsImageResponseCardButtonsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsImageResponseCardButtonsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsImageResponseCardButtonsList
 ```
@@ -12535,7 +12535,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsImageResponseCardButtonsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsImageResponseCardButtonsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsImageResponseCardButtonsOutputReference
 ```
@@ -12824,7 +12824,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillm
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsImageResponseCardOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsImageResponseCardOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsImageResponseCardOutputReference
 ```
@@ -13117,7 +13117,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillm
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsList
 ```
@@ -13266,7 +13266,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsOutputReference
 ```
@@ -13577,7 +13577,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillm
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsPlainTextMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsPlainTextMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsPlainTextMessageOutputReference
 ```
@@ -13837,7 +13837,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillm
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsSsmlMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsSsmlMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseMessageGroupsVariationsSsmlMessageOutputReference
 ```
@@ -14097,7 +14097,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillm
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecificationUpdateResponseOutputReference
 ```
@@ -14379,7 +14379,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookFulfillm
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookOutputReference
 ```
@@ -14661,7 +14661,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHook
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessageCustomPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessageCustomPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessageCustomPayloadOutputReference
 ```
@@ -14921,7 +14921,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessageImageResponseCardButtonsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessageImageResponseCardButtonsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessageImageResponseCardButtonsList
 ```
@@ -15070,7 +15070,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessageImageResponseCardButtonsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessageImageResponseCardButtonsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessageImageResponseCardButtonsOutputReference
 ```
@@ -15359,7 +15359,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessageImageResponseCardOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessageImageResponseCardOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessageImageResponseCardOutputReference
 ```
@@ -15652,7 +15652,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessageOutputReference
 ```
@@ -15945,7 +15945,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessagePlainTextMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessagePlainTextMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessagePlainTextMessageOutputReference
 ```
@@ -16205,7 +16205,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessageSsmlMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessageSsmlMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListMessageSsmlMessageOutputReference
 ```
@@ -16465,7 +16465,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListStructList
 ```
@@ -16614,7 +16614,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListStructOutputReference
 ```
@@ -16903,7 +16903,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsCustomPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsCustomPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsCustomPayloadOutputReference
 ```
@@ -17163,7 +17163,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsImageResponseCardButtonsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsImageResponseCardButtonsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsImageResponseCardButtonsList
 ```
@@ -17312,7 +17312,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsImageResponseCardButtonsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsImageResponseCardButtonsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsImageResponseCardButtonsOutputReference
 ```
@@ -17601,7 +17601,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsImageResponseCardOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsImageResponseCardOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsImageResponseCardOutputReference
 ```
@@ -17894,7 +17894,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsList
 ```
@@ -18043,7 +18043,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsOutputReference
 ```
@@ -18354,7 +18354,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsPlainTextMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsPlainTextMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsPlainTextMessageOutputReference
 ```
@@ -18614,7 +18614,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsSsmlMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsSsmlMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseMessageGroupsListVariationsSsmlMessageOutputReference
 ```
@@ -18874,7 +18874,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationFailureResponseOutputReference
 ```
@@ -19145,7 +19145,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationOutputReference
 ```
@@ -19427,7 +19427,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessageCustomPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessageCustomPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessageCustomPayloadOutputReference
 ```
@@ -19687,7 +19687,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessageImageResponseCardButtonsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessageImageResponseCardButtonsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessageImageResponseCardButtonsList
 ```
@@ -19836,7 +19836,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessageImageResponseCardButtonsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessageImageResponseCardButtonsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessageImageResponseCardButtonsOutputReference
 ```
@@ -20125,7 +20125,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessageImageResponseCardOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessageImageResponseCardOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessageImageResponseCardOutputReference
 ```
@@ -20418,7 +20418,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessageOutputReference
 ```
@@ -20711,7 +20711,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessagePlainTextMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessagePlainTextMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessagePlainTextMessageOutputReference
 ```
@@ -20971,7 +20971,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessageSsmlMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessageSsmlMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListMessageSsmlMessageOutputReference
 ```
@@ -21231,7 +21231,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListStructList
 ```
@@ -21380,7 +21380,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListStructOutputReference
 ```
@@ -21669,7 +21669,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsCustomPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsCustomPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsCustomPayloadOutputReference
 ```
@@ -21929,7 +21929,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsImageResponseCardButtonsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsImageResponseCardButtonsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsImageResponseCardButtonsList
 ```
@@ -22078,7 +22078,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsImageResponseCardButtonsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsImageResponseCardButtonsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsImageResponseCardButtonsOutputReference
 ```
@@ -22367,7 +22367,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsImageResponseCardOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsImageResponseCardOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsImageResponseCardOutputReference
 ```
@@ -22660,7 +22660,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsList
 ```
@@ -22809,7 +22809,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsOutputReference
 ```
@@ -23120,7 +23120,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsPlainTextMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsPlainTextMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsPlainTextMessageOutputReference
 ```
@@ -23380,7 +23380,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsSsmlMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsSsmlMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseMessageGroupsListVariationsSsmlMessageOutputReference
 ```
@@ -23640,7 +23640,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationSuccessResponseOutputReference
 ```
@@ -23911,7 +23911,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessageCustomPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessageCustomPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessageCustomPayloadOutputReference
 ```
@@ -24171,7 +24171,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessageImageResponseCardButtonsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessageImageResponseCardButtonsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessageImageResponseCardButtonsList
 ```
@@ -24320,7 +24320,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessageImageResponseCardButtonsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessageImageResponseCardButtonsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessageImageResponseCardButtonsOutputReference
 ```
@@ -24609,7 +24609,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessageImageResponseCardOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessageImageResponseCardOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessageImageResponseCardOutputReference
 ```
@@ -24902,7 +24902,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessageOutputReference
 ```
@@ -25195,7 +25195,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessagePlainTextMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessagePlainTextMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessagePlainTextMessageOutputReference
 ```
@@ -25455,7 +25455,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessageSsmlMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessageSsmlMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListMessageSsmlMessageOutputReference
 ```
@@ -25715,7 +25715,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListStructList
 ```
@@ -25864,7 +25864,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListStructOutputReference
 ```
@@ -26153,7 +26153,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsCustomPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsCustomPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsCustomPayloadOutputReference
 ```
@@ -26413,7 +26413,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsImageResponseCardButtonsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsImageResponseCardButtonsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsImageResponseCardButtonsList
 ```
@@ -26562,7 +26562,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsImageResponseCardButtonsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsImageResponseCardButtonsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsImageResponseCardButtonsOutputReference
 ```
@@ -26851,7 +26851,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsImageResponseCardOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsImageResponseCardOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsImageResponseCardOutputReference
 ```
@@ -27144,7 +27144,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsList
 ```
@@ -27293,7 +27293,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsOutputReference
 ```
@@ -27604,7 +27604,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsPlainTextMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsPlainTextMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsPlainTextMessageOutputReference
 ```
@@ -27864,7 +27864,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsSsmlMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsSsmlMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseMessageGroupsListVariationsSsmlMessageOutputReference
 ```
@@ -28124,7 +28124,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpecificationTimeoutResponseOutputReference
 ```
@@ -28395,7 +28395,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsFulfillmentCodeHookPostFulf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsInputContextsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsInputContextsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLexBotBotLocalesIntentsInputContextsList
 ```
@@ -28544,7 +28544,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsInputContextsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsInputContextsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLexBotBotLocalesIntentsInputContextsOutputReference
 ```
@@ -28822,7 +28822,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsInputContexts
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessageCustomPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessageCustomPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessageCustomPayloadOutputReference
 ```
@@ -29082,7 +29082,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosing
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessageImageResponseCardButtonsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessageImageResponseCardButtonsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessageImageResponseCardButtonsList
 ```
@@ -29231,7 +29231,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessageImageResponseCardButtonsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessageImageResponseCardButtonsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessageImageResponseCardButtonsOutputReference
 ```
@@ -29520,7 +29520,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosing
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessageImageResponseCardOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessageImageResponseCardOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessageImageResponseCardOutputReference
 ```
@@ -29813,7 +29813,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosing
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessageOutputReference
 ```
@@ -30106,7 +30106,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosing
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessagePlainTextMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessagePlainTextMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessagePlainTextMessageOutputReference
 ```
@@ -30366,7 +30366,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosing
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessageSsmlMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessageSsmlMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListMessageSsmlMessageOutputReference
 ```
@@ -30626,7 +30626,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosing
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListStructList
 ```
@@ -30775,7 +30775,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListStructOutputReference
 ```
@@ -31064,7 +31064,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosing
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsCustomPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsCustomPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsCustomPayloadOutputReference
 ```
@@ -31324,7 +31324,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosing
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsImageResponseCardButtonsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsImageResponseCardButtonsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsImageResponseCardButtonsList
 ```
@@ -31473,7 +31473,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsImageResponseCardButtonsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsImageResponseCardButtonsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsImageResponseCardButtonsOutputReference
 ```
@@ -31762,7 +31762,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosing
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsImageResponseCardOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsImageResponseCardOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsImageResponseCardOutputReference
 ```
@@ -32055,7 +32055,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosing
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsList
 ```
@@ -32204,7 +32204,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsOutputReference
 ```
@@ -32515,7 +32515,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosing
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsPlainTextMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsPlainTextMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsPlainTextMessageOutputReference
 ```
@@ -32775,7 +32775,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosing
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsSsmlMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsSsmlMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGroupsListVariationsSsmlMessageOutputReference
 ```
@@ -33035,7 +33035,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosing
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosingResponseOutputReference
 ```
@@ -33306,7 +33306,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsIntentClosingSettingClosing
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentClosingSettingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsIntentClosingSettingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsIntentClosingSettingOutputReference
 ```
@@ -33577,7 +33577,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsIntentClosingSetting
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessageCustomPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessageCustomPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessageCustomPayloadOutputReference
 ```
@@ -33837,7 +33837,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessageImageResponseCardButtonsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessageImageResponseCardButtonsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessageImageResponseCardButtonsList
 ```
@@ -33986,7 +33986,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessageImageResponseCardButtonsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessageImageResponseCardButtonsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessageImageResponseCardButtonsOutputReference
 ```
@@ -34275,7 +34275,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessageImageResponseCardOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessageImageResponseCardOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessageImageResponseCardOutputReference
 ```
@@ -34568,7 +34568,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessageOutputReference
 ```
@@ -34861,7 +34861,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessagePlainTextMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessagePlainTextMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessagePlainTextMessageOutputReference
 ```
@@ -35121,7 +35121,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessageSsmlMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessageSsmlMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListMessageSsmlMessageOutputReference
 ```
@@ -35381,7 +35381,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListStructList
 ```
@@ -35530,7 +35530,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListStructOutputReference
 ```
@@ -35819,7 +35819,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsCustomPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsCustomPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsCustomPayloadOutputReference
 ```
@@ -36079,7 +36079,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsImageResponseCardButtonsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsImageResponseCardButtonsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsImageResponseCardButtonsList
 ```
@@ -36228,7 +36228,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsImageResponseCardButtonsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsImageResponseCardButtonsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsImageResponseCardButtonsOutputReference
 ```
@@ -36517,7 +36517,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsImageResponseCardOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsImageResponseCardOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsImageResponseCardOutputReference
 ```
@@ -36810,7 +36810,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsList
 ```
@@ -36959,7 +36959,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsOutputReference
 ```
@@ -37270,7 +37270,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsPlainTextMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsPlainTextMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsPlainTextMessageOutputReference
 ```
@@ -37530,7 +37530,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsSsmlMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsSsmlMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListVariationsSsmlMessageOutputReference
 ```
@@ -37790,7 +37790,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseOutputReference
 ```
@@ -38061,7 +38061,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingOutputReference
 ```
@@ -38343,7 +38343,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsIntentConfirmationSetting
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessageCustomPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessageCustomPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessageCustomPayloadOutputReference
 ```
@@ -38603,7 +38603,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPr
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessageImageResponseCardButtonsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessageImageResponseCardButtonsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessageImageResponseCardButtonsList
 ```
@@ -38752,7 +38752,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessageImageResponseCardButtonsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessageImageResponseCardButtonsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessageImageResponseCardButtonsOutputReference
 ```
@@ -39041,7 +39041,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPr
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessageImageResponseCardOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessageImageResponseCardOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessageImageResponseCardOutputReference
 ```
@@ -39334,7 +39334,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPr
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessageOutputReference
 ```
@@ -39627,7 +39627,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPr
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessagePlainTextMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessagePlainTextMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessagePlainTextMessageOutputReference
 ```
@@ -39887,7 +39887,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPr
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessageSsmlMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessageSsmlMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListMessageSsmlMessageOutputReference
 ```
@@ -40147,7 +40147,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPr
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListStructList
 ```
@@ -40296,7 +40296,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListStructOutputReference
 ```
@@ -40585,7 +40585,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPr
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsCustomPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsCustomPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsCustomPayloadOutputReference
 ```
@@ -40845,7 +40845,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPr
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsImageResponseCardButtonsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsImageResponseCardButtonsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsImageResponseCardButtonsList
 ```
@@ -40994,7 +40994,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsImageResponseCardButtonsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsImageResponseCardButtonsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsImageResponseCardButtonsOutputReference
 ```
@@ -41283,7 +41283,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPr
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsImageResponseCardOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsImageResponseCardOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsImageResponseCardOutputReference
 ```
@@ -41576,7 +41576,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPr
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsList
 ```
@@ -41725,7 +41725,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsOutputReference
 ```
@@ -42036,7 +42036,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPr
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsPlainTextMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsPlainTextMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsPlainTextMessageOutputReference
 ```
@@ -42296,7 +42296,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPr
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsSsmlMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsSsmlMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationMessageGroupsListVariationsSsmlMessageOutputReference
 ```
@@ -42556,7 +42556,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPr
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationOutputReference
 ```
@@ -42860,7 +42860,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPr
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationAllowedInputTypesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationAllowedInputTypesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationAllowedInputTypesOutputReference
 ```
@@ -43131,7 +43131,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPr
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecificationAudioSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecificationAudioSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecificationAudioSpecificationOutputReference
 ```
@@ -43402,7 +43402,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPr
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecificationDtmfSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecificationDtmfSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecificationDtmfSpecificationOutputReference
 ```
@@ -43695,7 +43695,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPr
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecificationOutputReference
 ```
@@ -43977,7 +43977,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPr
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationMap.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationMap(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationMap
 ```
@@ -44113,7 +44113,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectKey *string) DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationOutputReference
 ```
@@ -44415,7 +44415,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPr
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationTextInputSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationTextInputSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecificationPromptAttemptsSpecificationTextInputSpecificationOutputReference
 ```
@@ -44675,7 +44675,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingPr
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsKendraConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsKendraConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsKendraConfigurationOutputReference
 ```
@@ -44957,7 +44957,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsKendraConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLexBotBotLocalesIntentsList
 ```
@@ -45106,7 +45106,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsOutputContextsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsOutputContextsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLexBotBotLocalesIntentsOutputContextsList
 ```
@@ -45255,7 +45255,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsOutputContextsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsOutputContextsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLexBotBotLocalesIntentsOutputContextsOutputReference
 ```
@@ -45555,7 +45555,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsOutputContexts
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLexBotBotLocalesIntentsOutputReference
 ```
@@ -45965,7 +45965,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntents
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSampleUtterancesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSampleUtterancesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLexBotBotLocalesIntentsSampleUtterancesList
 ```
@@ -46114,7 +46114,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSampleUtterancesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSampleUtterancesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLexBotBotLocalesIntentsSampleUtterancesOutputReference
 ```
@@ -46392,7 +46392,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSampleUtterances
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotPrioritiesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotPrioritiesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLexBotBotLocalesIntentsSlotPrioritiesList
 ```
@@ -46541,7 +46541,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotPrioritiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotPrioritiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLexBotBotLocalesIntentsSlotPrioritiesOutputReference
 ```
@@ -46830,7 +46830,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSlotPriorities
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLexBotBotLocalesIntentsSlotsList
 ```
@@ -46979,7 +46979,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsMultipleValuesSettingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsMultipleValuesSettingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsSlotsMultipleValuesSettingOutputReference
 ```
@@ -47239,7 +47239,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSlotsMultipleValuesSetting
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsObfuscationSettingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsObfuscationSettingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsSlotsObfuscationSettingOutputReference
 ```
@@ -47499,7 +47499,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSlotsObfuscationSetting
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLexBotBotLocalesIntentsSlotsOutputReference
 ```
@@ -47832,7 +47832,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSlots
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingDefaultValueSpecificationDefaultValueListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingDefaultValueSpecificationDefaultValueListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingDefaultValueSpecificationDefaultValueListStructList
 ```
@@ -47981,7 +47981,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingDefaultValueSpecificationDefaultValueListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingDefaultValueSpecificationDefaultValueListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingDefaultValueSpecificationDefaultValueListStructOutputReference
 ```
@@ -48259,7 +48259,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingDefaultValueSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingDefaultValueSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingDefaultValueSpecificationOutputReference
 ```
@@ -48519,7 +48519,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingOutputReference
 ```
@@ -48823,7 +48823,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessageCustomPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessageCustomPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessageCustomPayloadOutputReference
 ```
@@ -49083,7 +49083,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessageImageResponseCardButtonsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessageImageResponseCardButtonsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessageImageResponseCardButtonsList
 ```
@@ -49232,7 +49232,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessageImageResponseCardButtonsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessageImageResponseCardButtonsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessageImageResponseCardButtonsOutputReference
 ```
@@ -49521,7 +49521,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessageImageResponseCardOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessageImageResponseCardOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessageImageResponseCardOutputReference
 ```
@@ -49814,7 +49814,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessageOutputReference
 ```
@@ -50107,7 +50107,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessagePlainTextMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessagePlainTextMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessagePlainTextMessageOutputReference
 ```
@@ -50367,7 +50367,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessageSsmlMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessageSsmlMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListMessageSsmlMessageOutputReference
 ```
@@ -50627,7 +50627,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListStructList
 ```
@@ -50776,7 +50776,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListStructOutputReference
 ```
@@ -51065,7 +51065,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsCustomPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsCustomPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsCustomPayloadOutputReference
 ```
@@ -51325,7 +51325,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsImageResponseCardButtonsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsImageResponseCardButtonsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsImageResponseCardButtonsList
 ```
@@ -51474,7 +51474,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsImageResponseCardButtonsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsImageResponseCardButtonsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsImageResponseCardButtonsOutputReference
 ```
@@ -51763,7 +51763,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsImageResponseCardOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsImageResponseCardOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsImageResponseCardOutputReference
 ```
@@ -52056,7 +52056,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsList
 ```
@@ -52205,7 +52205,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsOutputReference
 ```
@@ -52516,7 +52516,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsPlainTextMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsPlainTextMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsPlainTextMessageOutputReference
 ```
@@ -52776,7 +52776,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsSsmlMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsSsmlMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationMessageGroupsListVariationsSsmlMessageOutputReference
 ```
@@ -53036,7 +53036,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationOutputReference
 ```
@@ -53340,7 +53340,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAllowedInputTypesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAllowedInputTypesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAllowedInputTypesOutputReference
 ```
@@ -53611,7 +53611,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecificationAudioSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecificationAudioSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecificationAudioSpecificationOutputReference
 ```
@@ -53882,7 +53882,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecificationDtmfSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecificationDtmfSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecificationDtmfSpecificationOutputReference
 ```
@@ -54175,7 +54175,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAudioAndDtmfInputSpecificationOutputReference
 ```
@@ -54457,7 +54457,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationMap.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationMap(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationMap
 ```
@@ -54593,7 +54593,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectKey *string) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationOutputReference
 ```
@@ -54895,7 +54895,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationTextInputSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationTextInputSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationTextInputSpecificationOutputReference
 ```
@@ -55155,7 +55155,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingSampleUtterancesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingSampleUtterancesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingSampleUtterancesList
 ```
@@ -55304,7 +55304,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingSampleUtterancesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingSampleUtterancesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingSampleUtterancesOutputReference
 ```
@@ -55582,7 +55582,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessageCustomPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessageCustomPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessageCustomPayloadOutputReference
 ```
@@ -55842,7 +55842,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessageImageResponseCardButtonsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessageImageResponseCardButtonsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessageImageResponseCardButtonsList
 ```
@@ -55991,7 +55991,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessageImageResponseCardButtonsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessageImageResponseCardButtonsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessageImageResponseCardButtonsOutputReference
 ```
@@ -56280,7 +56280,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessageImageResponseCardOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessageImageResponseCardOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessageImageResponseCardOutputReference
 ```
@@ -56573,7 +56573,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessageOutputReference
 ```
@@ -56866,7 +56866,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessagePlainTextMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessagePlainTextMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessagePlainTextMessageOutputReference
 ```
@@ -57126,7 +57126,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessageSsmlMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessageSsmlMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListMessageSsmlMessageOutputReference
 ```
@@ -57386,7 +57386,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListStructList
 ```
@@ -57535,7 +57535,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListStructOutputReference
 ```
@@ -57824,7 +57824,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsCustomPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsCustomPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsCustomPayloadOutputReference
 ```
@@ -58084,7 +58084,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsImageResponseCardButtonsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsImageResponseCardButtonsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsImageResponseCardButtonsList
 ```
@@ -58233,7 +58233,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsImageResponseCardButtonsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsImageResponseCardButtonsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsImageResponseCardButtonsOutputReference
 ```
@@ -58522,7 +58522,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsImageResponseCardOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsImageResponseCardOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsImageResponseCardOutputReference
 ```
@@ -58815,7 +58815,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsList
 ```
@@ -58964,7 +58964,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsOutputReference
 ```
@@ -59275,7 +59275,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsPlainTextMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsPlainTextMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsPlainTextMessageOutputReference
 ```
@@ -59535,7 +59535,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsSsmlMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsSsmlMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupsListVariationsSsmlMessageOutputReference
 ```
@@ -59795,7 +59795,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationContinueResponseOutputReference
 ```
@@ -60066,7 +60066,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationOutputReference
 ```
@@ -60359,7 +60359,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessageCustomPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessageCustomPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessageCustomPayloadOutputReference
 ```
@@ -60619,7 +60619,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessageImageResponseCardButtonsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessageImageResponseCardButtonsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessageImageResponseCardButtonsList
 ```
@@ -60768,7 +60768,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessageImageResponseCardButtonsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessageImageResponseCardButtonsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessageImageResponseCardButtonsOutputReference
 ```
@@ -61057,7 +61057,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessageImageResponseCardOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessageImageResponseCardOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessageImageResponseCardOutputReference
 ```
@@ -61350,7 +61350,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessageOutputReference
 ```
@@ -61643,7 +61643,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessagePlainTextMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessagePlainTextMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessagePlainTextMessageOutputReference
 ```
@@ -61903,7 +61903,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessageSsmlMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessageSsmlMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListMessageSsmlMessageOutputReference
 ```
@@ -62163,7 +62163,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListStructList
 ```
@@ -62312,7 +62312,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListStructOutputReference
 ```
@@ -62601,7 +62601,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsCustomPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsCustomPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsCustomPayloadOutputReference
 ```
@@ -62861,7 +62861,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsImageResponseCardButtonsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsImageResponseCardButtonsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsImageResponseCardButtonsList
 ```
@@ -63010,7 +63010,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsImageResponseCardButtonsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsImageResponseCardButtonsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsImageResponseCardButtonsOutputReference
 ```
@@ -63299,7 +63299,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsImageResponseCardOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsImageResponseCardOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsImageResponseCardOutputReference
 ```
@@ -63592,7 +63592,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsList
 ```
@@ -63741,7 +63741,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsOutputReference
 ```
@@ -64052,7 +64052,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsPlainTextMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsPlainTextMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsPlainTextMessageOutputReference
 ```
@@ -64312,7 +64312,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsSsmlMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsSsmlMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseMessageGroupsListVariationsSsmlMessageOutputReference
 ```
@@ -64572,7 +64572,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponseOutputReference
 ```
@@ -64865,7 +64865,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessageCustomPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessageCustomPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessageCustomPayloadOutputReference
 ```
@@ -65125,7 +65125,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessageImageResponseCardButtonsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessageImageResponseCardButtonsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessageImageResponseCardButtonsList
 ```
@@ -65274,7 +65274,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessageImageResponseCardButtonsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessageImageResponseCardButtonsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessageImageResponseCardButtonsOutputReference
 ```
@@ -65563,7 +65563,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessageImageResponseCardOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessageImageResponseCardOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessageImageResponseCardOutputReference
 ```
@@ -65856,7 +65856,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessageOutputReference
 ```
@@ -66149,7 +66149,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessagePlainTextMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessagePlainTextMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessagePlainTextMessageOutputReference
 ```
@@ -66409,7 +66409,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessageSsmlMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessageSsmlMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListMessageSsmlMessageOutputReference
 ```
@@ -66669,7 +66669,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListStructList
 ```
@@ -66818,7 +66818,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListStructOutputReference
 ```
@@ -67107,7 +67107,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsCustomPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsCustomPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsCustomPayloadOutputReference
 ```
@@ -67367,7 +67367,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsImageResponseCardButtonsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsImageResponseCardButtonsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsImageResponseCardButtonsList
 ```
@@ -67516,7 +67516,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsImageResponseCardButtonsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsImageResponseCardButtonsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsImageResponseCardButtonsOutputReference
 ```
@@ -67805,7 +67805,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsImageResponseCardOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsImageResponseCardOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsImageResponseCardOutputReference
 ```
@@ -68098,7 +68098,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsList
 ```
@@ -68247,7 +68247,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsOutputReference
 ```
@@ -68558,7 +68558,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsPlainTextMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsPlainTextMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsPlainTextMessageOutputReference
 ```
@@ -68818,7 +68818,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsSsmlMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsSsmlMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseMessageGroupsListVariationsSsmlMessageOutputReference
 ```
@@ -69078,7 +69078,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueSpecificationWaitingResponseOutputReference
 ```
@@ -69349,7 +69349,7 @@ func InternalValue() DataAwsccLexBotBotLocalesIntentsSlotsValueElicitationSettin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLexBotBotLocalesList
 ```
@@ -69498,7 +69498,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLexBotBotLocalesOutputReference
 ```
@@ -69842,7 +69842,7 @@ func InternalValue() DataAwsccLexBotBotLocales
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesSlotTypesExternalSourceSettingGrammarSlotTypeSettingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesSlotTypesExternalSourceSettingGrammarSlotTypeSettingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesSlotTypesExternalSourceSettingGrammarSlotTypeSettingOutputReference
 ```
@@ -70102,7 +70102,7 @@ func InternalValue() DataAwsccLexBotBotLocalesSlotTypesExternalSourceSettingGram
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesSlotTypesExternalSourceSettingGrammarSlotTypeSettingSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesSlotTypesExternalSourceSettingGrammarSlotTypeSettingSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesSlotTypesExternalSourceSettingGrammarSlotTypeSettingSourceOutputReference
 ```
@@ -70384,7 +70384,7 @@ func InternalValue() DataAwsccLexBotBotLocalesSlotTypesExternalSourceSettingGram
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesSlotTypesExternalSourceSettingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesSlotTypesExternalSourceSettingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesSlotTypesExternalSourceSettingOutputReference
 ```
@@ -70644,7 +70644,7 @@ func InternalValue() DataAwsccLexBotBotLocalesSlotTypesExternalSourceSetting
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesSlotTypesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesSlotTypesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLexBotBotLocalesSlotTypesList
 ```
@@ -70793,7 +70793,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesSlotTypesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesSlotTypesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLexBotBotLocalesSlotTypesOutputReference
 ```
@@ -71126,7 +71126,7 @@ func InternalValue() DataAwsccLexBotBotLocalesSlotTypes
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesSlotTypesSlotTypeValuesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesSlotTypesSlotTypeValuesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLexBotBotLocalesSlotTypesSlotTypeValuesList
 ```
@@ -71275,7 +71275,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesSlotTypesSlotTypeValuesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesSlotTypesSlotTypeValuesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLexBotBotLocalesSlotTypesSlotTypeValuesOutputReference
 ```
@@ -71564,7 +71564,7 @@ func InternalValue() DataAwsccLexBotBotLocalesSlotTypesSlotTypeValues
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesSlotTypesSlotTypeValuesSampleValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesSlotTypesSlotTypeValuesSampleValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesSlotTypesSlotTypeValuesSampleValueOutputReference
 ```
@@ -71824,7 +71824,7 @@ func InternalValue() DataAwsccLexBotBotLocalesSlotTypesSlotTypeValuesSampleValue
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesSlotTypesSlotTypeValuesSynonymsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesSlotTypesSlotTypeValuesSynonymsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLexBotBotLocalesSlotTypesSlotTypeValuesSynonymsList
 ```
@@ -71973,7 +71973,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesSlotTypesSlotTypeValuesSynonymsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesSlotTypesSlotTypeValuesSynonymsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLexBotBotLocalesSlotTypesSlotTypeValuesSynonymsOutputReference
 ```
@@ -72251,7 +72251,7 @@ func InternalValue() DataAwsccLexBotBotLocalesSlotTypesSlotTypeValuesSynonyms
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesSlotTypesValueSelectionSettingAdvancedRecognitionSettingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesSlotTypesValueSelectionSettingAdvancedRecognitionSettingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesSlotTypesValueSelectionSettingAdvancedRecognitionSettingOutputReference
 ```
@@ -72511,7 +72511,7 @@ func InternalValue() DataAwsccLexBotBotLocalesSlotTypesValueSelectionSettingAdva
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesSlotTypesValueSelectionSettingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesSlotTypesValueSelectionSettingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesSlotTypesValueSelectionSettingOutputReference
 ```
@@ -72793,7 +72793,7 @@ func InternalValue() DataAwsccLexBotBotLocalesSlotTypesValueSelectionSetting
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesSlotTypesValueSelectionSettingRegexFilterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesSlotTypesValueSelectionSettingRegexFilterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesSlotTypesValueSelectionSettingRegexFilterOutputReference
 ```
@@ -73053,7 +73053,7 @@ func InternalValue() DataAwsccLexBotBotLocalesSlotTypesValueSelectionSettingRege
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotLocalesVoiceSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotLocalesVoiceSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotBotLocalesVoiceSettingsOutputReference
 ```
@@ -73324,7 +73324,7 @@ func InternalValue() DataAwsccLexBotBotLocalesVoiceSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLexBotBotTagsList
 ```
@@ -73473,7 +73473,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotBotTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotBotTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLexBotBotTagsOutputReference
 ```
@@ -73762,7 +73762,7 @@ func InternalValue() DataAwsccLexBotBotTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotDataPrivacyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotDataPrivacyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotDataPrivacyOutputReference
 ```
@@ -74022,7 +74022,7 @@ func InternalValue() DataAwsccLexBotDataPrivacy
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotTestBotAliasSettingsBotAliasLocaleSettingsBotAliasLocaleSettingCodeHookSpecificationLambdaCodeHookOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotTestBotAliasSettingsBotAliasLocaleSettingsBotAliasLocaleSettingCodeHookSpecificationLambdaCodeHookOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotTestBotAliasSettingsBotAliasLocaleSettingsBotAliasLocaleSettingCodeHookSpecificationLambdaCodeHookOutputReference
 ```
@@ -74293,7 +74293,7 @@ func InternalValue() DataAwsccLexBotTestBotAliasSettingsBotAliasLocaleSettingsBo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotTestBotAliasSettingsBotAliasLocaleSettingsBotAliasLocaleSettingCodeHookSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotTestBotAliasSettingsBotAliasLocaleSettingsBotAliasLocaleSettingCodeHookSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotTestBotAliasSettingsBotAliasLocaleSettingsBotAliasLocaleSettingCodeHookSpecificationOutputReference
 ```
@@ -74553,7 +74553,7 @@ func InternalValue() DataAwsccLexBotTestBotAliasSettingsBotAliasLocaleSettingsBo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotTestBotAliasSettingsBotAliasLocaleSettingsBotAliasLocaleSettingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotTestBotAliasSettingsBotAliasLocaleSettingsBotAliasLocaleSettingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotTestBotAliasSettingsBotAliasLocaleSettingsBotAliasLocaleSettingOutputReference
 ```
@@ -74824,7 +74824,7 @@ func InternalValue() DataAwsccLexBotTestBotAliasSettingsBotAliasLocaleSettingsBo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotTestBotAliasSettingsBotAliasLocaleSettingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotTestBotAliasSettingsBotAliasLocaleSettingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLexBotTestBotAliasSettingsBotAliasLocaleSettingsList
 ```
@@ -74973,7 +74973,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotTestBotAliasSettingsBotAliasLocaleSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotTestBotAliasSettingsBotAliasLocaleSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLexBotTestBotAliasSettingsBotAliasLocaleSettingsOutputReference
 ```
@@ -75262,7 +75262,7 @@ func InternalValue() DataAwsccLexBotTestBotAliasSettingsBotAliasLocaleSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotTestBotAliasSettingsConversationLogSettingsAudioLogSettingsDestinationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotTestBotAliasSettingsConversationLogSettingsAudioLogSettingsDestinationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotTestBotAliasSettingsConversationLogSettingsAudioLogSettingsDestinationOutputReference
 ```
@@ -75522,7 +75522,7 @@ func InternalValue() DataAwsccLexBotTestBotAliasSettingsConversationLogSettingsA
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotTestBotAliasSettingsConversationLogSettingsAudioLogSettingsDestinationS3BucketOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotTestBotAliasSettingsConversationLogSettingsAudioLogSettingsDestinationS3BucketOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotTestBotAliasSettingsConversationLogSettingsAudioLogSettingsDestinationS3BucketOutputReference
 ```
@@ -75804,7 +75804,7 @@ func InternalValue() DataAwsccLexBotTestBotAliasSettingsConversationLogSettingsA
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotTestBotAliasSettingsConversationLogSettingsAudioLogSettingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotTestBotAliasSettingsConversationLogSettingsAudioLogSettingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLexBotTestBotAliasSettingsConversationLogSettingsAudioLogSettingsList
 ```
@@ -75953,7 +75953,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotTestBotAliasSettingsConversationLogSettingsAudioLogSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotTestBotAliasSettingsConversationLogSettingsAudioLogSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLexBotTestBotAliasSettingsConversationLogSettingsAudioLogSettingsOutputReference
 ```
@@ -76242,7 +76242,7 @@ func InternalValue() DataAwsccLexBotTestBotAliasSettingsConversationLogSettingsA
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotTestBotAliasSettingsConversationLogSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotTestBotAliasSettingsConversationLogSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotTestBotAliasSettingsConversationLogSettingsOutputReference
 ```
@@ -76513,7 +76513,7 @@ func InternalValue() DataAwsccLexBotTestBotAliasSettingsConversationLogSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsDestinationCloudwatchOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsDestinationCloudwatchOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsDestinationCloudwatchOutputReference
 ```
@@ -76784,7 +76784,7 @@ func InternalValue() DataAwsccLexBotTestBotAliasSettingsConversationLogSettingsT
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsDestinationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsDestinationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsDestinationOutputReference
 ```
@@ -77044,7 +77044,7 @@ func InternalValue() DataAwsccLexBotTestBotAliasSettingsConversationLogSettingsT
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsList
 ```
@@ -77193,7 +77193,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsOutputReference
 ```
@@ -77482,7 +77482,7 @@ func InternalValue() DataAwsccLexBotTestBotAliasSettingsConversationLogSettingsT
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotTestBotAliasSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotTestBotAliasSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotTestBotAliasSettingsOutputReference
 ```
@@ -77775,7 +77775,7 @@ func InternalValue() DataAwsccLexBotTestBotAliasSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotTestBotAliasSettingsSentimentAnalysisSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotTestBotAliasSettingsSentimentAnalysisSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotTestBotAliasSettingsSentimentAnalysisSettingsOutputReference
 ```
@@ -78035,7 +78035,7 @@ func InternalValue() DataAwsccLexBotTestBotAliasSettingsSentimentAnalysisSetting
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotTestBotAliasTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotTestBotAliasTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLexBotTestBotAliasTagsList
 ```
@@ -78184,7 +78184,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBot.DataAwsccLexBotTestBotAliasTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbot"
 
 dataawscclexbot.NewDataAwsccLexBotTestBotAliasTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLexBotTestBotAliasTagsOutputReference
 ```

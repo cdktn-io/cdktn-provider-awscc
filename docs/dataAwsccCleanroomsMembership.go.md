@@ -4,12 +4,12 @@
 
 ### DataAwsccCleanroomsMembership <a name="DataAwsccCleanroomsMembership" id="@cdktn/provider-awscc.dataAwsccCleanroomsMembership.DataAwsccCleanroomsMembership"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cleanrooms_membership awscc_cleanrooms_membership}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cleanrooms_membership awscc_cleanrooms_membership}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsMembership.DataAwsccCleanroomsMembership.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsmembership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsmembership"
 
 dataawscccleanroomsmembership.NewDataAwsccCleanroomsMembership(scope Construct, id *string, config DataAwsccCleanroomsMembershipConfig) DataAwsccCleanroomsMembership
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCleanroomsMembership.DataAwsccCleanroomsMembership.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsmembership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsmembership"
 
 dataawscccleanroomsmembership.DataAwsccCleanroomsMembership_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCleanroomsMembership.DataAwsccCleanroomsMembership.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsmembership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsmembership"
 
 dataawscccleanroomsmembership.DataAwsccCleanroomsMembership_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccleanroomsmembership.DataAwsccCleanroomsMembership_IsTerraformElement(x
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCleanroomsMembership.DataAwsccCleanroomsMembership.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsmembership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsmembership"
 
 dataawscccleanroomsmembership.DataAwsccCleanroomsMembership_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccleanroomsmembership.DataAwsccCleanroomsMembership_IsTerraformDataSourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCleanroomsMembership.DataAwsccCleanroomsMembership.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsmembership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsmembership"
 
 dataawscccleanroomsmembership.DataAwsccCleanroomsMembership_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCleanroomsMembers
 
 The id of the existing DataAwsccCleanroomsMembership that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cleanrooms_membership#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cleanrooms_membership#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -719,7 +719,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCleanroomsMembership.DataAwsccCleanroomsMembershipConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsmembership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsmembership"
 
 &dataawscccleanroomsmembership.DataAwsccCleanroomsMembershipConfig {
 	Connection: interface{},
@@ -828,7 +828,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cleanrooms_membership#id DataAwsccCleanroomsMembership#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cleanrooms_membership#id DataAwsccCleanroomsMembership#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -840,7 +840,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCleanroomsMembership.DataAwsccCleanroomsMembershipDefaultJobResultConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsmembership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsmembership"
 
 &dataawscccleanroomsmembership.DataAwsccCleanroomsMembershipDefaultJobResultConfiguration {
 
@@ -853,7 +853,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsmem
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCleanroomsMembership.DataAwsccCleanroomsMembershipDefaultJobResultConfigurationOutputConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsmembership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsmembership"
 
 &dataawscccleanroomsmembership.DataAwsccCleanroomsMembershipDefaultJobResultConfigurationOutputConfiguration {
 
@@ -866,7 +866,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsmem
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCleanroomsMembership.DataAwsccCleanroomsMembershipDefaultJobResultConfigurationOutputConfigurationS3.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsmembership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsmembership"
 
 &dataawscccleanroomsmembership.DataAwsccCleanroomsMembershipDefaultJobResultConfigurationOutputConfigurationS3 {
 
@@ -879,7 +879,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsmem
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCleanroomsMembership.DataAwsccCleanroomsMembershipDefaultResultConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsmembership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsmembership"
 
 &dataawscccleanroomsmembership.DataAwsccCleanroomsMembershipDefaultResultConfiguration {
 
@@ -892,7 +892,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsmem
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCleanroomsMembership.DataAwsccCleanroomsMembershipDefaultResultConfigurationOutputConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsmembership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsmembership"
 
 &dataawscccleanroomsmembership.DataAwsccCleanroomsMembershipDefaultResultConfigurationOutputConfiguration {
 
@@ -905,7 +905,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsmem
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCleanroomsMembership.DataAwsccCleanroomsMembershipDefaultResultConfigurationOutputConfigurationS3.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsmembership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsmembership"
 
 &dataawscccleanroomsmembership.DataAwsccCleanroomsMembershipDefaultResultConfigurationOutputConfigurationS3 {
 
@@ -918,7 +918,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsmem
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCleanroomsMembership.DataAwsccCleanroomsMembershipPaymentConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsmembership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsmembership"
 
 &dataawscccleanroomsmembership.DataAwsccCleanroomsMembershipPaymentConfiguration {
 
@@ -931,7 +931,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsmem
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCleanroomsMembership.DataAwsccCleanroomsMembershipPaymentConfigurationJobCompute.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsmembership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsmembership"
 
 &dataawscccleanroomsmembership.DataAwsccCleanroomsMembershipPaymentConfigurationJobCompute {
 
@@ -944,7 +944,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsmem
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCleanroomsMembership.DataAwsccCleanroomsMembershipPaymentConfigurationMachineLearning.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsmembership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsmembership"
 
 &dataawscccleanroomsmembership.DataAwsccCleanroomsMembershipPaymentConfigurationMachineLearning {
 
@@ -957,7 +957,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsmem
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCleanroomsMembership.DataAwsccCleanroomsMembershipPaymentConfigurationMachineLearningModelInference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsmembership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsmembership"
 
 &dataawscccleanroomsmembership.DataAwsccCleanroomsMembershipPaymentConfigurationMachineLearningModelInference {
 
@@ -970,7 +970,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsmem
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCleanroomsMembership.DataAwsccCleanroomsMembershipPaymentConfigurationMachineLearningModelTraining.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsmembership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsmembership"
 
 &dataawscccleanroomsmembership.DataAwsccCleanroomsMembershipPaymentConfigurationMachineLearningModelTraining {
 
@@ -983,7 +983,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsmem
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCleanroomsMembership.DataAwsccCleanroomsMembershipPaymentConfigurationMachineLearningSyntheticDataGeneration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsmembership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsmembership"
 
 &dataawscccleanroomsmembership.DataAwsccCleanroomsMembershipPaymentConfigurationMachineLearningSyntheticDataGeneration {
 
@@ -996,7 +996,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsmem
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCleanroomsMembership.DataAwsccCleanroomsMembershipPaymentConfigurationQueryCompute.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsmembership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsmembership"
 
 &dataawscccleanroomsmembership.DataAwsccCleanroomsMembershipPaymentConfigurationQueryCompute {
 
@@ -1009,7 +1009,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsmem
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCleanroomsMembership.DataAwsccCleanroomsMembershipTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsmembership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsmembership"
 
 &dataawscccleanroomsmembership.DataAwsccCleanroomsMembershipTags {
 
@@ -1024,7 +1024,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsmem
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsMembership.DataAwsccCleanroomsMembershipDefaultJobResultConfigurationOutputConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsmembership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsmembership"
 
 dataawscccleanroomsmembership.NewDataAwsccCleanroomsMembershipDefaultJobResultConfigurationOutputConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCleanroomsMembershipDefaultJobResultConfigurationOutputConfigurationOutputReference
 ```
@@ -1284,7 +1284,7 @@ func InternalValue() DataAwsccCleanroomsMembershipDefaultJobResultConfigurationO
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsMembership.DataAwsccCleanroomsMembershipDefaultJobResultConfigurationOutputConfigurationS3OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsmembership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsmembership"
 
 dataawscccleanroomsmembership.NewDataAwsccCleanroomsMembershipDefaultJobResultConfigurationOutputConfigurationS3OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCleanroomsMembershipDefaultJobResultConfigurationOutputConfigurationS3OutputReference
 ```
@@ -1555,7 +1555,7 @@ func InternalValue() DataAwsccCleanroomsMembershipDefaultJobResultConfigurationO
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsMembership.DataAwsccCleanroomsMembershipDefaultJobResultConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsmembership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsmembership"
 
 dataawscccleanroomsmembership.NewDataAwsccCleanroomsMembershipDefaultJobResultConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCleanroomsMembershipDefaultJobResultConfigurationOutputReference
 ```
@@ -1826,7 +1826,7 @@ func InternalValue() DataAwsccCleanroomsMembershipDefaultJobResultConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsMembership.DataAwsccCleanroomsMembershipDefaultResultConfigurationOutputConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsmembership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsmembership"
 
 dataawscccleanroomsmembership.NewDataAwsccCleanroomsMembershipDefaultResultConfigurationOutputConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCleanroomsMembershipDefaultResultConfigurationOutputConfigurationOutputReference
 ```
@@ -2086,7 +2086,7 @@ func InternalValue() DataAwsccCleanroomsMembershipDefaultResultConfigurationOutp
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsMembership.DataAwsccCleanroomsMembershipDefaultResultConfigurationOutputConfigurationS3OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsmembership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsmembership"
 
 dataawscccleanroomsmembership.NewDataAwsccCleanroomsMembershipDefaultResultConfigurationOutputConfigurationS3OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCleanroomsMembershipDefaultResultConfigurationOutputConfigurationS3OutputReference
 ```
@@ -2379,7 +2379,7 @@ func InternalValue() DataAwsccCleanroomsMembershipDefaultResultConfigurationOutp
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsMembership.DataAwsccCleanroomsMembershipDefaultResultConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsmembership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsmembership"
 
 dataawscccleanroomsmembership.NewDataAwsccCleanroomsMembershipDefaultResultConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCleanroomsMembershipDefaultResultConfigurationOutputReference
 ```
@@ -2650,7 +2650,7 @@ func InternalValue() DataAwsccCleanroomsMembershipDefaultResultConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsMembership.DataAwsccCleanroomsMembershipPaymentConfigurationJobComputeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsmembership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsmembership"
 
 dataawscccleanroomsmembership.NewDataAwsccCleanroomsMembershipPaymentConfigurationJobComputeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCleanroomsMembershipPaymentConfigurationJobComputeOutputReference
 ```
@@ -2910,7 +2910,7 @@ func InternalValue() DataAwsccCleanroomsMembershipPaymentConfigurationJobCompute
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsMembership.DataAwsccCleanroomsMembershipPaymentConfigurationMachineLearningModelInferenceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsmembership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsmembership"
 
 dataawscccleanroomsmembership.NewDataAwsccCleanroomsMembershipPaymentConfigurationMachineLearningModelInferenceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCleanroomsMembershipPaymentConfigurationMachineLearningModelInferenceOutputReference
 ```
@@ -3170,7 +3170,7 @@ func InternalValue() DataAwsccCleanroomsMembershipPaymentConfigurationMachineLea
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsMembership.DataAwsccCleanroomsMembershipPaymentConfigurationMachineLearningModelTrainingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsmembership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsmembership"
 
 dataawscccleanroomsmembership.NewDataAwsccCleanroomsMembershipPaymentConfigurationMachineLearningModelTrainingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCleanroomsMembershipPaymentConfigurationMachineLearningModelTrainingOutputReference
 ```
@@ -3430,7 +3430,7 @@ func InternalValue() DataAwsccCleanroomsMembershipPaymentConfigurationMachineLea
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsMembership.DataAwsccCleanroomsMembershipPaymentConfigurationMachineLearningOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsmembership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsmembership"
 
 dataawscccleanroomsmembership.NewDataAwsccCleanroomsMembershipPaymentConfigurationMachineLearningOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCleanroomsMembershipPaymentConfigurationMachineLearningOutputReference
 ```
@@ -3712,7 +3712,7 @@ func InternalValue() DataAwsccCleanroomsMembershipPaymentConfigurationMachineLea
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsMembership.DataAwsccCleanroomsMembershipPaymentConfigurationMachineLearningSyntheticDataGenerationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsmembership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsmembership"
 
 dataawscccleanroomsmembership.NewDataAwsccCleanroomsMembershipPaymentConfigurationMachineLearningSyntheticDataGenerationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCleanroomsMembershipPaymentConfigurationMachineLearningSyntheticDataGenerationOutputReference
 ```
@@ -3972,7 +3972,7 @@ func InternalValue() DataAwsccCleanroomsMembershipPaymentConfigurationMachineLea
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsMembership.DataAwsccCleanroomsMembershipPaymentConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsmembership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsmembership"
 
 dataawscccleanroomsmembership.NewDataAwsccCleanroomsMembershipPaymentConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCleanroomsMembershipPaymentConfigurationOutputReference
 ```
@@ -4254,7 +4254,7 @@ func InternalValue() DataAwsccCleanroomsMembershipPaymentConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsMembership.DataAwsccCleanroomsMembershipPaymentConfigurationQueryComputeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsmembership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsmembership"
 
 dataawscccleanroomsmembership.NewDataAwsccCleanroomsMembershipPaymentConfigurationQueryComputeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCleanroomsMembershipPaymentConfigurationQueryComputeOutputReference
 ```
@@ -4514,7 +4514,7 @@ func InternalValue() DataAwsccCleanroomsMembershipPaymentConfigurationQueryCompu
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsMembership.DataAwsccCleanroomsMembershipTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsmembership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsmembership"
 
 dataawscccleanroomsmembership.NewDataAwsccCleanroomsMembershipTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCleanroomsMembershipTagsList
 ```
@@ -4663,7 +4663,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsMembership.DataAwsccCleanroomsMembershipTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsmembership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsmembership"
 
 dataawscccleanroomsmembership.NewDataAwsccCleanroomsMembershipTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCleanroomsMembershipTagsOutputReference
 ```

@@ -4,7 +4,7 @@
 
 ### DataAwsccLicensemanagerusersubscriptionsLicenseServerEndpoints <a name="DataAwsccLicensemanagerusersubscriptionsLicenseServerEndpoints" id="@cdktn/provider-awscc.dataAwsccLicensemanagerusersubscriptionsLicenseServerEndpoints.DataAwsccLicensemanagerusersubscriptionsLicenseServerEndpoints"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/licensemanagerusersubscriptions_license_server_endpoints awscc_licensemanagerusersubscriptions_license_server_endpoints}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/licensemanagerusersubscriptions_license_server_endpoints awscc_licensemanagerusersubscriptions_license_server_endpoints}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLicensemanagerusersubscriptionsLicenseServerEndpoints.DataAwsccLicensemanagerusersubscriptionsLicenseServerEndpoints.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccLicensemanageruse
 
 The id of the existing DataAwsccLicensemanagerusersubscriptionsLicenseServerEndpoints that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/licensemanagerusersubscriptions_license_server_endpoints#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/licensemanagerusersubscriptions_license_server_endpoints#import import section} in the documentation of this resource for the id to use
 
 ---
 

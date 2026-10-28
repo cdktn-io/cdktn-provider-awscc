@@ -4,12 +4,12 @@
 
 ### DataAwsccSsoPermissionSet <a name="DataAwsccSsoPermissionSet" id="@cdktn/provider-awscc.dataAwsccSsoPermissionSet.DataAwsccSsoPermissionSet"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sso_permission_set awscc_sso_permission_set}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sso_permission_set awscc_sso_permission_set}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsoPermissionSet.DataAwsccSsoPermissionSet.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssopermissionset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssopermissionset"
 
 dataawsccssopermissionset.NewDataAwsccSsoPermissionSet(scope Construct, id *string, config DataAwsccSsoPermissionSetConfig) DataAwsccSsoPermissionSet
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSsoPermissionSet.DataAwsccSsoPermissionSet.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssopermissionset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssopermissionset"
 
 dataawsccssopermissionset.DataAwsccSsoPermissionSet_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSsoPermissionSet.DataAwsccSsoPermissionSet.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssopermissionset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssopermissionset"
 
 dataawsccssopermissionset.DataAwsccSsoPermissionSet_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccssopermissionset.DataAwsccSsoPermissionSet_IsTerraformElement(x interfa
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSsoPermissionSet.DataAwsccSsoPermissionSet.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssopermissionset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssopermissionset"
 
 dataawsccssopermissionset.DataAwsccSsoPermissionSet_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccssopermissionset.DataAwsccSsoPermissionSet_IsTerraformDataSource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSsoPermissionSet.DataAwsccSsoPermissionSet.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssopermissionset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssopermissionset"
 
 dataawsccssopermissionset.DataAwsccSsoPermissionSet_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSsoPermissionSet 
 
 The id of the existing DataAwsccSsoPermissionSet that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sso_permission_set#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sso_permission_set#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -708,7 +708,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSsoPermissionSet.DataAwsccSsoPermissionSetConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssopermissionset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssopermissionset"
 
 &dataawsccssopermissionset.DataAwsccSsoPermissionSetConfig {
 	Connection: interface{},
@@ -817,7 +817,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sso_permission_set#id DataAwsccSsoPermissionSet#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sso_permission_set#id DataAwsccSsoPermissionSet#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -829,7 +829,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSsoPermissionSet.DataAwsccSsoPermissionSetCustomerManagedPolicyReferences.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssopermissionset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssopermissionset"
 
 &dataawsccssopermissionset.DataAwsccSsoPermissionSetCustomerManagedPolicyReferences {
 
@@ -842,7 +842,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssopermission
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSsoPermissionSet.DataAwsccSsoPermissionSetPermissionsBoundary.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssopermissionset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssopermissionset"
 
 &dataawsccssopermissionset.DataAwsccSsoPermissionSetPermissionsBoundary {
 
@@ -855,7 +855,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssopermission
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSsoPermissionSet.DataAwsccSsoPermissionSetPermissionsBoundaryCustomerManagedPolicyReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssopermissionset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssopermissionset"
 
 &dataawsccssopermissionset.DataAwsccSsoPermissionSetPermissionsBoundaryCustomerManagedPolicyReference {
 
@@ -868,7 +868,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssopermission
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSsoPermissionSet.DataAwsccSsoPermissionSetTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssopermissionset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssopermissionset"
 
 &dataawsccssopermissionset.DataAwsccSsoPermissionSetTags {
 
@@ -883,7 +883,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssopermission
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsoPermissionSet.DataAwsccSsoPermissionSetCustomerManagedPolicyReferencesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssopermissionset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssopermissionset"
 
 dataawsccssopermissionset.NewDataAwsccSsoPermissionSetCustomerManagedPolicyReferencesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSsoPermissionSetCustomerManagedPolicyReferencesList
 ```
@@ -1032,7 +1032,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsoPermissionSet.DataAwsccSsoPermissionSetCustomerManagedPolicyReferencesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssopermissionset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssopermissionset"
 
 dataawsccssopermissionset.NewDataAwsccSsoPermissionSetCustomerManagedPolicyReferencesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSsoPermissionSetCustomerManagedPolicyReferencesOutputReference
 ```
@@ -1321,7 +1321,7 @@ func InternalValue() DataAwsccSsoPermissionSetCustomerManagedPolicyReferences
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsoPermissionSet.DataAwsccSsoPermissionSetPermissionsBoundaryCustomerManagedPolicyReferenceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssopermissionset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssopermissionset"
 
 dataawsccssopermissionset.NewDataAwsccSsoPermissionSetPermissionsBoundaryCustomerManagedPolicyReferenceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSsoPermissionSetPermissionsBoundaryCustomerManagedPolicyReferenceOutputReference
 ```
@@ -1592,7 +1592,7 @@ func InternalValue() DataAwsccSsoPermissionSetPermissionsBoundaryCustomerManaged
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsoPermissionSet.DataAwsccSsoPermissionSetPermissionsBoundaryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssopermissionset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssopermissionset"
 
 dataawsccssopermissionset.NewDataAwsccSsoPermissionSetPermissionsBoundaryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSsoPermissionSetPermissionsBoundaryOutputReference
 ```
@@ -1863,7 +1863,7 @@ func InternalValue() DataAwsccSsoPermissionSetPermissionsBoundary
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsoPermissionSet.DataAwsccSsoPermissionSetTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssopermissionset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssopermissionset"
 
 dataawsccssopermissionset.NewDataAwsccSsoPermissionSetTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSsoPermissionSetTagsList
 ```
@@ -2012,7 +2012,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsoPermissionSet.DataAwsccSsoPermissionSetTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssopermissionset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssopermissionset"
 
 dataawsccssopermissionset.NewDataAwsccSsoPermissionSetTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSsoPermissionSetTagsOutputReference
 ```

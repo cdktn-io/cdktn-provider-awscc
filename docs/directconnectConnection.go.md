@@ -4,12 +4,12 @@
 
 ### DirectconnectConnection <a name="DirectconnectConnection" id="@cdktn/provider-awscc.directconnectConnection.DirectconnectConnection"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/directconnect_connection awscc_directconnect_connection}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/directconnect_connection awscc_directconnect_connection}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.directconnectConnection.DirectconnectConnection.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/directconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/directconnectconnection"
 
 directconnectconnection.NewDirectconnectConnection(scope Construct, id *string, config DirectconnectConnectionConfig) DirectconnectConnection
 ```
@@ -441,7 +441,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.directconnectConnection.DirectconnectConnection.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/directconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/directconnectconnection"
 
 directconnectconnection.DirectconnectConnection_IsConstruct(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.directconnectConnection.DirectconnectConnection.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/directconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/directconnectconnection"
 
 directconnectconnection.DirectconnectConnection_IsTerraformElement(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ directconnectconnection.DirectconnectConnection_IsTerraformElement(x interface{}
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.directconnectConnection.DirectconnectConnection.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/directconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/directconnectconnection"
 
 directconnectconnection.DirectconnectConnection_IsTerraformResource(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ directconnectconnection.DirectconnectConnection_IsTerraformResource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.directconnectConnection.DirectconnectConnection.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/directconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/directconnectconnection"
 
 directconnectconnection.DirectconnectConnection_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -530,7 +530,7 @@ The construct id used in the generated config for the DirectconnectConnection to
 
 The id of the existing DirectconnectConnection that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/directconnect_connection#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/directconnect_connection#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -928,7 +928,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.directconnectConnection.DirectconnectConnectionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/directconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/directconnectconnection"
 
 &directconnectconnection.DirectconnectConnectionConfig {
 	Connection: interface{},
@@ -1049,7 +1049,7 @@ Bandwidth *string
 
 The bandwidth of the connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/directconnect_connection#bandwidth DirectconnectConnection#bandwidth}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/directconnect_connection#bandwidth DirectconnectConnection#bandwidth}
 
 ---
 
@@ -1063,7 +1063,7 @@ ConnectionName *string
 
 The name of the connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/directconnect_connection#connection_name DirectconnectConnection#connection_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/directconnect_connection#connection_name DirectconnectConnection#connection_name}
 
 ---
 
@@ -1077,7 +1077,7 @@ Location *string
 
 The location of the connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/directconnect_connection#location DirectconnectConnection#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/directconnect_connection#location DirectconnectConnection#location}
 
 ---
 
@@ -1091,7 +1091,7 @@ LagId *string
 
 The ID or ARN of the LAG to associate the connection with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/directconnect_connection#lag_id DirectconnectConnection#lag_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/directconnect_connection#lag_id DirectconnectConnection#lag_id}
 
 ---
 
@@ -1105,7 +1105,7 @@ ProviderName *string
 
 The name of the service provider associated with the requested connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/directconnect_connection#provider_name DirectconnectConnection#provider_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/directconnect_connection#provider_name DirectconnectConnection#provider_name}
 
 ---
 
@@ -1119,7 +1119,7 @@ RequestMacSec interface{}
 
 Indicates whether you want the connection to support MAC Security (MACsec).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/directconnect_connection#request_mac_sec DirectconnectConnection#request_mac_sec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/directconnect_connection#request_mac_sec DirectconnectConnection#request_mac_sec}
 
 ---
 
@@ -1133,7 +1133,7 @@ Tags interface{}
 
 The tags associated with the connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/directconnect_connection#tags DirectconnectConnection#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/directconnect_connection#tags DirectconnectConnection#tags}
 
 ---
 
@@ -1142,7 +1142,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.directconnectConnection.DirectconnectConnectionTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/directconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/directconnectconnection"
 
 &directconnectconnection.DirectconnectConnectionTags {
 	Key: *string,
@@ -1171,7 +1171,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/directconnect_connection#key DirectconnectConnection#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/directconnect_connection#key DirectconnectConnection#key}
 
 ---
 
@@ -1187,7 +1187,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/directconnect_connection#value DirectconnectConnection#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/directconnect_connection#value DirectconnectConnection#value}
 
 ---
 
@@ -1198,7 +1198,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.directconnectConnection.DirectconnectConnectionTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/directconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/directconnectconnection"
 
 directconnectconnection.NewDirectconnectConnectionTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DirectconnectConnectionTagsList
 ```
@@ -1358,7 +1358,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.directconnectConnection.DirectconnectConnectionTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/directconnectconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/directconnectconnection"
 
 directconnectconnection.NewDirectconnectConnectionTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DirectconnectConnectionTagsOutputReference
 ```

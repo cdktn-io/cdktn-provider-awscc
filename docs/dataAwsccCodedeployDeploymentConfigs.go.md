@@ -4,12 +4,12 @@
 
 ### DataAwsccCodedeployDeploymentConfigs <a name="DataAwsccCodedeployDeploymentConfigs" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentConfigs.DataAwsccCodedeployDeploymentConfigs"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/codedeploy_deployment_configs awscc_codedeploy_deployment_configs}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/codedeploy_deployment_configs awscc_codedeploy_deployment_configs}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentConfigs.DataAwsccCodedeployDeploymentConfigs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentconfigs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentconfigs"
 
 dataawscccodedeploydeploymentconfigs.NewDataAwsccCodedeployDeploymentConfigs(scope Construct, id *string, config DataAwsccCodedeployDeploymentConfigsConfig) DataAwsccCodedeployDeploymentConfigs
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentConfigs.DataAwsccCodedeployDeploymentConfigs.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentconfigs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentconfigs"
 
 dataawscccodedeploydeploymentconfigs.DataAwsccCodedeployDeploymentConfigs_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentConfigs.DataAwsccCodedeployDeploymentConfigs.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentconfigs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentconfigs"
 
 dataawscccodedeploydeploymentconfigs.DataAwsccCodedeployDeploymentConfigs_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccodedeploydeploymentconfigs.DataAwsccCodedeployDeploymentConfigs_IsTerr
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentConfigs.DataAwsccCodedeployDeploymentConfigs.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentconfigs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentconfigs"
 
 dataawscccodedeploydeploymentconfigs.DataAwsccCodedeployDeploymentConfigs_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccodedeploydeploymentconfigs.DataAwsccCodedeployDeploymentConfigs_IsTerr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentConfigs.DataAwsccCodedeployDeploymentConfigs.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentconfigs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentconfigs"
 
 dataawscccodedeploydeploymentconfigs.DataAwsccCodedeployDeploymentConfigs_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCodedeployDeploym
 
 The id of the existing DataAwsccCodedeployDeploymentConfigs that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/codedeploy_deployment_configs#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/codedeploy_deployment_configs#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentConfigs.DataAwsccCodedeployDeploymentConfigsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentconfigs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentconfigs"
 
 &dataawscccodedeploydeploymentconfigs.DataAwsccCodedeployDeploymentConfigsConfig {
 	Connection: interface{},

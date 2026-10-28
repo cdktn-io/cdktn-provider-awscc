@@ -4,12 +4,12 @@
 
 ### DataAwsccApprunnerObservabilityConfigurations <a name="DataAwsccApprunnerObservabilityConfigurations" id="@cdktn/provider-awscc.dataAwsccApprunnerObservabilityConfigurations.DataAwsccApprunnerObservabilityConfigurations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apprunner_observability_configurations awscc_apprunner_observability_configurations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apprunner_observability_configurations awscc_apprunner_observability_configurations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApprunnerObservabilityConfigurations.DataAwsccApprunnerObservabilityConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerobservabilityconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerobservabilityconfigurations"
 
 dataawsccapprunnerobservabilityconfigurations.NewDataAwsccApprunnerObservabilityConfigurations(scope Construct, id *string, config DataAwsccApprunnerObservabilityConfigurationsConfig) DataAwsccApprunnerObservabilityConfigurations
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccApprunnerObservabilityConfigurations.DataAwsccApprunnerObservabilityConfigurations.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerobservabilityconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerobservabilityconfigurations"
 
 dataawsccapprunnerobservabilityconfigurations.DataAwsccApprunnerObservabilityConfigurations_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccApprunnerObservabilityConfigurations.DataAwsccApprunnerObservabilityConfigurations.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerobservabilityconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerobservabilityconfigurations"
 
 dataawsccapprunnerobservabilityconfigurations.DataAwsccApprunnerObservabilityConfigurations_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccapprunnerobservabilityconfigurations.DataAwsccApprunnerObservabilityCon
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccApprunnerObservabilityConfigurations.DataAwsccApprunnerObservabilityConfigurations.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerobservabilityconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerobservabilityconfigurations"
 
 dataawsccapprunnerobservabilityconfigurations.DataAwsccApprunnerObservabilityConfigurations_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccapprunnerobservabilityconfigurations.DataAwsccApprunnerObservabilityCon
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccApprunnerObservabilityConfigurations.DataAwsccApprunnerObservabilityConfigurations.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerobservabilityconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerobservabilityconfigurations"
 
 dataawsccapprunnerobservabilityconfigurations.DataAwsccApprunnerObservabilityConfigurations_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccApprunnerObservab
 
 The id of the existing DataAwsccApprunnerObservabilityConfigurations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apprunner_observability_configurations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apprunner_observability_configurations#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApprunnerObservabilityConfigurations.DataAwsccApprunnerObservabilityConfigurationsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerobservabilityconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerobservabilityconfigurations"
 
 &dataawsccapprunnerobservabilityconfigurations.DataAwsccApprunnerObservabilityConfigurationsConfig {
 	Connection: interface{},

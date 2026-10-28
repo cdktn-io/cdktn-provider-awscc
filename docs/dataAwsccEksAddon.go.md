@@ -4,12 +4,12 @@
 
 ### DataAwsccEksAddon <a name="DataAwsccEksAddon" id="@cdktn/provider-awscc.dataAwsccEksAddon.DataAwsccEksAddon"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/eks_addon awscc_eks_addon}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/eks_addon awscc_eks_addon}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEksAddon.DataAwsccEksAddon.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceksaddon"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceksaddon"
 
 dataawscceksaddon.NewDataAwsccEksAddon(scope Construct, id *string, config DataAwsccEksAddonConfig) DataAwsccEksAddon
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEksAddon.DataAwsccEksAddon.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceksaddon"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceksaddon"
 
 dataawscceksaddon.DataAwsccEksAddon_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEksAddon.DataAwsccEksAddon.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceksaddon"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceksaddon"
 
 dataawscceksaddon.DataAwsccEksAddon_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscceksaddon.DataAwsccEksAddon_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEksAddon.DataAwsccEksAddon.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceksaddon"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceksaddon"
 
 dataawscceksaddon.DataAwsccEksAddon_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscceksaddon.DataAwsccEksAddon_IsTerraformDataSource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEksAddon.DataAwsccEksAddon.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceksaddon"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceksaddon"
 
 dataawscceksaddon.DataAwsccEksAddon_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEksAddon to impor
 
 The id of the existing DataAwsccEksAddon that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/eks_addon#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/eks_addon#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -708,7 +708,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEksAddon.DataAwsccEksAddonConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceksaddon"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceksaddon"
 
 &dataawscceksaddon.DataAwsccEksAddonConfig {
 	Connection: interface{},
@@ -817,7 +817,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/eks_addon#id DataAwsccEksAddon#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/eks_addon#id DataAwsccEksAddon#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -829,7 +829,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEksAddon.DataAwsccEksAddonNamespaceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceksaddon"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceksaddon"
 
 &dataawscceksaddon.DataAwsccEksAddonNamespaceConfig {
 
@@ -842,7 +842,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceksaddon"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEksAddon.DataAwsccEksAddonPodIdentityAssociations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceksaddon"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceksaddon"
 
 &dataawscceksaddon.DataAwsccEksAddonPodIdentityAssociations {
 
@@ -855,7 +855,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceksaddon"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEksAddon.DataAwsccEksAddonTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceksaddon"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceksaddon"
 
 &dataawscceksaddon.DataAwsccEksAddonTags {
 
@@ -870,7 +870,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceksaddon"
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEksAddon.DataAwsccEksAddonNamespaceConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceksaddon"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceksaddon"
 
 dataawscceksaddon.NewDataAwsccEksAddonNamespaceConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEksAddonNamespaceConfigOutputReference
 ```
@@ -1130,7 +1130,7 @@ func InternalValue() DataAwsccEksAddonNamespaceConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEksAddon.DataAwsccEksAddonPodIdentityAssociationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceksaddon"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceksaddon"
 
 dataawscceksaddon.NewDataAwsccEksAddonPodIdentityAssociationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEksAddonPodIdentityAssociationsList
 ```
@@ -1279,7 +1279,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEksAddon.DataAwsccEksAddonPodIdentityAssociationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceksaddon"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceksaddon"
 
 dataawscceksaddon.NewDataAwsccEksAddonPodIdentityAssociationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEksAddonPodIdentityAssociationsOutputReference
 ```
@@ -1568,7 +1568,7 @@ func InternalValue() DataAwsccEksAddonPodIdentityAssociations
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEksAddon.DataAwsccEksAddonTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceksaddon"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceksaddon"
 
 dataawscceksaddon.NewDataAwsccEksAddonTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEksAddonTagsList
 ```
@@ -1717,7 +1717,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEksAddon.DataAwsccEksAddonTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceksaddon"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceksaddon"
 
 dataawscceksaddon.NewDataAwsccEksAddonTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEksAddonTagsOutputReference
 ```

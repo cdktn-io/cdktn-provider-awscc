@@ -4,12 +4,12 @@
 
 ### DataAwsccRobomakerSimulationApplications <a name="DataAwsccRobomakerSimulationApplications" id="@cdktn/provider-awscc.dataAwsccRobomakerSimulationApplications.DataAwsccRobomakerSimulationApplications"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/robomaker_simulation_applications awscc_robomaker_simulation_applications}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/robomaker_simulation_applications awscc_robomaker_simulation_applications}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRobomakerSimulationApplications.DataAwsccRobomakerSimulationApplications.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrobomakersimulationapplications"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrobomakersimulationapplications"
 
 dataawsccrobomakersimulationapplications.NewDataAwsccRobomakerSimulationApplications(scope Construct, id *string, config DataAwsccRobomakerSimulationApplicationsConfig) DataAwsccRobomakerSimulationApplications
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccRobomakerSimulationApplications.DataAwsccRobomakerSimulationApplications.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrobomakersimulationapplications"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrobomakersimulationapplications"
 
 dataawsccrobomakersimulationapplications.DataAwsccRobomakerSimulationApplications_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccRobomakerSimulationApplications.DataAwsccRobomakerSimulationApplications.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrobomakersimulationapplications"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrobomakersimulationapplications"
 
 dataawsccrobomakersimulationapplications.DataAwsccRobomakerSimulationApplications_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccrobomakersimulationapplications.DataAwsccRobomakerSimulationApplication
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccRobomakerSimulationApplications.DataAwsccRobomakerSimulationApplications.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrobomakersimulationapplications"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrobomakersimulationapplications"
 
 dataawsccrobomakersimulationapplications.DataAwsccRobomakerSimulationApplications_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccrobomakersimulationapplications.DataAwsccRobomakerSimulationApplication
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccRobomakerSimulationApplications.DataAwsccRobomakerSimulationApplications.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrobomakersimulationapplications"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrobomakersimulationapplications"
 
 dataawsccrobomakersimulationapplications.DataAwsccRobomakerSimulationApplications_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRobomakerSimulati
 
 The id of the existing DataAwsccRobomakerSimulationApplications that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/robomaker_simulation_applications#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/robomaker_simulation_applications#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRobomakerSimulationApplications.DataAwsccRobomakerSimulationApplicationsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrobomakersimulationapplications"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrobomakersimulationapplications"
 
 &dataawsccrobomakersimulationapplications.DataAwsccRobomakerSimulationApplicationsConfig {
 	Connection: interface{},

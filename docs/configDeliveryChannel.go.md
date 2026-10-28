@@ -4,12 +4,12 @@
 
 ### ConfigDeliveryChannel <a name="ConfigDeliveryChannel" id="@cdktn/provider-awscc.configDeliveryChannel.ConfigDeliveryChannel"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/config_delivery_channel awscc_config_delivery_channel}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/config_delivery_channel awscc_config_delivery_channel}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.configDeliveryChannel.ConfigDeliveryChannel.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/configdeliverychannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/configdeliverychannel"
 
 configdeliverychannel.NewConfigDeliveryChannel(scope Construct, id *string, config ConfigDeliveryChannelConfig) ConfigDeliveryChannel
 ```
@@ -448,7 +448,7 @@ func ResetSnsTopicArn()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.configDeliveryChannel.ConfigDeliveryChannel.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/configdeliverychannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/configdeliverychannel"
 
 configdeliverychannel.ConfigDeliveryChannel_IsConstruct(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.configDeliveryChannel.ConfigDeliveryChannel.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/configdeliverychannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/configdeliverychannel"
 
 configdeliverychannel.ConfigDeliveryChannel_IsTerraformElement(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ configdeliverychannel.ConfigDeliveryChannel_IsTerraformElement(x interface{}) *b
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.configDeliveryChannel.ConfigDeliveryChannel.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/configdeliverychannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/configdeliverychannel"
 
 configdeliverychannel.ConfigDeliveryChannel_IsTerraformResource(x interface{}) *bool
 ```
@@ -508,7 +508,7 @@ configdeliverychannel.ConfigDeliveryChannel_IsTerraformResource(x interface{}) *
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.configDeliveryChannel.ConfigDeliveryChannel.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/configdeliverychannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/configdeliverychannel"
 
 configdeliverychannel.ConfigDeliveryChannel_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -537,7 +537,7 @@ The construct id used in the generated config for the ConfigDeliveryChannel to i
 
 The id of the existing ConfigDeliveryChannel that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/config_delivery_channel#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/config_delivery_channel#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -880,7 +880,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.configDeliveryChannel.ConfigDeliveryChannelConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/configdeliverychannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/configdeliverychannel"
 
 &configdeliverychannel.ConfigDeliveryChannelConfig {
 	Connection: interface{},
@@ -891,7 +891,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/configdeliverychannel"
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	S3BucketName: *string,
-	ConfigSnapshotDeliveryProperties: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.configDeliveryChannel.ConfigDeliveryChannelConfigSnapshotDeliveryProperties,
+	ConfigSnapshotDeliveryProperties: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.configDeliveryChannel.ConfigDeliveryChannelConfigSnapshotDeliveryProperties,
 	Name: *string,
 	S3KeyPrefix: *string,
 	S3KmsKeyArn: *string,
@@ -999,7 +999,7 @@ S3BucketName *string
 
 The name of the Amazon S3 bucket to which AWS Config delivers configuration snapshots and configuration history files.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/config_delivery_channel#s3_bucket_name ConfigDeliveryChannel#s3_bucket_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/config_delivery_channel#s3_bucket_name ConfigDeliveryChannel#s3_bucket_name}
 
 ---
 
@@ -1013,7 +1013,7 @@ ConfigSnapshotDeliveryProperties ConfigDeliveryChannelConfigSnapshotDeliveryProp
 
 The options for how often AWS Config delivers configuration snapshots to the Amazon S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/config_delivery_channel#config_snapshot_delivery_properties ConfigDeliveryChannel#config_snapshot_delivery_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/config_delivery_channel#config_snapshot_delivery_properties ConfigDeliveryChannel#config_snapshot_delivery_properties}
 
 ---
 
@@ -1029,7 +1029,7 @@ The name of the delivery channel.
 
 By default, AWS Config assigns the name "default" when creating the delivery channel. To change the delivery channel name, you must use the DeleteDeliveryChannel action to delete your current delivery channel, and then you must use the PutDeliveryChannel command to create a delivery channel that has the desired name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/config_delivery_channel#name ConfigDeliveryChannel#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/config_delivery_channel#name ConfigDeliveryChannel#name}
 
 ---
 
@@ -1043,7 +1043,7 @@ S3KeyPrefix *string
 
 The prefix for the specified Amazon S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/config_delivery_channel#s3_key_prefix ConfigDeliveryChannel#s3_key_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/config_delivery_channel#s3_key_prefix ConfigDeliveryChannel#s3_key_prefix}
 
 ---
 
@@ -1059,7 +1059,7 @@ The Amazon Resource Name (ARN) of the AWS Key Management Service (AWS KMS ) AWS 
 
 Must belong to the same Region as the destination S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/config_delivery_channel#s3_kms_key_arn ConfigDeliveryChannel#s3_kms_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/config_delivery_channel#s3_kms_key_arn ConfigDeliveryChannel#s3_kms_key_arn}
 
 ---
 
@@ -1073,7 +1073,7 @@ SnsTopicArn *string
 
 The Amazon Resource Name (ARN) of the Amazon SNS topic to which AWS Config sends notifications about configuration changes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/config_delivery_channel#sns_topic_arn ConfigDeliveryChannel#sns_topic_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/config_delivery_channel#sns_topic_arn ConfigDeliveryChannel#sns_topic_arn}
 
 ---
 
@@ -1082,7 +1082,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.configDeliveryChannel.ConfigDeliveryChannelConfigSnapshotDeliveryProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/configdeliverychannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/configdeliverychannel"
 
 &configdeliverychannel.ConfigDeliveryChannelConfigSnapshotDeliveryProperties {
 	DeliveryFrequency: *string,
@@ -1107,7 +1107,7 @@ DeliveryFrequency *string
 
 The frequency with which AWS Config delivers configuration snapshots.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/config_delivery_channel#delivery_frequency ConfigDeliveryChannel#delivery_frequency}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/config_delivery_channel#delivery_frequency ConfigDeliveryChannel#delivery_frequency}
 
 ---
 
@@ -1118,7 +1118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.configDeliveryChannel.ConfigDeliveryChannelConfigSnapshotDeliveryPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/configdeliverychannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/configdeliverychannel"
 
 configdeliverychannel.NewConfigDeliveryChannelConfigSnapshotDeliveryPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ConfigDeliveryChannelConfigSnapshotDeliveryPropertiesOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### IamGroupPolicy <a name="IamGroupPolicy" id="@cdktn/provider-awscc.iamGroupPolicy.IamGroupPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iam_group_policy awscc_iam_group_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iam_group_policy awscc_iam_group_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iamGroupPolicy.IamGroupPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iamgrouppolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iamgrouppolicy"
 
 iamgrouppolicy.NewIamGroupPolicy(scope Construct, id *string, config IamGroupPolicyConfig) IamGroupPolicy
 ```
@@ -407,7 +407,7 @@ func ResetPolicyDocument()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.iamGroupPolicy.IamGroupPolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iamgrouppolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iamgrouppolicy"
 
 iamgrouppolicy.IamGroupPolicy_IsConstruct(x interface{}) *bool
 ```
@@ -439,7 +439,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.iamGroupPolicy.IamGroupPolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iamgrouppolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iamgrouppolicy"
 
 iamgrouppolicy.IamGroupPolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -453,7 +453,7 @@ iamgrouppolicy.IamGroupPolicy_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.iamGroupPolicy.IamGroupPolicy.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iamgrouppolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iamgrouppolicy"
 
 iamgrouppolicy.IamGroupPolicy_IsTerraformResource(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ iamgrouppolicy.IamGroupPolicy_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.iamGroupPolicy.IamGroupPolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iamgrouppolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iamgrouppolicy"
 
 iamgrouppolicy.IamGroupPolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -496,7 +496,7 @@ The construct id used in the generated config for the IamGroupPolicy to import.
 
 The id of the existing IamGroupPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iam_group_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iam_group_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -773,7 +773,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iamGroupPolicy.IamGroupPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iamgrouppolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iamgrouppolicy"
 
 &iamgrouppolicy.IamGroupPolicyConfig {
 	Connection: interface{},
@@ -888,7 +888,7 @@ The name of the group to associate the policy with.
 
 This parameter allows (through its [regex pattern](https://docs.aws.amazon.com/http://wikipedia.org/wiki/regex)) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iam_group_policy#group_name IamGroupPolicy#group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iam_group_policy#group_name IamGroupPolicy#group_name}
 
 ---
 
@@ -904,7 +904,7 @@ The name of the policy document.
 
 This parameter allows (through its [regex pattern](https://docs.aws.amazon.com/http://wikipedia.org/wiki/regex)) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iam_group_policy#policy_name IamGroupPolicy#policy_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iam_group_policy#policy_name IamGroupPolicy#policy_name}
 
 ---
 
@@ -925,7 +925,7 @@ The [regex pattern](https://docs.aws.amazon.com/http://wikipedia.org/wiki/regex)
 * The printable characters in the Basic Latin and Latin-1 Supplement character set (through `\u00FF`)
 * The special characters tab (`\u0009`), line feed (`\u000A`), and carriage return (`\u000D`)
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iam_group_policy#policy_document IamGroupPolicy#policy_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iam_group_policy#policy_document IamGroupPolicy#policy_document}
 
 ---
 

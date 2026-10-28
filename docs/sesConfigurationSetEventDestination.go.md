@@ -4,12 +4,12 @@
 
 ### SesConfigurationSetEventDestination <a name="SesConfigurationSetEventDestination" id="@cdktn/provider-awscc.sesConfigurationSetEventDestination.SesConfigurationSetEventDestination"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_configuration_set_event_destination awscc_ses_configuration_set_event_destination}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_configuration_set_event_destination awscc_ses_configuration_set_event_destination}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesConfigurationSetEventDestination.SesConfigurationSetEventDestination.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesconfigurationseteventdestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesconfigurationseteventdestination"
 
 sesconfigurationseteventdestination.NewSesConfigurationSetEventDestination(scope Construct, id *string, config SesConfigurationSetEventDestinationConfig) SesConfigurationSetEventDestination
 ```
@@ -413,7 +413,7 @@ func PutEventDestination(value SesConfigurationSetEventDestinationEventDestinati
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.sesConfigurationSetEventDestination.SesConfigurationSetEventDestination.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesconfigurationseteventdestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesconfigurationseteventdestination"
 
 sesconfigurationseteventdestination.SesConfigurationSetEventDestination_IsConstruct(x interface{}) *bool
 ```
@@ -445,7 +445,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.sesConfigurationSetEventDestination.SesConfigurationSetEventDestination.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesconfigurationseteventdestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesconfigurationseteventdestination"
 
 sesconfigurationseteventdestination.SesConfigurationSetEventDestination_IsTerraformElement(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ sesconfigurationseteventdestination.SesConfigurationSetEventDestination_IsTerraf
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.sesConfigurationSetEventDestination.SesConfigurationSetEventDestination.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesconfigurationseteventdestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesconfigurationseteventdestination"
 
 sesconfigurationseteventdestination.SesConfigurationSetEventDestination_IsTerraformResource(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ sesconfigurationseteventdestination.SesConfigurationSetEventDestination_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.sesConfigurationSetEventDestination.SesConfigurationSetEventDestination.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesconfigurationseteventdestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesconfigurationseteventdestination"
 
 sesconfigurationseteventdestination.SesConfigurationSetEventDestination_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -502,7 +502,7 @@ The construct id used in the generated config for the SesConfigurationSetEventDe
 
 The id of the existing SesConfigurationSetEventDestination that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_configuration_set_event_destination#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_configuration_set_event_destination#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -768,7 +768,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sesConfigurationSetEventDestination.SesConfigurationSetEventDestinationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesconfigurationseteventdestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesconfigurationseteventdestination"
 
 &sesconfigurationseteventdestination.SesConfigurationSetEventDestinationConfig {
 	Connection: interface{},
@@ -779,7 +779,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesconfigurationseteve
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	ConfigurationSetName: *string,
-	EventDestination: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.sesConfigurationSetEventDestination.SesConfigurationSetEventDestinationEventDestination,
+	EventDestination: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.sesConfigurationSetEventDestination.SesConfigurationSetEventDestinationEventDestination,
 }
 ```
 
@@ -879,7 +879,7 @@ ConfigurationSetName *string
 
 The name of the configuration set that contains the event destination.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_configuration_set_event_destination#configuration_set_name SesConfigurationSetEventDestination#configuration_set_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_configuration_set_event_destination#configuration_set_name SesConfigurationSetEventDestination#configuration_set_name}
 
 ---
 
@@ -893,7 +893,7 @@ EventDestination SesConfigurationSetEventDestinationEventDestination
 
 The event destination object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_configuration_set_event_destination#event_destination SesConfigurationSetEventDestination#event_destination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_configuration_set_event_destination#event_destination SesConfigurationSetEventDestination#event_destination}
 
 ---
 
@@ -902,16 +902,16 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sesConfigurationSetEventDestination.SesConfigurationSetEventDestinationEventDestination.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesconfigurationseteventdestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesconfigurationseteventdestination"
 
 &sesconfigurationseteventdestination.SesConfigurationSetEventDestinationEventDestination {
 	MatchingEventTypes: *[]*string,
-	CloudwatchDestination: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.sesConfigurationSetEventDestination.SesConfigurationSetEventDestinationEventDestinationCloudwatchDestination,
+	CloudwatchDestination: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.sesConfigurationSetEventDestination.SesConfigurationSetEventDestinationEventDestinationCloudwatchDestination,
 	Enabled: interface{},
-	EventBridgeDestination: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.sesConfigurationSetEventDestination.SesConfigurationSetEventDestinationEventDestinationEventBridgeDestination,
-	KinesisFirehoseDestination: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.sesConfigurationSetEventDestination.SesConfigurationSetEventDestinationEventDestinationKinesisFirehoseDestination,
+	EventBridgeDestination: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.sesConfigurationSetEventDestination.SesConfigurationSetEventDestinationEventDestinationEventBridgeDestination,
+	KinesisFirehoseDestination: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.sesConfigurationSetEventDestination.SesConfigurationSetEventDestinationEventDestinationKinesisFirehoseDestination,
 	Name: *string,
-	SnsDestination: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.sesConfigurationSetEventDestination.SesConfigurationSetEventDestinationEventDestinationSnsDestination,
+	SnsDestination: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.sesConfigurationSetEventDestination.SesConfigurationSetEventDestinationEventDestinationSnsDestination,
 }
 ```
 
@@ -924,7 +924,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesconfigurationseteve
 | <code><a href="#@cdktn/provider-awscc.sesConfigurationSetEventDestination.SesConfigurationSetEventDestinationEventDestination.property.enabled">Enabled</a></code> | <code>interface{}</code> | Sets whether Amazon SES publishes events to this destination when you send an email with the associated configuration set. |
 | <code><a href="#@cdktn/provider-awscc.sesConfigurationSetEventDestination.SesConfigurationSetEventDestinationEventDestination.property.eventBridgeDestination">EventBridgeDestination</a></code> | <code><a href="#@cdktn/provider-awscc.sesConfigurationSetEventDestination.SesConfigurationSetEventDestinationEventDestinationEventBridgeDestination">SesConfigurationSetEventDestinationEventDestinationEventBridgeDestination</a></code> | An object that contains Event bus ARN associated with the event bridge destination. |
 | <code><a href="#@cdktn/provider-awscc.sesConfigurationSetEventDestination.SesConfigurationSetEventDestinationEventDestination.property.kinesisFirehoseDestination">KinesisFirehoseDestination</a></code> | <code><a href="#@cdktn/provider-awscc.sesConfigurationSetEventDestination.SesConfigurationSetEventDestinationEventDestinationKinesisFirehoseDestination">SesConfigurationSetEventDestinationEventDestinationKinesisFirehoseDestination</a></code> | An object that contains the delivery stream ARN and the IAM role ARN associated with an Amazon Kinesis Firehose event destination. |
-| <code><a href="#@cdktn/provider-awscc.sesConfigurationSetEventDestination.SesConfigurationSetEventDestinationEventDestination.property.name">Name</a></code> | <code>*string</code> | The name of the event destination set. |
+| <code><a href="#@cdktn/provider-awscc.sesConfigurationSetEventDestination.SesConfigurationSetEventDestinationEventDestination.property.name">Name</a></code> | <code>*string</code> | The name of the event destination set. SES cannot rename an event destination, so changing the name replaces it. |
 | <code><a href="#@cdktn/provider-awscc.sesConfigurationSetEventDestination.SesConfigurationSetEventDestinationEventDestination.property.snsDestination">SnsDestination</a></code> | <code><a href="#@cdktn/provider-awscc.sesConfigurationSetEventDestination.SesConfigurationSetEventDestinationEventDestinationSnsDestination">SesConfigurationSetEventDestinationEventDestinationSnsDestination</a></code> | An object that contains SNS topic ARN associated event destination. |
 
 ---
@@ -939,7 +939,7 @@ MatchingEventTypes *[]*string
 
 The type of email sending events, send, reject, bounce, complaint, delivery, open, click, renderingFailure, deliveryDelay, and subscription.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_configuration_set_event_destination#matching_event_types SesConfigurationSetEventDestination#matching_event_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_configuration_set_event_destination#matching_event_types SesConfigurationSetEventDestination#matching_event_types}
 
 ---
 
@@ -953,7 +953,7 @@ CloudwatchDestination SesConfigurationSetEventDestinationEventDestinationCloudwa
 
 An object that contains the names, default values, and sources of the dimensions associated with an Amazon CloudWatch event destination.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_configuration_set_event_destination#cloudwatch_destination SesConfigurationSetEventDestination#cloudwatch_destination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_configuration_set_event_destination#cloudwatch_destination SesConfigurationSetEventDestination#cloudwatch_destination}
 
 ---
 
@@ -969,7 +969,7 @@ Sets whether Amazon SES publishes events to this destination when you send an em
 
 Set to true to enable publishing to this destination; set to false to prevent publishing to this destination. The default value is false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_configuration_set_event_destination#enabled SesConfigurationSetEventDestination#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_configuration_set_event_destination#enabled SesConfigurationSetEventDestination#enabled}
 
 ---
 
@@ -983,7 +983,7 @@ EventBridgeDestination SesConfigurationSetEventDestinationEventDestinationEventB
 
 An object that contains Event bus ARN associated with the event bridge destination.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_configuration_set_event_destination#event_bridge_destination SesConfigurationSetEventDestination#event_bridge_destination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_configuration_set_event_destination#event_bridge_destination SesConfigurationSetEventDestination#event_bridge_destination}
 
 ---
 
@@ -997,7 +997,7 @@ KinesisFirehoseDestination SesConfigurationSetEventDestinationEventDestinationKi
 
 An object that contains the delivery stream ARN and the IAM role ARN associated with an Amazon Kinesis Firehose event destination.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_configuration_set_event_destination#kinesis_firehose_destination SesConfigurationSetEventDestination#kinesis_firehose_destination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_configuration_set_event_destination#kinesis_firehose_destination SesConfigurationSetEventDestination#kinesis_firehose_destination}
 
 ---
 
@@ -1009,9 +1009,9 @@ Name *string
 
 - *Type:* *string
 
-The name of the event destination set.
+The name of the event destination set. SES cannot rename an event destination, so changing the name replaces it.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_configuration_set_event_destination#name SesConfigurationSetEventDestination#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_configuration_set_event_destination#name SesConfigurationSetEventDestination#name}
 
 ---
 
@@ -1025,7 +1025,7 @@ SnsDestination SesConfigurationSetEventDestinationEventDestinationSnsDestination
 
 An object that contains SNS topic ARN associated event destination.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_configuration_set_event_destination#sns_destination SesConfigurationSetEventDestination#sns_destination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_configuration_set_event_destination#sns_destination SesConfigurationSetEventDestination#sns_destination}
 
 ---
 
@@ -1034,7 +1034,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sesConfigurationSetEventDestination.SesConfigurationSetEventDestinationEventDestinationCloudwatchDestination.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesconfigurationseteventdestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesconfigurationseteventdestination"
 
 &sesconfigurationseteventdestination.SesConfigurationSetEventDestinationEventDestinationCloudwatchDestination {
 	DimensionConfigurations: interface{},
@@ -1059,7 +1059,7 @@ DimensionConfigurations interface{}
 
 A list of dimensions upon which to categorize your emails when you publish email sending events to Amazon CloudWatch.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_configuration_set_event_destination#dimension_configurations SesConfigurationSetEventDestination#dimension_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_configuration_set_event_destination#dimension_configurations SesConfigurationSetEventDestination#dimension_configurations}
 
 ---
 
@@ -1068,7 +1068,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sesConfigurationSetEventDestination.SesConfigurationSetEventDestinationEventDestinationCloudwatchDestinationDimensionConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesconfigurationseteventdestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesconfigurationseteventdestination"
 
 &sesconfigurationseteventdestination.SesConfigurationSetEventDestinationEventDestinationCloudwatchDestinationDimensionConfigurations {
 	DefaultDimensionValue: *string,
@@ -1097,7 +1097,7 @@ DefaultDimensionValue *string
 
 The default value of the dimension that is published to Amazon CloudWatch if you do not provide the value of the dimension when you send an email.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_configuration_set_event_destination#default_dimension_value SesConfigurationSetEventDestination#default_dimension_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_configuration_set_event_destination#default_dimension_value SesConfigurationSetEventDestination#default_dimension_value}
 
 ---
 
@@ -1111,7 +1111,7 @@ DimensionName *string
 
 The name of an Amazon CloudWatch dimension associated with an email sending metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_configuration_set_event_destination#dimension_name SesConfigurationSetEventDestination#dimension_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_configuration_set_event_destination#dimension_name SesConfigurationSetEventDestination#dimension_name}
 
 ---
 
@@ -1127,7 +1127,7 @@ The place where Amazon SES finds the value of a dimension to publish to Amazon C
 
 To use the message tags that you specify using an X-SES-MESSAGE-TAGS header or a parameter to the SendEmail/SendRawEmail API, specify messageTag. To use your own email headers, specify emailHeader. To put a custom tag on any link included in your email, specify linkTag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_configuration_set_event_destination#dimension_value_source SesConfigurationSetEventDestination#dimension_value_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_configuration_set_event_destination#dimension_value_source SesConfigurationSetEventDestination#dimension_value_source}
 
 ---
 
@@ -1136,7 +1136,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sesConfigurationSetEventDestination.SesConfigurationSetEventDestinationEventDestinationEventBridgeDestination.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesconfigurationseteventdestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesconfigurationseteventdestination"
 
 &sesconfigurationseteventdestination.SesConfigurationSetEventDestinationEventDestinationEventBridgeDestination {
 	EventBusArn: *string,
@@ -1147,7 +1147,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesconfigurationseteve
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sesConfigurationSetEventDestination.SesConfigurationSetEventDestinationEventDestinationEventBridgeDestination.property.eventBusArn">EventBusArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_configuration_set_event_destination#event_bus_arn SesConfigurationSetEventDestination#event_bus_arn}. |
+| <code><a href="#@cdktn/provider-awscc.sesConfigurationSetEventDestination.SesConfigurationSetEventDestinationEventDestinationEventBridgeDestination.property.eventBusArn">EventBusArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_configuration_set_event_destination#event_bus_arn SesConfigurationSetEventDestination#event_bus_arn}. |
 
 ---
 
@@ -1159,7 +1159,7 @@ EventBusArn *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_configuration_set_event_destination#event_bus_arn SesConfigurationSetEventDestination#event_bus_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_configuration_set_event_destination#event_bus_arn SesConfigurationSetEventDestination#event_bus_arn}.
 
 ---
 
@@ -1168,7 +1168,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sesConfigurationSetEventDestination.SesConfigurationSetEventDestinationEventDestinationKinesisFirehoseDestination.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesconfigurationseteventdestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesconfigurationseteventdestination"
 
 &sesconfigurationseteventdestination.SesConfigurationSetEventDestinationEventDestinationKinesisFirehoseDestination {
 	DeliveryStreamArn: *string,
@@ -1195,7 +1195,7 @@ DeliveryStreamArn *string
 
 The ARN of the Amazon Kinesis Firehose stream that email sending events should be published to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_configuration_set_event_destination#delivery_stream_arn SesConfigurationSetEventDestination#delivery_stream_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_configuration_set_event_destination#delivery_stream_arn SesConfigurationSetEventDestination#delivery_stream_arn}
 
 ---
 
@@ -1209,7 +1209,7 @@ IamRoleArn *string
 
 The ARN of the IAM role under which Amazon SES publishes email sending events to the Amazon Kinesis Firehose stream.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_configuration_set_event_destination#iam_role_arn SesConfigurationSetEventDestination#iam_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_configuration_set_event_destination#iam_role_arn SesConfigurationSetEventDestination#iam_role_arn}
 
 ---
 
@@ -1218,7 +1218,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sesConfigurationSetEventDestination.SesConfigurationSetEventDestinationEventDestinationSnsDestination.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesconfigurationseteventdestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesconfigurationseteventdestination"
 
 &sesconfigurationseteventdestination.SesConfigurationSetEventDestinationEventDestinationSnsDestination {
 	TopicArn: *string,
@@ -1229,7 +1229,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesconfigurationseteve
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sesConfigurationSetEventDestination.SesConfigurationSetEventDestinationEventDestinationSnsDestination.property.topicArn">TopicArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_configuration_set_event_destination#topic_arn SesConfigurationSetEventDestination#topic_arn}. |
+| <code><a href="#@cdktn/provider-awscc.sesConfigurationSetEventDestination.SesConfigurationSetEventDestinationEventDestinationSnsDestination.property.topicArn">TopicArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_configuration_set_event_destination#topic_arn SesConfigurationSetEventDestination#topic_arn}. |
 
 ---
 
@@ -1241,7 +1241,7 @@ TopicArn *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_configuration_set_event_destination#topic_arn SesConfigurationSetEventDestination#topic_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_configuration_set_event_destination#topic_arn SesConfigurationSetEventDestination#topic_arn}.
 
 ---
 
@@ -1252,7 +1252,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesConfigurationSetEventDestination.SesConfigurationSetEventDestinationEventDestinationCloudwatchDestinationDimensionConfigurationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesconfigurationseteventdestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesconfigurationseteventdestination"
 
 sesconfigurationseteventdestination.NewSesConfigurationSetEventDestinationEventDestinationCloudwatchDestinationDimensionConfigurationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SesConfigurationSetEventDestinationEventDestinationCloudwatchDestinationDimensionConfigurationsList
 ```
@@ -1412,7 +1412,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesConfigurationSetEventDestination.SesConfigurationSetEventDestinationEventDestinationCloudwatchDestinationDimensionConfigurationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesconfigurationseteventdestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesconfigurationseteventdestination"
 
 sesconfigurationseteventdestination.NewSesConfigurationSetEventDestinationEventDestinationCloudwatchDestinationDimensionConfigurationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SesConfigurationSetEventDestinationEventDestinationCloudwatchDestinationDimensionConfigurationsOutputReference
 ```
@@ -1766,7 +1766,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesConfigurationSetEventDestination.SesConfigurationSetEventDestinationEventDestinationCloudwatchDestinationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesconfigurationseteventdestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesconfigurationseteventdestination"
 
 sesconfigurationseteventdestination.NewSesConfigurationSetEventDestinationEventDestinationCloudwatchDestinationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SesConfigurationSetEventDestinationEventDestinationCloudwatchDestinationOutputReference
 ```
@@ -2057,7 +2057,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesConfigurationSetEventDestination.SesConfigurationSetEventDestinationEventDestinationEventBridgeDestinationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesconfigurationseteventdestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesconfigurationseteventdestination"
 
 sesconfigurationseteventdestination.NewSesConfigurationSetEventDestinationEventDestinationEventBridgeDestinationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SesConfigurationSetEventDestinationEventDestinationEventBridgeDestinationOutputReference
 ```
@@ -2335,7 +2335,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesConfigurationSetEventDestination.SesConfigurationSetEventDestinationEventDestinationKinesisFirehoseDestinationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesconfigurationseteventdestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesconfigurationseteventdestination"
 
 sesconfigurationseteventdestination.NewSesConfigurationSetEventDestinationEventDestinationKinesisFirehoseDestinationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SesConfigurationSetEventDestinationEventDestinationKinesisFirehoseDestinationOutputReference
 ```
@@ -2642,7 +2642,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesConfigurationSetEventDestination.SesConfigurationSetEventDestinationEventDestinationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesconfigurationseteventdestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesconfigurationseteventdestination"
 
 sesconfigurationseteventdestination.NewSesConfigurationSetEventDestinationEventDestinationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SesConfigurationSetEventDestinationEventDestinationOutputReference
 ```
@@ -3139,7 +3139,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesConfigurationSetEventDestination.SesConfigurationSetEventDestinationEventDestinationSnsDestinationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesconfigurationseteventdestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesconfigurationseteventdestination"
 
 sesconfigurationseteventdestination.NewSesConfigurationSetEventDestinationEventDestinationSnsDestinationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SesConfigurationSetEventDestinationEventDestinationSnsDestinationOutputReference
 ```

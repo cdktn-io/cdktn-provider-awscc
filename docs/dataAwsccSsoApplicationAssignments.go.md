@@ -4,12 +4,12 @@
 
 ### DataAwsccSsoApplicationAssignments <a name="DataAwsccSsoApplicationAssignments" id="@cdktn/provider-awscc.dataAwsccSsoApplicationAssignments.DataAwsccSsoApplicationAssignments"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sso_application_assignments awscc_sso_application_assignments}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sso_application_assignments awscc_sso_application_assignments}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsoApplicationAssignments.DataAwsccSsoApplicationAssignments.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssoapplicationassignments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssoapplicationassignments"
 
 dataawsccssoapplicationassignments.NewDataAwsccSsoApplicationAssignments(scope Construct, id *string, config DataAwsccSsoApplicationAssignmentsConfig) DataAwsccSsoApplicationAssignments
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSsoApplicationAssignments.DataAwsccSsoApplicationAssignments.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssoapplicationassignments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssoapplicationassignments"
 
 dataawsccssoapplicationassignments.DataAwsccSsoApplicationAssignments_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSsoApplicationAssignments.DataAwsccSsoApplicationAssignments.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssoapplicationassignments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssoapplicationassignments"
 
 dataawsccssoapplicationassignments.DataAwsccSsoApplicationAssignments_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccssoapplicationassignments.DataAwsccSsoApplicationAssignments_IsTerrafor
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSsoApplicationAssignments.DataAwsccSsoApplicationAssignments.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssoapplicationassignments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssoapplicationassignments"
 
 dataawsccssoapplicationassignments.DataAwsccSsoApplicationAssignments_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccssoapplicationassignments.DataAwsccSsoApplicationAssignments_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSsoApplicationAssignments.DataAwsccSsoApplicationAssignments.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssoapplicationassignments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssoapplicationassignments"
 
 dataawsccssoapplicationassignments.DataAwsccSsoApplicationAssignments_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSsoApplicationAss
 
 The id of the existing DataAwsccSsoApplicationAssignments that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sso_application_assignments#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sso_application_assignments#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSsoApplicationAssignments.DataAwsccSsoApplicationAssignmentsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssoapplicationassignments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssoapplicationassignments"
 
 &dataawsccssoapplicationassignments.DataAwsccSsoApplicationAssignmentsConfig {
 	Connection: interface{},

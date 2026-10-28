@@ -4,12 +4,12 @@
 
 ### DataAwsccManagedblockchainAccessor <a name="DataAwsccManagedblockchainAccessor" id="@cdktn/provider-awscc.dataAwsccManagedblockchainAccessor.DataAwsccManagedblockchainAccessor"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/managedblockchain_accessor awscc_managedblockchain_accessor}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/managedblockchain_accessor awscc_managedblockchain_accessor}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccManagedblockchainAccessor.DataAwsccManagedblockchainAccessor.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmanagedblockchainaccessor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmanagedblockchainaccessor"
 
 dataawsccmanagedblockchainaccessor.NewDataAwsccManagedblockchainAccessor(scope Construct, id *string, config DataAwsccManagedblockchainAccessorConfig) DataAwsccManagedblockchainAccessor
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccManagedblockchainAccessor.DataAwsccManagedblockchainAccessor.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmanagedblockchainaccessor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmanagedblockchainaccessor"
 
 dataawsccmanagedblockchainaccessor.DataAwsccManagedblockchainAccessor_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccManagedblockchainAccessor.DataAwsccManagedblockchainAccessor.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmanagedblockchainaccessor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmanagedblockchainaccessor"
 
 dataawsccmanagedblockchainaccessor.DataAwsccManagedblockchainAccessor_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccmanagedblockchainaccessor.DataAwsccManagedblockchainAccessor_IsTerrafor
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccManagedblockchainAccessor.DataAwsccManagedblockchainAccessor.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmanagedblockchainaccessor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmanagedblockchainaccessor"
 
 dataawsccmanagedblockchainaccessor.DataAwsccManagedblockchainAccessor_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccmanagedblockchainaccessor.DataAwsccManagedblockchainAccessor_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccManagedblockchainAccessor.DataAwsccManagedblockchainAccessor.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmanagedblockchainaccessor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmanagedblockchainaccessor"
 
 dataawsccmanagedblockchainaccessor.DataAwsccManagedblockchainAccessor_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccManagedblockchain
 
 The id of the existing DataAwsccManagedblockchainAccessor that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/managedblockchain_accessor#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/managedblockchain_accessor#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -675,7 +675,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccManagedblockchainAccessor.DataAwsccManagedblockchainAccessorConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmanagedblockchainaccessor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmanagedblockchainaccessor"
 
 &dataawsccmanagedblockchainaccessor.DataAwsccManagedblockchainAccessorConfig {
 	Connection: interface{},
@@ -784,7 +784,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/managedblockchain_accessor#id DataAwsccManagedblockchainAccessor#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/managedblockchain_accessor#id DataAwsccManagedblockchainAccessor#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -796,7 +796,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccManagedblockchainAccessor.DataAwsccManagedblockchainAccessorTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmanagedblockchainaccessor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmanagedblockchainaccessor"
 
 &dataawsccmanagedblockchainaccessor.DataAwsccManagedblockchainAccessorTags {
 
@@ -811,7 +811,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmanagedblockc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccManagedblockchainAccessor.DataAwsccManagedblockchainAccessorTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmanagedblockchainaccessor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmanagedblockchainaccessor"
 
 dataawsccmanagedblockchainaccessor.NewDataAwsccManagedblockchainAccessorTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccManagedblockchainAccessorTagsList
 ```
@@ -960,7 +960,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccManagedblockchainAccessor.DataAwsccManagedblockchainAccessorTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmanagedblockchainaccessor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmanagedblockchainaccessor"
 
 dataawsccmanagedblockchainaccessor.NewDataAwsccManagedblockchainAccessorTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccManagedblockchainAccessorTagsOutputReference
 ```

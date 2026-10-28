@@ -4,12 +4,12 @@
 
 ### MedialiveCloudwatchAlarmTemplateGroup <a name="MedialiveCloudwatchAlarmTemplateGroup" id="@cdktn/provider-awscc.medialiveCloudwatchAlarmTemplateGroup.MedialiveCloudwatchAlarmTemplateGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_cloudwatch_alarm_template_group awscc_medialive_cloudwatch_alarm_template_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_cloudwatch_alarm_template_group awscc_medialive_cloudwatch_alarm_template_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.medialiveCloudwatchAlarmTemplateGroup.MedialiveCloudwatchAlarmTemplateGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivecloudwatchalarmtemplategroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivecloudwatchalarmtemplategroup"
 
 medialivecloudwatchalarmtemplategroup.NewMedialiveCloudwatchAlarmTemplateGroup(scope Construct, id *string, config MedialiveCloudwatchAlarmTemplateGroupConfig) MedialiveCloudwatchAlarmTemplateGroup
 ```
@@ -414,7 +414,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.medialiveCloudwatchAlarmTemplateGroup.MedialiveCloudwatchAlarmTemplateGroup.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivecloudwatchalarmtemplategroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivecloudwatchalarmtemplategroup"
 
 medialivecloudwatchalarmtemplategroup.MedialiveCloudwatchAlarmTemplateGroup_IsConstruct(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.medialiveCloudwatchAlarmTemplateGroup.MedialiveCloudwatchAlarmTemplateGroup.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivecloudwatchalarmtemplategroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivecloudwatchalarmtemplategroup"
 
 medialivecloudwatchalarmtemplategroup.MedialiveCloudwatchAlarmTemplateGroup_IsTerraformElement(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ medialivecloudwatchalarmtemplategroup.MedialiveCloudwatchAlarmTemplateGroup_IsTe
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.medialiveCloudwatchAlarmTemplateGroup.MedialiveCloudwatchAlarmTemplateGroup.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivecloudwatchalarmtemplategroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivecloudwatchalarmtemplategroup"
 
 medialivecloudwatchalarmtemplategroup.MedialiveCloudwatchAlarmTemplateGroup_IsTerraformResource(x interface{}) *bool
 ```
@@ -474,7 +474,7 @@ medialivecloudwatchalarmtemplategroup.MedialiveCloudwatchAlarmTemplateGroup_IsTe
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.medialiveCloudwatchAlarmTemplateGroup.MedialiveCloudwatchAlarmTemplateGroup.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivecloudwatchalarmtemplategroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivecloudwatchalarmtemplategroup"
 
 medialivecloudwatchalarmtemplategroup.MedialiveCloudwatchAlarmTemplateGroup_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -503,7 +503,7 @@ The construct id used in the generated config for the MedialiveCloudwatchAlarmTe
 
 The id of the existing MedialiveCloudwatchAlarmTemplateGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_cloudwatch_alarm_template_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_cloudwatch_alarm_template_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -835,7 +835,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.medialiveCloudwatchAlarmTemplateGroup.MedialiveCloudwatchAlarmTemplateGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivecloudwatchalarmtemplategroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivecloudwatchalarmtemplategroup"
 
 &medialivecloudwatchalarmtemplategroup.MedialiveCloudwatchAlarmTemplateGroupConfig {
 	Connection: interface{},
@@ -948,7 +948,7 @@ Name *string
 
 A resource's name. Names must be unique within the scope of a resource type in a specific region.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_cloudwatch_alarm_template_group#name MedialiveCloudwatchAlarmTemplateGroup#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_cloudwatch_alarm_template_group#name MedialiveCloudwatchAlarmTemplateGroup#name}
 
 ---
 
@@ -962,7 +962,7 @@ Description *string
 
 A resource's optional description.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_cloudwatch_alarm_template_group#description MedialiveCloudwatchAlarmTemplateGroup#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_cloudwatch_alarm_template_group#description MedialiveCloudwatchAlarmTemplateGroup#description}
 
 ---
 
@@ -976,7 +976,7 @@ Tags *map[string]*string
 
 Represents the tags associated with a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_cloudwatch_alarm_template_group#tags MedialiveCloudwatchAlarmTemplateGroup#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_cloudwatch_alarm_template_group#tags MedialiveCloudwatchAlarmTemplateGroup#tags}
 
 ---
 

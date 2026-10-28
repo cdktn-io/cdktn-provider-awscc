@@ -4,12 +4,12 @@
 
 ### XraySamplingRule <a name="XraySamplingRule" id="@cdktn/provider-awscc.xraySamplingRule.XraySamplingRule"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/xray_sampling_rule awscc_xray_sampling_rule}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_sampling_rule awscc_xray_sampling_rule}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.xraySamplingRule.XraySamplingRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/xraysamplingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/xraysamplingrule"
 
 xraysamplingrule.NewXraySamplingRule(scope Construct, id *string, config XraySamplingRuleConfig) XraySamplingRule
 ```
@@ -487,7 +487,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.xraySamplingRule.XraySamplingRule.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/xraysamplingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/xraysamplingrule"
 
 xraysamplingrule.XraySamplingRule_IsConstruct(x interface{}) *bool
 ```
@@ -519,7 +519,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.xraySamplingRule.XraySamplingRule.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/xraysamplingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/xraysamplingrule"
 
 xraysamplingrule.XraySamplingRule_IsTerraformElement(x interface{}) *bool
 ```
@@ -533,7 +533,7 @@ xraysamplingrule.XraySamplingRule_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.xraySamplingRule.XraySamplingRule.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/xraysamplingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/xraysamplingrule"
 
 xraysamplingrule.XraySamplingRule_IsTerraformResource(x interface{}) *bool
 ```
@@ -547,7 +547,7 @@ xraysamplingrule.XraySamplingRule_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.xraySamplingRule.XraySamplingRule.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/xraysamplingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/xraysamplingrule"
 
 xraysamplingrule.XraySamplingRule_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -576,7 +576,7 @@ The construct id used in the generated config for the XraySamplingRule to import
 
 The id of the existing XraySamplingRule that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/xray_sampling_rule#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_sampling_rule#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -908,7 +908,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/xraysamplingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/xraysamplingrule"
 
 &xraysamplingrule.XraySamplingRuleConfig {
 	Connection: interface{},
@@ -919,9 +919,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/xraysamplingrule"
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	RuleName: *string,
-	SamplingRule: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.xraySamplingRule.XraySamplingRuleSamplingRule,
-	SamplingRuleRecord: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.xraySamplingRule.XraySamplingRuleSamplingRuleRecord,
-	SamplingRuleUpdate: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.xraySamplingRule.XraySamplingRuleSamplingRuleUpdate,
+	SamplingRule: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.xraySamplingRule.XraySamplingRuleSamplingRule,
+	SamplingRuleRecord: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.xraySamplingRule.XraySamplingRuleSamplingRuleRecord,
+	SamplingRuleUpdate: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.xraySamplingRule.XraySamplingRuleSamplingRuleUpdate,
 	Tags: interface{},
 }
 ```
@@ -938,9 +938,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/xraysamplingrule"
 | <code><a href="#@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleConfig.property.ruleName">RuleName</a></code> | <code>*string</code> | The ARN of the sampling rule. Specify a rule by either name or ARN, but not both. |
-| <code><a href="#@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleConfig.property.samplingRule">SamplingRule</a></code> | <code><a href="#@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleSamplingRule">XraySamplingRuleSamplingRule</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/xray_sampling_rule#sampling_rule XraySamplingRule#sampling_rule}. |
-| <code><a href="#@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleConfig.property.samplingRuleRecord">SamplingRuleRecord</a></code> | <code><a href="#@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleSamplingRuleRecord">XraySamplingRuleSamplingRuleRecord</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/xray_sampling_rule#sampling_rule_record XraySamplingRule#sampling_rule_record}. |
-| <code><a href="#@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleConfig.property.samplingRuleUpdate">SamplingRuleUpdate</a></code> | <code><a href="#@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleSamplingRuleUpdate">XraySamplingRuleSamplingRuleUpdate</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/xray_sampling_rule#sampling_rule_update XraySamplingRule#sampling_rule_update}. |
+| <code><a href="#@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleConfig.property.samplingRule">SamplingRule</a></code> | <code><a href="#@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleSamplingRule">XraySamplingRuleSamplingRule</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_sampling_rule#sampling_rule XraySamplingRule#sampling_rule}. |
+| <code><a href="#@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleConfig.property.samplingRuleRecord">SamplingRuleRecord</a></code> | <code><a href="#@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleSamplingRuleRecord">XraySamplingRuleSamplingRuleRecord</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_sampling_rule#sampling_rule_record XraySamplingRule#sampling_rule_record}. |
+| <code><a href="#@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleConfig.property.samplingRuleUpdate">SamplingRuleUpdate</a></code> | <code><a href="#@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleSamplingRuleUpdate">XraySamplingRuleSamplingRuleUpdate</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_sampling_rule#sampling_rule_update XraySamplingRule#sampling_rule_update}. |
 | <code><a href="#@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleConfig.property.tags">Tags</a></code> | <code>interface{}</code> | An array of key-value pairs to apply to this resource. |
 
 ---
@@ -1025,7 +1025,7 @@ RuleName *string
 
 The ARN of the sampling rule. Specify a rule by either name or ARN, but not both.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/xray_sampling_rule#rule_name XraySamplingRule#rule_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_sampling_rule#rule_name XraySamplingRule#rule_name}
 
 ---
 
@@ -1037,7 +1037,7 @@ SamplingRule XraySamplingRuleSamplingRule
 
 - *Type:* <a href="#@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleSamplingRule">XraySamplingRuleSamplingRule</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/xray_sampling_rule#sampling_rule XraySamplingRule#sampling_rule}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_sampling_rule#sampling_rule XraySamplingRule#sampling_rule}.
 
 ---
 
@@ -1049,7 +1049,7 @@ SamplingRuleRecord XraySamplingRuleSamplingRuleRecord
 
 - *Type:* <a href="#@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleSamplingRuleRecord">XraySamplingRuleSamplingRuleRecord</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/xray_sampling_rule#sampling_rule_record XraySamplingRule#sampling_rule_record}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_sampling_rule#sampling_rule_record XraySamplingRule#sampling_rule_record}.
 
 ---
 
@@ -1061,7 +1061,7 @@ SamplingRuleUpdate XraySamplingRuleSamplingRuleUpdate
 
 - *Type:* <a href="#@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleSamplingRuleUpdate">XraySamplingRuleSamplingRuleUpdate</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/xray_sampling_rule#sampling_rule_update XraySamplingRule#sampling_rule_update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_sampling_rule#sampling_rule_update XraySamplingRule#sampling_rule_update}.
 
 ---
 
@@ -1075,7 +1075,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/xray_sampling_rule#tags XraySamplingRule#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_sampling_rule#tags XraySamplingRule#tags}
 
 ---
 
@@ -1084,7 +1084,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleSamplingRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/xraysamplingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/xraysamplingrule"
 
 &xraysamplingrule.XraySamplingRuleSamplingRule {
 	Attributes: *map[string]*string,
@@ -1096,7 +1096,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/xraysamplingrule"
 	ResourceArn: *string,
 	RuleArn: *string,
 	RuleName: *string,
-	SamplingRateBoost: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.xraySamplingRule.XraySamplingRuleSamplingRuleSamplingRateBoost,
+	SamplingRateBoost: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.xraySamplingRule.XraySamplingRuleSamplingRuleSamplingRateBoost,
 	ServiceName: *string,
 	ServiceType: *string,
 	UrlPath: *string,
@@ -1117,7 +1117,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/xraysamplingrule"
 | <code><a href="#@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleSamplingRule.property.resourceArn">ResourceArn</a></code> | <code>*string</code> | Matches the ARN of the AWS resource on which the service runs. |
 | <code><a href="#@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleSamplingRule.property.ruleArn">RuleArn</a></code> | <code>*string</code> | The ARN of the sampling rule. Specify a rule by either name or ARN, but not both. |
 | <code><a href="#@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleSamplingRule.property.ruleName">RuleName</a></code> | <code>*string</code> | The ARN of the sampling rule. Specify a rule by either name or ARN, but not both. |
-| <code><a href="#@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleSamplingRule.property.samplingRateBoost">SamplingRateBoost</a></code> | <code><a href="#@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleSamplingRuleSamplingRateBoost">XraySamplingRuleSamplingRuleSamplingRateBoost</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/xray_sampling_rule#sampling_rate_boost XraySamplingRule#sampling_rate_boost}. |
+| <code><a href="#@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleSamplingRule.property.samplingRateBoost">SamplingRateBoost</a></code> | <code><a href="#@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleSamplingRuleSamplingRateBoost">XraySamplingRuleSamplingRuleSamplingRateBoost</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_sampling_rule#sampling_rate_boost XraySamplingRule#sampling_rate_boost}. |
 | <code><a href="#@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleSamplingRule.property.serviceName">ServiceName</a></code> | <code>*string</code> | Matches the name that the service uses to identify itself in segments. |
 | <code><a href="#@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleSamplingRule.property.serviceType">ServiceType</a></code> | <code>*string</code> | Matches the origin that the service uses to identify its type in segments. |
 | <code><a href="#@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleSamplingRule.property.urlPath">UrlPath</a></code> | <code>*string</code> | Matches the path from a request URL. |
@@ -1135,7 +1135,7 @@ Attributes *map[string]*string
 
 Matches attributes derived from the request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/xray_sampling_rule#attributes XraySamplingRule#attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_sampling_rule#attributes XraySamplingRule#attributes}
 
 ---
 
@@ -1149,7 +1149,7 @@ FixedRate *f64
 
 The percentage of matching requests to instrument, after the reservoir is exhausted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/xray_sampling_rule#fixed_rate XraySamplingRule#fixed_rate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_sampling_rule#fixed_rate XraySamplingRule#fixed_rate}
 
 ---
 
@@ -1163,7 +1163,7 @@ Host *string
 
 Matches the hostname from a request URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/xray_sampling_rule#host XraySamplingRule#host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_sampling_rule#host XraySamplingRule#host}
 
 ---
 
@@ -1177,7 +1177,7 @@ HttpMethod *string
 
 Matches the HTTP method from a request URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/xray_sampling_rule#http_method XraySamplingRule#http_method}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_sampling_rule#http_method XraySamplingRule#http_method}
 
 ---
 
@@ -1191,7 +1191,7 @@ Priority *f64
 
 The priority of the sampling rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/xray_sampling_rule#priority XraySamplingRule#priority}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_sampling_rule#priority XraySamplingRule#priority}
 
 ---
 
@@ -1207,7 +1207,7 @@ A fixed number of matching requests to instrument per second, prior to applying 
 
 The reservoir is not used directly by services, but applies to all services using the rule collectively.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/xray_sampling_rule#reservoir_size XraySamplingRule#reservoir_size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_sampling_rule#reservoir_size XraySamplingRule#reservoir_size}
 
 ---
 
@@ -1221,7 +1221,7 @@ ResourceArn *string
 
 Matches the ARN of the AWS resource on which the service runs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/xray_sampling_rule#resource_arn XraySamplingRule#resource_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_sampling_rule#resource_arn XraySamplingRule#resource_arn}
 
 ---
 
@@ -1235,7 +1235,7 @@ RuleArn *string
 
 The ARN of the sampling rule. Specify a rule by either name or ARN, but not both.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/xray_sampling_rule#rule_arn XraySamplingRule#rule_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_sampling_rule#rule_arn XraySamplingRule#rule_arn}
 
 ---
 
@@ -1249,7 +1249,7 @@ RuleName *string
 
 The ARN of the sampling rule. Specify a rule by either name or ARN, but not both.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/xray_sampling_rule#rule_name XraySamplingRule#rule_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_sampling_rule#rule_name XraySamplingRule#rule_name}
 
 ---
 
@@ -1261,7 +1261,7 @@ SamplingRateBoost XraySamplingRuleSamplingRuleSamplingRateBoost
 
 - *Type:* <a href="#@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleSamplingRuleSamplingRateBoost">XraySamplingRuleSamplingRuleSamplingRateBoost</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/xray_sampling_rule#sampling_rate_boost XraySamplingRule#sampling_rate_boost}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_sampling_rule#sampling_rate_boost XraySamplingRule#sampling_rate_boost}.
 
 ---
 
@@ -1275,7 +1275,7 @@ ServiceName *string
 
 Matches the name that the service uses to identify itself in segments.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/xray_sampling_rule#service_name XraySamplingRule#service_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_sampling_rule#service_name XraySamplingRule#service_name}
 
 ---
 
@@ -1289,7 +1289,7 @@ ServiceType *string
 
 Matches the origin that the service uses to identify its type in segments.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/xray_sampling_rule#service_type XraySamplingRule#service_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_sampling_rule#service_type XraySamplingRule#service_type}
 
 ---
 
@@ -1303,7 +1303,7 @@ UrlPath *string
 
 Matches the path from a request URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/xray_sampling_rule#url_path XraySamplingRule#url_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_sampling_rule#url_path XraySamplingRule#url_path}
 
 ---
 
@@ -1317,7 +1317,7 @@ Version *f64
 
 The version of the sampling rule format (1).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/xray_sampling_rule#version XraySamplingRule#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_sampling_rule#version XraySamplingRule#version}
 
 ---
 
@@ -1326,12 +1326,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleSamplingRuleRecord.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/xraysamplingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/xraysamplingrule"
 
 &xraysamplingrule.XraySamplingRuleSamplingRuleRecord {
 	CreatedAt: *string,
 	ModifiedAt: *string,
-	SamplingRule: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.xraySamplingRule.XraySamplingRuleSamplingRuleRecordSamplingRule,
+	SamplingRule: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.xraySamplingRule.XraySamplingRuleSamplingRuleRecordSamplingRule,
 }
 ```
 
@@ -1341,7 +1341,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/xraysamplingrule"
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleSamplingRuleRecord.property.createdAt">CreatedAt</a></code> | <code>*string</code> | When the rule was created, in Unix time seconds. |
 | <code><a href="#@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleSamplingRuleRecord.property.modifiedAt">ModifiedAt</a></code> | <code>*string</code> | When the rule was modified, in Unix time seconds. |
-| <code><a href="#@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleSamplingRuleRecord.property.samplingRule">SamplingRule</a></code> | <code><a href="#@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleSamplingRuleRecordSamplingRule">XraySamplingRuleSamplingRuleRecordSamplingRule</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/xray_sampling_rule#sampling_rule XraySamplingRule#sampling_rule}. |
+| <code><a href="#@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleSamplingRuleRecord.property.samplingRule">SamplingRule</a></code> | <code><a href="#@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleSamplingRuleRecordSamplingRule">XraySamplingRuleSamplingRuleRecordSamplingRule</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_sampling_rule#sampling_rule XraySamplingRule#sampling_rule}. |
 
 ---
 
@@ -1355,7 +1355,7 @@ CreatedAt *string
 
 When the rule was created, in Unix time seconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/xray_sampling_rule#created_at XraySamplingRule#created_at}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_sampling_rule#created_at XraySamplingRule#created_at}
 
 ---
 
@@ -1369,7 +1369,7 @@ ModifiedAt *string
 
 When the rule was modified, in Unix time seconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/xray_sampling_rule#modified_at XraySamplingRule#modified_at}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_sampling_rule#modified_at XraySamplingRule#modified_at}
 
 ---
 
@@ -1381,7 +1381,7 @@ SamplingRule XraySamplingRuleSamplingRuleRecordSamplingRule
 
 - *Type:* <a href="#@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleSamplingRuleRecordSamplingRule">XraySamplingRuleSamplingRuleRecordSamplingRule</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/xray_sampling_rule#sampling_rule XraySamplingRule#sampling_rule}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_sampling_rule#sampling_rule XraySamplingRule#sampling_rule}.
 
 ---
 
@@ -1390,7 +1390,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleSamplingRuleRecordSamplingRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/xraysamplingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/xraysamplingrule"
 
 &xraysamplingrule.XraySamplingRuleSamplingRuleRecordSamplingRule {
 	Attributes: *map[string]*string,
@@ -1402,7 +1402,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/xraysamplingrule"
 	ResourceArn: *string,
 	RuleArn: *string,
 	RuleName: *string,
-	SamplingRateBoost: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.xraySamplingRule.XraySamplingRuleSamplingRuleRecordSamplingRuleSamplingRateBoost,
+	SamplingRateBoost: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.xraySamplingRule.XraySamplingRuleSamplingRuleRecordSamplingRuleSamplingRateBoost,
 	ServiceName: *string,
 	ServiceType: *string,
 	UrlPath: *string,
@@ -1423,7 +1423,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/xraysamplingrule"
 | <code><a href="#@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleSamplingRuleRecordSamplingRule.property.resourceArn">ResourceArn</a></code> | <code>*string</code> | Matches the ARN of the AWS resource on which the service runs. |
 | <code><a href="#@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleSamplingRuleRecordSamplingRule.property.ruleArn">RuleArn</a></code> | <code>*string</code> | The ARN of the sampling rule. Specify a rule by either name or ARN, but not both. |
 | <code><a href="#@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleSamplingRuleRecordSamplingRule.property.ruleName">RuleName</a></code> | <code>*string</code> | The ARN of the sampling rule. Specify a rule by either name or ARN, but not both. |
-| <code><a href="#@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleSamplingRuleRecordSamplingRule.property.samplingRateBoost">SamplingRateBoost</a></code> | <code><a href="#@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleSamplingRuleRecordSamplingRuleSamplingRateBoost">XraySamplingRuleSamplingRuleRecordSamplingRuleSamplingRateBoost</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/xray_sampling_rule#sampling_rate_boost XraySamplingRule#sampling_rate_boost}. |
+| <code><a href="#@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleSamplingRuleRecordSamplingRule.property.samplingRateBoost">SamplingRateBoost</a></code> | <code><a href="#@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleSamplingRuleRecordSamplingRuleSamplingRateBoost">XraySamplingRuleSamplingRuleRecordSamplingRuleSamplingRateBoost</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_sampling_rule#sampling_rate_boost XraySamplingRule#sampling_rate_boost}. |
 | <code><a href="#@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleSamplingRuleRecordSamplingRule.property.serviceName">ServiceName</a></code> | <code>*string</code> | Matches the name that the service uses to identify itself in segments. |
 | <code><a href="#@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleSamplingRuleRecordSamplingRule.property.serviceType">ServiceType</a></code> | <code>*string</code> | Matches the origin that the service uses to identify its type in segments. |
 | <code><a href="#@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleSamplingRuleRecordSamplingRule.property.urlPath">UrlPath</a></code> | <code>*string</code> | Matches the path from a request URL. |
@@ -1441,7 +1441,7 @@ Attributes *map[string]*string
 
 Matches attributes derived from the request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/xray_sampling_rule#attributes XraySamplingRule#attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_sampling_rule#attributes XraySamplingRule#attributes}
 
 ---
 
@@ -1455,7 +1455,7 @@ FixedRate *f64
 
 The percentage of matching requests to instrument, after the reservoir is exhausted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/xray_sampling_rule#fixed_rate XraySamplingRule#fixed_rate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_sampling_rule#fixed_rate XraySamplingRule#fixed_rate}
 
 ---
 
@@ -1469,7 +1469,7 @@ Host *string
 
 Matches the hostname from a request URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/xray_sampling_rule#host XraySamplingRule#host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_sampling_rule#host XraySamplingRule#host}
 
 ---
 
@@ -1483,7 +1483,7 @@ HttpMethod *string
 
 Matches the HTTP method from a request URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/xray_sampling_rule#http_method XraySamplingRule#http_method}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_sampling_rule#http_method XraySamplingRule#http_method}
 
 ---
 
@@ -1497,7 +1497,7 @@ Priority *f64
 
 The priority of the sampling rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/xray_sampling_rule#priority XraySamplingRule#priority}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_sampling_rule#priority XraySamplingRule#priority}
 
 ---
 
@@ -1513,7 +1513,7 @@ A fixed number of matching requests to instrument per second, prior to applying 
 
 The reservoir is not used directly by services, but applies to all services using the rule collectively.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/xray_sampling_rule#reservoir_size XraySamplingRule#reservoir_size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_sampling_rule#reservoir_size XraySamplingRule#reservoir_size}
 
 ---
 
@@ -1527,7 +1527,7 @@ ResourceArn *string
 
 Matches the ARN of the AWS resource on which the service runs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/xray_sampling_rule#resource_arn XraySamplingRule#resource_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_sampling_rule#resource_arn XraySamplingRule#resource_arn}
 
 ---
 
@@ -1541,7 +1541,7 @@ RuleArn *string
 
 The ARN of the sampling rule. Specify a rule by either name or ARN, but not both.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/xray_sampling_rule#rule_arn XraySamplingRule#rule_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_sampling_rule#rule_arn XraySamplingRule#rule_arn}
 
 ---
 
@@ -1555,7 +1555,7 @@ RuleName *string
 
 The ARN of the sampling rule. Specify a rule by either name or ARN, but not both.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/xray_sampling_rule#rule_name XraySamplingRule#rule_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_sampling_rule#rule_name XraySamplingRule#rule_name}
 
 ---
 
@@ -1567,7 +1567,7 @@ SamplingRateBoost XraySamplingRuleSamplingRuleRecordSamplingRuleSamplingRateBoos
 
 - *Type:* <a href="#@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleSamplingRuleRecordSamplingRuleSamplingRateBoost">XraySamplingRuleSamplingRuleRecordSamplingRuleSamplingRateBoost</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/xray_sampling_rule#sampling_rate_boost XraySamplingRule#sampling_rate_boost}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_sampling_rule#sampling_rate_boost XraySamplingRule#sampling_rate_boost}.
 
 ---
 
@@ -1581,7 +1581,7 @@ ServiceName *string
 
 Matches the name that the service uses to identify itself in segments.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/xray_sampling_rule#service_name XraySamplingRule#service_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_sampling_rule#service_name XraySamplingRule#service_name}
 
 ---
 
@@ -1595,7 +1595,7 @@ ServiceType *string
 
 Matches the origin that the service uses to identify its type in segments.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/xray_sampling_rule#service_type XraySamplingRule#service_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_sampling_rule#service_type XraySamplingRule#service_type}
 
 ---
 
@@ -1609,7 +1609,7 @@ UrlPath *string
 
 Matches the path from a request URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/xray_sampling_rule#url_path XraySamplingRule#url_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_sampling_rule#url_path XraySamplingRule#url_path}
 
 ---
 
@@ -1623,7 +1623,7 @@ Version *f64
 
 The version of the sampling rule format (1).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/xray_sampling_rule#version XraySamplingRule#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_sampling_rule#version XraySamplingRule#version}
 
 ---
 
@@ -1632,7 +1632,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleSamplingRuleRecordSamplingRuleSamplingRateBoost.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/xraysamplingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/xraysamplingrule"
 
 &xraysamplingrule.XraySamplingRuleSamplingRuleRecordSamplingRuleSamplingRateBoost {
 	CooldownWindowMinutes: *f64,
@@ -1661,7 +1661,7 @@ Time window (in minutes) in which only one sampling rate boost can be triggered.
 
 After a boost occurs, no further boosts are allowed until the next window.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/xray_sampling_rule#cooldown_window_minutes XraySamplingRule#cooldown_window_minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_sampling_rule#cooldown_window_minutes XraySamplingRule#cooldown_window_minutes}
 
 ---
 
@@ -1677,7 +1677,7 @@ The maximum sampling rate X-Ray will apply when it detects anomalies.
 
 X-Ray determines the appropriate rate between your baseline and the maximum, depending on anomaly activity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/xray_sampling_rule#max_rate XraySamplingRule#max_rate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_sampling_rule#max_rate XraySamplingRule#max_rate}
 
 ---
 
@@ -1686,7 +1686,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleSamplingRuleSamplingRateBoost.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/xraysamplingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/xraysamplingrule"
 
 &xraysamplingrule.XraySamplingRuleSamplingRuleSamplingRateBoost {
 	CooldownWindowMinutes: *f64,
@@ -1715,7 +1715,7 @@ Time window (in minutes) in which only one sampling rate boost can be triggered.
 
 After a boost occurs, no further boosts are allowed until the next window.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/xray_sampling_rule#cooldown_window_minutes XraySamplingRule#cooldown_window_minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_sampling_rule#cooldown_window_minutes XraySamplingRule#cooldown_window_minutes}
 
 ---
 
@@ -1731,7 +1731,7 @@ The maximum sampling rate X-Ray will apply when it detects anomalies.
 
 X-Ray determines the appropriate rate between your baseline and the maximum, depending on anomaly activity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/xray_sampling_rule#max_rate XraySamplingRule#max_rate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_sampling_rule#max_rate XraySamplingRule#max_rate}
 
 ---
 
@@ -1740,7 +1740,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleSamplingRuleUpdate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/xraysamplingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/xraysamplingrule"
 
 &xraysamplingrule.XraySamplingRuleSamplingRuleUpdate {
 	Attributes: *map[string]*string,
@@ -1752,7 +1752,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/xraysamplingrule"
 	ResourceArn: *string,
 	RuleArn: *string,
 	RuleName: *string,
-	SamplingRateBoost: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.xraySamplingRule.XraySamplingRuleSamplingRuleUpdateSamplingRateBoost,
+	SamplingRateBoost: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.xraySamplingRule.XraySamplingRuleSamplingRuleUpdateSamplingRateBoost,
 	ServiceName: *string,
 	ServiceType: *string,
 	UrlPath: *string,
@@ -1772,7 +1772,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/xraysamplingrule"
 | <code><a href="#@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleSamplingRuleUpdate.property.resourceArn">ResourceArn</a></code> | <code>*string</code> | Matches the ARN of the AWS resource on which the service runs. |
 | <code><a href="#@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleSamplingRuleUpdate.property.ruleArn">RuleArn</a></code> | <code>*string</code> | The ARN of the sampling rule. Specify a rule by either name or ARN, but not both. |
 | <code><a href="#@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleSamplingRuleUpdate.property.ruleName">RuleName</a></code> | <code>*string</code> | The ARN of the sampling rule. Specify a rule by either name or ARN, but not both. |
-| <code><a href="#@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleSamplingRuleUpdate.property.samplingRateBoost">SamplingRateBoost</a></code> | <code><a href="#@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleSamplingRuleUpdateSamplingRateBoost">XraySamplingRuleSamplingRuleUpdateSamplingRateBoost</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/xray_sampling_rule#sampling_rate_boost XraySamplingRule#sampling_rate_boost}. |
+| <code><a href="#@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleSamplingRuleUpdate.property.samplingRateBoost">SamplingRateBoost</a></code> | <code><a href="#@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleSamplingRuleUpdateSamplingRateBoost">XraySamplingRuleSamplingRuleUpdateSamplingRateBoost</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_sampling_rule#sampling_rate_boost XraySamplingRule#sampling_rate_boost}. |
 | <code><a href="#@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleSamplingRuleUpdate.property.serviceName">ServiceName</a></code> | <code>*string</code> | Matches the name that the service uses to identify itself in segments. |
 | <code><a href="#@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleSamplingRuleUpdate.property.serviceType">ServiceType</a></code> | <code>*string</code> | Matches the origin that the service uses to identify its type in segments. |
 | <code><a href="#@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleSamplingRuleUpdate.property.urlPath">UrlPath</a></code> | <code>*string</code> | Matches the path from a request URL. |
@@ -1789,7 +1789,7 @@ Attributes *map[string]*string
 
 Matches attributes derived from the request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/xray_sampling_rule#attributes XraySamplingRule#attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_sampling_rule#attributes XraySamplingRule#attributes}
 
 ---
 
@@ -1803,7 +1803,7 @@ FixedRate *f64
 
 The percentage of matching requests to instrument, after the reservoir is exhausted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/xray_sampling_rule#fixed_rate XraySamplingRule#fixed_rate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_sampling_rule#fixed_rate XraySamplingRule#fixed_rate}
 
 ---
 
@@ -1817,7 +1817,7 @@ Host *string
 
 Matches the hostname from a request URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/xray_sampling_rule#host XraySamplingRule#host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_sampling_rule#host XraySamplingRule#host}
 
 ---
 
@@ -1831,7 +1831,7 @@ HttpMethod *string
 
 Matches the HTTP method from a request URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/xray_sampling_rule#http_method XraySamplingRule#http_method}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_sampling_rule#http_method XraySamplingRule#http_method}
 
 ---
 
@@ -1845,7 +1845,7 @@ Priority *f64
 
 The priority of the sampling rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/xray_sampling_rule#priority XraySamplingRule#priority}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_sampling_rule#priority XraySamplingRule#priority}
 
 ---
 
@@ -1861,7 +1861,7 @@ A fixed number of matching requests to instrument per second, prior to applying 
 
 The reservoir is not used directly by services, but applies to all services using the rule collectively.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/xray_sampling_rule#reservoir_size XraySamplingRule#reservoir_size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_sampling_rule#reservoir_size XraySamplingRule#reservoir_size}
 
 ---
 
@@ -1875,7 +1875,7 @@ ResourceArn *string
 
 Matches the ARN of the AWS resource on which the service runs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/xray_sampling_rule#resource_arn XraySamplingRule#resource_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_sampling_rule#resource_arn XraySamplingRule#resource_arn}
 
 ---
 
@@ -1889,7 +1889,7 @@ RuleArn *string
 
 The ARN of the sampling rule. Specify a rule by either name or ARN, but not both.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/xray_sampling_rule#rule_arn XraySamplingRule#rule_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_sampling_rule#rule_arn XraySamplingRule#rule_arn}
 
 ---
 
@@ -1903,7 +1903,7 @@ RuleName *string
 
 The ARN of the sampling rule. Specify a rule by either name or ARN, but not both.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/xray_sampling_rule#rule_name XraySamplingRule#rule_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_sampling_rule#rule_name XraySamplingRule#rule_name}
 
 ---
 
@@ -1915,7 +1915,7 @@ SamplingRateBoost XraySamplingRuleSamplingRuleUpdateSamplingRateBoost
 
 - *Type:* <a href="#@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleSamplingRuleUpdateSamplingRateBoost">XraySamplingRuleSamplingRuleUpdateSamplingRateBoost</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/xray_sampling_rule#sampling_rate_boost XraySamplingRule#sampling_rate_boost}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_sampling_rule#sampling_rate_boost XraySamplingRule#sampling_rate_boost}.
 
 ---
 
@@ -1929,7 +1929,7 @@ ServiceName *string
 
 Matches the name that the service uses to identify itself in segments.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/xray_sampling_rule#service_name XraySamplingRule#service_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_sampling_rule#service_name XraySamplingRule#service_name}
 
 ---
 
@@ -1943,7 +1943,7 @@ ServiceType *string
 
 Matches the origin that the service uses to identify its type in segments.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/xray_sampling_rule#service_type XraySamplingRule#service_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_sampling_rule#service_type XraySamplingRule#service_type}
 
 ---
 
@@ -1957,7 +1957,7 @@ UrlPath *string
 
 Matches the path from a request URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/xray_sampling_rule#url_path XraySamplingRule#url_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_sampling_rule#url_path XraySamplingRule#url_path}
 
 ---
 
@@ -1966,7 +1966,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleSamplingRuleUpdateSamplingRateBoost.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/xraysamplingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/xraysamplingrule"
 
 &xraysamplingrule.XraySamplingRuleSamplingRuleUpdateSamplingRateBoost {
 	CooldownWindowMinutes: *f64,
@@ -1995,7 +1995,7 @@ Time window (in minutes) in which only one sampling rate boost can be triggered.
 
 After a boost occurs, no further boosts are allowed until the next window.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/xray_sampling_rule#cooldown_window_minutes XraySamplingRule#cooldown_window_minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_sampling_rule#cooldown_window_minutes XraySamplingRule#cooldown_window_minutes}
 
 ---
 
@@ -2011,7 +2011,7 @@ The maximum sampling rate X-Ray will apply when it detects anomalies.
 
 X-Ray determines the appropriate rate between your baseline and the maximum, depending on anomaly activity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/xray_sampling_rule#max_rate XraySamplingRule#max_rate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_sampling_rule#max_rate XraySamplingRule#max_rate}
 
 ---
 
@@ -2020,7 +2020,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/xraysamplingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/xraysamplingrule"
 
 &xraysamplingrule.XraySamplingRuleTags {
 	Key: *string,
@@ -2047,7 +2047,7 @@ Key *string
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/xray_sampling_rule#key XraySamplingRule#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_sampling_rule#key XraySamplingRule#key}
 
 ---
 
@@ -2061,7 +2061,7 @@ Value *string
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/xray_sampling_rule#value XraySamplingRule#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_sampling_rule#value XraySamplingRule#value}
 
 ---
 
@@ -2072,7 +2072,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleSamplingRuleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/xraysamplingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/xraysamplingrule"
 
 xraysamplingrule.NewXraySamplingRuleSamplingRuleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) XraySamplingRuleSamplingRuleOutputReference
 ```
@@ -2740,7 +2740,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleSamplingRuleRecordOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/xraysamplingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/xraysamplingrule"
 
 xraysamplingrule.NewXraySamplingRuleSamplingRuleRecordOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) XraySamplingRuleSamplingRuleRecordOutputReference
 ```
@@ -3089,7 +3089,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleSamplingRuleRecordSamplingRuleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/xraysamplingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/xraysamplingrule"
 
 xraysamplingrule.NewXraySamplingRuleSamplingRuleRecordSamplingRuleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) XraySamplingRuleSamplingRuleRecordSamplingRuleOutputReference
 ```
@@ -3757,7 +3757,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleSamplingRuleRecordSamplingRuleSamplingRateBoostOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/xraysamplingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/xraysamplingrule"
 
 xraysamplingrule.NewXraySamplingRuleSamplingRuleRecordSamplingRuleSamplingRateBoostOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) XraySamplingRuleSamplingRuleRecordSamplingRuleSamplingRateBoostOutputReference
 ```
@@ -4064,7 +4064,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleSamplingRuleSamplingRateBoostOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/xraysamplingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/xraysamplingrule"
 
 xraysamplingrule.NewXraySamplingRuleSamplingRuleSamplingRateBoostOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) XraySamplingRuleSamplingRuleSamplingRateBoostOutputReference
 ```
@@ -4371,7 +4371,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleSamplingRuleUpdateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/xraysamplingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/xraysamplingrule"
 
 xraysamplingrule.NewXraySamplingRuleSamplingRuleUpdateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) XraySamplingRuleSamplingRuleUpdateOutputReference
 ```
@@ -5010,7 +5010,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleSamplingRuleUpdateSamplingRateBoostOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/xraysamplingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/xraysamplingrule"
 
 xraysamplingrule.NewXraySamplingRuleSamplingRuleUpdateSamplingRateBoostOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) XraySamplingRuleSamplingRuleUpdateSamplingRateBoostOutputReference
 ```
@@ -5317,7 +5317,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/xraysamplingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/xraysamplingrule"
 
 xraysamplingrule.NewXraySamplingRuleTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) XraySamplingRuleTagsList
 ```
@@ -5477,7 +5477,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.xraySamplingRule.XraySamplingRuleTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/xraysamplingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/xraysamplingrule"
 
 xraysamplingrule.NewXraySamplingRuleTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) XraySamplingRuleTagsOutputReference
 ```

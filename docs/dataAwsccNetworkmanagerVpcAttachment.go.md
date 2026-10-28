@@ -4,12 +4,12 @@
 
 ### DataAwsccNetworkmanagerVpcAttachment <a name="DataAwsccNetworkmanagerVpcAttachment" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerVpcAttachment.DataAwsccNetworkmanagerVpcAttachment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/networkmanager_vpc_attachment awscc_networkmanager_vpc_attachment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/networkmanager_vpc_attachment awscc_networkmanager_vpc_attachment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerVpcAttachment.DataAwsccNetworkmanagerVpcAttachment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagervpcattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagervpcattachment"
 
 dataawsccnetworkmanagervpcattachment.NewDataAwsccNetworkmanagerVpcAttachment(scope Construct, id *string, config DataAwsccNetworkmanagerVpcAttachmentConfig) DataAwsccNetworkmanagerVpcAttachment
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerVpcAttachment.DataAwsccNetworkmanagerVpcAttachment.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagervpcattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagervpcattachment"
 
 dataawsccnetworkmanagervpcattachment.DataAwsccNetworkmanagerVpcAttachment_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerVpcAttachment.DataAwsccNetworkmanagerVpcAttachment.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagervpcattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagervpcattachment"
 
 dataawsccnetworkmanagervpcattachment.DataAwsccNetworkmanagerVpcAttachment_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccnetworkmanagervpcattachment.DataAwsccNetworkmanagerVpcAttachment_IsTerr
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerVpcAttachment.DataAwsccNetworkmanagerVpcAttachment.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagervpcattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagervpcattachment"
 
 dataawsccnetworkmanagervpcattachment.DataAwsccNetworkmanagerVpcAttachment_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccnetworkmanagervpcattachment.DataAwsccNetworkmanagerVpcAttachment_IsTerr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerVpcAttachment.DataAwsccNetworkmanagerVpcAttachment.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagervpcattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagervpcattachment"
 
 dataawsccnetworkmanagervpcattachment.DataAwsccNetworkmanagerVpcAttachment_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccNetworkmanagerVpc
 
 The id of the existing DataAwsccNetworkmanagerVpcAttachment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/networkmanager_vpc_attachment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/networkmanager_vpc_attachment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -818,7 +818,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerVpcAttachment.DataAwsccNetworkmanagerVpcAttachmentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagervpcattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagervpcattachment"
 
 &dataawsccnetworkmanagervpcattachment.DataAwsccNetworkmanagerVpcAttachmentConfig {
 	Connection: interface{},
@@ -927,7 +927,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/networkmanager_vpc_attachment#id DataAwsccNetworkmanagerVpcAttachment#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/networkmanager_vpc_attachment#id DataAwsccNetworkmanagerVpcAttachment#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -939,7 +939,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerVpcAttachment.DataAwsccNetworkmanagerVpcAttachmentOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagervpcattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagervpcattachment"
 
 &dataawsccnetworkmanagervpcattachment.DataAwsccNetworkmanagerVpcAttachmentOptions {
 
@@ -952,7 +952,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerVpcAttachment.DataAwsccNetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChange.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagervpcattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagervpcattachment"
 
 &dataawsccnetworkmanagervpcattachment.DataAwsccNetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChange {
 
@@ -965,7 +965,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerVpcAttachment.DataAwsccNetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChangeTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagervpcattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagervpcattachment"
 
 &dataawsccnetworkmanagervpcattachment.DataAwsccNetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChangeTags {
 
@@ -978,7 +978,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerVpcAttachment.DataAwsccNetworkmanagerVpcAttachmentProposedSegmentChange.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagervpcattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagervpcattachment"
 
 &dataawsccnetworkmanagervpcattachment.DataAwsccNetworkmanagerVpcAttachmentProposedSegmentChange {
 
@@ -991,7 +991,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerVpcAttachment.DataAwsccNetworkmanagerVpcAttachmentProposedSegmentChangeTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagervpcattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagervpcattachment"
 
 &dataawsccnetworkmanagervpcattachment.DataAwsccNetworkmanagerVpcAttachmentProposedSegmentChangeTags {
 
@@ -1004,7 +1004,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerVpcAttachment.DataAwsccNetworkmanagerVpcAttachmentTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagervpcattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagervpcattachment"
 
 &dataawsccnetworkmanagervpcattachment.DataAwsccNetworkmanagerVpcAttachmentTags {
 
@@ -1019,7 +1019,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanage
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerVpcAttachment.DataAwsccNetworkmanagerVpcAttachmentOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagervpcattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagervpcattachment"
 
 dataawsccnetworkmanagervpcattachment.NewDataAwsccNetworkmanagerVpcAttachmentOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccNetworkmanagerVpcAttachmentOptionsOutputReference
 ```
@@ -1312,7 +1312,7 @@ func InternalValue() DataAwsccNetworkmanagerVpcAttachmentOptions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerVpcAttachment.DataAwsccNetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChangeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagervpcattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagervpcattachment"
 
 dataawsccnetworkmanagervpcattachment.NewDataAwsccNetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChangeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccNetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChangeOutputReference
 ```
@@ -1594,7 +1594,7 @@ func InternalValue() DataAwsccNetworkmanagerVpcAttachmentProposedNetworkFunction
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerVpcAttachment.DataAwsccNetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChangeTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagervpcattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagervpcattachment"
 
 dataawsccnetworkmanagervpcattachment.NewDataAwsccNetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChangeTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccNetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChangeTagsList
 ```
@@ -1743,7 +1743,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerVpcAttachment.DataAwsccNetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChangeTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagervpcattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagervpcattachment"
 
 dataawsccnetworkmanagervpcattachment.NewDataAwsccNetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChangeTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccNetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChangeTagsOutputReference
 ```
@@ -2032,7 +2032,7 @@ func InternalValue() DataAwsccNetworkmanagerVpcAttachmentProposedNetworkFunction
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerVpcAttachment.DataAwsccNetworkmanagerVpcAttachmentProposedSegmentChangeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagervpcattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagervpcattachment"
 
 dataawsccnetworkmanagervpcattachment.NewDataAwsccNetworkmanagerVpcAttachmentProposedSegmentChangeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccNetworkmanagerVpcAttachmentProposedSegmentChangeOutputReference
 ```
@@ -2314,7 +2314,7 @@ func InternalValue() DataAwsccNetworkmanagerVpcAttachmentProposedSegmentChange
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerVpcAttachment.DataAwsccNetworkmanagerVpcAttachmentProposedSegmentChangeTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagervpcattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagervpcattachment"
 
 dataawsccnetworkmanagervpcattachment.NewDataAwsccNetworkmanagerVpcAttachmentProposedSegmentChangeTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccNetworkmanagerVpcAttachmentProposedSegmentChangeTagsList
 ```
@@ -2463,7 +2463,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerVpcAttachment.DataAwsccNetworkmanagerVpcAttachmentProposedSegmentChangeTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagervpcattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagervpcattachment"
 
 dataawsccnetworkmanagervpcattachment.NewDataAwsccNetworkmanagerVpcAttachmentProposedSegmentChangeTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccNetworkmanagerVpcAttachmentProposedSegmentChangeTagsOutputReference
 ```
@@ -2752,7 +2752,7 @@ func InternalValue() DataAwsccNetworkmanagerVpcAttachmentProposedSegmentChangeTa
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerVpcAttachment.DataAwsccNetworkmanagerVpcAttachmentTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagervpcattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagervpcattachment"
 
 dataawsccnetworkmanagervpcattachment.NewDataAwsccNetworkmanagerVpcAttachmentTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccNetworkmanagerVpcAttachmentTagsList
 ```
@@ -2901,7 +2901,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerVpcAttachment.DataAwsccNetworkmanagerVpcAttachmentTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagervpcattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagervpcattachment"
 
 dataawsccnetworkmanagervpcattachment.NewDataAwsccNetworkmanagerVpcAttachmentTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccNetworkmanagerVpcAttachmentTagsOutputReference
 ```

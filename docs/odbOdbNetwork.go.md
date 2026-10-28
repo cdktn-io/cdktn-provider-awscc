@@ -4,12 +4,12 @@
 
 ### OdbOdbNetwork <a name="OdbOdbNetwork" id="@cdktn/provider-awscc.odbOdbNetwork.OdbOdbNetwork"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/odb_odb_network awscc_odb_odb_network}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/odb_odb_network awscc_odb_odb_network}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.odbOdbNetwork.OdbOdbNetwork.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/odbodbnetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/odbodbnetwork"
 
 odbodbnetwork.NewOdbOdbNetwork(scope Construct, id *string, config OdbOdbNetworkConfig) OdbOdbNetwork
 ```
@@ -532,7 +532,7 @@ func ResetZeroEtlAccess()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.odbOdbNetwork.OdbOdbNetwork.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/odbodbnetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/odbodbnetwork"
 
 odbodbnetwork.OdbOdbNetwork_IsConstruct(x interface{}) *bool
 ```
@@ -564,7 +564,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.odbOdbNetwork.OdbOdbNetwork.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/odbodbnetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/odbodbnetwork"
 
 odbodbnetwork.OdbOdbNetwork_IsTerraformElement(x interface{}) *bool
 ```
@@ -578,7 +578,7 @@ odbodbnetwork.OdbOdbNetwork_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.odbOdbNetwork.OdbOdbNetwork.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/odbodbnetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/odbodbnetwork"
 
 odbodbnetwork.OdbOdbNetwork_IsTerraformResource(x interface{}) *bool
 ```
@@ -592,7 +592,7 @@ odbodbnetwork.OdbOdbNetwork_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.odbOdbNetwork.OdbOdbNetwork.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/odbodbnetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/odbodbnetwork"
 
 odbodbnetwork.OdbOdbNetwork_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -621,7 +621,7 @@ The construct id used in the generated config for the OdbOdbNetwork to import.
 
 The id of the existing OdbOdbNetwork that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/odb_odb_network#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/odb_odb_network#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1283,7 +1283,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.odbOdbNetwork.OdbOdbNetworkConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/odbodbnetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/odbodbnetwork"
 
 &odbodbnetwork.OdbOdbNetworkConfig {
 	Connection: interface{},
@@ -1424,7 +1424,7 @@ AvailabilityZone *string
 
 The AWS Availability Zone (AZ) where the ODB network is located.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/odb_odb_network#availability_zone OdbOdbNetwork#availability_zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/odb_odb_network#availability_zone OdbOdbNetwork#availability_zone}
 
 ---
 
@@ -1438,7 +1438,7 @@ AvailabilityZoneId *string
 
 The AZ ID of the AZ where the ODB network is located.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/odb_odb_network#availability_zone_id OdbOdbNetwork#availability_zone_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/odb_odb_network#availability_zone_id OdbOdbNetwork#availability_zone_id}
 
 ---
 
@@ -1452,7 +1452,7 @@ BackupSubnetCidr *string
 
 The CIDR range of the backup subnet in the ODB network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/odb_odb_network#backup_subnet_cidr OdbOdbNetwork#backup_subnet_cidr}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/odb_odb_network#backup_subnet_cidr OdbOdbNetwork#backup_subnet_cidr}
 
 ---
 
@@ -1466,7 +1466,7 @@ ClientSubnetCidr *string
 
 The CIDR range of the client subnet in the ODB network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/odb_odb_network#client_subnet_cidr OdbOdbNetwork#client_subnet_cidr}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/odb_odb_network#client_subnet_cidr OdbOdbNetwork#client_subnet_cidr}
 
 ---
 
@@ -1480,7 +1480,7 @@ CrossRegionS3RestoreSources *[]*string
 
 The cross-Region Amazon S3 restore sources for the ODB network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/odb_odb_network#cross_region_s3_restore_sources OdbOdbNetwork#cross_region_s3_restore_sources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/odb_odb_network#cross_region_s3_restore_sources OdbOdbNetwork#cross_region_s3_restore_sources}
 
 ---
 
@@ -1494,7 +1494,7 @@ CustomDomainName *string
 
 The domain name to use for the resources in the ODB network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/odb_odb_network#custom_domain_name OdbOdbNetwork#custom_domain_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/odb_odb_network#custom_domain_name OdbOdbNetwork#custom_domain_name}
 
 ---
 
@@ -1508,7 +1508,7 @@ DefaultDnsPrefix *string
 
 The DNS prefix to the default DNS domain name. The default DNS domain name is oraclevcn.com.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/odb_odb_network#default_dns_prefix OdbOdbNetwork#default_dns_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/odb_odb_network#default_dns_prefix OdbOdbNetwork#default_dns_prefix}
 
 ---
 
@@ -1522,7 +1522,7 @@ DeleteAssociatedResources interface{}
 
 Specifies whether to delete associated OCI networking resources along with the ODB network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/odb_odb_network#delete_associated_resources OdbOdbNetwork#delete_associated_resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/odb_odb_network#delete_associated_resources OdbOdbNetwork#delete_associated_resources}
 
 ---
 
@@ -1536,7 +1536,7 @@ DisplayName *string
 
 The user-friendly name of the ODB network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/odb_odb_network#display_name OdbOdbNetwork#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/odb_odb_network#display_name OdbOdbNetwork#display_name}
 
 ---
 
@@ -1550,7 +1550,7 @@ KmsAccess *string
 
 The AWS Key Management Service (KMS) access configuration for the ODB network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/odb_odb_network#kms_access OdbOdbNetwork#kms_access}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/odb_odb_network#kms_access OdbOdbNetwork#kms_access}
 
 ---
 
@@ -1564,7 +1564,7 @@ KmsPolicyDocument *string
 
 The AWS Key Management Service (KMS) policy document that defines permissions for key usage within the ODB network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/odb_odb_network#kms_policy_document OdbOdbNetwork#kms_policy_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/odb_odb_network#kms_policy_document OdbOdbNetwork#kms_policy_document}
 
 ---
 
@@ -1578,7 +1578,7 @@ S3Access *string
 
 Specifies the configuration for Amazon S3 access from the ODB network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/odb_odb_network#s3_access OdbOdbNetwork#s3_access}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/odb_odb_network#s3_access OdbOdbNetwork#s3_access}
 
 ---
 
@@ -1592,7 +1592,7 @@ S3PolicyDocument *string
 
 Specifies the endpoint policy for Amazon S3 access from the ODB network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/odb_odb_network#s3_policy_document OdbOdbNetwork#s3_policy_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/odb_odb_network#s3_policy_document OdbOdbNetwork#s3_policy_document}
 
 ---
 
@@ -1606,7 +1606,7 @@ StsAccess *string
 
 The AWS Security Token Service (STS) access configuration for the ODB network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/odb_odb_network#sts_access OdbOdbNetwork#sts_access}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/odb_odb_network#sts_access OdbOdbNetwork#sts_access}
 
 ---
 
@@ -1620,7 +1620,7 @@ StsPolicyDocument *string
 
 The AWS Security Token Service (STS) policy document that defines permissions for token service usage within the ODB network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/odb_odb_network#sts_policy_document OdbOdbNetwork#sts_policy_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/odb_odb_network#sts_policy_document OdbOdbNetwork#sts_policy_document}
 
 ---
 
@@ -1634,7 +1634,7 @@ Tags interface{}
 
 Tags to assign to the Odb Network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/odb_odb_network#tags OdbOdbNetwork#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/odb_odb_network#tags OdbOdbNetwork#tags}
 
 ---
 
@@ -1648,7 +1648,7 @@ ZeroEtlAccess *string
 
 Specifies the configuration for Zero-ETL access from the ODB network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/odb_odb_network#zero_etl_access OdbOdbNetwork#zero_etl_access}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/odb_odb_network#zero_etl_access OdbOdbNetwork#zero_etl_access}
 
 ---
 
@@ -1657,7 +1657,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.odbOdbNetwork.OdbOdbNetworkManagedServices.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/odbodbnetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/odbodbnetwork"
 
 &odbodbnetwork.OdbOdbNetworkManagedServices {
 
@@ -1670,7 +1670,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/odbodbnetwork"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.odbOdbNetwork.OdbOdbNetworkManagedServicesCrossRegionS3RestoreSourcesAccess.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/odbodbnetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/odbodbnetwork"
 
 &odbodbnetwork.OdbOdbNetworkManagedServicesCrossRegionS3RestoreSourcesAccess {
 
@@ -1683,7 +1683,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/odbodbnetwork"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.odbOdbNetwork.OdbOdbNetworkManagedServicesKmsAccess.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/odbodbnetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/odbodbnetwork"
 
 &odbodbnetwork.OdbOdbNetworkManagedServicesKmsAccess {
 
@@ -1696,7 +1696,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/odbodbnetwork"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.odbOdbNetwork.OdbOdbNetworkManagedServicesManagedS3BackupAccess.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/odbodbnetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/odbodbnetwork"
 
 &odbodbnetwork.OdbOdbNetworkManagedServicesManagedS3BackupAccess {
 
@@ -1709,7 +1709,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/odbodbnetwork"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.odbOdbNetwork.OdbOdbNetworkManagedServicesS3Access.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/odbodbnetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/odbodbnetwork"
 
 &odbodbnetwork.OdbOdbNetworkManagedServicesS3Access {
 
@@ -1722,7 +1722,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/odbodbnetwork"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.odbOdbNetwork.OdbOdbNetworkManagedServicesServiceNetworkEndpoint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/odbodbnetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/odbodbnetwork"
 
 &odbodbnetwork.OdbOdbNetworkManagedServicesServiceNetworkEndpoint {
 
@@ -1735,7 +1735,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/odbodbnetwork"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.odbOdbNetwork.OdbOdbNetworkManagedServicesStsAccess.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/odbodbnetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/odbodbnetwork"
 
 &odbodbnetwork.OdbOdbNetworkManagedServicesStsAccess {
 
@@ -1748,7 +1748,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/odbodbnetwork"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.odbOdbNetwork.OdbOdbNetworkManagedServicesZeroEtlAccess.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/odbodbnetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/odbodbnetwork"
 
 &odbodbnetwork.OdbOdbNetworkManagedServicesZeroEtlAccess {
 
@@ -1761,7 +1761,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/odbodbnetwork"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.odbOdbNetwork.OdbOdbNetworkTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/odbodbnetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/odbodbnetwork"
 
 &odbodbnetwork.OdbOdbNetworkTags {
 	Key: *string,
@@ -1804,7 +1804,7 @@ The value for the tag.
 
 You can specify a value that's 1 to 256 characters in length. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/odb_odb_network#value OdbOdbNetwork#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/odb_odb_network#value OdbOdbNetwork#value}
 
 ---
 
@@ -1815,7 +1815,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.odbOdbNetwork.OdbOdbNetworkManagedServicesCrossRegionS3RestoreSourcesAccessList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/odbodbnetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/odbodbnetwork"
 
 odbodbnetwork.NewOdbOdbNetworkManagedServicesCrossRegionS3RestoreSourcesAccessList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OdbOdbNetworkManagedServicesCrossRegionS3RestoreSourcesAccessList
 ```
@@ -1964,7 +1964,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.odbOdbNetwork.OdbOdbNetworkManagedServicesCrossRegionS3RestoreSourcesAccessOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/odbodbnetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/odbodbnetwork"
 
 odbodbnetwork.NewOdbOdbNetworkManagedServicesCrossRegionS3RestoreSourcesAccessOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OdbOdbNetworkManagedServicesCrossRegionS3RestoreSourcesAccessOutputReference
 ```
@@ -2264,7 +2264,7 @@ func InternalValue() OdbOdbNetworkManagedServicesCrossRegionS3RestoreSourcesAcce
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.odbOdbNetwork.OdbOdbNetworkManagedServicesKmsAccessOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/odbodbnetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/odbodbnetwork"
 
 odbodbnetwork.NewOdbOdbNetworkManagedServicesKmsAccessOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OdbOdbNetworkManagedServicesKmsAccessOutputReference
 ```
@@ -2557,7 +2557,7 @@ func InternalValue() OdbOdbNetworkManagedServicesKmsAccess
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.odbOdbNetwork.OdbOdbNetworkManagedServicesManagedS3BackupAccessOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/odbodbnetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/odbodbnetwork"
 
 odbodbnetwork.NewOdbOdbNetworkManagedServicesManagedS3BackupAccessOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OdbOdbNetworkManagedServicesManagedS3BackupAccessOutputReference
 ```
@@ -2828,7 +2828,7 @@ func InternalValue() OdbOdbNetworkManagedServicesManagedS3BackupAccess
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.odbOdbNetwork.OdbOdbNetworkManagedServicesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/odbodbnetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/odbodbnetwork"
 
 odbodbnetwork.NewOdbOdbNetworkManagedServicesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OdbOdbNetworkManagedServicesOutputReference
 ```
@@ -3187,7 +3187,7 @@ func InternalValue() OdbOdbNetworkManagedServices
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.odbOdbNetwork.OdbOdbNetworkManagedServicesS3AccessOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/odbodbnetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/odbodbnetwork"
 
 odbodbnetwork.NewOdbOdbNetworkManagedServicesS3AccessOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OdbOdbNetworkManagedServicesS3AccessOutputReference
 ```
@@ -3480,7 +3480,7 @@ func InternalValue() OdbOdbNetworkManagedServicesS3Access
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.odbOdbNetwork.OdbOdbNetworkManagedServicesServiceNetworkEndpointOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/odbodbnetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/odbodbnetwork"
 
 odbodbnetwork.NewOdbOdbNetworkManagedServicesServiceNetworkEndpointOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OdbOdbNetworkManagedServicesServiceNetworkEndpointOutputReference
 ```
@@ -3751,7 +3751,7 @@ func InternalValue() OdbOdbNetworkManagedServicesServiceNetworkEndpoint
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.odbOdbNetwork.OdbOdbNetworkManagedServicesStsAccessOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/odbodbnetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/odbodbnetwork"
 
 odbodbnetwork.NewOdbOdbNetworkManagedServicesStsAccessOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OdbOdbNetworkManagedServicesStsAccessOutputReference
 ```
@@ -4044,7 +4044,7 @@ func InternalValue() OdbOdbNetworkManagedServicesStsAccess
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.odbOdbNetwork.OdbOdbNetworkManagedServicesZeroEtlAccessOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/odbodbnetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/odbodbnetwork"
 
 odbodbnetwork.NewOdbOdbNetworkManagedServicesZeroEtlAccessOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OdbOdbNetworkManagedServicesZeroEtlAccessOutputReference
 ```
@@ -4315,7 +4315,7 @@ func InternalValue() OdbOdbNetworkManagedServicesZeroEtlAccess
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.odbOdbNetwork.OdbOdbNetworkTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/odbodbnetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/odbodbnetwork"
 
 odbodbnetwork.NewOdbOdbNetworkTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OdbOdbNetworkTagsList
 ```
@@ -4475,7 +4475,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.odbOdbNetwork.OdbOdbNetworkTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/odbodbnetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/odbodbnetwork"
 
 odbodbnetwork.NewOdbOdbNetworkTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OdbOdbNetworkTagsOutputReference
 ```

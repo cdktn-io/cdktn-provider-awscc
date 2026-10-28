@@ -4,12 +4,12 @@
 
 ### DataAwsccSagemakerAlgorithms <a name="DataAwsccSagemakerAlgorithms" id="@cdktn/provider-awscc.dataAwsccSagemakerAlgorithms.DataAwsccSagemakerAlgorithms"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_algorithms awscc_sagemaker_algorithms}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_algorithms awscc_sagemaker_algorithms}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerAlgorithms.DataAwsccSagemakerAlgorithms.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakeralgorithms"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakeralgorithms"
 
 dataawsccsagemakeralgorithms.NewDataAwsccSagemakerAlgorithms(scope Construct, id *string, config DataAwsccSagemakerAlgorithmsConfig) DataAwsccSagemakerAlgorithms
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSagemakerAlgorithms.DataAwsccSagemakerAlgorithms.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakeralgorithms"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakeralgorithms"
 
 dataawsccsagemakeralgorithms.DataAwsccSagemakerAlgorithms_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSagemakerAlgorithms.DataAwsccSagemakerAlgorithms.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakeralgorithms"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakeralgorithms"
 
 dataawsccsagemakeralgorithms.DataAwsccSagemakerAlgorithms_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsagemakeralgorithms.DataAwsccSagemakerAlgorithms_IsTerraformElement(x i
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSagemakerAlgorithms.DataAwsccSagemakerAlgorithms.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakeralgorithms"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakeralgorithms"
 
 dataawsccsagemakeralgorithms.DataAwsccSagemakerAlgorithms_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsagemakeralgorithms.DataAwsccSagemakerAlgorithms_IsTerraformDataSource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSagemakerAlgorithms.DataAwsccSagemakerAlgorithms.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakeralgorithms"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakeralgorithms"
 
 dataawsccsagemakeralgorithms.DataAwsccSagemakerAlgorithms_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSagemakerAlgorith
 
 The id of the existing DataAwsccSagemakerAlgorithms that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_algorithms#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_algorithms#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerAlgorithms.DataAwsccSagemakerAlgorithmsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakeralgorithms"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakeralgorithms"
 
 &dataawsccsagemakeralgorithms.DataAwsccSagemakerAlgorithmsConfig {
 	Connection: interface{},

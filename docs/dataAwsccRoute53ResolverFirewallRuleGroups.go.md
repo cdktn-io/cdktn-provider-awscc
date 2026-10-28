@@ -4,12 +4,12 @@
 
 ### DataAwsccRoute53ResolverFirewallRuleGroups <a name="DataAwsccRoute53ResolverFirewallRuleGroups" id="@cdktn/provider-awscc.dataAwsccRoute53ResolverFirewallRuleGroups.DataAwsccRoute53ResolverFirewallRuleGroups"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53resolver_firewall_rule_groups awscc_route53resolver_firewall_rule_groups}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53resolver_firewall_rule_groups awscc_route53resolver_firewall_rule_groups}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53ResolverFirewallRuleGroups.DataAwsccRoute53ResolverFirewallRuleGroups.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53resolverfirewallrulegroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53resolverfirewallrulegroups"
 
 dataawsccroute53resolverfirewallrulegroups.NewDataAwsccRoute53ResolverFirewallRuleGroups(scope Construct, id *string, config DataAwsccRoute53ResolverFirewallRuleGroupsConfig) DataAwsccRoute53ResolverFirewallRuleGroups
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccRoute53ResolverFirewallRuleGroups.DataAwsccRoute53ResolverFirewallRuleGroups.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53resolverfirewallrulegroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53resolverfirewallrulegroups"
 
 dataawsccroute53resolverfirewallrulegroups.DataAwsccRoute53ResolverFirewallRuleGroups_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccRoute53ResolverFirewallRuleGroups.DataAwsccRoute53ResolverFirewallRuleGroups.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53resolverfirewallrulegroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53resolverfirewallrulegroups"
 
 dataawsccroute53resolverfirewallrulegroups.DataAwsccRoute53ResolverFirewallRuleGroups_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccroute53resolverfirewallrulegroups.DataAwsccRoute53ResolverFirewallRuleG
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccRoute53ResolverFirewallRuleGroups.DataAwsccRoute53ResolverFirewallRuleGroups.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53resolverfirewallrulegroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53resolverfirewallrulegroups"
 
 dataawsccroute53resolverfirewallrulegroups.DataAwsccRoute53ResolverFirewallRuleGroups_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccroute53resolverfirewallrulegroups.DataAwsccRoute53ResolverFirewallRuleG
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccRoute53ResolverFirewallRuleGroups.DataAwsccRoute53ResolverFirewallRuleGroups.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53resolverfirewallrulegroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53resolverfirewallrulegroups"
 
 dataawsccroute53resolverfirewallrulegroups.DataAwsccRoute53ResolverFirewallRuleGroups_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRoute53ResolverFi
 
 The id of the existing DataAwsccRoute53ResolverFirewallRuleGroups that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53resolver_firewall_rule_groups#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53resolver_firewall_rule_groups#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRoute53ResolverFirewallRuleGroups.DataAwsccRoute53ResolverFirewallRuleGroupsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53resolverfirewallrulegroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53resolverfirewallrulegroups"
 
 &dataawsccroute53resolverfirewallrulegroups.DataAwsccRoute53ResolverFirewallRuleGroupsConfig {
 	Connection: interface{},

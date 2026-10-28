@@ -4,12 +4,12 @@
 
 ### NotificationsEventRule <a name="NotificationsEventRule" id="@cdktn/provider-awscc.notificationsEventRule.NotificationsEventRule"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/notifications_event_rule awscc_notifications_event_rule}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/notifications_event_rule awscc_notifications_event_rule}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.notificationsEventRule.NotificationsEventRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/notificationseventrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/notificationseventrule"
 
 notificationseventrule.NewNotificationsEventRule(scope Construct, id *string, config NotificationsEventRuleConfig) NotificationsEventRule
 ```
@@ -407,7 +407,7 @@ func ResetEventPattern()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.notificationsEventRule.NotificationsEventRule.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/notificationseventrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/notificationseventrule"
 
 notificationseventrule.NotificationsEventRule_IsConstruct(x interface{}) *bool
 ```
@@ -439,7 +439,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.notificationsEventRule.NotificationsEventRule.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/notificationseventrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/notificationseventrule"
 
 notificationseventrule.NotificationsEventRule_IsTerraformElement(x interface{}) *bool
 ```
@@ -453,7 +453,7 @@ notificationseventrule.NotificationsEventRule_IsTerraformElement(x interface{}) 
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.notificationsEventRule.NotificationsEventRule.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/notificationseventrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/notificationseventrule"
 
 notificationseventrule.NotificationsEventRule_IsTerraformResource(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ notificationseventrule.NotificationsEventRule_IsTerraformResource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.notificationsEventRule.NotificationsEventRule.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/notificationseventrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/notificationseventrule"
 
 notificationseventrule.NotificationsEventRule_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -496,7 +496,7 @@ The construct id used in the generated config for the NotificationsEventRule to 
 
 The id of the existing NotificationsEventRule that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/notifications_event_rule#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/notifications_event_rule#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -861,7 +861,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.notificationsEventRule.NotificationsEventRuleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/notificationseventrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/notificationseventrule"
 
 &notificationseventrule.NotificationsEventRuleConfig {
 	Connection: interface{},
@@ -890,11 +890,11 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/notificationseventrule
 | <code><a href="#@cdktn/provider-awscc.notificationsEventRule.NotificationsEventRuleConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.notificationsEventRule.NotificationsEventRuleConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.notificationsEventRule.NotificationsEventRuleConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.notificationsEventRule.NotificationsEventRuleConfig.property.eventType">EventType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/notifications_event_rule#event_type NotificationsEventRule#event_type}. |
-| <code><a href="#@cdktn/provider-awscc.notificationsEventRule.NotificationsEventRuleConfig.property.notificationConfigurationArn">NotificationConfigurationArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/notifications_event_rule#notification_configuration_arn NotificationsEventRule#notification_configuration_arn}. |
-| <code><a href="#@cdktn/provider-awscc.notificationsEventRule.NotificationsEventRuleConfig.property.regions">Regions</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/notifications_event_rule#regions NotificationsEventRule#regions}. |
-| <code><a href="#@cdktn/provider-awscc.notificationsEventRule.NotificationsEventRuleConfig.property.source">Source</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/notifications_event_rule#source NotificationsEventRule#source}. |
-| <code><a href="#@cdktn/provider-awscc.notificationsEventRule.NotificationsEventRuleConfig.property.eventPattern">EventPattern</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/notifications_event_rule#event_pattern NotificationsEventRule#event_pattern}. |
+| <code><a href="#@cdktn/provider-awscc.notificationsEventRule.NotificationsEventRuleConfig.property.eventType">EventType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/notifications_event_rule#event_type NotificationsEventRule#event_type}. |
+| <code><a href="#@cdktn/provider-awscc.notificationsEventRule.NotificationsEventRuleConfig.property.notificationConfigurationArn">NotificationConfigurationArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/notifications_event_rule#notification_configuration_arn NotificationsEventRule#notification_configuration_arn}. |
+| <code><a href="#@cdktn/provider-awscc.notificationsEventRule.NotificationsEventRuleConfig.property.regions">Regions</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/notifications_event_rule#regions NotificationsEventRule#regions}. |
+| <code><a href="#@cdktn/provider-awscc.notificationsEventRule.NotificationsEventRuleConfig.property.source">Source</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/notifications_event_rule#source NotificationsEventRule#source}. |
+| <code><a href="#@cdktn/provider-awscc.notificationsEventRule.NotificationsEventRuleConfig.property.eventPattern">EventPattern</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/notifications_event_rule#event_pattern NotificationsEventRule#event_pattern}. |
 
 ---
 
@@ -976,7 +976,7 @@ EventType *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/notifications_event_rule#event_type NotificationsEventRule#event_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/notifications_event_rule#event_type NotificationsEventRule#event_type}.
 
 ---
 
@@ -988,7 +988,7 @@ NotificationConfigurationArn *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/notifications_event_rule#notification_configuration_arn NotificationsEventRule#notification_configuration_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/notifications_event_rule#notification_configuration_arn NotificationsEventRule#notification_configuration_arn}.
 
 ---
 
@@ -1000,7 +1000,7 @@ Regions *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/notifications_event_rule#regions NotificationsEventRule#regions}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/notifications_event_rule#regions NotificationsEventRule#regions}.
 
 ---
 
@@ -1012,7 +1012,7 @@ Source *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/notifications_event_rule#source NotificationsEventRule#source}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/notifications_event_rule#source NotificationsEventRule#source}.
 
 ---
 
@@ -1024,7 +1024,7 @@ EventPattern *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/notifications_event_rule#event_pattern NotificationsEventRule#event_pattern}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/notifications_event_rule#event_pattern NotificationsEventRule#event_pattern}.
 
 ---
 
@@ -1033,7 +1033,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.notificationsEventRule.NotificationsEventRuleStatusSummaryByRegion.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/notificationseventrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/notificationseventrule"
 
 &notificationseventrule.NotificationsEventRuleStatusSummaryByRegion {
 
@@ -1048,7 +1048,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/notificationseventrule
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.notificationsEventRule.NotificationsEventRuleStatusSummaryByRegionMap.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/notificationseventrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/notificationseventrule"
 
 notificationseventrule.NewNotificationsEventRuleStatusSummaryByRegionMap(terraformResource IInterpolatingParent, terraformAttribute *string) NotificationsEventRuleStatusSummaryByRegionMap
 ```
@@ -1184,7 +1184,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.notificationsEventRule.NotificationsEventRuleStatusSummaryByRegionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/notificationseventrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/notificationseventrule"
 
 notificationseventrule.NewNotificationsEventRuleStatusSummaryByRegionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectKey *string) NotificationsEventRuleStatusSummaryByRegionOutputReference
 ```

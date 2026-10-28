@@ -4,12 +4,12 @@
 
 ### DataAwsccPcaconnectoradTemplate <a name="DataAwsccPcaconnectoradTemplate" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplate"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/pcaconnectorad_template awscc_pcaconnectorad_template}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/pcaconnectorad_template awscc_pcaconnectorad_template}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 dataawsccpcaconnectoradtemplate.NewDataAwsccPcaconnectoradTemplate(scope Construct, id *string, config DataAwsccPcaconnectoradTemplateConfig) DataAwsccPcaconnectoradTemplate
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplate.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 dataawsccpcaconnectoradtemplate.DataAwsccPcaconnectoradTemplate_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplate.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 dataawsccpcaconnectoradtemplate.DataAwsccPcaconnectoradTemplate_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccpcaconnectoradtemplate.DataAwsccPcaconnectoradTemplate_IsTerraformEleme
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplate.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 dataawsccpcaconnectoradtemplate.DataAwsccPcaconnectoradTemplate_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccpcaconnectoradtemplate.DataAwsccPcaconnectoradTemplate_IsTerraformDataS
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplate.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 dataawsccpcaconnectoradtemplate.DataAwsccPcaconnectoradTemplate_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccPcaconnectoradTem
 
 The id of the existing DataAwsccPcaconnectoradTemplate that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/pcaconnectorad_template#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/pcaconnectorad_template#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -653,7 +653,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 &dataawsccpcaconnectoradtemplate.DataAwsccPcaconnectoradTemplateConfig {
 	Connection: interface{},
@@ -762,7 +762,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/pcaconnectorad_template#id DataAwsccPcaconnectoradTemplate#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/pcaconnectorad_template#id DataAwsccPcaconnectoradTemplate#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -774,7 +774,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 &dataawsccpcaconnectoradtemplate.DataAwsccPcaconnectoradTemplateDefinition {
 
@@ -787,7 +787,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectora
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV2.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 &dataawsccpcaconnectoradtemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV2 {
 
@@ -800,7 +800,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectora
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV2CertificateValidity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 &dataawsccpcaconnectoradtemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV2CertificateValidity {
 
@@ -813,7 +813,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectora
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV2CertificateValidityRenewalPeriod.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 &dataawsccpcaconnectoradtemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV2CertificateValidityRenewalPeriod {
 
@@ -826,7 +826,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectora
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV2CertificateValidityValidityPeriod.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 &dataawsccpcaconnectoradtemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV2CertificateValidityValidityPeriod {
 
@@ -839,7 +839,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectora
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV2EnrollmentFlags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 &dataawsccpcaconnectoradtemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV2EnrollmentFlags {
 
@@ -852,7 +852,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectora
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV2Extensions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 &dataawsccpcaconnectoradtemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV2Extensions {
 
@@ -865,7 +865,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectora
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV2ExtensionsApplicationPolicies.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 &dataawsccpcaconnectoradtemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV2ExtensionsApplicationPolicies {
 
@@ -878,7 +878,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectora
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV2ExtensionsApplicationPoliciesPolicies.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 &dataawsccpcaconnectoradtemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV2ExtensionsApplicationPoliciesPolicies {
 
@@ -891,7 +891,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectora
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV2ExtensionsKeyUsage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 &dataawsccpcaconnectoradtemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV2ExtensionsKeyUsage {
 
@@ -904,7 +904,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectora
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV2ExtensionsKeyUsageUsageFlags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 &dataawsccpcaconnectoradtemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV2ExtensionsKeyUsageUsageFlags {
 
@@ -917,7 +917,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectora
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV2GeneralFlags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 &dataawsccpcaconnectoradtemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV2GeneralFlags {
 
@@ -930,7 +930,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectora
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV2PrivateKeyAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 &dataawsccpcaconnectoradtemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV2PrivateKeyAttributes {
 
@@ -943,7 +943,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectora
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV2PrivateKeyFlags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 &dataawsccpcaconnectoradtemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV2PrivateKeyFlags {
 
@@ -956,7 +956,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectora
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV2SubjectNameFlags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 &dataawsccpcaconnectoradtemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV2SubjectNameFlags {
 
@@ -969,7 +969,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectora
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV3.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 &dataawsccpcaconnectoradtemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV3 {
 
@@ -982,7 +982,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectora
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV3CertificateValidity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 &dataawsccpcaconnectoradtemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV3CertificateValidity {
 
@@ -995,7 +995,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectora
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV3CertificateValidityRenewalPeriod.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 &dataawsccpcaconnectoradtemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV3CertificateValidityRenewalPeriod {
 
@@ -1008,7 +1008,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectora
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV3CertificateValidityValidityPeriod.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 &dataawsccpcaconnectoradtemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV3CertificateValidityValidityPeriod {
 
@@ -1021,7 +1021,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectora
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV3EnrollmentFlags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 &dataawsccpcaconnectoradtemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV3EnrollmentFlags {
 
@@ -1034,7 +1034,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectora
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV3Extensions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 &dataawsccpcaconnectoradtemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV3Extensions {
 
@@ -1047,7 +1047,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectora
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV3ExtensionsApplicationPolicies.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 &dataawsccpcaconnectoradtemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV3ExtensionsApplicationPolicies {
 
@@ -1060,7 +1060,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectora
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV3ExtensionsApplicationPoliciesPolicies.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 &dataawsccpcaconnectoradtemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV3ExtensionsApplicationPoliciesPolicies {
 
@@ -1073,7 +1073,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectora
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV3ExtensionsKeyUsage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 &dataawsccpcaconnectoradtemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV3ExtensionsKeyUsage {
 
@@ -1086,7 +1086,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectora
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV3ExtensionsKeyUsageUsageFlags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 &dataawsccpcaconnectoradtemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV3ExtensionsKeyUsageUsageFlags {
 
@@ -1099,7 +1099,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectora
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV3GeneralFlags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 &dataawsccpcaconnectoradtemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV3GeneralFlags {
 
@@ -1112,7 +1112,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectora
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 &dataawsccpcaconnectoradtemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributes {
 
@@ -1125,7 +1125,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectora
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributesKeyUsageProperty.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 &dataawsccpcaconnectoradtemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributesKeyUsageProperty {
 
@@ -1138,7 +1138,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectora
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributesKeyUsagePropertyPropertyFlags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 &dataawsccpcaconnectoradtemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributesKeyUsagePropertyPropertyFlags {
 
@@ -1151,7 +1151,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectora
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV3PrivateKeyFlags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 &dataawsccpcaconnectoradtemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV3PrivateKeyFlags {
 
@@ -1164,7 +1164,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectora
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV3SubjectNameFlags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 &dataawsccpcaconnectoradtemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV3SubjectNameFlags {
 
@@ -1177,7 +1177,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectora
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV4.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 &dataawsccpcaconnectoradtemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV4 {
 
@@ -1190,7 +1190,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectora
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV4CertificateValidity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 &dataawsccpcaconnectoradtemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV4CertificateValidity {
 
@@ -1203,7 +1203,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectora
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV4CertificateValidityRenewalPeriod.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 &dataawsccpcaconnectoradtemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV4CertificateValidityRenewalPeriod {
 
@@ -1216,7 +1216,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectora
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV4CertificateValidityValidityPeriod.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 &dataawsccpcaconnectoradtemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV4CertificateValidityValidityPeriod {
 
@@ -1229,7 +1229,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectora
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV4EnrollmentFlags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 &dataawsccpcaconnectoradtemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV4EnrollmentFlags {
 
@@ -1242,7 +1242,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectora
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV4Extensions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 &dataawsccpcaconnectoradtemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV4Extensions {
 
@@ -1255,7 +1255,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectora
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV4ExtensionsApplicationPolicies.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 &dataawsccpcaconnectoradtemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV4ExtensionsApplicationPolicies {
 
@@ -1268,7 +1268,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectora
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV4ExtensionsApplicationPoliciesPolicies.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 &dataawsccpcaconnectoradtemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV4ExtensionsApplicationPoliciesPolicies {
 
@@ -1281,7 +1281,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectora
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV4ExtensionsKeyUsage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 &dataawsccpcaconnectoradtemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV4ExtensionsKeyUsage {
 
@@ -1294,7 +1294,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectora
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV4ExtensionsKeyUsageUsageFlags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 &dataawsccpcaconnectoradtemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV4ExtensionsKeyUsageUsageFlags {
 
@@ -1307,7 +1307,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectora
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV4GeneralFlags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 &dataawsccpcaconnectoradtemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV4GeneralFlags {
 
@@ -1320,7 +1320,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectora
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 &dataawsccpcaconnectoradtemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributes {
 
@@ -1333,7 +1333,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectora
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributesKeyUsageProperty.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 &dataawsccpcaconnectoradtemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributesKeyUsageProperty {
 
@@ -1346,7 +1346,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectora
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributesKeyUsagePropertyPropertyFlags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 &dataawsccpcaconnectoradtemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributesKeyUsagePropertyPropertyFlags {
 
@@ -1359,7 +1359,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectora
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV4PrivateKeyFlags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 &dataawsccpcaconnectoradtemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV4PrivateKeyFlags {
 
@@ -1372,7 +1372,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectora
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV4SubjectNameFlags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 &dataawsccpcaconnectoradtemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV4SubjectNameFlags {
 
@@ -1387,7 +1387,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectora
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 dataawsccpcaconnectoradtemplate.NewDataAwsccPcaconnectoradTemplateDefinitionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPcaconnectoradTemplateDefinitionOutputReference
 ```
@@ -1669,7 +1669,7 @@ func InternalValue() DataAwsccPcaconnectoradTemplateDefinition
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV2CertificateValidityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 dataawsccpcaconnectoradtemplate.NewDataAwsccPcaconnectoradTemplateDefinitionTemplateV2CertificateValidityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPcaconnectoradTemplateDefinitionTemplateV2CertificateValidityOutputReference
 ```
@@ -1940,7 +1940,7 @@ func InternalValue() DataAwsccPcaconnectoradTemplateDefinitionTemplateV2Certific
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV2CertificateValidityRenewalPeriodOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 dataawsccpcaconnectoradtemplate.NewDataAwsccPcaconnectoradTemplateDefinitionTemplateV2CertificateValidityRenewalPeriodOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPcaconnectoradTemplateDefinitionTemplateV2CertificateValidityRenewalPeriodOutputReference
 ```
@@ -2211,7 +2211,7 @@ func InternalValue() DataAwsccPcaconnectoradTemplateDefinitionTemplateV2Certific
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV2CertificateValidityValidityPeriodOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 dataawsccpcaconnectoradtemplate.NewDataAwsccPcaconnectoradTemplateDefinitionTemplateV2CertificateValidityValidityPeriodOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPcaconnectoradTemplateDefinitionTemplateV2CertificateValidityValidityPeriodOutputReference
 ```
@@ -2482,7 +2482,7 @@ func InternalValue() DataAwsccPcaconnectoradTemplateDefinitionTemplateV2Certific
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV2EnrollmentFlagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 dataawsccpcaconnectoradtemplate.NewDataAwsccPcaconnectoradTemplateDefinitionTemplateV2EnrollmentFlagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPcaconnectoradTemplateDefinitionTemplateV2EnrollmentFlagsOutputReference
 ```
@@ -2786,7 +2786,7 @@ func InternalValue() DataAwsccPcaconnectoradTemplateDefinitionTemplateV2Enrollme
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV2ExtensionsApplicationPoliciesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 dataawsccpcaconnectoradtemplate.NewDataAwsccPcaconnectoradTemplateDefinitionTemplateV2ExtensionsApplicationPoliciesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPcaconnectoradTemplateDefinitionTemplateV2ExtensionsApplicationPoliciesOutputReference
 ```
@@ -3057,7 +3057,7 @@ func InternalValue() DataAwsccPcaconnectoradTemplateDefinitionTemplateV2Extensio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV2ExtensionsApplicationPoliciesPoliciesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 dataawsccpcaconnectoradtemplate.NewDataAwsccPcaconnectoradTemplateDefinitionTemplateV2ExtensionsApplicationPoliciesPoliciesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccPcaconnectoradTemplateDefinitionTemplateV2ExtensionsApplicationPoliciesPoliciesList
 ```
@@ -3206,7 +3206,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV2ExtensionsApplicationPoliciesPoliciesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 dataawsccpcaconnectoradtemplate.NewDataAwsccPcaconnectoradTemplateDefinitionTemplateV2ExtensionsApplicationPoliciesPoliciesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccPcaconnectoradTemplateDefinitionTemplateV2ExtensionsApplicationPoliciesPoliciesOutputReference
 ```
@@ -3495,7 +3495,7 @@ func InternalValue() DataAwsccPcaconnectoradTemplateDefinitionTemplateV2Extensio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV2ExtensionsKeyUsageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 dataawsccpcaconnectoradtemplate.NewDataAwsccPcaconnectoradTemplateDefinitionTemplateV2ExtensionsKeyUsageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPcaconnectoradTemplateDefinitionTemplateV2ExtensionsKeyUsageOutputReference
 ```
@@ -3766,7 +3766,7 @@ func InternalValue() DataAwsccPcaconnectoradTemplateDefinitionTemplateV2Extensio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV2ExtensionsKeyUsageUsageFlagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 dataawsccpcaconnectoradtemplate.NewDataAwsccPcaconnectoradTemplateDefinitionTemplateV2ExtensionsKeyUsageUsageFlagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPcaconnectoradTemplateDefinitionTemplateV2ExtensionsKeyUsageUsageFlagsOutputReference
 ```
@@ -4070,7 +4070,7 @@ func InternalValue() DataAwsccPcaconnectoradTemplateDefinitionTemplateV2Extensio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV2ExtensionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 dataawsccpcaconnectoradtemplate.NewDataAwsccPcaconnectoradTemplateDefinitionTemplateV2ExtensionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPcaconnectoradTemplateDefinitionTemplateV2ExtensionsOutputReference
 ```
@@ -4341,7 +4341,7 @@ func InternalValue() DataAwsccPcaconnectoradTemplateDefinitionTemplateV2Extensio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV2GeneralFlagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 dataawsccpcaconnectoradtemplate.NewDataAwsccPcaconnectoradTemplateDefinitionTemplateV2GeneralFlagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPcaconnectoradTemplateDefinitionTemplateV2GeneralFlagsOutputReference
 ```
@@ -4612,7 +4612,7 @@ func InternalValue() DataAwsccPcaconnectoradTemplateDefinitionTemplateV2GeneralF
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV2OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 dataawsccpcaconnectoradtemplate.NewDataAwsccPcaconnectoradTemplateDefinitionTemplateV2OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPcaconnectoradTemplateDefinitionTemplateV2OutputReference
 ```
@@ -4949,7 +4949,7 @@ func InternalValue() DataAwsccPcaconnectoradTemplateDefinitionTemplateV2
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV2PrivateKeyAttributesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 dataawsccpcaconnectoradtemplate.NewDataAwsccPcaconnectoradTemplateDefinitionTemplateV2PrivateKeyAttributesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPcaconnectoradTemplateDefinitionTemplateV2PrivateKeyAttributesOutputReference
 ```
@@ -5231,7 +5231,7 @@ func InternalValue() DataAwsccPcaconnectoradTemplateDefinitionTemplateV2PrivateK
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV2PrivateKeyFlagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 dataawsccpcaconnectoradtemplate.NewDataAwsccPcaconnectoradTemplateDefinitionTemplateV2PrivateKeyFlagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPcaconnectoradTemplateDefinitionTemplateV2PrivateKeyFlagsOutputReference
 ```
@@ -5513,7 +5513,7 @@ func InternalValue() DataAwsccPcaconnectoradTemplateDefinitionTemplateV2PrivateK
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV2SubjectNameFlagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 dataawsccpcaconnectoradtemplate.NewDataAwsccPcaconnectoradTemplateDefinitionTemplateV2SubjectNameFlagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPcaconnectoradTemplateDefinitionTemplateV2SubjectNameFlagsOutputReference
 ```
@@ -5872,7 +5872,7 @@ func InternalValue() DataAwsccPcaconnectoradTemplateDefinitionTemplateV2SubjectN
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV3CertificateValidityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 dataawsccpcaconnectoradtemplate.NewDataAwsccPcaconnectoradTemplateDefinitionTemplateV3CertificateValidityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPcaconnectoradTemplateDefinitionTemplateV3CertificateValidityOutputReference
 ```
@@ -6143,7 +6143,7 @@ func InternalValue() DataAwsccPcaconnectoradTemplateDefinitionTemplateV3Certific
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV3CertificateValidityRenewalPeriodOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 dataawsccpcaconnectoradtemplate.NewDataAwsccPcaconnectoradTemplateDefinitionTemplateV3CertificateValidityRenewalPeriodOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPcaconnectoradTemplateDefinitionTemplateV3CertificateValidityRenewalPeriodOutputReference
 ```
@@ -6414,7 +6414,7 @@ func InternalValue() DataAwsccPcaconnectoradTemplateDefinitionTemplateV3Certific
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV3CertificateValidityValidityPeriodOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 dataawsccpcaconnectoradtemplate.NewDataAwsccPcaconnectoradTemplateDefinitionTemplateV3CertificateValidityValidityPeriodOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPcaconnectoradTemplateDefinitionTemplateV3CertificateValidityValidityPeriodOutputReference
 ```
@@ -6685,7 +6685,7 @@ func InternalValue() DataAwsccPcaconnectoradTemplateDefinitionTemplateV3Certific
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV3EnrollmentFlagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 dataawsccpcaconnectoradtemplate.NewDataAwsccPcaconnectoradTemplateDefinitionTemplateV3EnrollmentFlagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPcaconnectoradTemplateDefinitionTemplateV3EnrollmentFlagsOutputReference
 ```
@@ -6989,7 +6989,7 @@ func InternalValue() DataAwsccPcaconnectoradTemplateDefinitionTemplateV3Enrollme
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV3ExtensionsApplicationPoliciesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 dataawsccpcaconnectoradtemplate.NewDataAwsccPcaconnectoradTemplateDefinitionTemplateV3ExtensionsApplicationPoliciesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPcaconnectoradTemplateDefinitionTemplateV3ExtensionsApplicationPoliciesOutputReference
 ```
@@ -7260,7 +7260,7 @@ func InternalValue() DataAwsccPcaconnectoradTemplateDefinitionTemplateV3Extensio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV3ExtensionsApplicationPoliciesPoliciesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 dataawsccpcaconnectoradtemplate.NewDataAwsccPcaconnectoradTemplateDefinitionTemplateV3ExtensionsApplicationPoliciesPoliciesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccPcaconnectoradTemplateDefinitionTemplateV3ExtensionsApplicationPoliciesPoliciesList
 ```
@@ -7409,7 +7409,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV3ExtensionsApplicationPoliciesPoliciesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 dataawsccpcaconnectoradtemplate.NewDataAwsccPcaconnectoradTemplateDefinitionTemplateV3ExtensionsApplicationPoliciesPoliciesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccPcaconnectoradTemplateDefinitionTemplateV3ExtensionsApplicationPoliciesPoliciesOutputReference
 ```
@@ -7698,7 +7698,7 @@ func InternalValue() DataAwsccPcaconnectoradTemplateDefinitionTemplateV3Extensio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV3ExtensionsKeyUsageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 dataawsccpcaconnectoradtemplate.NewDataAwsccPcaconnectoradTemplateDefinitionTemplateV3ExtensionsKeyUsageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPcaconnectoradTemplateDefinitionTemplateV3ExtensionsKeyUsageOutputReference
 ```
@@ -7969,7 +7969,7 @@ func InternalValue() DataAwsccPcaconnectoradTemplateDefinitionTemplateV3Extensio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV3ExtensionsKeyUsageUsageFlagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 dataawsccpcaconnectoradtemplate.NewDataAwsccPcaconnectoradTemplateDefinitionTemplateV3ExtensionsKeyUsageUsageFlagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPcaconnectoradTemplateDefinitionTemplateV3ExtensionsKeyUsageUsageFlagsOutputReference
 ```
@@ -8273,7 +8273,7 @@ func InternalValue() DataAwsccPcaconnectoradTemplateDefinitionTemplateV3Extensio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV3ExtensionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 dataawsccpcaconnectoradtemplate.NewDataAwsccPcaconnectoradTemplateDefinitionTemplateV3ExtensionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPcaconnectoradTemplateDefinitionTemplateV3ExtensionsOutputReference
 ```
@@ -8544,7 +8544,7 @@ func InternalValue() DataAwsccPcaconnectoradTemplateDefinitionTemplateV3Extensio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV3GeneralFlagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 dataawsccpcaconnectoradtemplate.NewDataAwsccPcaconnectoradTemplateDefinitionTemplateV3GeneralFlagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPcaconnectoradTemplateDefinitionTemplateV3GeneralFlagsOutputReference
 ```
@@ -8815,7 +8815,7 @@ func InternalValue() DataAwsccPcaconnectoradTemplateDefinitionTemplateV3GeneralF
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV3OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 dataawsccpcaconnectoradtemplate.NewDataAwsccPcaconnectoradTemplateDefinitionTemplateV3OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPcaconnectoradTemplateDefinitionTemplateV3OutputReference
 ```
@@ -9163,7 +9163,7 @@ func InternalValue() DataAwsccPcaconnectoradTemplateDefinitionTemplateV3
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributesKeyUsagePropertyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 dataawsccpcaconnectoradtemplate.NewDataAwsccPcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributesKeyUsagePropertyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributesKeyUsagePropertyOutputReference
 ```
@@ -9434,7 +9434,7 @@ func InternalValue() DataAwsccPcaconnectoradTemplateDefinitionTemplateV3PrivateK
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributesKeyUsagePropertyPropertyFlagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 dataawsccpcaconnectoradtemplate.NewDataAwsccPcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributesKeyUsagePropertyPropertyFlagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributesKeyUsagePropertyPropertyFlagsOutputReference
 ```
@@ -9716,7 +9716,7 @@ func InternalValue() DataAwsccPcaconnectoradTemplateDefinitionTemplateV3PrivateK
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 dataawsccpcaconnectoradtemplate.NewDataAwsccPcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributesOutputReference
 ```
@@ -10020,7 +10020,7 @@ func InternalValue() DataAwsccPcaconnectoradTemplateDefinitionTemplateV3PrivateK
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV3PrivateKeyFlagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 dataawsccpcaconnectoradtemplate.NewDataAwsccPcaconnectoradTemplateDefinitionTemplateV3PrivateKeyFlagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPcaconnectoradTemplateDefinitionTemplateV3PrivateKeyFlagsOutputReference
 ```
@@ -10313,7 +10313,7 @@ func InternalValue() DataAwsccPcaconnectoradTemplateDefinitionTemplateV3PrivateK
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV3SubjectNameFlagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 dataawsccpcaconnectoradtemplate.NewDataAwsccPcaconnectoradTemplateDefinitionTemplateV3SubjectNameFlagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPcaconnectoradTemplateDefinitionTemplateV3SubjectNameFlagsOutputReference
 ```
@@ -10672,7 +10672,7 @@ func InternalValue() DataAwsccPcaconnectoradTemplateDefinitionTemplateV3SubjectN
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV4CertificateValidityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 dataawsccpcaconnectoradtemplate.NewDataAwsccPcaconnectoradTemplateDefinitionTemplateV4CertificateValidityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPcaconnectoradTemplateDefinitionTemplateV4CertificateValidityOutputReference
 ```
@@ -10943,7 +10943,7 @@ func InternalValue() DataAwsccPcaconnectoradTemplateDefinitionTemplateV4Certific
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV4CertificateValidityRenewalPeriodOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 dataawsccpcaconnectoradtemplate.NewDataAwsccPcaconnectoradTemplateDefinitionTemplateV4CertificateValidityRenewalPeriodOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPcaconnectoradTemplateDefinitionTemplateV4CertificateValidityRenewalPeriodOutputReference
 ```
@@ -11214,7 +11214,7 @@ func InternalValue() DataAwsccPcaconnectoradTemplateDefinitionTemplateV4Certific
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV4CertificateValidityValidityPeriodOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 dataawsccpcaconnectoradtemplate.NewDataAwsccPcaconnectoradTemplateDefinitionTemplateV4CertificateValidityValidityPeriodOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPcaconnectoradTemplateDefinitionTemplateV4CertificateValidityValidityPeriodOutputReference
 ```
@@ -11485,7 +11485,7 @@ func InternalValue() DataAwsccPcaconnectoradTemplateDefinitionTemplateV4Certific
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV4EnrollmentFlagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 dataawsccpcaconnectoradtemplate.NewDataAwsccPcaconnectoradTemplateDefinitionTemplateV4EnrollmentFlagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPcaconnectoradTemplateDefinitionTemplateV4EnrollmentFlagsOutputReference
 ```
@@ -11789,7 +11789,7 @@ func InternalValue() DataAwsccPcaconnectoradTemplateDefinitionTemplateV4Enrollme
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV4ExtensionsApplicationPoliciesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 dataawsccpcaconnectoradtemplate.NewDataAwsccPcaconnectoradTemplateDefinitionTemplateV4ExtensionsApplicationPoliciesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPcaconnectoradTemplateDefinitionTemplateV4ExtensionsApplicationPoliciesOutputReference
 ```
@@ -12060,7 +12060,7 @@ func InternalValue() DataAwsccPcaconnectoradTemplateDefinitionTemplateV4Extensio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV4ExtensionsApplicationPoliciesPoliciesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 dataawsccpcaconnectoradtemplate.NewDataAwsccPcaconnectoradTemplateDefinitionTemplateV4ExtensionsApplicationPoliciesPoliciesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccPcaconnectoradTemplateDefinitionTemplateV4ExtensionsApplicationPoliciesPoliciesList
 ```
@@ -12209,7 +12209,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV4ExtensionsApplicationPoliciesPoliciesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 dataawsccpcaconnectoradtemplate.NewDataAwsccPcaconnectoradTemplateDefinitionTemplateV4ExtensionsApplicationPoliciesPoliciesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccPcaconnectoradTemplateDefinitionTemplateV4ExtensionsApplicationPoliciesPoliciesOutputReference
 ```
@@ -12498,7 +12498,7 @@ func InternalValue() DataAwsccPcaconnectoradTemplateDefinitionTemplateV4Extensio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV4ExtensionsKeyUsageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 dataawsccpcaconnectoradtemplate.NewDataAwsccPcaconnectoradTemplateDefinitionTemplateV4ExtensionsKeyUsageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPcaconnectoradTemplateDefinitionTemplateV4ExtensionsKeyUsageOutputReference
 ```
@@ -12769,7 +12769,7 @@ func InternalValue() DataAwsccPcaconnectoradTemplateDefinitionTemplateV4Extensio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV4ExtensionsKeyUsageUsageFlagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 dataawsccpcaconnectoradtemplate.NewDataAwsccPcaconnectoradTemplateDefinitionTemplateV4ExtensionsKeyUsageUsageFlagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPcaconnectoradTemplateDefinitionTemplateV4ExtensionsKeyUsageUsageFlagsOutputReference
 ```
@@ -13073,7 +13073,7 @@ func InternalValue() DataAwsccPcaconnectoradTemplateDefinitionTemplateV4Extensio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV4ExtensionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 dataawsccpcaconnectoradtemplate.NewDataAwsccPcaconnectoradTemplateDefinitionTemplateV4ExtensionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPcaconnectoradTemplateDefinitionTemplateV4ExtensionsOutputReference
 ```
@@ -13344,7 +13344,7 @@ func InternalValue() DataAwsccPcaconnectoradTemplateDefinitionTemplateV4Extensio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV4GeneralFlagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 dataawsccpcaconnectoradtemplate.NewDataAwsccPcaconnectoradTemplateDefinitionTemplateV4GeneralFlagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPcaconnectoradTemplateDefinitionTemplateV4GeneralFlagsOutputReference
 ```
@@ -13615,7 +13615,7 @@ func InternalValue() DataAwsccPcaconnectoradTemplateDefinitionTemplateV4GeneralF
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV4OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 dataawsccpcaconnectoradtemplate.NewDataAwsccPcaconnectoradTemplateDefinitionTemplateV4OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPcaconnectoradTemplateDefinitionTemplateV4OutputReference
 ```
@@ -13963,7 +13963,7 @@ func InternalValue() DataAwsccPcaconnectoradTemplateDefinitionTemplateV4
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributesKeyUsagePropertyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 dataawsccpcaconnectoradtemplate.NewDataAwsccPcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributesKeyUsagePropertyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributesKeyUsagePropertyOutputReference
 ```
@@ -14234,7 +14234,7 @@ func InternalValue() DataAwsccPcaconnectoradTemplateDefinitionTemplateV4PrivateK
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributesKeyUsagePropertyPropertyFlagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 dataawsccpcaconnectoradtemplate.NewDataAwsccPcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributesKeyUsagePropertyPropertyFlagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributesKeyUsagePropertyPropertyFlagsOutputReference
 ```
@@ -14516,7 +14516,7 @@ func InternalValue() DataAwsccPcaconnectoradTemplateDefinitionTemplateV4PrivateK
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 dataawsccpcaconnectoradtemplate.NewDataAwsccPcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributesOutputReference
 ```
@@ -14820,7 +14820,7 @@ func InternalValue() DataAwsccPcaconnectoradTemplateDefinitionTemplateV4PrivateK
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV4PrivateKeyFlagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 dataawsccpcaconnectoradtemplate.NewDataAwsccPcaconnectoradTemplateDefinitionTemplateV4PrivateKeyFlagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPcaconnectoradTemplateDefinitionTemplateV4PrivateKeyFlagsOutputReference
 ```
@@ -15135,7 +15135,7 @@ func InternalValue() DataAwsccPcaconnectoradTemplateDefinitionTemplateV4PrivateK
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradTemplate.DataAwsccPcaconnectoradTemplateDefinitionTemplateV4SubjectNameFlagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplate"
 
 dataawsccpcaconnectoradtemplate.NewDataAwsccPcaconnectoradTemplateDefinitionTemplateV4SubjectNameFlagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPcaconnectoradTemplateDefinitionTemplateV4SubjectNameFlagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccIamManagedPolicies <a name="DataAwsccIamManagedPolicies" id="@cdktn/provider-awscc.dataAwsccIamManagedPolicies.DataAwsccIamManagedPolicies"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iam_managed_policies awscc_iam_managed_policies}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iam_managed_policies awscc_iam_managed_policies}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIamManagedPolicies.DataAwsccIamManagedPolicies.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciammanagedpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciammanagedpolicies"
 
 dataawscciammanagedpolicies.NewDataAwsccIamManagedPolicies(scope Construct, id *string, config DataAwsccIamManagedPoliciesConfig) DataAwsccIamManagedPolicies
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIamManagedPolicies.DataAwsccIamManagedPolicies.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciammanagedpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciammanagedpolicies"
 
 dataawscciammanagedpolicies.DataAwsccIamManagedPolicies_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIamManagedPolicies.DataAwsccIamManagedPolicies.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciammanagedpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciammanagedpolicies"
 
 dataawscciammanagedpolicies.DataAwsccIamManagedPolicies_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciammanagedpolicies.DataAwsccIamManagedPolicies_IsTerraformElement(x int
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIamManagedPolicies.DataAwsccIamManagedPolicies.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciammanagedpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciammanagedpolicies"
 
 dataawscciammanagedpolicies.DataAwsccIamManagedPolicies_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciammanagedpolicies.DataAwsccIamManagedPolicies_IsTerraformDataSource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIamManagedPolicies.DataAwsccIamManagedPolicies.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciammanagedpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciammanagedpolicies"
 
 dataawscciammanagedpolicies.DataAwsccIamManagedPolicies_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIamManagedPolicie
 
 The id of the existing DataAwsccIamManagedPolicies that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iam_managed_policies#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iam_managed_policies#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIamManagedPolicies.DataAwsccIamManagedPoliciesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciammanagedpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciammanagedpolicies"
 
 &dataawscciammanagedpolicies.DataAwsccIamManagedPoliciesConfig {
 	Connection: interface{},

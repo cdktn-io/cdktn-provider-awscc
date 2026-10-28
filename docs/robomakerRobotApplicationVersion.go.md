@@ -4,12 +4,12 @@
 
 ### RobomakerRobotApplicationVersion <a name="RobomakerRobotApplicationVersion" id="@cdktn/provider-awscc.robomakerRobotApplicationVersion.RobomakerRobotApplicationVersion"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/robomaker_robot_application_version awscc_robomaker_robot_application_version}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/robomaker_robot_application_version awscc_robomaker_robot_application_version}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.robomakerRobotApplicationVersion.RobomakerRobotApplicationVersion.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/robomakerrobotapplicationversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/robomakerrobotapplicationversion"
 
 robomakerrobotapplicationversion.NewRobomakerRobotApplicationVersion(scope Construct, id *string, config RobomakerRobotApplicationVersionConfig) RobomakerRobotApplicationVersion
 ```
@@ -407,7 +407,7 @@ func ResetCurrentRevisionId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.robomakerRobotApplicationVersion.RobomakerRobotApplicationVersion.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/robomakerrobotapplicationversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/robomakerrobotapplicationversion"
 
 robomakerrobotapplicationversion.RobomakerRobotApplicationVersion_IsConstruct(x interface{}) *bool
 ```
@@ -439,7 +439,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.robomakerRobotApplicationVersion.RobomakerRobotApplicationVersion.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/robomakerrobotapplicationversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/robomakerrobotapplicationversion"
 
 robomakerrobotapplicationversion.RobomakerRobotApplicationVersion_IsTerraformElement(x interface{}) *bool
 ```
@@ -453,7 +453,7 @@ robomakerrobotapplicationversion.RobomakerRobotApplicationVersion_IsTerraformEle
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.robomakerRobotApplicationVersion.RobomakerRobotApplicationVersion.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/robomakerrobotapplicationversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/robomakerrobotapplicationversion"
 
 robomakerrobotapplicationversion.RobomakerRobotApplicationVersion_IsTerraformResource(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ robomakerrobotapplicationversion.RobomakerRobotApplicationVersion_IsTerraformRes
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.robomakerRobotApplicationVersion.RobomakerRobotApplicationVersion.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/robomakerrobotapplicationversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/robomakerrobotapplicationversion"
 
 robomakerrobotapplicationversion.RobomakerRobotApplicationVersion_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -496,7 +496,7 @@ The construct id used in the generated config for the RobomakerRobotApplicationV
 
 The id of the existing RobomakerRobotApplicationVersion that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/robomaker_robot_application_version#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/robomaker_robot_application_version#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -773,7 +773,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.robomakerRobotApplicationVersion.RobomakerRobotApplicationVersionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/robomakerrobotapplicationversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/robomakerrobotapplicationversion"
 
 &robomakerrobotapplicationversion.RobomakerRobotApplicationVersionConfig {
 	Connection: interface{},
@@ -799,7 +799,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/robomakerrobotapplicat
 | <code><a href="#@cdktn/provider-awscc.robomakerRobotApplicationVersion.RobomakerRobotApplicationVersionConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.robomakerRobotApplicationVersion.RobomakerRobotApplicationVersionConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.robomakerRobotApplicationVersion.RobomakerRobotApplicationVersionConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.robomakerRobotApplicationVersion.RobomakerRobotApplicationVersionConfig.property.application">Application</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/robomaker_robot_application_version#application RobomakerRobotApplicationVersion#application}. |
+| <code><a href="#@cdktn/provider-awscc.robomakerRobotApplicationVersion.RobomakerRobotApplicationVersionConfig.property.application">Application</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/robomaker_robot_application_version#application RobomakerRobotApplicationVersion#application}. |
 | <code><a href="#@cdktn/provider-awscc.robomakerRobotApplicationVersion.RobomakerRobotApplicationVersionConfig.property.currentRevisionId">CurrentRevisionId</a></code> | <code>*string</code> | The revision ID of robot application. |
 
 ---
@@ -882,7 +882,7 @@ Application *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/robomaker_robot_application_version#application RobomakerRobotApplicationVersion#application}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/robomaker_robot_application_version#application RobomakerRobotApplicationVersion#application}.
 
 ---
 
@@ -896,7 +896,7 @@ CurrentRevisionId *string
 
 The revision ID of robot application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/robomaker_robot_application_version#current_revision_id RobomakerRobotApplicationVersion#current_revision_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/robomaker_robot_application_version#current_revision_id RobomakerRobotApplicationVersion#current_revision_id}
 
 ---
 

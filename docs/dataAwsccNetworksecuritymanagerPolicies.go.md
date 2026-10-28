@@ -4,12 +4,12 @@
 
 ### DataAwsccNetworksecuritymanagerPolicies <a name="DataAwsccNetworksecuritymanagerPolicies" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicies.DataAwsccNetworksecuritymanagerPolicies"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/networksecuritymanager_policies awscc_networksecuritymanager_policies}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/networksecuritymanager_policies awscc_networksecuritymanager_policies}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicies.DataAwsccNetworksecuritymanagerPolicies.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworksecuritymanagerpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworksecuritymanagerpolicies"
 
 dataawsccnetworksecuritymanagerpolicies.NewDataAwsccNetworksecuritymanagerPolicies(scope Construct, id *string, config DataAwsccNetworksecuritymanagerPoliciesConfig) DataAwsccNetworksecuritymanagerPolicies
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicies.DataAwsccNetworksecuritymanagerPolicies.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworksecuritymanagerpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworksecuritymanagerpolicies"
 
 dataawsccnetworksecuritymanagerpolicies.DataAwsccNetworksecuritymanagerPolicies_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicies.DataAwsccNetworksecuritymanagerPolicies.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworksecuritymanagerpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworksecuritymanagerpolicies"
 
 dataawsccnetworksecuritymanagerpolicies.DataAwsccNetworksecuritymanagerPolicies_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccnetworksecuritymanagerpolicies.DataAwsccNetworksecuritymanagerPolicies_
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicies.DataAwsccNetworksecuritymanagerPolicies.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworksecuritymanagerpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworksecuritymanagerpolicies"
 
 dataawsccnetworksecuritymanagerpolicies.DataAwsccNetworksecuritymanagerPolicies_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccnetworksecuritymanagerpolicies.DataAwsccNetworksecuritymanagerPolicies_
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicies.DataAwsccNetworksecuritymanagerPolicies.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworksecuritymanagerpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworksecuritymanagerpolicies"
 
 dataawsccnetworksecuritymanagerpolicies.DataAwsccNetworksecuritymanagerPolicies_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccNetworksecurityma
 
 The id of the existing DataAwsccNetworksecuritymanagerPolicies that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/networksecuritymanager_policies#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/networksecuritymanager_policies#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicies.DataAwsccNetworksecuritymanagerPoliciesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworksecuritymanagerpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworksecuritymanagerpolicies"
 
 &dataawsccnetworksecuritymanagerpolicies.DataAwsccNetworksecuritymanagerPoliciesConfig {
 	Connection: interface{},

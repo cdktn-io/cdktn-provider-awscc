@@ -4,12 +4,12 @@
 
 ### S3StorageLensGroup <a name="S3StorageLensGroup" id="@cdktn/provider-awscc.s3StorageLensGroup.S3StorageLensGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_storage_lens_group awscc_s3_storage_lens_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_storage_lens_group awscc_s3_storage_lens_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3StorageLensGroup.S3StorageLensGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3storagelensgroup"
 
 s3storagelensgroup.NewS3StorageLensGroup(scope Construct, id *string, config S3StorageLensGroupConfig) S3StorageLensGroup
 ```
@@ -433,7 +433,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.s3StorageLensGroup.S3StorageLensGroup.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3storagelensgroup"
 
 s3storagelensgroup.S3StorageLensGroup_IsConstruct(x interface{}) *bool
 ```
@@ -465,7 +465,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.s3StorageLensGroup.S3StorageLensGroup.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3storagelensgroup"
 
 s3storagelensgroup.S3StorageLensGroup_IsTerraformElement(x interface{}) *bool
 ```
@@ -479,7 +479,7 @@ s3storagelensgroup.S3StorageLensGroup_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.s3StorageLensGroup.S3StorageLensGroup.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3storagelensgroup"
 
 s3storagelensgroup.S3StorageLensGroup_IsTerraformResource(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ s3storagelensgroup.S3StorageLensGroup_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.s3StorageLensGroup.S3StorageLensGroup.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3storagelensgroup"
 
 s3storagelensgroup.S3StorageLensGroup_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -522,7 +522,7 @@ The construct id used in the generated config for the S3StorageLensGroup to impo
 
 The id of the existing S3StorageLensGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_storage_lens_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_storage_lens_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -810,7 +810,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.s3StorageLensGroup.S3StorageLensGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3storagelensgroup"
 
 &s3storagelensgroup.S3StorageLensGroupConfig {
 	Connection: interface{},
@@ -820,7 +820,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3storagelensgroup"
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	Filter: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.s3StorageLensGroup.S3StorageLensGroupFilter,
+	Filter: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.s3StorageLensGroup.S3StorageLensGroupFilter,
 	Name: *string,
 	Tags: interface{},
 }
@@ -923,7 +923,7 @@ Filter S3StorageLensGroupFilter
 
 Sets the Storage Lens Group filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_storage_lens_group#filter S3StorageLensGroup#filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_storage_lens_group#filter S3StorageLensGroup#filter}
 
 ---
 
@@ -937,7 +937,7 @@ Name *string
 
 The name that identifies the Amazon S3 Storage Lens Group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_storage_lens_group#name S3StorageLensGroup#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_storage_lens_group#name S3StorageLensGroup#name}
 
 ---
 
@@ -951,7 +951,7 @@ Tags interface{}
 
 A set of tags (key-value pairs) for this Amazon S3 Storage Lens Group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_storage_lens_group#tags S3StorageLensGroup#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_storage_lens_group#tags S3StorageLensGroup#tags}
 
 ---
 
@@ -960,16 +960,16 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.s3StorageLensGroup.S3StorageLensGroupFilter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3storagelensgroup"
 
 &s3storagelensgroup.S3StorageLensGroupFilter {
-	And: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.s3StorageLensGroup.S3StorageLensGroupFilterAnd,
+	And: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.s3StorageLensGroup.S3StorageLensGroupFilterAnd,
 	MatchAnyPrefix: *[]*string,
 	MatchAnySuffix: *[]*string,
 	MatchAnyTag: interface{},
-	MatchObjectAge: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.s3StorageLensGroup.S3StorageLensGroupFilterMatchObjectAge,
-	MatchObjectSize: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.s3StorageLensGroup.S3StorageLensGroupFilterMatchObjectSize,
-	Or: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.s3StorageLensGroup.S3StorageLensGroupFilterOr,
+	MatchObjectAge: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.s3StorageLensGroup.S3StorageLensGroupFilterMatchObjectAge,
+	MatchObjectSize: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.s3StorageLensGroup.S3StorageLensGroupFilterMatchObjectSize,
+	Or: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.s3StorageLensGroup.S3StorageLensGroupFilterOr,
 }
 ```
 
@@ -997,7 +997,7 @@ And S3StorageLensGroupFilterAnd
 
 The Storage Lens group will include objects that match all of the specified filter values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_storage_lens_group#and S3StorageLensGroup#and}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_storage_lens_group#and S3StorageLensGroup#and}
 
 ---
 
@@ -1011,7 +1011,7 @@ MatchAnyPrefix *[]*string
 
 Filter to match any of the specified prefixes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_storage_lens_group#match_any_prefix S3StorageLensGroup#match_any_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_storage_lens_group#match_any_prefix S3StorageLensGroup#match_any_prefix}
 
 ---
 
@@ -1025,7 +1025,7 @@ MatchAnySuffix *[]*string
 
 Filter to match any of the specified suffixes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_storage_lens_group#match_any_suffix S3StorageLensGroup#match_any_suffix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_storage_lens_group#match_any_suffix S3StorageLensGroup#match_any_suffix}
 
 ---
 
@@ -1039,7 +1039,7 @@ MatchAnyTag interface{}
 
 Filter to match any of the specified object tags.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_storage_lens_group#match_any_tag S3StorageLensGroup#match_any_tag}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_storage_lens_group#match_any_tag S3StorageLensGroup#match_any_tag}
 
 ---
 
@@ -1053,7 +1053,7 @@ MatchObjectAge S3StorageLensGroupFilterMatchObjectAge
 
 Filter to match all of the specified values for the minimum and maximum object age.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_storage_lens_group#match_object_age S3StorageLensGroup#match_object_age}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_storage_lens_group#match_object_age S3StorageLensGroup#match_object_age}
 
 ---
 
@@ -1067,7 +1067,7 @@ MatchObjectSize S3StorageLensGroupFilterMatchObjectSize
 
 Filter to match all of the specified values for the minimum and maximum object size.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_storage_lens_group#match_object_size S3StorageLensGroup#match_object_size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_storage_lens_group#match_object_size S3StorageLensGroup#match_object_size}
 
 ---
 
@@ -1081,7 +1081,7 @@ Or S3StorageLensGroupFilterOr
 
 The Storage Lens group will include objects that match any of the specified filter values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_storage_lens_group#or S3StorageLensGroup#or}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_storage_lens_group#or S3StorageLensGroup#or}
 
 ---
 
@@ -1090,14 +1090,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.s3StorageLensGroup.S3StorageLensGroupFilterAnd.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3storagelensgroup"
 
 &s3storagelensgroup.S3StorageLensGroupFilterAnd {
 	MatchAnyPrefix: *[]*string,
 	MatchAnySuffix: *[]*string,
 	MatchAnyTag: interface{},
-	MatchObjectAge: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.s3StorageLensGroup.S3StorageLensGroupFilterAndMatchObjectAge,
-	MatchObjectSize: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.s3StorageLensGroup.S3StorageLensGroupFilterAndMatchObjectSize,
+	MatchObjectAge: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.s3StorageLensGroup.S3StorageLensGroupFilterAndMatchObjectAge,
+	MatchObjectSize: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.s3StorageLensGroup.S3StorageLensGroupFilterAndMatchObjectSize,
 }
 ```
 
@@ -1123,7 +1123,7 @@ MatchAnyPrefix *[]*string
 
 Filter to match any of the specified prefixes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_storage_lens_group#match_any_prefix S3StorageLensGroup#match_any_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_storage_lens_group#match_any_prefix S3StorageLensGroup#match_any_prefix}
 
 ---
 
@@ -1137,7 +1137,7 @@ MatchAnySuffix *[]*string
 
 Filter to match any of the specified suffixes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_storage_lens_group#match_any_suffix S3StorageLensGroup#match_any_suffix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_storage_lens_group#match_any_suffix S3StorageLensGroup#match_any_suffix}
 
 ---
 
@@ -1151,7 +1151,7 @@ MatchAnyTag interface{}
 
 Filter to match any of the specified object tags.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_storage_lens_group#match_any_tag S3StorageLensGroup#match_any_tag}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_storage_lens_group#match_any_tag S3StorageLensGroup#match_any_tag}
 
 ---
 
@@ -1165,7 +1165,7 @@ MatchObjectAge S3StorageLensGroupFilterAndMatchObjectAge
 
 Filter to match all of the specified values for the minimum and maximum object age.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_storage_lens_group#match_object_age S3StorageLensGroup#match_object_age}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_storage_lens_group#match_object_age S3StorageLensGroup#match_object_age}
 
 ---
 
@@ -1179,7 +1179,7 @@ MatchObjectSize S3StorageLensGroupFilterAndMatchObjectSize
 
 Filter to match all of the specified values for the minimum and maximum object size.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_storage_lens_group#match_object_size S3StorageLensGroup#match_object_size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_storage_lens_group#match_object_size S3StorageLensGroup#match_object_size}
 
 ---
 
@@ -1188,7 +1188,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.s3StorageLensGroup.S3StorageLensGroupFilterAndMatchAnyTag.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3storagelensgroup"
 
 &s3storagelensgroup.S3StorageLensGroupFilterAndMatchAnyTag {
 	Key: *string,
@@ -1200,8 +1200,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3storagelensgroup"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.s3StorageLensGroup.S3StorageLensGroupFilterAndMatchAnyTag.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_storage_lens_group#key S3StorageLensGroup#key}. |
-| <code><a href="#@cdktn/provider-awscc.s3StorageLensGroup.S3StorageLensGroupFilterAndMatchAnyTag.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_storage_lens_group#value S3StorageLensGroup#value}. |
+| <code><a href="#@cdktn/provider-awscc.s3StorageLensGroup.S3StorageLensGroupFilterAndMatchAnyTag.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_storage_lens_group#key S3StorageLensGroup#key}. |
+| <code><a href="#@cdktn/provider-awscc.s3StorageLensGroup.S3StorageLensGroupFilterAndMatchAnyTag.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_storage_lens_group#value S3StorageLensGroup#value}. |
 
 ---
 
@@ -1213,7 +1213,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_storage_lens_group#key S3StorageLensGroup#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_storage_lens_group#key S3StorageLensGroup#key}.
 
 ---
 
@@ -1225,7 +1225,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_storage_lens_group#value S3StorageLensGroup#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_storage_lens_group#value S3StorageLensGroup#value}.
 
 ---
 
@@ -1234,7 +1234,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.s3StorageLensGroup.S3StorageLensGroupFilterAndMatchObjectAge.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3storagelensgroup"
 
 &s3storagelensgroup.S3StorageLensGroupFilterAndMatchObjectAge {
 	DaysGreaterThan: *f64,
@@ -1261,7 +1261,7 @@ DaysGreaterThan *f64
 
 Minimum object age to which the rule applies.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_storage_lens_group#days_greater_than S3StorageLensGroup#days_greater_than}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_storage_lens_group#days_greater_than S3StorageLensGroup#days_greater_than}
 
 ---
 
@@ -1275,7 +1275,7 @@ DaysLessThan *f64
 
 Maximum object age to which the rule applies.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_storage_lens_group#days_less_than S3StorageLensGroup#days_less_than}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_storage_lens_group#days_less_than S3StorageLensGroup#days_less_than}
 
 ---
 
@@ -1284,7 +1284,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.s3StorageLensGroup.S3StorageLensGroupFilterAndMatchObjectSize.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3storagelensgroup"
 
 &s3storagelensgroup.S3StorageLensGroupFilterAndMatchObjectSize {
 	BytesGreaterThan: *f64,
@@ -1311,7 +1311,7 @@ BytesGreaterThan *f64
 
 Minimum object size to which the rule applies.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_storage_lens_group#bytes_greater_than S3StorageLensGroup#bytes_greater_than}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_storage_lens_group#bytes_greater_than S3StorageLensGroup#bytes_greater_than}
 
 ---
 
@@ -1325,7 +1325,7 @@ BytesLessThan *f64
 
 Maximum object size to which the rule applies.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_storage_lens_group#bytes_less_than S3StorageLensGroup#bytes_less_than}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_storage_lens_group#bytes_less_than S3StorageLensGroup#bytes_less_than}
 
 ---
 
@@ -1334,7 +1334,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.s3StorageLensGroup.S3StorageLensGroupFilterMatchAnyTag.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3storagelensgroup"
 
 &s3storagelensgroup.S3StorageLensGroupFilterMatchAnyTag {
 	Key: *string,
@@ -1346,8 +1346,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3storagelensgroup"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.s3StorageLensGroup.S3StorageLensGroupFilterMatchAnyTag.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_storage_lens_group#key S3StorageLensGroup#key}. |
-| <code><a href="#@cdktn/provider-awscc.s3StorageLensGroup.S3StorageLensGroupFilterMatchAnyTag.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_storage_lens_group#value S3StorageLensGroup#value}. |
+| <code><a href="#@cdktn/provider-awscc.s3StorageLensGroup.S3StorageLensGroupFilterMatchAnyTag.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_storage_lens_group#key S3StorageLensGroup#key}. |
+| <code><a href="#@cdktn/provider-awscc.s3StorageLensGroup.S3StorageLensGroupFilterMatchAnyTag.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_storage_lens_group#value S3StorageLensGroup#value}. |
 
 ---
 
@@ -1359,7 +1359,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_storage_lens_group#key S3StorageLensGroup#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_storage_lens_group#key S3StorageLensGroup#key}.
 
 ---
 
@@ -1371,7 +1371,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_storage_lens_group#value S3StorageLensGroup#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_storage_lens_group#value S3StorageLensGroup#value}.
 
 ---
 
@@ -1380,7 +1380,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.s3StorageLensGroup.S3StorageLensGroupFilterMatchObjectAge.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3storagelensgroup"
 
 &s3storagelensgroup.S3StorageLensGroupFilterMatchObjectAge {
 	DaysGreaterThan: *f64,
@@ -1407,7 +1407,7 @@ DaysGreaterThan *f64
 
 Minimum object age to which the rule applies.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_storage_lens_group#days_greater_than S3StorageLensGroup#days_greater_than}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_storage_lens_group#days_greater_than S3StorageLensGroup#days_greater_than}
 
 ---
 
@@ -1421,7 +1421,7 @@ DaysLessThan *f64
 
 Maximum object age to which the rule applies.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_storage_lens_group#days_less_than S3StorageLensGroup#days_less_than}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_storage_lens_group#days_less_than S3StorageLensGroup#days_less_than}
 
 ---
 
@@ -1430,7 +1430,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.s3StorageLensGroup.S3StorageLensGroupFilterMatchObjectSize.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3storagelensgroup"
 
 &s3storagelensgroup.S3StorageLensGroupFilterMatchObjectSize {
 	BytesGreaterThan: *f64,
@@ -1457,7 +1457,7 @@ BytesGreaterThan *f64
 
 Minimum object size to which the rule applies.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_storage_lens_group#bytes_greater_than S3StorageLensGroup#bytes_greater_than}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_storage_lens_group#bytes_greater_than S3StorageLensGroup#bytes_greater_than}
 
 ---
 
@@ -1471,7 +1471,7 @@ BytesLessThan *f64
 
 Maximum object size to which the rule applies.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_storage_lens_group#bytes_less_than S3StorageLensGroup#bytes_less_than}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_storage_lens_group#bytes_less_than S3StorageLensGroup#bytes_less_than}
 
 ---
 
@@ -1480,14 +1480,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.s3StorageLensGroup.S3StorageLensGroupFilterOr.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3storagelensgroup"
 
 &s3storagelensgroup.S3StorageLensGroupFilterOr {
 	MatchAnyPrefix: *[]*string,
 	MatchAnySuffix: *[]*string,
 	MatchAnyTag: interface{},
-	MatchObjectAge: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.s3StorageLensGroup.S3StorageLensGroupFilterOrMatchObjectAge,
-	MatchObjectSize: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.s3StorageLensGroup.S3StorageLensGroupFilterOrMatchObjectSize,
+	MatchObjectAge: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.s3StorageLensGroup.S3StorageLensGroupFilterOrMatchObjectAge,
+	MatchObjectSize: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.s3StorageLensGroup.S3StorageLensGroupFilterOrMatchObjectSize,
 }
 ```
 
@@ -1513,7 +1513,7 @@ MatchAnyPrefix *[]*string
 
 Filter to match any of the specified prefixes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_storage_lens_group#match_any_prefix S3StorageLensGroup#match_any_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_storage_lens_group#match_any_prefix S3StorageLensGroup#match_any_prefix}
 
 ---
 
@@ -1527,7 +1527,7 @@ MatchAnySuffix *[]*string
 
 Filter to match any of the specified suffixes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_storage_lens_group#match_any_suffix S3StorageLensGroup#match_any_suffix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_storage_lens_group#match_any_suffix S3StorageLensGroup#match_any_suffix}
 
 ---
 
@@ -1541,7 +1541,7 @@ MatchAnyTag interface{}
 
 Filter to match any of the specified object tags.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_storage_lens_group#match_any_tag S3StorageLensGroup#match_any_tag}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_storage_lens_group#match_any_tag S3StorageLensGroup#match_any_tag}
 
 ---
 
@@ -1555,7 +1555,7 @@ MatchObjectAge S3StorageLensGroupFilterOrMatchObjectAge
 
 Filter to match all of the specified values for the minimum and maximum object age.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_storage_lens_group#match_object_age S3StorageLensGroup#match_object_age}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_storage_lens_group#match_object_age S3StorageLensGroup#match_object_age}
 
 ---
 
@@ -1569,7 +1569,7 @@ MatchObjectSize S3StorageLensGroupFilterOrMatchObjectSize
 
 Filter to match all of the specified values for the minimum and maximum object size.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_storage_lens_group#match_object_size S3StorageLensGroup#match_object_size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_storage_lens_group#match_object_size S3StorageLensGroup#match_object_size}
 
 ---
 
@@ -1578,7 +1578,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.s3StorageLensGroup.S3StorageLensGroupFilterOrMatchAnyTag.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3storagelensgroup"
 
 &s3storagelensgroup.S3StorageLensGroupFilterOrMatchAnyTag {
 	Key: *string,
@@ -1590,8 +1590,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3storagelensgroup"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.s3StorageLensGroup.S3StorageLensGroupFilterOrMatchAnyTag.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_storage_lens_group#key S3StorageLensGroup#key}. |
-| <code><a href="#@cdktn/provider-awscc.s3StorageLensGroup.S3StorageLensGroupFilterOrMatchAnyTag.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_storage_lens_group#value S3StorageLensGroup#value}. |
+| <code><a href="#@cdktn/provider-awscc.s3StorageLensGroup.S3StorageLensGroupFilterOrMatchAnyTag.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_storage_lens_group#key S3StorageLensGroup#key}. |
+| <code><a href="#@cdktn/provider-awscc.s3StorageLensGroup.S3StorageLensGroupFilterOrMatchAnyTag.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_storage_lens_group#value S3StorageLensGroup#value}. |
 
 ---
 
@@ -1603,7 +1603,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_storage_lens_group#key S3StorageLensGroup#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_storage_lens_group#key S3StorageLensGroup#key}.
 
 ---
 
@@ -1615,7 +1615,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_storage_lens_group#value S3StorageLensGroup#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_storage_lens_group#value S3StorageLensGroup#value}.
 
 ---
 
@@ -1624,7 +1624,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.s3StorageLensGroup.S3StorageLensGroupFilterOrMatchObjectAge.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3storagelensgroup"
 
 &s3storagelensgroup.S3StorageLensGroupFilterOrMatchObjectAge {
 	DaysGreaterThan: *f64,
@@ -1651,7 +1651,7 @@ DaysGreaterThan *f64
 
 Minimum object age to which the rule applies.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_storage_lens_group#days_greater_than S3StorageLensGroup#days_greater_than}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_storage_lens_group#days_greater_than S3StorageLensGroup#days_greater_than}
 
 ---
 
@@ -1665,7 +1665,7 @@ DaysLessThan *f64
 
 Maximum object age to which the rule applies.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_storage_lens_group#days_less_than S3StorageLensGroup#days_less_than}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_storage_lens_group#days_less_than S3StorageLensGroup#days_less_than}
 
 ---
 
@@ -1674,7 +1674,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.s3StorageLensGroup.S3StorageLensGroupFilterOrMatchObjectSize.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3storagelensgroup"
 
 &s3storagelensgroup.S3StorageLensGroupFilterOrMatchObjectSize {
 	BytesGreaterThan: *f64,
@@ -1701,7 +1701,7 @@ BytesGreaterThan *f64
 
 Minimum object size to which the rule applies.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_storage_lens_group#bytes_greater_than S3StorageLensGroup#bytes_greater_than}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_storage_lens_group#bytes_greater_than S3StorageLensGroup#bytes_greater_than}
 
 ---
 
@@ -1715,7 +1715,7 @@ BytesLessThan *f64
 
 Maximum object size to which the rule applies.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_storage_lens_group#bytes_less_than S3StorageLensGroup#bytes_less_than}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_storage_lens_group#bytes_less_than S3StorageLensGroup#bytes_less_than}
 
 ---
 
@@ -1724,7 +1724,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.s3StorageLensGroup.S3StorageLensGroupTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3storagelensgroup"
 
 &s3storagelensgroup.S3StorageLensGroupTags {
 	Key: *string,
@@ -1736,8 +1736,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3storagelensgroup"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.s3StorageLensGroup.S3StorageLensGroupTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_storage_lens_group#key S3StorageLensGroup#key}. |
-| <code><a href="#@cdktn/provider-awscc.s3StorageLensGroup.S3StorageLensGroupTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_storage_lens_group#value S3StorageLensGroup#value}. |
+| <code><a href="#@cdktn/provider-awscc.s3StorageLensGroup.S3StorageLensGroupTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_storage_lens_group#key S3StorageLensGroup#key}. |
+| <code><a href="#@cdktn/provider-awscc.s3StorageLensGroup.S3StorageLensGroupTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_storage_lens_group#value S3StorageLensGroup#value}. |
 
 ---
 
@@ -1749,7 +1749,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_storage_lens_group#key S3StorageLensGroup#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_storage_lens_group#key S3StorageLensGroup#key}.
 
 ---
 
@@ -1761,7 +1761,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_storage_lens_group#value S3StorageLensGroup#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_storage_lens_group#value S3StorageLensGroup#value}.
 
 ---
 
@@ -1772,7 +1772,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3StorageLensGroup.S3StorageLensGroupFilterAndMatchAnyTagList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3storagelensgroup"
 
 s3storagelensgroup.NewS3StorageLensGroupFilterAndMatchAnyTagList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) S3StorageLensGroupFilterAndMatchAnyTagList
 ```
@@ -1932,7 +1932,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3StorageLensGroup.S3StorageLensGroupFilterAndMatchAnyTagOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3storagelensgroup"
 
 s3storagelensgroup.NewS3StorageLensGroupFilterAndMatchAnyTagOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) S3StorageLensGroupFilterAndMatchAnyTagOutputReference
 ```
@@ -2257,7 +2257,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3StorageLensGroup.S3StorageLensGroupFilterAndMatchObjectAgeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3storagelensgroup"
 
 s3storagelensgroup.NewS3StorageLensGroupFilterAndMatchObjectAgeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) S3StorageLensGroupFilterAndMatchObjectAgeOutputReference
 ```
@@ -2564,7 +2564,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3StorageLensGroup.S3StorageLensGroupFilterAndMatchObjectSizeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3storagelensgroup"
 
 s3storagelensgroup.NewS3StorageLensGroupFilterAndMatchObjectSizeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) S3StorageLensGroupFilterAndMatchObjectSizeOutputReference
 ```
@@ -2871,7 +2871,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3StorageLensGroup.S3StorageLensGroupFilterAndOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3storagelensgroup"
 
 s3storagelensgroup.NewS3StorageLensGroupFilterAndOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) S3StorageLensGroupFilterAndOutputReference
 ```
@@ -3304,7 +3304,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3StorageLensGroup.S3StorageLensGroupFilterMatchAnyTagList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3storagelensgroup"
 
 s3storagelensgroup.NewS3StorageLensGroupFilterMatchAnyTagList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) S3StorageLensGroupFilterMatchAnyTagList
 ```
@@ -3464,7 +3464,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3StorageLensGroup.S3StorageLensGroupFilterMatchAnyTagOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3storagelensgroup"
 
 s3storagelensgroup.NewS3StorageLensGroupFilterMatchAnyTagOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) S3StorageLensGroupFilterMatchAnyTagOutputReference
 ```
@@ -3789,7 +3789,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3StorageLensGroup.S3StorageLensGroupFilterMatchObjectAgeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3storagelensgroup"
 
 s3storagelensgroup.NewS3StorageLensGroupFilterMatchObjectAgeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) S3StorageLensGroupFilterMatchObjectAgeOutputReference
 ```
@@ -4096,7 +4096,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3StorageLensGroup.S3StorageLensGroupFilterMatchObjectSizeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3storagelensgroup"
 
 s3storagelensgroup.NewS3StorageLensGroupFilterMatchObjectSizeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) S3StorageLensGroupFilterMatchObjectSizeOutputReference
 ```
@@ -4403,7 +4403,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3StorageLensGroup.S3StorageLensGroupFilterOrMatchAnyTagList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3storagelensgroup"
 
 s3storagelensgroup.NewS3StorageLensGroupFilterOrMatchAnyTagList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) S3StorageLensGroupFilterOrMatchAnyTagList
 ```
@@ -4563,7 +4563,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3StorageLensGroup.S3StorageLensGroupFilterOrMatchAnyTagOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3storagelensgroup"
 
 s3storagelensgroup.NewS3StorageLensGroupFilterOrMatchAnyTagOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) S3StorageLensGroupFilterOrMatchAnyTagOutputReference
 ```
@@ -4888,7 +4888,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3StorageLensGroup.S3StorageLensGroupFilterOrMatchObjectAgeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3storagelensgroup"
 
 s3storagelensgroup.NewS3StorageLensGroupFilterOrMatchObjectAgeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) S3StorageLensGroupFilterOrMatchObjectAgeOutputReference
 ```
@@ -5195,7 +5195,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3StorageLensGroup.S3StorageLensGroupFilterOrMatchObjectSizeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3storagelensgroup"
 
 s3storagelensgroup.NewS3StorageLensGroupFilterOrMatchObjectSizeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) S3StorageLensGroupFilterOrMatchObjectSizeOutputReference
 ```
@@ -5502,7 +5502,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3StorageLensGroup.S3StorageLensGroupFilterOrOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3storagelensgroup"
 
 s3storagelensgroup.NewS3StorageLensGroupFilterOrOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) S3StorageLensGroupFilterOrOutputReference
 ```
@@ -5935,7 +5935,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3StorageLensGroup.S3StorageLensGroupFilterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3storagelensgroup"
 
 s3storagelensgroup.NewS3StorageLensGroupFilterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) S3StorageLensGroupFilterOutputReference
 ```
@@ -6452,7 +6452,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3StorageLensGroup.S3StorageLensGroupTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3storagelensgroup"
 
 s3storagelensgroup.NewS3StorageLensGroupTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) S3StorageLensGroupTagsList
 ```
@@ -6612,7 +6612,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3StorageLensGroup.S3StorageLensGroupTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3storagelensgroup"
 
 s3storagelensgroup.NewS3StorageLensGroupTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) S3StorageLensGroupTagsOutputReference
 ```

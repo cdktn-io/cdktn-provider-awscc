@@ -4,12 +4,12 @@
 
 ### DataAwsccDeadlineFleet <a name="DataAwsccDeadlineFleet" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleet"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/deadline_fleet awscc_deadline_fleet}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/deadline_fleet awscc_deadline_fleet}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleet.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 dataawsccdeadlinefleet.NewDataAwsccDeadlineFleet(scope Construct, id *string, config DataAwsccDeadlineFleetConfig) DataAwsccDeadlineFleet
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleet.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 dataawsccdeadlinefleet.DataAwsccDeadlineFleet_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleet.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 dataawsccdeadlinefleet.DataAwsccDeadlineFleet_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccdeadlinefleet.DataAwsccDeadlineFleet_IsTerraformElement(x interface{}) 
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleet.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 dataawsccdeadlinefleet.DataAwsccDeadlineFleet_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccdeadlinefleet.DataAwsccDeadlineFleet_IsTerraformDataSource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleet.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 dataawsccdeadlinefleet.DataAwsccDeadlineFleet_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDeadlineFleet to 
 
 The id of the existing DataAwsccDeadlineFleet that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/deadline_fleet#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/deadline_fleet#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -752,7 +752,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleetCapabilities.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 &dataawsccdeadlinefleet.DataAwsccDeadlineFleetCapabilities {
 
@@ -765,7 +765,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleetCapabilitiesAmounts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 &dataawsccdeadlinefleet.DataAwsccDeadlineFleetCapabilitiesAmounts {
 
@@ -778,7 +778,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleetCapabilitiesAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 &dataawsccdeadlinefleet.DataAwsccDeadlineFleetCapabilitiesAttributes {
 
@@ -791,7 +791,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleetConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 &dataawsccdeadlinefleet.DataAwsccDeadlineFleetConfig {
 	Connection: interface{},
@@ -900,7 +900,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/deadline_fleet#id DataAwsccDeadlineFleet#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/deadline_fleet#id DataAwsccDeadlineFleet#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -912,7 +912,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleetConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 &dataawsccdeadlinefleet.DataAwsccDeadlineFleetConfiguration {
 
@@ -925,7 +925,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleetConfigurationCustomerManaged.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 &dataawsccdeadlinefleet.DataAwsccDeadlineFleetConfigurationCustomerManaged {
 
@@ -938,7 +938,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleetConfigurationCustomerManagedAutoScalingConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 &dataawsccdeadlinefleet.DataAwsccDeadlineFleetConfigurationCustomerManagedAutoScalingConfiguration {
 
@@ -951,7 +951,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleetConfigurationCustomerManagedWorkerCapabilities.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 &dataawsccdeadlinefleet.DataAwsccDeadlineFleetConfigurationCustomerManagedWorkerCapabilities {
 
@@ -964,7 +964,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesAcceleratorCount.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 &dataawsccdeadlinefleet.DataAwsccDeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesAcceleratorCount {
 
@@ -977,7 +977,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesAcceleratorTotalMemoryMiB.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 &dataawsccdeadlinefleet.DataAwsccDeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesAcceleratorTotalMemoryMiB {
 
@@ -990,7 +990,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesCustomAmounts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 &dataawsccdeadlinefleet.DataAwsccDeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesCustomAmounts {
 
@@ -1003,7 +1003,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesCustomAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 &dataawsccdeadlinefleet.DataAwsccDeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesCustomAttributes {
 
@@ -1016,7 +1016,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesMemoryMiB.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 &dataawsccdeadlinefleet.DataAwsccDeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesMemoryMiB {
 
@@ -1029,7 +1029,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesVCpuCount.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 &dataawsccdeadlinefleet.DataAwsccDeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesVCpuCount {
 
@@ -1042,7 +1042,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleetConfigurationServiceManagedEc2.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 &dataawsccdeadlinefleet.DataAwsccDeadlineFleetConfigurationServiceManagedEc2 {
 
@@ -1055,7 +1055,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleetConfigurationServiceManagedEc2AutoScalingConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 &dataawsccdeadlinefleet.DataAwsccDeadlineFleetConfigurationServiceManagedEc2AutoScalingConfiguration {
 
@@ -1068,7 +1068,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceCapabilities.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 &dataawsccdeadlinefleet.DataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceCapabilities {
 
@@ -1081,7 +1081,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesAcceleratorCapabilities.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 &dataawsccdeadlinefleet.DataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesAcceleratorCapabilities {
 
@@ -1094,7 +1094,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesAcceleratorCapabilitiesCount.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 &dataawsccdeadlinefleet.DataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesAcceleratorCapabilitiesCount {
 
@@ -1107,7 +1107,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesAcceleratorCapabilitiesSelections.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 &dataawsccdeadlinefleet.DataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesAcceleratorCapabilitiesSelections {
 
@@ -1120,7 +1120,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesCustomAmounts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 &dataawsccdeadlinefleet.DataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesCustomAmounts {
 
@@ -1133,7 +1133,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesCustomAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 &dataawsccdeadlinefleet.DataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesCustomAttributes {
 
@@ -1146,7 +1146,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesMemoryMiB.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 &dataawsccdeadlinefleet.DataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesMemoryMiB {
 
@@ -1159,7 +1159,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesRootEbsVolume.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 &dataawsccdeadlinefleet.DataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesRootEbsVolume {
 
@@ -1172,7 +1172,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesSoftwareAddOns.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 &dataawsccdeadlinefleet.DataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesSoftwareAddOns {
 
@@ -1185,7 +1185,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesVCpuCount.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 &dataawsccdeadlinefleet.DataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesVCpuCount {
 
@@ -1198,7 +1198,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceMarketOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 &dataawsccdeadlinefleet.DataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceMarketOptions {
 
@@ -1211,7 +1211,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleetConfigurationServiceManagedEc2PersistentVolumeConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 &dataawsccdeadlinefleet.DataAwsccDeadlineFleetConfigurationServiceManagedEc2PersistentVolumeConfiguration {
 
@@ -1224,7 +1224,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleetConfigurationServiceManagedEc2VpcConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 &dataawsccdeadlinefleet.DataAwsccDeadlineFleetConfigurationServiceManagedEc2VpcConfiguration {
 
@@ -1237,7 +1237,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleetHostConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 &dataawsccdeadlinefleet.DataAwsccDeadlineFleetHostConfiguration {
 
@@ -1250,7 +1250,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleetTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 &dataawsccdeadlinefleet.DataAwsccDeadlineFleetTags {
 
@@ -1265,7 +1265,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleetCapabilitiesAmountsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 dataawsccdeadlinefleet.NewDataAwsccDeadlineFleetCapabilitiesAmountsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDeadlineFleetCapabilitiesAmountsList
 ```
@@ -1414,7 +1414,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleetCapabilitiesAmountsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 dataawsccdeadlinefleet.NewDataAwsccDeadlineFleetCapabilitiesAmountsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDeadlineFleetCapabilitiesAmountsOutputReference
 ```
@@ -1714,7 +1714,7 @@ func InternalValue() DataAwsccDeadlineFleetCapabilitiesAmounts
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleetCapabilitiesAttributesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 dataawsccdeadlinefleet.NewDataAwsccDeadlineFleetCapabilitiesAttributesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDeadlineFleetCapabilitiesAttributesList
 ```
@@ -1863,7 +1863,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleetCapabilitiesAttributesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 dataawsccdeadlinefleet.NewDataAwsccDeadlineFleetCapabilitiesAttributesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDeadlineFleetCapabilitiesAttributesOutputReference
 ```
@@ -2152,7 +2152,7 @@ func InternalValue() DataAwsccDeadlineFleetCapabilitiesAttributes
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleetCapabilitiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 dataawsccdeadlinefleet.NewDataAwsccDeadlineFleetCapabilitiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDeadlineFleetCapabilitiesOutputReference
 ```
@@ -2423,7 +2423,7 @@ func InternalValue() DataAwsccDeadlineFleetCapabilities
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleetConfigurationCustomerManagedAutoScalingConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 dataawsccdeadlinefleet.NewDataAwsccDeadlineFleetConfigurationCustomerManagedAutoScalingConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDeadlineFleetConfigurationCustomerManagedAutoScalingConfigurationOutputReference
 ```
@@ -2705,7 +2705,7 @@ func InternalValue() DataAwsccDeadlineFleetConfigurationCustomerManagedAutoScali
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleetConfigurationCustomerManagedOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 dataawsccdeadlinefleet.NewDataAwsccDeadlineFleetConfigurationCustomerManagedOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDeadlineFleetConfigurationCustomerManagedOutputReference
 ```
@@ -3009,7 +3009,7 @@ func InternalValue() DataAwsccDeadlineFleetConfigurationCustomerManaged
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesAcceleratorCountOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 dataawsccdeadlinefleet.NewDataAwsccDeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesAcceleratorCountOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesAcceleratorCountOutputReference
 ```
@@ -3280,7 +3280,7 @@ func InternalValue() DataAwsccDeadlineFleetConfigurationCustomerManagedWorkerCap
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesAcceleratorTotalMemoryMiBOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 dataawsccdeadlinefleet.NewDataAwsccDeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesAcceleratorTotalMemoryMiBOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesAcceleratorTotalMemoryMiBOutputReference
 ```
@@ -3551,7 +3551,7 @@ func InternalValue() DataAwsccDeadlineFleetConfigurationCustomerManagedWorkerCap
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesCustomAmountsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 dataawsccdeadlinefleet.NewDataAwsccDeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesCustomAmountsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesCustomAmountsList
 ```
@@ -3700,7 +3700,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesCustomAmountsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 dataawsccdeadlinefleet.NewDataAwsccDeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesCustomAmountsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesCustomAmountsOutputReference
 ```
@@ -4000,7 +4000,7 @@ func InternalValue() DataAwsccDeadlineFleetConfigurationCustomerManagedWorkerCap
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesCustomAttributesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 dataawsccdeadlinefleet.NewDataAwsccDeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesCustomAttributesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesCustomAttributesList
 ```
@@ -4149,7 +4149,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesCustomAttributesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 dataawsccdeadlinefleet.NewDataAwsccDeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesCustomAttributesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesCustomAttributesOutputReference
 ```
@@ -4438,7 +4438,7 @@ func InternalValue() DataAwsccDeadlineFleetConfigurationCustomerManagedWorkerCap
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesMemoryMiBOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 dataawsccdeadlinefleet.NewDataAwsccDeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesMemoryMiBOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesMemoryMiBOutputReference
 ```
@@ -4709,7 +4709,7 @@ func InternalValue() DataAwsccDeadlineFleetConfigurationCustomerManagedWorkerCap
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 dataawsccdeadlinefleet.NewDataAwsccDeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesOutputReference
 ```
@@ -5057,7 +5057,7 @@ func InternalValue() DataAwsccDeadlineFleetConfigurationCustomerManagedWorkerCap
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesVCpuCountOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 dataawsccdeadlinefleet.NewDataAwsccDeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesVCpuCountOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesVCpuCountOutputReference
 ```
@@ -5328,7 +5328,7 @@ func InternalValue() DataAwsccDeadlineFleetConfigurationCustomerManagedWorkerCap
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleetConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 dataawsccdeadlinefleet.NewDataAwsccDeadlineFleetConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDeadlineFleetConfigurationOutputReference
 ```
@@ -5599,7 +5599,7 @@ func InternalValue() DataAwsccDeadlineFleetConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleetConfigurationServiceManagedEc2AutoScalingConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 dataawsccdeadlinefleet.NewDataAwsccDeadlineFleetConfigurationServiceManagedEc2AutoScalingConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDeadlineFleetConfigurationServiceManagedEc2AutoScalingConfigurationOutputReference
 ```
@@ -5881,7 +5881,7 @@ func InternalValue() DataAwsccDeadlineFleetConfigurationServiceManagedEc2AutoSca
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesAcceleratorCapabilitiesCountOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 dataawsccdeadlinefleet.NewDataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesAcceleratorCapabilitiesCountOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesAcceleratorCapabilitiesCountOutputReference
 ```
@@ -6152,7 +6152,7 @@ func InternalValue() DataAwsccDeadlineFleetConfigurationServiceManagedEc2Instanc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesAcceleratorCapabilitiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 dataawsccdeadlinefleet.NewDataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesAcceleratorCapabilitiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesAcceleratorCapabilitiesOutputReference
 ```
@@ -6423,7 +6423,7 @@ func InternalValue() DataAwsccDeadlineFleetConfigurationServiceManagedEc2Instanc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesAcceleratorCapabilitiesSelectionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 dataawsccdeadlinefleet.NewDataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesAcceleratorCapabilitiesSelectionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesAcceleratorCapabilitiesSelectionsList
 ```
@@ -6572,7 +6572,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesAcceleratorCapabilitiesSelectionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 dataawsccdeadlinefleet.NewDataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesAcceleratorCapabilitiesSelectionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesAcceleratorCapabilitiesSelectionsOutputReference
 ```
@@ -6861,7 +6861,7 @@ func InternalValue() DataAwsccDeadlineFleetConfigurationServiceManagedEc2Instanc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesCustomAmountsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 dataawsccdeadlinefleet.NewDataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesCustomAmountsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesCustomAmountsList
 ```
@@ -7010,7 +7010,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesCustomAmountsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 dataawsccdeadlinefleet.NewDataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesCustomAmountsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesCustomAmountsOutputReference
 ```
@@ -7310,7 +7310,7 @@ func InternalValue() DataAwsccDeadlineFleetConfigurationServiceManagedEc2Instanc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesCustomAttributesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 dataawsccdeadlinefleet.NewDataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesCustomAttributesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesCustomAttributesList
 ```
@@ -7459,7 +7459,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesCustomAttributesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 dataawsccdeadlinefleet.NewDataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesCustomAttributesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesCustomAttributesOutputReference
 ```
@@ -7748,7 +7748,7 @@ func InternalValue() DataAwsccDeadlineFleetConfigurationServiceManagedEc2Instanc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesMemoryMiBOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 dataawsccdeadlinefleet.NewDataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesMemoryMiBOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesMemoryMiBOutputReference
 ```
@@ -8019,7 +8019,7 @@ func InternalValue() DataAwsccDeadlineFleetConfigurationServiceManagedEc2Instanc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 dataawsccdeadlinefleet.NewDataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesOutputReference
 ```
@@ -8389,7 +8389,7 @@ func InternalValue() DataAwsccDeadlineFleetConfigurationServiceManagedEc2Instanc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesRootEbsVolumeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 dataawsccdeadlinefleet.NewDataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesRootEbsVolumeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesRootEbsVolumeOutputReference
 ```
@@ -8671,7 +8671,7 @@ func InternalValue() DataAwsccDeadlineFleetConfigurationServiceManagedEc2Instanc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesSoftwareAddOnsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 dataawsccdeadlinefleet.NewDataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesSoftwareAddOnsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesSoftwareAddOnsList
 ```
@@ -8820,7 +8820,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesSoftwareAddOnsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 dataawsccdeadlinefleet.NewDataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesSoftwareAddOnsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesSoftwareAddOnsOutputReference
 ```
@@ -9098,7 +9098,7 @@ func InternalValue() DataAwsccDeadlineFleetConfigurationServiceManagedEc2Instanc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesVCpuCountOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 dataawsccdeadlinefleet.NewDataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesVCpuCountOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesVCpuCountOutputReference
 ```
@@ -9369,7 +9369,7 @@ func InternalValue() DataAwsccDeadlineFleetConfigurationServiceManagedEc2Instanc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceMarketOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 dataawsccdeadlinefleet.NewDataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceMarketOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceMarketOptionsOutputReference
 ```
@@ -9629,7 +9629,7 @@ func InternalValue() DataAwsccDeadlineFleetConfigurationServiceManagedEc2Instanc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleetConfigurationServiceManagedEc2OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 dataawsccdeadlinefleet.NewDataAwsccDeadlineFleetConfigurationServiceManagedEc2OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDeadlineFleetConfigurationServiceManagedEc2OutputReference
 ```
@@ -9944,7 +9944,7 @@ func InternalValue() DataAwsccDeadlineFleetConfigurationServiceManagedEc2
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleetConfigurationServiceManagedEc2PersistentVolumeConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 dataawsccdeadlinefleet.NewDataAwsccDeadlineFleetConfigurationServiceManagedEc2PersistentVolumeConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDeadlineFleetConfigurationServiceManagedEc2PersistentVolumeConfigurationOutputReference
 ```
@@ -10248,7 +10248,7 @@ func InternalValue() DataAwsccDeadlineFleetConfigurationServiceManagedEc2Persist
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleetConfigurationServiceManagedEc2VpcConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 dataawsccdeadlinefleet.NewDataAwsccDeadlineFleetConfigurationServiceManagedEc2VpcConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDeadlineFleetConfigurationServiceManagedEc2VpcConfigurationOutputReference
 ```
@@ -10508,7 +10508,7 @@ func InternalValue() DataAwsccDeadlineFleetConfigurationServiceManagedEc2VpcConf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleetHostConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 dataawsccdeadlinefleet.NewDataAwsccDeadlineFleetHostConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDeadlineFleetHostConfigurationOutputReference
 ```
@@ -10779,7 +10779,7 @@ func InternalValue() DataAwsccDeadlineFleetHostConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleetTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 dataawsccdeadlinefleet.NewDataAwsccDeadlineFleetTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDeadlineFleetTagsList
 ```
@@ -10928,7 +10928,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDeadlineFleet.DataAwsccDeadlineFleetTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet"
 
 dataawsccdeadlinefleet.NewDataAwsccDeadlineFleetTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDeadlineFleetTagsOutputReference
 ```

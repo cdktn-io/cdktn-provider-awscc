@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_ad_configuration
+// https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_ad_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,25 +15,25 @@ export interface IvsAdConfigurationConfig extends cdktn.TerraformMetaArguments {
   /**
   * List of integration configurations with MediaTailor resources. The first item in the list is the default playback configuration used for the ad configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_ad_configuration#media_tailor_playback_configurations IvsAdConfiguration#media_tailor_playback_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_ad_configuration#media_tailor_playback_configurations IvsAdConfiguration#media_tailor_playback_configurations}
   */
   readonly mediaTailorPlaybackConfigurations: IvsAdConfigurationMediaTailorPlaybackConfigurations[] | cdktn.IResolvable;
   /**
   * Ad configuration name. The value does not need to be unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_ad_configuration#name IvsAdConfiguration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_ad_configuration#name IvsAdConfiguration#name}
   */
   readonly name?: string;
   /**
   * Configuration for the post-roll ad break to use for this ad configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_ad_configuration#post_roll_configuration IvsAdConfiguration#post_roll_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_ad_configuration#post_roll_configuration IvsAdConfiguration#post_roll_configuration}
   */
   readonly postRollConfiguration?: IvsAdConfigurationPostRollConfiguration;
   /**
   * Tags attached to the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_ad_configuration#tags IvsAdConfiguration#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_ad_configuration#tags IvsAdConfiguration#tags}
   */
   readonly tags?: IvsAdConfigurationTags[] | cdktn.IResolvable;
 }
@@ -41,7 +41,7 @@ export interface IvsAdConfigurationMediaTailorPlaybackConfigurations {
   /**
   * ARN of the customer-created EMT PlaybackConfiguration resource in the same region and account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_ad_configuration#playback_configuration_arn IvsAdConfiguration#playback_configuration_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_ad_configuration#playback_configuration_arn IvsAdConfiguration#playback_configuration_arn}
   */
   readonly playbackConfigurationArn?: string;
 }
@@ -159,13 +159,13 @@ export interface IvsAdConfigurationPostRollConfiguration {
   /**
   * Duration of the post-roll ad break, in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_ad_configuration#duration_seconds IvsAdConfiguration#duration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_ad_configuration#duration_seconds IvsAdConfiguration#duration_seconds}
   */
   readonly durationSeconds?: number;
   /**
   * Whether the post-roll ad configuration is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_ad_configuration#enabled IvsAdConfiguration#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_ad_configuration#enabled IvsAdConfiguration#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
 }
@@ -290,13 +290,13 @@ export interface IvsAdConfigurationTags {
   /**
   * The key name of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_ad_configuration#key IvsAdConfiguration#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_ad_configuration#key IvsAdConfiguration#key}
   */
   readonly key?: string;
   /**
   * The value for the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_ad_configuration#value IvsAdConfiguration#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_ad_configuration#value IvsAdConfiguration#value}
   */
   readonly value?: string;
 }
@@ -441,7 +441,7 @@ export class IvsAdConfigurationTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_ad_configuration awscc_ivs_ad_configuration}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_ad_configuration awscc_ivs_ad_configuration}
 */
 export class IvsAdConfiguration extends cdktn.TerraformResource {
 
@@ -457,7 +457,7 @@ export class IvsAdConfiguration extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a IvsAdConfiguration resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IvsAdConfiguration to import
-  * @param importFromId The id of the existing IvsAdConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_ad_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IvsAdConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_ad_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IvsAdConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -469,7 +469,7 @@ export class IvsAdConfiguration extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_ad_configuration awscc_ivs_ad_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_ad_configuration awscc_ivs_ad_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -480,7 +480,7 @@ export class IvsAdConfiguration extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ivs_ad_configuration',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.106.0',
+        providerVersion: '1.107.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

@@ -4,12 +4,12 @@
 
 ### IotAccountAuditConfiguration <a name="IotAccountAuditConfiguration" id="@cdktn/provider-awscc.iotAccountAuditConfiguration.IotAccountAuditConfiguration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_account_audit_configuration awscc_iot_account_audit_configuration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_account_audit_configuration awscc_iot_account_audit_configuration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotAccountAuditConfiguration.IotAccountAuditConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotaccountauditconfiguration"
 
 iotaccountauditconfiguration.NewIotAccountAuditConfiguration(scope Construct, id *string, config IotAccountAuditConfigurationConfig) IotAccountAuditConfiguration
 ```
@@ -433,7 +433,7 @@ func ResetAuditNotificationTargetConfigurations()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.iotAccountAuditConfiguration.IotAccountAuditConfiguration.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotaccountauditconfiguration"
 
 iotaccountauditconfiguration.IotAccountAuditConfiguration_IsConstruct(x interface{}) *bool
 ```
@@ -465,7 +465,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.iotAccountAuditConfiguration.IotAccountAuditConfiguration.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotaccountauditconfiguration"
 
 iotaccountauditconfiguration.IotAccountAuditConfiguration_IsTerraformElement(x interface{}) *bool
 ```
@@ -479,7 +479,7 @@ iotaccountauditconfiguration.IotAccountAuditConfiguration_IsTerraformElement(x i
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.iotAccountAuditConfiguration.IotAccountAuditConfiguration.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotaccountauditconfiguration"
 
 iotaccountauditconfiguration.IotAccountAuditConfiguration_IsTerraformResource(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ iotaccountauditconfiguration.IotAccountAuditConfiguration_IsTerraformResource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.iotAccountAuditConfiguration.IotAccountAuditConfiguration.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotaccountauditconfiguration"
 
 iotaccountauditconfiguration.IotAccountAuditConfiguration_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -522,7 +522,7 @@ The construct id used in the generated config for the IotAccountAuditConfigurati
 
 The id of the existing IotAccountAuditConfiguration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_account_audit_configuration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_account_audit_configuration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -821,26 +821,26 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotaccountauditconfiguration"
 
 &iotaccountauditconfiguration.IotAccountAuditConfigurationAuditCheckConfigurations {
-	AuthenticatedCognitoRoleOverlyPermissiveCheck: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsAuthenticatedCognitoRoleOverlyPermissiveCheck,
-	CaCertificateExpiringCheck: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsCaCertificateExpiringCheck,
-	CaCertificateKeyQualityCheck: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsCaCertificateKeyQualityCheck,
-	ConflictingClientIdsCheck: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsConflictingClientIdsCheck,
-	DeviceCertificateAgeCheck: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateAgeCheck,
-	DeviceCertificateExpiringCheck: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateExpiringCheck,
-	DeviceCertificateKeyQualityCheck: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateKeyQualityCheck,
-	DeviceCertificateSharedCheck: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateSharedCheck,
-	IntermediateCaRevokedForActiveDeviceCertificatesCheck: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsIntermediateCaRevokedForActiveDeviceCertificatesCheck,
-	IotPolicyOverlyPermissiveCheck: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsIotPolicyOverlyPermissiveCheck,
-	IoTPolicyPotentialMisConfigurationCheck: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsIoTPolicyPotentialMisConfigurationCheck,
-	IotRoleAliasAllowsAccessToUnusedServicesCheck: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsIotRoleAliasAllowsAccessToUnusedServicesCheck,
-	IotRoleAliasOverlyPermissiveCheck: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsIotRoleAliasOverlyPermissiveCheck,
-	LoggingDisabledCheck: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsLoggingDisabledCheck,
-	RevokedCaCertificateStillActiveCheck: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsRevokedCaCertificateStillActiveCheck,
-	RevokedDeviceCertificateStillActiveCheck: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsRevokedDeviceCertificateStillActiveCheck,
-	UnauthenticatedCognitoRoleOverlyPermissiveCheck: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsUnauthenticatedCognitoRoleOverlyPermissiveCheck,
+	AuthenticatedCognitoRoleOverlyPermissiveCheck: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsAuthenticatedCognitoRoleOverlyPermissiveCheck,
+	CaCertificateExpiringCheck: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsCaCertificateExpiringCheck,
+	CaCertificateKeyQualityCheck: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsCaCertificateKeyQualityCheck,
+	ConflictingClientIdsCheck: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsConflictingClientIdsCheck,
+	DeviceCertificateAgeCheck: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateAgeCheck,
+	DeviceCertificateExpiringCheck: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateExpiringCheck,
+	DeviceCertificateKeyQualityCheck: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateKeyQualityCheck,
+	DeviceCertificateSharedCheck: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateSharedCheck,
+	IntermediateCaRevokedForActiveDeviceCertificatesCheck: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsIntermediateCaRevokedForActiveDeviceCertificatesCheck,
+	IotPolicyOverlyPermissiveCheck: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsIotPolicyOverlyPermissiveCheck,
+	IoTPolicyPotentialMisConfigurationCheck: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsIoTPolicyPotentialMisConfigurationCheck,
+	IotRoleAliasAllowsAccessToUnusedServicesCheck: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsIotRoleAliasAllowsAccessToUnusedServicesCheck,
+	IotRoleAliasOverlyPermissiveCheck: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsIotRoleAliasOverlyPermissiveCheck,
+	LoggingDisabledCheck: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsLoggingDisabledCheck,
+	RevokedCaCertificateStillActiveCheck: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsRevokedCaCertificateStillActiveCheck,
+	RevokedDeviceCertificateStillActiveCheck: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsRevokedDeviceCertificateStillActiveCheck,
+	UnauthenticatedCognitoRoleOverlyPermissiveCheck: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsUnauthenticatedCognitoRoleOverlyPermissiveCheck,
 }
 ```
 
@@ -878,7 +878,7 @@ AuthenticatedCognitoRoleOverlyPermissiveCheck IotAccountAuditConfigurationAuditC
 
 The configuration for a specific audit check.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_account_audit_configuration#authenticated_cognito_role_overly_permissive_check IotAccountAuditConfiguration#authenticated_cognito_role_overly_permissive_check}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_account_audit_configuration#authenticated_cognito_role_overly_permissive_check IotAccountAuditConfiguration#authenticated_cognito_role_overly_permissive_check}
 
 ---
 
@@ -892,7 +892,7 @@ CaCertificateExpiringCheck IotAccountAuditConfigurationAuditCheckConfigurationsC
 
 The configuration for a specific audit check.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_account_audit_configuration#ca_certificate_expiring_check IotAccountAuditConfiguration#ca_certificate_expiring_check}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_account_audit_configuration#ca_certificate_expiring_check IotAccountAuditConfiguration#ca_certificate_expiring_check}
 
 ---
 
@@ -906,7 +906,7 @@ CaCertificateKeyQualityCheck IotAccountAuditConfigurationAuditCheckConfiguration
 
 The configuration for a specific audit check.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_account_audit_configuration#ca_certificate_key_quality_check IotAccountAuditConfiguration#ca_certificate_key_quality_check}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_account_audit_configuration#ca_certificate_key_quality_check IotAccountAuditConfiguration#ca_certificate_key_quality_check}
 
 ---
 
@@ -920,7 +920,7 @@ ConflictingClientIdsCheck IotAccountAuditConfigurationAuditCheckConfigurationsCo
 
 The configuration for a specific audit check.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_account_audit_configuration#conflicting_client_ids_check IotAccountAuditConfiguration#conflicting_client_ids_check}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_account_audit_configuration#conflicting_client_ids_check IotAccountAuditConfiguration#conflicting_client_ids_check}
 
 ---
 
@@ -934,7 +934,7 @@ DeviceCertificateAgeCheck IotAccountAuditConfigurationAuditCheckConfigurationsDe
 
 A structure containing the configName and corresponding configValue for configuring DeviceCertAgeCheck.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_account_audit_configuration#device_certificate_age_check IotAccountAuditConfiguration#device_certificate_age_check}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_account_audit_configuration#device_certificate_age_check IotAccountAuditConfiguration#device_certificate_age_check}
 
 ---
 
@@ -948,7 +948,7 @@ DeviceCertificateExpiringCheck IotAccountAuditConfigurationAuditCheckConfigurati
 
 A structure containing the configName and corresponding configValue for configuring DeviceCertExpirationCheck.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_account_audit_configuration#device_certificate_expiring_check IotAccountAuditConfiguration#device_certificate_expiring_check}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_account_audit_configuration#device_certificate_expiring_check IotAccountAuditConfiguration#device_certificate_expiring_check}
 
 ---
 
@@ -962,7 +962,7 @@ DeviceCertificateKeyQualityCheck IotAccountAuditConfigurationAuditCheckConfigura
 
 The configuration for a specific audit check.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_account_audit_configuration#device_certificate_key_quality_check IotAccountAuditConfiguration#device_certificate_key_quality_check}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_account_audit_configuration#device_certificate_key_quality_check IotAccountAuditConfiguration#device_certificate_key_quality_check}
 
 ---
 
@@ -976,7 +976,7 @@ DeviceCertificateSharedCheck IotAccountAuditConfigurationAuditCheckConfiguration
 
 The configuration for a specific audit check.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_account_audit_configuration#device_certificate_shared_check IotAccountAuditConfiguration#device_certificate_shared_check}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_account_audit_configuration#device_certificate_shared_check IotAccountAuditConfiguration#device_certificate_shared_check}
 
 ---
 
@@ -990,7 +990,7 @@ IntermediateCaRevokedForActiveDeviceCertificatesCheck IotAccountAuditConfigurati
 
 The configuration for a specific audit check.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_account_audit_configuration#intermediate_ca_revoked_for_active_device_certificates_check IotAccountAuditConfiguration#intermediate_ca_revoked_for_active_device_certificates_check}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_account_audit_configuration#intermediate_ca_revoked_for_active_device_certificates_check IotAccountAuditConfiguration#intermediate_ca_revoked_for_active_device_certificates_check}
 
 ---
 
@@ -1004,7 +1004,7 @@ IotPolicyOverlyPermissiveCheck IotAccountAuditConfigurationAuditCheckConfigurati
 
 The configuration for a specific audit check.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_account_audit_configuration#iot_policy_overly_permissive_check IotAccountAuditConfiguration#iot_policy_overly_permissive_check}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_account_audit_configuration#iot_policy_overly_permissive_check IotAccountAuditConfiguration#iot_policy_overly_permissive_check}
 
 ---
 
@@ -1018,7 +1018,7 @@ IoTPolicyPotentialMisConfigurationCheck IotAccountAuditConfigurationAuditCheckCo
 
 The configuration for a specific audit check.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_account_audit_configuration#io_t_policy_potential_mis_configuration_check IotAccountAuditConfiguration#io_t_policy_potential_mis_configuration_check}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_account_audit_configuration#io_t_policy_potential_mis_configuration_check IotAccountAuditConfiguration#io_t_policy_potential_mis_configuration_check}
 
 ---
 
@@ -1032,7 +1032,7 @@ IotRoleAliasAllowsAccessToUnusedServicesCheck IotAccountAuditConfigurationAuditC
 
 The configuration for a specific audit check.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_account_audit_configuration#iot_role_alias_allows_access_to_unused_services_check IotAccountAuditConfiguration#iot_role_alias_allows_access_to_unused_services_check}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_account_audit_configuration#iot_role_alias_allows_access_to_unused_services_check IotAccountAuditConfiguration#iot_role_alias_allows_access_to_unused_services_check}
 
 ---
 
@@ -1046,7 +1046,7 @@ IotRoleAliasOverlyPermissiveCheck IotAccountAuditConfigurationAuditCheckConfigur
 
 The configuration for a specific audit check.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_account_audit_configuration#iot_role_alias_overly_permissive_check IotAccountAuditConfiguration#iot_role_alias_overly_permissive_check}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_account_audit_configuration#iot_role_alias_overly_permissive_check IotAccountAuditConfiguration#iot_role_alias_overly_permissive_check}
 
 ---
 
@@ -1060,7 +1060,7 @@ LoggingDisabledCheck IotAccountAuditConfigurationAuditCheckConfigurationsLogging
 
 The configuration for a specific audit check.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_account_audit_configuration#logging_disabled_check IotAccountAuditConfiguration#logging_disabled_check}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_account_audit_configuration#logging_disabled_check IotAccountAuditConfiguration#logging_disabled_check}
 
 ---
 
@@ -1074,7 +1074,7 @@ RevokedCaCertificateStillActiveCheck IotAccountAuditConfigurationAuditCheckConfi
 
 The configuration for a specific audit check.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_account_audit_configuration#revoked_ca_certificate_still_active_check IotAccountAuditConfiguration#revoked_ca_certificate_still_active_check}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_account_audit_configuration#revoked_ca_certificate_still_active_check IotAccountAuditConfiguration#revoked_ca_certificate_still_active_check}
 
 ---
 
@@ -1088,7 +1088,7 @@ RevokedDeviceCertificateStillActiveCheck IotAccountAuditConfigurationAuditCheckC
 
 The configuration for a specific audit check.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_account_audit_configuration#revoked_device_certificate_still_active_check IotAccountAuditConfiguration#revoked_device_certificate_still_active_check}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_account_audit_configuration#revoked_device_certificate_still_active_check IotAccountAuditConfiguration#revoked_device_certificate_still_active_check}
 
 ---
 
@@ -1102,7 +1102,7 @@ UnauthenticatedCognitoRoleOverlyPermissiveCheck IotAccountAuditConfigurationAudi
 
 The configuration for a specific audit check.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_account_audit_configuration#unauthenticated_cognito_role_overly_permissive_check IotAccountAuditConfiguration#unauthenticated_cognito_role_overly_permissive_check}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_account_audit_configuration#unauthenticated_cognito_role_overly_permissive_check IotAccountAuditConfiguration#unauthenticated_cognito_role_overly_permissive_check}
 
 ---
 
@@ -1111,7 +1111,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsAuthenticatedCognitoRoleOverlyPermissiveCheck.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotaccountauditconfiguration"
 
 &iotaccountauditconfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsAuthenticatedCognitoRoleOverlyPermissiveCheck {
 	Enabled: interface{},
@@ -1136,7 +1136,7 @@ Enabled interface{}
 
 True if the check is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_account_audit_configuration#enabled IotAccountAuditConfiguration#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_account_audit_configuration#enabled IotAccountAuditConfiguration#enabled}
 
 ---
 
@@ -1145,7 +1145,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsCaCertificateExpiringCheck.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotaccountauditconfiguration"
 
 &iotaccountauditconfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsCaCertificateExpiringCheck {
 	Enabled: interface{},
@@ -1170,7 +1170,7 @@ Enabled interface{}
 
 True if the check is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_account_audit_configuration#enabled IotAccountAuditConfiguration#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_account_audit_configuration#enabled IotAccountAuditConfiguration#enabled}
 
 ---
 
@@ -1179,7 +1179,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsCaCertificateKeyQualityCheck.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotaccountauditconfiguration"
 
 &iotaccountauditconfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsCaCertificateKeyQualityCheck {
 	Enabled: interface{},
@@ -1204,7 +1204,7 @@ Enabled interface{}
 
 True if the check is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_account_audit_configuration#enabled IotAccountAuditConfiguration#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_account_audit_configuration#enabled IotAccountAuditConfiguration#enabled}
 
 ---
 
@@ -1213,7 +1213,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsConflictingClientIdsCheck.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotaccountauditconfiguration"
 
 &iotaccountauditconfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsConflictingClientIdsCheck {
 	Enabled: interface{},
@@ -1238,7 +1238,7 @@ Enabled interface{}
 
 True if the check is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_account_audit_configuration#enabled IotAccountAuditConfiguration#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_account_audit_configuration#enabled IotAccountAuditConfiguration#enabled}
 
 ---
 
@@ -1247,10 +1247,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateAgeCheck.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotaccountauditconfiguration"
 
 &iotaccountauditconfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateAgeCheck {
-	Configuration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateAgeCheckConfiguration,
+	Configuration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateAgeCheckConfiguration,
 	Enabled: interface{},
 }
 ```
@@ -1274,7 +1274,7 @@ Configuration IotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertific
 
 A structure containing the configName and corresponding configValue for configuring audit checks.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_account_audit_configuration#configuration IotAccountAuditConfiguration#configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_account_audit_configuration#configuration IotAccountAuditConfiguration#configuration}
 
 ---
 
@@ -1288,7 +1288,7 @@ Enabled interface{}
 
 True if the check is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_account_audit_configuration#enabled IotAccountAuditConfiguration#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_account_audit_configuration#enabled IotAccountAuditConfiguration#enabled}
 
 ---
 
@@ -1297,7 +1297,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateAgeCheckConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotaccountauditconfiguration"
 
 &iotaccountauditconfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateAgeCheckConfiguration {
 	CertAgeThresholdInDays: *string,
@@ -1322,7 +1322,7 @@ CertAgeThresholdInDays *string
 
 The configValue for configuring audit checks.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_account_audit_configuration#cert_age_threshold_in_days IotAccountAuditConfiguration#cert_age_threshold_in_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_account_audit_configuration#cert_age_threshold_in_days IotAccountAuditConfiguration#cert_age_threshold_in_days}
 
 ---
 
@@ -1331,10 +1331,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateExpiringCheck.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotaccountauditconfiguration"
 
 &iotaccountauditconfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateExpiringCheck {
-	Configuration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateExpiringCheckConfiguration,
+	Configuration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateExpiringCheckConfiguration,
 	Enabled: interface{},
 }
 ```
@@ -1358,7 +1358,7 @@ Configuration IotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertific
 
 A structure containing the configName and corresponding configValue for configuring audit checks.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_account_audit_configuration#configuration IotAccountAuditConfiguration#configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_account_audit_configuration#configuration IotAccountAuditConfiguration#configuration}
 
 ---
 
@@ -1372,7 +1372,7 @@ Enabled interface{}
 
 True if the check is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_account_audit_configuration#enabled IotAccountAuditConfiguration#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_account_audit_configuration#enabled IotAccountAuditConfiguration#enabled}
 
 ---
 
@@ -1381,7 +1381,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateExpiringCheckConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotaccountauditconfiguration"
 
 &iotaccountauditconfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateExpiringCheckConfiguration {
 	CertExpirationThresholdInDays: *string,
@@ -1406,7 +1406,7 @@ CertExpirationThresholdInDays *string
 
 The configValue for configuring audit checks.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_account_audit_configuration#cert_expiration_threshold_in_days IotAccountAuditConfiguration#cert_expiration_threshold_in_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_account_audit_configuration#cert_expiration_threshold_in_days IotAccountAuditConfiguration#cert_expiration_threshold_in_days}
 
 ---
 
@@ -1415,7 +1415,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateKeyQualityCheck.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotaccountauditconfiguration"
 
 &iotaccountauditconfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateKeyQualityCheck {
 	Enabled: interface{},
@@ -1440,7 +1440,7 @@ Enabled interface{}
 
 True if the check is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_account_audit_configuration#enabled IotAccountAuditConfiguration#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_account_audit_configuration#enabled IotAccountAuditConfiguration#enabled}
 
 ---
 
@@ -1449,7 +1449,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateSharedCheck.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotaccountauditconfiguration"
 
 &iotaccountauditconfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateSharedCheck {
 	Enabled: interface{},
@@ -1474,7 +1474,7 @@ Enabled interface{}
 
 True if the check is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_account_audit_configuration#enabled IotAccountAuditConfiguration#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_account_audit_configuration#enabled IotAccountAuditConfiguration#enabled}
 
 ---
 
@@ -1483,7 +1483,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsIntermediateCaRevokedForActiveDeviceCertificatesCheck.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotaccountauditconfiguration"
 
 &iotaccountauditconfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsIntermediateCaRevokedForActiveDeviceCertificatesCheck {
 	Enabled: interface{},
@@ -1508,7 +1508,7 @@ Enabled interface{}
 
 True if the check is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_account_audit_configuration#enabled IotAccountAuditConfiguration#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_account_audit_configuration#enabled IotAccountAuditConfiguration#enabled}
 
 ---
 
@@ -1517,7 +1517,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsIotPolicyOverlyPermissiveCheck.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotaccountauditconfiguration"
 
 &iotaccountauditconfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsIotPolicyOverlyPermissiveCheck {
 	Enabled: interface{},
@@ -1542,7 +1542,7 @@ Enabled interface{}
 
 True if the check is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_account_audit_configuration#enabled IotAccountAuditConfiguration#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_account_audit_configuration#enabled IotAccountAuditConfiguration#enabled}
 
 ---
 
@@ -1551,7 +1551,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsIoTPolicyPotentialMisConfigurationCheck.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotaccountauditconfiguration"
 
 &iotaccountauditconfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsIoTPolicyPotentialMisConfigurationCheck {
 	Enabled: interface{},
@@ -1576,7 +1576,7 @@ Enabled interface{}
 
 True if the check is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_account_audit_configuration#enabled IotAccountAuditConfiguration#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_account_audit_configuration#enabled IotAccountAuditConfiguration#enabled}
 
 ---
 
@@ -1585,7 +1585,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsIotRoleAliasAllowsAccessToUnusedServicesCheck.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotaccountauditconfiguration"
 
 &iotaccountauditconfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsIotRoleAliasAllowsAccessToUnusedServicesCheck {
 	Enabled: interface{},
@@ -1610,7 +1610,7 @@ Enabled interface{}
 
 True if the check is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_account_audit_configuration#enabled IotAccountAuditConfiguration#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_account_audit_configuration#enabled IotAccountAuditConfiguration#enabled}
 
 ---
 
@@ -1619,7 +1619,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsIotRoleAliasOverlyPermissiveCheck.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotaccountauditconfiguration"
 
 &iotaccountauditconfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsIotRoleAliasOverlyPermissiveCheck {
 	Enabled: interface{},
@@ -1644,7 +1644,7 @@ Enabled interface{}
 
 True if the check is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_account_audit_configuration#enabled IotAccountAuditConfiguration#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_account_audit_configuration#enabled IotAccountAuditConfiguration#enabled}
 
 ---
 
@@ -1653,7 +1653,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsLoggingDisabledCheck.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotaccountauditconfiguration"
 
 &iotaccountauditconfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsLoggingDisabledCheck {
 	Enabled: interface{},
@@ -1678,7 +1678,7 @@ Enabled interface{}
 
 True if the check is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_account_audit_configuration#enabled IotAccountAuditConfiguration#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_account_audit_configuration#enabled IotAccountAuditConfiguration#enabled}
 
 ---
 
@@ -1687,7 +1687,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsRevokedCaCertificateStillActiveCheck.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotaccountauditconfiguration"
 
 &iotaccountauditconfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsRevokedCaCertificateStillActiveCheck {
 	Enabled: interface{},
@@ -1712,7 +1712,7 @@ Enabled interface{}
 
 True if the check is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_account_audit_configuration#enabled IotAccountAuditConfiguration#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_account_audit_configuration#enabled IotAccountAuditConfiguration#enabled}
 
 ---
 
@@ -1721,7 +1721,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsRevokedDeviceCertificateStillActiveCheck.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotaccountauditconfiguration"
 
 &iotaccountauditconfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsRevokedDeviceCertificateStillActiveCheck {
 	Enabled: interface{},
@@ -1746,7 +1746,7 @@ Enabled interface{}
 
 True if the check is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_account_audit_configuration#enabled IotAccountAuditConfiguration#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_account_audit_configuration#enabled IotAccountAuditConfiguration#enabled}
 
 ---
 
@@ -1755,7 +1755,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsUnauthenticatedCognitoRoleOverlyPermissiveCheck.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotaccountauditconfiguration"
 
 &iotaccountauditconfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsUnauthenticatedCognitoRoleOverlyPermissiveCheck {
 	Enabled: interface{},
@@ -1780,7 +1780,7 @@ Enabled interface{}
 
 True if the check is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_account_audit_configuration#enabled IotAccountAuditConfiguration#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_account_audit_configuration#enabled IotAccountAuditConfiguration#enabled}
 
 ---
 
@@ -1789,10 +1789,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditNotificationTargetConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotaccountauditconfiguration"
 
 &iotaccountauditconfiguration.IotAccountAuditConfigurationAuditNotificationTargetConfigurations {
-	Sns: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditNotificationTargetConfigurationsSns,
+	Sns: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditNotificationTargetConfigurationsSns,
 }
 ```
 
@@ -1800,7 +1800,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotaccountauditconfigu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditNotificationTargetConfigurations.property.sns">Sns</a></code> | <code><a href="#@cdktn/provider-awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditNotificationTargetConfigurationsSns">IotAccountAuditConfigurationAuditNotificationTargetConfigurationsSns</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_account_audit_configuration#sns IotAccountAuditConfiguration#sns}. |
+| <code><a href="#@cdktn/provider-awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditNotificationTargetConfigurations.property.sns">Sns</a></code> | <code><a href="#@cdktn/provider-awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditNotificationTargetConfigurationsSns">IotAccountAuditConfigurationAuditNotificationTargetConfigurationsSns</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_account_audit_configuration#sns IotAccountAuditConfiguration#sns}. |
 
 ---
 
@@ -1812,7 +1812,7 @@ Sns IotAccountAuditConfigurationAuditNotificationTargetConfigurationsSns
 
 - *Type:* <a href="#@cdktn/provider-awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditNotificationTargetConfigurationsSns">IotAccountAuditConfigurationAuditNotificationTargetConfigurationsSns</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_account_audit_configuration#sns IotAccountAuditConfiguration#sns}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_account_audit_configuration#sns IotAccountAuditConfiguration#sns}.
 
 ---
 
@@ -1821,7 +1821,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditNotificationTargetConfigurationsSns.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotaccountauditconfiguration"
 
 &iotaccountauditconfiguration.IotAccountAuditConfigurationAuditNotificationTargetConfigurationsSns {
 	Enabled: interface{},
@@ -1850,7 +1850,7 @@ Enabled interface{}
 
 True if notifications to the target are enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_account_audit_configuration#enabled IotAccountAuditConfiguration#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_account_audit_configuration#enabled IotAccountAuditConfiguration#enabled}
 
 ---
 
@@ -1864,7 +1864,7 @@ RoleArn *string
 
 The ARN of the role that grants permission to send notifications to the target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_account_audit_configuration#role_arn IotAccountAuditConfiguration#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_account_audit_configuration#role_arn IotAccountAuditConfiguration#role_arn}
 
 ---
 
@@ -1878,7 +1878,7 @@ TargetArn *string
 
 The ARN of the target (SNS topic) to which audit notifications are sent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_account_audit_configuration#target_arn IotAccountAuditConfiguration#target_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_account_audit_configuration#target_arn IotAccountAuditConfiguration#target_arn}
 
 ---
 
@@ -1887,7 +1887,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotaccountauditconfiguration"
 
 &iotaccountauditconfiguration.IotAccountAuditConfigurationConfig {
 	Connection: interface{},
@@ -1898,9 +1898,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotaccountauditconfigu
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	AccountId: *string,
-	AuditCheckConfigurations: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurations,
+	AuditCheckConfigurations: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurations,
 	RoleArn: *string,
-	AuditNotificationTargetConfigurations: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditNotificationTargetConfigurations,
+	AuditNotificationTargetConfigurations: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditNotificationTargetConfigurations,
 }
 ```
 
@@ -2002,7 +2002,7 @@ AccountId *string
 
 Your 12-digit account ID (used as the primary identifier for the CloudFormation resource).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_account_audit_configuration#account_id IotAccountAuditConfiguration#account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_account_audit_configuration#account_id IotAccountAuditConfiguration#account_id}
 
 ---
 
@@ -2016,7 +2016,7 @@ AuditCheckConfigurations IotAccountAuditConfigurationAuditCheckConfigurations
 
 Specifies which audit checks are enabled and disabled for this account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_account_audit_configuration#audit_check_configurations IotAccountAuditConfiguration#audit_check_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_account_audit_configuration#audit_check_configurations IotAccountAuditConfiguration#audit_check_configurations}
 
 ---
 
@@ -2030,7 +2030,7 @@ RoleArn *string
 
 The ARN of the role that grants permission to AWS IoT to access information about your devices, policies, certificates and other items as required when performing an audit.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_account_audit_configuration#role_arn IotAccountAuditConfiguration#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_account_audit_configuration#role_arn IotAccountAuditConfiguration#role_arn}
 
 ---
 
@@ -2044,7 +2044,7 @@ AuditNotificationTargetConfigurations IotAccountAuditConfigurationAuditNotificat
 
 Information about the targets to which audit notifications are sent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_account_audit_configuration#audit_notification_target_configurations IotAccountAuditConfiguration#audit_notification_target_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_account_audit_configuration#audit_notification_target_configurations IotAccountAuditConfiguration#audit_notification_target_configurations}
 
 ---
 
@@ -2055,7 +2055,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsAuthenticatedCognitoRoleOverlyPermissiveCheckOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotaccountauditconfiguration"
 
 iotaccountauditconfiguration.NewIotAccountAuditConfigurationAuditCheckConfigurationsAuthenticatedCognitoRoleOverlyPermissiveCheckOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotAccountAuditConfigurationAuditCheckConfigurationsAuthenticatedCognitoRoleOverlyPermissiveCheckOutputReference
 ```
@@ -2333,7 +2333,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsCaCertificateExpiringCheckOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotaccountauditconfiguration"
 
 iotaccountauditconfiguration.NewIotAccountAuditConfigurationAuditCheckConfigurationsCaCertificateExpiringCheckOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotAccountAuditConfigurationAuditCheckConfigurationsCaCertificateExpiringCheckOutputReference
 ```
@@ -2611,7 +2611,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsCaCertificateKeyQualityCheckOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotaccountauditconfiguration"
 
 iotaccountauditconfiguration.NewIotAccountAuditConfigurationAuditCheckConfigurationsCaCertificateKeyQualityCheckOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotAccountAuditConfigurationAuditCheckConfigurationsCaCertificateKeyQualityCheckOutputReference
 ```
@@ -2889,7 +2889,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsConflictingClientIdsCheckOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotaccountauditconfiguration"
 
 iotaccountauditconfiguration.NewIotAccountAuditConfigurationAuditCheckConfigurationsConflictingClientIdsCheckOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotAccountAuditConfigurationAuditCheckConfigurationsConflictingClientIdsCheckOutputReference
 ```
@@ -3167,7 +3167,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateAgeCheckConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotaccountauditconfiguration"
 
 iotaccountauditconfiguration.NewIotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateAgeCheckConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateAgeCheckConfigurationOutputReference
 ```
@@ -3445,7 +3445,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateAgeCheckOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotaccountauditconfiguration"
 
 iotaccountauditconfiguration.NewIotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateAgeCheckOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateAgeCheckOutputReference
 ```
@@ -3765,7 +3765,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateExpiringCheckConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotaccountauditconfiguration"
 
 iotaccountauditconfiguration.NewIotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateExpiringCheckConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateExpiringCheckConfigurationOutputReference
 ```
@@ -4043,7 +4043,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateExpiringCheckOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotaccountauditconfiguration"
 
 iotaccountauditconfiguration.NewIotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateExpiringCheckOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateExpiringCheckOutputReference
 ```
@@ -4363,7 +4363,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateKeyQualityCheckOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotaccountauditconfiguration"
 
 iotaccountauditconfiguration.NewIotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateKeyQualityCheckOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateKeyQualityCheckOutputReference
 ```
@@ -4641,7 +4641,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateSharedCheckOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotaccountauditconfiguration"
 
 iotaccountauditconfiguration.NewIotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateSharedCheckOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateSharedCheckOutputReference
 ```
@@ -4919,7 +4919,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsIntermediateCaRevokedForActiveDeviceCertificatesCheckOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotaccountauditconfiguration"
 
 iotaccountauditconfiguration.NewIotAccountAuditConfigurationAuditCheckConfigurationsIntermediateCaRevokedForActiveDeviceCertificatesCheckOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotAccountAuditConfigurationAuditCheckConfigurationsIntermediateCaRevokedForActiveDeviceCertificatesCheckOutputReference
 ```
@@ -5197,7 +5197,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsIotPolicyOverlyPermissiveCheckOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotaccountauditconfiguration"
 
 iotaccountauditconfiguration.NewIotAccountAuditConfigurationAuditCheckConfigurationsIotPolicyOverlyPermissiveCheckOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotAccountAuditConfigurationAuditCheckConfigurationsIotPolicyOverlyPermissiveCheckOutputReference
 ```
@@ -5475,7 +5475,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsIoTPolicyPotentialMisConfigurationCheckOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotaccountauditconfiguration"
 
 iotaccountauditconfiguration.NewIotAccountAuditConfigurationAuditCheckConfigurationsIoTPolicyPotentialMisConfigurationCheckOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotAccountAuditConfigurationAuditCheckConfigurationsIoTPolicyPotentialMisConfigurationCheckOutputReference
 ```
@@ -5753,7 +5753,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsIotRoleAliasAllowsAccessToUnusedServicesCheckOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotaccountauditconfiguration"
 
 iotaccountauditconfiguration.NewIotAccountAuditConfigurationAuditCheckConfigurationsIotRoleAliasAllowsAccessToUnusedServicesCheckOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotAccountAuditConfigurationAuditCheckConfigurationsIotRoleAliasAllowsAccessToUnusedServicesCheckOutputReference
 ```
@@ -6031,7 +6031,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsIotRoleAliasOverlyPermissiveCheckOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotaccountauditconfiguration"
 
 iotaccountauditconfiguration.NewIotAccountAuditConfigurationAuditCheckConfigurationsIotRoleAliasOverlyPermissiveCheckOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotAccountAuditConfigurationAuditCheckConfigurationsIotRoleAliasOverlyPermissiveCheckOutputReference
 ```
@@ -6309,7 +6309,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsLoggingDisabledCheckOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotaccountauditconfiguration"
 
 iotaccountauditconfiguration.NewIotAccountAuditConfigurationAuditCheckConfigurationsLoggingDisabledCheckOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotAccountAuditConfigurationAuditCheckConfigurationsLoggingDisabledCheckOutputReference
 ```
@@ -6587,7 +6587,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotaccountauditconfiguration"
 
 iotaccountauditconfiguration.NewIotAccountAuditConfigurationAuditCheckConfigurationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotAccountAuditConfigurationAuditCheckConfigurationsOutputReference
 ```
@@ -7550,7 +7550,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsRevokedCaCertificateStillActiveCheckOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotaccountauditconfiguration"
 
 iotaccountauditconfiguration.NewIotAccountAuditConfigurationAuditCheckConfigurationsRevokedCaCertificateStillActiveCheckOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotAccountAuditConfigurationAuditCheckConfigurationsRevokedCaCertificateStillActiveCheckOutputReference
 ```
@@ -7828,7 +7828,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsRevokedDeviceCertificateStillActiveCheckOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotaccountauditconfiguration"
 
 iotaccountauditconfiguration.NewIotAccountAuditConfigurationAuditCheckConfigurationsRevokedDeviceCertificateStillActiveCheckOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotAccountAuditConfigurationAuditCheckConfigurationsRevokedDeviceCertificateStillActiveCheckOutputReference
 ```
@@ -8106,7 +8106,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditCheckConfigurationsUnauthenticatedCognitoRoleOverlyPermissiveCheckOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotaccountauditconfiguration"
 
 iotaccountauditconfiguration.NewIotAccountAuditConfigurationAuditCheckConfigurationsUnauthenticatedCognitoRoleOverlyPermissiveCheckOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotAccountAuditConfigurationAuditCheckConfigurationsUnauthenticatedCognitoRoleOverlyPermissiveCheckOutputReference
 ```
@@ -8384,7 +8384,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditNotificationTargetConfigurationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotaccountauditconfiguration"
 
 iotaccountauditconfiguration.NewIotAccountAuditConfigurationAuditNotificationTargetConfigurationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotAccountAuditConfigurationAuditNotificationTargetConfigurationsOutputReference
 ```
@@ -8675,7 +8675,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotAccountAuditConfiguration.IotAccountAuditConfigurationAuditNotificationTargetConfigurationsSnsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotaccountauditconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotaccountauditconfiguration"
 
 iotaccountauditconfiguration.NewIotAccountAuditConfigurationAuditNotificationTargetConfigurationsSnsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotAccountAuditConfigurationAuditNotificationTargetConfigurationsSnsOutputReference
 ```

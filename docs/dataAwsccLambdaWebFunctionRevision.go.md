@@ -4,12 +4,12 @@
 
 ### DataAwsccLambdaWebFunctionRevision <a name="DataAwsccLambdaWebFunctionRevision" id="@cdktn/provider-awscc.dataAwsccLambdaWebFunctionRevision.DataAwsccLambdaWebFunctionRevision"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lambda_web_function_revision awscc_lambda_web_function_revision}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lambda_web_function_revision awscc_lambda_web_function_revision}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaWebFunctionRevision.DataAwsccLambdaWebFunctionRevision.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdawebfunctionrevision"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdawebfunctionrevision"
 
 dataawscclambdawebfunctionrevision.NewDataAwsccLambdaWebFunctionRevision(scope Construct, id *string, config DataAwsccLambdaWebFunctionRevisionConfig) DataAwsccLambdaWebFunctionRevision
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccLambdaWebFunctionRevision.DataAwsccLambdaWebFunctionRevision.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdawebfunctionrevision"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdawebfunctionrevision"
 
 dataawscclambdawebfunctionrevision.DataAwsccLambdaWebFunctionRevision_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccLambdaWebFunctionRevision.DataAwsccLambdaWebFunctionRevision.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdawebfunctionrevision"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdawebfunctionrevision"
 
 dataawscclambdawebfunctionrevision.DataAwsccLambdaWebFunctionRevision_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscclambdawebfunctionrevision.DataAwsccLambdaWebFunctionRevision_IsTerrafor
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccLambdaWebFunctionRevision.DataAwsccLambdaWebFunctionRevision.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdawebfunctionrevision"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdawebfunctionrevision"
 
 dataawscclambdawebfunctionrevision.DataAwsccLambdaWebFunctionRevision_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscclambdawebfunctionrevision.DataAwsccLambdaWebFunctionRevision_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccLambdaWebFunctionRevision.DataAwsccLambdaWebFunctionRevision.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdawebfunctionrevision"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdawebfunctionrevision"
 
 dataawscclambdawebfunctionrevision.DataAwsccLambdaWebFunctionRevision_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLambdaWebFunction
 
 The id of the existing DataAwsccLambdaWebFunctionRevision that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lambda_web_function_revision#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lambda_web_function_revision#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -708,7 +708,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaWebFunctionRevision.DataAwsccLambdaWebFunctionRevisionBuildConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdawebfunctionrevision"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdawebfunctionrevision"
 
 &dataawscclambdawebfunctionrevision.DataAwsccLambdaWebFunctionRevisionBuildConfig {
 
@@ -721,7 +721,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdawebfunc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaWebFunctionRevision.DataAwsccLambdaWebFunctionRevisionBuildConfigCodeConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdawebfunctionrevision"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdawebfunctionrevision"
 
 &dataawscclambdawebfunctionrevision.DataAwsccLambdaWebFunctionRevisionBuildConfigCodeConfig {
 
@@ -734,7 +734,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdawebfunc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaWebFunctionRevision.DataAwsccLambdaWebFunctionRevisionBuildConfigCodeConfigS3Object.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdawebfunctionrevision"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdawebfunctionrevision"
 
 &dataawscclambdawebfunctionrevision.DataAwsccLambdaWebFunctionRevisionBuildConfigCodeConfigS3Object {
 
@@ -747,7 +747,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdawebfunc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaWebFunctionRevision.DataAwsccLambdaWebFunctionRevisionBuildConfigRuntimeConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdawebfunctionrevision"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdawebfunctionrevision"
 
 &dataawscclambdawebfunctionrevision.DataAwsccLambdaWebFunctionRevisionBuildConfigRuntimeConfig {
 
@@ -760,7 +760,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdawebfunc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaWebFunctionRevision.DataAwsccLambdaWebFunctionRevisionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdawebfunctionrevision"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdawebfunctionrevision"
 
 &dataawscclambdawebfunctionrevision.DataAwsccLambdaWebFunctionRevisionConfig {
 	Connection: interface{},
@@ -869,7 +869,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lambda_web_function_revision#id DataAwsccLambdaWebFunctionRevision#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lambda_web_function_revision#id DataAwsccLambdaWebFunctionRevision#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -881,7 +881,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaWebFunctionRevision.DataAwsccLambdaWebFunctionRevisionServiceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdawebfunctionrevision"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdawebfunctionrevision"
 
 &dataawscclambdawebfunctionrevision.DataAwsccLambdaWebFunctionRevisionServiceConfig {
 
@@ -894,7 +894,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdawebfunc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaWebFunctionRevision.DataAwsccLambdaWebFunctionRevisionServiceConfigTelemetryConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdawebfunctionrevision"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdawebfunctionrevision"
 
 &dataawscclambdawebfunctionrevision.DataAwsccLambdaWebFunctionRevisionServiceConfigTelemetryConfig {
 
@@ -907,7 +907,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdawebfunc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaWebFunctionRevision.DataAwsccLambdaWebFunctionRevisionServiceConfigTelemetryConfigLoggingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdawebfunctionrevision"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdawebfunctionrevision"
 
 &dataawscclambdawebfunctionrevision.DataAwsccLambdaWebFunctionRevisionServiceConfigTelemetryConfigLoggingConfig {
 
@@ -922,7 +922,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdawebfunc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaWebFunctionRevision.DataAwsccLambdaWebFunctionRevisionBuildConfigCodeConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdawebfunctionrevision"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdawebfunctionrevision"
 
 dataawscclambdawebfunctionrevision.NewDataAwsccLambdaWebFunctionRevisionBuildConfigCodeConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLambdaWebFunctionRevisionBuildConfigCodeConfigOutputReference
 ```
@@ -1182,7 +1182,7 @@ func InternalValue() DataAwsccLambdaWebFunctionRevisionBuildConfigCodeConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaWebFunctionRevision.DataAwsccLambdaWebFunctionRevisionBuildConfigCodeConfigS3ObjectOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdawebfunctionrevision"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdawebfunctionrevision"
 
 dataawscclambdawebfunctionrevision.NewDataAwsccLambdaWebFunctionRevisionBuildConfigCodeConfigS3ObjectOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLambdaWebFunctionRevisionBuildConfigCodeConfigS3ObjectOutputReference
 ```
@@ -1464,7 +1464,7 @@ func InternalValue() DataAwsccLambdaWebFunctionRevisionBuildConfigCodeConfigS3Ob
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaWebFunctionRevision.DataAwsccLambdaWebFunctionRevisionBuildConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdawebfunctionrevision"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdawebfunctionrevision"
 
 dataawscclambdawebfunctionrevision.NewDataAwsccLambdaWebFunctionRevisionBuildConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLambdaWebFunctionRevisionBuildConfigOutputReference
 ```
@@ -1735,7 +1735,7 @@ func InternalValue() DataAwsccLambdaWebFunctionRevisionBuildConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaWebFunctionRevision.DataAwsccLambdaWebFunctionRevisionBuildConfigRuntimeConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdawebfunctionrevision"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdawebfunctionrevision"
 
 dataawscclambdawebfunctionrevision.NewDataAwsccLambdaWebFunctionRevisionBuildConfigRuntimeConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLambdaWebFunctionRevisionBuildConfigRuntimeConfigOutputReference
 ```
@@ -1995,7 +1995,7 @@ func InternalValue() DataAwsccLambdaWebFunctionRevisionBuildConfigRuntimeConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaWebFunctionRevision.DataAwsccLambdaWebFunctionRevisionServiceConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdawebfunctionrevision"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdawebfunctionrevision"
 
 dataawscclambdawebfunctionrevision.NewDataAwsccLambdaWebFunctionRevisionServiceConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLambdaWebFunctionRevisionServiceConfigOutputReference
 ```
@@ -2310,7 +2310,7 @@ func InternalValue() DataAwsccLambdaWebFunctionRevisionServiceConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaWebFunctionRevision.DataAwsccLambdaWebFunctionRevisionServiceConfigTelemetryConfigLoggingConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdawebfunctionrevision"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdawebfunctionrevision"
 
 dataawscclambdawebfunctionrevision.NewDataAwsccLambdaWebFunctionRevisionServiceConfigTelemetryConfigLoggingConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLambdaWebFunctionRevisionServiceConfigTelemetryConfigLoggingConfigOutputReference
 ```
@@ -2592,7 +2592,7 @@ func InternalValue() DataAwsccLambdaWebFunctionRevisionServiceConfigTelemetryCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaWebFunctionRevision.DataAwsccLambdaWebFunctionRevisionServiceConfigTelemetryConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdawebfunctionrevision"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdawebfunctionrevision"
 
 dataawscclambdawebfunctionrevision.NewDataAwsccLambdaWebFunctionRevisionServiceConfigTelemetryConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLambdaWebFunctionRevisionServiceConfigTelemetryConfigOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DevopsguruResourceCollection <a name="DevopsguruResourceCollection" id="@cdktn/provider-awscc.devopsguruResourceCollection.DevopsguruResourceCollection"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsguru_resource_collection awscc_devopsguru_resource_collection}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsguru_resource_collection awscc_devopsguru_resource_collection}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsguruResourceCollection.DevopsguruResourceCollection.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsgururesourcecollection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsgururesourcecollection"
 
 devopsgururesourcecollection.NewDevopsguruResourceCollection(scope Construct, id *string, config DevopsguruResourceCollectionConfig) DevopsguruResourceCollection
 ```
@@ -413,7 +413,7 @@ func PutResourceCollectionFilter(value DevopsguruResourceCollectionResourceColle
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.devopsguruResourceCollection.DevopsguruResourceCollection.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsgururesourcecollection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsgururesourcecollection"
 
 devopsgururesourcecollection.DevopsguruResourceCollection_IsConstruct(x interface{}) *bool
 ```
@@ -445,7 +445,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.devopsguruResourceCollection.DevopsguruResourceCollection.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsgururesourcecollection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsgururesourcecollection"
 
 devopsgururesourcecollection.DevopsguruResourceCollection_IsTerraformElement(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ devopsgururesourcecollection.DevopsguruResourceCollection_IsTerraformElement(x i
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.devopsguruResourceCollection.DevopsguruResourceCollection.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsgururesourcecollection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsgururesourcecollection"
 
 devopsgururesourcecollection.DevopsguruResourceCollection_IsTerraformResource(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ devopsgururesourcecollection.DevopsguruResourceCollection_IsTerraformResource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.devopsguruResourceCollection.DevopsguruResourceCollection.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsgururesourcecollection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsgururesourcecollection"
 
 devopsgururesourcecollection.DevopsguruResourceCollection_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -502,7 +502,7 @@ The construct id used in the generated config for the DevopsguruResourceCollecti
 
 The id of the existing DevopsguruResourceCollection that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsguru_resource_collection#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsguru_resource_collection#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -746,7 +746,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsguruResourceCollection.DevopsguruResourceCollectionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsgururesourcecollection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsgururesourcecollection"
 
 &devopsgururesourcecollection.DevopsguruResourceCollectionConfig {
 	Connection: interface{},
@@ -756,7 +756,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsgururesourcecoll
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	ResourceCollectionFilter: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.devopsguruResourceCollection.DevopsguruResourceCollectionResourceCollectionFilter,
+	ResourceCollectionFilter: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.devopsguruResourceCollection.DevopsguruResourceCollectionResourceCollectionFilter,
 }
 ```
 
@@ -855,7 +855,7 @@ ResourceCollectionFilter DevopsguruResourceCollectionResourceCollectionFilter
 
 Information about a filter used to specify which AWS resources are analyzed for anomalous behavior by DevOps Guru.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsguru_resource_collection#resource_collection_filter DevopsguruResourceCollection#resource_collection_filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsguru_resource_collection#resource_collection_filter DevopsguruResourceCollection#resource_collection_filter}
 
 ---
 
@@ -864,10 +864,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsguruResourceCollection.DevopsguruResourceCollectionResourceCollectionFilter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsgururesourcecollection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsgururesourcecollection"
 
 &devopsgururesourcecollection.DevopsguruResourceCollectionResourceCollectionFilter {
-	Cloudformation: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.devopsguruResourceCollection.DevopsguruResourceCollectionResourceCollectionFilterCloudformation,
+	Cloudformation: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.devopsguruResourceCollection.DevopsguruResourceCollectionResourceCollectionFilterCloudformation,
 	Tags: interface{},
 }
 ```
@@ -891,7 +891,7 @@ Cloudformation DevopsguruResourceCollectionResourceCollectionFilterCloudformatio
 
 CloudFormation resource for DevOps Guru to monitor.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsguru_resource_collection#cloudformation DevopsguruResourceCollection#cloudformation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsguru_resource_collection#cloudformation DevopsguruResourceCollection#cloudformation}
 
 ---
 
@@ -905,7 +905,7 @@ Tags interface{}
 
 Tagged resources for DevOps Guru to monitor.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsguru_resource_collection#tags DevopsguruResourceCollection#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsguru_resource_collection#tags DevopsguruResourceCollection#tags}
 
 ---
 
@@ -914,7 +914,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsguruResourceCollection.DevopsguruResourceCollectionResourceCollectionFilterCloudformation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsgururesourcecollection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsgururesourcecollection"
 
 &devopsgururesourcecollection.DevopsguruResourceCollectionResourceCollectionFilterCloudformation {
 	StackNames: *[]*string,
@@ -939,7 +939,7 @@ StackNames *[]*string
 
 An array of CloudFormation stack names.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsguru_resource_collection#stack_names DevopsguruResourceCollection#stack_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsguru_resource_collection#stack_names DevopsguruResourceCollection#stack_names}
 
 ---
 
@@ -948,7 +948,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsguruResourceCollection.DevopsguruResourceCollectionResourceCollectionFilterTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsgururesourcecollection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsgururesourcecollection"
 
 &devopsgururesourcecollection.DevopsguruResourceCollectionResourceCollectionFilterTags {
 	AppBoundaryKey: *string,
@@ -975,7 +975,7 @@ AppBoundaryKey *string
 
 A Tag key for DevOps Guru app boundary.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsguru_resource_collection#app_boundary_key DevopsguruResourceCollection#app_boundary_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsguru_resource_collection#app_boundary_key DevopsguruResourceCollection#app_boundary_key}
 
 ---
 
@@ -989,7 +989,7 @@ TagValues *[]*string
 
 Tag values of DevOps Guru app boundary.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsguru_resource_collection#tag_values DevopsguruResourceCollection#tag_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsguru_resource_collection#tag_values DevopsguruResourceCollection#tag_values}
 
 ---
 
@@ -1000,7 +1000,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsguruResourceCollection.DevopsguruResourceCollectionResourceCollectionFilterCloudformationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsgururesourcecollection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsgururesourcecollection"
 
 devopsgururesourcecollection.NewDevopsguruResourceCollectionResourceCollectionFilterCloudformationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DevopsguruResourceCollectionResourceCollectionFilterCloudformationOutputReference
 ```
@@ -1278,7 +1278,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsguruResourceCollection.DevopsguruResourceCollectionResourceCollectionFilterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsgururesourcecollection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsgururesourcecollection"
 
 devopsgururesourcecollection.NewDevopsguruResourceCollectionResourceCollectionFilterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DevopsguruResourceCollectionResourceCollectionFilterOutputReference
 ```
@@ -1611,7 +1611,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsguruResourceCollection.DevopsguruResourceCollectionResourceCollectionFilterTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsgururesourcecollection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsgururesourcecollection"
 
 devopsgururesourcecollection.NewDevopsguruResourceCollectionResourceCollectionFilterTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DevopsguruResourceCollectionResourceCollectionFilterTagsList
 ```
@@ -1771,7 +1771,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsguruResourceCollection.DevopsguruResourceCollectionResourceCollectionFilterTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsgururesourcecollection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsgururesourcecollection"
 
 devopsgururesourcecollection.NewDevopsguruResourceCollectionResourceCollectionFilterTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DevopsguruResourceCollectionResourceCollectionFilterTagsOutputReference
 ```

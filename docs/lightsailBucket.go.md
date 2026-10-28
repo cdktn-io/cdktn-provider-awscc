@@ -4,12 +4,12 @@
 
 ### LightsailBucket <a name="LightsailBucket" id="@cdktn/provider-awscc.lightsailBucket.LightsailBucket"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_bucket awscc_lightsail_bucket}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_bucket awscc_lightsail_bucket}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lightsailBucket.LightsailBucket.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailbucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailbucket"
 
 lightsailbucket.NewLightsailBucket(scope Construct, id *string, config LightsailBucketConfig) LightsailBucket
 ```
@@ -461,7 +461,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.lightsailBucket.LightsailBucket.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailbucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailbucket"
 
 lightsailbucket.LightsailBucket_IsConstruct(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.lightsailBucket.LightsailBucket.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailbucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailbucket"
 
 lightsailbucket.LightsailBucket_IsTerraformElement(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ lightsailbucket.LightsailBucket_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.lightsailBucket.LightsailBucket.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailbucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailbucket"
 
 lightsailbucket.LightsailBucket_IsTerraformResource(x interface{}) *bool
 ```
@@ -521,7 +521,7 @@ lightsailbucket.LightsailBucket_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.lightsailBucket.LightsailBucket.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailbucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailbucket"
 
 lightsailbucket.LightsailBucket_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -550,7 +550,7 @@ The construct id used in the generated config for the LightsailBucket to import.
 
 The id of the existing LightsailBucket that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_bucket#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_bucket#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -948,7 +948,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lightsailBucket.LightsailBucketAccessRules.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailbucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailbucket"
 
 &lightsailbucket.LightsailBucketAccessRules {
 	AllowPublicOverrides: interface{},
@@ -975,7 +975,7 @@ AllowPublicOverrides interface{}
 
 A Boolean value that indicates whether the access control list (ACL) permissions that are applied to individual objects override the getObject option that is currently specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_bucket#allow_public_overrides LightsailBucket#allow_public_overrides}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_bucket#allow_public_overrides LightsailBucket#allow_public_overrides}
 
 ---
 
@@ -989,7 +989,7 @@ FetchObject *string
 
 Specifies the anonymous access to all objects in a bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_bucket#get_object LightsailBucket#get_object}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_bucket#get_object LightsailBucket#get_object}
 
 ---
 
@@ -998,7 +998,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lightsailBucket.LightsailBucketConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailbucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailbucket"
 
 &lightsailbucket.LightsailBucketConfig {
 	Connection: interface{},
@@ -1010,7 +1010,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailbucket"
 	Provisioners: *[]interface{},
 	BucketName: *string,
 	BundleId: *string,
-	AccessRules: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lightsailBucket.LightsailBucketAccessRules,
+	AccessRules: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lightsailBucket.LightsailBucketAccessRules,
 	ObjectVersioning: interface{},
 	ReadOnlyAccessAccounts: *[]*string,
 	ResourcesReceivingAccess: *[]*string,
@@ -1119,7 +1119,7 @@ BucketName *string
 
 The name for the bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_bucket#bucket_name LightsailBucket#bucket_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_bucket#bucket_name LightsailBucket#bucket_name}
 
 ---
 
@@ -1133,7 +1133,7 @@ BundleId *string
 
 The ID of the bundle to use for the bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_bucket#bundle_id LightsailBucket#bundle_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_bucket#bundle_id LightsailBucket#bundle_id}
 
 ---
 
@@ -1147,7 +1147,7 @@ AccessRules LightsailBucketAccessRules
 
 An object that sets the public accessibility of objects in the specified bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_bucket#access_rules LightsailBucket#access_rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_bucket#access_rules LightsailBucket#access_rules}
 
 ---
 
@@ -1161,7 +1161,7 @@ ObjectVersioning interface{}
 
 Specifies whether to enable or disable versioning of objects in the bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_bucket#object_versioning LightsailBucket#object_versioning}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_bucket#object_versioning LightsailBucket#object_versioning}
 
 ---
 
@@ -1175,7 +1175,7 @@ ReadOnlyAccessAccounts *[]*string
 
 An array of strings to specify the AWS account IDs that can access the bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_bucket#read_only_access_accounts LightsailBucket#read_only_access_accounts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_bucket#read_only_access_accounts LightsailBucket#read_only_access_accounts}
 
 ---
 
@@ -1189,7 +1189,7 @@ ResourcesReceivingAccess *[]*string
 
 The names of the Lightsail resources for which to set bucket access.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_bucket#resources_receiving_access LightsailBucket#resources_receiving_access}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_bucket#resources_receiving_access LightsailBucket#resources_receiving_access}
 
 ---
 
@@ -1203,7 +1203,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_bucket#tags LightsailBucket#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_bucket#tags LightsailBucket#tags}
 
 ---
 
@@ -1212,7 +1212,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lightsailBucket.LightsailBucketTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailbucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailbucket"
 
 &lightsailbucket.LightsailBucketTags {
 	Key: *string,
@@ -1241,7 +1241,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_bucket#key LightsailBucket#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_bucket#key LightsailBucket#key}
 
 ---
 
@@ -1257,7 +1257,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_bucket#value LightsailBucket#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_bucket#value LightsailBucket#value}
 
 ---
 
@@ -1268,7 +1268,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lightsailBucket.LightsailBucketAccessRulesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailbucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailbucket"
 
 lightsailbucket.NewLightsailBucketAccessRulesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LightsailBucketAccessRulesOutputReference
 ```
@@ -1575,7 +1575,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lightsailBucket.LightsailBucketTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailbucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailbucket"
 
 lightsailbucket.NewLightsailBucketTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LightsailBucketTagsList
 ```
@@ -1735,7 +1735,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lightsailBucket.LightsailBucketTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailbucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailbucket"
 
 lightsailbucket.NewLightsailBucketTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LightsailBucketTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccIotanalyticsDatastores <a name="DataAwsccIotanalyticsDatastores" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDatastores.DataAwsccIotanalyticsDatastores"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotanalytics_datastores awscc_iotanalytics_datastores}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotanalytics_datastores awscc_iotanalytics_datastores}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDatastores.DataAwsccIotanalyticsDatastores.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdatastores"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdatastores"
 
 dataawscciotanalyticsdatastores.NewDataAwsccIotanalyticsDatastores(scope Construct, id *string, config DataAwsccIotanalyticsDatastoresConfig) DataAwsccIotanalyticsDatastores
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDatastores.DataAwsccIotanalyticsDatastores.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdatastores"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdatastores"
 
 dataawscciotanalyticsdatastores.DataAwsccIotanalyticsDatastores_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDatastores.DataAwsccIotanalyticsDatastores.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdatastores"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdatastores"
 
 dataawscciotanalyticsdatastores.DataAwsccIotanalyticsDatastores_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciotanalyticsdatastores.DataAwsccIotanalyticsDatastores_IsTerraformEleme
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDatastores.DataAwsccIotanalyticsDatastores.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdatastores"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdatastores"
 
 dataawscciotanalyticsdatastores.DataAwsccIotanalyticsDatastores_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciotanalyticsdatastores.DataAwsccIotanalyticsDatastores_IsTerraformDataS
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDatastores.DataAwsccIotanalyticsDatastores.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdatastores"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdatastores"
 
 dataawscciotanalyticsdatastores.DataAwsccIotanalyticsDatastores_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotanalyticsDatas
 
 The id of the existing DataAwsccIotanalyticsDatastores that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotanalytics_datastores#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotanalytics_datastores#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDatastores.DataAwsccIotanalyticsDatastoresConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdatastores"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdatastores"
 
 &dataawscciotanalyticsdatastores.DataAwsccIotanalyticsDatastoresConfig {
 	Connection: interface{},

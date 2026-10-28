@@ -4,12 +4,12 @@
 
 ### DataAwsccRdsDbProxyTargetGroups <a name="DataAwsccRdsDbProxyTargetGroups" id="@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroups.DataAwsccRdsDbProxyTargetGroups"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rds_db_proxy_target_groups awscc_rds_db_proxy_target_groups}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rds_db_proxy_target_groups awscc_rds_db_proxy_target_groups}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroups.DataAwsccRdsDbProxyTargetGroups.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsdbproxytargetgroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrdsdbproxytargetgroups"
 
 dataawsccrdsdbproxytargetgroups.NewDataAwsccRdsDbProxyTargetGroups(scope Construct, id *string, config DataAwsccRdsDbProxyTargetGroupsConfig) DataAwsccRdsDbProxyTargetGroups
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroups.DataAwsccRdsDbProxyTargetGroups.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsdbproxytargetgroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrdsdbproxytargetgroups"
 
 dataawsccrdsdbproxytargetgroups.DataAwsccRdsDbProxyTargetGroups_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroups.DataAwsccRdsDbProxyTargetGroups.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsdbproxytargetgroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrdsdbproxytargetgroups"
 
 dataawsccrdsdbproxytargetgroups.DataAwsccRdsDbProxyTargetGroups_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccrdsdbproxytargetgroups.DataAwsccRdsDbProxyTargetGroups_IsTerraformEleme
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroups.DataAwsccRdsDbProxyTargetGroups.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsdbproxytargetgroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrdsdbproxytargetgroups"
 
 dataawsccrdsdbproxytargetgroups.DataAwsccRdsDbProxyTargetGroups_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccrdsdbproxytargetgroups.DataAwsccRdsDbProxyTargetGroups_IsTerraformDataS
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroups.DataAwsccRdsDbProxyTargetGroups.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsdbproxytargetgroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrdsdbproxytargetgroups"
 
 dataawsccrdsdbproxytargetgroups.DataAwsccRdsDbProxyTargetGroups_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRdsDbProxyTargetG
 
 The id of the existing DataAwsccRdsDbProxyTargetGroups that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rds_db_proxy_target_groups#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rds_db_proxy_target_groups#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroups.DataAwsccRdsDbProxyTargetGroupsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsdbproxytargetgroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrdsdbproxytargetgroups"
 
 &dataawsccrdsdbproxytargetgroups.DataAwsccRdsDbProxyTargetGroupsConfig {
 	Connection: interface{},

@@ -4,12 +4,12 @@
 
 ### DataAwsccDrsRecoveryPlan <a name="DataAwsccDrsRecoveryPlan" id="@cdktn/provider-awscc.dataAwsccDrsRecoveryPlan.DataAwsccDrsRecoveryPlan"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/drs_recovery_plan awscc_drs_recovery_plan}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/drs_recovery_plan awscc_drs_recovery_plan}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDrsRecoveryPlan.DataAwsccDrsRecoveryPlan.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdrsrecoveryplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdrsrecoveryplan"
 
 dataawsccdrsrecoveryplan.NewDataAwsccDrsRecoveryPlan(scope Construct, id *string, config DataAwsccDrsRecoveryPlanConfig) DataAwsccDrsRecoveryPlan
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccDrsRecoveryPlan.DataAwsccDrsRecoveryPlan.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdrsrecoveryplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdrsrecoveryplan"
 
 dataawsccdrsrecoveryplan.DataAwsccDrsRecoveryPlan_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccDrsRecoveryPlan.DataAwsccDrsRecoveryPlan.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdrsrecoveryplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdrsrecoveryplan"
 
 dataawsccdrsrecoveryplan.DataAwsccDrsRecoveryPlan_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccdrsrecoveryplan.DataAwsccDrsRecoveryPlan_IsTerraformElement(x interface
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccDrsRecoveryPlan.DataAwsccDrsRecoveryPlan.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdrsrecoveryplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdrsrecoveryplan"
 
 dataawsccdrsrecoveryplan.DataAwsccDrsRecoveryPlan_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccdrsrecoveryplan.DataAwsccDrsRecoveryPlan_IsTerraformDataSource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccDrsRecoveryPlan.DataAwsccDrsRecoveryPlan.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdrsrecoveryplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdrsrecoveryplan"
 
 dataawsccdrsrecoveryplan.DataAwsccDrsRecoveryPlan_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDrsRecoveryPlan t
 
 The id of the existing DataAwsccDrsRecoveryPlan that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/drs_recovery_plan#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/drs_recovery_plan#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -675,7 +675,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDrsRecoveryPlan.DataAwsccDrsRecoveryPlanConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdrsrecoveryplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdrsrecoveryplan"
 
 &dataawsccdrsrecoveryplan.DataAwsccDrsRecoveryPlanConfig {
 	Connection: interface{},
@@ -784,7 +784,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/drs_recovery_plan#id DataAwsccDrsRecoveryPlan#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/drs_recovery_plan#id DataAwsccDrsRecoveryPlan#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -796,7 +796,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDrsRecoveryPlan.DataAwsccDrsRecoveryPlanTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdrsrecoveryplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdrsrecoveryplan"
 
 &dataawsccdrsrecoveryplan.DataAwsccDrsRecoveryPlanTags {
 
@@ -811,7 +811,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdrsrecoverypl
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDrsRecoveryPlan.DataAwsccDrsRecoveryPlanTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdrsrecoveryplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdrsrecoveryplan"
 
 dataawsccdrsrecoveryplan.NewDataAwsccDrsRecoveryPlanTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDrsRecoveryPlanTagsList
 ```
@@ -960,7 +960,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDrsRecoveryPlan.DataAwsccDrsRecoveryPlanTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdrsrecoveryplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdrsrecoveryplan"
 
 dataawsccdrsrecoveryplan.NewDataAwsccDrsRecoveryPlanTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDrsRecoveryPlanTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### LightsailStaticIp <a name="LightsailStaticIp" id="@cdktn/provider-awscc.lightsailStaticIp.LightsailStaticIp"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_static_ip awscc_lightsail_static_ip}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_static_ip awscc_lightsail_static_ip}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lightsailStaticIp.LightsailStaticIp.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailstaticip"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailstaticip"
 
 lightsailstaticip.NewLightsailStaticIp(scope Construct, id *string, config LightsailStaticIpConfig) LightsailStaticIp
 ```
@@ -407,7 +407,7 @@ func ResetAttachedTo()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.lightsailStaticIp.LightsailStaticIp.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailstaticip"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailstaticip"
 
 lightsailstaticip.LightsailStaticIp_IsConstruct(x interface{}) *bool
 ```
@@ -439,7 +439,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.lightsailStaticIp.LightsailStaticIp.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailstaticip"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailstaticip"
 
 lightsailstaticip.LightsailStaticIp_IsTerraformElement(x interface{}) *bool
 ```
@@ -453,7 +453,7 @@ lightsailstaticip.LightsailStaticIp_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.lightsailStaticIp.LightsailStaticIp.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailstaticip"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailstaticip"
 
 lightsailstaticip.LightsailStaticIp_IsTerraformResource(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ lightsailstaticip.LightsailStaticIp_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.lightsailStaticIp.LightsailStaticIp.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailstaticip"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailstaticip"
 
 lightsailstaticip.LightsailStaticIp_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -496,7 +496,7 @@ The construct id used in the generated config for the LightsailStaticIp to impor
 
 The id of the existing LightsailStaticIp that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_static_ip#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_static_ip#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -784,7 +784,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lightsailStaticIp.LightsailStaticIpConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailstaticip"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailstaticip"
 
 &lightsailstaticip.LightsailStaticIpConfig {
 	Connection: interface{},
@@ -895,7 +895,7 @@ StaticIpName *string
 
 The name of the static IP address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_static_ip#static_ip_name LightsailStaticIp#static_ip_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_static_ip#static_ip_name LightsailStaticIp#static_ip_name}
 
 ---
 
@@ -909,7 +909,7 @@ AttachedTo *string
 
 The instance where the static IP is attached.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_static_ip#attached_to LightsailStaticIp#attached_to}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_static_ip#attached_to LightsailStaticIp#attached_to}
 
 ---
 

@@ -4,12 +4,12 @@
 
 ### LogsQueryDefinition <a name="LogsQueryDefinition" id="@cdktn/provider-awscc.logsQueryDefinition.LogsQueryDefinition"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_query_definition awscc_logs_query_definition}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_query_definition awscc_logs_query_definition}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.logsQueryDefinition.LogsQueryDefinition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/logsquerydefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/logsquerydefinition"
 
 logsquerydefinition.NewLogsQueryDefinition(scope Construct, id *string, config LogsQueryDefinitionConfig) LogsQueryDefinition
 ```
@@ -434,7 +434,7 @@ func ResetQueryLanguage()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.logsQueryDefinition.LogsQueryDefinition.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/logsquerydefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/logsquerydefinition"
 
 logsquerydefinition.LogsQueryDefinition_IsConstruct(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.logsQueryDefinition.LogsQueryDefinition.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/logsquerydefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/logsquerydefinition"
 
 logsquerydefinition.LogsQueryDefinition_IsTerraformElement(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ logsquerydefinition.LogsQueryDefinition_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.logsQueryDefinition.LogsQueryDefinition.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/logsquerydefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/logsquerydefinition"
 
 logsquerydefinition.LogsQueryDefinition_IsTerraformResource(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ logsquerydefinition.LogsQueryDefinition_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.logsQueryDefinition.LogsQueryDefinition.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/logsquerydefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/logsquerydefinition"
 
 logsquerydefinition.LogsQueryDefinition_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -523,7 +523,7 @@ The construct id used in the generated config for the LogsQueryDefinition to imp
 
 The id of the existing LogsQueryDefinition that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_query_definition#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_query_definition#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -855,7 +855,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.logsQueryDefinition.LogsQueryDefinitionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/logsquerydefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/logsquerydefinition"
 
 &logsquerydefinition.LogsQueryDefinitionConfig {
 	Connection: interface{},
@@ -972,7 +972,7 @@ Name *string
 
 A name for the saved query definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_query_definition#name LogsQueryDefinition#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_query_definition#name LogsQueryDefinition#name}
 
 ---
 
@@ -986,7 +986,7 @@ QueryString *string
 
 The query string to use for this definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_query_definition#query_string LogsQueryDefinition#query_string}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_query_definition#query_string LogsQueryDefinition#query_string}
 
 ---
 
@@ -1000,7 +1000,7 @@ LogGroupNames *[]*string
 
 Optionally define specific log groups as part of your query definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_query_definition#log_group_names LogsQueryDefinition#log_group_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_query_definition#log_group_names LogsQueryDefinition#log_group_names}
 
 ---
 
@@ -1016,7 +1016,7 @@ Use this parameter to include specific query parameters as part of your query de
 
 Query parameters are supported only for Logs Insights QL queries. Query parameters allow you to use placeholder variables in your query string that are substituted with values at execution time. Use the {{parameterName}} syntax in your query string to reference a parameter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_query_definition#parameters LogsQueryDefinition#parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_query_definition#parameters LogsQueryDefinition#parameters}
 
 ---
 
@@ -1030,7 +1030,7 @@ QueryLanguage *string
 
 Query language of the query string. Possible values are CWLI, SQL, PPL, with CWLI being the default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_query_definition#query_language LogsQueryDefinition#query_language}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_query_definition#query_language LogsQueryDefinition#query_language}
 
 ---
 
@@ -1039,7 +1039,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.logsQueryDefinition.LogsQueryDefinitionParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/logsquerydefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/logsquerydefinition"
 
 &logsquerydefinition.LogsQueryDefinitionParameters {
 	DefaultValue: *string,
@@ -1068,7 +1068,7 @@ DefaultValue *string
 
 The default value to use for this query parameter if no value is supplied at execution time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_query_definition#default_value LogsQueryDefinition#default_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_query_definition#default_value LogsQueryDefinition#default_value}
 
 ---
 
@@ -1082,7 +1082,7 @@ Description *string
 
 A description of the query parameter that explains its purpose or expected values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_query_definition#description LogsQueryDefinition#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_query_definition#description LogsQueryDefinition#description}
 
 ---
 
@@ -1098,7 +1098,7 @@ The name of the query parameter.
 
 A query parameter name must start with a letter or underscore, and contain only letters, digits, and underscores.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_query_definition#name LogsQueryDefinition#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_query_definition#name LogsQueryDefinition#name}
 
 ---
 
@@ -1109,7 +1109,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.logsQueryDefinition.LogsQueryDefinitionParametersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/logsquerydefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/logsquerydefinition"
 
 logsquerydefinition.NewLogsQueryDefinitionParametersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LogsQueryDefinitionParametersList
 ```
@@ -1269,7 +1269,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.logsQueryDefinition.LogsQueryDefinitionParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/logsquerydefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/logsquerydefinition"
 
 logsquerydefinition.NewLogsQueryDefinitionParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LogsQueryDefinitionParametersOutputReference
 ```

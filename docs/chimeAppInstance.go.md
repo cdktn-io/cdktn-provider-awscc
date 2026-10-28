@@ -4,12 +4,12 @@
 
 ### ChimeAppInstance <a name="ChimeAppInstance" id="@cdktn/provider-awscc.chimeAppInstance.ChimeAppInstance"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/chime_app_instance awscc_chime_app_instance}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/chime_app_instance awscc_chime_app_instance}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.chimeAppInstance.ChimeAppInstance.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/chimeappinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/chimeappinstance"
 
 chimeappinstance.NewChimeAppInstance(scope Construct, id *string, config ChimeAppInstanceConfig) ChimeAppInstance
 ```
@@ -427,7 +427,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.chimeAppInstance.ChimeAppInstance.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/chimeappinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/chimeappinstance"
 
 chimeappinstance.ChimeAppInstance_IsConstruct(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.chimeAppInstance.ChimeAppInstance.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/chimeappinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/chimeappinstance"
 
 chimeappinstance.ChimeAppInstance_IsTerraformElement(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ chimeappinstance.ChimeAppInstance_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.chimeAppInstance.ChimeAppInstance.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/chimeappinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/chimeappinstance"
 
 chimeappinstance.ChimeAppInstance_IsTerraformResource(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ chimeappinstance.ChimeAppInstance_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.chimeAppInstance.ChimeAppInstance.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/chimeappinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/chimeappinstance"
 
 chimeappinstance.ChimeAppInstance_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -516,7 +516,7 @@ The construct id used in the generated config for the ChimeAppInstance to import
 
 The id of the existing ChimeAppInstance that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/chime_app_instance#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/chime_app_instance#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -826,7 +826,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.chimeAppInstance.ChimeAppInstanceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/chimeappinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/chimeappinstance"
 
 &chimeappinstance.ChimeAppInstanceConfig {
 	Connection: interface{},
@@ -939,7 +939,7 @@ Name *string
 
 The name of the AppInstance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/chime_app_instance#name ChimeAppInstance#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/chime_app_instance#name ChimeAppInstance#name}
 
 ---
 
@@ -953,7 +953,7 @@ Metadata *string
 
 The metadata of the AppInstance. Limited to a 1KB string in UTF-8.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/chime_app_instance#metadata ChimeAppInstance#metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/chime_app_instance#metadata ChimeAppInstance#metadata}
 
 ---
 
@@ -967,7 +967,7 @@ Tags interface{}
 
 Tags assigned to the AppInstance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/chime_app_instance#tags ChimeAppInstance#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/chime_app_instance#tags ChimeAppInstance#tags}
 
 ---
 
@@ -976,7 +976,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.chimeAppInstance.ChimeAppInstanceTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/chimeappinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/chimeappinstance"
 
 &chimeappinstance.ChimeAppInstanceTags {
 	Key: *string,
@@ -1003,7 +1003,7 @@ Key *string
 
 The key in a tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/chime_app_instance#key ChimeAppInstance#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/chime_app_instance#key ChimeAppInstance#key}
 
 ---
 
@@ -1017,7 +1017,7 @@ Value *string
 
 The value in a tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/chime_app_instance#value ChimeAppInstance#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/chime_app_instance#value ChimeAppInstance#value}
 
 ---
 
@@ -1028,7 +1028,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.chimeAppInstance.ChimeAppInstanceTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/chimeappinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/chimeappinstance"
 
 chimeappinstance.NewChimeAppInstanceTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ChimeAppInstanceTagsList
 ```
@@ -1188,7 +1188,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.chimeAppInstance.ChimeAppInstanceTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/chimeappinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/chimeappinstance"
 
 chimeappinstance.NewChimeAppInstanceTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ChimeAppInstanceTagsOutputReference
 ```

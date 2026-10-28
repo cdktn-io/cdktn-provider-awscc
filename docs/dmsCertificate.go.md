@@ -4,12 +4,12 @@
 
 ### DmsCertificate <a name="DmsCertificate" id="@cdktn/provider-awscc.dmsCertificate.DmsCertificate"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_certificate awscc_dms_certificate}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_certificate awscc_dms_certificate}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dmsCertificate.DmsCertificate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dmscertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dmscertificate"
 
 dmscertificate.NewDmsCertificate(scope Construct, id *string, config DmsCertificateConfig) DmsCertificate
 ```
@@ -421,7 +421,7 @@ func ResetCertificateWallet()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dmsCertificate.DmsCertificate.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dmscertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dmscertificate"
 
 dmscertificate.DmsCertificate_IsConstruct(x interface{}) *bool
 ```
@@ -453,7 +453,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dmsCertificate.DmsCertificate.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dmscertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dmscertificate"
 
 dmscertificate.DmsCertificate_IsTerraformElement(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ dmscertificate.DmsCertificate_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.dmsCertificate.DmsCertificate.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dmscertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dmscertificate"
 
 dmscertificate.DmsCertificate_IsTerraformResource(x interface{}) *bool
 ```
@@ -481,7 +481,7 @@ dmscertificate.DmsCertificate_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dmsCertificate.DmsCertificate.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dmscertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dmscertificate"
 
 dmscertificate.DmsCertificate_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -510,7 +510,7 @@ The construct id used in the generated config for the DmsCertificate to import.
 
 The id of the existing DmsCertificate that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_certificate#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_certificate#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -798,7 +798,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dmsCertificate.DmsCertificateConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dmscertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dmscertificate"
 
 &dmscertificate.DmsCertificateConfig {
 	Connection: interface{},
@@ -911,7 +911,7 @@ CertificateIdentifier *string
 
 The certificate Identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_certificate#certificate_identifier DmsCertificate#certificate_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_certificate#certificate_identifier DmsCertificate#certificate_identifier}
 
 ---
 
@@ -925,7 +925,7 @@ CertificatePem *string
 
 The certificate Pem.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_certificate#certificate_pem DmsCertificate#certificate_pem}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_certificate#certificate_pem DmsCertificate#certificate_pem}
 
 ---
 
@@ -939,7 +939,7 @@ CertificateWallet *string
 
 The certificate Wallet.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_certificate#certificate_wallet DmsCertificate#certificate_wallet}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_certificate#certificate_wallet DmsCertificate#certificate_wallet}
 
 ---
 

@@ -4,12 +4,12 @@
 
 ### BedrockFlowAlias <a name="BedrockFlowAlias" id="@cdktn/provider-awscc.bedrockFlowAlias.BedrockFlowAlias"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_flow_alias awscc_bedrock_flow_alias}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_flow_alias awscc_bedrock_flow_alias}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockFlowAlias.BedrockFlowAlias.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowalias"
 
 bedrockflowalias.NewBedrockFlowAlias(scope Construct, id *string, config BedrockFlowAliasConfig) BedrockFlowAlias
 ```
@@ -447,7 +447,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.bedrockFlowAlias.BedrockFlowAlias.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowalias"
 
 bedrockflowalias.BedrockFlowAlias_IsConstruct(x interface{}) *bool
 ```
@@ -479,7 +479,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.bedrockFlowAlias.BedrockFlowAlias.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowalias"
 
 bedrockflowalias.BedrockFlowAlias_IsTerraformElement(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ bedrockflowalias.BedrockFlowAlias_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.bedrockFlowAlias.BedrockFlowAlias.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowalias"
 
 bedrockflowalias.BedrockFlowAlias_IsTerraformResource(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ bedrockflowalias.BedrockFlowAlias_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.bedrockFlowAlias.BedrockFlowAlias.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowalias"
 
 bedrockflowalias.BedrockFlowAlias_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -536,7 +536,7 @@ The construct id used in the generated config for the BedrockFlowAlias to import
 
 The id of the existing BedrockFlowAlias that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_flow_alias#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_flow_alias#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -934,7 +934,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockFlowAlias.BedrockFlowAliasConcurrencyConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowalias"
 
 &bedrockflowalias.BedrockFlowAliasConcurrencyConfiguration {
 	MaxConcurrency: *f64,
@@ -947,7 +947,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowalias"
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.bedrockFlowAlias.BedrockFlowAliasConcurrencyConfiguration.property.maxConcurrency">MaxConcurrency</a></code> | <code>*f64</code> | Number of nodes executed concurrently at a time. |
-| <code><a href="#@cdktn/provider-awscc.bedrockFlowAlias.BedrockFlowAliasConcurrencyConfiguration.property.type">Type</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_flow_alias#type BedrockFlowAlias#type}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockFlowAlias.BedrockFlowAliasConcurrencyConfiguration.property.type">Type</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_flow_alias#type BedrockFlowAlias#type}. |
 
 ---
 
@@ -961,7 +961,7 @@ MaxConcurrency *f64
 
 Number of nodes executed concurrently at a time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_flow_alias#max_concurrency BedrockFlowAlias#max_concurrency}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_flow_alias#max_concurrency BedrockFlowAlias#max_concurrency}
 
 ---
 
@@ -973,7 +973,7 @@ Type *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_flow_alias#type BedrockFlowAlias#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_flow_alias#type BedrockFlowAlias#type}.
 
 ---
 
@@ -982,7 +982,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockFlowAlias.BedrockFlowAliasConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowalias"
 
 &bedrockflowalias.BedrockFlowAliasConfig {
 	Connection: interface{},
@@ -995,7 +995,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowalias"
 	FlowArn: *string,
 	Name: *string,
 	RoutingConfiguration: interface{},
-	ConcurrencyConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockFlowAlias.BedrockFlowAliasConcurrencyConfiguration,
+	ConcurrencyConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockFlowAlias.BedrockFlowAliasConcurrencyConfiguration,
 	Description: *string,
 	Tags: *map[string]*string,
 }
@@ -1015,7 +1015,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowalias"
 | <code><a href="#@cdktn/provider-awscc.bedrockFlowAlias.BedrockFlowAliasConfig.property.flowArn">FlowArn</a></code> | <code>*string</code> | Arn representation of the Flow. |
 | <code><a href="#@cdktn/provider-awscc.bedrockFlowAlias.BedrockFlowAliasConfig.property.name">Name</a></code> | <code>*string</code> | Name for a resource. |
 | <code><a href="#@cdktn/provider-awscc.bedrockFlowAlias.BedrockFlowAliasConfig.property.routingConfiguration">RoutingConfiguration</a></code> | <code>interface{}</code> | Routing configuration for a Flow alias. |
-| <code><a href="#@cdktn/provider-awscc.bedrockFlowAlias.BedrockFlowAliasConfig.property.concurrencyConfiguration">ConcurrencyConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockFlowAlias.BedrockFlowAliasConcurrencyConfiguration">BedrockFlowAliasConcurrencyConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_flow_alias#concurrency_configuration BedrockFlowAlias#concurrency_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockFlowAlias.BedrockFlowAliasConfig.property.concurrencyConfiguration">ConcurrencyConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockFlowAlias.BedrockFlowAliasConcurrencyConfiguration">BedrockFlowAliasConcurrencyConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_flow_alias#concurrency_configuration BedrockFlowAlias#concurrency_configuration}. |
 | <code><a href="#@cdktn/provider-awscc.bedrockFlowAlias.BedrockFlowAliasConfig.property.description">Description</a></code> | <code>*string</code> | Description of the Resource. |
 | <code><a href="#@cdktn/provider-awscc.bedrockFlowAlias.BedrockFlowAliasConfig.property.tags">Tags</a></code> | <code>*map[string]*string</code> | A map of tag keys and values. |
 
@@ -1101,7 +1101,7 @@ FlowArn *string
 
 Arn representation of the Flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_flow_alias#flow_arn BedrockFlowAlias#flow_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_flow_alias#flow_arn BedrockFlowAlias#flow_arn}
 
 ---
 
@@ -1115,7 +1115,7 @@ Name *string
 
 Name for a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_flow_alias#name BedrockFlowAlias#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_flow_alias#name BedrockFlowAlias#name}
 
 ---
 
@@ -1129,7 +1129,7 @@ RoutingConfiguration interface{}
 
 Routing configuration for a Flow alias.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_flow_alias#routing_configuration BedrockFlowAlias#routing_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_flow_alias#routing_configuration BedrockFlowAlias#routing_configuration}
 
 ---
 
@@ -1141,7 +1141,7 @@ ConcurrencyConfiguration BedrockFlowAliasConcurrencyConfiguration
 
 - *Type:* <a href="#@cdktn/provider-awscc.bedrockFlowAlias.BedrockFlowAliasConcurrencyConfiguration">BedrockFlowAliasConcurrencyConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_flow_alias#concurrency_configuration BedrockFlowAlias#concurrency_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_flow_alias#concurrency_configuration BedrockFlowAlias#concurrency_configuration}.
 
 ---
 
@@ -1155,7 +1155,7 @@ Description *string
 
 Description of the Resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_flow_alias#description BedrockFlowAlias#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_flow_alias#description BedrockFlowAlias#description}
 
 ---
 
@@ -1169,7 +1169,7 @@ Tags *map[string]*string
 
 A map of tag keys and values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_flow_alias#tags BedrockFlowAlias#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_flow_alias#tags BedrockFlowAlias#tags}
 
 ---
 
@@ -1178,7 +1178,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockFlowAlias.BedrockFlowAliasRoutingConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowalias"
 
 &bedrockflowalias.BedrockFlowAliasRoutingConfiguration {
 	FlowVersion: *string,
@@ -1203,7 +1203,7 @@ FlowVersion *string
 
 Version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_flow_alias#flow_version BedrockFlowAlias#flow_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_flow_alias#flow_version BedrockFlowAlias#flow_version}
 
 ---
 
@@ -1214,7 +1214,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockFlowAlias.BedrockFlowAliasConcurrencyConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowalias"
 
 bedrockflowalias.NewBedrockFlowAliasConcurrencyConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockFlowAliasConcurrencyConfigurationOutputReference
 ```
@@ -1521,7 +1521,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockFlowAlias.BedrockFlowAliasRoutingConfigurationList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowalias"
 
 bedrockflowalias.NewBedrockFlowAliasRoutingConfigurationList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BedrockFlowAliasRoutingConfigurationList
 ```
@@ -1681,7 +1681,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockFlowAlias.BedrockFlowAliasRoutingConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowalias"
 
 bedrockflowalias.NewBedrockFlowAliasRoutingConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) BedrockFlowAliasRoutingConfigurationOutputReference
 ```

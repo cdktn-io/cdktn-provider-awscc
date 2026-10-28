@@ -4,12 +4,12 @@
 
 ### DataAwsccGuarddutyThreatIntelSet <a name="DataAwsccGuarddutyThreatIntelSet" id="@cdktn/provider-awscc.dataAwsccGuarddutyThreatIntelSet.DataAwsccGuarddutyThreatIntelSet"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/guardduty_threat_intel_set awscc_guardduty_threat_intel_set}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/guardduty_threat_intel_set awscc_guardduty_threat_intel_set}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGuarddutyThreatIntelSet.DataAwsccGuarddutyThreatIntelSet.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccguarddutythreatintelset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccguarddutythreatintelset"
 
 dataawsccguarddutythreatintelset.NewDataAwsccGuarddutyThreatIntelSet(scope Construct, id *string, config DataAwsccGuarddutyThreatIntelSetConfig) DataAwsccGuarddutyThreatIntelSet
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccGuarddutyThreatIntelSet.DataAwsccGuarddutyThreatIntelSet.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccguarddutythreatintelset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccguarddutythreatintelset"
 
 dataawsccguarddutythreatintelset.DataAwsccGuarddutyThreatIntelSet_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccGuarddutyThreatIntelSet.DataAwsccGuarddutyThreatIntelSet.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccguarddutythreatintelset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccguarddutythreatintelset"
 
 dataawsccguarddutythreatintelset.DataAwsccGuarddutyThreatIntelSet_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccguarddutythreatintelset.DataAwsccGuarddutyThreatIntelSet_IsTerraformEle
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccGuarddutyThreatIntelSet.DataAwsccGuarddutyThreatIntelSet.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccguarddutythreatintelset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccguarddutythreatintelset"
 
 dataawsccguarddutythreatintelset.DataAwsccGuarddutyThreatIntelSet_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccguarddutythreatintelset.DataAwsccGuarddutyThreatIntelSet_IsTerraformDat
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccGuarddutyThreatIntelSet.DataAwsccGuarddutyThreatIntelSet.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccguarddutythreatintelset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccguarddutythreatintelset"
 
 dataawsccguarddutythreatintelset.DataAwsccGuarddutyThreatIntelSet_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccGuarddutyThreatIn
 
 The id of the existing DataAwsccGuarddutyThreatIntelSet that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/guardduty_threat_intel_set#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/guardduty_threat_intel_set#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -675,7 +675,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGuarddutyThreatIntelSet.DataAwsccGuarddutyThreatIntelSetConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccguarddutythreatintelset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccguarddutythreatintelset"
 
 &dataawsccguarddutythreatintelset.DataAwsccGuarddutyThreatIntelSetConfig {
 	Connection: interface{},
@@ -784,7 +784,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/guardduty_threat_intel_set#id DataAwsccGuarddutyThreatIntelSet#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/guardduty_threat_intel_set#id DataAwsccGuarddutyThreatIntelSet#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -796,7 +796,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGuarddutyThreatIntelSet.DataAwsccGuarddutyThreatIntelSetTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccguarddutythreatintelset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccguarddutythreatintelset"
 
 &dataawsccguarddutythreatintelset.DataAwsccGuarddutyThreatIntelSetTags {
 
@@ -811,7 +811,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccguarddutythre
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGuarddutyThreatIntelSet.DataAwsccGuarddutyThreatIntelSetTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccguarddutythreatintelset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccguarddutythreatintelset"
 
 dataawsccguarddutythreatintelset.NewDataAwsccGuarddutyThreatIntelSetTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccGuarddutyThreatIntelSetTagsList
 ```
@@ -960,7 +960,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGuarddutyThreatIntelSet.DataAwsccGuarddutyThreatIntelSetTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccguarddutythreatintelset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccguarddutythreatintelset"
 
 dataawsccguarddutythreatintelset.NewDataAwsccGuarddutyThreatIntelSetTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccGuarddutyThreatIntelSetTagsOutputReference
 ```

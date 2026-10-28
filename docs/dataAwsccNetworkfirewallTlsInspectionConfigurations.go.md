@@ -4,12 +4,12 @@
 
 ### DataAwsccNetworkfirewallTlsInspectionConfigurations <a name="DataAwsccNetworkfirewallTlsInspectionConfigurations" id="@cdktn/provider-awscc.dataAwsccNetworkfirewallTlsInspectionConfigurations.DataAwsccNetworkfirewallTlsInspectionConfigurations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/networkfirewall_tls_inspection_configurations awscc_networkfirewall_tls_inspection_configurations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/networkfirewall_tls_inspection_configurations awscc_networkfirewall_tls_inspection_configurations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNetworkfirewallTlsInspectionConfigurations.DataAwsccNetworkfirewallTlsInspectionConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkfirewalltlsinspectionconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkfirewalltlsinspectionconfigurations"
 
 dataawsccnetworkfirewalltlsinspectionconfigurations.NewDataAwsccNetworkfirewallTlsInspectionConfigurations(scope Construct, id *string, config DataAwsccNetworkfirewallTlsInspectionConfigurationsConfig) DataAwsccNetworkfirewallTlsInspectionConfigurations
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccNetworkfirewallTlsInspectionConfigurations.DataAwsccNetworkfirewallTlsInspectionConfigurations.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkfirewalltlsinspectionconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkfirewalltlsinspectionconfigurations"
 
 dataawsccnetworkfirewalltlsinspectionconfigurations.DataAwsccNetworkfirewallTlsInspectionConfigurations_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccNetworkfirewallTlsInspectionConfigurations.DataAwsccNetworkfirewallTlsInspectionConfigurations.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkfirewalltlsinspectionconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkfirewalltlsinspectionconfigurations"
 
 dataawsccnetworkfirewalltlsinspectionconfigurations.DataAwsccNetworkfirewallTlsInspectionConfigurations_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccnetworkfirewalltlsinspectionconfigurations.DataAwsccNetworkfirewallTlsI
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccNetworkfirewallTlsInspectionConfigurations.DataAwsccNetworkfirewallTlsInspectionConfigurations.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkfirewalltlsinspectionconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkfirewalltlsinspectionconfigurations"
 
 dataawsccnetworkfirewalltlsinspectionconfigurations.DataAwsccNetworkfirewallTlsInspectionConfigurations_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccnetworkfirewalltlsinspectionconfigurations.DataAwsccNetworkfirewallTlsI
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccNetworkfirewallTlsInspectionConfigurations.DataAwsccNetworkfirewallTlsInspectionConfigurations.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkfirewalltlsinspectionconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkfirewalltlsinspectionconfigurations"
 
 dataawsccnetworkfirewalltlsinspectionconfigurations.DataAwsccNetworkfirewallTlsInspectionConfigurations_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccNetworkfirewallTl
 
 The id of the existing DataAwsccNetworkfirewallTlsInspectionConfigurations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/networkfirewall_tls_inspection_configurations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/networkfirewall_tls_inspection_configurations#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccNetworkfirewallTlsInspectionConfigurations.DataAwsccNetworkfirewallTlsInspectionConfigurationsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkfirewalltlsinspectionconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkfirewalltlsinspectionconfigurations"
 
 &dataawsccnetworkfirewalltlsinspectionconfigurations.DataAwsccNetworkfirewallTlsInspectionConfigurationsConfig {
 	Connection: interface{},

@@ -4,12 +4,12 @@
 
 ### DataAwsccCognitoManagedLoginBranding <a name="DataAwsccCognitoManagedLoginBranding" id="@cdktn/provider-awscc.dataAwsccCognitoManagedLoginBranding.DataAwsccCognitoManagedLoginBranding"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cognito_managed_login_branding awscc_cognito_managed_login_branding}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cognito_managed_login_branding awscc_cognito_managed_login_branding}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCognitoManagedLoginBranding.DataAwsccCognitoManagedLoginBranding.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitomanagedloginbranding"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitomanagedloginbranding"
 
 dataawscccognitomanagedloginbranding.NewDataAwsccCognitoManagedLoginBranding(scope Construct, id *string, config DataAwsccCognitoManagedLoginBrandingConfig) DataAwsccCognitoManagedLoginBranding
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCognitoManagedLoginBranding.DataAwsccCognitoManagedLoginBranding.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitomanagedloginbranding"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitomanagedloginbranding"
 
 dataawscccognitomanagedloginbranding.DataAwsccCognitoManagedLoginBranding_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCognitoManagedLoginBranding.DataAwsccCognitoManagedLoginBranding.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitomanagedloginbranding"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitomanagedloginbranding"
 
 dataawscccognitomanagedloginbranding.DataAwsccCognitoManagedLoginBranding_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccognitomanagedloginbranding.DataAwsccCognitoManagedLoginBranding_IsTerr
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCognitoManagedLoginBranding.DataAwsccCognitoManagedLoginBranding.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitomanagedloginbranding"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitomanagedloginbranding"
 
 dataawscccognitomanagedloginbranding.DataAwsccCognitoManagedLoginBranding_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccognitomanagedloginbranding.DataAwsccCognitoManagedLoginBranding_IsTerr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCognitoManagedLoginBranding.DataAwsccCognitoManagedLoginBranding.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitomanagedloginbranding"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitomanagedloginbranding"
 
 dataawscccognitomanagedloginbranding.DataAwsccCognitoManagedLoginBranding_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCognitoManagedLog
 
 The id of the existing DataAwsccCognitoManagedLoginBranding that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cognito_managed_login_branding#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cognito_managed_login_branding#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -664,7 +664,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCognitoManagedLoginBranding.DataAwsccCognitoManagedLoginBrandingAssets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitomanagedloginbranding"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitomanagedloginbranding"
 
 &dataawscccognitomanagedloginbranding.DataAwsccCognitoManagedLoginBrandingAssets {
 
@@ -677,7 +677,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitomanage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCognitoManagedLoginBranding.DataAwsccCognitoManagedLoginBrandingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitomanagedloginbranding"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitomanagedloginbranding"
 
 &dataawscccognitomanagedloginbranding.DataAwsccCognitoManagedLoginBrandingConfig {
 	Connection: interface{},
@@ -786,7 +786,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cognito_managed_login_branding#id DataAwsccCognitoManagedLoginBranding#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cognito_managed_login_branding#id DataAwsccCognitoManagedLoginBranding#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -800,7 +800,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCognitoManagedLoginBranding.DataAwsccCognitoManagedLoginBrandingAssetsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitomanagedloginbranding"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitomanagedloginbranding"
 
 dataawscccognitomanagedloginbranding.NewDataAwsccCognitoManagedLoginBrandingAssetsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCognitoManagedLoginBrandingAssetsList
 ```
@@ -949,7 +949,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCognitoManagedLoginBranding.DataAwsccCognitoManagedLoginBrandingAssetsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitomanagedloginbranding"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitomanagedloginbranding"
 
 dataawscccognitomanagedloginbranding.NewDataAwsccCognitoManagedLoginBrandingAssetsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCognitoManagedLoginBrandingAssetsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccProtonEnvironmentAccountConnection <a name="DataAwsccProtonEnvironmentAccountConnection" id="@cdktn/provider-awscc.dataAwsccProtonEnvironmentAccountConnection.DataAwsccProtonEnvironmentAccountConnection"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/proton_environment_account_connection awscc_proton_environment_account_connection}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/proton_environment_account_connection awscc_proton_environment_account_connection}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccProtonEnvironmentAccountConnection.DataAwsccProtonEnvironmentAccountConnection.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccprotonenvironmentaccountconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccprotonenvironmentaccountconnection"
 
 dataawsccprotonenvironmentaccountconnection.NewDataAwsccProtonEnvironmentAccountConnection(scope Construct, id *string, config DataAwsccProtonEnvironmentAccountConnectionConfig) DataAwsccProtonEnvironmentAccountConnection
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccProtonEnvironmentAccountConnection.DataAwsccProtonEnvironmentAccountConnection.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccprotonenvironmentaccountconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccprotonenvironmentaccountconnection"
 
 dataawsccprotonenvironmentaccountconnection.DataAwsccProtonEnvironmentAccountConnection_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccProtonEnvironmentAccountConnection.DataAwsccProtonEnvironmentAccountConnection.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccprotonenvironmentaccountconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccprotonenvironmentaccountconnection"
 
 dataawsccprotonenvironmentaccountconnection.DataAwsccProtonEnvironmentAccountConnection_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccprotonenvironmentaccountconnection.DataAwsccProtonEnvironmentAccountCon
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccProtonEnvironmentAccountConnection.DataAwsccProtonEnvironmentAccountConnection.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccprotonenvironmentaccountconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccprotonenvironmentaccountconnection"
 
 dataawsccprotonenvironmentaccountconnection.DataAwsccProtonEnvironmentAccountConnection_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccprotonenvironmentaccountconnection.DataAwsccProtonEnvironmentAccountCon
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccProtonEnvironmentAccountConnection.DataAwsccProtonEnvironmentAccountConnection.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccprotonenvironmentaccountconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccprotonenvironmentaccountconnection"
 
 dataawsccprotonenvironmentaccountconnection.DataAwsccProtonEnvironmentAccountConnection_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccProtonEnvironment
 
 The id of the existing DataAwsccProtonEnvironmentAccountConnection that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/proton_environment_account_connection#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/proton_environment_account_connection#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -697,7 +697,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccProtonEnvironmentAccountConnection.DataAwsccProtonEnvironmentAccountConnectionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccprotonenvironmentaccountconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccprotonenvironmentaccountconnection"
 
 &dataawsccprotonenvironmentaccountconnection.DataAwsccProtonEnvironmentAccountConnectionConfig {
 	Connection: interface{},
@@ -806,7 +806,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/proton_environment_account_connection#id DataAwsccProtonEnvironmentAccountConnection#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/proton_environment_account_connection#id DataAwsccProtonEnvironmentAccountConnection#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -818,7 +818,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccProtonEnvironmentAccountConnection.DataAwsccProtonEnvironmentAccountConnectionTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccprotonenvironmentaccountconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccprotonenvironmentaccountconnection"
 
 &dataawsccprotonenvironmentaccountconnection.DataAwsccProtonEnvironmentAccountConnectionTags {
 
@@ -833,7 +833,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccprotonenviron
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccProtonEnvironmentAccountConnection.DataAwsccProtonEnvironmentAccountConnectionTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccprotonenvironmentaccountconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccprotonenvironmentaccountconnection"
 
 dataawsccprotonenvironmentaccountconnection.NewDataAwsccProtonEnvironmentAccountConnectionTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccProtonEnvironmentAccountConnectionTagsList
 ```
@@ -982,7 +982,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccProtonEnvironmentAccountConnection.DataAwsccProtonEnvironmentAccountConnectionTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccprotonenvironmentaccountconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccprotonenvironmentaccountconnection"
 
 dataawsccprotonenvironmentaccountconnection.NewDataAwsccProtonEnvironmentAccountConnectionTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccProtonEnvironmentAccountConnectionTagsOutputReference
 ```

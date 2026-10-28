@@ -4,12 +4,12 @@
 
 ### Ec2VpcEndpointConnectionNotification <a name="Ec2VpcEndpointConnectionNotification" id="@cdktn/provider-awscc.ec2VpcEndpointConnectionNotification.Ec2VpcEndpointConnectionNotification"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_vpc_endpoint_connection_notification awscc_ec2_vpc_endpoint_connection_notification}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_vpc_endpoint_connection_notification awscc_ec2_vpc_endpoint_connection_notification}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2VpcEndpointConnectionNotification.Ec2VpcEndpointConnectionNotification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2vpcendpointconnectionnotification"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2vpcendpointconnectionnotification"
 
 ec2vpcendpointconnectionnotification.NewEc2VpcEndpointConnectionNotification(scope Construct, id *string, config Ec2VpcEndpointConnectionNotificationConfig) Ec2VpcEndpointConnectionNotification
 ```
@@ -414,7 +414,7 @@ func ResetVpcEndpointId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.ec2VpcEndpointConnectionNotification.Ec2VpcEndpointConnectionNotification.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2vpcendpointconnectionnotification"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2vpcendpointconnectionnotification"
 
 ec2vpcendpointconnectionnotification.Ec2VpcEndpointConnectionNotification_IsConstruct(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.ec2VpcEndpointConnectionNotification.Ec2VpcEndpointConnectionNotification.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2vpcendpointconnectionnotification"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2vpcendpointconnectionnotification"
 
 ec2vpcendpointconnectionnotification.Ec2VpcEndpointConnectionNotification_IsTerraformElement(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ ec2vpcendpointconnectionnotification.Ec2VpcEndpointConnectionNotification_IsTerr
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.ec2VpcEndpointConnectionNotification.Ec2VpcEndpointConnectionNotification.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2vpcendpointconnectionnotification"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2vpcendpointconnectionnotification"
 
 ec2vpcendpointconnectionnotification.Ec2VpcEndpointConnectionNotification_IsTerraformResource(x interface{}) *bool
 ```
@@ -474,7 +474,7 @@ ec2vpcendpointconnectionnotification.Ec2VpcEndpointConnectionNotification_IsTerr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.ec2VpcEndpointConnectionNotification.Ec2VpcEndpointConnectionNotification.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2vpcendpointconnectionnotification"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2vpcendpointconnectionnotification"
 
 ec2vpcendpointconnectionnotification.Ec2VpcEndpointConnectionNotification_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -503,7 +503,7 @@ The construct id used in the generated config for the Ec2VpcEndpointConnectionNo
 
 The id of the existing Ec2VpcEndpointConnectionNotification that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_vpc_endpoint_connection_notification#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_vpc_endpoint_connection_notification#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -813,7 +813,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2VpcEndpointConnectionNotification.Ec2VpcEndpointConnectionNotificationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2vpcendpointconnectionnotification"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2vpcendpointconnectionnotification"
 
 &ec2vpcendpointconnectionnotification.Ec2VpcEndpointConnectionNotificationConfig {
 	Connection: interface{},
@@ -928,7 +928,7 @@ ConnectionEvents *[]*string
 
 The endpoint events for which to receive notifications.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_vpc_endpoint_connection_notification#connection_events Ec2VpcEndpointConnectionNotification#connection_events}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_vpc_endpoint_connection_notification#connection_events Ec2VpcEndpointConnectionNotification#connection_events}
 
 ---
 
@@ -942,7 +942,7 @@ ConnectionNotificationArn *string
 
 The ARN of the SNS topic for the notifications.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_vpc_endpoint_connection_notification#connection_notification_arn Ec2VpcEndpointConnectionNotification#connection_notification_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_vpc_endpoint_connection_notification#connection_notification_arn Ec2VpcEndpointConnectionNotification#connection_notification_arn}
 
 ---
 
@@ -956,7 +956,7 @@ ServiceId *string
 
 The ID of the endpoint service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_vpc_endpoint_connection_notification#service_id Ec2VpcEndpointConnectionNotification#service_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_vpc_endpoint_connection_notification#service_id Ec2VpcEndpointConnectionNotification#service_id}
 
 ---
 
@@ -970,7 +970,7 @@ VpcEndpointId *string
 
 The ID of the endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_vpc_endpoint_connection_notification#vpc_endpoint_id Ec2VpcEndpointConnectionNotification#vpc_endpoint_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_vpc_endpoint_connection_notification#vpc_endpoint_id Ec2VpcEndpointConnectionNotification#vpc_endpoint_id}
 
 ---
 

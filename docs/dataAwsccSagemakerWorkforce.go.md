@@ -4,12 +4,12 @@
 
 ### DataAwsccSagemakerWorkforce <a name="DataAwsccSagemakerWorkforce" id="@cdktn/provider-awscc.dataAwsccSagemakerWorkforce.DataAwsccSagemakerWorkforce"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_workforce awscc_sagemaker_workforce}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_workforce awscc_sagemaker_workforce}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerWorkforce.DataAwsccSagemakerWorkforce.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerworkforce"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerworkforce"
 
 dataawsccsagemakerworkforce.NewDataAwsccSagemakerWorkforce(scope Construct, id *string, config DataAwsccSagemakerWorkforceConfig) DataAwsccSagemakerWorkforce
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSagemakerWorkforce.DataAwsccSagemakerWorkforce.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerworkforce"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerworkforce"
 
 dataawsccsagemakerworkforce.DataAwsccSagemakerWorkforce_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSagemakerWorkforce.DataAwsccSagemakerWorkforce.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerworkforce"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerworkforce"
 
 dataawsccsagemakerworkforce.DataAwsccSagemakerWorkforce_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsagemakerworkforce.DataAwsccSagemakerWorkforce_IsTerraformElement(x int
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSagemakerWorkforce.DataAwsccSagemakerWorkforce.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerworkforce"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerworkforce"
 
 dataawsccsagemakerworkforce.DataAwsccSagemakerWorkforce_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsagemakerworkforce.DataAwsccSagemakerWorkforce_IsTerraformDataSource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSagemakerWorkforce.DataAwsccSagemakerWorkforce.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerworkforce"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerworkforce"
 
 dataawsccsagemakerworkforce.DataAwsccSagemakerWorkforce_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSagemakerWorkforc
 
 The id of the existing DataAwsccSagemakerWorkforce that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_workforce#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_workforce#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -686,7 +686,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerWorkforce.DataAwsccSagemakerWorkforceCognitoConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerworkforce"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerworkforce"
 
 &dataawsccsagemakerworkforce.DataAwsccSagemakerWorkforceCognitoConfig {
 
@@ -699,7 +699,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerwork
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerWorkforce.DataAwsccSagemakerWorkforceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerworkforce"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerworkforce"
 
 &dataawsccsagemakerworkforce.DataAwsccSagemakerWorkforceConfig {
 	Connection: interface{},
@@ -808,7 +808,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_workforce#id DataAwsccSagemakerWorkforce#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_workforce#id DataAwsccSagemakerWorkforce#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -820,7 +820,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerWorkforce.DataAwsccSagemakerWorkforceOidcConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerworkforce"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerworkforce"
 
 &dataawsccsagemakerworkforce.DataAwsccSagemakerWorkforceOidcConfig {
 
@@ -833,7 +833,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerwork
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerWorkforce.DataAwsccSagemakerWorkforceSourceIpConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerworkforce"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerworkforce"
 
 &dataawsccsagemakerworkforce.DataAwsccSagemakerWorkforceSourceIpConfig {
 
@@ -846,7 +846,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerwork
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerWorkforce.DataAwsccSagemakerWorkforceTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerworkforce"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerworkforce"
 
 &dataawsccsagemakerworkforce.DataAwsccSagemakerWorkforceTags {
 
@@ -859,7 +859,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerwork
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerWorkforce.DataAwsccSagemakerWorkforceWorkforceVpcConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerworkforce"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerworkforce"
 
 &dataawsccsagemakerworkforce.DataAwsccSagemakerWorkforceWorkforceVpcConfig {
 
@@ -874,7 +874,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerwork
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerWorkforce.DataAwsccSagemakerWorkforceCognitoConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerworkforce"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerworkforce"
 
 dataawsccsagemakerworkforce.NewDataAwsccSagemakerWorkforceCognitoConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerWorkforceCognitoConfigOutputReference
 ```
@@ -1145,7 +1145,7 @@ func InternalValue() DataAwsccSagemakerWorkforceCognitoConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerWorkforce.DataAwsccSagemakerWorkforceOidcConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerworkforce"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerworkforce"
 
 dataawsccsagemakerworkforce.NewDataAwsccSagemakerWorkforceOidcConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerWorkforceOidcConfigOutputReference
 ```
@@ -1504,7 +1504,7 @@ func InternalValue() DataAwsccSagemakerWorkforceOidcConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerWorkforce.DataAwsccSagemakerWorkforceSourceIpConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerworkforce"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerworkforce"
 
 dataawsccsagemakerworkforce.NewDataAwsccSagemakerWorkforceSourceIpConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerWorkforceSourceIpConfigOutputReference
 ```
@@ -1764,7 +1764,7 @@ func InternalValue() DataAwsccSagemakerWorkforceSourceIpConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerWorkforce.DataAwsccSagemakerWorkforceTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerworkforce"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerworkforce"
 
 dataawsccsagemakerworkforce.NewDataAwsccSagemakerWorkforceTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSagemakerWorkforceTagsList
 ```
@@ -1913,7 +1913,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerWorkforce.DataAwsccSagemakerWorkforceTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerworkforce"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerworkforce"
 
 dataawsccsagemakerworkforce.NewDataAwsccSagemakerWorkforceTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSagemakerWorkforceTagsOutputReference
 ```
@@ -2202,7 +2202,7 @@ func InternalValue() DataAwsccSagemakerWorkforceTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerWorkforce.DataAwsccSagemakerWorkforceWorkforceVpcConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerworkforce"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerworkforce"
 
 dataawsccsagemakerworkforce.NewDataAwsccSagemakerWorkforceWorkforceVpcConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerWorkforceWorkforceVpcConfigOutputReference
 ```

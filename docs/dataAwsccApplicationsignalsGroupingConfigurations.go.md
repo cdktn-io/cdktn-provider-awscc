@@ -4,12 +4,12 @@
 
 ### DataAwsccApplicationsignalsGroupingConfigurations <a name="DataAwsccApplicationsignalsGroupingConfigurations" id="@cdktn/provider-awscc.dataAwsccApplicationsignalsGroupingConfigurations.DataAwsccApplicationsignalsGroupingConfigurations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/applicationsignals_grouping_configurations awscc_applicationsignals_grouping_configurations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/applicationsignals_grouping_configurations awscc_applicationsignals_grouping_configurations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApplicationsignalsGroupingConfigurations.DataAwsccApplicationsignalsGroupingConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapplicationsignalsgroupingconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapplicationsignalsgroupingconfigurations"
 
 dataawsccapplicationsignalsgroupingconfigurations.NewDataAwsccApplicationsignalsGroupingConfigurations(scope Construct, id *string, config DataAwsccApplicationsignalsGroupingConfigurationsConfig) DataAwsccApplicationsignalsGroupingConfigurations
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccApplicationsignalsGroupingConfigurations.DataAwsccApplicationsignalsGroupingConfigurations.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapplicationsignalsgroupingconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapplicationsignalsgroupingconfigurations"
 
 dataawsccapplicationsignalsgroupingconfigurations.DataAwsccApplicationsignalsGroupingConfigurations_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccApplicationsignalsGroupingConfigurations.DataAwsccApplicationsignalsGroupingConfigurations.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapplicationsignalsgroupingconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapplicationsignalsgroupingconfigurations"
 
 dataawsccapplicationsignalsgroupingconfigurations.DataAwsccApplicationsignalsGroupingConfigurations_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccapplicationsignalsgroupingconfigurations.DataAwsccApplicationsignalsGro
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccApplicationsignalsGroupingConfigurations.DataAwsccApplicationsignalsGroupingConfigurations.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapplicationsignalsgroupingconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapplicationsignalsgroupingconfigurations"
 
 dataawsccapplicationsignalsgroupingconfigurations.DataAwsccApplicationsignalsGroupingConfigurations_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccapplicationsignalsgroupingconfigurations.DataAwsccApplicationsignalsGro
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccApplicationsignalsGroupingConfigurations.DataAwsccApplicationsignalsGroupingConfigurations.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapplicationsignalsgroupingconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapplicationsignalsgroupingconfigurations"
 
 dataawsccapplicationsignalsgroupingconfigurations.DataAwsccApplicationsignalsGroupingConfigurations_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccApplicationsignal
 
 The id of the existing DataAwsccApplicationsignalsGroupingConfigurations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/applicationsignals_grouping_configurations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/applicationsignals_grouping_configurations#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApplicationsignalsGroupingConfigurations.DataAwsccApplicationsignalsGroupingConfigurationsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapplicationsignalsgroupingconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapplicationsignalsgroupingconfigurations"
 
 &dataawsccapplicationsignalsgroupingconfigurations.DataAwsccApplicationsignalsGroupingConfigurationsConfig {
 	Connection: interface{},

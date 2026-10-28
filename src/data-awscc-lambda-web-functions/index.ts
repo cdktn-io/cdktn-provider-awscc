@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lambda_web_functions
+// https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lambda_web_functions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccLambdaWebFunctionsConfig extends cdktn.TerraformMetaAr
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lambda_web_functions awscc_lambda_web_functions}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lambda_web_functions awscc_lambda_web_functions}
 */
 export class DataAwsccLambdaWebFunctions extends cdktn.TerraformDataSource {
 
@@ -31,7 +31,7 @@ export class DataAwsccLambdaWebFunctions extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccLambdaWebFunctions resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccLambdaWebFunctions to import
-  * @param importFromId The id of the existing DataAwsccLambdaWebFunctions that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lambda_web_functions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccLambdaWebFunctions that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lambda_web_functions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccLambdaWebFunctions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -43,7 +43,7 @@ export class DataAwsccLambdaWebFunctions extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lambda_web_functions awscc_lambda_web_functions} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lambda_web_functions awscc_lambda_web_functions} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -54,7 +54,7 @@ export class DataAwsccLambdaWebFunctions extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_lambda_web_functions',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.106.0',
+        providerVersion: '1.107.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

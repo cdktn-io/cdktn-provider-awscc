@@ -4,12 +4,12 @@
 
 ### WisdomMessageTemplateVersion <a name="WisdomMessageTemplateVersion" id="@cdktn/provider-awscc.wisdomMessageTemplateVersion.WisdomMessageTemplateVersion"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_message_template_version awscc_wisdom_message_template_version}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_message_template_version awscc_wisdom_message_template_version}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.wisdomMessageTemplateVersion.WisdomMessageTemplateVersion.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdommessagetemplateversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdommessagetemplateversion"
 
 wisdommessagetemplateversion.NewWisdomMessageTemplateVersion(scope Construct, id *string, config WisdomMessageTemplateVersionConfig) WisdomMessageTemplateVersion
 ```
@@ -407,7 +407,7 @@ func ResetMessageTemplateContentSha256()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.wisdomMessageTemplateVersion.WisdomMessageTemplateVersion.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdommessagetemplateversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdommessagetemplateversion"
 
 wisdommessagetemplateversion.WisdomMessageTemplateVersion_IsConstruct(x interface{}) *bool
 ```
@@ -439,7 +439,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.wisdomMessageTemplateVersion.WisdomMessageTemplateVersion.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdommessagetemplateversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdommessagetemplateversion"
 
 wisdommessagetemplateversion.WisdomMessageTemplateVersion_IsTerraformElement(x interface{}) *bool
 ```
@@ -453,7 +453,7 @@ wisdommessagetemplateversion.WisdomMessageTemplateVersion_IsTerraformElement(x i
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.wisdomMessageTemplateVersion.WisdomMessageTemplateVersion.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdommessagetemplateversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdommessagetemplateversion"
 
 wisdommessagetemplateversion.WisdomMessageTemplateVersion_IsTerraformResource(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ wisdommessagetemplateversion.WisdomMessageTemplateVersion_IsTerraformResource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.wisdomMessageTemplateVersion.WisdomMessageTemplateVersion.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdommessagetemplateversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdommessagetemplateversion"
 
 wisdommessagetemplateversion.WisdomMessageTemplateVersion_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -496,7 +496,7 @@ The construct id used in the generated config for the WisdomMessageTemplateVersi
 
 The id of the existing WisdomMessageTemplateVersion that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_message_template_version#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_message_template_version#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -773,7 +773,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.wisdomMessageTemplateVersion.WisdomMessageTemplateVersionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdommessagetemplateversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdommessagetemplateversion"
 
 &wisdommessagetemplateversion.WisdomMessageTemplateVersionConfig {
 	Connection: interface{},
@@ -884,7 +884,7 @@ MessageTemplateArn *string
 
 The unqualified Amazon Resource Name (ARN) of the message template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_message_template_version#message_template_arn WisdomMessageTemplateVersion#message_template_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_message_template_version#message_template_arn WisdomMessageTemplateVersion#message_template_arn}
 
 ---
 
@@ -898,7 +898,7 @@ MessageTemplateContentSha256 *string
 
 The content SHA256 of the message template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_message_template_version#message_template_content_sha_256 WisdomMessageTemplateVersion#message_template_content_sha_256}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_message_template_version#message_template_content_sha_256 WisdomMessageTemplateVersion#message_template_content_sha_256}
 
 ---
 

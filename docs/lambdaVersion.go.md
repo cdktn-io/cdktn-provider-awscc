@@ -4,12 +4,12 @@
 
 ### LambdaVersion <a name="LambdaVersion" id="@cdktn/provider-awscc.lambdaVersion.LambdaVersion"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_version awscc_lambda_version}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_version awscc_lambda_version}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lambdaVersion.LambdaVersion.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdaversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdaversion"
 
 lambdaversion.NewLambdaVersion(scope Construct, id *string, config LambdaVersionConfig) LambdaVersion
 ```
@@ -474,7 +474,7 @@ func ResetRuntimePolicy()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.lambdaVersion.LambdaVersion.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdaversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdaversion"
 
 lambdaversion.LambdaVersion_IsConstruct(x interface{}) *bool
 ```
@@ -506,7 +506,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.lambdaVersion.LambdaVersion.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdaversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdaversion"
 
 lambdaversion.LambdaVersion_IsTerraformElement(x interface{}) *bool
 ```
@@ -520,7 +520,7 @@ lambdaversion.LambdaVersion_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.lambdaVersion.LambdaVersion.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdaversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdaversion"
 
 lambdaversion.LambdaVersion_IsTerraformResource(x interface{}) *bool
 ```
@@ -534,7 +534,7 @@ lambdaversion.LambdaVersion_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.lambdaVersion.LambdaVersion.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdaversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdaversion"
 
 lambdaversion.LambdaVersion_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -563,7 +563,7 @@ The construct id used in the generated config for the LambdaVersion to import.
 
 The id of the existing LambdaVersion that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_version#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_version#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -928,7 +928,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lambdaVersion.LambdaVersionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdaversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdaversion"
 
 &lambdaversion.LambdaVersionConfig {
 	Connection: interface{},
@@ -941,9 +941,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdaversion"
 	FunctionName: *string,
 	CodeSha256: *string,
 	Description: *string,
-	FunctionScalingConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lambdaVersion.LambdaVersionFunctionScalingConfig,
-	ProvisionedConcurrencyConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lambdaVersion.LambdaVersionProvisionedConcurrencyConfig,
-	RuntimePolicy: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lambdaVersion.LambdaVersionRuntimePolicy,
+	FunctionScalingConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lambdaVersion.LambdaVersionFunctionScalingConfig,
+	ProvisionedConcurrencyConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lambdaVersion.LambdaVersionProvisionedConcurrencyConfig,
+	RuntimePolicy: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lambdaVersion.LambdaVersionRuntimePolicy,
 }
 ```
 
@@ -1047,7 +1047,7 @@ FunctionName *string
 
 The name of the Lambda function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_version#function_name LambdaVersion#function_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_version#function_name LambdaVersion#function_name}
 
 ---
 
@@ -1063,7 +1063,7 @@ Only publish a version if the hash value matches the value that's specified.
 
 Use this option to avoid publishing a version if the function code has changed since you last updated it. Updates are not supported for this property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_version#code_sha_256 LambdaVersion#code_sha_256}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_version#code_sha_256 LambdaVersion#code_sha_256}
 
 ---
 
@@ -1079,7 +1079,7 @@ A description for the version to override the description in the function config
 
 Updates are not supported for this property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_version#description LambdaVersion#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_version#description LambdaVersion#description}
 
 ---
 
@@ -1093,7 +1093,7 @@ FunctionScalingConfig LambdaVersionFunctionScalingConfig
 
 The scaling configuration to apply to the function, including minimum and maximum execution environment limits.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_version#function_scaling_config LambdaVersion#function_scaling_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_version#function_scaling_config LambdaVersion#function_scaling_config}
 
 ---
 
@@ -1107,7 +1107,7 @@ ProvisionedConcurrencyConfig LambdaVersionProvisionedConcurrencyConfig
 
 Specifies a provisioned concurrency configuration for a function's version. Updates are not supported for this property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_version#provisioned_concurrency_config LambdaVersion#provisioned_concurrency_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_version#provisioned_concurrency_config LambdaVersion#provisioned_concurrency_config}
 
 ---
 
@@ -1121,7 +1121,7 @@ RuntimePolicy LambdaVersionRuntimePolicy
 
 Specifies the runtime management configuration of a function. Displays runtimeVersionArn only for Manual.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_version#runtime_policy LambdaVersion#runtime_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_version#runtime_policy LambdaVersion#runtime_policy}
 
 ---
 
@@ -1130,7 +1130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lambdaVersion.LambdaVersionFunctionScalingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdaversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdaversion"
 
 &lambdaversion.LambdaVersionFunctionScalingConfig {
 	MaxExecutionEnvironments: *f64,
@@ -1157,7 +1157,7 @@ MaxExecutionEnvironments *f64
 
 The maximum number of execution environments that can be provisioned for the function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_version#max_execution_environments LambdaVersion#max_execution_environments}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_version#max_execution_environments LambdaVersion#max_execution_environments}
 
 ---
 
@@ -1171,7 +1171,7 @@ MinExecutionEnvironments *f64
 
 The minimum number of execution environments to maintain for the function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_version#min_execution_environments LambdaVersion#min_execution_environments}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_version#min_execution_environments LambdaVersion#min_execution_environments}
 
 ---
 
@@ -1180,7 +1180,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lambdaVersion.LambdaVersionProvisionedConcurrencyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdaversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdaversion"
 
 &lambdaversion.LambdaVersionProvisionedConcurrencyConfig {
 	ProvisionedConcurrentExecutions: *f64,
@@ -1205,7 +1205,7 @@ ProvisionedConcurrentExecutions *f64
 
 The amount of provisioned concurrency to allocate for the version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_version#provisioned_concurrent_executions LambdaVersion#provisioned_concurrent_executions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_version#provisioned_concurrent_executions LambdaVersion#provisioned_concurrent_executions}
 
 ---
 
@@ -1214,7 +1214,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lambdaVersion.LambdaVersionRuntimePolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdaversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdaversion"
 
 &lambdaversion.LambdaVersionRuntimePolicy {
 	RuntimeVersionArn: *string,
@@ -1243,7 +1243,7 @@ The ARN of the runtime the function is configured to use.
 
 If the runtime update mode is manual, the ARN is returned, otherwise null is returned.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_version#runtime_version_arn LambdaVersion#runtime_version_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_version#runtime_version_arn LambdaVersion#runtime_version_arn}
 
 ---
 
@@ -1257,7 +1257,7 @@ UpdateRuntimeOn *string
 
 The runtime update mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_version#update_runtime_on LambdaVersion#update_runtime_on}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_version#update_runtime_on LambdaVersion#update_runtime_on}
 
 ---
 
@@ -1268,7 +1268,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lambdaVersion.LambdaVersionFunctionScalingConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdaversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdaversion"
 
 lambdaversion.NewLambdaVersionFunctionScalingConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LambdaVersionFunctionScalingConfigOutputReference
 ```
@@ -1575,7 +1575,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lambdaVersion.LambdaVersionProvisionedConcurrencyConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdaversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdaversion"
 
 lambdaversion.NewLambdaVersionProvisionedConcurrencyConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LambdaVersionProvisionedConcurrencyConfigOutputReference
 ```
@@ -1853,7 +1853,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lambdaVersion.LambdaVersionRuntimePolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdaversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdaversion"
 
 lambdaversion.NewLambdaVersionRuntimePolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LambdaVersionRuntimePolicyOutputReference
 ```

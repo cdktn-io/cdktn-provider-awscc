@@ -4,12 +4,12 @@
 
 ### DataAwsccLightsailContainer <a name="DataAwsccLightsailContainer" id="@cdktn/provider-awscc.dataAwsccLightsailContainer.DataAwsccLightsailContainer"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lightsail_container awscc_lightsail_container}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lightsail_container awscc_lightsail_container}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLightsailContainer.DataAwsccLightsailContainer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailcontainer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailcontainer"
 
 dataawscclightsailcontainer.NewDataAwsccLightsailContainer(scope Construct, id *string, config DataAwsccLightsailContainerConfig) DataAwsccLightsailContainer
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccLightsailContainer.DataAwsccLightsailContainer.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailcontainer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailcontainer"
 
 dataawscclightsailcontainer.DataAwsccLightsailContainer_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccLightsailContainer.DataAwsccLightsailContainer.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailcontainer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailcontainer"
 
 dataawscclightsailcontainer.DataAwsccLightsailContainer_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscclightsailcontainer.DataAwsccLightsailContainer_IsTerraformElement(x int
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccLightsailContainer.DataAwsccLightsailContainer.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailcontainer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailcontainer"
 
 dataawscclightsailcontainer.DataAwsccLightsailContainer_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscclightsailcontainer.DataAwsccLightsailContainer_IsTerraformDataSource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccLightsailContainer.DataAwsccLightsailContainer.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailcontainer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailcontainer"
 
 dataawscclightsailcontainer.DataAwsccLightsailContainer_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLightsailContaine
 
 The id of the existing DataAwsccLightsailContainer that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lightsail_container#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lightsail_container#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -708,7 +708,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLightsailContainer.DataAwsccLightsailContainerConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailcontainer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailcontainer"
 
 &dataawscclightsailcontainer.DataAwsccLightsailContainerConfig {
 	Connection: interface{},
@@ -817,7 +817,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lightsail_container#id DataAwsccLightsailContainer#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lightsail_container#id DataAwsccLightsailContainer#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -829,7 +829,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLightsailContainer.DataAwsccLightsailContainerContainerServiceDeployment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailcontainer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailcontainer"
 
 &dataawscclightsailcontainer.DataAwsccLightsailContainerContainerServiceDeployment {
 
@@ -842,7 +842,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailcont
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLightsailContainer.DataAwsccLightsailContainerContainerServiceDeploymentContainers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailcontainer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailcontainer"
 
 &dataawscclightsailcontainer.DataAwsccLightsailContainerContainerServiceDeploymentContainers {
 
@@ -855,7 +855,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailcont
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLightsailContainer.DataAwsccLightsailContainerContainerServiceDeploymentContainersEnvironment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailcontainer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailcontainer"
 
 &dataawscclightsailcontainer.DataAwsccLightsailContainerContainerServiceDeploymentContainersEnvironment {
 
@@ -868,7 +868,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailcont
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLightsailContainer.DataAwsccLightsailContainerContainerServiceDeploymentContainersPorts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailcontainer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailcontainer"
 
 &dataawscclightsailcontainer.DataAwsccLightsailContainerContainerServiceDeploymentContainersPorts {
 
@@ -881,7 +881,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailcont
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLightsailContainer.DataAwsccLightsailContainerContainerServiceDeploymentPublicEndpoint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailcontainer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailcontainer"
 
 &dataawscclightsailcontainer.DataAwsccLightsailContainerContainerServiceDeploymentPublicEndpoint {
 
@@ -894,7 +894,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailcont
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLightsailContainer.DataAwsccLightsailContainerContainerServiceDeploymentPublicEndpointHealthCheckConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailcontainer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailcontainer"
 
 &dataawscclightsailcontainer.DataAwsccLightsailContainerContainerServiceDeploymentPublicEndpointHealthCheckConfig {
 
@@ -907,7 +907,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailcont
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLightsailContainer.DataAwsccLightsailContainerPrivateRegistryAccess.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailcontainer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailcontainer"
 
 &dataawscclightsailcontainer.DataAwsccLightsailContainerPrivateRegistryAccess {
 
@@ -920,7 +920,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailcont
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLightsailContainer.DataAwsccLightsailContainerPrivateRegistryAccessEcrImagePullerRole.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailcontainer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailcontainer"
 
 &dataawscclightsailcontainer.DataAwsccLightsailContainerPrivateRegistryAccessEcrImagePullerRole {
 
@@ -933,7 +933,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailcont
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLightsailContainer.DataAwsccLightsailContainerPublicDomainNames.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailcontainer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailcontainer"
 
 &dataawscclightsailcontainer.DataAwsccLightsailContainerPublicDomainNames {
 
@@ -946,7 +946,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailcont
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLightsailContainer.DataAwsccLightsailContainerTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailcontainer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailcontainer"
 
 &dataawscclightsailcontainer.DataAwsccLightsailContainerTags {
 
@@ -961,7 +961,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailcont
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLightsailContainer.DataAwsccLightsailContainerContainerServiceDeploymentContainersEnvironmentList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailcontainer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailcontainer"
 
 dataawscclightsailcontainer.NewDataAwsccLightsailContainerContainerServiceDeploymentContainersEnvironmentList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLightsailContainerContainerServiceDeploymentContainersEnvironmentList
 ```
@@ -1110,7 +1110,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLightsailContainer.DataAwsccLightsailContainerContainerServiceDeploymentContainersEnvironmentOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailcontainer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailcontainer"
 
 dataawscclightsailcontainer.NewDataAwsccLightsailContainerContainerServiceDeploymentContainersEnvironmentOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLightsailContainerContainerServiceDeploymentContainersEnvironmentOutputReference
 ```
@@ -1399,7 +1399,7 @@ func InternalValue() DataAwsccLightsailContainerContainerServiceDeploymentContai
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLightsailContainer.DataAwsccLightsailContainerContainerServiceDeploymentContainersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailcontainer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailcontainer"
 
 dataawscclightsailcontainer.NewDataAwsccLightsailContainerContainerServiceDeploymentContainersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLightsailContainerContainerServiceDeploymentContainersList
 ```
@@ -1548,7 +1548,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLightsailContainer.DataAwsccLightsailContainerContainerServiceDeploymentContainersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailcontainer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailcontainer"
 
 dataawscclightsailcontainer.NewDataAwsccLightsailContainerContainerServiceDeploymentContainersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLightsailContainerContainerServiceDeploymentContainersOutputReference
 ```
@@ -1870,7 +1870,7 @@ func InternalValue() DataAwsccLightsailContainerContainerServiceDeploymentContai
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLightsailContainer.DataAwsccLightsailContainerContainerServiceDeploymentContainersPortsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailcontainer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailcontainer"
 
 dataawscclightsailcontainer.NewDataAwsccLightsailContainerContainerServiceDeploymentContainersPortsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLightsailContainerContainerServiceDeploymentContainersPortsList
 ```
@@ -2019,7 +2019,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLightsailContainer.DataAwsccLightsailContainerContainerServiceDeploymentContainersPortsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailcontainer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailcontainer"
 
 dataawscclightsailcontainer.NewDataAwsccLightsailContainerContainerServiceDeploymentContainersPortsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLightsailContainerContainerServiceDeploymentContainersPortsOutputReference
 ```
@@ -2308,7 +2308,7 @@ func InternalValue() DataAwsccLightsailContainerContainerServiceDeploymentContai
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLightsailContainer.DataAwsccLightsailContainerContainerServiceDeploymentOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailcontainer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailcontainer"
 
 dataawscclightsailcontainer.NewDataAwsccLightsailContainerContainerServiceDeploymentOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLightsailContainerContainerServiceDeploymentOutputReference
 ```
@@ -2579,7 +2579,7 @@ func InternalValue() DataAwsccLightsailContainerContainerServiceDeployment
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLightsailContainer.DataAwsccLightsailContainerContainerServiceDeploymentPublicEndpointHealthCheckConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailcontainer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailcontainer"
 
 dataawscclightsailcontainer.NewDataAwsccLightsailContainerContainerServiceDeploymentPublicEndpointHealthCheckConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLightsailContainerContainerServiceDeploymentPublicEndpointHealthCheckConfigOutputReference
 ```
@@ -2894,7 +2894,7 @@ func InternalValue() DataAwsccLightsailContainerContainerServiceDeploymentPublic
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLightsailContainer.DataAwsccLightsailContainerContainerServiceDeploymentPublicEndpointOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailcontainer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailcontainer"
 
 dataawscclightsailcontainer.NewDataAwsccLightsailContainerContainerServiceDeploymentPublicEndpointOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLightsailContainerContainerServiceDeploymentPublicEndpointOutputReference
 ```
@@ -3176,7 +3176,7 @@ func InternalValue() DataAwsccLightsailContainerContainerServiceDeploymentPublic
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLightsailContainer.DataAwsccLightsailContainerPrivateRegistryAccessEcrImagePullerRoleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailcontainer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailcontainer"
 
 dataawscclightsailcontainer.NewDataAwsccLightsailContainerPrivateRegistryAccessEcrImagePullerRoleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLightsailContainerPrivateRegistryAccessEcrImagePullerRoleOutputReference
 ```
@@ -3447,7 +3447,7 @@ func InternalValue() DataAwsccLightsailContainerPrivateRegistryAccessEcrImagePul
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLightsailContainer.DataAwsccLightsailContainerPrivateRegistryAccessOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailcontainer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailcontainer"
 
 dataawscclightsailcontainer.NewDataAwsccLightsailContainerPrivateRegistryAccessOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLightsailContainerPrivateRegistryAccessOutputReference
 ```
@@ -3707,7 +3707,7 @@ func InternalValue() DataAwsccLightsailContainerPrivateRegistryAccess
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLightsailContainer.DataAwsccLightsailContainerPublicDomainNamesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailcontainer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailcontainer"
 
 dataawscclightsailcontainer.NewDataAwsccLightsailContainerPublicDomainNamesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLightsailContainerPublicDomainNamesList
 ```
@@ -3856,7 +3856,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLightsailContainer.DataAwsccLightsailContainerPublicDomainNamesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailcontainer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailcontainer"
 
 dataawscclightsailcontainer.NewDataAwsccLightsailContainerPublicDomainNamesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLightsailContainerPublicDomainNamesOutputReference
 ```
@@ -4145,7 +4145,7 @@ func InternalValue() DataAwsccLightsailContainerPublicDomainNames
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLightsailContainer.DataAwsccLightsailContainerTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailcontainer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailcontainer"
 
 dataawscclightsailcontainer.NewDataAwsccLightsailContainerTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLightsailContainerTagsList
 ```
@@ -4294,7 +4294,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLightsailContainer.DataAwsccLightsailContainerTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailcontainer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailcontainer"
 
 dataawscclightsailcontainer.NewDataAwsccLightsailContainerTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLightsailContainerTagsOutputReference
 ```

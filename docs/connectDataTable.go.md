@@ -4,12 +4,12 @@
 
 ### ConnectDataTable <a name="ConnectDataTable" id="@cdktn/provider-awscc.connectDataTable.ConnectDataTable"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_data_table awscc_connect_data_table}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_data_table awscc_connect_data_table}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectDataTable.ConnectDataTable.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectdatatable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectdatatable"
 
 connectdatatable.NewConnectDataTable(scope Construct, id *string, config ConnectDataTableConfig) ConnectDataTable
 ```
@@ -427,7 +427,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.connectDataTable.ConnectDataTable.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectdatatable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectdatatable"
 
 connectdatatable.ConnectDataTable_IsConstruct(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.connectDataTable.ConnectDataTable.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectdatatable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectdatatable"
 
 connectdatatable.ConnectDataTable_IsTerraformElement(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ connectdatatable.ConnectDataTable_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.connectDataTable.ConnectDataTable.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectdatatable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectdatatable"
 
 connectdatatable.ConnectDataTable_IsTerraformResource(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ connectdatatable.ConnectDataTable_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.connectDataTable.ConnectDataTable.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectdatatable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectdatatable"
 
 connectdatatable.ConnectDataTable_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -516,7 +516,7 @@ The construct id used in the generated config for the ConnectDataTable to import
 
 The id of the existing ConnectDataTable that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_data_table#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_data_table#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -936,7 +936,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectDataTable.ConnectDataTableConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectdatatable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectdatatable"
 
 &connectdatatable.ConnectDataTableConfig {
 	Connection: interface{},
@@ -1057,7 +1057,7 @@ InstanceArn *string
 
 The identifier of the Amazon Connect instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_data_table#instance_arn ConnectDataTable#instance_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_data_table#instance_arn ConnectDataTable#instance_arn}
 
 ---
 
@@ -1071,7 +1071,7 @@ Name *string
 
 The name of the Data Table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_data_table#name ConnectDataTable#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_data_table#name ConnectDataTable#name}
 
 ---
 
@@ -1085,7 +1085,7 @@ Status *string
 
 The status of the Data Table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_data_table#status ConnectDataTable#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_data_table#status ConnectDataTable#status}
 
 ---
 
@@ -1099,7 +1099,7 @@ TimeZone *string
 
 The time zone of the Data Table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_data_table#time_zone ConnectDataTable#time_zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_data_table#time_zone ConnectDataTable#time_zone}
 
 ---
 
@@ -1113,7 +1113,7 @@ ValueLockLevel *string
 
 The value lock level of the Data Table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_data_table#value_lock_level ConnectDataTable#value_lock_level}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_data_table#value_lock_level ConnectDataTable#value_lock_level}
 
 ---
 
@@ -1127,7 +1127,7 @@ Description *string
 
 The description of the Data Table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_data_table#description ConnectDataTable#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_data_table#description ConnectDataTable#description}
 
 ---
 
@@ -1141,7 +1141,7 @@ Tags interface{}
 
 One or more tags.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_data_table#tags ConnectDataTable#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_data_table#tags ConnectDataTable#tags}
 
 ---
 
@@ -1150,7 +1150,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectDataTable.ConnectDataTableLockVersion.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectdatatable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectdatatable"
 
 &connectdatatable.ConnectDataTableLockVersion {
 
@@ -1163,7 +1163,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectdatatable"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectDataTable.ConnectDataTableTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectdatatable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectdatatable"
 
 &connectdatatable.ConnectDataTableTags {
 	Key: *string,
@@ -1192,7 +1192,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_data_table#key ConnectDataTable#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_data_table#key ConnectDataTable#key}
 
 ---
 
@@ -1208,7 +1208,7 @@ The value for the tag.
 
 You can specify a value that is maximum of 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_data_table#value ConnectDataTable#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_data_table#value ConnectDataTable#value}
 
 ---
 
@@ -1219,7 +1219,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectDataTable.ConnectDataTableLockVersionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectdatatable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectdatatable"
 
 connectdatatable.NewConnectDataTableLockVersionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ConnectDataTableLockVersionOutputReference
 ```
@@ -1479,7 +1479,7 @@ func InternalValue() ConnectDataTableLockVersion
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectDataTable.ConnectDataTableTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectdatatable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectdatatable"
 
 connectdatatable.NewConnectDataTableTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ConnectDataTableTagsList
 ```
@@ -1639,7 +1639,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectDataTable.ConnectDataTableTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectdatatable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectdatatable"
 
 connectdatatable.NewConnectDataTableTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ConnectDataTableTagsOutputReference
 ```

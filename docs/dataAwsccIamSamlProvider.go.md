@@ -4,12 +4,12 @@
 
 ### DataAwsccIamSamlProvider <a name="DataAwsccIamSamlProvider" id="@cdktn/provider-awscc.dataAwsccIamSamlProvider.DataAwsccIamSamlProvider"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iam_saml_provider awscc_iam_saml_provider}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iam_saml_provider awscc_iam_saml_provider}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIamSamlProvider.DataAwsccIamSamlProvider.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciamsamlprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciamsamlprovider"
 
 dataawscciamsamlprovider.NewDataAwsccIamSamlProvider(scope Construct, id *string, config DataAwsccIamSamlProviderConfig) DataAwsccIamSamlProvider
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIamSamlProvider.DataAwsccIamSamlProvider.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciamsamlprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciamsamlprovider"
 
 dataawscciamsamlprovider.DataAwsccIamSamlProvider_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIamSamlProvider.DataAwsccIamSamlProvider.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciamsamlprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciamsamlprovider"
 
 dataawscciamsamlprovider.DataAwsccIamSamlProvider_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciamsamlprovider.DataAwsccIamSamlProvider_IsTerraformElement(x interface
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIamSamlProvider.DataAwsccIamSamlProvider.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciamsamlprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciamsamlprovider"
 
 dataawscciamsamlprovider.DataAwsccIamSamlProvider_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciamsamlprovider.DataAwsccIamSamlProvider_IsTerraformDataSource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIamSamlProvider.DataAwsccIamSamlProvider.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciamsamlprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciamsamlprovider"
 
 dataawscciamsamlprovider.DataAwsccIamSamlProvider_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIamSamlProvider t
 
 The id of the existing DataAwsccIamSamlProvider that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iam_saml_provider#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iam_saml_provider#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -686,7 +686,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIamSamlProvider.DataAwsccIamSamlProviderConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciamsamlprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciamsamlprovider"
 
 &dataawscciamsamlprovider.DataAwsccIamSamlProviderConfig {
 	Connection: interface{},
@@ -795,7 +795,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iam_saml_provider#id DataAwsccIamSamlProvider#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iam_saml_provider#id DataAwsccIamSamlProvider#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -807,7 +807,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIamSamlProvider.DataAwsccIamSamlProviderPrivateKeyListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciamsamlprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciamsamlprovider"
 
 &dataawscciamsamlprovider.DataAwsccIamSamlProviderPrivateKeyListStruct {
 
@@ -820,7 +820,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciamsamlprovid
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIamSamlProvider.DataAwsccIamSamlProviderTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciamsamlprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciamsamlprovider"
 
 &dataawscciamsamlprovider.DataAwsccIamSamlProviderTags {
 
@@ -835,7 +835,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciamsamlprovid
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIamSamlProvider.DataAwsccIamSamlProviderPrivateKeyListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciamsamlprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciamsamlprovider"
 
 dataawscciamsamlprovider.NewDataAwsccIamSamlProviderPrivateKeyListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIamSamlProviderPrivateKeyListStructList
 ```
@@ -984,7 +984,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIamSamlProvider.DataAwsccIamSamlProviderPrivateKeyListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciamsamlprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciamsamlprovider"
 
 dataawscciamsamlprovider.NewDataAwsccIamSamlProviderPrivateKeyListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIamSamlProviderPrivateKeyListStructOutputReference
 ```
@@ -1273,7 +1273,7 @@ func InternalValue() DataAwsccIamSamlProviderPrivateKeyListStruct
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIamSamlProvider.DataAwsccIamSamlProviderTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciamsamlprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciamsamlprovider"
 
 dataawscciamsamlprovider.NewDataAwsccIamSamlProviderTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIamSamlProviderTagsList
 ```
@@ -1422,7 +1422,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIamSamlProvider.DataAwsccIamSamlProviderTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciamsamlprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciamsamlprovider"
 
 dataawscciamsamlprovider.NewDataAwsccIamSamlProviderTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIamSamlProviderTagsOutputReference
 ```

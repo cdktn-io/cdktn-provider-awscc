@@ -4,12 +4,12 @@
 
 ### DataAwsccTransferProfile <a name="DataAwsccTransferProfile" id="@cdktn/provider-awscc.dataAwsccTransferProfile.DataAwsccTransferProfile"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/transfer_profile awscc_transfer_profile}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/transfer_profile awscc_transfer_profile}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTransferProfile.DataAwsccTransferProfile.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferprofile"
 
 dataawscctransferprofile.NewDataAwsccTransferProfile(scope Construct, id *string, config DataAwsccTransferProfileConfig) DataAwsccTransferProfile
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccTransferProfile.DataAwsccTransferProfile.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferprofile"
 
 dataawscctransferprofile.DataAwsccTransferProfile_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccTransferProfile.DataAwsccTransferProfile.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferprofile"
 
 dataawscctransferprofile.DataAwsccTransferProfile_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscctransferprofile.DataAwsccTransferProfile_IsTerraformElement(x interface
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccTransferProfile.DataAwsccTransferProfile.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferprofile"
 
 dataawscctransferprofile.DataAwsccTransferProfile_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscctransferprofile.DataAwsccTransferProfile_IsTerraformDataSource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccTransferProfile.DataAwsccTransferProfile.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferprofile"
 
 dataawscctransferprofile.DataAwsccTransferProfile_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccTransferProfile t
 
 The id of the existing DataAwsccTransferProfile that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/transfer_profile#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/transfer_profile#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -653,7 +653,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTransferProfile.DataAwsccTransferProfileConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferprofile"
 
 &dataawscctransferprofile.DataAwsccTransferProfileConfig {
 	Connection: interface{},
@@ -762,7 +762,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/transfer_profile#id DataAwsccTransferProfile#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/transfer_profile#id DataAwsccTransferProfile#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -774,7 +774,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTransferProfile.DataAwsccTransferProfileTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferprofile"
 
 &dataawscctransferprofile.DataAwsccTransferProfileTags {
 
@@ -789,7 +789,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferprofi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTransferProfile.DataAwsccTransferProfileTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferprofile"
 
 dataawscctransferprofile.NewDataAwsccTransferProfileTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccTransferProfileTagsList
 ```
@@ -938,7 +938,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTransferProfile.DataAwsccTransferProfileTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferprofile"
 
 dataawscctransferprofile.NewDataAwsccTransferProfileTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccTransferProfileTagsOutputReference
 ```

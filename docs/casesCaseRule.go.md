@@ -4,12 +4,12 @@
 
 ### CasesCaseRule <a name="CasesCaseRule" id="@cdktn/provider-awscc.casesCaseRule.CasesCaseRule"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_case_rule awscc_cases_case_rule}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_case_rule awscc_cases_case_rule}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.casesCaseRule.CasesCaseRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/casescaserule"
 
 casescaserule.NewCasesCaseRule(scope Construct, id *string, config CasesCaseRuleConfig) CasesCaseRule
 ```
@@ -447,7 +447,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.casesCaseRule.CasesCaseRule.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/casescaserule"
 
 casescaserule.CasesCaseRule_IsConstruct(x interface{}) *bool
 ```
@@ -479,7 +479,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.casesCaseRule.CasesCaseRule.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/casescaserule"
 
 casescaserule.CasesCaseRule_IsTerraformElement(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ casescaserule.CasesCaseRule_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.casesCaseRule.CasesCaseRule.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/casescaserule"
 
 casescaserule.CasesCaseRule_IsTerraformResource(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ casescaserule.CasesCaseRule_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.casesCaseRule.CasesCaseRule.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/casescaserule"
 
 casescaserule.CasesCaseRule_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -536,7 +536,7 @@ The construct id used in the generated config for the CasesCaseRule to import.
 
 The id of the existing CasesCaseRule that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_case_rule#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_case_rule#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -901,7 +901,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.casesCaseRule.CasesCaseRuleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/casescaserule"
 
 &casescaserule.CasesCaseRuleConfig {
 	Connection: interface{},
@@ -912,7 +912,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casescaserule"
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	Name: *string,
-	Rule: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.casesCaseRule.CasesCaseRuleRule,
+	Rule: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.casesCaseRule.CasesCaseRuleRule,
 	Description: *string,
 	DomainId: *string,
 	Tags: interface{},
@@ -1020,7 +1020,7 @@ A descriptive name for the case rule.
 
 Must be unique within the domain and should clearly indicate the rule's purpose (e.g., 'Priority Field Required for Urgent Cases').
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_case_rule#name CasesCaseRule#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_case_rule#name CasesCaseRule#name}
 
 ---
 
@@ -1036,7 +1036,7 @@ Defines the rule behavior and conditions.
 
 Specifies the rule type and the conditions under which it applies. In the Amazon Connect admin website, this corresponds to case field conditions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_case_rule#rule CasesCaseRule#rule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_case_rule#rule CasesCaseRule#rule}
 
 ---
 
@@ -1052,7 +1052,7 @@ A description explaining the purpose and behavior of this case rule.
 
 Helps administrators understand when and why this rule applies to case fields.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_case_rule#description CasesCaseRule#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_case_rule#description CasesCaseRule#description}
 
 ---
 
@@ -1066,7 +1066,7 @@ DomainId *string
 
 The unique identifier of the Cases domain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_case_rule#domain_id CasesCaseRule#domain_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_case_rule#domain_id CasesCaseRule#domain_id}
 
 ---
 
@@ -1080,7 +1080,7 @@ Tags interface{}
 
 The tags that you attach to this case rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_case_rule#tags CasesCaseRule#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_case_rule#tags CasesCaseRule#tags}
 
 ---
 
@@ -1089,11 +1089,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.casesCaseRule.CasesCaseRuleRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/casescaserule"
 
 &casescaserule.CasesCaseRuleRule {
-	Hidden: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.casesCaseRule.CasesCaseRuleRuleHidden,
-	Required: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.casesCaseRule.CasesCaseRuleRuleRequired,
+	Hidden: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.casesCaseRule.CasesCaseRuleRuleHidden,
+	Required: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.casesCaseRule.CasesCaseRuleRuleRequired,
 }
 ```
 
@@ -1116,7 +1116,7 @@ Hidden CasesCaseRuleRuleHidden
 
 Hidden rule type, used to indicate whether a field is hidden.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_case_rule#hidden CasesCaseRule#hidden}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_case_rule#hidden CasesCaseRule#hidden}
 
 ---
 
@@ -1130,7 +1130,7 @@ Required CasesCaseRuleRuleRequired
 
 A required rule type, used to indicate whether a field is required.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_case_rule#required CasesCaseRule#required}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_case_rule#required CasesCaseRule#required}
 
 ---
 
@@ -1139,7 +1139,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.casesCaseRule.CasesCaseRuleRuleHidden.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/casescaserule"
 
 &casescaserule.CasesCaseRuleRuleHidden {
 	Conditions: interface{},
@@ -1168,7 +1168,7 @@ List of conditions for the hidden rule;
 
 the first condition to evaluate to true dictates the value of the rule
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_case_rule#conditions CasesCaseRule#conditions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_case_rule#conditions CasesCaseRule#conditions}
 
 ---
 
@@ -1182,7 +1182,7 @@ DefaultValue interface{}
 
 The value of the rule (i.e. whether the field is hidden) should none of the conditions evaluate to true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_case_rule#default_value CasesCaseRule#default_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_case_rule#default_value CasesCaseRule#default_value}
 
 ---
 
@@ -1191,11 +1191,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.casesCaseRule.CasesCaseRuleRuleHiddenConditions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/casescaserule"
 
 &casescaserule.CasesCaseRuleRuleHiddenConditions {
-	EqualTo: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.casesCaseRule.CasesCaseRuleRuleHiddenConditionsEqualTo,
-	NotEqualTo: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.casesCaseRule.CasesCaseRuleRuleHiddenConditionsNotEqualTo,
+	EqualTo: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.casesCaseRule.CasesCaseRuleRuleHiddenConditionsEqualTo,
+	NotEqualTo: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.casesCaseRule.CasesCaseRuleRuleHiddenConditionsNotEqualTo,
 }
 ```
 
@@ -1218,7 +1218,7 @@ EqualTo CasesCaseRuleRuleHiddenConditionsEqualTo
 
 Boolean operands for a condition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_case_rule#equal_to CasesCaseRule#equal_to}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_case_rule#equal_to CasesCaseRule#equal_to}
 
 ---
 
@@ -1232,7 +1232,7 @@ NotEqualTo CasesCaseRuleRuleHiddenConditionsNotEqualTo
 
 Boolean operands for a condition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_case_rule#not_equal_to CasesCaseRule#not_equal_to}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_case_rule#not_equal_to CasesCaseRule#not_equal_to}
 
 ---
 
@@ -1241,11 +1241,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.casesCaseRule.CasesCaseRuleRuleHiddenConditionsEqualTo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/casescaserule"
 
 &casescaserule.CasesCaseRuleRuleHiddenConditionsEqualTo {
-	OperandOne: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.casesCaseRule.CasesCaseRuleRuleHiddenConditionsEqualToOperandOne,
-	OperandTwo: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.casesCaseRule.CasesCaseRuleRuleHiddenConditionsEqualToOperandTwo,
+	OperandOne: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.casesCaseRule.CasesCaseRuleRuleHiddenConditionsEqualToOperandOne,
+	OperandTwo: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.casesCaseRule.CasesCaseRuleRuleHiddenConditionsEqualToOperandTwo,
 	Result: interface{},
 }
 ```
@@ -1270,7 +1270,7 @@ OperandOne CasesCaseRuleRuleHiddenConditionsEqualToOperandOne
 
 The left hand operand in the condition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_case_rule#operand_one CasesCaseRule#operand_one}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_case_rule#operand_one CasesCaseRule#operand_one}
 
 ---
 
@@ -1284,7 +1284,7 @@ OperandTwo CasesCaseRuleRuleHiddenConditionsEqualToOperandTwo
 
 The right hand operand in the condition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_case_rule#operand_two CasesCaseRule#operand_two}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_case_rule#operand_two CasesCaseRule#operand_two}
 
 ---
 
@@ -1298,7 +1298,7 @@ Result interface{}
 
 The value of the outer rule if the condition evaluates to true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_case_rule#result CasesCaseRule#result}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_case_rule#result CasesCaseRule#result}
 
 ---
 
@@ -1307,7 +1307,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.casesCaseRule.CasesCaseRuleRuleHiddenConditionsEqualToOperandOne.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/casescaserule"
 
 &casescaserule.CasesCaseRuleRuleHiddenConditionsEqualToOperandOne {
 	FieldId: *string,
@@ -1332,7 +1332,7 @@ FieldId *string
 
 The field ID this operand should take the value of.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_case_rule#field_id CasesCaseRule#field_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_case_rule#field_id CasesCaseRule#field_id}
 
 ---
 
@@ -1341,7 +1341,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.casesCaseRule.CasesCaseRuleRuleHiddenConditionsEqualToOperandTwo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/casescaserule"
 
 &casescaserule.CasesCaseRuleRuleHiddenConditionsEqualToOperandTwo {
 	BooleanValue: interface{},
@@ -1372,7 +1372,7 @@ BooleanValue interface{}
 
 A boolean value to compare against the field value in the condition evaluation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_case_rule#boolean_value CasesCaseRule#boolean_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_case_rule#boolean_value CasesCaseRule#boolean_value}
 
 ---
 
@@ -1386,7 +1386,7 @@ DoubleValue *f64
 
 A numeric value to compare against the field value in the condition evaluation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_case_rule#double_value CasesCaseRule#double_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_case_rule#double_value CasesCaseRule#double_value}
 
 ---
 
@@ -1400,7 +1400,7 @@ EmptyValue *string
 
 An empty operand value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_case_rule#empty_value CasesCaseRule#empty_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_case_rule#empty_value CasesCaseRule#empty_value}
 
 ---
 
@@ -1414,7 +1414,7 @@ StringValue *string
 
 A string value to compare against the field value in the condition evaluation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_case_rule#string_value CasesCaseRule#string_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_case_rule#string_value CasesCaseRule#string_value}
 
 ---
 
@@ -1423,11 +1423,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.casesCaseRule.CasesCaseRuleRuleHiddenConditionsNotEqualTo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/casescaserule"
 
 &casescaserule.CasesCaseRuleRuleHiddenConditionsNotEqualTo {
-	OperandOne: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.casesCaseRule.CasesCaseRuleRuleHiddenConditionsNotEqualToOperandOne,
-	OperandTwo: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.casesCaseRule.CasesCaseRuleRuleHiddenConditionsNotEqualToOperandTwo,
+	OperandOne: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.casesCaseRule.CasesCaseRuleRuleHiddenConditionsNotEqualToOperandOne,
+	OperandTwo: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.casesCaseRule.CasesCaseRuleRuleHiddenConditionsNotEqualToOperandTwo,
 	Result: interface{},
 }
 ```
@@ -1452,7 +1452,7 @@ OperandOne CasesCaseRuleRuleHiddenConditionsNotEqualToOperandOne
 
 The left hand operand in the condition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_case_rule#operand_one CasesCaseRule#operand_one}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_case_rule#operand_one CasesCaseRule#operand_one}
 
 ---
 
@@ -1466,7 +1466,7 @@ OperandTwo CasesCaseRuleRuleHiddenConditionsNotEqualToOperandTwo
 
 The right hand operand in the condition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_case_rule#operand_two CasesCaseRule#operand_two}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_case_rule#operand_two CasesCaseRule#operand_two}
 
 ---
 
@@ -1480,7 +1480,7 @@ Result interface{}
 
 The value of the outer rule if the condition evaluates to true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_case_rule#result CasesCaseRule#result}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_case_rule#result CasesCaseRule#result}
 
 ---
 
@@ -1489,7 +1489,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.casesCaseRule.CasesCaseRuleRuleHiddenConditionsNotEqualToOperandOne.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/casescaserule"
 
 &casescaserule.CasesCaseRuleRuleHiddenConditionsNotEqualToOperandOne {
 	FieldId: *string,
@@ -1514,7 +1514,7 @@ FieldId *string
 
 The field ID this operand should take the value of.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_case_rule#field_id CasesCaseRule#field_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_case_rule#field_id CasesCaseRule#field_id}
 
 ---
 
@@ -1523,7 +1523,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.casesCaseRule.CasesCaseRuleRuleHiddenConditionsNotEqualToOperandTwo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/casescaserule"
 
 &casescaserule.CasesCaseRuleRuleHiddenConditionsNotEqualToOperandTwo {
 	BooleanValue: interface{},
@@ -1554,7 +1554,7 @@ BooleanValue interface{}
 
 A boolean value to compare against the field value in the condition evaluation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_case_rule#boolean_value CasesCaseRule#boolean_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_case_rule#boolean_value CasesCaseRule#boolean_value}
 
 ---
 
@@ -1568,7 +1568,7 @@ DoubleValue *f64
 
 A numeric value to compare against the field value in the condition evaluation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_case_rule#double_value CasesCaseRule#double_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_case_rule#double_value CasesCaseRule#double_value}
 
 ---
 
@@ -1582,7 +1582,7 @@ EmptyValue *string
 
 An empty operand value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_case_rule#empty_value CasesCaseRule#empty_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_case_rule#empty_value CasesCaseRule#empty_value}
 
 ---
 
@@ -1596,7 +1596,7 @@ StringValue *string
 
 A string value to compare against the field value in the condition evaluation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_case_rule#string_value CasesCaseRule#string_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_case_rule#string_value CasesCaseRule#string_value}
 
 ---
 
@@ -1605,7 +1605,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.casesCaseRule.CasesCaseRuleRuleRequired.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/casescaserule"
 
 &casescaserule.CasesCaseRuleRuleRequired {
 	Conditions: interface{},
@@ -1634,7 +1634,7 @@ An ordered list of boolean conditions that determine when the field should be re
 
 Conditions are evaluated in order, and the first condition that evaluates to true determines whether the field is required, overriding the default value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_case_rule#conditions CasesCaseRule#conditions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_case_rule#conditions CasesCaseRule#conditions}
 
 ---
 
@@ -1650,7 +1650,7 @@ The default required state for the field when none of the specified conditions a
 
 If true, the field is required by default; if false, the field is optional by default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_case_rule#default_value CasesCaseRule#default_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_case_rule#default_value CasesCaseRule#default_value}
 
 ---
 
@@ -1659,11 +1659,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.casesCaseRule.CasesCaseRuleRuleRequiredConditions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/casescaserule"
 
 &casescaserule.CasesCaseRuleRuleRequiredConditions {
-	EqualTo: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.casesCaseRule.CasesCaseRuleRuleRequiredConditionsEqualTo,
-	NotEqualTo: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.casesCaseRule.CasesCaseRuleRuleRequiredConditionsNotEqualTo,
+	EqualTo: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.casesCaseRule.CasesCaseRuleRuleRequiredConditionsEqualTo,
+	NotEqualTo: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.casesCaseRule.CasesCaseRuleRuleRequiredConditionsNotEqualTo,
 }
 ```
 
@@ -1686,7 +1686,7 @@ EqualTo CasesCaseRuleRuleRequiredConditionsEqualTo
 
 Boolean operands for a condition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_case_rule#equal_to CasesCaseRule#equal_to}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_case_rule#equal_to CasesCaseRule#equal_to}
 
 ---
 
@@ -1700,7 +1700,7 @@ NotEqualTo CasesCaseRuleRuleRequiredConditionsNotEqualTo
 
 Boolean operands for a condition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_case_rule#not_equal_to CasesCaseRule#not_equal_to}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_case_rule#not_equal_to CasesCaseRule#not_equal_to}
 
 ---
 
@@ -1709,11 +1709,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.casesCaseRule.CasesCaseRuleRuleRequiredConditionsEqualTo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/casescaserule"
 
 &casescaserule.CasesCaseRuleRuleRequiredConditionsEqualTo {
-	OperandOne: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.casesCaseRule.CasesCaseRuleRuleRequiredConditionsEqualToOperandOne,
-	OperandTwo: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.casesCaseRule.CasesCaseRuleRuleRequiredConditionsEqualToOperandTwo,
+	OperandOne: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.casesCaseRule.CasesCaseRuleRuleRequiredConditionsEqualToOperandOne,
+	OperandTwo: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.casesCaseRule.CasesCaseRuleRuleRequiredConditionsEqualToOperandTwo,
 	Result: interface{},
 }
 ```
@@ -1738,7 +1738,7 @@ OperandOne CasesCaseRuleRuleRequiredConditionsEqualToOperandOne
 
 The left hand operand in the condition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_case_rule#operand_one CasesCaseRule#operand_one}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_case_rule#operand_one CasesCaseRule#operand_one}
 
 ---
 
@@ -1752,7 +1752,7 @@ OperandTwo CasesCaseRuleRuleRequiredConditionsEqualToOperandTwo
 
 The right hand operand in the condition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_case_rule#operand_two CasesCaseRule#operand_two}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_case_rule#operand_two CasesCaseRule#operand_two}
 
 ---
 
@@ -1766,7 +1766,7 @@ Result interface{}
 
 The value of the outer rule if the condition evaluates to true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_case_rule#result CasesCaseRule#result}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_case_rule#result CasesCaseRule#result}
 
 ---
 
@@ -1775,7 +1775,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.casesCaseRule.CasesCaseRuleRuleRequiredConditionsEqualToOperandOne.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/casescaserule"
 
 &casescaserule.CasesCaseRuleRuleRequiredConditionsEqualToOperandOne {
 	FieldId: *string,
@@ -1800,7 +1800,7 @@ FieldId *string
 
 The field ID this operand should take the value of.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_case_rule#field_id CasesCaseRule#field_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_case_rule#field_id CasesCaseRule#field_id}
 
 ---
 
@@ -1809,7 +1809,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.casesCaseRule.CasesCaseRuleRuleRequiredConditionsEqualToOperandTwo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/casescaserule"
 
 &casescaserule.CasesCaseRuleRuleRequiredConditionsEqualToOperandTwo {
 	BooleanValue: interface{},
@@ -1840,7 +1840,7 @@ BooleanValue interface{}
 
 A boolean value to compare against the field value in the condition evaluation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_case_rule#boolean_value CasesCaseRule#boolean_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_case_rule#boolean_value CasesCaseRule#boolean_value}
 
 ---
 
@@ -1854,7 +1854,7 @@ DoubleValue *f64
 
 A numeric value to compare against the field value in the condition evaluation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_case_rule#double_value CasesCaseRule#double_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_case_rule#double_value CasesCaseRule#double_value}
 
 ---
 
@@ -1868,7 +1868,7 @@ EmptyValue *string
 
 An empty operand value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_case_rule#empty_value CasesCaseRule#empty_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_case_rule#empty_value CasesCaseRule#empty_value}
 
 ---
 
@@ -1882,7 +1882,7 @@ StringValue *string
 
 A string value to compare against the field value in the condition evaluation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_case_rule#string_value CasesCaseRule#string_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_case_rule#string_value CasesCaseRule#string_value}
 
 ---
 
@@ -1891,11 +1891,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.casesCaseRule.CasesCaseRuleRuleRequiredConditionsNotEqualTo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/casescaserule"
 
 &casescaserule.CasesCaseRuleRuleRequiredConditionsNotEqualTo {
-	OperandOne: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.casesCaseRule.CasesCaseRuleRuleRequiredConditionsNotEqualToOperandOne,
-	OperandTwo: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.casesCaseRule.CasesCaseRuleRuleRequiredConditionsNotEqualToOperandTwo,
+	OperandOne: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.casesCaseRule.CasesCaseRuleRuleRequiredConditionsNotEqualToOperandOne,
+	OperandTwo: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.casesCaseRule.CasesCaseRuleRuleRequiredConditionsNotEqualToOperandTwo,
 	Result: interface{},
 }
 ```
@@ -1920,7 +1920,7 @@ OperandOne CasesCaseRuleRuleRequiredConditionsNotEqualToOperandOne
 
 The left hand operand in the condition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_case_rule#operand_one CasesCaseRule#operand_one}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_case_rule#operand_one CasesCaseRule#operand_one}
 
 ---
 
@@ -1934,7 +1934,7 @@ OperandTwo CasesCaseRuleRuleRequiredConditionsNotEqualToOperandTwo
 
 The right hand operand in the condition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_case_rule#operand_two CasesCaseRule#operand_two}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_case_rule#operand_two CasesCaseRule#operand_two}
 
 ---
 
@@ -1948,7 +1948,7 @@ Result interface{}
 
 The value of the outer rule if the condition evaluates to true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_case_rule#result CasesCaseRule#result}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_case_rule#result CasesCaseRule#result}
 
 ---
 
@@ -1957,7 +1957,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.casesCaseRule.CasesCaseRuleRuleRequiredConditionsNotEqualToOperandOne.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/casescaserule"
 
 &casescaserule.CasesCaseRuleRuleRequiredConditionsNotEqualToOperandOne {
 	FieldId: *string,
@@ -1982,7 +1982,7 @@ FieldId *string
 
 The field ID this operand should take the value of.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_case_rule#field_id CasesCaseRule#field_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_case_rule#field_id CasesCaseRule#field_id}
 
 ---
 
@@ -1991,7 +1991,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.casesCaseRule.CasesCaseRuleRuleRequiredConditionsNotEqualToOperandTwo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/casescaserule"
 
 &casescaserule.CasesCaseRuleRuleRequiredConditionsNotEqualToOperandTwo {
 	BooleanValue: interface{},
@@ -2022,7 +2022,7 @@ BooleanValue interface{}
 
 A boolean value to compare against the field value in the condition evaluation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_case_rule#boolean_value CasesCaseRule#boolean_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_case_rule#boolean_value CasesCaseRule#boolean_value}
 
 ---
 
@@ -2036,7 +2036,7 @@ DoubleValue *f64
 
 A numeric value to compare against the field value in the condition evaluation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_case_rule#double_value CasesCaseRule#double_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_case_rule#double_value CasesCaseRule#double_value}
 
 ---
 
@@ -2050,7 +2050,7 @@ EmptyValue *string
 
 An empty operand value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_case_rule#empty_value CasesCaseRule#empty_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_case_rule#empty_value CasesCaseRule#empty_value}
 
 ---
 
@@ -2064,7 +2064,7 @@ StringValue *string
 
 A string value to compare against the field value in the condition evaluation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_case_rule#string_value CasesCaseRule#string_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_case_rule#string_value CasesCaseRule#string_value}
 
 ---
 
@@ -2073,7 +2073,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.casesCaseRule.CasesCaseRuleTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/casescaserule"
 
 &casescaserule.CasesCaseRuleTags {
 	Key: *string,
@@ -2102,7 +2102,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_case_rule#key CasesCaseRule#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_case_rule#key CasesCaseRule#key}
 
 ---
 
@@ -2118,7 +2118,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_case_rule#value CasesCaseRule#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_case_rule#value CasesCaseRule#value}
 
 ---
 
@@ -2129,7 +2129,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.casesCaseRule.CasesCaseRuleRuleHiddenConditionsEqualToOperandOneOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/casescaserule"
 
 casescaserule.NewCasesCaseRuleRuleHiddenConditionsEqualToOperandOneOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CasesCaseRuleRuleHiddenConditionsEqualToOperandOneOutputReference
 ```
@@ -2407,7 +2407,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.casesCaseRule.CasesCaseRuleRuleHiddenConditionsEqualToOperandTwoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/casescaserule"
 
 casescaserule.NewCasesCaseRuleRuleHiddenConditionsEqualToOperandTwoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CasesCaseRuleRuleHiddenConditionsEqualToOperandTwoOutputReference
 ```
@@ -2772,7 +2772,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.casesCaseRule.CasesCaseRuleRuleHiddenConditionsEqualToOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/casescaserule"
 
 casescaserule.NewCasesCaseRuleRuleHiddenConditionsEqualToOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CasesCaseRuleRuleHiddenConditionsEqualToOutputReference
 ```
@@ -3134,7 +3134,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.casesCaseRule.CasesCaseRuleRuleHiddenConditionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/casescaserule"
 
 casescaserule.NewCasesCaseRuleRuleHiddenConditionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CasesCaseRuleRuleHiddenConditionsList
 ```
@@ -3294,7 +3294,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.casesCaseRule.CasesCaseRuleRuleHiddenConditionsNotEqualToOperandOneOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/casescaserule"
 
 casescaserule.NewCasesCaseRuleRuleHiddenConditionsNotEqualToOperandOneOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CasesCaseRuleRuleHiddenConditionsNotEqualToOperandOneOutputReference
 ```
@@ -3572,7 +3572,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.casesCaseRule.CasesCaseRuleRuleHiddenConditionsNotEqualToOperandTwoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/casescaserule"
 
 casescaserule.NewCasesCaseRuleRuleHiddenConditionsNotEqualToOperandTwoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CasesCaseRuleRuleHiddenConditionsNotEqualToOperandTwoOutputReference
 ```
@@ -3937,7 +3937,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.casesCaseRule.CasesCaseRuleRuleHiddenConditionsNotEqualToOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/casescaserule"
 
 casescaserule.NewCasesCaseRuleRuleHiddenConditionsNotEqualToOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CasesCaseRuleRuleHiddenConditionsNotEqualToOutputReference
 ```
@@ -4299,7 +4299,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.casesCaseRule.CasesCaseRuleRuleHiddenConditionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/casescaserule"
 
 casescaserule.NewCasesCaseRuleRuleHiddenConditionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CasesCaseRuleRuleHiddenConditionsOutputReference
 ```
@@ -4650,7 +4650,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.casesCaseRule.CasesCaseRuleRuleHiddenOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/casescaserule"
 
 casescaserule.NewCasesCaseRuleRuleHiddenOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CasesCaseRuleRuleHiddenOutputReference
 ```
@@ -4970,7 +4970,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.casesCaseRule.CasesCaseRuleRuleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/casescaserule"
 
 casescaserule.NewCasesCaseRuleRuleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CasesCaseRuleRuleOutputReference
 ```
@@ -5303,7 +5303,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.casesCaseRule.CasesCaseRuleRuleRequiredConditionsEqualToOperandOneOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/casescaserule"
 
 casescaserule.NewCasesCaseRuleRuleRequiredConditionsEqualToOperandOneOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CasesCaseRuleRuleRequiredConditionsEqualToOperandOneOutputReference
 ```
@@ -5581,7 +5581,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.casesCaseRule.CasesCaseRuleRuleRequiredConditionsEqualToOperandTwoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/casescaserule"
 
 casescaserule.NewCasesCaseRuleRuleRequiredConditionsEqualToOperandTwoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CasesCaseRuleRuleRequiredConditionsEqualToOperandTwoOutputReference
 ```
@@ -5946,7 +5946,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.casesCaseRule.CasesCaseRuleRuleRequiredConditionsEqualToOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/casescaserule"
 
 casescaserule.NewCasesCaseRuleRuleRequiredConditionsEqualToOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CasesCaseRuleRuleRequiredConditionsEqualToOutputReference
 ```
@@ -6308,7 +6308,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.casesCaseRule.CasesCaseRuleRuleRequiredConditionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/casescaserule"
 
 casescaserule.NewCasesCaseRuleRuleRequiredConditionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CasesCaseRuleRuleRequiredConditionsList
 ```
@@ -6468,7 +6468,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.casesCaseRule.CasesCaseRuleRuleRequiredConditionsNotEqualToOperandOneOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/casescaserule"
 
 casescaserule.NewCasesCaseRuleRuleRequiredConditionsNotEqualToOperandOneOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CasesCaseRuleRuleRequiredConditionsNotEqualToOperandOneOutputReference
 ```
@@ -6746,7 +6746,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.casesCaseRule.CasesCaseRuleRuleRequiredConditionsNotEqualToOperandTwoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/casescaserule"
 
 casescaserule.NewCasesCaseRuleRuleRequiredConditionsNotEqualToOperandTwoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CasesCaseRuleRuleRequiredConditionsNotEqualToOperandTwoOutputReference
 ```
@@ -7111,7 +7111,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.casesCaseRule.CasesCaseRuleRuleRequiredConditionsNotEqualToOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/casescaserule"
 
 casescaserule.NewCasesCaseRuleRuleRequiredConditionsNotEqualToOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CasesCaseRuleRuleRequiredConditionsNotEqualToOutputReference
 ```
@@ -7473,7 +7473,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.casesCaseRule.CasesCaseRuleRuleRequiredConditionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/casescaserule"
 
 casescaserule.NewCasesCaseRuleRuleRequiredConditionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CasesCaseRuleRuleRequiredConditionsOutputReference
 ```
@@ -7824,7 +7824,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.casesCaseRule.CasesCaseRuleRuleRequiredOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/casescaserule"
 
 casescaserule.NewCasesCaseRuleRuleRequiredOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CasesCaseRuleRuleRequiredOutputReference
 ```
@@ -8144,7 +8144,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.casesCaseRule.CasesCaseRuleTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/casescaserule"
 
 casescaserule.NewCasesCaseRuleTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CasesCaseRuleTagsList
 ```
@@ -8304,7 +8304,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.casesCaseRule.CasesCaseRuleTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/casescaserule"
 
 casescaserule.NewCasesCaseRuleTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CasesCaseRuleTagsOutputReference
 ```

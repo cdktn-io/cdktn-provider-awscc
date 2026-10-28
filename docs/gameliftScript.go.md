@@ -4,12 +4,12 @@
 
 ### GameliftScript <a name="GameliftScript" id="@cdktn/provider-awscc.gameliftScript.GameliftScript"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/gamelift_script awscc_gamelift_script}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/gamelift_script awscc_gamelift_script}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.gameliftScript.GameliftScript.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gameliftscript"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gameliftscript"
 
 gameliftscript.NewGameliftScript(scope Construct, id *string, config GameliftScriptConfig) GameliftScript
 ```
@@ -454,7 +454,7 @@ func ResetVersion()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.gameliftScript.GameliftScript.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gameliftscript"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gameliftscript"
 
 gameliftscript.GameliftScript_IsConstruct(x interface{}) *bool
 ```
@@ -486,7 +486,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.gameliftScript.GameliftScript.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gameliftscript"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gameliftscript"
 
 gameliftscript.GameliftScript_IsTerraformElement(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ gameliftscript.GameliftScript_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.gameliftScript.GameliftScript.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gameliftscript"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gameliftscript"
 
 gameliftscript.GameliftScript_IsTerraformResource(x interface{}) *bool
 ```
@@ -514,7 +514,7 @@ gameliftscript.GameliftScript_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.gameliftScript.GameliftScript.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gameliftscript"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gameliftscript"
 
 gameliftscript.GameliftScript_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -543,7 +543,7 @@ The construct id used in the generated config for the GameliftScript to import.
 
 The id of the existing GameliftScript that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/gamelift_script#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/gamelift_script#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -908,7 +908,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.gameliftScript.GameliftScriptConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gameliftscript"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gameliftscript"
 
 &gameliftscript.GameliftScriptConfig {
 	Connection: interface{},
@@ -918,7 +918,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gameliftscript"
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	StorageLocation: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.gameliftScript.GameliftScriptStorageLocation,
+	StorageLocation: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.gameliftScript.GameliftScriptStorageLocation,
 	Name: *string,
 	NodeJsVersion: *string,
 	Tags: interface{},
@@ -1027,7 +1027,7 @@ The location of the Amazon S3 bucket where a zipped file containing your Realtim
 
 The storage location must specify the Amazon S3 bucket name, the zip file name (the "key"), and a role ARN that allows Amazon GameLift to access the Amazon S3 storage location. The S3 bucket must be in the same Region where you want to create a new script. By default, Amazon GameLift uploads the latest version of the zip file; if you have S3 object versioning turned on, you can use the ObjectVersion parameter to specify an earlier version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/gamelift_script#storage_location GameliftScript#storage_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/gamelift_script#storage_location GameliftScript#storage_location}
 
 ---
 
@@ -1041,7 +1041,7 @@ Name *string
 
 A descriptive label that is associated with a script. Script names do not need to be unique.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/gamelift_script#name GameliftScript#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/gamelift_script#name GameliftScript#name}
 
 ---
 
@@ -1055,7 +1055,7 @@ NodeJsVersion *string
 
 The Node.js version used for execution of the Realtime script.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/gamelift_script#node_js_version GameliftScript#node_js_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/gamelift_script#node_js_version GameliftScript#node_js_version}
 
 ---
 
@@ -1069,7 +1069,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/gamelift_script#tags GameliftScript#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/gamelift_script#tags GameliftScript#tags}
 
 ---
 
@@ -1083,7 +1083,7 @@ Version *string
 
 The version that is associated with a script. Version strings do not need to be unique.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/gamelift_script#version GameliftScript#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/gamelift_script#version GameliftScript#version}
 
 ---
 
@@ -1092,7 +1092,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.gameliftScript.GameliftScriptStorageLocation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gameliftscript"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gameliftscript"
 
 &gameliftscript.GameliftScriptStorageLocation {
 	Bucket: *string,
@@ -1123,7 +1123,7 @@ Bucket *string
 
 An Amazon S3 bucket identifier. This is the name of the S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/gamelift_script#bucket GameliftScript#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/gamelift_script#bucket GameliftScript#bucket}
 
 ---
 
@@ -1137,7 +1137,7 @@ Key *string
 
 The name of the zip file that contains the script files.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/gamelift_script#key GameliftScript#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/gamelift_script#key GameliftScript#key}
 
 ---
 
@@ -1151,7 +1151,7 @@ RoleArn *string
 
 The Amazon Resource Name (ARN) for an IAM role that allows Amazon GameLift to access the S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/gamelift_script#role_arn GameliftScript#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/gamelift_script#role_arn GameliftScript#role_arn}
 
 ---
 
@@ -1167,7 +1167,7 @@ The version of the file, if object versioning is turned on for the bucket.
 
 Amazon GameLift uses this information when retrieving files from your S3 bucket. To retrieve a specific version of the file, provide an object version. To retrieve the latest version of the file, do not set this parameter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/gamelift_script#object_version GameliftScript#object_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/gamelift_script#object_version GameliftScript#object_version}
 
 ---
 
@@ -1176,7 +1176,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.gameliftScript.GameliftScriptTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gameliftscript"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gameliftscript"
 
 &gameliftscript.GameliftScriptTags {
 	Key: *string,
@@ -1205,7 +1205,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/gamelift_script#key GameliftScript#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/gamelift_script#key GameliftScript#key}
 
 ---
 
@@ -1219,7 +1219,7 @@ Value *string
 
 The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/gamelift_script#value GameliftScript#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/gamelift_script#value GameliftScript#value}
 
 ---
 
@@ -1230,7 +1230,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.gameliftScript.GameliftScriptStorageLocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gameliftscript"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gameliftscript"
 
 gameliftscript.NewGameliftScriptStorageLocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GameliftScriptStorageLocationOutputReference
 ```
@@ -1574,7 +1574,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.gameliftScript.GameliftScriptTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gameliftscript"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gameliftscript"
 
 gameliftscript.NewGameliftScriptTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GameliftScriptTagsList
 ```
@@ -1734,7 +1734,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.gameliftScript.GameliftScriptTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gameliftscript"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gameliftscript"
 
 gameliftscript.NewGameliftScriptTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GameliftScriptTagsOutputReference
 ```

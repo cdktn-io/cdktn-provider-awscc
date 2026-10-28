@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2Volume <a name="DataAwsccEc2Volume" id="@cdktn/provider-awscc.dataAwsccEc2Volume.DataAwsccEc2Volume"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_volume awscc_ec2_volume}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_volume awscc_ec2_volume}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2Volume.DataAwsccEc2Volume.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2volume"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2volume"
 
 dataawsccec2volume.NewDataAwsccEc2Volume(scope Construct, id *string, config DataAwsccEc2VolumeConfig) DataAwsccEc2Volume
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2Volume.DataAwsccEc2Volume.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2volume"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2volume"
 
 dataawsccec2volume.DataAwsccEc2Volume_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2Volume.DataAwsccEc2Volume.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2volume"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2volume"
 
 dataawsccec2volume.DataAwsccEc2Volume_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2volume.DataAwsccEc2Volume_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2Volume.DataAwsccEc2Volume.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2volume"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2volume"
 
 dataawsccec2volume.DataAwsccEc2Volume_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2volume.DataAwsccEc2Volume_IsTerraformDataSource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2Volume.DataAwsccEc2Volume.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2volume"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2volume"
 
 dataawsccec2volume.DataAwsccEc2Volume_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2Volume to impo
 
 The id of the existing DataAwsccEc2Volume that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_volume#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_volume#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -763,7 +763,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2Volume.DataAwsccEc2VolumeConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2volume"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2volume"
 
 &dataawsccec2volume.DataAwsccEc2VolumeConfig {
 	Connection: interface{},
@@ -872,7 +872,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_volume#id DataAwsccEc2Volume#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_volume#id DataAwsccEc2Volume#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -884,7 +884,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2Volume.DataAwsccEc2VolumeTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2volume"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2volume"
 
 &dataawsccec2volume.DataAwsccEc2VolumeTags {
 
@@ -899,7 +899,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2volume"
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2Volume.DataAwsccEc2VolumeTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2volume"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2volume"
 
 dataawsccec2volume.NewDataAwsccEc2VolumeTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEc2VolumeTagsList
 ```
@@ -1048,7 +1048,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2Volume.DataAwsccEc2VolumeTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2volume"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2volume"
 
 dataawsccec2volume.NewDataAwsccEc2VolumeTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEc2VolumeTagsOutputReference
 ```

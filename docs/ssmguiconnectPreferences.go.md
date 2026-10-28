@@ -4,12 +4,12 @@
 
 ### SsmguiconnectPreferences <a name="SsmguiconnectPreferences" id="@cdktn/provider-awscc.ssmguiconnectPreferences.SsmguiconnectPreferences"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssmguiconnect_preferences awscc_ssmguiconnect_preferences}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssmguiconnect_preferences awscc_ssmguiconnect_preferences}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssmguiconnectPreferences.SsmguiconnectPreferences.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmguiconnectpreferences"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmguiconnectpreferences"
 
 ssmguiconnectpreferences.NewSsmguiconnectPreferences(scope Construct, id *string, config SsmguiconnectPreferencesConfig) SsmguiconnectPreferences
 ```
@@ -420,7 +420,7 @@ func ResetConnectionRecordingPreferences()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.ssmguiconnectPreferences.SsmguiconnectPreferences.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmguiconnectpreferences"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmguiconnectpreferences"
 
 ssmguiconnectpreferences.SsmguiconnectPreferences_IsConstruct(x interface{}) *bool
 ```
@@ -452,7 +452,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.ssmguiconnectPreferences.SsmguiconnectPreferences.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmguiconnectpreferences"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmguiconnectpreferences"
 
 ssmguiconnectpreferences.SsmguiconnectPreferences_IsTerraformElement(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ ssmguiconnectpreferences.SsmguiconnectPreferences_IsTerraformElement(x interface
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.ssmguiconnectPreferences.SsmguiconnectPreferences.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmguiconnectpreferences"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmguiconnectpreferences"
 
 ssmguiconnectpreferences.SsmguiconnectPreferences_IsTerraformResource(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ ssmguiconnectpreferences.SsmguiconnectPreferences_IsTerraformResource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.ssmguiconnectPreferences.SsmguiconnectPreferences.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmguiconnectpreferences"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmguiconnectpreferences"
 
 ssmguiconnectpreferences.SsmguiconnectPreferences_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -509,7 +509,7 @@ The construct id used in the generated config for the SsmguiconnectPreferences t
 
 The id of the existing SsmguiconnectPreferences that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssmguiconnect_preferences#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssmguiconnect_preferences#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -753,7 +753,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ssmguiconnectPreferences.SsmguiconnectPreferencesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmguiconnectpreferences"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmguiconnectpreferences"
 
 &ssmguiconnectpreferences.SsmguiconnectPreferencesConfig {
 	Connection: interface{},
@@ -763,7 +763,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmguiconnectpreferenc
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	ConnectionRecordingPreferences: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ssmguiconnectPreferences.SsmguiconnectPreferencesConnectionRecordingPreferences,
+	ConnectionRecordingPreferences: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ssmguiconnectPreferences.SsmguiconnectPreferencesConnectionRecordingPreferences,
 }
 ```
 
@@ -864,7 +864,7 @@ The set of preferences used for recording RDP connections in the requesting AWS 
 
 This includes details such as which S3 bucket recordings are stored in.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssmguiconnect_preferences#connection_recording_preferences SsmguiconnectPreferences#connection_recording_preferences}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssmguiconnect_preferences#connection_recording_preferences SsmguiconnectPreferences#connection_recording_preferences}
 
 ---
 
@@ -873,11 +873,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ssmguiconnectPreferences.SsmguiconnectPreferencesConnectionRecordingPreferences.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmguiconnectpreferences"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmguiconnectpreferences"
 
 &ssmguiconnectpreferences.SsmguiconnectPreferencesConnectionRecordingPreferences {
 	KmsKeyArn: *string,
-	RecordingDestinations: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ssmguiconnectPreferences.SsmguiconnectPreferencesConnectionRecordingPreferencesRecordingDestinations,
+	RecordingDestinations: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ssmguiconnectPreferences.SsmguiconnectPreferencesConnectionRecordingPreferencesRecordingDestinations,
 }
 ```
 
@@ -902,7 +902,7 @@ The ARN of a AWS KMS key that is used to encrypt data while it is being processe
 
 This key must exist in the same AWS Region as the node you start an RDP connection to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssmguiconnect_preferences#kms_key_arn SsmguiconnectPreferences#kms_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssmguiconnect_preferences#kms_key_arn SsmguiconnectPreferences#kms_key_arn}
 
 ---
 
@@ -916,7 +916,7 @@ RecordingDestinations SsmguiconnectPreferencesConnectionRecordingPreferencesReco
 
 Determines where recordings of RDP connections are stored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssmguiconnect_preferences#recording_destinations SsmguiconnectPreferences#recording_destinations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssmguiconnect_preferences#recording_destinations SsmguiconnectPreferences#recording_destinations}
 
 ---
 
@@ -925,7 +925,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ssmguiconnectPreferences.SsmguiconnectPreferencesConnectionRecordingPreferencesRecordingDestinations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmguiconnectpreferences"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmguiconnectpreferences"
 
 &ssmguiconnectpreferences.SsmguiconnectPreferencesConnectionRecordingPreferencesRecordingDestinations {
 	S3Buckets: interface{},
@@ -950,7 +950,7 @@ S3Buckets interface{}
 
 The S3 bucket where RDP connection recordings are stored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssmguiconnect_preferences#s3_buckets SsmguiconnectPreferences#s3_buckets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssmguiconnect_preferences#s3_buckets SsmguiconnectPreferences#s3_buckets}
 
 ---
 
@@ -959,7 +959,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ssmguiconnectPreferences.SsmguiconnectPreferencesConnectionRecordingPreferencesRecordingDestinationsS3Buckets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmguiconnectpreferences"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmguiconnectpreferences"
 
 &ssmguiconnectpreferences.SsmguiconnectPreferencesConnectionRecordingPreferencesRecordingDestinationsS3Buckets {
 	BucketName: *string,
@@ -986,7 +986,7 @@ BucketName *string
 
 The name of the S3 bucket where RDP connection recordings are stored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssmguiconnect_preferences#bucket_name SsmguiconnectPreferences#bucket_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssmguiconnect_preferences#bucket_name SsmguiconnectPreferences#bucket_name}
 
 ---
 
@@ -1000,7 +1000,7 @@ BucketOwner *string
 
 The AWS account number that owns the S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssmguiconnect_preferences#bucket_owner SsmguiconnectPreferences#bucket_owner}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssmguiconnect_preferences#bucket_owner SsmguiconnectPreferences#bucket_owner}
 
 ---
 
@@ -1011,7 +1011,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssmguiconnectPreferences.SsmguiconnectPreferencesConnectionRecordingPreferencesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmguiconnectpreferences"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmguiconnectpreferences"
 
 ssmguiconnectpreferences.NewSsmguiconnectPreferencesConnectionRecordingPreferencesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SsmguiconnectPreferencesConnectionRecordingPreferencesOutputReference
 ```
@@ -1331,7 +1331,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssmguiconnectPreferences.SsmguiconnectPreferencesConnectionRecordingPreferencesRecordingDestinationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmguiconnectpreferences"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmguiconnectpreferences"
 
 ssmguiconnectpreferences.NewSsmguiconnectPreferencesConnectionRecordingPreferencesRecordingDestinationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SsmguiconnectPreferencesConnectionRecordingPreferencesRecordingDestinationsOutputReference
 ```
@@ -1622,7 +1622,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssmguiconnectPreferences.SsmguiconnectPreferencesConnectionRecordingPreferencesRecordingDestinationsS3BucketsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmguiconnectpreferences"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmguiconnectpreferences"
 
 ssmguiconnectpreferences.NewSsmguiconnectPreferencesConnectionRecordingPreferencesRecordingDestinationsS3BucketsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SsmguiconnectPreferencesConnectionRecordingPreferencesRecordingDestinationsS3BucketsList
 ```
@@ -1782,7 +1782,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssmguiconnectPreferences.SsmguiconnectPreferencesConnectionRecordingPreferencesRecordingDestinationsS3BucketsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmguiconnectpreferences"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmguiconnectpreferences"
 
 ssmguiconnectpreferences.NewSsmguiconnectPreferencesConnectionRecordingPreferencesRecordingDestinationsS3BucketsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SsmguiconnectPreferencesConnectionRecordingPreferencesRecordingDestinationsS3BucketsOutputReference
 ```

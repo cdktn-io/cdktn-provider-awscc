@@ -4,12 +4,12 @@
 
 ### DataAwsccSagemakerModelExplainabilityJobDefinitions <a name="DataAwsccSagemakerModelExplainabilityJobDefinitions" id="@cdktn/provider-awscc.dataAwsccSagemakerModelExplainabilityJobDefinitions.DataAwsccSagemakerModelExplainabilityJobDefinitions"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_model_explainability_job_definitions awscc_sagemaker_model_explainability_job_definitions}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_model_explainability_job_definitions awscc_sagemaker_model_explainability_job_definitions}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelExplainabilityJobDefinitions.DataAwsccSagemakerModelExplainabilityJobDefinitions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelexplainabilityjobdefinitions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelexplainabilityjobdefinitions"
 
 dataawsccsagemakermodelexplainabilityjobdefinitions.NewDataAwsccSagemakerModelExplainabilityJobDefinitions(scope Construct, id *string, config DataAwsccSagemakerModelExplainabilityJobDefinitionsConfig) DataAwsccSagemakerModelExplainabilityJobDefinitions
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSagemakerModelExplainabilityJobDefinitions.DataAwsccSagemakerModelExplainabilityJobDefinitions.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelexplainabilityjobdefinitions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelexplainabilityjobdefinitions"
 
 dataawsccsagemakermodelexplainabilityjobdefinitions.DataAwsccSagemakerModelExplainabilityJobDefinitions_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSagemakerModelExplainabilityJobDefinitions.DataAwsccSagemakerModelExplainabilityJobDefinitions.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelexplainabilityjobdefinitions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelexplainabilityjobdefinitions"
 
 dataawsccsagemakermodelexplainabilityjobdefinitions.DataAwsccSagemakerModelExplainabilityJobDefinitions_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsagemakermodelexplainabilityjobdefinitions.DataAwsccSagemakerModelExpla
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSagemakerModelExplainabilityJobDefinitions.DataAwsccSagemakerModelExplainabilityJobDefinitions.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelexplainabilityjobdefinitions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelexplainabilityjobdefinitions"
 
 dataawsccsagemakermodelexplainabilityjobdefinitions.DataAwsccSagemakerModelExplainabilityJobDefinitions_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsagemakermodelexplainabilityjobdefinitions.DataAwsccSagemakerModelExpla
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSagemakerModelExplainabilityJobDefinitions.DataAwsccSagemakerModelExplainabilityJobDefinitions.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelexplainabilityjobdefinitions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelexplainabilityjobdefinitions"
 
 dataawsccsagemakermodelexplainabilityjobdefinitions.DataAwsccSagemakerModelExplainabilityJobDefinitions_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSagemakerModelExp
 
 The id of the existing DataAwsccSagemakerModelExplainabilityJobDefinitions that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_model_explainability_job_definitions#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_model_explainability_job_definitions#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelExplainabilityJobDefinitions.DataAwsccSagemakerModelExplainabilityJobDefinitionsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelexplainabilityjobdefinitions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelexplainabilityjobdefinitions"
 
 &dataawsccsagemakermodelexplainabilityjobdefinitions.DataAwsccSagemakerModelExplainabilityJobDefinitionsConfig {
 	Connection: interface{},

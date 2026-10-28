@@ -4,12 +4,12 @@
 
 ### NeptuneGlobalCluster <a name="NeptuneGlobalCluster" id="@cdktn/provider-awscc.neptuneGlobalCluster.NeptuneGlobalCluster"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/neptune_global_cluster awscc_neptune_global_cluster}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/neptune_global_cluster awscc_neptune_global_cluster}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.neptuneGlobalCluster.NeptuneGlobalCluster.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/neptuneglobalcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/neptuneglobalcluster"
 
 neptuneglobalcluster.NewNeptuneGlobalCluster(scope Construct, id *string, config NeptuneGlobalClusterConfig) NeptuneGlobalCluster
 ```
@@ -462,7 +462,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.neptuneGlobalCluster.NeptuneGlobalCluster.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/neptuneglobalcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/neptuneglobalcluster"
 
 neptuneglobalcluster.NeptuneGlobalCluster_IsConstruct(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.neptuneGlobalCluster.NeptuneGlobalCluster.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/neptuneglobalcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/neptuneglobalcluster"
 
 neptuneglobalcluster.NeptuneGlobalCluster_IsTerraformElement(x interface{}) *bool
 ```
@@ -508,7 +508,7 @@ neptuneglobalcluster.NeptuneGlobalCluster_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.neptuneGlobalCluster.NeptuneGlobalCluster.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/neptuneglobalcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/neptuneglobalcluster"
 
 neptuneglobalcluster.NeptuneGlobalCluster_IsTerraformResource(x interface{}) *bool
 ```
@@ -522,7 +522,7 @@ neptuneglobalcluster.NeptuneGlobalCluster_IsTerraformResource(x interface{}) *bo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.neptuneGlobalCluster.NeptuneGlobalCluster.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/neptuneglobalcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/neptuneglobalcluster"
 
 neptuneglobalcluster.NeptuneGlobalCluster_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -551,7 +551,7 @@ The construct id used in the generated config for the NeptuneGlobalCluster to im
 
 The id of the existing NeptuneGlobalCluster that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/neptune_global_cluster#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/neptune_global_cluster#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -916,7 +916,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.neptuneGlobalCluster.NeptuneGlobalClusterConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/neptuneglobalcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/neptuneglobalcluster"
 
 &neptuneglobalcluster.NeptuneGlobalClusterConfig {
 	Connection: interface{},
@@ -1037,7 +1037,7 @@ DeletionProtection interface{}
 
 Whether deletion protection is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/neptune_global_cluster#deletion_protection NeptuneGlobalCluster#deletion_protection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/neptune_global_cluster#deletion_protection NeptuneGlobalCluster#deletion_protection}
 
 ---
 
@@ -1051,7 +1051,7 @@ Engine *string
 
 The name of the database engine.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/neptune_global_cluster#engine NeptuneGlobalCluster#engine}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/neptune_global_cluster#engine NeptuneGlobalCluster#engine}
 
 ---
 
@@ -1065,7 +1065,7 @@ EngineVersion *string
 
 The version number of the database engine.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/neptune_global_cluster#engine_version NeptuneGlobalCluster#engine_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/neptune_global_cluster#engine_version NeptuneGlobalCluster#engine_version}
 
 ---
 
@@ -1079,7 +1079,7 @@ GlobalClusterIdentifier *string
 
 The cluster identifier of the global database cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/neptune_global_cluster#global_cluster_identifier NeptuneGlobalCluster#global_cluster_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/neptune_global_cluster#global_cluster_identifier NeptuneGlobalCluster#global_cluster_identifier}
 
 ---
 
@@ -1093,7 +1093,7 @@ SourceDbClusterIdentifier *string
 
 The Amazon Resource Name (ARN) of an existing Neptune DB cluster to use as the primary cluster of the new global database.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/neptune_global_cluster#source_db_cluster_identifier NeptuneGlobalCluster#source_db_cluster_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/neptune_global_cluster#source_db_cluster_identifier NeptuneGlobalCluster#source_db_cluster_identifier}
 
 ---
 
@@ -1107,7 +1107,7 @@ StorageEncrypted interface{}
 
 Whether the global database cluster is storage encrypted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/neptune_global_cluster#storage_encrypted NeptuneGlobalCluster#storage_encrypted}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/neptune_global_cluster#storage_encrypted NeptuneGlobalCluster#storage_encrypted}
 
 ---
 
@@ -1121,7 +1121,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/neptune_global_cluster#tags NeptuneGlobalCluster#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/neptune_global_cluster#tags NeptuneGlobalCluster#tags}
 
 ---
 
@@ -1130,7 +1130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.neptuneGlobalCluster.NeptuneGlobalClusterTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/neptuneglobalcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/neptuneglobalcluster"
 
 &neptuneglobalcluster.NeptuneGlobalClusterTags {
 	Key: *string,
@@ -1159,7 +1159,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/neptune_global_cluster#key NeptuneGlobalCluster#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/neptune_global_cluster#key NeptuneGlobalCluster#key}
 
 ---
 
@@ -1175,7 +1175,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/neptune_global_cluster#value NeptuneGlobalCluster#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/neptune_global_cluster#value NeptuneGlobalCluster#value}
 
 ---
 
@@ -1186,7 +1186,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.neptuneGlobalCluster.NeptuneGlobalClusterTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/neptuneglobalcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/neptuneglobalcluster"
 
 neptuneglobalcluster.NewNeptuneGlobalClusterTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) NeptuneGlobalClusterTagsList
 ```
@@ -1346,7 +1346,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.neptuneGlobalCluster.NeptuneGlobalClusterTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/neptuneglobalcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/neptuneglobalcluster"
 
 neptuneglobalcluster.NewNeptuneGlobalClusterTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) NeptuneGlobalClusterTagsOutputReference
 ```

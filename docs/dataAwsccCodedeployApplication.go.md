@@ -4,12 +4,12 @@
 
 ### DataAwsccCodedeployApplication <a name="DataAwsccCodedeployApplication" id="@cdktn/provider-awscc.dataAwsccCodedeployApplication.DataAwsccCodedeployApplication"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/codedeploy_application awscc_codedeploy_application}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/codedeploy_application awscc_codedeploy_application}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodedeployApplication.DataAwsccCodedeployApplication.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeployapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeployapplication"
 
 dataawscccodedeployapplication.NewDataAwsccCodedeployApplication(scope Construct, id *string, config DataAwsccCodedeployApplicationConfig) DataAwsccCodedeployApplication
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCodedeployApplication.DataAwsccCodedeployApplication.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeployapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeployapplication"
 
 dataawscccodedeployapplication.DataAwsccCodedeployApplication_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCodedeployApplication.DataAwsccCodedeployApplication.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeployapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeployapplication"
 
 dataawscccodedeployapplication.DataAwsccCodedeployApplication_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccodedeployapplication.DataAwsccCodedeployApplication_IsTerraformElement
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCodedeployApplication.DataAwsccCodedeployApplication.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeployapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeployapplication"
 
 dataawscccodedeployapplication.DataAwsccCodedeployApplication_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccodedeployapplication.DataAwsccCodedeployApplication_IsTerraformDataSou
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCodedeployApplication.DataAwsccCodedeployApplication.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeployapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeployapplication"
 
 dataawscccodedeployapplication.DataAwsccCodedeployApplication_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCodedeployApplica
 
 The id of the existing DataAwsccCodedeployApplication that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/codedeploy_application#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/codedeploy_application#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -620,7 +620,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodedeployApplication.DataAwsccCodedeployApplicationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeployapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeployapplication"
 
 &dataawscccodedeployapplication.DataAwsccCodedeployApplicationConfig {
 	Connection: interface{},
@@ -729,7 +729,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/codedeploy_application#id DataAwsccCodedeployApplication#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/codedeploy_application#id DataAwsccCodedeployApplication#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -741,7 +741,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodedeployApplication.DataAwsccCodedeployApplicationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeployapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeployapplication"
 
 &dataawscccodedeployapplication.DataAwsccCodedeployApplicationTags {
 
@@ -756,7 +756,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeployapp
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodedeployApplication.DataAwsccCodedeployApplicationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeployapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeployapplication"
 
 dataawscccodedeployapplication.NewDataAwsccCodedeployApplicationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCodedeployApplicationTagsList
 ```
@@ -905,7 +905,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodedeployApplication.DataAwsccCodedeployApplicationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeployapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeployapplication"
 
 dataawscccodedeployapplication.NewDataAwsccCodedeployApplicationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCodedeployApplicationTagsOutputReference
 ```

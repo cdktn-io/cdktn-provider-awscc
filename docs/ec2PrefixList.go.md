@@ -4,12 +4,12 @@
 
 ### Ec2PrefixList <a name="Ec2PrefixList" id="@cdktn/provider-awscc.ec2PrefixList.Ec2PrefixList"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_prefix_list awscc_ec2_prefix_list}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_prefix_list awscc_ec2_prefix_list}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2PrefixList.Ec2PrefixList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2prefixlist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2prefixlist"
 
 ec2prefixlist.NewEc2PrefixList(scope Construct, id *string, config Ec2PrefixListConfig) Ec2PrefixList
 ```
@@ -447,7 +447,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.ec2PrefixList.Ec2PrefixList.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2prefixlist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2prefixlist"
 
 ec2prefixlist.Ec2PrefixList_IsConstruct(x interface{}) *bool
 ```
@@ -479,7 +479,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.ec2PrefixList.Ec2PrefixList.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2prefixlist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2prefixlist"
 
 ec2prefixlist.Ec2PrefixList_IsTerraformElement(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ ec2prefixlist.Ec2PrefixList_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.ec2PrefixList.Ec2PrefixList.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2prefixlist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2prefixlist"
 
 ec2prefixlist.Ec2PrefixList_IsTerraformResource(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ ec2prefixlist.Ec2PrefixList_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.ec2PrefixList.Ec2PrefixList.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2prefixlist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2prefixlist"
 
 ec2prefixlist.Ec2PrefixList_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -536,7 +536,7 @@ The construct id used in the generated config for the Ec2PrefixList to import.
 
 The id of the existing Ec2PrefixList that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_prefix_list#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_prefix_list#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -901,7 +901,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2PrefixList.Ec2PrefixListConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2prefixlist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2prefixlist"
 
 &ec2prefixlist.Ec2PrefixListConfig {
 	Connection: interface{},
@@ -1018,7 +1018,7 @@ AddressFamily *string
 
 Ip Version of Prefix List.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_prefix_list#address_family Ec2PrefixList#address_family}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_prefix_list#address_family Ec2PrefixList#address_family}
 
 ---
 
@@ -1032,7 +1032,7 @@ PrefixListName *string
 
 Name of Prefix List.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_prefix_list#prefix_list_name Ec2PrefixList#prefix_list_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_prefix_list#prefix_list_name Ec2PrefixList#prefix_list_name}
 
 ---
 
@@ -1046,7 +1046,7 @@ Entries interface{}
 
 Entries of Prefix List.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_prefix_list#entries Ec2PrefixList#entries}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_prefix_list#entries Ec2PrefixList#entries}
 
 ---
 
@@ -1060,7 +1060,7 @@ MaxEntries *f64
 
 Max Entries of Prefix List.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_prefix_list#max_entries Ec2PrefixList#max_entries}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_prefix_list#max_entries Ec2PrefixList#max_entries}
 
 ---
 
@@ -1074,7 +1074,7 @@ Tags interface{}
 
 Tags for Prefix List.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_prefix_list#tags Ec2PrefixList#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_prefix_list#tags Ec2PrefixList#tags}
 
 ---
 
@@ -1083,7 +1083,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2PrefixList.Ec2PrefixListEntries.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2prefixlist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2prefixlist"
 
 &ec2prefixlist.Ec2PrefixListEntries {
 	Cidr: *string,
@@ -1095,8 +1095,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2prefixlist"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2PrefixList.Ec2PrefixListEntries.property.cidr">Cidr</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_prefix_list#cidr Ec2PrefixList#cidr}. |
-| <code><a href="#@cdktn/provider-awscc.ec2PrefixList.Ec2PrefixListEntries.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_prefix_list#description Ec2PrefixList#description}. |
+| <code><a href="#@cdktn/provider-awscc.ec2PrefixList.Ec2PrefixListEntries.property.cidr">Cidr</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_prefix_list#cidr Ec2PrefixList#cidr}. |
+| <code><a href="#@cdktn/provider-awscc.ec2PrefixList.Ec2PrefixListEntries.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_prefix_list#description Ec2PrefixList#description}. |
 
 ---
 
@@ -1108,7 +1108,7 @@ Cidr *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_prefix_list#cidr Ec2PrefixList#cidr}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_prefix_list#cidr Ec2PrefixList#cidr}.
 
 ---
 
@@ -1120,7 +1120,7 @@ Description *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_prefix_list#description Ec2PrefixList#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_prefix_list#description Ec2PrefixList#description}.
 
 ---
 
@@ -1129,7 +1129,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2PrefixList.Ec2PrefixListTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2prefixlist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2prefixlist"
 
 &ec2prefixlist.Ec2PrefixListTags {
 	Key: *string,
@@ -1141,8 +1141,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2prefixlist"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2PrefixList.Ec2PrefixListTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_prefix_list#key Ec2PrefixList#key}. |
-| <code><a href="#@cdktn/provider-awscc.ec2PrefixList.Ec2PrefixListTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_prefix_list#value Ec2PrefixList#value}. |
+| <code><a href="#@cdktn/provider-awscc.ec2PrefixList.Ec2PrefixListTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_prefix_list#key Ec2PrefixList#key}. |
+| <code><a href="#@cdktn/provider-awscc.ec2PrefixList.Ec2PrefixListTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_prefix_list#value Ec2PrefixList#value}. |
 
 ---
 
@@ -1154,7 +1154,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_prefix_list#key Ec2PrefixList#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_prefix_list#key Ec2PrefixList#key}.
 
 ---
 
@@ -1166,7 +1166,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_prefix_list#value Ec2PrefixList#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_prefix_list#value Ec2PrefixList#value}.
 
 ---
 
@@ -1177,7 +1177,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2PrefixList.Ec2PrefixListEntriesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2prefixlist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2prefixlist"
 
 ec2prefixlist.NewEc2PrefixListEntriesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Ec2PrefixListEntriesList
 ```
@@ -1337,7 +1337,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2PrefixList.Ec2PrefixListEntriesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2prefixlist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2prefixlist"
 
 ec2prefixlist.NewEc2PrefixListEntriesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) Ec2PrefixListEntriesOutputReference
 ```
@@ -1662,7 +1662,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2PrefixList.Ec2PrefixListTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2prefixlist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2prefixlist"
 
 ec2prefixlist.NewEc2PrefixListTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Ec2PrefixListTagsList
 ```
@@ -1822,7 +1822,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2PrefixList.Ec2PrefixListTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2prefixlist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2prefixlist"
 
 ec2prefixlist.NewEc2PrefixListTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) Ec2PrefixListTagsOutputReference
 ```

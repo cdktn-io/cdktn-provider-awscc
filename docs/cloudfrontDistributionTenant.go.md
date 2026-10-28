@@ -4,12 +4,12 @@
 
 ### CloudfrontDistributionTenant <a name="CloudfrontDistributionTenant" id="@cdktn/provider-awscc.cloudfrontDistributionTenant.CloudfrontDistributionTenant"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_distribution_tenant awscc_cloudfront_distribution_tenant}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_distribution_tenant awscc_cloudfront_distribution_tenant}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudfrontDistributionTenant.CloudfrontDistributionTenant.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontdistributiontenant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontdistributiontenant"
 
 cloudfrontdistributiontenant.NewCloudfrontDistributionTenant(scope Construct, id *string, config CloudfrontDistributionTenantConfig) CloudfrontDistributionTenant
 ```
@@ -494,7 +494,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.cloudfrontDistributionTenant.CloudfrontDistributionTenant.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontdistributiontenant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontdistributiontenant"
 
 cloudfrontdistributiontenant.CloudfrontDistributionTenant_IsConstruct(x interface{}) *bool
 ```
@@ -526,7 +526,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.cloudfrontDistributionTenant.CloudfrontDistributionTenant.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontdistributiontenant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontdistributiontenant"
 
 cloudfrontdistributiontenant.CloudfrontDistributionTenant_IsTerraformElement(x interface{}) *bool
 ```
@@ -540,7 +540,7 @@ cloudfrontdistributiontenant.CloudfrontDistributionTenant_IsTerraformElement(x i
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.cloudfrontDistributionTenant.CloudfrontDistributionTenant.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontdistributiontenant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontdistributiontenant"
 
 cloudfrontdistributiontenant.CloudfrontDistributionTenant_IsTerraformResource(x interface{}) *bool
 ```
@@ -554,7 +554,7 @@ cloudfrontdistributiontenant.CloudfrontDistributionTenant_IsTerraformResource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.cloudfrontDistributionTenant.CloudfrontDistributionTenant.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontdistributiontenant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontdistributiontenant"
 
 cloudfrontdistributiontenant.CloudfrontDistributionTenant_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -583,7 +583,7 @@ The construct id used in the generated config for the CloudfrontDistributionTena
 
 The id of the existing CloudfrontDistributionTenant that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_distribution_tenant#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_distribution_tenant#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1069,7 +1069,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudfrontDistributionTenant.CloudfrontDistributionTenantConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontdistributiontenant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontdistributiontenant"
 
 &cloudfrontdistributiontenant.CloudfrontDistributionTenantConfig {
 	Connection: interface{},
@@ -1083,9 +1083,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontdistribution
 	Domains: *[]*string,
 	Name: *string,
 	ConnectionGroupId: *string,
-	Customizations: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.cloudfrontDistributionTenant.CloudfrontDistributionTenantCustomizations,
+	Customizations: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.cloudfrontDistributionTenant.CloudfrontDistributionTenantCustomizations,
 	Enabled: interface{},
-	ManagedCertificateRequest: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.cloudfrontDistributionTenant.CloudfrontDistributionTenantManagedCertificateRequest,
+	ManagedCertificateRequest: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.cloudfrontDistributionTenant.CloudfrontDistributionTenantManagedCertificateRequest,
 	Parameters: interface{},
 	Tags: interface{},
 }
@@ -1194,7 +1194,7 @@ DistributionId *string
 
 The ID of the multi-tenant distribution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_distribution_tenant#distribution_id CloudfrontDistributionTenant#distribution_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_distribution_tenant#distribution_id CloudfrontDistributionTenant#distribution_id}
 
 ---
 
@@ -1208,7 +1208,7 @@ Domains *[]*string
 
 The domains associated with the distribution tenant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_distribution_tenant#domains CloudfrontDistributionTenant#domains}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_distribution_tenant#domains CloudfrontDistributionTenant#domains}
 
 ---
 
@@ -1222,7 +1222,7 @@ Name *string
 
 The name of the distribution tenant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_distribution_tenant#name CloudfrontDistributionTenant#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_distribution_tenant#name CloudfrontDistributionTenant#name}
 
 ---
 
@@ -1238,7 +1238,7 @@ The ID of the connection group for the distribution tenant.
 
 If you don't specify a connection group, CloudFront uses the default connection group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_distribution_tenant#connection_group_id CloudfrontDistributionTenant#connection_group_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_distribution_tenant#connection_group_id CloudfrontDistributionTenant#connection_group_id}
 
 ---
 
@@ -1254,7 +1254,7 @@ Customizations for the distribution tenant.
 
 For each distribution tenant, you can specify the geographic restrictions, and the Amazon Resource Names (ARNs) for the ACM certificate and WAF web ACL. These are specific values that you can override or disable from the multi-tenant distribution that was used to create the distribution tenant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_distribution_tenant#customizations CloudfrontDistributionTenant#customizations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_distribution_tenant#customizations CloudfrontDistributionTenant#customizations}
 
 ---
 
@@ -1268,7 +1268,7 @@ Enabled interface{}
 
 Indicates whether the distribution tenant is in an enabled state. If disabled, the distribution tenant won't serve traffic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_distribution_tenant#enabled CloudfrontDistributionTenant#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_distribution_tenant#enabled CloudfrontDistributionTenant#enabled}
 
 ---
 
@@ -1282,7 +1282,7 @@ ManagedCertificateRequest CloudfrontDistributionTenantManagedCertificateRequest
 
 An object that represents the request for the Amazon CloudFront managed ACM certificate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_distribution_tenant#managed_certificate_request CloudfrontDistributionTenant#managed_certificate_request}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_distribution_tenant#managed_certificate_request CloudfrontDistributionTenant#managed_certificate_request}
 
 ---
 
@@ -1298,7 +1298,7 @@ A list of parameter values to add to the resource.
 
 A parameter is specified as a key-value pair. A valid parameter value must exist for any parameter that is marked as required in the multi-tenant distribution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_distribution_tenant#parameters CloudfrontDistributionTenant#parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_distribution_tenant#parameters CloudfrontDistributionTenant#parameters}
 
 ---
 
@@ -1312,7 +1312,7 @@ Tags interface{}
 
 A complex type that contains zero or more ``Tag`` elements.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_distribution_tenant#tags CloudfrontDistributionTenant#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_distribution_tenant#tags CloudfrontDistributionTenant#tags}
 
 ---
 
@@ -1321,12 +1321,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudfrontDistributionTenant.CloudfrontDistributionTenantCustomizations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontdistributiontenant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontdistributiontenant"
 
 &cloudfrontdistributiontenant.CloudfrontDistributionTenantCustomizations {
-	Certificate: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.cloudfrontDistributionTenant.CloudfrontDistributionTenantCustomizationsCertificate,
-	GeoRestrictions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.cloudfrontDistributionTenant.CloudfrontDistributionTenantCustomizationsGeoRestrictions,
-	WebAcl: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.cloudfrontDistributionTenant.CloudfrontDistributionTenantCustomizationsWebAcl,
+	Certificate: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.cloudfrontDistributionTenant.CloudfrontDistributionTenantCustomizationsCertificate,
+	GeoRestrictions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.cloudfrontDistributionTenant.CloudfrontDistributionTenantCustomizationsGeoRestrictions,
+	WebAcl: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.cloudfrontDistributionTenant.CloudfrontDistributionTenantCustomizationsWebAcl,
 }
 ```
 
@@ -1350,7 +1350,7 @@ Certificate CloudfrontDistributionTenantCustomizationsCertificate
 
 The ACMlong (ACM) certificate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_distribution_tenant#certificate CloudfrontDistributionTenant#certificate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_distribution_tenant#certificate CloudfrontDistributionTenant#certificate}
 
 ---
 
@@ -1364,7 +1364,7 @@ GeoRestrictions CloudfrontDistributionTenantCustomizationsGeoRestrictions
 
 The geographic restrictions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_distribution_tenant#geo_restrictions CloudfrontDistributionTenant#geo_restrictions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_distribution_tenant#geo_restrictions CloudfrontDistributionTenant#geo_restrictions}
 
 ---
 
@@ -1378,7 +1378,7 @@ WebAcl CloudfrontDistributionTenantCustomizationsWebAcl
 
 The WAF web ACL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_distribution_tenant#web_acl CloudfrontDistributionTenant#web_acl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_distribution_tenant#web_acl CloudfrontDistributionTenant#web_acl}
 
 ---
 
@@ -1387,7 +1387,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudfrontDistributionTenant.CloudfrontDistributionTenantCustomizationsCertificate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontdistributiontenant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontdistributiontenant"
 
 &cloudfrontdistributiontenant.CloudfrontDistributionTenantCustomizationsCertificate {
 	Arn: *string,
@@ -1412,7 +1412,7 @@ Arn *string
 
 The Amazon Resource Name (ARN) of the ACM certificate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_distribution_tenant#arn CloudfrontDistributionTenant#arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_distribution_tenant#arn CloudfrontDistributionTenant#arn}
 
 ---
 
@@ -1421,7 +1421,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudfrontDistributionTenant.CloudfrontDistributionTenantCustomizationsGeoRestrictions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontdistributiontenant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontdistributiontenant"
 
 &cloudfrontdistributiontenant.CloudfrontDistributionTenantCustomizationsGeoRestrictions {
 	Locations: *[]*string,
@@ -1448,7 +1448,7 @@ Locations *[]*string
 
 The locations for geographic restrictions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_distribution_tenant#locations CloudfrontDistributionTenant#locations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_distribution_tenant#locations CloudfrontDistributionTenant#locations}
 
 ---
 
@@ -1465,7 +1465,7 @@ The method that you want to use to restrict distribution of your content by coun
 * `blacklist`: The `Location` elements specify the countries in which you don't want CloudFront to distribute your content.
 * `whitelist`: The `Location` elements specify the countries in which you want CloudFront to distribute your content.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_distribution_tenant#restriction_type CloudfrontDistributionTenant#restriction_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_distribution_tenant#restriction_type CloudfrontDistributionTenant#restriction_type}
 
 ---
 
@@ -1474,7 +1474,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudfrontDistributionTenant.CloudfrontDistributionTenantCustomizationsWebAcl.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontdistributiontenant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontdistributiontenant"
 
 &cloudfrontdistributiontenant.CloudfrontDistributionTenantCustomizationsWebAcl {
 	Action: *string,
@@ -1503,7 +1503,7 @@ The action for the WAF web ACL customization.
 
 You can specify `override` to specify a separate WAF web ACL for the distribution tenant. If you specify `disable`, the distribution tenant won't have WAF web ACL protections and won't inherit from the multi-tenant distribution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_distribution_tenant#action CloudfrontDistributionTenant#action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_distribution_tenant#action CloudfrontDistributionTenant#action}
 
 ---
 
@@ -1517,7 +1517,7 @@ Arn *string
 
 The Amazon Resource Name (ARN) of the WAF web ACL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_distribution_tenant#arn CloudfrontDistributionTenant#arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_distribution_tenant#arn CloudfrontDistributionTenant#arn}
 
 ---
 
@@ -1526,7 +1526,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudfrontDistributionTenant.CloudfrontDistributionTenantDomainResults.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontdistributiontenant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontdistributiontenant"
 
 &cloudfrontdistributiontenant.CloudfrontDistributionTenantDomainResults {
 
@@ -1539,7 +1539,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontdistribution
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudfrontDistributionTenant.CloudfrontDistributionTenantManagedCertificateRequest.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontdistributiontenant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontdistributiontenant"
 
 &cloudfrontdistributiontenant.CloudfrontDistributionTenantManagedCertificateRequest {
 	CertificateTransparencyLoggingPreference: *string,
@@ -1570,7 +1570,7 @@ You can opt out of certificate transparency logging by specifying the ``disabled
 
 Opt in by specifying `enabled`. For more information, see [Certificate Transparency Logging](https://docs.aws.amazon.com/acm/latest/userguide/acm-concepts.html#concept-transparency) in the *User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_distribution_tenant#certificate_transparency_logging_preference CloudfrontDistributionTenant#certificate_transparency_logging_preference}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_distribution_tenant#certificate_transparency_logging_preference CloudfrontDistributionTenant#certificate_transparency_logging_preference}
 
 ---
 
@@ -1584,7 +1584,7 @@ PrimaryDomainName *string
 
 The primary domain name associated with the CloudFront managed ACM certificate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_distribution_tenant#primary_domain_name CloudfrontDistributionTenant#primary_domain_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_distribution_tenant#primary_domain_name CloudfrontDistributionTenant#primary_domain_name}
 
 ---
 
@@ -1601,7 +1601,7 @@ Specify how the HTTP validation token will be served when requesting the CloudFr
 * For `cloudfront`, CloudFront will automatically serve the validation token. Choose this mode if you can point the domain's DNS to CloudFront immediately.
 * For `self-hosted`, you serve the validation token from your existing infrastructure. Choose this mode when you need to maintain current traffic flow while your certificate is being issued. You can place the validation token at the well-known path on your existing web server, wait for ACM to validate and issue the certificate, and then update your DNS to point to CloudFront.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_distribution_tenant#validation_token_host CloudfrontDistributionTenant#validation_token_host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_distribution_tenant#validation_token_host CloudfrontDistributionTenant#validation_token_host}
 
 ---
 
@@ -1610,7 +1610,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudfrontDistributionTenant.CloudfrontDistributionTenantParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontdistributiontenant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontdistributiontenant"
 
 &cloudfrontdistributiontenant.CloudfrontDistributionTenantParameters {
 	Name: *string,
@@ -1637,7 +1637,7 @@ Name *string
 
 The parameter name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_distribution_tenant#name CloudfrontDistributionTenant#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_distribution_tenant#name CloudfrontDistributionTenant#name}
 
 ---
 
@@ -1651,7 +1651,7 @@ Value *string
 
 The parameter value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_distribution_tenant#value CloudfrontDistributionTenant#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_distribution_tenant#value CloudfrontDistributionTenant#value}
 
 ---
 
@@ -1660,7 +1660,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudfrontDistributionTenant.CloudfrontDistributionTenantTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontdistributiontenant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontdistributiontenant"
 
 &cloudfrontdistributiontenant.CloudfrontDistributionTenantTags {
 	Key: *string,
@@ -1712,7 +1712,7 @@ The string length should be between 0 and 256 characters. Valid characters inclu
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudfrontDistributionTenant.CloudfrontDistributionTenantCustomizationsCertificateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontdistributiontenant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontdistributiontenant"
 
 cloudfrontdistributiontenant.NewCloudfrontDistributionTenantCustomizationsCertificateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CloudfrontDistributionTenantCustomizationsCertificateOutputReference
 ```
@@ -1990,7 +1990,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudfrontDistributionTenant.CloudfrontDistributionTenantCustomizationsGeoRestrictionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontdistributiontenant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontdistributiontenant"
 
 cloudfrontdistributiontenant.NewCloudfrontDistributionTenantCustomizationsGeoRestrictionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CloudfrontDistributionTenantCustomizationsGeoRestrictionsOutputReference
 ```
@@ -2297,7 +2297,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudfrontDistributionTenant.CloudfrontDistributionTenantCustomizationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontdistributiontenant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontdistributiontenant"
 
 cloudfrontdistributiontenant.NewCloudfrontDistributionTenantCustomizationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CloudfrontDistributionTenantCustomizationsOutputReference
 ```
@@ -2672,7 +2672,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudfrontDistributionTenant.CloudfrontDistributionTenantCustomizationsWebAclOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontdistributiontenant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontdistributiontenant"
 
 cloudfrontdistributiontenant.NewCloudfrontDistributionTenantCustomizationsWebAclOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CloudfrontDistributionTenantCustomizationsWebAclOutputReference
 ```
@@ -2979,7 +2979,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudfrontDistributionTenant.CloudfrontDistributionTenantDomainResultsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontdistributiontenant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontdistributiontenant"
 
 cloudfrontdistributiontenant.NewCloudfrontDistributionTenantDomainResultsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CloudfrontDistributionTenantDomainResultsList
 ```
@@ -3128,7 +3128,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudfrontDistributionTenant.CloudfrontDistributionTenantDomainResultsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontdistributiontenant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontdistributiontenant"
 
 cloudfrontdistributiontenant.NewCloudfrontDistributionTenantDomainResultsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CloudfrontDistributionTenantDomainResultsOutputReference
 ```
@@ -3417,7 +3417,7 @@ func InternalValue() CloudfrontDistributionTenantDomainResults
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudfrontDistributionTenant.CloudfrontDistributionTenantManagedCertificateRequestOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontdistributiontenant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontdistributiontenant"
 
 cloudfrontdistributiontenant.NewCloudfrontDistributionTenantManagedCertificateRequestOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CloudfrontDistributionTenantManagedCertificateRequestOutputReference
 ```
@@ -3753,7 +3753,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudfrontDistributionTenant.CloudfrontDistributionTenantParametersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontdistributiontenant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontdistributiontenant"
 
 cloudfrontdistributiontenant.NewCloudfrontDistributionTenantParametersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CloudfrontDistributionTenantParametersList
 ```
@@ -3913,7 +3913,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudfrontDistributionTenant.CloudfrontDistributionTenantParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontdistributiontenant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontdistributiontenant"
 
 cloudfrontdistributiontenant.NewCloudfrontDistributionTenantParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CloudfrontDistributionTenantParametersOutputReference
 ```
@@ -4238,7 +4238,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudfrontDistributionTenant.CloudfrontDistributionTenantTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontdistributiontenant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontdistributiontenant"
 
 cloudfrontdistributiontenant.NewCloudfrontDistributionTenantTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CloudfrontDistributionTenantTagsList
 ```
@@ -4398,7 +4398,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudfrontDistributionTenant.CloudfrontDistributionTenantTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontdistributiontenant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontdistributiontenant"
 
 cloudfrontdistributiontenant.NewCloudfrontDistributionTenantTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CloudfrontDistributionTenantTagsOutputReference
 ```

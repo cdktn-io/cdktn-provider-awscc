@@ -4,12 +4,12 @@
 
 ### DataAwsccIotTopicRule <a name="DataAwsccIotTopicRule" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRule"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_topic_rule awscc_iot_topic_rule}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_topic_rule awscc_iot_topic_rule}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRule(scope Construct, id *string, config DataAwsccIotTopicRuleConfig) DataAwsccIotTopicRule
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRule.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.DataAwsccIotTopicRule_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRule.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.DataAwsccIotTopicRule_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciottopicrule.DataAwsccIotTopicRule_IsTerraformElement(x interface{}) *b
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRule.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.DataAwsccIotTopicRule_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciottopicrule.DataAwsccIotTopicRule_IsTerraformDataSource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRule.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.DataAwsccIotTopicRule_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotTopicRule to i
 
 The id of the existing DataAwsccIotTopicRule that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_topic_rule#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_topic_rule#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -631,7 +631,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleConfig {
 	Connection: interface{},
@@ -740,7 +740,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_topic_rule#id DataAwsccIotTopicRule#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_topic_rule#id DataAwsccIotTopicRule#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -752,7 +752,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTags {
 
@@ -765,7 +765,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayload {
 
@@ -778,7 +778,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadActions {
 
@@ -791,7 +791,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsCloudwatchAlarm.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadActionsCloudwatchAlarm {
 
@@ -804,7 +804,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsCloudwatchLogs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadActionsCloudwatchLogs {
 
@@ -817,7 +817,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsCloudwatchMetric.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadActionsCloudwatchMetric {
 
@@ -830,7 +830,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsDynamoDb.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadActionsDynamoDb {
 
@@ -843,7 +843,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsDynamoDBv2.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadActionsDynamoDBv2 {
 
@@ -856,7 +856,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsDynamoDBv2PutItem.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadActionsDynamoDBv2PutItem {
 
@@ -869,7 +869,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsElasticsearch.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadActionsElasticsearch {
 
@@ -882,7 +882,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsFirehose.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadActionsFirehose {
 
@@ -895,7 +895,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsHttp.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadActionsHttp {
 
@@ -908,7 +908,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsHttpAuth.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadActionsHttpAuth {
 
@@ -921,7 +921,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsHttpAuthSigv4.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadActionsHttpAuthSigv4 {
 
@@ -934,7 +934,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsHttpBatchConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadActionsHttpBatchConfig {
 
@@ -947,7 +947,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsHttpHeaders.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadActionsHttpHeaders {
 
@@ -960,7 +960,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDb.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDb {
 
@@ -973,7 +973,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfig {
 
@@ -986,7 +986,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsIotAnalytics.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadActionsIotAnalytics {
 
@@ -999,7 +999,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsIotEvents.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadActionsIotEvents {
 
@@ -1012,7 +1012,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsIotSiteWise.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadActionsIotSiteWise {
 
@@ -1025,7 +1025,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsIotSiteWisePutAssetPropertyValueEntries.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadActionsIotSiteWisePutAssetPropertyValueEntries {
 
@@ -1038,7 +1038,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsIotSiteWisePutAssetPropertyValueEntriesPropertyValues.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadActionsIotSiteWisePutAssetPropertyValueEntriesPropertyValues {
 
@@ -1051,7 +1051,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsIotSiteWisePutAssetPropertyValueEntriesPropertyValuesTimestamp.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadActionsIotSiteWisePutAssetPropertyValueEntriesPropertyValuesTimestamp {
 
@@ -1064,7 +1064,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsIotSiteWisePutAssetPropertyValueEntriesPropertyValuesValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadActionsIotSiteWisePutAssetPropertyValueEntriesPropertyValuesValue {
 
@@ -1077,7 +1077,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsKafka.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadActionsKafka {
 
@@ -1090,7 +1090,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsKafkaHeaders.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadActionsKafkaHeaders {
 
@@ -1103,7 +1103,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsKinesis.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadActionsKinesis {
 
@@ -1116,7 +1116,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsLambda.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadActionsLambda {
 
@@ -1129,7 +1129,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsLocation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadActionsLocation {
 
@@ -1142,7 +1142,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsLocationTimestamp.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadActionsLocationTimestamp {
 
@@ -1155,7 +1155,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsOpenSearch.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadActionsOpenSearch {
 
@@ -1168,7 +1168,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsRepublish.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadActionsRepublish {
 
@@ -1181,7 +1181,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsRepublishHeaders.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadActionsRepublishHeaders {
 
@@ -1194,7 +1194,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsRepublishHeadersUserProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadActionsRepublishHeadersUserProperties {
 
@@ -1207,7 +1207,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsS3.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadActionsS3 {
 
@@ -1220,7 +1220,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsSns.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadActionsSns {
 
@@ -1233,7 +1233,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsSqs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadActionsSqs {
 
@@ -1246,7 +1246,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsStepFunctions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadActionsStepFunctions {
 
@@ -1259,7 +1259,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsTimestream.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadActionsTimestream {
 
@@ -1272,7 +1272,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsTimestreamDimensions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadActionsTimestreamDimensions {
 
@@ -1285,7 +1285,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsTimestreamTimestamp.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadActionsTimestreamTimestamp {
 
@@ -1298,7 +1298,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorAction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadErrorAction {
 
@@ -1311,7 +1311,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionCloudwatchAlarm.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionCloudwatchAlarm {
 
@@ -1324,7 +1324,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionCloudwatchLogs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionCloudwatchLogs {
 
@@ -1337,7 +1337,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionCloudwatchMetric.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionCloudwatchMetric {
 
@@ -1350,7 +1350,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionDynamoDb.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionDynamoDb {
 
@@ -1363,7 +1363,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionDynamoDBv2.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionDynamoDBv2 {
 
@@ -1376,7 +1376,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionDynamoDBv2PutItem.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionDynamoDBv2PutItem {
 
@@ -1389,7 +1389,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionElasticsearch.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionElasticsearch {
 
@@ -1402,7 +1402,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionFirehose.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionFirehose {
 
@@ -1415,7 +1415,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionHttp.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionHttp {
 
@@ -1428,7 +1428,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionHttpAuth.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionHttpAuth {
 
@@ -1441,7 +1441,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionHttpAuthSigv4.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionHttpAuthSigv4 {
 
@@ -1454,7 +1454,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionHttpBatchConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionHttpBatchConfig {
 
@@ -1467,7 +1467,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionHttpHeaders.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionHttpHeaders {
 
@@ -1480,7 +1480,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDb.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDb {
 
@@ -1493,7 +1493,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfig {
 
@@ -1506,7 +1506,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionIotAnalytics.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionIotAnalytics {
 
@@ -1519,7 +1519,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionIotEvents.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionIotEvents {
 
@@ -1532,7 +1532,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionIotSiteWise.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionIotSiteWise {
 
@@ -1545,7 +1545,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionIotSiteWisePutAssetPropertyValueEntries.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionIotSiteWisePutAssetPropertyValueEntries {
 
@@ -1558,7 +1558,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionIotSiteWisePutAssetPropertyValueEntriesPropertyValues.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionIotSiteWisePutAssetPropertyValueEntriesPropertyValues {
 
@@ -1571,7 +1571,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionIotSiteWisePutAssetPropertyValueEntriesPropertyValuesTimestamp.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionIotSiteWisePutAssetPropertyValueEntriesPropertyValuesTimestamp {
 
@@ -1584,7 +1584,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionIotSiteWisePutAssetPropertyValueEntriesPropertyValuesValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionIotSiteWisePutAssetPropertyValueEntriesPropertyValuesValue {
 
@@ -1597,7 +1597,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionKafka.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionKafka {
 
@@ -1610,7 +1610,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionKafkaHeaders.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionKafkaHeaders {
 
@@ -1623,7 +1623,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionKinesis.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionKinesis {
 
@@ -1636,7 +1636,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionLambda.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionLambda {
 
@@ -1649,7 +1649,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionLocation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionLocation {
 
@@ -1662,7 +1662,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionLocationTimestamp.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionLocationTimestamp {
 
@@ -1675,7 +1675,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionOpenSearch.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionOpenSearch {
 
@@ -1688,7 +1688,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionRepublish.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionRepublish {
 
@@ -1701,7 +1701,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionRepublishHeaders.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionRepublishHeaders {
 
@@ -1714,7 +1714,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionRepublishHeadersUserProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionRepublishHeadersUserProperties {
 
@@ -1727,7 +1727,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionS3.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionS3 {
 
@@ -1740,7 +1740,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionSns.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionSns {
 
@@ -1753,7 +1753,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionSqs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionSqs {
 
@@ -1766,7 +1766,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionStepFunctions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionStepFunctions {
 
@@ -1779,7 +1779,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionTimestream.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionTimestream {
 
@@ -1792,7 +1792,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionTimestreamDimensions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionTimestreamDimensions {
 
@@ -1805,7 +1805,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionTimestreamTimestamp.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 &dataawscciottopicrule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionTimestreamTimestamp {
 
@@ -1820,7 +1820,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIotTopicRuleTagsList
 ```
@@ -1969,7 +1969,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIotTopicRuleTagsOutputReference
 ```
@@ -2258,7 +2258,7 @@ func InternalValue() DataAwsccIotTopicRuleTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsCloudwatchAlarmOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadActionsCloudwatchAlarmOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadActionsCloudwatchAlarmOutputReference
 ```
@@ -2551,7 +2551,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadActionsCloudwatchAlarm
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsCloudwatchLogsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadActionsCloudwatchLogsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadActionsCloudwatchLogsOutputReference
 ```
@@ -2833,7 +2833,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadActionsCloudwatchLogs
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsCloudwatchMetricOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadActionsCloudwatchMetricOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadActionsCloudwatchMetricOutputReference
 ```
@@ -3148,7 +3148,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadActionsCloudwatchMetri
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsDynamoDbOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadActionsDynamoDbOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadActionsDynamoDbOutputReference
 ```
@@ -3496,7 +3496,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadActionsDynamoDb
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsDynamoDBv2OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadActionsDynamoDBv2OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadActionsDynamoDBv2OutputReference
 ```
@@ -3767,7 +3767,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadActionsDynamoDBv2
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsDynamoDBv2PutItemOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadActionsDynamoDBv2PutItemOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadActionsDynamoDBv2PutItemOutputReference
 ```
@@ -4027,7 +4027,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadActionsDynamoDBv2PutIt
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsElasticsearchOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadActionsElasticsearchOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadActionsElasticsearchOutputReference
 ```
@@ -4331,7 +4331,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadActionsElasticsearch
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsFirehoseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadActionsFirehoseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadActionsFirehoseOutputReference
 ```
@@ -4624,7 +4624,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadActionsFirehose
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsHttpAuthOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadActionsHttpAuthOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadActionsHttpAuthOutputReference
 ```
@@ -4884,7 +4884,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadActionsHttpAuth
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsHttpAuthSigv4OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadActionsHttpAuthSigv4OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadActionsHttpAuthSigv4OutputReference
 ```
@@ -5166,7 +5166,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadActionsHttpAuthSigv4
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsHttpBatchConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadActionsHttpBatchConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadActionsHttpBatchConfigOutputReference
 ```
@@ -5459,7 +5459,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadActionsHttpBatchConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsHttpHeadersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadActionsHttpHeadersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIotTopicRuleTopicRulePayloadActionsHttpHeadersList
 ```
@@ -5608,7 +5608,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsHttpHeadersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadActionsHttpHeadersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIotTopicRuleTopicRulePayloadActionsHttpHeadersOutputReference
 ```
@@ -5897,7 +5897,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadActionsHttpHeaders
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsHttpOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadActionsHttpOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadActionsHttpOutputReference
 ```
@@ -6212,7 +6212,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadActionsHttp
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchConfigOutputReference
 ```
@@ -6505,7 +6505,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbBatchCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDbOutputReference
 ```
@@ -6842,7 +6842,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadActionsInfluxDb
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsIotAnalyticsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadActionsIotAnalyticsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadActionsIotAnalyticsOutputReference
 ```
@@ -7124,7 +7124,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadActionsIotAnalytics
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsIotEventsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadActionsIotEventsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadActionsIotEventsOutputReference
 ```
@@ -7417,7 +7417,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadActionsIotEvents
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsIotSiteWiseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadActionsIotSiteWiseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadActionsIotSiteWiseOutputReference
 ```
@@ -7688,7 +7688,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadActionsIotSiteWise
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsIotSiteWisePutAssetPropertyValueEntriesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadActionsIotSiteWisePutAssetPropertyValueEntriesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIotTopicRuleTopicRulePayloadActionsIotSiteWisePutAssetPropertyValueEntriesList
 ```
@@ -7837,7 +7837,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsIotSiteWisePutAssetPropertyValueEntriesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadActionsIotSiteWisePutAssetPropertyValueEntriesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIotTopicRuleTopicRulePayloadActionsIotSiteWisePutAssetPropertyValueEntriesOutputReference
 ```
@@ -8159,7 +8159,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadActionsIotSiteWisePutA
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsIotSiteWisePutAssetPropertyValueEntriesPropertyValuesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadActionsIotSiteWisePutAssetPropertyValueEntriesPropertyValuesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIotTopicRuleTopicRulePayloadActionsIotSiteWisePutAssetPropertyValueEntriesPropertyValuesList
 ```
@@ -8308,7 +8308,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsIotSiteWisePutAssetPropertyValueEntriesPropertyValuesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadActionsIotSiteWisePutAssetPropertyValueEntriesPropertyValuesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIotTopicRuleTopicRulePayloadActionsIotSiteWisePutAssetPropertyValueEntriesPropertyValuesOutputReference
 ```
@@ -8608,7 +8608,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadActionsIotSiteWisePutA
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsIotSiteWisePutAssetPropertyValueEntriesPropertyValuesTimestampOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadActionsIotSiteWisePutAssetPropertyValueEntriesPropertyValuesTimestampOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadActionsIotSiteWisePutAssetPropertyValueEntriesPropertyValuesTimestampOutputReference
 ```
@@ -8879,7 +8879,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadActionsIotSiteWisePutA
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsIotSiteWisePutAssetPropertyValueEntriesPropertyValuesValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadActionsIotSiteWisePutAssetPropertyValueEntriesPropertyValuesValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadActionsIotSiteWisePutAssetPropertyValueEntriesPropertyValuesValueOutputReference
 ```
@@ -9172,7 +9172,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadActionsIotSiteWisePutA
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsKafkaHeadersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadActionsKafkaHeadersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIotTopicRuleTopicRulePayloadActionsKafkaHeadersList
 ```
@@ -9321,7 +9321,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsKafkaHeadersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadActionsKafkaHeadersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIotTopicRuleTopicRulePayloadActionsKafkaHeadersOutputReference
 ```
@@ -9610,7 +9610,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadActionsKafkaHeaders
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsKafkaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadActionsKafkaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadActionsKafkaOutputReference
 ```
@@ -9925,7 +9925,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadActionsKafka
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsKinesisOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadActionsKinesisOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadActionsKinesisOutputReference
 ```
@@ -10207,7 +10207,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadActionsKinesis
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsLambdaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadActionsLambdaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadActionsLambdaOutputReference
 ```
@@ -10467,7 +10467,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadActionsLambda
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadActionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIotTopicRuleTopicRulePayloadActionsList
 ```
@@ -10616,7 +10616,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsLocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadActionsLocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadActionsLocationOutputReference
 ```
@@ -10931,7 +10931,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadActionsLocation
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsLocationTimestampOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadActionsLocationTimestampOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadActionsLocationTimestampOutputReference
 ```
@@ -11202,7 +11202,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadActionsLocationTimesta
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsOpenSearchOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadActionsOpenSearchOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadActionsOpenSearchOutputReference
 ```
@@ -11506,7 +11506,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadActionsOpenSearch
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadActionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIotTopicRuleTopicRulePayloadActionsOutputReference
 ```
@@ -12026,7 +12026,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadActions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsRepublishHeadersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadActionsRepublishHeadersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadActionsRepublishHeadersOutputReference
 ```
@@ -12341,7 +12341,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadActionsRepublishHeader
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsRepublishHeadersUserPropertiesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadActionsRepublishHeadersUserPropertiesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIotTopicRuleTopicRulePayloadActionsRepublishHeadersUserPropertiesList
 ```
@@ -12490,7 +12490,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsRepublishHeadersUserPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadActionsRepublishHeadersUserPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIotTopicRuleTopicRulePayloadActionsRepublishHeadersUserPropertiesOutputReference
 ```
@@ -12779,7 +12779,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadActionsRepublishHeader
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsRepublishOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadActionsRepublishOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadActionsRepublishOutputReference
 ```
@@ -13072,7 +13072,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadActionsRepublish
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsS3OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadActionsS3OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadActionsS3OutputReference
 ```
@@ -13365,7 +13365,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadActionsS3
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsSnsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadActionsSnsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadActionsSnsOutputReference
 ```
@@ -13647,7 +13647,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadActionsSns
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsSqsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadActionsSqsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadActionsSqsOutputReference
 ```
@@ -13929,7 +13929,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadActionsSqs
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsStepFunctionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadActionsStepFunctionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadActionsStepFunctionsOutputReference
 ```
@@ -14211,7 +14211,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadActionsStepFunctions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsTimestreamDimensionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadActionsTimestreamDimensionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIotTopicRuleTopicRulePayloadActionsTimestreamDimensionsList
 ```
@@ -14360,7 +14360,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsTimestreamDimensionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadActionsTimestreamDimensionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIotTopicRuleTopicRulePayloadActionsTimestreamDimensionsOutputReference
 ```
@@ -14649,7 +14649,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadActionsTimestreamDimen
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsTimestreamOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadActionsTimestreamOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadActionsTimestreamOutputReference
 ```
@@ -14953,7 +14953,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadActionsTimestream
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadActionsTimestreamTimestampOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadActionsTimestreamTimestampOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadActionsTimestreamTimestampOutputReference
 ```
@@ -15224,7 +15224,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadActionsTimestreamTimes
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionCloudwatchAlarmOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadErrorActionCloudwatchAlarmOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadErrorActionCloudwatchAlarmOutputReference
 ```
@@ -15517,7 +15517,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadErrorActionCloudwatchA
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionCloudwatchLogsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadErrorActionCloudwatchLogsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadErrorActionCloudwatchLogsOutputReference
 ```
@@ -15799,7 +15799,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadErrorActionCloudwatchL
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionCloudwatchMetricOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadErrorActionCloudwatchMetricOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadErrorActionCloudwatchMetricOutputReference
 ```
@@ -16114,7 +16114,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadErrorActionCloudwatchM
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionDynamoDbOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadErrorActionDynamoDbOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadErrorActionDynamoDbOutputReference
 ```
@@ -16462,7 +16462,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadErrorActionDynamoDb
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionDynamoDBv2OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadErrorActionDynamoDBv2OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadErrorActionDynamoDBv2OutputReference
 ```
@@ -16733,7 +16733,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadErrorActionDynamoDBv2
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionDynamoDBv2PutItemOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadErrorActionDynamoDBv2PutItemOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadErrorActionDynamoDBv2PutItemOutputReference
 ```
@@ -16993,7 +16993,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadErrorActionDynamoDBv2P
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionElasticsearchOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadErrorActionElasticsearchOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadErrorActionElasticsearchOutputReference
 ```
@@ -17297,7 +17297,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadErrorActionElasticsear
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionFirehoseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadErrorActionFirehoseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadErrorActionFirehoseOutputReference
 ```
@@ -17590,7 +17590,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadErrorActionFirehose
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionHttpAuthOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadErrorActionHttpAuthOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadErrorActionHttpAuthOutputReference
 ```
@@ -17850,7 +17850,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadErrorActionHttpAuth
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionHttpAuthSigv4OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadErrorActionHttpAuthSigv4OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadErrorActionHttpAuthSigv4OutputReference
 ```
@@ -18132,7 +18132,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadErrorActionHttpAuthSig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionHttpBatchConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadErrorActionHttpBatchConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadErrorActionHttpBatchConfigOutputReference
 ```
@@ -18425,7 +18425,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadErrorActionHttpBatchCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionHttpHeadersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadErrorActionHttpHeadersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIotTopicRuleTopicRulePayloadErrorActionHttpHeadersList
 ```
@@ -18574,7 +18574,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionHttpHeadersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadErrorActionHttpHeadersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIotTopicRuleTopicRulePayloadErrorActionHttpHeadersOutputReference
 ```
@@ -18863,7 +18863,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadErrorActionHttpHeaders
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionHttpOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadErrorActionHttpOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadErrorActionHttpOutputReference
 ```
@@ -19178,7 +19178,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadErrorActionHttp
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBatchConfigOutputReference
 ```
@@ -19471,7 +19471,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbBat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference
 ```
@@ -19808,7 +19808,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDb
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionIotAnalyticsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadErrorActionIotAnalyticsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadErrorActionIotAnalyticsOutputReference
 ```
@@ -20090,7 +20090,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadErrorActionIotAnalytic
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionIotEventsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadErrorActionIotEventsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadErrorActionIotEventsOutputReference
 ```
@@ -20383,7 +20383,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadErrorActionIotEvents
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionIotSiteWiseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadErrorActionIotSiteWiseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadErrorActionIotSiteWiseOutputReference
 ```
@@ -20654,7 +20654,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadErrorActionIotSiteWise
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionIotSiteWisePutAssetPropertyValueEntriesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadErrorActionIotSiteWisePutAssetPropertyValueEntriesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIotTopicRuleTopicRulePayloadErrorActionIotSiteWisePutAssetPropertyValueEntriesList
 ```
@@ -20803,7 +20803,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionIotSiteWisePutAssetPropertyValueEntriesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadErrorActionIotSiteWisePutAssetPropertyValueEntriesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIotTopicRuleTopicRulePayloadErrorActionIotSiteWisePutAssetPropertyValueEntriesOutputReference
 ```
@@ -21125,7 +21125,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadErrorActionIotSiteWise
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionIotSiteWisePutAssetPropertyValueEntriesPropertyValuesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadErrorActionIotSiteWisePutAssetPropertyValueEntriesPropertyValuesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIotTopicRuleTopicRulePayloadErrorActionIotSiteWisePutAssetPropertyValueEntriesPropertyValuesList
 ```
@@ -21274,7 +21274,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionIotSiteWisePutAssetPropertyValueEntriesPropertyValuesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadErrorActionIotSiteWisePutAssetPropertyValueEntriesPropertyValuesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIotTopicRuleTopicRulePayloadErrorActionIotSiteWisePutAssetPropertyValueEntriesPropertyValuesOutputReference
 ```
@@ -21574,7 +21574,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadErrorActionIotSiteWise
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionIotSiteWisePutAssetPropertyValueEntriesPropertyValuesTimestampOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadErrorActionIotSiteWisePutAssetPropertyValueEntriesPropertyValuesTimestampOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadErrorActionIotSiteWisePutAssetPropertyValueEntriesPropertyValuesTimestampOutputReference
 ```
@@ -21845,7 +21845,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadErrorActionIotSiteWise
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionIotSiteWisePutAssetPropertyValueEntriesPropertyValuesValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadErrorActionIotSiteWisePutAssetPropertyValueEntriesPropertyValuesValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadErrorActionIotSiteWisePutAssetPropertyValueEntriesPropertyValuesValueOutputReference
 ```
@@ -22138,7 +22138,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadErrorActionIotSiteWise
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionKafkaHeadersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadErrorActionKafkaHeadersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIotTopicRuleTopicRulePayloadErrorActionKafkaHeadersList
 ```
@@ -22287,7 +22287,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionKafkaHeadersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadErrorActionKafkaHeadersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIotTopicRuleTopicRulePayloadErrorActionKafkaHeadersOutputReference
 ```
@@ -22576,7 +22576,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadErrorActionKafkaHeader
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionKafkaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadErrorActionKafkaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadErrorActionKafkaOutputReference
 ```
@@ -22891,7 +22891,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadErrorActionKafka
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionKinesisOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadErrorActionKinesisOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadErrorActionKinesisOutputReference
 ```
@@ -23173,7 +23173,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadErrorActionKinesis
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionLambdaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadErrorActionLambdaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadErrorActionLambdaOutputReference
 ```
@@ -23433,7 +23433,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadErrorActionLambda
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionLocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadErrorActionLocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadErrorActionLocationOutputReference
 ```
@@ -23748,7 +23748,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadErrorActionLocation
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionLocationTimestampOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadErrorActionLocationTimestampOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadErrorActionLocationTimestampOutputReference
 ```
@@ -24019,7 +24019,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadErrorActionLocationTim
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionOpenSearchOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadErrorActionOpenSearchOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadErrorActionOpenSearchOutputReference
 ```
@@ -24323,7 +24323,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadErrorActionOpenSearch
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadErrorActionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadErrorActionOutputReference
 ```
@@ -24825,7 +24825,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadErrorAction
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionRepublishHeadersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadErrorActionRepublishHeadersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadErrorActionRepublishHeadersOutputReference
 ```
@@ -25140,7 +25140,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadErrorActionRepublishHe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionRepublishHeadersUserPropertiesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadErrorActionRepublishHeadersUserPropertiesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIotTopicRuleTopicRulePayloadErrorActionRepublishHeadersUserPropertiesList
 ```
@@ -25289,7 +25289,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionRepublishHeadersUserPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadErrorActionRepublishHeadersUserPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIotTopicRuleTopicRulePayloadErrorActionRepublishHeadersUserPropertiesOutputReference
 ```
@@ -25578,7 +25578,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadErrorActionRepublishHe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionRepublishOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadErrorActionRepublishOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadErrorActionRepublishOutputReference
 ```
@@ -25871,7 +25871,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadErrorActionRepublish
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionS3OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadErrorActionS3OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadErrorActionS3OutputReference
 ```
@@ -26164,7 +26164,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadErrorActionS3
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionSnsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadErrorActionSnsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadErrorActionSnsOutputReference
 ```
@@ -26446,7 +26446,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadErrorActionSns
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionSqsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadErrorActionSqsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadErrorActionSqsOutputReference
 ```
@@ -26728,7 +26728,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadErrorActionSqs
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionStepFunctionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadErrorActionStepFunctionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadErrorActionStepFunctionsOutputReference
 ```
@@ -27010,7 +27010,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadErrorActionStepFunctio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionTimestreamDimensionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadErrorActionTimestreamDimensionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIotTopicRuleTopicRulePayloadErrorActionTimestreamDimensionsList
 ```
@@ -27159,7 +27159,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionTimestreamDimensionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadErrorActionTimestreamDimensionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIotTopicRuleTopicRulePayloadErrorActionTimestreamDimensionsOutputReference
 ```
@@ -27448,7 +27448,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadErrorActionTimestreamD
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionTimestreamOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadErrorActionTimestreamOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadErrorActionTimestreamOutputReference
 ```
@@ -27752,7 +27752,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadErrorActionTimestream
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadErrorActionTimestreamTimestampOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadErrorActionTimestreamTimestampOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadErrorActionTimestreamTimestampOutputReference
 ```
@@ -28023,7 +28023,7 @@ func InternalValue() DataAwsccIotTopicRuleTopicRulePayloadErrorActionTimestreamT
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRule.DataAwsccIotTopicRuleTopicRulePayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicrule"
 
 dataawscciottopicrule.NewDataAwsccIotTopicRuleTopicRulePayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleTopicRulePayloadOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccFinspaceEnvironment <a name="DataAwsccFinspaceEnvironment" id="@cdktn/provider-awscc.dataAwsccFinspaceEnvironment.DataAwsccFinspaceEnvironment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/finspace_environment awscc_finspace_environment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/finspace_environment awscc_finspace_environment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFinspaceEnvironment.DataAwsccFinspaceEnvironment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfinspaceenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfinspaceenvironment"
 
 dataawsccfinspaceenvironment.NewDataAwsccFinspaceEnvironment(scope Construct, id *string, config DataAwsccFinspaceEnvironmentConfig) DataAwsccFinspaceEnvironment
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccFinspaceEnvironment.DataAwsccFinspaceEnvironment.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfinspaceenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfinspaceenvironment"
 
 dataawsccfinspaceenvironment.DataAwsccFinspaceEnvironment_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccFinspaceEnvironment.DataAwsccFinspaceEnvironment.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfinspaceenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfinspaceenvironment"
 
 dataawsccfinspaceenvironment.DataAwsccFinspaceEnvironment_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccfinspaceenvironment.DataAwsccFinspaceEnvironment_IsTerraformElement(x i
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccFinspaceEnvironment.DataAwsccFinspaceEnvironment.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfinspaceenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfinspaceenvironment"
 
 dataawsccfinspaceenvironment.DataAwsccFinspaceEnvironment_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccfinspaceenvironment.DataAwsccFinspaceEnvironment_IsTerraformDataSource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccFinspaceEnvironment.DataAwsccFinspaceEnvironment.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfinspaceenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfinspaceenvironment"
 
 dataawsccfinspaceenvironment.DataAwsccFinspaceEnvironment_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccFinspaceEnvironme
 
 The id of the existing DataAwsccFinspaceEnvironment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/finspace_environment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/finspace_environment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -752,7 +752,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccFinspaceEnvironment.DataAwsccFinspaceEnvironmentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfinspaceenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfinspaceenvironment"
 
 &dataawsccfinspaceenvironment.DataAwsccFinspaceEnvironmentConfig {
 	Connection: interface{},
@@ -861,7 +861,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/finspace_environment#id DataAwsccFinspaceEnvironment#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/finspace_environment#id DataAwsccFinspaceEnvironment#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -873,7 +873,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccFinspaceEnvironment.DataAwsccFinspaceEnvironmentFederationParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfinspaceenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfinspaceenvironment"
 
 &dataawsccfinspaceenvironment.DataAwsccFinspaceEnvironmentFederationParameters {
 
@@ -886,7 +886,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfinspaceenvir
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccFinspaceEnvironment.DataAwsccFinspaceEnvironmentFederationParametersAttributeMap.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfinspaceenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfinspaceenvironment"
 
 &dataawsccfinspaceenvironment.DataAwsccFinspaceEnvironmentFederationParametersAttributeMap {
 
@@ -899,7 +899,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfinspaceenvir
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccFinspaceEnvironment.DataAwsccFinspaceEnvironmentSuperuserParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfinspaceenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfinspaceenvironment"
 
 &dataawsccfinspaceenvironment.DataAwsccFinspaceEnvironmentSuperuserParameters {
 
@@ -912,7 +912,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfinspaceenvir
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccFinspaceEnvironment.DataAwsccFinspaceEnvironmentTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfinspaceenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfinspaceenvironment"
 
 &dataawsccfinspaceenvironment.DataAwsccFinspaceEnvironmentTags {
 
@@ -927,7 +927,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfinspaceenvir
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFinspaceEnvironment.DataAwsccFinspaceEnvironmentFederationParametersAttributeMapList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfinspaceenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfinspaceenvironment"
 
 dataawsccfinspaceenvironment.NewDataAwsccFinspaceEnvironmentFederationParametersAttributeMapList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccFinspaceEnvironmentFederationParametersAttributeMapList
 ```
@@ -1076,7 +1076,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFinspaceEnvironment.DataAwsccFinspaceEnvironmentFederationParametersAttributeMapOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfinspaceenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfinspaceenvironment"
 
 dataawsccfinspaceenvironment.NewDataAwsccFinspaceEnvironmentFederationParametersAttributeMapOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccFinspaceEnvironmentFederationParametersAttributeMapOutputReference
 ```
@@ -1365,7 +1365,7 @@ func InternalValue() DataAwsccFinspaceEnvironmentFederationParametersAttributeMa
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFinspaceEnvironment.DataAwsccFinspaceEnvironmentFederationParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfinspaceenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfinspaceenvironment"
 
 dataawsccfinspaceenvironment.NewDataAwsccFinspaceEnvironmentFederationParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccFinspaceEnvironmentFederationParametersOutputReference
 ```
@@ -1680,7 +1680,7 @@ func InternalValue() DataAwsccFinspaceEnvironmentFederationParameters
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFinspaceEnvironment.DataAwsccFinspaceEnvironmentSuperuserParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfinspaceenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfinspaceenvironment"
 
 dataawsccfinspaceenvironment.NewDataAwsccFinspaceEnvironmentSuperuserParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccFinspaceEnvironmentSuperuserParametersOutputReference
 ```
@@ -1962,7 +1962,7 @@ func InternalValue() DataAwsccFinspaceEnvironmentSuperuserParameters
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFinspaceEnvironment.DataAwsccFinspaceEnvironmentTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfinspaceenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfinspaceenvironment"
 
 dataawsccfinspaceenvironment.NewDataAwsccFinspaceEnvironmentTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccFinspaceEnvironmentTagsList
 ```
@@ -2111,7 +2111,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFinspaceEnvironment.DataAwsccFinspaceEnvironmentTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfinspaceenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfinspaceenvironment"
 
 dataawsccfinspaceenvironment.NewDataAwsccFinspaceEnvironmentTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccFinspaceEnvironmentTagsOutputReference
 ```

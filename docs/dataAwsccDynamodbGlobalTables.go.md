@@ -4,12 +4,12 @@
 
 ### DataAwsccDynamodbGlobalTables <a name="DataAwsccDynamodbGlobalTables" id="@cdktn/provider-awscc.dataAwsccDynamodbGlobalTables.DataAwsccDynamodbGlobalTables"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/dynamodb_global_tables awscc_dynamodb_global_tables}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/dynamodb_global_tables awscc_dynamodb_global_tables}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDynamodbGlobalTables.DataAwsccDynamodbGlobalTables.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbglobaltables"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbglobaltables"
 
 dataawsccdynamodbglobaltables.NewDataAwsccDynamodbGlobalTables(scope Construct, id *string, config DataAwsccDynamodbGlobalTablesConfig) DataAwsccDynamodbGlobalTables
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccDynamodbGlobalTables.DataAwsccDynamodbGlobalTables.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbglobaltables"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbglobaltables"
 
 dataawsccdynamodbglobaltables.DataAwsccDynamodbGlobalTables_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccDynamodbGlobalTables.DataAwsccDynamodbGlobalTables.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbglobaltables"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbglobaltables"
 
 dataawsccdynamodbglobaltables.DataAwsccDynamodbGlobalTables_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccdynamodbglobaltables.DataAwsccDynamodbGlobalTables_IsTerraformElement(x
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccDynamodbGlobalTables.DataAwsccDynamodbGlobalTables.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbglobaltables"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbglobaltables"
 
 dataawsccdynamodbglobaltables.DataAwsccDynamodbGlobalTables_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccdynamodbglobaltables.DataAwsccDynamodbGlobalTables_IsTerraformDataSourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccDynamodbGlobalTables.DataAwsccDynamodbGlobalTables.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbglobaltables"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbglobaltables"
 
 dataawsccdynamodbglobaltables.DataAwsccDynamodbGlobalTables_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDynamodbGlobalTab
 
 The id of the existing DataAwsccDynamodbGlobalTables that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/dynamodb_global_tables#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/dynamodb_global_tables#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDynamodbGlobalTables.DataAwsccDynamodbGlobalTablesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbglobaltables"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbglobaltables"
 
 &dataawsccdynamodbglobaltables.DataAwsccDynamodbGlobalTablesConfig {
 	Connection: interface{},

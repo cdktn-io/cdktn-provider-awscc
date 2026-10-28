@@ -4,12 +4,12 @@
 
 ### TranscribeVocabularyFilter <a name="TranscribeVocabularyFilter" id="@cdktn/provider-awscc.transcribeVocabularyFilter.TranscribeVocabularyFilter"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transcribe_vocabulary_filter awscc_transcribe_vocabulary_filter}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transcribe_vocabulary_filter awscc_transcribe_vocabulary_filter}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.transcribeVocabularyFilter.TranscribeVocabularyFilter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transcribevocabularyfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transcribevocabularyfilter"
 
 transcribevocabularyfilter.NewTranscribeVocabularyFilter(scope Construct, id *string, config TranscribeVocabularyFilterConfig) TranscribeVocabularyFilter
 ```
@@ -441,7 +441,7 @@ func ResetWords()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.transcribeVocabularyFilter.TranscribeVocabularyFilter.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transcribevocabularyfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transcribevocabularyfilter"
 
 transcribevocabularyfilter.TranscribeVocabularyFilter_IsConstruct(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.transcribeVocabularyFilter.TranscribeVocabularyFilter.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transcribevocabularyfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transcribevocabularyfilter"
 
 transcribevocabularyfilter.TranscribeVocabularyFilter_IsTerraformElement(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ transcribevocabularyfilter.TranscribeVocabularyFilter_IsTerraformElement(x inter
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.transcribeVocabularyFilter.TranscribeVocabularyFilter.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transcribevocabularyfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transcribevocabularyfilter"
 
 transcribevocabularyfilter.TranscribeVocabularyFilter_IsTerraformResource(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ transcribevocabularyfilter.TranscribeVocabularyFilter_IsTerraformResource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.transcribeVocabularyFilter.TranscribeVocabularyFilter.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transcribevocabularyfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transcribevocabularyfilter"
 
 transcribevocabularyfilter.TranscribeVocabularyFilter_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -530,7 +530,7 @@ The construct id used in the generated config for the TranscribeVocabularyFilter
 
 The id of the existing TranscribeVocabularyFilter that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transcribe_vocabulary_filter#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transcribe_vocabulary_filter#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -884,7 +884,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.transcribeVocabularyFilter.TranscribeVocabularyFilterConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transcribevocabularyfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transcribevocabularyfilter"
 
 &transcribevocabularyfilter.TranscribeVocabularyFilterConfig {
 	Connection: interface{},
@@ -1003,7 +1003,7 @@ LanguageCode *string
 
 The language code that represents the language of the entries in your vocabulary filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transcribe_vocabulary_filter#language_code TranscribeVocabularyFilter#language_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transcribe_vocabulary_filter#language_code TranscribeVocabularyFilter#language_code}
 
 ---
 
@@ -1017,7 +1017,7 @@ VocabularyFilterName *string
 
 A unique name, chosen by you, for your custom vocabulary filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transcribe_vocabulary_filter#vocabulary_filter_name TranscribeVocabularyFilter#vocabulary_filter_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transcribe_vocabulary_filter#vocabulary_filter_name TranscribeVocabularyFilter#vocabulary_filter_name}
 
 ---
 
@@ -1031,7 +1031,7 @@ DataAccessRoleArn *string
 
 The Amazon Resource Name (ARN) of an IAM role that has permissions to access the Amazon S3 bucket that contains your input files.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transcribe_vocabulary_filter#data_access_role_arn TranscribeVocabularyFilter#data_access_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transcribe_vocabulary_filter#data_access_role_arn TranscribeVocabularyFilter#data_access_role_arn}
 
 ---
 
@@ -1045,7 +1045,7 @@ Tags interface{}
 
 Tags associated with the vocabulary filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transcribe_vocabulary_filter#tags TranscribeVocabularyFilter#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transcribe_vocabulary_filter#tags TranscribeVocabularyFilter#tags}
 
 ---
 
@@ -1059,7 +1059,7 @@ VocabularyFilterFileUri *string
 
 The Amazon S3 location of the text file that contains your custom vocabulary filter terms.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transcribe_vocabulary_filter#vocabulary_filter_file_uri TranscribeVocabularyFilter#vocabulary_filter_file_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transcribe_vocabulary_filter#vocabulary_filter_file_uri TranscribeVocabularyFilter#vocabulary_filter_file_uri}
 
 ---
 
@@ -1073,7 +1073,7 @@ Words *[]*string
 
 Use this parameter if you want to create your custom vocabulary filter by including all desired terms, as comma-separated values, within your request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transcribe_vocabulary_filter#words TranscribeVocabularyFilter#words}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transcribe_vocabulary_filter#words TranscribeVocabularyFilter#words}
 
 ---
 
@@ -1082,7 +1082,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.transcribeVocabularyFilter.TranscribeVocabularyFilterTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transcribevocabularyfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transcribevocabularyfilter"
 
 &transcribevocabularyfilter.TranscribeVocabularyFilterTags {
 	Key: *string,
@@ -1109,7 +1109,7 @@ Key *string
 
 The key of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transcribe_vocabulary_filter#key TranscribeVocabularyFilter#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transcribe_vocabulary_filter#key TranscribeVocabularyFilter#key}
 
 ---
 
@@ -1123,7 +1123,7 @@ Value *string
 
 The value of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transcribe_vocabulary_filter#value TranscribeVocabularyFilter#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transcribe_vocabulary_filter#value TranscribeVocabularyFilter#value}
 
 ---
 
@@ -1134,7 +1134,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.transcribeVocabularyFilter.TranscribeVocabularyFilterTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transcribevocabularyfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transcribevocabularyfilter"
 
 transcribevocabularyfilter.NewTranscribeVocabularyFilterTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) TranscribeVocabularyFilterTagsList
 ```
@@ -1294,7 +1294,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.transcribeVocabularyFilter.TranscribeVocabularyFilterTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transcribevocabularyfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transcribevocabularyfilter"
 
 transcribevocabularyfilter.NewTranscribeVocabularyFilterTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) TranscribeVocabularyFilterTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccInternetmonitorMonitors <a name="DataAwsccInternetmonitorMonitors" id="@cdktn/provider-awscc.dataAwsccInternetmonitorMonitors.DataAwsccInternetmonitorMonitors"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/internetmonitor_monitors awscc_internetmonitor_monitors}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/internetmonitor_monitors awscc_internetmonitor_monitors}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInternetmonitorMonitors.DataAwsccInternetmonitorMonitors.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinternetmonitormonitors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinternetmonitormonitors"
 
 dataawsccinternetmonitormonitors.NewDataAwsccInternetmonitorMonitors(scope Construct, id *string, config DataAwsccInternetmonitorMonitorsConfig) DataAwsccInternetmonitorMonitors
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccInternetmonitorMonitors.DataAwsccInternetmonitorMonitors.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinternetmonitormonitors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinternetmonitormonitors"
 
 dataawsccinternetmonitormonitors.DataAwsccInternetmonitorMonitors_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccInternetmonitorMonitors.DataAwsccInternetmonitorMonitors.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinternetmonitormonitors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinternetmonitormonitors"
 
 dataawsccinternetmonitormonitors.DataAwsccInternetmonitorMonitors_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccinternetmonitormonitors.DataAwsccInternetmonitorMonitors_IsTerraformEle
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccInternetmonitorMonitors.DataAwsccInternetmonitorMonitors.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinternetmonitormonitors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinternetmonitormonitors"
 
 dataawsccinternetmonitormonitors.DataAwsccInternetmonitorMonitors_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccinternetmonitormonitors.DataAwsccInternetmonitorMonitors_IsTerraformDat
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccInternetmonitorMonitors.DataAwsccInternetmonitorMonitors.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinternetmonitormonitors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinternetmonitormonitors"
 
 dataawsccinternetmonitormonitors.DataAwsccInternetmonitorMonitors_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccInternetmonitorMo
 
 The id of the existing DataAwsccInternetmonitorMonitors that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/internetmonitor_monitors#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/internetmonitor_monitors#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInternetmonitorMonitors.DataAwsccInternetmonitorMonitorsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinternetmonitormonitors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinternetmonitormonitors"
 
 &dataawsccinternetmonitormonitors.DataAwsccInternetmonitorMonitorsConfig {
 	Connection: interface{},

@@ -4,12 +4,12 @@
 
 ### IoteventsInput <a name="IoteventsInput" id="@cdktn/provider-awscc.ioteventsInput.IoteventsInput"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_input awscc_iotevents_input}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_input awscc_iotevents_input}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsInput.IoteventsInput.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsinput"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsinput"
 
 ioteventsinput.NewIoteventsInput(scope Construct, id *string, config IoteventsInputConfig) IoteventsInput
 ```
@@ -447,7 +447,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.ioteventsInput.IoteventsInput.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsinput"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsinput"
 
 ioteventsinput.IoteventsInput_IsConstruct(x interface{}) *bool
 ```
@@ -479,7 +479,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.ioteventsInput.IoteventsInput.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsinput"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsinput"
 
 ioteventsinput.IoteventsInput_IsTerraformElement(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ ioteventsinput.IoteventsInput_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.ioteventsInput.IoteventsInput.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsinput"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsinput"
 
 ioteventsinput.IoteventsInput_IsTerraformResource(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ ioteventsinput.IoteventsInput_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.ioteventsInput.IoteventsInput.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsinput"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsinput"
 
 ioteventsinput.IoteventsInput_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -536,7 +536,7 @@ The construct id used in the generated config for the IoteventsInput to import.
 
 The id of the existing IoteventsInput that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_input#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_input#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -835,7 +835,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsInput.IoteventsInputConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsinput"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsinput"
 
 &ioteventsinput.IoteventsInputConfig {
 	Connection: interface{},
@@ -845,7 +845,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsinput"
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	InputDefinition: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ioteventsInput.IoteventsInputInputDefinition,
+	InputDefinition: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ioteventsInput.IoteventsInputInputDefinition,
 	InputDescription: *string,
 	InputName: *string,
 	Tags: interface{},
@@ -950,7 +950,7 @@ InputDefinition IoteventsInputInputDefinition
 
 The definition of the input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_input#input_definition IoteventsInput#input_definition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_input#input_definition IoteventsInput#input_definition}
 
 ---
 
@@ -964,7 +964,7 @@ InputDescription *string
 
 A brief description of the input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_input#input_description IoteventsInput#input_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_input#input_description IoteventsInput#input_description}
 
 ---
 
@@ -978,7 +978,7 @@ InputName *string
 
 The name of the input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_input#input_name IoteventsInput#input_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_input#input_name IoteventsInput#input_name}
 
 ---
 
@@ -992,7 +992,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.  For more information, see [Tag](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-resource-tags.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_input#tags IoteventsInput#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_input#tags IoteventsInput#tags}
 
 ---
 
@@ -1001,7 +1001,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsInput.IoteventsInputInputDefinition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsinput"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsinput"
 
 &ioteventsinput.IoteventsInputInputDefinition {
 	Attributes: interface{},
@@ -1028,7 +1028,7 @@ The attributes from the JSON payload that are made available by the input.
 
 Inputs are derived from messages sent to the ITE system using `BatchPutMessage`. Each such message contains a JSON payload, and those attributes (and their paired values) specified here are available for use in the `condition` expressions used by detectors that monitor this input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_input#attributes IoteventsInput#attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_input#attributes IoteventsInput#attributes}
 
 ---
 
@@ -1037,7 +1037,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsInput.IoteventsInputInputDefinitionAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsinput"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsinput"
 
 &ioteventsinput.IoteventsInputInputDefinitionAttributes {
 	JsonPath: *string,
@@ -1065,7 +1065,7 @@ An expression that specifies an attribute-value pair in a JSON structure.
 Use this to specify an attribute from the JSON payload that is made available by the input. Inputs are derived from messages sent to ITE (`BatchPutMessage`). Each such message contains a JSON payload. The attribute (and its paired value) specified here are available for use in the `condition` expressions used by detectors.
 Syntax: `<field-name>.<field-name>...`
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_input#json_path IoteventsInput#json_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_input#json_path IoteventsInput#json_path}
 
 ---
 
@@ -1074,7 +1074,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ioteventsInput.IoteventsInputTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsinput"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsinput"
 
 &ioteventsinput.IoteventsInputTags {
 	Key: *string,
@@ -1101,7 +1101,7 @@ Key *string
 
 The tag's key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_input#key IoteventsInput#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_input#key IoteventsInput#key}
 
 ---
 
@@ -1115,7 +1115,7 @@ Value *string
 
 The tag's value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_input#value IoteventsInput#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_input#value IoteventsInput#value}
 
 ---
 
@@ -1126,7 +1126,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsInput.IoteventsInputInputDefinitionAttributesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsinput"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsinput"
 
 ioteventsinput.NewIoteventsInputInputDefinitionAttributesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IoteventsInputInputDefinitionAttributesList
 ```
@@ -1286,7 +1286,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsInput.IoteventsInputInputDefinitionAttributesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsinput"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsinput"
 
 ioteventsinput.NewIoteventsInputInputDefinitionAttributesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IoteventsInputInputDefinitionAttributesOutputReference
 ```
@@ -1575,7 +1575,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsInput.IoteventsInputInputDefinitionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsinput"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsinput"
 
 ioteventsinput.NewIoteventsInputInputDefinitionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IoteventsInputInputDefinitionOutputReference
 ```
@@ -1859,7 +1859,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsInput.IoteventsInputTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsinput"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsinput"
 
 ioteventsinput.NewIoteventsInputTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IoteventsInputTagsList
 ```
@@ -2019,7 +2019,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ioteventsInput.IoteventsInputTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsinput"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsinput"
 
 ioteventsinput.NewIoteventsInputTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IoteventsInputTagsOutputReference
 ```

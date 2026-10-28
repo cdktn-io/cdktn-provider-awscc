@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/polly_lexicon
+// https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/polly_lexicon
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,19 +15,19 @@ export interface PollyLexiconConfig extends cdktn.TerraformMetaArguments {
   /**
   * The content of the PLS lexicon in string format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/polly_lexicon#content PollyLexicon#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/polly_lexicon#content PollyLexicon#content}
   */
   readonly content: string;
   /**
   * The name of the lexicon. Must be an alphanumeric string up to 20 characters long.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/polly_lexicon#name PollyLexicon#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/polly_lexicon#name PollyLexicon#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/polly_lexicon awscc_polly_lexicon}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/polly_lexicon awscc_polly_lexicon}
 */
 export class PollyLexicon extends cdktn.TerraformResource {
 
@@ -43,7 +43,7 @@ export class PollyLexicon extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a PollyLexicon resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PollyLexicon to import
-  * @param importFromId The id of the existing PollyLexicon that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/polly_lexicon#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PollyLexicon that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/polly_lexicon#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PollyLexicon to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -55,7 +55,7 @@ export class PollyLexicon extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/polly_lexicon awscc_polly_lexicon} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/polly_lexicon awscc_polly_lexicon} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -66,7 +66,7 @@ export class PollyLexicon extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_polly_lexicon',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.106.0',
+        providerVersion: '1.107.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

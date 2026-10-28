@@ -4,12 +4,12 @@
 
 ### S3AccessGrantsInstance <a name="S3AccessGrantsInstance" id="@cdktn/provider-awscc.s3AccessGrantsInstance.S3AccessGrantsInstance"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_access_grants_instance awscc_s3_access_grants_instance}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_access_grants_instance awscc_s3_access_grants_instance}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3AccessGrantsInstance.S3AccessGrantsInstance.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3accessgrantsinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3accessgrantsinstance"
 
 s3accessgrantsinstance.NewS3AccessGrantsInstance(scope Construct, id *string, config S3AccessGrantsInstanceConfig) S3AccessGrantsInstance
 ```
@@ -427,7 +427,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.s3AccessGrantsInstance.S3AccessGrantsInstance.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3accessgrantsinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3accessgrantsinstance"
 
 s3accessgrantsinstance.S3AccessGrantsInstance_IsConstruct(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.s3AccessGrantsInstance.S3AccessGrantsInstance.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3accessgrantsinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3accessgrantsinstance"
 
 s3accessgrantsinstance.S3AccessGrantsInstance_IsTerraformElement(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ s3accessgrantsinstance.S3AccessGrantsInstance_IsTerraformElement(x interface{}) 
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.s3AccessGrantsInstance.S3AccessGrantsInstance.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3accessgrantsinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3accessgrantsinstance"
 
 s3accessgrantsinstance.S3AccessGrantsInstance_IsTerraformResource(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ s3accessgrantsinstance.S3AccessGrantsInstance_IsTerraformResource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.s3AccessGrantsInstance.S3AccessGrantsInstance.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3accessgrantsinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3accessgrantsinstance"
 
 s3accessgrantsinstance.S3AccessGrantsInstance_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -516,7 +516,7 @@ The construct id used in the generated config for the S3AccessGrantsInstance to 
 
 The id of the existing S3AccessGrantsInstance that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_access_grants_instance#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_access_grants_instance#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -793,7 +793,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.s3AccessGrantsInstance.S3AccessGrantsInstanceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3accessgrantsinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3accessgrantsinstance"
 
 &s3accessgrantsinstance.S3AccessGrantsInstanceConfig {
 	Connection: interface{},
@@ -820,7 +820,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3accessgrantsinstance
 | <code><a href="#@cdktn/provider-awscc.s3AccessGrantsInstance.S3AccessGrantsInstanceConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3AccessGrantsInstance.S3AccessGrantsInstanceConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3AccessGrantsInstance.S3AccessGrantsInstanceConfig.property.identityCenterArn">IdentityCenterArn</a></code> | <code>*string</code> | The Amazon Resource Name (ARN) of the specified AWS Identity Center. |
-| <code><a href="#@cdktn/provider-awscc.s3AccessGrantsInstance.S3AccessGrantsInstanceConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_access_grants_instance#tags S3AccessGrantsInstance#tags}. |
+| <code><a href="#@cdktn/provider-awscc.s3AccessGrantsInstance.S3AccessGrantsInstanceConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_access_grants_instance#tags S3AccessGrantsInstance#tags}. |
 
 ---
 
@@ -904,7 +904,7 @@ IdentityCenterArn *string
 
 The Amazon Resource Name (ARN) of the specified AWS Identity Center.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_access_grants_instance#identity_center_arn S3AccessGrantsInstance#identity_center_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_access_grants_instance#identity_center_arn S3AccessGrantsInstance#identity_center_arn}
 
 ---
 
@@ -916,7 +916,7 @@ Tags interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_access_grants_instance#tags S3AccessGrantsInstance#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_access_grants_instance#tags S3AccessGrantsInstance#tags}.
 
 ---
 
@@ -925,7 +925,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.s3AccessGrantsInstance.S3AccessGrantsInstanceTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3accessgrantsinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3accessgrantsinstance"
 
 &s3accessgrantsinstance.S3AccessGrantsInstanceTags {
 	Key: *string,
@@ -937,8 +937,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3accessgrantsinstance
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.s3AccessGrantsInstance.S3AccessGrantsInstanceTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_access_grants_instance#key S3AccessGrantsInstance#key}. |
-| <code><a href="#@cdktn/provider-awscc.s3AccessGrantsInstance.S3AccessGrantsInstanceTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_access_grants_instance#value S3AccessGrantsInstance#value}. |
+| <code><a href="#@cdktn/provider-awscc.s3AccessGrantsInstance.S3AccessGrantsInstanceTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_access_grants_instance#key S3AccessGrantsInstance#key}. |
+| <code><a href="#@cdktn/provider-awscc.s3AccessGrantsInstance.S3AccessGrantsInstanceTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_access_grants_instance#value S3AccessGrantsInstance#value}. |
 
 ---
 
@@ -950,7 +950,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_access_grants_instance#key S3AccessGrantsInstance#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_access_grants_instance#key S3AccessGrantsInstance#key}.
 
 ---
 
@@ -962,7 +962,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_access_grants_instance#value S3AccessGrantsInstance#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_access_grants_instance#value S3AccessGrantsInstance#value}.
 
 ---
 
@@ -973,7 +973,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3AccessGrantsInstance.S3AccessGrantsInstanceTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3accessgrantsinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3accessgrantsinstance"
 
 s3accessgrantsinstance.NewS3AccessGrantsInstanceTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) S3AccessGrantsInstanceTagsList
 ```
@@ -1133,7 +1133,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3AccessGrantsInstance.S3AccessGrantsInstanceTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3accessgrantsinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3accessgrantsinstance"
 
 s3accessgrantsinstance.NewS3AccessGrantsInstanceTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) S3AccessGrantsInstanceTagsOutputReference
 ```

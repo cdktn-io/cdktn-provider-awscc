@@ -4,12 +4,12 @@
 
 ### DataAwsccMediatailorChannel <a name="DataAwsccMediatailorChannel" id="@cdktn/provider-awscc.dataAwsccMediatailorChannel.DataAwsccMediatailorChannel"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediatailor_channel awscc_mediatailor_channel}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediatailor_channel awscc_mediatailor_channel}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorChannel.DataAwsccMediatailorChannel.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorchannel"
 
 dataawsccmediatailorchannel.NewDataAwsccMediatailorChannel(scope Construct, id *string, config DataAwsccMediatailorChannelConfig) DataAwsccMediatailorChannel
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccMediatailorChannel.DataAwsccMediatailorChannel.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorchannel"
 
 dataawsccmediatailorchannel.DataAwsccMediatailorChannel_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccMediatailorChannel.DataAwsccMediatailorChannel.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorchannel"
 
 dataawsccmediatailorchannel.DataAwsccMediatailorChannel_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccmediatailorchannel.DataAwsccMediatailorChannel_IsTerraformElement(x int
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccMediatailorChannel.DataAwsccMediatailorChannel.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorchannel"
 
 dataawsccmediatailorchannel.DataAwsccMediatailorChannel_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccmediatailorchannel.DataAwsccMediatailorChannel_IsTerraformDataSource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccMediatailorChannel.DataAwsccMediatailorChannel.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorchannel"
 
 dataawsccmediatailorchannel.DataAwsccMediatailorChannel_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccMediatailorChanne
 
 The id of the existing DataAwsccMediatailorChannel that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediatailor_channel#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediatailor_channel#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -697,7 +697,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediatailorChannel.DataAwsccMediatailorChannelConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorchannel"
 
 &dataawsccmediatailorchannel.DataAwsccMediatailorChannelConfig {
 	Connection: interface{},
@@ -806,7 +806,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediatailor_channel#id DataAwsccMediatailorChannel#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediatailor_channel#id DataAwsccMediatailorChannel#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -818,7 +818,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediatailorChannel.DataAwsccMediatailorChannelFillerSlate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorchannel"
 
 &dataawsccmediatailorchannel.DataAwsccMediatailorChannelFillerSlate {
 
@@ -831,7 +831,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorch
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediatailorChannel.DataAwsccMediatailorChannelLogConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorchannel"
 
 &dataawsccmediatailorchannel.DataAwsccMediatailorChannelLogConfiguration {
 
@@ -844,7 +844,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorch
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediatailorChannel.DataAwsccMediatailorChannelOutputs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorchannel"
 
 &dataawsccmediatailorchannel.DataAwsccMediatailorChannelOutputs {
 
@@ -857,7 +857,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorch
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediatailorChannel.DataAwsccMediatailorChannelOutputsDashPlaylistSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorchannel"
 
 &dataawsccmediatailorchannel.DataAwsccMediatailorChannelOutputsDashPlaylistSettings {
 
@@ -870,7 +870,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorch
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediatailorChannel.DataAwsccMediatailorChannelOutputsHlsPlaylistSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorchannel"
 
 &dataawsccmediatailorchannel.DataAwsccMediatailorChannelOutputsHlsPlaylistSettings {
 
@@ -883,7 +883,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorch
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediatailorChannel.DataAwsccMediatailorChannelTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorchannel"
 
 &dataawsccmediatailorchannel.DataAwsccMediatailorChannelTags {
 
@@ -896,7 +896,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorch
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediatailorChannel.DataAwsccMediatailorChannelTimeShiftConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorchannel"
 
 &dataawsccmediatailorchannel.DataAwsccMediatailorChannelTimeShiftConfiguration {
 
@@ -911,7 +911,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorch
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorChannel.DataAwsccMediatailorChannelFillerSlateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorchannel"
 
 dataawsccmediatailorchannel.NewDataAwsccMediatailorChannelFillerSlateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMediatailorChannelFillerSlateOutputReference
 ```
@@ -1182,7 +1182,7 @@ func InternalValue() DataAwsccMediatailorChannelFillerSlate
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorChannel.DataAwsccMediatailorChannelLogConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorchannel"
 
 dataawsccmediatailorchannel.NewDataAwsccMediatailorChannelLogConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMediatailorChannelLogConfigurationOutputReference
 ```
@@ -1442,7 +1442,7 @@ func InternalValue() DataAwsccMediatailorChannelLogConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorChannel.DataAwsccMediatailorChannelOutputsDashPlaylistSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorchannel"
 
 dataawsccmediatailorchannel.NewDataAwsccMediatailorChannelOutputsDashPlaylistSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMediatailorChannelOutputsDashPlaylistSettingsOutputReference
 ```
@@ -1735,7 +1735,7 @@ func InternalValue() DataAwsccMediatailorChannelOutputsDashPlaylistSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorChannel.DataAwsccMediatailorChannelOutputsHlsPlaylistSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorchannel"
 
 dataawsccmediatailorchannel.NewDataAwsccMediatailorChannelOutputsHlsPlaylistSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMediatailorChannelOutputsHlsPlaylistSettingsOutputReference
 ```
@@ -2006,7 +2006,7 @@ func InternalValue() DataAwsccMediatailorChannelOutputsHlsPlaylistSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorChannel.DataAwsccMediatailorChannelOutputsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorchannel"
 
 dataawsccmediatailorchannel.NewDataAwsccMediatailorChannelOutputsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccMediatailorChannelOutputsList
 ```
@@ -2155,7 +2155,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorChannel.DataAwsccMediatailorChannelOutputsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorchannel"
 
 dataawsccmediatailorchannel.NewDataAwsccMediatailorChannelOutputsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccMediatailorChannelOutputsOutputReference
 ```
@@ -2466,7 +2466,7 @@ func InternalValue() DataAwsccMediatailorChannelOutputs
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorChannel.DataAwsccMediatailorChannelTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorchannel"
 
 dataawsccmediatailorchannel.NewDataAwsccMediatailorChannelTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccMediatailorChannelTagsList
 ```
@@ -2615,7 +2615,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorChannel.DataAwsccMediatailorChannelTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorchannel"
 
 dataawsccmediatailorchannel.NewDataAwsccMediatailorChannelTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccMediatailorChannelTagsOutputReference
 ```
@@ -2904,7 +2904,7 @@ func InternalValue() DataAwsccMediatailorChannelTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorChannel.DataAwsccMediatailorChannelTimeShiftConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorchannel"
 
 dataawsccmediatailorchannel.NewDataAwsccMediatailorChannelTimeShiftConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMediatailorChannelTimeShiftConfigurationOutputReference
 ```

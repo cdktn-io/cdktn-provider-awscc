@@ -4,12 +4,12 @@
 
 ### DataAwsccWafv2LoggingConfigurations <a name="DataAwsccWafv2LoggingConfigurations" id="@cdktn/provider-awscc.dataAwsccWafv2LoggingConfigurations.DataAwsccWafv2LoggingConfigurations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/wafv2_logging_configurations awscc_wafv2_logging_configurations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/wafv2_logging_configurations awscc_wafv2_logging_configurations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWafv2LoggingConfigurations.DataAwsccWafv2LoggingConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwafv2loggingconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwafv2loggingconfigurations"
 
 dataawsccwafv2loggingconfigurations.NewDataAwsccWafv2LoggingConfigurations(scope Construct, id *string, config DataAwsccWafv2LoggingConfigurationsConfig) DataAwsccWafv2LoggingConfigurations
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccWafv2LoggingConfigurations.DataAwsccWafv2LoggingConfigurations.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwafv2loggingconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwafv2loggingconfigurations"
 
 dataawsccwafv2loggingconfigurations.DataAwsccWafv2LoggingConfigurations_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccWafv2LoggingConfigurations.DataAwsccWafv2LoggingConfigurations.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwafv2loggingconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwafv2loggingconfigurations"
 
 dataawsccwafv2loggingconfigurations.DataAwsccWafv2LoggingConfigurations_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccwafv2loggingconfigurations.DataAwsccWafv2LoggingConfigurations_IsTerraf
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccWafv2LoggingConfigurations.DataAwsccWafv2LoggingConfigurations.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwafv2loggingconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwafv2loggingconfigurations"
 
 dataawsccwafv2loggingconfigurations.DataAwsccWafv2LoggingConfigurations_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccwafv2loggingconfigurations.DataAwsccWafv2LoggingConfigurations_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccWafv2LoggingConfigurations.DataAwsccWafv2LoggingConfigurations.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwafv2loggingconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwafv2loggingconfigurations"
 
 dataawsccwafv2loggingconfigurations.DataAwsccWafv2LoggingConfigurations_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccWafv2LoggingConfi
 
 The id of the existing DataAwsccWafv2LoggingConfigurations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/wafv2_logging_configurations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/wafv2_logging_configurations#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWafv2LoggingConfigurations.DataAwsccWafv2LoggingConfigurationsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwafv2loggingconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwafv2loggingconfigurations"
 
 &dataawsccwafv2loggingconfigurations.DataAwsccWafv2LoggingConfigurationsConfig {
 	Connection: interface{},

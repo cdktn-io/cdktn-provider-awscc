@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2NetworkPerformanceMetricSubscription <a name="DataAwsccEc2NetworkPerformanceMetricSubscription" id="@cdktn/provider-awscc.dataAwsccEc2NetworkPerformanceMetricSubscription.DataAwsccEc2NetworkPerformanceMetricSubscription"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_network_performance_metric_subscription awscc_ec2_network_performance_metric_subscription}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_network_performance_metric_subscription awscc_ec2_network_performance_metric_subscription}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2NetworkPerformanceMetricSubscription.DataAwsccEc2NetworkPerformanceMetricSubscription.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2networkperformancemetricsubscription"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2networkperformancemetricsubscription"
 
 dataawsccec2networkperformancemetricsubscription.NewDataAwsccEc2NetworkPerformanceMetricSubscription(scope Construct, id *string, config DataAwsccEc2NetworkPerformanceMetricSubscriptionConfig) DataAwsccEc2NetworkPerformanceMetricSubscription
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2NetworkPerformanceMetricSubscription.DataAwsccEc2NetworkPerformanceMetricSubscription.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2networkperformancemetricsubscription"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2networkperformancemetricsubscription"
 
 dataawsccec2networkperformancemetricsubscription.DataAwsccEc2NetworkPerformanceMetricSubscription_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2NetworkPerformanceMetricSubscription.DataAwsccEc2NetworkPerformanceMetricSubscription.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2networkperformancemetricsubscription"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2networkperformancemetricsubscription"
 
 dataawsccec2networkperformancemetricsubscription.DataAwsccEc2NetworkPerformanceMetricSubscription_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2networkperformancemetricsubscription.DataAwsccEc2NetworkPerformanceM
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2NetworkPerformanceMetricSubscription.DataAwsccEc2NetworkPerformanceMetricSubscription.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2networkperformancemetricsubscription"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2networkperformancemetricsubscription"
 
 dataawsccec2networkperformancemetricsubscription.DataAwsccEc2NetworkPerformanceMetricSubscription_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2networkperformancemetricsubscription.DataAwsccEc2NetworkPerformanceM
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2NetworkPerformanceMetricSubscription.DataAwsccEc2NetworkPerformanceMetricSubscription.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2networkperformancemetricsubscription"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2networkperformancemetricsubscription"
 
 dataawsccec2networkperformancemetricsubscription.DataAwsccEc2NetworkPerformanceMetricSubscription_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2NetworkPerform
 
 The id of the existing DataAwsccEc2NetworkPerformanceMetricSubscription that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_network_performance_metric_subscription#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_network_performance_metric_subscription#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -631,7 +631,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2NetworkPerformanceMetricSubscription.DataAwsccEc2NetworkPerformanceMetricSubscriptionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2networkperformancemetricsubscription"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2networkperformancemetricsubscription"
 
 &dataawsccec2networkperformancemetricsubscription.DataAwsccEc2NetworkPerformanceMetricSubscriptionConfig {
 	Connection: interface{},
@@ -740,7 +740,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_network_performance_metric_subscription#id DataAwsccEc2NetworkPerformanceMetricSubscription#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_network_performance_metric_subscription#id DataAwsccEc2NetworkPerformanceMetricSubscription#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

@@ -4,12 +4,12 @@
 
 ### DataAwsccRbinRule <a name="DataAwsccRbinRule" id="@cdktn/provider-awscc.dataAwsccRbinRule.DataAwsccRbinRule"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rbin_rule awscc_rbin_rule}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rbin_rule awscc_rbin_rule}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRbinRule.DataAwsccRbinRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrbinrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrbinrule"
 
 dataawsccrbinrule.NewDataAwsccRbinRule(scope Construct, id *string, config DataAwsccRbinRuleConfig) DataAwsccRbinRule
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccRbinRule.DataAwsccRbinRule.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrbinrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrbinrule"
 
 dataawsccrbinrule.DataAwsccRbinRule_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccRbinRule.DataAwsccRbinRule.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrbinrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrbinrule"
 
 dataawsccrbinrule.DataAwsccRbinRule_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccrbinrule.DataAwsccRbinRule_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccRbinRule.DataAwsccRbinRule.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrbinrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrbinrule"
 
 dataawsccrbinrule.DataAwsccRbinRule_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccrbinrule.DataAwsccRbinRule_IsTerraformDataSource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccRbinRule.DataAwsccRbinRule.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrbinrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrbinrule"
 
 dataawsccrbinrule.DataAwsccRbinRule_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRbinRule to impor
 
 The id of the existing DataAwsccRbinRule that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rbin_rule#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rbin_rule#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -708,7 +708,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRbinRule.DataAwsccRbinRuleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrbinrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrbinrule"
 
 &dataawsccrbinrule.DataAwsccRbinRuleConfig {
 	Connection: interface{},
@@ -817,7 +817,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rbin_rule#id DataAwsccRbinRule#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rbin_rule#id DataAwsccRbinRule#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -829,7 +829,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRbinRule.DataAwsccRbinRuleExcludeResourceTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrbinrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrbinrule"
 
 &dataawsccrbinrule.DataAwsccRbinRuleExcludeResourceTags {
 
@@ -842,7 +842,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrbinrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRbinRule.DataAwsccRbinRuleLockConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrbinrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrbinrule"
 
 &dataawsccrbinrule.DataAwsccRbinRuleLockConfiguration {
 
@@ -855,7 +855,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrbinrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRbinRule.DataAwsccRbinRuleResourceTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrbinrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrbinrule"
 
 &dataawsccrbinrule.DataAwsccRbinRuleResourceTags {
 
@@ -868,7 +868,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrbinrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRbinRule.DataAwsccRbinRuleRetentionPeriod.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrbinrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrbinrule"
 
 &dataawsccrbinrule.DataAwsccRbinRuleRetentionPeriod {
 
@@ -881,7 +881,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrbinrule"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRbinRule.DataAwsccRbinRuleTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrbinrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrbinrule"
 
 &dataawsccrbinrule.DataAwsccRbinRuleTags {
 
@@ -896,7 +896,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrbinrule"
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRbinRule.DataAwsccRbinRuleExcludeResourceTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrbinrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrbinrule"
 
 dataawsccrbinrule.NewDataAwsccRbinRuleExcludeResourceTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccRbinRuleExcludeResourceTagsList
 ```
@@ -1045,7 +1045,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRbinRule.DataAwsccRbinRuleExcludeResourceTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrbinrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrbinrule"
 
 dataawsccrbinrule.NewDataAwsccRbinRuleExcludeResourceTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccRbinRuleExcludeResourceTagsOutputReference
 ```
@@ -1334,7 +1334,7 @@ func InternalValue() DataAwsccRbinRuleExcludeResourceTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRbinRule.DataAwsccRbinRuleLockConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrbinrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrbinrule"
 
 dataawsccrbinrule.NewDataAwsccRbinRuleLockConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccRbinRuleLockConfigurationOutputReference
 ```
@@ -1605,7 +1605,7 @@ func InternalValue() DataAwsccRbinRuleLockConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRbinRule.DataAwsccRbinRuleResourceTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrbinrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrbinrule"
 
 dataawsccrbinrule.NewDataAwsccRbinRuleResourceTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccRbinRuleResourceTagsList
 ```
@@ -1754,7 +1754,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRbinRule.DataAwsccRbinRuleResourceTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrbinrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrbinrule"
 
 dataawsccrbinrule.NewDataAwsccRbinRuleResourceTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccRbinRuleResourceTagsOutputReference
 ```
@@ -2043,7 +2043,7 @@ func InternalValue() DataAwsccRbinRuleResourceTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRbinRule.DataAwsccRbinRuleRetentionPeriodOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrbinrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrbinrule"
 
 dataawsccrbinrule.NewDataAwsccRbinRuleRetentionPeriodOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccRbinRuleRetentionPeriodOutputReference
 ```
@@ -2314,7 +2314,7 @@ func InternalValue() DataAwsccRbinRuleRetentionPeriod
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRbinRule.DataAwsccRbinRuleTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrbinrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrbinrule"
 
 dataawsccrbinrule.NewDataAwsccRbinRuleTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccRbinRuleTagsList
 ```
@@ -2463,7 +2463,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRbinRule.DataAwsccRbinRuleTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrbinrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrbinrule"
 
 dataawsccrbinrule.NewDataAwsccRbinRuleTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccRbinRuleTagsOutputReference
 ```

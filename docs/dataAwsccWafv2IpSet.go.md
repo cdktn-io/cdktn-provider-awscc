@@ -4,12 +4,12 @@
 
 ### DataAwsccWafv2IpSet <a name="DataAwsccWafv2IpSet" id="@cdktn/provider-awscc.dataAwsccWafv2IpSet.DataAwsccWafv2IpSet"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/wafv2_ip_set awscc_wafv2_ip_set}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/wafv2_ip_set awscc_wafv2_ip_set}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWafv2IpSet.DataAwsccWafv2IpSet.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwafv2ipset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwafv2ipset"
 
 dataawsccwafv2ipset.NewDataAwsccWafv2IpSet(scope Construct, id *string, config DataAwsccWafv2IpSetConfig) DataAwsccWafv2IpSet
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccWafv2IpSet.DataAwsccWafv2IpSet.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwafv2ipset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwafv2ipset"
 
 dataawsccwafv2ipset.DataAwsccWafv2IpSet_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccWafv2IpSet.DataAwsccWafv2IpSet.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwafv2ipset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwafv2ipset"
 
 dataawsccwafv2ipset.DataAwsccWafv2IpSet_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccwafv2ipset.DataAwsccWafv2IpSet_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccWafv2IpSet.DataAwsccWafv2IpSet.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwafv2ipset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwafv2ipset"
 
 dataawsccwafv2ipset.DataAwsccWafv2IpSet_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccwafv2ipset.DataAwsccWafv2IpSet_IsTerraformDataSource(x interface{}) *bo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccWafv2IpSet.DataAwsccWafv2IpSet.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwafv2ipset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwafv2ipset"
 
 dataawsccwafv2ipset.DataAwsccWafv2IpSet_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccWafv2IpSet to imp
 
 The id of the existing DataAwsccWafv2IpSet that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/wafv2_ip_set#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/wafv2_ip_set#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -675,7 +675,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWafv2IpSet.DataAwsccWafv2IpSetConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwafv2ipset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwafv2ipset"
 
 &dataawsccwafv2ipset.DataAwsccWafv2IpSetConfig {
 	Connection: interface{},
@@ -784,7 +784,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/wafv2_ip_set#id DataAwsccWafv2IpSet#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/wafv2_ip_set#id DataAwsccWafv2IpSet#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -796,7 +796,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWafv2IpSet.DataAwsccWafv2IpSetTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwafv2ipset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwafv2ipset"
 
 &dataawsccwafv2ipset.DataAwsccWafv2IpSetTags {
 
@@ -811,7 +811,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwafv2ipset"
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWafv2IpSet.DataAwsccWafv2IpSetTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwafv2ipset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwafv2ipset"
 
 dataawsccwafv2ipset.NewDataAwsccWafv2IpSetTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccWafv2IpSetTagsList
 ```
@@ -960,7 +960,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWafv2IpSet.DataAwsccWafv2IpSetTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwafv2ipset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwafv2ipset"
 
 dataawsccwafv2ipset.NewDataAwsccWafv2IpSetTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccWafv2IpSetTagsOutputReference
 ```

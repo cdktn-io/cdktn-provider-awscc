@@ -4,12 +4,12 @@
 
 ### DataAwsccEventsv2ResourcePolicies <a name="DataAwsccEventsv2ResourcePolicies" id="@cdktn/provider-awscc.dataAwsccEventsv2ResourcePolicies.DataAwsccEventsv2ResourcePolicies"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/eventsv2_resource_policies awscc_eventsv2_resource_policies}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/eventsv2_resource_policies awscc_eventsv2_resource_policies}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsv2ResourcePolicies.DataAwsccEventsv2ResourcePolicies.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsv2resourcepolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsv2resourcepolicies"
 
 dataawscceventsv2resourcepolicies.NewDataAwsccEventsv2ResourcePolicies(scope Construct, id *string, config DataAwsccEventsv2ResourcePoliciesConfig) DataAwsccEventsv2ResourcePolicies
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEventsv2ResourcePolicies.DataAwsccEventsv2ResourcePolicies.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsv2resourcepolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsv2resourcepolicies"
 
 dataawscceventsv2resourcepolicies.DataAwsccEventsv2ResourcePolicies_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEventsv2ResourcePolicies.DataAwsccEventsv2ResourcePolicies.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsv2resourcepolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsv2resourcepolicies"
 
 dataawscceventsv2resourcepolicies.DataAwsccEventsv2ResourcePolicies_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscceventsv2resourcepolicies.DataAwsccEventsv2ResourcePolicies_IsTerraformE
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEventsv2ResourcePolicies.DataAwsccEventsv2ResourcePolicies.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsv2resourcepolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsv2resourcepolicies"
 
 dataawscceventsv2resourcepolicies.DataAwsccEventsv2ResourcePolicies_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscceventsv2resourcepolicies.DataAwsccEventsv2ResourcePolicies_IsTerraformD
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEventsv2ResourcePolicies.DataAwsccEventsv2ResourcePolicies.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsv2resourcepolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsv2resourcepolicies"
 
 dataawscceventsv2resourcepolicies.DataAwsccEventsv2ResourcePolicies_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEventsv2ResourceP
 
 The id of the existing DataAwsccEventsv2ResourcePolicies that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/eventsv2_resource_policies#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/eventsv2_resource_policies#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventsv2ResourcePolicies.DataAwsccEventsv2ResourcePoliciesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsv2resourcepolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsv2resourcepolicies"
 
 &dataawscceventsv2resourcepolicies.DataAwsccEventsv2ResourcePoliciesConfig {
 	Connection: interface{},

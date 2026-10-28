@@ -4,12 +4,12 @@
 
 ### DataAwsccIvschatRoom <a name="DataAwsccIvschatRoom" id="@cdktn/provider-awscc.dataAwsccIvschatRoom.DataAwsccIvschatRoom"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ivschat_room awscc_ivschat_room}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ivschat_room awscc_ivschat_room}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIvschatRoom.DataAwsccIvschatRoom.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivschatroom"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivschatroom"
 
 dataawsccivschatroom.NewDataAwsccIvschatRoom(scope Construct, id *string, config DataAwsccIvschatRoomConfig) DataAwsccIvschatRoom
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIvschatRoom.DataAwsccIvschatRoom.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivschatroom"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivschatroom"
 
 dataawsccivschatroom.DataAwsccIvschatRoom_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIvschatRoom.DataAwsccIvschatRoom.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivschatroom"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivschatroom"
 
 dataawsccivschatroom.DataAwsccIvschatRoom_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccivschatroom.DataAwsccIvschatRoom_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIvschatRoom.DataAwsccIvschatRoom.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivschatroom"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivschatroom"
 
 dataawsccivschatroom.DataAwsccIvschatRoom_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccivschatroom.DataAwsccIvschatRoom_IsTerraformDataSource(x interface{}) *
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIvschatRoom.DataAwsccIvschatRoom.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivschatroom"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivschatroom"
 
 dataawsccivschatroom.DataAwsccIvschatRoom_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIvschatRoom to im
 
 The id of the existing DataAwsccIvschatRoom that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ivschat_room#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ivschat_room#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -675,7 +675,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIvschatRoom.DataAwsccIvschatRoomConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivschatroom"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivschatroom"
 
 &dataawsccivschatroom.DataAwsccIvschatRoomConfig {
 	Connection: interface{},
@@ -784,7 +784,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ivschat_room#id DataAwsccIvschatRoom#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ivschat_room#id DataAwsccIvschatRoom#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -796,7 +796,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIvschatRoom.DataAwsccIvschatRoomMessageReviewHandler.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivschatroom"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivschatroom"
 
 &dataawsccivschatroom.DataAwsccIvschatRoomMessageReviewHandler {
 
@@ -809,7 +809,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivschatroom"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIvschatRoom.DataAwsccIvschatRoomTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivschatroom"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivschatroom"
 
 &dataawsccivschatroom.DataAwsccIvschatRoomTags {
 
@@ -824,7 +824,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivschatroom"
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIvschatRoom.DataAwsccIvschatRoomMessageReviewHandlerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivschatroom"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivschatroom"
 
 dataawsccivschatroom.NewDataAwsccIvschatRoomMessageReviewHandlerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIvschatRoomMessageReviewHandlerOutputReference
 ```
@@ -1095,7 +1095,7 @@ func InternalValue() DataAwsccIvschatRoomMessageReviewHandler
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIvschatRoom.DataAwsccIvschatRoomTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivschatroom"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivschatroom"
 
 dataawsccivschatroom.NewDataAwsccIvschatRoomTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIvschatRoomTagsList
 ```
@@ -1244,7 +1244,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIvschatRoom.DataAwsccIvschatRoomTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivschatroom"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivschatroom"
 
 dataawsccivschatroom.NewDataAwsccIvschatRoomTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIvschatRoomTagsOutputReference
 ```

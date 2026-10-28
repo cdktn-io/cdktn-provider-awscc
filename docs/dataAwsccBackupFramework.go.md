@@ -4,12 +4,12 @@
 
 ### DataAwsccBackupFramework <a name="DataAwsccBackupFramework" id="@cdktn/provider-awscc.dataAwsccBackupFramework.DataAwsccBackupFramework"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/backup_framework awscc_backup_framework}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/backup_framework awscc_backup_framework}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBackupFramework.DataAwsccBackupFramework.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupframework"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackupframework"
 
 dataawsccbackupframework.NewDataAwsccBackupFramework(scope Construct, id *string, config DataAwsccBackupFrameworkConfig) DataAwsccBackupFramework
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccBackupFramework.DataAwsccBackupFramework.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupframework"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackupframework"
 
 dataawsccbackupframework.DataAwsccBackupFramework_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccBackupFramework.DataAwsccBackupFramework.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupframework"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackupframework"
 
 dataawsccbackupframework.DataAwsccBackupFramework_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccbackupframework.DataAwsccBackupFramework_IsTerraformElement(x interface
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccBackupFramework.DataAwsccBackupFramework.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupframework"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackupframework"
 
 dataawsccbackupframework.DataAwsccBackupFramework_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccbackupframework.DataAwsccBackupFramework_IsTerraformDataSource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccBackupFramework.DataAwsccBackupFramework.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupframework"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackupframework"
 
 dataawsccbackupframework.DataAwsccBackupFramework_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccBackupFramework t
 
 The id of the existing DataAwsccBackupFramework that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/backup_framework#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/backup_framework#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -675,7 +675,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBackupFramework.DataAwsccBackupFrameworkConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupframework"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackupframework"
 
 &dataawsccbackupframework.DataAwsccBackupFrameworkConfig {
 	Connection: interface{},
@@ -784,7 +784,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/backup_framework#id DataAwsccBackupFramework#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/backup_framework#id DataAwsccBackupFramework#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -796,7 +796,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBackupFramework.DataAwsccBackupFrameworkFrameworkControls.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupframework"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackupframework"
 
 &dataawsccbackupframework.DataAwsccBackupFrameworkFrameworkControls {
 
@@ -809,7 +809,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupframewo
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBackupFramework.DataAwsccBackupFrameworkFrameworkControlsControlInputParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupframework"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackupframework"
 
 &dataawsccbackupframework.DataAwsccBackupFrameworkFrameworkControlsControlInputParameters {
 
@@ -822,7 +822,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupframewo
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBackupFramework.DataAwsccBackupFrameworkFrameworkControlsControlScope.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupframework"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackupframework"
 
 &dataawsccbackupframework.DataAwsccBackupFrameworkFrameworkControlsControlScope {
 
@@ -835,7 +835,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupframewo
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBackupFramework.DataAwsccBackupFrameworkFrameworkControlsControlScopeTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupframework"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackupframework"
 
 &dataawsccbackupframework.DataAwsccBackupFrameworkFrameworkControlsControlScopeTags {
 
@@ -848,7 +848,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupframewo
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBackupFramework.DataAwsccBackupFrameworkFrameworkTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupframework"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackupframework"
 
 &dataawsccbackupframework.DataAwsccBackupFrameworkFrameworkTags {
 
@@ -863,7 +863,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupframewo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBackupFramework.DataAwsccBackupFrameworkFrameworkControlsControlInputParametersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupframework"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackupframework"
 
 dataawsccbackupframework.NewDataAwsccBackupFrameworkFrameworkControlsControlInputParametersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBackupFrameworkFrameworkControlsControlInputParametersList
 ```
@@ -1012,7 +1012,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBackupFramework.DataAwsccBackupFrameworkFrameworkControlsControlInputParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupframework"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackupframework"
 
 dataawsccbackupframework.NewDataAwsccBackupFrameworkFrameworkControlsControlInputParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBackupFrameworkFrameworkControlsControlInputParametersOutputReference
 ```
@@ -1301,7 +1301,7 @@ func InternalValue() DataAwsccBackupFrameworkFrameworkControlsControlInputParame
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBackupFramework.DataAwsccBackupFrameworkFrameworkControlsControlScopeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupframework"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackupframework"
 
 dataawsccbackupframework.NewDataAwsccBackupFrameworkFrameworkControlsControlScopeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBackupFrameworkFrameworkControlsControlScopeOutputReference
 ```
@@ -1583,7 +1583,7 @@ func InternalValue() DataAwsccBackupFrameworkFrameworkControlsControlScope
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBackupFramework.DataAwsccBackupFrameworkFrameworkControlsControlScopeTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupframework"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackupframework"
 
 dataawsccbackupframework.NewDataAwsccBackupFrameworkFrameworkControlsControlScopeTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBackupFrameworkFrameworkControlsControlScopeTagsList
 ```
@@ -1732,7 +1732,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBackupFramework.DataAwsccBackupFrameworkFrameworkControlsControlScopeTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupframework"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackupframework"
 
 dataawsccbackupframework.NewDataAwsccBackupFrameworkFrameworkControlsControlScopeTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBackupFrameworkFrameworkControlsControlScopeTagsOutputReference
 ```
@@ -2021,7 +2021,7 @@ func InternalValue() DataAwsccBackupFrameworkFrameworkControlsControlScopeTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBackupFramework.DataAwsccBackupFrameworkFrameworkControlsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupframework"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackupframework"
 
 dataawsccbackupframework.NewDataAwsccBackupFrameworkFrameworkControlsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBackupFrameworkFrameworkControlsList
 ```
@@ -2170,7 +2170,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBackupFramework.DataAwsccBackupFrameworkFrameworkControlsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupframework"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackupframework"
 
 dataawsccbackupframework.NewDataAwsccBackupFrameworkFrameworkControlsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBackupFrameworkFrameworkControlsOutputReference
 ```
@@ -2470,7 +2470,7 @@ func InternalValue() DataAwsccBackupFrameworkFrameworkControls
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBackupFramework.DataAwsccBackupFrameworkFrameworkTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupframework"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackupframework"
 
 dataawsccbackupframework.NewDataAwsccBackupFrameworkFrameworkTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBackupFrameworkFrameworkTagsList
 ```
@@ -2619,7 +2619,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBackupFramework.DataAwsccBackupFrameworkFrameworkTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupframework"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackupframework"
 
 dataawsccbackupframework.NewDataAwsccBackupFrameworkFrameworkTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBackupFrameworkFrameworkTagsOutputReference
 ```

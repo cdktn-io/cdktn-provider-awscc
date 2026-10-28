@@ -4,12 +4,12 @@
 
 ### DataAwsccXraySamplingRule <a name="DataAwsccXraySamplingRule" id="@cdktn/provider-awscc.dataAwsccXraySamplingRule.DataAwsccXraySamplingRule"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/xray_sampling_rule awscc_xray_sampling_rule}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/xray_sampling_rule awscc_xray_sampling_rule}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccXraySamplingRule.DataAwsccXraySamplingRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccxraysamplingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccxraysamplingrule"
 
 dataawsccxraysamplingrule.NewDataAwsccXraySamplingRule(scope Construct, id *string, config DataAwsccXraySamplingRuleConfig) DataAwsccXraySamplingRule
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccXraySamplingRule.DataAwsccXraySamplingRule.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccxraysamplingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccxraysamplingrule"
 
 dataawsccxraysamplingrule.DataAwsccXraySamplingRule_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccXraySamplingRule.DataAwsccXraySamplingRule.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccxraysamplingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccxraysamplingrule"
 
 dataawsccxraysamplingrule.DataAwsccXraySamplingRule_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccxraysamplingrule.DataAwsccXraySamplingRule_IsTerraformElement(x interfa
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccXraySamplingRule.DataAwsccXraySamplingRule.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccxraysamplingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccxraysamplingrule"
 
 dataawsccxraysamplingrule.DataAwsccXraySamplingRule_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccxraysamplingrule.DataAwsccXraySamplingRule_IsTerraformDataSource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccXraySamplingRule.DataAwsccXraySamplingRule.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccxraysamplingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccxraysamplingrule"
 
 dataawsccxraysamplingrule.DataAwsccXraySamplingRule_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccXraySamplingRule 
 
 The id of the existing DataAwsccXraySamplingRule that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/xray_sampling_rule#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/xray_sampling_rule#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -653,7 +653,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccXraySamplingRule.DataAwsccXraySamplingRuleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccxraysamplingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccxraysamplingrule"
 
 &dataawsccxraysamplingrule.DataAwsccXraySamplingRuleConfig {
 	Connection: interface{},
@@ -762,7 +762,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/xray_sampling_rule#id DataAwsccXraySamplingRule#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/xray_sampling_rule#id DataAwsccXraySamplingRule#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -774,7 +774,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccXraySamplingRule.DataAwsccXraySamplingRuleSamplingRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccxraysamplingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccxraysamplingrule"
 
 &dataawsccxraysamplingrule.DataAwsccXraySamplingRuleSamplingRule {
 
@@ -787,7 +787,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccxraysamplingr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccXraySamplingRule.DataAwsccXraySamplingRuleSamplingRuleRecord.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccxraysamplingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccxraysamplingrule"
 
 &dataawsccxraysamplingrule.DataAwsccXraySamplingRuleSamplingRuleRecord {
 
@@ -800,7 +800,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccxraysamplingr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccXraySamplingRule.DataAwsccXraySamplingRuleSamplingRuleRecordSamplingRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccxraysamplingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccxraysamplingrule"
 
 &dataawsccxraysamplingrule.DataAwsccXraySamplingRuleSamplingRuleRecordSamplingRule {
 
@@ -813,7 +813,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccxraysamplingr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccXraySamplingRule.DataAwsccXraySamplingRuleSamplingRuleRecordSamplingRuleSamplingRateBoost.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccxraysamplingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccxraysamplingrule"
 
 &dataawsccxraysamplingrule.DataAwsccXraySamplingRuleSamplingRuleRecordSamplingRuleSamplingRateBoost {
 
@@ -826,7 +826,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccxraysamplingr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccXraySamplingRule.DataAwsccXraySamplingRuleSamplingRuleSamplingRateBoost.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccxraysamplingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccxraysamplingrule"
 
 &dataawsccxraysamplingrule.DataAwsccXraySamplingRuleSamplingRuleSamplingRateBoost {
 
@@ -839,7 +839,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccxraysamplingr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccXraySamplingRule.DataAwsccXraySamplingRuleSamplingRuleUpdate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccxraysamplingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccxraysamplingrule"
 
 &dataawsccxraysamplingrule.DataAwsccXraySamplingRuleSamplingRuleUpdate {
 
@@ -852,7 +852,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccxraysamplingr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccXraySamplingRule.DataAwsccXraySamplingRuleSamplingRuleUpdateSamplingRateBoost.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccxraysamplingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccxraysamplingrule"
 
 &dataawsccxraysamplingrule.DataAwsccXraySamplingRuleSamplingRuleUpdateSamplingRateBoost {
 
@@ -865,7 +865,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccxraysamplingr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccXraySamplingRule.DataAwsccXraySamplingRuleTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccxraysamplingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccxraysamplingrule"
 
 &dataawsccxraysamplingrule.DataAwsccXraySamplingRuleTags {
 
@@ -880,7 +880,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccxraysamplingr
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccXraySamplingRule.DataAwsccXraySamplingRuleSamplingRuleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccxraysamplingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccxraysamplingrule"
 
 dataawsccxraysamplingrule.NewDataAwsccXraySamplingRuleSamplingRuleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccXraySamplingRuleSamplingRuleOutputReference
 ```
@@ -1283,7 +1283,7 @@ func InternalValue() DataAwsccXraySamplingRuleSamplingRule
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccXraySamplingRule.DataAwsccXraySamplingRuleSamplingRuleRecordOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccxraysamplingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccxraysamplingrule"
 
 dataawsccxraysamplingrule.NewDataAwsccXraySamplingRuleSamplingRuleRecordOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccXraySamplingRuleSamplingRuleRecordOutputReference
 ```
@@ -1565,7 +1565,7 @@ func InternalValue() DataAwsccXraySamplingRuleSamplingRuleRecord
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccXraySamplingRule.DataAwsccXraySamplingRuleSamplingRuleRecordSamplingRuleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccxraysamplingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccxraysamplingrule"
 
 dataawsccxraysamplingrule.NewDataAwsccXraySamplingRuleSamplingRuleRecordSamplingRuleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccXraySamplingRuleSamplingRuleRecordSamplingRuleOutputReference
 ```
@@ -1968,7 +1968,7 @@ func InternalValue() DataAwsccXraySamplingRuleSamplingRuleRecordSamplingRule
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccXraySamplingRule.DataAwsccXraySamplingRuleSamplingRuleRecordSamplingRuleSamplingRateBoostOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccxraysamplingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccxraysamplingrule"
 
 dataawsccxraysamplingrule.NewDataAwsccXraySamplingRuleSamplingRuleRecordSamplingRuleSamplingRateBoostOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccXraySamplingRuleSamplingRuleRecordSamplingRuleSamplingRateBoostOutputReference
 ```
@@ -2239,7 +2239,7 @@ func InternalValue() DataAwsccXraySamplingRuleSamplingRuleRecordSamplingRuleSamp
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccXraySamplingRule.DataAwsccXraySamplingRuleSamplingRuleSamplingRateBoostOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccxraysamplingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccxraysamplingrule"
 
 dataawsccxraysamplingrule.NewDataAwsccXraySamplingRuleSamplingRuleSamplingRateBoostOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccXraySamplingRuleSamplingRuleSamplingRateBoostOutputReference
 ```
@@ -2510,7 +2510,7 @@ func InternalValue() DataAwsccXraySamplingRuleSamplingRuleSamplingRateBoost
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccXraySamplingRule.DataAwsccXraySamplingRuleSamplingRuleUpdateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccxraysamplingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccxraysamplingrule"
 
 dataawsccxraysamplingrule.NewDataAwsccXraySamplingRuleSamplingRuleUpdateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccXraySamplingRuleSamplingRuleUpdateOutputReference
 ```
@@ -2902,7 +2902,7 @@ func InternalValue() DataAwsccXraySamplingRuleSamplingRuleUpdate
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccXraySamplingRule.DataAwsccXraySamplingRuleSamplingRuleUpdateSamplingRateBoostOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccxraysamplingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccxraysamplingrule"
 
 dataawsccxraysamplingrule.NewDataAwsccXraySamplingRuleSamplingRuleUpdateSamplingRateBoostOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccXraySamplingRuleSamplingRuleUpdateSamplingRateBoostOutputReference
 ```
@@ -3173,7 +3173,7 @@ func InternalValue() DataAwsccXraySamplingRuleSamplingRuleUpdateSamplingRateBoos
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccXraySamplingRule.DataAwsccXraySamplingRuleTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccxraysamplingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccxraysamplingrule"
 
 dataawsccxraysamplingrule.NewDataAwsccXraySamplingRuleTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccXraySamplingRuleTagsList
 ```
@@ -3322,7 +3322,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccXraySamplingRule.DataAwsccXraySamplingRuleTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccxraysamplingrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccxraysamplingrule"
 
 dataawsccxraysamplingrule.NewDataAwsccXraySamplingRuleTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccXraySamplingRuleTagsOutputReference
 ```

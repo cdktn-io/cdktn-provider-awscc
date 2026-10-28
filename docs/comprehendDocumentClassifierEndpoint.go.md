@@ -4,12 +4,12 @@
 
 ### ComprehendDocumentClassifierEndpoint <a name="ComprehendDocumentClassifierEndpoint" id="@cdktn/provider-awscc.comprehendDocumentClassifierEndpoint.ComprehendDocumentClassifierEndpoint"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/comprehend_document_classifier_endpoint awscc_comprehend_document_classifier_endpoint}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/comprehend_document_classifier_endpoint awscc_comprehend_document_classifier_endpoint}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.comprehendDocumentClassifierEndpoint.ComprehendDocumentClassifierEndpoint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/comprehenddocumentclassifierendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/comprehenddocumentclassifierendpoint"
 
 comprehenddocumentclassifierendpoint.NewComprehendDocumentClassifierEndpoint(scope Construct, id *string, config ComprehendDocumentClassifierEndpointConfig) ComprehendDocumentClassifierEndpoint
 ```
@@ -420,7 +420,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.comprehendDocumentClassifierEndpoint.ComprehendDocumentClassifierEndpoint.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/comprehenddocumentclassifierendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/comprehenddocumentclassifierendpoint"
 
 comprehenddocumentclassifierendpoint.ComprehendDocumentClassifierEndpoint_IsConstruct(x interface{}) *bool
 ```
@@ -452,7 +452,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.comprehendDocumentClassifierEndpoint.ComprehendDocumentClassifierEndpoint.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/comprehenddocumentclassifierendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/comprehenddocumentclassifierendpoint"
 
 comprehenddocumentclassifierendpoint.ComprehendDocumentClassifierEndpoint_IsTerraformElement(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ comprehenddocumentclassifierendpoint.ComprehendDocumentClassifierEndpoint_IsTerr
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.comprehendDocumentClassifierEndpoint.ComprehendDocumentClassifierEndpoint.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/comprehenddocumentclassifierendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/comprehenddocumentclassifierendpoint"
 
 comprehenddocumentclassifierendpoint.ComprehendDocumentClassifierEndpoint_IsTerraformResource(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ comprehenddocumentclassifierendpoint.ComprehendDocumentClassifierEndpoint_IsTerr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.comprehendDocumentClassifierEndpoint.ComprehendDocumentClassifierEndpoint.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/comprehenddocumentclassifierendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/comprehenddocumentclassifierendpoint"
 
 comprehenddocumentclassifierendpoint.ComprehendDocumentClassifierEndpoint_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -509,7 +509,7 @@ The construct id used in the generated config for the ComprehendDocumentClassifi
 
 The id of the existing ComprehendDocumentClassifierEndpoint that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/comprehend_document_classifier_endpoint#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/comprehend_document_classifier_endpoint#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -852,7 +852,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.comprehendDocumentClassifierEndpoint.ComprehendDocumentClassifierEndpointConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/comprehenddocumentclassifierendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/comprehenddocumentclassifierendpoint"
 
 &comprehenddocumentclassifierendpoint.ComprehendDocumentClassifierEndpointConfig {
 	Connection: interface{},
@@ -969,7 +969,7 @@ The desired number of inference units to be used by the model.
 
 Each inference unit represents throughput of 100 characters per second.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/comprehend_document_classifier_endpoint#desired_inference_units ComprehendDocumentClassifierEndpoint#desired_inference_units}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/comprehend_document_classifier_endpoint#desired_inference_units ComprehendDocumentClassifierEndpoint#desired_inference_units}
 
 ---
 
@@ -983,7 +983,7 @@ EndpointName *string
 
 The name of the endpoint. The name must be unique within the AWS Region and account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/comprehend_document_classifier_endpoint#endpoint_name ComprehendDocumentClassifierEndpoint#endpoint_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/comprehend_document_classifier_endpoint#endpoint_name ComprehendDocumentClassifierEndpoint#endpoint_name}
 
 ---
 
@@ -997,7 +997,7 @@ ModelArn *string
 
 The Amazon Resource Name (ARN) of the document classifier model to which the endpoint is attached.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/comprehend_document_classifier_endpoint#model_arn ComprehendDocumentClassifierEndpoint#model_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/comprehend_document_classifier_endpoint#model_arn ComprehendDocumentClassifierEndpoint#model_arn}
 
 ---
 
@@ -1011,7 +1011,7 @@ Tags interface{}
 
 Tags associated with the endpoint being created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/comprehend_document_classifier_endpoint#tags ComprehendDocumentClassifierEndpoint#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/comprehend_document_classifier_endpoint#tags ComprehendDocumentClassifierEndpoint#tags}
 
 ---
 
@@ -1020,7 +1020,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.comprehendDocumentClassifierEndpoint.ComprehendDocumentClassifierEndpointTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/comprehenddocumentclassifierendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/comprehenddocumentclassifierendpoint"
 
 &comprehenddocumentclassifierendpoint.ComprehendDocumentClassifierEndpointTags {
 	Key: *string,
@@ -1047,7 +1047,7 @@ Key *string
 
 The initial part of a key-value pair that forms a tag associated with a given resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/comprehend_document_classifier_endpoint#key ComprehendDocumentClassifierEndpoint#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/comprehend_document_classifier_endpoint#key ComprehendDocumentClassifierEndpoint#key}
 
 ---
 
@@ -1061,7 +1061,7 @@ Value *string
 
 The second part of a key-value pair that forms a tag associated with a given resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/comprehend_document_classifier_endpoint#value ComprehendDocumentClassifierEndpoint#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/comprehend_document_classifier_endpoint#value ComprehendDocumentClassifierEndpoint#value}
 
 ---
 
@@ -1072,7 +1072,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.comprehendDocumentClassifierEndpoint.ComprehendDocumentClassifierEndpointTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/comprehenddocumentclassifierendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/comprehenddocumentclassifierendpoint"
 
 comprehenddocumentclassifierendpoint.NewComprehendDocumentClassifierEndpointTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ComprehendDocumentClassifierEndpointTagsList
 ```
@@ -1232,7 +1232,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.comprehendDocumentClassifierEndpoint.ComprehendDocumentClassifierEndpointTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/comprehenddocumentclassifierendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/comprehenddocumentclassifierendpoint"
 
 comprehenddocumentclassifierendpoint.NewComprehendDocumentClassifierEndpointTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ComprehendDocumentClassifierEndpointTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### PersonalizeMetricAttribution <a name="PersonalizeMetricAttribution" id="@cdktn/provider-awscc.personalizeMetricAttribution.PersonalizeMetricAttribution"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_metric_attribution awscc_personalize_metric_attribution}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/personalize_metric_attribution awscc_personalize_metric_attribution}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.personalizeMetricAttribution.PersonalizeMetricAttribution.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/personalizemetricattribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/personalizemetricattribution"
 
 personalizemetricattribution.NewPersonalizeMetricAttribution(scope Construct, id *string, config PersonalizeMetricAttributionConfig) PersonalizeMetricAttribution
 ```
@@ -426,7 +426,7 @@ func PutMetricsOutputConfig(value PersonalizeMetricAttributionMetricsOutputConfi
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.personalizeMetricAttribution.PersonalizeMetricAttribution.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/personalizemetricattribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/personalizemetricattribution"
 
 personalizemetricattribution.PersonalizeMetricAttribution_IsConstruct(x interface{}) *bool
 ```
@@ -458,7 +458,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.personalizeMetricAttribution.PersonalizeMetricAttribution.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/personalizemetricattribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/personalizemetricattribution"
 
 personalizemetricattribution.PersonalizeMetricAttribution_IsTerraformElement(x interface{}) *bool
 ```
@@ -472,7 +472,7 @@ personalizemetricattribution.PersonalizeMetricAttribution_IsTerraformElement(x i
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.personalizeMetricAttribution.PersonalizeMetricAttribution.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/personalizemetricattribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/personalizemetricattribution"
 
 personalizemetricattribution.PersonalizeMetricAttribution_IsTerraformResource(x interface{}) *bool
 ```
@@ -486,7 +486,7 @@ personalizemetricattribution.PersonalizeMetricAttribution_IsTerraformResource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.personalizeMetricAttribution.PersonalizeMetricAttribution.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/personalizemetricattribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/personalizemetricattribution"
 
 personalizemetricattribution.PersonalizeMetricAttribution_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -515,7 +515,7 @@ The construct id used in the generated config for the PersonalizeMetricAttributi
 
 The id of the existing PersonalizeMetricAttribution that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_metric_attribution#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/personalize_metric_attribution#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -836,7 +836,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.personalizeMetricAttribution.PersonalizeMetricAttributionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/personalizemetricattribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/personalizemetricattribution"
 
 &personalizemetricattribution.PersonalizeMetricAttributionConfig {
 	Connection: interface{},
@@ -848,7 +848,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/personalizemetricattri
 	Provisioners: *[]interface{},
 	DatasetGroupArn: *string,
 	Metrics: interface{},
-	MetricsOutputConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.personalizeMetricAttribution.PersonalizeMetricAttributionMetricsOutputConfig,
+	MetricsOutputConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.personalizeMetricAttribution.PersonalizeMetricAttributionMetricsOutputConfig,
 	Name: *string,
 }
 ```
@@ -951,7 +951,7 @@ DatasetGroupArn *string
 
 The ARN of the destination dataset group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_metric_attribution#dataset_group_arn PersonalizeMetricAttribution#dataset_group_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/personalize_metric_attribution#dataset_group_arn PersonalizeMetricAttribution#dataset_group_arn}
 
 ---
 
@@ -965,7 +965,7 @@ Metrics interface{}
 
 A list of metric attributes for the metric attribution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_metric_attribution#metrics PersonalizeMetricAttribution#metrics}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/personalize_metric_attribution#metrics PersonalizeMetricAttribution#metrics}
 
 ---
 
@@ -979,7 +979,7 @@ MetricsOutputConfig PersonalizeMetricAttributionMetricsOutputConfig
 
 The output configuration details for the metric attribution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_metric_attribution#metrics_output_config PersonalizeMetricAttribution#metrics_output_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/personalize_metric_attribution#metrics_output_config PersonalizeMetricAttribution#metrics_output_config}
 
 ---
 
@@ -993,7 +993,7 @@ Name *string
 
 The name of the metric attribution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_metric_attribution#name PersonalizeMetricAttribution#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/personalize_metric_attribution#name PersonalizeMetricAttribution#name}
 
 ---
 
@@ -1002,7 +1002,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.personalizeMetricAttribution.PersonalizeMetricAttributionMetrics.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/personalizemetricattribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/personalizemetricattribution"
 
 &personalizemetricattribution.PersonalizeMetricAttributionMetrics {
 	EventType: *string,
@@ -1031,7 +1031,7 @@ EventType *string
 
 The metric's event type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_metric_attribution#event_type PersonalizeMetricAttribution#event_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/personalize_metric_attribution#event_type PersonalizeMetricAttribution#event_type}
 
 ---
 
@@ -1045,7 +1045,7 @@ Expression *string
 
 The attribute's expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_metric_attribution#expression PersonalizeMetricAttribution#expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/personalize_metric_attribution#expression PersonalizeMetricAttribution#expression}
 
 ---
 
@@ -1059,7 +1059,7 @@ MetricName *string
 
 The metric's name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_metric_attribution#metric_name PersonalizeMetricAttribution#metric_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/personalize_metric_attribution#metric_name PersonalizeMetricAttribution#metric_name}
 
 ---
 
@@ -1068,11 +1068,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.personalizeMetricAttribution.PersonalizeMetricAttributionMetricsOutputConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/personalizemetricattribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/personalizemetricattribution"
 
 &personalizemetricattribution.PersonalizeMetricAttributionMetricsOutputConfig {
 	RoleArn: *string,
-	S3DataDestination: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.personalizeMetricAttribution.PersonalizeMetricAttributionMetricsOutputConfigS3DataDestination,
+	S3DataDestination: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.personalizeMetricAttribution.PersonalizeMetricAttributionMetricsOutputConfigS3DataDestination,
 }
 ```
 
@@ -1095,7 +1095,7 @@ RoleArn *string
 
 The ARN of the IAM role for the metric attribution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_metric_attribution#role_arn PersonalizeMetricAttribution#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/personalize_metric_attribution#role_arn PersonalizeMetricAttribution#role_arn}
 
 ---
 
@@ -1109,7 +1109,7 @@ S3DataDestination PersonalizeMetricAttributionMetricsOutputConfigS3DataDestinati
 
 The configuration details of an Amazon S3 output bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_metric_attribution#s3_data_destination PersonalizeMetricAttribution#s3_data_destination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/personalize_metric_attribution#s3_data_destination PersonalizeMetricAttribution#s3_data_destination}
 
 ---
 
@@ -1118,7 +1118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.personalizeMetricAttribution.PersonalizeMetricAttributionMetricsOutputConfigS3DataDestination.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/personalizemetricattribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/personalizemetricattribution"
 
 &personalizemetricattribution.PersonalizeMetricAttributionMetricsOutputConfigS3DataDestination {
 	KmsKeyArn: *string,
@@ -1145,7 +1145,7 @@ KmsKeyArn *string
 
 The ARN of the KMS key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_metric_attribution#kms_key_arn PersonalizeMetricAttribution#kms_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/personalize_metric_attribution#kms_key_arn PersonalizeMetricAttribution#kms_key_arn}
 
 ---
 
@@ -1159,7 +1159,7 @@ Path *string
 
 The file path of the Amazon S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_metric_attribution#path PersonalizeMetricAttribution#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/personalize_metric_attribution#path PersonalizeMetricAttribution#path}
 
 ---
 
@@ -1170,7 +1170,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.personalizeMetricAttribution.PersonalizeMetricAttributionMetricsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/personalizemetricattribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/personalizemetricattribution"
 
 personalizemetricattribution.NewPersonalizeMetricAttributionMetricsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) PersonalizeMetricAttributionMetricsList
 ```
@@ -1330,7 +1330,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.personalizeMetricAttribution.PersonalizeMetricAttributionMetricsOutputConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/personalizemetricattribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/personalizemetricattribution"
 
 personalizemetricattribution.NewPersonalizeMetricAttributionMetricsOutputConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) PersonalizeMetricAttributionMetricsOutputConfigOutputReference
 ```
@@ -1643,7 +1643,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.personalizeMetricAttribution.PersonalizeMetricAttributionMetricsOutputConfigS3DataDestinationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/personalizemetricattribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/personalizemetricattribution"
 
 personalizemetricattribution.NewPersonalizeMetricAttributionMetricsOutputConfigS3DataDestinationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) PersonalizeMetricAttributionMetricsOutputConfigS3DataDestinationOutputReference
 ```
@@ -1950,7 +1950,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.personalizeMetricAttribution.PersonalizeMetricAttributionMetricsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/personalizemetricattribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/personalizemetricattribution"
 
 personalizemetricattribution.NewPersonalizeMetricAttributionMetricsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) PersonalizeMetricAttributionMetricsOutputReference
 ```

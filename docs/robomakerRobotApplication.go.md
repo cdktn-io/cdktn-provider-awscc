@@ -4,12 +4,12 @@
 
 ### RobomakerRobotApplication <a name="RobomakerRobotApplication" id="@cdktn/provider-awscc.robomakerRobotApplication.RobomakerRobotApplication"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/robomaker_robot_application awscc_robomaker_robot_application}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/robomaker_robot_application awscc_robomaker_robot_application}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.robomakerRobotApplication.RobomakerRobotApplication.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/robomakerrobotapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/robomakerrobotapplication"
 
 robomakerrobotapplication.NewRobomakerRobotApplication(scope Construct, id *string, config RobomakerRobotApplicationConfig) RobomakerRobotApplication
 ```
@@ -461,7 +461,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.robomakerRobotApplication.RobomakerRobotApplication.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/robomakerrobotapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/robomakerrobotapplication"
 
 robomakerrobotapplication.RobomakerRobotApplication_IsConstruct(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.robomakerRobotApplication.RobomakerRobotApplication.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/robomakerrobotapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/robomakerrobotapplication"
 
 robomakerrobotapplication.RobomakerRobotApplication_IsTerraformElement(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ robomakerrobotapplication.RobomakerRobotApplication_IsTerraformElement(x interfa
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.robomakerRobotApplication.RobomakerRobotApplication.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/robomakerrobotapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/robomakerrobotapplication"
 
 robomakerrobotapplication.RobomakerRobotApplication_IsTerraformResource(x interface{}) *bool
 ```
@@ -521,7 +521,7 @@ robomakerrobotapplication.RobomakerRobotApplication_IsTerraformResource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.robomakerRobotApplication.RobomakerRobotApplication.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/robomakerrobotapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/robomakerrobotapplication"
 
 robomakerrobotapplication.RobomakerRobotApplication_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -550,7 +550,7 @@ The construct id used in the generated config for the RobomakerRobotApplication 
 
 The id of the existing RobomakerRobotApplication that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/robomaker_robot_application#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/robomaker_robot_application#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -904,7 +904,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.robomakerRobotApplication.RobomakerRobotApplicationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/robomakerrobotapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/robomakerrobotapplication"
 
 &robomakerrobotapplication.RobomakerRobotApplicationConfig {
 	Connection: interface{},
@@ -914,7 +914,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/robomakerrobotapplicat
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	RobotSoftwareSuite: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.robomakerRobotApplication.RobomakerRobotApplicationRobotSoftwareSuite,
+	RobotSoftwareSuite: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.robomakerRobotApplication.RobomakerRobotApplicationRobotSoftwareSuite,
 	CurrentRevisionId: *string,
 	Environment: *string,
 	Name: *string,
@@ -1023,7 +1023,7 @@ RobotSoftwareSuite RobomakerRobotApplicationRobotSoftwareSuite
 
 The robot software suite used by the robot application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/robomaker_robot_application#robot_software_suite RobomakerRobotApplication#robot_software_suite}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/robomaker_robot_application#robot_software_suite RobomakerRobotApplication#robot_software_suite}
 
 ---
 
@@ -1037,7 +1037,7 @@ CurrentRevisionId *string
 
 The revision ID of robot application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/robomaker_robot_application#current_revision_id RobomakerRobotApplication#current_revision_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/robomaker_robot_application#current_revision_id RobomakerRobotApplication#current_revision_id}
 
 ---
 
@@ -1051,7 +1051,7 @@ Environment *string
 
 The URI of the Docker image for the robot application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/robomaker_robot_application#environment RobomakerRobotApplication#environment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/robomaker_robot_application#environment RobomakerRobotApplication#environment}
 
 ---
 
@@ -1065,7 +1065,7 @@ Name *string
 
 The name of the robot application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/robomaker_robot_application#name RobomakerRobotApplication#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/robomaker_robot_application#name RobomakerRobotApplication#name}
 
 ---
 
@@ -1079,7 +1079,7 @@ Sources interface{}
 
 The sources of the robot application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/robomaker_robot_application#sources RobomakerRobotApplication#sources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/robomaker_robot_application#sources RobomakerRobotApplication#sources}
 
 ---
 
@@ -1093,7 +1093,7 @@ Tags *map[string]*string
 
 A key-value pair to associate with a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/robomaker_robot_application#tags RobomakerRobotApplication#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/robomaker_robot_application#tags RobomakerRobotApplication#tags}
 
 ---
 
@@ -1102,7 +1102,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.robomakerRobotApplication.RobomakerRobotApplicationRobotSoftwareSuite.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/robomakerrobotapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/robomakerrobotapplication"
 
 &robomakerrobotapplication.RobomakerRobotApplicationRobotSoftwareSuite {
 	Name: *string,
@@ -1129,7 +1129,7 @@ Name *string
 
 The name of robot software suite.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/robomaker_robot_application#name RobomakerRobotApplication#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/robomaker_robot_application#name RobomakerRobotApplication#name}
 
 ---
 
@@ -1143,7 +1143,7 @@ Version *string
 
 The version of robot software suite.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/robomaker_robot_application#version RobomakerRobotApplication#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/robomaker_robot_application#version RobomakerRobotApplication#version}
 
 ---
 
@@ -1152,7 +1152,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.robomakerRobotApplication.RobomakerRobotApplicationSources.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/robomakerrobotapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/robomakerrobotapplication"
 
 &robomakerrobotapplication.RobomakerRobotApplicationSources {
 	Architecture: *string,
@@ -1181,7 +1181,7 @@ Architecture *string
 
 The architecture of robot application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/robomaker_robot_application#architecture RobomakerRobotApplication#architecture}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/robomaker_robot_application#architecture RobomakerRobotApplication#architecture}
 
 ---
 
@@ -1195,7 +1195,7 @@ S3Bucket *string
 
 The Arn of the S3Bucket that stores the robot application source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/robomaker_robot_application#s3_bucket RobomakerRobotApplication#s3_bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/robomaker_robot_application#s3_bucket RobomakerRobotApplication#s3_bucket}
 
 ---
 
@@ -1209,7 +1209,7 @@ S3Key *string
 
 The s3 key of robot application source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/robomaker_robot_application#s3_key RobomakerRobotApplication#s3_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/robomaker_robot_application#s3_key RobomakerRobotApplication#s3_key}
 
 ---
 
@@ -1220,7 +1220,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.robomakerRobotApplication.RobomakerRobotApplicationRobotSoftwareSuiteOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/robomakerrobotapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/robomakerrobotapplication"
 
 robomakerrobotapplication.NewRobomakerRobotApplicationRobotSoftwareSuiteOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) RobomakerRobotApplicationRobotSoftwareSuiteOutputReference
 ```
@@ -1520,7 +1520,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.robomakerRobotApplication.RobomakerRobotApplicationSourcesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/robomakerrobotapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/robomakerrobotapplication"
 
 robomakerrobotapplication.NewRobomakerRobotApplicationSourcesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) RobomakerRobotApplicationSourcesList
 ```
@@ -1680,7 +1680,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.robomakerRobotApplication.RobomakerRobotApplicationSourcesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/robomakerrobotapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/robomakerrobotapplication"
 
 robomakerrobotapplication.NewRobomakerRobotApplicationSourcesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) RobomakerRobotApplicationSourcesOutputReference
 ```

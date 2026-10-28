@@ -4,12 +4,12 @@
 
 ### DataAwsccArczonalshiftAutoshiftObserverNotificationStatuses <a name="DataAwsccArczonalshiftAutoshiftObserverNotificationStatuses" id="@cdktn/provider-awscc.dataAwsccArczonalshiftAutoshiftObserverNotificationStatuses.DataAwsccArczonalshiftAutoshiftObserverNotificationStatuses"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/arczonalshift_autoshift_observer_notification_statuses awscc_arczonalshift_autoshift_observer_notification_statuses}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/arczonalshift_autoshift_observer_notification_statuses awscc_arczonalshift_autoshift_observer_notification_statuses}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccArczonalshiftAutoshiftObserverNotificationStatuses.DataAwsccArczonalshiftAutoshiftObserverNotificationStatuses.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccarczonalshiftautoshiftobservernotificationstatuses"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccarczonalshiftautoshiftobservernotificationstatuses"
 
 dataawsccarczonalshiftautoshiftobservernotificationstatuses.NewDataAwsccArczonalshiftAutoshiftObserverNotificationStatuses(scope Construct, id *string, config DataAwsccArczonalshiftAutoshiftObserverNotificationStatusesConfig) DataAwsccArczonalshiftAutoshiftObserverNotificationStatuses
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccArczonalshiftAutoshiftObserverNotificationStatuses.DataAwsccArczonalshiftAutoshiftObserverNotificationStatuses.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccarczonalshiftautoshiftobservernotificationstatuses"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccarczonalshiftautoshiftobservernotificationstatuses"
 
 dataawsccarczonalshiftautoshiftobservernotificationstatuses.DataAwsccArczonalshiftAutoshiftObserverNotificationStatuses_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccArczonalshiftAutoshiftObserverNotificationStatuses.DataAwsccArczonalshiftAutoshiftObserverNotificationStatuses.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccarczonalshiftautoshiftobservernotificationstatuses"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccarczonalshiftautoshiftobservernotificationstatuses"
 
 dataawsccarczonalshiftautoshiftobservernotificationstatuses.DataAwsccArczonalshiftAutoshiftObserverNotificationStatuses_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccarczonalshiftautoshiftobservernotificationstatuses.DataAwsccArczonalshi
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccArczonalshiftAutoshiftObserverNotificationStatuses.DataAwsccArczonalshiftAutoshiftObserverNotificationStatuses.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccarczonalshiftautoshiftobservernotificationstatuses"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccarczonalshiftautoshiftobservernotificationstatuses"
 
 dataawsccarczonalshiftautoshiftobservernotificationstatuses.DataAwsccArczonalshiftAutoshiftObserverNotificationStatuses_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccarczonalshiftautoshiftobservernotificationstatuses.DataAwsccArczonalshi
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccArczonalshiftAutoshiftObserverNotificationStatuses.DataAwsccArczonalshiftAutoshiftObserverNotificationStatuses.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccarczonalshiftautoshiftobservernotificationstatuses"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccarczonalshiftautoshiftobservernotificationstatuses"
 
 dataawsccarczonalshiftautoshiftobservernotificationstatuses.DataAwsccArczonalshiftAutoshiftObserverNotificationStatuses_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccArczonalshiftAuto
 
 The id of the existing DataAwsccArczonalshiftAutoshiftObserverNotificationStatuses that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/arczonalshift_autoshift_observer_notification_statuses#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/arczonalshift_autoshift_observer_notification_statuses#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccArczonalshiftAutoshiftObserverNotificationStatuses.DataAwsccArczonalshiftAutoshiftObserverNotificationStatusesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccarczonalshiftautoshiftobservernotificationstatuses"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccarczonalshiftautoshiftobservernotificationstatuses"
 
 &dataawsccarczonalshiftautoshiftobservernotificationstatuses.DataAwsccArczonalshiftAutoshiftObserverNotificationStatusesConfig {
 	Connection: interface{},

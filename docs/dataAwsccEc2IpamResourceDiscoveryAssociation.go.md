@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2IpamResourceDiscoveryAssociation <a name="DataAwsccEc2IpamResourceDiscoveryAssociation" id="@cdktn/provider-awscc.dataAwsccEc2IpamResourceDiscoveryAssociation.DataAwsccEc2IpamResourceDiscoveryAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_ipam_resource_discovery_association awscc_ec2_ipam_resource_discovery_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_ipam_resource_discovery_association awscc_ec2_ipam_resource_discovery_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2IpamResourceDiscoveryAssociation.DataAwsccEc2IpamResourceDiscoveryAssociation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipamresourcediscoveryassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ipamresourcediscoveryassociation"
 
 dataawsccec2ipamresourcediscoveryassociation.NewDataAwsccEc2IpamResourceDiscoveryAssociation(scope Construct, id *string, config DataAwsccEc2IpamResourceDiscoveryAssociationConfig) DataAwsccEc2IpamResourceDiscoveryAssociation
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2IpamResourceDiscoveryAssociation.DataAwsccEc2IpamResourceDiscoveryAssociation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipamresourcediscoveryassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ipamresourcediscoveryassociation"
 
 dataawsccec2ipamresourcediscoveryassociation.DataAwsccEc2IpamResourceDiscoveryAssociation_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2IpamResourceDiscoveryAssociation.DataAwsccEc2IpamResourceDiscoveryAssociation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipamresourcediscoveryassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ipamresourcediscoveryassociation"
 
 dataawsccec2ipamresourcediscoveryassociation.DataAwsccEc2IpamResourceDiscoveryAssociation_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2ipamresourcediscoveryassociation.DataAwsccEc2IpamResourceDiscoveryAs
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2IpamResourceDiscoveryAssociation.DataAwsccEc2IpamResourceDiscoveryAssociation.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipamresourcediscoveryassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ipamresourcediscoveryassociation"
 
 dataawsccec2ipamresourcediscoveryassociation.DataAwsccEc2IpamResourceDiscoveryAssociation_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2ipamresourcediscoveryassociation.DataAwsccEc2IpamResourceDiscoveryAs
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2IpamResourceDiscoveryAssociation.DataAwsccEc2IpamResourceDiscoveryAssociation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipamresourcediscoveryassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ipamresourcediscoveryassociation"
 
 dataawsccec2ipamresourcediscoveryassociation.DataAwsccEc2IpamResourceDiscoveryAssociation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2IpamResourceDi
 
 The id of the existing DataAwsccEc2IpamResourceDiscoveryAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_ipam_resource_discovery_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_ipam_resource_discovery_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -708,7 +708,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2IpamResourceDiscoveryAssociation.DataAwsccEc2IpamResourceDiscoveryAssociationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipamresourcediscoveryassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ipamresourcediscoveryassociation"
 
 &dataawsccec2ipamresourcediscoveryassociation.DataAwsccEc2IpamResourceDiscoveryAssociationConfig {
 	Connection: interface{},
@@ -817,7 +817,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_ipam_resource_discovery_association#id DataAwsccEc2IpamResourceDiscoveryAssociation#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_ipam_resource_discovery_association#id DataAwsccEc2IpamResourceDiscoveryAssociation#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -829,7 +829,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2IpamResourceDiscoveryAssociation.DataAwsccEc2IpamResourceDiscoveryAssociationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipamresourcediscoveryassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ipamresourcediscoveryassociation"
 
 &dataawsccec2ipamresourcediscoveryassociation.DataAwsccEc2IpamResourceDiscoveryAssociationTags {
 
@@ -844,7 +844,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipamresour
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2IpamResourceDiscoveryAssociation.DataAwsccEc2IpamResourceDiscoveryAssociationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipamresourcediscoveryassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ipamresourcediscoveryassociation"
 
 dataawsccec2ipamresourcediscoveryassociation.NewDataAwsccEc2IpamResourceDiscoveryAssociationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEc2IpamResourceDiscoveryAssociationTagsList
 ```
@@ -993,7 +993,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2IpamResourceDiscoveryAssociation.DataAwsccEc2IpamResourceDiscoveryAssociationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipamresourcediscoveryassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ipamresourcediscoveryassociation"
 
 dataawsccec2ipamresourcediscoveryassociation.NewDataAwsccEc2IpamResourceDiscoveryAssociationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEc2IpamResourceDiscoveryAssociationTagsOutputReference
 ```

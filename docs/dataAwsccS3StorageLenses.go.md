@@ -4,12 +4,12 @@
 
 ### DataAwsccS3StorageLenses <a name="DataAwsccS3StorageLenses" id="@cdktn/provider-awscc.dataAwsccS3StorageLenses.DataAwsccS3StorageLenses"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3_storage_lenses awscc_s3_storage_lenses}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3_storage_lenses awscc_s3_storage_lenses}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3StorageLenses.DataAwsccS3StorageLenses.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelenses"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelenses"
 
 dataawsccs3storagelenses.NewDataAwsccS3StorageLenses(scope Construct, id *string, config DataAwsccS3StorageLensesConfig) DataAwsccS3StorageLenses
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccS3StorageLenses.DataAwsccS3StorageLenses.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelenses"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelenses"
 
 dataawsccs3storagelenses.DataAwsccS3StorageLenses_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccS3StorageLenses.DataAwsccS3StorageLenses.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelenses"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelenses"
 
 dataawsccs3storagelenses.DataAwsccS3StorageLenses_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccs3storagelenses.DataAwsccS3StorageLenses_IsTerraformElement(x interface
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccS3StorageLenses.DataAwsccS3StorageLenses.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelenses"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelenses"
 
 dataawsccs3storagelenses.DataAwsccS3StorageLenses_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccs3storagelenses.DataAwsccS3StorageLenses_IsTerraformDataSource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccS3StorageLenses.DataAwsccS3StorageLenses.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelenses"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelenses"
 
 dataawsccs3storagelenses.DataAwsccS3StorageLenses_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccS3StorageLenses t
 
 The id of the existing DataAwsccS3StorageLenses that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3_storage_lenses#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3_storage_lenses#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3StorageLenses.DataAwsccS3StorageLensesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelenses"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelenses"
 
 &dataawsccs3storagelenses.DataAwsccS3StorageLensesConfig {
 	Connection: interface{},

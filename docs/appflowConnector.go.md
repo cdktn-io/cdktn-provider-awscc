@@ -4,12 +4,12 @@
 
 ### AppflowConnector <a name="AppflowConnector" id="@cdktn/provider-awscc.appflowConnector.AppflowConnector"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appflow_connector awscc_appflow_connector}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appflow_connector awscc_appflow_connector}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appflowConnector.AppflowConnector.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appflowconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appflowconnector"
 
 appflowconnector.NewAppflowConnector(scope Construct, id *string, config AppflowConnectorConfig) AppflowConnector
 ```
@@ -427,7 +427,7 @@ func ResetDescription()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.appflowConnector.AppflowConnector.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appflowconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appflowconnector"
 
 appflowconnector.AppflowConnector_IsConstruct(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.appflowConnector.AppflowConnector.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appflowconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appflowconnector"
 
 appflowconnector.AppflowConnector_IsTerraformElement(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ appflowconnector.AppflowConnector_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.appflowConnector.AppflowConnector.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appflowconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appflowconnector"
 
 appflowconnector.AppflowConnector_IsTerraformResource(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ appflowconnector.AppflowConnector_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.appflowConnector.AppflowConnector.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appflowconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appflowconnector"
 
 appflowconnector.AppflowConnector_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -516,7 +516,7 @@ The construct id used in the generated config for the AppflowConnector to import
 
 The id of the existing AppflowConnector that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appflow_connector#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appflow_connector#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -826,7 +826,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.appflowConnector.AppflowConnectorConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appflowconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appflowconnector"
 
 &appflowconnector.AppflowConnectorConfig {
 	Connection: interface{},
@@ -836,7 +836,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appflowconnector"
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	ConnectorProvisioningConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.appflowConnector.AppflowConnectorConnectorProvisioningConfig,
+	ConnectorProvisioningConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.appflowConnector.AppflowConnectorConnectorProvisioningConfig,
 	ConnectorProvisioningType: *string,
 	ConnectorLabel: *string,
 	Description: *string,
@@ -941,7 +941,7 @@ ConnectorProvisioningConfig AppflowConnectorConnectorProvisioningConfig
 
 Contains information about the configuration of the connector being registered.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appflow_connector#connector_provisioning_config AppflowConnector#connector_provisioning_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appflow_connector#connector_provisioning_config AppflowConnector#connector_provisioning_config}
 
 ---
 
@@ -955,7 +955,7 @@ ConnectorProvisioningType *string
 
 The provisioning type of the connector. Currently the only supported value is LAMBDA.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appflow_connector#connector_provisioning_type AppflowConnector#connector_provisioning_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appflow_connector#connector_provisioning_type AppflowConnector#connector_provisioning_type}
 
 ---
 
@@ -969,7 +969,7 @@ ConnectorLabel *string
 
 The name of the connector. The name is unique for each ConnectorRegistration in your AWS account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appflow_connector#connector_label AppflowConnector#connector_label}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appflow_connector#connector_label AppflowConnector#connector_label}
 
 ---
 
@@ -983,7 +983,7 @@ Description *string
 
 A description about the connector that's being registered.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appflow_connector#description AppflowConnector#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appflow_connector#description AppflowConnector#description}
 
 ---
 
@@ -992,10 +992,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.appflowConnector.AppflowConnectorConnectorProvisioningConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appflowconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appflowconnector"
 
 &appflowconnector.AppflowConnectorConnectorProvisioningConfig {
-	Lambda: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.appflowConnector.AppflowConnectorConnectorProvisioningConfigLambda,
+	Lambda: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.appflowConnector.AppflowConnectorConnectorProvisioningConfigLambda,
 }
 ```
 
@@ -1017,7 +1017,7 @@ Lambda AppflowConnectorConnectorProvisioningConfigLambda
 
 Contains information about the configuration of the lambda which is being registered as the connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appflow_connector#lambda AppflowConnector#lambda}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appflow_connector#lambda AppflowConnector#lambda}
 
 ---
 
@@ -1026,7 +1026,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.appflowConnector.AppflowConnectorConnectorProvisioningConfigLambda.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appflowconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appflowconnector"
 
 &appflowconnector.AppflowConnectorConnectorProvisioningConfigLambda {
 	LambdaArn: *string,
@@ -1051,7 +1051,7 @@ LambdaArn *string
 
 Lambda ARN of the connector being registered.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appflow_connector#lambda_arn AppflowConnector#lambda_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appflow_connector#lambda_arn AppflowConnector#lambda_arn}
 
 ---
 
@@ -1062,7 +1062,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appflowConnector.AppflowConnectorConnectorProvisioningConfigLambdaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appflowconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appflowconnector"
 
 appflowconnector.NewAppflowConnectorConnectorProvisioningConfigLambdaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) AppflowConnectorConnectorProvisioningConfigLambdaOutputReference
 ```
@@ -1340,7 +1340,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appflowConnector.AppflowConnectorConnectorProvisioningConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appflowconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appflowconnector"
 
 appflowconnector.NewAppflowConnectorConnectorProvisioningConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) AppflowConnectorConnectorProvisioningConfigOutputReference
 ```

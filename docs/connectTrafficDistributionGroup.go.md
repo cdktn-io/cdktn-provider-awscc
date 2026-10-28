@@ -4,12 +4,12 @@
 
 ### ConnectTrafficDistributionGroup <a name="ConnectTrafficDistributionGroup" id="@cdktn/provider-awscc.connectTrafficDistributionGroup.ConnectTrafficDistributionGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_traffic_distribution_group awscc_connect_traffic_distribution_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_traffic_distribution_group awscc_connect_traffic_distribution_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectTrafficDistributionGroup.ConnectTrafficDistributionGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecttrafficdistributiongroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecttrafficdistributiongroup"
 
 connecttrafficdistributiongroup.NewConnectTrafficDistributionGroup(scope Construct, id *string, config ConnectTrafficDistributionGroupConfig) ConnectTrafficDistributionGroup
 ```
@@ -427,7 +427,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.connectTrafficDistributionGroup.ConnectTrafficDistributionGroup.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecttrafficdistributiongroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecttrafficdistributiongroup"
 
 connecttrafficdistributiongroup.ConnectTrafficDistributionGroup_IsConstruct(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.connectTrafficDistributionGroup.ConnectTrafficDistributionGroup.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecttrafficdistributiongroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecttrafficdistributiongroup"
 
 connecttrafficdistributiongroup.ConnectTrafficDistributionGroup_IsTerraformElement(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ connecttrafficdistributiongroup.ConnectTrafficDistributionGroup_IsTerraformEleme
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.connectTrafficDistributionGroup.ConnectTrafficDistributionGroup.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecttrafficdistributiongroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecttrafficdistributiongroup"
 
 connecttrafficdistributiongroup.ConnectTrafficDistributionGroup_IsTerraformResource(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ connecttrafficdistributiongroup.ConnectTrafficDistributionGroup_IsTerraformResou
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.connectTrafficDistributionGroup.ConnectTrafficDistributionGroup.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecttrafficdistributiongroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecttrafficdistributiongroup"
 
 connecttrafficdistributiongroup.ConnectTrafficDistributionGroup_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -516,7 +516,7 @@ The construct id used in the generated config for the ConnectTrafficDistribution
 
 The id of the existing ConnectTrafficDistributionGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_traffic_distribution_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_traffic_distribution_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -848,7 +848,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectTrafficDistributionGroup.ConnectTrafficDistributionGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecttrafficdistributiongroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecttrafficdistributiongroup"
 
 &connecttrafficdistributiongroup.ConnectTrafficDistributionGroupConfig {
 	Connection: interface{},
@@ -963,7 +963,7 @@ InstanceArn *string
 
 The identifier of the Amazon Connect instance that has been replicated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_traffic_distribution_group#instance_arn ConnectTrafficDistributionGroup#instance_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_traffic_distribution_group#instance_arn ConnectTrafficDistributionGroup#instance_arn}
 
 ---
 
@@ -977,7 +977,7 @@ Name *string
 
 The name for the traffic distribution group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_traffic_distribution_group#name ConnectTrafficDistributionGroup#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_traffic_distribution_group#name ConnectTrafficDistributionGroup#name}
 
 ---
 
@@ -991,7 +991,7 @@ Description *string
 
 A description for the traffic distribution group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_traffic_distribution_group#description ConnectTrafficDistributionGroup#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_traffic_distribution_group#description ConnectTrafficDistributionGroup#description}
 
 ---
 
@@ -1005,7 +1005,7 @@ Tags interface{}
 
 One or more tags.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_traffic_distribution_group#tags ConnectTrafficDistributionGroup#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_traffic_distribution_group#tags ConnectTrafficDistributionGroup#tags}
 
 ---
 
@@ -1014,7 +1014,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectTrafficDistributionGroup.ConnectTrafficDistributionGroupTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecttrafficdistributiongroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecttrafficdistributiongroup"
 
 &connecttrafficdistributiongroup.ConnectTrafficDistributionGroupTags {
 	Key: *string,
@@ -1043,7 +1043,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_traffic_distribution_group#key ConnectTrafficDistributionGroup#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_traffic_distribution_group#key ConnectTrafficDistributionGroup#key}
 
 ---
 
@@ -1059,7 +1059,7 @@ The value for the tag.
 
 You can specify a value that is 1 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_traffic_distribution_group#value ConnectTrafficDistributionGroup#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_traffic_distribution_group#value ConnectTrafficDistributionGroup#value}
 
 ---
 
@@ -1070,7 +1070,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectTrafficDistributionGroup.ConnectTrafficDistributionGroupTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecttrafficdistributiongroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecttrafficdistributiongroup"
 
 connecttrafficdistributiongroup.NewConnectTrafficDistributionGroupTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ConnectTrafficDistributionGroupTagsList
 ```
@@ -1230,7 +1230,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectTrafficDistributionGroup.ConnectTrafficDistributionGroupTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connecttrafficdistributiongroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connecttrafficdistributiongroup"
 
 connecttrafficdistributiongroup.NewConnectTrafficDistributionGroupTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ConnectTrafficDistributionGroupTagsOutputReference
 ```

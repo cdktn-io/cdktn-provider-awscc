@@ -4,12 +4,12 @@
 
 ### DocdbDbClusterParameterGroup <a name="DocdbDbClusterParameterGroup" id="@cdktn/provider-awscc.docdbDbClusterParameterGroup.DocdbDbClusterParameterGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/docdb_db_cluster_parameter_group awscc_docdb_db_cluster_parameter_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/docdb_db_cluster_parameter_group awscc_docdb_db_cluster_parameter_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.docdbDbClusterParameterGroup.DocdbDbClusterParameterGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/docdbdbclusterparametergroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/docdbdbclusterparametergroup"
 
 docdbdbclusterparametergroup.NewDocdbDbClusterParameterGroup(scope Construct, id *string, config DocdbDbClusterParameterGroupConfig) DocdbDbClusterParameterGroup
 ```
@@ -427,7 +427,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.docdbDbClusterParameterGroup.DocdbDbClusterParameterGroup.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/docdbdbclusterparametergroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/docdbdbclusterparametergroup"
 
 docdbdbclusterparametergroup.DocdbDbClusterParameterGroup_IsConstruct(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.docdbDbClusterParameterGroup.DocdbDbClusterParameterGroup.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/docdbdbclusterparametergroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/docdbdbclusterparametergroup"
 
 docdbdbclusterparametergroup.DocdbDbClusterParameterGroup_IsTerraformElement(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ docdbdbclusterparametergroup.DocdbDbClusterParameterGroup_IsTerraformElement(x i
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.docdbDbClusterParameterGroup.DocdbDbClusterParameterGroup.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/docdbdbclusterparametergroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/docdbdbclusterparametergroup"
 
 docdbdbclusterparametergroup.DocdbDbClusterParameterGroup_IsTerraformResource(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ docdbdbclusterparametergroup.DocdbDbClusterParameterGroup_IsTerraformResource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.docdbDbClusterParameterGroup.DocdbDbClusterParameterGroup.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/docdbdbclusterparametergroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/docdbdbclusterparametergroup"
 
 docdbdbclusterparametergroup.DocdbDbClusterParameterGroup_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -516,7 +516,7 @@ The construct id used in the generated config for the DocdbDbClusterParameterGro
 
 The id of the existing DocdbDbClusterParameterGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/docdb_db_cluster_parameter_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/docdb_db_cluster_parameter_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -837,7 +837,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.docdbDbClusterParameterGroup.DocdbDbClusterParameterGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/docdbdbclusterparametergroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/docdbdbclusterparametergroup"
 
 &docdbdbclusterparametergroup.DocdbDbClusterParameterGroupConfig {
 	Connection: interface{},
@@ -954,7 +954,7 @@ Description *string
 
 The description for the DB cluster parameter group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/docdb_db_cluster_parameter_group#description DocdbDbClusterParameterGroup#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/docdb_db_cluster_parameter_group#description DocdbDbClusterParameterGroup#description}
 
 ---
 
@@ -968,7 +968,7 @@ Family *string
 
 The DB cluster parameter group family name (e.g. docdb5.0).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/docdb_db_cluster_parameter_group#family DocdbDbClusterParameterGroup#family}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/docdb_db_cluster_parameter_group#family DocdbDbClusterParameterGroup#family}
 
 ---
 
@@ -982,7 +982,7 @@ Parameters *string
 
 An object containing key-value pairs of parameters to set for the DB cluster parameter group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/docdb_db_cluster_parameter_group#parameters DocdbDbClusterParameterGroup#parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/docdb_db_cluster_parameter_group#parameters DocdbDbClusterParameterGroup#parameters}
 
 ---
 
@@ -998,7 +998,7 @@ The name of the DB cluster parameter group.
 
 If omitted, CloudFormation generates a unique name. The name is stored as lowercase.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/docdb_db_cluster_parameter_group#name DocdbDbClusterParameterGroup#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/docdb_db_cluster_parameter_group#name DocdbDbClusterParameterGroup#name}
 
 ---
 
@@ -1012,7 +1012,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/docdb_db_cluster_parameter_group#tags DocdbDbClusterParameterGroup#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/docdb_db_cluster_parameter_group#tags DocdbDbClusterParameterGroup#tags}
 
 ---
 
@@ -1021,7 +1021,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.docdbDbClusterParameterGroup.DocdbDbClusterParameterGroupTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/docdbdbclusterparametergroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/docdbdbclusterparametergroup"
 
 &docdbdbclusterparametergroup.DocdbDbClusterParameterGroupTags {
 	Key: *string,
@@ -1048,7 +1048,7 @@ Key *string
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/docdb_db_cluster_parameter_group#key DocdbDbClusterParameterGroup#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/docdb_db_cluster_parameter_group#key DocdbDbClusterParameterGroup#key}
 
 ---
 
@@ -1062,7 +1062,7 @@ Value *string
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/docdb_db_cluster_parameter_group#value DocdbDbClusterParameterGroup#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/docdb_db_cluster_parameter_group#value DocdbDbClusterParameterGroup#value}
 
 ---
 
@@ -1073,7 +1073,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.docdbDbClusterParameterGroup.DocdbDbClusterParameterGroupTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/docdbdbclusterparametergroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/docdbdbclusterparametergroup"
 
 docdbdbclusterparametergroup.NewDocdbDbClusterParameterGroupTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DocdbDbClusterParameterGroupTagsList
 ```
@@ -1233,7 +1233,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.docdbDbClusterParameterGroup.DocdbDbClusterParameterGroupTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/docdbdbclusterparametergroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/docdbdbclusterparametergroup"
 
 docdbdbclusterparametergroup.NewDocdbDbClusterParameterGroupTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DocdbDbClusterParameterGroupTagsOutputReference
 ```

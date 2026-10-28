@@ -4,12 +4,12 @@
 
 ### SmsvoicePhoneNumber <a name="SmsvoicePhoneNumber" id="@cdktn/provider-awscc.smsvoicePhoneNumber.SmsvoicePhoneNumber"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_phone_number awscc_smsvoice_phone_number}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_phone_number awscc_smsvoice_phone_number}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.smsvoicePhoneNumber.SmsvoicePhoneNumber.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicephonenumber"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoicephonenumber"
 
 smsvoicephonenumber.NewSmsvoicePhoneNumber(scope Construct, id *string, config SmsvoicePhoneNumberConfig) SmsvoicePhoneNumber
 ```
@@ -494,7 +494,7 @@ func ResetTwoWay()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.smsvoicePhoneNumber.SmsvoicePhoneNumber.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicephonenumber"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoicephonenumber"
 
 smsvoicephonenumber.SmsvoicePhoneNumber_IsConstruct(x interface{}) *bool
 ```
@@ -526,7 +526,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.smsvoicePhoneNumber.SmsvoicePhoneNumber.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicephonenumber"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoicephonenumber"
 
 smsvoicephonenumber.SmsvoicePhoneNumber_IsTerraformElement(x interface{}) *bool
 ```
@@ -540,7 +540,7 @@ smsvoicephonenumber.SmsvoicePhoneNumber_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.smsvoicePhoneNumber.SmsvoicePhoneNumber.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicephonenumber"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoicephonenumber"
 
 smsvoicephonenumber.SmsvoicePhoneNumber_IsTerraformResource(x interface{}) *bool
 ```
@@ -554,7 +554,7 @@ smsvoicephonenumber.SmsvoicePhoneNumber_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.smsvoicePhoneNumber.SmsvoicePhoneNumber.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicephonenumber"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoicephonenumber"
 
 smsvoicephonenumber.SmsvoicePhoneNumber_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -583,7 +583,7 @@ The construct id used in the generated config for the SmsvoicePhoneNumber to imp
 
 The id of the existing SmsvoicePhoneNumber that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_phone_number#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_phone_number#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1047,7 +1047,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.smsvoicePhoneNumber.SmsvoicePhoneNumberConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicephonenumber"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoicephonenumber"
 
 &smsvoicephonenumber.SmsvoicePhoneNumberConfig {
 	Connection: interface{},
@@ -1058,7 +1058,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicephonenumber"
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	IsoCountryCode: *string,
-	MandatoryKeywords: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.smsvoicePhoneNumber.SmsvoicePhoneNumberMandatoryKeywords,
+	MandatoryKeywords: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.smsvoicePhoneNumber.SmsvoicePhoneNumberMandatoryKeywords,
 	NumberCapabilities: *[]*string,
 	NumberType: *string,
 	DeletionProtectionEnabled: interface{},
@@ -1066,7 +1066,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicephonenumber"
 	OptOutListName: *string,
 	SelfManagedOptOutsEnabled: interface{},
 	Tags: interface{},
-	TwoWay: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.smsvoicePhoneNumber.SmsvoicePhoneNumberTwoWay,
+	TwoWay: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.smsvoicePhoneNumber.SmsvoicePhoneNumberTwoWay,
 }
 ```
 
@@ -1174,7 +1174,7 @@ IsoCountryCode *string
 
 The two-character code, in ISO 3166-1 alpha-2 format, for the country or region.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_phone_number#iso_country_code SmsvoicePhoneNumber#iso_country_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_phone_number#iso_country_code SmsvoicePhoneNumber#iso_country_code}
 
 ---
 
@@ -1190,7 +1190,7 @@ A keyword is a word that you can search for on a particular phone number or pool
 
 It is also a specific word or phrase that an end user can send to your number to elicit a response, such as an informational message or a special offer. When your number receives a message that begins with a keyword, AWS End User Messaging SMS and Voice responds with a customizable message. Keywords "HELP" and "STOP" are mandatory keywords
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_phone_number#mandatory_keywords SmsvoicePhoneNumber#mandatory_keywords}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_phone_number#mandatory_keywords SmsvoicePhoneNumber#mandatory_keywords}
 
 ---
 
@@ -1204,7 +1204,7 @@ NumberCapabilities *[]*string
 
 Indicates if the phone number will be used for text messages, voice messages, or both.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_phone_number#number_capabilities SmsvoicePhoneNumber#number_capabilities}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_phone_number#number_capabilities SmsvoicePhoneNumber#number_capabilities}
 
 ---
 
@@ -1218,7 +1218,7 @@ NumberType *string
 
 The type of phone number to request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_phone_number#number_type SmsvoicePhoneNumber#number_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_phone_number#number_type SmsvoicePhoneNumber#number_type}
 
 ---
 
@@ -1232,7 +1232,7 @@ DeletionProtectionEnabled interface{}
 
 When set to true the sender ID can't be deleted. By default this is set to false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_phone_number#deletion_protection_enabled SmsvoicePhoneNumber#deletion_protection_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_phone_number#deletion_protection_enabled SmsvoicePhoneNumber#deletion_protection_enabled}
 
 ---
 
@@ -1248,7 +1248,7 @@ A keyword is a word that you can search for on a particular phone number or pool
 
 It is also a specific word or phrase that an end user can send to your number to elicit a response, such as an informational message or a special offer. When your number receives a message that begins with a keyword, AWS End User Messaging SMS and Voice responds with a customizable message.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_phone_number#optional_keywords SmsvoicePhoneNumber#optional_keywords}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_phone_number#optional_keywords SmsvoicePhoneNumber#optional_keywords}
 
 ---
 
@@ -1262,7 +1262,7 @@ OptOutListName *string
 
 The name of the OptOutList to associate with the phone number. You can use the OptOutListName or OptOutListArn.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_phone_number#opt_out_list_name SmsvoicePhoneNumber#opt_out_list_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_phone_number#opt_out_list_name SmsvoicePhoneNumber#opt_out_list_name}
 
 ---
 
@@ -1278,7 +1278,7 @@ By default this is set to false.
 
 When an end recipient sends a message that begins with HELP or STOP to one of your dedicated numbers, AWS End User Messaging SMS and Voice automatically replies with a customizable message and adds the end recipient to the OptOutList. When set to true you're responsible for responding to HELP and STOP requests. You're also responsible for tracking and honoring opt-out requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_phone_number#self_managed_opt_outs_enabled SmsvoicePhoneNumber#self_managed_opt_outs_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_phone_number#self_managed_opt_outs_enabled SmsvoicePhoneNumber#self_managed_opt_outs_enabled}
 
 ---
 
@@ -1292,7 +1292,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_phone_number#tags SmsvoicePhoneNumber#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_phone_number#tags SmsvoicePhoneNumber#tags}
 
 ---
 
@@ -1308,7 +1308,7 @@ When you set up two-way SMS, you can receive incoming messages from your custome
 
 When one of your customers sends a message to your phone number, the message body is sent to an Amazon SNS topic or Amazon Connect for processing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_phone_number#two_way SmsvoicePhoneNumber#two_way}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_phone_number#two_way SmsvoicePhoneNumber#two_way}
 
 ---
 
@@ -1317,11 +1317,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.smsvoicePhoneNumber.SmsvoicePhoneNumberMandatoryKeywords.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicephonenumber"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoicephonenumber"
 
 &smsvoicephonenumber.SmsvoicePhoneNumberMandatoryKeywords {
-	Help: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.smsvoicePhoneNumber.SmsvoicePhoneNumberMandatoryKeywordsHelp,
-	Stop: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.smsvoicePhoneNumber.SmsvoicePhoneNumberMandatoryKeywordsStop,
+	Help: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.smsvoicePhoneNumber.SmsvoicePhoneNumberMandatoryKeywordsHelp,
+	Stop: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.smsvoicePhoneNumber.SmsvoicePhoneNumberMandatoryKeywordsStop,
 }
 ```
 
@@ -1346,7 +1346,7 @@ A keyword is a word that you can search for on a particular phone number or pool
 
 It is also a specific word or phrase that an end user can send to your number to elicit a response, such as an informational message or a special offer. When your number receives a message that begins with a keyword, AWS End User Messaging SMS and Voice responds with a customizable message. Keywords "HELP" and "STOP" are mandatory keywords
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_phone_number#help SmsvoicePhoneNumber#help}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_phone_number#help SmsvoicePhoneNumber#help}
 
 ---
 
@@ -1362,7 +1362,7 @@ A keyword is a word that you can search for on a particular phone number or pool
 
 It is also a specific word or phrase that an end user can send to your number to elicit a response, such as an informational message or a special offer. When your number receives a message that begins with a keyword, AWS End User Messaging SMS and Voice responds with a customizable message. Keywords "HELP" and "STOP" are mandatory keywords
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_phone_number#stop SmsvoicePhoneNumber#stop}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_phone_number#stop SmsvoicePhoneNumber#stop}
 
 ---
 
@@ -1371,7 +1371,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.smsvoicePhoneNumber.SmsvoicePhoneNumberMandatoryKeywordsHelp.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicephonenumber"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoicephonenumber"
 
 &smsvoicephonenumber.SmsvoicePhoneNumberMandatoryKeywordsHelp {
 	Message: *string,
@@ -1382,7 +1382,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicephonenumber"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.smsvoicePhoneNumber.SmsvoicePhoneNumberMandatoryKeywordsHelp.property.message">Message</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_phone_number#message SmsvoicePhoneNumber#message}. |
+| <code><a href="#@cdktn/provider-awscc.smsvoicePhoneNumber.SmsvoicePhoneNumberMandatoryKeywordsHelp.property.message">Message</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_phone_number#message SmsvoicePhoneNumber#message}. |
 
 ---
 
@@ -1394,7 +1394,7 @@ Message *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_phone_number#message SmsvoicePhoneNumber#message}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_phone_number#message SmsvoicePhoneNumber#message}.
 
 ---
 
@@ -1403,7 +1403,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.smsvoicePhoneNumber.SmsvoicePhoneNumberMandatoryKeywordsStop.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicephonenumber"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoicephonenumber"
 
 &smsvoicephonenumber.SmsvoicePhoneNumberMandatoryKeywordsStop {
 	Message: *string,
@@ -1414,7 +1414,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicephonenumber"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.smsvoicePhoneNumber.SmsvoicePhoneNumberMandatoryKeywordsStop.property.message">Message</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_phone_number#message SmsvoicePhoneNumber#message}. |
+| <code><a href="#@cdktn/provider-awscc.smsvoicePhoneNumber.SmsvoicePhoneNumberMandatoryKeywordsStop.property.message">Message</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_phone_number#message SmsvoicePhoneNumber#message}. |
 
 ---
 
@@ -1426,7 +1426,7 @@ Message *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_phone_number#message SmsvoicePhoneNumber#message}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_phone_number#message SmsvoicePhoneNumber#message}.
 
 ---
 
@@ -1435,7 +1435,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.smsvoicePhoneNumber.SmsvoicePhoneNumberOptionalKeywords.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicephonenumber"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoicephonenumber"
 
 &smsvoicephonenumber.SmsvoicePhoneNumberOptionalKeywords {
 	Action: *string,
@@ -1448,9 +1448,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicephonenumber"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.smsvoicePhoneNumber.SmsvoicePhoneNumberOptionalKeywords.property.action">Action</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_phone_number#action SmsvoicePhoneNumber#action}. |
-| <code><a href="#@cdktn/provider-awscc.smsvoicePhoneNumber.SmsvoicePhoneNumberOptionalKeywords.property.keyword">Keyword</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_phone_number#keyword SmsvoicePhoneNumber#keyword}. |
-| <code><a href="#@cdktn/provider-awscc.smsvoicePhoneNumber.SmsvoicePhoneNumberOptionalKeywords.property.message">Message</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_phone_number#message SmsvoicePhoneNumber#message}. |
+| <code><a href="#@cdktn/provider-awscc.smsvoicePhoneNumber.SmsvoicePhoneNumberOptionalKeywords.property.action">Action</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_phone_number#action SmsvoicePhoneNumber#action}. |
+| <code><a href="#@cdktn/provider-awscc.smsvoicePhoneNumber.SmsvoicePhoneNumberOptionalKeywords.property.keyword">Keyword</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_phone_number#keyword SmsvoicePhoneNumber#keyword}. |
+| <code><a href="#@cdktn/provider-awscc.smsvoicePhoneNumber.SmsvoicePhoneNumberOptionalKeywords.property.message">Message</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_phone_number#message SmsvoicePhoneNumber#message}. |
 
 ---
 
@@ -1462,7 +1462,7 @@ Action *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_phone_number#action SmsvoicePhoneNumber#action}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_phone_number#action SmsvoicePhoneNumber#action}.
 
 ---
 
@@ -1474,7 +1474,7 @@ Keyword *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_phone_number#keyword SmsvoicePhoneNumber#keyword}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_phone_number#keyword SmsvoicePhoneNumber#keyword}.
 
 ---
 
@@ -1486,7 +1486,7 @@ Message *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_phone_number#message SmsvoicePhoneNumber#message}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_phone_number#message SmsvoicePhoneNumber#message}.
 
 ---
 
@@ -1495,7 +1495,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.smsvoicePhoneNumber.SmsvoicePhoneNumberTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicephonenumber"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoicephonenumber"
 
 &smsvoicephonenumber.SmsvoicePhoneNumberTags {
 	Key: *string,
@@ -1524,7 +1524,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_phone_number#key SmsvoicePhoneNumber#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_phone_number#key SmsvoicePhoneNumber#key}
 
 ---
 
@@ -1540,7 +1540,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_phone_number#value SmsvoicePhoneNumber#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_phone_number#value SmsvoicePhoneNumber#value}
 
 ---
 
@@ -1549,7 +1549,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.smsvoicePhoneNumber.SmsvoicePhoneNumberTwoWay.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicephonenumber"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoicephonenumber"
 
 &smsvoicephonenumber.SmsvoicePhoneNumberTwoWay {
 	ChannelArn: *string,
@@ -1578,7 +1578,7 @@ ChannelArn *string
 
 The Amazon Resource Name (ARN) of the two way channel.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_phone_number#channel_arn SmsvoicePhoneNumber#channel_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_phone_number#channel_arn SmsvoicePhoneNumber#channel_arn}
 
 ---
 
@@ -1592,7 +1592,7 @@ ChannelRole *string
 
 An optional IAM Role Arn for a service to assume, to be able to post inbound SMS messages.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_phone_number#channel_role SmsvoicePhoneNumber#channel_role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_phone_number#channel_role SmsvoicePhoneNumber#channel_role}
 
 ---
 
@@ -1608,7 +1608,7 @@ By default this is set to false.
 
 When set to true you can receive incoming text messages from your end recipients.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_phone_number#enabled SmsvoicePhoneNumber#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_phone_number#enabled SmsvoicePhoneNumber#enabled}
 
 ---
 
@@ -1619,7 +1619,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.smsvoicePhoneNumber.SmsvoicePhoneNumberMandatoryKeywordsHelpOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicephonenumber"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoicephonenumber"
 
 smsvoicephonenumber.NewSmsvoicePhoneNumberMandatoryKeywordsHelpOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SmsvoicePhoneNumberMandatoryKeywordsHelpOutputReference
 ```
@@ -1890,7 +1890,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.smsvoicePhoneNumber.SmsvoicePhoneNumberMandatoryKeywordsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicephonenumber"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoicephonenumber"
 
 smsvoicephonenumber.NewSmsvoicePhoneNumberMandatoryKeywordsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SmsvoicePhoneNumberMandatoryKeywordsOutputReference
 ```
@@ -2209,7 +2209,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.smsvoicePhoneNumber.SmsvoicePhoneNumberMandatoryKeywordsStopOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicephonenumber"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoicephonenumber"
 
 smsvoicephonenumber.NewSmsvoicePhoneNumberMandatoryKeywordsStopOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SmsvoicePhoneNumberMandatoryKeywordsStopOutputReference
 ```
@@ -2480,7 +2480,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.smsvoicePhoneNumber.SmsvoicePhoneNumberOptionalKeywordsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicephonenumber"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoicephonenumber"
 
 smsvoicephonenumber.NewSmsvoicePhoneNumberOptionalKeywordsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SmsvoicePhoneNumberOptionalKeywordsList
 ```
@@ -2640,7 +2640,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.smsvoicePhoneNumber.SmsvoicePhoneNumberOptionalKeywordsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicephonenumber"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoicephonenumber"
 
 smsvoicephonenumber.NewSmsvoicePhoneNumberOptionalKeywordsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SmsvoicePhoneNumberOptionalKeywordsOutputReference
 ```
@@ -2994,7 +2994,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.smsvoicePhoneNumber.SmsvoicePhoneNumberTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicephonenumber"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoicephonenumber"
 
 smsvoicephonenumber.NewSmsvoicePhoneNumberTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SmsvoicePhoneNumberTagsList
 ```
@@ -3154,7 +3154,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.smsvoicePhoneNumber.SmsvoicePhoneNumberTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicephonenumber"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoicephonenumber"
 
 smsvoicephonenumber.NewSmsvoicePhoneNumberTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SmsvoicePhoneNumberTagsOutputReference
 ```
@@ -3479,7 +3479,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.smsvoicePhoneNumber.SmsvoicePhoneNumberTwoWayOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicephonenumber"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoicephonenumber"
 
 smsvoicephonenumber.NewSmsvoicePhoneNumberTwoWayOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SmsvoicePhoneNumberTwoWayOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccRedshiftUsageLimits <a name="DataAwsccRedshiftUsageLimits" id="@cdktn/provider-awscc.dataAwsccRedshiftUsageLimits.DataAwsccRedshiftUsageLimits"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/redshift_usage_limits awscc_redshift_usage_limits}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/redshift_usage_limits awscc_redshift_usage_limits}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRedshiftUsageLimits.DataAwsccRedshiftUsageLimits.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftusagelimits"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftusagelimits"
 
 dataawsccredshiftusagelimits.NewDataAwsccRedshiftUsageLimits(scope Construct, id *string, config DataAwsccRedshiftUsageLimitsConfig) DataAwsccRedshiftUsageLimits
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccRedshiftUsageLimits.DataAwsccRedshiftUsageLimits.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftusagelimits"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftusagelimits"
 
 dataawsccredshiftusagelimits.DataAwsccRedshiftUsageLimits_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccRedshiftUsageLimits.DataAwsccRedshiftUsageLimits.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftusagelimits"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftusagelimits"
 
 dataawsccredshiftusagelimits.DataAwsccRedshiftUsageLimits_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccredshiftusagelimits.DataAwsccRedshiftUsageLimits_IsTerraformElement(x i
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccRedshiftUsageLimits.DataAwsccRedshiftUsageLimits.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftusagelimits"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftusagelimits"
 
 dataawsccredshiftusagelimits.DataAwsccRedshiftUsageLimits_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccredshiftusagelimits.DataAwsccRedshiftUsageLimits_IsTerraformDataSource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccRedshiftUsageLimits.DataAwsccRedshiftUsageLimits.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftusagelimits"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftusagelimits"
 
 dataawsccredshiftusagelimits.DataAwsccRedshiftUsageLimits_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRedshiftUsageLimi
 
 The id of the existing DataAwsccRedshiftUsageLimits that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/redshift_usage_limits#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/redshift_usage_limits#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRedshiftUsageLimits.DataAwsccRedshiftUsageLimitsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftusagelimits"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftusagelimits"
 
 &dataawsccredshiftusagelimits.DataAwsccRedshiftUsageLimitsConfig {
 	Connection: interface{},

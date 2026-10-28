@@ -4,12 +4,12 @@
 
 ### DataAwsccNeptunegraphGraphSnapshots <a name="DataAwsccNeptunegraphGraphSnapshots" id="@cdktn/provider-awscc.dataAwsccNeptunegraphGraphSnapshots.DataAwsccNeptunegraphGraphSnapshots"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/neptunegraph_graph_snapshots awscc_neptunegraph_graph_snapshots}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/neptunegraph_graph_snapshots awscc_neptunegraph_graph_snapshots}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNeptunegraphGraphSnapshots.DataAwsccNeptunegraphGraphSnapshots.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccneptunegraphgraphsnapshots"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccneptunegraphgraphsnapshots"
 
 dataawsccneptunegraphgraphsnapshots.NewDataAwsccNeptunegraphGraphSnapshots(scope Construct, id *string, config DataAwsccNeptunegraphGraphSnapshotsConfig) DataAwsccNeptunegraphGraphSnapshots
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccNeptunegraphGraphSnapshots.DataAwsccNeptunegraphGraphSnapshots.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccneptunegraphgraphsnapshots"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccneptunegraphgraphsnapshots"
 
 dataawsccneptunegraphgraphsnapshots.DataAwsccNeptunegraphGraphSnapshots_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccNeptunegraphGraphSnapshots.DataAwsccNeptunegraphGraphSnapshots.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccneptunegraphgraphsnapshots"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccneptunegraphgraphsnapshots"
 
 dataawsccneptunegraphgraphsnapshots.DataAwsccNeptunegraphGraphSnapshots_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccneptunegraphgraphsnapshots.DataAwsccNeptunegraphGraphSnapshots_IsTerraf
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccNeptunegraphGraphSnapshots.DataAwsccNeptunegraphGraphSnapshots.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccneptunegraphgraphsnapshots"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccneptunegraphgraphsnapshots"
 
 dataawsccneptunegraphgraphsnapshots.DataAwsccNeptunegraphGraphSnapshots_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccneptunegraphgraphsnapshots.DataAwsccNeptunegraphGraphSnapshots_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccNeptunegraphGraphSnapshots.DataAwsccNeptunegraphGraphSnapshots.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccneptunegraphgraphsnapshots"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccneptunegraphgraphsnapshots"
 
 dataawsccneptunegraphgraphsnapshots.DataAwsccNeptunegraphGraphSnapshots_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccNeptunegraphGraph
 
 The id of the existing DataAwsccNeptunegraphGraphSnapshots that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/neptunegraph_graph_snapshots#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/neptunegraph_graph_snapshots#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccNeptunegraphGraphSnapshots.DataAwsccNeptunegraphGraphSnapshotsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccneptunegraphgraphsnapshots"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccneptunegraphgraphsnapshots"
 
 &dataawsccneptunegraphgraphsnapshots.DataAwsccNeptunegraphGraphSnapshotsConfig {
 	Connection: interface{},

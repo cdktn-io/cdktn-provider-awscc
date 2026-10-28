@@ -4,12 +4,12 @@
 
 ### StoragegatewayVolume <a name="StoragegatewayVolume" id="@cdktn/provider-awscc.storagegatewayVolume.StoragegatewayVolume"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_volume awscc_storagegateway_volume}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/storagegateway_volume awscc_storagegateway_volume}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.storagegatewayVolume.StoragegatewayVolume.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/storagegatewayvolume"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/storagegatewayvolume"
 
 storagegatewayvolume.NewStoragegatewayVolume(scope Construct, id *string, config StoragegatewayVolumeConfig) StoragegatewayVolume
 ```
@@ -448,7 +448,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.storagegatewayVolume.StoragegatewayVolume.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/storagegatewayvolume"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/storagegatewayvolume"
 
 storagegatewayvolume.StoragegatewayVolume_IsConstruct(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.storagegatewayVolume.StoragegatewayVolume.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/storagegatewayvolume"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/storagegatewayvolume"
 
 storagegatewayvolume.StoragegatewayVolume_IsTerraformElement(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ storagegatewayvolume.StoragegatewayVolume_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.storagegatewayVolume.StoragegatewayVolume.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/storagegatewayvolume"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/storagegatewayvolume"
 
 storagegatewayvolume.StoragegatewayVolume_IsTerraformResource(x interface{}) *bool
 ```
@@ -508,7 +508,7 @@ storagegatewayvolume.StoragegatewayVolume_IsTerraformResource(x interface{}) *bo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.storagegatewayVolume.StoragegatewayVolume.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/storagegatewayvolume"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/storagegatewayvolume"
 
 storagegatewayvolume.StoragegatewayVolume_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -537,7 +537,7 @@ The construct id used in the generated config for the StoragegatewayVolume to im
 
 The id of the existing StoragegatewayVolume that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_volume#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/storagegateway_volume#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1034,7 +1034,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.storagegatewayVolume.StoragegatewayVolumeConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/storagegatewayvolume"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/storagegatewayvolume"
 
 &storagegatewayvolume.StoragegatewayVolumeConfig {
 	Connection: interface{},
@@ -1159,7 +1159,7 @@ GatewayArn *string
 
 The Amazon Resource Name (ARN) of the gateway on which to create the volume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_volume#gateway_arn StoragegatewayVolume#gateway_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/storagegateway_volume#gateway_arn StoragegatewayVolume#gateway_arn}
 
 ---
 
@@ -1173,7 +1173,7 @@ NetworkInterfaceId *string
 
 The network interface of the gateway on which to expose the iSCSI target. Only IPv4 addresses are accepted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_volume#network_interface_id StoragegatewayVolume#network_interface_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/storagegateway_volume#network_interface_id StoragegatewayVolume#network_interface_id}
 
 ---
 
@@ -1187,7 +1187,7 @@ TargetName *string
 
 The name of the iSCSI target used by an initiator to connect to a volume and used as a suffix for the target ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_volume#target_name StoragegatewayVolume#target_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/storagegateway_volume#target_name StoragegatewayVolume#target_name}
 
 ---
 
@@ -1201,7 +1201,7 @@ VolumeSizeInBytes *f64
 
 The size of the volume in bytes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_volume#volume_size_in_bytes StoragegatewayVolume#volume_size_in_bytes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/storagegateway_volume#volume_size_in_bytes StoragegatewayVolume#volume_size_in_bytes}
 
 ---
 
@@ -1215,7 +1215,7 @@ KmsEncrypted interface{}
 
 Set to true to use Amazon S3 server-side encryption with your own KMS key, or false to use a key managed by Amazon S3.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_volume#kms_encrypted StoragegatewayVolume#kms_encrypted}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/storagegateway_volume#kms_encrypted StoragegatewayVolume#kms_encrypted}
 
 ---
 
@@ -1229,7 +1229,7 @@ KmsKey *string
 
 The Amazon Resource Name (ARN) of a symmetric customer master key (CMK) used for Amazon S3 server-side encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_volume#kms_key StoragegatewayVolume#kms_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/storagegateway_volume#kms_key StoragegatewayVolume#kms_key}
 
 ---
 
@@ -1243,7 +1243,7 @@ SnapshotId *string
 
 The snapshot ID of the snapshot to restore as the new cached volume (e.g., snap-1122aabb).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_volume#snapshot_id StoragegatewayVolume#snapshot_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/storagegateway_volume#snapshot_id StoragegatewayVolume#snapshot_id}
 
 ---
 
@@ -1257,7 +1257,7 @@ SourceVolumeArn *string
 
 The ARN of an existing volume from which to create the new volume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_volume#source_volume_arn StoragegatewayVolume#source_volume_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/storagegateway_volume#source_volume_arn StoragegatewayVolume#source_volume_arn}
 
 ---
 
@@ -1271,7 +1271,7 @@ Tags interface{}
 
 A list of up to 50 tags to assign to the volume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_volume#tags StoragegatewayVolume#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/storagegateway_volume#tags StoragegatewayVolume#tags}
 
 ---
 
@@ -1280,7 +1280,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.storagegatewayVolume.StoragegatewayVolumeTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/storagegatewayvolume"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/storagegatewayvolume"
 
 &storagegatewayvolume.StoragegatewayVolumeTags {
 	Key: *string,
@@ -1307,7 +1307,7 @@ Key *string
 
 The tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_volume#key StoragegatewayVolume#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/storagegateway_volume#key StoragegatewayVolume#key}
 
 ---
 
@@ -1321,7 +1321,7 @@ Value *string
 
 The tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_volume#value StoragegatewayVolume#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/storagegateway_volume#value StoragegatewayVolume#value}
 
 ---
 
@@ -1332,7 +1332,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.storagegatewayVolume.StoragegatewayVolumeTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/storagegatewayvolume"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/storagegatewayvolume"
 
 storagegatewayvolume.NewStoragegatewayVolumeTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) StoragegatewayVolumeTagsList
 ```
@@ -1492,7 +1492,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.storagegatewayVolume.StoragegatewayVolumeTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/storagegatewayvolume"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/storagegatewayvolume"
 
 storagegatewayvolume.NewStoragegatewayVolumeTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) StoragegatewayVolumeTagsOutputReference
 ```

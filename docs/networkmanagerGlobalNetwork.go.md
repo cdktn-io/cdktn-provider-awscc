@@ -4,12 +4,12 @@
 
 ### NetworkmanagerGlobalNetwork <a name="NetworkmanagerGlobalNetwork" id="@cdktn/provider-awscc.networkmanagerGlobalNetwork.NetworkmanagerGlobalNetwork"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_global_network awscc_networkmanager_global_network}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_global_network awscc_networkmanager_global_network}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmanagerGlobalNetwork.NetworkmanagerGlobalNetwork.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerglobalnetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerglobalnetwork"
 
 networkmanagerglobalnetwork.NewNetworkmanagerGlobalNetwork(scope Construct, id *string, config NetworkmanagerGlobalNetworkConfig) NetworkmanagerGlobalNetwork
 ```
@@ -441,7 +441,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.networkmanagerGlobalNetwork.NetworkmanagerGlobalNetwork.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerglobalnetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerglobalnetwork"
 
 networkmanagerglobalnetwork.NetworkmanagerGlobalNetwork_IsConstruct(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.networkmanagerGlobalNetwork.NetworkmanagerGlobalNetwork.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerglobalnetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerglobalnetwork"
 
 networkmanagerglobalnetwork.NetworkmanagerGlobalNetwork_IsTerraformElement(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ networkmanagerglobalnetwork.NetworkmanagerGlobalNetwork_IsTerraformElement(x int
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.networkmanagerGlobalNetwork.NetworkmanagerGlobalNetwork.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerglobalnetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerglobalnetwork"
 
 networkmanagerglobalnetwork.NetworkmanagerGlobalNetwork_IsTerraformResource(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ networkmanagerglobalnetwork.NetworkmanagerGlobalNetwork_IsTerraformResource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.networkmanagerGlobalNetwork.NetworkmanagerGlobalNetwork.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerglobalnetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerglobalnetwork"
 
 networkmanagerglobalnetwork.NetworkmanagerGlobalNetwork_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -530,7 +530,7 @@ The construct id used in the generated config for the NetworkmanagerGlobalNetwor
 
 The id of the existing NetworkmanagerGlobalNetwork that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_global_network#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_global_network#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -851,7 +851,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.networkmanagerGlobalNetwork.NetworkmanagerGlobalNetworkConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerglobalnetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerglobalnetwork"
 
 &networkmanagerglobalnetwork.NetworkmanagerGlobalNetworkConfig {
 	Connection: interface{},
@@ -966,7 +966,7 @@ CreatedAt *string
 
 The date and time that the global network was created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_global_network#created_at NetworkmanagerGlobalNetwork#created_at}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_global_network#created_at NetworkmanagerGlobalNetwork#created_at}
 
 ---
 
@@ -980,7 +980,7 @@ Description *string
 
 The description of the global network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_global_network#description NetworkmanagerGlobalNetwork#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_global_network#description NetworkmanagerGlobalNetwork#description}
 
 ---
 
@@ -994,7 +994,7 @@ State *string
 
 The state of the global network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_global_network#state NetworkmanagerGlobalNetwork#state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_global_network#state NetworkmanagerGlobalNetwork#state}
 
 ---
 
@@ -1008,7 +1008,7 @@ Tags interface{}
 
 The tags for the global network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_global_network#tags NetworkmanagerGlobalNetwork#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_global_network#tags NetworkmanagerGlobalNetwork#tags}
 
 ---
 
@@ -1017,7 +1017,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.networkmanagerGlobalNetwork.NetworkmanagerGlobalNetworkTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerglobalnetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerglobalnetwork"
 
 &networkmanagerglobalnetwork.NetworkmanagerGlobalNetworkTags {
 	Key: *string,
@@ -1046,7 +1046,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_global_network#key NetworkmanagerGlobalNetwork#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_global_network#key NetworkmanagerGlobalNetwork#key}
 
 ---
 
@@ -1062,7 +1062,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_global_network#value NetworkmanagerGlobalNetwork#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_global_network#value NetworkmanagerGlobalNetwork#value}
 
 ---
 
@@ -1073,7 +1073,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmanagerGlobalNetwork.NetworkmanagerGlobalNetworkTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerglobalnetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerglobalnetwork"
 
 networkmanagerglobalnetwork.NewNetworkmanagerGlobalNetworkTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) NetworkmanagerGlobalNetworkTagsList
 ```
@@ -1233,7 +1233,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmanagerGlobalNetwork.NetworkmanagerGlobalNetworkTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerglobalnetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerglobalnetwork"
 
 networkmanagerglobalnetwork.NewNetworkmanagerGlobalNetworkTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) NetworkmanagerGlobalNetworkTagsOutputReference
 ```

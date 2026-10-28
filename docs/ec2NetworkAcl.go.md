@@ -4,12 +4,12 @@
 
 ### Ec2NetworkAcl <a name="Ec2NetworkAcl" id="@cdktn/provider-awscc.ec2NetworkAcl.Ec2NetworkAcl"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_acl awscc_ec2_network_acl}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_acl awscc_ec2_network_acl}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2NetworkAcl.Ec2NetworkAcl.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkacl"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2networkacl"
 
 ec2networkacl.NewEc2NetworkAcl(scope Construct, id *string, config Ec2NetworkAclConfig) Ec2NetworkAcl
 ```
@@ -420,7 +420,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.ec2NetworkAcl.Ec2NetworkAcl.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkacl"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2networkacl"
 
 ec2networkacl.Ec2NetworkAcl_IsConstruct(x interface{}) *bool
 ```
@@ -452,7 +452,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.ec2NetworkAcl.Ec2NetworkAcl.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkacl"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2networkacl"
 
 ec2networkacl.Ec2NetworkAcl_IsTerraformElement(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ ec2networkacl.Ec2NetworkAcl_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.ec2NetworkAcl.Ec2NetworkAcl.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkacl"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2networkacl"
 
 ec2networkacl.Ec2NetworkAcl_IsTerraformResource(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ ec2networkacl.Ec2NetworkAcl_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.ec2NetworkAcl.Ec2NetworkAcl.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkacl"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2networkacl"
 
 ec2networkacl.Ec2NetworkAcl_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -509,7 +509,7 @@ The construct id used in the generated config for the Ec2NetworkAcl to import.
 
 The id of the existing Ec2NetworkAcl that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_acl#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_acl#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -775,7 +775,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2NetworkAcl.Ec2NetworkAclConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkacl"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2networkacl"
 
 &ec2networkacl.Ec2NetworkAclConfig {
 	Connection: interface{},
@@ -886,7 +886,7 @@ VpcId *string
 
 The ID of the VPC for the network ACL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_acl#vpc_id Ec2NetworkAcl#vpc_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_acl#vpc_id Ec2NetworkAcl#vpc_id}
 
 ---
 
@@ -900,7 +900,7 @@ Tags interface{}
 
 The tags for the network ACL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_acl#tags Ec2NetworkAcl#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_acl#tags Ec2NetworkAcl#tags}
 
 ---
 
@@ -909,7 +909,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2NetworkAcl.Ec2NetworkAclTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkacl"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2networkacl"
 
 &ec2networkacl.Ec2NetworkAclTags {
 	Key: *string,
@@ -936,7 +936,7 @@ Key *string
 
 The tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_acl#key Ec2NetworkAcl#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_acl#key Ec2NetworkAcl#key}
 
 ---
 
@@ -950,7 +950,7 @@ Value *string
 
 The tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_acl#value Ec2NetworkAcl#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_acl#value Ec2NetworkAcl#value}
 
 ---
 
@@ -961,7 +961,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2NetworkAcl.Ec2NetworkAclTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkacl"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2networkacl"
 
 ec2networkacl.NewEc2NetworkAclTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Ec2NetworkAclTagsList
 ```
@@ -1121,7 +1121,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2NetworkAcl.Ec2NetworkAclTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkacl"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2networkacl"
 
 ec2networkacl.NewEc2NetworkAclTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) Ec2NetworkAclTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2Instances <a name="DataAwsccEc2Instances" id="@cdktn/provider-awscc.dataAwsccEc2Instances.DataAwsccEc2Instances"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_instances awscc_ec2_instances}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_instances awscc_ec2_instances}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2Instances.DataAwsccEc2Instances.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instances"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instances"
 
 dataawsccec2instances.NewDataAwsccEc2Instances(scope Construct, id *string, config DataAwsccEc2InstancesConfig) DataAwsccEc2Instances
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2Instances.DataAwsccEc2Instances.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instances"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instances"
 
 dataawsccec2instances.DataAwsccEc2Instances_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2Instances.DataAwsccEc2Instances.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instances"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instances"
 
 dataawsccec2instances.DataAwsccEc2Instances_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2instances.DataAwsccEc2Instances_IsTerraformElement(x interface{}) *b
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2Instances.DataAwsccEc2Instances.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instances"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instances"
 
 dataawsccec2instances.DataAwsccEc2Instances_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2instances.DataAwsccEc2Instances_IsTerraformDataSource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2Instances.DataAwsccEc2Instances.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instances"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instances"
 
 dataawsccec2instances.DataAwsccEc2Instances_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2Instances to i
 
 The id of the existing DataAwsccEc2Instances that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_instances#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_instances#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2Instances.DataAwsccEc2InstancesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instances"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instances"
 
 &dataawsccec2instances.DataAwsccEc2InstancesConfig {
 	Connection: interface{},

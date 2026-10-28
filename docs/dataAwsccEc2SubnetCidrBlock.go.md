@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2SubnetCidrBlock <a name="DataAwsccEc2SubnetCidrBlock" id="@cdktn/provider-awscc.dataAwsccEc2SubnetCidrBlock.DataAwsccEc2SubnetCidrBlock"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_subnet_cidr_block awscc_ec2_subnet_cidr_block}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_subnet_cidr_block awscc_ec2_subnet_cidr_block}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SubnetCidrBlock.DataAwsccEc2SubnetCidrBlock.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2subnetcidrblock"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2subnetcidrblock"
 
 dataawsccec2subnetcidrblock.NewDataAwsccEc2SubnetCidrBlock(scope Construct, id *string, config DataAwsccEc2SubnetCidrBlockConfig) DataAwsccEc2SubnetCidrBlock
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2SubnetCidrBlock.DataAwsccEc2SubnetCidrBlock.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2subnetcidrblock"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2subnetcidrblock"
 
 dataawsccec2subnetcidrblock.DataAwsccEc2SubnetCidrBlock_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2SubnetCidrBlock.DataAwsccEc2SubnetCidrBlock.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2subnetcidrblock"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2subnetcidrblock"
 
 dataawsccec2subnetcidrblock.DataAwsccEc2SubnetCidrBlock_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2subnetcidrblock.DataAwsccEc2SubnetCidrBlock_IsTerraformElement(x int
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2SubnetCidrBlock.DataAwsccEc2SubnetCidrBlock.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2subnetcidrblock"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2subnetcidrblock"
 
 dataawsccec2subnetcidrblock.DataAwsccEc2SubnetCidrBlock_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2subnetcidrblock.DataAwsccEc2SubnetCidrBlock_IsTerraformDataSource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2SubnetCidrBlock.DataAwsccEc2SubnetCidrBlock.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2subnetcidrblock"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2subnetcidrblock"
 
 dataawsccec2subnetcidrblock.DataAwsccEc2SubnetCidrBlock_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2SubnetCidrBloc
 
 The id of the existing DataAwsccEc2SubnetCidrBlock that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_subnet_cidr_block#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_subnet_cidr_block#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -664,7 +664,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2SubnetCidrBlock.DataAwsccEc2SubnetCidrBlockConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2subnetcidrblock"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2subnetcidrblock"
 
 &dataawsccec2subnetcidrblock.DataAwsccEc2SubnetCidrBlockConfig {
 	Connection: interface{},
@@ -773,7 +773,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_subnet_cidr_block#id DataAwsccEc2SubnetCidrBlock#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_subnet_cidr_block#id DataAwsccEc2SubnetCidrBlock#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

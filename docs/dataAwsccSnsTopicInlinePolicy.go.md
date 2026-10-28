@@ -4,12 +4,12 @@
 
 ### DataAwsccSnsTopicInlinePolicy <a name="DataAwsccSnsTopicInlinePolicy" id="@cdktn/provider-awscc.dataAwsccSnsTopicInlinePolicy.DataAwsccSnsTopicInlinePolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sns_topic_inline_policy awscc_sns_topic_inline_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sns_topic_inline_policy awscc_sns_topic_inline_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSnsTopicInlinePolicy.DataAwsccSnsTopicInlinePolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsnstopicinlinepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsnstopicinlinepolicy"
 
 dataawsccsnstopicinlinepolicy.NewDataAwsccSnsTopicInlinePolicy(scope Construct, id *string, config DataAwsccSnsTopicInlinePolicyConfig) DataAwsccSnsTopicInlinePolicy
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSnsTopicInlinePolicy.DataAwsccSnsTopicInlinePolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsnstopicinlinepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsnstopicinlinepolicy"
 
 dataawsccsnstopicinlinepolicy.DataAwsccSnsTopicInlinePolicy_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSnsTopicInlinePolicy.DataAwsccSnsTopicInlinePolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsnstopicinlinepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsnstopicinlinepolicy"
 
 dataawsccsnstopicinlinepolicy.DataAwsccSnsTopicInlinePolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsnstopicinlinepolicy.DataAwsccSnsTopicInlinePolicy_IsTerraformElement(x
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSnsTopicInlinePolicy.DataAwsccSnsTopicInlinePolicy.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsnstopicinlinepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsnstopicinlinepolicy"
 
 dataawsccsnstopicinlinepolicy.DataAwsccSnsTopicInlinePolicy_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsnstopicinlinepolicy.DataAwsccSnsTopicInlinePolicy_IsTerraformDataSourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSnsTopicInlinePolicy.DataAwsccSnsTopicInlinePolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsnstopicinlinepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsnstopicinlinepolicy"
 
 dataawsccsnstopicinlinepolicy.DataAwsccSnsTopicInlinePolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSnsTopicInlinePol
 
 The id of the existing DataAwsccSnsTopicInlinePolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sns_topic_inline_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sns_topic_inline_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -609,7 +609,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSnsTopicInlinePolicy.DataAwsccSnsTopicInlinePolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsnstopicinlinepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsnstopicinlinepolicy"
 
 &dataawsccsnstopicinlinepolicy.DataAwsccSnsTopicInlinePolicyConfig {
 	Connection: interface{},
@@ -718,7 +718,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sns_topic_inline_policy#id DataAwsccSnsTopicInlinePolicy#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sns_topic_inline_policy#id DataAwsccSnsTopicInlinePolicy#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

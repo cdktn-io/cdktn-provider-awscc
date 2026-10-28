@@ -4,12 +4,12 @@
 
 ### KinesisvideoStream <a name="KinesisvideoStream" id="@cdktn/provider-awscc.kinesisvideoStream.KinesisvideoStream"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesisvideo_stream awscc_kinesisvideo_stream}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesisvideo_stream awscc_kinesisvideo_stream}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kinesisvideoStream.KinesisvideoStream.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kinesisvideostream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kinesisvideostream"
 
 kinesisvideostream.NewKinesisvideoStream(scope Construct, id *string, config KinesisvideoStreamConfig) KinesisvideoStream
 ```
@@ -475,7 +475,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.kinesisvideoStream.KinesisvideoStream.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kinesisvideostream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kinesisvideostream"
 
 kinesisvideostream.KinesisvideoStream_IsConstruct(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.kinesisvideoStream.KinesisvideoStream.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kinesisvideostream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kinesisvideostream"
 
 kinesisvideostream.KinesisvideoStream_IsTerraformElement(x interface{}) *bool
 ```
@@ -521,7 +521,7 @@ kinesisvideostream.KinesisvideoStream_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.kinesisvideoStream.KinesisvideoStream.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kinesisvideostream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kinesisvideostream"
 
 kinesisvideostream.KinesisvideoStream_IsTerraformResource(x interface{}) *bool
 ```
@@ -535,7 +535,7 @@ kinesisvideostream.KinesisvideoStream_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.kinesisvideoStream.KinesisvideoStream.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kinesisvideostream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kinesisvideostream"
 
 kinesisvideostream.KinesisvideoStream_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -564,7 +564,7 @@ The construct id used in the generated config for the KinesisvideoStream to impo
 
 The id of the existing KinesisvideoStream that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesisvideo_stream#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesisvideo_stream#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -940,7 +940,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.kinesisvideoStream.KinesisvideoStreamConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kinesisvideostream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kinesisvideostream"
 
 &kinesisvideostream.KinesisvideoStreamConfig {
 	Connection: interface{},
@@ -955,7 +955,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kinesisvideostream"
 	KmsKeyId: *string,
 	MediaType: *string,
 	Name: *string,
-	StreamStorageConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.kinesisvideoStream.KinesisvideoStreamStreamStorageConfiguration,
+	StreamStorageConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.kinesisvideoStream.KinesisvideoStreamStreamStorageConfiguration,
 	Tags: interface{},
 }
 ```
@@ -1061,7 +1061,7 @@ DataRetentionInHours *f64
 
 The number of hours till which Kinesis Video will retain the data in the stream.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesisvideo_stream#data_retention_in_hours KinesisvideoStream#data_retention_in_hours}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesisvideo_stream#data_retention_in_hours KinesisvideoStream#data_retention_in_hours}
 
 ---
 
@@ -1075,7 +1075,7 @@ DeviceName *string
 
 The name of the device that is writing to the stream.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesisvideo_stream#device_name KinesisvideoStream#device_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesisvideo_stream#device_name KinesisvideoStream#device_name}
 
 ---
 
@@ -1089,7 +1089,7 @@ KmsKeyId *string
 
 AWS KMS key ID that Kinesis Video Streams uses to encrypt stream data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesisvideo_stream#kms_key_id KinesisvideoStream#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesisvideo_stream#kms_key_id KinesisvideoStream#kms_key_id}
 
 ---
 
@@ -1103,7 +1103,7 @@ MediaType *string
 
 The media type of the stream. Consumers of the stream can use this information when processing the stream.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesisvideo_stream#media_type KinesisvideoStream#media_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesisvideo_stream#media_type KinesisvideoStream#media_type}
 
 ---
 
@@ -1117,7 +1117,7 @@ Name *string
 
 The name of the Kinesis Video stream.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesisvideo_stream#name KinesisvideoStream#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesisvideo_stream#name KinesisvideoStream#name}
 
 ---
 
@@ -1131,7 +1131,7 @@ StreamStorageConfiguration KinesisvideoStreamStreamStorageConfiguration
 
 Configuration for the storage tier of the Kinesis Video Stream.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesisvideo_stream#stream_storage_configuration KinesisvideoStream#stream_storage_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesisvideo_stream#stream_storage_configuration KinesisvideoStream#stream_storage_configuration}
 
 ---
 
@@ -1145,7 +1145,7 @@ Tags interface{}
 
 An array of key-value pairs associated with the Kinesis Video Stream.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesisvideo_stream#tags KinesisvideoStream#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesisvideo_stream#tags KinesisvideoStream#tags}
 
 ---
 
@@ -1154,7 +1154,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.kinesisvideoStream.KinesisvideoStreamStreamStorageConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kinesisvideostream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kinesisvideostream"
 
 &kinesisvideostream.KinesisvideoStreamStreamStorageConfiguration {
 	DefaultStorageTier: *string,
@@ -1179,7 +1179,7 @@ DefaultStorageTier *string
 
 The storage tier for the Kinesis Video Stream. Determines the storage class used for stream data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesisvideo_stream#default_storage_tier KinesisvideoStream#default_storage_tier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesisvideo_stream#default_storage_tier KinesisvideoStream#default_storage_tier}
 
 ---
 
@@ -1188,7 +1188,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.kinesisvideoStream.KinesisvideoStreamTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kinesisvideostream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kinesisvideostream"
 
 &kinesisvideostream.KinesisvideoStreamTags {
 	Key: *string,
@@ -1217,7 +1217,7 @@ The key name of the tag.
 
 Specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. The following characters can be used: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesisvideo_stream#key KinesisvideoStream#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesisvideo_stream#key KinesisvideoStream#key}
 
 ---
 
@@ -1233,7 +1233,7 @@ The value for the tag.
 
 Specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. The following characters can be used: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesisvideo_stream#value KinesisvideoStream#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesisvideo_stream#value KinesisvideoStream#value}
 
 ---
 
@@ -1244,7 +1244,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kinesisvideoStream.KinesisvideoStreamStreamStorageConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kinesisvideostream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kinesisvideostream"
 
 kinesisvideostream.NewKinesisvideoStreamStreamStorageConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) KinesisvideoStreamStreamStorageConfigurationOutputReference
 ```
@@ -1522,7 +1522,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kinesisvideoStream.KinesisvideoStreamTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kinesisvideostream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kinesisvideostream"
 
 kinesisvideostream.NewKinesisvideoStreamTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) KinesisvideoStreamTagsList
 ```
@@ -1682,7 +1682,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kinesisvideoStream.KinesisvideoStreamTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kinesisvideostream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kinesisvideostream"
 
 kinesisvideostream.NewKinesisvideoStreamTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) KinesisvideoStreamTagsOutputReference
 ```

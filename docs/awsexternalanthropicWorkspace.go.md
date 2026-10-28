@@ -4,12 +4,12 @@
 
 ### AwsexternalanthropicWorkspace <a name="AwsexternalanthropicWorkspace" id="@cdktn/provider-awscc.awsexternalanthropicWorkspace.AwsexternalanthropicWorkspace"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/awsexternalanthropic_workspace awscc_awsexternalanthropic_workspace}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/awsexternalanthropic_workspace awscc_awsexternalanthropic_workspace}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.awsexternalanthropicWorkspace.AwsexternalanthropicWorkspace.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/awsexternalanthropicworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/awsexternalanthropicworkspace"
 
 awsexternalanthropicworkspace.NewAwsexternalanthropicWorkspace(scope Construct, id *string, config AwsexternalanthropicWorkspaceConfig) AwsexternalanthropicWorkspace
 ```
@@ -440,7 +440,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.awsexternalanthropicWorkspace.AwsexternalanthropicWorkspace.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/awsexternalanthropicworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/awsexternalanthropicworkspace"
 
 awsexternalanthropicworkspace.AwsexternalanthropicWorkspace_IsConstruct(x interface{}) *bool
 ```
@@ -472,7 +472,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.awsexternalanthropicWorkspace.AwsexternalanthropicWorkspace.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/awsexternalanthropicworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/awsexternalanthropicworkspace"
 
 awsexternalanthropicworkspace.AwsexternalanthropicWorkspace_IsTerraformElement(x interface{}) *bool
 ```
@@ -486,7 +486,7 @@ awsexternalanthropicworkspace.AwsexternalanthropicWorkspace_IsTerraformElement(x
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.awsexternalanthropicWorkspace.AwsexternalanthropicWorkspace.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/awsexternalanthropicworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/awsexternalanthropicworkspace"
 
 awsexternalanthropicworkspace.AwsexternalanthropicWorkspace_IsTerraformResource(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ awsexternalanthropicworkspace.AwsexternalanthropicWorkspace_IsTerraformResource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.awsexternalanthropicWorkspace.AwsexternalanthropicWorkspace.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/awsexternalanthropicworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/awsexternalanthropicworkspace"
 
 awsexternalanthropicworkspace.AwsexternalanthropicWorkspace_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -529,7 +529,7 @@ The construct id used in the generated config for the AwsexternalanthropicWorksp
 
 The id of the existing AwsexternalanthropicWorkspace that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/awsexternalanthropic_workspace#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/awsexternalanthropic_workspace#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -839,7 +839,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.awsexternalanthropicWorkspace.AwsexternalanthropicWorkspaceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/awsexternalanthropicworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/awsexternalanthropicworkspace"
 
 &awsexternalanthropicworkspace.AwsexternalanthropicWorkspaceConfig {
 	Connection: interface{},
@@ -850,7 +850,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/awsexternalanthropicwo
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	Name: *string,
-	DataResidency: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.awsexternalanthropicWorkspace.AwsexternalanthropicWorkspaceDataResidency,
+	DataResidency: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.awsexternalanthropicWorkspace.AwsexternalanthropicWorkspaceDataResidency,
 	Tags: interface{},
 }
 ```
@@ -952,7 +952,7 @@ Name *string
 
 The name of the workspace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/awsexternalanthropic_workspace#name AwsexternalanthropicWorkspace#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/awsexternalanthropic_workspace#name AwsexternalanthropicWorkspace#name}
 
 ---
 
@@ -966,7 +966,7 @@ DataResidency AwsexternalanthropicWorkspaceDataResidency
 
 Data residency configuration for the workspace. WorkspaceGeo is immutable after creation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/awsexternalanthropic_workspace#data_residency AwsexternalanthropicWorkspace#data_residency}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/awsexternalanthropic_workspace#data_residency AwsexternalanthropicWorkspace#data_residency}
 
 ---
 
@@ -980,7 +980,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/awsexternalanthropic_workspace#tags AwsexternalanthropicWorkspace#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/awsexternalanthropic_workspace#tags AwsexternalanthropicWorkspace#tags}
 
 ---
 
@@ -989,7 +989,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.awsexternalanthropicWorkspace.AwsexternalanthropicWorkspaceDataResidency.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/awsexternalanthropicworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/awsexternalanthropicworkspace"
 
 &awsexternalanthropicworkspace.AwsexternalanthropicWorkspaceDataResidency {
 	AllowedInferenceGeos: *[]*string,
@@ -1018,7 +1018,7 @@ AllowedInferenceGeos *[]*string
 
 Permitted inference geo values. Omit to allow all geos (the service default of 'unrestricted'); otherwise list specific geos.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/awsexternalanthropic_workspace#allowed_inference_geos AwsexternalanthropicWorkspace#allowed_inference_geos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/awsexternalanthropic_workspace#allowed_inference_geos AwsexternalanthropicWorkspace#allowed_inference_geos}
 
 ---
 
@@ -1034,7 +1034,7 @@ Default inference geo applied when requests omit the parameter.
 
 Defaults to 'global' if omitted. Must be a member of AllowedInferenceGeos unless AllowedInferenceGeos is omitted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/awsexternalanthropic_workspace#default_inference_geo AwsexternalanthropicWorkspace#default_inference_geo}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/awsexternalanthropic_workspace#default_inference_geo AwsexternalanthropicWorkspace#default_inference_geo}
 
 ---
 
@@ -1048,7 +1048,7 @@ WorkspaceGeo *string
 
 Geographic region for workspace data storage. Immutable after creation. Defaults to 'us' if omitted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/awsexternalanthropic_workspace#workspace_geo AwsexternalanthropicWorkspace#workspace_geo}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/awsexternalanthropic_workspace#workspace_geo AwsexternalanthropicWorkspace#workspace_geo}
 
 ---
 
@@ -1057,7 +1057,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.awsexternalanthropicWorkspace.AwsexternalanthropicWorkspaceTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/awsexternalanthropicworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/awsexternalanthropicworkspace"
 
 &awsexternalanthropicworkspace.AwsexternalanthropicWorkspaceTags {
 	Key: *string,
@@ -1084,7 +1084,7 @@ Key *string
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/awsexternalanthropic_workspace#key AwsexternalanthropicWorkspace#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/awsexternalanthropic_workspace#key AwsexternalanthropicWorkspace#key}
 
 ---
 
@@ -1098,7 +1098,7 @@ Value *string
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/awsexternalanthropic_workspace#value AwsexternalanthropicWorkspace#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/awsexternalanthropic_workspace#value AwsexternalanthropicWorkspace#value}
 
 ---
 
@@ -1109,7 +1109,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.awsexternalanthropicWorkspace.AwsexternalanthropicWorkspaceDataResidencyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/awsexternalanthropicworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/awsexternalanthropicworkspace"
 
 awsexternalanthropicworkspace.NewAwsexternalanthropicWorkspaceDataResidencyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) AwsexternalanthropicWorkspaceDataResidencyOutputReference
 ```
@@ -1445,7 +1445,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.awsexternalanthropicWorkspace.AwsexternalanthropicWorkspaceTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/awsexternalanthropicworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/awsexternalanthropicworkspace"
 
 awsexternalanthropicworkspace.NewAwsexternalanthropicWorkspaceTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) AwsexternalanthropicWorkspaceTagsList
 ```
@@ -1605,7 +1605,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.awsexternalanthropicWorkspace.AwsexternalanthropicWorkspaceTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/awsexternalanthropicworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/awsexternalanthropicworkspace"
 
 awsexternalanthropicworkspace.NewAwsexternalanthropicWorkspaceTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) AwsexternalanthropicWorkspaceTagsOutputReference
 ```

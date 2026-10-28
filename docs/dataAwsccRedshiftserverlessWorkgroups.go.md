@@ -4,12 +4,12 @@
 
 ### DataAwsccRedshiftserverlessWorkgroups <a name="DataAwsccRedshiftserverlessWorkgroups" id="@cdktn/provider-awscc.dataAwsccRedshiftserverlessWorkgroups.DataAwsccRedshiftserverlessWorkgroups"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/redshiftserverless_workgroups awscc_redshiftserverless_workgroups}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/redshiftserverless_workgroups awscc_redshiftserverless_workgroups}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRedshiftserverlessWorkgroups.DataAwsccRedshiftserverlessWorkgroups.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftserverlessworkgroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftserverlessworkgroups"
 
 dataawsccredshiftserverlessworkgroups.NewDataAwsccRedshiftserverlessWorkgroups(scope Construct, id *string, config DataAwsccRedshiftserverlessWorkgroupsConfig) DataAwsccRedshiftserverlessWorkgroups
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccRedshiftserverlessWorkgroups.DataAwsccRedshiftserverlessWorkgroups.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftserverlessworkgroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftserverlessworkgroups"
 
 dataawsccredshiftserverlessworkgroups.DataAwsccRedshiftserverlessWorkgroups_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccRedshiftserverlessWorkgroups.DataAwsccRedshiftserverlessWorkgroups.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftserverlessworkgroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftserverlessworkgroups"
 
 dataawsccredshiftserverlessworkgroups.DataAwsccRedshiftserverlessWorkgroups_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccredshiftserverlessworkgroups.DataAwsccRedshiftserverlessWorkgroups_IsTe
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccRedshiftserverlessWorkgroups.DataAwsccRedshiftserverlessWorkgroups.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftserverlessworkgroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftserverlessworkgroups"
 
 dataawsccredshiftserverlessworkgroups.DataAwsccRedshiftserverlessWorkgroups_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccredshiftserverlessworkgroups.DataAwsccRedshiftserverlessWorkgroups_IsTe
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccRedshiftserverlessWorkgroups.DataAwsccRedshiftserverlessWorkgroups.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftserverlessworkgroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftserverlessworkgroups"
 
 dataawsccredshiftserverlessworkgroups.DataAwsccRedshiftserverlessWorkgroups_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRedshiftserverles
 
 The id of the existing DataAwsccRedshiftserverlessWorkgroups that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/redshiftserverless_workgroups#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/redshiftserverless_workgroups#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRedshiftserverlessWorkgroups.DataAwsccRedshiftserverlessWorkgroupsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftserverlessworkgroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftserverlessworkgroups"
 
 &dataawsccredshiftserverlessworkgroups.DataAwsccRedshiftserverlessWorkgroupsConfig {
 	Connection: interface{},

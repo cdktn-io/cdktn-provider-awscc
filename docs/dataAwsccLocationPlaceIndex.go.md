@@ -4,12 +4,12 @@
 
 ### DataAwsccLocationPlaceIndex <a name="DataAwsccLocationPlaceIndex" id="@cdktn/provider-awscc.dataAwsccLocationPlaceIndex.DataAwsccLocationPlaceIndex"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/location_place_index awscc_location_place_index}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/location_place_index awscc_location_place_index}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLocationPlaceIndex.DataAwsccLocationPlaceIndex.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationplaceindex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationplaceindex"
 
 dataawscclocationplaceindex.NewDataAwsccLocationPlaceIndex(scope Construct, id *string, config DataAwsccLocationPlaceIndexConfig) DataAwsccLocationPlaceIndex
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccLocationPlaceIndex.DataAwsccLocationPlaceIndex.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationplaceindex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationplaceindex"
 
 dataawscclocationplaceindex.DataAwsccLocationPlaceIndex_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccLocationPlaceIndex.DataAwsccLocationPlaceIndex.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationplaceindex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationplaceindex"
 
 dataawscclocationplaceindex.DataAwsccLocationPlaceIndex_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscclocationplaceindex.DataAwsccLocationPlaceIndex_IsTerraformElement(x int
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccLocationPlaceIndex.DataAwsccLocationPlaceIndex.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationplaceindex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationplaceindex"
 
 dataawscclocationplaceindex.DataAwsccLocationPlaceIndex_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscclocationplaceindex.DataAwsccLocationPlaceIndex_IsTerraformDataSource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccLocationPlaceIndex.DataAwsccLocationPlaceIndex.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationplaceindex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationplaceindex"
 
 dataawscclocationplaceindex.DataAwsccLocationPlaceIndex_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLocationPlaceInde
 
 The id of the existing DataAwsccLocationPlaceIndex that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/location_place_index#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/location_place_index#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -697,7 +697,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLocationPlaceIndex.DataAwsccLocationPlaceIndexConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationplaceindex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationplaceindex"
 
 &dataawscclocationplaceindex.DataAwsccLocationPlaceIndexConfig {
 	Connection: interface{},
@@ -806,7 +806,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/location_place_index#id DataAwsccLocationPlaceIndex#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/location_place_index#id DataAwsccLocationPlaceIndex#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -818,7 +818,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLocationPlaceIndex.DataAwsccLocationPlaceIndexDataSourceConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationplaceindex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationplaceindex"
 
 &dataawscclocationplaceindex.DataAwsccLocationPlaceIndexDataSourceConfiguration {
 
@@ -831,7 +831,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationplace
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLocationPlaceIndex.DataAwsccLocationPlaceIndexTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationplaceindex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationplaceindex"
 
 &dataawscclocationplaceindex.DataAwsccLocationPlaceIndexTags {
 
@@ -846,7 +846,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationplace
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLocationPlaceIndex.DataAwsccLocationPlaceIndexDataSourceConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationplaceindex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationplaceindex"
 
 dataawscclocationplaceindex.NewDataAwsccLocationPlaceIndexDataSourceConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLocationPlaceIndexDataSourceConfigurationOutputReference
 ```
@@ -1106,7 +1106,7 @@ func InternalValue() DataAwsccLocationPlaceIndexDataSourceConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLocationPlaceIndex.DataAwsccLocationPlaceIndexTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationplaceindex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationplaceindex"
 
 dataawscclocationplaceindex.NewDataAwsccLocationPlaceIndexTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLocationPlaceIndexTagsList
 ```
@@ -1255,7 +1255,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLocationPlaceIndex.DataAwsccLocationPlaceIndexTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationplaceindex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationplaceindex"
 
 dataawscclocationplaceindex.NewDataAwsccLocationPlaceIndexTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLocationPlaceIndexTagsOutputReference
 ```

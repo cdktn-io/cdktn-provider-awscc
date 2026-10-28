@@ -4,12 +4,12 @@
 
 ### CloudformationGuardHook <a name="CloudformationGuardHook" id="@cdktn/provider-awscc.cloudformationGuardHook.CloudformationGuardHook"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_guard_hook awscc_cloudformation_guard_hook}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_guard_hook awscc_cloudformation_guard_hook}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudformationGuardHook.CloudformationGuardHook.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationguardhook"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationguardhook"
 
 cloudformationguardhook.NewCloudformationGuardHook(scope Construct, id *string, config CloudformationGuardHookConfig) CloudformationGuardHook
 ```
@@ -494,7 +494,7 @@ func ResetTargetFilters()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.cloudformationGuardHook.CloudformationGuardHook.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationguardhook"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationguardhook"
 
 cloudformationguardhook.CloudformationGuardHook_IsConstruct(x interface{}) *bool
 ```
@@ -526,7 +526,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.cloudformationGuardHook.CloudformationGuardHook.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationguardhook"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationguardhook"
 
 cloudformationguardhook.CloudformationGuardHook_IsTerraformElement(x interface{}) *bool
 ```
@@ -540,7 +540,7 @@ cloudformationguardhook.CloudformationGuardHook_IsTerraformElement(x interface{}
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.cloudformationGuardHook.CloudformationGuardHook.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationguardhook"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationguardhook"
 
 cloudformationguardhook.CloudformationGuardHook_IsTerraformResource(x interface{}) *bool
 ```
@@ -554,7 +554,7 @@ cloudformationguardhook.CloudformationGuardHook_IsTerraformResource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.cloudformationGuardHook.CloudformationGuardHook.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationguardhook"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationguardhook"
 
 cloudformationguardhook.CloudformationGuardHook_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -583,7 +583,7 @@ The construct id used in the generated config for the CloudformationGuardHook to
 
 The id of the existing CloudformationGuardHook that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_guard_hook#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_guard_hook#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1025,7 +1025,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudformationGuardHook.CloudformationGuardHookConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationguardhook"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationguardhook"
 
 &cloudformationguardhook.CloudformationGuardHookConfig {
 	Connection: interface{},
@@ -1037,14 +1037,14 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationguardhoo
 	Provisioners: *[]interface{},
 	Alias: *string,
 	ExecutionRole: *string,
-	RuleLocation: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.cloudformationGuardHook.CloudformationGuardHookRuleLocation,
+	RuleLocation: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.cloudformationGuardHook.CloudformationGuardHookRuleLocation,
 	TargetOperations: *[]*string,
 	FailureMode: *string,
 	HookStatus: *string,
 	LogBucket: *string,
-	Options: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.cloudformationGuardHook.CloudformationGuardHookOptions,
-	StackFilters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.cloudformationGuardHook.CloudformationGuardHookStackFilters,
-	TargetFilters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.cloudformationGuardHook.CloudformationGuardHookTargetFilters,
+	Options: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.cloudformationGuardHook.CloudformationGuardHookOptions,
+	StackFilters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.cloudformationGuardHook.CloudformationGuardHookStackFilters,
+	TargetFilters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.cloudformationGuardHook.CloudformationGuardHookTargetFilters,
 }
 ```
 
@@ -1066,7 +1066,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationguardhoo
 | <code><a href="#@cdktn/provider-awscc.cloudformationGuardHook.CloudformationGuardHookConfig.property.failureMode">FailureMode</a></code> | <code>*string</code> | Attribute to specify CloudFormation behavior on hook failure. |
 | <code><a href="#@cdktn/provider-awscc.cloudformationGuardHook.CloudformationGuardHookConfig.property.hookStatus">HookStatus</a></code> | <code>*string</code> | Attribute to specify which stacks this hook applies to or should get invoked for. |
 | <code><a href="#@cdktn/provider-awscc.cloudformationGuardHook.CloudformationGuardHookConfig.property.logBucket">LogBucket</a></code> | <code>*string</code> | S3 Bucket where the guard validate report will be uploaded to. |
-| <code><a href="#@cdktn/provider-awscc.cloudformationGuardHook.CloudformationGuardHookConfig.property.options">Options</a></code> | <code><a href="#@cdktn/provider-awscc.cloudformationGuardHook.CloudformationGuardHookOptions">CloudformationGuardHookOptions</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_guard_hook#options CloudformationGuardHook#options}. |
+| <code><a href="#@cdktn/provider-awscc.cloudformationGuardHook.CloudformationGuardHookConfig.property.options">Options</a></code> | <code><a href="#@cdktn/provider-awscc.cloudformationGuardHook.CloudformationGuardHookOptions">CloudformationGuardHookOptions</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_guard_hook#options CloudformationGuardHook#options}. |
 | <code><a href="#@cdktn/provider-awscc.cloudformationGuardHook.CloudformationGuardHookConfig.property.stackFilters">StackFilters</a></code> | <code><a href="#@cdktn/provider-awscc.cloudformationGuardHook.CloudformationGuardHookStackFilters">CloudformationGuardHookStackFilters</a></code> | Filters to allow hooks to target specific stack attributes. |
 | <code><a href="#@cdktn/provider-awscc.cloudformationGuardHook.CloudformationGuardHookConfig.property.targetFilters">TargetFilters</a></code> | <code><a href="#@cdktn/provider-awscc.cloudformationGuardHook.CloudformationGuardHookTargetFilters">CloudformationGuardHookTargetFilters</a></code> | Attribute to specify which targets should invoke the hook. |
 
@@ -1152,7 +1152,7 @@ Alias *string
 
 The typename alias for the hook.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_guard_hook#alias CloudformationGuardHook#alias}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_guard_hook#alias CloudformationGuardHook#alias}
 
 ---
 
@@ -1166,7 +1166,7 @@ ExecutionRole *string
 
 The execution role ARN assumed by hooks to read Guard rules from S3 and write Guard outputs to S3.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_guard_hook#execution_role CloudformationGuardHook#execution_role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_guard_hook#execution_role CloudformationGuardHook#execution_role}
 
 ---
 
@@ -1180,7 +1180,7 @@ RuleLocation CloudformationGuardHookRuleLocation
 
 S3 Source Location for the Guard files.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_guard_hook#rule_location CloudformationGuardHook#rule_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_guard_hook#rule_location CloudformationGuardHook#rule_location}
 
 ---
 
@@ -1194,7 +1194,7 @@ TargetOperations *[]*string
 
 Which operations should this Hook run against? Resource changes, stacks or change sets.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_guard_hook#target_operations CloudformationGuardHook#target_operations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_guard_hook#target_operations CloudformationGuardHook#target_operations}
 
 ---
 
@@ -1208,7 +1208,7 @@ FailureMode *string
 
 Attribute to specify CloudFormation behavior on hook failure.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_guard_hook#failure_mode CloudformationGuardHook#failure_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_guard_hook#failure_mode CloudformationGuardHook#failure_mode}
 
 ---
 
@@ -1222,7 +1222,7 @@ HookStatus *string
 
 Attribute to specify which stacks this hook applies to or should get invoked for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_guard_hook#hook_status CloudformationGuardHook#hook_status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_guard_hook#hook_status CloudformationGuardHook#hook_status}
 
 ---
 
@@ -1236,7 +1236,7 @@ LogBucket *string
 
 S3 Bucket where the guard validate report will be uploaded to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_guard_hook#log_bucket CloudformationGuardHook#log_bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_guard_hook#log_bucket CloudformationGuardHook#log_bucket}
 
 ---
 
@@ -1248,7 +1248,7 @@ Options CloudformationGuardHookOptions
 
 - *Type:* <a href="#@cdktn/provider-awscc.cloudformationGuardHook.CloudformationGuardHookOptions">CloudformationGuardHookOptions</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_guard_hook#options CloudformationGuardHook#options}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_guard_hook#options CloudformationGuardHook#options}.
 
 ---
 
@@ -1262,7 +1262,7 @@ StackFilters CloudformationGuardHookStackFilters
 
 Filters to allow hooks to target specific stack attributes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_guard_hook#stack_filters CloudformationGuardHook#stack_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_guard_hook#stack_filters CloudformationGuardHook#stack_filters}
 
 ---
 
@@ -1276,7 +1276,7 @@ TargetFilters CloudformationGuardHookTargetFilters
 
 Attribute to specify which targets should invoke the hook.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_guard_hook#target_filters CloudformationGuardHook#target_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_guard_hook#target_filters CloudformationGuardHook#target_filters}
 
 ---
 
@@ -1285,7 +1285,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudformationGuardHook.CloudformationGuardHookOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationguardhook"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationguardhook"
 
 &cloudformationguardhook.CloudformationGuardHookOptions {
 	InputParams: *string,
@@ -1312,7 +1312,7 @@ Specifies the S3 location of input parameter files for your Guard rules.
 
 You can specify either a single S3 location or an array of up to 10 S3 locations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_guard_hook#input_params CloudformationGuardHook#input_params}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_guard_hook#input_params CloudformationGuardHook#input_params}
 
 ---
 
@@ -1321,7 +1321,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudformationGuardHook.CloudformationGuardHookRuleLocation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationguardhook"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationguardhook"
 
 &cloudformationguardhook.CloudformationGuardHookRuleLocation {
 	Uri: *string,
@@ -1348,7 +1348,7 @@ Uri *string
 
 S3 uri of Guard files.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_guard_hook#uri CloudformationGuardHook#uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_guard_hook#uri CloudformationGuardHook#uri}
 
 ---
 
@@ -1362,7 +1362,7 @@ VersionId *string
 
 S3 object version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_guard_hook#version_id CloudformationGuardHook#version_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_guard_hook#version_id CloudformationGuardHook#version_id}
 
 ---
 
@@ -1371,12 +1371,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudformationGuardHook.CloudformationGuardHookStackFilters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationguardhook"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationguardhook"
 
 &cloudformationguardhook.CloudformationGuardHookStackFilters {
 	FilteringCriteria: *string,
-	StackNames: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.cloudformationGuardHook.CloudformationGuardHookStackFiltersStackNames,
-	StackRoles: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.cloudformationGuardHook.CloudformationGuardHookStackFiltersStackRoles,
+	StackNames: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.cloudformationGuardHook.CloudformationGuardHookStackFiltersStackNames,
+	StackRoles: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.cloudformationGuardHook.CloudformationGuardHookStackFiltersStackRoles,
 }
 ```
 
@@ -1402,7 +1402,7 @@ Attribute to specify the filtering behavior.
 
 ANY will make the Hook pass if one filter matches. ALL will make the Hook pass if all filters match
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_guard_hook#filtering_criteria CloudformationGuardHook#filtering_criteria}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_guard_hook#filtering_criteria CloudformationGuardHook#filtering_criteria}
 
 ---
 
@@ -1416,7 +1416,7 @@ StackNames CloudformationGuardHookStackFiltersStackNames
 
 List of stack names as filters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_guard_hook#stack_names CloudformationGuardHook#stack_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_guard_hook#stack_names CloudformationGuardHook#stack_names}
 
 ---
 
@@ -1430,7 +1430,7 @@ StackRoles CloudformationGuardHookStackFiltersStackRoles
 
 List of stack roles that are performing the stack operations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_guard_hook#stack_roles CloudformationGuardHook#stack_roles}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_guard_hook#stack_roles CloudformationGuardHook#stack_roles}
 
 ---
 
@@ -1439,7 +1439,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudformationGuardHook.CloudformationGuardHookStackFiltersStackNames.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationguardhook"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationguardhook"
 
 &cloudformationguardhook.CloudformationGuardHookStackFiltersStackNames {
 	Exclude: *[]*string,
@@ -1466,7 +1466,7 @@ Exclude *[]*string
 
 List of stack names that the hook is going to be excluded from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_guard_hook#exclude CloudformationGuardHook#exclude}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_guard_hook#exclude CloudformationGuardHook#exclude}
 
 ---
 
@@ -1480,7 +1480,7 @@ Include *[]*string
 
 List of stack names that the hook is going to target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_guard_hook#include CloudformationGuardHook#include}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_guard_hook#include CloudformationGuardHook#include}
 
 ---
 
@@ -1489,7 +1489,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudformationGuardHook.CloudformationGuardHookStackFiltersStackRoles.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationguardhook"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationguardhook"
 
 &cloudformationguardhook.CloudformationGuardHookStackFiltersStackRoles {
 	Exclude: *[]*string,
@@ -1516,7 +1516,7 @@ Exclude *[]*string
 
 List of stack roles that the hook is going to be excluded from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_guard_hook#exclude CloudformationGuardHook#exclude}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_guard_hook#exclude CloudformationGuardHook#exclude}
 
 ---
 
@@ -1530,7 +1530,7 @@ Include *[]*string
 
 List of stack roles that the hook is going to target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_guard_hook#include CloudformationGuardHook#include}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_guard_hook#include CloudformationGuardHook#include}
 
 ---
 
@@ -1539,7 +1539,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudformationGuardHook.CloudformationGuardHookTargetFilters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationguardhook"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationguardhook"
 
 &cloudformationguardhook.CloudformationGuardHookTargetFilters {
 	Actions: *[]*string,
@@ -1570,7 +1570,7 @@ Actions *[]*string
 
 List of actions that the hook is going to target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_guard_hook#actions CloudformationGuardHook#actions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_guard_hook#actions CloudformationGuardHook#actions}
 
 ---
 
@@ -1584,7 +1584,7 @@ InvocationPoints *[]*string
 
 List of invocation points that the hook is going to target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_guard_hook#invocation_points CloudformationGuardHook#invocation_points}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_guard_hook#invocation_points CloudformationGuardHook#invocation_points}
 
 ---
 
@@ -1598,7 +1598,7 @@ TargetNames *[]*string
 
 List of type names that the hook is going to target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_guard_hook#target_names CloudformationGuardHook#target_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_guard_hook#target_names CloudformationGuardHook#target_names}
 
 ---
 
@@ -1612,7 +1612,7 @@ Targets interface{}
 
 List of hook targets.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_guard_hook#targets CloudformationGuardHook#targets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_guard_hook#targets CloudformationGuardHook#targets}
 
 ---
 
@@ -1621,7 +1621,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudformationGuardHook.CloudformationGuardHookTargetFiltersTargets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationguardhook"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationguardhook"
 
 &cloudformationguardhook.CloudformationGuardHookTargetFiltersTargets {
 	Action: *string,
@@ -1650,7 +1650,7 @@ Action *string
 
 Target actions are the type of operation hooks will be executed at.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_guard_hook#action CloudformationGuardHook#action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_guard_hook#action CloudformationGuardHook#action}
 
 ---
 
@@ -1664,7 +1664,7 @@ InvocationPoint *string
 
 Invocation points are the point in provisioning workflow where hooks will be executed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_guard_hook#invocation_point CloudformationGuardHook#invocation_point}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_guard_hook#invocation_point CloudformationGuardHook#invocation_point}
 
 ---
 
@@ -1678,7 +1678,7 @@ TargetName *string
 
 Type name of hook target. Hook targets are the destination where hooks will be invoked against.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_guard_hook#target_name CloudformationGuardHook#target_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_guard_hook#target_name CloudformationGuardHook#target_name}
 
 ---
 
@@ -1689,7 +1689,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudformationGuardHook.CloudformationGuardHookOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationguardhook"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationguardhook"
 
 cloudformationguardhook.NewCloudformationGuardHookOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CloudformationGuardHookOptionsOutputReference
 ```
@@ -1967,7 +1967,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudformationGuardHook.CloudformationGuardHookRuleLocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationguardhook"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationguardhook"
 
 cloudformationguardhook.NewCloudformationGuardHookRuleLocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CloudformationGuardHookRuleLocationOutputReference
 ```
@@ -2267,7 +2267,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudformationGuardHook.CloudformationGuardHookStackFiltersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationguardhook"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationguardhook"
 
 cloudformationguardhook.NewCloudformationGuardHookStackFiltersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CloudformationGuardHookStackFiltersOutputReference
 ```
@@ -2629,7 +2629,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudformationGuardHook.CloudformationGuardHookStackFiltersStackNamesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationguardhook"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationguardhook"
 
 cloudformationguardhook.NewCloudformationGuardHookStackFiltersStackNamesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CloudformationGuardHookStackFiltersStackNamesOutputReference
 ```
@@ -2936,7 +2936,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudformationGuardHook.CloudformationGuardHookStackFiltersStackRolesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationguardhook"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationguardhook"
 
 cloudformationguardhook.NewCloudformationGuardHookStackFiltersStackRolesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CloudformationGuardHookStackFiltersStackRolesOutputReference
 ```
@@ -3243,7 +3243,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudformationGuardHook.CloudformationGuardHookTargetFiltersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationguardhook"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationguardhook"
 
 cloudformationguardhook.NewCloudformationGuardHookTargetFiltersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CloudformationGuardHookTargetFiltersOutputReference
 ```
@@ -3621,7 +3621,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudformationGuardHook.CloudformationGuardHookTargetFiltersTargetsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationguardhook"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationguardhook"
 
 cloudformationguardhook.NewCloudformationGuardHookTargetFiltersTargetsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CloudformationGuardHookTargetFiltersTargetsList
 ```
@@ -3781,7 +3781,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudformationGuardHook.CloudformationGuardHookTargetFiltersTargetsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationguardhook"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationguardhook"
 
 cloudformationguardhook.NewCloudformationGuardHookTargetFiltersTargetsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CloudformationGuardHookTargetFiltersTargetsOutputReference
 ```

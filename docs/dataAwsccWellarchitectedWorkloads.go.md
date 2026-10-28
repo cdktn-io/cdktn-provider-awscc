@@ -4,12 +4,12 @@
 
 ### DataAwsccWellarchitectedWorkloads <a name="DataAwsccWellarchitectedWorkloads" id="@cdktn/provider-awscc.dataAwsccWellarchitectedWorkloads.DataAwsccWellarchitectedWorkloads"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/wellarchitected_workloads awscc_wellarchitected_workloads}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/wellarchitected_workloads awscc_wellarchitected_workloads}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWellarchitectedWorkloads.DataAwsccWellarchitectedWorkloads.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwellarchitectedworkloads"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwellarchitectedworkloads"
 
 dataawsccwellarchitectedworkloads.NewDataAwsccWellarchitectedWorkloads(scope Construct, id *string, config DataAwsccWellarchitectedWorkloadsConfig) DataAwsccWellarchitectedWorkloads
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccWellarchitectedWorkloads.DataAwsccWellarchitectedWorkloads.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwellarchitectedworkloads"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwellarchitectedworkloads"
 
 dataawsccwellarchitectedworkloads.DataAwsccWellarchitectedWorkloads_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccWellarchitectedWorkloads.DataAwsccWellarchitectedWorkloads.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwellarchitectedworkloads"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwellarchitectedworkloads"
 
 dataawsccwellarchitectedworkloads.DataAwsccWellarchitectedWorkloads_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccwellarchitectedworkloads.DataAwsccWellarchitectedWorkloads_IsTerraformE
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccWellarchitectedWorkloads.DataAwsccWellarchitectedWorkloads.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwellarchitectedworkloads"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwellarchitectedworkloads"
 
 dataawsccwellarchitectedworkloads.DataAwsccWellarchitectedWorkloads_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccwellarchitectedworkloads.DataAwsccWellarchitectedWorkloads_IsTerraformD
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccWellarchitectedWorkloads.DataAwsccWellarchitectedWorkloads.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwellarchitectedworkloads"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwellarchitectedworkloads"
 
 dataawsccwellarchitectedworkloads.DataAwsccWellarchitectedWorkloads_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccWellarchitectedWo
 
 The id of the existing DataAwsccWellarchitectedWorkloads that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/wellarchitected_workloads#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/wellarchitected_workloads#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWellarchitectedWorkloads.DataAwsccWellarchitectedWorkloadsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwellarchitectedworkloads"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwellarchitectedworkloads"
 
 &dataawsccwellarchitectedworkloads.DataAwsccWellarchitectedWorkloadsConfig {
 	Connection: interface{},

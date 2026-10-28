@@ -4,12 +4,12 @@
 
 ### DatasyncLocationFsxLustre <a name="DatasyncLocationFsxLustre" id="@cdktn/provider-awscc.datasyncLocationFsxLustre.DatasyncLocationFsxLustre"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_fsx_lustre awscc_datasync_location_fsx_lustre}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_fsx_lustre awscc_datasync_location_fsx_lustre}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datasyncLocationFsxLustre.DatasyncLocationFsxLustre.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationfsxlustre"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationfsxlustre"
 
 datasynclocationfsxlustre.NewDatasyncLocationFsxLustre(scope Construct, id *string, config DatasyncLocationFsxLustreConfig) DatasyncLocationFsxLustre
 ```
@@ -434,7 +434,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.datasyncLocationFsxLustre.DatasyncLocationFsxLustre.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationfsxlustre"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationfsxlustre"
 
 datasynclocationfsxlustre.DatasyncLocationFsxLustre_IsConstruct(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.datasyncLocationFsxLustre.DatasyncLocationFsxLustre.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationfsxlustre"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationfsxlustre"
 
 datasynclocationfsxlustre.DatasyncLocationFsxLustre_IsTerraformElement(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ datasynclocationfsxlustre.DatasyncLocationFsxLustre_IsTerraformElement(x interfa
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.datasyncLocationFsxLustre.DatasyncLocationFsxLustre.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationfsxlustre"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationfsxlustre"
 
 datasynclocationfsxlustre.DatasyncLocationFsxLustre_IsTerraformResource(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ datasynclocationfsxlustre.DatasyncLocationFsxLustre_IsTerraformResource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.datasyncLocationFsxLustre.DatasyncLocationFsxLustre.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationfsxlustre"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationfsxlustre"
 
 datasynclocationfsxlustre.DatasyncLocationFsxLustre_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -523,7 +523,7 @@ The construct id used in the generated config for the DatasyncLocationFsxLustre 
 
 The id of the existing DatasyncLocationFsxLustre that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_fsx_lustre#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_fsx_lustre#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -844,7 +844,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.datasyncLocationFsxLustre.DatasyncLocationFsxLustreConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationfsxlustre"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationfsxlustre"
 
 &datasynclocationfsxlustre.DatasyncLocationFsxLustreConfig {
 	Connection: interface{},
@@ -959,7 +959,7 @@ SecurityGroupArns *[]*string
 
 The ARNs of the security groups that are to use to configure the FSx for Lustre file system.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_fsx_lustre#security_group_arns DatasyncLocationFsxLustre#security_group_arns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_fsx_lustre#security_group_arns DatasyncLocationFsxLustre#security_group_arns}
 
 ---
 
@@ -973,7 +973,7 @@ FsxFilesystemArn *string
 
 The Amazon Resource Name (ARN) for the FSx for Lustre file system.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_fsx_lustre#fsx_filesystem_arn DatasyncLocationFsxLustre#fsx_filesystem_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_fsx_lustre#fsx_filesystem_arn DatasyncLocationFsxLustre#fsx_filesystem_arn}
 
 ---
 
@@ -987,7 +987,7 @@ Subdirectory *string
 
 A subdirectory in the location's path.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_fsx_lustre#subdirectory DatasyncLocationFsxLustre#subdirectory}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_fsx_lustre#subdirectory DatasyncLocationFsxLustre#subdirectory}
 
 ---
 
@@ -1001,7 +1001,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_fsx_lustre#tags DatasyncLocationFsxLustre#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_fsx_lustre#tags DatasyncLocationFsxLustre#tags}
 
 ---
 
@@ -1010,7 +1010,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.datasyncLocationFsxLustre.DatasyncLocationFsxLustreTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationfsxlustre"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationfsxlustre"
 
 &datasynclocationfsxlustre.DatasyncLocationFsxLustreTags {
 	Key: *string,
@@ -1037,7 +1037,7 @@ Key *string
 
 The key for an AWS resource tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_fsx_lustre#key DatasyncLocationFsxLustre#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_fsx_lustre#key DatasyncLocationFsxLustre#key}
 
 ---
 
@@ -1051,7 +1051,7 @@ Value *string
 
 The value for an AWS resource tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_fsx_lustre#value DatasyncLocationFsxLustre#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_fsx_lustre#value DatasyncLocationFsxLustre#value}
 
 ---
 
@@ -1062,7 +1062,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datasyncLocationFsxLustre.DatasyncLocationFsxLustreTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationfsxlustre"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationfsxlustre"
 
 datasynclocationfsxlustre.NewDatasyncLocationFsxLustreTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DatasyncLocationFsxLustreTagsList
 ```
@@ -1222,7 +1222,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datasyncLocationFsxLustre.DatasyncLocationFsxLustreTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationfsxlustre"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationfsxlustre"
 
 datasynclocationfsxlustre.NewDatasyncLocationFsxLustreTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DatasyncLocationFsxLustreTagsOutputReference
 ```

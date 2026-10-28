@@ -4,12 +4,12 @@
 
 ### OpensearchserverlessSecurityConfig <a name="OpensearchserverlessSecurityConfig" id="@cdktn/provider-awscc.opensearchserverlessSecurityConfig.OpensearchserverlessSecurityConfig"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearchserverless_security_config awscc_opensearchserverless_security_config}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchserverless_security_config awscc_opensearchserverless_security_config}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.opensearchserverlessSecurityConfig.OpensearchserverlessSecurityConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchserverlesssecurityconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/opensearchserverlesssecurityconfig"
 
 opensearchserverlesssecurityconfig.NewOpensearchserverlessSecurityConfig(scope Construct, id *string, config OpensearchserverlessSecurityConfigConfig) OpensearchserverlessSecurityConfig
 ```
@@ -481,7 +481,7 @@ func ResetType()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.opensearchserverlessSecurityConfig.OpensearchserverlessSecurityConfig.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchserverlesssecurityconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/opensearchserverlesssecurityconfig"
 
 opensearchserverlesssecurityconfig.OpensearchserverlessSecurityConfig_IsConstruct(x interface{}) *bool
 ```
@@ -513,7 +513,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.opensearchserverlessSecurityConfig.OpensearchserverlessSecurityConfig.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchserverlesssecurityconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/opensearchserverlesssecurityconfig"
 
 opensearchserverlesssecurityconfig.OpensearchserverlessSecurityConfig_IsTerraformElement(x interface{}) *bool
 ```
@@ -527,7 +527,7 @@ opensearchserverlesssecurityconfig.OpensearchserverlessSecurityConfig_IsTerrafor
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.opensearchserverlessSecurityConfig.OpensearchserverlessSecurityConfig.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchserverlesssecurityconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/opensearchserverlesssecurityconfig"
 
 opensearchserverlesssecurityconfig.OpensearchserverlessSecurityConfig_IsTerraformResource(x interface{}) *bool
 ```
@@ -541,7 +541,7 @@ opensearchserverlesssecurityconfig.OpensearchserverlessSecurityConfig_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.opensearchserverlessSecurityConfig.OpensearchserverlessSecurityConfig.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchserverlesssecurityconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/opensearchserverlesssecurityconfig"
 
 opensearchserverlesssecurityconfig.OpensearchserverlessSecurityConfig_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -570,7 +570,7 @@ The construct id used in the generated config for the OpensearchserverlessSecuri
 
 The id of the existing OpensearchserverlessSecurityConfig that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearchserverless_security_config#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchserverless_security_config#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -924,7 +924,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.opensearchserverlessSecurityConfig.OpensearchserverlessSecurityConfigConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchserverlesssecurityconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/opensearchserverlesssecurityconfig"
 
 &opensearchserverlesssecurityconfig.OpensearchserverlessSecurityConfigConfig {
 	Connection: interface{},
@@ -935,10 +935,10 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchserverlessse
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	Description: *string,
-	IamFederationOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.opensearchserverlessSecurityConfig.OpensearchserverlessSecurityConfigIamFederationOptions,
-	IamIdentityCenterOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.opensearchserverlessSecurityConfig.OpensearchserverlessSecurityConfigIamIdentityCenterOptions,
+	IamFederationOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.opensearchserverlessSecurityConfig.OpensearchserverlessSecurityConfigIamFederationOptions,
+	IamIdentityCenterOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.opensearchserverlessSecurityConfig.OpensearchserverlessSecurityConfigIamIdentityCenterOptions,
 	Name: *string,
-	SamlOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.opensearchserverlessSecurityConfig.OpensearchserverlessSecurityConfigSamlOptions,
+	SamlOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.opensearchserverlessSecurityConfig.OpensearchserverlessSecurityConfigSamlOptions,
 	Type: *string,
 }
 ```
@@ -1043,7 +1043,7 @@ Description *string
 
 Security config description.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearchserverless_security_config#description OpensearchserverlessSecurityConfig#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchserverless_security_config#description OpensearchserverlessSecurityConfig#description}
 
 ---
 
@@ -1057,7 +1057,7 @@ IamFederationOptions OpensearchserverlessSecurityConfigIamFederationOptions
 
 Describe IAM federation options in form of key value map.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearchserverless_security_config#iam_federation_options OpensearchserverlessSecurityConfig#iam_federation_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchserverless_security_config#iam_federation_options OpensearchserverlessSecurityConfig#iam_federation_options}
 
 ---
 
@@ -1071,7 +1071,7 @@ IamIdentityCenterOptions OpensearchserverlessSecurityConfigIamIdentityCenterOpti
 
 Describes IAM Identity Center options for an OpenSearch Serverless security configuration in the form of a key-value map.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearchserverless_security_config#iam_identity_center_options OpensearchserverlessSecurityConfig#iam_identity_center_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchserverless_security_config#iam_identity_center_options OpensearchserverlessSecurityConfig#iam_identity_center_options}
 
 ---
 
@@ -1085,7 +1085,7 @@ Name *string
 
 The friendly name of the security config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearchserverless_security_config#name OpensearchserverlessSecurityConfig#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchserverless_security_config#name OpensearchserverlessSecurityConfig#name}
 
 ---
 
@@ -1099,7 +1099,7 @@ SamlOptions OpensearchserverlessSecurityConfigSamlOptions
 
 Describes saml options in form of key value map.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearchserverless_security_config#saml_options OpensearchserverlessSecurityConfig#saml_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchserverless_security_config#saml_options OpensearchserverlessSecurityConfig#saml_options}
 
 ---
 
@@ -1113,7 +1113,7 @@ Type *string
 
 Config type for security config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearchserverless_security_config#type OpensearchserverlessSecurityConfig#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchserverless_security_config#type OpensearchserverlessSecurityConfig#type}
 
 ---
 
@@ -1122,7 +1122,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.opensearchserverlessSecurityConfig.OpensearchserverlessSecurityConfigIamFederationOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchserverlesssecurityconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/opensearchserverlesssecurityconfig"
 
 &opensearchserverlesssecurityconfig.OpensearchserverlessSecurityConfigIamFederationOptions {
 	GroupAttribute: *string,
@@ -1149,7 +1149,7 @@ GroupAttribute *string
 
 Group attribute for this IAM federation integration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearchserverless_security_config#group_attribute OpensearchserverlessSecurityConfig#group_attribute}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchserverless_security_config#group_attribute OpensearchserverlessSecurityConfig#group_attribute}
 
 ---
 
@@ -1163,7 +1163,7 @@ UserAttribute *string
 
 User attribute for this IAM federation integration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearchserverless_security_config#user_attribute OpensearchserverlessSecurityConfig#user_attribute}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchserverless_security_config#user_attribute OpensearchserverlessSecurityConfig#user_attribute}
 
 ---
 
@@ -1172,7 +1172,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.opensearchserverlessSecurityConfig.OpensearchserverlessSecurityConfigIamIdentityCenterOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchserverlesssecurityconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/opensearchserverlesssecurityconfig"
 
 &opensearchserverlesssecurityconfig.OpensearchserverlessSecurityConfigIamIdentityCenterOptions {
 	GroupAttribute: *string,
@@ -1201,7 +1201,7 @@ GroupAttribute *string
 
 Group attribute for this IAM Identity Center integration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearchserverless_security_config#group_attribute OpensearchserverlessSecurityConfig#group_attribute}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchserverless_security_config#group_attribute OpensearchserverlessSecurityConfig#group_attribute}
 
 ---
 
@@ -1215,7 +1215,7 @@ InstanceArn *string
 
 The ARN of the IAM Identity Center instance used to integrate with OpenSearch Serverless.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearchserverless_security_config#instance_arn OpensearchserverlessSecurityConfig#instance_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchserverless_security_config#instance_arn OpensearchserverlessSecurityConfig#instance_arn}
 
 ---
 
@@ -1229,7 +1229,7 @@ UserAttribute *string
 
 User attribute for this IAM Identity Center integration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearchserverless_security_config#user_attribute OpensearchserverlessSecurityConfig#user_attribute}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchserverless_security_config#user_attribute OpensearchserverlessSecurityConfig#user_attribute}
 
 ---
 
@@ -1238,7 +1238,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.opensearchserverlessSecurityConfig.OpensearchserverlessSecurityConfigSamlOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchserverlesssecurityconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/opensearchserverlesssecurityconfig"
 
 &opensearchserverlesssecurityconfig.OpensearchserverlessSecurityConfigSamlOptions {
 	GroupAttribute: *string,
@@ -1271,7 +1271,7 @@ GroupAttribute *string
 
 Group attribute for this saml integration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearchserverless_security_config#group_attribute OpensearchserverlessSecurityConfig#group_attribute}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchserverless_security_config#group_attribute OpensearchserverlessSecurityConfig#group_attribute}
 
 ---
 
@@ -1285,7 +1285,7 @@ Metadata *string
 
 The XML saml provider metadata document that you want to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearchserverless_security_config#metadata OpensearchserverlessSecurityConfig#metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchserverless_security_config#metadata OpensearchserverlessSecurityConfig#metadata}
 
 ---
 
@@ -1299,7 +1299,7 @@ OpenSearchServerlessEntityId *string
 
 Custom entity id attribute to override default entity id for this saml integration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearchserverless_security_config#open_search_serverless_entity_id OpensearchserverlessSecurityConfig#open_search_serverless_entity_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchserverless_security_config#open_search_serverless_entity_id OpensearchserverlessSecurityConfig#open_search_serverless_entity_id}
 
 ---
 
@@ -1313,7 +1313,7 @@ SessionTimeout *f64
 
 Defines the session timeout in minutes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearchserverless_security_config#session_timeout OpensearchserverlessSecurityConfig#session_timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchserverless_security_config#session_timeout OpensearchserverlessSecurityConfig#session_timeout}
 
 ---
 
@@ -1327,7 +1327,7 @@ UserAttribute *string
 
 Custom attribute for this saml integration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearchserverless_security_config#user_attribute OpensearchserverlessSecurityConfig#user_attribute}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchserverless_security_config#user_attribute OpensearchserverlessSecurityConfig#user_attribute}
 
 ---
 
@@ -1338,7 +1338,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.opensearchserverlessSecurityConfig.OpensearchserverlessSecurityConfigIamFederationOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchserverlesssecurityconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/opensearchserverlesssecurityconfig"
 
 opensearchserverlesssecurityconfig.NewOpensearchserverlessSecurityConfigIamFederationOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OpensearchserverlessSecurityConfigIamFederationOptionsOutputReference
 ```
@@ -1645,7 +1645,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.opensearchserverlessSecurityConfig.OpensearchserverlessSecurityConfigIamIdentityCenterOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchserverlesssecurityconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/opensearchserverlesssecurityconfig"
 
 opensearchserverlesssecurityconfig.NewOpensearchserverlessSecurityConfigIamIdentityCenterOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OpensearchserverlessSecurityConfigIamIdentityCenterOptionsOutputReference
 ```
@@ -2014,7 +2014,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.opensearchserverlessSecurityConfig.OpensearchserverlessSecurityConfigSamlOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchserverlesssecurityconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/opensearchserverlesssecurityconfig"
 
 opensearchserverlesssecurityconfig.NewOpensearchserverlessSecurityConfigSamlOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OpensearchserverlessSecurityConfigSamlOptionsOutputReference
 ```

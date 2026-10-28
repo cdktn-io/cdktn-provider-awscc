@@ -4,12 +4,12 @@
 
 ### DataAwsccLambdaLayerVersion <a name="DataAwsccLambdaLayerVersion" id="@cdktn/provider-awscc.dataAwsccLambdaLayerVersion.DataAwsccLambdaLayerVersion"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lambda_layer_version awscc_lambda_layer_version}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lambda_layer_version awscc_lambda_layer_version}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaLayerVersion.DataAwsccLambdaLayerVersion.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdalayerversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdalayerversion"
 
 dataawscclambdalayerversion.NewDataAwsccLambdaLayerVersion(scope Construct, id *string, config DataAwsccLambdaLayerVersionConfig) DataAwsccLambdaLayerVersion
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccLambdaLayerVersion.DataAwsccLambdaLayerVersion.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdalayerversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdalayerversion"
 
 dataawscclambdalayerversion.DataAwsccLambdaLayerVersion_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccLambdaLayerVersion.DataAwsccLambdaLayerVersion.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdalayerversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdalayerversion"
 
 dataawscclambdalayerversion.DataAwsccLambdaLayerVersion_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscclambdalayerversion.DataAwsccLambdaLayerVersion_IsTerraformElement(x int
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccLambdaLayerVersion.DataAwsccLambdaLayerVersion.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdalayerversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdalayerversion"
 
 dataawscclambdalayerversion.DataAwsccLambdaLayerVersion_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscclambdalayerversion.DataAwsccLambdaLayerVersion_IsTerraformDataSource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccLambdaLayerVersion.DataAwsccLambdaLayerVersion.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdalayerversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdalayerversion"
 
 dataawscclambdalayerversion.DataAwsccLambdaLayerVersion_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLambdaLayerVersio
 
 The id of the existing DataAwsccLambdaLayerVersion that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lambda_layer_version#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lambda_layer_version#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -664,7 +664,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaLayerVersion.DataAwsccLambdaLayerVersionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdalayerversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdalayerversion"
 
 &dataawscclambdalayerversion.DataAwsccLambdaLayerVersionConfig {
 	Connection: interface{},
@@ -773,7 +773,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lambda_layer_version#id DataAwsccLambdaLayerVersion#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lambda_layer_version#id DataAwsccLambdaLayerVersion#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -785,7 +785,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaLayerVersion.DataAwsccLambdaLayerVersionContent.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdalayerversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdalayerversion"
 
 &dataawscclambdalayerversion.DataAwsccLambdaLayerVersionContent {
 
@@ -800,7 +800,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdalayerve
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaLayerVersion.DataAwsccLambdaLayerVersionContentOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdalayerversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdalayerversion"
 
 dataawscclambdalayerversion.NewDataAwsccLambdaLayerVersionContentOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLambdaLayerVersionContentOutputReference
 ```

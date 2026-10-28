@@ -4,12 +4,12 @@
 
 ### DataAwsccKendrarankingExecutionPlan <a name="DataAwsccKendrarankingExecutionPlan" id="@cdktn/provider-awscc.dataAwsccKendrarankingExecutionPlan.DataAwsccKendrarankingExecutionPlan"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/kendraranking_execution_plan awscc_kendraranking_execution_plan}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/kendraranking_execution_plan awscc_kendraranking_execution_plan}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendrarankingExecutionPlan.DataAwsccKendrarankingExecutionPlan.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendrarankingexecutionplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendrarankingexecutionplan"
 
 dataawscckendrarankingexecutionplan.NewDataAwsccKendrarankingExecutionPlan(scope Construct, id *string, config DataAwsccKendrarankingExecutionPlanConfig) DataAwsccKendrarankingExecutionPlan
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccKendrarankingExecutionPlan.DataAwsccKendrarankingExecutionPlan.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendrarankingexecutionplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendrarankingexecutionplan"
 
 dataawscckendrarankingexecutionplan.DataAwsccKendrarankingExecutionPlan_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccKendrarankingExecutionPlan.DataAwsccKendrarankingExecutionPlan.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendrarankingexecutionplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendrarankingexecutionplan"
 
 dataawscckendrarankingexecutionplan.DataAwsccKendrarankingExecutionPlan_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscckendrarankingexecutionplan.DataAwsccKendrarankingExecutionPlan_IsTerraf
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccKendrarankingExecutionPlan.DataAwsccKendrarankingExecutionPlan.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendrarankingexecutionplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendrarankingexecutionplan"
 
 dataawscckendrarankingexecutionplan.DataAwsccKendrarankingExecutionPlan_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscckendrarankingexecutionplan.DataAwsccKendrarankingExecutionPlan_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccKendrarankingExecutionPlan.DataAwsccKendrarankingExecutionPlan.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendrarankingexecutionplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendrarankingexecutionplan"
 
 dataawscckendrarankingexecutionplan.DataAwsccKendrarankingExecutionPlan_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccKendrarankingExec
 
 The id of the existing DataAwsccKendrarankingExecutionPlan that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/kendraranking_execution_plan#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/kendraranking_execution_plan#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -653,7 +653,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendrarankingExecutionPlan.DataAwsccKendrarankingExecutionPlanCapacityUnits.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendrarankingexecutionplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendrarankingexecutionplan"
 
 &dataawscckendrarankingexecutionplan.DataAwsccKendrarankingExecutionPlanCapacityUnits {
 
@@ -666,7 +666,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendraranking
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendrarankingExecutionPlan.DataAwsccKendrarankingExecutionPlanConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendrarankingexecutionplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendrarankingexecutionplan"
 
 &dataawscckendrarankingexecutionplan.DataAwsccKendrarankingExecutionPlanConfig {
 	Connection: interface{},
@@ -775,7 +775,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/kendraranking_execution_plan#id DataAwsccKendrarankingExecutionPlan#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/kendraranking_execution_plan#id DataAwsccKendrarankingExecutionPlan#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -787,7 +787,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendrarankingExecutionPlan.DataAwsccKendrarankingExecutionPlanTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendrarankingexecutionplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendrarankingexecutionplan"
 
 &dataawscckendrarankingexecutionplan.DataAwsccKendrarankingExecutionPlanTags {
 
@@ -802,7 +802,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendraranking
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendrarankingExecutionPlan.DataAwsccKendrarankingExecutionPlanCapacityUnitsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendrarankingexecutionplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendrarankingexecutionplan"
 
 dataawscckendrarankingexecutionplan.NewDataAwsccKendrarankingExecutionPlanCapacityUnitsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKendrarankingExecutionPlanCapacityUnitsOutputReference
 ```
@@ -1062,7 +1062,7 @@ func InternalValue() DataAwsccKendrarankingExecutionPlanCapacityUnits
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendrarankingExecutionPlan.DataAwsccKendrarankingExecutionPlanTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendrarankingexecutionplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendrarankingexecutionplan"
 
 dataawscckendrarankingexecutionplan.NewDataAwsccKendrarankingExecutionPlanTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccKendrarankingExecutionPlanTagsList
 ```
@@ -1211,7 +1211,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendrarankingExecutionPlan.DataAwsccKendrarankingExecutionPlanTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendrarankingexecutionplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendrarankingexecutionplan"
 
 dataawscckendrarankingexecutionplan.NewDataAwsccKendrarankingExecutionPlanTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccKendrarankingExecutionPlanTagsOutputReference
 ```

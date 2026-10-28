@@ -4,12 +4,12 @@
 
 ### AppstreamStackUserAssociation <a name="AppstreamStackUserAssociation" id="@cdktn/provider-awscc.appstreamStackUserAssociation.AppstreamStackUserAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appstream_stack_user_association awscc_appstream_stack_user_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appstream_stack_user_association awscc_appstream_stack_user_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appstreamStackUserAssociation.AppstreamStackUserAssociation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appstreamstackuserassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appstreamstackuserassociation"
 
 appstreamstackuserassociation.NewAppstreamStackUserAssociation(scope Construct, id *string, config AppstreamStackUserAssociationConfig) AppstreamStackUserAssociation
 ```
@@ -407,7 +407,7 @@ func ResetSendEmailNotification()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.appstreamStackUserAssociation.AppstreamStackUserAssociation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appstreamstackuserassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appstreamstackuserassociation"
 
 appstreamstackuserassociation.AppstreamStackUserAssociation_IsConstruct(x interface{}) *bool
 ```
@@ -439,7 +439,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.appstreamStackUserAssociation.AppstreamStackUserAssociation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appstreamstackuserassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appstreamstackuserassociation"
 
 appstreamstackuserassociation.AppstreamStackUserAssociation_IsTerraformElement(x interface{}) *bool
 ```
@@ -453,7 +453,7 @@ appstreamstackuserassociation.AppstreamStackUserAssociation_IsTerraformElement(x
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.appstreamStackUserAssociation.AppstreamStackUserAssociation.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appstreamstackuserassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appstreamstackuserassociation"
 
 appstreamstackuserassociation.AppstreamStackUserAssociation_IsTerraformResource(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ appstreamstackuserassociation.AppstreamStackUserAssociation_IsTerraformResource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.appstreamStackUserAssociation.AppstreamStackUserAssociation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appstreamstackuserassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appstreamstackuserassociation"
 
 appstreamstackuserassociation.AppstreamStackUserAssociation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -496,7 +496,7 @@ The construct id used in the generated config for the AppstreamStackUserAssociat
 
 The id of the existing AppstreamStackUserAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appstream_stack_user_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appstream_stack_user_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -795,7 +795,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.appstreamStackUserAssociation.AppstreamStackUserAssociationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appstreamstackuserassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appstreamstackuserassociation"
 
 &appstreamstackuserassociation.AppstreamStackUserAssociationConfig {
 	Connection: interface{},
@@ -910,7 +910,7 @@ AuthenticationType *string
 
 The authentication type for the user who is associated with the stack. You must specify USERPOOL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appstream_stack_user_association#authentication_type AppstreamStackUserAssociation#authentication_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appstream_stack_user_association#authentication_type AppstreamStackUserAssociation#authentication_type}
 
 ---
 
@@ -924,7 +924,7 @@ StackName *string
 
 The name of the stack that is associated with the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appstream_stack_user_association#stack_name AppstreamStackUserAssociation#stack_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appstream_stack_user_association#stack_name AppstreamStackUserAssociation#stack_name}
 
 ---
 
@@ -938,7 +938,7 @@ UserName *string
 
 The name of the user who is associated with the stack.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appstream_stack_user_association#user_name AppstreamStackUserAssociation#user_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appstream_stack_user_association#user_name AppstreamStackUserAssociation#user_name}
 
 ---
 
@@ -952,7 +952,7 @@ SendEmailNotification interface{}
 
 Specifies whether a welcome email is sent to a user after the user is created in the user pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appstream_stack_user_association#send_email_notification AppstreamStackUserAssociation#send_email_notification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appstream_stack_user_association#send_email_notification AppstreamStackUserAssociation#send_email_notification}
 
 ---
 

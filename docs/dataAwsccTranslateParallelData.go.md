@@ -4,12 +4,12 @@
 
 ### DataAwsccTranslateParallelData <a name="DataAwsccTranslateParallelData" id="@cdktn/provider-awscc.dataAwsccTranslateParallelData.DataAwsccTranslateParallelData"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/translate_parallel_data awscc_translate_parallel_data}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/translate_parallel_data awscc_translate_parallel_data}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTranslateParallelData.DataAwsccTranslateParallelData.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranslateparalleldata"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranslateparalleldata"
 
 dataawscctranslateparalleldata.NewDataAwsccTranslateParallelData(scope Construct, id *string, config DataAwsccTranslateParallelDataConfig) DataAwsccTranslateParallelData
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccTranslateParallelData.DataAwsccTranslateParallelData.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranslateparalleldata"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranslateparalleldata"
 
 dataawscctranslateparalleldata.DataAwsccTranslateParallelData_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccTranslateParallelData.DataAwsccTranslateParallelData.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranslateparalleldata"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranslateparalleldata"
 
 dataawscctranslateparalleldata.DataAwsccTranslateParallelData_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscctranslateparalleldata.DataAwsccTranslateParallelData_IsTerraformElement
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccTranslateParallelData.DataAwsccTranslateParallelData.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranslateparalleldata"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranslateparalleldata"
 
 dataawscctranslateparalleldata.DataAwsccTranslateParallelData_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscctranslateparalleldata.DataAwsccTranslateParallelData_IsTerraformDataSou
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccTranslateParallelData.DataAwsccTranslateParallelData.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranslateparalleldata"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranslateparalleldata"
 
 dataawscctranslateparalleldata.DataAwsccTranslateParallelData_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccTranslateParallel
 
 The id of the existing DataAwsccTranslateParallelData that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/translate_parallel_data#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/translate_parallel_data#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -752,7 +752,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTranslateParallelData.DataAwsccTranslateParallelDataConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranslateparalleldata"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranslateparalleldata"
 
 &dataawscctranslateparalleldata.DataAwsccTranslateParallelDataConfig {
 	Connection: interface{},
@@ -861,7 +861,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/translate_parallel_data#id DataAwsccTranslateParallelData#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/translate_parallel_data#id DataAwsccTranslateParallelData#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -873,7 +873,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTranslateParallelData.DataAwsccTranslateParallelDataEncryptionKey.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranslateparalleldata"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranslateparalleldata"
 
 &dataawscctranslateparalleldata.DataAwsccTranslateParallelDataEncryptionKey {
 
@@ -886,7 +886,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranslatepara
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTranslateParallelData.DataAwsccTranslateParallelDataParallelDataConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranslateparalleldata"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranslateparalleldata"
 
 &dataawscctranslateparalleldata.DataAwsccTranslateParallelDataParallelDataConfig {
 
@@ -899,7 +899,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranslatepara
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTranslateParallelData.DataAwsccTranslateParallelDataTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranslateparalleldata"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranslateparalleldata"
 
 &dataawscctranslateparalleldata.DataAwsccTranslateParallelDataTags {
 
@@ -914,7 +914,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranslatepara
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTranslateParallelData.DataAwsccTranslateParallelDataEncryptionKeyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranslateparalleldata"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranslateparalleldata"
 
 dataawscctranslateparalleldata.NewDataAwsccTranslateParallelDataEncryptionKeyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccTranslateParallelDataEncryptionKeyOutputReference
 ```
@@ -1185,7 +1185,7 @@ func InternalValue() DataAwsccTranslateParallelDataEncryptionKey
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTranslateParallelData.DataAwsccTranslateParallelDataParallelDataConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranslateparalleldata"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranslateparalleldata"
 
 dataawscctranslateparalleldata.NewDataAwsccTranslateParallelDataParallelDataConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccTranslateParallelDataParallelDataConfigOutputReference
 ```
@@ -1456,7 +1456,7 @@ func InternalValue() DataAwsccTranslateParallelDataParallelDataConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTranslateParallelData.DataAwsccTranslateParallelDataTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranslateparalleldata"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranslateparalleldata"
 
 dataawscctranslateparalleldata.NewDataAwsccTranslateParallelDataTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccTranslateParallelDataTagsList
 ```
@@ -1605,7 +1605,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTranslateParallelData.DataAwsccTranslateParallelDataTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranslateparalleldata"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranslateparalleldata"
 
 dataawscctranslateparalleldata.NewDataAwsccTranslateParallelDataTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccTranslateParallelDataTagsOutputReference
 ```

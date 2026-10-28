@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2CustomerGateways <a name="DataAwsccEc2CustomerGateways" id="@cdktn/provider-awscc.dataAwsccEc2CustomerGateways.DataAwsccEc2CustomerGateways"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_customer_gateways awscc_ec2_customer_gateways}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_customer_gateways awscc_ec2_customer_gateways}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2CustomerGateways.DataAwsccEc2CustomerGateways.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2customergateways"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2customergateways"
 
 dataawsccec2customergateways.NewDataAwsccEc2CustomerGateways(scope Construct, id *string, config DataAwsccEc2CustomerGatewaysConfig) DataAwsccEc2CustomerGateways
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2CustomerGateways.DataAwsccEc2CustomerGateways.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2customergateways"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2customergateways"
 
 dataawsccec2customergateways.DataAwsccEc2CustomerGateways_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2CustomerGateways.DataAwsccEc2CustomerGateways.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2customergateways"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2customergateways"
 
 dataawsccec2customergateways.DataAwsccEc2CustomerGateways_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2customergateways.DataAwsccEc2CustomerGateways_IsTerraformElement(x i
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2CustomerGateways.DataAwsccEc2CustomerGateways.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2customergateways"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2customergateways"
 
 dataawsccec2customergateways.DataAwsccEc2CustomerGateways_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2customergateways.DataAwsccEc2CustomerGateways_IsTerraformDataSource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2CustomerGateways.DataAwsccEc2CustomerGateways.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2customergateways"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2customergateways"
 
 dataawsccec2customergateways.DataAwsccEc2CustomerGateways_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2CustomerGatewa
 
 The id of the existing DataAwsccEc2CustomerGateways that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_customer_gateways#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_customer_gateways#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2CustomerGateways.DataAwsccEc2CustomerGatewaysConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2customergateways"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2customergateways"
 
 &dataawsccec2customergateways.DataAwsccEc2CustomerGatewaysConfig {
 	Connection: interface{},

@@ -4,12 +4,12 @@
 
 ### S3ObjectlambdaAccessPointPolicy <a name="S3ObjectlambdaAccessPointPolicy" id="@cdktn/provider-awscc.s3ObjectlambdaAccessPointPolicy.S3ObjectlambdaAccessPointPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3objectlambda_access_point_policy awscc_s3objectlambda_access_point_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3objectlambda_access_point_policy awscc_s3objectlambda_access_point_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3ObjectlambdaAccessPointPolicy.S3ObjectlambdaAccessPointPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3objectlambdaaccesspointpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3objectlambdaaccesspointpolicy"
 
 s3objectlambdaaccesspointpolicy.NewS3ObjectlambdaAccessPointPolicy(scope Construct, id *string, config S3ObjectlambdaAccessPointPolicyConfig) S3ObjectlambdaAccessPointPolicy
 ```
@@ -400,7 +400,7 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.s3ObjectlambdaAccessPointPolicy.S3ObjectlambdaAccessPointPolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3objectlambdaaccesspointpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3objectlambdaaccesspointpolicy"
 
 s3objectlambdaaccesspointpolicy.S3ObjectlambdaAccessPointPolicy_IsConstruct(x interface{}) *bool
 ```
@@ -432,7 +432,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.s3ObjectlambdaAccessPointPolicy.S3ObjectlambdaAccessPointPolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3objectlambdaaccesspointpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3objectlambdaaccesspointpolicy"
 
 s3objectlambdaaccesspointpolicy.S3ObjectlambdaAccessPointPolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ s3objectlambdaaccesspointpolicy.S3ObjectlambdaAccessPointPolicy_IsTerraformEleme
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.s3ObjectlambdaAccessPointPolicy.S3ObjectlambdaAccessPointPolicy.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3objectlambdaaccesspointpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3objectlambdaaccesspointpolicy"
 
 s3objectlambdaaccesspointpolicy.S3ObjectlambdaAccessPointPolicy_IsTerraformResource(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ s3objectlambdaaccesspointpolicy.S3ObjectlambdaAccessPointPolicy_IsTerraformResou
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.s3ObjectlambdaAccessPointPolicy.S3ObjectlambdaAccessPointPolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3objectlambdaaccesspointpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3objectlambdaaccesspointpolicy"
 
 s3objectlambdaaccesspointpolicy.S3ObjectlambdaAccessPointPolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -489,7 +489,7 @@ The construct id used in the generated config for the S3ObjectlambdaAccessPointP
 
 The id of the existing S3ObjectlambdaAccessPointPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3objectlambda_access_point_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3objectlambda_access_point_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -744,7 +744,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.s3ObjectlambdaAccessPointPolicy.S3ObjectlambdaAccessPointPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3objectlambdaaccesspointpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3objectlambdaaccesspointpolicy"
 
 &s3objectlambdaaccesspointpolicy.S3ObjectlambdaAccessPointPolicyConfig {
 	Connection: interface{},
@@ -855,7 +855,7 @@ ObjectLambdaAccessPoint *string
 
 The name of the Amazon S3 ObjectLambdaAccessPoint to which the policy applies.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3objectlambda_access_point_policy#object_lambda_access_point S3ObjectlambdaAccessPointPolicy#object_lambda_access_point}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3objectlambda_access_point_policy#object_lambda_access_point S3ObjectlambdaAccessPointPolicy#object_lambda_access_point}
 
 ---
 
@@ -871,7 +871,7 @@ A policy document containing permissions to add to the specified ObjectLambdaAcc
 
 For more information, see Access Policy Language Overview (https://docs.aws.amazon.com/AmazonS3/latest/dev/access-policy-language-overview.html) in the Amazon Simple Storage Service Developer Guide.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3objectlambda_access_point_policy#policy_document S3ObjectlambdaAccessPointPolicy#policy_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3objectlambda_access_point_policy#policy_document S3ObjectlambdaAccessPointPolicy#policy_document}
 
 ---
 

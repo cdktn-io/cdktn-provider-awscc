@@ -4,12 +4,12 @@
 
 ### DataAwsccLocationApiKey <a name="DataAwsccLocationApiKey" id="@cdktn/provider-awscc.dataAwsccLocationApiKey.DataAwsccLocationApiKey"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/location_api_key awscc_location_api_key}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/location_api_key awscc_location_api_key}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLocationApiKey.DataAwsccLocationApiKey.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationapikey"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationapikey"
 
 dataawscclocationapikey.NewDataAwsccLocationApiKey(scope Construct, id *string, config DataAwsccLocationApiKeyConfig) DataAwsccLocationApiKey
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccLocationApiKey.DataAwsccLocationApiKey.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationapikey"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationapikey"
 
 dataawscclocationapikey.DataAwsccLocationApiKey_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccLocationApiKey.DataAwsccLocationApiKey.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationapikey"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationapikey"
 
 dataawscclocationapikey.DataAwsccLocationApiKey_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscclocationapikey.DataAwsccLocationApiKey_IsTerraformElement(x interface{}
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccLocationApiKey.DataAwsccLocationApiKey.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationapikey"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationapikey"
 
 dataawscclocationapikey.DataAwsccLocationApiKey_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscclocationapikey.DataAwsccLocationApiKey_IsTerraformDataSource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccLocationApiKey.DataAwsccLocationApiKey.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationapikey"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationapikey"
 
 dataawscclocationapikey.DataAwsccLocationApiKey_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLocationApiKey to
 
 The id of the existing DataAwsccLocationApiKey that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/location_api_key#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/location_api_key#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -719,7 +719,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLocationApiKey.DataAwsccLocationApiKeyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationapikey"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationapikey"
 
 &dataawscclocationapikey.DataAwsccLocationApiKeyConfig {
 	Connection: interface{},
@@ -828,7 +828,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/location_api_key#id DataAwsccLocationApiKey#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/location_api_key#id DataAwsccLocationApiKey#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -840,7 +840,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLocationApiKey.DataAwsccLocationApiKeyRestrictions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationapikey"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationapikey"
 
 &dataawscclocationapikey.DataAwsccLocationApiKeyRestrictions {
 
@@ -853,7 +853,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationapike
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLocationApiKey.DataAwsccLocationApiKeyRestrictionsAllowAndroidApps.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationapikey"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationapikey"
 
 &dataawscclocationapikey.DataAwsccLocationApiKeyRestrictionsAllowAndroidApps {
 
@@ -866,7 +866,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationapike
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLocationApiKey.DataAwsccLocationApiKeyRestrictionsAllowAppleApps.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationapikey"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationapikey"
 
 &dataawscclocationapikey.DataAwsccLocationApiKeyRestrictionsAllowAppleApps {
 
@@ -879,7 +879,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationapike
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLocationApiKey.DataAwsccLocationApiKeyTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationapikey"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationapikey"
 
 &dataawscclocationapikey.DataAwsccLocationApiKeyTags {
 
@@ -894,7 +894,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationapike
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLocationApiKey.DataAwsccLocationApiKeyRestrictionsAllowAndroidAppsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationapikey"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationapikey"
 
 dataawscclocationapikey.NewDataAwsccLocationApiKeyRestrictionsAllowAndroidAppsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLocationApiKeyRestrictionsAllowAndroidAppsList
 ```
@@ -1043,7 +1043,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLocationApiKey.DataAwsccLocationApiKeyRestrictionsAllowAndroidAppsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationapikey"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationapikey"
 
 dataawscclocationapikey.NewDataAwsccLocationApiKeyRestrictionsAllowAndroidAppsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLocationApiKeyRestrictionsAllowAndroidAppsOutputReference
 ```
@@ -1332,7 +1332,7 @@ func InternalValue() DataAwsccLocationApiKeyRestrictionsAllowAndroidApps
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLocationApiKey.DataAwsccLocationApiKeyRestrictionsAllowAppleAppsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationapikey"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationapikey"
 
 dataawscclocationapikey.NewDataAwsccLocationApiKeyRestrictionsAllowAppleAppsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLocationApiKeyRestrictionsAllowAppleAppsList
 ```
@@ -1481,7 +1481,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLocationApiKey.DataAwsccLocationApiKeyRestrictionsAllowAppleAppsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationapikey"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationapikey"
 
 dataawscclocationapikey.NewDataAwsccLocationApiKeyRestrictionsAllowAppleAppsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLocationApiKeyRestrictionsAllowAppleAppsOutputReference
 ```
@@ -1759,7 +1759,7 @@ func InternalValue() DataAwsccLocationApiKeyRestrictionsAllowAppleApps
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLocationApiKey.DataAwsccLocationApiKeyRestrictionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationapikey"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationapikey"
 
 dataawscclocationapikey.NewDataAwsccLocationApiKeyRestrictionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLocationApiKeyRestrictionsOutputReference
 ```
@@ -2063,7 +2063,7 @@ func InternalValue() DataAwsccLocationApiKeyRestrictions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLocationApiKey.DataAwsccLocationApiKeyTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationapikey"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationapikey"
 
 dataawscclocationapikey.NewDataAwsccLocationApiKeyTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLocationApiKeyTagsList
 ```
@@ -2212,7 +2212,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLocationApiKey.DataAwsccLocationApiKeyTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationapikey"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationapikey"
 
 dataawscclocationapikey.NewDataAwsccLocationApiKeyTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLocationApiKeyTagsOutputReference
 ```

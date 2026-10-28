@@ -4,12 +4,12 @@
 
 ### DataAwsccMediapackageChannels <a name="DataAwsccMediapackageChannels" id="@cdktn/provider-awscc.dataAwsccMediapackageChannels.DataAwsccMediapackageChannels"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediapackage_channels awscc_mediapackage_channels}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediapackage_channels awscc_mediapackage_channels}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediapackageChannels.DataAwsccMediapackageChannels.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagechannels"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagechannels"
 
 dataawsccmediapackagechannels.NewDataAwsccMediapackageChannels(scope Construct, id *string, config DataAwsccMediapackageChannelsConfig) DataAwsccMediapackageChannels
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccMediapackageChannels.DataAwsccMediapackageChannels.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagechannels"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagechannels"
 
 dataawsccmediapackagechannels.DataAwsccMediapackageChannels_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccMediapackageChannels.DataAwsccMediapackageChannels.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagechannels"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagechannels"
 
 dataawsccmediapackagechannels.DataAwsccMediapackageChannels_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccmediapackagechannels.DataAwsccMediapackageChannels_IsTerraformElement(x
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccMediapackageChannels.DataAwsccMediapackageChannels.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagechannels"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagechannels"
 
 dataawsccmediapackagechannels.DataAwsccMediapackageChannels_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccmediapackagechannels.DataAwsccMediapackageChannels_IsTerraformDataSourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccMediapackageChannels.DataAwsccMediapackageChannels.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagechannels"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagechannels"
 
 dataawsccmediapackagechannels.DataAwsccMediapackageChannels_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccMediapackageChann
 
 The id of the existing DataAwsccMediapackageChannels that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediapackage_channels#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediapackage_channels#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediapackageChannels.DataAwsccMediapackageChannelsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagechannels"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagechannels"
 
 &dataawsccmediapackagechannels.DataAwsccMediapackageChannelsConfig {
 	Connection: interface{},

@@ -4,12 +4,12 @@
 
 ### DataAwsccServicecatalogServiceActions <a name="DataAwsccServicecatalogServiceActions" id="@cdktn/provider-awscc.dataAwsccServicecatalogServiceActions.DataAwsccServicecatalogServiceActions"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/servicecatalog_service_actions awscc_servicecatalog_service_actions}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/servicecatalog_service_actions awscc_servicecatalog_service_actions}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccServicecatalogServiceActions.DataAwsccServicecatalogServiceActions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogserviceactions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogserviceactions"
 
 dataawsccservicecatalogserviceactions.NewDataAwsccServicecatalogServiceActions(scope Construct, id *string, config DataAwsccServicecatalogServiceActionsConfig) DataAwsccServicecatalogServiceActions
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccServicecatalogServiceActions.DataAwsccServicecatalogServiceActions.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogserviceactions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogserviceactions"
 
 dataawsccservicecatalogserviceactions.DataAwsccServicecatalogServiceActions_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccServicecatalogServiceActions.DataAwsccServicecatalogServiceActions.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogserviceactions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogserviceactions"
 
 dataawsccservicecatalogserviceactions.DataAwsccServicecatalogServiceActions_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccservicecatalogserviceactions.DataAwsccServicecatalogServiceActions_IsTe
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccServicecatalogServiceActions.DataAwsccServicecatalogServiceActions.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogserviceactions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogserviceactions"
 
 dataawsccservicecatalogserviceactions.DataAwsccServicecatalogServiceActions_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccservicecatalogserviceactions.DataAwsccServicecatalogServiceActions_IsTe
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccServicecatalogServiceActions.DataAwsccServicecatalogServiceActions.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogserviceactions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogserviceactions"
 
 dataawsccservicecatalogserviceactions.DataAwsccServicecatalogServiceActions_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccServicecatalogSer
 
 The id of the existing DataAwsccServicecatalogServiceActions that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/servicecatalog_service_actions#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/servicecatalog_service_actions#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccServicecatalogServiceActions.DataAwsccServicecatalogServiceActionsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogserviceactions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogserviceactions"
 
 &dataawsccservicecatalogserviceactions.DataAwsccServicecatalogServiceActionsConfig {
 	Connection: interface{},

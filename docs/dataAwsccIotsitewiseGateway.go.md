@@ -4,12 +4,12 @@
 
 ### DataAwsccIotsitewiseGateway <a name="DataAwsccIotsitewiseGateway" id="@cdktn/provider-awscc.dataAwsccIotsitewiseGateway.DataAwsccIotsitewiseGateway"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotsitewise_gateway awscc_iotsitewise_gateway}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotsitewise_gateway awscc_iotsitewise_gateway}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotsitewiseGateway.DataAwsccIotsitewiseGateway.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewisegateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewisegateway"
 
 dataawscciotsitewisegateway.NewDataAwsccIotsitewiseGateway(scope Construct, id *string, config DataAwsccIotsitewiseGatewayConfig) DataAwsccIotsitewiseGateway
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIotsitewiseGateway.DataAwsccIotsitewiseGateway.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewisegateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewisegateway"
 
 dataawscciotsitewisegateway.DataAwsccIotsitewiseGateway_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIotsitewiseGateway.DataAwsccIotsitewiseGateway.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewisegateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewisegateway"
 
 dataawscciotsitewisegateway.DataAwsccIotsitewiseGateway_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciotsitewisegateway.DataAwsccIotsitewiseGateway_IsTerraformElement(x int
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIotsitewiseGateway.DataAwsccIotsitewiseGateway.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewisegateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewisegateway"
 
 dataawscciotsitewisegateway.DataAwsccIotsitewiseGateway_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciotsitewisegateway.DataAwsccIotsitewiseGateway_IsTerraformDataSource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIotsitewiseGateway.DataAwsccIotsitewiseGateway.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewisegateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewisegateway"
 
 dataawscciotsitewisegateway.DataAwsccIotsitewiseGateway_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotsitewiseGatewa
 
 The id of the existing DataAwsccIotsitewiseGateway that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotsitewise_gateway#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotsitewise_gateway#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -653,7 +653,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotsitewiseGateway.DataAwsccIotsitewiseGatewayConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewisegateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewisegateway"
 
 &dataawscciotsitewisegateway.DataAwsccIotsitewiseGatewayConfig {
 	Connection: interface{},
@@ -762,7 +762,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotsitewise_gateway#id DataAwsccIotsitewiseGateway#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotsitewise_gateway#id DataAwsccIotsitewiseGateway#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -774,7 +774,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotsitewiseGateway.DataAwsccIotsitewiseGatewayGatewayCapabilitySummaries.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewisegateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewisegateway"
 
 &dataawscciotsitewisegateway.DataAwsccIotsitewiseGatewayGatewayCapabilitySummaries {
 
@@ -787,7 +787,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewisega
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotsitewiseGateway.DataAwsccIotsitewiseGatewayGatewayPlatform.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewisegateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewisegateway"
 
 &dataawscciotsitewisegateway.DataAwsccIotsitewiseGatewayGatewayPlatform {
 
@@ -800,7 +800,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewisega
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotsitewiseGateway.DataAwsccIotsitewiseGatewayGatewayPlatformGreengrassV2.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewisegateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewisegateway"
 
 &dataawscciotsitewisegateway.DataAwsccIotsitewiseGatewayGatewayPlatformGreengrassV2 {
 
@@ -813,7 +813,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewisega
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotsitewiseGateway.DataAwsccIotsitewiseGatewayGatewayPlatformSiemensIe.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewisegateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewisegateway"
 
 &dataawscciotsitewisegateway.DataAwsccIotsitewiseGatewayGatewayPlatformSiemensIe {
 
@@ -826,7 +826,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewisega
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotsitewiseGateway.DataAwsccIotsitewiseGatewayTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewisegateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewisegateway"
 
 &dataawscciotsitewisegateway.DataAwsccIotsitewiseGatewayTags {
 
@@ -841,7 +841,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewisega
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotsitewiseGateway.DataAwsccIotsitewiseGatewayGatewayCapabilitySummariesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewisegateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewisegateway"
 
 dataawscciotsitewisegateway.NewDataAwsccIotsitewiseGatewayGatewayCapabilitySummariesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIotsitewiseGatewayGatewayCapabilitySummariesList
 ```
@@ -990,7 +990,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotsitewiseGateway.DataAwsccIotsitewiseGatewayGatewayCapabilitySummariesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewisegateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewisegateway"
 
 dataawscciotsitewisegateway.NewDataAwsccIotsitewiseGatewayGatewayCapabilitySummariesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIotsitewiseGatewayGatewayCapabilitySummariesOutputReference
 ```
@@ -1279,7 +1279,7 @@ func InternalValue() DataAwsccIotsitewiseGatewayGatewayCapabilitySummaries
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotsitewiseGateway.DataAwsccIotsitewiseGatewayGatewayPlatformGreengrassV2OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewisegateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewisegateway"
 
 dataawscciotsitewisegateway.NewDataAwsccIotsitewiseGatewayGatewayPlatformGreengrassV2OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotsitewiseGatewayGatewayPlatformGreengrassV2OutputReference
 ```
@@ -1550,7 +1550,7 @@ func InternalValue() DataAwsccIotsitewiseGatewayGatewayPlatformGreengrassV2
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotsitewiseGateway.DataAwsccIotsitewiseGatewayGatewayPlatformOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewisegateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewisegateway"
 
 dataawscciotsitewisegateway.NewDataAwsccIotsitewiseGatewayGatewayPlatformOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotsitewiseGatewayGatewayPlatformOutputReference
 ```
@@ -1821,7 +1821,7 @@ func InternalValue() DataAwsccIotsitewiseGatewayGatewayPlatform
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotsitewiseGateway.DataAwsccIotsitewiseGatewayGatewayPlatformSiemensIeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewisegateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewisegateway"
 
 dataawscciotsitewisegateway.NewDataAwsccIotsitewiseGatewayGatewayPlatformSiemensIeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotsitewiseGatewayGatewayPlatformSiemensIeOutputReference
 ```
@@ -2081,7 +2081,7 @@ func InternalValue() DataAwsccIotsitewiseGatewayGatewayPlatformSiemensIe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotsitewiseGateway.DataAwsccIotsitewiseGatewayTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewisegateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewisegateway"
 
 dataawscciotsitewisegateway.NewDataAwsccIotsitewiseGatewayTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIotsitewiseGatewayTagsList
 ```
@@ -2230,7 +2230,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotsitewiseGateway.DataAwsccIotsitewiseGatewayTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewisegateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewisegateway"
 
 dataawscciotsitewisegateway.NewDataAwsccIotsitewiseGatewayTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIotsitewiseGatewayTagsOutputReference
 ```

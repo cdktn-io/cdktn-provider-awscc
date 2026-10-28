@@ -4,12 +4,12 @@
 
 ### DataAwsccQuicksightBrand <a name="DataAwsccQuicksightBrand" id="@cdktn/provider-awscc.dataAwsccQuicksightBrand.DataAwsccQuicksightBrand"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/quicksight_brand awscc_quicksight_brand}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_brand awscc_quicksight_brand}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightBrand.DataAwsccQuicksightBrand.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightbrand"
 
 dataawsccquicksightbrand.NewDataAwsccQuicksightBrand(scope Construct, id *string, config DataAwsccQuicksightBrandConfig) DataAwsccQuicksightBrand
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccQuicksightBrand.DataAwsccQuicksightBrand.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightbrand"
 
 dataawsccquicksightbrand.DataAwsccQuicksightBrand_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccQuicksightBrand.DataAwsccQuicksightBrand.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightbrand"
 
 dataawsccquicksightbrand.DataAwsccQuicksightBrand_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccquicksightbrand.DataAwsccQuicksightBrand_IsTerraformElement(x interface
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightBrand.DataAwsccQuicksightBrand.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightbrand"
 
 dataawsccquicksightbrand.DataAwsccQuicksightBrand_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccquicksightbrand.DataAwsccQuicksightBrand_IsTerraformDataSource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccQuicksightBrand.DataAwsccQuicksightBrand.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightbrand"
 
 dataawsccquicksightbrand.DataAwsccQuicksightBrand_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccQuicksightBrand t
 
 The id of the existing DataAwsccQuicksightBrand that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/quicksight_brand#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_brand#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -697,7 +697,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightBrand.DataAwsccQuicksightBrandBrandDefinition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightbrand"
 
 &dataawsccquicksightbrand.DataAwsccQuicksightBrandBrandDefinition {
 
@@ -710,7 +710,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightbra
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightBrand.DataAwsccQuicksightBrandBrandDefinitionApplicationTheme.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightbrand"
 
 &dataawsccquicksightbrand.DataAwsccQuicksightBrandBrandDefinitionApplicationTheme {
 
@@ -723,7 +723,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightbra
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightBrand.DataAwsccQuicksightBrandBrandDefinitionApplicationThemeBrandColorPalette.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightbrand"
 
 &dataawsccquicksightbrand.DataAwsccQuicksightBrandBrandDefinitionApplicationThemeBrandColorPalette {
 
@@ -736,7 +736,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightbra
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightBrand.DataAwsccQuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteAccent.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightbrand"
 
 &dataawsccquicksightbrand.DataAwsccQuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteAccent {
 
@@ -749,7 +749,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightbra
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightBrand.DataAwsccQuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteDanger.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightbrand"
 
 &dataawsccquicksightbrand.DataAwsccQuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteDanger {
 
@@ -762,7 +762,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightbra
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightBrand.DataAwsccQuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteDimension.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightbrand"
 
 &dataawsccquicksightbrand.DataAwsccQuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteDimension {
 
@@ -775,7 +775,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightbra
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightBrand.DataAwsccQuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteInfo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightbrand"
 
 &dataawsccquicksightbrand.DataAwsccQuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteInfo {
 
@@ -788,7 +788,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightbra
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightBrand.DataAwsccQuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteMeasure.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightbrand"
 
 &dataawsccquicksightbrand.DataAwsccQuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteMeasure {
 
@@ -801,7 +801,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightbra
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightBrand.DataAwsccQuicksightBrandBrandDefinitionApplicationThemeBrandColorPalettePrimary.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightbrand"
 
 &dataawsccquicksightbrand.DataAwsccQuicksightBrandBrandDefinitionApplicationThemeBrandColorPalettePrimary {
 
@@ -814,7 +814,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightbra
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightBrand.DataAwsccQuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteSecondary.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightbrand"
 
 &dataawsccquicksightbrand.DataAwsccQuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteSecondary {
 
@@ -827,7 +827,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightbra
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightBrand.DataAwsccQuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteSuccess.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightbrand"
 
 &dataawsccquicksightbrand.DataAwsccQuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteSuccess {
 
@@ -840,7 +840,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightbra
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightBrand.DataAwsccQuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteWarning.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightbrand"
 
 &dataawsccquicksightbrand.DataAwsccQuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteWarning {
 
@@ -853,7 +853,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightbra
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightBrand.DataAwsccQuicksightBrandBrandDefinitionApplicationThemeBrandElementStyle.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightbrand"
 
 &dataawsccquicksightbrand.DataAwsccQuicksightBrandBrandDefinitionApplicationThemeBrandElementStyle {
 
@@ -866,7 +866,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightbra
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightBrand.DataAwsccQuicksightBrandBrandDefinitionApplicationThemeBrandElementStyleNavbarStyle.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightbrand"
 
 &dataawsccquicksightbrand.DataAwsccQuicksightBrandBrandDefinitionApplicationThemeBrandElementStyleNavbarStyle {
 
@@ -879,7 +879,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightbra
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightBrand.DataAwsccQuicksightBrandBrandDefinitionApplicationThemeBrandElementStyleNavbarStyleContextualNavbar.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightbrand"
 
 &dataawsccquicksightbrand.DataAwsccQuicksightBrandBrandDefinitionApplicationThemeBrandElementStyleNavbarStyleContextualNavbar {
 
@@ -892,7 +892,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightbra
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightBrand.DataAwsccQuicksightBrandBrandDefinitionApplicationThemeBrandElementStyleNavbarStyleGlobalNavbar.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightbrand"
 
 &dataawsccquicksightbrand.DataAwsccQuicksightBrandBrandDefinitionApplicationThemeBrandElementStyleNavbarStyleGlobalNavbar {
 
@@ -905,7 +905,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightbra
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightBrand.DataAwsccQuicksightBrandConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightbrand"
 
 &dataawsccquicksightbrand.DataAwsccQuicksightBrandConfig {
 	Connection: interface{},
@@ -1014,7 +1014,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/quicksight_brand#id DataAwsccQuicksightBrand#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_brand#id DataAwsccQuicksightBrand#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1026,7 +1026,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightBrand.DataAwsccQuicksightBrandTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightbrand"
 
 &dataawsccquicksightbrand.DataAwsccQuicksightBrandTags {
 
@@ -1041,7 +1041,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightbra
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightBrand.DataAwsccQuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteAccentOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightbrand"
 
 dataawsccquicksightbrand.NewDataAwsccQuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteAccentOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteAccentOutputReference
 ```
@@ -1312,7 +1312,7 @@ func InternalValue() DataAwsccQuicksightBrandBrandDefinitionApplicationThemeBran
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightBrand.DataAwsccQuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteDangerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightbrand"
 
 dataawsccquicksightbrand.NewDataAwsccQuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteDangerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteDangerOutputReference
 ```
@@ -1583,7 +1583,7 @@ func InternalValue() DataAwsccQuicksightBrandBrandDefinitionApplicationThemeBran
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightBrand.DataAwsccQuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteDimensionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightbrand"
 
 dataawsccquicksightbrand.NewDataAwsccQuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteDimensionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteDimensionOutputReference
 ```
@@ -1854,7 +1854,7 @@ func InternalValue() DataAwsccQuicksightBrandBrandDefinitionApplicationThemeBran
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightBrand.DataAwsccQuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteInfoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightbrand"
 
 dataawsccquicksightbrand.NewDataAwsccQuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteInfoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteInfoOutputReference
 ```
@@ -2125,7 +2125,7 @@ func InternalValue() DataAwsccQuicksightBrandBrandDefinitionApplicationThemeBran
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightBrand.DataAwsccQuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteMeasureOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightbrand"
 
 dataawsccquicksightbrand.NewDataAwsccQuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteMeasureOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteMeasureOutputReference
 ```
@@ -2396,7 +2396,7 @@ func InternalValue() DataAwsccQuicksightBrandBrandDefinitionApplicationThemeBran
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightBrand.DataAwsccQuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightbrand"
 
 dataawsccquicksightbrand.NewDataAwsccQuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteOutputReference
 ```
@@ -2744,7 +2744,7 @@ func InternalValue() DataAwsccQuicksightBrandBrandDefinitionApplicationThemeBran
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightBrand.DataAwsccQuicksightBrandBrandDefinitionApplicationThemeBrandColorPalettePrimaryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightbrand"
 
 dataawsccquicksightbrand.NewDataAwsccQuicksightBrandBrandDefinitionApplicationThemeBrandColorPalettePrimaryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightBrandBrandDefinitionApplicationThemeBrandColorPalettePrimaryOutputReference
 ```
@@ -3015,7 +3015,7 @@ func InternalValue() DataAwsccQuicksightBrandBrandDefinitionApplicationThemeBran
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightBrand.DataAwsccQuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteSecondaryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightbrand"
 
 dataawsccquicksightbrand.NewDataAwsccQuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteSecondaryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteSecondaryOutputReference
 ```
@@ -3286,7 +3286,7 @@ func InternalValue() DataAwsccQuicksightBrandBrandDefinitionApplicationThemeBran
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightBrand.DataAwsccQuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteSuccessOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightbrand"
 
 dataawsccquicksightbrand.NewDataAwsccQuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteSuccessOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteSuccessOutputReference
 ```
@@ -3557,7 +3557,7 @@ func InternalValue() DataAwsccQuicksightBrandBrandDefinitionApplicationThemeBran
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightBrand.DataAwsccQuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteWarningOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightbrand"
 
 dataawsccquicksightbrand.NewDataAwsccQuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteWarningOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteWarningOutputReference
 ```
@@ -3828,7 +3828,7 @@ func InternalValue() DataAwsccQuicksightBrandBrandDefinitionApplicationThemeBran
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightBrand.DataAwsccQuicksightBrandBrandDefinitionApplicationThemeBrandElementStyleNavbarStyleContextualNavbarOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightbrand"
 
 dataawsccquicksightbrand.NewDataAwsccQuicksightBrandBrandDefinitionApplicationThemeBrandElementStyleNavbarStyleContextualNavbarOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightBrandBrandDefinitionApplicationThemeBrandElementStyleNavbarStyleContextualNavbarOutputReference
 ```
@@ -4099,7 +4099,7 @@ func InternalValue() DataAwsccQuicksightBrandBrandDefinitionApplicationThemeBran
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightBrand.DataAwsccQuicksightBrandBrandDefinitionApplicationThemeBrandElementStyleNavbarStyleGlobalNavbarOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightbrand"
 
 dataawsccquicksightbrand.NewDataAwsccQuicksightBrandBrandDefinitionApplicationThemeBrandElementStyleNavbarStyleGlobalNavbarOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightBrandBrandDefinitionApplicationThemeBrandElementStyleNavbarStyleGlobalNavbarOutputReference
 ```
@@ -4370,7 +4370,7 @@ func InternalValue() DataAwsccQuicksightBrandBrandDefinitionApplicationThemeBran
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightBrand.DataAwsccQuicksightBrandBrandDefinitionApplicationThemeBrandElementStyleNavbarStyleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightbrand"
 
 dataawsccquicksightbrand.NewDataAwsccQuicksightBrandBrandDefinitionApplicationThemeBrandElementStyleNavbarStyleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightBrandBrandDefinitionApplicationThemeBrandElementStyleNavbarStyleOutputReference
 ```
@@ -4641,7 +4641,7 @@ func InternalValue() DataAwsccQuicksightBrandBrandDefinitionApplicationThemeBran
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightBrand.DataAwsccQuicksightBrandBrandDefinitionApplicationThemeBrandElementStyleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightbrand"
 
 dataawsccquicksightbrand.NewDataAwsccQuicksightBrandBrandDefinitionApplicationThemeBrandElementStyleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightBrandBrandDefinitionApplicationThemeBrandElementStyleOutputReference
 ```
@@ -4901,7 +4901,7 @@ func InternalValue() DataAwsccQuicksightBrandBrandDefinitionApplicationThemeBran
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightBrand.DataAwsccQuicksightBrandBrandDefinitionApplicationThemeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightbrand"
 
 dataawsccquicksightbrand.NewDataAwsccQuicksightBrandBrandDefinitionApplicationThemeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightBrandBrandDefinitionApplicationThemeOutputReference
 ```
@@ -5172,7 +5172,7 @@ func InternalValue() DataAwsccQuicksightBrandBrandDefinitionApplicationTheme
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightBrand.DataAwsccQuicksightBrandBrandDefinitionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightbrand"
 
 dataawsccquicksightbrand.NewDataAwsccQuicksightBrandBrandDefinitionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightBrandBrandDefinitionOutputReference
 ```
@@ -5454,7 +5454,7 @@ func InternalValue() DataAwsccQuicksightBrandBrandDefinition
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightBrand.DataAwsccQuicksightBrandTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightbrand"
 
 dataawsccquicksightbrand.NewDataAwsccQuicksightBrandTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccQuicksightBrandTagsList
 ```
@@ -5603,7 +5603,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightBrand.DataAwsccQuicksightBrandTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightbrand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightbrand"
 
 dataawsccquicksightbrand.NewDataAwsccQuicksightBrandTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccQuicksightBrandTagsOutputReference
 ```

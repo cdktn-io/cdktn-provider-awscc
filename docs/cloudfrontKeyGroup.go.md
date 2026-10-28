@@ -4,12 +4,12 @@
 
 ### CloudfrontKeyGroup <a name="CloudfrontKeyGroup" id="@cdktn/provider-awscc.cloudfrontKeyGroup.CloudfrontKeyGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_key_group awscc_cloudfront_key_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_key_group awscc_cloudfront_key_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudfrontKeyGroup.CloudfrontKeyGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontkeygroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontkeygroup"
 
 cloudfrontkeygroup.NewCloudfrontKeyGroup(scope Construct, id *string, config CloudfrontKeyGroupConfig) CloudfrontKeyGroup
 ```
@@ -413,7 +413,7 @@ func PutKeyGroupConfig(value CloudfrontKeyGroupKeyGroupConfig)
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.cloudfrontKeyGroup.CloudfrontKeyGroup.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontkeygroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontkeygroup"
 
 cloudfrontkeygroup.CloudfrontKeyGroup_IsConstruct(x interface{}) *bool
 ```
@@ -445,7 +445,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.cloudfrontKeyGroup.CloudfrontKeyGroup.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontkeygroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontkeygroup"
 
 cloudfrontkeygroup.CloudfrontKeyGroup_IsTerraformElement(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ cloudfrontkeygroup.CloudfrontKeyGroup_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.cloudfrontKeyGroup.CloudfrontKeyGroup.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontkeygroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontkeygroup"
 
 cloudfrontkeygroup.CloudfrontKeyGroup_IsTerraformResource(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ cloudfrontkeygroup.CloudfrontKeyGroup_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.cloudfrontKeyGroup.CloudfrontKeyGroup.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontkeygroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontkeygroup"
 
 cloudfrontkeygroup.CloudfrontKeyGroup_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -502,7 +502,7 @@ The construct id used in the generated config for the CloudfrontKeyGroup to impo
 
 The id of the existing CloudfrontKeyGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_key_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_key_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -757,7 +757,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudfrontKeyGroup.CloudfrontKeyGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontkeygroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontkeygroup"
 
 &cloudfrontkeygroup.CloudfrontKeyGroupConfig {
 	Connection: interface{},
@@ -767,7 +767,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontkeygroup"
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	KeyGroupConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.cloudfrontKeyGroup.CloudfrontKeyGroupKeyGroupConfig,
+	KeyGroupConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.cloudfrontKeyGroup.CloudfrontKeyGroupKeyGroupConfig,
 }
 ```
 
@@ -866,7 +866,7 @@ KeyGroupConfig CloudfrontKeyGroupKeyGroupConfig
 
 The key group configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_key_group#key_group_config CloudfrontKeyGroup#key_group_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_key_group#key_group_config CloudfrontKeyGroup#key_group_config}
 
 ---
 
@@ -875,7 +875,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudfrontKeyGroup.CloudfrontKeyGroupKeyGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontkeygroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontkeygroup"
 
 &cloudfrontkeygroup.CloudfrontKeyGroupKeyGroupConfig {
 	Items: *[]*string,
@@ -904,7 +904,7 @@ Items *[]*string
 
 A list of the identifiers of the public keys in the key group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_key_group#items CloudfrontKeyGroup#items}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_key_group#items CloudfrontKeyGroup#items}
 
 ---
 
@@ -918,7 +918,7 @@ Name *string
 
 A name to identify the key group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_key_group#name CloudfrontKeyGroup#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_key_group#name CloudfrontKeyGroup#name}
 
 ---
 
@@ -932,7 +932,7 @@ Comment *string
 
 A comment to describe the key group. The comment cannot be longer than 128 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_key_group#comment CloudfrontKeyGroup#comment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_key_group#comment CloudfrontKeyGroup#comment}
 
 ---
 
@@ -943,7 +943,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudfrontKeyGroup.CloudfrontKeyGroupKeyGroupConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontkeygroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontkeygroup"
 
 cloudfrontkeygroup.NewCloudfrontKeyGroupKeyGroupConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CloudfrontKeyGroupKeyGroupConfigOutputReference
 ```

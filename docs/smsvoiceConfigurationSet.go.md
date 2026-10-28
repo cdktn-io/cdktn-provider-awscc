@@ -4,12 +4,12 @@
 
 ### SmsvoiceConfigurationSet <a name="SmsvoiceConfigurationSet" id="@cdktn/provider-awscc.smsvoiceConfigurationSet.SmsvoiceConfigurationSet"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_configuration_set awscc_smsvoice_configuration_set}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_configuration_set awscc_smsvoice_configuration_set}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.smsvoiceConfigurationSet.SmsvoiceConfigurationSet.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoiceconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoiceconfigurationset"
 
 smsvoiceconfigurationset.NewSmsvoiceConfigurationSet(scope Construct, id *string, config SmsvoiceConfigurationSetConfig) SmsvoiceConfigurationSet
 ```
@@ -468,7 +468,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.smsvoiceConfigurationSet.SmsvoiceConfigurationSet.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoiceconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoiceconfigurationset"
 
 smsvoiceconfigurationset.SmsvoiceConfigurationSet_IsConstruct(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.smsvoiceConfigurationSet.SmsvoiceConfigurationSet.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoiceconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoiceconfigurationset"
 
 smsvoiceconfigurationset.SmsvoiceConfigurationSet_IsTerraformElement(x interface{}) *bool
 ```
@@ -514,7 +514,7 @@ smsvoiceconfigurationset.SmsvoiceConfigurationSet_IsTerraformElement(x interface
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.smsvoiceConfigurationSet.SmsvoiceConfigurationSet.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoiceconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoiceconfigurationset"
 
 smsvoiceconfigurationset.SmsvoiceConfigurationSet_IsTerraformResource(x interface{}) *bool
 ```
@@ -528,7 +528,7 @@ smsvoiceconfigurationset.SmsvoiceConfigurationSet_IsTerraformResource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.smsvoiceConfigurationSet.SmsvoiceConfigurationSet.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoiceconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoiceconfigurationset"
 
 smsvoiceconfigurationset.SmsvoiceConfigurationSet_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -557,7 +557,7 @@ The construct id used in the generated config for the SmsvoiceConfigurationSet t
 
 The id of the existing SmsvoiceConfigurationSet that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_configuration_set#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_configuration_set#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -911,7 +911,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.smsvoiceConfigurationSet.SmsvoiceConfigurationSetConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoiceconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoiceconfigurationset"
 
 &smsvoiceconfigurationset.SmsvoiceConfigurationSetConfig {
 	Connection: interface{},
@@ -1030,7 +1030,7 @@ ConfigurationSetName *string
 
 The name to use for the configuration set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_configuration_set#configuration_set_name SmsvoiceConfigurationSet#configuration_set_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_configuration_set#configuration_set_name SmsvoiceConfigurationSet#configuration_set_name}
 
 ---
 
@@ -1044,7 +1044,7 @@ DefaultSenderId *string
 
 The default sender ID to set for the ConfigurationSet.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_configuration_set#default_sender_id SmsvoiceConfigurationSet#default_sender_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_configuration_set#default_sender_id SmsvoiceConfigurationSet#default_sender_id}
 
 ---
 
@@ -1058,7 +1058,7 @@ EventDestinations interface{}
 
 An event destination is a location where you send message events.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_configuration_set#event_destinations SmsvoiceConfigurationSet#event_destinations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_configuration_set#event_destinations SmsvoiceConfigurationSet#event_destinations}
 
 ---
 
@@ -1072,7 +1072,7 @@ MessageFeedbackEnabled interface{}
 
 Set to true to enable message feedback.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_configuration_set#message_feedback_enabled SmsvoiceConfigurationSet#message_feedback_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_configuration_set#message_feedback_enabled SmsvoiceConfigurationSet#message_feedback_enabled}
 
 ---
 
@@ -1086,7 +1086,7 @@ ProtectConfigurationId *string
 
 The unique identifier for the protect configuration to be associated to the configuration set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_configuration_set#protect_configuration_id SmsvoiceConfigurationSet#protect_configuration_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_configuration_set#protect_configuration_id SmsvoiceConfigurationSet#protect_configuration_id}
 
 ---
 
@@ -1100,7 +1100,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_configuration_set#tags SmsvoiceConfigurationSet#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_configuration_set#tags SmsvoiceConfigurationSet#tags}
 
 ---
 
@@ -1109,15 +1109,15 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.smsvoiceConfigurationSet.SmsvoiceConfigurationSetEventDestinations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoiceconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoiceconfigurationset"
 
 &smsvoiceconfigurationset.SmsvoiceConfigurationSetEventDestinations {
-	CloudwatchLogsDestination: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.smsvoiceConfigurationSet.SmsvoiceConfigurationSetEventDestinationsCloudwatchLogsDestination,
+	CloudwatchLogsDestination: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.smsvoiceConfigurationSet.SmsvoiceConfigurationSetEventDestinationsCloudwatchLogsDestination,
 	Enabled: interface{},
 	EventDestinationName: *string,
-	KinesisFirehoseDestination: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.smsvoiceConfigurationSet.SmsvoiceConfigurationSetEventDestinationsKinesisFirehoseDestination,
+	KinesisFirehoseDestination: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.smsvoiceConfigurationSet.SmsvoiceConfigurationSetEventDestinationsKinesisFirehoseDestination,
 	MatchingEventTypes: *[]*string,
-	SnsDestination: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.smsvoiceConfigurationSet.SmsvoiceConfigurationSetEventDestinationsSnsDestination,
+	SnsDestination: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.smsvoiceConfigurationSet.SmsvoiceConfigurationSetEventDestinationsSnsDestination,
 }
 ```
 
@@ -1144,7 +1144,7 @@ CloudwatchLogsDestination SmsvoiceConfigurationSetEventDestinationsCloudwatchLog
 
 An object that contains IamRoleArn and LogGroupArn associated with an Amazon CloudWatch event destination.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_configuration_set#cloudwatch_logs_destination SmsvoiceConfigurationSet#cloudwatch_logs_destination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_configuration_set#cloudwatch_logs_destination SmsvoiceConfigurationSet#cloudwatch_logs_destination}
 
 ---
 
@@ -1158,7 +1158,7 @@ Enabled interface{}
 
 When set to true events will be logged. By default this is set to true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_configuration_set#enabled SmsvoiceConfigurationSet#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_configuration_set#enabled SmsvoiceConfigurationSet#enabled}
 
 ---
 
@@ -1172,7 +1172,7 @@ EventDestinationName *string
 
 The name that identifies the event destination.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_configuration_set#event_destination_name SmsvoiceConfigurationSet#event_destination_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_configuration_set#event_destination_name SmsvoiceConfigurationSet#event_destination_name}
 
 ---
 
@@ -1186,7 +1186,7 @@ KinesisFirehoseDestination SmsvoiceConfigurationSetEventDestinationsKinesisFireh
 
 An object that contains IamRoleArn and DeliveryStreamArn associated with an Amazon Kinesis Firehose event destination.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_configuration_set#kinesis_firehose_destination SmsvoiceConfigurationSet#kinesis_firehose_destination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_configuration_set#kinesis_firehose_destination SmsvoiceConfigurationSet#kinesis_firehose_destination}
 
 ---
 
@@ -1202,7 +1202,7 @@ An array of event types that determine which events to log.
 
 If 'ALL' is used, then AWS End User Messaging SMS and Voice logs every event type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_configuration_set#matching_event_types SmsvoiceConfigurationSet#matching_event_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_configuration_set#matching_event_types SmsvoiceConfigurationSet#matching_event_types}
 
 ---
 
@@ -1216,7 +1216,7 @@ SnsDestination SmsvoiceConfigurationSetEventDestinationsSnsDestination
 
 An object that contains SNS TopicArn event destination.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_configuration_set#sns_destination SmsvoiceConfigurationSet#sns_destination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_configuration_set#sns_destination SmsvoiceConfigurationSet#sns_destination}
 
 ---
 
@@ -1225,7 +1225,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.smsvoiceConfigurationSet.SmsvoiceConfigurationSetEventDestinationsCloudwatchLogsDestination.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoiceconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoiceconfigurationset"
 
 &smsvoiceconfigurationset.SmsvoiceConfigurationSetEventDestinationsCloudwatchLogsDestination {
 	IamRoleArn: *string,
@@ -1252,7 +1252,7 @@ IamRoleArn *string
 
 The Amazon Resource Name (ARN) of an AWS Identity and Access Management role that is able to write event data to an Amazon CloudWatch destination.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_configuration_set#iam_role_arn SmsvoiceConfigurationSet#iam_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_configuration_set#iam_role_arn SmsvoiceConfigurationSet#iam_role_arn}
 
 ---
 
@@ -1266,7 +1266,7 @@ LogGroupArn *string
 
 The name of the Amazon CloudWatch log group that you want to record events in.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_configuration_set#log_group_arn SmsvoiceConfigurationSet#log_group_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_configuration_set#log_group_arn SmsvoiceConfigurationSet#log_group_arn}
 
 ---
 
@@ -1275,7 +1275,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.smsvoiceConfigurationSet.SmsvoiceConfigurationSetEventDestinationsKinesisFirehoseDestination.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoiceconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoiceconfigurationset"
 
 &smsvoiceconfigurationset.SmsvoiceConfigurationSetEventDestinationsKinesisFirehoseDestination {
 	DeliveryStreamArn: *string,
@@ -1302,7 +1302,7 @@ DeliveryStreamArn *string
 
 The Amazon Resource Name (ARN) of the delivery stream.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_configuration_set#delivery_stream_arn SmsvoiceConfigurationSet#delivery_stream_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_configuration_set#delivery_stream_arn SmsvoiceConfigurationSet#delivery_stream_arn}
 
 ---
 
@@ -1316,7 +1316,7 @@ IamRoleArn *string
 
 The Amazon Resource Name (ARN) of an AWS Identity and Access Management role that is able to write event data to an Amazon CloudWatch destination.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_configuration_set#iam_role_arn SmsvoiceConfigurationSet#iam_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_configuration_set#iam_role_arn SmsvoiceConfigurationSet#iam_role_arn}
 
 ---
 
@@ -1325,7 +1325,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.smsvoiceConfigurationSet.SmsvoiceConfigurationSetEventDestinationsSnsDestination.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoiceconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoiceconfigurationset"
 
 &smsvoiceconfigurationset.SmsvoiceConfigurationSetEventDestinationsSnsDestination {
 	TopicArn: *string,
@@ -1350,7 +1350,7 @@ TopicArn *string
 
 The Amazon Resource Name (ARN) of the Amazon SNS topic that you want to publish events to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_configuration_set#topic_arn SmsvoiceConfigurationSet#topic_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_configuration_set#topic_arn SmsvoiceConfigurationSet#topic_arn}
 
 ---
 
@@ -1359,7 +1359,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.smsvoiceConfigurationSet.SmsvoiceConfigurationSetTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoiceconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoiceconfigurationset"
 
 &smsvoiceconfigurationset.SmsvoiceConfigurationSetTags {
 	Key: *string,
@@ -1388,7 +1388,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_configuration_set#key SmsvoiceConfigurationSet#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_configuration_set#key SmsvoiceConfigurationSet#key}
 
 ---
 
@@ -1404,7 +1404,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_configuration_set#value SmsvoiceConfigurationSet#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_configuration_set#value SmsvoiceConfigurationSet#value}
 
 ---
 
@@ -1415,7 +1415,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.smsvoiceConfigurationSet.SmsvoiceConfigurationSetEventDestinationsCloudwatchLogsDestinationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoiceconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoiceconfigurationset"
 
 smsvoiceconfigurationset.NewSmsvoiceConfigurationSetEventDestinationsCloudwatchLogsDestinationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SmsvoiceConfigurationSetEventDestinationsCloudwatchLogsDestinationOutputReference
 ```
@@ -1722,7 +1722,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.smsvoiceConfigurationSet.SmsvoiceConfigurationSetEventDestinationsKinesisFirehoseDestinationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoiceconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoiceconfigurationset"
 
 smsvoiceconfigurationset.NewSmsvoiceConfigurationSetEventDestinationsKinesisFirehoseDestinationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SmsvoiceConfigurationSetEventDestinationsKinesisFirehoseDestinationOutputReference
 ```
@@ -2029,7 +2029,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.smsvoiceConfigurationSet.SmsvoiceConfigurationSetEventDestinationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoiceconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoiceconfigurationset"
 
 smsvoiceconfigurationset.NewSmsvoiceConfigurationSetEventDestinationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SmsvoiceConfigurationSetEventDestinationsList
 ```
@@ -2189,7 +2189,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.smsvoiceConfigurationSet.SmsvoiceConfigurationSetEventDestinationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoiceconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoiceconfigurationset"
 
 smsvoiceconfigurationset.NewSmsvoiceConfigurationSetEventDestinationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SmsvoiceConfigurationSetEventDestinationsOutputReference
 ```
@@ -2669,7 +2669,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.smsvoiceConfigurationSet.SmsvoiceConfigurationSetEventDestinationsSnsDestinationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoiceconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoiceconfigurationset"
 
 smsvoiceconfigurationset.NewSmsvoiceConfigurationSetEventDestinationsSnsDestinationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SmsvoiceConfigurationSetEventDestinationsSnsDestinationOutputReference
 ```
@@ -2947,7 +2947,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.smsvoiceConfigurationSet.SmsvoiceConfigurationSetTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoiceconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoiceconfigurationset"
 
 smsvoiceconfigurationset.NewSmsvoiceConfigurationSetTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SmsvoiceConfigurationSetTagsList
 ```
@@ -3107,7 +3107,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.smsvoiceConfigurationSet.SmsvoiceConfigurationSetTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoiceconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoiceconfigurationset"
 
 smsvoiceconfigurationset.NewSmsvoiceConfigurationSetTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SmsvoiceConfigurationSetTagsOutputReference
 ```

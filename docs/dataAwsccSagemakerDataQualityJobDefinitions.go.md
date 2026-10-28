@@ -4,12 +4,12 @@
 
 ### DataAwsccSagemakerDataQualityJobDefinitions <a name="DataAwsccSagemakerDataQualityJobDefinitions" id="@cdktn/provider-awscc.dataAwsccSagemakerDataQualityJobDefinitions.DataAwsccSagemakerDataQualityJobDefinitions"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_data_quality_job_definitions awscc_sagemaker_data_quality_job_definitions}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_data_quality_job_definitions awscc_sagemaker_data_quality_job_definitions}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerDataQualityJobDefinitions.DataAwsccSagemakerDataQualityJobDefinitions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdataqualityjobdefinitions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerdataqualityjobdefinitions"
 
 dataawsccsagemakerdataqualityjobdefinitions.NewDataAwsccSagemakerDataQualityJobDefinitions(scope Construct, id *string, config DataAwsccSagemakerDataQualityJobDefinitionsConfig) DataAwsccSagemakerDataQualityJobDefinitions
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSagemakerDataQualityJobDefinitions.DataAwsccSagemakerDataQualityJobDefinitions.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdataqualityjobdefinitions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerdataqualityjobdefinitions"
 
 dataawsccsagemakerdataqualityjobdefinitions.DataAwsccSagemakerDataQualityJobDefinitions_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSagemakerDataQualityJobDefinitions.DataAwsccSagemakerDataQualityJobDefinitions.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdataqualityjobdefinitions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerdataqualityjobdefinitions"
 
 dataawsccsagemakerdataqualityjobdefinitions.DataAwsccSagemakerDataQualityJobDefinitions_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsagemakerdataqualityjobdefinitions.DataAwsccSagemakerDataQualityJobDefi
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSagemakerDataQualityJobDefinitions.DataAwsccSagemakerDataQualityJobDefinitions.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdataqualityjobdefinitions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerdataqualityjobdefinitions"
 
 dataawsccsagemakerdataqualityjobdefinitions.DataAwsccSagemakerDataQualityJobDefinitions_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsagemakerdataqualityjobdefinitions.DataAwsccSagemakerDataQualityJobDefi
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSagemakerDataQualityJobDefinitions.DataAwsccSagemakerDataQualityJobDefinitions.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdataqualityjobdefinitions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerdataqualityjobdefinitions"
 
 dataawsccsagemakerdataqualityjobdefinitions.DataAwsccSagemakerDataQualityJobDefinitions_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSagemakerDataQual
 
 The id of the existing DataAwsccSagemakerDataQualityJobDefinitions that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_data_quality_job_definitions#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_data_quality_job_definitions#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerDataQualityJobDefinitions.DataAwsccSagemakerDataQualityJobDefinitionsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdataqualityjobdefinitions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerdataqualityjobdefinitions"
 
 &dataawsccsagemakerdataqualityjobdefinitions.DataAwsccSagemakerDataQualityJobDefinitionsConfig {
 	Connection: interface{},

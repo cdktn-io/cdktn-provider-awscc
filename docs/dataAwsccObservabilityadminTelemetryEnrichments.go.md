@@ -4,12 +4,12 @@
 
 ### DataAwsccObservabilityadminTelemetryEnrichments <a name="DataAwsccObservabilityadminTelemetryEnrichments" id="@cdktn/provider-awscc.dataAwsccObservabilityadminTelemetryEnrichments.DataAwsccObservabilityadminTelemetryEnrichments"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/observabilityadmin_telemetry_enrichments awscc_observabilityadmin_telemetry_enrichments}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/observabilityadmin_telemetry_enrichments awscc_observabilityadmin_telemetry_enrichments}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccObservabilityadminTelemetryEnrichments.DataAwsccObservabilityadminTelemetryEnrichments.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadmintelemetryenrichments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadmintelemetryenrichments"
 
 dataawsccobservabilityadmintelemetryenrichments.NewDataAwsccObservabilityadminTelemetryEnrichments(scope Construct, id *string, config DataAwsccObservabilityadminTelemetryEnrichmentsConfig) DataAwsccObservabilityadminTelemetryEnrichments
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccObservabilityadminTelemetryEnrichments.DataAwsccObservabilityadminTelemetryEnrichments.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadmintelemetryenrichments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadmintelemetryenrichments"
 
 dataawsccobservabilityadmintelemetryenrichments.DataAwsccObservabilityadminTelemetryEnrichments_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccObservabilityadminTelemetryEnrichments.DataAwsccObservabilityadminTelemetryEnrichments.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadmintelemetryenrichments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadmintelemetryenrichments"
 
 dataawsccobservabilityadmintelemetryenrichments.DataAwsccObservabilityadminTelemetryEnrichments_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccobservabilityadmintelemetryenrichments.DataAwsccObservabilityadminTelem
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccObservabilityadminTelemetryEnrichments.DataAwsccObservabilityadminTelemetryEnrichments.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadmintelemetryenrichments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadmintelemetryenrichments"
 
 dataawsccobservabilityadmintelemetryenrichments.DataAwsccObservabilityadminTelemetryEnrichments_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccobservabilityadmintelemetryenrichments.DataAwsccObservabilityadminTelem
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccObservabilityadminTelemetryEnrichments.DataAwsccObservabilityadminTelemetryEnrichments.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadmintelemetryenrichments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadmintelemetryenrichments"
 
 dataawsccobservabilityadmintelemetryenrichments.DataAwsccObservabilityadminTelemetryEnrichments_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccObservabilityadmi
 
 The id of the existing DataAwsccObservabilityadminTelemetryEnrichments that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/observabilityadmin_telemetry_enrichments#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/observabilityadmin_telemetry_enrichments#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccObservabilityadminTelemetryEnrichments.DataAwsccObservabilityadminTelemetryEnrichmentsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccobservabilityadmintelemetryenrichments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccobservabilityadmintelemetryenrichments"
 
 &dataawsccobservabilityadmintelemetryenrichments.DataAwsccObservabilityadminTelemetryEnrichmentsConfig {
 	Connection: interface{},

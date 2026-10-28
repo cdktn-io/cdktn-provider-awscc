@@ -4,12 +4,12 @@
 
 ### DataAwsccMediaconvertJobTemplates <a name="DataAwsccMediaconvertJobTemplates" id="@cdktn/provider-awscc.dataAwsccMediaconvertJobTemplates.DataAwsccMediaconvertJobTemplates"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediaconvert_job_templates awscc_mediaconvert_job_templates}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediaconvert_job_templates awscc_mediaconvert_job_templates}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediaconvertJobTemplates.DataAwsccMediaconvertJobTemplates.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconvertjobtemplates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconvertjobtemplates"
 
 dataawsccmediaconvertjobtemplates.NewDataAwsccMediaconvertJobTemplates(scope Construct, id *string, config DataAwsccMediaconvertJobTemplatesConfig) DataAwsccMediaconvertJobTemplates
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccMediaconvertJobTemplates.DataAwsccMediaconvertJobTemplates.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconvertjobtemplates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconvertjobtemplates"
 
 dataawsccmediaconvertjobtemplates.DataAwsccMediaconvertJobTemplates_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccMediaconvertJobTemplates.DataAwsccMediaconvertJobTemplates.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconvertjobtemplates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconvertjobtemplates"
 
 dataawsccmediaconvertjobtemplates.DataAwsccMediaconvertJobTemplates_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccmediaconvertjobtemplates.DataAwsccMediaconvertJobTemplates_IsTerraformE
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccMediaconvertJobTemplates.DataAwsccMediaconvertJobTemplates.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconvertjobtemplates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconvertjobtemplates"
 
 dataawsccmediaconvertjobtemplates.DataAwsccMediaconvertJobTemplates_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccmediaconvertjobtemplates.DataAwsccMediaconvertJobTemplates_IsTerraformD
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccMediaconvertJobTemplates.DataAwsccMediaconvertJobTemplates.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconvertjobtemplates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconvertjobtemplates"
 
 dataawsccmediaconvertjobtemplates.DataAwsccMediaconvertJobTemplates_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccMediaconvertJobTe
 
 The id of the existing DataAwsccMediaconvertJobTemplates that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediaconvert_job_templates#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediaconvert_job_templates#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediaconvertJobTemplates.DataAwsccMediaconvertJobTemplatesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconvertjobtemplates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconvertjobtemplates"
 
 &dataawsccmediaconvertjobtemplates.DataAwsccMediaconvertJobTemplatesConfig {
 	Connection: interface{},

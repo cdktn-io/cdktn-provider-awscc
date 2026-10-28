@@ -4,12 +4,12 @@
 
 ### DataAwsccBackupgatewayHypervisors <a name="DataAwsccBackupgatewayHypervisors" id="@cdktn/provider-awscc.dataAwsccBackupgatewayHypervisors.DataAwsccBackupgatewayHypervisors"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/backupgateway_hypervisors awscc_backupgateway_hypervisors}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/backupgateway_hypervisors awscc_backupgateway_hypervisors}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBackupgatewayHypervisors.DataAwsccBackupgatewayHypervisors.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupgatewayhypervisors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackupgatewayhypervisors"
 
 dataawsccbackupgatewayhypervisors.NewDataAwsccBackupgatewayHypervisors(scope Construct, id *string, config DataAwsccBackupgatewayHypervisorsConfig) DataAwsccBackupgatewayHypervisors
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccBackupgatewayHypervisors.DataAwsccBackupgatewayHypervisors.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupgatewayhypervisors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackupgatewayhypervisors"
 
 dataawsccbackupgatewayhypervisors.DataAwsccBackupgatewayHypervisors_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccBackupgatewayHypervisors.DataAwsccBackupgatewayHypervisors.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupgatewayhypervisors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackupgatewayhypervisors"
 
 dataawsccbackupgatewayhypervisors.DataAwsccBackupgatewayHypervisors_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccbackupgatewayhypervisors.DataAwsccBackupgatewayHypervisors_IsTerraformE
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccBackupgatewayHypervisors.DataAwsccBackupgatewayHypervisors.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupgatewayhypervisors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackupgatewayhypervisors"
 
 dataawsccbackupgatewayhypervisors.DataAwsccBackupgatewayHypervisors_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccbackupgatewayhypervisors.DataAwsccBackupgatewayHypervisors_IsTerraformD
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccBackupgatewayHypervisors.DataAwsccBackupgatewayHypervisors.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupgatewayhypervisors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackupgatewayhypervisors"
 
 dataawsccbackupgatewayhypervisors.DataAwsccBackupgatewayHypervisors_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccBackupgatewayHype
 
 The id of the existing DataAwsccBackupgatewayHypervisors that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/backupgateway_hypervisors#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/backupgateway_hypervisors#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBackupgatewayHypervisors.DataAwsccBackupgatewayHypervisorsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupgatewayhypervisors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackupgatewayhypervisors"
 
 &dataawsccbackupgatewayhypervisors.DataAwsccBackupgatewayHypervisorsConfig {
 	Connection: interface{},

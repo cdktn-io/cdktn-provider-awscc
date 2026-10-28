@@ -4,12 +4,12 @@
 
 ### TransferAgreement <a name="TransferAgreement" id="@cdktn/provider-awscc.transferAgreement.TransferAgreement"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_agreement awscc_transfer_agreement}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_agreement awscc_transfer_agreement}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.transferAgreement.TransferAgreement.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferagreement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferagreement"
 
 transferagreement.NewTransferAgreement(scope Construct, id *string, config TransferAgreementConfig) TransferAgreement
 ```
@@ -475,7 +475,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.transferAgreement.TransferAgreement.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferagreement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferagreement"
 
 transferagreement.TransferAgreement_IsConstruct(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.transferAgreement.TransferAgreement.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferagreement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferagreement"
 
 transferagreement.TransferAgreement_IsTerraformElement(x interface{}) *bool
 ```
@@ -521,7 +521,7 @@ transferagreement.TransferAgreement_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.transferAgreement.TransferAgreement.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferagreement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferagreement"
 
 transferagreement.TransferAgreement_IsTerraformResource(x interface{}) *bool
 ```
@@ -535,7 +535,7 @@ transferagreement.TransferAgreement_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.transferAgreement.TransferAgreement.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferagreement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferagreement"
 
 transferagreement.TransferAgreement_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -564,7 +564,7 @@ The construct id used in the generated config for the TransferAgreement to impor
 
 The id of the existing TransferAgreement that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_agreement#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_agreement#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1039,7 +1039,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.transferAgreement.TransferAgreementConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferagreement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferagreement"
 
 &transferagreement.TransferAgreementConfig {
 	Connection: interface{},
@@ -1054,7 +1054,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferagreement"
 	PartnerProfileId: *string,
 	ServerId: *string,
 	BaseDirectory: *string,
-	CustomDirectories: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.transferAgreement.TransferAgreementCustomDirectories,
+	CustomDirectories: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.transferAgreement.TransferAgreementCustomDirectories,
 	Description: *string,
 	EnforceMessageSigning: *string,
 	PreserveFilename: *string,
@@ -1168,7 +1168,7 @@ AccessRole *string
 
 Specifies the access role for the agreement.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_agreement#access_role TransferAgreement#access_role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_agreement#access_role TransferAgreement#access_role}
 
 ---
 
@@ -1182,7 +1182,7 @@ LocalProfileId *string
 
 A unique identifier for the local profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_agreement#local_profile_id TransferAgreement#local_profile_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_agreement#local_profile_id TransferAgreement#local_profile_id}
 
 ---
 
@@ -1196,7 +1196,7 @@ PartnerProfileId *string
 
 A unique identifier for the partner profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_agreement#partner_profile_id TransferAgreement#partner_profile_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_agreement#partner_profile_id TransferAgreement#partner_profile_id}
 
 ---
 
@@ -1210,7 +1210,7 @@ ServerId *string
 
 A unique identifier for the server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_agreement#server_id TransferAgreement#server_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_agreement#server_id TransferAgreement#server_id}
 
 ---
 
@@ -1224,7 +1224,7 @@ BaseDirectory *string
 
 Specifies the base directory for the agreement.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_agreement#base_directory TransferAgreement#base_directory}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_agreement#base_directory TransferAgreement#base_directory}
 
 ---
 
@@ -1238,7 +1238,7 @@ CustomDirectories TransferAgreementCustomDirectories
 
 Specifies a separate directory for each type of file to store for an AS2 message.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_agreement#custom_directories TransferAgreement#custom_directories}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_agreement#custom_directories TransferAgreement#custom_directories}
 
 ---
 
@@ -1252,7 +1252,7 @@ Description *string
 
 A textual description for the agreement.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_agreement#description TransferAgreement#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_agreement#description TransferAgreement#description}
 
 ---
 
@@ -1266,7 +1266,7 @@ EnforceMessageSigning *string
 
 Specifies whether to enforce an AS2 message is signed for this agreement.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_agreement#enforce_message_signing TransferAgreement#enforce_message_signing}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_agreement#enforce_message_signing TransferAgreement#enforce_message_signing}
 
 ---
 
@@ -1280,7 +1280,7 @@ PreserveFilename *string
 
 Specifies whether to preserve the filename received for this agreement.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_agreement#preserve_filename TransferAgreement#preserve_filename}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_agreement#preserve_filename TransferAgreement#preserve_filename}
 
 ---
 
@@ -1294,7 +1294,7 @@ Status *string
 
 Specifies the status of the agreement.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_agreement#status TransferAgreement#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_agreement#status TransferAgreement#status}
 
 ---
 
@@ -1310,7 +1310,7 @@ Key-value pairs that can be used to group and search for agreements.
 
 Tags are metadata attached to agreements for any purpose.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_agreement#tags TransferAgreement#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_agreement#tags TransferAgreement#tags}
 
 ---
 
@@ -1319,7 +1319,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.transferAgreement.TransferAgreementCustomDirectories.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferagreement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferagreement"
 
 &transferagreement.TransferAgreementCustomDirectories {
 	FailedFilesDirectory: *string,
@@ -1352,7 +1352,7 @@ FailedFilesDirectory *string
 
 Specifies a location to store the failed files for an AS2 message.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_agreement#failed_files_directory TransferAgreement#failed_files_directory}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_agreement#failed_files_directory TransferAgreement#failed_files_directory}
 
 ---
 
@@ -1366,7 +1366,7 @@ MdnFilesDirectory *string
 
 Specifies a location to store the MDN file for an AS2 message.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_agreement#mdn_files_directory TransferAgreement#mdn_files_directory}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_agreement#mdn_files_directory TransferAgreement#mdn_files_directory}
 
 ---
 
@@ -1380,7 +1380,7 @@ PayloadFilesDirectory *string
 
 Specifies a location to store the payload file for an AS2 message.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_agreement#payload_files_directory TransferAgreement#payload_files_directory}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_agreement#payload_files_directory TransferAgreement#payload_files_directory}
 
 ---
 
@@ -1394,7 +1394,7 @@ StatusFilesDirectory *string
 
 Specifies a location to store the status file for an AS2 message.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_agreement#status_files_directory TransferAgreement#status_files_directory}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_agreement#status_files_directory TransferAgreement#status_files_directory}
 
 ---
 
@@ -1408,7 +1408,7 @@ TemporaryFilesDirectory *string
 
 Specifies a location to store the temporary processing file for an AS2 message.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_agreement#temporary_files_directory TransferAgreement#temporary_files_directory}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_agreement#temporary_files_directory TransferAgreement#temporary_files_directory}
 
 ---
 
@@ -1417,7 +1417,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.transferAgreement.TransferAgreementTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferagreement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferagreement"
 
 &transferagreement.TransferAgreementTags {
 	Key: *string,
@@ -1444,7 +1444,7 @@ Key *string
 
 The name assigned to the tag that you create.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_agreement#key TransferAgreement#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_agreement#key TransferAgreement#key}
 
 ---
 
@@ -1458,7 +1458,7 @@ Value *string
 
 Contains one or more values that you assigned to the key name you create.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_agreement#value TransferAgreement#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_agreement#value TransferAgreement#value}
 
 ---
 
@@ -1469,7 +1469,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.transferAgreement.TransferAgreementCustomDirectoriesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferagreement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferagreement"
 
 transferagreement.NewTransferAgreementCustomDirectoriesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) TransferAgreementCustomDirectoriesOutputReference
 ```
@@ -1863,7 +1863,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.transferAgreement.TransferAgreementTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferagreement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferagreement"
 
 transferagreement.NewTransferAgreementTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) TransferAgreementTagsList
 ```
@@ -2023,7 +2023,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.transferAgreement.TransferAgreementTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferagreement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferagreement"
 
 transferagreement.NewTransferAgreementTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) TransferAgreementTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccS3VectorsVectorBuckets <a name="DataAwsccS3VectorsVectorBuckets" id="@cdktn/provider-awscc.dataAwsccS3VectorsVectorBuckets.DataAwsccS3VectorsVectorBuckets"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3vectors_vector_buckets awscc_s3vectors_vector_buckets}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3vectors_vector_buckets awscc_s3vectors_vector_buckets}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3VectorsVectorBuckets.DataAwsccS3VectorsVectorBuckets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3vectorsvectorbuckets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3vectorsvectorbuckets"
 
 dataawsccs3vectorsvectorbuckets.NewDataAwsccS3VectorsVectorBuckets(scope Construct, id *string, config DataAwsccS3VectorsVectorBucketsConfig) DataAwsccS3VectorsVectorBuckets
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccS3VectorsVectorBuckets.DataAwsccS3VectorsVectorBuckets.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3vectorsvectorbuckets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3vectorsvectorbuckets"
 
 dataawsccs3vectorsvectorbuckets.DataAwsccS3VectorsVectorBuckets_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccS3VectorsVectorBuckets.DataAwsccS3VectorsVectorBuckets.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3vectorsvectorbuckets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3vectorsvectorbuckets"
 
 dataawsccs3vectorsvectorbuckets.DataAwsccS3VectorsVectorBuckets_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccs3vectorsvectorbuckets.DataAwsccS3VectorsVectorBuckets_IsTerraformEleme
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccS3VectorsVectorBuckets.DataAwsccS3VectorsVectorBuckets.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3vectorsvectorbuckets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3vectorsvectorbuckets"
 
 dataawsccs3vectorsvectorbuckets.DataAwsccS3VectorsVectorBuckets_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccs3vectorsvectorbuckets.DataAwsccS3VectorsVectorBuckets_IsTerraformDataS
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccS3VectorsVectorBuckets.DataAwsccS3VectorsVectorBuckets.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3vectorsvectorbuckets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3vectorsvectorbuckets"
 
 dataawsccs3vectorsvectorbuckets.DataAwsccS3VectorsVectorBuckets_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccS3VectorsVectorBu
 
 The id of the existing DataAwsccS3VectorsVectorBuckets that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3vectors_vector_buckets#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3vectors_vector_buckets#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3VectorsVectorBuckets.DataAwsccS3VectorsVectorBucketsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3vectorsvectorbuckets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3vectorsvectorbuckets"
 
 &dataawsccs3vectorsvectorbuckets.DataAwsccS3VectorsVectorBucketsConfig {
 	Connection: interface{},

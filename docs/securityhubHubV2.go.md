@@ -4,12 +4,12 @@
 
 ### SecurityhubHubV2 <a name="SecurityhubHubV2" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_hub_v2 awscc_securityhub_hub_v2}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_hub_v2 awscc_securityhub_hub_v2}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubhubv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubhubv2"
 
 securityhubhubv2.NewSecurityhubHubV2(scope Construct, id *string, config SecurityhubHubV2Config) SecurityhubHubV2
 ```
@@ -427,7 +427,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubhubv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubhubv2"
 
 securityhubhubv2.SecurityhubHubV2_IsConstruct(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubhubv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubhubv2"
 
 securityhubhubv2.SecurityhubHubV2_IsTerraformElement(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ securityhubhubv2.SecurityhubHubV2_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubhubv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubhubv2"
 
 securityhubhubv2.SecurityhubHubV2_IsTerraformResource(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ securityhubhubv2.SecurityhubHubV2_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubhubv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubhubv2"
 
 securityhubhubv2.SecurityhubHubV2_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -516,7 +516,7 @@ The construct id used in the generated config for the SecurityhubHubV2 to import
 
 The id of the existing SecurityhubHubV2 that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_hub_v2#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_hub_v2#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -793,7 +793,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2Config.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubhubv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubhubv2"
 
 &securityhubhubv2.SecurityhubHubV2Config {
 	Connection: interface{},
@@ -803,7 +803,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubhubv2"
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	NetworkScanning: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.securityhubHubV2.SecurityhubHubV2NetworkScanning,
+	NetworkScanning: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.securityhubHubV2.SecurityhubHubV2NetworkScanning,
 	Tags: *map[string]*string,
 }
 ```
@@ -906,7 +906,7 @@ Configuration for the Network Scanning opt-in feature of Security Hub V2.
 
 Network Scanning is available in the AWS commercial partition only; specifying this property in another partition, such as AWS GovCloud (US) or China, fails. This property is desired state: if you remove it from a stack that previously set it, the feature is disabled. If a stack has never set it, the feature is left as-is, so a stack that does not manage Network Scanning will not disable it. Network Scanning requires Security Hub V2 to be enabled in the same account and Region.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_hub_v2#network_scanning SecurityhubHubV2#network_scanning}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_hub_v2#network_scanning SecurityhubHubV2#network_scanning}
 
 ---
 
@@ -922,7 +922,7 @@ A key-value pair to associate with the Security Hub V2 resource.
 
 You can specify a key that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_hub_v2#tags SecurityhubHubV2#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_hub_v2#tags SecurityhubHubV2#tags}
 
 ---
 
@@ -931,7 +931,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanning.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubhubv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubhubv2"
 
 &securityhubhubv2.SecurityhubHubV2NetworkScanning {
 	Status: *string,
@@ -956,7 +956,7 @@ Status *string
 
 Whether the Network Scanning feature is enabled for this account and Region.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_hub_v2#status SecurityhubHubV2#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_hub_v2#status SecurityhubHubV2#status}
 
 ---
 
@@ -967,7 +967,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubHubV2.SecurityhubHubV2NetworkScanningOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubhubv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubhubv2"
 
 securityhubhubv2.NewSecurityhubHubV2NetworkScanningOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SecurityhubHubV2NetworkScanningOutputReference
 ```

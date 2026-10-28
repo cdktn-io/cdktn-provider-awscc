@@ -4,12 +4,12 @@
 
 ### DataAwsccBatchConsumableResources <a name="DataAwsccBatchConsumableResources" id="@cdktn/provider-awscc.dataAwsccBatchConsumableResources.DataAwsccBatchConsumableResources"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/batch_consumable_resources awscc_batch_consumable_resources}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/batch_consumable_resources awscc_batch_consumable_resources}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchConsumableResources.DataAwsccBatchConsumableResources.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchconsumableresources"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchconsumableresources"
 
 dataawsccbatchconsumableresources.NewDataAwsccBatchConsumableResources(scope Construct, id *string, config DataAwsccBatchConsumableResourcesConfig) DataAwsccBatchConsumableResources
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccBatchConsumableResources.DataAwsccBatchConsumableResources.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchconsumableresources"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchconsumableresources"
 
 dataawsccbatchconsumableresources.DataAwsccBatchConsumableResources_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccBatchConsumableResources.DataAwsccBatchConsumableResources.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchconsumableresources"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchconsumableresources"
 
 dataawsccbatchconsumableresources.DataAwsccBatchConsumableResources_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccbatchconsumableresources.DataAwsccBatchConsumableResources_IsTerraformE
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccBatchConsumableResources.DataAwsccBatchConsumableResources.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchconsumableresources"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchconsumableresources"
 
 dataawsccbatchconsumableresources.DataAwsccBatchConsumableResources_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccbatchconsumableresources.DataAwsccBatchConsumableResources_IsTerraformD
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccBatchConsumableResources.DataAwsccBatchConsumableResources.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchconsumableresources"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchconsumableresources"
 
 dataawsccbatchconsumableresources.DataAwsccBatchConsumableResources_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccBatchConsumableRe
 
 The id of the existing DataAwsccBatchConsumableResources that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/batch_consumable_resources#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/batch_consumable_resources#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBatchConsumableResources.DataAwsccBatchConsumableResourcesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchconsumableresources"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchconsumableresources"
 
 &dataawsccbatchconsumableresources.DataAwsccBatchConsumableResourcesConfig {
 	Connection: interface{},

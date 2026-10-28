@@ -4,12 +4,12 @@
 
 ### SesVdmAttributes <a name="SesVdmAttributes" id="@cdktn/provider-awscc.sesVdmAttributes.SesVdmAttributes"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_vdm_attributes awscc_ses_vdm_attributes}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_vdm_attributes awscc_ses_vdm_attributes}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesVdmAttributes.SesVdmAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesvdmattributes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesvdmattributes"
 
 sesvdmattributes.NewSesVdmAttributes(scope Construct, id *string, config SesVdmAttributesConfig) SesVdmAttributes
 ```
@@ -440,7 +440,7 @@ func ResetGuardianAttributes()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.sesVdmAttributes.SesVdmAttributes.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesvdmattributes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesvdmattributes"
 
 sesvdmattributes.SesVdmAttributes_IsConstruct(x interface{}) *bool
 ```
@@ -472,7 +472,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.sesVdmAttributes.SesVdmAttributes.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesvdmattributes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesvdmattributes"
 
 sesvdmattributes.SesVdmAttributes_IsTerraformElement(x interface{}) *bool
 ```
@@ -486,7 +486,7 @@ sesvdmattributes.SesVdmAttributes_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.sesVdmAttributes.SesVdmAttributes.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesvdmattributes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesvdmattributes"
 
 sesvdmattributes.SesVdmAttributes_IsTerraformResource(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ sesvdmattributes.SesVdmAttributes_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.sesVdmAttributes.SesVdmAttributes.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesvdmattributes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesvdmattributes"
 
 sesvdmattributes.SesVdmAttributes_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -529,7 +529,7 @@ The construct id used in the generated config for the SesVdmAttributes to import
 
 The id of the existing SesVdmAttributes that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_vdm_attributes#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_vdm_attributes#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -795,7 +795,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sesVdmAttributes.SesVdmAttributesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesvdmattributes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesvdmattributes"
 
 &sesvdmattributes.SesVdmAttributesConfig {
 	Connection: interface{},
@@ -805,8 +805,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesvdmattributes"
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	DashboardAttributes: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.sesVdmAttributes.SesVdmAttributesDashboardAttributes,
-	GuardianAttributes: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.sesVdmAttributes.SesVdmAttributesGuardianAttributes,
+	DashboardAttributes: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.sesVdmAttributes.SesVdmAttributesDashboardAttributes,
+	GuardianAttributes: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.sesVdmAttributes.SesVdmAttributesGuardianAttributes,
 }
 ```
 
@@ -906,7 +906,7 @@ DashboardAttributes SesVdmAttributesDashboardAttributes
 
 Preferences regarding the Dashboard feature.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_vdm_attributes#dashboard_attributes SesVdmAttributes#dashboard_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_vdm_attributes#dashboard_attributes SesVdmAttributes#dashboard_attributes}
 
 ---
 
@@ -920,7 +920,7 @@ GuardianAttributes SesVdmAttributesGuardianAttributes
 
 Preferences regarding the Guardian feature.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_vdm_attributes#guardian_attributes SesVdmAttributes#guardian_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_vdm_attributes#guardian_attributes SesVdmAttributes#guardian_attributes}
 
 ---
 
@@ -929,7 +929,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sesVdmAttributes.SesVdmAttributesDashboardAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesvdmattributes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesvdmattributes"
 
 &sesvdmattributes.SesVdmAttributesDashboardAttributes {
 	EngagementMetrics: *string,
@@ -954,7 +954,7 @@ EngagementMetrics *string
 
 Whether emails sent from this account have engagement tracking enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_vdm_attributes#engagement_metrics SesVdmAttributes#engagement_metrics}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_vdm_attributes#engagement_metrics SesVdmAttributes#engagement_metrics}
 
 ---
 
@@ -963,7 +963,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sesVdmAttributes.SesVdmAttributesGuardianAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesvdmattributes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesvdmattributes"
 
 &sesvdmattributes.SesVdmAttributesGuardianAttributes {
 	OptimizedSharedDelivery: *string,
@@ -988,7 +988,7 @@ OptimizedSharedDelivery *string
 
 Whether emails sent from this account have optimized delivery algorithm enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_vdm_attributes#optimized_shared_delivery SesVdmAttributes#optimized_shared_delivery}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_vdm_attributes#optimized_shared_delivery SesVdmAttributes#optimized_shared_delivery}
 
 ---
 
@@ -999,7 +999,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesVdmAttributes.SesVdmAttributesDashboardAttributesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesvdmattributes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesvdmattributes"
 
 sesvdmattributes.NewSesVdmAttributesDashboardAttributesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SesVdmAttributesDashboardAttributesOutputReference
 ```
@@ -1277,7 +1277,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesVdmAttributes.SesVdmAttributesGuardianAttributesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesvdmattributes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesvdmattributes"
 
 sesvdmattributes.NewSesVdmAttributesGuardianAttributesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SesVdmAttributesGuardianAttributesOutputReference
 ```

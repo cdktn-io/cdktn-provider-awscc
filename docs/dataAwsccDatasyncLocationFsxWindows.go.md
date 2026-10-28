@@ -4,12 +4,12 @@
 
 ### DataAwsccDatasyncLocationFsxWindows <a name="DataAwsccDatasyncLocationFsxWindows" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxWindows.DataAwsccDatasyncLocationFsxWindows"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datasync_location_fsx_windows awscc_datasync_location_fsx_windows}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datasync_location_fsx_windows awscc_datasync_location_fsx_windows}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxWindows.DataAwsccDatasyncLocationFsxWindows.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationfsxwindows"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationfsxwindows"
 
 dataawsccdatasynclocationfsxwindows.NewDataAwsccDatasyncLocationFsxWindows(scope Construct, id *string, config DataAwsccDatasyncLocationFsxWindowsConfig) DataAwsccDatasyncLocationFsxWindows
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxWindows.DataAwsccDatasyncLocationFsxWindows.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationfsxwindows"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationfsxwindows"
 
 dataawsccdatasynclocationfsxwindows.DataAwsccDatasyncLocationFsxWindows_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxWindows.DataAwsccDatasyncLocationFsxWindows.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationfsxwindows"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationfsxwindows"
 
 dataawsccdatasynclocationfsxwindows.DataAwsccDatasyncLocationFsxWindows_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccdatasynclocationfsxwindows.DataAwsccDatasyncLocationFsxWindows_IsTerraf
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxWindows.DataAwsccDatasyncLocationFsxWindows.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationfsxwindows"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationfsxwindows"
 
 dataawsccdatasynclocationfsxwindows.DataAwsccDatasyncLocationFsxWindows_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccdatasynclocationfsxwindows.DataAwsccDatasyncLocationFsxWindows_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxWindows.DataAwsccDatasyncLocationFsxWindows.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationfsxwindows"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationfsxwindows"
 
 dataawsccdatasynclocationfsxwindows.DataAwsccDatasyncLocationFsxWindows_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDatasyncLocationF
 
 The id of the existing DataAwsccDatasyncLocationFsxWindows that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datasync_location_fsx_windows#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datasync_location_fsx_windows#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -719,7 +719,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxWindows.DataAwsccDatasyncLocationFsxWindowsCmkSecretConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationfsxwindows"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationfsxwindows"
 
 &dataawsccdatasynclocationfsxwindows.DataAwsccDatasyncLocationFsxWindowsCmkSecretConfig {
 
@@ -732,7 +732,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxWindows.DataAwsccDatasyncLocationFsxWindowsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationfsxwindows"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationfsxwindows"
 
 &dataawsccdatasynclocationfsxwindows.DataAwsccDatasyncLocationFsxWindowsConfig {
 	Connection: interface{},
@@ -841,7 +841,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datasync_location_fsx_windows#id DataAwsccDatasyncLocationFsxWindows#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datasync_location_fsx_windows#id DataAwsccDatasyncLocationFsxWindows#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -853,7 +853,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxWindows.DataAwsccDatasyncLocationFsxWindowsCustomSecretConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationfsxwindows"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationfsxwindows"
 
 &dataawsccdatasynclocationfsxwindows.DataAwsccDatasyncLocationFsxWindowsCustomSecretConfig {
 
@@ -866,7 +866,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxWindows.DataAwsccDatasyncLocationFsxWindowsManagedSecretConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationfsxwindows"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationfsxwindows"
 
 &dataawsccdatasynclocationfsxwindows.DataAwsccDatasyncLocationFsxWindowsManagedSecretConfig {
 
@@ -879,7 +879,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxWindows.DataAwsccDatasyncLocationFsxWindowsTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationfsxwindows"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationfsxwindows"
 
 &dataawsccdatasynclocationfsxwindows.DataAwsccDatasyncLocationFsxWindowsTags {
 
@@ -894,7 +894,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxWindows.DataAwsccDatasyncLocationFsxWindowsCmkSecretConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationfsxwindows"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationfsxwindows"
 
 dataawsccdatasynclocationfsxwindows.NewDataAwsccDatasyncLocationFsxWindowsCmkSecretConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatasyncLocationFsxWindowsCmkSecretConfigOutputReference
 ```
@@ -1165,7 +1165,7 @@ func InternalValue() DataAwsccDatasyncLocationFsxWindowsCmkSecretConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxWindows.DataAwsccDatasyncLocationFsxWindowsCustomSecretConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationfsxwindows"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationfsxwindows"
 
 dataawsccdatasynclocationfsxwindows.NewDataAwsccDatasyncLocationFsxWindowsCustomSecretConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatasyncLocationFsxWindowsCustomSecretConfigOutputReference
 ```
@@ -1436,7 +1436,7 @@ func InternalValue() DataAwsccDatasyncLocationFsxWindowsCustomSecretConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxWindows.DataAwsccDatasyncLocationFsxWindowsManagedSecretConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationfsxwindows"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationfsxwindows"
 
 dataawsccdatasynclocationfsxwindows.NewDataAwsccDatasyncLocationFsxWindowsManagedSecretConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatasyncLocationFsxWindowsManagedSecretConfigOutputReference
 ```
@@ -1696,7 +1696,7 @@ func InternalValue() DataAwsccDatasyncLocationFsxWindowsManagedSecretConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxWindows.DataAwsccDatasyncLocationFsxWindowsTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationfsxwindows"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationfsxwindows"
 
 dataawsccdatasynclocationfsxwindows.NewDataAwsccDatasyncLocationFsxWindowsTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDatasyncLocationFsxWindowsTagsList
 ```
@@ -1845,7 +1845,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxWindows.DataAwsccDatasyncLocationFsxWindowsTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationfsxwindows"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationfsxwindows"
 
 dataawsccdatasynclocationfsxwindows.NewDataAwsccDatasyncLocationFsxWindowsTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDatasyncLocationFsxWindowsTagsOutputReference
 ```

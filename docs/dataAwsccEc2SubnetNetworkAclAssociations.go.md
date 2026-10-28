@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2SubnetNetworkAclAssociations <a name="DataAwsccEc2SubnetNetworkAclAssociations" id="@cdktn/provider-awscc.dataAwsccEc2SubnetNetworkAclAssociations.DataAwsccEc2SubnetNetworkAclAssociations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_subnet_network_acl_associations awscc_ec2_subnet_network_acl_associations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_subnet_network_acl_associations awscc_ec2_subnet_network_acl_associations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SubnetNetworkAclAssociations.DataAwsccEc2SubnetNetworkAclAssociations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2subnetnetworkaclassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2subnetnetworkaclassociations"
 
 dataawsccec2subnetnetworkaclassociations.NewDataAwsccEc2SubnetNetworkAclAssociations(scope Construct, id *string, config DataAwsccEc2SubnetNetworkAclAssociationsConfig) DataAwsccEc2SubnetNetworkAclAssociations
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2SubnetNetworkAclAssociations.DataAwsccEc2SubnetNetworkAclAssociations.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2subnetnetworkaclassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2subnetnetworkaclassociations"
 
 dataawsccec2subnetnetworkaclassociations.DataAwsccEc2SubnetNetworkAclAssociations_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2SubnetNetworkAclAssociations.DataAwsccEc2SubnetNetworkAclAssociations.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2subnetnetworkaclassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2subnetnetworkaclassociations"
 
 dataawsccec2subnetnetworkaclassociations.DataAwsccEc2SubnetNetworkAclAssociations_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2subnetnetworkaclassociations.DataAwsccEc2SubnetNetworkAclAssociation
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2SubnetNetworkAclAssociations.DataAwsccEc2SubnetNetworkAclAssociations.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2subnetnetworkaclassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2subnetnetworkaclassociations"
 
 dataawsccec2subnetnetworkaclassociations.DataAwsccEc2SubnetNetworkAclAssociations_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2subnetnetworkaclassociations.DataAwsccEc2SubnetNetworkAclAssociation
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2SubnetNetworkAclAssociations.DataAwsccEc2SubnetNetworkAclAssociations.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2subnetnetworkaclassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2subnetnetworkaclassociations"
 
 dataawsccec2subnetnetworkaclassociations.DataAwsccEc2SubnetNetworkAclAssociations_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2SubnetNetworkA
 
 The id of the existing DataAwsccEc2SubnetNetworkAclAssociations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_subnet_network_acl_associations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_subnet_network_acl_associations#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2SubnetNetworkAclAssociations.DataAwsccEc2SubnetNetworkAclAssociationsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2subnetnetworkaclassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2subnetnetworkaclassociations"
 
 &dataawsccec2subnetnetworkaclassociations.DataAwsccEc2SubnetNetworkAclAssociationsConfig {
 	Connection: interface{},

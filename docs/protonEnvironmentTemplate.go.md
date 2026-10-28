@@ -4,12 +4,12 @@
 
 ### ProtonEnvironmentTemplate <a name="ProtonEnvironmentTemplate" id="@cdktn/provider-awscc.protonEnvironmentTemplate.ProtonEnvironmentTemplate"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/proton_environment_template awscc_proton_environment_template}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/proton_environment_template awscc_proton_environment_template}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.protonEnvironmentTemplate.ProtonEnvironmentTemplate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/protonenvironmenttemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/protonenvironmenttemplate"
 
 protonenvironmenttemplate.NewProtonEnvironmentTemplate(scope Construct, id *string, config ProtonEnvironmentTemplateConfig) ProtonEnvironmentTemplate
 ```
@@ -455,7 +455,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.protonEnvironmentTemplate.ProtonEnvironmentTemplate.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/protonenvironmenttemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/protonenvironmenttemplate"
 
 protonenvironmenttemplate.ProtonEnvironmentTemplate_IsConstruct(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.protonEnvironmentTemplate.ProtonEnvironmentTemplate.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/protonenvironmenttemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/protonenvironmenttemplate"
 
 protonenvironmenttemplate.ProtonEnvironmentTemplate_IsTerraformElement(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ protonenvironmenttemplate.ProtonEnvironmentTemplate_IsTerraformElement(x interfa
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.protonEnvironmentTemplate.ProtonEnvironmentTemplate.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/protonenvironmenttemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/protonenvironmenttemplate"
 
 protonenvironmenttemplate.ProtonEnvironmentTemplate_IsTerraformResource(x interface{}) *bool
 ```
@@ -515,7 +515,7 @@ protonenvironmenttemplate.ProtonEnvironmentTemplate_IsTerraformResource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.protonEnvironmentTemplate.ProtonEnvironmentTemplate.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/protonenvironmenttemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/protonenvironmenttemplate"
 
 protonenvironmenttemplate.ProtonEnvironmentTemplate_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -544,7 +544,7 @@ The construct id used in the generated config for the ProtonEnvironmentTemplate 
 
 The id of the existing ProtonEnvironmentTemplate that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/proton_environment_template#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/proton_environment_template#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -898,7 +898,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.protonEnvironmentTemplate.ProtonEnvironmentTemplateConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/protonenvironmenttemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/protonenvironmenttemplate"
 
 &protonenvironmenttemplate.ProtonEnvironmentTemplateConfig {
 	Connection: interface{},
@@ -931,8 +931,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/protonenvironmenttempl
 | <code><a href="#@cdktn/provider-awscc.protonEnvironmentTemplate.ProtonEnvironmentTemplateConfig.property.description">Description</a></code> | <code>*string</code> | <p>A description of the environment template.</p>. |
 | <code><a href="#@cdktn/provider-awscc.protonEnvironmentTemplate.ProtonEnvironmentTemplateConfig.property.displayName">DisplayName</a></code> | <code>*string</code> | <p>The environment template name as displayed in the developer interface.</p>. |
 | <code><a href="#@cdktn/provider-awscc.protonEnvironmentTemplate.ProtonEnvironmentTemplateConfig.property.encryptionKey">EncryptionKey</a></code> | <code>*string</code> | <p>A customer provided encryption key that Proton uses to encrypt data.</p>. |
-| <code><a href="#@cdktn/provider-awscc.protonEnvironmentTemplate.ProtonEnvironmentTemplateConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/proton_environment_template#name ProtonEnvironmentTemplate#name}. |
-| <code><a href="#@cdktn/provider-awscc.protonEnvironmentTemplate.ProtonEnvironmentTemplateConfig.property.provisioning">Provisioning</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/proton_environment_template#provisioning ProtonEnvironmentTemplate#provisioning}. |
+| <code><a href="#@cdktn/provider-awscc.protonEnvironmentTemplate.ProtonEnvironmentTemplateConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/proton_environment_template#name ProtonEnvironmentTemplate#name}. |
+| <code><a href="#@cdktn/provider-awscc.protonEnvironmentTemplate.ProtonEnvironmentTemplateConfig.property.provisioning">Provisioning</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/proton_environment_template#provisioning ProtonEnvironmentTemplate#provisioning}. |
 | <code><a href="#@cdktn/provider-awscc.protonEnvironmentTemplate.ProtonEnvironmentTemplateConfig.property.tags">Tags</a></code> | <code>interface{}</code> | <p>An optional list of metadata items that you can associate with the Proton environment template. |
 
 ---
@@ -1017,7 +1017,7 @@ Description *string
 
 <p>A description of the environment template.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/proton_environment_template#description ProtonEnvironmentTemplate#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/proton_environment_template#description ProtonEnvironmentTemplate#description}
 
 ---
 
@@ -1031,7 +1031,7 @@ DisplayName *string
 
 <p>The environment template name as displayed in the developer interface.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/proton_environment_template#display_name ProtonEnvironmentTemplate#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/proton_environment_template#display_name ProtonEnvironmentTemplate#display_name}
 
 ---
 
@@ -1045,7 +1045,7 @@ EncryptionKey *string
 
 <p>A customer provided encryption key that Proton uses to encrypt data.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/proton_environment_template#encryption_key ProtonEnvironmentTemplate#encryption_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/proton_environment_template#encryption_key ProtonEnvironmentTemplate#encryption_key}
 
 ---
 
@@ -1057,7 +1057,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/proton_environment_template#name ProtonEnvironmentTemplate#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/proton_environment_template#name ProtonEnvironmentTemplate#name}.
 
 ---
 
@@ -1069,7 +1069,7 @@ Provisioning *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/proton_environment_template#provisioning ProtonEnvironmentTemplate#provisioning}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/proton_environment_template#provisioning ProtonEnvironmentTemplate#provisioning}.
 
 ---
 
@@ -1087,7 +1087,7 @@ A tag is a key-value pair.</p>
 <p>For more information, see <a href="https://docs.aws.amazon.com/proton/latest/userguide/resources.html">Proton resources and tagging</a> in the
 <i>Proton User Guide</i>.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/proton_environment_template#tags ProtonEnvironmentTemplate#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/proton_environment_template#tags ProtonEnvironmentTemplate#tags}
 
 ---
 
@@ -1096,7 +1096,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.protonEnvironmentTemplate.ProtonEnvironmentTemplateTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/protonenvironmenttemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/protonenvironmenttemplate"
 
 &protonenvironmenttemplate.ProtonEnvironmentTemplateTags {
 	Key: *string,
@@ -1123,7 +1123,7 @@ Key *string
 
 <p>The key of the resource tag.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/proton_environment_template#key ProtonEnvironmentTemplate#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/proton_environment_template#key ProtonEnvironmentTemplate#key}
 
 ---
 
@@ -1137,7 +1137,7 @@ Value *string
 
 <p>The value of the resource tag.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/proton_environment_template#value ProtonEnvironmentTemplate#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/proton_environment_template#value ProtonEnvironmentTemplate#value}
 
 ---
 
@@ -1148,7 +1148,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.protonEnvironmentTemplate.ProtonEnvironmentTemplateTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/protonenvironmenttemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/protonenvironmenttemplate"
 
 protonenvironmenttemplate.NewProtonEnvironmentTemplateTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ProtonEnvironmentTemplateTagsList
 ```
@@ -1308,7 +1308,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.protonEnvironmentTemplate.ProtonEnvironmentTemplateTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/protonenvironmenttemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/protonenvironmenttemplate"
 
 protonenvironmenttemplate.NewProtonEnvironmentTemplateTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ProtonEnvironmentTemplateTagsOutputReference
 ```

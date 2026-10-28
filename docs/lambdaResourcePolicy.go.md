@@ -4,12 +4,12 @@
 
 ### LambdaResourcePolicy <a name="LambdaResourcePolicy" id="@cdktn/provider-awscc.lambdaResourcePolicy.LambdaResourcePolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_resource_policy awscc_lambda_resource_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_resource_policy awscc_lambda_resource_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lambdaResourcePolicy.LambdaResourcePolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdaresourcepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdaresourcepolicy"
 
 lambdaresourcepolicy.NewLambdaResourcePolicy(scope Construct, id *string, config LambdaResourcePolicyConfig) LambdaResourcePolicy
 ```
@@ -400,7 +400,7 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.lambdaResourcePolicy.LambdaResourcePolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdaresourcepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdaresourcepolicy"
 
 lambdaresourcepolicy.LambdaResourcePolicy_IsConstruct(x interface{}) *bool
 ```
@@ -432,7 +432,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.lambdaResourcePolicy.LambdaResourcePolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdaresourcepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdaresourcepolicy"
 
 lambdaresourcepolicy.LambdaResourcePolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ lambdaresourcepolicy.LambdaResourcePolicy_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.lambdaResourcePolicy.LambdaResourcePolicy.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdaresourcepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdaresourcepolicy"
 
 lambdaresourcepolicy.LambdaResourcePolicy_IsTerraformResource(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ lambdaresourcepolicy.LambdaResourcePolicy_IsTerraformResource(x interface{}) *bo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.lambdaResourcePolicy.LambdaResourcePolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdaresourcepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdaresourcepolicy"
 
 lambdaresourcepolicy.LambdaResourcePolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -489,7 +489,7 @@ The construct id used in the generated config for the LambdaResourcePolicy to im
 
 The id of the existing LambdaResourcePolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_resource_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_resource_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -744,7 +744,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lambdaResourcePolicy.LambdaResourcePolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdaresourcepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdaresourcepolicy"
 
 &lambdaresourcepolicy.LambdaResourcePolicyConfig {
 	Connection: interface{},
@@ -771,7 +771,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdaresourcepolicy"
 | <code><a href="#@cdktn/provider-awscc.lambdaResourcePolicy.LambdaResourcePolicyConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.lambdaResourcePolicy.LambdaResourcePolicyConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.lambdaResourcePolicy.LambdaResourcePolicyConfig.property.policyDocument">PolicyDocument</a></code> | <code>*string</code> | The policy document you want to add to your LAM resource. |
-| <code><a href="#@cdktn/provider-awscc.lambdaResourcePolicy.LambdaResourcePolicyConfig.property.resourceArn">ResourceArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_resource_policy#resource_arn LambdaResourcePolicy#resource_arn}. |
+| <code><a href="#@cdktn/provider-awscc.lambdaResourcePolicy.LambdaResourcePolicyConfig.property.resourceArn">ResourceArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_resource_policy#resource_arn LambdaResourcePolicy#resource_arn}. |
 
 ---
 
@@ -858,7 +858,7 @@ The policy document you want to add to your LAM resource.
 This is formatted as a JSON string.
 For more information, see [Working with resource-based policies in](https://docs.aws.amazon.com/lambda/latest/dg/access-control-resource-based.html) in the *Developer Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_resource_policy#policy_document LambdaResourcePolicy#policy_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_resource_policy#policy_document LambdaResourcePolicy#policy_document}
 
 ---
 
@@ -870,7 +870,7 @@ ResourceArn *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_resource_policy#resource_arn LambdaResourcePolicy#resource_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_resource_policy#resource_arn LambdaResourcePolicy#resource_arn}.
 
 ---
 

@@ -4,12 +4,12 @@
 
 ### DataAwsccGlueSchema <a name="DataAwsccGlueSchema" id="@cdktn/provider-awscc.dataAwsccGlueSchema.DataAwsccGlueSchema"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/glue_schema awscc_glue_schema}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/glue_schema awscc_glue_schema}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueSchema.DataAwsccGlueSchema.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueschema"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueschema"
 
 dataawsccglueschema.NewDataAwsccGlueSchema(scope Construct, id *string, config DataAwsccGlueSchemaConfig) DataAwsccGlueSchema
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccGlueSchema.DataAwsccGlueSchema.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueschema"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueschema"
 
 dataawsccglueschema.DataAwsccGlueSchema_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccGlueSchema.DataAwsccGlueSchema.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueschema"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueschema"
 
 dataawsccglueschema.DataAwsccGlueSchema_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccglueschema.DataAwsccGlueSchema_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccGlueSchema.DataAwsccGlueSchema.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueschema"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueschema"
 
 dataawsccglueschema.DataAwsccGlueSchema_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccglueschema.DataAwsccGlueSchema_IsTerraformDataSource(x interface{}) *bo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccGlueSchema.DataAwsccGlueSchema.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueschema"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueschema"
 
 dataawsccglueschema.DataAwsccGlueSchema_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccGlueSchema to imp
 
 The id of the existing DataAwsccGlueSchema that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/glue_schema#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/glue_schema#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -697,7 +697,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueSchema.DataAwsccGlueSchemaCheckpointVersion.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueschema"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueschema"
 
 &dataawsccglueschema.DataAwsccGlueSchemaCheckpointVersion {
 
@@ -710,7 +710,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueschema"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueSchema.DataAwsccGlueSchemaConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueschema"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueschema"
 
 &dataawsccglueschema.DataAwsccGlueSchemaConfig {
 	Connection: interface{},
@@ -819,7 +819,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/glue_schema#id DataAwsccGlueSchema#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/glue_schema#id DataAwsccGlueSchema#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -831,7 +831,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueSchema.DataAwsccGlueSchemaRegistry.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueschema"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueschema"
 
 &dataawsccglueschema.DataAwsccGlueSchemaRegistry {
 
@@ -844,7 +844,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueschema"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueSchema.DataAwsccGlueSchemaTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueschema"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueschema"
 
 &dataawsccglueschema.DataAwsccGlueSchemaTags {
 
@@ -859,7 +859,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueschema"
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueSchema.DataAwsccGlueSchemaCheckpointVersionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueschema"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueschema"
 
 dataawsccglueschema.NewDataAwsccGlueSchemaCheckpointVersionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGlueSchemaCheckpointVersionOutputReference
 ```
@@ -1130,7 +1130,7 @@ func InternalValue() DataAwsccGlueSchemaCheckpointVersion
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueSchema.DataAwsccGlueSchemaRegistryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueschema"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueschema"
 
 dataawsccglueschema.NewDataAwsccGlueSchemaRegistryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGlueSchemaRegistryOutputReference
 ```
@@ -1401,7 +1401,7 @@ func InternalValue() DataAwsccGlueSchemaRegistry
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueSchema.DataAwsccGlueSchemaTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueschema"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueschema"
 
 dataawsccglueschema.NewDataAwsccGlueSchemaTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccGlueSchemaTagsList
 ```
@@ -1550,7 +1550,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueSchema.DataAwsccGlueSchemaTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueschema"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueschema"
 
 dataawsccglueschema.NewDataAwsccGlueSchemaTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccGlueSchemaTagsOutputReference
 ```

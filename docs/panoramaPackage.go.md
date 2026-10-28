@@ -4,12 +4,12 @@
 
 ### PanoramaPackage <a name="PanoramaPackage" id="@cdktn/provider-awscc.panoramaPackage.PanoramaPackage"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/panorama_package awscc_panorama_package}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/panorama_package awscc_panorama_package}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.panoramaPackage.PanoramaPackage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/panoramapackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/panoramapackage"
 
 panoramapackage.NewPanoramaPackage(scope Construct, id *string, config PanoramaPackageConfig) PanoramaPackage
 ```
@@ -440,7 +440,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.panoramaPackage.PanoramaPackage.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/panoramapackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/panoramapackage"
 
 panoramapackage.PanoramaPackage_IsConstruct(x interface{}) *bool
 ```
@@ -472,7 +472,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.panoramaPackage.PanoramaPackage.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/panoramapackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/panoramapackage"
 
 panoramapackage.PanoramaPackage_IsTerraformElement(x interface{}) *bool
 ```
@@ -486,7 +486,7 @@ panoramapackage.PanoramaPackage_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.panoramaPackage.PanoramaPackage.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/panoramapackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/panoramapackage"
 
 panoramapackage.PanoramaPackage_IsTerraformResource(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ panoramapackage.PanoramaPackage_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.panoramaPackage.PanoramaPackage.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/panoramapackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/panoramapackage"
 
 panoramapackage.PanoramaPackage_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -529,7 +529,7 @@ The construct id used in the generated config for the PanoramaPackage to import.
 
 The id of the existing PanoramaPackage that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/panorama_package#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/panorama_package#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -839,7 +839,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.panoramaPackage.PanoramaPackageConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/panoramapackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/panoramapackage"
 
 &panoramapackage.PanoramaPackageConfig {
 	Connection: interface{},
@@ -850,7 +850,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/panoramapackage"
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	PackageName: *string,
-	StorageLocation: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.panoramaPackage.PanoramaPackageStorageLocation,
+	StorageLocation: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.panoramaPackage.PanoramaPackageStorageLocation,
 	Tags: interface{},
 }
 ```
@@ -952,7 +952,7 @@ PackageName *string
 
 A name for the package.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/panorama_package#package_name PanoramaPackage#package_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/panorama_package#package_name PanoramaPackage#package_name}
 
 ---
 
@@ -966,7 +966,7 @@ StorageLocation PanoramaPackageStorageLocation
 
 A storage location.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/panorama_package#storage_location PanoramaPackage#storage_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/panorama_package#storage_location PanoramaPackage#storage_location}
 
 ---
 
@@ -980,7 +980,7 @@ Tags interface{}
 
 Tags for the package.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/panorama_package#tags PanoramaPackage#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/panorama_package#tags PanoramaPackage#tags}
 
 ---
 
@@ -989,7 +989,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.panoramaPackage.PanoramaPackageStorageLocation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/panoramapackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/panoramapackage"
 
 &panoramapackage.PanoramaPackageStorageLocation {
 
@@ -1002,7 +1002,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/panoramapackage"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.panoramaPackage.PanoramaPackageTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/panoramapackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/panoramapackage"
 
 &panoramapackage.PanoramaPackageTags {
 	Key: *string,
@@ -1014,8 +1014,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/panoramapackage"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.panoramaPackage.PanoramaPackageTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/panorama_package#key PanoramaPackage#key}. |
-| <code><a href="#@cdktn/provider-awscc.panoramaPackage.PanoramaPackageTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/panorama_package#value PanoramaPackage#value}. |
+| <code><a href="#@cdktn/provider-awscc.panoramaPackage.PanoramaPackageTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/panorama_package#key PanoramaPackage#key}. |
+| <code><a href="#@cdktn/provider-awscc.panoramaPackage.PanoramaPackageTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/panorama_package#value PanoramaPackage#value}. |
 
 ---
 
@@ -1027,7 +1027,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/panorama_package#key PanoramaPackage#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/panorama_package#key PanoramaPackage#key}.
 
 ---
 
@@ -1039,7 +1039,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/panorama_package#value PanoramaPackage#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/panorama_package#value PanoramaPackage#value}.
 
 ---
 
@@ -1050,7 +1050,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.panoramaPackage.PanoramaPackageStorageLocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/panoramapackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/panoramapackage"
 
 panoramapackage.NewPanoramaPackageStorageLocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) PanoramaPackageStorageLocationOutputReference
 ```
@@ -1354,7 +1354,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.panoramaPackage.PanoramaPackageTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/panoramapackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/panoramapackage"
 
 panoramapackage.NewPanoramaPackageTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) PanoramaPackageTagsList
 ```
@@ -1514,7 +1514,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.panoramaPackage.PanoramaPackageTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/panoramapackage"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/panoramapackage"
 
 panoramapackage.NewPanoramaPackageTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) PanoramaPackageTagsOutputReference
 ```

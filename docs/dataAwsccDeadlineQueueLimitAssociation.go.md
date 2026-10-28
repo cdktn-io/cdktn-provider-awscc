@@ -4,12 +4,12 @@
 
 ### DataAwsccDeadlineQueueLimitAssociation <a name="DataAwsccDeadlineQueueLimitAssociation" id="@cdktn/provider-awscc.dataAwsccDeadlineQueueLimitAssociation.DataAwsccDeadlineQueueLimitAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/deadline_queue_limit_association awscc_deadline_queue_limit_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/deadline_queue_limit_association awscc_deadline_queue_limit_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDeadlineQueueLimitAssociation.DataAwsccDeadlineQueueLimitAssociation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinequeuelimitassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinequeuelimitassociation"
 
 dataawsccdeadlinequeuelimitassociation.NewDataAwsccDeadlineQueueLimitAssociation(scope Construct, id *string, config DataAwsccDeadlineQueueLimitAssociationConfig) DataAwsccDeadlineQueueLimitAssociation
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccDeadlineQueueLimitAssociation.DataAwsccDeadlineQueueLimitAssociation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinequeuelimitassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinequeuelimitassociation"
 
 dataawsccdeadlinequeuelimitassociation.DataAwsccDeadlineQueueLimitAssociation_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccDeadlineQueueLimitAssociation.DataAwsccDeadlineQueueLimitAssociation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinequeuelimitassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinequeuelimitassociation"
 
 dataawsccdeadlinequeuelimitassociation.DataAwsccDeadlineQueueLimitAssociation_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccdeadlinequeuelimitassociation.DataAwsccDeadlineQueueLimitAssociation_Is
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccDeadlineQueueLimitAssociation.DataAwsccDeadlineQueueLimitAssociation.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinequeuelimitassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinequeuelimitassociation"
 
 dataawsccdeadlinequeuelimitassociation.DataAwsccDeadlineQueueLimitAssociation_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccdeadlinequeuelimitassociation.DataAwsccDeadlineQueueLimitAssociation_Is
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccDeadlineQueueLimitAssociation.DataAwsccDeadlineQueueLimitAssociation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinequeuelimitassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinequeuelimitassociation"
 
 dataawsccdeadlinequeuelimitassociation.DataAwsccDeadlineQueueLimitAssociation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDeadlineQueueLimi
 
 The id of the existing DataAwsccDeadlineQueueLimitAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/deadline_queue_limit_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/deadline_queue_limit_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -620,7 +620,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDeadlineQueueLimitAssociation.DataAwsccDeadlineQueueLimitAssociationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinequeuelimitassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinequeuelimitassociation"
 
 &dataawsccdeadlinequeuelimitassociation.DataAwsccDeadlineQueueLimitAssociationConfig {
 	Connection: interface{},
@@ -729,7 +729,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/deadline_queue_limit_association#id DataAwsccDeadlineQueueLimitAssociation#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/deadline_queue_limit_association#id DataAwsccDeadlineQueueLimitAssociation#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

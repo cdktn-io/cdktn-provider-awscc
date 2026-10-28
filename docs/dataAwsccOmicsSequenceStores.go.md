@@ -4,12 +4,12 @@
 
 ### DataAwsccOmicsSequenceStores <a name="DataAwsccOmicsSequenceStores" id="@cdktn/provider-awscc.dataAwsccOmicsSequenceStores.DataAwsccOmicsSequenceStores"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/omics_sequence_stores awscc_omics_sequence_stores}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/omics_sequence_stores awscc_omics_sequence_stores}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOmicsSequenceStores.DataAwsccOmicsSequenceStores.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccomicssequencestores"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccomicssequencestores"
 
 dataawsccomicssequencestores.NewDataAwsccOmicsSequenceStores(scope Construct, id *string, config DataAwsccOmicsSequenceStoresConfig) DataAwsccOmicsSequenceStores
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccOmicsSequenceStores.DataAwsccOmicsSequenceStores.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccomicssequencestores"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccomicssequencestores"
 
 dataawsccomicssequencestores.DataAwsccOmicsSequenceStores_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccOmicsSequenceStores.DataAwsccOmicsSequenceStores.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccomicssequencestores"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccomicssequencestores"
 
 dataawsccomicssequencestores.DataAwsccOmicsSequenceStores_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccomicssequencestores.DataAwsccOmicsSequenceStores_IsTerraformElement(x i
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccOmicsSequenceStores.DataAwsccOmicsSequenceStores.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccomicssequencestores"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccomicssequencestores"
 
 dataawsccomicssequencestores.DataAwsccOmicsSequenceStores_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccomicssequencestores.DataAwsccOmicsSequenceStores_IsTerraformDataSource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccOmicsSequenceStores.DataAwsccOmicsSequenceStores.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccomicssequencestores"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccomicssequencestores"
 
 dataawsccomicssequencestores.DataAwsccOmicsSequenceStores_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccOmicsSequenceStor
 
 The id of the existing DataAwsccOmicsSequenceStores that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/omics_sequence_stores#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/omics_sequence_stores#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOmicsSequenceStores.DataAwsccOmicsSequenceStoresConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccomicssequencestores"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccomicssequencestores"
 
 &dataawsccomicssequencestores.DataAwsccOmicsSequenceStoresConfig {
 	Connection: interface{},

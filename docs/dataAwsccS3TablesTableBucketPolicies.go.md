@@ -4,12 +4,12 @@
 
 ### DataAwsccS3TablesTableBucketPolicies <a name="DataAwsccS3TablesTableBucketPolicies" id="@cdktn/provider-awscc.dataAwsccS3TablesTableBucketPolicies.DataAwsccS3TablesTableBucketPolicies"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3tables_table_bucket_policies awscc_s3tables_table_bucket_policies}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3tables_table_bucket_policies awscc_s3tables_table_bucket_policies}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3TablesTableBucketPolicies.DataAwsccS3TablesTableBucketPolicies.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestablebucketpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3tablestablebucketpolicies"
 
 dataawsccs3tablestablebucketpolicies.NewDataAwsccS3TablesTableBucketPolicies(scope Construct, id *string, config DataAwsccS3TablesTableBucketPoliciesConfig) DataAwsccS3TablesTableBucketPolicies
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccS3TablesTableBucketPolicies.DataAwsccS3TablesTableBucketPolicies.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestablebucketpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3tablestablebucketpolicies"
 
 dataawsccs3tablestablebucketpolicies.DataAwsccS3TablesTableBucketPolicies_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccS3TablesTableBucketPolicies.DataAwsccS3TablesTableBucketPolicies.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestablebucketpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3tablestablebucketpolicies"
 
 dataawsccs3tablestablebucketpolicies.DataAwsccS3TablesTableBucketPolicies_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccs3tablestablebucketpolicies.DataAwsccS3TablesTableBucketPolicies_IsTerr
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccS3TablesTableBucketPolicies.DataAwsccS3TablesTableBucketPolicies.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestablebucketpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3tablestablebucketpolicies"
 
 dataawsccs3tablestablebucketpolicies.DataAwsccS3TablesTableBucketPolicies_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccs3tablestablebucketpolicies.DataAwsccS3TablesTableBucketPolicies_IsTerr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccS3TablesTableBucketPolicies.DataAwsccS3TablesTableBucketPolicies.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestablebucketpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3tablestablebucketpolicies"
 
 dataawsccs3tablestablebucketpolicies.DataAwsccS3TablesTableBucketPolicies_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccS3TablesTableBuck
 
 The id of the existing DataAwsccS3TablesTableBucketPolicies that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3tables_table_bucket_policies#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3tables_table_bucket_policies#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3TablesTableBucketPolicies.DataAwsccS3TablesTableBucketPoliciesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestablebucketpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3tablestablebucketpolicies"
 
 &dataawsccs3tablestablebucketpolicies.DataAwsccS3TablesTableBucketPoliciesConfig {
 	Connection: interface{},

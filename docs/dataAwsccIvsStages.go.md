@@ -4,12 +4,12 @@
 
 ### DataAwsccIvsStages <a name="DataAwsccIvsStages" id="@cdktn/provider-awscc.dataAwsccIvsStages.DataAwsccIvsStages"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ivs_stages awscc_ivs_stages}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ivs_stages awscc_ivs_stages}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIvsStages.DataAwsccIvsStages.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsstages"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsstages"
 
 dataawsccivsstages.NewDataAwsccIvsStages(scope Construct, id *string, config DataAwsccIvsStagesConfig) DataAwsccIvsStages
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIvsStages.DataAwsccIvsStages.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsstages"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsstages"
 
 dataawsccivsstages.DataAwsccIvsStages_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIvsStages.DataAwsccIvsStages.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsstages"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsstages"
 
 dataawsccivsstages.DataAwsccIvsStages_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccivsstages.DataAwsccIvsStages_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIvsStages.DataAwsccIvsStages.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsstages"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsstages"
 
 dataawsccivsstages.DataAwsccIvsStages_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccivsstages.DataAwsccIvsStages_IsTerraformDataSource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIvsStages.DataAwsccIvsStages.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsstages"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsstages"
 
 dataawsccivsstages.DataAwsccIvsStages_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIvsStages to impo
 
 The id of the existing DataAwsccIvsStages that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ivs_stages#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ivs_stages#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIvsStages.DataAwsccIvsStagesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsstages"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsstages"
 
 &dataawsccivsstages.DataAwsccIvsStagesConfig {
 	Connection: interface{},

@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2SubnetCidrReservation <a name="DataAwsccEc2SubnetCidrReservation" id="@cdktn/provider-awscc.dataAwsccEc2SubnetCidrReservation.DataAwsccEc2SubnetCidrReservation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_subnet_cidr_reservation awscc_ec2_subnet_cidr_reservation}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_subnet_cidr_reservation awscc_ec2_subnet_cidr_reservation}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SubnetCidrReservation.DataAwsccEc2SubnetCidrReservation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2subnetcidrreservation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2subnetcidrreservation"
 
 dataawsccec2subnetcidrreservation.NewDataAwsccEc2SubnetCidrReservation(scope Construct, id *string, config DataAwsccEc2SubnetCidrReservationConfig) DataAwsccEc2SubnetCidrReservation
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2SubnetCidrReservation.DataAwsccEc2SubnetCidrReservation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2subnetcidrreservation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2subnetcidrreservation"
 
 dataawsccec2subnetcidrreservation.DataAwsccEc2SubnetCidrReservation_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2SubnetCidrReservation.DataAwsccEc2SubnetCidrReservation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2subnetcidrreservation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2subnetcidrreservation"
 
 dataawsccec2subnetcidrreservation.DataAwsccEc2SubnetCidrReservation_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2subnetcidrreservation.DataAwsccEc2SubnetCidrReservation_IsTerraformE
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2SubnetCidrReservation.DataAwsccEc2SubnetCidrReservation.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2subnetcidrreservation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2subnetcidrreservation"
 
 dataawsccec2subnetcidrreservation.DataAwsccEc2SubnetCidrReservation_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2subnetcidrreservation.DataAwsccEc2SubnetCidrReservation_IsTerraformD
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2SubnetCidrReservation.DataAwsccEc2SubnetCidrReservation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2subnetcidrreservation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2subnetcidrreservation"
 
 dataawsccec2subnetcidrreservation.DataAwsccEc2SubnetCidrReservation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2SubnetCidrRese
 
 The id of the existing DataAwsccEc2SubnetCidrReservation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_subnet_cidr_reservation#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_subnet_cidr_reservation#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -675,7 +675,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2SubnetCidrReservation.DataAwsccEc2SubnetCidrReservationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2subnetcidrreservation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2subnetcidrreservation"
 
 &dataawsccec2subnetcidrreservation.DataAwsccEc2SubnetCidrReservationConfig {
 	Connection: interface{},
@@ -784,7 +784,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_subnet_cidr_reservation#id DataAwsccEc2SubnetCidrReservation#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_subnet_cidr_reservation#id DataAwsccEc2SubnetCidrReservation#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -796,7 +796,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2SubnetCidrReservation.DataAwsccEc2SubnetCidrReservationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2subnetcidrreservation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2subnetcidrreservation"
 
 &dataawsccec2subnetcidrreservation.DataAwsccEc2SubnetCidrReservationTags {
 
@@ -811,7 +811,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2subnetcidr
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SubnetCidrReservation.DataAwsccEc2SubnetCidrReservationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2subnetcidrreservation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2subnetcidrreservation"
 
 dataawsccec2subnetcidrreservation.NewDataAwsccEc2SubnetCidrReservationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEc2SubnetCidrReservationTagsList
 ```
@@ -960,7 +960,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SubnetCidrReservation.DataAwsccEc2SubnetCidrReservationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2subnetcidrreservation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2subnetcidrreservation"
 
 dataawsccec2subnetcidrreservation.NewDataAwsccEc2SubnetCidrReservationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEc2SubnetCidrReservationTagsOutputReference
 ```

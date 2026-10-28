@@ -4,12 +4,12 @@
 
 ### GuarddutyCustomDetectionRuleAssociation <a name="GuarddutyCustomDetectionRuleAssociation" id="@cdktn/provider-awscc.guarddutyCustomDetectionRuleAssociation.GuarddutyCustomDetectionRuleAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/guardduty_custom_detection_rule_association awscc_guardduty_custom_detection_rule_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/guardduty_custom_detection_rule_association awscc_guardduty_custom_detection_rule_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.guarddutyCustomDetectionRuleAssociation.GuarddutyCustomDetectionRuleAssociation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/guarddutycustomdetectionruleassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/guarddutycustomdetectionruleassociation"
 
 guarddutycustomdetectionruleassociation.NewGuarddutyCustomDetectionRuleAssociation(scope Construct, id *string, config GuarddutyCustomDetectionRuleAssociationConfig) GuarddutyCustomDetectionRuleAssociation
 ```
@@ -420,7 +420,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.guarddutyCustomDetectionRuleAssociation.GuarddutyCustomDetectionRuleAssociation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/guarddutycustomdetectionruleassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/guarddutycustomdetectionruleassociation"
 
 guarddutycustomdetectionruleassociation.GuarddutyCustomDetectionRuleAssociation_IsConstruct(x interface{}) *bool
 ```
@@ -452,7 +452,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.guarddutyCustomDetectionRuleAssociation.GuarddutyCustomDetectionRuleAssociation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/guarddutycustomdetectionruleassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/guarddutycustomdetectionruleassociation"
 
 guarddutycustomdetectionruleassociation.GuarddutyCustomDetectionRuleAssociation_IsTerraformElement(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ guarddutycustomdetectionruleassociation.GuarddutyCustomDetectionRuleAssociation_
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.guarddutyCustomDetectionRuleAssociation.GuarddutyCustomDetectionRuleAssociation.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/guarddutycustomdetectionruleassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/guarddutycustomdetectionruleassociation"
 
 guarddutycustomdetectionruleassociation.GuarddutyCustomDetectionRuleAssociation_IsTerraformResource(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ guarddutycustomdetectionruleassociation.GuarddutyCustomDetectionRuleAssociation_
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.guarddutyCustomDetectionRuleAssociation.GuarddutyCustomDetectionRuleAssociation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/guarddutycustomdetectionruleassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/guarddutycustomdetectionruleassociation"
 
 guarddutycustomdetectionruleassociation.GuarddutyCustomDetectionRuleAssociation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -509,7 +509,7 @@ The construct id used in the generated config for the GuarddutyCustomDetectionRu
 
 The id of the existing GuarddutyCustomDetectionRuleAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/guardduty_custom_detection_rule_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/guardduty_custom_detection_rule_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -841,7 +841,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.guarddutyCustomDetectionRuleAssociation.GuarddutyCustomDetectionRuleAssociationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/guarddutycustomdetectionruleassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/guarddutycustomdetectionruleassociation"
 
 &guarddutycustomdetectionruleassociation.GuarddutyCustomDetectionRuleAssociationConfig {
 	Connection: interface{},
@@ -954,7 +954,7 @@ Mode *string
 
 Whether the rule runs in LIVE mode (generates findings) or DRY_RUN mode (evaluates without generating findings).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/guardduty_custom_detection_rule_association#mode GuarddutyCustomDetectionRuleAssociation#mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/guardduty_custom_detection_rule_association#mode GuarddutyCustomDetectionRuleAssociation#mode}
 
 ---
 
@@ -968,7 +968,7 @@ RuleId *string
 
 The catalog identifier of the custom detection rule to associate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/guardduty_custom_detection_rule_association#rule_id GuarddutyCustomDetectionRuleAssociation#rule_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/guardduty_custom_detection_rule_association#rule_id GuarddutyCustomDetectionRuleAssociation#rule_id}
 
 ---
 
@@ -982,7 +982,7 @@ Tags interface{}
 
 The tags applied to the association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/guardduty_custom_detection_rule_association#tags GuarddutyCustomDetectionRuleAssociation#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/guardduty_custom_detection_rule_association#tags GuarddutyCustomDetectionRuleAssociation#tags}
 
 ---
 
@@ -991,7 +991,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.guarddutyCustomDetectionRuleAssociation.GuarddutyCustomDetectionRuleAssociationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/guarddutycustomdetectionruleassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/guarddutycustomdetectionruleassociation"
 
 &guarddutycustomdetectionruleassociation.GuarddutyCustomDetectionRuleAssociationTags {
 	Key: *string,
@@ -1003,8 +1003,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/guarddutycustomdetecti
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.guarddutyCustomDetectionRuleAssociation.GuarddutyCustomDetectionRuleAssociationTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/guardduty_custom_detection_rule_association#key GuarddutyCustomDetectionRuleAssociation#key}. |
-| <code><a href="#@cdktn/provider-awscc.guarddutyCustomDetectionRuleAssociation.GuarddutyCustomDetectionRuleAssociationTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/guardduty_custom_detection_rule_association#value GuarddutyCustomDetectionRuleAssociation#value}. |
+| <code><a href="#@cdktn/provider-awscc.guarddutyCustomDetectionRuleAssociation.GuarddutyCustomDetectionRuleAssociationTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/guardduty_custom_detection_rule_association#key GuarddutyCustomDetectionRuleAssociation#key}. |
+| <code><a href="#@cdktn/provider-awscc.guarddutyCustomDetectionRuleAssociation.GuarddutyCustomDetectionRuleAssociationTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/guardduty_custom_detection_rule_association#value GuarddutyCustomDetectionRuleAssociation#value}. |
 
 ---
 
@@ -1016,7 +1016,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/guardduty_custom_detection_rule_association#key GuarddutyCustomDetectionRuleAssociation#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/guardduty_custom_detection_rule_association#key GuarddutyCustomDetectionRuleAssociation#key}.
 
 ---
 
@@ -1028,7 +1028,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/guardduty_custom_detection_rule_association#value GuarddutyCustomDetectionRuleAssociation#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/guardduty_custom_detection_rule_association#value GuarddutyCustomDetectionRuleAssociation#value}.
 
 ---
 
@@ -1039,7 +1039,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.guarddutyCustomDetectionRuleAssociation.GuarddutyCustomDetectionRuleAssociationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/guarddutycustomdetectionruleassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/guarddutycustomdetectionruleassociation"
 
 guarddutycustomdetectionruleassociation.NewGuarddutyCustomDetectionRuleAssociationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GuarddutyCustomDetectionRuleAssociationTagsList
 ```
@@ -1199,7 +1199,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.guarddutyCustomDetectionRuleAssociation.GuarddutyCustomDetectionRuleAssociationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/guarddutycustomdetectionruleassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/guarddutycustomdetectionruleassociation"
 
 guarddutycustomdetectionruleassociation.NewGuarddutyCustomDetectionRuleAssociationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GuarddutyCustomDetectionRuleAssociationTagsOutputReference
 ```

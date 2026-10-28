@@ -4,12 +4,12 @@
 
 ### RedshiftSnapshotSchedule <a name="RedshiftSnapshotSchedule" id="@cdktn/provider-awscc.redshiftSnapshotSchedule.RedshiftSnapshotSchedule"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_snapshot_schedule awscc_redshift_snapshot_schedule}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_snapshot_schedule awscc_redshift_snapshot_schedule}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.redshiftSnapshotSchedule.RedshiftSnapshotSchedule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftsnapshotschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftsnapshotschedule"
 
 redshiftsnapshotschedule.NewRedshiftSnapshotSchedule(scope Construct, id *string, config RedshiftSnapshotScheduleConfig) RedshiftSnapshotSchedule
 ```
@@ -427,7 +427,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.redshiftSnapshotSchedule.RedshiftSnapshotSchedule.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftsnapshotschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftsnapshotschedule"
 
 redshiftsnapshotschedule.RedshiftSnapshotSchedule_IsConstruct(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.redshiftSnapshotSchedule.RedshiftSnapshotSchedule.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftsnapshotschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftsnapshotschedule"
 
 redshiftsnapshotschedule.RedshiftSnapshotSchedule_IsTerraformElement(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ redshiftsnapshotschedule.RedshiftSnapshotSchedule_IsTerraformElement(x interface
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.redshiftSnapshotSchedule.RedshiftSnapshotSchedule.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftsnapshotschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftsnapshotschedule"
 
 redshiftsnapshotschedule.RedshiftSnapshotSchedule_IsTerraformResource(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ redshiftsnapshotschedule.RedshiftSnapshotSchedule_IsTerraformResource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.redshiftSnapshotSchedule.RedshiftSnapshotSchedule.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftsnapshotschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftsnapshotschedule"
 
 redshiftsnapshotschedule.RedshiftSnapshotSchedule_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -516,7 +516,7 @@ The construct id used in the generated config for the RedshiftSnapshotSchedule t
 
 The id of the existing RedshiftSnapshotSchedule that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_snapshot_schedule#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_snapshot_schedule#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -837,7 +837,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.redshiftSnapshotSchedule.RedshiftSnapshotScheduleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftsnapshotschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftsnapshotschedule"
 
 &redshiftsnapshotschedule.RedshiftSnapshotScheduleConfig {
 	Connection: interface{},
@@ -954,7 +954,7 @@ The definition of the snapshot schedule.
 
 The definition is made up of schedule expressions, for example "cron(30 12 *)" or "rate(12 hours)".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_snapshot_schedule#schedule_definitions RedshiftSnapshotSchedule#schedule_definitions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_snapshot_schedule#schedule_definitions RedshiftSnapshotSchedule#schedule_definitions}
 
 ---
 
@@ -968,7 +968,7 @@ ScheduleIdentifier *string
 
 A unique identifier for the snapshot schedule. Only alphanumeric characters are allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_snapshot_schedule#schedule_identifier RedshiftSnapshotSchedule#schedule_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_snapshot_schedule#schedule_identifier RedshiftSnapshotSchedule#schedule_identifier}
 
 ---
 
@@ -982,7 +982,7 @@ ScheduleDescription *string
 
 The description of the snapshot schedule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_snapshot_schedule#schedule_description RedshiftSnapshotSchedule#schedule_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_snapshot_schedule#schedule_description RedshiftSnapshotSchedule#schedule_description}
 
 ---
 
@@ -996,7 +996,7 @@ Tags interface{}
 
 An optional set of tags for the snapshot schedule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_snapshot_schedule#tags RedshiftSnapshotSchedule#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_snapshot_schedule#tags RedshiftSnapshotSchedule#tags}
 
 ---
 
@@ -1005,7 +1005,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.redshiftSnapshotSchedule.RedshiftSnapshotScheduleTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftsnapshotschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftsnapshotschedule"
 
 &redshiftsnapshotschedule.RedshiftSnapshotScheduleTags {
 	Key: *string,
@@ -1032,7 +1032,7 @@ Key *string
 
 The key, or name, for the resource tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_snapshot_schedule#key RedshiftSnapshotSchedule#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_snapshot_schedule#key RedshiftSnapshotSchedule#key}
 
 ---
 
@@ -1046,7 +1046,7 @@ Value *string
 
 The value for the resource tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_snapshot_schedule#value RedshiftSnapshotSchedule#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_snapshot_schedule#value RedshiftSnapshotSchedule#value}
 
 ---
 
@@ -1057,7 +1057,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.redshiftSnapshotSchedule.RedshiftSnapshotScheduleTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftsnapshotschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftsnapshotschedule"
 
 redshiftsnapshotschedule.NewRedshiftSnapshotScheduleTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) RedshiftSnapshotScheduleTagsList
 ```
@@ -1217,7 +1217,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.redshiftSnapshotSchedule.RedshiftSnapshotScheduleTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftsnapshotschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftsnapshotschedule"
 
 redshiftsnapshotschedule.NewRedshiftSnapshotScheduleTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) RedshiftSnapshotScheduleTagsOutputReference
 ```

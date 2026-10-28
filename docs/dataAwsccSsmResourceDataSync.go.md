@@ -4,12 +4,12 @@
 
 ### DataAwsccSsmResourceDataSync <a name="DataAwsccSsmResourceDataSync" id="@cdktn/provider-awscc.dataAwsccSsmResourceDataSync.DataAwsccSsmResourceDataSync"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ssm_resource_data_sync awscc_ssm_resource_data_sync}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ssm_resource_data_sync awscc_ssm_resource_data_sync}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmResourceDataSync.DataAwsccSsmResourceDataSync.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmresourcedatasync"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmresourcedatasync"
 
 dataawsccssmresourcedatasync.NewDataAwsccSsmResourceDataSync(scope Construct, id *string, config DataAwsccSsmResourceDataSyncConfig) DataAwsccSsmResourceDataSync
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSsmResourceDataSync.DataAwsccSsmResourceDataSync.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmresourcedatasync"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmresourcedatasync"
 
 dataawsccssmresourcedatasync.DataAwsccSsmResourceDataSync_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSsmResourceDataSync.DataAwsccSsmResourceDataSync.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmresourcedatasync"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmresourcedatasync"
 
 dataawsccssmresourcedatasync.DataAwsccSsmResourceDataSync_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccssmresourcedatasync.DataAwsccSsmResourceDataSync_IsTerraformElement(x i
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSsmResourceDataSync.DataAwsccSsmResourceDataSync.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmresourcedatasync"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmresourcedatasync"
 
 dataawsccssmresourcedatasync.DataAwsccSsmResourceDataSync_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccssmresourcedatasync.DataAwsccSsmResourceDataSync_IsTerraformDataSource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSsmResourceDataSync.DataAwsccSsmResourceDataSync.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmresourcedatasync"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmresourcedatasync"
 
 dataawsccssmresourcedatasync.DataAwsccSsmResourceDataSync_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSsmResourceDataSy
 
 The id of the existing DataAwsccSsmResourceDataSync that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ssm_resource_data_sync#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ssm_resource_data_sync#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -686,7 +686,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSsmResourceDataSync.DataAwsccSsmResourceDataSyncConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmresourcedatasync"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmresourcedatasync"
 
 &dataawsccssmresourcedatasync.DataAwsccSsmResourceDataSyncConfig {
 	Connection: interface{},
@@ -795,7 +795,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ssm_resource_data_sync#id DataAwsccSsmResourceDataSync#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ssm_resource_data_sync#id DataAwsccSsmResourceDataSync#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -807,7 +807,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSsmResourceDataSync.DataAwsccSsmResourceDataSyncS3Destination.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmresourcedatasync"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmresourcedatasync"
 
 &dataawsccssmresourcedatasync.DataAwsccSsmResourceDataSyncS3Destination {
 
@@ -820,7 +820,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmresourceda
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSsmResourceDataSync.DataAwsccSsmResourceDataSyncSyncSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmresourcedatasync"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmresourcedatasync"
 
 &dataawsccssmresourcedatasync.DataAwsccSsmResourceDataSyncSyncSource {
 
@@ -833,7 +833,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmresourceda
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSsmResourceDataSync.DataAwsccSsmResourceDataSyncSyncSourceAwsOrganizationsSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmresourcedatasync"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmresourcedatasync"
 
 &dataawsccssmresourcedatasync.DataAwsccSsmResourceDataSyncSyncSourceAwsOrganizationsSource {
 
@@ -848,7 +848,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmresourceda
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmResourceDataSync.DataAwsccSsmResourceDataSyncS3DestinationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmresourcedatasync"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmresourcedatasync"
 
 dataawsccssmresourcedatasync.NewDataAwsccSsmResourceDataSyncS3DestinationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSsmResourceDataSyncS3DestinationOutputReference
 ```
@@ -1152,7 +1152,7 @@ func InternalValue() DataAwsccSsmResourceDataSyncS3Destination
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmResourceDataSync.DataAwsccSsmResourceDataSyncSyncSourceAwsOrganizationsSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmresourcedatasync"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmresourcedatasync"
 
 dataawsccssmresourcedatasync.NewDataAwsccSsmResourceDataSyncSyncSourceAwsOrganizationsSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSsmResourceDataSyncSyncSourceAwsOrganizationsSourceOutputReference
 ```
@@ -1423,7 +1423,7 @@ func InternalValue() DataAwsccSsmResourceDataSyncSyncSourceAwsOrganizationsSourc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmResourceDataSync.DataAwsccSsmResourceDataSyncSyncSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmresourcedatasync"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmresourcedatasync"
 
 dataawsccssmresourcedatasync.NewDataAwsccSsmResourceDataSyncSyncSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSsmResourceDataSyncSyncSourceOutputReference
 ```

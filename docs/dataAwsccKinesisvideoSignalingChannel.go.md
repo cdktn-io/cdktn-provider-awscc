@@ -4,12 +4,12 @@
 
 ### DataAwsccKinesisvideoSignalingChannel <a name="DataAwsccKinesisvideoSignalingChannel" id="@cdktn/provider-awscc.dataAwsccKinesisvideoSignalingChannel.DataAwsccKinesisvideoSignalingChannel"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/kinesisvideo_signaling_channel awscc_kinesisvideo_signaling_channel}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/kinesisvideo_signaling_channel awscc_kinesisvideo_signaling_channel}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisvideoSignalingChannel.DataAwsccKinesisvideoSignalingChannel.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisvideosignalingchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisvideosignalingchannel"
 
 dataawscckinesisvideosignalingchannel.NewDataAwsccKinesisvideoSignalingChannel(scope Construct, id *string, config DataAwsccKinesisvideoSignalingChannelConfig) DataAwsccKinesisvideoSignalingChannel
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccKinesisvideoSignalingChannel.DataAwsccKinesisvideoSignalingChannel.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisvideosignalingchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisvideosignalingchannel"
 
 dataawscckinesisvideosignalingchannel.DataAwsccKinesisvideoSignalingChannel_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccKinesisvideoSignalingChannel.DataAwsccKinesisvideoSignalingChannel.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisvideosignalingchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisvideosignalingchannel"
 
 dataawscckinesisvideosignalingchannel.DataAwsccKinesisvideoSignalingChannel_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscckinesisvideosignalingchannel.DataAwsccKinesisvideoSignalingChannel_IsTe
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccKinesisvideoSignalingChannel.DataAwsccKinesisvideoSignalingChannel.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisvideosignalingchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisvideosignalingchannel"
 
 dataawscckinesisvideosignalingchannel.DataAwsccKinesisvideoSignalingChannel_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscckinesisvideosignalingchannel.DataAwsccKinesisvideoSignalingChannel_IsTe
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccKinesisvideoSignalingChannel.DataAwsccKinesisvideoSignalingChannel.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisvideosignalingchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisvideosignalingchannel"
 
 dataawscckinesisvideosignalingchannel.DataAwsccKinesisvideoSignalingChannel_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccKinesisvideoSigna
 
 The id of the existing DataAwsccKinesisvideoSignalingChannel that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/kinesisvideo_signaling_channel#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/kinesisvideo_signaling_channel#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -642,7 +642,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisvideoSignalingChannel.DataAwsccKinesisvideoSignalingChannelConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisvideosignalingchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisvideosignalingchannel"
 
 &dataawscckinesisvideosignalingchannel.DataAwsccKinesisvideoSignalingChannelConfig {
 	Connection: interface{},
@@ -751,7 +751,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/kinesisvideo_signaling_channel#id DataAwsccKinesisvideoSignalingChannel#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/kinesisvideo_signaling_channel#id DataAwsccKinesisvideoSignalingChannel#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -763,7 +763,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisvideoSignalingChannel.DataAwsccKinesisvideoSignalingChannelTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisvideosignalingchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisvideosignalingchannel"
 
 &dataawscckinesisvideosignalingchannel.DataAwsccKinesisvideoSignalingChannelTags {
 
@@ -778,7 +778,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisvideos
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisvideoSignalingChannel.DataAwsccKinesisvideoSignalingChannelTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisvideosignalingchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisvideosignalingchannel"
 
 dataawscckinesisvideosignalingchannel.NewDataAwsccKinesisvideoSignalingChannelTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccKinesisvideoSignalingChannelTagsList
 ```
@@ -927,7 +927,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisvideoSignalingChannel.DataAwsccKinesisvideoSignalingChannelTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisvideosignalingchannel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisvideosignalingchannel"
 
 dataawscckinesisvideosignalingchannel.NewDataAwsccKinesisvideoSignalingChannelTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccKinesisvideoSignalingChannelTagsOutputReference
 ```

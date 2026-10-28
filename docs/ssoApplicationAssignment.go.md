@@ -4,12 +4,12 @@
 
 ### SsoApplicationAssignment <a name="SsoApplicationAssignment" id="@cdktn/provider-awscc.ssoApplicationAssignment.SsoApplicationAssignment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_application_assignment awscc_sso_application_assignment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_application_assignment awscc_sso_application_assignment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssoApplicationAssignment.SsoApplicationAssignment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssoapplicationassignment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssoapplicationassignment"
 
 ssoapplicationassignment.NewSsoApplicationAssignment(scope Construct, id *string, config SsoApplicationAssignmentConfig) SsoApplicationAssignment
 ```
@@ -400,7 +400,7 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.ssoApplicationAssignment.SsoApplicationAssignment.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssoapplicationassignment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssoapplicationassignment"
 
 ssoapplicationassignment.SsoApplicationAssignment_IsConstruct(x interface{}) *bool
 ```
@@ -432,7 +432,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.ssoApplicationAssignment.SsoApplicationAssignment.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssoapplicationassignment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssoapplicationassignment"
 
 ssoapplicationassignment.SsoApplicationAssignment_IsTerraformElement(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ ssoapplicationassignment.SsoApplicationAssignment_IsTerraformElement(x interface
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.ssoApplicationAssignment.SsoApplicationAssignment.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssoapplicationassignment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssoapplicationassignment"
 
 ssoapplicationassignment.SsoApplicationAssignment_IsTerraformResource(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ ssoapplicationassignment.SsoApplicationAssignment_IsTerraformResource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.ssoApplicationAssignment.SsoApplicationAssignment.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssoapplicationassignment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssoapplicationassignment"
 
 ssoapplicationassignment.SsoApplicationAssignment_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -489,7 +489,7 @@ The construct id used in the generated config for the SsoApplicationAssignment t
 
 The id of the existing SsoApplicationAssignment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_application_assignment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_application_assignment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -766,7 +766,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ssoApplicationAssignment.SsoApplicationAssignmentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssoapplicationassignment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssoapplicationassignment"
 
 &ssoapplicationassignment.SsoApplicationAssignmentConfig {
 	Connection: interface{},
@@ -879,7 +879,7 @@ ApplicationArn *string
 
 The ARN of the application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_application_assignment#application_arn SsoApplicationAssignment#application_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_application_assignment#application_arn SsoApplicationAssignment#application_arn}
 
 ---
 
@@ -893,7 +893,7 @@ PrincipalId *string
 
 An identifier for an object in IAM Identity Center, such as a user or group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_application_assignment#principal_id SsoApplicationAssignment#principal_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_application_assignment#principal_id SsoApplicationAssignment#principal_id}
 
 ---
 
@@ -907,7 +907,7 @@ PrincipalType *string
 
 The entity type for which the assignment will be created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_application_assignment#principal_type SsoApplicationAssignment#principal_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_application_assignment#principal_type SsoApplicationAssignment#principal_type}
 
 ---
 

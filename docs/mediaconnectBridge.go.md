@@ -4,12 +4,12 @@
 
 ### MediaconnectBridge <a name="MediaconnectBridge" id="@cdktn/provider-awscc.mediaconnectBridge.MediaconnectBridge"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_bridge awscc_mediaconnect_bridge}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_bridge awscc_mediaconnect_bridge}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediaconnectBridge.MediaconnectBridge.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectbridge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconnectbridge"
 
 mediaconnectbridge.NewMediaconnectBridge(scope Construct, id *string, config MediaconnectBridgeConfig) MediaconnectBridge
 ```
@@ -493,7 +493,7 @@ func ResetSourceFailoverConfig()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.mediaconnectBridge.MediaconnectBridge.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectbridge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconnectbridge"
 
 mediaconnectbridge.MediaconnectBridge_IsConstruct(x interface{}) *bool
 ```
@@ -525,7 +525,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.mediaconnectBridge.MediaconnectBridge.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectbridge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconnectbridge"
 
 mediaconnectbridge.MediaconnectBridge_IsTerraformElement(x interface{}) *bool
 ```
@@ -539,7 +539,7 @@ mediaconnectbridge.MediaconnectBridge_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.mediaconnectBridge.MediaconnectBridge.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectbridge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconnectbridge"
 
 mediaconnectbridge.MediaconnectBridge_IsTerraformResource(x interface{}) *bool
 ```
@@ -553,7 +553,7 @@ mediaconnectbridge.MediaconnectBridge_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.mediaconnectBridge.MediaconnectBridge.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectbridge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconnectbridge"
 
 mediaconnectbridge.MediaconnectBridge_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -582,7 +582,7 @@ The construct id used in the generated config for the MediaconnectBridge to impo
 
 The id of the existing MediaconnectBridge that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_bridge#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_bridge#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -969,7 +969,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediaconnectBridge.MediaconnectBridgeConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectbridge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconnectbridge"
 
 &mediaconnectbridge.MediaconnectBridgeConfig {
 	Connection: interface{},
@@ -982,10 +982,10 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectbridge"
 	Name: *string,
 	PlacementArn: *string,
 	Sources: interface{},
-	EgressGatewayBridge: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.mediaconnectBridge.MediaconnectBridgeEgressGatewayBridge,
-	IngressGatewayBridge: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.mediaconnectBridge.MediaconnectBridgeIngressGatewayBridge,
+	EgressGatewayBridge: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.mediaconnectBridge.MediaconnectBridgeEgressGatewayBridge,
+	IngressGatewayBridge: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.mediaconnectBridge.MediaconnectBridgeIngressGatewayBridge,
 	Outputs: interface{},
-	SourceFailoverConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.mediaconnectBridge.MediaconnectBridgeSourceFailoverConfig,
+	SourceFailoverConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.mediaconnectBridge.MediaconnectBridgeSourceFailoverConfig,
 }
 ```
 
@@ -1003,8 +1003,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectbridge"
 | <code><a href="#@cdktn/provider-awscc.mediaconnectBridge.MediaconnectBridgeConfig.property.name">Name</a></code> | <code>*string</code> | The name of the bridge. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectBridge.MediaconnectBridgeConfig.property.placementArn">PlacementArn</a></code> | <code>*string</code> | The placement Amazon Resource Number (ARN) of the bridge. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectBridge.MediaconnectBridgeConfig.property.sources">Sources</a></code> | <code>interface{}</code> | The sources on this bridge. |
-| <code><a href="#@cdktn/provider-awscc.mediaconnectBridge.MediaconnectBridgeConfig.property.egressGatewayBridge">EgressGatewayBridge</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectBridge.MediaconnectBridgeEgressGatewayBridge">MediaconnectBridgeEgressGatewayBridge</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_bridge#egress_gateway_bridge MediaconnectBridge#egress_gateway_bridge}. |
-| <code><a href="#@cdktn/provider-awscc.mediaconnectBridge.MediaconnectBridgeConfig.property.ingressGatewayBridge">IngressGatewayBridge</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectBridge.MediaconnectBridgeIngressGatewayBridge">MediaconnectBridgeIngressGatewayBridge</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_bridge#ingress_gateway_bridge MediaconnectBridge#ingress_gateway_bridge}. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectBridge.MediaconnectBridgeConfig.property.egressGatewayBridge">EgressGatewayBridge</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectBridge.MediaconnectBridgeEgressGatewayBridge">MediaconnectBridgeEgressGatewayBridge</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_bridge#egress_gateway_bridge MediaconnectBridge#egress_gateway_bridge}. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectBridge.MediaconnectBridgeConfig.property.ingressGatewayBridge">IngressGatewayBridge</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectBridge.MediaconnectBridgeIngressGatewayBridge">MediaconnectBridgeIngressGatewayBridge</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_bridge#ingress_gateway_bridge MediaconnectBridge#ingress_gateway_bridge}. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectBridge.MediaconnectBridgeConfig.property.outputs">Outputs</a></code> | <code>interface{}</code> | The outputs on this bridge. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectBridge.MediaconnectBridgeConfig.property.sourceFailoverConfig">SourceFailoverConfig</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectBridge.MediaconnectBridgeSourceFailoverConfig">MediaconnectBridgeSourceFailoverConfig</a></code> | The settings for source failover. |
 
@@ -1090,7 +1090,7 @@ Name *string
 
 The name of the bridge.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_bridge#name MediaconnectBridge#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_bridge#name MediaconnectBridge#name}
 
 ---
 
@@ -1104,7 +1104,7 @@ PlacementArn *string
 
 The placement Amazon Resource Number (ARN) of the bridge.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_bridge#placement_arn MediaconnectBridge#placement_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_bridge#placement_arn MediaconnectBridge#placement_arn}
 
 ---
 
@@ -1118,7 +1118,7 @@ Sources interface{}
 
 The sources on this bridge.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_bridge#sources MediaconnectBridge#sources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_bridge#sources MediaconnectBridge#sources}
 
 ---
 
@@ -1130,7 +1130,7 @@ EgressGatewayBridge MediaconnectBridgeEgressGatewayBridge
 
 - *Type:* <a href="#@cdktn/provider-awscc.mediaconnectBridge.MediaconnectBridgeEgressGatewayBridge">MediaconnectBridgeEgressGatewayBridge</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_bridge#egress_gateway_bridge MediaconnectBridge#egress_gateway_bridge}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_bridge#egress_gateway_bridge MediaconnectBridge#egress_gateway_bridge}.
 
 ---
 
@@ -1142,7 +1142,7 @@ IngressGatewayBridge MediaconnectBridgeIngressGatewayBridge
 
 - *Type:* <a href="#@cdktn/provider-awscc.mediaconnectBridge.MediaconnectBridgeIngressGatewayBridge">MediaconnectBridgeIngressGatewayBridge</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_bridge#ingress_gateway_bridge MediaconnectBridge#ingress_gateway_bridge}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_bridge#ingress_gateway_bridge MediaconnectBridge#ingress_gateway_bridge}.
 
 ---
 
@@ -1156,7 +1156,7 @@ Outputs interface{}
 
 The outputs on this bridge.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_bridge#outputs MediaconnectBridge#outputs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_bridge#outputs MediaconnectBridge#outputs}
 
 ---
 
@@ -1170,7 +1170,7 @@ SourceFailoverConfig MediaconnectBridgeSourceFailoverConfig
 
 The settings for source failover.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_bridge#source_failover_config MediaconnectBridge#source_failover_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_bridge#source_failover_config MediaconnectBridge#source_failover_config}
 
 ---
 
@@ -1179,7 +1179,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediaconnectBridge.MediaconnectBridgeEgressGatewayBridge.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectbridge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconnectbridge"
 
 &mediaconnectbridge.MediaconnectBridgeEgressGatewayBridge {
 	MaxBitrate: *f64,
@@ -1204,7 +1204,7 @@ MaxBitrate *f64
 
 The maximum expected bitrate of the egress bridge.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_bridge#max_bitrate MediaconnectBridge#max_bitrate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_bridge#max_bitrate MediaconnectBridge#max_bitrate}
 
 ---
 
@@ -1213,7 +1213,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediaconnectBridge.MediaconnectBridgeIngressGatewayBridge.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectbridge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconnectbridge"
 
 &mediaconnectbridge.MediaconnectBridgeIngressGatewayBridge {
 	MaxBitrate: *f64,
@@ -1240,7 +1240,7 @@ MaxBitrate *f64
 
 The maximum expected bitrate of the ingress bridge.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_bridge#max_bitrate MediaconnectBridge#max_bitrate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_bridge#max_bitrate MediaconnectBridge#max_bitrate}
 
 ---
 
@@ -1254,7 +1254,7 @@ MaxOutputs *f64
 
 The maximum number of outputs on the ingress bridge.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_bridge#max_outputs MediaconnectBridge#max_outputs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_bridge#max_outputs MediaconnectBridge#max_outputs}
 
 ---
 
@@ -1263,10 +1263,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediaconnectBridge.MediaconnectBridgeOutputs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectbridge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconnectbridge"
 
 &mediaconnectbridge.MediaconnectBridgeOutputs {
-	NetworkOutput: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.mediaconnectBridge.MediaconnectBridgeOutputsNetworkOutput,
+	NetworkOutput: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.mediaconnectBridge.MediaconnectBridgeOutputsNetworkOutput,
 }
 ```
 
@@ -1288,7 +1288,7 @@ NetworkOutput MediaconnectBridgeOutputsNetworkOutput
 
 The output of the bridge. A network output is delivered to your premises.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_bridge#network_output MediaconnectBridge#network_output}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_bridge#network_output MediaconnectBridge#network_output}
 
 ---
 
@@ -1297,7 +1297,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediaconnectBridge.MediaconnectBridgeOutputsNetworkOutput.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectbridge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconnectbridge"
 
 &mediaconnectbridge.MediaconnectBridgeOutputsNetworkOutput {
 	IpAddress: *string,
@@ -1332,7 +1332,7 @@ IpAddress *string
 
 The network output IP Address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_bridge#ip_address MediaconnectBridge#ip_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_bridge#ip_address MediaconnectBridge#ip_address}
 
 ---
 
@@ -1346,7 +1346,7 @@ Name *string
 
 The network output name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_bridge#name MediaconnectBridge#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_bridge#name MediaconnectBridge#name}
 
 ---
 
@@ -1360,7 +1360,7 @@ NetworkName *string
 
 The network output's gateway network name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_bridge#network_name MediaconnectBridge#network_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_bridge#network_name MediaconnectBridge#network_name}
 
 ---
 
@@ -1374,7 +1374,7 @@ Port *f64
 
 The network output port.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_bridge#port MediaconnectBridge#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_bridge#port MediaconnectBridge#port}
 
 ---
 
@@ -1388,7 +1388,7 @@ Protocol *string
 
 The network output protocol.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_bridge#protocol MediaconnectBridge#protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_bridge#protocol MediaconnectBridge#protocol}
 
 ---
 
@@ -1402,7 +1402,7 @@ Ttl *f64
 
 The network output TTL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_bridge#ttl MediaconnectBridge#ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_bridge#ttl MediaconnectBridge#ttl}
 
 ---
 
@@ -1411,11 +1411,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediaconnectBridge.MediaconnectBridgeSourceFailoverConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectbridge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconnectbridge"
 
 &mediaconnectbridge.MediaconnectBridgeSourceFailoverConfig {
 	FailoverMode: *string,
-	SourcePriority: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.mediaconnectBridge.MediaconnectBridgeSourceFailoverConfigSourcePriority,
+	SourcePriority: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.mediaconnectBridge.MediaconnectBridgeSourceFailoverConfigSourcePriority,
 	State: *string,
 }
 ```
@@ -1426,7 +1426,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectbridge"
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectBridge.MediaconnectBridgeSourceFailoverConfig.property.failoverMode">FailoverMode</a></code> | <code>*string</code> | The type of failover you choose for this flow. FAILOVER allows switching between different streams. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectBridge.MediaconnectBridgeSourceFailoverConfig.property.sourcePriority">SourcePriority</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectBridge.MediaconnectBridgeSourceFailoverConfigSourcePriority">MediaconnectBridgeSourceFailoverConfigSourcePriority</a></code> | The priority you want to assign to a source. |
-| <code><a href="#@cdktn/provider-awscc.mediaconnectBridge.MediaconnectBridgeSourceFailoverConfig.property.state">State</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_bridge#state MediaconnectBridge#state}. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectBridge.MediaconnectBridgeSourceFailoverConfig.property.state">State</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_bridge#state MediaconnectBridge#state}. |
 
 ---
 
@@ -1440,7 +1440,7 @@ FailoverMode *string
 
 The type of failover you choose for this flow. FAILOVER allows switching between different streams.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_bridge#failover_mode MediaconnectBridge#failover_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_bridge#failover_mode MediaconnectBridge#failover_mode}
 
 ---
 
@@ -1456,7 +1456,7 @@ The priority you want to assign to a source.
 
 You can have a primary stream and a backup stream or two equally prioritized streams.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_bridge#source_priority MediaconnectBridge#source_priority}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_bridge#source_priority MediaconnectBridge#source_priority}
 
 ---
 
@@ -1468,7 +1468,7 @@ State *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_bridge#state MediaconnectBridge#state}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_bridge#state MediaconnectBridge#state}.
 
 ---
 
@@ -1477,7 +1477,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediaconnectBridge.MediaconnectBridgeSourceFailoverConfigSourcePriority.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectbridge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconnectbridge"
 
 &mediaconnectbridge.MediaconnectBridgeSourceFailoverConfigSourcePriority {
 	PrimarySource: *string,
@@ -1502,7 +1502,7 @@ PrimarySource *string
 
 The name of the source you choose as the primary source for this flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_bridge#primary_source MediaconnectBridge#primary_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_bridge#primary_source MediaconnectBridge#primary_source}
 
 ---
 
@@ -1511,11 +1511,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediaconnectBridge.MediaconnectBridgeSources.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectbridge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconnectbridge"
 
 &mediaconnectbridge.MediaconnectBridgeSources {
-	FlowSource: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.mediaconnectBridge.MediaconnectBridgeSourcesFlowSource,
-	NetworkSource: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.mediaconnectBridge.MediaconnectBridgeSourcesNetworkSource,
+	FlowSource: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.mediaconnectBridge.MediaconnectBridgeSourcesFlowSource,
+	NetworkSource: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.mediaconnectBridge.MediaconnectBridgeSourcesNetworkSource,
 }
 ```
 
@@ -1538,7 +1538,7 @@ FlowSource MediaconnectBridgeSourcesFlowSource
 
 The source of the bridge. A flow source originates in MediaConnect as an existing cloud flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_bridge#flow_source MediaconnectBridge#flow_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_bridge#flow_source MediaconnectBridge#flow_source}
 
 ---
 
@@ -1552,7 +1552,7 @@ NetworkSource MediaconnectBridgeSourcesNetworkSource
 
 The source of the bridge. A network source originates at your premises.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_bridge#network_source MediaconnectBridge#network_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_bridge#network_source MediaconnectBridge#network_source}
 
 ---
 
@@ -1561,11 +1561,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediaconnectBridge.MediaconnectBridgeSourcesFlowSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectbridge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconnectbridge"
 
 &mediaconnectbridge.MediaconnectBridgeSourcesFlowSource {
 	FlowArn: *string,
-	FlowVpcInterfaceAttachment: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.mediaconnectBridge.MediaconnectBridgeSourcesFlowSourceFlowVpcInterfaceAttachment,
+	FlowVpcInterfaceAttachment: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.mediaconnectBridge.MediaconnectBridgeSourcesFlowSourceFlowVpcInterfaceAttachment,
 	Name: *string,
 }
 ```
@@ -1590,7 +1590,7 @@ FlowArn *string
 
 The ARN of the cloud flow used as a source of this bridge.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_bridge#flow_arn MediaconnectBridge#flow_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_bridge#flow_arn MediaconnectBridge#flow_arn}
 
 ---
 
@@ -1604,7 +1604,7 @@ FlowVpcInterfaceAttachment MediaconnectBridgeSourcesFlowSourceFlowVpcInterfaceAt
 
 The name of the VPC interface attachment to use for this source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_bridge#flow_vpc_interface_attachment MediaconnectBridge#flow_vpc_interface_attachment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_bridge#flow_vpc_interface_attachment MediaconnectBridge#flow_vpc_interface_attachment}
 
 ---
 
@@ -1618,7 +1618,7 @@ Name *string
 
 The name of the flow source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_bridge#name MediaconnectBridge#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_bridge#name MediaconnectBridge#name}
 
 ---
 
@@ -1627,7 +1627,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediaconnectBridge.MediaconnectBridgeSourcesFlowSourceFlowVpcInterfaceAttachment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectbridge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconnectbridge"
 
 &mediaconnectbridge.MediaconnectBridgeSourcesFlowSourceFlowVpcInterfaceAttachment {
 	VpcInterfaceName: *string,
@@ -1652,7 +1652,7 @@ VpcInterfaceName *string
 
 The name of the VPC interface to use for this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_bridge#vpc_interface_name MediaconnectBridge#vpc_interface_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_bridge#vpc_interface_name MediaconnectBridge#vpc_interface_name}
 
 ---
 
@@ -1661,11 +1661,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediaconnectBridge.MediaconnectBridgeSourcesNetworkSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectbridge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconnectbridge"
 
 &mediaconnectbridge.MediaconnectBridgeSourcesNetworkSource {
 	MulticastIp: *string,
-	MulticastSourceSettings: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.mediaconnectBridge.MediaconnectBridgeSourcesNetworkSourceMulticastSourceSettings,
+	MulticastSourceSettings: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.mediaconnectBridge.MediaconnectBridgeSourcesNetworkSourceMulticastSourceSettings,
 	Name: *string,
 	NetworkName: *string,
 	Port: *f64,
@@ -1696,7 +1696,7 @@ MulticastIp *string
 
 The network source multicast IP.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_bridge#multicast_ip MediaconnectBridge#multicast_ip}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_bridge#multicast_ip MediaconnectBridge#multicast_ip}
 
 ---
 
@@ -1710,7 +1710,7 @@ MulticastSourceSettings MediaconnectBridgeSourcesNetworkSourceMulticastSourceSet
 
 The settings related to the multicast source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_bridge#multicast_source_settings MediaconnectBridge#multicast_source_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_bridge#multicast_source_settings MediaconnectBridge#multicast_source_settings}
 
 ---
 
@@ -1724,7 +1724,7 @@ Name *string
 
 The name of the network source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_bridge#name MediaconnectBridge#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_bridge#name MediaconnectBridge#name}
 
 ---
 
@@ -1738,7 +1738,7 @@ NetworkName *string
 
 The network source's gateway network name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_bridge#network_name MediaconnectBridge#network_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_bridge#network_name MediaconnectBridge#network_name}
 
 ---
 
@@ -1752,7 +1752,7 @@ Port *f64
 
 The network source port.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_bridge#port MediaconnectBridge#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_bridge#port MediaconnectBridge#port}
 
 ---
 
@@ -1766,7 +1766,7 @@ Protocol *string
 
 The network source protocol.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_bridge#protocol MediaconnectBridge#protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_bridge#protocol MediaconnectBridge#protocol}
 
 ---
 
@@ -1775,7 +1775,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediaconnectBridge.MediaconnectBridgeSourcesNetworkSourceMulticastSourceSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectbridge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconnectbridge"
 
 &mediaconnectbridge.MediaconnectBridgeSourcesNetworkSourceMulticastSourceSettings {
 	MulticastSourceIp: *string,
@@ -1800,7 +1800,7 @@ MulticastSourceIp *string
 
 The IP address of the source for source-specific multicast (SSM).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_bridge#multicast_source_ip MediaconnectBridge#multicast_source_ip}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_bridge#multicast_source_ip MediaconnectBridge#multicast_source_ip}
 
 ---
 
@@ -1811,7 +1811,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediaconnectBridge.MediaconnectBridgeEgressGatewayBridgeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectbridge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconnectbridge"
 
 mediaconnectbridge.NewMediaconnectBridgeEgressGatewayBridgeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) MediaconnectBridgeEgressGatewayBridgeOutputReference
 ```
@@ -2089,7 +2089,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediaconnectBridge.MediaconnectBridgeIngressGatewayBridgeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectbridge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconnectbridge"
 
 mediaconnectbridge.NewMediaconnectBridgeIngressGatewayBridgeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) MediaconnectBridgeIngressGatewayBridgeOutputReference
 ```
@@ -2396,7 +2396,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediaconnectBridge.MediaconnectBridgeOutputsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectbridge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconnectbridge"
 
 mediaconnectbridge.NewMediaconnectBridgeOutputsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MediaconnectBridgeOutputsList
 ```
@@ -2556,7 +2556,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediaconnectBridge.MediaconnectBridgeOutputsNetworkOutputOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectbridge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconnectbridge"
 
 mediaconnectbridge.NewMediaconnectBridgeOutputsNetworkOutputOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) MediaconnectBridgeOutputsNetworkOutputOutputReference
 ```
@@ -2979,7 +2979,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediaconnectBridge.MediaconnectBridgeOutputsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectbridge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconnectbridge"
 
 mediaconnectbridge.NewMediaconnectBridgeOutputsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) MediaconnectBridgeOutputsOutputReference
 ```
@@ -3288,7 +3288,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediaconnectBridge.MediaconnectBridgeSourceFailoverConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectbridge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconnectbridge"
 
 mediaconnectbridge.NewMediaconnectBridgeSourceFailoverConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) MediaconnectBridgeSourceFailoverConfigOutputReference
 ```
@@ -3637,7 +3637,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediaconnectBridge.MediaconnectBridgeSourceFailoverConfigSourcePriorityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectbridge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconnectbridge"
 
 mediaconnectbridge.NewMediaconnectBridgeSourceFailoverConfigSourcePriorityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) MediaconnectBridgeSourceFailoverConfigSourcePriorityOutputReference
 ```
@@ -3915,7 +3915,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediaconnectBridge.MediaconnectBridgeSourcesFlowSourceFlowVpcInterfaceAttachmentOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectbridge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconnectbridge"
 
 mediaconnectbridge.NewMediaconnectBridgeSourcesFlowSourceFlowVpcInterfaceAttachmentOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) MediaconnectBridgeSourcesFlowSourceFlowVpcInterfaceAttachmentOutputReference
 ```
@@ -4193,7 +4193,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediaconnectBridge.MediaconnectBridgeSourcesFlowSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectbridge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconnectbridge"
 
 mediaconnectbridge.NewMediaconnectBridgeSourcesFlowSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) MediaconnectBridgeSourcesFlowSourceOutputReference
 ```
@@ -4542,7 +4542,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediaconnectBridge.MediaconnectBridgeSourcesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectbridge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconnectbridge"
 
 mediaconnectbridge.NewMediaconnectBridgeSourcesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MediaconnectBridgeSourcesList
 ```
@@ -4702,7 +4702,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediaconnectBridge.MediaconnectBridgeSourcesNetworkSourceMulticastSourceSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectbridge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconnectbridge"
 
 mediaconnectbridge.NewMediaconnectBridgeSourcesNetworkSourceMulticastSourceSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) MediaconnectBridgeSourcesNetworkSourceMulticastSourceSettingsOutputReference
 ```
@@ -4980,7 +4980,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediaconnectBridge.MediaconnectBridgeSourcesNetworkSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectbridge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconnectbridge"
 
 mediaconnectbridge.NewMediaconnectBridgeSourcesNetworkSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) MediaconnectBridgeSourcesNetworkSourceOutputReference
 ```
@@ -5416,7 +5416,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediaconnectBridge.MediaconnectBridgeSourcesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectbridge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconnectbridge"
 
 mediaconnectbridge.NewMediaconnectBridgeSourcesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) MediaconnectBridgeSourcesOutputReference
 ```

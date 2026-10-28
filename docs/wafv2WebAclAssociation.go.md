@@ -4,12 +4,12 @@
 
 ### Wafv2WebAclAssociation <a name="Wafv2WebAclAssociation" id="@cdktn/provider-awscc.wafv2WebAclAssociation.Wafv2WebAclAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wafv2_web_acl_association awscc_wafv2_web_acl_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wafv2_web_acl_association awscc_wafv2_web_acl_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.wafv2WebAclAssociation.Wafv2WebAclAssociation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wafv2webaclassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wafv2webaclassociation"
 
 wafv2webaclassociation.NewWafv2WebAclAssociation(scope Construct, id *string, config Wafv2WebAclAssociationConfig) Wafv2WebAclAssociation
 ```
@@ -400,7 +400,7 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.wafv2WebAclAssociation.Wafv2WebAclAssociation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wafv2webaclassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wafv2webaclassociation"
 
 wafv2webaclassociation.Wafv2WebAclAssociation_IsConstruct(x interface{}) *bool
 ```
@@ -432,7 +432,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.wafv2WebAclAssociation.Wafv2WebAclAssociation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wafv2webaclassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wafv2webaclassociation"
 
 wafv2webaclassociation.Wafv2WebAclAssociation_IsTerraformElement(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ wafv2webaclassociation.Wafv2WebAclAssociation_IsTerraformElement(x interface{}) 
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.wafv2WebAclAssociation.Wafv2WebAclAssociation.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wafv2webaclassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wafv2webaclassociation"
 
 wafv2webaclassociation.Wafv2WebAclAssociation_IsTerraformResource(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ wafv2webaclassociation.Wafv2WebAclAssociation_IsTerraformResource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.wafv2WebAclAssociation.Wafv2WebAclAssociation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wafv2webaclassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wafv2webaclassociation"
 
 wafv2webaclassociation.Wafv2WebAclAssociation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -489,7 +489,7 @@ The construct id used in the generated config for the Wafv2WebAclAssociation to 
 
 The id of the existing Wafv2WebAclAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wafv2_web_acl_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wafv2_web_acl_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -744,7 +744,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.wafv2WebAclAssociation.Wafv2WebAclAssociationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wafv2webaclassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wafv2webaclassociation"
 
 &wafv2webaclassociation.Wafv2WebAclAssociationConfig {
 	Connection: interface{},
@@ -770,8 +770,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wafv2webaclassociation
 | <code><a href="#@cdktn/provider-awscc.wafv2WebAclAssociation.Wafv2WebAclAssociationConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.wafv2WebAclAssociation.Wafv2WebAclAssociationConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.wafv2WebAclAssociation.Wafv2WebAclAssociationConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.wafv2WebAclAssociation.Wafv2WebAclAssociationConfig.property.resourceArn">ResourceArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wafv2_web_acl_association#resource_arn Wafv2WebAclAssociation#resource_arn}. |
-| <code><a href="#@cdktn/provider-awscc.wafv2WebAclAssociation.Wafv2WebAclAssociationConfig.property.webAclArn">WebAclArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wafv2_web_acl_association#web_acl_arn Wafv2WebAclAssociation#web_acl_arn}. |
+| <code><a href="#@cdktn/provider-awscc.wafv2WebAclAssociation.Wafv2WebAclAssociationConfig.property.resourceArn">ResourceArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wafv2_web_acl_association#resource_arn Wafv2WebAclAssociation#resource_arn}. |
+| <code><a href="#@cdktn/provider-awscc.wafv2WebAclAssociation.Wafv2WebAclAssociationConfig.property.webAclArn">WebAclArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wafv2_web_acl_association#web_acl_arn Wafv2WebAclAssociation#web_acl_arn}. |
 
 ---
 
@@ -853,7 +853,7 @@ ResourceArn *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wafv2_web_acl_association#resource_arn Wafv2WebAclAssociation#resource_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wafv2_web_acl_association#resource_arn Wafv2WebAclAssociation#resource_arn}.
 
 ---
 
@@ -865,7 +865,7 @@ WebAclArn *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wafv2_web_acl_association#web_acl_arn Wafv2WebAclAssociation#web_acl_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wafv2_web_acl_association#web_acl_arn Wafv2WebAclAssociation#web_acl_arn}.
 
 ---
 

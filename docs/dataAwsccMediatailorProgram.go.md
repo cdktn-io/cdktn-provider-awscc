@@ -4,12 +4,12 @@
 
 ### DataAwsccMediatailorProgram <a name="DataAwsccMediatailorProgram" id="@cdktn/provider-awscc.dataAwsccMediatailorProgram.DataAwsccMediatailorProgram"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediatailor_program awscc_mediatailor_program}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediatailor_program awscc_mediatailor_program}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorProgram.DataAwsccMediatailorProgram.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprogram"
 
 dataawsccmediatailorprogram.NewDataAwsccMediatailorProgram(scope Construct, id *string, config DataAwsccMediatailorProgramConfig) DataAwsccMediatailorProgram
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccMediatailorProgram.DataAwsccMediatailorProgram.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprogram"
 
 dataawsccmediatailorprogram.DataAwsccMediatailorProgram_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccMediatailorProgram.DataAwsccMediatailorProgram.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprogram"
 
 dataawsccmediatailorprogram.DataAwsccMediatailorProgram_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccmediatailorprogram.DataAwsccMediatailorProgram_IsTerraformElement(x int
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccMediatailorProgram.DataAwsccMediatailorProgram.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprogram"
 
 dataawsccmediatailorprogram.DataAwsccMediatailorProgram_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccmediatailorprogram.DataAwsccMediatailorProgram_IsTerraformDataSource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccMediatailorProgram.DataAwsccMediatailorProgram.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprogram"
 
 dataawsccmediatailorprogram.DataAwsccMediatailorProgram_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccMediatailorProgra
 
 The id of the existing DataAwsccMediatailorProgram that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediatailor_program#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediatailor_program#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -730,7 +730,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediatailorProgram.DataAwsccMediatailorProgramAdBreaks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprogram"
 
 &dataawsccmediatailorprogram.DataAwsccMediatailorProgramAdBreaks {
 
@@ -743,7 +743,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorpr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediatailorProgram.DataAwsccMediatailorProgramAdBreaksAdBreakMetadata.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprogram"
 
 &dataawsccmediatailorprogram.DataAwsccMediatailorProgramAdBreaksAdBreakMetadata {
 
@@ -756,7 +756,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorpr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediatailorProgram.DataAwsccMediatailorProgramAdBreaksSlate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprogram"
 
 &dataawsccmediatailorprogram.DataAwsccMediatailorProgramAdBreaksSlate {
 
@@ -769,7 +769,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorpr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediatailorProgram.DataAwsccMediatailorProgramAdBreaksSpliceInsertMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprogram"
 
 &dataawsccmediatailorprogram.DataAwsccMediatailorProgramAdBreaksSpliceInsertMessage {
 
@@ -782,7 +782,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorpr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediatailorProgram.DataAwsccMediatailorProgramAdBreaksTimeSignalMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprogram"
 
 &dataawsccmediatailorprogram.DataAwsccMediatailorProgramAdBreaksTimeSignalMessage {
 
@@ -795,7 +795,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorpr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediatailorProgram.DataAwsccMediatailorProgramAdBreaksTimeSignalMessageSegmentationDescriptors.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprogram"
 
 &dataawsccmediatailorprogram.DataAwsccMediatailorProgramAdBreaksTimeSignalMessageSegmentationDescriptors {
 
@@ -808,7 +808,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorpr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediatailorProgram.DataAwsccMediatailorProgramAudienceMedia.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprogram"
 
 &dataawsccmediatailorprogram.DataAwsccMediatailorProgramAudienceMedia {
 
@@ -821,7 +821,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorpr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediatailorProgram.DataAwsccMediatailorProgramAudienceMediaAlternateMedia.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprogram"
 
 &dataawsccmediatailorprogram.DataAwsccMediatailorProgramAudienceMediaAlternateMedia {
 
@@ -834,7 +834,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorpr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediatailorProgram.DataAwsccMediatailorProgramAudienceMediaAlternateMediaAdBreaks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprogram"
 
 &dataawsccmediatailorprogram.DataAwsccMediatailorProgramAudienceMediaAlternateMediaAdBreaks {
 
@@ -847,7 +847,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorpr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediatailorProgram.DataAwsccMediatailorProgramAudienceMediaAlternateMediaAdBreaksAdBreakMetadata.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprogram"
 
 &dataawsccmediatailorprogram.DataAwsccMediatailorProgramAudienceMediaAlternateMediaAdBreaksAdBreakMetadata {
 
@@ -860,7 +860,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorpr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediatailorProgram.DataAwsccMediatailorProgramAudienceMediaAlternateMediaAdBreaksSlate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprogram"
 
 &dataawsccmediatailorprogram.DataAwsccMediatailorProgramAudienceMediaAlternateMediaAdBreaksSlate {
 
@@ -873,7 +873,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorpr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediatailorProgram.DataAwsccMediatailorProgramAudienceMediaAlternateMediaAdBreaksSpliceInsertMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprogram"
 
 &dataawsccmediatailorprogram.DataAwsccMediatailorProgramAudienceMediaAlternateMediaAdBreaksSpliceInsertMessage {
 
@@ -886,7 +886,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorpr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediatailorProgram.DataAwsccMediatailorProgramAudienceMediaAlternateMediaAdBreaksTimeSignalMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprogram"
 
 &dataawsccmediatailorprogram.DataAwsccMediatailorProgramAudienceMediaAlternateMediaAdBreaksTimeSignalMessage {
 
@@ -899,7 +899,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorpr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediatailorProgram.DataAwsccMediatailorProgramAudienceMediaAlternateMediaAdBreaksTimeSignalMessageSegmentationDescriptors.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprogram"
 
 &dataawsccmediatailorprogram.DataAwsccMediatailorProgramAudienceMediaAlternateMediaAdBreaksTimeSignalMessageSegmentationDescriptors {
 
@@ -912,7 +912,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorpr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediatailorProgram.DataAwsccMediatailorProgramAudienceMediaAlternateMediaClipRange.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprogram"
 
 &dataawsccmediatailorprogram.DataAwsccMediatailorProgramAudienceMediaAlternateMediaClipRange {
 
@@ -925,7 +925,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorpr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediatailorProgram.DataAwsccMediatailorProgramClipRange.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprogram"
 
 &dataawsccmediatailorprogram.DataAwsccMediatailorProgramClipRange {
 
@@ -938,7 +938,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorpr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediatailorProgram.DataAwsccMediatailorProgramConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprogram"
 
 &dataawsccmediatailorprogram.DataAwsccMediatailorProgramConfig {
 	Connection: interface{},
@@ -1047,7 +1047,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediatailor_program#id DataAwsccMediatailorProgram#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediatailor_program#id DataAwsccMediatailorProgram#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1059,7 +1059,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediatailorProgram.DataAwsccMediatailorProgramScheduleConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprogram"
 
 &dataawsccmediatailorprogram.DataAwsccMediatailorProgramScheduleConfiguration {
 
@@ -1072,7 +1072,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorpr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediatailorProgram.DataAwsccMediatailorProgramScheduleConfigurationClipRange.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprogram"
 
 &dataawsccmediatailorprogram.DataAwsccMediatailorProgramScheduleConfigurationClipRange {
 
@@ -1085,7 +1085,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorpr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediatailorProgram.DataAwsccMediatailorProgramScheduleConfigurationTransition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprogram"
 
 &dataawsccmediatailorprogram.DataAwsccMediatailorProgramScheduleConfigurationTransition {
 
@@ -1100,7 +1100,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorpr
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorProgram.DataAwsccMediatailorProgramAdBreaksAdBreakMetadataList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprogram"
 
 dataawsccmediatailorprogram.NewDataAwsccMediatailorProgramAdBreaksAdBreakMetadataList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccMediatailorProgramAdBreaksAdBreakMetadataList
 ```
@@ -1249,7 +1249,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorProgram.DataAwsccMediatailorProgramAdBreaksAdBreakMetadataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprogram"
 
 dataawsccmediatailorprogram.NewDataAwsccMediatailorProgramAdBreaksAdBreakMetadataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccMediatailorProgramAdBreaksAdBreakMetadataOutputReference
 ```
@@ -1538,7 +1538,7 @@ func InternalValue() DataAwsccMediatailorProgramAdBreaksAdBreakMetadata
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorProgram.DataAwsccMediatailorProgramAdBreaksList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprogram"
 
 dataawsccmediatailorprogram.NewDataAwsccMediatailorProgramAdBreaksList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccMediatailorProgramAdBreaksList
 ```
@@ -1687,7 +1687,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorProgram.DataAwsccMediatailorProgramAdBreaksOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprogram"
 
 dataawsccmediatailorprogram.NewDataAwsccMediatailorProgramAdBreaksOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccMediatailorProgramAdBreaksOutputReference
 ```
@@ -2020,7 +2020,7 @@ func InternalValue() DataAwsccMediatailorProgramAdBreaks
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorProgram.DataAwsccMediatailorProgramAdBreaksSlateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprogram"
 
 dataawsccmediatailorprogram.NewDataAwsccMediatailorProgramAdBreaksSlateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMediatailorProgramAdBreaksSlateOutputReference
 ```
@@ -2291,7 +2291,7 @@ func InternalValue() DataAwsccMediatailorProgramAdBreaksSlate
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorProgram.DataAwsccMediatailorProgramAdBreaksSpliceInsertMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprogram"
 
 dataawsccmediatailorprogram.NewDataAwsccMediatailorProgramAdBreaksSpliceInsertMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMediatailorProgramAdBreaksSpliceInsertMessageOutputReference
 ```
@@ -2584,7 +2584,7 @@ func InternalValue() DataAwsccMediatailorProgramAdBreaksSpliceInsertMessage
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorProgram.DataAwsccMediatailorProgramAdBreaksTimeSignalMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprogram"
 
 dataawsccmediatailorprogram.NewDataAwsccMediatailorProgramAdBreaksTimeSignalMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMediatailorProgramAdBreaksTimeSignalMessageOutputReference
 ```
@@ -2844,7 +2844,7 @@ func InternalValue() DataAwsccMediatailorProgramAdBreaksTimeSignalMessage
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorProgram.DataAwsccMediatailorProgramAdBreaksTimeSignalMessageSegmentationDescriptorsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprogram"
 
 dataawsccmediatailorprogram.NewDataAwsccMediatailorProgramAdBreaksTimeSignalMessageSegmentationDescriptorsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccMediatailorProgramAdBreaksTimeSignalMessageSegmentationDescriptorsList
 ```
@@ -2993,7 +2993,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorProgram.DataAwsccMediatailorProgramAdBreaksTimeSignalMessageSegmentationDescriptorsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprogram"
 
 dataawsccmediatailorprogram.NewDataAwsccMediatailorProgramAdBreaksTimeSignalMessageSegmentationDescriptorsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccMediatailorProgramAdBreaksTimeSignalMessageSegmentationDescriptorsOutputReference
 ```
@@ -3348,7 +3348,7 @@ func InternalValue() DataAwsccMediatailorProgramAdBreaksTimeSignalMessageSegment
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorProgram.DataAwsccMediatailorProgramAudienceMediaAlternateMediaAdBreaksAdBreakMetadataList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprogram"
 
 dataawsccmediatailorprogram.NewDataAwsccMediatailorProgramAudienceMediaAlternateMediaAdBreaksAdBreakMetadataList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccMediatailorProgramAudienceMediaAlternateMediaAdBreaksAdBreakMetadataList
 ```
@@ -3497,7 +3497,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorProgram.DataAwsccMediatailorProgramAudienceMediaAlternateMediaAdBreaksAdBreakMetadataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprogram"
 
 dataawsccmediatailorprogram.NewDataAwsccMediatailorProgramAudienceMediaAlternateMediaAdBreaksAdBreakMetadataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccMediatailorProgramAudienceMediaAlternateMediaAdBreaksAdBreakMetadataOutputReference
 ```
@@ -3786,7 +3786,7 @@ func InternalValue() DataAwsccMediatailorProgramAudienceMediaAlternateMediaAdBre
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorProgram.DataAwsccMediatailorProgramAudienceMediaAlternateMediaAdBreaksList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprogram"
 
 dataawsccmediatailorprogram.NewDataAwsccMediatailorProgramAudienceMediaAlternateMediaAdBreaksList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccMediatailorProgramAudienceMediaAlternateMediaAdBreaksList
 ```
@@ -3935,7 +3935,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorProgram.DataAwsccMediatailorProgramAudienceMediaAlternateMediaAdBreaksOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprogram"
 
 dataawsccmediatailorprogram.NewDataAwsccMediatailorProgramAudienceMediaAlternateMediaAdBreaksOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccMediatailorProgramAudienceMediaAlternateMediaAdBreaksOutputReference
 ```
@@ -4268,7 +4268,7 @@ func InternalValue() DataAwsccMediatailorProgramAudienceMediaAlternateMediaAdBre
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorProgram.DataAwsccMediatailorProgramAudienceMediaAlternateMediaAdBreaksSlateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprogram"
 
 dataawsccmediatailorprogram.NewDataAwsccMediatailorProgramAudienceMediaAlternateMediaAdBreaksSlateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMediatailorProgramAudienceMediaAlternateMediaAdBreaksSlateOutputReference
 ```
@@ -4539,7 +4539,7 @@ func InternalValue() DataAwsccMediatailorProgramAudienceMediaAlternateMediaAdBre
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorProgram.DataAwsccMediatailorProgramAudienceMediaAlternateMediaAdBreaksSpliceInsertMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprogram"
 
 dataawsccmediatailorprogram.NewDataAwsccMediatailorProgramAudienceMediaAlternateMediaAdBreaksSpliceInsertMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMediatailorProgramAudienceMediaAlternateMediaAdBreaksSpliceInsertMessageOutputReference
 ```
@@ -4832,7 +4832,7 @@ func InternalValue() DataAwsccMediatailorProgramAudienceMediaAlternateMediaAdBre
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorProgram.DataAwsccMediatailorProgramAudienceMediaAlternateMediaAdBreaksTimeSignalMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprogram"
 
 dataawsccmediatailorprogram.NewDataAwsccMediatailorProgramAudienceMediaAlternateMediaAdBreaksTimeSignalMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMediatailorProgramAudienceMediaAlternateMediaAdBreaksTimeSignalMessageOutputReference
 ```
@@ -5092,7 +5092,7 @@ func InternalValue() DataAwsccMediatailorProgramAudienceMediaAlternateMediaAdBre
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorProgram.DataAwsccMediatailorProgramAudienceMediaAlternateMediaAdBreaksTimeSignalMessageSegmentationDescriptorsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprogram"
 
 dataawsccmediatailorprogram.NewDataAwsccMediatailorProgramAudienceMediaAlternateMediaAdBreaksTimeSignalMessageSegmentationDescriptorsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccMediatailorProgramAudienceMediaAlternateMediaAdBreaksTimeSignalMessageSegmentationDescriptorsList
 ```
@@ -5241,7 +5241,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorProgram.DataAwsccMediatailorProgramAudienceMediaAlternateMediaAdBreaksTimeSignalMessageSegmentationDescriptorsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprogram"
 
 dataawsccmediatailorprogram.NewDataAwsccMediatailorProgramAudienceMediaAlternateMediaAdBreaksTimeSignalMessageSegmentationDescriptorsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccMediatailorProgramAudienceMediaAlternateMediaAdBreaksTimeSignalMessageSegmentationDescriptorsOutputReference
 ```
@@ -5596,7 +5596,7 @@ func InternalValue() DataAwsccMediatailorProgramAudienceMediaAlternateMediaAdBre
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorProgram.DataAwsccMediatailorProgramAudienceMediaAlternateMediaClipRangeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprogram"
 
 dataawsccmediatailorprogram.NewDataAwsccMediatailorProgramAudienceMediaAlternateMediaClipRangeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMediatailorProgramAudienceMediaAlternateMediaClipRangeOutputReference
 ```
@@ -5867,7 +5867,7 @@ func InternalValue() DataAwsccMediatailorProgramAudienceMediaAlternateMediaClipR
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorProgram.DataAwsccMediatailorProgramAudienceMediaAlternateMediaList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprogram"
 
 dataawsccmediatailorprogram.NewDataAwsccMediatailorProgramAudienceMediaAlternateMediaList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccMediatailorProgramAudienceMediaAlternateMediaList
 ```
@@ -6016,7 +6016,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorProgram.DataAwsccMediatailorProgramAudienceMediaAlternateMediaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprogram"
 
 dataawsccmediatailorprogram.NewDataAwsccMediatailorProgramAudienceMediaAlternateMediaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccMediatailorProgramAudienceMediaAlternateMediaOutputReference
 ```
@@ -6360,7 +6360,7 @@ func InternalValue() DataAwsccMediatailorProgramAudienceMediaAlternateMedia
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorProgram.DataAwsccMediatailorProgramAudienceMediaList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprogram"
 
 dataawsccmediatailorprogram.NewDataAwsccMediatailorProgramAudienceMediaList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccMediatailorProgramAudienceMediaList
 ```
@@ -6509,7 +6509,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorProgram.DataAwsccMediatailorProgramAudienceMediaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprogram"
 
 dataawsccmediatailorprogram.NewDataAwsccMediatailorProgramAudienceMediaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccMediatailorProgramAudienceMediaOutputReference
 ```
@@ -6798,7 +6798,7 @@ func InternalValue() DataAwsccMediatailorProgramAudienceMedia
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorProgram.DataAwsccMediatailorProgramClipRangeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprogram"
 
 dataawsccmediatailorprogram.NewDataAwsccMediatailorProgramClipRangeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMediatailorProgramClipRangeOutputReference
 ```
@@ -7069,7 +7069,7 @@ func InternalValue() DataAwsccMediatailorProgramClipRange
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorProgram.DataAwsccMediatailorProgramScheduleConfigurationClipRangeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprogram"
 
 dataawsccmediatailorprogram.NewDataAwsccMediatailorProgramScheduleConfigurationClipRangeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMediatailorProgramScheduleConfigurationClipRangeOutputReference
 ```
@@ -7340,7 +7340,7 @@ func InternalValue() DataAwsccMediatailorProgramScheduleConfigurationClipRange
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorProgram.DataAwsccMediatailorProgramScheduleConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprogram"
 
 dataawsccmediatailorprogram.NewDataAwsccMediatailorProgramScheduleConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMediatailorProgramScheduleConfigurationOutputReference
 ```
@@ -7611,7 +7611,7 @@ func InternalValue() DataAwsccMediatailorProgramScheduleConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorProgram.DataAwsccMediatailorProgramScheduleConfigurationTransitionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediatailorprogram"
 
 dataawsccmediatailorprogram.NewDataAwsccMediatailorProgramScheduleConfigurationTransitionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMediatailorProgramScheduleConfigurationTransitionOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccAmplifyDomain <a name="DataAwsccAmplifyDomain" id="@cdktn/provider-awscc.dataAwsccAmplifyDomain.DataAwsccAmplifyDomain"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/amplify_domain awscc_amplify_domain}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/amplify_domain awscc_amplify_domain}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAmplifyDomain.DataAwsccAmplifyDomain.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifydomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamplifydomain"
 
 dataawsccamplifydomain.NewDataAwsccAmplifyDomain(scope Construct, id *string, config DataAwsccAmplifyDomainConfig) DataAwsccAmplifyDomain
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccAmplifyDomain.DataAwsccAmplifyDomain.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifydomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamplifydomain"
 
 dataawsccamplifydomain.DataAwsccAmplifyDomain_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccAmplifyDomain.DataAwsccAmplifyDomain.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifydomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamplifydomain"
 
 dataawsccamplifydomain.DataAwsccAmplifyDomain_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccamplifydomain.DataAwsccAmplifyDomain_IsTerraformElement(x interface{}) 
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccAmplifyDomain.DataAwsccAmplifyDomain.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifydomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamplifydomain"
 
 dataawsccamplifydomain.DataAwsccAmplifyDomain_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccamplifydomain.DataAwsccAmplifyDomain_IsTerraformDataSource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccAmplifyDomain.DataAwsccAmplifyDomain.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifydomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamplifydomain"
 
 dataawsccamplifydomain.DataAwsccAmplifyDomain_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccAmplifyDomain to 
 
 The id of the existing DataAwsccAmplifyDomain that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/amplify_domain#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/amplify_domain#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -730,7 +730,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAmplifyDomain.DataAwsccAmplifyDomainCertificate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifydomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamplifydomain"
 
 &dataawsccamplifydomain.DataAwsccAmplifyDomainCertificate {
 
@@ -743,7 +743,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifydomain
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAmplifyDomain.DataAwsccAmplifyDomainCertificateSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifydomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamplifydomain"
 
 &dataawsccamplifydomain.DataAwsccAmplifyDomainCertificateSettings {
 
@@ -756,7 +756,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifydomain
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAmplifyDomain.DataAwsccAmplifyDomainConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifydomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamplifydomain"
 
 &dataawsccamplifydomain.DataAwsccAmplifyDomainConfig {
 	Connection: interface{},
@@ -865,7 +865,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/amplify_domain#id DataAwsccAmplifyDomain#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/amplify_domain#id DataAwsccAmplifyDomain#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -877,7 +877,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAmplifyDomain.DataAwsccAmplifyDomainSubDomainSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifydomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamplifydomain"
 
 &dataawsccamplifydomain.DataAwsccAmplifyDomainSubDomainSettings {
 
@@ -892,7 +892,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifydomain
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAmplifyDomain.DataAwsccAmplifyDomainCertificateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifydomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamplifydomain"
 
 dataawsccamplifydomain.NewDataAwsccAmplifyDomainCertificateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAmplifyDomainCertificateOutputReference
 ```
@@ -1174,7 +1174,7 @@ func InternalValue() DataAwsccAmplifyDomainCertificate
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAmplifyDomain.DataAwsccAmplifyDomainCertificateSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifydomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamplifydomain"
 
 dataawsccamplifydomain.NewDataAwsccAmplifyDomainCertificateSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAmplifyDomainCertificateSettingsOutputReference
 ```
@@ -1445,7 +1445,7 @@ func InternalValue() DataAwsccAmplifyDomainCertificateSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAmplifyDomain.DataAwsccAmplifyDomainSubDomainSettingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifydomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamplifydomain"
 
 dataawsccamplifydomain.NewDataAwsccAmplifyDomainSubDomainSettingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccAmplifyDomainSubDomainSettingsList
 ```
@@ -1594,7 +1594,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAmplifyDomain.DataAwsccAmplifyDomainSubDomainSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifydomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamplifydomain"
 
 dataawsccamplifydomain.NewDataAwsccAmplifyDomainSubDomainSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccAmplifyDomainSubDomainSettingsOutputReference
 ```

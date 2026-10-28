@@ -4,12 +4,12 @@
 
 ### DataAwsccEfsAccessPoints <a name="DataAwsccEfsAccessPoints" id="@cdktn/provider-awscc.dataAwsccEfsAccessPoints.DataAwsccEfsAccessPoints"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/efs_access_points awscc_efs_access_points}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/efs_access_points awscc_efs_access_points}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEfsAccessPoints.DataAwsccEfsAccessPoints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccefsaccesspoints"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccefsaccesspoints"
 
 dataawsccefsaccesspoints.NewDataAwsccEfsAccessPoints(scope Construct, id *string, config DataAwsccEfsAccessPointsConfig) DataAwsccEfsAccessPoints
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEfsAccessPoints.DataAwsccEfsAccessPoints.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccefsaccesspoints"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccefsaccesspoints"
 
 dataawsccefsaccesspoints.DataAwsccEfsAccessPoints_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEfsAccessPoints.DataAwsccEfsAccessPoints.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccefsaccesspoints"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccefsaccesspoints"
 
 dataawsccefsaccesspoints.DataAwsccEfsAccessPoints_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccefsaccesspoints.DataAwsccEfsAccessPoints_IsTerraformElement(x interface
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEfsAccessPoints.DataAwsccEfsAccessPoints.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccefsaccesspoints"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccefsaccesspoints"
 
 dataawsccefsaccesspoints.DataAwsccEfsAccessPoints_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccefsaccesspoints.DataAwsccEfsAccessPoints_IsTerraformDataSource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEfsAccessPoints.DataAwsccEfsAccessPoints.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccefsaccesspoints"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccefsaccesspoints"
 
 dataawsccefsaccesspoints.DataAwsccEfsAccessPoints_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEfsAccessPoints t
 
 The id of the existing DataAwsccEfsAccessPoints that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/efs_access_points#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/efs_access_points#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEfsAccessPoints.DataAwsccEfsAccessPointsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccefsaccesspoints"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccefsaccesspoints"
 
 &dataawsccefsaccesspoints.DataAwsccEfsAccessPointsConfig {
 	Connection: interface{},

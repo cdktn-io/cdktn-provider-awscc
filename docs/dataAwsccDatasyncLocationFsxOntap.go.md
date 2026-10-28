@@ -4,12 +4,12 @@
 
 ### DataAwsccDatasyncLocationFsxOntap <a name="DataAwsccDatasyncLocationFsxOntap" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxOntap.DataAwsccDatasyncLocationFsxOntap"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datasync_location_fsx_ontap awscc_datasync_location_fsx_ontap}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datasync_location_fsx_ontap awscc_datasync_location_fsx_ontap}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxOntap.DataAwsccDatasyncLocationFsxOntap.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationfsxontap"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationfsxontap"
 
 dataawsccdatasynclocationfsxontap.NewDataAwsccDatasyncLocationFsxOntap(scope Construct, id *string, config DataAwsccDatasyncLocationFsxOntapConfig) DataAwsccDatasyncLocationFsxOntap
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxOntap.DataAwsccDatasyncLocationFsxOntap.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationfsxontap"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationfsxontap"
 
 dataawsccdatasynclocationfsxontap.DataAwsccDatasyncLocationFsxOntap_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxOntap.DataAwsccDatasyncLocationFsxOntap.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationfsxontap"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationfsxontap"
 
 dataawsccdatasynclocationfsxontap.DataAwsccDatasyncLocationFsxOntap_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccdatasynclocationfsxontap.DataAwsccDatasyncLocationFsxOntap_IsTerraformE
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxOntap.DataAwsccDatasyncLocationFsxOntap.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationfsxontap"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationfsxontap"
 
 dataawsccdatasynclocationfsxontap.DataAwsccDatasyncLocationFsxOntap_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccdatasynclocationfsxontap.DataAwsccDatasyncLocationFsxOntap_IsTerraformD
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxOntap.DataAwsccDatasyncLocationFsxOntap.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationfsxontap"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationfsxontap"
 
 dataawsccdatasynclocationfsxontap.DataAwsccDatasyncLocationFsxOntap_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDatasyncLocationF
 
 The id of the existing DataAwsccDatasyncLocationFsxOntap that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datasync_location_fsx_ontap#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datasync_location_fsx_ontap#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -675,7 +675,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxOntap.DataAwsccDatasyncLocationFsxOntapConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationfsxontap"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationfsxontap"
 
 &dataawsccdatasynclocationfsxontap.DataAwsccDatasyncLocationFsxOntapConfig {
 	Connection: interface{},
@@ -784,7 +784,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datasync_location_fsx_ontap#id DataAwsccDatasyncLocationFsxOntap#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datasync_location_fsx_ontap#id DataAwsccDatasyncLocationFsxOntap#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -796,7 +796,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxOntap.DataAwsccDatasyncLocationFsxOntapProtocol.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationfsxontap"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationfsxontap"
 
 &dataawsccdatasynclocationfsxontap.DataAwsccDatasyncLocationFsxOntapProtocol {
 
@@ -809,7 +809,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxOntap.DataAwsccDatasyncLocationFsxOntapProtocolNfs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationfsxontap"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationfsxontap"
 
 &dataawsccdatasynclocationfsxontap.DataAwsccDatasyncLocationFsxOntapProtocolNfs {
 
@@ -822,7 +822,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxOntap.DataAwsccDatasyncLocationFsxOntapProtocolNfsMountOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationfsxontap"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationfsxontap"
 
 &dataawsccdatasynclocationfsxontap.DataAwsccDatasyncLocationFsxOntapProtocolNfsMountOptions {
 
@@ -835,7 +835,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxOntap.DataAwsccDatasyncLocationFsxOntapProtocolSmb.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationfsxontap"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationfsxontap"
 
 &dataawsccdatasynclocationfsxontap.DataAwsccDatasyncLocationFsxOntapProtocolSmb {
 
@@ -848,7 +848,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxOntap.DataAwsccDatasyncLocationFsxOntapProtocolSmbCmkSecretConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationfsxontap"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationfsxontap"
 
 &dataawsccdatasynclocationfsxontap.DataAwsccDatasyncLocationFsxOntapProtocolSmbCmkSecretConfig {
 
@@ -861,7 +861,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxOntap.DataAwsccDatasyncLocationFsxOntapProtocolSmbCustomSecretConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationfsxontap"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationfsxontap"
 
 &dataawsccdatasynclocationfsxontap.DataAwsccDatasyncLocationFsxOntapProtocolSmbCustomSecretConfig {
 
@@ -874,7 +874,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxOntap.DataAwsccDatasyncLocationFsxOntapProtocolSmbManagedSecretConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationfsxontap"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationfsxontap"
 
 &dataawsccdatasynclocationfsxontap.DataAwsccDatasyncLocationFsxOntapProtocolSmbManagedSecretConfig {
 
@@ -887,7 +887,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxOntap.DataAwsccDatasyncLocationFsxOntapProtocolSmbMountOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationfsxontap"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationfsxontap"
 
 &dataawsccdatasynclocationfsxontap.DataAwsccDatasyncLocationFsxOntapProtocolSmbMountOptions {
 
@@ -900,7 +900,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocat
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxOntap.DataAwsccDatasyncLocationFsxOntapTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationfsxontap"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationfsxontap"
 
 &dataawsccdatasynclocationfsxontap.DataAwsccDatasyncLocationFsxOntapTags {
 
@@ -915,7 +915,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxOntap.DataAwsccDatasyncLocationFsxOntapProtocolNfsMountOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationfsxontap"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationfsxontap"
 
 dataawsccdatasynclocationfsxontap.NewDataAwsccDatasyncLocationFsxOntapProtocolNfsMountOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatasyncLocationFsxOntapProtocolNfsMountOptionsOutputReference
 ```
@@ -1175,7 +1175,7 @@ func InternalValue() DataAwsccDatasyncLocationFsxOntapProtocolNfsMountOptions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxOntap.DataAwsccDatasyncLocationFsxOntapProtocolNfsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationfsxontap"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationfsxontap"
 
 dataawsccdatasynclocationfsxontap.NewDataAwsccDatasyncLocationFsxOntapProtocolNfsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatasyncLocationFsxOntapProtocolNfsOutputReference
 ```
@@ -1435,7 +1435,7 @@ func InternalValue() DataAwsccDatasyncLocationFsxOntapProtocolNfs
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxOntap.DataAwsccDatasyncLocationFsxOntapProtocolOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationfsxontap"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationfsxontap"
 
 dataawsccdatasynclocationfsxontap.NewDataAwsccDatasyncLocationFsxOntapProtocolOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatasyncLocationFsxOntapProtocolOutputReference
 ```
@@ -1706,7 +1706,7 @@ func InternalValue() DataAwsccDatasyncLocationFsxOntapProtocol
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxOntap.DataAwsccDatasyncLocationFsxOntapProtocolSmbCmkSecretConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationfsxontap"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationfsxontap"
 
 dataawsccdatasynclocationfsxontap.NewDataAwsccDatasyncLocationFsxOntapProtocolSmbCmkSecretConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatasyncLocationFsxOntapProtocolSmbCmkSecretConfigOutputReference
 ```
@@ -1977,7 +1977,7 @@ func InternalValue() DataAwsccDatasyncLocationFsxOntapProtocolSmbCmkSecretConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxOntap.DataAwsccDatasyncLocationFsxOntapProtocolSmbCustomSecretConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationfsxontap"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationfsxontap"
 
 dataawsccdatasynclocationfsxontap.NewDataAwsccDatasyncLocationFsxOntapProtocolSmbCustomSecretConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatasyncLocationFsxOntapProtocolSmbCustomSecretConfigOutputReference
 ```
@@ -2248,7 +2248,7 @@ func InternalValue() DataAwsccDatasyncLocationFsxOntapProtocolSmbCustomSecretCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxOntap.DataAwsccDatasyncLocationFsxOntapProtocolSmbManagedSecretConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationfsxontap"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationfsxontap"
 
 dataawsccdatasynclocationfsxontap.NewDataAwsccDatasyncLocationFsxOntapProtocolSmbManagedSecretConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatasyncLocationFsxOntapProtocolSmbManagedSecretConfigOutputReference
 ```
@@ -2508,7 +2508,7 @@ func InternalValue() DataAwsccDatasyncLocationFsxOntapProtocolSmbManagedSecretCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxOntap.DataAwsccDatasyncLocationFsxOntapProtocolSmbMountOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationfsxontap"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationfsxontap"
 
 dataawsccdatasynclocationfsxontap.NewDataAwsccDatasyncLocationFsxOntapProtocolSmbMountOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatasyncLocationFsxOntapProtocolSmbMountOptionsOutputReference
 ```
@@ -2768,7 +2768,7 @@ func InternalValue() DataAwsccDatasyncLocationFsxOntapProtocolSmbMountOptions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxOntap.DataAwsccDatasyncLocationFsxOntapProtocolSmbOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationfsxontap"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationfsxontap"
 
 dataawsccdatasynclocationfsxontap.NewDataAwsccDatasyncLocationFsxOntapProtocolSmbOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatasyncLocationFsxOntapProtocolSmbOutputReference
 ```
@@ -3094,7 +3094,7 @@ func InternalValue() DataAwsccDatasyncLocationFsxOntapProtocolSmb
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxOntap.DataAwsccDatasyncLocationFsxOntapTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationfsxontap"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationfsxontap"
 
 dataawsccdatasynclocationfsxontap.NewDataAwsccDatasyncLocationFsxOntapTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDatasyncLocationFsxOntapTagsList
 ```
@@ -3243,7 +3243,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxOntap.DataAwsccDatasyncLocationFsxOntapTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationfsxontap"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationfsxontap"
 
 dataawsccdatasynclocationfsxontap.NewDataAwsccDatasyncLocationFsxOntapTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDatasyncLocationFsxOntapTagsOutputReference
 ```

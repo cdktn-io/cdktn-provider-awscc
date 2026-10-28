@@ -4,12 +4,12 @@
 
 ### DataAwsccIotwirelessWirelessGateway <a name="DataAwsccIotwirelessWirelessGateway" id="@cdktn/provider-awscc.dataAwsccIotwirelessWirelessGateway.DataAwsccIotwirelessWirelessGateway"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotwireless_wireless_gateway awscc_iotwireless_wireless_gateway}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotwireless_wireless_gateway awscc_iotwireless_wireless_gateway}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotwirelessWirelessGateway.DataAwsccIotwirelessWirelessGateway.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelesswirelessgateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelesswirelessgateway"
 
 dataawscciotwirelesswirelessgateway.NewDataAwsccIotwirelessWirelessGateway(scope Construct, id *string, config DataAwsccIotwirelessWirelessGatewayConfig) DataAwsccIotwirelessWirelessGateway
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIotwirelessWirelessGateway.DataAwsccIotwirelessWirelessGateway.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelesswirelessgateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelesswirelessgateway"
 
 dataawscciotwirelesswirelessgateway.DataAwsccIotwirelessWirelessGateway_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIotwirelessWirelessGateway.DataAwsccIotwirelessWirelessGateway.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelesswirelessgateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelesswirelessgateway"
 
 dataawscciotwirelesswirelessgateway.DataAwsccIotwirelessWirelessGateway_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciotwirelesswirelessgateway.DataAwsccIotwirelessWirelessGateway_IsTerraf
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIotwirelessWirelessGateway.DataAwsccIotwirelessWirelessGateway.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelesswirelessgateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelesswirelessgateway"
 
 dataawscciotwirelesswirelessgateway.DataAwsccIotwirelessWirelessGateway_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciotwirelesswirelessgateway.DataAwsccIotwirelessWirelessGateway_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIotwirelessWirelessGateway.DataAwsccIotwirelessWirelessGateway.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelesswirelessgateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelesswirelessgateway"
 
 dataawscciotwirelesswirelessgateway.DataAwsccIotwirelessWirelessGateway_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotwirelessWirele
 
 The id of the existing DataAwsccIotwirelessWirelessGateway that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotwireless_wireless_gateway#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotwireless_wireless_gateway#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -686,7 +686,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotwirelessWirelessGateway.DataAwsccIotwirelessWirelessGatewayConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelesswirelessgateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelesswirelessgateway"
 
 &dataawscciotwirelesswirelessgateway.DataAwsccIotwirelessWirelessGatewayConfig {
 	Connection: interface{},
@@ -795,7 +795,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotwireless_wireless_gateway#id DataAwsccIotwirelessWirelessGateway#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotwireless_wireless_gateway#id DataAwsccIotwirelessWirelessGateway#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -807,7 +807,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotwirelessWirelessGateway.DataAwsccIotwirelessWirelessGatewayLoRaWan.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelesswirelessgateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelesswirelessgateway"
 
 &dataawscciotwirelesswirelessgateway.DataAwsccIotwirelessWirelessGatewayLoRaWan {
 
@@ -820,7 +820,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelesswi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotwirelessWirelessGateway.DataAwsccIotwirelessWirelessGatewayTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelesswirelessgateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelesswirelessgateway"
 
 &dataawscciotwirelesswirelessgateway.DataAwsccIotwirelessWirelessGatewayTags {
 
@@ -835,7 +835,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelesswi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotwirelessWirelessGateway.DataAwsccIotwirelessWirelessGatewayLoRaWanOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelesswirelessgateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelesswirelessgateway"
 
 dataawscciotwirelesswirelessgateway.NewDataAwsccIotwirelessWirelessGatewayLoRaWanOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotwirelessWirelessGatewayLoRaWanOutputReference
 ```
@@ -1106,7 +1106,7 @@ func InternalValue() DataAwsccIotwirelessWirelessGatewayLoRaWan
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotwirelessWirelessGateway.DataAwsccIotwirelessWirelessGatewayTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelesswirelessgateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelesswirelessgateway"
 
 dataawscciotwirelesswirelessgateway.NewDataAwsccIotwirelessWirelessGatewayTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIotwirelessWirelessGatewayTagsList
 ```
@@ -1255,7 +1255,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotwirelessWirelessGateway.DataAwsccIotwirelessWirelessGatewayTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelesswirelessgateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelesswirelessgateway"
 
 dataawscciotwirelesswirelessgateway.NewDataAwsccIotwirelessWirelessGatewayTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIotwirelessWirelessGatewayTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccConnectDataTableRecord <a name="DataAwsccConnectDataTableRecord" id="@cdktn/provider-awscc.dataAwsccConnectDataTableRecord.DataAwsccConnectDataTableRecord"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_data_table_record awscc_connect_data_table_record}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_data_table_record awscc_connect_data_table_record}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectDataTableRecord.DataAwsccConnectDataTableRecord.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectdatatablerecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectdatatablerecord"
 
 dataawsccconnectdatatablerecord.NewDataAwsccConnectDataTableRecord(scope Construct, id *string, config DataAwsccConnectDataTableRecordConfig) DataAwsccConnectDataTableRecord
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccConnectDataTableRecord.DataAwsccConnectDataTableRecord.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectdatatablerecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectdatatablerecord"
 
 dataawsccconnectdatatablerecord.DataAwsccConnectDataTableRecord_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccConnectDataTableRecord.DataAwsccConnectDataTableRecord.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectdatatablerecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectdatatablerecord"
 
 dataawsccconnectdatatablerecord.DataAwsccConnectDataTableRecord_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccconnectdatatablerecord.DataAwsccConnectDataTableRecord_IsTerraformEleme
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccConnectDataTableRecord.DataAwsccConnectDataTableRecord.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectdatatablerecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectdatatablerecord"
 
 dataawsccconnectdatatablerecord.DataAwsccConnectDataTableRecord_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccconnectdatatablerecord.DataAwsccConnectDataTableRecord_IsTerraformDataS
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccConnectDataTableRecord.DataAwsccConnectDataTableRecord.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectdatatablerecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectdatatablerecord"
 
 dataawsccconnectdatatablerecord.DataAwsccConnectDataTableRecord_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccConnectDataTableR
 
 The id of the existing DataAwsccConnectDataTableRecord that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_data_table_record#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_data_table_record#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -631,7 +631,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectDataTableRecord.DataAwsccConnectDataTableRecordConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectdatatablerecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectdatatablerecord"
 
 &dataawsccconnectdatatablerecord.DataAwsccConnectDataTableRecordConfig {
 	Connection: interface{},
@@ -740,7 +740,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_data_table_record#id DataAwsccConnectDataTableRecord#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_data_table_record#id DataAwsccConnectDataTableRecord#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -752,7 +752,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectDataTableRecord.DataAwsccConnectDataTableRecordDataTableRecord.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectdatatablerecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectdatatablerecord"
 
 &dataawsccconnectdatatablerecord.DataAwsccConnectDataTableRecordDataTableRecord {
 
@@ -765,7 +765,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectdatata
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectDataTableRecord.DataAwsccConnectDataTableRecordDataTableRecordPrimaryValues.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectdatatablerecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectdatatablerecord"
 
 &dataawsccconnectdatatablerecord.DataAwsccConnectDataTableRecordDataTableRecordPrimaryValues {
 
@@ -778,7 +778,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectdatata
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectDataTableRecord.DataAwsccConnectDataTableRecordDataTableRecordValues.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectdatatablerecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectdatatablerecord"
 
 &dataawsccconnectdatatablerecord.DataAwsccConnectDataTableRecordDataTableRecordValues {
 
@@ -793,7 +793,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectdatata
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectDataTableRecord.DataAwsccConnectDataTableRecordDataTableRecordOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectdatatablerecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectdatatablerecord"
 
 dataawsccconnectdatatablerecord.NewDataAwsccConnectDataTableRecordDataTableRecordOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectDataTableRecordDataTableRecordOutputReference
 ```
@@ -1064,7 +1064,7 @@ func InternalValue() DataAwsccConnectDataTableRecordDataTableRecord
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectDataTableRecord.DataAwsccConnectDataTableRecordDataTableRecordPrimaryValuesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectdatatablerecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectdatatablerecord"
 
 dataawsccconnectdatatablerecord.NewDataAwsccConnectDataTableRecordDataTableRecordPrimaryValuesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccConnectDataTableRecordDataTableRecordPrimaryValuesList
 ```
@@ -1213,7 +1213,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectDataTableRecord.DataAwsccConnectDataTableRecordDataTableRecordPrimaryValuesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectdatatablerecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectdatatablerecord"
 
 dataawsccconnectdatatablerecord.NewDataAwsccConnectDataTableRecordDataTableRecordPrimaryValuesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccConnectDataTableRecordDataTableRecordPrimaryValuesOutputReference
 ```
@@ -1502,7 +1502,7 @@ func InternalValue() DataAwsccConnectDataTableRecordDataTableRecordPrimaryValues
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectDataTableRecord.DataAwsccConnectDataTableRecordDataTableRecordValuesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectdatatablerecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectdatatablerecord"
 
 dataawsccconnectdatatablerecord.NewDataAwsccConnectDataTableRecordDataTableRecordValuesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccConnectDataTableRecordDataTableRecordValuesList
 ```
@@ -1651,7 +1651,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectDataTableRecord.DataAwsccConnectDataTableRecordDataTableRecordValuesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectdatatablerecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectdatatablerecord"
 
 dataawsccconnectdatatablerecord.NewDataAwsccConnectDataTableRecordDataTableRecordValuesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccConnectDataTableRecordDataTableRecordValuesOutputReference
 ```

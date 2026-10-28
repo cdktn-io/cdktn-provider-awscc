@@ -4,12 +4,12 @@
 
 ### DataAwsccComprehendDocumentClassifier <a name="DataAwsccComprehendDocumentClassifier" id="@cdktn/provider-awscc.dataAwsccComprehendDocumentClassifier.DataAwsccComprehendDocumentClassifier"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/comprehend_document_classifier awscc_comprehend_document_classifier}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/comprehend_document_classifier awscc_comprehend_document_classifier}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccComprehendDocumentClassifier.DataAwsccComprehendDocumentClassifier.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehenddocumentclassifier"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehenddocumentclassifier"
 
 dataawscccomprehenddocumentclassifier.NewDataAwsccComprehendDocumentClassifier(scope Construct, id *string, config DataAwsccComprehendDocumentClassifierConfig) DataAwsccComprehendDocumentClassifier
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccComprehendDocumentClassifier.DataAwsccComprehendDocumentClassifier.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehenddocumentclassifier"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehenddocumentclassifier"
 
 dataawscccomprehenddocumentclassifier.DataAwsccComprehendDocumentClassifier_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccComprehendDocumentClassifier.DataAwsccComprehendDocumentClassifier.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehenddocumentclassifier"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehenddocumentclassifier"
 
 dataawscccomprehenddocumentclassifier.DataAwsccComprehendDocumentClassifier_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccomprehenddocumentclassifier.DataAwsccComprehendDocumentClassifier_IsTe
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccComprehendDocumentClassifier.DataAwsccComprehendDocumentClassifier.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehenddocumentclassifier"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehenddocumentclassifier"
 
 dataawscccomprehenddocumentclassifier.DataAwsccComprehendDocumentClassifier_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccomprehenddocumentclassifier.DataAwsccComprehendDocumentClassifier_IsTe
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccComprehendDocumentClassifier.DataAwsccComprehendDocumentClassifier.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehenddocumentclassifier"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehenddocumentclassifier"
 
 dataawscccomprehenddocumentclassifier.DataAwsccComprehendDocumentClassifier_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccComprehendDocumen
 
 The id of the existing DataAwsccComprehendDocumentClassifier that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/comprehend_document_classifier#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/comprehend_document_classifier#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -730,7 +730,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccComprehendDocumentClassifier.DataAwsccComprehendDocumentClassifierConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehenddocumentclassifier"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehenddocumentclassifier"
 
 &dataawscccomprehenddocumentclassifier.DataAwsccComprehendDocumentClassifierConfig {
 	Connection: interface{},
@@ -839,7 +839,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/comprehend_document_classifier#id DataAwsccComprehendDocumentClassifier#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/comprehend_document_classifier#id DataAwsccComprehendDocumentClassifier#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -851,7 +851,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccComprehendDocumentClassifier.DataAwsccComprehendDocumentClassifierInputDataConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehenddocumentclassifier"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehenddocumentclassifier"
 
 &dataawscccomprehenddocumentclassifier.DataAwsccComprehendDocumentClassifierInputDataConfig {
 
@@ -864,7 +864,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehenddoc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccComprehendDocumentClassifier.DataAwsccComprehendDocumentClassifierInputDataConfigAugmentedManifests.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehenddocumentclassifier"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehenddocumentclassifier"
 
 &dataawscccomprehenddocumentclassifier.DataAwsccComprehendDocumentClassifierInputDataConfigAugmentedManifests {
 
@@ -877,7 +877,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehenddoc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccComprehendDocumentClassifier.DataAwsccComprehendDocumentClassifierInputDataConfigDocumentReaderConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehenddocumentclassifier"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehenddocumentclassifier"
 
 &dataawscccomprehenddocumentclassifier.DataAwsccComprehendDocumentClassifierInputDataConfigDocumentReaderConfig {
 
@@ -890,7 +890,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehenddoc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccComprehendDocumentClassifier.DataAwsccComprehendDocumentClassifierInputDataConfigDocuments.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehenddocumentclassifier"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehenddocumentclassifier"
 
 &dataawscccomprehenddocumentclassifier.DataAwsccComprehendDocumentClassifierInputDataConfigDocuments {
 
@@ -903,7 +903,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehenddoc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccComprehendDocumentClassifier.DataAwsccComprehendDocumentClassifierOutputDataConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehenddocumentclassifier"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehenddocumentclassifier"
 
 &dataawscccomprehenddocumentclassifier.DataAwsccComprehendDocumentClassifierOutputDataConfig {
 
@@ -916,7 +916,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehenddoc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccComprehendDocumentClassifier.DataAwsccComprehendDocumentClassifierTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehenddocumentclassifier"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehenddocumentclassifier"
 
 &dataawscccomprehenddocumentclassifier.DataAwsccComprehendDocumentClassifierTags {
 
@@ -929,7 +929,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehenddoc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccComprehendDocumentClassifier.DataAwsccComprehendDocumentClassifierVpcConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehenddocumentclassifier"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehenddocumentclassifier"
 
 &dataawscccomprehenddocumentclassifier.DataAwsccComprehendDocumentClassifierVpcConfig {
 
@@ -944,7 +944,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehenddoc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccComprehendDocumentClassifier.DataAwsccComprehendDocumentClassifierInputDataConfigAugmentedManifestsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehenddocumentclassifier"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehenddocumentclassifier"
 
 dataawscccomprehenddocumentclassifier.NewDataAwsccComprehendDocumentClassifierInputDataConfigAugmentedManifestsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccComprehendDocumentClassifierInputDataConfigAugmentedManifestsList
 ```
@@ -1093,7 +1093,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccComprehendDocumentClassifier.DataAwsccComprehendDocumentClassifierInputDataConfigAugmentedManifestsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehenddocumentclassifier"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehenddocumentclassifier"
 
 dataawscccomprehenddocumentclassifier.NewDataAwsccComprehendDocumentClassifierInputDataConfigAugmentedManifestsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccComprehendDocumentClassifierInputDataConfigAugmentedManifestsOutputReference
 ```
@@ -1393,7 +1393,7 @@ func InternalValue() DataAwsccComprehendDocumentClassifierInputDataConfigAugment
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccComprehendDocumentClassifier.DataAwsccComprehendDocumentClassifierInputDataConfigDocumentReaderConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehenddocumentclassifier"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehenddocumentclassifier"
 
 dataawscccomprehenddocumentclassifier.NewDataAwsccComprehendDocumentClassifierInputDataConfigDocumentReaderConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccComprehendDocumentClassifierInputDataConfigDocumentReaderConfigOutputReference
 ```
@@ -1675,7 +1675,7 @@ func InternalValue() DataAwsccComprehendDocumentClassifierInputDataConfigDocumen
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccComprehendDocumentClassifier.DataAwsccComprehendDocumentClassifierInputDataConfigDocumentsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehenddocumentclassifier"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehenddocumentclassifier"
 
 dataawscccomprehenddocumentclassifier.NewDataAwsccComprehendDocumentClassifierInputDataConfigDocumentsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccComprehendDocumentClassifierInputDataConfigDocumentsOutputReference
 ```
@@ -1946,7 +1946,7 @@ func InternalValue() DataAwsccComprehendDocumentClassifierInputDataConfigDocumen
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccComprehendDocumentClassifier.DataAwsccComprehendDocumentClassifierInputDataConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehenddocumentclassifier"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehenddocumentclassifier"
 
 dataawscccomprehenddocumentclassifier.NewDataAwsccComprehendDocumentClassifierInputDataConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccComprehendDocumentClassifierInputDataConfigOutputReference
 ```
@@ -2283,7 +2283,7 @@ func InternalValue() DataAwsccComprehendDocumentClassifierInputDataConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccComprehendDocumentClassifier.DataAwsccComprehendDocumentClassifierOutputDataConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehenddocumentclassifier"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehenddocumentclassifier"
 
 dataawscccomprehenddocumentclassifier.NewDataAwsccComprehendDocumentClassifierOutputDataConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccComprehendDocumentClassifierOutputDataConfigOutputReference
 ```
@@ -2554,7 +2554,7 @@ func InternalValue() DataAwsccComprehendDocumentClassifierOutputDataConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccComprehendDocumentClassifier.DataAwsccComprehendDocumentClassifierTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehenddocumentclassifier"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehenddocumentclassifier"
 
 dataawscccomprehenddocumentclassifier.NewDataAwsccComprehendDocumentClassifierTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccComprehendDocumentClassifierTagsList
 ```
@@ -2703,7 +2703,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccComprehendDocumentClassifier.DataAwsccComprehendDocumentClassifierTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehenddocumentclassifier"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehenddocumentclassifier"
 
 dataawscccomprehenddocumentclassifier.NewDataAwsccComprehendDocumentClassifierTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccComprehendDocumentClassifierTagsOutputReference
 ```
@@ -2992,7 +2992,7 @@ func InternalValue() DataAwsccComprehendDocumentClassifierTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccComprehendDocumentClassifier.DataAwsccComprehendDocumentClassifierVpcConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehenddocumentclassifier"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehenddocumentclassifier"
 
 dataawscccomprehenddocumentclassifier.NewDataAwsccComprehendDocumentClassifierVpcConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccComprehendDocumentClassifierVpcConfigOutputReference
 ```

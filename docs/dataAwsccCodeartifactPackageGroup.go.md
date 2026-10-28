@@ -4,12 +4,12 @@
 
 ### DataAwsccCodeartifactPackageGroup <a name="DataAwsccCodeartifactPackageGroup" id="@cdktn/provider-awscc.dataAwsccCodeartifactPackageGroup.DataAwsccCodeartifactPackageGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/codeartifact_package_group awscc_codeartifact_package_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/codeartifact_package_group awscc_codeartifact_package_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodeartifactPackageGroup.DataAwsccCodeartifactPackageGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodeartifactpackagegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodeartifactpackagegroup"
 
 dataawscccodeartifactpackagegroup.NewDataAwsccCodeartifactPackageGroup(scope Construct, id *string, config DataAwsccCodeartifactPackageGroupConfig) DataAwsccCodeartifactPackageGroup
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCodeartifactPackageGroup.DataAwsccCodeartifactPackageGroup.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodeartifactpackagegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodeartifactpackagegroup"
 
 dataawscccodeartifactpackagegroup.DataAwsccCodeartifactPackageGroup_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCodeartifactPackageGroup.DataAwsccCodeartifactPackageGroup.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodeartifactpackagegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodeartifactpackagegroup"
 
 dataawscccodeartifactpackagegroup.DataAwsccCodeartifactPackageGroup_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccodeartifactpackagegroup.DataAwsccCodeartifactPackageGroup_IsTerraformE
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCodeartifactPackageGroup.DataAwsccCodeartifactPackageGroup.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodeartifactpackagegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodeartifactpackagegroup"
 
 dataawscccodeartifactpackagegroup.DataAwsccCodeartifactPackageGroup_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccodeartifactpackagegroup.DataAwsccCodeartifactPackageGroup_IsTerraformD
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCodeartifactPackageGroup.DataAwsccCodeartifactPackageGroup.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodeartifactpackagegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodeartifactpackagegroup"
 
 dataawscccodeartifactpackagegroup.DataAwsccCodeartifactPackageGroup_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCodeartifactPacka
 
 The id of the existing DataAwsccCodeartifactPackageGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/codeartifact_package_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/codeartifact_package_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -675,7 +675,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodeartifactPackageGroup.DataAwsccCodeartifactPackageGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodeartifactpackagegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodeartifactpackagegroup"
 
 &dataawscccodeartifactpackagegroup.DataAwsccCodeartifactPackageGroupConfig {
 	Connection: interface{},
@@ -784,7 +784,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/codeartifact_package_group#id DataAwsccCodeartifactPackageGroup#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/codeartifact_package_group#id DataAwsccCodeartifactPackageGroup#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -796,7 +796,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodeartifactPackageGroup.DataAwsccCodeartifactPackageGroupOriginConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodeartifactpackagegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodeartifactpackagegroup"
 
 &dataawscccodeartifactpackagegroup.DataAwsccCodeartifactPackageGroupOriginConfiguration {
 
@@ -809,7 +809,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodeartifactp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodeartifactPackageGroup.DataAwsccCodeartifactPackageGroupOriginConfigurationRestrictions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodeartifactpackagegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodeartifactpackagegroup"
 
 &dataawscccodeartifactpackagegroup.DataAwsccCodeartifactPackageGroupOriginConfigurationRestrictions {
 
@@ -822,7 +822,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodeartifactp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodeartifactPackageGroup.DataAwsccCodeartifactPackageGroupOriginConfigurationRestrictionsExternalUpstream.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodeartifactpackagegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodeartifactpackagegroup"
 
 &dataawscccodeartifactpackagegroup.DataAwsccCodeartifactPackageGroupOriginConfigurationRestrictionsExternalUpstream {
 
@@ -835,7 +835,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodeartifactp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodeartifactPackageGroup.DataAwsccCodeartifactPackageGroupOriginConfigurationRestrictionsInternalUpstream.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodeartifactpackagegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodeartifactpackagegroup"
 
 &dataawscccodeartifactpackagegroup.DataAwsccCodeartifactPackageGroupOriginConfigurationRestrictionsInternalUpstream {
 
@@ -848,7 +848,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodeartifactp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodeartifactPackageGroup.DataAwsccCodeartifactPackageGroupOriginConfigurationRestrictionsPublish.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodeartifactpackagegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodeartifactpackagegroup"
 
 &dataawscccodeartifactpackagegroup.DataAwsccCodeartifactPackageGroupOriginConfigurationRestrictionsPublish {
 
@@ -861,7 +861,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodeartifactp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodeartifactPackageGroup.DataAwsccCodeartifactPackageGroupTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodeartifactpackagegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodeartifactpackagegroup"
 
 &dataawscccodeartifactpackagegroup.DataAwsccCodeartifactPackageGroupTags {
 
@@ -876,7 +876,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodeartifactp
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodeartifactPackageGroup.DataAwsccCodeartifactPackageGroupOriginConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodeartifactpackagegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodeartifactpackagegroup"
 
 dataawscccodeartifactpackagegroup.NewDataAwsccCodeartifactPackageGroupOriginConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCodeartifactPackageGroupOriginConfigurationOutputReference
 ```
@@ -1136,7 +1136,7 @@ func InternalValue() DataAwsccCodeartifactPackageGroupOriginConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodeartifactPackageGroup.DataAwsccCodeartifactPackageGroupOriginConfigurationRestrictionsExternalUpstreamOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodeartifactpackagegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodeartifactpackagegroup"
 
 dataawscccodeartifactpackagegroup.NewDataAwsccCodeartifactPackageGroupOriginConfigurationRestrictionsExternalUpstreamOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCodeartifactPackageGroupOriginConfigurationRestrictionsExternalUpstreamOutputReference
 ```
@@ -1407,7 +1407,7 @@ func InternalValue() DataAwsccCodeartifactPackageGroupOriginConfigurationRestric
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodeartifactPackageGroup.DataAwsccCodeartifactPackageGroupOriginConfigurationRestrictionsInternalUpstreamOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodeartifactpackagegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodeartifactpackagegroup"
 
 dataawscccodeartifactpackagegroup.NewDataAwsccCodeartifactPackageGroupOriginConfigurationRestrictionsInternalUpstreamOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCodeartifactPackageGroupOriginConfigurationRestrictionsInternalUpstreamOutputReference
 ```
@@ -1678,7 +1678,7 @@ func InternalValue() DataAwsccCodeartifactPackageGroupOriginConfigurationRestric
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodeartifactPackageGroup.DataAwsccCodeartifactPackageGroupOriginConfigurationRestrictionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodeartifactpackagegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodeartifactpackagegroup"
 
 dataawscccodeartifactpackagegroup.NewDataAwsccCodeartifactPackageGroupOriginConfigurationRestrictionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCodeartifactPackageGroupOriginConfigurationRestrictionsOutputReference
 ```
@@ -1960,7 +1960,7 @@ func InternalValue() DataAwsccCodeartifactPackageGroupOriginConfigurationRestric
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodeartifactPackageGroup.DataAwsccCodeartifactPackageGroupOriginConfigurationRestrictionsPublishOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodeartifactpackagegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodeartifactpackagegroup"
 
 dataawscccodeartifactpackagegroup.NewDataAwsccCodeartifactPackageGroupOriginConfigurationRestrictionsPublishOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCodeartifactPackageGroupOriginConfigurationRestrictionsPublishOutputReference
 ```
@@ -2231,7 +2231,7 @@ func InternalValue() DataAwsccCodeartifactPackageGroupOriginConfigurationRestric
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodeartifactPackageGroup.DataAwsccCodeartifactPackageGroupTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodeartifactpackagegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodeartifactpackagegroup"
 
 dataawscccodeartifactpackagegroup.NewDataAwsccCodeartifactPackageGroupTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCodeartifactPackageGroupTagsList
 ```
@@ -2380,7 +2380,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodeartifactPackageGroup.DataAwsccCodeartifactPackageGroupTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodeartifactpackagegroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodeartifactpackagegroup"
 
 dataawscccodeartifactpackagegroup.NewDataAwsccCodeartifactPackageGroupTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCodeartifactPackageGroupTagsOutputReference
 ```

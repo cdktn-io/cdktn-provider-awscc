@@ -4,12 +4,12 @@
 
 ### DataAwsccSecurityagentIntegration <a name="DataAwsccSecurityagentIntegration" id="@cdktn/provider-awscc.dataAwsccSecurityagentIntegration.DataAwsccSecurityagentIntegration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securityagent_integration awscc_securityagent_integration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securityagent_integration awscc_securityagent_integration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityagentIntegration.DataAwsccSecurityagentIntegration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityagentintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityagentintegration"
 
 dataawsccsecurityagentintegration.NewDataAwsccSecurityagentIntegration(scope Construct, id *string, config DataAwsccSecurityagentIntegrationConfig) DataAwsccSecurityagentIntegration
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSecurityagentIntegration.DataAwsccSecurityagentIntegration.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityagentintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityagentintegration"
 
 dataawsccsecurityagentintegration.DataAwsccSecurityagentIntegration_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSecurityagentIntegration.DataAwsccSecurityagentIntegration.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityagentintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityagentintegration"
 
 dataawsccsecurityagentintegration.DataAwsccSecurityagentIntegration_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsecurityagentintegration.DataAwsccSecurityagentIntegration_IsTerraformE
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSecurityagentIntegration.DataAwsccSecurityagentIntegration.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityagentintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityagentintegration"
 
 dataawsccsecurityagentintegration.DataAwsccSecurityagentIntegration_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsecurityagentintegration.DataAwsccSecurityagentIntegration_IsTerraformD
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSecurityagentIntegration.DataAwsccSecurityagentIntegration.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityagentintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityagentintegration"
 
 dataawsccsecurityagentintegration.DataAwsccSecurityagentIntegration_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSecurityagentInte
 
 The id of the existing DataAwsccSecurityagentIntegration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securityagent_integration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securityagent_integration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -708,7 +708,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityagentIntegration.DataAwsccSecurityagentIntegrationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityagentintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityagentintegration"
 
 &dataawsccsecurityagentintegration.DataAwsccSecurityagentIntegrationConfig {
 	Connection: interface{},
@@ -817,7 +817,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securityagent_integration#id DataAwsccSecurityagentIntegration#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securityagent_integration#id DataAwsccSecurityagentIntegration#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -829,7 +829,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityagentIntegration.DataAwsccSecurityagentIntegrationProviderInput.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityagentintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityagentintegration"
 
 &dataawsccsecurityagentintegration.DataAwsccSecurityagentIntegrationProviderInput {
 
@@ -842,7 +842,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityagent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityagentIntegration.DataAwsccSecurityagentIntegrationProviderInputBitbucket.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityagentintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityagentintegration"
 
 &dataawsccsecurityagentintegration.DataAwsccSecurityagentIntegrationProviderInputBitbucket {
 
@@ -855,7 +855,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityagent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityagentIntegration.DataAwsccSecurityagentIntegrationProviderInputConfluence.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityagentintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityagentintegration"
 
 &dataawsccsecurityagentintegration.DataAwsccSecurityagentIntegrationProviderInputConfluence {
 
@@ -868,7 +868,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityagent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityagentIntegration.DataAwsccSecurityagentIntegrationProviderInputGithub.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityagentintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityagentintegration"
 
 &dataawsccsecurityagentintegration.DataAwsccSecurityagentIntegrationProviderInputGithub {
 
@@ -881,7 +881,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityagent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityagentIntegration.DataAwsccSecurityagentIntegrationProviderInputGitlab.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityagentintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityagentintegration"
 
 &dataawsccsecurityagentintegration.DataAwsccSecurityagentIntegrationProviderInputGitlab {
 
@@ -894,7 +894,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityagent
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityagentIntegration.DataAwsccSecurityagentIntegrationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityagentintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityagentintegration"
 
 &dataawsccsecurityagentintegration.DataAwsccSecurityagentIntegrationTags {
 
@@ -909,7 +909,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityagent
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityagentIntegration.DataAwsccSecurityagentIntegrationProviderInputBitbucketOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityagentintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityagentintegration"
 
 dataawsccsecurityagentintegration.NewDataAwsccSecurityagentIntegrationProviderInputBitbucketOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSecurityagentIntegrationProviderInputBitbucketOutputReference
 ```
@@ -1202,7 +1202,7 @@ func InternalValue() DataAwsccSecurityagentIntegrationProviderInputBitbucket
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityagentIntegration.DataAwsccSecurityagentIntegrationProviderInputConfluenceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityagentintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityagentintegration"
 
 dataawsccsecurityagentintegration.NewDataAwsccSecurityagentIntegrationProviderInputConfluenceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSecurityagentIntegrationProviderInputConfluenceOutputReference
 ```
@@ -1495,7 +1495,7 @@ func InternalValue() DataAwsccSecurityagentIntegrationProviderInputConfluence
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityagentIntegration.DataAwsccSecurityagentIntegrationProviderInputGithubOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityagentintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityagentintegration"
 
 dataawsccsecurityagentintegration.NewDataAwsccSecurityagentIntegrationProviderInputGithubOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSecurityagentIntegrationProviderInputGithubOutputReference
 ```
@@ -1799,7 +1799,7 @@ func InternalValue() DataAwsccSecurityagentIntegrationProviderInputGithub
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityagentIntegration.DataAwsccSecurityagentIntegrationProviderInputGitlabOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityagentintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityagentintegration"
 
 dataawsccsecurityagentintegration.NewDataAwsccSecurityagentIntegrationProviderInputGitlabOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSecurityagentIntegrationProviderInputGitlabOutputReference
 ```
@@ -2092,7 +2092,7 @@ func InternalValue() DataAwsccSecurityagentIntegrationProviderInputGitlab
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityagentIntegration.DataAwsccSecurityagentIntegrationProviderInputOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityagentintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityagentintegration"
 
 dataawsccsecurityagentintegration.NewDataAwsccSecurityagentIntegrationProviderInputOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSecurityagentIntegrationProviderInputOutputReference
 ```
@@ -2385,7 +2385,7 @@ func InternalValue() DataAwsccSecurityagentIntegrationProviderInput
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityagentIntegration.DataAwsccSecurityagentIntegrationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityagentintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityagentintegration"
 
 dataawsccsecurityagentintegration.NewDataAwsccSecurityagentIntegrationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityagentIntegrationTagsList
 ```
@@ -2534,7 +2534,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityagentIntegration.DataAwsccSecurityagentIntegrationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityagentintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityagentintegration"
 
 dataawsccsecurityagentintegration.NewDataAwsccSecurityagentIntegrationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityagentIntegrationTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccDetectiveGraph <a name="DataAwsccDetectiveGraph" id="@cdktn/provider-awscc.dataAwsccDetectiveGraph.DataAwsccDetectiveGraph"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/detective_graph awscc_detective_graph}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/detective_graph awscc_detective_graph}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDetectiveGraph.DataAwsccDetectiveGraph.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdetectivegraph"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdetectivegraph"
 
 dataawsccdetectivegraph.NewDataAwsccDetectiveGraph(scope Construct, id *string, config DataAwsccDetectiveGraphConfig) DataAwsccDetectiveGraph
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccDetectiveGraph.DataAwsccDetectiveGraph.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdetectivegraph"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdetectivegraph"
 
 dataawsccdetectivegraph.DataAwsccDetectiveGraph_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccDetectiveGraph.DataAwsccDetectiveGraph.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdetectivegraph"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdetectivegraph"
 
 dataawsccdetectivegraph.DataAwsccDetectiveGraph_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccdetectivegraph.DataAwsccDetectiveGraph_IsTerraformElement(x interface{}
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccDetectiveGraph.DataAwsccDetectiveGraph.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdetectivegraph"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdetectivegraph"
 
 dataawsccdetectivegraph.DataAwsccDetectiveGraph_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccdetectivegraph.DataAwsccDetectiveGraph_IsTerraformDataSource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccDetectiveGraph.DataAwsccDetectiveGraph.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdetectivegraph"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdetectivegraph"
 
 dataawsccdetectivegraph.DataAwsccDetectiveGraph_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDetectiveGraph to
 
 The id of the existing DataAwsccDetectiveGraph that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/detective_graph#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/detective_graph#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -620,7 +620,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDetectiveGraph.DataAwsccDetectiveGraphConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdetectivegraph"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdetectivegraph"
 
 &dataawsccdetectivegraph.DataAwsccDetectiveGraphConfig {
 	Connection: interface{},
@@ -729,7 +729,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/detective_graph#id DataAwsccDetectiveGraph#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/detective_graph#id DataAwsccDetectiveGraph#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -741,7 +741,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDetectiveGraph.DataAwsccDetectiveGraphTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdetectivegraph"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdetectivegraph"
 
 &dataawsccdetectivegraph.DataAwsccDetectiveGraphTags {
 
@@ -756,7 +756,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdetectivegrap
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDetectiveGraph.DataAwsccDetectiveGraphTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdetectivegraph"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdetectivegraph"
 
 dataawsccdetectivegraph.NewDataAwsccDetectiveGraphTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDetectiveGraphTagsList
 ```
@@ -905,7 +905,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDetectiveGraph.DataAwsccDetectiveGraphTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdetectivegraph"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdetectivegraph"
 
 dataawsccdetectivegraph.NewDataAwsccDetectiveGraphTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDetectiveGraphTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccResiliencehubApp <a name="DataAwsccResiliencehubApp" id="@cdktn/provider-awscc.dataAwsccResiliencehubApp.DataAwsccResiliencehubApp"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/resiliencehub_app awscc_resiliencehub_app}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/resiliencehub_app awscc_resiliencehub_app}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccResiliencehubApp.DataAwsccResiliencehubApp.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresiliencehubapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresiliencehubapp"
 
 dataawsccresiliencehubapp.NewDataAwsccResiliencehubApp(scope Construct, id *string, config DataAwsccResiliencehubAppConfig) DataAwsccResiliencehubApp
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccResiliencehubApp.DataAwsccResiliencehubApp.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresiliencehubapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresiliencehubapp"
 
 dataawsccresiliencehubapp.DataAwsccResiliencehubApp_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccResiliencehubApp.DataAwsccResiliencehubApp.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresiliencehubapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresiliencehubapp"
 
 dataawsccresiliencehubapp.DataAwsccResiliencehubApp_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccresiliencehubapp.DataAwsccResiliencehubApp_IsTerraformElement(x interfa
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccResiliencehubApp.DataAwsccResiliencehubApp.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresiliencehubapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresiliencehubapp"
 
 dataawsccresiliencehubapp.DataAwsccResiliencehubApp_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccresiliencehubapp.DataAwsccResiliencehubApp_IsTerraformDataSource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccResiliencehubApp.DataAwsccResiliencehubApp.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresiliencehubapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresiliencehubapp"
 
 dataawsccresiliencehubapp.DataAwsccResiliencehubApp_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccResiliencehubApp 
 
 The id of the existing DataAwsccResiliencehubApp that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/resiliencehub_app#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/resiliencehub_app#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -708,7 +708,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccResiliencehubApp.DataAwsccResiliencehubAppConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresiliencehubapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresiliencehubapp"
 
 &dataawsccresiliencehubapp.DataAwsccResiliencehubAppConfig {
 	Connection: interface{},
@@ -817,7 +817,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/resiliencehub_app#id DataAwsccResiliencehubApp#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/resiliencehub_app#id DataAwsccResiliencehubApp#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -829,7 +829,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccResiliencehubApp.DataAwsccResiliencehubAppEventSubscriptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresiliencehubapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresiliencehubapp"
 
 &dataawsccresiliencehubapp.DataAwsccResiliencehubAppEventSubscriptions {
 
@@ -842,7 +842,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresiliencehub
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccResiliencehubApp.DataAwsccResiliencehubAppPermissionModel.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresiliencehubapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresiliencehubapp"
 
 &dataawsccresiliencehubapp.DataAwsccResiliencehubAppPermissionModel {
 
@@ -855,7 +855,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresiliencehub
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccResiliencehubApp.DataAwsccResiliencehubAppResourceMappings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresiliencehubapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresiliencehubapp"
 
 &dataawsccresiliencehubapp.DataAwsccResiliencehubAppResourceMappings {
 
@@ -868,7 +868,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresiliencehub
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccResiliencehubApp.DataAwsccResiliencehubAppResourceMappingsPhysicalResourceId.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresiliencehubapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresiliencehubapp"
 
 &dataawsccresiliencehubapp.DataAwsccResiliencehubAppResourceMappingsPhysicalResourceId {
 
@@ -883,7 +883,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresiliencehub
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccResiliencehubApp.DataAwsccResiliencehubAppEventSubscriptionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresiliencehubapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresiliencehubapp"
 
 dataawsccresiliencehubapp.NewDataAwsccResiliencehubAppEventSubscriptionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccResiliencehubAppEventSubscriptionsList
 ```
@@ -1032,7 +1032,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccResiliencehubApp.DataAwsccResiliencehubAppEventSubscriptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresiliencehubapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresiliencehubapp"
 
 dataawsccresiliencehubapp.NewDataAwsccResiliencehubAppEventSubscriptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccResiliencehubAppEventSubscriptionsOutputReference
 ```
@@ -1332,7 +1332,7 @@ func InternalValue() DataAwsccResiliencehubAppEventSubscriptions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccResiliencehubApp.DataAwsccResiliencehubAppPermissionModelOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresiliencehubapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresiliencehubapp"
 
 dataawsccresiliencehubapp.NewDataAwsccResiliencehubAppPermissionModelOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccResiliencehubAppPermissionModelOutputReference
 ```
@@ -1614,7 +1614,7 @@ func InternalValue() DataAwsccResiliencehubAppPermissionModel
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccResiliencehubApp.DataAwsccResiliencehubAppResourceMappingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresiliencehubapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresiliencehubapp"
 
 dataawsccresiliencehubapp.NewDataAwsccResiliencehubAppResourceMappingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccResiliencehubAppResourceMappingsList
 ```
@@ -1763,7 +1763,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccResiliencehubApp.DataAwsccResiliencehubAppResourceMappingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresiliencehubapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresiliencehubapp"
 
 dataawsccresiliencehubapp.NewDataAwsccResiliencehubAppResourceMappingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccResiliencehubAppResourceMappingsOutputReference
 ```
@@ -2096,7 +2096,7 @@ func InternalValue() DataAwsccResiliencehubAppResourceMappings
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccResiliencehubApp.DataAwsccResiliencehubAppResourceMappingsPhysicalResourceIdOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresiliencehubapp"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresiliencehubapp"
 
 dataawsccresiliencehubapp.NewDataAwsccResiliencehubAppResourceMappingsPhysicalResourceIdOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccResiliencehubAppResourceMappingsPhysicalResourceIdOutputReference
 ```

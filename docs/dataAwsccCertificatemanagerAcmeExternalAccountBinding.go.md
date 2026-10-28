@@ -4,12 +4,12 @@
 
 ### DataAwsccCertificatemanagerAcmeExternalAccountBinding <a name="DataAwsccCertificatemanagerAcmeExternalAccountBinding" id="@cdktn/provider-awscc.dataAwsccCertificatemanagerAcmeExternalAccountBinding.DataAwsccCertificatemanagerAcmeExternalAccountBinding"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/certificatemanager_acme_external_account_binding awscc_certificatemanager_acme_external_account_binding}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/certificatemanager_acme_external_account_binding awscc_certificatemanager_acme_external_account_binding}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCertificatemanagerAcmeExternalAccountBinding.DataAwsccCertificatemanagerAcmeExternalAccountBinding.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccertificatemanageracmeexternalaccountbinding"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccertificatemanageracmeexternalaccountbinding"
 
 dataawscccertificatemanageracmeexternalaccountbinding.NewDataAwsccCertificatemanagerAcmeExternalAccountBinding(scope Construct, id *string, config DataAwsccCertificatemanagerAcmeExternalAccountBindingConfig) DataAwsccCertificatemanagerAcmeExternalAccountBinding
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCertificatemanagerAcmeExternalAccountBinding.DataAwsccCertificatemanagerAcmeExternalAccountBinding.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccertificatemanageracmeexternalaccountbinding"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccertificatemanageracmeexternalaccountbinding"
 
 dataawscccertificatemanageracmeexternalaccountbinding.DataAwsccCertificatemanagerAcmeExternalAccountBinding_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCertificatemanagerAcmeExternalAccountBinding.DataAwsccCertificatemanagerAcmeExternalAccountBinding.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccertificatemanageracmeexternalaccountbinding"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccertificatemanageracmeexternalaccountbinding"
 
 dataawscccertificatemanageracmeexternalaccountbinding.DataAwsccCertificatemanagerAcmeExternalAccountBinding_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccertificatemanageracmeexternalaccountbinding.DataAwsccCertificatemanage
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCertificatemanagerAcmeExternalAccountBinding.DataAwsccCertificatemanagerAcmeExternalAccountBinding.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccertificatemanageracmeexternalaccountbinding"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccertificatemanageracmeexternalaccountbinding"
 
 dataawscccertificatemanageracmeexternalaccountbinding.DataAwsccCertificatemanagerAcmeExternalAccountBinding_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccertificatemanageracmeexternalaccountbinding.DataAwsccCertificatemanage
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCertificatemanagerAcmeExternalAccountBinding.DataAwsccCertificatemanagerAcmeExternalAccountBinding.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccertificatemanageracmeexternalaccountbinding"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccertificatemanageracmeexternalaccountbinding"
 
 dataawscccertificatemanageracmeexternalaccountbinding.DataAwsccCertificatemanagerAcmeExternalAccountBinding_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCertificatemanage
 
 The id of the existing DataAwsccCertificatemanagerAcmeExternalAccountBinding that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/certificatemanager_acme_external_account_binding#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/certificatemanager_acme_external_account_binding#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -642,7 +642,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCertificatemanagerAcmeExternalAccountBinding.DataAwsccCertificatemanagerAcmeExternalAccountBindingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccertificatemanageracmeexternalaccountbinding"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccertificatemanageracmeexternalaccountbinding"
 
 &dataawscccertificatemanageracmeexternalaccountbinding.DataAwsccCertificatemanagerAcmeExternalAccountBindingConfig {
 	Connection: interface{},
@@ -751,7 +751,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/certificatemanager_acme_external_account_binding#id DataAwsccCertificatemanagerAcmeExternalAccountBinding#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/certificatemanager_acme_external_account_binding#id DataAwsccCertificatemanagerAcmeExternalAccountBinding#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -763,7 +763,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCertificatemanagerAcmeExternalAccountBinding.DataAwsccCertificatemanagerAcmeExternalAccountBindingExpiration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccertificatemanageracmeexternalaccountbinding"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccertificatemanageracmeexternalaccountbinding"
 
 &dataawscccertificatemanageracmeexternalaccountbinding.DataAwsccCertificatemanagerAcmeExternalAccountBindingExpiration {
 
@@ -776,7 +776,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccertificatema
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCertificatemanagerAcmeExternalAccountBinding.DataAwsccCertificatemanagerAcmeExternalAccountBindingTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccertificatemanageracmeexternalaccountbinding"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccertificatemanageracmeexternalaccountbinding"
 
 &dataawscccertificatemanageracmeexternalaccountbinding.DataAwsccCertificatemanagerAcmeExternalAccountBindingTags {
 
@@ -791,7 +791,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccertificatema
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCertificatemanagerAcmeExternalAccountBinding.DataAwsccCertificatemanagerAcmeExternalAccountBindingExpirationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccertificatemanageracmeexternalaccountbinding"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccertificatemanageracmeexternalaccountbinding"
 
 dataawscccertificatemanageracmeexternalaccountbinding.NewDataAwsccCertificatemanagerAcmeExternalAccountBindingExpirationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCertificatemanagerAcmeExternalAccountBindingExpirationOutputReference
 ```
@@ -1062,7 +1062,7 @@ func InternalValue() DataAwsccCertificatemanagerAcmeExternalAccountBindingExpira
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCertificatemanagerAcmeExternalAccountBinding.DataAwsccCertificatemanagerAcmeExternalAccountBindingTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccertificatemanageracmeexternalaccountbinding"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccertificatemanageracmeexternalaccountbinding"
 
 dataawscccertificatemanageracmeexternalaccountbinding.NewDataAwsccCertificatemanagerAcmeExternalAccountBindingTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCertificatemanagerAcmeExternalAccountBindingTagsList
 ```
@@ -1211,7 +1211,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCertificatemanagerAcmeExternalAccountBinding.DataAwsccCertificatemanagerAcmeExternalAccountBindingTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccertificatemanageracmeexternalaccountbinding"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccertificatemanageracmeexternalaccountbinding"
 
 dataawscccertificatemanageracmeexternalaccountbinding.NewDataAwsccCertificatemanagerAcmeExternalAccountBindingTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCertificatemanagerAcmeExternalAccountBindingTagsOutputReference
 ```

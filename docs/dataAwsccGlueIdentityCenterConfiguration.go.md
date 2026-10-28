@@ -4,12 +4,12 @@
 
 ### DataAwsccGlueIdentityCenterConfiguration <a name="DataAwsccGlueIdentityCenterConfiguration" id="@cdktn/provider-awscc.dataAwsccGlueIdentityCenterConfiguration.DataAwsccGlueIdentityCenterConfiguration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/glue_identity_center_configuration awscc_glue_identity_center_configuration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/glue_identity_center_configuration awscc_glue_identity_center_configuration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueIdentityCenterConfiguration.DataAwsccGlueIdentityCenterConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueidentitycenterconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueidentitycenterconfiguration"
 
 dataawsccglueidentitycenterconfiguration.NewDataAwsccGlueIdentityCenterConfiguration(scope Construct, id *string, config DataAwsccGlueIdentityCenterConfigurationConfig) DataAwsccGlueIdentityCenterConfiguration
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccGlueIdentityCenterConfiguration.DataAwsccGlueIdentityCenterConfiguration.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueidentitycenterconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueidentitycenterconfiguration"
 
 dataawsccglueidentitycenterconfiguration.DataAwsccGlueIdentityCenterConfiguration_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccGlueIdentityCenterConfiguration.DataAwsccGlueIdentityCenterConfiguration.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueidentitycenterconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueidentitycenterconfiguration"
 
 dataawsccglueidentitycenterconfiguration.DataAwsccGlueIdentityCenterConfiguration_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccglueidentitycenterconfiguration.DataAwsccGlueIdentityCenterConfiguratio
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccGlueIdentityCenterConfiguration.DataAwsccGlueIdentityCenterConfiguration.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueidentitycenterconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueidentitycenterconfiguration"
 
 dataawsccglueidentitycenterconfiguration.DataAwsccGlueIdentityCenterConfiguration_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccglueidentitycenterconfiguration.DataAwsccGlueIdentityCenterConfiguratio
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccGlueIdentityCenterConfiguration.DataAwsccGlueIdentityCenterConfiguration.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueidentitycenterconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueidentitycenterconfiguration"
 
 dataawsccglueidentitycenterconfiguration.DataAwsccGlueIdentityCenterConfiguration_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccGlueIdentityCente
 
 The id of the existing DataAwsccGlueIdentityCenterConfiguration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/glue_identity_center_configuration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/glue_identity_center_configuration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -642,7 +642,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueIdentityCenterConfiguration.DataAwsccGlueIdentityCenterConfigurationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueidentitycenterconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueidentitycenterconfiguration"
 
 &dataawsccglueidentitycenterconfiguration.DataAwsccGlueIdentityCenterConfigurationConfig {
 	Connection: interface{},
@@ -751,7 +751,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/glue_identity_center_configuration#id DataAwsccGlueIdentityCenterConfiguration#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/glue_identity_center_configuration#id DataAwsccGlueIdentityCenterConfiguration#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2VerifiedAccessGroup <a name="DataAwsccEc2VerifiedAccessGroup" id="@cdktn/provider-awscc.dataAwsccEc2VerifiedAccessGroup.DataAwsccEc2VerifiedAccessGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_verified_access_group awscc_ec2_verified_access_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_verified_access_group awscc_ec2_verified_access_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2VerifiedAccessGroup.DataAwsccEc2VerifiedAccessGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2verifiedaccessgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2verifiedaccessgroup"
 
 dataawsccec2verifiedaccessgroup.NewDataAwsccEc2VerifiedAccessGroup(scope Construct, id *string, config DataAwsccEc2VerifiedAccessGroupConfig) DataAwsccEc2VerifiedAccessGroup
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2VerifiedAccessGroup.DataAwsccEc2VerifiedAccessGroup.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2verifiedaccessgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2verifiedaccessgroup"
 
 dataawsccec2verifiedaccessgroup.DataAwsccEc2VerifiedAccessGroup_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2VerifiedAccessGroup.DataAwsccEc2VerifiedAccessGroup.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2verifiedaccessgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2verifiedaccessgroup"
 
 dataawsccec2verifiedaccessgroup.DataAwsccEc2VerifiedAccessGroup_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2verifiedaccessgroup.DataAwsccEc2VerifiedAccessGroup_IsTerraformEleme
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2VerifiedAccessGroup.DataAwsccEc2VerifiedAccessGroup.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2verifiedaccessgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2verifiedaccessgroup"
 
 dataawsccec2verifiedaccessgroup.DataAwsccEc2VerifiedAccessGroup_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2verifiedaccessgroup.DataAwsccEc2VerifiedAccessGroup_IsTerraformDataS
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2VerifiedAccessGroup.DataAwsccEc2VerifiedAccessGroup.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2verifiedaccessgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2verifiedaccessgroup"
 
 dataawsccec2verifiedaccessgroup.DataAwsccEc2VerifiedAccessGroup_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2VerifiedAccess
 
 The id of the existing DataAwsccEc2VerifiedAccessGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_verified_access_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_verified_access_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -708,7 +708,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2VerifiedAccessGroup.DataAwsccEc2VerifiedAccessGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2verifiedaccessgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2verifiedaccessgroup"
 
 &dataawsccec2verifiedaccessgroup.DataAwsccEc2VerifiedAccessGroupConfig {
 	Connection: interface{},
@@ -817,7 +817,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_verified_access_group#id DataAwsccEc2VerifiedAccessGroup#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_verified_access_group#id DataAwsccEc2VerifiedAccessGroup#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -829,7 +829,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2VerifiedAccessGroup.DataAwsccEc2VerifiedAccessGroupSseSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2verifiedaccessgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2verifiedaccessgroup"
 
 &dataawsccec2verifiedaccessgroup.DataAwsccEc2VerifiedAccessGroupSseSpecification {
 
@@ -842,7 +842,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2verifiedac
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2VerifiedAccessGroup.DataAwsccEc2VerifiedAccessGroupTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2verifiedaccessgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2verifiedaccessgroup"
 
 &dataawsccec2verifiedaccessgroup.DataAwsccEc2VerifiedAccessGroupTags {
 
@@ -857,7 +857,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2verifiedac
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2VerifiedAccessGroup.DataAwsccEc2VerifiedAccessGroupSseSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2verifiedaccessgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2verifiedaccessgroup"
 
 dataawsccec2verifiedaccessgroup.NewDataAwsccEc2VerifiedAccessGroupSseSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEc2VerifiedAccessGroupSseSpecificationOutputReference
 ```
@@ -1128,7 +1128,7 @@ func InternalValue() DataAwsccEc2VerifiedAccessGroupSseSpecification
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2VerifiedAccessGroup.DataAwsccEc2VerifiedAccessGroupTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2verifiedaccessgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2verifiedaccessgroup"
 
 dataawsccec2verifiedaccessgroup.NewDataAwsccEc2VerifiedAccessGroupTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEc2VerifiedAccessGroupTagsList
 ```
@@ -1277,7 +1277,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2VerifiedAccessGroup.DataAwsccEc2VerifiedAccessGroupTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2verifiedaccessgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2verifiedaccessgroup"
 
 dataawsccec2verifiedaccessgroup.NewDataAwsccEc2VerifiedAccessGroupTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEc2VerifiedAccessGroupTagsOutputReference
 ```

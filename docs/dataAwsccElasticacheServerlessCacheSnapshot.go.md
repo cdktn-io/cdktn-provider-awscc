@@ -4,12 +4,12 @@
 
 ### DataAwsccElasticacheServerlessCacheSnapshot <a name="DataAwsccElasticacheServerlessCacheSnapshot" id="@cdktn/provider-awscc.dataAwsccElasticacheServerlessCacheSnapshot.DataAwsccElasticacheServerlessCacheSnapshot"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/elasticache_serverless_cache_snapshot awscc_elasticache_serverless_cache_snapshot}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/elasticache_serverless_cache_snapshot awscc_elasticache_serverless_cache_snapshot}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticacheServerlessCacheSnapshot.DataAwsccElasticacheServerlessCacheSnapshot.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticacheserverlesscachesnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticacheserverlesscachesnapshot"
 
 dataawsccelasticacheserverlesscachesnapshot.NewDataAwsccElasticacheServerlessCacheSnapshot(scope Construct, id *string, config DataAwsccElasticacheServerlessCacheSnapshotConfig) DataAwsccElasticacheServerlessCacheSnapshot
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccElasticacheServerlessCacheSnapshot.DataAwsccElasticacheServerlessCacheSnapshot.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticacheserverlesscachesnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticacheserverlesscachesnapshot"
 
 dataawsccelasticacheserverlesscachesnapshot.DataAwsccElasticacheServerlessCacheSnapshot_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccElasticacheServerlessCacheSnapshot.DataAwsccElasticacheServerlessCacheSnapshot.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticacheserverlesscachesnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticacheserverlesscachesnapshot"
 
 dataawsccelasticacheserverlesscachesnapshot.DataAwsccElasticacheServerlessCacheSnapshot_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccelasticacheserverlesscachesnapshot.DataAwsccElasticacheServerlessCacheS
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccElasticacheServerlessCacheSnapshot.DataAwsccElasticacheServerlessCacheSnapshot.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticacheserverlesscachesnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticacheserverlesscachesnapshot"
 
 dataawsccelasticacheserverlesscachesnapshot.DataAwsccElasticacheServerlessCacheSnapshot_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccelasticacheserverlesscachesnapshot.DataAwsccElasticacheServerlessCacheS
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccElasticacheServerlessCacheSnapshot.DataAwsccElasticacheServerlessCacheSnapshot.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticacheserverlesscachesnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticacheserverlesscachesnapshot"
 
 dataawsccelasticacheserverlesscachesnapshot.DataAwsccElasticacheServerlessCacheSnapshot_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccElasticacheServer
 
 The id of the existing DataAwsccElasticacheServerlessCacheSnapshot that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/elasticache_serverless_cache_snapshot#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/elasticache_serverless_cache_snapshot#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -697,7 +697,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccElasticacheServerlessCacheSnapshot.DataAwsccElasticacheServerlessCacheSnapshotConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticacheserverlesscachesnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticacheserverlesscachesnapshot"
 
 &dataawsccelasticacheserverlesscachesnapshot.DataAwsccElasticacheServerlessCacheSnapshotConfig {
 	Connection: interface{},
@@ -806,7 +806,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/elasticache_serverless_cache_snapshot#id DataAwsccElasticacheServerlessCacheSnapshot#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/elasticache_serverless_cache_snapshot#id DataAwsccElasticacheServerlessCacheSnapshot#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -818,7 +818,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccElasticacheServerlessCacheSnapshot.DataAwsccElasticacheServerlessCacheSnapshotServerlessCacheConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticacheserverlesscachesnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticacheserverlesscachesnapshot"
 
 &dataawsccelasticacheserverlesscachesnapshot.DataAwsccElasticacheServerlessCacheSnapshotServerlessCacheConfiguration {
 
@@ -831,7 +831,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticachese
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccElasticacheServerlessCacheSnapshot.DataAwsccElasticacheServerlessCacheSnapshotTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticacheserverlesscachesnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticacheserverlesscachesnapshot"
 
 &dataawsccelasticacheserverlesscachesnapshot.DataAwsccElasticacheServerlessCacheSnapshotTags {
 
@@ -846,7 +846,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticachese
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticacheServerlessCacheSnapshot.DataAwsccElasticacheServerlessCacheSnapshotServerlessCacheConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticacheserverlesscachesnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticacheserverlesscachesnapshot"
 
 dataawsccelasticacheserverlesscachesnapshot.NewDataAwsccElasticacheServerlessCacheSnapshotServerlessCacheConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccElasticacheServerlessCacheSnapshotServerlessCacheConfigurationOutputReference
 ```
@@ -1128,7 +1128,7 @@ func InternalValue() DataAwsccElasticacheServerlessCacheSnapshotServerlessCacheC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticacheServerlessCacheSnapshot.DataAwsccElasticacheServerlessCacheSnapshotTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticacheserverlesscachesnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticacheserverlesscachesnapshot"
 
 dataawsccelasticacheserverlesscachesnapshot.NewDataAwsccElasticacheServerlessCacheSnapshotTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccElasticacheServerlessCacheSnapshotTagsList
 ```
@@ -1277,7 +1277,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticacheServerlessCacheSnapshot.DataAwsccElasticacheServerlessCacheSnapshotTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticacheserverlesscachesnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticacheserverlesscachesnapshot"
 
 dataawsccelasticacheserverlesscachesnapshot.NewDataAwsccElasticacheServerlessCacheSnapshotTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccElasticacheServerlessCacheSnapshotTagsOutputReference
 ```

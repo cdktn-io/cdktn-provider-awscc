@@ -4,12 +4,12 @@
 
 ### ServicecatalogServiceActionAssociation <a name="ServicecatalogServiceActionAssociation" id="@cdktn/provider-awscc.servicecatalogServiceActionAssociation.ServicecatalogServiceActionAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicecatalog_service_action_association awscc_servicecatalog_service_action_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicecatalog_service_action_association awscc_servicecatalog_service_action_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.servicecatalogServiceActionAssociation.ServicecatalogServiceActionAssociation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/servicecatalogserviceactionassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/servicecatalogserviceactionassociation"
 
 servicecatalogserviceactionassociation.NewServicecatalogServiceActionAssociation(scope Construct, id *string, config ServicecatalogServiceActionAssociationConfig) ServicecatalogServiceActionAssociation
 ```
@@ -400,7 +400,7 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.servicecatalogServiceActionAssociation.ServicecatalogServiceActionAssociation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/servicecatalogserviceactionassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/servicecatalogserviceactionassociation"
 
 servicecatalogserviceactionassociation.ServicecatalogServiceActionAssociation_IsConstruct(x interface{}) *bool
 ```
@@ -432,7 +432,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.servicecatalogServiceActionAssociation.ServicecatalogServiceActionAssociation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/servicecatalogserviceactionassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/servicecatalogserviceactionassociation"
 
 servicecatalogserviceactionassociation.ServicecatalogServiceActionAssociation_IsTerraformElement(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ servicecatalogserviceactionassociation.ServicecatalogServiceActionAssociation_Is
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.servicecatalogServiceActionAssociation.ServicecatalogServiceActionAssociation.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/servicecatalogserviceactionassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/servicecatalogserviceactionassociation"
 
 servicecatalogserviceactionassociation.ServicecatalogServiceActionAssociation_IsTerraformResource(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ servicecatalogserviceactionassociation.ServicecatalogServiceActionAssociation_Is
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.servicecatalogServiceActionAssociation.ServicecatalogServiceActionAssociation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/servicecatalogserviceactionassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/servicecatalogserviceactionassociation"
 
 servicecatalogserviceactionassociation.ServicecatalogServiceActionAssociation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -489,7 +489,7 @@ The construct id used in the generated config for the ServicecatalogServiceActio
 
 The id of the existing ServicecatalogServiceActionAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicecatalog_service_action_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicecatalog_service_action_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -766,7 +766,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.servicecatalogServiceActionAssociation.ServicecatalogServiceActionAssociationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/servicecatalogserviceactionassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/servicecatalogserviceactionassociation"
 
 &servicecatalogserviceactionassociation.ServicecatalogServiceActionAssociationConfig {
 	Connection: interface{},
@@ -793,9 +793,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/servicecatalogservicea
 | <code><a href="#@cdktn/provider-awscc.servicecatalogServiceActionAssociation.ServicecatalogServiceActionAssociationConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.servicecatalogServiceActionAssociation.ServicecatalogServiceActionAssociationConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.servicecatalogServiceActionAssociation.ServicecatalogServiceActionAssociationConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.servicecatalogServiceActionAssociation.ServicecatalogServiceActionAssociationConfig.property.productId">ProductId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicecatalog_service_action_association#product_id ServicecatalogServiceActionAssociation#product_id}. |
-| <code><a href="#@cdktn/provider-awscc.servicecatalogServiceActionAssociation.ServicecatalogServiceActionAssociationConfig.property.provisioningArtifactId">ProvisioningArtifactId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicecatalog_service_action_association#provisioning_artifact_id ServicecatalogServiceActionAssociation#provisioning_artifact_id}. |
-| <code><a href="#@cdktn/provider-awscc.servicecatalogServiceActionAssociation.ServicecatalogServiceActionAssociationConfig.property.serviceActionId">ServiceActionId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicecatalog_service_action_association#service_action_id ServicecatalogServiceActionAssociation#service_action_id}. |
+| <code><a href="#@cdktn/provider-awscc.servicecatalogServiceActionAssociation.ServicecatalogServiceActionAssociationConfig.property.productId">ProductId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicecatalog_service_action_association#product_id ServicecatalogServiceActionAssociation#product_id}. |
+| <code><a href="#@cdktn/provider-awscc.servicecatalogServiceActionAssociation.ServicecatalogServiceActionAssociationConfig.property.provisioningArtifactId">ProvisioningArtifactId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicecatalog_service_action_association#provisioning_artifact_id ServicecatalogServiceActionAssociation#provisioning_artifact_id}. |
+| <code><a href="#@cdktn/provider-awscc.servicecatalogServiceActionAssociation.ServicecatalogServiceActionAssociationConfig.property.serviceActionId">ServiceActionId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicecatalog_service_action_association#service_action_id ServicecatalogServiceActionAssociation#service_action_id}. |
 
 ---
 
@@ -877,7 +877,7 @@ ProductId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicecatalog_service_action_association#product_id ServicecatalogServiceActionAssociation#product_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicecatalog_service_action_association#product_id ServicecatalogServiceActionAssociation#product_id}.
 
 ---
 
@@ -889,7 +889,7 @@ ProvisioningArtifactId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicecatalog_service_action_association#provisioning_artifact_id ServicecatalogServiceActionAssociation#provisioning_artifact_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicecatalog_service_action_association#provisioning_artifact_id ServicecatalogServiceActionAssociation#provisioning_artifact_id}.
 
 ---
 
@@ -901,7 +901,7 @@ ServiceActionId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicecatalog_service_action_association#service_action_id ServicecatalogServiceActionAssociation#service_action_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicecatalog_service_action_association#service_action_id ServicecatalogServiceActionAssociation#service_action_id}.
 
 ---
 

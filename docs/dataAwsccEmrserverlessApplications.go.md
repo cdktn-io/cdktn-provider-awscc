@@ -4,12 +4,12 @@
 
 ### DataAwsccEmrserverlessApplications <a name="DataAwsccEmrserverlessApplications" id="@cdktn/provider-awscc.dataAwsccEmrserverlessApplications.DataAwsccEmrserverlessApplications"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/emrserverless_applications awscc_emrserverless_applications}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/emrserverless_applications awscc_emrserverless_applications}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEmrserverlessApplications.DataAwsccEmrserverlessApplications.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrserverlessapplications"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrserverlessapplications"
 
 dataawsccemrserverlessapplications.NewDataAwsccEmrserverlessApplications(scope Construct, id *string, config DataAwsccEmrserverlessApplicationsConfig) DataAwsccEmrserverlessApplications
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEmrserverlessApplications.DataAwsccEmrserverlessApplications.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrserverlessapplications"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrserverlessapplications"
 
 dataawsccemrserverlessapplications.DataAwsccEmrserverlessApplications_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEmrserverlessApplications.DataAwsccEmrserverlessApplications.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrserverlessapplications"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrserverlessapplications"
 
 dataawsccemrserverlessapplications.DataAwsccEmrserverlessApplications_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccemrserverlessapplications.DataAwsccEmrserverlessApplications_IsTerrafor
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEmrserverlessApplications.DataAwsccEmrserverlessApplications.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrserverlessapplications"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrserverlessapplications"
 
 dataawsccemrserverlessapplications.DataAwsccEmrserverlessApplications_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccemrserverlessapplications.DataAwsccEmrserverlessApplications_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEmrserverlessApplications.DataAwsccEmrserverlessApplications.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrserverlessapplications"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrserverlessapplications"
 
 dataawsccemrserverlessapplications.DataAwsccEmrserverlessApplications_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEmrserverlessAppl
 
 The id of the existing DataAwsccEmrserverlessApplications that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/emrserverless_applications#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/emrserverless_applications#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEmrserverlessApplications.DataAwsccEmrserverlessApplicationsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrserverlessapplications"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrserverlessapplications"
 
 &dataawsccemrserverlessapplications.DataAwsccEmrserverlessApplicationsConfig {
 	Connection: interface{},

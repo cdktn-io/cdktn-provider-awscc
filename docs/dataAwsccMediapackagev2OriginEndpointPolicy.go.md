@@ -4,12 +4,12 @@
 
 ### DataAwsccMediapackagev2OriginEndpointPolicy <a name="DataAwsccMediapackagev2OriginEndpointPolicy" id="@cdktn/provider-awscc.dataAwsccMediapackagev2OriginEndpointPolicy.DataAwsccMediapackagev2OriginEndpointPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediapackagev2_origin_endpoint_policy awscc_mediapackagev2_origin_endpoint_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediapackagev2_origin_endpoint_policy awscc_mediapackagev2_origin_endpoint_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediapackagev2OriginEndpointPolicy.DataAwsccMediapackagev2OriginEndpointPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagev2originendpointpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagev2originendpointpolicy"
 
 dataawsccmediapackagev2originendpointpolicy.NewDataAwsccMediapackagev2OriginEndpointPolicy(scope Construct, id *string, config DataAwsccMediapackagev2OriginEndpointPolicyConfig) DataAwsccMediapackagev2OriginEndpointPolicy
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccMediapackagev2OriginEndpointPolicy.DataAwsccMediapackagev2OriginEndpointPolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagev2originendpointpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagev2originendpointpolicy"
 
 dataawsccmediapackagev2originendpointpolicy.DataAwsccMediapackagev2OriginEndpointPolicy_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccMediapackagev2OriginEndpointPolicy.DataAwsccMediapackagev2OriginEndpointPolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagev2originendpointpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagev2originendpointpolicy"
 
 dataawsccmediapackagev2originendpointpolicy.DataAwsccMediapackagev2OriginEndpointPolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccmediapackagev2originendpointpolicy.DataAwsccMediapackagev2OriginEndpoin
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccMediapackagev2OriginEndpointPolicy.DataAwsccMediapackagev2OriginEndpointPolicy.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagev2originendpointpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagev2originendpointpolicy"
 
 dataawsccmediapackagev2originendpointpolicy.DataAwsccMediapackagev2OriginEndpointPolicy_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccmediapackagev2originendpointpolicy.DataAwsccMediapackagev2OriginEndpoin
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccMediapackagev2OriginEndpointPolicy.DataAwsccMediapackagev2OriginEndpointPolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagev2originendpointpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagev2originendpointpolicy"
 
 dataawsccmediapackagev2originendpointpolicy.DataAwsccMediapackagev2OriginEndpointPolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccMediapackagev2Ori
 
 The id of the existing DataAwsccMediapackagev2OriginEndpointPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediapackagev2_origin_endpoint_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediapackagev2_origin_endpoint_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -642,7 +642,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediapackagev2OriginEndpointPolicy.DataAwsccMediapackagev2OriginEndpointPolicyCdnAuthConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagev2originendpointpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagev2originendpointpolicy"
 
 &dataawsccmediapackagev2originendpointpolicy.DataAwsccMediapackagev2OriginEndpointPolicyCdnAuthConfiguration {
 
@@ -655,7 +655,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagev
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediapackagev2OriginEndpointPolicy.DataAwsccMediapackagev2OriginEndpointPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagev2originendpointpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagev2originendpointpolicy"
 
 &dataawsccmediapackagev2originendpointpolicy.DataAwsccMediapackagev2OriginEndpointPolicyConfig {
 	Connection: interface{},
@@ -764,7 +764,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediapackagev2_origin_endpoint_policy#id DataAwsccMediapackagev2OriginEndpointPolicy#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediapackagev2_origin_endpoint_policy#id DataAwsccMediapackagev2OriginEndpointPolicy#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -778,7 +778,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediapackagev2OriginEndpointPolicy.DataAwsccMediapackagev2OriginEndpointPolicyCdnAuthConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagev2originendpointpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagev2originendpointpolicy"
 
 dataawsccmediapackagev2originendpointpolicy.NewDataAwsccMediapackagev2OriginEndpointPolicyCdnAuthConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMediapackagev2OriginEndpointPolicyCdnAuthConfigurationOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccServicecatalogappregistryApplications <a name="DataAwsccServicecatalogappregistryApplications" id="@cdktn/provider-awscc.dataAwsccServicecatalogappregistryApplications.DataAwsccServicecatalogappregistryApplications"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/servicecatalogappregistry_applications awscc_servicecatalogappregistry_applications}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/servicecatalogappregistry_applications awscc_servicecatalogappregistry_applications}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccServicecatalogappregistryApplications.DataAwsccServicecatalogappregistryApplications.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogappregistryapplications"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogappregistryapplications"
 
 dataawsccservicecatalogappregistryapplications.NewDataAwsccServicecatalogappregistryApplications(scope Construct, id *string, config DataAwsccServicecatalogappregistryApplicationsConfig) DataAwsccServicecatalogappregistryApplications
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccServicecatalogappregistryApplications.DataAwsccServicecatalogappregistryApplications.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogappregistryapplications"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogappregistryapplications"
 
 dataawsccservicecatalogappregistryapplications.DataAwsccServicecatalogappregistryApplications_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccServicecatalogappregistryApplications.DataAwsccServicecatalogappregistryApplications.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogappregistryapplications"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogappregistryapplications"
 
 dataawsccservicecatalogappregistryapplications.DataAwsccServicecatalogappregistryApplications_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccservicecatalogappregistryapplications.DataAwsccServicecatalogappregistr
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccServicecatalogappregistryApplications.DataAwsccServicecatalogappregistryApplications.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogappregistryapplications"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogappregistryapplications"
 
 dataawsccservicecatalogappregistryapplications.DataAwsccServicecatalogappregistryApplications_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccservicecatalogappregistryapplications.DataAwsccServicecatalogappregistr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccServicecatalogappregistryApplications.DataAwsccServicecatalogappregistryApplications.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogappregistryapplications"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogappregistryapplications"
 
 dataawsccservicecatalogappregistryapplications.DataAwsccServicecatalogappregistryApplications_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccServicecatalogapp
 
 The id of the existing DataAwsccServicecatalogappregistryApplications that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/servicecatalogappregistry_applications#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/servicecatalogappregistry_applications#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccServicecatalogappregistryApplications.DataAwsccServicecatalogappregistryApplicationsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogappregistryapplications"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogappregistryapplications"
 
 &dataawsccservicecatalogappregistryapplications.DataAwsccServicecatalogappregistryApplicationsConfig {
 	Connection: interface{},

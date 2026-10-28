@@ -4,12 +4,12 @@
 
 ### BedrockAgent <a name="BedrockAgent" id="@cdktn/provider-awscc.bedrockAgent.BedrockAgent"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent awscc_bedrock_agent}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent awscc_bedrock_agent}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockAgent.BedrockAgent.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagent"
 
 bedrockagent.NewBedrockAgent(scope Construct, id *string, config BedrockAgentConfig) BedrockAgent
 ```
@@ -624,7 +624,7 @@ func ResetTestAliasTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.bedrockAgent.BedrockAgent.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagent"
 
 bedrockagent.BedrockAgent_IsConstruct(x interface{}) *bool
 ```
@@ -656,7 +656,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.bedrockAgent.BedrockAgent.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagent"
 
 bedrockagent.BedrockAgent_IsTerraformElement(x interface{}) *bool
 ```
@@ -670,7 +670,7 @@ bedrockagent.BedrockAgent_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.bedrockAgent.BedrockAgent.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagent"
 
 bedrockagent.BedrockAgent_IsTerraformResource(x interface{}) *bool
 ```
@@ -684,7 +684,7 @@ bedrockagent.BedrockAgent_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.bedrockAgent.BedrockAgent.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagent"
 
 bedrockagent.BedrockAgent_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -713,7 +713,7 @@ The construct id used in the generated config for the BedrockAgent to import.
 
 The id of the existing BedrockAgent that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1463,15 +1463,15 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockAgent.BedrockAgentActionGroups.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagent"
 
 &bedrockagent.BedrockAgentActionGroups {
-	ActionGroupExecutor: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockAgent.BedrockAgentActionGroupsActionGroupExecutor,
+	ActionGroupExecutor: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockAgent.BedrockAgentActionGroupsActionGroupExecutor,
 	ActionGroupName: *string,
 	ActionGroupState: *string,
-	ApiSchema: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockAgent.BedrockAgentActionGroupsApiSchema,
+	ApiSchema: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockAgent.BedrockAgentActionGroupsApiSchema,
 	Description: *string,
-	FunctionSchema: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockAgent.BedrockAgentActionGroupsFunctionSchema,
+	FunctionSchema: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockAgent.BedrockAgentActionGroupsFunctionSchema,
 	ParentActionGroupSignature: *string,
 	SkipResourceInUseCheckOnDelete: interface{},
 }
@@ -1502,7 +1502,7 @@ ActionGroupExecutor BedrockAgentActionGroupsActionGroupExecutor
 
 Type of Executors for an Action Group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#action_group_executor BedrockAgent#action_group_executor}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#action_group_executor BedrockAgent#action_group_executor}
 
 ---
 
@@ -1516,7 +1516,7 @@ ActionGroupName *string
 
 Name of the action group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#action_group_name BedrockAgent#action_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#action_group_name BedrockAgent#action_group_name}
 
 ---
 
@@ -1530,7 +1530,7 @@ ActionGroupState *string
 
 State of the action group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#action_group_state BedrockAgent#action_group_state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#action_group_state BedrockAgent#action_group_state}
 
 ---
 
@@ -1544,7 +1544,7 @@ ApiSchema BedrockAgentActionGroupsApiSchema
 
 Contains information about the API Schema for the Action Group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#api_schema BedrockAgent#api_schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#api_schema BedrockAgent#api_schema}
 
 ---
 
@@ -1558,7 +1558,7 @@ Description *string
 
 Description of action group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#description BedrockAgent#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#description BedrockAgent#description}
 
 ---
 
@@ -1572,7 +1572,7 @@ FunctionSchema BedrockAgentActionGroupsFunctionSchema
 
 Schema of Functions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#function_schema BedrockAgent#function_schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#function_schema BedrockAgent#function_schema}
 
 ---
 
@@ -1586,7 +1586,7 @@ ParentActionGroupSignature *string
 
 Action Group Signature for a BuiltIn Action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#parent_action_group_signature BedrockAgent#parent_action_group_signature}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#parent_action_group_signature BedrockAgent#parent_action_group_signature}
 
 ---
 
@@ -1600,7 +1600,7 @@ SkipResourceInUseCheckOnDelete interface{}
 
 Specifies whether to allow deleting action group while it is in use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#skip_resource_in_use_check_on_delete BedrockAgent#skip_resource_in_use_check_on_delete}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#skip_resource_in_use_check_on_delete BedrockAgent#skip_resource_in_use_check_on_delete}
 
 ---
 
@@ -1609,7 +1609,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockAgent.BedrockAgentActionGroupsActionGroupExecutor.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagent"
 
 &bedrockagent.BedrockAgentActionGroupsActionGroupExecutor {
 	CustomControl: *string,
@@ -1636,7 +1636,7 @@ CustomControl *string
 
 Custom control of action execution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#custom_control BedrockAgent#custom_control}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#custom_control BedrockAgent#custom_control}
 
 ---
 
@@ -1650,7 +1650,7 @@ Lambda *string
 
 ARN of a Lambda.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#lambda BedrockAgent#lambda}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#lambda BedrockAgent#lambda}
 
 ---
 
@@ -1659,11 +1659,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockAgent.BedrockAgentActionGroupsApiSchema.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagent"
 
 &bedrockagent.BedrockAgentActionGroupsApiSchema {
 	Payload: *string,
-	S3: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockAgent.BedrockAgentActionGroupsApiSchemaS3,
+	S3: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockAgent.BedrockAgentActionGroupsApiSchemaS3,
 }
 ```
 
@@ -1686,7 +1686,7 @@ Payload *string
 
 String OpenAPI Payload.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#payload BedrockAgent#payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#payload BedrockAgent#payload}
 
 ---
 
@@ -1700,7 +1700,7 @@ S3 BedrockAgentActionGroupsApiSchemaS3
 
 The identifier for the S3 resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#s3 BedrockAgent#s3}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#s3 BedrockAgent#s3}
 
 ---
 
@@ -1709,7 +1709,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockAgent.BedrockAgentActionGroupsApiSchemaS3.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagent"
 
 &bedrockagent.BedrockAgentActionGroupsApiSchemaS3 {
 	S3BucketName: *string,
@@ -1736,7 +1736,7 @@ S3BucketName *string
 
 A bucket in S3.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#s3_bucket_name BedrockAgent#s3_bucket_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#s3_bucket_name BedrockAgent#s3_bucket_name}
 
 ---
 
@@ -1750,7 +1750,7 @@ S3ObjectKey *string
 
 A object key in S3.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#s3_object_key BedrockAgent#s3_object_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#s3_object_key BedrockAgent#s3_object_key}
 
 ---
 
@@ -1759,7 +1759,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockAgent.BedrockAgentActionGroupsFunctionSchema.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagent"
 
 &bedrockagent.BedrockAgentActionGroupsFunctionSchema {
 	Functions: interface{},
@@ -1784,7 +1784,7 @@ Functions interface{}
 
 List of Function definitions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#functions BedrockAgent#functions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#functions BedrockAgent#functions}
 
 ---
 
@@ -1793,7 +1793,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockAgent.BedrockAgentActionGroupsFunctionSchemaFunctions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagent"
 
 &bedrockagent.BedrockAgentActionGroupsFunctionSchemaFunctions {
 	Description: *string,
@@ -1824,7 +1824,7 @@ Description *string
 
 Description of function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#description BedrockAgent#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#description BedrockAgent#description}
 
 ---
 
@@ -1838,7 +1838,7 @@ Name *string
 
 Name for a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#name BedrockAgent#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#name BedrockAgent#name}
 
 ---
 
@@ -1852,7 +1852,7 @@ Parameters interface{}
 
 A map of parameter name and detail.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#parameters BedrockAgent#parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#parameters BedrockAgent#parameters}
 
 ---
 
@@ -1866,7 +1866,7 @@ RequireConfirmation *string
 
 ENUM to check if action requires user confirmation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#require_confirmation BedrockAgent#require_confirmation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#require_confirmation BedrockAgent#require_confirmation}
 
 ---
 
@@ -1875,7 +1875,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockAgent.BedrockAgentActionGroupsFunctionSchemaFunctionsParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagent"
 
 &bedrockagent.BedrockAgentActionGroupsFunctionSchemaFunctionsParameters {
 	Description: *string,
@@ -1904,7 +1904,7 @@ Description *string
 
 Description of function parameter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#description BedrockAgent#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#description BedrockAgent#description}
 
 ---
 
@@ -1918,7 +1918,7 @@ Required interface{}
 
 Information about if a parameter is required for function call. Default to false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#required BedrockAgent#required}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#required BedrockAgent#required}
 
 ---
 
@@ -1932,7 +1932,7 @@ Type *string
 
 Parameter Type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#type BedrockAgent#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#type BedrockAgent#type}
 
 ---
 
@@ -1941,10 +1941,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockAgent.BedrockAgentAgentCollaborators.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagent"
 
 &bedrockagent.BedrockAgentAgentCollaborators {
-	AgentDescriptor: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockAgent.BedrockAgentAgentCollaboratorsAgentDescriptor,
+	AgentDescriptor: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockAgent.BedrockAgentAgentCollaboratorsAgentDescriptor,
 	CollaborationInstruction: *string,
 	CollaboratorName: *string,
 	RelayConversationHistory: *string,
@@ -1972,7 +1972,7 @@ AgentDescriptor BedrockAgentAgentCollaboratorsAgentDescriptor
 
 Agent descriptor for agent collaborator.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#agent_descriptor BedrockAgent#agent_descriptor}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#agent_descriptor BedrockAgent#agent_descriptor}
 
 ---
 
@@ -1986,7 +1986,7 @@ CollaborationInstruction *string
 
 Agent collaborator instruction.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#collaboration_instruction BedrockAgent#collaboration_instruction}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#collaboration_instruction BedrockAgent#collaboration_instruction}
 
 ---
 
@@ -2000,7 +2000,7 @@ CollaboratorName *string
 
 Agent collaborator name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#collaborator_name BedrockAgent#collaborator_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#collaborator_name BedrockAgent#collaborator_name}
 
 ---
 
@@ -2014,7 +2014,7 @@ RelayConversationHistory *string
 
 Relay conversation history state.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#relay_conversation_history BedrockAgent#relay_conversation_history}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#relay_conversation_history BedrockAgent#relay_conversation_history}
 
 ---
 
@@ -2023,7 +2023,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockAgent.BedrockAgentAgentCollaboratorsAgentDescriptor.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagent"
 
 &bedrockagent.BedrockAgentAgentCollaboratorsAgentDescriptor {
 	AliasArn: *string,
@@ -2048,7 +2048,7 @@ AliasArn *string
 
 Alias ARN for agent descriptor.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#alias_arn BedrockAgent#alias_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#alias_arn BedrockAgent#alias_arn}
 
 ---
 
@@ -2057,7 +2057,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockAgent.BedrockAgentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagent"
 
 &bedrockagent.BedrockAgentConfig {
 	Connection: interface{},
@@ -2074,16 +2074,16 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagent"
 	AgentResourceRoleArn: *string,
 	AutoPrepare: interface{},
 	CustomerEncryptionKeyArn: *string,
-	CustomOrchestration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockAgent.BedrockAgentCustomOrchestration,
+	CustomOrchestration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockAgent.BedrockAgentCustomOrchestration,
 	Description: *string,
 	FoundationModel: *string,
-	GuardrailConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockAgent.BedrockAgentGuardrailConfiguration,
+	GuardrailConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockAgent.BedrockAgentGuardrailConfiguration,
 	IdleSessionTtlInSeconds: *f64,
 	Instruction: *string,
 	KnowledgeBases: interface{},
-	MemoryConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockAgent.BedrockAgentMemoryConfiguration,
+	MemoryConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockAgent.BedrockAgentMemoryConfiguration,
 	OrchestrationType: *string,
-	PromptOverrideConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockAgent.BedrockAgentPromptOverrideConfiguration,
+	PromptOverrideConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockAgent.BedrockAgentPromptOverrideConfiguration,
 	SkipResourceInUseCheckOnDelete: interface{},
 	Tags: *map[string]*string,
 	TestAliasTags: *map[string]*string,
@@ -2204,7 +2204,7 @@ AgentName *string
 
 Name for a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#agent_name BedrockAgent#agent_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#agent_name BedrockAgent#agent_name}
 
 ---
 
@@ -2218,7 +2218,7 @@ ActionGroups interface{}
 
 List of ActionGroups.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#action_groups BedrockAgent#action_groups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#action_groups BedrockAgent#action_groups}
 
 ---
 
@@ -2232,7 +2232,7 @@ AgentCollaboration *string
 
 Agent collaboration state.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#agent_collaboration BedrockAgent#agent_collaboration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#agent_collaboration BedrockAgent#agent_collaboration}
 
 ---
 
@@ -2246,7 +2246,7 @@ AgentCollaborators interface{}
 
 List of Agent Collaborators.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#agent_collaborators BedrockAgent#agent_collaborators}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#agent_collaborators BedrockAgent#agent_collaborators}
 
 ---
 
@@ -2260,7 +2260,7 @@ AgentResourceRoleArn *string
 
 ARN of a IAM role.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#agent_resource_role_arn BedrockAgent#agent_resource_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#agent_resource_role_arn BedrockAgent#agent_resource_role_arn}
 
 ---
 
@@ -2274,7 +2274,7 @@ AutoPrepare interface{}
 
 Specifies whether to automatically prepare after creating or updating the agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#auto_prepare BedrockAgent#auto_prepare}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#auto_prepare BedrockAgent#auto_prepare}
 
 ---
 
@@ -2288,7 +2288,7 @@ CustomerEncryptionKeyArn *string
 
 A KMS key ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#customer_encryption_key_arn BedrockAgent#customer_encryption_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#customer_encryption_key_arn BedrockAgent#customer_encryption_key_arn}
 
 ---
 
@@ -2302,7 +2302,7 @@ CustomOrchestration BedrockAgentCustomOrchestration
 
 Structure for custom orchestration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#custom_orchestration BedrockAgent#custom_orchestration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#custom_orchestration BedrockAgent#custom_orchestration}
 
 ---
 
@@ -2316,7 +2316,7 @@ Description *string
 
 Description of the Resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#description BedrockAgent#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#description BedrockAgent#description}
 
 ---
 
@@ -2330,7 +2330,7 @@ FoundationModel *string
 
 ARN or name of a Bedrock model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#foundation_model BedrockAgent#foundation_model}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#foundation_model BedrockAgent#foundation_model}
 
 ---
 
@@ -2344,7 +2344,7 @@ GuardrailConfiguration BedrockAgentGuardrailConfiguration
 
 Configuration for a guardrail.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#guardrail_configuration BedrockAgent#guardrail_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#guardrail_configuration BedrockAgent#guardrail_configuration}
 
 ---
 
@@ -2358,7 +2358,7 @@ IdleSessionTtlInSeconds *f64
 
 Max Session Time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#idle_session_ttl_in_seconds BedrockAgent#idle_session_ttl_in_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#idle_session_ttl_in_seconds BedrockAgent#idle_session_ttl_in_seconds}
 
 ---
 
@@ -2372,7 +2372,7 @@ Instruction *string
 
 Instruction for the agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#instruction BedrockAgent#instruction}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#instruction BedrockAgent#instruction}
 
 ---
 
@@ -2386,7 +2386,7 @@ KnowledgeBases interface{}
 
 List of Agent Knowledge Bases.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#knowledge_bases BedrockAgent#knowledge_bases}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#knowledge_bases BedrockAgent#knowledge_bases}
 
 ---
 
@@ -2400,7 +2400,7 @@ MemoryConfiguration BedrockAgentMemoryConfiguration
 
 Configuration for memory storage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#memory_configuration BedrockAgent#memory_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#memory_configuration BedrockAgent#memory_configuration}
 
 ---
 
@@ -2414,7 +2414,7 @@ OrchestrationType *string
 
 Types of orchestration strategy for agents.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#orchestration_type BedrockAgent#orchestration_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#orchestration_type BedrockAgent#orchestration_type}
 
 ---
 
@@ -2428,7 +2428,7 @@ PromptOverrideConfiguration BedrockAgentPromptOverrideConfiguration
 
 Configuration for prompt override.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#prompt_override_configuration BedrockAgent#prompt_override_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#prompt_override_configuration BedrockAgent#prompt_override_configuration}
 
 ---
 
@@ -2442,7 +2442,7 @@ SkipResourceInUseCheckOnDelete interface{}
 
 Specifies whether to allow deleting agent while it is in use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#skip_resource_in_use_check_on_delete BedrockAgent#skip_resource_in_use_check_on_delete}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#skip_resource_in_use_check_on_delete BedrockAgent#skip_resource_in_use_check_on_delete}
 
 ---
 
@@ -2456,7 +2456,7 @@ Tags *map[string]*string
 
 A map of tag keys and values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#tags BedrockAgent#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#tags BedrockAgent#tags}
 
 ---
 
@@ -2470,7 +2470,7 @@ TestAliasTags *map[string]*string
 
 A map of tag keys and values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#test_alias_tags BedrockAgent#test_alias_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#test_alias_tags BedrockAgent#test_alias_tags}
 
 ---
 
@@ -2479,10 +2479,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockAgent.BedrockAgentCustomOrchestration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagent"
 
 &bedrockagent.BedrockAgentCustomOrchestration {
-	Executor: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockAgent.BedrockAgentCustomOrchestrationExecutor,
+	Executor: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockAgent.BedrockAgentCustomOrchestrationExecutor,
 }
 ```
 
@@ -2504,7 +2504,7 @@ Executor BedrockAgentCustomOrchestrationExecutor
 
 Types of executors for custom orchestration strategy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#executor BedrockAgent#executor}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#executor BedrockAgent#executor}
 
 ---
 
@@ -2513,7 +2513,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockAgent.BedrockAgentCustomOrchestrationExecutor.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagent"
 
 &bedrockagent.BedrockAgentCustomOrchestrationExecutor {
 	Lambda: *string,
@@ -2538,7 +2538,7 @@ Lambda *string
 
 ARN of a Lambda.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#lambda BedrockAgent#lambda}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#lambda BedrockAgent#lambda}
 
 ---
 
@@ -2547,7 +2547,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockAgent.BedrockAgentGuardrailConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagent"
 
 &bedrockagent.BedrockAgentGuardrailConfiguration {
 	GuardrailIdentifier: *string,
@@ -2574,7 +2574,7 @@ GuardrailIdentifier *string
 
 Identifier for the guardrail, could be the id or the arn.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#guardrail_identifier BedrockAgent#guardrail_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#guardrail_identifier BedrockAgent#guardrail_identifier}
 
 ---
 
@@ -2588,7 +2588,7 @@ GuardrailVersion *string
 
 Version of the guardrail.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#guardrail_version BedrockAgent#guardrail_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#guardrail_version BedrockAgent#guardrail_version}
 
 ---
 
@@ -2597,7 +2597,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockAgent.BedrockAgentKnowledgeBases.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagent"
 
 &bedrockagent.BedrockAgentKnowledgeBases {
 	Description: *string,
@@ -2626,7 +2626,7 @@ Description *string
 
 Description of the Resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#description BedrockAgent#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#description BedrockAgent#description}
 
 ---
 
@@ -2640,7 +2640,7 @@ KnowledgeBaseId *string
 
 Identifier for a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#knowledge_base_id BedrockAgent#knowledge_base_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#knowledge_base_id BedrockAgent#knowledge_base_id}
 
 ---
 
@@ -2654,7 +2654,7 @@ KnowledgeBaseState *string
 
 State of the knowledge base; whether it is enabled or disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#knowledge_base_state BedrockAgent#knowledge_base_state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#knowledge_base_state BedrockAgent#knowledge_base_state}
 
 ---
 
@@ -2663,11 +2663,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockAgent.BedrockAgentMemoryConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagent"
 
 &bedrockagent.BedrockAgentMemoryConfiguration {
 	EnabledMemoryTypes: *[]*string,
-	SessionSummaryConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockAgent.BedrockAgentMemoryConfigurationSessionSummaryConfiguration,
+	SessionSummaryConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockAgent.BedrockAgentMemoryConfigurationSessionSummaryConfiguration,
 	StorageDays: *f64,
 }
 ```
@@ -2692,7 +2692,7 @@ EnabledMemoryTypes *[]*string
 
 Types of session storage persisted in memory.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#enabled_memory_types BedrockAgent#enabled_memory_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#enabled_memory_types BedrockAgent#enabled_memory_types}
 
 ---
 
@@ -2706,7 +2706,7 @@ SessionSummaryConfiguration BedrockAgentMemoryConfigurationSessionSummaryConfigu
 
 Configuration for Session Summarization.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#session_summary_configuration BedrockAgent#session_summary_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#session_summary_configuration BedrockAgent#session_summary_configuration}
 
 ---
 
@@ -2720,7 +2720,7 @@ StorageDays *f64
 
 Maximum number of days to store session details.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#storage_days BedrockAgent#storage_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#storage_days BedrockAgent#storage_days}
 
 ---
 
@@ -2729,7 +2729,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockAgent.BedrockAgentMemoryConfigurationSessionSummaryConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagent"
 
 &bedrockagent.BedrockAgentMemoryConfigurationSessionSummaryConfiguration {
 	MaxRecentSessions: *f64,
@@ -2754,7 +2754,7 @@ MaxRecentSessions *f64
 
 Maximum number of Sessions to Summarize.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#max_recent_sessions BedrockAgent#max_recent_sessions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#max_recent_sessions BedrockAgent#max_recent_sessions}
 
 ---
 
@@ -2763,7 +2763,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockAgent.BedrockAgentPromptOverrideConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagent"
 
 &bedrockagent.BedrockAgentPromptOverrideConfiguration {
 	OverrideLambda: *string,
@@ -2790,7 +2790,7 @@ OverrideLambda *string
 
 ARN of a Lambda.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#override_lambda BedrockAgent#override_lambda}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#override_lambda BedrockAgent#override_lambda}
 
 ---
 
@@ -2804,7 +2804,7 @@ PromptConfigurations interface{}
 
 List of BasePromptConfiguration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#prompt_configurations BedrockAgent#prompt_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#prompt_configurations BedrockAgent#prompt_configurations}
 
 ---
 
@@ -2813,13 +2813,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockAgent.BedrockAgentPromptOverrideConfigurationPromptConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagent"
 
 &bedrockagent.BedrockAgentPromptOverrideConfigurationPromptConfigurations {
 	AdditionalModelRequestFields: *string,
 	BasePromptTemplate: *string,
 	FoundationModel: *string,
-	InferenceConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.bedrockAgent.BedrockAgentPromptOverrideConfigurationPromptConfigurationsInferenceConfiguration,
+	InferenceConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.bedrockAgent.BedrockAgentPromptOverrideConfigurationPromptConfigurationsInferenceConfiguration,
 	ParserMode: *string,
 	PromptCreationMode: *string,
 	PromptState: *string,
@@ -2852,7 +2852,7 @@ AdditionalModelRequestFields *string
 
 Additional Model Request Fields for Prompt Configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#additional_model_request_fields BedrockAgent#additional_model_request_fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#additional_model_request_fields BedrockAgent#additional_model_request_fields}
 
 ---
 
@@ -2866,7 +2866,7 @@ BasePromptTemplate *string
 
 Base Prompt Template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#base_prompt_template BedrockAgent#base_prompt_template}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#base_prompt_template BedrockAgent#base_prompt_template}
 
 ---
 
@@ -2880,7 +2880,7 @@ FoundationModel *string
 
 ARN or name of a Bedrock model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#foundation_model BedrockAgent#foundation_model}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#foundation_model BedrockAgent#foundation_model}
 
 ---
 
@@ -2894,7 +2894,7 @@ InferenceConfiguration BedrockAgentPromptOverrideConfigurationPromptConfiguratio
 
 Configuration for inference in prompt configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#inference_configuration BedrockAgent#inference_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#inference_configuration BedrockAgent#inference_configuration}
 
 ---
 
@@ -2908,7 +2908,7 @@ ParserMode *string
 
 Creation Mode for Prompt Configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#parser_mode BedrockAgent#parser_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#parser_mode BedrockAgent#parser_mode}
 
 ---
 
@@ -2922,7 +2922,7 @@ PromptCreationMode *string
 
 Creation Mode for Prompt Configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#prompt_creation_mode BedrockAgent#prompt_creation_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#prompt_creation_mode BedrockAgent#prompt_creation_mode}
 
 ---
 
@@ -2936,7 +2936,7 @@ PromptState *string
 
 Prompt State.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#prompt_state BedrockAgent#prompt_state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#prompt_state BedrockAgent#prompt_state}
 
 ---
 
@@ -2950,7 +2950,7 @@ PromptType *string
 
 Prompt Type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#prompt_type BedrockAgent#prompt_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#prompt_type BedrockAgent#prompt_type}
 
 ---
 
@@ -2959,7 +2959,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockAgent.BedrockAgentPromptOverrideConfigurationPromptConfigurationsInferenceConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagent"
 
 &bedrockagent.BedrockAgentPromptOverrideConfigurationPromptConfigurationsInferenceConfiguration {
 	MaximumLength: *f64,
@@ -2992,7 +2992,7 @@ MaximumLength *f64
 
 Maximum length of output.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#maximum_length BedrockAgent#maximum_length}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#maximum_length BedrockAgent#maximum_length}
 
 ---
 
@@ -3006,7 +3006,7 @@ StopSequences *[]*string
 
 List of stop sequences.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#stop_sequences BedrockAgent#stop_sequences}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#stop_sequences BedrockAgent#stop_sequences}
 
 ---
 
@@ -3020,7 +3020,7 @@ Temperature *f64
 
 Controls randomness, higher values increase diversity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#temperature BedrockAgent#temperature}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#temperature BedrockAgent#temperature}
 
 ---
 
@@ -3034,7 +3034,7 @@ TopK *f64
 
 Sample from the k most likely next tokens.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#top_k BedrockAgent#top_k}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#top_k BedrockAgent#top_k}
 
 ---
 
@@ -3048,7 +3048,7 @@ TopP *f64
 
 Cumulative probability cutoff for token selection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_agent#top_p BedrockAgent#top_p}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_agent#top_p BedrockAgent#top_p}
 
 ---
 
@@ -3059,7 +3059,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockAgent.BedrockAgentActionGroupsActionGroupExecutorOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagent"
 
 bedrockagent.NewBedrockAgentActionGroupsActionGroupExecutorOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockAgentActionGroupsActionGroupExecutorOutputReference
 ```
@@ -3366,7 +3366,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockAgent.BedrockAgentActionGroupsApiSchemaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagent"
 
 bedrockagent.NewBedrockAgentActionGroupsApiSchemaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockAgentActionGroupsApiSchemaOutputReference
 ```
@@ -3686,7 +3686,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockAgent.BedrockAgentActionGroupsApiSchemaS3OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagent"
 
 bedrockagent.NewBedrockAgentActionGroupsApiSchemaS3OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockAgentActionGroupsApiSchemaS3OutputReference
 ```
@@ -3993,7 +3993,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockAgent.BedrockAgentActionGroupsFunctionSchemaFunctionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagent"
 
 bedrockagent.NewBedrockAgentActionGroupsFunctionSchemaFunctionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BedrockAgentActionGroupsFunctionSchemaFunctionsList
 ```
@@ -4153,7 +4153,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockAgent.BedrockAgentActionGroupsFunctionSchemaFunctionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagent"
 
 bedrockagent.NewBedrockAgentActionGroupsFunctionSchemaFunctionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) BedrockAgentActionGroupsFunctionSchemaFunctionsOutputReference
 ```
@@ -4549,7 +4549,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockAgent.BedrockAgentActionGroupsFunctionSchemaFunctionsParametersMap.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagent"
 
 bedrockagent.NewBedrockAgentActionGroupsFunctionSchemaFunctionsParametersMap(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockAgentActionGroupsFunctionSchemaFunctionsParametersMap
 ```
@@ -4696,7 +4696,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockAgent.BedrockAgentActionGroupsFunctionSchemaFunctionsParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagent"
 
 bedrockagent.NewBedrockAgentActionGroupsFunctionSchemaFunctionsParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectKey *string) BedrockAgentActionGroupsFunctionSchemaFunctionsParametersOutputReference
 ```
@@ -5041,7 +5041,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockAgent.BedrockAgentActionGroupsFunctionSchemaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagent"
 
 bedrockagent.NewBedrockAgentActionGroupsFunctionSchemaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockAgentActionGroupsFunctionSchemaOutputReference
 ```
@@ -5332,7 +5332,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockAgent.BedrockAgentActionGroupsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagent"
 
 bedrockagent.NewBedrockAgentActionGroupsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BedrockAgentActionGroupsList
 ```
@@ -5492,7 +5492,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockAgent.BedrockAgentActionGroupsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagent"
 
 bedrockagent.NewBedrockAgentActionGroupsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) BedrockAgentActionGroupsOutputReference
 ```
@@ -6030,7 +6030,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockAgent.BedrockAgentAgentCollaboratorsAgentDescriptorOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagent"
 
 bedrockagent.NewBedrockAgentAgentCollaboratorsAgentDescriptorOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockAgentAgentCollaboratorsAgentDescriptorOutputReference
 ```
@@ -6308,7 +6308,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockAgent.BedrockAgentAgentCollaboratorsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagent"
 
 bedrockagent.NewBedrockAgentAgentCollaboratorsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BedrockAgentAgentCollaboratorsList
 ```
@@ -6468,7 +6468,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockAgent.BedrockAgentAgentCollaboratorsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagent"
 
 bedrockagent.NewBedrockAgentAgentCollaboratorsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) BedrockAgentAgentCollaboratorsOutputReference
 ```
@@ -6864,7 +6864,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockAgent.BedrockAgentCustomOrchestrationExecutorOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagent"
 
 bedrockagent.NewBedrockAgentCustomOrchestrationExecutorOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockAgentCustomOrchestrationExecutorOutputReference
 ```
@@ -7142,7 +7142,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockAgent.BedrockAgentCustomOrchestrationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagent"
 
 bedrockagent.NewBedrockAgentCustomOrchestrationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockAgentCustomOrchestrationOutputReference
 ```
@@ -7433,7 +7433,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockAgent.BedrockAgentGuardrailConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagent"
 
 bedrockagent.NewBedrockAgentGuardrailConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockAgentGuardrailConfigurationOutputReference
 ```
@@ -7740,7 +7740,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockAgent.BedrockAgentKnowledgeBasesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagent"
 
 bedrockagent.NewBedrockAgentKnowledgeBasesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BedrockAgentKnowledgeBasesList
 ```
@@ -7900,7 +7900,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockAgent.BedrockAgentKnowledgeBasesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagent"
 
 bedrockagent.NewBedrockAgentKnowledgeBasesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) BedrockAgentKnowledgeBasesOutputReference
 ```
@@ -8254,7 +8254,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockAgent.BedrockAgentMemoryConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagent"
 
 bedrockagent.NewBedrockAgentMemoryConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockAgentMemoryConfigurationOutputReference
 ```
@@ -8603,7 +8603,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockAgent.BedrockAgentMemoryConfigurationSessionSummaryConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagent"
 
 bedrockagent.NewBedrockAgentMemoryConfigurationSessionSummaryConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockAgentMemoryConfigurationSessionSummaryConfigurationOutputReference
 ```
@@ -8881,7 +8881,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockAgent.BedrockAgentPromptOverrideConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagent"
 
 bedrockagent.NewBedrockAgentPromptOverrideConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockAgentPromptOverrideConfigurationOutputReference
 ```
@@ -9201,7 +9201,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockAgent.BedrockAgentPromptOverrideConfigurationPromptConfigurationsInferenceConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagent"
 
 bedrockagent.NewBedrockAgentPromptOverrideConfigurationPromptConfigurationsInferenceConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockAgentPromptOverrideConfigurationPromptConfigurationsInferenceConfigurationOutputReference
 ```
@@ -9595,7 +9595,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockAgent.BedrockAgentPromptOverrideConfigurationPromptConfigurationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagent"
 
 bedrockagent.NewBedrockAgentPromptOverrideConfigurationPromptConfigurationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BedrockAgentPromptOverrideConfigurationPromptConfigurationsList
 ```
@@ -9755,7 +9755,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockAgent.BedrockAgentPromptOverrideConfigurationPromptConfigurationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagent"
 
 bedrockagent.NewBedrockAgentPromptOverrideConfigurationPromptConfigurationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) BedrockAgentPromptOverrideConfigurationPromptConfigurationsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### NetworkmanagerCoreNetwork <a name="NetworkmanagerCoreNetwork" id="@cdktn/provider-awscc.networkmanagerCoreNetwork.NetworkmanagerCoreNetwork"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_core_network awscc_networkmanager_core_network}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_core_network awscc_networkmanager_core_network}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmanagerCoreNetwork.NetworkmanagerCoreNetwork.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagercorenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagercorenetwork"
 
 networkmanagercorenetwork.NewNetworkmanagerCoreNetwork(scope Construct, id *string, config NetworkmanagerCoreNetworkConfig) NetworkmanagerCoreNetwork
 ```
@@ -434,7 +434,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.networkmanagerCoreNetwork.NetworkmanagerCoreNetwork.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagercorenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagercorenetwork"
 
 networkmanagercorenetwork.NetworkmanagerCoreNetwork_IsConstruct(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.networkmanagerCoreNetwork.NetworkmanagerCoreNetwork.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagercorenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagercorenetwork"
 
 networkmanagercorenetwork.NetworkmanagerCoreNetwork_IsTerraformElement(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ networkmanagercorenetwork.NetworkmanagerCoreNetwork_IsTerraformElement(x interfa
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.networkmanagerCoreNetwork.NetworkmanagerCoreNetwork.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagercorenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagercorenetwork"
 
 networkmanagercorenetwork.NetworkmanagerCoreNetwork_IsTerraformResource(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ networkmanagercorenetwork.NetworkmanagerCoreNetwork_IsTerraformResource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.networkmanagerCoreNetwork.NetworkmanagerCoreNetwork.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagercorenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagercorenetwork"
 
 networkmanagercorenetwork.NetworkmanagerCoreNetwork_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -523,7 +523,7 @@ The construct id used in the generated config for the NetworkmanagerCoreNetwork 
 
 The id of the existing NetworkmanagerCoreNetwork that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_core_network#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_core_network#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -910,7 +910,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.networkmanagerCoreNetwork.NetworkmanagerCoreNetworkConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagercorenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagercorenetwork"
 
 &networkmanagercorenetwork.NetworkmanagerCoreNetworkConfig {
 	Connection: interface{},
@@ -1025,7 +1025,7 @@ GlobalNetworkId *string
 
 The ID of the global network that your core network is a part of.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_core_network#global_network_id NetworkmanagerCoreNetwork#global_network_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_core_network#global_network_id NetworkmanagerCoreNetwork#global_network_id}
 
 ---
 
@@ -1039,7 +1039,7 @@ Description *string
 
 The description of core network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_core_network#description NetworkmanagerCoreNetwork#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_core_network#description NetworkmanagerCoreNetwork#description}
 
 ---
 
@@ -1053,7 +1053,7 @@ PolicyDocument *string
 
 Live policy document for the core network, you must provide PolicyDocument in Json Format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_core_network#policy_document NetworkmanagerCoreNetwork#policy_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_core_network#policy_document NetworkmanagerCoreNetwork#policy_document}
 
 ---
 
@@ -1067,7 +1067,7 @@ Tags interface{}
 
 The tags for the global network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_core_network#tags NetworkmanagerCoreNetwork#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_core_network#tags NetworkmanagerCoreNetwork#tags}
 
 ---
 
@@ -1076,7 +1076,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.networkmanagerCoreNetwork.NetworkmanagerCoreNetworkEdges.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagercorenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagercorenetwork"
 
 &networkmanagercorenetwork.NetworkmanagerCoreNetworkEdges {
 
@@ -1089,7 +1089,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagercorenetw
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.networkmanagerCoreNetwork.NetworkmanagerCoreNetworkNetworkFunctionGroups.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagercorenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagercorenetwork"
 
 &networkmanagercorenetwork.NetworkmanagerCoreNetworkNetworkFunctionGroups {
 
@@ -1102,7 +1102,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagercorenetw
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.networkmanagerCoreNetwork.NetworkmanagerCoreNetworkNetworkFunctionGroupsSegments.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagercorenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagercorenetwork"
 
 &networkmanagercorenetwork.NetworkmanagerCoreNetworkNetworkFunctionGroupsSegments {
 
@@ -1115,7 +1115,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagercorenetw
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.networkmanagerCoreNetwork.NetworkmanagerCoreNetworkSegments.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagercorenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagercorenetwork"
 
 &networkmanagercorenetwork.NetworkmanagerCoreNetworkSegments {
 
@@ -1128,7 +1128,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagercorenetw
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.networkmanagerCoreNetwork.NetworkmanagerCoreNetworkTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagercorenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagercorenetwork"
 
 &networkmanagercorenetwork.NetworkmanagerCoreNetworkTags {
 	Key: *string,
@@ -1157,7 +1157,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_core_network#key NetworkmanagerCoreNetwork#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_core_network#key NetworkmanagerCoreNetwork#key}
 
 ---
 
@@ -1173,7 +1173,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_core_network#value NetworkmanagerCoreNetwork#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_core_network#value NetworkmanagerCoreNetwork#value}
 
 ---
 
@@ -1184,7 +1184,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmanagerCoreNetwork.NetworkmanagerCoreNetworkEdgesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagercorenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagercorenetwork"
 
 networkmanagercorenetwork.NewNetworkmanagerCoreNetworkEdgesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) NetworkmanagerCoreNetworkEdgesList
 ```
@@ -1333,7 +1333,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmanagerCoreNetwork.NetworkmanagerCoreNetworkEdgesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagercorenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagercorenetwork"
 
 networkmanagercorenetwork.NewNetworkmanagerCoreNetworkEdgesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) NetworkmanagerCoreNetworkEdgesOutputReference
 ```
@@ -1633,7 +1633,7 @@ func InternalValue() NetworkmanagerCoreNetworkEdges
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmanagerCoreNetwork.NetworkmanagerCoreNetworkNetworkFunctionGroupsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagercorenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagercorenetwork"
 
 networkmanagercorenetwork.NewNetworkmanagerCoreNetworkNetworkFunctionGroupsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) NetworkmanagerCoreNetworkNetworkFunctionGroupsList
 ```
@@ -1782,7 +1782,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmanagerCoreNetwork.NetworkmanagerCoreNetworkNetworkFunctionGroupsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagercorenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagercorenetwork"
 
 networkmanagercorenetwork.NewNetworkmanagerCoreNetworkNetworkFunctionGroupsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) NetworkmanagerCoreNetworkNetworkFunctionGroupsOutputReference
 ```
@@ -2082,7 +2082,7 @@ func InternalValue() NetworkmanagerCoreNetworkNetworkFunctionGroups
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmanagerCoreNetwork.NetworkmanagerCoreNetworkNetworkFunctionGroupsSegmentsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagercorenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagercorenetwork"
 
 networkmanagercorenetwork.NewNetworkmanagerCoreNetworkNetworkFunctionGroupsSegmentsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) NetworkmanagerCoreNetworkNetworkFunctionGroupsSegmentsOutputReference
 ```
@@ -2353,7 +2353,7 @@ func InternalValue() NetworkmanagerCoreNetworkNetworkFunctionGroupsSegments
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmanagerCoreNetwork.NetworkmanagerCoreNetworkSegmentsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagercorenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagercorenetwork"
 
 networkmanagercorenetwork.NewNetworkmanagerCoreNetworkSegmentsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) NetworkmanagerCoreNetworkSegmentsList
 ```
@@ -2502,7 +2502,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmanagerCoreNetwork.NetworkmanagerCoreNetworkSegmentsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagercorenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagercorenetwork"
 
 networkmanagercorenetwork.NewNetworkmanagerCoreNetworkSegmentsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) NetworkmanagerCoreNetworkSegmentsOutputReference
 ```
@@ -2802,7 +2802,7 @@ func InternalValue() NetworkmanagerCoreNetworkSegments
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmanagerCoreNetwork.NetworkmanagerCoreNetworkTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagercorenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagercorenetwork"
 
 networkmanagercorenetwork.NewNetworkmanagerCoreNetworkTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) NetworkmanagerCoreNetworkTagsList
 ```
@@ -2962,7 +2962,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmanagerCoreNetwork.NetworkmanagerCoreNetworkTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagercorenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagercorenetwork"
 
 networkmanagercorenetwork.NewNetworkmanagerCoreNetworkTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) NetworkmanagerCoreNetworkTagsOutputReference
 ```

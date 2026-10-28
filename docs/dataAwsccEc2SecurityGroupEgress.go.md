@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2SecurityGroupEgress <a name="DataAwsccEc2SecurityGroupEgress" id="@cdktn/provider-awscc.dataAwsccEc2SecurityGroupEgress.DataAwsccEc2SecurityGroupEgress"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_security_group_egress awscc_ec2_security_group_egress}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_security_group_egress awscc_ec2_security_group_egress}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SecurityGroupEgress.DataAwsccEc2SecurityGroupEgress.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2securitygroupegress"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2securitygroupegress"
 
 dataawsccec2securitygroupegress.NewDataAwsccEc2SecurityGroupEgress(scope Construct, id *string, config DataAwsccEc2SecurityGroupEgressConfig) DataAwsccEc2SecurityGroupEgress
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2SecurityGroupEgress.DataAwsccEc2SecurityGroupEgress.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2securitygroupegress"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2securitygroupegress"
 
 dataawsccec2securitygroupegress.DataAwsccEc2SecurityGroupEgress_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2SecurityGroupEgress.DataAwsccEc2SecurityGroupEgress.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2securitygroupegress"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2securitygroupegress"
 
 dataawsccec2securitygroupegress.DataAwsccEc2SecurityGroupEgress_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2securitygroupegress.DataAwsccEc2SecurityGroupEgress_IsTerraformEleme
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2SecurityGroupEgress.DataAwsccEc2SecurityGroupEgress.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2securitygroupegress"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2securitygroupegress"
 
 dataawsccec2securitygroupegress.DataAwsccEc2SecurityGroupEgress_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2securitygroupegress.DataAwsccEc2SecurityGroupEgress_IsTerraformDataS
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2SecurityGroupEgress.DataAwsccEc2SecurityGroupEgress.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2securitygroupegress"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2securitygroupegress"
 
 dataawsccec2securitygroupegress.DataAwsccEc2SecurityGroupEgress_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2SecurityGroupE
 
 The id of the existing DataAwsccEc2SecurityGroupEgress that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_security_group_egress#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_security_group_egress#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -697,7 +697,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2SecurityGroupEgress.DataAwsccEc2SecurityGroupEgressConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2securitygroupegress"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2securitygroupegress"
 
 &dataawsccec2securitygroupegress.DataAwsccEc2SecurityGroupEgressConfig {
 	Connection: interface{},
@@ -806,7 +806,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_security_group_egress#id DataAwsccEc2SecurityGroupEgress#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_security_group_egress#id DataAwsccEc2SecurityGroupEgress#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

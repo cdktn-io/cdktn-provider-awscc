@@ -4,12 +4,12 @@
 
 ### DataAwsccApigatewayDomainNameAccessAssociation <a name="DataAwsccApigatewayDomainNameAccessAssociation" id="@cdktn/provider-awscc.dataAwsccApigatewayDomainNameAccessAssociation.DataAwsccApigatewayDomainNameAccessAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apigateway_domain_name_access_association awscc_apigateway_domain_name_access_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apigateway_domain_name_access_association awscc_apigateway_domain_name_access_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApigatewayDomainNameAccessAssociation.DataAwsccApigatewayDomainNameAccessAssociation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewaydomainnameaccessassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewaydomainnameaccessassociation"
 
 dataawsccapigatewaydomainnameaccessassociation.NewDataAwsccApigatewayDomainNameAccessAssociation(scope Construct, id *string, config DataAwsccApigatewayDomainNameAccessAssociationConfig) DataAwsccApigatewayDomainNameAccessAssociation
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccApigatewayDomainNameAccessAssociation.DataAwsccApigatewayDomainNameAccessAssociation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewaydomainnameaccessassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewaydomainnameaccessassociation"
 
 dataawsccapigatewaydomainnameaccessassociation.DataAwsccApigatewayDomainNameAccessAssociation_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccApigatewayDomainNameAccessAssociation.DataAwsccApigatewayDomainNameAccessAssociation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewaydomainnameaccessassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewaydomainnameaccessassociation"
 
 dataawsccapigatewaydomainnameaccessassociation.DataAwsccApigatewayDomainNameAccessAssociation_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccapigatewaydomainnameaccessassociation.DataAwsccApigatewayDomainNameAcce
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccApigatewayDomainNameAccessAssociation.DataAwsccApigatewayDomainNameAccessAssociation.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewaydomainnameaccessassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewaydomainnameaccessassociation"
 
 dataawsccapigatewaydomainnameaccessassociation.DataAwsccApigatewayDomainNameAccessAssociation_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccapigatewaydomainnameaccessassociation.DataAwsccApigatewayDomainNameAcce
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccApigatewayDomainNameAccessAssociation.DataAwsccApigatewayDomainNameAccessAssociation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewaydomainnameaccessassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewaydomainnameaccessassociation"
 
 dataawsccapigatewaydomainnameaccessassociation.DataAwsccApigatewayDomainNameAccessAssociation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccApigatewayDomainN
 
 The id of the existing DataAwsccApigatewayDomainNameAccessAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apigateway_domain_name_access_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apigateway_domain_name_access_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -642,7 +642,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApigatewayDomainNameAccessAssociation.DataAwsccApigatewayDomainNameAccessAssociationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewaydomainnameaccessassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewaydomainnameaccessassociation"
 
 &dataawsccapigatewaydomainnameaccessassociation.DataAwsccApigatewayDomainNameAccessAssociationConfig {
 	Connection: interface{},
@@ -751,7 +751,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apigateway_domain_name_access_association#id DataAwsccApigatewayDomainNameAccessAssociation#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apigateway_domain_name_access_association#id DataAwsccApigatewayDomainNameAccessAssociation#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -763,7 +763,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApigatewayDomainNameAccessAssociation.DataAwsccApigatewayDomainNameAccessAssociationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewaydomainnameaccessassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewaydomainnameaccessassociation"
 
 &dataawsccapigatewaydomainnameaccessassociation.DataAwsccApigatewayDomainNameAccessAssociationTags {
 
@@ -778,7 +778,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewaydom
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApigatewayDomainNameAccessAssociation.DataAwsccApigatewayDomainNameAccessAssociationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewaydomainnameaccessassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewaydomainnameaccessassociation"
 
 dataawsccapigatewaydomainnameaccessassociation.NewDataAwsccApigatewayDomainNameAccessAssociationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccApigatewayDomainNameAccessAssociationTagsList
 ```
@@ -927,7 +927,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApigatewayDomainNameAccessAssociation.DataAwsccApigatewayDomainNameAccessAssociationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewaydomainnameaccessassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewaydomainnameaccessassociation"
 
 dataawsccapigatewaydomainnameaccessassociation.NewDataAwsccApigatewayDomainNameAccessAssociationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccApigatewayDomainNameAccessAssociationTagsOutputReference
 ```

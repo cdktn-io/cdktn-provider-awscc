@@ -4,12 +4,12 @@
 
 ### DataAwsccBedrockagentcoreBrowserCustoms <a name="DataAwsccBedrockagentcoreBrowserCustoms" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreBrowserCustoms.DataAwsccBedrockagentcoreBrowserCustoms"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockagentcore_browser_customs awscc_bedrockagentcore_browser_customs}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockagentcore_browser_customs awscc_bedrockagentcore_browser_customs}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreBrowserCustoms.DataAwsccBedrockagentcoreBrowserCustoms.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcorebrowsercustoms"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcorebrowsercustoms"
 
 dataawsccbedrockagentcorebrowsercustoms.NewDataAwsccBedrockagentcoreBrowserCustoms(scope Construct, id *string, config DataAwsccBedrockagentcoreBrowserCustomsConfig) DataAwsccBedrockagentcoreBrowserCustoms
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreBrowserCustoms.DataAwsccBedrockagentcoreBrowserCustoms.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcorebrowsercustoms"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcorebrowsercustoms"
 
 dataawsccbedrockagentcorebrowsercustoms.DataAwsccBedrockagentcoreBrowserCustoms_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreBrowserCustoms.DataAwsccBedrockagentcoreBrowserCustoms.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcorebrowsercustoms"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcorebrowsercustoms"
 
 dataawsccbedrockagentcorebrowsercustoms.DataAwsccBedrockagentcoreBrowserCustoms_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccbedrockagentcorebrowsercustoms.DataAwsccBedrockagentcoreBrowserCustoms_
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreBrowserCustoms.DataAwsccBedrockagentcoreBrowserCustoms.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcorebrowsercustoms"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcorebrowsercustoms"
 
 dataawsccbedrockagentcorebrowsercustoms.DataAwsccBedrockagentcoreBrowserCustoms_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccbedrockagentcorebrowsercustoms.DataAwsccBedrockagentcoreBrowserCustoms_
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreBrowserCustoms.DataAwsccBedrockagentcoreBrowserCustoms.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcorebrowsercustoms"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcorebrowsercustoms"
 
 dataawsccbedrockagentcorebrowsercustoms.DataAwsccBedrockagentcoreBrowserCustoms_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccBedrockagentcoreB
 
 The id of the existing DataAwsccBedrockagentcoreBrowserCustoms that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockagentcore_browser_customs#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockagentcore_browser_customs#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreBrowserCustoms.DataAwsccBedrockagentcoreBrowserCustomsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcorebrowsercustoms"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcorebrowsercustoms"
 
 &dataawsccbedrockagentcorebrowsercustoms.DataAwsccBedrockagentcoreBrowserCustomsConfig {
 	Connection: interface{},

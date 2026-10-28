@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2VpcBlockPublicAccessExclusion <a name="DataAwsccEc2VpcBlockPublicAccessExclusion" id="@cdktn/provider-awscc.dataAwsccEc2VpcBlockPublicAccessExclusion.DataAwsccEc2VpcBlockPublicAccessExclusion"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_vpc_block_public_access_exclusion awscc_ec2_vpc_block_public_access_exclusion}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_vpc_block_public_access_exclusion awscc_ec2_vpc_block_public_access_exclusion}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2VpcBlockPublicAccessExclusion.DataAwsccEc2VpcBlockPublicAccessExclusion.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2vpcblockpublicaccessexclusion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2vpcblockpublicaccessexclusion"
 
 dataawsccec2vpcblockpublicaccessexclusion.NewDataAwsccEc2VpcBlockPublicAccessExclusion(scope Construct, id *string, config DataAwsccEc2VpcBlockPublicAccessExclusionConfig) DataAwsccEc2VpcBlockPublicAccessExclusion
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2VpcBlockPublicAccessExclusion.DataAwsccEc2VpcBlockPublicAccessExclusion.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2vpcblockpublicaccessexclusion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2vpcblockpublicaccessexclusion"
 
 dataawsccec2vpcblockpublicaccessexclusion.DataAwsccEc2VpcBlockPublicAccessExclusion_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2VpcBlockPublicAccessExclusion.DataAwsccEc2VpcBlockPublicAccessExclusion.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2vpcblockpublicaccessexclusion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2vpcblockpublicaccessexclusion"
 
 dataawsccec2vpcblockpublicaccessexclusion.DataAwsccEc2VpcBlockPublicAccessExclusion_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2vpcblockpublicaccessexclusion.DataAwsccEc2VpcBlockPublicAccessExclus
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2VpcBlockPublicAccessExclusion.DataAwsccEc2VpcBlockPublicAccessExclusion.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2vpcblockpublicaccessexclusion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2vpcblockpublicaccessexclusion"
 
 dataawsccec2vpcblockpublicaccessexclusion.DataAwsccEc2VpcBlockPublicAccessExclusion_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2vpcblockpublicaccessexclusion.DataAwsccEc2VpcBlockPublicAccessExclus
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2VpcBlockPublicAccessExclusion.DataAwsccEc2VpcBlockPublicAccessExclusion.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2vpcblockpublicaccessexclusion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2vpcblockpublicaccessexclusion"
 
 dataawsccec2vpcblockpublicaccessexclusion.DataAwsccEc2VpcBlockPublicAccessExclusion_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2VpcBlockPublic
 
 The id of the existing DataAwsccEc2VpcBlockPublicAccessExclusion that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_vpc_block_public_access_exclusion#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_vpc_block_public_access_exclusion#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -642,7 +642,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2VpcBlockPublicAccessExclusion.DataAwsccEc2VpcBlockPublicAccessExclusionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2vpcblockpublicaccessexclusion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2vpcblockpublicaccessexclusion"
 
 &dataawsccec2vpcblockpublicaccessexclusion.DataAwsccEc2VpcBlockPublicAccessExclusionConfig {
 	Connection: interface{},
@@ -751,7 +751,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_vpc_block_public_access_exclusion#id DataAwsccEc2VpcBlockPublicAccessExclusion#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_vpc_block_public_access_exclusion#id DataAwsccEc2VpcBlockPublicAccessExclusion#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -763,7 +763,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2VpcBlockPublicAccessExclusion.DataAwsccEc2VpcBlockPublicAccessExclusionTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2vpcblockpublicaccessexclusion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2vpcblockpublicaccessexclusion"
 
 &dataawsccec2vpcblockpublicaccessexclusion.DataAwsccEc2VpcBlockPublicAccessExclusionTags {
 
@@ -778,7 +778,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2vpcblockpu
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2VpcBlockPublicAccessExclusion.DataAwsccEc2VpcBlockPublicAccessExclusionTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2vpcblockpublicaccessexclusion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2vpcblockpublicaccessexclusion"
 
 dataawsccec2vpcblockpublicaccessexclusion.NewDataAwsccEc2VpcBlockPublicAccessExclusionTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEc2VpcBlockPublicAccessExclusionTagsList
 ```
@@ -927,7 +927,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2VpcBlockPublicAccessExclusion.DataAwsccEc2VpcBlockPublicAccessExclusionTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2vpcblockpublicaccessexclusion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2vpcblockpublicaccessexclusion"
 
 dataawsccec2vpcblockpublicaccessexclusion.NewDataAwsccEc2VpcBlockPublicAccessExclusionTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEc2VpcBlockPublicAccessExclusionTagsOutputReference
 ```

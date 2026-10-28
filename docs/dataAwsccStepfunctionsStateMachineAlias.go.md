@@ -4,12 +4,12 @@
 
 ### DataAwsccStepfunctionsStateMachineAlias <a name="DataAwsccStepfunctionsStateMachineAlias" id="@cdktn/provider-awscc.dataAwsccStepfunctionsStateMachineAlias.DataAwsccStepfunctionsStateMachineAlias"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/stepfunctions_state_machine_alias awscc_stepfunctions_state_machine_alias}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/stepfunctions_state_machine_alias awscc_stepfunctions_state_machine_alias}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccStepfunctionsStateMachineAlias.DataAwsccStepfunctionsStateMachineAlias.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstepfunctionsstatemachinealias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstepfunctionsstatemachinealias"
 
 dataawsccstepfunctionsstatemachinealias.NewDataAwsccStepfunctionsStateMachineAlias(scope Construct, id *string, config DataAwsccStepfunctionsStateMachineAliasConfig) DataAwsccStepfunctionsStateMachineAlias
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccStepfunctionsStateMachineAlias.DataAwsccStepfunctionsStateMachineAlias.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstepfunctionsstatemachinealias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstepfunctionsstatemachinealias"
 
 dataawsccstepfunctionsstatemachinealias.DataAwsccStepfunctionsStateMachineAlias_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccStepfunctionsStateMachineAlias.DataAwsccStepfunctionsStateMachineAlias.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstepfunctionsstatemachinealias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstepfunctionsstatemachinealias"
 
 dataawsccstepfunctionsstatemachinealias.DataAwsccStepfunctionsStateMachineAlias_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccstepfunctionsstatemachinealias.DataAwsccStepfunctionsStateMachineAlias_
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccStepfunctionsStateMachineAlias.DataAwsccStepfunctionsStateMachineAlias.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstepfunctionsstatemachinealias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstepfunctionsstatemachinealias"
 
 dataawsccstepfunctionsstatemachinealias.DataAwsccStepfunctionsStateMachineAlias_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccstepfunctionsstatemachinealias.DataAwsccStepfunctionsStateMachineAlias_
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccStepfunctionsStateMachineAlias.DataAwsccStepfunctionsStateMachineAlias.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstepfunctionsstatemachinealias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstepfunctionsstatemachinealias"
 
 dataawsccstepfunctionsstatemachinealias.DataAwsccStepfunctionsStateMachineAlias_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccStepfunctionsStat
 
 The id of the existing DataAwsccStepfunctionsStateMachineAlias that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/stepfunctions_state_machine_alias#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/stepfunctions_state_machine_alias#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -653,7 +653,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccStepfunctionsStateMachineAlias.DataAwsccStepfunctionsStateMachineAliasConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstepfunctionsstatemachinealias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstepfunctionsstatemachinealias"
 
 &dataawsccstepfunctionsstatemachinealias.DataAwsccStepfunctionsStateMachineAliasConfig {
 	Connection: interface{},
@@ -762,7 +762,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/stepfunctions_state_machine_alias#id DataAwsccStepfunctionsStateMachineAlias#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/stepfunctions_state_machine_alias#id DataAwsccStepfunctionsStateMachineAlias#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -774,7 +774,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccStepfunctionsStateMachineAlias.DataAwsccStepfunctionsStateMachineAliasDeploymentPreference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstepfunctionsstatemachinealias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstepfunctionsstatemachinealias"
 
 &dataawsccstepfunctionsstatemachinealias.DataAwsccStepfunctionsStateMachineAliasDeploymentPreference {
 
@@ -787,7 +787,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstepfunctions
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccStepfunctionsStateMachineAlias.DataAwsccStepfunctionsStateMachineAliasRoutingConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstepfunctionsstatemachinealias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstepfunctionsstatemachinealias"
 
 &dataawsccstepfunctionsstatemachinealias.DataAwsccStepfunctionsStateMachineAliasRoutingConfiguration {
 
@@ -802,7 +802,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstepfunctions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccStepfunctionsStateMachineAlias.DataAwsccStepfunctionsStateMachineAliasDeploymentPreferenceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstepfunctionsstatemachinealias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstepfunctionsstatemachinealias"
 
 dataawsccstepfunctionsstatemachinealias.NewDataAwsccStepfunctionsStateMachineAliasDeploymentPreferenceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccStepfunctionsStateMachineAliasDeploymentPreferenceOutputReference
 ```
@@ -1106,7 +1106,7 @@ func InternalValue() DataAwsccStepfunctionsStateMachineAliasDeploymentPreference
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccStepfunctionsStateMachineAlias.DataAwsccStepfunctionsStateMachineAliasRoutingConfigurationList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstepfunctionsstatemachinealias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstepfunctionsstatemachinealias"
 
 dataawsccstepfunctionsstatemachinealias.NewDataAwsccStepfunctionsStateMachineAliasRoutingConfigurationList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccStepfunctionsStateMachineAliasRoutingConfigurationList
 ```
@@ -1255,7 +1255,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccStepfunctionsStateMachineAlias.DataAwsccStepfunctionsStateMachineAliasRoutingConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstepfunctionsstatemachinealias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstepfunctionsstatemachinealias"
 
 dataawsccstepfunctionsstatemachinealias.NewDataAwsccStepfunctionsStateMachineAliasRoutingConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccStepfunctionsStateMachineAliasRoutingConfigurationOutputReference
 ```

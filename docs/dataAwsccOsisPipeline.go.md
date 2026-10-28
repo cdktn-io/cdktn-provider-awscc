@@ -4,12 +4,12 @@
 
 ### DataAwsccOsisPipeline <a name="DataAwsccOsisPipeline" id="@cdktn/provider-awscc.dataAwsccOsisPipeline.DataAwsccOsisPipeline"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/osis_pipeline awscc_osis_pipeline}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/osis_pipeline awscc_osis_pipeline}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOsisPipeline.DataAwsccOsisPipeline.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccosispipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccosispipeline"
 
 dataawsccosispipeline.NewDataAwsccOsisPipeline(scope Construct, id *string, config DataAwsccOsisPipelineConfig) DataAwsccOsisPipeline
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccOsisPipeline.DataAwsccOsisPipeline.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccosispipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccosispipeline"
 
 dataawsccosispipeline.DataAwsccOsisPipeline_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccOsisPipeline.DataAwsccOsisPipeline.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccosispipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccosispipeline"
 
 dataawsccosispipeline.DataAwsccOsisPipeline_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccosispipeline.DataAwsccOsisPipeline_IsTerraformElement(x interface{}) *b
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccOsisPipeline.DataAwsccOsisPipeline.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccosispipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccosispipeline"
 
 dataawsccosispipeline.DataAwsccOsisPipeline_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccosispipeline.DataAwsccOsisPipeline_IsTerraformDataSource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccOsisPipeline.DataAwsccOsisPipeline.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccosispipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccosispipeline"
 
 dataawsccosispipeline.DataAwsccOsisPipeline_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccOsisPipeline to i
 
 The id of the existing DataAwsccOsisPipeline that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/osis_pipeline#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/osis_pipeline#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -752,7 +752,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOsisPipeline.DataAwsccOsisPipelineBufferOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccosispipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccosispipeline"
 
 &dataawsccosispipeline.DataAwsccOsisPipelineBufferOptions {
 
@@ -765,7 +765,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccosispipeline"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOsisPipeline.DataAwsccOsisPipelineConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccosispipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccosispipeline"
 
 &dataawsccosispipeline.DataAwsccOsisPipelineConfig {
 	Connection: interface{},
@@ -874,7 +874,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/osis_pipeline#id DataAwsccOsisPipeline#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/osis_pipeline#id DataAwsccOsisPipeline#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -886,7 +886,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOsisPipeline.DataAwsccOsisPipelineEncryptionAtRestOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccosispipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccosispipeline"
 
 &dataawsccosispipeline.DataAwsccOsisPipelineEncryptionAtRestOptions {
 
@@ -899,7 +899,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccosispipeline"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOsisPipeline.DataAwsccOsisPipelineLogPublishingOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccosispipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccosispipeline"
 
 &dataawsccosispipeline.DataAwsccOsisPipelineLogPublishingOptions {
 
@@ -912,7 +912,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccosispipeline"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOsisPipeline.DataAwsccOsisPipelineLogPublishingOptionsCloudwatchLogDestination.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccosispipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccosispipeline"
 
 &dataawsccosispipeline.DataAwsccOsisPipelineLogPublishingOptionsCloudwatchLogDestination {
 
@@ -925,7 +925,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccosispipeline"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOsisPipeline.DataAwsccOsisPipelineResourcePolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccosispipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccosispipeline"
 
 &dataawsccosispipeline.DataAwsccOsisPipelineResourcePolicy {
 
@@ -938,7 +938,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccosispipeline"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOsisPipeline.DataAwsccOsisPipelineTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccosispipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccosispipeline"
 
 &dataawsccosispipeline.DataAwsccOsisPipelineTags {
 
@@ -951,7 +951,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccosispipeline"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOsisPipeline.DataAwsccOsisPipelineVpcEndpoints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccosispipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccosispipeline"
 
 &dataawsccosispipeline.DataAwsccOsisPipelineVpcEndpoints {
 
@@ -964,7 +964,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccosispipeline"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOsisPipeline.DataAwsccOsisPipelineVpcEndpointsVpcOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccosispipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccosispipeline"
 
 &dataawsccosispipeline.DataAwsccOsisPipelineVpcEndpointsVpcOptions {
 
@@ -977,7 +977,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccosispipeline"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOsisPipeline.DataAwsccOsisPipelineVpcEndpointsVpcOptionsVpcAttachmentOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccosispipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccosispipeline"
 
 &dataawsccosispipeline.DataAwsccOsisPipelineVpcEndpointsVpcOptionsVpcAttachmentOptions {
 
@@ -990,7 +990,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccosispipeline"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOsisPipeline.DataAwsccOsisPipelineVpcOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccosispipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccosispipeline"
 
 &dataawsccosispipeline.DataAwsccOsisPipelineVpcOptions {
 
@@ -1003,7 +1003,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccosispipeline"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOsisPipeline.DataAwsccOsisPipelineVpcOptionsVpcAttachmentOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccosispipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccosispipeline"
 
 &dataawsccosispipeline.DataAwsccOsisPipelineVpcOptionsVpcAttachmentOptions {
 
@@ -1018,7 +1018,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccosispipeline"
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOsisPipeline.DataAwsccOsisPipelineBufferOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccosispipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccosispipeline"
 
 dataawsccosispipeline.NewDataAwsccOsisPipelineBufferOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccOsisPipelineBufferOptionsOutputReference
 ```
@@ -1278,7 +1278,7 @@ func InternalValue() DataAwsccOsisPipelineBufferOptions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOsisPipeline.DataAwsccOsisPipelineEncryptionAtRestOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccosispipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccosispipeline"
 
 dataawsccosispipeline.NewDataAwsccOsisPipelineEncryptionAtRestOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccOsisPipelineEncryptionAtRestOptionsOutputReference
 ```
@@ -1538,7 +1538,7 @@ func InternalValue() DataAwsccOsisPipelineEncryptionAtRestOptions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOsisPipeline.DataAwsccOsisPipelineLogPublishingOptionsCloudwatchLogDestinationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccosispipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccosispipeline"
 
 dataawsccosispipeline.NewDataAwsccOsisPipelineLogPublishingOptionsCloudwatchLogDestinationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccOsisPipelineLogPublishingOptionsCloudwatchLogDestinationOutputReference
 ```
@@ -1798,7 +1798,7 @@ func InternalValue() DataAwsccOsisPipelineLogPublishingOptionsCloudwatchLogDesti
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOsisPipeline.DataAwsccOsisPipelineLogPublishingOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccosispipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccosispipeline"
 
 dataawsccosispipeline.NewDataAwsccOsisPipelineLogPublishingOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccOsisPipelineLogPublishingOptionsOutputReference
 ```
@@ -2069,7 +2069,7 @@ func InternalValue() DataAwsccOsisPipelineLogPublishingOptions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOsisPipeline.DataAwsccOsisPipelineResourcePolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccosispipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccosispipeline"
 
 dataawsccosispipeline.NewDataAwsccOsisPipelineResourcePolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccOsisPipelineResourcePolicyOutputReference
 ```
@@ -2329,7 +2329,7 @@ func InternalValue() DataAwsccOsisPipelineResourcePolicy
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOsisPipeline.DataAwsccOsisPipelineTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccosispipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccosispipeline"
 
 dataawsccosispipeline.NewDataAwsccOsisPipelineTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccOsisPipelineTagsList
 ```
@@ -2478,7 +2478,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOsisPipeline.DataAwsccOsisPipelineTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccosispipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccosispipeline"
 
 dataawsccosispipeline.NewDataAwsccOsisPipelineTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccOsisPipelineTagsOutputReference
 ```
@@ -2767,7 +2767,7 @@ func InternalValue() DataAwsccOsisPipelineTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOsisPipeline.DataAwsccOsisPipelineVpcEndpointsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccosispipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccosispipeline"
 
 dataawsccosispipeline.NewDataAwsccOsisPipelineVpcEndpointsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccOsisPipelineVpcEndpointsList
 ```
@@ -2916,7 +2916,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOsisPipeline.DataAwsccOsisPipelineVpcEndpointsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccosispipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccosispipeline"
 
 dataawsccosispipeline.NewDataAwsccOsisPipelineVpcEndpointsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccOsisPipelineVpcEndpointsOutputReference
 ```
@@ -3216,7 +3216,7 @@ func InternalValue() DataAwsccOsisPipelineVpcEndpoints
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOsisPipeline.DataAwsccOsisPipelineVpcEndpointsVpcOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccosispipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccosispipeline"
 
 dataawsccosispipeline.NewDataAwsccOsisPipelineVpcEndpointsVpcOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccOsisPipelineVpcEndpointsVpcOptionsOutputReference
 ```
@@ -3509,7 +3509,7 @@ func InternalValue() DataAwsccOsisPipelineVpcEndpointsVpcOptions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOsisPipeline.DataAwsccOsisPipelineVpcEndpointsVpcOptionsVpcAttachmentOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccosispipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccosispipeline"
 
 dataawsccosispipeline.NewDataAwsccOsisPipelineVpcEndpointsVpcOptionsVpcAttachmentOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccOsisPipelineVpcEndpointsVpcOptionsVpcAttachmentOptionsOutputReference
 ```
@@ -3780,7 +3780,7 @@ func InternalValue() DataAwsccOsisPipelineVpcEndpointsVpcOptionsVpcAttachmentOpt
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOsisPipeline.DataAwsccOsisPipelineVpcOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccosispipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccosispipeline"
 
 dataawsccosispipeline.NewDataAwsccOsisPipelineVpcOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccOsisPipelineVpcOptionsOutputReference
 ```
@@ -4073,7 +4073,7 @@ func InternalValue() DataAwsccOsisPipelineVpcOptions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOsisPipeline.DataAwsccOsisPipelineVpcOptionsVpcAttachmentOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccosispipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccosispipeline"
 
 dataawsccosispipeline.NewDataAwsccOsisPipelineVpcOptionsVpcAttachmentOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccOsisPipelineVpcOptionsVpcAttachmentOptionsOutputReference
 ```

@@ -4,7 +4,7 @@
 
 ### Inspectorv2Filter <a name="Inspectorv2Filter" id="@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2Filter"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter awscc_inspectorv2_filter}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter awscc_inspectorv2_filter}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2Filter.Initializer"></a>
 
@@ -516,7 +516,7 @@ The construct id used in the generated config for the Inspectorv2Filter to impor
 
 The id of the existing Inspectorv2Filter that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -881,7 +881,7 @@ new Inspectorv2FilterConfig {
 | <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterConfig.property.filterCriteria">FilterCriteria</a></code> | <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria">Inspectorv2FilterFilterCriteria</a></code> | Findings filter criteria. |
 | <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterConfig.property.name">Name</a></code> | <code>string</code> | Findings filter name. |
 | <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterConfig.property.description">Description</a></code> | <code>string</code> | Findings filter description. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterConfig.property.tags">Tags</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#tags Inspectorv2Filter#tags}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterConfig.property.tags">Tags</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#tags Inspectorv2Filter#tags}. |
 
 ---
 
@@ -965,7 +965,7 @@ public string FilterAction { get; set; }
 
 Findings filter action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#filter_action Inspectorv2Filter#filter_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#filter_action Inspectorv2Filter#filter_action}
 
 ---
 
@@ -979,7 +979,7 @@ public Inspectorv2FilterFilterCriteria FilterCriteria { get; set; }
 
 Findings filter criteria.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#filter_criteria Inspectorv2Filter#filter_criteria}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#filter_criteria Inspectorv2Filter#filter_criteria}
 
 ---
 
@@ -993,7 +993,7 @@ public string Name { get; set; }
 
 Findings filter name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#name Inspectorv2Filter#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#name Inspectorv2Filter#name}
 
 ---
 
@@ -1007,7 +1007,7 @@ public string Description { get; set; }
 
 Findings filter description.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#description Inspectorv2Filter#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#description Inspectorv2Filter#description}
 
 ---
 
@@ -1019,7 +1019,7 @@ public System.Collections.Generic.IDictionary<string, string> Tags { get; set; }
 
 - *Type:* System.Collections.Generic.IDictionary<string, string>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#tags Inspectorv2Filter#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#tags Inspectorv2Filter#tags}.
 
 ---
 
@@ -1042,6 +1042,7 @@ new Inspectorv2FilterFilterCriteria {
     IResolvable|Inspectorv2FilterFilterCriteriaEc2InstanceVpcId[] Ec2InstanceVpcId = null,
     IResolvable|Inspectorv2FilterFilterCriteriaEcrImageArchitecture[] EcrImageArchitecture = null,
     IResolvable|Inspectorv2FilterFilterCriteriaEcrImageHash[] EcrImageHash = null,
+    IResolvable|Inspectorv2FilterFilterCriteriaEcrImageInUseCount[] EcrImageInUseCount = null,
     IResolvable|Inspectorv2FilterFilterCriteriaEcrImagePushedAt[] EcrImagePushedAt = null,
     IResolvable|Inspectorv2FilterFilterCriteriaEcrImageRegistry[] EcrImageRegistry = null,
     IResolvable|Inspectorv2FilterFilterCriteriaEcrImageRepositoryName[] EcrImageRepositoryName = null,
@@ -1080,48 +1081,49 @@ new Inspectorv2FilterFilterCriteria {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.awsAccountId">AwsAccountId</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaAwsAccountId">Inspectorv2FilterFilterCriteriaAwsAccountId</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#aws_account_id Inspectorv2Filter#aws_account_id}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.codeVulnerabilityDetectorName">CodeVulnerabilityDetectorName</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaCodeVulnerabilityDetectorName">Inspectorv2FilterFilterCriteriaCodeVulnerabilityDetectorName</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#code_vulnerability_detector_name Inspectorv2Filter#code_vulnerability_detector_name}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.codeVulnerabilityDetectorTags">CodeVulnerabilityDetectorTags</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaCodeVulnerabilityDetectorTags">Inspectorv2FilterFilterCriteriaCodeVulnerabilityDetectorTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#code_vulnerability_detector_tags Inspectorv2Filter#code_vulnerability_detector_tags}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.codeVulnerabilityFilePath">CodeVulnerabilityFilePath</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaCodeVulnerabilityFilePath">Inspectorv2FilterFilterCriteriaCodeVulnerabilityFilePath</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#code_vulnerability_file_path Inspectorv2Filter#code_vulnerability_file_path}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.componentId">ComponentId</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaComponentId">Inspectorv2FilterFilterCriteriaComponentId</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#component_id Inspectorv2Filter#component_id}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.componentType">ComponentType</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaComponentType">Inspectorv2FilterFilterCriteriaComponentType</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#component_type Inspectorv2Filter#component_type}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.ec2InstanceImageId">Ec2InstanceImageId</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEc2InstanceImageId">Inspectorv2FilterFilterCriteriaEc2InstanceImageId</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#ec_2_instance_image_id Inspectorv2Filter#ec_2_instance_image_id}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.ec2InstanceSubnetId">Ec2InstanceSubnetId</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEc2InstanceSubnetId">Inspectorv2FilterFilterCriteriaEc2InstanceSubnetId</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#ec_2_instance_subnet_id Inspectorv2Filter#ec_2_instance_subnet_id}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.ec2InstanceVpcId">Ec2InstanceVpcId</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEc2InstanceVpcId">Inspectorv2FilterFilterCriteriaEc2InstanceVpcId</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#ec_2_instance_vpc_id Inspectorv2Filter#ec_2_instance_vpc_id}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.ecrImageArchitecture">EcrImageArchitecture</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageArchitecture">Inspectorv2FilterFilterCriteriaEcrImageArchitecture</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#ecr_image_architecture Inspectorv2Filter#ecr_image_architecture}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.ecrImageHash">EcrImageHash</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageHash">Inspectorv2FilterFilterCriteriaEcrImageHash</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#ecr_image_hash Inspectorv2Filter#ecr_image_hash}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.ecrImagePushedAt">EcrImagePushedAt</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImagePushedAt">Inspectorv2FilterFilterCriteriaEcrImagePushedAt</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#ecr_image_pushed_at Inspectorv2Filter#ecr_image_pushed_at}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.ecrImageRegistry">EcrImageRegistry</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageRegistry">Inspectorv2FilterFilterCriteriaEcrImageRegistry</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#ecr_image_registry Inspectorv2Filter#ecr_image_registry}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.ecrImageRepositoryName">EcrImageRepositoryName</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageRepositoryName">Inspectorv2FilterFilterCriteriaEcrImageRepositoryName</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#ecr_image_repository_name Inspectorv2Filter#ecr_image_repository_name}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.ecrImageTags">EcrImageTags</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageTags">Inspectorv2FilterFilterCriteriaEcrImageTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#ecr_image_tags Inspectorv2Filter#ecr_image_tags}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.epssScore">EpssScore</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEpssScore">Inspectorv2FilterFilterCriteriaEpssScore</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#epss_score Inspectorv2Filter#epss_score}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.exploitAvailable">ExploitAvailable</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaExploitAvailable">Inspectorv2FilterFilterCriteriaExploitAvailable</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#exploit_available Inspectorv2Filter#exploit_available}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.findingArn">FindingArn</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaFindingArn">Inspectorv2FilterFilterCriteriaFindingArn</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#finding_arn Inspectorv2Filter#finding_arn}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.findingStatus">FindingStatus</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaFindingStatus">Inspectorv2FilterFilterCriteriaFindingStatus</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#finding_status Inspectorv2Filter#finding_status}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.findingType">FindingType</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaFindingType">Inspectorv2FilterFilterCriteriaFindingType</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#finding_type Inspectorv2Filter#finding_type}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.firstObservedAt">FirstObservedAt</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaFirstObservedAt">Inspectorv2FilterFilterCriteriaFirstObservedAt</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#first_observed_at Inspectorv2Filter#first_observed_at}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.fixAvailable">FixAvailable</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaFixAvailable">Inspectorv2FilterFilterCriteriaFixAvailable</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#fix_available Inspectorv2Filter#fix_available}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.inspectorScore">InspectorScore</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaInspectorScore">Inspectorv2FilterFilterCriteriaInspectorScore</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#inspector_score Inspectorv2Filter#inspector_score}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.lambdaFunctionExecutionRoleArn">LambdaFunctionExecutionRoleArn</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaLambdaFunctionExecutionRoleArn">Inspectorv2FilterFilterCriteriaLambdaFunctionExecutionRoleArn</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#lambda_function_execution_role_arn Inspectorv2Filter#lambda_function_execution_role_arn}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.lambdaFunctionLastModifiedAt">LambdaFunctionLastModifiedAt</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaLambdaFunctionLastModifiedAt">Inspectorv2FilterFilterCriteriaLambdaFunctionLastModifiedAt</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#lambda_function_last_modified_at Inspectorv2Filter#lambda_function_last_modified_at}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.lambdaFunctionLayers">LambdaFunctionLayers</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaLambdaFunctionLayers">Inspectorv2FilterFilterCriteriaLambdaFunctionLayers</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#lambda_function_layers Inspectorv2Filter#lambda_function_layers}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.lambdaFunctionName">LambdaFunctionName</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaLambdaFunctionName">Inspectorv2FilterFilterCriteriaLambdaFunctionName</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#lambda_function_name Inspectorv2Filter#lambda_function_name}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.lambdaFunctionRuntime">LambdaFunctionRuntime</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaLambdaFunctionRuntime">Inspectorv2FilterFilterCriteriaLambdaFunctionRuntime</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#lambda_function_runtime Inspectorv2Filter#lambda_function_runtime}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.lastObservedAt">LastObservedAt</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaLastObservedAt">Inspectorv2FilterFilterCriteriaLastObservedAt</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#last_observed_at Inspectorv2Filter#last_observed_at}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.networkProtocol">NetworkProtocol</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaNetworkProtocol">Inspectorv2FilterFilterCriteriaNetworkProtocol</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#network_protocol Inspectorv2Filter#network_protocol}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.portRange">PortRange</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaPortRange">Inspectorv2FilterFilterCriteriaPortRange</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#port_range Inspectorv2Filter#port_range}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.relatedVulnerabilities">RelatedVulnerabilities</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaRelatedVulnerabilities">Inspectorv2FilterFilterCriteriaRelatedVulnerabilities</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#related_vulnerabilities Inspectorv2Filter#related_vulnerabilities}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.resourceId">ResourceId</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaResourceId">Inspectorv2FilterFilterCriteriaResourceId</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#resource_id Inspectorv2Filter#resource_id}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.resourceTags">ResourceTags</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaResourceTags">Inspectorv2FilterFilterCriteriaResourceTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#resource_tags Inspectorv2Filter#resource_tags}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.resourceType">ResourceType</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaResourceType">Inspectorv2FilterFilterCriteriaResourceType</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#resource_type Inspectorv2Filter#resource_type}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.severity">Severity</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaSeverity">Inspectorv2FilterFilterCriteriaSeverity</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#severity Inspectorv2Filter#severity}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.title">Title</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaTitle">Inspectorv2FilterFilterCriteriaTitle</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#title Inspectorv2Filter#title}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.updatedAt">UpdatedAt</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaUpdatedAt">Inspectorv2FilterFilterCriteriaUpdatedAt</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#updated_at Inspectorv2Filter#updated_at}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.vendorSeverity">VendorSeverity</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVendorSeverity">Inspectorv2FilterFilterCriteriaVendorSeverity</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#vendor_severity Inspectorv2Filter#vendor_severity}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.vulnerabilityId">VulnerabilityId</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerabilityId">Inspectorv2FilterFilterCriteriaVulnerabilityId</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#vulnerability_id Inspectorv2Filter#vulnerability_id}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.vulnerabilitySource">VulnerabilitySource</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerabilitySource">Inspectorv2FilterFilterCriteriaVulnerabilitySource</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#vulnerability_source Inspectorv2Filter#vulnerability_source}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.vulnerablePackages">VulnerablePackages</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackages">Inspectorv2FilterFilterCriteriaVulnerablePackages</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#vulnerable_packages Inspectorv2Filter#vulnerable_packages}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.awsAccountId">AwsAccountId</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaAwsAccountId">Inspectorv2FilterFilterCriteriaAwsAccountId</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#aws_account_id Inspectorv2Filter#aws_account_id}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.codeVulnerabilityDetectorName">CodeVulnerabilityDetectorName</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaCodeVulnerabilityDetectorName">Inspectorv2FilterFilterCriteriaCodeVulnerabilityDetectorName</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#code_vulnerability_detector_name Inspectorv2Filter#code_vulnerability_detector_name}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.codeVulnerabilityDetectorTags">CodeVulnerabilityDetectorTags</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaCodeVulnerabilityDetectorTags">Inspectorv2FilterFilterCriteriaCodeVulnerabilityDetectorTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#code_vulnerability_detector_tags Inspectorv2Filter#code_vulnerability_detector_tags}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.codeVulnerabilityFilePath">CodeVulnerabilityFilePath</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaCodeVulnerabilityFilePath">Inspectorv2FilterFilterCriteriaCodeVulnerabilityFilePath</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#code_vulnerability_file_path Inspectorv2Filter#code_vulnerability_file_path}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.componentId">ComponentId</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaComponentId">Inspectorv2FilterFilterCriteriaComponentId</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#component_id Inspectorv2Filter#component_id}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.componentType">ComponentType</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaComponentType">Inspectorv2FilterFilterCriteriaComponentType</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#component_type Inspectorv2Filter#component_type}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.ec2InstanceImageId">Ec2InstanceImageId</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEc2InstanceImageId">Inspectorv2FilterFilterCriteriaEc2InstanceImageId</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#ec_2_instance_image_id Inspectorv2Filter#ec_2_instance_image_id}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.ec2InstanceSubnetId">Ec2InstanceSubnetId</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEc2InstanceSubnetId">Inspectorv2FilterFilterCriteriaEc2InstanceSubnetId</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#ec_2_instance_subnet_id Inspectorv2Filter#ec_2_instance_subnet_id}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.ec2InstanceVpcId">Ec2InstanceVpcId</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEc2InstanceVpcId">Inspectorv2FilterFilterCriteriaEc2InstanceVpcId</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#ec_2_instance_vpc_id Inspectorv2Filter#ec_2_instance_vpc_id}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.ecrImageArchitecture">EcrImageArchitecture</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageArchitecture">Inspectorv2FilterFilterCriteriaEcrImageArchitecture</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#ecr_image_architecture Inspectorv2Filter#ecr_image_architecture}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.ecrImageHash">EcrImageHash</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageHash">Inspectorv2FilterFilterCriteriaEcrImageHash</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#ecr_image_hash Inspectorv2Filter#ecr_image_hash}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.ecrImageInUseCount">EcrImageInUseCount</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCount">Inspectorv2FilterFilterCriteriaEcrImageInUseCount</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#ecr_image_in_use_count Inspectorv2Filter#ecr_image_in_use_count}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.ecrImagePushedAt">EcrImagePushedAt</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImagePushedAt">Inspectorv2FilterFilterCriteriaEcrImagePushedAt</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#ecr_image_pushed_at Inspectorv2Filter#ecr_image_pushed_at}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.ecrImageRegistry">EcrImageRegistry</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageRegistry">Inspectorv2FilterFilterCriteriaEcrImageRegistry</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#ecr_image_registry Inspectorv2Filter#ecr_image_registry}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.ecrImageRepositoryName">EcrImageRepositoryName</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageRepositoryName">Inspectorv2FilterFilterCriteriaEcrImageRepositoryName</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#ecr_image_repository_name Inspectorv2Filter#ecr_image_repository_name}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.ecrImageTags">EcrImageTags</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageTags">Inspectorv2FilterFilterCriteriaEcrImageTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#ecr_image_tags Inspectorv2Filter#ecr_image_tags}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.epssScore">EpssScore</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEpssScore">Inspectorv2FilterFilterCriteriaEpssScore</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#epss_score Inspectorv2Filter#epss_score}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.exploitAvailable">ExploitAvailable</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaExploitAvailable">Inspectorv2FilterFilterCriteriaExploitAvailable</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#exploit_available Inspectorv2Filter#exploit_available}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.findingArn">FindingArn</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaFindingArn">Inspectorv2FilterFilterCriteriaFindingArn</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#finding_arn Inspectorv2Filter#finding_arn}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.findingStatus">FindingStatus</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaFindingStatus">Inspectorv2FilterFilterCriteriaFindingStatus</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#finding_status Inspectorv2Filter#finding_status}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.findingType">FindingType</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaFindingType">Inspectorv2FilterFilterCriteriaFindingType</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#finding_type Inspectorv2Filter#finding_type}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.firstObservedAt">FirstObservedAt</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaFirstObservedAt">Inspectorv2FilterFilterCriteriaFirstObservedAt</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#first_observed_at Inspectorv2Filter#first_observed_at}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.fixAvailable">FixAvailable</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaFixAvailable">Inspectorv2FilterFilterCriteriaFixAvailable</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#fix_available Inspectorv2Filter#fix_available}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.inspectorScore">InspectorScore</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaInspectorScore">Inspectorv2FilterFilterCriteriaInspectorScore</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#inspector_score Inspectorv2Filter#inspector_score}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.lambdaFunctionExecutionRoleArn">LambdaFunctionExecutionRoleArn</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaLambdaFunctionExecutionRoleArn">Inspectorv2FilterFilterCriteriaLambdaFunctionExecutionRoleArn</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#lambda_function_execution_role_arn Inspectorv2Filter#lambda_function_execution_role_arn}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.lambdaFunctionLastModifiedAt">LambdaFunctionLastModifiedAt</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaLambdaFunctionLastModifiedAt">Inspectorv2FilterFilterCriteriaLambdaFunctionLastModifiedAt</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#lambda_function_last_modified_at Inspectorv2Filter#lambda_function_last_modified_at}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.lambdaFunctionLayers">LambdaFunctionLayers</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaLambdaFunctionLayers">Inspectorv2FilterFilterCriteriaLambdaFunctionLayers</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#lambda_function_layers Inspectorv2Filter#lambda_function_layers}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.lambdaFunctionName">LambdaFunctionName</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaLambdaFunctionName">Inspectorv2FilterFilterCriteriaLambdaFunctionName</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#lambda_function_name Inspectorv2Filter#lambda_function_name}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.lambdaFunctionRuntime">LambdaFunctionRuntime</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaLambdaFunctionRuntime">Inspectorv2FilterFilterCriteriaLambdaFunctionRuntime</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#lambda_function_runtime Inspectorv2Filter#lambda_function_runtime}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.lastObservedAt">LastObservedAt</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaLastObservedAt">Inspectorv2FilterFilterCriteriaLastObservedAt</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#last_observed_at Inspectorv2Filter#last_observed_at}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.networkProtocol">NetworkProtocol</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaNetworkProtocol">Inspectorv2FilterFilterCriteriaNetworkProtocol</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#network_protocol Inspectorv2Filter#network_protocol}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.portRange">PortRange</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaPortRange">Inspectorv2FilterFilterCriteriaPortRange</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#port_range Inspectorv2Filter#port_range}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.relatedVulnerabilities">RelatedVulnerabilities</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaRelatedVulnerabilities">Inspectorv2FilterFilterCriteriaRelatedVulnerabilities</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#related_vulnerabilities Inspectorv2Filter#related_vulnerabilities}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.resourceId">ResourceId</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaResourceId">Inspectorv2FilterFilterCriteriaResourceId</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#resource_id Inspectorv2Filter#resource_id}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.resourceTags">ResourceTags</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaResourceTags">Inspectorv2FilterFilterCriteriaResourceTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#resource_tags Inspectorv2Filter#resource_tags}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.resourceType">ResourceType</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaResourceType">Inspectorv2FilterFilterCriteriaResourceType</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#resource_type Inspectorv2Filter#resource_type}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.severity">Severity</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaSeverity">Inspectorv2FilterFilterCriteriaSeverity</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#severity Inspectorv2Filter#severity}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.title">Title</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaTitle">Inspectorv2FilterFilterCriteriaTitle</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#title Inspectorv2Filter#title}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.updatedAt">UpdatedAt</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaUpdatedAt">Inspectorv2FilterFilterCriteriaUpdatedAt</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#updated_at Inspectorv2Filter#updated_at}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.vendorSeverity">VendorSeverity</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVendorSeverity">Inspectorv2FilterFilterCriteriaVendorSeverity</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#vendor_severity Inspectorv2Filter#vendor_severity}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.vulnerabilityId">VulnerabilityId</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerabilityId">Inspectorv2FilterFilterCriteriaVulnerabilityId</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#vulnerability_id Inspectorv2Filter#vulnerability_id}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.vulnerabilitySource">VulnerabilitySource</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerabilitySource">Inspectorv2FilterFilterCriteriaVulnerabilitySource</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#vulnerability_source Inspectorv2Filter#vulnerability_source}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.vulnerablePackages">VulnerablePackages</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackages">Inspectorv2FilterFilterCriteriaVulnerablePackages</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#vulnerable_packages Inspectorv2Filter#vulnerable_packages}. |
 
 ---
 
@@ -1133,7 +1135,7 @@ public IResolvable|Inspectorv2FilterFilterCriteriaAwsAccountId[] AwsAccountId { 
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaAwsAccountId">Inspectorv2FilterFilterCriteriaAwsAccountId</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#aws_account_id Inspectorv2Filter#aws_account_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#aws_account_id Inspectorv2Filter#aws_account_id}.
 
 ---
 
@@ -1145,7 +1147,7 @@ public IResolvable|Inspectorv2FilterFilterCriteriaCodeVulnerabilityDetectorName[
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaCodeVulnerabilityDetectorName">Inspectorv2FilterFilterCriteriaCodeVulnerabilityDetectorName</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#code_vulnerability_detector_name Inspectorv2Filter#code_vulnerability_detector_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#code_vulnerability_detector_name Inspectorv2Filter#code_vulnerability_detector_name}.
 
 ---
 
@@ -1157,7 +1159,7 @@ public IResolvable|Inspectorv2FilterFilterCriteriaCodeVulnerabilityDetectorTags[
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaCodeVulnerabilityDetectorTags">Inspectorv2FilterFilterCriteriaCodeVulnerabilityDetectorTags</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#code_vulnerability_detector_tags Inspectorv2Filter#code_vulnerability_detector_tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#code_vulnerability_detector_tags Inspectorv2Filter#code_vulnerability_detector_tags}.
 
 ---
 
@@ -1169,7 +1171,7 @@ public IResolvable|Inspectorv2FilterFilterCriteriaCodeVulnerabilityFilePath[] Co
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaCodeVulnerabilityFilePath">Inspectorv2FilterFilterCriteriaCodeVulnerabilityFilePath</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#code_vulnerability_file_path Inspectorv2Filter#code_vulnerability_file_path}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#code_vulnerability_file_path Inspectorv2Filter#code_vulnerability_file_path}.
 
 ---
 
@@ -1181,7 +1183,7 @@ public IResolvable|Inspectorv2FilterFilterCriteriaComponentId[] ComponentId { ge
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaComponentId">Inspectorv2FilterFilterCriteriaComponentId</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#component_id Inspectorv2Filter#component_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#component_id Inspectorv2Filter#component_id}.
 
 ---
 
@@ -1193,7 +1195,7 @@ public IResolvable|Inspectorv2FilterFilterCriteriaComponentType[] ComponentType 
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaComponentType">Inspectorv2FilterFilterCriteriaComponentType</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#component_type Inspectorv2Filter#component_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#component_type Inspectorv2Filter#component_type}.
 
 ---
 
@@ -1205,7 +1207,7 @@ public IResolvable|Inspectorv2FilterFilterCriteriaEc2InstanceImageId[] Ec2Instan
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEc2InstanceImageId">Inspectorv2FilterFilterCriteriaEc2InstanceImageId</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#ec_2_instance_image_id Inspectorv2Filter#ec_2_instance_image_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#ec_2_instance_image_id Inspectorv2Filter#ec_2_instance_image_id}.
 
 ---
 
@@ -1217,7 +1219,7 @@ public IResolvable|Inspectorv2FilterFilterCriteriaEc2InstanceSubnetId[] Ec2Insta
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEc2InstanceSubnetId">Inspectorv2FilterFilterCriteriaEc2InstanceSubnetId</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#ec_2_instance_subnet_id Inspectorv2Filter#ec_2_instance_subnet_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#ec_2_instance_subnet_id Inspectorv2Filter#ec_2_instance_subnet_id}.
 
 ---
 
@@ -1229,7 +1231,7 @@ public IResolvable|Inspectorv2FilterFilterCriteriaEc2InstanceVpcId[] Ec2Instance
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEc2InstanceVpcId">Inspectorv2FilterFilterCriteriaEc2InstanceVpcId</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#ec_2_instance_vpc_id Inspectorv2Filter#ec_2_instance_vpc_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#ec_2_instance_vpc_id Inspectorv2Filter#ec_2_instance_vpc_id}.
 
 ---
 
@@ -1241,7 +1243,7 @@ public IResolvable|Inspectorv2FilterFilterCriteriaEcrImageArchitecture[] EcrImag
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageArchitecture">Inspectorv2FilterFilterCriteriaEcrImageArchitecture</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#ecr_image_architecture Inspectorv2Filter#ecr_image_architecture}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#ecr_image_architecture Inspectorv2Filter#ecr_image_architecture}.
 
 ---
 
@@ -1253,7 +1255,19 @@ public IResolvable|Inspectorv2FilterFilterCriteriaEcrImageHash[] EcrImageHash { 
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageHash">Inspectorv2FilterFilterCriteriaEcrImageHash</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#ecr_image_hash Inspectorv2Filter#ecr_image_hash}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#ecr_image_hash Inspectorv2Filter#ecr_image_hash}.
+
+---
+
+##### `EcrImageInUseCount`<sup>Optional</sup> <a name="EcrImageInUseCount" id="@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteria.property.ecrImageInUseCount"></a>
+
+```csharp
+public IResolvable|Inspectorv2FilterFilterCriteriaEcrImageInUseCount[] EcrImageInUseCount { get; set; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCount">Inspectorv2FilterFilterCriteriaEcrImageInUseCount</a>[]
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#ecr_image_in_use_count Inspectorv2Filter#ecr_image_in_use_count}.
 
 ---
 
@@ -1265,7 +1279,7 @@ public IResolvable|Inspectorv2FilterFilterCriteriaEcrImagePushedAt[] EcrImagePus
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImagePushedAt">Inspectorv2FilterFilterCriteriaEcrImagePushedAt</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#ecr_image_pushed_at Inspectorv2Filter#ecr_image_pushed_at}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#ecr_image_pushed_at Inspectorv2Filter#ecr_image_pushed_at}.
 
 ---
 
@@ -1277,7 +1291,7 @@ public IResolvable|Inspectorv2FilterFilterCriteriaEcrImageRegistry[] EcrImageReg
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageRegistry">Inspectorv2FilterFilterCriteriaEcrImageRegistry</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#ecr_image_registry Inspectorv2Filter#ecr_image_registry}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#ecr_image_registry Inspectorv2Filter#ecr_image_registry}.
 
 ---
 
@@ -1289,7 +1303,7 @@ public IResolvable|Inspectorv2FilterFilterCriteriaEcrImageRepositoryName[] EcrIm
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageRepositoryName">Inspectorv2FilterFilterCriteriaEcrImageRepositoryName</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#ecr_image_repository_name Inspectorv2Filter#ecr_image_repository_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#ecr_image_repository_name Inspectorv2Filter#ecr_image_repository_name}.
 
 ---
 
@@ -1301,7 +1315,7 @@ public IResolvable|Inspectorv2FilterFilterCriteriaEcrImageTags[] EcrImageTags { 
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageTags">Inspectorv2FilterFilterCriteriaEcrImageTags</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#ecr_image_tags Inspectorv2Filter#ecr_image_tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#ecr_image_tags Inspectorv2Filter#ecr_image_tags}.
 
 ---
 
@@ -1313,7 +1327,7 @@ public IResolvable|Inspectorv2FilterFilterCriteriaEpssScore[] EpssScore { get; s
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEpssScore">Inspectorv2FilterFilterCriteriaEpssScore</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#epss_score Inspectorv2Filter#epss_score}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#epss_score Inspectorv2Filter#epss_score}.
 
 ---
 
@@ -1325,7 +1339,7 @@ public IResolvable|Inspectorv2FilterFilterCriteriaExploitAvailable[] ExploitAvai
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaExploitAvailable">Inspectorv2FilterFilterCriteriaExploitAvailable</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#exploit_available Inspectorv2Filter#exploit_available}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#exploit_available Inspectorv2Filter#exploit_available}.
 
 ---
 
@@ -1337,7 +1351,7 @@ public IResolvable|Inspectorv2FilterFilterCriteriaFindingArn[] FindingArn { get;
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaFindingArn">Inspectorv2FilterFilterCriteriaFindingArn</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#finding_arn Inspectorv2Filter#finding_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#finding_arn Inspectorv2Filter#finding_arn}.
 
 ---
 
@@ -1349,7 +1363,7 @@ public IResolvable|Inspectorv2FilterFilterCriteriaFindingStatus[] FindingStatus 
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaFindingStatus">Inspectorv2FilterFilterCriteriaFindingStatus</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#finding_status Inspectorv2Filter#finding_status}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#finding_status Inspectorv2Filter#finding_status}.
 
 ---
 
@@ -1361,7 +1375,7 @@ public IResolvable|Inspectorv2FilterFilterCriteriaFindingType[] FindingType { ge
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaFindingType">Inspectorv2FilterFilterCriteriaFindingType</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#finding_type Inspectorv2Filter#finding_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#finding_type Inspectorv2Filter#finding_type}.
 
 ---
 
@@ -1373,7 +1387,7 @@ public IResolvable|Inspectorv2FilterFilterCriteriaFirstObservedAt[] FirstObserve
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaFirstObservedAt">Inspectorv2FilterFilterCriteriaFirstObservedAt</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#first_observed_at Inspectorv2Filter#first_observed_at}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#first_observed_at Inspectorv2Filter#first_observed_at}.
 
 ---
 
@@ -1385,7 +1399,7 @@ public IResolvable|Inspectorv2FilterFilterCriteriaFixAvailable[] FixAvailable { 
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaFixAvailable">Inspectorv2FilterFilterCriteriaFixAvailable</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#fix_available Inspectorv2Filter#fix_available}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#fix_available Inspectorv2Filter#fix_available}.
 
 ---
 
@@ -1397,7 +1411,7 @@ public IResolvable|Inspectorv2FilterFilterCriteriaInspectorScore[] InspectorScor
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaInspectorScore">Inspectorv2FilterFilterCriteriaInspectorScore</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#inspector_score Inspectorv2Filter#inspector_score}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#inspector_score Inspectorv2Filter#inspector_score}.
 
 ---
 
@@ -1409,7 +1423,7 @@ public IResolvable|Inspectorv2FilterFilterCriteriaLambdaFunctionExecutionRoleArn
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaLambdaFunctionExecutionRoleArn">Inspectorv2FilterFilterCriteriaLambdaFunctionExecutionRoleArn</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#lambda_function_execution_role_arn Inspectorv2Filter#lambda_function_execution_role_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#lambda_function_execution_role_arn Inspectorv2Filter#lambda_function_execution_role_arn}.
 
 ---
 
@@ -1421,7 +1435,7 @@ public IResolvable|Inspectorv2FilterFilterCriteriaLambdaFunctionLastModifiedAt[]
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaLambdaFunctionLastModifiedAt">Inspectorv2FilterFilterCriteriaLambdaFunctionLastModifiedAt</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#lambda_function_last_modified_at Inspectorv2Filter#lambda_function_last_modified_at}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#lambda_function_last_modified_at Inspectorv2Filter#lambda_function_last_modified_at}.
 
 ---
 
@@ -1433,7 +1447,7 @@ public IResolvable|Inspectorv2FilterFilterCriteriaLambdaFunctionLayers[] LambdaF
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaLambdaFunctionLayers">Inspectorv2FilterFilterCriteriaLambdaFunctionLayers</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#lambda_function_layers Inspectorv2Filter#lambda_function_layers}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#lambda_function_layers Inspectorv2Filter#lambda_function_layers}.
 
 ---
 
@@ -1445,7 +1459,7 @@ public IResolvable|Inspectorv2FilterFilterCriteriaLambdaFunctionName[] LambdaFun
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaLambdaFunctionName">Inspectorv2FilterFilterCriteriaLambdaFunctionName</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#lambda_function_name Inspectorv2Filter#lambda_function_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#lambda_function_name Inspectorv2Filter#lambda_function_name}.
 
 ---
 
@@ -1457,7 +1471,7 @@ public IResolvable|Inspectorv2FilterFilterCriteriaLambdaFunctionRuntime[] Lambda
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaLambdaFunctionRuntime">Inspectorv2FilterFilterCriteriaLambdaFunctionRuntime</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#lambda_function_runtime Inspectorv2Filter#lambda_function_runtime}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#lambda_function_runtime Inspectorv2Filter#lambda_function_runtime}.
 
 ---
 
@@ -1469,7 +1483,7 @@ public IResolvable|Inspectorv2FilterFilterCriteriaLastObservedAt[] LastObservedA
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaLastObservedAt">Inspectorv2FilterFilterCriteriaLastObservedAt</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#last_observed_at Inspectorv2Filter#last_observed_at}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#last_observed_at Inspectorv2Filter#last_observed_at}.
 
 ---
 
@@ -1481,7 +1495,7 @@ public IResolvable|Inspectorv2FilterFilterCriteriaNetworkProtocol[] NetworkProto
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaNetworkProtocol">Inspectorv2FilterFilterCriteriaNetworkProtocol</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#network_protocol Inspectorv2Filter#network_protocol}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#network_protocol Inspectorv2Filter#network_protocol}.
 
 ---
 
@@ -1493,7 +1507,7 @@ public IResolvable|Inspectorv2FilterFilterCriteriaPortRange[] PortRange { get; s
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaPortRange">Inspectorv2FilterFilterCriteriaPortRange</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#port_range Inspectorv2Filter#port_range}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#port_range Inspectorv2Filter#port_range}.
 
 ---
 
@@ -1505,7 +1519,7 @@ public IResolvable|Inspectorv2FilterFilterCriteriaRelatedVulnerabilities[] Relat
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaRelatedVulnerabilities">Inspectorv2FilterFilterCriteriaRelatedVulnerabilities</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#related_vulnerabilities Inspectorv2Filter#related_vulnerabilities}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#related_vulnerabilities Inspectorv2Filter#related_vulnerabilities}.
 
 ---
 
@@ -1517,7 +1531,7 @@ public IResolvable|Inspectorv2FilterFilterCriteriaResourceId[] ResourceId { get;
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaResourceId">Inspectorv2FilterFilterCriteriaResourceId</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#resource_id Inspectorv2Filter#resource_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#resource_id Inspectorv2Filter#resource_id}.
 
 ---
 
@@ -1529,7 +1543,7 @@ public IResolvable|Inspectorv2FilterFilterCriteriaResourceTags[] ResourceTags { 
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaResourceTags">Inspectorv2FilterFilterCriteriaResourceTags</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#resource_tags Inspectorv2Filter#resource_tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#resource_tags Inspectorv2Filter#resource_tags}.
 
 ---
 
@@ -1541,7 +1555,7 @@ public IResolvable|Inspectorv2FilterFilterCriteriaResourceType[] ResourceType { 
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaResourceType">Inspectorv2FilterFilterCriteriaResourceType</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#resource_type Inspectorv2Filter#resource_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#resource_type Inspectorv2Filter#resource_type}.
 
 ---
 
@@ -1553,7 +1567,7 @@ public IResolvable|Inspectorv2FilterFilterCriteriaSeverity[] Severity { get; set
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaSeverity">Inspectorv2FilterFilterCriteriaSeverity</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#severity Inspectorv2Filter#severity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#severity Inspectorv2Filter#severity}.
 
 ---
 
@@ -1565,7 +1579,7 @@ public IResolvable|Inspectorv2FilterFilterCriteriaTitle[] Title { get; set; }
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaTitle">Inspectorv2FilterFilterCriteriaTitle</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#title Inspectorv2Filter#title}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#title Inspectorv2Filter#title}.
 
 ---
 
@@ -1577,7 +1591,7 @@ public IResolvable|Inspectorv2FilterFilterCriteriaUpdatedAt[] UpdatedAt { get; s
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaUpdatedAt">Inspectorv2FilterFilterCriteriaUpdatedAt</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#updated_at Inspectorv2Filter#updated_at}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#updated_at Inspectorv2Filter#updated_at}.
 
 ---
 
@@ -1589,7 +1603,7 @@ public IResolvable|Inspectorv2FilterFilterCriteriaVendorSeverity[] VendorSeverit
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVendorSeverity">Inspectorv2FilterFilterCriteriaVendorSeverity</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#vendor_severity Inspectorv2Filter#vendor_severity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#vendor_severity Inspectorv2Filter#vendor_severity}.
 
 ---
 
@@ -1601,7 +1615,7 @@ public IResolvable|Inspectorv2FilterFilterCriteriaVulnerabilityId[] Vulnerabilit
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerabilityId">Inspectorv2FilterFilterCriteriaVulnerabilityId</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#vulnerability_id Inspectorv2Filter#vulnerability_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#vulnerability_id Inspectorv2Filter#vulnerability_id}.
 
 ---
 
@@ -1613,7 +1627,7 @@ public IResolvable|Inspectorv2FilterFilterCriteriaVulnerabilitySource[] Vulnerab
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerabilitySource">Inspectorv2FilterFilterCriteriaVulnerabilitySource</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#vulnerability_source Inspectorv2Filter#vulnerability_source}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#vulnerability_source Inspectorv2Filter#vulnerability_source}.
 
 ---
 
@@ -1625,7 +1639,7 @@ public IResolvable|Inspectorv2FilterFilterCriteriaVulnerablePackages[] Vulnerabl
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackages">Inspectorv2FilterFilterCriteriaVulnerablePackages</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#vulnerable_packages Inspectorv2Filter#vulnerable_packages}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#vulnerable_packages Inspectorv2Filter#vulnerable_packages}.
 
 ---
 
@@ -1646,8 +1660,8 @@ new Inspectorv2FilterFilterCriteriaAwsAccountId {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaAwsAccountId.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaAwsAccountId.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaAwsAccountId.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaAwsAccountId.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
 
 ---
 
@@ -1659,7 +1673,7 @@ public string Comparison { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
 
 ---
 
@@ -1671,7 +1685,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
 
 ---
 
@@ -1692,8 +1706,8 @@ new Inspectorv2FilterFilterCriteriaCodeVulnerabilityDetectorName {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaCodeVulnerabilityDetectorName.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaCodeVulnerabilityDetectorName.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaCodeVulnerabilityDetectorName.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaCodeVulnerabilityDetectorName.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
 
 ---
 
@@ -1705,7 +1719,7 @@ public string Comparison { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
 
 ---
 
@@ -1717,7 +1731,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
 
 ---
 
@@ -1738,8 +1752,8 @@ new Inspectorv2FilterFilterCriteriaCodeVulnerabilityDetectorTags {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaCodeVulnerabilityDetectorTags.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaCodeVulnerabilityDetectorTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaCodeVulnerabilityDetectorTags.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaCodeVulnerabilityDetectorTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
 
 ---
 
@@ -1751,7 +1765,7 @@ public string Comparison { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
 
 ---
 
@@ -1763,7 +1777,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
 
 ---
 
@@ -1784,8 +1798,8 @@ new Inspectorv2FilterFilterCriteriaCodeVulnerabilityFilePath {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaCodeVulnerabilityFilePath.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaCodeVulnerabilityFilePath.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaCodeVulnerabilityFilePath.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaCodeVulnerabilityFilePath.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
 
 ---
 
@@ -1797,7 +1811,7 @@ public string Comparison { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
 
 ---
 
@@ -1809,7 +1823,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
 
 ---
 
@@ -1830,8 +1844,8 @@ new Inspectorv2FilterFilterCriteriaComponentId {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaComponentId.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaComponentId.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaComponentId.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaComponentId.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
 
 ---
 
@@ -1843,7 +1857,7 @@ public string Comparison { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
 
 ---
 
@@ -1855,7 +1869,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
 
 ---
 
@@ -1876,8 +1890,8 @@ new Inspectorv2FilterFilterCriteriaComponentType {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaComponentType.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaComponentType.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaComponentType.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaComponentType.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
 
 ---
 
@@ -1889,7 +1903,7 @@ public string Comparison { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
 
 ---
 
@@ -1901,7 +1915,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
 
 ---
 
@@ -1922,8 +1936,8 @@ new Inspectorv2FilterFilterCriteriaEc2InstanceImageId {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEc2InstanceImageId.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEc2InstanceImageId.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEc2InstanceImageId.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEc2InstanceImageId.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
 
 ---
 
@@ -1935,7 +1949,7 @@ public string Comparison { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
 
 ---
 
@@ -1947,7 +1961,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
 
 ---
 
@@ -1968,8 +1982,8 @@ new Inspectorv2FilterFilterCriteriaEc2InstanceSubnetId {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEc2InstanceSubnetId.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEc2InstanceSubnetId.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEc2InstanceSubnetId.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEc2InstanceSubnetId.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
 
 ---
 
@@ -1981,7 +1995,7 @@ public string Comparison { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
 
 ---
 
@@ -1993,7 +2007,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
 
 ---
 
@@ -2014,8 +2028,8 @@ new Inspectorv2FilterFilterCriteriaEc2InstanceVpcId {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEc2InstanceVpcId.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEc2InstanceVpcId.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEc2InstanceVpcId.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEc2InstanceVpcId.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
 
 ---
 
@@ -2027,7 +2041,7 @@ public string Comparison { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
 
 ---
 
@@ -2039,7 +2053,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
 
 ---
 
@@ -2060,8 +2074,8 @@ new Inspectorv2FilterFilterCriteriaEcrImageArchitecture {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageArchitecture.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageArchitecture.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageArchitecture.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageArchitecture.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
 
 ---
 
@@ -2073,7 +2087,7 @@ public string Comparison { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
 
 ---
 
@@ -2085,7 +2099,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
 
 ---
 
@@ -2106,8 +2120,8 @@ new Inspectorv2FilterFilterCriteriaEcrImageHash {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageHash.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageHash.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageHash.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageHash.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
 
 ---
 
@@ -2119,7 +2133,7 @@ public string Comparison { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
 
 ---
 
@@ -2131,7 +2145,53 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
+
+---
+
+### Inspectorv2FilterFilterCriteriaEcrImageInUseCount <a name="Inspectorv2FilterFilterCriteriaEcrImageInUseCount" id="@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCount"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCount.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new Inspectorv2FilterFilterCriteriaEcrImageInUseCount {
+    double LowerInclusive = null,
+    double UpperInclusive = null
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCount.property.lowerInclusive">LowerInclusive</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#lower_inclusive Inspectorv2Filter#lower_inclusive}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCount.property.upperInclusive">UpperInclusive</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#upper_inclusive Inspectorv2Filter#upper_inclusive}. |
+
+---
+
+##### `LowerInclusive`<sup>Optional</sup> <a name="LowerInclusive" id="@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCount.property.lowerInclusive"></a>
+
+```csharp
+public double LowerInclusive { get; set; }
+```
+
+- *Type:* double
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#lower_inclusive Inspectorv2Filter#lower_inclusive}.
+
+---
+
+##### `UpperInclusive`<sup>Optional</sup> <a name="UpperInclusive" id="@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCount.property.upperInclusive"></a>
+
+```csharp
+public double UpperInclusive { get; set; }
+```
+
+- *Type:* double
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#upper_inclusive Inspectorv2Filter#upper_inclusive}.
 
 ---
 
@@ -2152,8 +2212,8 @@ new Inspectorv2FilterFilterCriteriaEcrImagePushedAt {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImagePushedAt.property.endInclusive">EndInclusive</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#end_inclusive Inspectorv2Filter#end_inclusive}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImagePushedAt.property.startInclusive">StartInclusive</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#start_inclusive Inspectorv2Filter#start_inclusive}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImagePushedAt.property.endInclusive">EndInclusive</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#end_inclusive Inspectorv2Filter#end_inclusive}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImagePushedAt.property.startInclusive">StartInclusive</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#start_inclusive Inspectorv2Filter#start_inclusive}. |
 
 ---
 
@@ -2165,7 +2225,7 @@ public double EndInclusive { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#end_inclusive Inspectorv2Filter#end_inclusive}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#end_inclusive Inspectorv2Filter#end_inclusive}.
 
 ---
 
@@ -2177,7 +2237,7 @@ public double StartInclusive { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#start_inclusive Inspectorv2Filter#start_inclusive}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#start_inclusive Inspectorv2Filter#start_inclusive}.
 
 ---
 
@@ -2198,8 +2258,8 @@ new Inspectorv2FilterFilterCriteriaEcrImageRegistry {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageRegistry.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageRegistry.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageRegistry.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageRegistry.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
 
 ---
 
@@ -2211,7 +2271,7 @@ public string Comparison { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
 
 ---
 
@@ -2223,7 +2283,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
 
 ---
 
@@ -2244,8 +2304,8 @@ new Inspectorv2FilterFilterCriteriaEcrImageRepositoryName {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageRepositoryName.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageRepositoryName.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageRepositoryName.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageRepositoryName.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
 
 ---
 
@@ -2257,7 +2317,7 @@ public string Comparison { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
 
 ---
 
@@ -2269,7 +2329,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
 
 ---
 
@@ -2290,8 +2350,8 @@ new Inspectorv2FilterFilterCriteriaEcrImageTags {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageTags.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageTags.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
 
 ---
 
@@ -2303,7 +2363,7 @@ public string Comparison { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
 
 ---
 
@@ -2315,7 +2375,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
 
 ---
 
@@ -2336,8 +2396,8 @@ new Inspectorv2FilterFilterCriteriaEpssScore {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEpssScore.property.lowerInclusive">LowerInclusive</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#lower_inclusive Inspectorv2Filter#lower_inclusive}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEpssScore.property.upperInclusive">UpperInclusive</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#upper_inclusive Inspectorv2Filter#upper_inclusive}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEpssScore.property.lowerInclusive">LowerInclusive</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#lower_inclusive Inspectorv2Filter#lower_inclusive}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEpssScore.property.upperInclusive">UpperInclusive</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#upper_inclusive Inspectorv2Filter#upper_inclusive}. |
 
 ---
 
@@ -2349,7 +2409,7 @@ public double LowerInclusive { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#lower_inclusive Inspectorv2Filter#lower_inclusive}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#lower_inclusive Inspectorv2Filter#lower_inclusive}.
 
 ---
 
@@ -2361,7 +2421,7 @@ public double UpperInclusive { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#upper_inclusive Inspectorv2Filter#upper_inclusive}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#upper_inclusive Inspectorv2Filter#upper_inclusive}.
 
 ---
 
@@ -2382,8 +2442,8 @@ new Inspectorv2FilterFilterCriteriaExploitAvailable {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaExploitAvailable.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaExploitAvailable.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaExploitAvailable.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaExploitAvailable.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
 
 ---
 
@@ -2395,7 +2455,7 @@ public string Comparison { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
 
 ---
 
@@ -2407,7 +2467,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
 
 ---
 
@@ -2428,8 +2488,8 @@ new Inspectorv2FilterFilterCriteriaFindingArn {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaFindingArn.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaFindingArn.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaFindingArn.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaFindingArn.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
 
 ---
 
@@ -2441,7 +2501,7 @@ public string Comparison { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
 
 ---
 
@@ -2453,7 +2513,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
 
 ---
 
@@ -2474,8 +2534,8 @@ new Inspectorv2FilterFilterCriteriaFindingStatus {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaFindingStatus.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaFindingStatus.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaFindingStatus.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaFindingStatus.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
 
 ---
 
@@ -2487,7 +2547,7 @@ public string Comparison { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
 
 ---
 
@@ -2499,7 +2559,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
 
 ---
 
@@ -2520,8 +2580,8 @@ new Inspectorv2FilterFilterCriteriaFindingType {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaFindingType.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaFindingType.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaFindingType.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaFindingType.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
 
 ---
 
@@ -2533,7 +2593,7 @@ public string Comparison { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
 
 ---
 
@@ -2545,7 +2605,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
 
 ---
 
@@ -2566,8 +2626,8 @@ new Inspectorv2FilterFilterCriteriaFirstObservedAt {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaFirstObservedAt.property.endInclusive">EndInclusive</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#end_inclusive Inspectorv2Filter#end_inclusive}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaFirstObservedAt.property.startInclusive">StartInclusive</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#start_inclusive Inspectorv2Filter#start_inclusive}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaFirstObservedAt.property.endInclusive">EndInclusive</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#end_inclusive Inspectorv2Filter#end_inclusive}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaFirstObservedAt.property.startInclusive">StartInclusive</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#start_inclusive Inspectorv2Filter#start_inclusive}. |
 
 ---
 
@@ -2579,7 +2639,7 @@ public double EndInclusive { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#end_inclusive Inspectorv2Filter#end_inclusive}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#end_inclusive Inspectorv2Filter#end_inclusive}.
 
 ---
 
@@ -2591,7 +2651,7 @@ public double StartInclusive { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#start_inclusive Inspectorv2Filter#start_inclusive}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#start_inclusive Inspectorv2Filter#start_inclusive}.
 
 ---
 
@@ -2612,8 +2672,8 @@ new Inspectorv2FilterFilterCriteriaFixAvailable {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaFixAvailable.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaFixAvailable.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaFixAvailable.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaFixAvailable.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
 
 ---
 
@@ -2625,7 +2685,7 @@ public string Comparison { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
 
 ---
 
@@ -2637,7 +2697,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
 
 ---
 
@@ -2658,8 +2718,8 @@ new Inspectorv2FilterFilterCriteriaInspectorScore {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaInspectorScore.property.lowerInclusive">LowerInclusive</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#lower_inclusive Inspectorv2Filter#lower_inclusive}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaInspectorScore.property.upperInclusive">UpperInclusive</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#upper_inclusive Inspectorv2Filter#upper_inclusive}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaInspectorScore.property.lowerInclusive">LowerInclusive</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#lower_inclusive Inspectorv2Filter#lower_inclusive}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaInspectorScore.property.upperInclusive">UpperInclusive</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#upper_inclusive Inspectorv2Filter#upper_inclusive}. |
 
 ---
 
@@ -2671,7 +2731,7 @@ public double LowerInclusive { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#lower_inclusive Inspectorv2Filter#lower_inclusive}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#lower_inclusive Inspectorv2Filter#lower_inclusive}.
 
 ---
 
@@ -2683,7 +2743,7 @@ public double UpperInclusive { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#upper_inclusive Inspectorv2Filter#upper_inclusive}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#upper_inclusive Inspectorv2Filter#upper_inclusive}.
 
 ---
 
@@ -2704,8 +2764,8 @@ new Inspectorv2FilterFilterCriteriaLambdaFunctionExecutionRoleArn {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaLambdaFunctionExecutionRoleArn.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaLambdaFunctionExecutionRoleArn.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaLambdaFunctionExecutionRoleArn.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaLambdaFunctionExecutionRoleArn.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
 
 ---
 
@@ -2717,7 +2777,7 @@ public string Comparison { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
 
 ---
 
@@ -2729,7 +2789,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
 
 ---
 
@@ -2750,8 +2810,8 @@ new Inspectorv2FilterFilterCriteriaLambdaFunctionLastModifiedAt {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaLambdaFunctionLastModifiedAt.property.endInclusive">EndInclusive</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#end_inclusive Inspectorv2Filter#end_inclusive}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaLambdaFunctionLastModifiedAt.property.startInclusive">StartInclusive</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#start_inclusive Inspectorv2Filter#start_inclusive}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaLambdaFunctionLastModifiedAt.property.endInclusive">EndInclusive</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#end_inclusive Inspectorv2Filter#end_inclusive}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaLambdaFunctionLastModifiedAt.property.startInclusive">StartInclusive</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#start_inclusive Inspectorv2Filter#start_inclusive}. |
 
 ---
 
@@ -2763,7 +2823,7 @@ public double EndInclusive { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#end_inclusive Inspectorv2Filter#end_inclusive}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#end_inclusive Inspectorv2Filter#end_inclusive}.
 
 ---
 
@@ -2775,7 +2835,7 @@ public double StartInclusive { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#start_inclusive Inspectorv2Filter#start_inclusive}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#start_inclusive Inspectorv2Filter#start_inclusive}.
 
 ---
 
@@ -2796,8 +2856,8 @@ new Inspectorv2FilterFilterCriteriaLambdaFunctionLayers {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaLambdaFunctionLayers.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaLambdaFunctionLayers.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaLambdaFunctionLayers.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaLambdaFunctionLayers.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
 
 ---
 
@@ -2809,7 +2869,7 @@ public string Comparison { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
 
 ---
 
@@ -2821,7 +2881,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
 
 ---
 
@@ -2842,8 +2902,8 @@ new Inspectorv2FilterFilterCriteriaLambdaFunctionName {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaLambdaFunctionName.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaLambdaFunctionName.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaLambdaFunctionName.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaLambdaFunctionName.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
 
 ---
 
@@ -2855,7 +2915,7 @@ public string Comparison { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
 
 ---
 
@@ -2867,7 +2927,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
 
 ---
 
@@ -2888,8 +2948,8 @@ new Inspectorv2FilterFilterCriteriaLambdaFunctionRuntime {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaLambdaFunctionRuntime.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaLambdaFunctionRuntime.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaLambdaFunctionRuntime.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaLambdaFunctionRuntime.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
 
 ---
 
@@ -2901,7 +2961,7 @@ public string Comparison { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
 
 ---
 
@@ -2913,7 +2973,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
 
 ---
 
@@ -2934,8 +2994,8 @@ new Inspectorv2FilterFilterCriteriaLastObservedAt {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaLastObservedAt.property.endInclusive">EndInclusive</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#end_inclusive Inspectorv2Filter#end_inclusive}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaLastObservedAt.property.startInclusive">StartInclusive</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#start_inclusive Inspectorv2Filter#start_inclusive}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaLastObservedAt.property.endInclusive">EndInclusive</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#end_inclusive Inspectorv2Filter#end_inclusive}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaLastObservedAt.property.startInclusive">StartInclusive</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#start_inclusive Inspectorv2Filter#start_inclusive}. |
 
 ---
 
@@ -2947,7 +3007,7 @@ public double EndInclusive { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#end_inclusive Inspectorv2Filter#end_inclusive}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#end_inclusive Inspectorv2Filter#end_inclusive}.
 
 ---
 
@@ -2959,7 +3019,7 @@ public double StartInclusive { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#start_inclusive Inspectorv2Filter#start_inclusive}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#start_inclusive Inspectorv2Filter#start_inclusive}.
 
 ---
 
@@ -2980,8 +3040,8 @@ new Inspectorv2FilterFilterCriteriaNetworkProtocol {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaNetworkProtocol.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaNetworkProtocol.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaNetworkProtocol.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaNetworkProtocol.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
 
 ---
 
@@ -2993,7 +3053,7 @@ public string Comparison { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
 
 ---
 
@@ -3005,7 +3065,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
 
 ---
 
@@ -3026,8 +3086,8 @@ new Inspectorv2FilterFilterCriteriaPortRange {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaPortRange.property.beginInclusive">BeginInclusive</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#begin_inclusive Inspectorv2Filter#begin_inclusive}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaPortRange.property.endInclusive">EndInclusive</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#end_inclusive Inspectorv2Filter#end_inclusive}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaPortRange.property.beginInclusive">BeginInclusive</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#begin_inclusive Inspectorv2Filter#begin_inclusive}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaPortRange.property.endInclusive">EndInclusive</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#end_inclusive Inspectorv2Filter#end_inclusive}. |
 
 ---
 
@@ -3039,7 +3099,7 @@ public double BeginInclusive { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#begin_inclusive Inspectorv2Filter#begin_inclusive}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#begin_inclusive Inspectorv2Filter#begin_inclusive}.
 
 ---
 
@@ -3051,7 +3111,7 @@ public double EndInclusive { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#end_inclusive Inspectorv2Filter#end_inclusive}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#end_inclusive Inspectorv2Filter#end_inclusive}.
 
 ---
 
@@ -3072,8 +3132,8 @@ new Inspectorv2FilterFilterCriteriaRelatedVulnerabilities {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaRelatedVulnerabilities.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaRelatedVulnerabilities.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaRelatedVulnerabilities.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaRelatedVulnerabilities.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
 
 ---
 
@@ -3085,7 +3145,7 @@ public string Comparison { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
 
 ---
 
@@ -3097,7 +3157,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
 
 ---
 
@@ -3118,8 +3178,8 @@ new Inspectorv2FilterFilterCriteriaResourceId {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaResourceId.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaResourceId.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaResourceId.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaResourceId.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
 
 ---
 
@@ -3131,7 +3191,7 @@ public string Comparison { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
 
 ---
 
@@ -3143,7 +3203,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
 
 ---
 
@@ -3165,9 +3225,9 @@ new Inspectorv2FilterFilterCriteriaResourceTags {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaResourceTags.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaResourceTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#key Inspectorv2Filter#key}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaResourceTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaResourceTags.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaResourceTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#key Inspectorv2Filter#key}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaResourceTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
 
 ---
 
@@ -3179,7 +3239,7 @@ public string Comparison { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
 
 ---
 
@@ -3191,7 +3251,7 @@ public string Key { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#key Inspectorv2Filter#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#key Inspectorv2Filter#key}.
 
 ---
 
@@ -3203,7 +3263,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
 
 ---
 
@@ -3224,8 +3284,8 @@ new Inspectorv2FilterFilterCriteriaResourceType {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaResourceType.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaResourceType.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaResourceType.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaResourceType.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
 
 ---
 
@@ -3237,7 +3297,7 @@ public string Comparison { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
 
 ---
 
@@ -3249,7 +3309,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
 
 ---
 
@@ -3270,8 +3330,8 @@ new Inspectorv2FilterFilterCriteriaSeverity {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaSeverity.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaSeverity.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaSeverity.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaSeverity.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
 
 ---
 
@@ -3283,7 +3343,7 @@ public string Comparison { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
 
 ---
 
@@ -3295,7 +3355,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
 
 ---
 
@@ -3316,8 +3376,8 @@ new Inspectorv2FilterFilterCriteriaTitle {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaTitle.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaTitle.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaTitle.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaTitle.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
 
 ---
 
@@ -3329,7 +3389,7 @@ public string Comparison { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
 
 ---
 
@@ -3341,7 +3401,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
 
 ---
 
@@ -3362,8 +3422,8 @@ new Inspectorv2FilterFilterCriteriaUpdatedAt {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaUpdatedAt.property.endInclusive">EndInclusive</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#end_inclusive Inspectorv2Filter#end_inclusive}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaUpdatedAt.property.startInclusive">StartInclusive</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#start_inclusive Inspectorv2Filter#start_inclusive}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaUpdatedAt.property.endInclusive">EndInclusive</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#end_inclusive Inspectorv2Filter#end_inclusive}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaUpdatedAt.property.startInclusive">StartInclusive</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#start_inclusive Inspectorv2Filter#start_inclusive}. |
 
 ---
 
@@ -3375,7 +3435,7 @@ public double EndInclusive { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#end_inclusive Inspectorv2Filter#end_inclusive}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#end_inclusive Inspectorv2Filter#end_inclusive}.
 
 ---
 
@@ -3387,7 +3447,7 @@ public double StartInclusive { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#start_inclusive Inspectorv2Filter#start_inclusive}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#start_inclusive Inspectorv2Filter#start_inclusive}.
 
 ---
 
@@ -3408,8 +3468,8 @@ new Inspectorv2FilterFilterCriteriaVendorSeverity {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVendorSeverity.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVendorSeverity.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVendorSeverity.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVendorSeverity.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
 
 ---
 
@@ -3421,7 +3481,7 @@ public string Comparison { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
 
 ---
 
@@ -3433,7 +3493,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
 
 ---
 
@@ -3454,8 +3514,8 @@ new Inspectorv2FilterFilterCriteriaVulnerabilityId {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerabilityId.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerabilityId.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerabilityId.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerabilityId.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
 
 ---
 
@@ -3467,7 +3527,7 @@ public string Comparison { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
 
 ---
 
@@ -3479,7 +3539,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
 
 ---
 
@@ -3500,8 +3560,8 @@ new Inspectorv2FilterFilterCriteriaVulnerabilitySource {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerabilitySource.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerabilitySource.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerabilitySource.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerabilitySource.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
 
 ---
 
@@ -3513,7 +3573,7 @@ public string Comparison { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
 
 ---
 
@@ -3525,7 +3585,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
 
 ---
 
@@ -3552,14 +3612,14 @@ new Inspectorv2FilterFilterCriteriaVulnerablePackages {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackages.property.architecture">Architecture</a></code> | <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackagesArchitecture">Inspectorv2FilterFilterCriteriaVulnerablePackagesArchitecture</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#architecture Inspectorv2Filter#architecture}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackages.property.epoch">Epoch</a></code> | <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackagesEpoch">Inspectorv2FilterFilterCriteriaVulnerablePackagesEpoch</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#epoch Inspectorv2Filter#epoch}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackages.property.filePath">FilePath</a></code> | <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackagesFilePath">Inspectorv2FilterFilterCriteriaVulnerablePackagesFilePath</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#file_path Inspectorv2Filter#file_path}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackages.property.name">Name</a></code> | <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackagesName">Inspectorv2FilterFilterCriteriaVulnerablePackagesName</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#name Inspectorv2Filter#name}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackages.property.release">Release</a></code> | <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackagesRelease">Inspectorv2FilterFilterCriteriaVulnerablePackagesRelease</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#release Inspectorv2Filter#release}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackages.property.sourceLambdaLayerArn">SourceLambdaLayerArn</a></code> | <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackagesSourceLambdaLayerArn">Inspectorv2FilterFilterCriteriaVulnerablePackagesSourceLambdaLayerArn</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#source_lambda_layer_arn Inspectorv2Filter#source_lambda_layer_arn}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackages.property.sourceLayerHash">SourceLayerHash</a></code> | <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackagesSourceLayerHash">Inspectorv2FilterFilterCriteriaVulnerablePackagesSourceLayerHash</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#source_layer_hash Inspectorv2Filter#source_layer_hash}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackages.property.version">Version</a></code> | <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackagesVersion">Inspectorv2FilterFilterCriteriaVulnerablePackagesVersion</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#version Inspectorv2Filter#version}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackages.property.architecture">Architecture</a></code> | <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackagesArchitecture">Inspectorv2FilterFilterCriteriaVulnerablePackagesArchitecture</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#architecture Inspectorv2Filter#architecture}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackages.property.epoch">Epoch</a></code> | <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackagesEpoch">Inspectorv2FilterFilterCriteriaVulnerablePackagesEpoch</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#epoch Inspectorv2Filter#epoch}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackages.property.filePath">FilePath</a></code> | <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackagesFilePath">Inspectorv2FilterFilterCriteriaVulnerablePackagesFilePath</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#file_path Inspectorv2Filter#file_path}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackages.property.name">Name</a></code> | <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackagesName">Inspectorv2FilterFilterCriteriaVulnerablePackagesName</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#name Inspectorv2Filter#name}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackages.property.release">Release</a></code> | <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackagesRelease">Inspectorv2FilterFilterCriteriaVulnerablePackagesRelease</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#release Inspectorv2Filter#release}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackages.property.sourceLambdaLayerArn">SourceLambdaLayerArn</a></code> | <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackagesSourceLambdaLayerArn">Inspectorv2FilterFilterCriteriaVulnerablePackagesSourceLambdaLayerArn</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#source_lambda_layer_arn Inspectorv2Filter#source_lambda_layer_arn}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackages.property.sourceLayerHash">SourceLayerHash</a></code> | <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackagesSourceLayerHash">Inspectorv2FilterFilterCriteriaVulnerablePackagesSourceLayerHash</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#source_layer_hash Inspectorv2Filter#source_layer_hash}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackages.property.version">Version</a></code> | <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackagesVersion">Inspectorv2FilterFilterCriteriaVulnerablePackagesVersion</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#version Inspectorv2Filter#version}. |
 
 ---
 
@@ -3571,7 +3631,7 @@ public Inspectorv2FilterFilterCriteriaVulnerablePackagesArchitecture Architectur
 
 - *Type:* <a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackagesArchitecture">Inspectorv2FilterFilterCriteriaVulnerablePackagesArchitecture</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#architecture Inspectorv2Filter#architecture}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#architecture Inspectorv2Filter#architecture}.
 
 ---
 
@@ -3583,7 +3643,7 @@ public Inspectorv2FilterFilterCriteriaVulnerablePackagesEpoch Epoch { get; set; 
 
 - *Type:* <a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackagesEpoch">Inspectorv2FilterFilterCriteriaVulnerablePackagesEpoch</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#epoch Inspectorv2Filter#epoch}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#epoch Inspectorv2Filter#epoch}.
 
 ---
 
@@ -3595,7 +3655,7 @@ public Inspectorv2FilterFilterCriteriaVulnerablePackagesFilePath FilePath { get;
 
 - *Type:* <a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackagesFilePath">Inspectorv2FilterFilterCriteriaVulnerablePackagesFilePath</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#file_path Inspectorv2Filter#file_path}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#file_path Inspectorv2Filter#file_path}.
 
 ---
 
@@ -3607,7 +3667,7 @@ public Inspectorv2FilterFilterCriteriaVulnerablePackagesName Name { get; set; }
 
 - *Type:* <a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackagesName">Inspectorv2FilterFilterCriteriaVulnerablePackagesName</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#name Inspectorv2Filter#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#name Inspectorv2Filter#name}.
 
 ---
 
@@ -3619,7 +3679,7 @@ public Inspectorv2FilterFilterCriteriaVulnerablePackagesRelease Release { get; s
 
 - *Type:* <a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackagesRelease">Inspectorv2FilterFilterCriteriaVulnerablePackagesRelease</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#release Inspectorv2Filter#release}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#release Inspectorv2Filter#release}.
 
 ---
 
@@ -3631,7 +3691,7 @@ public Inspectorv2FilterFilterCriteriaVulnerablePackagesSourceLambdaLayerArn Sou
 
 - *Type:* <a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackagesSourceLambdaLayerArn">Inspectorv2FilterFilterCriteriaVulnerablePackagesSourceLambdaLayerArn</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#source_lambda_layer_arn Inspectorv2Filter#source_lambda_layer_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#source_lambda_layer_arn Inspectorv2Filter#source_lambda_layer_arn}.
 
 ---
 
@@ -3643,7 +3703,7 @@ public Inspectorv2FilterFilterCriteriaVulnerablePackagesSourceLayerHash SourceLa
 
 - *Type:* <a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackagesSourceLayerHash">Inspectorv2FilterFilterCriteriaVulnerablePackagesSourceLayerHash</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#source_layer_hash Inspectorv2Filter#source_layer_hash}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#source_layer_hash Inspectorv2Filter#source_layer_hash}.
 
 ---
 
@@ -3655,7 +3715,7 @@ public Inspectorv2FilterFilterCriteriaVulnerablePackagesVersion Version { get; s
 
 - *Type:* <a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackagesVersion">Inspectorv2FilterFilterCriteriaVulnerablePackagesVersion</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#version Inspectorv2Filter#version}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#version Inspectorv2Filter#version}.
 
 ---
 
@@ -3676,8 +3736,8 @@ new Inspectorv2FilterFilterCriteriaVulnerablePackagesArchitecture {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackagesArchitecture.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackagesArchitecture.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackagesArchitecture.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackagesArchitecture.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
 
 ---
 
@@ -3689,7 +3749,7 @@ public string Comparison { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
 
 ---
 
@@ -3701,7 +3761,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
 
 ---
 
@@ -3722,8 +3782,8 @@ new Inspectorv2FilterFilterCriteriaVulnerablePackagesEpoch {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackagesEpoch.property.lowerInclusive">LowerInclusive</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#lower_inclusive Inspectorv2Filter#lower_inclusive}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackagesEpoch.property.upperInclusive">UpperInclusive</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#upper_inclusive Inspectorv2Filter#upper_inclusive}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackagesEpoch.property.lowerInclusive">LowerInclusive</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#lower_inclusive Inspectorv2Filter#lower_inclusive}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackagesEpoch.property.upperInclusive">UpperInclusive</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#upper_inclusive Inspectorv2Filter#upper_inclusive}. |
 
 ---
 
@@ -3735,7 +3795,7 @@ public double LowerInclusive { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#lower_inclusive Inspectorv2Filter#lower_inclusive}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#lower_inclusive Inspectorv2Filter#lower_inclusive}.
 
 ---
 
@@ -3747,7 +3807,7 @@ public double UpperInclusive { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#upper_inclusive Inspectorv2Filter#upper_inclusive}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#upper_inclusive Inspectorv2Filter#upper_inclusive}.
 
 ---
 
@@ -3768,8 +3828,8 @@ new Inspectorv2FilterFilterCriteriaVulnerablePackagesFilePath {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackagesFilePath.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackagesFilePath.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackagesFilePath.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackagesFilePath.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
 
 ---
 
@@ -3781,7 +3841,7 @@ public string Comparison { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
 
 ---
 
@@ -3793,7 +3853,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
 
 ---
 
@@ -3814,8 +3874,8 @@ new Inspectorv2FilterFilterCriteriaVulnerablePackagesName {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackagesName.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackagesName.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackagesName.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackagesName.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
 
 ---
 
@@ -3827,7 +3887,7 @@ public string Comparison { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
 
 ---
 
@@ -3839,7 +3899,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
 
 ---
 
@@ -3860,8 +3920,8 @@ new Inspectorv2FilterFilterCriteriaVulnerablePackagesRelease {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackagesRelease.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackagesRelease.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackagesRelease.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackagesRelease.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
 
 ---
 
@@ -3873,7 +3933,7 @@ public string Comparison { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
 
 ---
 
@@ -3885,7 +3945,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
 
 ---
 
@@ -3906,8 +3966,8 @@ new Inspectorv2FilterFilterCriteriaVulnerablePackagesSourceLambdaLayerArn {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackagesSourceLambdaLayerArn.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackagesSourceLambdaLayerArn.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackagesSourceLambdaLayerArn.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackagesSourceLambdaLayerArn.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
 
 ---
 
@@ -3919,7 +3979,7 @@ public string Comparison { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
 
 ---
 
@@ -3931,7 +3991,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
 
 ---
 
@@ -3952,8 +4012,8 @@ new Inspectorv2FilterFilterCriteriaVulnerablePackagesSourceLayerHash {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackagesSourceLayerHash.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackagesSourceLayerHash.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackagesSourceLayerHash.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackagesSourceLayerHash.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
 
 ---
 
@@ -3965,7 +4025,7 @@ public string Comparison { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
 
 ---
 
@@ -3977,7 +4037,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
 
 ---
 
@@ -3998,8 +4058,8 @@ new Inspectorv2FilterFilterCriteriaVulnerablePackagesVersion {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackagesVersion.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackagesVersion.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackagesVersion.property.comparison">Comparison</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaVulnerablePackagesVersion.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}. |
 
 ---
 
@@ -4011,7 +4071,7 @@ public string Comparison { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#comparison Inspectorv2Filter#comparison}.
 
 ---
 
@@ -4023,7 +4083,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_filter#value Inspectorv2Filter#value}.
 
 ---
 
@@ -9360,6 +9420,491 @@ public IResolvable|Inspectorv2FilterFilterCriteriaEcrImageHash InternalValue { g
 ```
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageHash">Inspectorv2FilterFilterCriteriaEcrImageHash</a>
+
+---
+
+
+### Inspectorv2FilterFilterCriteriaEcrImageInUseCountList <a name="Inspectorv2FilterFilterCriteriaEcrImageInUseCountList" id="@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountList.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new Inspectorv2FilterFilterCriteriaEcrImageInUseCountList(IInterpolatingParent TerraformResource, string TerraformAttribute, bool WrapsSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountList.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountList.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountList.Initializer.parameter.wrapsSet">WrapsSet</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `WrapsSet`<sup>Required</sup> <a name="WrapsSet" id="@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountList.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountList.allWithMapKey"></a>
+
+```csharp
+private DynamicListTerraformIterator AllWithMapKey(string MapKeyAttributeName)
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `MapKeyAttributeName`<sup>Required</sup> <a name="MapKeyAttributeName" id="@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* string
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountList.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountList.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountList.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountList.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `Get` <a name="Get" id="@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountList.get"></a>
+
+```csharp
+private Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference Get(double Index)
+```
+
+###### `Index`<sup>Required</sup> <a name="Index" id="@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountList.get.parameter.index"></a>
+
+- *Type:* double
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountList.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountList.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountList.property.internalValue">InternalValue</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCount">Inspectorv2FilterFilterCriteriaEcrImageInUseCount</a>[]</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountList.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountList.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountList.property.internalValue"></a>
+
+```csharp
+public IResolvable|Inspectorv2FilterFilterCriteriaEcrImageInUseCount[] InternalValue { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCount">Inspectorv2FilterFilterCriteriaEcrImageInUseCount</a>[]
+
+---
+
+
+### Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference <a name="Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference" id="@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute, double ComplexObjectIndex, bool ComplexObjectIsFromSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.Initializer.parameter.complexObjectIndex">ComplexObjectIndex</a></code> | <code>double</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.Initializer.parameter.complexObjectIsFromSet">ComplexObjectIsFromSet</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `ComplexObjectIndex`<sup>Required</sup> <a name="ComplexObjectIndex" id="@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* double
+
+the index of this item in the list.
+
+---
+
+##### `ComplexObjectIsFromSet`<sup>Required</sup> <a name="ComplexObjectIsFromSet" id="@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.resetLowerInclusive">ResetLowerInclusive</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.resetUpperInclusive">ResetUpperInclusive</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetLowerInclusive` <a name="ResetLowerInclusive" id="@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.resetLowerInclusive"></a>
+
+```csharp
+private void ResetLowerInclusive()
+```
+
+##### `ResetUpperInclusive` <a name="ResetUpperInclusive" id="@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.resetUpperInclusive"></a>
+
+```csharp
+private void ResetUpperInclusive()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.property.lowerInclusiveInput">LowerInclusiveInput</a></code> | <code>double</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.property.upperInclusiveInput">UpperInclusiveInput</a></code> | <code>double</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.property.lowerInclusive">LowerInclusive</a></code> | <code>double</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.property.upperInclusive">UpperInclusive</a></code> | <code>double</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.property.internalValue">InternalValue</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCount">Inspectorv2FilterFilterCriteriaEcrImageInUseCount</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `LowerInclusiveInput`<sup>Optional</sup> <a name="LowerInclusiveInput" id="@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.property.lowerInclusiveInput"></a>
+
+```csharp
+public double LowerInclusiveInput { get; }
+```
+
+- *Type:* double
+
+---
+
+##### `UpperInclusiveInput`<sup>Optional</sup> <a name="UpperInclusiveInput" id="@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.property.upperInclusiveInput"></a>
+
+```csharp
+public double UpperInclusiveInput { get; }
+```
+
+- *Type:* double
+
+---
+
+##### `LowerInclusive`<sup>Required</sup> <a name="LowerInclusive" id="@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.property.lowerInclusive"></a>
+
+```csharp
+public double LowerInclusive { get; }
+```
+
+- *Type:* double
+
+---
+
+##### `UpperInclusive`<sup>Required</sup> <a name="UpperInclusive" id="@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.property.upperInclusive"></a>
+
+```csharp
+public double UpperInclusive { get; }
+```
+
+- *Type:* double
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.property.internalValue"></a>
+
+```csharp
+public IResolvable|Inspectorv2FilterFilterCriteriaEcrImageInUseCount InternalValue { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCount">Inspectorv2FilterFilterCriteriaEcrImageInUseCount</a>
 
 ---
 
@@ -18640,6 +19185,7 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaOutputReference.putEc2InstanceVpcId">PutEc2InstanceVpcId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaOutputReference.putEcrImageArchitecture">PutEcrImageArchitecture</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaOutputReference.putEcrImageHash">PutEcrImageHash</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaOutputReference.putEcrImageInUseCount">PutEcrImageInUseCount</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaOutputReference.putEcrImagePushedAt">PutEcrImagePushedAt</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaOutputReference.putEcrImageRegistry">PutEcrImageRegistry</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaOutputReference.putEcrImageRepositoryName">PutEcrImageRepositoryName</a></code> | *No description.* |
@@ -18682,6 +19228,7 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaOutputReference.resetEc2InstanceVpcId">ResetEc2InstanceVpcId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaOutputReference.resetEcrImageArchitecture">ResetEcrImageArchitecture</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaOutputReference.resetEcrImageHash">ResetEcrImageHash</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaOutputReference.resetEcrImageInUseCount">ResetEcrImageInUseCount</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaOutputReference.resetEcrImagePushedAt">ResetEcrImagePushedAt</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaOutputReference.resetEcrImageRegistry">ResetEcrImageRegistry</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaOutputReference.resetEcrImageRepositoryName">ResetEcrImageRepositoryName</a></code> | *No description.* |
@@ -18995,6 +19542,18 @@ private void PutEcrImageHash(IResolvable|Inspectorv2FilterFilterCriteriaEcrImage
 ###### `Value`<sup>Required</sup> <a name="Value" id="@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaOutputReference.putEcrImageHash.parameter.value"></a>
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageHash">Inspectorv2FilterFilterCriteriaEcrImageHash</a>[]
+
+---
+
+##### `PutEcrImageInUseCount` <a name="PutEcrImageInUseCount" id="@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaOutputReference.putEcrImageInUseCount"></a>
+
+```csharp
+private void PutEcrImageInUseCount(IResolvable|Inspectorv2FilterFilterCriteriaEcrImageInUseCount[] Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaOutputReference.putEcrImageInUseCount.parameter.value"></a>
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCount">Inspectorv2FilterFilterCriteriaEcrImageInUseCount</a>[]
 
 ---
 
@@ -19436,6 +19995,12 @@ private void ResetEcrImageArchitecture()
 private void ResetEcrImageHash()
 ```
 
+##### `ResetEcrImageInUseCount` <a name="ResetEcrImageInUseCount" id="@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaOutputReference.resetEcrImageInUseCount"></a>
+
+```csharp
+private void ResetEcrImageInUseCount()
+```
+
 ##### `ResetEcrImagePushedAt` <a name="ResetEcrImagePushedAt" id="@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaOutputReference.resetEcrImagePushedAt"></a>
 
 ```csharp
@@ -19640,6 +20205,7 @@ private void ResetVulnerablePackages()
 | <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaOutputReference.property.ec2InstanceVpcId">Ec2InstanceVpcId</a></code> | <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEc2InstanceVpcIdList">Inspectorv2FilterFilterCriteriaEc2InstanceVpcIdList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaOutputReference.property.ecrImageArchitecture">EcrImageArchitecture</a></code> | <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageArchitectureList">Inspectorv2FilterFilterCriteriaEcrImageArchitectureList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaOutputReference.property.ecrImageHash">EcrImageHash</a></code> | <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageHashList">Inspectorv2FilterFilterCriteriaEcrImageHashList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaOutputReference.property.ecrImageInUseCount">EcrImageInUseCount</a></code> | <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountList">Inspectorv2FilterFilterCriteriaEcrImageInUseCountList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaOutputReference.property.ecrImagePushedAt">EcrImagePushedAt</a></code> | <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImagePushedAtList">Inspectorv2FilterFilterCriteriaEcrImagePushedAtList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaOutputReference.property.ecrImageRegistry">EcrImageRegistry</a></code> | <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageRegistryList">Inspectorv2FilterFilterCriteriaEcrImageRegistryList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaOutputReference.property.ecrImageRepositoryName">EcrImageRepositoryName</a></code> | <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageRepositoryNameList">Inspectorv2FilterFilterCriteriaEcrImageRepositoryNameList</a></code> | *No description.* |
@@ -19682,6 +20248,7 @@ private void ResetVulnerablePackages()
 | <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaOutputReference.property.ec2InstanceVpcIdInput">Ec2InstanceVpcIdInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEc2InstanceVpcId">Inspectorv2FilterFilterCriteriaEc2InstanceVpcId</a>[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaOutputReference.property.ecrImageArchitectureInput">EcrImageArchitectureInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageArchitecture">Inspectorv2FilterFilterCriteriaEcrImageArchitecture</a>[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaOutputReference.property.ecrImageHashInput">EcrImageHashInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageHash">Inspectorv2FilterFilterCriteriaEcrImageHash</a>[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaOutputReference.property.ecrImageInUseCountInput">EcrImageInUseCountInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCount">Inspectorv2FilterFilterCriteriaEcrImageInUseCount</a>[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaOutputReference.property.ecrImagePushedAtInput">EcrImagePushedAtInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImagePushedAt">Inspectorv2FilterFilterCriteriaEcrImagePushedAt</a>[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaOutputReference.property.ecrImageRegistryInput">EcrImageRegistryInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageRegistry">Inspectorv2FilterFilterCriteriaEcrImageRegistry</a>[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaOutputReference.property.ecrImageRepositoryNameInput">EcrImageRepositoryNameInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageRepositoryName">Inspectorv2FilterFilterCriteriaEcrImageRepositoryName</a>[]</code> | *No description.* |
@@ -19848,6 +20415,16 @@ public Inspectorv2FilterFilterCriteriaEcrImageHashList EcrImageHash { get; }
 ```
 
 - *Type:* <a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageHashList">Inspectorv2FilterFilterCriteriaEcrImageHashList</a>
+
+---
+
+##### `EcrImageInUseCount`<sup>Required</sup> <a name="EcrImageInUseCount" id="@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaOutputReference.property.ecrImageInUseCount"></a>
+
+```csharp
+public Inspectorv2FilterFilterCriteriaEcrImageInUseCountList EcrImageInUseCount { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountList">Inspectorv2FilterFilterCriteriaEcrImageInUseCountList</a>
 
 ---
 
@@ -20268,6 +20845,16 @@ public IResolvable|Inspectorv2FilterFilterCriteriaEcrImageHash[] EcrImageHashInp
 ```
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageHash">Inspectorv2FilterFilterCriteriaEcrImageHash</a>[]
+
+---
+
+##### `EcrImageInUseCountInput`<sup>Optional</sup> <a name="EcrImageInUseCountInput" id="@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaOutputReference.property.ecrImageInUseCountInput"></a>
+
+```csharp
+public IResolvable|Inspectorv2FilterFilterCriteriaEcrImageInUseCount[] EcrImageInUseCountInput { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCount">Inspectorv2FilterFilterCriteriaEcrImageInUseCount</a>[]
 
 ---
 

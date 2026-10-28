@@ -4,12 +4,12 @@
 
 ### CassandraTable <a name="CassandraTable" id="@cdktn/provider-awscc.cassandraTable.CassandraTable"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table awscc_cassandra_table}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table awscc_cassandra_table}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cassandraTable.CassandraTable.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandratable"
 
 cassandratable.NewCassandraTable(scope Construct, id *string, config CassandraTableConfig) CassandraTable
 ```
@@ -621,7 +621,7 @@ func ResetWarmThroughput()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.cassandraTable.CassandraTable.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandratable"
 
 cassandratable.CassandraTable_IsConstruct(x interface{}) *bool
 ```
@@ -653,7 +653,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.cassandraTable.CassandraTable.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandratable"
 
 cassandratable.CassandraTable_IsTerraformElement(x interface{}) *bool
 ```
@@ -667,7 +667,7 @@ cassandratable.CassandraTable_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.cassandraTable.CassandraTable.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandratable"
 
 cassandratable.CassandraTable_IsTerraformResource(x interface{}) *bool
 ```
@@ -681,7 +681,7 @@ cassandratable.CassandraTable_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.cassandraTable.CassandraTable.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandratable"
 
 cassandratable.CassandraTable_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -710,7 +710,7 @@ The construct id used in the generated config for the CassandraTable to import.
 
 The id of the existing CassandraTable that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1251,11 +1251,11 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cassandraTable.CassandraTableAutoScalingSpecifications.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandratable"
 
 &cassandratable.CassandraTableAutoScalingSpecifications {
-	ReadCapacityAutoScaling: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.cassandraTable.CassandraTableAutoScalingSpecificationsReadCapacityAutoScaling,
-	WriteCapacityAutoScaling: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.cassandraTable.CassandraTableAutoScalingSpecificationsWriteCapacityAutoScaling,
+	ReadCapacityAutoScaling: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.cassandraTable.CassandraTableAutoScalingSpecificationsReadCapacityAutoScaling,
+	WriteCapacityAutoScaling: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.cassandraTable.CassandraTableAutoScalingSpecificationsWriteCapacityAutoScaling,
 }
 ```
 
@@ -1278,7 +1278,7 @@ ReadCapacityAutoScaling CassandraTableAutoScalingSpecificationsReadCapacityAutoS
 
 Represents configuration for auto scaling.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#read_capacity_auto_scaling CassandraTable#read_capacity_auto_scaling}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#read_capacity_auto_scaling CassandraTable#read_capacity_auto_scaling}
 
 ---
 
@@ -1292,7 +1292,7 @@ WriteCapacityAutoScaling CassandraTableAutoScalingSpecificationsWriteCapacityAut
 
 Represents configuration for auto scaling.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#write_capacity_auto_scaling CassandraTable#write_capacity_auto_scaling}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#write_capacity_auto_scaling CassandraTable#write_capacity_auto_scaling}
 
 ---
 
@@ -1301,13 +1301,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cassandraTable.CassandraTableAutoScalingSpecificationsReadCapacityAutoScaling.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandratable"
 
 &cassandratable.CassandraTableAutoScalingSpecificationsReadCapacityAutoScaling {
 	AutoScalingDisabled: interface{},
 	MaximumUnits: *f64,
 	MinimumUnits: *f64,
-	ScalingPolicy: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.cassandraTable.CassandraTableAutoScalingSpecificationsReadCapacityAutoScalingScalingPolicy,
+	ScalingPolicy: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.cassandraTable.CassandraTableAutoScalingSpecificationsReadCapacityAutoScalingScalingPolicy,
 }
 ```
 
@@ -1315,9 +1315,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableAutoScalingSpecificationsReadCapacityAutoScaling.property.autoScalingDisabled">AutoScalingDisabled</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#auto_scaling_disabled CassandraTable#auto_scaling_disabled}. |
-| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableAutoScalingSpecificationsReadCapacityAutoScaling.property.maximumUnits">MaximumUnits</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#maximum_units CassandraTable#maximum_units}. |
-| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableAutoScalingSpecificationsReadCapacityAutoScaling.property.minimumUnits">MinimumUnits</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#minimum_units CassandraTable#minimum_units}. |
+| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableAutoScalingSpecificationsReadCapacityAutoScaling.property.autoScalingDisabled">AutoScalingDisabled</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#auto_scaling_disabled CassandraTable#auto_scaling_disabled}. |
+| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableAutoScalingSpecificationsReadCapacityAutoScaling.property.maximumUnits">MaximumUnits</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#maximum_units CassandraTable#maximum_units}. |
+| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableAutoScalingSpecificationsReadCapacityAutoScaling.property.minimumUnits">MinimumUnits</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#minimum_units CassandraTable#minimum_units}. |
 | <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableAutoScalingSpecificationsReadCapacityAutoScaling.property.scalingPolicy">ScalingPolicy</a></code> | <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableAutoScalingSpecificationsReadCapacityAutoScalingScalingPolicy">CassandraTableAutoScalingSpecificationsReadCapacityAutoScalingScalingPolicy</a></code> | Represents scaling policy. |
 
 ---
@@ -1330,7 +1330,7 @@ AutoScalingDisabled interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#auto_scaling_disabled CassandraTable#auto_scaling_disabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#auto_scaling_disabled CassandraTable#auto_scaling_disabled}.
 
 ---
 
@@ -1342,7 +1342,7 @@ MaximumUnits *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#maximum_units CassandraTable#maximum_units}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#maximum_units CassandraTable#maximum_units}.
 
 ---
 
@@ -1354,7 +1354,7 @@ MinimumUnits *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#minimum_units CassandraTable#minimum_units}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#minimum_units CassandraTable#minimum_units}.
 
 ---
 
@@ -1368,7 +1368,7 @@ ScalingPolicy CassandraTableAutoScalingSpecificationsReadCapacityAutoScalingScal
 
 Represents scaling policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#scaling_policy CassandraTable#scaling_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#scaling_policy CassandraTable#scaling_policy}
 
 ---
 
@@ -1377,10 +1377,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cassandraTable.CassandraTableAutoScalingSpecificationsReadCapacityAutoScalingScalingPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandratable"
 
 &cassandratable.CassandraTableAutoScalingSpecificationsReadCapacityAutoScalingScalingPolicy {
-	TargetTrackingScalingPolicyConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.cassandraTable.CassandraTableAutoScalingSpecificationsReadCapacityAutoScalingScalingPolicyTargetTrackingScalingPolicyConfiguration,
+	TargetTrackingScalingPolicyConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.cassandraTable.CassandraTableAutoScalingSpecificationsReadCapacityAutoScalingScalingPolicyTargetTrackingScalingPolicyConfiguration,
 }
 ```
 
@@ -1402,7 +1402,7 @@ TargetTrackingScalingPolicyConfiguration CassandraTableAutoScalingSpecifications
 
 Represents configuration for target tracking scaling policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#target_tracking_scaling_policy_configuration CassandraTable#target_tracking_scaling_policy_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#target_tracking_scaling_policy_configuration CassandraTable#target_tracking_scaling_policy_configuration}
 
 ---
 
@@ -1411,7 +1411,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cassandraTable.CassandraTableAutoScalingSpecificationsReadCapacityAutoScalingScalingPolicyTargetTrackingScalingPolicyConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandratable"
 
 &cassandratable.CassandraTableAutoScalingSpecificationsReadCapacityAutoScalingScalingPolicyTargetTrackingScalingPolicyConfiguration {
 	DisableScaleIn: interface{},
@@ -1425,10 +1425,10 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableAutoScalingSpecificationsReadCapacityAutoScalingScalingPolicyTargetTrackingScalingPolicyConfiguration.property.disableScaleIn">DisableScaleIn</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#disable_scale_in CassandraTable#disable_scale_in}. |
-| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableAutoScalingSpecificationsReadCapacityAutoScalingScalingPolicyTargetTrackingScalingPolicyConfiguration.property.scaleInCooldown">ScaleInCooldown</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#scale_in_cooldown CassandraTable#scale_in_cooldown}. |
-| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableAutoScalingSpecificationsReadCapacityAutoScalingScalingPolicyTargetTrackingScalingPolicyConfiguration.property.scaleOutCooldown">ScaleOutCooldown</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#scale_out_cooldown CassandraTable#scale_out_cooldown}. |
-| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableAutoScalingSpecificationsReadCapacityAutoScalingScalingPolicyTargetTrackingScalingPolicyConfiguration.property.targetValue">TargetValue</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#target_value CassandraTable#target_value}. |
+| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableAutoScalingSpecificationsReadCapacityAutoScalingScalingPolicyTargetTrackingScalingPolicyConfiguration.property.disableScaleIn">DisableScaleIn</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#disable_scale_in CassandraTable#disable_scale_in}. |
+| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableAutoScalingSpecificationsReadCapacityAutoScalingScalingPolicyTargetTrackingScalingPolicyConfiguration.property.scaleInCooldown">ScaleInCooldown</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#scale_in_cooldown CassandraTable#scale_in_cooldown}. |
+| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableAutoScalingSpecificationsReadCapacityAutoScalingScalingPolicyTargetTrackingScalingPolicyConfiguration.property.scaleOutCooldown">ScaleOutCooldown</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#scale_out_cooldown CassandraTable#scale_out_cooldown}. |
+| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableAutoScalingSpecificationsReadCapacityAutoScalingScalingPolicyTargetTrackingScalingPolicyConfiguration.property.targetValue">TargetValue</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#target_value CassandraTable#target_value}. |
 
 ---
 
@@ -1440,7 +1440,7 @@ DisableScaleIn interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#disable_scale_in CassandraTable#disable_scale_in}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#disable_scale_in CassandraTable#disable_scale_in}.
 
 ---
 
@@ -1452,7 +1452,7 @@ ScaleInCooldown *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#scale_in_cooldown CassandraTable#scale_in_cooldown}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#scale_in_cooldown CassandraTable#scale_in_cooldown}.
 
 ---
 
@@ -1464,7 +1464,7 @@ ScaleOutCooldown *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#scale_out_cooldown CassandraTable#scale_out_cooldown}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#scale_out_cooldown CassandraTable#scale_out_cooldown}.
 
 ---
 
@@ -1476,7 +1476,7 @@ TargetValue *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#target_value CassandraTable#target_value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#target_value CassandraTable#target_value}.
 
 ---
 
@@ -1485,13 +1485,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cassandraTable.CassandraTableAutoScalingSpecificationsWriteCapacityAutoScaling.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandratable"
 
 &cassandratable.CassandraTableAutoScalingSpecificationsWriteCapacityAutoScaling {
 	AutoScalingDisabled: interface{},
 	MaximumUnits: *f64,
 	MinimumUnits: *f64,
-	ScalingPolicy: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.cassandraTable.CassandraTableAutoScalingSpecificationsWriteCapacityAutoScalingScalingPolicy,
+	ScalingPolicy: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.cassandraTable.CassandraTableAutoScalingSpecificationsWriteCapacityAutoScalingScalingPolicy,
 }
 ```
 
@@ -1499,9 +1499,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableAutoScalingSpecificationsWriteCapacityAutoScaling.property.autoScalingDisabled">AutoScalingDisabled</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#auto_scaling_disabled CassandraTable#auto_scaling_disabled}. |
-| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableAutoScalingSpecificationsWriteCapacityAutoScaling.property.maximumUnits">MaximumUnits</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#maximum_units CassandraTable#maximum_units}. |
-| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableAutoScalingSpecificationsWriteCapacityAutoScaling.property.minimumUnits">MinimumUnits</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#minimum_units CassandraTable#minimum_units}. |
+| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableAutoScalingSpecificationsWriteCapacityAutoScaling.property.autoScalingDisabled">AutoScalingDisabled</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#auto_scaling_disabled CassandraTable#auto_scaling_disabled}. |
+| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableAutoScalingSpecificationsWriteCapacityAutoScaling.property.maximumUnits">MaximumUnits</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#maximum_units CassandraTable#maximum_units}. |
+| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableAutoScalingSpecificationsWriteCapacityAutoScaling.property.minimumUnits">MinimumUnits</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#minimum_units CassandraTable#minimum_units}. |
 | <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableAutoScalingSpecificationsWriteCapacityAutoScaling.property.scalingPolicy">ScalingPolicy</a></code> | <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableAutoScalingSpecificationsWriteCapacityAutoScalingScalingPolicy">CassandraTableAutoScalingSpecificationsWriteCapacityAutoScalingScalingPolicy</a></code> | Represents scaling policy. |
 
 ---
@@ -1514,7 +1514,7 @@ AutoScalingDisabled interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#auto_scaling_disabled CassandraTable#auto_scaling_disabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#auto_scaling_disabled CassandraTable#auto_scaling_disabled}.
 
 ---
 
@@ -1526,7 +1526,7 @@ MaximumUnits *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#maximum_units CassandraTable#maximum_units}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#maximum_units CassandraTable#maximum_units}.
 
 ---
 
@@ -1538,7 +1538,7 @@ MinimumUnits *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#minimum_units CassandraTable#minimum_units}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#minimum_units CassandraTable#minimum_units}.
 
 ---
 
@@ -1552,7 +1552,7 @@ ScalingPolicy CassandraTableAutoScalingSpecificationsWriteCapacityAutoScalingSca
 
 Represents scaling policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#scaling_policy CassandraTable#scaling_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#scaling_policy CassandraTable#scaling_policy}
 
 ---
 
@@ -1561,10 +1561,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cassandraTable.CassandraTableAutoScalingSpecificationsWriteCapacityAutoScalingScalingPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandratable"
 
 &cassandratable.CassandraTableAutoScalingSpecificationsWriteCapacityAutoScalingScalingPolicy {
-	TargetTrackingScalingPolicyConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.cassandraTable.CassandraTableAutoScalingSpecificationsWriteCapacityAutoScalingScalingPolicyTargetTrackingScalingPolicyConfiguration,
+	TargetTrackingScalingPolicyConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.cassandraTable.CassandraTableAutoScalingSpecificationsWriteCapacityAutoScalingScalingPolicyTargetTrackingScalingPolicyConfiguration,
 }
 ```
 
@@ -1586,7 +1586,7 @@ TargetTrackingScalingPolicyConfiguration CassandraTableAutoScalingSpecifications
 
 Represents configuration for target tracking scaling policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#target_tracking_scaling_policy_configuration CassandraTable#target_tracking_scaling_policy_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#target_tracking_scaling_policy_configuration CassandraTable#target_tracking_scaling_policy_configuration}
 
 ---
 
@@ -1595,7 +1595,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cassandraTable.CassandraTableAutoScalingSpecificationsWriteCapacityAutoScalingScalingPolicyTargetTrackingScalingPolicyConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandratable"
 
 &cassandratable.CassandraTableAutoScalingSpecificationsWriteCapacityAutoScalingScalingPolicyTargetTrackingScalingPolicyConfiguration {
 	DisableScaleIn: interface{},
@@ -1609,10 +1609,10 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableAutoScalingSpecificationsWriteCapacityAutoScalingScalingPolicyTargetTrackingScalingPolicyConfiguration.property.disableScaleIn">DisableScaleIn</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#disable_scale_in CassandraTable#disable_scale_in}. |
-| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableAutoScalingSpecificationsWriteCapacityAutoScalingScalingPolicyTargetTrackingScalingPolicyConfiguration.property.scaleInCooldown">ScaleInCooldown</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#scale_in_cooldown CassandraTable#scale_in_cooldown}. |
-| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableAutoScalingSpecificationsWriteCapacityAutoScalingScalingPolicyTargetTrackingScalingPolicyConfiguration.property.scaleOutCooldown">ScaleOutCooldown</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#scale_out_cooldown CassandraTable#scale_out_cooldown}. |
-| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableAutoScalingSpecificationsWriteCapacityAutoScalingScalingPolicyTargetTrackingScalingPolicyConfiguration.property.targetValue">TargetValue</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#target_value CassandraTable#target_value}. |
+| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableAutoScalingSpecificationsWriteCapacityAutoScalingScalingPolicyTargetTrackingScalingPolicyConfiguration.property.disableScaleIn">DisableScaleIn</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#disable_scale_in CassandraTable#disable_scale_in}. |
+| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableAutoScalingSpecificationsWriteCapacityAutoScalingScalingPolicyTargetTrackingScalingPolicyConfiguration.property.scaleInCooldown">ScaleInCooldown</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#scale_in_cooldown CassandraTable#scale_in_cooldown}. |
+| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableAutoScalingSpecificationsWriteCapacityAutoScalingScalingPolicyTargetTrackingScalingPolicyConfiguration.property.scaleOutCooldown">ScaleOutCooldown</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#scale_out_cooldown CassandraTable#scale_out_cooldown}. |
+| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableAutoScalingSpecificationsWriteCapacityAutoScalingScalingPolicyTargetTrackingScalingPolicyConfiguration.property.targetValue">TargetValue</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#target_value CassandraTable#target_value}. |
 
 ---
 
@@ -1624,7 +1624,7 @@ DisableScaleIn interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#disable_scale_in CassandraTable#disable_scale_in}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#disable_scale_in CassandraTable#disable_scale_in}.
 
 ---
 
@@ -1636,7 +1636,7 @@ ScaleInCooldown *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#scale_in_cooldown CassandraTable#scale_in_cooldown}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#scale_in_cooldown CassandraTable#scale_in_cooldown}.
 
 ---
 
@@ -1648,7 +1648,7 @@ ScaleOutCooldown *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#scale_out_cooldown CassandraTable#scale_out_cooldown}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#scale_out_cooldown CassandraTable#scale_out_cooldown}.
 
 ---
 
@@ -1660,7 +1660,7 @@ TargetValue *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#target_value CassandraTable#target_value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#target_value CassandraTable#target_value}.
 
 ---
 
@@ -1669,11 +1669,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cassandraTable.CassandraTableBillingMode.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandratable"
 
 &cassandratable.CassandraTableBillingMode {
 	Mode: *string,
-	ProvisionedThroughput: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.cassandraTable.CassandraTableBillingModeProvisionedThroughput,
+	ProvisionedThroughput: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.cassandraTable.CassandraTableBillingModeProvisionedThroughput,
 }
 ```
 
@@ -1696,7 +1696,7 @@ Mode *string
 
 Capacity mode for the specified table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#mode CassandraTable#mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#mode CassandraTable#mode}
 
 ---
 
@@ -1710,7 +1710,7 @@ ProvisionedThroughput CassandraTableBillingModeProvisionedThroughput
 
 Throughput for the specified table, which consists of values for ReadCapacityUnits and WriteCapacityUnits.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#provisioned_throughput CassandraTable#provisioned_throughput}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#provisioned_throughput CassandraTable#provisioned_throughput}
 
 ---
 
@@ -1719,7 +1719,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cassandraTable.CassandraTableBillingModeProvisionedThroughput.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandratable"
 
 &cassandratable.CassandraTableBillingModeProvisionedThroughput {
 	ReadCapacityUnits: *f64,
@@ -1731,8 +1731,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableBillingModeProvisionedThroughput.property.readCapacityUnits">ReadCapacityUnits</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#read_capacity_units CassandraTable#read_capacity_units}. |
-| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableBillingModeProvisionedThroughput.property.writeCapacityUnits">WriteCapacityUnits</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#write_capacity_units CassandraTable#write_capacity_units}. |
+| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableBillingModeProvisionedThroughput.property.readCapacityUnits">ReadCapacityUnits</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#read_capacity_units CassandraTable#read_capacity_units}. |
+| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableBillingModeProvisionedThroughput.property.writeCapacityUnits">WriteCapacityUnits</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#write_capacity_units CassandraTable#write_capacity_units}. |
 
 ---
 
@@ -1744,7 +1744,7 @@ ReadCapacityUnits *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#read_capacity_units CassandraTable#read_capacity_units}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#read_capacity_units CassandraTable#read_capacity_units}.
 
 ---
 
@@ -1756,7 +1756,7 @@ WriteCapacityUnits *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#write_capacity_units CassandraTable#write_capacity_units}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#write_capacity_units CassandraTable#write_capacity_units}.
 
 ---
 
@@ -1765,7 +1765,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cassandraTable.CassandraTableCdcSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandratable"
 
 &cassandratable.CassandraTableCdcSpecification {
 	Status: *string,
@@ -1794,7 +1794,7 @@ Status *string
 
 Indicates whether CDC is enabled or disabled for the table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#status CassandraTable#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#status CassandraTable#status}
 
 ---
 
@@ -1808,7 +1808,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to the CDC stream resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#tags CassandraTable#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#tags CassandraTable#tags}
 
 ---
 
@@ -1822,7 +1822,7 @@ ViewType *string
 
 Specifies what data should be captured in the change data stream.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#view_type CassandraTable#view_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#view_type CassandraTable#view_type}
 
 ---
 
@@ -1831,7 +1831,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cassandraTable.CassandraTableCdcSpecificationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandratable"
 
 &cassandratable.CassandraTableCdcSpecificationTags {
 	Key: *string,
@@ -1843,8 +1843,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableCdcSpecificationTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#key CassandraTable#key}. |
-| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableCdcSpecificationTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#value CassandraTable#value}. |
+| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableCdcSpecificationTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#key CassandraTable#key}. |
+| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableCdcSpecificationTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#value CassandraTable#value}. |
 
 ---
 
@@ -1856,7 +1856,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#key CassandraTable#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#key CassandraTable#key}.
 
 ---
 
@@ -1868,7 +1868,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#value CassandraTable#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#value CassandraTable#value}.
 
 ---
 
@@ -1877,10 +1877,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cassandraTable.CassandraTableClusteringKeyColumns.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandratable"
 
 &cassandratable.CassandraTableClusteringKeyColumns {
-	Column: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.cassandraTable.CassandraTableClusteringKeyColumnsColumn,
+	Column: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.cassandraTable.CassandraTableClusteringKeyColumnsColumn,
 	OrderBy: *string,
 }
 ```
@@ -1889,8 +1889,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableClusteringKeyColumns.property.column">Column</a></code> | <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableClusteringKeyColumnsColumn">CassandraTableClusteringKeyColumnsColumn</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#column CassandraTable#column}. |
-| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableClusteringKeyColumns.property.orderBy">OrderBy</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#order_by CassandraTable#order_by}. |
+| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableClusteringKeyColumns.property.column">Column</a></code> | <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableClusteringKeyColumnsColumn">CassandraTableClusteringKeyColumnsColumn</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#column CassandraTable#column}. |
+| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableClusteringKeyColumns.property.orderBy">OrderBy</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#order_by CassandraTable#order_by}. |
 
 ---
 
@@ -1902,7 +1902,7 @@ Column CassandraTableClusteringKeyColumnsColumn
 
 - *Type:* <a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableClusteringKeyColumnsColumn">CassandraTableClusteringKeyColumnsColumn</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#column CassandraTable#column}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#column CassandraTable#column}.
 
 ---
 
@@ -1914,7 +1914,7 @@ OrderBy *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#order_by CassandraTable#order_by}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#order_by CassandraTable#order_by}.
 
 ---
 
@@ -1923,7 +1923,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cassandraTable.CassandraTableClusteringKeyColumnsColumn.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandratable"
 
 &cassandratable.CassandraTableClusteringKeyColumnsColumn {
 	ColumnName: *string,
@@ -1935,8 +1935,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableClusteringKeyColumnsColumn.property.columnName">ColumnName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#column_name CassandraTable#column_name}. |
-| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableClusteringKeyColumnsColumn.property.columnType">ColumnType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#column_type CassandraTable#column_type}. |
+| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableClusteringKeyColumnsColumn.property.columnName">ColumnName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#column_name CassandraTable#column_name}. |
+| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableClusteringKeyColumnsColumn.property.columnType">ColumnType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#column_type CassandraTable#column_type}. |
 
 ---
 
@@ -1948,7 +1948,7 @@ ColumnName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#column_name CassandraTable#column_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#column_name CassandraTable#column_name}.
 
 ---
 
@@ -1960,7 +1960,7 @@ ColumnType *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#column_type CassandraTable#column_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#column_type CassandraTable#column_type}.
 
 ---
 
@@ -1969,7 +1969,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cassandraTable.CassandraTableConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandratable"
 
 &cassandratable.CassandraTableConfig {
 	Connection: interface{},
@@ -1981,19 +1981,19 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
 	Provisioners: *[]interface{},
 	KeyspaceName: *string,
 	PartitionKeyColumns: interface{},
-	AutoScalingSpecifications: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.cassandraTable.CassandraTableAutoScalingSpecifications,
-	BillingMode: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.cassandraTable.CassandraTableBillingMode,
-	CdcSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.cassandraTable.CassandraTableCdcSpecification,
+	AutoScalingSpecifications: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.cassandraTable.CassandraTableAutoScalingSpecifications,
+	BillingMode: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.cassandraTable.CassandraTableBillingMode,
+	CdcSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.cassandraTable.CassandraTableCdcSpecification,
 	ClientSideTimestampsEnabled: interface{},
 	ClusteringKeyColumns: interface{},
 	DefaultTimeToLive: *f64,
-	EncryptionSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.cassandraTable.CassandraTableEncryptionSpecification,
+	EncryptionSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.cassandraTable.CassandraTableEncryptionSpecification,
 	PointInTimeRecoveryEnabled: interface{},
 	RegularColumns: interface{},
 	ReplicaSpecifications: interface{},
 	TableName: *string,
 	Tags: interface{},
-	WarmThroughput: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.cassandraTable.CassandraTableWarmThroughput,
+	WarmThroughput: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.cassandraTable.CassandraTableWarmThroughput,
 }
 ```
 
@@ -2011,7 +2011,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
 | <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableConfig.property.keyspaceName">KeyspaceName</a></code> | <code>*string</code> | Name for Cassandra keyspace. |
 | <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableConfig.property.partitionKeyColumns">PartitionKeyColumns</a></code> | <code>interface{}</code> | Partition key columns of the table. |
 | <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableConfig.property.autoScalingSpecifications">AutoScalingSpecifications</a></code> | <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableAutoScalingSpecifications">CassandraTableAutoScalingSpecifications</a></code> | Represents the read and write settings used for AutoScaling. |
-| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableConfig.property.billingMode">BillingMode</a></code> | <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableBillingMode">CassandraTableBillingMode</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#billing_mode CassandraTable#billing_mode}. |
+| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableConfig.property.billingMode">BillingMode</a></code> | <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableBillingMode">CassandraTableBillingMode</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#billing_mode CassandraTable#billing_mode}. |
 | <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableConfig.property.cdcSpecification">CdcSpecification</a></code> | <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableCdcSpecification">CassandraTableCdcSpecification</a></code> | Represents the CDC configuration for the table. |
 | <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableConfig.property.clientSideTimestampsEnabled">ClientSideTimestampsEnabled</a></code> | <code>interface{}</code> | Indicates whether client side timestamps are enabled (true) or disabled (false) on the table. |
 | <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableConfig.property.clusteringKeyColumns">ClusteringKeyColumns</a></code> | <code>interface{}</code> | Clustering key columns of the table. |
@@ -2019,7 +2019,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
 | <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableConfig.property.encryptionSpecification">EncryptionSpecification</a></code> | <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableEncryptionSpecification">CassandraTableEncryptionSpecification</a></code> | Represents the settings used to enable server-side encryption. |
 | <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableConfig.property.pointInTimeRecoveryEnabled">PointInTimeRecoveryEnabled</a></code> | <code>interface{}</code> | Indicates whether point in time recovery is enabled (true) or disabled (false) on the table. |
 | <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableConfig.property.regularColumns">RegularColumns</a></code> | <code>interface{}</code> | Non-key columns of the table. |
-| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableConfig.property.replicaSpecifications">ReplicaSpecifications</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#replica_specifications CassandraTable#replica_specifications}. |
+| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableConfig.property.replicaSpecifications">ReplicaSpecifications</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#replica_specifications CassandraTable#replica_specifications}. |
 | <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableConfig.property.tableName">TableName</a></code> | <code>*string</code> | Name for Cassandra table. |
 | <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableConfig.property.tags">Tags</a></code> | <code>interface{}</code> | An array of key-value pairs to apply to this resource. |
 | <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableConfig.property.warmThroughput">WarmThroughput</a></code> | <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableWarmThroughput">CassandraTableWarmThroughput</a></code> | Warm throughput configuration for the table. |
@@ -2106,7 +2106,7 @@ KeyspaceName *string
 
 Name for Cassandra keyspace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#keyspace_name CassandraTable#keyspace_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#keyspace_name CassandraTable#keyspace_name}
 
 ---
 
@@ -2120,7 +2120,7 @@ PartitionKeyColumns interface{}
 
 Partition key columns of the table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#partition_key_columns CassandraTable#partition_key_columns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#partition_key_columns CassandraTable#partition_key_columns}
 
 ---
 
@@ -2134,7 +2134,7 @@ AutoScalingSpecifications CassandraTableAutoScalingSpecifications
 
 Represents the read and write settings used for AutoScaling.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#auto_scaling_specifications CassandraTable#auto_scaling_specifications}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#auto_scaling_specifications CassandraTable#auto_scaling_specifications}
 
 ---
 
@@ -2146,7 +2146,7 @@ BillingMode CassandraTableBillingMode
 
 - *Type:* <a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableBillingMode">CassandraTableBillingMode</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#billing_mode CassandraTable#billing_mode}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#billing_mode CassandraTable#billing_mode}.
 
 ---
 
@@ -2160,7 +2160,7 @@ CdcSpecification CassandraTableCdcSpecification
 
 Represents the CDC configuration for the table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#cdc_specification CassandraTable#cdc_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#cdc_specification CassandraTable#cdc_specification}
 
 ---
 
@@ -2176,7 +2176,7 @@ Indicates whether client side timestamps are enabled (true) or disabled (false) 
 
 False by default, once it is enabled it cannot be disabled again.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#client_side_timestamps_enabled CassandraTable#client_side_timestamps_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#client_side_timestamps_enabled CassandraTable#client_side_timestamps_enabled}
 
 ---
 
@@ -2190,7 +2190,7 @@ ClusteringKeyColumns interface{}
 
 Clustering key columns of the table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#clustering_key_columns CassandraTable#clustering_key_columns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#clustering_key_columns CassandraTable#clustering_key_columns}
 
 ---
 
@@ -2206,7 +2206,7 @@ Default TTL (Time To Live) in seconds, where zero is disabled.
 
 If the value is greater than zero, TTL is enabled for the entire table and an expiration timestamp is added to each column.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#default_time_to_live CassandraTable#default_time_to_live}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#default_time_to_live CassandraTable#default_time_to_live}
 
 ---
 
@@ -2220,7 +2220,7 @@ EncryptionSpecification CassandraTableEncryptionSpecification
 
 Represents the settings used to enable server-side encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#encryption_specification CassandraTable#encryption_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#encryption_specification CassandraTable#encryption_specification}
 
 ---
 
@@ -2234,7 +2234,7 @@ PointInTimeRecoveryEnabled interface{}
 
 Indicates whether point in time recovery is enabled (true) or disabled (false) on the table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#point_in_time_recovery_enabled CassandraTable#point_in_time_recovery_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#point_in_time_recovery_enabled CassandraTable#point_in_time_recovery_enabled}
 
 ---
 
@@ -2248,7 +2248,7 @@ RegularColumns interface{}
 
 Non-key columns of the table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#regular_columns CassandraTable#regular_columns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#regular_columns CassandraTable#regular_columns}
 
 ---
 
@@ -2260,7 +2260,7 @@ ReplicaSpecifications interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#replica_specifications CassandraTable#replica_specifications}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#replica_specifications CassandraTable#replica_specifications}.
 
 ---
 
@@ -2274,7 +2274,7 @@ TableName *string
 
 Name for Cassandra table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#table_name CassandraTable#table_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#table_name CassandraTable#table_name}
 
 ---
 
@@ -2288,7 +2288,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#tags CassandraTable#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#tags CassandraTable#tags}
 
 ---
 
@@ -2302,7 +2302,7 @@ WarmThroughput CassandraTableWarmThroughput
 
 Warm throughput configuration for the table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#warm_throughput CassandraTable#warm_throughput}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#warm_throughput CassandraTable#warm_throughput}
 
 ---
 
@@ -2311,7 +2311,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cassandraTable.CassandraTableEncryptionSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandratable"
 
 &cassandratable.CassandraTableEncryptionSpecification {
 	EncryptionType: *string,
@@ -2338,7 +2338,7 @@ EncryptionType *string
 
 Server-side encryption type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#encryption_type CassandraTable#encryption_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#encryption_type CassandraTable#encryption_type}
 
 ---
 
@@ -2354,7 +2354,7 @@ The AWS KMS customer master key (CMK) that should be used for the AWS KMS encryp
 
 To specify a CMK, use its key ID, Amazon Resource Name (ARN), alias name, or alias ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#kms_key_identifier CassandraTable#kms_key_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#kms_key_identifier CassandraTable#kms_key_identifier}
 
 ---
 
@@ -2363,7 +2363,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cassandraTable.CassandraTablePartitionKeyColumns.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandratable"
 
 &cassandratable.CassandraTablePartitionKeyColumns {
 	ColumnName: *string,
@@ -2375,8 +2375,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTablePartitionKeyColumns.property.columnName">ColumnName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#column_name CassandraTable#column_name}. |
-| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTablePartitionKeyColumns.property.columnType">ColumnType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#column_type CassandraTable#column_type}. |
+| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTablePartitionKeyColumns.property.columnName">ColumnName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#column_name CassandraTable#column_name}. |
+| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTablePartitionKeyColumns.property.columnType">ColumnType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#column_type CassandraTable#column_type}. |
 
 ---
 
@@ -2388,7 +2388,7 @@ ColumnName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#column_name CassandraTable#column_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#column_name CassandraTable#column_name}.
 
 ---
 
@@ -2400,7 +2400,7 @@ ColumnType *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#column_type CassandraTable#column_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#column_type CassandraTable#column_type}.
 
 ---
 
@@ -2409,7 +2409,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cassandraTable.CassandraTableRegularColumns.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandratable"
 
 &cassandratable.CassandraTableRegularColumns {
 	ColumnName: *string,
@@ -2421,8 +2421,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableRegularColumns.property.columnName">ColumnName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#column_name CassandraTable#column_name}. |
-| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableRegularColumns.property.columnType">ColumnType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#column_type CassandraTable#column_type}. |
+| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableRegularColumns.property.columnName">ColumnName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#column_name CassandraTable#column_name}. |
+| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableRegularColumns.property.columnType">ColumnType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#column_type CassandraTable#column_type}. |
 
 ---
 
@@ -2434,7 +2434,7 @@ ColumnName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#column_name CassandraTable#column_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#column_name CassandraTable#column_name}.
 
 ---
 
@@ -2446,7 +2446,7 @@ ColumnType *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#column_type CassandraTable#column_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#column_type CassandraTable#column_type}.
 
 ---
 
@@ -2455,10 +2455,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cassandraTable.CassandraTableReplicaSpecifications.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandratable"
 
 &cassandratable.CassandraTableReplicaSpecifications {
-	ReadCapacityAutoScaling: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.cassandraTable.CassandraTableReplicaSpecificationsReadCapacityAutoScaling,
+	ReadCapacityAutoScaling: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.cassandraTable.CassandraTableReplicaSpecificationsReadCapacityAutoScaling,
 	ReadCapacityUnits: *f64,
 	Region: *string,
 }
@@ -2469,8 +2469,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableReplicaSpecifications.property.readCapacityAutoScaling">ReadCapacityAutoScaling</a></code> | <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableReplicaSpecificationsReadCapacityAutoScaling">CassandraTableReplicaSpecificationsReadCapacityAutoScaling</a></code> | Represents configuration for auto scaling. |
-| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableReplicaSpecifications.property.readCapacityUnits">ReadCapacityUnits</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#read_capacity_units CassandraTable#read_capacity_units}. |
-| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableReplicaSpecifications.property.region">Region</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#region CassandraTable#region}. |
+| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableReplicaSpecifications.property.readCapacityUnits">ReadCapacityUnits</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#read_capacity_units CassandraTable#read_capacity_units}. |
+| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableReplicaSpecifications.property.region">Region</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#region CassandraTable#region}. |
 
 ---
 
@@ -2484,7 +2484,7 @@ ReadCapacityAutoScaling CassandraTableReplicaSpecificationsReadCapacityAutoScali
 
 Represents configuration for auto scaling.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#read_capacity_auto_scaling CassandraTable#read_capacity_auto_scaling}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#read_capacity_auto_scaling CassandraTable#read_capacity_auto_scaling}
 
 ---
 
@@ -2496,7 +2496,7 @@ ReadCapacityUnits *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#read_capacity_units CassandraTable#read_capacity_units}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#read_capacity_units CassandraTable#read_capacity_units}.
 
 ---
 
@@ -2508,7 +2508,7 @@ Region *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#region CassandraTable#region}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#region CassandraTable#region}.
 
 ---
 
@@ -2517,13 +2517,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cassandraTable.CassandraTableReplicaSpecificationsReadCapacityAutoScaling.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandratable"
 
 &cassandratable.CassandraTableReplicaSpecificationsReadCapacityAutoScaling {
 	AutoScalingDisabled: interface{},
 	MaximumUnits: *f64,
 	MinimumUnits: *f64,
-	ScalingPolicy: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.cassandraTable.CassandraTableReplicaSpecificationsReadCapacityAutoScalingScalingPolicy,
+	ScalingPolicy: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.cassandraTable.CassandraTableReplicaSpecificationsReadCapacityAutoScalingScalingPolicy,
 }
 ```
 
@@ -2531,9 +2531,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableReplicaSpecificationsReadCapacityAutoScaling.property.autoScalingDisabled">AutoScalingDisabled</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#auto_scaling_disabled CassandraTable#auto_scaling_disabled}. |
-| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableReplicaSpecificationsReadCapacityAutoScaling.property.maximumUnits">MaximumUnits</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#maximum_units CassandraTable#maximum_units}. |
-| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableReplicaSpecificationsReadCapacityAutoScaling.property.minimumUnits">MinimumUnits</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#minimum_units CassandraTable#minimum_units}. |
+| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableReplicaSpecificationsReadCapacityAutoScaling.property.autoScalingDisabled">AutoScalingDisabled</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#auto_scaling_disabled CassandraTable#auto_scaling_disabled}. |
+| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableReplicaSpecificationsReadCapacityAutoScaling.property.maximumUnits">MaximumUnits</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#maximum_units CassandraTable#maximum_units}. |
+| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableReplicaSpecificationsReadCapacityAutoScaling.property.minimumUnits">MinimumUnits</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#minimum_units CassandraTable#minimum_units}. |
 | <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableReplicaSpecificationsReadCapacityAutoScaling.property.scalingPolicy">ScalingPolicy</a></code> | <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableReplicaSpecificationsReadCapacityAutoScalingScalingPolicy">CassandraTableReplicaSpecificationsReadCapacityAutoScalingScalingPolicy</a></code> | Represents scaling policy. |
 
 ---
@@ -2546,7 +2546,7 @@ AutoScalingDisabled interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#auto_scaling_disabled CassandraTable#auto_scaling_disabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#auto_scaling_disabled CassandraTable#auto_scaling_disabled}.
 
 ---
 
@@ -2558,7 +2558,7 @@ MaximumUnits *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#maximum_units CassandraTable#maximum_units}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#maximum_units CassandraTable#maximum_units}.
 
 ---
 
@@ -2570,7 +2570,7 @@ MinimumUnits *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#minimum_units CassandraTable#minimum_units}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#minimum_units CassandraTable#minimum_units}.
 
 ---
 
@@ -2584,7 +2584,7 @@ ScalingPolicy CassandraTableReplicaSpecificationsReadCapacityAutoScalingScalingP
 
 Represents scaling policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#scaling_policy CassandraTable#scaling_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#scaling_policy CassandraTable#scaling_policy}
 
 ---
 
@@ -2593,10 +2593,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cassandraTable.CassandraTableReplicaSpecificationsReadCapacityAutoScalingScalingPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandratable"
 
 &cassandratable.CassandraTableReplicaSpecificationsReadCapacityAutoScalingScalingPolicy {
-	TargetTrackingScalingPolicyConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.cassandraTable.CassandraTableReplicaSpecificationsReadCapacityAutoScalingScalingPolicyTargetTrackingScalingPolicyConfiguration,
+	TargetTrackingScalingPolicyConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.cassandraTable.CassandraTableReplicaSpecificationsReadCapacityAutoScalingScalingPolicyTargetTrackingScalingPolicyConfiguration,
 }
 ```
 
@@ -2618,7 +2618,7 @@ TargetTrackingScalingPolicyConfiguration CassandraTableReplicaSpecificationsRead
 
 Represents configuration for target tracking scaling policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#target_tracking_scaling_policy_configuration CassandraTable#target_tracking_scaling_policy_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#target_tracking_scaling_policy_configuration CassandraTable#target_tracking_scaling_policy_configuration}
 
 ---
 
@@ -2627,7 +2627,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cassandraTable.CassandraTableReplicaSpecificationsReadCapacityAutoScalingScalingPolicyTargetTrackingScalingPolicyConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandratable"
 
 &cassandratable.CassandraTableReplicaSpecificationsReadCapacityAutoScalingScalingPolicyTargetTrackingScalingPolicyConfiguration {
 	DisableScaleIn: interface{},
@@ -2641,10 +2641,10 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableReplicaSpecificationsReadCapacityAutoScalingScalingPolicyTargetTrackingScalingPolicyConfiguration.property.disableScaleIn">DisableScaleIn</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#disable_scale_in CassandraTable#disable_scale_in}. |
-| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableReplicaSpecificationsReadCapacityAutoScalingScalingPolicyTargetTrackingScalingPolicyConfiguration.property.scaleInCooldown">ScaleInCooldown</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#scale_in_cooldown CassandraTable#scale_in_cooldown}. |
-| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableReplicaSpecificationsReadCapacityAutoScalingScalingPolicyTargetTrackingScalingPolicyConfiguration.property.scaleOutCooldown">ScaleOutCooldown</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#scale_out_cooldown CassandraTable#scale_out_cooldown}. |
-| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableReplicaSpecificationsReadCapacityAutoScalingScalingPolicyTargetTrackingScalingPolicyConfiguration.property.targetValue">TargetValue</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#target_value CassandraTable#target_value}. |
+| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableReplicaSpecificationsReadCapacityAutoScalingScalingPolicyTargetTrackingScalingPolicyConfiguration.property.disableScaleIn">DisableScaleIn</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#disable_scale_in CassandraTable#disable_scale_in}. |
+| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableReplicaSpecificationsReadCapacityAutoScalingScalingPolicyTargetTrackingScalingPolicyConfiguration.property.scaleInCooldown">ScaleInCooldown</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#scale_in_cooldown CassandraTable#scale_in_cooldown}. |
+| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableReplicaSpecificationsReadCapacityAutoScalingScalingPolicyTargetTrackingScalingPolicyConfiguration.property.scaleOutCooldown">ScaleOutCooldown</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#scale_out_cooldown CassandraTable#scale_out_cooldown}. |
+| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableReplicaSpecificationsReadCapacityAutoScalingScalingPolicyTargetTrackingScalingPolicyConfiguration.property.targetValue">TargetValue</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#target_value CassandraTable#target_value}. |
 
 ---
 
@@ -2656,7 +2656,7 @@ DisableScaleIn interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#disable_scale_in CassandraTable#disable_scale_in}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#disable_scale_in CassandraTable#disable_scale_in}.
 
 ---
 
@@ -2668,7 +2668,7 @@ ScaleInCooldown *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#scale_in_cooldown CassandraTable#scale_in_cooldown}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#scale_in_cooldown CassandraTable#scale_in_cooldown}.
 
 ---
 
@@ -2680,7 +2680,7 @@ ScaleOutCooldown *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#scale_out_cooldown CassandraTable#scale_out_cooldown}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#scale_out_cooldown CassandraTable#scale_out_cooldown}.
 
 ---
 
@@ -2692,7 +2692,7 @@ TargetValue *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#target_value CassandraTable#target_value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#target_value CassandraTable#target_value}.
 
 ---
 
@@ -2701,7 +2701,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cassandraTable.CassandraTableTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandratable"
 
 &cassandratable.CassandraTableTags {
 	Key: *string,
@@ -2713,8 +2713,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#key CassandraTable#key}. |
-| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#value CassandraTable#value}. |
+| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#key CassandraTable#key}. |
+| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#value CassandraTable#value}. |
 
 ---
 
@@ -2726,7 +2726,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#key CassandraTable#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#key CassandraTable#key}.
 
 ---
 
@@ -2738,7 +2738,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#value CassandraTable#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#value CassandraTable#value}.
 
 ---
 
@@ -2747,7 +2747,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cassandraTable.CassandraTableWarmThroughput.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandratable"
 
 &cassandratable.CassandraTableWarmThroughput {
 	ReadUnitsPerSecond: *f64,
@@ -2759,8 +2759,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableWarmThroughput.property.readUnitsPerSecond">ReadUnitsPerSecond</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#read_units_per_second CassandraTable#read_units_per_second}. |
-| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableWarmThroughput.property.writeUnitsPerSecond">WriteUnitsPerSecond</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#write_units_per_second CassandraTable#write_units_per_second}. |
+| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableWarmThroughput.property.readUnitsPerSecond">ReadUnitsPerSecond</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#read_units_per_second CassandraTable#read_units_per_second}. |
+| <code><a href="#@cdktn/provider-awscc.cassandraTable.CassandraTableWarmThroughput.property.writeUnitsPerSecond">WriteUnitsPerSecond</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#write_units_per_second CassandraTable#write_units_per_second}. |
 
 ---
 
@@ -2772,7 +2772,7 @@ ReadUnitsPerSecond *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#read_units_per_second CassandraTable#read_units_per_second}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#read_units_per_second CassandraTable#read_units_per_second}.
 
 ---
 
@@ -2784,7 +2784,7 @@ WriteUnitsPerSecond *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cassandra_table#write_units_per_second CassandraTable#write_units_per_second}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cassandra_table#write_units_per_second CassandraTable#write_units_per_second}.
 
 ---
 
@@ -2795,7 +2795,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cassandraTable.CassandraTableAutoScalingSpecificationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandratable"
 
 cassandratable.NewCassandraTableAutoScalingSpecificationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CassandraTableAutoScalingSpecificationsOutputReference
 ```
@@ -3128,7 +3128,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cassandraTable.CassandraTableAutoScalingSpecificationsReadCapacityAutoScalingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandratable"
 
 cassandratable.NewCassandraTableAutoScalingSpecificationsReadCapacityAutoScalingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CassandraTableAutoScalingSpecificationsReadCapacityAutoScalingOutputReference
 ```
@@ -3506,7 +3506,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cassandraTable.CassandraTableAutoScalingSpecificationsReadCapacityAutoScalingScalingPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandratable"
 
 cassandratable.NewCassandraTableAutoScalingSpecificationsReadCapacityAutoScalingScalingPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CassandraTableAutoScalingSpecificationsReadCapacityAutoScalingScalingPolicyOutputReference
 ```
@@ -3797,7 +3797,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cassandraTable.CassandraTableAutoScalingSpecificationsReadCapacityAutoScalingScalingPolicyTargetTrackingScalingPolicyConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandratable"
 
 cassandratable.NewCassandraTableAutoScalingSpecificationsReadCapacityAutoScalingScalingPolicyTargetTrackingScalingPolicyConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CassandraTableAutoScalingSpecificationsReadCapacityAutoScalingScalingPolicyTargetTrackingScalingPolicyConfigurationOutputReference
 ```
@@ -4162,7 +4162,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cassandraTable.CassandraTableAutoScalingSpecificationsWriteCapacityAutoScalingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandratable"
 
 cassandratable.NewCassandraTableAutoScalingSpecificationsWriteCapacityAutoScalingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CassandraTableAutoScalingSpecificationsWriteCapacityAutoScalingOutputReference
 ```
@@ -4540,7 +4540,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cassandraTable.CassandraTableAutoScalingSpecificationsWriteCapacityAutoScalingScalingPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandratable"
 
 cassandratable.NewCassandraTableAutoScalingSpecificationsWriteCapacityAutoScalingScalingPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CassandraTableAutoScalingSpecificationsWriteCapacityAutoScalingScalingPolicyOutputReference
 ```
@@ -4831,7 +4831,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cassandraTable.CassandraTableAutoScalingSpecificationsWriteCapacityAutoScalingScalingPolicyTargetTrackingScalingPolicyConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandratable"
 
 cassandratable.NewCassandraTableAutoScalingSpecificationsWriteCapacityAutoScalingScalingPolicyTargetTrackingScalingPolicyConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CassandraTableAutoScalingSpecificationsWriteCapacityAutoScalingScalingPolicyTargetTrackingScalingPolicyConfigurationOutputReference
 ```
@@ -5196,7 +5196,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cassandraTable.CassandraTableBillingModeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandratable"
 
 cassandratable.NewCassandraTableBillingModeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CassandraTableBillingModeOutputReference
 ```
@@ -5516,7 +5516,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cassandraTable.CassandraTableBillingModeProvisionedThroughputOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandratable"
 
 cassandratable.NewCassandraTableBillingModeProvisionedThroughputOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CassandraTableBillingModeProvisionedThroughputOutputReference
 ```
@@ -5823,7 +5823,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cassandraTable.CassandraTableCdcSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandratable"
 
 cassandratable.NewCassandraTableCdcSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CassandraTableCdcSpecificationOutputReference
 ```
@@ -6172,7 +6172,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cassandraTable.CassandraTableCdcSpecificationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandratable"
 
 cassandratable.NewCassandraTableCdcSpecificationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CassandraTableCdcSpecificationTagsList
 ```
@@ -6332,7 +6332,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cassandraTable.CassandraTableCdcSpecificationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandratable"
 
 cassandratable.NewCassandraTableCdcSpecificationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CassandraTableCdcSpecificationTagsOutputReference
 ```
@@ -6657,7 +6657,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cassandraTable.CassandraTableClusteringKeyColumnsColumnOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandratable"
 
 cassandratable.NewCassandraTableClusteringKeyColumnsColumnOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CassandraTableClusteringKeyColumnsColumnOutputReference
 ```
@@ -6964,7 +6964,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cassandraTable.CassandraTableClusteringKeyColumnsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandratable"
 
 cassandratable.NewCassandraTableClusteringKeyColumnsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CassandraTableClusteringKeyColumnsList
 ```
@@ -7124,7 +7124,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cassandraTable.CassandraTableClusteringKeyColumnsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandratable"
 
 cassandratable.NewCassandraTableClusteringKeyColumnsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CassandraTableClusteringKeyColumnsOutputReference
 ```
@@ -7462,7 +7462,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cassandraTable.CassandraTableEncryptionSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandratable"
 
 cassandratable.NewCassandraTableEncryptionSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CassandraTableEncryptionSpecificationOutputReference
 ```
@@ -7769,7 +7769,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cassandraTable.CassandraTablePartitionKeyColumnsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandratable"
 
 cassandratable.NewCassandraTablePartitionKeyColumnsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CassandraTablePartitionKeyColumnsList
 ```
@@ -7929,7 +7929,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cassandraTable.CassandraTablePartitionKeyColumnsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandratable"
 
 cassandratable.NewCassandraTablePartitionKeyColumnsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CassandraTablePartitionKeyColumnsOutputReference
 ```
@@ -8240,7 +8240,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cassandraTable.CassandraTableRegularColumnsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandratable"
 
 cassandratable.NewCassandraTableRegularColumnsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CassandraTableRegularColumnsList
 ```
@@ -8400,7 +8400,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cassandraTable.CassandraTableRegularColumnsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandratable"
 
 cassandratable.NewCassandraTableRegularColumnsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CassandraTableRegularColumnsOutputReference
 ```
@@ -8725,7 +8725,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cassandraTable.CassandraTableReplicaSpecificationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandratable"
 
 cassandratable.NewCassandraTableReplicaSpecificationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CassandraTableReplicaSpecificationsList
 ```
@@ -8885,7 +8885,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cassandraTable.CassandraTableReplicaSpecificationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandratable"
 
 cassandratable.NewCassandraTableReplicaSpecificationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CassandraTableReplicaSpecificationsOutputReference
 ```
@@ -9252,7 +9252,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cassandraTable.CassandraTableReplicaSpecificationsReadCapacityAutoScalingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandratable"
 
 cassandratable.NewCassandraTableReplicaSpecificationsReadCapacityAutoScalingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CassandraTableReplicaSpecificationsReadCapacityAutoScalingOutputReference
 ```
@@ -9630,7 +9630,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cassandraTable.CassandraTableReplicaSpecificationsReadCapacityAutoScalingScalingPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandratable"
 
 cassandratable.NewCassandraTableReplicaSpecificationsReadCapacityAutoScalingScalingPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CassandraTableReplicaSpecificationsReadCapacityAutoScalingScalingPolicyOutputReference
 ```
@@ -9921,7 +9921,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cassandraTable.CassandraTableReplicaSpecificationsReadCapacityAutoScalingScalingPolicyTargetTrackingScalingPolicyConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandratable"
 
 cassandratable.NewCassandraTableReplicaSpecificationsReadCapacityAutoScalingScalingPolicyTargetTrackingScalingPolicyConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CassandraTableReplicaSpecificationsReadCapacityAutoScalingScalingPolicyTargetTrackingScalingPolicyConfigurationOutputReference
 ```
@@ -10286,7 +10286,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cassandraTable.CassandraTableTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandratable"
 
 cassandratable.NewCassandraTableTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CassandraTableTagsList
 ```
@@ -10446,7 +10446,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cassandraTable.CassandraTableTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandratable"
 
 cassandratable.NewCassandraTableTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CassandraTableTagsOutputReference
 ```
@@ -10771,7 +10771,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cassandraTable.CassandraTableWarmThroughputOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cassandratable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cassandratable"
 
 cassandratable.NewCassandraTableWarmThroughputOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CassandraTableWarmThroughputOutputReference
 ```

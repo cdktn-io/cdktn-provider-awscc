@@ -4,12 +4,12 @@
 
 ### DataAwsccChimeVoiceConnectors <a name="DataAwsccChimeVoiceConnectors" id="@cdktn/provider-awscc.dataAwsccChimeVoiceConnectors.DataAwsccChimeVoiceConnectors"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/chime_voice_connectors awscc_chime_voice_connectors}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/chime_voice_connectors awscc_chime_voice_connectors}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccChimeVoiceConnectors.DataAwsccChimeVoiceConnectors.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimevoiceconnectors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchimevoiceconnectors"
 
 dataawsccchimevoiceconnectors.NewDataAwsccChimeVoiceConnectors(scope Construct, id *string, config DataAwsccChimeVoiceConnectorsConfig) DataAwsccChimeVoiceConnectors
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccChimeVoiceConnectors.DataAwsccChimeVoiceConnectors.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimevoiceconnectors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchimevoiceconnectors"
 
 dataawsccchimevoiceconnectors.DataAwsccChimeVoiceConnectors_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccChimeVoiceConnectors.DataAwsccChimeVoiceConnectors.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimevoiceconnectors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchimevoiceconnectors"
 
 dataawsccchimevoiceconnectors.DataAwsccChimeVoiceConnectors_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccchimevoiceconnectors.DataAwsccChimeVoiceConnectors_IsTerraformElement(x
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccChimeVoiceConnectors.DataAwsccChimeVoiceConnectors.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimevoiceconnectors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchimevoiceconnectors"
 
 dataawsccchimevoiceconnectors.DataAwsccChimeVoiceConnectors_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccchimevoiceconnectors.DataAwsccChimeVoiceConnectors_IsTerraformDataSourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccChimeVoiceConnectors.DataAwsccChimeVoiceConnectors.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimevoiceconnectors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchimevoiceconnectors"
 
 dataawsccchimevoiceconnectors.DataAwsccChimeVoiceConnectors_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccChimeVoiceConnect
 
 The id of the existing DataAwsccChimeVoiceConnectors that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/chime_voice_connectors#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/chime_voice_connectors#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccChimeVoiceConnectors.DataAwsccChimeVoiceConnectorsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimevoiceconnectors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchimevoiceconnectors"
 
 &dataawsccchimevoiceconnectors.DataAwsccChimeVoiceConnectorsConfig {
 	Connection: interface{},

@@ -4,12 +4,12 @@
 
 ### CognitoUserPoolUserToGroupAttachment <a name="CognitoUserPoolUserToGroupAttachment" id="@cdktn/provider-awscc.cognitoUserPoolUserToGroupAttachment.CognitoUserPoolUserToGroupAttachment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cognito_user_pool_user_to_group_attachment awscc_cognito_user_pool_user_to_group_attachment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cognito_user_pool_user_to_group_attachment awscc_cognito_user_pool_user_to_group_attachment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cognitoUserPoolUserToGroupAttachment.CognitoUserPoolUserToGroupAttachment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cognitouserpoolusertogroupattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cognitouserpoolusertogroupattachment"
 
 cognitouserpoolusertogroupattachment.NewCognitoUserPoolUserToGroupAttachment(scope Construct, id *string, config CognitoUserPoolUserToGroupAttachmentConfig) CognitoUserPoolUserToGroupAttachment
 ```
@@ -400,7 +400,7 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.cognitoUserPoolUserToGroupAttachment.CognitoUserPoolUserToGroupAttachment.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cognitouserpoolusertogroupattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cognitouserpoolusertogroupattachment"
 
 cognitouserpoolusertogroupattachment.CognitoUserPoolUserToGroupAttachment_IsConstruct(x interface{}) *bool
 ```
@@ -432,7 +432,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.cognitoUserPoolUserToGroupAttachment.CognitoUserPoolUserToGroupAttachment.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cognitouserpoolusertogroupattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cognitouserpoolusertogroupattachment"
 
 cognitouserpoolusertogroupattachment.CognitoUserPoolUserToGroupAttachment_IsTerraformElement(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ cognitouserpoolusertogroupattachment.CognitoUserPoolUserToGroupAttachment_IsTerr
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.cognitoUserPoolUserToGroupAttachment.CognitoUserPoolUserToGroupAttachment.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cognitouserpoolusertogroupattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cognitouserpoolusertogroupattachment"
 
 cognitouserpoolusertogroupattachment.CognitoUserPoolUserToGroupAttachment_IsTerraformResource(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ cognitouserpoolusertogroupattachment.CognitoUserPoolUserToGroupAttachment_IsTerr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.cognitoUserPoolUserToGroupAttachment.CognitoUserPoolUserToGroupAttachment.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cognitouserpoolusertogroupattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cognitouserpoolusertogroupattachment"
 
 cognitouserpoolusertogroupattachment.CognitoUserPoolUserToGroupAttachment_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -489,7 +489,7 @@ The construct id used in the generated config for the CognitoUserPoolUserToGroup
 
 The id of the existing CognitoUserPoolUserToGroupAttachment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cognito_user_pool_user_to_group_attachment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cognito_user_pool_user_to_group_attachment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -766,7 +766,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cognitoUserPoolUserToGroupAttachment.CognitoUserPoolUserToGroupAttachmentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cognitouserpoolusertogroupattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cognitouserpoolusertogroupattachment"
 
 &cognitouserpoolusertogroupattachment.CognitoUserPoolUserToGroupAttachmentConfig {
 	Connection: interface{},
@@ -793,9 +793,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cognitouserpoolusertog
 | <code><a href="#@cdktn/provider-awscc.cognitoUserPoolUserToGroupAttachment.CognitoUserPoolUserToGroupAttachmentConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cognitoUserPoolUserToGroupAttachment.CognitoUserPoolUserToGroupAttachmentConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cognitoUserPoolUserToGroupAttachment.CognitoUserPoolUserToGroupAttachmentConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.cognitoUserPoolUserToGroupAttachment.CognitoUserPoolUserToGroupAttachmentConfig.property.groupName">GroupName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cognito_user_pool_user_to_group_attachment#group_name CognitoUserPoolUserToGroupAttachment#group_name}. |
-| <code><a href="#@cdktn/provider-awscc.cognitoUserPoolUserToGroupAttachment.CognitoUserPoolUserToGroupAttachmentConfig.property.username">Username</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cognito_user_pool_user_to_group_attachment#username CognitoUserPoolUserToGroupAttachment#username}. |
-| <code><a href="#@cdktn/provider-awscc.cognitoUserPoolUserToGroupAttachment.CognitoUserPoolUserToGroupAttachmentConfig.property.userPoolId">UserPoolId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cognito_user_pool_user_to_group_attachment#user_pool_id CognitoUserPoolUserToGroupAttachment#user_pool_id}. |
+| <code><a href="#@cdktn/provider-awscc.cognitoUserPoolUserToGroupAttachment.CognitoUserPoolUserToGroupAttachmentConfig.property.groupName">GroupName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cognito_user_pool_user_to_group_attachment#group_name CognitoUserPoolUserToGroupAttachment#group_name}. |
+| <code><a href="#@cdktn/provider-awscc.cognitoUserPoolUserToGroupAttachment.CognitoUserPoolUserToGroupAttachmentConfig.property.username">Username</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cognito_user_pool_user_to_group_attachment#username CognitoUserPoolUserToGroupAttachment#username}. |
+| <code><a href="#@cdktn/provider-awscc.cognitoUserPoolUserToGroupAttachment.CognitoUserPoolUserToGroupAttachmentConfig.property.userPoolId">UserPoolId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cognito_user_pool_user_to_group_attachment#user_pool_id CognitoUserPoolUserToGroupAttachment#user_pool_id}. |
 
 ---
 
@@ -877,7 +877,7 @@ GroupName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cognito_user_pool_user_to_group_attachment#group_name CognitoUserPoolUserToGroupAttachment#group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cognito_user_pool_user_to_group_attachment#group_name CognitoUserPoolUserToGroupAttachment#group_name}.
 
 ---
 
@@ -889,7 +889,7 @@ Username *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cognito_user_pool_user_to_group_attachment#username CognitoUserPoolUserToGroupAttachment#username}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cognito_user_pool_user_to_group_attachment#username CognitoUserPoolUserToGroupAttachment#username}.
 
 ---
 
@@ -901,7 +901,7 @@ UserPoolId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cognito_user_pool_user_to_group_attachment#user_pool_id CognitoUserPoolUserToGroupAttachment#user_pool_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cognito_user_pool_user_to_group_attachment#user_pool_id CognitoUserPoolUserToGroupAttachment#user_pool_id}.
 
 ---
 

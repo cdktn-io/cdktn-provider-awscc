@@ -4,12 +4,12 @@
 
 ### DataAwsccEntityresolutionIdNamespace <a name="DataAwsccEntityresolutionIdNamespace" id="@cdktn/provider-awscc.dataAwsccEntityresolutionIdNamespace.DataAwsccEntityresolutionIdNamespace"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/entityresolution_id_namespace awscc_entityresolution_id_namespace}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/entityresolution_id_namespace awscc_entityresolution_id_namespace}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEntityresolutionIdNamespace.DataAwsccEntityresolutionIdNamespace.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccentityresolutionidnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccentityresolutionidnamespace"
 
 dataawsccentityresolutionidnamespace.NewDataAwsccEntityresolutionIdNamespace(scope Construct, id *string, config DataAwsccEntityresolutionIdNamespaceConfig) DataAwsccEntityresolutionIdNamespace
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEntityresolutionIdNamespace.DataAwsccEntityresolutionIdNamespace.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccentityresolutionidnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccentityresolutionidnamespace"
 
 dataawsccentityresolutionidnamespace.DataAwsccEntityresolutionIdNamespace_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEntityresolutionIdNamespace.DataAwsccEntityresolutionIdNamespace.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccentityresolutionidnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccentityresolutionidnamespace"
 
 dataawsccentityresolutionidnamespace.DataAwsccEntityresolutionIdNamespace_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccentityresolutionidnamespace.DataAwsccEntityresolutionIdNamespace_IsTerr
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEntityresolutionIdNamespace.DataAwsccEntityresolutionIdNamespace.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccentityresolutionidnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccentityresolutionidnamespace"
 
 dataawsccentityresolutionidnamespace.DataAwsccEntityresolutionIdNamespace_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccentityresolutionidnamespace.DataAwsccEntityresolutionIdNamespace_IsTerr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEntityresolutionIdNamespace.DataAwsccEntityresolutionIdNamespace.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccentityresolutionidnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccentityresolutionidnamespace"
 
 dataawsccentityresolutionidnamespace.DataAwsccEntityresolutionIdNamespace_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEntityresolutionI
 
 The id of the existing DataAwsccEntityresolutionIdNamespace that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/entityresolution_id_namespace#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/entityresolution_id_namespace#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -697,7 +697,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEntityresolutionIdNamespace.DataAwsccEntityresolutionIdNamespaceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccentityresolutionidnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccentityresolutionidnamespace"
 
 &dataawsccentityresolutionidnamespace.DataAwsccEntityresolutionIdNamespaceConfig {
 	Connection: interface{},
@@ -806,7 +806,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/entityresolution_id_namespace#id DataAwsccEntityresolutionIdNamespace#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/entityresolution_id_namespace#id DataAwsccEntityresolutionIdNamespace#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -818,7 +818,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEntityresolutionIdNamespace.DataAwsccEntityresolutionIdNamespaceIdMappingWorkflowProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccentityresolutionidnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccentityresolutionidnamespace"
 
 &dataawsccentityresolutionidnamespace.DataAwsccEntityresolutionIdNamespaceIdMappingWorkflowProperties {
 
@@ -831,7 +831,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccentityresolut
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEntityresolutionIdNamespace.DataAwsccEntityresolutionIdNamespaceIdMappingWorkflowPropertiesProviderProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccentityresolutionidnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccentityresolutionidnamespace"
 
 &dataawsccentityresolutionidnamespace.DataAwsccEntityresolutionIdNamespaceIdMappingWorkflowPropertiesProviderProperties {
 
@@ -844,7 +844,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccentityresolut
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEntityresolutionIdNamespace.DataAwsccEntityresolutionIdNamespaceIdMappingWorkflowPropertiesRuleBasedProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccentityresolutionidnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccentityresolutionidnamespace"
 
 &dataawsccentityresolutionidnamespace.DataAwsccEntityresolutionIdNamespaceIdMappingWorkflowPropertiesRuleBasedProperties {
 
@@ -857,7 +857,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccentityresolut
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEntityresolutionIdNamespace.DataAwsccEntityresolutionIdNamespaceIdMappingWorkflowPropertiesRuleBasedPropertiesRules.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccentityresolutionidnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccentityresolutionidnamespace"
 
 &dataawsccentityresolutionidnamespace.DataAwsccEntityresolutionIdNamespaceIdMappingWorkflowPropertiesRuleBasedPropertiesRules {
 
@@ -870,7 +870,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccentityresolut
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEntityresolutionIdNamespace.DataAwsccEntityresolutionIdNamespaceInputSourceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccentityresolutionidnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccentityresolutionidnamespace"
 
 &dataawsccentityresolutionidnamespace.DataAwsccEntityresolutionIdNamespaceInputSourceConfig {
 
@@ -883,7 +883,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccentityresolut
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEntityresolutionIdNamespace.DataAwsccEntityresolutionIdNamespaceTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccentityresolutionidnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccentityresolutionidnamespace"
 
 &dataawsccentityresolutionidnamespace.DataAwsccEntityresolutionIdNamespaceTags {
 
@@ -898,7 +898,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccentityresolut
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEntityresolutionIdNamespace.DataAwsccEntityresolutionIdNamespaceIdMappingWorkflowPropertiesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccentityresolutionidnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccentityresolutionidnamespace"
 
 dataawsccentityresolutionidnamespace.NewDataAwsccEntityresolutionIdNamespaceIdMappingWorkflowPropertiesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEntityresolutionIdNamespaceIdMappingWorkflowPropertiesList
 ```
@@ -1047,7 +1047,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEntityresolutionIdNamespace.DataAwsccEntityresolutionIdNamespaceIdMappingWorkflowPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccentityresolutionidnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccentityresolutionidnamespace"
 
 dataawsccentityresolutionidnamespace.NewDataAwsccEntityresolutionIdNamespaceIdMappingWorkflowPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEntityresolutionIdNamespaceIdMappingWorkflowPropertiesOutputReference
 ```
@@ -1347,7 +1347,7 @@ func InternalValue() DataAwsccEntityresolutionIdNamespaceIdMappingWorkflowProper
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEntityresolutionIdNamespace.DataAwsccEntityresolutionIdNamespaceIdMappingWorkflowPropertiesProviderPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccentityresolutionidnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccentityresolutionidnamespace"
 
 dataawsccentityresolutionidnamespace.NewDataAwsccEntityresolutionIdNamespaceIdMappingWorkflowPropertiesProviderPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEntityresolutionIdNamespaceIdMappingWorkflowPropertiesProviderPropertiesOutputReference
 ```
@@ -1618,7 +1618,7 @@ func InternalValue() DataAwsccEntityresolutionIdNamespaceIdMappingWorkflowProper
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEntityresolutionIdNamespace.DataAwsccEntityresolutionIdNamespaceIdMappingWorkflowPropertiesRuleBasedPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccentityresolutionidnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccentityresolutionidnamespace"
 
 dataawsccentityresolutionidnamespace.NewDataAwsccEntityresolutionIdNamespaceIdMappingWorkflowPropertiesRuleBasedPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEntityresolutionIdNamespaceIdMappingWorkflowPropertiesRuleBasedPropertiesOutputReference
 ```
@@ -1911,7 +1911,7 @@ func InternalValue() DataAwsccEntityresolutionIdNamespaceIdMappingWorkflowProper
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEntityresolutionIdNamespace.DataAwsccEntityresolutionIdNamespaceIdMappingWorkflowPropertiesRuleBasedPropertiesRulesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccentityresolutionidnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccentityresolutionidnamespace"
 
 dataawsccentityresolutionidnamespace.NewDataAwsccEntityresolutionIdNamespaceIdMappingWorkflowPropertiesRuleBasedPropertiesRulesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEntityresolutionIdNamespaceIdMappingWorkflowPropertiesRuleBasedPropertiesRulesList
 ```
@@ -2060,7 +2060,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEntityresolutionIdNamespace.DataAwsccEntityresolutionIdNamespaceIdMappingWorkflowPropertiesRuleBasedPropertiesRulesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccentityresolutionidnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccentityresolutionidnamespace"
 
 dataawsccentityresolutionidnamespace.NewDataAwsccEntityresolutionIdNamespaceIdMappingWorkflowPropertiesRuleBasedPropertiesRulesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEntityresolutionIdNamespaceIdMappingWorkflowPropertiesRuleBasedPropertiesRulesOutputReference
 ```
@@ -2349,7 +2349,7 @@ func InternalValue() DataAwsccEntityresolutionIdNamespaceIdMappingWorkflowProper
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEntityresolutionIdNamespace.DataAwsccEntityresolutionIdNamespaceInputSourceConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccentityresolutionidnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccentityresolutionidnamespace"
 
 dataawsccentityresolutionidnamespace.NewDataAwsccEntityresolutionIdNamespaceInputSourceConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEntityresolutionIdNamespaceInputSourceConfigList
 ```
@@ -2498,7 +2498,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEntityresolutionIdNamespace.DataAwsccEntityresolutionIdNamespaceInputSourceConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccentityresolutionidnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccentityresolutionidnamespace"
 
 dataawsccentityresolutionidnamespace.NewDataAwsccEntityresolutionIdNamespaceInputSourceConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEntityresolutionIdNamespaceInputSourceConfigOutputReference
 ```
@@ -2787,7 +2787,7 @@ func InternalValue() DataAwsccEntityresolutionIdNamespaceInputSourceConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEntityresolutionIdNamespace.DataAwsccEntityresolutionIdNamespaceTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccentityresolutionidnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccentityresolutionidnamespace"
 
 dataawsccentityresolutionidnamespace.NewDataAwsccEntityresolutionIdNamespaceTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEntityresolutionIdNamespaceTagsList
 ```
@@ -2936,7 +2936,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEntityresolutionIdNamespace.DataAwsccEntityresolutionIdNamespaceTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccentityresolutionidnamespace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccentityresolutionidnamespace"
 
 dataawsccentityresolutionidnamespace.NewDataAwsccEntityresolutionIdNamespaceTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEntityresolutionIdNamespaceTagsOutputReference
 ```

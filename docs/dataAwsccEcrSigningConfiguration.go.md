@@ -4,12 +4,12 @@
 
 ### DataAwsccEcrSigningConfiguration <a name="DataAwsccEcrSigningConfiguration" id="@cdktn/provider-awscc.dataAwsccEcrSigningConfiguration.DataAwsccEcrSigningConfiguration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ecr_signing_configuration awscc_ecr_signing_configuration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ecr_signing_configuration awscc_ecr_signing_configuration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcrSigningConfiguration.DataAwsccEcrSigningConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecrsigningconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecrsigningconfiguration"
 
 dataawsccecrsigningconfiguration.NewDataAwsccEcrSigningConfiguration(scope Construct, id *string, config DataAwsccEcrSigningConfigurationConfig) DataAwsccEcrSigningConfiguration
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEcrSigningConfiguration.DataAwsccEcrSigningConfiguration.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecrsigningconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecrsigningconfiguration"
 
 dataawsccecrsigningconfiguration.DataAwsccEcrSigningConfiguration_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEcrSigningConfiguration.DataAwsccEcrSigningConfiguration.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecrsigningconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecrsigningconfiguration"
 
 dataawsccecrsigningconfiguration.DataAwsccEcrSigningConfiguration_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccecrsigningconfiguration.DataAwsccEcrSigningConfiguration_IsTerraformEle
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEcrSigningConfiguration.DataAwsccEcrSigningConfiguration.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecrsigningconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecrsigningconfiguration"
 
 dataawsccecrsigningconfiguration.DataAwsccEcrSigningConfiguration_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccecrsigningconfiguration.DataAwsccEcrSigningConfiguration_IsTerraformDat
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEcrSigningConfiguration.DataAwsccEcrSigningConfiguration.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecrsigningconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecrsigningconfiguration"
 
 dataawsccecrsigningconfiguration.DataAwsccEcrSigningConfiguration_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEcrSigningConfigu
 
 The id of the existing DataAwsccEcrSigningConfiguration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ecr_signing_configuration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ecr_signing_configuration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -609,7 +609,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcrSigningConfiguration.DataAwsccEcrSigningConfigurationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecrsigningconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecrsigningconfiguration"
 
 &dataawsccecrsigningconfiguration.DataAwsccEcrSigningConfigurationConfig {
 	Connection: interface{},
@@ -718,7 +718,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ecr_signing_configuration#id DataAwsccEcrSigningConfiguration#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ecr_signing_configuration#id DataAwsccEcrSigningConfiguration#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -730,7 +730,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcrSigningConfiguration.DataAwsccEcrSigningConfigurationRules.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecrsigningconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecrsigningconfiguration"
 
 &dataawsccecrsigningconfiguration.DataAwsccEcrSigningConfigurationRules {
 
@@ -743,7 +743,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecrsigningcon
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcrSigningConfiguration.DataAwsccEcrSigningConfigurationRulesRepositoryFilters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecrsigningconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecrsigningconfiguration"
 
 &dataawsccecrsigningconfiguration.DataAwsccEcrSigningConfigurationRulesRepositoryFilters {
 
@@ -758,7 +758,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecrsigningcon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcrSigningConfiguration.DataAwsccEcrSigningConfigurationRulesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecrsigningconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecrsigningconfiguration"
 
 dataawsccecrsigningconfiguration.NewDataAwsccEcrSigningConfigurationRulesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEcrSigningConfigurationRulesList
 ```
@@ -907,7 +907,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcrSigningConfiguration.DataAwsccEcrSigningConfigurationRulesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecrsigningconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecrsigningconfiguration"
 
 dataawsccecrsigningconfiguration.NewDataAwsccEcrSigningConfigurationRulesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEcrSigningConfigurationRulesOutputReference
 ```
@@ -1196,7 +1196,7 @@ func InternalValue() DataAwsccEcrSigningConfigurationRules
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcrSigningConfiguration.DataAwsccEcrSigningConfigurationRulesRepositoryFiltersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecrsigningconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecrsigningconfiguration"
 
 dataawsccecrsigningconfiguration.NewDataAwsccEcrSigningConfigurationRulesRepositoryFiltersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEcrSigningConfigurationRulesRepositoryFiltersList
 ```
@@ -1345,7 +1345,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcrSigningConfiguration.DataAwsccEcrSigningConfigurationRulesRepositoryFiltersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecrsigningconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecrsigningconfiguration"
 
 dataawsccecrsigningconfiguration.NewDataAwsccEcrSigningConfigurationRulesRepositoryFiltersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEcrSigningConfigurationRulesRepositoryFiltersOutputReference
 ```

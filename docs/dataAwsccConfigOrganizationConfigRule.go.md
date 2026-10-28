@@ -4,12 +4,12 @@
 
 ### DataAwsccConfigOrganizationConfigRule <a name="DataAwsccConfigOrganizationConfigRule" id="@cdktn/provider-awscc.dataAwsccConfigOrganizationConfigRule.DataAwsccConfigOrganizationConfigRule"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/config_organization_config_rule awscc_config_organization_config_rule}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/config_organization_config_rule awscc_config_organization_config_rule}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConfigOrganizationConfigRule.DataAwsccConfigOrganizationConfigRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigorganizationconfigrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigorganizationconfigrule"
 
 dataawsccconfigorganizationconfigrule.NewDataAwsccConfigOrganizationConfigRule(scope Construct, id *string, config DataAwsccConfigOrganizationConfigRuleConfig) DataAwsccConfigOrganizationConfigRule
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccConfigOrganizationConfigRule.DataAwsccConfigOrganizationConfigRule.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigorganizationconfigrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigorganizationconfigrule"
 
 dataawsccconfigorganizationconfigrule.DataAwsccConfigOrganizationConfigRule_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccConfigOrganizationConfigRule.DataAwsccConfigOrganizationConfigRule.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigorganizationconfigrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigorganizationconfigrule"
 
 dataawsccconfigorganizationconfigrule.DataAwsccConfigOrganizationConfigRule_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccconfigorganizationconfigrule.DataAwsccConfigOrganizationConfigRule_IsTe
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccConfigOrganizationConfigRule.DataAwsccConfigOrganizationConfigRule.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigorganizationconfigrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigorganizationconfigrule"
 
 dataawsccconfigorganizationconfigrule.DataAwsccConfigOrganizationConfigRule_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccconfigorganizationconfigrule.DataAwsccConfigOrganizationConfigRule_IsTe
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccConfigOrganizationConfigRule.DataAwsccConfigOrganizationConfigRule.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigorganizationconfigrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigorganizationconfigrule"
 
 dataawsccconfigorganizationconfigrule.DataAwsccConfigOrganizationConfigRule_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccConfigOrganizatio
 
 The id of the existing DataAwsccConfigOrganizationConfigRule that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/config_organization_config_rule#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/config_organization_config_rule#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -653,7 +653,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConfigOrganizationConfigRule.DataAwsccConfigOrganizationConfigRuleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigorganizationconfigrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigorganizationconfigrule"
 
 &dataawsccconfigorganizationconfigrule.DataAwsccConfigOrganizationConfigRuleConfig {
 	Connection: interface{},
@@ -762,7 +762,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/config_organization_config_rule#id DataAwsccConfigOrganizationConfigRule#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/config_organization_config_rule#id DataAwsccConfigOrganizationConfigRule#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -774,7 +774,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConfigOrganizationConfigRule.DataAwsccConfigOrganizationConfigRuleOrganizationCustomPolicyRuleMetadata.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigorganizationconfigrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigorganizationconfigrule"
 
 &dataawsccconfigorganizationconfigrule.DataAwsccConfigOrganizationConfigRuleOrganizationCustomPolicyRuleMetadata {
 
@@ -787,7 +787,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigorganiz
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConfigOrganizationConfigRule.DataAwsccConfigOrganizationConfigRuleOrganizationCustomRuleMetadata.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigorganizationconfigrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigorganizationconfigrule"
 
 &dataawsccconfigorganizationconfigrule.DataAwsccConfigOrganizationConfigRuleOrganizationCustomRuleMetadata {
 
@@ -800,7 +800,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigorganiz
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConfigOrganizationConfigRule.DataAwsccConfigOrganizationConfigRuleOrganizationManagedRuleMetadata.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigorganizationconfigrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigorganizationconfigrule"
 
 &dataawsccconfigorganizationconfigrule.DataAwsccConfigOrganizationConfigRuleOrganizationManagedRuleMetadata {
 
@@ -815,7 +815,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigorganiz
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConfigOrganizationConfigRule.DataAwsccConfigOrganizationConfigRuleOrganizationCustomPolicyRuleMetadataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigorganizationconfigrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigorganizationconfigrule"
 
 dataawsccconfigorganizationconfigrule.NewDataAwsccConfigOrganizationConfigRuleOrganizationCustomPolicyRuleMetadataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConfigOrganizationConfigRuleOrganizationCustomPolicyRuleMetadataOutputReference
 ```
@@ -1174,7 +1174,7 @@ func InternalValue() DataAwsccConfigOrganizationConfigRuleOrganizationCustomPoli
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConfigOrganizationConfigRule.DataAwsccConfigOrganizationConfigRuleOrganizationCustomRuleMetadataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigorganizationconfigrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigorganizationconfigrule"
 
 dataawsccconfigorganizationconfigrule.NewDataAwsccConfigOrganizationConfigRuleOrganizationCustomRuleMetadataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConfigOrganizationConfigRuleOrganizationCustomRuleMetadataOutputReference
 ```
@@ -1522,7 +1522,7 @@ func InternalValue() DataAwsccConfigOrganizationConfigRuleOrganizationCustomRule
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConfigOrganizationConfigRule.DataAwsccConfigOrganizationConfigRuleOrganizationManagedRuleMetadataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigorganizationconfigrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigorganizationconfigrule"
 
 dataawsccconfigorganizationconfigrule.NewDataAwsccConfigOrganizationConfigRuleOrganizationManagedRuleMetadataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConfigOrganizationConfigRuleOrganizationManagedRuleMetadataOutputReference
 ```

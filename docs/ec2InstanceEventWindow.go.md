@@ -4,12 +4,12 @@
 
 ### Ec2InstanceEventWindow <a name="Ec2InstanceEventWindow" id="@cdktn/provider-awscc.ec2InstanceEventWindow.Ec2InstanceEventWindow"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_instance_event_window awscc_ec2_instance_event_window}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_instance_event_window awscc_ec2_instance_event_window}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2InstanceEventWindow.Ec2InstanceEventWindow.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2instanceeventwindow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2instanceeventwindow"
 
 ec2instanceeventwindow.NewEc2InstanceEventWindow(scope Construct, id *string, config Ec2InstanceEventWindowConfig) Ec2InstanceEventWindow
 ```
@@ -454,7 +454,7 @@ func ResetTimeRanges()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.ec2InstanceEventWindow.Ec2InstanceEventWindow.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2instanceeventwindow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2instanceeventwindow"
 
 ec2instanceeventwindow.Ec2InstanceEventWindow_IsConstruct(x interface{}) *bool
 ```
@@ -486,7 +486,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.ec2InstanceEventWindow.Ec2InstanceEventWindow.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2instanceeventwindow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2instanceeventwindow"
 
 ec2instanceeventwindow.Ec2InstanceEventWindow_IsTerraformElement(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ ec2instanceeventwindow.Ec2InstanceEventWindow_IsTerraformElement(x interface{}) 
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.ec2InstanceEventWindow.Ec2InstanceEventWindow.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2instanceeventwindow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2instanceeventwindow"
 
 ec2instanceeventwindow.Ec2InstanceEventWindow_IsTerraformResource(x interface{}) *bool
 ```
@@ -514,7 +514,7 @@ ec2instanceeventwindow.Ec2InstanceEventWindow_IsTerraformResource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.ec2InstanceEventWindow.Ec2InstanceEventWindow.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2instanceeventwindow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2instanceeventwindow"
 
 ec2instanceeventwindow.Ec2InstanceEventWindow_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -543,7 +543,7 @@ The construct id used in the generated config for the Ec2InstanceEventWindow to 
 
 The id of the existing Ec2InstanceEventWindow that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_instance_event_window#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_instance_event_window#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -875,7 +875,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2InstanceEventWindow.Ec2InstanceEventWindowConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2instanceeventwindow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2instanceeventwindow"
 
 &ec2instanceeventwindow.Ec2InstanceEventWindowConfig {
 	Connection: interface{},
@@ -990,7 +990,7 @@ CronExpression *string
 
 The cron expression defined for the event window. Exactly one of TimeRanges or CronExpression must be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_instance_event_window#cron_expression Ec2InstanceEventWindow#cron_expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_instance_event_window#cron_expression Ec2InstanceEventWindow#cron_expression}
 
 ---
 
@@ -1004,7 +1004,7 @@ Name *string
 
 The name of the event window.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_instance_event_window#name Ec2InstanceEventWindow#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_instance_event_window#name Ec2InstanceEventWindow#name}
 
 ---
 
@@ -1018,7 +1018,7 @@ Tags interface{}
 
 The tags applied to the event window.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_instance_event_window#tags Ec2InstanceEventWindow#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_instance_event_window#tags Ec2InstanceEventWindow#tags}
 
 ---
 
@@ -1032,7 +1032,7 @@ TimeRanges interface{}
 
 The time ranges of the event window. Exactly one of TimeRanges or CronExpression must be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_instance_event_window#time_ranges Ec2InstanceEventWindow#time_ranges}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_instance_event_window#time_ranges Ec2InstanceEventWindow#time_ranges}
 
 ---
 
@@ -1041,7 +1041,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2InstanceEventWindow.Ec2InstanceEventWindowTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2instanceeventwindow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2instanceeventwindow"
 
 &ec2instanceeventwindow.Ec2InstanceEventWindowTags {
 	Key: *string,
@@ -1068,7 +1068,7 @@ Key *string
 
 The key of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_instance_event_window#key Ec2InstanceEventWindow#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_instance_event_window#key Ec2InstanceEventWindow#key}
 
 ---
 
@@ -1082,7 +1082,7 @@ Value *string
 
 The value of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_instance_event_window#value Ec2InstanceEventWindow#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_instance_event_window#value Ec2InstanceEventWindow#value}
 
 ---
 
@@ -1091,7 +1091,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2InstanceEventWindow.Ec2InstanceEventWindowTimeRanges.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2instanceeventwindow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2instanceeventwindow"
 
 &ec2instanceeventwindow.Ec2InstanceEventWindowTimeRanges {
 	EndHour: *f64,
@@ -1122,7 +1122,7 @@ EndHour *f64
 
 The hour when the time range ends.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_instance_event_window#end_hour Ec2InstanceEventWindow#end_hour}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_instance_event_window#end_hour Ec2InstanceEventWindow#end_hour}
 
 ---
 
@@ -1136,7 +1136,7 @@ EndWeekDay *string
 
 The day on which the time range ends.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_instance_event_window#end_week_day Ec2InstanceEventWindow#end_week_day}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_instance_event_window#end_week_day Ec2InstanceEventWindow#end_week_day}
 
 ---
 
@@ -1150,7 +1150,7 @@ StartHour *f64
 
 The hour when the time range begins.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_instance_event_window#start_hour Ec2InstanceEventWindow#start_hour}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_instance_event_window#start_hour Ec2InstanceEventWindow#start_hour}
 
 ---
 
@@ -1164,7 +1164,7 @@ StartWeekDay *string
 
 The day on which the time range begins.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_instance_event_window#start_week_day Ec2InstanceEventWindow#start_week_day}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_instance_event_window#start_week_day Ec2InstanceEventWindow#start_week_day}
 
 ---
 
@@ -1175,7 +1175,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2InstanceEventWindow.Ec2InstanceEventWindowTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2instanceeventwindow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2instanceeventwindow"
 
 ec2instanceeventwindow.NewEc2InstanceEventWindowTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Ec2InstanceEventWindowTagsList
 ```
@@ -1335,7 +1335,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2InstanceEventWindow.Ec2InstanceEventWindowTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2instanceeventwindow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2instanceeventwindow"
 
 ec2instanceeventwindow.NewEc2InstanceEventWindowTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) Ec2InstanceEventWindowTagsOutputReference
 ```
@@ -1660,7 +1660,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2InstanceEventWindow.Ec2InstanceEventWindowTimeRangesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2instanceeventwindow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2instanceeventwindow"
 
 ec2instanceeventwindow.NewEc2InstanceEventWindowTimeRangesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Ec2InstanceEventWindowTimeRangesList
 ```
@@ -1820,7 +1820,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2InstanceEventWindow.Ec2InstanceEventWindowTimeRangesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2instanceeventwindow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2instanceeventwindow"
 
 ec2instanceeventwindow.NewEc2InstanceEventWindowTimeRangesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) Ec2InstanceEventWindowTimeRangesOutputReference
 ```

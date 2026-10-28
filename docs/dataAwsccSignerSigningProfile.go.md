@@ -4,12 +4,12 @@
 
 ### DataAwsccSignerSigningProfile <a name="DataAwsccSignerSigningProfile" id="@cdktn/provider-awscc.dataAwsccSignerSigningProfile.DataAwsccSignerSigningProfile"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/signer_signing_profile awscc_signer_signing_profile}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/signer_signing_profile awscc_signer_signing_profile}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSignerSigningProfile.DataAwsccSignerSigningProfile.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsignersigningprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsignersigningprofile"
 
 dataawsccsignersigningprofile.NewDataAwsccSignerSigningProfile(scope Construct, id *string, config DataAwsccSignerSigningProfileConfig) DataAwsccSignerSigningProfile
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSignerSigningProfile.DataAwsccSignerSigningProfile.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsignersigningprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsignersigningprofile"
 
 dataawsccsignersigningprofile.DataAwsccSignerSigningProfile_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSignerSigningProfile.DataAwsccSignerSigningProfile.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsignersigningprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsignersigningprofile"
 
 dataawsccsignersigningprofile.DataAwsccSignerSigningProfile_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsignersigningprofile.DataAwsccSignerSigningProfile_IsTerraformElement(x
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSignerSigningProfile.DataAwsccSignerSigningProfile.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsignersigningprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsignersigningprofile"
 
 dataawsccsignersigningprofile.DataAwsccSignerSigningProfile_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsignersigningprofile.DataAwsccSignerSigningProfile_IsTerraformDataSourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSignerSigningProfile.DataAwsccSignerSigningProfile.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsignersigningprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsignersigningprofile"
 
 dataawsccsignersigningprofile.DataAwsccSignerSigningProfile_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSignerSigningProf
 
 The id of the existing DataAwsccSignerSigningProfile that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/signer_signing_profile#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/signer_signing_profile#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -664,7 +664,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSignerSigningProfile.DataAwsccSignerSigningProfileConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsignersigningprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsignersigningprofile"
 
 &dataawsccsignersigningprofile.DataAwsccSignerSigningProfileConfig {
 	Connection: interface{},
@@ -773,7 +773,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/signer_signing_profile#id DataAwsccSignerSigningProfile#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/signer_signing_profile#id DataAwsccSignerSigningProfile#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -785,7 +785,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSignerSigningProfile.DataAwsccSignerSigningProfileSignatureValidityPeriod.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsignersigningprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsignersigningprofile"
 
 &dataawsccsignersigningprofile.DataAwsccSignerSigningProfileSignatureValidityPeriod {
 
@@ -798,7 +798,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsignersigning
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSignerSigningProfile.DataAwsccSignerSigningProfileTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsignersigningprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsignersigningprofile"
 
 &dataawsccsignersigningprofile.DataAwsccSignerSigningProfileTags {
 
@@ -813,7 +813,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsignersigning
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSignerSigningProfile.DataAwsccSignerSigningProfileSignatureValidityPeriodOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsignersigningprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsignersigningprofile"
 
 dataawsccsignersigningprofile.NewDataAwsccSignerSigningProfileSignatureValidityPeriodOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSignerSigningProfileSignatureValidityPeriodOutputReference
 ```
@@ -1084,7 +1084,7 @@ func InternalValue() DataAwsccSignerSigningProfileSignatureValidityPeriod
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSignerSigningProfile.DataAwsccSignerSigningProfileTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsignersigningprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsignersigningprofile"
 
 dataawsccsignersigningprofile.NewDataAwsccSignerSigningProfileTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSignerSigningProfileTagsList
 ```
@@ -1233,7 +1233,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSignerSigningProfile.DataAwsccSignerSigningProfileTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsignersigningprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsignersigningprofile"
 
 dataawsccsignersigningprofile.NewDataAwsccSignerSigningProfileTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSignerSigningProfileTagsOutputReference
 ```

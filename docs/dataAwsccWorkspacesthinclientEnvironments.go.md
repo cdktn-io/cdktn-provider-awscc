@@ -4,12 +4,12 @@
 
 ### DataAwsccWorkspacesthinclientEnvironments <a name="DataAwsccWorkspacesthinclientEnvironments" id="@cdktn/provider-awscc.dataAwsccWorkspacesthinclientEnvironments.DataAwsccWorkspacesthinclientEnvironments"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspacesthinclient_environments awscc_workspacesthinclient_environments}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspacesthinclient_environments awscc_workspacesthinclient_environments}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspacesthinclientEnvironments.DataAwsccWorkspacesthinclientEnvironments.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesthinclientenvironments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesthinclientenvironments"
 
 dataawsccworkspacesthinclientenvironments.NewDataAwsccWorkspacesthinclientEnvironments(scope Construct, id *string, config DataAwsccWorkspacesthinclientEnvironmentsConfig) DataAwsccWorkspacesthinclientEnvironments
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccWorkspacesthinclientEnvironments.DataAwsccWorkspacesthinclientEnvironments.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesthinclientenvironments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesthinclientenvironments"
 
 dataawsccworkspacesthinclientenvironments.DataAwsccWorkspacesthinclientEnvironments_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccWorkspacesthinclientEnvironments.DataAwsccWorkspacesthinclientEnvironments.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesthinclientenvironments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesthinclientenvironments"
 
 dataawsccworkspacesthinclientenvironments.DataAwsccWorkspacesthinclientEnvironments_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccworkspacesthinclientenvironments.DataAwsccWorkspacesthinclientEnvironme
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccWorkspacesthinclientEnvironments.DataAwsccWorkspacesthinclientEnvironments.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesthinclientenvironments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesthinclientenvironments"
 
 dataawsccworkspacesthinclientenvironments.DataAwsccWorkspacesthinclientEnvironments_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccworkspacesthinclientenvironments.DataAwsccWorkspacesthinclientEnvironme
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccWorkspacesthinclientEnvironments.DataAwsccWorkspacesthinclientEnvironments.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesthinclientenvironments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesthinclientenvironments"
 
 dataawsccworkspacesthinclientenvironments.DataAwsccWorkspacesthinclientEnvironments_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccWorkspacesthincli
 
 The id of the existing DataAwsccWorkspacesthinclientEnvironments that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspacesthinclient_environments#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspacesthinclient_environments#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspacesthinclientEnvironments.DataAwsccWorkspacesthinclientEnvironmentsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesthinclientenvironments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesthinclientenvironments"
 
 &dataawsccworkspacesthinclientenvironments.DataAwsccWorkspacesthinclientEnvironmentsConfig {
 	Connection: interface{},

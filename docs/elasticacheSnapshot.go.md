@@ -4,12 +4,12 @@
 
 ### ElasticacheSnapshot <a name="ElasticacheSnapshot" id="@cdktn/provider-awscc.elasticacheSnapshot.ElasticacheSnapshot"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticache_snapshot awscc_elasticache_snapshot}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticache_snapshot awscc_elasticache_snapshot}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.elasticacheSnapshot.ElasticacheSnapshot.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticachesnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticachesnapshot"
 
 elasticachesnapshot.NewElasticacheSnapshot(scope Construct, id *string, config ElasticacheSnapshotConfig) ElasticacheSnapshot
 ```
@@ -441,7 +441,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.elasticacheSnapshot.ElasticacheSnapshot.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticachesnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticachesnapshot"
 
 elasticachesnapshot.ElasticacheSnapshot_IsConstruct(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.elasticacheSnapshot.ElasticacheSnapshot.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticachesnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticachesnapshot"
 
 elasticachesnapshot.ElasticacheSnapshot_IsTerraformElement(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ elasticachesnapshot.ElasticacheSnapshot_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.elasticacheSnapshot.ElasticacheSnapshot.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticachesnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticachesnapshot"
 
 elasticachesnapshot.ElasticacheSnapshot_IsTerraformResource(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ elasticachesnapshot.ElasticacheSnapshot_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.elasticacheSnapshot.ElasticacheSnapshot.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticachesnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticachesnapshot"
 
 elasticachesnapshot.ElasticacheSnapshot_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -530,7 +530,7 @@ The construct id used in the generated config for the ElasticacheSnapshot to imp
 
 The id of the existing ElasticacheSnapshot that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticache_snapshot#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticache_snapshot#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1104,7 +1104,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.elasticacheSnapshot.ElasticacheSnapshotConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticachesnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticachesnapshot"
 
 &elasticachesnapshot.ElasticacheSnapshotConfig {
 	Connection: interface{},
@@ -1221,7 +1221,7 @@ SnapshotName *string
 
 The name of a snapshot. Must be unique within the customer account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticache_snapshot#snapshot_name ElasticacheSnapshot#snapshot_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticache_snapshot#snapshot_name ElasticacheSnapshot#snapshot_name}
 
 ---
 
@@ -1235,7 +1235,7 @@ CacheClusterId *string
 
 The identifier of an existing cluster to create a snapshot from. The snapshot is created from this cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticache_snapshot#cache_cluster_id ElasticacheSnapshot#cache_cluster_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticache_snapshot#cache_cluster_id ElasticacheSnapshot#cache_cluster_id}
 
 ---
 
@@ -1249,7 +1249,7 @@ KmsKeyId *string
 
 The ID of the KMS key used to encrypt the snapshot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticache_snapshot#kms_key_id ElasticacheSnapshot#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticache_snapshot#kms_key_id ElasticacheSnapshot#kms_key_id}
 
 ---
 
@@ -1265,7 +1265,7 @@ The identifier of an existing replication group to create a snapshot from.
 
 The snapshot is created from this replication group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticache_snapshot#replication_group_id ElasticacheSnapshot#replication_group_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticache_snapshot#replication_group_id ElasticacheSnapshot#replication_group_id}
 
 ---
 
@@ -1279,7 +1279,7 @@ Tags interface{}
 
 A list of tags to be added to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticache_snapshot#tags ElasticacheSnapshot#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticache_snapshot#tags ElasticacheSnapshot#tags}
 
 ---
 
@@ -1288,7 +1288,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.elasticacheSnapshot.ElasticacheSnapshotNodeSnapshots.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticachesnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticachesnapshot"
 
 &elasticachesnapshot.ElasticacheSnapshotNodeSnapshots {
 
@@ -1301,7 +1301,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticachesnapshot"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.elasticacheSnapshot.ElasticacheSnapshotTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticachesnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticachesnapshot"
 
 &elasticachesnapshot.ElasticacheSnapshotTags {
 	Key: *string,
@@ -1328,7 +1328,7 @@ Key *string
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticache_snapshot#key ElasticacheSnapshot#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticache_snapshot#key ElasticacheSnapshot#key}
 
 ---
 
@@ -1342,7 +1342,7 @@ Value *string
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticache_snapshot#value ElasticacheSnapshot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticache_snapshot#value ElasticacheSnapshot#value}
 
 ---
 
@@ -1353,7 +1353,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.elasticacheSnapshot.ElasticacheSnapshotNodeSnapshotsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticachesnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticachesnapshot"
 
 elasticachesnapshot.NewElasticacheSnapshotNodeSnapshotsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ElasticacheSnapshotNodeSnapshotsList
 ```
@@ -1502,7 +1502,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.elasticacheSnapshot.ElasticacheSnapshotNodeSnapshotsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticachesnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticachesnapshot"
 
 elasticachesnapshot.NewElasticacheSnapshotNodeSnapshotsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ElasticacheSnapshotNodeSnapshotsOutputReference
 ```
@@ -1835,7 +1835,7 @@ func InternalValue() ElasticacheSnapshotNodeSnapshots
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.elasticacheSnapshot.ElasticacheSnapshotTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticachesnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticachesnapshot"
 
 elasticachesnapshot.NewElasticacheSnapshotTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ElasticacheSnapshotTagsList
 ```
@@ -1995,7 +1995,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.elasticacheSnapshot.ElasticacheSnapshotTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticachesnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticachesnapshot"
 
 elasticachesnapshot.NewElasticacheSnapshotTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ElasticacheSnapshotTagsOutputReference
 ```

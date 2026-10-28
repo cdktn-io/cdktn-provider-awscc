@@ -4,12 +4,12 @@
 
 ### ApigatewayClientCertificate <a name="ApigatewayClientCertificate" id="@cdktn/provider-awscc.apigatewayClientCertificate.ApigatewayClientCertificate"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigateway_client_certificate awscc_apigateway_client_certificate}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigateway_client_certificate awscc_apigateway_client_certificate}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apigatewayClientCertificate.ApigatewayClientCertificate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayclientcertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayclientcertificate"
 
 apigatewayclientcertificate.NewApigatewayClientCertificate(scope Construct, id *string, config ApigatewayClientCertificateConfig) ApigatewayClientCertificate
 ```
@@ -427,7 +427,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.apigatewayClientCertificate.ApigatewayClientCertificate.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayclientcertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayclientcertificate"
 
 apigatewayclientcertificate.ApigatewayClientCertificate_IsConstruct(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.apigatewayClientCertificate.ApigatewayClientCertificate.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayclientcertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayclientcertificate"
 
 apigatewayclientcertificate.ApigatewayClientCertificate_IsTerraformElement(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ apigatewayclientcertificate.ApigatewayClientCertificate_IsTerraformElement(x int
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.apigatewayClientCertificate.ApigatewayClientCertificate.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayclientcertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayclientcertificate"
 
 apigatewayclientcertificate.ApigatewayClientCertificate_IsTerraformResource(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ apigatewayclientcertificate.ApigatewayClientCertificate_IsTerraformResource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.apigatewayClientCertificate.ApigatewayClientCertificate.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayclientcertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayclientcertificate"
 
 apigatewayclientcertificate.ApigatewayClientCertificate_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -516,7 +516,7 @@ The construct id used in the generated config for the ApigatewayClientCertificat
 
 The id of the existing ApigatewayClientCertificate that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigateway_client_certificate#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigateway_client_certificate#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -782,7 +782,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.apigatewayClientCertificate.ApigatewayClientCertificateConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayclientcertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayclientcertificate"
 
 &apigatewayclientcertificate.ApigatewayClientCertificateConfig {
 	Connection: interface{},
@@ -808,8 +808,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayclientcertif
 | <code><a href="#@cdktn/provider-awscc.apigatewayClientCertificate.ApigatewayClientCertificateConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.apigatewayClientCertificate.ApigatewayClientCertificateConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.apigatewayClientCertificate.ApigatewayClientCertificateConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.apigatewayClientCertificate.ApigatewayClientCertificateConfig.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigateway_client_certificate#description ApigatewayClientCertificate#description}. |
-| <code><a href="#@cdktn/provider-awscc.apigatewayClientCertificate.ApigatewayClientCertificateConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigateway_client_certificate#tags ApigatewayClientCertificate#tags}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayClientCertificate.ApigatewayClientCertificateConfig.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigateway_client_certificate#description ApigatewayClientCertificate#description}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayClientCertificate.ApigatewayClientCertificateConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigateway_client_certificate#tags ApigatewayClientCertificate#tags}. |
 
 ---
 
@@ -891,7 +891,7 @@ Description *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigateway_client_certificate#description ApigatewayClientCertificate#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigateway_client_certificate#description ApigatewayClientCertificate#description}.
 
 ---
 
@@ -903,7 +903,7 @@ Tags interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigateway_client_certificate#tags ApigatewayClientCertificate#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigateway_client_certificate#tags ApigatewayClientCertificate#tags}.
 
 ---
 
@@ -912,7 +912,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.apigatewayClientCertificate.ApigatewayClientCertificateTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayclientcertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayclientcertificate"
 
 &apigatewayclientcertificate.ApigatewayClientCertificateTags {
 	Key: *string,
@@ -941,7 +941,7 @@ A string you can use to assign a value.
 
 The combination of tag keys and values can help you organize and categorize your resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigateway_client_certificate#key ApigatewayClientCertificate#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigateway_client_certificate#key ApigatewayClientCertificate#key}
 
 ---
 
@@ -955,7 +955,7 @@ Value *string
 
 The value for the specified tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigateway_client_certificate#value ApigatewayClientCertificate#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigateway_client_certificate#value ApigatewayClientCertificate#value}
 
 ---
 
@@ -966,7 +966,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apigatewayClientCertificate.ApigatewayClientCertificateTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayclientcertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayclientcertificate"
 
 apigatewayclientcertificate.NewApigatewayClientCertificateTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApigatewayClientCertificateTagsList
 ```
@@ -1126,7 +1126,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apigatewayClientCertificate.ApigatewayClientCertificateTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayclientcertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayclientcertificate"
 
 apigatewayclientcertificate.NewApigatewayClientCertificateTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ApigatewayClientCertificateTagsOutputReference
 ```

@@ -4,7 +4,7 @@
 
 ### DataAwsccTranslateTerminologies <a name="DataAwsccTranslateTerminologies" id="@cdktn/provider-awscc.dataAwsccTranslateTerminologies.DataAwsccTranslateTerminologies"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/translate_terminologies awscc_translate_terminologies}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/translate_terminologies awscc_translate_terminologies}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTranslateTerminologies.DataAwsccTranslateTerminologies.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccTranslateTerminol
 
 The id of the existing DataAwsccTranslateTerminologies that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/translate_terminologies#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/translate_terminologies#import import section} in the documentation of this resource for the id to use
 
 ---
 

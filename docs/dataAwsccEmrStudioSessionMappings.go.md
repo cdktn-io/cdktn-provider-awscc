@@ -4,12 +4,12 @@
 
 ### DataAwsccEmrStudioSessionMappings <a name="DataAwsccEmrStudioSessionMappings" id="@cdktn/provider-awscc.dataAwsccEmrStudioSessionMappings.DataAwsccEmrStudioSessionMappings"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/emr_studio_session_mappings awscc_emr_studio_session_mappings}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/emr_studio_session_mappings awscc_emr_studio_session_mappings}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEmrStudioSessionMappings.DataAwsccEmrStudioSessionMappings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrstudiosessionmappings"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrstudiosessionmappings"
 
 dataawsccemrstudiosessionmappings.NewDataAwsccEmrStudioSessionMappings(scope Construct, id *string, config DataAwsccEmrStudioSessionMappingsConfig) DataAwsccEmrStudioSessionMappings
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEmrStudioSessionMappings.DataAwsccEmrStudioSessionMappings.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrstudiosessionmappings"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrstudiosessionmappings"
 
 dataawsccemrstudiosessionmappings.DataAwsccEmrStudioSessionMappings_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEmrStudioSessionMappings.DataAwsccEmrStudioSessionMappings.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrstudiosessionmappings"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrstudiosessionmappings"
 
 dataawsccemrstudiosessionmappings.DataAwsccEmrStudioSessionMappings_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccemrstudiosessionmappings.DataAwsccEmrStudioSessionMappings_IsTerraformE
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEmrStudioSessionMappings.DataAwsccEmrStudioSessionMappings.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrstudiosessionmappings"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrstudiosessionmappings"
 
 dataawsccemrstudiosessionmappings.DataAwsccEmrStudioSessionMappings_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccemrstudiosessionmappings.DataAwsccEmrStudioSessionMappings_IsTerraformD
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEmrStudioSessionMappings.DataAwsccEmrStudioSessionMappings.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrstudiosessionmappings"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrstudiosessionmappings"
 
 dataawsccemrstudiosessionmappings.DataAwsccEmrStudioSessionMappings_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEmrStudioSessionM
 
 The id of the existing DataAwsccEmrStudioSessionMappings that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/emr_studio_session_mappings#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/emr_studio_session_mappings#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEmrStudioSessionMappings.DataAwsccEmrStudioSessionMappingsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrstudiosessionmappings"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrstudiosessionmappings"
 
 &dataawsccemrstudiosessionmappings.DataAwsccEmrStudioSessionMappingsConfig {
 	Connection: interface{},

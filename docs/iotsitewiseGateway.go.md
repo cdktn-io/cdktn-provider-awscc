@@ -4,12 +4,12 @@
 
 ### IotsitewiseGateway <a name="IotsitewiseGateway" id="@cdktn/provider-awscc.iotsitewiseGateway.IotsitewiseGateway"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_gateway awscc_iotsitewise_gateway}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_gateway awscc_iotsitewise_gateway}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseGateway.IotsitewiseGateway.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisegateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisegateway"
 
 iotsitewisegateway.NewIotsitewiseGateway(scope Construct, id *string, config IotsitewiseGatewayConfig) IotsitewiseGateway
 ```
@@ -460,7 +460,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.iotsitewiseGateway.IotsitewiseGateway.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisegateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisegateway"
 
 iotsitewisegateway.IotsitewiseGateway_IsConstruct(x interface{}) *bool
 ```
@@ -492,7 +492,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.iotsitewiseGateway.IotsitewiseGateway.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisegateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisegateway"
 
 iotsitewisegateway.IotsitewiseGateway_IsTerraformElement(x interface{}) *bool
 ```
@@ -506,7 +506,7 @@ iotsitewisegateway.IotsitewiseGateway_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.iotsitewiseGateway.IotsitewiseGateway.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisegateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisegateway"
 
 iotsitewisegateway.IotsitewiseGateway_IsTerraformResource(x interface{}) *bool
 ```
@@ -520,7 +520,7 @@ iotsitewisegateway.IotsitewiseGateway_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.iotsitewiseGateway.IotsitewiseGateway.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisegateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisegateway"
 
 iotsitewisegateway.IotsitewiseGateway_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -549,7 +549,7 @@ The construct id used in the generated config for the IotsitewiseGateway to impo
 
 The id of the existing IotsitewiseGateway that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_gateway#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_gateway#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -881,7 +881,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsitewiseGateway.IotsitewiseGatewayConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisegateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisegateway"
 
 &iotsitewisegateway.IotsitewiseGatewayConfig {
 	Connection: interface{},
@@ -892,7 +892,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisegateway"
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	GatewayName: *string,
-	GatewayPlatform: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotsitewiseGateway.IotsitewiseGatewayGatewayPlatform,
+	GatewayPlatform: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotsitewiseGateway.IotsitewiseGatewayGatewayPlatform,
 	GatewayCapabilitySummaries: interface{},
 	GatewayVersion: *string,
 	Tags: interface{},
@@ -998,7 +998,7 @@ GatewayName *string
 
 A unique, friendly name for the gateway.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_gateway#gateway_name IotsitewiseGateway#gateway_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_gateway#gateway_name IotsitewiseGateway#gateway_name}
 
 ---
 
@@ -1012,7 +1012,7 @@ GatewayPlatform IotsitewiseGatewayGatewayPlatform
 
 The gateway's platform. You can only specify one platform in a gateway.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_gateway#gateway_platform IotsitewiseGateway#gateway_platform}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_gateway#gateway_platform IotsitewiseGateway#gateway_platform}
 
 ---
 
@@ -1026,7 +1026,7 @@ GatewayCapabilitySummaries interface{}
 
 A list of gateway capability summaries that each contain a namespace and status.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_gateway#gateway_capability_summaries IotsitewiseGateway#gateway_capability_summaries}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_gateway#gateway_capability_summaries IotsitewiseGateway#gateway_capability_summaries}
 
 ---
 
@@ -1040,7 +1040,7 @@ GatewayVersion *string
 
 The version of the gateway you want to create.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_gateway#gateway_version IotsitewiseGateway#gateway_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_gateway#gateway_version IotsitewiseGateway#gateway_version}
 
 ---
 
@@ -1054,7 +1054,7 @@ Tags interface{}
 
 A list of key-value pairs that contain metadata for the gateway.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_gateway#tags IotsitewiseGateway#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_gateway#tags IotsitewiseGateway#tags}
 
 ---
 
@@ -1063,7 +1063,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsitewiseGateway.IotsitewiseGatewayGatewayCapabilitySummaries.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisegateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisegateway"
 
 &iotsitewisegateway.IotsitewiseGatewayGatewayCapabilitySummaries {
 	CapabilityConfiguration: *string,
@@ -1090,7 +1090,7 @@ CapabilityConfiguration *string
 
 The JSON document that defines the gateway capability's configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_gateway#capability_configuration IotsitewiseGateway#capability_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_gateway#capability_configuration IotsitewiseGateway#capability_configuration}
 
 ---
 
@@ -1104,7 +1104,7 @@ CapabilityNamespace *string
 
 The namespace of the capability configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_gateway#capability_namespace IotsitewiseGateway#capability_namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_gateway#capability_namespace IotsitewiseGateway#capability_namespace}
 
 ---
 
@@ -1113,11 +1113,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsitewiseGateway.IotsitewiseGatewayGatewayPlatform.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisegateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisegateway"
 
 &iotsitewisegateway.IotsitewiseGatewayGatewayPlatform {
-	GreengrassV2: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotsitewiseGateway.IotsitewiseGatewayGatewayPlatformGreengrassV2,
-	SiemensIe: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotsitewiseGateway.IotsitewiseGatewayGatewayPlatformSiemensIe,
+	GreengrassV2: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotsitewiseGateway.IotsitewiseGatewayGatewayPlatformGreengrassV2,
+	SiemensIe: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotsitewiseGateway.IotsitewiseGatewayGatewayPlatformSiemensIe,
 }
 ```
 
@@ -1140,7 +1140,7 @@ GreengrassV2 IotsitewiseGatewayGatewayPlatformGreengrassV2
 
 A gateway that runs on AWS IoT Greengrass V2.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_gateway#greengrass_v2 IotsitewiseGateway#greengrass_v2}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_gateway#greengrass_v2 IotsitewiseGateway#greengrass_v2}
 
 ---
 
@@ -1154,7 +1154,7 @@ SiemensIe IotsitewiseGatewayGatewayPlatformSiemensIe
 
 A gateway that runs on Siemens Industrial Edge.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_gateway#siemens_ie IotsitewiseGateway#siemens_ie}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_gateway#siemens_ie IotsitewiseGateway#siemens_ie}
 
 ---
 
@@ -1163,7 +1163,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsitewiseGateway.IotsitewiseGatewayGatewayPlatformGreengrassV2.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisegateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisegateway"
 
 &iotsitewisegateway.IotsitewiseGatewayGatewayPlatformGreengrassV2 {
 	CoreDeviceOperatingSystem: *string,
@@ -1190,7 +1190,7 @@ CoreDeviceOperatingSystem *string
 
 The operating system of the core device in AWS IoT Greengrass V2.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_gateway#core_device_operating_system IotsitewiseGateway#core_device_operating_system}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_gateway#core_device_operating_system IotsitewiseGateway#core_device_operating_system}
 
 ---
 
@@ -1204,7 +1204,7 @@ CoreDeviceThingName *string
 
 The name of the CoreDevice in GreenGrass V2.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_gateway#core_device_thing_name IotsitewiseGateway#core_device_thing_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_gateway#core_device_thing_name IotsitewiseGateway#core_device_thing_name}
 
 ---
 
@@ -1213,7 +1213,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsitewiseGateway.IotsitewiseGatewayGatewayPlatformSiemensIe.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisegateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisegateway"
 
 &iotsitewisegateway.IotsitewiseGatewayGatewayPlatformSiemensIe {
 	IotCoreThingName: *string,
@@ -1238,7 +1238,7 @@ IotCoreThingName *string
 
 The name of the IoT Core Thing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_gateway#iot_core_thing_name IotsitewiseGateway#iot_core_thing_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_gateway#iot_core_thing_name IotsitewiseGateway#iot_core_thing_name}
 
 ---
 
@@ -1247,7 +1247,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsitewiseGateway.IotsitewiseGatewayTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisegateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisegateway"
 
 &iotsitewisegateway.IotsitewiseGatewayTags {
 	Key: *string,
@@ -1259,8 +1259,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisegateway"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotsitewiseGateway.IotsitewiseGatewayTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_gateway#key IotsitewiseGateway#key}. |
-| <code><a href="#@cdktn/provider-awscc.iotsitewiseGateway.IotsitewiseGatewayTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_gateway#value IotsitewiseGateway#value}. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseGateway.IotsitewiseGatewayTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_gateway#key IotsitewiseGateway#key}. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseGateway.IotsitewiseGatewayTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_gateway#value IotsitewiseGateway#value}. |
 
 ---
 
@@ -1272,7 +1272,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_gateway#key IotsitewiseGateway#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_gateway#key IotsitewiseGateway#key}.
 
 ---
 
@@ -1284,7 +1284,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_gateway#value IotsitewiseGateway#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_gateway#value IotsitewiseGateway#value}.
 
 ---
 
@@ -1295,7 +1295,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseGateway.IotsitewiseGatewayGatewayCapabilitySummariesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisegateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisegateway"
 
 iotsitewisegateway.NewIotsitewiseGatewayGatewayCapabilitySummariesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IotsitewiseGatewayGatewayCapabilitySummariesList
 ```
@@ -1455,7 +1455,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseGateway.IotsitewiseGatewayGatewayCapabilitySummariesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisegateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisegateway"
 
 iotsitewisegateway.NewIotsitewiseGatewayGatewayCapabilitySummariesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IotsitewiseGatewayGatewayCapabilitySummariesOutputReference
 ```
@@ -1780,7 +1780,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseGateway.IotsitewiseGatewayGatewayPlatformGreengrassV2OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisegateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisegateway"
 
 iotsitewisegateway.NewIotsitewiseGatewayGatewayPlatformGreengrassV2OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotsitewiseGatewayGatewayPlatformGreengrassV2OutputReference
 ```
@@ -2087,7 +2087,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseGateway.IotsitewiseGatewayGatewayPlatformOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisegateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisegateway"
 
 iotsitewisegateway.NewIotsitewiseGatewayGatewayPlatformOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotsitewiseGatewayGatewayPlatformOutputReference
 ```
@@ -2420,7 +2420,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseGateway.IotsitewiseGatewayGatewayPlatformSiemensIeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisegateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisegateway"
 
 iotsitewisegateway.NewIotsitewiseGatewayGatewayPlatformSiemensIeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotsitewiseGatewayGatewayPlatformSiemensIeOutputReference
 ```
@@ -2698,7 +2698,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseGateway.IotsitewiseGatewayTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisegateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisegateway"
 
 iotsitewisegateway.NewIotsitewiseGatewayTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IotsitewiseGatewayTagsList
 ```
@@ -2858,7 +2858,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseGateway.IotsitewiseGatewayTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisegateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisegateway"
 
 iotsitewisegateway.NewIotsitewiseGatewayTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IotsitewiseGatewayTagsOutputReference
 ```

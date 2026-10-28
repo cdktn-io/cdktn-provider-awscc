@@ -4,12 +4,12 @@
 
 ### RedshiftEventSubscription <a name="RedshiftEventSubscription" id="@cdktn/provider-awscc.redshiftEventSubscription.RedshiftEventSubscription"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_event_subscription awscc_redshift_event_subscription}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_event_subscription awscc_redshift_event_subscription}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.redshiftEventSubscription.RedshiftEventSubscription.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshifteventsubscription"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshifteventsubscription"
 
 redshifteventsubscription.NewRedshiftEventSubscription(scope Construct, id *string, config RedshiftEventSubscriptionConfig) RedshiftEventSubscription
 ```
@@ -462,7 +462,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.redshiftEventSubscription.RedshiftEventSubscription.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshifteventsubscription"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshifteventsubscription"
 
 redshifteventsubscription.RedshiftEventSubscription_IsConstruct(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.redshiftEventSubscription.RedshiftEventSubscription.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshifteventsubscription"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshifteventsubscription"
 
 redshifteventsubscription.RedshiftEventSubscription_IsTerraformElement(x interface{}) *bool
 ```
@@ -508,7 +508,7 @@ redshifteventsubscription.RedshiftEventSubscription_IsTerraformElement(x interfa
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.redshiftEventSubscription.RedshiftEventSubscription.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshifteventsubscription"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshifteventsubscription"
 
 redshifteventsubscription.RedshiftEventSubscription_IsTerraformResource(x interface{}) *bool
 ```
@@ -522,7 +522,7 @@ redshifteventsubscription.RedshiftEventSubscription_IsTerraformResource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.redshiftEventSubscription.RedshiftEventSubscription.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshifteventsubscription"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshifteventsubscription"
 
 redshifteventsubscription.RedshiftEventSubscription_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -551,7 +551,7 @@ The construct id used in the generated config for the RedshiftEventSubscription 
 
 The id of the existing RedshiftEventSubscription that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_event_subscription#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_event_subscription#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1004,7 +1004,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.redshiftEventSubscription.RedshiftEventSubscriptionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshifteventsubscription"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshifteventsubscription"
 
 &redshifteventsubscription.RedshiftEventSubscriptionConfig {
 	Connection: interface{},
@@ -1127,7 +1127,7 @@ SubscriptionName *string
 
 The name of the Amazon Redshift event notification subscription.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_event_subscription#subscription_name RedshiftEventSubscription#subscription_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_event_subscription#subscription_name RedshiftEventSubscription#subscription_name}
 
 ---
 
@@ -1143,7 +1143,7 @@ A boolean value;
 
 set to true to activate the subscription, and set to false to create the subscription but not activate it.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_event_subscription#enabled RedshiftEventSubscription#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_event_subscription#enabled RedshiftEventSubscription#enabled}
 
 ---
 
@@ -1157,7 +1157,7 @@ EventCategories *[]*string
 
 Specifies the Amazon Redshift event categories to be published by the event notification subscription.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_event_subscription#event_categories RedshiftEventSubscription#event_categories}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_event_subscription#event_categories RedshiftEventSubscription#event_categories}
 
 ---
 
@@ -1171,7 +1171,7 @@ Severity *string
 
 Specifies the Amazon Redshift event severity to be published by the event notification subscription.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_event_subscription#severity RedshiftEventSubscription#severity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_event_subscription#severity RedshiftEventSubscription#severity}
 
 ---
 
@@ -1185,7 +1185,7 @@ SnsTopicArn *string
 
 The Amazon Resource Name (ARN) of the Amazon SNS topic used to transmit the event notifications.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_event_subscription#sns_topic_arn RedshiftEventSubscription#sns_topic_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_event_subscription#sns_topic_arn RedshiftEventSubscription#sns_topic_arn}
 
 ---
 
@@ -1199,7 +1199,7 @@ SourceIds *[]*string
 
 A list of one or more identifiers of Amazon Redshift source objects.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_event_subscription#source_ids RedshiftEventSubscription#source_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_event_subscription#source_ids RedshiftEventSubscription#source_ids}
 
 ---
 
@@ -1213,7 +1213,7 @@ SourceType *string
 
 The type of source that will be generating the events.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_event_subscription#source_type RedshiftEventSubscription#source_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_event_subscription#source_type RedshiftEventSubscription#source_type}
 
 ---
 
@@ -1227,7 +1227,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_event_subscription#tags RedshiftEventSubscription#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_event_subscription#tags RedshiftEventSubscription#tags}
 
 ---
 
@@ -1236,7 +1236,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.redshiftEventSubscription.RedshiftEventSubscriptionTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshifteventsubscription"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshifteventsubscription"
 
 &redshifteventsubscription.RedshiftEventSubscriptionTags {
 	Key: *string,
@@ -1265,7 +1265,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_event_subscription#key RedshiftEventSubscription#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_event_subscription#key RedshiftEventSubscription#key}
 
 ---
 
@@ -1281,7 +1281,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_event_subscription#value RedshiftEventSubscription#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_event_subscription#value RedshiftEventSubscription#value}
 
 ---
 
@@ -1292,7 +1292,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.redshiftEventSubscription.RedshiftEventSubscriptionTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshifteventsubscription"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshifteventsubscription"
 
 redshifteventsubscription.NewRedshiftEventSubscriptionTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) RedshiftEventSubscriptionTagsList
 ```
@@ -1452,7 +1452,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.redshiftEventSubscription.RedshiftEventSubscriptionTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshifteventsubscription"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshifteventsubscription"
 
 redshifteventsubscription.NewRedshiftEventSubscriptionTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) RedshiftEventSubscriptionTagsOutputReference
 ```

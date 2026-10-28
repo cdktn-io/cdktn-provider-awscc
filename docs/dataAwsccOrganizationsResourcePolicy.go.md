@@ -4,12 +4,12 @@
 
 ### DataAwsccOrganizationsResourcePolicy <a name="DataAwsccOrganizationsResourcePolicy" id="@cdktn/provider-awscc.dataAwsccOrganizationsResourcePolicy.DataAwsccOrganizationsResourcePolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/organizations_resource_policy awscc_organizations_resource_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/organizations_resource_policy awscc_organizations_resource_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOrganizationsResourcePolicy.DataAwsccOrganizationsResourcePolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccorganizationsresourcepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccorganizationsresourcepolicy"
 
 dataawsccorganizationsresourcepolicy.NewDataAwsccOrganizationsResourcePolicy(scope Construct, id *string, config DataAwsccOrganizationsResourcePolicyConfig) DataAwsccOrganizationsResourcePolicy
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccOrganizationsResourcePolicy.DataAwsccOrganizationsResourcePolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccorganizationsresourcepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccorganizationsresourcepolicy"
 
 dataawsccorganizationsresourcepolicy.DataAwsccOrganizationsResourcePolicy_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccOrganizationsResourcePolicy.DataAwsccOrganizationsResourcePolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccorganizationsresourcepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccorganizationsresourcepolicy"
 
 dataawsccorganizationsresourcepolicy.DataAwsccOrganizationsResourcePolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccorganizationsresourcepolicy.DataAwsccOrganizationsResourcePolicy_IsTerr
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccOrganizationsResourcePolicy.DataAwsccOrganizationsResourcePolicy.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccorganizationsresourcepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccorganizationsresourcepolicy"
 
 dataawsccorganizationsresourcepolicy.DataAwsccOrganizationsResourcePolicy_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccorganizationsresourcepolicy.DataAwsccOrganizationsResourcePolicy_IsTerr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccOrganizationsResourcePolicy.DataAwsccOrganizationsResourcePolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccorganizationsresourcepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccorganizationsresourcepolicy"
 
 dataawsccorganizationsresourcepolicy.DataAwsccOrganizationsResourcePolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccOrganizationsReso
 
 The id of the existing DataAwsccOrganizationsResourcePolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/organizations_resource_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/organizations_resource_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -631,7 +631,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOrganizationsResourcePolicy.DataAwsccOrganizationsResourcePolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccorganizationsresourcepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccorganizationsresourcepolicy"
 
 &dataawsccorganizationsresourcepolicy.DataAwsccOrganizationsResourcePolicyConfig {
 	Connection: interface{},
@@ -740,7 +740,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/organizations_resource_policy#id DataAwsccOrganizationsResourcePolicy#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/organizations_resource_policy#id DataAwsccOrganizationsResourcePolicy#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -752,7 +752,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOrganizationsResourcePolicy.DataAwsccOrganizationsResourcePolicyTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccorganizationsresourcepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccorganizationsresourcepolicy"
 
 &dataawsccorganizationsresourcepolicy.DataAwsccOrganizationsResourcePolicyTags {
 
@@ -767,7 +767,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccorganizations
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOrganizationsResourcePolicy.DataAwsccOrganizationsResourcePolicyTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccorganizationsresourcepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccorganizationsresourcepolicy"
 
 dataawsccorganizationsresourcepolicy.NewDataAwsccOrganizationsResourcePolicyTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccOrganizationsResourcePolicyTagsList
 ```
@@ -916,7 +916,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOrganizationsResourcePolicy.DataAwsccOrganizationsResourcePolicyTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccorganizationsresourcepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccorganizationsresourcepolicy"
 
 dataawsccorganizationsresourcepolicy.NewDataAwsccOrganizationsResourcePolicyTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccOrganizationsResourcePolicyTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### ElasticacheSubnetGroup <a name="ElasticacheSubnetGroup" id="@cdktn/provider-awscc.elasticacheSubnetGroup.ElasticacheSubnetGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticache_subnet_group awscc_elasticache_subnet_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticache_subnet_group awscc_elasticache_subnet_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.elasticacheSubnetGroup.ElasticacheSubnetGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticachesubnetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticachesubnetgroup"
 
 elasticachesubnetgroup.NewElasticacheSubnetGroup(scope Construct, id *string, config ElasticacheSubnetGroupConfig) ElasticacheSubnetGroup
 ```
@@ -427,7 +427,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.elasticacheSubnetGroup.ElasticacheSubnetGroup.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticachesubnetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticachesubnetgroup"
 
 elasticachesubnetgroup.ElasticacheSubnetGroup_IsConstruct(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.elasticacheSubnetGroup.ElasticacheSubnetGroup.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticachesubnetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticachesubnetgroup"
 
 elasticachesubnetgroup.ElasticacheSubnetGroup_IsTerraformElement(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ elasticachesubnetgroup.ElasticacheSubnetGroup_IsTerraformElement(x interface{}) 
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.elasticacheSubnetGroup.ElasticacheSubnetGroup.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticachesubnetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticachesubnetgroup"
 
 elasticachesubnetgroup.ElasticacheSubnetGroup_IsTerraformResource(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ elasticachesubnetgroup.ElasticacheSubnetGroup_IsTerraformResource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.elasticacheSubnetGroup.ElasticacheSubnetGroup.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticachesubnetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticachesubnetgroup"
 
 elasticachesubnetgroup.ElasticacheSubnetGroup_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -516,7 +516,7 @@ The construct id used in the generated config for the ElasticacheSubnetGroup to 
 
 The id of the existing ElasticacheSubnetGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticache_subnet_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticache_subnet_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -815,7 +815,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.elasticacheSubnetGroup.ElasticacheSubnetGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticachesubnetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticachesubnetgroup"
 
 &elasticachesubnetgroup.ElasticacheSubnetGroupConfig {
 	Connection: interface{},
@@ -846,7 +846,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticachesubnetgroup
 | <code><a href="#@cdktn/provider-awscc.elasticacheSubnetGroup.ElasticacheSubnetGroupConfig.property.description">Description</a></code> | <code>*string</code> | The description for the cache subnet group. |
 | <code><a href="#@cdktn/provider-awscc.elasticacheSubnetGroup.ElasticacheSubnetGroupConfig.property.subnetIds">SubnetIds</a></code> | <code>*[]*string</code> | The EC2 subnet IDs for the cache subnet group. |
 | <code><a href="#@cdktn/provider-awscc.elasticacheSubnetGroup.ElasticacheSubnetGroupConfig.property.cacheSubnetGroupName">CacheSubnetGroupName</a></code> | <code>*string</code> | The name for the cache subnet group. This value is stored as a lowercase string. |
-| <code><a href="#@cdktn/provider-awscc.elasticacheSubnetGroup.ElasticacheSubnetGroupConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticache_subnet_group#tags ElasticacheSubnetGroup#tags}. |
+| <code><a href="#@cdktn/provider-awscc.elasticacheSubnetGroup.ElasticacheSubnetGroupConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticache_subnet_group#tags ElasticacheSubnetGroup#tags}. |
 
 ---
 
@@ -930,7 +930,7 @@ Description *string
 
 The description for the cache subnet group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticache_subnet_group#description ElasticacheSubnetGroup#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticache_subnet_group#description ElasticacheSubnetGroup#description}
 
 ---
 
@@ -944,7 +944,7 @@ SubnetIds *[]*string
 
 The EC2 subnet IDs for the cache subnet group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticache_subnet_group#subnet_ids ElasticacheSubnetGroup#subnet_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticache_subnet_group#subnet_ids ElasticacheSubnetGroup#subnet_ids}
 
 ---
 
@@ -958,7 +958,7 @@ CacheSubnetGroupName *string
 
 The name for the cache subnet group. This value is stored as a lowercase string.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticache_subnet_group#cache_subnet_group_name ElasticacheSubnetGroup#cache_subnet_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticache_subnet_group#cache_subnet_group_name ElasticacheSubnetGroup#cache_subnet_group_name}
 
 ---
 
@@ -970,7 +970,7 @@ Tags interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticache_subnet_group#tags ElasticacheSubnetGroup#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticache_subnet_group#tags ElasticacheSubnetGroup#tags}.
 
 ---
 
@@ -979,7 +979,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.elasticacheSubnetGroup.ElasticacheSubnetGroupTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticachesubnetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticachesubnetgroup"
 
 &elasticachesubnetgroup.ElasticacheSubnetGroupTags {
 	Key: *string,
@@ -991,8 +991,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticachesubnetgroup
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.elasticacheSubnetGroup.ElasticacheSubnetGroupTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticache_subnet_group#key ElasticacheSubnetGroup#key}. |
-| <code><a href="#@cdktn/provider-awscc.elasticacheSubnetGroup.ElasticacheSubnetGroupTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticache_subnet_group#value ElasticacheSubnetGroup#value}. |
+| <code><a href="#@cdktn/provider-awscc.elasticacheSubnetGroup.ElasticacheSubnetGroupTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticache_subnet_group#key ElasticacheSubnetGroup#key}. |
+| <code><a href="#@cdktn/provider-awscc.elasticacheSubnetGroup.ElasticacheSubnetGroupTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticache_subnet_group#value ElasticacheSubnetGroup#value}. |
 
 ---
 
@@ -1004,7 +1004,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticache_subnet_group#key ElasticacheSubnetGroup#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticache_subnet_group#key ElasticacheSubnetGroup#key}.
 
 ---
 
@@ -1016,7 +1016,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticache_subnet_group#value ElasticacheSubnetGroup#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticache_subnet_group#value ElasticacheSubnetGroup#value}.
 
 ---
 
@@ -1027,7 +1027,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.elasticacheSubnetGroup.ElasticacheSubnetGroupTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticachesubnetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticachesubnetgroup"
 
 elasticachesubnetgroup.NewElasticacheSubnetGroupTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ElasticacheSubnetGroupTagsList
 ```
@@ -1187,7 +1187,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.elasticacheSubnetGroup.ElasticacheSubnetGroupTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticachesubnetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticachesubnetgroup"
 
 elasticachesubnetgroup.NewElasticacheSubnetGroupTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ElasticacheSubnetGroupTagsOutputReference
 ```

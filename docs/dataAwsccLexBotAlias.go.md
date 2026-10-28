@@ -4,12 +4,12 @@
 
 ### DataAwsccLexBotAlias <a name="DataAwsccLexBotAlias" id="@cdktn/provider-awscc.dataAwsccLexBotAlias.DataAwsccLexBotAlias"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lex_bot_alias awscc_lex_bot_alias}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lex_bot_alias awscc_lex_bot_alias}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBotAlias.DataAwsccLexBotAlias.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbotalias"
 
 dataawscclexbotalias.NewDataAwsccLexBotAlias(scope Construct, id *string, config DataAwsccLexBotAliasConfig) DataAwsccLexBotAlias
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccLexBotAlias.DataAwsccLexBotAlias.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbotalias"
 
 dataawscclexbotalias.DataAwsccLexBotAlias_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccLexBotAlias.DataAwsccLexBotAlias.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbotalias"
 
 dataawscclexbotalias.DataAwsccLexBotAlias_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscclexbotalias.DataAwsccLexBotAlias_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccLexBotAlias.DataAwsccLexBotAlias.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbotalias"
 
 dataawscclexbotalias.DataAwsccLexBotAlias_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscclexbotalias.DataAwsccLexBotAlias_IsTerraformDataSource(x interface{}) *
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccLexBotAlias.DataAwsccLexBotAlias.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbotalias"
 
 dataawscclexbotalias.DataAwsccLexBotAlias_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLexBotAlias to im
 
 The id of the existing DataAwsccLexBotAlias that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lex_bot_alias#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lex_bot_alias#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -708,7 +708,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBotAlias.DataAwsccLexBotAliasBotAliasLocaleSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbotalias"
 
 &dataawscclexbotalias.DataAwsccLexBotAliasBotAliasLocaleSettings {
 
@@ -721,7 +721,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbotalias"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBotAlias.DataAwsccLexBotAliasBotAliasLocaleSettingsBotAliasLocaleSetting.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbotalias"
 
 &dataawscclexbotalias.DataAwsccLexBotAliasBotAliasLocaleSettingsBotAliasLocaleSetting {
 
@@ -734,7 +734,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbotalias"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBotAlias.DataAwsccLexBotAliasBotAliasLocaleSettingsBotAliasLocaleSettingCodeHookSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbotalias"
 
 &dataawscclexbotalias.DataAwsccLexBotAliasBotAliasLocaleSettingsBotAliasLocaleSettingCodeHookSpecification {
 
@@ -747,7 +747,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbotalias"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBotAlias.DataAwsccLexBotAliasBotAliasLocaleSettingsBotAliasLocaleSettingCodeHookSpecificationLambdaCodeHook.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbotalias"
 
 &dataawscclexbotalias.DataAwsccLexBotAliasBotAliasLocaleSettingsBotAliasLocaleSettingCodeHookSpecificationLambdaCodeHook {
 
@@ -760,7 +760,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbotalias"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBotAlias.DataAwsccLexBotAliasBotAliasTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbotalias"
 
 &dataawscclexbotalias.DataAwsccLexBotAliasBotAliasTags {
 
@@ -773,7 +773,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbotalias"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBotAlias.DataAwsccLexBotAliasConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbotalias"
 
 &dataawscclexbotalias.DataAwsccLexBotAliasConfig {
 	Connection: interface{},
@@ -882,7 +882,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lex_bot_alias#id DataAwsccLexBotAlias#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lex_bot_alias#id DataAwsccLexBotAlias#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -894,7 +894,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBotAlias.DataAwsccLexBotAliasConversationLogSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbotalias"
 
 &dataawscclexbotalias.DataAwsccLexBotAliasConversationLogSettings {
 
@@ -907,7 +907,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbotalias"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBotAlias.DataAwsccLexBotAliasConversationLogSettingsAudioLogSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbotalias"
 
 &dataawscclexbotalias.DataAwsccLexBotAliasConversationLogSettingsAudioLogSettings {
 
@@ -920,7 +920,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbotalias"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBotAlias.DataAwsccLexBotAliasConversationLogSettingsAudioLogSettingsDestination.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbotalias"
 
 &dataawscclexbotalias.DataAwsccLexBotAliasConversationLogSettingsAudioLogSettingsDestination {
 
@@ -933,7 +933,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbotalias"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBotAlias.DataAwsccLexBotAliasConversationLogSettingsAudioLogSettingsDestinationS3Bucket.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbotalias"
 
 &dataawscclexbotalias.DataAwsccLexBotAliasConversationLogSettingsAudioLogSettingsDestinationS3Bucket {
 
@@ -946,7 +946,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbotalias"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBotAlias.DataAwsccLexBotAliasConversationLogSettingsTextLogSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbotalias"
 
 &dataawscclexbotalias.DataAwsccLexBotAliasConversationLogSettingsTextLogSettings {
 
@@ -959,7 +959,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbotalias"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBotAlias.DataAwsccLexBotAliasConversationLogSettingsTextLogSettingsDestination.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbotalias"
 
 &dataawscclexbotalias.DataAwsccLexBotAliasConversationLogSettingsTextLogSettingsDestination {
 
@@ -972,7 +972,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbotalias"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBotAlias.DataAwsccLexBotAliasConversationLogSettingsTextLogSettingsDestinationCloudwatch.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbotalias"
 
 &dataawscclexbotalias.DataAwsccLexBotAliasConversationLogSettingsTextLogSettingsDestinationCloudwatch {
 
@@ -985,7 +985,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbotalias"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBotAlias.DataAwsccLexBotAliasSentimentAnalysisSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbotalias"
 
 &dataawscclexbotalias.DataAwsccLexBotAliasSentimentAnalysisSettings {
 
@@ -1000,7 +1000,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbotalias"
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBotAlias.DataAwsccLexBotAliasBotAliasLocaleSettingsBotAliasLocaleSettingCodeHookSpecificationLambdaCodeHookOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbotalias"
 
 dataawscclexbotalias.NewDataAwsccLexBotAliasBotAliasLocaleSettingsBotAliasLocaleSettingCodeHookSpecificationLambdaCodeHookOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotAliasBotAliasLocaleSettingsBotAliasLocaleSettingCodeHookSpecificationLambdaCodeHookOutputReference
 ```
@@ -1271,7 +1271,7 @@ func InternalValue() DataAwsccLexBotAliasBotAliasLocaleSettingsBotAliasLocaleSet
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBotAlias.DataAwsccLexBotAliasBotAliasLocaleSettingsBotAliasLocaleSettingCodeHookSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbotalias"
 
 dataawscclexbotalias.NewDataAwsccLexBotAliasBotAliasLocaleSettingsBotAliasLocaleSettingCodeHookSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotAliasBotAliasLocaleSettingsBotAliasLocaleSettingCodeHookSpecificationOutputReference
 ```
@@ -1531,7 +1531,7 @@ func InternalValue() DataAwsccLexBotAliasBotAliasLocaleSettingsBotAliasLocaleSet
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBotAlias.DataAwsccLexBotAliasBotAliasLocaleSettingsBotAliasLocaleSettingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbotalias"
 
 dataawscclexbotalias.NewDataAwsccLexBotAliasBotAliasLocaleSettingsBotAliasLocaleSettingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotAliasBotAliasLocaleSettingsBotAliasLocaleSettingOutputReference
 ```
@@ -1802,7 +1802,7 @@ func InternalValue() DataAwsccLexBotAliasBotAliasLocaleSettingsBotAliasLocaleSet
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBotAlias.DataAwsccLexBotAliasBotAliasLocaleSettingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbotalias"
 
 dataawscclexbotalias.NewDataAwsccLexBotAliasBotAliasLocaleSettingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLexBotAliasBotAliasLocaleSettingsList
 ```
@@ -1951,7 +1951,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBotAlias.DataAwsccLexBotAliasBotAliasLocaleSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbotalias"
 
 dataawscclexbotalias.NewDataAwsccLexBotAliasBotAliasLocaleSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLexBotAliasBotAliasLocaleSettingsOutputReference
 ```
@@ -2240,7 +2240,7 @@ func InternalValue() DataAwsccLexBotAliasBotAliasLocaleSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBotAlias.DataAwsccLexBotAliasBotAliasTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbotalias"
 
 dataawscclexbotalias.NewDataAwsccLexBotAliasBotAliasTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLexBotAliasBotAliasTagsList
 ```
@@ -2389,7 +2389,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBotAlias.DataAwsccLexBotAliasBotAliasTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbotalias"
 
 dataawscclexbotalias.NewDataAwsccLexBotAliasBotAliasTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLexBotAliasBotAliasTagsOutputReference
 ```
@@ -2678,7 +2678,7 @@ func InternalValue() DataAwsccLexBotAliasBotAliasTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBotAlias.DataAwsccLexBotAliasConversationLogSettingsAudioLogSettingsDestinationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbotalias"
 
 dataawscclexbotalias.NewDataAwsccLexBotAliasConversationLogSettingsAudioLogSettingsDestinationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotAliasConversationLogSettingsAudioLogSettingsDestinationOutputReference
 ```
@@ -2938,7 +2938,7 @@ func InternalValue() DataAwsccLexBotAliasConversationLogSettingsAudioLogSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBotAlias.DataAwsccLexBotAliasConversationLogSettingsAudioLogSettingsDestinationS3BucketOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbotalias"
 
 dataawscclexbotalias.NewDataAwsccLexBotAliasConversationLogSettingsAudioLogSettingsDestinationS3BucketOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotAliasConversationLogSettingsAudioLogSettingsDestinationS3BucketOutputReference
 ```
@@ -3220,7 +3220,7 @@ func InternalValue() DataAwsccLexBotAliasConversationLogSettingsAudioLogSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBotAlias.DataAwsccLexBotAliasConversationLogSettingsAudioLogSettingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbotalias"
 
 dataawscclexbotalias.NewDataAwsccLexBotAliasConversationLogSettingsAudioLogSettingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLexBotAliasConversationLogSettingsAudioLogSettingsList
 ```
@@ -3369,7 +3369,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBotAlias.DataAwsccLexBotAliasConversationLogSettingsAudioLogSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbotalias"
 
 dataawscclexbotalias.NewDataAwsccLexBotAliasConversationLogSettingsAudioLogSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLexBotAliasConversationLogSettingsAudioLogSettingsOutputReference
 ```
@@ -3658,7 +3658,7 @@ func InternalValue() DataAwsccLexBotAliasConversationLogSettingsAudioLogSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBotAlias.DataAwsccLexBotAliasConversationLogSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbotalias"
 
 dataawscclexbotalias.NewDataAwsccLexBotAliasConversationLogSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotAliasConversationLogSettingsOutputReference
 ```
@@ -3929,7 +3929,7 @@ func InternalValue() DataAwsccLexBotAliasConversationLogSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBotAlias.DataAwsccLexBotAliasConversationLogSettingsTextLogSettingsDestinationCloudwatchOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbotalias"
 
 dataawscclexbotalias.NewDataAwsccLexBotAliasConversationLogSettingsTextLogSettingsDestinationCloudwatchOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotAliasConversationLogSettingsTextLogSettingsDestinationCloudwatchOutputReference
 ```
@@ -4200,7 +4200,7 @@ func InternalValue() DataAwsccLexBotAliasConversationLogSettingsTextLogSettingsD
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBotAlias.DataAwsccLexBotAliasConversationLogSettingsTextLogSettingsDestinationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbotalias"
 
 dataawscclexbotalias.NewDataAwsccLexBotAliasConversationLogSettingsTextLogSettingsDestinationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotAliasConversationLogSettingsTextLogSettingsDestinationOutputReference
 ```
@@ -4460,7 +4460,7 @@ func InternalValue() DataAwsccLexBotAliasConversationLogSettingsTextLogSettingsD
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBotAlias.DataAwsccLexBotAliasConversationLogSettingsTextLogSettingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbotalias"
 
 dataawscclexbotalias.NewDataAwsccLexBotAliasConversationLogSettingsTextLogSettingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLexBotAliasConversationLogSettingsTextLogSettingsList
 ```
@@ -4609,7 +4609,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBotAlias.DataAwsccLexBotAliasConversationLogSettingsTextLogSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbotalias"
 
 dataawscclexbotalias.NewDataAwsccLexBotAliasConversationLogSettingsTextLogSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLexBotAliasConversationLogSettingsTextLogSettingsOutputReference
 ```
@@ -4898,7 +4898,7 @@ func InternalValue() DataAwsccLexBotAliasConversationLogSettingsTextLogSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBotAlias.DataAwsccLexBotAliasSentimentAnalysisSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbotalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbotalias"
 
 dataawscclexbotalias.NewDataAwsccLexBotAliasSentimentAnalysisSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLexBotAliasSentimentAnalysisSettingsOutputReference
 ```

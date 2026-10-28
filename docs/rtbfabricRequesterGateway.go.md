@@ -4,12 +4,12 @@
 
 ### RtbfabricRequesterGateway <a name="RtbfabricRequesterGateway" id="@cdktn/provider-awscc.rtbfabricRequesterGateway.RtbfabricRequesterGateway"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rtbfabric_requester_gateway awscc_rtbfabric_requester_gateway}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rtbfabric_requester_gateway awscc_rtbfabric_requester_gateway}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.rtbfabricRequesterGateway.RtbfabricRequesterGateway.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rtbfabricrequestergateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rtbfabricrequestergateway"
 
 rtbfabricrequestergateway.NewRtbfabricRequesterGateway(scope Construct, id *string, config RtbfabricRequesterGatewayConfig) RtbfabricRequesterGateway
 ```
@@ -427,7 +427,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.rtbfabricRequesterGateway.RtbfabricRequesterGateway.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rtbfabricrequestergateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rtbfabricrequestergateway"
 
 rtbfabricrequestergateway.RtbfabricRequesterGateway_IsConstruct(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.rtbfabricRequesterGateway.RtbfabricRequesterGateway.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rtbfabricrequestergateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rtbfabricrequestergateway"
 
 rtbfabricrequestergateway.RtbfabricRequesterGateway_IsTerraformElement(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ rtbfabricrequestergateway.RtbfabricRequesterGateway_IsTerraformElement(x interfa
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.rtbfabricRequesterGateway.RtbfabricRequesterGateway.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rtbfabricrequestergateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rtbfabricrequestergateway"
 
 rtbfabricrequestergateway.RtbfabricRequesterGateway_IsTerraformResource(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ rtbfabricrequestergateway.RtbfabricRequesterGateway_IsTerraformResource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.rtbfabricRequesterGateway.RtbfabricRequesterGateway.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rtbfabricrequestergateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rtbfabricrequestergateway"
 
 rtbfabricrequestergateway.RtbfabricRequesterGateway_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -516,7 +516,7 @@ The construct id used in the generated config for the RtbfabricRequesterGateway 
 
 The id of the existing RtbfabricRequesterGateway that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rtbfabric_requester_gateway#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rtbfabric_requester_gateway#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -925,7 +925,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.rtbfabricRequesterGateway.RtbfabricRequesterGatewayConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rtbfabricrequestergateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rtbfabricrequestergateway"
 
 &rtbfabricrequestergateway.RtbfabricRequesterGatewayConfig {
 	Connection: interface{},
@@ -956,8 +956,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rtbfabricrequestergate
 | <code><a href="#@cdktn/provider-awscc.rtbfabricRequesterGateway.RtbfabricRequesterGatewayConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.rtbfabricRequesterGateway.RtbfabricRequesterGatewayConfig.property.securityGroupIds">SecurityGroupIds</a></code> | <code>*[]*string</code> | The ID of one or more security groups in order to create a requester gateway. |
 | <code><a href="#@cdktn/provider-awscc.rtbfabricRequesterGateway.RtbfabricRequesterGatewayConfig.property.subnetIds">SubnetIds</a></code> | <code>*[]*string</code> | The ID of one or more subnets in order to create a requester gateway. |
-| <code><a href="#@cdktn/provider-awscc.rtbfabricRequesterGateway.RtbfabricRequesterGatewayConfig.property.vpcId">VpcId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rtbfabric_requester_gateway#vpc_id RtbfabricRequesterGateway#vpc_id}. |
-| <code><a href="#@cdktn/provider-awscc.rtbfabricRequesterGateway.RtbfabricRequesterGatewayConfig.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rtbfabric_requester_gateway#description RtbfabricRequesterGateway#description}. |
+| <code><a href="#@cdktn/provider-awscc.rtbfabricRequesterGateway.RtbfabricRequesterGatewayConfig.property.vpcId">VpcId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rtbfabric_requester_gateway#vpc_id RtbfabricRequesterGateway#vpc_id}. |
+| <code><a href="#@cdktn/provider-awscc.rtbfabricRequesterGateway.RtbfabricRequesterGatewayConfig.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rtbfabric_requester_gateway#description RtbfabricRequesterGateway#description}. |
 | <code><a href="#@cdktn/provider-awscc.rtbfabricRequesterGateway.RtbfabricRequesterGatewayConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Tags to assign to the Requester Gateway. |
 
 ---
@@ -1042,7 +1042,7 @@ SecurityGroupIds *[]*string
 
 The ID of one or more security groups in order to create a requester gateway.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rtbfabric_requester_gateway#security_group_ids RtbfabricRequesterGateway#security_group_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rtbfabric_requester_gateway#security_group_ids RtbfabricRequesterGateway#security_group_ids}
 
 ---
 
@@ -1056,7 +1056,7 @@ SubnetIds *[]*string
 
 The ID of one or more subnets in order to create a requester gateway.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rtbfabric_requester_gateway#subnet_ids RtbfabricRequesterGateway#subnet_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rtbfabric_requester_gateway#subnet_ids RtbfabricRequesterGateway#subnet_ids}
 
 ---
 
@@ -1068,7 +1068,7 @@ VpcId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rtbfabric_requester_gateway#vpc_id RtbfabricRequesterGateway#vpc_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rtbfabric_requester_gateway#vpc_id RtbfabricRequesterGateway#vpc_id}.
 
 ---
 
@@ -1080,7 +1080,7 @@ Description *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rtbfabric_requester_gateway#description RtbfabricRequesterGateway#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rtbfabric_requester_gateway#description RtbfabricRequesterGateway#description}.
 
 ---
 
@@ -1094,7 +1094,7 @@ Tags interface{}
 
 Tags to assign to the Requester Gateway.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rtbfabric_requester_gateway#tags RtbfabricRequesterGateway#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rtbfabric_requester_gateway#tags RtbfabricRequesterGateway#tags}
 
 ---
 
@@ -1103,7 +1103,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.rtbfabricRequesterGateway.RtbfabricRequesterGatewayTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rtbfabricrequestergateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rtbfabricrequestergateway"
 
 &rtbfabricrequestergateway.RtbfabricRequesterGatewayTags {
 	Key: *string,
@@ -1132,7 +1132,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rtbfabric_requester_gateway#key RtbfabricRequesterGateway#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rtbfabric_requester_gateway#key RtbfabricRequesterGateway#key}
 
 ---
 
@@ -1148,7 +1148,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rtbfabric_requester_gateway#value RtbfabricRequesterGateway#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rtbfabric_requester_gateway#value RtbfabricRequesterGateway#value}
 
 ---
 
@@ -1159,7 +1159,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.rtbfabricRequesterGateway.RtbfabricRequesterGatewayTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rtbfabricrequestergateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rtbfabricrequestergateway"
 
 rtbfabricrequestergateway.NewRtbfabricRequesterGatewayTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) RtbfabricRequesterGatewayTagsList
 ```
@@ -1319,7 +1319,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.rtbfabricRequesterGateway.RtbfabricRequesterGatewayTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rtbfabricrequestergateway"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rtbfabricrequestergateway"
 
 rtbfabricrequestergateway.NewRtbfabricRequesterGatewayTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) RtbfabricRequesterGatewayTagsOutputReference
 ```

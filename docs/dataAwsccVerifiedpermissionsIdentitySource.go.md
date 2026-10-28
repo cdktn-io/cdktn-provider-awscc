@@ -4,12 +4,12 @@
 
 ### DataAwsccVerifiedpermissionsIdentitySource <a name="DataAwsccVerifiedpermissionsIdentitySource" id="@cdktn/provider-awscc.dataAwsccVerifiedpermissionsIdentitySource.DataAwsccVerifiedpermissionsIdentitySource"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/verifiedpermissions_identity_source awscc_verifiedpermissions_identity_source}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/verifiedpermissions_identity_source awscc_verifiedpermissions_identity_source}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccVerifiedpermissionsIdentitySource.DataAwsccVerifiedpermissionsIdentitySource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccverifiedpermissionsidentitysource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccverifiedpermissionsidentitysource"
 
 dataawsccverifiedpermissionsidentitysource.NewDataAwsccVerifiedpermissionsIdentitySource(scope Construct, id *string, config DataAwsccVerifiedpermissionsIdentitySourceConfig) DataAwsccVerifiedpermissionsIdentitySource
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccVerifiedpermissionsIdentitySource.DataAwsccVerifiedpermissionsIdentitySource.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccverifiedpermissionsidentitysource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccverifiedpermissionsidentitysource"
 
 dataawsccverifiedpermissionsidentitysource.DataAwsccVerifiedpermissionsIdentitySource_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccVerifiedpermissionsIdentitySource.DataAwsccVerifiedpermissionsIdentitySource.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccverifiedpermissionsidentitysource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccverifiedpermissionsidentitysource"
 
 dataawsccverifiedpermissionsidentitysource.DataAwsccVerifiedpermissionsIdentitySource_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccverifiedpermissionsidentitysource.DataAwsccVerifiedpermissionsIdentityS
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccVerifiedpermissionsIdentitySource.DataAwsccVerifiedpermissionsIdentitySource.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccverifiedpermissionsidentitysource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccverifiedpermissionsidentitysource"
 
 dataawsccverifiedpermissionsidentitysource.DataAwsccVerifiedpermissionsIdentitySource_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccverifiedpermissionsidentitysource.DataAwsccVerifiedpermissionsIdentityS
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccVerifiedpermissionsIdentitySource.DataAwsccVerifiedpermissionsIdentitySource.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccverifiedpermissionsidentitysource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccverifiedpermissionsidentitysource"
 
 dataawsccverifiedpermissionsidentitysource.DataAwsccVerifiedpermissionsIdentitySource_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccVerifiedpermissio
 
 The id of the existing DataAwsccVerifiedpermissionsIdentitySource that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/verifiedpermissions_identity_source#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/verifiedpermissions_identity_source#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -642,7 +642,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccVerifiedpermissionsIdentitySource.DataAwsccVerifiedpermissionsIdentitySourceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccverifiedpermissionsidentitysource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccverifiedpermissionsidentitysource"
 
 &dataawsccverifiedpermissionsidentitysource.DataAwsccVerifiedpermissionsIdentitySourceConfig {
 	Connection: interface{},
@@ -751,7 +751,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/verifiedpermissions_identity_source#id DataAwsccVerifiedpermissionsIdentitySource#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/verifiedpermissions_identity_source#id DataAwsccVerifiedpermissionsIdentitySource#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -763,7 +763,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccVerifiedpermissionsIdentitySource.DataAwsccVerifiedpermissionsIdentitySourceConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccverifiedpermissionsidentitysource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccverifiedpermissionsidentitysource"
 
 &dataawsccverifiedpermissionsidentitysource.DataAwsccVerifiedpermissionsIdentitySourceConfiguration {
 
@@ -776,7 +776,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccverifiedpermi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccVerifiedpermissionsIdentitySource.DataAwsccVerifiedpermissionsIdentitySourceConfigurationCognitoUserPoolConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccverifiedpermissionsidentitysource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccverifiedpermissionsidentitysource"
 
 &dataawsccverifiedpermissionsidentitysource.DataAwsccVerifiedpermissionsIdentitySourceConfigurationCognitoUserPoolConfiguration {
 
@@ -789,7 +789,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccverifiedpermi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccVerifiedpermissionsIdentitySource.DataAwsccVerifiedpermissionsIdentitySourceConfigurationCognitoUserPoolConfigurationGroupConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccverifiedpermissionsidentitysource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccverifiedpermissionsidentitysource"
 
 &dataawsccverifiedpermissionsidentitysource.DataAwsccVerifiedpermissionsIdentitySourceConfigurationCognitoUserPoolConfigurationGroupConfiguration {
 
@@ -802,7 +802,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccverifiedpermi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccVerifiedpermissionsIdentitySource.DataAwsccVerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccverifiedpermissionsidentitysource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccverifiedpermissionsidentitysource"
 
 &dataawsccverifiedpermissionsidentitysource.DataAwsccVerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfiguration {
 
@@ -815,7 +815,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccverifiedpermi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccVerifiedpermissionsIdentitySource.DataAwsccVerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfigurationGroupConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccverifiedpermissionsidentitysource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccverifiedpermissionsidentitysource"
 
 &dataawsccverifiedpermissionsidentitysource.DataAwsccVerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfigurationGroupConfiguration {
 
@@ -828,7 +828,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccverifiedpermi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccVerifiedpermissionsIdentitySource.DataAwsccVerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfigurationTokenSelection.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccverifiedpermissionsidentitysource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccverifiedpermissionsidentitysource"
 
 &dataawsccverifiedpermissionsidentitysource.DataAwsccVerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfigurationTokenSelection {
 
@@ -841,7 +841,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccverifiedpermi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccVerifiedpermissionsIdentitySource.DataAwsccVerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfigurationTokenSelectionAccessTokenOnly.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccverifiedpermissionsidentitysource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccverifiedpermissionsidentitysource"
 
 &dataawsccverifiedpermissionsidentitysource.DataAwsccVerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfigurationTokenSelectionAccessTokenOnly {
 
@@ -854,7 +854,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccverifiedpermi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccVerifiedpermissionsIdentitySource.DataAwsccVerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfigurationTokenSelectionIdentityTokenOnly.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccverifiedpermissionsidentitysource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccverifiedpermissionsidentitysource"
 
 &dataawsccverifiedpermissionsidentitysource.DataAwsccVerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfigurationTokenSelectionIdentityTokenOnly {
 
@@ -867,7 +867,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccverifiedpermi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccVerifiedpermissionsIdentitySource.DataAwsccVerifiedpermissionsIdentitySourceDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccverifiedpermissionsidentitysource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccverifiedpermissionsidentitysource"
 
 &dataawsccverifiedpermissionsidentitysource.DataAwsccVerifiedpermissionsIdentitySourceDetails {
 
@@ -882,7 +882,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccverifiedpermi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccVerifiedpermissionsIdentitySource.DataAwsccVerifiedpermissionsIdentitySourceConfigurationCognitoUserPoolConfigurationGroupConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccverifiedpermissionsidentitysource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccverifiedpermissionsidentitysource"
 
 dataawsccverifiedpermissionsidentitysource.NewDataAwsccVerifiedpermissionsIdentitySourceConfigurationCognitoUserPoolConfigurationGroupConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccVerifiedpermissionsIdentitySourceConfigurationCognitoUserPoolConfigurationGroupConfigurationOutputReference
 ```
@@ -1142,7 +1142,7 @@ func InternalValue() DataAwsccVerifiedpermissionsIdentitySourceConfigurationCogn
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccVerifiedpermissionsIdentitySource.DataAwsccVerifiedpermissionsIdentitySourceConfigurationCognitoUserPoolConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccverifiedpermissionsidentitysource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccverifiedpermissionsidentitysource"
 
 dataawsccverifiedpermissionsidentitysource.NewDataAwsccVerifiedpermissionsIdentitySourceConfigurationCognitoUserPoolConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccVerifiedpermissionsIdentitySourceConfigurationCognitoUserPoolConfigurationOutputReference
 ```
@@ -1424,7 +1424,7 @@ func InternalValue() DataAwsccVerifiedpermissionsIdentitySourceConfigurationCogn
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccVerifiedpermissionsIdentitySource.DataAwsccVerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfigurationGroupConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccverifiedpermissionsidentitysource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccverifiedpermissionsidentitysource"
 
 dataawsccverifiedpermissionsidentitysource.NewDataAwsccVerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfigurationGroupConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccVerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfigurationGroupConfigurationOutputReference
 ```
@@ -1695,7 +1695,7 @@ func InternalValue() DataAwsccVerifiedpermissionsIdentitySourceConfigurationOpen
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccVerifiedpermissionsIdentitySource.DataAwsccVerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccverifiedpermissionsidentitysource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccverifiedpermissionsidentitysource"
 
 dataawsccverifiedpermissionsidentitysource.NewDataAwsccVerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccVerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfigurationOutputReference
 ```
@@ -1988,7 +1988,7 @@ func InternalValue() DataAwsccVerifiedpermissionsIdentitySourceConfigurationOpen
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccVerifiedpermissionsIdentitySource.DataAwsccVerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfigurationTokenSelectionAccessTokenOnlyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccverifiedpermissionsidentitysource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccverifiedpermissionsidentitysource"
 
 dataawsccverifiedpermissionsidentitysource.NewDataAwsccVerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfigurationTokenSelectionAccessTokenOnlyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccVerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfigurationTokenSelectionAccessTokenOnlyOutputReference
 ```
@@ -2259,7 +2259,7 @@ func InternalValue() DataAwsccVerifiedpermissionsIdentitySourceConfigurationOpen
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccVerifiedpermissionsIdentitySource.DataAwsccVerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfigurationTokenSelectionIdentityTokenOnlyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccverifiedpermissionsidentitysource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccverifiedpermissionsidentitysource"
 
 dataawsccverifiedpermissionsidentitysource.NewDataAwsccVerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfigurationTokenSelectionIdentityTokenOnlyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccVerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfigurationTokenSelectionIdentityTokenOnlyOutputReference
 ```
@@ -2530,7 +2530,7 @@ func InternalValue() DataAwsccVerifiedpermissionsIdentitySourceConfigurationOpen
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccVerifiedpermissionsIdentitySource.DataAwsccVerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfigurationTokenSelectionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccverifiedpermissionsidentitysource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccverifiedpermissionsidentitysource"
 
 dataawsccverifiedpermissionsidentitysource.NewDataAwsccVerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfigurationTokenSelectionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccVerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfigurationTokenSelectionOutputReference
 ```
@@ -2801,7 +2801,7 @@ func InternalValue() DataAwsccVerifiedpermissionsIdentitySourceConfigurationOpen
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccVerifiedpermissionsIdentitySource.DataAwsccVerifiedpermissionsIdentitySourceConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccverifiedpermissionsidentitysource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccverifiedpermissionsidentitysource"
 
 dataawsccverifiedpermissionsidentitysource.NewDataAwsccVerifiedpermissionsIdentitySourceConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccVerifiedpermissionsIdentitySourceConfigurationOutputReference
 ```
@@ -3072,7 +3072,7 @@ func InternalValue() DataAwsccVerifiedpermissionsIdentitySourceConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccVerifiedpermissionsIdentitySource.DataAwsccVerifiedpermissionsIdentitySourceDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccverifiedpermissionsidentitysource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccverifiedpermissionsidentitysource"
 
 dataawsccverifiedpermissionsidentitysource.NewDataAwsccVerifiedpermissionsIdentitySourceDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccVerifiedpermissionsIdentitySourceDetailsOutputReference
 ```

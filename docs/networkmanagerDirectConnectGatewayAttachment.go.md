@@ -4,12 +4,12 @@
 
 ### NetworkmanagerDirectConnectGatewayAttachment <a name="NetworkmanagerDirectConnectGatewayAttachment" id="@cdktn/provider-awscc.networkmanagerDirectConnectGatewayAttachment.NetworkmanagerDirectConnectGatewayAttachment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_direct_connect_gateway_attachment awscc_networkmanager_direct_connect_gateway_attachment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_direct_connect_gateway_attachment awscc_networkmanager_direct_connect_gateway_attachment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmanagerDirectConnectGatewayAttachment.NetworkmanagerDirectConnectGatewayAttachment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerdirectconnectgatewayattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerdirectconnectgatewayattachment"
 
 networkmanagerdirectconnectgatewayattachment.NewNetworkmanagerDirectConnectGatewayAttachment(scope Construct, id *string, config NetworkmanagerDirectConnectGatewayAttachmentConfig) NetworkmanagerDirectConnectGatewayAttachment
 ```
@@ -427,7 +427,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.networkmanagerDirectConnectGatewayAttachment.NetworkmanagerDirectConnectGatewayAttachment.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerdirectconnectgatewayattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerdirectconnectgatewayattachment"
 
 networkmanagerdirectconnectgatewayattachment.NetworkmanagerDirectConnectGatewayAttachment_IsConstruct(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.networkmanagerDirectConnectGatewayAttachment.NetworkmanagerDirectConnectGatewayAttachment.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerdirectconnectgatewayattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerdirectconnectgatewayattachment"
 
 networkmanagerdirectconnectgatewayattachment.NetworkmanagerDirectConnectGatewayAttachment_IsTerraformElement(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ networkmanagerdirectconnectgatewayattachment.NetworkmanagerDirectConnectGatewayA
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.networkmanagerDirectConnectGatewayAttachment.NetworkmanagerDirectConnectGatewayAttachment.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerdirectconnectgatewayattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerdirectconnectgatewayattachment"
 
 networkmanagerdirectconnectgatewayattachment.NetworkmanagerDirectConnectGatewayAttachment_IsTerraformResource(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ networkmanagerdirectconnectgatewayattachment.NetworkmanagerDirectConnectGatewayA
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.networkmanagerDirectConnectGatewayAttachment.NetworkmanagerDirectConnectGatewayAttachment.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerdirectconnectgatewayattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerdirectconnectgatewayattachment"
 
 networkmanagerdirectconnectgatewayattachment.NetworkmanagerDirectConnectGatewayAttachment_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -516,7 +516,7 @@ The construct id used in the generated config for the NetworkmanagerDirectConnec
 
 The id of the existing NetworkmanagerDirectConnectGatewayAttachment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_direct_connect_gateway_attachment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_direct_connect_gateway_attachment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -991,7 +991,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.networkmanagerDirectConnectGatewayAttachment.NetworkmanagerDirectConnectGatewayAttachmentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerdirectconnectgatewayattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerdirectconnectgatewayattachment"
 
 &networkmanagerdirectconnectgatewayattachment.NetworkmanagerDirectConnectGatewayAttachmentConfig {
 	Connection: interface{},
@@ -1108,7 +1108,7 @@ CoreNetworkId *string
 
 The ID of a core network for the Direct Connect Gateway attachment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_direct_connect_gateway_attachment#core_network_id NetworkmanagerDirectConnectGatewayAttachment#core_network_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_direct_connect_gateway_attachment#core_network_id NetworkmanagerDirectConnectGatewayAttachment#core_network_id}
 
 ---
 
@@ -1122,7 +1122,7 @@ DirectConnectGatewayArn *string
 
 The ARN of the Direct Connect Gateway.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_direct_connect_gateway_attachment#direct_connect_gateway_arn NetworkmanagerDirectConnectGatewayAttachment#direct_connect_gateway_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_direct_connect_gateway_attachment#direct_connect_gateway_arn NetworkmanagerDirectConnectGatewayAttachment#direct_connect_gateway_arn}
 
 ---
 
@@ -1136,7 +1136,7 @@ EdgeLocations *[]*string
 
 The Regions where the edges are located.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_direct_connect_gateway_attachment#edge_locations NetworkmanagerDirectConnectGatewayAttachment#edge_locations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_direct_connect_gateway_attachment#edge_locations NetworkmanagerDirectConnectGatewayAttachment#edge_locations}
 
 ---
 
@@ -1150,7 +1150,7 @@ RoutingPolicyLabel *string
 
 Routing policy label.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_direct_connect_gateway_attachment#routing_policy_label NetworkmanagerDirectConnectGatewayAttachment#routing_policy_label}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_direct_connect_gateway_attachment#routing_policy_label NetworkmanagerDirectConnectGatewayAttachment#routing_policy_label}
 
 ---
 
@@ -1164,7 +1164,7 @@ Tags interface{}
 
 Tags for the attachment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_direct_connect_gateway_attachment#tags NetworkmanagerDirectConnectGatewayAttachment#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_direct_connect_gateway_attachment#tags NetworkmanagerDirectConnectGatewayAttachment#tags}
 
 ---
 
@@ -1173,7 +1173,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.networkmanagerDirectConnectGatewayAttachment.NetworkmanagerDirectConnectGatewayAttachmentProposedNetworkFunctionGroupChange.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerdirectconnectgatewayattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerdirectconnectgatewayattachment"
 
 &networkmanagerdirectconnectgatewayattachment.NetworkmanagerDirectConnectGatewayAttachmentProposedNetworkFunctionGroupChange {
 
@@ -1186,7 +1186,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerdirectco
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.networkmanagerDirectConnectGatewayAttachment.NetworkmanagerDirectConnectGatewayAttachmentProposedNetworkFunctionGroupChangeTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerdirectconnectgatewayattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerdirectconnectgatewayattachment"
 
 &networkmanagerdirectconnectgatewayattachment.NetworkmanagerDirectConnectGatewayAttachmentProposedNetworkFunctionGroupChangeTags {
 
@@ -1199,7 +1199,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerdirectco
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.networkmanagerDirectConnectGatewayAttachment.NetworkmanagerDirectConnectGatewayAttachmentProposedSegmentChange.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerdirectconnectgatewayattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerdirectconnectgatewayattachment"
 
 &networkmanagerdirectconnectgatewayattachment.NetworkmanagerDirectConnectGatewayAttachmentProposedSegmentChange {
 
@@ -1212,7 +1212,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerdirectco
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.networkmanagerDirectConnectGatewayAttachment.NetworkmanagerDirectConnectGatewayAttachmentProposedSegmentChangeTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerdirectconnectgatewayattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerdirectconnectgatewayattachment"
 
 &networkmanagerdirectconnectgatewayattachment.NetworkmanagerDirectConnectGatewayAttachmentProposedSegmentChangeTags {
 
@@ -1225,7 +1225,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerdirectco
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.networkmanagerDirectConnectGatewayAttachment.NetworkmanagerDirectConnectGatewayAttachmentTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerdirectconnectgatewayattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerdirectconnectgatewayattachment"
 
 &networkmanagerdirectconnectgatewayattachment.NetworkmanagerDirectConnectGatewayAttachmentTags {
 	Key: *string,
@@ -1254,7 +1254,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_direct_connect_gateway_attachment#key NetworkmanagerDirectConnectGatewayAttachment#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_direct_connect_gateway_attachment#key NetworkmanagerDirectConnectGatewayAttachment#key}
 
 ---
 
@@ -1270,7 +1270,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_direct_connect_gateway_attachment#value NetworkmanagerDirectConnectGatewayAttachment#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_direct_connect_gateway_attachment#value NetworkmanagerDirectConnectGatewayAttachment#value}
 
 ---
 
@@ -1281,7 +1281,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmanagerDirectConnectGatewayAttachment.NetworkmanagerDirectConnectGatewayAttachmentProposedNetworkFunctionGroupChangeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerdirectconnectgatewayattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerdirectconnectgatewayattachment"
 
 networkmanagerdirectconnectgatewayattachment.NewNetworkmanagerDirectConnectGatewayAttachmentProposedNetworkFunctionGroupChangeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) NetworkmanagerDirectConnectGatewayAttachmentProposedNetworkFunctionGroupChangeOutputReference
 ```
@@ -1563,7 +1563,7 @@ func InternalValue() NetworkmanagerDirectConnectGatewayAttachmentProposedNetwork
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmanagerDirectConnectGatewayAttachment.NetworkmanagerDirectConnectGatewayAttachmentProposedNetworkFunctionGroupChangeTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerdirectconnectgatewayattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerdirectconnectgatewayattachment"
 
 networkmanagerdirectconnectgatewayattachment.NewNetworkmanagerDirectConnectGatewayAttachmentProposedNetworkFunctionGroupChangeTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) NetworkmanagerDirectConnectGatewayAttachmentProposedNetworkFunctionGroupChangeTagsList
 ```
@@ -1712,7 +1712,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmanagerDirectConnectGatewayAttachment.NetworkmanagerDirectConnectGatewayAttachmentProposedNetworkFunctionGroupChangeTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerdirectconnectgatewayattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerdirectconnectgatewayattachment"
 
 networkmanagerdirectconnectgatewayattachment.NewNetworkmanagerDirectConnectGatewayAttachmentProposedNetworkFunctionGroupChangeTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) NetworkmanagerDirectConnectGatewayAttachmentProposedNetworkFunctionGroupChangeTagsOutputReference
 ```
@@ -2001,7 +2001,7 @@ func InternalValue() NetworkmanagerDirectConnectGatewayAttachmentProposedNetwork
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmanagerDirectConnectGatewayAttachment.NetworkmanagerDirectConnectGatewayAttachmentProposedSegmentChangeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerdirectconnectgatewayattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerdirectconnectgatewayattachment"
 
 networkmanagerdirectconnectgatewayattachment.NewNetworkmanagerDirectConnectGatewayAttachmentProposedSegmentChangeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) NetworkmanagerDirectConnectGatewayAttachmentProposedSegmentChangeOutputReference
 ```
@@ -2283,7 +2283,7 @@ func InternalValue() NetworkmanagerDirectConnectGatewayAttachmentProposedSegment
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmanagerDirectConnectGatewayAttachment.NetworkmanagerDirectConnectGatewayAttachmentProposedSegmentChangeTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerdirectconnectgatewayattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerdirectconnectgatewayattachment"
 
 networkmanagerdirectconnectgatewayattachment.NewNetworkmanagerDirectConnectGatewayAttachmentProposedSegmentChangeTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) NetworkmanagerDirectConnectGatewayAttachmentProposedSegmentChangeTagsList
 ```
@@ -2432,7 +2432,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmanagerDirectConnectGatewayAttachment.NetworkmanagerDirectConnectGatewayAttachmentProposedSegmentChangeTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerdirectconnectgatewayattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerdirectconnectgatewayattachment"
 
 networkmanagerdirectconnectgatewayattachment.NewNetworkmanagerDirectConnectGatewayAttachmentProposedSegmentChangeTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) NetworkmanagerDirectConnectGatewayAttachmentProposedSegmentChangeTagsOutputReference
 ```
@@ -2721,7 +2721,7 @@ func InternalValue() NetworkmanagerDirectConnectGatewayAttachmentProposedSegment
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmanagerDirectConnectGatewayAttachment.NetworkmanagerDirectConnectGatewayAttachmentTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerdirectconnectgatewayattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerdirectconnectgatewayattachment"
 
 networkmanagerdirectconnectgatewayattachment.NewNetworkmanagerDirectConnectGatewayAttachmentTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) NetworkmanagerDirectConnectGatewayAttachmentTagsList
 ```
@@ -2881,7 +2881,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmanagerDirectConnectGatewayAttachment.NetworkmanagerDirectConnectGatewayAttachmentTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerdirectconnectgatewayattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerdirectconnectgatewayattachment"
 
 networkmanagerdirectconnectgatewayattachment.NewNetworkmanagerDirectConnectGatewayAttachmentTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) NetworkmanagerDirectConnectGatewayAttachmentTagsOutputReference
 ```

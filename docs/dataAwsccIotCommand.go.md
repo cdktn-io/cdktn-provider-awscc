@@ -4,12 +4,12 @@
 
 ### DataAwsccIotCommand <a name="DataAwsccIotCommand" id="@cdktn/provider-awscc.dataAwsccIotCommand.DataAwsccIotCommand"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_command awscc_iot_command}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_command awscc_iot_command}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotCommand.DataAwsccIotCommand.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcommand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotcommand"
 
 dataawscciotcommand.NewDataAwsccIotCommand(scope Construct, id *string, config DataAwsccIotCommandConfig) DataAwsccIotCommand
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIotCommand.DataAwsccIotCommand.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcommand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotcommand"
 
 dataawscciotcommand.DataAwsccIotCommand_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIotCommand.DataAwsccIotCommand.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcommand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotcommand"
 
 dataawscciotcommand.DataAwsccIotCommand_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciotcommand.DataAwsccIotCommand_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIotCommand.DataAwsccIotCommand.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcommand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotcommand"
 
 dataawscciotcommand.DataAwsccIotCommand_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciotcommand.DataAwsccIotCommand_IsTerraformDataSource(x interface{}) *bo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIotCommand.DataAwsccIotCommand.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcommand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotcommand"
 
 dataawscciotcommand.DataAwsccIotCommand_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotCommand to imp
 
 The id of the existing DataAwsccIotCommand that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_command#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_command#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -752,7 +752,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotCommand.DataAwsccIotCommandConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcommand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotcommand"
 
 &dataawscciotcommand.DataAwsccIotCommandConfig {
 	Connection: interface{},
@@ -861,7 +861,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_command#id DataAwsccIotCommand#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_command#id DataAwsccIotCommand#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -873,7 +873,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotCommand.DataAwsccIotCommandMandatoryParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcommand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotcommand"
 
 &dataawscciotcommand.DataAwsccIotCommandMandatoryParameters {
 
@@ -886,7 +886,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcommand"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotCommand.DataAwsccIotCommandMandatoryParametersDefaultValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcommand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotcommand"
 
 &dataawscciotcommand.DataAwsccIotCommandMandatoryParametersDefaultValue {
 
@@ -899,7 +899,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcommand"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotCommand.DataAwsccIotCommandMandatoryParametersValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcommand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotcommand"
 
 &dataawscciotcommand.DataAwsccIotCommandMandatoryParametersValue {
 
@@ -912,7 +912,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcommand"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotCommand.DataAwsccIotCommandMandatoryParametersValueConditions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcommand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotcommand"
 
 &dataawscciotcommand.DataAwsccIotCommandMandatoryParametersValueConditions {
 
@@ -925,7 +925,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcommand"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotCommand.DataAwsccIotCommandMandatoryParametersValueConditionsOperand.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcommand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotcommand"
 
 &dataawscciotcommand.DataAwsccIotCommandMandatoryParametersValueConditionsOperand {
 
@@ -938,7 +938,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcommand"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotCommand.DataAwsccIotCommandMandatoryParametersValueConditionsOperandNumberRange.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcommand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotcommand"
 
 &dataawscciotcommand.DataAwsccIotCommandMandatoryParametersValueConditionsOperandNumberRange {
 
@@ -951,7 +951,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcommand"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotCommand.DataAwsccIotCommandPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcommand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotcommand"
 
 &dataawscciotcommand.DataAwsccIotCommandPayload {
 
@@ -964,7 +964,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcommand"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotCommand.DataAwsccIotCommandPreprocessor.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcommand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotcommand"
 
 &dataawscciotcommand.DataAwsccIotCommandPreprocessor {
 
@@ -977,7 +977,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcommand"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotCommand.DataAwsccIotCommandPreprocessorAwsJsonSubstitution.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcommand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotcommand"
 
 &dataawscciotcommand.DataAwsccIotCommandPreprocessorAwsJsonSubstitution {
 
@@ -990,7 +990,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcommand"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotCommand.DataAwsccIotCommandTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcommand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotcommand"
 
 &dataawscciotcommand.DataAwsccIotCommandTags {
 
@@ -1005,7 +1005,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcommand"
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotCommand.DataAwsccIotCommandMandatoryParametersDefaultValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcommand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotcommand"
 
 dataawscciotcommand.NewDataAwsccIotCommandMandatoryParametersDefaultValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotCommandMandatoryParametersDefaultValueOutputReference
 ```
@@ -1331,7 +1331,7 @@ func InternalValue() DataAwsccIotCommandMandatoryParametersDefaultValue
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotCommand.DataAwsccIotCommandMandatoryParametersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcommand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotcommand"
 
 dataawscciotcommand.NewDataAwsccIotCommandMandatoryParametersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIotCommandMandatoryParametersList
 ```
@@ -1480,7 +1480,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotCommand.DataAwsccIotCommandMandatoryParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcommand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotcommand"
 
 dataawscciotcommand.NewDataAwsccIotCommandMandatoryParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIotCommandMandatoryParametersOutputReference
 ```
@@ -1813,7 +1813,7 @@ func InternalValue() DataAwsccIotCommandMandatoryParameters
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotCommand.DataAwsccIotCommandMandatoryParametersValueConditionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcommand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotcommand"
 
 dataawscciotcommand.NewDataAwsccIotCommandMandatoryParametersValueConditionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIotCommandMandatoryParametersValueConditionsList
 ```
@@ -1962,7 +1962,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotCommand.DataAwsccIotCommandMandatoryParametersValueConditionsOperandNumberRangeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcommand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotcommand"
 
 dataawscciotcommand.NewDataAwsccIotCommandMandatoryParametersValueConditionsOperandNumberRangeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotCommandMandatoryParametersValueConditionsOperandNumberRangeOutputReference
 ```
@@ -2233,7 +2233,7 @@ func InternalValue() DataAwsccIotCommandMandatoryParametersValueConditionsOperan
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotCommand.DataAwsccIotCommandMandatoryParametersValueConditionsOperandOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcommand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotcommand"
 
 dataawscciotcommand.NewDataAwsccIotCommandMandatoryParametersValueConditionsOperandOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotCommandMandatoryParametersValueConditionsOperandOutputReference
 ```
@@ -2537,7 +2537,7 @@ func InternalValue() DataAwsccIotCommandMandatoryParametersValueConditionsOperan
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotCommand.DataAwsccIotCommandMandatoryParametersValueConditionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcommand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotcommand"
 
 dataawscciotcommand.NewDataAwsccIotCommandMandatoryParametersValueConditionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIotCommandMandatoryParametersValueConditionsOutputReference
 ```
@@ -2826,7 +2826,7 @@ func InternalValue() DataAwsccIotCommandMandatoryParametersValueConditions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotCommand.DataAwsccIotCommandMandatoryParametersValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcommand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotcommand"
 
 dataawscciotcommand.NewDataAwsccIotCommandMandatoryParametersValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotCommandMandatoryParametersValueOutputReference
 ```
@@ -3152,7 +3152,7 @@ func InternalValue() DataAwsccIotCommandMandatoryParametersValue
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotCommand.DataAwsccIotCommandPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcommand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotcommand"
 
 dataawscciotcommand.NewDataAwsccIotCommandPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotCommandPayloadOutputReference
 ```
@@ -3423,7 +3423,7 @@ func InternalValue() DataAwsccIotCommandPayload
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotCommand.DataAwsccIotCommandPreprocessorAwsJsonSubstitutionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcommand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotcommand"
 
 dataawscciotcommand.NewDataAwsccIotCommandPreprocessorAwsJsonSubstitutionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotCommandPreprocessorAwsJsonSubstitutionOutputReference
 ```
@@ -3683,7 +3683,7 @@ func InternalValue() DataAwsccIotCommandPreprocessorAwsJsonSubstitution
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotCommand.DataAwsccIotCommandPreprocessorOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcommand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotcommand"
 
 dataawscciotcommand.NewDataAwsccIotCommandPreprocessorOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotCommandPreprocessorOutputReference
 ```
@@ -3943,7 +3943,7 @@ func InternalValue() DataAwsccIotCommandPreprocessor
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotCommand.DataAwsccIotCommandTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcommand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotcommand"
 
 dataawscciotcommand.NewDataAwsccIotCommandTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIotCommandTagsList
 ```
@@ -4092,7 +4092,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotCommand.DataAwsccIotCommandTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcommand"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotcommand"
 
 dataawscciotcommand.NewDataAwsccIotCommandTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIotCommandTagsOutputReference
 ```

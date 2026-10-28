@@ -4,12 +4,12 @@
 
 ### Ec2VpcGatewayAttachment <a name="Ec2VpcGatewayAttachment" id="@cdktn/provider-awscc.ec2VpcGatewayAttachment.Ec2VpcGatewayAttachment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_vpc_gateway_attachment awscc_ec2_vpc_gateway_attachment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_vpc_gateway_attachment awscc_ec2_vpc_gateway_attachment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2VpcGatewayAttachment.Ec2VpcGatewayAttachment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2vpcgatewayattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2vpcgatewayattachment"
 
 ec2vpcgatewayattachment.NewEc2VpcGatewayAttachment(scope Construct, id *string, config Ec2VpcGatewayAttachmentConfig) Ec2VpcGatewayAttachment
 ```
@@ -414,7 +414,7 @@ func ResetVpnGatewayId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.ec2VpcGatewayAttachment.Ec2VpcGatewayAttachment.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2vpcgatewayattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2vpcgatewayattachment"
 
 ec2vpcgatewayattachment.Ec2VpcGatewayAttachment_IsConstruct(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.ec2VpcGatewayAttachment.Ec2VpcGatewayAttachment.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2vpcgatewayattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2vpcgatewayattachment"
 
 ec2vpcgatewayattachment.Ec2VpcGatewayAttachment_IsTerraformElement(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ ec2vpcgatewayattachment.Ec2VpcGatewayAttachment_IsTerraformElement(x interface{}
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.ec2VpcGatewayAttachment.Ec2VpcGatewayAttachment.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2vpcgatewayattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2vpcgatewayattachment"
 
 ec2vpcgatewayattachment.Ec2VpcGatewayAttachment_IsTerraformResource(x interface{}) *bool
 ```
@@ -474,7 +474,7 @@ ec2vpcgatewayattachment.Ec2VpcGatewayAttachment_IsTerraformResource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.ec2VpcGatewayAttachment.Ec2VpcGatewayAttachment.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2vpcgatewayattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2vpcgatewayattachment"
 
 ec2vpcgatewayattachment.Ec2VpcGatewayAttachment_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -503,7 +503,7 @@ The construct id used in the generated config for the Ec2VpcGatewayAttachment to
 
 The id of the existing Ec2VpcGatewayAttachment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_vpc_gateway_attachment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_vpc_gateway_attachment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -791,7 +791,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2VpcGatewayAttachment.Ec2VpcGatewayAttachmentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2vpcgatewayattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2vpcgatewayattachment"
 
 &ec2vpcgatewayattachment.Ec2VpcGatewayAttachmentConfig {
 	Connection: interface{},
@@ -904,7 +904,7 @@ VpcId *string
 
 The ID of the VPC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_vpc_gateway_attachment#vpc_id Ec2VpcGatewayAttachment#vpc_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_vpc_gateway_attachment#vpc_id Ec2VpcGatewayAttachment#vpc_id}
 
 ---
 
@@ -918,7 +918,7 @@ InternetGatewayId *string
 
 The ID of the internet gateway. You must specify either InternetGatewayId or VpnGatewayId, but not both.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_vpc_gateway_attachment#internet_gateway_id Ec2VpcGatewayAttachment#internet_gateway_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_vpc_gateway_attachment#internet_gateway_id Ec2VpcGatewayAttachment#internet_gateway_id}
 
 ---
 
@@ -932,7 +932,7 @@ VpnGatewayId *string
 
 The ID of the virtual private gateway. You must specify either InternetGatewayId or VpnGatewayId, but not both.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_vpc_gateway_attachment#vpn_gateway_id Ec2VpcGatewayAttachment#vpn_gateway_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_vpc_gateway_attachment#vpn_gateway_id Ec2VpcGatewayAttachment#vpn_gateway_id}
 
 ---
 

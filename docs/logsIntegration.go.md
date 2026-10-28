@@ -4,12 +4,12 @@
 
 ### LogsIntegration <a name="LogsIntegration" id="@cdktn/provider-awscc.logsIntegration.LogsIntegration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_integration awscc_logs_integration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_integration awscc_logs_integration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.logsIntegration.LogsIntegration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/logsintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/logsintegration"
 
 logsintegration.NewLogsIntegration(scope Construct, id *string, config LogsIntegrationConfig) LogsIntegration
 ```
@@ -413,7 +413,7 @@ func PutResourceConfig(value LogsIntegrationResourceConfig)
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.logsIntegration.LogsIntegration.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/logsintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/logsintegration"
 
 logsintegration.LogsIntegration_IsConstruct(x interface{}) *bool
 ```
@@ -445,7 +445,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.logsIntegration.LogsIntegration.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/logsintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/logsintegration"
 
 logsintegration.LogsIntegration_IsTerraformElement(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ logsintegration.LogsIntegration_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.logsIntegration.LogsIntegration.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/logsintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/logsintegration"
 
 logsintegration.LogsIntegration_IsTerraformResource(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ logsintegration.LogsIntegration_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.logsIntegration.LogsIntegration.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/logsintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/logsintegration"
 
 logsintegration.LogsIntegration_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -502,7 +502,7 @@ The construct id used in the generated config for the LogsIntegration to import.
 
 The id of the existing LogsIntegration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_integration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_integration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -790,7 +790,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.logsIntegration.LogsIntegrationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/logsintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/logsintegration"
 
 &logsintegration.LogsIntegrationConfig {
 	Connection: interface{},
@@ -802,7 +802,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/logsintegration"
 	Provisioners: *[]interface{},
 	IntegrationName: *string,
 	IntegrationType: *string,
-	ResourceConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.logsIntegration.LogsIntegrationResourceConfig,
+	ResourceConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.logsIntegration.LogsIntegrationResourceConfig,
 }
 ```
 
@@ -903,7 +903,7 @@ IntegrationName *string
 
 User provided identifier for integration, unique to the user account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_integration#integration_name LogsIntegration#integration_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_integration#integration_name LogsIntegration#integration_name}
 
 ---
 
@@ -917,7 +917,7 @@ IntegrationType *string
 
 The type of the Integration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_integration#integration_type LogsIntegration#integration_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_integration#integration_type LogsIntegration#integration_type}
 
 ---
 
@@ -931,7 +931,7 @@ ResourceConfig LogsIntegrationResourceConfig
 
 OpenSearchResourceConfig for the given Integration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_integration#resource_config LogsIntegration#resource_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_integration#resource_config LogsIntegration#resource_config}
 
 ---
 
@@ -940,10 +940,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.logsIntegration.LogsIntegrationResourceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/logsintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/logsintegration"
 
 &logsintegration.LogsIntegrationResourceConfig {
-	OpenSearchResourceConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.logsIntegration.LogsIntegrationResourceConfigOpenSearchResourceConfig,
+	OpenSearchResourceConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.logsIntegration.LogsIntegrationResourceConfigOpenSearchResourceConfig,
 }
 ```
 
@@ -951,7 +951,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/logsintegration"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.logsIntegration.LogsIntegrationResourceConfig.property.openSearchResourceConfig">OpenSearchResourceConfig</a></code> | <code><a href="#@cdktn/provider-awscc.logsIntegration.LogsIntegrationResourceConfigOpenSearchResourceConfig">LogsIntegrationResourceConfigOpenSearchResourceConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_integration#open_search_resource_config LogsIntegration#open_search_resource_config}. |
+| <code><a href="#@cdktn/provider-awscc.logsIntegration.LogsIntegrationResourceConfig.property.openSearchResourceConfig">OpenSearchResourceConfig</a></code> | <code><a href="#@cdktn/provider-awscc.logsIntegration.LogsIntegrationResourceConfigOpenSearchResourceConfig">LogsIntegrationResourceConfigOpenSearchResourceConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_integration#open_search_resource_config LogsIntegration#open_search_resource_config}. |
 
 ---
 
@@ -963,7 +963,7 @@ OpenSearchResourceConfig LogsIntegrationResourceConfigOpenSearchResourceConfig
 
 - *Type:* <a href="#@cdktn/provider-awscc.logsIntegration.LogsIntegrationResourceConfigOpenSearchResourceConfig">LogsIntegrationResourceConfigOpenSearchResourceConfig</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_integration#open_search_resource_config LogsIntegration#open_search_resource_config}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_integration#open_search_resource_config LogsIntegration#open_search_resource_config}.
 
 ---
 
@@ -972,7 +972,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.logsIntegration.LogsIntegrationResourceConfigOpenSearchResourceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/logsintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/logsintegration"
 
 &logsintegration.LogsIntegrationResourceConfigOpenSearchResourceConfig {
 	ApplicationArn: *string,
@@ -987,11 +987,11 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/logsintegration"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.logsIntegration.LogsIntegrationResourceConfigOpenSearchResourceConfig.property.applicationArn">ApplicationArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_integration#application_arn LogsIntegration#application_arn}. |
-| <code><a href="#@cdktn/provider-awscc.logsIntegration.LogsIntegrationResourceConfigOpenSearchResourceConfig.property.dashboardViewerPrincipals">DashboardViewerPrincipals</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_integration#dashboard_viewer_principals LogsIntegration#dashboard_viewer_principals}. |
-| <code><a href="#@cdktn/provider-awscc.logsIntegration.LogsIntegrationResourceConfigOpenSearchResourceConfig.property.dataSourceRoleArn">DataSourceRoleArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_integration#data_source_role_arn LogsIntegration#data_source_role_arn}. |
-| <code><a href="#@cdktn/provider-awscc.logsIntegration.LogsIntegrationResourceConfigOpenSearchResourceConfig.property.kmsKeyArn">KmsKeyArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_integration#kms_key_arn LogsIntegration#kms_key_arn}. |
-| <code><a href="#@cdktn/provider-awscc.logsIntegration.LogsIntegrationResourceConfigOpenSearchResourceConfig.property.retentionDays">RetentionDays</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_integration#retention_days LogsIntegration#retention_days}. |
+| <code><a href="#@cdktn/provider-awscc.logsIntegration.LogsIntegrationResourceConfigOpenSearchResourceConfig.property.applicationArn">ApplicationArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_integration#application_arn LogsIntegration#application_arn}. |
+| <code><a href="#@cdktn/provider-awscc.logsIntegration.LogsIntegrationResourceConfigOpenSearchResourceConfig.property.dashboardViewerPrincipals">DashboardViewerPrincipals</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_integration#dashboard_viewer_principals LogsIntegration#dashboard_viewer_principals}. |
+| <code><a href="#@cdktn/provider-awscc.logsIntegration.LogsIntegrationResourceConfigOpenSearchResourceConfig.property.dataSourceRoleArn">DataSourceRoleArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_integration#data_source_role_arn LogsIntegration#data_source_role_arn}. |
+| <code><a href="#@cdktn/provider-awscc.logsIntegration.LogsIntegrationResourceConfigOpenSearchResourceConfig.property.kmsKeyArn">KmsKeyArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_integration#kms_key_arn LogsIntegration#kms_key_arn}. |
+| <code><a href="#@cdktn/provider-awscc.logsIntegration.LogsIntegrationResourceConfigOpenSearchResourceConfig.property.retentionDays">RetentionDays</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_integration#retention_days LogsIntegration#retention_days}. |
 
 ---
 
@@ -1003,7 +1003,7 @@ ApplicationArn *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_integration#application_arn LogsIntegration#application_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_integration#application_arn LogsIntegration#application_arn}.
 
 ---
 
@@ -1015,7 +1015,7 @@ DashboardViewerPrincipals *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_integration#dashboard_viewer_principals LogsIntegration#dashboard_viewer_principals}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_integration#dashboard_viewer_principals LogsIntegration#dashboard_viewer_principals}.
 
 ---
 
@@ -1027,7 +1027,7 @@ DataSourceRoleArn *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_integration#data_source_role_arn LogsIntegration#data_source_role_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_integration#data_source_role_arn LogsIntegration#data_source_role_arn}.
 
 ---
 
@@ -1039,7 +1039,7 @@ KmsKeyArn *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_integration#kms_key_arn LogsIntegration#kms_key_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_integration#kms_key_arn LogsIntegration#kms_key_arn}.
 
 ---
 
@@ -1051,7 +1051,7 @@ RetentionDays *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_integration#retention_days LogsIntegration#retention_days}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_integration#retention_days LogsIntegration#retention_days}.
 
 ---
 
@@ -1062,7 +1062,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.logsIntegration.LogsIntegrationResourceConfigOpenSearchResourceConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/logsintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/logsintegration"
 
 logsintegration.NewLogsIntegrationResourceConfigOpenSearchResourceConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LogsIntegrationResourceConfigOpenSearchResourceConfigOutputReference
 ```
@@ -1456,7 +1456,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.logsIntegration.LogsIntegrationResourceConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/logsintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/logsintegration"
 
 logsintegration.NewLogsIntegrationResourceConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LogsIntegrationResourceConfigOutputReference
 ```

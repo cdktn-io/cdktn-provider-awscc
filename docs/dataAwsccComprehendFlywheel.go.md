@@ -4,12 +4,12 @@
 
 ### DataAwsccComprehendFlywheel <a name="DataAwsccComprehendFlywheel" id="@cdktn/provider-awscc.dataAwsccComprehendFlywheel.DataAwsccComprehendFlywheel"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/comprehend_flywheel awscc_comprehend_flywheel}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/comprehend_flywheel awscc_comprehend_flywheel}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccComprehendFlywheel.DataAwsccComprehendFlywheel.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehendflywheel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehendflywheel"
 
 dataawscccomprehendflywheel.NewDataAwsccComprehendFlywheel(scope Construct, id *string, config DataAwsccComprehendFlywheelConfig) DataAwsccComprehendFlywheel
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccComprehendFlywheel.DataAwsccComprehendFlywheel.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehendflywheel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehendflywheel"
 
 dataawscccomprehendflywheel.DataAwsccComprehendFlywheel_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccComprehendFlywheel.DataAwsccComprehendFlywheel.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehendflywheel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehendflywheel"
 
 dataawscccomprehendflywheel.DataAwsccComprehendFlywheel_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccomprehendflywheel.DataAwsccComprehendFlywheel_IsTerraformElement(x int
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccComprehendFlywheel.DataAwsccComprehendFlywheel.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehendflywheel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehendflywheel"
 
 dataawscccomprehendflywheel.DataAwsccComprehendFlywheel_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccomprehendflywheel.DataAwsccComprehendFlywheel_IsTerraformDataSource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccComprehendFlywheel.DataAwsccComprehendFlywheel.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehendflywheel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehendflywheel"
 
 dataawscccomprehendflywheel.DataAwsccComprehendFlywheel_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccComprehendFlywhee
 
 The id of the existing DataAwsccComprehendFlywheel that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/comprehend_flywheel#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/comprehend_flywheel#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -686,7 +686,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccComprehendFlywheel.DataAwsccComprehendFlywheelConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehendflywheel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehendflywheel"
 
 &dataawscccomprehendflywheel.DataAwsccComprehendFlywheelConfig {
 	Connection: interface{},
@@ -795,7 +795,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/comprehend_flywheel#id DataAwsccComprehendFlywheel#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/comprehend_flywheel#id DataAwsccComprehendFlywheel#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -807,7 +807,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccComprehendFlywheel.DataAwsccComprehendFlywheelDataSecurityConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehendflywheel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehendflywheel"
 
 &dataawscccomprehendflywheel.DataAwsccComprehendFlywheelDataSecurityConfig {
 
@@ -820,7 +820,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehendfly
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccComprehendFlywheel.DataAwsccComprehendFlywheelDataSecurityConfigVpcConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehendflywheel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehendflywheel"
 
 &dataawscccomprehendflywheel.DataAwsccComprehendFlywheelDataSecurityConfigVpcConfig {
 
@@ -833,7 +833,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehendfly
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccComprehendFlywheel.DataAwsccComprehendFlywheelTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehendflywheel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehendflywheel"
 
 &dataawscccomprehendflywheel.DataAwsccComprehendFlywheelTags {
 
@@ -846,7 +846,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehendfly
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccComprehendFlywheel.DataAwsccComprehendFlywheelTaskConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehendflywheel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehendflywheel"
 
 &dataawscccomprehendflywheel.DataAwsccComprehendFlywheelTaskConfig {
 
@@ -859,7 +859,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehendfly
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccComprehendFlywheel.DataAwsccComprehendFlywheelTaskConfigDocumentClassificationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehendflywheel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehendflywheel"
 
 &dataawscccomprehendflywheel.DataAwsccComprehendFlywheelTaskConfigDocumentClassificationConfig {
 
@@ -872,7 +872,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehendfly
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccComprehendFlywheel.DataAwsccComprehendFlywheelTaskConfigEntityRecognitionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehendflywheel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehendflywheel"
 
 &dataawscccomprehendflywheel.DataAwsccComprehendFlywheelTaskConfigEntityRecognitionConfig {
 
@@ -885,7 +885,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehendfly
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccComprehendFlywheel.DataAwsccComprehendFlywheelTaskConfigEntityRecognitionConfigEntityTypes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehendflywheel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehendflywheel"
 
 &dataawscccomprehendflywheel.DataAwsccComprehendFlywheelTaskConfigEntityRecognitionConfigEntityTypes {
 
@@ -900,7 +900,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehendfly
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccComprehendFlywheel.DataAwsccComprehendFlywheelDataSecurityConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehendflywheel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehendflywheel"
 
 dataawscccomprehendflywheel.NewDataAwsccComprehendFlywheelDataSecurityConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccComprehendFlywheelDataSecurityConfigOutputReference
 ```
@@ -1193,7 +1193,7 @@ func InternalValue() DataAwsccComprehendFlywheelDataSecurityConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccComprehendFlywheel.DataAwsccComprehendFlywheelDataSecurityConfigVpcConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehendflywheel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehendflywheel"
 
 dataawscccomprehendflywheel.NewDataAwsccComprehendFlywheelDataSecurityConfigVpcConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccComprehendFlywheelDataSecurityConfigVpcConfigOutputReference
 ```
@@ -1464,7 +1464,7 @@ func InternalValue() DataAwsccComprehendFlywheelDataSecurityConfigVpcConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccComprehendFlywheel.DataAwsccComprehendFlywheelTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehendflywheel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehendflywheel"
 
 dataawscccomprehendflywheel.NewDataAwsccComprehendFlywheelTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccComprehendFlywheelTagsList
 ```
@@ -1613,7 +1613,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccComprehendFlywheel.DataAwsccComprehendFlywheelTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehendflywheel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehendflywheel"
 
 dataawscccomprehendflywheel.NewDataAwsccComprehendFlywheelTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccComprehendFlywheelTagsOutputReference
 ```
@@ -1902,7 +1902,7 @@ func InternalValue() DataAwsccComprehendFlywheelTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccComprehendFlywheel.DataAwsccComprehendFlywheelTaskConfigDocumentClassificationConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehendflywheel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehendflywheel"
 
 dataawscccomprehendflywheel.NewDataAwsccComprehendFlywheelTaskConfigDocumentClassificationConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccComprehendFlywheelTaskConfigDocumentClassificationConfigOutputReference
 ```
@@ -2173,7 +2173,7 @@ func InternalValue() DataAwsccComprehendFlywheelTaskConfigDocumentClassification
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccComprehendFlywheel.DataAwsccComprehendFlywheelTaskConfigEntityRecognitionConfigEntityTypesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehendflywheel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehendflywheel"
 
 dataawscccomprehendflywheel.NewDataAwsccComprehendFlywheelTaskConfigEntityRecognitionConfigEntityTypesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccComprehendFlywheelTaskConfigEntityRecognitionConfigEntityTypesList
 ```
@@ -2322,7 +2322,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccComprehendFlywheel.DataAwsccComprehendFlywheelTaskConfigEntityRecognitionConfigEntityTypesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehendflywheel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehendflywheel"
 
 dataawscccomprehendflywheel.NewDataAwsccComprehendFlywheelTaskConfigEntityRecognitionConfigEntityTypesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccComprehendFlywheelTaskConfigEntityRecognitionConfigEntityTypesOutputReference
 ```
@@ -2600,7 +2600,7 @@ func InternalValue() DataAwsccComprehendFlywheelTaskConfigEntityRecognitionConfi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccComprehendFlywheel.DataAwsccComprehendFlywheelTaskConfigEntityRecognitionConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehendflywheel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehendflywheel"
 
 dataawscccomprehendflywheel.NewDataAwsccComprehendFlywheelTaskConfigEntityRecognitionConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccComprehendFlywheelTaskConfigEntityRecognitionConfigOutputReference
 ```
@@ -2860,7 +2860,7 @@ func InternalValue() DataAwsccComprehendFlywheelTaskConfigEntityRecognitionConfi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccComprehendFlywheel.DataAwsccComprehendFlywheelTaskConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehendflywheel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehendflywheel"
 
 dataawscccomprehendflywheel.NewDataAwsccComprehendFlywheelTaskConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccComprehendFlywheelTaskConfigOutputReference
 ```

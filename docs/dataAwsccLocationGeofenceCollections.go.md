@@ -4,12 +4,12 @@
 
 ### DataAwsccLocationGeofenceCollections <a name="DataAwsccLocationGeofenceCollections" id="@cdktn/provider-awscc.dataAwsccLocationGeofenceCollections.DataAwsccLocationGeofenceCollections"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/location_geofence_collections awscc_location_geofence_collections}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/location_geofence_collections awscc_location_geofence_collections}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLocationGeofenceCollections.DataAwsccLocationGeofenceCollections.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationgeofencecollections"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationgeofencecollections"
 
 dataawscclocationgeofencecollections.NewDataAwsccLocationGeofenceCollections(scope Construct, id *string, config DataAwsccLocationGeofenceCollectionsConfig) DataAwsccLocationGeofenceCollections
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccLocationGeofenceCollections.DataAwsccLocationGeofenceCollections.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationgeofencecollections"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationgeofencecollections"
 
 dataawscclocationgeofencecollections.DataAwsccLocationGeofenceCollections_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccLocationGeofenceCollections.DataAwsccLocationGeofenceCollections.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationgeofencecollections"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationgeofencecollections"
 
 dataawscclocationgeofencecollections.DataAwsccLocationGeofenceCollections_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscclocationgeofencecollections.DataAwsccLocationGeofenceCollections_IsTerr
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccLocationGeofenceCollections.DataAwsccLocationGeofenceCollections.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationgeofencecollections"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationgeofencecollections"
 
 dataawscclocationgeofencecollections.DataAwsccLocationGeofenceCollections_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscclocationgeofencecollections.DataAwsccLocationGeofenceCollections_IsTerr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccLocationGeofenceCollections.DataAwsccLocationGeofenceCollections.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationgeofencecollections"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationgeofencecollections"
 
 dataawscclocationgeofencecollections.DataAwsccLocationGeofenceCollections_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLocationGeofenceC
 
 The id of the existing DataAwsccLocationGeofenceCollections that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/location_geofence_collections#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/location_geofence_collections#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLocationGeofenceCollections.DataAwsccLocationGeofenceCollectionsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationgeofencecollections"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationgeofencecollections"
 
 &dataawscclocationgeofencecollections.DataAwsccLocationGeofenceCollectionsConfig {
 	Connection: interface{},

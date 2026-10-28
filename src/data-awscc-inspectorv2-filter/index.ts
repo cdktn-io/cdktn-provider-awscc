@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/inspectorv2_filter
+// https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/inspectorv2_filter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccInspectorv2FilterConfig extends cdktn.TerraformMetaArg
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/inspectorv2_filter#id DataAwsccInspectorv2Filter#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/inspectorv2_filter#id DataAwsccInspectorv2Filter#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -900,6 +900,86 @@ export class DataAwsccInspectorv2FilterFilterCriteriaEcrImageHashList extends cd
   */
   public get(index: number): DataAwsccInspectorv2FilterFilterCriteriaEcrImageHashOutputReference {
     return new DataAwsccInspectorv2FilterFilterCriteriaEcrImageHashOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCount {
+}
+
+export function dataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountToTerraform(struct?: DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCount): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountToHclTerraform(struct?: DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCount): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCount | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCount | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // lower_inclusive - computed: true, optional: false, required: false
+  public get lowerInclusive() {
+    return this.getNumberAttribute('lower_inclusive');
+  }
+
+  // upper_inclusive - computed: true, optional: false, required: false
+  public get upperInclusive() {
+    return this.getNumberAttribute('upper_inclusive');
+  }
+}
+
+export class DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountList extends cdktn.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference {
+    return new DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
 export interface DataAwsccInspectorv2FilterFilterCriteriaEcrImagePushedAt {
@@ -4012,6 +4092,12 @@ export class DataAwsccInspectorv2FilterFilterCriteriaOutputReference extends cdk
     return this._ecrImageHash;
   }
 
+  // ecr_image_in_use_count - computed: true, optional: false, required: false
+  private _ecrImageInUseCount = new DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountList(this, "ecr_image_in_use_count", false);
+  public get ecrImageInUseCount() {
+    return this._ecrImageInUseCount;
+  }
+
   // ecr_image_pushed_at - computed: true, optional: false, required: false
   private _ecrImagePushedAt = new DataAwsccInspectorv2FilterFilterCriteriaEcrImagePushedAtList(this, "ecr_image_pushed_at", false);
   public get ecrImagePushedAt() {
@@ -4200,7 +4286,7 @@ export class DataAwsccInspectorv2FilterFilterCriteriaOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/inspectorv2_filter awscc_inspectorv2_filter}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/inspectorv2_filter awscc_inspectorv2_filter}
 */
 export class DataAwsccInspectorv2Filter extends cdktn.TerraformDataSource {
 
@@ -4216,7 +4302,7 @@ export class DataAwsccInspectorv2Filter extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccInspectorv2Filter resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccInspectorv2Filter to import
-  * @param importFromId The id of the existing DataAwsccInspectorv2Filter that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/inspectorv2_filter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccInspectorv2Filter that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/inspectorv2_filter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccInspectorv2Filter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -4228,7 +4314,7 @@ export class DataAwsccInspectorv2Filter extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/inspectorv2_filter awscc_inspectorv2_filter} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/inspectorv2_filter awscc_inspectorv2_filter} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4239,7 +4325,7 @@ export class DataAwsccInspectorv2Filter extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_inspectorv2_filter',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.106.0',
+        providerVersion: '1.107.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

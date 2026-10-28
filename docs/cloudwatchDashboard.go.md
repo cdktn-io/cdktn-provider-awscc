@@ -4,12 +4,12 @@
 
 ### CloudwatchDashboard <a name="CloudwatchDashboard" id="@cdktn/provider-awscc.cloudwatchDashboard.CloudwatchDashboard"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_dashboard awscc_cloudwatch_dashboard}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_dashboard awscc_cloudwatch_dashboard}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudwatchDashboard.CloudwatchDashboard.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudwatchdashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudwatchdashboard"
 
 cloudwatchdashboard.NewCloudwatchDashboard(scope Construct, id *string, config CloudwatchDashboardConfig) CloudwatchDashboard
 ```
@@ -427,7 +427,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.cloudwatchDashboard.CloudwatchDashboard.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudwatchdashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudwatchdashboard"
 
 cloudwatchdashboard.CloudwatchDashboard_IsConstruct(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.cloudwatchDashboard.CloudwatchDashboard.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudwatchdashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudwatchdashboard"
 
 cloudwatchdashboard.CloudwatchDashboard_IsTerraformElement(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ cloudwatchdashboard.CloudwatchDashboard_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.cloudwatchDashboard.CloudwatchDashboard.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudwatchdashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudwatchdashboard"
 
 cloudwatchdashboard.CloudwatchDashboard_IsTerraformResource(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ cloudwatchdashboard.CloudwatchDashboard_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.cloudwatchDashboard.CloudwatchDashboard.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudwatchdashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudwatchdashboard"
 
 cloudwatchdashboard.CloudwatchDashboard_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -516,7 +516,7 @@ The construct id used in the generated config for the CloudwatchDashboard to imp
 
 The id of the existing CloudwatchDashboard that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_dashboard#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_dashboard#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -793,7 +793,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudwatchDashboard.CloudwatchDashboardConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudwatchdashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudwatchdashboard"
 
 &cloudwatchdashboard.CloudwatchDashboardConfig {
 	Connection: interface{},
@@ -906,7 +906,7 @@ DashboardBody *string
 
 The detailed information about the dashboard in JSON format, including the widgets to include and their location on the dashboard.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_dashboard#dashboard_body CloudwatchDashboard#dashboard_body}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_dashboard#dashboard_body CloudwatchDashboard#dashboard_body}
 
 ---
 
@@ -922,7 +922,7 @@ The name of the dashboard.
 
 The name must be between 1 and 255 characters. If you do not specify a name, one will be generated automatically.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_dashboard#dashboard_name CloudwatchDashboard#dashboard_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_dashboard#dashboard_name CloudwatchDashboard#dashboard_name}
 
 ---
 
@@ -938,7 +938,7 @@ A list of key-value pairs to associate with the cloudwatch dashboard.
 
 You can associate up to 50 tags with a dashboard
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_dashboard#tags CloudwatchDashboard#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_dashboard#tags CloudwatchDashboard#tags}
 
 ---
 
@@ -947,7 +947,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudwatchDashboard.CloudwatchDashboardTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudwatchdashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudwatchdashboard"
 
 &cloudwatchdashboard.CloudwatchDashboardTags {
 	Key: *string,
@@ -976,7 +976,7 @@ A unique identifier for the tag.
 
 The combination of tag keys and values can help you organize and categorize your resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_dashboard#key CloudwatchDashboard#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_dashboard#key CloudwatchDashboard#key}
 
 ---
 
@@ -990,7 +990,7 @@ Value *string
 
 The value for the specified tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_dashboard#value CloudwatchDashboard#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_dashboard#value CloudwatchDashboard#value}
 
 ---
 
@@ -1001,7 +1001,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudwatchDashboard.CloudwatchDashboardTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudwatchdashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudwatchdashboard"
 
 cloudwatchdashboard.NewCloudwatchDashboardTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CloudwatchDashboardTagsList
 ```
@@ -1161,7 +1161,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudwatchDashboard.CloudwatchDashboardTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudwatchdashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudwatchdashboard"
 
 cloudwatchdashboard.NewCloudwatchDashboardTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CloudwatchDashboardTagsOutputReference
 ```

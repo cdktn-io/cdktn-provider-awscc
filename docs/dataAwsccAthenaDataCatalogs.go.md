@@ -4,12 +4,12 @@
 
 ### DataAwsccAthenaDataCatalogs <a name="DataAwsccAthenaDataCatalogs" id="@cdktn/provider-awscc.dataAwsccAthenaDataCatalogs.DataAwsccAthenaDataCatalogs"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/athena_data_catalogs awscc_athena_data_catalogs}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/athena_data_catalogs awscc_athena_data_catalogs}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAthenaDataCatalogs.DataAwsccAthenaDataCatalogs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccathenadatacatalogs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccathenadatacatalogs"
 
 dataawsccathenadatacatalogs.NewDataAwsccAthenaDataCatalogs(scope Construct, id *string, config DataAwsccAthenaDataCatalogsConfig) DataAwsccAthenaDataCatalogs
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccAthenaDataCatalogs.DataAwsccAthenaDataCatalogs.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccathenadatacatalogs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccathenadatacatalogs"
 
 dataawsccathenadatacatalogs.DataAwsccAthenaDataCatalogs_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccAthenaDataCatalogs.DataAwsccAthenaDataCatalogs.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccathenadatacatalogs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccathenadatacatalogs"
 
 dataawsccathenadatacatalogs.DataAwsccAthenaDataCatalogs_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccathenadatacatalogs.DataAwsccAthenaDataCatalogs_IsTerraformElement(x int
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccAthenaDataCatalogs.DataAwsccAthenaDataCatalogs.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccathenadatacatalogs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccathenadatacatalogs"
 
 dataawsccathenadatacatalogs.DataAwsccAthenaDataCatalogs_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccathenadatacatalogs.DataAwsccAthenaDataCatalogs_IsTerraformDataSource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccAthenaDataCatalogs.DataAwsccAthenaDataCatalogs.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccathenadatacatalogs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccathenadatacatalogs"
 
 dataawsccathenadatacatalogs.DataAwsccAthenaDataCatalogs_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccAthenaDataCatalog
 
 The id of the existing DataAwsccAthenaDataCatalogs that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/athena_data_catalogs#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/athena_data_catalogs#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAthenaDataCatalogs.DataAwsccAthenaDataCatalogsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccathenadatacatalogs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccathenadatacatalogs"
 
 &dataawsccathenadatacatalogs.DataAwsccAthenaDataCatalogsConfig {
 	Connection: interface{},

@@ -4,12 +4,12 @@
 
 ### DataAwsccConnectcampaignsv2Campaign <a name="DataAwsccConnectcampaignsv2Campaign" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2Campaign"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connectcampaignsv2_campaign awscc_connectcampaignsv2_campaign}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connectcampaignsv2_campaign awscc_connectcampaignsv2_campaign}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2Campaign.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 dataawsccconnectcampaignsv2campaign.NewDataAwsccConnectcampaignsv2Campaign(scope Construct, id *string, config DataAwsccConnectcampaignsv2CampaignConfig) DataAwsccConnectcampaignsv2Campaign
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2Campaign.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 dataawsccconnectcampaignsv2campaign.DataAwsccConnectcampaignsv2Campaign_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2Campaign.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 dataawsccconnectcampaignsv2campaign.DataAwsccConnectcampaignsv2Campaign_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccconnectcampaignsv2campaign.DataAwsccConnectcampaignsv2Campaign_IsTerraf
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2Campaign.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 dataawsccconnectcampaignsv2campaign.DataAwsccConnectcampaignsv2Campaign_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccconnectcampaignsv2campaign.DataAwsccConnectcampaignsv2Campaign_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2Campaign.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 dataawsccconnectcampaignsv2campaign.DataAwsccConnectcampaignsv2Campaign_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccConnectcampaignsv
 
 The id of the existing DataAwsccConnectcampaignsv2Campaign that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connectcampaignsv2_campaign#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connectcampaignsv2_campaign#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -719,7 +719,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 &dataawsccconnectcampaignsv2campaign.DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfig {
 
@@ -732,7 +732,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampai
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigEmail.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 &dataawsccconnectcampaignsv2campaign.DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigEmail {
 
@@ -745,7 +745,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampai
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigEmailDefaultOutboundConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 &dataawsccconnectcampaignsv2campaign.DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigEmailDefaultOutboundConfig {
 
@@ -758,7 +758,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampai
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigEmailOutboundMode.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 &dataawsccconnectcampaignsv2campaign.DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigEmailOutboundMode {
 
@@ -771,7 +771,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampai
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigSms.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 &dataawsccconnectcampaignsv2campaign.DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigSms {
 
@@ -784,7 +784,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampai
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigSmsDefaultOutboundConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 &dataawsccconnectcampaignsv2campaign.DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigSmsDefaultOutboundConfig {
 
@@ -797,7 +797,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampai
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigSmsOutboundMode.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 &dataawsccconnectcampaignsv2campaign.DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigSmsOutboundMode {
 
@@ -810,7 +810,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampai
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigTelephony.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 &dataawsccconnectcampaignsv2campaign.DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigTelephony {
 
@@ -823,7 +823,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampai
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigTelephonyDefaultOutboundConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 &dataawsccconnectcampaignsv2campaign.DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigTelephonyDefaultOutboundConfig {
 
@@ -836,7 +836,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampai
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigTelephonyDefaultOutboundConfigAnswerMachineDetectionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 &dataawsccconnectcampaignsv2campaign.DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigTelephonyDefaultOutboundConfigAnswerMachineDetectionConfig {
 
@@ -849,7 +849,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampai
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundMode.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 &dataawsccconnectcampaignsv2campaign.DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundMode {
 
@@ -862,7 +862,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampai
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundModePredictiveConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 &dataawsccconnectcampaignsv2campaign.DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundModePredictiveConfig {
 
@@ -875,7 +875,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampai
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundModePreviewConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 &dataawsccconnectcampaignsv2campaign.DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundModePreviewConfig {
 
@@ -888,7 +888,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampai
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundModePreviewConfigTimeoutConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 &dataawsccconnectcampaignsv2campaign.DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundModePreviewConfigTimeoutConfig {
 
@@ -901,7 +901,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampai
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundModeProgressiveConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 &dataawsccconnectcampaignsv2campaign.DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundModeProgressiveConfig {
 
@@ -914,7 +914,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampai
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigWhatsApp.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 &dataawsccconnectcampaignsv2campaign.DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigWhatsApp {
 
@@ -927,7 +927,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampai
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigWhatsAppDefaultOutboundConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 &dataawsccconnectcampaignsv2campaign.DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigWhatsAppDefaultOutboundConfig {
 
@@ -940,7 +940,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampai
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigWhatsAppOutboundMode.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 &dataawsccconnectcampaignsv2campaign.DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigWhatsAppOutboundMode {
 
@@ -953,7 +953,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampai
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationLimitsOverride.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 &dataawsccconnectcampaignsv2campaign.DataAwsccConnectcampaignsv2CampaignCommunicationLimitsOverride {
 
@@ -966,7 +966,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampai
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationLimitsOverrideAllChannelsSubtypes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 &dataawsccconnectcampaignsv2campaign.DataAwsccConnectcampaignsv2CampaignCommunicationLimitsOverrideAllChannelsSubtypes {
 
@@ -979,7 +979,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampai
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationLimitsOverrideAllChannelsSubtypesCommunicationLimitListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 &dataawsccconnectcampaignsv2campaign.DataAwsccConnectcampaignsv2CampaignCommunicationLimitsOverrideAllChannelsSubtypesCommunicationLimitListStruct {
 
@@ -992,7 +992,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampai
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 &dataawsccconnectcampaignsv2campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfig {
 
@@ -1005,7 +1005,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampai
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigEmail.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 &dataawsccconnectcampaignsv2campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigEmail {
 
@@ -1018,7 +1018,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampai
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigEmailOpenHours.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 &dataawsccconnectcampaignsv2campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigEmailOpenHours {
 
@@ -1031,7 +1031,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampai
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigEmailOpenHoursDailyHours.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 &dataawsccconnectcampaignsv2campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigEmailOpenHoursDailyHours {
 
@@ -1044,7 +1044,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampai
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigEmailOpenHoursDailyHoursValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 &dataawsccconnectcampaignsv2campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigEmailOpenHoursDailyHoursValue {
 
@@ -1057,7 +1057,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampai
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigEmailRestrictedPeriods.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 &dataawsccconnectcampaignsv2campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigEmailRestrictedPeriods {
 
@@ -1070,7 +1070,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampai
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigEmailRestrictedPeriodsRestrictedPeriodListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 &dataawsccconnectcampaignsv2campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigEmailRestrictedPeriodsRestrictedPeriodListStruct {
 
@@ -1083,7 +1083,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampai
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigLocalTimeZoneConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 &dataawsccconnectcampaignsv2campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigLocalTimeZoneConfig {
 
@@ -1096,7 +1096,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampai
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigSms.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 &dataawsccconnectcampaignsv2campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigSms {
 
@@ -1109,7 +1109,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampai
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigSmsOpenHours.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 &dataawsccconnectcampaignsv2campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigSmsOpenHours {
 
@@ -1122,7 +1122,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampai
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigSmsOpenHoursDailyHours.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 &dataawsccconnectcampaignsv2campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigSmsOpenHoursDailyHours {
 
@@ -1135,7 +1135,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampai
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigSmsOpenHoursDailyHoursValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 &dataawsccconnectcampaignsv2campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigSmsOpenHoursDailyHoursValue {
 
@@ -1148,7 +1148,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampai
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigSmsRestrictedPeriods.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 &dataawsccconnectcampaignsv2campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigSmsRestrictedPeriods {
 
@@ -1161,7 +1161,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampai
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigSmsRestrictedPeriodsRestrictedPeriodListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 &dataawsccconnectcampaignsv2campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigSmsRestrictedPeriodsRestrictedPeriodListStruct {
 
@@ -1174,7 +1174,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampai
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephony.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 &dataawsccconnectcampaignsv2campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephony {
 
@@ -1187,7 +1187,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampai
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyOpenHours.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 &dataawsccconnectcampaignsv2campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyOpenHours {
 
@@ -1200,7 +1200,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampai
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyOpenHoursDailyHours.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 &dataawsccconnectcampaignsv2campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyOpenHoursDailyHours {
 
@@ -1213,7 +1213,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampai
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyOpenHoursDailyHoursValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 &dataawsccconnectcampaignsv2campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyOpenHoursDailyHoursValue {
 
@@ -1226,7 +1226,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampai
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyRestrictedPeriods.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 &dataawsccconnectcampaignsv2campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyRestrictedPeriods {
 
@@ -1239,7 +1239,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampai
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyRestrictedPeriodsRestrictedPeriodListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 &dataawsccconnectcampaignsv2campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyRestrictedPeriodsRestrictedPeriodListStruct {
 
@@ -1252,7 +1252,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampai
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigWhatsApp.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 &dataawsccconnectcampaignsv2campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigWhatsApp {
 
@@ -1265,7 +1265,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampai
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigWhatsAppOpenHours.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 &dataawsccconnectcampaignsv2campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigWhatsAppOpenHours {
 
@@ -1278,7 +1278,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampai
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigWhatsAppOpenHoursDailyHours.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 &dataawsccconnectcampaignsv2campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigWhatsAppOpenHoursDailyHours {
 
@@ -1291,7 +1291,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampai
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigWhatsAppOpenHoursDailyHoursValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 &dataawsccconnectcampaignsv2campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigWhatsAppOpenHoursDailyHoursValue {
 
@@ -1304,7 +1304,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampai
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigWhatsAppRestrictedPeriods.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 &dataawsccconnectcampaignsv2campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigWhatsAppRestrictedPeriods {
 
@@ -1317,7 +1317,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampai
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigWhatsAppRestrictedPeriodsRestrictedPeriodListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 &dataawsccconnectcampaignsv2campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigWhatsAppRestrictedPeriodsRestrictedPeriodListStruct {
 
@@ -1330,7 +1330,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampai
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 &dataawsccconnectcampaignsv2campaign.DataAwsccConnectcampaignsv2CampaignConfig {
 	Connection: interface{},
@@ -1439,7 +1439,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connectcampaignsv2_campaign#id DataAwsccConnectcampaignsv2Campaign#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connectcampaignsv2_campaign#id DataAwsccConnectcampaignsv2Campaign#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1451,7 +1451,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignEntryLimitsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 &dataawsccconnectcampaignsv2campaign.DataAwsccConnectcampaignsv2CampaignEntryLimitsConfig {
 
@@ -1464,7 +1464,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampai
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignSchedule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 &dataawsccconnectcampaignsv2campaign.DataAwsccConnectcampaignsv2CampaignSchedule {
 
@@ -1477,7 +1477,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampai
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 &dataawsccconnectcampaignsv2campaign.DataAwsccConnectcampaignsv2CampaignSource {
 
@@ -1490,7 +1490,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampai
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignSourceEventTrigger.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 &dataawsccconnectcampaignsv2campaign.DataAwsccConnectcampaignsv2CampaignSourceEventTrigger {
 
@@ -1503,7 +1503,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampai
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 &dataawsccconnectcampaignsv2campaign.DataAwsccConnectcampaignsv2CampaignTags {
 
@@ -1518,7 +1518,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampai
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigEmailDefaultOutboundConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 dataawsccconnectcampaignsv2campaign.NewDataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigEmailDefaultOutboundConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigEmailDefaultOutboundConfigOutputReference
 ```
@@ -1800,7 +1800,7 @@ func InternalValue() DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigEmai
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigEmailOutboundModeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 dataawsccconnectcampaignsv2campaign.NewDataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigEmailOutboundModeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigEmailOutboundModeOutputReference
 ```
@@ -2060,7 +2060,7 @@ func InternalValue() DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigEmai
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigEmailOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 dataawsccconnectcampaignsv2campaign.NewDataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigEmailOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigEmailOutputReference
 ```
@@ -2342,7 +2342,7 @@ func InternalValue() DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigEmai
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 dataawsccconnectcampaignsv2campaign.NewDataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigOutputReference
 ```
@@ -2635,7 +2635,7 @@ func InternalValue() DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigSmsDefaultOutboundConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 dataawsccconnectcampaignsv2campaign.NewDataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigSmsDefaultOutboundConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigSmsDefaultOutboundConfigOutputReference
 ```
@@ -2906,7 +2906,7 @@ func InternalValue() DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigSmsD
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigSmsOutboundModeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 dataawsccconnectcampaignsv2campaign.NewDataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigSmsOutboundModeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigSmsOutboundModeOutputReference
 ```
@@ -3166,7 +3166,7 @@ func InternalValue() DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigSmsO
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigSmsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 dataawsccconnectcampaignsv2campaign.NewDataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigSmsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigSmsOutputReference
 ```
@@ -3448,7 +3448,7 @@ func InternalValue() DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigSms
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigTelephonyDefaultOutboundConfigAnswerMachineDetectionConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 dataawsccconnectcampaignsv2campaign.NewDataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigTelephonyDefaultOutboundConfigAnswerMachineDetectionConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigTelephonyDefaultOutboundConfigAnswerMachineDetectionConfigOutputReference
 ```
@@ -3719,7 +3719,7 @@ func InternalValue() DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigTele
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigTelephonyDefaultOutboundConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 dataawsccconnectcampaignsv2campaign.NewDataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigTelephonyDefaultOutboundConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigTelephonyDefaultOutboundConfigOutputReference
 ```
@@ -4012,7 +4012,7 @@ func InternalValue() DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigTele
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundModeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 dataawsccconnectcampaignsv2campaign.NewDataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundModeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundModeOutputReference
 ```
@@ -4305,7 +4305,7 @@ func InternalValue() DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigTele
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundModePredictiveConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 dataawsccconnectcampaignsv2campaign.NewDataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundModePredictiveConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundModePredictiveConfigOutputReference
 ```
@@ -4565,7 +4565,7 @@ func InternalValue() DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigTele
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundModePreviewConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 dataawsccconnectcampaignsv2campaign.NewDataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundModePreviewConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundModePreviewConfigOutputReference
 ```
@@ -4847,7 +4847,7 @@ func InternalValue() DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigTele
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundModePreviewConfigTimeoutConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 dataawsccconnectcampaignsv2campaign.NewDataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundModePreviewConfigTimeoutConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundModePreviewConfigTimeoutConfigOutputReference
 ```
@@ -5107,7 +5107,7 @@ func InternalValue() DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigTele
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundModeProgressiveConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 dataawsccconnectcampaignsv2campaign.NewDataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundModeProgressiveConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundModeProgressiveConfigOutputReference
 ```
@@ -5367,7 +5367,7 @@ func InternalValue() DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigTele
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 dataawsccconnectcampaignsv2campaign.NewDataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutputReference
 ```
@@ -5660,7 +5660,7 @@ func InternalValue() DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigTele
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigWhatsAppDefaultOutboundConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 dataawsccconnectcampaignsv2campaign.NewDataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigWhatsAppDefaultOutboundConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigWhatsAppDefaultOutboundConfigOutputReference
 ```
@@ -5931,7 +5931,7 @@ func InternalValue() DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigWhat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigWhatsAppOutboundModeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 dataawsccconnectcampaignsv2campaign.NewDataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigWhatsAppOutboundModeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigWhatsAppOutboundModeOutputReference
 ```
@@ -6191,7 +6191,7 @@ func InternalValue() DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigWhat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigWhatsAppOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 dataawsccconnectcampaignsv2campaign.NewDataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigWhatsAppOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigWhatsAppOutputReference
 ```
@@ -6473,7 +6473,7 @@ func InternalValue() DataAwsccConnectcampaignsv2CampaignChannelSubtypeConfigWhat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationLimitsOverrideAllChannelsSubtypesCommunicationLimitListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 dataawsccconnectcampaignsv2campaign.NewDataAwsccConnectcampaignsv2CampaignCommunicationLimitsOverrideAllChannelsSubtypesCommunicationLimitListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccConnectcampaignsv2CampaignCommunicationLimitsOverrideAllChannelsSubtypesCommunicationLimitListStructList
 ```
@@ -6622,7 +6622,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationLimitsOverrideAllChannelsSubtypesCommunicationLimitListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 dataawsccconnectcampaignsv2campaign.NewDataAwsccConnectcampaignsv2CampaignCommunicationLimitsOverrideAllChannelsSubtypesCommunicationLimitListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccConnectcampaignsv2CampaignCommunicationLimitsOverrideAllChannelsSubtypesCommunicationLimitListStructOutputReference
 ```
@@ -6922,7 +6922,7 @@ func InternalValue() DataAwsccConnectcampaignsv2CampaignCommunicationLimitsOverr
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationLimitsOverrideAllChannelsSubtypesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 dataawsccconnectcampaignsv2campaign.NewDataAwsccConnectcampaignsv2CampaignCommunicationLimitsOverrideAllChannelsSubtypesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectcampaignsv2CampaignCommunicationLimitsOverrideAllChannelsSubtypesOutputReference
 ```
@@ -7182,7 +7182,7 @@ func InternalValue() DataAwsccConnectcampaignsv2CampaignCommunicationLimitsOverr
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationLimitsOverrideOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 dataawsccconnectcampaignsv2campaign.NewDataAwsccConnectcampaignsv2CampaignCommunicationLimitsOverrideOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectcampaignsv2CampaignCommunicationLimitsOverrideOutputReference
 ```
@@ -7453,7 +7453,7 @@ func InternalValue() DataAwsccConnectcampaignsv2CampaignCommunicationLimitsOverr
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigEmailOpenHoursDailyHoursList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 dataawsccconnectcampaignsv2campaign.NewDataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigEmailOpenHoursDailyHoursList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigEmailOpenHoursDailyHoursList
 ```
@@ -7602,7 +7602,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigEmailOpenHoursDailyHoursOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 dataawsccconnectcampaignsv2campaign.NewDataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigEmailOpenHoursDailyHoursOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigEmailOpenHoursDailyHoursOutputReference
 ```
@@ -7891,7 +7891,7 @@ func InternalValue() DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigE
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigEmailOpenHoursDailyHoursValueList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 dataawsccconnectcampaignsv2campaign.NewDataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigEmailOpenHoursDailyHoursValueList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigEmailOpenHoursDailyHoursValueList
 ```
@@ -8040,7 +8040,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigEmailOpenHoursDailyHoursValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 dataawsccconnectcampaignsv2campaign.NewDataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigEmailOpenHoursDailyHoursValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigEmailOpenHoursDailyHoursValueOutputReference
 ```
@@ -8329,7 +8329,7 @@ func InternalValue() DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigE
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigEmailOpenHoursOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 dataawsccconnectcampaignsv2campaign.NewDataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigEmailOpenHoursOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigEmailOpenHoursOutputReference
 ```
@@ -8589,7 +8589,7 @@ func InternalValue() DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigE
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigEmailOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 dataawsccconnectcampaignsv2campaign.NewDataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigEmailOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigEmailOutputReference
 ```
@@ -8860,7 +8860,7 @@ func InternalValue() DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigE
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigEmailRestrictedPeriodsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 dataawsccconnectcampaignsv2campaign.NewDataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigEmailRestrictedPeriodsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigEmailRestrictedPeriodsOutputReference
 ```
@@ -9120,7 +9120,7 @@ func InternalValue() DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigE
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigEmailRestrictedPeriodsRestrictedPeriodListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 dataawsccconnectcampaignsv2campaign.NewDataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigEmailRestrictedPeriodsRestrictedPeriodListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigEmailRestrictedPeriodsRestrictedPeriodListStructList
 ```
@@ -9269,7 +9269,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigEmailRestrictedPeriodsRestrictedPeriodListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 dataawsccconnectcampaignsv2campaign.NewDataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigEmailRestrictedPeriodsRestrictedPeriodListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigEmailRestrictedPeriodsRestrictedPeriodListStructOutputReference
 ```
@@ -9569,7 +9569,7 @@ func InternalValue() DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigE
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigLocalTimeZoneConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 dataawsccconnectcampaignsv2campaign.NewDataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigLocalTimeZoneConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigLocalTimeZoneConfigOutputReference
 ```
@@ -9851,7 +9851,7 @@ func InternalValue() DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigL
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 dataawsccconnectcampaignsv2campaign.NewDataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigOutputReference
 ```
@@ -10155,7 +10155,7 @@ func InternalValue() DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigSmsOpenHoursDailyHoursList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 dataawsccconnectcampaignsv2campaign.NewDataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigSmsOpenHoursDailyHoursList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigSmsOpenHoursDailyHoursList
 ```
@@ -10304,7 +10304,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigSmsOpenHoursDailyHoursOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 dataawsccconnectcampaignsv2campaign.NewDataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigSmsOpenHoursDailyHoursOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigSmsOpenHoursDailyHoursOutputReference
 ```
@@ -10593,7 +10593,7 @@ func InternalValue() DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigS
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigSmsOpenHoursDailyHoursValueList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 dataawsccconnectcampaignsv2campaign.NewDataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigSmsOpenHoursDailyHoursValueList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigSmsOpenHoursDailyHoursValueList
 ```
@@ -10742,7 +10742,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigSmsOpenHoursDailyHoursValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 dataawsccconnectcampaignsv2campaign.NewDataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigSmsOpenHoursDailyHoursValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigSmsOpenHoursDailyHoursValueOutputReference
 ```
@@ -11031,7 +11031,7 @@ func InternalValue() DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigS
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigSmsOpenHoursOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 dataawsccconnectcampaignsv2campaign.NewDataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigSmsOpenHoursOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigSmsOpenHoursOutputReference
 ```
@@ -11291,7 +11291,7 @@ func InternalValue() DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigS
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigSmsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 dataawsccconnectcampaignsv2campaign.NewDataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigSmsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigSmsOutputReference
 ```
@@ -11562,7 +11562,7 @@ func InternalValue() DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigS
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigSmsRestrictedPeriodsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 dataawsccconnectcampaignsv2campaign.NewDataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigSmsRestrictedPeriodsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigSmsRestrictedPeriodsOutputReference
 ```
@@ -11822,7 +11822,7 @@ func InternalValue() DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigS
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigSmsRestrictedPeriodsRestrictedPeriodListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 dataawsccconnectcampaignsv2campaign.NewDataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigSmsRestrictedPeriodsRestrictedPeriodListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigSmsRestrictedPeriodsRestrictedPeriodListStructList
 ```
@@ -11971,7 +11971,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigSmsRestrictedPeriodsRestrictedPeriodListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 dataawsccconnectcampaignsv2campaign.NewDataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigSmsRestrictedPeriodsRestrictedPeriodListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigSmsRestrictedPeriodsRestrictedPeriodListStructOutputReference
 ```
@@ -12271,7 +12271,7 @@ func InternalValue() DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigS
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyOpenHoursDailyHoursList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 dataawsccconnectcampaignsv2campaign.NewDataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyOpenHoursDailyHoursList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyOpenHoursDailyHoursList
 ```
@@ -12420,7 +12420,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyOpenHoursDailyHoursOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 dataawsccconnectcampaignsv2campaign.NewDataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyOpenHoursDailyHoursOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyOpenHoursDailyHoursOutputReference
 ```
@@ -12709,7 +12709,7 @@ func InternalValue() DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigT
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyOpenHoursDailyHoursValueList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 dataawsccconnectcampaignsv2campaign.NewDataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyOpenHoursDailyHoursValueList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyOpenHoursDailyHoursValueList
 ```
@@ -12858,7 +12858,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyOpenHoursDailyHoursValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 dataawsccconnectcampaignsv2campaign.NewDataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyOpenHoursDailyHoursValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyOpenHoursDailyHoursValueOutputReference
 ```
@@ -13147,7 +13147,7 @@ func InternalValue() DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigT
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyOpenHoursOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 dataawsccconnectcampaignsv2campaign.NewDataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyOpenHoursOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyOpenHoursOutputReference
 ```
@@ -13407,7 +13407,7 @@ func InternalValue() DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigT
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 dataawsccconnectcampaignsv2campaign.NewDataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyOutputReference
 ```
@@ -13678,7 +13678,7 @@ func InternalValue() DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigT
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyRestrictedPeriodsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 dataawsccconnectcampaignsv2campaign.NewDataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyRestrictedPeriodsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyRestrictedPeriodsOutputReference
 ```
@@ -13938,7 +13938,7 @@ func InternalValue() DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigT
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyRestrictedPeriodsRestrictedPeriodListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 dataawsccconnectcampaignsv2campaign.NewDataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyRestrictedPeriodsRestrictedPeriodListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyRestrictedPeriodsRestrictedPeriodListStructList
 ```
@@ -14087,7 +14087,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyRestrictedPeriodsRestrictedPeriodListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 dataawsccconnectcampaignsv2campaign.NewDataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyRestrictedPeriodsRestrictedPeriodListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyRestrictedPeriodsRestrictedPeriodListStructOutputReference
 ```
@@ -14387,7 +14387,7 @@ func InternalValue() DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigT
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigWhatsAppOpenHoursDailyHoursList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 dataawsccconnectcampaignsv2campaign.NewDataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigWhatsAppOpenHoursDailyHoursList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigWhatsAppOpenHoursDailyHoursList
 ```
@@ -14536,7 +14536,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigWhatsAppOpenHoursDailyHoursOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 dataawsccconnectcampaignsv2campaign.NewDataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigWhatsAppOpenHoursDailyHoursOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigWhatsAppOpenHoursDailyHoursOutputReference
 ```
@@ -14825,7 +14825,7 @@ func InternalValue() DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigW
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigWhatsAppOpenHoursDailyHoursValueList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 dataawsccconnectcampaignsv2campaign.NewDataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigWhatsAppOpenHoursDailyHoursValueList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigWhatsAppOpenHoursDailyHoursValueList
 ```
@@ -14974,7 +14974,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigWhatsAppOpenHoursDailyHoursValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 dataawsccconnectcampaignsv2campaign.NewDataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigWhatsAppOpenHoursDailyHoursValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigWhatsAppOpenHoursDailyHoursValueOutputReference
 ```
@@ -15263,7 +15263,7 @@ func InternalValue() DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigW
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigWhatsAppOpenHoursOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 dataawsccconnectcampaignsv2campaign.NewDataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigWhatsAppOpenHoursOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigWhatsAppOpenHoursOutputReference
 ```
@@ -15523,7 +15523,7 @@ func InternalValue() DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigW
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigWhatsAppOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 dataawsccconnectcampaignsv2campaign.NewDataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigWhatsAppOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigWhatsAppOutputReference
 ```
@@ -15794,7 +15794,7 @@ func InternalValue() DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigW
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigWhatsAppRestrictedPeriodsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 dataawsccconnectcampaignsv2campaign.NewDataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigWhatsAppRestrictedPeriodsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigWhatsAppRestrictedPeriodsOutputReference
 ```
@@ -16054,7 +16054,7 @@ func InternalValue() DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigW
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigWhatsAppRestrictedPeriodsRestrictedPeriodListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 dataawsccconnectcampaignsv2campaign.NewDataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigWhatsAppRestrictedPeriodsRestrictedPeriodListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigWhatsAppRestrictedPeriodsRestrictedPeriodListStructList
 ```
@@ -16203,7 +16203,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigWhatsAppRestrictedPeriodsRestrictedPeriodListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 dataawsccconnectcampaignsv2campaign.NewDataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigWhatsAppRestrictedPeriodsRestrictedPeriodListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigWhatsAppRestrictedPeriodsRestrictedPeriodListStructOutputReference
 ```
@@ -16503,7 +16503,7 @@ func InternalValue() DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigW
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignEntryLimitsConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 dataawsccconnectcampaignsv2campaign.NewDataAwsccConnectcampaignsv2CampaignEntryLimitsConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectcampaignsv2CampaignEntryLimitsConfigOutputReference
 ```
@@ -16774,7 +16774,7 @@ func InternalValue() DataAwsccConnectcampaignsv2CampaignEntryLimitsConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignScheduleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 dataawsccconnectcampaignsv2campaign.NewDataAwsccConnectcampaignsv2CampaignScheduleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectcampaignsv2CampaignScheduleOutputReference
 ```
@@ -17056,7 +17056,7 @@ func InternalValue() DataAwsccConnectcampaignsv2CampaignSchedule
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignSourceEventTriggerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 dataawsccconnectcampaignsv2campaign.NewDataAwsccConnectcampaignsv2CampaignSourceEventTriggerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectcampaignsv2CampaignSourceEventTriggerOutputReference
 ```
@@ -17316,7 +17316,7 @@ func InternalValue() DataAwsccConnectcampaignsv2CampaignSourceEventTrigger
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 dataawsccconnectcampaignsv2campaign.NewDataAwsccConnectcampaignsv2CampaignSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectcampaignsv2CampaignSourceOutputReference
 ```
@@ -17587,7 +17587,7 @@ func InternalValue() DataAwsccConnectcampaignsv2CampaignSource
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 dataawsccconnectcampaignsv2campaign.NewDataAwsccConnectcampaignsv2CampaignTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccConnectcampaignsv2CampaignTagsList
 ```
@@ -17736,7 +17736,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignsv2campaign"
 
 dataawsccconnectcampaignsv2campaign.NewDataAwsccConnectcampaignsv2CampaignTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccConnectcampaignsv2CampaignTagsOutputReference
 ```

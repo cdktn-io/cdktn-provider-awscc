@@ -4,12 +4,12 @@
 
 ### CloudformationModuleVersion <a name="CloudformationModuleVersion" id="@cdktn/provider-awscc.cloudformationModuleVersion.CloudformationModuleVersion"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_module_version awscc_cloudformation_module_version}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_module_version awscc_cloudformation_module_version}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudformationModuleVersion.CloudformationModuleVersion.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationmoduleversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationmoduleversion"
 
 cloudformationmoduleversion.NewCloudformationModuleVersion(scope Construct, id *string, config CloudformationModuleVersionConfig) CloudformationModuleVersion
 ```
@@ -400,7 +400,7 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.cloudformationModuleVersion.CloudformationModuleVersion.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationmoduleversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationmoduleversion"
 
 cloudformationmoduleversion.CloudformationModuleVersion_IsConstruct(x interface{}) *bool
 ```
@@ -432,7 +432,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.cloudformationModuleVersion.CloudformationModuleVersion.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationmoduleversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationmoduleversion"
 
 cloudformationmoduleversion.CloudformationModuleVersion_IsTerraformElement(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ cloudformationmoduleversion.CloudformationModuleVersion_IsTerraformElement(x int
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.cloudformationModuleVersion.CloudformationModuleVersion.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationmoduleversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationmoduleversion"
 
 cloudformationmoduleversion.CloudformationModuleVersion_IsTerraformResource(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ cloudformationmoduleversion.CloudformationModuleVersion_IsTerraformResource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.cloudformationModuleVersion.CloudformationModuleVersion.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationmoduleversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationmoduleversion"
 
 cloudformationmoduleversion.CloudformationModuleVersion_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -489,7 +489,7 @@ The construct id used in the generated config for the CloudformationModuleVersio
 
 The id of the existing CloudformationModuleVersion that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_module_version#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_module_version#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -832,7 +832,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudformationModuleVersion.CloudformationModuleVersionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationmoduleversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationmoduleversion"
 
 &cloudformationmoduleversion.CloudformationModuleVersionConfig {
 	Connection: interface{},
@@ -945,7 +945,7 @@ The name of the module being registered.
 
 Recommended module naming pattern: company_or_organization::service::type::MODULE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_module_version#module_name CloudformationModuleVersion#module_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_module_version#module_name CloudformationModuleVersion#module_name}
 
 ---
 
@@ -959,7 +959,7 @@ ModulePackage *string
 
 The url to the S3 bucket containing the schema and template fragment for the module you want to register.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_module_version#module_package CloudformationModuleVersion#module_package}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_module_version#module_package CloudformationModuleVersion#module_package}
 
 ---
 

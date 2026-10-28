@@ -4,12 +4,12 @@
 
 ### S3VectorsVectorBucketPolicy <a name="S3VectorsVectorBucketPolicy" id="@cdktn/provider-awscc.s3VectorsVectorBucketPolicy.S3VectorsVectorBucketPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3vectors_vector_bucket_policy awscc_s3vectors_vector_bucket_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3vectors_vector_bucket_policy awscc_s3vectors_vector_bucket_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3VectorsVectorBucketPolicy.S3VectorsVectorBucketPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3vectorsvectorbucketpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3vectorsvectorbucketpolicy"
 
 s3vectorsvectorbucketpolicy.NewS3VectorsVectorBucketPolicy(scope Construct, id *string, config S3VectorsVectorBucketPolicyConfig) S3VectorsVectorBucketPolicy
 ```
@@ -414,7 +414,7 @@ func ResetVectorBucketName()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.s3VectorsVectorBucketPolicy.S3VectorsVectorBucketPolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3vectorsvectorbucketpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3vectorsvectorbucketpolicy"
 
 s3vectorsvectorbucketpolicy.S3VectorsVectorBucketPolicy_IsConstruct(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.s3VectorsVectorBucketPolicy.S3VectorsVectorBucketPolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3vectorsvectorbucketpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3vectorsvectorbucketpolicy"
 
 s3vectorsvectorbucketpolicy.S3VectorsVectorBucketPolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ s3vectorsvectorbucketpolicy.S3VectorsVectorBucketPolicy_IsTerraformElement(x int
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.s3VectorsVectorBucketPolicy.S3VectorsVectorBucketPolicy.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3vectorsvectorbucketpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3vectorsvectorbucketpolicy"
 
 s3vectorsvectorbucketpolicy.S3VectorsVectorBucketPolicy_IsTerraformResource(x interface{}) *bool
 ```
@@ -474,7 +474,7 @@ s3vectorsvectorbucketpolicy.S3VectorsVectorBucketPolicy_IsTerraformResource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.s3VectorsVectorBucketPolicy.S3VectorsVectorBucketPolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3vectorsvectorbucketpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3vectorsvectorbucketpolicy"
 
 s3vectorsvectorbucketpolicy.S3VectorsVectorBucketPolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -503,7 +503,7 @@ The construct id used in the generated config for the S3VectorsVectorBucketPolic
 
 The id of the existing S3VectorsVectorBucketPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3vectors_vector_bucket_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3vectors_vector_bucket_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -780,7 +780,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.s3VectorsVectorBucketPolicy.S3VectorsVectorBucketPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3vectorsvectorbucketpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3vectorsvectorbucketpolicy"
 
 &s3vectorsvectorbucketpolicy.S3VectorsVectorBucketPolicyConfig {
 	Connection: interface{},
@@ -895,7 +895,7 @@ A policy document containing permissions to add to the specified vector bucket.
 
 In IAM, you must provide policy documents in JSON format. However, in CloudFormation you can provide the policy in JSON or YAML format because CloudFormation converts YAML to JSON before submitting it to IAM.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3vectors_vector_bucket_policy#policy S3VectorsVectorBucketPolicy#policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3vectors_vector_bucket_policy#policy S3VectorsVectorBucketPolicy#policy}
 
 ---
 
@@ -909,7 +909,7 @@ VectorBucketArn *string
 
 The Amazon Resource Name (ARN) of the vector bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3vectors_vector_bucket_policy#vector_bucket_arn S3VectorsVectorBucketPolicy#vector_bucket_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3vectors_vector_bucket_policy#vector_bucket_arn S3VectorsVectorBucketPolicy#vector_bucket_arn}
 
 ---
 
@@ -923,7 +923,7 @@ VectorBucketName *string
 
 The name of the vector bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3vectors_vector_bucket_policy#vector_bucket_name S3VectorsVectorBucketPolicy#vector_bucket_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3vectors_vector_bucket_policy#vector_bucket_name S3VectorsVectorBucketPolicy#vector_bucket_name}
 
 ---
 

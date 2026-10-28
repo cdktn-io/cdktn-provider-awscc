@@ -4,12 +4,12 @@
 
 ### DataAwsccRdsGlobalCluster <a name="DataAwsccRdsGlobalCluster" id="@cdktn/provider-awscc.dataAwsccRdsGlobalCluster.DataAwsccRdsGlobalCluster"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rds_global_cluster awscc_rds_global_cluster}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rds_global_cluster awscc_rds_global_cluster}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRdsGlobalCluster.DataAwsccRdsGlobalCluster.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsglobalcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrdsglobalcluster"
 
 dataawsccrdsglobalcluster.NewDataAwsccRdsGlobalCluster(scope Construct, id *string, config DataAwsccRdsGlobalClusterConfig) DataAwsccRdsGlobalCluster
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccRdsGlobalCluster.DataAwsccRdsGlobalCluster.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsglobalcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrdsglobalcluster"
 
 dataawsccrdsglobalcluster.DataAwsccRdsGlobalCluster_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccRdsGlobalCluster.DataAwsccRdsGlobalCluster.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsglobalcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrdsglobalcluster"
 
 dataawsccrdsglobalcluster.DataAwsccRdsGlobalCluster_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccrdsglobalcluster.DataAwsccRdsGlobalCluster_IsTerraformElement(x interfa
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccRdsGlobalCluster.DataAwsccRdsGlobalCluster.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsglobalcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrdsglobalcluster"
 
 dataawsccrdsglobalcluster.DataAwsccRdsGlobalCluster_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccrdsglobalcluster.DataAwsccRdsGlobalCluster_IsTerraformDataSource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccRdsGlobalCluster.DataAwsccRdsGlobalCluster.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsglobalcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrdsglobalcluster"
 
 dataawsccrdsglobalcluster.DataAwsccRdsGlobalCluster_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRdsGlobalCluster 
 
 The id of the existing DataAwsccRdsGlobalCluster that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rds_global_cluster#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rds_global_cluster#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -686,7 +686,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRdsGlobalCluster.DataAwsccRdsGlobalClusterConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsglobalcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrdsglobalcluster"
 
 &dataawsccrdsglobalcluster.DataAwsccRdsGlobalClusterConfig {
 	Connection: interface{},
@@ -795,7 +795,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rds_global_cluster#id DataAwsccRdsGlobalCluster#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rds_global_cluster#id DataAwsccRdsGlobalCluster#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -807,7 +807,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRdsGlobalCluster.DataAwsccRdsGlobalClusterGlobalEndpoint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsglobalcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrdsglobalcluster"
 
 &dataawsccrdsglobalcluster.DataAwsccRdsGlobalClusterGlobalEndpoint {
 
@@ -820,7 +820,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsglobalclus
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRdsGlobalCluster.DataAwsccRdsGlobalClusterTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsglobalcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrdsglobalcluster"
 
 &dataawsccrdsglobalcluster.DataAwsccRdsGlobalClusterTags {
 
@@ -835,7 +835,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsglobalclus
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRdsGlobalCluster.DataAwsccRdsGlobalClusterGlobalEndpointOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsglobalcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrdsglobalcluster"
 
 dataawsccrdsglobalcluster.NewDataAwsccRdsGlobalClusterGlobalEndpointOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccRdsGlobalClusterGlobalEndpointOutputReference
 ```
@@ -1095,7 +1095,7 @@ func InternalValue() DataAwsccRdsGlobalClusterGlobalEndpoint
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRdsGlobalCluster.DataAwsccRdsGlobalClusterTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsglobalcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrdsglobalcluster"
 
 dataawsccrdsglobalcluster.NewDataAwsccRdsGlobalClusterTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccRdsGlobalClusterTagsList
 ```
@@ -1244,7 +1244,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRdsGlobalCluster.DataAwsccRdsGlobalClusterTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsglobalcluster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrdsglobalcluster"
 
 dataawsccrdsglobalcluster.NewDataAwsccRdsGlobalClusterTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccRdsGlobalClusterTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### Elasticloadbalancingv2Listener <a name="Elasticloadbalancingv2Listener" id="@cdktn/provider-awscc.elasticloadbalancingv2Listener.Elasticloadbalancingv2Listener"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener awscc_elasticloadbalancingv2_listener}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener awscc_elasticloadbalancingv2_listener}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.elasticloadbalancingv2Listener.Elasticloadbalancingv2Listener.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticloadbalancingv2listener"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticloadbalancingv2listener"
 
 elasticloadbalancingv2listener.NewElasticloadbalancingv2Listener(scope Construct, id *string, config Elasticloadbalancingv2ListenerConfig) Elasticloadbalancingv2Listener
 ```
@@ -521,7 +521,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.elasticloadbalancingv2Listener.Elasticloadbalancingv2Listener.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticloadbalancingv2listener"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticloadbalancingv2listener"
 
 elasticloadbalancingv2listener.Elasticloadbalancingv2Listener_IsConstruct(x interface{}) *bool
 ```
@@ -553,7 +553,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.elasticloadbalancingv2Listener.Elasticloadbalancingv2Listener.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticloadbalancingv2listener"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticloadbalancingv2listener"
 
 elasticloadbalancingv2listener.Elasticloadbalancingv2Listener_IsTerraformElement(x interface{}) *bool
 ```
@@ -567,7 +567,7 @@ elasticloadbalancingv2listener.Elasticloadbalancingv2Listener_IsTerraformElement
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.elasticloadbalancingv2Listener.Elasticloadbalancingv2Listener.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticloadbalancingv2listener"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticloadbalancingv2listener"
 
 elasticloadbalancingv2listener.Elasticloadbalancingv2Listener_IsTerraformResource(x interface{}) *bool
 ```
@@ -581,7 +581,7 @@ elasticloadbalancingv2listener.Elasticloadbalancingv2Listener_IsTerraformResourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.elasticloadbalancingv2Listener.Elasticloadbalancingv2Listener.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticloadbalancingv2listener"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticloadbalancingv2listener"
 
 elasticloadbalancingv2listener.Elasticloadbalancingv2Listener_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -610,7 +610,7 @@ The construct id used in the generated config for the Elasticloadbalancingv2List
 
 The id of the existing Elasticloadbalancingv2Listener that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1052,7 +1052,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.elasticloadbalancingv2Listener.Elasticloadbalancingv2ListenerCertificates.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticloadbalancingv2listener"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticloadbalancingv2listener"
 
 &elasticloadbalancingv2listener.Elasticloadbalancingv2ListenerCertificates {
 	CertificateArn: *string,
@@ -1077,7 +1077,7 @@ CertificateArn *string
 
 The Amazon Resource Name (ARN) of the certificate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#certificate_arn Elasticloadbalancingv2Listener#certificate_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#certificate_arn Elasticloadbalancingv2Listener#certificate_arn}
 
 ---
 
@@ -1086,7 +1086,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.elasticloadbalancingv2Listener.Elasticloadbalancingv2ListenerConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticloadbalancingv2listener"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticloadbalancingv2listener"
 
 &elasticloadbalancingv2listener.Elasticloadbalancingv2ListenerConfig {
 	Connection: interface{},
@@ -1101,7 +1101,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticloadbalancingv2
 	AlpnPolicy: *[]*string,
 	Certificates: interface{},
 	ListenerAttributes: interface{},
-	MutualAuthentication: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.elasticloadbalancingv2Listener.Elasticloadbalancingv2ListenerMutualAuthentication,
+	MutualAuthentication: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.elasticloadbalancingv2Listener.Elasticloadbalancingv2ListenerMutualAuthentication,
 	Port: *f64,
 	Protocol: *string,
 	SslPolicy: *string,
@@ -1129,7 +1129,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticloadbalancingv2
 | <code><a href="#@cdktn/provider-awscc.elasticloadbalancingv2Listener.Elasticloadbalancingv2ListenerConfig.property.port">Port</a></code> | <code>*f64</code> | The port on which the load balancer is listening. You can't specify a port for a Gateway Load Balancer. |
 | <code><a href="#@cdktn/provider-awscc.elasticloadbalancingv2Listener.Elasticloadbalancingv2ListenerConfig.property.protocol">Protocol</a></code> | <code>*string</code> | The protocol for connections from clients to the load balancer. |
 | <code><a href="#@cdktn/provider-awscc.elasticloadbalancingv2Listener.Elasticloadbalancingv2ListenerConfig.property.sslPolicy">SslPolicy</a></code> | <code>*string</code> | [HTTPS and TLS listeners] The security policy that defines which protocols and ciphers are supported. |
-| <code><a href="#@cdktn/provider-awscc.elasticloadbalancingv2Listener.Elasticloadbalancingv2ListenerConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#tags Elasticloadbalancingv2Listener#tags}. |
+| <code><a href="#@cdktn/provider-awscc.elasticloadbalancingv2Listener.Elasticloadbalancingv2ListenerConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#tags Elasticloadbalancingv2Listener#tags}. |
 
 ---
 
@@ -1216,7 +1216,7 @@ The actions for the default rule.
 You cannot define a condition for a default rule.
 To create additional rules for an Application Load Balancer, use [AWS::ElasticLoadBalancingV2::ListenerRule](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticloadbalancingv2-listenerrule.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#default_actions Elasticloadbalancingv2Listener#default_actions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#default_actions Elasticloadbalancingv2Listener#default_actions}
 
 ---
 
@@ -1230,7 +1230,7 @@ LoadBalancerArn *string
 
 The Amazon Resource Name (ARN) of the load balancer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#load_balancer_arn Elasticloadbalancingv2Listener#load_balancer_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#load_balancer_arn Elasticloadbalancingv2Listener#load_balancer_arn}
 
 ---
 
@@ -1244,7 +1244,7 @@ AlpnPolicy *[]*string
 
 [TLS listener] The name of the Application-Layer Protocol Negotiation (ALPN) policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#alpn_policy Elasticloadbalancingv2Listener#alpn_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#alpn_policy Elasticloadbalancingv2Listener#alpn_policy}
 
 ---
 
@@ -1262,7 +1262,7 @@ You must provide exactly one certificate if the listener protocol is HTTPS or TL
 For an HTTPS listener, update requires some interruptions. For a TLS listener, update requires no interruption.
 To create a certificate list for a secure listener, use [AWS::ElasticLoadBalancingV2::ListenerCertificate](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticloadbalancingv2-listenercertificate.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#certificates Elasticloadbalancingv2Listener#certificates}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#certificates Elasticloadbalancingv2Listener#certificates}
 
 ---
 
@@ -1276,7 +1276,7 @@ ListenerAttributes interface{}
 
 The listener attributes. Attributes that you do not modify retain their current values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#listener_attributes Elasticloadbalancingv2Listener#listener_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#listener_attributes Elasticloadbalancingv2Listener#listener_attributes}
 
 ---
 
@@ -1290,7 +1290,7 @@ MutualAuthentication Elasticloadbalancingv2ListenerMutualAuthentication
 
 The mutual authentication configuration information.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#mutual_authentication Elasticloadbalancingv2Listener#mutual_authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#mutual_authentication Elasticloadbalancingv2Listener#mutual_authentication}
 
 ---
 
@@ -1304,7 +1304,7 @@ Port *f64
 
 The port on which the load balancer is listening. You can't specify a port for a Gateway Load Balancer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#port Elasticloadbalancingv2Listener#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#port Elasticloadbalancingv2Listener#port}
 
 ---
 
@@ -1320,7 +1320,7 @@ The protocol for connections from clients to the load balancer.
 
 For Application Load Balancers, the supported protocols are HTTP and HTTPS. For Network Load Balancers, the supported protocols are TCP, TLS, UDP, TCP_UDP, QUIC, and TCP_QUIC. You can’t specify the UDP, TCP_UDP, QUIC, or TCP_QUIC protocol if dual-stack mode is enabled. You can't specify a protocol for a Gateway Load Balancer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#protocol Elasticloadbalancingv2Listener#protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#protocol Elasticloadbalancingv2Listener#protocol}
 
 ---
 
@@ -1337,7 +1337,7 @@ SslPolicy *string
 For more information, see [Security policies](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/describe-ssl-policies.html) in the *Application Load Balancers Guide* and [Security policies](https://docs.aws.amazon.com/elasticloadbalancing/latest/network/describe-ssl-policies.html) in the *Network Load Balancers Guide*.
 [HTTPS listeners] Updating the security policy can result in interruptions if the load balancer is handling a high volume of traffic. To decrease the possibility of an interruption if your load balancer is handling a high volume of traffic, create an additional load balancer or request an LCU reservation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#ssl_policy Elasticloadbalancingv2Listener#ssl_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#ssl_policy Elasticloadbalancingv2Listener#ssl_policy}
 
 ---
 
@@ -1349,7 +1349,7 @@ Tags interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#tags Elasticloadbalancingv2Listener#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#tags Elasticloadbalancingv2Listener#tags}.
 
 ---
 
@@ -1358,17 +1358,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.elasticloadbalancingv2Listener.Elasticloadbalancingv2ListenerDefaultActions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticloadbalancingv2listener"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticloadbalancingv2listener"
 
 &elasticloadbalancingv2listener.Elasticloadbalancingv2ListenerDefaultActions {
 	Type: *string,
-	AuthenticateCognitoConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.elasticloadbalancingv2Listener.Elasticloadbalancingv2ListenerDefaultActionsAuthenticateCognitoConfig,
-	AuthenticateOidcConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.elasticloadbalancingv2Listener.Elasticloadbalancingv2ListenerDefaultActionsAuthenticateOidcConfig,
-	FixedResponseConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.elasticloadbalancingv2Listener.Elasticloadbalancingv2ListenerDefaultActionsFixedResponseConfig,
-	ForwardConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.elasticloadbalancingv2Listener.Elasticloadbalancingv2ListenerDefaultActionsForwardConfig,
-	JwtValidationConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.elasticloadbalancingv2Listener.Elasticloadbalancingv2ListenerDefaultActionsJwtValidationConfig,
+	AuthenticateCognitoConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.elasticloadbalancingv2Listener.Elasticloadbalancingv2ListenerDefaultActionsAuthenticateCognitoConfig,
+	AuthenticateOidcConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.elasticloadbalancingv2Listener.Elasticloadbalancingv2ListenerDefaultActionsAuthenticateOidcConfig,
+	FixedResponseConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.elasticloadbalancingv2Listener.Elasticloadbalancingv2ListenerDefaultActionsFixedResponseConfig,
+	ForwardConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.elasticloadbalancingv2Listener.Elasticloadbalancingv2ListenerDefaultActionsForwardConfig,
+	JwtValidationConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.elasticloadbalancingv2Listener.Elasticloadbalancingv2ListenerDefaultActionsJwtValidationConfig,
 	Order: *f64,
-	RedirectConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.elasticloadbalancingv2Listener.Elasticloadbalancingv2ListenerDefaultActionsRedirectConfig,
+	RedirectConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.elasticloadbalancingv2Listener.Elasticloadbalancingv2ListenerDefaultActionsRedirectConfig,
 	TargetGroupArn: *string,
 }
 ```
@@ -1399,7 +1399,7 @@ Type *string
 
 The type of action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#type Elasticloadbalancingv2Listener#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#type Elasticloadbalancingv2Listener#type}
 
 ---
 
@@ -1413,7 +1413,7 @@ AuthenticateCognitoConfig Elasticloadbalancingv2ListenerDefaultActionsAuthentica
 
 [HTTPS listeners] Information for using Amazon Cognito to authenticate users. Specify only when ``Type`` is ``authenticate-cognito``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#authenticate_cognito_config Elasticloadbalancingv2Listener#authenticate_cognito_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#authenticate_cognito_config Elasticloadbalancingv2Listener#authenticate_cognito_config}
 
 ---
 
@@ -1429,7 +1429,7 @@ AuthenticateOidcConfig Elasticloadbalancingv2ListenerDefaultActionsAuthenticateO
 
 Specify only when `Type` is `authenticate-oidc`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#authenticate_oidc_config Elasticloadbalancingv2Listener#authenticate_oidc_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#authenticate_oidc_config Elasticloadbalancingv2Listener#authenticate_oidc_config}
 
 ---
 
@@ -1445,7 +1445,7 @@ FixedResponseConfig Elasticloadbalancingv2ListenerDefaultActionsFixedResponseCon
 
 Specify only when `Type` is `fixed-response`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#fixed_response_config Elasticloadbalancingv2Listener#fixed_response_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#fixed_response_config Elasticloadbalancingv2Listener#fixed_response_config}
 
 ---
 
@@ -1462,7 +1462,7 @@ Information for creating an action that distributes requests among multiple targ
 Specify only when `Type` is `forward`.
 If you specify both `ForwardConfig` and `TargetGroupArn`, you can specify only one target group using `ForwardConfig` and it must be the same target group specified in `TargetGroupArn`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#forward_config Elasticloadbalancingv2Listener#forward_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#forward_config Elasticloadbalancingv2Listener#forward_config}
 
 ---
 
@@ -1476,7 +1476,7 @@ JwtValidationConfig Elasticloadbalancingv2ListenerDefaultActionsJwtValidationCon
 
 [HTTPS listeners] Information for validating JWT access tokens in client requests. Specify only when ``Type`` is ``jwt-validation``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#jwt_validation_config Elasticloadbalancingv2Listener#jwt_validation_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#jwt_validation_config Elasticloadbalancingv2Listener#jwt_validation_config}
 
 ---
 
@@ -1492,7 +1492,7 @@ The order for the action.
 
 This value is required for rules with multiple actions. The action with the lowest value for order is performed first.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#order Elasticloadbalancingv2Listener#order}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#order Elasticloadbalancingv2Listener#order}
 
 ---
 
@@ -1506,7 +1506,7 @@ RedirectConfig Elasticloadbalancingv2ListenerDefaultActionsRedirectConfig
 
 [Application Load Balancer] Information for creating a redirect action. Specify only when ``Type`` is ``redirect``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#redirect_config Elasticloadbalancingv2Listener#redirect_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#redirect_config Elasticloadbalancingv2Listener#redirect_config}
 
 ---
 
@@ -1522,7 +1522,7 @@ The Amazon Resource Name (ARN) of the target group.
 
 Specify only when `Type` is `forward` and you want to route to a single target group. To route to multiple target groups, you must use `ForwardConfig` instead.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#target_group_arn Elasticloadbalancingv2Listener#target_group_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#target_group_arn Elasticloadbalancingv2Listener#target_group_arn}
 
 ---
 
@@ -1531,7 +1531,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.elasticloadbalancingv2Listener.Elasticloadbalancingv2ListenerDefaultActionsAuthenticateCognitoConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticloadbalancingv2listener"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticloadbalancingv2listener"
 
 &elasticloadbalancingv2listener.Elasticloadbalancingv2ListenerDefaultActionsAuthenticateCognitoConfig {
 	AuthenticationRequestExtraParams: *map[string]*string,
@@ -1570,7 +1570,7 @@ AuthenticationRequestExtraParams *map[string]*string
 
 The query parameters (up to 10) to include in the redirect request to the authorization endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#authentication_request_extra_params Elasticloadbalancingv2Listener#authentication_request_extra_params}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#authentication_request_extra_params Elasticloadbalancingv2Listener#authentication_request_extra_params}
 
 ---
 
@@ -1590,7 +1590,7 @@ The following are possible values:
 * allow```` - Allow the request to be forwarded to the target.
 * authenticate```` - Redirect the request to the IdP authorization endpoint. This is the default value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#on_unauthenticated_request Elasticloadbalancingv2Listener#on_unauthenticated_request}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#on_unauthenticated_request Elasticloadbalancingv2Listener#on_unauthenticated_request}
 
 ---
 
@@ -1607,7 +1607,7 @@ The set of user claims to be requested from the IdP.
 The default is `openid`.
 To verify which scope values your IdP supports and how to separate multiple values, see the documentation for your IdP.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#scope Elasticloadbalancingv2Listener#scope}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#scope Elasticloadbalancingv2Listener#scope}
 
 ---
 
@@ -1621,7 +1621,7 @@ SessionCookieName *string
 
 The name of the cookie used to maintain session information. The default is AWSELBAuthSessionCookie.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#session_cookie_name Elasticloadbalancingv2Listener#session_cookie_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#session_cookie_name Elasticloadbalancingv2Listener#session_cookie_name}
 
 ---
 
@@ -1635,7 +1635,7 @@ SessionTimeout *string
 
 The maximum duration of the authentication session, in seconds. The default is 604800 seconds (7 days).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#session_timeout Elasticloadbalancingv2Listener#session_timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#session_timeout Elasticloadbalancingv2Listener#session_timeout}
 
 ---
 
@@ -1649,7 +1649,7 @@ UserPoolArn *string
 
 The Amazon Resource Name (ARN) of the Amazon Cognito user pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#user_pool_arn Elasticloadbalancingv2Listener#user_pool_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#user_pool_arn Elasticloadbalancingv2Listener#user_pool_arn}
 
 ---
 
@@ -1663,7 +1663,7 @@ UserPoolClientId *string
 
 The ID of the Amazon Cognito user pool client.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#user_pool_client_id Elasticloadbalancingv2Listener#user_pool_client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#user_pool_client_id Elasticloadbalancingv2Listener#user_pool_client_id}
 
 ---
 
@@ -1677,7 +1677,7 @@ UserPoolDomain *string
 
 The domain prefix or fully-qualified domain name of the Amazon Cognito user pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#user_pool_domain Elasticloadbalancingv2Listener#user_pool_domain}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#user_pool_domain Elasticloadbalancingv2Listener#user_pool_domain}
 
 ---
 
@@ -1686,7 +1686,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.elasticloadbalancingv2Listener.Elasticloadbalancingv2ListenerDefaultActionsAuthenticateOidcConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticloadbalancingv2listener"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticloadbalancingv2listener"
 
 &elasticloadbalancingv2listener.Elasticloadbalancingv2ListenerDefaultActionsAuthenticateOidcConfig {
 	AuthenticationRequestExtraParams: *map[string]*string,
@@ -1733,7 +1733,7 @@ AuthenticationRequestExtraParams *map[string]*string
 
 The query parameters (up to 10) to include in the redirect request to the authorization endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#authentication_request_extra_params Elasticloadbalancingv2Listener#authentication_request_extra_params}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#authentication_request_extra_params Elasticloadbalancingv2Listener#authentication_request_extra_params}
 
 ---
 
@@ -1749,7 +1749,7 @@ The authorization endpoint of the IdP.
 
 This must be a full URL, including the HTTPS protocol, the domain, and the path.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#authorization_endpoint Elasticloadbalancingv2Listener#authorization_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#authorization_endpoint Elasticloadbalancingv2Listener#authorization_endpoint}
 
 ---
 
@@ -1763,7 +1763,7 @@ ClientId *string
 
 The OAuth 2.0 client identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#client_id Elasticloadbalancingv2Listener#client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#client_id Elasticloadbalancingv2Listener#client_id}
 
 ---
 
@@ -1777,7 +1777,7 @@ ClientSecret *string
 
 The OAuth 2.0 client secret. This parameter is required if you are creating a rule. If you are modifying a rule, you can omit this parameter if you set ``UseExistingClientSecret`` to true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#client_secret Elasticloadbalancingv2Listener#client_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#client_secret Elasticloadbalancingv2Listener#client_secret}
 
 ---
 
@@ -1793,7 +1793,7 @@ The OIDC issuer identifier of the IdP.
 
 This must be a full URL, including the HTTPS protocol, the domain, and the path.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#issuer Elasticloadbalancingv2Listener#issuer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#issuer Elasticloadbalancingv2Listener#issuer}
 
 ---
 
@@ -1813,7 +1813,7 @@ The following are possible values:
 * allow```` - Allow the request to be forwarded to the target.
 * authenticate```` - Redirect the request to the IdP authorization endpoint. This is the default value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#on_unauthenticated_request Elasticloadbalancingv2Listener#on_unauthenticated_request}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#on_unauthenticated_request Elasticloadbalancingv2Listener#on_unauthenticated_request}
 
 ---
 
@@ -1830,7 +1830,7 @@ The set of user claims to be requested from the IdP.
 The default is `openid`.
 To verify which scope values your IdP supports and how to separate multiple values, see the documentation for your IdP.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#scope Elasticloadbalancingv2Listener#scope}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#scope Elasticloadbalancingv2Listener#scope}
 
 ---
 
@@ -1844,7 +1844,7 @@ SessionCookieName *string
 
 The name of the cookie used to maintain session information. The default is AWSELBAuthSessionCookie.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#session_cookie_name Elasticloadbalancingv2Listener#session_cookie_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#session_cookie_name Elasticloadbalancingv2Listener#session_cookie_name}
 
 ---
 
@@ -1858,7 +1858,7 @@ SessionTimeout *string
 
 The maximum duration of the authentication session, in seconds. The default is 604800 seconds (7 days).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#session_timeout Elasticloadbalancingv2Listener#session_timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#session_timeout Elasticloadbalancingv2Listener#session_timeout}
 
 ---
 
@@ -1874,7 +1874,7 @@ The token endpoint of the IdP.
 
 This must be a full URL, including the HTTPS protocol, the domain, and the path.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#token_endpoint Elasticloadbalancingv2Listener#token_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#token_endpoint Elasticloadbalancingv2Listener#token_endpoint}
 
 ---
 
@@ -1890,7 +1890,7 @@ Indicates whether to use the existing client secret when modifying a rule.
 
 If you are creating a rule, you can omit this parameter or set it to false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#use_existing_client_secret Elasticloadbalancingv2Listener#use_existing_client_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#use_existing_client_secret Elasticloadbalancingv2Listener#use_existing_client_secret}
 
 ---
 
@@ -1906,7 +1906,7 @@ The user info endpoint of the IdP.
 
 This must be a full URL, including the HTTPS protocol, the domain, and the path.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#user_info_endpoint Elasticloadbalancingv2Listener#user_info_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#user_info_endpoint Elasticloadbalancingv2Listener#user_info_endpoint}
 
 ---
 
@@ -1915,7 +1915,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.elasticloadbalancingv2Listener.Elasticloadbalancingv2ListenerDefaultActionsFixedResponseConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticloadbalancingv2listener"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticloadbalancingv2listener"
 
 &elasticloadbalancingv2listener.Elasticloadbalancingv2ListenerDefaultActionsFixedResponseConfig {
 	ContentType: *string,
@@ -1944,7 +1944,7 @@ ContentType *string
 
 The content type.  Valid Values: text/plain | text/css | text/html | application/javascript | application/json.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#content_type Elasticloadbalancingv2Listener#content_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#content_type Elasticloadbalancingv2Listener#content_type}
 
 ---
 
@@ -1958,7 +1958,7 @@ MessageBody *string
 
 The message.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#message_body Elasticloadbalancingv2Listener#message_body}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#message_body Elasticloadbalancingv2Listener#message_body}
 
 ---
 
@@ -1972,7 +1972,7 @@ StatusCode *string
 
 The HTTP response code (2XX, 4XX, or 5XX).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#status_code Elasticloadbalancingv2Listener#status_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#status_code Elasticloadbalancingv2Listener#status_code}
 
 ---
 
@@ -1981,11 +1981,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.elasticloadbalancingv2Listener.Elasticloadbalancingv2ListenerDefaultActionsForwardConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticloadbalancingv2listener"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticloadbalancingv2listener"
 
 &elasticloadbalancingv2listener.Elasticloadbalancingv2ListenerDefaultActionsForwardConfig {
 	TargetGroups: interface{},
-	TargetGroupStickinessConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.elasticloadbalancingv2Listener.Elasticloadbalancingv2ListenerDefaultActionsForwardConfigTargetGroupStickinessConfig,
+	TargetGroupStickinessConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.elasticloadbalancingv2Listener.Elasticloadbalancingv2ListenerDefaultActionsForwardConfigTargetGroupStickinessConfig,
 }
 ```
 
@@ -2008,7 +2008,7 @@ TargetGroups interface{}
 
 Information about how traffic will be distributed between multiple target groups in a forward rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#target_groups Elasticloadbalancingv2Listener#target_groups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#target_groups Elasticloadbalancingv2Listener#target_groups}
 
 ---
 
@@ -2022,7 +2022,7 @@ TargetGroupStickinessConfig Elasticloadbalancingv2ListenerDefaultActionsForwardC
 
 Information about the target group stickiness for a rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#target_group_stickiness_config Elasticloadbalancingv2Listener#target_group_stickiness_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#target_group_stickiness_config Elasticloadbalancingv2Listener#target_group_stickiness_config}
 
 ---
 
@@ -2031,7 +2031,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.elasticloadbalancingv2Listener.Elasticloadbalancingv2ListenerDefaultActionsForwardConfigTargetGroups.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticloadbalancingv2listener"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticloadbalancingv2listener"
 
 &elasticloadbalancingv2listener.Elasticloadbalancingv2ListenerDefaultActionsForwardConfigTargetGroups {
 	TargetGroupArn: *string,
@@ -2058,7 +2058,7 @@ TargetGroupArn *string
 
 The Amazon Resource Name (ARN) of the target group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#target_group_arn Elasticloadbalancingv2Listener#target_group_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#target_group_arn Elasticloadbalancingv2Listener#target_group_arn}
 
 ---
 
@@ -2072,7 +2072,7 @@ Weight *f64
 
 The weight. The range is 0 to 999.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#weight Elasticloadbalancingv2Listener#weight}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#weight Elasticloadbalancingv2Listener#weight}
 
 ---
 
@@ -2081,7 +2081,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.elasticloadbalancingv2Listener.Elasticloadbalancingv2ListenerDefaultActionsForwardConfigTargetGroupStickinessConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticloadbalancingv2listener"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticloadbalancingv2listener"
 
 &elasticloadbalancingv2listener.Elasticloadbalancingv2ListenerDefaultActionsForwardConfigTargetGroupStickinessConfig {
 	DurationSeconds: *f64,
@@ -2110,7 +2110,7 @@ DurationSeconds *f64
 
 The range is 1-604800 seconds (7 days). You must specify this value when enabling target group stickiness.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#duration_seconds Elasticloadbalancingv2Listener#duration_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#duration_seconds Elasticloadbalancingv2Listener#duration_seconds}
 
 ---
 
@@ -2124,7 +2124,7 @@ Enabled interface{}
 
 Indicates whether target group stickiness is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#enabled Elasticloadbalancingv2Listener#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#enabled Elasticloadbalancingv2Listener#enabled}
 
 ---
 
@@ -2133,7 +2133,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.elasticloadbalancingv2Listener.Elasticloadbalancingv2ListenerDefaultActionsJwtValidationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticloadbalancingv2listener"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticloadbalancingv2listener"
 
 &elasticloadbalancingv2listener.Elasticloadbalancingv2ListenerDefaultActionsJwtValidationConfig {
 	AdditionalClaims: interface{},
@@ -2146,9 +2146,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticloadbalancingv2
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.elasticloadbalancingv2Listener.Elasticloadbalancingv2ListenerDefaultActionsJwtValidationConfig.property.additionalClaims">AdditionalClaims</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#additional_claims Elasticloadbalancingv2Listener#additional_claims}. |
-| <code><a href="#@cdktn/provider-awscc.elasticloadbalancingv2Listener.Elasticloadbalancingv2ListenerDefaultActionsJwtValidationConfig.property.issuer">Issuer</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#issuer Elasticloadbalancingv2Listener#issuer}. |
-| <code><a href="#@cdktn/provider-awscc.elasticloadbalancingv2Listener.Elasticloadbalancingv2ListenerDefaultActionsJwtValidationConfig.property.jwksEndpoint">JwksEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#jwks_endpoint Elasticloadbalancingv2Listener#jwks_endpoint}. |
+| <code><a href="#@cdktn/provider-awscc.elasticloadbalancingv2Listener.Elasticloadbalancingv2ListenerDefaultActionsJwtValidationConfig.property.additionalClaims">AdditionalClaims</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#additional_claims Elasticloadbalancingv2Listener#additional_claims}. |
+| <code><a href="#@cdktn/provider-awscc.elasticloadbalancingv2Listener.Elasticloadbalancingv2ListenerDefaultActionsJwtValidationConfig.property.issuer">Issuer</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#issuer Elasticloadbalancingv2Listener#issuer}. |
+| <code><a href="#@cdktn/provider-awscc.elasticloadbalancingv2Listener.Elasticloadbalancingv2ListenerDefaultActionsJwtValidationConfig.property.jwksEndpoint">JwksEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#jwks_endpoint Elasticloadbalancingv2Listener#jwks_endpoint}. |
 
 ---
 
@@ -2160,7 +2160,7 @@ AdditionalClaims interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#additional_claims Elasticloadbalancingv2Listener#additional_claims}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#additional_claims Elasticloadbalancingv2Listener#additional_claims}.
 
 ---
 
@@ -2172,7 +2172,7 @@ Issuer *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#issuer Elasticloadbalancingv2Listener#issuer}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#issuer Elasticloadbalancingv2Listener#issuer}.
 
 ---
 
@@ -2184,7 +2184,7 @@ JwksEndpoint *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#jwks_endpoint Elasticloadbalancingv2Listener#jwks_endpoint}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#jwks_endpoint Elasticloadbalancingv2Listener#jwks_endpoint}.
 
 ---
 
@@ -2193,7 +2193,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.elasticloadbalancingv2Listener.Elasticloadbalancingv2ListenerDefaultActionsJwtValidationConfigAdditionalClaims.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticloadbalancingv2listener"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticloadbalancingv2listener"
 
 &elasticloadbalancingv2listener.Elasticloadbalancingv2ListenerDefaultActionsJwtValidationConfigAdditionalClaims {
 	Format: *string,
@@ -2222,7 +2222,7 @@ Format *string
 
 The format of the claim value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#format Elasticloadbalancingv2Listener#format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#format Elasticloadbalancingv2Listener#format}
 
 ---
 
@@ -2236,7 +2236,7 @@ Name *string
 
 The name of the claim. You can't specify ``exp``, ``iss``, ``nbf``, or ``iat`` because we validate them by default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#name Elasticloadbalancingv2Listener#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#name Elasticloadbalancingv2Listener#name}
 
 ---
 
@@ -2252,7 +2252,7 @@ The claim value.
 
 The maximum size of the list is 10. Each value can be up to 256 characters in length. If the format is `space-separated-values`, the values can't include spaces.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#values Elasticloadbalancingv2Listener#values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#values Elasticloadbalancingv2Listener#values}
 
 ---
 
@@ -2261,7 +2261,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.elasticloadbalancingv2Listener.Elasticloadbalancingv2ListenerDefaultActionsRedirectConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticloadbalancingv2listener"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticloadbalancingv2listener"
 
 &elasticloadbalancingv2listener.Elasticloadbalancingv2ListenerDefaultActionsRedirectConfig {
 	Host: *string,
@@ -2296,7 +2296,7 @@ Host *string
 
 The hostname. This component is not percent-encoded. The hostname can contain #{host}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#host Elasticloadbalancingv2Listener#host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#host Elasticloadbalancingv2Listener#host}
 
 ---
 
@@ -2312,7 +2312,7 @@ The absolute path, starting with the leading "/".
 
 This component is not percent-encoded. The path can contain #{host}, #{path}, and #{port}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#path Elasticloadbalancingv2Listener#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#path Elasticloadbalancingv2Listener#path}
 
 ---
 
@@ -2326,7 +2326,7 @@ Port *string
 
 The port. You can specify a value from 1 to 65535 or #{port}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#port Elasticloadbalancingv2Listener#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#port Elasticloadbalancingv2Listener#port}
 
 ---
 
@@ -2342,7 +2342,7 @@ The protocol.
 
 You can specify HTTP, HTTPS, or #{protocol}. You can redirect HTTP to HTTP, HTTP to HTTPS, and HTTPS to HTTPS. You can't redirect HTTPS to HTTP.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#protocol Elasticloadbalancingv2Listener#protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#protocol Elasticloadbalancingv2Listener#protocol}
 
 ---
 
@@ -2358,7 +2358,7 @@ The query parameters, URL-encoded when necessary, but not percent-encoded.
 
 Do not include the leading "?", as it is automatically added. You can specify any of the reserved keywords.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#query Elasticloadbalancingv2Listener#query}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#query Elasticloadbalancingv2Listener#query}
 
 ---
 
@@ -2372,7 +2372,7 @@ StatusCode *string
 
 The HTTP redirect code. The redirect is either permanent (HTTP 301) or temporary (HTTP 302).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#status_code Elasticloadbalancingv2Listener#status_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#status_code Elasticloadbalancingv2Listener#status_code}
 
 ---
 
@@ -2381,7 +2381,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.elasticloadbalancingv2Listener.Elasticloadbalancingv2ListenerListenerAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticloadbalancingv2listener"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticloadbalancingv2listener"
 
 &elasticloadbalancingv2listener.Elasticloadbalancingv2ListenerListenerAttributes {
 	Key: *string,
@@ -2438,7 +2438,7 @@ The following attributes are only supported by Application Load Balancers.
 * `routing.http.response.x_content_type_options.header_value` - Indicates whether the MIME types advertised in the *Content-Type* headers should be followed and not be changed.
 * `routing.http.response.x_frame_options.header_value` - Indicates whether the browser is allowed to render a page in a *frame*, *iframe*, *embed* or *object*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#key Elasticloadbalancingv2Listener#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#key Elasticloadbalancingv2Listener#key}
 
 ---
 
@@ -2452,7 +2452,7 @@ Value *string
 
 The value of the attribute.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#value Elasticloadbalancingv2Listener#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#value Elasticloadbalancingv2Listener#value}
 
 ---
 
@@ -2461,7 +2461,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.elasticloadbalancingv2Listener.Elasticloadbalancingv2ListenerMutualAuthentication.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticloadbalancingv2listener"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticloadbalancingv2listener"
 
 &elasticloadbalancingv2listener.Elasticloadbalancingv2ListenerMutualAuthentication {
 	AdvertiseTrustStoreCaNames: *string,
@@ -2492,7 +2492,7 @@ AdvertiseTrustStoreCaNames *string
 
 Indicates whether trust store CA certificate names are advertised.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#advertise_trust_store_ca_names Elasticloadbalancingv2Listener#advertise_trust_store_ca_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#advertise_trust_store_ca_names Elasticloadbalancingv2Listener#advertise_trust_store_ca_names}
 
 ---
 
@@ -2506,7 +2506,7 @@ IgnoreClientCertificateExpiry interface{}
 
 Indicates whether expired client certificates are ignored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#ignore_client_certificate_expiry Elasticloadbalancingv2Listener#ignore_client_certificate_expiry}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#ignore_client_certificate_expiry Elasticloadbalancingv2Listener#ignore_client_certificate_expiry}
 
 ---
 
@@ -2522,7 +2522,7 @@ The client certificate handling method.
 
 Options are `off`, `passthrough` or `verify`. The default value on initial resource creation is `off`. After mutual authentication is turned on, you must explicitly set the `Mode` to `off` to turn it off; removing the property from your template will not turn it off.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#mode Elasticloadbalancingv2Listener#mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#mode Elasticloadbalancingv2Listener#mode}
 
 ---
 
@@ -2536,7 +2536,7 @@ TrustStoreArn *string
 
 The Amazon Resource Name (ARN) of the trust store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#trust_store_arn Elasticloadbalancingv2Listener#trust_store_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#trust_store_arn Elasticloadbalancingv2Listener#trust_store_arn}
 
 ---
 
@@ -2545,7 +2545,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.elasticloadbalancingv2Listener.Elasticloadbalancingv2ListenerTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticloadbalancingv2listener"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticloadbalancingv2listener"
 
 &elasticloadbalancingv2listener.Elasticloadbalancingv2ListenerTags {
 	Key: *string,
@@ -2572,7 +2572,7 @@ Key *string
 
 The key of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#key Elasticloadbalancingv2Listener#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#key Elasticloadbalancingv2Listener#key}
 
 ---
 
@@ -2586,7 +2586,7 @@ Value *string
 
 The value of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener#value Elasticloadbalancingv2Listener#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener#value Elasticloadbalancingv2Listener#value}
 
 ---
 
@@ -2597,7 +2597,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.elasticloadbalancingv2Listener.Elasticloadbalancingv2ListenerCertificatesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticloadbalancingv2listener"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticloadbalancingv2listener"
 
 elasticloadbalancingv2listener.NewElasticloadbalancingv2ListenerCertificatesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Elasticloadbalancingv2ListenerCertificatesList
 ```
@@ -2757,7 +2757,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.elasticloadbalancingv2Listener.Elasticloadbalancingv2ListenerCertificatesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticloadbalancingv2listener"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticloadbalancingv2listener"
 
 elasticloadbalancingv2listener.NewElasticloadbalancingv2ListenerCertificatesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) Elasticloadbalancingv2ListenerCertificatesOutputReference
 ```
@@ -3053,7 +3053,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.elasticloadbalancingv2Listener.Elasticloadbalancingv2ListenerDefaultActionsAuthenticateCognitoConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticloadbalancingv2listener"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticloadbalancingv2listener"
 
 elasticloadbalancingv2listener.NewElasticloadbalancingv2ListenerDefaultActionsAuthenticateCognitoConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Elasticloadbalancingv2ListenerDefaultActionsAuthenticateCognitoConfigOutputReference
 ```
@@ -3534,7 +3534,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.elasticloadbalancingv2Listener.Elasticloadbalancingv2ListenerDefaultActionsAuthenticateOidcConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticloadbalancingv2listener"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticloadbalancingv2listener"
 
 elasticloadbalancingv2listener.NewElasticloadbalancingv2ListenerDefaultActionsAuthenticateOidcConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Elasticloadbalancingv2ListenerDefaultActionsAuthenticateOidcConfigOutputReference
 ```
@@ -4131,7 +4131,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.elasticloadbalancingv2Listener.Elasticloadbalancingv2ListenerDefaultActionsFixedResponseConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticloadbalancingv2listener"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticloadbalancingv2listener"
 
 elasticloadbalancingv2listener.NewElasticloadbalancingv2ListenerDefaultActionsFixedResponseConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Elasticloadbalancingv2ListenerDefaultActionsFixedResponseConfigOutputReference
 ```
@@ -4467,7 +4467,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.elasticloadbalancingv2Listener.Elasticloadbalancingv2ListenerDefaultActionsForwardConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticloadbalancingv2listener"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticloadbalancingv2listener"
 
 elasticloadbalancingv2listener.NewElasticloadbalancingv2ListenerDefaultActionsForwardConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Elasticloadbalancingv2ListenerDefaultActionsForwardConfigOutputReference
 ```
@@ -4800,7 +4800,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.elasticloadbalancingv2Listener.Elasticloadbalancingv2ListenerDefaultActionsForwardConfigTargetGroupsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticloadbalancingv2listener"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticloadbalancingv2listener"
 
 elasticloadbalancingv2listener.NewElasticloadbalancingv2ListenerDefaultActionsForwardConfigTargetGroupsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Elasticloadbalancingv2ListenerDefaultActionsForwardConfigTargetGroupsList
 ```
@@ -4960,7 +4960,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.elasticloadbalancingv2Listener.Elasticloadbalancingv2ListenerDefaultActionsForwardConfigTargetGroupsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticloadbalancingv2listener"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticloadbalancingv2listener"
 
 elasticloadbalancingv2listener.NewElasticloadbalancingv2ListenerDefaultActionsForwardConfigTargetGroupsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) Elasticloadbalancingv2ListenerDefaultActionsForwardConfigTargetGroupsOutputReference
 ```
@@ -5285,7 +5285,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.elasticloadbalancingv2Listener.Elasticloadbalancingv2ListenerDefaultActionsForwardConfigTargetGroupStickinessConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticloadbalancingv2listener"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticloadbalancingv2listener"
 
 elasticloadbalancingv2listener.NewElasticloadbalancingv2ListenerDefaultActionsForwardConfigTargetGroupStickinessConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Elasticloadbalancingv2ListenerDefaultActionsForwardConfigTargetGroupStickinessConfigOutputReference
 ```
@@ -5592,7 +5592,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.elasticloadbalancingv2Listener.Elasticloadbalancingv2ListenerDefaultActionsJwtValidationConfigAdditionalClaimsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticloadbalancingv2listener"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticloadbalancingv2listener"
 
 elasticloadbalancingv2listener.NewElasticloadbalancingv2ListenerDefaultActionsJwtValidationConfigAdditionalClaimsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Elasticloadbalancingv2ListenerDefaultActionsJwtValidationConfigAdditionalClaimsList
 ```
@@ -5752,7 +5752,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.elasticloadbalancingv2Listener.Elasticloadbalancingv2ListenerDefaultActionsJwtValidationConfigAdditionalClaimsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticloadbalancingv2listener"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticloadbalancingv2listener"
 
 elasticloadbalancingv2listener.NewElasticloadbalancingv2ListenerDefaultActionsJwtValidationConfigAdditionalClaimsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) Elasticloadbalancingv2ListenerDefaultActionsJwtValidationConfigAdditionalClaimsOutputReference
 ```
@@ -6106,7 +6106,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.elasticloadbalancingv2Listener.Elasticloadbalancingv2ListenerDefaultActionsJwtValidationConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticloadbalancingv2listener"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticloadbalancingv2listener"
 
 elasticloadbalancingv2listener.NewElasticloadbalancingv2ListenerDefaultActionsJwtValidationConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Elasticloadbalancingv2ListenerDefaultActionsJwtValidationConfigOutputReference
 ```
@@ -6455,7 +6455,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.elasticloadbalancingv2Listener.Elasticloadbalancingv2ListenerDefaultActionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticloadbalancingv2listener"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticloadbalancingv2listener"
 
 elasticloadbalancingv2listener.NewElasticloadbalancingv2ListenerDefaultActionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Elasticloadbalancingv2ListenerDefaultActionsList
 ```
@@ -6615,7 +6615,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.elasticloadbalancingv2Listener.Elasticloadbalancingv2ListenerDefaultActionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticloadbalancingv2listener"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticloadbalancingv2listener"
 
 elasticloadbalancingv2listener.NewElasticloadbalancingv2ListenerDefaultActionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) Elasticloadbalancingv2ListenerDefaultActionsOutputReference
 ```
@@ -7214,7 +7214,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.elasticloadbalancingv2Listener.Elasticloadbalancingv2ListenerDefaultActionsRedirectConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticloadbalancingv2listener"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticloadbalancingv2listener"
 
 elasticloadbalancingv2listener.NewElasticloadbalancingv2ListenerDefaultActionsRedirectConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Elasticloadbalancingv2ListenerDefaultActionsRedirectConfigOutputReference
 ```
@@ -7637,7 +7637,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.elasticloadbalancingv2Listener.Elasticloadbalancingv2ListenerListenerAttributesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticloadbalancingv2listener"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticloadbalancingv2listener"
 
 elasticloadbalancingv2listener.NewElasticloadbalancingv2ListenerListenerAttributesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Elasticloadbalancingv2ListenerListenerAttributesList
 ```
@@ -7797,7 +7797,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.elasticloadbalancingv2Listener.Elasticloadbalancingv2ListenerListenerAttributesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticloadbalancingv2listener"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticloadbalancingv2listener"
 
 elasticloadbalancingv2listener.NewElasticloadbalancingv2ListenerListenerAttributesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) Elasticloadbalancingv2ListenerListenerAttributesOutputReference
 ```
@@ -8122,7 +8122,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.elasticloadbalancingv2Listener.Elasticloadbalancingv2ListenerMutualAuthenticationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticloadbalancingv2listener"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticloadbalancingv2listener"
 
 elasticloadbalancingv2listener.NewElasticloadbalancingv2ListenerMutualAuthenticationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Elasticloadbalancingv2ListenerMutualAuthenticationOutputReference
 ```
@@ -8487,7 +8487,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.elasticloadbalancingv2Listener.Elasticloadbalancingv2ListenerTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticloadbalancingv2listener"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticloadbalancingv2listener"
 
 elasticloadbalancingv2listener.NewElasticloadbalancingv2ListenerTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Elasticloadbalancingv2ListenerTagsList
 ```
@@ -8647,7 +8647,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.elasticloadbalancingv2Listener.Elasticloadbalancingv2ListenerTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticloadbalancingv2listener"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticloadbalancingv2listener"
 
 elasticloadbalancingv2listener.NewElasticloadbalancingv2ListenerTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) Elasticloadbalancingv2ListenerTagsOutputReference
 ```

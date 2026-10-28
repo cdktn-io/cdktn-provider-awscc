@@ -4,12 +4,12 @@
 
 ### DataAwsccSecurityhubDelegatedAdmins <a name="DataAwsccSecurityhubDelegatedAdmins" id="@cdktn/provider-awscc.dataAwsccSecurityhubDelegatedAdmins.DataAwsccSecurityhubDelegatedAdmins"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securityhub_delegated_admins awscc_securityhub_delegated_admins}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securityhub_delegated_admins awscc_securityhub_delegated_admins}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubDelegatedAdmins.DataAwsccSecurityhubDelegatedAdmins.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubdelegatedadmins"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubdelegatedadmins"
 
 dataawsccsecurityhubdelegatedadmins.NewDataAwsccSecurityhubDelegatedAdmins(scope Construct, id *string, config DataAwsccSecurityhubDelegatedAdminsConfig) DataAwsccSecurityhubDelegatedAdmins
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSecurityhubDelegatedAdmins.DataAwsccSecurityhubDelegatedAdmins.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubdelegatedadmins"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubdelegatedadmins"
 
 dataawsccsecurityhubdelegatedadmins.DataAwsccSecurityhubDelegatedAdmins_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSecurityhubDelegatedAdmins.DataAwsccSecurityhubDelegatedAdmins.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubdelegatedadmins"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubdelegatedadmins"
 
 dataawsccsecurityhubdelegatedadmins.DataAwsccSecurityhubDelegatedAdmins_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsecurityhubdelegatedadmins.DataAwsccSecurityhubDelegatedAdmins_IsTerraf
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSecurityhubDelegatedAdmins.DataAwsccSecurityhubDelegatedAdmins.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubdelegatedadmins"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubdelegatedadmins"
 
 dataawsccsecurityhubdelegatedadmins.DataAwsccSecurityhubDelegatedAdmins_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsecurityhubdelegatedadmins.DataAwsccSecurityhubDelegatedAdmins_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSecurityhubDelegatedAdmins.DataAwsccSecurityhubDelegatedAdmins.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubdelegatedadmins"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubdelegatedadmins"
 
 dataawsccsecurityhubdelegatedadmins.DataAwsccSecurityhubDelegatedAdmins_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSecurityhubDelega
 
 The id of the existing DataAwsccSecurityhubDelegatedAdmins that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securityhub_delegated_admins#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securityhub_delegated_admins#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubDelegatedAdmins.DataAwsccSecurityhubDelegatedAdminsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubdelegatedadmins"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubdelegatedadmins"
 
 &dataawsccsecurityhubdelegatedadmins.DataAwsccSecurityhubDelegatedAdminsConfig {
 	Connection: interface{},

@@ -4,12 +4,12 @@
 
 ### LocationTrackerConsumer <a name="LocationTrackerConsumer" id="@cdktn/provider-awscc.locationTrackerConsumer.LocationTrackerConsumer"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/location_tracker_consumer awscc_location_tracker_consumer}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/location_tracker_consumer awscc_location_tracker_consumer}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.locationTrackerConsumer.LocationTrackerConsumer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/locationtrackerconsumer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/locationtrackerconsumer"
 
 locationtrackerconsumer.NewLocationTrackerConsumer(scope Construct, id *string, config LocationTrackerConsumerConfig) LocationTrackerConsumer
 ```
@@ -400,7 +400,7 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.locationTrackerConsumer.LocationTrackerConsumer.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/locationtrackerconsumer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/locationtrackerconsumer"
 
 locationtrackerconsumer.LocationTrackerConsumer_IsConstruct(x interface{}) *bool
 ```
@@ -432,7 +432,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.locationTrackerConsumer.LocationTrackerConsumer.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/locationtrackerconsumer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/locationtrackerconsumer"
 
 locationtrackerconsumer.LocationTrackerConsumer_IsTerraformElement(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ locationtrackerconsumer.LocationTrackerConsumer_IsTerraformElement(x interface{}
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.locationTrackerConsumer.LocationTrackerConsumer.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/locationtrackerconsumer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/locationtrackerconsumer"
 
 locationtrackerconsumer.LocationTrackerConsumer_IsTerraformResource(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ locationtrackerconsumer.LocationTrackerConsumer_IsTerraformResource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.locationTrackerConsumer.LocationTrackerConsumer.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/locationtrackerconsumer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/locationtrackerconsumer"
 
 locationtrackerconsumer.LocationTrackerConsumer_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -489,7 +489,7 @@ The construct id used in the generated config for the LocationTrackerConsumer to
 
 The id of the existing LocationTrackerConsumer that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/location_tracker_consumer#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/location_tracker_consumer#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -744,7 +744,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.locationTrackerConsumer.LocationTrackerConsumerConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/locationtrackerconsumer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/locationtrackerconsumer"
 
 &locationtrackerconsumer.LocationTrackerConsumerConfig {
 	Connection: interface{},
@@ -770,8 +770,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/locationtrackerconsume
 | <code><a href="#@cdktn/provider-awscc.locationTrackerConsumer.LocationTrackerConsumerConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.locationTrackerConsumer.LocationTrackerConsumerConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.locationTrackerConsumer.LocationTrackerConsumerConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.locationTrackerConsumer.LocationTrackerConsumerConfig.property.consumerArn">ConsumerArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/location_tracker_consumer#consumer_arn LocationTrackerConsumer#consumer_arn}. |
-| <code><a href="#@cdktn/provider-awscc.locationTrackerConsumer.LocationTrackerConsumerConfig.property.trackerName">TrackerName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/location_tracker_consumer#tracker_name LocationTrackerConsumer#tracker_name}. |
+| <code><a href="#@cdktn/provider-awscc.locationTrackerConsumer.LocationTrackerConsumerConfig.property.consumerArn">ConsumerArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/location_tracker_consumer#consumer_arn LocationTrackerConsumer#consumer_arn}. |
+| <code><a href="#@cdktn/provider-awscc.locationTrackerConsumer.LocationTrackerConsumerConfig.property.trackerName">TrackerName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/location_tracker_consumer#tracker_name LocationTrackerConsumer#tracker_name}. |
 
 ---
 
@@ -853,7 +853,7 @@ ConsumerArn *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/location_tracker_consumer#consumer_arn LocationTrackerConsumer#consumer_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/location_tracker_consumer#consumer_arn LocationTrackerConsumer#consumer_arn}.
 
 ---
 
@@ -865,7 +865,7 @@ TrackerName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/location_tracker_consumer#tracker_name LocationTrackerConsumer#tracker_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/location_tracker_consumer#tracker_name LocationTrackerConsumer#tracker_name}.
 
 ---
 

@@ -4,12 +4,12 @@
 
 ### DataAwsccServicecatalogResourceUpdateConstraint <a name="DataAwsccServicecatalogResourceUpdateConstraint" id="@cdktn/provider-awscc.dataAwsccServicecatalogResourceUpdateConstraint.DataAwsccServicecatalogResourceUpdateConstraint"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/servicecatalog_resource_update_constraint awscc_servicecatalog_resource_update_constraint}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/servicecatalog_resource_update_constraint awscc_servicecatalog_resource_update_constraint}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccServicecatalogResourceUpdateConstraint.DataAwsccServicecatalogResourceUpdateConstraint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogresourceupdateconstraint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogresourceupdateconstraint"
 
 dataawsccservicecatalogresourceupdateconstraint.NewDataAwsccServicecatalogResourceUpdateConstraint(scope Construct, id *string, config DataAwsccServicecatalogResourceUpdateConstraintConfig) DataAwsccServicecatalogResourceUpdateConstraint
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccServicecatalogResourceUpdateConstraint.DataAwsccServicecatalogResourceUpdateConstraint.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogresourceupdateconstraint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogresourceupdateconstraint"
 
 dataawsccservicecatalogresourceupdateconstraint.DataAwsccServicecatalogResourceUpdateConstraint_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccServicecatalogResourceUpdateConstraint.DataAwsccServicecatalogResourceUpdateConstraint.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogresourceupdateconstraint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogresourceupdateconstraint"
 
 dataawsccservicecatalogresourceupdateconstraint.DataAwsccServicecatalogResourceUpdateConstraint_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccservicecatalogresourceupdateconstraint.DataAwsccServicecatalogResourceU
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccServicecatalogResourceUpdateConstraint.DataAwsccServicecatalogResourceUpdateConstraint.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogresourceupdateconstraint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogresourceupdateconstraint"
 
 dataawsccservicecatalogresourceupdateconstraint.DataAwsccServicecatalogResourceUpdateConstraint_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccservicecatalogresourceupdateconstraint.DataAwsccServicecatalogResourceU
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccServicecatalogResourceUpdateConstraint.DataAwsccServicecatalogResourceUpdateConstraint.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogresourceupdateconstraint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogresourceupdateconstraint"
 
 dataawsccservicecatalogresourceupdateconstraint.DataAwsccServicecatalogResourceUpdateConstraint_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccServicecatalogRes
 
 The id of the existing DataAwsccServicecatalogResourceUpdateConstraint that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/servicecatalog_resource_update_constraint#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/servicecatalog_resource_update_constraint#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -653,7 +653,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccServicecatalogResourceUpdateConstraint.DataAwsccServicecatalogResourceUpdateConstraintConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogresourceupdateconstraint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogresourceupdateconstraint"
 
 &dataawsccservicecatalogresourceupdateconstraint.DataAwsccServicecatalogResourceUpdateConstraintConfig {
 	Connection: interface{},
@@ -762,7 +762,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/servicecatalog_resource_update_constraint#id DataAwsccServicecatalogResourceUpdateConstraint#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/servicecatalog_resource_update_constraint#id DataAwsccServicecatalogResourceUpdateConstraint#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

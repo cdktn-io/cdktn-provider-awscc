@@ -4,12 +4,12 @@
 
 ### DevopsagentAssociation <a name="DevopsagentAssociation" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association awscc_devopsagent_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association awscc_devopsagent_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentassociation"
 
 devopsagentassociation.NewDevopsagentAssociation(scope Construct, id *string, config DevopsagentAssociationConfig) DevopsagentAssociation
 ```
@@ -420,7 +420,7 @@ func ResetLinkedAssociationIds()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentassociation"
 
 devopsagentassociation.DevopsagentAssociation_IsConstruct(x interface{}) *bool
 ```
@@ -452,7 +452,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentassociation"
 
 devopsagentassociation.DevopsagentAssociation_IsTerraformElement(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ devopsagentassociation.DevopsagentAssociation_IsTerraformElement(x interface{}) 
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentassociation"
 
 devopsagentassociation.DevopsagentAssociation_IsTerraformResource(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ devopsagentassociation.DevopsagentAssociation_IsTerraformResource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentassociation"
 
 devopsagentassociation.DevopsagentAssociation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -509,7 +509,7 @@ The construct id used in the generated config for the DevopsagentAssociation to 
 
 The id of the existing DevopsagentAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -841,7 +841,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentassociation"
 
 &devopsagentassociation.DevopsagentAssociationConfig {
 	Connection: interface{},
@@ -852,7 +852,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentassociation
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	AgentSpaceId: *string,
-	Configuration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.devopsagentAssociation.DevopsagentAssociationConfiguration,
+	Configuration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.devopsagentAssociation.DevopsagentAssociationConfiguration,
 	ServiceId: *string,
 	LinkedAssociationIds: *[]*string,
 }
@@ -956,7 +956,7 @@ AgentSpaceId *string
 
 The unique identifier of the AgentSpace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#agent_space_id DevopsagentAssociation#agent_space_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#agent_space_id DevopsagentAssociation#agent_space_id}
 
 ---
 
@@ -970,7 +970,7 @@ Configuration DevopsagentAssociationConfiguration
 
 The configuration that directs how AgentSpace interacts with the given service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#configuration DevopsagentAssociation#configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#configuration DevopsagentAssociation#configuration}
 
 ---
 
@@ -984,7 +984,7 @@ ServiceId *string
 
 The identifier for the associated service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#service_id DevopsagentAssociation#service_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#service_id DevopsagentAssociation#service_id}
 
 ---
 
@@ -998,7 +998,7 @@ LinkedAssociationIds *[]*string
 
 Set of linked association IDs for parent-child relationships.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#linked_association_ids DevopsagentAssociation#linked_association_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#linked_association_ids DevopsagentAssociation#linked_association_ids}
 
 ---
 
@@ -1007,25 +1007,25 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentassociation"
 
 &devopsagentassociation.DevopsagentAssociationConfiguration {
-	Aws: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.devopsagentAssociation.DevopsagentAssociationConfigurationAws,
-	Azure: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.devopsagentAssociation.DevopsagentAssociationConfigurationAzure,
-	Dynatrace: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.devopsagentAssociation.DevopsagentAssociationConfigurationDynatrace,
-	EventChannel: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.devopsagentAssociation.DevopsagentAssociationConfigurationEventChannel,
-	GitHub: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitHub,
-	GitLab: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitLab,
-	McpServer: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServer,
-	McpServerDatadog: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerDatadog,
-	McpServerGrafana: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerGrafana,
-	McpServerNewRelic: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerNewRelic,
-	McpServerSigV4: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerSigV4,
-	McpServerSplunk: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerSplunk,
-	PagerDuty: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.devopsagentAssociation.DevopsagentAssociationConfigurationPagerDuty,
-	ServiceNow: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.devopsagentAssociation.DevopsagentAssociationConfigurationServiceNow,
-	Slack: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlack,
-	SourceAws: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAws,
+	Aws: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.devopsagentAssociation.DevopsagentAssociationConfigurationAws,
+	Azure: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.devopsagentAssociation.DevopsagentAssociationConfigurationAzure,
+	Dynatrace: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.devopsagentAssociation.DevopsagentAssociationConfigurationDynatrace,
+	EventChannel: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.devopsagentAssociation.DevopsagentAssociationConfigurationEventChannel,
+	GitHub: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.devopsagentAssociation.DevopsagentAssociationConfigurationGitHub,
+	GitLab: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.devopsagentAssociation.DevopsagentAssociationConfigurationGitLab,
+	McpServer: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServer,
+	McpServerDatadog: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerDatadog,
+	McpServerGrafana: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerGrafana,
+	McpServerNewRelic: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerNewRelic,
+	McpServerSigV4: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerSigV4,
+	McpServerSplunk: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerSplunk,
+	PagerDuty: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.devopsagentAssociation.DevopsagentAssociationConfigurationPagerDuty,
+	ServiceNow: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.devopsagentAssociation.DevopsagentAssociationConfigurationServiceNow,
+	Slack: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.devopsagentAssociation.DevopsagentAssociationConfigurationSlack,
+	SourceAws: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAws,
 }
 ```
 
@@ -1062,7 +1062,7 @@ Aws DevopsagentAssociationConfigurationAws
 
 AWS association for 'monitor' account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#aws DevopsagentAssociation#aws}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#aws DevopsagentAssociation#aws}
 
 ---
 
@@ -1076,7 +1076,7 @@ Azure DevopsagentAssociationConfigurationAzure
 
 Azure subscription integration configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#azure DevopsagentAssociation#azure}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#azure DevopsagentAssociation#azure}
 
 ---
 
@@ -1090,7 +1090,7 @@ Dynatrace DevopsagentAssociationConfigurationDynatrace
 
 Dynatrace monitoring configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#dynatrace DevopsagentAssociation#dynatrace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#dynatrace DevopsagentAssociation#dynatrace}
 
 ---
 
@@ -1104,7 +1104,7 @@ EventChannel DevopsagentAssociationConfigurationEventChannel
 
 EventChannelconfiguration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#event_channel DevopsagentAssociation#event_channel}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#event_channel DevopsagentAssociation#event_channel}
 
 ---
 
@@ -1118,7 +1118,7 @@ GitHub DevopsagentAssociationConfigurationGitHub
 
 GitHub repository integration configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#git_hub DevopsagentAssociation#git_hub}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#git_hub DevopsagentAssociation#git_hub}
 
 ---
 
@@ -1132,7 +1132,7 @@ GitLab DevopsagentAssociationConfigurationGitLab
 
 GitLab project integration configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#git_lab DevopsagentAssociation#git_lab}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#git_lab DevopsagentAssociation#git_lab}
 
 ---
 
@@ -1146,7 +1146,7 @@ McpServer DevopsagentAssociationConfigurationMcpServer
 
 MCP server configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#mcp_server DevopsagentAssociation#mcp_server}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#mcp_server DevopsagentAssociation#mcp_server}
 
 ---
 
@@ -1160,7 +1160,7 @@ McpServerDatadog DevopsagentAssociationConfigurationMcpServerDatadog
 
 Datadog MCP server configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#mcp_server_datadog DevopsagentAssociation#mcp_server_datadog}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#mcp_server_datadog DevopsagentAssociation#mcp_server_datadog}
 
 ---
 
@@ -1174,7 +1174,7 @@ McpServerGrafana DevopsagentAssociationConfigurationMcpServerGrafana
 
 Grafana MCP server configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#mcp_server_grafana DevopsagentAssociation#mcp_server_grafana}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#mcp_server_grafana DevopsagentAssociation#mcp_server_grafana}
 
 ---
 
@@ -1188,7 +1188,7 @@ McpServerNewRelic DevopsagentAssociationConfigurationMcpServerNewRelic
 
 NewRelic MCP server configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#mcp_server_new_relic DevopsagentAssociation#mcp_server_new_relic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#mcp_server_new_relic DevopsagentAssociation#mcp_server_new_relic}
 
 ---
 
@@ -1202,7 +1202,7 @@ McpServerSigV4 DevopsagentAssociationConfigurationMcpServerSigV4
 
 SigV4-authenticated MCP server configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#mcp_server_sig_v4 DevopsagentAssociation#mcp_server_sig_v4}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#mcp_server_sig_v4 DevopsagentAssociation#mcp_server_sig_v4}
 
 ---
 
@@ -1216,7 +1216,7 @@ McpServerSplunk DevopsagentAssociationConfigurationMcpServerSplunk
 
 Splunk MCP server configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#mcp_server_splunk DevopsagentAssociation#mcp_server_splunk}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#mcp_server_splunk DevopsagentAssociation#mcp_server_splunk}
 
 ---
 
@@ -1230,7 +1230,7 @@ PagerDuty DevopsagentAssociationConfigurationPagerDuty
 
 PagerDuty integration configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#pager_duty DevopsagentAssociation#pager_duty}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#pager_duty DevopsagentAssociation#pager_duty}
 
 ---
 
@@ -1244,7 +1244,7 @@ ServiceNow DevopsagentAssociationConfigurationServiceNow
 
 ServiceNow integration configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#service_now DevopsagentAssociation#service_now}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#service_now DevopsagentAssociation#service_now}
 
 ---
 
@@ -1258,7 +1258,7 @@ Slack DevopsagentAssociationConfigurationSlack
 
 Slack workspace integration configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#slack DevopsagentAssociation#slack}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#slack DevopsagentAssociation#slack}
 
 ---
 
@@ -1272,7 +1272,7 @@ SourceAws DevopsagentAssociationConfigurationSourceAws
 
 AWS association for 'source' account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#source_aws DevopsagentAssociation#source_aws}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#source_aws DevopsagentAssociation#source_aws}
 
 ---
 
@@ -1281,7 +1281,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationAws.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentassociation"
 
 &devopsagentassociation.DevopsagentAssociationConfigurationAws {
 	AccountId: *string,
@@ -1316,7 +1316,7 @@ AccountId *string
 
 AWS Account Id corresponding to provided resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#account_id DevopsagentAssociation#account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#account_id DevopsagentAssociation#account_id}
 
 ---
 
@@ -1330,7 +1330,7 @@ AccountType *string
 
 Account Type 'monitor' for DevOpsAgent monitoring.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#account_type DevopsagentAssociation#account_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#account_type DevopsagentAssociation#account_type}
 
 ---
 
@@ -1346,7 +1346,7 @@ The IAM role that AWS DevOps Agent assumes to perform elevated directed actions 
 
 Elevated actions also require ElevatedActionsEnabled to be set in the Preferences of the AgentSpace. When not provided, only non-elevated directed actions are available. Removing this property from the template clears the role on update. Setting this role is subject to the same iam:PassRole requirement as AssumableRoleArn.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#agent_elevated_role_arn DevopsagentAssociation#agent_elevated_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#agent_elevated_role_arn DevopsagentAssociation#agent_elevated_role_arn}
 
 ---
 
@@ -1360,7 +1360,7 @@ AssumableRoleArn *string
 
 Role ARN to be assumed by DevOpsAgent to operate on behalf of customer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#assumable_role_arn DevopsagentAssociation#assumable_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#assumable_role_arn DevopsagentAssociation#assumable_role_arn}
 
 ---
 
@@ -1374,7 +1374,7 @@ Resources interface{}
 
 List of AWS resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#resources DevopsagentAssociation#resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#resources DevopsagentAssociation#resources}
 
 ---
 
@@ -1388,7 +1388,7 @@ Tags interface{}
 
 List of AWS tags as key-value pairs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#tags DevopsagentAssociation#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#tags DevopsagentAssociation#tags}
 
 ---
 
@@ -1397,7 +1397,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationAwsResources.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentassociation"
 
 &devopsagentassociation.DevopsagentAssociationConfigurationAwsResources {
 	ResourceArn: *string,
@@ -1426,7 +1426,7 @@ ResourceArn *string
 
 The Amazon Resource Name (ARN) of the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#resource_arn DevopsagentAssociation#resource_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#resource_arn DevopsagentAssociation#resource_arn}
 
 ---
 
@@ -1440,7 +1440,7 @@ ResourceMetadata *string
 
 Additional metadata for the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#resource_metadata DevopsagentAssociation#resource_metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#resource_metadata DevopsagentAssociation#resource_metadata}
 
 ---
 
@@ -1454,7 +1454,7 @@ ResourceType *string
 
 Resource type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#resource_type DevopsagentAssociation#resource_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#resource_type DevopsagentAssociation#resource_type}
 
 ---
 
@@ -1463,7 +1463,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationAwsTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentassociation"
 
 &devopsagentassociation.DevopsagentAssociationConfigurationAwsTags {
 	Key: *string,
@@ -1475,8 +1475,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentassociation
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationAwsTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#key DevopsagentAssociation#key}. |
-| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationAwsTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#value DevopsagentAssociation#value}. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationAwsTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#key DevopsagentAssociation#key}. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationAwsTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#value DevopsagentAssociation#value}. |
 
 ---
 
@@ -1488,7 +1488,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#key DevopsagentAssociation#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#key DevopsagentAssociation#key}.
 
 ---
 
@@ -1500,7 +1500,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#value DevopsagentAssociation#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#value DevopsagentAssociation#value}.
 
 ---
 
@@ -1509,7 +1509,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationAzure.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentassociation"
 
 &devopsagentassociation.DevopsagentAssociationConfigurationAzure {
 	SubscriptionId: *string,
@@ -1534,7 +1534,7 @@ SubscriptionId *string
 
 Azure subscription ID corresponding to provided resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#subscription_id DevopsagentAssociation#subscription_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#subscription_id DevopsagentAssociation#subscription_id}
 
 ---
 
@@ -1543,7 +1543,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationDynatrace.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentassociation"
 
 &devopsagentassociation.DevopsagentAssociationConfigurationDynatrace {
 	EnableWebhookUpdates: interface{},
@@ -1572,7 +1572,7 @@ EnableWebhookUpdates interface{}
 
 When set to true, enables the Agent Space to create and update webhooks for receiving notifications and events from the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
 
 ---
 
@@ -1586,7 +1586,7 @@ EnvId *string
 
 Dynatrace environment id.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#env_id DevopsagentAssociation#env_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#env_id DevopsagentAssociation#env_id}
 
 ---
 
@@ -1600,7 +1600,7 @@ Resources *[]*string
 
 List of Dynatrace resources to monitor.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#resources DevopsagentAssociation#resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#resources DevopsagentAssociation#resources}
 
 ---
 
@@ -1609,7 +1609,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationEventChannel.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentassociation"
 
 &devopsagentassociation.DevopsagentAssociationConfigurationEventChannel {
 	EnableWebhookUpdates: interface{},
@@ -1634,7 +1634,7 @@ EnableWebhookUpdates interface{}
 
 When set to true, enables the Agent Space to create and update webhooks for receiving notifications and events from the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
 
 ---
 
@@ -1643,7 +1643,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitHub.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentassociation"
 
 &devopsagentassociation.DevopsagentAssociationConfigurationGitHub {
 	Owner: *string,
@@ -1674,7 +1674,7 @@ Owner *string
 
 Repository owner.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#owner DevopsagentAssociation#owner}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#owner DevopsagentAssociation#owner}
 
 ---
 
@@ -1688,7 +1688,7 @@ OwnerType *string
 
 Type of repository owner.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#owner_type DevopsagentAssociation#owner_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#owner_type DevopsagentAssociation#owner_type}
 
 ---
 
@@ -1702,7 +1702,7 @@ RepoId *string
 
 Associated Github repo ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#repo_id DevopsagentAssociation#repo_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#repo_id DevopsagentAssociation#repo_id}
 
 ---
 
@@ -1716,7 +1716,7 @@ RepoName *string
 
 Associated Github repo name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#repo_name DevopsagentAssociation#repo_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#repo_name DevopsagentAssociation#repo_name}
 
 ---
 
@@ -1725,7 +1725,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitLab.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentassociation"
 
 &devopsagentassociation.DevopsagentAssociationConfigurationGitLab {
 	EnableWebhookUpdates: interface{},
@@ -1756,7 +1756,7 @@ EnableWebhookUpdates interface{}
 
 When set to true, enables the Agent Space to create and update webhooks for receiving notifications and events from the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
 
 ---
 
@@ -1770,7 +1770,7 @@ InstanceIdentifier *string
 
 GitLab instance identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#instance_identifier DevopsagentAssociation#instance_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#instance_identifier DevopsagentAssociation#instance_identifier}
 
 ---
 
@@ -1784,7 +1784,7 @@ ProjectId *string
 
 GitLab numeric project ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#project_id DevopsagentAssociation#project_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#project_id DevopsagentAssociation#project_id}
 
 ---
 
@@ -1798,7 +1798,7 @@ ProjectPath *string
 
 Full GitLab project path (e.g., namespace/project-name).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#project_path DevopsagentAssociation#project_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#project_path DevopsagentAssociation#project_path}
 
 ---
 
@@ -1807,7 +1807,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentassociation"
 
 &devopsagentassociation.DevopsagentAssociationConfigurationMcpServer {
 	Description: *string,
@@ -1840,7 +1840,7 @@ Description *string
 
 The description of the MCP server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#description DevopsagentAssociation#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#description DevopsagentAssociation#description}
 
 ---
 
@@ -1854,7 +1854,7 @@ EnableWebhookUpdates interface{}
 
 When set to true, enables the Agent Space to create and update webhooks for receiving notifications and events from the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
 
 ---
 
@@ -1868,7 +1868,7 @@ Endpoint *string
 
 MCP server endpoint URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#endpoint DevopsagentAssociation#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#endpoint DevopsagentAssociation#endpoint}
 
 ---
 
@@ -1882,7 +1882,7 @@ Name *string
 
 The name of the MCP server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#name DevopsagentAssociation#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#name DevopsagentAssociation#name}
 
 ---
 
@@ -1896,7 +1896,7 @@ Tools *[]*string
 
 List of MCP tools that can be used with the association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#tools DevopsagentAssociation#tools}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#tools DevopsagentAssociation#tools}
 
 ---
 
@@ -1905,7 +1905,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerDatadog.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentassociation"
 
 &devopsagentassociation.DevopsagentAssociationConfigurationMcpServerDatadog {
 	Description: *string,
@@ -1938,7 +1938,7 @@ Description *string
 
 The description of the MCP server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#description DevopsagentAssociation#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#description DevopsagentAssociation#description}
 
 ---
 
@@ -1954,7 +1954,7 @@ The mutative MCP tools enabled for this integration, by tool name.
 
 Only tools the service classifies as MUTATIVE may be listed; other names are rejected. Tool names can be found in the console or from the association's current configuration. The list fully replaces the stored value on update: removing a name disables that tool, and removing the property disables all elevated tools.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#enabled_elevated_tools DevopsagentAssociation#enabled_elevated_tools}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#enabled_elevated_tools DevopsagentAssociation#enabled_elevated_tools}
 
 ---
 
@@ -1968,7 +1968,7 @@ EnableWebhookUpdates interface{}
 
 When set to true, enables the Agent Space to create and update webhooks for receiving notifications and events from the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
 
 ---
 
@@ -1982,7 +1982,7 @@ Endpoint *string
 
 MCP server endpoint URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#endpoint DevopsagentAssociation#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#endpoint DevopsagentAssociation#endpoint}
 
 ---
 
@@ -1996,7 +1996,7 @@ Name *string
 
 The name of the MCP server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#name DevopsagentAssociation#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#name DevopsagentAssociation#name}
 
 ---
 
@@ -2005,7 +2005,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerGrafana.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentassociation"
 
 &devopsagentassociation.DevopsagentAssociationConfigurationMcpServerGrafana {
 	EnabledElevatedTools: *[]*string,
@@ -2038,7 +2038,7 @@ The mutative MCP tools enabled for this integration, by tool name.
 
 Only tools the service classifies as MUTATIVE may be listed; other names are rejected. Tool names can be found in the console or from the association's current configuration. The list fully replaces the stored value on update: removing a name disables that tool, and removing the property disables all elevated tools. Independent of Tools, which selects the toolsets available to the agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#enabled_elevated_tools DevopsagentAssociation#enabled_elevated_tools}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#enabled_elevated_tools DevopsagentAssociation#enabled_elevated_tools}
 
 ---
 
@@ -2052,7 +2052,7 @@ EnableWebhookUpdates interface{}
 
 When set to true, enables the Agent Space to create and update webhooks for receiving notifications and events from the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
 
 ---
 
@@ -2066,7 +2066,7 @@ Endpoint *string
 
 MCP server endpoint URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#endpoint DevopsagentAssociation#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#endpoint DevopsagentAssociation#endpoint}
 
 ---
 
@@ -2080,7 +2080,7 @@ Tools *[]*string
 
 List of tool categories to enable for the Grafana MCP server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#tools DevopsagentAssociation#tools}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#tools DevopsagentAssociation#tools}
 
 ---
 
@@ -2089,7 +2089,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerNewRelic.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentassociation"
 
 &devopsagentassociation.DevopsagentAssociationConfigurationMcpServerNewRelic {
 	AccountId: *string,
@@ -2116,7 +2116,7 @@ AccountId *string
 
 New Relic Account ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#account_id DevopsagentAssociation#account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#account_id DevopsagentAssociation#account_id}
 
 ---
 
@@ -2130,7 +2130,7 @@ Endpoint *string
 
 MCP server endpoint URL (e.g., https://mcp.newrelic.com/mcp/).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#endpoint DevopsagentAssociation#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#endpoint DevopsagentAssociation#endpoint}
 
 ---
 
@@ -2139,7 +2139,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerSigV4.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentassociation"
 
 &devopsagentassociation.DevopsagentAssociationConfigurationMcpServerSigV4 {
 	Tools: *[]*string,
@@ -2164,7 +2164,7 @@ Tools *[]*string
 
 List of MCP tools available for the association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#tools DevopsagentAssociation#tools}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#tools DevopsagentAssociation#tools}
 
 ---
 
@@ -2173,7 +2173,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerSplunk.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentassociation"
 
 &devopsagentassociation.DevopsagentAssociationConfigurationMcpServerSplunk {
 	Description: *string,
@@ -2204,7 +2204,7 @@ Description *string
 
 The description of the MCP server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#description DevopsagentAssociation#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#description DevopsagentAssociation#description}
 
 ---
 
@@ -2218,7 +2218,7 @@ EnableWebhookUpdates interface{}
 
 When set to true, enables the Agent Space to create and update webhooks for receiving notifications and events from the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
 
 ---
 
@@ -2232,7 +2232,7 @@ Endpoint *string
 
 MCP server endpoint URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#endpoint DevopsagentAssociation#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#endpoint DevopsagentAssociation#endpoint}
 
 ---
 
@@ -2246,7 +2246,7 @@ Name *string
 
 The name of the MCP server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#name DevopsagentAssociation#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#name DevopsagentAssociation#name}
 
 ---
 
@@ -2255,7 +2255,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationPagerDuty.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentassociation"
 
 &devopsagentassociation.DevopsagentAssociationConfigurationPagerDuty {
 	CustomerEmail: *string,
@@ -2284,7 +2284,7 @@ CustomerEmail *string
 
 Email to be used in PagerDuty API header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#customer_email DevopsagentAssociation#customer_email}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#customer_email DevopsagentAssociation#customer_email}
 
 ---
 
@@ -2298,7 +2298,7 @@ EnableWebhookUpdates interface{}
 
 When set to true, enables the Agent Space to create and update webhooks for receiving notifications and events from the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
 
 ---
 
@@ -2312,7 +2312,7 @@ Services *[]*string
 
 List of PagerDuty service IDs available for the association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#services DevopsagentAssociation#services}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#services DevopsagentAssociation#services}
 
 ---
 
@@ -2321,7 +2321,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationServiceNow.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentassociation"
 
 &devopsagentassociation.DevopsagentAssociationConfigurationServiceNow {
 	EnableWebhookUpdates: interface{},
@@ -2348,7 +2348,7 @@ EnableWebhookUpdates interface{}
 
 When set to true, enables the Agent Space to create and update webhooks for receiving notifications and events from the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
 
 ---
 
@@ -2362,7 +2362,7 @@ InstanceId *string
 
 ServiceNow instance ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#instance_id DevopsagentAssociation#instance_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#instance_id DevopsagentAssociation#instance_id}
 
 ---
 
@@ -2371,11 +2371,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlack.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentassociation"
 
 &devopsagentassociation.DevopsagentAssociationConfigurationSlack {
-	Bidirectional: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectional,
-	TransmissionTarget: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackTransmissionTarget,
+	Bidirectional: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectional,
+	TransmissionTarget: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.devopsagentAssociation.DevopsagentAssociationConfigurationSlackTransmissionTarget,
 	WorkspaceId: *string,
 	WorkspaceName: *string,
 }
@@ -2404,7 +2404,7 @@ Optional bidirectional communication configuration.
 
 Supply this configuration and set Enabled to true so you can interact with the agent directly from Slack
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#bidirectional DevopsagentAssociation#bidirectional}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#bidirectional DevopsagentAssociation#bidirectional}
 
 ---
 
@@ -2418,7 +2418,7 @@ TransmissionTarget DevopsagentAssociationConfigurationSlackTransmissionTarget
 
 Transmission targets for agent notifications.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#transmission_target DevopsagentAssociation#transmission_target}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#transmission_target DevopsagentAssociation#transmission_target}
 
 ---
 
@@ -2432,7 +2432,7 @@ WorkspaceId *string
 
 Associated Slack workspace ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#workspace_id DevopsagentAssociation#workspace_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#workspace_id DevopsagentAssociation#workspace_id}
 
 ---
 
@@ -2446,7 +2446,7 @@ WorkspaceName *string
 
 Associated Slack workspace name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#workspace_name DevopsagentAssociation#workspace_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#workspace_name DevopsagentAssociation#workspace_name}
 
 ---
 
@@ -2455,7 +2455,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectional.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentassociation"
 
 &devopsagentassociation.DevopsagentAssociationConfigurationSlackBidirectional {
 	Enabled: interface{},
@@ -2484,7 +2484,7 @@ Whether bidirectional communication is enabled for this association.
 
 When set to true, you can mention the agent in a configured Slack channel and it responds in that channel. When omitted or set to false, the agent ignores mentions and only sends notifications
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#enabled DevopsagentAssociation#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#enabled DevopsagentAssociation#enabled}
 
 ---
 
@@ -2498,7 +2498,7 @@ RoleArn *string
 
 IAM role ARN that AWS DevOps Agent assumes to exchange messages with your Slack workspace on behalf of this association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#role_arn DevopsagentAssociation#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#role_arn DevopsagentAssociation#role_arn}
 
 ---
 
@@ -2507,10 +2507,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackTransmissionTarget.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentassociation"
 
 &devopsagentassociation.DevopsagentAssociationConfigurationSlackTransmissionTarget {
-	IncidentResponseTarget: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackTransmissionTargetIncidentResponseTarget,
+	IncidentResponseTarget: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.devopsagentAssociation.DevopsagentAssociationConfigurationSlackTransmissionTargetIncidentResponseTarget,
 }
 ```
 
@@ -2532,7 +2532,7 @@ IncidentResponseTarget DevopsagentAssociationConfigurationSlackTransmissionTarge
 
 Destination for IncidentResponse agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#incident_response_target DevopsagentAssociation#incident_response_target}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#incident_response_target DevopsagentAssociation#incident_response_target}
 
 ---
 
@@ -2541,7 +2541,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackTransmissionTargetIncidentResponseTarget.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentassociation"
 
 &devopsagentassociation.DevopsagentAssociationConfigurationSlackTransmissionTargetIncidentResponseTarget {
 	ChannelId: *string,
@@ -2568,7 +2568,7 @@ ChannelId *string
 
 Slack channel ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#channel_id DevopsagentAssociation#channel_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#channel_id DevopsagentAssociation#channel_id}
 
 ---
 
@@ -2582,7 +2582,7 @@ ChannelName *string
 
 Slack channel name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#channel_name DevopsagentAssociation#channel_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#channel_name DevopsagentAssociation#channel_name}
 
 ---
 
@@ -2591,7 +2591,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAws.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentassociation"
 
 &devopsagentassociation.DevopsagentAssociationConfigurationSourceAws {
 	AccountId: *string,
@@ -2626,7 +2626,7 @@ AccountId *string
 
 AWS Account Id corresponding to provided resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#account_id DevopsagentAssociation#account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#account_id DevopsagentAssociation#account_id}
 
 ---
 
@@ -2640,7 +2640,7 @@ AccountType *string
 
 Account Type 'source' for DevOpsAgent monitoring.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#account_type DevopsagentAssociation#account_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#account_type DevopsagentAssociation#account_type}
 
 ---
 
@@ -2656,7 +2656,7 @@ The IAM role that AWS DevOps Agent assumes to perform elevated directed actions 
 
 Elevated actions also require ElevatedActionsEnabled to be set in the Preferences of the AgentSpace. When not provided, only non-elevated directed actions are available. Removing this property from the template clears the role on update. Setting this role is subject to the same iam:PassRole requirement as AssumableRoleArn.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#agent_elevated_role_arn DevopsagentAssociation#agent_elevated_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#agent_elevated_role_arn DevopsagentAssociation#agent_elevated_role_arn}
 
 ---
 
@@ -2670,7 +2670,7 @@ AssumableRoleArn *string
 
 Role ARN to be assumed by DevOpsAgent to operate on behalf of customer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#assumable_role_arn DevopsagentAssociation#assumable_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#assumable_role_arn DevopsagentAssociation#assumable_role_arn}
 
 ---
 
@@ -2684,7 +2684,7 @@ Resources interface{}
 
 List of AWS resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#resources DevopsagentAssociation#resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#resources DevopsagentAssociation#resources}
 
 ---
 
@@ -2698,7 +2698,7 @@ Tags interface{}
 
 List of AWS tags as key-value pairs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#tags DevopsagentAssociation#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#tags DevopsagentAssociation#tags}
 
 ---
 
@@ -2707,7 +2707,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAwsResources.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentassociation"
 
 &devopsagentassociation.DevopsagentAssociationConfigurationSourceAwsResources {
 	ResourceArn: *string,
@@ -2736,7 +2736,7 @@ ResourceArn *string
 
 The Amazon Resource Name (ARN) of the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#resource_arn DevopsagentAssociation#resource_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#resource_arn DevopsagentAssociation#resource_arn}
 
 ---
 
@@ -2750,7 +2750,7 @@ ResourceMetadata *string
 
 Additional metadata for the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#resource_metadata DevopsagentAssociation#resource_metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#resource_metadata DevopsagentAssociation#resource_metadata}
 
 ---
 
@@ -2764,7 +2764,7 @@ ResourceType *string
 
 Resource type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#resource_type DevopsagentAssociation#resource_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#resource_type DevopsagentAssociation#resource_type}
 
 ---
 
@@ -2773,7 +2773,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAwsTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentassociation"
 
 &devopsagentassociation.DevopsagentAssociationConfigurationSourceAwsTags {
 	Key: *string,
@@ -2785,8 +2785,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentassociation
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAwsTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#key DevopsagentAssociation#key}. |
-| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAwsTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#value DevopsagentAssociation#value}. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAwsTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#key DevopsagentAssociation#key}. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAwsTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#value DevopsagentAssociation#value}. |
 
 ---
 
@@ -2798,7 +2798,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#key DevopsagentAssociation#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#key DevopsagentAssociation#key}.
 
 ---
 
@@ -2810,7 +2810,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#value DevopsagentAssociation#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association#value DevopsagentAssociation#value}.
 
 ---
 
@@ -2821,7 +2821,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationAwsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentassociation"
 
 devopsagentassociation.NewDevopsagentAssociationConfigurationAwsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DevopsagentAssociationConfigurationAwsOutputReference
 ```
@@ -3270,7 +3270,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationAwsResourcesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentassociation"
 
 devopsagentassociation.NewDevopsagentAssociationConfigurationAwsResourcesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DevopsagentAssociationConfigurationAwsResourcesList
 ```
@@ -3430,7 +3430,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationAwsResourcesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentassociation"
 
 devopsagentassociation.NewDevopsagentAssociationConfigurationAwsResourcesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DevopsagentAssociationConfigurationAwsResourcesOutputReference
 ```
@@ -3784,7 +3784,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationAwsTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentassociation"
 
 devopsagentassociation.NewDevopsagentAssociationConfigurationAwsTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DevopsagentAssociationConfigurationAwsTagsList
 ```
@@ -3944,7 +3944,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationAwsTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentassociation"
 
 devopsagentassociation.NewDevopsagentAssociationConfigurationAwsTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DevopsagentAssociationConfigurationAwsTagsOutputReference
 ```
@@ -4269,7 +4269,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationAzureOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentassociation"
 
 devopsagentassociation.NewDevopsagentAssociationConfigurationAzureOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DevopsagentAssociationConfigurationAzureOutputReference
 ```
@@ -4547,7 +4547,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationDynatraceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentassociation"
 
 devopsagentassociation.NewDevopsagentAssociationConfigurationDynatraceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DevopsagentAssociationConfigurationDynatraceOutputReference
 ```
@@ -4883,7 +4883,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationEventChannelOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentassociation"
 
 devopsagentassociation.NewDevopsagentAssociationConfigurationEventChannelOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DevopsagentAssociationConfigurationEventChannelOutputReference
 ```
@@ -5161,7 +5161,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitHubOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentassociation"
 
 devopsagentassociation.NewDevopsagentAssociationConfigurationGitHubOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DevopsagentAssociationConfigurationGitHubOutputReference
 ```
@@ -5526,7 +5526,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitLabOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentassociation"
 
 devopsagentassociation.NewDevopsagentAssociationConfigurationGitLabOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DevopsagentAssociationConfigurationGitLabOutputReference
 ```
@@ -5891,7 +5891,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerDatadogOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentassociation"
 
 devopsagentassociation.NewDevopsagentAssociationConfigurationMcpServerDatadogOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DevopsagentAssociationConfigurationMcpServerDatadogOutputReference
 ```
@@ -6285,7 +6285,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerGrafanaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentassociation"
 
 devopsagentassociation.NewDevopsagentAssociationConfigurationMcpServerGrafanaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DevopsagentAssociationConfigurationMcpServerGrafanaOutputReference
 ```
@@ -6650,7 +6650,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerNewRelicOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentassociation"
 
 devopsagentassociation.NewDevopsagentAssociationConfigurationMcpServerNewRelicOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DevopsagentAssociationConfigurationMcpServerNewRelicOutputReference
 ```
@@ -6957,7 +6957,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentassociation"
 
 devopsagentassociation.NewDevopsagentAssociationConfigurationMcpServerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DevopsagentAssociationConfigurationMcpServerOutputReference
 ```
@@ -7351,7 +7351,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerSigV4OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentassociation"
 
 devopsagentassociation.NewDevopsagentAssociationConfigurationMcpServerSigV4OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DevopsagentAssociationConfigurationMcpServerSigV4OutputReference
 ```
@@ -7629,7 +7629,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerSplunkOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentassociation"
 
 devopsagentassociation.NewDevopsagentAssociationConfigurationMcpServerSplunkOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DevopsagentAssociationConfigurationMcpServerSplunkOutputReference
 ```
@@ -7994,7 +7994,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentassociation"
 
 devopsagentassociation.NewDevopsagentAssociationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DevopsagentAssociationConfigurationOutputReference
 ```
@@ -8915,7 +8915,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationPagerDutyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentassociation"
 
 devopsagentassociation.NewDevopsagentAssociationConfigurationPagerDutyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DevopsagentAssociationConfigurationPagerDutyOutputReference
 ```
@@ -9251,7 +9251,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationServiceNowOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentassociation"
 
 devopsagentassociation.NewDevopsagentAssociationConfigurationServiceNowOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DevopsagentAssociationConfigurationServiceNowOutputReference
 ```
@@ -9558,7 +9558,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectionalOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentassociation"
 
 devopsagentassociation.NewDevopsagentAssociationConfigurationSlackBidirectionalOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DevopsagentAssociationConfigurationSlackBidirectionalOutputReference
 ```
@@ -9865,7 +9865,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentassociation"
 
 devopsagentassociation.NewDevopsagentAssociationConfigurationSlackOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DevopsagentAssociationConfigurationSlackOutputReference
 ```
@@ -10256,7 +10256,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackTransmissionTargetIncidentResponseTargetOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentassociation"
 
 devopsagentassociation.NewDevopsagentAssociationConfigurationSlackTransmissionTargetIncidentResponseTargetOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DevopsagentAssociationConfigurationSlackTransmissionTargetIncidentResponseTargetOutputReference
 ```
@@ -10563,7 +10563,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackTransmissionTargetOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentassociation"
 
 devopsagentassociation.NewDevopsagentAssociationConfigurationSlackTransmissionTargetOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DevopsagentAssociationConfigurationSlackTransmissionTargetOutputReference
 ```
@@ -10854,7 +10854,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAwsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentassociation"
 
 devopsagentassociation.NewDevopsagentAssociationConfigurationSourceAwsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DevopsagentAssociationConfigurationSourceAwsOutputReference
 ```
@@ -11303,7 +11303,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAwsResourcesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentassociation"
 
 devopsagentassociation.NewDevopsagentAssociationConfigurationSourceAwsResourcesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DevopsagentAssociationConfigurationSourceAwsResourcesList
 ```
@@ -11463,7 +11463,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAwsResourcesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentassociation"
 
 devopsagentassociation.NewDevopsagentAssociationConfigurationSourceAwsResourcesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DevopsagentAssociationConfigurationSourceAwsResourcesOutputReference
 ```
@@ -11817,7 +11817,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAwsTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentassociation"
 
 devopsagentassociation.NewDevopsagentAssociationConfigurationSourceAwsTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DevopsagentAssociationConfigurationSourceAwsTagsList
 ```
@@ -11977,7 +11977,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAwsTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentassociation"
 
 devopsagentassociation.NewDevopsagentAssociationConfigurationSourceAwsTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DevopsagentAssociationConfigurationSourceAwsTagsOutputReference
 ```

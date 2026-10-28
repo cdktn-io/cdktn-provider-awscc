@@ -4,12 +4,12 @@
 
 ### DataAwsccConfigOrganizationConformancePacks <a name="DataAwsccConfigOrganizationConformancePacks" id="@cdktn/provider-awscc.dataAwsccConfigOrganizationConformancePacks.DataAwsccConfigOrganizationConformancePacks"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/config_organization_conformance_packs awscc_config_organization_conformance_packs}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/config_organization_conformance_packs awscc_config_organization_conformance_packs}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConfigOrganizationConformancePacks.DataAwsccConfigOrganizationConformancePacks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigorganizationconformancepacks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigorganizationconformancepacks"
 
 dataawsccconfigorganizationconformancepacks.NewDataAwsccConfigOrganizationConformancePacks(scope Construct, id *string, config DataAwsccConfigOrganizationConformancePacksConfig) DataAwsccConfigOrganizationConformancePacks
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccConfigOrganizationConformancePacks.DataAwsccConfigOrganizationConformancePacks.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigorganizationconformancepacks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigorganizationconformancepacks"
 
 dataawsccconfigorganizationconformancepacks.DataAwsccConfigOrganizationConformancePacks_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccConfigOrganizationConformancePacks.DataAwsccConfigOrganizationConformancePacks.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigorganizationconformancepacks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigorganizationconformancepacks"
 
 dataawsccconfigorganizationconformancepacks.DataAwsccConfigOrganizationConformancePacks_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccconfigorganizationconformancepacks.DataAwsccConfigOrganizationConforman
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccConfigOrganizationConformancePacks.DataAwsccConfigOrganizationConformancePacks.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigorganizationconformancepacks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigorganizationconformancepacks"
 
 dataawsccconfigorganizationconformancepacks.DataAwsccConfigOrganizationConformancePacks_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccconfigorganizationconformancepacks.DataAwsccConfigOrganizationConforman
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccConfigOrganizationConformancePacks.DataAwsccConfigOrganizationConformancePacks.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigorganizationconformancepacks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigorganizationconformancepacks"
 
 dataawsccconfigorganizationconformancepacks.DataAwsccConfigOrganizationConformancePacks_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccConfigOrganizatio
 
 The id of the existing DataAwsccConfigOrganizationConformancePacks that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/config_organization_conformance_packs#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/config_organization_conformance_packs#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConfigOrganizationConformancePacks.DataAwsccConfigOrganizationConformancePacksConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigorganizationconformancepacks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigorganizationconformancepacks"
 
 &dataawsccconfigorganizationconformancepacks.DataAwsccConfigOrganizationConformancePacksConfig {
 	Connection: interface{},

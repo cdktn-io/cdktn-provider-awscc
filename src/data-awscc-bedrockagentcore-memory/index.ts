@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockagentcore_memory
+// https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockagentcore_memory
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccBedrockagentcoreMemoryConfig extends cdktn.TerraformMe
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockagentcore_memory#id DataAwsccBedrockagentcoreMemory#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockagentcore_memory#id DataAwsccBedrockagentcoreMemory#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2298,6 +2298,60 @@ export class DataAwsccBedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategy
     return this._metadataSchema;
   }
 }
+export interface DataAwsccBedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyRecordExpirySpecification {
+}
+
+export function dataAwsccBedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyRecordExpirySpecificationToTerraform(struct?: DataAwsccBedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyRecordExpirySpecification): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccBedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyRecordExpirySpecificationToHclTerraform(struct?: DataAwsccBedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyRecordExpirySpecification): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccBedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyRecordExpirySpecificationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccBedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyRecordExpirySpecification | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccBedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyRecordExpirySpecification | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // record_expiry_duration_days - computed: true, optional: false, required: false
+  public get recordExpiryDurationDays() {
+    return this.getNumberAttribute('record_expiry_duration_days');
+  }
+}
 export interface DataAwsccBedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategy {
 }
 
@@ -2382,6 +2436,17 @@ export class DataAwsccBedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategy
   // namespaces - computed: true, optional: false, required: false
   public get namespaces() {
     return this.getListAttribute('namespaces');
+  }
+
+  // record_expiry_duration_days - computed: true, optional: false, required: false
+  public get recordExpiryDurationDays() {
+    return this.getNumberAttribute('record_expiry_duration_days');
+  }
+
+  // record_expiry_specification - computed: true, optional: false, required: false
+  private _recordExpirySpecification = new DataAwsccBedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyRecordExpirySpecificationOutputReference(this, "record_expiry_specification");
+  public get recordExpirySpecification() {
+    return this._recordExpirySpecification;
   }
 
   // status - computed: true, optional: false, required: false
@@ -2907,6 +2972,60 @@ export class DataAwsccBedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrate
   private _metadataSchema = new DataAwsccBedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyMemoryRecordSchemaMetadataSchemaList(this, "metadata_schema", false);
   public get metadataSchema() {
     return this._metadataSchema;
+  }
+}
+export interface DataAwsccBedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyRecordExpirySpecification {
+}
+
+export function dataAwsccBedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyRecordExpirySpecificationToTerraform(struct?: DataAwsccBedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyRecordExpirySpecification): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccBedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyRecordExpirySpecificationToHclTerraform(struct?: DataAwsccBedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyRecordExpirySpecification): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccBedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyRecordExpirySpecificationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccBedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyRecordExpirySpecification | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccBedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyRecordExpirySpecification | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // record_expiry_duration_days - computed: true, optional: false, required: false
+  public get recordExpiryDurationDays() {
+    return this.getNumberAttribute('record_expiry_duration_days');
   }
 }
 export interface DataAwsccBedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyReflectionConfigurationMemoryRecordSchemaMetadataSchemaExtractionConfigLlmExtractionConfigValidationNumberValidation {
@@ -3559,6 +3678,17 @@ export class DataAwsccBedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrate
     return this.getListAttribute('namespaces');
   }
 
+  // record_expiry_duration_days - computed: true, optional: false, required: false
+  public get recordExpiryDurationDays() {
+    return this.getNumberAttribute('record_expiry_duration_days');
+  }
+
+  // record_expiry_specification - computed: true, optional: false, required: false
+  private _recordExpirySpecification = new DataAwsccBedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyRecordExpirySpecificationOutputReference(this, "record_expiry_specification");
+  public get recordExpirySpecification() {
+    return this._recordExpirySpecification;
+  }
+
   // reflection_configuration - computed: true, optional: false, required: false
   private _reflectionConfiguration = new DataAwsccBedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyReflectionConfigurationOutputReference(this, "reflection_configuration");
   public get reflectionConfiguration() {
@@ -4090,6 +4220,60 @@ export class DataAwsccBedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrate
     return this._metadataSchema;
   }
 }
+export interface DataAwsccBedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyRecordExpirySpecification {
+}
+
+export function dataAwsccBedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyRecordExpirySpecificationToTerraform(struct?: DataAwsccBedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyRecordExpirySpecification): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccBedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyRecordExpirySpecificationToHclTerraform(struct?: DataAwsccBedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyRecordExpirySpecification): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccBedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyRecordExpirySpecificationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccBedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyRecordExpirySpecification | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccBedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyRecordExpirySpecification | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // record_expiry_duration_days - computed: true, optional: false, required: false
+  public get recordExpiryDurationDays() {
+    return this.getNumberAttribute('record_expiry_duration_days');
+  }
+}
 export interface DataAwsccBedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategy {
 }
 
@@ -4168,6 +4352,17 @@ export class DataAwsccBedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrate
   // namespaces - computed: true, optional: false, required: false
   public get namespaces() {
     return this.getListAttribute('namespaces');
+  }
+
+  // record_expiry_duration_days - computed: true, optional: false, required: false
+  public get recordExpiryDurationDays() {
+    return this.getNumberAttribute('record_expiry_duration_days');
+  }
+
+  // record_expiry_specification - computed: true, optional: false, required: false
+  private _recordExpirySpecification = new DataAwsccBedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyRecordExpirySpecificationOutputReference(this, "record_expiry_specification");
+  public get recordExpirySpecification() {
+    return this._recordExpirySpecification;
   }
 
   // status - computed: true, optional: false, required: false
@@ -4695,6 +4890,60 @@ export class DataAwsccBedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrateg
     return this._metadataSchema;
   }
 }
+export interface DataAwsccBedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyRecordExpirySpecification {
+}
+
+export function dataAwsccBedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyRecordExpirySpecificationToTerraform(struct?: DataAwsccBedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyRecordExpirySpecification): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccBedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyRecordExpirySpecificationToHclTerraform(struct?: DataAwsccBedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyRecordExpirySpecification): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccBedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyRecordExpirySpecificationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccBedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyRecordExpirySpecification | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccBedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyRecordExpirySpecification | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // record_expiry_duration_days - computed: true, optional: false, required: false
+  public get recordExpiryDurationDays() {
+    return this.getNumberAttribute('record_expiry_duration_days');
+  }
+}
 export interface DataAwsccBedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategy {
 }
 
@@ -4773,6 +5022,17 @@ export class DataAwsccBedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrateg
   // namespaces - computed: true, optional: false, required: false
   public get namespaces() {
     return this.getListAttribute('namespaces');
+  }
+
+  // record_expiry_duration_days - computed: true, optional: false, required: false
+  public get recordExpiryDurationDays() {
+    return this.getNumberAttribute('record_expiry_duration_days');
+  }
+
+  // record_expiry_specification - computed: true, optional: false, required: false
+  private _recordExpirySpecification = new DataAwsccBedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyRecordExpirySpecificationOutputReference(this, "record_expiry_specification");
+  public get recordExpirySpecification() {
+    return this._recordExpirySpecification;
   }
 
   // status - computed: true, optional: false, required: false
@@ -5300,6 +5560,60 @@ export class DataAwsccBedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemory
     return this._metadataSchema;
   }
 }
+export interface DataAwsccBedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyRecordExpirySpecification {
+}
+
+export function dataAwsccBedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyRecordExpirySpecificationToTerraform(struct?: DataAwsccBedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyRecordExpirySpecification): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccBedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyRecordExpirySpecificationToHclTerraform(struct?: DataAwsccBedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyRecordExpirySpecification): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccBedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyRecordExpirySpecificationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccBedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyRecordExpirySpecification | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccBedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyRecordExpirySpecification | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // record_expiry_duration_days - computed: true, optional: false, required: false
+  public get recordExpiryDurationDays() {
+    return this.getNumberAttribute('record_expiry_duration_days');
+  }
+}
 export interface DataAwsccBedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategy {
 }
 
@@ -5378,6 +5692,17 @@ export class DataAwsccBedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemory
   // namespaces - computed: true, optional: false, required: false
   public get namespaces() {
     return this.getListAttribute('namespaces');
+  }
+
+  // record_expiry_duration_days - computed: true, optional: false, required: false
+  public get recordExpiryDurationDays() {
+    return this.getNumberAttribute('record_expiry_duration_days');
+  }
+
+  // record_expiry_specification - computed: true, optional: false, required: false
+  private _recordExpirySpecification = new DataAwsccBedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyRecordExpirySpecificationOutputReference(this, "record_expiry_specification");
+  public get recordExpirySpecification() {
+    return this._recordExpirySpecification;
   }
 
   // status - computed: true, optional: false, required: false
@@ -5913,7 +6238,7 @@ export class DataAwsccBedrockagentcoreMemoryStreamDeliveryResourcesOutputReferen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockagentcore_memory awscc_bedrockagentcore_memory}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockagentcore_memory awscc_bedrockagentcore_memory}
 */
 export class DataAwsccBedrockagentcoreMemory extends cdktn.TerraformDataSource {
 
@@ -5929,7 +6254,7 @@ export class DataAwsccBedrockagentcoreMemory extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccBedrockagentcoreMemory resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccBedrockagentcoreMemory to import
-  * @param importFromId The id of the existing DataAwsccBedrockagentcoreMemory that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockagentcore_memory#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccBedrockagentcoreMemory that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockagentcore_memory#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccBedrockagentcoreMemory to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -5941,7 +6266,7 @@ export class DataAwsccBedrockagentcoreMemory extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockagentcore_memory awscc_bedrockagentcore_memory} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockagentcore_memory awscc_bedrockagentcore_memory} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5952,7 +6277,7 @@ export class DataAwsccBedrockagentcoreMemory extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_bedrockagentcore_memory',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.106.0',
+        providerVersion: '1.107.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

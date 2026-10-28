@@ -4,12 +4,12 @@
 
 ### DataAwsccPcaconnectorscepConnectors <a name="DataAwsccPcaconnectorscepConnectors" id="@cdktn/provider-awscc.dataAwsccPcaconnectorscepConnectors.DataAwsccPcaconnectorscepConnectors"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/pcaconnectorscep_connectors awscc_pcaconnectorscep_connectors}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/pcaconnectorscep_connectors awscc_pcaconnectorscep_connectors}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcaconnectorscepConnectors.DataAwsccPcaconnectorscepConnectors.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectorscepconnectors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectorscepconnectors"
 
 dataawsccpcaconnectorscepconnectors.NewDataAwsccPcaconnectorscepConnectors(scope Construct, id *string, config DataAwsccPcaconnectorscepConnectorsConfig) DataAwsccPcaconnectorscepConnectors
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccPcaconnectorscepConnectors.DataAwsccPcaconnectorscepConnectors.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectorscepconnectors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectorscepconnectors"
 
 dataawsccpcaconnectorscepconnectors.DataAwsccPcaconnectorscepConnectors_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccPcaconnectorscepConnectors.DataAwsccPcaconnectorscepConnectors.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectorscepconnectors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectorscepconnectors"
 
 dataawsccpcaconnectorscepconnectors.DataAwsccPcaconnectorscepConnectors_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccpcaconnectorscepconnectors.DataAwsccPcaconnectorscepConnectors_IsTerraf
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccPcaconnectorscepConnectors.DataAwsccPcaconnectorscepConnectors.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectorscepconnectors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectorscepconnectors"
 
 dataawsccpcaconnectorscepconnectors.DataAwsccPcaconnectorscepConnectors_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccpcaconnectorscepconnectors.DataAwsccPcaconnectorscepConnectors_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccPcaconnectorscepConnectors.DataAwsccPcaconnectorscepConnectors.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectorscepconnectors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectorscepconnectors"
 
 dataawsccpcaconnectorscepconnectors.DataAwsccPcaconnectorscepConnectors_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccPcaconnectorscepC
 
 The id of the existing DataAwsccPcaconnectorscepConnectors that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/pcaconnectorscep_connectors#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/pcaconnectorscep_connectors#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcaconnectorscepConnectors.DataAwsccPcaconnectorscepConnectorsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectorscepconnectors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectorscepconnectors"
 
 &dataawsccpcaconnectorscepconnectors.DataAwsccPcaconnectorscepConnectorsConfig {
 	Connection: interface{},

@@ -4,12 +4,12 @@
 
 ### GlueTable <a name="GlueTable" id="@cdktn/provider-awscc.glueTable.GlueTable"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table awscc_glue_table}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table awscc_glue_table}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueTable.GlueTable.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetable"
 
 gluetable.NewGlueTable(scope Construct, id *string, config GlueTableConfig) GlueTable
 ```
@@ -447,7 +447,7 @@ func ResetTableInput()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.glueTable.GlueTable.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetable"
 
 gluetable.GlueTable_IsConstruct(x interface{}) *bool
 ```
@@ -479,7 +479,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.glueTable.GlueTable.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetable"
 
 gluetable.GlueTable_IsTerraformElement(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ gluetable.GlueTable_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.glueTable.GlueTable.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetable"
 
 gluetable.GlueTable_IsTerraformResource(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ gluetable.GlueTable_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.glueTable.GlueTable.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetable"
 
 gluetable.GlueTable_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -536,7 +536,7 @@ The construct id used in the generated config for the GlueTable to import.
 
 The id of the existing GlueTable that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -857,7 +857,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueTable.GlueTableConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetable"
 
 &gluetable.GlueTableConfig {
 	Connection: interface{},
@@ -870,8 +870,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetable"
 	CatalogId: *string,
 	DatabaseName: *string,
 	Name: *string,
-	OpenTableFormatInput: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueTable.GlueTableOpenTableFormatInput,
-	TableInput: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueTable.GlueTableTableInput,
+	OpenTableFormatInput: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueTable.GlueTableOpenTableFormatInput,
+	TableInput: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueTable.GlueTableTableInput,
 }
 ```
 
@@ -974,7 +974,7 @@ CatalogId *string
 
 The ID of the Data Catalog in which to create the Table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#catalog_id GlueTable#catalog_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#catalog_id GlueTable#catalog_id}
 
 ---
 
@@ -988,7 +988,7 @@ DatabaseName *string
 
 The name of the database where the table metadata resides. For Hive compatibility, this must be all lowercase.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#database_name GlueTable#database_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#database_name GlueTable#database_name}
 
 ---
 
@@ -1002,7 +1002,7 @@ Name *string
 
 The table name. For Hive compatibility, this is folded to lowercase when it is stored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#name GlueTable#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#name GlueTable#name}
 
 ---
 
@@ -1016,7 +1016,7 @@ OpenTableFormatInput GlueTableOpenTableFormatInput
 
 Specifies an OpenTableFormatInput structure when creating an open format table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#open_table_format_input GlueTable#open_table_format_input}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#open_table_format_input GlueTable#open_table_format_input}
 
 ---
 
@@ -1030,7 +1030,7 @@ TableInput GlueTableTableInput
 
 A structure used to define a table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#table_input GlueTable#table_input}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#table_input GlueTable#table_input}
 
 ---
 
@@ -1039,10 +1039,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueTable.GlueTableOpenTableFormatInput.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetable"
 
 &gluetable.GlueTableOpenTableFormatInput {
-	IcebergInput: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueTable.GlueTableOpenTableFormatInputIcebergInput,
+	IcebergInput: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueTable.GlueTableOpenTableFormatInputIcebergInput,
 }
 ```
 
@@ -1064,7 +1064,7 @@ IcebergInput GlueTableOpenTableFormatInputIcebergInput
 
 Specifies an IcebergInput structure that defines an Apache Iceberg metadata table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#iceberg_input GlueTable#iceberg_input}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#iceberg_input GlueTable#iceberg_input}
 
 ---
 
@@ -1073,10 +1073,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueTable.GlueTableOpenTableFormatInputIcebergInput.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetable"
 
 &gluetable.GlueTableOpenTableFormatInputIcebergInput {
-	IcebergTableInput: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueTable.GlueTableOpenTableFormatInputIcebergInputIcebergTableInput,
+	IcebergTableInput: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueTable.GlueTableOpenTableFormatInputIcebergInputIcebergTableInput,
 	MetadataOperation: *string,
 	Version: *string,
 }
@@ -1102,7 +1102,7 @@ IcebergTableInput GlueTableOpenTableFormatInputIcebergInputIcebergTableInput
 
 Specifies the Iceberg table configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#iceberg_table_input GlueTable#iceberg_table_input}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#iceberg_table_input GlueTable#iceberg_table_input}
 
 ---
 
@@ -1116,7 +1116,7 @@ MetadataOperation *string
 
 A required metadata operation. Can only be set to CREATE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#metadata_operation GlueTable#metadata_operation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#metadata_operation GlueTable#metadata_operation}
 
 ---
 
@@ -1130,7 +1130,7 @@ Version *string
 
 The table version of the Iceberg table. Defaults to 2.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#version GlueTable#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#version GlueTable#version}
 
 ---
 
@@ -1139,14 +1139,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueTable.GlueTableOpenTableFormatInputIcebergInputIcebergTableInput.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetable"
 
 &gluetable.GlueTableOpenTableFormatInputIcebergInputIcebergTableInput {
 	Location: *string,
-	PartitionSpec: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueTable.GlueTableOpenTableFormatInputIcebergInputIcebergTableInputPartitionSpec,
+	PartitionSpec: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueTable.GlueTableOpenTableFormatInputIcebergInputIcebergTableInputPartitionSpec,
 	Properties: *map[string]*string,
-	Schema: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueTable.GlueTableOpenTableFormatInputIcebergInputIcebergTableInputSchema,
-	WriteOrder: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueTable.GlueTableOpenTableFormatInputIcebergInputIcebergTableInputWriteOrder,
+	Schema: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueTable.GlueTableOpenTableFormatInputIcebergInputIcebergTableInputSchema,
+	WriteOrder: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueTable.GlueTableOpenTableFormatInputIcebergInputIcebergTableInputWriteOrder,
 }
 ```
 
@@ -1172,7 +1172,7 @@ Location *string
 
 The location of the Iceberg table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#location GlueTable#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#location GlueTable#location}
 
 ---
 
@@ -1186,7 +1186,7 @@ PartitionSpec GlueTableOpenTableFormatInputIcebergInputIcebergTableInputPartitio
 
 The partition spec for the Iceberg table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#partition_spec GlueTable#partition_spec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#partition_spec GlueTable#partition_spec}
 
 ---
 
@@ -1200,7 +1200,7 @@ Properties *map[string]*string
 
 The properties for the Iceberg table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#properties GlueTable#properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#properties GlueTable#properties}
 
 ---
 
@@ -1214,7 +1214,7 @@ Schema GlueTableOpenTableFormatInputIcebergInputIcebergTableInputSchema
 
 The schema for the Iceberg table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#schema GlueTable#schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#schema GlueTable#schema}
 
 ---
 
@@ -1228,7 +1228,7 @@ WriteOrder GlueTableOpenTableFormatInputIcebergInputIcebergTableInputWriteOrder
 
 The write order for the Iceberg table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#write_order GlueTable#write_order}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#write_order GlueTable#write_order}
 
 ---
 
@@ -1237,7 +1237,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueTable.GlueTableOpenTableFormatInputIcebergInputIcebergTableInputPartitionSpec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetable"
 
 &gluetable.GlueTableOpenTableFormatInputIcebergInputIcebergTableInputPartitionSpec {
 	Fields: interface{},
@@ -1264,7 +1264,7 @@ Fields interface{}
 
 The partition fields.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#fields GlueTable#fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#fields GlueTable#fields}
 
 ---
 
@@ -1278,7 +1278,7 @@ SpecId *f64
 
 The spec ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#spec_id GlueTable#spec_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#spec_id GlueTable#spec_id}
 
 ---
 
@@ -1287,7 +1287,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueTable.GlueTableOpenTableFormatInputIcebergInputIcebergTableInputPartitionSpecFields.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetable"
 
 &gluetable.GlueTableOpenTableFormatInputIcebergInputIcebergTableInputPartitionSpecFields {
 	FieldId: *f64,
@@ -1318,7 +1318,7 @@ FieldId *f64
 
 The partition field ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#field_id GlueTable#field_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#field_id GlueTable#field_id}
 
 ---
 
@@ -1332,7 +1332,7 @@ Name *string
 
 The partition field name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#name GlueTable#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#name GlueTable#name}
 
 ---
 
@@ -1346,7 +1346,7 @@ SourceId *f64
 
 The source field ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#source_id GlueTable#source_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#source_id GlueTable#source_id}
 
 ---
 
@@ -1360,7 +1360,7 @@ Transform *string
 
 The transform to apply.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#transform GlueTable#transform}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#transform GlueTable#transform}
 
 ---
 
@@ -1369,7 +1369,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueTable.GlueTableOpenTableFormatInputIcebergInputIcebergTableInputSchema.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetable"
 
 &gluetable.GlueTableOpenTableFormatInputIcebergInputIcebergTableInputSchema {
 	Fields: interface{},
@@ -1400,7 +1400,7 @@ Fields interface{}
 
 The fields in the schema.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#fields GlueTable#fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#fields GlueTable#fields}
 
 ---
 
@@ -1414,7 +1414,7 @@ IdentifierFieldIds *[]*f64
 
 The identifier field IDs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#identifier_field_ids GlueTable#identifier_field_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#identifier_field_ids GlueTable#identifier_field_ids}
 
 ---
 
@@ -1428,7 +1428,7 @@ SchemaId *f64
 
 The schema ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#schema_id GlueTable#schema_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#schema_id GlueTable#schema_id}
 
 ---
 
@@ -1442,7 +1442,7 @@ Type *string
 
 The type of the schema.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#type GlueTable#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#type GlueTable#type}
 
 ---
 
@@ -1451,7 +1451,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueTable.GlueTableOpenTableFormatInputIcebergInputIcebergTableInputSchemaFields.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetable"
 
 &gluetable.GlueTableOpenTableFormatInputIcebergInputIcebergTableInputSchemaFields {
 	Doc: *string,
@@ -1484,7 +1484,7 @@ Doc *string
 
 Documentation for the field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#doc GlueTable#doc}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#doc GlueTable#doc}
 
 ---
 
@@ -1498,7 +1498,7 @@ Id *f64
 
 The field ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#id GlueTable#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#id GlueTable#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1515,7 +1515,7 @@ Name *string
 
 The field name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#name GlueTable#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#name GlueTable#name}
 
 ---
 
@@ -1529,7 +1529,7 @@ Required interface{}
 
 Whether the field is required.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#required GlueTable#required}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#required GlueTable#required}
 
 ---
 
@@ -1543,7 +1543,7 @@ Type *string
 
 The field type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#type GlueTable#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#type GlueTable#type}
 
 ---
 
@@ -1552,7 +1552,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueTable.GlueTableOpenTableFormatInputIcebergInputIcebergTableInputWriteOrder.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetable"
 
 &gluetable.GlueTableOpenTableFormatInputIcebergInputIcebergTableInputWriteOrder {
 	Fields: interface{},
@@ -1579,7 +1579,7 @@ Fields interface{}
 
 The sort fields.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#fields GlueTable#fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#fields GlueTable#fields}
 
 ---
 
@@ -1593,7 +1593,7 @@ OrderId *f64
 
 The order ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#order_id GlueTable#order_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#order_id GlueTable#order_id}
 
 ---
 
@@ -1602,7 +1602,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueTable.GlueTableOpenTableFormatInputIcebergInputIcebergTableInputWriteOrderFields.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetable"
 
 &gluetable.GlueTableOpenTableFormatInputIcebergInputIcebergTableInputWriteOrderFields {
 	Direction: *string,
@@ -1633,7 +1633,7 @@ Direction *string
 
 The sort direction.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#direction GlueTable#direction}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#direction GlueTable#direction}
 
 ---
 
@@ -1647,7 +1647,7 @@ NullOrder *string
 
 The null ordering.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#null_order GlueTable#null_order}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#null_order GlueTable#null_order}
 
 ---
 
@@ -1661,7 +1661,7 @@ SourceId *f64
 
 The source field ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#source_id GlueTable#source_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#source_id GlueTable#source_id}
 
 ---
 
@@ -1675,7 +1675,7 @@ Transform *string
 
 The transform to apply.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#transform GlueTable#transform}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#transform GlueTable#transform}
 
 ---
 
@@ -1684,7 +1684,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueTable.GlueTableTableInput.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetable"
 
 &gluetable.GlueTableTableInput {
 	Description: *string,
@@ -1693,10 +1693,10 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetable"
 	Parameters: *string,
 	PartitionKeys: interface{},
 	Retention: *f64,
-	StorageDescriptor: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueTable.GlueTableTableInputStorageDescriptor,
+	StorageDescriptor: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueTable.GlueTableTableInputStorageDescriptor,
 	TableType: *string,
-	TargetTable: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueTable.GlueTableTableInputTargetTable,
-	ViewDefinition: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueTable.GlueTableTableInputViewDefinition,
+	TargetTable: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueTable.GlueTableTableInputTargetTable,
+	ViewDefinition: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueTable.GlueTableTableInputViewDefinition,
 	ViewExpandedText: *string,
 	ViewOriginalText: *string,
 }
@@ -1731,7 +1731,7 @@ Description *string
 
 A description of the table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#description GlueTable#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#description GlueTable#description}
 
 ---
 
@@ -1745,7 +1745,7 @@ Name *string
 
 The table name. For Hive compatibility, this is folded to lowercase when it is stored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#name GlueTable#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#name GlueTable#name}
 
 ---
 
@@ -1759,7 +1759,7 @@ Owner *string
 
 The table owner. Included for Apache Hive compatibility. Not used in the normal course of AWS Glue operations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#owner GlueTable#owner}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#owner GlueTable#owner}
 
 ---
 
@@ -1773,7 +1773,7 @@ Parameters *string
 
 These key-value pairs define properties associated with the table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#parameters GlueTable#parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#parameters GlueTable#parameters}
 
 ---
 
@@ -1787,7 +1787,7 @@ PartitionKeys interface{}
 
 A list of columns by which the table is partitioned. Only primitive types are supported as partition keys.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#partition_keys GlueTable#partition_keys}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#partition_keys GlueTable#partition_keys}
 
 ---
 
@@ -1801,7 +1801,7 @@ Retention *f64
 
 The retention time for this table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#retention GlueTable#retention}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#retention GlueTable#retention}
 
 ---
 
@@ -1815,7 +1815,7 @@ StorageDescriptor GlueTableTableInputStorageDescriptor
 
 A storage descriptor containing information about the physical storage of this table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#storage_descriptor GlueTable#storage_descriptor}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#storage_descriptor GlueTable#storage_descriptor}
 
 ---
 
@@ -1831,7 +1831,7 @@ The type of this table.
 
 AWS Glue will create tables with the EXTERNAL_TABLE type. Other services, such as Athena, may create tables with additional table types.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#table_type GlueTable#table_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#table_type GlueTable#table_type}
 
 ---
 
@@ -1845,7 +1845,7 @@ TargetTable GlueTableTableInputTargetTable
 
 A TableIdentifier structure that describes a target table for resource linking.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#target_table GlueTable#target_table}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#target_table GlueTable#target_table}
 
 ---
 
@@ -1859,7 +1859,7 @@ ViewDefinition GlueTableTableInputViewDefinition
 
 The view definition for the table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#view_definition GlueTable#view_definition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#view_definition GlueTable#view_definition}
 
 ---
 
@@ -1873,7 +1873,7 @@ ViewExpandedText *string
 
 Included for Apache Hive compatibility. Not used in the normal course of AWS Glue operations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#view_expanded_text GlueTable#view_expanded_text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#view_expanded_text GlueTable#view_expanded_text}
 
 ---
 
@@ -1887,7 +1887,7 @@ ViewOriginalText *string
 
 Included for Apache Hive compatibility. Not used in the normal course of AWS Glue operations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#view_original_text GlueTable#view_original_text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#view_original_text GlueTable#view_original_text}
 
 ---
 
@@ -1896,7 +1896,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueTable.GlueTableTableInputPartitionKeys.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetable"
 
 &gluetable.GlueTableTableInputPartitionKeys {
 	Comment: *string,
@@ -1925,7 +1925,7 @@ Comment *string
 
 A free-form text comment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#comment GlueTable#comment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#comment GlueTable#comment}
 
 ---
 
@@ -1939,7 +1939,7 @@ Name *string
 
 The name of the Column.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#name GlueTable#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#name GlueTable#name}
 
 ---
 
@@ -1953,7 +1953,7 @@ Type *string
 
 The data type of the Column.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#type GlueTable#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#type GlueTable#type}
 
 ---
 
@@ -1962,7 +1962,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueTable.GlueTableTableInputStorageDescriptor.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetable"
 
 &gluetable.GlueTableTableInputStorageDescriptor {
 	BucketColumns: *[]*string,
@@ -1973,9 +1973,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetable"
 	NumberOfBuckets: *f64,
 	OutputFormat: *string,
 	Parameters: *string,
-	SchemaReference: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueTable.GlueTableTableInputStorageDescriptorSchemaReference,
-	SerdeInfo: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueTable.GlueTableTableInputStorageDescriptorSerdeInfo,
-	SkewedInfo: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueTable.GlueTableTableInputStorageDescriptorSkewedInfo,
+	SchemaReference: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueTable.GlueTableTableInputStorageDescriptorSchemaReference,
+	SerdeInfo: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueTable.GlueTableTableInputStorageDescriptorSerdeInfo,
+	SkewedInfo: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueTable.GlueTableTableInputStorageDescriptorSkewedInfo,
 	SortColumns: interface{},
 	StoredAsSubDirectories: interface{},
 }
@@ -2011,7 +2011,7 @@ BucketColumns *[]*string
 
 A list of reducer grouping columns, clustering columns, and bucketing columns in the table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#bucket_columns GlueTable#bucket_columns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#bucket_columns GlueTable#bucket_columns}
 
 ---
 
@@ -2025,7 +2025,7 @@ Columns interface{}
 
 A list of the Columns in the table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#columns GlueTable#columns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#columns GlueTable#columns}
 
 ---
 
@@ -2039,7 +2039,7 @@ Compressed interface{}
 
 True if the data in the table is compressed, or False if not.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#compressed GlueTable#compressed}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#compressed GlueTable#compressed}
 
 ---
 
@@ -2053,7 +2053,7 @@ InputFormat *string
 
 The input format: SequenceFileInputFormat (binary), or TextInputFormat, or a custom format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#input_format GlueTable#input_format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#input_format GlueTable#input_format}
 
 ---
 
@@ -2069,7 +2069,7 @@ The physical location of the table.
 
 By default, this takes the form of the warehouse location, followed by the database location in the warehouse, followed by the table name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#location GlueTable#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#location GlueTable#location}
 
 ---
 
@@ -2083,7 +2083,7 @@ NumberOfBuckets *f64
 
 Must be specified if the table contains any dimension columns.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#number_of_buckets GlueTable#number_of_buckets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#number_of_buckets GlueTable#number_of_buckets}
 
 ---
 
@@ -2097,7 +2097,7 @@ OutputFormat *string
 
 The output format: SequenceFileOutputFormat (binary), or IgnoreKeyTextOutputFormat, or a custom format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#output_format GlueTable#output_format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#output_format GlueTable#output_format}
 
 ---
 
@@ -2111,7 +2111,7 @@ Parameters *string
 
 The user-supplied properties in key-value form.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#parameters GlueTable#parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#parameters GlueTable#parameters}
 
 ---
 
@@ -2125,7 +2125,7 @@ SchemaReference GlueTableTableInputStorageDescriptorSchemaReference
 
 An object that references a schema stored in the AWS Glue Schema Registry.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#schema_reference GlueTable#schema_reference}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#schema_reference GlueTable#schema_reference}
 
 ---
 
@@ -2139,7 +2139,7 @@ SerdeInfo GlueTableTableInputStorageDescriptorSerdeInfo
 
 The serialization/deserialization (SerDe) information.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#serde_info GlueTable#serde_info}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#serde_info GlueTable#serde_info}
 
 ---
 
@@ -2153,7 +2153,7 @@ SkewedInfo GlueTableTableInputStorageDescriptorSkewedInfo
 
 The information about values that appear frequently in a column (skewed values).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#skewed_info GlueTable#skewed_info}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#skewed_info GlueTable#skewed_info}
 
 ---
 
@@ -2167,7 +2167,7 @@ SortColumns interface{}
 
 A list specifying the sort order of each bucket in the table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#sort_columns GlueTable#sort_columns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#sort_columns GlueTable#sort_columns}
 
 ---
 
@@ -2181,7 +2181,7 @@ StoredAsSubDirectories interface{}
 
 True if the table data is stored in subdirectories, or False if not.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#stored_as_sub_directories GlueTable#stored_as_sub_directories}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#stored_as_sub_directories GlueTable#stored_as_sub_directories}
 
 ---
 
@@ -2190,7 +2190,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueTable.GlueTableTableInputStorageDescriptorColumns.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetable"
 
 &gluetable.GlueTableTableInputStorageDescriptorColumns {
 	Comment: *string,
@@ -2219,7 +2219,7 @@ Comment *string
 
 A free-form text comment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#comment GlueTable#comment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#comment GlueTable#comment}
 
 ---
 
@@ -2233,7 +2233,7 @@ Name *string
 
 The name of the Column.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#name GlueTable#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#name GlueTable#name}
 
 ---
 
@@ -2247,7 +2247,7 @@ Type *string
 
 The data type of the Column.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#type GlueTable#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#type GlueTable#type}
 
 ---
 
@@ -2256,10 +2256,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueTable.GlueTableTableInputStorageDescriptorSchemaReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetable"
 
 &gluetable.GlueTableTableInputStorageDescriptorSchemaReference {
-	SchemaId: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueTable.GlueTableTableInputStorageDescriptorSchemaReferenceSchemaId,
+	SchemaId: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueTable.GlueTableTableInputStorageDescriptorSchemaReferenceSchemaId,
 	SchemaVersionId: *string,
 	SchemaVersionNumber: *f64,
 }
@@ -2285,7 +2285,7 @@ SchemaId GlueTableTableInputStorageDescriptorSchemaReferenceSchemaId
 
 A structure that contains schema identity fields. Either this or the SchemaVersionId has to be provided.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#schema_id GlueTable#schema_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#schema_id GlueTable#schema_id}
 
 ---
 
@@ -2299,7 +2299,7 @@ SchemaVersionId *string
 
 The unique ID assigned to a version of the schema. Either this or the SchemaId has to be provided.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#schema_version_id GlueTable#schema_version_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#schema_version_id GlueTable#schema_version_id}
 
 ---
 
@@ -2313,7 +2313,7 @@ SchemaVersionNumber *f64
 
 The version number of the schema.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#schema_version_number GlueTable#schema_version_number}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#schema_version_number GlueTable#schema_version_number}
 
 ---
 
@@ -2322,7 +2322,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueTable.GlueTableTableInputStorageDescriptorSchemaReferenceSchemaId.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetable"
 
 &gluetable.GlueTableTableInputStorageDescriptorSchemaReferenceSchemaId {
 	RegistryName: *string,
@@ -2351,7 +2351,7 @@ RegistryName *string
 
 The name of the schema registry that contains the schema.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#registry_name GlueTable#registry_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#registry_name GlueTable#registry_name}
 
 ---
 
@@ -2365,7 +2365,7 @@ SchemaArn *string
 
 The Amazon Resource Name (ARN) of the schema. One of SchemaArn or SchemaName has to be provided.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#schema_arn GlueTable#schema_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#schema_arn GlueTable#schema_arn}
 
 ---
 
@@ -2379,7 +2379,7 @@ SchemaName *string
 
 The name of the schema. One of SchemaArn or SchemaName has to be provided.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#schema_name GlueTable#schema_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#schema_name GlueTable#schema_name}
 
 ---
 
@@ -2388,7 +2388,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueTable.GlueTableTableInputStorageDescriptorSerdeInfo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetable"
 
 &gluetable.GlueTableTableInputStorageDescriptorSerdeInfo {
 	Name: *string,
@@ -2417,7 +2417,7 @@ Name *string
 
 Name of the SerDe.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#name GlueTable#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#name GlueTable#name}
 
 ---
 
@@ -2431,7 +2431,7 @@ Parameters *string
 
 These key-value pairs define initialization parameters for the SerDe.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#parameters GlueTable#parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#parameters GlueTable#parameters}
 
 ---
 
@@ -2445,7 +2445,7 @@ SerializationLibrary *string
 
 Usually the class that implements the SerDe. An example is org.apache.hadoop.hive.serde2.columnar.ColumnarSerDe.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#serialization_library GlueTable#serialization_library}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#serialization_library GlueTable#serialization_library}
 
 ---
 
@@ -2454,7 +2454,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueTable.GlueTableTableInputStorageDescriptorSkewedInfo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetable"
 
 &gluetable.GlueTableTableInputStorageDescriptorSkewedInfo {
 	SkewedColumnNames: *[]*string,
@@ -2483,7 +2483,7 @@ SkewedColumnNames *[]*string
 
 A list of names of columns that contain skewed values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#skewed_column_names GlueTable#skewed_column_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#skewed_column_names GlueTable#skewed_column_names}
 
 ---
 
@@ -2497,7 +2497,7 @@ SkewedColumnValueLocationMaps *string
 
 A mapping of skewed values to the columns that contain them.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#skewed_column_value_location_maps GlueTable#skewed_column_value_location_maps}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#skewed_column_value_location_maps GlueTable#skewed_column_value_location_maps}
 
 ---
 
@@ -2511,7 +2511,7 @@ SkewedColumnValues *[]*string
 
 A list of names of columns that contain skewed values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#skewed_column_values GlueTable#skewed_column_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#skewed_column_values GlueTable#skewed_column_values}
 
 ---
 
@@ -2520,7 +2520,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueTable.GlueTableTableInputStorageDescriptorSortColumns.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetable"
 
 &gluetable.GlueTableTableInputStorageDescriptorSortColumns {
 	Column: *string,
@@ -2547,7 +2547,7 @@ Column *string
 
 The name of the column.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#column GlueTable#column}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#column GlueTable#column}
 
 ---
 
@@ -2561,7 +2561,7 @@ SortOrder *f64
 
 Indicates that the column is sorted in ascending order (==1), or in descending order (==0).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#sort_order GlueTable#sort_order}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#sort_order GlueTable#sort_order}
 
 ---
 
@@ -2570,7 +2570,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueTable.GlueTableTableInputTargetTable.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetable"
 
 &gluetable.GlueTableTableInputTargetTable {
 	CatalogId: *string,
@@ -2601,7 +2601,7 @@ CatalogId *string
 
 The ID of the Data Catalog in which the table resides.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#catalog_id GlueTable#catalog_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#catalog_id GlueTable#catalog_id}
 
 ---
 
@@ -2615,7 +2615,7 @@ DatabaseName *string
 
 The name of the catalog database that contains the target table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#database_name GlueTable#database_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#database_name GlueTable#database_name}
 
 ---
 
@@ -2629,7 +2629,7 @@ Name *string
 
 The name of the target table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#name GlueTable#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#name GlueTable#name}
 
 ---
 
@@ -2643,7 +2643,7 @@ Region *string
 
 The Region of the table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#region GlueTable#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#region GlueTable#region}
 
 ---
 
@@ -2652,7 +2652,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueTable.GlueTableTableInputViewDefinition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetable"
 
 &gluetable.GlueTableTableInputViewDefinition {
 	Definer: *string,
@@ -2683,7 +2683,7 @@ Definer *string
 
 The definer of the view.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#definer GlueTable#definer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#definer GlueTable#definer}
 
 ---
 
@@ -2697,7 +2697,7 @@ IsProtected interface{}
 
 Indicates whether the view is protected.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#is_protected GlueTable#is_protected}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#is_protected GlueTable#is_protected}
 
 ---
 
@@ -2711,7 +2711,7 @@ Representations interface{}
 
 The representations of the view.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#representations GlueTable#representations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#representations GlueTable#representations}
 
 ---
 
@@ -2725,7 +2725,7 @@ SubObjects *[]*string
 
 The sub-objects of the view.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#sub_objects GlueTable#sub_objects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#sub_objects GlueTable#sub_objects}
 
 ---
 
@@ -2734,7 +2734,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueTable.GlueTableTableInputViewDefinitionRepresentations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetable"
 
 &gluetable.GlueTableTableInputViewDefinitionRepresentations {
 	Dialect: *string,
@@ -2767,7 +2767,7 @@ Dialect *string
 
 The dialect of the view representation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#dialect GlueTable#dialect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#dialect GlueTable#dialect}
 
 ---
 
@@ -2781,7 +2781,7 @@ DialectVersion *string
 
 The version of the dialect.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#dialect_version GlueTable#dialect_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#dialect_version GlueTable#dialect_version}
 
 ---
 
@@ -2795,7 +2795,7 @@ ValidationConnection *string
 
 The connection used for validation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#validation_connection GlueTable#validation_connection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#validation_connection GlueTable#validation_connection}
 
 ---
 
@@ -2809,7 +2809,7 @@ ViewExpandedText *string
 
 The expanded text of the view.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#view_expanded_text GlueTable#view_expanded_text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#view_expanded_text GlueTable#view_expanded_text}
 
 ---
 
@@ -2823,7 +2823,7 @@ ViewOriginalText *string
 
 The original text of the view.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#view_original_text GlueTable#view_original_text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#view_original_text GlueTable#view_original_text}
 
 ---
 
@@ -2834,7 +2834,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueTable.GlueTableOpenTableFormatInputIcebergInputIcebergTableInputOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetable"
 
 gluetable.NewGlueTableOpenTableFormatInputIcebergInputIcebergTableInputOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueTableOpenTableFormatInputIcebergInputIcebergTableInputOutputReference
 ```
@@ -3267,7 +3267,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueTable.GlueTableOpenTableFormatInputIcebergInputIcebergTableInputPartitionSpecFieldsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetable"
 
 gluetable.NewGlueTableOpenTableFormatInputIcebergInputIcebergTableInputPartitionSpecFieldsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GlueTableOpenTableFormatInputIcebergInputIcebergTableInputPartitionSpecFieldsList
 ```
@@ -3427,7 +3427,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueTable.GlueTableOpenTableFormatInputIcebergInputIcebergTableInputPartitionSpecFieldsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetable"
 
 gluetable.NewGlueTableOpenTableFormatInputIcebergInputIcebergTableInputPartitionSpecFieldsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GlueTableOpenTableFormatInputIcebergInputIcebergTableInputPartitionSpecFieldsOutputReference
 ```
@@ -3810,7 +3810,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueTable.GlueTableOpenTableFormatInputIcebergInputIcebergTableInputPartitionSpecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetable"
 
 gluetable.NewGlueTableOpenTableFormatInputIcebergInputIcebergTableInputPartitionSpecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueTableOpenTableFormatInputIcebergInputIcebergTableInputPartitionSpecOutputReference
 ```
@@ -4130,7 +4130,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueTable.GlueTableOpenTableFormatInputIcebergInputIcebergTableInputSchemaFieldsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetable"
 
 gluetable.NewGlueTableOpenTableFormatInputIcebergInputIcebergTableInputSchemaFieldsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GlueTableOpenTableFormatInputIcebergInputIcebergTableInputSchemaFieldsList
 ```
@@ -4290,7 +4290,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueTable.GlueTableOpenTableFormatInputIcebergInputIcebergTableInputSchemaFieldsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetable"
 
 gluetable.NewGlueTableOpenTableFormatInputIcebergInputIcebergTableInputSchemaFieldsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GlueTableOpenTableFormatInputIcebergInputIcebergTableInputSchemaFieldsOutputReference
 ```
@@ -4702,7 +4702,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueTable.GlueTableOpenTableFormatInputIcebergInputIcebergTableInputSchemaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetable"
 
 gluetable.NewGlueTableOpenTableFormatInputIcebergInputIcebergTableInputSchemaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueTableOpenTableFormatInputIcebergInputIcebergTableInputSchemaOutputReference
 ```
@@ -5080,7 +5080,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueTable.GlueTableOpenTableFormatInputIcebergInputIcebergTableInputWriteOrderFieldsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetable"
 
 gluetable.NewGlueTableOpenTableFormatInputIcebergInputIcebergTableInputWriteOrderFieldsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GlueTableOpenTableFormatInputIcebergInputIcebergTableInputWriteOrderFieldsList
 ```
@@ -5240,7 +5240,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueTable.GlueTableOpenTableFormatInputIcebergInputIcebergTableInputWriteOrderFieldsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetable"
 
 gluetable.NewGlueTableOpenTableFormatInputIcebergInputIcebergTableInputWriteOrderFieldsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GlueTableOpenTableFormatInputIcebergInputIcebergTableInputWriteOrderFieldsOutputReference
 ```
@@ -5623,7 +5623,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueTable.GlueTableOpenTableFormatInputIcebergInputIcebergTableInputWriteOrderOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetable"
 
 gluetable.NewGlueTableOpenTableFormatInputIcebergInputIcebergTableInputWriteOrderOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueTableOpenTableFormatInputIcebergInputIcebergTableInputWriteOrderOutputReference
 ```
@@ -5943,7 +5943,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueTable.GlueTableOpenTableFormatInputIcebergInputOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetable"
 
 gluetable.NewGlueTableOpenTableFormatInputIcebergInputOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueTableOpenTableFormatInputIcebergInputOutputReference
 ```
@@ -6292,7 +6292,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueTable.GlueTableOpenTableFormatInputOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetable"
 
 gluetable.NewGlueTableOpenTableFormatInputOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueTableOpenTableFormatInputOutputReference
 ```
@@ -6583,7 +6583,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueTable.GlueTableTableInputOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetable"
 
 gluetable.NewGlueTableTableInputOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueTableTableInputOutputReference
 ```
@@ -7232,7 +7232,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueTable.GlueTableTableInputPartitionKeysList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetable"
 
 gluetable.NewGlueTableTableInputPartitionKeysList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GlueTableTableInputPartitionKeysList
 ```
@@ -7392,7 +7392,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueTable.GlueTableTableInputPartitionKeysOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetable"
 
 gluetable.NewGlueTableTableInputPartitionKeysOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GlueTableTableInputPartitionKeysOutputReference
 ```
@@ -7746,7 +7746,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueTable.GlueTableTableInputStorageDescriptorColumnsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetable"
 
 gluetable.NewGlueTableTableInputStorageDescriptorColumnsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GlueTableTableInputStorageDescriptorColumnsList
 ```
@@ -7906,7 +7906,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueTable.GlueTableTableInputStorageDescriptorColumnsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetable"
 
 gluetable.NewGlueTableTableInputStorageDescriptorColumnsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GlueTableTableInputStorageDescriptorColumnsOutputReference
 ```
@@ -8260,7 +8260,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueTable.GlueTableTableInputStorageDescriptorOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetable"
 
 gluetable.NewGlueTableTableInputStorageDescriptorOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueTableTableInputStorageDescriptorOutputReference
 ```
@@ -8951,7 +8951,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueTable.GlueTableTableInputStorageDescriptorSchemaReferenceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetable"
 
 gluetable.NewGlueTableTableInputStorageDescriptorSchemaReferenceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueTableTableInputStorageDescriptorSchemaReferenceOutputReference
 ```
@@ -9300,7 +9300,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueTable.GlueTableTableInputStorageDescriptorSchemaReferenceSchemaIdOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetable"
 
 gluetable.NewGlueTableTableInputStorageDescriptorSchemaReferenceSchemaIdOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueTableTableInputStorageDescriptorSchemaReferenceSchemaIdOutputReference
 ```
@@ -9636,7 +9636,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueTable.GlueTableTableInputStorageDescriptorSerdeInfoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetable"
 
 gluetable.NewGlueTableTableInputStorageDescriptorSerdeInfoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueTableTableInputStorageDescriptorSerdeInfoOutputReference
 ```
@@ -9972,7 +9972,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueTable.GlueTableTableInputStorageDescriptorSkewedInfoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetable"
 
 gluetable.NewGlueTableTableInputStorageDescriptorSkewedInfoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueTableTableInputStorageDescriptorSkewedInfoOutputReference
 ```
@@ -10308,7 +10308,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueTable.GlueTableTableInputStorageDescriptorSortColumnsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetable"
 
 gluetable.NewGlueTableTableInputStorageDescriptorSortColumnsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GlueTableTableInputStorageDescriptorSortColumnsList
 ```
@@ -10468,7 +10468,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueTable.GlueTableTableInputStorageDescriptorSortColumnsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetable"
 
 gluetable.NewGlueTableTableInputStorageDescriptorSortColumnsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GlueTableTableInputStorageDescriptorSortColumnsOutputReference
 ```
@@ -10793,7 +10793,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueTable.GlueTableTableInputTargetTableOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetable"
 
 gluetable.NewGlueTableTableInputTargetTableOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueTableTableInputTargetTableOutputReference
 ```
@@ -11158,7 +11158,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueTable.GlueTableTableInputViewDefinitionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetable"
 
 gluetable.NewGlueTableTableInputViewDefinitionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueTableTableInputViewDefinitionOutputReference
 ```
@@ -11536,7 +11536,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueTable.GlueTableTableInputViewDefinitionRepresentationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetable"
 
 gluetable.NewGlueTableTableInputViewDefinitionRepresentationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GlueTableTableInputViewDefinitionRepresentationsList
 ```
@@ -11696,7 +11696,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueTable.GlueTableTableInputViewDefinitionRepresentationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetable"
 
 gluetable.NewGlueTableTableInputViewDefinitionRepresentationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GlueTableTableInputViewDefinitionRepresentationsOutputReference
 ```

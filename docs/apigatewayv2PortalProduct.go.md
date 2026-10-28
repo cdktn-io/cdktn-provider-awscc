@@ -4,12 +4,12 @@
 
 ### Apigatewayv2PortalProduct <a name="Apigatewayv2PortalProduct" id="@cdktn/provider-awscc.apigatewayv2PortalProduct.Apigatewayv2PortalProduct"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_portal_product awscc_apigatewayv2_portal_product}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_portal_product awscc_apigatewayv2_portal_product}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apigatewayv2PortalProduct.Apigatewayv2PortalProduct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayv2portalproduct"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayv2portalproduct"
 
 apigatewayv2portalproduct.NewApigatewayv2PortalProduct(scope Construct, id *string, config Apigatewayv2PortalProductConfig) Apigatewayv2PortalProduct
 ```
@@ -427,7 +427,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.apigatewayv2PortalProduct.Apigatewayv2PortalProduct.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayv2portalproduct"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayv2portalproduct"
 
 apigatewayv2portalproduct.Apigatewayv2PortalProduct_IsConstruct(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.apigatewayv2PortalProduct.Apigatewayv2PortalProduct.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayv2portalproduct"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayv2portalproduct"
 
 apigatewayv2portalproduct.Apigatewayv2PortalProduct_IsTerraformElement(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ apigatewayv2portalproduct.Apigatewayv2PortalProduct_IsTerraformElement(x interfa
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.apigatewayv2PortalProduct.Apigatewayv2PortalProduct.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayv2portalproduct"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayv2portalproduct"
 
 apigatewayv2portalproduct.Apigatewayv2PortalProduct_IsTerraformResource(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ apigatewayv2portalproduct.Apigatewayv2PortalProduct_IsTerraformResource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.apigatewayv2PortalProduct.Apigatewayv2PortalProduct.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayv2portalproduct"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayv2portalproduct"
 
 apigatewayv2portalproduct.Apigatewayv2PortalProduct_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -516,7 +516,7 @@ The construct id used in the generated config for the Apigatewayv2PortalProduct 
 
 The id of the existing Apigatewayv2PortalProduct that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_portal_product#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_portal_product#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -826,7 +826,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.apigatewayv2PortalProduct.Apigatewayv2PortalProductConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayv2portalproduct"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayv2portalproduct"
 
 &apigatewayv2portalproduct.Apigatewayv2PortalProductConfig {
 	Connection: interface{},
@@ -939,7 +939,7 @@ DisplayName *string
 
 The name of the portal product as it appears in a published portal.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_portal_product#display_name Apigatewayv2PortalProduct#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_portal_product#display_name Apigatewayv2PortalProduct#display_name}
 
 ---
 
@@ -953,7 +953,7 @@ Description *string
 
 A description of the portal product.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_portal_product#description Apigatewayv2PortalProduct#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_portal_product#description Apigatewayv2PortalProduct#description}
 
 ---
 
@@ -967,7 +967,7 @@ Tags interface{}
 
 The collection of tags associated with the portal product.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_portal_product#tags Apigatewayv2PortalProduct#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_portal_product#tags Apigatewayv2PortalProduct#tags}
 
 ---
 
@@ -976,7 +976,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.apigatewayv2PortalProduct.Apigatewayv2PortalProductTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayv2portalproduct"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayv2portalproduct"
 
 &apigatewayv2portalproduct.Apigatewayv2PortalProductTags {
 	Key: *string,
@@ -1003,7 +1003,7 @@ Key *string
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_portal_product#key Apigatewayv2PortalProduct#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_portal_product#key Apigatewayv2PortalProduct#key}
 
 ---
 
@@ -1017,7 +1017,7 @@ Value *string
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_portal_product#value Apigatewayv2PortalProduct#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_portal_product#value Apigatewayv2PortalProduct#value}
 
 ---
 
@@ -1028,7 +1028,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apigatewayv2PortalProduct.Apigatewayv2PortalProductTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayv2portalproduct"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayv2portalproduct"
 
 apigatewayv2portalproduct.NewApigatewayv2PortalProductTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Apigatewayv2PortalProductTagsList
 ```
@@ -1188,7 +1188,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apigatewayv2PortalProduct.Apigatewayv2PortalProductTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayv2portalproduct"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayv2portalproduct"
 
 apigatewayv2portalproduct.NewApigatewayv2PortalProductTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) Apigatewayv2PortalProductTagsOutputReference
 ```

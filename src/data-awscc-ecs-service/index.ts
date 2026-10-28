@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ecs_service
+// https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ecs_service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccEcsServiceConfig extends cdktn.TerraformMetaArguments 
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ecs_service#id DataAwsccEcsService#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ecs_service#id DataAwsccEcsService#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -860,6 +860,296 @@ export class DataAwsccEcsServiceForceNewDeploymentOutputReference extends cdktn.
     return this.getStringAttribute('force_new_deployment_nonce');
   }
 }
+export interface DataAwsccEcsServiceGatewayConnectorsFilters {
+}
+
+export function dataAwsccEcsServiceGatewayConnectorsFiltersToTerraform(struct?: DataAwsccEcsServiceGatewayConnectorsFilters): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccEcsServiceGatewayConnectorsFiltersToHclTerraform(struct?: DataAwsccEcsServiceGatewayConnectorsFilters): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccEcsServiceGatewayConnectorsFiltersOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccEcsServiceGatewayConnectorsFilters | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccEcsServiceGatewayConnectorsFilters | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // access_types - computed: true, optional: false, required: false
+  public get accessTypes() {
+    return this.getListAttribute('access_types');
+  }
+}
+export interface DataAwsccEcsServiceGatewayConnectorsHealthCheckMatcher {
+}
+
+export function dataAwsccEcsServiceGatewayConnectorsHealthCheckMatcherToTerraform(struct?: DataAwsccEcsServiceGatewayConnectorsHealthCheckMatcher): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccEcsServiceGatewayConnectorsHealthCheckMatcherToHclTerraform(struct?: DataAwsccEcsServiceGatewayConnectorsHealthCheckMatcher): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccEcsServiceGatewayConnectorsHealthCheckMatcherOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccEcsServiceGatewayConnectorsHealthCheckMatcher | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccEcsServiceGatewayConnectorsHealthCheckMatcher | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // grpc_code - computed: true, optional: false, required: false
+  public get grpcCode() {
+    return this.getStringAttribute('grpc_code');
+  }
+
+  // http_code - computed: true, optional: false, required: false
+  public get httpCode() {
+    return this.getStringAttribute('http_code');
+  }
+}
+export interface DataAwsccEcsServiceGatewayConnectorsHealthCheck {
+}
+
+export function dataAwsccEcsServiceGatewayConnectorsHealthCheckToTerraform(struct?: DataAwsccEcsServiceGatewayConnectorsHealthCheck): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccEcsServiceGatewayConnectorsHealthCheckToHclTerraform(struct?: DataAwsccEcsServiceGatewayConnectorsHealthCheck): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccEcsServiceGatewayConnectorsHealthCheckOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccEcsServiceGatewayConnectorsHealthCheck | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccEcsServiceGatewayConnectorsHealthCheck | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // health_check_interval_seconds - computed: true, optional: false, required: false
+  public get healthCheckIntervalSeconds() {
+    return this.getNumberAttribute('health_check_interval_seconds');
+  }
+
+  // health_check_path - computed: true, optional: false, required: false
+  public get healthCheckPath() {
+    return this.getStringAttribute('health_check_path');
+  }
+
+  // health_check_port - computed: true, optional: false, required: false
+  public get healthCheckPort() {
+    return this.getNumberAttribute('health_check_port');
+  }
+
+  // health_check_protocol - computed: true, optional: false, required: false
+  public get healthCheckProtocol() {
+    return this.getStringAttribute('health_check_protocol');
+  }
+
+  // health_check_timeout_seconds - computed: true, optional: false, required: false
+  public get healthCheckTimeoutSeconds() {
+    return this.getNumberAttribute('health_check_timeout_seconds');
+  }
+
+  // healthy_threshold_count - computed: true, optional: false, required: false
+  public get healthyThresholdCount() {
+    return this.getNumberAttribute('healthy_threshold_count');
+  }
+
+  // matcher - computed: true, optional: false, required: false
+  private _matcher = new DataAwsccEcsServiceGatewayConnectorsHealthCheckMatcherOutputReference(this, "matcher");
+  public get matcher() {
+    return this._matcher;
+  }
+
+  // unhealthy_threshold_count - computed: true, optional: false, required: false
+  public get unhealthyThresholdCount() {
+    return this.getNumberAttribute('unhealthy_threshold_count');
+  }
+}
+export interface DataAwsccEcsServiceGatewayConnectors {
+}
+
+export function dataAwsccEcsServiceGatewayConnectorsToTerraform(struct?: DataAwsccEcsServiceGatewayConnectors): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccEcsServiceGatewayConnectorsToHclTerraform(struct?: DataAwsccEcsServiceGatewayConnectors): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccEcsServiceGatewayConnectorsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataAwsccEcsServiceGatewayConnectors | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccEcsServiceGatewayConnectors | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // filters - computed: true, optional: false, required: false
+  private _filters = new DataAwsccEcsServiceGatewayConnectorsFiltersOutputReference(this, "filters");
+  public get filters() {
+    return this._filters;
+  }
+
+  // health_check - computed: true, optional: false, required: false
+  private _healthCheck = new DataAwsccEcsServiceGatewayConnectorsHealthCheckOutputReference(this, "health_check");
+  public get healthCheck() {
+    return this._healthCheck;
+  }
+
+  // port_name - computed: true, optional: false, required: false
+  public get portName() {
+    return this.getStringAttribute('port_name');
+  }
+}
+
+export class DataAwsccEcsServiceGatewayConnectorsList extends cdktn.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataAwsccEcsServiceGatewayConnectorsOutputReference {
+    return new DataAwsccEcsServiceGatewayConnectorsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface DataAwsccEcsServiceLoadBalancersAdvancedConfiguration {
 }
 
@@ -1496,6 +1786,81 @@ export class DataAwsccEcsServiceServiceConnectConfigurationAccessLogConfiguratio
   // include_query_parameters - computed: true, optional: false, required: false
   public get includeQueryParameters() {
     return this.getStringAttribute('include_query_parameters');
+  }
+}
+export interface DataAwsccEcsServiceServiceConnectConfigurationContainerConfigurations {
+}
+
+export function dataAwsccEcsServiceServiceConnectConfigurationContainerConfigurationsToTerraform(struct?: DataAwsccEcsServiceServiceConnectConfigurationContainerConfigurations): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccEcsServiceServiceConnectConfigurationContainerConfigurationsToHclTerraform(struct?: DataAwsccEcsServiceServiceConnectConfigurationContainerConfigurations): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccEcsServiceServiceConnectConfigurationContainerConfigurationsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataAwsccEcsServiceServiceConnectConfigurationContainerConfigurations | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccEcsServiceServiceConnectConfigurationContainerConfigurations | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // log_level - computed: true, optional: false, required: false
+  public get logLevel() {
+    return this.getStringAttribute('log_level');
+  }
+}
+
+export class DataAwsccEcsServiceServiceConnectConfigurationContainerConfigurationsList extends cdktn.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataAwsccEcsServiceServiceConnectConfigurationContainerConfigurationsOutputReference {
+    return new DataAwsccEcsServiceServiceConnectConfigurationContainerConfigurationsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
 export interface DataAwsccEcsServiceServiceConnectConfigurationLogConfigurationSecretOptions {
@@ -2235,6 +2600,12 @@ export class DataAwsccEcsServiceServiceConnectConfigurationOutputReference exten
     return this._accessLogConfiguration;
   }
 
+  // container_configurations - computed: true, optional: false, required: false
+  private _containerConfigurations = new DataAwsccEcsServiceServiceConnectConfigurationContainerConfigurationsList(this, "container_configurations", false);
+  public get containerConfigurations() {
+    return this._containerConfigurations;
+  }
+
   // enabled - computed: true, optional: false, required: false
   public get enabled() {
     return this.getBooleanAttribute('enabled');
@@ -2936,7 +3307,7 @@ export class DataAwsccEcsServiceVpcLatticeConfigurationsList extends cdktn.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ecs_service awscc_ecs_service}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ecs_service awscc_ecs_service}
 */
 export class DataAwsccEcsService extends cdktn.TerraformDataSource {
 
@@ -2952,7 +3323,7 @@ export class DataAwsccEcsService extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccEcsService resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccEcsService to import
-  * @param importFromId The id of the existing DataAwsccEcsService that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ecs_service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccEcsService that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ecs_service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccEcsService to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -2964,7 +3335,7 @@ export class DataAwsccEcsService extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ecs_service awscc_ecs_service} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ecs_service awscc_ecs_service} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2975,7 +3346,7 @@ export class DataAwsccEcsService extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_ecs_service',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.106.0',
+        providerVersion: '1.107.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -3040,6 +3411,12 @@ export class DataAwsccEcsService extends cdktn.TerraformDataSource {
   private _forceNewDeployment = new DataAwsccEcsServiceForceNewDeploymentOutputReference(this, "force_new_deployment");
   public get forceNewDeployment() {
     return this._forceNewDeployment;
+  }
+
+  // gateway_connectors - computed: true, optional: false, required: false
+  private _gatewayConnectors = new DataAwsccEcsServiceGatewayConnectorsList(this, "gateway_connectors", false);
+  public get gatewayConnectors() {
+    return this._gatewayConnectors;
   }
 
   // health_check_grace_period_seconds - computed: true, optional: false, required: false

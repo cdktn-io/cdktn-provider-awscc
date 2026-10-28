@@ -4,12 +4,12 @@
 
 ### DataAwsccSupportappSlackChannelConfigurations <a name="DataAwsccSupportappSlackChannelConfigurations" id="@cdktn/provider-awscc.dataAwsccSupportappSlackChannelConfigurations.DataAwsccSupportappSlackChannelConfigurations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/supportapp_slack_channel_configurations awscc_supportapp_slack_channel_configurations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/supportapp_slack_channel_configurations awscc_supportapp_slack_channel_configurations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSupportappSlackChannelConfigurations.DataAwsccSupportappSlackChannelConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsupportappslackchannelconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsupportappslackchannelconfigurations"
 
 dataawsccsupportappslackchannelconfigurations.NewDataAwsccSupportappSlackChannelConfigurations(scope Construct, id *string, config DataAwsccSupportappSlackChannelConfigurationsConfig) DataAwsccSupportappSlackChannelConfigurations
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSupportappSlackChannelConfigurations.DataAwsccSupportappSlackChannelConfigurations.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsupportappslackchannelconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsupportappslackchannelconfigurations"
 
 dataawsccsupportappslackchannelconfigurations.DataAwsccSupportappSlackChannelConfigurations_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSupportappSlackChannelConfigurations.DataAwsccSupportappSlackChannelConfigurations.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsupportappslackchannelconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsupportappslackchannelconfigurations"
 
 dataawsccsupportappslackchannelconfigurations.DataAwsccSupportappSlackChannelConfigurations_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsupportappslackchannelconfigurations.DataAwsccSupportappSlackChannelCon
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSupportappSlackChannelConfigurations.DataAwsccSupportappSlackChannelConfigurations.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsupportappslackchannelconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsupportappslackchannelconfigurations"
 
 dataawsccsupportappslackchannelconfigurations.DataAwsccSupportappSlackChannelConfigurations_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsupportappslackchannelconfigurations.DataAwsccSupportappSlackChannelCon
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSupportappSlackChannelConfigurations.DataAwsccSupportappSlackChannelConfigurations.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsupportappslackchannelconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsupportappslackchannelconfigurations"
 
 dataawsccsupportappslackchannelconfigurations.DataAwsccSupportappSlackChannelConfigurations_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSupportappSlackCh
 
 The id of the existing DataAwsccSupportappSlackChannelConfigurations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/supportapp_slack_channel_configurations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/supportapp_slack_channel_configurations#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSupportappSlackChannelConfigurations.DataAwsccSupportappSlackChannelConfigurationsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsupportappslackchannelconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsupportappslackchannelconfigurations"
 
 &dataawsccsupportappslackchannelconfigurations.DataAwsccSupportappSlackChannelConfigurationsConfig {
 	Connection: interface{},

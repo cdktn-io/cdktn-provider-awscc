@@ -4,12 +4,12 @@
 
 ### B2BiProfile <a name="B2BiProfile" id="@cdktn/provider-awscc.b2BiProfile.B2BiProfile"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/b2bi_profile awscc_b2bi_profile}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/b2bi_profile awscc_b2bi_profile}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.b2BiProfile.B2BiProfile.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/b2biprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/b2biprofile"
 
 b2biprofile.NewB2BiProfile(scope Construct, id *string, config B2BiProfileConfig) B2BiProfile
 ```
@@ -427,7 +427,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.b2BiProfile.B2BiProfile.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/b2biprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/b2biprofile"
 
 b2biprofile.B2BiProfile_IsConstruct(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.b2BiProfile.B2BiProfile.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/b2biprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/b2biprofile"
 
 b2biprofile.B2BiProfile_IsTerraformElement(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ b2biprofile.B2BiProfile_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.b2BiProfile.B2BiProfile.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/b2biprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/b2biprofile"
 
 b2biprofile.B2BiProfile_IsTerraformResource(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ b2biprofile.B2BiProfile_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.b2BiProfile.B2BiProfile.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/b2biprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/b2biprofile"
 
 b2biprofile.B2BiProfile_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -516,7 +516,7 @@ The construct id used in the generated config for the B2BiProfile to import.
 
 The id of the existing B2BiProfile that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/b2bi_profile#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/b2bi_profile#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -914,7 +914,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.b2BiProfile.B2BiProfileConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/b2biprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/b2biprofile"
 
 &b2biprofile.B2BiProfileConfig {
 	Connection: interface{},
@@ -944,12 +944,12 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/b2biprofile"
 | <code><a href="#@cdktn/provider-awscc.b2BiProfile.B2BiProfileConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.b2BiProfile.B2BiProfileConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.b2BiProfile.B2BiProfileConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.b2BiProfile.B2BiProfileConfig.property.businessName">BusinessName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/b2bi_profile#business_name B2BiProfile#business_name}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiProfile.B2BiProfileConfig.property.logging">Logging</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/b2bi_profile#logging B2BiProfile#logging}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiProfile.B2BiProfileConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/b2bi_profile#name B2BiProfile#name}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiProfile.B2BiProfileConfig.property.phone">Phone</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/b2bi_profile#phone B2BiProfile#phone}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiProfile.B2BiProfileConfig.property.email">Email</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/b2bi_profile#email B2BiProfile#email}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiProfile.B2BiProfileConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/b2bi_profile#tags B2BiProfile#tags}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiProfile.B2BiProfileConfig.property.businessName">BusinessName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/b2bi_profile#business_name B2BiProfile#business_name}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiProfile.B2BiProfileConfig.property.logging">Logging</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/b2bi_profile#logging B2BiProfile#logging}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiProfile.B2BiProfileConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/b2bi_profile#name B2BiProfile#name}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiProfile.B2BiProfileConfig.property.phone">Phone</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/b2bi_profile#phone B2BiProfile#phone}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiProfile.B2BiProfileConfig.property.email">Email</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/b2bi_profile#email B2BiProfile#email}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiProfile.B2BiProfileConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/b2bi_profile#tags B2BiProfile#tags}. |
 
 ---
 
@@ -1031,7 +1031,7 @@ BusinessName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/b2bi_profile#business_name B2BiProfile#business_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/b2bi_profile#business_name B2BiProfile#business_name}.
 
 ---
 
@@ -1043,7 +1043,7 @@ Logging *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/b2bi_profile#logging B2BiProfile#logging}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/b2bi_profile#logging B2BiProfile#logging}.
 
 ---
 
@@ -1055,7 +1055,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/b2bi_profile#name B2BiProfile#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/b2bi_profile#name B2BiProfile#name}.
 
 ---
 
@@ -1067,7 +1067,7 @@ Phone *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/b2bi_profile#phone B2BiProfile#phone}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/b2bi_profile#phone B2BiProfile#phone}.
 
 ---
 
@@ -1079,7 +1079,7 @@ Email *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/b2bi_profile#email B2BiProfile#email}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/b2bi_profile#email B2BiProfile#email}.
 
 ---
 
@@ -1091,7 +1091,7 @@ Tags interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/b2bi_profile#tags B2BiProfile#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/b2bi_profile#tags B2BiProfile#tags}.
 
 ---
 
@@ -1100,7 +1100,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.b2BiProfile.B2BiProfileTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/b2biprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/b2biprofile"
 
 &b2biprofile.B2BiProfileTags {
 	Key: *string,
@@ -1112,8 +1112,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/b2biprofile"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.b2BiProfile.B2BiProfileTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/b2bi_profile#key B2BiProfile#key}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiProfile.B2BiProfileTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/b2bi_profile#value B2BiProfile#value}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiProfile.B2BiProfileTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/b2bi_profile#key B2BiProfile#key}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiProfile.B2BiProfileTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/b2bi_profile#value B2BiProfile#value}. |
 
 ---
 
@@ -1125,7 +1125,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/b2bi_profile#key B2BiProfile#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/b2bi_profile#key B2BiProfile#key}.
 
 ---
 
@@ -1137,7 +1137,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/b2bi_profile#value B2BiProfile#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/b2bi_profile#value B2BiProfile#value}.
 
 ---
 
@@ -1148,7 +1148,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.b2BiProfile.B2BiProfileTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/b2biprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/b2biprofile"
 
 b2biprofile.NewB2BiProfileTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) B2BiProfileTagsList
 ```
@@ -1308,7 +1308,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.b2BiProfile.B2BiProfileTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/b2biprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/b2biprofile"
 
 b2biprofile.NewB2BiProfileTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) B2BiProfileTagsOutputReference
 ```

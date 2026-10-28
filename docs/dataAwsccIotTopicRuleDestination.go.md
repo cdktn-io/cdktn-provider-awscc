@@ -4,12 +4,12 @@
 
 ### DataAwsccIotTopicRuleDestination <a name="DataAwsccIotTopicRuleDestination" id="@cdktn/provider-awscc.dataAwsccIotTopicRuleDestination.DataAwsccIotTopicRuleDestination"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_topic_rule_destination awscc_iot_topic_rule_destination}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_topic_rule_destination awscc_iot_topic_rule_destination}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRuleDestination.DataAwsccIotTopicRuleDestination.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicruledestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicruledestination"
 
 dataawscciottopicruledestination.NewDataAwsccIotTopicRuleDestination(scope Construct, id *string, config DataAwsccIotTopicRuleDestinationConfig) DataAwsccIotTopicRuleDestination
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIotTopicRuleDestination.DataAwsccIotTopicRuleDestination.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicruledestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicruledestination"
 
 dataawscciottopicruledestination.DataAwsccIotTopicRuleDestination_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIotTopicRuleDestination.DataAwsccIotTopicRuleDestination.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicruledestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicruledestination"
 
 dataawscciottopicruledestination.DataAwsccIotTopicRuleDestination_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciottopicruledestination.DataAwsccIotTopicRuleDestination_IsTerraformEle
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIotTopicRuleDestination.DataAwsccIotTopicRuleDestination.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicruledestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicruledestination"
 
 dataawscciottopicruledestination.DataAwsccIotTopicRuleDestination_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciottopicruledestination.DataAwsccIotTopicRuleDestination_IsTerraformDat
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIotTopicRuleDestination.DataAwsccIotTopicRuleDestination.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicruledestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicruledestination"
 
 dataawscciottopicruledestination.DataAwsccIotTopicRuleDestination_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotTopicRuleDesti
 
 The id of the existing DataAwsccIotTopicRuleDestination that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_topic_rule_destination#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_topic_rule_destination#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -653,7 +653,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRuleDestination.DataAwsccIotTopicRuleDestinationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicruledestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicruledestination"
 
 &dataawscciottopicruledestination.DataAwsccIotTopicRuleDestinationConfig {
 	Connection: interface{},
@@ -762,7 +762,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_topic_rule_destination#id DataAwsccIotTopicRuleDestination#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_topic_rule_destination#id DataAwsccIotTopicRuleDestination#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -774,7 +774,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRuleDestination.DataAwsccIotTopicRuleDestinationHttpUrlProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicruledestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicruledestination"
 
 &dataawscciottopicruledestination.DataAwsccIotTopicRuleDestinationHttpUrlProperties {
 
@@ -787,7 +787,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicruled
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRuleDestination.DataAwsccIotTopicRuleDestinationInfluxDbProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicruledestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicruledestination"
 
 &dataawscciottopicruledestination.DataAwsccIotTopicRuleDestinationInfluxDbProperties {
 
@@ -800,7 +800,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicruled
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotTopicRuleDestination.DataAwsccIotTopicRuleDestinationVpcProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicruledestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicruledestination"
 
 &dataawscciottopicruledestination.DataAwsccIotTopicRuleDestinationVpcProperties {
 
@@ -815,7 +815,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicruled
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRuleDestination.DataAwsccIotTopicRuleDestinationHttpUrlPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicruledestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicruledestination"
 
 dataawscciottopicruledestination.NewDataAwsccIotTopicRuleDestinationHttpUrlPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleDestinationHttpUrlPropertiesOutputReference
 ```
@@ -1075,7 +1075,7 @@ func InternalValue() DataAwsccIotTopicRuleDestinationHttpUrlProperties
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRuleDestination.DataAwsccIotTopicRuleDestinationInfluxDbPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicruledestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicruledestination"
 
 dataawscciottopicruledestination.NewDataAwsccIotTopicRuleDestinationInfluxDbPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleDestinationInfluxDbPropertiesOutputReference
 ```
@@ -1379,7 +1379,7 @@ func InternalValue() DataAwsccIotTopicRuleDestinationInfluxDbProperties
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRuleDestination.DataAwsccIotTopicRuleDestinationVpcPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottopicruledestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottopicruledestination"
 
 dataawscciottopicruledestination.NewDataAwsccIotTopicRuleDestinationVpcPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotTopicRuleDestinationVpcPropertiesOutputReference
 ```

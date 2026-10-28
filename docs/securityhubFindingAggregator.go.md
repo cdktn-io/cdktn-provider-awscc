@@ -4,12 +4,12 @@
 
 ### SecurityhubFindingAggregator <a name="SecurityhubFindingAggregator" id="@cdktn/provider-awscc.securityhubFindingAggregator.SecurityhubFindingAggregator"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_finding_aggregator awscc_securityhub_finding_aggregator}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_finding_aggregator awscc_securityhub_finding_aggregator}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubFindingAggregator.SecurityhubFindingAggregator.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubfindingaggregator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubfindingaggregator"
 
 securityhubfindingaggregator.NewSecurityhubFindingAggregator(scope Construct, id *string, config SecurityhubFindingAggregatorConfig) SecurityhubFindingAggregator
 ```
@@ -407,7 +407,7 @@ func ResetRegions()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.securityhubFindingAggregator.SecurityhubFindingAggregator.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubfindingaggregator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubfindingaggregator"
 
 securityhubfindingaggregator.SecurityhubFindingAggregator_IsConstruct(x interface{}) *bool
 ```
@@ -439,7 +439,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.securityhubFindingAggregator.SecurityhubFindingAggregator.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubfindingaggregator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubfindingaggregator"
 
 securityhubfindingaggregator.SecurityhubFindingAggregator_IsTerraformElement(x interface{}) *bool
 ```
@@ -453,7 +453,7 @@ securityhubfindingaggregator.SecurityhubFindingAggregator_IsTerraformElement(x i
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.securityhubFindingAggregator.SecurityhubFindingAggregator.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubfindingaggregator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubfindingaggregator"
 
 securityhubfindingaggregator.SecurityhubFindingAggregator_IsTerraformResource(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ securityhubfindingaggregator.SecurityhubFindingAggregator_IsTerraformResource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.securityhubFindingAggregator.SecurityhubFindingAggregator.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubfindingaggregator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubfindingaggregator"
 
 securityhubfindingaggregator.SecurityhubFindingAggregator_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -496,7 +496,7 @@ The construct id used in the generated config for the SecurityhubFindingAggregat
 
 The id of the existing SecurityhubFindingAggregator that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_finding_aggregator#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_finding_aggregator#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -773,7 +773,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubFindingAggregator.SecurityhubFindingAggregatorConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubfindingaggregator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubfindingaggregator"
 
 &securityhubfindingaggregator.SecurityhubFindingAggregatorConfig {
 	Connection: interface{},
@@ -892,7 +892,7 @@ In CFN, the options for this property are as follows:
 * `ALL_REGIONS_EXCEPT_SPECIFIED` - Indicates to aggregate findings from all of the Regions where Security Hub is enabled, except for the Regions listed in the `Regions` parameter. When you choose this option, Security Hub also automatically aggregates findings from new Regions as Security Hub supports them and you opt into them.
 * `SPECIFIED_REGIONS` - Indicates to aggregate findings only from the Regions listed in the `Regions` parameter. Security Hub does not automatically aggregate findings from new Regions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_finding_aggregator#region_linking_mode SecurityhubFindingAggregator#region_linking_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_finding_aggregator#region_linking_mode SecurityhubFindingAggregator#region_linking_mode}
 
 ---
 
@@ -908,7 +908,7 @@ If ``RegionLinkingMode`` is ``ALL_REGIONS_EXCEPT_SPECIFIED``, then this is a spa
 
 If `RegionLinkingMode` is `SPECIFIED_REGIONS`, then this is a space-separated list of Regions that do aggregate findings to the aggregation Region.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_finding_aggregator#regions SecurityhubFindingAggregator#regions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_finding_aggregator#regions SecurityhubFindingAggregator#regions}
 
 ---
 

@@ -4,12 +4,12 @@
 
 ### FrauddetectorLabel <a name="FrauddetectorLabel" id="@cdktn/provider-awscc.frauddetectorLabel.FrauddetectorLabel"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/frauddetector_label awscc_frauddetector_label}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/frauddetector_label awscc_frauddetector_label}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.frauddetectorLabel.FrauddetectorLabel.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/frauddetectorlabel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/frauddetectorlabel"
 
 frauddetectorlabel.NewFrauddetectorLabel(scope Construct, id *string, config FrauddetectorLabelConfig) FrauddetectorLabel
 ```
@@ -427,7 +427,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.frauddetectorLabel.FrauddetectorLabel.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/frauddetectorlabel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/frauddetectorlabel"
 
 frauddetectorlabel.FrauddetectorLabel_IsConstruct(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.frauddetectorLabel.FrauddetectorLabel.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/frauddetectorlabel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/frauddetectorlabel"
 
 frauddetectorlabel.FrauddetectorLabel_IsTerraformElement(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ frauddetectorlabel.FrauddetectorLabel_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.frauddetectorLabel.FrauddetectorLabel.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/frauddetectorlabel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/frauddetectorlabel"
 
 frauddetectorlabel.FrauddetectorLabel_IsTerraformResource(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ frauddetectorlabel.FrauddetectorLabel_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.frauddetectorLabel.FrauddetectorLabel.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/frauddetectorlabel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/frauddetectorlabel"
 
 frauddetectorlabel.FrauddetectorLabel_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -516,7 +516,7 @@ The construct id used in the generated config for the FrauddetectorLabel to impo
 
 The id of the existing FrauddetectorLabel that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/frauddetector_label#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/frauddetector_label#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -826,7 +826,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.frauddetectorLabel.FrauddetectorLabelConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/frauddetectorlabel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/frauddetectorlabel"
 
 &frauddetectorlabel.FrauddetectorLabelConfig {
 	Connection: interface{},
@@ -939,7 +939,7 @@ Name *string
 
 The name of the label.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/frauddetector_label#name FrauddetectorLabel#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/frauddetector_label#name FrauddetectorLabel#name}
 
 ---
 
@@ -953,7 +953,7 @@ Description *string
 
 The label description.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/frauddetector_label#description FrauddetectorLabel#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/frauddetector_label#description FrauddetectorLabel#description}
 
 ---
 
@@ -967,7 +967,7 @@ Tags interface{}
 
 Tags associated with this label.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/frauddetector_label#tags FrauddetectorLabel#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/frauddetector_label#tags FrauddetectorLabel#tags}
 
 ---
 
@@ -976,7 +976,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.frauddetectorLabel.FrauddetectorLabelTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/frauddetectorlabel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/frauddetectorlabel"
 
 &frauddetectorlabel.FrauddetectorLabelTags {
 	Key: *string,
@@ -988,8 +988,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/frauddetectorlabel"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.frauddetectorLabel.FrauddetectorLabelTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/frauddetector_label#key FrauddetectorLabel#key}. |
-| <code><a href="#@cdktn/provider-awscc.frauddetectorLabel.FrauddetectorLabelTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/frauddetector_label#value FrauddetectorLabel#value}. |
+| <code><a href="#@cdktn/provider-awscc.frauddetectorLabel.FrauddetectorLabelTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/frauddetector_label#key FrauddetectorLabel#key}. |
+| <code><a href="#@cdktn/provider-awscc.frauddetectorLabel.FrauddetectorLabelTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/frauddetector_label#value FrauddetectorLabel#value}. |
 
 ---
 
@@ -1001,7 +1001,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/frauddetector_label#key FrauddetectorLabel#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/frauddetector_label#key FrauddetectorLabel#key}.
 
 ---
 
@@ -1013,7 +1013,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/frauddetector_label#value FrauddetectorLabel#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/frauddetector_label#value FrauddetectorLabel#value}.
 
 ---
 
@@ -1024,7 +1024,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.frauddetectorLabel.FrauddetectorLabelTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/frauddetectorlabel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/frauddetectorlabel"
 
 frauddetectorlabel.NewFrauddetectorLabelTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) FrauddetectorLabelTagsList
 ```
@@ -1184,7 +1184,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.frauddetectorLabel.FrauddetectorLabelTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/frauddetectorlabel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/frauddetectorlabel"
 
 frauddetectorlabel.NewFrauddetectorLabelTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) FrauddetectorLabelTagsOutputReference
 ```

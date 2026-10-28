@@ -4,12 +4,12 @@
 
 ### DataAwsccResourcegroupsTagSyncTasks <a name="DataAwsccResourcegroupsTagSyncTasks" id="@cdktn/provider-awscc.dataAwsccResourcegroupsTagSyncTasks.DataAwsccResourcegroupsTagSyncTasks"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/resourcegroups_tag_sync_tasks awscc_resourcegroups_tag_sync_tasks}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/resourcegroups_tag_sync_tasks awscc_resourcegroups_tag_sync_tasks}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccResourcegroupsTagSyncTasks.DataAwsccResourcegroupsTagSyncTasks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresourcegroupstagsynctasks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresourcegroupstagsynctasks"
 
 dataawsccresourcegroupstagsynctasks.NewDataAwsccResourcegroupsTagSyncTasks(scope Construct, id *string, config DataAwsccResourcegroupsTagSyncTasksConfig) DataAwsccResourcegroupsTagSyncTasks
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccResourcegroupsTagSyncTasks.DataAwsccResourcegroupsTagSyncTasks.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresourcegroupstagsynctasks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresourcegroupstagsynctasks"
 
 dataawsccresourcegroupstagsynctasks.DataAwsccResourcegroupsTagSyncTasks_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccResourcegroupsTagSyncTasks.DataAwsccResourcegroupsTagSyncTasks.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresourcegroupstagsynctasks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresourcegroupstagsynctasks"
 
 dataawsccresourcegroupstagsynctasks.DataAwsccResourcegroupsTagSyncTasks_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccresourcegroupstagsynctasks.DataAwsccResourcegroupsTagSyncTasks_IsTerraf
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccResourcegroupsTagSyncTasks.DataAwsccResourcegroupsTagSyncTasks.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresourcegroupstagsynctasks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresourcegroupstagsynctasks"
 
 dataawsccresourcegroupstagsynctasks.DataAwsccResourcegroupsTagSyncTasks_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccresourcegroupstagsynctasks.DataAwsccResourcegroupsTagSyncTasks_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccResourcegroupsTagSyncTasks.DataAwsccResourcegroupsTagSyncTasks.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresourcegroupstagsynctasks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresourcegroupstagsynctasks"
 
 dataawsccresourcegroupstagsynctasks.DataAwsccResourcegroupsTagSyncTasks_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccResourcegroupsTag
 
 The id of the existing DataAwsccResourcegroupsTagSyncTasks that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/resourcegroups_tag_sync_tasks#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/resourcegroups_tag_sync_tasks#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccResourcegroupsTagSyncTasks.DataAwsccResourcegroupsTagSyncTasksConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresourcegroupstagsynctasks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresourcegroupstagsynctasks"
 
 &dataawsccresourcegroupstagsynctasks.DataAwsccResourcegroupsTagSyncTasksConfig {
 	Connection: interface{},

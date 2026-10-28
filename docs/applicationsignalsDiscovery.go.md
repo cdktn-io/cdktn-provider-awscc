@@ -4,12 +4,12 @@
 
 ### ApplicationsignalsDiscovery <a name="ApplicationsignalsDiscovery" id="@cdktn/provider-awscc.applicationsignalsDiscovery.ApplicationsignalsDiscovery"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_discovery awscc_applicationsignals_discovery}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_discovery awscc_applicationsignals_discovery}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationsignalsDiscovery.ApplicationsignalsDiscovery.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsdiscovery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsdiscovery"
 
 applicationsignalsdiscovery.NewApplicationsignalsDiscovery(scope Construct, id *string, config ApplicationsignalsDiscoveryConfig) ApplicationsignalsDiscovery
 ```
@@ -400,7 +400,7 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.applicationsignalsDiscovery.ApplicationsignalsDiscovery.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsdiscovery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsdiscovery"
 
 applicationsignalsdiscovery.ApplicationsignalsDiscovery_IsConstruct(x interface{}) *bool
 ```
@@ -432,7 +432,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.applicationsignalsDiscovery.ApplicationsignalsDiscovery.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsdiscovery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsdiscovery"
 
 applicationsignalsdiscovery.ApplicationsignalsDiscovery_IsTerraformElement(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ applicationsignalsdiscovery.ApplicationsignalsDiscovery_IsTerraformElement(x int
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.applicationsignalsDiscovery.ApplicationsignalsDiscovery.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsdiscovery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsdiscovery"
 
 applicationsignalsdiscovery.ApplicationsignalsDiscovery_IsTerraformResource(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ applicationsignalsdiscovery.ApplicationsignalsDiscovery_IsTerraformResource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.applicationsignalsDiscovery.ApplicationsignalsDiscovery.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsdiscovery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsdiscovery"
 
 applicationsignalsdiscovery.ApplicationsignalsDiscovery_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -489,7 +489,7 @@ The construct id used in the generated config for the ApplicationsignalsDiscover
 
 The id of the existing ApplicationsignalsDiscovery that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_discovery#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_discovery#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -711,7 +711,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationsignalsDiscovery.ApplicationsignalsDiscoveryConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsdiscovery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsdiscovery"
 
 &applicationsignalsdiscovery.ApplicationsignalsDiscoveryConfig {
 	Connection: interface{},

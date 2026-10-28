@@ -4,12 +4,12 @@
 
 ### DataAwsccGameliftGameSessionQueues <a name="DataAwsccGameliftGameSessionQueues" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueues.DataAwsccGameliftGameSessionQueues"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/gamelift_game_session_queues awscc_gamelift_game_session_queues}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/gamelift_game_session_queues awscc_gamelift_game_session_queues}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueues.DataAwsccGameliftGameSessionQueues.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftgamesessionqueues"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftgamesessionqueues"
 
 dataawsccgameliftgamesessionqueues.NewDataAwsccGameliftGameSessionQueues(scope Construct, id *string, config DataAwsccGameliftGameSessionQueuesConfig) DataAwsccGameliftGameSessionQueues
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueues.DataAwsccGameliftGameSessionQueues.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftgamesessionqueues"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftgamesessionqueues"
 
 dataawsccgameliftgamesessionqueues.DataAwsccGameliftGameSessionQueues_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueues.DataAwsccGameliftGameSessionQueues.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftgamesessionqueues"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftgamesessionqueues"
 
 dataawsccgameliftgamesessionqueues.DataAwsccGameliftGameSessionQueues_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccgameliftgamesessionqueues.DataAwsccGameliftGameSessionQueues_IsTerrafor
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueues.DataAwsccGameliftGameSessionQueues.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftgamesessionqueues"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftgamesessionqueues"
 
 dataawsccgameliftgamesessionqueues.DataAwsccGameliftGameSessionQueues_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccgameliftgamesessionqueues.DataAwsccGameliftGameSessionQueues_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueues.DataAwsccGameliftGameSessionQueues.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftgamesessionqueues"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftgamesessionqueues"
 
 dataawsccgameliftgamesessionqueues.DataAwsccGameliftGameSessionQueues_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccGameliftGameSessi
 
 The id of the existing DataAwsccGameliftGameSessionQueues that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/gamelift_game_session_queues#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/gamelift_game_session_queues#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueues.DataAwsccGameliftGameSessionQueuesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftgamesessionqueues"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftgamesessionqueues"
 
 &dataawsccgameliftgamesessionqueues.DataAwsccGameliftGameSessionQueuesConfig {
 	Connection: interface{},

@@ -4,12 +4,12 @@
 
 ### RdsDbSubnetGroup <a name="RdsDbSubnetGroup" id="@cdktn/provider-awscc.rdsDbSubnetGroup.RdsDbSubnetGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_subnet_group awscc_rds_db_subnet_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_subnet_group awscc_rds_db_subnet_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.rdsDbSubnetGroup.RdsDbSubnetGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsdbsubnetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsdbsubnetgroup"
 
 rdsdbsubnetgroup.NewRdsDbSubnetGroup(scope Construct, id *string, config RdsDbSubnetGroupConfig) RdsDbSubnetGroup
 ```
@@ -427,7 +427,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.rdsDbSubnetGroup.RdsDbSubnetGroup.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsdbsubnetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsdbsubnetgroup"
 
 rdsdbsubnetgroup.RdsDbSubnetGroup_IsConstruct(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.rdsDbSubnetGroup.RdsDbSubnetGroup.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsdbsubnetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsdbsubnetgroup"
 
 rdsdbsubnetgroup.RdsDbSubnetGroup_IsTerraformElement(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ rdsdbsubnetgroup.RdsDbSubnetGroup_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.rdsDbSubnetGroup.RdsDbSubnetGroup.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsdbsubnetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsdbsubnetgroup"
 
 rdsdbsubnetgroup.RdsDbSubnetGroup_IsTerraformResource(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ rdsdbsubnetgroup.RdsDbSubnetGroup_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.rdsDbSubnetGroup.RdsDbSubnetGroup.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsdbsubnetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsdbsubnetgroup"
 
 rdsdbsubnetgroup.RdsDbSubnetGroup_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -516,7 +516,7 @@ The construct id used in the generated config for the RdsDbSubnetGroup to import
 
 The id of the existing RdsDbSubnetGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_subnet_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_subnet_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -826,7 +826,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.rdsDbSubnetGroup.RdsDbSubnetGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsdbsubnetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsdbsubnetgroup"
 
 &rdsdbsubnetgroup.RdsDbSubnetGroupConfig {
 	Connection: interface{},
@@ -941,7 +941,7 @@ DbSubnetGroupDescription *string
 
 The description for the DB subnet group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_subnet_group#db_subnet_group_description RdsDbSubnetGroup#db_subnet_group_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_subnet_group#db_subnet_group_description RdsDbSubnetGroup#db_subnet_group_description}
 
 ---
 
@@ -955,7 +955,7 @@ SubnetIds *[]*string
 
 The EC2 Subnet IDs for the DB subnet group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_subnet_group#subnet_ids RdsDbSubnetGroup#subnet_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_subnet_group#subnet_ids RdsDbSubnetGroup#subnet_ids}
 
 ---
 
@@ -978,7 +978,7 @@ Constraints:
 
 Example: `mydbsubnetgroup`
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_subnet_group#db_subnet_group_name RdsDbSubnetGroup#db_subnet_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_subnet_group#db_subnet_group_name RdsDbSubnetGroup#db_subnet_group_name}
 
 ---
 
@@ -992,7 +992,7 @@ Tags interface{}
 
 Tags to assign to the DB subnet group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_subnet_group#tags RdsDbSubnetGroup#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_subnet_group#tags RdsDbSubnetGroup#tags}
 
 ---
 
@@ -1001,7 +1001,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.rdsDbSubnetGroup.RdsDbSubnetGroupTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsdbsubnetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsdbsubnetgroup"
 
 &rdsdbsubnetgroup.RdsDbSubnetGroupTags {
 	Key: *string,
@@ -1030,7 +1030,7 @@ A key is the required name of the tag.
 
 The string value can be from 1 to 128 Unicode characters in length and can't be prefixed with `aws:` or `rds:`. The string can only contain only the set of Unicode letters, digits, white-space, '*', '.', ':', '/', '=', '+', '-', '@' (Java regex: "^([\p{L}\p{Z}\p{N}*.:/=+\-@]*)$").
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_subnet_group#key RdsDbSubnetGroup#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_subnet_group#key RdsDbSubnetGroup#key}
 
 ---
 
@@ -1046,7 +1046,7 @@ A value is the optional value of the tag.
 
 The string value can be from 1 to 256 Unicode characters in length and can't be prefixed with `aws:` or `rds:`. The string can only contain only the set of Unicode letters, digits, white-space, '*', '.', ':', '/', '=', '+', '-', '@' (Java regex: "^([\p{L}\p{Z}\p{N}*.:/=+\-@]*)$").
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_subnet_group#value RdsDbSubnetGroup#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_subnet_group#value RdsDbSubnetGroup#value}
 
 ---
 
@@ -1057,7 +1057,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.rdsDbSubnetGroup.RdsDbSubnetGroupTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsdbsubnetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsdbsubnetgroup"
 
 rdsdbsubnetgroup.NewRdsDbSubnetGroupTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) RdsDbSubnetGroupTagsList
 ```
@@ -1217,7 +1217,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.rdsDbSubnetGroup.RdsDbSubnetGroupTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsdbsubnetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsdbsubnetgroup"
 
 rdsdbsubnetgroup.NewRdsDbSubnetGroupTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) RdsDbSubnetGroupTagsOutputReference
 ```

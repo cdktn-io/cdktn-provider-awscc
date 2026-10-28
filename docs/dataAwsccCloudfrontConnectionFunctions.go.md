@@ -4,12 +4,12 @@
 
 ### DataAwsccCloudfrontConnectionFunctions <a name="DataAwsccCloudfrontConnectionFunctions" id="@cdktn/provider-awscc.dataAwsccCloudfrontConnectionFunctions.DataAwsccCloudfrontConnectionFunctions"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudfront_connection_functions awscc_cloudfront_connection_functions}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudfront_connection_functions awscc_cloudfront_connection_functions}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudfrontConnectionFunctions.DataAwsccCloudfrontConnectionFunctions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontconnectionfunctions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontconnectionfunctions"
 
 dataawscccloudfrontconnectionfunctions.NewDataAwsccCloudfrontConnectionFunctions(scope Construct, id *string, config DataAwsccCloudfrontConnectionFunctionsConfig) DataAwsccCloudfrontConnectionFunctions
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCloudfrontConnectionFunctions.DataAwsccCloudfrontConnectionFunctions.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontconnectionfunctions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontconnectionfunctions"
 
 dataawscccloudfrontconnectionfunctions.DataAwsccCloudfrontConnectionFunctions_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCloudfrontConnectionFunctions.DataAwsccCloudfrontConnectionFunctions.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontconnectionfunctions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontconnectionfunctions"
 
 dataawscccloudfrontconnectionfunctions.DataAwsccCloudfrontConnectionFunctions_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccloudfrontconnectionfunctions.DataAwsccCloudfrontConnectionFunctions_Is
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCloudfrontConnectionFunctions.DataAwsccCloudfrontConnectionFunctions.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontconnectionfunctions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontconnectionfunctions"
 
 dataawscccloudfrontconnectionfunctions.DataAwsccCloudfrontConnectionFunctions_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccloudfrontconnectionfunctions.DataAwsccCloudfrontConnectionFunctions_Is
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCloudfrontConnectionFunctions.DataAwsccCloudfrontConnectionFunctions.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontconnectionfunctions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontconnectionfunctions"
 
 dataawscccloudfrontconnectionfunctions.DataAwsccCloudfrontConnectionFunctions_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCloudfrontConnect
 
 The id of the existing DataAwsccCloudfrontConnectionFunctions that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudfront_connection_functions#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudfront_connection_functions#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloudfrontConnectionFunctions.DataAwsccCloudfrontConnectionFunctionsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontconnectionfunctions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontconnectionfunctions"
 
 &dataawscccloudfrontconnectionfunctions.DataAwsccCloudfrontConnectionFunctionsConfig {
 	Connection: interface{},

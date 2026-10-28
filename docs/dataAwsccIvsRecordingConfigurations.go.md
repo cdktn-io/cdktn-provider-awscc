@@ -4,12 +4,12 @@
 
 ### DataAwsccIvsRecordingConfigurations <a name="DataAwsccIvsRecordingConfigurations" id="@cdktn/provider-awscc.dataAwsccIvsRecordingConfigurations.DataAwsccIvsRecordingConfigurations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ivs_recording_configurations awscc_ivs_recording_configurations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ivs_recording_configurations awscc_ivs_recording_configurations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIvsRecordingConfigurations.DataAwsccIvsRecordingConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsrecordingconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsrecordingconfigurations"
 
 dataawsccivsrecordingconfigurations.NewDataAwsccIvsRecordingConfigurations(scope Construct, id *string, config DataAwsccIvsRecordingConfigurationsConfig) DataAwsccIvsRecordingConfigurations
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIvsRecordingConfigurations.DataAwsccIvsRecordingConfigurations.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsrecordingconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsrecordingconfigurations"
 
 dataawsccivsrecordingconfigurations.DataAwsccIvsRecordingConfigurations_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIvsRecordingConfigurations.DataAwsccIvsRecordingConfigurations.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsrecordingconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsrecordingconfigurations"
 
 dataawsccivsrecordingconfigurations.DataAwsccIvsRecordingConfigurations_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccivsrecordingconfigurations.DataAwsccIvsRecordingConfigurations_IsTerraf
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIvsRecordingConfigurations.DataAwsccIvsRecordingConfigurations.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsrecordingconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsrecordingconfigurations"
 
 dataawsccivsrecordingconfigurations.DataAwsccIvsRecordingConfigurations_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccivsrecordingconfigurations.DataAwsccIvsRecordingConfigurations_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIvsRecordingConfigurations.DataAwsccIvsRecordingConfigurations.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsrecordingconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsrecordingconfigurations"
 
 dataawsccivsrecordingconfigurations.DataAwsccIvsRecordingConfigurations_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIvsRecordingConfi
 
 The id of the existing DataAwsccIvsRecordingConfigurations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ivs_recording_configurations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ivs_recording_configurations#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIvsRecordingConfigurations.DataAwsccIvsRecordingConfigurationsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsrecordingconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsrecordingconfigurations"
 
 &dataawsccivsrecordingconfigurations.DataAwsccIvsRecordingConfigurationsConfig {
 	Connection: interface{},

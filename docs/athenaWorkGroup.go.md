@@ -4,12 +4,12 @@
 
 ### AthenaWorkGroup <a name="AthenaWorkGroup" id="@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group awscc_athena_work_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group awscc_athena_work_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenaworkgroup"
 
 athenaworkgroup.NewAthenaWorkGroup(scope Construct, id *string, config AthenaWorkGroupConfig) AthenaWorkGroup
 ```
@@ -481,7 +481,7 @@ func ResetWorkGroupConfigurationUpdates()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroup.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenaworkgroup"
 
 athenaworkgroup.AthenaWorkGroup_IsConstruct(x interface{}) *bool
 ```
@@ -513,7 +513,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroup.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenaworkgroup"
 
 athenaworkgroup.AthenaWorkGroup_IsTerraformElement(x interface{}) *bool
 ```
@@ -527,7 +527,7 @@ athenaworkgroup.AthenaWorkGroup_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroup.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenaworkgroup"
 
 athenaworkgroup.AthenaWorkGroup_IsTerraformResource(x interface{}) *bool
 ```
@@ -541,7 +541,7 @@ athenaworkgroup.AthenaWorkGroup_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroup.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenaworkgroup"
 
 athenaworkgroup.AthenaWorkGroup_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -570,7 +570,7 @@ The construct id used in the generated config for the AthenaWorkGroup to import.
 
 The id of the existing AthenaWorkGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -946,7 +946,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenaworkgroup"
 
 &athenaworkgroup.AthenaWorkGroupConfig {
 	Connection: interface{},
@@ -961,8 +961,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
 	RecursiveDeleteOption: interface{},
 	State: *string,
 	Tags: interface{},
-	WorkGroupConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfiguration,
-	WorkGroupConfigurationUpdates: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdates,
+	WorkGroupConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.athenaWorkGroup.AthenaWorkGroupWorkGroupConfiguration,
+	WorkGroupConfigurationUpdates: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdates,
 }
 ```
 
@@ -1067,7 +1067,7 @@ Name *string
 
 The workGroup name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#name AthenaWorkGroup#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#name AthenaWorkGroup#name}
 
 ---
 
@@ -1081,7 +1081,7 @@ Description *string
 
 The workgroup description.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#description AthenaWorkGroup#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#description AthenaWorkGroup#description}
 
 ---
 
@@ -1095,7 +1095,7 @@ RecursiveDeleteOption interface{}
 
 The option to delete the workgroup and its contents even if the workgroup contains any named queries.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#recursive_delete_option AthenaWorkGroup#recursive_delete_option}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#recursive_delete_option AthenaWorkGroup#recursive_delete_option}
 
 ---
 
@@ -1109,7 +1109,7 @@ State *string
 
 The state of the workgroup: ENABLED or DISABLED.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#state AthenaWorkGroup#state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#state AthenaWorkGroup#state}
 
 ---
 
@@ -1123,7 +1123,7 @@ Tags interface{}
 
 One or more tags, separated by commas, that you want to attach to the workgroup as you create it.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#tags AthenaWorkGroup#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#tags AthenaWorkGroup#tags}
 
 ---
 
@@ -1137,7 +1137,7 @@ WorkGroupConfiguration AthenaWorkGroupWorkGroupConfiguration
 
 The workgroup configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#work_group_configuration AthenaWorkGroup#work_group_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#work_group_configuration AthenaWorkGroup#work_group_configuration}
 
 ---
 
@@ -1151,7 +1151,7 @@ WorkGroupConfigurationUpdates AthenaWorkGroupWorkGroupConfigurationUpdates
 
 The workgroup configuration update object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#work_group_configuration_updates AthenaWorkGroup#work_group_configuration_updates}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#work_group_configuration_updates AthenaWorkGroup#work_group_configuration_updates}
 
 ---
 
@@ -1160,7 +1160,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenaworkgroup"
 
 &athenaworkgroup.AthenaWorkGroupTags {
 	Key: *string,
@@ -1172,8 +1172,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#key AthenaWorkGroup#key}. |
-| <code><a href="#@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#value AthenaWorkGroup#value}. |
+| <code><a href="#@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#key AthenaWorkGroup#key}. |
+| <code><a href="#@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#value AthenaWorkGroup#value}. |
 
 ---
 
@@ -1185,7 +1185,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#key AthenaWorkGroup#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#key AthenaWorkGroup#key}.
 
 ---
 
@@ -1197,7 +1197,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#value AthenaWorkGroup#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#value AthenaWorkGroup#value}.
 
 ---
 
@@ -1206,21 +1206,21 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenaworkgroup"
 
 &athenaworkgroup.AthenaWorkGroupWorkGroupConfiguration {
 	AdditionalConfiguration: *string,
 	BytesScannedCutoffPerQuery: *f64,
-	CustomerContentEncryptionConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationCustomerContentEncryptionConfiguration,
+	CustomerContentEncryptionConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationCustomerContentEncryptionConfiguration,
 	EnforceWorkGroupConfiguration: interface{},
-	EngineConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationEngineConfiguration,
-	EngineVersion: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationEngineVersion,
+	EngineConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationEngineConfiguration,
+	EngineVersion: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationEngineVersion,
 	ExecutionRole: *string,
-	ManagedQueryResultsConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationManagedQueryResultsConfiguration,
-	MonitoringConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationMonitoringConfiguration,
+	ManagedQueryResultsConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationManagedQueryResultsConfiguration,
+	MonitoringConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationMonitoringConfiguration,
 	PublishCloudwatchMetricsEnabled: interface{},
 	RequesterPaysEnabled: interface{},
-	ResultConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationResultConfiguration,
+	ResultConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationResultConfiguration,
 }
 ```
 
@@ -1253,7 +1253,7 @@ AdditionalConfiguration *string
 
 Additional Configuration that are passed to Athena Spark Calculations running in this workgroup.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#additional_configuration AthenaWorkGroup#additional_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#additional_configuration AthenaWorkGroup#additional_configuration}
 
 ---
 
@@ -1267,7 +1267,7 @@ BytesScannedCutoffPerQuery *f64
 
 The upper data usage limit (cutoff) for the amount of bytes a single query in a workgroup is allowed to scan.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#bytes_scanned_cutoff_per_query AthenaWorkGroup#bytes_scanned_cutoff_per_query}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#bytes_scanned_cutoff_per_query AthenaWorkGroup#bytes_scanned_cutoff_per_query}
 
 ---
 
@@ -1281,7 +1281,7 @@ CustomerContentEncryptionConfiguration AthenaWorkGroupWorkGroupConfigurationCust
 
 Indicates the KMS key for encrypting notebook content.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#customer_content_encryption_configuration AthenaWorkGroup#customer_content_encryption_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#customer_content_encryption_configuration AthenaWorkGroup#customer_content_encryption_configuration}
 
 ---
 
@@ -1297,7 +1297,7 @@ If set to "true", the settings for the workgroup override client-side settings.
 
 If set to "false", client-side settings are used
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#enforce_work_group_configuration AthenaWorkGroup#enforce_work_group_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#enforce_work_group_configuration AthenaWorkGroup#enforce_work_group_configuration}
 
 ---
 
@@ -1311,7 +1311,7 @@ EngineConfiguration AthenaWorkGroupWorkGroupConfigurationEngineConfiguration
 
 The engine configuration for running queries.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#engine_configuration AthenaWorkGroup#engine_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#engine_configuration AthenaWorkGroup#engine_configuration}
 
 ---
 
@@ -1325,7 +1325,7 @@ EngineVersion AthenaWorkGroupWorkGroupConfigurationEngineVersion
 
 The Athena engine version for running queries.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#engine_version AthenaWorkGroup#engine_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#engine_version AthenaWorkGroup#engine_version}
 
 ---
 
@@ -1341,7 +1341,7 @@ The ARN of the execution role used to access user resources for Spark sessions a
 
 This property applies only to Spark enabled workgroups and Identity Center enabled workgroups.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#execution_role AthenaWorkGroup#execution_role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#execution_role AthenaWorkGroup#execution_role}
 
 ---
 
@@ -1357,7 +1357,7 @@ The configuration for the managed query results and encryption option.
 
 ResultConfiguration and ManagedQueryResultsConfiguration cannot be set at the same time
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#managed_query_results_configuration AthenaWorkGroup#managed_query_results_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#managed_query_results_configuration AthenaWorkGroup#managed_query_results_configuration}
 
 ---
 
@@ -1371,7 +1371,7 @@ MonitoringConfiguration AthenaWorkGroupWorkGroupConfigurationMonitoringConfigura
 
 Contains the configuration settings for managed log persistence, delivering logs to Amazon S3 buckets, Amazon CloudWatch log groups etc.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#monitoring_configuration AthenaWorkGroup#monitoring_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#monitoring_configuration AthenaWorkGroup#monitoring_configuration}
 
 ---
 
@@ -1385,7 +1385,7 @@ PublishCloudwatchMetricsEnabled interface{}
 
 Indicates that the Amazon CloudWatch metrics are enabled for the workgroup.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#publish_cloudwatch_metrics_enabled AthenaWorkGroup#publish_cloudwatch_metrics_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#publish_cloudwatch_metrics_enabled AthenaWorkGroup#publish_cloudwatch_metrics_enabled}
 
 ---
 
@@ -1401,7 +1401,7 @@ If set to true, allows members assigned to a workgroup to reference Amazon S3 Re
 
 If set to false, workgroup members cannot query data from Requester Pays buckets, and queries that retrieve data from Requester Pays buckets cause an error.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#requester_pays_enabled AthenaWorkGroup#requester_pays_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#requester_pays_enabled AthenaWorkGroup#requester_pays_enabled}
 
 ---
 
@@ -1417,7 +1417,7 @@ The location in Amazon S3 where query results are stored and the encryption opti
 
 These are known as "client-side settings". If workgroup settings override client-side settings, then the query uses the workgroup settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#result_configuration AthenaWorkGroup#result_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#result_configuration AthenaWorkGroup#result_configuration}
 
 ---
 
@@ -1426,7 +1426,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationCustomerContentEncryptionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenaworkgroup"
 
 &athenaworkgroup.AthenaWorkGroupWorkGroupConfigurationCustomerContentEncryptionConfiguration {
 	KmsKey: *string,
@@ -1451,7 +1451,7 @@ KmsKey *string
 
 For SSE-KMS and CSE-KMS, this is the KMS key ARN or ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#kms_key AthenaWorkGroup#kms_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#kms_key AthenaWorkGroup#kms_key}
 
 ---
 
@@ -1460,7 +1460,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationEngineConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenaworkgroup"
 
 &athenaworkgroup.AthenaWorkGroupWorkGroupConfigurationEngineConfiguration {
 	AdditionalConfigs: *map[string]*string,
@@ -1497,7 +1497,7 @@ Contains additional notebook engine MAP<string, string> parameter mappings in th
 
 To specify an Athena notebook that the Jupyter server will download and serve, specify a value for the StartSessionRequest$NotebookVersion field, and then add a key named NotebookId to AdditionalConfigs that has the value of the Athena notebook ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#additional_configs AthenaWorkGroup#additional_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#additional_configs AthenaWorkGroup#additional_configs}
 
 ---
 
@@ -1511,7 +1511,7 @@ Classifications interface{}
 
 The configuration classifications that can be specified for the engine.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#classifications AthenaWorkGroup#classifications}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#classifications AthenaWorkGroup#classifications}
 
 ---
 
@@ -1527,7 +1527,7 @@ The number of DPUs to use for the coordinator.
 
 A coordinator is a special executor that orchestrates processing work and manages other executors in a notebook session. The default is 1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#coordinator_dpu_size AthenaWorkGroup#coordinator_dpu_size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#coordinator_dpu_size AthenaWorkGroup#coordinator_dpu_size}
 
 ---
 
@@ -1543,7 +1543,7 @@ The default number of DPUs to use for executors.
 
 An executor is the smallest unit of compute that a notebook session can request from Athena. The default is 1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#default_executor_dpu_size AthenaWorkGroup#default_executor_dpu_size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#default_executor_dpu_size AthenaWorkGroup#default_executor_dpu_size}
 
 ---
 
@@ -1557,7 +1557,7 @@ MaxConcurrentDpus *f64
 
 The maximum number of DPUs that can run concurrently.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#max_concurrent_dpus AthenaWorkGroup#max_concurrent_dpus}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#max_concurrent_dpus AthenaWorkGroup#max_concurrent_dpus}
 
 ---
 
@@ -1571,7 +1571,7 @@ SparkProperties *map[string]*string
 
 Specifies custom jar files and Spark properties for use cases like cluster encryption, table formats, and general Spark tuning.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#spark_properties AthenaWorkGroup#spark_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#spark_properties AthenaWorkGroup#spark_properties}
 
 ---
 
@@ -1580,7 +1580,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationEngineConfigurationClassifications.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenaworkgroup"
 
 &athenaworkgroup.AthenaWorkGroupWorkGroupConfigurationEngineConfigurationClassifications {
 	Name: *string,
@@ -1607,7 +1607,7 @@ Name *string
 
 The name of the configuration classification.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#name AthenaWorkGroup#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#name AthenaWorkGroup#name}
 
 ---
 
@@ -1621,7 +1621,7 @@ Properties *map[string]*string
 
 A set of properties specified within a configuration classification.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#properties AthenaWorkGroup#properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#properties AthenaWorkGroup#properties}
 
 ---
 
@@ -1630,7 +1630,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationEngineVersion.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenaworkgroup"
 
 &athenaworkgroup.AthenaWorkGroupWorkGroupConfigurationEngineVersion {
 	SelectedEngineVersion: *string,
@@ -1657,7 +1657,7 @@ The engine version requested by the user.
 
 Possible values are determined by the output of ListEngineVersions, including Auto. The default is Auto.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#selected_engine_version AthenaWorkGroup#selected_engine_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#selected_engine_version AthenaWorkGroup#selected_engine_version}
 
 ---
 
@@ -1666,11 +1666,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationManagedQueryResultsConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenaworkgroup"
 
 &athenaworkgroup.AthenaWorkGroupWorkGroupConfigurationManagedQueryResultsConfiguration {
 	Enabled: interface{},
-	EncryptionConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationManagedQueryResultsConfigurationEncryptionConfiguration,
+	EncryptionConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationManagedQueryResultsConfigurationEncryptionConfiguration,
 }
 ```
 
@@ -1678,7 +1678,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationManagedQueryResultsConfiguration.property.enabled">Enabled</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#enabled AthenaWorkGroup#enabled}. |
+| <code><a href="#@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationManagedQueryResultsConfiguration.property.enabled">Enabled</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#enabled AthenaWorkGroup#enabled}. |
 | <code><a href="#@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationManagedQueryResultsConfiguration.property.encryptionConfiguration">EncryptionConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationManagedQueryResultsConfigurationEncryptionConfiguration">AthenaWorkGroupWorkGroupConfigurationManagedQueryResultsConfigurationEncryptionConfiguration</a></code> | Indicates the encryption configuration for Athena Managed Storage. |
 
 ---
@@ -1691,7 +1691,7 @@ Enabled interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#enabled AthenaWorkGroup#enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#enabled AthenaWorkGroup#enabled}.
 
 ---
 
@@ -1707,7 +1707,7 @@ Indicates the encryption configuration for Athena Managed Storage.
 
 If not setting this field, Managed Storage will encrypt the query results with Athena's encryption key
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#encryption_configuration AthenaWorkGroup#encryption_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#encryption_configuration AthenaWorkGroup#encryption_configuration}
 
 ---
 
@@ -1716,7 +1716,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationManagedQueryResultsConfigurationEncryptionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenaworkgroup"
 
 &athenaworkgroup.AthenaWorkGroupWorkGroupConfigurationManagedQueryResultsConfigurationEncryptionConfiguration {
 	KmsKey: *string,
@@ -1741,7 +1741,7 @@ KmsKey *string
 
 For SSE-KMS and CSE-KMS, this is the KMS key ARN or ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#kms_key AthenaWorkGroup#kms_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#kms_key AthenaWorkGroup#kms_key}
 
 ---
 
@@ -1750,12 +1750,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationMonitoringConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenaworkgroup"
 
 &athenaworkgroup.AthenaWorkGroupWorkGroupConfigurationMonitoringConfiguration {
-	CloudwatchLoggingConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationMonitoringConfigurationCloudwatchLoggingConfiguration,
-	ManagedLoggingConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationMonitoringConfigurationManagedLoggingConfiguration,
-	S3LoggingConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationMonitoringConfigurationS3LoggingConfiguration,
+	CloudwatchLoggingConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationMonitoringConfigurationCloudwatchLoggingConfiguration,
+	ManagedLoggingConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationMonitoringConfigurationManagedLoggingConfiguration,
+	S3LoggingConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationMonitoringConfigurationS3LoggingConfiguration,
 }
 ```
 
@@ -1779,7 +1779,7 @@ CloudwatchLoggingConfiguration AthenaWorkGroupWorkGroupConfigurationMonitoringCo
 
 Configuration settings for delivering logs to Amazon CloudWatch log groups.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#cloudwatch_logging_configuration AthenaWorkGroup#cloudwatch_logging_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#cloudwatch_logging_configuration AthenaWorkGroup#cloudwatch_logging_configuration}
 
 ---
 
@@ -1793,7 +1793,7 @@ ManagedLoggingConfiguration AthenaWorkGroupWorkGroupConfigurationMonitoringConfi
 
 Configuration settings for managed log persistence.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#managed_logging_configuration AthenaWorkGroup#managed_logging_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#managed_logging_configuration AthenaWorkGroup#managed_logging_configuration}
 
 ---
 
@@ -1807,7 +1807,7 @@ S3LoggingConfiguration AthenaWorkGroupWorkGroupConfigurationMonitoringConfigurat
 
 Configuration settings for delivering logs to Amazon S3 buckets.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#s3_logging_configuration AthenaWorkGroup#s3_logging_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#s3_logging_configuration AthenaWorkGroup#s3_logging_configuration}
 
 ---
 
@@ -1816,7 +1816,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationMonitoringConfigurationCloudwatchLoggingConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenaworkgroup"
 
 &athenaworkgroup.AthenaWorkGroupWorkGroupConfigurationMonitoringConfigurationCloudwatchLoggingConfiguration {
 	Enabled: interface{},
@@ -1847,7 +1847,7 @@ Enabled interface{}
 
 Enables CloudWatch logging.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#enabled AthenaWorkGroup#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#enabled AthenaWorkGroup#enabled}
 
 ---
 
@@ -1861,7 +1861,7 @@ LogGroup *string
 
 The name of the log group in Amazon CloudWatch Logs where you want to publish your logs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#log_group AthenaWorkGroup#log_group}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#log_group AthenaWorkGroup#log_group}
 
 ---
 
@@ -1875,7 +1875,7 @@ LogStreamNamePrefix *string
 
 Prefix for the CloudWatch log stream name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#log_stream_name_prefix AthenaWorkGroup#log_stream_name_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#log_stream_name_prefix AthenaWorkGroup#log_stream_name_prefix}
 
 ---
 
@@ -1889,7 +1889,7 @@ LogTypes interface{}
 
 The types of logs that you want to publish to CloudWatch.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#log_types AthenaWorkGroup#log_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#log_types AthenaWorkGroup#log_types}
 
 ---
 
@@ -1898,7 +1898,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationMonitoringConfigurationManagedLoggingConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenaworkgroup"
 
 &athenaworkgroup.AthenaWorkGroupWorkGroupConfigurationMonitoringConfigurationManagedLoggingConfiguration {
 	Enabled: interface{},
@@ -1925,7 +1925,7 @@ Enabled interface{}
 
 Enables managed log persistence.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#enabled AthenaWorkGroup#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#enabled AthenaWorkGroup#enabled}
 
 ---
 
@@ -1939,7 +1939,7 @@ KmsKey *string
 
 The KMS key ARN to encrypt the logs stored in managed log persistence.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#kms_key AthenaWorkGroup#kms_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#kms_key AthenaWorkGroup#kms_key}
 
 ---
 
@@ -1948,7 +1948,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationMonitoringConfigurationS3LoggingConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenaworkgroup"
 
 &athenaworkgroup.AthenaWorkGroupWorkGroupConfigurationMonitoringConfigurationS3LoggingConfiguration {
 	Enabled: interface{},
@@ -1977,7 +1977,7 @@ Enabled interface{}
 
 Enables S3 log delivery.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#enabled AthenaWorkGroup#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#enabled AthenaWorkGroup#enabled}
 
 ---
 
@@ -1991,7 +1991,7 @@ KmsKey *string
 
 The KMS key ARN to encrypt the logs published to the given Amazon S3 destination.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#kms_key AthenaWorkGroup#kms_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#kms_key AthenaWorkGroup#kms_key}
 
 ---
 
@@ -2005,7 +2005,7 @@ LogLocation *string
 
 The Amazon S3 destination URI for log publishing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#log_location AthenaWorkGroup#log_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#log_location AthenaWorkGroup#log_location}
 
 ---
 
@@ -2014,11 +2014,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationResultConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenaworkgroup"
 
 &athenaworkgroup.AthenaWorkGroupWorkGroupConfigurationResultConfiguration {
-	AclConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationResultConfigurationAclConfiguration,
-	EncryptionConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationResultConfigurationEncryptionConfiguration,
+	AclConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationResultConfigurationAclConfiguration,
+	EncryptionConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationResultConfigurationEncryptionConfiguration,
 	ExpectedBucketOwner: *string,
 	OutputLocation: *string,
 }
@@ -2045,7 +2045,7 @@ AclConfiguration AthenaWorkGroupWorkGroupConfigurationResultConfigurationAclConf
 
 Indicates that an Amazon S3 canned ACL should be set to control ownership of stored query results.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#acl_configuration AthenaWorkGroup#acl_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#acl_configuration AthenaWorkGroup#acl_configuration}
 
 ---
 
@@ -2059,7 +2059,7 @@ EncryptionConfiguration AthenaWorkGroupWorkGroupConfigurationResultConfiguration
 
 If query results are encrypted in Amazon S3, indicates the encryption option used (for example, SSE-KMS or CSE-KMS) and key information.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#encryption_configuration AthenaWorkGroup#encryption_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#encryption_configuration AthenaWorkGroup#encryption_configuration}
 
 ---
 
@@ -2073,7 +2073,7 @@ ExpectedBucketOwner *string
 
 The AWS account ID of the owner of S3 bucket where query results are stored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#expected_bucket_owner AthenaWorkGroup#expected_bucket_owner}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#expected_bucket_owner AthenaWorkGroup#expected_bucket_owner}
 
 ---
 
@@ -2089,7 +2089,7 @@ The location in Amazon S3 where your query results are stored, such as s3://path
 
 To run the query, you must specify the query results location using one of the ways: either for individual queries using either this setting (client-side), or in the workgroup, using WorkGroupConfiguration
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#output_location AthenaWorkGroup#output_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#output_location AthenaWorkGroup#output_location}
 
 ---
 
@@ -2098,7 +2098,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationResultConfigurationAclConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenaworkgroup"
 
 &athenaworkgroup.AthenaWorkGroupWorkGroupConfigurationResultConfigurationAclConfiguration {
 	S3AclOption: *string,
@@ -2125,7 +2125,7 @@ The Amazon S3 canned ACL that Athena should specify when storing query results.
 
 Currently the only supported canned ACL is BUCKET_OWNER_FULL_CONTROL
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#s3_acl_option AthenaWorkGroup#s3_acl_option}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#s3_acl_option AthenaWorkGroup#s3_acl_option}
 
 ---
 
@@ -2134,7 +2134,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationResultConfigurationEncryptionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenaworkgroup"
 
 &athenaworkgroup.AthenaWorkGroupWorkGroupConfigurationResultConfigurationEncryptionConfiguration {
 	EncryptionOption: *string,
@@ -2161,7 +2161,7 @@ EncryptionOption *string
 
 Indicates whether Amazon S3 server-side encryption with Amazon S3-managed keys (SSE-S3), server-side encryption with KMS-managed keys (SSE-KMS), or client-side encryption with KMS-managed keys (CSE-KMS) is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#encryption_option AthenaWorkGroup#encryption_option}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#encryption_option AthenaWorkGroup#encryption_option}
 
 ---
 
@@ -2175,7 +2175,7 @@ KmsKey *string
 
 For SSE-KMS and CSE-KMS, this is the KMS key ARN or ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#kms_key AthenaWorkGroup#kms_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#kms_key AthenaWorkGroup#kms_key}
 
 ---
 
@@ -2184,23 +2184,23 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdates.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenaworkgroup"
 
 &athenaworkgroup.AthenaWorkGroupWorkGroupConfigurationUpdates {
 	AdditionalConfiguration: *string,
 	BytesScannedCutoffPerQuery: *f64,
-	CustomerContentEncryptionConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdatesCustomerContentEncryptionConfiguration,
+	CustomerContentEncryptionConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdatesCustomerContentEncryptionConfiguration,
 	EnforceWorkGroupConfiguration: interface{},
-	EngineConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdatesEngineConfiguration,
-	EngineVersion: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdatesEngineVersion,
+	EngineConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdatesEngineConfiguration,
+	EngineVersion: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdatesEngineVersion,
 	ExecutionRole: *string,
-	ManagedQueryResultsConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdatesManagedQueryResultsConfiguration,
-	MonitoringConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdatesMonitoringConfiguration,
+	ManagedQueryResultsConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdatesManagedQueryResultsConfiguration,
+	MonitoringConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdatesMonitoringConfiguration,
 	PublishCloudwatchMetricsEnabled: interface{},
 	RemoveBytesScannedCutoffPerQuery: interface{},
 	RemoveCustomerContentEncryptionConfiguration: interface{},
 	RequesterPaysEnabled: interface{},
-	ResultConfigurationUpdates: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdatesResultConfigurationUpdates,
+	ResultConfigurationUpdates: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdatesResultConfigurationUpdates,
 }
 ```
 
@@ -2219,7 +2219,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
 | <code><a href="#@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdates.property.monitoringConfiguration">MonitoringConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdatesMonitoringConfiguration">AthenaWorkGroupWorkGroupConfigurationUpdatesMonitoringConfiguration</a></code> | Contains the configuration settings for managed log persistence, delivering logs to Amazon S3 buckets, Amazon CloudWatch log groups etc. |
 | <code><a href="#@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdates.property.publishCloudwatchMetricsEnabled">PublishCloudwatchMetricsEnabled</a></code> | <code>interface{}</code> | Indicates that the Amazon CloudWatch metrics are enabled for the workgroup. |
 | <code><a href="#@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdates.property.removeBytesScannedCutoffPerQuery">RemoveBytesScannedCutoffPerQuery</a></code> | <code>interface{}</code> | Indicates that the data usage control limit per query is removed. |
-| <code><a href="#@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdates.property.removeCustomerContentEncryptionConfiguration">RemoveCustomerContentEncryptionConfiguration</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#remove_customer_content_encryption_configuration AthenaWorkGroup#remove_customer_content_encryption_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdates.property.removeCustomerContentEncryptionConfiguration">RemoveCustomerContentEncryptionConfiguration</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#remove_customer_content_encryption_configuration AthenaWorkGroup#remove_customer_content_encryption_configuration}. |
 | <code><a href="#@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdates.property.requesterPaysEnabled">RequesterPaysEnabled</a></code> | <code>interface{}</code> | If set to true, allows members assigned to a workgroup to reference Amazon S3 Requester Pays buckets in queries. |
 | <code><a href="#@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdates.property.resultConfigurationUpdates">ResultConfigurationUpdates</a></code> | <code><a href="#@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdatesResultConfigurationUpdates">AthenaWorkGroupWorkGroupConfigurationUpdatesResultConfigurationUpdates</a></code> | The result configuration information about the queries in this workgroup that will be updated. |
 
@@ -2235,7 +2235,7 @@ AdditionalConfiguration *string
 
 Additional Configuration that are passed to Athena Spark Calculations running in this workgroup.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#additional_configuration AthenaWorkGroup#additional_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#additional_configuration AthenaWorkGroup#additional_configuration}
 
 ---
 
@@ -2249,7 +2249,7 @@ BytesScannedCutoffPerQuery *f64
 
 The upper data usage limit (cutoff) for the amount of bytes a single query in a workgroup is allowed to scan.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#bytes_scanned_cutoff_per_query AthenaWorkGroup#bytes_scanned_cutoff_per_query}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#bytes_scanned_cutoff_per_query AthenaWorkGroup#bytes_scanned_cutoff_per_query}
 
 ---
 
@@ -2263,7 +2263,7 @@ CustomerContentEncryptionConfiguration AthenaWorkGroupWorkGroupConfigurationUpda
 
 Indicates the KMS key for encrypting notebook content.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#customer_content_encryption_configuration AthenaWorkGroup#customer_content_encryption_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#customer_content_encryption_configuration AthenaWorkGroup#customer_content_encryption_configuration}
 
 ---
 
@@ -2279,7 +2279,7 @@ If set to "true", the settings for the workgroup override client-side settings.
 
 If set to "false", client-side settings are used
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#enforce_work_group_configuration AthenaWorkGroup#enforce_work_group_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#enforce_work_group_configuration AthenaWorkGroup#enforce_work_group_configuration}
 
 ---
 
@@ -2293,7 +2293,7 @@ EngineConfiguration AthenaWorkGroupWorkGroupConfigurationUpdatesEngineConfigurat
 
 The engine configuration for running queries.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#engine_configuration AthenaWorkGroup#engine_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#engine_configuration AthenaWorkGroup#engine_configuration}
 
 ---
 
@@ -2307,7 +2307,7 @@ EngineVersion AthenaWorkGroupWorkGroupConfigurationUpdatesEngineVersion
 
 The Athena engine version for running queries.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#engine_version AthenaWorkGroup#engine_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#engine_version AthenaWorkGroup#engine_version}
 
 ---
 
@@ -2323,7 +2323,7 @@ The ARN of the execution role used to access user resources for Spark sessions a
 
 This property applies only to Spark enabled workgroups and Identity Center enabled workgroups.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#execution_role AthenaWorkGroup#execution_role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#execution_role AthenaWorkGroup#execution_role}
 
 ---
 
@@ -2339,7 +2339,7 @@ The configuration for the managed query results and encryption option.
 
 ResultConfiguration and ManagedQueryResultsConfiguration cannot be set at the same time
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#managed_query_results_configuration AthenaWorkGroup#managed_query_results_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#managed_query_results_configuration AthenaWorkGroup#managed_query_results_configuration}
 
 ---
 
@@ -2353,7 +2353,7 @@ MonitoringConfiguration AthenaWorkGroupWorkGroupConfigurationUpdatesMonitoringCo
 
 Contains the configuration settings for managed log persistence, delivering logs to Amazon S3 buckets, Amazon CloudWatch log groups etc.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#monitoring_configuration AthenaWorkGroup#monitoring_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#monitoring_configuration AthenaWorkGroup#monitoring_configuration}
 
 ---
 
@@ -2367,7 +2367,7 @@ PublishCloudwatchMetricsEnabled interface{}
 
 Indicates that the Amazon CloudWatch metrics are enabled for the workgroup.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#publish_cloudwatch_metrics_enabled AthenaWorkGroup#publish_cloudwatch_metrics_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#publish_cloudwatch_metrics_enabled AthenaWorkGroup#publish_cloudwatch_metrics_enabled}
 
 ---
 
@@ -2381,7 +2381,7 @@ RemoveBytesScannedCutoffPerQuery interface{}
 
 Indicates that the data usage control limit per query is removed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#remove_bytes_scanned_cutoff_per_query AthenaWorkGroup#remove_bytes_scanned_cutoff_per_query}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#remove_bytes_scanned_cutoff_per_query AthenaWorkGroup#remove_bytes_scanned_cutoff_per_query}
 
 ---
 
@@ -2393,7 +2393,7 @@ RemoveCustomerContentEncryptionConfiguration interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#remove_customer_content_encryption_configuration AthenaWorkGroup#remove_customer_content_encryption_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#remove_customer_content_encryption_configuration AthenaWorkGroup#remove_customer_content_encryption_configuration}.
 
 ---
 
@@ -2409,7 +2409,7 @@ If set to true, allows members assigned to a workgroup to reference Amazon S3 Re
 
 If set to false, workgroup members cannot query data from Requester Pays buckets, and queries that retrieve data from Requester Pays buckets cause an error.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#requester_pays_enabled AthenaWorkGroup#requester_pays_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#requester_pays_enabled AthenaWorkGroup#requester_pays_enabled}
 
 ---
 
@@ -2425,7 +2425,7 @@ The result configuration information about the queries in this workgroup that wi
 
 Includes the updated results location and an updated option for encrypting query results.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#result_configuration_updates AthenaWorkGroup#result_configuration_updates}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#result_configuration_updates AthenaWorkGroup#result_configuration_updates}
 
 ---
 
@@ -2434,7 +2434,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdatesCustomerContentEncryptionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenaworkgroup"
 
 &athenaworkgroup.AthenaWorkGroupWorkGroupConfigurationUpdatesCustomerContentEncryptionConfiguration {
 	KmsKey: *string,
@@ -2459,7 +2459,7 @@ KmsKey *string
 
 For SSE-KMS and CSE-KMS, this is the KMS key ARN or ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#kms_key AthenaWorkGroup#kms_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#kms_key AthenaWorkGroup#kms_key}
 
 ---
 
@@ -2468,7 +2468,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdatesEngineConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenaworkgroup"
 
 &athenaworkgroup.AthenaWorkGroupWorkGroupConfigurationUpdatesEngineConfiguration {
 	AdditionalConfigs: *map[string]*string,
@@ -2505,7 +2505,7 @@ Contains additional notebook engine MAP<string, string> parameter mappings in th
 
 To specify an Athena notebook that the Jupyter server will download and serve, specify a value for the StartSessionRequest$NotebookVersion field, and then add a key named NotebookId to AdditionalConfigs that has the value of the Athena notebook ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#additional_configs AthenaWorkGroup#additional_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#additional_configs AthenaWorkGroup#additional_configs}
 
 ---
 
@@ -2519,7 +2519,7 @@ Classifications interface{}
 
 The configuration classifications that can be specified for the engine.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#classifications AthenaWorkGroup#classifications}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#classifications AthenaWorkGroup#classifications}
 
 ---
 
@@ -2535,7 +2535,7 @@ The number of DPUs to use for the coordinator.
 
 A coordinator is a special executor that orchestrates processing work and manages other executors in a notebook session. The default is 1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#coordinator_dpu_size AthenaWorkGroup#coordinator_dpu_size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#coordinator_dpu_size AthenaWorkGroup#coordinator_dpu_size}
 
 ---
 
@@ -2551,7 +2551,7 @@ The default number of DPUs to use for executors.
 
 An executor is the smallest unit of compute that a notebook session can request from Athena. The default is 1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#default_executor_dpu_size AthenaWorkGroup#default_executor_dpu_size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#default_executor_dpu_size AthenaWorkGroup#default_executor_dpu_size}
 
 ---
 
@@ -2565,7 +2565,7 @@ MaxConcurrentDpus *f64
 
 The maximum number of DPUs that can run concurrently.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#max_concurrent_dpus AthenaWorkGroup#max_concurrent_dpus}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#max_concurrent_dpus AthenaWorkGroup#max_concurrent_dpus}
 
 ---
 
@@ -2579,7 +2579,7 @@ SparkProperties *map[string]*string
 
 Specifies custom jar files and Spark properties for use cases like cluster encryption, table formats, and general Spark tuning.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#spark_properties AthenaWorkGroup#spark_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#spark_properties AthenaWorkGroup#spark_properties}
 
 ---
 
@@ -2588,7 +2588,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdatesEngineConfigurationClassifications.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenaworkgroup"
 
 &athenaworkgroup.AthenaWorkGroupWorkGroupConfigurationUpdatesEngineConfigurationClassifications {
 	Name: *string,
@@ -2615,7 +2615,7 @@ Name *string
 
 The name of the configuration classification.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#name AthenaWorkGroup#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#name AthenaWorkGroup#name}
 
 ---
 
@@ -2629,7 +2629,7 @@ Properties *map[string]*string
 
 A set of properties specified within a configuration classification.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#properties AthenaWorkGroup#properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#properties AthenaWorkGroup#properties}
 
 ---
 
@@ -2638,7 +2638,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdatesEngineVersion.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenaworkgroup"
 
 &athenaworkgroup.AthenaWorkGroupWorkGroupConfigurationUpdatesEngineVersion {
 	SelectedEngineVersion: *string,
@@ -2665,7 +2665,7 @@ The engine version requested by the user.
 
 Possible values are determined by the output of ListEngineVersions, including Auto. The default is Auto.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#selected_engine_version AthenaWorkGroup#selected_engine_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#selected_engine_version AthenaWorkGroup#selected_engine_version}
 
 ---
 
@@ -2674,11 +2674,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdatesManagedQueryResultsConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenaworkgroup"
 
 &athenaworkgroup.AthenaWorkGroupWorkGroupConfigurationUpdatesManagedQueryResultsConfiguration {
 	Enabled: interface{},
-	EncryptionConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdatesManagedQueryResultsConfigurationEncryptionConfiguration,
+	EncryptionConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdatesManagedQueryResultsConfigurationEncryptionConfiguration,
 }
 ```
 
@@ -2686,7 +2686,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdatesManagedQueryResultsConfiguration.property.enabled">Enabled</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#enabled AthenaWorkGroup#enabled}. |
+| <code><a href="#@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdatesManagedQueryResultsConfiguration.property.enabled">Enabled</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#enabled AthenaWorkGroup#enabled}. |
 | <code><a href="#@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdatesManagedQueryResultsConfiguration.property.encryptionConfiguration">EncryptionConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdatesManagedQueryResultsConfigurationEncryptionConfiguration">AthenaWorkGroupWorkGroupConfigurationUpdatesManagedQueryResultsConfigurationEncryptionConfiguration</a></code> | Indicates the encryption configuration for Athena Managed Storage. |
 
 ---
@@ -2699,7 +2699,7 @@ Enabled interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#enabled AthenaWorkGroup#enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#enabled AthenaWorkGroup#enabled}.
 
 ---
 
@@ -2715,7 +2715,7 @@ Indicates the encryption configuration for Athena Managed Storage.
 
 If not setting this field, Managed Storage will encrypt the query results with Athena's encryption key
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#encryption_configuration AthenaWorkGroup#encryption_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#encryption_configuration AthenaWorkGroup#encryption_configuration}
 
 ---
 
@@ -2724,7 +2724,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdatesManagedQueryResultsConfigurationEncryptionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenaworkgroup"
 
 &athenaworkgroup.AthenaWorkGroupWorkGroupConfigurationUpdatesManagedQueryResultsConfigurationEncryptionConfiguration {
 	KmsKey: *string,
@@ -2749,7 +2749,7 @@ KmsKey *string
 
 For SSE-KMS and CSE-KMS, this is the KMS key ARN or ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#kms_key AthenaWorkGroup#kms_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#kms_key AthenaWorkGroup#kms_key}
 
 ---
 
@@ -2758,12 +2758,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdatesMonitoringConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenaworkgroup"
 
 &athenaworkgroup.AthenaWorkGroupWorkGroupConfigurationUpdatesMonitoringConfiguration {
-	CloudwatchLoggingConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdatesMonitoringConfigurationCloudwatchLoggingConfiguration,
-	ManagedLoggingConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdatesMonitoringConfigurationManagedLoggingConfiguration,
-	S3LoggingConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdatesMonitoringConfigurationS3LoggingConfiguration,
+	CloudwatchLoggingConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdatesMonitoringConfigurationCloudwatchLoggingConfiguration,
+	ManagedLoggingConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdatesMonitoringConfigurationManagedLoggingConfiguration,
+	S3LoggingConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdatesMonitoringConfigurationS3LoggingConfiguration,
 }
 ```
 
@@ -2787,7 +2787,7 @@ CloudwatchLoggingConfiguration AthenaWorkGroupWorkGroupConfigurationUpdatesMonit
 
 Configuration settings for delivering logs to Amazon CloudWatch log groups.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#cloudwatch_logging_configuration AthenaWorkGroup#cloudwatch_logging_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#cloudwatch_logging_configuration AthenaWorkGroup#cloudwatch_logging_configuration}
 
 ---
 
@@ -2801,7 +2801,7 @@ ManagedLoggingConfiguration AthenaWorkGroupWorkGroupConfigurationUpdatesMonitori
 
 Configuration settings for managed log persistence.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#managed_logging_configuration AthenaWorkGroup#managed_logging_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#managed_logging_configuration AthenaWorkGroup#managed_logging_configuration}
 
 ---
 
@@ -2815,7 +2815,7 @@ S3LoggingConfiguration AthenaWorkGroupWorkGroupConfigurationUpdatesMonitoringCon
 
 Configuration settings for delivering logs to Amazon S3 buckets.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#s3_logging_configuration AthenaWorkGroup#s3_logging_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#s3_logging_configuration AthenaWorkGroup#s3_logging_configuration}
 
 ---
 
@@ -2824,7 +2824,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdatesMonitoringConfigurationCloudwatchLoggingConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenaworkgroup"
 
 &athenaworkgroup.AthenaWorkGroupWorkGroupConfigurationUpdatesMonitoringConfigurationCloudwatchLoggingConfiguration {
 	Enabled: interface{},
@@ -2855,7 +2855,7 @@ Enabled interface{}
 
 Enables CloudWatch logging.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#enabled AthenaWorkGroup#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#enabled AthenaWorkGroup#enabled}
 
 ---
 
@@ -2869,7 +2869,7 @@ LogGroup *string
 
 The name of the log group in Amazon CloudWatch Logs where you want to publish your logs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#log_group AthenaWorkGroup#log_group}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#log_group AthenaWorkGroup#log_group}
 
 ---
 
@@ -2883,7 +2883,7 @@ LogStreamNamePrefix *string
 
 Prefix for the CloudWatch log stream name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#log_stream_name_prefix AthenaWorkGroup#log_stream_name_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#log_stream_name_prefix AthenaWorkGroup#log_stream_name_prefix}
 
 ---
 
@@ -2897,7 +2897,7 @@ LogTypes interface{}
 
 The types of logs that you want to publish to CloudWatch.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#log_types AthenaWorkGroup#log_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#log_types AthenaWorkGroup#log_types}
 
 ---
 
@@ -2906,7 +2906,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdatesMonitoringConfigurationManagedLoggingConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenaworkgroup"
 
 &athenaworkgroup.AthenaWorkGroupWorkGroupConfigurationUpdatesMonitoringConfigurationManagedLoggingConfiguration {
 	Enabled: interface{},
@@ -2933,7 +2933,7 @@ Enabled interface{}
 
 Enables managed log persistence.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#enabled AthenaWorkGroup#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#enabled AthenaWorkGroup#enabled}
 
 ---
 
@@ -2947,7 +2947,7 @@ KmsKey *string
 
 The KMS key ARN to encrypt the logs stored in managed log persistence.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#kms_key AthenaWorkGroup#kms_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#kms_key AthenaWorkGroup#kms_key}
 
 ---
 
@@ -2956,7 +2956,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdatesMonitoringConfigurationS3LoggingConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenaworkgroup"
 
 &athenaworkgroup.AthenaWorkGroupWorkGroupConfigurationUpdatesMonitoringConfigurationS3LoggingConfiguration {
 	Enabled: interface{},
@@ -2985,7 +2985,7 @@ Enabled interface{}
 
 Enables S3 log delivery.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#enabled AthenaWorkGroup#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#enabled AthenaWorkGroup#enabled}
 
 ---
 
@@ -2999,7 +2999,7 @@ KmsKey *string
 
 The KMS key ARN to encrypt the logs published to the given Amazon S3 destination.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#kms_key AthenaWorkGroup#kms_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#kms_key AthenaWorkGroup#kms_key}
 
 ---
 
@@ -3013,7 +3013,7 @@ LogLocation *string
 
 The Amazon S3 destination URI for log publishing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#log_location AthenaWorkGroup#log_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#log_location AthenaWorkGroup#log_location}
 
 ---
 
@@ -3022,11 +3022,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdatesResultConfigurationUpdates.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenaworkgroup"
 
 &athenaworkgroup.AthenaWorkGroupWorkGroupConfigurationUpdatesResultConfigurationUpdates {
-	AclConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdatesResultConfigurationUpdatesAclConfiguration,
-	EncryptionConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdatesResultConfigurationUpdatesEncryptionConfiguration,
+	AclConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdatesResultConfigurationUpdatesAclConfiguration,
+	EncryptionConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdatesResultConfigurationUpdatesEncryptionConfiguration,
 	ExpectedBucketOwner: *string,
 	OutputLocation: *string,
 	RemoveAclConfiguration: interface{},
@@ -3044,10 +3044,10 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
 | <code><a href="#@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdatesResultConfigurationUpdates.property.encryptionConfiguration">EncryptionConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdatesResultConfigurationUpdatesEncryptionConfiguration">AthenaWorkGroupWorkGroupConfigurationUpdatesResultConfigurationUpdatesEncryptionConfiguration</a></code> | If query results are encrypted in Amazon S3, indicates the encryption option used (for example, SSE-KMS or CSE-KMS) and key information. |
 | <code><a href="#@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdatesResultConfigurationUpdates.property.expectedBucketOwner">ExpectedBucketOwner</a></code> | <code>*string</code> | The AWS account ID of the owner of S3 bucket where query results are stored. |
 | <code><a href="#@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdatesResultConfigurationUpdates.property.outputLocation">OutputLocation</a></code> | <code>*string</code> | The location in Amazon S3 where your query results are stored, such as s3://path/to/query/bucket/. |
-| <code><a href="#@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdatesResultConfigurationUpdates.property.removeAclConfiguration">RemoveAclConfiguration</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#remove_acl_configuration AthenaWorkGroup#remove_acl_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdatesResultConfigurationUpdates.property.removeEncryptionConfiguration">RemoveEncryptionConfiguration</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#remove_encryption_configuration AthenaWorkGroup#remove_encryption_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdatesResultConfigurationUpdates.property.removeExpectedBucketOwner">RemoveExpectedBucketOwner</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#remove_expected_bucket_owner AthenaWorkGroup#remove_expected_bucket_owner}. |
-| <code><a href="#@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdatesResultConfigurationUpdates.property.removeOutputLocation">RemoveOutputLocation</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#remove_output_location AthenaWorkGroup#remove_output_location}. |
+| <code><a href="#@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdatesResultConfigurationUpdates.property.removeAclConfiguration">RemoveAclConfiguration</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#remove_acl_configuration AthenaWorkGroup#remove_acl_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdatesResultConfigurationUpdates.property.removeEncryptionConfiguration">RemoveEncryptionConfiguration</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#remove_encryption_configuration AthenaWorkGroup#remove_encryption_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdatesResultConfigurationUpdates.property.removeExpectedBucketOwner">RemoveExpectedBucketOwner</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#remove_expected_bucket_owner AthenaWorkGroup#remove_expected_bucket_owner}. |
+| <code><a href="#@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdatesResultConfigurationUpdates.property.removeOutputLocation">RemoveOutputLocation</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#remove_output_location AthenaWorkGroup#remove_output_location}. |
 
 ---
 
@@ -3061,7 +3061,7 @@ AclConfiguration AthenaWorkGroupWorkGroupConfigurationUpdatesResultConfiguration
 
 Indicates that an Amazon S3 canned ACL should be set to control ownership of stored query results.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#acl_configuration AthenaWorkGroup#acl_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#acl_configuration AthenaWorkGroup#acl_configuration}
 
 ---
 
@@ -3075,7 +3075,7 @@ EncryptionConfiguration AthenaWorkGroupWorkGroupConfigurationUpdatesResultConfig
 
 If query results are encrypted in Amazon S3, indicates the encryption option used (for example, SSE-KMS or CSE-KMS) and key information.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#encryption_configuration AthenaWorkGroup#encryption_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#encryption_configuration AthenaWorkGroup#encryption_configuration}
 
 ---
 
@@ -3089,7 +3089,7 @@ ExpectedBucketOwner *string
 
 The AWS account ID of the owner of S3 bucket where query results are stored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#expected_bucket_owner AthenaWorkGroup#expected_bucket_owner}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#expected_bucket_owner AthenaWorkGroup#expected_bucket_owner}
 
 ---
 
@@ -3105,7 +3105,7 @@ The location in Amazon S3 where your query results are stored, such as s3://path
 
 To run the query, you must specify the query results location using one of the ways: either for individual queries using either this setting (client-side), or in the workgroup, using WorkGroupConfiguration
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#output_location AthenaWorkGroup#output_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#output_location AthenaWorkGroup#output_location}
 
 ---
 
@@ -3117,7 +3117,7 @@ RemoveAclConfiguration interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#remove_acl_configuration AthenaWorkGroup#remove_acl_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#remove_acl_configuration AthenaWorkGroup#remove_acl_configuration}.
 
 ---
 
@@ -3129,7 +3129,7 @@ RemoveEncryptionConfiguration interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#remove_encryption_configuration AthenaWorkGroup#remove_encryption_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#remove_encryption_configuration AthenaWorkGroup#remove_encryption_configuration}.
 
 ---
 
@@ -3141,7 +3141,7 @@ RemoveExpectedBucketOwner interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#remove_expected_bucket_owner AthenaWorkGroup#remove_expected_bucket_owner}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#remove_expected_bucket_owner AthenaWorkGroup#remove_expected_bucket_owner}.
 
 ---
 
@@ -3153,7 +3153,7 @@ RemoveOutputLocation interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#remove_output_location AthenaWorkGroup#remove_output_location}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#remove_output_location AthenaWorkGroup#remove_output_location}.
 
 ---
 
@@ -3162,7 +3162,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdatesResultConfigurationUpdatesAclConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenaworkgroup"
 
 &athenaworkgroup.AthenaWorkGroupWorkGroupConfigurationUpdatesResultConfigurationUpdatesAclConfiguration {
 	S3AclOption: *string,
@@ -3189,7 +3189,7 @@ The Amazon S3 canned ACL that Athena should specify when storing query results.
 
 Currently the only supported canned ACL is BUCKET_OWNER_FULL_CONTROL
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#s3_acl_option AthenaWorkGroup#s3_acl_option}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#s3_acl_option AthenaWorkGroup#s3_acl_option}
 
 ---
 
@@ -3198,7 +3198,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdatesResultConfigurationUpdatesEncryptionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenaworkgroup"
 
 &athenaworkgroup.AthenaWorkGroupWorkGroupConfigurationUpdatesResultConfigurationUpdatesEncryptionConfiguration {
 	EncryptionOption: *string,
@@ -3225,7 +3225,7 @@ EncryptionOption *string
 
 Indicates whether Amazon S3 server-side encryption with Amazon S3-managed keys (SSE-S3), server-side encryption with KMS-managed keys (SSE-KMS), or client-side encryption with KMS-managed keys (CSE-KMS) is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#encryption_option AthenaWorkGroup#encryption_option}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#encryption_option AthenaWorkGroup#encryption_option}
 
 ---
 
@@ -3239,7 +3239,7 @@ KmsKey *string
 
 For SSE-KMS and CSE-KMS, this is the KMS key ARN or ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group#kms_key AthenaWorkGroup#kms_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group#kms_key AthenaWorkGroup#kms_key}
 
 ---
 
@@ -3250,7 +3250,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenaworkgroup"
 
 athenaworkgroup.NewAthenaWorkGroupTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) AthenaWorkGroupTagsList
 ```
@@ -3410,7 +3410,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenaworkgroup"
 
 athenaworkgroup.NewAthenaWorkGroupTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) AthenaWorkGroupTagsOutputReference
 ```
@@ -3735,7 +3735,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationCustomerContentEncryptionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenaworkgroup"
 
 athenaworkgroup.NewAthenaWorkGroupWorkGroupConfigurationCustomerContentEncryptionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) AthenaWorkGroupWorkGroupConfigurationCustomerContentEncryptionConfigurationOutputReference
 ```
@@ -4013,7 +4013,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationEngineConfigurationClassificationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenaworkgroup"
 
 athenaworkgroup.NewAthenaWorkGroupWorkGroupConfigurationEngineConfigurationClassificationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) AthenaWorkGroupWorkGroupConfigurationEngineConfigurationClassificationsList
 ```
@@ -4173,7 +4173,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationEngineConfigurationClassificationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenaworkgroup"
 
 athenaworkgroup.NewAthenaWorkGroupWorkGroupConfigurationEngineConfigurationClassificationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) AthenaWorkGroupWorkGroupConfigurationEngineConfigurationClassificationsOutputReference
 ```
@@ -4498,7 +4498,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationEngineConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenaworkgroup"
 
 athenaworkgroup.NewAthenaWorkGroupWorkGroupConfigurationEngineConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) AthenaWorkGroupWorkGroupConfigurationEngineConfigurationOutputReference
 ```
@@ -4934,7 +4934,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationEngineVersionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenaworkgroup"
 
 athenaworkgroup.NewAthenaWorkGroupWorkGroupConfigurationEngineVersionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) AthenaWorkGroupWorkGroupConfigurationEngineVersionOutputReference
 ```
@@ -5223,7 +5223,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationManagedQueryResultsConfigurationEncryptionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenaworkgroup"
 
 athenaworkgroup.NewAthenaWorkGroupWorkGroupConfigurationManagedQueryResultsConfigurationEncryptionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) AthenaWorkGroupWorkGroupConfigurationManagedQueryResultsConfigurationEncryptionConfigurationOutputReference
 ```
@@ -5501,7 +5501,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationManagedQueryResultsConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenaworkgroup"
 
 athenaworkgroup.NewAthenaWorkGroupWorkGroupConfigurationManagedQueryResultsConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) AthenaWorkGroupWorkGroupConfigurationManagedQueryResultsConfigurationOutputReference
 ```
@@ -5821,7 +5821,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationMonitoringConfigurationCloudwatchLoggingConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenaworkgroup"
 
 athenaworkgroup.NewAthenaWorkGroupWorkGroupConfigurationMonitoringConfigurationCloudwatchLoggingConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) AthenaWorkGroupWorkGroupConfigurationMonitoringConfigurationCloudwatchLoggingConfigurationOutputReference
 ```
@@ -6186,7 +6186,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationMonitoringConfigurationManagedLoggingConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenaworkgroup"
 
 athenaworkgroup.NewAthenaWorkGroupWorkGroupConfigurationMonitoringConfigurationManagedLoggingConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) AthenaWorkGroupWorkGroupConfigurationMonitoringConfigurationManagedLoggingConfigurationOutputReference
 ```
@@ -6493,7 +6493,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationMonitoringConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenaworkgroup"
 
 athenaworkgroup.NewAthenaWorkGroupWorkGroupConfigurationMonitoringConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) AthenaWorkGroupWorkGroupConfigurationMonitoringConfigurationOutputReference
 ```
@@ -6868,7 +6868,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationMonitoringConfigurationS3LoggingConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenaworkgroup"
 
 athenaworkgroup.NewAthenaWorkGroupWorkGroupConfigurationMonitoringConfigurationS3LoggingConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) AthenaWorkGroupWorkGroupConfigurationMonitoringConfigurationS3LoggingConfigurationOutputReference
 ```
@@ -7204,7 +7204,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenaworkgroup"
 
 athenaworkgroup.NewAthenaWorkGroupWorkGroupConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) AthenaWorkGroupWorkGroupConfigurationOutputReference
 ```
@@ -7879,7 +7879,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationResultConfigurationAclConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenaworkgroup"
 
 athenaworkgroup.NewAthenaWorkGroupWorkGroupConfigurationResultConfigurationAclConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) AthenaWorkGroupWorkGroupConfigurationResultConfigurationAclConfigurationOutputReference
 ```
@@ -8157,7 +8157,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationResultConfigurationEncryptionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenaworkgroup"
 
 athenaworkgroup.NewAthenaWorkGroupWorkGroupConfigurationResultConfigurationEncryptionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) AthenaWorkGroupWorkGroupConfigurationResultConfigurationEncryptionConfigurationOutputReference
 ```
@@ -8464,7 +8464,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationResultConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenaworkgroup"
 
 athenaworkgroup.NewAthenaWorkGroupWorkGroupConfigurationResultConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) AthenaWorkGroupWorkGroupConfigurationResultConfigurationOutputReference
 ```
@@ -8855,7 +8855,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdatesCustomerContentEncryptionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenaworkgroup"
 
 athenaworkgroup.NewAthenaWorkGroupWorkGroupConfigurationUpdatesCustomerContentEncryptionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) AthenaWorkGroupWorkGroupConfigurationUpdatesCustomerContentEncryptionConfigurationOutputReference
 ```
@@ -9133,7 +9133,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdatesEngineConfigurationClassificationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenaworkgroup"
 
 athenaworkgroup.NewAthenaWorkGroupWorkGroupConfigurationUpdatesEngineConfigurationClassificationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) AthenaWorkGroupWorkGroupConfigurationUpdatesEngineConfigurationClassificationsList
 ```
@@ -9293,7 +9293,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdatesEngineConfigurationClassificationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenaworkgroup"
 
 athenaworkgroup.NewAthenaWorkGroupWorkGroupConfigurationUpdatesEngineConfigurationClassificationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) AthenaWorkGroupWorkGroupConfigurationUpdatesEngineConfigurationClassificationsOutputReference
 ```
@@ -9618,7 +9618,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdatesEngineConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenaworkgroup"
 
 athenaworkgroup.NewAthenaWorkGroupWorkGroupConfigurationUpdatesEngineConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) AthenaWorkGroupWorkGroupConfigurationUpdatesEngineConfigurationOutputReference
 ```
@@ -10054,7 +10054,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdatesEngineVersionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenaworkgroup"
 
 athenaworkgroup.NewAthenaWorkGroupWorkGroupConfigurationUpdatesEngineVersionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) AthenaWorkGroupWorkGroupConfigurationUpdatesEngineVersionOutputReference
 ```
@@ -10343,7 +10343,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdatesManagedQueryResultsConfigurationEncryptionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenaworkgroup"
 
 athenaworkgroup.NewAthenaWorkGroupWorkGroupConfigurationUpdatesManagedQueryResultsConfigurationEncryptionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) AthenaWorkGroupWorkGroupConfigurationUpdatesManagedQueryResultsConfigurationEncryptionConfigurationOutputReference
 ```
@@ -10621,7 +10621,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdatesManagedQueryResultsConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenaworkgroup"
 
 athenaworkgroup.NewAthenaWorkGroupWorkGroupConfigurationUpdatesManagedQueryResultsConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) AthenaWorkGroupWorkGroupConfigurationUpdatesManagedQueryResultsConfigurationOutputReference
 ```
@@ -10941,7 +10941,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdatesMonitoringConfigurationCloudwatchLoggingConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenaworkgroup"
 
 athenaworkgroup.NewAthenaWorkGroupWorkGroupConfigurationUpdatesMonitoringConfigurationCloudwatchLoggingConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) AthenaWorkGroupWorkGroupConfigurationUpdatesMonitoringConfigurationCloudwatchLoggingConfigurationOutputReference
 ```
@@ -11306,7 +11306,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdatesMonitoringConfigurationManagedLoggingConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenaworkgroup"
 
 athenaworkgroup.NewAthenaWorkGroupWorkGroupConfigurationUpdatesMonitoringConfigurationManagedLoggingConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) AthenaWorkGroupWorkGroupConfigurationUpdatesMonitoringConfigurationManagedLoggingConfigurationOutputReference
 ```
@@ -11613,7 +11613,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdatesMonitoringConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenaworkgroup"
 
 athenaworkgroup.NewAthenaWorkGroupWorkGroupConfigurationUpdatesMonitoringConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) AthenaWorkGroupWorkGroupConfigurationUpdatesMonitoringConfigurationOutputReference
 ```
@@ -11988,7 +11988,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdatesMonitoringConfigurationS3LoggingConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenaworkgroup"
 
 athenaworkgroup.NewAthenaWorkGroupWorkGroupConfigurationUpdatesMonitoringConfigurationS3LoggingConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) AthenaWorkGroupWorkGroupConfigurationUpdatesMonitoringConfigurationS3LoggingConfigurationOutputReference
 ```
@@ -12324,7 +12324,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdatesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenaworkgroup"
 
 athenaworkgroup.NewAthenaWorkGroupWorkGroupConfigurationUpdatesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) AthenaWorkGroupWorkGroupConfigurationUpdatesOutputReference
 ```
@@ -13057,7 +13057,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdatesResultConfigurationUpdatesAclConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenaworkgroup"
 
 athenaworkgroup.NewAthenaWorkGroupWorkGroupConfigurationUpdatesResultConfigurationUpdatesAclConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) AthenaWorkGroupWorkGroupConfigurationUpdatesResultConfigurationUpdatesAclConfigurationOutputReference
 ```
@@ -13335,7 +13335,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdatesResultConfigurationUpdatesEncryptionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenaworkgroup"
 
 athenaworkgroup.NewAthenaWorkGroupWorkGroupConfigurationUpdatesResultConfigurationUpdatesEncryptionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) AthenaWorkGroupWorkGroupConfigurationUpdatesResultConfigurationUpdatesEncryptionConfigurationOutputReference
 ```
@@ -13642,7 +13642,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.athenaWorkGroup.AthenaWorkGroupWorkGroupConfigurationUpdatesResultConfigurationUpdatesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenaworkgroup"
 
 athenaworkgroup.NewAthenaWorkGroupWorkGroupConfigurationUpdatesResultConfigurationUpdatesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) AthenaWorkGroupWorkGroupConfigurationUpdatesResultConfigurationUpdatesOutputReference
 ```

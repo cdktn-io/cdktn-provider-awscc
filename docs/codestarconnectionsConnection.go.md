@@ -4,12 +4,12 @@
 
 ### CodestarconnectionsConnection <a name="CodestarconnectionsConnection" id="@cdktn/provider-awscc.codestarconnectionsConnection.CodestarconnectionsConnection"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codestarconnections_connection awscc_codestarconnections_connection}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codestarconnections_connection awscc_codestarconnections_connection}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codestarconnectionsConnection.CodestarconnectionsConnection.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codestarconnectionsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codestarconnectionsconnection"
 
 codestarconnectionsconnection.NewCodestarconnectionsConnection(scope Construct, id *string, config CodestarconnectionsConnectionConfig) CodestarconnectionsConnection
 ```
@@ -434,7 +434,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.codestarconnectionsConnection.CodestarconnectionsConnection.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codestarconnectionsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codestarconnectionsconnection"
 
 codestarconnectionsconnection.CodestarconnectionsConnection_IsConstruct(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.codestarconnectionsConnection.CodestarconnectionsConnection.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codestarconnectionsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codestarconnectionsconnection"
 
 codestarconnectionsconnection.CodestarconnectionsConnection_IsTerraformElement(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ codestarconnectionsconnection.CodestarconnectionsConnection_IsTerraformElement(x
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.codestarconnectionsConnection.CodestarconnectionsConnection.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codestarconnectionsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codestarconnectionsconnection"
 
 codestarconnectionsconnection.CodestarconnectionsConnection_IsTerraformResource(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ codestarconnectionsconnection.CodestarconnectionsConnection_IsTerraformResource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.codestarconnectionsConnection.CodestarconnectionsConnection.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codestarconnectionsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codestarconnectionsconnection"
 
 codestarconnectionsconnection.CodestarconnectionsConnection_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -523,7 +523,7 @@ The construct id used in the generated config for the CodestarconnectionsConnect
 
 The id of the existing CodestarconnectionsConnection that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codestarconnections_connection#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codestarconnections_connection#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -855,7 +855,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codestarconnectionsConnection.CodestarconnectionsConnectionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codestarconnectionsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codestarconnectionsconnection"
 
 &codestarconnectionsconnection.CodestarconnectionsConnectionConfig {
 	Connection: interface{},
@@ -970,7 +970,7 @@ ConnectionName *string
 
 The name of the connection. Connection names must be unique in an AWS user account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codestarconnections_connection#connection_name CodestarconnectionsConnection#connection_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codestarconnections_connection#connection_name CodestarconnectionsConnection#connection_name}
 
 ---
 
@@ -986,7 +986,7 @@ The host arn configured to represent the infrastructure where your third-party p
 
 You must specify either a ProviderType or a HostArn.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codestarconnections_connection#host_arn CodestarconnectionsConnection#host_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codestarconnections_connection#host_arn CodestarconnectionsConnection#host_arn}
 
 ---
 
@@ -1002,7 +1002,7 @@ The name of the external provider where your third-party code repository is conf
 
 You must specify either a ProviderType or a HostArn.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codestarconnections_connection#provider_type CodestarconnectionsConnection#provider_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codestarconnections_connection#provider_type CodestarconnectionsConnection#provider_type}
 
 ---
 
@@ -1016,7 +1016,7 @@ Tags interface{}
 
 Specifies the tags applied to a connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codestarconnections_connection#tags CodestarconnectionsConnection#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codestarconnections_connection#tags CodestarconnectionsConnection#tags}
 
 ---
 
@@ -1025,7 +1025,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codestarconnectionsConnection.CodestarconnectionsConnectionTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codestarconnectionsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codestarconnectionsconnection"
 
 &codestarconnectionsconnection.CodestarconnectionsConnectionTags {
 	Key: *string,
@@ -1054,7 +1054,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codestarconnections_connection#key CodestarconnectionsConnection#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codestarconnections_connection#key CodestarconnectionsConnection#key}
 
 ---
 
@@ -1070,7 +1070,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codestarconnections_connection#value CodestarconnectionsConnection#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codestarconnections_connection#value CodestarconnectionsConnection#value}
 
 ---
 
@@ -1081,7 +1081,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codestarconnectionsConnection.CodestarconnectionsConnectionTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codestarconnectionsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codestarconnectionsconnection"
 
 codestarconnectionsconnection.NewCodestarconnectionsConnectionTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CodestarconnectionsConnectionTagsList
 ```
@@ -1241,7 +1241,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codestarconnectionsConnection.CodestarconnectionsConnectionTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codestarconnectionsconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codestarconnectionsconnection"
 
 codestarconnectionsconnection.NewCodestarconnectionsConnectionTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CodestarconnectionsConnectionTagsOutputReference
 ```

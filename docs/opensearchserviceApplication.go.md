@@ -4,12 +4,12 @@
 
 ### OpensearchserviceApplication <a name="OpensearchserviceApplication" id="@cdktn/provider-awscc.opensearchserviceApplication.OpensearchserviceApplication"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearchservice_application awscc_opensearchservice_application}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchservice_application awscc_opensearchservice_application}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.opensearchserviceApplication.OpensearchserviceApplication.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchserviceapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/opensearchserviceapplication"
 
 opensearchserviceapplication.NewOpensearchserviceApplication(scope Construct, id *string, config OpensearchserviceApplicationConfig) OpensearchserviceApplication
 ```
@@ -494,7 +494,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.opensearchserviceApplication.OpensearchserviceApplication.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchserviceapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/opensearchserviceapplication"
 
 opensearchserviceapplication.OpensearchserviceApplication_IsConstruct(x interface{}) *bool
 ```
@@ -526,7 +526,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.opensearchserviceApplication.OpensearchserviceApplication.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchserviceapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/opensearchserviceapplication"
 
 opensearchserviceapplication.OpensearchserviceApplication_IsTerraformElement(x interface{}) *bool
 ```
@@ -540,7 +540,7 @@ opensearchserviceapplication.OpensearchserviceApplication_IsTerraformElement(x i
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.opensearchserviceApplication.OpensearchserviceApplication.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchserviceapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/opensearchserviceapplication"
 
 opensearchserviceapplication.OpensearchserviceApplication_IsTerraformResource(x interface{}) *bool
 ```
@@ -554,7 +554,7 @@ opensearchserviceapplication.OpensearchserviceApplication_IsTerraformResource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.opensearchserviceApplication.OpensearchserviceApplication.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchserviceapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/opensearchserviceapplication"
 
 opensearchserviceapplication.OpensearchserviceApplication_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -583,7 +583,7 @@ The construct id used in the generated config for the OpensearchserviceApplicati
 
 The id of the existing OpensearchserviceApplication that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearchservice_application#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchservice_application#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -970,7 +970,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.opensearchserviceApplication.OpensearchserviceApplicationAppConfigs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchserviceapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/opensearchserviceapplication"
 
 &opensearchserviceapplication.OpensearchserviceApplicationAppConfigs {
 	Key: *string,
@@ -997,7 +997,7 @@ Key *string
 
 The configuration key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearchservice_application#key OpensearchserviceApplication#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchservice_application#key OpensearchserviceApplication#key}
 
 ---
 
@@ -1011,7 +1011,7 @@ Value *string
 
 The configuration value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearchservice_application#value OpensearchserviceApplication#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchservice_application#value OpensearchserviceApplication#value}
 
 ---
 
@@ -1020,7 +1020,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.opensearchserviceApplication.OpensearchserviceApplicationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchserviceapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/opensearchserviceapplication"
 
 &opensearchserviceapplication.OpensearchserviceApplicationConfig {
 	Connection: interface{},
@@ -1034,7 +1034,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchserviceappli
 	AppConfigs: interface{},
 	DataSources: interface{},
 	Endpoint: *string,
-	IamIdentityCenterOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.opensearchserviceApplication.OpensearchserviceApplicationIamIdentityCenterOptions,
+	IamIdentityCenterOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.opensearchserviceApplication.OpensearchserviceApplicationIamIdentityCenterOptions,
 	KmsKeyArn: *string,
 	Tags: interface{},
 }
@@ -1141,7 +1141,7 @@ Name *string
 
 The name of the application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearchservice_application#name OpensearchserviceApplication#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchservice_application#name OpensearchserviceApplication#name}
 
 ---
 
@@ -1155,7 +1155,7 @@ AppConfigs interface{}
 
 List of application configurations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearchservice_application#app_configs OpensearchserviceApplication#app_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchservice_application#app_configs OpensearchserviceApplication#app_configs}
 
 ---
 
@@ -1169,7 +1169,7 @@ DataSources interface{}
 
 List of data sources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearchservice_application#data_sources OpensearchserviceApplication#data_sources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchservice_application#data_sources OpensearchserviceApplication#data_sources}
 
 ---
 
@@ -1183,7 +1183,7 @@ Endpoint *string
 
 The endpoint for the application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearchservice_application#endpoint OpensearchserviceApplication#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchservice_application#endpoint OpensearchserviceApplication#endpoint}
 
 ---
 
@@ -1197,7 +1197,7 @@ IamIdentityCenterOptions OpensearchserviceApplicationIamIdentityCenterOptions
 
 Options for configuring IAM Identity Center.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearchservice_application#iam_identity_center_options OpensearchserviceApplication#iam_identity_center_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchservice_application#iam_identity_center_options OpensearchserviceApplication#iam_identity_center_options}
 
 ---
 
@@ -1211,7 +1211,7 @@ KmsKeyArn *string
 
 The ARN of the KMS key used to encrypt the application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearchservice_application#kms_key_arn OpensearchserviceApplication#kms_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchservice_application#kms_key_arn OpensearchserviceApplication#kms_key_arn}
 
 ---
 
@@ -1225,7 +1225,7 @@ Tags interface{}
 
 An arbitrary set of tags (key-value pairs) for this application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearchservice_application#tags OpensearchserviceApplication#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchservice_application#tags OpensearchserviceApplication#tags}
 
 ---
 
@@ -1234,7 +1234,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.opensearchserviceApplication.OpensearchserviceApplicationDataSources.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchserviceapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/opensearchserviceapplication"
 
 &opensearchserviceapplication.OpensearchserviceApplicationDataSources {
 	DataSourceArn: *string,
@@ -1261,7 +1261,7 @@ DataSourceArn *string
 
 The ARN of the data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearchservice_application#data_source_arn OpensearchserviceApplication#data_source_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchservice_application#data_source_arn OpensearchserviceApplication#data_source_arn}
 
 ---
 
@@ -1275,7 +1275,7 @@ DataSourceDescription *string
 
 Description of the data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearchservice_application#data_source_description OpensearchserviceApplication#data_source_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchservice_application#data_source_description OpensearchserviceApplication#data_source_description}
 
 ---
 
@@ -1284,7 +1284,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.opensearchserviceApplication.OpensearchserviceApplicationIamIdentityCenterOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchserviceapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/opensearchserviceapplication"
 
 &opensearchserviceapplication.OpensearchserviceApplicationIamIdentityCenterOptions {
 	Enabled: interface{},
@@ -1313,7 +1313,7 @@ Enabled interface{}
 
 Whether IAM Identity Center is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearchservice_application#enabled OpensearchserviceApplication#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchservice_application#enabled OpensearchserviceApplication#enabled}
 
 ---
 
@@ -1327,7 +1327,7 @@ IamIdentityCenterInstanceArn *string
 
 The ARN of the IAM Identity Center instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearchservice_application#iam_identity_center_instance_arn OpensearchserviceApplication#iam_identity_center_instance_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchservice_application#iam_identity_center_instance_arn OpensearchserviceApplication#iam_identity_center_instance_arn}
 
 ---
 
@@ -1341,7 +1341,7 @@ IamRoleForIdentityCenterApplicationArn *string
 
 The ARN of the IAM role for Identity Center application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearchservice_application#iam_role_for_identity_center_application_arn OpensearchserviceApplication#iam_role_for_identity_center_application_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchservice_application#iam_role_for_identity_center_application_arn OpensearchserviceApplication#iam_role_for_identity_center_application_arn}
 
 ---
 
@@ -1350,7 +1350,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.opensearchserviceApplication.OpensearchserviceApplicationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchserviceapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/opensearchserviceapplication"
 
 &opensearchserviceapplication.OpensearchserviceApplicationTags {
 	Key: *string,
@@ -1377,7 +1377,7 @@ Key *string
 
 The key in the key-value pair.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearchservice_application#key OpensearchserviceApplication#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchservice_application#key OpensearchserviceApplication#key}
 
 ---
 
@@ -1391,7 +1391,7 @@ Value *string
 
 The value in the key-value pair.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearchservice_application#value OpensearchserviceApplication#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchservice_application#value OpensearchserviceApplication#value}
 
 ---
 
@@ -1402,7 +1402,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.opensearchserviceApplication.OpensearchserviceApplicationAppConfigsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchserviceapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/opensearchserviceapplication"
 
 opensearchserviceapplication.NewOpensearchserviceApplicationAppConfigsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OpensearchserviceApplicationAppConfigsList
 ```
@@ -1562,7 +1562,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.opensearchserviceApplication.OpensearchserviceApplicationAppConfigsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchserviceapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/opensearchserviceapplication"
 
 opensearchserviceapplication.NewOpensearchserviceApplicationAppConfigsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OpensearchserviceApplicationAppConfigsOutputReference
 ```
@@ -1887,7 +1887,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.opensearchserviceApplication.OpensearchserviceApplicationDataSourcesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchserviceapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/opensearchserviceapplication"
 
 opensearchserviceapplication.NewOpensearchserviceApplicationDataSourcesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OpensearchserviceApplicationDataSourcesList
 ```
@@ -2047,7 +2047,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.opensearchserviceApplication.OpensearchserviceApplicationDataSourcesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchserviceapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/opensearchserviceapplication"
 
 opensearchserviceapplication.NewOpensearchserviceApplicationDataSourcesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OpensearchserviceApplicationDataSourcesOutputReference
 ```
@@ -2372,7 +2372,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.opensearchserviceApplication.OpensearchserviceApplicationIamIdentityCenterOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchserviceapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/opensearchserviceapplication"
 
 opensearchserviceapplication.NewOpensearchserviceApplicationIamIdentityCenterOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) OpensearchserviceApplicationIamIdentityCenterOptionsOutputReference
 ```
@@ -2708,7 +2708,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.opensearchserviceApplication.OpensearchserviceApplicationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchserviceapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/opensearchserviceapplication"
 
 opensearchserviceapplication.NewOpensearchserviceApplicationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OpensearchserviceApplicationTagsList
 ```
@@ -2868,7 +2868,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.opensearchserviceApplication.OpensearchserviceApplicationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchserviceapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/opensearchserviceapplication"
 
 opensearchserviceapplication.NewOpensearchserviceApplicationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OpensearchserviceApplicationTagsOutputReference
 ```

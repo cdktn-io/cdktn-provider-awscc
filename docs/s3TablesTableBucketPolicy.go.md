@@ -4,12 +4,12 @@
 
 ### S3TablesTableBucketPolicy <a name="S3TablesTableBucketPolicy" id="@cdktn/provider-awscc.s3TablesTableBucketPolicy.S3TablesTableBucketPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3tables_table_bucket_policy awscc_s3tables_table_bucket_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3tables_table_bucket_policy awscc_s3tables_table_bucket_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3TablesTableBucketPolicy.S3TablesTableBucketPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3tablestablebucketpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3tablestablebucketpolicy"
 
 s3tablestablebucketpolicy.NewS3TablesTableBucketPolicy(scope Construct, id *string, config S3TablesTableBucketPolicyConfig) S3TablesTableBucketPolicy
 ```
@@ -400,7 +400,7 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.s3TablesTableBucketPolicy.S3TablesTableBucketPolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3tablestablebucketpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3tablestablebucketpolicy"
 
 s3tablestablebucketpolicy.S3TablesTableBucketPolicy_IsConstruct(x interface{}) *bool
 ```
@@ -432,7 +432,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.s3TablesTableBucketPolicy.S3TablesTableBucketPolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3tablestablebucketpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3tablestablebucketpolicy"
 
 s3tablestablebucketpolicy.S3TablesTableBucketPolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ s3tablestablebucketpolicy.S3TablesTableBucketPolicy_IsTerraformElement(x interfa
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.s3TablesTableBucketPolicy.S3TablesTableBucketPolicy.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3tablestablebucketpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3tablestablebucketpolicy"
 
 s3tablestablebucketpolicy.S3TablesTableBucketPolicy_IsTerraformResource(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ s3tablestablebucketpolicy.S3TablesTableBucketPolicy_IsTerraformResource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.s3TablesTableBucketPolicy.S3TablesTableBucketPolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3tablestablebucketpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3tablestablebucketpolicy"
 
 s3tablestablebucketpolicy.S3TablesTableBucketPolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -489,7 +489,7 @@ The construct id used in the generated config for the S3TablesTableBucketPolicy 
 
 The id of the existing S3TablesTableBucketPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3tables_table_bucket_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3tables_table_bucket_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -744,7 +744,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.s3TablesTableBucketPolicy.S3TablesTableBucketPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3tablestablebucketpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3tablestablebucketpolicy"
 
 &s3tablestablebucketpolicy.S3TablesTableBucketPolicyConfig {
 	Connection: interface{},
@@ -857,7 +857,7 @@ A policy document containing permissions to add to the specified table bucket.
 
 In IAM, you must provide policy documents in JSON format. However, in CloudFormation you can provide the policy in JSON or YAML format because CloudFormation converts YAML to JSON before submitting it to IAM.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3tables_table_bucket_policy#resource_policy S3TablesTableBucketPolicy#resource_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3tables_table_bucket_policy#resource_policy S3TablesTableBucketPolicy#resource_policy}
 
 ---
 
@@ -871,7 +871,7 @@ TableBucketArn *string
 
 The Amazon Resource Name (ARN) of the table bucket to which the policy applies.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3tables_table_bucket_policy#table_bucket_arn S3TablesTableBucketPolicy#table_bucket_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3tables_table_bucket_policy#table_bucket_arn S3TablesTableBucketPolicy#table_bucket_arn}
 
 ---
 

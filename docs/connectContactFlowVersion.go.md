@@ -4,12 +4,12 @@
 
 ### ConnectContactFlowVersion <a name="ConnectContactFlowVersion" id="@cdktn/provider-awscc.connectContactFlowVersion.ConnectContactFlowVersion"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_contact_flow_version awscc_connect_contact_flow_version}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_contact_flow_version awscc_connect_contact_flow_version}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectContactFlowVersion.ConnectContactFlowVersion.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcontactflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcontactflowversion"
 
 connectcontactflowversion.NewConnectContactFlowVersion(scope Construct, id *string, config ConnectContactFlowVersionConfig) ConnectContactFlowVersion
 ```
@@ -407,7 +407,7 @@ func ResetDescription()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.connectContactFlowVersion.ConnectContactFlowVersion.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcontactflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcontactflowversion"
 
 connectcontactflowversion.ConnectContactFlowVersion_IsConstruct(x interface{}) *bool
 ```
@@ -439,7 +439,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.connectContactFlowVersion.ConnectContactFlowVersion.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcontactflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcontactflowversion"
 
 connectcontactflowversion.ConnectContactFlowVersion_IsTerraformElement(x interface{}) *bool
 ```
@@ -453,7 +453,7 @@ connectcontactflowversion.ConnectContactFlowVersion_IsTerraformElement(x interfa
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.connectContactFlowVersion.ConnectContactFlowVersion.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcontactflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcontactflowversion"
 
 connectcontactflowversion.ConnectContactFlowVersion_IsTerraformResource(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ connectcontactflowversion.ConnectContactFlowVersion_IsTerraformResource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.connectContactFlowVersion.ConnectContactFlowVersion.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcontactflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcontactflowversion"
 
 connectcontactflowversion.ConnectContactFlowVersion_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -496,7 +496,7 @@ The construct id used in the generated config for the ConnectContactFlowVersion 
 
 The id of the existing ConnectContactFlowVersion that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_contact_flow_version#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_contact_flow_version#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -784,7 +784,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectContactFlowVersion.ConnectContactFlowVersionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcontactflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcontactflowversion"
 
 &connectcontactflowversion.ConnectContactFlowVersionConfig {
 	Connection: interface{},
@@ -895,7 +895,7 @@ ContactFlowId *string
 
 The ARN of the contact flow this version is tied to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_contact_flow_version#contact_flow_id ConnectContactFlowVersion#contact_flow_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_contact_flow_version#contact_flow_id ConnectContactFlowVersion#contact_flow_id}
 
 ---
 
@@ -909,7 +909,7 @@ Description *string
 
 The description of the version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_contact_flow_version#description ConnectContactFlowVersion#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_contact_flow_version#description ConnectContactFlowVersion#description}
 
 ---
 

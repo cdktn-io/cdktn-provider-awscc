@@ -4,12 +4,12 @@
 
 ### DataAwsccSagemakerPipeline <a name="DataAwsccSagemakerPipeline" id="@cdktn/provider-awscc.dataAwsccSagemakerPipeline.DataAwsccSagemakerPipeline"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_pipeline awscc_sagemaker_pipeline}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_pipeline awscc_sagemaker_pipeline}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerPipeline.DataAwsccSagemakerPipeline.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerpipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerpipeline"
 
 dataawsccsagemakerpipeline.NewDataAwsccSagemakerPipeline(scope Construct, id *string, config DataAwsccSagemakerPipelineConfig) DataAwsccSagemakerPipeline
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSagemakerPipeline.DataAwsccSagemakerPipeline.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerpipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerpipeline"
 
 dataawsccsagemakerpipeline.DataAwsccSagemakerPipeline_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSagemakerPipeline.DataAwsccSagemakerPipeline.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerpipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerpipeline"
 
 dataawsccsagemakerpipeline.DataAwsccSagemakerPipeline_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsagemakerpipeline.DataAwsccSagemakerPipeline_IsTerraformElement(x inter
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSagemakerPipeline.DataAwsccSagemakerPipeline.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerpipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerpipeline"
 
 dataawsccsagemakerpipeline.DataAwsccSagemakerPipeline_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsagemakerpipeline.DataAwsccSagemakerPipeline_IsTerraformDataSource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSagemakerPipeline.DataAwsccSagemakerPipeline.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerpipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerpipeline"
 
 dataawsccsagemakerpipeline.DataAwsccSagemakerPipeline_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSagemakerPipeline
 
 The id of the existing DataAwsccSagemakerPipeline that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_pipeline#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_pipeline#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -664,7 +664,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerPipeline.DataAwsccSagemakerPipelineConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerpipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerpipeline"
 
 &dataawsccsagemakerpipeline.DataAwsccSagemakerPipelineConfig {
 	Connection: interface{},
@@ -773,7 +773,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_pipeline#id DataAwsccSagemakerPipeline#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_pipeline#id DataAwsccSagemakerPipeline#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -785,7 +785,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerPipeline.DataAwsccSagemakerPipelineParallelismConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerpipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerpipeline"
 
 &dataawsccsagemakerpipeline.DataAwsccSagemakerPipelineParallelismConfiguration {
 
@@ -798,7 +798,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerpipe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerPipeline.DataAwsccSagemakerPipelinePipelineDefinition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerpipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerpipeline"
 
 &dataawsccsagemakerpipeline.DataAwsccSagemakerPipelinePipelineDefinition {
 
@@ -811,7 +811,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerpipe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerPipeline.DataAwsccSagemakerPipelinePipelineDefinitionPipelineDefinitionS3Location.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerpipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerpipeline"
 
 &dataawsccsagemakerpipeline.DataAwsccSagemakerPipelinePipelineDefinitionPipelineDefinitionS3Location {
 
@@ -824,7 +824,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerpipe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerPipeline.DataAwsccSagemakerPipelineTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerpipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerpipeline"
 
 &dataawsccsagemakerpipeline.DataAwsccSagemakerPipelineTags {
 
@@ -839,7 +839,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerpipe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerPipeline.DataAwsccSagemakerPipelineParallelismConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerpipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerpipeline"
 
 dataawsccsagemakerpipeline.NewDataAwsccSagemakerPipelineParallelismConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerPipelineParallelismConfigurationOutputReference
 ```
@@ -1099,7 +1099,7 @@ func InternalValue() DataAwsccSagemakerPipelineParallelismConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerPipeline.DataAwsccSagemakerPipelinePipelineDefinitionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerpipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerpipeline"
 
 dataawsccsagemakerpipeline.NewDataAwsccSagemakerPipelinePipelineDefinitionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerPipelinePipelineDefinitionOutputReference
 ```
@@ -1370,7 +1370,7 @@ func InternalValue() DataAwsccSagemakerPipelinePipelineDefinition
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerPipeline.DataAwsccSagemakerPipelinePipelineDefinitionPipelineDefinitionS3LocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerpipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerpipeline"
 
 dataawsccsagemakerpipeline.NewDataAwsccSagemakerPipelinePipelineDefinitionPipelineDefinitionS3LocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerPipelinePipelineDefinitionPipelineDefinitionS3LocationOutputReference
 ```
@@ -1663,7 +1663,7 @@ func InternalValue() DataAwsccSagemakerPipelinePipelineDefinitionPipelineDefinit
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerPipeline.DataAwsccSagemakerPipelineTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerpipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerpipeline"
 
 dataawsccsagemakerpipeline.NewDataAwsccSagemakerPipelineTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSagemakerPipelineTagsList
 ```
@@ -1812,7 +1812,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerPipeline.DataAwsccSagemakerPipelineTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerpipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerpipeline"
 
 dataawsccsagemakerpipeline.NewDataAwsccSagemakerPipelineTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSagemakerPipelineTagsOutputReference
 ```

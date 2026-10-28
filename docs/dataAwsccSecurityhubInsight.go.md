@@ -4,12 +4,12 @@
 
 ### DataAwsccSecurityhubInsight <a name="DataAwsccSecurityhubInsight" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsight"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securityhub_insight awscc_securityhub_insight}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securityhub_insight awscc_securityhub_insight}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsight.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsight(scope Construct, id *string, config DataAwsccSecurityhubInsightConfig) DataAwsccSecurityhubInsight
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsight.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.DataAwsccSecurityhubInsight_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsight.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.DataAwsccSecurityhubInsight_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsecurityhubinsight.DataAwsccSecurityhubInsight_IsTerraformElement(x int
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsight.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.DataAwsccSecurityhubInsight_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsecurityhubinsight.DataAwsccSecurityhubInsight_IsTerraformDataSource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsight.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.DataAwsccSecurityhubInsight_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSecurityhubInsigh
 
 The id of the existing DataAwsccSecurityhubInsight that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securityhub_insight#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securityhub_insight#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -631,7 +631,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightConfig {
 	Connection: interface{},
@@ -740,7 +740,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securityhub_insight#id DataAwsccSecurityhubInsight#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securityhub_insight#id DataAwsccSecurityhubInsight#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -752,7 +752,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFilters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFilters {
 
@@ -765,7 +765,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersAwsAccountId.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersAwsAccountId {
 
@@ -778,7 +778,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersAwsAccountName.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersAwsAccountName {
 
@@ -791,7 +791,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersCompanyName.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersCompanyName {
 
@@ -804,7 +804,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersComplianceAssociatedStandardsId.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersComplianceAssociatedStandardsId {
 
@@ -817,7 +817,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersComplianceSecurityControlId.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersComplianceSecurityControlId {
 
@@ -830,7 +830,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersComplianceSecurityControlParametersName.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersComplianceSecurityControlParametersName {
 
@@ -843,7 +843,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersComplianceSecurityControlParametersValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersComplianceSecurityControlParametersValue {
 
@@ -856,7 +856,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersComplianceStatus.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersComplianceStatus {
 
@@ -869,7 +869,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersConfidence.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersConfidence {
 
@@ -882,7 +882,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersCreatedAt.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersCreatedAt {
 
@@ -895,7 +895,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersCreatedAtDateRange.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersCreatedAtDateRange {
 
@@ -908,7 +908,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersCriticality.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersCriticality {
 
@@ -921,7 +921,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersDescription.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersDescription {
 
@@ -934,7 +934,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersFindingProviderFieldsConfidence.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersFindingProviderFieldsConfidence {
 
@@ -947,7 +947,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersFindingProviderFieldsCriticality.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersFindingProviderFieldsCriticality {
 
@@ -960,7 +960,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsId.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsId {
 
@@ -973,7 +973,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsProductArn.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsProductArn {
 
@@ -986,7 +986,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersFindingProviderFieldsSeverityLabel.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersFindingProviderFieldsSeverityLabel {
 
@@ -999,7 +999,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersFindingProviderFieldsSeverityOriginal.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersFindingProviderFieldsSeverityOriginal {
 
@@ -1012,7 +1012,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersFindingProviderFieldsTypes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersFindingProviderFieldsTypes {
 
@@ -1025,7 +1025,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersFirstObservedAt.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersFirstObservedAt {
 
@@ -1038,7 +1038,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersFirstObservedAtDateRange.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersFirstObservedAtDateRange {
 
@@ -1051,7 +1051,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersGeneratorId.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersGeneratorId {
 
@@ -1064,7 +1064,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersId.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersId {
 
@@ -1077,7 +1077,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersKeyword.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersKeyword {
 
@@ -1090,7 +1090,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersLastObservedAt.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersLastObservedAt {
 
@@ -1103,7 +1103,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersLastObservedAtDateRange.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersLastObservedAtDateRange {
 
@@ -1116,7 +1116,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersMalwareName.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersMalwareName {
 
@@ -1129,7 +1129,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersMalwarePath.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersMalwarePath {
 
@@ -1142,7 +1142,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersMalwareState.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersMalwareState {
 
@@ -1155,7 +1155,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersMalwareType.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersMalwareType {
 
@@ -1168,7 +1168,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersNetworkDestinationDomain.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersNetworkDestinationDomain {
 
@@ -1181,7 +1181,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersNetworkDestinationIpV4.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersNetworkDestinationIpV4 {
 
@@ -1194,7 +1194,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersNetworkDestinationIpV6.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersNetworkDestinationIpV6 {
 
@@ -1207,7 +1207,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersNetworkDestinationPort.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersNetworkDestinationPort {
 
@@ -1220,7 +1220,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersNetworkDirection.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersNetworkDirection {
 
@@ -1233,7 +1233,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersNetworkProtocol.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersNetworkProtocol {
 
@@ -1246,7 +1246,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersNetworkSourceDomain.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersNetworkSourceDomain {
 
@@ -1259,7 +1259,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersNetworkSourceIpV4.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersNetworkSourceIpV4 {
 
@@ -1272,7 +1272,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersNetworkSourceIpV6.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersNetworkSourceIpV6 {
 
@@ -1285,7 +1285,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersNetworkSourceMac.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersNetworkSourceMac {
 
@@ -1298,7 +1298,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersNetworkSourcePort.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersNetworkSourcePort {
 
@@ -1311,7 +1311,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersNoteText.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersNoteText {
 
@@ -1324,7 +1324,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersNoteUpdatedAt.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersNoteUpdatedAt {
 
@@ -1337,7 +1337,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersNoteUpdatedAtDateRange.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersNoteUpdatedAtDateRange {
 
@@ -1350,7 +1350,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersNoteUpdatedBy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersNoteUpdatedBy {
 
@@ -1363,7 +1363,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersProcessLaunchedAt.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersProcessLaunchedAt {
 
@@ -1376,7 +1376,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersProcessLaunchedAtDateRange.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersProcessLaunchedAtDateRange {
 
@@ -1389,7 +1389,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersProcessName.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersProcessName {
 
@@ -1402,7 +1402,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersProcessParentPid.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersProcessParentPid {
 
@@ -1415,7 +1415,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersProcessPath.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersProcessPath {
 
@@ -1428,7 +1428,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersProcessPid.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersProcessPid {
 
@@ -1441,7 +1441,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersProcessTerminatedAt.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersProcessTerminatedAt {
 
@@ -1454,7 +1454,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersProcessTerminatedAtDateRange.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersProcessTerminatedAtDateRange {
 
@@ -1467,7 +1467,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersProductArn.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersProductArn {
 
@@ -1480,7 +1480,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersProductFields.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersProductFields {
 
@@ -1493,7 +1493,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersProductName.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersProductName {
 
@@ -1506,7 +1506,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersRecommendationText.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersRecommendationText {
 
@@ -1519,7 +1519,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersRecordState.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersRecordState {
 
@@ -1532,7 +1532,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersRegion.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersRegion {
 
@@ -1545,7 +1545,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersRelatedFindingsId.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersRelatedFindingsId {
 
@@ -1558,7 +1558,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersRelatedFindingsProductArn.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersRelatedFindingsProductArn {
 
@@ -1571,7 +1571,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceApplicationArn.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersResourceApplicationArn {
 
@@ -1584,7 +1584,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceApplicationName.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersResourceApplicationName {
 
@@ -1597,7 +1597,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceIamInstanceProfileArn.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceIamInstanceProfileArn {
 
@@ -1610,7 +1610,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceImageId.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceImageId {
 
@@ -1623,7 +1623,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceIpV4Addresses.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceIpV4Addresses {
 
@@ -1636,7 +1636,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceIpV6Addresses.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceIpV6Addresses {
 
@@ -1649,7 +1649,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceKeyName.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceKeyName {
 
@@ -1662,7 +1662,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceLaunchedAt.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceLaunchedAt {
 
@@ -1675,7 +1675,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceLaunchedAtDateRange.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceLaunchedAtDateRange {
 
@@ -1688,7 +1688,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceSubnetId.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceSubnetId {
 
@@ -1701,7 +1701,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceType.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceType {
 
@@ -1714,7 +1714,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceVpcId.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceVpcId {
 
@@ -1727,7 +1727,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceAwsIamAccessKeyCreatedAt.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersResourceAwsIamAccessKeyCreatedAt {
 
@@ -1740,7 +1740,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceAwsIamAccessKeyCreatedAtDateRange.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersResourceAwsIamAccessKeyCreatedAtDateRange {
 
@@ -1753,7 +1753,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceAwsIamAccessKeyPrincipalName.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersResourceAwsIamAccessKeyPrincipalName {
 
@@ -1766,7 +1766,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceAwsIamAccessKeyStatus.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersResourceAwsIamAccessKeyStatus {
 
@@ -1779,7 +1779,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceAwsIamAccessKeyUserName.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersResourceAwsIamAccessKeyUserName {
 
@@ -1792,7 +1792,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceAwsIamUserUserName.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersResourceAwsIamUserUserName {
 
@@ -1805,7 +1805,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceAwsS3BucketOwnerId.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersResourceAwsS3BucketOwnerId {
 
@@ -1818,7 +1818,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceAwsS3BucketOwnerName.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersResourceAwsS3BucketOwnerName {
 
@@ -1831,7 +1831,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceContainerImageId.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersResourceContainerImageId {
 
@@ -1844,7 +1844,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceContainerImageName.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersResourceContainerImageName {
 
@@ -1857,7 +1857,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceContainerLaunchedAt.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersResourceContainerLaunchedAt {
 
@@ -1870,7 +1870,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceContainerLaunchedAtDateRange.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersResourceContainerLaunchedAtDateRange {
 
@@ -1883,7 +1883,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceContainerName.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersResourceContainerName {
 
@@ -1896,7 +1896,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceDetailsOther.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersResourceDetailsOther {
 
@@ -1909,7 +1909,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceId.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersResourceId {
 
@@ -1922,7 +1922,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourcePartition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersResourcePartition {
 
@@ -1935,7 +1935,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceRegion.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersResourceRegion {
 
@@ -1948,7 +1948,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersResourceTags {
 
@@ -1961,7 +1961,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceType.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersResourceType {
 
@@ -1974,7 +1974,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersSample.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersSample {
 
@@ -1987,7 +1987,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersSeverityLabel.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersSeverityLabel {
 
@@ -2000,7 +2000,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersSeverityNormalized.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersSeverityNormalized {
 
@@ -2013,7 +2013,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersSeverityProduct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersSeverityProduct {
 
@@ -2026,7 +2026,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersSourceUrl.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersSourceUrl {
 
@@ -2039,7 +2039,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersThreatIntelIndicatorCategory.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersThreatIntelIndicatorCategory {
 
@@ -2052,7 +2052,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersThreatIntelIndicatorLastObservedAt.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersThreatIntelIndicatorLastObservedAt {
 
@@ -2065,7 +2065,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersThreatIntelIndicatorLastObservedAtDateRange.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersThreatIntelIndicatorLastObservedAtDateRange {
 
@@ -2078,7 +2078,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersThreatIntelIndicatorSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersThreatIntelIndicatorSource {
 
@@ -2091,7 +2091,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersThreatIntelIndicatorSourceUrl.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersThreatIntelIndicatorSourceUrl {
 
@@ -2104,7 +2104,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersThreatIntelIndicatorType.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersThreatIntelIndicatorType {
 
@@ -2117,7 +2117,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersThreatIntelIndicatorValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersThreatIntelIndicatorValue {
 
@@ -2130,7 +2130,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersTitle.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersTitle {
 
@@ -2143,7 +2143,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersType.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersType {
 
@@ -2156,7 +2156,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersUpdatedAt.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersUpdatedAt {
 
@@ -2169,7 +2169,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersUpdatedAtDateRange.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersUpdatedAtDateRange {
 
@@ -2182,7 +2182,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersUserDefinedFields.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersUserDefinedFields {
 
@@ -2195,7 +2195,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersVerificationState.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersVerificationState {
 
@@ -2208,7 +2208,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersVulnerabilitiesExploitAvailable.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersVulnerabilitiesExploitAvailable {
 
@@ -2221,7 +2221,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersVulnerabilitiesFixAvailable.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersVulnerabilitiesFixAvailable {
 
@@ -2234,7 +2234,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersWorkflowState.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersWorkflowState {
 
@@ -2247,7 +2247,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersWorkflowStatus.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 &dataawsccsecurityhubinsight.DataAwsccSecurityhubInsightFiltersWorkflowStatus {
 
@@ -2262,7 +2262,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersAwsAccountIdList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersAwsAccountIdList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersAwsAccountIdList
 ```
@@ -2411,7 +2411,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersAwsAccountIdOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersAwsAccountIdOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersAwsAccountIdOutputReference
 ```
@@ -2700,7 +2700,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersAwsAccountId
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersAwsAccountNameList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersAwsAccountNameList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersAwsAccountNameList
 ```
@@ -2849,7 +2849,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersAwsAccountNameOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersAwsAccountNameOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersAwsAccountNameOutputReference
 ```
@@ -3138,7 +3138,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersAwsAccountName
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersCompanyNameList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersCompanyNameList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersCompanyNameList
 ```
@@ -3287,7 +3287,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersCompanyNameOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersCompanyNameOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersCompanyNameOutputReference
 ```
@@ -3576,7 +3576,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersCompanyName
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersComplianceAssociatedStandardsIdList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersComplianceAssociatedStandardsIdList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersComplianceAssociatedStandardsIdList
 ```
@@ -3725,7 +3725,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersComplianceAssociatedStandardsIdOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersComplianceAssociatedStandardsIdOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersComplianceAssociatedStandardsIdOutputReference
 ```
@@ -4014,7 +4014,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersComplianceAssociatedStand
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersComplianceSecurityControlIdList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersComplianceSecurityControlIdList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersComplianceSecurityControlIdList
 ```
@@ -4163,7 +4163,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersComplianceSecurityControlIdOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersComplianceSecurityControlIdOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersComplianceSecurityControlIdOutputReference
 ```
@@ -4452,7 +4452,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersComplianceSecurityControl
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersComplianceSecurityControlParametersNameList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersComplianceSecurityControlParametersNameList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersComplianceSecurityControlParametersNameList
 ```
@@ -4601,7 +4601,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersComplianceSecurityControlParametersNameOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersComplianceSecurityControlParametersNameOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersComplianceSecurityControlParametersNameOutputReference
 ```
@@ -4890,7 +4890,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersComplianceSecurityControl
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersComplianceSecurityControlParametersValueList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersComplianceSecurityControlParametersValueList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersComplianceSecurityControlParametersValueList
 ```
@@ -5039,7 +5039,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersComplianceSecurityControlParametersValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersComplianceSecurityControlParametersValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersComplianceSecurityControlParametersValueOutputReference
 ```
@@ -5328,7 +5328,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersComplianceSecurityControl
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersComplianceStatusList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersComplianceStatusList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersComplianceStatusList
 ```
@@ -5477,7 +5477,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersComplianceStatusOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersComplianceStatusOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersComplianceStatusOutputReference
 ```
@@ -5766,7 +5766,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersComplianceStatus
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersConfidenceList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersConfidenceList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersConfidenceList
 ```
@@ -5915,7 +5915,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersConfidenceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersConfidenceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersConfidenceOutputReference
 ```
@@ -6215,7 +6215,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersConfidence
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersCreatedAtDateRangeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersCreatedAtDateRangeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSecurityhubInsightFiltersCreatedAtDateRangeOutputReference
 ```
@@ -6486,7 +6486,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersCreatedAtDateRange
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersCreatedAtList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersCreatedAtList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersCreatedAtList
 ```
@@ -6635,7 +6635,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersCreatedAtOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersCreatedAtOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersCreatedAtOutputReference
 ```
@@ -6935,7 +6935,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersCreatedAt
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersCriticalityList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersCriticalityList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersCriticalityList
 ```
@@ -7084,7 +7084,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersCriticalityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersCriticalityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersCriticalityOutputReference
 ```
@@ -7384,7 +7384,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersCriticality
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersDescriptionList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersDescriptionList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersDescriptionList
 ```
@@ -7533,7 +7533,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersDescriptionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersDescriptionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersDescriptionOutputReference
 ```
@@ -7822,7 +7822,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersDescription
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersFindingProviderFieldsConfidenceList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersFindingProviderFieldsConfidenceList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersFindingProviderFieldsConfidenceList
 ```
@@ -7971,7 +7971,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersFindingProviderFieldsConfidenceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersFindingProviderFieldsConfidenceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersFindingProviderFieldsConfidenceOutputReference
 ```
@@ -8271,7 +8271,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersFindingProviderFieldsConf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersFindingProviderFieldsCriticalityList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersFindingProviderFieldsCriticalityList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersFindingProviderFieldsCriticalityList
 ```
@@ -8420,7 +8420,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersFindingProviderFieldsCriticalityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersFindingProviderFieldsCriticalityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersFindingProviderFieldsCriticalityOutputReference
 ```
@@ -8720,7 +8720,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersFindingProviderFieldsCrit
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsIdList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsIdList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsIdList
 ```
@@ -8869,7 +8869,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsIdOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsIdOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsIdOutputReference
 ```
@@ -9158,7 +9158,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersFindingProviderFieldsRela
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsProductArnList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsProductArnList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsProductArnList
 ```
@@ -9307,7 +9307,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsProductArnOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsProductArnOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsProductArnOutputReference
 ```
@@ -9596,7 +9596,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersFindingProviderFieldsRela
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersFindingProviderFieldsSeverityLabelList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersFindingProviderFieldsSeverityLabelList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersFindingProviderFieldsSeverityLabelList
 ```
@@ -9745,7 +9745,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersFindingProviderFieldsSeverityLabelOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersFindingProviderFieldsSeverityLabelOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersFindingProviderFieldsSeverityLabelOutputReference
 ```
@@ -10034,7 +10034,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersFindingProviderFieldsSeve
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersFindingProviderFieldsSeverityOriginalList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersFindingProviderFieldsSeverityOriginalList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersFindingProviderFieldsSeverityOriginalList
 ```
@@ -10183,7 +10183,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersFindingProviderFieldsSeverityOriginalOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersFindingProviderFieldsSeverityOriginalOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersFindingProviderFieldsSeverityOriginalOutputReference
 ```
@@ -10472,7 +10472,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersFindingProviderFieldsSeve
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersFindingProviderFieldsTypesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersFindingProviderFieldsTypesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersFindingProviderFieldsTypesList
 ```
@@ -10621,7 +10621,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersFindingProviderFieldsTypesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersFindingProviderFieldsTypesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersFindingProviderFieldsTypesOutputReference
 ```
@@ -10910,7 +10910,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersFindingProviderFieldsType
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersFirstObservedAtDateRangeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersFirstObservedAtDateRangeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSecurityhubInsightFiltersFirstObservedAtDateRangeOutputReference
 ```
@@ -11181,7 +11181,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersFirstObservedAtDateRange
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersFirstObservedAtList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersFirstObservedAtList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersFirstObservedAtList
 ```
@@ -11330,7 +11330,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersFirstObservedAtOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersFirstObservedAtOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersFirstObservedAtOutputReference
 ```
@@ -11630,7 +11630,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersFirstObservedAt
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersGeneratorIdList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersGeneratorIdList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersGeneratorIdList
 ```
@@ -11779,7 +11779,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersGeneratorIdOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersGeneratorIdOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersGeneratorIdOutputReference
 ```
@@ -12068,7 +12068,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersGeneratorId
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersIdList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersIdList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersIdList
 ```
@@ -12217,7 +12217,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersIdOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersIdOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersIdOutputReference
 ```
@@ -12506,7 +12506,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersId
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersKeywordList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersKeywordList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersKeywordList
 ```
@@ -12655,7 +12655,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersKeywordOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersKeywordOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersKeywordOutputReference
 ```
@@ -12933,7 +12933,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersKeyword
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersLastObservedAtDateRangeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersLastObservedAtDateRangeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSecurityhubInsightFiltersLastObservedAtDateRangeOutputReference
 ```
@@ -13204,7 +13204,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersLastObservedAtDateRange
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersLastObservedAtList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersLastObservedAtList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersLastObservedAtList
 ```
@@ -13353,7 +13353,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersLastObservedAtOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersLastObservedAtOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersLastObservedAtOutputReference
 ```
@@ -13653,7 +13653,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersLastObservedAt
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersMalwareNameList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersMalwareNameList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersMalwareNameList
 ```
@@ -13802,7 +13802,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersMalwareNameOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersMalwareNameOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersMalwareNameOutputReference
 ```
@@ -14091,7 +14091,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersMalwareName
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersMalwarePathList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersMalwarePathList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersMalwarePathList
 ```
@@ -14240,7 +14240,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersMalwarePathOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersMalwarePathOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersMalwarePathOutputReference
 ```
@@ -14529,7 +14529,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersMalwarePath
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersMalwareStateList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersMalwareStateList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersMalwareStateList
 ```
@@ -14678,7 +14678,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersMalwareStateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersMalwareStateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersMalwareStateOutputReference
 ```
@@ -14967,7 +14967,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersMalwareState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersMalwareTypeList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersMalwareTypeList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersMalwareTypeList
 ```
@@ -15116,7 +15116,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersMalwareTypeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersMalwareTypeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersMalwareTypeOutputReference
 ```
@@ -15405,7 +15405,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersMalwareType
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersNetworkDestinationDomainList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersNetworkDestinationDomainList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersNetworkDestinationDomainList
 ```
@@ -15554,7 +15554,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersNetworkDestinationDomainOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersNetworkDestinationDomainOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersNetworkDestinationDomainOutputReference
 ```
@@ -15843,7 +15843,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersNetworkDestinationDomain
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersNetworkDestinationIpV4List.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersNetworkDestinationIpV4List(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersNetworkDestinationIpV4List
 ```
@@ -15992,7 +15992,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersNetworkDestinationIpV4OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersNetworkDestinationIpV4OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersNetworkDestinationIpV4OutputReference
 ```
@@ -16270,7 +16270,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersNetworkDestinationIpV4
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersNetworkDestinationIpV6List.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersNetworkDestinationIpV6List(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersNetworkDestinationIpV6List
 ```
@@ -16419,7 +16419,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersNetworkDestinationIpV6OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersNetworkDestinationIpV6OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersNetworkDestinationIpV6OutputReference
 ```
@@ -16697,7 +16697,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersNetworkDestinationIpV6
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersNetworkDestinationPortList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersNetworkDestinationPortList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersNetworkDestinationPortList
 ```
@@ -16846,7 +16846,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersNetworkDestinationPortOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersNetworkDestinationPortOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersNetworkDestinationPortOutputReference
 ```
@@ -17146,7 +17146,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersNetworkDestinationPort
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersNetworkDirectionList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersNetworkDirectionList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersNetworkDirectionList
 ```
@@ -17295,7 +17295,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersNetworkDirectionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersNetworkDirectionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersNetworkDirectionOutputReference
 ```
@@ -17584,7 +17584,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersNetworkDirection
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersNetworkProtocolList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersNetworkProtocolList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersNetworkProtocolList
 ```
@@ -17733,7 +17733,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersNetworkProtocolOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersNetworkProtocolOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersNetworkProtocolOutputReference
 ```
@@ -18022,7 +18022,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersNetworkProtocol
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersNetworkSourceDomainList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersNetworkSourceDomainList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersNetworkSourceDomainList
 ```
@@ -18171,7 +18171,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersNetworkSourceDomainOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersNetworkSourceDomainOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersNetworkSourceDomainOutputReference
 ```
@@ -18460,7 +18460,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersNetworkSourceDomain
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersNetworkSourceIpV4List.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersNetworkSourceIpV4List(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersNetworkSourceIpV4List
 ```
@@ -18609,7 +18609,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersNetworkSourceIpV4OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersNetworkSourceIpV4OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersNetworkSourceIpV4OutputReference
 ```
@@ -18887,7 +18887,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersNetworkSourceIpV4
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersNetworkSourceIpV6List.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersNetworkSourceIpV6List(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersNetworkSourceIpV6List
 ```
@@ -19036,7 +19036,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersNetworkSourceIpV6OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersNetworkSourceIpV6OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersNetworkSourceIpV6OutputReference
 ```
@@ -19314,7 +19314,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersNetworkSourceIpV6
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersNetworkSourceMacList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersNetworkSourceMacList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersNetworkSourceMacList
 ```
@@ -19463,7 +19463,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersNetworkSourceMacOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersNetworkSourceMacOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersNetworkSourceMacOutputReference
 ```
@@ -19752,7 +19752,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersNetworkSourceMac
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersNetworkSourcePortList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersNetworkSourcePortList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersNetworkSourcePortList
 ```
@@ -19901,7 +19901,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersNetworkSourcePortOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersNetworkSourcePortOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersNetworkSourcePortOutputReference
 ```
@@ -20201,7 +20201,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersNetworkSourcePort
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersNoteTextList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersNoteTextList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersNoteTextList
 ```
@@ -20350,7 +20350,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersNoteTextOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersNoteTextOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersNoteTextOutputReference
 ```
@@ -20639,7 +20639,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersNoteText
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersNoteUpdatedAtDateRangeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersNoteUpdatedAtDateRangeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSecurityhubInsightFiltersNoteUpdatedAtDateRangeOutputReference
 ```
@@ -20910,7 +20910,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersNoteUpdatedAtDateRange
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersNoteUpdatedAtList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersNoteUpdatedAtList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersNoteUpdatedAtList
 ```
@@ -21059,7 +21059,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersNoteUpdatedAtOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersNoteUpdatedAtOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersNoteUpdatedAtOutputReference
 ```
@@ -21359,7 +21359,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersNoteUpdatedAt
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersNoteUpdatedByList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersNoteUpdatedByList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersNoteUpdatedByList
 ```
@@ -21508,7 +21508,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersNoteUpdatedByOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersNoteUpdatedByOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersNoteUpdatedByOutputReference
 ```
@@ -21797,7 +21797,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersNoteUpdatedBy
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSecurityhubInsightFiltersOutputReference
 ```
@@ -23190,7 +23190,7 @@ func InternalValue() DataAwsccSecurityhubInsightFilters
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersProcessLaunchedAtDateRangeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersProcessLaunchedAtDateRangeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSecurityhubInsightFiltersProcessLaunchedAtDateRangeOutputReference
 ```
@@ -23461,7 +23461,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersProcessLaunchedAtDateRang
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersProcessLaunchedAtList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersProcessLaunchedAtList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersProcessLaunchedAtList
 ```
@@ -23610,7 +23610,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersProcessLaunchedAtOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersProcessLaunchedAtOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersProcessLaunchedAtOutputReference
 ```
@@ -23910,7 +23910,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersProcessLaunchedAt
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersProcessNameList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersProcessNameList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersProcessNameList
 ```
@@ -24059,7 +24059,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersProcessNameOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersProcessNameOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersProcessNameOutputReference
 ```
@@ -24348,7 +24348,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersProcessName
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersProcessParentPidList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersProcessParentPidList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersProcessParentPidList
 ```
@@ -24497,7 +24497,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersProcessParentPidOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersProcessParentPidOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersProcessParentPidOutputReference
 ```
@@ -24797,7 +24797,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersProcessParentPid
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersProcessPathList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersProcessPathList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersProcessPathList
 ```
@@ -24946,7 +24946,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersProcessPathOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersProcessPathOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersProcessPathOutputReference
 ```
@@ -25235,7 +25235,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersProcessPath
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersProcessPidList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersProcessPidList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersProcessPidList
 ```
@@ -25384,7 +25384,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersProcessPidOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersProcessPidOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersProcessPidOutputReference
 ```
@@ -25684,7 +25684,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersProcessPid
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersProcessTerminatedAtDateRangeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersProcessTerminatedAtDateRangeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSecurityhubInsightFiltersProcessTerminatedAtDateRangeOutputReference
 ```
@@ -25955,7 +25955,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersProcessTerminatedAtDateRa
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersProcessTerminatedAtList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersProcessTerminatedAtList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersProcessTerminatedAtList
 ```
@@ -26104,7 +26104,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersProcessTerminatedAtOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersProcessTerminatedAtOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersProcessTerminatedAtOutputReference
 ```
@@ -26404,7 +26404,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersProcessTerminatedAt
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersProductArnList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersProductArnList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersProductArnList
 ```
@@ -26553,7 +26553,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersProductArnOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersProductArnOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersProductArnOutputReference
 ```
@@ -26842,7 +26842,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersProductArn
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersProductFieldsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersProductFieldsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersProductFieldsList
 ```
@@ -26991,7 +26991,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersProductFieldsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersProductFieldsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersProductFieldsOutputReference
 ```
@@ -27291,7 +27291,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersProductFields
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersProductNameList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersProductNameList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersProductNameList
 ```
@@ -27440,7 +27440,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersProductNameOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersProductNameOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersProductNameOutputReference
 ```
@@ -27729,7 +27729,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersProductName
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersRecommendationTextList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersRecommendationTextList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersRecommendationTextList
 ```
@@ -27878,7 +27878,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersRecommendationTextOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersRecommendationTextOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersRecommendationTextOutputReference
 ```
@@ -28167,7 +28167,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersRecommendationText
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersRecordStateList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersRecordStateList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersRecordStateList
 ```
@@ -28316,7 +28316,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersRecordStateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersRecordStateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersRecordStateOutputReference
 ```
@@ -28605,7 +28605,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersRecordState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersRegionList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersRegionList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersRegionList
 ```
@@ -28754,7 +28754,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersRegionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersRegionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersRegionOutputReference
 ```
@@ -29043,7 +29043,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersRegion
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersRelatedFindingsIdList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersRelatedFindingsIdList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersRelatedFindingsIdList
 ```
@@ -29192,7 +29192,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersRelatedFindingsIdOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersRelatedFindingsIdOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersRelatedFindingsIdOutputReference
 ```
@@ -29481,7 +29481,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersRelatedFindingsId
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersRelatedFindingsProductArnList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersRelatedFindingsProductArnList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersRelatedFindingsProductArnList
 ```
@@ -29630,7 +29630,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersRelatedFindingsProductArnOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersRelatedFindingsProductArnOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersRelatedFindingsProductArnOutputReference
 ```
@@ -29919,7 +29919,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersRelatedFindingsProductArn
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceApplicationArnList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersResourceApplicationArnList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersResourceApplicationArnList
 ```
@@ -30068,7 +30068,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceApplicationArnOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersResourceApplicationArnOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersResourceApplicationArnOutputReference
 ```
@@ -30357,7 +30357,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersResourceApplicationArn
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceApplicationNameList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersResourceApplicationNameList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersResourceApplicationNameList
 ```
@@ -30506,7 +30506,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceApplicationNameOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersResourceApplicationNameOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersResourceApplicationNameOutputReference
 ```
@@ -30795,7 +30795,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersResourceApplicationName
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceIamInstanceProfileArnList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceIamInstanceProfileArnList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceIamInstanceProfileArnList
 ```
@@ -30944,7 +30944,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceIamInstanceProfileArnOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceIamInstanceProfileArnOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceIamInstanceProfileArnOutputReference
 ```
@@ -31233,7 +31233,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceIam
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceImageIdList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceImageIdList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceImageIdList
 ```
@@ -31382,7 +31382,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceImageIdOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceImageIdOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceImageIdOutputReference
 ```
@@ -31671,7 +31671,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceIma
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceIpV4AddressesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceIpV4AddressesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceIpV4AddressesList
 ```
@@ -31820,7 +31820,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceIpV4AddressesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceIpV4AddressesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceIpV4AddressesOutputReference
 ```
@@ -32098,7 +32098,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceIpV
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceIpV6AddressesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceIpV6AddressesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceIpV6AddressesList
 ```
@@ -32247,7 +32247,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceIpV6AddressesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceIpV6AddressesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceIpV6AddressesOutputReference
 ```
@@ -32525,7 +32525,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceIpV
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceKeyNameList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceKeyNameList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceKeyNameList
 ```
@@ -32674,7 +32674,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceKeyNameOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceKeyNameOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceKeyNameOutputReference
 ```
@@ -32963,7 +32963,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceKey
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceLaunchedAtDateRangeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceLaunchedAtDateRangeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceLaunchedAtDateRangeOutputReference
 ```
@@ -33234,7 +33234,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceLau
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceLaunchedAtList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceLaunchedAtList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceLaunchedAtList
 ```
@@ -33383,7 +33383,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceLaunchedAtOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceLaunchedAtOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceLaunchedAtOutputReference
 ```
@@ -33683,7 +33683,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceLau
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceSubnetIdList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceSubnetIdList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceSubnetIdList
 ```
@@ -33832,7 +33832,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceSubnetIdOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceSubnetIdOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceSubnetIdOutputReference
 ```
@@ -34121,7 +34121,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceSub
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceTypeList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceTypeList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceTypeList
 ```
@@ -34270,7 +34270,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceTypeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceTypeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceTypeOutputReference
 ```
@@ -34559,7 +34559,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceTyp
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceVpcIdList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceVpcIdList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceVpcIdList
 ```
@@ -34708,7 +34708,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceVpcIdOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceVpcIdOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceVpcIdOutputReference
 ```
@@ -34997,7 +34997,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersResourceAwsEc2InstanceVpc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceAwsIamAccessKeyCreatedAtDateRangeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersResourceAwsIamAccessKeyCreatedAtDateRangeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSecurityhubInsightFiltersResourceAwsIamAccessKeyCreatedAtDateRangeOutputReference
 ```
@@ -35268,7 +35268,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersResourceAwsIamAccessKeyCr
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceAwsIamAccessKeyCreatedAtList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersResourceAwsIamAccessKeyCreatedAtList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersResourceAwsIamAccessKeyCreatedAtList
 ```
@@ -35417,7 +35417,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceAwsIamAccessKeyCreatedAtOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersResourceAwsIamAccessKeyCreatedAtOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersResourceAwsIamAccessKeyCreatedAtOutputReference
 ```
@@ -35717,7 +35717,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersResourceAwsIamAccessKeyCr
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceAwsIamAccessKeyPrincipalNameList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersResourceAwsIamAccessKeyPrincipalNameList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersResourceAwsIamAccessKeyPrincipalNameList
 ```
@@ -35866,7 +35866,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceAwsIamAccessKeyPrincipalNameOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersResourceAwsIamAccessKeyPrincipalNameOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersResourceAwsIamAccessKeyPrincipalNameOutputReference
 ```
@@ -36155,7 +36155,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersResourceAwsIamAccessKeyPr
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceAwsIamAccessKeyStatusList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersResourceAwsIamAccessKeyStatusList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersResourceAwsIamAccessKeyStatusList
 ```
@@ -36304,7 +36304,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceAwsIamAccessKeyStatusOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersResourceAwsIamAccessKeyStatusOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersResourceAwsIamAccessKeyStatusOutputReference
 ```
@@ -36593,7 +36593,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersResourceAwsIamAccessKeySt
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceAwsIamAccessKeyUserNameList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersResourceAwsIamAccessKeyUserNameList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersResourceAwsIamAccessKeyUserNameList
 ```
@@ -36742,7 +36742,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceAwsIamAccessKeyUserNameOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersResourceAwsIamAccessKeyUserNameOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersResourceAwsIamAccessKeyUserNameOutputReference
 ```
@@ -37031,7 +37031,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersResourceAwsIamAccessKeyUs
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceAwsIamUserUserNameList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersResourceAwsIamUserUserNameList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersResourceAwsIamUserUserNameList
 ```
@@ -37180,7 +37180,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceAwsIamUserUserNameOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersResourceAwsIamUserUserNameOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersResourceAwsIamUserUserNameOutputReference
 ```
@@ -37469,7 +37469,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersResourceAwsIamUserUserNam
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceAwsS3BucketOwnerIdList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersResourceAwsS3BucketOwnerIdList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersResourceAwsS3BucketOwnerIdList
 ```
@@ -37618,7 +37618,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceAwsS3BucketOwnerIdOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersResourceAwsS3BucketOwnerIdOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersResourceAwsS3BucketOwnerIdOutputReference
 ```
@@ -37907,7 +37907,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersResourceAwsS3BucketOwnerI
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceAwsS3BucketOwnerNameList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersResourceAwsS3BucketOwnerNameList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersResourceAwsS3BucketOwnerNameList
 ```
@@ -38056,7 +38056,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceAwsS3BucketOwnerNameOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersResourceAwsS3BucketOwnerNameOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersResourceAwsS3BucketOwnerNameOutputReference
 ```
@@ -38345,7 +38345,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersResourceAwsS3BucketOwnerN
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceContainerImageIdList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersResourceContainerImageIdList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersResourceContainerImageIdList
 ```
@@ -38494,7 +38494,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceContainerImageIdOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersResourceContainerImageIdOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersResourceContainerImageIdOutputReference
 ```
@@ -38783,7 +38783,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersResourceContainerImageId
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceContainerImageNameList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersResourceContainerImageNameList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersResourceContainerImageNameList
 ```
@@ -38932,7 +38932,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceContainerImageNameOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersResourceContainerImageNameOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersResourceContainerImageNameOutputReference
 ```
@@ -39221,7 +39221,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersResourceContainerImageNam
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceContainerLaunchedAtDateRangeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersResourceContainerLaunchedAtDateRangeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSecurityhubInsightFiltersResourceContainerLaunchedAtDateRangeOutputReference
 ```
@@ -39492,7 +39492,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersResourceContainerLaunched
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceContainerLaunchedAtList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersResourceContainerLaunchedAtList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersResourceContainerLaunchedAtList
 ```
@@ -39641,7 +39641,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceContainerLaunchedAtOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersResourceContainerLaunchedAtOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersResourceContainerLaunchedAtOutputReference
 ```
@@ -39941,7 +39941,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersResourceContainerLaunched
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceContainerNameList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersResourceContainerNameList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersResourceContainerNameList
 ```
@@ -40090,7 +40090,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceContainerNameOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersResourceContainerNameOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersResourceContainerNameOutputReference
 ```
@@ -40379,7 +40379,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersResourceContainerName
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceDetailsOtherList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersResourceDetailsOtherList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersResourceDetailsOtherList
 ```
@@ -40528,7 +40528,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceDetailsOtherOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersResourceDetailsOtherOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersResourceDetailsOtherOutputReference
 ```
@@ -40828,7 +40828,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersResourceDetailsOther
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceIdList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersResourceIdList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersResourceIdList
 ```
@@ -40977,7 +40977,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceIdOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersResourceIdOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersResourceIdOutputReference
 ```
@@ -41266,7 +41266,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersResourceId
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourcePartitionList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersResourcePartitionList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersResourcePartitionList
 ```
@@ -41415,7 +41415,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourcePartitionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersResourcePartitionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersResourcePartitionOutputReference
 ```
@@ -41704,7 +41704,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersResourcePartition
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceRegionList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersResourceRegionList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersResourceRegionList
 ```
@@ -41853,7 +41853,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceRegionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersResourceRegionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersResourceRegionOutputReference
 ```
@@ -42142,7 +42142,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersResourceRegion
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersResourceTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersResourceTagsList
 ```
@@ -42291,7 +42291,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersResourceTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersResourceTagsOutputReference
 ```
@@ -42591,7 +42591,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersResourceTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceTypeList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersResourceTypeList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersResourceTypeList
 ```
@@ -42740,7 +42740,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersResourceTypeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersResourceTypeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersResourceTypeOutputReference
 ```
@@ -43029,7 +43029,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersResourceType
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersSampleList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersSampleList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersSampleList
 ```
@@ -43178,7 +43178,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersSampleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersSampleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersSampleOutputReference
 ```
@@ -43456,7 +43456,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersSample
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersSeverityLabelList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersSeverityLabelList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersSeverityLabelList
 ```
@@ -43605,7 +43605,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersSeverityLabelOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersSeverityLabelOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersSeverityLabelOutputReference
 ```
@@ -43894,7 +43894,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersSeverityLabel
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersSeverityNormalizedList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersSeverityNormalizedList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersSeverityNormalizedList
 ```
@@ -44043,7 +44043,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersSeverityNormalizedOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersSeverityNormalizedOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersSeverityNormalizedOutputReference
 ```
@@ -44343,7 +44343,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersSeverityNormalized
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersSeverityProductList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersSeverityProductList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersSeverityProductList
 ```
@@ -44492,7 +44492,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersSeverityProductOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersSeverityProductOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersSeverityProductOutputReference
 ```
@@ -44792,7 +44792,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersSeverityProduct
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersSourceUrlList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersSourceUrlList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersSourceUrlList
 ```
@@ -44941,7 +44941,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersSourceUrlOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersSourceUrlOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersSourceUrlOutputReference
 ```
@@ -45230,7 +45230,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersSourceUrl
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersThreatIntelIndicatorCategoryList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersThreatIntelIndicatorCategoryList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersThreatIntelIndicatorCategoryList
 ```
@@ -45379,7 +45379,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersThreatIntelIndicatorCategoryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersThreatIntelIndicatorCategoryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersThreatIntelIndicatorCategoryOutputReference
 ```
@@ -45668,7 +45668,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersThreatIntelIndicatorCateg
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersThreatIntelIndicatorLastObservedAtDateRangeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersThreatIntelIndicatorLastObservedAtDateRangeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSecurityhubInsightFiltersThreatIntelIndicatorLastObservedAtDateRangeOutputReference
 ```
@@ -45939,7 +45939,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersThreatIntelIndicatorLastO
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersThreatIntelIndicatorLastObservedAtList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersThreatIntelIndicatorLastObservedAtList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersThreatIntelIndicatorLastObservedAtList
 ```
@@ -46088,7 +46088,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersThreatIntelIndicatorLastObservedAtOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersThreatIntelIndicatorLastObservedAtOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersThreatIntelIndicatorLastObservedAtOutputReference
 ```
@@ -46388,7 +46388,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersThreatIntelIndicatorLastO
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersThreatIntelIndicatorSourceList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersThreatIntelIndicatorSourceList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersThreatIntelIndicatorSourceList
 ```
@@ -46537,7 +46537,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersThreatIntelIndicatorSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersThreatIntelIndicatorSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersThreatIntelIndicatorSourceOutputReference
 ```
@@ -46826,7 +46826,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersThreatIntelIndicatorSourc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersThreatIntelIndicatorSourceUrlList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersThreatIntelIndicatorSourceUrlList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersThreatIntelIndicatorSourceUrlList
 ```
@@ -46975,7 +46975,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersThreatIntelIndicatorSourceUrlOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersThreatIntelIndicatorSourceUrlOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersThreatIntelIndicatorSourceUrlOutputReference
 ```
@@ -47264,7 +47264,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersThreatIntelIndicatorSourc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersThreatIntelIndicatorTypeList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersThreatIntelIndicatorTypeList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersThreatIntelIndicatorTypeList
 ```
@@ -47413,7 +47413,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersThreatIntelIndicatorTypeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersThreatIntelIndicatorTypeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersThreatIntelIndicatorTypeOutputReference
 ```
@@ -47702,7 +47702,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersThreatIntelIndicatorType
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersThreatIntelIndicatorValueList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersThreatIntelIndicatorValueList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersThreatIntelIndicatorValueList
 ```
@@ -47851,7 +47851,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersThreatIntelIndicatorValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersThreatIntelIndicatorValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersThreatIntelIndicatorValueOutputReference
 ```
@@ -48140,7 +48140,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersThreatIntelIndicatorValue
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersTitleList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersTitleList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersTitleList
 ```
@@ -48289,7 +48289,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersTitleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersTitleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersTitleOutputReference
 ```
@@ -48578,7 +48578,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersTitle
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersTypeList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersTypeList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersTypeList
 ```
@@ -48727,7 +48727,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersTypeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersTypeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersTypeOutputReference
 ```
@@ -49016,7 +49016,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersType
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersUpdatedAtDateRangeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersUpdatedAtDateRangeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSecurityhubInsightFiltersUpdatedAtDateRangeOutputReference
 ```
@@ -49287,7 +49287,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersUpdatedAtDateRange
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersUpdatedAtList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersUpdatedAtList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersUpdatedAtList
 ```
@@ -49436,7 +49436,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersUpdatedAtOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersUpdatedAtOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersUpdatedAtOutputReference
 ```
@@ -49736,7 +49736,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersUpdatedAt
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersUserDefinedFieldsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersUserDefinedFieldsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersUserDefinedFieldsList
 ```
@@ -49885,7 +49885,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersUserDefinedFieldsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersUserDefinedFieldsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersUserDefinedFieldsOutputReference
 ```
@@ -50185,7 +50185,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersUserDefinedFields
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersVerificationStateList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersVerificationStateList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersVerificationStateList
 ```
@@ -50334,7 +50334,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersVerificationStateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersVerificationStateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersVerificationStateOutputReference
 ```
@@ -50623,7 +50623,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersVerificationState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersVulnerabilitiesExploitAvailableList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersVulnerabilitiesExploitAvailableList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersVulnerabilitiesExploitAvailableList
 ```
@@ -50772,7 +50772,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersVulnerabilitiesExploitAvailableOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersVulnerabilitiesExploitAvailableOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersVulnerabilitiesExploitAvailableOutputReference
 ```
@@ -51061,7 +51061,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersVulnerabilitiesExploitAva
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersVulnerabilitiesFixAvailableList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersVulnerabilitiesFixAvailableList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersVulnerabilitiesFixAvailableList
 ```
@@ -51210,7 +51210,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersVulnerabilitiesFixAvailableOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersVulnerabilitiesFixAvailableOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersVulnerabilitiesFixAvailableOutputReference
 ```
@@ -51499,7 +51499,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersVulnerabilitiesFixAvailab
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersWorkflowStateList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersWorkflowStateList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersWorkflowStateList
 ```
@@ -51648,7 +51648,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersWorkflowStateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersWorkflowStateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersWorkflowStateOutputReference
 ```
@@ -51937,7 +51937,7 @@ func InternalValue() DataAwsccSecurityhubInsightFiltersWorkflowState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersWorkflowStatusList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersWorkflowStatusList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecurityhubInsightFiltersWorkflowStatusList
 ```
@@ -52086,7 +52086,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubInsight.DataAwsccSecurityhubInsightFiltersWorkflowStatusOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubinsight"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubinsight"
 
 dataawsccsecurityhubinsight.NewDataAwsccSecurityhubInsightFiltersWorkflowStatusOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecurityhubInsightFiltersWorkflowStatusOutputReference
 ```

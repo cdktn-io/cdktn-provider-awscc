@@ -4,12 +4,12 @@
 
 ### IotsitewiseDataset <a name="IotsitewiseDataset" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_dataset awscc_iotsitewise_dataset}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_dataset awscc_iotsitewise_dataset}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisedataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisedataset"
 
 iotsitewisedataset.NewIotsitewiseDataset(scope Construct, id *string, config IotsitewiseDatasetConfig) IotsitewiseDataset
 ```
@@ -481,7 +481,7 @@ func ResetWorkspaceName()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisedataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisedataset"
 
 iotsitewisedataset.IotsitewiseDataset_IsConstruct(x interface{}) *bool
 ```
@@ -513,7 +513,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisedataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisedataset"
 
 iotsitewisedataset.IotsitewiseDataset_IsTerraformElement(x interface{}) *bool
 ```
@@ -527,7 +527,7 @@ iotsitewisedataset.IotsitewiseDataset_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisedataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisedataset"
 
 iotsitewisedataset.IotsitewiseDataset_IsTerraformResource(x interface{}) *bool
 ```
@@ -541,7 +541,7 @@ iotsitewisedataset.IotsitewiseDataset_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisedataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisedataset"
 
 iotsitewisedataset.IotsitewiseDataset_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -570,7 +570,7 @@ The construct id used in the generated config for the IotsitewiseDataset to impo
 
 The id of the existing IotsitewiseDataset that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_dataset#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_dataset#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -957,7 +957,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisedataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisedataset"
 
 &iotsitewisedataset.IotsitewiseDatasetConfig {
 	Connection: interface{},
@@ -968,9 +968,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisedataset"
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	DatasetName: *string,
-	DatasetConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfig,
+	DatasetConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotsitewiseDataset.IotsitewiseDatasetDatasetConfig,
 	DatasetDescription: *string,
-	DatasetSource: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetSource,
+	DatasetSource: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotsitewiseDataset.IotsitewiseDatasetDatasetSource,
 	DatasetType: *string,
 	Tags: interface{},
 	WorkspaceName: *string,
@@ -1078,7 +1078,7 @@ DatasetName *string
 
 The name of the dataset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_dataset#dataset_name IotsitewiseDataset#dataset_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_dataset#dataset_name IotsitewiseDataset#dataset_name}
 
 ---
 
@@ -1092,7 +1092,7 @@ DatasetConfig IotsitewiseDatasetDatasetConfig
 
 The configuration for the dataset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_dataset#dataset_config IotsitewiseDataset#dataset_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_dataset#dataset_config IotsitewiseDataset#dataset_config}
 
 ---
 
@@ -1106,7 +1106,7 @@ DatasetDescription *string
 
 A description about the dataset, and its functionality.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_dataset#dataset_description IotsitewiseDataset#dataset_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_dataset#dataset_description IotsitewiseDataset#dataset_description}
 
 ---
 
@@ -1120,7 +1120,7 @@ DatasetSource IotsitewiseDatasetDatasetSource
 
 The data source for the dataset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_dataset#dataset_source IotsitewiseDataset#dataset_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_dataset#dataset_source IotsitewiseDataset#dataset_source}
 
 ---
 
@@ -1134,7 +1134,7 @@ DatasetType *string
 
 The type of the dataset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_dataset#dataset_type IotsitewiseDataset#dataset_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_dataset#dataset_type IotsitewiseDataset#dataset_type}
 
 ---
 
@@ -1148,7 +1148,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_dataset#tags IotsitewiseDataset#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_dataset#tags IotsitewiseDataset#tags}
 
 ---
 
@@ -1162,7 +1162,7 @@ WorkspaceName *string
 
 The name of the workspace associated with the dataset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_dataset#workspace_name IotsitewiseDataset#workspace_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_dataset#workspace_name IotsitewiseDataset#workspace_name}
 
 ---
 
@@ -1171,10 +1171,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisedataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisedataset"
 
 &iotsitewisedataset.IotsitewiseDatasetDatasetConfig {
-	Session: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSession,
+	Session: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSession,
 }
 ```
 
@@ -1196,7 +1196,7 @@ Session IotsitewiseDatasetDatasetConfigSession
 
 The session configuration for a SESSION dataset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_dataset#session IotsitewiseDataset#session}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_dataset#session IotsitewiseDataset#session}
 
 ---
 
@@ -1205,7 +1205,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSession.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisedataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisedataset"
 
 &iotsitewisedataset.IotsitewiseDatasetDatasetConfigSession {
 	SessionEndTime: *string,
@@ -1232,7 +1232,7 @@ SessionEndTime *string
 
 The end time of the session as an ISO 8601 UTC instant, for example 2024-12-31T23:59:59Z.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_dataset#session_end_time IotsitewiseDataset#session_end_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_dataset#session_end_time IotsitewiseDataset#session_end_time}
 
 ---
 
@@ -1246,7 +1246,7 @@ SessionStartTime *string
 
 The start time of the session as an ISO 8601 UTC instant, for example 2024-01-01T00:00:00Z.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_dataset#session_start_time IotsitewiseDataset#session_start_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_dataset#session_start_time IotsitewiseDataset#session_start_time}
 
 ---
 
@@ -1255,10 +1255,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisedataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisedataset"
 
 &iotsitewisedataset.IotsitewiseDatasetDatasetSource {
-	SourceDetail: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetSourceSourceDetail,
+	SourceDetail: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotsitewiseDataset.IotsitewiseDatasetDatasetSourceSourceDetail,
 	SourceFormat: *string,
 	SourceType: *string,
 }
@@ -1284,7 +1284,7 @@ SourceDetail IotsitewiseDatasetDatasetSourceSourceDetail
 
 The details of the dataset source associated with the dataset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_dataset#source_detail IotsitewiseDataset#source_detail}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_dataset#source_detail IotsitewiseDataset#source_detail}
 
 ---
 
@@ -1298,7 +1298,7 @@ SourceFormat *string
 
 The format of the dataset source associated with the dataset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_dataset#source_format IotsitewiseDataset#source_format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_dataset#source_format IotsitewiseDataset#source_format}
 
 ---
 
@@ -1312,7 +1312,7 @@ SourceType *string
 
 The type of data source for the dataset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_dataset#source_type IotsitewiseDataset#source_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_dataset#source_type IotsitewiseDataset#source_type}
 
 ---
 
@@ -1321,10 +1321,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetSourceSourceDetail.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisedataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisedataset"
 
 &iotsitewisedataset.IotsitewiseDatasetDatasetSourceSourceDetail {
-	Kendra: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetSourceSourceDetailKendra,
+	Kendra: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotsitewiseDataset.IotsitewiseDatasetDatasetSourceSourceDetailKendra,
 }
 ```
 
@@ -1346,7 +1346,7 @@ Kendra IotsitewiseDatasetDatasetSourceSourceDetailKendra
 
 Contains details about the Kendra dataset source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_dataset#kendra IotsitewiseDataset#kendra}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_dataset#kendra IotsitewiseDataset#kendra}
 
 ---
 
@@ -1355,7 +1355,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetSourceSourceDetailKendra.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisedataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisedataset"
 
 &iotsitewisedataset.IotsitewiseDatasetDatasetSourceSourceDetailKendra {
 	KnowledgeBaseArn: *string,
@@ -1382,7 +1382,7 @@ KnowledgeBaseArn *string
 
 The knowledgeBaseArn details for the Kendra dataset source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_dataset#knowledge_base_arn IotsitewiseDataset#knowledge_base_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_dataset#knowledge_base_arn IotsitewiseDataset#knowledge_base_arn}
 
 ---
 
@@ -1396,7 +1396,7 @@ RoleArn *string
 
 The roleARN details for the Kendra dataset source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_dataset#role_arn IotsitewiseDataset#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_dataset#role_arn IotsitewiseDataset#role_arn}
 
 ---
 
@@ -1405,7 +1405,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisedataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisedataset"
 
 &iotsitewisedataset.IotsitewiseDatasetTags {
 	Key: *string,
@@ -1417,8 +1417,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisedataset"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_dataset#key IotsitewiseDataset#key}. |
-| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_dataset#value IotsitewiseDataset#value}. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_dataset#key IotsitewiseDataset#key}. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_dataset#value IotsitewiseDataset#value}. |
 
 ---
 
@@ -1430,7 +1430,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_dataset#key IotsitewiseDataset#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_dataset#key IotsitewiseDataset#key}.
 
 ---
 
@@ -1442,7 +1442,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_dataset#value IotsitewiseDataset#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_dataset#value IotsitewiseDataset#value}.
 
 ---
 
@@ -1453,7 +1453,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisedataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisedataset"
 
 iotsitewisedataset.NewIotsitewiseDatasetDatasetConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotsitewiseDatasetDatasetConfigOutputReference
 ```
@@ -1744,7 +1744,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSessionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisedataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisedataset"
 
 iotsitewisedataset.NewIotsitewiseDatasetDatasetConfigSessionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotsitewiseDatasetDatasetConfigSessionOutputReference
 ```
@@ -2051,7 +2051,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisedataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisedataset"
 
 iotsitewisedataset.NewIotsitewiseDatasetDatasetSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotsitewiseDatasetDatasetSourceOutputReference
 ```
@@ -2400,7 +2400,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetSourceSourceDetailKendraOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisedataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisedataset"
 
 iotsitewisedataset.NewIotsitewiseDatasetDatasetSourceSourceDetailKendraOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotsitewiseDatasetDatasetSourceSourceDetailKendraOutputReference
 ```
@@ -2707,7 +2707,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetSourceSourceDetailOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisedataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisedataset"
 
 iotsitewisedataset.NewIotsitewiseDatasetDatasetSourceSourceDetailOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotsitewiseDatasetDatasetSourceSourceDetailOutputReference
 ```
@@ -2998,7 +2998,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisedataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisedataset"
 
 iotsitewisedataset.NewIotsitewiseDatasetTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IotsitewiseDatasetTagsList
 ```
@@ -3158,7 +3158,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisedataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisedataset"
 
 iotsitewisedataset.NewIotsitewiseDatasetTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IotsitewiseDatasetTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccControltowerLandingZones <a name="DataAwsccControltowerLandingZones" id="@cdktn/provider-awscc.dataAwsccControltowerLandingZones.DataAwsccControltowerLandingZones"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/controltower_landing_zones awscc_controltower_landing_zones}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/controltower_landing_zones awscc_controltower_landing_zones}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccControltowerLandingZones.DataAwsccControltowerLandingZones.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccontroltowerlandingzones"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccontroltowerlandingzones"
 
 dataawscccontroltowerlandingzones.NewDataAwsccControltowerLandingZones(scope Construct, id *string, config DataAwsccControltowerLandingZonesConfig) DataAwsccControltowerLandingZones
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccControltowerLandingZones.DataAwsccControltowerLandingZones.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccontroltowerlandingzones"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccontroltowerlandingzones"
 
 dataawscccontroltowerlandingzones.DataAwsccControltowerLandingZones_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccControltowerLandingZones.DataAwsccControltowerLandingZones.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccontroltowerlandingzones"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccontroltowerlandingzones"
 
 dataawscccontroltowerlandingzones.DataAwsccControltowerLandingZones_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccontroltowerlandingzones.DataAwsccControltowerLandingZones_IsTerraformE
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccControltowerLandingZones.DataAwsccControltowerLandingZones.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccontroltowerlandingzones"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccontroltowerlandingzones"
 
 dataawscccontroltowerlandingzones.DataAwsccControltowerLandingZones_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccontroltowerlandingzones.DataAwsccControltowerLandingZones_IsTerraformD
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccControltowerLandingZones.DataAwsccControltowerLandingZones.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccontroltowerlandingzones"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccontroltowerlandingzones"
 
 dataawscccontroltowerlandingzones.DataAwsccControltowerLandingZones_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccControltowerLandi
 
 The id of the existing DataAwsccControltowerLandingZones that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/controltower_landing_zones#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/controltower_landing_zones#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccControltowerLandingZones.DataAwsccControltowerLandingZonesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccontroltowerlandingzones"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccontroltowerlandingzones"
 
 &dataawscccontroltowerlandingzones.DataAwsccControltowerLandingZonesConfig {
 	Connection: interface{},

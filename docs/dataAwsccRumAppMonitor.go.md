@@ -4,12 +4,12 @@
 
 ### DataAwsccRumAppMonitor <a name="DataAwsccRumAppMonitor" id="@cdktn/provider-awscc.dataAwsccRumAppMonitor.DataAwsccRumAppMonitor"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rum_app_monitor awscc_rum_app_monitor}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rum_app_monitor awscc_rum_app_monitor}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRumAppMonitor.DataAwsccRumAppMonitor.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrumappmonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrumappmonitor"
 
 dataawsccrumappmonitor.NewDataAwsccRumAppMonitor(scope Construct, id *string, config DataAwsccRumAppMonitorConfig) DataAwsccRumAppMonitor
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccRumAppMonitor.DataAwsccRumAppMonitor.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrumappmonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrumappmonitor"
 
 dataawsccrumappmonitor.DataAwsccRumAppMonitor_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccRumAppMonitor.DataAwsccRumAppMonitor.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrumappmonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrumappmonitor"
 
 dataawsccrumappmonitor.DataAwsccRumAppMonitor_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccrumappmonitor.DataAwsccRumAppMonitor_IsTerraformElement(x interface{}) 
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccRumAppMonitor.DataAwsccRumAppMonitor.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrumappmonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrumappmonitor"
 
 dataawsccrumappmonitor.DataAwsccRumAppMonitor_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccrumappmonitor.DataAwsccRumAppMonitor_IsTerraformDataSource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccRumAppMonitor.DataAwsccRumAppMonitor.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrumappmonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrumappmonitor"
 
 dataawsccrumappmonitor.DataAwsccRumAppMonitor_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRumAppMonitor to 
 
 The id of the existing DataAwsccRumAppMonitor that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rum_app_monitor#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rum_app_monitor#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -708,7 +708,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRumAppMonitor.DataAwsccRumAppMonitorAppMonitorConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrumappmonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrumappmonitor"
 
 &dataawsccrumappmonitor.DataAwsccRumAppMonitorAppMonitorConfiguration {
 
@@ -721,7 +721,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrumappmonitor
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRumAppMonitor.DataAwsccRumAppMonitorAppMonitorConfigurationMetricDestinations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrumappmonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrumappmonitor"
 
 &dataawsccrumappmonitor.DataAwsccRumAppMonitorAppMonitorConfigurationMetricDestinations {
 
@@ -734,7 +734,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrumappmonitor
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRumAppMonitor.DataAwsccRumAppMonitorAppMonitorConfigurationMetricDestinationsMetricDefinitions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrumappmonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrumappmonitor"
 
 &dataawsccrumappmonitor.DataAwsccRumAppMonitorAppMonitorConfigurationMetricDestinationsMetricDefinitions {
 
@@ -747,7 +747,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrumappmonitor
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRumAppMonitor.DataAwsccRumAppMonitorConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrumappmonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrumappmonitor"
 
 &dataawsccrumappmonitor.DataAwsccRumAppMonitorConfig {
 	Connection: interface{},
@@ -856,7 +856,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rum_app_monitor#id DataAwsccRumAppMonitor#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rum_app_monitor#id DataAwsccRumAppMonitor#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -868,7 +868,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRumAppMonitor.DataAwsccRumAppMonitorCustomEvents.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrumappmonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrumappmonitor"
 
 &dataawsccrumappmonitor.DataAwsccRumAppMonitorCustomEvents {
 
@@ -881,7 +881,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrumappmonitor
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRumAppMonitor.DataAwsccRumAppMonitorDeobfuscationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrumappmonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrumappmonitor"
 
 &dataawsccrumappmonitor.DataAwsccRumAppMonitorDeobfuscationConfiguration {
 
@@ -894,7 +894,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrumappmonitor
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRumAppMonitor.DataAwsccRumAppMonitorDeobfuscationConfigurationJavaScriptSourceMaps.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrumappmonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrumappmonitor"
 
 &dataawsccrumappmonitor.DataAwsccRumAppMonitorDeobfuscationConfigurationJavaScriptSourceMaps {
 
@@ -907,7 +907,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrumappmonitor
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRumAppMonitor.DataAwsccRumAppMonitorResourcePolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrumappmonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrumappmonitor"
 
 &dataawsccrumappmonitor.DataAwsccRumAppMonitorResourcePolicy {
 
@@ -920,7 +920,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrumappmonitor
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRumAppMonitor.DataAwsccRumAppMonitorTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrumappmonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrumappmonitor"
 
 &dataawsccrumappmonitor.DataAwsccRumAppMonitorTags {
 
@@ -935,7 +935,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrumappmonitor
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRumAppMonitor.DataAwsccRumAppMonitorAppMonitorConfigurationMetricDestinationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrumappmonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrumappmonitor"
 
 dataawsccrumappmonitor.NewDataAwsccRumAppMonitorAppMonitorConfigurationMetricDestinationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccRumAppMonitorAppMonitorConfigurationMetricDestinationsList
 ```
@@ -1084,7 +1084,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRumAppMonitor.DataAwsccRumAppMonitorAppMonitorConfigurationMetricDestinationsMetricDefinitionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrumappmonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrumappmonitor"
 
 dataawsccrumappmonitor.NewDataAwsccRumAppMonitorAppMonitorConfigurationMetricDestinationsMetricDefinitionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccRumAppMonitorAppMonitorConfigurationMetricDestinationsMetricDefinitionsList
 ```
@@ -1233,7 +1233,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRumAppMonitor.DataAwsccRumAppMonitorAppMonitorConfigurationMetricDestinationsMetricDefinitionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrumappmonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrumappmonitor"
 
 dataawsccrumappmonitor.NewDataAwsccRumAppMonitorAppMonitorConfigurationMetricDestinationsMetricDefinitionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccRumAppMonitorAppMonitorConfigurationMetricDestinationsMetricDefinitionsOutputReference
 ```
@@ -1566,7 +1566,7 @@ func InternalValue() DataAwsccRumAppMonitorAppMonitorConfigurationMetricDestinat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRumAppMonitor.DataAwsccRumAppMonitorAppMonitorConfigurationMetricDestinationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrumappmonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrumappmonitor"
 
 dataawsccrumappmonitor.NewDataAwsccRumAppMonitorAppMonitorConfigurationMetricDestinationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccRumAppMonitorAppMonitorConfigurationMetricDestinationsOutputReference
 ```
@@ -1877,7 +1877,7 @@ func InternalValue() DataAwsccRumAppMonitorAppMonitorConfigurationMetricDestinat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRumAppMonitor.DataAwsccRumAppMonitorAppMonitorConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrumappmonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrumappmonitor"
 
 dataawsccrumappmonitor.NewDataAwsccRumAppMonitorAppMonitorConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccRumAppMonitorAppMonitorConfigurationOutputReference
 ```
@@ -2236,7 +2236,7 @@ func InternalValue() DataAwsccRumAppMonitorAppMonitorConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRumAppMonitor.DataAwsccRumAppMonitorCustomEventsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrumappmonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrumappmonitor"
 
 dataawsccrumappmonitor.NewDataAwsccRumAppMonitorCustomEventsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccRumAppMonitorCustomEventsOutputReference
 ```
@@ -2496,7 +2496,7 @@ func InternalValue() DataAwsccRumAppMonitorCustomEvents
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRumAppMonitor.DataAwsccRumAppMonitorDeobfuscationConfigurationJavaScriptSourceMapsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrumappmonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrumappmonitor"
 
 dataawsccrumappmonitor.NewDataAwsccRumAppMonitorDeobfuscationConfigurationJavaScriptSourceMapsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccRumAppMonitorDeobfuscationConfigurationJavaScriptSourceMapsOutputReference
 ```
@@ -2767,7 +2767,7 @@ func InternalValue() DataAwsccRumAppMonitorDeobfuscationConfigurationJavaScriptS
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRumAppMonitor.DataAwsccRumAppMonitorDeobfuscationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrumappmonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrumappmonitor"
 
 dataawsccrumappmonitor.NewDataAwsccRumAppMonitorDeobfuscationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccRumAppMonitorDeobfuscationConfigurationOutputReference
 ```
@@ -3027,7 +3027,7 @@ func InternalValue() DataAwsccRumAppMonitorDeobfuscationConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRumAppMonitor.DataAwsccRumAppMonitorResourcePolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrumappmonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrumappmonitor"
 
 dataawsccrumappmonitor.NewDataAwsccRumAppMonitorResourcePolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccRumAppMonitorResourcePolicyOutputReference
 ```
@@ -3298,7 +3298,7 @@ func InternalValue() DataAwsccRumAppMonitorResourcePolicy
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRumAppMonitor.DataAwsccRumAppMonitorTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrumappmonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrumappmonitor"
 
 dataawsccrumappmonitor.NewDataAwsccRumAppMonitorTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccRumAppMonitorTagsList
 ```
@@ -3447,7 +3447,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRumAppMonitor.DataAwsccRumAppMonitorTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrumappmonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrumappmonitor"
 
 dataawsccrumappmonitor.NewDataAwsccRumAppMonitorTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccRumAppMonitorTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccSecretsmanagerSecretTargetAttachments <a name="DataAwsccSecretsmanagerSecretTargetAttachments" id="@cdktn/provider-awscc.dataAwsccSecretsmanagerSecretTargetAttachments.DataAwsccSecretsmanagerSecretTargetAttachments"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/secretsmanager_secret_target_attachments awscc_secretsmanager_secret_target_attachments}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/secretsmanager_secret_target_attachments awscc_secretsmanager_secret_target_attachments}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecretsmanagerSecretTargetAttachments.DataAwsccSecretsmanagerSecretTargetAttachments.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecretsmanagersecrettargetattachments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecretsmanagersecrettargetattachments"
 
 dataawsccsecretsmanagersecrettargetattachments.NewDataAwsccSecretsmanagerSecretTargetAttachments(scope Construct, id *string, config DataAwsccSecretsmanagerSecretTargetAttachmentsConfig) DataAwsccSecretsmanagerSecretTargetAttachments
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSecretsmanagerSecretTargetAttachments.DataAwsccSecretsmanagerSecretTargetAttachments.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecretsmanagersecrettargetattachments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecretsmanagersecrettargetattachments"
 
 dataawsccsecretsmanagersecrettargetattachments.DataAwsccSecretsmanagerSecretTargetAttachments_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSecretsmanagerSecretTargetAttachments.DataAwsccSecretsmanagerSecretTargetAttachments.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecretsmanagersecrettargetattachments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecretsmanagersecrettargetattachments"
 
 dataawsccsecretsmanagersecrettargetattachments.DataAwsccSecretsmanagerSecretTargetAttachments_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsecretsmanagersecrettargetattachments.DataAwsccSecretsmanagerSecretTarg
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSecretsmanagerSecretTargetAttachments.DataAwsccSecretsmanagerSecretTargetAttachments.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecretsmanagersecrettargetattachments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecretsmanagersecrettargetattachments"
 
 dataawsccsecretsmanagersecrettargetattachments.DataAwsccSecretsmanagerSecretTargetAttachments_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsecretsmanagersecrettargetattachments.DataAwsccSecretsmanagerSecretTarg
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSecretsmanagerSecretTargetAttachments.DataAwsccSecretsmanagerSecretTargetAttachments.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecretsmanagersecrettargetattachments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecretsmanagersecrettargetattachments"
 
 dataawsccsecretsmanagersecrettargetattachments.DataAwsccSecretsmanagerSecretTargetAttachments_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSecretsmanagerSec
 
 The id of the existing DataAwsccSecretsmanagerSecretTargetAttachments that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/secretsmanager_secret_target_attachments#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/secretsmanager_secret_target_attachments#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecretsmanagerSecretTargetAttachments.DataAwsccSecretsmanagerSecretTargetAttachmentsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecretsmanagersecrettargetattachments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecretsmanagersecrettargetattachments"
 
 &dataawsccsecretsmanagersecrettargetattachments.DataAwsccSecretsmanagerSecretTargetAttachmentsConfig {
 	Connection: interface{},

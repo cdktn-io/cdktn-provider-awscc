@@ -4,12 +4,12 @@
 
 ### LightsailLoadBalancerTlsCertificate <a name="LightsailLoadBalancerTlsCertificate" id="@cdktn/provider-awscc.lightsailLoadBalancerTlsCertificate.LightsailLoadBalancerTlsCertificate"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_load_balancer_tls_certificate awscc_lightsail_load_balancer_tls_certificate}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_load_balancer_tls_certificate awscc_lightsail_load_balancer_tls_certificate}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lightsailLoadBalancerTlsCertificate.LightsailLoadBalancerTlsCertificate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailloadbalancertlscertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailloadbalancertlscertificate"
 
 lightsailloadbalancertlscertificate.NewLightsailLoadBalancerTlsCertificate(scope Construct, id *string, config LightsailLoadBalancerTlsCertificateConfig) LightsailLoadBalancerTlsCertificate
 ```
@@ -421,7 +421,7 @@ func ResetIsAttached()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.lightsailLoadBalancerTlsCertificate.LightsailLoadBalancerTlsCertificate.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailloadbalancertlscertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailloadbalancertlscertificate"
 
 lightsailloadbalancertlscertificate.LightsailLoadBalancerTlsCertificate_IsConstruct(x interface{}) *bool
 ```
@@ -453,7 +453,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.lightsailLoadBalancerTlsCertificate.LightsailLoadBalancerTlsCertificate.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailloadbalancertlscertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailloadbalancertlscertificate"
 
 lightsailloadbalancertlscertificate.LightsailLoadBalancerTlsCertificate_IsTerraformElement(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ lightsailloadbalancertlscertificate.LightsailLoadBalancerTlsCertificate_IsTerraf
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.lightsailLoadBalancerTlsCertificate.LightsailLoadBalancerTlsCertificate.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailloadbalancertlscertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailloadbalancertlscertificate"
 
 lightsailloadbalancertlscertificate.LightsailLoadBalancerTlsCertificate_IsTerraformResource(x interface{}) *bool
 ```
@@ -481,7 +481,7 @@ lightsailloadbalancertlscertificate.LightsailLoadBalancerTlsCertificate_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.lightsailLoadBalancerTlsCertificate.LightsailLoadBalancerTlsCertificate.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailloadbalancertlscertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailloadbalancertlscertificate"
 
 lightsailloadbalancertlscertificate.LightsailLoadBalancerTlsCertificate_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -510,7 +510,7 @@ The construct id used in the generated config for the LightsailLoadBalancerTlsCe
 
 The id of the existing LightsailLoadBalancerTlsCertificate that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_load_balancer_tls_certificate#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_load_balancer_tls_certificate#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -875,7 +875,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lightsailLoadBalancerTlsCertificate.LightsailLoadBalancerTlsCertificateConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailloadbalancertlscertificate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailloadbalancertlscertificate"
 
 &lightsailloadbalancertlscertificate.LightsailLoadBalancerTlsCertificateConfig {
 	Connection: interface{},
@@ -994,7 +994,7 @@ CertificateDomainName *string
 
 The domain name (e.g., example.com ) for your SSL/TLS certificate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_load_balancer_tls_certificate#certificate_domain_name LightsailLoadBalancerTlsCertificate#certificate_domain_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_load_balancer_tls_certificate#certificate_domain_name LightsailLoadBalancerTlsCertificate#certificate_domain_name}
 
 ---
 
@@ -1008,7 +1008,7 @@ CertificateName *string
 
 The SSL/TLS certificate name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_load_balancer_tls_certificate#certificate_name LightsailLoadBalancerTlsCertificate#certificate_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_load_balancer_tls_certificate#certificate_name LightsailLoadBalancerTlsCertificate#certificate_name}
 
 ---
 
@@ -1022,7 +1022,7 @@ LoadBalancerName *string
 
 The name of your load balancer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_load_balancer_tls_certificate#load_balancer_name LightsailLoadBalancerTlsCertificate#load_balancer_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_load_balancer_tls_certificate#load_balancer_name LightsailLoadBalancerTlsCertificate#load_balancer_name}
 
 ---
 
@@ -1036,7 +1036,7 @@ CertificateAlternativeNames *[]*string
 
 An array of strings listing alternative domains and subdomains for your SSL/TLS certificate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_load_balancer_tls_certificate#certificate_alternative_names LightsailLoadBalancerTlsCertificate#certificate_alternative_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_load_balancer_tls_certificate#certificate_alternative_names LightsailLoadBalancerTlsCertificate#certificate_alternative_names}
 
 ---
 
@@ -1050,7 +1050,7 @@ HttpsRedirectionEnabled interface{}
 
 A Boolean value that indicates whether HTTPS redirection is enabled for the load balancer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_load_balancer_tls_certificate#https_redirection_enabled LightsailLoadBalancerTlsCertificate#https_redirection_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_load_balancer_tls_certificate#https_redirection_enabled LightsailLoadBalancerTlsCertificate#https_redirection_enabled}
 
 ---
 
@@ -1064,7 +1064,7 @@ IsAttached interface{}
 
 When true, the SSL/TLS certificate is attached to the Lightsail load balancer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_load_balancer_tls_certificate#is_attached LightsailLoadBalancerTlsCertificate#is_attached}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_load_balancer_tls_certificate#is_attached LightsailLoadBalancerTlsCertificate#is_attached}
 
 ---
 

@@ -4,12 +4,12 @@
 
 ### DirectconnectDirectConnectGatewayAssociation <a name="DirectconnectDirectConnectGatewayAssociation" id="@cdktn/provider-awscc.directconnectDirectConnectGatewayAssociation.DirectconnectDirectConnectGatewayAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/directconnect_direct_connect_gateway_association awscc_directconnect_direct_connect_gateway_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/directconnect_direct_connect_gateway_association awscc_directconnect_direct_connect_gateway_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.directconnectDirectConnectGatewayAssociation.DirectconnectDirectConnectGatewayAssociation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/directconnectdirectconnectgatewayassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/directconnectdirectconnectgatewayassociation"
 
 directconnectdirectconnectgatewayassociation.NewDirectconnectDirectConnectGatewayAssociation(scope Construct, id *string, config DirectconnectDirectConnectGatewayAssociationConfig) DirectconnectDirectConnectGatewayAssociation
 ```
@@ -414,7 +414,7 @@ func ResetAllowedPrefixesToDirectConnectGateway()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.directconnectDirectConnectGatewayAssociation.DirectconnectDirectConnectGatewayAssociation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/directconnectdirectconnectgatewayassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/directconnectdirectconnectgatewayassociation"
 
 directconnectdirectconnectgatewayassociation.DirectconnectDirectConnectGatewayAssociation_IsConstruct(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.directconnectDirectConnectGatewayAssociation.DirectconnectDirectConnectGatewayAssociation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/directconnectdirectconnectgatewayassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/directconnectdirectconnectgatewayassociation"
 
 directconnectdirectconnectgatewayassociation.DirectconnectDirectConnectGatewayAssociation_IsTerraformElement(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ directconnectdirectconnectgatewayassociation.DirectconnectDirectConnectGatewayAs
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.directconnectDirectConnectGatewayAssociation.DirectconnectDirectConnectGatewayAssociation.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/directconnectdirectconnectgatewayassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/directconnectdirectconnectgatewayassociation"
 
 directconnectdirectconnectgatewayassociation.DirectconnectDirectConnectGatewayAssociation_IsTerraformResource(x interface{}) *bool
 ```
@@ -474,7 +474,7 @@ directconnectdirectconnectgatewayassociation.DirectconnectDirectConnectGatewayAs
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.directconnectDirectConnectGatewayAssociation.DirectconnectDirectConnectGatewayAssociation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/directconnectdirectconnectgatewayassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/directconnectdirectconnectgatewayassociation"
 
 directconnectdirectconnectgatewayassociation.DirectconnectDirectConnectGatewayAssociation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -503,7 +503,7 @@ The construct id used in the generated config for the DirectconnectDirectConnect
 
 The id of the existing DirectconnectDirectConnectGatewayAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/directconnect_direct_connect_gateway_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/directconnect_direct_connect_gateway_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -813,7 +813,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.directconnectDirectConnectGatewayAssociation.DirectconnectDirectConnectGatewayAssociationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/directconnectdirectconnectgatewayassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/directconnectdirectconnectgatewayassociation"
 
 &directconnectdirectconnectgatewayassociation.DirectconnectDirectConnectGatewayAssociationConfig {
 	Connection: interface{},
@@ -928,7 +928,7 @@ AssociatedGatewayId *string
 
 The ID or ARN of the virtual private gateway or transit gateway.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/directconnect_direct_connect_gateway_association#associated_gateway_id DirectconnectDirectConnectGatewayAssociation#associated_gateway_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/directconnect_direct_connect_gateway_association#associated_gateway_id DirectconnectDirectConnectGatewayAssociation#associated_gateway_id}
 
 ---
 
@@ -942,7 +942,7 @@ DirectConnectGatewayId *string
 
 The ID or ARN of the Direct Connect gateway.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/directconnect_direct_connect_gateway_association#direct_connect_gateway_id DirectconnectDirectConnectGatewayAssociation#direct_connect_gateway_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/directconnect_direct_connect_gateway_association#direct_connect_gateway_id DirectconnectDirectConnectGatewayAssociation#direct_connect_gateway_id}
 
 ---
 
@@ -956,7 +956,7 @@ AcceptDirectConnectGatewayAssociationProposalRoleArn *string
 
 The Amazon Resource Name (ARN) of the role to accept the Direct Connect Gateway association proposal. Needs directconnect:AcceptDirectConnectGatewayAssociationProposal permissions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/directconnect_direct_connect_gateway_association#accept_direct_connect_gateway_association_proposal_role_arn DirectconnectDirectConnectGatewayAssociation#accept_direct_connect_gateway_association_proposal_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/directconnect_direct_connect_gateway_association#accept_direct_connect_gateway_association_proposal_role_arn DirectconnectDirectConnectGatewayAssociation#accept_direct_connect_gateway_association_proposal_role_arn}
 
 ---
 
@@ -972,7 +972,7 @@ The Amazon VPC prefixes to advertise to the Direct Connect gateway.
 
 This parameter is required when you create an association to a transit gateway.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/directconnect_direct_connect_gateway_association#allowed_prefixes_to_direct_connect_gateway DirectconnectDirectConnectGatewayAssociation#allowed_prefixes_to_direct_connect_gateway}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/directconnect_direct_connect_gateway_association#allowed_prefixes_to_direct_connect_gateway DirectconnectDirectConnectGatewayAssociation#allowed_prefixes_to_direct_connect_gateway}
 
 ---
 

@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2LocalGatewayRouteTableVirtualInterfaceGroupAssociations <a name="DataAwsccEc2LocalGatewayRouteTableVirtualInterfaceGroupAssociations" id="@cdktn/provider-awscc.dataAwsccEc2LocalGatewayRouteTableVirtualInterfaceGroupAssociations.DataAwsccEc2LocalGatewayRouteTableVirtualInterfaceGroupAssociations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_local_gateway_route_table_virtual_interface_group_associations awscc_ec2_local_gateway_route_table_virtual_interface_group_associations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_local_gateway_route_table_virtual_interface_group_associations awscc_ec2_local_gateway_route_table_virtual_interface_group_associations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2LocalGatewayRouteTableVirtualInterfaceGroupAssociations.DataAwsccEc2LocalGatewayRouteTableVirtualInterfaceGroupAssociations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2localgatewayroutetablevirtualinterfacegroupassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2localgatewayroutetablevirtualinterfacegroupassociations"
 
 dataawsccec2localgatewayroutetablevirtualinterfacegroupassociations.NewDataAwsccEc2LocalGatewayRouteTableVirtualInterfaceGroupAssociations(scope Construct, id *string, config DataAwsccEc2LocalGatewayRouteTableVirtualInterfaceGroupAssociationsConfig) DataAwsccEc2LocalGatewayRouteTableVirtualInterfaceGroupAssociations
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2LocalGatewayRouteTableVirtualInterfaceGroupAssociations.DataAwsccEc2LocalGatewayRouteTableVirtualInterfaceGroupAssociations.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2localgatewayroutetablevirtualinterfacegroupassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2localgatewayroutetablevirtualinterfacegroupassociations"
 
 dataawsccec2localgatewayroutetablevirtualinterfacegroupassociations.DataAwsccEc2LocalGatewayRouteTableVirtualInterfaceGroupAssociations_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2LocalGatewayRouteTableVirtualInterfaceGroupAssociations.DataAwsccEc2LocalGatewayRouteTableVirtualInterfaceGroupAssociations.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2localgatewayroutetablevirtualinterfacegroupassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2localgatewayroutetablevirtualinterfacegroupassociations"
 
 dataawsccec2localgatewayroutetablevirtualinterfacegroupassociations.DataAwsccEc2LocalGatewayRouteTableVirtualInterfaceGroupAssociations_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2localgatewayroutetablevirtualinterfacegroupassociations.DataAwsccEc2
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2LocalGatewayRouteTableVirtualInterfaceGroupAssociations.DataAwsccEc2LocalGatewayRouteTableVirtualInterfaceGroupAssociations.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2localgatewayroutetablevirtualinterfacegroupassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2localgatewayroutetablevirtualinterfacegroupassociations"
 
 dataawsccec2localgatewayroutetablevirtualinterfacegroupassociations.DataAwsccEc2LocalGatewayRouteTableVirtualInterfaceGroupAssociations_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2localgatewayroutetablevirtualinterfacegroupassociations.DataAwsccEc2
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2LocalGatewayRouteTableVirtualInterfaceGroupAssociations.DataAwsccEc2LocalGatewayRouteTableVirtualInterfaceGroupAssociations.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2localgatewayroutetablevirtualinterfacegroupassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2localgatewayroutetablevirtualinterfacegroupassociations"
 
 dataawsccec2localgatewayroutetablevirtualinterfacegroupassociations.DataAwsccEc2LocalGatewayRouteTableVirtualInterfaceGroupAssociations_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2LocalGatewayRo
 
 The id of the existing DataAwsccEc2LocalGatewayRouteTableVirtualInterfaceGroupAssociations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_local_gateway_route_table_virtual_interface_group_associations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_local_gateway_route_table_virtual_interface_group_associations#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2LocalGatewayRouteTableVirtualInterfaceGroupAssociations.DataAwsccEc2LocalGatewayRouteTableVirtualInterfaceGroupAssociationsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2localgatewayroutetablevirtualinterfacegroupassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2localgatewayroutetablevirtualinterfacegroupassociations"
 
 &dataawsccec2localgatewayroutetablevirtualinterfacegroupassociations.DataAwsccEc2LocalGatewayRouteTableVirtualInterfaceGroupAssociationsConfig {
 	Connection: interface{},

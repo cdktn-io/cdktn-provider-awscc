@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2SecurityGroupEgresses <a name="DataAwsccEc2SecurityGroupEgresses" id="@cdktn/provider-awscc.dataAwsccEc2SecurityGroupEgresses.DataAwsccEc2SecurityGroupEgresses"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_security_group_egresses awscc_ec2_security_group_egresses}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_security_group_egresses awscc_ec2_security_group_egresses}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SecurityGroupEgresses.DataAwsccEc2SecurityGroupEgresses.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2securitygroupegresses"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2securitygroupegresses"
 
 dataawsccec2securitygroupegresses.NewDataAwsccEc2SecurityGroupEgresses(scope Construct, id *string, config DataAwsccEc2SecurityGroupEgressesConfig) DataAwsccEc2SecurityGroupEgresses
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2SecurityGroupEgresses.DataAwsccEc2SecurityGroupEgresses.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2securitygroupegresses"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2securitygroupegresses"
 
 dataawsccec2securitygroupegresses.DataAwsccEc2SecurityGroupEgresses_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2SecurityGroupEgresses.DataAwsccEc2SecurityGroupEgresses.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2securitygroupegresses"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2securitygroupegresses"
 
 dataawsccec2securitygroupegresses.DataAwsccEc2SecurityGroupEgresses_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2securitygroupegresses.DataAwsccEc2SecurityGroupEgresses_IsTerraformE
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2SecurityGroupEgresses.DataAwsccEc2SecurityGroupEgresses.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2securitygroupegresses"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2securitygroupegresses"
 
 dataawsccec2securitygroupegresses.DataAwsccEc2SecurityGroupEgresses_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2securitygroupegresses.DataAwsccEc2SecurityGroupEgresses_IsTerraformD
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2SecurityGroupEgresses.DataAwsccEc2SecurityGroupEgresses.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2securitygroupegresses"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2securitygroupegresses"
 
 dataawsccec2securitygroupegresses.DataAwsccEc2SecurityGroupEgresses_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2SecurityGroupE
 
 The id of the existing DataAwsccEc2SecurityGroupEgresses that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_security_group_egresses#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_security_group_egresses#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2SecurityGroupEgresses.DataAwsccEc2SecurityGroupEgressesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2securitygroupegresses"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2securitygroupegresses"
 
 &dataawsccec2securitygroupegresses.DataAwsccEc2SecurityGroupEgressesConfig {
 	Connection: interface{},

@@ -4,12 +4,12 @@
 
 ### DataAwsccLightsailInstanceSnapshot <a name="DataAwsccLightsailInstanceSnapshot" id="@cdktn/provider-awscc.dataAwsccLightsailInstanceSnapshot.DataAwsccLightsailInstanceSnapshot"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lightsail_instance_snapshot awscc_lightsail_instance_snapshot}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lightsail_instance_snapshot awscc_lightsail_instance_snapshot}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLightsailInstanceSnapshot.DataAwsccLightsailInstanceSnapshot.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailinstancesnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailinstancesnapshot"
 
 dataawscclightsailinstancesnapshot.NewDataAwsccLightsailInstanceSnapshot(scope Construct, id *string, config DataAwsccLightsailInstanceSnapshotConfig) DataAwsccLightsailInstanceSnapshot
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccLightsailInstanceSnapshot.DataAwsccLightsailInstanceSnapshot.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailinstancesnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailinstancesnapshot"
 
 dataawscclightsailinstancesnapshot.DataAwsccLightsailInstanceSnapshot_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccLightsailInstanceSnapshot.DataAwsccLightsailInstanceSnapshot.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailinstancesnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailinstancesnapshot"
 
 dataawscclightsailinstancesnapshot.DataAwsccLightsailInstanceSnapshot_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscclightsailinstancesnapshot.DataAwsccLightsailInstanceSnapshot_IsTerrafor
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccLightsailInstanceSnapshot.DataAwsccLightsailInstanceSnapshot.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailinstancesnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailinstancesnapshot"
 
 dataawscclightsailinstancesnapshot.DataAwsccLightsailInstanceSnapshot_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscclightsailinstancesnapshot.DataAwsccLightsailInstanceSnapshot_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccLightsailInstanceSnapshot.DataAwsccLightsailInstanceSnapshot.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailinstancesnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailinstancesnapshot"
 
 dataawscclightsailinstancesnapshot.DataAwsccLightsailInstanceSnapshot_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLightsailInstance
 
 The id of the existing DataAwsccLightsailInstanceSnapshot that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lightsail_instance_snapshot#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lightsail_instance_snapshot#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -719,7 +719,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLightsailInstanceSnapshot.DataAwsccLightsailInstanceSnapshotConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailinstancesnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailinstancesnapshot"
 
 &dataawscclightsailinstancesnapshot.DataAwsccLightsailInstanceSnapshotConfig {
 	Connection: interface{},
@@ -828,7 +828,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lightsail_instance_snapshot#id DataAwsccLightsailInstanceSnapshot#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lightsail_instance_snapshot#id DataAwsccLightsailInstanceSnapshot#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -840,7 +840,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLightsailInstanceSnapshot.DataAwsccLightsailInstanceSnapshotLocation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailinstancesnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailinstancesnapshot"
 
 &dataawscclightsailinstancesnapshot.DataAwsccLightsailInstanceSnapshotLocation {
 
@@ -853,7 +853,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailinst
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLightsailInstanceSnapshot.DataAwsccLightsailInstanceSnapshotTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailinstancesnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailinstancesnapshot"
 
 &dataawscclightsailinstancesnapshot.DataAwsccLightsailInstanceSnapshotTags {
 
@@ -868,7 +868,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailinst
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLightsailInstanceSnapshot.DataAwsccLightsailInstanceSnapshotLocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailinstancesnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailinstancesnapshot"
 
 dataawscclightsailinstancesnapshot.NewDataAwsccLightsailInstanceSnapshotLocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLightsailInstanceSnapshotLocationOutputReference
 ```
@@ -1139,7 +1139,7 @@ func InternalValue() DataAwsccLightsailInstanceSnapshotLocation
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLightsailInstanceSnapshot.DataAwsccLightsailInstanceSnapshotTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailinstancesnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailinstancesnapshot"
 
 dataawscclightsailinstancesnapshot.NewDataAwsccLightsailInstanceSnapshotTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLightsailInstanceSnapshotTagsList
 ```
@@ -1288,7 +1288,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLightsailInstanceSnapshot.DataAwsccLightsailInstanceSnapshotTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailinstancesnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailinstancesnapshot"
 
 dataawscclightsailinstancesnapshot.NewDataAwsccLightsailInstanceSnapshotTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLightsailInstanceSnapshotTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### ElasticbeanstalkApplicationVersion <a name="ElasticbeanstalkApplicationVersion" id="@cdktn/provider-awscc.elasticbeanstalkApplicationVersion.ElasticbeanstalkApplicationVersion"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticbeanstalk_application_version awscc_elasticbeanstalk_application_version}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticbeanstalk_application_version awscc_elasticbeanstalk_application_version}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.elasticbeanstalkApplicationVersion.ElasticbeanstalkApplicationVersion.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticbeanstalkapplicationversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticbeanstalkapplicationversion"
 
 elasticbeanstalkapplicationversion.NewElasticbeanstalkApplicationVersion(scope Construct, id *string, config ElasticbeanstalkApplicationVersionConfig) ElasticbeanstalkApplicationVersion
 ```
@@ -474,7 +474,7 @@ func ResetSourceBundle()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.elasticbeanstalkApplicationVersion.ElasticbeanstalkApplicationVersion.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticbeanstalkapplicationversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticbeanstalkapplicationversion"
 
 elasticbeanstalkapplicationversion.ElasticbeanstalkApplicationVersion_IsConstruct(x interface{}) *bool
 ```
@@ -506,7 +506,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.elasticbeanstalkApplicationVersion.ElasticbeanstalkApplicationVersion.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticbeanstalkapplicationversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticbeanstalkapplicationversion"
 
 elasticbeanstalkapplicationversion.ElasticbeanstalkApplicationVersion_IsTerraformElement(x interface{}) *bool
 ```
@@ -520,7 +520,7 @@ elasticbeanstalkapplicationversion.ElasticbeanstalkApplicationVersion_IsTerrafor
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.elasticbeanstalkApplicationVersion.ElasticbeanstalkApplicationVersion.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticbeanstalkapplicationversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticbeanstalkapplicationversion"
 
 elasticbeanstalkapplicationversion.ElasticbeanstalkApplicationVersion_IsTerraformResource(x interface{}) *bool
 ```
@@ -534,7 +534,7 @@ elasticbeanstalkapplicationversion.ElasticbeanstalkApplicationVersion_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.elasticbeanstalkApplicationVersion.ElasticbeanstalkApplicationVersion.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticbeanstalkapplicationversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticbeanstalkapplicationversion"
 
 elasticbeanstalkapplicationversion.ElasticbeanstalkApplicationVersion_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -563,7 +563,7 @@ The construct id used in the generated config for the ElasticbeanstalkApplicatio
 
 The id of the existing ElasticbeanstalkApplicationVersion that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticbeanstalk_application_version#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticbeanstalk_application_version#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -917,7 +917,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.elasticbeanstalkApplicationVersion.ElasticbeanstalkApplicationVersionBuildConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticbeanstalkapplicationversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticbeanstalkapplicationversion"
 
 &elasticbeanstalkapplicationversion.ElasticbeanstalkApplicationVersionBuildConfiguration {
 	ArtifactName: *string,
@@ -950,7 +950,7 @@ ArtifactName *string
 
 The name of the build artifact.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticbeanstalk_application_version#artifact_name ElasticbeanstalkApplicationVersion#artifact_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticbeanstalk_application_version#artifact_name ElasticbeanstalkApplicationVersion#artifact_name}
 
 ---
 
@@ -964,7 +964,7 @@ CodeBuildServiceRole *string
 
 The ARN of the IAM role that AWS CodeBuild assumes to build the application version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticbeanstalk_application_version#code_build_service_role ElasticbeanstalkApplicationVersion#code_build_service_role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticbeanstalk_application_version#code_build_service_role ElasticbeanstalkApplicationVersion#code_build_service_role}
 
 ---
 
@@ -978,7 +978,7 @@ ComputeType *string
 
 The compute type for the CodeBuild build environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticbeanstalk_application_version#compute_type ElasticbeanstalkApplicationVersion#compute_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticbeanstalk_application_version#compute_type ElasticbeanstalkApplicationVersion#compute_type}
 
 ---
 
@@ -992,7 +992,7 @@ Image *string
 
 The CodeBuild image used for the build environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticbeanstalk_application_version#image ElasticbeanstalkApplicationVersion#image}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticbeanstalk_application_version#image ElasticbeanstalkApplicationVersion#image}
 
 ---
 
@@ -1006,7 +1006,7 @@ TimeoutInMinutes *f64
 
 The timeout for the CodeBuild build, in minutes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticbeanstalk_application_version#timeout_in_minutes ElasticbeanstalkApplicationVersion#timeout_in_minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticbeanstalk_application_version#timeout_in_minutes ElasticbeanstalkApplicationVersion#timeout_in_minutes}
 
 ---
 
@@ -1015,7 +1015,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.elasticbeanstalkApplicationVersion.ElasticbeanstalkApplicationVersionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticbeanstalkapplicationversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticbeanstalkapplicationversion"
 
 &elasticbeanstalkapplicationversion.ElasticbeanstalkApplicationVersionConfig {
 	Connection: interface{},
@@ -1026,11 +1026,11 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticbeanstalkapplic
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	ApplicationName: *string,
-	BuildConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.elasticbeanstalkApplicationVersion.ElasticbeanstalkApplicationVersionBuildConfiguration,
+	BuildConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.elasticbeanstalkApplicationVersion.ElasticbeanstalkApplicationVersionBuildConfiguration,
 	Description: *string,
-	ImageConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.elasticbeanstalkApplicationVersion.ElasticbeanstalkApplicationVersionImageConfiguration,
+	ImageConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.elasticbeanstalkApplicationVersion.ElasticbeanstalkApplicationVersionImageConfiguration,
 	Process: interface{},
-	SourceBundle: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.elasticbeanstalkApplicationVersion.ElasticbeanstalkApplicationVersionSourceBundle,
+	SourceBundle: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.elasticbeanstalkApplicationVersion.ElasticbeanstalkApplicationVersionSourceBundle,
 }
 ```
 
@@ -1134,7 +1134,7 @@ ApplicationName *string
 
 The name of the Elastic Beanstalk application that is associated with this application version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticbeanstalk_application_version#application_name ElasticbeanstalkApplicationVersion#application_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticbeanstalk_application_version#application_name ElasticbeanstalkApplicationVersion#application_name}
 
 ---
 
@@ -1148,7 +1148,7 @@ BuildConfiguration ElasticbeanstalkApplicationVersionBuildConfiguration
 
 Settings for an AWS CodeBuild build that packages and builds an application version from source code.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticbeanstalk_application_version#build_configuration ElasticbeanstalkApplicationVersion#build_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticbeanstalk_application_version#build_configuration ElasticbeanstalkApplicationVersion#build_configuration}
 
 ---
 
@@ -1162,7 +1162,7 @@ Description *string
 
 A description of this application version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticbeanstalk_application_version#description ElasticbeanstalkApplicationVersion#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticbeanstalk_application_version#description ElasticbeanstalkApplicationVersion#description}
 
 ---
 
@@ -1176,7 +1176,7 @@ ImageConfiguration ElasticbeanstalkApplicationVersionImageConfiguration
 
 Configuration for image-based application versions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticbeanstalk_application_version#image_configuration ElasticbeanstalkApplicationVersion#image_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticbeanstalk_application_version#image_configuration ElasticbeanstalkApplicationVersion#image_configuration}
 
 ---
 
@@ -1190,7 +1190,7 @@ Process interface{}
 
 Pre-process and validate the environment manifest (`env.yaml`) and configuration files in the source bundle. Leave unset for the service default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticbeanstalk_application_version#process ElasticbeanstalkApplicationVersion#process}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticbeanstalk_application_version#process ElasticbeanstalkApplicationVersion#process}
 
 ---
 
@@ -1204,7 +1204,7 @@ SourceBundle ElasticbeanstalkApplicationVersionSourceBundle
 
 The Amazon S3 bucket and key that identify the location of the source bundle for this version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticbeanstalk_application_version#source_bundle ElasticbeanstalkApplicationVersion#source_bundle}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticbeanstalk_application_version#source_bundle ElasticbeanstalkApplicationVersion#source_bundle}
 
 ---
 
@@ -1213,11 +1213,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.elasticbeanstalkApplicationVersion.ElasticbeanstalkApplicationVersionImageConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticbeanstalkapplicationversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticbeanstalkapplicationversion"
 
 &elasticbeanstalkapplicationversion.ElasticbeanstalkApplicationVersionImageConfiguration {
-	BuildAttribute: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.elasticbeanstalkApplicationVersion.ElasticbeanstalkApplicationVersionImageConfigurationBuild,
-	Source: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.elasticbeanstalkApplicationVersion.ElasticbeanstalkApplicationVersionImageConfigurationSource,
+	BuildAttribute: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.elasticbeanstalkApplicationVersion.ElasticbeanstalkApplicationVersionImageConfigurationBuild,
+	Source: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.elasticbeanstalkApplicationVersion.ElasticbeanstalkApplicationVersionImageConfigurationSource,
 }
 ```
 
@@ -1240,7 +1240,7 @@ BuildAttribute ElasticbeanstalkApplicationVersionImageConfigurationBuild
 
 Configuration for building a container image from source code.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticbeanstalk_application_version#build ElasticbeanstalkApplicationVersion#build}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticbeanstalk_application_version#build ElasticbeanstalkApplicationVersion#build}
 
 ---
 
@@ -1254,7 +1254,7 @@ Source ElasticbeanstalkApplicationVersionImageConfigurationSource
 
 The container image source for this version, as an ECR image URI.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticbeanstalk_application_version#source ElasticbeanstalkApplicationVersion#source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticbeanstalk_application_version#source ElasticbeanstalkApplicationVersion#source}
 
 ---
 
@@ -1263,7 +1263,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.elasticbeanstalkApplicationVersion.ElasticbeanstalkApplicationVersionImageConfigurationBuild.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticbeanstalkapplicationversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticbeanstalkapplicationversion"
 
 &elasticbeanstalkapplicationversion.ElasticbeanstalkApplicationVersionImageConfigurationBuild {
 	Architecture: *string,
@@ -1300,7 +1300,7 @@ Architecture *string
 
 The target architecture for the built container image.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticbeanstalk_application_version#architecture ElasticbeanstalkApplicationVersion#architecture}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticbeanstalk_application_version#architecture ElasticbeanstalkApplicationVersion#architecture}
 
 ---
 
@@ -1314,7 +1314,7 @@ Buildpack *string
 
 The buildpack to use for building the image.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticbeanstalk_application_version#buildpack ElasticbeanstalkApplicationVersion#buildpack}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticbeanstalk_application_version#buildpack ElasticbeanstalkApplicationVersion#buildpack}
 
 ---
 
@@ -1328,7 +1328,7 @@ CodeBuildServiceRole *string
 
 The ARN of the IAM role that AWS CodeBuild assumes to build the application version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticbeanstalk_application_version#code_build_service_role ElasticbeanstalkApplicationVersion#code_build_service_role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticbeanstalk_application_version#code_build_service_role ElasticbeanstalkApplicationVersion#code_build_service_role}
 
 ---
 
@@ -1342,7 +1342,7 @@ ComputeType *string
 
 The compute type for the CodeBuild build environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticbeanstalk_application_version#compute_type ElasticbeanstalkApplicationVersion#compute_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticbeanstalk_application_version#compute_type ElasticbeanstalkApplicationVersion#compute_type}
 
 ---
 
@@ -1356,7 +1356,7 @@ DockerfileLocation *string
 
 The path to the Dockerfile, relative to the source root.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticbeanstalk_application_version#dockerfile_location ElasticbeanstalkApplicationVersion#dockerfile_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticbeanstalk_application_version#dockerfile_location ElasticbeanstalkApplicationVersion#dockerfile_location}
 
 ---
 
@@ -1370,7 +1370,7 @@ TimeoutInMinutes *f64
 
 The timeout for the CodeBuild build, in minutes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticbeanstalk_application_version#timeout_in_minutes ElasticbeanstalkApplicationVersion#timeout_in_minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticbeanstalk_application_version#timeout_in_minutes ElasticbeanstalkApplicationVersion#timeout_in_minutes}
 
 ---
 
@@ -1384,7 +1384,7 @@ Type *string
 
 The type of image build: docker or buildpack.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticbeanstalk_application_version#type ElasticbeanstalkApplicationVersion#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticbeanstalk_application_version#type ElasticbeanstalkApplicationVersion#type}
 
 ---
 
@@ -1393,7 +1393,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.elasticbeanstalkApplicationVersion.ElasticbeanstalkApplicationVersionImageConfigurationSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticbeanstalkapplicationversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticbeanstalkapplicationversion"
 
 &elasticbeanstalkapplicationversion.ElasticbeanstalkApplicationVersionImageConfigurationSource {
 	Uri: *string,
@@ -1418,7 +1418,7 @@ Uri *string
 
 The URI of the container image, e.g. an ECR image URI.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticbeanstalk_application_version#uri ElasticbeanstalkApplicationVersion#uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticbeanstalk_application_version#uri ElasticbeanstalkApplicationVersion#uri}
 
 ---
 
@@ -1427,7 +1427,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.elasticbeanstalkApplicationVersion.ElasticbeanstalkApplicationVersionSourceBundle.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticbeanstalkapplicationversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticbeanstalkapplicationversion"
 
 &elasticbeanstalkapplicationversion.ElasticbeanstalkApplicationVersionSourceBundle {
 	S3Bucket: *string,
@@ -1454,7 +1454,7 @@ S3Bucket *string
 
 The Amazon S3 bucket where the data is located.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticbeanstalk_application_version#s3_bucket ElasticbeanstalkApplicationVersion#s3_bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticbeanstalk_application_version#s3_bucket ElasticbeanstalkApplicationVersion#s3_bucket}
 
 ---
 
@@ -1468,7 +1468,7 @@ S3Key *string
 
 The Amazon S3 key where the data is located.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticbeanstalk_application_version#s3_key ElasticbeanstalkApplicationVersion#s3_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticbeanstalk_application_version#s3_key ElasticbeanstalkApplicationVersion#s3_key}
 
 ---
 
@@ -1479,7 +1479,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.elasticbeanstalkApplicationVersion.ElasticbeanstalkApplicationVersionBuildConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticbeanstalkapplicationversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticbeanstalkapplicationversion"
 
 elasticbeanstalkapplicationversion.NewElasticbeanstalkApplicationVersionBuildConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ElasticbeanstalkApplicationVersionBuildConfigurationOutputReference
 ```
@@ -1873,7 +1873,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.elasticbeanstalkApplicationVersion.ElasticbeanstalkApplicationVersionImageConfigurationBuildOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticbeanstalkapplicationversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticbeanstalkapplicationversion"
 
 elasticbeanstalkapplicationversion.NewElasticbeanstalkApplicationVersionImageConfigurationBuildOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ElasticbeanstalkApplicationVersionImageConfigurationBuildOutputReference
 ```
@@ -2325,7 +2325,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.elasticbeanstalkApplicationVersion.ElasticbeanstalkApplicationVersionImageConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticbeanstalkapplicationversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticbeanstalkapplicationversion"
 
 elasticbeanstalkapplicationversion.NewElasticbeanstalkApplicationVersionImageConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ElasticbeanstalkApplicationVersionImageConfigurationOutputReference
 ```
@@ -2658,7 +2658,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.elasticbeanstalkApplicationVersion.ElasticbeanstalkApplicationVersionImageConfigurationSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticbeanstalkapplicationversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticbeanstalkapplicationversion"
 
 elasticbeanstalkapplicationversion.NewElasticbeanstalkApplicationVersionImageConfigurationSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ElasticbeanstalkApplicationVersionImageConfigurationSourceOutputReference
 ```
@@ -2936,7 +2936,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.elasticbeanstalkApplicationVersion.ElasticbeanstalkApplicationVersionSourceBundleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticbeanstalkapplicationversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticbeanstalkapplicationversion"
 
 elasticbeanstalkapplicationversion.NewElasticbeanstalkApplicationVersionSourceBundleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ElasticbeanstalkApplicationVersionSourceBundleOutputReference
 ```

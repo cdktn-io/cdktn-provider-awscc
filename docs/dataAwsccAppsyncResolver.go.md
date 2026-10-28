@@ -4,12 +4,12 @@
 
 ### DataAwsccAppsyncResolver <a name="DataAwsccAppsyncResolver" id="@cdktn/provider-awscc.dataAwsccAppsyncResolver.DataAwsccAppsyncResolver"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appsync_resolver awscc_appsync_resolver}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appsync_resolver awscc_appsync_resolver}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppsyncResolver.DataAwsccAppsyncResolver.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncresolver"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncresolver"
 
 dataawsccappsyncresolver.NewDataAwsccAppsyncResolver(scope Construct, id *string, config DataAwsccAppsyncResolverConfig) DataAwsccAppsyncResolver
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccAppsyncResolver.DataAwsccAppsyncResolver.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncresolver"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncresolver"
 
 dataawsccappsyncresolver.DataAwsccAppsyncResolver_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccAppsyncResolver.DataAwsccAppsyncResolver.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncresolver"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncresolver"
 
 dataawsccappsyncresolver.DataAwsccAppsyncResolver_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccappsyncresolver.DataAwsccAppsyncResolver_IsTerraformElement(x interface
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccAppsyncResolver.DataAwsccAppsyncResolver.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncresolver"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncresolver"
 
 dataawsccappsyncresolver.DataAwsccAppsyncResolver_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccappsyncresolver.DataAwsccAppsyncResolver_IsTerraformDataSource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccAppsyncResolver.DataAwsccAppsyncResolver.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncresolver"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncresolver"
 
 dataawsccappsyncresolver.DataAwsccAppsyncResolver_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccAppsyncResolver t
 
 The id of the existing DataAwsccAppsyncResolver that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appsync_resolver#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appsync_resolver#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -785,7 +785,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppsyncResolver.DataAwsccAppsyncResolverCachingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncresolver"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncresolver"
 
 &dataawsccappsyncresolver.DataAwsccAppsyncResolverCachingConfig {
 
@@ -798,7 +798,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncresolv
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppsyncResolver.DataAwsccAppsyncResolverConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncresolver"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncresolver"
 
 &dataawsccappsyncresolver.DataAwsccAppsyncResolverConfig {
 	Connection: interface{},
@@ -907,7 +907,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appsync_resolver#id DataAwsccAppsyncResolver#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appsync_resolver#id DataAwsccAppsyncResolver#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -919,7 +919,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppsyncResolver.DataAwsccAppsyncResolverPipelineConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncresolver"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncresolver"
 
 &dataawsccappsyncresolver.DataAwsccAppsyncResolverPipelineConfig {
 
@@ -932,7 +932,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncresolv
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppsyncResolver.DataAwsccAppsyncResolverRuntime.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncresolver"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncresolver"
 
 &dataawsccappsyncresolver.DataAwsccAppsyncResolverRuntime {
 
@@ -945,7 +945,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncresolv
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppsyncResolver.DataAwsccAppsyncResolverSyncConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncresolver"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncresolver"
 
 &dataawsccappsyncresolver.DataAwsccAppsyncResolverSyncConfig {
 
@@ -958,7 +958,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncresolv
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppsyncResolver.DataAwsccAppsyncResolverSyncConfigLambdaConflictHandlerConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncresolver"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncresolver"
 
 &dataawsccappsyncresolver.DataAwsccAppsyncResolverSyncConfigLambdaConflictHandlerConfig {
 
@@ -973,7 +973,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncresolv
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppsyncResolver.DataAwsccAppsyncResolverCachingConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncresolver"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncresolver"
 
 dataawsccappsyncresolver.NewDataAwsccAppsyncResolverCachingConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppsyncResolverCachingConfigOutputReference
 ```
@@ -1244,7 +1244,7 @@ func InternalValue() DataAwsccAppsyncResolverCachingConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppsyncResolver.DataAwsccAppsyncResolverPipelineConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncresolver"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncresolver"
 
 dataawsccappsyncresolver.NewDataAwsccAppsyncResolverPipelineConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppsyncResolverPipelineConfigOutputReference
 ```
@@ -1504,7 +1504,7 @@ func InternalValue() DataAwsccAppsyncResolverPipelineConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppsyncResolver.DataAwsccAppsyncResolverRuntimeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncresolver"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncresolver"
 
 dataawsccappsyncresolver.NewDataAwsccAppsyncResolverRuntimeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppsyncResolverRuntimeOutputReference
 ```
@@ -1775,7 +1775,7 @@ func InternalValue() DataAwsccAppsyncResolverRuntime
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppsyncResolver.DataAwsccAppsyncResolverSyncConfigLambdaConflictHandlerConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncresolver"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncresolver"
 
 dataawsccappsyncresolver.NewDataAwsccAppsyncResolverSyncConfigLambdaConflictHandlerConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppsyncResolverSyncConfigLambdaConflictHandlerConfigOutputReference
 ```
@@ -2035,7 +2035,7 @@ func InternalValue() DataAwsccAppsyncResolverSyncConfigLambdaConflictHandlerConf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppsyncResolver.DataAwsccAppsyncResolverSyncConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncresolver"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncresolver"
 
 dataawsccappsyncresolver.NewDataAwsccAppsyncResolverSyncConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppsyncResolverSyncConfigOutputReference
 ```

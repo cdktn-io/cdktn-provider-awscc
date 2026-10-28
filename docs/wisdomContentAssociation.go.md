@@ -4,12 +4,12 @@
 
 ### WisdomContentAssociation <a name="WisdomContentAssociation" id="@cdktn/provider-awscc.wisdomContentAssociation.WisdomContentAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_content_association awscc_wisdom_content_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_content_association awscc_wisdom_content_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.wisdomContentAssociation.WisdomContentAssociation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomcontentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomcontentassociation"
 
 wisdomcontentassociation.NewWisdomContentAssociation(scope Construct, id *string, config WisdomContentAssociationConfig) WisdomContentAssociation
 ```
@@ -433,7 +433,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.wisdomContentAssociation.WisdomContentAssociation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomcontentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomcontentassociation"
 
 wisdomcontentassociation.WisdomContentAssociation_IsConstruct(x interface{}) *bool
 ```
@@ -465,7 +465,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.wisdomContentAssociation.WisdomContentAssociation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomcontentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomcontentassociation"
 
 wisdomcontentassociation.WisdomContentAssociation_IsTerraformElement(x interface{}) *bool
 ```
@@ -479,7 +479,7 @@ wisdomcontentassociation.WisdomContentAssociation_IsTerraformElement(x interface
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.wisdomContentAssociation.WisdomContentAssociation.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomcontentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomcontentassociation"
 
 wisdomcontentassociation.WisdomContentAssociation_IsTerraformResource(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ wisdomcontentassociation.WisdomContentAssociation_IsTerraformResource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.wisdomContentAssociation.WisdomContentAssociation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomcontentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomcontentassociation"
 
 wisdomcontentassociation.WisdomContentAssociation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -522,7 +522,7 @@ The construct id used in the generated config for the WisdomContentAssociation t
 
 The id of the existing WisdomContentAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_content_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_content_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -887,10 +887,10 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.wisdomContentAssociation.WisdomContentAssociationAssociation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomcontentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomcontentassociation"
 
 &wisdomcontentassociation.WisdomContentAssociationAssociation {
-	AmazonConnectGuideAssociation: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.wisdomContentAssociation.WisdomContentAssociationAssociationAmazonConnectGuideAssociation,
+	AmazonConnectGuideAssociation: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.wisdomContentAssociation.WisdomContentAssociationAssociationAmazonConnectGuideAssociation,
 }
 ```
 
@@ -898,7 +898,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomcontentassociati
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.wisdomContentAssociation.WisdomContentAssociationAssociation.property.amazonConnectGuideAssociation">AmazonConnectGuideAssociation</a></code> | <code><a href="#@cdktn/provider-awscc.wisdomContentAssociation.WisdomContentAssociationAssociationAmazonConnectGuideAssociation">WisdomContentAssociationAssociationAmazonConnectGuideAssociation</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_content_association#amazon_connect_guide_association WisdomContentAssociation#amazon_connect_guide_association}. |
+| <code><a href="#@cdktn/provider-awscc.wisdomContentAssociation.WisdomContentAssociationAssociation.property.amazonConnectGuideAssociation">AmazonConnectGuideAssociation</a></code> | <code><a href="#@cdktn/provider-awscc.wisdomContentAssociation.WisdomContentAssociationAssociationAmazonConnectGuideAssociation">WisdomContentAssociationAssociationAmazonConnectGuideAssociation</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_content_association#amazon_connect_guide_association WisdomContentAssociation#amazon_connect_guide_association}. |
 
 ---
 
@@ -910,7 +910,7 @@ AmazonConnectGuideAssociation WisdomContentAssociationAssociationAmazonConnectGu
 
 - *Type:* <a href="#@cdktn/provider-awscc.wisdomContentAssociation.WisdomContentAssociationAssociationAmazonConnectGuideAssociation">WisdomContentAssociationAssociationAmazonConnectGuideAssociation</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_content_association#amazon_connect_guide_association WisdomContentAssociation#amazon_connect_guide_association}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_content_association#amazon_connect_guide_association WisdomContentAssociation#amazon_connect_guide_association}.
 
 ---
 
@@ -919,7 +919,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.wisdomContentAssociation.WisdomContentAssociationAssociationAmazonConnectGuideAssociation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomcontentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomcontentassociation"
 
 &wisdomcontentassociation.WisdomContentAssociationAssociationAmazonConnectGuideAssociation {
 	FlowId: *string,
@@ -930,7 +930,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomcontentassociati
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.wisdomContentAssociation.WisdomContentAssociationAssociationAmazonConnectGuideAssociation.property.flowId">FlowId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_content_association#flow_id WisdomContentAssociation#flow_id}. |
+| <code><a href="#@cdktn/provider-awscc.wisdomContentAssociation.WisdomContentAssociationAssociationAmazonConnectGuideAssociation.property.flowId">FlowId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_content_association#flow_id WisdomContentAssociation#flow_id}. |
 
 ---
 
@@ -942,7 +942,7 @@ FlowId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_content_association#flow_id WisdomContentAssociation#flow_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_content_association#flow_id WisdomContentAssociation#flow_id}.
 
 ---
 
@@ -951,7 +951,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.wisdomContentAssociation.WisdomContentAssociationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomcontentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomcontentassociation"
 
 &wisdomcontentassociation.WisdomContentAssociationConfig {
 	Connection: interface{},
@@ -961,7 +961,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomcontentassociati
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	Association: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.wisdomContentAssociation.WisdomContentAssociationAssociation,
+	Association: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.wisdomContentAssociation.WisdomContentAssociationAssociation,
 	AssociationType: *string,
 	ContentId: *string,
 	KnowledgeBaseId: *string,
@@ -1068,7 +1068,7 @@ Association WisdomContentAssociationAssociation
 
 The identifier of the associated resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_content_association#association WisdomContentAssociation#association}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_content_association#association WisdomContentAssociation#association}
 
 ---
 
@@ -1082,7 +1082,7 @@ AssociationType *string
 
 The type of association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_content_association#association_type WisdomContentAssociation#association_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_content_association#association_type WisdomContentAssociation#association_type}
 
 ---
 
@@ -1096,7 +1096,7 @@ ContentId *string
 
 The identifier of the content.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_content_association#content_id WisdomContentAssociation#content_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_content_association#content_id WisdomContentAssociation#content_id}
 
 ---
 
@@ -1110,7 +1110,7 @@ KnowledgeBaseId *string
 
 The identifier of the knowledge base.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_content_association#knowledge_base_id WisdomContentAssociation#knowledge_base_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_content_association#knowledge_base_id WisdomContentAssociation#knowledge_base_id}
 
 ---
 
@@ -1124,7 +1124,7 @@ Tags interface{}
 
 The tags used to organize, track, or control access for this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_content_association#tags WisdomContentAssociation#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_content_association#tags WisdomContentAssociation#tags}
 
 ---
 
@@ -1133,7 +1133,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.wisdomContentAssociation.WisdomContentAssociationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomcontentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomcontentassociation"
 
 &wisdomcontentassociation.WisdomContentAssociationTags {
 	Key: *string,
@@ -1145,8 +1145,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomcontentassociati
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.wisdomContentAssociation.WisdomContentAssociationTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_content_association#key WisdomContentAssociation#key}. |
-| <code><a href="#@cdktn/provider-awscc.wisdomContentAssociation.WisdomContentAssociationTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_content_association#value WisdomContentAssociation#value}. |
+| <code><a href="#@cdktn/provider-awscc.wisdomContentAssociation.WisdomContentAssociationTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_content_association#key WisdomContentAssociation#key}. |
+| <code><a href="#@cdktn/provider-awscc.wisdomContentAssociation.WisdomContentAssociationTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_content_association#value WisdomContentAssociation#value}. |
 
 ---
 
@@ -1158,7 +1158,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_content_association#key WisdomContentAssociation#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_content_association#key WisdomContentAssociation#key}.
 
 ---
 
@@ -1170,7 +1170,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_content_association#value WisdomContentAssociation#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_content_association#value WisdomContentAssociation#value}.
 
 ---
 
@@ -1181,7 +1181,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.wisdomContentAssociation.WisdomContentAssociationAssociationAmazonConnectGuideAssociationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomcontentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomcontentassociation"
 
 wisdomcontentassociation.NewWisdomContentAssociationAssociationAmazonConnectGuideAssociationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) WisdomContentAssociationAssociationAmazonConnectGuideAssociationOutputReference
 ```
@@ -1459,7 +1459,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.wisdomContentAssociation.WisdomContentAssociationAssociationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomcontentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomcontentassociation"
 
 wisdomcontentassociation.NewWisdomContentAssociationAssociationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) WisdomContentAssociationAssociationOutputReference
 ```
@@ -1743,7 +1743,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.wisdomContentAssociation.WisdomContentAssociationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomcontentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomcontentassociation"
 
 wisdomcontentassociation.NewWisdomContentAssociationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) WisdomContentAssociationTagsList
 ```
@@ -1903,7 +1903,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.wisdomContentAssociation.WisdomContentAssociationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomcontentassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomcontentassociation"
 
 wisdomcontentassociation.NewWisdomContentAssociationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) WisdomContentAssociationTagsOutputReference
 ```

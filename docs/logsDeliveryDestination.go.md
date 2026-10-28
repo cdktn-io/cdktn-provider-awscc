@@ -4,12 +4,12 @@
 
 ### LogsDeliveryDestination <a name="LogsDeliveryDestination" id="@cdktn/provider-awscc.logsDeliveryDestination.LogsDeliveryDestination"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_delivery_destination awscc_logs_delivery_destination}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_delivery_destination awscc_logs_delivery_destination}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.logsDeliveryDestination.LogsDeliveryDestination.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/logsdeliverydestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/logsdeliverydestination"
 
 logsdeliverydestination.NewLogsDeliveryDestination(scope Construct, id *string, config LogsDeliveryDestinationConfig) LogsDeliveryDestination
 ```
@@ -461,7 +461,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.logsDeliveryDestination.LogsDeliveryDestination.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/logsdeliverydestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/logsdeliverydestination"
 
 logsdeliverydestination.LogsDeliveryDestination_IsConstruct(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.logsDeliveryDestination.LogsDeliveryDestination.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/logsdeliverydestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/logsdeliverydestination"
 
 logsdeliverydestination.LogsDeliveryDestination_IsTerraformElement(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ logsdeliverydestination.LogsDeliveryDestination_IsTerraformElement(x interface{}
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.logsDeliveryDestination.LogsDeliveryDestination.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/logsdeliverydestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/logsdeliverydestination"
 
 logsdeliverydestination.LogsDeliveryDestination_IsTerraformResource(x interface{}) *bool
 ```
@@ -521,7 +521,7 @@ logsdeliverydestination.LogsDeliveryDestination_IsTerraformResource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.logsDeliveryDestination.LogsDeliveryDestination.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/logsdeliverydestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/logsdeliverydestination"
 
 logsdeliverydestination.LogsDeliveryDestination_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -550,7 +550,7 @@ The construct id used in the generated config for the LogsDeliveryDestination to
 
 The id of the existing LogsDeliveryDestination that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_delivery_destination#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_delivery_destination#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -904,7 +904,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.logsDeliveryDestination.LogsDeliveryDestinationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/logsdeliverydestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/logsdeliverydestination"
 
 &logsdeliverydestination.LogsDeliveryDestinationConfig {
 	Connection: interface{},
@@ -915,7 +915,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/logsdeliverydestinatio
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	Name: *string,
-	DeliveryDestinationPolicy: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.logsDeliveryDestination.LogsDeliveryDestinationDeliveryDestinationPolicy,
+	DeliveryDestinationPolicy: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.logsDeliveryDestination.LogsDeliveryDestinationDeliveryDestinationPolicy,
 	DeliveryDestinationType: *string,
 	DestinationResourceArn: *string,
 	OutputFormat: *string,
@@ -1023,7 +1023,7 @@ Name *string
 
 The name of this delivery destination.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_delivery_destination#name LogsDeliveryDestination#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_delivery_destination#name LogsDeliveryDestination#name}
 
 ---
 
@@ -1041,7 +1041,7 @@ The policy must be in JSON string format.
 
 Length Constraints: Maximum length of 51200
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_delivery_destination#delivery_destination_policy LogsDeliveryDestination#delivery_destination_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_delivery_destination#delivery_destination_policy LogsDeliveryDestination#delivery_destination_policy}
 
 ---
 
@@ -1055,7 +1055,7 @@ DeliveryDestinationType *string
 
 Displays whether this delivery destination is CloudWatch Logs, Amazon S3, Kinesis Data Firehose, or XRay.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_delivery_destination#delivery_destination_type LogsDeliveryDestination#delivery_destination_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_delivery_destination#delivery_destination_type LogsDeliveryDestination#delivery_destination_type}
 
 ---
 
@@ -1071,7 +1071,7 @@ The ARN of the Amazon Web Services destination that this delivery destination re
 
 That Amazon Web Services destination can be a log group in CloudWatch Logs, an Amazon S3 bucket, or a delivery stream in Firehose.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_delivery_destination#destination_resource_arn LogsDeliveryDestination#destination_resource_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_delivery_destination#destination_resource_arn LogsDeliveryDestination#destination_resource_arn}
 
 ---
 
@@ -1085,7 +1085,7 @@ OutputFormat *string
 
 The format of the logs that are sent to this delivery destination.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_delivery_destination#output_format LogsDeliveryDestination#output_format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_delivery_destination#output_format LogsDeliveryDestination#output_format}
 
 ---
 
@@ -1099,7 +1099,7 @@ Tags interface{}
 
 The tags that have been assigned to this delivery destination.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_delivery_destination#tags LogsDeliveryDestination#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_delivery_destination#tags LogsDeliveryDestination#tags}
 
 ---
 
@@ -1108,7 +1108,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.logsDeliveryDestination.LogsDeliveryDestinationDeliveryDestinationPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/logsdeliverydestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/logsdeliverydestination"
 
 &logsdeliverydestination.LogsDeliveryDestinationDeliveryDestinationPolicy {
 	DeliveryDestinationName: *string,
@@ -1135,7 +1135,7 @@ DeliveryDestinationName *string
 
 The name of the delivery destination to assign this policy to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_delivery_destination#delivery_destination_name LogsDeliveryDestination#delivery_destination_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_delivery_destination#delivery_destination_name LogsDeliveryDestination#delivery_destination_name}
 
 ---
 
@@ -1149,7 +1149,7 @@ DeliveryDestinationPolicy *string
 
 The contents of the policy attached to the delivery destination.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_delivery_destination#delivery_destination_policy LogsDeliveryDestination#delivery_destination_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_delivery_destination#delivery_destination_policy LogsDeliveryDestination#delivery_destination_policy}
 
 ---
 
@@ -1158,7 +1158,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.logsDeliveryDestination.LogsDeliveryDestinationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/logsdeliverydestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/logsdeliverydestination"
 
 &logsdeliverydestination.LogsDeliveryDestinationTags {
 	Key: *string,
@@ -1187,7 +1187,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_delivery_destination#key LogsDeliveryDestination#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_delivery_destination#key LogsDeliveryDestination#key}
 
 ---
 
@@ -1203,7 +1203,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_delivery_destination#value LogsDeliveryDestination#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_delivery_destination#value LogsDeliveryDestination#value}
 
 ---
 
@@ -1214,7 +1214,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.logsDeliveryDestination.LogsDeliveryDestinationDeliveryDestinationPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/logsdeliverydestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/logsdeliverydestination"
 
 logsdeliverydestination.NewLogsDeliveryDestinationDeliveryDestinationPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LogsDeliveryDestinationDeliveryDestinationPolicyOutputReference
 ```
@@ -1521,7 +1521,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.logsDeliveryDestination.LogsDeliveryDestinationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/logsdeliverydestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/logsdeliverydestination"
 
 logsdeliverydestination.NewLogsDeliveryDestinationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LogsDeliveryDestinationTagsList
 ```
@@ -1681,7 +1681,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.logsDeliveryDestination.LogsDeliveryDestinationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/logsdeliverydestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/logsdeliverydestination"
 
 logsdeliverydestination.NewLogsDeliveryDestinationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LogsDeliveryDestinationTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### MemorydbAcl <a name="MemorydbAcl" id="@cdktn/provider-awscc.memorydbAcl.MemorydbAcl"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/memorydb_acl awscc_memorydb_acl}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/memorydb_acl awscc_memorydb_acl}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.memorydbAcl.MemorydbAcl.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/memorydbacl"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/memorydbacl"
 
 memorydbacl.NewMemorydbAcl(scope Construct, id *string, config MemorydbAclConfig) MemorydbAcl
 ```
@@ -427,7 +427,7 @@ func ResetUserNames()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.memorydbAcl.MemorydbAcl.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/memorydbacl"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/memorydbacl"
 
 memorydbacl.MemorydbAcl_IsConstruct(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.memorydbAcl.MemorydbAcl.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/memorydbacl"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/memorydbacl"
 
 memorydbacl.MemorydbAcl_IsTerraformElement(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ memorydbacl.MemorydbAcl_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.memorydbAcl.MemorydbAcl.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/memorydbacl"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/memorydbacl"
 
 memorydbacl.MemorydbAcl_IsTerraformResource(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ memorydbacl.MemorydbAcl_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.memorydbAcl.MemorydbAcl.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/memorydbacl"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/memorydbacl"
 
 memorydbacl.MemorydbAcl_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -516,7 +516,7 @@ The construct id used in the generated config for the MemorydbAcl to import.
 
 The id of the existing MemorydbAcl that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/memorydb_acl#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/memorydb_acl#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -815,7 +815,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.memorydbAcl.MemorydbAclConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/memorydbacl"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/memorydbacl"
 
 &memorydbacl.MemorydbAclConfig {
 	Connection: interface{},
@@ -928,7 +928,7 @@ AclName *string
 
 The name of the acl.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/memorydb_acl#acl_name MemorydbAcl#acl_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/memorydb_acl#acl_name MemorydbAcl#acl_name}
 
 ---
 
@@ -942,7 +942,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/memorydb_acl#tags MemorydbAcl#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/memorydb_acl#tags MemorydbAcl#tags}
 
 ---
 
@@ -956,7 +956,7 @@ UserNames *[]*string
 
 List of users associated to this acl.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/memorydb_acl#user_names MemorydbAcl#user_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/memorydb_acl#user_names MemorydbAcl#user_names}
 
 ---
 
@@ -965,7 +965,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.memorydbAcl.MemorydbAclTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/memorydbacl"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/memorydbacl"
 
 &memorydbacl.MemorydbAclTags {
 	Key: *string,
@@ -994,7 +994,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with 'aws:'. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/memorydb_acl#key MemorydbAcl#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/memorydb_acl#key MemorydbAcl#key}
 
 ---
 
@@ -1010,7 +1010,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/memorydb_acl#value MemorydbAcl#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/memorydb_acl#value MemorydbAcl#value}
 
 ---
 
@@ -1021,7 +1021,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.memorydbAcl.MemorydbAclTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/memorydbacl"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/memorydbacl"
 
 memorydbacl.NewMemorydbAclTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MemorydbAclTagsList
 ```
@@ -1181,7 +1181,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.memorydbAcl.MemorydbAclTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/memorydbacl"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/memorydbacl"
 
 memorydbacl.NewMemorydbAclTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) MemorydbAclTagsOutputReference
 ```

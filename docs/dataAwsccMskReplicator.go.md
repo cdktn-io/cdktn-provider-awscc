@@ -4,12 +4,12 @@
 
 ### DataAwsccMskReplicator <a name="DataAwsccMskReplicator" id="@cdktn/provider-awscc.dataAwsccMskReplicator.DataAwsccMskReplicator"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/msk_replicator awscc_msk_replicator}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/msk_replicator awscc_msk_replicator}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskReplicator.DataAwsccMskReplicator.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskreplicator"
 
 dataawsccmskreplicator.NewDataAwsccMskReplicator(scope Construct, id *string, config DataAwsccMskReplicatorConfig) DataAwsccMskReplicator
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccMskReplicator.DataAwsccMskReplicator.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskreplicator"
 
 dataawsccmskreplicator.DataAwsccMskReplicator_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccMskReplicator.DataAwsccMskReplicator.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskreplicator"
 
 dataawsccmskreplicator.DataAwsccMskReplicator_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccmskreplicator.DataAwsccMskReplicator_IsTerraformElement(x interface{}) 
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccMskReplicator.DataAwsccMskReplicator.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskreplicator"
 
 dataawsccmskreplicator.DataAwsccMskReplicator_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccmskreplicator.DataAwsccMskReplicator_IsTerraformDataSource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccMskReplicator.DataAwsccMskReplicator.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskreplicator"
 
 dataawsccmskreplicator.DataAwsccMskReplicator_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccMskReplicator to 
 
 The id of the existing DataAwsccMskReplicator that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/msk_replicator#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/msk_replicator#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -686,7 +686,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskReplicator.DataAwsccMskReplicatorConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskreplicator"
 
 &dataawsccmskreplicator.DataAwsccMskReplicatorConfig {
 	Connection: interface{},
@@ -795,7 +795,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/msk_replicator#id DataAwsccMskReplicator#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/msk_replicator#id DataAwsccMskReplicator#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -807,7 +807,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskReplicator.DataAwsccMskReplicatorKafkaClusters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskreplicator"
 
 &dataawsccmskreplicator.DataAwsccMskReplicatorKafkaClusters {
 
@@ -820,7 +820,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskReplicator.DataAwsccMskReplicatorKafkaClustersAmazonMskCluster.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskreplicator"
 
 &dataawsccmskreplicator.DataAwsccMskReplicatorKafkaClustersAmazonMskCluster {
 
@@ -833,7 +833,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskReplicator.DataAwsccMskReplicatorKafkaClustersApacheKafkaCluster.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskreplicator"
 
 &dataawsccmskreplicator.DataAwsccMskReplicatorKafkaClustersApacheKafkaCluster {
 
@@ -846,7 +846,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskReplicator.DataAwsccMskReplicatorKafkaClustersClientAuthentication.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskreplicator"
 
 &dataawsccmskreplicator.DataAwsccMskReplicatorKafkaClustersClientAuthentication {
 
@@ -859,7 +859,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskReplicator.DataAwsccMskReplicatorKafkaClustersClientAuthenticationMtls.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskreplicator"
 
 &dataawsccmskreplicator.DataAwsccMskReplicatorKafkaClustersClientAuthenticationMtls {
 
@@ -872,7 +872,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskReplicator.DataAwsccMskReplicatorKafkaClustersClientAuthenticationSaslOAuthBearer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskreplicator"
 
 &dataawsccmskreplicator.DataAwsccMskReplicatorKafkaClustersClientAuthenticationSaslOAuthBearer {
 
@@ -885,7 +885,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskReplicator.DataAwsccMskReplicatorKafkaClustersClientAuthenticationSaslOAuthBearerClientCredentials.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskreplicator"
 
 &dataawsccmskreplicator.DataAwsccMskReplicatorKafkaClustersClientAuthenticationSaslOAuthBearerClientCredentials {
 
@@ -898,7 +898,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskReplicator.DataAwsccMskReplicatorKafkaClustersClientAuthenticationSaslOAuthBearerClientCredentialsAssertion.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskreplicator"
 
 &dataawsccmskreplicator.DataAwsccMskReplicatorKafkaClustersClientAuthenticationSaslOAuthBearerClientCredentialsAssertion {
 
@@ -911,7 +911,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskReplicator.DataAwsccMskReplicatorKafkaClustersClientAuthenticationSaslOAuthBearerIamJwtBearer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskreplicator"
 
 &dataawsccmskreplicator.DataAwsccMskReplicatorKafkaClustersClientAuthenticationSaslOAuthBearerIamJwtBearer {
 
@@ -924,7 +924,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskReplicator.DataAwsccMskReplicatorKafkaClustersClientAuthenticationSaslScram.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskreplicator"
 
 &dataawsccmskreplicator.DataAwsccMskReplicatorKafkaClustersClientAuthenticationSaslScram {
 
@@ -937,7 +937,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskReplicator.DataAwsccMskReplicatorKafkaClustersEncryptionInTransit.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskreplicator"
 
 &dataawsccmskreplicator.DataAwsccMskReplicatorKafkaClustersEncryptionInTransit {
 
@@ -950,7 +950,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskReplicator.DataAwsccMskReplicatorKafkaClustersVpcConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskreplicator"
 
 &dataawsccmskreplicator.DataAwsccMskReplicatorKafkaClustersVpcConfig {
 
@@ -963,7 +963,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskReplicator.DataAwsccMskReplicatorLogDelivery.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskreplicator"
 
 &dataawsccmskreplicator.DataAwsccMskReplicatorLogDelivery {
 
@@ -976,7 +976,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskReplicator.DataAwsccMskReplicatorLogDeliveryReplicatorLogDelivery.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskreplicator"
 
 &dataawsccmskreplicator.DataAwsccMskReplicatorLogDeliveryReplicatorLogDelivery {
 
@@ -989,7 +989,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskReplicator.DataAwsccMskReplicatorLogDeliveryReplicatorLogDeliveryCloudwatchLogs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskreplicator"
 
 &dataawsccmskreplicator.DataAwsccMskReplicatorLogDeliveryReplicatorLogDeliveryCloudwatchLogs {
 
@@ -1002,7 +1002,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskReplicator.DataAwsccMskReplicatorLogDeliveryReplicatorLogDeliveryFirehose.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskreplicator"
 
 &dataawsccmskreplicator.DataAwsccMskReplicatorLogDeliveryReplicatorLogDeliveryFirehose {
 
@@ -1015,7 +1015,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskReplicator.DataAwsccMskReplicatorLogDeliveryReplicatorLogDeliveryS3.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskreplicator"
 
 &dataawsccmskreplicator.DataAwsccMskReplicatorLogDeliveryReplicatorLogDeliveryS3 {
 
@@ -1028,7 +1028,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskReplicator.DataAwsccMskReplicatorReplicationInfoListConsumerGroupReplication.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskreplicator"
 
 &dataawsccmskreplicator.DataAwsccMskReplicatorReplicationInfoListConsumerGroupReplication {
 
@@ -1041,7 +1041,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskReplicator.DataAwsccMskReplicatorReplicationInfoListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskreplicator"
 
 &dataawsccmskreplicator.DataAwsccMskReplicatorReplicationInfoListStruct {
 
@@ -1054,7 +1054,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskReplicator.DataAwsccMskReplicatorReplicationInfoListTopicReplication.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskreplicator"
 
 &dataawsccmskreplicator.DataAwsccMskReplicatorReplicationInfoListTopicReplication {
 
@@ -1067,7 +1067,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskReplicator.DataAwsccMskReplicatorReplicationInfoListTopicReplicationStartingPosition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskreplicator"
 
 &dataawsccmskreplicator.DataAwsccMskReplicatorReplicationInfoListTopicReplicationStartingPosition {
 
@@ -1080,7 +1080,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskReplicator.DataAwsccMskReplicatorReplicationInfoListTopicReplicationTopicNameConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskreplicator"
 
 &dataawsccmskreplicator.DataAwsccMskReplicatorReplicationInfoListTopicReplicationTopicNameConfiguration {
 
@@ -1093,7 +1093,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMskReplicator.DataAwsccMskReplicatorTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskreplicator"
 
 &dataawsccmskreplicator.DataAwsccMskReplicatorTags {
 
@@ -1108,7 +1108,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskReplicator.DataAwsccMskReplicatorKafkaClustersAmazonMskClusterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskreplicator"
 
 dataawsccmskreplicator.NewDataAwsccMskReplicatorKafkaClustersAmazonMskClusterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskReplicatorKafkaClustersAmazonMskClusterOutputReference
 ```
@@ -1368,7 +1368,7 @@ func InternalValue() DataAwsccMskReplicatorKafkaClustersAmazonMskCluster
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskReplicator.DataAwsccMskReplicatorKafkaClustersApacheKafkaClusterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskreplicator"
 
 dataawsccmskreplicator.NewDataAwsccMskReplicatorKafkaClustersApacheKafkaClusterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskReplicatorKafkaClustersApacheKafkaClusterOutputReference
 ```
@@ -1639,7 +1639,7 @@ func InternalValue() DataAwsccMskReplicatorKafkaClustersApacheKafkaCluster
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskReplicator.DataAwsccMskReplicatorKafkaClustersClientAuthenticationMtlsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskreplicator"
 
 dataawsccmskreplicator.NewDataAwsccMskReplicatorKafkaClustersClientAuthenticationMtlsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskReplicatorKafkaClustersClientAuthenticationMtlsOutputReference
 ```
@@ -1899,7 +1899,7 @@ func InternalValue() DataAwsccMskReplicatorKafkaClustersClientAuthenticationMtls
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskReplicator.DataAwsccMskReplicatorKafkaClustersClientAuthenticationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskreplicator"
 
 dataawsccmskreplicator.NewDataAwsccMskReplicatorKafkaClustersClientAuthenticationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskReplicatorKafkaClustersClientAuthenticationOutputReference
 ```
@@ -2181,7 +2181,7 @@ func InternalValue() DataAwsccMskReplicatorKafkaClustersClientAuthentication
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskReplicator.DataAwsccMskReplicatorKafkaClustersClientAuthenticationSaslOAuthBearerClientCredentialsAssertionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskreplicator"
 
 dataawsccmskreplicator.NewDataAwsccMskReplicatorKafkaClustersClientAuthenticationSaslOAuthBearerClientCredentialsAssertionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskReplicatorKafkaClustersClientAuthenticationSaslOAuthBearerClientCredentialsAssertionOutputReference
 ```
@@ -2463,7 +2463,7 @@ func InternalValue() DataAwsccMskReplicatorKafkaClustersClientAuthenticationSasl
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskReplicator.DataAwsccMskReplicatorKafkaClustersClientAuthenticationSaslOAuthBearerClientCredentialsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskreplicator"
 
 dataawsccmskreplicator.NewDataAwsccMskReplicatorKafkaClustersClientAuthenticationSaslOAuthBearerClientCredentialsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskReplicatorKafkaClustersClientAuthenticationSaslOAuthBearerClientCredentialsOutputReference
 ```
@@ -2723,7 +2723,7 @@ func InternalValue() DataAwsccMskReplicatorKafkaClustersClientAuthenticationSasl
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskReplicator.DataAwsccMskReplicatorKafkaClustersClientAuthenticationSaslOAuthBearerIamJwtBearerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskreplicator"
 
 dataawsccmskreplicator.NewDataAwsccMskReplicatorKafkaClustersClientAuthenticationSaslOAuthBearerIamJwtBearerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskReplicatorKafkaClustersClientAuthenticationSaslOAuthBearerIamJwtBearerOutputReference
 ```
@@ -3005,7 +3005,7 @@ func InternalValue() DataAwsccMskReplicatorKafkaClustersClientAuthenticationSasl
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskReplicator.DataAwsccMskReplicatorKafkaClustersClientAuthenticationSaslOAuthBearerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskreplicator"
 
 dataawsccmskreplicator.NewDataAwsccMskReplicatorKafkaClustersClientAuthenticationSaslOAuthBearerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskReplicatorKafkaClustersClientAuthenticationSaslOAuthBearerOutputReference
 ```
@@ -3331,7 +3331,7 @@ func InternalValue() DataAwsccMskReplicatorKafkaClustersClientAuthenticationSasl
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskReplicator.DataAwsccMskReplicatorKafkaClustersClientAuthenticationSaslScramOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskreplicator"
 
 dataawsccmskreplicator.NewDataAwsccMskReplicatorKafkaClustersClientAuthenticationSaslScramOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskReplicatorKafkaClustersClientAuthenticationSaslScramOutputReference
 ```
@@ -3602,7 +3602,7 @@ func InternalValue() DataAwsccMskReplicatorKafkaClustersClientAuthenticationSasl
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskReplicator.DataAwsccMskReplicatorKafkaClustersEncryptionInTransitOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskreplicator"
 
 dataawsccmskreplicator.NewDataAwsccMskReplicatorKafkaClustersEncryptionInTransitOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskReplicatorKafkaClustersEncryptionInTransitOutputReference
 ```
@@ -3873,7 +3873,7 @@ func InternalValue() DataAwsccMskReplicatorKafkaClustersEncryptionInTransit
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskReplicator.DataAwsccMskReplicatorKafkaClustersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskreplicator"
 
 dataawsccmskreplicator.NewDataAwsccMskReplicatorKafkaClustersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccMskReplicatorKafkaClustersList
 ```
@@ -4022,7 +4022,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskReplicator.DataAwsccMskReplicatorKafkaClustersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskreplicator"
 
 dataawsccmskreplicator.NewDataAwsccMskReplicatorKafkaClustersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccMskReplicatorKafkaClustersOutputReference
 ```
@@ -4344,7 +4344,7 @@ func InternalValue() DataAwsccMskReplicatorKafkaClusters
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskReplicator.DataAwsccMskReplicatorKafkaClustersVpcConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskreplicator"
 
 dataawsccmskreplicator.NewDataAwsccMskReplicatorKafkaClustersVpcConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskReplicatorKafkaClustersVpcConfigOutputReference
 ```
@@ -4615,7 +4615,7 @@ func InternalValue() DataAwsccMskReplicatorKafkaClustersVpcConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskReplicator.DataAwsccMskReplicatorLogDeliveryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskreplicator"
 
 dataawsccmskreplicator.NewDataAwsccMskReplicatorLogDeliveryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskReplicatorLogDeliveryOutputReference
 ```
@@ -4875,7 +4875,7 @@ func InternalValue() DataAwsccMskReplicatorLogDelivery
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskReplicator.DataAwsccMskReplicatorLogDeliveryReplicatorLogDeliveryCloudwatchLogsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskreplicator"
 
 dataawsccmskreplicator.NewDataAwsccMskReplicatorLogDeliveryReplicatorLogDeliveryCloudwatchLogsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskReplicatorLogDeliveryReplicatorLogDeliveryCloudwatchLogsOutputReference
 ```
@@ -5146,7 +5146,7 @@ func InternalValue() DataAwsccMskReplicatorLogDeliveryReplicatorLogDeliveryCloud
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskReplicator.DataAwsccMskReplicatorLogDeliveryReplicatorLogDeliveryFirehoseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskreplicator"
 
 dataawsccmskreplicator.NewDataAwsccMskReplicatorLogDeliveryReplicatorLogDeliveryFirehoseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskReplicatorLogDeliveryReplicatorLogDeliveryFirehoseOutputReference
 ```
@@ -5417,7 +5417,7 @@ func InternalValue() DataAwsccMskReplicatorLogDeliveryReplicatorLogDeliveryFireh
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskReplicator.DataAwsccMskReplicatorLogDeliveryReplicatorLogDeliveryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskreplicator"
 
 dataawsccmskreplicator.NewDataAwsccMskReplicatorLogDeliveryReplicatorLogDeliveryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskReplicatorLogDeliveryReplicatorLogDeliveryOutputReference
 ```
@@ -5699,7 +5699,7 @@ func InternalValue() DataAwsccMskReplicatorLogDeliveryReplicatorLogDelivery
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskReplicator.DataAwsccMskReplicatorLogDeliveryReplicatorLogDeliveryS3OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskreplicator"
 
 dataawsccmskreplicator.NewDataAwsccMskReplicatorLogDeliveryReplicatorLogDeliveryS3OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskReplicatorLogDeliveryReplicatorLogDeliveryS3OutputReference
 ```
@@ -5981,7 +5981,7 @@ func InternalValue() DataAwsccMskReplicatorLogDeliveryReplicatorLogDeliveryS3
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskReplicator.DataAwsccMskReplicatorReplicationInfoListConsumerGroupReplicationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskreplicator"
 
 dataawsccmskreplicator.NewDataAwsccMskReplicatorReplicationInfoListConsumerGroupReplicationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskReplicatorReplicationInfoListConsumerGroupReplicationOutputReference
 ```
@@ -6285,7 +6285,7 @@ func InternalValue() DataAwsccMskReplicatorReplicationInfoListConsumerGroupRepli
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskReplicator.DataAwsccMskReplicatorReplicationInfoListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskreplicator"
 
 dataawsccmskreplicator.NewDataAwsccMskReplicatorReplicationInfoListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccMskReplicatorReplicationInfoListStructList
 ```
@@ -6434,7 +6434,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskReplicator.DataAwsccMskReplicatorReplicationInfoListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskreplicator"
 
 dataawsccmskreplicator.NewDataAwsccMskReplicatorReplicationInfoListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccMskReplicatorReplicationInfoListStructOutputReference
 ```
@@ -6778,7 +6778,7 @@ func InternalValue() DataAwsccMskReplicatorReplicationInfoListStruct
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskReplicator.DataAwsccMskReplicatorReplicationInfoListTopicReplicationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskreplicator"
 
 dataawsccmskreplicator.NewDataAwsccMskReplicatorReplicationInfoListTopicReplicationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskReplicatorReplicationInfoListTopicReplicationOutputReference
 ```
@@ -7104,7 +7104,7 @@ func InternalValue() DataAwsccMskReplicatorReplicationInfoListTopicReplication
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskReplicator.DataAwsccMskReplicatorReplicationInfoListTopicReplicationStartingPositionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskreplicator"
 
 dataawsccmskreplicator.NewDataAwsccMskReplicatorReplicationInfoListTopicReplicationStartingPositionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskReplicatorReplicationInfoListTopicReplicationStartingPositionOutputReference
 ```
@@ -7364,7 +7364,7 @@ func InternalValue() DataAwsccMskReplicatorReplicationInfoListTopicReplicationSt
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskReplicator.DataAwsccMskReplicatorReplicationInfoListTopicReplicationTopicNameConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskreplicator"
 
 dataawsccmskreplicator.NewDataAwsccMskReplicatorReplicationInfoListTopicReplicationTopicNameConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMskReplicatorReplicationInfoListTopicReplicationTopicNameConfigurationOutputReference
 ```
@@ -7624,7 +7624,7 @@ func InternalValue() DataAwsccMskReplicatorReplicationInfoListTopicReplicationTo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskReplicator.DataAwsccMskReplicatorTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskreplicator"
 
 dataawsccmskreplicator.NewDataAwsccMskReplicatorTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccMskReplicatorTagsList
 ```
@@ -7773,7 +7773,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMskReplicator.DataAwsccMskReplicatorTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskreplicator"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskreplicator"
 
 dataawsccmskreplicator.NewDataAwsccMskReplicatorTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccMskReplicatorTagsOutputReference
 ```

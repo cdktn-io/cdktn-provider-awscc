@@ -4,12 +4,12 @@
 
 ### IotsecuretunnelingTunnel <a name="IotsecuretunnelingTunnel" id="@cdktn/provider-awscc.iotsecuretunnelingTunnel.IotsecuretunnelingTunnel"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsecuretunneling_tunnel awscc_iotsecuretunneling_tunnel}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsecuretunneling_tunnel awscc_iotsecuretunneling_tunnel}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsecuretunnelingTunnel.IotsecuretunnelingTunnel.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsecuretunnelingtunnel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsecuretunnelingtunnel"
 
 iotsecuretunnelingtunnel.NewIotsecuretunnelingTunnel(scope Construct, id *string, config IotsecuretunnelingTunnelConfig) IotsecuretunnelingTunnel
 ```
@@ -467,7 +467,7 @@ func ResetTimeoutConfig()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.iotsecuretunnelingTunnel.IotsecuretunnelingTunnel.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsecuretunnelingtunnel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsecuretunnelingtunnel"
 
 iotsecuretunnelingtunnel.IotsecuretunnelingTunnel_IsConstruct(x interface{}) *bool
 ```
@@ -499,7 +499,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.iotsecuretunnelingTunnel.IotsecuretunnelingTunnel.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsecuretunnelingtunnel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsecuretunnelingtunnel"
 
 iotsecuretunnelingtunnel.IotsecuretunnelingTunnel_IsTerraformElement(x interface{}) *bool
 ```
@@ -513,7 +513,7 @@ iotsecuretunnelingtunnel.IotsecuretunnelingTunnel_IsTerraformElement(x interface
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.iotsecuretunnelingTunnel.IotsecuretunnelingTunnel.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsecuretunnelingtunnel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsecuretunnelingtunnel"
 
 iotsecuretunnelingtunnel.IotsecuretunnelingTunnel_IsTerraformResource(x interface{}) *bool
 ```
@@ -527,7 +527,7 @@ iotsecuretunnelingtunnel.IotsecuretunnelingTunnel_IsTerraformResource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.iotsecuretunnelingTunnel.IotsecuretunnelingTunnel.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsecuretunnelingtunnel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsecuretunnelingtunnel"
 
 iotsecuretunnelingtunnel.IotsecuretunnelingTunnel_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -556,7 +556,7 @@ The construct id used in the generated config for the IotsecuretunnelingTunnel t
 
 The id of the existing IotsecuretunnelingTunnel that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsecuretunneling_tunnel#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsecuretunneling_tunnel#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -888,7 +888,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsecuretunnelingTunnel.IotsecuretunnelingTunnelConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsecuretunnelingtunnel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsecuretunnelingtunnel"
 
 &iotsecuretunnelingtunnel.IotsecuretunnelingTunnelConfig {
 	Connection: interface{},
@@ -899,9 +899,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsecuretunnelingtunn
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	Description: *string,
-	DestinationConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotsecuretunnelingTunnel.IotsecuretunnelingTunnelDestinationConfig,
+	DestinationConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotsecuretunnelingTunnel.IotsecuretunnelingTunnelDestinationConfig,
 	Tags: interface{},
-	TimeoutConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotsecuretunnelingTunnel.IotsecuretunnelingTunnelTimeoutConfig,
+	TimeoutConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotsecuretunnelingTunnel.IotsecuretunnelingTunnelTimeoutConfig,
 }
 ```
 
@@ -1003,7 +1003,7 @@ Description *string
 
 A short text description of the tunnel.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsecuretunneling_tunnel#description IotsecuretunnelingTunnel#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsecuretunneling_tunnel#description IotsecuretunnelingTunnel#description}
 
 ---
 
@@ -1017,7 +1017,7 @@ DestinationConfig IotsecuretunnelingTunnelDestinationConfig
 
 The destination configuration for the tunnel.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsecuretunneling_tunnel#destination_config IotsecuretunnelingTunnel#destination_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsecuretunneling_tunnel#destination_config IotsecuretunnelingTunnel#destination_config}
 
 ---
 
@@ -1031,7 +1031,7 @@ Tags interface{}
 
 A collection of tag metadata.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsecuretunneling_tunnel#tags IotsecuretunnelingTunnel#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsecuretunneling_tunnel#tags IotsecuretunnelingTunnel#tags}
 
 ---
 
@@ -1045,7 +1045,7 @@ TimeoutConfig IotsecuretunnelingTunnelTimeoutConfig
 
 Timeout configuration for the tunnel.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsecuretunneling_tunnel#timeout_config IotsecuretunnelingTunnel#timeout_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsecuretunneling_tunnel#timeout_config IotsecuretunnelingTunnel#timeout_config}
 
 ---
 
@@ -1054,7 +1054,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsecuretunnelingTunnel.IotsecuretunnelingTunnelDestinationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsecuretunnelingtunnel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsecuretunnelingtunnel"
 
 &iotsecuretunnelingtunnel.IotsecuretunnelingTunnelDestinationConfig {
 	Services: *[]*string,
@@ -1081,7 +1081,7 @@ Services *[]*string
 
 A list of service names that identify the target application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsecuretunneling_tunnel#services IotsecuretunnelingTunnel#services}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsecuretunneling_tunnel#services IotsecuretunnelingTunnel#services}
 
 ---
 
@@ -1095,7 +1095,7 @@ ThingName *string
 
 The name of the IoT thing to which you want to connect.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsecuretunneling_tunnel#thing_name IotsecuretunnelingTunnel#thing_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsecuretunneling_tunnel#thing_name IotsecuretunnelingTunnel#thing_name}
 
 ---
 
@@ -1104,7 +1104,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsecuretunnelingTunnel.IotsecuretunnelingTunnelTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsecuretunnelingtunnel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsecuretunnelingtunnel"
 
 &iotsecuretunnelingtunnel.IotsecuretunnelingTunnelTags {
 	Key: *string,
@@ -1131,7 +1131,7 @@ Key *string
 
 The key of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsecuretunneling_tunnel#key IotsecuretunnelingTunnel#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsecuretunneling_tunnel#key IotsecuretunnelingTunnel#key}
 
 ---
 
@@ -1145,7 +1145,7 @@ Value *string
 
 The value of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsecuretunneling_tunnel#value IotsecuretunnelingTunnel#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsecuretunneling_tunnel#value IotsecuretunnelingTunnel#value}
 
 ---
 
@@ -1154,7 +1154,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsecuretunnelingTunnel.IotsecuretunnelingTunnelTimeoutConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsecuretunnelingtunnel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsecuretunnelingtunnel"
 
 &iotsecuretunnelingtunnel.IotsecuretunnelingTunnelTimeoutConfig {
 	MaxLifetimeTimeoutMinutes: *f64,
@@ -1179,7 +1179,7 @@ MaxLifetimeTimeoutMinutes *f64
 
 The maximum amount of time (in minutes) a tunnel can remain open.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsecuretunneling_tunnel#max_lifetime_timeout_minutes IotsecuretunnelingTunnel#max_lifetime_timeout_minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsecuretunneling_tunnel#max_lifetime_timeout_minutes IotsecuretunnelingTunnel#max_lifetime_timeout_minutes}
 
 ---
 
@@ -1190,7 +1190,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsecuretunnelingTunnel.IotsecuretunnelingTunnelDestinationConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsecuretunnelingtunnel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsecuretunnelingtunnel"
 
 iotsecuretunnelingtunnel.NewIotsecuretunnelingTunnelDestinationConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotsecuretunnelingTunnelDestinationConfigOutputReference
 ```
@@ -1497,7 +1497,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsecuretunnelingTunnel.IotsecuretunnelingTunnelTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsecuretunnelingtunnel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsecuretunnelingtunnel"
 
 iotsecuretunnelingtunnel.NewIotsecuretunnelingTunnelTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IotsecuretunnelingTunnelTagsList
 ```
@@ -1657,7 +1657,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsecuretunnelingTunnel.IotsecuretunnelingTunnelTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsecuretunnelingtunnel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsecuretunnelingtunnel"
 
 iotsecuretunnelingtunnel.NewIotsecuretunnelingTunnelTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IotsecuretunnelingTunnelTagsOutputReference
 ```
@@ -1982,7 +1982,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsecuretunnelingTunnel.IotsecuretunnelingTunnelTimeoutConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsecuretunnelingtunnel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsecuretunnelingtunnel"
 
 iotsecuretunnelingtunnel.NewIotsecuretunnelingTunnelTimeoutConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotsecuretunnelingTunnelTimeoutConfigOutputReference
 ```

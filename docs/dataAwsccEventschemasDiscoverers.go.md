@@ -4,12 +4,12 @@
 
 ### DataAwsccEventschemasDiscoverers <a name="DataAwsccEventschemasDiscoverers" id="@cdktn/provider-awscc.dataAwsccEventschemasDiscoverers.DataAwsccEventschemasDiscoverers"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/eventschemas_discoverers awscc_eventschemas_discoverers}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/eventschemas_discoverers awscc_eventschemas_discoverers}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventschemasDiscoverers.DataAwsccEventschemasDiscoverers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventschemasdiscoverers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventschemasdiscoverers"
 
 dataawscceventschemasdiscoverers.NewDataAwsccEventschemasDiscoverers(scope Construct, id *string, config DataAwsccEventschemasDiscoverersConfig) DataAwsccEventschemasDiscoverers
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEventschemasDiscoverers.DataAwsccEventschemasDiscoverers.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventschemasdiscoverers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventschemasdiscoverers"
 
 dataawscceventschemasdiscoverers.DataAwsccEventschemasDiscoverers_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEventschemasDiscoverers.DataAwsccEventschemasDiscoverers.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventschemasdiscoverers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventschemasdiscoverers"
 
 dataawscceventschemasdiscoverers.DataAwsccEventschemasDiscoverers_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscceventschemasdiscoverers.DataAwsccEventschemasDiscoverers_IsTerraformEle
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEventschemasDiscoverers.DataAwsccEventschemasDiscoverers.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventschemasdiscoverers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventschemasdiscoverers"
 
 dataawscceventschemasdiscoverers.DataAwsccEventschemasDiscoverers_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscceventschemasdiscoverers.DataAwsccEventschemasDiscoverers_IsTerraformDat
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEventschemasDiscoverers.DataAwsccEventschemasDiscoverers.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventschemasdiscoverers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventschemasdiscoverers"
 
 dataawscceventschemasdiscoverers.DataAwsccEventschemasDiscoverers_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEventschemasDisco
 
 The id of the existing DataAwsccEventschemasDiscoverers that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/eventschemas_discoverers#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/eventschemas_discoverers#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventschemasDiscoverers.DataAwsccEventschemasDiscoverersConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventschemasdiscoverers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventschemasdiscoverers"
 
 &dataawscceventschemasdiscoverers.DataAwsccEventschemasDiscoverersConfig {
 	Connection: interface{},

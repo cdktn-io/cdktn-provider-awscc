@@ -4,12 +4,12 @@
 
 ### DataAwsccStoragegatewayNfsFileShare <a name="DataAwsccStoragegatewayNfsFileShare" id="@cdktn/provider-awscc.dataAwsccStoragegatewayNfsFileShare.DataAwsccStoragegatewayNfsFileShare"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/storagegateway_nfs_file_share awscc_storagegateway_nfs_file_share}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/storagegateway_nfs_file_share awscc_storagegateway_nfs_file_share}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccStoragegatewayNfsFileShare.DataAwsccStoragegatewayNfsFileShare.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstoragegatewaynfsfileshare"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstoragegatewaynfsfileshare"
 
 dataawsccstoragegatewaynfsfileshare.NewDataAwsccStoragegatewayNfsFileShare(scope Construct, id *string, config DataAwsccStoragegatewayNfsFileShareConfig) DataAwsccStoragegatewayNfsFileShare
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccStoragegatewayNfsFileShare.DataAwsccStoragegatewayNfsFileShare.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstoragegatewaynfsfileshare"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstoragegatewaynfsfileshare"
 
 dataawsccstoragegatewaynfsfileshare.DataAwsccStoragegatewayNfsFileShare_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccStoragegatewayNfsFileShare.DataAwsccStoragegatewayNfsFileShare.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstoragegatewaynfsfileshare"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstoragegatewaynfsfileshare"
 
 dataawsccstoragegatewaynfsfileshare.DataAwsccStoragegatewayNfsFileShare_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccstoragegatewaynfsfileshare.DataAwsccStoragegatewayNfsFileShare_IsTerraf
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccStoragegatewayNfsFileShare.DataAwsccStoragegatewayNfsFileShare.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstoragegatewaynfsfileshare"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstoragegatewaynfsfileshare"
 
 dataawsccstoragegatewaynfsfileshare.DataAwsccStoragegatewayNfsFileShare_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccstoragegatewaynfsfileshare.DataAwsccStoragegatewayNfsFileShare_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccStoragegatewayNfsFileShare.DataAwsccStoragegatewayNfsFileShare.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstoragegatewaynfsfileshare"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstoragegatewaynfsfileshare"
 
 dataawsccstoragegatewaynfsfileshare.DataAwsccStoragegatewayNfsFileShare_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccStoragegatewayNfs
 
 The id of the existing DataAwsccStoragegatewayNfsFileShare that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/storagegateway_nfs_file_share#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/storagegateway_nfs_file_share#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -862,7 +862,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccStoragegatewayNfsFileShare.DataAwsccStoragegatewayNfsFileShareCacheAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstoragegatewaynfsfileshare"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstoragegatewaynfsfileshare"
 
 &dataawsccstoragegatewaynfsfileshare.DataAwsccStoragegatewayNfsFileShareCacheAttributes {
 
@@ -875,7 +875,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstoragegatewa
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccStoragegatewayNfsFileShare.DataAwsccStoragegatewayNfsFileShareConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstoragegatewaynfsfileshare"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstoragegatewaynfsfileshare"
 
 &dataawsccstoragegatewaynfsfileshare.DataAwsccStoragegatewayNfsFileShareConfig {
 	Connection: interface{},
@@ -984,7 +984,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/storagegateway_nfs_file_share#id DataAwsccStoragegatewayNfsFileShare#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/storagegateway_nfs_file_share#id DataAwsccStoragegatewayNfsFileShare#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -996,7 +996,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccStoragegatewayNfsFileShare.DataAwsccStoragegatewayNfsFileShareNfsFileShareDefaults.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstoragegatewaynfsfileshare"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstoragegatewaynfsfileshare"
 
 &dataawsccstoragegatewaynfsfileshare.DataAwsccStoragegatewayNfsFileShareNfsFileShareDefaults {
 
@@ -1009,7 +1009,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstoragegatewa
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccStoragegatewayNfsFileShare.DataAwsccStoragegatewayNfsFileShareTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstoragegatewaynfsfileshare"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstoragegatewaynfsfileshare"
 
 &dataawsccstoragegatewaynfsfileshare.DataAwsccStoragegatewayNfsFileShareTags {
 
@@ -1024,7 +1024,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstoragegatewa
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccStoragegatewayNfsFileShare.DataAwsccStoragegatewayNfsFileShareCacheAttributesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstoragegatewaynfsfileshare"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstoragegatewaynfsfileshare"
 
 dataawsccstoragegatewaynfsfileshare.NewDataAwsccStoragegatewayNfsFileShareCacheAttributesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccStoragegatewayNfsFileShareCacheAttributesOutputReference
 ```
@@ -1284,7 +1284,7 @@ func InternalValue() DataAwsccStoragegatewayNfsFileShareCacheAttributes
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccStoragegatewayNfsFileShare.DataAwsccStoragegatewayNfsFileShareNfsFileShareDefaultsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstoragegatewaynfsfileshare"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstoragegatewaynfsfileshare"
 
 dataawsccstoragegatewaynfsfileshare.NewDataAwsccStoragegatewayNfsFileShareNfsFileShareDefaultsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccStoragegatewayNfsFileShareNfsFileShareDefaultsOutputReference
 ```
@@ -1577,7 +1577,7 @@ func InternalValue() DataAwsccStoragegatewayNfsFileShareNfsFileShareDefaults
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccStoragegatewayNfsFileShare.DataAwsccStoragegatewayNfsFileShareTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstoragegatewaynfsfileshare"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstoragegatewaynfsfileshare"
 
 dataawsccstoragegatewaynfsfileshare.NewDataAwsccStoragegatewayNfsFileShareTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccStoragegatewayNfsFileShareTagsList
 ```
@@ -1726,7 +1726,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccStoragegatewayNfsFileShare.DataAwsccStoragegatewayNfsFileShareTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstoragegatewaynfsfileshare"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstoragegatewaynfsfileshare"
 
 dataawsccstoragegatewaynfsfileshare.NewDataAwsccStoragegatewayNfsFileShareTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccStoragegatewayNfsFileShareTagsOutputReference
 ```

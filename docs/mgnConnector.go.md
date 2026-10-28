@@ -4,12 +4,12 @@
 
 ### MgnConnector <a name="MgnConnector" id="@cdktn/provider-awscc.mgnConnector.MgnConnector"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mgn_connector awscc_mgn_connector}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mgn_connector awscc_mgn_connector}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mgnConnector.MgnConnector.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mgnconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mgnconnector"
 
 mgnconnector.NewMgnConnector(scope Construct, id *string, config MgnConnectorConfig) MgnConnector
 ```
@@ -440,7 +440,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.mgnConnector.MgnConnector.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mgnconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mgnconnector"
 
 mgnconnector.MgnConnector_IsConstruct(x interface{}) *bool
 ```
@@ -472,7 +472,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.mgnConnector.MgnConnector.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mgnconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mgnconnector"
 
 mgnconnector.MgnConnector_IsTerraformElement(x interface{}) *bool
 ```
@@ -486,7 +486,7 @@ mgnconnector.MgnConnector_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.mgnConnector.MgnConnector.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mgnconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mgnconnector"
 
 mgnconnector.MgnConnector_IsTerraformResource(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ mgnconnector.MgnConnector_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.mgnConnector.MgnConnector.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mgnconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mgnconnector"
 
 mgnconnector.MgnConnector_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -529,7 +529,7 @@ The construct id used in the generated config for the MgnConnector to import.
 
 The id of the existing MgnConnector that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mgn_connector#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mgn_connector#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -850,7 +850,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mgnConnector.MgnConnectorConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mgnconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mgnconnector"
 
 &mgnconnector.MgnConnectorConfig {
 	Connection: interface{},
@@ -862,7 +862,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mgnconnector"
 	Provisioners: *[]interface{},
 	Name: *string,
 	SsmInstanceId: *string,
-	SsmCommandConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.mgnConnector.MgnConnectorSsmCommandConfig,
+	SsmCommandConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.mgnConnector.MgnConnectorSsmCommandConfig,
 	Tags: interface{},
 }
 ```
@@ -965,7 +965,7 @@ Name *string
 
 The name of the connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mgn_connector#name MgnConnector#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mgn_connector#name MgnConnector#name}
 
 ---
 
@@ -979,7 +979,7 @@ SsmInstanceId *string
 
 The SSM instance ID associated with this connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mgn_connector#ssm_instance_id MgnConnector#ssm_instance_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mgn_connector#ssm_instance_id MgnConnector#ssm_instance_id}
 
 ---
 
@@ -993,7 +993,7 @@ SsmCommandConfig MgnConnectorSsmCommandConfig
 
 SSM command configuration for the connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mgn_connector#ssm_command_config MgnConnector#ssm_command_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mgn_connector#ssm_command_config MgnConnector#ssm_command_config}
 
 ---
 
@@ -1007,7 +1007,7 @@ Tags interface{}
 
 Tags to assign to the connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mgn_connector#tags MgnConnector#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mgn_connector#tags MgnConnector#tags}
 
 ---
 
@@ -1016,7 +1016,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mgnConnector.MgnConnectorSsmCommandConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mgnconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mgnconnector"
 
 &mgnconnector.MgnConnectorSsmCommandConfig {
 	CloudwatchLogGroupName: *string,
@@ -1047,7 +1047,7 @@ CloudwatchLogGroupName *string
 
 The CloudWatch Logs group name for SSM command output.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mgn_connector#cloudwatch_log_group_name MgnConnector#cloudwatch_log_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mgn_connector#cloudwatch_log_group_name MgnConnector#cloudwatch_log_group_name}
 
 ---
 
@@ -1061,7 +1061,7 @@ CloudwatchOutputEnabled interface{}
 
 Whether SSM command output is sent to CloudWatch Logs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mgn_connector#cloudwatch_output_enabled MgnConnector#cloudwatch_output_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mgn_connector#cloudwatch_output_enabled MgnConnector#cloudwatch_output_enabled}
 
 ---
 
@@ -1075,7 +1075,7 @@ OutputS3BucketName *string
 
 The S3 bucket name for SSM command output.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mgn_connector#output_s3_bucket_name MgnConnector#output_s3_bucket_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mgn_connector#output_s3_bucket_name MgnConnector#output_s3_bucket_name}
 
 ---
 
@@ -1089,7 +1089,7 @@ S3OutputEnabled interface{}
 
 Whether SSM command output is stored in S3.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mgn_connector#s3_output_enabled MgnConnector#s3_output_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mgn_connector#s3_output_enabled MgnConnector#s3_output_enabled}
 
 ---
 
@@ -1098,7 +1098,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mgnConnector.MgnConnectorTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mgnconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mgnconnector"
 
 &mgnconnector.MgnConnectorTags {
 	Key: *string,
@@ -1125,7 +1125,7 @@ Key *string
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mgn_connector#key MgnConnector#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mgn_connector#key MgnConnector#key}
 
 ---
 
@@ -1139,7 +1139,7 @@ Value *string
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mgn_connector#value MgnConnector#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mgn_connector#value MgnConnector#value}
 
 ---
 
@@ -1150,7 +1150,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mgnConnector.MgnConnectorSsmCommandConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mgnconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mgnconnector"
 
 mgnconnector.NewMgnConnectorSsmCommandConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) MgnConnectorSsmCommandConfigOutputReference
 ```
@@ -1515,7 +1515,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mgnConnector.MgnConnectorTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mgnconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mgnconnector"
 
 mgnconnector.NewMgnConnectorTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MgnConnectorTagsList
 ```
@@ -1675,7 +1675,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mgnConnector.MgnConnectorTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mgnconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mgnconnector"
 
 mgnconnector.NewMgnConnectorTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) MgnConnectorTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccGlobalacceleratorListener <a name="DataAwsccGlobalacceleratorListener" id="@cdktn/provider-awscc.dataAwsccGlobalacceleratorListener.DataAwsccGlobalacceleratorListener"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/globalaccelerator_listener awscc_globalaccelerator_listener}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/globalaccelerator_listener awscc_globalaccelerator_listener}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlobalacceleratorListener.DataAwsccGlobalacceleratorListener.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglobalacceleratorlistener"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglobalacceleratorlistener"
 
 dataawsccglobalacceleratorlistener.NewDataAwsccGlobalacceleratorListener(scope Construct, id *string, config DataAwsccGlobalacceleratorListenerConfig) DataAwsccGlobalacceleratorListener
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccGlobalacceleratorListener.DataAwsccGlobalacceleratorListener.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglobalacceleratorlistener"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglobalacceleratorlistener"
 
 dataawsccglobalacceleratorlistener.DataAwsccGlobalacceleratorListener_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccGlobalacceleratorListener.DataAwsccGlobalacceleratorListener.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglobalacceleratorlistener"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglobalacceleratorlistener"
 
 dataawsccglobalacceleratorlistener.DataAwsccGlobalacceleratorListener_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccglobalacceleratorlistener.DataAwsccGlobalacceleratorListener_IsTerrafor
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccGlobalacceleratorListener.DataAwsccGlobalacceleratorListener.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglobalacceleratorlistener"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglobalacceleratorlistener"
 
 dataawsccglobalacceleratorlistener.DataAwsccGlobalacceleratorListener_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccglobalacceleratorlistener.DataAwsccGlobalacceleratorListener_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccGlobalacceleratorListener.DataAwsccGlobalacceleratorListener.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglobalacceleratorlistener"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglobalacceleratorlistener"
 
 dataawsccglobalacceleratorlistener.DataAwsccGlobalacceleratorListener_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccGlobalaccelerator
 
 The id of the existing DataAwsccGlobalacceleratorListener that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/globalaccelerator_listener#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/globalaccelerator_listener#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -642,7 +642,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlobalacceleratorListener.DataAwsccGlobalacceleratorListenerConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglobalacceleratorlistener"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglobalacceleratorlistener"
 
 &dataawsccglobalacceleratorlistener.DataAwsccGlobalacceleratorListenerConfig {
 	Connection: interface{},
@@ -751,7 +751,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/globalaccelerator_listener#id DataAwsccGlobalacceleratorListener#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/globalaccelerator_listener#id DataAwsccGlobalacceleratorListener#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -763,7 +763,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlobalacceleratorListener.DataAwsccGlobalacceleratorListenerPortRanges.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglobalacceleratorlistener"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglobalacceleratorlistener"
 
 &dataawsccglobalacceleratorlistener.DataAwsccGlobalacceleratorListenerPortRanges {
 
@@ -778,7 +778,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglobalacceler
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlobalacceleratorListener.DataAwsccGlobalacceleratorListenerPortRangesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglobalacceleratorlistener"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglobalacceleratorlistener"
 
 dataawsccglobalacceleratorlistener.NewDataAwsccGlobalacceleratorListenerPortRangesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccGlobalacceleratorListenerPortRangesList
 ```
@@ -927,7 +927,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlobalacceleratorListener.DataAwsccGlobalacceleratorListenerPortRangesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglobalacceleratorlistener"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglobalacceleratorlistener"
 
 dataawsccglobalacceleratorlistener.NewDataAwsccGlobalacceleratorListenerPortRangesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccGlobalacceleratorListenerPortRangesOutputReference
 ```

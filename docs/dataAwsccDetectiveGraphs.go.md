@@ -4,12 +4,12 @@
 
 ### DataAwsccDetectiveGraphs <a name="DataAwsccDetectiveGraphs" id="@cdktn/provider-awscc.dataAwsccDetectiveGraphs.DataAwsccDetectiveGraphs"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/detective_graphs awscc_detective_graphs}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/detective_graphs awscc_detective_graphs}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDetectiveGraphs.DataAwsccDetectiveGraphs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdetectivegraphs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdetectivegraphs"
 
 dataawsccdetectivegraphs.NewDataAwsccDetectiveGraphs(scope Construct, id *string, config DataAwsccDetectiveGraphsConfig) DataAwsccDetectiveGraphs
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccDetectiveGraphs.DataAwsccDetectiveGraphs.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdetectivegraphs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdetectivegraphs"
 
 dataawsccdetectivegraphs.DataAwsccDetectiveGraphs_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccDetectiveGraphs.DataAwsccDetectiveGraphs.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdetectivegraphs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdetectivegraphs"
 
 dataawsccdetectivegraphs.DataAwsccDetectiveGraphs_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccdetectivegraphs.DataAwsccDetectiveGraphs_IsTerraformElement(x interface
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccDetectiveGraphs.DataAwsccDetectiveGraphs.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdetectivegraphs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdetectivegraphs"
 
 dataawsccdetectivegraphs.DataAwsccDetectiveGraphs_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccdetectivegraphs.DataAwsccDetectiveGraphs_IsTerraformDataSource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccDetectiveGraphs.DataAwsccDetectiveGraphs.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdetectivegraphs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdetectivegraphs"
 
 dataawsccdetectivegraphs.DataAwsccDetectiveGraphs_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDetectiveGraphs t
 
 The id of the existing DataAwsccDetectiveGraphs that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/detective_graphs#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/detective_graphs#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDetectiveGraphs.DataAwsccDetectiveGraphsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdetectivegraphs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdetectivegraphs"
 
 &dataawsccdetectivegraphs.DataAwsccDetectiveGraphsConfig {
 	Connection: interface{},

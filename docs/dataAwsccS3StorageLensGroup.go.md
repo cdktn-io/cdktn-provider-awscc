@@ -4,12 +4,12 @@
 
 ### DataAwsccS3StorageLensGroup <a name="DataAwsccS3StorageLensGroup" id="@cdktn/provider-awscc.dataAwsccS3StorageLensGroup.DataAwsccS3StorageLensGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3_storage_lens_group awscc_s3_storage_lens_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3_storage_lens_group awscc_s3_storage_lens_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3StorageLensGroup.DataAwsccS3StorageLensGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelensgroup"
 
 dataawsccs3storagelensgroup.NewDataAwsccS3StorageLensGroup(scope Construct, id *string, config DataAwsccS3StorageLensGroupConfig) DataAwsccS3StorageLensGroup
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccS3StorageLensGroup.DataAwsccS3StorageLensGroup.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelensgroup"
 
 dataawsccs3storagelensgroup.DataAwsccS3StorageLensGroup_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccS3StorageLensGroup.DataAwsccS3StorageLensGroup.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelensgroup"
 
 dataawsccs3storagelensgroup.DataAwsccS3StorageLensGroup_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccs3storagelensgroup.DataAwsccS3StorageLensGroup_IsTerraformElement(x int
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccS3StorageLensGroup.DataAwsccS3StorageLensGroup.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelensgroup"
 
 dataawsccs3storagelensgroup.DataAwsccS3StorageLensGroup_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccs3storagelensgroup.DataAwsccS3StorageLensGroup_IsTerraformDataSource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccS3StorageLensGroup.DataAwsccS3StorageLensGroup.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelensgroup"
 
 dataawsccs3storagelensgroup.DataAwsccS3StorageLensGroup_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccS3StorageLensGrou
 
 The id of the existing DataAwsccS3StorageLensGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3_storage_lens_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3_storage_lens_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -631,7 +631,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3StorageLensGroup.DataAwsccS3StorageLensGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelensgroup"
 
 &dataawsccs3storagelensgroup.DataAwsccS3StorageLensGroupConfig {
 	Connection: interface{},
@@ -740,7 +740,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3_storage_lens_group#id DataAwsccS3StorageLensGroup#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3_storage_lens_group#id DataAwsccS3StorageLensGroup#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -752,7 +752,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3StorageLensGroup.DataAwsccS3StorageLensGroupFilter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelensgroup"
 
 &dataawsccs3storagelensgroup.DataAwsccS3StorageLensGroupFilter {
 
@@ -765,7 +765,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3StorageLensGroup.DataAwsccS3StorageLensGroupFilterAnd.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelensgroup"
 
 &dataawsccs3storagelensgroup.DataAwsccS3StorageLensGroupFilterAnd {
 
@@ -778,7 +778,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3StorageLensGroup.DataAwsccS3StorageLensGroupFilterAndMatchAnyTag.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelensgroup"
 
 &dataawsccs3storagelensgroup.DataAwsccS3StorageLensGroupFilterAndMatchAnyTag {
 
@@ -791,7 +791,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3StorageLensGroup.DataAwsccS3StorageLensGroupFilterAndMatchObjectAge.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelensgroup"
 
 &dataawsccs3storagelensgroup.DataAwsccS3StorageLensGroupFilterAndMatchObjectAge {
 
@@ -804,7 +804,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3StorageLensGroup.DataAwsccS3StorageLensGroupFilterAndMatchObjectSize.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelensgroup"
 
 &dataawsccs3storagelensgroup.DataAwsccS3StorageLensGroupFilterAndMatchObjectSize {
 
@@ -817,7 +817,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3StorageLensGroup.DataAwsccS3StorageLensGroupFilterMatchAnyTag.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelensgroup"
 
 &dataawsccs3storagelensgroup.DataAwsccS3StorageLensGroupFilterMatchAnyTag {
 
@@ -830,7 +830,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3StorageLensGroup.DataAwsccS3StorageLensGroupFilterMatchObjectAge.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelensgroup"
 
 &dataawsccs3storagelensgroup.DataAwsccS3StorageLensGroupFilterMatchObjectAge {
 
@@ -843,7 +843,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3StorageLensGroup.DataAwsccS3StorageLensGroupFilterMatchObjectSize.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelensgroup"
 
 &dataawsccs3storagelensgroup.DataAwsccS3StorageLensGroupFilterMatchObjectSize {
 
@@ -856,7 +856,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3StorageLensGroup.DataAwsccS3StorageLensGroupFilterOr.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelensgroup"
 
 &dataawsccs3storagelensgroup.DataAwsccS3StorageLensGroupFilterOr {
 
@@ -869,7 +869,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3StorageLensGroup.DataAwsccS3StorageLensGroupFilterOrMatchAnyTag.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelensgroup"
 
 &dataawsccs3storagelensgroup.DataAwsccS3StorageLensGroupFilterOrMatchAnyTag {
 
@@ -882,7 +882,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3StorageLensGroup.DataAwsccS3StorageLensGroupFilterOrMatchObjectAge.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelensgroup"
 
 &dataawsccs3storagelensgroup.DataAwsccS3StorageLensGroupFilterOrMatchObjectAge {
 
@@ -895,7 +895,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3StorageLensGroup.DataAwsccS3StorageLensGroupFilterOrMatchObjectSize.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelensgroup"
 
 &dataawsccs3storagelensgroup.DataAwsccS3StorageLensGroupFilterOrMatchObjectSize {
 
@@ -908,7 +908,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3StorageLensGroup.DataAwsccS3StorageLensGroupTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelensgroup"
 
 &dataawsccs3storagelensgroup.DataAwsccS3StorageLensGroupTags {
 
@@ -923,7 +923,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3StorageLensGroup.DataAwsccS3StorageLensGroupFilterAndMatchAnyTagList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelensgroup"
 
 dataawsccs3storagelensgroup.NewDataAwsccS3StorageLensGroupFilterAndMatchAnyTagList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccS3StorageLensGroupFilterAndMatchAnyTagList
 ```
@@ -1072,7 +1072,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3StorageLensGroup.DataAwsccS3StorageLensGroupFilterAndMatchAnyTagOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelensgroup"
 
 dataawsccs3storagelensgroup.NewDataAwsccS3StorageLensGroupFilterAndMatchAnyTagOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccS3StorageLensGroupFilterAndMatchAnyTagOutputReference
 ```
@@ -1361,7 +1361,7 @@ func InternalValue() DataAwsccS3StorageLensGroupFilterAndMatchAnyTag
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3StorageLensGroup.DataAwsccS3StorageLensGroupFilterAndMatchObjectAgeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelensgroup"
 
 dataawsccs3storagelensgroup.NewDataAwsccS3StorageLensGroupFilterAndMatchObjectAgeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3StorageLensGroupFilterAndMatchObjectAgeOutputReference
 ```
@@ -1632,7 +1632,7 @@ func InternalValue() DataAwsccS3StorageLensGroupFilterAndMatchObjectAge
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3StorageLensGroup.DataAwsccS3StorageLensGroupFilterAndMatchObjectSizeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelensgroup"
 
 dataawsccs3storagelensgroup.NewDataAwsccS3StorageLensGroupFilterAndMatchObjectSizeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3StorageLensGroupFilterAndMatchObjectSizeOutputReference
 ```
@@ -1903,7 +1903,7 @@ func InternalValue() DataAwsccS3StorageLensGroupFilterAndMatchObjectSize
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3StorageLensGroup.DataAwsccS3StorageLensGroupFilterAndOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelensgroup"
 
 dataawsccs3storagelensgroup.NewDataAwsccS3StorageLensGroupFilterAndOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3StorageLensGroupFilterAndOutputReference
 ```
@@ -2207,7 +2207,7 @@ func InternalValue() DataAwsccS3StorageLensGroupFilterAnd
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3StorageLensGroup.DataAwsccS3StorageLensGroupFilterMatchAnyTagList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelensgroup"
 
 dataawsccs3storagelensgroup.NewDataAwsccS3StorageLensGroupFilterMatchAnyTagList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccS3StorageLensGroupFilterMatchAnyTagList
 ```
@@ -2356,7 +2356,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3StorageLensGroup.DataAwsccS3StorageLensGroupFilterMatchAnyTagOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelensgroup"
 
 dataawsccs3storagelensgroup.NewDataAwsccS3StorageLensGroupFilterMatchAnyTagOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccS3StorageLensGroupFilterMatchAnyTagOutputReference
 ```
@@ -2645,7 +2645,7 @@ func InternalValue() DataAwsccS3StorageLensGroupFilterMatchAnyTag
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3StorageLensGroup.DataAwsccS3StorageLensGroupFilterMatchObjectAgeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelensgroup"
 
 dataawsccs3storagelensgroup.NewDataAwsccS3StorageLensGroupFilterMatchObjectAgeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3StorageLensGroupFilterMatchObjectAgeOutputReference
 ```
@@ -2916,7 +2916,7 @@ func InternalValue() DataAwsccS3StorageLensGroupFilterMatchObjectAge
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3StorageLensGroup.DataAwsccS3StorageLensGroupFilterMatchObjectSizeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelensgroup"
 
 dataawsccs3storagelensgroup.NewDataAwsccS3StorageLensGroupFilterMatchObjectSizeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3StorageLensGroupFilterMatchObjectSizeOutputReference
 ```
@@ -3187,7 +3187,7 @@ func InternalValue() DataAwsccS3StorageLensGroupFilterMatchObjectSize
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3StorageLensGroup.DataAwsccS3StorageLensGroupFilterOrMatchAnyTagList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelensgroup"
 
 dataawsccs3storagelensgroup.NewDataAwsccS3StorageLensGroupFilterOrMatchAnyTagList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccS3StorageLensGroupFilterOrMatchAnyTagList
 ```
@@ -3336,7 +3336,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3StorageLensGroup.DataAwsccS3StorageLensGroupFilterOrMatchAnyTagOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelensgroup"
 
 dataawsccs3storagelensgroup.NewDataAwsccS3StorageLensGroupFilterOrMatchAnyTagOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccS3StorageLensGroupFilterOrMatchAnyTagOutputReference
 ```
@@ -3625,7 +3625,7 @@ func InternalValue() DataAwsccS3StorageLensGroupFilterOrMatchAnyTag
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3StorageLensGroup.DataAwsccS3StorageLensGroupFilterOrMatchObjectAgeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelensgroup"
 
 dataawsccs3storagelensgroup.NewDataAwsccS3StorageLensGroupFilterOrMatchObjectAgeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3StorageLensGroupFilterOrMatchObjectAgeOutputReference
 ```
@@ -3896,7 +3896,7 @@ func InternalValue() DataAwsccS3StorageLensGroupFilterOrMatchObjectAge
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3StorageLensGroup.DataAwsccS3StorageLensGroupFilterOrMatchObjectSizeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelensgroup"
 
 dataawsccs3storagelensgroup.NewDataAwsccS3StorageLensGroupFilterOrMatchObjectSizeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3StorageLensGroupFilterOrMatchObjectSizeOutputReference
 ```
@@ -4167,7 +4167,7 @@ func InternalValue() DataAwsccS3StorageLensGroupFilterOrMatchObjectSize
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3StorageLensGroup.DataAwsccS3StorageLensGroupFilterOrOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelensgroup"
 
 dataawsccs3storagelensgroup.NewDataAwsccS3StorageLensGroupFilterOrOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3StorageLensGroupFilterOrOutputReference
 ```
@@ -4471,7 +4471,7 @@ func InternalValue() DataAwsccS3StorageLensGroupFilterOr
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3StorageLensGroup.DataAwsccS3StorageLensGroupFilterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelensgroup"
 
 dataawsccs3storagelensgroup.NewDataAwsccS3StorageLensGroupFilterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3StorageLensGroupFilterOutputReference
 ```
@@ -4797,7 +4797,7 @@ func InternalValue() DataAwsccS3StorageLensGroupFilter
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3StorageLensGroup.DataAwsccS3StorageLensGroupTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelensgroup"
 
 dataawsccs3storagelensgroup.NewDataAwsccS3StorageLensGroupTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccS3StorageLensGroupTagsList
 ```
@@ -4946,7 +4946,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3StorageLensGroup.DataAwsccS3StorageLensGroupTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelensgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelensgroup"
 
 dataawsccs3storagelensgroup.NewDataAwsccS3StorageLensGroupTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccS3StorageLensGroupTagsOutputReference
 ```

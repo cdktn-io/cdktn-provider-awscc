@@ -4,12 +4,12 @@
 
 ### DataAwsccIotCommands <a name="DataAwsccIotCommands" id="@cdktn/provider-awscc.dataAwsccIotCommands.DataAwsccIotCommands"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_commands awscc_iot_commands}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_commands awscc_iot_commands}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotCommands.DataAwsccIotCommands.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcommands"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotcommands"
 
 dataawscciotcommands.NewDataAwsccIotCommands(scope Construct, id *string, config DataAwsccIotCommandsConfig) DataAwsccIotCommands
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIotCommands.DataAwsccIotCommands.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcommands"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotcommands"
 
 dataawscciotcommands.DataAwsccIotCommands_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIotCommands.DataAwsccIotCommands.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcommands"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotcommands"
 
 dataawscciotcommands.DataAwsccIotCommands_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciotcommands.DataAwsccIotCommands_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIotCommands.DataAwsccIotCommands.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcommands"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotcommands"
 
 dataawscciotcommands.DataAwsccIotCommands_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciotcommands.DataAwsccIotCommands_IsTerraformDataSource(x interface{}) *
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIotCommands.DataAwsccIotCommands.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcommands"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotcommands"
 
 dataawscciotcommands.DataAwsccIotCommands_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotCommands to im
 
 The id of the existing DataAwsccIotCommands that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_commands#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_commands#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotCommands.DataAwsccIotCommandsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcommands"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotcommands"
 
 &dataawscciotcommands.DataAwsccIotCommandsConfig {
 	Connection: interface{},

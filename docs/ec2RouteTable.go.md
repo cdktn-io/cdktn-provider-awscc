@@ -4,12 +4,12 @@
 
 ### Ec2RouteTable <a name="Ec2RouteTable" id="@cdktn/provider-awscc.ec2RouteTable.Ec2RouteTable"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_route_table awscc_ec2_route_table}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_route_table awscc_ec2_route_table}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2RouteTable.Ec2RouteTable.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2routetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2routetable"
 
 ec2routetable.NewEc2RouteTable(scope Construct, id *string, config Ec2RouteTableConfig) Ec2RouteTable
 ```
@@ -420,7 +420,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.ec2RouteTable.Ec2RouteTable.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2routetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2routetable"
 
 ec2routetable.Ec2RouteTable_IsConstruct(x interface{}) *bool
 ```
@@ -452,7 +452,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.ec2RouteTable.Ec2RouteTable.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2routetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2routetable"
 
 ec2routetable.Ec2RouteTable_IsTerraformElement(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ ec2routetable.Ec2RouteTable_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.ec2RouteTable.Ec2RouteTable.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2routetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2routetable"
 
 ec2routetable.Ec2RouteTable_IsTerraformResource(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ ec2routetable.Ec2RouteTable_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.ec2RouteTable.Ec2RouteTable.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2routetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2routetable"
 
 ec2routetable.Ec2RouteTable_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -509,7 +509,7 @@ The construct id used in the generated config for the Ec2RouteTable to import.
 
 The id of the existing Ec2RouteTable that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_route_table#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_route_table#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -775,7 +775,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2RouteTable.Ec2RouteTableConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2routetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2routetable"
 
 &ec2routetable.Ec2RouteTableConfig {
 	Connection: interface{},
@@ -886,7 +886,7 @@ VpcId *string
 
 The ID of the VPC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_route_table#vpc_id Ec2RouteTable#vpc_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_route_table#vpc_id Ec2RouteTable#vpc_id}
 
 ---
 
@@ -900,7 +900,7 @@ Tags interface{}
 
 Any tags assigned to the route table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_route_table#tags Ec2RouteTable#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_route_table#tags Ec2RouteTable#tags}
 
 ---
 
@@ -909,7 +909,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2RouteTable.Ec2RouteTableTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2routetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2routetable"
 
 &ec2routetable.Ec2RouteTableTags {
 	Key: *string,
@@ -936,7 +936,7 @@ Key *string
 
 The tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_route_table#key Ec2RouteTable#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_route_table#key Ec2RouteTable#key}
 
 ---
 
@@ -950,7 +950,7 @@ Value *string
 
 The tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_route_table#value Ec2RouteTable#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_route_table#value Ec2RouteTable#value}
 
 ---
 
@@ -961,7 +961,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2RouteTable.Ec2RouteTableTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2routetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2routetable"
 
 ec2routetable.NewEc2RouteTableTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Ec2RouteTableTagsList
 ```
@@ -1121,7 +1121,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2RouteTable.Ec2RouteTableTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2routetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2routetable"
 
 ec2routetable.NewEc2RouteTableTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) Ec2RouteTableTagsOutputReference
 ```

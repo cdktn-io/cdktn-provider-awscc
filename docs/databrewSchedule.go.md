@@ -4,12 +4,12 @@
 
 ### DatabrewSchedule <a name="DatabrewSchedule" id="@cdktn/provider-awscc.databrewSchedule.DatabrewSchedule"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_schedule awscc_databrew_schedule}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_schedule awscc_databrew_schedule}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.databrewSchedule.DatabrewSchedule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/databrewschedule"
 
 databrewschedule.NewDatabrewSchedule(scope Construct, id *string, config DatabrewScheduleConfig) DatabrewSchedule
 ```
@@ -427,7 +427,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.databrewSchedule.DatabrewSchedule.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/databrewschedule"
 
 databrewschedule.DatabrewSchedule_IsConstruct(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.databrewSchedule.DatabrewSchedule.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/databrewschedule"
 
 databrewschedule.DatabrewSchedule_IsTerraformElement(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ databrewschedule.DatabrewSchedule_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.databrewSchedule.DatabrewSchedule.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/databrewschedule"
 
 databrewschedule.DatabrewSchedule_IsTerraformResource(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ databrewschedule.DatabrewSchedule_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.databrewSchedule.DatabrewSchedule.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/databrewschedule"
 
 databrewschedule.DatabrewSchedule_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -516,7 +516,7 @@ The construct id used in the generated config for the DatabrewSchedule to import
 
 The id of the existing DatabrewSchedule that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_schedule#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_schedule#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -815,7 +815,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.databrewSchedule.DatabrewScheduleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/databrewschedule"
 
 &databrewschedule.DatabrewScheduleConfig {
 	Connection: interface{},
@@ -845,8 +845,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewschedule"
 | <code><a href="#@cdktn/provider-awscc.databrewSchedule.DatabrewScheduleConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.databrewSchedule.DatabrewScheduleConfig.property.cronExpression">CronExpression</a></code> | <code>*string</code> | Schedule cron. |
 | <code><a href="#@cdktn/provider-awscc.databrewSchedule.DatabrewScheduleConfig.property.name">Name</a></code> | <code>*string</code> | Schedule Name. |
-| <code><a href="#@cdktn/provider-awscc.databrewSchedule.DatabrewScheduleConfig.property.jobNames">JobNames</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_schedule#job_names DatabrewSchedule#job_names}. |
-| <code><a href="#@cdktn/provider-awscc.databrewSchedule.DatabrewScheduleConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_schedule#tags DatabrewSchedule#tags}. |
+| <code><a href="#@cdktn/provider-awscc.databrewSchedule.DatabrewScheduleConfig.property.jobNames">JobNames</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_schedule#job_names DatabrewSchedule#job_names}. |
+| <code><a href="#@cdktn/provider-awscc.databrewSchedule.DatabrewScheduleConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_schedule#tags DatabrewSchedule#tags}. |
 
 ---
 
@@ -930,7 +930,7 @@ CronExpression *string
 
 Schedule cron.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_schedule#cron_expression DatabrewSchedule#cron_expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_schedule#cron_expression DatabrewSchedule#cron_expression}
 
 ---
 
@@ -944,7 +944,7 @@ Name *string
 
 Schedule Name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_schedule#name DatabrewSchedule#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_schedule#name DatabrewSchedule#name}
 
 ---
 
@@ -956,7 +956,7 @@ JobNames *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_schedule#job_names DatabrewSchedule#job_names}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_schedule#job_names DatabrewSchedule#job_names}.
 
 ---
 
@@ -968,7 +968,7 @@ Tags interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_schedule#tags DatabrewSchedule#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_schedule#tags DatabrewSchedule#tags}.
 
 ---
 
@@ -977,7 +977,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.databrewSchedule.DatabrewScheduleTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/databrewschedule"
 
 &databrewschedule.DatabrewScheduleTags {
 	Key: *string,
@@ -989,8 +989,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewschedule"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.databrewSchedule.DatabrewScheduleTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_schedule#key DatabrewSchedule#key}. |
-| <code><a href="#@cdktn/provider-awscc.databrewSchedule.DatabrewScheduleTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_schedule#value DatabrewSchedule#value}. |
+| <code><a href="#@cdktn/provider-awscc.databrewSchedule.DatabrewScheduleTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_schedule#key DatabrewSchedule#key}. |
+| <code><a href="#@cdktn/provider-awscc.databrewSchedule.DatabrewScheduleTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_schedule#value DatabrewSchedule#value}. |
 
 ---
 
@@ -1002,7 +1002,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_schedule#key DatabrewSchedule#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_schedule#key DatabrewSchedule#key}.
 
 ---
 
@@ -1014,7 +1014,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_schedule#value DatabrewSchedule#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_schedule#value DatabrewSchedule#value}.
 
 ---
 
@@ -1025,7 +1025,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.databrewSchedule.DatabrewScheduleTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/databrewschedule"
 
 databrewschedule.NewDatabrewScheduleTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DatabrewScheduleTagsList
 ```
@@ -1185,7 +1185,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.databrewSchedule.DatabrewScheduleTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/databrewschedule"
 
 databrewschedule.NewDatabrewScheduleTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DatabrewScheduleTagsOutputReference
 ```

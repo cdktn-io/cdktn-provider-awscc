@@ -4,12 +4,12 @@
 
 ### Ec2SecurityGroupVpcAssociation <a name="Ec2SecurityGroupVpcAssociation" id="@cdktn/provider-awscc.ec2SecurityGroupVpcAssociation.Ec2SecurityGroupVpcAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_security_group_vpc_association awscc_ec2_security_group_vpc_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_security_group_vpc_association awscc_ec2_security_group_vpc_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2SecurityGroupVpcAssociation.Ec2SecurityGroupVpcAssociation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2securitygroupvpcassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2securitygroupvpcassociation"
 
 ec2securitygroupvpcassociation.NewEc2SecurityGroupVpcAssociation(scope Construct, id *string, config Ec2SecurityGroupVpcAssociationConfig) Ec2SecurityGroupVpcAssociation
 ```
@@ -400,7 +400,7 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.ec2SecurityGroupVpcAssociation.Ec2SecurityGroupVpcAssociation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2securitygroupvpcassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2securitygroupvpcassociation"
 
 ec2securitygroupvpcassociation.Ec2SecurityGroupVpcAssociation_IsConstruct(x interface{}) *bool
 ```
@@ -432,7 +432,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.ec2SecurityGroupVpcAssociation.Ec2SecurityGroupVpcAssociation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2securitygroupvpcassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2securitygroupvpcassociation"
 
 ec2securitygroupvpcassociation.Ec2SecurityGroupVpcAssociation_IsTerraformElement(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ ec2securitygroupvpcassociation.Ec2SecurityGroupVpcAssociation_IsTerraformElement
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.ec2SecurityGroupVpcAssociation.Ec2SecurityGroupVpcAssociation.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2securitygroupvpcassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2securitygroupvpcassociation"
 
 ec2securitygroupvpcassociation.Ec2SecurityGroupVpcAssociation_IsTerraformResource(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ ec2securitygroupvpcassociation.Ec2SecurityGroupVpcAssociation_IsTerraformResourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.ec2SecurityGroupVpcAssociation.Ec2SecurityGroupVpcAssociation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2securitygroupvpcassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2securitygroupvpcassociation"
 
 ec2securitygroupvpcassociation.Ec2SecurityGroupVpcAssociation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -489,7 +489,7 @@ The construct id used in the generated config for the Ec2SecurityGroupVpcAssocia
 
 The id of the existing Ec2SecurityGroupVpcAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_security_group_vpc_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_security_group_vpc_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -777,7 +777,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2SecurityGroupVpcAssociation.Ec2SecurityGroupVpcAssociationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2securitygroupvpcassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2securitygroupvpcassociation"
 
 &ec2securitygroupvpcassociation.Ec2SecurityGroupVpcAssociationConfig {
 	Connection: interface{},
@@ -888,7 +888,7 @@ GroupId *string
 
 The group ID of the specified security group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_security_group_vpc_association#group_id Ec2SecurityGroupVpcAssociation#group_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_security_group_vpc_association#group_id Ec2SecurityGroupVpcAssociation#group_id}
 
 ---
 
@@ -902,7 +902,7 @@ VpcId *string
 
 The ID of the VPC in the security group vpc association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_security_group_vpc_association#vpc_id Ec2SecurityGroupVpcAssociation#vpc_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_security_group_vpc_association#vpc_id Ec2SecurityGroupVpcAssociation#vpc_id}
 
 ---
 

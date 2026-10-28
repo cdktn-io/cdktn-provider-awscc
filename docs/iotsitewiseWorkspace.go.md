@@ -4,12 +4,12 @@
 
 ### IotsitewiseWorkspace <a name="IotsitewiseWorkspace" id="@cdktn/provider-awscc.iotsitewiseWorkspace.IotsitewiseWorkspace"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_workspace awscc_iotsitewise_workspace}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_workspace awscc_iotsitewise_workspace}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseWorkspace.IotsitewiseWorkspace.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseworkspace"
 
 iotsitewiseworkspace.NewIotsitewiseWorkspace(scope Construct, id *string, config IotsitewiseWorkspaceConfig) IotsitewiseWorkspace
 ```
@@ -447,7 +447,7 @@ func ResetWorkspaceDescription()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.iotsitewiseWorkspace.IotsitewiseWorkspace.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseworkspace"
 
 iotsitewiseworkspace.IotsitewiseWorkspace_IsConstruct(x interface{}) *bool
 ```
@@ -479,7 +479,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.iotsitewiseWorkspace.IotsitewiseWorkspace.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseworkspace"
 
 iotsitewiseworkspace.IotsitewiseWorkspace_IsTerraformElement(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ iotsitewiseworkspace.IotsitewiseWorkspace_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.iotsitewiseWorkspace.IotsitewiseWorkspace.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseworkspace"
 
 iotsitewiseworkspace.IotsitewiseWorkspace_IsTerraformResource(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ iotsitewiseworkspace.IotsitewiseWorkspace_IsTerraformResource(x interface{}) *bo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.iotsitewiseWorkspace.IotsitewiseWorkspace.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseworkspace"
 
 iotsitewiseworkspace.IotsitewiseWorkspace_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -536,7 +536,7 @@ The construct id used in the generated config for the IotsitewiseWorkspace to im
 
 The id of the existing IotsitewiseWorkspace that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_workspace#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_workspace#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -901,7 +901,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsitewiseWorkspace.IotsitewiseWorkspaceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseworkspace"
 
 &iotsitewiseworkspace.IotsitewiseWorkspaceConfig {
 	Connection: interface{},
@@ -911,7 +911,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseworkspace"
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	EncryptionConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotsitewiseWorkspace.IotsitewiseWorkspaceEncryptionConfiguration,
+	EncryptionConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotsitewiseWorkspace.IotsitewiseWorkspaceEncryptionConfiguration,
 	WorkspaceName: *string,
 	KmsKeyId: *string,
 	Tags: interface{},
@@ -1018,7 +1018,7 @@ EncryptionConfiguration IotsitewiseWorkspaceEncryptionConfiguration
 
 The encryption configuration for the workspace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_workspace#encryption_configuration IotsitewiseWorkspace#encryption_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_workspace#encryption_configuration IotsitewiseWorkspace#encryption_configuration}
 
 ---
 
@@ -1032,7 +1032,7 @@ WorkspaceName *string
 
 The name of the workspace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_workspace#workspace_name IotsitewiseWorkspace#workspace_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_workspace#workspace_name IotsitewiseWorkspace#workspace_name}
 
 ---
 
@@ -1046,7 +1046,7 @@ KmsKeyId *string
 
 The ARN of the AWS KMS key used for KMS_BASED_ENCRYPTION. Required when EncryptionConfiguration.EncryptionType is KMS_BASED_ENCRYPTION.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_workspace#kms_key_id IotsitewiseWorkspace#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_workspace#kms_key_id IotsitewiseWorkspace#kms_key_id}
 
 ---
 
@@ -1060,7 +1060,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_workspace#tags IotsitewiseWorkspace#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_workspace#tags IotsitewiseWorkspace#tags}
 
 ---
 
@@ -1074,7 +1074,7 @@ WorkspaceDescription *string
 
 A description of the workspace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_workspace#workspace_description IotsitewiseWorkspace#workspace_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_workspace#workspace_description IotsitewiseWorkspace#workspace_description}
 
 ---
 
@@ -1083,7 +1083,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsitewiseWorkspace.IotsitewiseWorkspaceEncryptionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseworkspace"
 
 &iotsitewiseworkspace.IotsitewiseWorkspaceEncryptionConfiguration {
 	EncryptionType: *string,
@@ -1108,7 +1108,7 @@ EncryptionType *string
 
 The type of encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_workspace#encryption_type IotsitewiseWorkspace#encryption_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_workspace#encryption_type IotsitewiseWorkspace#encryption_type}
 
 ---
 
@@ -1117,7 +1117,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsitewiseWorkspace.IotsitewiseWorkspaceTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseworkspace"
 
 &iotsitewiseworkspace.IotsitewiseWorkspaceTags {
 	Key: *string,
@@ -1144,7 +1144,7 @@ Key *string
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_workspace#key IotsitewiseWorkspace#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_workspace#key IotsitewiseWorkspace#key}
 
 ---
 
@@ -1158,7 +1158,7 @@ Value *string
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_workspace#value IotsitewiseWorkspace#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_workspace#value IotsitewiseWorkspace#value}
 
 ---
 
@@ -1169,7 +1169,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseWorkspace.IotsitewiseWorkspaceEncryptionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseworkspace"
 
 iotsitewiseworkspace.NewIotsitewiseWorkspaceEncryptionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotsitewiseWorkspaceEncryptionConfigurationOutputReference
 ```
@@ -1440,7 +1440,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseWorkspace.IotsitewiseWorkspaceTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseworkspace"
 
 iotsitewiseworkspace.NewIotsitewiseWorkspaceTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IotsitewiseWorkspaceTagsList
 ```
@@ -1600,7 +1600,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseWorkspace.IotsitewiseWorkspaceTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseworkspace"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseworkspace"
 
 iotsitewiseworkspace.NewIotsitewiseWorkspaceTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IotsitewiseWorkspaceTagsOutputReference
 ```

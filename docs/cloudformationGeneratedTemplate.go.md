@@ -4,12 +4,12 @@
 
 ### CloudformationGeneratedTemplate <a name="CloudformationGeneratedTemplate" id="@cdktn/provider-awscc.cloudformationGeneratedTemplate.CloudformationGeneratedTemplate"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_generated_template awscc_cloudformation_generated_template}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_generated_template awscc_cloudformation_generated_template}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudformationGeneratedTemplate.CloudformationGeneratedTemplate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationgeneratedtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationgeneratedtemplate"
 
 cloudformationgeneratedtemplate.NewCloudformationGeneratedTemplate(scope Construct, id *string, config CloudformationGeneratedTemplateConfig) CloudformationGeneratedTemplate
 ```
@@ -420,7 +420,7 @@ func ResetTemplateConfiguration()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.cloudformationGeneratedTemplate.CloudformationGeneratedTemplate.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationgeneratedtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationgeneratedtemplate"
 
 cloudformationgeneratedtemplate.CloudformationGeneratedTemplate_IsConstruct(x interface{}) *bool
 ```
@@ -452,7 +452,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.cloudformationGeneratedTemplate.CloudformationGeneratedTemplate.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationgeneratedtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationgeneratedtemplate"
 
 cloudformationgeneratedtemplate.CloudformationGeneratedTemplate_IsTerraformElement(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ cloudformationgeneratedtemplate.CloudformationGeneratedTemplate_IsTerraformEleme
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.cloudformationGeneratedTemplate.CloudformationGeneratedTemplate.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationgeneratedtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationgeneratedtemplate"
 
 cloudformationgeneratedtemplate.CloudformationGeneratedTemplate_IsTerraformResource(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ cloudformationgeneratedtemplate.CloudformationGeneratedTemplate_IsTerraformResou
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.cloudformationGeneratedTemplate.CloudformationGeneratedTemplate.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationgeneratedtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationgeneratedtemplate"
 
 cloudformationgeneratedtemplate.CloudformationGeneratedTemplate_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -509,7 +509,7 @@ The construct id used in the generated config for the CloudformationGeneratedTem
 
 The id of the existing CloudformationGeneratedTemplate that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_generated_template#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_generated_template#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -830,7 +830,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudformationGeneratedTemplate.CloudformationGeneratedTemplateConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationgeneratedtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationgeneratedtemplate"
 
 &cloudformationgeneratedtemplate.CloudformationGeneratedTemplateConfig {
 	Connection: interface{},
@@ -841,7 +841,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationgenerate
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	GeneratedTemplateName: *string,
-	TemplateConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.cloudformationGeneratedTemplate.CloudformationGeneratedTemplateTemplateConfiguration,
+	TemplateConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.cloudformationGeneratedTemplate.CloudformationGeneratedTemplateTemplateConfiguration,
 }
 ```
 
@@ -941,7 +941,7 @@ GeneratedTemplateName *string
 
 The name assigned to the generated template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_generated_template#generated_template_name CloudformationGeneratedTemplate#generated_template_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_generated_template#generated_template_name CloudformationGeneratedTemplate#generated_template_name}
 
 ---
 
@@ -955,7 +955,7 @@ TemplateConfiguration CloudformationGeneratedTemplateTemplateConfiguration
 
 The configuration details of the generated template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_generated_template#template_configuration CloudformationGeneratedTemplate#template_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_generated_template#template_configuration CloudformationGeneratedTemplate#template_configuration}
 
 ---
 
@@ -964,7 +964,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudformationGeneratedTemplate.CloudformationGeneratedTemplateProgress.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationgeneratedtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationgeneratedtemplate"
 
 &cloudformationgeneratedtemplate.CloudformationGeneratedTemplateProgress {
 
@@ -977,7 +977,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationgenerate
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudformationGeneratedTemplate.CloudformationGeneratedTemplateTemplateConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationgeneratedtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationgeneratedtemplate"
 
 &cloudformationgeneratedtemplate.CloudformationGeneratedTemplateTemplateConfiguration {
 	DeletionPolicy: *string,
@@ -1004,7 +1004,7 @@ DeletionPolicy *string
 
 The DeletionPolicy assigned to resources in the generated template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_generated_template#deletion_policy CloudformationGeneratedTemplate#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_generated_template#deletion_policy CloudformationGeneratedTemplate#deletion_policy}
 
 ---
 
@@ -1018,7 +1018,7 @@ UpdateReplacePolicy *string
 
 The UpdateReplacePolicy assigned to resources in the generated template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_generated_template#update_replace_policy CloudformationGeneratedTemplate#update_replace_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_generated_template#update_replace_policy CloudformationGeneratedTemplate#update_replace_policy}
 
 ---
 
@@ -1029,7 +1029,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudformationGeneratedTemplate.CloudformationGeneratedTemplateProgressOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationgeneratedtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationgeneratedtemplate"
 
 cloudformationgeneratedtemplate.NewCloudformationGeneratedTemplateProgressOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CloudformationGeneratedTemplateProgressOutputReference
 ```
@@ -1322,7 +1322,7 @@ func InternalValue() CloudformationGeneratedTemplateProgress
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudformationGeneratedTemplate.CloudformationGeneratedTemplateTemplateConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationgeneratedtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationgeneratedtemplate"
 
 cloudformationgeneratedtemplate.NewCloudformationGeneratedTemplateTemplateConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CloudformationGeneratedTemplateTemplateConfigurationOutputReference
 ```

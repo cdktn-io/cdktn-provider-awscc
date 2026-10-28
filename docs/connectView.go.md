@@ -4,12 +4,12 @@
 
 ### ConnectView <a name="ConnectView" id="@cdktn/provider-awscc.connectView.ConnectView"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_view awscc_connect_view}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_view awscc_connect_view}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectView.ConnectView.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectview"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectview"
 
 connectview.NewConnectView(scope Construct, id *string, config ConnectViewConfig) ConnectView
 ```
@@ -427,7 +427,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.connectView.ConnectView.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectview"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectview"
 
 connectview.ConnectView_IsConstruct(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.connectView.ConnectView.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectview"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectview"
 
 connectview.ConnectView_IsTerraformElement(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ connectview.ConnectView_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.connectView.ConnectView.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectview"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectview"
 
 connectview.ConnectView_IsTerraformResource(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ connectview.ConnectView_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.connectView.ConnectView.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectview"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectview"
 
 connectview.ConnectView_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -516,7 +516,7 @@ The construct id used in the generated config for the ConnectView to import.
 
 The id of the existing ConnectView that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_view#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_view#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -892,7 +892,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectView.ConnectViewConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectview"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectview"
 
 &connectview.ConnectViewConfig {
 	Connection: interface{},
@@ -1011,7 +1011,7 @@ Actions *[]*string
 
 The actions of the view in an array.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_view#actions ConnectView#actions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_view#actions ConnectView#actions}
 
 ---
 
@@ -1025,7 +1025,7 @@ InstanceArn *string
 
 The Amazon Resource Name (ARN) of the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_view#instance_arn ConnectView#instance_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_view#instance_arn ConnectView#instance_arn}
 
 ---
 
@@ -1039,7 +1039,7 @@ Name *string
 
 The name of the view.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_view#name ConnectView#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_view#name ConnectView#name}
 
 ---
 
@@ -1053,7 +1053,7 @@ Template *string
 
 The template of the view as JSON.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_view#template ConnectView#template}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_view#template ConnectView#template}
 
 ---
 
@@ -1067,7 +1067,7 @@ Description *string
 
 The description of the view.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_view#description ConnectView#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_view#description ConnectView#description}
 
 ---
 
@@ -1081,7 +1081,7 @@ Tags interface{}
 
 One or more tags.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_view#tags ConnectView#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_view#tags ConnectView#tags}
 
 ---
 
@@ -1090,7 +1090,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectView.ConnectViewTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectview"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectview"
 
 &connectview.ConnectViewTags {
 	Key: *string,
@@ -1117,7 +1117,7 @@ Key *string
 
 The key name of the tag. You can specify a value that is 1 to 128 Unicode characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_view#key ConnectView#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_view#key ConnectView#key}
 
 ---
 
@@ -1131,7 +1131,7 @@ Value *string
 
 The value for the tag. . You can specify a value that is maximum of 256 Unicode characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_view#value ConnectView#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_view#value ConnectView#value}
 
 ---
 
@@ -1142,7 +1142,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectView.ConnectViewTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectview"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectview"
 
 connectview.NewConnectViewTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ConnectViewTagsList
 ```
@@ -1302,7 +1302,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectView.ConnectViewTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectview"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectview"
 
 connectview.NewConnectViewTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ConnectViewTagsOutputReference
 ```

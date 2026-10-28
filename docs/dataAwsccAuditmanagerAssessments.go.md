@@ -4,12 +4,12 @@
 
 ### DataAwsccAuditmanagerAssessments <a name="DataAwsccAuditmanagerAssessments" id="@cdktn/provider-awscc.dataAwsccAuditmanagerAssessments.DataAwsccAuditmanagerAssessments"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/auditmanager_assessments awscc_auditmanager_assessments}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/auditmanager_assessments awscc_auditmanager_assessments}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAuditmanagerAssessments.DataAwsccAuditmanagerAssessments.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccauditmanagerassessments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccauditmanagerassessments"
 
 dataawsccauditmanagerassessments.NewDataAwsccAuditmanagerAssessments(scope Construct, id *string, config DataAwsccAuditmanagerAssessmentsConfig) DataAwsccAuditmanagerAssessments
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccAuditmanagerAssessments.DataAwsccAuditmanagerAssessments.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccauditmanagerassessments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccauditmanagerassessments"
 
 dataawsccauditmanagerassessments.DataAwsccAuditmanagerAssessments_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccAuditmanagerAssessments.DataAwsccAuditmanagerAssessments.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccauditmanagerassessments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccauditmanagerassessments"
 
 dataawsccauditmanagerassessments.DataAwsccAuditmanagerAssessments_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccauditmanagerassessments.DataAwsccAuditmanagerAssessments_IsTerraformEle
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccAuditmanagerAssessments.DataAwsccAuditmanagerAssessments.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccauditmanagerassessments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccauditmanagerassessments"
 
 dataawsccauditmanagerassessments.DataAwsccAuditmanagerAssessments_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccauditmanagerassessments.DataAwsccAuditmanagerAssessments_IsTerraformDat
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccAuditmanagerAssessments.DataAwsccAuditmanagerAssessments.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccauditmanagerassessments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccauditmanagerassessments"
 
 dataawsccauditmanagerassessments.DataAwsccAuditmanagerAssessments_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccAuditmanagerAsses
 
 The id of the existing DataAwsccAuditmanagerAssessments that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/auditmanager_assessments#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/auditmanager_assessments#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAuditmanagerAssessments.DataAwsccAuditmanagerAssessmentsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccauditmanagerassessments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccauditmanagerassessments"
 
 &dataawsccauditmanagerassessments.DataAwsccAuditmanagerAssessmentsConfig {
 	Connection: interface{},

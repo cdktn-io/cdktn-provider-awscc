@@ -4,12 +4,12 @@
 
 ### TransferProfile <a name="TransferProfile" id="@cdktn/provider-awscc.transferProfile.TransferProfile"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_profile awscc_transfer_profile}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_profile awscc_transfer_profile}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.transferProfile.TransferProfile.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferprofile"
 
 transferprofile.NewTransferProfile(scope Construct, id *string, config TransferProfileConfig) TransferProfile
 ```
@@ -427,7 +427,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.transferProfile.TransferProfile.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferprofile"
 
 transferprofile.TransferProfile_IsConstruct(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.transferProfile.TransferProfile.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferprofile"
 
 transferprofile.TransferProfile_IsTerraformElement(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ transferprofile.TransferProfile_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.transferProfile.TransferProfile.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferprofile"
 
 transferprofile.TransferProfile_IsTerraformResource(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ transferprofile.TransferProfile_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.transferProfile.TransferProfile.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferprofile"
 
 transferprofile.TransferProfile_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -516,7 +516,7 @@ The construct id used in the generated config for the TransferProfile to import.
 
 The id of the existing TransferProfile that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_profile#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_profile#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -837,7 +837,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.transferProfile.TransferProfileConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferprofile"
 
 &transferprofile.TransferProfileConfig {
 	Connection: interface{},
@@ -952,7 +952,7 @@ As2Id *string
 
 AS2 identifier agreed with a trading partner.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_profile#as_2_id TransferProfile#as_2_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_profile#as_2_id TransferProfile#as_2_id}
 
 ---
 
@@ -966,7 +966,7 @@ ProfileType *string
 
 Enum specifying whether the profile is local or associated with a trading partner.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_profile#profile_type TransferProfile#profile_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_profile#profile_type TransferProfile#profile_type}
 
 ---
 
@@ -980,7 +980,7 @@ CertificateIds *[]*string
 
 List of the certificate IDs associated with this profile to be used for encryption and signing of AS2 messages.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_profile#certificate_ids TransferProfile#certificate_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_profile#certificate_ids TransferProfile#certificate_ids}
 
 ---
 
@@ -994,7 +994,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_profile#tags TransferProfile#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_profile#tags TransferProfile#tags}
 
 ---
 
@@ -1003,7 +1003,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.transferProfile.TransferProfileTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferprofile"
 
 &transferprofile.TransferProfileTags {
 	Key: *string,
@@ -1030,7 +1030,7 @@ Key *string
 
 The name assigned to the tag that you create.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_profile#key TransferProfile#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_profile#key TransferProfile#key}
 
 ---
 
@@ -1044,7 +1044,7 @@ Value *string
 
 Contains one or more values that you assigned to the key name you create.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_profile#value TransferProfile#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_profile#value TransferProfile#value}
 
 ---
 
@@ -1055,7 +1055,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.transferProfile.TransferProfileTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferprofile"
 
 transferprofile.NewTransferProfileTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) TransferProfileTagsList
 ```
@@ -1215,7 +1215,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.transferProfile.TransferProfileTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferprofile"
 
 transferprofile.NewTransferProfileTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) TransferProfileTagsOutputReference
 ```

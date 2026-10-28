@@ -4,12 +4,12 @@
 
 ### DataAwsccLakeformationDataCellsFilters <a name="DataAwsccLakeformationDataCellsFilters" id="@cdktn/provider-awscc.dataAwsccLakeformationDataCellsFilters.DataAwsccLakeformationDataCellsFilters"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lakeformation_data_cells_filters awscc_lakeformation_data_cells_filters}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lakeformation_data_cells_filters awscc_lakeformation_data_cells_filters}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLakeformationDataCellsFilters.DataAwsccLakeformationDataCellsFilters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformationdatacellsfilters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclakeformationdatacellsfilters"
 
 dataawscclakeformationdatacellsfilters.NewDataAwsccLakeformationDataCellsFilters(scope Construct, id *string, config DataAwsccLakeformationDataCellsFiltersConfig) DataAwsccLakeformationDataCellsFilters
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccLakeformationDataCellsFilters.DataAwsccLakeformationDataCellsFilters.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformationdatacellsfilters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclakeformationdatacellsfilters"
 
 dataawscclakeformationdatacellsfilters.DataAwsccLakeformationDataCellsFilters_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccLakeformationDataCellsFilters.DataAwsccLakeformationDataCellsFilters.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformationdatacellsfilters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclakeformationdatacellsfilters"
 
 dataawscclakeformationdatacellsfilters.DataAwsccLakeformationDataCellsFilters_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscclakeformationdatacellsfilters.DataAwsccLakeformationDataCellsFilters_Is
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccLakeformationDataCellsFilters.DataAwsccLakeformationDataCellsFilters.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformationdatacellsfilters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclakeformationdatacellsfilters"
 
 dataawscclakeformationdatacellsfilters.DataAwsccLakeformationDataCellsFilters_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscclakeformationdatacellsfilters.DataAwsccLakeformationDataCellsFilters_Is
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccLakeformationDataCellsFilters.DataAwsccLakeformationDataCellsFilters.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformationdatacellsfilters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclakeformationdatacellsfilters"
 
 dataawscclakeformationdatacellsfilters.DataAwsccLakeformationDataCellsFilters_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLakeformationData
 
 The id of the existing DataAwsccLakeformationDataCellsFilters that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lakeformation_data_cells_filters#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lakeformation_data_cells_filters#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLakeformationDataCellsFilters.DataAwsccLakeformationDataCellsFiltersConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclakeformationdatacellsfilters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclakeformationdatacellsfilters"
 
 &dataawscclakeformationdatacellsfilters.DataAwsccLakeformationDataCellsFiltersConfig {
 	Connection: interface{},

@@ -4,12 +4,12 @@
 
 ### MemorydbSubnetGroup <a name="MemorydbSubnetGroup" id="@cdktn/provider-awscc.memorydbSubnetGroup.MemorydbSubnetGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/memorydb_subnet_group awscc_memorydb_subnet_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/memorydb_subnet_group awscc_memorydb_subnet_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.memorydbSubnetGroup.MemorydbSubnetGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/memorydbsubnetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/memorydbsubnetgroup"
 
 memorydbsubnetgroup.NewMemorydbSubnetGroup(scope Construct, id *string, config MemorydbSubnetGroupConfig) MemorydbSubnetGroup
 ```
@@ -427,7 +427,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.memorydbSubnetGroup.MemorydbSubnetGroup.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/memorydbsubnetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/memorydbsubnetgroup"
 
 memorydbsubnetgroup.MemorydbSubnetGroup_IsConstruct(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.memorydbSubnetGroup.MemorydbSubnetGroup.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/memorydbsubnetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/memorydbsubnetgroup"
 
 memorydbsubnetgroup.MemorydbSubnetGroup_IsTerraformElement(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ memorydbsubnetgroup.MemorydbSubnetGroup_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.memorydbSubnetGroup.MemorydbSubnetGroup.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/memorydbsubnetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/memorydbsubnetgroup"
 
 memorydbsubnetgroup.MemorydbSubnetGroup_IsTerraformResource(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ memorydbsubnetgroup.MemorydbSubnetGroup_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.memorydbSubnetGroup.MemorydbSubnetGroup.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/memorydbsubnetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/memorydbsubnetgroup"
 
 memorydbsubnetgroup.MemorydbSubnetGroup_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -516,7 +516,7 @@ The construct id used in the generated config for the MemorydbSubnetGroup to imp
 
 The id of the existing MemorydbSubnetGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/memorydb_subnet_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/memorydb_subnet_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -837,7 +837,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.memorydbSubnetGroup.MemorydbSubnetGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/memorydbsubnetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/memorydbsubnetgroup"
 
 &memorydbsubnetgroup.MemorydbSubnetGroupConfig {
 	Connection: interface{},
@@ -954,7 +954,7 @@ The name of the subnet group.
 
 This value must be unique as it also serves as the subnet group identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/memorydb_subnet_group#subnet_group_name MemorydbSubnetGroup#subnet_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/memorydb_subnet_group#subnet_group_name MemorydbSubnetGroup#subnet_group_name}
 
 ---
 
@@ -968,7 +968,7 @@ SubnetIds *[]*string
 
 A list of VPC subnet IDs for the subnet group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/memorydb_subnet_group#subnet_ids MemorydbSubnetGroup#subnet_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/memorydb_subnet_group#subnet_ids MemorydbSubnetGroup#subnet_ids}
 
 ---
 
@@ -982,7 +982,7 @@ Description *string
 
 An optional description of the subnet group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/memorydb_subnet_group#description MemorydbSubnetGroup#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/memorydb_subnet_group#description MemorydbSubnetGroup#description}
 
 ---
 
@@ -996,7 +996,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this subnet group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/memorydb_subnet_group#tags MemorydbSubnetGroup#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/memorydb_subnet_group#tags MemorydbSubnetGroup#tags}
 
 ---
 
@@ -1005,7 +1005,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.memorydbSubnetGroup.MemorydbSubnetGroupTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/memorydbsubnetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/memorydbsubnetgroup"
 
 &memorydbsubnetgroup.MemorydbSubnetGroupTags {
 	Key: *string,
@@ -1032,7 +1032,7 @@ Key *string
 
 The key for the tag. May not be null.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/memorydb_subnet_group#key MemorydbSubnetGroup#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/memorydb_subnet_group#key MemorydbSubnetGroup#key}
 
 ---
 
@@ -1046,7 +1046,7 @@ Value *string
 
 The tag's value. May be null.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/memorydb_subnet_group#value MemorydbSubnetGroup#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/memorydb_subnet_group#value MemorydbSubnetGroup#value}
 
 ---
 
@@ -1057,7 +1057,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.memorydbSubnetGroup.MemorydbSubnetGroupTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/memorydbsubnetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/memorydbsubnetgroup"
 
 memorydbsubnetgroup.NewMemorydbSubnetGroupTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MemorydbSubnetGroupTagsList
 ```
@@ -1217,7 +1217,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.memorydbSubnetGroup.MemorydbSubnetGroupTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/memorydbsubnetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/memorydbsubnetgroup"
 
 memorydbsubnetgroup.NewMemorydbSubnetGroupTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) MemorydbSubnetGroupTagsOutputReference
 ```

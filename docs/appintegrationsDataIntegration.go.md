@@ -4,12 +4,12 @@
 
 ### AppintegrationsDataIntegration <a name="AppintegrationsDataIntegration" id="@cdktn/provider-awscc.appintegrationsDataIntegration.AppintegrationsDataIntegration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appintegrations_data_integration awscc_appintegrations_data_integration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appintegrations_data_integration awscc_appintegrations_data_integration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appintegrationsDataIntegration.AppintegrationsDataIntegration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appintegrationsdataintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appintegrationsdataintegration"
 
 appintegrationsdataintegration.NewAppintegrationsDataIntegration(scope Construct, id *string, config AppintegrationsDataIntegrationConfig) AppintegrationsDataIntegration
 ```
@@ -474,7 +474,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.appintegrationsDataIntegration.AppintegrationsDataIntegration.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appintegrationsdataintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appintegrationsdataintegration"
 
 appintegrationsdataintegration.AppintegrationsDataIntegration_IsConstruct(x interface{}) *bool
 ```
@@ -506,7 +506,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.appintegrationsDataIntegration.AppintegrationsDataIntegration.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appintegrationsdataintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appintegrationsdataintegration"
 
 appintegrationsdataintegration.AppintegrationsDataIntegration_IsTerraformElement(x interface{}) *bool
 ```
@@ -520,7 +520,7 @@ appintegrationsdataintegration.AppintegrationsDataIntegration_IsTerraformElement
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.appintegrationsDataIntegration.AppintegrationsDataIntegration.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appintegrationsdataintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appintegrationsdataintegration"
 
 appintegrationsdataintegration.AppintegrationsDataIntegration_IsTerraformResource(x interface{}) *bool
 ```
@@ -534,7 +534,7 @@ appintegrationsdataintegration.AppintegrationsDataIntegration_IsTerraformResourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.appintegrationsDataIntegration.AppintegrationsDataIntegration.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appintegrationsdataintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appintegrationsdataintegration"
 
 appintegrationsdataintegration.AppintegrationsDataIntegration_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -563,7 +563,7 @@ The construct id used in the generated config for the AppintegrationsDataIntegra
 
 The id of the existing AppintegrationsDataIntegration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appintegrations_data_integration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appintegrations_data_integration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -972,7 +972,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.appintegrationsDataIntegration.AppintegrationsDataIntegrationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appintegrationsdataintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appintegrationsdataintegration"
 
 &appintegrationsdataintegration.AppintegrationsDataIntegrationConfig {
 	Connection: interface{},
@@ -986,9 +986,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appintegrationsdataint
 	Name: *string,
 	SourceUri: *string,
 	Description: *string,
-	FileConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.appintegrationsDataIntegration.AppintegrationsDataIntegrationFileConfiguration,
+	FileConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.appintegrationsDataIntegration.AppintegrationsDataIntegrationFileConfiguration,
 	ObjectConfiguration: interface{},
-	ScheduleConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.appintegrationsDataIntegration.AppintegrationsDataIntegrationScheduleConfig,
+	ScheduleConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.appintegrationsDataIntegration.AppintegrationsDataIntegrationScheduleConfig,
 	Tags: interface{},
 }
 ```
@@ -1095,7 +1095,7 @@ KmsKey *string
 
 The KMS key of the data integration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appintegrations_data_integration#kms_key AppintegrationsDataIntegration#kms_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appintegrations_data_integration#kms_key AppintegrationsDataIntegration#kms_key}
 
 ---
 
@@ -1109,7 +1109,7 @@ Name *string
 
 The name of the data integration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appintegrations_data_integration#name AppintegrationsDataIntegration#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appintegrations_data_integration#name AppintegrationsDataIntegration#name}
 
 ---
 
@@ -1123,7 +1123,7 @@ SourceUri *string
 
 The URI of the data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appintegrations_data_integration#source_uri AppintegrationsDataIntegration#source_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appintegrations_data_integration#source_uri AppintegrationsDataIntegration#source_uri}
 
 ---
 
@@ -1137,7 +1137,7 @@ Description *string
 
 The data integration description.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appintegrations_data_integration#description AppintegrationsDataIntegration#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appintegrations_data_integration#description AppintegrationsDataIntegration#description}
 
 ---
 
@@ -1151,7 +1151,7 @@ FileConfiguration AppintegrationsDataIntegrationFileConfiguration
 
 The configuration for what files should be pulled from the source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appintegrations_data_integration#file_configuration AppintegrationsDataIntegration#file_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appintegrations_data_integration#file_configuration AppintegrationsDataIntegration#file_configuration}
 
 ---
 
@@ -1165,7 +1165,7 @@ ObjectConfiguration interface{}
 
 The configuration for what data should be pulled from the source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appintegrations_data_integration#object_configuration AppintegrationsDataIntegration#object_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appintegrations_data_integration#object_configuration AppintegrationsDataIntegration#object_configuration}
 
 ---
 
@@ -1179,7 +1179,7 @@ ScheduleConfig AppintegrationsDataIntegrationScheduleConfig
 
 The name of the data and how often it should be pulled from the source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appintegrations_data_integration#schedule_config AppintegrationsDataIntegration#schedule_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appintegrations_data_integration#schedule_config AppintegrationsDataIntegration#schedule_config}
 
 ---
 
@@ -1193,7 +1193,7 @@ Tags interface{}
 
 The tags (keys and values) associated with the data integration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appintegrations_data_integration#tags AppintegrationsDataIntegration#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appintegrations_data_integration#tags AppintegrationsDataIntegration#tags}
 
 ---
 
@@ -1202,7 +1202,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.appintegrationsDataIntegration.AppintegrationsDataIntegrationFileConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appintegrationsdataintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appintegrationsdataintegration"
 
 &appintegrationsdataintegration.AppintegrationsDataIntegrationFileConfiguration {
 	Filters: interface{},
@@ -1229,7 +1229,7 @@ Filters interface{}
 
 Restrictions for what files should be pulled from the source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appintegrations_data_integration#filters AppintegrationsDataIntegration#filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appintegrations_data_integration#filters AppintegrationsDataIntegration#filters}
 
 ---
 
@@ -1243,7 +1243,7 @@ Folders *[]*string
 
 Identifiers for the source folders to pull all files from recursively.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appintegrations_data_integration#folders AppintegrationsDataIntegration#folders}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appintegrations_data_integration#folders AppintegrationsDataIntegration#folders}
 
 ---
 
@@ -1252,7 +1252,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.appintegrationsDataIntegration.AppintegrationsDataIntegrationScheduleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appintegrationsdataintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appintegrationsdataintegration"
 
 &appintegrationsdataintegration.AppintegrationsDataIntegrationScheduleConfig {
 	FirstExecutionFrom: *string,
@@ -1281,7 +1281,7 @@ FirstExecutionFrom *string
 
 The start date for objects to import in the first flow run. Epoch or ISO timestamp format is supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appintegrations_data_integration#first_execution_from AppintegrationsDataIntegration#first_execution_from}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appintegrations_data_integration#first_execution_from AppintegrationsDataIntegration#first_execution_from}
 
 ---
 
@@ -1295,7 +1295,7 @@ Object *string
 
 The name of the object to pull from the data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appintegrations_data_integration#object AppintegrationsDataIntegration#object}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appintegrations_data_integration#object AppintegrationsDataIntegration#object}
 
 ---
 
@@ -1309,7 +1309,7 @@ ScheduleExpression *string
 
 How often the data should be pulled from data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appintegrations_data_integration#schedule_expression AppintegrationsDataIntegration#schedule_expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appintegrations_data_integration#schedule_expression AppintegrationsDataIntegration#schedule_expression}
 
 ---
 
@@ -1318,7 +1318,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.appintegrationsDataIntegration.AppintegrationsDataIntegrationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appintegrationsdataintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appintegrationsdataintegration"
 
 &appintegrationsdataintegration.AppintegrationsDataIntegrationTags {
 	Key: *string,
@@ -1345,7 +1345,7 @@ Key *string
 
 A key to identify the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appintegrations_data_integration#key AppintegrationsDataIntegration#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appintegrations_data_integration#key AppintegrationsDataIntegration#key}
 
 ---
 
@@ -1359,7 +1359,7 @@ Value *string
 
 Corresponding tag value for the key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appintegrations_data_integration#value AppintegrationsDataIntegration#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appintegrations_data_integration#value AppintegrationsDataIntegration#value}
 
 ---
 
@@ -1370,7 +1370,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appintegrationsDataIntegration.AppintegrationsDataIntegrationFileConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appintegrationsdataintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appintegrationsdataintegration"
 
 appintegrationsdataintegration.NewAppintegrationsDataIntegrationFileConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) AppintegrationsDataIntegrationFileConfigurationOutputReference
 ```
@@ -1677,7 +1677,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appintegrationsDataIntegration.AppintegrationsDataIntegrationScheduleConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appintegrationsdataintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appintegrationsdataintegration"
 
 appintegrationsdataintegration.NewAppintegrationsDataIntegrationScheduleConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) AppintegrationsDataIntegrationScheduleConfigOutputReference
 ```
@@ -2013,7 +2013,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appintegrationsDataIntegration.AppintegrationsDataIntegrationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appintegrationsdataintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appintegrationsdataintegration"
 
 appintegrationsdataintegration.NewAppintegrationsDataIntegrationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) AppintegrationsDataIntegrationTagsList
 ```
@@ -2173,7 +2173,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appintegrationsDataIntegration.AppintegrationsDataIntegrationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appintegrationsdataintegration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appintegrationsdataintegration"
 
 appintegrationsdataintegration.NewAppintegrationsDataIntegrationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) AppintegrationsDataIntegrationTagsOutputReference
 ```

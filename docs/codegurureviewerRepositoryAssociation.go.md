@@ -4,12 +4,12 @@
 
 ### CodegurureviewerRepositoryAssociation <a name="CodegurureviewerRepositoryAssociation" id="@cdktn/provider-awscc.codegurureviewerRepositoryAssociation.CodegurureviewerRepositoryAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codegurureviewer_repository_association awscc_codegurureviewer_repository_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codegurureviewer_repository_association awscc_codegurureviewer_repository_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codegurureviewerRepositoryAssociation.CodegurureviewerRepositoryAssociation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codegurureviewerrepositoryassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codegurureviewerrepositoryassociation"
 
 codegurureviewerrepositoryassociation.NewCodegurureviewerRepositoryAssociation(scope Construct, id *string, config CodegurureviewerRepositoryAssociationConfig) CodegurureviewerRepositoryAssociation
 ```
@@ -441,7 +441,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.codegurureviewerRepositoryAssociation.CodegurureviewerRepositoryAssociation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codegurureviewerrepositoryassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codegurureviewerrepositoryassociation"
 
 codegurureviewerrepositoryassociation.CodegurureviewerRepositoryAssociation_IsConstruct(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.codegurureviewerRepositoryAssociation.CodegurureviewerRepositoryAssociation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codegurureviewerrepositoryassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codegurureviewerrepositoryassociation"
 
 codegurureviewerrepositoryassociation.CodegurureviewerRepositoryAssociation_IsTerraformElement(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ codegurureviewerrepositoryassociation.CodegurureviewerRepositoryAssociation_IsTe
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.codegurureviewerRepositoryAssociation.CodegurureviewerRepositoryAssociation.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codegurureviewerrepositoryassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codegurureviewerrepositoryassociation"
 
 codegurureviewerrepositoryassociation.CodegurureviewerRepositoryAssociation_IsTerraformResource(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ codegurureviewerrepositoryassociation.CodegurureviewerRepositoryAssociation_IsTe
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.codegurureviewerRepositoryAssociation.CodegurureviewerRepositoryAssociation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codegurureviewerrepositoryassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codegurureviewerrepositoryassociation"
 
 codegurureviewerrepositoryassociation.CodegurureviewerRepositoryAssociation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -530,7 +530,7 @@ The construct id used in the generated config for the CodegurureviewerRepository
 
 The id of the existing CodegurureviewerRepositoryAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codegurureviewer_repository_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codegurureviewer_repository_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -884,7 +884,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codegurureviewerRepositoryAssociation.CodegurureviewerRepositoryAssociationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codegurureviewerrepositoryassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codegurureviewerrepositoryassociation"
 
 &codegurureviewerrepositoryassociation.CodegurureviewerRepositoryAssociationConfig {
 	Connection: interface{},
@@ -1003,7 +1003,7 @@ Name *string
 
 Name of the repository to be associated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codegurureviewer_repository_association#name CodegurureviewerRepositoryAssociation#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codegurureviewer_repository_association#name CodegurureviewerRepositoryAssociation#name}
 
 ---
 
@@ -1017,7 +1017,7 @@ Type *string
 
 The type of repository to be associated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codegurureviewer_repository_association#type CodegurureviewerRepositoryAssociation#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codegurureviewer_repository_association#type CodegurureviewerRepositoryAssociation#type}
 
 ---
 
@@ -1031,7 +1031,7 @@ BucketName *string
 
 The name of the S3 bucket associated with an associated S3 repository. It must start with `codeguru-reviewer-`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codegurureviewer_repository_association#bucket_name CodegurureviewerRepositoryAssociation#bucket_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codegurureviewer_repository_association#bucket_name CodegurureviewerRepositoryAssociation#bucket_name}
 
 ---
 
@@ -1045,7 +1045,7 @@ ConnectionArn *string
 
 The Amazon Resource Name (ARN) of an AWS CodeStar Connections connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codegurureviewer_repository_association#connection_arn CodegurureviewerRepositoryAssociation#connection_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codegurureviewer_repository_association#connection_arn CodegurureviewerRepositoryAssociation#connection_arn}
 
 ---
 
@@ -1061,7 +1061,7 @@ The owner of the repository.
 
 For a Bitbucket repository, this is the username for the account that owns the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codegurureviewer_repository_association#owner CodegurureviewerRepositoryAssociation#owner}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codegurureviewer_repository_association#owner CodegurureviewerRepositoryAssociation#owner}
 
 ---
 
@@ -1075,7 +1075,7 @@ Tags interface{}
 
 The tags associated with a repository association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codegurureviewer_repository_association#tags CodegurureviewerRepositoryAssociation#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codegurureviewer_repository_association#tags CodegurureviewerRepositoryAssociation#tags}
 
 ---
 
@@ -1084,7 +1084,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codegurureviewerRepositoryAssociation.CodegurureviewerRepositoryAssociationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codegurureviewerrepositoryassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codegurureviewerrepositoryassociation"
 
 &codegurureviewerrepositoryassociation.CodegurureviewerRepositoryAssociationTags {
 	Key: *string,
@@ -1136,7 +1136,7 @@ You can specify a value that is 0 to 256 Unicode characters in length. The allow
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codegurureviewerRepositoryAssociation.CodegurureviewerRepositoryAssociationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codegurureviewerrepositoryassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codegurureviewerrepositoryassociation"
 
 codegurureviewerrepositoryassociation.NewCodegurureviewerRepositoryAssociationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CodegurureviewerRepositoryAssociationTagsList
 ```
@@ -1296,7 +1296,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codegurureviewerRepositoryAssociation.CodegurureviewerRepositoryAssociationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codegurureviewerrepositoryassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codegurureviewerrepositoryassociation"
 
 codegurureviewerrepositoryassociation.NewCodegurureviewerRepositoryAssociationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CodegurureviewerRepositoryAssociationTagsOutputReference
 ```

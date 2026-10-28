@@ -4,12 +4,12 @@
 
 ### DataAwsccIoteventsInput <a name="DataAwsccIoteventsInput" id="@cdktn/provider-awscc.dataAwsccIoteventsInput.DataAwsccIoteventsInput"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotevents_input awscc_iotevents_input}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotevents_input awscc_iotevents_input}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsInput.DataAwsccIoteventsInput.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsinput"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsinput"
 
 dataawsccioteventsinput.NewDataAwsccIoteventsInput(scope Construct, id *string, config DataAwsccIoteventsInputConfig) DataAwsccIoteventsInput
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIoteventsInput.DataAwsccIoteventsInput.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsinput"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsinput"
 
 dataawsccioteventsinput.DataAwsccIoteventsInput_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIoteventsInput.DataAwsccIoteventsInput.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsinput"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsinput"
 
 dataawsccioteventsinput.DataAwsccIoteventsInput_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccioteventsinput.DataAwsccIoteventsInput_IsTerraformElement(x interface{}
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIoteventsInput.DataAwsccIoteventsInput.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsinput"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsinput"
 
 dataawsccioteventsinput.DataAwsccIoteventsInput_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccioteventsinput.DataAwsccIoteventsInput_IsTerraformDataSource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIoteventsInput.DataAwsccIoteventsInput.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsinput"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsinput"
 
 dataawsccioteventsinput.DataAwsccIoteventsInput_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIoteventsInput to
 
 The id of the existing DataAwsccIoteventsInput that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotevents_input#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotevents_input#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -631,7 +631,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsInput.DataAwsccIoteventsInputConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsinput"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsinput"
 
 &dataawsccioteventsinput.DataAwsccIoteventsInputConfig {
 	Connection: interface{},
@@ -740,7 +740,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotevents_input#id DataAwsccIoteventsInput#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotevents_input#id DataAwsccIoteventsInput#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -752,7 +752,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsInput.DataAwsccIoteventsInputInputDefinition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsinput"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsinput"
 
 &dataawsccioteventsinput.DataAwsccIoteventsInputInputDefinition {
 
@@ -765,7 +765,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsinpu
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsInput.DataAwsccIoteventsInputInputDefinitionAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsinput"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsinput"
 
 &dataawsccioteventsinput.DataAwsccIoteventsInputInputDefinitionAttributes {
 
@@ -778,7 +778,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsinpu
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsInput.DataAwsccIoteventsInputTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsinput"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsinput"
 
 &dataawsccioteventsinput.DataAwsccIoteventsInputTags {
 
@@ -793,7 +793,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsinpu
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsInput.DataAwsccIoteventsInputInputDefinitionAttributesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsinput"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsinput"
 
 dataawsccioteventsinput.NewDataAwsccIoteventsInputInputDefinitionAttributesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIoteventsInputInputDefinitionAttributesList
 ```
@@ -942,7 +942,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsInput.DataAwsccIoteventsInputInputDefinitionAttributesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsinput"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsinput"
 
 dataawsccioteventsinput.NewDataAwsccIoteventsInputInputDefinitionAttributesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIoteventsInputInputDefinitionAttributesOutputReference
 ```
@@ -1220,7 +1220,7 @@ func InternalValue() DataAwsccIoteventsInputInputDefinitionAttributes
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsInput.DataAwsccIoteventsInputInputDefinitionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsinput"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsinput"
 
 dataawsccioteventsinput.NewDataAwsccIoteventsInputInputDefinitionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsInputInputDefinitionOutputReference
 ```
@@ -1480,7 +1480,7 @@ func InternalValue() DataAwsccIoteventsInputInputDefinition
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsInput.DataAwsccIoteventsInputTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsinput"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsinput"
 
 dataawsccioteventsinput.NewDataAwsccIoteventsInputTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIoteventsInputTagsList
 ```
@@ -1629,7 +1629,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsInput.DataAwsccIoteventsInputTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsinput"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsinput"
 
 dataawsccioteventsinput.NewDataAwsccIoteventsInputTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIoteventsInputTagsOutputReference
 ```

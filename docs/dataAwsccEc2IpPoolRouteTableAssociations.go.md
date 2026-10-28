@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2IpPoolRouteTableAssociations <a name="DataAwsccEc2IpPoolRouteTableAssociations" id="@cdktn/provider-awscc.dataAwsccEc2IpPoolRouteTableAssociations.DataAwsccEc2IpPoolRouteTableAssociations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_ip_pool_route_table_associations awscc_ec2_ip_pool_route_table_associations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_ip_pool_route_table_associations awscc_ec2_ip_pool_route_table_associations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2IpPoolRouteTableAssociations.DataAwsccEc2IpPoolRouteTableAssociations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ippoolroutetableassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ippoolroutetableassociations"
 
 dataawsccec2ippoolroutetableassociations.NewDataAwsccEc2IpPoolRouteTableAssociations(scope Construct, id *string, config DataAwsccEc2IpPoolRouteTableAssociationsConfig) DataAwsccEc2IpPoolRouteTableAssociations
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2IpPoolRouteTableAssociations.DataAwsccEc2IpPoolRouteTableAssociations.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ippoolroutetableassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ippoolroutetableassociations"
 
 dataawsccec2ippoolroutetableassociations.DataAwsccEc2IpPoolRouteTableAssociations_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2IpPoolRouteTableAssociations.DataAwsccEc2IpPoolRouteTableAssociations.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ippoolroutetableassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ippoolroutetableassociations"
 
 dataawsccec2ippoolroutetableassociations.DataAwsccEc2IpPoolRouteTableAssociations_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2ippoolroutetableassociations.DataAwsccEc2IpPoolRouteTableAssociation
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2IpPoolRouteTableAssociations.DataAwsccEc2IpPoolRouteTableAssociations.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ippoolroutetableassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ippoolroutetableassociations"
 
 dataawsccec2ippoolroutetableassociations.DataAwsccEc2IpPoolRouteTableAssociations_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2ippoolroutetableassociations.DataAwsccEc2IpPoolRouteTableAssociation
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2IpPoolRouteTableAssociations.DataAwsccEc2IpPoolRouteTableAssociations.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ippoolroutetableassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ippoolroutetableassociations"
 
 dataawsccec2ippoolroutetableassociations.DataAwsccEc2IpPoolRouteTableAssociations_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2IpPoolRouteTab
 
 The id of the existing DataAwsccEc2IpPoolRouteTableAssociations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_ip_pool_route_table_associations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_ip_pool_route_table_associations#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2IpPoolRouteTableAssociations.DataAwsccEc2IpPoolRouteTableAssociationsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ippoolroutetableassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ippoolroutetableassociations"
 
 &dataawsccec2ippoolroutetableassociations.DataAwsccEc2IpPoolRouteTableAssociationsConfig {
 	Connection: interface{},

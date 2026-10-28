@@ -4,12 +4,12 @@
 
 ### DataAwsccS3Buckets <a name="DataAwsccS3Buckets" id="@cdktn/provider-awscc.dataAwsccS3Buckets.DataAwsccS3Buckets"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3_buckets awscc_s3_buckets}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3_buckets awscc_s3_buckets}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3Buckets.DataAwsccS3Buckets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3buckets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3buckets"
 
 dataawsccs3buckets.NewDataAwsccS3Buckets(scope Construct, id *string, config DataAwsccS3BucketsConfig) DataAwsccS3Buckets
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccS3Buckets.DataAwsccS3Buckets.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3buckets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3buckets"
 
 dataawsccs3buckets.DataAwsccS3Buckets_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccS3Buckets.DataAwsccS3Buckets.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3buckets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3buckets"
 
 dataawsccs3buckets.DataAwsccS3Buckets_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccs3buckets.DataAwsccS3Buckets_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccS3Buckets.DataAwsccS3Buckets.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3buckets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3buckets"
 
 dataawsccs3buckets.DataAwsccS3Buckets_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccs3buckets.DataAwsccS3Buckets_IsTerraformDataSource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccS3Buckets.DataAwsccS3Buckets.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3buckets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3buckets"
 
 dataawsccs3buckets.DataAwsccS3Buckets_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccS3Buckets to impo
 
 The id of the existing DataAwsccS3Buckets that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3_buckets#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3_buckets#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3Buckets.DataAwsccS3BucketsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3buckets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3buckets"
 
 &dataawsccs3buckets.DataAwsccS3BucketsConfig {
 	Connection: interface{},

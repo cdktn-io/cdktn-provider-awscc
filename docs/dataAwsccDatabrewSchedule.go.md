@@ -4,12 +4,12 @@
 
 ### DataAwsccDatabrewSchedule <a name="DataAwsccDatabrewSchedule" id="@cdktn/provider-awscc.dataAwsccDatabrewSchedule.DataAwsccDatabrewSchedule"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/databrew_schedule awscc_databrew_schedule}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/databrew_schedule awscc_databrew_schedule}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewSchedule.DataAwsccDatabrewSchedule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewschedule"
 
 dataawsccdatabrewschedule.NewDataAwsccDatabrewSchedule(scope Construct, id *string, config DataAwsccDatabrewScheduleConfig) DataAwsccDatabrewSchedule
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccDatabrewSchedule.DataAwsccDatabrewSchedule.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewschedule"
 
 dataawsccdatabrewschedule.DataAwsccDatabrewSchedule_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccDatabrewSchedule.DataAwsccDatabrewSchedule.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewschedule"
 
 dataawsccdatabrewschedule.DataAwsccDatabrewSchedule_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccdatabrewschedule.DataAwsccDatabrewSchedule_IsTerraformElement(x interfa
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccDatabrewSchedule.DataAwsccDatabrewSchedule.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewschedule"
 
 dataawsccdatabrewschedule.DataAwsccDatabrewSchedule_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccdatabrewschedule.DataAwsccDatabrewSchedule_IsTerraformDataSource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccDatabrewSchedule.DataAwsccDatabrewSchedule.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewschedule"
 
 dataawsccdatabrewschedule.DataAwsccDatabrewSchedule_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDatabrewSchedule 
 
 The id of the existing DataAwsccDatabrewSchedule that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/databrew_schedule#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/databrew_schedule#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -631,7 +631,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatabrewSchedule.DataAwsccDatabrewScheduleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewschedule"
 
 &dataawsccdatabrewschedule.DataAwsccDatabrewScheduleConfig {
 	Connection: interface{},
@@ -740,7 +740,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/databrew_schedule#id DataAwsccDatabrewSchedule#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/databrew_schedule#id DataAwsccDatabrewSchedule#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -752,7 +752,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatabrewSchedule.DataAwsccDatabrewScheduleTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewschedule"
 
 &dataawsccdatabrewschedule.DataAwsccDatabrewScheduleTags {
 
@@ -767,7 +767,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewsched
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewSchedule.DataAwsccDatabrewScheduleTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewschedule"
 
 dataawsccdatabrewschedule.NewDataAwsccDatabrewScheduleTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDatabrewScheduleTagsList
 ```
@@ -916,7 +916,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewSchedule.DataAwsccDatabrewScheduleTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewschedule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewschedule"
 
 dataawsccdatabrewschedule.NewDataAwsccDatabrewScheduleTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDatabrewScheduleTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2NetworkInsightsAccessScopeAnalyses <a name="DataAwsccEc2NetworkInsightsAccessScopeAnalyses" id="@cdktn/provider-awscc.dataAwsccEc2NetworkInsightsAccessScopeAnalyses.DataAwsccEc2NetworkInsightsAccessScopeAnalyses"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_network_insights_access_scope_analyses awscc_ec2_network_insights_access_scope_analyses}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_network_insights_access_scope_analyses awscc_ec2_network_insights_access_scope_analyses}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2NetworkInsightsAccessScopeAnalyses.DataAwsccEc2NetworkInsightsAccessScopeAnalyses.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2networkinsightsaccessscopeanalyses"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2networkinsightsaccessscopeanalyses"
 
 dataawsccec2networkinsightsaccessscopeanalyses.NewDataAwsccEc2NetworkInsightsAccessScopeAnalyses(scope Construct, id *string, config DataAwsccEc2NetworkInsightsAccessScopeAnalysesConfig) DataAwsccEc2NetworkInsightsAccessScopeAnalyses
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2NetworkInsightsAccessScopeAnalyses.DataAwsccEc2NetworkInsightsAccessScopeAnalyses.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2networkinsightsaccessscopeanalyses"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2networkinsightsaccessscopeanalyses"
 
 dataawsccec2networkinsightsaccessscopeanalyses.DataAwsccEc2NetworkInsightsAccessScopeAnalyses_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2NetworkInsightsAccessScopeAnalyses.DataAwsccEc2NetworkInsightsAccessScopeAnalyses.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2networkinsightsaccessscopeanalyses"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2networkinsightsaccessscopeanalyses"
 
 dataawsccec2networkinsightsaccessscopeanalyses.DataAwsccEc2NetworkInsightsAccessScopeAnalyses_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2networkinsightsaccessscopeanalyses.DataAwsccEc2NetworkInsightsAccess
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2NetworkInsightsAccessScopeAnalyses.DataAwsccEc2NetworkInsightsAccessScopeAnalyses.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2networkinsightsaccessscopeanalyses"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2networkinsightsaccessscopeanalyses"
 
 dataawsccec2networkinsightsaccessscopeanalyses.DataAwsccEc2NetworkInsightsAccessScopeAnalyses_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2networkinsightsaccessscopeanalyses.DataAwsccEc2NetworkInsightsAccess
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2NetworkInsightsAccessScopeAnalyses.DataAwsccEc2NetworkInsightsAccessScopeAnalyses.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2networkinsightsaccessscopeanalyses"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2networkinsightsaccessscopeanalyses"
 
 dataawsccec2networkinsightsaccessscopeanalyses.DataAwsccEc2NetworkInsightsAccessScopeAnalyses_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2NetworkInsight
 
 The id of the existing DataAwsccEc2NetworkInsightsAccessScopeAnalyses that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_network_insights_access_scope_analyses#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_network_insights_access_scope_analyses#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2NetworkInsightsAccessScopeAnalyses.DataAwsccEc2NetworkInsightsAccessScopeAnalysesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2networkinsightsaccessscopeanalyses"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2networkinsightsaccessscopeanalyses"
 
 &dataawsccec2networkinsightsaccessscopeanalyses.DataAwsccEc2NetworkInsightsAccessScopeAnalysesConfig {
 	Connection: interface{},

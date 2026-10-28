@@ -4,12 +4,12 @@
 
 ### DataAwsccCodestarconnectionsSyncConfigurations <a name="DataAwsccCodestarconnectionsSyncConfigurations" id="@cdktn/provider-awscc.dataAwsccCodestarconnectionsSyncConfigurations.DataAwsccCodestarconnectionsSyncConfigurations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/codestarconnections_sync_configurations awscc_codestarconnections_sync_configurations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/codestarconnections_sync_configurations awscc_codestarconnections_sync_configurations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodestarconnectionsSyncConfigurations.DataAwsccCodestarconnectionsSyncConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodestarconnectionssyncconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodestarconnectionssyncconfigurations"
 
 dataawscccodestarconnectionssyncconfigurations.NewDataAwsccCodestarconnectionsSyncConfigurations(scope Construct, id *string, config DataAwsccCodestarconnectionsSyncConfigurationsConfig) DataAwsccCodestarconnectionsSyncConfigurations
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCodestarconnectionsSyncConfigurations.DataAwsccCodestarconnectionsSyncConfigurations.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodestarconnectionssyncconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodestarconnectionssyncconfigurations"
 
 dataawscccodestarconnectionssyncconfigurations.DataAwsccCodestarconnectionsSyncConfigurations_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCodestarconnectionsSyncConfigurations.DataAwsccCodestarconnectionsSyncConfigurations.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodestarconnectionssyncconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodestarconnectionssyncconfigurations"
 
 dataawscccodestarconnectionssyncconfigurations.DataAwsccCodestarconnectionsSyncConfigurations_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccodestarconnectionssyncconfigurations.DataAwsccCodestarconnectionsSyncC
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCodestarconnectionsSyncConfigurations.DataAwsccCodestarconnectionsSyncConfigurations.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodestarconnectionssyncconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodestarconnectionssyncconfigurations"
 
 dataawscccodestarconnectionssyncconfigurations.DataAwsccCodestarconnectionsSyncConfigurations_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccodestarconnectionssyncconfigurations.DataAwsccCodestarconnectionsSyncC
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCodestarconnectionsSyncConfigurations.DataAwsccCodestarconnectionsSyncConfigurations.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodestarconnectionssyncconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodestarconnectionssyncconfigurations"
 
 dataawscccodestarconnectionssyncconfigurations.DataAwsccCodestarconnectionsSyncConfigurations_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCodestarconnectio
 
 The id of the existing DataAwsccCodestarconnectionsSyncConfigurations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/codestarconnections_sync_configurations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/codestarconnections_sync_configurations#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodestarconnectionsSyncConfigurations.DataAwsccCodestarconnectionsSyncConfigurationsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodestarconnectionssyncconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodestarconnectionssyncconfigurations"
 
 &dataawscccodestarconnectionssyncconfigurations.DataAwsccCodestarconnectionsSyncConfigurationsConfig {
 	Connection: interface{},

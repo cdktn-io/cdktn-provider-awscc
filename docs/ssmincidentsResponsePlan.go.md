@@ -4,12 +4,12 @@
 
 ### SsmincidentsResponsePlan <a name="SsmincidentsResponsePlan" id="@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlan"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssmincidents_response_plan awscc_ssmincidents_response_plan}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssmincidents_response_plan awscc_ssmincidents_response_plan}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlan.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmincidentsresponseplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmincidentsresponseplan"
 
 ssmincidentsresponseplan.NewSsmincidentsResponsePlan(scope Construct, id *string, config SsmincidentsResponsePlanConfig) SsmincidentsResponsePlan
 ```
@@ -507,7 +507,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlan.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmincidentsresponseplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmincidentsresponseplan"
 
 ssmincidentsresponseplan.SsmincidentsResponsePlan_IsConstruct(x interface{}) *bool
 ```
@@ -539,7 +539,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlan.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmincidentsresponseplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmincidentsresponseplan"
 
 ssmincidentsresponseplan.SsmincidentsResponsePlan_IsTerraformElement(x interface{}) *bool
 ```
@@ -553,7 +553,7 @@ ssmincidentsresponseplan.SsmincidentsResponsePlan_IsTerraformElement(x interface
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlan.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmincidentsresponseplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmincidentsresponseplan"
 
 ssmincidentsresponseplan.SsmincidentsResponsePlan_IsTerraformResource(x interface{}) *bool
 ```
@@ -567,7 +567,7 @@ ssmincidentsresponseplan.SsmincidentsResponsePlan_IsTerraformResource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlan.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmincidentsresponseplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmincidentsresponseplan"
 
 ssmincidentsresponseplan.SsmincidentsResponsePlan_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -596,7 +596,7 @@ The construct id used in the generated config for the SsmincidentsResponsePlan t
 
 The id of the existing SsmincidentsResponsePlan that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssmincidents_response_plan#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssmincidents_response_plan#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -994,10 +994,10 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanActions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmincidentsresponseplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmincidentsresponseplan"
 
 &ssmincidentsresponseplan.SsmincidentsResponsePlanActions {
-	SsmAutomation: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanActionsSsmAutomation,
+	SsmAutomation: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ssmincidentsResponsePlan.SsmincidentsResponsePlanActionsSsmAutomation,
 }
 ```
 
@@ -1019,7 +1019,7 @@ SsmAutomation SsmincidentsResponsePlanActionsSsmAutomation
 
 The configuration to use when starting the SSM automation document.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssmincidents_response_plan#ssm_automation SsmincidentsResponsePlan#ssm_automation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssmincidents_response_plan#ssm_automation SsmincidentsResponsePlan#ssm_automation}
 
 ---
 
@@ -1028,7 +1028,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanActionsSsmAutomation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmincidentsresponseplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmincidentsresponseplan"
 
 &ssmincidentsresponseplan.SsmincidentsResponsePlanActionsSsmAutomation {
 	DocumentName: *string,
@@ -1063,7 +1063,7 @@ DocumentName *string
 
 The document name to use when starting the SSM automation document.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssmincidents_response_plan#document_name SsmincidentsResponsePlan#document_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssmincidents_response_plan#document_name SsmincidentsResponsePlan#document_name}
 
 ---
 
@@ -1077,7 +1077,7 @@ DocumentVersion *string
 
 The version of the document to use when starting the SSM automation document.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssmincidents_response_plan#document_version SsmincidentsResponsePlan#document_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssmincidents_response_plan#document_version SsmincidentsResponsePlan#document_version}
 
 ---
 
@@ -1091,7 +1091,7 @@ DynamicParameters interface{}
 
 The parameters with dynamic values to set when starting the SSM automation document.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssmincidents_response_plan#dynamic_parameters SsmincidentsResponsePlan#dynamic_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssmincidents_response_plan#dynamic_parameters SsmincidentsResponsePlan#dynamic_parameters}
 
 ---
 
@@ -1105,7 +1105,7 @@ Parameters interface{}
 
 The parameters to set when starting the SSM automation document.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssmincidents_response_plan#parameters SsmincidentsResponsePlan#parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssmincidents_response_plan#parameters SsmincidentsResponsePlan#parameters}
 
 ---
 
@@ -1119,7 +1119,7 @@ RoleArn *string
 
 The role ARN to use when starting the SSM automation document.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssmincidents_response_plan#role_arn SsmincidentsResponsePlan#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssmincidents_response_plan#role_arn SsmincidentsResponsePlan#role_arn}
 
 ---
 
@@ -1133,7 +1133,7 @@ TargetAccount *string
 
 The account type to use when starting the SSM automation document.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssmincidents_response_plan#target_account SsmincidentsResponsePlan#target_account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssmincidents_response_plan#target_account SsmincidentsResponsePlan#target_account}
 
 ---
 
@@ -1142,11 +1142,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanActionsSsmAutomationDynamicParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmincidentsresponseplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmincidentsresponseplan"
 
 &ssmincidentsresponseplan.SsmincidentsResponsePlanActionsSsmAutomationDynamicParameters {
 	Key: *string,
-	Value: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanActionsSsmAutomationDynamicParametersValue,
+	Value: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ssmincidentsResponsePlan.SsmincidentsResponsePlanActionsSsmAutomationDynamicParametersValue,
 }
 ```
 
@@ -1154,7 +1154,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmincidentsresponsepl
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanActionsSsmAutomationDynamicParameters.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssmincidents_response_plan#key SsmincidentsResponsePlan#key}. |
+| <code><a href="#@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanActionsSsmAutomationDynamicParameters.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssmincidents_response_plan#key SsmincidentsResponsePlan#key}. |
 | <code><a href="#@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanActionsSsmAutomationDynamicParameters.property.value">Value</a></code> | <code><a href="#@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanActionsSsmAutomationDynamicParametersValue">SsmincidentsResponsePlanActionsSsmAutomationDynamicParametersValue</a></code> | Value of the dynamic parameter to set when starting the SSM automation document. |
 
 ---
@@ -1167,7 +1167,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssmincidents_response_plan#key SsmincidentsResponsePlan#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssmincidents_response_plan#key SsmincidentsResponsePlan#key}.
 
 ---
 
@@ -1181,7 +1181,7 @@ Value SsmincidentsResponsePlanActionsSsmAutomationDynamicParametersValue
 
 Value of the dynamic parameter to set when starting the SSM automation document.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssmincidents_response_plan#value SsmincidentsResponsePlan#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssmincidents_response_plan#value SsmincidentsResponsePlan#value}
 
 ---
 
@@ -1190,7 +1190,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanActionsSsmAutomationDynamicParametersValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmincidentsresponseplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmincidentsresponseplan"
 
 &ssmincidentsresponseplan.SsmincidentsResponsePlanActionsSsmAutomationDynamicParametersValue {
 	Variable: *string,
@@ -1215,7 +1215,7 @@ Variable *string
 
 The variable types used as dynamic parameter value when starting the SSM automation document.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssmincidents_response_plan#variable SsmincidentsResponsePlan#variable}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssmincidents_response_plan#variable SsmincidentsResponsePlan#variable}
 
 ---
 
@@ -1224,7 +1224,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanActionsSsmAutomationParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmincidentsresponseplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmincidentsresponseplan"
 
 &ssmincidentsresponseplan.SsmincidentsResponsePlanActionsSsmAutomationParameters {
 	Key: *string,
@@ -1236,8 +1236,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmincidentsresponsepl
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanActionsSsmAutomationParameters.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssmincidents_response_plan#key SsmincidentsResponsePlan#key}. |
-| <code><a href="#@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanActionsSsmAutomationParameters.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssmincidents_response_plan#values SsmincidentsResponsePlan#values}. |
+| <code><a href="#@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanActionsSsmAutomationParameters.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssmincidents_response_plan#key SsmincidentsResponsePlan#key}. |
+| <code><a href="#@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanActionsSsmAutomationParameters.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssmincidents_response_plan#values SsmincidentsResponsePlan#values}. |
 
 ---
 
@@ -1249,7 +1249,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssmincidents_response_plan#key SsmincidentsResponsePlan#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssmincidents_response_plan#key SsmincidentsResponsePlan#key}.
 
 ---
 
@@ -1261,7 +1261,7 @@ Values *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssmincidents_response_plan#values SsmincidentsResponsePlan#values}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssmincidents_response_plan#values SsmincidentsResponsePlan#values}.
 
 ---
 
@@ -1270,7 +1270,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanChatChannel.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmincidentsresponseplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmincidentsresponseplan"
 
 &ssmincidentsresponseplan.SsmincidentsResponsePlanChatChannel {
 	ChatbotSns: *[]*string,
@@ -1281,7 +1281,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmincidentsresponsepl
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanChatChannel.property.chatbotSns">ChatbotSns</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssmincidents_response_plan#chatbot_sns SsmincidentsResponsePlan#chatbot_sns}. |
+| <code><a href="#@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanChatChannel.property.chatbotSns">ChatbotSns</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssmincidents_response_plan#chatbot_sns SsmincidentsResponsePlan#chatbot_sns}. |
 
 ---
 
@@ -1293,7 +1293,7 @@ ChatbotSns *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssmincidents_response_plan#chatbot_sns SsmincidentsResponsePlan#chatbot_sns}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssmincidents_response_plan#chatbot_sns SsmincidentsResponsePlan#chatbot_sns}.
 
 ---
 
@@ -1302,7 +1302,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmincidentsresponseplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmincidentsresponseplan"
 
 &ssmincidentsresponseplan.SsmincidentsResponsePlanConfig {
 	Connection: interface{},
@@ -1312,10 +1312,10 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmincidentsresponsepl
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	IncidentTemplate: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanIncidentTemplate,
+	IncidentTemplate: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ssmincidentsResponsePlan.SsmincidentsResponsePlanIncidentTemplate,
 	Name: *string,
 	Actions: interface{},
-	ChatChannel: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanChatChannel,
+	ChatChannel: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ssmincidentsResponsePlan.SsmincidentsResponsePlanChatChannel,
 	DisplayName: *string,
 	Engagements: *[]*string,
 	Integrations: interface{},
@@ -1425,7 +1425,7 @@ IncidentTemplate SsmincidentsResponsePlanIncidentTemplate
 
 The incident template configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssmincidents_response_plan#incident_template SsmincidentsResponsePlan#incident_template}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssmincidents_response_plan#incident_template SsmincidentsResponsePlan#incident_template}
 
 ---
 
@@ -1439,7 +1439,7 @@ Name *string
 
 The name of the response plan.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssmincidents_response_plan#name SsmincidentsResponsePlan#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssmincidents_response_plan#name SsmincidentsResponsePlan#name}
 
 ---
 
@@ -1453,7 +1453,7 @@ Actions interface{}
 
 The list of actions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssmincidents_response_plan#actions SsmincidentsResponsePlan#actions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssmincidents_response_plan#actions SsmincidentsResponsePlan#actions}
 
 ---
 
@@ -1467,7 +1467,7 @@ ChatChannel SsmincidentsResponsePlanChatChannel
 
 The chat channel configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssmincidents_response_plan#chat_channel SsmincidentsResponsePlan#chat_channel}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssmincidents_response_plan#chat_channel SsmincidentsResponsePlan#chat_channel}
 
 ---
 
@@ -1481,7 +1481,7 @@ DisplayName *string
 
 The display name of the response plan.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssmincidents_response_plan#display_name SsmincidentsResponsePlan#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssmincidents_response_plan#display_name SsmincidentsResponsePlan#display_name}
 
 ---
 
@@ -1495,7 +1495,7 @@ Engagements *[]*string
 
 The list of engagements to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssmincidents_response_plan#engagements SsmincidentsResponsePlan#engagements}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssmincidents_response_plan#engagements SsmincidentsResponsePlan#engagements}
 
 ---
 
@@ -1509,7 +1509,7 @@ Integrations interface{}
 
 The list of integrations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssmincidents_response_plan#integrations SsmincidentsResponsePlan#integrations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssmincidents_response_plan#integrations SsmincidentsResponsePlan#integrations}
 
 ---
 
@@ -1523,7 +1523,7 @@ Tags interface{}
 
 The tags to apply to the response plan.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssmincidents_response_plan#tags SsmincidentsResponsePlan#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssmincidents_response_plan#tags SsmincidentsResponsePlan#tags}
 
 ---
 
@@ -1532,7 +1532,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanIncidentTemplate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmincidentsresponseplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmincidentsresponseplan"
 
 &ssmincidentsresponseplan.SsmincidentsResponsePlanIncidentTemplate {
 	Impact: *f64,
@@ -1567,7 +1567,7 @@ Impact *f64
 
 The impact value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssmincidents_response_plan#impact SsmincidentsResponsePlan#impact}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssmincidents_response_plan#impact SsmincidentsResponsePlan#impact}
 
 ---
 
@@ -1581,7 +1581,7 @@ Title *string
 
 The title string.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssmincidents_response_plan#title SsmincidentsResponsePlan#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssmincidents_response_plan#title SsmincidentsResponsePlan#title}
 
 ---
 
@@ -1595,7 +1595,7 @@ DedupeString *string
 
 The deduplication string.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssmincidents_response_plan#dedupe_string SsmincidentsResponsePlan#dedupe_string}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssmincidents_response_plan#dedupe_string SsmincidentsResponsePlan#dedupe_string}
 
 ---
 
@@ -1609,7 +1609,7 @@ IncidentTags interface{}
 
 Tags that get applied to incidents created by the StartIncident API action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssmincidents_response_plan#incident_tags SsmincidentsResponsePlan#incident_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssmincidents_response_plan#incident_tags SsmincidentsResponsePlan#incident_tags}
 
 ---
 
@@ -1623,7 +1623,7 @@ NotificationTargets interface{}
 
 The list of notification targets.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssmincidents_response_plan#notification_targets SsmincidentsResponsePlan#notification_targets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssmincidents_response_plan#notification_targets SsmincidentsResponsePlan#notification_targets}
 
 ---
 
@@ -1637,7 +1637,7 @@ Summary *string
 
 The summary string.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssmincidents_response_plan#summary SsmincidentsResponsePlan#summary}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssmincidents_response_plan#summary SsmincidentsResponsePlan#summary}
 
 ---
 
@@ -1646,7 +1646,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanIncidentTemplateIncidentTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmincidentsresponseplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmincidentsresponseplan"
 
 &ssmincidentsresponseplan.SsmincidentsResponsePlanIncidentTemplateIncidentTags {
 	Key: *string,
@@ -1658,8 +1658,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmincidentsresponsepl
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanIncidentTemplateIncidentTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssmincidents_response_plan#key SsmincidentsResponsePlan#key}. |
-| <code><a href="#@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanIncidentTemplateIncidentTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssmincidents_response_plan#value SsmincidentsResponsePlan#value}. |
+| <code><a href="#@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanIncidentTemplateIncidentTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssmincidents_response_plan#key SsmincidentsResponsePlan#key}. |
+| <code><a href="#@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanIncidentTemplateIncidentTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssmincidents_response_plan#value SsmincidentsResponsePlan#value}. |
 
 ---
 
@@ -1671,7 +1671,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssmincidents_response_plan#key SsmincidentsResponsePlan#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssmincidents_response_plan#key SsmincidentsResponsePlan#key}.
 
 ---
 
@@ -1683,7 +1683,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssmincidents_response_plan#value SsmincidentsResponsePlan#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssmincidents_response_plan#value SsmincidentsResponsePlan#value}.
 
 ---
 
@@ -1692,7 +1692,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanIncidentTemplateNotificationTargets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmincidentsresponseplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmincidentsresponseplan"
 
 &ssmincidentsresponseplan.SsmincidentsResponsePlanIncidentTemplateNotificationTargets {
 	SnsTopicArn: *string,
@@ -1717,7 +1717,7 @@ SnsTopicArn *string
 
 The ARN of the Chatbot SNS topic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssmincidents_response_plan#sns_topic_arn SsmincidentsResponsePlan#sns_topic_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssmincidents_response_plan#sns_topic_arn SsmincidentsResponsePlan#sns_topic_arn}
 
 ---
 
@@ -1726,10 +1726,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanIntegrations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmincidentsresponseplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmincidentsresponseplan"
 
 &ssmincidentsresponseplan.SsmincidentsResponsePlanIntegrations {
-	PagerDutyConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanIntegrationsPagerDutyConfiguration,
+	PagerDutyConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ssmincidentsResponsePlan.SsmincidentsResponsePlanIntegrationsPagerDutyConfiguration,
 }
 ```
 
@@ -1751,7 +1751,7 @@ PagerDutyConfiguration SsmincidentsResponsePlanIntegrationsPagerDutyConfiguratio
 
 The pagerDuty configuration to use when starting the incident.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssmincidents_response_plan#pager_duty_configuration SsmincidentsResponsePlan#pager_duty_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssmincidents_response_plan#pager_duty_configuration SsmincidentsResponsePlan#pager_duty_configuration}
 
 ---
 
@@ -1760,11 +1760,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanIntegrationsPagerDutyConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmincidentsresponseplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmincidentsresponseplan"
 
 &ssmincidentsresponseplan.SsmincidentsResponsePlanIntegrationsPagerDutyConfiguration {
 	Name: *string,
-	PagerDutyIncidentConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanIntegrationsPagerDutyConfigurationPagerDutyIncidentConfiguration,
+	PagerDutyIncidentConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ssmincidentsResponsePlan.SsmincidentsResponsePlanIntegrationsPagerDutyConfigurationPagerDutyIncidentConfiguration,
 	SecretId: *string,
 }
 ```
@@ -1789,7 +1789,7 @@ Name *string
 
 The name of the pagerDuty configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssmincidents_response_plan#name SsmincidentsResponsePlan#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssmincidents_response_plan#name SsmincidentsResponsePlan#name}
 
 ---
 
@@ -1803,7 +1803,7 @@ PagerDutyIncidentConfiguration SsmincidentsResponsePlanIntegrationsPagerDutyConf
 
 The pagerDuty incident configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssmincidents_response_plan#pager_duty_incident_configuration SsmincidentsResponsePlan#pager_duty_incident_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssmincidents_response_plan#pager_duty_incident_configuration SsmincidentsResponsePlan#pager_duty_incident_configuration}
 
 ---
 
@@ -1817,7 +1817,7 @@ SecretId *string
 
 The AWS secrets manager secretId storing the pagerDuty token.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssmincidents_response_plan#secret_id SsmincidentsResponsePlan#secret_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssmincidents_response_plan#secret_id SsmincidentsResponsePlan#secret_id}
 
 ---
 
@@ -1826,7 +1826,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanIntegrationsPagerDutyConfigurationPagerDutyIncidentConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmincidentsresponseplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmincidentsresponseplan"
 
 &ssmincidentsresponseplan.SsmincidentsResponsePlanIntegrationsPagerDutyConfigurationPagerDutyIncidentConfiguration {
 	ServiceId: *string,
@@ -1851,7 +1851,7 @@ ServiceId *string
 
 The pagerDuty serviceId.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssmincidents_response_plan#service_id SsmincidentsResponsePlan#service_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssmincidents_response_plan#service_id SsmincidentsResponsePlan#service_id}
 
 ---
 
@@ -1860,7 +1860,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmincidentsresponseplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmincidentsresponseplan"
 
 &ssmincidentsresponseplan.SsmincidentsResponsePlanTags {
 	Key: *string,
@@ -1872,8 +1872,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmincidentsresponsepl
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssmincidents_response_plan#key SsmincidentsResponsePlan#key}. |
-| <code><a href="#@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssmincidents_response_plan#value SsmincidentsResponsePlan#value}. |
+| <code><a href="#@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssmincidents_response_plan#key SsmincidentsResponsePlan#key}. |
+| <code><a href="#@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssmincidents_response_plan#value SsmincidentsResponsePlan#value}. |
 
 ---
 
@@ -1885,7 +1885,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssmincidents_response_plan#key SsmincidentsResponsePlan#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssmincidents_response_plan#key SsmincidentsResponsePlan#key}.
 
 ---
 
@@ -1897,7 +1897,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssmincidents_response_plan#value SsmincidentsResponsePlan#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssmincidents_response_plan#value SsmincidentsResponsePlan#value}.
 
 ---
 
@@ -1908,7 +1908,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanActionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmincidentsresponseplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmincidentsresponseplan"
 
 ssmincidentsresponseplan.NewSsmincidentsResponsePlanActionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SsmincidentsResponsePlanActionsList
 ```
@@ -2068,7 +2068,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanActionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmincidentsresponseplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmincidentsresponseplan"
 
 ssmincidentsresponseplan.NewSsmincidentsResponsePlanActionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SsmincidentsResponsePlanActionsOutputReference
 ```
@@ -2377,7 +2377,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanActionsSsmAutomationDynamicParametersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmincidentsresponseplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmincidentsresponseplan"
 
 ssmincidentsresponseplan.NewSsmincidentsResponsePlanActionsSsmAutomationDynamicParametersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SsmincidentsResponsePlanActionsSsmAutomationDynamicParametersList
 ```
@@ -2537,7 +2537,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanActionsSsmAutomationDynamicParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmincidentsresponseplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmincidentsresponseplan"
 
 ssmincidentsresponseplan.NewSsmincidentsResponsePlanActionsSsmAutomationDynamicParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SsmincidentsResponsePlanActionsSsmAutomationDynamicParametersOutputReference
 ```
@@ -2875,7 +2875,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanActionsSsmAutomationDynamicParametersValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmincidentsresponseplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmincidentsresponseplan"
 
 ssmincidentsresponseplan.NewSsmincidentsResponsePlanActionsSsmAutomationDynamicParametersValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SsmincidentsResponsePlanActionsSsmAutomationDynamicParametersValueOutputReference
 ```
@@ -3153,7 +3153,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanActionsSsmAutomationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmincidentsresponseplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmincidentsresponseplan"
 
 ssmincidentsresponseplan.NewSsmincidentsResponsePlanActionsSsmAutomationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SsmincidentsResponsePlanActionsSsmAutomationOutputReference
 ```
@@ -3602,7 +3602,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanActionsSsmAutomationParametersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmincidentsresponseplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmincidentsresponseplan"
 
 ssmincidentsresponseplan.NewSsmincidentsResponsePlanActionsSsmAutomationParametersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SsmincidentsResponsePlanActionsSsmAutomationParametersList
 ```
@@ -3762,7 +3762,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanActionsSsmAutomationParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmincidentsresponseplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmincidentsresponseplan"
 
 ssmincidentsresponseplan.NewSsmincidentsResponsePlanActionsSsmAutomationParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SsmincidentsResponsePlanActionsSsmAutomationParametersOutputReference
 ```
@@ -4087,7 +4087,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanChatChannelOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmincidentsresponseplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmincidentsresponseplan"
 
 ssmincidentsresponseplan.NewSsmincidentsResponsePlanChatChannelOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SsmincidentsResponsePlanChatChannelOutputReference
 ```
@@ -4365,7 +4365,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanIncidentTemplateIncidentTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmincidentsresponseplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmincidentsresponseplan"
 
 ssmincidentsresponseplan.NewSsmincidentsResponsePlanIncidentTemplateIncidentTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SsmincidentsResponsePlanIncidentTemplateIncidentTagsList
 ```
@@ -4525,7 +4525,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanIncidentTemplateIncidentTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmincidentsresponseplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmincidentsresponseplan"
 
 ssmincidentsresponseplan.NewSsmincidentsResponsePlanIncidentTemplateIncidentTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SsmincidentsResponsePlanIncidentTemplateIncidentTagsOutputReference
 ```
@@ -4850,7 +4850,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanIncidentTemplateNotificationTargetsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmincidentsresponseplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmincidentsresponseplan"
 
 ssmincidentsresponseplan.NewSsmincidentsResponsePlanIncidentTemplateNotificationTargetsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SsmincidentsResponsePlanIncidentTemplateNotificationTargetsList
 ```
@@ -5010,7 +5010,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanIncidentTemplateNotificationTargetsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmincidentsresponseplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmincidentsresponseplan"
 
 ssmincidentsresponseplan.NewSsmincidentsResponsePlanIncidentTemplateNotificationTargetsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SsmincidentsResponsePlanIncidentTemplateNotificationTargetsOutputReference
 ```
@@ -5306,7 +5306,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanIncidentTemplateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmincidentsresponseplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmincidentsresponseplan"
 
 ssmincidentsresponseplan.NewSsmincidentsResponsePlanIncidentTemplateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SsmincidentsResponsePlanIncidentTemplateOutputReference
 ```
@@ -5741,7 +5741,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanIntegrationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmincidentsresponseplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmincidentsresponseplan"
 
 ssmincidentsresponseplan.NewSsmincidentsResponsePlanIntegrationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SsmincidentsResponsePlanIntegrationsList
 ```
@@ -5901,7 +5901,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanIntegrationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmincidentsresponseplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmincidentsresponseplan"
 
 ssmincidentsresponseplan.NewSsmincidentsResponsePlanIntegrationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SsmincidentsResponsePlanIntegrationsOutputReference
 ```
@@ -6210,7 +6210,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanIntegrationsPagerDutyConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmincidentsresponseplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmincidentsresponseplan"
 
 ssmincidentsresponseplan.NewSsmincidentsResponsePlanIntegrationsPagerDutyConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SsmincidentsResponsePlanIntegrationsPagerDutyConfigurationOutputReference
 ```
@@ -6559,7 +6559,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanIntegrationsPagerDutyConfigurationPagerDutyIncidentConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmincidentsresponseplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmincidentsresponseplan"
 
 ssmincidentsresponseplan.NewSsmincidentsResponsePlanIntegrationsPagerDutyConfigurationPagerDutyIncidentConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SsmincidentsResponsePlanIntegrationsPagerDutyConfigurationPagerDutyIncidentConfigurationOutputReference
 ```
@@ -6837,7 +6837,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmincidentsresponseplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmincidentsresponseplan"
 
 ssmincidentsresponseplan.NewSsmincidentsResponsePlanTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SsmincidentsResponsePlanTagsList
 ```
@@ -6997,7 +6997,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssmincidentsResponsePlan.SsmincidentsResponsePlanTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmincidentsresponseplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmincidentsresponseplan"
 
 ssmincidentsresponseplan.NewSsmincidentsResponsePlanTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SsmincidentsResponsePlanTagsOutputReference
 ```

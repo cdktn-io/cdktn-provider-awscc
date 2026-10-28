@@ -4,12 +4,12 @@
 
 ### DataAwsccConnectUserHierarchyStructure <a name="DataAwsccConnectUserHierarchyStructure" id="@cdktn/provider-awscc.dataAwsccConnectUserHierarchyStructure.DataAwsccConnectUserHierarchyStructure"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_user_hierarchy_structure awscc_connect_user_hierarchy_structure}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_user_hierarchy_structure awscc_connect_user_hierarchy_structure}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectUserHierarchyStructure.DataAwsccConnectUserHierarchyStructure.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectuserhierarchystructure"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectuserhierarchystructure"
 
 dataawsccconnectuserhierarchystructure.NewDataAwsccConnectUserHierarchyStructure(scope Construct, id *string, config DataAwsccConnectUserHierarchyStructureConfig) DataAwsccConnectUserHierarchyStructure
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccConnectUserHierarchyStructure.DataAwsccConnectUserHierarchyStructure.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectuserhierarchystructure"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectuserhierarchystructure"
 
 dataawsccconnectuserhierarchystructure.DataAwsccConnectUserHierarchyStructure_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccConnectUserHierarchyStructure.DataAwsccConnectUserHierarchyStructure.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectuserhierarchystructure"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectuserhierarchystructure"
 
 dataawsccconnectuserhierarchystructure.DataAwsccConnectUserHierarchyStructure_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccconnectuserhierarchystructure.DataAwsccConnectUserHierarchyStructure_Is
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccConnectUserHierarchyStructure.DataAwsccConnectUserHierarchyStructure.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectuserhierarchystructure"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectuserhierarchystructure"
 
 dataawsccconnectuserhierarchystructure.DataAwsccConnectUserHierarchyStructure_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccconnectuserhierarchystructure.DataAwsccConnectUserHierarchyStructure_Is
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccConnectUserHierarchyStructure.DataAwsccConnectUserHierarchyStructure.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectuserhierarchystructure"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectuserhierarchystructure"
 
 dataawsccconnectuserhierarchystructure.DataAwsccConnectUserHierarchyStructure_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccConnectUserHierar
 
 The id of the existing DataAwsccConnectUserHierarchyStructure that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_user_hierarchy_structure#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_user_hierarchy_structure#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -620,7 +620,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectUserHierarchyStructure.DataAwsccConnectUserHierarchyStructureConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectuserhierarchystructure"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectuserhierarchystructure"
 
 &dataawsccconnectuserhierarchystructure.DataAwsccConnectUserHierarchyStructureConfig {
 	Connection: interface{},
@@ -729,7 +729,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_user_hierarchy_structure#id DataAwsccConnectUserHierarchyStructure#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_user_hierarchy_structure#id DataAwsccConnectUserHierarchyStructure#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -741,7 +741,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectUserHierarchyStructure.DataAwsccConnectUserHierarchyStructureUserHierarchyStructure.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectuserhierarchystructure"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectuserhierarchystructure"
 
 &dataawsccconnectuserhierarchystructure.DataAwsccConnectUserHierarchyStructureUserHierarchyStructure {
 
@@ -754,7 +754,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectuserhi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectUserHierarchyStructure.DataAwsccConnectUserHierarchyStructureUserHierarchyStructureLevelFive.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectuserhierarchystructure"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectuserhierarchystructure"
 
 &dataawsccconnectuserhierarchystructure.DataAwsccConnectUserHierarchyStructureUserHierarchyStructureLevelFive {
 
@@ -767,7 +767,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectuserhi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectUserHierarchyStructure.DataAwsccConnectUserHierarchyStructureUserHierarchyStructureLevelFour.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectuserhierarchystructure"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectuserhierarchystructure"
 
 &dataawsccconnectuserhierarchystructure.DataAwsccConnectUserHierarchyStructureUserHierarchyStructureLevelFour {
 
@@ -780,7 +780,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectuserhi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectUserHierarchyStructure.DataAwsccConnectUserHierarchyStructureUserHierarchyStructureLevelOne.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectuserhierarchystructure"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectuserhierarchystructure"
 
 &dataawsccconnectuserhierarchystructure.DataAwsccConnectUserHierarchyStructureUserHierarchyStructureLevelOne {
 
@@ -793,7 +793,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectuserhi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectUserHierarchyStructure.DataAwsccConnectUserHierarchyStructureUserHierarchyStructureLevelThree.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectuserhierarchystructure"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectuserhierarchystructure"
 
 &dataawsccconnectuserhierarchystructure.DataAwsccConnectUserHierarchyStructureUserHierarchyStructureLevelThree {
 
@@ -806,7 +806,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectuserhi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectUserHierarchyStructure.DataAwsccConnectUserHierarchyStructureUserHierarchyStructureLevelTwo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectuserhierarchystructure"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectuserhierarchystructure"
 
 &dataawsccconnectuserhierarchystructure.DataAwsccConnectUserHierarchyStructureUserHierarchyStructureLevelTwo {
 
@@ -821,7 +821,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectuserhi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectUserHierarchyStructure.DataAwsccConnectUserHierarchyStructureUserHierarchyStructureLevelFiveOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectuserhierarchystructure"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectuserhierarchystructure"
 
 dataawsccconnectuserhierarchystructure.NewDataAwsccConnectUserHierarchyStructureUserHierarchyStructureLevelFiveOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectUserHierarchyStructureUserHierarchyStructureLevelFiveOutputReference
 ```
@@ -1103,7 +1103,7 @@ func InternalValue() DataAwsccConnectUserHierarchyStructureUserHierarchyStructur
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectUserHierarchyStructure.DataAwsccConnectUserHierarchyStructureUserHierarchyStructureLevelFourOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectuserhierarchystructure"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectuserhierarchystructure"
 
 dataawsccconnectuserhierarchystructure.NewDataAwsccConnectUserHierarchyStructureUserHierarchyStructureLevelFourOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectUserHierarchyStructureUserHierarchyStructureLevelFourOutputReference
 ```
@@ -1385,7 +1385,7 @@ func InternalValue() DataAwsccConnectUserHierarchyStructureUserHierarchyStructur
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectUserHierarchyStructure.DataAwsccConnectUserHierarchyStructureUserHierarchyStructureLevelOneOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectuserhierarchystructure"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectuserhierarchystructure"
 
 dataawsccconnectuserhierarchystructure.NewDataAwsccConnectUserHierarchyStructureUserHierarchyStructureLevelOneOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectUserHierarchyStructureUserHierarchyStructureLevelOneOutputReference
 ```
@@ -1667,7 +1667,7 @@ func InternalValue() DataAwsccConnectUserHierarchyStructureUserHierarchyStructur
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectUserHierarchyStructure.DataAwsccConnectUserHierarchyStructureUserHierarchyStructureLevelThreeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectuserhierarchystructure"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectuserhierarchystructure"
 
 dataawsccconnectuserhierarchystructure.NewDataAwsccConnectUserHierarchyStructureUserHierarchyStructureLevelThreeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectUserHierarchyStructureUserHierarchyStructureLevelThreeOutputReference
 ```
@@ -1949,7 +1949,7 @@ func InternalValue() DataAwsccConnectUserHierarchyStructureUserHierarchyStructur
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectUserHierarchyStructure.DataAwsccConnectUserHierarchyStructureUserHierarchyStructureLevelTwoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectuserhierarchystructure"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectuserhierarchystructure"
 
 dataawsccconnectuserhierarchystructure.NewDataAwsccConnectUserHierarchyStructureUserHierarchyStructureLevelTwoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectUserHierarchyStructureUserHierarchyStructureLevelTwoOutputReference
 ```
@@ -2231,7 +2231,7 @@ func InternalValue() DataAwsccConnectUserHierarchyStructureUserHierarchyStructur
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectUserHierarchyStructure.DataAwsccConnectUserHierarchyStructureUserHierarchyStructureOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectuserhierarchystructure"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectuserhierarchystructure"
 
 dataawsccconnectuserhierarchystructure.NewDataAwsccConnectUserHierarchyStructureUserHierarchyStructureOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectUserHierarchyStructureUserHierarchyStructureOutputReference
 ```

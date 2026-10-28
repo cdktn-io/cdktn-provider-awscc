@@ -4,12 +4,12 @@
 
 ### DataAwsccLookoutvisionProjects <a name="DataAwsccLookoutvisionProjects" id="@cdktn/provider-awscc.dataAwsccLookoutvisionProjects.DataAwsccLookoutvisionProjects"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lookoutvision_projects awscc_lookoutvision_projects}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lookoutvision_projects awscc_lookoutvision_projects}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLookoutvisionProjects.DataAwsccLookoutvisionProjects.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutvisionprojects"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutvisionprojects"
 
 dataawscclookoutvisionprojects.NewDataAwsccLookoutvisionProjects(scope Construct, id *string, config DataAwsccLookoutvisionProjectsConfig) DataAwsccLookoutvisionProjects
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccLookoutvisionProjects.DataAwsccLookoutvisionProjects.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutvisionprojects"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutvisionprojects"
 
 dataawscclookoutvisionprojects.DataAwsccLookoutvisionProjects_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccLookoutvisionProjects.DataAwsccLookoutvisionProjects.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutvisionprojects"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutvisionprojects"
 
 dataawscclookoutvisionprojects.DataAwsccLookoutvisionProjects_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscclookoutvisionprojects.DataAwsccLookoutvisionProjects_IsTerraformElement
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccLookoutvisionProjects.DataAwsccLookoutvisionProjects.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutvisionprojects"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutvisionprojects"
 
 dataawscclookoutvisionprojects.DataAwsccLookoutvisionProjects_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscclookoutvisionprojects.DataAwsccLookoutvisionProjects_IsTerraformDataSou
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccLookoutvisionProjects.DataAwsccLookoutvisionProjects.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutvisionprojects"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutvisionprojects"
 
 dataawscclookoutvisionprojects.DataAwsccLookoutvisionProjects_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLookoutvisionProj
 
 The id of the existing DataAwsccLookoutvisionProjects that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lookoutvision_projects#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lookoutvision_projects#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLookoutvisionProjects.DataAwsccLookoutvisionProjectsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutvisionprojects"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutvisionprojects"
 
 &dataawscclookoutvisionprojects.DataAwsccLookoutvisionProjectsConfig {
 	Connection: interface{},

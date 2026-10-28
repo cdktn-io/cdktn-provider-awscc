@@ -4,12 +4,12 @@
 
 ### DataAwsccBillingBillingView <a name="DataAwsccBillingBillingView" id="@cdktn/provider-awscc.dataAwsccBillingBillingView.DataAwsccBillingBillingView"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/billing_billing_view awscc_billing_billing_view}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/billing_billing_view awscc_billing_billing_view}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBillingBillingView.DataAwsccBillingBillingView.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingbillingview"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbillingbillingview"
 
 dataawsccbillingbillingview.NewDataAwsccBillingBillingView(scope Construct, id *string, config DataAwsccBillingBillingViewConfig) DataAwsccBillingBillingView
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccBillingBillingView.DataAwsccBillingBillingView.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingbillingview"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbillingbillingview"
 
 dataawsccbillingbillingview.DataAwsccBillingBillingView_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccBillingBillingView.DataAwsccBillingBillingView.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingbillingview"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbillingbillingview"
 
 dataawsccbillingbillingview.DataAwsccBillingBillingView_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccbillingbillingview.DataAwsccBillingBillingView_IsTerraformElement(x int
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccBillingBillingView.DataAwsccBillingBillingView.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingbillingview"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbillingbillingview"
 
 dataawsccbillingbillingview.DataAwsccBillingBillingView_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccbillingbillingview.DataAwsccBillingBillingView_IsTerraformDataSource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccBillingBillingView.DataAwsccBillingBillingView.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingbillingview"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbillingbillingview"
 
 dataawsccbillingbillingview.DataAwsccBillingBillingView_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccBillingBillingVie
 
 The id of the existing DataAwsccBillingBillingView that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/billing_billing_view#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/billing_billing_view#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -697,7 +697,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBillingBillingView.DataAwsccBillingBillingViewConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingbillingview"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbillingbillingview"
 
 &dataawsccbillingbillingview.DataAwsccBillingBillingViewConfig {
 	Connection: interface{},
@@ -806,7 +806,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/billing_billing_view#id DataAwsccBillingBillingView#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/billing_billing_view#id DataAwsccBillingBillingView#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -818,7 +818,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBillingBillingView.DataAwsccBillingBillingViewDataFilterExpression.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingbillingview"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbillingbillingview"
 
 &dataawsccbillingbillingview.DataAwsccBillingBillingViewDataFilterExpression {
 
@@ -831,7 +831,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingbillin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBillingBillingView.DataAwsccBillingBillingViewDataFilterExpressionDimensions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingbillingview"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbillingbillingview"
 
 &dataawsccbillingbillingview.DataAwsccBillingBillingViewDataFilterExpressionDimensions {
 
@@ -844,7 +844,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingbillin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBillingBillingView.DataAwsccBillingBillingViewDataFilterExpressionTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingbillingview"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbillingbillingview"
 
 &dataawsccbillingbillingview.DataAwsccBillingBillingViewDataFilterExpressionTags {
 
@@ -857,7 +857,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingbillin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBillingBillingView.DataAwsccBillingBillingViewDataFilterExpressionTimeRange.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingbillingview"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbillingbillingview"
 
 &dataawsccbillingbillingview.DataAwsccBillingBillingViewDataFilterExpressionTimeRange {
 
@@ -870,7 +870,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingbillin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBillingBillingView.DataAwsccBillingBillingViewTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingbillingview"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbillingbillingview"
 
 &dataawsccbillingbillingview.DataAwsccBillingBillingViewTags {
 
@@ -885,7 +885,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingbillin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBillingBillingView.DataAwsccBillingBillingViewDataFilterExpressionDimensionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingbillingview"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbillingbillingview"
 
 dataawsccbillingbillingview.NewDataAwsccBillingBillingViewDataFilterExpressionDimensionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBillingBillingViewDataFilterExpressionDimensionsOutputReference
 ```
@@ -1156,7 +1156,7 @@ func InternalValue() DataAwsccBillingBillingViewDataFilterExpressionDimensions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBillingBillingView.DataAwsccBillingBillingViewDataFilterExpressionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingbillingview"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbillingbillingview"
 
 dataawsccbillingbillingview.NewDataAwsccBillingBillingViewDataFilterExpressionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBillingBillingViewDataFilterExpressionOutputReference
 ```
@@ -1438,7 +1438,7 @@ func InternalValue() DataAwsccBillingBillingViewDataFilterExpression
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBillingBillingView.DataAwsccBillingBillingViewDataFilterExpressionTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingbillingview"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbillingbillingview"
 
 dataawsccbillingbillingview.NewDataAwsccBillingBillingViewDataFilterExpressionTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBillingBillingViewDataFilterExpressionTagsOutputReference
 ```
@@ -1709,7 +1709,7 @@ func InternalValue() DataAwsccBillingBillingViewDataFilterExpressionTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBillingBillingView.DataAwsccBillingBillingViewDataFilterExpressionTimeRangeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingbillingview"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbillingbillingview"
 
 dataawsccbillingbillingview.NewDataAwsccBillingBillingViewDataFilterExpressionTimeRangeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBillingBillingViewDataFilterExpressionTimeRangeOutputReference
 ```
@@ -1980,7 +1980,7 @@ func InternalValue() DataAwsccBillingBillingViewDataFilterExpressionTimeRange
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBillingBillingView.DataAwsccBillingBillingViewTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingbillingview"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbillingbillingview"
 
 dataawsccbillingbillingview.NewDataAwsccBillingBillingViewTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBillingBillingViewTagsList
 ```
@@ -2129,7 +2129,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBillingBillingView.DataAwsccBillingBillingViewTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingbillingview"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbillingbillingview"
 
 dataawsccbillingbillingview.NewDataAwsccBillingBillingViewTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBillingBillingViewTagsOutputReference
 ```

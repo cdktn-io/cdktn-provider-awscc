@@ -4,12 +4,12 @@
 
 ### Wafv2IpSet <a name="Wafv2IpSet" id="@cdktn/provider-awscc.wafv2IpSet.Wafv2IpSet"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wafv2_ip_set awscc_wafv2_ip_set}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wafv2_ip_set awscc_wafv2_ip_set}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.wafv2IpSet.Wafv2IpSet.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wafv2ipset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wafv2ipset"
 
 wafv2ipset.NewWafv2IpSet(scope Construct, id *string, config Wafv2IpSetConfig) Wafv2IpSet
 ```
@@ -434,7 +434,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.wafv2IpSet.Wafv2IpSet.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wafv2ipset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wafv2ipset"
 
 wafv2ipset.Wafv2IpSet_IsConstruct(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.wafv2IpSet.Wafv2IpSet.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wafv2ipset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wafv2ipset"
 
 wafv2ipset.Wafv2IpSet_IsTerraformElement(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ wafv2ipset.Wafv2IpSet_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.wafv2IpSet.Wafv2IpSet.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wafv2ipset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wafv2ipset"
 
 wafv2ipset.Wafv2IpSet_IsTerraformResource(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ wafv2ipset.Wafv2IpSet_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.wafv2IpSet.Wafv2IpSet.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wafv2ipset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wafv2ipset"
 
 wafv2ipset.Wafv2IpSet_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -523,7 +523,7 @@ The construct id used in the generated config for the Wafv2IpSet to import.
 
 The id of the existing Wafv2IpSet that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wafv2_ip_set#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wafv2_ip_set#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -888,7 +888,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.wafv2IpSet.Wafv2IpSetConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wafv2ipset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wafv2ipset"
 
 &wafv2ipset.Wafv2IpSetConfig {
 	Connection: interface{},
@@ -923,7 +923,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wafv2ipset"
 | <code><a href="#@cdktn/provider-awscc.wafv2IpSet.Wafv2IpSetConfig.property.scope">Scope</a></code> | <code>*string</code> | Use CLOUDFRONT for CloudFront IPSet, use REGIONAL for Application Load Balancer and API Gateway. |
 | <code><a href="#@cdktn/provider-awscc.wafv2IpSet.Wafv2IpSetConfig.property.description">Description</a></code> | <code>*string</code> | Description of the entity. |
 | <code><a href="#@cdktn/provider-awscc.wafv2IpSet.Wafv2IpSetConfig.property.name">Name</a></code> | <code>*string</code> | Name of the IPSet. |
-| <code><a href="#@cdktn/provider-awscc.wafv2IpSet.Wafv2IpSetConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wafv2_ip_set#tags Wafv2IpSet#tags}. |
+| <code><a href="#@cdktn/provider-awscc.wafv2IpSet.Wafv2IpSetConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wafv2_ip_set#tags Wafv2IpSet#tags}. |
 
 ---
 
@@ -1007,7 +1007,7 @@ Addresses *[]*string
 
 List of IPAddresses.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wafv2_ip_set#addresses Wafv2IpSet#addresses}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wafv2_ip_set#addresses Wafv2IpSet#addresses}
 
 ---
 
@@ -1021,7 +1021,7 @@ IpAddressVersion *string
 
 Type of addresses in the IPSet, use IPV4 for IPV4 IP addresses, IPV6 for IPV6 address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wafv2_ip_set#ip_address_version Wafv2IpSet#ip_address_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wafv2_ip_set#ip_address_version Wafv2IpSet#ip_address_version}
 
 ---
 
@@ -1035,7 +1035,7 @@ Scope *string
 
 Use CLOUDFRONT for CloudFront IPSet, use REGIONAL for Application Load Balancer and API Gateway.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wafv2_ip_set#scope Wafv2IpSet#scope}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wafv2_ip_set#scope Wafv2IpSet#scope}
 
 ---
 
@@ -1049,7 +1049,7 @@ Description *string
 
 Description of the entity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wafv2_ip_set#description Wafv2IpSet#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wafv2_ip_set#description Wafv2IpSet#description}
 
 ---
 
@@ -1063,7 +1063,7 @@ Name *string
 
 Name of the IPSet.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wafv2_ip_set#name Wafv2IpSet#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wafv2_ip_set#name Wafv2IpSet#name}
 
 ---
 
@@ -1075,7 +1075,7 @@ Tags interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wafv2_ip_set#tags Wafv2IpSet#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wafv2_ip_set#tags Wafv2IpSet#tags}.
 
 ---
 
@@ -1084,7 +1084,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.wafv2IpSet.Wafv2IpSetTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wafv2ipset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wafv2ipset"
 
 &wafv2ipset.Wafv2IpSetTags {
 	Key: *string,
@@ -1096,8 +1096,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wafv2ipset"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.wafv2IpSet.Wafv2IpSetTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wafv2_ip_set#key Wafv2IpSet#key}. |
-| <code><a href="#@cdktn/provider-awscc.wafv2IpSet.Wafv2IpSetTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wafv2_ip_set#value Wafv2IpSet#value}. |
+| <code><a href="#@cdktn/provider-awscc.wafv2IpSet.Wafv2IpSetTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wafv2_ip_set#key Wafv2IpSet#key}. |
+| <code><a href="#@cdktn/provider-awscc.wafv2IpSet.Wafv2IpSetTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wafv2_ip_set#value Wafv2IpSet#value}. |
 
 ---
 
@@ -1109,7 +1109,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wafv2_ip_set#key Wafv2IpSet#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wafv2_ip_set#key Wafv2IpSet#key}.
 
 ---
 
@@ -1121,7 +1121,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wafv2_ip_set#value Wafv2IpSet#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wafv2_ip_set#value Wafv2IpSet#value}.
 
 ---
 
@@ -1132,7 +1132,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.wafv2IpSet.Wafv2IpSetTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wafv2ipset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wafv2ipset"
 
 wafv2ipset.NewWafv2IpSetTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Wafv2IpSetTagsList
 ```
@@ -1292,7 +1292,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.wafv2IpSet.Wafv2IpSetTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wafv2ipset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wafv2ipset"
 
 wafv2ipset.NewWafv2IpSetTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) Wafv2IpSetTagsOutputReference
 ```

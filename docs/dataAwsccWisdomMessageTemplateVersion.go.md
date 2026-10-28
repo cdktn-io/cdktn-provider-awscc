@@ -4,12 +4,12 @@
 
 ### DataAwsccWisdomMessageTemplateVersion <a name="DataAwsccWisdomMessageTemplateVersion" id="@cdktn/provider-awscc.dataAwsccWisdomMessageTemplateVersion.DataAwsccWisdomMessageTemplateVersion"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/wisdom_message_template_version awscc_wisdom_message_template_version}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/wisdom_message_template_version awscc_wisdom_message_template_version}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomMessageTemplateVersion.DataAwsccWisdomMessageTemplateVersion.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdommessagetemplateversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdommessagetemplateversion"
 
 dataawsccwisdommessagetemplateversion.NewDataAwsccWisdomMessageTemplateVersion(scope Construct, id *string, config DataAwsccWisdomMessageTemplateVersionConfig) DataAwsccWisdomMessageTemplateVersion
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccWisdomMessageTemplateVersion.DataAwsccWisdomMessageTemplateVersion.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdommessagetemplateversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdommessagetemplateversion"
 
 dataawsccwisdommessagetemplateversion.DataAwsccWisdomMessageTemplateVersion_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccWisdomMessageTemplateVersion.DataAwsccWisdomMessageTemplateVersion.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdommessagetemplateversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdommessagetemplateversion"
 
 dataawsccwisdommessagetemplateversion.DataAwsccWisdomMessageTemplateVersion_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccwisdommessagetemplateversion.DataAwsccWisdomMessageTemplateVersion_IsTe
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccWisdomMessageTemplateVersion.DataAwsccWisdomMessageTemplateVersion.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdommessagetemplateversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdommessagetemplateversion"
 
 dataawsccwisdommessagetemplateversion.DataAwsccWisdomMessageTemplateVersion_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccwisdommessagetemplateversion.DataAwsccWisdomMessageTemplateVersion_IsTe
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccWisdomMessageTemplateVersion.DataAwsccWisdomMessageTemplateVersion.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdommessagetemplateversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdommessagetemplateversion"
 
 dataawsccwisdommessagetemplateversion.DataAwsccWisdomMessageTemplateVersion_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccWisdomMessageTemp
 
 The id of the existing DataAwsccWisdomMessageTemplateVersion that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/wisdom_message_template_version#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/wisdom_message_template_version#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -631,7 +631,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomMessageTemplateVersion.DataAwsccWisdomMessageTemplateVersionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdommessagetemplateversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdommessagetemplateversion"
 
 &dataawsccwisdommessagetemplateversion.DataAwsccWisdomMessageTemplateVersionConfig {
 	Connection: interface{},
@@ -740,7 +740,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/wisdom_message_template_version#id DataAwsccWisdomMessageTemplateVersion#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/wisdom_message_template_version#id DataAwsccWisdomMessageTemplateVersion#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

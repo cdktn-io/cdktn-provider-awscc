@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2NetworkInsightsAccessScopeAnalysis <a name="DataAwsccEc2NetworkInsightsAccessScopeAnalysis" id="@cdktn/provider-awscc.dataAwsccEc2NetworkInsightsAccessScopeAnalysis.DataAwsccEc2NetworkInsightsAccessScopeAnalysis"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_network_insights_access_scope_analysis awscc_ec2_network_insights_access_scope_analysis}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_network_insights_access_scope_analysis awscc_ec2_network_insights_access_scope_analysis}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2NetworkInsightsAccessScopeAnalysis.DataAwsccEc2NetworkInsightsAccessScopeAnalysis.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2networkinsightsaccessscopeanalysis"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2networkinsightsaccessscopeanalysis"
 
 dataawsccec2networkinsightsaccessscopeanalysis.NewDataAwsccEc2NetworkInsightsAccessScopeAnalysis(scope Construct, id *string, config DataAwsccEc2NetworkInsightsAccessScopeAnalysisConfig) DataAwsccEc2NetworkInsightsAccessScopeAnalysis
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2NetworkInsightsAccessScopeAnalysis.DataAwsccEc2NetworkInsightsAccessScopeAnalysis.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2networkinsightsaccessscopeanalysis"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2networkinsightsaccessscopeanalysis"
 
 dataawsccec2networkinsightsaccessscopeanalysis.DataAwsccEc2NetworkInsightsAccessScopeAnalysis_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2NetworkInsightsAccessScopeAnalysis.DataAwsccEc2NetworkInsightsAccessScopeAnalysis.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2networkinsightsaccessscopeanalysis"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2networkinsightsaccessscopeanalysis"
 
 dataawsccec2networkinsightsaccessscopeanalysis.DataAwsccEc2NetworkInsightsAccessScopeAnalysis_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2networkinsightsaccessscopeanalysis.DataAwsccEc2NetworkInsightsAccess
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2NetworkInsightsAccessScopeAnalysis.DataAwsccEc2NetworkInsightsAccessScopeAnalysis.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2networkinsightsaccessscopeanalysis"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2networkinsightsaccessscopeanalysis"
 
 dataawsccec2networkinsightsaccessscopeanalysis.DataAwsccEc2NetworkInsightsAccessScopeAnalysis_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2networkinsightsaccessscopeanalysis.DataAwsccEc2NetworkInsightsAccess
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2NetworkInsightsAccessScopeAnalysis.DataAwsccEc2NetworkInsightsAccessScopeAnalysis.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2networkinsightsaccessscopeanalysis"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2networkinsightsaccessscopeanalysis"
 
 dataawsccec2networkinsightsaccessscopeanalysis.DataAwsccEc2NetworkInsightsAccessScopeAnalysis_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2NetworkInsight
 
 The id of the existing DataAwsccEc2NetworkInsightsAccessScopeAnalysis that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_network_insights_access_scope_analysis#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_network_insights_access_scope_analysis#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -697,7 +697,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2NetworkInsightsAccessScopeAnalysis.DataAwsccEc2NetworkInsightsAccessScopeAnalysisConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2networkinsightsaccessscopeanalysis"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2networkinsightsaccessscopeanalysis"
 
 &dataawsccec2networkinsightsaccessscopeanalysis.DataAwsccEc2NetworkInsightsAccessScopeAnalysisConfig {
 	Connection: interface{},
@@ -806,7 +806,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_network_insights_access_scope_analysis#id DataAwsccEc2NetworkInsightsAccessScopeAnalysis#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_network_insights_access_scope_analysis#id DataAwsccEc2NetworkInsightsAccessScopeAnalysis#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -818,7 +818,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2NetworkInsightsAccessScopeAnalysis.DataAwsccEc2NetworkInsightsAccessScopeAnalysisTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2networkinsightsaccessscopeanalysis"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2networkinsightsaccessscopeanalysis"
 
 &dataawsccec2networkinsightsaccessscopeanalysis.DataAwsccEc2NetworkInsightsAccessScopeAnalysisTags {
 
@@ -833,7 +833,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2networkins
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2NetworkInsightsAccessScopeAnalysis.DataAwsccEc2NetworkInsightsAccessScopeAnalysisTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2networkinsightsaccessscopeanalysis"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2networkinsightsaccessscopeanalysis"
 
 dataawsccec2networkinsightsaccessscopeanalysis.NewDataAwsccEc2NetworkInsightsAccessScopeAnalysisTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEc2NetworkInsightsAccessScopeAnalysisTagsList
 ```
@@ -982,7 +982,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2NetworkInsightsAccessScopeAnalysis.DataAwsccEc2NetworkInsightsAccessScopeAnalysisTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2networkinsightsaccessscopeanalysis"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2networkinsightsaccessscopeanalysis"
 
 dataawsccec2networkinsightsaccessscopeanalysis.NewDataAwsccEc2NetworkInsightsAccessScopeAnalysisTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEc2NetworkInsightsAccessScopeAnalysisTagsOutputReference
 ```

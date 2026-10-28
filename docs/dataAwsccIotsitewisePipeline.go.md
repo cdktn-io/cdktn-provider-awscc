@@ -4,12 +4,12 @@
 
 ### DataAwsccIotsitewisePipeline <a name="DataAwsccIotsitewisePipeline" id="@cdktn/provider-awscc.dataAwsccIotsitewisePipeline.DataAwsccIotsitewisePipeline"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotsitewise_pipeline awscc_iotsitewise_pipeline}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotsitewise_pipeline awscc_iotsitewise_pipeline}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotsitewisePipeline.DataAwsccIotsitewisePipeline.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewisepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewisepipeline"
 
 dataawscciotsitewisepipeline.NewDataAwsccIotsitewisePipeline(scope Construct, id *string, config DataAwsccIotsitewisePipelineConfig) DataAwsccIotsitewisePipeline
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIotsitewisePipeline.DataAwsccIotsitewisePipeline.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewisepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewisepipeline"
 
 dataawscciotsitewisepipeline.DataAwsccIotsitewisePipeline_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIotsitewisePipeline.DataAwsccIotsitewisePipeline.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewisepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewisepipeline"
 
 dataawscciotsitewisepipeline.DataAwsccIotsitewisePipeline_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciotsitewisepipeline.DataAwsccIotsitewisePipeline_IsTerraformElement(x i
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIotsitewisePipeline.DataAwsccIotsitewisePipeline.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewisepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewisepipeline"
 
 dataawscciotsitewisepipeline.DataAwsccIotsitewisePipeline_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciotsitewisepipeline.DataAwsccIotsitewisePipeline_IsTerraformDataSource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIotsitewisePipeline.DataAwsccIotsitewisePipeline.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewisepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewisepipeline"
 
 dataawscciotsitewisepipeline.DataAwsccIotsitewisePipeline_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotsitewisePipeli
 
 The id of the existing DataAwsccIotsitewisePipeline that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotsitewise_pipeline#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotsitewise_pipeline#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -675,7 +675,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotsitewisePipeline.DataAwsccIotsitewisePipelineComputations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewisepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewisepipeline"
 
 &dataawscciotsitewisepipeline.DataAwsccIotsitewisePipelineComputations {
 
@@ -688,7 +688,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewisepi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotsitewisePipeline.DataAwsccIotsitewisePipelineConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewisepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewisepipeline"
 
 &dataawscciotsitewisepipeline.DataAwsccIotsitewisePipelineConfig {
 	Connection: interface{},
@@ -797,7 +797,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotsitewise_pipeline#id DataAwsccIotsitewisePipeline#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotsitewise_pipeline#id DataAwsccIotsitewisePipeline#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -809,7 +809,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotsitewisePipeline.DataAwsccIotsitewisePipelineTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewisepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewisepipeline"
 
 &dataawscciotsitewisepipeline.DataAwsccIotsitewisePipelineTags {
 
@@ -824,7 +824,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewisepi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotsitewisePipeline.DataAwsccIotsitewisePipelineComputationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewisepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewisepipeline"
 
 dataawscciotsitewisepipeline.NewDataAwsccIotsitewisePipelineComputationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIotsitewisePipelineComputationsList
 ```
@@ -973,7 +973,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotsitewisePipeline.DataAwsccIotsitewisePipelineComputationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewisepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewisepipeline"
 
 dataawscciotsitewisepipeline.NewDataAwsccIotsitewisePipelineComputationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIotsitewisePipelineComputationsOutputReference
 ```
@@ -1284,7 +1284,7 @@ func InternalValue() DataAwsccIotsitewisePipelineComputations
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotsitewisePipeline.DataAwsccIotsitewisePipelineTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewisepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewisepipeline"
 
 dataawscciotsitewisepipeline.NewDataAwsccIotsitewisePipelineTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIotsitewisePipelineTagsList
 ```
@@ -1433,7 +1433,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotsitewisePipeline.DataAwsccIotsitewisePipelineTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewisepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewisepipeline"
 
 dataawscciotsitewisepipeline.NewDataAwsccIotsitewisePipelineTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIotsitewisePipelineTagsOutputReference
 ```

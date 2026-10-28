@@ -4,12 +4,12 @@
 
 ### DataAwsccIotAccountAuditConfigurations <a name="DataAwsccIotAccountAuditConfigurations" id="@cdktn/provider-awscc.dataAwsccIotAccountAuditConfigurations.DataAwsccIotAccountAuditConfigurations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_account_audit_configurations awscc_iot_account_audit_configurations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_account_audit_configurations awscc_iot_account_audit_configurations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotAccountAuditConfigurations.DataAwsccIotAccountAuditConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountauditconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotaccountauditconfigurations"
 
 dataawscciotaccountauditconfigurations.NewDataAwsccIotAccountAuditConfigurations(scope Construct, id *string, config DataAwsccIotAccountAuditConfigurationsConfig) DataAwsccIotAccountAuditConfigurations
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIotAccountAuditConfigurations.DataAwsccIotAccountAuditConfigurations.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountauditconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotaccountauditconfigurations"
 
 dataawscciotaccountauditconfigurations.DataAwsccIotAccountAuditConfigurations_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIotAccountAuditConfigurations.DataAwsccIotAccountAuditConfigurations.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountauditconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotaccountauditconfigurations"
 
 dataawscciotaccountauditconfigurations.DataAwsccIotAccountAuditConfigurations_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciotaccountauditconfigurations.DataAwsccIotAccountAuditConfigurations_Is
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIotAccountAuditConfigurations.DataAwsccIotAccountAuditConfigurations.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountauditconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotaccountauditconfigurations"
 
 dataawscciotaccountauditconfigurations.DataAwsccIotAccountAuditConfigurations_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciotaccountauditconfigurations.DataAwsccIotAccountAuditConfigurations_Is
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIotAccountAuditConfigurations.DataAwsccIotAccountAuditConfigurations.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountauditconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotaccountauditconfigurations"
 
 dataawscciotaccountauditconfigurations.DataAwsccIotAccountAuditConfigurations_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotAccountAuditCo
 
 The id of the existing DataAwsccIotAccountAuditConfigurations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_account_audit_configurations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_account_audit_configurations#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotAccountAuditConfigurations.DataAwsccIotAccountAuditConfigurationsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotaccountauditconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotaccountauditconfigurations"
 
 &dataawscciotaccountauditconfigurations.DataAwsccIotAccountAuditConfigurationsConfig {
 	Connection: interface{},

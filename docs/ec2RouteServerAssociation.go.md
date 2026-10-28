@@ -4,12 +4,12 @@
 
 ### Ec2RouteServerAssociation <a name="Ec2RouteServerAssociation" id="@cdktn/provider-awscc.ec2RouteServerAssociation.Ec2RouteServerAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_route_server_association awscc_ec2_route_server_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_route_server_association awscc_ec2_route_server_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2RouteServerAssociation.Ec2RouteServerAssociation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2routeserverassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2routeserverassociation"
 
 ec2routeserverassociation.NewEc2RouteServerAssociation(scope Construct, id *string, config Ec2RouteServerAssociationConfig) Ec2RouteServerAssociation
 ```
@@ -400,7 +400,7 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.ec2RouteServerAssociation.Ec2RouteServerAssociation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2routeserverassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2routeserverassociation"
 
 ec2routeserverassociation.Ec2RouteServerAssociation_IsConstruct(x interface{}) *bool
 ```
@@ -432,7 +432,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.ec2RouteServerAssociation.Ec2RouteServerAssociation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2routeserverassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2routeserverassociation"
 
 ec2routeserverassociation.Ec2RouteServerAssociation_IsTerraformElement(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ ec2routeserverassociation.Ec2RouteServerAssociation_IsTerraformElement(x interfa
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.ec2RouteServerAssociation.Ec2RouteServerAssociation.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2routeserverassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2routeserverassociation"
 
 ec2routeserverassociation.Ec2RouteServerAssociation_IsTerraformResource(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ ec2routeserverassociation.Ec2RouteServerAssociation_IsTerraformResource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.ec2RouteServerAssociation.Ec2RouteServerAssociation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2routeserverassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2routeserverassociation"
 
 ec2routeserverassociation.Ec2RouteServerAssociation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -489,7 +489,7 @@ The construct id used in the generated config for the Ec2RouteServerAssociation 
 
 The id of the existing Ec2RouteServerAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_route_server_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_route_server_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -744,7 +744,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2RouteServerAssociation.Ec2RouteServerAssociationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2routeserverassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2routeserverassociation"
 
 &ec2routeserverassociation.Ec2RouteServerAssociationConfig {
 	Connection: interface{},
@@ -855,7 +855,7 @@ RouteServerId *string
 
 Route Server ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_route_server_association#route_server_id Ec2RouteServerAssociation#route_server_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_route_server_association#route_server_id Ec2RouteServerAssociation#route_server_id}
 
 ---
 
@@ -869,7 +869,7 @@ VpcId *string
 
 VPC ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_route_server_association#vpc_id Ec2RouteServerAssociation#vpc_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_route_server_association#vpc_id Ec2RouteServerAssociation#vpc_id}
 
 ---
 

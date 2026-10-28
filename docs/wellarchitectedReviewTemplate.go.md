@@ -4,12 +4,12 @@
 
 ### WellarchitectedReviewTemplate <a name="WellarchitectedReviewTemplate" id="@cdktn/provider-awscc.wellarchitectedReviewTemplate.WellarchitectedReviewTemplate"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wellarchitected_review_template awscc_wellarchitected_review_template}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wellarchitected_review_template awscc_wellarchitected_review_template}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.wellarchitectedReviewTemplate.WellarchitectedReviewTemplate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wellarchitectedreviewtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wellarchitectedreviewtemplate"
 
 wellarchitectedreviewtemplate.NewWellarchitectedReviewTemplate(scope Construct, id *string, config WellarchitectedReviewTemplateConfig) WellarchitectedReviewTemplate
 ```
@@ -427,7 +427,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.wellarchitectedReviewTemplate.WellarchitectedReviewTemplate.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wellarchitectedreviewtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wellarchitectedreviewtemplate"
 
 wellarchitectedreviewtemplate.WellarchitectedReviewTemplate_IsConstruct(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.wellarchitectedReviewTemplate.WellarchitectedReviewTemplate.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wellarchitectedreviewtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wellarchitectedreviewtemplate"
 
 wellarchitectedreviewtemplate.WellarchitectedReviewTemplate_IsTerraformElement(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ wellarchitectedreviewtemplate.WellarchitectedReviewTemplate_IsTerraformElement(x
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.wellarchitectedReviewTemplate.WellarchitectedReviewTemplate.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wellarchitectedreviewtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wellarchitectedreviewtemplate"
 
 wellarchitectedreviewtemplate.WellarchitectedReviewTemplate_IsTerraformResource(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ wellarchitectedreviewtemplate.WellarchitectedReviewTemplate_IsTerraformResource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.wellarchitectedReviewTemplate.WellarchitectedReviewTemplate.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wellarchitectedreviewtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wellarchitectedreviewtemplate"
 
 wellarchitectedreviewtemplate.WellarchitectedReviewTemplate_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -516,7 +516,7 @@ The construct id used in the generated config for the WellarchitectedReviewTempl
 
 The id of the existing WellarchitectedReviewTemplate that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wellarchitected_review_template#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wellarchitected_review_template#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -881,7 +881,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.wellarchitectedReviewTemplate.WellarchitectedReviewTemplateConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wellarchitectedreviewtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wellarchitectedreviewtemplate"
 
 &wellarchitectedreviewtemplate.WellarchitectedReviewTemplateConfig {
 	Connection: interface{},
@@ -998,7 +998,7 @@ Description *string
 
 The review template description.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wellarchitected_review_template#description WellarchitectedReviewTemplate#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wellarchitected_review_template#description WellarchitectedReviewTemplate#description}
 
 ---
 
@@ -1012,7 +1012,7 @@ Lenses *[]*string
 
 The lenses applied to the review template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wellarchitected_review_template#lenses WellarchitectedReviewTemplate#lenses}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wellarchitected_review_template#lenses WellarchitectedReviewTemplate#lenses}
 
 ---
 
@@ -1026,7 +1026,7 @@ TemplateName *string
 
 The name of the review template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wellarchitected_review_template#template_name WellarchitectedReviewTemplate#template_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wellarchitected_review_template#template_name WellarchitectedReviewTemplate#template_name}
 
 ---
 
@@ -1040,7 +1040,7 @@ Notes *string
 
 The notes associated with the review template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wellarchitected_review_template#notes WellarchitectedReviewTemplate#notes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wellarchitected_review_template#notes WellarchitectedReviewTemplate#notes}
 
 ---
 
@@ -1054,7 +1054,7 @@ Tags interface{}
 
 The tags assigned to the review template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wellarchitected_review_template#tags WellarchitectedReviewTemplate#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wellarchitected_review_template#tags WellarchitectedReviewTemplate#tags}
 
 ---
 
@@ -1063,7 +1063,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.wellarchitectedReviewTemplate.WellarchitectedReviewTemplateTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wellarchitectedreviewtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wellarchitectedreviewtemplate"
 
 &wellarchitectedreviewtemplate.WellarchitectedReviewTemplateTags {
 	Key: *string,
@@ -1075,8 +1075,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wellarchitectedreviewt
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.wellarchitectedReviewTemplate.WellarchitectedReviewTemplateTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wellarchitected_review_template#key WellarchitectedReviewTemplate#key}. |
-| <code><a href="#@cdktn/provider-awscc.wellarchitectedReviewTemplate.WellarchitectedReviewTemplateTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wellarchitected_review_template#value WellarchitectedReviewTemplate#value}. |
+| <code><a href="#@cdktn/provider-awscc.wellarchitectedReviewTemplate.WellarchitectedReviewTemplateTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wellarchitected_review_template#key WellarchitectedReviewTemplate#key}. |
+| <code><a href="#@cdktn/provider-awscc.wellarchitectedReviewTemplate.WellarchitectedReviewTemplateTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wellarchitected_review_template#value WellarchitectedReviewTemplate#value}. |
 
 ---
 
@@ -1088,7 +1088,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wellarchitected_review_template#key WellarchitectedReviewTemplate#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wellarchitected_review_template#key WellarchitectedReviewTemplate#key}.
 
 ---
 
@@ -1100,7 +1100,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wellarchitected_review_template#value WellarchitectedReviewTemplate#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wellarchitected_review_template#value WellarchitectedReviewTemplate#value}.
 
 ---
 
@@ -1111,7 +1111,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.wellarchitectedReviewTemplate.WellarchitectedReviewTemplateTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wellarchitectedreviewtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wellarchitectedreviewtemplate"
 
 wellarchitectedreviewtemplate.NewWellarchitectedReviewTemplateTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) WellarchitectedReviewTemplateTagsList
 ```
@@ -1271,7 +1271,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.wellarchitectedReviewTemplate.WellarchitectedReviewTemplateTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wellarchitectedreviewtemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wellarchitectedreviewtemplate"
 
 wellarchitectedreviewtemplate.NewWellarchitectedReviewTemplateTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) WellarchitectedReviewTemplateTagsOutputReference
 ```

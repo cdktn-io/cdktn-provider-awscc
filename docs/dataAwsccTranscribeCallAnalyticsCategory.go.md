@@ -4,12 +4,12 @@
 
 ### DataAwsccTranscribeCallAnalyticsCategory <a name="DataAwsccTranscribeCallAnalyticsCategory" id="@cdktn/provider-awscc.dataAwsccTranscribeCallAnalyticsCategory.DataAwsccTranscribeCallAnalyticsCategory"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/transcribe_call_analytics_category awscc_transcribe_call_analytics_category}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/transcribe_call_analytics_category awscc_transcribe_call_analytics_category}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTranscribeCallAnalyticsCategory.DataAwsccTranscribeCallAnalyticsCategory.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribecallanalyticscategory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranscribecallanalyticscategory"
 
 dataawscctranscribecallanalyticscategory.NewDataAwsccTranscribeCallAnalyticsCategory(scope Construct, id *string, config DataAwsccTranscribeCallAnalyticsCategoryConfig) DataAwsccTranscribeCallAnalyticsCategory
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccTranscribeCallAnalyticsCategory.DataAwsccTranscribeCallAnalyticsCategory.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribecallanalyticscategory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranscribecallanalyticscategory"
 
 dataawscctranscribecallanalyticscategory.DataAwsccTranscribeCallAnalyticsCategory_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccTranscribeCallAnalyticsCategory.DataAwsccTranscribeCallAnalyticsCategory.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribecallanalyticscategory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranscribecallanalyticscategory"
 
 dataawscctranscribecallanalyticscategory.DataAwsccTranscribeCallAnalyticsCategory_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscctranscribecallanalyticscategory.DataAwsccTranscribeCallAnalyticsCategor
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccTranscribeCallAnalyticsCategory.DataAwsccTranscribeCallAnalyticsCategory.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribecallanalyticscategory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranscribecallanalyticscategory"
 
 dataawscctranscribecallanalyticscategory.DataAwsccTranscribeCallAnalyticsCategory_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscctranscribecallanalyticscategory.DataAwsccTranscribeCallAnalyticsCategor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccTranscribeCallAnalyticsCategory.DataAwsccTranscribeCallAnalyticsCategory.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribecallanalyticscategory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranscribecallanalyticscategory"
 
 dataawscctranscribecallanalyticscategory.DataAwsccTranscribeCallAnalyticsCategory_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccTranscribeCallAna
 
 The id of the existing DataAwsccTranscribeCallAnalyticsCategory that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/transcribe_call_analytics_category#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/transcribe_call_analytics_category#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -664,7 +664,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTranscribeCallAnalyticsCategory.DataAwsccTranscribeCallAnalyticsCategoryConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribecallanalyticscategory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranscribecallanalyticscategory"
 
 &dataawscctranscribecallanalyticscategory.DataAwsccTranscribeCallAnalyticsCategoryConfig {
 	Connection: interface{},
@@ -773,7 +773,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/transcribe_call_analytics_category#id DataAwsccTranscribeCallAnalyticsCategory#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/transcribe_call_analytics_category#id DataAwsccTranscribeCallAnalyticsCategory#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -785,7 +785,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTranscribeCallAnalyticsCategory.DataAwsccTranscribeCallAnalyticsCategoryRules.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribecallanalyticscategory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranscribecallanalyticscategory"
 
 &dataawscctranscribecallanalyticscategory.DataAwsccTranscribeCallAnalyticsCategoryRules {
 
@@ -798,7 +798,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribecal
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTranscribeCallAnalyticsCategory.DataAwsccTranscribeCallAnalyticsCategoryRulesInterruptionFilter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribecallanalyticscategory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranscribecallanalyticscategory"
 
 &dataawscctranscribecallanalyticscategory.DataAwsccTranscribeCallAnalyticsCategoryRulesInterruptionFilter {
 
@@ -811,7 +811,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribecal
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTranscribeCallAnalyticsCategory.DataAwsccTranscribeCallAnalyticsCategoryRulesInterruptionFilterAbsoluteTimeRange.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribecallanalyticscategory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranscribecallanalyticscategory"
 
 &dataawscctranscribecallanalyticscategory.DataAwsccTranscribeCallAnalyticsCategoryRulesInterruptionFilterAbsoluteTimeRange {
 
@@ -824,7 +824,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribecal
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTranscribeCallAnalyticsCategory.DataAwsccTranscribeCallAnalyticsCategoryRulesInterruptionFilterRelativeTimeRange.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribecallanalyticscategory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranscribecallanalyticscategory"
 
 &dataawscctranscribecallanalyticscategory.DataAwsccTranscribeCallAnalyticsCategoryRulesInterruptionFilterRelativeTimeRange {
 
@@ -837,7 +837,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribecal
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTranscribeCallAnalyticsCategory.DataAwsccTranscribeCallAnalyticsCategoryRulesNonTalkTimeFilter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribecallanalyticscategory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranscribecallanalyticscategory"
 
 &dataawscctranscribecallanalyticscategory.DataAwsccTranscribeCallAnalyticsCategoryRulesNonTalkTimeFilter {
 
@@ -850,7 +850,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribecal
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTranscribeCallAnalyticsCategory.DataAwsccTranscribeCallAnalyticsCategoryRulesNonTalkTimeFilterAbsoluteTimeRange.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribecallanalyticscategory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranscribecallanalyticscategory"
 
 &dataawscctranscribecallanalyticscategory.DataAwsccTranscribeCallAnalyticsCategoryRulesNonTalkTimeFilterAbsoluteTimeRange {
 
@@ -863,7 +863,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribecal
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTranscribeCallAnalyticsCategory.DataAwsccTranscribeCallAnalyticsCategoryRulesNonTalkTimeFilterRelativeTimeRange.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribecallanalyticscategory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranscribecallanalyticscategory"
 
 &dataawscctranscribecallanalyticscategory.DataAwsccTranscribeCallAnalyticsCategoryRulesNonTalkTimeFilterRelativeTimeRange {
 
@@ -876,7 +876,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribecal
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTranscribeCallAnalyticsCategory.DataAwsccTranscribeCallAnalyticsCategoryRulesSentimentFilter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribecallanalyticscategory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranscribecallanalyticscategory"
 
 &dataawscctranscribecallanalyticscategory.DataAwsccTranscribeCallAnalyticsCategoryRulesSentimentFilter {
 
@@ -889,7 +889,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribecal
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTranscribeCallAnalyticsCategory.DataAwsccTranscribeCallAnalyticsCategoryRulesSentimentFilterAbsoluteTimeRange.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribecallanalyticscategory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranscribecallanalyticscategory"
 
 &dataawscctranscribecallanalyticscategory.DataAwsccTranscribeCallAnalyticsCategoryRulesSentimentFilterAbsoluteTimeRange {
 
@@ -902,7 +902,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribecal
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTranscribeCallAnalyticsCategory.DataAwsccTranscribeCallAnalyticsCategoryRulesSentimentFilterRelativeTimeRange.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribecallanalyticscategory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranscribecallanalyticscategory"
 
 &dataawscctranscribecallanalyticscategory.DataAwsccTranscribeCallAnalyticsCategoryRulesSentimentFilterRelativeTimeRange {
 
@@ -915,7 +915,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribecal
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTranscribeCallAnalyticsCategory.DataAwsccTranscribeCallAnalyticsCategoryRulesTranscriptFilter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribecallanalyticscategory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranscribecallanalyticscategory"
 
 &dataawscctranscribecallanalyticscategory.DataAwsccTranscribeCallAnalyticsCategoryRulesTranscriptFilter {
 
@@ -928,7 +928,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribecal
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTranscribeCallAnalyticsCategory.DataAwsccTranscribeCallAnalyticsCategoryRulesTranscriptFilterAbsoluteTimeRange.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribecallanalyticscategory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranscribecallanalyticscategory"
 
 &dataawscctranscribecallanalyticscategory.DataAwsccTranscribeCallAnalyticsCategoryRulesTranscriptFilterAbsoluteTimeRange {
 
@@ -941,7 +941,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribecal
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTranscribeCallAnalyticsCategory.DataAwsccTranscribeCallAnalyticsCategoryRulesTranscriptFilterRelativeTimeRange.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribecallanalyticscategory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranscribecallanalyticscategory"
 
 &dataawscctranscribecallanalyticscategory.DataAwsccTranscribeCallAnalyticsCategoryRulesTranscriptFilterRelativeTimeRange {
 
@@ -954,7 +954,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribecal
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTranscribeCallAnalyticsCategory.DataAwsccTranscribeCallAnalyticsCategoryTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribecallanalyticscategory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranscribecallanalyticscategory"
 
 &dataawscctranscribecallanalyticscategory.DataAwsccTranscribeCallAnalyticsCategoryTags {
 
@@ -969,7 +969,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribecal
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTranscribeCallAnalyticsCategory.DataAwsccTranscribeCallAnalyticsCategoryRulesInterruptionFilterAbsoluteTimeRangeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribecallanalyticscategory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranscribecallanalyticscategory"
 
 dataawscctranscribecallanalyticscategory.NewDataAwsccTranscribeCallAnalyticsCategoryRulesInterruptionFilterAbsoluteTimeRangeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccTranscribeCallAnalyticsCategoryRulesInterruptionFilterAbsoluteTimeRangeOutputReference
 ```
@@ -1262,7 +1262,7 @@ func InternalValue() DataAwsccTranscribeCallAnalyticsCategoryRulesInterruptionFi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTranscribeCallAnalyticsCategory.DataAwsccTranscribeCallAnalyticsCategoryRulesInterruptionFilterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribecallanalyticscategory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranscribecallanalyticscategory"
 
 dataawscctranscribecallanalyticscategory.NewDataAwsccTranscribeCallAnalyticsCategoryRulesInterruptionFilterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccTranscribeCallAnalyticsCategoryRulesInterruptionFilterOutputReference
 ```
@@ -1566,7 +1566,7 @@ func InternalValue() DataAwsccTranscribeCallAnalyticsCategoryRulesInterruptionFi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTranscribeCallAnalyticsCategory.DataAwsccTranscribeCallAnalyticsCategoryRulesInterruptionFilterRelativeTimeRangeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribecallanalyticscategory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranscribecallanalyticscategory"
 
 dataawscctranscribecallanalyticscategory.NewDataAwsccTranscribeCallAnalyticsCategoryRulesInterruptionFilterRelativeTimeRangeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccTranscribeCallAnalyticsCategoryRulesInterruptionFilterRelativeTimeRangeOutputReference
 ```
@@ -1859,7 +1859,7 @@ func InternalValue() DataAwsccTranscribeCallAnalyticsCategoryRulesInterruptionFi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTranscribeCallAnalyticsCategory.DataAwsccTranscribeCallAnalyticsCategoryRulesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribecallanalyticscategory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranscribecallanalyticscategory"
 
 dataawscctranscribecallanalyticscategory.NewDataAwsccTranscribeCallAnalyticsCategoryRulesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccTranscribeCallAnalyticsCategoryRulesList
 ```
@@ -2008,7 +2008,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTranscribeCallAnalyticsCategory.DataAwsccTranscribeCallAnalyticsCategoryRulesNonTalkTimeFilterAbsoluteTimeRangeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribecallanalyticscategory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranscribecallanalyticscategory"
 
 dataawscctranscribecallanalyticscategory.NewDataAwsccTranscribeCallAnalyticsCategoryRulesNonTalkTimeFilterAbsoluteTimeRangeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccTranscribeCallAnalyticsCategoryRulesNonTalkTimeFilterAbsoluteTimeRangeOutputReference
 ```
@@ -2301,7 +2301,7 @@ func InternalValue() DataAwsccTranscribeCallAnalyticsCategoryRulesNonTalkTimeFil
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTranscribeCallAnalyticsCategory.DataAwsccTranscribeCallAnalyticsCategoryRulesNonTalkTimeFilterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribecallanalyticscategory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranscribecallanalyticscategory"
 
 dataawscctranscribecallanalyticscategory.NewDataAwsccTranscribeCallAnalyticsCategoryRulesNonTalkTimeFilterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccTranscribeCallAnalyticsCategoryRulesNonTalkTimeFilterOutputReference
 ```
@@ -2594,7 +2594,7 @@ func InternalValue() DataAwsccTranscribeCallAnalyticsCategoryRulesNonTalkTimeFil
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTranscribeCallAnalyticsCategory.DataAwsccTranscribeCallAnalyticsCategoryRulesNonTalkTimeFilterRelativeTimeRangeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribecallanalyticscategory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranscribecallanalyticscategory"
 
 dataawscctranscribecallanalyticscategory.NewDataAwsccTranscribeCallAnalyticsCategoryRulesNonTalkTimeFilterRelativeTimeRangeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccTranscribeCallAnalyticsCategoryRulesNonTalkTimeFilterRelativeTimeRangeOutputReference
 ```
@@ -2887,7 +2887,7 @@ func InternalValue() DataAwsccTranscribeCallAnalyticsCategoryRulesNonTalkTimeFil
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTranscribeCallAnalyticsCategory.DataAwsccTranscribeCallAnalyticsCategoryRulesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribecallanalyticscategory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranscribecallanalyticscategory"
 
 dataawscctranscribecallanalyticscategory.NewDataAwsccTranscribeCallAnalyticsCategoryRulesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccTranscribeCallAnalyticsCategoryRulesOutputReference
 ```
@@ -3198,7 +3198,7 @@ func InternalValue() DataAwsccTranscribeCallAnalyticsCategoryRules
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTranscribeCallAnalyticsCategory.DataAwsccTranscribeCallAnalyticsCategoryRulesSentimentFilterAbsoluteTimeRangeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribecallanalyticscategory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranscribecallanalyticscategory"
 
 dataawscctranscribecallanalyticscategory.NewDataAwsccTranscribeCallAnalyticsCategoryRulesSentimentFilterAbsoluteTimeRangeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccTranscribeCallAnalyticsCategoryRulesSentimentFilterAbsoluteTimeRangeOutputReference
 ```
@@ -3491,7 +3491,7 @@ func InternalValue() DataAwsccTranscribeCallAnalyticsCategoryRulesSentimentFilte
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTranscribeCallAnalyticsCategory.DataAwsccTranscribeCallAnalyticsCategoryRulesSentimentFilterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribecallanalyticscategory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranscribecallanalyticscategory"
 
 dataawscctranscribecallanalyticscategory.NewDataAwsccTranscribeCallAnalyticsCategoryRulesSentimentFilterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccTranscribeCallAnalyticsCategoryRulesSentimentFilterOutputReference
 ```
@@ -3795,7 +3795,7 @@ func InternalValue() DataAwsccTranscribeCallAnalyticsCategoryRulesSentimentFilte
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTranscribeCallAnalyticsCategory.DataAwsccTranscribeCallAnalyticsCategoryRulesSentimentFilterRelativeTimeRangeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribecallanalyticscategory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranscribecallanalyticscategory"
 
 dataawscctranscribecallanalyticscategory.NewDataAwsccTranscribeCallAnalyticsCategoryRulesSentimentFilterRelativeTimeRangeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccTranscribeCallAnalyticsCategoryRulesSentimentFilterRelativeTimeRangeOutputReference
 ```
@@ -4088,7 +4088,7 @@ func InternalValue() DataAwsccTranscribeCallAnalyticsCategoryRulesSentimentFilte
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTranscribeCallAnalyticsCategory.DataAwsccTranscribeCallAnalyticsCategoryRulesTranscriptFilterAbsoluteTimeRangeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribecallanalyticscategory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranscribecallanalyticscategory"
 
 dataawscctranscribecallanalyticscategory.NewDataAwsccTranscribeCallAnalyticsCategoryRulesTranscriptFilterAbsoluteTimeRangeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccTranscribeCallAnalyticsCategoryRulesTranscriptFilterAbsoluteTimeRangeOutputReference
 ```
@@ -4381,7 +4381,7 @@ func InternalValue() DataAwsccTranscribeCallAnalyticsCategoryRulesTranscriptFilt
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTranscribeCallAnalyticsCategory.DataAwsccTranscribeCallAnalyticsCategoryRulesTranscriptFilterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribecallanalyticscategory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranscribecallanalyticscategory"
 
 dataawscctranscribecallanalyticscategory.NewDataAwsccTranscribeCallAnalyticsCategoryRulesTranscriptFilterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccTranscribeCallAnalyticsCategoryRulesTranscriptFilterOutputReference
 ```
@@ -4696,7 +4696,7 @@ func InternalValue() DataAwsccTranscribeCallAnalyticsCategoryRulesTranscriptFilt
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTranscribeCallAnalyticsCategory.DataAwsccTranscribeCallAnalyticsCategoryRulesTranscriptFilterRelativeTimeRangeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribecallanalyticscategory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranscribecallanalyticscategory"
 
 dataawscctranscribecallanalyticscategory.NewDataAwsccTranscribeCallAnalyticsCategoryRulesTranscriptFilterRelativeTimeRangeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccTranscribeCallAnalyticsCategoryRulesTranscriptFilterRelativeTimeRangeOutputReference
 ```
@@ -4989,7 +4989,7 @@ func InternalValue() DataAwsccTranscribeCallAnalyticsCategoryRulesTranscriptFilt
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTranscribeCallAnalyticsCategory.DataAwsccTranscribeCallAnalyticsCategoryTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribecallanalyticscategory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranscribecallanalyticscategory"
 
 dataawscctranscribecallanalyticscategory.NewDataAwsccTranscribeCallAnalyticsCategoryTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccTranscribeCallAnalyticsCategoryTagsList
 ```
@@ -5138,7 +5138,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTranscribeCallAnalyticsCategory.DataAwsccTranscribeCallAnalyticsCategoryTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribecallanalyticscategory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranscribecallanalyticscategory"
 
 dataawscctranscribecallanalyticscategory.NewDataAwsccTranscribeCallAnalyticsCategoryTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccTranscribeCallAnalyticsCategoryTagsOutputReference
 ```

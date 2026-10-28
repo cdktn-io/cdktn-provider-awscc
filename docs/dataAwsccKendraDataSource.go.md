@@ -4,12 +4,12 @@
 
 ### DataAwsccKendraDataSource <a name="DataAwsccKendraDataSource" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSource"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/kendra_data_source awscc_kendra_data_source}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/kendra_data_source awscc_kendra_data_source}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSource(scope Construct, id *string, config DataAwsccKendraDataSourceConfig) DataAwsccKendraDataSource
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSource.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.DataAwsccKendraDataSource_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSource.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.DataAwsccKendraDataSource_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscckendradatasource.DataAwsccKendraDataSource_IsTerraformElement(x interfa
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSource.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.DataAwsccKendraDataSource_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscckendradatasource.DataAwsccKendraDataSource_IsTerraformDataSource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSource.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.DataAwsccKendraDataSource_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccKendraDataSource 
 
 The id of the existing DataAwsccKendraDataSource that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/kendra_data_source#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/kendra_data_source#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -719,7 +719,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceConfig {
 	Connection: interface{},
@@ -828,7 +828,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/kendra_data_source#id DataAwsccKendraDataSource#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/kendra_data_source#id DataAwsccKendraDataSource#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -840,7 +840,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceCustomDocumentEnrichmentConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceCustomDocumentEnrichmentConfiguration {
 
@@ -853,7 +853,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurations {
 
@@ -866,7 +866,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsCondition {
 
@@ -879,7 +879,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsConditionConditionOnValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsConditionConditionOnValue {
 
@@ -892,7 +892,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsTarget.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsTarget {
 
@@ -905,7 +905,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsTargetTargetDocumentAttributeValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsTargetTargetDocumentAttributeValue {
 
@@ -918,7 +918,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfiguration {
 
@@ -931,7 +931,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationCondition {
 
@@ -944,7 +944,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationConditionConditionOnValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationConditionConditionOnValue {
 
@@ -957,7 +957,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookConfiguration {
 
@@ -970,7 +970,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookConfigurationInvocationCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookConfigurationInvocationCondition {
 
@@ -983,7 +983,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookConfigurationInvocationConditionConditionOnValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookConfigurationInvocationConditionConditionOnValue {
 
@@ -996,7 +996,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceDataSourceConfiguration {
 
@@ -1009,7 +1009,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfiguration {
 
@@ -1022,7 +1022,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationAttachmentConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationAttachmentConfiguration {
 
@@ -1035,7 +1035,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationAttachmentConfigurationAttachmentFieldMappings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationAttachmentConfigurationAttachmentFieldMappings {
 
@@ -1048,7 +1048,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationBlogConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationBlogConfiguration {
 
@@ -1061,7 +1061,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationBlogConfigurationBlogFieldMappings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationBlogConfigurationBlogFieldMappings {
 
@@ -1074,7 +1074,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationPageConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationPageConfiguration {
 
@@ -1087,7 +1087,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationPageConfigurationPageFieldMappings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationPageConfigurationPageFieldMappings {
 
@@ -1100,7 +1100,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationSpaceConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationSpaceConfiguration {
 
@@ -1113,7 +1113,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationSpaceConfigurationSpaceFieldMappings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationSpaceConfigurationSpaceFieldMappings {
 
@@ -1126,7 +1126,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationVpcConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationVpcConfiguration {
 
@@ -1139,7 +1139,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationDatabaseConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceDataSourceConfigurationDatabaseConfiguration {
 
@@ -1152,7 +1152,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationDatabaseConfigurationAclConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceDataSourceConfigurationDatabaseConfigurationAclConfiguration {
 
@@ -1165,7 +1165,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnConfiguration {
 
@@ -1178,7 +1178,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnConfigurationFieldMappings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnConfigurationFieldMappings {
 
@@ -1191,7 +1191,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationDatabaseConfigurationConnectionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceDataSourceConfigurationDatabaseConfigurationConnectionConfiguration {
 
@@ -1204,7 +1204,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationDatabaseConfigurationSqlConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceDataSourceConfigurationDatabaseConfigurationSqlConfiguration {
 
@@ -1217,7 +1217,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationDatabaseConfigurationVpcConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceDataSourceConfigurationDatabaseConfigurationVpcConfiguration {
 
@@ -1230,7 +1230,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationGoogleDriveConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceDataSourceConfigurationGoogleDriveConfiguration {
 
@@ -1243,7 +1243,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationGoogleDriveConfigurationFieldMappings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceDataSourceConfigurationGoogleDriveConfigurationFieldMappings {
 
@@ -1256,7 +1256,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationOneDriveConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceDataSourceConfigurationOneDriveConfiguration {
 
@@ -1269,7 +1269,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationOneDriveConfigurationFieldMappings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceDataSourceConfigurationOneDriveConfigurationFieldMappings {
 
@@ -1282,7 +1282,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationOneDriveConfigurationOneDriveUsers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceDataSourceConfigurationOneDriveConfigurationOneDriveUsers {
 
@@ -1295,7 +1295,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationOneDriveConfigurationOneDriveUsersOneDriveUserS3Path.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceDataSourceConfigurationOneDriveConfigurationOneDriveUsersOneDriveUserS3Path {
 
@@ -1308,7 +1308,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationS3Configuration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceDataSourceConfigurationS3Configuration {
 
@@ -1321,7 +1321,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationS3ConfigurationAccessControlListConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceDataSourceConfigurationS3ConfigurationAccessControlListConfiguration {
 
@@ -1334,7 +1334,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationS3ConfigurationDocumentsMetadataConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceDataSourceConfigurationS3ConfigurationDocumentsMetadataConfiguration {
 
@@ -1347,7 +1347,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfiguration {
 
@@ -1360,7 +1360,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationChatterFeedConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationChatterFeedConfiguration {
 
@@ -1373,7 +1373,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationChatterFeedConfigurationFieldMappings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationChatterFeedConfigurationFieldMappings {
 
@@ -1386,7 +1386,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfiguration {
 
@@ -1399,7 +1399,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationCustomKnowledgeArticleTypeConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationCustomKnowledgeArticleTypeConfigurations {
 
@@ -1412,7 +1412,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationCustomKnowledgeArticleTypeConfigurationsFieldMappings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationCustomKnowledgeArticleTypeConfigurationsFieldMappings {
 
@@ -1425,7 +1425,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationStandardKnowledgeArticleTypeConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationStandardKnowledgeArticleTypeConfiguration {
 
@@ -1438,7 +1438,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationStandardKnowledgeArticleTypeConfigurationFieldMappings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationStandardKnowledgeArticleTypeConfigurationFieldMappings {
 
@@ -1451,7 +1451,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectAttachmentConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectAttachmentConfiguration {
 
@@ -1464,7 +1464,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectAttachmentConfigurationFieldMappings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectAttachmentConfigurationFieldMappings {
 
@@ -1477,7 +1477,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectConfigurations {
 
@@ -1490,7 +1490,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectConfigurationsFieldMappings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectConfigurationsFieldMappings {
 
@@ -1503,7 +1503,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationServiceNowConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceDataSourceConfigurationServiceNowConfiguration {
 
@@ -1516,7 +1516,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationServiceNowConfigurationKnowledgeArticleConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceDataSourceConfigurationServiceNowConfigurationKnowledgeArticleConfiguration {
 
@@ -1529,7 +1529,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationServiceNowConfigurationKnowledgeArticleConfigurationFieldMappings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceDataSourceConfigurationServiceNowConfigurationKnowledgeArticleConfigurationFieldMappings {
 
@@ -1542,7 +1542,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationServiceNowConfigurationServiceCatalogConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceDataSourceConfigurationServiceNowConfigurationServiceCatalogConfiguration {
 
@@ -1555,7 +1555,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationServiceNowConfigurationServiceCatalogConfigurationFieldMappings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceDataSourceConfigurationServiceNowConfigurationServiceCatalogConfigurationFieldMappings {
 
@@ -1568,7 +1568,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationSharePointConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceDataSourceConfigurationSharePointConfiguration {
 
@@ -1581,7 +1581,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationSharePointConfigurationFieldMappings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceDataSourceConfigurationSharePointConfigurationFieldMappings {
 
@@ -1594,7 +1594,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationSharePointConfigurationSslCertificateS3Path.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceDataSourceConfigurationSharePointConfigurationSslCertificateS3Path {
 
@@ -1607,7 +1607,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationSharePointConfigurationVpcConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceDataSourceConfigurationSharePointConfigurationVpcConfiguration {
 
@@ -1620,7 +1620,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationTemplateConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceDataSourceConfigurationTemplateConfiguration {
 
@@ -1633,7 +1633,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationWebCrawlerConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceDataSourceConfigurationWebCrawlerConfiguration {
 
@@ -1646,7 +1646,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationWebCrawlerConfigurationAuthenticationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceDataSourceConfigurationWebCrawlerConfigurationAuthenticationConfiguration {
 
@@ -1659,7 +1659,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationWebCrawlerConfigurationAuthenticationConfigurationBasicAuthentication.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceDataSourceConfigurationWebCrawlerConfigurationAuthenticationConfigurationBasicAuthentication {
 
@@ -1672,7 +1672,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationWebCrawlerConfigurationProxyConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceDataSourceConfigurationWebCrawlerConfigurationProxyConfiguration {
 
@@ -1685,7 +1685,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationWebCrawlerConfigurationUrls.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceDataSourceConfigurationWebCrawlerConfigurationUrls {
 
@@ -1698,7 +1698,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationWebCrawlerConfigurationUrlsSeedUrlConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceDataSourceConfigurationWebCrawlerConfigurationUrlsSeedUrlConfiguration {
 
@@ -1711,7 +1711,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationWebCrawlerConfigurationUrlsSiteMapsConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceDataSourceConfigurationWebCrawlerConfigurationUrlsSiteMapsConfiguration {
 
@@ -1724,7 +1724,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationWorkDocsConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceDataSourceConfigurationWorkDocsConfiguration {
 
@@ -1737,7 +1737,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationWorkDocsConfigurationFieldMappings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceDataSourceConfigurationWorkDocsConfigurationFieldMappings {
 
@@ -1750,7 +1750,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasou
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 &dataawscckendradatasource.DataAwsccKendraDataSourceTags {
 
@@ -1765,7 +1765,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasou
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsConditionConditionOnValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsConditionConditionOnValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsConditionConditionOnValueOutputReference
 ```
@@ -2058,7 +2058,7 @@ func InternalValue() DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsConditionOutputReference
 ```
@@ -2340,7 +2340,7 @@ func InternalValue() DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsList
 ```
@@ -2489,7 +2489,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsOutputReference
 ```
@@ -2789,7 +2789,7 @@ func InternalValue() DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsTargetOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsTargetOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsTargetOutputReference
 ```
@@ -3071,7 +3071,7 @@ func InternalValue() DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsTargetTargetDocumentAttributeValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsTargetTargetDocumentAttributeValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsTargetTargetDocumentAttributeValueOutputReference
 ```
@@ -3364,7 +3364,7 @@ func InternalValue() DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationOutputReference
 ```
@@ -3657,7 +3657,7 @@ func InternalValue() DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationConditionConditionOnValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationConditionConditionOnValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationConditionConditionOnValueOutputReference
 ```
@@ -3950,7 +3950,7 @@ func InternalValue() DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationConditionOutputReference
 ```
@@ -4232,7 +4232,7 @@ func InternalValue() DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationOutputReference
 ```
@@ -4514,7 +4514,7 @@ func InternalValue() DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookConfigurationInvocationConditionConditionOnValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookConfigurationInvocationConditionConditionOnValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookConfigurationInvocationConditionConditionOnValueOutputReference
 ```
@@ -4807,7 +4807,7 @@ func InternalValue() DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookConfigurationInvocationConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookConfigurationInvocationConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookConfigurationInvocationConditionOutputReference
 ```
@@ -5089,7 +5089,7 @@ func InternalValue() DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookConfigurationOutputReference
 ```
@@ -5371,7 +5371,7 @@ func InternalValue() DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationAttachmentConfigurationAttachmentFieldMappingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationAttachmentConfigurationAttachmentFieldMappingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationAttachmentConfigurationAttachmentFieldMappingsList
 ```
@@ -5520,7 +5520,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationAttachmentConfigurationAttachmentFieldMappingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationAttachmentConfigurationAttachmentFieldMappingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationAttachmentConfigurationAttachmentFieldMappingsOutputReference
 ```
@@ -5820,7 +5820,7 @@ func InternalValue() DataAwsccKendraDataSourceDataSourceConfigurationConfluenceC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationAttachmentConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationAttachmentConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationAttachmentConfigurationOutputReference
 ```
@@ -6091,7 +6091,7 @@ func InternalValue() DataAwsccKendraDataSourceDataSourceConfigurationConfluenceC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationBlogConfigurationBlogFieldMappingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationBlogConfigurationBlogFieldMappingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationBlogConfigurationBlogFieldMappingsList
 ```
@@ -6240,7 +6240,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationBlogConfigurationBlogFieldMappingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationBlogConfigurationBlogFieldMappingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationBlogConfigurationBlogFieldMappingsOutputReference
 ```
@@ -6540,7 +6540,7 @@ func InternalValue() DataAwsccKendraDataSourceDataSourceConfigurationConfluenceC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationBlogConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationBlogConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationBlogConfigurationOutputReference
 ```
@@ -6800,7 +6800,7 @@ func InternalValue() DataAwsccKendraDataSourceDataSourceConfigurationConfluenceC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationOutputReference
 ```
@@ -7159,7 +7159,7 @@ func InternalValue() DataAwsccKendraDataSourceDataSourceConfigurationConfluenceC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationPageConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationPageConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationPageConfigurationOutputReference
 ```
@@ -7419,7 +7419,7 @@ func InternalValue() DataAwsccKendraDataSourceDataSourceConfigurationConfluenceC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationPageConfigurationPageFieldMappingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationPageConfigurationPageFieldMappingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationPageConfigurationPageFieldMappingsList
 ```
@@ -7568,7 +7568,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationPageConfigurationPageFieldMappingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationPageConfigurationPageFieldMappingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationPageConfigurationPageFieldMappingsOutputReference
 ```
@@ -7868,7 +7868,7 @@ func InternalValue() DataAwsccKendraDataSourceDataSourceConfigurationConfluenceC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationSpaceConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationSpaceConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationSpaceConfigurationOutputReference
 ```
@@ -8172,7 +8172,7 @@ func InternalValue() DataAwsccKendraDataSourceDataSourceConfigurationConfluenceC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationSpaceConfigurationSpaceFieldMappingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationSpaceConfigurationSpaceFieldMappingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationSpaceConfigurationSpaceFieldMappingsList
 ```
@@ -8321,7 +8321,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationSpaceConfigurationSpaceFieldMappingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationSpaceConfigurationSpaceFieldMappingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationSpaceConfigurationSpaceFieldMappingsOutputReference
 ```
@@ -8621,7 +8621,7 @@ func InternalValue() DataAwsccKendraDataSourceDataSourceConfigurationConfluenceC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationVpcConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationVpcConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationVpcConfigurationOutputReference
 ```
@@ -8892,7 +8892,7 @@ func InternalValue() DataAwsccKendraDataSourceDataSourceConfigurationConfluenceC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationDatabaseConfigurationAclConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationDatabaseConfigurationAclConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKendraDataSourceDataSourceConfigurationDatabaseConfigurationAclConfigurationOutputReference
 ```
@@ -9152,7 +9152,7 @@ func InternalValue() DataAwsccKendraDataSourceDataSourceConfigurationDatabaseCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnConfigurationFieldMappingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnConfigurationFieldMappingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccKendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnConfigurationFieldMappingsList
 ```
@@ -9301,7 +9301,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnConfigurationFieldMappingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnConfigurationFieldMappingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccKendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnConfigurationFieldMappingsOutputReference
 ```
@@ -9601,7 +9601,7 @@ func InternalValue() DataAwsccKendraDataSourceDataSourceConfigurationDatabaseCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnConfigurationOutputReference
 ```
@@ -9905,7 +9905,7 @@ func InternalValue() DataAwsccKendraDataSourceDataSourceConfigurationDatabaseCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationDatabaseConfigurationConnectionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationDatabaseConfigurationConnectionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKendraDataSourceDataSourceConfigurationDatabaseConfigurationConnectionConfigurationOutputReference
 ```
@@ -10209,7 +10209,7 @@ func InternalValue() DataAwsccKendraDataSourceDataSourceConfigurationDatabaseCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationDatabaseConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationDatabaseConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKendraDataSourceDataSourceConfigurationDatabaseConfigurationOutputReference
 ```
@@ -10524,7 +10524,7 @@ func InternalValue() DataAwsccKendraDataSourceDataSourceConfigurationDatabaseCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationDatabaseConfigurationSqlConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationDatabaseConfigurationSqlConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKendraDataSourceDataSourceConfigurationDatabaseConfigurationSqlConfigurationOutputReference
 ```
@@ -10784,7 +10784,7 @@ func InternalValue() DataAwsccKendraDataSourceDataSourceConfigurationDatabaseCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationDatabaseConfigurationVpcConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationDatabaseConfigurationVpcConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKendraDataSourceDataSourceConfigurationDatabaseConfigurationVpcConfigurationOutputReference
 ```
@@ -11055,7 +11055,7 @@ func InternalValue() DataAwsccKendraDataSourceDataSourceConfigurationDatabaseCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationGoogleDriveConfigurationFieldMappingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationGoogleDriveConfigurationFieldMappingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccKendraDataSourceDataSourceConfigurationGoogleDriveConfigurationFieldMappingsList
 ```
@@ -11204,7 +11204,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationGoogleDriveConfigurationFieldMappingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationGoogleDriveConfigurationFieldMappingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccKendraDataSourceDataSourceConfigurationGoogleDriveConfigurationFieldMappingsOutputReference
 ```
@@ -11504,7 +11504,7 @@ func InternalValue() DataAwsccKendraDataSourceDataSourceConfigurationGoogleDrive
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationGoogleDriveConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationGoogleDriveConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKendraDataSourceDataSourceConfigurationGoogleDriveConfigurationOutputReference
 ```
@@ -11830,7 +11830,7 @@ func InternalValue() DataAwsccKendraDataSourceDataSourceConfigurationGoogleDrive
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationOneDriveConfigurationFieldMappingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationOneDriveConfigurationFieldMappingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccKendraDataSourceDataSourceConfigurationOneDriveConfigurationFieldMappingsList
 ```
@@ -11979,7 +11979,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationOneDriveConfigurationFieldMappingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationOneDriveConfigurationFieldMappingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccKendraDataSourceDataSourceConfigurationOneDriveConfigurationFieldMappingsOutputReference
 ```
@@ -12279,7 +12279,7 @@ func InternalValue() DataAwsccKendraDataSourceDataSourceConfigurationOneDriveCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationOneDriveConfigurationOneDriveUsersOneDriveUserS3PathOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationOneDriveConfigurationOneDriveUsersOneDriveUserS3PathOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKendraDataSourceDataSourceConfigurationOneDriveConfigurationOneDriveUsersOneDriveUserS3PathOutputReference
 ```
@@ -12550,7 +12550,7 @@ func InternalValue() DataAwsccKendraDataSourceDataSourceConfigurationOneDriveCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationOneDriveConfigurationOneDriveUsersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationOneDriveConfigurationOneDriveUsersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKendraDataSourceDataSourceConfigurationOneDriveConfigurationOneDriveUsersOutputReference
 ```
@@ -12821,7 +12821,7 @@ func InternalValue() DataAwsccKendraDataSourceDataSourceConfigurationOneDriveCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationOneDriveConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationOneDriveConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKendraDataSourceDataSourceConfigurationOneDriveConfigurationOutputReference
 ```
@@ -13147,7 +13147,7 @@ func InternalValue() DataAwsccKendraDataSourceDataSourceConfigurationOneDriveCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKendraDataSourceDataSourceConfigurationOutputReference
 ```
@@ -13517,7 +13517,7 @@ func InternalValue() DataAwsccKendraDataSourceDataSourceConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationS3ConfigurationAccessControlListConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationS3ConfigurationAccessControlListConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKendraDataSourceDataSourceConfigurationS3ConfigurationAccessControlListConfigurationOutputReference
 ```
@@ -13777,7 +13777,7 @@ func InternalValue() DataAwsccKendraDataSourceDataSourceConfigurationS3Configura
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationS3ConfigurationDocumentsMetadataConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationS3ConfigurationDocumentsMetadataConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKendraDataSourceDataSourceConfigurationS3ConfigurationDocumentsMetadataConfigurationOutputReference
 ```
@@ -14037,7 +14037,7 @@ func InternalValue() DataAwsccKendraDataSourceDataSourceConfigurationS3Configura
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationS3ConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationS3ConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKendraDataSourceDataSourceConfigurationS3ConfigurationOutputReference
 ```
@@ -14352,7 +14352,7 @@ func InternalValue() DataAwsccKendraDataSourceDataSourceConfigurationS3Configura
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationChatterFeedConfigurationFieldMappingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationChatterFeedConfigurationFieldMappingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationChatterFeedConfigurationFieldMappingsList
 ```
@@ -14501,7 +14501,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationChatterFeedConfigurationFieldMappingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationChatterFeedConfigurationFieldMappingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationChatterFeedConfigurationFieldMappingsOutputReference
 ```
@@ -14801,7 +14801,7 @@ func InternalValue() DataAwsccKendraDataSourceDataSourceConfigurationSalesforceC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationChatterFeedConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationChatterFeedConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationChatterFeedConfigurationOutputReference
 ```
@@ -15094,7 +15094,7 @@ func InternalValue() DataAwsccKendraDataSourceDataSourceConfigurationSalesforceC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationCustomKnowledgeArticleTypeConfigurationsFieldMappingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationCustomKnowledgeArticleTypeConfigurationsFieldMappingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationCustomKnowledgeArticleTypeConfigurationsFieldMappingsList
 ```
@@ -15243,7 +15243,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationCustomKnowledgeArticleTypeConfigurationsFieldMappingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationCustomKnowledgeArticleTypeConfigurationsFieldMappingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationCustomKnowledgeArticleTypeConfigurationsFieldMappingsOutputReference
 ```
@@ -15543,7 +15543,7 @@ func InternalValue() DataAwsccKendraDataSourceDataSourceConfigurationSalesforceC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationCustomKnowledgeArticleTypeConfigurationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationCustomKnowledgeArticleTypeConfigurationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationCustomKnowledgeArticleTypeConfigurationsList
 ```
@@ -15692,7 +15692,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationCustomKnowledgeArticleTypeConfigurationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationCustomKnowledgeArticleTypeConfigurationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationCustomKnowledgeArticleTypeConfigurationsOutputReference
 ```
@@ -16003,7 +16003,7 @@ func InternalValue() DataAwsccKendraDataSourceDataSourceConfigurationSalesforceC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationOutputReference
 ```
@@ -16285,7 +16285,7 @@ func InternalValue() DataAwsccKendraDataSourceDataSourceConfigurationSalesforceC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationStandardKnowledgeArticleTypeConfigurationFieldMappingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationStandardKnowledgeArticleTypeConfigurationFieldMappingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationStandardKnowledgeArticleTypeConfigurationFieldMappingsList
 ```
@@ -16434,7 +16434,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationStandardKnowledgeArticleTypeConfigurationFieldMappingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationStandardKnowledgeArticleTypeConfigurationFieldMappingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationStandardKnowledgeArticleTypeConfigurationFieldMappingsOutputReference
 ```
@@ -16734,7 +16734,7 @@ func InternalValue() DataAwsccKendraDataSourceDataSourceConfigurationSalesforceC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationStandardKnowledgeArticleTypeConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationStandardKnowledgeArticleTypeConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationStandardKnowledgeArticleTypeConfigurationOutputReference
 ```
@@ -17016,7 +17016,7 @@ func InternalValue() DataAwsccKendraDataSourceDataSourceConfigurationSalesforceC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationOutputReference
 ```
@@ -17364,7 +17364,7 @@ func InternalValue() DataAwsccKendraDataSourceDataSourceConfigurationSalesforceC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectAttachmentConfigurationFieldMappingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectAttachmentConfigurationFieldMappingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectAttachmentConfigurationFieldMappingsList
 ```
@@ -17513,7 +17513,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectAttachmentConfigurationFieldMappingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectAttachmentConfigurationFieldMappingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectAttachmentConfigurationFieldMappingsOutputReference
 ```
@@ -17813,7 +17813,7 @@ func InternalValue() DataAwsccKendraDataSourceDataSourceConfigurationSalesforceC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectAttachmentConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectAttachmentConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectAttachmentConfigurationOutputReference
 ```
@@ -18084,7 +18084,7 @@ func InternalValue() DataAwsccKendraDataSourceDataSourceConfigurationSalesforceC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectConfigurationsFieldMappingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectConfigurationsFieldMappingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectConfigurationsFieldMappingsList
 ```
@@ -18233,7 +18233,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectConfigurationsFieldMappingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectConfigurationsFieldMappingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectConfigurationsFieldMappingsOutputReference
 ```
@@ -18533,7 +18533,7 @@ func InternalValue() DataAwsccKendraDataSourceDataSourceConfigurationSalesforceC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectConfigurationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectConfigurationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectConfigurationsList
 ```
@@ -18682,7 +18682,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectConfigurationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectConfigurationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccKendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectConfigurationsOutputReference
 ```
@@ -18993,7 +18993,7 @@ func InternalValue() DataAwsccKendraDataSourceDataSourceConfigurationSalesforceC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationServiceNowConfigurationKnowledgeArticleConfigurationFieldMappingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationServiceNowConfigurationKnowledgeArticleConfigurationFieldMappingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccKendraDataSourceDataSourceConfigurationServiceNowConfigurationKnowledgeArticleConfigurationFieldMappingsList
 ```
@@ -19142,7 +19142,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationServiceNowConfigurationKnowledgeArticleConfigurationFieldMappingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationServiceNowConfigurationKnowledgeArticleConfigurationFieldMappingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccKendraDataSourceDataSourceConfigurationServiceNowConfigurationKnowledgeArticleConfigurationFieldMappingsOutputReference
 ```
@@ -19442,7 +19442,7 @@ func InternalValue() DataAwsccKendraDataSourceDataSourceConfigurationServiceNowC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationServiceNowConfigurationKnowledgeArticleConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationServiceNowConfigurationKnowledgeArticleConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKendraDataSourceDataSourceConfigurationServiceNowConfigurationKnowledgeArticleConfigurationOutputReference
 ```
@@ -19768,7 +19768,7 @@ func InternalValue() DataAwsccKendraDataSourceDataSourceConfigurationServiceNowC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationServiceNowConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationServiceNowConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKendraDataSourceDataSourceConfigurationServiceNowConfigurationOutputReference
 ```
@@ -20083,7 +20083,7 @@ func InternalValue() DataAwsccKendraDataSourceDataSourceConfigurationServiceNowC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationServiceNowConfigurationServiceCatalogConfigurationFieldMappingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationServiceNowConfigurationServiceCatalogConfigurationFieldMappingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccKendraDataSourceDataSourceConfigurationServiceNowConfigurationServiceCatalogConfigurationFieldMappingsList
 ```
@@ -20232,7 +20232,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationServiceNowConfigurationServiceCatalogConfigurationFieldMappingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationServiceNowConfigurationServiceCatalogConfigurationFieldMappingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccKendraDataSourceDataSourceConfigurationServiceNowConfigurationServiceCatalogConfigurationFieldMappingsOutputReference
 ```
@@ -20532,7 +20532,7 @@ func InternalValue() DataAwsccKendraDataSourceDataSourceConfigurationServiceNowC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationServiceNowConfigurationServiceCatalogConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationServiceNowConfigurationServiceCatalogConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKendraDataSourceDataSourceConfigurationServiceNowConfigurationServiceCatalogConfigurationOutputReference
 ```
@@ -20847,7 +20847,7 @@ func InternalValue() DataAwsccKendraDataSourceDataSourceConfigurationServiceNowC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationSharePointConfigurationFieldMappingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationSharePointConfigurationFieldMappingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccKendraDataSourceDataSourceConfigurationSharePointConfigurationFieldMappingsList
 ```
@@ -20996,7 +20996,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationSharePointConfigurationFieldMappingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationSharePointConfigurationFieldMappingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccKendraDataSourceDataSourceConfigurationSharePointConfigurationFieldMappingsOutputReference
 ```
@@ -21296,7 +21296,7 @@ func InternalValue() DataAwsccKendraDataSourceDataSourceConfigurationSharePointC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationSharePointConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationSharePointConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKendraDataSourceDataSourceConfigurationSharePointConfigurationOutputReference
 ```
@@ -21677,7 +21677,7 @@ func InternalValue() DataAwsccKendraDataSourceDataSourceConfigurationSharePointC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationSharePointConfigurationSslCertificateS3PathOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationSharePointConfigurationSslCertificateS3PathOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKendraDataSourceDataSourceConfigurationSharePointConfigurationSslCertificateS3PathOutputReference
 ```
@@ -21948,7 +21948,7 @@ func InternalValue() DataAwsccKendraDataSourceDataSourceConfigurationSharePointC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationSharePointConfigurationVpcConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationSharePointConfigurationVpcConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKendraDataSourceDataSourceConfigurationSharePointConfigurationVpcConfigurationOutputReference
 ```
@@ -22219,7 +22219,7 @@ func InternalValue() DataAwsccKendraDataSourceDataSourceConfigurationSharePointC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationTemplateConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationTemplateConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKendraDataSourceDataSourceConfigurationTemplateConfigurationOutputReference
 ```
@@ -22479,7 +22479,7 @@ func InternalValue() DataAwsccKendraDataSourceDataSourceConfigurationTemplateCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationWebCrawlerConfigurationAuthenticationConfigurationBasicAuthenticationList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationWebCrawlerConfigurationAuthenticationConfigurationBasicAuthenticationList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccKendraDataSourceDataSourceConfigurationWebCrawlerConfigurationAuthenticationConfigurationBasicAuthenticationList
 ```
@@ -22628,7 +22628,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationWebCrawlerConfigurationAuthenticationConfigurationBasicAuthenticationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationWebCrawlerConfigurationAuthenticationConfigurationBasicAuthenticationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccKendraDataSourceDataSourceConfigurationWebCrawlerConfigurationAuthenticationConfigurationBasicAuthenticationOutputReference
 ```
@@ -22928,7 +22928,7 @@ func InternalValue() DataAwsccKendraDataSourceDataSourceConfigurationWebCrawlerC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationWebCrawlerConfigurationAuthenticationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationWebCrawlerConfigurationAuthenticationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKendraDataSourceDataSourceConfigurationWebCrawlerConfigurationAuthenticationConfigurationOutputReference
 ```
@@ -23188,7 +23188,7 @@ func InternalValue() DataAwsccKendraDataSourceDataSourceConfigurationWebCrawlerC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationWebCrawlerConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationWebCrawlerConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKendraDataSourceDataSourceConfigurationWebCrawlerConfigurationOutputReference
 ```
@@ -23536,7 +23536,7 @@ func InternalValue() DataAwsccKendraDataSourceDataSourceConfigurationWebCrawlerC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationWebCrawlerConfigurationProxyConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationWebCrawlerConfigurationProxyConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKendraDataSourceDataSourceConfigurationWebCrawlerConfigurationProxyConfigurationOutputReference
 ```
@@ -23818,7 +23818,7 @@ func InternalValue() DataAwsccKendraDataSourceDataSourceConfigurationWebCrawlerC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationWebCrawlerConfigurationUrlsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationWebCrawlerConfigurationUrlsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKendraDataSourceDataSourceConfigurationWebCrawlerConfigurationUrlsOutputReference
 ```
@@ -24089,7 +24089,7 @@ func InternalValue() DataAwsccKendraDataSourceDataSourceConfigurationWebCrawlerC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationWebCrawlerConfigurationUrlsSeedUrlConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationWebCrawlerConfigurationUrlsSeedUrlConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKendraDataSourceDataSourceConfigurationWebCrawlerConfigurationUrlsSeedUrlConfigurationOutputReference
 ```
@@ -24360,7 +24360,7 @@ func InternalValue() DataAwsccKendraDataSourceDataSourceConfigurationWebCrawlerC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationWebCrawlerConfigurationUrlsSiteMapsConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationWebCrawlerConfigurationUrlsSiteMapsConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKendraDataSourceDataSourceConfigurationWebCrawlerConfigurationUrlsSiteMapsConfigurationOutputReference
 ```
@@ -24620,7 +24620,7 @@ func InternalValue() DataAwsccKendraDataSourceDataSourceConfigurationWebCrawlerC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationWorkDocsConfigurationFieldMappingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationWorkDocsConfigurationFieldMappingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccKendraDataSourceDataSourceConfigurationWorkDocsConfigurationFieldMappingsList
 ```
@@ -24769,7 +24769,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationWorkDocsConfigurationFieldMappingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationWorkDocsConfigurationFieldMappingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccKendraDataSourceDataSourceConfigurationWorkDocsConfigurationFieldMappingsOutputReference
 ```
@@ -25069,7 +25069,7 @@ func InternalValue() DataAwsccKendraDataSourceDataSourceConfigurationWorkDocsCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceDataSourceConfigurationWorkDocsConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceDataSourceConfigurationWorkDocsConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccKendraDataSourceDataSourceConfigurationWorkDocsConfigurationOutputReference
 ```
@@ -25384,7 +25384,7 @@ func InternalValue() DataAwsccKendraDataSourceDataSourceConfigurationWorkDocsCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccKendraDataSourceTagsList
 ```
@@ -25533,7 +25533,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKendraDataSource.DataAwsccKendraDataSourceTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendradatasource"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendradatasource"
 
 dataawscckendradatasource.NewDataAwsccKendraDataSourceTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccKendraDataSourceTagsOutputReference
 ```

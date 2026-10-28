@@ -4,12 +4,12 @@
 
 ### ForecastDataset <a name="ForecastDataset" id="@cdktn/provider-awscc.forecastDataset.ForecastDataset"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/forecast_dataset awscc_forecast_dataset}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/forecast_dataset awscc_forecast_dataset}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.forecastDataset.ForecastDataset.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/forecastdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/forecastdataset"
 
 forecastdataset.NewForecastDataset(scope Construct, id *string, config ForecastDatasetConfig) ForecastDataset
 ```
@@ -460,7 +460,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.forecastDataset.ForecastDataset.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/forecastdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/forecastdataset"
 
 forecastdataset.ForecastDataset_IsConstruct(x interface{}) *bool
 ```
@@ -492,7 +492,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.forecastDataset.ForecastDataset.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/forecastdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/forecastdataset"
 
 forecastdataset.ForecastDataset_IsTerraformElement(x interface{}) *bool
 ```
@@ -506,7 +506,7 @@ forecastdataset.ForecastDataset_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.forecastDataset.ForecastDataset.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/forecastdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/forecastdataset"
 
 forecastdataset.ForecastDataset_IsTerraformResource(x interface{}) *bool
 ```
@@ -520,7 +520,7 @@ forecastdataset.ForecastDataset_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.forecastDataset.ForecastDataset.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/forecastdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/forecastdataset"
 
 forecastdataset.ForecastDataset_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -549,7 +549,7 @@ The construct id used in the generated config for the ForecastDataset to import.
 
 The id of the existing ForecastDataset that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/forecast_dataset#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/forecast_dataset#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -925,7 +925,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.forecastDataset.ForecastDatasetConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/forecastdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/forecastdataset"
 
 &forecastdataset.ForecastDatasetConfig {
 	Connection: interface{},
@@ -938,9 +938,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/forecastdataset"
 	DatasetName: *string,
 	DatasetType: *string,
 	Domain: *string,
-	Schema: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.forecastDataset.ForecastDatasetSchema,
+	Schema: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.forecastDataset.ForecastDatasetSchema,
 	DataFrequency: *string,
-	EncryptionConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.forecastDataset.ForecastDatasetEncryptionConfig,
+	EncryptionConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.forecastDataset.ForecastDatasetEncryptionConfig,
 	Tags: interface{},
 }
 ```
@@ -959,10 +959,10 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/forecastdataset"
 | <code><a href="#@cdktn/provider-awscc.forecastDataset.ForecastDatasetConfig.property.datasetName">DatasetName</a></code> | <code>*string</code> | A name for the dataset. |
 | <code><a href="#@cdktn/provider-awscc.forecastDataset.ForecastDatasetConfig.property.datasetType">DatasetType</a></code> | <code>*string</code> | The dataset type. |
 | <code><a href="#@cdktn/provider-awscc.forecastDataset.ForecastDatasetConfig.property.domain">Domain</a></code> | <code>*string</code> | The domain associated with the dataset. |
-| <code><a href="#@cdktn/provider-awscc.forecastDataset.ForecastDatasetConfig.property.schema">Schema</a></code> | <code><a href="#@cdktn/provider-awscc.forecastDataset.ForecastDatasetSchema">ForecastDatasetSchema</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/forecast_dataset#schema ForecastDataset#schema}. |
+| <code><a href="#@cdktn/provider-awscc.forecastDataset.ForecastDatasetConfig.property.schema">Schema</a></code> | <code><a href="#@cdktn/provider-awscc.forecastDataset.ForecastDatasetSchema">ForecastDatasetSchema</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/forecast_dataset#schema ForecastDataset#schema}. |
 | <code><a href="#@cdktn/provider-awscc.forecastDataset.ForecastDatasetConfig.property.dataFrequency">DataFrequency</a></code> | <code>*string</code> | Frequency of data collection. This parameter is required for RELATED_TIME_SERIES. |
-| <code><a href="#@cdktn/provider-awscc.forecastDataset.ForecastDatasetConfig.property.encryptionConfig">EncryptionConfig</a></code> | <code><a href="#@cdktn/provider-awscc.forecastDataset.ForecastDatasetEncryptionConfig">ForecastDatasetEncryptionConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/forecast_dataset#encryption_config ForecastDataset#encryption_config}. |
-| <code><a href="#@cdktn/provider-awscc.forecastDataset.ForecastDatasetConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/forecast_dataset#tags ForecastDataset#tags}. |
+| <code><a href="#@cdktn/provider-awscc.forecastDataset.ForecastDatasetConfig.property.encryptionConfig">EncryptionConfig</a></code> | <code><a href="#@cdktn/provider-awscc.forecastDataset.ForecastDatasetEncryptionConfig">ForecastDatasetEncryptionConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/forecast_dataset#encryption_config ForecastDataset#encryption_config}. |
+| <code><a href="#@cdktn/provider-awscc.forecastDataset.ForecastDatasetConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/forecast_dataset#tags ForecastDataset#tags}. |
 
 ---
 
@@ -1046,7 +1046,7 @@ DatasetName *string
 
 A name for the dataset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/forecast_dataset#dataset_name ForecastDataset#dataset_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/forecast_dataset#dataset_name ForecastDataset#dataset_name}
 
 ---
 
@@ -1060,7 +1060,7 @@ DatasetType *string
 
 The dataset type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/forecast_dataset#dataset_type ForecastDataset#dataset_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/forecast_dataset#dataset_type ForecastDataset#dataset_type}
 
 ---
 
@@ -1074,7 +1074,7 @@ Domain *string
 
 The domain associated with the dataset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/forecast_dataset#domain ForecastDataset#domain}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/forecast_dataset#domain ForecastDataset#domain}
 
 ---
 
@@ -1086,7 +1086,7 @@ Schema ForecastDatasetSchema
 
 - *Type:* <a href="#@cdktn/provider-awscc.forecastDataset.ForecastDatasetSchema">ForecastDatasetSchema</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/forecast_dataset#schema ForecastDataset#schema}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/forecast_dataset#schema ForecastDataset#schema}.
 
 ---
 
@@ -1100,7 +1100,7 @@ DataFrequency *string
 
 Frequency of data collection. This parameter is required for RELATED_TIME_SERIES.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/forecast_dataset#data_frequency ForecastDataset#data_frequency}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/forecast_dataset#data_frequency ForecastDataset#data_frequency}
 
 ---
 
@@ -1112,7 +1112,7 @@ EncryptionConfig ForecastDatasetEncryptionConfig
 
 - *Type:* <a href="#@cdktn/provider-awscc.forecastDataset.ForecastDatasetEncryptionConfig">ForecastDatasetEncryptionConfig</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/forecast_dataset#encryption_config ForecastDataset#encryption_config}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/forecast_dataset#encryption_config ForecastDataset#encryption_config}.
 
 ---
 
@@ -1124,7 +1124,7 @@ Tags interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/forecast_dataset#tags ForecastDataset#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/forecast_dataset#tags ForecastDataset#tags}.
 
 ---
 
@@ -1133,7 +1133,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.forecastDataset.ForecastDatasetEncryptionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/forecastdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/forecastdataset"
 
 &forecastdataset.ForecastDatasetEncryptionConfig {
 	KmsKeyArn: *string,
@@ -1160,7 +1160,7 @@ KmsKeyArn *string
 
 KMS key used to encrypt the Dataset data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/forecast_dataset#kms_key_arn ForecastDataset#kms_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/forecast_dataset#kms_key_arn ForecastDataset#kms_key_arn}
 
 ---
 
@@ -1174,7 +1174,7 @@ RoleArn *string
 
 The ARN of the IAM role that Amazon Forecast can assume to access the AWS KMS key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/forecast_dataset#role_arn ForecastDataset#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/forecast_dataset#role_arn ForecastDataset#role_arn}
 
 ---
 
@@ -1183,7 +1183,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.forecastDataset.ForecastDatasetSchema.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/forecastdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/forecastdataset"
 
 &forecastdataset.ForecastDatasetSchema {
 	Attributes: interface{},
@@ -1194,7 +1194,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/forecastdataset"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.forecastDataset.ForecastDatasetSchema.property.attributes">Attributes</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/forecast_dataset#attributes ForecastDataset#attributes}. |
+| <code><a href="#@cdktn/provider-awscc.forecastDataset.ForecastDatasetSchema.property.attributes">Attributes</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/forecast_dataset#attributes ForecastDataset#attributes}. |
 
 ---
 
@@ -1206,7 +1206,7 @@ Attributes interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/forecast_dataset#attributes ForecastDataset#attributes}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/forecast_dataset#attributes ForecastDataset#attributes}.
 
 ---
 
@@ -1215,7 +1215,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.forecastDataset.ForecastDatasetSchemaAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/forecastdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/forecastdataset"
 
 &forecastdataset.ForecastDatasetSchemaAttributes {
 	AttributeName: *string,
@@ -1242,7 +1242,7 @@ AttributeName *string
 
 Name of the dataset field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/forecast_dataset#attribute_name ForecastDataset#attribute_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/forecast_dataset#attribute_name ForecastDataset#attribute_name}
 
 ---
 
@@ -1256,7 +1256,7 @@ AttributeType *string
 
 Data type of the field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/forecast_dataset#attribute_type ForecastDataset#attribute_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/forecast_dataset#attribute_type ForecastDataset#attribute_type}
 
 ---
 
@@ -1265,7 +1265,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.forecastDataset.ForecastDatasetTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/forecastdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/forecastdataset"
 
 &forecastdataset.ForecastDatasetTags {
 	Key: *string,
@@ -1294,7 +1294,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/forecast_dataset#key ForecastDataset#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/forecast_dataset#key ForecastDataset#key}
 
 ---
 
@@ -1310,7 +1310,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/forecast_dataset#value ForecastDataset#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/forecast_dataset#value ForecastDataset#value}
 
 ---
 
@@ -1321,7 +1321,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.forecastDataset.ForecastDatasetEncryptionConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/forecastdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/forecastdataset"
 
 forecastdataset.NewForecastDatasetEncryptionConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ForecastDatasetEncryptionConfigOutputReference
 ```
@@ -1628,7 +1628,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.forecastDataset.ForecastDatasetSchemaAttributesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/forecastdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/forecastdataset"
 
 forecastdataset.NewForecastDatasetSchemaAttributesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ForecastDatasetSchemaAttributesList
 ```
@@ -1788,7 +1788,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.forecastDataset.ForecastDatasetSchemaAttributesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/forecastdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/forecastdataset"
 
 forecastdataset.NewForecastDatasetSchemaAttributesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ForecastDatasetSchemaAttributesOutputReference
 ```
@@ -2113,7 +2113,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.forecastDataset.ForecastDatasetSchemaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/forecastdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/forecastdataset"
 
 forecastdataset.NewForecastDatasetSchemaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ForecastDatasetSchemaOutputReference
 ```
@@ -2404,7 +2404,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.forecastDataset.ForecastDatasetTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/forecastdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/forecastdataset"
 
 forecastdataset.NewForecastDatasetTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ForecastDatasetTagsList
 ```
@@ -2564,7 +2564,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.forecastDataset.ForecastDatasetTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/forecastdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/forecastdataset"
 
 forecastdataset.NewForecastDatasetTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ForecastDatasetTagsOutputReference
 ```

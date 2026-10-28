@@ -4,12 +4,12 @@
 
 ### ServicecatalogappregistryResourceAssociation <a name="ServicecatalogappregistryResourceAssociation" id="@cdktn/provider-awscc.servicecatalogappregistryResourceAssociation.ServicecatalogappregistryResourceAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicecatalogappregistry_resource_association awscc_servicecatalogappregistry_resource_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicecatalogappregistry_resource_association awscc_servicecatalogappregistry_resource_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.servicecatalogappregistryResourceAssociation.ServicecatalogappregistryResourceAssociation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/servicecatalogappregistryresourceassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/servicecatalogappregistryresourceassociation"
 
 servicecatalogappregistryresourceassociation.NewServicecatalogappregistryResourceAssociation(scope Construct, id *string, config ServicecatalogappregistryResourceAssociationConfig) ServicecatalogappregistryResourceAssociation
 ```
@@ -400,7 +400,7 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.servicecatalogappregistryResourceAssociation.ServicecatalogappregistryResourceAssociation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/servicecatalogappregistryresourceassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/servicecatalogappregistryresourceassociation"
 
 servicecatalogappregistryresourceassociation.ServicecatalogappregistryResourceAssociation_IsConstruct(x interface{}) *bool
 ```
@@ -432,7 +432,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.servicecatalogappregistryResourceAssociation.ServicecatalogappregistryResourceAssociation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/servicecatalogappregistryresourceassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/servicecatalogappregistryresourceassociation"
 
 servicecatalogappregistryresourceassociation.ServicecatalogappregistryResourceAssociation_IsTerraformElement(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ servicecatalogappregistryresourceassociation.ServicecatalogappregistryResourceAs
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.servicecatalogappregistryResourceAssociation.ServicecatalogappregistryResourceAssociation.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/servicecatalogappregistryresourceassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/servicecatalogappregistryresourceassociation"
 
 servicecatalogappregistryresourceassociation.ServicecatalogappregistryResourceAssociation_IsTerraformResource(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ servicecatalogappregistryresourceassociation.ServicecatalogappregistryResourceAs
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.servicecatalogappregistryResourceAssociation.ServicecatalogappregistryResourceAssociation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/servicecatalogappregistryresourceassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/servicecatalogappregistryresourceassociation"
 
 servicecatalogappregistryresourceassociation.ServicecatalogappregistryResourceAssociation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -489,7 +489,7 @@ The construct id used in the generated config for the ServicecatalogappregistryR
 
 The id of the existing ServicecatalogappregistryResourceAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicecatalogappregistry_resource_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicecatalogappregistry_resource_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -788,7 +788,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.servicecatalogappregistryResourceAssociation.ServicecatalogappregistryResourceAssociationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/servicecatalogappregistryresourceassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/servicecatalogappregistryresourceassociation"
 
 &servicecatalogappregistryresourceassociation.ServicecatalogappregistryResourceAssociationConfig {
 	Connection: interface{},
@@ -901,7 +901,7 @@ Application *string
 
 The name or the Id of the Application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicecatalogappregistry_resource_association#application ServicecatalogappregistryResourceAssociation#application}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicecatalogappregistry_resource_association#application ServicecatalogappregistryResourceAssociation#application}
 
 ---
 
@@ -915,7 +915,7 @@ Resource *string
 
 The name or the Id of the Resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicecatalogappregistry_resource_association#resource ServicecatalogappregistryResourceAssociation#resource}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicecatalogappregistry_resource_association#resource ServicecatalogappregistryResourceAssociation#resource}
 
 ---
 
@@ -929,7 +929,7 @@ ResourceType *string
 
 The type of the CFN Resource for now it's enum CFN_STACK.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicecatalogappregistry_resource_association#resource_type ServicecatalogappregistryResourceAssociation#resource_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicecatalogappregistry_resource_association#resource_type ServicecatalogappregistryResourceAssociation#resource_type}
 
 ---
 

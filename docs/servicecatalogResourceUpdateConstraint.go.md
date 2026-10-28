@@ -4,12 +4,12 @@
 
 ### ServicecatalogResourceUpdateConstraint <a name="ServicecatalogResourceUpdateConstraint" id="@cdktn/provider-awscc.servicecatalogResourceUpdateConstraint.ServicecatalogResourceUpdateConstraint"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicecatalog_resource_update_constraint awscc_servicecatalog_resource_update_constraint}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicecatalog_resource_update_constraint awscc_servicecatalog_resource_update_constraint}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.servicecatalogResourceUpdateConstraint.ServicecatalogResourceUpdateConstraint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/servicecatalogresourceupdateconstraint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/servicecatalogresourceupdateconstraint"
 
 servicecatalogresourceupdateconstraint.NewServicecatalogResourceUpdateConstraint(scope Construct, id *string, config ServicecatalogResourceUpdateConstraintConfig) ServicecatalogResourceUpdateConstraint
 ```
@@ -414,7 +414,7 @@ func ResetDescription()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.servicecatalogResourceUpdateConstraint.ServicecatalogResourceUpdateConstraint.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/servicecatalogresourceupdateconstraint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/servicecatalogresourceupdateconstraint"
 
 servicecatalogresourceupdateconstraint.ServicecatalogResourceUpdateConstraint_IsConstruct(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.servicecatalogResourceUpdateConstraint.ServicecatalogResourceUpdateConstraint.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/servicecatalogresourceupdateconstraint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/servicecatalogresourceupdateconstraint"
 
 servicecatalogresourceupdateconstraint.ServicecatalogResourceUpdateConstraint_IsTerraformElement(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ servicecatalogresourceupdateconstraint.ServicecatalogResourceUpdateConstraint_Is
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.servicecatalogResourceUpdateConstraint.ServicecatalogResourceUpdateConstraint.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/servicecatalogresourceupdateconstraint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/servicecatalogresourceupdateconstraint"
 
 servicecatalogresourceupdateconstraint.ServicecatalogResourceUpdateConstraint_IsTerraformResource(x interface{}) *bool
 ```
@@ -474,7 +474,7 @@ servicecatalogresourceupdateconstraint.ServicecatalogResourceUpdateConstraint_Is
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.servicecatalogResourceUpdateConstraint.ServicecatalogResourceUpdateConstraint.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/servicecatalogresourceupdateconstraint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/servicecatalogresourceupdateconstraint"
 
 servicecatalogresourceupdateconstraint.ServicecatalogResourceUpdateConstraint_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -503,7 +503,7 @@ The construct id used in the generated config for the ServicecatalogResourceUpda
 
 The id of the existing ServicecatalogResourceUpdateConstraint that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicecatalog_resource_update_constraint#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicecatalog_resource_update_constraint#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -835,7 +835,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.servicecatalogResourceUpdateConstraint.ServicecatalogResourceUpdateConstraintConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/servicecatalogresourceupdateconstraint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/servicecatalogresourceupdateconstraint"
 
 &servicecatalogresourceupdateconstraint.ServicecatalogResourceUpdateConstraintConfig {
 	Connection: interface{},
@@ -952,7 +952,7 @@ PortfolioId *string
 
 The portfolio identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicecatalog_resource_update_constraint#portfolio_id ServicecatalogResourceUpdateConstraint#portfolio_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicecatalog_resource_update_constraint#portfolio_id ServicecatalogResourceUpdateConstraint#portfolio_id}
 
 ---
 
@@ -966,7 +966,7 @@ ProductId *string
 
 The product identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicecatalog_resource_update_constraint#product_id ServicecatalogResourceUpdateConstraint#product_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicecatalog_resource_update_constraint#product_id ServicecatalogResourceUpdateConstraint#product_id}
 
 ---
 
@@ -980,7 +980,7 @@ TagUpdateOnProvisionedProduct *string
 
 ALLOWED or NOT_ALLOWED, to permit or prevent changes to the tags on provisioned instances of the specified portfolio / product combination.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicecatalog_resource_update_constraint#tag_update_on_provisioned_product ServicecatalogResourceUpdateConstraint#tag_update_on_provisioned_product}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicecatalog_resource_update_constraint#tag_update_on_provisioned_product ServicecatalogResourceUpdateConstraint#tag_update_on_provisioned_product}
 
 ---
 
@@ -994,7 +994,7 @@ AcceptLanguage *string
 
 The language code.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicecatalog_resource_update_constraint#accept_language ServicecatalogResourceUpdateConstraint#accept_language}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicecatalog_resource_update_constraint#accept_language ServicecatalogResourceUpdateConstraint#accept_language}
 
 ---
 
@@ -1008,7 +1008,7 @@ Description *string
 
 The description of the constraint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicecatalog_resource_update_constraint#description ServicecatalogResourceUpdateConstraint#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicecatalog_resource_update_constraint#description ServicecatalogResourceUpdateConstraint#description}
 
 ---
 

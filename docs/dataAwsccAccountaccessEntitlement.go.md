@@ -4,12 +4,12 @@
 
 ### DataAwsccAccountaccessEntitlement <a name="DataAwsccAccountaccessEntitlement" id="@cdktn/provider-awscc.dataAwsccAccountaccessEntitlement.DataAwsccAccountaccessEntitlement"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/accountaccess_entitlement awscc_accountaccess_entitlement}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/accountaccess_entitlement awscc_accountaccess_entitlement}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAccountaccessEntitlement.DataAwsccAccountaccessEntitlement.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccountaccessentitlement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaccountaccessentitlement"
 
 dataawsccaccountaccessentitlement.NewDataAwsccAccountaccessEntitlement(scope Construct, id *string, config DataAwsccAccountaccessEntitlementConfig) DataAwsccAccountaccessEntitlement
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccAccountaccessEntitlement.DataAwsccAccountaccessEntitlement.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccountaccessentitlement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaccountaccessentitlement"
 
 dataawsccaccountaccessentitlement.DataAwsccAccountaccessEntitlement_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccAccountaccessEntitlement.DataAwsccAccountaccessEntitlement.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccountaccessentitlement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaccountaccessentitlement"
 
 dataawsccaccountaccessentitlement.DataAwsccAccountaccessEntitlement_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccaccountaccessentitlement.DataAwsccAccountaccessEntitlement_IsTerraformE
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccAccountaccessEntitlement.DataAwsccAccountaccessEntitlement.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccountaccessentitlement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaccountaccessentitlement"
 
 dataawsccaccountaccessentitlement.DataAwsccAccountaccessEntitlement_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccaccountaccessentitlement.DataAwsccAccountaccessEntitlement_IsTerraformD
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccAccountaccessEntitlement.DataAwsccAccountaccessEntitlement.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccountaccessentitlement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaccountaccessentitlement"
 
 dataawsccaccountaccessentitlement.DataAwsccAccountaccessEntitlement_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccAccountaccessEnti
 
 The id of the existing DataAwsccAccountaccessEntitlement that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/accountaccess_entitlement#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/accountaccess_entitlement#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -631,7 +631,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAccountaccessEntitlement.DataAwsccAccountaccessEntitlementConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccountaccessentitlement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaccountaccessentitlement"
 
 &dataawsccaccountaccessentitlement.DataAwsccAccountaccessEntitlementConfig {
 	Connection: interface{},
@@ -740,7 +740,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/accountaccess_entitlement#id DataAwsccAccountaccessEntitlement#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/accountaccess_entitlement#id DataAwsccAccountaccessEntitlement#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -752,7 +752,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAccountaccessEntitlement.DataAwsccAccountaccessEntitlementEntitlement.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccountaccessentitlement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaccountaccessentitlement"
 
 &dataawsccaccountaccessentitlement.DataAwsccAccountaccessEntitlementEntitlement {
 
@@ -765,7 +765,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccountaccess
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAccountaccessEntitlement.DataAwsccAccountaccessEntitlementEntitlementPrincipalRole.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccountaccessentitlement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaccountaccessentitlement"
 
 &dataawsccaccountaccessentitlement.DataAwsccAccountaccessEntitlementEntitlementPrincipalRole {
 
@@ -778,7 +778,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccountaccess
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAccountaccessEntitlement.DataAwsccAccountaccessEntitlementEntitlementPrincipalRolePrincipal.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccountaccessentitlement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaccountaccessentitlement"
 
 &dataawsccaccountaccessentitlement.DataAwsccAccountaccessEntitlementEntitlementPrincipalRolePrincipal {
 
@@ -791,7 +791,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccountaccess
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAccountaccessEntitlement.DataAwsccAccountaccessEntitlementEntitlementPrincipalRolePrincipalIdentityCenter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccountaccessentitlement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaccountaccessentitlement"
 
 &dataawsccaccountaccessentitlement.DataAwsccAccountaccessEntitlementEntitlementPrincipalRolePrincipalIdentityCenter {
 
@@ -806,7 +806,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccountaccess
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAccountaccessEntitlement.DataAwsccAccountaccessEntitlementEntitlementOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccountaccessentitlement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaccountaccessentitlement"
 
 dataawsccaccountaccessentitlement.NewDataAwsccAccountaccessEntitlementEntitlementOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAccountaccessEntitlementEntitlementOutputReference
 ```
@@ -1066,7 +1066,7 @@ func InternalValue() DataAwsccAccountaccessEntitlementEntitlement
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAccountaccessEntitlement.DataAwsccAccountaccessEntitlementEntitlementPrincipalRoleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccountaccessentitlement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaccountaccessentitlement"
 
 dataawsccaccountaccessentitlement.NewDataAwsccAccountaccessEntitlementEntitlementPrincipalRoleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAccountaccessEntitlementEntitlementPrincipalRoleOutputReference
 ```
@@ -1348,7 +1348,7 @@ func InternalValue() DataAwsccAccountaccessEntitlementEntitlementPrincipalRole
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAccountaccessEntitlement.DataAwsccAccountaccessEntitlementEntitlementPrincipalRolePrincipalIdentityCenterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccountaccessentitlement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaccountaccessentitlement"
 
 dataawsccaccountaccessentitlement.NewDataAwsccAccountaccessEntitlementEntitlementPrincipalRolePrincipalIdentityCenterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAccountaccessEntitlementEntitlementPrincipalRolePrincipalIdentityCenterOutputReference
 ```
@@ -1619,7 +1619,7 @@ func InternalValue() DataAwsccAccountaccessEntitlementEntitlementPrincipalRolePr
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAccountaccessEntitlement.DataAwsccAccountaccessEntitlementEntitlementPrincipalRolePrincipalOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccountaccessentitlement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaccountaccessentitlement"
 
 dataawsccaccountaccessentitlement.NewDataAwsccAccountaccessEntitlementEntitlementPrincipalRolePrincipalOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAccountaccessEntitlementEntitlementPrincipalRolePrincipalOutputReference
 ```

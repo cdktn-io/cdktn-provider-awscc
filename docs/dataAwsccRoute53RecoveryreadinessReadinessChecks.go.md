@@ -4,12 +4,12 @@
 
 ### DataAwsccRoute53RecoveryreadinessReadinessChecks <a name="DataAwsccRoute53RecoveryreadinessReadinessChecks" id="@cdktn/provider-awscc.dataAwsccRoute53RecoveryreadinessReadinessChecks.DataAwsccRoute53RecoveryreadinessReadinessChecks"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53recoveryreadiness_readiness_checks awscc_route53recoveryreadiness_readiness_checks}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53recoveryreadiness_readiness_checks awscc_route53recoveryreadiness_readiness_checks}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53RecoveryreadinessReadinessChecks.DataAwsccRoute53RecoveryreadinessReadinessChecks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recoveryreadinessreadinesschecks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53recoveryreadinessreadinesschecks"
 
 dataawsccroute53recoveryreadinessreadinesschecks.NewDataAwsccRoute53RecoveryreadinessReadinessChecks(scope Construct, id *string, config DataAwsccRoute53RecoveryreadinessReadinessChecksConfig) DataAwsccRoute53RecoveryreadinessReadinessChecks
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccRoute53RecoveryreadinessReadinessChecks.DataAwsccRoute53RecoveryreadinessReadinessChecks.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recoveryreadinessreadinesschecks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53recoveryreadinessreadinesschecks"
 
 dataawsccroute53recoveryreadinessreadinesschecks.DataAwsccRoute53RecoveryreadinessReadinessChecks_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccRoute53RecoveryreadinessReadinessChecks.DataAwsccRoute53RecoveryreadinessReadinessChecks.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recoveryreadinessreadinesschecks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53recoveryreadinessreadinesschecks"
 
 dataawsccroute53recoveryreadinessreadinesschecks.DataAwsccRoute53RecoveryreadinessReadinessChecks_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccroute53recoveryreadinessreadinesschecks.DataAwsccRoute53Recoveryreadine
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccRoute53RecoveryreadinessReadinessChecks.DataAwsccRoute53RecoveryreadinessReadinessChecks.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recoveryreadinessreadinesschecks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53recoveryreadinessreadinesschecks"
 
 dataawsccroute53recoveryreadinessreadinesschecks.DataAwsccRoute53RecoveryreadinessReadinessChecks_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccroute53recoveryreadinessreadinesschecks.DataAwsccRoute53Recoveryreadine
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccRoute53RecoveryreadinessReadinessChecks.DataAwsccRoute53RecoveryreadinessReadinessChecks.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recoveryreadinessreadinesschecks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53recoveryreadinessreadinesschecks"
 
 dataawsccroute53recoveryreadinessreadinesschecks.DataAwsccRoute53RecoveryreadinessReadinessChecks_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRoute53Recoveryre
 
 The id of the existing DataAwsccRoute53RecoveryreadinessReadinessChecks that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53recoveryreadiness_readiness_checks#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53recoveryreadiness_readiness_checks#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRoute53RecoveryreadinessReadinessChecks.DataAwsccRoute53RecoveryreadinessReadinessChecksConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recoveryreadinessreadinesschecks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53recoveryreadinessreadinesschecks"
 
 &dataawsccroute53recoveryreadinessreadinesschecks.DataAwsccRoute53RecoveryreadinessReadinessChecksConfig {
 	Connection: interface{},

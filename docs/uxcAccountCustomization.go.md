@@ -4,12 +4,12 @@
 
 ### UxcAccountCustomization <a name="UxcAccountCustomization" id="@cdktn/provider-awscc.uxcAccountCustomization.UxcAccountCustomization"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/uxc_account_customization awscc_uxc_account_customization}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/uxc_account_customization awscc_uxc_account_customization}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.uxcAccountCustomization.UxcAccountCustomization.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/uxcaccountcustomization"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/uxcaccountcustomization"
 
 uxcaccountcustomization.NewUxcAccountCustomization(scope Construct, id *string, config UxcAccountCustomizationConfig) UxcAccountCustomization
 ```
@@ -421,7 +421,7 @@ func ResetVisibleServices()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.uxcAccountCustomization.UxcAccountCustomization.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/uxcaccountcustomization"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/uxcaccountcustomization"
 
 uxcaccountcustomization.UxcAccountCustomization_IsConstruct(x interface{}) *bool
 ```
@@ -453,7 +453,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.uxcAccountCustomization.UxcAccountCustomization.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/uxcaccountcustomization"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/uxcaccountcustomization"
 
 uxcaccountcustomization.UxcAccountCustomization_IsTerraformElement(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ uxcaccountcustomization.UxcAccountCustomization_IsTerraformElement(x interface{}
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.uxcAccountCustomization.UxcAccountCustomization.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/uxcaccountcustomization"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/uxcaccountcustomization"
 
 uxcaccountcustomization.UxcAccountCustomization_IsTerraformResource(x interface{}) *bool
 ```
@@ -481,7 +481,7 @@ uxcaccountcustomization.UxcAccountCustomization_IsTerraformResource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.uxcAccountCustomization.UxcAccountCustomization.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/uxcaccountcustomization"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/uxcaccountcustomization"
 
 uxcaccountcustomization.UxcAccountCustomization_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -510,7 +510,7 @@ The construct id used in the generated config for the UxcAccountCustomization to
 
 The id of the existing UxcAccountCustomization that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/uxc_account_customization#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/uxc_account_customization#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -798,7 +798,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.uxcAccountCustomization.UxcAccountCustomizationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/uxcaccountcustomization"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/uxcaccountcustomization"
 
 &uxcaccountcustomization.UxcAccountCustomizationConfig {
 	Connection: interface{},
@@ -911,7 +911,7 @@ AccountColor *string
 
 The color theme assigned to the account for visual identification in the AWS Console.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/uxc_account_customization#account_color UxcAccountCustomization#account_color}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/uxc_account_customization#account_color UxcAccountCustomization#account_color}
 
 ---
 
@@ -925,7 +925,7 @@ VisibleRegions *[]*string
 
 A list of AWS region identifiers visible to the account in the AWS Console.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/uxc_account_customization#visible_regions UxcAccountCustomization#visible_regions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/uxc_account_customization#visible_regions UxcAccountCustomization#visible_regions}
 
 ---
 
@@ -939,7 +939,7 @@ VisibleServices *[]*string
 
 A list of AWS service identifiers visible to the account in the AWS Console.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/uxc_account_customization#visible_services UxcAccountCustomization#visible_services}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/uxc_account_customization#visible_services UxcAccountCustomization#visible_services}
 
 ---
 

@@ -4,12 +4,12 @@
 
 ### WorkspacesConnectionAlias <a name="WorkspacesConnectionAlias" id="@cdktn/provider-awscc.workspacesConnectionAlias.WorkspacesConnectionAlias"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_connection_alias awscc_workspaces_connection_alias}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_connection_alias awscc_workspaces_connection_alias}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.workspacesConnectionAlias.WorkspacesConnectionAlias.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesconnectionalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesconnectionalias"
 
 workspacesconnectionalias.NewWorkspacesConnectionAlias(scope Construct, id *string, config WorkspacesConnectionAliasConfig) WorkspacesConnectionAlias
 ```
@@ -420,7 +420,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.workspacesConnectionAlias.WorkspacesConnectionAlias.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesconnectionalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesconnectionalias"
 
 workspacesconnectionalias.WorkspacesConnectionAlias_IsConstruct(x interface{}) *bool
 ```
@@ -452,7 +452,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.workspacesConnectionAlias.WorkspacesConnectionAlias.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesconnectionalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesconnectionalias"
 
 workspacesconnectionalias.WorkspacesConnectionAlias_IsTerraformElement(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ workspacesconnectionalias.WorkspacesConnectionAlias_IsTerraformElement(x interfa
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.workspacesConnectionAlias.WorkspacesConnectionAlias.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesconnectionalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesconnectionalias"
 
 workspacesconnectionalias.WorkspacesConnectionAlias_IsTerraformResource(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ workspacesconnectionalias.WorkspacesConnectionAlias_IsTerraformResource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.workspacesConnectionAlias.WorkspacesConnectionAlias.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesconnectionalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesconnectionalias"
 
 workspacesconnectionalias.WorkspacesConnectionAlias_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -509,7 +509,7 @@ The construct id used in the generated config for the WorkspacesConnectionAlias 
 
 The id of the existing WorkspacesConnectionAlias that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_connection_alias#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_connection_alias#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -797,7 +797,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.workspacesConnectionAlias.WorkspacesConnectionAliasAssociations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesconnectionalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesconnectionalias"
 
 &workspacesconnectionalias.WorkspacesConnectionAliasAssociations {
 
@@ -810,7 +810,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesconnectional
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.workspacesConnectionAlias.WorkspacesConnectionAliasConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesconnectionalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesconnectionalias"
 
 &workspacesconnectionalias.WorkspacesConnectionAliasConfig {
 	Connection: interface{},
@@ -836,8 +836,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesconnectional
 | <code><a href="#@cdktn/provider-awscc.workspacesConnectionAlias.WorkspacesConnectionAliasConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.workspacesConnectionAlias.WorkspacesConnectionAliasConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.workspacesConnectionAlias.WorkspacesConnectionAliasConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.workspacesConnectionAlias.WorkspacesConnectionAliasConfig.property.connectionString">ConnectionString</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_connection_alias#connection_string WorkspacesConnectionAlias#connection_string}. |
-| <code><a href="#@cdktn/provider-awscc.workspacesConnectionAlias.WorkspacesConnectionAliasConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_connection_alias#tags WorkspacesConnectionAlias#tags}. |
+| <code><a href="#@cdktn/provider-awscc.workspacesConnectionAlias.WorkspacesConnectionAliasConfig.property.connectionString">ConnectionString</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_connection_alias#connection_string WorkspacesConnectionAlias#connection_string}. |
+| <code><a href="#@cdktn/provider-awscc.workspacesConnectionAlias.WorkspacesConnectionAliasConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_connection_alias#tags WorkspacesConnectionAlias#tags}. |
 
 ---
 
@@ -919,7 +919,7 @@ ConnectionString *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_connection_alias#connection_string WorkspacesConnectionAlias#connection_string}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_connection_alias#connection_string WorkspacesConnectionAlias#connection_string}.
 
 ---
 
@@ -931,7 +931,7 @@ Tags interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_connection_alias#tags WorkspacesConnectionAlias#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_connection_alias#tags WorkspacesConnectionAlias#tags}.
 
 ---
 
@@ -940,7 +940,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.workspacesConnectionAlias.WorkspacesConnectionAliasTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesconnectionalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesconnectionalias"
 
 &workspacesconnectionalias.WorkspacesConnectionAliasTags {
 	Key: *string,
@@ -952,8 +952,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesconnectional
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.workspacesConnectionAlias.WorkspacesConnectionAliasTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_connection_alias#key WorkspacesConnectionAlias#key}. |
-| <code><a href="#@cdktn/provider-awscc.workspacesConnectionAlias.WorkspacesConnectionAliasTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_connection_alias#value WorkspacesConnectionAlias#value}. |
+| <code><a href="#@cdktn/provider-awscc.workspacesConnectionAlias.WorkspacesConnectionAliasTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_connection_alias#key WorkspacesConnectionAlias#key}. |
+| <code><a href="#@cdktn/provider-awscc.workspacesConnectionAlias.WorkspacesConnectionAliasTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_connection_alias#value WorkspacesConnectionAlias#value}. |
 
 ---
 
@@ -965,7 +965,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_connection_alias#key WorkspacesConnectionAlias#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_connection_alias#key WorkspacesConnectionAlias#key}.
 
 ---
 
@@ -977,7 +977,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_connection_alias#value WorkspacesConnectionAlias#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_connection_alias#value WorkspacesConnectionAlias#value}.
 
 ---
 
@@ -988,7 +988,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.workspacesConnectionAlias.WorkspacesConnectionAliasAssociationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesconnectionalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesconnectionalias"
 
 workspacesconnectionalias.NewWorkspacesConnectionAliasAssociationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) WorkspacesConnectionAliasAssociationsList
 ```
@@ -1137,7 +1137,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.workspacesConnectionAlias.WorkspacesConnectionAliasAssociationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesconnectionalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesconnectionalias"
 
 workspacesconnectionalias.NewWorkspacesConnectionAliasAssociationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) WorkspacesConnectionAliasAssociationsOutputReference
 ```
@@ -1448,7 +1448,7 @@ func InternalValue() WorkspacesConnectionAliasAssociations
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.workspacesConnectionAlias.WorkspacesConnectionAliasTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesconnectionalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesconnectionalias"
 
 workspacesconnectionalias.NewWorkspacesConnectionAliasTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) WorkspacesConnectionAliasTagsList
 ```
@@ -1608,7 +1608,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.workspacesConnectionAlias.WorkspacesConnectionAliasTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesconnectionalias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesconnectionalias"
 
 workspacesconnectionalias.NewWorkspacesConnectionAliasTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) WorkspacesConnectionAliasTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccBedrockagentcoreGatewayRateLimit <a name="DataAwsccBedrockagentcoreGatewayRateLimit" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreGatewayRateLimit.DataAwsccBedrockagentcoreGatewayRateLimit"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockagentcore_gateway_rate_limit awscc_bedrockagentcore_gateway_rate_limit}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockagentcore_gateway_rate_limit awscc_bedrockagentcore_gateway_rate_limit}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreGatewayRateLimit.DataAwsccBedrockagentcoreGatewayRateLimit.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoregatewayratelimit"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoregatewayratelimit"
 
 dataawsccbedrockagentcoregatewayratelimit.NewDataAwsccBedrockagentcoreGatewayRateLimit(scope Construct, id *string, config DataAwsccBedrockagentcoreGatewayRateLimitConfig) DataAwsccBedrockagentcoreGatewayRateLimit
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreGatewayRateLimit.DataAwsccBedrockagentcoreGatewayRateLimit.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoregatewayratelimit"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoregatewayratelimit"
 
 dataawsccbedrockagentcoregatewayratelimit.DataAwsccBedrockagentcoreGatewayRateLimit_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreGatewayRateLimit.DataAwsccBedrockagentcoreGatewayRateLimit.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoregatewayratelimit"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoregatewayratelimit"
 
 dataawsccbedrockagentcoregatewayratelimit.DataAwsccBedrockagentcoreGatewayRateLimit_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccbedrockagentcoregatewayratelimit.DataAwsccBedrockagentcoreGatewayRateLi
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreGatewayRateLimit.DataAwsccBedrockagentcoreGatewayRateLimit.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoregatewayratelimit"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoregatewayratelimit"
 
 dataawsccbedrockagentcoregatewayratelimit.DataAwsccBedrockagentcoreGatewayRateLimit_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccbedrockagentcoregatewayratelimit.DataAwsccBedrockagentcoreGatewayRateLi
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreGatewayRateLimit.DataAwsccBedrockagentcoreGatewayRateLimit.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoregatewayratelimit"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoregatewayratelimit"
 
 dataawsccbedrockagentcoregatewayratelimit.DataAwsccBedrockagentcoreGatewayRateLimit_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccBedrockagentcoreG
 
 The id of the existing DataAwsccBedrockagentcoreGatewayRateLimit that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockagentcore_gateway_rate_limit#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockagentcore_gateway_rate_limit#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -675,7 +675,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreGatewayRateLimit.DataAwsccBedrockagentcoreGatewayRateLimitConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoregatewayratelimit"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoregatewayratelimit"
 
 &dataawsccbedrockagentcoregatewayratelimit.DataAwsccBedrockagentcoreGatewayRateLimitConfig {
 	Connection: interface{},
@@ -784,7 +784,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockagentcore_gateway_rate_limit#id DataAwsccBedrockagentcoreGatewayRateLimit#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockagentcore_gateway_rate_limit#id DataAwsccBedrockagentcoreGatewayRateLimit#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -796,7 +796,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreGatewayRateLimit.DataAwsccBedrockagentcoreGatewayRateLimitEntries.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoregatewayratelimit"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoregatewayratelimit"
 
 &dataawsccbedrockagentcoregatewayratelimit.DataAwsccBedrockagentcoreGatewayRateLimitEntries {
 
@@ -809,7 +809,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreGatewayRateLimit.DataAwsccBedrockagentcoreGatewayRateLimitEntriesConnections.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoregatewayratelimit"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoregatewayratelimit"
 
 &dataawsccbedrockagentcoregatewayratelimit.DataAwsccBedrockagentcoreGatewayRateLimitEntriesConnections {
 
@@ -822,7 +822,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreGatewayRateLimit.DataAwsccBedrockagentcoreGatewayRateLimitEntriesRequests.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoregatewayratelimit"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoregatewayratelimit"
 
 &dataawsccbedrockagentcoregatewayratelimit.DataAwsccBedrockagentcoreGatewayRateLimitEntriesRequests {
 
@@ -835,7 +835,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreGatewayRateLimit.DataAwsccBedrockagentcoreGatewayRateLimitEntriesTokens.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoregatewayratelimit"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoregatewayratelimit"
 
 &dataawsccbedrockagentcoregatewayratelimit.DataAwsccBedrockagentcoreGatewayRateLimitEntriesTokens {
 
@@ -850,7 +850,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreGatewayRateLimit.DataAwsccBedrockagentcoreGatewayRateLimitEntriesConnectionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoregatewayratelimit"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoregatewayratelimit"
 
 dataawsccbedrockagentcoregatewayratelimit.NewDataAwsccBedrockagentcoreGatewayRateLimitEntriesConnectionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBedrockagentcoreGatewayRateLimitEntriesConnectionsList
 ```
@@ -999,7 +999,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreGatewayRateLimit.DataAwsccBedrockagentcoreGatewayRateLimitEntriesConnectionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoregatewayratelimit"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoregatewayratelimit"
 
 dataawsccbedrockagentcoregatewayratelimit.NewDataAwsccBedrockagentcoreGatewayRateLimitEntriesConnectionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBedrockagentcoreGatewayRateLimitEntriesConnectionsOutputReference
 ```
@@ -1288,7 +1288,7 @@ func InternalValue() DataAwsccBedrockagentcoreGatewayRateLimitEntriesConnections
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreGatewayRateLimit.DataAwsccBedrockagentcoreGatewayRateLimitEntriesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoregatewayratelimit"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoregatewayratelimit"
 
 dataawsccbedrockagentcoregatewayratelimit.NewDataAwsccBedrockagentcoreGatewayRateLimitEntriesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBedrockagentcoreGatewayRateLimitEntriesList
 ```
@@ -1437,7 +1437,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreGatewayRateLimit.DataAwsccBedrockagentcoreGatewayRateLimitEntriesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoregatewayratelimit"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoregatewayratelimit"
 
 dataawsccbedrockagentcoregatewayratelimit.NewDataAwsccBedrockagentcoreGatewayRateLimitEntriesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBedrockagentcoreGatewayRateLimitEntriesOutputReference
 ```
@@ -1748,7 +1748,7 @@ func InternalValue() DataAwsccBedrockagentcoreGatewayRateLimitEntries
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreGatewayRateLimit.DataAwsccBedrockagentcoreGatewayRateLimitEntriesRequestsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoregatewayratelimit"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoregatewayratelimit"
 
 dataawsccbedrockagentcoregatewayratelimit.NewDataAwsccBedrockagentcoreGatewayRateLimitEntriesRequestsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBedrockagentcoreGatewayRateLimitEntriesRequestsList
 ```
@@ -1897,7 +1897,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreGatewayRateLimit.DataAwsccBedrockagentcoreGatewayRateLimitEntriesRequestsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoregatewayratelimit"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoregatewayratelimit"
 
 dataawsccbedrockagentcoregatewayratelimit.NewDataAwsccBedrockagentcoreGatewayRateLimitEntriesRequestsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBedrockagentcoreGatewayRateLimitEntriesRequestsOutputReference
 ```
@@ -2186,7 +2186,7 @@ func InternalValue() DataAwsccBedrockagentcoreGatewayRateLimitEntriesRequests
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreGatewayRateLimit.DataAwsccBedrockagentcoreGatewayRateLimitEntriesTokensList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoregatewayratelimit"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoregatewayratelimit"
 
 dataawsccbedrockagentcoregatewayratelimit.NewDataAwsccBedrockagentcoreGatewayRateLimitEntriesTokensList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBedrockagentcoreGatewayRateLimitEntriesTokensList
 ```
@@ -2335,7 +2335,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreGatewayRateLimit.DataAwsccBedrockagentcoreGatewayRateLimitEntriesTokensOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoregatewayratelimit"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoregatewayratelimit"
 
 dataawsccbedrockagentcoregatewayratelimit.NewDataAwsccBedrockagentcoreGatewayRateLimitEntriesTokensOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBedrockagentcoreGatewayRateLimitEntriesTokensOutputReference
 ```

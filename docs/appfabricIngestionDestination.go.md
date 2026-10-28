@@ -4,12 +4,12 @@
 
 ### AppfabricIngestionDestination <a name="AppfabricIngestionDestination" id="@cdktn/provider-awscc.appfabricIngestionDestination.AppfabricIngestionDestination"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appfabric_ingestion_destination awscc_appfabric_ingestion_destination}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appfabric_ingestion_destination awscc_appfabric_ingestion_destination}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appfabricIngestionDestination.AppfabricIngestionDestination.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appfabricingestiondestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appfabricingestiondestination"
 
 appfabricingestiondestination.NewAppfabricIngestionDestination(scope Construct, id *string, config AppfabricIngestionDestinationConfig) AppfabricIngestionDestination
 ```
@@ -446,7 +446,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.appfabricIngestionDestination.AppfabricIngestionDestination.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appfabricingestiondestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appfabricingestiondestination"
 
 appfabricingestiondestination.AppfabricIngestionDestination_IsConstruct(x interface{}) *bool
 ```
@@ -478,7 +478,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.appfabricIngestionDestination.AppfabricIngestionDestination.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appfabricingestiondestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appfabricingestiondestination"
 
 appfabricingestiondestination.AppfabricIngestionDestination_IsTerraformElement(x interface{}) *bool
 ```
@@ -492,7 +492,7 @@ appfabricingestiondestination.AppfabricIngestionDestination_IsTerraformElement(x
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.appfabricIngestionDestination.AppfabricIngestionDestination.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appfabricingestiondestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appfabricingestiondestination"
 
 appfabricingestiondestination.AppfabricIngestionDestination_IsTerraformResource(x interface{}) *bool
 ```
@@ -506,7 +506,7 @@ appfabricingestiondestination.AppfabricIngestionDestination_IsTerraformResource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.appfabricIngestionDestination.AppfabricIngestionDestination.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appfabricingestiondestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appfabricingestiondestination"
 
 appfabricingestiondestination.AppfabricIngestionDestination_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -535,7 +535,7 @@ The construct id used in the generated config for the AppfabricIngestionDestinat
 
 The id of the existing AppfabricIngestionDestination that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appfabric_ingestion_destination#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appfabric_ingestion_destination#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -900,7 +900,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.appfabricIngestionDestination.AppfabricIngestionDestinationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appfabricingestiondestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appfabricingestiondestination"
 
 &appfabricingestiondestination.AppfabricIngestionDestinationConfig {
 	Connection: interface{},
@@ -911,9 +911,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appfabricingestiondest
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	AppBundleArn: *string,
-	DestinationConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.appfabricIngestionDestination.AppfabricIngestionDestinationDestinationConfiguration,
+	DestinationConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.appfabricIngestionDestination.AppfabricIngestionDestinationDestinationConfiguration,
 	IngestionArn: *string,
-	ProcessingConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.appfabricIngestionDestination.AppfabricIngestionDestinationProcessingConfiguration,
+	ProcessingConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.appfabricIngestionDestination.AppfabricIngestionDestinationProcessingConfiguration,
 	Tags: interface{},
 }
 ```
@@ -1017,7 +1017,7 @@ AppBundleArn *string
 
 The Amazon Resource Name (ARN) of the app bundle.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appfabric_ingestion_destination#app_bundle_arn AppfabricIngestionDestination#app_bundle_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appfabric_ingestion_destination#app_bundle_arn AppfabricIngestionDestination#app_bundle_arn}
 
 ---
 
@@ -1031,7 +1031,7 @@ DestinationConfiguration AppfabricIngestionDestinationDestinationConfiguration
 
 Contains information about the destination of ingested data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appfabric_ingestion_destination#destination_configuration AppfabricIngestionDestination#destination_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appfabric_ingestion_destination#destination_configuration AppfabricIngestionDestination#destination_configuration}
 
 ---
 
@@ -1045,7 +1045,7 @@ IngestionArn *string
 
 The Amazon Resource Name (ARN) of the ingestion.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appfabric_ingestion_destination#ingestion_arn AppfabricIngestionDestination#ingestion_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appfabric_ingestion_destination#ingestion_arn AppfabricIngestionDestination#ingestion_arn}
 
 ---
 
@@ -1059,7 +1059,7 @@ ProcessingConfiguration AppfabricIngestionDestinationProcessingConfiguration
 
 Contains information about how ingested data is processed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appfabric_ingestion_destination#processing_configuration AppfabricIngestionDestination#processing_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appfabric_ingestion_destination#processing_configuration AppfabricIngestionDestination#processing_configuration}
 
 ---
 
@@ -1073,7 +1073,7 @@ Tags interface{}
 
 A map of the key-value pairs of the tag or tags to assign to the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appfabric_ingestion_destination#tags AppfabricIngestionDestination#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appfabric_ingestion_destination#tags AppfabricIngestionDestination#tags}
 
 ---
 
@@ -1082,10 +1082,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.appfabricIngestionDestination.AppfabricIngestionDestinationDestinationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appfabricingestiondestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appfabricingestiondestination"
 
 &appfabricingestiondestination.AppfabricIngestionDestinationDestinationConfiguration {
-	AuditLog: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.appfabricIngestionDestination.AppfabricIngestionDestinationDestinationConfigurationAuditLog,
+	AuditLog: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.appfabricIngestionDestination.AppfabricIngestionDestinationDestinationConfigurationAuditLog,
 }
 ```
 
@@ -1107,7 +1107,7 @@ AuditLog AppfabricIngestionDestinationDestinationConfigurationAuditLog
 
 Contains information about an audit log destination configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appfabric_ingestion_destination#audit_log AppfabricIngestionDestination#audit_log}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appfabric_ingestion_destination#audit_log AppfabricIngestionDestination#audit_log}
 
 ---
 
@@ -1116,10 +1116,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.appfabricIngestionDestination.AppfabricIngestionDestinationDestinationConfigurationAuditLog.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appfabricingestiondestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appfabricingestiondestination"
 
 &appfabricingestiondestination.AppfabricIngestionDestinationDestinationConfigurationAuditLog {
-	Destination: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.appfabricIngestionDestination.AppfabricIngestionDestinationDestinationConfigurationAuditLogDestination,
+	Destination: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.appfabricIngestionDestination.AppfabricIngestionDestinationDestinationConfigurationAuditLogDestination,
 }
 ```
 
@@ -1141,7 +1141,7 @@ Destination AppfabricIngestionDestinationDestinationConfigurationAuditLogDestina
 
 Contains information about an audit log destination.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appfabric_ingestion_destination#destination AppfabricIngestionDestination#destination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appfabric_ingestion_destination#destination AppfabricIngestionDestination#destination}
 
 ---
 
@@ -1150,11 +1150,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.appfabricIngestionDestination.AppfabricIngestionDestinationDestinationConfigurationAuditLogDestination.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appfabricingestiondestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appfabricingestiondestination"
 
 &appfabricingestiondestination.AppfabricIngestionDestinationDestinationConfigurationAuditLogDestination {
-	FirehoseStream: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.appfabricIngestionDestination.AppfabricIngestionDestinationDestinationConfigurationAuditLogDestinationFirehoseStream,
-	S3Bucket: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.appfabricIngestionDestination.AppfabricIngestionDestinationDestinationConfigurationAuditLogDestinationS3Bucket,
+	FirehoseStream: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.appfabricIngestionDestination.AppfabricIngestionDestinationDestinationConfigurationAuditLogDestinationFirehoseStream,
+	S3Bucket: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.appfabricIngestionDestination.AppfabricIngestionDestinationDestinationConfigurationAuditLogDestinationS3Bucket,
 }
 ```
 
@@ -1177,7 +1177,7 @@ FirehoseStream AppfabricIngestionDestinationDestinationConfigurationAuditLogDest
 
 Contains information about an Amazon Kinesis Data Firehose delivery stream.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appfabric_ingestion_destination#firehose_stream AppfabricIngestionDestination#firehose_stream}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appfabric_ingestion_destination#firehose_stream AppfabricIngestionDestination#firehose_stream}
 
 ---
 
@@ -1191,7 +1191,7 @@ S3Bucket AppfabricIngestionDestinationDestinationConfigurationAuditLogDestinatio
 
 Contains information about an Amazon S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appfabric_ingestion_destination#s3_bucket AppfabricIngestionDestination#s3_bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appfabric_ingestion_destination#s3_bucket AppfabricIngestionDestination#s3_bucket}
 
 ---
 
@@ -1200,7 +1200,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.appfabricIngestionDestination.AppfabricIngestionDestinationDestinationConfigurationAuditLogDestinationFirehoseStream.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appfabricingestiondestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appfabricingestiondestination"
 
 &appfabricingestiondestination.AppfabricIngestionDestinationDestinationConfigurationAuditLogDestinationFirehoseStream {
 	StreamName: *string,
@@ -1225,7 +1225,7 @@ StreamName *string
 
 The name of the Amazon Kinesis Data Firehose delivery stream.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appfabric_ingestion_destination#stream_name AppfabricIngestionDestination#stream_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appfabric_ingestion_destination#stream_name AppfabricIngestionDestination#stream_name}
 
 ---
 
@@ -1234,7 +1234,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.appfabricIngestionDestination.AppfabricIngestionDestinationDestinationConfigurationAuditLogDestinationS3Bucket.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appfabricingestiondestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appfabricingestiondestination"
 
 &appfabricingestiondestination.AppfabricIngestionDestinationDestinationConfigurationAuditLogDestinationS3Bucket {
 	BucketName: *string,
@@ -1261,7 +1261,7 @@ BucketName *string
 
 The name of the Amazon S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appfabric_ingestion_destination#bucket_name AppfabricIngestionDestination#bucket_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appfabric_ingestion_destination#bucket_name AppfabricIngestionDestination#bucket_name}
 
 ---
 
@@ -1275,7 +1275,7 @@ Prefix *string
 
 The object key to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appfabric_ingestion_destination#prefix AppfabricIngestionDestination#prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appfabric_ingestion_destination#prefix AppfabricIngestionDestination#prefix}
 
 ---
 
@@ -1284,10 +1284,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.appfabricIngestionDestination.AppfabricIngestionDestinationProcessingConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appfabricingestiondestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appfabricingestiondestination"
 
 &appfabricingestiondestination.AppfabricIngestionDestinationProcessingConfiguration {
-	AuditLog: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.appfabricIngestionDestination.AppfabricIngestionDestinationProcessingConfigurationAuditLog,
+	AuditLog: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.appfabricIngestionDestination.AppfabricIngestionDestinationProcessingConfigurationAuditLog,
 }
 ```
 
@@ -1309,7 +1309,7 @@ AuditLog AppfabricIngestionDestinationProcessingConfigurationAuditLog
 
 Contains information about an audit log processing configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appfabric_ingestion_destination#audit_log AppfabricIngestionDestination#audit_log}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appfabric_ingestion_destination#audit_log AppfabricIngestionDestination#audit_log}
 
 ---
 
@@ -1318,7 +1318,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.appfabricIngestionDestination.AppfabricIngestionDestinationProcessingConfigurationAuditLog.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appfabricingestiondestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appfabricingestiondestination"
 
 &appfabricingestiondestination.AppfabricIngestionDestinationProcessingConfigurationAuditLog {
 	Format: *string,
@@ -1345,7 +1345,7 @@ Format *string
 
 The format in which the audit logs need to be formatted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appfabric_ingestion_destination#format AppfabricIngestionDestination#format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appfabric_ingestion_destination#format AppfabricIngestionDestination#format}
 
 ---
 
@@ -1359,7 +1359,7 @@ Schema *string
 
 The event schema in which the audit logs need to be formatted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appfabric_ingestion_destination#schema AppfabricIngestionDestination#schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appfabric_ingestion_destination#schema AppfabricIngestionDestination#schema}
 
 ---
 
@@ -1368,7 +1368,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.appfabricIngestionDestination.AppfabricIngestionDestinationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appfabricingestiondestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appfabricingestiondestination"
 
 &appfabricingestiondestination.AppfabricIngestionDestinationTags {
 	Key: *string,
@@ -1395,7 +1395,7 @@ Key *string
 
 Tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appfabric_ingestion_destination#key AppfabricIngestionDestination#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appfabric_ingestion_destination#key AppfabricIngestionDestination#key}
 
 ---
 
@@ -1409,7 +1409,7 @@ Value *string
 
 Tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appfabric_ingestion_destination#value AppfabricIngestionDestination#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appfabric_ingestion_destination#value AppfabricIngestionDestination#value}
 
 ---
 
@@ -1420,7 +1420,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appfabricIngestionDestination.AppfabricIngestionDestinationDestinationConfigurationAuditLogDestinationFirehoseStreamOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appfabricingestiondestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appfabricingestiondestination"
 
 appfabricingestiondestination.NewAppfabricIngestionDestinationDestinationConfigurationAuditLogDestinationFirehoseStreamOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) AppfabricIngestionDestinationDestinationConfigurationAuditLogDestinationFirehoseStreamOutputReference
 ```
@@ -1698,7 +1698,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appfabricIngestionDestination.AppfabricIngestionDestinationDestinationConfigurationAuditLogDestinationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appfabricingestiondestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appfabricingestiondestination"
 
 appfabricingestiondestination.NewAppfabricIngestionDestinationDestinationConfigurationAuditLogDestinationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) AppfabricIngestionDestinationDestinationConfigurationAuditLogDestinationOutputReference
 ```
@@ -2031,7 +2031,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appfabricIngestionDestination.AppfabricIngestionDestinationDestinationConfigurationAuditLogDestinationS3BucketOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appfabricingestiondestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appfabricingestiondestination"
 
 appfabricingestiondestination.NewAppfabricIngestionDestinationDestinationConfigurationAuditLogDestinationS3BucketOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) AppfabricIngestionDestinationDestinationConfigurationAuditLogDestinationS3BucketOutputReference
 ```
@@ -2338,7 +2338,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appfabricIngestionDestination.AppfabricIngestionDestinationDestinationConfigurationAuditLogOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appfabricingestiondestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appfabricingestiondestination"
 
 appfabricingestiondestination.NewAppfabricIngestionDestinationDestinationConfigurationAuditLogOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) AppfabricIngestionDestinationDestinationConfigurationAuditLogOutputReference
 ```
@@ -2622,7 +2622,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appfabricIngestionDestination.AppfabricIngestionDestinationDestinationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appfabricingestiondestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appfabricingestiondestination"
 
 appfabricingestiondestination.NewAppfabricIngestionDestinationDestinationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) AppfabricIngestionDestinationDestinationConfigurationOutputReference
 ```
@@ -2906,7 +2906,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appfabricIngestionDestination.AppfabricIngestionDestinationProcessingConfigurationAuditLogOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appfabricingestiondestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appfabricingestiondestination"
 
 appfabricingestiondestination.NewAppfabricIngestionDestinationProcessingConfigurationAuditLogOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) AppfabricIngestionDestinationProcessingConfigurationAuditLogOutputReference
 ```
@@ -3199,7 +3199,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appfabricIngestionDestination.AppfabricIngestionDestinationProcessingConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appfabricingestiondestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appfabricingestiondestination"
 
 appfabricingestiondestination.NewAppfabricIngestionDestinationProcessingConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) AppfabricIngestionDestinationProcessingConfigurationOutputReference
 ```
@@ -3483,7 +3483,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appfabricIngestionDestination.AppfabricIngestionDestinationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appfabricingestiondestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appfabricingestiondestination"
 
 appfabricingestiondestination.NewAppfabricIngestionDestinationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) AppfabricIngestionDestinationTagsList
 ```
@@ -3643,7 +3643,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appfabricIngestionDestination.AppfabricIngestionDestinationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appfabricingestiondestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appfabricingestiondestination"
 
 appfabricingestiondestination.NewAppfabricIngestionDestinationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) AppfabricIngestionDestinationTagsOutputReference
 ```

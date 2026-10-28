@@ -4,12 +4,12 @@
 
 ### DataAwsccWorkspacesConnectionAliases <a name="DataAwsccWorkspacesConnectionAliases" id="@cdktn/provider-awscc.dataAwsccWorkspacesConnectionAliases.DataAwsccWorkspacesConnectionAliases"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspaces_connection_aliases awscc_workspaces_connection_aliases}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspaces_connection_aliases awscc_workspaces_connection_aliases}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspacesConnectionAliases.DataAwsccWorkspacesConnectionAliases.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesconnectionaliases"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesconnectionaliases"
 
 dataawsccworkspacesconnectionaliases.NewDataAwsccWorkspacesConnectionAliases(scope Construct, id *string, config DataAwsccWorkspacesConnectionAliasesConfig) DataAwsccWorkspacesConnectionAliases
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccWorkspacesConnectionAliases.DataAwsccWorkspacesConnectionAliases.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesconnectionaliases"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesconnectionaliases"
 
 dataawsccworkspacesconnectionaliases.DataAwsccWorkspacesConnectionAliases_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccWorkspacesConnectionAliases.DataAwsccWorkspacesConnectionAliases.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesconnectionaliases"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesconnectionaliases"
 
 dataawsccworkspacesconnectionaliases.DataAwsccWorkspacesConnectionAliases_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccworkspacesconnectionaliases.DataAwsccWorkspacesConnectionAliases_IsTerr
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccWorkspacesConnectionAliases.DataAwsccWorkspacesConnectionAliases.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesconnectionaliases"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesconnectionaliases"
 
 dataawsccworkspacesconnectionaliases.DataAwsccWorkspacesConnectionAliases_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccworkspacesconnectionaliases.DataAwsccWorkspacesConnectionAliases_IsTerr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccWorkspacesConnectionAliases.DataAwsccWorkspacesConnectionAliases.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesconnectionaliases"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesconnectionaliases"
 
 dataawsccworkspacesconnectionaliases.DataAwsccWorkspacesConnectionAliases_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccWorkspacesConnect
 
 The id of the existing DataAwsccWorkspacesConnectionAliases that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspaces_connection_aliases#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspaces_connection_aliases#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspacesConnectionAliases.DataAwsccWorkspacesConnectionAliasesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesconnectionaliases"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesconnectionaliases"
 
 &dataawsccworkspacesconnectionaliases.DataAwsccWorkspacesConnectionAliasesConfig {
 	Connection: interface{},

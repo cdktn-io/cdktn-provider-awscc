@@ -4,12 +4,12 @@
 
 ### DataAwsccBedrockagentcoreConfigurationBundle <a name="DataAwsccBedrockagentcoreConfigurationBundle" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreConfigurationBundle.DataAwsccBedrockagentcoreConfigurationBundle"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockagentcore_configuration_bundle awscc_bedrockagentcore_configuration_bundle}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockagentcore_configuration_bundle awscc_bedrockagentcore_configuration_bundle}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreConfigurationBundle.DataAwsccBedrockagentcoreConfigurationBundle.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoreconfigurationbundle"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoreconfigurationbundle"
 
 dataawsccbedrockagentcoreconfigurationbundle.NewDataAwsccBedrockagentcoreConfigurationBundle(scope Construct, id *string, config DataAwsccBedrockagentcoreConfigurationBundleConfig) DataAwsccBedrockagentcoreConfigurationBundle
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreConfigurationBundle.DataAwsccBedrockagentcoreConfigurationBundle.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoreconfigurationbundle"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoreconfigurationbundle"
 
 dataawsccbedrockagentcoreconfigurationbundle.DataAwsccBedrockagentcoreConfigurationBundle_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreConfigurationBundle.DataAwsccBedrockagentcoreConfigurationBundle.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoreconfigurationbundle"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoreconfigurationbundle"
 
 dataawsccbedrockagentcoreconfigurationbundle.DataAwsccBedrockagentcoreConfigurationBundle_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccbedrockagentcoreconfigurationbundle.DataAwsccBedrockagentcoreConfigurat
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreConfigurationBundle.DataAwsccBedrockagentcoreConfigurationBundle.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoreconfigurationbundle"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoreconfigurationbundle"
 
 dataawsccbedrockagentcoreconfigurationbundle.DataAwsccBedrockagentcoreConfigurationBundle_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccbedrockagentcoreconfigurationbundle.DataAwsccBedrockagentcoreConfigurat
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreConfigurationBundle.DataAwsccBedrockagentcoreConfigurationBundle.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoreconfigurationbundle"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoreconfigurationbundle"
 
 dataawsccbedrockagentcoreconfigurationbundle.DataAwsccBedrockagentcoreConfigurationBundle_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccBedrockagentcoreC
 
 The id of the existing DataAwsccBedrockagentcoreConfigurationBundle that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockagentcore_configuration_bundle#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockagentcore_configuration_bundle#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -741,7 +741,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreConfigurationBundle.DataAwsccBedrockagentcoreConfigurationBundleComponents.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoreconfigurationbundle"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoreconfigurationbundle"
 
 &dataawsccbedrockagentcoreconfigurationbundle.DataAwsccBedrockagentcoreConfigurationBundleComponents {
 
@@ -754,7 +754,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreConfigurationBundle.DataAwsccBedrockagentcoreConfigurationBundleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoreconfigurationbundle"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoreconfigurationbundle"
 
 &dataawsccbedrockagentcoreconfigurationbundle.DataAwsccBedrockagentcoreConfigurationBundleConfig {
 	Connection: interface{},
@@ -863,7 +863,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockagentcore_configuration_bundle#id DataAwsccBedrockagentcoreConfigurationBundle#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockagentcore_configuration_bundle#id DataAwsccBedrockagentcoreConfigurationBundle#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -875,7 +875,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreConfigurationBundle.DataAwsccBedrockagentcoreConfigurationBundleCreatedBy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoreconfigurationbundle"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoreconfigurationbundle"
 
 &dataawsccbedrockagentcoreconfigurationbundle.DataAwsccBedrockagentcoreConfigurationBundleCreatedBy {
 
@@ -888,7 +888,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreConfigurationBundle.DataAwsccBedrockagentcoreConfigurationBundleLineageMetadata.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoreconfigurationbundle"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoreconfigurationbundle"
 
 &dataawsccbedrockagentcoreconfigurationbundle.DataAwsccBedrockagentcoreConfigurationBundleLineageMetadata {
 
@@ -901,7 +901,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreConfigurationBundle.DataAwsccBedrockagentcoreConfigurationBundleLineageMetadataCreatedBy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoreconfigurationbundle"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoreconfigurationbundle"
 
 &dataawsccbedrockagentcoreconfigurationbundle.DataAwsccBedrockagentcoreConfigurationBundleLineageMetadataCreatedBy {
 
@@ -914,7 +914,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreConfigurationBundle.DataAwsccBedrockagentcoreConfigurationBundleTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoreconfigurationbundle"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoreconfigurationbundle"
 
 &dataawsccbedrockagentcoreconfigurationbundle.DataAwsccBedrockagentcoreConfigurationBundleTags {
 
@@ -929,7 +929,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreConfigurationBundle.DataAwsccBedrockagentcoreConfigurationBundleComponentsMap.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoreconfigurationbundle"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoreconfigurationbundle"
 
 dataawsccbedrockagentcoreconfigurationbundle.NewDataAwsccBedrockagentcoreConfigurationBundleComponentsMap(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockagentcoreConfigurationBundleComponentsMap
 ```
@@ -1065,7 +1065,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreConfigurationBundle.DataAwsccBedrockagentcoreConfigurationBundleComponentsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoreconfigurationbundle"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoreconfigurationbundle"
 
 dataawsccbedrockagentcoreconfigurationbundle.NewDataAwsccBedrockagentcoreConfigurationBundleComponentsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectKey *string) DataAwsccBedrockagentcoreConfigurationBundleComponentsOutputReference
 ```
@@ -1334,7 +1334,7 @@ func InternalValue() DataAwsccBedrockagentcoreConfigurationBundleComponents
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreConfigurationBundle.DataAwsccBedrockagentcoreConfigurationBundleCreatedByOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoreconfigurationbundle"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoreconfigurationbundle"
 
 dataawsccbedrockagentcoreconfigurationbundle.NewDataAwsccBedrockagentcoreConfigurationBundleCreatedByOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockagentcoreConfigurationBundleCreatedByOutputReference
 ```
@@ -1605,7 +1605,7 @@ func InternalValue() DataAwsccBedrockagentcoreConfigurationBundleCreatedBy
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreConfigurationBundle.DataAwsccBedrockagentcoreConfigurationBundleLineageMetadataCreatedByOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoreconfigurationbundle"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoreconfigurationbundle"
 
 dataawsccbedrockagentcoreconfigurationbundle.NewDataAwsccBedrockagentcoreConfigurationBundleLineageMetadataCreatedByOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockagentcoreConfigurationBundleLineageMetadataCreatedByOutputReference
 ```
@@ -1876,7 +1876,7 @@ func InternalValue() DataAwsccBedrockagentcoreConfigurationBundleLineageMetadata
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreConfigurationBundle.DataAwsccBedrockagentcoreConfigurationBundleLineageMetadataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoreconfigurationbundle"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoreconfigurationbundle"
 
 dataawsccbedrockagentcoreconfigurationbundle.NewDataAwsccBedrockagentcoreConfigurationBundleLineageMetadataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockagentcoreConfigurationBundleLineageMetadataOutputReference
 ```
@@ -2169,7 +2169,7 @@ func InternalValue() DataAwsccBedrockagentcoreConfigurationBundleLineageMetadata
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreConfigurationBundle.DataAwsccBedrockagentcoreConfigurationBundleTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoreconfigurationbundle"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoreconfigurationbundle"
 
 dataawsccbedrockagentcoreconfigurationbundle.NewDataAwsccBedrockagentcoreConfigurationBundleTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBedrockagentcoreConfigurationBundleTagsList
 ```
@@ -2318,7 +2318,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreConfigurationBundle.DataAwsccBedrockagentcoreConfigurationBundleTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoreconfigurationbundle"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoreconfigurationbundle"
 
 dataawsccbedrockagentcoreconfigurationbundle.NewDataAwsccBedrockagentcoreConfigurationBundleTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBedrockagentcoreConfigurationBundleTagsOutputReference
 ```

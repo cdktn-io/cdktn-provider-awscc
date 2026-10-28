@@ -4,12 +4,12 @@
 
 ### DataAwsccDatabrewDataset <a name="DataAwsccDatabrewDataset" id="@cdktn/provider-awscc.dataAwsccDatabrewDataset.DataAwsccDatabrewDataset"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/databrew_dataset awscc_databrew_dataset}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/databrew_dataset awscc_databrew_dataset}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewDataset.DataAwsccDatabrewDataset.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewdataset"
 
 dataawsccdatabrewdataset.NewDataAwsccDatabrewDataset(scope Construct, id *string, config DataAwsccDatabrewDatasetConfig) DataAwsccDatabrewDataset
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccDatabrewDataset.DataAwsccDatabrewDataset.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewdataset"
 
 dataawsccdatabrewdataset.DataAwsccDatabrewDataset_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccDatabrewDataset.DataAwsccDatabrewDataset.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewdataset"
 
 dataawsccdatabrewdataset.DataAwsccDatabrewDataset_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccdatabrewdataset.DataAwsccDatabrewDataset_IsTerraformElement(x interface
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccDatabrewDataset.DataAwsccDatabrewDataset.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewdataset"
 
 dataawsccdatabrewdataset.DataAwsccDatabrewDataset_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccdatabrewdataset.DataAwsccDatabrewDataset_IsTerraformDataSource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccDatabrewDataset.DataAwsccDatabrewDataset.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewdataset"
 
 dataawsccdatabrewdataset.DataAwsccDatabrewDataset_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDatabrewDataset t
 
 The id of the existing DataAwsccDatabrewDataset that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/databrew_dataset#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/databrew_dataset#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -664,7 +664,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatabrewDataset.DataAwsccDatabrewDatasetConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewdataset"
 
 &dataawsccdatabrewdataset.DataAwsccDatabrewDatasetConfig {
 	Connection: interface{},
@@ -773,7 +773,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/databrew_dataset#id DataAwsccDatabrewDataset#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/databrew_dataset#id DataAwsccDatabrewDataset#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -785,7 +785,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatabrewDataset.DataAwsccDatabrewDatasetFormatOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewdataset"
 
 &dataawsccdatabrewdataset.DataAwsccDatabrewDatasetFormatOptions {
 
@@ -798,7 +798,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdatas
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatabrewDataset.DataAwsccDatabrewDatasetFormatOptionsCsv.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewdataset"
 
 &dataawsccdatabrewdataset.DataAwsccDatabrewDatasetFormatOptionsCsv {
 
@@ -811,7 +811,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdatas
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatabrewDataset.DataAwsccDatabrewDatasetFormatOptionsExcel.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewdataset"
 
 &dataawsccdatabrewdataset.DataAwsccDatabrewDatasetFormatOptionsExcel {
 
@@ -824,7 +824,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdatas
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatabrewDataset.DataAwsccDatabrewDatasetFormatOptionsJson.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewdataset"
 
 &dataawsccdatabrewdataset.DataAwsccDatabrewDatasetFormatOptionsJson {
 
@@ -837,7 +837,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdatas
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatabrewDataset.DataAwsccDatabrewDatasetInput.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewdataset"
 
 &dataawsccdatabrewdataset.DataAwsccDatabrewDatasetInput {
 
@@ -850,7 +850,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdatas
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatabrewDataset.DataAwsccDatabrewDatasetInputDatabaseInputDefinition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewdataset"
 
 &dataawsccdatabrewdataset.DataAwsccDatabrewDatasetInputDatabaseInputDefinition {
 
@@ -863,7 +863,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdatas
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatabrewDataset.DataAwsccDatabrewDatasetInputDatabaseInputDefinitionTempDirectory.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewdataset"
 
 &dataawsccdatabrewdataset.DataAwsccDatabrewDatasetInputDatabaseInputDefinitionTempDirectory {
 
@@ -876,7 +876,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdatas
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatabrewDataset.DataAwsccDatabrewDatasetInputDataCatalogInputDefinition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewdataset"
 
 &dataawsccdatabrewdataset.DataAwsccDatabrewDatasetInputDataCatalogInputDefinition {
 
@@ -889,7 +889,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdatas
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatabrewDataset.DataAwsccDatabrewDatasetInputDataCatalogInputDefinitionTempDirectory.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewdataset"
 
 &dataawsccdatabrewdataset.DataAwsccDatabrewDatasetInputDataCatalogInputDefinitionTempDirectory {
 
@@ -902,7 +902,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdatas
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatabrewDataset.DataAwsccDatabrewDatasetInputMetadata.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewdataset"
 
 &dataawsccdatabrewdataset.DataAwsccDatabrewDatasetInputMetadata {
 
@@ -915,7 +915,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdatas
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatabrewDataset.DataAwsccDatabrewDatasetInputS3InputDefinition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewdataset"
 
 &dataawsccdatabrewdataset.DataAwsccDatabrewDatasetInputS3InputDefinition {
 
@@ -928,7 +928,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdatas
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatabrewDataset.DataAwsccDatabrewDatasetPathOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewdataset"
 
 &dataawsccdatabrewdataset.DataAwsccDatabrewDatasetPathOptions {
 
@@ -941,7 +941,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdatas
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatabrewDataset.DataAwsccDatabrewDatasetPathOptionsFilesLimit.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewdataset"
 
 &dataawsccdatabrewdataset.DataAwsccDatabrewDatasetPathOptionsFilesLimit {
 
@@ -954,7 +954,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdatas
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatabrewDataset.DataAwsccDatabrewDatasetPathOptionsLastModifiedDateCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewdataset"
 
 &dataawsccdatabrewdataset.DataAwsccDatabrewDatasetPathOptionsLastModifiedDateCondition {
 
@@ -967,7 +967,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdatas
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatabrewDataset.DataAwsccDatabrewDatasetPathOptionsLastModifiedDateConditionValuesMap.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewdataset"
 
 &dataawsccdatabrewdataset.DataAwsccDatabrewDatasetPathOptionsLastModifiedDateConditionValuesMap {
 
@@ -980,7 +980,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdatas
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatabrewDataset.DataAwsccDatabrewDatasetPathOptionsParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewdataset"
 
 &dataawsccdatabrewdataset.DataAwsccDatabrewDatasetPathOptionsParameters {
 
@@ -993,7 +993,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdatas
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatabrewDataset.DataAwsccDatabrewDatasetPathOptionsParametersDatasetParameter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewdataset"
 
 &dataawsccdatabrewdataset.DataAwsccDatabrewDatasetPathOptionsParametersDatasetParameter {
 
@@ -1006,7 +1006,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdatas
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatabrewDataset.DataAwsccDatabrewDatasetPathOptionsParametersDatasetParameterDatetimeOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewdataset"
 
 &dataawsccdatabrewdataset.DataAwsccDatabrewDatasetPathOptionsParametersDatasetParameterDatetimeOptions {
 
@@ -1019,7 +1019,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdatas
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatabrewDataset.DataAwsccDatabrewDatasetPathOptionsParametersDatasetParameterFilter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewdataset"
 
 &dataawsccdatabrewdataset.DataAwsccDatabrewDatasetPathOptionsParametersDatasetParameterFilter {
 
@@ -1032,7 +1032,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdatas
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatabrewDataset.DataAwsccDatabrewDatasetPathOptionsParametersDatasetParameterFilterValuesMap.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewdataset"
 
 &dataawsccdatabrewdataset.DataAwsccDatabrewDatasetPathOptionsParametersDatasetParameterFilterValuesMap {
 
@@ -1045,7 +1045,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdatas
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatabrewDataset.DataAwsccDatabrewDatasetTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewdataset"
 
 &dataawsccdatabrewdataset.DataAwsccDatabrewDatasetTags {
 
@@ -1060,7 +1060,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdatas
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewDataset.DataAwsccDatabrewDatasetFormatOptionsCsvOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewdataset"
 
 dataawsccdatabrewdataset.NewDataAwsccDatabrewDatasetFormatOptionsCsvOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatabrewDatasetFormatOptionsCsvOutputReference
 ```
@@ -1331,7 +1331,7 @@ func InternalValue() DataAwsccDatabrewDatasetFormatOptionsCsv
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewDataset.DataAwsccDatabrewDatasetFormatOptionsExcelOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewdataset"
 
 dataawsccdatabrewdataset.NewDataAwsccDatabrewDatasetFormatOptionsExcelOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatabrewDatasetFormatOptionsExcelOutputReference
 ```
@@ -1613,7 +1613,7 @@ func InternalValue() DataAwsccDatabrewDatasetFormatOptionsExcel
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewDataset.DataAwsccDatabrewDatasetFormatOptionsJsonOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewdataset"
 
 dataawsccdatabrewdataset.NewDataAwsccDatabrewDatasetFormatOptionsJsonOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatabrewDatasetFormatOptionsJsonOutputReference
 ```
@@ -1873,7 +1873,7 @@ func InternalValue() DataAwsccDatabrewDatasetFormatOptionsJson
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewDataset.DataAwsccDatabrewDatasetFormatOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewdataset"
 
 dataawsccdatabrewdataset.NewDataAwsccDatabrewDatasetFormatOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatabrewDatasetFormatOptionsOutputReference
 ```
@@ -2155,7 +2155,7 @@ func InternalValue() DataAwsccDatabrewDatasetFormatOptions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewDataset.DataAwsccDatabrewDatasetInputDatabaseInputDefinitionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewdataset"
 
 dataawsccdatabrewdataset.NewDataAwsccDatabrewDatasetInputDatabaseInputDefinitionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatabrewDatasetInputDatabaseInputDefinitionOutputReference
 ```
@@ -2448,7 +2448,7 @@ func InternalValue() DataAwsccDatabrewDatasetInputDatabaseInputDefinition
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewDataset.DataAwsccDatabrewDatasetInputDatabaseInputDefinitionTempDirectoryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewdataset"
 
 dataawsccdatabrewdataset.NewDataAwsccDatabrewDatasetInputDatabaseInputDefinitionTempDirectoryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatabrewDatasetInputDatabaseInputDefinitionTempDirectoryOutputReference
 ```
@@ -2730,7 +2730,7 @@ func InternalValue() DataAwsccDatabrewDatasetInputDatabaseInputDefinitionTempDir
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewDataset.DataAwsccDatabrewDatasetInputDataCatalogInputDefinitionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewdataset"
 
 dataawsccdatabrewdataset.NewDataAwsccDatabrewDatasetInputDataCatalogInputDefinitionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatabrewDatasetInputDataCatalogInputDefinitionOutputReference
 ```
@@ -3023,7 +3023,7 @@ func InternalValue() DataAwsccDatabrewDatasetInputDataCatalogInputDefinition
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewDataset.DataAwsccDatabrewDatasetInputDataCatalogInputDefinitionTempDirectoryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewdataset"
 
 dataawsccdatabrewdataset.NewDataAwsccDatabrewDatasetInputDataCatalogInputDefinitionTempDirectoryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatabrewDatasetInputDataCatalogInputDefinitionTempDirectoryOutputReference
 ```
@@ -3305,7 +3305,7 @@ func InternalValue() DataAwsccDatabrewDatasetInputDataCatalogInputDefinitionTemp
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewDataset.DataAwsccDatabrewDatasetInputMetadataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewdataset"
 
 dataawsccdatabrewdataset.NewDataAwsccDatabrewDatasetInputMetadataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatabrewDatasetInputMetadataOutputReference
 ```
@@ -3565,7 +3565,7 @@ func InternalValue() DataAwsccDatabrewDatasetInputMetadata
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewDataset.DataAwsccDatabrewDatasetInputOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewdataset"
 
 dataawsccdatabrewdataset.NewDataAwsccDatabrewDatasetInputOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatabrewDatasetInputOutputReference
 ```
@@ -3858,7 +3858,7 @@ func InternalValue() DataAwsccDatabrewDatasetInput
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewDataset.DataAwsccDatabrewDatasetInputS3InputDefinitionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewdataset"
 
 dataawsccdatabrewdataset.NewDataAwsccDatabrewDatasetInputS3InputDefinitionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatabrewDatasetInputS3InputDefinitionOutputReference
 ```
@@ -4140,7 +4140,7 @@ func InternalValue() DataAwsccDatabrewDatasetInputS3InputDefinition
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewDataset.DataAwsccDatabrewDatasetPathOptionsFilesLimitOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewdataset"
 
 dataawsccdatabrewdataset.NewDataAwsccDatabrewDatasetPathOptionsFilesLimitOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatabrewDatasetPathOptionsFilesLimitOutputReference
 ```
@@ -4422,7 +4422,7 @@ func InternalValue() DataAwsccDatabrewDatasetPathOptionsFilesLimit
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewDataset.DataAwsccDatabrewDatasetPathOptionsLastModifiedDateConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewdataset"
 
 dataawsccdatabrewdataset.NewDataAwsccDatabrewDatasetPathOptionsLastModifiedDateConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatabrewDatasetPathOptionsLastModifiedDateConditionOutputReference
 ```
@@ -4693,7 +4693,7 @@ func InternalValue() DataAwsccDatabrewDatasetPathOptionsLastModifiedDateConditio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewDataset.DataAwsccDatabrewDatasetPathOptionsLastModifiedDateConditionValuesMapList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewdataset"
 
 dataawsccdatabrewdataset.NewDataAwsccDatabrewDatasetPathOptionsLastModifiedDateConditionValuesMapList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDatabrewDatasetPathOptionsLastModifiedDateConditionValuesMapList
 ```
@@ -4842,7 +4842,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewDataset.DataAwsccDatabrewDatasetPathOptionsLastModifiedDateConditionValuesMapOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewdataset"
 
 dataawsccdatabrewdataset.NewDataAwsccDatabrewDatasetPathOptionsLastModifiedDateConditionValuesMapOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDatabrewDatasetPathOptionsLastModifiedDateConditionValuesMapOutputReference
 ```
@@ -5131,7 +5131,7 @@ func InternalValue() DataAwsccDatabrewDatasetPathOptionsLastModifiedDateConditio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewDataset.DataAwsccDatabrewDatasetPathOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewdataset"
 
 dataawsccdatabrewdataset.NewDataAwsccDatabrewDatasetPathOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatabrewDatasetPathOptionsOutputReference
 ```
@@ -5413,7 +5413,7 @@ func InternalValue() DataAwsccDatabrewDatasetPathOptions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewDataset.DataAwsccDatabrewDatasetPathOptionsParametersDatasetParameterDatetimeOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewdataset"
 
 dataawsccdatabrewdataset.NewDataAwsccDatabrewDatasetPathOptionsParametersDatasetParameterDatetimeOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatabrewDatasetPathOptionsParametersDatasetParameterDatetimeOptionsOutputReference
 ```
@@ -5695,7 +5695,7 @@ func InternalValue() DataAwsccDatabrewDatasetPathOptionsParametersDatasetParamet
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewDataset.DataAwsccDatabrewDatasetPathOptionsParametersDatasetParameterFilterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewdataset"
 
 dataawsccdatabrewdataset.NewDataAwsccDatabrewDatasetPathOptionsParametersDatasetParameterFilterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatabrewDatasetPathOptionsParametersDatasetParameterFilterOutputReference
 ```
@@ -5966,7 +5966,7 @@ func InternalValue() DataAwsccDatabrewDatasetPathOptionsParametersDatasetParamet
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewDataset.DataAwsccDatabrewDatasetPathOptionsParametersDatasetParameterFilterValuesMapList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewdataset"
 
 dataawsccdatabrewdataset.NewDataAwsccDatabrewDatasetPathOptionsParametersDatasetParameterFilterValuesMapList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDatabrewDatasetPathOptionsParametersDatasetParameterFilterValuesMapList
 ```
@@ -6115,7 +6115,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewDataset.DataAwsccDatabrewDatasetPathOptionsParametersDatasetParameterFilterValuesMapOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewdataset"
 
 dataawsccdatabrewdataset.NewDataAwsccDatabrewDatasetPathOptionsParametersDatasetParameterFilterValuesMapOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDatabrewDatasetPathOptionsParametersDatasetParameterFilterValuesMapOutputReference
 ```
@@ -6404,7 +6404,7 @@ func InternalValue() DataAwsccDatabrewDatasetPathOptionsParametersDatasetParamet
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewDataset.DataAwsccDatabrewDatasetPathOptionsParametersDatasetParameterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewdataset"
 
 dataawsccdatabrewdataset.NewDataAwsccDatabrewDatasetPathOptionsParametersDatasetParameterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDatabrewDatasetPathOptionsParametersDatasetParameterOutputReference
 ```
@@ -6708,7 +6708,7 @@ func InternalValue() DataAwsccDatabrewDatasetPathOptionsParametersDatasetParamet
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewDataset.DataAwsccDatabrewDatasetPathOptionsParametersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewdataset"
 
 dataawsccdatabrewdataset.NewDataAwsccDatabrewDatasetPathOptionsParametersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDatabrewDatasetPathOptionsParametersList
 ```
@@ -6857,7 +6857,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewDataset.DataAwsccDatabrewDatasetPathOptionsParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewdataset"
 
 dataawsccdatabrewdataset.NewDataAwsccDatabrewDatasetPathOptionsParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDatabrewDatasetPathOptionsParametersOutputReference
 ```
@@ -7146,7 +7146,7 @@ func InternalValue() DataAwsccDatabrewDatasetPathOptionsParameters
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewDataset.DataAwsccDatabrewDatasetTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewdataset"
 
 dataawsccdatabrewdataset.NewDataAwsccDatabrewDatasetTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDatabrewDatasetTagsList
 ```
@@ -7295,7 +7295,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewDataset.DataAwsccDatabrewDatasetTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewdataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewdataset"
 
 dataawsccdatabrewdataset.NewDataAwsccDatabrewDatasetTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDatabrewDatasetTagsOutputReference
 ```

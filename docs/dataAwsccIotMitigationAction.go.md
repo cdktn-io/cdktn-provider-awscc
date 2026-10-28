@@ -4,12 +4,12 @@
 
 ### DataAwsccIotMitigationAction <a name="DataAwsccIotMitigationAction" id="@cdktn/provider-awscc.dataAwsccIotMitigationAction.DataAwsccIotMitigationAction"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_mitigation_action awscc_iot_mitigation_action}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_mitigation_action awscc_iot_mitigation_action}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotMitigationAction.DataAwsccIotMitigationAction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotmitigationaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotmitigationaction"
 
 dataawscciotmitigationaction.NewDataAwsccIotMitigationAction(scope Construct, id *string, config DataAwsccIotMitigationActionConfig) DataAwsccIotMitigationAction
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIotMitigationAction.DataAwsccIotMitigationAction.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotmitigationaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotmitigationaction"
 
 dataawscciotmitigationaction.DataAwsccIotMitigationAction_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIotMitigationAction.DataAwsccIotMitigationAction.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotmitigationaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotmitigationaction"
 
 dataawscciotmitigationaction.DataAwsccIotMitigationAction_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciotmitigationaction.DataAwsccIotMitigationAction_IsTerraformElement(x i
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIotMitigationAction.DataAwsccIotMitigationAction.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotmitigationaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotmitigationaction"
 
 dataawscciotmitigationaction.DataAwsccIotMitigationAction_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciotmitigationaction.DataAwsccIotMitigationAction_IsTerraformDataSource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIotMitigationAction.DataAwsccIotMitigationAction.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotmitigationaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotmitigationaction"
 
 dataawscciotmitigationaction.DataAwsccIotMitigationAction_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotMitigationActi
 
 The id of the existing DataAwsccIotMitigationAction that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_mitigation_action#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_mitigation_action#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -653,7 +653,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotMitigationAction.DataAwsccIotMitigationActionActionParams.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotmitigationaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotmitigationaction"
 
 &dataawscciotmitigationaction.DataAwsccIotMitigationActionActionParams {
 
@@ -666,7 +666,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotmitigation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotMitigationAction.DataAwsccIotMitigationActionActionParamsAddThingsToThingGroupParams.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotmitigationaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotmitigationaction"
 
 &dataawscciotmitigationaction.DataAwsccIotMitigationActionActionParamsAddThingsToThingGroupParams {
 
@@ -679,7 +679,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotmitigation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotMitigationAction.DataAwsccIotMitigationActionActionParamsEnableIoTLoggingParams.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotmitigationaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotmitigationaction"
 
 &dataawscciotmitigationaction.DataAwsccIotMitigationActionActionParamsEnableIoTLoggingParams {
 
@@ -692,7 +692,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotmitigation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotMitigationAction.DataAwsccIotMitigationActionActionParamsPublishFindingToSnsParams.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotmitigationaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotmitigationaction"
 
 &dataawscciotmitigationaction.DataAwsccIotMitigationActionActionParamsPublishFindingToSnsParams {
 
@@ -705,7 +705,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotmitigation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotMitigationAction.DataAwsccIotMitigationActionActionParamsReplaceDefaultPolicyVersionParams.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotmitigationaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotmitigationaction"
 
 &dataawscciotmitigationaction.DataAwsccIotMitigationActionActionParamsReplaceDefaultPolicyVersionParams {
 
@@ -718,7 +718,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotmitigation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotMitigationAction.DataAwsccIotMitigationActionActionParamsUpdateCaCertificateParams.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotmitigationaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotmitigationaction"
 
 &dataawscciotmitigationaction.DataAwsccIotMitigationActionActionParamsUpdateCaCertificateParams {
 
@@ -731,7 +731,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotmitigation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotMitigationAction.DataAwsccIotMitigationActionActionParamsUpdateDeviceCertificateParams.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotmitigationaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotmitigationaction"
 
 &dataawscciotmitigationaction.DataAwsccIotMitigationActionActionParamsUpdateDeviceCertificateParams {
 
@@ -744,7 +744,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotmitigation
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotMitigationAction.DataAwsccIotMitigationActionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotmitigationaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotmitigationaction"
 
 &dataawscciotmitigationaction.DataAwsccIotMitigationActionConfig {
 	Connection: interface{},
@@ -853,7 +853,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_mitigation_action#id DataAwsccIotMitigationAction#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_mitigation_action#id DataAwsccIotMitigationAction#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -865,7 +865,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotMitigationAction.DataAwsccIotMitigationActionTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotmitigationaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotmitigationaction"
 
 &dataawscciotmitigationaction.DataAwsccIotMitigationActionTags {
 
@@ -880,7 +880,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotmitigation
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotMitigationAction.DataAwsccIotMitigationActionActionParamsAddThingsToThingGroupParamsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotmitigationaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotmitigationaction"
 
 dataawscciotmitigationaction.NewDataAwsccIotMitigationActionActionParamsAddThingsToThingGroupParamsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotMitigationActionActionParamsAddThingsToThingGroupParamsOutputReference
 ```
@@ -1151,7 +1151,7 @@ func InternalValue() DataAwsccIotMitigationActionActionParamsAddThingsToThingGro
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotMitigationAction.DataAwsccIotMitigationActionActionParamsEnableIoTLoggingParamsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotmitigationaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotmitigationaction"
 
 dataawscciotmitigationaction.NewDataAwsccIotMitigationActionActionParamsEnableIoTLoggingParamsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotMitigationActionActionParamsEnableIoTLoggingParamsOutputReference
 ```
@@ -1422,7 +1422,7 @@ func InternalValue() DataAwsccIotMitigationActionActionParamsEnableIoTLoggingPar
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotMitigationAction.DataAwsccIotMitigationActionActionParamsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotmitigationaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotmitigationaction"
 
 dataawscciotmitigationaction.NewDataAwsccIotMitigationActionActionParamsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotMitigationActionActionParamsOutputReference
 ```
@@ -1737,7 +1737,7 @@ func InternalValue() DataAwsccIotMitigationActionActionParams
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotMitigationAction.DataAwsccIotMitigationActionActionParamsPublishFindingToSnsParamsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotmitigationaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotmitigationaction"
 
 dataawscciotmitigationaction.NewDataAwsccIotMitigationActionActionParamsPublishFindingToSnsParamsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotMitigationActionActionParamsPublishFindingToSnsParamsOutputReference
 ```
@@ -1997,7 +1997,7 @@ func InternalValue() DataAwsccIotMitigationActionActionParamsPublishFindingToSns
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotMitigationAction.DataAwsccIotMitigationActionActionParamsReplaceDefaultPolicyVersionParamsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotmitigationaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotmitigationaction"
 
 dataawscciotmitigationaction.NewDataAwsccIotMitigationActionActionParamsReplaceDefaultPolicyVersionParamsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotMitigationActionActionParamsReplaceDefaultPolicyVersionParamsOutputReference
 ```
@@ -2257,7 +2257,7 @@ func InternalValue() DataAwsccIotMitigationActionActionParamsReplaceDefaultPolic
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotMitigationAction.DataAwsccIotMitigationActionActionParamsUpdateCaCertificateParamsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotmitigationaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotmitigationaction"
 
 dataawscciotmitigationaction.NewDataAwsccIotMitigationActionActionParamsUpdateCaCertificateParamsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotMitigationActionActionParamsUpdateCaCertificateParamsOutputReference
 ```
@@ -2517,7 +2517,7 @@ func InternalValue() DataAwsccIotMitigationActionActionParamsUpdateCaCertificate
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotMitigationAction.DataAwsccIotMitigationActionActionParamsUpdateDeviceCertificateParamsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotmitigationaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotmitigationaction"
 
 dataawscciotmitigationaction.NewDataAwsccIotMitigationActionActionParamsUpdateDeviceCertificateParamsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotMitigationActionActionParamsUpdateDeviceCertificateParamsOutputReference
 ```
@@ -2777,7 +2777,7 @@ func InternalValue() DataAwsccIotMitigationActionActionParamsUpdateDeviceCertifi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotMitigationAction.DataAwsccIotMitigationActionTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotmitigationaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotmitigationaction"
 
 dataawscciotmitigationaction.NewDataAwsccIotMitigationActionTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIotMitigationActionTagsList
 ```
@@ -2926,7 +2926,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotMitigationAction.DataAwsccIotMitigationActionTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotmitigationaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotmitigationaction"
 
 dataawscciotmitigationaction.NewDataAwsccIotMitigationActionTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIotMitigationActionTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### FsxDataRepositoryAssociation <a name="FsxDataRepositoryAssociation" id="@cdktn/provider-awscc.fsxDataRepositoryAssociation.FsxDataRepositoryAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fsx_data_repository_association awscc_fsx_data_repository_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fsx_data_repository_association awscc_fsx_data_repository_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.fsxDataRepositoryAssociation.FsxDataRepositoryAssociation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fsxdatarepositoryassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fsxdatarepositoryassociation"
 
 fsxdatarepositoryassociation.NewFsxDataRepositoryAssociation(scope Construct, id *string, config FsxDataRepositoryAssociationConfig) FsxDataRepositoryAssociation
 ```
@@ -454,7 +454,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.fsxDataRepositoryAssociation.FsxDataRepositoryAssociation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fsxdatarepositoryassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fsxdatarepositoryassociation"
 
 fsxdatarepositoryassociation.FsxDataRepositoryAssociation_IsConstruct(x interface{}) *bool
 ```
@@ -486,7 +486,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.fsxDataRepositoryAssociation.FsxDataRepositoryAssociation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fsxdatarepositoryassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fsxdatarepositoryassociation"
 
 fsxdatarepositoryassociation.FsxDataRepositoryAssociation_IsTerraformElement(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ fsxdatarepositoryassociation.FsxDataRepositoryAssociation_IsTerraformElement(x i
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.fsxDataRepositoryAssociation.FsxDataRepositoryAssociation.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fsxdatarepositoryassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fsxdatarepositoryassociation"
 
 fsxdatarepositoryassociation.FsxDataRepositoryAssociation_IsTerraformResource(x interface{}) *bool
 ```
@@ -514,7 +514,7 @@ fsxdatarepositoryassociation.FsxDataRepositoryAssociation_IsTerraformResource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.fsxDataRepositoryAssociation.FsxDataRepositoryAssociation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fsxdatarepositoryassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fsxdatarepositoryassociation"
 
 fsxdatarepositoryassociation.FsxDataRepositoryAssociation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -543,7 +543,7 @@ The construct id used in the generated config for the FsxDataRepositoryAssociati
 
 The id of the existing FsxDataRepositoryAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fsx_data_repository_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fsx_data_repository_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -930,7 +930,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.fsxDataRepositoryAssociation.FsxDataRepositoryAssociationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fsxdatarepositoryassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fsxdatarepositoryassociation"
 
 &fsxdatarepositoryassociation.FsxDataRepositoryAssociationConfig {
 	Connection: interface{},
@@ -945,7 +945,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fsxdatarepositoryassoc
 	FileSystemPath: *string,
 	BatchImportMetaDataOnCreate: interface{},
 	ImportedFileChunkSize: *f64,
-	S3: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.fsxDataRepositoryAssociation.FsxDataRepositoryAssociationS3,
+	S3: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.fsxDataRepositoryAssociation.FsxDataRepositoryAssociationS3,
 	Tags: interface{},
 }
 ```
@@ -1053,7 +1053,7 @@ The path to the Amazon S3 data repository that will be linked to the file system
 
 The path can be an S3 bucket or prefix in the format s3://myBucket/myPrefix/ . This path specifies where in the S3 data repository files will be imported from or exported to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fsx_data_repository_association#data_repository_path FsxDataRepositoryAssociation#data_repository_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fsx_data_repository_association#data_repository_path FsxDataRepositoryAssociation#data_repository_path}
 
 ---
 
@@ -1067,7 +1067,7 @@ FileSystemId *string
 
 The globally unique ID of the file system, assigned by Amazon FSx.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fsx_data_repository_association#file_system_id FsxDataRepositoryAssociation#file_system_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fsx_data_repository_association#file_system_id FsxDataRepositoryAssociation#file_system_id}
 
 ---
 
@@ -1083,7 +1083,7 @@ This path specifies where in your file system files will be exported from or imp
 
 This file system directory can be linked to only one Amazon S3 bucket, and no other S3 bucket can be linked to the directory.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fsx_data_repository_association#file_system_path FsxDataRepositoryAssociation#file_system_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fsx_data_repository_association#file_system_path FsxDataRepositoryAssociation#file_system_path}
 
 ---
 
@@ -1099,7 +1099,7 @@ A boolean flag indicating whether an import data repository task to import metad
 
 The task runs if this flag is set to true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fsx_data_repository_association#batch_import_meta_data_on_create FsxDataRepositoryAssociation#batch_import_meta_data_on_create}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fsx_data_repository_association#batch_import_meta_data_on_create FsxDataRepositoryAssociation#batch_import_meta_data_on_create}
 
 ---
 
@@ -1115,7 +1115,7 @@ For files imported from a data repository, this value determines the stripe coun
 
 The maximum number of disks that a single file can be striped across is limited by the total number of disks that make up the file system.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fsx_data_repository_association#imported_file_chunk_size FsxDataRepositoryAssociation#imported_file_chunk_size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fsx_data_repository_association#imported_file_chunk_size FsxDataRepositoryAssociation#imported_file_chunk_size}
 
 ---
 
@@ -1131,7 +1131,7 @@ The configuration for an Amazon S3 data repository linked to an Amazon FSx Lustr
 
 The configuration defines which file events (new, changed, or deleted files or directories) are automatically imported from the linked data repository to the file system or automatically exported from the file system to the data repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fsx_data_repository_association#s3 FsxDataRepositoryAssociation#s3}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fsx_data_repository_association#s3 FsxDataRepositoryAssociation#s3}
 
 ---
 
@@ -1145,7 +1145,7 @@ Tags interface{}
 
 A list of Tag values, with a maximum of 50 elements.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fsx_data_repository_association#tags FsxDataRepositoryAssociation#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fsx_data_repository_association#tags FsxDataRepositoryAssociation#tags}
 
 ---
 
@@ -1154,11 +1154,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.fsxDataRepositoryAssociation.FsxDataRepositoryAssociationS3.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fsxdatarepositoryassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fsxdatarepositoryassociation"
 
 &fsxdatarepositoryassociation.FsxDataRepositoryAssociationS3 {
-	AutoExportPolicy: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.fsxDataRepositoryAssociation.FsxDataRepositoryAssociationS3AutoExportPolicy,
-	AutoImportPolicy: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.fsxDataRepositoryAssociation.FsxDataRepositoryAssociationS3AutoImportPolicy,
+	AutoExportPolicy: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.fsxDataRepositoryAssociation.FsxDataRepositoryAssociationS3AutoExportPolicy,
+	AutoImportPolicy: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.fsxDataRepositoryAssociation.FsxDataRepositoryAssociationS3AutoImportPolicy,
 }
 ```
 
@@ -1181,7 +1181,7 @@ AutoExportPolicy FsxDataRepositoryAssociationS3AutoExportPolicy
 
 Specifies the type of updated objects (new, changed, deleted) that will be automatically exported from your file system to the linked S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fsx_data_repository_association#auto_export_policy FsxDataRepositoryAssociation#auto_export_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fsx_data_repository_association#auto_export_policy FsxDataRepositoryAssociation#auto_export_policy}
 
 ---
 
@@ -1195,7 +1195,7 @@ AutoImportPolicy FsxDataRepositoryAssociationS3AutoImportPolicy
 
 Specifies the type of updated objects (new, changed, deleted) that will be automatically imported from the linked S3 bucket to your file system.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fsx_data_repository_association#auto_import_policy FsxDataRepositoryAssociation#auto_import_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fsx_data_repository_association#auto_import_policy FsxDataRepositoryAssociation#auto_import_policy}
 
 ---
 
@@ -1204,7 +1204,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.fsxDataRepositoryAssociation.FsxDataRepositoryAssociationS3AutoExportPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fsxdatarepositoryassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fsxdatarepositoryassociation"
 
 &fsxdatarepositoryassociation.FsxDataRepositoryAssociationS3AutoExportPolicy {
 	Events: *[]*string,
@@ -1215,7 +1215,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fsxdatarepositoryassoc
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.fsxDataRepositoryAssociation.FsxDataRepositoryAssociationS3AutoExportPolicy.property.events">Events</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fsx_data_repository_association#events FsxDataRepositoryAssociation#events}. |
+| <code><a href="#@cdktn/provider-awscc.fsxDataRepositoryAssociation.FsxDataRepositoryAssociationS3AutoExportPolicy.property.events">Events</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fsx_data_repository_association#events FsxDataRepositoryAssociation#events}. |
 
 ---
 
@@ -1227,7 +1227,7 @@ Events *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fsx_data_repository_association#events FsxDataRepositoryAssociation#events}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fsx_data_repository_association#events FsxDataRepositoryAssociation#events}.
 
 ---
 
@@ -1236,7 +1236,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.fsxDataRepositoryAssociation.FsxDataRepositoryAssociationS3AutoImportPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fsxdatarepositoryassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fsxdatarepositoryassociation"
 
 &fsxdatarepositoryassociation.FsxDataRepositoryAssociationS3AutoImportPolicy {
 	Events: *[]*string,
@@ -1247,7 +1247,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fsxdatarepositoryassoc
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.fsxDataRepositoryAssociation.FsxDataRepositoryAssociationS3AutoImportPolicy.property.events">Events</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fsx_data_repository_association#events FsxDataRepositoryAssociation#events}. |
+| <code><a href="#@cdktn/provider-awscc.fsxDataRepositoryAssociation.FsxDataRepositoryAssociationS3AutoImportPolicy.property.events">Events</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fsx_data_repository_association#events FsxDataRepositoryAssociation#events}. |
 
 ---
 
@@ -1259,7 +1259,7 @@ Events *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fsx_data_repository_association#events FsxDataRepositoryAssociation#events}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fsx_data_repository_association#events FsxDataRepositoryAssociation#events}.
 
 ---
 
@@ -1268,7 +1268,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.fsxDataRepositoryAssociation.FsxDataRepositoryAssociationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fsxdatarepositoryassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fsxdatarepositoryassociation"
 
 &fsxdatarepositoryassociation.FsxDataRepositoryAssociationTags {
 	Key: *string,
@@ -1297,7 +1297,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fsx_data_repository_association#key FsxDataRepositoryAssociation#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fsx_data_repository_association#key FsxDataRepositoryAssociation#key}
 
 ---
 
@@ -1313,7 +1313,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fsx_data_repository_association#value FsxDataRepositoryAssociation#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fsx_data_repository_association#value FsxDataRepositoryAssociation#value}
 
 ---
 
@@ -1324,7 +1324,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.fsxDataRepositoryAssociation.FsxDataRepositoryAssociationS3AutoExportPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fsxdatarepositoryassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fsxdatarepositoryassociation"
 
 fsxdatarepositoryassociation.NewFsxDataRepositoryAssociationS3AutoExportPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) FsxDataRepositoryAssociationS3AutoExportPolicyOutputReference
 ```
@@ -1602,7 +1602,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.fsxDataRepositoryAssociation.FsxDataRepositoryAssociationS3AutoImportPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fsxdatarepositoryassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fsxdatarepositoryassociation"
 
 fsxdatarepositoryassociation.NewFsxDataRepositoryAssociationS3AutoImportPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) FsxDataRepositoryAssociationS3AutoImportPolicyOutputReference
 ```
@@ -1880,7 +1880,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.fsxDataRepositoryAssociation.FsxDataRepositoryAssociationS3OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fsxdatarepositoryassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fsxdatarepositoryassociation"
 
 fsxdatarepositoryassociation.NewFsxDataRepositoryAssociationS3OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) FsxDataRepositoryAssociationS3OutputReference
 ```
@@ -2213,7 +2213,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.fsxDataRepositoryAssociation.FsxDataRepositoryAssociationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fsxdatarepositoryassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fsxdatarepositoryassociation"
 
 fsxdatarepositoryassociation.NewFsxDataRepositoryAssociationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) FsxDataRepositoryAssociationTagsList
 ```
@@ -2373,7 +2373,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.fsxDataRepositoryAssociation.FsxDataRepositoryAssociationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fsxdatarepositoryassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fsxdatarepositoryassociation"
 
 fsxdatarepositoryassociation.NewFsxDataRepositoryAssociationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) FsxDataRepositoryAssociationTagsOutputReference
 ```

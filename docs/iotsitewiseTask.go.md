@@ -4,12 +4,12 @@
 
 ### IotsitewiseTask <a name="IotsitewiseTask" id="@cdktn/provider-awscc.iotsitewiseTask.IotsitewiseTask"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_task awscc_iotsitewise_task}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_task awscc_iotsitewise_task}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseTask.IotsitewiseTask.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisetask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisetask"
 
 iotsitewisetask.NewIotsitewiseTask(scope Construct, id *string, config IotsitewiseTaskConfig) IotsitewiseTask
 ```
@@ -440,7 +440,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.iotsitewiseTask.IotsitewiseTask.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisetask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisetask"
 
 iotsitewisetask.IotsitewiseTask_IsConstruct(x interface{}) *bool
 ```
@@ -472,7 +472,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.iotsitewiseTask.IotsitewiseTask.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisetask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisetask"
 
 iotsitewisetask.IotsitewiseTask_IsTerraformElement(x interface{}) *bool
 ```
@@ -486,7 +486,7 @@ iotsitewisetask.IotsitewiseTask_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.iotsitewiseTask.IotsitewiseTask.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisetask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisetask"
 
 iotsitewisetask.IotsitewiseTask_IsTerraformResource(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ iotsitewisetask.IotsitewiseTask_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.iotsitewiseTask.IotsitewiseTask.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisetask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisetask"
 
 iotsitewisetask.IotsitewiseTask_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -529,7 +529,7 @@ The construct id used in the generated config for the IotsitewiseTask to import.
 
 The id of the existing IotsitewiseTask that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_task#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_task#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -872,7 +872,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsitewiseTask.IotsitewiseTaskConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisetask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisetask"
 
 &iotsitewisetask.IotsitewiseTaskConfig {
 	Connection: interface{},
@@ -882,7 +882,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisetask"
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	TaskConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotsitewiseTask.IotsitewiseTaskTaskConfiguration,
+	TaskConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotsitewiseTask.IotsitewiseTaskTaskConfiguration,
 	TaskName: *string,
 	WorkspaceName: *string,
 	Description: *string,
@@ -989,7 +989,7 @@ TaskConfiguration IotsitewiseTaskTaskConfiguration
 
 The task execution configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_task#task_configuration IotsitewiseTask#task_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_task#task_configuration IotsitewiseTask#task_configuration}
 
 ---
 
@@ -1003,7 +1003,7 @@ TaskName *string
 
 The name of the task. Must be unique within the workspace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_task#task_name IotsitewiseTask#task_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_task#task_name IotsitewiseTask#task_name}
 
 ---
 
@@ -1017,7 +1017,7 @@ WorkspaceName *string
 
 The name of the workspace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_task#workspace_name IotsitewiseTask#workspace_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_task#workspace_name IotsitewiseTask#workspace_name}
 
 ---
 
@@ -1031,7 +1031,7 @@ Description *string
 
 A description of the task.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_task#description IotsitewiseTask#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_task#description IotsitewiseTask#description}
 
 ---
 
@@ -1045,7 +1045,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_task#tags IotsitewiseTask#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_task#tags IotsitewiseTask#tags}
 
 ---
 
@@ -1054,7 +1054,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsitewiseTask.IotsitewiseTaskTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisetask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisetask"
 
 &iotsitewisetask.IotsitewiseTaskTags {
 	Key: *string,
@@ -1081,7 +1081,7 @@ Key *string
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_task#key IotsitewiseTask#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_task#key IotsitewiseTask#key}
 
 ---
 
@@ -1095,7 +1095,7 @@ Value *string
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_task#value IotsitewiseTask#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_task#value IotsitewiseTask#value}
 
 ---
 
@@ -1104,10 +1104,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsitewiseTask.IotsitewiseTaskTaskConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisetask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisetask"
 
 &iotsitewisetask.IotsitewiseTaskTaskConfiguration {
-	ContainerTaskConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotsitewiseTask.IotsitewiseTaskTaskConfigurationContainerTaskConfiguration,
+	ContainerTaskConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotsitewiseTask.IotsitewiseTaskTaskConfigurationContainerTaskConfiguration,
 }
 ```
 
@@ -1129,7 +1129,7 @@ ContainerTaskConfiguration IotsitewiseTaskTaskConfigurationContainerTaskConfigur
 
 Configuration for running a custom container image on managed compute.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_task#container_task_configuration IotsitewiseTask#container_task_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_task#container_task_configuration IotsitewiseTask#container_task_configuration}
 
 ---
 
@@ -1138,7 +1138,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsitewiseTask.IotsitewiseTaskTaskConfigurationContainerTaskConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisetask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisetask"
 
 &iotsitewisetask.IotsitewiseTaskTaskConfigurationContainerTaskConfiguration {
 	EcrUri: *string,
@@ -1147,7 +1147,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisetask"
 	TaskExecutionRole: *string,
 	Command: *[]*string,
 	EnvironmentVariables: *map[string]*string,
-	EphemeralStorageConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotsitewiseTask.IotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfiguration,
+	EphemeralStorageConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotsitewiseTask.IotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfiguration,
 	Mounts: interface{},
 	TimeoutSeconds: *f64,
 }
@@ -1179,7 +1179,7 @@ EcrUri *string
 
 The Amazon ECR image URI for the task container.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_task#ecr_uri IotsitewiseTask#ecr_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_task#ecr_uri IotsitewiseTask#ecr_uri}
 
 ---
 
@@ -1193,7 +1193,7 @@ ProcessingType *string
 
 The processing type for compute resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_task#processing_type IotsitewiseTask#processing_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_task#processing_type IotsitewiseTask#processing_type}
 
 ---
 
@@ -1207,7 +1207,7 @@ ProcessingUnit *string
 
 The processing unit allocation that determines vCPU, memory, and GPU resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_task#processing_unit IotsitewiseTask#processing_unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_task#processing_unit IotsitewiseTask#processing_unit}
 
 ---
 
@@ -1221,7 +1221,7 @@ TaskExecutionRole *string
 
 The ARN of the IAM role that grants the containerized workload permissions to access AWS resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_task#task_execution_role IotsitewiseTask#task_execution_role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_task#task_execution_role IotsitewiseTask#task_execution_role}
 
 ---
 
@@ -1235,7 +1235,7 @@ Command *[]*string
 
 The command to execute in the container.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_task#command IotsitewiseTask#command}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_task#command IotsitewiseTask#command}
 
 ---
 
@@ -1249,7 +1249,7 @@ EnvironmentVariables *map[string]*string
 
 A map of environment variable key-value pairs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_task#environment_variables IotsitewiseTask#environment_variables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_task#environment_variables IotsitewiseTask#environment_variables}
 
 ---
 
@@ -1263,7 +1263,7 @@ EphemeralStorageConfiguration IotsitewiseTaskTaskConfigurationContainerTaskConfi
 
 Configuration for ephemeral storage attached to the container task.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_task#ephemeral_storage_configuration IotsitewiseTask#ephemeral_storage_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_task#ephemeral_storage_configuration IotsitewiseTask#ephemeral_storage_configuration}
 
 ---
 
@@ -1279,7 +1279,7 @@ Mounts attached to the container filesystem.
 
 Each mount exposes an external data source as a local directory inside the container.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_task#mounts IotsitewiseTask#mounts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_task#mounts IotsitewiseTask#mounts}
 
 ---
 
@@ -1293,7 +1293,7 @@ TimeoutSeconds *f64
 
 The timeout in seconds for task execution. Default: 3600 (1 hour).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_task#timeout_seconds IotsitewiseTask#timeout_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_task#timeout_seconds IotsitewiseTask#timeout_seconds}
 
 ---
 
@@ -1302,7 +1302,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsitewiseTask.IotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisetask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisetask"
 
 &iotsitewisetask.IotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfiguration {
 	StorageClass: *string,
@@ -1331,7 +1331,7 @@ The storage type that determines I/O performance characteristics.
 
 Family name indicates workload pattern, level number indicates performance within that family.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_task#storage_class IotsitewiseTask#storage_class}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_task#storage_class IotsitewiseTask#storage_class}
 
 ---
 
@@ -1345,7 +1345,7 @@ StorageSizeInGiB *f64
 
 Storage volume size in GiB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_task#storage_size_in_gi_b IotsitewiseTask#storage_size_in_gi_b}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_task#storage_size_in_gi_b IotsitewiseTask#storage_size_in_gi_b}
 
 ---
 
@@ -1354,12 +1354,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsitewiseTask.IotsitewiseTaskTaskConfigurationContainerTaskConfigurationMounts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisetask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisetask"
 
 &iotsitewisetask.IotsitewiseTaskTaskConfigurationContainerTaskConfigurationMounts {
 	Name: *string,
 	RelativePath: *string,
-	Source: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotsitewiseTask.IotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSource,
+	Source: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotsitewiseTask.IotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSource,
 	StorageType: *string,
 }
 ```
@@ -1385,7 +1385,7 @@ Name *string
 
 A unique name for the mount within the task.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_task#name IotsitewiseTask#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_task#name IotsitewiseTask#name}
 
 ---
 
@@ -1399,7 +1399,7 @@ RelativePath *string
 
 The relative path under the service-owned mount root where this mount is attached inside the container.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_task#relative_path IotsitewiseTask#relative_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_task#relative_path IotsitewiseTask#relative_path}
 
 ---
 
@@ -1413,7 +1413,7 @@ Source IotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSource
 
 The data source configuration for a mount.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_task#source IotsitewiseTask#source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_task#source IotsitewiseTask#source}
 
 ---
 
@@ -1427,7 +1427,7 @@ StorageType *string
 
 The type of storage used for the mount inside the container.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_task#storage_type IotsitewiseTask#storage_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_task#storage_type IotsitewiseTask#storage_type}
 
 ---
 
@@ -1436,10 +1436,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsitewiseTask.IotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisetask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisetask"
 
 &iotsitewisetask.IotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSource {
-	S3AccessPoint: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotsitewiseTask.IotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPoint,
+	S3AccessPoint: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotsitewiseTask.IotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPoint,
 }
 ```
 
@@ -1461,7 +1461,7 @@ S3AccessPoint IotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSo
 
 Configures a mount that reads from an Amazon S3 access point.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_task#s3_access_point IotsitewiseTask#s3_access_point}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_task#s3_access_point IotsitewiseTask#s3_access_point}
 
 ---
 
@@ -1470,7 +1470,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsitewiseTask.IotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPoint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisetask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisetask"
 
 &iotsitewisetask.IotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPoint {
 	AccessPointArn: *string,
@@ -1499,7 +1499,7 @@ The Amazon Resource Name (ARN) of the Amazon S3 access point.
 
 The mount reads objects from the bucket associated with this access point. Access is governed by the access point policy and the task execution role's IAM permissions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_task#access_point_arn IotsitewiseTask#access_point_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_task#access_point_arn IotsitewiseTask#access_point_arn}
 
 ---
 
@@ -1515,7 +1515,7 @@ An object key name prefix.
 
 If specified, the mount includes only objects whose keys begin with this prefix. To include all objects at the access point, omit this field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_task#prefix IotsitewiseTask#prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_task#prefix IotsitewiseTask#prefix}
 
 ---
 
@@ -1526,7 +1526,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseTask.IotsitewiseTaskTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisetask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisetask"
 
 iotsitewisetask.NewIotsitewiseTaskTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IotsitewiseTaskTagsList
 ```
@@ -1686,7 +1686,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseTask.IotsitewiseTaskTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisetask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisetask"
 
 iotsitewisetask.NewIotsitewiseTaskTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IotsitewiseTaskTagsOutputReference
 ```
@@ -2011,7 +2011,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseTask.IotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisetask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisetask"
 
 iotsitewisetask.NewIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference
 ```
@@ -2318,7 +2318,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseTask.IotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisetask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisetask"
 
 iotsitewisetask.NewIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsList
 ```
@@ -2478,7 +2478,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseTask.IotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisetask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisetask"
 
 iotsitewisetask.NewIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsOutputReference
 ```
@@ -2874,7 +2874,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseTask.IotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisetask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisetask"
 
 iotsitewisetask.NewIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceOutputReference
 ```
@@ -3165,7 +3165,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseTask.IotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisetask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisetask"
 
 iotsitewisetask.NewIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsSourceS3AccessPointOutputReference
 ```
@@ -3472,7 +3472,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseTask.IotsitewiseTaskTaskConfigurationContainerTaskConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisetask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisetask"
 
 iotsitewisetask.NewIotsitewiseTaskTaskConfigurationContainerTaskConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotsitewiseTaskTaskConfigurationContainerTaskConfigurationOutputReference
 ```
@@ -3980,7 +3980,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseTask.IotsitewiseTaskTaskConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisetask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisetask"
 
 iotsitewisetask.NewIotsitewiseTaskTaskConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotsitewiseTaskTaskConfigurationOutputReference
 ```

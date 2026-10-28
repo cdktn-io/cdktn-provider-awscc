@@ -4,12 +4,12 @@
 
 ### DataAwsccShieldDrtAccess <a name="DataAwsccShieldDrtAccess" id="@cdktn/provider-awscc.dataAwsccShieldDrtAccess.DataAwsccShieldDrtAccess"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/shield_drt_access awscc_shield_drt_access}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/shield_drt_access awscc_shield_drt_access}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccShieldDrtAccess.DataAwsccShieldDrtAccess.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccshielddrtaccess"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccshielddrtaccess"
 
 dataawsccshielddrtaccess.NewDataAwsccShieldDrtAccess(scope Construct, id *string, config DataAwsccShieldDrtAccessConfig) DataAwsccShieldDrtAccess
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccShieldDrtAccess.DataAwsccShieldDrtAccess.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccshielddrtaccess"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccshielddrtaccess"
 
 dataawsccshielddrtaccess.DataAwsccShieldDrtAccess_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccShieldDrtAccess.DataAwsccShieldDrtAccess.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccshielddrtaccess"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccshielddrtaccess"
 
 dataawsccshielddrtaccess.DataAwsccShieldDrtAccess_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccshielddrtaccess.DataAwsccShieldDrtAccess_IsTerraformElement(x interface
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccShieldDrtAccess.DataAwsccShieldDrtAccess.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccshielddrtaccess"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccshielddrtaccess"
 
 dataawsccshielddrtaccess.DataAwsccShieldDrtAccess_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccshielddrtaccess.DataAwsccShieldDrtAccess_IsTerraformDataSource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccShieldDrtAccess.DataAwsccShieldDrtAccess.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccshielddrtaccess"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccshielddrtaccess"
 
 dataawsccshielddrtaccess.DataAwsccShieldDrtAccess_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccShieldDrtAccess t
 
 The id of the existing DataAwsccShieldDrtAccess that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/shield_drt_access#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/shield_drt_access#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -620,7 +620,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccShieldDrtAccess.DataAwsccShieldDrtAccessConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccshielddrtaccess"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccshielddrtaccess"
 
 &dataawsccshielddrtaccess.DataAwsccShieldDrtAccessConfig {
 	Connection: interface{},
@@ -729,7 +729,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/shield_drt_access#id DataAwsccShieldDrtAccess#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/shield_drt_access#id DataAwsccShieldDrtAccess#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

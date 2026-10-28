@@ -4,12 +4,12 @@
 
 ### DataAwsccComprehendFlywheels <a name="DataAwsccComprehendFlywheels" id="@cdktn/provider-awscc.dataAwsccComprehendFlywheels.DataAwsccComprehendFlywheels"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/comprehend_flywheels awscc_comprehend_flywheels}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/comprehend_flywheels awscc_comprehend_flywheels}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccComprehendFlywheels.DataAwsccComprehendFlywheels.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehendflywheels"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehendflywheels"
 
 dataawscccomprehendflywheels.NewDataAwsccComprehendFlywheels(scope Construct, id *string, config DataAwsccComprehendFlywheelsConfig) DataAwsccComprehendFlywheels
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccComprehendFlywheels.DataAwsccComprehendFlywheels.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehendflywheels"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehendflywheels"
 
 dataawscccomprehendflywheels.DataAwsccComprehendFlywheels_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccComprehendFlywheels.DataAwsccComprehendFlywheels.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehendflywheels"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehendflywheels"
 
 dataawscccomprehendflywheels.DataAwsccComprehendFlywheels_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccomprehendflywheels.DataAwsccComprehendFlywheels_IsTerraformElement(x i
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccComprehendFlywheels.DataAwsccComprehendFlywheels.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehendflywheels"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehendflywheels"
 
 dataawscccomprehendflywheels.DataAwsccComprehendFlywheels_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccomprehendflywheels.DataAwsccComprehendFlywheels_IsTerraformDataSource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccComprehendFlywheels.DataAwsccComprehendFlywheels.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehendflywheels"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehendflywheels"
 
 dataawscccomprehendflywheels.DataAwsccComprehendFlywheels_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccComprehendFlywhee
 
 The id of the existing DataAwsccComprehendFlywheels that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/comprehend_flywheels#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/comprehend_flywheels#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccComprehendFlywheels.DataAwsccComprehendFlywheelsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehendflywheels"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehendflywheels"
 
 &dataawscccomprehendflywheels.DataAwsccComprehendFlywheelsConfig {
 	Connection: interface{},

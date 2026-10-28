@@ -4,12 +4,12 @@
 
 ### Ec2ClientVpnAuthorizationRule <a name="Ec2ClientVpnAuthorizationRule" id="@cdktn/provider-awscc.ec2ClientVpnAuthorizationRule.Ec2ClientVpnAuthorizationRule"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_client_vpn_authorization_rule awscc_ec2_client_vpn_authorization_rule}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_client_vpn_authorization_rule awscc_ec2_client_vpn_authorization_rule}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2ClientVpnAuthorizationRule.Ec2ClientVpnAuthorizationRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2clientvpnauthorizationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2clientvpnauthorizationrule"
 
 ec2clientvpnauthorizationrule.NewEc2ClientVpnAuthorizationRule(scope Construct, id *string, config Ec2ClientVpnAuthorizationRuleConfig) Ec2ClientVpnAuthorizationRule
 ```
@@ -421,7 +421,7 @@ func ResetDescription()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.ec2ClientVpnAuthorizationRule.Ec2ClientVpnAuthorizationRule.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2clientvpnauthorizationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2clientvpnauthorizationrule"
 
 ec2clientvpnauthorizationrule.Ec2ClientVpnAuthorizationRule_IsConstruct(x interface{}) *bool
 ```
@@ -453,7 +453,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.ec2ClientVpnAuthorizationRule.Ec2ClientVpnAuthorizationRule.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2clientvpnauthorizationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2clientvpnauthorizationrule"
 
 ec2clientvpnauthorizationrule.Ec2ClientVpnAuthorizationRule_IsTerraformElement(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ ec2clientvpnauthorizationrule.Ec2ClientVpnAuthorizationRule_IsTerraformElement(x
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.ec2ClientVpnAuthorizationRule.Ec2ClientVpnAuthorizationRule.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2clientvpnauthorizationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2clientvpnauthorizationrule"
 
 ec2clientvpnauthorizationrule.Ec2ClientVpnAuthorizationRule_IsTerraformResource(x interface{}) *bool
 ```
@@ -481,7 +481,7 @@ ec2clientvpnauthorizationrule.Ec2ClientVpnAuthorizationRule_IsTerraformResource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.ec2ClientVpnAuthorizationRule.Ec2ClientVpnAuthorizationRule.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2clientvpnauthorizationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2clientvpnauthorizationrule"
 
 ec2clientvpnauthorizationrule.Ec2ClientVpnAuthorizationRule_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -510,7 +510,7 @@ The construct id used in the generated config for the Ec2ClientVpnAuthorizationR
 
 The id of the existing Ec2ClientVpnAuthorizationRule that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_client_vpn_authorization_rule#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_client_vpn_authorization_rule#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -842,7 +842,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2ClientVpnAuthorizationRule.Ec2ClientVpnAuthorizationRuleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2clientvpnauthorizationrule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2clientvpnauthorizationrule"
 
 &ec2clientvpnauthorizationrule.Ec2ClientVpnAuthorizationRuleConfig {
 	Connection: interface{},
@@ -959,7 +959,7 @@ ClientVpnEndpointId *string
 
 The ID of the Client VPN endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_client_vpn_authorization_rule#client_vpn_endpoint_id Ec2ClientVpnAuthorizationRule#client_vpn_endpoint_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_client_vpn_authorization_rule#client_vpn_endpoint_id Ec2ClientVpnAuthorizationRule#client_vpn_endpoint_id}
 
 ---
 
@@ -973,7 +973,7 @@ TargetNetworkCidr *string
 
 The IPv4 address range, in CIDR notation, of the network for which access is being authorized.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_client_vpn_authorization_rule#target_network_cidr Ec2ClientVpnAuthorizationRule#target_network_cidr}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_client_vpn_authorization_rule#target_network_cidr Ec2ClientVpnAuthorizationRule#target_network_cidr}
 
 ---
 
@@ -989,7 +989,7 @@ The ID of the group to grant access to, for example, the Active Directory group 
 
 Required if `AuthorizeAllGroups` is `false` or not specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_client_vpn_authorization_rule#access_group_id Ec2ClientVpnAuthorizationRule#access_group_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_client_vpn_authorization_rule#access_group_id Ec2ClientVpnAuthorizationRule#access_group_id}
 
 ---
 
@@ -1005,7 +1005,7 @@ Indicates whether to grant access to all clients.
 
 Specify `true` to grant all clients who successfully establish a VPN connection access to the network. Must be set to `true` if `AccessGroupId` is not specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_client_vpn_authorization_rule#authorize_all_groups Ec2ClientVpnAuthorizationRule#authorize_all_groups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_client_vpn_authorization_rule#authorize_all_groups Ec2ClientVpnAuthorizationRule#authorize_all_groups}
 
 ---
 
@@ -1019,7 +1019,7 @@ Description *string
 
 A brief description of the authorization rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_client_vpn_authorization_rule#description Ec2ClientVpnAuthorizationRule#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_client_vpn_authorization_rule#description Ec2ClientVpnAuthorizationRule#description}
 
 ---
 

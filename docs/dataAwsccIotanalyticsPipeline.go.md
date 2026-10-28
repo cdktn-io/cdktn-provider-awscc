@@ -4,12 +4,12 @@
 
 ### DataAwsccIotanalyticsPipeline <a name="DataAwsccIotanalyticsPipeline" id="@cdktn/provider-awscc.dataAwsccIotanalyticsPipeline.DataAwsccIotanalyticsPipeline"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotanalytics_pipeline awscc_iotanalytics_pipeline}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotanalytics_pipeline awscc_iotanalytics_pipeline}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsPipeline.DataAwsccIotanalyticsPipeline.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticspipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticspipeline"
 
 dataawscciotanalyticspipeline.NewDataAwsccIotanalyticsPipeline(scope Construct, id *string, config DataAwsccIotanalyticsPipelineConfig) DataAwsccIotanalyticsPipeline
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIotanalyticsPipeline.DataAwsccIotanalyticsPipeline.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticspipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticspipeline"
 
 dataawscciotanalyticspipeline.DataAwsccIotanalyticsPipeline_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIotanalyticsPipeline.DataAwsccIotanalyticsPipeline.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticspipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticspipeline"
 
 dataawscciotanalyticspipeline.DataAwsccIotanalyticsPipeline_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciotanalyticspipeline.DataAwsccIotanalyticsPipeline_IsTerraformElement(x
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIotanalyticsPipeline.DataAwsccIotanalyticsPipeline.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticspipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticspipeline"
 
 dataawscciotanalyticspipeline.DataAwsccIotanalyticsPipeline_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciotanalyticspipeline.DataAwsccIotanalyticsPipeline_IsTerraformDataSourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIotanalyticsPipeline.DataAwsccIotanalyticsPipeline.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticspipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticspipeline"
 
 dataawscciotanalyticspipeline.DataAwsccIotanalyticsPipeline_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotanalyticsPipel
 
 The id of the existing DataAwsccIotanalyticsPipeline that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotanalytics_pipeline#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotanalytics_pipeline#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -631,7 +631,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotanalyticsPipeline.DataAwsccIotanalyticsPipelineConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticspipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticspipeline"
 
 &dataawscciotanalyticspipeline.DataAwsccIotanalyticsPipelineConfig {
 	Connection: interface{},
@@ -740,7 +740,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotanalytics_pipeline#id DataAwsccIotanalyticsPipeline#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotanalytics_pipeline#id DataAwsccIotanalyticsPipeline#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -752,7 +752,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotanalyticsPipeline.DataAwsccIotanalyticsPipelinePipelineActivities.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticspipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticspipeline"
 
 &dataawscciotanalyticspipeline.DataAwsccIotanalyticsPipelinePipelineActivities {
 
@@ -765,7 +765,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotanalyticsPipeline.DataAwsccIotanalyticsPipelinePipelineActivitiesAddAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticspipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticspipeline"
 
 &dataawscciotanalyticspipeline.DataAwsccIotanalyticsPipelinePipelineActivitiesAddAttributes {
 
@@ -778,7 +778,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotanalyticsPipeline.DataAwsccIotanalyticsPipelinePipelineActivitiesChannel.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticspipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticspipeline"
 
 &dataawscciotanalyticspipeline.DataAwsccIotanalyticsPipelinePipelineActivitiesChannel {
 
@@ -791,7 +791,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotanalyticsPipeline.DataAwsccIotanalyticsPipelinePipelineActivitiesDatastore.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticspipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticspipeline"
 
 &dataawscciotanalyticspipeline.DataAwsccIotanalyticsPipelinePipelineActivitiesDatastore {
 
@@ -804,7 +804,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotanalyticsPipeline.DataAwsccIotanalyticsPipelinePipelineActivitiesDeviceRegistryEnrich.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticspipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticspipeline"
 
 &dataawscciotanalyticspipeline.DataAwsccIotanalyticsPipelinePipelineActivitiesDeviceRegistryEnrich {
 
@@ -817,7 +817,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotanalyticsPipeline.DataAwsccIotanalyticsPipelinePipelineActivitiesDeviceShadowEnrich.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticspipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticspipeline"
 
 &dataawscciotanalyticspipeline.DataAwsccIotanalyticsPipelinePipelineActivitiesDeviceShadowEnrich {
 
@@ -830,7 +830,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotanalyticsPipeline.DataAwsccIotanalyticsPipelinePipelineActivitiesFilter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticspipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticspipeline"
 
 &dataawscciotanalyticspipeline.DataAwsccIotanalyticsPipelinePipelineActivitiesFilter {
 
@@ -843,7 +843,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotanalyticsPipeline.DataAwsccIotanalyticsPipelinePipelineActivitiesLambda.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticspipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticspipeline"
 
 &dataawscciotanalyticspipeline.DataAwsccIotanalyticsPipelinePipelineActivitiesLambda {
 
@@ -856,7 +856,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotanalyticsPipeline.DataAwsccIotanalyticsPipelinePipelineActivitiesMath.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticspipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticspipeline"
 
 &dataawscciotanalyticspipeline.DataAwsccIotanalyticsPipelinePipelineActivitiesMath {
 
@@ -869,7 +869,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotanalyticsPipeline.DataAwsccIotanalyticsPipelinePipelineActivitiesRemoveAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticspipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticspipeline"
 
 &dataawscciotanalyticspipeline.DataAwsccIotanalyticsPipelinePipelineActivitiesRemoveAttributes {
 
@@ -882,7 +882,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotanalyticsPipeline.DataAwsccIotanalyticsPipelinePipelineActivitiesSelectAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticspipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticspipeline"
 
 &dataawscciotanalyticspipeline.DataAwsccIotanalyticsPipelinePipelineActivitiesSelectAttributes {
 
@@ -895,7 +895,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotanalyticsPipeline.DataAwsccIotanalyticsPipelineTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticspipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticspipeline"
 
 &dataawscciotanalyticspipeline.DataAwsccIotanalyticsPipelineTags {
 
@@ -910,7 +910,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsp
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsPipeline.DataAwsccIotanalyticsPipelinePipelineActivitiesAddAttributesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticspipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticspipeline"
 
 dataawscciotanalyticspipeline.NewDataAwsccIotanalyticsPipelinePipelineActivitiesAddAttributesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotanalyticsPipelinePipelineActivitiesAddAttributesOutputReference
 ```
@@ -1192,7 +1192,7 @@ func InternalValue() DataAwsccIotanalyticsPipelinePipelineActivitiesAddAttribute
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsPipeline.DataAwsccIotanalyticsPipelinePipelineActivitiesChannelOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticspipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticspipeline"
 
 dataawscciotanalyticspipeline.NewDataAwsccIotanalyticsPipelinePipelineActivitiesChannelOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotanalyticsPipelinePipelineActivitiesChannelOutputReference
 ```
@@ -1474,7 +1474,7 @@ func InternalValue() DataAwsccIotanalyticsPipelinePipelineActivitiesChannel
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsPipeline.DataAwsccIotanalyticsPipelinePipelineActivitiesDatastoreOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticspipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticspipeline"
 
 dataawscciotanalyticspipeline.NewDataAwsccIotanalyticsPipelinePipelineActivitiesDatastoreOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotanalyticsPipelinePipelineActivitiesDatastoreOutputReference
 ```
@@ -1745,7 +1745,7 @@ func InternalValue() DataAwsccIotanalyticsPipelinePipelineActivitiesDatastore
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsPipeline.DataAwsccIotanalyticsPipelinePipelineActivitiesDeviceRegistryEnrichOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticspipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticspipeline"
 
 dataawscciotanalyticspipeline.NewDataAwsccIotanalyticsPipelinePipelineActivitiesDeviceRegistryEnrichOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotanalyticsPipelinePipelineActivitiesDeviceRegistryEnrichOutputReference
 ```
@@ -2049,7 +2049,7 @@ func InternalValue() DataAwsccIotanalyticsPipelinePipelineActivitiesDeviceRegist
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsPipeline.DataAwsccIotanalyticsPipelinePipelineActivitiesDeviceShadowEnrichOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticspipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticspipeline"
 
 dataawscciotanalyticspipeline.NewDataAwsccIotanalyticsPipelinePipelineActivitiesDeviceShadowEnrichOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotanalyticsPipelinePipelineActivitiesDeviceShadowEnrichOutputReference
 ```
@@ -2353,7 +2353,7 @@ func InternalValue() DataAwsccIotanalyticsPipelinePipelineActivitiesDeviceShadow
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsPipeline.DataAwsccIotanalyticsPipelinePipelineActivitiesFilterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticspipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticspipeline"
 
 dataawscciotanalyticspipeline.NewDataAwsccIotanalyticsPipelinePipelineActivitiesFilterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotanalyticsPipelinePipelineActivitiesFilterOutputReference
 ```
@@ -2635,7 +2635,7 @@ func InternalValue() DataAwsccIotanalyticsPipelinePipelineActivitiesFilter
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsPipeline.DataAwsccIotanalyticsPipelinePipelineActivitiesLambdaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticspipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticspipeline"
 
 dataawscciotanalyticspipeline.NewDataAwsccIotanalyticsPipelinePipelineActivitiesLambdaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotanalyticsPipelinePipelineActivitiesLambdaOutputReference
 ```
@@ -2928,7 +2928,7 @@ func InternalValue() DataAwsccIotanalyticsPipelinePipelineActivitiesLambda
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsPipeline.DataAwsccIotanalyticsPipelinePipelineActivitiesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticspipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticspipeline"
 
 dataawscciotanalyticspipeline.NewDataAwsccIotanalyticsPipelinePipelineActivitiesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIotanalyticsPipelinePipelineActivitiesList
 ```
@@ -3077,7 +3077,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsPipeline.DataAwsccIotanalyticsPipelinePipelineActivitiesMathOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticspipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticspipeline"
 
 dataawscciotanalyticspipeline.NewDataAwsccIotanalyticsPipelinePipelineActivitiesMathOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotanalyticsPipelinePipelineActivitiesMathOutputReference
 ```
@@ -3370,7 +3370,7 @@ func InternalValue() DataAwsccIotanalyticsPipelinePipelineActivitiesMath
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsPipeline.DataAwsccIotanalyticsPipelinePipelineActivitiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticspipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticspipeline"
 
 dataawscciotanalyticspipeline.NewDataAwsccIotanalyticsPipelinePipelineActivitiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIotanalyticsPipelinePipelineActivitiesOutputReference
 ```
@@ -3747,7 +3747,7 @@ func InternalValue() DataAwsccIotanalyticsPipelinePipelineActivities
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsPipeline.DataAwsccIotanalyticsPipelinePipelineActivitiesRemoveAttributesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticspipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticspipeline"
 
 dataawscciotanalyticspipeline.NewDataAwsccIotanalyticsPipelinePipelineActivitiesRemoveAttributesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotanalyticsPipelinePipelineActivitiesRemoveAttributesOutputReference
 ```
@@ -4029,7 +4029,7 @@ func InternalValue() DataAwsccIotanalyticsPipelinePipelineActivitiesRemoveAttrib
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsPipeline.DataAwsccIotanalyticsPipelinePipelineActivitiesSelectAttributesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticspipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticspipeline"
 
 dataawscciotanalyticspipeline.NewDataAwsccIotanalyticsPipelinePipelineActivitiesSelectAttributesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotanalyticsPipelinePipelineActivitiesSelectAttributesOutputReference
 ```
@@ -4311,7 +4311,7 @@ func InternalValue() DataAwsccIotanalyticsPipelinePipelineActivitiesSelectAttrib
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsPipeline.DataAwsccIotanalyticsPipelineTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticspipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticspipeline"
 
 dataawscciotanalyticspipeline.NewDataAwsccIotanalyticsPipelineTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIotanalyticsPipelineTagsList
 ```
@@ -4460,7 +4460,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsPipeline.DataAwsccIotanalyticsPipelineTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticspipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticspipeline"
 
 dataawscciotanalyticspipeline.NewDataAwsccIotanalyticsPipelineTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIotanalyticsPipelineTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccSsmDocument <a name="DataAwsccSsmDocument" id="@cdktn/provider-awscc.dataAwsccSsmDocument.DataAwsccSsmDocument"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ssm_document awscc_ssm_document}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ssm_document awscc_ssm_document}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmDocument.DataAwsccSsmDocument.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmdocument"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmdocument"
 
 dataawsccssmdocument.NewDataAwsccSsmDocument(scope Construct, id *string, config DataAwsccSsmDocumentConfig) DataAwsccSsmDocument
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSsmDocument.DataAwsccSsmDocument.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmdocument"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmdocument"
 
 dataawsccssmdocument.DataAwsccSsmDocument_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSsmDocument.DataAwsccSsmDocument.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmdocument"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmdocument"
 
 dataawsccssmdocument.DataAwsccSsmDocument_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccssmdocument.DataAwsccSsmDocument_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSsmDocument.DataAwsccSsmDocument.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmdocument"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmdocument"
 
 dataawsccssmdocument.DataAwsccSsmDocument_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccssmdocument.DataAwsccSsmDocument_IsTerraformDataSource(x interface{}) *
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSsmDocument.DataAwsccSsmDocument.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmdocument"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmdocument"
 
 dataawsccssmdocument.DataAwsccSsmDocument_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSsmDocument to im
 
 The id of the existing DataAwsccSsmDocument that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ssm_document#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ssm_document#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -697,7 +697,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSsmDocument.DataAwsccSsmDocumentAttachments.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmdocument"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmdocument"
 
 &dataawsccssmdocument.DataAwsccSsmDocumentAttachments {
 
@@ -710,7 +710,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmdocument"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSsmDocument.DataAwsccSsmDocumentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmdocument"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmdocument"
 
 &dataawsccssmdocument.DataAwsccSsmDocumentConfig {
 	Connection: interface{},
@@ -819,7 +819,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ssm_document#id DataAwsccSsmDocument#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ssm_document#id DataAwsccSsmDocument#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -831,7 +831,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSsmDocument.DataAwsccSsmDocumentRequires.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmdocument"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmdocument"
 
 &dataawsccssmdocument.DataAwsccSsmDocumentRequires {
 
@@ -844,7 +844,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmdocument"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSsmDocument.DataAwsccSsmDocumentTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmdocument"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmdocument"
 
 &dataawsccssmdocument.DataAwsccSsmDocumentTags {
 
@@ -859,7 +859,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmdocument"
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmDocument.DataAwsccSsmDocumentAttachmentsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmdocument"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmdocument"
 
 dataawsccssmdocument.NewDataAwsccSsmDocumentAttachmentsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSsmDocumentAttachmentsList
 ```
@@ -1008,7 +1008,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmDocument.DataAwsccSsmDocumentAttachmentsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmdocument"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmdocument"
 
 dataawsccssmdocument.NewDataAwsccSsmDocumentAttachmentsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSsmDocumentAttachmentsOutputReference
 ```
@@ -1308,7 +1308,7 @@ func InternalValue() DataAwsccSsmDocumentAttachments
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmDocument.DataAwsccSsmDocumentRequiresList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmdocument"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmdocument"
 
 dataawsccssmdocument.NewDataAwsccSsmDocumentRequiresList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSsmDocumentRequiresList
 ```
@@ -1457,7 +1457,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmDocument.DataAwsccSsmDocumentRequiresOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmdocument"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmdocument"
 
 dataawsccssmdocument.NewDataAwsccSsmDocumentRequiresOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSsmDocumentRequiresOutputReference
 ```
@@ -1746,7 +1746,7 @@ func InternalValue() DataAwsccSsmDocumentRequires
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmDocument.DataAwsccSsmDocumentTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmdocument"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmdocument"
 
 dataawsccssmdocument.NewDataAwsccSsmDocumentTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSsmDocumentTagsList
 ```
@@ -1895,7 +1895,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmDocument.DataAwsccSsmDocumentTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmdocument"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmdocument"
 
 dataawsccssmdocument.NewDataAwsccSsmDocumentTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSsmDocumentTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccSagemakerModelPackageGroups <a name="DataAwsccSagemakerModelPackageGroups" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackageGroups.DataAwsccSagemakerModelPackageGroups"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_model_package_groups awscc_sagemaker_model_package_groups}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_model_package_groups awscc_sagemaker_model_package_groups}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackageGroups.DataAwsccSagemakerModelPackageGroups.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackagegroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackagegroups"
 
 dataawsccsagemakermodelpackagegroups.NewDataAwsccSagemakerModelPackageGroups(scope Construct, id *string, config DataAwsccSagemakerModelPackageGroupsConfig) DataAwsccSagemakerModelPackageGroups
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackageGroups.DataAwsccSagemakerModelPackageGroups.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackagegroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackagegroups"
 
 dataawsccsagemakermodelpackagegroups.DataAwsccSagemakerModelPackageGroups_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackageGroups.DataAwsccSagemakerModelPackageGroups.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackagegroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackagegroups"
 
 dataawsccsagemakermodelpackagegroups.DataAwsccSagemakerModelPackageGroups_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsagemakermodelpackagegroups.DataAwsccSagemakerModelPackageGroups_IsTerr
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackageGroups.DataAwsccSagemakerModelPackageGroups.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackagegroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackagegroups"
 
 dataawsccsagemakermodelpackagegroups.DataAwsccSagemakerModelPackageGroups_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsagemakermodelpackagegroups.DataAwsccSagemakerModelPackageGroups_IsTerr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackageGroups.DataAwsccSagemakerModelPackageGroups.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackagegroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackagegroups"
 
 dataawsccsagemakermodelpackagegroups.DataAwsccSagemakerModelPackageGroups_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSagemakerModelPac
 
 The id of the existing DataAwsccSagemakerModelPackageGroups that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_model_package_groups#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_model_package_groups#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelPackageGroups.DataAwsccSagemakerModelPackageGroupsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackagegroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackagegroups"
 
 &dataawsccsagemakermodelpackagegroups.DataAwsccSagemakerModelPackageGroupsConfig {
 	Connection: interface{},

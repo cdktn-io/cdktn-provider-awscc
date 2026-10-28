@@ -4,12 +4,12 @@
 
 ### IotThingPrincipalAttachment <a name="IotThingPrincipalAttachment" id="@cdktn/provider-awscc.iotThingPrincipalAttachment.IotThingPrincipalAttachment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_thing_principal_attachment awscc_iot_thing_principal_attachment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_thing_principal_attachment awscc_iot_thing_principal_attachment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotThingPrincipalAttachment.IotThingPrincipalAttachment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotthingprincipalattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotthingprincipalattachment"
 
 iotthingprincipalattachment.NewIotThingPrincipalAttachment(scope Construct, id *string, config IotThingPrincipalAttachmentConfig) IotThingPrincipalAttachment
 ```
@@ -407,7 +407,7 @@ func ResetThingPrincipalType()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.iotThingPrincipalAttachment.IotThingPrincipalAttachment.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotthingprincipalattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotthingprincipalattachment"
 
 iotthingprincipalattachment.IotThingPrincipalAttachment_IsConstruct(x interface{}) *bool
 ```
@@ -439,7 +439,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.iotThingPrincipalAttachment.IotThingPrincipalAttachment.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotthingprincipalattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotthingprincipalattachment"
 
 iotthingprincipalattachment.IotThingPrincipalAttachment_IsTerraformElement(x interface{}) *bool
 ```
@@ -453,7 +453,7 @@ iotthingprincipalattachment.IotThingPrincipalAttachment_IsTerraformElement(x int
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.iotThingPrincipalAttachment.IotThingPrincipalAttachment.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotthingprincipalattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotthingprincipalattachment"
 
 iotthingprincipalattachment.IotThingPrincipalAttachment_IsTerraformResource(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ iotthingprincipalattachment.IotThingPrincipalAttachment_IsTerraformResource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.iotThingPrincipalAttachment.IotThingPrincipalAttachment.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotthingprincipalattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotthingprincipalattachment"
 
 iotthingprincipalattachment.IotThingPrincipalAttachment_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -496,7 +496,7 @@ The construct id used in the generated config for the IotThingPrincipalAttachmen
 
 The id of the existing IotThingPrincipalAttachment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_thing_principal_attachment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_thing_principal_attachment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -773,7 +773,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotThingPrincipalAttachment.IotThingPrincipalAttachmentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotthingprincipalattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotthingprincipalattachment"
 
 &iotthingprincipalattachment.IotThingPrincipalAttachmentConfig {
 	Connection: interface{},
@@ -886,7 +886,7 @@ Principal *string
 
 The principal, which can be a certificate ARN (as returned from the CreateCertificate operation) or an Amazon Cognito ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_thing_principal_attachment#principal IotThingPrincipalAttachment#principal}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_thing_principal_attachment#principal IotThingPrincipalAttachment#principal}
 
 ---
 
@@ -900,7 +900,7 @@ ThingName *string
 
 The name of the AWS IoT thing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_thing_principal_attachment#thing_name IotThingPrincipalAttachment#thing_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_thing_principal_attachment#thing_name IotThingPrincipalAttachment#thing_name}
 
 ---
 
@@ -914,7 +914,7 @@ ThingPrincipalType *string
 
 The type of the relation you want to specify when you attach a principal to a thing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_thing_principal_attachment#thing_principal_type IotThingPrincipalAttachment#thing_principal_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_thing_principal_attachment#thing_principal_type IotThingPrincipalAttachment#thing_principal_type}
 
 ---
 

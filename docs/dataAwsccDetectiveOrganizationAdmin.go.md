@@ -4,12 +4,12 @@
 
 ### DataAwsccDetectiveOrganizationAdmin <a name="DataAwsccDetectiveOrganizationAdmin" id="@cdktn/provider-awscc.dataAwsccDetectiveOrganizationAdmin.DataAwsccDetectiveOrganizationAdmin"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/detective_organization_admin awscc_detective_organization_admin}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/detective_organization_admin awscc_detective_organization_admin}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDetectiveOrganizationAdmin.DataAwsccDetectiveOrganizationAdmin.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdetectiveorganizationadmin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdetectiveorganizationadmin"
 
 dataawsccdetectiveorganizationadmin.NewDataAwsccDetectiveOrganizationAdmin(scope Construct, id *string, config DataAwsccDetectiveOrganizationAdminConfig) DataAwsccDetectiveOrganizationAdmin
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccDetectiveOrganizationAdmin.DataAwsccDetectiveOrganizationAdmin.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdetectiveorganizationadmin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdetectiveorganizationadmin"
 
 dataawsccdetectiveorganizationadmin.DataAwsccDetectiveOrganizationAdmin_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccDetectiveOrganizationAdmin.DataAwsccDetectiveOrganizationAdmin.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdetectiveorganizationadmin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdetectiveorganizationadmin"
 
 dataawsccdetectiveorganizationadmin.DataAwsccDetectiveOrganizationAdmin_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccdetectiveorganizationadmin.DataAwsccDetectiveOrganizationAdmin_IsTerraf
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccDetectiveOrganizationAdmin.DataAwsccDetectiveOrganizationAdmin.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdetectiveorganizationadmin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdetectiveorganizationadmin"
 
 dataawsccdetectiveorganizationadmin.DataAwsccDetectiveOrganizationAdmin_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccdetectiveorganizationadmin.DataAwsccDetectiveOrganizationAdmin_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccDetectiveOrganizationAdmin.DataAwsccDetectiveOrganizationAdmin.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdetectiveorganizationadmin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdetectiveorganizationadmin"
 
 dataawsccdetectiveorganizationadmin.DataAwsccDetectiveOrganizationAdmin_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDetectiveOrganiza
 
 The id of the existing DataAwsccDetectiveOrganizationAdmin that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/detective_organization_admin#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/detective_organization_admin#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -609,7 +609,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDetectiveOrganizationAdmin.DataAwsccDetectiveOrganizationAdminConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdetectiveorganizationadmin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdetectiveorganizationadmin"
 
 &dataawsccdetectiveorganizationadmin.DataAwsccDetectiveOrganizationAdminConfig {
 	Connection: interface{},
@@ -718,7 +718,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/detective_organization_admin#id DataAwsccDetectiveOrganizationAdmin#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/detective_organization_admin#id DataAwsccDetectiveOrganizationAdmin#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

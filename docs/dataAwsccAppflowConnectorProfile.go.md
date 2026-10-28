@@ -4,12 +4,12 @@
 
 ### DataAwsccAppflowConnectorProfile <a name="DataAwsccAppflowConnectorProfile" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfile"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appflow_connector_profile awscc_appflow_connector_profile}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appflow_connector_profile awscc_appflow_connector_profile}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfile.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 dataawsccappflowconnectorprofile.NewDataAwsccAppflowConnectorProfile(scope Construct, id *string, config DataAwsccAppflowConnectorProfileConfig) DataAwsccAppflowConnectorProfile
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfile.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 dataawsccappflowconnectorprofile.DataAwsccAppflowConnectorProfile_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfile.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 dataawsccappflowconnectorprofile.DataAwsccAppflowConnectorProfile_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccappflowconnectorprofile.DataAwsccAppflowConnectorProfile_IsTerraformEle
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfile.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 dataawsccappflowconnectorprofile.DataAwsccAppflowConnectorProfile_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccappflowconnectorprofile.DataAwsccAppflowConnectorProfile_IsTerraformDat
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfile.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 dataawsccappflowconnectorprofile.DataAwsccAppflowConnectorProfile_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccAppflowConnectorP
 
 The id of the existing DataAwsccAppflowConnectorProfile that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appflow_connector_profile#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appflow_connector_profile#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -675,7 +675,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 &dataawsccappflowconnectorprofile.DataAwsccAppflowConnectorProfileConfig {
 	Connection: interface{},
@@ -784,7 +784,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appflow_connector_profile#id DataAwsccAppflowConnectorProfile#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appflow_connector_profile#id DataAwsccAppflowConnectorProfile#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -796,7 +796,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 &dataawsccappflowconnectorprofile.DataAwsccAppflowConnectorProfileConnectorProfileConfig {
 
@@ -809,7 +809,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentials.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 &dataawsccappflowconnectorprofile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentials {
 
@@ -822,7 +822,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsAmplitude.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 &dataawsccappflowconnectorprofile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsAmplitude {
 
@@ -835,7 +835,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsCustomConnector.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 &dataawsccappflowconnectorprofile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsCustomConnector {
 
@@ -848,7 +848,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsCustomConnectorApiKey.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 &dataawsccappflowconnectorprofile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsCustomConnectorApiKey {
 
@@ -861,7 +861,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsCustomConnectorBasic.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 &dataawsccappflowconnectorprofile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsCustomConnectorBasic {
 
@@ -874,7 +874,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsCustomConnectorCustom.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 &dataawsccappflowconnectorprofile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsCustomConnectorCustom {
 
@@ -887,7 +887,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsCustomConnectorOauth2.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 &dataawsccappflowconnectorprofile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsCustomConnectorOauth2 {
 
@@ -900,7 +900,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsCustomConnectorOauth2OAuthRequest.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 &dataawsccappflowconnectorprofile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsCustomConnectorOauth2OAuthRequest {
 
@@ -913,7 +913,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsDatadog.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 &dataawsccappflowconnectorprofile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsDatadog {
 
@@ -926,7 +926,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsDynatrace.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 &dataawsccappflowconnectorprofile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsDynatrace {
 
@@ -939,7 +939,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsGoogleAnalytics.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 &dataawsccappflowconnectorprofile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsGoogleAnalytics {
 
@@ -952,7 +952,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsGoogleAnalyticsConnectorOAuthRequest.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 &dataawsccappflowconnectorprofile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsGoogleAnalyticsConnectorOAuthRequest {
 
@@ -965,7 +965,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsInforNexus.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 &dataawsccappflowconnectorprofile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsInforNexus {
 
@@ -978,7 +978,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsMarketo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 &dataawsccappflowconnectorprofile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsMarketo {
 
@@ -991,7 +991,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsMarketoConnectorOAuthRequest.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 &dataawsccappflowconnectorprofile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsMarketoConnectorOAuthRequest {
 
@@ -1004,7 +1004,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsPardot.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 &dataawsccappflowconnectorprofile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsPardot {
 
@@ -1017,7 +1017,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsPardotConnectorOAuthRequest.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 &dataawsccappflowconnectorprofile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsPardotConnectorOAuthRequest {
 
@@ -1030,7 +1030,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsRedshift.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 &dataawsccappflowconnectorprofile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsRedshift {
 
@@ -1043,7 +1043,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSalesforce.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 &dataawsccappflowconnectorprofile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSalesforce {
 
@@ -1056,7 +1056,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSalesforceConnectorOAuthRequest.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 &dataawsccappflowconnectorprofile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSalesforceConnectorOAuthRequest {
 
@@ -1069,7 +1069,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSapoData.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 &dataawsccappflowconnectorprofile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSapoData {
 
@@ -1082,7 +1082,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSapoDataBasicAuthCredentials.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 &dataawsccappflowconnectorprofile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSapoDataBasicAuthCredentials {
 
@@ -1095,7 +1095,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSapoDataOAuthCredentials.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 &dataawsccappflowconnectorprofile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSapoDataOAuthCredentials {
 
@@ -1108,7 +1108,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSapoDataOAuthCredentialsConnectorOAuthRequest.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 &dataawsccappflowconnectorprofile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSapoDataOAuthCredentialsConnectorOAuthRequest {
 
@@ -1121,7 +1121,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsServiceNow.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 &dataawsccappflowconnectorprofile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsServiceNow {
 
@@ -1134,7 +1134,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSingular.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 &dataawsccappflowconnectorprofile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSingular {
 
@@ -1147,7 +1147,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSlack.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 &dataawsccappflowconnectorprofile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSlack {
 
@@ -1160,7 +1160,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSlackConnectorOAuthRequest.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 &dataawsccappflowconnectorprofile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSlackConnectorOAuthRequest {
 
@@ -1173,7 +1173,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSnowflake.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 &dataawsccappflowconnectorprofile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSnowflake {
 
@@ -1186,7 +1186,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsTrendmicro.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 &dataawsccappflowconnectorprofile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsTrendmicro {
 
@@ -1199,7 +1199,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsVeeva.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 &dataawsccappflowconnectorprofile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsVeeva {
 
@@ -1212,7 +1212,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsZendesk.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 &dataawsccappflowconnectorprofile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsZendesk {
 
@@ -1225,7 +1225,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsZendeskConnectorOAuthRequest.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 &dataawsccappflowconnectorprofile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsZendeskConnectorOAuthRequest {
 
@@ -1238,7 +1238,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 &dataawsccappflowconnectorprofile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileProperties {
 
@@ -1251,7 +1251,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesCustomConnector.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 &dataawsccappflowconnectorprofile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesCustomConnector {
 
@@ -1264,7 +1264,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesCustomConnectorOAuth2Properties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 &dataawsccappflowconnectorprofile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesCustomConnectorOAuth2Properties {
 
@@ -1277,7 +1277,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesDatadog.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 &dataawsccappflowconnectorprofile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesDatadog {
 
@@ -1290,7 +1290,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesDynatrace.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 &dataawsccappflowconnectorprofile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesDynatrace {
 
@@ -1303,7 +1303,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesInforNexus.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 &dataawsccappflowconnectorprofile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesInforNexus {
 
@@ -1316,7 +1316,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesMarketo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 &dataawsccappflowconnectorprofile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesMarketo {
 
@@ -1329,7 +1329,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesPardot.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 &dataawsccappflowconnectorprofile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesPardot {
 
@@ -1342,7 +1342,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesRedshift.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 &dataawsccappflowconnectorprofile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesRedshift {
 
@@ -1355,7 +1355,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesSalesforce.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 &dataawsccappflowconnectorprofile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesSalesforce {
 
@@ -1368,7 +1368,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesSapoData.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 &dataawsccappflowconnectorprofile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesSapoData {
 
@@ -1381,7 +1381,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesSapoDataOAuthProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 &dataawsccappflowconnectorprofile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesSapoDataOAuthProperties {
 
@@ -1394,7 +1394,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesServiceNow.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 &dataawsccappflowconnectorprofile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesServiceNow {
 
@@ -1407,7 +1407,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesSlack.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 &dataawsccappflowconnectorprofile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesSlack {
 
@@ -1420,7 +1420,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesSnowflake.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 &dataawsccappflowconnectorprofile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesSnowflake {
 
@@ -1433,7 +1433,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesVeeva.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 &dataawsccappflowconnectorprofile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesVeeva {
 
@@ -1446,7 +1446,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnec
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesZendesk.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 &dataawsccappflowconnectorprofile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesZendesk {
 
@@ -1461,7 +1461,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnec
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsAmplitudeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 dataawsccappflowconnectorprofile.NewDataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsAmplitudeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsAmplitudeOutputReference
 ```
@@ -1732,7 +1732,7 @@ func InternalValue() DataAwsccAppflowConnectorProfileConnectorProfileConfigConne
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsCustomConnectorApiKeyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 dataawsccappflowconnectorprofile.NewDataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsCustomConnectorApiKeyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsCustomConnectorApiKeyOutputReference
 ```
@@ -2003,7 +2003,7 @@ func InternalValue() DataAwsccAppflowConnectorProfileConnectorProfileConfigConne
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsCustomConnectorBasicOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 dataawsccappflowconnectorprofile.NewDataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsCustomConnectorBasicOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsCustomConnectorBasicOutputReference
 ```
@@ -2274,7 +2274,7 @@ func InternalValue() DataAwsccAppflowConnectorProfileConnectorProfileConfigConne
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsCustomConnectorCustomOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 dataawsccappflowconnectorprofile.NewDataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsCustomConnectorCustomOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsCustomConnectorCustomOutputReference
 ```
@@ -2545,7 +2545,7 @@ func InternalValue() DataAwsccAppflowConnectorProfileConnectorProfileConfigConne
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsCustomConnectorOauth2OAuthRequestOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 dataawsccappflowconnectorprofile.NewDataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsCustomConnectorOauth2OAuthRequestOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsCustomConnectorOauth2OAuthRequestOutputReference
 ```
@@ -2816,7 +2816,7 @@ func InternalValue() DataAwsccAppflowConnectorProfileConnectorProfileConfigConne
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsCustomConnectorOauth2OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 dataawsccappflowconnectorprofile.NewDataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsCustomConnectorOauth2OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsCustomConnectorOauth2OutputReference
 ```
@@ -3120,7 +3120,7 @@ func InternalValue() DataAwsccAppflowConnectorProfileConnectorProfileConfigConne
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsCustomConnectorOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 dataawsccappflowconnectorprofile.NewDataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsCustomConnectorOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsCustomConnectorOutputReference
 ```
@@ -3424,7 +3424,7 @@ func InternalValue() DataAwsccAppflowConnectorProfileConnectorProfileConfigConne
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsDatadogOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 dataawsccappflowconnectorprofile.NewDataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsDatadogOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsDatadogOutputReference
 ```
@@ -3695,7 +3695,7 @@ func InternalValue() DataAwsccAppflowConnectorProfileConnectorProfileConfigConne
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsDynatraceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 dataawsccappflowconnectorprofile.NewDataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsDynatraceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsDynatraceOutputReference
 ```
@@ -3955,7 +3955,7 @@ func InternalValue() DataAwsccAppflowConnectorProfileConnectorProfileConfigConne
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsGoogleAnalyticsConnectorOAuthRequestOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 dataawsccappflowconnectorprofile.NewDataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsGoogleAnalyticsConnectorOAuthRequestOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsGoogleAnalyticsConnectorOAuthRequestOutputReference
 ```
@@ -4226,7 +4226,7 @@ func InternalValue() DataAwsccAppflowConnectorProfileConnectorProfileConfigConne
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsGoogleAnalyticsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 dataawsccappflowconnectorprofile.NewDataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsGoogleAnalyticsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsGoogleAnalyticsOutputReference
 ```
@@ -4530,7 +4530,7 @@ func InternalValue() DataAwsccAppflowConnectorProfileConnectorProfileConfigConne
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsInforNexusOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 dataawsccappflowconnectorprofile.NewDataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsInforNexusOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsInforNexusOutputReference
 ```
@@ -4823,7 +4823,7 @@ func InternalValue() DataAwsccAppflowConnectorProfileConnectorProfileConfigConne
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsMarketoConnectorOAuthRequestOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 dataawsccappflowconnectorprofile.NewDataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsMarketoConnectorOAuthRequestOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsMarketoConnectorOAuthRequestOutputReference
 ```
@@ -5094,7 +5094,7 @@ func InternalValue() DataAwsccAppflowConnectorProfileConnectorProfileConfigConne
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsMarketoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 dataawsccappflowconnectorprofile.NewDataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsMarketoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsMarketoOutputReference
 ```
@@ -5387,7 +5387,7 @@ func InternalValue() DataAwsccAppflowConnectorProfileConnectorProfileConfigConne
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 dataawsccappflowconnectorprofile.NewDataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsOutputReference
 ```
@@ -5834,7 +5834,7 @@ func InternalValue() DataAwsccAppflowConnectorProfileConnectorProfileConfigConne
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsPardotConnectorOAuthRequestOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 dataawsccappflowconnectorprofile.NewDataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsPardotConnectorOAuthRequestOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsPardotConnectorOAuthRequestOutputReference
 ```
@@ -6105,7 +6105,7 @@ func InternalValue() DataAwsccAppflowConnectorProfileConnectorProfileConfigConne
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsPardotOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 dataawsccappflowconnectorprofile.NewDataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsPardotOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsPardotOutputReference
 ```
@@ -6398,7 +6398,7 @@ func InternalValue() DataAwsccAppflowConnectorProfileConnectorProfileConfigConne
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsRedshiftOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 dataawsccappflowconnectorprofile.NewDataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsRedshiftOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsRedshiftOutputReference
 ```
@@ -6669,7 +6669,7 @@ func InternalValue() DataAwsccAppflowConnectorProfileConnectorProfileConfigConne
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSalesforceConnectorOAuthRequestOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 dataawsccappflowconnectorprofile.NewDataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSalesforceConnectorOAuthRequestOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSalesforceConnectorOAuthRequestOutputReference
 ```
@@ -6940,7 +6940,7 @@ func InternalValue() DataAwsccAppflowConnectorProfileConnectorProfileConfigConne
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSalesforceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 dataawsccappflowconnectorprofile.NewDataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSalesforceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSalesforceOutputReference
 ```
@@ -7233,7 +7233,7 @@ func InternalValue() DataAwsccAppflowConnectorProfileConnectorProfileConfigConne
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSapoDataBasicAuthCredentialsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 dataawsccappflowconnectorprofile.NewDataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSapoDataBasicAuthCredentialsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSapoDataBasicAuthCredentialsOutputReference
 ```
@@ -7504,7 +7504,7 @@ func InternalValue() DataAwsccAppflowConnectorProfileConnectorProfileConfigConne
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSapoDataOAuthCredentialsConnectorOAuthRequestOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 dataawsccappflowconnectorprofile.NewDataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSapoDataOAuthCredentialsConnectorOAuthRequestOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSapoDataOAuthCredentialsConnectorOAuthRequestOutputReference
 ```
@@ -7775,7 +7775,7 @@ func InternalValue() DataAwsccAppflowConnectorProfileConnectorProfileConfigConne
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSapoDataOAuthCredentialsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 dataawsccappflowconnectorprofile.NewDataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSapoDataOAuthCredentialsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSapoDataOAuthCredentialsOutputReference
 ```
@@ -8079,7 +8079,7 @@ func InternalValue() DataAwsccAppflowConnectorProfileConnectorProfileConfigConne
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSapoDataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 dataawsccappflowconnectorprofile.NewDataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSapoDataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSapoDataOutputReference
 ```
@@ -8350,7 +8350,7 @@ func InternalValue() DataAwsccAppflowConnectorProfileConnectorProfileConfigConne
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsServiceNowOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 dataawsccappflowconnectorprofile.NewDataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsServiceNowOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsServiceNowOutputReference
 ```
@@ -8621,7 +8621,7 @@ func InternalValue() DataAwsccAppflowConnectorProfileConnectorProfileConfigConne
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSingularOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 dataawsccappflowconnectorprofile.NewDataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSingularOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSingularOutputReference
 ```
@@ -8881,7 +8881,7 @@ func InternalValue() DataAwsccAppflowConnectorProfileConnectorProfileConfigConne
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSlackConnectorOAuthRequestOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 dataawsccappflowconnectorprofile.NewDataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSlackConnectorOAuthRequestOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSlackConnectorOAuthRequestOutputReference
 ```
@@ -9152,7 +9152,7 @@ func InternalValue() DataAwsccAppflowConnectorProfileConnectorProfileConfigConne
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSlackOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 dataawsccappflowconnectorprofile.NewDataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSlackOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSlackOutputReference
 ```
@@ -9445,7 +9445,7 @@ func InternalValue() DataAwsccAppflowConnectorProfileConnectorProfileConfigConne
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSnowflakeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 dataawsccappflowconnectorprofile.NewDataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSnowflakeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsSnowflakeOutputReference
 ```
@@ -9716,7 +9716,7 @@ func InternalValue() DataAwsccAppflowConnectorProfileConnectorProfileConfigConne
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsTrendmicroOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 dataawsccappflowconnectorprofile.NewDataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsTrendmicroOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsTrendmicroOutputReference
 ```
@@ -9976,7 +9976,7 @@ func InternalValue() DataAwsccAppflowConnectorProfileConnectorProfileConfigConne
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsVeevaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 dataawsccappflowconnectorprofile.NewDataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsVeevaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsVeevaOutputReference
 ```
@@ -10247,7 +10247,7 @@ func InternalValue() DataAwsccAppflowConnectorProfileConnectorProfileConfigConne
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsZendeskConnectorOAuthRequestOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 dataawsccappflowconnectorprofile.NewDataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsZendeskConnectorOAuthRequestOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsZendeskConnectorOAuthRequestOutputReference
 ```
@@ -10518,7 +10518,7 @@ func InternalValue() DataAwsccAppflowConnectorProfileConnectorProfileConfigConne
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsZendeskOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 dataawsccappflowconnectorprofile.NewDataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsZendeskOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsZendeskOutputReference
 ```
@@ -10811,7 +10811,7 @@ func InternalValue() DataAwsccAppflowConnectorProfileConnectorProfileConfigConne
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesCustomConnectorOAuth2PropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 dataawsccappflowconnectorprofile.NewDataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesCustomConnectorOAuth2PropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesCustomConnectorOAuth2PropertiesOutputReference
 ```
@@ -11093,7 +11093,7 @@ func InternalValue() DataAwsccAppflowConnectorProfileConnectorProfileConfigConne
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesCustomConnectorOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 dataawsccappflowconnectorprofile.NewDataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesCustomConnectorOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesCustomConnectorOutputReference
 ```
@@ -11364,7 +11364,7 @@ func InternalValue() DataAwsccAppflowConnectorProfileConnectorProfileConfigConne
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesDatadogOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 dataawsccappflowconnectorprofile.NewDataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesDatadogOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesDatadogOutputReference
 ```
@@ -11624,7 +11624,7 @@ func InternalValue() DataAwsccAppflowConnectorProfileConnectorProfileConfigConne
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesDynatraceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 dataawsccappflowconnectorprofile.NewDataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesDynatraceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesDynatraceOutputReference
 ```
@@ -11884,7 +11884,7 @@ func InternalValue() DataAwsccAppflowConnectorProfileConnectorProfileConfigConne
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesInforNexusOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 dataawsccappflowconnectorprofile.NewDataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesInforNexusOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesInforNexusOutputReference
 ```
@@ -12144,7 +12144,7 @@ func InternalValue() DataAwsccAppflowConnectorProfileConnectorProfileConfigConne
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesMarketoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 dataawsccappflowconnectorprofile.NewDataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesMarketoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesMarketoOutputReference
 ```
@@ -12404,7 +12404,7 @@ func InternalValue() DataAwsccAppflowConnectorProfileConnectorProfileConfigConne
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 dataawsccappflowconnectorprofile.NewDataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesOutputReference
 ```
@@ -12807,7 +12807,7 @@ func InternalValue() DataAwsccAppflowConnectorProfileConnectorProfileConfigConne
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesPardotOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 dataawsccappflowconnectorprofile.NewDataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesPardotOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesPardotOutputReference
 ```
@@ -13089,7 +13089,7 @@ func InternalValue() DataAwsccAppflowConnectorProfileConnectorProfileConfigConne
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesRedshiftOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 dataawsccappflowconnectorprofile.NewDataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesRedshiftOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesRedshiftOutputReference
 ```
@@ -13437,7 +13437,7 @@ func InternalValue() DataAwsccAppflowConnectorProfileConnectorProfileConfigConne
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesSalesforceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 dataawsccappflowconnectorprofile.NewDataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesSalesforceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesSalesforceOutputReference
 ```
@@ -13708,7 +13708,7 @@ func InternalValue() DataAwsccAppflowConnectorProfileConnectorProfileConfigConne
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesSapoDataOAuthPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 dataawsccappflowconnectorprofile.NewDataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesSapoDataOAuthPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesSapoDataOAuthPropertiesOutputReference
 ```
@@ -13990,7 +13990,7 @@ func InternalValue() DataAwsccAppflowConnectorProfileConnectorProfileConfigConne
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesSapoDataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 dataawsccappflowconnectorprofile.NewDataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesSapoDataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesSapoDataOutputReference
 ```
@@ -14316,7 +14316,7 @@ func InternalValue() DataAwsccAppflowConnectorProfileConnectorProfileConfigConne
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesServiceNowOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 dataawsccappflowconnectorprofile.NewDataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesServiceNowOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesServiceNowOutputReference
 ```
@@ -14576,7 +14576,7 @@ func InternalValue() DataAwsccAppflowConnectorProfileConnectorProfileConfigConne
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesSlackOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 dataawsccappflowconnectorprofile.NewDataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesSlackOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesSlackOutputReference
 ```
@@ -14836,7 +14836,7 @@ func InternalValue() DataAwsccAppflowConnectorProfileConnectorProfileConfigConne
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesSnowflakeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 dataawsccappflowconnectorprofile.NewDataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesSnowflakeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesSnowflakeOutputReference
 ```
@@ -15162,7 +15162,7 @@ func InternalValue() DataAwsccAppflowConnectorProfileConnectorProfileConfigConne
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesVeevaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 dataawsccappflowconnectorprofile.NewDataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesVeevaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesVeevaOutputReference
 ```
@@ -15422,7 +15422,7 @@ func InternalValue() DataAwsccAppflowConnectorProfileConnectorProfileConfigConne
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesZendeskOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 dataawsccappflowconnectorprofile.NewDataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesZendeskOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesZendeskOutputReference
 ```
@@ -15682,7 +15682,7 @@ func InternalValue() DataAwsccAppflowConnectorProfileConnectorProfileConfigConne
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppflowConnectorProfile.DataAwsccAppflowConnectorProfileConnectorProfileConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectorprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectorprofile"
 
 dataawsccappflowconnectorprofile.NewDataAwsccAppflowConnectorProfileConnectorProfileConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAppflowConnectorProfileConnectorProfileConfigOutputReference
 ```

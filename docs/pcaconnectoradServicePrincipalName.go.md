@@ -4,12 +4,12 @@
 
 ### PcaconnectoradServicePrincipalName <a name="PcaconnectoradServicePrincipalName" id="@cdktn/provider-awscc.pcaconnectoradServicePrincipalName.PcaconnectoradServicePrincipalName"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pcaconnectorad_service_principal_name awscc_pcaconnectorad_service_principal_name}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pcaconnectorad_service_principal_name awscc_pcaconnectorad_service_principal_name}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.pcaconnectoradServicePrincipalName.PcaconnectoradServicePrincipalName.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcaconnectoradserviceprincipalname"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pcaconnectoradserviceprincipalname"
 
 pcaconnectoradserviceprincipalname.NewPcaconnectoradServicePrincipalName(scope Construct, id *string, config PcaconnectoradServicePrincipalNameConfig) PcaconnectoradServicePrincipalName
 ```
@@ -400,7 +400,7 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.pcaconnectoradServicePrincipalName.PcaconnectoradServicePrincipalName.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcaconnectoradserviceprincipalname"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pcaconnectoradserviceprincipalname"
 
 pcaconnectoradserviceprincipalname.PcaconnectoradServicePrincipalName_IsConstruct(x interface{}) *bool
 ```
@@ -432,7 +432,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.pcaconnectoradServicePrincipalName.PcaconnectoradServicePrincipalName.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcaconnectoradserviceprincipalname"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pcaconnectoradserviceprincipalname"
 
 pcaconnectoradserviceprincipalname.PcaconnectoradServicePrincipalName_IsTerraformElement(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ pcaconnectoradserviceprincipalname.PcaconnectoradServicePrincipalName_IsTerrafor
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.pcaconnectoradServicePrincipalName.PcaconnectoradServicePrincipalName.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcaconnectoradserviceprincipalname"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pcaconnectoradserviceprincipalname"
 
 pcaconnectoradserviceprincipalname.PcaconnectoradServicePrincipalName_IsTerraformResource(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ pcaconnectoradserviceprincipalname.PcaconnectoradServicePrincipalName_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.pcaconnectoradServicePrincipalName.PcaconnectoradServicePrincipalName.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcaconnectoradserviceprincipalname"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pcaconnectoradserviceprincipalname"
 
 pcaconnectoradserviceprincipalname.PcaconnectoradServicePrincipalName_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -489,7 +489,7 @@ The construct id used in the generated config for the PcaconnectoradServicePrinc
 
 The id of the existing PcaconnectoradServicePrincipalName that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pcaconnectorad_service_principal_name#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pcaconnectorad_service_principal_name#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -744,7 +744,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.pcaconnectoradServicePrincipalName.PcaconnectoradServicePrincipalNameConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcaconnectoradserviceprincipalname"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pcaconnectoradserviceprincipalname"
 
 &pcaconnectoradserviceprincipalname.PcaconnectoradServicePrincipalNameConfig {
 	Connection: interface{},
@@ -770,8 +770,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcaconnectoradservicep
 | <code><a href="#@cdktn/provider-awscc.pcaconnectoradServicePrincipalName.PcaconnectoradServicePrincipalNameConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.pcaconnectoradServicePrincipalName.PcaconnectoradServicePrincipalNameConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.pcaconnectoradServicePrincipalName.PcaconnectoradServicePrincipalNameConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradServicePrincipalName.PcaconnectoradServicePrincipalNameConfig.property.connectorArn">ConnectorArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pcaconnectorad_service_principal_name#connector_arn PcaconnectoradServicePrincipalName#connector_arn}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradServicePrincipalName.PcaconnectoradServicePrincipalNameConfig.property.directoryRegistrationArn">DirectoryRegistrationArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pcaconnectorad_service_principal_name#directory_registration_arn PcaconnectoradServicePrincipalName#directory_registration_arn}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradServicePrincipalName.PcaconnectoradServicePrincipalNameConfig.property.connectorArn">ConnectorArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pcaconnectorad_service_principal_name#connector_arn PcaconnectoradServicePrincipalName#connector_arn}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradServicePrincipalName.PcaconnectoradServicePrincipalNameConfig.property.directoryRegistrationArn">DirectoryRegistrationArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pcaconnectorad_service_principal_name#directory_registration_arn PcaconnectoradServicePrincipalName#directory_registration_arn}. |
 
 ---
 
@@ -853,7 +853,7 @@ ConnectorArn *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pcaconnectorad_service_principal_name#connector_arn PcaconnectoradServicePrincipalName#connector_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pcaconnectorad_service_principal_name#connector_arn PcaconnectoradServicePrincipalName#connector_arn}.
 
 ---
 
@@ -865,7 +865,7 @@ DirectoryRegistrationArn *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pcaconnectorad_service_principal_name#directory_registration_arn PcaconnectoradServicePrincipalName#directory_registration_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pcaconnectorad_service_principal_name#directory_registration_arn PcaconnectoradServicePrincipalName#directory_registration_arn}.
 
 ---
 

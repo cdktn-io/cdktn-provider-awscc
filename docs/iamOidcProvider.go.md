@@ -4,12 +4,12 @@
 
 ### IamOidcProvider <a name="IamOidcProvider" id="@cdktn/provider-awscc.iamOidcProvider.IamOidcProvider"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iam_oidc_provider awscc_iam_oidc_provider}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iam_oidc_provider awscc_iam_oidc_provider}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iamOidcProvider.IamOidcProvider.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iamoidcprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iamoidcprovider"
 
 iamoidcprovider.NewIamOidcProvider(scope Construct, id *string, config IamOidcProviderConfig) IamOidcProvider
 ```
@@ -441,7 +441,7 @@ func ResetUrl()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.iamOidcProvider.IamOidcProvider.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iamoidcprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iamoidcprovider"
 
 iamoidcprovider.IamOidcProvider_IsConstruct(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.iamOidcProvider.IamOidcProvider.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iamoidcprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iamoidcprovider"
 
 iamoidcprovider.IamOidcProvider_IsTerraformElement(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ iamoidcprovider.IamOidcProvider_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.iamOidcProvider.IamOidcProvider.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iamoidcprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iamoidcprovider"
 
 iamoidcprovider.IamOidcProvider_IsTerraformResource(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ iamoidcprovider.IamOidcProvider_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.iamOidcProvider.IamOidcProvider.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iamoidcprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iamoidcprovider"
 
 iamoidcprovider.IamOidcProvider_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -530,7 +530,7 @@ The construct id used in the generated config for the IamOidcProvider to import.
 
 The id of the existing IamOidcProvider that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iam_oidc_provider#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iam_oidc_provider#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -840,7 +840,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iamOidcProvider.IamOidcProviderConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iamoidcprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iamoidcprovider"
 
 &iamoidcprovider.IamOidcProviderConfig {
 	Connection: interface{},
@@ -868,10 +868,10 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iamoidcprovider"
 | <code><a href="#@cdktn/provider-awscc.iamOidcProvider.IamOidcProviderConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iamOidcProvider.IamOidcProviderConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iamOidcProvider.IamOidcProviderConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.iamOidcProvider.IamOidcProviderConfig.property.clientIdList">ClientIdList</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iam_oidc_provider#client_id_list IamOidcProvider#client_id_list}. |
-| <code><a href="#@cdktn/provider-awscc.iamOidcProvider.IamOidcProviderConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iam_oidc_provider#tags IamOidcProvider#tags}. |
-| <code><a href="#@cdktn/provider-awscc.iamOidcProvider.IamOidcProviderConfig.property.thumbprintList">ThumbprintList</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iam_oidc_provider#thumbprint_list IamOidcProvider#thumbprint_list}. |
-| <code><a href="#@cdktn/provider-awscc.iamOidcProvider.IamOidcProviderConfig.property.url">Url</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iam_oidc_provider#url IamOidcProvider#url}. |
+| <code><a href="#@cdktn/provider-awscc.iamOidcProvider.IamOidcProviderConfig.property.clientIdList">ClientIdList</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iam_oidc_provider#client_id_list IamOidcProvider#client_id_list}. |
+| <code><a href="#@cdktn/provider-awscc.iamOidcProvider.IamOidcProviderConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iam_oidc_provider#tags IamOidcProvider#tags}. |
+| <code><a href="#@cdktn/provider-awscc.iamOidcProvider.IamOidcProviderConfig.property.thumbprintList">ThumbprintList</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iam_oidc_provider#thumbprint_list IamOidcProvider#thumbprint_list}. |
+| <code><a href="#@cdktn/provider-awscc.iamOidcProvider.IamOidcProviderConfig.property.url">Url</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iam_oidc_provider#url IamOidcProvider#url}. |
 
 ---
 
@@ -953,7 +953,7 @@ ClientIdList *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iam_oidc_provider#client_id_list IamOidcProvider#client_id_list}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iam_oidc_provider#client_id_list IamOidcProvider#client_id_list}.
 
 ---
 
@@ -965,7 +965,7 @@ Tags interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iam_oidc_provider#tags IamOidcProvider#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iam_oidc_provider#tags IamOidcProvider#tags}.
 
 ---
 
@@ -977,7 +977,7 @@ ThumbprintList *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iam_oidc_provider#thumbprint_list IamOidcProvider#thumbprint_list}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iam_oidc_provider#thumbprint_list IamOidcProvider#thumbprint_list}.
 
 ---
 
@@ -989,7 +989,7 @@ Url *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iam_oidc_provider#url IamOidcProvider#url}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iam_oidc_provider#url IamOidcProvider#url}.
 
 ---
 
@@ -998,7 +998,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iamOidcProvider.IamOidcProviderTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iamoidcprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iamoidcprovider"
 
 &iamoidcprovider.IamOidcProviderTags {
 	Key: *string,
@@ -1027,7 +1027,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iam_oidc_provider#key IamOidcProvider#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iam_oidc_provider#key IamOidcProvider#key}
 
 ---
 
@@ -1043,7 +1043,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iam_oidc_provider#value IamOidcProvider#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iam_oidc_provider#value IamOidcProvider#value}
 
 ---
 
@@ -1054,7 +1054,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iamOidcProvider.IamOidcProviderTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iamoidcprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iamoidcprovider"
 
 iamoidcprovider.NewIamOidcProviderTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IamOidcProviderTagsList
 ```
@@ -1214,7 +1214,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iamOidcProvider.IamOidcProviderTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iamoidcprovider"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iamoidcprovider"
 
 iamoidcprovider.NewIamOidcProviderTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IamOidcProviderTagsOutputReference
 ```

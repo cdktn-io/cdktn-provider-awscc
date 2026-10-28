@@ -4,12 +4,12 @@
 
 ### RamResourceShare <a name="RamResourceShare" id="@cdktn/provider-awscc.ramResourceShare.RamResourceShare"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ram_resource_share awscc_ram_resource_share}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ram_resource_share awscc_ram_resource_share}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ramResourceShare.RamResourceShare.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ramresourceshare"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ramresourceshare"
 
 ramresourceshare.NewRamResourceShare(scope Construct, id *string, config RamResourceShareConfig) RamResourceShare
 ```
@@ -475,7 +475,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.ramResourceShare.RamResourceShare.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ramresourceshare"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ramresourceshare"
 
 ramresourceshare.RamResourceShare_IsConstruct(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.ramResourceShare.RamResourceShare.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ramresourceshare"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ramresourceshare"
 
 ramresourceshare.RamResourceShare_IsTerraformElement(x interface{}) *bool
 ```
@@ -521,7 +521,7 @@ ramresourceshare.RamResourceShare_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.ramResourceShare.RamResourceShare.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ramresourceshare"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ramresourceshare"
 
 ramresourceshare.RamResourceShare_IsTerraformResource(x interface{}) *bool
 ```
@@ -535,7 +535,7 @@ ramresourceshare.RamResourceShare_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.ramResourceShare.RamResourceShare.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ramresourceshare"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ramresourceshare"
 
 ramresourceshare.RamResourceShare_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -564,7 +564,7 @@ The construct id used in the generated config for the RamResourceShare to import
 
 The id of the existing RamResourceShare that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ram_resource_share#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ram_resource_share#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1017,7 +1017,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ramResourceShare.RamResourceShareConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ramresourceshare"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ramresourceshare"
 
 &ramresourceshare.RamResourceShareConfig {
 	Connection: interface{},
@@ -1032,7 +1032,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ramresourceshare"
 	PermissionArns: *[]*string,
 	Principals: *[]*string,
 	ResourceArns: *[]*string,
-	ResourceShareConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ramResourceShare.RamResourceShareResourceShareConfiguration,
+	ResourceShareConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ramResourceShare.RamResourceShareResourceShareConfiguration,
 	Sources: *[]*string,
 	Tags: interface{},
 }
@@ -1140,7 +1140,7 @@ Name *string
 
 Specifies the name of the resource share.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ram_resource_share#name RamResourceShare#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ram_resource_share#name RamResourceShare#name}
 
 ---
 
@@ -1156,7 +1156,7 @@ Specifies whether principals outside your organization in AWS Organizations can 
 
 A value of `true` lets you share with individual AWS accounts that are not in your organization. A value of `false` only has meaning if your account is a member of an AWS Organization. The default value is `true`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ram_resource_share#allow_external_principals RamResourceShare#allow_external_principals}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ram_resource_share#allow_external_principals RamResourceShare#allow_external_principals}
 
 ---
 
@@ -1170,7 +1170,7 @@ PermissionArns *[]*string
 
 Specifies the [Amazon Resource Names (ARNs)](https://docs.aws.amazon.com/general/latest/gr/aws-arns-and-namespaces.html) of the AWS RAM permission to associate with the resource share. If you do not specify an ARN for the permission, AWS RAM automatically attaches the default version of the permission for each resource type. You can associate only one permission with each resource type included in the resource share.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ram_resource_share#permission_arns RamResourceShare#permission_arns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ram_resource_share#permission_arns RamResourceShare#permission_arns}
 
 ---
 
@@ -1190,7 +1190,7 @@ Specifies the principals to associate with the resource share. The possible valu
 * An ARN of an IAM role
 * An ARN of an IAM user
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ram_resource_share#principals RamResourceShare#principals}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ram_resource_share#principals RamResourceShare#principals}
 
 ---
 
@@ -1204,7 +1204,7 @@ ResourceArns *[]*string
 
 Specifies a list of one or more ARNs of the resources to associate with the resource share.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ram_resource_share#resource_arns RamResourceShare#resource_arns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ram_resource_share#resource_arns RamResourceShare#resource_arns}
 
 ---
 
@@ -1218,7 +1218,7 @@ ResourceShareConfiguration RamResourceShareResourceShareConfiguration
 
 Specifies the configuration for the resource share.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ram_resource_share#resource_share_configuration RamResourceShare#resource_share_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ram_resource_share#resource_share_configuration RamResourceShare#resource_share_configuration}
 
 ---
 
@@ -1232,7 +1232,7 @@ Sources *[]*string
 
 Specifies from which source accounts the service principal has access to the resources in this resource share.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ram_resource_share#sources RamResourceShare#sources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ram_resource_share#sources RamResourceShare#sources}
 
 ---
 
@@ -1248,7 +1248,7 @@ Specifies one or more tags to attach to the resource share itself.
 
 It doesn't attach the tags to the resources associated with the resource share.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ram_resource_share#tags RamResourceShare#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ram_resource_share#tags RamResourceShare#tags}
 
 ---
 
@@ -1257,7 +1257,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ramResourceShare.RamResourceShareResourceShareConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ramresourceshare"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ramresourceshare"
 
 &ramresourceshare.RamResourceShareResourceShareConfiguration {
 	ExclusiveAccountAccess: interface{},
@@ -1284,7 +1284,7 @@ ExclusiveAccountAccess interface{}
 
 The resource share restricts access to an account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ram_resource_share#exclusive_account_access RamResourceShare#exclusive_account_access}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ram_resource_share#exclusive_account_access RamResourceShare#exclusive_account_access}
 
 ---
 
@@ -1298,7 +1298,7 @@ RetainSharingOnAccountLeaveOrganization interface{}
 
 Specifies whether the consumer account retains access to the resource share after leaving the organization.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ram_resource_share#retain_sharing_on_account_leave_organization RamResourceShare#retain_sharing_on_account_leave_organization}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ram_resource_share#retain_sharing_on_account_leave_organization RamResourceShare#retain_sharing_on_account_leave_organization}
 
 ---
 
@@ -1307,7 +1307,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ramResourceShare.RamResourceShareTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ramresourceshare"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ramresourceshare"
 
 &ramresourceshare.RamResourceShareTags {
 	Key: *string,
@@ -1336,7 +1336,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ram_resource_share#key RamResourceShare#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ram_resource_share#key RamResourceShare#key}
 
 ---
 
@@ -1352,7 +1352,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ram_resource_share#value RamResourceShare#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ram_resource_share#value RamResourceShare#value}
 
 ---
 
@@ -1363,7 +1363,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ramResourceShare.RamResourceShareResourceShareConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ramresourceshare"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ramresourceshare"
 
 ramresourceshare.NewRamResourceShareResourceShareConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) RamResourceShareResourceShareConfigurationOutputReference
 ```
@@ -1670,7 +1670,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ramResourceShare.RamResourceShareTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ramresourceshare"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ramresourceshare"
 
 ramresourceshare.NewRamResourceShareTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) RamResourceShareTagsList
 ```
@@ -1830,7 +1830,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ramResourceShare.RamResourceShareTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ramresourceshare"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ramresourceshare"
 
 ramresourceshare.NewRamResourceShareTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) RamResourceShareTagsOutputReference
 ```

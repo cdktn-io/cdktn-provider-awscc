@@ -4,12 +4,12 @@
 
 ### DataAwsccServicecatalogappregistryResourceAssociation <a name="DataAwsccServicecatalogappregistryResourceAssociation" id="@cdktn/provider-awscc.dataAwsccServicecatalogappregistryResourceAssociation.DataAwsccServicecatalogappregistryResourceAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/servicecatalogappregistry_resource_association awscc_servicecatalogappregistry_resource_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/servicecatalogappregistry_resource_association awscc_servicecatalogappregistry_resource_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccServicecatalogappregistryResourceAssociation.DataAwsccServicecatalogappregistryResourceAssociation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogappregistryresourceassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogappregistryresourceassociation"
 
 dataawsccservicecatalogappregistryresourceassociation.NewDataAwsccServicecatalogappregistryResourceAssociation(scope Construct, id *string, config DataAwsccServicecatalogappregistryResourceAssociationConfig) DataAwsccServicecatalogappregistryResourceAssociation
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccServicecatalogappregistryResourceAssociation.DataAwsccServicecatalogappregistryResourceAssociation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogappregistryresourceassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogappregistryresourceassociation"
 
 dataawsccservicecatalogappregistryresourceassociation.DataAwsccServicecatalogappregistryResourceAssociation_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccServicecatalogappregistryResourceAssociation.DataAwsccServicecatalogappregistryResourceAssociation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogappregistryresourceassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogappregistryresourceassociation"
 
 dataawsccservicecatalogappregistryresourceassociation.DataAwsccServicecatalogappregistryResourceAssociation_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccservicecatalogappregistryresourceassociation.DataAwsccServicecatalogapp
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccServicecatalogappregistryResourceAssociation.DataAwsccServicecatalogappregistryResourceAssociation.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogappregistryresourceassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogappregistryresourceassociation"
 
 dataawsccservicecatalogappregistryresourceassociation.DataAwsccServicecatalogappregistryResourceAssociation_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccservicecatalogappregistryresourceassociation.DataAwsccServicecatalogapp
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccServicecatalogappregistryResourceAssociation.DataAwsccServicecatalogappregistryResourceAssociation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogappregistryresourceassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogappregistryresourceassociation"
 
 dataawsccservicecatalogappregistryresourceassociation.DataAwsccServicecatalogappregistryResourceAssociation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccServicecatalogapp
 
 The id of the existing DataAwsccServicecatalogappregistryResourceAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/servicecatalogappregistry_resource_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/servicecatalogappregistry_resource_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -642,7 +642,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccServicecatalogappregistryResourceAssociation.DataAwsccServicecatalogappregistryResourceAssociationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogappregistryresourceassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogappregistryresourceassociation"
 
 &dataawsccservicecatalogappregistryresourceassociation.DataAwsccServicecatalogappregistryResourceAssociationConfig {
 	Connection: interface{},
@@ -751,7 +751,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/servicecatalogappregistry_resource_association#id DataAwsccServicecatalogappregistryResourceAssociation#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/servicecatalogappregistry_resource_association#id DataAwsccServicecatalogappregistryResourceAssociation#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

@@ -4,12 +4,12 @@
 
 ### DataAwsccCodepipelinePipeline <a name="DataAwsccCodepipelinePipeline" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipeline"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/codepipeline_pipeline awscc_codepipeline_pipeline}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/codepipeline_pipeline awscc_codepipeline_pipeline}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipeline.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 dataawscccodepipelinepipeline.NewDataAwsccCodepipelinePipeline(scope Construct, id *string, config DataAwsccCodepipelinePipelineConfig) DataAwsccCodepipelinePipeline
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipeline.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 dataawscccodepipelinepipeline.DataAwsccCodepipelinePipeline_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipeline.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 dataawscccodepipelinepipeline.DataAwsccCodepipelinePipeline_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccodepipelinepipeline.DataAwsccCodepipelinePipeline_IsTerraformElement(x
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipeline.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 dataawscccodepipelinepipeline.DataAwsccCodepipelinePipeline_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccodepipelinepipeline.DataAwsccCodepipelinePipeline_IsTerraformDataSourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipeline.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 dataawscccodepipelinepipeline.DataAwsccCodepipelinePipeline_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCodepipelinePipel
 
 The id of the existing DataAwsccCodepipelinePipeline that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/codepipeline_pipeline#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/codepipeline_pipeline#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -741,7 +741,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineArtifactStore.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 &dataawscccodepipelinepipeline.DataAwsccCodepipelinePipelineArtifactStore {
 
@@ -754,7 +754,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineArtifactStoreEncryptionKey.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 &dataawscccodepipelinepipeline.DataAwsccCodepipelinePipelineArtifactStoreEncryptionKey {
 
@@ -767,7 +767,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineArtifactStores.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 &dataawscccodepipelinepipeline.DataAwsccCodepipelinePipelineArtifactStores {
 
@@ -780,7 +780,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineArtifactStoresArtifactStore.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 &dataawscccodepipelinepipeline.DataAwsccCodepipelinePipelineArtifactStoresArtifactStore {
 
@@ -793,7 +793,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineArtifactStoresArtifactStoreEncryptionKey.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 &dataawscccodepipelinepipeline.DataAwsccCodepipelinePipelineArtifactStoresArtifactStoreEncryptionKey {
 
@@ -806,7 +806,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 &dataawscccodepipelinepipeline.DataAwsccCodepipelinePipelineConfig {
 	Connection: interface{},
@@ -915,7 +915,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/codepipeline_pipeline#id DataAwsccCodepipelinePipeline#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/codepipeline_pipeline#id DataAwsccCodepipelinePipeline#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -927,7 +927,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineDisableInboundStageTransitions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 &dataawscccodepipelinepipeline.DataAwsccCodepipelinePipelineDisableInboundStageTransitions {
 
@@ -940,7 +940,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineStages.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 &dataawscccodepipelinepipeline.DataAwsccCodepipelinePipelineStages {
 
@@ -953,7 +953,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineStagesActions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 &dataawscccodepipelinepipeline.DataAwsccCodepipelinePipelineStagesActions {
 
@@ -966,7 +966,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineStagesActionsActionTypeId.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 &dataawscccodepipelinepipeline.DataAwsccCodepipelinePipelineStagesActionsActionTypeId {
 
@@ -979,7 +979,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineStagesActionsEnvironmentVariables.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 &dataawscccodepipelinepipeline.DataAwsccCodepipelinePipelineStagesActionsEnvironmentVariables {
 
@@ -992,7 +992,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineStagesActionsInputArtifacts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 &dataawscccodepipelinepipeline.DataAwsccCodepipelinePipelineStagesActionsInputArtifacts {
 
@@ -1005,7 +1005,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineStagesActionsOutputArtifacts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 &dataawscccodepipelinepipeline.DataAwsccCodepipelinePipelineStagesActionsOutputArtifacts {
 
@@ -1018,7 +1018,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineStagesBeforeEntry.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 &dataawscccodepipelinepipeline.DataAwsccCodepipelinePipelineStagesBeforeEntry {
 
@@ -1031,7 +1031,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineStagesBeforeEntryConditions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 &dataawscccodepipelinepipeline.DataAwsccCodepipelinePipelineStagesBeforeEntryConditions {
 
@@ -1044,7 +1044,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineStagesBeforeEntryConditionsRules.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 &dataawscccodepipelinepipeline.DataAwsccCodepipelinePipelineStagesBeforeEntryConditionsRules {
 
@@ -1057,7 +1057,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineStagesBeforeEntryConditionsRulesInputArtifacts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 &dataawscccodepipelinepipeline.DataAwsccCodepipelinePipelineStagesBeforeEntryConditionsRulesInputArtifacts {
 
@@ -1070,7 +1070,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineStagesBeforeEntryConditionsRulesRuleTypeId.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 &dataawscccodepipelinepipeline.DataAwsccCodepipelinePipelineStagesBeforeEntryConditionsRulesRuleTypeId {
 
@@ -1083,7 +1083,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineStagesBlockers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 &dataawscccodepipelinepipeline.DataAwsccCodepipelinePipelineStagesBlockers {
 
@@ -1096,7 +1096,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineStagesOnFailure.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 &dataawscccodepipelinepipeline.DataAwsccCodepipelinePipelineStagesOnFailure {
 
@@ -1109,7 +1109,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineStagesOnFailureConditions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 &dataawscccodepipelinepipeline.DataAwsccCodepipelinePipelineStagesOnFailureConditions {
 
@@ -1122,7 +1122,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineStagesOnFailureConditionsRules.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 &dataawscccodepipelinepipeline.DataAwsccCodepipelinePipelineStagesOnFailureConditionsRules {
 
@@ -1135,7 +1135,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineStagesOnFailureConditionsRulesInputArtifacts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 &dataawscccodepipelinepipeline.DataAwsccCodepipelinePipelineStagesOnFailureConditionsRulesInputArtifacts {
 
@@ -1148,7 +1148,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineStagesOnFailureConditionsRulesRuleTypeId.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 &dataawscccodepipelinepipeline.DataAwsccCodepipelinePipelineStagesOnFailureConditionsRulesRuleTypeId {
 
@@ -1161,7 +1161,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineStagesOnFailureRetryConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 &dataawscccodepipelinepipeline.DataAwsccCodepipelinePipelineStagesOnFailureRetryConfiguration {
 
@@ -1174,7 +1174,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineStagesOnSuccess.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 &dataawscccodepipelinepipeline.DataAwsccCodepipelinePipelineStagesOnSuccess {
 
@@ -1187,7 +1187,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineStagesOnSuccessConditions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 &dataawscccodepipelinepipeline.DataAwsccCodepipelinePipelineStagesOnSuccessConditions {
 
@@ -1200,7 +1200,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineStagesOnSuccessConditionsRules.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 &dataawscccodepipelinepipeline.DataAwsccCodepipelinePipelineStagesOnSuccessConditionsRules {
 
@@ -1213,7 +1213,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineStagesOnSuccessConditionsRulesInputArtifacts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 &dataawscccodepipelinepipeline.DataAwsccCodepipelinePipelineStagesOnSuccessConditionsRulesInputArtifacts {
 
@@ -1226,7 +1226,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineStagesOnSuccessConditionsRulesRuleTypeId.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 &dataawscccodepipelinepipeline.DataAwsccCodepipelinePipelineStagesOnSuccessConditionsRulesRuleTypeId {
 
@@ -1239,7 +1239,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 &dataawscccodepipelinepipeline.DataAwsccCodepipelinePipelineTags {
 
@@ -1252,7 +1252,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineTriggers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 &dataawscccodepipelinepipeline.DataAwsccCodepipelinePipelineTriggers {
 
@@ -1265,7 +1265,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineTriggersGitConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 &dataawscccodepipelinepipeline.DataAwsccCodepipelinePipelineTriggersGitConfiguration {
 
@@ -1278,7 +1278,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineTriggersGitConfigurationPullRequest.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 &dataawscccodepipelinepipeline.DataAwsccCodepipelinePipelineTriggersGitConfigurationPullRequest {
 
@@ -1291,7 +1291,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineTriggersGitConfigurationPullRequestBranches.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 &dataawscccodepipelinepipeline.DataAwsccCodepipelinePipelineTriggersGitConfigurationPullRequestBranches {
 
@@ -1304,7 +1304,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineTriggersGitConfigurationPullRequestFilePaths.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 &dataawscccodepipelinepipeline.DataAwsccCodepipelinePipelineTriggersGitConfigurationPullRequestFilePaths {
 
@@ -1317,7 +1317,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineTriggersGitConfigurationPush.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 &dataawscccodepipelinepipeline.DataAwsccCodepipelinePipelineTriggersGitConfigurationPush {
 
@@ -1330,7 +1330,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineTriggersGitConfigurationPushBranches.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 &dataawscccodepipelinepipeline.DataAwsccCodepipelinePipelineTriggersGitConfigurationPushBranches {
 
@@ -1343,7 +1343,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineTriggersGitConfigurationPushFilePaths.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 &dataawscccodepipelinepipeline.DataAwsccCodepipelinePipelineTriggersGitConfigurationPushFilePaths {
 
@@ -1356,7 +1356,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineTriggersGitConfigurationPushTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 &dataawscccodepipelinepipeline.DataAwsccCodepipelinePipelineTriggersGitConfigurationPushTags {
 
@@ -1369,7 +1369,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineVariables.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 &dataawscccodepipelinepipeline.DataAwsccCodepipelinePipelineVariables {
 
@@ -1384,7 +1384,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinep
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineArtifactStoreEncryptionKeyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 dataawscccodepipelinepipeline.NewDataAwsccCodepipelinePipelineArtifactStoreEncryptionKeyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCodepipelinePipelineArtifactStoreEncryptionKeyOutputReference
 ```
@@ -1655,7 +1655,7 @@ func InternalValue() DataAwsccCodepipelinePipelineArtifactStoreEncryptionKey
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineArtifactStoreOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 dataawscccodepipelinepipeline.NewDataAwsccCodepipelinePipelineArtifactStoreOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCodepipelinePipelineArtifactStoreOutputReference
 ```
@@ -1937,7 +1937,7 @@ func InternalValue() DataAwsccCodepipelinePipelineArtifactStore
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineArtifactStoresArtifactStoreEncryptionKeyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 dataawscccodepipelinepipeline.NewDataAwsccCodepipelinePipelineArtifactStoresArtifactStoreEncryptionKeyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCodepipelinePipelineArtifactStoresArtifactStoreEncryptionKeyOutputReference
 ```
@@ -2208,7 +2208,7 @@ func InternalValue() DataAwsccCodepipelinePipelineArtifactStoresArtifactStoreEnc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineArtifactStoresArtifactStoreOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 dataawscccodepipelinepipeline.NewDataAwsccCodepipelinePipelineArtifactStoresArtifactStoreOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCodepipelinePipelineArtifactStoresArtifactStoreOutputReference
 ```
@@ -2490,7 +2490,7 @@ func InternalValue() DataAwsccCodepipelinePipelineArtifactStoresArtifactStore
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineArtifactStoresList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 dataawscccodepipelinepipeline.NewDataAwsccCodepipelinePipelineArtifactStoresList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCodepipelinePipelineArtifactStoresList
 ```
@@ -2639,7 +2639,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineArtifactStoresOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 dataawscccodepipelinepipeline.NewDataAwsccCodepipelinePipelineArtifactStoresOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCodepipelinePipelineArtifactStoresOutputReference
 ```
@@ -2928,7 +2928,7 @@ func InternalValue() DataAwsccCodepipelinePipelineArtifactStores
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineDisableInboundStageTransitionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 dataawscccodepipelinepipeline.NewDataAwsccCodepipelinePipelineDisableInboundStageTransitionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCodepipelinePipelineDisableInboundStageTransitionsList
 ```
@@ -3077,7 +3077,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineDisableInboundStageTransitionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 dataawscccodepipelinepipeline.NewDataAwsccCodepipelinePipelineDisableInboundStageTransitionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCodepipelinePipelineDisableInboundStageTransitionsOutputReference
 ```
@@ -3366,7 +3366,7 @@ func InternalValue() DataAwsccCodepipelinePipelineDisableInboundStageTransitions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineStagesActionsActionTypeIdOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 dataawscccodepipelinepipeline.NewDataAwsccCodepipelinePipelineStagesActionsActionTypeIdOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCodepipelinePipelineStagesActionsActionTypeIdOutputReference
 ```
@@ -3659,7 +3659,7 @@ func InternalValue() DataAwsccCodepipelinePipelineStagesActionsActionTypeId
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineStagesActionsEnvironmentVariablesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 dataawscccodepipelinepipeline.NewDataAwsccCodepipelinePipelineStagesActionsEnvironmentVariablesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCodepipelinePipelineStagesActionsEnvironmentVariablesList
 ```
@@ -3808,7 +3808,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineStagesActionsEnvironmentVariablesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 dataawscccodepipelinepipeline.NewDataAwsccCodepipelinePipelineStagesActionsEnvironmentVariablesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCodepipelinePipelineStagesActionsEnvironmentVariablesOutputReference
 ```
@@ -4108,7 +4108,7 @@ func InternalValue() DataAwsccCodepipelinePipelineStagesActionsEnvironmentVariab
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineStagesActionsInputArtifactsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 dataawscccodepipelinepipeline.NewDataAwsccCodepipelinePipelineStagesActionsInputArtifactsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCodepipelinePipelineStagesActionsInputArtifactsList
 ```
@@ -4257,7 +4257,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineStagesActionsInputArtifactsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 dataawscccodepipelinepipeline.NewDataAwsccCodepipelinePipelineStagesActionsInputArtifactsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCodepipelinePipelineStagesActionsInputArtifactsOutputReference
 ```
@@ -4535,7 +4535,7 @@ func InternalValue() DataAwsccCodepipelinePipelineStagesActionsInputArtifacts
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineStagesActionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 dataawscccodepipelinepipeline.NewDataAwsccCodepipelinePipelineStagesActionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCodepipelinePipelineStagesActionsList
 ```
@@ -4684,7 +4684,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineStagesActionsOutputArtifactsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 dataawscccodepipelinepipeline.NewDataAwsccCodepipelinePipelineStagesActionsOutputArtifactsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCodepipelinePipelineStagesActionsOutputArtifactsList
 ```
@@ -4833,7 +4833,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineStagesActionsOutputArtifactsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 dataawscccodepipelinepipeline.NewDataAwsccCodepipelinePipelineStagesActionsOutputArtifactsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCodepipelinePipelineStagesActionsOutputArtifactsOutputReference
 ```
@@ -5122,7 +5122,7 @@ func InternalValue() DataAwsccCodepipelinePipelineStagesActionsOutputArtifacts
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineStagesActionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 dataawscccodepipelinepipeline.NewDataAwsccCodepipelinePipelineStagesActionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCodepipelinePipelineStagesActionsOutputReference
 ```
@@ -5532,7 +5532,7 @@ func InternalValue() DataAwsccCodepipelinePipelineStagesActions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineStagesBeforeEntryConditionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 dataawscccodepipelinepipeline.NewDataAwsccCodepipelinePipelineStagesBeforeEntryConditionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCodepipelinePipelineStagesBeforeEntryConditionsList
 ```
@@ -5681,7 +5681,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineStagesBeforeEntryConditionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 dataawscccodepipelinepipeline.NewDataAwsccCodepipelinePipelineStagesBeforeEntryConditionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCodepipelinePipelineStagesBeforeEntryConditionsOutputReference
 ```
@@ -5970,7 +5970,7 @@ func InternalValue() DataAwsccCodepipelinePipelineStagesBeforeEntryConditions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineStagesBeforeEntryConditionsRulesInputArtifactsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 dataawscccodepipelinepipeline.NewDataAwsccCodepipelinePipelineStagesBeforeEntryConditionsRulesInputArtifactsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCodepipelinePipelineStagesBeforeEntryConditionsRulesInputArtifactsList
 ```
@@ -6119,7 +6119,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineStagesBeforeEntryConditionsRulesInputArtifactsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 dataawscccodepipelinepipeline.NewDataAwsccCodepipelinePipelineStagesBeforeEntryConditionsRulesInputArtifactsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCodepipelinePipelineStagesBeforeEntryConditionsRulesInputArtifactsOutputReference
 ```
@@ -6397,7 +6397,7 @@ func InternalValue() DataAwsccCodepipelinePipelineStagesBeforeEntryConditionsRul
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineStagesBeforeEntryConditionsRulesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 dataawscccodepipelinepipeline.NewDataAwsccCodepipelinePipelineStagesBeforeEntryConditionsRulesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCodepipelinePipelineStagesBeforeEntryConditionsRulesList
 ```
@@ -6546,7 +6546,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineStagesBeforeEntryConditionsRulesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 dataawscccodepipelinepipeline.NewDataAwsccCodepipelinePipelineStagesBeforeEntryConditionsRulesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCodepipelinePipelineStagesBeforeEntryConditionsRulesOutputReference
 ```
@@ -6890,7 +6890,7 @@ func InternalValue() DataAwsccCodepipelinePipelineStagesBeforeEntryConditionsRul
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineStagesBeforeEntryConditionsRulesRuleTypeIdOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 dataawscccodepipelinepipeline.NewDataAwsccCodepipelinePipelineStagesBeforeEntryConditionsRulesRuleTypeIdOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCodepipelinePipelineStagesBeforeEntryConditionsRulesRuleTypeIdOutputReference
 ```
@@ -7183,7 +7183,7 @@ func InternalValue() DataAwsccCodepipelinePipelineStagesBeforeEntryConditionsRul
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineStagesBeforeEntryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 dataawscccodepipelinepipeline.NewDataAwsccCodepipelinePipelineStagesBeforeEntryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCodepipelinePipelineStagesBeforeEntryOutputReference
 ```
@@ -7443,7 +7443,7 @@ func InternalValue() DataAwsccCodepipelinePipelineStagesBeforeEntry
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineStagesBlockersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 dataawscccodepipelinepipeline.NewDataAwsccCodepipelinePipelineStagesBlockersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCodepipelinePipelineStagesBlockersList
 ```
@@ -7592,7 +7592,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineStagesBlockersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 dataawscccodepipelinepipeline.NewDataAwsccCodepipelinePipelineStagesBlockersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCodepipelinePipelineStagesBlockersOutputReference
 ```
@@ -7881,7 +7881,7 @@ func InternalValue() DataAwsccCodepipelinePipelineStagesBlockers
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineStagesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 dataawscccodepipelinepipeline.NewDataAwsccCodepipelinePipelineStagesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCodepipelinePipelineStagesList
 ```
@@ -8030,7 +8030,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineStagesOnFailureConditionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 dataawscccodepipelinepipeline.NewDataAwsccCodepipelinePipelineStagesOnFailureConditionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCodepipelinePipelineStagesOnFailureConditionsList
 ```
@@ -8179,7 +8179,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineStagesOnFailureConditionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 dataawscccodepipelinepipeline.NewDataAwsccCodepipelinePipelineStagesOnFailureConditionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCodepipelinePipelineStagesOnFailureConditionsOutputReference
 ```
@@ -8468,7 +8468,7 @@ func InternalValue() DataAwsccCodepipelinePipelineStagesOnFailureConditions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineStagesOnFailureConditionsRulesInputArtifactsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 dataawscccodepipelinepipeline.NewDataAwsccCodepipelinePipelineStagesOnFailureConditionsRulesInputArtifactsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCodepipelinePipelineStagesOnFailureConditionsRulesInputArtifactsList
 ```
@@ -8617,7 +8617,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineStagesOnFailureConditionsRulesInputArtifactsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 dataawscccodepipelinepipeline.NewDataAwsccCodepipelinePipelineStagesOnFailureConditionsRulesInputArtifactsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCodepipelinePipelineStagesOnFailureConditionsRulesInputArtifactsOutputReference
 ```
@@ -8895,7 +8895,7 @@ func InternalValue() DataAwsccCodepipelinePipelineStagesOnFailureConditionsRules
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineStagesOnFailureConditionsRulesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 dataawscccodepipelinepipeline.NewDataAwsccCodepipelinePipelineStagesOnFailureConditionsRulesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCodepipelinePipelineStagesOnFailureConditionsRulesList
 ```
@@ -9044,7 +9044,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineStagesOnFailureConditionsRulesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 dataawscccodepipelinepipeline.NewDataAwsccCodepipelinePipelineStagesOnFailureConditionsRulesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCodepipelinePipelineStagesOnFailureConditionsRulesOutputReference
 ```
@@ -9388,7 +9388,7 @@ func InternalValue() DataAwsccCodepipelinePipelineStagesOnFailureConditionsRules
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineStagesOnFailureConditionsRulesRuleTypeIdOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 dataawscccodepipelinepipeline.NewDataAwsccCodepipelinePipelineStagesOnFailureConditionsRulesRuleTypeIdOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCodepipelinePipelineStagesOnFailureConditionsRulesRuleTypeIdOutputReference
 ```
@@ -9681,7 +9681,7 @@ func InternalValue() DataAwsccCodepipelinePipelineStagesOnFailureConditionsRules
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineStagesOnFailureOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 dataawscccodepipelinepipeline.NewDataAwsccCodepipelinePipelineStagesOnFailureOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCodepipelinePipelineStagesOnFailureOutputReference
 ```
@@ -9963,7 +9963,7 @@ func InternalValue() DataAwsccCodepipelinePipelineStagesOnFailure
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineStagesOnFailureRetryConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 dataawscccodepipelinepipeline.NewDataAwsccCodepipelinePipelineStagesOnFailureRetryConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCodepipelinePipelineStagesOnFailureRetryConfigurationOutputReference
 ```
@@ -10223,7 +10223,7 @@ func InternalValue() DataAwsccCodepipelinePipelineStagesOnFailureRetryConfigurat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineStagesOnSuccessConditionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 dataawscccodepipelinepipeline.NewDataAwsccCodepipelinePipelineStagesOnSuccessConditionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCodepipelinePipelineStagesOnSuccessConditionsList
 ```
@@ -10372,7 +10372,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineStagesOnSuccessConditionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 dataawscccodepipelinepipeline.NewDataAwsccCodepipelinePipelineStagesOnSuccessConditionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCodepipelinePipelineStagesOnSuccessConditionsOutputReference
 ```
@@ -10661,7 +10661,7 @@ func InternalValue() DataAwsccCodepipelinePipelineStagesOnSuccessConditions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineStagesOnSuccessConditionsRulesInputArtifactsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 dataawscccodepipelinepipeline.NewDataAwsccCodepipelinePipelineStagesOnSuccessConditionsRulesInputArtifactsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCodepipelinePipelineStagesOnSuccessConditionsRulesInputArtifactsList
 ```
@@ -10810,7 +10810,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineStagesOnSuccessConditionsRulesInputArtifactsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 dataawscccodepipelinepipeline.NewDataAwsccCodepipelinePipelineStagesOnSuccessConditionsRulesInputArtifactsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCodepipelinePipelineStagesOnSuccessConditionsRulesInputArtifactsOutputReference
 ```
@@ -11088,7 +11088,7 @@ func InternalValue() DataAwsccCodepipelinePipelineStagesOnSuccessConditionsRules
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineStagesOnSuccessConditionsRulesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 dataawscccodepipelinepipeline.NewDataAwsccCodepipelinePipelineStagesOnSuccessConditionsRulesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCodepipelinePipelineStagesOnSuccessConditionsRulesList
 ```
@@ -11237,7 +11237,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineStagesOnSuccessConditionsRulesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 dataawscccodepipelinepipeline.NewDataAwsccCodepipelinePipelineStagesOnSuccessConditionsRulesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCodepipelinePipelineStagesOnSuccessConditionsRulesOutputReference
 ```
@@ -11581,7 +11581,7 @@ func InternalValue() DataAwsccCodepipelinePipelineStagesOnSuccessConditionsRules
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineStagesOnSuccessConditionsRulesRuleTypeIdOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 dataawscccodepipelinepipeline.NewDataAwsccCodepipelinePipelineStagesOnSuccessConditionsRulesRuleTypeIdOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCodepipelinePipelineStagesOnSuccessConditionsRulesRuleTypeIdOutputReference
 ```
@@ -11874,7 +11874,7 @@ func InternalValue() DataAwsccCodepipelinePipelineStagesOnSuccessConditionsRules
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineStagesOnSuccessOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 dataawscccodepipelinepipeline.NewDataAwsccCodepipelinePipelineStagesOnSuccessOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCodepipelinePipelineStagesOnSuccessOutputReference
 ```
@@ -12134,7 +12134,7 @@ func InternalValue() DataAwsccCodepipelinePipelineStagesOnSuccess
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineStagesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 dataawscccodepipelinepipeline.NewDataAwsccCodepipelinePipelineStagesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCodepipelinePipelineStagesOutputReference
 ```
@@ -12467,7 +12467,7 @@ func InternalValue() DataAwsccCodepipelinePipelineStages
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 dataawscccodepipelinepipeline.NewDataAwsccCodepipelinePipelineTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCodepipelinePipelineTagsList
 ```
@@ -12616,7 +12616,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 dataawscccodepipelinepipeline.NewDataAwsccCodepipelinePipelineTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCodepipelinePipelineTagsOutputReference
 ```
@@ -12905,7 +12905,7 @@ func InternalValue() DataAwsccCodepipelinePipelineTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineTriggersGitConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 dataawscccodepipelinepipeline.NewDataAwsccCodepipelinePipelineTriggersGitConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCodepipelinePipelineTriggersGitConfigurationOutputReference
 ```
@@ -13187,7 +13187,7 @@ func InternalValue() DataAwsccCodepipelinePipelineTriggersGitConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineTriggersGitConfigurationPullRequestBranchesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 dataawscccodepipelinepipeline.NewDataAwsccCodepipelinePipelineTriggersGitConfigurationPullRequestBranchesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCodepipelinePipelineTriggersGitConfigurationPullRequestBranchesOutputReference
 ```
@@ -13458,7 +13458,7 @@ func InternalValue() DataAwsccCodepipelinePipelineTriggersGitConfigurationPullRe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineTriggersGitConfigurationPullRequestFilePathsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 dataawscccodepipelinepipeline.NewDataAwsccCodepipelinePipelineTriggersGitConfigurationPullRequestFilePathsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCodepipelinePipelineTriggersGitConfigurationPullRequestFilePathsOutputReference
 ```
@@ -13729,7 +13729,7 @@ func InternalValue() DataAwsccCodepipelinePipelineTriggersGitConfigurationPullRe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineTriggersGitConfigurationPullRequestList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 dataawscccodepipelinepipeline.NewDataAwsccCodepipelinePipelineTriggersGitConfigurationPullRequestList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCodepipelinePipelineTriggersGitConfigurationPullRequestList
 ```
@@ -13878,7 +13878,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineTriggersGitConfigurationPullRequestOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 dataawscccodepipelinepipeline.NewDataAwsccCodepipelinePipelineTriggersGitConfigurationPullRequestOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCodepipelinePipelineTriggersGitConfigurationPullRequestOutputReference
 ```
@@ -14178,7 +14178,7 @@ func InternalValue() DataAwsccCodepipelinePipelineTriggersGitConfigurationPullRe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineTriggersGitConfigurationPushBranchesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 dataawscccodepipelinepipeline.NewDataAwsccCodepipelinePipelineTriggersGitConfigurationPushBranchesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCodepipelinePipelineTriggersGitConfigurationPushBranchesOutputReference
 ```
@@ -14449,7 +14449,7 @@ func InternalValue() DataAwsccCodepipelinePipelineTriggersGitConfigurationPushBr
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineTriggersGitConfigurationPushFilePathsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 dataawscccodepipelinepipeline.NewDataAwsccCodepipelinePipelineTriggersGitConfigurationPushFilePathsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCodepipelinePipelineTriggersGitConfigurationPushFilePathsOutputReference
 ```
@@ -14720,7 +14720,7 @@ func InternalValue() DataAwsccCodepipelinePipelineTriggersGitConfigurationPushFi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineTriggersGitConfigurationPushList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 dataawscccodepipelinepipeline.NewDataAwsccCodepipelinePipelineTriggersGitConfigurationPushList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCodepipelinePipelineTriggersGitConfigurationPushList
 ```
@@ -14869,7 +14869,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineTriggersGitConfigurationPushOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 dataawscccodepipelinepipeline.NewDataAwsccCodepipelinePipelineTriggersGitConfigurationPushOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCodepipelinePipelineTriggersGitConfigurationPushOutputReference
 ```
@@ -15169,7 +15169,7 @@ func InternalValue() DataAwsccCodepipelinePipelineTriggersGitConfigurationPush
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineTriggersGitConfigurationPushTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 dataawscccodepipelinepipeline.NewDataAwsccCodepipelinePipelineTriggersGitConfigurationPushTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCodepipelinePipelineTriggersGitConfigurationPushTagsOutputReference
 ```
@@ -15440,7 +15440,7 @@ func InternalValue() DataAwsccCodepipelinePipelineTriggersGitConfigurationPushTa
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineTriggersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 dataawscccodepipelinepipeline.NewDataAwsccCodepipelinePipelineTriggersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCodepipelinePipelineTriggersList
 ```
@@ -15589,7 +15589,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineTriggersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 dataawscccodepipelinepipeline.NewDataAwsccCodepipelinePipelineTriggersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCodepipelinePipelineTriggersOutputReference
 ```
@@ -15878,7 +15878,7 @@ func InternalValue() DataAwsccCodepipelinePipelineTriggers
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineVariablesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 dataawscccodepipelinepipeline.NewDataAwsccCodepipelinePipelineVariablesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCodepipelinePipelineVariablesList
 ```
@@ -16027,7 +16027,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelinePipeline.DataAwsccCodepipelinePipelineVariablesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodepipelinepipeline"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodepipelinepipeline"
 
 dataawscccodepipelinepipeline.NewDataAwsccCodepipelinePipelineVariablesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCodepipelinePipelineVariablesOutputReference
 ```

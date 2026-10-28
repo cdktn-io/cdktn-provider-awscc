@@ -4,12 +4,12 @@
 
 ### Ec2VpnConnectionRoute <a name="Ec2VpnConnectionRoute" id="@cdktn/provider-awscc.ec2VpnConnectionRoute.Ec2VpnConnectionRoute"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_vpn_connection_route awscc_ec2_vpn_connection_route}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_vpn_connection_route awscc_ec2_vpn_connection_route}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2VpnConnectionRoute.Ec2VpnConnectionRoute.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2vpnconnectionroute"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2vpnconnectionroute"
 
 ec2vpnconnectionroute.NewEc2VpnConnectionRoute(scope Construct, id *string, config Ec2VpnConnectionRouteConfig) Ec2VpnConnectionRoute
 ```
@@ -400,7 +400,7 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.ec2VpnConnectionRoute.Ec2VpnConnectionRoute.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2vpnconnectionroute"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2vpnconnectionroute"
 
 ec2vpnconnectionroute.Ec2VpnConnectionRoute_IsConstruct(x interface{}) *bool
 ```
@@ -432,7 +432,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.ec2VpnConnectionRoute.Ec2VpnConnectionRoute.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2vpnconnectionroute"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2vpnconnectionroute"
 
 ec2vpnconnectionroute.Ec2VpnConnectionRoute_IsTerraformElement(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ ec2vpnconnectionroute.Ec2VpnConnectionRoute_IsTerraformElement(x interface{}) *b
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.ec2VpnConnectionRoute.Ec2VpnConnectionRoute.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2vpnconnectionroute"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2vpnconnectionroute"
 
 ec2vpnconnectionroute.Ec2VpnConnectionRoute_IsTerraformResource(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ ec2vpnconnectionroute.Ec2VpnConnectionRoute_IsTerraformResource(x interface{}) *
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.ec2VpnConnectionRoute.Ec2VpnConnectionRoute.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2vpnconnectionroute"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2vpnconnectionroute"
 
 ec2vpnconnectionroute.Ec2VpnConnectionRoute_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -489,7 +489,7 @@ The construct id used in the generated config for the Ec2VpnConnectionRoute to i
 
 The id of the existing Ec2VpnConnectionRoute that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_vpn_connection_route#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_vpn_connection_route#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -744,7 +744,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2VpnConnectionRoute.Ec2VpnConnectionRouteConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2vpnconnectionroute"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2vpnconnectionroute"
 
 &ec2vpnconnectionroute.Ec2VpnConnectionRouteConfig {
 	Connection: interface{},
@@ -855,7 +855,7 @@ DestinationCidrBlock *string
 
 The CIDR block associated with the local subnet of the customer network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_vpn_connection_route#destination_cidr_block Ec2VpnConnectionRoute#destination_cidr_block}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_vpn_connection_route#destination_cidr_block Ec2VpnConnectionRoute#destination_cidr_block}
 
 ---
 
@@ -869,7 +869,7 @@ VpnConnectionId *string
 
 The ID of the VPN connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_vpn_connection_route#vpn_connection_id Ec2VpnConnectionRoute#vpn_connection_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_vpn_connection_route#vpn_connection_id Ec2VpnConnectionRoute#vpn_connection_id}
 
 ---
 

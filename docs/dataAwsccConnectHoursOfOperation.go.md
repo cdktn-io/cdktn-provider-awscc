@@ -4,12 +4,12 @@
 
 ### DataAwsccConnectHoursOfOperation <a name="DataAwsccConnectHoursOfOperation" id="@cdktn/provider-awscc.dataAwsccConnectHoursOfOperation.DataAwsccConnectHoursOfOperation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_hours_of_operation awscc_connect_hours_of_operation}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_hours_of_operation awscc_connect_hours_of_operation}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectHoursOfOperation.DataAwsccConnectHoursOfOperation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnecthoursofoperation"
 
 dataawsccconnecthoursofoperation.NewDataAwsccConnectHoursOfOperation(scope Construct, id *string, config DataAwsccConnectHoursOfOperationConfig) DataAwsccConnectHoursOfOperation
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccConnectHoursOfOperation.DataAwsccConnectHoursOfOperation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnecthoursofoperation"
 
 dataawsccconnecthoursofoperation.DataAwsccConnectHoursOfOperation_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccConnectHoursOfOperation.DataAwsccConnectHoursOfOperation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnecthoursofoperation"
 
 dataawsccconnecthoursofoperation.DataAwsccConnectHoursOfOperation_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccconnecthoursofoperation.DataAwsccConnectHoursOfOperation_IsTerraformEle
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccConnectHoursOfOperation.DataAwsccConnectHoursOfOperation.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnecthoursofoperation"
 
 dataawsccconnecthoursofoperation.DataAwsccConnectHoursOfOperation_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccconnecthoursofoperation.DataAwsccConnectHoursOfOperation_IsTerraformDat
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccConnectHoursOfOperation.DataAwsccConnectHoursOfOperation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnecthoursofoperation"
 
 dataawsccconnecthoursofoperation.DataAwsccConnectHoursOfOperation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccConnectHoursOfOpe
 
 The id of the existing DataAwsccConnectHoursOfOperation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_hours_of_operation#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_hours_of_operation#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -697,7 +697,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectHoursOfOperation.DataAwsccConnectHoursOfOperationChildHoursOfOperations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnecthoursofoperation"
 
 &dataawsccconnecthoursofoperation.DataAwsccConnectHoursOfOperationChildHoursOfOperations {
 
@@ -710,7 +710,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnecthourso
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectHoursOfOperation.DataAwsccConnectHoursOfOperationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnecthoursofoperation"
 
 &dataawsccconnecthoursofoperation.DataAwsccConnectHoursOfOperationConfig {
 	Connection: interface{},
@@ -819,7 +819,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_hours_of_operation#id DataAwsccConnectHoursOfOperation#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_hours_of_operation#id DataAwsccConnectHoursOfOperation#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -831,7 +831,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectHoursOfOperation.DataAwsccConnectHoursOfOperationConfigA.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnecthoursofoperation"
 
 &dataawsccconnecthoursofoperation.DataAwsccConnectHoursOfOperationConfigA {
 
@@ -844,7 +844,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnecthourso
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectHoursOfOperation.DataAwsccConnectHoursOfOperationConfigEndTime.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnecthoursofoperation"
 
 &dataawsccconnecthoursofoperation.DataAwsccConnectHoursOfOperationConfigEndTime {
 
@@ -857,7 +857,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnecthourso
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectHoursOfOperation.DataAwsccConnectHoursOfOperationConfigStartTime.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnecthoursofoperation"
 
 &dataawsccconnecthoursofoperation.DataAwsccConnectHoursOfOperationConfigStartTime {
 
@@ -870,7 +870,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnecthourso
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectHoursOfOperation.DataAwsccConnectHoursOfOperationHoursOfOperationOverrides.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnecthoursofoperation"
 
 &dataawsccconnecthoursofoperation.DataAwsccConnectHoursOfOperationHoursOfOperationOverrides {
 
@@ -883,7 +883,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnecthourso
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectHoursOfOperation.DataAwsccConnectHoursOfOperationHoursOfOperationOverridesOverrideConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnecthoursofoperation"
 
 &dataawsccconnecthoursofoperation.DataAwsccConnectHoursOfOperationHoursOfOperationOverridesOverrideConfig {
 
@@ -896,7 +896,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnecthourso
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectHoursOfOperation.DataAwsccConnectHoursOfOperationHoursOfOperationOverridesOverrideConfigEndTime.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnecthoursofoperation"
 
 &dataawsccconnecthoursofoperation.DataAwsccConnectHoursOfOperationHoursOfOperationOverridesOverrideConfigEndTime {
 
@@ -909,7 +909,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnecthourso
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectHoursOfOperation.DataAwsccConnectHoursOfOperationHoursOfOperationOverridesOverrideConfigStartTime.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnecthoursofoperation"
 
 &dataawsccconnecthoursofoperation.DataAwsccConnectHoursOfOperationHoursOfOperationOverridesOverrideConfigStartTime {
 
@@ -922,7 +922,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnecthourso
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectHoursOfOperation.DataAwsccConnectHoursOfOperationHoursOfOperationOverridesRecurrenceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnecthoursofoperation"
 
 &dataawsccconnecthoursofoperation.DataAwsccConnectHoursOfOperationHoursOfOperationOverridesRecurrenceConfig {
 
@@ -935,7 +935,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnecthourso
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectHoursOfOperation.DataAwsccConnectHoursOfOperationHoursOfOperationOverridesRecurrenceConfigRecurrencePattern.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnecthoursofoperation"
 
 &dataawsccconnecthoursofoperation.DataAwsccConnectHoursOfOperationHoursOfOperationOverridesRecurrenceConfigRecurrencePattern {
 
@@ -948,7 +948,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnecthourso
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectHoursOfOperation.DataAwsccConnectHoursOfOperationParentHoursOfOperations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnecthoursofoperation"
 
 &dataawsccconnecthoursofoperation.DataAwsccConnectHoursOfOperationParentHoursOfOperations {
 
@@ -961,7 +961,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnecthourso
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectHoursOfOperation.DataAwsccConnectHoursOfOperationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnecthoursofoperation"
 
 &dataawsccconnecthoursofoperation.DataAwsccConnectHoursOfOperationTags {
 
@@ -976,7 +976,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnecthourso
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectHoursOfOperation.DataAwsccConnectHoursOfOperationChildHoursOfOperationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnecthoursofoperation"
 
 dataawsccconnecthoursofoperation.NewDataAwsccConnectHoursOfOperationChildHoursOfOperationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccConnectHoursOfOperationChildHoursOfOperationsList
 ```
@@ -1125,7 +1125,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectHoursOfOperation.DataAwsccConnectHoursOfOperationChildHoursOfOperationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnecthoursofoperation"
 
 dataawsccconnecthoursofoperation.NewDataAwsccConnectHoursOfOperationChildHoursOfOperationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccConnectHoursOfOperationChildHoursOfOperationsOutputReference
 ```
@@ -1414,7 +1414,7 @@ func InternalValue() DataAwsccConnectHoursOfOperationChildHoursOfOperations
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectHoursOfOperation.DataAwsccConnectHoursOfOperationConfigAList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnecthoursofoperation"
 
 dataawsccconnecthoursofoperation.NewDataAwsccConnectHoursOfOperationConfigAList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccConnectHoursOfOperationConfigAList
 ```
@@ -1563,7 +1563,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectHoursOfOperation.DataAwsccConnectHoursOfOperationConfigAOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnecthoursofoperation"
 
 dataawsccconnecthoursofoperation.NewDataAwsccConnectHoursOfOperationConfigAOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccConnectHoursOfOperationConfigAOutputReference
 ```
@@ -1863,7 +1863,7 @@ func InternalValue() DataAwsccConnectHoursOfOperationConfigA
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectHoursOfOperation.DataAwsccConnectHoursOfOperationConfigEndTimeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnecthoursofoperation"
 
 dataawsccconnecthoursofoperation.NewDataAwsccConnectHoursOfOperationConfigEndTimeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectHoursOfOperationConfigEndTimeOutputReference
 ```
@@ -2134,7 +2134,7 @@ func InternalValue() DataAwsccConnectHoursOfOperationConfigEndTime
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectHoursOfOperation.DataAwsccConnectHoursOfOperationConfigStartTimeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnecthoursofoperation"
 
 dataawsccconnecthoursofoperation.NewDataAwsccConnectHoursOfOperationConfigStartTimeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectHoursOfOperationConfigStartTimeOutputReference
 ```
@@ -2405,7 +2405,7 @@ func InternalValue() DataAwsccConnectHoursOfOperationConfigStartTime
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectHoursOfOperation.DataAwsccConnectHoursOfOperationHoursOfOperationOverridesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnecthoursofoperation"
 
 dataawsccconnecthoursofoperation.NewDataAwsccConnectHoursOfOperationHoursOfOperationOverridesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccConnectHoursOfOperationHoursOfOperationOverridesList
 ```
@@ -2554,7 +2554,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectHoursOfOperation.DataAwsccConnectHoursOfOperationHoursOfOperationOverridesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnecthoursofoperation"
 
 dataawsccconnecthoursofoperation.NewDataAwsccConnectHoursOfOperationHoursOfOperationOverridesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccConnectHoursOfOperationHoursOfOperationOverridesOutputReference
 ```
@@ -2909,7 +2909,7 @@ func InternalValue() DataAwsccConnectHoursOfOperationHoursOfOperationOverrides
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectHoursOfOperation.DataAwsccConnectHoursOfOperationHoursOfOperationOverridesOverrideConfigEndTimeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnecthoursofoperation"
 
 dataawsccconnecthoursofoperation.NewDataAwsccConnectHoursOfOperationHoursOfOperationOverridesOverrideConfigEndTimeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectHoursOfOperationHoursOfOperationOverridesOverrideConfigEndTimeOutputReference
 ```
@@ -3180,7 +3180,7 @@ func InternalValue() DataAwsccConnectHoursOfOperationHoursOfOperationOverridesOv
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectHoursOfOperation.DataAwsccConnectHoursOfOperationHoursOfOperationOverridesOverrideConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnecthoursofoperation"
 
 dataawsccconnecthoursofoperation.NewDataAwsccConnectHoursOfOperationHoursOfOperationOverridesOverrideConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccConnectHoursOfOperationHoursOfOperationOverridesOverrideConfigList
 ```
@@ -3329,7 +3329,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectHoursOfOperation.DataAwsccConnectHoursOfOperationHoursOfOperationOverridesOverrideConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnecthoursofoperation"
 
 dataawsccconnecthoursofoperation.NewDataAwsccConnectHoursOfOperationHoursOfOperationOverridesOverrideConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccConnectHoursOfOperationHoursOfOperationOverridesOverrideConfigOutputReference
 ```
@@ -3629,7 +3629,7 @@ func InternalValue() DataAwsccConnectHoursOfOperationHoursOfOperationOverridesOv
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectHoursOfOperation.DataAwsccConnectHoursOfOperationHoursOfOperationOverridesOverrideConfigStartTimeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnecthoursofoperation"
 
 dataawsccconnecthoursofoperation.NewDataAwsccConnectHoursOfOperationHoursOfOperationOverridesOverrideConfigStartTimeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectHoursOfOperationHoursOfOperationOverridesOverrideConfigStartTimeOutputReference
 ```
@@ -3900,7 +3900,7 @@ func InternalValue() DataAwsccConnectHoursOfOperationHoursOfOperationOverridesOv
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectHoursOfOperation.DataAwsccConnectHoursOfOperationHoursOfOperationOverridesRecurrenceConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnecthoursofoperation"
 
 dataawsccconnecthoursofoperation.NewDataAwsccConnectHoursOfOperationHoursOfOperationOverridesRecurrenceConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectHoursOfOperationHoursOfOperationOverridesRecurrenceConfigOutputReference
 ```
@@ -4160,7 +4160,7 @@ func InternalValue() DataAwsccConnectHoursOfOperationHoursOfOperationOverridesRe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectHoursOfOperation.DataAwsccConnectHoursOfOperationHoursOfOperationOverridesRecurrenceConfigRecurrencePatternOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnecthoursofoperation"
 
 dataawsccconnecthoursofoperation.NewDataAwsccConnectHoursOfOperationHoursOfOperationOverridesRecurrenceConfigRecurrencePatternOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectHoursOfOperationHoursOfOperationOverridesRecurrenceConfigRecurrencePatternOutputReference
 ```
@@ -4464,7 +4464,7 @@ func InternalValue() DataAwsccConnectHoursOfOperationHoursOfOperationOverridesRe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectHoursOfOperation.DataAwsccConnectHoursOfOperationParentHoursOfOperationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnecthoursofoperation"
 
 dataawsccconnecthoursofoperation.NewDataAwsccConnectHoursOfOperationParentHoursOfOperationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccConnectHoursOfOperationParentHoursOfOperationsList
 ```
@@ -4613,7 +4613,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectHoursOfOperation.DataAwsccConnectHoursOfOperationParentHoursOfOperationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnecthoursofoperation"
 
 dataawsccconnecthoursofoperation.NewDataAwsccConnectHoursOfOperationParentHoursOfOperationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccConnectHoursOfOperationParentHoursOfOperationsOutputReference
 ```
@@ -4902,7 +4902,7 @@ func InternalValue() DataAwsccConnectHoursOfOperationParentHoursOfOperations
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectHoursOfOperation.DataAwsccConnectHoursOfOperationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnecthoursofoperation"
 
 dataawsccconnecthoursofoperation.NewDataAwsccConnectHoursOfOperationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccConnectHoursOfOperationTagsList
 ```
@@ -5051,7 +5051,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectHoursOfOperation.DataAwsccConnectHoursOfOperationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnecthoursofoperation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnecthoursofoperation"
 
 dataawsccconnecthoursofoperation.NewDataAwsccConnectHoursOfOperationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccConnectHoursOfOperationTagsOutputReference
 ```

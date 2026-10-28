@@ -4,12 +4,12 @@
 
 ### TranscribeMedicalVocabulary <a name="TranscribeMedicalVocabulary" id="@cdktn/provider-awscc.transcribeMedicalVocabulary.TranscribeMedicalVocabulary"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transcribe_medical_vocabulary awscc_transcribe_medical_vocabulary}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transcribe_medical_vocabulary awscc_transcribe_medical_vocabulary}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.transcribeMedicalVocabulary.TranscribeMedicalVocabulary.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transcribemedicalvocabulary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transcribemedicalvocabulary"
 
 transcribemedicalvocabulary.NewTranscribeMedicalVocabulary(scope Construct, id *string, config TranscribeMedicalVocabularyConfig) TranscribeMedicalVocabulary
 ```
@@ -427,7 +427,7 @@ func ResetVocabularyFileUri()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.transcribeMedicalVocabulary.TranscribeMedicalVocabulary.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transcribemedicalvocabulary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transcribemedicalvocabulary"
 
 transcribemedicalvocabulary.TranscribeMedicalVocabulary_IsConstruct(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.transcribeMedicalVocabulary.TranscribeMedicalVocabulary.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transcribemedicalvocabulary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transcribemedicalvocabulary"
 
 transcribemedicalvocabulary.TranscribeMedicalVocabulary_IsTerraformElement(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ transcribemedicalvocabulary.TranscribeMedicalVocabulary_IsTerraformElement(x int
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.transcribeMedicalVocabulary.TranscribeMedicalVocabulary.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transcribemedicalvocabulary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transcribemedicalvocabulary"
 
 transcribemedicalvocabulary.TranscribeMedicalVocabulary_IsTerraformResource(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ transcribemedicalvocabulary.TranscribeMedicalVocabulary_IsTerraformResource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.transcribeMedicalVocabulary.TranscribeMedicalVocabulary.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transcribemedicalvocabulary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transcribemedicalvocabulary"
 
 transcribemedicalvocabulary.TranscribeMedicalVocabulary_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -516,7 +516,7 @@ The construct id used in the generated config for the TranscribeMedicalVocabular
 
 The id of the existing TranscribeMedicalVocabulary that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transcribe_medical_vocabulary#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transcribe_medical_vocabulary#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -826,7 +826,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.transcribeMedicalVocabulary.TranscribeMedicalVocabularyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transcribemedicalvocabulary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transcribemedicalvocabulary"
 
 &transcribemedicalvocabulary.TranscribeMedicalVocabularyConfig {
 	Connection: interface{},
@@ -941,7 +941,7 @@ LanguageCode *string
 
 The language code of the vocabulary entries.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transcribe_medical_vocabulary#language_code TranscribeMedicalVocabulary#language_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transcribe_medical_vocabulary#language_code TranscribeMedicalVocabulary#language_code}
 
 ---
 
@@ -955,7 +955,7 @@ VocabularyName *string
 
 The name of the medical vocabulary.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transcribe_medical_vocabulary#vocabulary_name TranscribeMedicalVocabulary#vocabulary_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transcribe_medical_vocabulary#vocabulary_name TranscribeMedicalVocabulary#vocabulary_name}
 
 ---
 
@@ -969,7 +969,7 @@ Tags interface{}
 
 Tags associated with the medical vocabulary.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transcribe_medical_vocabulary#tags TranscribeMedicalVocabulary#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transcribe_medical_vocabulary#tags TranscribeMedicalVocabulary#tags}
 
 ---
 
@@ -983,7 +983,7 @@ VocabularyFileUri *string
 
 The Amazon S3 location of the text file that contains the medical vocabulary.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transcribe_medical_vocabulary#vocabulary_file_uri TranscribeMedicalVocabulary#vocabulary_file_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transcribe_medical_vocabulary#vocabulary_file_uri TranscribeMedicalVocabulary#vocabulary_file_uri}
 
 ---
 
@@ -992,7 +992,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.transcribeMedicalVocabulary.TranscribeMedicalVocabularyTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transcribemedicalvocabulary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transcribemedicalvocabulary"
 
 &transcribemedicalvocabulary.TranscribeMedicalVocabularyTags {
 	Key: *string,
@@ -1019,7 +1019,7 @@ Key *string
 
 The key of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transcribe_medical_vocabulary#key TranscribeMedicalVocabulary#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transcribe_medical_vocabulary#key TranscribeMedicalVocabulary#key}
 
 ---
 
@@ -1033,7 +1033,7 @@ Value *string
 
 The value of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transcribe_medical_vocabulary#value TranscribeMedicalVocabulary#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transcribe_medical_vocabulary#value TranscribeMedicalVocabulary#value}
 
 ---
 
@@ -1044,7 +1044,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.transcribeMedicalVocabulary.TranscribeMedicalVocabularyTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transcribemedicalvocabulary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transcribemedicalvocabulary"
 
 transcribemedicalvocabulary.NewTranscribeMedicalVocabularyTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) TranscribeMedicalVocabularyTagsList
 ```
@@ -1204,7 +1204,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.transcribeMedicalVocabulary.TranscribeMedicalVocabularyTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transcribemedicalvocabulary"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transcribemedicalvocabulary"
 
 transcribemedicalvocabulary.NewTranscribeMedicalVocabularyTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) TranscribeMedicalVocabularyTagsOutputReference
 ```

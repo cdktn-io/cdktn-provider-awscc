@@ -4,12 +4,12 @@
 
 ### ConnectAgentStatus <a name="ConnectAgentStatus" id="@cdktn/provider-awscc.connectAgentStatus.ConnectAgentStatus"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_agent_status awscc_connect_agent_status}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_agent_status awscc_connect_agent_status}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectAgentStatus.ConnectAgentStatus.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectagentstatus"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectagentstatus"
 
 connectagentstatus.NewConnectAgentStatus(scope Construct, id *string, config ConnectAgentStatusConfig) ConnectAgentStatus
 ```
@@ -448,7 +448,7 @@ func ResetType()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.connectAgentStatus.ConnectAgentStatus.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectagentstatus"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectagentstatus"
 
 connectagentstatus.ConnectAgentStatus_IsConstruct(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.connectAgentStatus.ConnectAgentStatus.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectagentstatus"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectagentstatus"
 
 connectagentstatus.ConnectAgentStatus_IsTerraformElement(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ connectagentstatus.ConnectAgentStatus_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.connectAgentStatus.ConnectAgentStatus.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectagentstatus"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectagentstatus"
 
 connectagentstatus.ConnectAgentStatus_IsTerraformResource(x interface{}) *bool
 ```
@@ -508,7 +508,7 @@ connectagentstatus.ConnectAgentStatus_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.connectAgentStatus.ConnectAgentStatus.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectagentstatus"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectagentstatus"
 
 connectagentstatus.ConnectAgentStatus_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -537,7 +537,7 @@ The construct id used in the generated config for the ConnectAgentStatus to impo
 
 The id of the existing ConnectAgentStatus that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_agent_status#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_agent_status#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -957,7 +957,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectAgentStatus.ConnectAgentStatusConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectagentstatus"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectagentstatus"
 
 &connectagentstatus.ConnectAgentStatusConfig {
 	Connection: interface{},
@@ -1080,7 +1080,7 @@ InstanceArn *string
 
 The identifier of the Amazon Connect instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_agent_status#instance_arn ConnectAgentStatus#instance_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_agent_status#instance_arn ConnectAgentStatus#instance_arn}
 
 ---
 
@@ -1094,7 +1094,7 @@ Name *string
 
 The name of the status.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_agent_status#name ConnectAgentStatus#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_agent_status#name ConnectAgentStatus#name}
 
 ---
 
@@ -1108,7 +1108,7 @@ State *string
 
 The state of the status.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_agent_status#state ConnectAgentStatus#state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_agent_status#state ConnectAgentStatus#state}
 
 ---
 
@@ -1122,7 +1122,7 @@ Description *string
 
 The description of the status.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_agent_status#description ConnectAgentStatus#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_agent_status#description ConnectAgentStatus#description}
 
 ---
 
@@ -1136,7 +1136,7 @@ DisplayOrder *f64
 
 The display order of the status.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_agent_status#display_order ConnectAgentStatus#display_order}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_agent_status#display_order ConnectAgentStatus#display_order}
 
 ---
 
@@ -1150,7 +1150,7 @@ ResetOrderNumber interface{}
 
 A number indicating the reset order of the agent status.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_agent_status#reset_order_number ConnectAgentStatus#reset_order_number}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_agent_status#reset_order_number ConnectAgentStatus#reset_order_number}
 
 ---
 
@@ -1164,7 +1164,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_agent_status#tags ConnectAgentStatus#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_agent_status#tags ConnectAgentStatus#tags}
 
 ---
 
@@ -1178,7 +1178,7 @@ Type *string
 
 The type of agent status.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_agent_status#type ConnectAgentStatus#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_agent_status#type ConnectAgentStatus#type}
 
 ---
 
@@ -1187,7 +1187,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectAgentStatus.ConnectAgentStatusTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectagentstatus"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectagentstatus"
 
 &connectagentstatus.ConnectAgentStatusTags {
 	Key: *string,
@@ -1216,7 +1216,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_agent_status#key ConnectAgentStatus#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_agent_status#key ConnectAgentStatus#key}
 
 ---
 
@@ -1232,7 +1232,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_agent_status#value ConnectAgentStatus#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_agent_status#value ConnectAgentStatus#value}
 
 ---
 
@@ -1243,7 +1243,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectAgentStatus.ConnectAgentStatusTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectagentstatus"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectagentstatus"
 
 connectagentstatus.NewConnectAgentStatusTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ConnectAgentStatusTagsList
 ```
@@ -1403,7 +1403,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectAgentStatus.ConnectAgentStatusTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectagentstatus"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectagentstatus"
 
 connectagentstatus.NewConnectAgentStatusTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ConnectAgentStatusTagsOutputReference
 ```

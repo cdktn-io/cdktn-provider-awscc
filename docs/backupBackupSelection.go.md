@@ -4,12 +4,12 @@
 
 ### BackupBackupSelection <a name="BackupBackupSelection" id="@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelection"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_backup_selection awscc_backup_backup_selection}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_backup_selection awscc_backup_backup_selection}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelection.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backupbackupselection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backupbackupselection"
 
 backupbackupselection.NewBackupBackupSelection(scope Construct, id *string, config BackupBackupSelectionConfig) BackupBackupSelection
 ```
@@ -413,7 +413,7 @@ func PutBackupSelection(value BackupBackupSelectionBackupSelection)
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelection.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backupbackupselection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backupbackupselection"
 
 backupbackupselection.BackupBackupSelection_IsConstruct(x interface{}) *bool
 ```
@@ -445,7 +445,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelection.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backupbackupselection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backupbackupselection"
 
 backupbackupselection.BackupBackupSelection_IsTerraformElement(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ backupbackupselection.BackupBackupSelection_IsTerraformElement(x interface{}) *b
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelection.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backupbackupselection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backupbackupselection"
 
 backupbackupselection.BackupBackupSelection_IsTerraformResource(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ backupbackupselection.BackupBackupSelection_IsTerraformResource(x interface{}) *
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelection.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backupbackupselection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backupbackupselection"
 
 backupbackupselection.BackupBackupSelection_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -502,7 +502,7 @@ The construct id used in the generated config for the BackupBackupSelection to i
 
 The id of the existing BackupBackupSelection that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_backup_selection#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_backup_selection#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -779,12 +779,12 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionBackupSelection.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backupbackupselection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backupbackupselection"
 
 &backupbackupselection.BackupBackupSelectionBackupSelection {
 	IamRoleArn: *string,
 	SelectionName: *string,
-	Conditions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.backupBackupSelection.BackupBackupSelectionBackupSelectionConditions,
+	Conditions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.backupBackupSelection.BackupBackupSelectionBackupSelectionConditions,
 	ListOfTags: interface{},
 	NotResources: *[]*string,
 	Resources: *[]*string,
@@ -795,12 +795,12 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backupbackupselection"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionBackupSelection.property.iamRoleArn">IamRoleArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_backup_selection#iam_role_arn BackupBackupSelection#iam_role_arn}. |
-| <code><a href="#@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionBackupSelection.property.selectionName">SelectionName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_backup_selection#selection_name BackupBackupSelection#selection_name}. |
-| <code><a href="#@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionBackupSelection.property.conditions">Conditions</a></code> | <code><a href="#@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionBackupSelectionConditions">BackupBackupSelectionBackupSelectionConditions</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_backup_selection#conditions BackupBackupSelection#conditions}. |
-| <code><a href="#@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionBackupSelection.property.listOfTags">ListOfTags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_backup_selection#list_of_tags BackupBackupSelection#list_of_tags}. |
-| <code><a href="#@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionBackupSelection.property.notResources">NotResources</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_backup_selection#not_resources BackupBackupSelection#not_resources}. |
-| <code><a href="#@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionBackupSelection.property.resources">Resources</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_backup_selection#resources BackupBackupSelection#resources}. |
+| <code><a href="#@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionBackupSelection.property.iamRoleArn">IamRoleArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_backup_selection#iam_role_arn BackupBackupSelection#iam_role_arn}. |
+| <code><a href="#@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionBackupSelection.property.selectionName">SelectionName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_backup_selection#selection_name BackupBackupSelection#selection_name}. |
+| <code><a href="#@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionBackupSelection.property.conditions">Conditions</a></code> | <code><a href="#@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionBackupSelectionConditions">BackupBackupSelectionBackupSelectionConditions</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_backup_selection#conditions BackupBackupSelection#conditions}. |
+| <code><a href="#@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionBackupSelection.property.listOfTags">ListOfTags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_backup_selection#list_of_tags BackupBackupSelection#list_of_tags}. |
+| <code><a href="#@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionBackupSelection.property.notResources">NotResources</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_backup_selection#not_resources BackupBackupSelection#not_resources}. |
+| <code><a href="#@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionBackupSelection.property.resources">Resources</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_backup_selection#resources BackupBackupSelection#resources}. |
 
 ---
 
@@ -812,7 +812,7 @@ IamRoleArn *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_backup_selection#iam_role_arn BackupBackupSelection#iam_role_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_backup_selection#iam_role_arn BackupBackupSelection#iam_role_arn}.
 
 ---
 
@@ -824,7 +824,7 @@ SelectionName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_backup_selection#selection_name BackupBackupSelection#selection_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_backup_selection#selection_name BackupBackupSelection#selection_name}.
 
 ---
 
@@ -836,7 +836,7 @@ Conditions BackupBackupSelectionBackupSelectionConditions
 
 - *Type:* <a href="#@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionBackupSelectionConditions">BackupBackupSelectionBackupSelectionConditions</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_backup_selection#conditions BackupBackupSelection#conditions}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_backup_selection#conditions BackupBackupSelection#conditions}.
 
 ---
 
@@ -848,7 +848,7 @@ ListOfTags interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_backup_selection#list_of_tags BackupBackupSelection#list_of_tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_backup_selection#list_of_tags BackupBackupSelection#list_of_tags}.
 
 ---
 
@@ -860,7 +860,7 @@ NotResources *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_backup_selection#not_resources BackupBackupSelection#not_resources}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_backup_selection#not_resources BackupBackupSelection#not_resources}.
 
 ---
 
@@ -872,7 +872,7 @@ Resources *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_backup_selection#resources BackupBackupSelection#resources}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_backup_selection#resources BackupBackupSelection#resources}.
 
 ---
 
@@ -881,7 +881,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionBackupSelectionConditions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backupbackupselection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backupbackupselection"
 
 &backupbackupselection.BackupBackupSelectionBackupSelectionConditions {
 	StringEquals: interface{},
@@ -895,10 +895,10 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backupbackupselection"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionBackupSelectionConditions.property.stringEquals">StringEquals</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_backup_selection#string_equals BackupBackupSelection#string_equals}. |
-| <code><a href="#@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionBackupSelectionConditions.property.stringLike">StringLike</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_backup_selection#string_like BackupBackupSelection#string_like}. |
-| <code><a href="#@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionBackupSelectionConditions.property.stringNotEquals">StringNotEquals</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_backup_selection#string_not_equals BackupBackupSelection#string_not_equals}. |
-| <code><a href="#@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionBackupSelectionConditions.property.stringNotLike">StringNotLike</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_backup_selection#string_not_like BackupBackupSelection#string_not_like}. |
+| <code><a href="#@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionBackupSelectionConditions.property.stringEquals">StringEquals</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_backup_selection#string_equals BackupBackupSelection#string_equals}. |
+| <code><a href="#@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionBackupSelectionConditions.property.stringLike">StringLike</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_backup_selection#string_like BackupBackupSelection#string_like}. |
+| <code><a href="#@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionBackupSelectionConditions.property.stringNotEquals">StringNotEquals</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_backup_selection#string_not_equals BackupBackupSelection#string_not_equals}. |
+| <code><a href="#@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionBackupSelectionConditions.property.stringNotLike">StringNotLike</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_backup_selection#string_not_like BackupBackupSelection#string_not_like}. |
 
 ---
 
@@ -910,7 +910,7 @@ StringEquals interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_backup_selection#string_equals BackupBackupSelection#string_equals}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_backup_selection#string_equals BackupBackupSelection#string_equals}.
 
 ---
 
@@ -922,7 +922,7 @@ StringLike interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_backup_selection#string_like BackupBackupSelection#string_like}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_backup_selection#string_like BackupBackupSelection#string_like}.
 
 ---
 
@@ -934,7 +934,7 @@ StringNotEquals interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_backup_selection#string_not_equals BackupBackupSelection#string_not_equals}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_backup_selection#string_not_equals BackupBackupSelection#string_not_equals}.
 
 ---
 
@@ -946,7 +946,7 @@ StringNotLike interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_backup_selection#string_not_like BackupBackupSelection#string_not_like}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_backup_selection#string_not_like BackupBackupSelection#string_not_like}.
 
 ---
 
@@ -955,7 +955,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionBackupSelectionConditionsStringEquals.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backupbackupselection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backupbackupselection"
 
 &backupbackupselection.BackupBackupSelectionBackupSelectionConditionsStringEquals {
 	ConditionKey: *string,
@@ -967,8 +967,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backupbackupselection"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionBackupSelectionConditionsStringEquals.property.conditionKey">ConditionKey</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_backup_selection#condition_key BackupBackupSelection#condition_key}. |
-| <code><a href="#@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionBackupSelectionConditionsStringEquals.property.conditionValue">ConditionValue</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_backup_selection#condition_value BackupBackupSelection#condition_value}. |
+| <code><a href="#@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionBackupSelectionConditionsStringEquals.property.conditionKey">ConditionKey</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_backup_selection#condition_key BackupBackupSelection#condition_key}. |
+| <code><a href="#@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionBackupSelectionConditionsStringEquals.property.conditionValue">ConditionValue</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_backup_selection#condition_value BackupBackupSelection#condition_value}. |
 
 ---
 
@@ -980,7 +980,7 @@ ConditionKey *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_backup_selection#condition_key BackupBackupSelection#condition_key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_backup_selection#condition_key BackupBackupSelection#condition_key}.
 
 ---
 
@@ -992,7 +992,7 @@ ConditionValue *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_backup_selection#condition_value BackupBackupSelection#condition_value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_backup_selection#condition_value BackupBackupSelection#condition_value}.
 
 ---
 
@@ -1001,7 +1001,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionBackupSelectionConditionsStringLike.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backupbackupselection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backupbackupselection"
 
 &backupbackupselection.BackupBackupSelectionBackupSelectionConditionsStringLike {
 	ConditionKey: *string,
@@ -1013,8 +1013,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backupbackupselection"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionBackupSelectionConditionsStringLike.property.conditionKey">ConditionKey</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_backup_selection#condition_key BackupBackupSelection#condition_key}. |
-| <code><a href="#@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionBackupSelectionConditionsStringLike.property.conditionValue">ConditionValue</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_backup_selection#condition_value BackupBackupSelection#condition_value}. |
+| <code><a href="#@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionBackupSelectionConditionsStringLike.property.conditionKey">ConditionKey</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_backup_selection#condition_key BackupBackupSelection#condition_key}. |
+| <code><a href="#@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionBackupSelectionConditionsStringLike.property.conditionValue">ConditionValue</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_backup_selection#condition_value BackupBackupSelection#condition_value}. |
 
 ---
 
@@ -1026,7 +1026,7 @@ ConditionKey *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_backup_selection#condition_key BackupBackupSelection#condition_key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_backup_selection#condition_key BackupBackupSelection#condition_key}.
 
 ---
 
@@ -1038,7 +1038,7 @@ ConditionValue *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_backup_selection#condition_value BackupBackupSelection#condition_value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_backup_selection#condition_value BackupBackupSelection#condition_value}.
 
 ---
 
@@ -1047,7 +1047,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionBackupSelectionConditionsStringNotEquals.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backupbackupselection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backupbackupselection"
 
 &backupbackupselection.BackupBackupSelectionBackupSelectionConditionsStringNotEquals {
 	ConditionKey: *string,
@@ -1059,8 +1059,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backupbackupselection"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionBackupSelectionConditionsStringNotEquals.property.conditionKey">ConditionKey</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_backup_selection#condition_key BackupBackupSelection#condition_key}. |
-| <code><a href="#@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionBackupSelectionConditionsStringNotEquals.property.conditionValue">ConditionValue</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_backup_selection#condition_value BackupBackupSelection#condition_value}. |
+| <code><a href="#@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionBackupSelectionConditionsStringNotEquals.property.conditionKey">ConditionKey</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_backup_selection#condition_key BackupBackupSelection#condition_key}. |
+| <code><a href="#@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionBackupSelectionConditionsStringNotEquals.property.conditionValue">ConditionValue</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_backup_selection#condition_value BackupBackupSelection#condition_value}. |
 
 ---
 
@@ -1072,7 +1072,7 @@ ConditionKey *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_backup_selection#condition_key BackupBackupSelection#condition_key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_backup_selection#condition_key BackupBackupSelection#condition_key}.
 
 ---
 
@@ -1084,7 +1084,7 @@ ConditionValue *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_backup_selection#condition_value BackupBackupSelection#condition_value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_backup_selection#condition_value BackupBackupSelection#condition_value}.
 
 ---
 
@@ -1093,7 +1093,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionBackupSelectionConditionsStringNotLike.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backupbackupselection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backupbackupselection"
 
 &backupbackupselection.BackupBackupSelectionBackupSelectionConditionsStringNotLike {
 	ConditionKey: *string,
@@ -1105,8 +1105,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backupbackupselection"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionBackupSelectionConditionsStringNotLike.property.conditionKey">ConditionKey</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_backup_selection#condition_key BackupBackupSelection#condition_key}. |
-| <code><a href="#@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionBackupSelectionConditionsStringNotLike.property.conditionValue">ConditionValue</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_backup_selection#condition_value BackupBackupSelection#condition_value}. |
+| <code><a href="#@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionBackupSelectionConditionsStringNotLike.property.conditionKey">ConditionKey</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_backup_selection#condition_key BackupBackupSelection#condition_key}. |
+| <code><a href="#@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionBackupSelectionConditionsStringNotLike.property.conditionValue">ConditionValue</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_backup_selection#condition_value BackupBackupSelection#condition_value}. |
 
 ---
 
@@ -1118,7 +1118,7 @@ ConditionKey *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_backup_selection#condition_key BackupBackupSelection#condition_key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_backup_selection#condition_key BackupBackupSelection#condition_key}.
 
 ---
 
@@ -1130,7 +1130,7 @@ ConditionValue *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_backup_selection#condition_value BackupBackupSelection#condition_value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_backup_selection#condition_value BackupBackupSelection#condition_value}.
 
 ---
 
@@ -1139,7 +1139,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionBackupSelectionListOfTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backupbackupselection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backupbackupselection"
 
 &backupbackupselection.BackupBackupSelectionBackupSelectionListOfTags {
 	ConditionKey: *string,
@@ -1152,9 +1152,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backupbackupselection"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionBackupSelectionListOfTags.property.conditionKey">ConditionKey</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_backup_selection#condition_key BackupBackupSelection#condition_key}. |
-| <code><a href="#@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionBackupSelectionListOfTags.property.conditionType">ConditionType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_backup_selection#condition_type BackupBackupSelection#condition_type}. |
-| <code><a href="#@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionBackupSelectionListOfTags.property.conditionValue">ConditionValue</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_backup_selection#condition_value BackupBackupSelection#condition_value}. |
+| <code><a href="#@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionBackupSelectionListOfTags.property.conditionKey">ConditionKey</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_backup_selection#condition_key BackupBackupSelection#condition_key}. |
+| <code><a href="#@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionBackupSelectionListOfTags.property.conditionType">ConditionType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_backup_selection#condition_type BackupBackupSelection#condition_type}. |
+| <code><a href="#@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionBackupSelectionListOfTags.property.conditionValue">ConditionValue</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_backup_selection#condition_value BackupBackupSelection#condition_value}. |
 
 ---
 
@@ -1166,7 +1166,7 @@ ConditionKey *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_backup_selection#condition_key BackupBackupSelection#condition_key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_backup_selection#condition_key BackupBackupSelection#condition_key}.
 
 ---
 
@@ -1178,7 +1178,7 @@ ConditionType *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_backup_selection#condition_type BackupBackupSelection#condition_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_backup_selection#condition_type BackupBackupSelection#condition_type}.
 
 ---
 
@@ -1190,7 +1190,7 @@ ConditionValue *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_backup_selection#condition_value BackupBackupSelection#condition_value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_backup_selection#condition_value BackupBackupSelection#condition_value}.
 
 ---
 
@@ -1199,7 +1199,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backupbackupselection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backupbackupselection"
 
 &backupbackupselection.BackupBackupSelectionConfig {
 	Connection: interface{},
@@ -1210,7 +1210,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backupbackupselection"
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	BackupPlanId: *string,
-	BackupSelection: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.backupBackupSelection.BackupBackupSelectionBackupSelection,
+	BackupSelection: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.backupBackupSelection.BackupBackupSelectionBackupSelection,
 }
 ```
 
@@ -1225,8 +1225,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backupbackupselection"
 | <code><a href="#@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionConfig.property.backupPlanId">BackupPlanId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_backup_selection#backup_plan_id BackupBackupSelection#backup_plan_id}. |
-| <code><a href="#@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionConfig.property.backupSelection">BackupSelection</a></code> | <code><a href="#@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionBackupSelection">BackupBackupSelectionBackupSelection</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_backup_selection#backup_selection BackupBackupSelection#backup_selection}. |
+| <code><a href="#@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionConfig.property.backupPlanId">BackupPlanId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_backup_selection#backup_plan_id BackupBackupSelection#backup_plan_id}. |
+| <code><a href="#@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionConfig.property.backupSelection">BackupSelection</a></code> | <code><a href="#@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionBackupSelection">BackupBackupSelectionBackupSelection</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_backup_selection#backup_selection BackupBackupSelection#backup_selection}. |
 
 ---
 
@@ -1308,7 +1308,7 @@ BackupPlanId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_backup_selection#backup_plan_id BackupBackupSelection#backup_plan_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_backup_selection#backup_plan_id BackupBackupSelection#backup_plan_id}.
 
 ---
 
@@ -1320,7 +1320,7 @@ BackupSelection BackupBackupSelectionBackupSelection
 
 - *Type:* <a href="#@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionBackupSelection">BackupBackupSelectionBackupSelection</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_backup_selection#backup_selection BackupBackupSelection#backup_selection}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_backup_selection#backup_selection BackupBackupSelection#backup_selection}.
 
 ---
 
@@ -1331,7 +1331,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionBackupSelectionConditionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backupbackupselection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backupbackupselection"
 
 backupbackupselection.NewBackupBackupSelectionBackupSelectionConditionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BackupBackupSelectionBackupSelectionConditionsOutputReference
 ```
@@ -1748,7 +1748,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionBackupSelectionConditionsStringEqualsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backupbackupselection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backupbackupselection"
 
 backupbackupselection.NewBackupBackupSelectionBackupSelectionConditionsStringEqualsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BackupBackupSelectionBackupSelectionConditionsStringEqualsList
 ```
@@ -1908,7 +1908,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionBackupSelectionConditionsStringEqualsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backupbackupselection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backupbackupselection"
 
 backupbackupselection.NewBackupBackupSelectionBackupSelectionConditionsStringEqualsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) BackupBackupSelectionBackupSelectionConditionsStringEqualsOutputReference
 ```
@@ -2233,7 +2233,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionBackupSelectionConditionsStringLikeList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backupbackupselection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backupbackupselection"
 
 backupbackupselection.NewBackupBackupSelectionBackupSelectionConditionsStringLikeList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BackupBackupSelectionBackupSelectionConditionsStringLikeList
 ```
@@ -2393,7 +2393,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionBackupSelectionConditionsStringLikeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backupbackupselection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backupbackupselection"
 
 backupbackupselection.NewBackupBackupSelectionBackupSelectionConditionsStringLikeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) BackupBackupSelectionBackupSelectionConditionsStringLikeOutputReference
 ```
@@ -2718,7 +2718,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionBackupSelectionConditionsStringNotEqualsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backupbackupselection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backupbackupselection"
 
 backupbackupselection.NewBackupBackupSelectionBackupSelectionConditionsStringNotEqualsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BackupBackupSelectionBackupSelectionConditionsStringNotEqualsList
 ```
@@ -2878,7 +2878,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionBackupSelectionConditionsStringNotEqualsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backupbackupselection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backupbackupselection"
 
 backupbackupselection.NewBackupBackupSelectionBackupSelectionConditionsStringNotEqualsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) BackupBackupSelectionBackupSelectionConditionsStringNotEqualsOutputReference
 ```
@@ -3203,7 +3203,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionBackupSelectionConditionsStringNotLikeList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backupbackupselection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backupbackupselection"
 
 backupbackupselection.NewBackupBackupSelectionBackupSelectionConditionsStringNotLikeList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BackupBackupSelectionBackupSelectionConditionsStringNotLikeList
 ```
@@ -3363,7 +3363,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionBackupSelectionConditionsStringNotLikeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backupbackupselection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backupbackupselection"
 
 backupbackupselection.NewBackupBackupSelectionBackupSelectionConditionsStringNotLikeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) BackupBackupSelectionBackupSelectionConditionsStringNotLikeOutputReference
 ```
@@ -3688,7 +3688,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionBackupSelectionListOfTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backupbackupselection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backupbackupselection"
 
 backupbackupselection.NewBackupBackupSelectionBackupSelectionListOfTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BackupBackupSelectionBackupSelectionListOfTagsList
 ```
@@ -3848,7 +3848,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionBackupSelectionListOfTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backupbackupselection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backupbackupselection"
 
 backupbackupselection.NewBackupBackupSelectionBackupSelectionListOfTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) BackupBackupSelectionBackupSelectionListOfTagsOutputReference
 ```
@@ -4202,7 +4202,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.backupBackupSelection.BackupBackupSelectionBackupSelectionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backupbackupselection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backupbackupselection"
 
 backupbackupselection.NewBackupBackupSelectionBackupSelectionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BackupBackupSelectionBackupSelectionOutputReference
 ```

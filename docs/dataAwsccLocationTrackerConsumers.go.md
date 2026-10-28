@@ -4,12 +4,12 @@
 
 ### DataAwsccLocationTrackerConsumers <a name="DataAwsccLocationTrackerConsumers" id="@cdktn/provider-awscc.dataAwsccLocationTrackerConsumers.DataAwsccLocationTrackerConsumers"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/location_tracker_consumers awscc_location_tracker_consumers}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/location_tracker_consumers awscc_location_tracker_consumers}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLocationTrackerConsumers.DataAwsccLocationTrackerConsumers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationtrackerconsumers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationtrackerconsumers"
 
 dataawscclocationtrackerconsumers.NewDataAwsccLocationTrackerConsumers(scope Construct, id *string, config DataAwsccLocationTrackerConsumersConfig) DataAwsccLocationTrackerConsumers
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccLocationTrackerConsumers.DataAwsccLocationTrackerConsumers.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationtrackerconsumers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationtrackerconsumers"
 
 dataawscclocationtrackerconsumers.DataAwsccLocationTrackerConsumers_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccLocationTrackerConsumers.DataAwsccLocationTrackerConsumers.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationtrackerconsumers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationtrackerconsumers"
 
 dataawscclocationtrackerconsumers.DataAwsccLocationTrackerConsumers_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscclocationtrackerconsumers.DataAwsccLocationTrackerConsumers_IsTerraformE
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccLocationTrackerConsumers.DataAwsccLocationTrackerConsumers.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationtrackerconsumers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationtrackerconsumers"
 
 dataawscclocationtrackerconsumers.DataAwsccLocationTrackerConsumers_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscclocationtrackerconsumers.DataAwsccLocationTrackerConsumers_IsTerraformD
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccLocationTrackerConsumers.DataAwsccLocationTrackerConsumers.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationtrackerconsumers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationtrackerconsumers"
 
 dataawscclocationtrackerconsumers.DataAwsccLocationTrackerConsumers_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLocationTrackerCo
 
 The id of the existing DataAwsccLocationTrackerConsumers that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/location_tracker_consumers#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/location_tracker_consumers#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLocationTrackerConsumers.DataAwsccLocationTrackerConsumersConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationtrackerconsumers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationtrackerconsumers"
 
 &dataawscclocationtrackerconsumers.DataAwsccLocationTrackerConsumersConfig {
 	Connection: interface{},

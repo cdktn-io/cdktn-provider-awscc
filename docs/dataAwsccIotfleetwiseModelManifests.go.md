@@ -4,12 +4,12 @@
 
 ### DataAwsccIotfleetwiseModelManifests <a name="DataAwsccIotfleetwiseModelManifests" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseModelManifests.DataAwsccIotfleetwiseModelManifests"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotfleetwise_model_manifests awscc_iotfleetwise_model_manifests}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotfleetwise_model_manifests awscc_iotfleetwise_model_manifests}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseModelManifests.DataAwsccIotfleetwiseModelManifests.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisemodelmanifests"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisemodelmanifests"
 
 dataawscciotfleetwisemodelmanifests.NewDataAwsccIotfleetwiseModelManifests(scope Construct, id *string, config DataAwsccIotfleetwiseModelManifestsConfig) DataAwsccIotfleetwiseModelManifests
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseModelManifests.DataAwsccIotfleetwiseModelManifests.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisemodelmanifests"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisemodelmanifests"
 
 dataawscciotfleetwisemodelmanifests.DataAwsccIotfleetwiseModelManifests_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseModelManifests.DataAwsccIotfleetwiseModelManifests.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisemodelmanifests"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisemodelmanifests"
 
 dataawscciotfleetwisemodelmanifests.DataAwsccIotfleetwiseModelManifests_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciotfleetwisemodelmanifests.DataAwsccIotfleetwiseModelManifests_IsTerraf
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseModelManifests.DataAwsccIotfleetwiseModelManifests.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisemodelmanifests"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisemodelmanifests"
 
 dataawscciotfleetwisemodelmanifests.DataAwsccIotfleetwiseModelManifests_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciotfleetwisemodelmanifests.DataAwsccIotfleetwiseModelManifests_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseModelManifests.DataAwsccIotfleetwiseModelManifests.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisemodelmanifests"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisemodelmanifests"
 
 dataawscciotfleetwisemodelmanifests.DataAwsccIotfleetwiseModelManifests_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotfleetwiseModel
 
 The id of the existing DataAwsccIotfleetwiseModelManifests that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotfleetwise_model_manifests#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotfleetwise_model_manifests#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseModelManifests.DataAwsccIotfleetwiseModelManifestsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisemodelmanifests"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisemodelmanifests"
 
 &dataawscciotfleetwisemodelmanifests.DataAwsccIotfleetwiseModelManifestsConfig {
 	Connection: interface{},

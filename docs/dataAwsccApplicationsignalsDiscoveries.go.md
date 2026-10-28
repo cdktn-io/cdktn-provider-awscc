@@ -4,12 +4,12 @@
 
 ### DataAwsccApplicationsignalsDiscoveries <a name="DataAwsccApplicationsignalsDiscoveries" id="@cdktn/provider-awscc.dataAwsccApplicationsignalsDiscoveries.DataAwsccApplicationsignalsDiscoveries"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/applicationsignals_discoveries awscc_applicationsignals_discoveries}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/applicationsignals_discoveries awscc_applicationsignals_discoveries}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApplicationsignalsDiscoveries.DataAwsccApplicationsignalsDiscoveries.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapplicationsignalsdiscoveries"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapplicationsignalsdiscoveries"
 
 dataawsccapplicationsignalsdiscoveries.NewDataAwsccApplicationsignalsDiscoveries(scope Construct, id *string, config DataAwsccApplicationsignalsDiscoveriesConfig) DataAwsccApplicationsignalsDiscoveries
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccApplicationsignalsDiscoveries.DataAwsccApplicationsignalsDiscoveries.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapplicationsignalsdiscoveries"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapplicationsignalsdiscoveries"
 
 dataawsccapplicationsignalsdiscoveries.DataAwsccApplicationsignalsDiscoveries_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccApplicationsignalsDiscoveries.DataAwsccApplicationsignalsDiscoveries.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapplicationsignalsdiscoveries"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapplicationsignalsdiscoveries"
 
 dataawsccapplicationsignalsdiscoveries.DataAwsccApplicationsignalsDiscoveries_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccapplicationsignalsdiscoveries.DataAwsccApplicationsignalsDiscoveries_Is
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccApplicationsignalsDiscoveries.DataAwsccApplicationsignalsDiscoveries.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapplicationsignalsdiscoveries"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapplicationsignalsdiscoveries"
 
 dataawsccapplicationsignalsdiscoveries.DataAwsccApplicationsignalsDiscoveries_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccapplicationsignalsdiscoveries.DataAwsccApplicationsignalsDiscoveries_Is
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccApplicationsignalsDiscoveries.DataAwsccApplicationsignalsDiscoveries.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapplicationsignalsdiscoveries"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapplicationsignalsdiscoveries"
 
 dataawsccapplicationsignalsdiscoveries.DataAwsccApplicationsignalsDiscoveries_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccApplicationsignal
 
 The id of the existing DataAwsccApplicationsignalsDiscoveries that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/applicationsignals_discoveries#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/applicationsignals_discoveries#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApplicationsignalsDiscoveries.DataAwsccApplicationsignalsDiscoveriesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapplicationsignalsdiscoveries"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapplicationsignalsdiscoveries"
 
 &dataawsccapplicationsignalsdiscoveries.DataAwsccApplicationsignalsDiscoveriesConfig {
 	Connection: interface{},

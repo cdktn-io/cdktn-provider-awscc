@@ -4,12 +4,12 @@
 
 ### DataAwsccKinesisStreamConsumers <a name="DataAwsccKinesisStreamConsumers" id="@cdktn/provider-awscc.dataAwsccKinesisStreamConsumers.DataAwsccKinesisStreamConsumers"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/kinesis_stream_consumers awscc_kinesis_stream_consumers}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/kinesis_stream_consumers awscc_kinesis_stream_consumers}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccKinesisStreamConsumers.DataAwsccKinesisStreamConsumers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisstreamconsumers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisstreamconsumers"
 
 dataawscckinesisstreamconsumers.NewDataAwsccKinesisStreamConsumers(scope Construct, id *string, config DataAwsccKinesisStreamConsumersConfig) DataAwsccKinesisStreamConsumers
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccKinesisStreamConsumers.DataAwsccKinesisStreamConsumers.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisstreamconsumers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisstreamconsumers"
 
 dataawscckinesisstreamconsumers.DataAwsccKinesisStreamConsumers_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccKinesisStreamConsumers.DataAwsccKinesisStreamConsumers.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisstreamconsumers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisstreamconsumers"
 
 dataawscckinesisstreamconsumers.DataAwsccKinesisStreamConsumers_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscckinesisstreamconsumers.DataAwsccKinesisStreamConsumers_IsTerraformEleme
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccKinesisStreamConsumers.DataAwsccKinesisStreamConsumers.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisstreamconsumers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisstreamconsumers"
 
 dataawscckinesisstreamconsumers.DataAwsccKinesisStreamConsumers_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscckinesisstreamconsumers.DataAwsccKinesisStreamConsumers_IsTerraformDataS
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccKinesisStreamConsumers.DataAwsccKinesisStreamConsumers.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisstreamconsumers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisstreamconsumers"
 
 dataawscckinesisstreamconsumers.DataAwsccKinesisStreamConsumers_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccKinesisStreamCons
 
 The id of the existing DataAwsccKinesisStreamConsumers that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/kinesis_stream_consumers#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/kinesis_stream_consumers#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccKinesisStreamConsumers.DataAwsccKinesisStreamConsumersConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisstreamconsumers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisstreamconsumers"
 
 &dataawscckinesisstreamconsumers.DataAwsccKinesisStreamConsumersConfig {
 	Connection: interface{},

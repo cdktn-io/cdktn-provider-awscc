@@ -4,12 +4,12 @@
 
 ### AutoscalingLaunchConfiguration <a name="AutoscalingLaunchConfiguration" id="@cdktn/provider-awscc.autoscalingLaunchConfiguration.AutoscalingLaunchConfiguration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/autoscaling_launch_configuration awscc_autoscaling_launch_configuration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/autoscaling_launch_configuration awscc_autoscaling_launch_configuration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.autoscalingLaunchConfiguration.AutoscalingLaunchConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/autoscalinglaunchconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/autoscalinglaunchconfiguration"
 
 autoscalinglaunchconfiguration.NewAutoscalingLaunchConfiguration(scope Construct, id *string, config AutoscalingLaunchConfigurationConfig) AutoscalingLaunchConfiguration
 ```
@@ -545,7 +545,7 @@ func ResetUserData()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.autoscalingLaunchConfiguration.AutoscalingLaunchConfiguration.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/autoscalinglaunchconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/autoscalinglaunchconfiguration"
 
 autoscalinglaunchconfiguration.AutoscalingLaunchConfiguration_IsConstruct(x interface{}) *bool
 ```
@@ -577,7 +577,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.autoscalingLaunchConfiguration.AutoscalingLaunchConfiguration.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/autoscalinglaunchconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/autoscalinglaunchconfiguration"
 
 autoscalinglaunchconfiguration.AutoscalingLaunchConfiguration_IsTerraformElement(x interface{}) *bool
 ```
@@ -591,7 +591,7 @@ autoscalinglaunchconfiguration.AutoscalingLaunchConfiguration_IsTerraformElement
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.autoscalingLaunchConfiguration.AutoscalingLaunchConfiguration.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/autoscalinglaunchconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/autoscalinglaunchconfiguration"
 
 autoscalinglaunchconfiguration.AutoscalingLaunchConfiguration_IsTerraformResource(x interface{}) *bool
 ```
@@ -605,7 +605,7 @@ autoscalinglaunchconfiguration.AutoscalingLaunchConfiguration_IsTerraformResourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.autoscalingLaunchConfiguration.AutoscalingLaunchConfiguration.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/autoscalinglaunchconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/autoscalinglaunchconfiguration"
 
 autoscalinglaunchconfiguration.AutoscalingLaunchConfiguration_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -634,7 +634,7 @@ The construct id used in the generated config for the AutoscalingLaunchConfigura
 
 The id of the existing AutoscalingLaunchConfiguration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/autoscaling_launch_configuration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/autoscaling_launch_configuration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1263,11 +1263,11 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.autoscalingLaunchConfiguration.AutoscalingLaunchConfigurationBlockDeviceMappings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/autoscalinglaunchconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/autoscalinglaunchconfiguration"
 
 &autoscalinglaunchconfiguration.AutoscalingLaunchConfigurationBlockDeviceMappings {
 	DeviceName: *string,
-	Ebs: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.autoscalingLaunchConfiguration.AutoscalingLaunchConfigurationBlockDeviceMappingsEbs,
+	Ebs: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.autoscalingLaunchConfiguration.AutoscalingLaunchConfigurationBlockDeviceMappingsEbs,
 	NoDevice: interface{},
 	VirtualName: *string,
 }
@@ -1294,7 +1294,7 @@ DeviceName *string
 
 The device name exposed to the EC2 instance (for example, /dev/sdh or xvdh).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/autoscaling_launch_configuration#device_name AutoscalingLaunchConfiguration#device_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/autoscaling_launch_configuration#device_name AutoscalingLaunchConfiguration#device_name}
 
 ---
 
@@ -1308,7 +1308,7 @@ Ebs AutoscalingLaunchConfigurationBlockDeviceMappingsEbs
 
 Parameters used to automatically set up EBS volumes when an instance is launched.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/autoscaling_launch_configuration#ebs AutoscalingLaunchConfiguration#ebs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/autoscaling_launch_configuration#ebs AutoscalingLaunchConfiguration#ebs}
 
 ---
 
@@ -1322,7 +1322,7 @@ NoDevice interface{}
 
 Setting this value to true suppresses the specified device included in the block device mapping of the AMI.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/autoscaling_launch_configuration#no_device AutoscalingLaunchConfiguration#no_device}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/autoscaling_launch_configuration#no_device AutoscalingLaunchConfiguration#no_device}
 
 ---
 
@@ -1336,7 +1336,7 @@ VirtualName *string
 
 The name of the virtual device.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/autoscaling_launch_configuration#virtual_name AutoscalingLaunchConfiguration#virtual_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/autoscaling_launch_configuration#virtual_name AutoscalingLaunchConfiguration#virtual_name}
 
 ---
 
@@ -1345,7 +1345,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.autoscalingLaunchConfiguration.AutoscalingLaunchConfigurationBlockDeviceMappingsEbs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/autoscalinglaunchconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/autoscalinglaunchconfiguration"
 
 &autoscalinglaunchconfiguration.AutoscalingLaunchConfigurationBlockDeviceMappingsEbs {
 	DeleteOnTermination: interface{},
@@ -1382,7 +1382,7 @@ DeleteOnTermination interface{}
 
 Indicates whether the volume is deleted on instance termination.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/autoscaling_launch_configuration#delete_on_termination AutoscalingLaunchConfiguration#delete_on_termination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/autoscaling_launch_configuration#delete_on_termination AutoscalingLaunchConfiguration#delete_on_termination}
 
 ---
 
@@ -1396,7 +1396,7 @@ Encrypted interface{}
 
 Specifies whether the volume should be encrypted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/autoscaling_launch_configuration#encrypted AutoscalingLaunchConfiguration#encrypted}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/autoscaling_launch_configuration#encrypted AutoscalingLaunchConfiguration#encrypted}
 
 ---
 
@@ -1410,7 +1410,7 @@ Iops *f64
 
 The number of input/output (I/O) operations per second (IOPS) to provision for the volume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/autoscaling_launch_configuration#iops AutoscalingLaunchConfiguration#iops}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/autoscaling_launch_configuration#iops AutoscalingLaunchConfiguration#iops}
 
 ---
 
@@ -1424,7 +1424,7 @@ SnapshotId *string
 
 The snapshot ID of the volume to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/autoscaling_launch_configuration#snapshot_id AutoscalingLaunchConfiguration#snapshot_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/autoscaling_launch_configuration#snapshot_id AutoscalingLaunchConfiguration#snapshot_id}
 
 ---
 
@@ -1438,7 +1438,7 @@ Throughput *f64
 
 The throughput (MiBps) to provision for a gp3 volume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/autoscaling_launch_configuration#throughput AutoscalingLaunchConfiguration#throughput}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/autoscaling_launch_configuration#throughput AutoscalingLaunchConfiguration#throughput}
 
 ---
 
@@ -1452,7 +1452,7 @@ VolumeSize *f64
 
 The volume size, in GiBs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/autoscaling_launch_configuration#volume_size AutoscalingLaunchConfiguration#volume_size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/autoscaling_launch_configuration#volume_size AutoscalingLaunchConfiguration#volume_size}
 
 ---
 
@@ -1466,7 +1466,7 @@ VolumeType *string
 
 The volume type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/autoscaling_launch_configuration#volume_type AutoscalingLaunchConfiguration#volume_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/autoscaling_launch_configuration#volume_type AutoscalingLaunchConfiguration#volume_type}
 
 ---
 
@@ -1475,7 +1475,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.autoscalingLaunchConfiguration.AutoscalingLaunchConfigurationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/autoscalinglaunchconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/autoscalinglaunchconfiguration"
 
 &autoscalinglaunchconfiguration.AutoscalingLaunchConfigurationConfig {
 	Connection: interface{},
@@ -1498,7 +1498,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/autoscalinglaunchconfi
 	KernelId: *string,
 	KeyName: *string,
 	LaunchConfigurationName: *string,
-	MetadataOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.autoscalingLaunchConfiguration.AutoscalingLaunchConfigurationMetadataOptions,
+	MetadataOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.autoscalingLaunchConfiguration.AutoscalingLaunchConfigurationMetadataOptions,
 	PlacementTenancy: *string,
 	RamDiskId: *string,
 	SecurityGroups: *[]*string,
@@ -1620,7 +1620,7 @@ ImageId *string
 
 Provides the unique ID of the Amazon Machine Image (AMI) that was assigned during registration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/autoscaling_launch_configuration#image_id AutoscalingLaunchConfiguration#image_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/autoscaling_launch_configuration#image_id AutoscalingLaunchConfiguration#image_id}
 
 ---
 
@@ -1634,7 +1634,7 @@ InstanceType *string
 
 Specifies the instance type of the EC2 instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/autoscaling_launch_configuration#instance_type AutoscalingLaunchConfiguration#instance_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/autoscaling_launch_configuration#instance_type AutoscalingLaunchConfiguration#instance_type}
 
 ---
 
@@ -1648,7 +1648,7 @@ AssociatePublicIpAddress interface{}
 
 For Auto Scaling groups that are running in a virtual private cloud (VPC), specifies whether to assign a public IP address to the group's instances.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/autoscaling_launch_configuration#associate_public_ip_address AutoscalingLaunchConfiguration#associate_public_ip_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/autoscaling_launch_configuration#associate_public_ip_address AutoscalingLaunchConfiguration#associate_public_ip_address}
 
 ---
 
@@ -1662,7 +1662,7 @@ BlockDeviceMappings interface{}
 
 Specifies how block devices are exposed to the instance. You can specify virtual devices and EBS volumes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/autoscaling_launch_configuration#block_device_mappings AutoscalingLaunchConfiguration#block_device_mappings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/autoscaling_launch_configuration#block_device_mappings AutoscalingLaunchConfiguration#block_device_mappings}
 
 ---
 
@@ -1676,7 +1676,7 @@ ClassicLinkVpcId *string
 
 The ID of a ClassicLink-enabled VPC to link your EC2-Classic instances to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/autoscaling_launch_configuration#classic_link_vpc_id AutoscalingLaunchConfiguration#classic_link_vpc_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/autoscaling_launch_configuration#classic_link_vpc_id AutoscalingLaunchConfiguration#classic_link_vpc_id}
 
 ---
 
@@ -1690,7 +1690,7 @@ ClassicLinkVpcSecurityGroups *[]*string
 
 The IDs of one or more security groups for the VPC that you specified in the ClassicLinkVPCId property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/autoscaling_launch_configuration#classic_link_vpc_security_groups AutoscalingLaunchConfiguration#classic_link_vpc_security_groups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/autoscaling_launch_configuration#classic_link_vpc_security_groups AutoscalingLaunchConfiguration#classic_link_vpc_security_groups}
 
 ---
 
@@ -1704,7 +1704,7 @@ EbsOptimized interface{}
 
 Specifies whether the launch configuration is optimized for EBS I/O (true) or not (false).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/autoscaling_launch_configuration#ebs_optimized AutoscalingLaunchConfiguration#ebs_optimized}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/autoscaling_launch_configuration#ebs_optimized AutoscalingLaunchConfiguration#ebs_optimized}
 
 ---
 
@@ -1720,7 +1720,7 @@ Provides the name or the Amazon Resource Name (ARN) of the instance profile asso
 
 The instance profile contains the IAM role.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/autoscaling_launch_configuration#iam_instance_profile AutoscalingLaunchConfiguration#iam_instance_profile}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/autoscaling_launch_configuration#iam_instance_profile AutoscalingLaunchConfiguration#iam_instance_profile}
 
 ---
 
@@ -1734,7 +1734,7 @@ InstanceId *string
 
 The ID of the Amazon EC2 instance you want to use to create the launch configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/autoscaling_launch_configuration#instance_id AutoscalingLaunchConfiguration#instance_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/autoscaling_launch_configuration#instance_id AutoscalingLaunchConfiguration#instance_id}
 
 ---
 
@@ -1748,7 +1748,7 @@ InstanceMonitoring interface{}
 
 Controls whether instances in this group are launched with detailed (true) or basic (false) monitoring.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/autoscaling_launch_configuration#instance_monitoring AutoscalingLaunchConfiguration#instance_monitoring}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/autoscaling_launch_configuration#instance_monitoring AutoscalingLaunchConfiguration#instance_monitoring}
 
 ---
 
@@ -1762,7 +1762,7 @@ KernelId *string
 
 Provides the ID of the kernel associated with the EC2 AMI.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/autoscaling_launch_configuration#kernel_id AutoscalingLaunchConfiguration#kernel_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/autoscaling_launch_configuration#kernel_id AutoscalingLaunchConfiguration#kernel_id}
 
 ---
 
@@ -1776,7 +1776,7 @@ KeyName *string
 
 Provides the name of the EC2 key pair.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/autoscaling_launch_configuration#key_name AutoscalingLaunchConfiguration#key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/autoscaling_launch_configuration#key_name AutoscalingLaunchConfiguration#key_name}
 
 ---
 
@@ -1790,7 +1790,7 @@ LaunchConfigurationName *string
 
 The name of the launch configuration. This name must be unique per Region per account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/autoscaling_launch_configuration#launch_configuration_name AutoscalingLaunchConfiguration#launch_configuration_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/autoscaling_launch_configuration#launch_configuration_name AutoscalingLaunchConfiguration#launch_configuration_name}
 
 ---
 
@@ -1804,7 +1804,7 @@ MetadataOptions AutoscalingLaunchConfigurationMetadataOptions
 
 The metadata options for the instances.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/autoscaling_launch_configuration#metadata_options AutoscalingLaunchConfiguration#metadata_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/autoscaling_launch_configuration#metadata_options AutoscalingLaunchConfiguration#metadata_options}
 
 ---
 
@@ -1818,7 +1818,7 @@ PlacementTenancy *string
 
 The tenancy of the instance, either default or dedicated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/autoscaling_launch_configuration#placement_tenancy AutoscalingLaunchConfiguration#placement_tenancy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/autoscaling_launch_configuration#placement_tenancy AutoscalingLaunchConfiguration#placement_tenancy}
 
 ---
 
@@ -1832,7 +1832,7 @@ RamDiskId *string
 
 The ID of the RAM disk to select.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/autoscaling_launch_configuration#ram_disk_id AutoscalingLaunchConfiguration#ram_disk_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/autoscaling_launch_configuration#ram_disk_id AutoscalingLaunchConfiguration#ram_disk_id}
 
 ---
 
@@ -1846,7 +1846,7 @@ SecurityGroups *[]*string
 
 A list that contains the security groups to assign to the instances in the Auto Scaling group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/autoscaling_launch_configuration#security_groups AutoscalingLaunchConfiguration#security_groups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/autoscaling_launch_configuration#security_groups AutoscalingLaunchConfiguration#security_groups}
 
 ---
 
@@ -1860,7 +1860,7 @@ SpotPrice *string
 
 The maximum hourly price you are willing to pay for any Spot Instances launched to fulfill the request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/autoscaling_launch_configuration#spot_price AutoscalingLaunchConfiguration#spot_price}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/autoscaling_launch_configuration#spot_price AutoscalingLaunchConfiguration#spot_price}
 
 ---
 
@@ -1874,7 +1874,7 @@ UserData *string
 
 The Base64-encoded user data to make available to the launched EC2 instances.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/autoscaling_launch_configuration#user_data AutoscalingLaunchConfiguration#user_data}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/autoscaling_launch_configuration#user_data AutoscalingLaunchConfiguration#user_data}
 
 ---
 
@@ -1883,7 +1883,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.autoscalingLaunchConfiguration.AutoscalingLaunchConfigurationMetadataOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/autoscalinglaunchconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/autoscalinglaunchconfiguration"
 
 &autoscalinglaunchconfiguration.AutoscalingLaunchConfigurationMetadataOptions {
 	HttpEndpoint: *string,
@@ -1912,7 +1912,7 @@ HttpEndpoint *string
 
 This parameter enables or disables the HTTP metadata endpoint on your instances.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/autoscaling_launch_configuration#http_endpoint AutoscalingLaunchConfiguration#http_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/autoscaling_launch_configuration#http_endpoint AutoscalingLaunchConfiguration#http_endpoint}
 
 ---
 
@@ -1926,7 +1926,7 @@ HttpPutResponseHopLimit *f64
 
 The desired HTTP PUT response hop limit for instance metadata requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/autoscaling_launch_configuration#http_put_response_hop_limit AutoscalingLaunchConfiguration#http_put_response_hop_limit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/autoscaling_launch_configuration#http_put_response_hop_limit AutoscalingLaunchConfiguration#http_put_response_hop_limit}
 
 ---
 
@@ -1940,7 +1940,7 @@ HttpTokens *string
 
 The state of token usage for your instance metadata requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/autoscaling_launch_configuration#http_tokens AutoscalingLaunchConfiguration#http_tokens}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/autoscaling_launch_configuration#http_tokens AutoscalingLaunchConfiguration#http_tokens}
 
 ---
 
@@ -1951,7 +1951,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.autoscalingLaunchConfiguration.AutoscalingLaunchConfigurationBlockDeviceMappingsEbsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/autoscalinglaunchconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/autoscalinglaunchconfiguration"
 
 autoscalinglaunchconfiguration.NewAutoscalingLaunchConfigurationBlockDeviceMappingsEbsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) AutoscalingLaunchConfigurationBlockDeviceMappingsEbsOutputReference
 ```
@@ -2403,7 +2403,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.autoscalingLaunchConfiguration.AutoscalingLaunchConfigurationBlockDeviceMappingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/autoscalinglaunchconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/autoscalinglaunchconfiguration"
 
 autoscalinglaunchconfiguration.NewAutoscalingLaunchConfigurationBlockDeviceMappingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) AutoscalingLaunchConfigurationBlockDeviceMappingsList
 ```
@@ -2563,7 +2563,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.autoscalingLaunchConfiguration.AutoscalingLaunchConfigurationBlockDeviceMappingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/autoscalinglaunchconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/autoscalinglaunchconfiguration"
 
 autoscalinglaunchconfiguration.NewAutoscalingLaunchConfigurationBlockDeviceMappingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) AutoscalingLaunchConfigurationBlockDeviceMappingsOutputReference
 ```
@@ -2959,7 +2959,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.autoscalingLaunchConfiguration.AutoscalingLaunchConfigurationMetadataOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/autoscalinglaunchconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/autoscalinglaunchconfiguration"
 
 autoscalinglaunchconfiguration.NewAutoscalingLaunchConfigurationMetadataOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) AutoscalingLaunchConfigurationMetadataOptionsOutputReference
 ```

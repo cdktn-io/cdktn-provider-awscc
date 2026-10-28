@@ -4,12 +4,12 @@
 
 ### DataAwsccDeadlineBudget <a name="DataAwsccDeadlineBudget" id="@cdktn/provider-awscc.dataAwsccDeadlineBudget.DataAwsccDeadlineBudget"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/deadline_budget awscc_deadline_budget}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/deadline_budget awscc_deadline_budget}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDeadlineBudget.DataAwsccDeadlineBudget.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinebudget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinebudget"
 
 dataawsccdeadlinebudget.NewDataAwsccDeadlineBudget(scope Construct, id *string, config DataAwsccDeadlineBudgetConfig) DataAwsccDeadlineBudget
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccDeadlineBudget.DataAwsccDeadlineBudget.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinebudget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinebudget"
 
 dataawsccdeadlinebudget.DataAwsccDeadlineBudget_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccDeadlineBudget.DataAwsccDeadlineBudget.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinebudget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinebudget"
 
 dataawsccdeadlinebudget.DataAwsccDeadlineBudget_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccdeadlinebudget.DataAwsccDeadlineBudget_IsTerraformElement(x interface{}
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccDeadlineBudget.DataAwsccDeadlineBudget.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinebudget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinebudget"
 
 dataawsccdeadlinebudget.DataAwsccDeadlineBudget_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccdeadlinebudget.DataAwsccDeadlineBudget_IsTerraformDataSource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccDeadlineBudget.DataAwsccDeadlineBudget.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinebudget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinebudget"
 
 dataawsccdeadlinebudget.DataAwsccDeadlineBudget_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDeadlineBudget to
 
 The id of the existing DataAwsccDeadlineBudget that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/deadline_budget#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/deadline_budget#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -708,7 +708,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDeadlineBudget.DataAwsccDeadlineBudgetActions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinebudget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinebudget"
 
 &dataawsccdeadlinebudget.DataAwsccDeadlineBudgetActions {
 
@@ -721,7 +721,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinebudge
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDeadlineBudget.DataAwsccDeadlineBudgetConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinebudget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinebudget"
 
 &dataawsccdeadlinebudget.DataAwsccDeadlineBudgetConfig {
 	Connection: interface{},
@@ -830,7 +830,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/deadline_budget#id DataAwsccDeadlineBudget#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/deadline_budget#id DataAwsccDeadlineBudget#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -842,7 +842,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDeadlineBudget.DataAwsccDeadlineBudgetSchedule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinebudget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinebudget"
 
 &dataawsccdeadlinebudget.DataAwsccDeadlineBudgetSchedule {
 
@@ -855,7 +855,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinebudge
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDeadlineBudget.DataAwsccDeadlineBudgetScheduleFixed.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinebudget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinebudget"
 
 &dataawsccdeadlinebudget.DataAwsccDeadlineBudgetScheduleFixed {
 
@@ -868,7 +868,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinebudge
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDeadlineBudget.DataAwsccDeadlineBudgetTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinebudget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinebudget"
 
 &dataawsccdeadlinebudget.DataAwsccDeadlineBudgetTags {
 
@@ -881,7 +881,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinebudge
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDeadlineBudget.DataAwsccDeadlineBudgetUsageTrackingResource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinebudget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinebudget"
 
 &dataawsccdeadlinebudget.DataAwsccDeadlineBudgetUsageTrackingResource {
 
@@ -896,7 +896,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinebudge
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDeadlineBudget.DataAwsccDeadlineBudgetActionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinebudget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinebudget"
 
 dataawsccdeadlinebudget.NewDataAwsccDeadlineBudgetActionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDeadlineBudgetActionsList
 ```
@@ -1045,7 +1045,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDeadlineBudget.DataAwsccDeadlineBudgetActionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinebudget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinebudget"
 
 dataawsccdeadlinebudget.NewDataAwsccDeadlineBudgetActionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDeadlineBudgetActionsOutputReference
 ```
@@ -1345,7 +1345,7 @@ func InternalValue() DataAwsccDeadlineBudgetActions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDeadlineBudget.DataAwsccDeadlineBudgetScheduleFixedOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinebudget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinebudget"
 
 dataawsccdeadlinebudget.NewDataAwsccDeadlineBudgetScheduleFixedOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDeadlineBudgetScheduleFixedOutputReference
 ```
@@ -1616,7 +1616,7 @@ func InternalValue() DataAwsccDeadlineBudgetScheduleFixed
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDeadlineBudget.DataAwsccDeadlineBudgetScheduleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinebudget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinebudget"
 
 dataawsccdeadlinebudget.NewDataAwsccDeadlineBudgetScheduleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDeadlineBudgetScheduleOutputReference
 ```
@@ -1876,7 +1876,7 @@ func InternalValue() DataAwsccDeadlineBudgetSchedule
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDeadlineBudget.DataAwsccDeadlineBudgetTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinebudget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinebudget"
 
 dataawsccdeadlinebudget.NewDataAwsccDeadlineBudgetTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccDeadlineBudgetTagsList
 ```
@@ -2025,7 +2025,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDeadlineBudget.DataAwsccDeadlineBudgetTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinebudget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinebudget"
 
 dataawsccdeadlinebudget.NewDataAwsccDeadlineBudgetTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccDeadlineBudgetTagsOutputReference
 ```
@@ -2314,7 +2314,7 @@ func InternalValue() DataAwsccDeadlineBudgetTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDeadlineBudget.DataAwsccDeadlineBudgetUsageTrackingResourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinebudget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinebudget"
 
 dataawsccdeadlinebudget.NewDataAwsccDeadlineBudgetUsageTrackingResourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDeadlineBudgetUsageTrackingResourceOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccSmsvoiceConfigurationSet <a name="DataAwsccSmsvoiceConfigurationSet" id="@cdktn/provider-awscc.dataAwsccSmsvoiceConfigurationSet.DataAwsccSmsvoiceConfigurationSet"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/smsvoice_configuration_set awscc_smsvoice_configuration_set}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/smsvoice_configuration_set awscc_smsvoice_configuration_set}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSmsvoiceConfigurationSet.DataAwsccSmsvoiceConfigurationSet.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoiceconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoiceconfigurationset"
 
 dataawsccsmsvoiceconfigurationset.NewDataAwsccSmsvoiceConfigurationSet(scope Construct, id *string, config DataAwsccSmsvoiceConfigurationSetConfig) DataAwsccSmsvoiceConfigurationSet
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSmsvoiceConfigurationSet.DataAwsccSmsvoiceConfigurationSet.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoiceconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoiceconfigurationset"
 
 dataawsccsmsvoiceconfigurationset.DataAwsccSmsvoiceConfigurationSet_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSmsvoiceConfigurationSet.DataAwsccSmsvoiceConfigurationSet.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoiceconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoiceconfigurationset"
 
 dataawsccsmsvoiceconfigurationset.DataAwsccSmsvoiceConfigurationSet_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsmsvoiceconfigurationset.DataAwsccSmsvoiceConfigurationSet_IsTerraformE
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSmsvoiceConfigurationSet.DataAwsccSmsvoiceConfigurationSet.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoiceconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoiceconfigurationset"
 
 dataawsccsmsvoiceconfigurationset.DataAwsccSmsvoiceConfigurationSet_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsmsvoiceconfigurationset.DataAwsccSmsvoiceConfigurationSet_IsTerraformD
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSmsvoiceConfigurationSet.DataAwsccSmsvoiceConfigurationSet.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoiceconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoiceconfigurationset"
 
 dataawsccsmsvoiceconfigurationset.DataAwsccSmsvoiceConfigurationSet_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSmsvoiceConfigura
 
 The id of the existing DataAwsccSmsvoiceConfigurationSet that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/smsvoice_configuration_set#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/smsvoice_configuration_set#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -664,7 +664,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSmsvoiceConfigurationSet.DataAwsccSmsvoiceConfigurationSetConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoiceconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoiceconfigurationset"
 
 &dataawsccsmsvoiceconfigurationset.DataAwsccSmsvoiceConfigurationSetConfig {
 	Connection: interface{},
@@ -773,7 +773,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/smsvoice_configuration_set#id DataAwsccSmsvoiceConfigurationSet#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/smsvoice_configuration_set#id DataAwsccSmsvoiceConfigurationSet#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -785,7 +785,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSmsvoiceConfigurationSet.DataAwsccSmsvoiceConfigurationSetEventDestinations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoiceconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoiceconfigurationset"
 
 &dataawsccsmsvoiceconfigurationset.DataAwsccSmsvoiceConfigurationSetEventDestinations {
 
@@ -798,7 +798,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoiceconfi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSmsvoiceConfigurationSet.DataAwsccSmsvoiceConfigurationSetEventDestinationsCloudwatchLogsDestination.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoiceconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoiceconfigurationset"
 
 &dataawsccsmsvoiceconfigurationset.DataAwsccSmsvoiceConfigurationSetEventDestinationsCloudwatchLogsDestination {
 
@@ -811,7 +811,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoiceconfi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSmsvoiceConfigurationSet.DataAwsccSmsvoiceConfigurationSetEventDestinationsKinesisFirehoseDestination.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoiceconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoiceconfigurationset"
 
 &dataawsccsmsvoiceconfigurationset.DataAwsccSmsvoiceConfigurationSetEventDestinationsKinesisFirehoseDestination {
 
@@ -824,7 +824,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoiceconfi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSmsvoiceConfigurationSet.DataAwsccSmsvoiceConfigurationSetEventDestinationsSnsDestination.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoiceconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoiceconfigurationset"
 
 &dataawsccsmsvoiceconfigurationset.DataAwsccSmsvoiceConfigurationSetEventDestinationsSnsDestination {
 
@@ -837,7 +837,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoiceconfi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSmsvoiceConfigurationSet.DataAwsccSmsvoiceConfigurationSetTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoiceconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoiceconfigurationset"
 
 &dataawsccsmsvoiceconfigurationset.DataAwsccSmsvoiceConfigurationSetTags {
 
@@ -852,7 +852,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoiceconfi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSmsvoiceConfigurationSet.DataAwsccSmsvoiceConfigurationSetEventDestinationsCloudwatchLogsDestinationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoiceconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoiceconfigurationset"
 
 dataawsccsmsvoiceconfigurationset.NewDataAwsccSmsvoiceConfigurationSetEventDestinationsCloudwatchLogsDestinationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSmsvoiceConfigurationSetEventDestinationsCloudwatchLogsDestinationOutputReference
 ```
@@ -1123,7 +1123,7 @@ func InternalValue() DataAwsccSmsvoiceConfigurationSetEventDestinationsCloudwatc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSmsvoiceConfigurationSet.DataAwsccSmsvoiceConfigurationSetEventDestinationsKinesisFirehoseDestinationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoiceconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoiceconfigurationset"
 
 dataawsccsmsvoiceconfigurationset.NewDataAwsccSmsvoiceConfigurationSetEventDestinationsKinesisFirehoseDestinationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSmsvoiceConfigurationSetEventDestinationsKinesisFirehoseDestinationOutputReference
 ```
@@ -1394,7 +1394,7 @@ func InternalValue() DataAwsccSmsvoiceConfigurationSetEventDestinationsKinesisFi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSmsvoiceConfigurationSet.DataAwsccSmsvoiceConfigurationSetEventDestinationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoiceconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoiceconfigurationset"
 
 dataawsccsmsvoiceconfigurationset.NewDataAwsccSmsvoiceConfigurationSetEventDestinationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSmsvoiceConfigurationSetEventDestinationsList
 ```
@@ -1543,7 +1543,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSmsvoiceConfigurationSet.DataAwsccSmsvoiceConfigurationSetEventDestinationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoiceconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoiceconfigurationset"
 
 dataawsccsmsvoiceconfigurationset.NewDataAwsccSmsvoiceConfigurationSetEventDestinationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSmsvoiceConfigurationSetEventDestinationsOutputReference
 ```
@@ -1876,7 +1876,7 @@ func InternalValue() DataAwsccSmsvoiceConfigurationSetEventDestinations
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSmsvoiceConfigurationSet.DataAwsccSmsvoiceConfigurationSetEventDestinationsSnsDestinationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoiceconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoiceconfigurationset"
 
 dataawsccsmsvoiceconfigurationset.NewDataAwsccSmsvoiceConfigurationSetEventDestinationsSnsDestinationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSmsvoiceConfigurationSetEventDestinationsSnsDestinationOutputReference
 ```
@@ -2136,7 +2136,7 @@ func InternalValue() DataAwsccSmsvoiceConfigurationSetEventDestinationsSnsDestin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSmsvoiceConfigurationSet.DataAwsccSmsvoiceConfigurationSetTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoiceconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoiceconfigurationset"
 
 dataawsccsmsvoiceconfigurationset.NewDataAwsccSmsvoiceConfigurationSetTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSmsvoiceConfigurationSetTagsList
 ```
@@ -2285,7 +2285,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSmsvoiceConfigurationSet.DataAwsccSmsvoiceConfigurationSetTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoiceconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoiceconfigurationset"
 
 dataawsccsmsvoiceconfigurationset.NewDataAwsccSmsvoiceConfigurationSetTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSmsvoiceConfigurationSetTagsOutputReference
 ```

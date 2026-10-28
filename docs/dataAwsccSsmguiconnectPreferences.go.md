@@ -4,12 +4,12 @@
 
 ### DataAwsccSsmguiconnectPreferences <a name="DataAwsccSsmguiconnectPreferences" id="@cdktn/provider-awscc.dataAwsccSsmguiconnectPreferences.DataAwsccSsmguiconnectPreferences"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ssmguiconnect_preferences awscc_ssmguiconnect_preferences}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ssmguiconnect_preferences awscc_ssmguiconnect_preferences}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmguiconnectPreferences.DataAwsccSsmguiconnectPreferences.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmguiconnectpreferences"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmguiconnectpreferences"
 
 dataawsccssmguiconnectpreferences.NewDataAwsccSsmguiconnectPreferences(scope Construct, id *string, config DataAwsccSsmguiconnectPreferencesConfig) DataAwsccSsmguiconnectPreferences
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSsmguiconnectPreferences.DataAwsccSsmguiconnectPreferences.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmguiconnectpreferences"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmguiconnectpreferences"
 
 dataawsccssmguiconnectpreferences.DataAwsccSsmguiconnectPreferences_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSsmguiconnectPreferences.DataAwsccSsmguiconnectPreferences.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmguiconnectpreferences"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmguiconnectpreferences"
 
 dataawsccssmguiconnectpreferences.DataAwsccSsmguiconnectPreferences_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccssmguiconnectpreferences.DataAwsccSsmguiconnectPreferences_IsTerraformE
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSsmguiconnectPreferences.DataAwsccSsmguiconnectPreferences.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmguiconnectpreferences"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmguiconnectpreferences"
 
 dataawsccssmguiconnectpreferences.DataAwsccSsmguiconnectPreferences_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccssmguiconnectpreferences.DataAwsccSsmguiconnectPreferences_IsTerraformD
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSsmguiconnectPreferences.DataAwsccSsmguiconnectPreferences.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmguiconnectpreferences"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmguiconnectpreferences"
 
 dataawsccssmguiconnectpreferences.DataAwsccSsmguiconnectPreferences_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSsmguiconnectPref
 
 The id of the existing DataAwsccSsmguiconnectPreferences that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ssmguiconnect_preferences#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ssmguiconnect_preferences#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -609,7 +609,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSsmguiconnectPreferences.DataAwsccSsmguiconnectPreferencesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmguiconnectpreferences"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmguiconnectpreferences"
 
 &dataawsccssmguiconnectpreferences.DataAwsccSsmguiconnectPreferencesConfig {
 	Connection: interface{},
@@ -718,7 +718,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ssmguiconnect_preferences#id DataAwsccSsmguiconnectPreferences#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ssmguiconnect_preferences#id DataAwsccSsmguiconnectPreferences#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -730,7 +730,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSsmguiconnectPreferences.DataAwsccSsmguiconnectPreferencesConnectionRecordingPreferences.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmguiconnectpreferences"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmguiconnectpreferences"
 
 &dataawsccssmguiconnectpreferences.DataAwsccSsmguiconnectPreferencesConnectionRecordingPreferences {
 
@@ -743,7 +743,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmguiconnect
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSsmguiconnectPreferences.DataAwsccSsmguiconnectPreferencesConnectionRecordingPreferencesRecordingDestinations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmguiconnectpreferences"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmguiconnectpreferences"
 
 &dataawsccssmguiconnectpreferences.DataAwsccSsmguiconnectPreferencesConnectionRecordingPreferencesRecordingDestinations {
 
@@ -756,7 +756,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmguiconnect
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSsmguiconnectPreferences.DataAwsccSsmguiconnectPreferencesConnectionRecordingPreferencesRecordingDestinationsS3Buckets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmguiconnectpreferences"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmguiconnectpreferences"
 
 &dataawsccssmguiconnectpreferences.DataAwsccSsmguiconnectPreferencesConnectionRecordingPreferencesRecordingDestinationsS3Buckets {
 
@@ -771,7 +771,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmguiconnect
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmguiconnectPreferences.DataAwsccSsmguiconnectPreferencesConnectionRecordingPreferencesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmguiconnectpreferences"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmguiconnectpreferences"
 
 dataawsccssmguiconnectpreferences.NewDataAwsccSsmguiconnectPreferencesConnectionRecordingPreferencesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSsmguiconnectPreferencesConnectionRecordingPreferencesOutputReference
 ```
@@ -1042,7 +1042,7 @@ func InternalValue() DataAwsccSsmguiconnectPreferencesConnectionRecordingPrefere
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmguiconnectPreferences.DataAwsccSsmguiconnectPreferencesConnectionRecordingPreferencesRecordingDestinationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmguiconnectpreferences"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmguiconnectpreferences"
 
 dataawsccssmguiconnectpreferences.NewDataAwsccSsmguiconnectPreferencesConnectionRecordingPreferencesRecordingDestinationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSsmguiconnectPreferencesConnectionRecordingPreferencesRecordingDestinationsOutputReference
 ```
@@ -1302,7 +1302,7 @@ func InternalValue() DataAwsccSsmguiconnectPreferencesConnectionRecordingPrefere
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmguiconnectPreferences.DataAwsccSsmguiconnectPreferencesConnectionRecordingPreferencesRecordingDestinationsS3BucketsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmguiconnectpreferences"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmguiconnectpreferences"
 
 dataawsccssmguiconnectpreferences.NewDataAwsccSsmguiconnectPreferencesConnectionRecordingPreferencesRecordingDestinationsS3BucketsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSsmguiconnectPreferencesConnectionRecordingPreferencesRecordingDestinationsS3BucketsList
 ```
@@ -1451,7 +1451,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmguiconnectPreferences.DataAwsccSsmguiconnectPreferencesConnectionRecordingPreferencesRecordingDestinationsS3BucketsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmguiconnectpreferences"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmguiconnectpreferences"
 
 dataawsccssmguiconnectpreferences.NewDataAwsccSsmguiconnectPreferencesConnectionRecordingPreferencesRecordingDestinationsS3BucketsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSsmguiconnectPreferencesConnectionRecordingPreferencesRecordingDestinationsS3BucketsOutputReference
 ```

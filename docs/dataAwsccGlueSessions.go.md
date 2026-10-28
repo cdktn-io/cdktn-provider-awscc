@@ -4,12 +4,12 @@
 
 ### DataAwsccGlueSessions <a name="DataAwsccGlueSessions" id="@cdktn/provider-awscc.dataAwsccGlueSessions.DataAwsccGlueSessions"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/glue_sessions awscc_glue_sessions}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/glue_sessions awscc_glue_sessions}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueSessions.DataAwsccGlueSessions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluesessions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluesessions"
 
 dataawsccgluesessions.NewDataAwsccGlueSessions(scope Construct, id *string, config DataAwsccGlueSessionsConfig) DataAwsccGlueSessions
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccGlueSessions.DataAwsccGlueSessions.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluesessions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluesessions"
 
 dataawsccgluesessions.DataAwsccGlueSessions_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccGlueSessions.DataAwsccGlueSessions.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluesessions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluesessions"
 
 dataawsccgluesessions.DataAwsccGlueSessions_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccgluesessions.DataAwsccGlueSessions_IsTerraformElement(x interface{}) *b
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccGlueSessions.DataAwsccGlueSessions.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluesessions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluesessions"
 
 dataawsccgluesessions.DataAwsccGlueSessions_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccgluesessions.DataAwsccGlueSessions_IsTerraformDataSource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccGlueSessions.DataAwsccGlueSessions.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluesessions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluesessions"
 
 dataawsccgluesessions.DataAwsccGlueSessions_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccGlueSessions to i
 
 The id of the existing DataAwsccGlueSessions that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/glue_sessions#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/glue_sessions#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueSessions.DataAwsccGlueSessionsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluesessions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluesessions"
 
 &dataawsccgluesessions.DataAwsccGlueSessionsConfig {
 	Connection: interface{},

@@ -4,12 +4,12 @@
 
 ### DataAwsccGameliftGameServerGroup <a name="DataAwsccGameliftGameServerGroup" id="@cdktn/provider-awscc.dataAwsccGameliftGameServerGroup.DataAwsccGameliftGameServerGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/gamelift_game_server_group awscc_gamelift_game_server_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/gamelift_game_server_group awscc_gamelift_game_server_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGameliftGameServerGroup.DataAwsccGameliftGameServerGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftgameservergroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftgameservergroup"
 
 dataawsccgameliftgameservergroup.NewDataAwsccGameliftGameServerGroup(scope Construct, id *string, config DataAwsccGameliftGameServerGroupConfig) DataAwsccGameliftGameServerGroup
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccGameliftGameServerGroup.DataAwsccGameliftGameServerGroup.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftgameservergroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftgameservergroup"
 
 dataawsccgameliftgameservergroup.DataAwsccGameliftGameServerGroup_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccGameliftGameServerGroup.DataAwsccGameliftGameServerGroup.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftgameservergroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftgameservergroup"
 
 dataawsccgameliftgameservergroup.DataAwsccGameliftGameServerGroup_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccgameliftgameservergroup.DataAwsccGameliftGameServerGroup_IsTerraformEle
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccGameliftGameServerGroup.DataAwsccGameliftGameServerGroup.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftgameservergroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftgameservergroup"
 
 dataawsccgameliftgameservergroup.DataAwsccGameliftGameServerGroup_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccgameliftgameservergroup.DataAwsccGameliftGameServerGroup_IsTerraformDat
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccGameliftGameServerGroup.DataAwsccGameliftGameServerGroup.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftgameservergroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftgameservergroup"
 
 dataawsccgameliftgameservergroup.DataAwsccGameliftGameServerGroup_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccGameliftGameServe
 
 The id of the existing DataAwsccGameliftGameServerGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/gamelift_game_server_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/gamelift_game_server_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -741,7 +741,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGameliftGameServerGroup.DataAwsccGameliftGameServerGroupAutoScalingPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftgameservergroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftgameservergroup"
 
 &dataawsccgameliftgameservergroup.DataAwsccGameliftGameServerGroupAutoScalingPolicy {
 
@@ -754,7 +754,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftgames
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGameliftGameServerGroup.DataAwsccGameliftGameServerGroupAutoScalingPolicyTargetTrackingConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftgameservergroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftgameservergroup"
 
 &dataawsccgameliftgameservergroup.DataAwsccGameliftGameServerGroupAutoScalingPolicyTargetTrackingConfiguration {
 
@@ -767,7 +767,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftgames
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGameliftGameServerGroup.DataAwsccGameliftGameServerGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftgameservergroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftgameservergroup"
 
 &dataawsccgameliftgameservergroup.DataAwsccGameliftGameServerGroupConfig {
 	Connection: interface{},
@@ -876,7 +876,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/gamelift_game_server_group#id DataAwsccGameliftGameServerGroup#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/gamelift_game_server_group#id DataAwsccGameliftGameServerGroup#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -888,7 +888,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGameliftGameServerGroup.DataAwsccGameliftGameServerGroupInstanceDefinitions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftgameservergroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftgameservergroup"
 
 &dataawsccgameliftgameservergroup.DataAwsccGameliftGameServerGroupInstanceDefinitions {
 
@@ -901,7 +901,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftgames
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGameliftGameServerGroup.DataAwsccGameliftGameServerGroupLaunchTemplate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftgameservergroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftgameservergroup"
 
 &dataawsccgameliftgameservergroup.DataAwsccGameliftGameServerGroupLaunchTemplate {
 
@@ -914,7 +914,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftgames
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGameliftGameServerGroup.DataAwsccGameliftGameServerGroupTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftgameservergroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftgameservergroup"
 
 &dataawsccgameliftgameservergroup.DataAwsccGameliftGameServerGroupTags {
 
@@ -929,7 +929,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftgames
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGameliftGameServerGroup.DataAwsccGameliftGameServerGroupAutoScalingPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftgameservergroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftgameservergroup"
 
 dataawsccgameliftgameservergroup.NewDataAwsccGameliftGameServerGroupAutoScalingPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGameliftGameServerGroupAutoScalingPolicyOutputReference
 ```
@@ -1200,7 +1200,7 @@ func InternalValue() DataAwsccGameliftGameServerGroupAutoScalingPolicy
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGameliftGameServerGroup.DataAwsccGameliftGameServerGroupAutoScalingPolicyTargetTrackingConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftgameservergroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftgameservergroup"
 
 dataawsccgameliftgameservergroup.NewDataAwsccGameliftGameServerGroupAutoScalingPolicyTargetTrackingConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGameliftGameServerGroupAutoScalingPolicyTargetTrackingConfigurationOutputReference
 ```
@@ -1460,7 +1460,7 @@ func InternalValue() DataAwsccGameliftGameServerGroupAutoScalingPolicyTargetTrac
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGameliftGameServerGroup.DataAwsccGameliftGameServerGroupInstanceDefinitionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftgameservergroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftgameservergroup"
 
 dataawsccgameliftgameservergroup.NewDataAwsccGameliftGameServerGroupInstanceDefinitionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccGameliftGameServerGroupInstanceDefinitionsList
 ```
@@ -1609,7 +1609,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGameliftGameServerGroup.DataAwsccGameliftGameServerGroupInstanceDefinitionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftgameservergroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftgameservergroup"
 
 dataawsccgameliftgameservergroup.NewDataAwsccGameliftGameServerGroupInstanceDefinitionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccGameliftGameServerGroupInstanceDefinitionsOutputReference
 ```
@@ -1898,7 +1898,7 @@ func InternalValue() DataAwsccGameliftGameServerGroupInstanceDefinitions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGameliftGameServerGroup.DataAwsccGameliftGameServerGroupLaunchTemplateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftgameservergroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftgameservergroup"
 
 dataawsccgameliftgameservergroup.NewDataAwsccGameliftGameServerGroupLaunchTemplateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGameliftGameServerGroupLaunchTemplateOutputReference
 ```
@@ -2180,7 +2180,7 @@ func InternalValue() DataAwsccGameliftGameServerGroupLaunchTemplate
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGameliftGameServerGroup.DataAwsccGameliftGameServerGroupTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftgameservergroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftgameservergroup"
 
 dataawsccgameliftgameservergroup.NewDataAwsccGameliftGameServerGroupTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccGameliftGameServerGroupTagsList
 ```
@@ -2329,7 +2329,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGameliftGameServerGroup.DataAwsccGameliftGameServerGroupTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftgameservergroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftgameservergroup"
 
 dataawsccgameliftgameservergroup.NewDataAwsccGameliftGameServerGroupTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccGameliftGameServerGroupTagsOutputReference
 ```

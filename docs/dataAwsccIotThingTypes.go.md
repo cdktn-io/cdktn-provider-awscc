@@ -4,12 +4,12 @@
 
 ### DataAwsccIotThingTypes <a name="DataAwsccIotThingTypes" id="@cdktn/provider-awscc.dataAwsccIotThingTypes.DataAwsccIotThingTypes"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_thing_types awscc_iot_thing_types}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_thing_types awscc_iot_thing_types}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotThingTypes.DataAwsccIotThingTypes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotthingtypes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotthingtypes"
 
 dataawscciotthingtypes.NewDataAwsccIotThingTypes(scope Construct, id *string, config DataAwsccIotThingTypesConfig) DataAwsccIotThingTypes
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIotThingTypes.DataAwsccIotThingTypes.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotthingtypes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotthingtypes"
 
 dataawscciotthingtypes.DataAwsccIotThingTypes_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIotThingTypes.DataAwsccIotThingTypes.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotthingtypes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotthingtypes"
 
 dataawscciotthingtypes.DataAwsccIotThingTypes_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciotthingtypes.DataAwsccIotThingTypes_IsTerraformElement(x interface{}) 
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIotThingTypes.DataAwsccIotThingTypes.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotthingtypes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotthingtypes"
 
 dataawscciotthingtypes.DataAwsccIotThingTypes_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciotthingtypes.DataAwsccIotThingTypes_IsTerraformDataSource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIotThingTypes.DataAwsccIotThingTypes.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotthingtypes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotthingtypes"
 
 dataawscciotthingtypes.DataAwsccIotThingTypes_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotThingTypes to 
 
 The id of the existing DataAwsccIotThingTypes that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_thing_types#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_thing_types#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotThingTypes.DataAwsccIotThingTypesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotthingtypes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotthingtypes"
 
 &dataawscciotthingtypes.DataAwsccIotThingTypesConfig {
 	Connection: interface{},

@@ -4,12 +4,12 @@
 
 ### DataAwsccConnectTestCase <a name="DataAwsccConnectTestCase" id="@cdktn/provider-awscc.dataAwsccConnectTestCase.DataAwsccConnectTestCase"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_test_case awscc_connect_test_case}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_test_case awscc_connect_test_case}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectTestCase.DataAwsccConnectTestCase.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnecttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnecttestcase"
 
 dataawsccconnecttestcase.NewDataAwsccConnectTestCase(scope Construct, id *string, config DataAwsccConnectTestCaseConfig) DataAwsccConnectTestCase
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccConnectTestCase.DataAwsccConnectTestCase.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnecttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnecttestcase"
 
 dataawsccconnecttestcase.DataAwsccConnectTestCase_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccConnectTestCase.DataAwsccConnectTestCase.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnecttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnecttestcase"
 
 dataawsccconnecttestcase.DataAwsccConnectTestCase_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccconnecttestcase.DataAwsccConnectTestCase_IsTerraformElement(x interface
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccConnectTestCase.DataAwsccConnectTestCase.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnecttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnecttestcase"
 
 dataawsccconnecttestcase.DataAwsccConnectTestCase_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccconnecttestcase.DataAwsccConnectTestCase_IsTerraformDataSource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccConnectTestCase.DataAwsccConnectTestCase.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnecttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnecttestcase"
 
 dataawsccconnecttestcase.DataAwsccConnectTestCase_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccConnectTestCase t
 
 The id of the existing DataAwsccConnectTestCase that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_test_case#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_test_case#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -708,7 +708,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectTestCase.DataAwsccConnectTestCaseConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnecttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnecttestcase"
 
 &dataawsccconnecttestcase.DataAwsccConnectTestCaseConfig {
 	Connection: interface{},
@@ -817,7 +817,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_test_case#id DataAwsccConnectTestCase#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_test_case#id DataAwsccConnectTestCase#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -829,7 +829,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectTestCase.DataAwsccConnectTestCaseEntryPoint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnecttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnecttestcase"
 
 &dataawsccconnecttestcase.DataAwsccConnectTestCaseEntryPoint {
 
@@ -842,7 +842,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnecttestca
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectTestCase.DataAwsccConnectTestCaseEntryPointChatEntryPointParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnecttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnecttestcase"
 
 &dataawsccconnecttestcase.DataAwsccConnectTestCaseEntryPointChatEntryPointParameters {
 
@@ -855,7 +855,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnecttestca
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectTestCase.DataAwsccConnectTestCaseEntryPointVoiceCallEntryPointParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnecttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnecttestcase"
 
 &dataawsccconnecttestcase.DataAwsccConnectTestCaseEntryPointVoiceCallEntryPointParameters {
 
@@ -868,7 +868,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnecttestca
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConnectTestCase.DataAwsccConnectTestCaseTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnecttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnecttestcase"
 
 &dataawsccconnecttestcase.DataAwsccConnectTestCaseTags {
 
@@ -883,7 +883,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnecttestca
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectTestCase.DataAwsccConnectTestCaseEntryPointChatEntryPointParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnecttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnecttestcase"
 
 dataawsccconnecttestcase.NewDataAwsccConnectTestCaseEntryPointChatEntryPointParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectTestCaseEntryPointChatEntryPointParametersOutputReference
 ```
@@ -1143,7 +1143,7 @@ func InternalValue() DataAwsccConnectTestCaseEntryPointChatEntryPointParameters
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectTestCase.DataAwsccConnectTestCaseEntryPointOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnecttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnecttestcase"
 
 dataawsccconnecttestcase.NewDataAwsccConnectTestCaseEntryPointOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectTestCaseEntryPointOutputReference
 ```
@@ -1425,7 +1425,7 @@ func InternalValue() DataAwsccConnectTestCaseEntryPoint
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectTestCase.DataAwsccConnectTestCaseEntryPointVoiceCallEntryPointParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnecttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnecttestcase"
 
 dataawsccconnecttestcase.NewDataAwsccConnectTestCaseEntryPointVoiceCallEntryPointParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConnectTestCaseEntryPointVoiceCallEntryPointParametersOutputReference
 ```
@@ -1707,7 +1707,7 @@ func InternalValue() DataAwsccConnectTestCaseEntryPointVoiceCallEntryPointParame
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectTestCase.DataAwsccConnectTestCaseTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnecttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnecttestcase"
 
 dataawsccconnecttestcase.NewDataAwsccConnectTestCaseTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccConnectTestCaseTagsList
 ```
@@ -1856,7 +1856,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectTestCase.DataAwsccConnectTestCaseTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnecttestcase"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnecttestcase"
 
 dataawsccconnecttestcase.NewDataAwsccConnectTestCaseTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccConnectTestCaseTagsOutputReference
 ```

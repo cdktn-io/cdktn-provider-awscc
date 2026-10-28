@@ -4,12 +4,12 @@
 
 ### DataAwsccRtbfabricOutboundExternalLink <a name="DataAwsccRtbfabricOutboundExternalLink" id="@cdktn/provider-awscc.dataAwsccRtbfabricOutboundExternalLink.DataAwsccRtbfabricOutboundExternalLink"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rtbfabric_outbound_external_link awscc_rtbfabric_outbound_external_link}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rtbfabric_outbound_external_link awscc_rtbfabric_outbound_external_link}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRtbfabricOutboundExternalLink.DataAwsccRtbfabricOutboundExternalLink.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabricoutboundexternallink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabricoutboundexternallink"
 
 dataawsccrtbfabricoutboundexternallink.NewDataAwsccRtbfabricOutboundExternalLink(scope Construct, id *string, config DataAwsccRtbfabricOutboundExternalLinkConfig) DataAwsccRtbfabricOutboundExternalLink
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccRtbfabricOutboundExternalLink.DataAwsccRtbfabricOutboundExternalLink.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabricoutboundexternallink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabricoutboundexternallink"
 
 dataawsccrtbfabricoutboundexternallink.DataAwsccRtbfabricOutboundExternalLink_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccRtbfabricOutboundExternalLink.DataAwsccRtbfabricOutboundExternalLink.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabricoutboundexternallink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabricoutboundexternallink"
 
 dataawsccrtbfabricoutboundexternallink.DataAwsccRtbfabricOutboundExternalLink_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccrtbfabricoutboundexternallink.DataAwsccRtbfabricOutboundExternalLink_Is
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccRtbfabricOutboundExternalLink.DataAwsccRtbfabricOutboundExternalLink.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabricoutboundexternallink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabricoutboundexternallink"
 
 dataawsccrtbfabricoutboundexternallink.DataAwsccRtbfabricOutboundExternalLink_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccrtbfabricoutboundexternallink.DataAwsccRtbfabricOutboundExternalLink_Is
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccRtbfabricOutboundExternalLink.DataAwsccRtbfabricOutboundExternalLink.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabricoutboundexternallink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabricoutboundexternallink"
 
 dataawsccrtbfabricoutboundexternallink.DataAwsccRtbfabricOutboundExternalLink_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRtbfabricOutbound
 
 The id of the existing DataAwsccRtbfabricOutboundExternalLink that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rtbfabric_outbound_external_link#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rtbfabric_outbound_external_link#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -697,7 +697,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRtbfabricOutboundExternalLink.DataAwsccRtbfabricOutboundExternalLinkConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabricoutboundexternallink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabricoutboundexternallink"
 
 &dataawsccrtbfabricoutboundexternallink.DataAwsccRtbfabricOutboundExternalLinkConfig {
 	Connection: interface{},
@@ -806,7 +806,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rtbfabric_outbound_external_link#id DataAwsccRtbfabricOutboundExternalLink#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rtbfabric_outbound_external_link#id DataAwsccRtbfabricOutboundExternalLink#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -818,7 +818,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRtbfabricOutboundExternalLink.DataAwsccRtbfabricOutboundExternalLinkLinkAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabricoutboundexternallink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabricoutboundexternallink"
 
 &dataawsccrtbfabricoutboundexternallink.DataAwsccRtbfabricOutboundExternalLinkLinkAttributes {
 
@@ -831,7 +831,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabricoutb
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRtbfabricOutboundExternalLink.DataAwsccRtbfabricOutboundExternalLinkLinkAttributesResponderErrorMasking.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabricoutboundexternallink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabricoutboundexternallink"
 
 &dataawsccrtbfabricoutboundexternallink.DataAwsccRtbfabricOutboundExternalLinkLinkAttributesResponderErrorMasking {
 
@@ -844,7 +844,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabricoutb
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRtbfabricOutboundExternalLink.DataAwsccRtbfabricOutboundExternalLinkLinkLogSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabricoutboundexternallink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabricoutboundexternallink"
 
 &dataawsccrtbfabricoutboundexternallink.DataAwsccRtbfabricOutboundExternalLinkLinkLogSettings {
 
@@ -857,7 +857,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabricoutb
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRtbfabricOutboundExternalLink.DataAwsccRtbfabricOutboundExternalLinkLinkLogSettingsApplicationLogs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabricoutboundexternallink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabricoutboundexternallink"
 
 &dataawsccrtbfabricoutboundexternallink.DataAwsccRtbfabricOutboundExternalLinkLinkLogSettingsApplicationLogs {
 
@@ -870,7 +870,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabricoutb
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRtbfabricOutboundExternalLink.DataAwsccRtbfabricOutboundExternalLinkLinkLogSettingsApplicationLogsLinkApplicationLogSampling.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabricoutboundexternallink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabricoutboundexternallink"
 
 &dataawsccrtbfabricoutboundexternallink.DataAwsccRtbfabricOutboundExternalLinkLinkLogSettingsApplicationLogsLinkApplicationLogSampling {
 
@@ -883,7 +883,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabricoutb
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRtbfabricOutboundExternalLink.DataAwsccRtbfabricOutboundExternalLinkTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabricoutboundexternallink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabricoutboundexternallink"
 
 &dataawsccrtbfabricoutboundexternallink.DataAwsccRtbfabricOutboundExternalLinkTags {
 
@@ -898,7 +898,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabricoutb
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRtbfabricOutboundExternalLink.DataAwsccRtbfabricOutboundExternalLinkLinkAttributesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabricoutboundexternallink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabricoutboundexternallink"
 
 dataawsccrtbfabricoutboundexternallink.NewDataAwsccRtbfabricOutboundExternalLinkLinkAttributesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccRtbfabricOutboundExternalLinkLinkAttributesOutputReference
 ```
@@ -1169,7 +1169,7 @@ func InternalValue() DataAwsccRtbfabricOutboundExternalLinkLinkAttributes
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRtbfabricOutboundExternalLink.DataAwsccRtbfabricOutboundExternalLinkLinkAttributesResponderErrorMaskingList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabricoutboundexternallink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabricoutboundexternallink"
 
 dataawsccrtbfabricoutboundexternallink.NewDataAwsccRtbfabricOutboundExternalLinkLinkAttributesResponderErrorMaskingList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccRtbfabricOutboundExternalLinkLinkAttributesResponderErrorMaskingList
 ```
@@ -1318,7 +1318,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRtbfabricOutboundExternalLink.DataAwsccRtbfabricOutboundExternalLinkLinkAttributesResponderErrorMaskingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabricoutboundexternallink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabricoutboundexternallink"
 
 dataawsccrtbfabricoutboundexternallink.NewDataAwsccRtbfabricOutboundExternalLinkLinkAttributesResponderErrorMaskingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccRtbfabricOutboundExternalLinkLinkAttributesResponderErrorMaskingOutputReference
 ```
@@ -1629,7 +1629,7 @@ func InternalValue() DataAwsccRtbfabricOutboundExternalLinkLinkAttributesRespond
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRtbfabricOutboundExternalLink.DataAwsccRtbfabricOutboundExternalLinkLinkLogSettingsApplicationLogsLinkApplicationLogSamplingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabricoutboundexternallink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabricoutboundexternallink"
 
 dataawsccrtbfabricoutboundexternallink.NewDataAwsccRtbfabricOutboundExternalLinkLinkLogSettingsApplicationLogsLinkApplicationLogSamplingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccRtbfabricOutboundExternalLinkLinkLogSettingsApplicationLogsLinkApplicationLogSamplingOutputReference
 ```
@@ -1900,7 +1900,7 @@ func InternalValue() DataAwsccRtbfabricOutboundExternalLinkLinkLogSettingsApplic
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRtbfabricOutboundExternalLink.DataAwsccRtbfabricOutboundExternalLinkLinkLogSettingsApplicationLogsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabricoutboundexternallink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabricoutboundexternallink"
 
 dataawsccrtbfabricoutboundexternallink.NewDataAwsccRtbfabricOutboundExternalLinkLinkLogSettingsApplicationLogsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccRtbfabricOutboundExternalLinkLinkLogSettingsApplicationLogsOutputReference
 ```
@@ -2160,7 +2160,7 @@ func InternalValue() DataAwsccRtbfabricOutboundExternalLinkLinkLogSettingsApplic
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRtbfabricOutboundExternalLink.DataAwsccRtbfabricOutboundExternalLinkLinkLogSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabricoutboundexternallink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabricoutboundexternallink"
 
 dataawsccrtbfabricoutboundexternallink.NewDataAwsccRtbfabricOutboundExternalLinkLinkLogSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccRtbfabricOutboundExternalLinkLinkLogSettingsOutputReference
 ```
@@ -2420,7 +2420,7 @@ func InternalValue() DataAwsccRtbfabricOutboundExternalLinkLinkLogSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRtbfabricOutboundExternalLink.DataAwsccRtbfabricOutboundExternalLinkTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabricoutboundexternallink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabricoutboundexternallink"
 
 dataawsccrtbfabricoutboundexternallink.NewDataAwsccRtbfabricOutboundExternalLinkTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccRtbfabricOutboundExternalLinkTagsList
 ```
@@ -2569,7 +2569,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRtbfabricOutboundExternalLink.DataAwsccRtbfabricOutboundExternalLinkTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabricoutboundexternallink"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabricoutboundexternallink"
 
 dataawsccrtbfabricoutboundexternallink.NewDataAwsccRtbfabricOutboundExternalLinkTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccRtbfabricOutboundExternalLinkTagsOutputReference
 ```

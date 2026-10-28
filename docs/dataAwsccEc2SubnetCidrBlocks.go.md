@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2SubnetCidrBlocks <a name="DataAwsccEc2SubnetCidrBlocks" id="@cdktn/provider-awscc.dataAwsccEc2SubnetCidrBlocks.DataAwsccEc2SubnetCidrBlocks"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_subnet_cidr_blocks awscc_ec2_subnet_cidr_blocks}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_subnet_cidr_blocks awscc_ec2_subnet_cidr_blocks}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SubnetCidrBlocks.DataAwsccEc2SubnetCidrBlocks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2subnetcidrblocks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2subnetcidrblocks"
 
 dataawsccec2subnetcidrblocks.NewDataAwsccEc2SubnetCidrBlocks(scope Construct, id *string, config DataAwsccEc2SubnetCidrBlocksConfig) DataAwsccEc2SubnetCidrBlocks
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2SubnetCidrBlocks.DataAwsccEc2SubnetCidrBlocks.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2subnetcidrblocks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2subnetcidrblocks"
 
 dataawsccec2subnetcidrblocks.DataAwsccEc2SubnetCidrBlocks_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2SubnetCidrBlocks.DataAwsccEc2SubnetCidrBlocks.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2subnetcidrblocks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2subnetcidrblocks"
 
 dataawsccec2subnetcidrblocks.DataAwsccEc2SubnetCidrBlocks_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2subnetcidrblocks.DataAwsccEc2SubnetCidrBlocks_IsTerraformElement(x i
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2SubnetCidrBlocks.DataAwsccEc2SubnetCidrBlocks.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2subnetcidrblocks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2subnetcidrblocks"
 
 dataawsccec2subnetcidrblocks.DataAwsccEc2SubnetCidrBlocks_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2subnetcidrblocks.DataAwsccEc2SubnetCidrBlocks_IsTerraformDataSource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2SubnetCidrBlocks.DataAwsccEc2SubnetCidrBlocks.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2subnetcidrblocks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2subnetcidrblocks"
 
 dataawsccec2subnetcidrblocks.DataAwsccEc2SubnetCidrBlocks_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2SubnetCidrBloc
 
 The id of the existing DataAwsccEc2SubnetCidrBlocks that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_subnet_cidr_blocks#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_subnet_cidr_blocks#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2SubnetCidrBlocks.DataAwsccEc2SubnetCidrBlocksConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2subnetcidrblocks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2subnetcidrblocks"
 
 &dataawsccec2subnetcidrblocks.DataAwsccEc2SubnetCidrBlocksConfig {
 	Connection: interface{},

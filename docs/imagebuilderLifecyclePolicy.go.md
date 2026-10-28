@@ -4,12 +4,12 @@
 
 ### ImagebuilderLifecyclePolicy <a name="ImagebuilderLifecyclePolicy" id="@cdktn/provider-awscc.imagebuilderLifecyclePolicy.ImagebuilderLifecyclePolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/imagebuilder_lifecycle_policy awscc_imagebuilder_lifecycle_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/imagebuilder_lifecycle_policy awscc_imagebuilder_lifecycle_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.imagebuilderLifecyclePolicy.ImagebuilderLifecyclePolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/imagebuilderlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/imagebuilderlifecyclepolicy"
 
 imagebuilderlifecyclepolicy.NewImagebuilderLifecyclePolicy(scope Construct, id *string, config ImagebuilderLifecyclePolicyConfig) ImagebuilderLifecyclePolicy
 ```
@@ -447,7 +447,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.imagebuilderLifecyclePolicy.ImagebuilderLifecyclePolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/imagebuilderlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/imagebuilderlifecyclepolicy"
 
 imagebuilderlifecyclepolicy.ImagebuilderLifecyclePolicy_IsConstruct(x interface{}) *bool
 ```
@@ -479,7 +479,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.imagebuilderLifecyclePolicy.ImagebuilderLifecyclePolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/imagebuilderlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/imagebuilderlifecyclepolicy"
 
 imagebuilderlifecyclepolicy.ImagebuilderLifecyclePolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ imagebuilderlifecyclepolicy.ImagebuilderLifecyclePolicy_IsTerraformElement(x int
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.imagebuilderLifecyclePolicy.ImagebuilderLifecyclePolicy.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/imagebuilderlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/imagebuilderlifecyclepolicy"
 
 imagebuilderlifecyclepolicy.ImagebuilderLifecyclePolicy_IsTerraformResource(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ imagebuilderlifecyclepolicy.ImagebuilderLifecyclePolicy_IsTerraformResource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.imagebuilderLifecyclePolicy.ImagebuilderLifecyclePolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/imagebuilderlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/imagebuilderlifecyclepolicy"
 
 imagebuilderlifecyclepolicy.ImagebuilderLifecyclePolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -536,7 +536,7 @@ The construct id used in the generated config for the ImagebuilderLifecyclePolic
 
 The id of the existing ImagebuilderLifecyclePolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/imagebuilder_lifecycle_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/imagebuilder_lifecycle_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -934,7 +934,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.imagebuilderLifecyclePolicy.ImagebuilderLifecyclePolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/imagebuilderlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/imagebuilderlifecyclepolicy"
 
 &imagebuilderlifecyclepolicy.ImagebuilderLifecyclePolicyConfig {
 	Connection: interface{},
@@ -947,7 +947,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/imagebuilderlifecyclep
 	ExecutionRole: *string,
 	Name: *string,
 	PolicyDetails: interface{},
-	ResourceSelection: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.imagebuilderLifecyclePolicy.ImagebuilderLifecyclePolicyResourceSelection,
+	ResourceSelection: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.imagebuilderLifecyclePolicy.ImagebuilderLifecyclePolicyResourceSelection,
 	ResourceType: *string,
 	Description: *string,
 	Status: *string,
@@ -1057,7 +1057,7 @@ ExecutionRole *string
 
 The execution role of the lifecycle policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/imagebuilder_lifecycle_policy#execution_role ImagebuilderLifecyclePolicy#execution_role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/imagebuilder_lifecycle_policy#execution_role ImagebuilderLifecyclePolicy#execution_role}
 
 ---
 
@@ -1071,7 +1071,7 @@ Name *string
 
 The name of the lifecycle policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/imagebuilder_lifecycle_policy#name ImagebuilderLifecyclePolicy#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/imagebuilder_lifecycle_policy#name ImagebuilderLifecyclePolicy#name}
 
 ---
 
@@ -1085,7 +1085,7 @@ PolicyDetails interface{}
 
 The policy details of the lifecycle policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/imagebuilder_lifecycle_policy#policy_details ImagebuilderLifecyclePolicy#policy_details}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/imagebuilder_lifecycle_policy#policy_details ImagebuilderLifecyclePolicy#policy_details}
 
 ---
 
@@ -1099,7 +1099,7 @@ ResourceSelection ImagebuilderLifecyclePolicyResourceSelection
 
 The resource selection of the lifecycle policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/imagebuilder_lifecycle_policy#resource_selection ImagebuilderLifecyclePolicy#resource_selection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/imagebuilder_lifecycle_policy#resource_selection ImagebuilderLifecyclePolicy#resource_selection}
 
 ---
 
@@ -1113,7 +1113,7 @@ ResourceType *string
 
 The resource type of the lifecycle policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/imagebuilder_lifecycle_policy#resource_type ImagebuilderLifecyclePolicy#resource_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/imagebuilder_lifecycle_policy#resource_type ImagebuilderLifecyclePolicy#resource_type}
 
 ---
 
@@ -1127,7 +1127,7 @@ Description *string
 
 The description of the lifecycle policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/imagebuilder_lifecycle_policy#description ImagebuilderLifecyclePolicy#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/imagebuilder_lifecycle_policy#description ImagebuilderLifecyclePolicy#description}
 
 ---
 
@@ -1141,7 +1141,7 @@ Status *string
 
 The status of the lifecycle policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/imagebuilder_lifecycle_policy#status ImagebuilderLifecyclePolicy#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/imagebuilder_lifecycle_policy#status ImagebuilderLifecyclePolicy#status}
 
 ---
 
@@ -1155,7 +1155,7 @@ Tags *map[string]*string
 
 The tags associated with the lifecycle policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/imagebuilder_lifecycle_policy#tags ImagebuilderLifecyclePolicy#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/imagebuilder_lifecycle_policy#tags ImagebuilderLifecyclePolicy#tags}
 
 ---
 
@@ -1164,12 +1164,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.imagebuilderLifecyclePolicy.ImagebuilderLifecyclePolicyPolicyDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/imagebuilderlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/imagebuilderlifecyclepolicy"
 
 &imagebuilderlifecyclepolicy.ImagebuilderLifecyclePolicyPolicyDetails {
-	Action: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.imagebuilderLifecyclePolicy.ImagebuilderLifecyclePolicyPolicyDetailsAction,
-	Filter: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.imagebuilderLifecyclePolicy.ImagebuilderLifecyclePolicyPolicyDetailsFilter,
-	ExclusionRules: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.imagebuilderLifecyclePolicy.ImagebuilderLifecyclePolicyPolicyDetailsExclusionRules,
+	Action: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.imagebuilderLifecyclePolicy.ImagebuilderLifecyclePolicyPolicyDetailsAction,
+	Filter: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.imagebuilderLifecyclePolicy.ImagebuilderLifecyclePolicyPolicyDetailsFilter,
+	ExclusionRules: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.imagebuilderLifecyclePolicy.ImagebuilderLifecyclePolicyPolicyDetailsExclusionRules,
 }
 ```
 
@@ -1193,7 +1193,7 @@ Action ImagebuilderLifecyclePolicyPolicyDetailsAction
 
 The action of the policy detail.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/imagebuilder_lifecycle_policy#action ImagebuilderLifecyclePolicy#action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/imagebuilder_lifecycle_policy#action ImagebuilderLifecyclePolicy#action}
 
 ---
 
@@ -1207,7 +1207,7 @@ Filter ImagebuilderLifecyclePolicyPolicyDetailsFilter
 
 The filters to apply of the policy detail.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/imagebuilder_lifecycle_policy#filter ImagebuilderLifecyclePolicy#filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/imagebuilder_lifecycle_policy#filter ImagebuilderLifecyclePolicy#filter}
 
 ---
 
@@ -1221,7 +1221,7 @@ ExclusionRules ImagebuilderLifecyclePolicyPolicyDetailsExclusionRules
 
 The exclusion rules to apply of the policy detail.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/imagebuilder_lifecycle_policy#exclusion_rules ImagebuilderLifecyclePolicy#exclusion_rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/imagebuilder_lifecycle_policy#exclusion_rules ImagebuilderLifecyclePolicy#exclusion_rules}
 
 ---
 
@@ -1230,11 +1230,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.imagebuilderLifecyclePolicy.ImagebuilderLifecyclePolicyPolicyDetailsAction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/imagebuilderlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/imagebuilderlifecyclepolicy"
 
 &imagebuilderlifecyclepolicy.ImagebuilderLifecyclePolicyPolicyDetailsAction {
 	Type: *string,
-	IncludeResources: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.imagebuilderLifecyclePolicy.ImagebuilderLifecyclePolicyPolicyDetailsActionIncludeResources,
+	IncludeResources: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.imagebuilderLifecyclePolicy.ImagebuilderLifecyclePolicyPolicyDetailsActionIncludeResources,
 }
 ```
 
@@ -1257,7 +1257,7 @@ Type *string
 
 The action type of the policy detail.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/imagebuilder_lifecycle_policy#type ImagebuilderLifecyclePolicy#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/imagebuilder_lifecycle_policy#type ImagebuilderLifecyclePolicy#type}
 
 ---
 
@@ -1271,7 +1271,7 @@ IncludeResources ImagebuilderLifecyclePolicyPolicyDetailsActionIncludeResources
 
 The included resources of the policy detail.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/imagebuilder_lifecycle_policy#include_resources ImagebuilderLifecyclePolicy#include_resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/imagebuilder_lifecycle_policy#include_resources ImagebuilderLifecyclePolicy#include_resources}
 
 ---
 
@@ -1280,7 +1280,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.imagebuilderLifecyclePolicy.ImagebuilderLifecyclePolicyPolicyDetailsActionIncludeResources.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/imagebuilderlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/imagebuilderlifecyclepolicy"
 
 &imagebuilderlifecyclepolicy.ImagebuilderLifecyclePolicyPolicyDetailsActionIncludeResources {
 	Amis: interface{},
@@ -1309,7 +1309,7 @@ Amis interface{}
 
 Use to configure lifecycle actions on AMIs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/imagebuilder_lifecycle_policy#amis ImagebuilderLifecyclePolicy#amis}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/imagebuilder_lifecycle_policy#amis ImagebuilderLifecyclePolicy#amis}
 
 ---
 
@@ -1323,7 +1323,7 @@ Containers interface{}
 
 Use to configure lifecycle actions on containers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/imagebuilder_lifecycle_policy#containers ImagebuilderLifecyclePolicy#containers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/imagebuilder_lifecycle_policy#containers ImagebuilderLifecyclePolicy#containers}
 
 ---
 
@@ -1337,7 +1337,7 @@ Snapshots interface{}
 
 Use to configure lifecycle actions on snapshots.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/imagebuilder_lifecycle_policy#snapshots ImagebuilderLifecyclePolicy#snapshots}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/imagebuilder_lifecycle_policy#snapshots ImagebuilderLifecyclePolicy#snapshots}
 
 ---
 
@@ -1346,10 +1346,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.imagebuilderLifecyclePolicy.ImagebuilderLifecyclePolicyPolicyDetailsExclusionRules.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/imagebuilderlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/imagebuilderlifecyclepolicy"
 
 &imagebuilderlifecyclepolicy.ImagebuilderLifecyclePolicyPolicyDetailsExclusionRules {
-	Amis: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.imagebuilderLifecyclePolicy.ImagebuilderLifecyclePolicyPolicyDetailsExclusionRulesAmis,
+	Amis: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.imagebuilderLifecyclePolicy.ImagebuilderLifecyclePolicyPolicyDetailsExclusionRulesAmis,
 	TagMap: *map[string]*string,
 }
 ```
@@ -1373,7 +1373,7 @@ Amis ImagebuilderLifecyclePolicyPolicyDetailsExclusionRulesAmis
 
 The AMI exclusion rules for the policy detail.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/imagebuilder_lifecycle_policy#amis ImagebuilderLifecyclePolicy#amis}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/imagebuilder_lifecycle_policy#amis ImagebuilderLifecyclePolicy#amis}
 
 ---
 
@@ -1387,7 +1387,7 @@ TagMap *map[string]*string
 
 The Image Builder tags to filter on.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/imagebuilder_lifecycle_policy#tag_map ImagebuilderLifecyclePolicy#tag_map}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/imagebuilder_lifecycle_policy#tag_map ImagebuilderLifecyclePolicy#tag_map}
 
 ---
 
@@ -1396,11 +1396,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.imagebuilderLifecyclePolicy.ImagebuilderLifecyclePolicyPolicyDetailsExclusionRulesAmis.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/imagebuilderlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/imagebuilderlifecyclepolicy"
 
 &imagebuilderlifecyclepolicy.ImagebuilderLifecyclePolicyPolicyDetailsExclusionRulesAmis {
 	IsPublic: interface{},
-	LastLaunched: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.imagebuilderLifecyclePolicy.ImagebuilderLifecyclePolicyPolicyDetailsExclusionRulesAmisLastLaunched,
+	LastLaunched: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.imagebuilderLifecyclePolicy.ImagebuilderLifecyclePolicyPolicyDetailsExclusionRulesAmisLastLaunched,
 	Regions: *[]*string,
 	SharedAccounts: *[]*string,
 	TagMap: *map[string]*string,
@@ -1429,7 +1429,7 @@ IsPublic interface{}
 
 Use to apply lifecycle policy actions on whether the AMI is public.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/imagebuilder_lifecycle_policy#is_public ImagebuilderLifecyclePolicy#is_public}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/imagebuilder_lifecycle_policy#is_public ImagebuilderLifecyclePolicy#is_public}
 
 ---
 
@@ -1443,7 +1443,7 @@ LastLaunched ImagebuilderLifecyclePolicyPolicyDetailsExclusionRulesAmisLastLaunc
 
 Use to apply lifecycle policy actions on AMIs launched before a certain time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/imagebuilder_lifecycle_policy#last_launched ImagebuilderLifecyclePolicy#last_launched}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/imagebuilder_lifecycle_policy#last_launched ImagebuilderLifecyclePolicy#last_launched}
 
 ---
 
@@ -1457,7 +1457,7 @@ Regions *[]*string
 
 Use to apply lifecycle policy actions on AMIs distributed to a set of regions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/imagebuilder_lifecycle_policy#regions ImagebuilderLifecyclePolicy#regions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/imagebuilder_lifecycle_policy#regions ImagebuilderLifecyclePolicy#regions}
 
 ---
 
@@ -1471,7 +1471,7 @@ SharedAccounts *[]*string
 
 Use to apply lifecycle policy actions on AMIs shared with a set of regions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/imagebuilder_lifecycle_policy#shared_accounts ImagebuilderLifecyclePolicy#shared_accounts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/imagebuilder_lifecycle_policy#shared_accounts ImagebuilderLifecyclePolicy#shared_accounts}
 
 ---
 
@@ -1485,7 +1485,7 @@ TagMap *map[string]*string
 
 The AMIs to select by tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/imagebuilder_lifecycle_policy#tag_map ImagebuilderLifecyclePolicy#tag_map}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/imagebuilder_lifecycle_policy#tag_map ImagebuilderLifecyclePolicy#tag_map}
 
 ---
 
@@ -1494,7 +1494,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.imagebuilderLifecyclePolicy.ImagebuilderLifecyclePolicyPolicyDetailsExclusionRulesAmisLastLaunched.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/imagebuilderlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/imagebuilderlifecyclepolicy"
 
 &imagebuilderlifecyclepolicy.ImagebuilderLifecyclePolicyPolicyDetailsExclusionRulesAmisLastLaunched {
 	Unit: *string,
@@ -1521,7 +1521,7 @@ Unit *string
 
 The value's time unit.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/imagebuilder_lifecycle_policy#unit ImagebuilderLifecyclePolicy#unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/imagebuilder_lifecycle_policy#unit ImagebuilderLifecyclePolicy#unit}
 
 ---
 
@@ -1535,7 +1535,7 @@ Value *f64
 
 The last launched value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/imagebuilder_lifecycle_policy#value ImagebuilderLifecyclePolicy#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/imagebuilder_lifecycle_policy#value ImagebuilderLifecyclePolicy#value}
 
 ---
 
@@ -1544,7 +1544,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.imagebuilderLifecyclePolicy.ImagebuilderLifecyclePolicyPolicyDetailsFilter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/imagebuilderlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/imagebuilderlifecyclepolicy"
 
 &imagebuilderlifecyclepolicy.ImagebuilderLifecyclePolicyPolicyDetailsFilter {
 	Type: *string,
@@ -1575,7 +1575,7 @@ Type *string
 
 The filter type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/imagebuilder_lifecycle_policy#type ImagebuilderLifecyclePolicy#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/imagebuilder_lifecycle_policy#type ImagebuilderLifecyclePolicy#type}
 
 ---
 
@@ -1589,7 +1589,7 @@ Value *f64
 
 The filter value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/imagebuilder_lifecycle_policy#value ImagebuilderLifecyclePolicy#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/imagebuilder_lifecycle_policy#value ImagebuilderLifecyclePolicy#value}
 
 ---
 
@@ -1603,7 +1603,7 @@ RetainAtLeast *f64
 
 The minimum number of Image Builder resources to retain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/imagebuilder_lifecycle_policy#retain_at_least ImagebuilderLifecyclePolicy#retain_at_least}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/imagebuilder_lifecycle_policy#retain_at_least ImagebuilderLifecyclePolicy#retain_at_least}
 
 ---
 
@@ -1617,7 +1617,7 @@ Unit *string
 
 The value's time unit.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/imagebuilder_lifecycle_policy#unit ImagebuilderLifecyclePolicy#unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/imagebuilder_lifecycle_policy#unit ImagebuilderLifecyclePolicy#unit}
 
 ---
 
@@ -1626,7 +1626,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.imagebuilderLifecyclePolicy.ImagebuilderLifecyclePolicyResourceSelection.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/imagebuilderlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/imagebuilderlifecyclepolicy"
 
 &imagebuilderlifecyclepolicy.ImagebuilderLifecyclePolicyResourceSelection {
 	Recipes: interface{},
@@ -1653,7 +1653,7 @@ Recipes interface{}
 
 The recipes to select.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/imagebuilder_lifecycle_policy#recipes ImagebuilderLifecyclePolicy#recipes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/imagebuilder_lifecycle_policy#recipes ImagebuilderLifecyclePolicy#recipes}
 
 ---
 
@@ -1667,7 +1667,7 @@ TagMap *map[string]*string
 
 The Image Builder resources to select by tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/imagebuilder_lifecycle_policy#tag_map ImagebuilderLifecyclePolicy#tag_map}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/imagebuilder_lifecycle_policy#tag_map ImagebuilderLifecyclePolicy#tag_map}
 
 ---
 
@@ -1676,7 +1676,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.imagebuilderLifecyclePolicy.ImagebuilderLifecyclePolicyResourceSelectionRecipes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/imagebuilderlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/imagebuilderlifecyclepolicy"
 
 &imagebuilderlifecyclepolicy.ImagebuilderLifecyclePolicyResourceSelectionRecipes {
 	Name: *string,
@@ -1703,7 +1703,7 @@ Name *string
 
 The recipe name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/imagebuilder_lifecycle_policy#name ImagebuilderLifecyclePolicy#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/imagebuilder_lifecycle_policy#name ImagebuilderLifecyclePolicy#name}
 
 ---
 
@@ -1717,7 +1717,7 @@ SemanticVersion *string
 
 The recipe version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/imagebuilder_lifecycle_policy#semantic_version ImagebuilderLifecyclePolicy#semantic_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/imagebuilder_lifecycle_policy#semantic_version ImagebuilderLifecyclePolicy#semantic_version}
 
 ---
 
@@ -1728,7 +1728,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.imagebuilderLifecyclePolicy.ImagebuilderLifecyclePolicyPolicyDetailsActionIncludeResourcesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/imagebuilderlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/imagebuilderlifecyclepolicy"
 
 imagebuilderlifecyclepolicy.NewImagebuilderLifecyclePolicyPolicyDetailsActionIncludeResourcesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ImagebuilderLifecyclePolicyPolicyDetailsActionIncludeResourcesOutputReference
 ```
@@ -2064,7 +2064,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.imagebuilderLifecyclePolicy.ImagebuilderLifecyclePolicyPolicyDetailsActionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/imagebuilderlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/imagebuilderlifecyclepolicy"
 
 imagebuilderlifecyclepolicy.NewImagebuilderLifecyclePolicyPolicyDetailsActionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ImagebuilderLifecyclePolicyPolicyDetailsActionOutputReference
 ```
@@ -2377,7 +2377,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.imagebuilderLifecyclePolicy.ImagebuilderLifecyclePolicyPolicyDetailsExclusionRulesAmisLastLaunchedOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/imagebuilderlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/imagebuilderlifecyclepolicy"
 
 imagebuilderlifecyclepolicy.NewImagebuilderLifecyclePolicyPolicyDetailsExclusionRulesAmisLastLaunchedOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ImagebuilderLifecyclePolicyPolicyDetailsExclusionRulesAmisLastLaunchedOutputReference
 ```
@@ -2684,7 +2684,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.imagebuilderLifecyclePolicy.ImagebuilderLifecyclePolicyPolicyDetailsExclusionRulesAmisOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/imagebuilderlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/imagebuilderlifecyclepolicy"
 
 imagebuilderlifecyclepolicy.NewImagebuilderLifecyclePolicyPolicyDetailsExclusionRulesAmisOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ImagebuilderLifecyclePolicyPolicyDetailsExclusionRulesAmisOutputReference
 ```
@@ -3091,7 +3091,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.imagebuilderLifecyclePolicy.ImagebuilderLifecyclePolicyPolicyDetailsExclusionRulesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/imagebuilderlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/imagebuilderlifecyclepolicy"
 
 imagebuilderlifecyclepolicy.NewImagebuilderLifecyclePolicyPolicyDetailsExclusionRulesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ImagebuilderLifecyclePolicyPolicyDetailsExclusionRulesOutputReference
 ```
@@ -3411,7 +3411,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.imagebuilderLifecyclePolicy.ImagebuilderLifecyclePolicyPolicyDetailsFilterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/imagebuilderlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/imagebuilderlifecyclepolicy"
 
 imagebuilderlifecyclepolicy.NewImagebuilderLifecyclePolicyPolicyDetailsFilterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ImagebuilderLifecyclePolicyPolicyDetailsFilterOutputReference
 ```
@@ -3762,7 +3762,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.imagebuilderLifecyclePolicy.ImagebuilderLifecyclePolicyPolicyDetailsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/imagebuilderlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/imagebuilderlifecyclepolicy"
 
 imagebuilderlifecyclepolicy.NewImagebuilderLifecyclePolicyPolicyDetailsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ImagebuilderLifecyclePolicyPolicyDetailsList
 ```
@@ -3922,7 +3922,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.imagebuilderLifecyclePolicy.ImagebuilderLifecyclePolicyPolicyDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/imagebuilderlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/imagebuilderlifecyclepolicy"
 
 imagebuilderlifecyclepolicy.NewImagebuilderLifecyclePolicyPolicyDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ImagebuilderLifecyclePolicyPolicyDetailsOutputReference
 ```
@@ -4301,7 +4301,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.imagebuilderLifecyclePolicy.ImagebuilderLifecyclePolicyResourceSelectionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/imagebuilderlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/imagebuilderlifecyclepolicy"
 
 imagebuilderlifecyclepolicy.NewImagebuilderLifecyclePolicyResourceSelectionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ImagebuilderLifecyclePolicyResourceSelectionOutputReference
 ```
@@ -4621,7 +4621,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.imagebuilderLifecyclePolicy.ImagebuilderLifecyclePolicyResourceSelectionRecipesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/imagebuilderlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/imagebuilderlifecyclepolicy"
 
 imagebuilderlifecyclepolicy.NewImagebuilderLifecyclePolicyResourceSelectionRecipesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ImagebuilderLifecyclePolicyResourceSelectionRecipesList
 ```
@@ -4781,7 +4781,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.imagebuilderLifecyclePolicy.ImagebuilderLifecyclePolicyResourceSelectionRecipesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/imagebuilderlifecyclepolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/imagebuilderlifecyclepolicy"
 
 imagebuilderlifecyclepolicy.NewImagebuilderLifecyclePolicyResourceSelectionRecipesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ImagebuilderLifecyclePolicyResourceSelectionRecipesOutputReference
 ```

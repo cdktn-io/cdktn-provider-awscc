@@ -4,12 +4,12 @@
 
 ### DataAwsccInvoicingInvoiceUnits <a name="DataAwsccInvoicingInvoiceUnits" id="@cdktn/provider-awscc.dataAwsccInvoicingInvoiceUnits.DataAwsccInvoicingInvoiceUnits"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/invoicing_invoice_units awscc_invoicing_invoice_units}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/invoicing_invoice_units awscc_invoicing_invoice_units}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInvoicingInvoiceUnits.DataAwsccInvoicingInvoiceUnits.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinvoicinginvoiceunits"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinvoicinginvoiceunits"
 
 dataawsccinvoicinginvoiceunits.NewDataAwsccInvoicingInvoiceUnits(scope Construct, id *string, config DataAwsccInvoicingInvoiceUnitsConfig) DataAwsccInvoicingInvoiceUnits
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccInvoicingInvoiceUnits.DataAwsccInvoicingInvoiceUnits.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinvoicinginvoiceunits"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinvoicinginvoiceunits"
 
 dataawsccinvoicinginvoiceunits.DataAwsccInvoicingInvoiceUnits_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccInvoicingInvoiceUnits.DataAwsccInvoicingInvoiceUnits.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinvoicinginvoiceunits"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinvoicinginvoiceunits"
 
 dataawsccinvoicinginvoiceunits.DataAwsccInvoicingInvoiceUnits_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccinvoicinginvoiceunits.DataAwsccInvoicingInvoiceUnits_IsTerraformElement
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccInvoicingInvoiceUnits.DataAwsccInvoicingInvoiceUnits.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinvoicinginvoiceunits"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinvoicinginvoiceunits"
 
 dataawsccinvoicinginvoiceunits.DataAwsccInvoicingInvoiceUnits_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccinvoicinginvoiceunits.DataAwsccInvoicingInvoiceUnits_IsTerraformDataSou
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccInvoicingInvoiceUnits.DataAwsccInvoicingInvoiceUnits.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinvoicinginvoiceunits"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinvoicinginvoiceunits"
 
 dataawsccinvoicinginvoiceunits.DataAwsccInvoicingInvoiceUnits_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccInvoicingInvoiceU
 
 The id of the existing DataAwsccInvoicingInvoiceUnits that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/invoicing_invoice_units#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/invoicing_invoice_units#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInvoicingInvoiceUnits.DataAwsccInvoicingInvoiceUnitsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinvoicinginvoiceunits"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinvoicinginvoiceunits"
 
 &dataawsccinvoicinginvoiceunits.DataAwsccInvoicingInvoiceUnitsConfig {
 	Connection: interface{},

@@ -4,12 +4,12 @@
 
 ### Ec2NetworkInterfaceAttachment <a name="Ec2NetworkInterfaceAttachment" id="@cdktn/provider-awscc.ec2NetworkInterfaceAttachment.Ec2NetworkInterfaceAttachment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_interface_attachment awscc_ec2_network_interface_attachment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_interface_attachment awscc_ec2_network_interface_attachment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2NetworkInterfaceAttachment.Ec2NetworkInterfaceAttachment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkinterfaceattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2networkinterfaceattachment"
 
 ec2networkinterfaceattachment.NewEc2NetworkInterfaceAttachment(scope Construct, id *string, config Ec2NetworkInterfaceAttachmentConfig) Ec2NetworkInterfaceAttachment
 ```
@@ -434,7 +434,7 @@ func ResetEnaSrdSpecification()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.ec2NetworkInterfaceAttachment.Ec2NetworkInterfaceAttachment.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkinterfaceattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2networkinterfaceattachment"
 
 ec2networkinterfaceattachment.Ec2NetworkInterfaceAttachment_IsConstruct(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.ec2NetworkInterfaceAttachment.Ec2NetworkInterfaceAttachment.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkinterfaceattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2networkinterfaceattachment"
 
 ec2networkinterfaceattachment.Ec2NetworkInterfaceAttachment_IsTerraformElement(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ ec2networkinterfaceattachment.Ec2NetworkInterfaceAttachment_IsTerraformElement(x
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.ec2NetworkInterfaceAttachment.Ec2NetworkInterfaceAttachment.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkinterfaceattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2networkinterfaceattachment"
 
 ec2networkinterfaceattachment.Ec2NetworkInterfaceAttachment_IsTerraformResource(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ ec2networkinterfaceattachment.Ec2NetworkInterfaceAttachment_IsTerraformResource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.ec2NetworkInterfaceAttachment.Ec2NetworkInterfaceAttachment.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkinterfaceattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2networkinterfaceattachment"
 
 ec2networkinterfaceattachment.Ec2NetworkInterfaceAttachment_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -523,7 +523,7 @@ The construct id used in the generated config for the Ec2NetworkInterfaceAttachm
 
 The id of the existing Ec2NetworkInterfaceAttachment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_interface_attachment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_interface_attachment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -877,7 +877,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2NetworkInterfaceAttachment.Ec2NetworkInterfaceAttachmentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkinterfaceattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2networkinterfaceattachment"
 
 &ec2networkinterfaceattachment.Ec2NetworkInterfaceAttachmentConfig {
 	Connection: interface{},
@@ -892,7 +892,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkinterfaceatt
 	NetworkInterfaceId: *string,
 	DeleteOnTermination: interface{},
 	EnaQueueCount: *f64,
-	EnaSrdSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ec2NetworkInterfaceAttachment.Ec2NetworkInterfaceAttachmentEnaSrdSpecification,
+	EnaSrdSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ec2NetworkInterfaceAttachment.Ec2NetworkInterfaceAttachmentEnaSrdSpecification,
 }
 ```
 
@@ -998,7 +998,7 @@ The network interface's position in the attachment order.
 
 For example, the first attached network interface has a `DeviceIndex` of 0.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_interface_attachment#device_index Ec2NetworkInterfaceAttachment#device_index}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_interface_attachment#device_index Ec2NetworkInterfaceAttachment#device_index}
 
 ---
 
@@ -1012,7 +1012,7 @@ InstanceId *string
 
 The ID of the instance to which you will attach the ENI.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_interface_attachment#instance_id Ec2NetworkInterfaceAttachment#instance_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_interface_attachment#instance_id Ec2NetworkInterfaceAttachment#instance_id}
 
 ---
 
@@ -1026,7 +1026,7 @@ NetworkInterfaceId *string
 
 The ID of the ENI that you want to attach.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_interface_attachment#network_interface_id Ec2NetworkInterfaceAttachment#network_interface_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_interface_attachment#network_interface_id Ec2NetworkInterfaceAttachment#network_interface_id}
 
 ---
 
@@ -1040,7 +1040,7 @@ DeleteOnTermination interface{}
 
 Whether to delete the network interface when the instance terminates. By default, this value is set to ``true``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_interface_attachment#delete_on_termination Ec2NetworkInterfaceAttachment#delete_on_termination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_interface_attachment#delete_on_termination Ec2NetworkInterfaceAttachment#delete_on_termination}
 
 ---
 
@@ -1054,7 +1054,7 @@ EnaQueueCount *f64
 
 The number of ENA queues created with the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_interface_attachment#ena_queue_count Ec2NetworkInterfaceAttachment#ena_queue_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_interface_attachment#ena_queue_count Ec2NetworkInterfaceAttachment#ena_queue_count}
 
 ---
 
@@ -1068,7 +1068,7 @@ EnaSrdSpecification Ec2NetworkInterfaceAttachmentEnaSrdSpecification
 
 Configures ENA Express for the network interface that this action attaches to the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_interface_attachment#ena_srd_specification Ec2NetworkInterfaceAttachment#ena_srd_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_interface_attachment#ena_srd_specification Ec2NetworkInterfaceAttachment#ena_srd_specification}
 
 ---
 
@@ -1077,11 +1077,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2NetworkInterfaceAttachment.Ec2NetworkInterfaceAttachmentEnaSrdSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkinterfaceattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2networkinterfaceattachment"
 
 &ec2networkinterfaceattachment.Ec2NetworkInterfaceAttachmentEnaSrdSpecification {
 	EnaSrdEnabled: interface{},
-	EnaSrdUdpSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ec2NetworkInterfaceAttachment.Ec2NetworkInterfaceAttachmentEnaSrdSpecificationEnaSrdUdpSpecification,
+	EnaSrdUdpSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ec2NetworkInterfaceAttachment.Ec2NetworkInterfaceAttachmentEnaSrdSpecificationEnaSrdUdpSpecification,
 }
 ```
 
@@ -1104,7 +1104,7 @@ EnaSrdEnabled interface{}
 
 Indicates whether ENA Express is enabled for the network interface.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_interface_attachment#ena_srd_enabled Ec2NetworkInterfaceAttachment#ena_srd_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_interface_attachment#ena_srd_enabled Ec2NetworkInterfaceAttachment#ena_srd_enabled}
 
 ---
 
@@ -1118,7 +1118,7 @@ EnaSrdUdpSpecification Ec2NetworkInterfaceAttachmentEnaSrdSpecificationEnaSrdUdp
 
 Configures ENA Express for UDP network traffic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_interface_attachment#ena_srd_udp_specification Ec2NetworkInterfaceAttachment#ena_srd_udp_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_interface_attachment#ena_srd_udp_specification Ec2NetworkInterfaceAttachment#ena_srd_udp_specification}
 
 ---
 
@@ -1127,7 +1127,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2NetworkInterfaceAttachment.Ec2NetworkInterfaceAttachmentEnaSrdSpecificationEnaSrdUdpSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkinterfaceattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2networkinterfaceattachment"
 
 &ec2networkinterfaceattachment.Ec2NetworkInterfaceAttachmentEnaSrdSpecificationEnaSrdUdpSpecification {
 	EnaSrdUdpEnabled: interface{},
@@ -1138,7 +1138,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkinterfaceatt
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2NetworkInterfaceAttachment.Ec2NetworkInterfaceAttachmentEnaSrdSpecificationEnaSrdUdpSpecification.property.enaSrdUdpEnabled">EnaSrdUdpEnabled</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_interface_attachment#ena_srd_udp_enabled Ec2NetworkInterfaceAttachment#ena_srd_udp_enabled}. |
+| <code><a href="#@cdktn/provider-awscc.ec2NetworkInterfaceAttachment.Ec2NetworkInterfaceAttachmentEnaSrdSpecificationEnaSrdUdpSpecification.property.enaSrdUdpEnabled">EnaSrdUdpEnabled</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_interface_attachment#ena_srd_udp_enabled Ec2NetworkInterfaceAttachment#ena_srd_udp_enabled}. |
 
 ---
 
@@ -1150,7 +1150,7 @@ EnaSrdUdpEnabled interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_interface_attachment#ena_srd_udp_enabled Ec2NetworkInterfaceAttachment#ena_srd_udp_enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_interface_attachment#ena_srd_udp_enabled Ec2NetworkInterfaceAttachment#ena_srd_udp_enabled}.
 
 ---
 
@@ -1161,7 +1161,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2NetworkInterfaceAttachment.Ec2NetworkInterfaceAttachmentEnaSrdSpecificationEnaSrdUdpSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkinterfaceattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2networkinterfaceattachment"
 
 ec2networkinterfaceattachment.NewEc2NetworkInterfaceAttachmentEnaSrdSpecificationEnaSrdUdpSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Ec2NetworkInterfaceAttachmentEnaSrdSpecificationEnaSrdUdpSpecificationOutputReference
 ```
@@ -1439,7 +1439,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2NetworkInterfaceAttachment.Ec2NetworkInterfaceAttachmentEnaSrdSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkinterfaceattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2networkinterfaceattachment"
 
 ec2networkinterfaceattachment.NewEc2NetworkInterfaceAttachmentEnaSrdSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Ec2NetworkInterfaceAttachmentEnaSrdSpecificationOutputReference
 ```

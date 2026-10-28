@@ -4,12 +4,12 @@
 
 ### DataAwsccHealthlakeFhirDatastores <a name="DataAwsccHealthlakeFhirDatastores" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastores.DataAwsccHealthlakeFhirDatastores"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/healthlake_fhir_datastores awscc_healthlake_fhir_datastores}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/healthlake_fhir_datastores awscc_healthlake_fhir_datastores}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastores.DataAwsccHealthlakeFhirDatastores.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscchealthlakefhirdatastores"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscchealthlakefhirdatastores"
 
 dataawscchealthlakefhirdatastores.NewDataAwsccHealthlakeFhirDatastores(scope Construct, id *string, config DataAwsccHealthlakeFhirDatastoresConfig) DataAwsccHealthlakeFhirDatastores
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastores.DataAwsccHealthlakeFhirDatastores.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscchealthlakefhirdatastores"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscchealthlakefhirdatastores"
 
 dataawscchealthlakefhirdatastores.DataAwsccHealthlakeFhirDatastores_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastores.DataAwsccHealthlakeFhirDatastores.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscchealthlakefhirdatastores"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscchealthlakefhirdatastores"
 
 dataawscchealthlakefhirdatastores.DataAwsccHealthlakeFhirDatastores_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscchealthlakefhirdatastores.DataAwsccHealthlakeFhirDatastores_IsTerraformE
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastores.DataAwsccHealthlakeFhirDatastores.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscchealthlakefhirdatastores"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscchealthlakefhirdatastores"
 
 dataawscchealthlakefhirdatastores.DataAwsccHealthlakeFhirDatastores_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscchealthlakefhirdatastores.DataAwsccHealthlakeFhirDatastores_IsTerraformD
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastores.DataAwsccHealthlakeFhirDatastores.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscchealthlakefhirdatastores"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscchealthlakefhirdatastores"
 
 dataawscchealthlakefhirdatastores.DataAwsccHealthlakeFhirDatastores_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccHealthlakeFhirDat
 
 The id of the existing DataAwsccHealthlakeFhirDatastores that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/healthlake_fhir_datastores#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/healthlake_fhir_datastores#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccHealthlakeFhirDatastores.DataAwsccHealthlakeFhirDatastoresConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscchealthlakefhirdatastores"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscchealthlakefhirdatastores"
 
 &dataawscchealthlakefhirdatastores.DataAwsccHealthlakeFhirDatastoresConfig {
 	Connection: interface{},

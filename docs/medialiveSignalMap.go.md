@@ -4,12 +4,12 @@
 
 ### MedialiveSignalMap <a name="MedialiveSignalMap" id="@cdktn/provider-awscc.medialiveSignalMap.MedialiveSignalMap"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_signal_map awscc_medialive_signal_map}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_signal_map awscc_medialive_signal_map}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.medialiveSignalMap.MedialiveSignalMap.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivesignalmap"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivesignalmap"
 
 medialivesignalmap.NewMedialiveSignalMap(scope Construct, id *string, config MedialiveSignalMapConfig) MedialiveSignalMap
 ```
@@ -435,7 +435,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.medialiveSignalMap.MedialiveSignalMap.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivesignalmap"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivesignalmap"
 
 medialivesignalmap.MedialiveSignalMap_IsConstruct(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.medialiveSignalMap.MedialiveSignalMap.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivesignalmap"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivesignalmap"
 
 medialivesignalmap.MedialiveSignalMap_IsTerraformElement(x interface{}) *bool
 ```
@@ -481,7 +481,7 @@ medialivesignalmap.MedialiveSignalMap_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.medialiveSignalMap.MedialiveSignalMap.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivesignalmap"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivesignalmap"
 
 medialivesignalmap.MedialiveSignalMap_IsTerraformResource(x interface{}) *bool
 ```
@@ -495,7 +495,7 @@ medialivesignalmap.MedialiveSignalMap_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.medialiveSignalMap.MedialiveSignalMap.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivesignalmap"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivesignalmap"
 
 medialivesignalmap.MedialiveSignalMap_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -524,7 +524,7 @@ The construct id used in the generated config for the MedialiveSignalMap to impo
 
 The id of the existing MedialiveSignalMap that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_signal_map#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_signal_map#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1054,7 +1054,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.medialiveSignalMap.MedialiveSignalMapConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivesignalmap"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivesignalmap"
 
 &medialivesignalmap.MedialiveSignalMapConfig {
 	Connection: interface{},
@@ -1087,9 +1087,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivesignalmap"
 | <code><a href="#@cdktn/provider-awscc.medialiveSignalMap.MedialiveSignalMapConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.medialiveSignalMap.MedialiveSignalMapConfig.property.discoveryEntryPointArn">DiscoveryEntryPointArn</a></code> | <code>*string</code> | A top-level supported AWS resource ARN to discovery a signal map from. |
 | <code><a href="#@cdktn/provider-awscc.medialiveSignalMap.MedialiveSignalMapConfig.property.name">Name</a></code> | <code>*string</code> | A resource's name. Names must be unique within the scope of a resource type in a specific region. |
-| <code><a href="#@cdktn/provider-awscc.medialiveSignalMap.MedialiveSignalMapConfig.property.cloudwatchAlarmTemplateGroupIdentifiers">CloudwatchAlarmTemplateGroupIdentifiers</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_signal_map#cloudwatch_alarm_template_group_identifiers MedialiveSignalMap#cloudwatch_alarm_template_group_identifiers}. |
+| <code><a href="#@cdktn/provider-awscc.medialiveSignalMap.MedialiveSignalMapConfig.property.cloudwatchAlarmTemplateGroupIdentifiers">CloudwatchAlarmTemplateGroupIdentifiers</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_signal_map#cloudwatch_alarm_template_group_identifiers MedialiveSignalMap#cloudwatch_alarm_template_group_identifiers}. |
 | <code><a href="#@cdktn/provider-awscc.medialiveSignalMap.MedialiveSignalMapConfig.property.description">Description</a></code> | <code>*string</code> | A resource's optional description. |
-| <code><a href="#@cdktn/provider-awscc.medialiveSignalMap.MedialiveSignalMapConfig.property.eventBridgeRuleTemplateGroupIdentifiers">EventBridgeRuleTemplateGroupIdentifiers</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_signal_map#event_bridge_rule_template_group_identifiers MedialiveSignalMap#event_bridge_rule_template_group_identifiers}. |
+| <code><a href="#@cdktn/provider-awscc.medialiveSignalMap.MedialiveSignalMapConfig.property.eventBridgeRuleTemplateGroupIdentifiers">EventBridgeRuleTemplateGroupIdentifiers</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_signal_map#event_bridge_rule_template_group_identifiers MedialiveSignalMap#event_bridge_rule_template_group_identifiers}. |
 | <code><a href="#@cdktn/provider-awscc.medialiveSignalMap.MedialiveSignalMapConfig.property.forceRediscovery">ForceRediscovery</a></code> | <code>interface{}</code> | If true, will force a rediscovery of a signal map if an unchanged discoveryEntryPointArn is provided. |
 | <code><a href="#@cdktn/provider-awscc.medialiveSignalMap.MedialiveSignalMapConfig.property.tags">Tags</a></code> | <code>*map[string]*string</code> | Represents the tags associated with a resource. |
 
@@ -1175,7 +1175,7 @@ DiscoveryEntryPointArn *string
 
 A top-level supported AWS resource ARN to discovery a signal map from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_signal_map#discovery_entry_point_arn MedialiveSignalMap#discovery_entry_point_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_signal_map#discovery_entry_point_arn MedialiveSignalMap#discovery_entry_point_arn}
 
 ---
 
@@ -1189,7 +1189,7 @@ Name *string
 
 A resource's name. Names must be unique within the scope of a resource type in a specific region.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_signal_map#name MedialiveSignalMap#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_signal_map#name MedialiveSignalMap#name}
 
 ---
 
@@ -1201,7 +1201,7 @@ CloudwatchAlarmTemplateGroupIdentifiers *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_signal_map#cloudwatch_alarm_template_group_identifiers MedialiveSignalMap#cloudwatch_alarm_template_group_identifiers}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_signal_map#cloudwatch_alarm_template_group_identifiers MedialiveSignalMap#cloudwatch_alarm_template_group_identifiers}.
 
 ---
 
@@ -1215,7 +1215,7 @@ Description *string
 
 A resource's optional description.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_signal_map#description MedialiveSignalMap#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_signal_map#description MedialiveSignalMap#description}
 
 ---
 
@@ -1227,7 +1227,7 @@ EventBridgeRuleTemplateGroupIdentifiers *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_signal_map#event_bridge_rule_template_group_identifiers MedialiveSignalMap#event_bridge_rule_template_group_identifiers}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_signal_map#event_bridge_rule_template_group_identifiers MedialiveSignalMap#event_bridge_rule_template_group_identifiers}.
 
 ---
 
@@ -1241,7 +1241,7 @@ ForceRediscovery interface{}
 
 If true, will force a rediscovery of a signal map if an unchanged discoveryEntryPointArn is provided.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_signal_map#force_rediscovery MedialiveSignalMap#force_rediscovery}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_signal_map#force_rediscovery MedialiveSignalMap#force_rediscovery}
 
 ---
 
@@ -1255,7 +1255,7 @@ Tags *map[string]*string
 
 Represents the tags associated with a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_signal_map#tags MedialiveSignalMap#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_signal_map#tags MedialiveSignalMap#tags}
 
 ---
 
@@ -1264,7 +1264,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.medialiveSignalMap.MedialiveSignalMapFailedMediaResourceMap.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivesignalmap"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivesignalmap"
 
 &medialivesignalmap.MedialiveSignalMapFailedMediaResourceMap {
 
@@ -1277,7 +1277,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivesignalmap"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.medialiveSignalMap.MedialiveSignalMapFailedMediaResourceMapDestinations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivesignalmap"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivesignalmap"
 
 &medialivesignalmap.MedialiveSignalMapFailedMediaResourceMapDestinations {
 
@@ -1290,7 +1290,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivesignalmap"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.medialiveSignalMap.MedialiveSignalMapFailedMediaResourceMapSources.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivesignalmap"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivesignalmap"
 
 &medialivesignalmap.MedialiveSignalMapFailedMediaResourceMapSources {
 
@@ -1303,7 +1303,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivesignalmap"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.medialiveSignalMap.MedialiveSignalMapLastSuccessfulMonitorDeployment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivesignalmap"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivesignalmap"
 
 &medialivesignalmap.MedialiveSignalMapLastSuccessfulMonitorDeployment {
 
@@ -1316,7 +1316,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivesignalmap"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.medialiveSignalMap.MedialiveSignalMapMediaResourceMap.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivesignalmap"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivesignalmap"
 
 &medialivesignalmap.MedialiveSignalMapMediaResourceMap {
 
@@ -1329,7 +1329,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivesignalmap"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.medialiveSignalMap.MedialiveSignalMapMediaResourceMapDestinations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivesignalmap"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivesignalmap"
 
 &medialivesignalmap.MedialiveSignalMapMediaResourceMapDestinations {
 
@@ -1342,7 +1342,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivesignalmap"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.medialiveSignalMap.MedialiveSignalMapMediaResourceMapSources.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivesignalmap"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivesignalmap"
 
 &medialivesignalmap.MedialiveSignalMapMediaResourceMapSources {
 
@@ -1355,7 +1355,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivesignalmap"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.medialiveSignalMap.MedialiveSignalMapMonitorDeployment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivesignalmap"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivesignalmap"
 
 &medialivesignalmap.MedialiveSignalMapMonitorDeployment {
 
@@ -1370,7 +1370,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivesignalmap"
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.medialiveSignalMap.MedialiveSignalMapFailedMediaResourceMapDestinationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivesignalmap"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivesignalmap"
 
 medialivesignalmap.NewMedialiveSignalMapFailedMediaResourceMapDestinationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MedialiveSignalMapFailedMediaResourceMapDestinationsList
 ```
@@ -1519,7 +1519,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.medialiveSignalMap.MedialiveSignalMapFailedMediaResourceMapDestinationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivesignalmap"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivesignalmap"
 
 medialivesignalmap.NewMedialiveSignalMapFailedMediaResourceMapDestinationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) MedialiveSignalMapFailedMediaResourceMapDestinationsOutputReference
 ```
@@ -1808,7 +1808,7 @@ func InternalValue() MedialiveSignalMapFailedMediaResourceMapDestinations
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.medialiveSignalMap.MedialiveSignalMapFailedMediaResourceMapMap.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivesignalmap"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivesignalmap"
 
 medialivesignalmap.NewMedialiveSignalMapFailedMediaResourceMapMap(terraformResource IInterpolatingParent, terraformAttribute *string) MedialiveSignalMapFailedMediaResourceMapMap
 ```
@@ -1944,7 +1944,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.medialiveSignalMap.MedialiveSignalMapFailedMediaResourceMapOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivesignalmap"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivesignalmap"
 
 medialivesignalmap.NewMedialiveSignalMapFailedMediaResourceMapOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectKey *string) MedialiveSignalMapFailedMediaResourceMapOutputReference
 ```
@@ -2235,7 +2235,7 @@ func InternalValue() MedialiveSignalMapFailedMediaResourceMap
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.medialiveSignalMap.MedialiveSignalMapFailedMediaResourceMapSourcesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivesignalmap"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivesignalmap"
 
 medialivesignalmap.NewMedialiveSignalMapFailedMediaResourceMapSourcesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MedialiveSignalMapFailedMediaResourceMapSourcesList
 ```
@@ -2384,7 +2384,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.medialiveSignalMap.MedialiveSignalMapFailedMediaResourceMapSourcesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivesignalmap"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivesignalmap"
 
 medialivesignalmap.NewMedialiveSignalMapFailedMediaResourceMapSourcesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) MedialiveSignalMapFailedMediaResourceMapSourcesOutputReference
 ```
@@ -2673,7 +2673,7 @@ func InternalValue() MedialiveSignalMapFailedMediaResourceMapSources
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.medialiveSignalMap.MedialiveSignalMapLastSuccessfulMonitorDeploymentOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivesignalmap"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivesignalmap"
 
 medialivesignalmap.NewMedialiveSignalMapLastSuccessfulMonitorDeploymentOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) MedialiveSignalMapLastSuccessfulMonitorDeploymentOutputReference
 ```
@@ -2944,7 +2944,7 @@ func InternalValue() MedialiveSignalMapLastSuccessfulMonitorDeployment
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.medialiveSignalMap.MedialiveSignalMapMediaResourceMapDestinationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivesignalmap"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivesignalmap"
 
 medialivesignalmap.NewMedialiveSignalMapMediaResourceMapDestinationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MedialiveSignalMapMediaResourceMapDestinationsList
 ```
@@ -3093,7 +3093,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.medialiveSignalMap.MedialiveSignalMapMediaResourceMapDestinationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivesignalmap"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivesignalmap"
 
 medialivesignalmap.NewMedialiveSignalMapMediaResourceMapDestinationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) MedialiveSignalMapMediaResourceMapDestinationsOutputReference
 ```
@@ -3382,7 +3382,7 @@ func InternalValue() MedialiveSignalMapMediaResourceMapDestinations
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.medialiveSignalMap.MedialiveSignalMapMediaResourceMapMap.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivesignalmap"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivesignalmap"
 
 medialivesignalmap.NewMedialiveSignalMapMediaResourceMapMap(terraformResource IInterpolatingParent, terraformAttribute *string) MedialiveSignalMapMediaResourceMapMap
 ```
@@ -3518,7 +3518,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.medialiveSignalMap.MedialiveSignalMapMediaResourceMapOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivesignalmap"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivesignalmap"
 
 medialivesignalmap.NewMedialiveSignalMapMediaResourceMapOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectKey *string) MedialiveSignalMapMediaResourceMapOutputReference
 ```
@@ -3809,7 +3809,7 @@ func InternalValue() MedialiveSignalMapMediaResourceMap
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.medialiveSignalMap.MedialiveSignalMapMediaResourceMapSourcesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivesignalmap"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivesignalmap"
 
 medialivesignalmap.NewMedialiveSignalMapMediaResourceMapSourcesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MedialiveSignalMapMediaResourceMapSourcesList
 ```
@@ -3958,7 +3958,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.medialiveSignalMap.MedialiveSignalMapMediaResourceMapSourcesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivesignalmap"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivesignalmap"
 
 medialivesignalmap.NewMedialiveSignalMapMediaResourceMapSourcesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) MedialiveSignalMapMediaResourceMapSourcesOutputReference
 ```
@@ -4247,7 +4247,7 @@ func InternalValue() MedialiveSignalMapMediaResourceMapSources
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.medialiveSignalMap.MedialiveSignalMapMonitorDeploymentOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivesignalmap"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivesignalmap"
 
 medialivesignalmap.NewMedialiveSignalMapMonitorDeploymentOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) MedialiveSignalMapMonitorDeploymentOutputReference
 ```

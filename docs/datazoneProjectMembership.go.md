@@ -4,12 +4,12 @@
 
 ### DatazoneProjectMembership <a name="DatazoneProjectMembership" id="@cdktn/provider-awscc.datazoneProjectMembership.DatazoneProjectMembership"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datazone_project_membership awscc_datazone_project_membership}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datazone_project_membership awscc_datazone_project_membership}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datazoneProjectMembership.DatazoneProjectMembership.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datazoneprojectmembership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datazoneprojectmembership"
 
 datazoneprojectmembership.NewDatazoneProjectMembership(scope Construct, id *string, config DatazoneProjectMembershipConfig) DatazoneProjectMembership
 ```
@@ -413,7 +413,7 @@ func PutMember(value DatazoneProjectMembershipMember)
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.datazoneProjectMembership.DatazoneProjectMembership.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datazoneprojectmembership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datazoneprojectmembership"
 
 datazoneprojectmembership.DatazoneProjectMembership_IsConstruct(x interface{}) *bool
 ```
@@ -445,7 +445,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.datazoneProjectMembership.DatazoneProjectMembership.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datazoneprojectmembership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datazoneprojectmembership"
 
 datazoneprojectmembership.DatazoneProjectMembership_IsTerraformElement(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ datazoneprojectmembership.DatazoneProjectMembership_IsTerraformElement(x interfa
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.datazoneProjectMembership.DatazoneProjectMembership.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datazoneprojectmembership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datazoneprojectmembership"
 
 datazoneprojectmembership.DatazoneProjectMembership_IsTerraformResource(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ datazoneprojectmembership.DatazoneProjectMembership_IsTerraformResource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.datazoneProjectMembership.DatazoneProjectMembership.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datazoneprojectmembership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datazoneprojectmembership"
 
 datazoneprojectmembership.DatazoneProjectMembership_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -502,7 +502,7 @@ The construct id used in the generated config for the DatazoneProjectMembership 
 
 The id of the existing DatazoneProjectMembership that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datazone_project_membership#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datazone_project_membership#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -823,7 +823,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.datazoneProjectMembership.DatazoneProjectMembershipConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datazoneprojectmembership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datazoneprojectmembership"
 
 &datazoneprojectmembership.DatazoneProjectMembershipConfig {
 	Connection: interface{},
@@ -835,7 +835,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datazoneprojectmembers
 	Provisioners: *[]interface{},
 	Designation: *string,
 	DomainIdentifier: *string,
-	Member: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.datazoneProjectMembership.DatazoneProjectMembershipMember,
+	Member: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.datazoneProjectMembership.DatazoneProjectMembershipMember,
 	ProjectIdentifier: *string,
 }
 ```
@@ -851,10 +851,10 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datazoneprojectmembers
 | <code><a href="#@cdktn/provider-awscc.datazoneProjectMembership.DatazoneProjectMembershipConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.datazoneProjectMembership.DatazoneProjectMembershipConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.datazoneProjectMembership.DatazoneProjectMembershipConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.datazoneProjectMembership.DatazoneProjectMembershipConfig.property.designation">Designation</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datazone_project_membership#designation DatazoneProjectMembership#designation}. |
-| <code><a href="#@cdktn/provider-awscc.datazoneProjectMembership.DatazoneProjectMembershipConfig.property.domainIdentifier">DomainIdentifier</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datazone_project_membership#domain_identifier DatazoneProjectMembership#domain_identifier}. |
-| <code><a href="#@cdktn/provider-awscc.datazoneProjectMembership.DatazoneProjectMembershipConfig.property.member">Member</a></code> | <code><a href="#@cdktn/provider-awscc.datazoneProjectMembership.DatazoneProjectMembershipMember">DatazoneProjectMembershipMember</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datazone_project_membership#member DatazoneProjectMembership#member}. |
-| <code><a href="#@cdktn/provider-awscc.datazoneProjectMembership.DatazoneProjectMembershipConfig.property.projectIdentifier">ProjectIdentifier</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datazone_project_membership#project_identifier DatazoneProjectMembership#project_identifier}. |
+| <code><a href="#@cdktn/provider-awscc.datazoneProjectMembership.DatazoneProjectMembershipConfig.property.designation">Designation</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datazone_project_membership#designation DatazoneProjectMembership#designation}. |
+| <code><a href="#@cdktn/provider-awscc.datazoneProjectMembership.DatazoneProjectMembershipConfig.property.domainIdentifier">DomainIdentifier</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datazone_project_membership#domain_identifier DatazoneProjectMembership#domain_identifier}. |
+| <code><a href="#@cdktn/provider-awscc.datazoneProjectMembership.DatazoneProjectMembershipConfig.property.member">Member</a></code> | <code><a href="#@cdktn/provider-awscc.datazoneProjectMembership.DatazoneProjectMembershipMember">DatazoneProjectMembershipMember</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datazone_project_membership#member DatazoneProjectMembership#member}. |
+| <code><a href="#@cdktn/provider-awscc.datazoneProjectMembership.DatazoneProjectMembershipConfig.property.projectIdentifier">ProjectIdentifier</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datazone_project_membership#project_identifier DatazoneProjectMembership#project_identifier}. |
 
 ---
 
@@ -936,7 +936,7 @@ Designation *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datazone_project_membership#designation DatazoneProjectMembership#designation}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datazone_project_membership#designation DatazoneProjectMembership#designation}.
 
 ---
 
@@ -948,7 +948,7 @@ DomainIdentifier *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datazone_project_membership#domain_identifier DatazoneProjectMembership#domain_identifier}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datazone_project_membership#domain_identifier DatazoneProjectMembership#domain_identifier}.
 
 ---
 
@@ -960,7 +960,7 @@ Member DatazoneProjectMembershipMember
 
 - *Type:* <a href="#@cdktn/provider-awscc.datazoneProjectMembership.DatazoneProjectMembershipMember">DatazoneProjectMembershipMember</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datazone_project_membership#member DatazoneProjectMembership#member}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datazone_project_membership#member DatazoneProjectMembership#member}.
 
 ---
 
@@ -972,7 +972,7 @@ ProjectIdentifier *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datazone_project_membership#project_identifier DatazoneProjectMembership#project_identifier}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datazone_project_membership#project_identifier DatazoneProjectMembership#project_identifier}.
 
 ---
 
@@ -981,7 +981,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.datazoneProjectMembership.DatazoneProjectMembershipMember.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datazoneprojectmembership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datazoneprojectmembership"
 
 &datazoneprojectmembership.DatazoneProjectMembershipMember {
 	GroupIdentifier: *string,
@@ -993,8 +993,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datazoneprojectmembers
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.datazoneProjectMembership.DatazoneProjectMembershipMember.property.groupIdentifier">GroupIdentifier</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datazone_project_membership#group_identifier DatazoneProjectMembership#group_identifier}. |
-| <code><a href="#@cdktn/provider-awscc.datazoneProjectMembership.DatazoneProjectMembershipMember.property.userIdentifier">UserIdentifier</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datazone_project_membership#user_identifier DatazoneProjectMembership#user_identifier}. |
+| <code><a href="#@cdktn/provider-awscc.datazoneProjectMembership.DatazoneProjectMembershipMember.property.groupIdentifier">GroupIdentifier</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datazone_project_membership#group_identifier DatazoneProjectMembership#group_identifier}. |
+| <code><a href="#@cdktn/provider-awscc.datazoneProjectMembership.DatazoneProjectMembershipMember.property.userIdentifier">UserIdentifier</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datazone_project_membership#user_identifier DatazoneProjectMembership#user_identifier}. |
 
 ---
 
@@ -1006,7 +1006,7 @@ GroupIdentifier *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datazone_project_membership#group_identifier DatazoneProjectMembership#group_identifier}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datazone_project_membership#group_identifier DatazoneProjectMembership#group_identifier}.
 
 ---
 
@@ -1018,7 +1018,7 @@ UserIdentifier *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datazone_project_membership#user_identifier DatazoneProjectMembership#user_identifier}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datazone_project_membership#user_identifier DatazoneProjectMembership#user_identifier}.
 
 ---
 
@@ -1029,7 +1029,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datazoneProjectMembership.DatazoneProjectMembershipMemberOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datazoneprojectmembership"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datazoneprojectmembership"
 
 datazoneprojectmembership.NewDatazoneProjectMembershipMemberOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DatazoneProjectMembershipMemberOutputReference
 ```

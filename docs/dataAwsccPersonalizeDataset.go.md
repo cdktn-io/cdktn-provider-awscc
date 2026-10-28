@@ -4,12 +4,12 @@
 
 ### DataAwsccPersonalizeDataset <a name="DataAwsccPersonalizeDataset" id="@cdktn/provider-awscc.dataAwsccPersonalizeDataset.DataAwsccPersonalizeDataset"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/personalize_dataset awscc_personalize_dataset}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/personalize_dataset awscc_personalize_dataset}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPersonalizeDataset.DataAwsccPersonalizeDataset.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizedataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizedataset"
 
 dataawsccpersonalizedataset.NewDataAwsccPersonalizeDataset(scope Construct, id *string, config DataAwsccPersonalizeDatasetConfig) DataAwsccPersonalizeDataset
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccPersonalizeDataset.DataAwsccPersonalizeDataset.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizedataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizedataset"
 
 dataawsccpersonalizedataset.DataAwsccPersonalizeDataset_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccPersonalizeDataset.DataAwsccPersonalizeDataset.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizedataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizedataset"
 
 dataawsccpersonalizedataset.DataAwsccPersonalizeDataset_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccpersonalizedataset.DataAwsccPersonalizeDataset_IsTerraformElement(x int
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccPersonalizeDataset.DataAwsccPersonalizeDataset.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizedataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizedataset"
 
 dataawsccpersonalizedataset.DataAwsccPersonalizeDataset_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccpersonalizedataset.DataAwsccPersonalizeDataset_IsTerraformDataSource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccPersonalizeDataset.DataAwsccPersonalizeDataset.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizedataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizedataset"
 
 dataawsccpersonalizedataset.DataAwsccPersonalizeDataset_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccPersonalizeDatase
 
 The id of the existing DataAwsccPersonalizeDataset that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/personalize_dataset#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/personalize_dataset#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -664,7 +664,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPersonalizeDataset.DataAwsccPersonalizeDatasetConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizedataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizedataset"
 
 &dataawsccpersonalizedataset.DataAwsccPersonalizeDatasetConfig {
 	Connection: interface{},
@@ -773,7 +773,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/personalize_dataset#id DataAwsccPersonalizeDataset#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/personalize_dataset#id DataAwsccPersonalizeDataset#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -785,7 +785,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPersonalizeDataset.DataAwsccPersonalizeDatasetDatasetImportJob.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizedataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizedataset"
 
 &dataawsccpersonalizedataset.DataAwsccPersonalizeDatasetDatasetImportJob {
 
@@ -798,7 +798,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizeda
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPersonalizeDataset.DataAwsccPersonalizeDatasetDatasetImportJobDataSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizedataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizedataset"
 
 &dataawsccpersonalizedataset.DataAwsccPersonalizeDatasetDatasetImportJobDataSource {
 
@@ -811,7 +811,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizeda
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPersonalizeDataset.DataAwsccPersonalizeDatasetTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizedataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizedataset"
 
 &dataawsccpersonalizedataset.DataAwsccPersonalizeDatasetTags {
 
@@ -826,7 +826,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizeda
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPersonalizeDataset.DataAwsccPersonalizeDatasetDatasetImportJobDataSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizedataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizedataset"
 
 dataawsccpersonalizedataset.NewDataAwsccPersonalizeDatasetDatasetImportJobDataSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPersonalizeDatasetDatasetImportJobDataSourceOutputReference
 ```
@@ -1086,7 +1086,7 @@ func InternalValue() DataAwsccPersonalizeDatasetDatasetImportJobDataSource
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPersonalizeDataset.DataAwsccPersonalizeDatasetDatasetImportJobOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizedataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizedataset"
 
 dataawsccpersonalizedataset.NewDataAwsccPersonalizeDatasetDatasetImportJobOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPersonalizeDatasetDatasetImportJobOutputReference
 ```
@@ -1390,7 +1390,7 @@ func InternalValue() DataAwsccPersonalizeDatasetDatasetImportJob
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPersonalizeDataset.DataAwsccPersonalizeDatasetTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizedataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizedataset"
 
 dataawsccpersonalizedataset.NewDataAwsccPersonalizeDatasetTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccPersonalizeDatasetTagsList
 ```
@@ -1539,7 +1539,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPersonalizeDataset.DataAwsccPersonalizeDatasetTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizedataset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizedataset"
 
 dataawsccpersonalizedataset.NewDataAwsccPersonalizeDatasetTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccPersonalizeDatasetTagsOutputReference
 ```

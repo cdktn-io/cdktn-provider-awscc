@@ -4,12 +4,12 @@
 
 ### DatasyncLocationFsxWindows <a name="DatasyncLocationFsxWindows" id="@cdktn/provider-awscc.datasyncLocationFsxWindows.DatasyncLocationFsxWindows"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_fsx_windows awscc_datasync_location_fsx_windows}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_fsx_windows awscc_datasync_location_fsx_windows}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datasyncLocationFsxWindows.DatasyncLocationFsxWindows.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationfsxwindows"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationfsxwindows"
 
 datasynclocationfsxwindows.NewDatasyncLocationFsxWindows(scope Construct, id *string, config DatasyncLocationFsxWindowsConfig) DatasyncLocationFsxWindows
 ```
@@ -488,7 +488,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.datasyncLocationFsxWindows.DatasyncLocationFsxWindows.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationfsxwindows"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationfsxwindows"
 
 datasynclocationfsxwindows.DatasyncLocationFsxWindows_IsConstruct(x interface{}) *bool
 ```
@@ -520,7 +520,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.datasyncLocationFsxWindows.DatasyncLocationFsxWindows.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationfsxwindows"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationfsxwindows"
 
 datasynclocationfsxwindows.DatasyncLocationFsxWindows_IsTerraformElement(x interface{}) *bool
 ```
@@ -534,7 +534,7 @@ datasynclocationfsxwindows.DatasyncLocationFsxWindows_IsTerraformElement(x inter
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.datasyncLocationFsxWindows.DatasyncLocationFsxWindows.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationfsxwindows"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationfsxwindows"
 
 datasynclocationfsxwindows.DatasyncLocationFsxWindows_IsTerraformResource(x interface{}) *bool
 ```
@@ -548,7 +548,7 @@ datasynclocationfsxwindows.DatasyncLocationFsxWindows_IsTerraformResource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.datasyncLocationFsxWindows.DatasyncLocationFsxWindows.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationfsxwindows"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationfsxwindows"
 
 datasynclocationfsxwindows.DatasyncLocationFsxWindows_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -577,7 +577,7 @@ The construct id used in the generated config for the DatasyncLocationFsxWindows
 
 The id of the existing DatasyncLocationFsxWindows that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_fsx_windows#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_fsx_windows#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1019,7 +1019,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.datasyncLocationFsxWindows.DatasyncLocationFsxWindowsCmkSecretConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationfsxwindows"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationfsxwindows"
 
 &datasynclocationfsxwindows.DatasyncLocationFsxWindowsCmkSecretConfig {
 	KmsKeyArn: *string,
@@ -1046,7 +1046,7 @@ Specifies the ARN for the customer-managed AWS KMS key used to encrypt the secre
 
 DataSync provides this key to AWS Secrets Manager.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_fsx_windows#kms_key_arn DatasyncLocationFsxWindows#kms_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_fsx_windows#kms_key_arn DatasyncLocationFsxWindows#kms_key_arn}
 
 ---
 
@@ -1055,7 +1055,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.datasyncLocationFsxWindows.DatasyncLocationFsxWindowsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationfsxwindows"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationfsxwindows"
 
 &datasynclocationfsxwindows.DatasyncLocationFsxWindowsConfig {
 	Connection: interface{},
@@ -1067,8 +1067,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationfsxwin
 	Provisioners: *[]interface{},
 	SecurityGroupArns: *[]*string,
 	User: *string,
-	CmkSecretConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.datasyncLocationFsxWindows.DatasyncLocationFsxWindowsCmkSecretConfig,
-	CustomSecretConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.datasyncLocationFsxWindows.DatasyncLocationFsxWindowsCustomSecretConfig,
+	CmkSecretConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.datasyncLocationFsxWindows.DatasyncLocationFsxWindowsCmkSecretConfig,
+	CustomSecretConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.datasyncLocationFsxWindows.DatasyncLocationFsxWindowsCustomSecretConfig,
 	Domain: *string,
 	FsxFilesystemArn: *string,
 	Password: *string,
@@ -1180,7 +1180,7 @@ SecurityGroupArns *[]*string
 
 The ARNs of the security groups that are to use to configure the FSx for Windows file system.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_fsx_windows#security_group_arns DatasyncLocationFsxWindows#security_group_arns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_fsx_windows#security_group_arns DatasyncLocationFsxWindows#security_group_arns}
 
 ---
 
@@ -1194,7 +1194,7 @@ User *string
 
 The user who has the permissions to access files and folders in the FSx for Windows file system.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_fsx_windows#user DatasyncLocationFsxWindows#user}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_fsx_windows#user DatasyncLocationFsxWindows#user}
 
 ---
 
@@ -1208,7 +1208,7 @@ CmkSecretConfig DatasyncLocationFsxWindowsCmkSecretConfig
 
 Specifies configuration information for a DataSync-managed secret, such as an authentication token or set of credentials that DataSync uses to access a specific transfer location, and a customer-managed AWS KMS key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_fsx_windows#cmk_secret_config DatasyncLocationFsxWindows#cmk_secret_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_fsx_windows#cmk_secret_config DatasyncLocationFsxWindows#cmk_secret_config}
 
 ---
 
@@ -1222,7 +1222,7 @@ CustomSecretConfig DatasyncLocationFsxWindowsCustomSecretConfig
 
 Specifies configuration information for a customer-managed secret, such as an authentication token or set of credentials that DataSync uses to access a specific transfer location, and an IAM role that DataSync can assume and access the customer-managed secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_fsx_windows#custom_secret_config DatasyncLocationFsxWindows#custom_secret_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_fsx_windows#custom_secret_config DatasyncLocationFsxWindows#custom_secret_config}
 
 ---
 
@@ -1236,7 +1236,7 @@ Domain *string
 
 The name of the Windows domain that the FSx for Windows server belongs to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_fsx_windows#domain DatasyncLocationFsxWindows#domain}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_fsx_windows#domain DatasyncLocationFsxWindows#domain}
 
 ---
 
@@ -1250,7 +1250,7 @@ FsxFilesystemArn *string
 
 The Amazon Resource Name (ARN) for the FSx for Windows file system.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_fsx_windows#fsx_filesystem_arn DatasyncLocationFsxWindows#fsx_filesystem_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_fsx_windows#fsx_filesystem_arn DatasyncLocationFsxWindows#fsx_filesystem_arn}
 
 ---
 
@@ -1264,7 +1264,7 @@ Password *string
 
 The password of the user who has the permissions to access files and folders in the FSx for Windows file system.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_fsx_windows#password DatasyncLocationFsxWindows#password}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_fsx_windows#password DatasyncLocationFsxWindows#password}
 
 ---
 
@@ -1278,7 +1278,7 @@ Subdirectory *string
 
 A subdirectory in the location's path.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_fsx_windows#subdirectory DatasyncLocationFsxWindows#subdirectory}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_fsx_windows#subdirectory DatasyncLocationFsxWindows#subdirectory}
 
 ---
 
@@ -1292,7 +1292,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_fsx_windows#tags DatasyncLocationFsxWindows#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_fsx_windows#tags DatasyncLocationFsxWindows#tags}
 
 ---
 
@@ -1301,7 +1301,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.datasyncLocationFsxWindows.DatasyncLocationFsxWindowsCustomSecretConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationfsxwindows"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationfsxwindows"
 
 &datasynclocationfsxwindows.DatasyncLocationFsxWindowsCustomSecretConfig {
 	SecretAccessRoleArn: *string,
@@ -1328,7 +1328,7 @@ SecretAccessRoleArn *string
 
 Specifies the ARN for the AWS Identity and Access Management role that DataSync uses to access the secret specified for SecretArn.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_fsx_windows#secret_access_role_arn DatasyncLocationFsxWindows#secret_access_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_fsx_windows#secret_access_role_arn DatasyncLocationFsxWindows#secret_access_role_arn}
 
 ---
 
@@ -1342,7 +1342,7 @@ SecretArn *string
 
 Specifies the ARN for a customer created AWS Secrets Manager secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_fsx_windows#secret_arn DatasyncLocationFsxWindows#secret_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_fsx_windows#secret_arn DatasyncLocationFsxWindows#secret_arn}
 
 ---
 
@@ -1351,7 +1351,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.datasyncLocationFsxWindows.DatasyncLocationFsxWindowsManagedSecretConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationfsxwindows"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationfsxwindows"
 
 &datasynclocationfsxwindows.DatasyncLocationFsxWindowsManagedSecretConfig {
 
@@ -1364,7 +1364,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationfsxwin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.datasyncLocationFsxWindows.DatasyncLocationFsxWindowsTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationfsxwindows"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationfsxwindows"
 
 &datasynclocationfsxwindows.DatasyncLocationFsxWindowsTags {
 	Key: *string,
@@ -1391,7 +1391,7 @@ Key *string
 
 The key for an AWS resource tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_fsx_windows#key DatasyncLocationFsxWindows#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_fsx_windows#key DatasyncLocationFsxWindows#key}
 
 ---
 
@@ -1405,7 +1405,7 @@ Value *string
 
 The value for an AWS resource tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_fsx_windows#value DatasyncLocationFsxWindows#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_fsx_windows#value DatasyncLocationFsxWindows#value}
 
 ---
 
@@ -1416,7 +1416,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datasyncLocationFsxWindows.DatasyncLocationFsxWindowsCmkSecretConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationfsxwindows"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationfsxwindows"
 
 datasynclocationfsxwindows.NewDatasyncLocationFsxWindowsCmkSecretConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DatasyncLocationFsxWindowsCmkSecretConfigOutputReference
 ```
@@ -1705,7 +1705,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datasyncLocationFsxWindows.DatasyncLocationFsxWindowsCustomSecretConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationfsxwindows"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationfsxwindows"
 
 datasynclocationfsxwindows.NewDatasyncLocationFsxWindowsCustomSecretConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DatasyncLocationFsxWindowsCustomSecretConfigOutputReference
 ```
@@ -2012,7 +2012,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datasyncLocationFsxWindows.DatasyncLocationFsxWindowsManagedSecretConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationfsxwindows"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationfsxwindows"
 
 datasynclocationfsxwindows.NewDatasyncLocationFsxWindowsManagedSecretConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DatasyncLocationFsxWindowsManagedSecretConfigOutputReference
 ```
@@ -2272,7 +2272,7 @@ func InternalValue() DatasyncLocationFsxWindowsManagedSecretConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datasyncLocationFsxWindows.DatasyncLocationFsxWindowsTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationfsxwindows"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationfsxwindows"
 
 datasynclocationfsxwindows.NewDatasyncLocationFsxWindowsTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DatasyncLocationFsxWindowsTagsList
 ```
@@ -2432,7 +2432,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datasyncLocationFsxWindows.DatasyncLocationFsxWindowsTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationfsxwindows"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationfsxwindows"
 
 datasynclocationfsxwindows.NewDatasyncLocationFsxWindowsTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DatasyncLocationFsxWindowsTagsOutputReference
 ```

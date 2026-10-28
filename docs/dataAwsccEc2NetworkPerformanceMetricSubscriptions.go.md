@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2NetworkPerformanceMetricSubscriptions <a name="DataAwsccEc2NetworkPerformanceMetricSubscriptions" id="@cdktn/provider-awscc.dataAwsccEc2NetworkPerformanceMetricSubscriptions.DataAwsccEc2NetworkPerformanceMetricSubscriptions"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_network_performance_metric_subscriptions awscc_ec2_network_performance_metric_subscriptions}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_network_performance_metric_subscriptions awscc_ec2_network_performance_metric_subscriptions}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2NetworkPerformanceMetricSubscriptions.DataAwsccEc2NetworkPerformanceMetricSubscriptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2networkperformancemetricsubscriptions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2networkperformancemetricsubscriptions"
 
 dataawsccec2networkperformancemetricsubscriptions.NewDataAwsccEc2NetworkPerformanceMetricSubscriptions(scope Construct, id *string, config DataAwsccEc2NetworkPerformanceMetricSubscriptionsConfig) DataAwsccEc2NetworkPerformanceMetricSubscriptions
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2NetworkPerformanceMetricSubscriptions.DataAwsccEc2NetworkPerformanceMetricSubscriptions.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2networkperformancemetricsubscriptions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2networkperformancemetricsubscriptions"
 
 dataawsccec2networkperformancemetricsubscriptions.DataAwsccEc2NetworkPerformanceMetricSubscriptions_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2NetworkPerformanceMetricSubscriptions.DataAwsccEc2NetworkPerformanceMetricSubscriptions.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2networkperformancemetricsubscriptions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2networkperformancemetricsubscriptions"
 
 dataawsccec2networkperformancemetricsubscriptions.DataAwsccEc2NetworkPerformanceMetricSubscriptions_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2networkperformancemetricsubscriptions.DataAwsccEc2NetworkPerformance
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2NetworkPerformanceMetricSubscriptions.DataAwsccEc2NetworkPerformanceMetricSubscriptions.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2networkperformancemetricsubscriptions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2networkperformancemetricsubscriptions"
 
 dataawsccec2networkperformancemetricsubscriptions.DataAwsccEc2NetworkPerformanceMetricSubscriptions_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2networkperformancemetricsubscriptions.DataAwsccEc2NetworkPerformance
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2NetworkPerformanceMetricSubscriptions.DataAwsccEc2NetworkPerformanceMetricSubscriptions.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2networkperformancemetricsubscriptions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2networkperformancemetricsubscriptions"
 
 dataawsccec2networkperformancemetricsubscriptions.DataAwsccEc2NetworkPerformanceMetricSubscriptions_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2NetworkPerform
 
 The id of the existing DataAwsccEc2NetworkPerformanceMetricSubscriptions that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_network_performance_metric_subscriptions#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_network_performance_metric_subscriptions#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2NetworkPerformanceMetricSubscriptions.DataAwsccEc2NetworkPerformanceMetricSubscriptionsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2networkperformancemetricsubscriptions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2networkperformancemetricsubscriptions"
 
 &dataawsccec2networkperformancemetricsubscriptions.DataAwsccEc2NetworkPerformanceMetricSubscriptionsConfig {
 	Connection: interface{},

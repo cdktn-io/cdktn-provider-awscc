@@ -4,12 +4,12 @@
 
 ### DataAwsccTranscribeVocabularyFilters <a name="DataAwsccTranscribeVocabularyFilters" id="@cdktn/provider-awscc.dataAwsccTranscribeVocabularyFilters.DataAwsccTranscribeVocabularyFilters"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/transcribe_vocabulary_filters awscc_transcribe_vocabulary_filters}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/transcribe_vocabulary_filters awscc_transcribe_vocabulary_filters}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTranscribeVocabularyFilters.DataAwsccTranscribeVocabularyFilters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribevocabularyfilters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranscribevocabularyfilters"
 
 dataawscctranscribevocabularyfilters.NewDataAwsccTranscribeVocabularyFilters(scope Construct, id *string, config DataAwsccTranscribeVocabularyFiltersConfig) DataAwsccTranscribeVocabularyFilters
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccTranscribeVocabularyFilters.DataAwsccTranscribeVocabularyFilters.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribevocabularyfilters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranscribevocabularyfilters"
 
 dataawscctranscribevocabularyfilters.DataAwsccTranscribeVocabularyFilters_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccTranscribeVocabularyFilters.DataAwsccTranscribeVocabularyFilters.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribevocabularyfilters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranscribevocabularyfilters"
 
 dataawscctranscribevocabularyfilters.DataAwsccTranscribeVocabularyFilters_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscctranscribevocabularyfilters.DataAwsccTranscribeVocabularyFilters_IsTerr
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccTranscribeVocabularyFilters.DataAwsccTranscribeVocabularyFilters.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribevocabularyfilters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranscribevocabularyfilters"
 
 dataawscctranscribevocabularyfilters.DataAwsccTranscribeVocabularyFilters_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscctranscribevocabularyfilters.DataAwsccTranscribeVocabularyFilters_IsTerr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccTranscribeVocabularyFilters.DataAwsccTranscribeVocabularyFilters.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribevocabularyfilters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranscribevocabularyfilters"
 
 dataawscctranscribevocabularyfilters.DataAwsccTranscribeVocabularyFilters_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccTranscribeVocabul
 
 The id of the existing DataAwsccTranscribeVocabularyFilters that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/transcribe_vocabulary_filters#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/transcribe_vocabulary_filters#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTranscribeVocabularyFilters.DataAwsccTranscribeVocabularyFiltersConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribevocabularyfilters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranscribevocabularyfilters"
 
 &dataawscctranscribevocabularyfilters.DataAwsccTranscribeVocabularyFiltersConfig {
 	Connection: interface{},

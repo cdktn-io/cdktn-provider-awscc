@@ -4,12 +4,12 @@
 
 ### DataAwsccS3ExpressDirectoryBucket <a name="DataAwsccS3ExpressDirectoryBucket" id="@cdktn/provider-awscc.dataAwsccS3ExpressDirectoryBucket.DataAwsccS3ExpressDirectoryBucket"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3express_directory_bucket awscc_s3express_directory_bucket}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3express_directory_bucket awscc_s3express_directory_bucket}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3ExpressDirectoryBucket.DataAwsccS3ExpressDirectoryBucket.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3expressdirectorybucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3expressdirectorybucket"
 
 dataawsccs3expressdirectorybucket.NewDataAwsccS3ExpressDirectoryBucket(scope Construct, id *string, config DataAwsccS3ExpressDirectoryBucketConfig) DataAwsccS3ExpressDirectoryBucket
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccS3ExpressDirectoryBucket.DataAwsccS3ExpressDirectoryBucket.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3expressdirectorybucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3expressdirectorybucket"
 
 dataawsccs3expressdirectorybucket.DataAwsccS3ExpressDirectoryBucket_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccS3ExpressDirectoryBucket.DataAwsccS3ExpressDirectoryBucket.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3expressdirectorybucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3expressdirectorybucket"
 
 dataawsccs3expressdirectorybucket.DataAwsccS3ExpressDirectoryBucket_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccs3expressdirectorybucket.DataAwsccS3ExpressDirectoryBucket_IsTerraformE
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccS3ExpressDirectoryBucket.DataAwsccS3ExpressDirectoryBucket.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3expressdirectorybucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3expressdirectorybucket"
 
 dataawsccs3expressdirectorybucket.DataAwsccS3ExpressDirectoryBucket_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccs3expressdirectorybucket.DataAwsccS3ExpressDirectoryBucket_IsTerraformD
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccS3ExpressDirectoryBucket.DataAwsccS3ExpressDirectoryBucket.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3expressdirectorybucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3expressdirectorybucket"
 
 dataawsccs3expressdirectorybucket.DataAwsccS3ExpressDirectoryBucket_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccS3ExpressDirector
 
 The id of the existing DataAwsccS3ExpressDirectoryBucket that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3express_directory_bucket#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3express_directory_bucket#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -697,7 +697,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3ExpressDirectoryBucket.DataAwsccS3ExpressDirectoryBucketBucketEncryption.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3expressdirectorybucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3expressdirectorybucket"
 
 &dataawsccs3expressdirectorybucket.DataAwsccS3ExpressDirectoryBucketBucketEncryption {
 
@@ -710,7 +710,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3expressdire
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3ExpressDirectoryBucket.DataAwsccS3ExpressDirectoryBucketBucketEncryptionServerSideEncryptionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3expressdirectorybucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3expressdirectorybucket"
 
 &dataawsccs3expressdirectorybucket.DataAwsccS3ExpressDirectoryBucketBucketEncryptionServerSideEncryptionConfiguration {
 
@@ -723,7 +723,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3expressdire
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3ExpressDirectoryBucket.DataAwsccS3ExpressDirectoryBucketBucketEncryptionServerSideEncryptionConfigurationServerSideEncryptionByDefault.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3expressdirectorybucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3expressdirectorybucket"
 
 &dataawsccs3expressdirectorybucket.DataAwsccS3ExpressDirectoryBucketBucketEncryptionServerSideEncryptionConfigurationServerSideEncryptionByDefault {
 
@@ -736,7 +736,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3expressdire
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3ExpressDirectoryBucket.DataAwsccS3ExpressDirectoryBucketConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3expressdirectorybucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3expressdirectorybucket"
 
 &dataawsccs3expressdirectorybucket.DataAwsccS3ExpressDirectoryBucketConfig {
 	Connection: interface{},
@@ -845,7 +845,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3express_directory_bucket#id DataAwsccS3ExpressDirectoryBucket#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3express_directory_bucket#id DataAwsccS3ExpressDirectoryBucket#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -857,7 +857,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3ExpressDirectoryBucket.DataAwsccS3ExpressDirectoryBucketInventoryConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3expressdirectorybucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3expressdirectorybucket"
 
 &dataawsccs3expressdirectorybucket.DataAwsccS3ExpressDirectoryBucketInventoryConfigurations {
 
@@ -870,7 +870,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3expressdire
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3ExpressDirectoryBucket.DataAwsccS3ExpressDirectoryBucketInventoryConfigurationsDestination.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3expressdirectorybucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3expressdirectorybucket"
 
 &dataawsccs3expressdirectorybucket.DataAwsccS3ExpressDirectoryBucketInventoryConfigurationsDestination {
 
@@ -883,7 +883,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3expressdire
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3ExpressDirectoryBucket.DataAwsccS3ExpressDirectoryBucketLifecycleConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3expressdirectorybucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3expressdirectorybucket"
 
 &dataawsccs3expressdirectorybucket.DataAwsccS3ExpressDirectoryBucketLifecycleConfiguration {
 
@@ -896,7 +896,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3expressdire
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3ExpressDirectoryBucket.DataAwsccS3ExpressDirectoryBucketLifecycleConfigurationRules.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3expressdirectorybucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3expressdirectorybucket"
 
 &dataawsccs3expressdirectorybucket.DataAwsccS3ExpressDirectoryBucketLifecycleConfigurationRules {
 
@@ -909,7 +909,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3expressdire
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3ExpressDirectoryBucket.DataAwsccS3ExpressDirectoryBucketLifecycleConfigurationRulesAbortIncompleteMultipartUpload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3expressdirectorybucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3expressdirectorybucket"
 
 &dataawsccs3expressdirectorybucket.DataAwsccS3ExpressDirectoryBucketLifecycleConfigurationRulesAbortIncompleteMultipartUpload {
 
@@ -922,7 +922,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3expressdire
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3ExpressDirectoryBucket.DataAwsccS3ExpressDirectoryBucketMetricsConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3expressdirectorybucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3expressdirectorybucket"
 
 &dataawsccs3expressdirectorybucket.DataAwsccS3ExpressDirectoryBucketMetricsConfigurations {
 
@@ -935,7 +935,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3expressdire
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3ExpressDirectoryBucket.DataAwsccS3ExpressDirectoryBucketTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3expressdirectorybucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3expressdirectorybucket"
 
 &dataawsccs3expressdirectorybucket.DataAwsccS3ExpressDirectoryBucketTags {
 
@@ -950,7 +950,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3expressdire
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3ExpressDirectoryBucket.DataAwsccS3ExpressDirectoryBucketBucketEncryptionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3expressdirectorybucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3expressdirectorybucket"
 
 dataawsccs3expressdirectorybucket.NewDataAwsccS3ExpressDirectoryBucketBucketEncryptionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3ExpressDirectoryBucketBucketEncryptionOutputReference
 ```
@@ -1210,7 +1210,7 @@ func InternalValue() DataAwsccS3ExpressDirectoryBucketBucketEncryption
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3ExpressDirectoryBucket.DataAwsccS3ExpressDirectoryBucketBucketEncryptionServerSideEncryptionConfigurationList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3expressdirectorybucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3expressdirectorybucket"
 
 dataawsccs3expressdirectorybucket.NewDataAwsccS3ExpressDirectoryBucketBucketEncryptionServerSideEncryptionConfigurationList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccS3ExpressDirectoryBucketBucketEncryptionServerSideEncryptionConfigurationList
 ```
@@ -1359,7 +1359,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3ExpressDirectoryBucket.DataAwsccS3ExpressDirectoryBucketBucketEncryptionServerSideEncryptionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3expressdirectorybucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3expressdirectorybucket"
 
 dataawsccs3expressdirectorybucket.NewDataAwsccS3ExpressDirectoryBucketBucketEncryptionServerSideEncryptionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccS3ExpressDirectoryBucketBucketEncryptionServerSideEncryptionConfigurationOutputReference
 ```
@@ -1648,7 +1648,7 @@ func InternalValue() DataAwsccS3ExpressDirectoryBucketBucketEncryptionServerSide
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3ExpressDirectoryBucket.DataAwsccS3ExpressDirectoryBucketBucketEncryptionServerSideEncryptionConfigurationServerSideEncryptionByDefaultOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3expressdirectorybucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3expressdirectorybucket"
 
 dataawsccs3expressdirectorybucket.NewDataAwsccS3ExpressDirectoryBucketBucketEncryptionServerSideEncryptionConfigurationServerSideEncryptionByDefaultOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3ExpressDirectoryBucketBucketEncryptionServerSideEncryptionConfigurationServerSideEncryptionByDefaultOutputReference
 ```
@@ -1919,7 +1919,7 @@ func InternalValue() DataAwsccS3ExpressDirectoryBucketBucketEncryptionServerSide
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3ExpressDirectoryBucket.DataAwsccS3ExpressDirectoryBucketInventoryConfigurationsDestinationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3expressdirectorybucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3expressdirectorybucket"
 
 dataawsccs3expressdirectorybucket.NewDataAwsccS3ExpressDirectoryBucketInventoryConfigurationsDestinationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3ExpressDirectoryBucketInventoryConfigurationsDestinationOutputReference
 ```
@@ -2212,7 +2212,7 @@ func InternalValue() DataAwsccS3ExpressDirectoryBucketInventoryConfigurationsDes
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3ExpressDirectoryBucket.DataAwsccS3ExpressDirectoryBucketInventoryConfigurationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3expressdirectorybucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3expressdirectorybucket"
 
 dataawsccs3expressdirectorybucket.NewDataAwsccS3ExpressDirectoryBucketInventoryConfigurationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccS3ExpressDirectoryBucketInventoryConfigurationsList
 ```
@@ -2361,7 +2361,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3ExpressDirectoryBucket.DataAwsccS3ExpressDirectoryBucketInventoryConfigurationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3expressdirectorybucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3expressdirectorybucket"
 
 dataawsccs3expressdirectorybucket.NewDataAwsccS3ExpressDirectoryBucketInventoryConfigurationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccS3ExpressDirectoryBucketInventoryConfigurationsOutputReference
 ```
@@ -2705,7 +2705,7 @@ func InternalValue() DataAwsccS3ExpressDirectoryBucketInventoryConfigurations
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3ExpressDirectoryBucket.DataAwsccS3ExpressDirectoryBucketLifecycleConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3expressdirectorybucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3expressdirectorybucket"
 
 dataawsccs3expressdirectorybucket.NewDataAwsccS3ExpressDirectoryBucketLifecycleConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3ExpressDirectoryBucketLifecycleConfigurationOutputReference
 ```
@@ -2965,7 +2965,7 @@ func InternalValue() DataAwsccS3ExpressDirectoryBucketLifecycleConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3ExpressDirectoryBucket.DataAwsccS3ExpressDirectoryBucketLifecycleConfigurationRulesAbortIncompleteMultipartUploadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3expressdirectorybucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3expressdirectorybucket"
 
 dataawsccs3expressdirectorybucket.NewDataAwsccS3ExpressDirectoryBucketLifecycleConfigurationRulesAbortIncompleteMultipartUploadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3ExpressDirectoryBucketLifecycleConfigurationRulesAbortIncompleteMultipartUploadOutputReference
 ```
@@ -3225,7 +3225,7 @@ func InternalValue() DataAwsccS3ExpressDirectoryBucketLifecycleConfigurationRule
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3ExpressDirectoryBucket.DataAwsccS3ExpressDirectoryBucketLifecycleConfigurationRulesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3expressdirectorybucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3expressdirectorybucket"
 
 dataawsccs3expressdirectorybucket.NewDataAwsccS3ExpressDirectoryBucketLifecycleConfigurationRulesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccS3ExpressDirectoryBucketLifecycleConfigurationRulesList
 ```
@@ -3374,7 +3374,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3ExpressDirectoryBucket.DataAwsccS3ExpressDirectoryBucketLifecycleConfigurationRulesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3expressdirectorybucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3expressdirectorybucket"
 
 dataawsccs3expressdirectorybucket.NewDataAwsccS3ExpressDirectoryBucketLifecycleConfigurationRulesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccS3ExpressDirectoryBucketLifecycleConfigurationRulesOutputReference
 ```
@@ -3718,7 +3718,7 @@ func InternalValue() DataAwsccS3ExpressDirectoryBucketLifecycleConfigurationRule
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3ExpressDirectoryBucket.DataAwsccS3ExpressDirectoryBucketMetricsConfigurationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3expressdirectorybucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3expressdirectorybucket"
 
 dataawsccs3expressdirectorybucket.NewDataAwsccS3ExpressDirectoryBucketMetricsConfigurationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccS3ExpressDirectoryBucketMetricsConfigurationsList
 ```
@@ -3867,7 +3867,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3ExpressDirectoryBucket.DataAwsccS3ExpressDirectoryBucketMetricsConfigurationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3expressdirectorybucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3expressdirectorybucket"
 
 dataawsccs3expressdirectorybucket.NewDataAwsccS3ExpressDirectoryBucketMetricsConfigurationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccS3ExpressDirectoryBucketMetricsConfigurationsOutputReference
 ```
@@ -4167,7 +4167,7 @@ func InternalValue() DataAwsccS3ExpressDirectoryBucketMetricsConfigurations
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3ExpressDirectoryBucket.DataAwsccS3ExpressDirectoryBucketTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3expressdirectorybucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3expressdirectorybucket"
 
 dataawsccs3expressdirectorybucket.NewDataAwsccS3ExpressDirectoryBucketTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccS3ExpressDirectoryBucketTagsList
 ```
@@ -4316,7 +4316,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3ExpressDirectoryBucket.DataAwsccS3ExpressDirectoryBucketTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3expressdirectorybucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3expressdirectorybucket"
 
 dataawsccs3expressdirectorybucket.NewDataAwsccS3ExpressDirectoryBucketTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccS3ExpressDirectoryBucketTagsOutputReference
 ```

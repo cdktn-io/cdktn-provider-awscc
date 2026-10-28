@@ -4,12 +4,12 @@
 
 ### DataAwsccAccessanalyzerArchiveRule <a name="DataAwsccAccessanalyzerArchiveRule" id="@cdktn/provider-awscc.dataAwsccAccessanalyzerArchiveRule.DataAwsccAccessanalyzerArchiveRule"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/accessanalyzer_archive_rule awscc_accessanalyzer_archive_rule}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/accessanalyzer_archive_rule awscc_accessanalyzer_archive_rule}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAccessanalyzerArchiveRule.DataAwsccAccessanalyzerArchiveRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccessanalyzerarchiverule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaccessanalyzerarchiverule"
 
 dataawsccaccessanalyzerarchiverule.NewDataAwsccAccessanalyzerArchiveRule(scope Construct, id *string, config DataAwsccAccessanalyzerArchiveRuleConfig) DataAwsccAccessanalyzerArchiveRule
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccAccessanalyzerArchiveRule.DataAwsccAccessanalyzerArchiveRule.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccessanalyzerarchiverule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaccessanalyzerarchiverule"
 
 dataawsccaccessanalyzerarchiverule.DataAwsccAccessanalyzerArchiveRule_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccAccessanalyzerArchiveRule.DataAwsccAccessanalyzerArchiveRule.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccessanalyzerarchiverule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaccessanalyzerarchiverule"
 
 dataawsccaccessanalyzerarchiverule.DataAwsccAccessanalyzerArchiveRule_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccaccessanalyzerarchiverule.DataAwsccAccessanalyzerArchiveRule_IsTerrafor
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccAccessanalyzerArchiveRule.DataAwsccAccessanalyzerArchiveRule.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccessanalyzerarchiverule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaccessanalyzerarchiverule"
 
 dataawsccaccessanalyzerarchiverule.DataAwsccAccessanalyzerArchiveRule_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccaccessanalyzerarchiverule.DataAwsccAccessanalyzerArchiveRule_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccAccessanalyzerArchiveRule.DataAwsccAccessanalyzerArchiveRule.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccessanalyzerarchiverule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaccessanalyzerarchiverule"
 
 dataawsccaccessanalyzerarchiverule.DataAwsccAccessanalyzerArchiveRule_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccAccessanalyzerArc
 
 The id of the existing DataAwsccAccessanalyzerArchiveRule that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/accessanalyzer_archive_rule#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/accessanalyzer_archive_rule#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -653,7 +653,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAccessanalyzerArchiveRule.DataAwsccAccessanalyzerArchiveRuleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccessanalyzerarchiverule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaccessanalyzerarchiverule"
 
 &dataawsccaccessanalyzerarchiverule.DataAwsccAccessanalyzerArchiveRuleConfig {
 	Connection: interface{},
@@ -762,7 +762,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/accessanalyzer_archive_rule#id DataAwsccAccessanalyzerArchiveRule#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/accessanalyzer_archive_rule#id DataAwsccAccessanalyzerArchiveRule#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -774,7 +774,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAccessanalyzerArchiveRule.DataAwsccAccessanalyzerArchiveRuleFilter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccessanalyzerarchiverule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaccessanalyzerarchiverule"
 
 &dataawsccaccessanalyzerarchiverule.DataAwsccAccessanalyzerArchiveRuleFilter {
 
@@ -789,7 +789,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccessanalyze
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAccessanalyzerArchiveRule.DataAwsccAccessanalyzerArchiveRuleFilterMap.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccessanalyzerarchiverule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaccessanalyzerarchiverule"
 
 dataawsccaccessanalyzerarchiverule.NewDataAwsccAccessanalyzerArchiveRuleFilterMap(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAccessanalyzerArchiveRuleFilterMap
 ```
@@ -925,7 +925,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAccessanalyzerArchiveRule.DataAwsccAccessanalyzerArchiveRuleFilterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccessanalyzerarchiverule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaccessanalyzerarchiverule"
 
 dataawsccaccessanalyzerarchiverule.NewDataAwsccAccessanalyzerArchiveRuleFilterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectKey *string) DataAwsccAccessanalyzerArchiveRuleFilterOutputReference
 ```

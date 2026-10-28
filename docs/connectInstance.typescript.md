@@ -4,7 +4,7 @@
 
 ### ConnectInstance <a name="ConnectInstance" id="@cdktn/provider-awscc.connectInstance.ConnectInstance"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_instance awscc_connect_instance}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_instance awscc_connect_instance}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectInstance.ConnectInstance.Initializer"></a>
 
@@ -536,7 +536,7 @@ The construct id used in the generated config for the ConnectInstance to import.
 
 The id of the existing ConnectInstance that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_instance#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_instance#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -923,6 +923,7 @@ const connectInstanceAttributes: connectInstance.ConnectInstanceAttributes = { .
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.connectInstance.ConnectInstanceAttributes.property.inboundCalls">inboundCalls</a></code> | <code>boolean \| cdktn.IResolvable</code> | Mandatory element which enables inbound calls on new instance. |
 | <code><a href="#@cdktn/provider-awscc.connectInstance.ConnectInstanceAttributes.property.outboundCalls">outboundCalls</a></code> | <code>boolean \| cdktn.IResolvable</code> | Mandatory element which enables outbound calls on new instance. |
+| <code><a href="#@cdktn/provider-awscc.connectInstance.ConnectInstanceAttributes.property.autoMuteAgentOnHold">autoMuteAgentOnHold</a></code> | <code>boolean \| cdktn.IResolvable</code> | Boolean flag which enables AUTO_MUTE_AGENT_ON_HOLD on an instance. |
 | <code><a href="#@cdktn/provider-awscc.connectInstance.ConnectInstanceAttributes.property.autoResolveBestVoices">autoResolveBestVoices</a></code> | <code>boolean \| cdktn.IResolvable</code> | Boolean flag which enables AUTO_RESOLVE_BEST_VOICES on an instance. |
 | <code><a href="#@cdktn/provider-awscc.connectInstance.ConnectInstanceAttributes.property.contactflowLogs">contactflowLogs</a></code> | <code>boolean \| cdktn.IResolvable</code> | Boolean flag which enables CONTACTFLOW_LOGS on an instance. |
 | <code><a href="#@cdktn/provider-awscc.connectInstance.ConnectInstanceAttributes.property.contactLens">contactLens</a></code> | <code>boolean \| cdktn.IResolvable</code> | Boolean flag which enables CONTACT_LENS on an instance. |
@@ -947,7 +948,7 @@ public readonly inboundCalls: boolean | IResolvable;
 
 Mandatory element which enables inbound calls on new instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_instance#inbound_calls ConnectInstance#inbound_calls}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_instance#inbound_calls ConnectInstance#inbound_calls}
 
 ---
 
@@ -961,7 +962,21 @@ public readonly outboundCalls: boolean | IResolvable;
 
 Mandatory element which enables outbound calls on new instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_instance#outbound_calls ConnectInstance#outbound_calls}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_instance#outbound_calls ConnectInstance#outbound_calls}
+
+---
+
+##### `autoMuteAgentOnHold`<sup>Optional</sup> <a name="autoMuteAgentOnHold" id="@cdktn/provider-awscc.connectInstance.ConnectInstanceAttributes.property.autoMuteAgentOnHold"></a>
+
+```typescript
+public readonly autoMuteAgentOnHold: boolean | IResolvable;
+```
+
+- *Type:* boolean | cdktn.IResolvable
+
+Boolean flag which enables AUTO_MUTE_AGENT_ON_HOLD on an instance.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_instance#auto_mute_agent_on_hold ConnectInstance#auto_mute_agent_on_hold}
 
 ---
 
@@ -975,7 +990,7 @@ public readonly autoResolveBestVoices: boolean | IResolvable;
 
 Boolean flag which enables AUTO_RESOLVE_BEST_VOICES on an instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_instance#auto_resolve_best_voices ConnectInstance#auto_resolve_best_voices}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_instance#auto_resolve_best_voices ConnectInstance#auto_resolve_best_voices}
 
 ---
 
@@ -989,7 +1004,7 @@ public readonly contactflowLogs: boolean | IResolvable;
 
 Boolean flag which enables CONTACTFLOW_LOGS on an instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_instance#contactflow_logs ConnectInstance#contactflow_logs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_instance#contactflow_logs ConnectInstance#contactflow_logs}
 
 ---
 
@@ -1003,7 +1018,7 @@ public readonly contactLens: boolean | IResolvable;
 
 Boolean flag which enables CONTACT_LENS on an instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_instance#contact_lens ConnectInstance#contact_lens}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_instance#contact_lens ConnectInstance#contact_lens}
 
 ---
 
@@ -1017,7 +1032,7 @@ public readonly earlyMedia: boolean | IResolvable;
 
 Boolean flag which enables EARLY_MEDIA on an instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_instance#early_media ConnectInstance#early_media}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_instance#early_media ConnectInstance#early_media}
 
 ---
 
@@ -1031,7 +1046,7 @@ public readonly enhancedChatMonitoring: boolean | IResolvable;
 
 Boolean flag which enables ENHANCED_CHAT_MONITORING on an instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_instance#enhanced_chat_monitoring ConnectInstance#enhanced_chat_monitoring}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_instance#enhanced_chat_monitoring ConnectInstance#enhanced_chat_monitoring}
 
 ---
 
@@ -1045,7 +1060,7 @@ public readonly enhancedContactMonitoring: boolean | IResolvable;
 
 Boolean flag which enables ENHANCED_CONTACT_MONITORING on an instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_instance#enhanced_contact_monitoring ConnectInstance#enhanced_contact_monitoring}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_instance#enhanced_contact_monitoring ConnectInstance#enhanced_contact_monitoring}
 
 ---
 
@@ -1059,7 +1074,7 @@ public readonly highVolumeOutBound: boolean | IResolvable;
 
 Boolean flag which enables HIGH_VOLUME_OUTBOUND on an instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_instance#high_volume_out_bound ConnectInstance#high_volume_out_bound}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_instance#high_volume_out_bound ConnectInstance#high_volume_out_bound}
 
 ---
 
@@ -1073,7 +1088,7 @@ public readonly messageStreaming: boolean | IResolvable;
 
 Boolean flag which enables MESSAGE_STREAMING on an instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_instance#message_streaming ConnectInstance#message_streaming}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_instance#message_streaming ConnectInstance#message_streaming}
 
 ---
 
@@ -1087,7 +1102,7 @@ public readonly multiPartyChatConference: boolean | IResolvable;
 
 Boolean flag which enables MULTI_PARTY_CHAT_CONFERENCE on an instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_instance#multi_party_chat_conference ConnectInstance#multi_party_chat_conference}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_instance#multi_party_chat_conference ConnectInstance#multi_party_chat_conference}
 
 ---
 
@@ -1101,7 +1116,7 @@ public readonly multiPartyConference: boolean | IResolvable;
 
 Boolean flag which enables MULTI_PARTY_CONFERENCE on an instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_instance#multi_party_conference ConnectInstance#multi_party_conference}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_instance#multi_party_conference ConnectInstance#multi_party_conference}
 
 ---
 
@@ -1115,7 +1130,7 @@ public readonly useCustomTtsVoices: boolean | IResolvable;
 
 Boolean flag which enables USE_CUSTOM_TTS_VOICES on an instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_instance#use_custom_tts_voices ConnectInstance#use_custom_tts_voices}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_instance#use_custom_tts_voices ConnectInstance#use_custom_tts_voices}
 
 ---
 
@@ -1228,7 +1243,7 @@ public readonly attributes: ConnectInstanceAttributes;
 
 The attributes for the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_instance#attributes ConnectInstance#attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_instance#attributes ConnectInstance#attributes}
 
 ---
 
@@ -1242,7 +1257,7 @@ public readonly identityManagementType: string;
 
 Specifies the type of directory integration for new instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_instance#identity_management_type ConnectInstance#identity_management_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_instance#identity_management_type ConnectInstance#identity_management_type}
 
 ---
 
@@ -1256,7 +1271,7 @@ public readonly directoryId: string;
 
 Existing directoryId user wants to map to the new Connect instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_instance#directory_id ConnectInstance#directory_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_instance#directory_id ConnectInstance#directory_id}
 
 ---
 
@@ -1270,7 +1285,7 @@ public readonly instanceAlias: string;
 
 Alias of the new directory created as part of new instance creation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_instance#instance_alias ConnectInstance#instance_alias}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_instance#instance_alias ConnectInstance#instance_alias}
 
 ---
 
@@ -1284,7 +1299,7 @@ public readonly tags: IResolvable | ConnectInstanceTags[];
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_instance#tags ConnectInstance#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_instance#tags ConnectInstance#tags}
 
 ---
 
@@ -1319,7 +1334,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_instance#key ConnectInstance#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_instance#key ConnectInstance#key}
 
 ---
 
@@ -1335,7 +1350,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_instance#value ConnectInstance#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_instance#value ConnectInstance#value}
 
 ---
 
@@ -1391,6 +1406,7 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-awscc.connectInstance.ConnectInstanceAttributesOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.connectInstance.ConnectInstanceAttributesOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-awscc.connectInstance.ConnectInstanceAttributesOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.connectInstance.ConnectInstanceAttributesOutputReference.resetAutoMuteAgentOnHold">resetAutoMuteAgentOnHold</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.connectInstance.ConnectInstanceAttributesOutputReference.resetAutoResolveBestVoices">resetAutoResolveBestVoices</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.connectInstance.ConnectInstanceAttributesOutputReference.resetContactflowLogs">resetContactflowLogs</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.connectInstance.ConnectInstanceAttributesOutputReference.resetContactLens">resetContactLens</a></code> | *No description.* |
@@ -1555,6 +1571,12 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `resetAutoMuteAgentOnHold` <a name="resetAutoMuteAgentOnHold" id="@cdktn/provider-awscc.connectInstance.ConnectInstanceAttributesOutputReference.resetAutoMuteAgentOnHold"></a>
+
+```typescript
+public resetAutoMuteAgentOnHold(): void
+```
+
 ##### `resetAutoResolveBestVoices` <a name="resetAutoResolveBestVoices" id="@cdktn/provider-awscc.connectInstance.ConnectInstanceAttributesOutputReference.resetAutoResolveBestVoices"></a>
 
 ```typescript
@@ -1628,6 +1650,7 @@ public resetUseCustomTtsVoices(): void
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.connectInstance.ConnectInstanceAttributesOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-awscc.connectInstance.ConnectInstanceAttributesOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.connectInstance.ConnectInstanceAttributesOutputReference.property.autoMuteAgentOnHoldInput">autoMuteAgentOnHoldInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.connectInstance.ConnectInstanceAttributesOutputReference.property.autoResolveBestVoicesInput">autoResolveBestVoicesInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.connectInstance.ConnectInstanceAttributesOutputReference.property.contactflowLogsInput">contactflowLogsInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.connectInstance.ConnectInstanceAttributesOutputReference.property.contactLensInput">contactLensInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
@@ -1641,6 +1664,7 @@ public resetUseCustomTtsVoices(): void
 | <code><a href="#@cdktn/provider-awscc.connectInstance.ConnectInstanceAttributesOutputReference.property.multiPartyConferenceInput">multiPartyConferenceInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.connectInstance.ConnectInstanceAttributesOutputReference.property.outboundCallsInput">outboundCallsInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.connectInstance.ConnectInstanceAttributesOutputReference.property.useCustomTtsVoicesInput">useCustomTtsVoicesInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.connectInstance.ConnectInstanceAttributesOutputReference.property.autoMuteAgentOnHold">autoMuteAgentOnHold</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.connectInstance.ConnectInstanceAttributesOutputReference.property.autoResolveBestVoices">autoResolveBestVoices</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.connectInstance.ConnectInstanceAttributesOutputReference.property.contactflowLogs">contactflowLogs</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.connectInstance.ConnectInstanceAttributesOutputReference.property.contactLens">contactLens</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
@@ -1679,6 +1703,16 @@ public readonly fqn: string;
 ```
 
 - *Type:* string
+
+---
+
+##### `autoMuteAgentOnHoldInput`<sup>Optional</sup> <a name="autoMuteAgentOnHoldInput" id="@cdktn/provider-awscc.connectInstance.ConnectInstanceAttributesOutputReference.property.autoMuteAgentOnHoldInput"></a>
+
+```typescript
+public readonly autoMuteAgentOnHoldInput: boolean | IResolvable;
+```
+
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -1806,6 +1840,16 @@ public readonly outboundCallsInput: boolean | IResolvable;
 
 ```typescript
 public readonly useCustomTtsVoicesInput: boolean | IResolvable;
+```
+
+- *Type:* boolean | cdktn.IResolvable
+
+---
+
+##### `autoMuteAgentOnHold`<sup>Required</sup> <a name="autoMuteAgentOnHold" id="@cdktn/provider-awscc.connectInstance.ConnectInstanceAttributesOutputReference.property.autoMuteAgentOnHold"></a>
+
+```typescript
+public readonly autoMuteAgentOnHold: boolean | IResolvable;
 ```
 
 - *Type:* boolean | cdktn.IResolvable

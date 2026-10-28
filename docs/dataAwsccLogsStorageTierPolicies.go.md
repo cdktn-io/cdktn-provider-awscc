@@ -4,12 +4,12 @@
 
 ### DataAwsccLogsStorageTierPolicies <a name="DataAwsccLogsStorageTierPolicies" id="@cdktn/provider-awscc.dataAwsccLogsStorageTierPolicies.DataAwsccLogsStorageTierPolicies"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/logs_storage_tier_policies awscc_logs_storage_tier_policies}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/logs_storage_tier_policies awscc_logs_storage_tier_policies}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLogsStorageTierPolicies.DataAwsccLogsStorageTierPolicies.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclogsstoragetierpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclogsstoragetierpolicies"
 
 dataawscclogsstoragetierpolicies.NewDataAwsccLogsStorageTierPolicies(scope Construct, id *string, config DataAwsccLogsStorageTierPoliciesConfig) DataAwsccLogsStorageTierPolicies
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccLogsStorageTierPolicies.DataAwsccLogsStorageTierPolicies.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclogsstoragetierpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclogsstoragetierpolicies"
 
 dataawscclogsstoragetierpolicies.DataAwsccLogsStorageTierPolicies_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccLogsStorageTierPolicies.DataAwsccLogsStorageTierPolicies.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclogsstoragetierpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclogsstoragetierpolicies"
 
 dataawscclogsstoragetierpolicies.DataAwsccLogsStorageTierPolicies_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscclogsstoragetierpolicies.DataAwsccLogsStorageTierPolicies_IsTerraformEle
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccLogsStorageTierPolicies.DataAwsccLogsStorageTierPolicies.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclogsstoragetierpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclogsstoragetierpolicies"
 
 dataawscclogsstoragetierpolicies.DataAwsccLogsStorageTierPolicies_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscclogsstoragetierpolicies.DataAwsccLogsStorageTierPolicies_IsTerraformDat
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccLogsStorageTierPolicies.DataAwsccLogsStorageTierPolicies.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclogsstoragetierpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclogsstoragetierpolicies"
 
 dataawscclogsstoragetierpolicies.DataAwsccLogsStorageTierPolicies_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLogsStorageTierPo
 
 The id of the existing DataAwsccLogsStorageTierPolicies that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/logs_storage_tier_policies#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/logs_storage_tier_policies#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLogsStorageTierPolicies.DataAwsccLogsStorageTierPoliciesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclogsstoragetierpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclogsstoragetierpolicies"
 
 &dataawscclogsstoragetierpolicies.DataAwsccLogsStorageTierPoliciesConfig {
 	Connection: interface{},

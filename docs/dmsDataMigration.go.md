@@ -4,12 +4,12 @@
 
 ### DmsDataMigration <a name="DmsDataMigration" id="@cdktn/provider-awscc.dmsDataMigration.DmsDataMigration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_data_migration awscc_dms_data_migration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_data_migration awscc_dms_data_migration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dmsDataMigration.DmsDataMigration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dmsdatamigration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dmsdatamigration"
 
 dmsdatamigration.NewDmsDataMigration(scope Construct, id *string, config DmsDataMigrationConfig) DmsDataMigration
 ```
@@ -474,7 +474,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dmsDataMigration.DmsDataMigration.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dmsdatamigration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dmsdatamigration"
 
 dmsdatamigration.DmsDataMigration_IsConstruct(x interface{}) *bool
 ```
@@ -506,7 +506,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dmsDataMigration.DmsDataMigration.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dmsdatamigration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dmsdatamigration"
 
 dmsdatamigration.DmsDataMigration_IsTerraformElement(x interface{}) *bool
 ```
@@ -520,7 +520,7 @@ dmsdatamigration.DmsDataMigration_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.dmsDataMigration.DmsDataMigration.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dmsdatamigration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dmsdatamigration"
 
 dmsdatamigration.DmsDataMigration_IsTerraformResource(x interface{}) *bool
 ```
@@ -534,7 +534,7 @@ dmsdatamigration.DmsDataMigration_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dmsDataMigration.DmsDataMigration.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dmsdatamigration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dmsdatamigration"
 
 dmsdatamigration.DmsDataMigration_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -563,7 +563,7 @@ The construct id used in the generated config for the DmsDataMigration to import
 
 The id of the existing DmsDataMigration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_data_migration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_data_migration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -972,7 +972,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dmsDataMigration.DmsDataMigrationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dmsdatamigration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dmsdatamigration"
 
 &dmsdatamigration.DmsDataMigrationConfig {
 	Connection: interface{},
@@ -987,7 +987,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dmsdatamigration"
 	ServiceAccessRoleArn: *string,
 	DataMigrationIdentifier: *string,
 	DataMigrationName: *string,
-	DataMigrationSettings: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.dmsDataMigration.DmsDataMigrationDataMigrationSettings,
+	DataMigrationSettings: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.dmsDataMigration.DmsDataMigrationDataMigrationSettings,
 	SourceDataSettings: interface{},
 	Tags: interface{},
 }
@@ -1007,7 +1007,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dmsdatamigration"
 | <code><a href="#@cdktn/provider-awscc.dmsDataMigration.DmsDataMigrationConfig.property.dataMigrationType">DataMigrationType</a></code> | <code>*string</code> | The property describes the type of migration. |
 | <code><a href="#@cdktn/provider-awscc.dmsDataMigration.DmsDataMigrationConfig.property.migrationProjectIdentifier">MigrationProjectIdentifier</a></code> | <code>*string</code> | The property describes an identifier for the migration project. It is used for describing/deleting/modifying can be name/arn. |
 | <code><a href="#@cdktn/provider-awscc.dmsDataMigration.DmsDataMigrationConfig.property.serviceAccessRoleArn">ServiceAccessRoleArn</a></code> | <code>*string</code> | The property describes Amazon Resource Name (ARN) of the service access role. |
-| <code><a href="#@cdktn/provider-awscc.dmsDataMigration.DmsDataMigrationConfig.property.dataMigrationIdentifier">DataMigrationIdentifier</a></code> | <code>*string</code> | The property describes an ARN of the data migration. |
+| <code><a href="#@cdktn/provider-awscc.dmsDataMigration.DmsDataMigrationConfig.property.dataMigrationIdentifier">DataMigrationIdentifier</a></code> | <code>*string</code> | [DEPRECATED] This property is unused and will be ignored. |
 | <code><a href="#@cdktn/provider-awscc.dmsDataMigration.DmsDataMigrationConfig.property.dataMigrationName">DataMigrationName</a></code> | <code>*string</code> | The property describes a name to identify the data migration. |
 | <code><a href="#@cdktn/provider-awscc.dmsDataMigration.DmsDataMigrationConfig.property.dataMigrationSettings">DataMigrationSettings</a></code> | <code><a href="#@cdktn/provider-awscc.dmsDataMigration.DmsDataMigrationDataMigrationSettings">DmsDataMigrationDataMigrationSettings</a></code> | The property describes the settings for the data migration. |
 | <code><a href="#@cdktn/provider-awscc.dmsDataMigration.DmsDataMigrationConfig.property.sourceDataSettings">SourceDataSettings</a></code> | <code>interface{}</code> | The property describes the settings for the data migration. |
@@ -1095,7 +1095,7 @@ DataMigrationType *string
 
 The property describes the type of migration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_data_migration#data_migration_type DmsDataMigration#data_migration_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_data_migration#data_migration_type DmsDataMigration#data_migration_type}
 
 ---
 
@@ -1109,7 +1109,7 @@ MigrationProjectIdentifier *string
 
 The property describes an identifier for the migration project. It is used for describing/deleting/modifying can be name/arn.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_data_migration#migration_project_identifier DmsDataMigration#migration_project_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_data_migration#migration_project_identifier DmsDataMigration#migration_project_identifier}
 
 ---
 
@@ -1123,7 +1123,7 @@ ServiceAccessRoleArn *string
 
 The property describes Amazon Resource Name (ARN) of the service access role.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_data_migration#service_access_role_arn DmsDataMigration#service_access_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_data_migration#service_access_role_arn DmsDataMigration#service_access_role_arn}
 
 ---
 
@@ -1135,9 +1135,11 @@ DataMigrationIdentifier *string
 
 - *Type:* *string
 
-The property describes an ARN of the data migration.
+[DEPRECATED] This property is unused and will be ignored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_data_migration#data_migration_identifier DmsDataMigration#data_migration_identifier}
+Identity is managed via the resource ARN (primaryIdentifier) and Name (additionalIdentifier).
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_data_migration#data_migration_identifier DmsDataMigration#data_migration_identifier}
 
 ---
 
@@ -1151,7 +1153,7 @@ DataMigrationName *string
 
 The property describes a name to identify the data migration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_data_migration#data_migration_name DmsDataMigration#data_migration_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_data_migration#data_migration_name DmsDataMigration#data_migration_name}
 
 ---
 
@@ -1165,7 +1167,7 @@ DataMigrationSettings DmsDataMigrationDataMigrationSettings
 
 The property describes the settings for the data migration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_data_migration#data_migration_settings DmsDataMigration#data_migration_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_data_migration#data_migration_settings DmsDataMigration#data_migration_settings}
 
 ---
 
@@ -1179,7 +1181,7 @@ SourceDataSettings interface{}
 
 The property describes the settings for the data migration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_data_migration#source_data_settings DmsDataMigration#source_data_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_data_migration#source_data_settings DmsDataMigration#source_data_settings}
 
 ---
 
@@ -1193,7 +1195,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_data_migration#tags DmsDataMigration#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_data_migration#tags DmsDataMigration#tags}
 
 ---
 
@@ -1202,7 +1204,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dmsDataMigration.DmsDataMigrationDataMigrationSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dmsdatamigration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dmsdatamigration"
 
 &dmsdatamigration.DmsDataMigrationDataMigrationSettings {
 	CloudwatchLogsEnabled: interface{},
@@ -1231,7 +1233,7 @@ CloudwatchLogsEnabled interface{}
 
 The property specifies whether to enable the CloudWatch log.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_data_migration#cloudwatch_logs_enabled DmsDataMigration#cloudwatch_logs_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_data_migration#cloudwatch_logs_enabled DmsDataMigration#cloudwatch_logs_enabled}
 
 ---
 
@@ -1245,7 +1247,7 @@ NumberOfJobs *f64
 
 The number of parallel jobs that trigger parallel threads to unload the tables from the source, and then load them to the target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_data_migration#number_of_jobs DmsDataMigration#number_of_jobs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_data_migration#number_of_jobs DmsDataMigration#number_of_jobs}
 
 ---
 
@@ -1259,7 +1261,7 @@ SelectionRules *string
 
 The property specifies the rules of selecting objects for data migration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_data_migration#selection_rules DmsDataMigration#selection_rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_data_migration#selection_rules DmsDataMigration#selection_rules}
 
 ---
 
@@ -1268,7 +1270,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dmsDataMigration.DmsDataMigrationSourceDataSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dmsdatamigration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dmsdatamigration"
 
 &dmsdatamigration.DmsDataMigrationSourceDataSettings {
 	CdcStartPosition: *string,
@@ -1299,7 +1301,7 @@ CdcStartPosition *string
 
 The property is a point in the database engine's log that defines a time where you can begin CDC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_data_migration#cdc_start_position DmsDataMigration#cdc_start_position}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_data_migration#cdc_start_position DmsDataMigration#cdc_start_position}
 
 ---
 
@@ -1315,7 +1317,7 @@ The property indicates the start time for a change data capture (CDC) operation.
 
 The value is server time in UTC format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_data_migration#cdc_start_time DmsDataMigration#cdc_start_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_data_migration#cdc_start_time DmsDataMigration#cdc_start_time}
 
 ---
 
@@ -1331,7 +1333,7 @@ The property indicates the stop time for a change data capture (CDC) operation.
 
 The value is server time in UTC format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_data_migration#cdc_stop_time DmsDataMigration#cdc_stop_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_data_migration#cdc_stop_time DmsDataMigration#cdc_stop_time}
 
 ---
 
@@ -1345,7 +1347,7 @@ SlotName *string
 
 The property sets the name of a previously created logical replication slot for a change data capture (CDC) load of the source instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_data_migration#slot_name DmsDataMigration#slot_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_data_migration#slot_name DmsDataMigration#slot_name}
 
 ---
 
@@ -1354,7 +1356,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dmsDataMigration.DmsDataMigrationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dmsdatamigration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dmsdatamigration"
 
 &dmsdatamigration.DmsDataMigrationTags {
 	Key: *string,
@@ -1383,7 +1385,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_data_migration#key DmsDataMigration#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_data_migration#key DmsDataMigration#key}
 
 ---
 
@@ -1399,7 +1401,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_data_migration#value DmsDataMigration#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_data_migration#value DmsDataMigration#value}
 
 ---
 
@@ -1410,7 +1412,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dmsDataMigration.DmsDataMigrationDataMigrationSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dmsdatamigration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dmsdatamigration"
 
 dmsdatamigration.NewDmsDataMigrationDataMigrationSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DmsDataMigrationDataMigrationSettingsOutputReference
 ```
@@ -1746,7 +1748,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dmsDataMigration.DmsDataMigrationSourceDataSettingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dmsdatamigration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dmsdatamigration"
 
 dmsdatamigration.NewDmsDataMigrationSourceDataSettingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DmsDataMigrationSourceDataSettingsList
 ```
@@ -1906,7 +1908,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dmsDataMigration.DmsDataMigrationSourceDataSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dmsdatamigration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dmsdatamigration"
 
 dmsdatamigration.NewDmsDataMigrationSourceDataSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DmsDataMigrationSourceDataSettingsOutputReference
 ```
@@ -2289,7 +2291,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dmsDataMigration.DmsDataMigrationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dmsdatamigration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dmsdatamigration"
 
 dmsdatamigration.NewDmsDataMigrationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DmsDataMigrationTagsList
 ```
@@ -2449,7 +2451,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dmsDataMigration.DmsDataMigrationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dmsdatamigration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dmsdatamigration"
 
 dmsdatamigration.NewDmsDataMigrationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DmsDataMigrationTagsOutputReference
 ```

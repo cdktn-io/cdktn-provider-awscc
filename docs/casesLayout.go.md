@@ -4,12 +4,12 @@
 
 ### CasesLayout <a name="CasesLayout" id="@cdktn/provider-awscc.casesLayout.CasesLayout"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_layout awscc_cases_layout}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_layout awscc_cases_layout}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.casesLayout.CasesLayout.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/caseslayout"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/caseslayout"
 
 caseslayout.NewCasesLayout(scope Construct, id *string, config CasesLayoutConfig) CasesLayout
 ```
@@ -440,7 +440,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.casesLayout.CasesLayout.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/caseslayout"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/caseslayout"
 
 caseslayout.CasesLayout_IsConstruct(x interface{}) *bool
 ```
@@ -472,7 +472,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.casesLayout.CasesLayout.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/caseslayout"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/caseslayout"
 
 caseslayout.CasesLayout_IsTerraformElement(x interface{}) *bool
 ```
@@ -486,7 +486,7 @@ caseslayout.CasesLayout_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.casesLayout.CasesLayout.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/caseslayout"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/caseslayout"
 
 caseslayout.CasesLayout_IsTerraformResource(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ caseslayout.CasesLayout_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.casesLayout.CasesLayout.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/caseslayout"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/caseslayout"
 
 caseslayout.CasesLayout_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -529,7 +529,7 @@ The construct id used in the generated config for the CasesLayout to import.
 
 The id of the existing CasesLayout that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_layout#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_layout#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -872,7 +872,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.casesLayout.CasesLayoutConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/caseslayout"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/caseslayout"
 
 &caseslayout.CasesLayoutConfig {
 	Connection: interface{},
@@ -882,7 +882,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/caseslayout"
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	Content: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.casesLayout.CasesLayoutContent,
+	Content: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.casesLayout.CasesLayoutContent,
 	Name: *string,
 	DomainId: *string,
 	Tags: interface{},
@@ -989,7 +989,7 @@ Defines the layout structure and field organization for the case interface.
 
 Specifies which fields appear in the top panel and More Info tab, and their display order.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_layout#content CasesLayout#content}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_layout#content CasesLayout#content}
 
 ---
 
@@ -1005,7 +1005,7 @@ A descriptive name for the layout.
 
 Must be unique within the Cases domain and should clearly indicate the layout's purpose and field organization.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_layout#name CasesLayout#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_layout#name CasesLayout#name}
 
 ---
 
@@ -1019,7 +1019,7 @@ DomainId *string
 
 The unique identifier of the Cases domain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_layout#domain_id CasesLayout#domain_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_layout#domain_id CasesLayout#domain_id}
 
 ---
 
@@ -1033,7 +1033,7 @@ Tags interface{}
 
 The tags that you attach to this layout.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_layout#tags CasesLayout#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_layout#tags CasesLayout#tags}
 
 ---
 
@@ -1042,10 +1042,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.casesLayout.CasesLayoutContent.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/caseslayout"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/caseslayout"
 
 &caseslayout.CasesLayoutContent {
-	Basic: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.casesLayout.CasesLayoutContentBasic,
+	Basic: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.casesLayout.CasesLayoutContentBasic,
 }
 ```
 
@@ -1069,7 +1069,7 @@ Defines the field layout for the agent's case interface.
 
 Configures which fields appear in the top panel (immediately visible) and More Info tab (expandable section) of the case view, allowing customization of the agent experience.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_layout#basic CasesLayout#basic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_layout#basic CasesLayout#basic}
 
 ---
 
@@ -1078,11 +1078,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.casesLayout.CasesLayoutContentBasic.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/caseslayout"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/caseslayout"
 
 &caseslayout.CasesLayoutContentBasic {
-	MoreInfo: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.casesLayout.CasesLayoutContentBasicMoreInfo,
-	TopPanel: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.casesLayout.CasesLayoutContentBasicTopPanel,
+	MoreInfo: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.casesLayout.CasesLayoutContentBasicMoreInfo,
+	TopPanel: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.casesLayout.CasesLayoutContentBasicTopPanel,
 }
 ```
 
@@ -1105,7 +1105,7 @@ MoreInfo CasesLayoutContentBasicMoreInfo
 
 Sections within a panel or tab of the page layout.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_layout#more_info CasesLayout#more_info}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_layout#more_info CasesLayout#more_info}
 
 ---
 
@@ -1119,7 +1119,7 @@ TopPanel CasesLayoutContentBasicTopPanel
 
 Sections within a panel or tab of the page layout.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_layout#top_panel CasesLayout#top_panel}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_layout#top_panel CasesLayout#top_panel}
 
 ---
 
@@ -1128,7 +1128,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.casesLayout.CasesLayoutContentBasicMoreInfo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/caseslayout"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/caseslayout"
 
 &caseslayout.CasesLayoutContentBasicMoreInfo {
 	Sections: interface{},
@@ -1153,7 +1153,7 @@ Sections interface{}
 
 Defines the sections within a panel or tab. Contains field groups that organize related fields together.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_layout#sections CasesLayout#sections}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_layout#sections CasesLayout#sections}
 
 ---
 
@@ -1162,10 +1162,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.casesLayout.CasesLayoutContentBasicMoreInfoSections.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/caseslayout"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/caseslayout"
 
 &caseslayout.CasesLayoutContentBasicMoreInfoSections {
-	FieldGroup: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.casesLayout.CasesLayoutContentBasicMoreInfoSectionsFieldGroup,
+	FieldGroup: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.casesLayout.CasesLayoutContentBasicMoreInfoSectionsFieldGroup,
 }
 ```
 
@@ -1187,7 +1187,7 @@ FieldGroup CasesLayoutContentBasicMoreInfoSectionsFieldGroup
 
 Consists of a group of fields and associated properties.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_layout#field_group CasesLayout#field_group}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_layout#field_group CasesLayout#field_group}
 
 ---
 
@@ -1196,7 +1196,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.casesLayout.CasesLayoutContentBasicMoreInfoSectionsFieldGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/caseslayout"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/caseslayout"
 
 &caseslayout.CasesLayoutContentBasicMoreInfoSectionsFieldGroup {
 	Fields: interface{},
@@ -1225,7 +1225,7 @@ An ordered list of fields to display in this group.
 
 The order determines the sequence in which fields appear in the agent interface. Each field is referenced by its unique field ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_layout#fields CasesLayout#fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_layout#fields CasesLayout#fields}
 
 ---
 
@@ -1239,7 +1239,7 @@ Name *string
 
 A descriptive name for the field group. Helps organize related fields together in the layout interface.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_layout#name CasesLayout#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_layout#name CasesLayout#name}
 
 ---
 
@@ -1248,7 +1248,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.casesLayout.CasesLayoutContentBasicMoreInfoSectionsFieldGroupFields.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/caseslayout"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/caseslayout"
 
 &caseslayout.CasesLayoutContentBasicMoreInfoSectionsFieldGroupFields {
 	Id: *string,
@@ -1273,7 +1273,7 @@ Id *string
 
 The unique identifier of a field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_layout#id CasesLayout#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_layout#id CasesLayout#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1285,7 +1285,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.casesLayout.CasesLayoutContentBasicTopPanel.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/caseslayout"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/caseslayout"
 
 &caseslayout.CasesLayoutContentBasicTopPanel {
 	Sections: interface{},
@@ -1310,7 +1310,7 @@ Sections interface{}
 
 Defines the sections within a panel or tab. Contains field groups that organize related fields together.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_layout#sections CasesLayout#sections}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_layout#sections CasesLayout#sections}
 
 ---
 
@@ -1319,10 +1319,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.casesLayout.CasesLayoutContentBasicTopPanelSections.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/caseslayout"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/caseslayout"
 
 &caseslayout.CasesLayoutContentBasicTopPanelSections {
-	FieldGroup: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.casesLayout.CasesLayoutContentBasicTopPanelSectionsFieldGroup,
+	FieldGroup: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.casesLayout.CasesLayoutContentBasicTopPanelSectionsFieldGroup,
 }
 ```
 
@@ -1344,7 +1344,7 @@ FieldGroup CasesLayoutContentBasicTopPanelSectionsFieldGroup
 
 Consists of a group of fields and associated properties.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_layout#field_group CasesLayout#field_group}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_layout#field_group CasesLayout#field_group}
 
 ---
 
@@ -1353,7 +1353,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.casesLayout.CasesLayoutContentBasicTopPanelSectionsFieldGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/caseslayout"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/caseslayout"
 
 &caseslayout.CasesLayoutContentBasicTopPanelSectionsFieldGroup {
 	Fields: interface{},
@@ -1382,7 +1382,7 @@ An ordered list of fields to display in this group.
 
 The order determines the sequence in which fields appear in the agent interface. Each field is referenced by its unique field ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_layout#fields CasesLayout#fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_layout#fields CasesLayout#fields}
 
 ---
 
@@ -1396,7 +1396,7 @@ Name *string
 
 A descriptive name for the field group. Helps organize related fields together in the layout interface.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_layout#name CasesLayout#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_layout#name CasesLayout#name}
 
 ---
 
@@ -1405,7 +1405,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.casesLayout.CasesLayoutContentBasicTopPanelSectionsFieldGroupFields.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/caseslayout"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/caseslayout"
 
 &caseslayout.CasesLayoutContentBasicTopPanelSectionsFieldGroupFields {
 	Id: *string,
@@ -1430,7 +1430,7 @@ Id *string
 
 The unique identifier of a field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_layout#id CasesLayout#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_layout#id CasesLayout#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1442,7 +1442,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.casesLayout.CasesLayoutTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/caseslayout"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/caseslayout"
 
 &caseslayout.CasesLayoutTags {
 	Key: *string,
@@ -1471,7 +1471,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_layout#key CasesLayout#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_layout#key CasesLayout#key}
 
 ---
 
@@ -1487,7 +1487,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_layout#value CasesLayout#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_layout#value CasesLayout#value}
 
 ---
 
@@ -1498,7 +1498,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.casesLayout.CasesLayoutContentBasicMoreInfoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/caseslayout"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/caseslayout"
 
 caseslayout.NewCasesLayoutContentBasicMoreInfoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CasesLayoutContentBasicMoreInfoOutputReference
 ```
@@ -1789,7 +1789,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.casesLayout.CasesLayoutContentBasicMoreInfoSectionsFieldGroupFieldsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/caseslayout"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/caseslayout"
 
 caseslayout.NewCasesLayoutContentBasicMoreInfoSectionsFieldGroupFieldsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CasesLayoutContentBasicMoreInfoSectionsFieldGroupFieldsList
 ```
@@ -1949,7 +1949,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.casesLayout.CasesLayoutContentBasicMoreInfoSectionsFieldGroupFieldsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/caseslayout"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/caseslayout"
 
 caseslayout.NewCasesLayoutContentBasicMoreInfoSectionsFieldGroupFieldsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CasesLayoutContentBasicMoreInfoSectionsFieldGroupFieldsOutputReference
 ```
@@ -2245,7 +2245,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.casesLayout.CasesLayoutContentBasicMoreInfoSectionsFieldGroupOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/caseslayout"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/caseslayout"
 
 caseslayout.NewCasesLayoutContentBasicMoreInfoSectionsFieldGroupOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CasesLayoutContentBasicMoreInfoSectionsFieldGroupOutputReference
 ```
@@ -2565,7 +2565,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.casesLayout.CasesLayoutContentBasicMoreInfoSectionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/caseslayout"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/caseslayout"
 
 caseslayout.NewCasesLayoutContentBasicMoreInfoSectionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CasesLayoutContentBasicMoreInfoSectionsList
 ```
@@ -2725,7 +2725,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.casesLayout.CasesLayoutContentBasicMoreInfoSectionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/caseslayout"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/caseslayout"
 
 caseslayout.NewCasesLayoutContentBasicMoreInfoSectionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CasesLayoutContentBasicMoreInfoSectionsOutputReference
 ```
@@ -3034,7 +3034,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.casesLayout.CasesLayoutContentBasicOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/caseslayout"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/caseslayout"
 
 caseslayout.NewCasesLayoutContentBasicOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CasesLayoutContentBasicOutputReference
 ```
@@ -3367,7 +3367,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.casesLayout.CasesLayoutContentBasicTopPanelOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/caseslayout"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/caseslayout"
 
 caseslayout.NewCasesLayoutContentBasicTopPanelOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CasesLayoutContentBasicTopPanelOutputReference
 ```
@@ -3658,7 +3658,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.casesLayout.CasesLayoutContentBasicTopPanelSectionsFieldGroupFieldsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/caseslayout"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/caseslayout"
 
 caseslayout.NewCasesLayoutContentBasicTopPanelSectionsFieldGroupFieldsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CasesLayoutContentBasicTopPanelSectionsFieldGroupFieldsList
 ```
@@ -3818,7 +3818,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.casesLayout.CasesLayoutContentBasicTopPanelSectionsFieldGroupFieldsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/caseslayout"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/caseslayout"
 
 caseslayout.NewCasesLayoutContentBasicTopPanelSectionsFieldGroupFieldsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CasesLayoutContentBasicTopPanelSectionsFieldGroupFieldsOutputReference
 ```
@@ -4114,7 +4114,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.casesLayout.CasesLayoutContentBasicTopPanelSectionsFieldGroupOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/caseslayout"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/caseslayout"
 
 caseslayout.NewCasesLayoutContentBasicTopPanelSectionsFieldGroupOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CasesLayoutContentBasicTopPanelSectionsFieldGroupOutputReference
 ```
@@ -4434,7 +4434,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.casesLayout.CasesLayoutContentBasicTopPanelSectionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/caseslayout"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/caseslayout"
 
 caseslayout.NewCasesLayoutContentBasicTopPanelSectionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CasesLayoutContentBasicTopPanelSectionsList
 ```
@@ -4594,7 +4594,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.casesLayout.CasesLayoutContentBasicTopPanelSectionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/caseslayout"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/caseslayout"
 
 caseslayout.NewCasesLayoutContentBasicTopPanelSectionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CasesLayoutContentBasicTopPanelSectionsOutputReference
 ```
@@ -4903,7 +4903,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.casesLayout.CasesLayoutContentOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/caseslayout"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/caseslayout"
 
 caseslayout.NewCasesLayoutContentOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CasesLayoutContentOutputReference
 ```
@@ -5194,7 +5194,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.casesLayout.CasesLayoutTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/caseslayout"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/caseslayout"
 
 caseslayout.NewCasesLayoutTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CasesLayoutTagsList
 ```
@@ -5354,7 +5354,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.casesLayout.CasesLayoutTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/caseslayout"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/caseslayout"
 
 caseslayout.NewCasesLayoutTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CasesLayoutTagsOutputReference
 ```

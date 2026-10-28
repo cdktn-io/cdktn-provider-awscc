@@ -4,12 +4,12 @@
 
 ### IotwirelessDestination <a name="IotwirelessDestination" id="@cdktn/provider-awscc.iotwirelessDestination.IotwirelessDestination"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_destination awscc_iotwireless_destination}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_destination awscc_iotwireless_destination}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotwirelessDestination.IotwirelessDestination.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotwirelessdestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotwirelessdestination"
 
 iotwirelessdestination.NewIotwirelessDestination(scope Construct, id *string, config IotwirelessDestinationConfig) IotwirelessDestination
 ```
@@ -434,7 +434,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.iotwirelessDestination.IotwirelessDestination.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotwirelessdestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotwirelessdestination"
 
 iotwirelessdestination.IotwirelessDestination_IsConstruct(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.iotwirelessDestination.IotwirelessDestination.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotwirelessdestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotwirelessdestination"
 
 iotwirelessdestination.IotwirelessDestination_IsTerraformElement(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ iotwirelessdestination.IotwirelessDestination_IsTerraformElement(x interface{}) 
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.iotwirelessDestination.IotwirelessDestination.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotwirelessdestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotwirelessdestination"
 
 iotwirelessdestination.IotwirelessDestination_IsTerraformResource(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ iotwirelessdestination.IotwirelessDestination_IsTerraformResource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.iotwirelessDestination.IotwirelessDestination.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotwirelessdestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotwirelessdestination"
 
 iotwirelessdestination.IotwirelessDestination_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -523,7 +523,7 @@ The construct id used in the generated config for the IotwirelessDestination to 
 
 The id of the existing IotwirelessDestination that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_destination#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_destination#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -877,7 +877,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotwirelessDestination.IotwirelessDestinationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotwirelessdestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotwirelessdestination"
 
 &iotwirelessdestination.IotwirelessDestinationConfig {
 	Connection: interface{},
@@ -996,7 +996,7 @@ Expression *string
 
 Destination expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_destination#expression IotwirelessDestination#expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_destination#expression IotwirelessDestination#expression}
 
 ---
 
@@ -1010,7 +1010,7 @@ ExpressionType *string
 
 Must be RuleName.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_destination#expression_type IotwirelessDestination#expression_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_destination#expression_type IotwirelessDestination#expression_type}
 
 ---
 
@@ -1024,7 +1024,7 @@ Name *string
 
 Unique name of destination.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_destination#name IotwirelessDestination#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_destination#name IotwirelessDestination#name}
 
 ---
 
@@ -1038,7 +1038,7 @@ Description *string
 
 Destination description.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_destination#description IotwirelessDestination#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_destination#description IotwirelessDestination#description}
 
 ---
 
@@ -1052,7 +1052,7 @@ RoleArn *string
 
 AWS role ARN that grants access.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_destination#role_arn IotwirelessDestination#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_destination#role_arn IotwirelessDestination#role_arn}
 
 ---
 
@@ -1066,7 +1066,7 @@ Tags interface{}
 
 A list of key-value pairs that contain metadata for the destination.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_destination#tags IotwirelessDestination#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_destination#tags IotwirelessDestination#tags}
 
 ---
 
@@ -1075,7 +1075,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotwirelessDestination.IotwirelessDestinationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotwirelessdestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotwirelessdestination"
 
 &iotwirelessdestination.IotwirelessDestinationTags {
 	Key: *string,
@@ -1087,8 +1087,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotwirelessdestination
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotwirelessDestination.IotwirelessDestinationTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_destination#key IotwirelessDestination#key}. |
-| <code><a href="#@cdktn/provider-awscc.iotwirelessDestination.IotwirelessDestinationTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_destination#value IotwirelessDestination#value}. |
+| <code><a href="#@cdktn/provider-awscc.iotwirelessDestination.IotwirelessDestinationTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_destination#key IotwirelessDestination#key}. |
+| <code><a href="#@cdktn/provider-awscc.iotwirelessDestination.IotwirelessDestinationTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_destination#value IotwirelessDestination#value}. |
 
 ---
 
@@ -1100,7 +1100,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_destination#key IotwirelessDestination#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_destination#key IotwirelessDestination#key}.
 
 ---
 
@@ -1112,7 +1112,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_destination#value IotwirelessDestination#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_destination#value IotwirelessDestination#value}.
 
 ---
 
@@ -1123,7 +1123,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotwirelessDestination.IotwirelessDestinationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotwirelessdestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotwirelessdestination"
 
 iotwirelessdestination.NewIotwirelessDestinationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IotwirelessDestinationTagsList
 ```
@@ -1283,7 +1283,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotwirelessDestination.IotwirelessDestinationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotwirelessdestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotwirelessdestination"
 
 iotwirelessdestination.NewIotwirelessDestinationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IotwirelessDestinationTagsOutputReference
 ```

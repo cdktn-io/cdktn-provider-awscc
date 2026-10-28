@@ -4,12 +4,12 @@
 
 ### StoragegatewayTape <a name="StoragegatewayTape" id="@cdktn/provider-awscc.storagegatewayTape.StoragegatewayTape"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_tape awscc_storagegateway_tape}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/storagegateway_tape awscc_storagegateway_tape}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.storagegatewayTape.StoragegatewayTape.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/storagegatewaytape"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/storagegatewaytape"
 
 storagegatewaytape.NewStoragegatewayTape(scope Construct, id *string, config StoragegatewayTapeConfig) StoragegatewayTape
 ```
@@ -455,7 +455,7 @@ func ResetWorm()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.storagegatewayTape.StoragegatewayTape.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/storagegatewaytape"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/storagegatewaytape"
 
 storagegatewaytape.StoragegatewayTape_IsConstruct(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.storagegatewayTape.StoragegatewayTape.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/storagegatewaytape"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/storagegatewaytape"
 
 storagegatewaytape.StoragegatewayTape_IsTerraformElement(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ storagegatewaytape.StoragegatewayTape_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.storagegatewayTape.StoragegatewayTape.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/storagegatewaytape"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/storagegatewaytape"
 
 storagegatewaytape.StoragegatewayTape_IsTerraformResource(x interface{}) *bool
 ```
@@ -515,7 +515,7 @@ storagegatewaytape.StoragegatewayTape_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.storagegatewayTape.StoragegatewayTape.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/storagegatewaytape"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/storagegatewaytape"
 
 storagegatewaytape.StoragegatewayTape_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -544,7 +544,7 @@ The construct id used in the generated config for the StoragegatewayTape to impo
 
 The id of the existing StoragegatewayTape that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_tape#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/storagegateway_tape#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -975,7 +975,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.storagegatewayTape.StoragegatewayTapeConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/storagegatewaytape"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/storagegatewaytape"
 
 &storagegatewaytape.StoragegatewayTapeConfig {
 	Connection: interface{},
@@ -1098,7 +1098,7 @@ GatewayArn *string
 
 The Amazon Resource Name (ARN) of the Tape Gateway that hosts the virtual tape.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_tape#gateway_arn StoragegatewayTape#gateway_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/storagegateway_tape#gateway_arn StoragegatewayTape#gateway_arn}
 
 ---
 
@@ -1112,7 +1112,7 @@ TapeSizeInBytes *f64
 
 The size, in bytes, of the virtual tape that you want to create.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_tape#tape_size_in_bytes StoragegatewayTape#tape_size_in_bytes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/storagegateway_tape#tape_size_in_bytes StoragegatewayTape#tape_size_in_bytes}
 
 ---
 
@@ -1128,7 +1128,7 @@ Set to true to use Amazon S3 server-side encryption with your own KMS key, or fa
 
 Optional.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_tape#kms_encrypted StoragegatewayTape#kms_encrypted}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/storagegateway_tape#kms_encrypted StoragegatewayTape#kms_encrypted}
 
 ---
 
@@ -1144,7 +1144,7 @@ The Amazon Resource Name (ARN) of a symmetric customer master key (CMK) used for
 
 This value must be set if KMSEncrypted is true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_tape#kms_key StoragegatewayTape#kms_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/storagegateway_tape#kms_key StoragegatewayTape#kms_key}
 
 ---
 
@@ -1160,7 +1160,7 @@ The ID of the pool that you want to add your tape to for archiving.
 
 Tapes in this pool are archived in the S3 storage class that is associated with the pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_tape#pool_id StoragegatewayTape#pool_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/storagegateway_tape#pool_id StoragegatewayTape#pool_id}
 
 ---
 
@@ -1174,7 +1174,7 @@ Tags interface{}
 
 A list of up to 50 tags to assign to the virtual tape.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_tape#tags StoragegatewayTape#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/storagegateway_tape#tags StoragegatewayTape#tags}
 
 ---
 
@@ -1190,7 +1190,7 @@ The barcode that you want to assign to the virtual tape.
 
 Barcodes cannot be reused, even after a tape is deleted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_tape#tape_barcode StoragegatewayTape#tape_barcode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/storagegateway_tape#tape_barcode StoragegatewayTape#tape_barcode}
 
 ---
 
@@ -1204,7 +1204,7 @@ Worm interface{}
 
 Set to true to create a write-once-read-many (WORM) virtual tape.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_tape#worm StoragegatewayTape#worm}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/storagegateway_tape#worm StoragegatewayTape#worm}
 
 ---
 
@@ -1213,7 +1213,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.storagegatewayTape.StoragegatewayTapeTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/storagegatewaytape"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/storagegatewaytape"
 
 &storagegatewaytape.StoragegatewayTapeTags {
 	Key: *string,
@@ -1240,7 +1240,7 @@ Key *string
 
 The tag key. Cannot be prefixed with aws:.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_tape#key StoragegatewayTape#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/storagegateway_tape#key StoragegatewayTape#key}
 
 ---
 
@@ -1254,7 +1254,7 @@ Value *string
 
 The tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_tape#value StoragegatewayTape#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/storagegateway_tape#value StoragegatewayTape#value}
 
 ---
 
@@ -1265,7 +1265,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.storagegatewayTape.StoragegatewayTapeTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/storagegatewaytape"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/storagegatewaytape"
 
 storagegatewaytape.NewStoragegatewayTapeTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) StoragegatewayTapeTagsList
 ```
@@ -1425,7 +1425,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.storagegatewayTape.StoragegatewayTapeTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/storagegatewaytape"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/storagegatewaytape"
 
 storagegatewaytape.NewStoragegatewayTapeTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) StoragegatewayTapeTagsOutputReference
 ```

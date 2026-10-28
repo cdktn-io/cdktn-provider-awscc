@@ -4,12 +4,12 @@
 
 ### LookoutequipmentInferenceScheduler <a name="LookoutequipmentInferenceScheduler" id="@cdktn/provider-awscc.lookoutequipmentInferenceScheduler.LookoutequipmentInferenceScheduler"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lookoutequipment_inference_scheduler awscc_lookoutequipment_inference_scheduler}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lookoutequipment_inference_scheduler awscc_lookoutequipment_inference_scheduler}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lookoutequipmentInferenceScheduler.LookoutequipmentInferenceScheduler.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lookoutequipmentinferencescheduler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lookoutequipmentinferencescheduler"
 
 lookoutequipmentinferencescheduler.NewLookoutequipmentInferenceScheduler(scope Construct, id *string, config LookoutequipmentInferenceSchedulerConfig) LookoutequipmentInferenceScheduler
 ```
@@ -467,7 +467,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.lookoutequipmentInferenceScheduler.LookoutequipmentInferenceScheduler.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lookoutequipmentinferencescheduler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lookoutequipmentinferencescheduler"
 
 lookoutequipmentinferencescheduler.LookoutequipmentInferenceScheduler_IsConstruct(x interface{}) *bool
 ```
@@ -499,7 +499,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.lookoutequipmentInferenceScheduler.LookoutequipmentInferenceScheduler.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lookoutequipmentinferencescheduler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lookoutequipmentinferencescheduler"
 
 lookoutequipmentinferencescheduler.LookoutequipmentInferenceScheduler_IsTerraformElement(x interface{}) *bool
 ```
@@ -513,7 +513,7 @@ lookoutequipmentinferencescheduler.LookoutequipmentInferenceScheduler_IsTerrafor
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.lookoutequipmentInferenceScheduler.LookoutequipmentInferenceScheduler.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lookoutequipmentinferencescheduler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lookoutequipmentinferencescheduler"
 
 lookoutequipmentinferencescheduler.LookoutequipmentInferenceScheduler_IsTerraformResource(x interface{}) *bool
 ```
@@ -527,7 +527,7 @@ lookoutequipmentinferencescheduler.LookoutequipmentInferenceScheduler_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.lookoutequipmentInferenceScheduler.LookoutequipmentInferenceScheduler.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lookoutequipmentinferencescheduler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lookoutequipmentinferencescheduler"
 
 lookoutequipmentinferencescheduler.LookoutequipmentInferenceScheduler_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -556,7 +556,7 @@ The construct id used in the generated config for the LookoutequipmentInferenceS
 
 The id of the existing LookoutequipmentInferenceScheduler that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lookoutequipment_inference_scheduler#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lookoutequipment_inference_scheduler#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -976,7 +976,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lookoutequipmentInferenceScheduler.LookoutequipmentInferenceSchedulerConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lookoutequipmentinferencescheduler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lookoutequipmentinferencescheduler"
 
 &lookoutequipmentinferencescheduler.LookoutequipmentInferenceSchedulerConfig {
 	Connection: interface{},
@@ -986,8 +986,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lookoutequipmentinfere
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	DataInputConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lookoutequipmentInferenceScheduler.LookoutequipmentInferenceSchedulerDataInputConfiguration,
-	DataOutputConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lookoutequipmentInferenceScheduler.LookoutequipmentInferenceSchedulerDataOutputConfiguration,
+	DataInputConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lookoutequipmentInferenceScheduler.LookoutequipmentInferenceSchedulerDataInputConfiguration,
+	DataOutputConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lookoutequipmentInferenceScheduler.LookoutequipmentInferenceSchedulerDataOutputConfiguration,
 	DataUploadFrequency: *string,
 	ModelName: *string,
 	RoleArn: *string,
@@ -1101,7 +1101,7 @@ DataInputConfiguration LookoutequipmentInferenceSchedulerDataInputConfiguration
 
 Specifies configuration information for the input data for the inference scheduler, including delimiter, format, and dataset location.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lookoutequipment_inference_scheduler#data_input_configuration LookoutequipmentInferenceScheduler#data_input_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lookoutequipment_inference_scheduler#data_input_configuration LookoutequipmentInferenceScheduler#data_input_configuration}
 
 ---
 
@@ -1115,7 +1115,7 @@ DataOutputConfiguration LookoutequipmentInferenceSchedulerDataOutputConfiguratio
 
 Specifies configuration information for the output results for the inference scheduler, including the S3 location for the output.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lookoutequipment_inference_scheduler#data_output_configuration LookoutequipmentInferenceScheduler#data_output_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lookoutequipment_inference_scheduler#data_output_configuration LookoutequipmentInferenceScheduler#data_output_configuration}
 
 ---
 
@@ -1129,7 +1129,7 @@ DataUploadFrequency *string
 
 How often data is uploaded to the source S3 bucket for the input data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lookoutequipment_inference_scheduler#data_upload_frequency LookoutequipmentInferenceScheduler#data_upload_frequency}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lookoutequipment_inference_scheduler#data_upload_frequency LookoutequipmentInferenceScheduler#data_upload_frequency}
 
 ---
 
@@ -1143,7 +1143,7 @@ ModelName *string
 
 The name of the previously trained ML model being used to create the inference scheduler.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lookoutequipment_inference_scheduler#model_name LookoutequipmentInferenceScheduler#model_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lookoutequipment_inference_scheduler#model_name LookoutequipmentInferenceScheduler#model_name}
 
 ---
 
@@ -1157,7 +1157,7 @@ RoleArn *string
 
 The Amazon Resource Name (ARN) of a role with permission to access the data source being used for the inference.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lookoutequipment_inference_scheduler#role_arn LookoutequipmentInferenceScheduler#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lookoutequipment_inference_scheduler#role_arn LookoutequipmentInferenceScheduler#role_arn}
 
 ---
 
@@ -1171,7 +1171,7 @@ DataDelayOffsetInMinutes *f64
 
 A period of time (in minutes) by which inference on the data is delayed after the data starts.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lookoutequipment_inference_scheduler#data_delay_offset_in_minutes LookoutequipmentInferenceScheduler#data_delay_offset_in_minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lookoutequipment_inference_scheduler#data_delay_offset_in_minutes LookoutequipmentInferenceScheduler#data_delay_offset_in_minutes}
 
 ---
 
@@ -1185,7 +1185,7 @@ InferenceSchedulerName *string
 
 The name of the inference scheduler being created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lookoutequipment_inference_scheduler#inference_scheduler_name LookoutequipmentInferenceScheduler#inference_scheduler_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lookoutequipment_inference_scheduler#inference_scheduler_name LookoutequipmentInferenceScheduler#inference_scheduler_name}
 
 ---
 
@@ -1199,7 +1199,7 @@ ServerSideKmsKeyId *string
 
 Provides the identifier of the AWS KMS customer master key (CMK) used to encrypt inference scheduler data by Amazon Lookout for Equipment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lookoutequipment_inference_scheduler#server_side_kms_key_id LookoutequipmentInferenceScheduler#server_side_kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lookoutequipment_inference_scheduler#server_side_kms_key_id LookoutequipmentInferenceScheduler#server_side_kms_key_id}
 
 ---
 
@@ -1213,7 +1213,7 @@ Tags interface{}
 
 Any tags associated with the inference scheduler.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lookoutequipment_inference_scheduler#tags LookoutequipmentInferenceScheduler#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lookoutequipment_inference_scheduler#tags LookoutequipmentInferenceScheduler#tags}
 
 ---
 
@@ -1222,11 +1222,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lookoutequipmentInferenceScheduler.LookoutequipmentInferenceSchedulerDataInputConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lookoutequipmentinferencescheduler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lookoutequipmentinferencescheduler"
 
 &lookoutequipmentinferencescheduler.LookoutequipmentInferenceSchedulerDataInputConfiguration {
-	S3InputConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lookoutequipmentInferenceScheduler.LookoutequipmentInferenceSchedulerDataInputConfigurationS3InputConfiguration,
-	InferenceInputNameConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lookoutequipmentInferenceScheduler.LookoutequipmentInferenceSchedulerDataInputConfigurationInferenceInputNameConfiguration,
+	S3InputConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lookoutequipmentInferenceScheduler.LookoutequipmentInferenceSchedulerDataInputConfigurationS3InputConfiguration,
+	InferenceInputNameConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lookoutequipmentInferenceScheduler.LookoutequipmentInferenceSchedulerDataInputConfigurationInferenceInputNameConfiguration,
 	InputTimeZoneOffset: *string,
 }
 ```
@@ -1251,7 +1251,7 @@ S3InputConfiguration LookoutequipmentInferenceSchedulerDataInputConfigurationS3I
 
 Specifies configuration information for the input data for the inference, including input data S3 location.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lookoutequipment_inference_scheduler#s3_input_configuration LookoutequipmentInferenceScheduler#s3_input_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lookoutequipment_inference_scheduler#s3_input_configuration LookoutequipmentInferenceScheduler#s3_input_configuration}
 
 ---
 
@@ -1265,7 +1265,7 @@ InferenceInputNameConfiguration LookoutequipmentInferenceSchedulerDataInputConfi
 
 Specifies configuration information for the input data for the inference, including timestamp format and delimiter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lookoutequipment_inference_scheduler#inference_input_name_configuration LookoutequipmentInferenceScheduler#inference_input_name_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lookoutequipment_inference_scheduler#inference_input_name_configuration LookoutequipmentInferenceScheduler#inference_input_name_configuration}
 
 ---
 
@@ -1279,7 +1279,7 @@ InputTimeZoneOffset *string
 
 Indicates the difference between your time zone and Greenwich Mean Time (GMT).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lookoutequipment_inference_scheduler#input_time_zone_offset LookoutequipmentInferenceScheduler#input_time_zone_offset}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lookoutequipment_inference_scheduler#input_time_zone_offset LookoutequipmentInferenceScheduler#input_time_zone_offset}
 
 ---
 
@@ -1288,7 +1288,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lookoutequipmentInferenceScheduler.LookoutequipmentInferenceSchedulerDataInputConfigurationInferenceInputNameConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lookoutequipmentinferencescheduler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lookoutequipmentinferencescheduler"
 
 &lookoutequipmentinferencescheduler.LookoutequipmentInferenceSchedulerDataInputConfigurationInferenceInputNameConfiguration {
 	ComponentTimestampDelimiter: *string,
@@ -1315,7 +1315,7 @@ ComponentTimestampDelimiter *string
 
 Indicates the delimiter character used between items in the data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lookoutequipment_inference_scheduler#component_timestamp_delimiter LookoutequipmentInferenceScheduler#component_timestamp_delimiter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lookoutequipment_inference_scheduler#component_timestamp_delimiter LookoutequipmentInferenceScheduler#component_timestamp_delimiter}
 
 ---
 
@@ -1329,7 +1329,7 @@ TimestampFormat *string
 
 The format of the timestamp, whether Epoch time, or standard, with or without hyphens (-).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lookoutequipment_inference_scheduler#timestamp_format LookoutequipmentInferenceScheduler#timestamp_format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lookoutequipment_inference_scheduler#timestamp_format LookoutequipmentInferenceScheduler#timestamp_format}
 
 ---
 
@@ -1338,7 +1338,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lookoutequipmentInferenceScheduler.LookoutequipmentInferenceSchedulerDataInputConfigurationS3InputConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lookoutequipmentinferencescheduler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lookoutequipmentinferencescheduler"
 
 &lookoutequipmentinferencescheduler.LookoutequipmentInferenceSchedulerDataInputConfigurationS3InputConfiguration {
 	Bucket: *string,
@@ -1350,8 +1350,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lookoutequipmentinfere
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.lookoutequipmentInferenceScheduler.LookoutequipmentInferenceSchedulerDataInputConfigurationS3InputConfiguration.property.bucket">Bucket</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lookoutequipment_inference_scheduler#bucket LookoutequipmentInferenceScheduler#bucket}. |
-| <code><a href="#@cdktn/provider-awscc.lookoutequipmentInferenceScheduler.LookoutequipmentInferenceSchedulerDataInputConfigurationS3InputConfiguration.property.prefix">Prefix</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lookoutequipment_inference_scheduler#prefix LookoutequipmentInferenceScheduler#prefix}. |
+| <code><a href="#@cdktn/provider-awscc.lookoutequipmentInferenceScheduler.LookoutequipmentInferenceSchedulerDataInputConfigurationS3InputConfiguration.property.bucket">Bucket</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lookoutequipment_inference_scheduler#bucket LookoutequipmentInferenceScheduler#bucket}. |
+| <code><a href="#@cdktn/provider-awscc.lookoutequipmentInferenceScheduler.LookoutequipmentInferenceSchedulerDataInputConfigurationS3InputConfiguration.property.prefix">Prefix</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lookoutequipment_inference_scheduler#prefix LookoutequipmentInferenceScheduler#prefix}. |
 
 ---
 
@@ -1363,7 +1363,7 @@ Bucket *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lookoutequipment_inference_scheduler#bucket LookoutequipmentInferenceScheduler#bucket}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lookoutequipment_inference_scheduler#bucket LookoutequipmentInferenceScheduler#bucket}.
 
 ---
 
@@ -1375,7 +1375,7 @@ Prefix *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lookoutequipment_inference_scheduler#prefix LookoutequipmentInferenceScheduler#prefix}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lookoutequipment_inference_scheduler#prefix LookoutequipmentInferenceScheduler#prefix}.
 
 ---
 
@@ -1384,10 +1384,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lookoutequipmentInferenceScheduler.LookoutequipmentInferenceSchedulerDataOutputConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lookoutequipmentinferencescheduler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lookoutequipmentinferencescheduler"
 
 &lookoutequipmentinferencescheduler.LookoutequipmentInferenceSchedulerDataOutputConfiguration {
-	S3OutputConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lookoutequipmentInferenceScheduler.LookoutequipmentInferenceSchedulerDataOutputConfigurationS3OutputConfiguration,
+	S3OutputConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lookoutequipmentInferenceScheduler.LookoutequipmentInferenceSchedulerDataOutputConfigurationS3OutputConfiguration,
 	KmsKeyId: *string,
 }
 ```
@@ -1411,7 +1411,7 @@ S3OutputConfiguration LookoutequipmentInferenceSchedulerDataOutputConfigurationS
 
 Specifies configuration information for the output results from the inference, including output S3 location.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lookoutequipment_inference_scheduler#s3_output_configuration LookoutequipmentInferenceScheduler#s3_output_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lookoutequipment_inference_scheduler#s3_output_configuration LookoutequipmentInferenceScheduler#s3_output_configuration}
 
 ---
 
@@ -1425,7 +1425,7 @@ KmsKeyId *string
 
 The ID number for the AWS KMS key used to encrypt the inference output.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lookoutequipment_inference_scheduler#kms_key_id LookoutequipmentInferenceScheduler#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lookoutequipment_inference_scheduler#kms_key_id LookoutequipmentInferenceScheduler#kms_key_id}
 
 ---
 
@@ -1434,7 +1434,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lookoutequipmentInferenceScheduler.LookoutequipmentInferenceSchedulerDataOutputConfigurationS3OutputConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lookoutequipmentinferencescheduler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lookoutequipmentinferencescheduler"
 
 &lookoutequipmentinferencescheduler.LookoutequipmentInferenceSchedulerDataOutputConfigurationS3OutputConfiguration {
 	Bucket: *string,
@@ -1446,8 +1446,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lookoutequipmentinfere
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.lookoutequipmentInferenceScheduler.LookoutequipmentInferenceSchedulerDataOutputConfigurationS3OutputConfiguration.property.bucket">Bucket</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lookoutequipment_inference_scheduler#bucket LookoutequipmentInferenceScheduler#bucket}. |
-| <code><a href="#@cdktn/provider-awscc.lookoutequipmentInferenceScheduler.LookoutequipmentInferenceSchedulerDataOutputConfigurationS3OutputConfiguration.property.prefix">Prefix</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lookoutequipment_inference_scheduler#prefix LookoutequipmentInferenceScheduler#prefix}. |
+| <code><a href="#@cdktn/provider-awscc.lookoutequipmentInferenceScheduler.LookoutequipmentInferenceSchedulerDataOutputConfigurationS3OutputConfiguration.property.bucket">Bucket</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lookoutequipment_inference_scheduler#bucket LookoutequipmentInferenceScheduler#bucket}. |
+| <code><a href="#@cdktn/provider-awscc.lookoutequipmentInferenceScheduler.LookoutequipmentInferenceSchedulerDataOutputConfigurationS3OutputConfiguration.property.prefix">Prefix</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lookoutequipment_inference_scheduler#prefix LookoutequipmentInferenceScheduler#prefix}. |
 
 ---
 
@@ -1459,7 +1459,7 @@ Bucket *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lookoutequipment_inference_scheduler#bucket LookoutequipmentInferenceScheduler#bucket}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lookoutequipment_inference_scheduler#bucket LookoutequipmentInferenceScheduler#bucket}.
 
 ---
 
@@ -1471,7 +1471,7 @@ Prefix *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lookoutequipment_inference_scheduler#prefix LookoutequipmentInferenceScheduler#prefix}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lookoutequipment_inference_scheduler#prefix LookoutequipmentInferenceScheduler#prefix}.
 
 ---
 
@@ -1480,7 +1480,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lookoutequipmentInferenceScheduler.LookoutequipmentInferenceSchedulerTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lookoutequipmentinferencescheduler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lookoutequipmentinferencescheduler"
 
 &lookoutequipmentinferencescheduler.LookoutequipmentInferenceSchedulerTags {
 	Key: *string,
@@ -1507,7 +1507,7 @@ Key *string
 
 The key for the specified tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lookoutequipment_inference_scheduler#key LookoutequipmentInferenceScheduler#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lookoutequipment_inference_scheduler#key LookoutequipmentInferenceScheduler#key}
 
 ---
 
@@ -1521,7 +1521,7 @@ Value *string
 
 The value for the specified tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lookoutequipment_inference_scheduler#value LookoutequipmentInferenceScheduler#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lookoutequipment_inference_scheduler#value LookoutequipmentInferenceScheduler#value}
 
 ---
 
@@ -1532,7 +1532,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lookoutequipmentInferenceScheduler.LookoutequipmentInferenceSchedulerDataInputConfigurationInferenceInputNameConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lookoutequipmentinferencescheduler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lookoutequipmentinferencescheduler"
 
 lookoutequipmentinferencescheduler.NewLookoutequipmentInferenceSchedulerDataInputConfigurationInferenceInputNameConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LookoutequipmentInferenceSchedulerDataInputConfigurationInferenceInputNameConfigurationOutputReference
 ```
@@ -1839,7 +1839,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lookoutequipmentInferenceScheduler.LookoutequipmentInferenceSchedulerDataInputConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lookoutequipmentinferencescheduler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lookoutequipmentinferencescheduler"
 
 lookoutequipmentinferencescheduler.NewLookoutequipmentInferenceSchedulerDataInputConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LookoutequipmentInferenceSchedulerDataInputConfigurationOutputReference
 ```
@@ -2194,7 +2194,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lookoutequipmentInferenceScheduler.LookoutequipmentInferenceSchedulerDataInputConfigurationS3InputConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lookoutequipmentinferencescheduler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lookoutequipmentinferencescheduler"
 
 lookoutequipmentinferencescheduler.NewLookoutequipmentInferenceSchedulerDataInputConfigurationS3InputConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LookoutequipmentInferenceSchedulerDataInputConfigurationS3InputConfigurationOutputReference
 ```
@@ -2494,7 +2494,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lookoutequipmentInferenceScheduler.LookoutequipmentInferenceSchedulerDataOutputConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lookoutequipmentinferencescheduler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lookoutequipmentinferencescheduler"
 
 lookoutequipmentinferencescheduler.NewLookoutequipmentInferenceSchedulerDataOutputConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LookoutequipmentInferenceSchedulerDataOutputConfigurationOutputReference
 ```
@@ -2807,7 +2807,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lookoutequipmentInferenceScheduler.LookoutequipmentInferenceSchedulerDataOutputConfigurationS3OutputConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lookoutequipmentinferencescheduler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lookoutequipmentinferencescheduler"
 
 lookoutequipmentinferencescheduler.NewLookoutequipmentInferenceSchedulerDataOutputConfigurationS3OutputConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LookoutequipmentInferenceSchedulerDataOutputConfigurationS3OutputConfigurationOutputReference
 ```
@@ -3107,7 +3107,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lookoutequipmentInferenceScheduler.LookoutequipmentInferenceSchedulerTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lookoutequipmentinferencescheduler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lookoutequipmentinferencescheduler"
 
 lookoutequipmentinferencescheduler.NewLookoutequipmentInferenceSchedulerTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LookoutequipmentInferenceSchedulerTagsList
 ```
@@ -3267,7 +3267,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lookoutequipmentInferenceScheduler.LookoutequipmentInferenceSchedulerTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lookoutequipmentinferencescheduler"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lookoutequipmentinferencescheduler"
 
 lookoutequipmentinferencescheduler.NewLookoutequipmentInferenceSchedulerTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LookoutequipmentInferenceSchedulerTagsOutputReference
 ```

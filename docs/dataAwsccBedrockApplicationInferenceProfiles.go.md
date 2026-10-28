@@ -4,12 +4,12 @@
 
 ### DataAwsccBedrockApplicationInferenceProfiles <a name="DataAwsccBedrockApplicationInferenceProfiles" id="@cdktn/provider-awscc.dataAwsccBedrockApplicationInferenceProfiles.DataAwsccBedrockApplicationInferenceProfiles"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrock_application_inference_profiles awscc_bedrock_application_inference_profiles}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrock_application_inference_profiles awscc_bedrock_application_inference_profiles}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockApplicationInferenceProfiles.DataAwsccBedrockApplicationInferenceProfiles.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockapplicationinferenceprofiles"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockapplicationinferenceprofiles"
 
 dataawsccbedrockapplicationinferenceprofiles.NewDataAwsccBedrockApplicationInferenceProfiles(scope Construct, id *string, config DataAwsccBedrockApplicationInferenceProfilesConfig) DataAwsccBedrockApplicationInferenceProfiles
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccBedrockApplicationInferenceProfiles.DataAwsccBedrockApplicationInferenceProfiles.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockapplicationinferenceprofiles"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockapplicationinferenceprofiles"
 
 dataawsccbedrockapplicationinferenceprofiles.DataAwsccBedrockApplicationInferenceProfiles_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccBedrockApplicationInferenceProfiles.DataAwsccBedrockApplicationInferenceProfiles.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockapplicationinferenceprofiles"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockapplicationinferenceprofiles"
 
 dataawsccbedrockapplicationinferenceprofiles.DataAwsccBedrockApplicationInferenceProfiles_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccbedrockapplicationinferenceprofiles.DataAwsccBedrockApplicationInferenc
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccBedrockApplicationInferenceProfiles.DataAwsccBedrockApplicationInferenceProfiles.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockapplicationinferenceprofiles"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockapplicationinferenceprofiles"
 
 dataawsccbedrockapplicationinferenceprofiles.DataAwsccBedrockApplicationInferenceProfiles_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccbedrockapplicationinferenceprofiles.DataAwsccBedrockApplicationInferenc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccBedrockApplicationInferenceProfiles.DataAwsccBedrockApplicationInferenceProfiles.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockapplicationinferenceprofiles"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockapplicationinferenceprofiles"
 
 dataawsccbedrockapplicationinferenceprofiles.DataAwsccBedrockApplicationInferenceProfiles_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccBedrockApplicatio
 
 The id of the existing DataAwsccBedrockApplicationInferenceProfiles that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrock_application_inference_profiles#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrock_application_inference_profiles#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockApplicationInferenceProfiles.DataAwsccBedrockApplicationInferenceProfilesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockapplicationinferenceprofiles"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockapplicationinferenceprofiles"
 
 &dataawsccbedrockapplicationinferenceprofiles.DataAwsccBedrockApplicationInferenceProfilesConfig {
 	Connection: interface{},

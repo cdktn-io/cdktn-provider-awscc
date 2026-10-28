@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2ApplicationStatusCheck <a name="DataAwsccEc2ApplicationStatusCheck" id="@cdktn/provider-awscc.dataAwsccEc2ApplicationStatusCheck.DataAwsccEc2ApplicationStatusCheck"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_application_status_check awscc_ec2_application_status_check}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_application_status_check awscc_ec2_application_status_check}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2ApplicationStatusCheck.DataAwsccEc2ApplicationStatusCheck.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2applicationstatuscheck"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2applicationstatuscheck"
 
 dataawsccec2applicationstatuscheck.NewDataAwsccEc2ApplicationStatusCheck(scope Construct, id *string, config DataAwsccEc2ApplicationStatusCheckConfig) DataAwsccEc2ApplicationStatusCheck
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2ApplicationStatusCheck.DataAwsccEc2ApplicationStatusCheck.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2applicationstatuscheck"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2applicationstatuscheck"
 
 dataawsccec2applicationstatuscheck.DataAwsccEc2ApplicationStatusCheck_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2ApplicationStatusCheck.DataAwsccEc2ApplicationStatusCheck.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2applicationstatuscheck"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2applicationstatuscheck"
 
 dataawsccec2applicationstatuscheck.DataAwsccEc2ApplicationStatusCheck_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2applicationstatuscheck.DataAwsccEc2ApplicationStatusCheck_IsTerrafor
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2ApplicationStatusCheck.DataAwsccEc2ApplicationStatusCheck.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2applicationstatuscheck"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2applicationstatuscheck"
 
 dataawsccec2applicationstatuscheck.DataAwsccEc2ApplicationStatusCheck_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2applicationstatuscheck.DataAwsccEc2ApplicationStatusCheck_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2ApplicationStatusCheck.DataAwsccEc2ApplicationStatusCheck.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2applicationstatuscheck"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2applicationstatuscheck"
 
 dataawsccec2applicationstatuscheck.DataAwsccEc2ApplicationStatusCheck_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2ApplicationSta
 
 The id of the existing DataAwsccEc2ApplicationStatusCheck that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_application_status_check#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_application_status_check#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -785,7 +785,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2ApplicationStatusCheck.DataAwsccEc2ApplicationStatusCheckConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2applicationstatuscheck"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2applicationstatuscheck"
 
 &dataawsccec2applicationstatuscheck.DataAwsccEc2ApplicationStatusCheckConfig {
 	Connection: interface{},
@@ -894,7 +894,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_application_status_check#id DataAwsccEc2ApplicationStatusCheck#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_application_status_check#id DataAwsccEc2ApplicationStatusCheck#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -906,7 +906,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2ApplicationStatusCheck.DataAwsccEc2ApplicationStatusCheckHealthCheckPaths.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2applicationstatuscheck"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2applicationstatuscheck"
 
 &dataawsccec2applicationstatuscheck.DataAwsccEc2ApplicationStatusCheckHealthCheckPaths {
 
@@ -919,7 +919,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2applicatio
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2ApplicationStatusCheck.DataAwsccEc2ApplicationStatusCheckHealthCheckPathsDestinations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2applicationstatuscheck"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2applicationstatuscheck"
 
 &dataawsccec2applicationstatuscheck.DataAwsccEc2ApplicationStatusCheckHealthCheckPathsDestinations {
 
@@ -932,7 +932,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2applicatio
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2ApplicationStatusCheck.DataAwsccEc2ApplicationStatusCheckHealthCheckPathsSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2applicationstatuscheck"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2applicationstatuscheck"
 
 &dataawsccec2applicationstatuscheck.DataAwsccEc2ApplicationStatusCheckHealthCheckPathsSource {
 
@@ -945,7 +945,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2applicatio
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2ApplicationStatusCheck.DataAwsccEc2ApplicationStatusCheckTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2applicationstatuscheck"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2applicationstatuscheck"
 
 &dataawsccec2applicationstatuscheck.DataAwsccEc2ApplicationStatusCheckTags {
 
@@ -960,7 +960,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2applicatio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2ApplicationStatusCheck.DataAwsccEc2ApplicationStatusCheckHealthCheckPathsDestinationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2applicationstatuscheck"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2applicationstatuscheck"
 
 dataawsccec2applicationstatuscheck.NewDataAwsccEc2ApplicationStatusCheckHealthCheckPathsDestinationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEc2ApplicationStatusCheckHealthCheckPathsDestinationsList
 ```
@@ -1109,7 +1109,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2ApplicationStatusCheck.DataAwsccEc2ApplicationStatusCheckHealthCheckPathsDestinationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2applicationstatuscheck"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2applicationstatuscheck"
 
 dataawsccec2applicationstatuscheck.NewDataAwsccEc2ApplicationStatusCheckHealthCheckPathsDestinationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEc2ApplicationStatusCheckHealthCheckPathsDestinationsOutputReference
 ```
@@ -1398,7 +1398,7 @@ func InternalValue() DataAwsccEc2ApplicationStatusCheckHealthCheckPathsDestinati
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2ApplicationStatusCheck.DataAwsccEc2ApplicationStatusCheckHealthCheckPathsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2applicationstatuscheck"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2applicationstatuscheck"
 
 dataawsccec2applicationstatuscheck.NewDataAwsccEc2ApplicationStatusCheckHealthCheckPathsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEc2ApplicationStatusCheckHealthCheckPathsList
 ```
@@ -1547,7 +1547,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2ApplicationStatusCheck.DataAwsccEc2ApplicationStatusCheckHealthCheckPathsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2applicationstatuscheck"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2applicationstatuscheck"
 
 dataawsccec2applicationstatuscheck.NewDataAwsccEc2ApplicationStatusCheckHealthCheckPathsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEc2ApplicationStatusCheckHealthCheckPathsOutputReference
 ```
@@ -1836,7 +1836,7 @@ func InternalValue() DataAwsccEc2ApplicationStatusCheckHealthCheckPaths
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2ApplicationStatusCheck.DataAwsccEc2ApplicationStatusCheckHealthCheckPathsSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2applicationstatuscheck"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2applicationstatuscheck"
 
 dataawsccec2applicationstatuscheck.NewDataAwsccEc2ApplicationStatusCheckHealthCheckPathsSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEc2ApplicationStatusCheckHealthCheckPathsSourceOutputReference
 ```
@@ -2107,7 +2107,7 @@ func InternalValue() DataAwsccEc2ApplicationStatusCheckHealthCheckPathsSource
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2ApplicationStatusCheck.DataAwsccEc2ApplicationStatusCheckTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2applicationstatuscheck"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2applicationstatuscheck"
 
 dataawsccec2applicationstatuscheck.NewDataAwsccEc2ApplicationStatusCheckTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEc2ApplicationStatusCheckTagsList
 ```
@@ -2256,7 +2256,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2ApplicationStatusCheck.DataAwsccEc2ApplicationStatusCheckTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2applicationstatuscheck"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2applicationstatuscheck"
 
 dataawsccec2applicationstatuscheck.NewDataAwsccEc2ApplicationStatusCheckTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEc2ApplicationStatusCheckTagsOutputReference
 ```

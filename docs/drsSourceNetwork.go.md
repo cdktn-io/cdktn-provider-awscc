@@ -4,12 +4,12 @@
 
 ### DrsSourceNetwork <a name="DrsSourceNetwork" id="@cdktn/provider-awscc.drsSourceNetwork.DrsSourceNetwork"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/drs_source_network awscc_drs_source_network}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/drs_source_network awscc_drs_source_network}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.drsSourceNetwork.DrsSourceNetwork.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/drssourcenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/drssourcenetwork"
 
 drssourcenetwork.NewDrsSourceNetwork(scope Construct, id *string, config DrsSourceNetworkConfig) DrsSourceNetwork
 ```
@@ -420,7 +420,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.drsSourceNetwork.DrsSourceNetwork.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/drssourcenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/drssourcenetwork"
 
 drssourcenetwork.DrsSourceNetwork_IsConstruct(x interface{}) *bool
 ```
@@ -452,7 +452,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.drsSourceNetwork.DrsSourceNetwork.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/drssourcenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/drssourcenetwork"
 
 drssourcenetwork.DrsSourceNetwork_IsTerraformElement(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ drssourcenetwork.DrsSourceNetwork_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.drsSourceNetwork.DrsSourceNetwork.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/drssourcenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/drssourcenetwork"
 
 drssourcenetwork.DrsSourceNetwork_IsTerraformResource(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ drssourcenetwork.DrsSourceNetwork_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.drsSourceNetwork.DrsSourceNetwork.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/drssourcenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/drssourcenetwork"
 
 drssourcenetwork.DrsSourceNetwork_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -509,7 +509,7 @@ The construct id used in the generated config for the DrsSourceNetwork to import
 
 The id of the existing DrsSourceNetwork that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/drs_source_network#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/drs_source_network#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -830,7 +830,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.drsSourceNetwork.DrsSourceNetworkConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/drssourcenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/drssourcenetwork"
 
 &drssourcenetwork.DrsSourceNetworkConfig {
 	Connection: interface{},
@@ -945,7 +945,7 @@ OriginAccountId *string
 
 The account ID containing the VPC to protect.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/drs_source_network#origin_account_id DrsSourceNetwork#origin_account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/drs_source_network#origin_account_id DrsSourceNetwork#origin_account_id}
 
 ---
 
@@ -959,7 +959,7 @@ OriginRegion *string
 
 The region containing the VPC to protect.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/drs_source_network#origin_region DrsSourceNetwork#origin_region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/drs_source_network#origin_region DrsSourceNetwork#origin_region}
 
 ---
 
@@ -973,7 +973,7 @@ VpcId *string
 
 The VPC ID to protect.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/drs_source_network#vpc_id DrsSourceNetwork#vpc_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/drs_source_network#vpc_id DrsSourceNetwork#vpc_id}
 
 ---
 
@@ -987,7 +987,7 @@ Tags interface{}
 
 A set of tags associated with the Source Network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/drs_source_network#tags DrsSourceNetwork#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/drs_source_network#tags DrsSourceNetwork#tags}
 
 ---
 
@@ -996,7 +996,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.drsSourceNetwork.DrsSourceNetworkTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/drssourcenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/drssourcenetwork"
 
 &drssourcenetwork.DrsSourceNetworkTags {
 	Key: *string,
@@ -1008,8 +1008,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/drssourcenetwork"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.drsSourceNetwork.DrsSourceNetworkTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/drs_source_network#key DrsSourceNetwork#key}. |
-| <code><a href="#@cdktn/provider-awscc.drsSourceNetwork.DrsSourceNetworkTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/drs_source_network#value DrsSourceNetwork#value}. |
+| <code><a href="#@cdktn/provider-awscc.drsSourceNetwork.DrsSourceNetworkTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/drs_source_network#key DrsSourceNetwork#key}. |
+| <code><a href="#@cdktn/provider-awscc.drsSourceNetwork.DrsSourceNetworkTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/drs_source_network#value DrsSourceNetwork#value}. |
 
 ---
 
@@ -1021,7 +1021,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/drs_source_network#key DrsSourceNetwork#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/drs_source_network#key DrsSourceNetwork#key}.
 
 ---
 
@@ -1033,7 +1033,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/drs_source_network#value DrsSourceNetwork#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/drs_source_network#value DrsSourceNetwork#value}.
 
 ---
 
@@ -1044,7 +1044,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.drsSourceNetwork.DrsSourceNetworkTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/drssourcenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/drssourcenetwork"
 
 drssourcenetwork.NewDrsSourceNetworkTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DrsSourceNetworkTagsList
 ```
@@ -1204,7 +1204,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.drsSourceNetwork.DrsSourceNetworkTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/drssourcenetwork"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/drssourcenetwork"
 
 drssourcenetwork.NewDrsSourceNetworkTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DrsSourceNetworkTagsOutputReference
 ```

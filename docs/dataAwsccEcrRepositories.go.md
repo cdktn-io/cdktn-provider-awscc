@@ -4,12 +4,12 @@
 
 ### DataAwsccEcrRepositories <a name="DataAwsccEcrRepositories" id="@cdktn/provider-awscc.dataAwsccEcrRepositories.DataAwsccEcrRepositories"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ecr_repositories awscc_ecr_repositories}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ecr_repositories awscc_ecr_repositories}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcrRepositories.DataAwsccEcrRepositories.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecrrepositories"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecrrepositories"
 
 dataawsccecrrepositories.NewDataAwsccEcrRepositories(scope Construct, id *string, config DataAwsccEcrRepositoriesConfig) DataAwsccEcrRepositories
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEcrRepositories.DataAwsccEcrRepositories.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecrrepositories"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecrrepositories"
 
 dataawsccecrrepositories.DataAwsccEcrRepositories_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEcrRepositories.DataAwsccEcrRepositories.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecrrepositories"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecrrepositories"
 
 dataawsccecrrepositories.DataAwsccEcrRepositories_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccecrrepositories.DataAwsccEcrRepositories_IsTerraformElement(x interface
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEcrRepositories.DataAwsccEcrRepositories.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecrrepositories"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecrrepositories"
 
 dataawsccecrrepositories.DataAwsccEcrRepositories_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccecrrepositories.DataAwsccEcrRepositories_IsTerraformDataSource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEcrRepositories.DataAwsccEcrRepositories.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecrrepositories"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecrrepositories"
 
 dataawsccecrrepositories.DataAwsccEcrRepositories_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEcrRepositories t
 
 The id of the existing DataAwsccEcrRepositories that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ecr_repositories#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ecr_repositories#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcrRepositories.DataAwsccEcrRepositoriesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecrrepositories"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecrrepositories"
 
 &dataawsccecrrepositories.DataAwsccEcrRepositoriesConfig {
 	Connection: interface{},

@@ -4,12 +4,12 @@
 
 ### FinspaceEnvironment <a name="FinspaceEnvironment" id="@cdktn/provider-awscc.finspaceEnvironment.FinspaceEnvironment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/finspace_environment awscc_finspace_environment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/finspace_environment awscc_finspace_environment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.finspaceEnvironment.FinspaceEnvironment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/finspaceenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/finspaceenvironment"
 
 finspaceenvironment.NewFinspaceEnvironment(scope Construct, id *string, config FinspaceEnvironmentConfig) FinspaceEnvironment
 ```
@@ -488,7 +488,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.finspaceEnvironment.FinspaceEnvironment.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/finspaceenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/finspaceenvironment"
 
 finspaceenvironment.FinspaceEnvironment_IsConstruct(x interface{}) *bool
 ```
@@ -520,7 +520,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.finspaceEnvironment.FinspaceEnvironment.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/finspaceenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/finspaceenvironment"
 
 finspaceenvironment.FinspaceEnvironment_IsTerraformElement(x interface{}) *bool
 ```
@@ -534,7 +534,7 @@ finspaceenvironment.FinspaceEnvironment_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.finspaceEnvironment.FinspaceEnvironment.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/finspaceenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/finspaceenvironment"
 
 finspaceenvironment.FinspaceEnvironment_IsTerraformResource(x interface{}) *bool
 ```
@@ -548,7 +548,7 @@ finspaceenvironment.FinspaceEnvironment_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.finspaceEnvironment.FinspaceEnvironment.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/finspaceenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/finspaceenvironment"
 
 finspaceenvironment.FinspaceEnvironment_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -577,7 +577,7 @@ The construct id used in the generated config for the FinspaceEnvironment to imp
 
 The id of the existing FinspaceEnvironment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/finspace_environment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/finspace_environment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1041,7 +1041,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.finspaceEnvironment.FinspaceEnvironmentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/finspaceenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/finspaceenvironment"
 
 &finspaceenvironment.FinspaceEnvironmentConfig {
 	Connection: interface{},
@@ -1055,9 +1055,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/finspaceenvironment"
 	DataBundles: *[]*string,
 	Description: *string,
 	FederationMode: *string,
-	FederationParameters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.finspaceEnvironment.FinspaceEnvironmentFederationParameters,
+	FederationParameters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.finspaceEnvironment.FinspaceEnvironmentFederationParameters,
 	KmsKeyId: *string,
-	SuperuserParameters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.finspaceEnvironment.FinspaceEnvironmentSuperuserParameters,
+	SuperuserParameters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.finspaceEnvironment.FinspaceEnvironmentSuperuserParameters,
 	Tags: interface{},
 }
 ```
@@ -1164,7 +1164,7 @@ Name *string
 
 Name of the Environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/finspace_environment#name FinspaceEnvironment#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/finspace_environment#name FinspaceEnvironment#name}
 
 ---
 
@@ -1178,7 +1178,7 @@ DataBundles *[]*string
 
 ARNs of FinSpace Data Bundles to install.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/finspace_environment#data_bundles FinspaceEnvironment#data_bundles}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/finspace_environment#data_bundles FinspaceEnvironment#data_bundles}
 
 ---
 
@@ -1192,7 +1192,7 @@ Description *string
 
 Description of the Environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/finspace_environment#description FinspaceEnvironment#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/finspace_environment#description FinspaceEnvironment#description}
 
 ---
 
@@ -1206,7 +1206,7 @@ FederationMode *string
 
 Federation mode used with the Environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/finspace_environment#federation_mode FinspaceEnvironment#federation_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/finspace_environment#federation_mode FinspaceEnvironment#federation_mode}
 
 ---
 
@@ -1220,7 +1220,7 @@ FederationParameters FinspaceEnvironmentFederationParameters
 
 Additional parameters to identify Federation mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/finspace_environment#federation_parameters FinspaceEnvironment#federation_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/finspace_environment#federation_parameters FinspaceEnvironment#federation_parameters}
 
 ---
 
@@ -1234,7 +1234,7 @@ KmsKeyId *string
 
 KMS key used to encrypt customer data within FinSpace Environment infrastructure.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/finspace_environment#kms_key_id FinspaceEnvironment#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/finspace_environment#kms_key_id FinspaceEnvironment#kms_key_id}
 
 ---
 
@@ -1248,7 +1248,7 @@ SuperuserParameters FinspaceEnvironmentSuperuserParameters
 
 Parameters of the first Superuser for the FinSpace Environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/finspace_environment#superuser_parameters FinspaceEnvironment#superuser_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/finspace_environment#superuser_parameters FinspaceEnvironment#superuser_parameters}
 
 ---
 
@@ -1262,7 +1262,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/finspace_environment#tags FinspaceEnvironment#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/finspace_environment#tags FinspaceEnvironment#tags}
 
 ---
 
@@ -1271,7 +1271,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.finspaceEnvironment.FinspaceEnvironmentFederationParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/finspaceenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/finspaceenvironment"
 
 &finspaceenvironment.FinspaceEnvironmentFederationParameters {
 	ApplicationCallBackUrl: *string,
@@ -1306,7 +1306,7 @@ ApplicationCallBackUrl *string
 
 SAML metadata URL to link with the Environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/finspace_environment#application_call_back_url FinspaceEnvironment#application_call_back_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/finspace_environment#application_call_back_url FinspaceEnvironment#application_call_back_url}
 
 ---
 
@@ -1320,7 +1320,7 @@ AttributeMap interface{}
 
 Attribute map for SAML configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/finspace_environment#attribute_map FinspaceEnvironment#attribute_map}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/finspace_environment#attribute_map FinspaceEnvironment#attribute_map}
 
 ---
 
@@ -1334,7 +1334,7 @@ FederationProviderName *string
 
 Federation provider name to link with the Environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/finspace_environment#federation_provider_name FinspaceEnvironment#federation_provider_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/finspace_environment#federation_provider_name FinspaceEnvironment#federation_provider_name}
 
 ---
 
@@ -1348,7 +1348,7 @@ FederationUrn *string
 
 SAML metadata URL to link with the Environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/finspace_environment#federation_urn FinspaceEnvironment#federation_urn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/finspace_environment#federation_urn FinspaceEnvironment#federation_urn}
 
 ---
 
@@ -1362,7 +1362,7 @@ SamlMetadataDocument *string
 
 SAML metadata document to link the federation provider to the Environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/finspace_environment#saml_metadata_document FinspaceEnvironment#saml_metadata_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/finspace_environment#saml_metadata_document FinspaceEnvironment#saml_metadata_document}
 
 ---
 
@@ -1376,7 +1376,7 @@ SamlMetadataUrl *string
 
 SAML metadata URL to link with the Environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/finspace_environment#saml_metadata_url FinspaceEnvironment#saml_metadata_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/finspace_environment#saml_metadata_url FinspaceEnvironment#saml_metadata_url}
 
 ---
 
@@ -1385,7 +1385,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.finspaceEnvironment.FinspaceEnvironmentFederationParametersAttributeMap.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/finspaceenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/finspaceenvironment"
 
 &finspaceenvironment.FinspaceEnvironmentFederationParametersAttributeMap {
 	Key: *string,
@@ -1414,7 +1414,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/finspace_environment#key FinspaceEnvironment#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/finspace_environment#key FinspaceEnvironment#key}
 
 ---
 
@@ -1430,7 +1430,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/finspace_environment#value FinspaceEnvironment#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/finspace_environment#value FinspaceEnvironment#value}
 
 ---
 
@@ -1439,7 +1439,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.finspaceEnvironment.FinspaceEnvironmentSuperuserParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/finspaceenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/finspaceenvironment"
 
 &finspaceenvironment.FinspaceEnvironmentSuperuserParameters {
 	EmailAddress: *string,
@@ -1468,7 +1468,7 @@ EmailAddress *string
 
 Email address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/finspace_environment#email_address FinspaceEnvironment#email_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/finspace_environment#email_address FinspaceEnvironment#email_address}
 
 ---
 
@@ -1482,7 +1482,7 @@ FirstName *string
 
 First name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/finspace_environment#first_name FinspaceEnvironment#first_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/finspace_environment#first_name FinspaceEnvironment#first_name}
 
 ---
 
@@ -1496,7 +1496,7 @@ LastName *string
 
 Last name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/finspace_environment#last_name FinspaceEnvironment#last_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/finspace_environment#last_name FinspaceEnvironment#last_name}
 
 ---
 
@@ -1505,7 +1505,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.finspaceEnvironment.FinspaceEnvironmentTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/finspaceenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/finspaceenvironment"
 
 &finspaceenvironment.FinspaceEnvironmentTags {
 	Key: *string,
@@ -1534,7 +1534,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/finspace_environment#key FinspaceEnvironment#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/finspace_environment#key FinspaceEnvironment#key}
 
 ---
 
@@ -1550,7 +1550,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/finspace_environment#value FinspaceEnvironment#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/finspace_environment#value FinspaceEnvironment#value}
 
 ---
 
@@ -1561,7 +1561,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.finspaceEnvironment.FinspaceEnvironmentFederationParametersAttributeMapList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/finspaceenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/finspaceenvironment"
 
 finspaceenvironment.NewFinspaceEnvironmentFederationParametersAttributeMapList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) FinspaceEnvironmentFederationParametersAttributeMapList
 ```
@@ -1721,7 +1721,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.finspaceEnvironment.FinspaceEnvironmentFederationParametersAttributeMapOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/finspaceenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/finspaceenvironment"
 
 finspaceenvironment.NewFinspaceEnvironmentFederationParametersAttributeMapOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) FinspaceEnvironmentFederationParametersAttributeMapOutputReference
 ```
@@ -2046,7 +2046,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.finspaceEnvironment.FinspaceEnvironmentFederationParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/finspaceenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/finspaceenvironment"
 
 finspaceenvironment.NewFinspaceEnvironmentFederationParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) FinspaceEnvironmentFederationParametersOutputReference
 ```
@@ -2482,7 +2482,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.finspaceEnvironment.FinspaceEnvironmentSuperuserParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/finspaceenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/finspaceenvironment"
 
 finspaceenvironment.NewFinspaceEnvironmentSuperuserParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) FinspaceEnvironmentSuperuserParametersOutputReference
 ```
@@ -2818,7 +2818,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.finspaceEnvironment.FinspaceEnvironmentTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/finspaceenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/finspaceenvironment"
 
 finspaceenvironment.NewFinspaceEnvironmentTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) FinspaceEnvironmentTagsList
 ```
@@ -2978,7 +2978,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.finspaceEnvironment.FinspaceEnvironmentTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/finspaceenvironment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/finspaceenvironment"
 
 finspaceenvironment.NewFinspaceEnvironmentTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) FinspaceEnvironmentTagsOutputReference
 ```

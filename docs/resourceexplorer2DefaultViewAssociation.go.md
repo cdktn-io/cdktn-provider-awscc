@@ -4,12 +4,12 @@
 
 ### Resourceexplorer2DefaultViewAssociation <a name="Resourceexplorer2DefaultViewAssociation" id="@cdktn/provider-awscc.resourceexplorer2DefaultViewAssociation.Resourceexplorer2DefaultViewAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resourceexplorer2_default_view_association awscc_resourceexplorer2_default_view_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resourceexplorer2_default_view_association awscc_resourceexplorer2_default_view_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.resourceexplorer2DefaultViewAssociation.Resourceexplorer2DefaultViewAssociation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resourceexplorer2defaultviewassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resourceexplorer2defaultviewassociation"
 
 resourceexplorer2defaultviewassociation.NewResourceexplorer2DefaultViewAssociation(scope Construct, id *string, config Resourceexplorer2DefaultViewAssociationConfig) Resourceexplorer2DefaultViewAssociation
 ```
@@ -400,7 +400,7 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.resourceexplorer2DefaultViewAssociation.Resourceexplorer2DefaultViewAssociation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resourceexplorer2defaultviewassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resourceexplorer2defaultviewassociation"
 
 resourceexplorer2defaultviewassociation.Resourceexplorer2DefaultViewAssociation_IsConstruct(x interface{}) *bool
 ```
@@ -432,7 +432,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.resourceexplorer2DefaultViewAssociation.Resourceexplorer2DefaultViewAssociation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resourceexplorer2defaultviewassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resourceexplorer2defaultviewassociation"
 
 resourceexplorer2defaultviewassociation.Resourceexplorer2DefaultViewAssociation_IsTerraformElement(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ resourceexplorer2defaultviewassociation.Resourceexplorer2DefaultViewAssociation_
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.resourceexplorer2DefaultViewAssociation.Resourceexplorer2DefaultViewAssociation.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resourceexplorer2defaultviewassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resourceexplorer2defaultviewassociation"
 
 resourceexplorer2defaultviewassociation.Resourceexplorer2DefaultViewAssociation_IsTerraformResource(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ resourceexplorer2defaultviewassociation.Resourceexplorer2DefaultViewAssociation_
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.resourceexplorer2DefaultViewAssociation.Resourceexplorer2DefaultViewAssociation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resourceexplorer2defaultviewassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resourceexplorer2defaultviewassociation"
 
 resourceexplorer2defaultviewassociation.Resourceexplorer2DefaultViewAssociation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -489,7 +489,7 @@ The construct id used in the generated config for the Resourceexplorer2DefaultVi
 
 The id of the existing Resourceexplorer2DefaultViewAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resourceexplorer2_default_view_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resourceexplorer2_default_view_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -733,7 +733,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.resourceexplorer2DefaultViewAssociation.Resourceexplorer2DefaultViewAssociationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resourceexplorer2defaultviewassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resourceexplorer2defaultviewassociation"
 
 &resourceexplorer2defaultviewassociation.Resourceexplorer2DefaultViewAssociationConfig {
 	Connection: interface{},
@@ -758,7 +758,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resourceexplorer2defau
 | <code><a href="#@cdktn/provider-awscc.resourceexplorer2DefaultViewAssociation.Resourceexplorer2DefaultViewAssociationConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.resourceexplorer2DefaultViewAssociation.Resourceexplorer2DefaultViewAssociationConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.resourceexplorer2DefaultViewAssociation.Resourceexplorer2DefaultViewAssociationConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.resourceexplorer2DefaultViewAssociation.Resourceexplorer2DefaultViewAssociationConfig.property.viewArn">ViewArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resourceexplorer2_default_view_association#view_arn Resourceexplorer2DefaultViewAssociation#view_arn}. |
+| <code><a href="#@cdktn/provider-awscc.resourceexplorer2DefaultViewAssociation.Resourceexplorer2DefaultViewAssociationConfig.property.viewArn">ViewArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resourceexplorer2_default_view_association#view_arn Resourceexplorer2DefaultViewAssociation#view_arn}. |
 
 ---
 
@@ -840,7 +840,7 @@ ViewArn *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resourceexplorer2_default_view_association#view_arn Resourceexplorer2DefaultViewAssociation#view_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resourceexplorer2_default_view_association#view_arn Resourceexplorer2DefaultViewAssociation#view_arn}.
 
 ---
 

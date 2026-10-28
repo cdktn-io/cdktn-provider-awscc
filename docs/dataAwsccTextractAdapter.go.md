@@ -4,12 +4,12 @@
 
 ### DataAwsccTextractAdapter <a name="DataAwsccTextractAdapter" id="@cdktn/provider-awscc.dataAwsccTextractAdapter.DataAwsccTextractAdapter"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/textract_adapter awscc_textract_adapter}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/textract_adapter awscc_textract_adapter}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTextractAdapter.DataAwsccTextractAdapter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctextractadapter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctextractadapter"
 
 dataawscctextractadapter.NewDataAwsccTextractAdapter(scope Construct, id *string, config DataAwsccTextractAdapterConfig) DataAwsccTextractAdapter
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccTextractAdapter.DataAwsccTextractAdapter.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctextractadapter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctextractadapter"
 
 dataawscctextractadapter.DataAwsccTextractAdapter_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccTextractAdapter.DataAwsccTextractAdapter.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctextractadapter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctextractadapter"
 
 dataawscctextractadapter.DataAwsccTextractAdapter_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscctextractadapter.DataAwsccTextractAdapter_IsTerraformElement(x interface
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccTextractAdapter.DataAwsccTextractAdapter.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctextractadapter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctextractadapter"
 
 dataawscctextractadapter.DataAwsccTextractAdapter_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscctextractadapter.DataAwsccTextractAdapter_IsTerraformDataSource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccTextractAdapter.DataAwsccTextractAdapter.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctextractadapter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctextractadapter"
 
 dataawscctextractadapter.DataAwsccTextractAdapter_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccTextractAdapter t
 
 The id of the existing DataAwsccTextractAdapter that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/textract_adapter#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/textract_adapter#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -675,7 +675,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTextractAdapter.DataAwsccTextractAdapterConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctextractadapter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctextractadapter"
 
 &dataawscctextractadapter.DataAwsccTextractAdapterConfig {
 	Connection: interface{},
@@ -784,7 +784,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/textract_adapter#id DataAwsccTextractAdapter#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/textract_adapter#id DataAwsccTextractAdapter#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -796,7 +796,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTextractAdapter.DataAwsccTextractAdapterTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctextractadapter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctextractadapter"
 
 &dataawscctextractadapter.DataAwsccTextractAdapterTags {
 
@@ -811,7 +811,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctextractadapt
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTextractAdapter.DataAwsccTextractAdapterTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctextractadapter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctextractadapter"
 
 dataawscctextractadapter.NewDataAwsccTextractAdapterTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccTextractAdapterTagsList
 ```
@@ -960,7 +960,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTextractAdapter.DataAwsccTextractAdapterTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctextractadapter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctextractadapter"
 
 dataawscctextractadapter.NewDataAwsccTextractAdapterTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccTextractAdapterTagsOutputReference
 ```

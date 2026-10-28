@@ -4,12 +4,12 @@
 
 ### DataAwsccQbusinessPlugin <a name="DataAwsccQbusinessPlugin" id="@cdktn/provider-awscc.dataAwsccQbusinessPlugin.DataAwsccQbusinessPlugin"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/qbusiness_plugin awscc_qbusiness_plugin}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/qbusiness_plugin awscc_qbusiness_plugin}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQbusinessPlugin.DataAwsccQbusinessPlugin.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessplugin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessplugin"
 
 dataawsccqbusinessplugin.NewDataAwsccQbusinessPlugin(scope Construct, id *string, config DataAwsccQbusinessPluginConfig) DataAwsccQbusinessPlugin
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccQbusinessPlugin.DataAwsccQbusinessPlugin.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessplugin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessplugin"
 
 dataawsccqbusinessplugin.DataAwsccQbusinessPlugin_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccQbusinessPlugin.DataAwsccQbusinessPlugin.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessplugin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessplugin"
 
 dataawsccqbusinessplugin.DataAwsccQbusinessPlugin_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccqbusinessplugin.DataAwsccQbusinessPlugin_IsTerraformElement(x interface
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccQbusinessPlugin.DataAwsccQbusinessPlugin.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessplugin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessplugin"
 
 dataawsccqbusinessplugin.DataAwsccQbusinessPlugin_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccqbusinessplugin.DataAwsccQbusinessPlugin_IsTerraformDataSource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccQbusinessPlugin.DataAwsccQbusinessPlugin.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessplugin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessplugin"
 
 dataawsccqbusinessplugin.DataAwsccQbusinessPlugin_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccQbusinessPlugin t
 
 The id of the existing DataAwsccQbusinessPlugin that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/qbusiness_plugin#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/qbusiness_plugin#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -730,7 +730,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQbusinessPlugin.DataAwsccQbusinessPluginAuthConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessplugin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessplugin"
 
 &dataawsccqbusinessplugin.DataAwsccQbusinessPluginAuthConfiguration {
 
@@ -743,7 +743,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessplug
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQbusinessPlugin.DataAwsccQbusinessPluginAuthConfigurationBasicAuthConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessplugin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessplugin"
 
 &dataawsccqbusinessplugin.DataAwsccQbusinessPluginAuthConfigurationBasicAuthConfiguration {
 
@@ -756,7 +756,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessplug
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQbusinessPlugin.DataAwsccQbusinessPluginAuthConfigurationOAuth2ClientCredentialConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessplugin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessplugin"
 
 &dataawsccqbusinessplugin.DataAwsccQbusinessPluginAuthConfigurationOAuth2ClientCredentialConfiguration {
 
@@ -769,7 +769,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessplug
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQbusinessPlugin.DataAwsccQbusinessPluginConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessplugin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessplugin"
 
 &dataawsccqbusinessplugin.DataAwsccQbusinessPluginConfig {
 	Connection: interface{},
@@ -878,7 +878,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/qbusiness_plugin#id DataAwsccQbusinessPlugin#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/qbusiness_plugin#id DataAwsccQbusinessPlugin#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -890,7 +890,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQbusinessPlugin.DataAwsccQbusinessPluginCustomPluginConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessplugin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessplugin"
 
 &dataawsccqbusinessplugin.DataAwsccQbusinessPluginCustomPluginConfiguration {
 
@@ -903,7 +903,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessplug
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQbusinessPlugin.DataAwsccQbusinessPluginCustomPluginConfigurationApiSchema.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessplugin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessplugin"
 
 &dataawsccqbusinessplugin.DataAwsccQbusinessPluginCustomPluginConfigurationApiSchema {
 
@@ -916,7 +916,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessplug
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQbusinessPlugin.DataAwsccQbusinessPluginCustomPluginConfigurationApiSchemaS3.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessplugin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessplugin"
 
 &dataawsccqbusinessplugin.DataAwsccQbusinessPluginCustomPluginConfigurationApiSchemaS3 {
 
@@ -929,7 +929,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessplug
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQbusinessPlugin.DataAwsccQbusinessPluginTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessplugin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessplugin"
 
 &dataawsccqbusinessplugin.DataAwsccQbusinessPluginTags {
 
@@ -944,7 +944,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessplug
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQbusinessPlugin.DataAwsccQbusinessPluginAuthConfigurationBasicAuthConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessplugin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessplugin"
 
 dataawsccqbusinessplugin.NewDataAwsccQbusinessPluginAuthConfigurationBasicAuthConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQbusinessPluginAuthConfigurationBasicAuthConfigurationOutputReference
 ```
@@ -1215,7 +1215,7 @@ func InternalValue() DataAwsccQbusinessPluginAuthConfigurationBasicAuthConfigura
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQbusinessPlugin.DataAwsccQbusinessPluginAuthConfigurationOAuth2ClientCredentialConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessplugin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessplugin"
 
 dataawsccqbusinessplugin.NewDataAwsccQbusinessPluginAuthConfigurationOAuth2ClientCredentialConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQbusinessPluginAuthConfigurationOAuth2ClientCredentialConfigurationOutputReference
 ```
@@ -1508,7 +1508,7 @@ func InternalValue() DataAwsccQbusinessPluginAuthConfigurationOAuth2ClientCreden
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQbusinessPlugin.DataAwsccQbusinessPluginAuthConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessplugin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessplugin"
 
 dataawsccqbusinessplugin.NewDataAwsccQbusinessPluginAuthConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQbusinessPluginAuthConfigurationOutputReference
 ```
@@ -1790,7 +1790,7 @@ func InternalValue() DataAwsccQbusinessPluginAuthConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQbusinessPlugin.DataAwsccQbusinessPluginCustomPluginConfigurationApiSchemaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessplugin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessplugin"
 
 dataawsccqbusinessplugin.NewDataAwsccQbusinessPluginCustomPluginConfigurationApiSchemaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQbusinessPluginCustomPluginConfigurationApiSchemaOutputReference
 ```
@@ -2061,7 +2061,7 @@ func InternalValue() DataAwsccQbusinessPluginCustomPluginConfigurationApiSchema
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQbusinessPlugin.DataAwsccQbusinessPluginCustomPluginConfigurationApiSchemaS3OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessplugin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessplugin"
 
 dataawsccqbusinessplugin.NewDataAwsccQbusinessPluginCustomPluginConfigurationApiSchemaS3OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQbusinessPluginCustomPluginConfigurationApiSchemaS3OutputReference
 ```
@@ -2332,7 +2332,7 @@ func InternalValue() DataAwsccQbusinessPluginCustomPluginConfigurationApiSchemaS
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQbusinessPlugin.DataAwsccQbusinessPluginCustomPluginConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessplugin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessplugin"
 
 dataawsccqbusinessplugin.NewDataAwsccQbusinessPluginCustomPluginConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQbusinessPluginCustomPluginConfigurationOutputReference
 ```
@@ -2614,7 +2614,7 @@ func InternalValue() DataAwsccQbusinessPluginCustomPluginConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQbusinessPlugin.DataAwsccQbusinessPluginTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessplugin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessplugin"
 
 dataawsccqbusinessplugin.NewDataAwsccQbusinessPluginTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccQbusinessPluginTagsList
 ```
@@ -2763,7 +2763,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQbusinessPlugin.DataAwsccQbusinessPluginTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessplugin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessplugin"
 
 dataawsccqbusinessplugin.NewDataAwsccQbusinessPluginTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccQbusinessPluginTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccIotSoftwarePackages <a name="DataAwsccIotSoftwarePackages" id="@cdktn/provider-awscc.dataAwsccIotSoftwarePackages.DataAwsccIotSoftwarePackages"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_software_packages awscc_iot_software_packages}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_software_packages awscc_iot_software_packages}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotSoftwarePackages.DataAwsccIotSoftwarePackages.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsoftwarepackages"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsoftwarepackages"
 
 dataawscciotsoftwarepackages.NewDataAwsccIotSoftwarePackages(scope Construct, id *string, config DataAwsccIotSoftwarePackagesConfig) DataAwsccIotSoftwarePackages
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIotSoftwarePackages.DataAwsccIotSoftwarePackages.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsoftwarepackages"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsoftwarepackages"
 
 dataawscciotsoftwarepackages.DataAwsccIotSoftwarePackages_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIotSoftwarePackages.DataAwsccIotSoftwarePackages.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsoftwarepackages"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsoftwarepackages"
 
 dataawscciotsoftwarepackages.DataAwsccIotSoftwarePackages_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciotsoftwarepackages.DataAwsccIotSoftwarePackages_IsTerraformElement(x i
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIotSoftwarePackages.DataAwsccIotSoftwarePackages.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsoftwarepackages"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsoftwarepackages"
 
 dataawscciotsoftwarepackages.DataAwsccIotSoftwarePackages_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciotsoftwarepackages.DataAwsccIotSoftwarePackages_IsTerraformDataSource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIotSoftwarePackages.DataAwsccIotSoftwarePackages.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsoftwarepackages"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsoftwarepackages"
 
 dataawscciotsoftwarepackages.DataAwsccIotSoftwarePackages_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotSoftwarePackag
 
 The id of the existing DataAwsccIotSoftwarePackages that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_software_packages#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_software_packages#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotSoftwarePackages.DataAwsccIotSoftwarePackagesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsoftwarepackages"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsoftwarepackages"
 
 &dataawscciotsoftwarepackages.DataAwsccIotSoftwarePackagesConfig {
 	Connection: interface{},

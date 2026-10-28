@@ -4,12 +4,12 @@
 
 ### DataAwsccNetworkfirewallContainerAssociation <a name="DataAwsccNetworkfirewallContainerAssociation" id="@cdktn/provider-awscc.dataAwsccNetworkfirewallContainerAssociation.DataAwsccNetworkfirewallContainerAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/networkfirewall_container_association awscc_networkfirewall_container_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/networkfirewall_container_association awscc_networkfirewall_container_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNetworkfirewallContainerAssociation.DataAwsccNetworkfirewallContainerAssociation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkfirewallcontainerassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkfirewallcontainerassociation"
 
 dataawsccnetworkfirewallcontainerassociation.NewDataAwsccNetworkfirewallContainerAssociation(scope Construct, id *string, config DataAwsccNetworkfirewallContainerAssociationConfig) DataAwsccNetworkfirewallContainerAssociation
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccNetworkfirewallContainerAssociation.DataAwsccNetworkfirewallContainerAssociation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkfirewallcontainerassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkfirewallcontainerassociation"
 
 dataawsccnetworkfirewallcontainerassociation.DataAwsccNetworkfirewallContainerAssociation_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccNetworkfirewallContainerAssociation.DataAwsccNetworkfirewallContainerAssociation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkfirewallcontainerassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkfirewallcontainerassociation"
 
 dataawsccnetworkfirewallcontainerassociation.DataAwsccNetworkfirewallContainerAssociation_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccnetworkfirewallcontainerassociation.DataAwsccNetworkfirewallContainerAs
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccNetworkfirewallContainerAssociation.DataAwsccNetworkfirewallContainerAssociation.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkfirewallcontainerassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkfirewallcontainerassociation"
 
 dataawsccnetworkfirewallcontainerassociation.DataAwsccNetworkfirewallContainerAssociation_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccnetworkfirewallcontainerassociation.DataAwsccNetworkfirewallContainerAs
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccNetworkfirewallContainerAssociation.DataAwsccNetworkfirewallContainerAssociation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkfirewallcontainerassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkfirewallcontainerassociation"
 
 dataawsccnetworkfirewallcontainerassociation.DataAwsccNetworkfirewallContainerAssociation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccNetworkfirewallCo
 
 The id of the existing DataAwsccNetworkfirewallContainerAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/networkfirewall_container_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/networkfirewall_container_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -675,7 +675,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccNetworkfirewallContainerAssociation.DataAwsccNetworkfirewallContainerAssociationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkfirewallcontainerassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkfirewallcontainerassociation"
 
 &dataawsccnetworkfirewallcontainerassociation.DataAwsccNetworkfirewallContainerAssociationConfig {
 	Connection: interface{},
@@ -784,7 +784,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/networkfirewall_container_association#id DataAwsccNetworkfirewallContainerAssociation#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/networkfirewall_container_association#id DataAwsccNetworkfirewallContainerAssociation#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -796,7 +796,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccNetworkfirewallContainerAssociation.DataAwsccNetworkfirewallContainerAssociationContainerMonitoringConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkfirewallcontainerassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkfirewallcontainerassociation"
 
 &dataawsccnetworkfirewallcontainerassociation.DataAwsccNetworkfirewallContainerAssociationContainerMonitoringConfigurations {
 
@@ -809,7 +809,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkfirewa
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccNetworkfirewallContainerAssociation.DataAwsccNetworkfirewallContainerAssociationContainerMonitoringConfigurationsAttributeFilters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkfirewallcontainerassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkfirewallcontainerassociation"
 
 &dataawsccnetworkfirewallcontainerassociation.DataAwsccNetworkfirewallContainerAssociationContainerMonitoringConfigurationsAttributeFilters {
 
@@ -822,7 +822,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkfirewa
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccNetworkfirewallContainerAssociation.DataAwsccNetworkfirewallContainerAssociationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkfirewallcontainerassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkfirewallcontainerassociation"
 
 &dataawsccnetworkfirewallcontainerassociation.DataAwsccNetworkfirewallContainerAssociationTags {
 
@@ -837,7 +837,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkfirewa
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNetworkfirewallContainerAssociation.DataAwsccNetworkfirewallContainerAssociationContainerMonitoringConfigurationsAttributeFiltersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkfirewallcontainerassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkfirewallcontainerassociation"
 
 dataawsccnetworkfirewallcontainerassociation.NewDataAwsccNetworkfirewallContainerAssociationContainerMonitoringConfigurationsAttributeFiltersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccNetworkfirewallContainerAssociationContainerMonitoringConfigurationsAttributeFiltersList
 ```
@@ -986,7 +986,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNetworkfirewallContainerAssociation.DataAwsccNetworkfirewallContainerAssociationContainerMonitoringConfigurationsAttributeFiltersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkfirewallcontainerassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkfirewallcontainerassociation"
 
 dataawsccnetworkfirewallcontainerassociation.NewDataAwsccNetworkfirewallContainerAssociationContainerMonitoringConfigurationsAttributeFiltersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccNetworkfirewallContainerAssociationContainerMonitoringConfigurationsAttributeFiltersOutputReference
 ```
@@ -1275,7 +1275,7 @@ func InternalValue() DataAwsccNetworkfirewallContainerAssociationContainerMonito
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNetworkfirewallContainerAssociation.DataAwsccNetworkfirewallContainerAssociationContainerMonitoringConfigurationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkfirewallcontainerassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkfirewallcontainerassociation"
 
 dataawsccnetworkfirewallcontainerassociation.NewDataAwsccNetworkfirewallContainerAssociationContainerMonitoringConfigurationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccNetworkfirewallContainerAssociationContainerMonitoringConfigurationsList
 ```
@@ -1424,7 +1424,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNetworkfirewallContainerAssociation.DataAwsccNetworkfirewallContainerAssociationContainerMonitoringConfigurationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkfirewallcontainerassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkfirewallcontainerassociation"
 
 dataawsccnetworkfirewallcontainerassociation.NewDataAwsccNetworkfirewallContainerAssociationContainerMonitoringConfigurationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccNetworkfirewallContainerAssociationContainerMonitoringConfigurationsOutputReference
 ```
@@ -1713,7 +1713,7 @@ func InternalValue() DataAwsccNetworkfirewallContainerAssociationContainerMonito
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNetworkfirewallContainerAssociation.DataAwsccNetworkfirewallContainerAssociationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkfirewallcontainerassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkfirewallcontainerassociation"
 
 dataawsccnetworkfirewallcontainerassociation.NewDataAwsccNetworkfirewallContainerAssociationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccNetworkfirewallContainerAssociationTagsList
 ```
@@ -1862,7 +1862,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNetworkfirewallContainerAssociation.DataAwsccNetworkfirewallContainerAssociationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkfirewallcontainerassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkfirewallcontainerassociation"
 
 dataawsccnetworkfirewallcontainerassociation.NewDataAwsccNetworkfirewallContainerAssociationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccNetworkfirewallContainerAssociationTagsOutputReference
 ```

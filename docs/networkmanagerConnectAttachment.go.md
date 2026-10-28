@@ -4,12 +4,12 @@
 
 ### NetworkmanagerConnectAttachment <a name="NetworkmanagerConnectAttachment" id="@cdktn/provider-awscc.networkmanagerConnectAttachment.NetworkmanagerConnectAttachment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_connect_attachment awscc_networkmanager_connect_attachment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_connect_attachment awscc_networkmanager_connect_attachment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmanagerConnectAttachment.NetworkmanagerConnectAttachment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerconnectattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerconnectattachment"
 
 networkmanagerconnectattachment.NewNetworkmanagerConnectAttachment(scope Construct, id *string, config NetworkmanagerConnectAttachmentConfig) NetworkmanagerConnectAttachment
 ```
@@ -447,7 +447,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.networkmanagerConnectAttachment.NetworkmanagerConnectAttachment.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerconnectattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerconnectattachment"
 
 networkmanagerconnectattachment.NetworkmanagerConnectAttachment_IsConstruct(x interface{}) *bool
 ```
@@ -479,7 +479,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.networkmanagerConnectAttachment.NetworkmanagerConnectAttachment.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerconnectattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerconnectattachment"
 
 networkmanagerconnectattachment.NetworkmanagerConnectAttachment_IsTerraformElement(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ networkmanagerconnectattachment.NetworkmanagerConnectAttachment_IsTerraformEleme
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.networkmanagerConnectAttachment.NetworkmanagerConnectAttachment.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerconnectattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerconnectattachment"
 
 networkmanagerconnectattachment.NetworkmanagerConnectAttachment_IsTerraformResource(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ networkmanagerconnectattachment.NetworkmanagerConnectAttachment_IsTerraformResou
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.networkmanagerConnectAttachment.NetworkmanagerConnectAttachment.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerconnectattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerconnectattachment"
 
 networkmanagerconnectattachment.NetworkmanagerConnectAttachment_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -536,7 +536,7 @@ The construct id used in the generated config for the NetworkmanagerConnectAttac
 
 The id of the existing NetworkmanagerConnectAttachment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_connect_attachment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_connect_attachment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1044,7 +1044,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.networkmanagerConnectAttachment.NetworkmanagerConnectAttachmentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerconnectattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerconnectattachment"
 
 &networkmanagerconnectattachment.NetworkmanagerConnectAttachmentConfig {
 	Connection: interface{},
@@ -1056,7 +1056,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerconnecta
 	Provisioners: *[]interface{},
 	CoreNetworkId: *string,
 	EdgeLocation: *string,
-	Options: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.networkmanagerConnectAttachment.NetworkmanagerConnectAttachmentOptions,
+	Options: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.networkmanagerConnectAttachment.NetworkmanagerConnectAttachmentOptions,
 	TransportAttachmentId: *string,
 	NetworkFunctionGroupName: *string,
 	RoutingPolicyLabel: *string,
@@ -1165,7 +1165,7 @@ CoreNetworkId *string
 
 ID of the CoreNetwork that the attachment will be attached to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_connect_attachment#core_network_id NetworkmanagerConnectAttachment#core_network_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_connect_attachment#core_network_id NetworkmanagerConnectAttachment#core_network_id}
 
 ---
 
@@ -1179,7 +1179,7 @@ EdgeLocation *string
 
 Edge location of the attachment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_connect_attachment#edge_location NetworkmanagerConnectAttachment#edge_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_connect_attachment#edge_location NetworkmanagerConnectAttachment#edge_location}
 
 ---
 
@@ -1193,7 +1193,7 @@ Options NetworkmanagerConnectAttachmentOptions
 
 Protocol options for connect attachment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_connect_attachment#options NetworkmanagerConnectAttachment#options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_connect_attachment#options NetworkmanagerConnectAttachment#options}
 
 ---
 
@@ -1207,7 +1207,7 @@ TransportAttachmentId *string
 
 Id of transport attachment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_connect_attachment#transport_attachment_id NetworkmanagerConnectAttachment#transport_attachment_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_connect_attachment#transport_attachment_id NetworkmanagerConnectAttachment#transport_attachment_id}
 
 ---
 
@@ -1221,7 +1221,7 @@ NetworkFunctionGroupName *string
 
 The name of the network function group attachment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_connect_attachment#network_function_group_name NetworkmanagerConnectAttachment#network_function_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_connect_attachment#network_function_group_name NetworkmanagerConnectAttachment#network_function_group_name}
 
 ---
 
@@ -1235,7 +1235,7 @@ RoutingPolicyLabel *string
 
 Routing policy label.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_connect_attachment#routing_policy_label NetworkmanagerConnectAttachment#routing_policy_label}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_connect_attachment#routing_policy_label NetworkmanagerConnectAttachment#routing_policy_label}
 
 ---
 
@@ -1249,7 +1249,7 @@ Tags interface{}
 
 Tags for the attachment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_connect_attachment#tags NetworkmanagerConnectAttachment#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_connect_attachment#tags NetworkmanagerConnectAttachment#tags}
 
 ---
 
@@ -1258,7 +1258,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.networkmanagerConnectAttachment.NetworkmanagerConnectAttachmentOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerconnectattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerconnectattachment"
 
 &networkmanagerconnectattachment.NetworkmanagerConnectAttachmentOptions {
 	Protocol: *string,
@@ -1283,7 +1283,7 @@ Protocol *string
 
 Tunnel protocol for connect attachment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_connect_attachment#protocol NetworkmanagerConnectAttachment#protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_connect_attachment#protocol NetworkmanagerConnectAttachment#protocol}
 
 ---
 
@@ -1292,7 +1292,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.networkmanagerConnectAttachment.NetworkmanagerConnectAttachmentProposedNetworkFunctionGroupChange.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerconnectattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerconnectattachment"
 
 &networkmanagerconnectattachment.NetworkmanagerConnectAttachmentProposedNetworkFunctionGroupChange {
 
@@ -1305,7 +1305,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerconnecta
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.networkmanagerConnectAttachment.NetworkmanagerConnectAttachmentProposedNetworkFunctionGroupChangeTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerconnectattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerconnectattachment"
 
 &networkmanagerconnectattachment.NetworkmanagerConnectAttachmentProposedNetworkFunctionGroupChangeTags {
 
@@ -1318,7 +1318,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerconnecta
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.networkmanagerConnectAttachment.NetworkmanagerConnectAttachmentProposedSegmentChange.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerconnectattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerconnectattachment"
 
 &networkmanagerconnectattachment.NetworkmanagerConnectAttachmentProposedSegmentChange {
 
@@ -1331,7 +1331,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerconnecta
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.networkmanagerConnectAttachment.NetworkmanagerConnectAttachmentProposedSegmentChangeTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerconnectattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerconnectattachment"
 
 &networkmanagerconnectattachment.NetworkmanagerConnectAttachmentProposedSegmentChangeTags {
 
@@ -1344,7 +1344,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerconnecta
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.networkmanagerConnectAttachment.NetworkmanagerConnectAttachmentTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerconnectattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerconnectattachment"
 
 &networkmanagerconnectattachment.NetworkmanagerConnectAttachmentTags {
 	Key: *string,
@@ -1373,7 +1373,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_connect_attachment#key NetworkmanagerConnectAttachment#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_connect_attachment#key NetworkmanagerConnectAttachment#key}
 
 ---
 
@@ -1389,7 +1389,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_connect_attachment#value NetworkmanagerConnectAttachment#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_connect_attachment#value NetworkmanagerConnectAttachment#value}
 
 ---
 
@@ -1400,7 +1400,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmanagerConnectAttachment.NetworkmanagerConnectAttachmentOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerconnectattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerconnectattachment"
 
 networkmanagerconnectattachment.NewNetworkmanagerConnectAttachmentOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) NetworkmanagerConnectAttachmentOptionsOutputReference
 ```
@@ -1678,7 +1678,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmanagerConnectAttachment.NetworkmanagerConnectAttachmentProposedNetworkFunctionGroupChangeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerconnectattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerconnectattachment"
 
 networkmanagerconnectattachment.NewNetworkmanagerConnectAttachmentProposedNetworkFunctionGroupChangeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) NetworkmanagerConnectAttachmentProposedNetworkFunctionGroupChangeOutputReference
 ```
@@ -1960,7 +1960,7 @@ func InternalValue() NetworkmanagerConnectAttachmentProposedNetworkFunctionGroup
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmanagerConnectAttachment.NetworkmanagerConnectAttachmentProposedNetworkFunctionGroupChangeTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerconnectattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerconnectattachment"
 
 networkmanagerconnectattachment.NewNetworkmanagerConnectAttachmentProposedNetworkFunctionGroupChangeTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) NetworkmanagerConnectAttachmentProposedNetworkFunctionGroupChangeTagsList
 ```
@@ -2109,7 +2109,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmanagerConnectAttachment.NetworkmanagerConnectAttachmentProposedNetworkFunctionGroupChangeTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerconnectattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerconnectattachment"
 
 networkmanagerconnectattachment.NewNetworkmanagerConnectAttachmentProposedNetworkFunctionGroupChangeTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) NetworkmanagerConnectAttachmentProposedNetworkFunctionGroupChangeTagsOutputReference
 ```
@@ -2398,7 +2398,7 @@ func InternalValue() NetworkmanagerConnectAttachmentProposedNetworkFunctionGroup
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmanagerConnectAttachment.NetworkmanagerConnectAttachmentProposedSegmentChangeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerconnectattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerconnectattachment"
 
 networkmanagerconnectattachment.NewNetworkmanagerConnectAttachmentProposedSegmentChangeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) NetworkmanagerConnectAttachmentProposedSegmentChangeOutputReference
 ```
@@ -2680,7 +2680,7 @@ func InternalValue() NetworkmanagerConnectAttachmentProposedSegmentChange
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmanagerConnectAttachment.NetworkmanagerConnectAttachmentProposedSegmentChangeTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerconnectattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerconnectattachment"
 
 networkmanagerconnectattachment.NewNetworkmanagerConnectAttachmentProposedSegmentChangeTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) NetworkmanagerConnectAttachmentProposedSegmentChangeTagsList
 ```
@@ -2829,7 +2829,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmanagerConnectAttachment.NetworkmanagerConnectAttachmentProposedSegmentChangeTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerconnectattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerconnectattachment"
 
 networkmanagerconnectattachment.NewNetworkmanagerConnectAttachmentProposedSegmentChangeTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) NetworkmanagerConnectAttachmentProposedSegmentChangeTagsOutputReference
 ```
@@ -3118,7 +3118,7 @@ func InternalValue() NetworkmanagerConnectAttachmentProposedSegmentChangeTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmanagerConnectAttachment.NetworkmanagerConnectAttachmentTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerconnectattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerconnectattachment"
 
 networkmanagerconnectattachment.NewNetworkmanagerConnectAttachmentTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) NetworkmanagerConnectAttachmentTagsList
 ```
@@ -3278,7 +3278,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmanagerConnectAttachment.NetworkmanagerConnectAttachmentTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerconnectattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerconnectattachment"
 
 networkmanagerconnectattachment.NewNetworkmanagerConnectAttachmentTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) NetworkmanagerConnectAttachmentTagsOutputReference
 ```

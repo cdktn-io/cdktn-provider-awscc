@@ -4,12 +4,12 @@
 
 ### DataAwsccIotThingGroup <a name="DataAwsccIotThingGroup" id="@cdktn/provider-awscc.dataAwsccIotThingGroup.DataAwsccIotThingGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_thing_group awscc_iot_thing_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_thing_group awscc_iot_thing_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotThingGroup.DataAwsccIotThingGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotthinggroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotthinggroup"
 
 dataawscciotthinggroup.NewDataAwsccIotThingGroup(scope Construct, id *string, config DataAwsccIotThingGroupConfig) DataAwsccIotThingGroup
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIotThingGroup.DataAwsccIotThingGroup.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotthinggroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotthinggroup"
 
 dataawscciotthinggroup.DataAwsccIotThingGroup_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIotThingGroup.DataAwsccIotThingGroup.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotthinggroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotthinggroup"
 
 dataawscciotthinggroup.DataAwsccIotThingGroup_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciotthinggroup.DataAwsccIotThingGroup_IsTerraformElement(x interface{}) 
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIotThingGroup.DataAwsccIotThingGroup.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotthinggroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotthinggroup"
 
 dataawscciotthinggroup.DataAwsccIotThingGroup_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciotthinggroup.DataAwsccIotThingGroup_IsTerraformDataSource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIotThingGroup.DataAwsccIotThingGroup.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotthinggroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotthinggroup"
 
 dataawscciotthinggroup.DataAwsccIotThingGroup_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotThingGroup to 
 
 The id of the existing DataAwsccIotThingGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_thing_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_thing_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -664,7 +664,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotThingGroup.DataAwsccIotThingGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotthinggroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotthinggroup"
 
 &dataawscciotthinggroup.DataAwsccIotThingGroupConfig {
 	Connection: interface{},
@@ -773,7 +773,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_thing_group#id DataAwsccIotThingGroup#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_thing_group#id DataAwsccIotThingGroup#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -785,7 +785,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotThingGroup.DataAwsccIotThingGroupTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotthinggroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotthinggroup"
 
 &dataawscciotthinggroup.DataAwsccIotThingGroupTags {
 
@@ -798,7 +798,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotthinggroup
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotThingGroup.DataAwsccIotThingGroupThingGroupProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotthinggroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotthinggroup"
 
 &dataawscciotthinggroup.DataAwsccIotThingGroupThingGroupProperties {
 
@@ -811,7 +811,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotthinggroup
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotThingGroup.DataAwsccIotThingGroupThingGroupPropertiesAttributePayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotthinggroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotthinggroup"
 
 &dataawscciotthinggroup.DataAwsccIotThingGroupThingGroupPropertiesAttributePayload {
 
@@ -826,7 +826,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotthinggroup
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotThingGroup.DataAwsccIotThingGroupTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotthinggroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotthinggroup"
 
 dataawscciotthinggroup.NewDataAwsccIotThingGroupTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIotThingGroupTagsList
 ```
@@ -975,7 +975,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotThingGroup.DataAwsccIotThingGroupTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotthinggroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotthinggroup"
 
 dataawscciotthinggroup.NewDataAwsccIotThingGroupTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIotThingGroupTagsOutputReference
 ```
@@ -1264,7 +1264,7 @@ func InternalValue() DataAwsccIotThingGroupTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotThingGroup.DataAwsccIotThingGroupThingGroupPropertiesAttributePayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotthinggroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotthinggroup"
 
 dataawscciotthinggroup.NewDataAwsccIotThingGroupThingGroupPropertiesAttributePayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotThingGroupThingGroupPropertiesAttributePayloadOutputReference
 ```
@@ -1524,7 +1524,7 @@ func InternalValue() DataAwsccIotThingGroupThingGroupPropertiesAttributePayload
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotThingGroup.DataAwsccIotThingGroupThingGroupPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotthinggroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotthinggroup"
 
 dataawscciotthinggroup.NewDataAwsccIotThingGroupThingGroupPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotThingGroupThingGroupPropertiesOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccIoteventsDetectorModel <a name="DataAwsccIoteventsDetectorModel" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModel"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotevents_detector_model awscc_iotevents_detector_model}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotevents_detector_model awscc_iotevents_detector_model}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModel.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModel(scope Construct, id *string, config DataAwsccIoteventsDetectorModelConfig) DataAwsccIoteventsDetectorModel
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModel.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModel_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModel.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModel_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModel_IsTerraformEleme
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModel.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModel_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModel_IsTerraformDataS
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModel.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModel_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIoteventsDetector
 
 The id of the existing DataAwsccIoteventsDetectorModel that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotevents_detector_model#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotevents_detector_model#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -664,7 +664,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelConfig {
 	Connection: interface{},
@@ -773,7 +773,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotevents_detector_model#id DataAwsccIoteventsDetectorModel#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotevents_detector_model#id DataAwsccIoteventsDetectorModel#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -785,7 +785,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinition {
 
@@ -798,7 +798,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStates.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStates {
 
@@ -811,7 +811,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnter {
 
@@ -824,7 +824,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEvents.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEvents {
 
@@ -837,7 +837,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActions {
 
@@ -850,7 +850,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsClearTimer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsClearTimer {
 
@@ -863,7 +863,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsDynamoDb.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsDynamoDb {
 
@@ -876,7 +876,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsDynamoDbPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsDynamoDbPayload {
 
@@ -889,7 +889,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsDynamoDBv2.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsDynamoDBv2 {
 
@@ -902,7 +902,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsDynamoDBv2Payload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsDynamoDBv2Payload {
 
@@ -915,7 +915,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsFirehose.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsFirehose {
 
@@ -928,7 +928,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsFirehosePayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsFirehosePayload {
 
@@ -941,7 +941,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotEvents.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotEvents {
 
@@ -954,7 +954,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotEventsPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotEventsPayload {
 
@@ -967,7 +967,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotSiteWise.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotSiteWise {
 
@@ -980,7 +980,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotSiteWisePropertyValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotSiteWisePropertyValue {
 
@@ -993,7 +993,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotSiteWisePropertyValueTimestamp.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotSiteWisePropertyValueTimestamp {
 
@@ -1006,7 +1006,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotSiteWisePropertyValueValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotSiteWisePropertyValueValue {
 
@@ -1019,7 +1019,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotTopicPublish.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotTopicPublish {
 
@@ -1032,7 +1032,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotTopicPublishPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotTopicPublishPayload {
 
@@ -1045,7 +1045,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsLambda.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsLambda {
 
@@ -1058,7 +1058,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsLambdaPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsLambdaPayload {
 
@@ -1071,7 +1071,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsResetTimer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsResetTimer {
 
@@ -1084,7 +1084,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSetTimer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSetTimer {
 
@@ -1097,7 +1097,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSetVariable.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSetVariable {
 
@@ -1110,7 +1110,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSns.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSns {
 
@@ -1123,7 +1123,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSnsPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSnsPayload {
 
@@ -1136,7 +1136,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSqs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSqs {
 
@@ -1149,7 +1149,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSqsPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSqsPayload {
 
@@ -1162,7 +1162,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExit.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExit {
 
@@ -1175,7 +1175,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEvents.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEvents {
 
@@ -1188,7 +1188,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActions {
 
@@ -1201,7 +1201,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsClearTimer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsClearTimer {
 
@@ -1214,7 +1214,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsDynamoDb.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsDynamoDb {
 
@@ -1227,7 +1227,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsDynamoDbPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsDynamoDbPayload {
 
@@ -1240,7 +1240,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsDynamoDBv2.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsDynamoDBv2 {
 
@@ -1253,7 +1253,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsDynamoDBv2Payload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsDynamoDBv2Payload {
 
@@ -1266,7 +1266,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsFirehose.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsFirehose {
 
@@ -1279,7 +1279,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsFirehosePayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsFirehosePayload {
 
@@ -1292,7 +1292,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotEvents.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotEvents {
 
@@ -1305,7 +1305,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotEventsPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotEventsPayload {
 
@@ -1318,7 +1318,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotSiteWise.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotSiteWise {
 
@@ -1331,7 +1331,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotSiteWisePropertyValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotSiteWisePropertyValue {
 
@@ -1344,7 +1344,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotSiteWisePropertyValueTimestamp.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotSiteWisePropertyValueTimestamp {
 
@@ -1357,7 +1357,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotSiteWisePropertyValueValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotSiteWisePropertyValueValue {
 
@@ -1370,7 +1370,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotTopicPublish.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotTopicPublish {
 
@@ -1383,7 +1383,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotTopicPublishPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotTopicPublishPayload {
 
@@ -1396,7 +1396,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsLambda.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsLambda {
 
@@ -1409,7 +1409,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsLambdaPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsLambdaPayload {
 
@@ -1422,7 +1422,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsResetTimer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsResetTimer {
 
@@ -1435,7 +1435,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSetTimer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSetTimer {
 
@@ -1448,7 +1448,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSetVariable.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSetVariable {
 
@@ -1461,7 +1461,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSns.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSns {
 
@@ -1474,7 +1474,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSnsPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSnsPayload {
 
@@ -1487,7 +1487,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSqs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSqs {
 
@@ -1500,7 +1500,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSqsPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSqsPayload {
 
@@ -1513,7 +1513,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInput.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInput {
 
@@ -1526,7 +1526,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEvents.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEvents {
 
@@ -1539,7 +1539,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActions {
 
@@ -1552,7 +1552,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsClearTimer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsClearTimer {
 
@@ -1565,7 +1565,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsDynamoDb.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsDynamoDb {
 
@@ -1578,7 +1578,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsDynamoDbPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsDynamoDbPayload {
 
@@ -1591,7 +1591,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsDynamoDBv2.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsDynamoDBv2 {
 
@@ -1604,7 +1604,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsDynamoDBv2Payload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsDynamoDBv2Payload {
 
@@ -1617,7 +1617,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsFirehose.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsFirehose {
 
@@ -1630,7 +1630,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsFirehosePayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsFirehosePayload {
 
@@ -1643,7 +1643,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotEvents.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotEvents {
 
@@ -1656,7 +1656,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotEventsPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotEventsPayload {
 
@@ -1669,7 +1669,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotSiteWise.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotSiteWise {
 
@@ -1682,7 +1682,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotSiteWisePropertyValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotSiteWisePropertyValue {
 
@@ -1695,7 +1695,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotSiteWisePropertyValueTimestamp.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotSiteWisePropertyValueTimestamp {
 
@@ -1708,7 +1708,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotSiteWisePropertyValueValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotSiteWisePropertyValueValue {
 
@@ -1721,7 +1721,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotTopicPublish.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotTopicPublish {
 
@@ -1734,7 +1734,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotTopicPublishPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotTopicPublishPayload {
 
@@ -1747,7 +1747,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsLambda.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsLambda {
 
@@ -1760,7 +1760,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsLambdaPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsLambdaPayload {
 
@@ -1773,7 +1773,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsResetTimer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsResetTimer {
 
@@ -1786,7 +1786,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSetTimer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSetTimer {
 
@@ -1799,7 +1799,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSetVariable.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSetVariable {
 
@@ -1812,7 +1812,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSns.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSns {
 
@@ -1825,7 +1825,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSnsPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSnsPayload {
 
@@ -1838,7 +1838,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSqs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSqs {
 
@@ -1851,7 +1851,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSqsPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSqsPayload {
 
@@ -1864,7 +1864,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEvents.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEvents {
 
@@ -1877,7 +1877,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActions {
 
@@ -1890,7 +1890,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsClearTimer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsClearTimer {
 
@@ -1903,7 +1903,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsDynamoDb.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsDynamoDb {
 
@@ -1916,7 +1916,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsDynamoDbPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsDynamoDbPayload {
 
@@ -1929,7 +1929,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsDynamoDBv2.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsDynamoDBv2 {
 
@@ -1942,7 +1942,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsDynamoDBv2Payload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsDynamoDBv2Payload {
 
@@ -1955,7 +1955,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsFirehose.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsFirehose {
 
@@ -1968,7 +1968,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsFirehosePayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsFirehosePayload {
 
@@ -1981,7 +1981,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotEvents.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotEvents {
 
@@ -1994,7 +1994,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotEventsPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotEventsPayload {
 
@@ -2007,7 +2007,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotSiteWise.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotSiteWise {
 
@@ -2020,7 +2020,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotSiteWisePropertyValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotSiteWisePropertyValue {
 
@@ -2033,7 +2033,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotSiteWisePropertyValueTimestamp.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotSiteWisePropertyValueTimestamp {
 
@@ -2046,7 +2046,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotSiteWisePropertyValueValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotSiteWisePropertyValueValue {
 
@@ -2059,7 +2059,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotTopicPublish.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotTopicPublish {
 
@@ -2072,7 +2072,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotTopicPublishPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotTopicPublishPayload {
 
@@ -2085,7 +2085,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsLambda.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsLambda {
 
@@ -2098,7 +2098,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsLambdaPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsLambdaPayload {
 
@@ -2111,7 +2111,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsResetTimer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsResetTimer {
 
@@ -2124,7 +2124,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSetTimer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSetTimer {
 
@@ -2137,7 +2137,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSetVariable.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSetVariable {
 
@@ -2150,7 +2150,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSns.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSns {
 
@@ -2163,7 +2163,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSnsPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSnsPayload {
 
@@ -2176,7 +2176,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSqs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSqs {
 
@@ -2189,7 +2189,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSqsPayload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSqsPayload {
 
@@ -2202,7 +2202,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 &dataawsccioteventsdetectormodel.DataAwsccIoteventsDetectorModelTags {
 
@@ -2217,7 +2217,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdete
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionOutputReference
 ```
@@ -2488,7 +2488,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinition
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesList
 ```
@@ -2637,7 +2637,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsClearTimerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsClearTimerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsClearTimerOutputReference
 ```
@@ -2897,7 +2897,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsDynamoDbOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsDynamoDbOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsDynamoDbOutputReference
 ```
@@ -3256,7 +3256,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsDynamoDbPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsDynamoDbPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsDynamoDbPayloadOutputReference
 ```
@@ -3527,7 +3527,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsDynamoDBv2OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsDynamoDBv2OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsDynamoDBv2OutputReference
 ```
@@ -3798,7 +3798,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsDynamoDBv2PayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsDynamoDBv2PayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsDynamoDBv2PayloadOutputReference
 ```
@@ -4069,7 +4069,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsFirehoseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsFirehoseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsFirehoseOutputReference
 ```
@@ -4351,7 +4351,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsFirehosePayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsFirehosePayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsFirehosePayloadOutputReference
 ```
@@ -4622,7 +4622,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotEventsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotEventsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotEventsOutputReference
 ```
@@ -4893,7 +4893,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotEventsPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotEventsPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotEventsPayloadOutputReference
 ```
@@ -5164,7 +5164,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotSiteWiseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotSiteWiseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotSiteWiseOutputReference
 ```
@@ -5468,7 +5468,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotSiteWisePropertyValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotSiteWisePropertyValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotSiteWisePropertyValueOutputReference
 ```
@@ -5750,7 +5750,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotSiteWisePropertyValueTimestampOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotSiteWisePropertyValueTimestampOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotSiteWisePropertyValueTimestampOutputReference
 ```
@@ -6021,7 +6021,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotSiteWisePropertyValueValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotSiteWisePropertyValueValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotSiteWisePropertyValueValueOutputReference
 ```
@@ -6314,7 +6314,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotTopicPublishOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotTopicPublishOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotTopicPublishOutputReference
 ```
@@ -6585,7 +6585,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotTopicPublishPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotTopicPublishPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsIotTopicPublishPayloadOutputReference
 ```
@@ -6856,7 +6856,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsLambdaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsLambdaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsLambdaOutputReference
 ```
@@ -7127,7 +7127,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsLambdaPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsLambdaPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsLambdaPayloadOutputReference
 ```
@@ -7398,7 +7398,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsList
 ```
@@ -7547,7 +7547,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsOutputReference
 ```
@@ -7957,7 +7957,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsResetTimerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsResetTimerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsResetTimerOutputReference
 ```
@@ -8217,7 +8217,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSetTimerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSetTimerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSetTimerOutputReference
 ```
@@ -8499,7 +8499,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSetVariableOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSetVariableOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSetVariableOutputReference
 ```
@@ -8770,7 +8770,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSnsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSnsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSnsOutputReference
 ```
@@ -9041,7 +9041,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSnsPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSnsPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSnsPayloadOutputReference
 ```
@@ -9312,7 +9312,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSqsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSqsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSqsOutputReference
 ```
@@ -9594,7 +9594,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSqsPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSqsPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsActionsSqsPayloadOutputReference
 ```
@@ -9865,7 +9865,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsList
 ```
@@ -10014,7 +10014,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsOutputReference
 ```
@@ -10314,7 +10314,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnEnterOutputReference
 ```
@@ -10574,7 +10574,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsClearTimerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsClearTimerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsClearTimerOutputReference
 ```
@@ -10834,7 +10834,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsDynamoDbOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsDynamoDbOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsDynamoDbOutputReference
 ```
@@ -11193,7 +11193,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsDynamoDbPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsDynamoDbPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsDynamoDbPayloadOutputReference
 ```
@@ -11464,7 +11464,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsDynamoDBv2OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsDynamoDBv2OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsDynamoDBv2OutputReference
 ```
@@ -11735,7 +11735,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsDynamoDBv2PayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsDynamoDBv2PayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsDynamoDBv2PayloadOutputReference
 ```
@@ -12006,7 +12006,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsFirehoseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsFirehoseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsFirehoseOutputReference
 ```
@@ -12288,7 +12288,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsFirehosePayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsFirehosePayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsFirehosePayloadOutputReference
 ```
@@ -12559,7 +12559,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotEventsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotEventsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotEventsOutputReference
 ```
@@ -12830,7 +12830,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotEventsPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotEventsPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotEventsPayloadOutputReference
 ```
@@ -13101,7 +13101,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotSiteWiseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotSiteWiseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotSiteWiseOutputReference
 ```
@@ -13405,7 +13405,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotSiteWisePropertyValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotSiteWisePropertyValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotSiteWisePropertyValueOutputReference
 ```
@@ -13687,7 +13687,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotSiteWisePropertyValueTimestampOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotSiteWisePropertyValueTimestampOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotSiteWisePropertyValueTimestampOutputReference
 ```
@@ -13958,7 +13958,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotSiteWisePropertyValueValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotSiteWisePropertyValueValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotSiteWisePropertyValueValueOutputReference
 ```
@@ -14251,7 +14251,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotTopicPublishOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotTopicPublishOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotTopicPublishOutputReference
 ```
@@ -14522,7 +14522,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotTopicPublishPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotTopicPublishPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotTopicPublishPayloadOutputReference
 ```
@@ -14793,7 +14793,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsLambdaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsLambdaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsLambdaOutputReference
 ```
@@ -15064,7 +15064,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsLambdaPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsLambdaPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsLambdaPayloadOutputReference
 ```
@@ -15335,7 +15335,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsList
 ```
@@ -15484,7 +15484,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsOutputReference
 ```
@@ -15894,7 +15894,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsResetTimerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsResetTimerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsResetTimerOutputReference
 ```
@@ -16154,7 +16154,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSetTimerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSetTimerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSetTimerOutputReference
 ```
@@ -16436,7 +16436,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSetVariableOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSetVariableOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSetVariableOutputReference
 ```
@@ -16707,7 +16707,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSnsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSnsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSnsOutputReference
 ```
@@ -16978,7 +16978,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSnsPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSnsPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSnsPayloadOutputReference
 ```
@@ -17249,7 +17249,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSqsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSqsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSqsOutputReference
 ```
@@ -17531,7 +17531,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSqsPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSqsPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSqsPayloadOutputReference
 ```
@@ -17802,7 +17802,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsList
 ```
@@ -17951,7 +17951,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsOutputReference
 ```
@@ -18251,7 +18251,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnExitOutputReference
 ```
@@ -18511,7 +18511,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsClearTimerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsClearTimerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsClearTimerOutputReference
 ```
@@ -18771,7 +18771,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsDynamoDbOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsDynamoDbOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsDynamoDbOutputReference
 ```
@@ -19130,7 +19130,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsDynamoDbPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsDynamoDbPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsDynamoDbPayloadOutputReference
 ```
@@ -19401,7 +19401,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsDynamoDBv2OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsDynamoDBv2OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsDynamoDBv2OutputReference
 ```
@@ -19672,7 +19672,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsDynamoDBv2PayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsDynamoDBv2PayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsDynamoDBv2PayloadOutputReference
 ```
@@ -19943,7 +19943,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsFirehoseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsFirehoseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsFirehoseOutputReference
 ```
@@ -20225,7 +20225,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsFirehosePayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsFirehosePayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsFirehosePayloadOutputReference
 ```
@@ -20496,7 +20496,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotEventsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotEventsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotEventsOutputReference
 ```
@@ -20767,7 +20767,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotEventsPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotEventsPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotEventsPayloadOutputReference
 ```
@@ -21038,7 +21038,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotSiteWiseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotSiteWiseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotSiteWiseOutputReference
 ```
@@ -21342,7 +21342,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotSiteWisePropertyValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotSiteWisePropertyValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotSiteWisePropertyValueOutputReference
 ```
@@ -21624,7 +21624,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotSiteWisePropertyValueTimestampOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotSiteWisePropertyValueTimestampOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotSiteWisePropertyValueTimestampOutputReference
 ```
@@ -21895,7 +21895,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotSiteWisePropertyValueValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotSiteWisePropertyValueValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotSiteWisePropertyValueValueOutputReference
 ```
@@ -22188,7 +22188,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotTopicPublishOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotTopicPublishOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotTopicPublishOutputReference
 ```
@@ -22459,7 +22459,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotTopicPublishPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotTopicPublishPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsIotTopicPublishPayloadOutputReference
 ```
@@ -22730,7 +22730,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsLambdaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsLambdaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsLambdaOutputReference
 ```
@@ -23001,7 +23001,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsLambdaPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsLambdaPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsLambdaPayloadOutputReference
 ```
@@ -23272,7 +23272,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsList
 ```
@@ -23421,7 +23421,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsOutputReference
 ```
@@ -23831,7 +23831,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsResetTimerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsResetTimerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsResetTimerOutputReference
 ```
@@ -24091,7 +24091,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSetTimerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSetTimerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSetTimerOutputReference
 ```
@@ -24373,7 +24373,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSetVariableOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSetVariableOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSetVariableOutputReference
 ```
@@ -24644,7 +24644,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSnsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSnsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSnsOutputReference
 ```
@@ -24915,7 +24915,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSnsPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSnsPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSnsPayloadOutputReference
 ```
@@ -25186,7 +25186,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSqsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSqsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSqsOutputReference
 ```
@@ -25468,7 +25468,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSqsPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSqsPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSqsPayloadOutputReference
 ```
@@ -25739,7 +25739,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsList
 ```
@@ -25888,7 +25888,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsOutputReference
 ```
@@ -26188,7 +26188,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputOutputReference
 ```
@@ -26459,7 +26459,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsClearTimerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsClearTimerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsClearTimerOutputReference
 ```
@@ -26719,7 +26719,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsDynamoDbOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsDynamoDbOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsDynamoDbOutputReference
 ```
@@ -27078,7 +27078,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsDynamoDbPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsDynamoDbPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsDynamoDbPayloadOutputReference
 ```
@@ -27349,7 +27349,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsDynamoDBv2OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsDynamoDBv2OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsDynamoDBv2OutputReference
 ```
@@ -27620,7 +27620,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsDynamoDBv2PayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsDynamoDBv2PayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsDynamoDBv2PayloadOutputReference
 ```
@@ -27891,7 +27891,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsFirehoseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsFirehoseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsFirehoseOutputReference
 ```
@@ -28173,7 +28173,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsFirehosePayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsFirehosePayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsFirehosePayloadOutputReference
 ```
@@ -28444,7 +28444,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotEventsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotEventsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotEventsOutputReference
 ```
@@ -28715,7 +28715,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotEventsPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotEventsPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotEventsPayloadOutputReference
 ```
@@ -28986,7 +28986,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotSiteWiseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotSiteWiseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotSiteWiseOutputReference
 ```
@@ -29290,7 +29290,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotSiteWisePropertyValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotSiteWisePropertyValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotSiteWisePropertyValueOutputReference
 ```
@@ -29572,7 +29572,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotSiteWisePropertyValueTimestampOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotSiteWisePropertyValueTimestampOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotSiteWisePropertyValueTimestampOutputReference
 ```
@@ -29843,7 +29843,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotSiteWisePropertyValueValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotSiteWisePropertyValueValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotSiteWisePropertyValueValueOutputReference
 ```
@@ -30136,7 +30136,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotTopicPublishOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotTopicPublishOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotTopicPublishOutputReference
 ```
@@ -30407,7 +30407,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotTopicPublishPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotTopicPublishPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsIotTopicPublishPayloadOutputReference
 ```
@@ -30678,7 +30678,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsLambdaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsLambdaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsLambdaOutputReference
 ```
@@ -30949,7 +30949,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsLambdaPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsLambdaPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsLambdaPayloadOutputReference
 ```
@@ -31220,7 +31220,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsList
 ```
@@ -31369,7 +31369,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsOutputReference
 ```
@@ -31779,7 +31779,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsResetTimerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsResetTimerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsResetTimerOutputReference
 ```
@@ -32039,7 +32039,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSetTimerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSetTimerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSetTimerOutputReference
 ```
@@ -32321,7 +32321,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSetVariableOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSetVariableOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSetVariableOutputReference
 ```
@@ -32592,7 +32592,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSnsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSnsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSnsOutputReference
 ```
@@ -32863,7 +32863,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSnsPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSnsPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSnsPayloadOutputReference
 ```
@@ -33134,7 +33134,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSqsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSqsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSqsOutputReference
 ```
@@ -33416,7 +33416,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSqsPayloadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSqsPayloadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsActionsSqsPayloadOutputReference
 ```
@@ -33687,7 +33687,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsList
 ```
@@ -33836,7 +33836,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitionEventsOutputReference
 ```
@@ -34147,7 +34147,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIoteventsDetectorModelDetectorModelDefinitionStatesOutputReference
 ```
@@ -34458,7 +34458,7 @@ func InternalValue() DataAwsccIoteventsDetectorModelDetectorModelDefinitionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIoteventsDetectorModelTagsList
 ```
@@ -34607,7 +34607,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIoteventsDetectorModel.DataAwsccIoteventsDetectorModelTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel"
 
 dataawsccioteventsdetectormodel.NewDataAwsccIoteventsDetectorModelTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIoteventsDetectorModelTagsOutputReference
 ```

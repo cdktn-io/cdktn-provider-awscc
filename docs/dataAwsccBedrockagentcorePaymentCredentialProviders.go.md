@@ -4,12 +4,12 @@
 
 ### DataAwsccBedrockagentcorePaymentCredentialProviders <a name="DataAwsccBedrockagentcorePaymentCredentialProviders" id="@cdktn/provider-awscc.dataAwsccBedrockagentcorePaymentCredentialProviders.DataAwsccBedrockagentcorePaymentCredentialProviders"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockagentcore_payment_credential_providers awscc_bedrockagentcore_payment_credential_providers}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockagentcore_payment_credential_providers awscc_bedrockagentcore_payment_credential_providers}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockagentcorePaymentCredentialProviders.DataAwsccBedrockagentcorePaymentCredentialProviders.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcorepaymentcredentialproviders"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcorepaymentcredentialproviders"
 
 dataawsccbedrockagentcorepaymentcredentialproviders.NewDataAwsccBedrockagentcorePaymentCredentialProviders(scope Construct, id *string, config DataAwsccBedrockagentcorePaymentCredentialProvidersConfig) DataAwsccBedrockagentcorePaymentCredentialProviders
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccBedrockagentcorePaymentCredentialProviders.DataAwsccBedrockagentcorePaymentCredentialProviders.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcorepaymentcredentialproviders"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcorepaymentcredentialproviders"
 
 dataawsccbedrockagentcorepaymentcredentialproviders.DataAwsccBedrockagentcorePaymentCredentialProviders_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccBedrockagentcorePaymentCredentialProviders.DataAwsccBedrockagentcorePaymentCredentialProviders.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcorepaymentcredentialproviders"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcorepaymentcredentialproviders"
 
 dataawsccbedrockagentcorepaymentcredentialproviders.DataAwsccBedrockagentcorePaymentCredentialProviders_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccbedrockagentcorepaymentcredentialproviders.DataAwsccBedrockagentcorePay
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccBedrockagentcorePaymentCredentialProviders.DataAwsccBedrockagentcorePaymentCredentialProviders.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcorepaymentcredentialproviders"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcorepaymentcredentialproviders"
 
 dataawsccbedrockagentcorepaymentcredentialproviders.DataAwsccBedrockagentcorePaymentCredentialProviders_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccbedrockagentcorepaymentcredentialproviders.DataAwsccBedrockagentcorePay
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccBedrockagentcorePaymentCredentialProviders.DataAwsccBedrockagentcorePaymentCredentialProviders.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcorepaymentcredentialproviders"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcorepaymentcredentialproviders"
 
 dataawsccbedrockagentcorepaymentcredentialproviders.DataAwsccBedrockagentcorePaymentCredentialProviders_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccBedrockagentcoreP
 
 The id of the existing DataAwsccBedrockagentcorePaymentCredentialProviders that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockagentcore_payment_credential_providers#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockagentcore_payment_credential_providers#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockagentcorePaymentCredentialProviders.DataAwsccBedrockagentcorePaymentCredentialProvidersConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcorepaymentcredentialproviders"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcorepaymentcredentialproviders"
 
 &dataawsccbedrockagentcorepaymentcredentialproviders.DataAwsccBedrockagentcorePaymentCredentialProvidersConfig {
 	Connection: interface{},

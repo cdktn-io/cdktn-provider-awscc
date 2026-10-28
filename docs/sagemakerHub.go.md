@@ -4,12 +4,12 @@
 
 ### SagemakerHub <a name="SagemakerHub" id="@cdktn/provider-awscc.sagemakerHub.SagemakerHub"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_hub awscc_sagemaker_hub}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_hub awscc_sagemaker_hub}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerHub.SagemakerHub.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerhub"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerhub"
 
 sagemakerhub.NewSagemakerHub(scope Construct, id *string, config SagemakerHubConfig) SagemakerHub
 ```
@@ -454,7 +454,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.sagemakerHub.SagemakerHub.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerhub"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerhub"
 
 sagemakerhub.SagemakerHub_IsConstruct(x interface{}) *bool
 ```
@@ -486,7 +486,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.sagemakerHub.SagemakerHub.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerhub"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerhub"
 
 sagemakerhub.SagemakerHub_IsTerraformElement(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ sagemakerhub.SagemakerHub_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.sagemakerHub.SagemakerHub.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerhub"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerhub"
 
 sagemakerhub.SagemakerHub_IsTerraformResource(x interface{}) *bool
 ```
@@ -514,7 +514,7 @@ sagemakerhub.SagemakerHub_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.sagemakerHub.SagemakerHub.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerhub"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerhub"
 
 sagemakerhub.SagemakerHub_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -543,7 +543,7 @@ The construct id used in the generated config for the SagemakerHub to import.
 
 The id of the existing SagemakerHub that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_hub#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_hub#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -930,7 +930,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sagemakerHub.SagemakerHubConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerhub"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerhub"
 
 &sagemakerhub.SagemakerHubConfig {
 	Connection: interface{},
@@ -944,7 +944,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerhub"
 	HubName: *string,
 	HubDisplayName: *string,
 	HubSearchKeywords: *[]*string,
-	S3StorageConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.sagemakerHub.SagemakerHubS3StorageConfig,
+	S3StorageConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.sagemakerHub.SagemakerHubS3StorageConfig,
 	Tags: interface{},
 }
 ```
@@ -1049,7 +1049,7 @@ HubDescription *string
 
 A description of the hub.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_hub#hub_description SagemakerHub#hub_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_hub#hub_description SagemakerHub#hub_description}
 
 ---
 
@@ -1063,7 +1063,7 @@ HubName *string
 
 The name of the hub.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_hub#hub_name SagemakerHub#hub_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_hub#hub_name SagemakerHub#hub_name}
 
 ---
 
@@ -1077,7 +1077,7 @@ HubDisplayName *string
 
 The display name of the hub.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_hub#hub_display_name SagemakerHub#hub_display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_hub#hub_display_name SagemakerHub#hub_display_name}
 
 ---
 
@@ -1091,7 +1091,7 @@ HubSearchKeywords *[]*string
 
 The searchable keywords for the hub.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_hub#hub_search_keywords SagemakerHub#hub_search_keywords}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_hub#hub_search_keywords SagemakerHub#hub_search_keywords}
 
 ---
 
@@ -1105,7 +1105,7 @@ S3StorageConfig SagemakerHubS3StorageConfig
 
 The Amazon S3 storage configuration for the hub.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_hub#s3_storage_config SagemakerHub#s3_storage_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_hub#s3_storage_config SagemakerHub#s3_storage_config}
 
 ---
 
@@ -1119,7 +1119,7 @@ Tags interface{}
 
 Tags to associate with the hub.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_hub#tags SagemakerHub#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_hub#tags SagemakerHub#tags}
 
 ---
 
@@ -1128,7 +1128,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sagemakerHub.SagemakerHubS3StorageConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerhub"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerhub"
 
 &sagemakerhub.SagemakerHubS3StorageConfig {
 	S3OutputPath: *string,
@@ -1153,7 +1153,7 @@ S3OutputPath *string
 
 The Amazon S3 bucket prefix for hosting hub content.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_hub#s3_output_path SagemakerHub#s3_output_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_hub#s3_output_path SagemakerHub#s3_output_path}
 
 ---
 
@@ -1162,7 +1162,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sagemakerHub.SagemakerHubTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerhub"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerhub"
 
 &sagemakerhub.SagemakerHubTags {
 	Key: *string,
@@ -1174,8 +1174,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerhub"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sagemakerHub.SagemakerHubTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_hub#key SagemakerHub#key}. |
-| <code><a href="#@cdktn/provider-awscc.sagemakerHub.SagemakerHubTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_hub#value SagemakerHub#value}. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerHub.SagemakerHubTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_hub#key SagemakerHub#key}. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerHub.SagemakerHubTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_hub#value SagemakerHub#value}. |
 
 ---
 
@@ -1187,7 +1187,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_hub#key SagemakerHub#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_hub#key SagemakerHub#key}.
 
 ---
 
@@ -1199,7 +1199,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_hub#value SagemakerHub#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_hub#value SagemakerHub#value}.
 
 ---
 
@@ -1210,7 +1210,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerHub.SagemakerHubS3StorageConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerhub"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerhub"
 
 sagemakerhub.NewSagemakerHubS3StorageConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SagemakerHubS3StorageConfigOutputReference
 ```
@@ -1488,7 +1488,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerHub.SagemakerHubTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerhub"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerhub"
 
 sagemakerhub.NewSagemakerHubTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SagemakerHubTagsList
 ```
@@ -1648,7 +1648,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerHub.SagemakerHubTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerhub"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerhub"
 
 sagemakerhub.NewSagemakerHubTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SagemakerHubTagsOutputReference
 ```

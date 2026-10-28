@@ -4,12 +4,12 @@
 
 ### FmsProtocolsList <a name="FmsProtocolsList" id="@cdktn/provider-awscc.fmsProtocolsList.FmsProtocolsList"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fms_protocols_list awscc_fms_protocols_list}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fms_protocols_list awscc_fms_protocols_list}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.fmsProtocolsList.FmsProtocolsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fmsprotocolslist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fmsprotocolslist"
 
 fmsprotocolslist.NewFmsProtocolsList(scope Construct, id *string, config FmsProtocolsListConfig) FmsProtocolsList
 ```
@@ -420,7 +420,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.fmsProtocolsList.FmsProtocolsList.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fmsprotocolslist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fmsprotocolslist"
 
 fmsprotocolslist.FmsProtocolsList_IsConstruct(x interface{}) *bool
 ```
@@ -452,7 +452,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.fmsProtocolsList.FmsProtocolsList.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fmsprotocolslist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fmsprotocolslist"
 
 fmsprotocolslist.FmsProtocolsList_IsTerraformElement(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ fmsprotocolslist.FmsProtocolsList_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.fmsProtocolsList.FmsProtocolsList.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fmsprotocolslist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fmsprotocolslist"
 
 fmsprotocolslist.FmsProtocolsList_IsTerraformResource(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ fmsprotocolslist.FmsProtocolsList_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.fmsProtocolsList.FmsProtocolsList.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fmsprotocolslist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fmsprotocolslist"
 
 fmsprotocolslist.FmsProtocolsList_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -509,7 +509,7 @@ The construct id used in the generated config for the FmsProtocolsList to import
 
 The id of the existing FmsProtocolsList that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fms_protocols_list#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fms_protocols_list#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -830,7 +830,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.fmsProtocolsList.FmsProtocolsListConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fmsprotocolslist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fmsprotocolslist"
 
 &fmsprotocolslist.FmsProtocolsListConfig {
 	Connection: interface{},
@@ -943,7 +943,7 @@ ListName *string
 
 The name of the Firewall Manager protocols list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fms_protocols_list#list_name FmsProtocolsList#list_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fms_protocols_list#list_name FmsProtocolsList#list_name}
 
 ---
 
@@ -957,7 +957,7 @@ ProtocolsList *[]*string
 
 An array of protocols in the Firewall Manager protocols list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fms_protocols_list#protocols_list FmsProtocolsList#protocols_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fms_protocols_list#protocols_list FmsProtocolsList#protocols_list}
 
 ---
 
@@ -971,7 +971,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to the protocols list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fms_protocols_list#tags FmsProtocolsList#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fms_protocols_list#tags FmsProtocolsList#tags}
 
 ---
 
@@ -980,7 +980,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.fmsProtocolsList.FmsProtocolsListTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fmsprotocolslist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fmsprotocolslist"
 
 &fmsprotocolslist.FmsProtocolsListTags {
 	Key: *string,
@@ -1007,7 +1007,7 @@ Key *string
 
 The tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fms_protocols_list#key FmsProtocolsList#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fms_protocols_list#key FmsProtocolsList#key}
 
 ---
 
@@ -1021,7 +1021,7 @@ Value *string
 
 The tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fms_protocols_list#value FmsProtocolsList#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fms_protocols_list#value FmsProtocolsList#value}
 
 ---
 
@@ -1032,7 +1032,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.fmsProtocolsList.FmsProtocolsListTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fmsprotocolslist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fmsprotocolslist"
 
 fmsprotocolslist.NewFmsProtocolsListTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) FmsProtocolsListTagsList
 ```
@@ -1192,7 +1192,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.fmsProtocolsList.FmsProtocolsListTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fmsprotocolslist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fmsprotocolslist"
 
 fmsprotocolslist.NewFmsProtocolsListTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) FmsProtocolsListTagsOutputReference
 ```

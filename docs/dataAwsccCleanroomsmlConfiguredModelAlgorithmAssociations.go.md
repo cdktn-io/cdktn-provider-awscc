@@ -4,12 +4,12 @@
 
 ### DataAwsccCleanroomsmlConfiguredModelAlgorithmAssociations <a name="DataAwsccCleanroomsmlConfiguredModelAlgorithmAssociations" id="@cdktn/provider-awscc.dataAwsccCleanroomsmlConfiguredModelAlgorithmAssociations.DataAwsccCleanroomsmlConfiguredModelAlgorithmAssociations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cleanroomsml_configured_model_algorithm_associations awscc_cleanroomsml_configured_model_algorithm_associations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cleanroomsml_configured_model_algorithm_associations awscc_cleanroomsml_configured_model_algorithm_associations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCleanroomsmlConfiguredModelAlgorithmAssociations.DataAwsccCleanroomsmlConfiguredModelAlgorithmAssociations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsmlconfiguredmodelalgorithmassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsmlconfiguredmodelalgorithmassociations"
 
 dataawscccleanroomsmlconfiguredmodelalgorithmassociations.NewDataAwsccCleanroomsmlConfiguredModelAlgorithmAssociations(scope Construct, id *string, config DataAwsccCleanroomsmlConfiguredModelAlgorithmAssociationsConfig) DataAwsccCleanroomsmlConfiguredModelAlgorithmAssociations
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCleanroomsmlConfiguredModelAlgorithmAssociations.DataAwsccCleanroomsmlConfiguredModelAlgorithmAssociations.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsmlconfiguredmodelalgorithmassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsmlconfiguredmodelalgorithmassociations"
 
 dataawscccleanroomsmlconfiguredmodelalgorithmassociations.DataAwsccCleanroomsmlConfiguredModelAlgorithmAssociations_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCleanroomsmlConfiguredModelAlgorithmAssociations.DataAwsccCleanroomsmlConfiguredModelAlgorithmAssociations.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsmlconfiguredmodelalgorithmassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsmlconfiguredmodelalgorithmassociations"
 
 dataawscccleanroomsmlconfiguredmodelalgorithmassociations.DataAwsccCleanroomsmlConfiguredModelAlgorithmAssociations_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccleanroomsmlconfiguredmodelalgorithmassociations.DataAwsccCleanroomsmlC
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCleanroomsmlConfiguredModelAlgorithmAssociations.DataAwsccCleanroomsmlConfiguredModelAlgorithmAssociations.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsmlconfiguredmodelalgorithmassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsmlconfiguredmodelalgorithmassociations"
 
 dataawscccleanroomsmlconfiguredmodelalgorithmassociations.DataAwsccCleanroomsmlConfiguredModelAlgorithmAssociations_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccleanroomsmlconfiguredmodelalgorithmassociations.DataAwsccCleanroomsmlC
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCleanroomsmlConfiguredModelAlgorithmAssociations.DataAwsccCleanroomsmlConfiguredModelAlgorithmAssociations.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsmlconfiguredmodelalgorithmassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsmlconfiguredmodelalgorithmassociations"
 
 dataawscccleanroomsmlconfiguredmodelalgorithmassociations.DataAwsccCleanroomsmlConfiguredModelAlgorithmAssociations_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCleanroomsmlConfi
 
 The id of the existing DataAwsccCleanroomsmlConfiguredModelAlgorithmAssociations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cleanroomsml_configured_model_algorithm_associations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cleanroomsml_configured_model_algorithm_associations#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCleanroomsmlConfiguredModelAlgorithmAssociations.DataAwsccCleanroomsmlConfiguredModelAlgorithmAssociationsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsmlconfiguredmodelalgorithmassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsmlconfiguredmodelalgorithmassociations"
 
 &dataawscccleanroomsmlconfiguredmodelalgorithmassociations.DataAwsccCleanroomsmlConfiguredModelAlgorithmAssociationsConfig {
 	Connection: interface{},

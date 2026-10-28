@@ -4,12 +4,12 @@
 
 ### DataAwsccWickrNetworks <a name="DataAwsccWickrNetworks" id="@cdktn/provider-awscc.dataAwsccWickrNetworks.DataAwsccWickrNetworks"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/wickr_networks awscc_wickr_networks}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/wickr_networks awscc_wickr_networks}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWickrNetworks.DataAwsccWickrNetworks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwickrnetworks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwickrnetworks"
 
 dataawsccwickrnetworks.NewDataAwsccWickrNetworks(scope Construct, id *string, config DataAwsccWickrNetworksConfig) DataAwsccWickrNetworks
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccWickrNetworks.DataAwsccWickrNetworks.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwickrnetworks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwickrnetworks"
 
 dataawsccwickrnetworks.DataAwsccWickrNetworks_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccWickrNetworks.DataAwsccWickrNetworks.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwickrnetworks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwickrnetworks"
 
 dataawsccwickrnetworks.DataAwsccWickrNetworks_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccwickrnetworks.DataAwsccWickrNetworks_IsTerraformElement(x interface{}) 
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccWickrNetworks.DataAwsccWickrNetworks.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwickrnetworks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwickrnetworks"
 
 dataawsccwickrnetworks.DataAwsccWickrNetworks_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccwickrnetworks.DataAwsccWickrNetworks_IsTerraformDataSource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccWickrNetworks.DataAwsccWickrNetworks.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwickrnetworks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwickrnetworks"
 
 dataawsccwickrnetworks.DataAwsccWickrNetworks_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccWickrNetworks to 
 
 The id of the existing DataAwsccWickrNetworks that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/wickr_networks#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/wickr_networks#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWickrNetworks.DataAwsccWickrNetworksConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwickrnetworks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwickrnetworks"
 
 &dataawsccwickrnetworks.DataAwsccWickrNetworksConfig {
 	Connection: interface{},

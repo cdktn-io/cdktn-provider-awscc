@@ -4,12 +4,12 @@
 
 ### Ec2IpamAllocation <a name="Ec2IpamAllocation" id="@cdktn/provider-awscc.ec2IpamAllocation.Ec2IpamAllocation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_ipam_allocation awscc_ec2_ipam_allocation}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_ipam_allocation awscc_ec2_ipam_allocation}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2IpamAllocation.Ec2IpamAllocation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2ipamallocation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2ipamallocation"
 
 ec2ipamallocation.NewEc2IpamAllocation(scope Construct, id *string, config Ec2IpamAllocationConfig) Ec2IpamAllocation
 ```
@@ -421,7 +421,7 @@ func ResetNetmaskLength()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.ec2IpamAllocation.Ec2IpamAllocation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2ipamallocation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2ipamallocation"
 
 ec2ipamallocation.Ec2IpamAllocation_IsConstruct(x interface{}) *bool
 ```
@@ -453,7 +453,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.ec2IpamAllocation.Ec2IpamAllocation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2ipamallocation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2ipamallocation"
 
 ec2ipamallocation.Ec2IpamAllocation_IsTerraformElement(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ ec2ipamallocation.Ec2IpamAllocation_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.ec2IpamAllocation.Ec2IpamAllocation.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2ipamallocation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2ipamallocation"
 
 ec2ipamallocation.Ec2IpamAllocation_IsTerraformResource(x interface{}) *bool
 ```
@@ -481,7 +481,7 @@ ec2ipamallocation.Ec2IpamAllocation_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.ec2IpamAllocation.Ec2IpamAllocation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2ipamallocation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2ipamallocation"
 
 ec2ipamallocation.Ec2IpamAllocation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -510,7 +510,7 @@ The construct id used in the generated config for the Ec2IpamAllocation to impor
 
 The id of the existing Ec2IpamAllocation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_ipam_allocation#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_ipam_allocation#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -820,7 +820,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2IpamAllocation.Ec2IpamAllocationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2ipamallocation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2ipamallocation"
 
 &ec2ipamallocation.Ec2IpamAllocationConfig {
 	Connection: interface{},
@@ -850,7 +850,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2ipamallocation"
 | <code><a href="#@cdktn/provider-awscc.ec2IpamAllocation.Ec2IpamAllocationConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ec2IpamAllocation.Ec2IpamAllocationConfig.property.ipamPoolId">IpamPoolId</a></code> | <code>*string</code> | Id of the IPAM Pool. |
 | <code><a href="#@cdktn/provider-awscc.ec2IpamAllocation.Ec2IpamAllocationConfig.property.cidr">Cidr</a></code> | <code>*string</code> | Represents an IPAM custom allocation of a single IPv4 or IPv6 CIDR. |
-| <code><a href="#@cdktn/provider-awscc.ec2IpamAllocation.Ec2IpamAllocationConfig.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_ipam_allocation#description Ec2IpamAllocation#description}. |
+| <code><a href="#@cdktn/provider-awscc.ec2IpamAllocation.Ec2IpamAllocationConfig.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_ipam_allocation#description Ec2IpamAllocation#description}. |
 | <code><a href="#@cdktn/provider-awscc.ec2IpamAllocation.Ec2IpamAllocationConfig.property.netmaskLength">NetmaskLength</a></code> | <code>*f64</code> | The desired netmask length of the allocation. |
 
 ---
@@ -935,7 +935,7 @@ IpamPoolId *string
 
 Id of the IPAM Pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_ipam_allocation#ipam_pool_id Ec2IpamAllocation#ipam_pool_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_ipam_allocation#ipam_pool_id Ec2IpamAllocation#ipam_pool_id}
 
 ---
 
@@ -949,7 +949,7 @@ Cidr *string
 
 Represents an IPAM custom allocation of a single IPv4 or IPv6 CIDR.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_ipam_allocation#cidr Ec2IpamAllocation#cidr}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_ipam_allocation#cidr Ec2IpamAllocation#cidr}
 
 ---
 
@@ -961,7 +961,7 @@ Description *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_ipam_allocation#description Ec2IpamAllocation#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_ipam_allocation#description Ec2IpamAllocation#description}.
 
 ---
 
@@ -977,7 +977,7 @@ The desired netmask length of the allocation.
 
 If set, IPAM will choose a block of free space with this size and return the CIDR representing it.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_ipam_allocation#netmask_length Ec2IpamAllocation#netmask_length}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_ipam_allocation#netmask_length Ec2IpamAllocation#netmask_length}
 
 ---
 

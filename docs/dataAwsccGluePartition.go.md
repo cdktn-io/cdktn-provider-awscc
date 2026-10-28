@@ -4,12 +4,12 @@
 
 ### DataAwsccGluePartition <a name="DataAwsccGluePartition" id="@cdktn/provider-awscc.dataAwsccGluePartition.DataAwsccGluePartition"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/glue_partition awscc_glue_partition}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/glue_partition awscc_glue_partition}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGluePartition.DataAwsccGluePartition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluepartition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluepartition"
 
 dataawsccgluepartition.NewDataAwsccGluePartition(scope Construct, id *string, config DataAwsccGluePartitionConfig) DataAwsccGluePartition
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccGluePartition.DataAwsccGluePartition.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluepartition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluepartition"
 
 dataawsccgluepartition.DataAwsccGluePartition_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccGluePartition.DataAwsccGluePartition.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluepartition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluepartition"
 
 dataawsccgluepartition.DataAwsccGluePartition_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccgluepartition.DataAwsccGluePartition_IsTerraformElement(x interface{}) 
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccGluePartition.DataAwsccGluePartition.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluepartition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluepartition"
 
 dataawsccgluepartition.DataAwsccGluePartition_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccgluepartition.DataAwsccGluePartition_IsTerraformDataSource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccGluePartition.DataAwsccGluePartition.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluepartition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluepartition"
 
 dataawsccgluepartition.DataAwsccGluePartition_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccGluePartition to 
 
 The id of the existing DataAwsccGluePartition that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/glue_partition#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/glue_partition#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -642,7 +642,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGluePartition.DataAwsccGluePartitionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluepartition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluepartition"
 
 &dataawsccgluepartition.DataAwsccGluePartitionConfig {
 	Connection: interface{},
@@ -751,7 +751,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/glue_partition#id DataAwsccGluePartition#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/glue_partition#id DataAwsccGluePartition#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -763,7 +763,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGluePartition.DataAwsccGluePartitionPartitionInput.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluepartition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluepartition"
 
 &dataawsccgluepartition.DataAwsccGluePartitionPartitionInput {
 
@@ -776,7 +776,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluepartition
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGluePartition.DataAwsccGluePartitionPartitionInputStorageDescriptor.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluepartition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluepartition"
 
 &dataawsccgluepartition.DataAwsccGluePartitionPartitionInputStorageDescriptor {
 
@@ -789,7 +789,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluepartition
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGluePartition.DataAwsccGluePartitionPartitionInputStorageDescriptorColumns.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluepartition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluepartition"
 
 &dataawsccgluepartition.DataAwsccGluePartitionPartitionInputStorageDescriptorColumns {
 
@@ -802,7 +802,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluepartition
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGluePartition.DataAwsccGluePartitionPartitionInputStorageDescriptorSchemaReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluepartition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluepartition"
 
 &dataawsccgluepartition.DataAwsccGluePartitionPartitionInputStorageDescriptorSchemaReference {
 
@@ -815,7 +815,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluepartition
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGluePartition.DataAwsccGluePartitionPartitionInputStorageDescriptorSchemaReferenceSchemaId.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluepartition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluepartition"
 
 &dataawsccgluepartition.DataAwsccGluePartitionPartitionInputStorageDescriptorSchemaReferenceSchemaId {
 
@@ -828,7 +828,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluepartition
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGluePartition.DataAwsccGluePartitionPartitionInputStorageDescriptorSerdeInfo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluepartition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluepartition"
 
 &dataawsccgluepartition.DataAwsccGluePartitionPartitionInputStorageDescriptorSerdeInfo {
 
@@ -841,7 +841,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluepartition
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGluePartition.DataAwsccGluePartitionPartitionInputStorageDescriptorSkewedInfo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluepartition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluepartition"
 
 &dataawsccgluepartition.DataAwsccGluePartitionPartitionInputStorageDescriptorSkewedInfo {
 
@@ -854,7 +854,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluepartition
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGluePartition.DataAwsccGluePartitionPartitionInputStorageDescriptorSortColumns.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluepartition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluepartition"
 
 &dataawsccgluepartition.DataAwsccGluePartitionPartitionInputStorageDescriptorSortColumns {
 
@@ -869,7 +869,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluepartition
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGluePartition.DataAwsccGluePartitionPartitionInputOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluepartition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluepartition"
 
 dataawsccgluepartition.NewDataAwsccGluePartitionPartitionInputOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGluePartitionPartitionInputOutputReference
 ```
@@ -1151,7 +1151,7 @@ func InternalValue() DataAwsccGluePartitionPartitionInput
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGluePartition.DataAwsccGluePartitionPartitionInputStorageDescriptorColumnsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluepartition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluepartition"
 
 dataawsccgluepartition.NewDataAwsccGluePartitionPartitionInputStorageDescriptorColumnsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccGluePartitionPartitionInputStorageDescriptorColumnsList
 ```
@@ -1300,7 +1300,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGluePartition.DataAwsccGluePartitionPartitionInputStorageDescriptorColumnsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluepartition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluepartition"
 
 dataawsccgluepartition.NewDataAwsccGluePartitionPartitionInputStorageDescriptorColumnsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccGluePartitionPartitionInputStorageDescriptorColumnsOutputReference
 ```
@@ -1600,7 +1600,7 @@ func InternalValue() DataAwsccGluePartitionPartitionInputStorageDescriptorColumn
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGluePartition.DataAwsccGluePartitionPartitionInputStorageDescriptorOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluepartition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluepartition"
 
 dataawsccgluepartition.NewDataAwsccGluePartitionPartitionInputStorageDescriptorOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGluePartitionPartitionInputStorageDescriptorOutputReference
 ```
@@ -1992,7 +1992,7 @@ func InternalValue() DataAwsccGluePartitionPartitionInputStorageDescriptor
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGluePartition.DataAwsccGluePartitionPartitionInputStorageDescriptorSchemaReferenceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluepartition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluepartition"
 
 dataawsccgluepartition.NewDataAwsccGluePartitionPartitionInputStorageDescriptorSchemaReferenceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGluePartitionPartitionInputStorageDescriptorSchemaReferenceOutputReference
 ```
@@ -2274,7 +2274,7 @@ func InternalValue() DataAwsccGluePartitionPartitionInputStorageDescriptorSchema
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGluePartition.DataAwsccGluePartitionPartitionInputStorageDescriptorSchemaReferenceSchemaIdOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluepartition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluepartition"
 
 dataawsccgluepartition.NewDataAwsccGluePartitionPartitionInputStorageDescriptorSchemaReferenceSchemaIdOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGluePartitionPartitionInputStorageDescriptorSchemaReferenceSchemaIdOutputReference
 ```
@@ -2556,7 +2556,7 @@ func InternalValue() DataAwsccGluePartitionPartitionInputStorageDescriptorSchema
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGluePartition.DataAwsccGluePartitionPartitionInputStorageDescriptorSerdeInfoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluepartition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluepartition"
 
 dataawsccgluepartition.NewDataAwsccGluePartitionPartitionInputStorageDescriptorSerdeInfoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGluePartitionPartitionInputStorageDescriptorSerdeInfoOutputReference
 ```
@@ -2838,7 +2838,7 @@ func InternalValue() DataAwsccGluePartitionPartitionInputStorageDescriptorSerdeI
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGluePartition.DataAwsccGluePartitionPartitionInputStorageDescriptorSkewedInfoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluepartition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluepartition"
 
 dataawsccgluepartition.NewDataAwsccGluePartitionPartitionInputStorageDescriptorSkewedInfoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGluePartitionPartitionInputStorageDescriptorSkewedInfoOutputReference
 ```
@@ -3120,7 +3120,7 @@ func InternalValue() DataAwsccGluePartitionPartitionInputStorageDescriptorSkewed
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGluePartition.DataAwsccGluePartitionPartitionInputStorageDescriptorSortColumnsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluepartition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluepartition"
 
 dataawsccgluepartition.NewDataAwsccGluePartitionPartitionInputStorageDescriptorSortColumnsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccGluePartitionPartitionInputStorageDescriptorSortColumnsList
 ```
@@ -3269,7 +3269,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGluePartition.DataAwsccGluePartitionPartitionInputStorageDescriptorSortColumnsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluepartition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluepartition"
 
 dataawsccgluepartition.NewDataAwsccGluePartitionPartitionInputStorageDescriptorSortColumnsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccGluePartitionPartitionInputStorageDescriptorSortColumnsOutputReference
 ```

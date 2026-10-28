@@ -4,12 +4,12 @@
 
 ### DataAwsccPersonalizeCampaign <a name="DataAwsccPersonalizeCampaign" id="@cdktn/provider-awscc.dataAwsccPersonalizeCampaign.DataAwsccPersonalizeCampaign"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/personalize_campaign awscc_personalize_campaign}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/personalize_campaign awscc_personalize_campaign}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPersonalizeCampaign.DataAwsccPersonalizeCampaign.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizecampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizecampaign"
 
 dataawsccpersonalizecampaign.NewDataAwsccPersonalizeCampaign(scope Construct, id *string, config DataAwsccPersonalizeCampaignConfig) DataAwsccPersonalizeCampaign
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccPersonalizeCampaign.DataAwsccPersonalizeCampaign.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizecampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizecampaign"
 
 dataawsccpersonalizecampaign.DataAwsccPersonalizeCampaign_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccPersonalizeCampaign.DataAwsccPersonalizeCampaign.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizecampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizecampaign"
 
 dataawsccpersonalizecampaign.DataAwsccPersonalizeCampaign_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccpersonalizecampaign.DataAwsccPersonalizeCampaign_IsTerraformElement(x i
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccPersonalizeCampaign.DataAwsccPersonalizeCampaign.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizecampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizecampaign"
 
 dataawsccpersonalizecampaign.DataAwsccPersonalizeCampaign_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccpersonalizecampaign.DataAwsccPersonalizeCampaign_IsTerraformDataSource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccPersonalizeCampaign.DataAwsccPersonalizeCampaign.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizecampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizecampaign"
 
 dataawsccpersonalizecampaign.DataAwsccPersonalizeCampaign_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccPersonalizeCampai
 
 The id of the existing DataAwsccPersonalizeCampaign that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/personalize_campaign#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/personalize_campaign#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -686,7 +686,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPersonalizeCampaign.DataAwsccPersonalizeCampaignCampaignConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizecampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizecampaign"
 
 &dataawsccpersonalizecampaign.DataAwsccPersonalizeCampaignCampaignConfig {
 
@@ -699,7 +699,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizeca
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPersonalizeCampaign.DataAwsccPersonalizeCampaignConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizecampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizecampaign"
 
 &dataawsccpersonalizecampaign.DataAwsccPersonalizeCampaignConfig {
 	Connection: interface{},
@@ -808,7 +808,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/personalize_campaign#id DataAwsccPersonalizeCampaign#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/personalize_campaign#id DataAwsccPersonalizeCampaign#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -820,7 +820,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPersonalizeCampaign.DataAwsccPersonalizeCampaignTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizecampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizecampaign"
 
 &dataawsccpersonalizecampaign.DataAwsccPersonalizeCampaignTags {
 
@@ -835,7 +835,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizeca
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPersonalizeCampaign.DataAwsccPersonalizeCampaignCampaignConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizecampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizecampaign"
 
 dataawsccpersonalizecampaign.NewDataAwsccPersonalizeCampaignCampaignConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPersonalizeCampaignCampaignConfigOutputReference
 ```
@@ -1128,7 +1128,7 @@ func InternalValue() DataAwsccPersonalizeCampaignCampaignConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPersonalizeCampaign.DataAwsccPersonalizeCampaignTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizecampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizecampaign"
 
 dataawsccpersonalizecampaign.NewDataAwsccPersonalizeCampaignTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccPersonalizeCampaignTagsList
 ```
@@ -1277,7 +1277,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPersonalizeCampaign.DataAwsccPersonalizeCampaignTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizecampaign"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizecampaign"
 
 dataawsccpersonalizecampaign.NewDataAwsccPersonalizeCampaignTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccPersonalizeCampaignTagsOutputReference
 ```

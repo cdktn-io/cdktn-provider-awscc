@@ -4,12 +4,12 @@
 
 ### KafkaconnectCustomPlugin <a name="KafkaconnectCustomPlugin" id="@cdktn/provider-awscc.kafkaconnectCustomPlugin.KafkaconnectCustomPlugin"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_custom_plugin awscc_kafkaconnect_custom_plugin}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_custom_plugin awscc_kafkaconnect_custom_plugin}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kafkaconnectCustomPlugin.KafkaconnectCustomPlugin.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectcustomplugin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kafkaconnectcustomplugin"
 
 kafkaconnectcustomplugin.NewKafkaconnectCustomPlugin(scope Construct, id *string, config KafkaconnectCustomPluginConfig) KafkaconnectCustomPlugin
 ```
@@ -440,7 +440,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.kafkaconnectCustomPlugin.KafkaconnectCustomPlugin.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectcustomplugin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kafkaconnectcustomplugin"
 
 kafkaconnectcustomplugin.KafkaconnectCustomPlugin_IsConstruct(x interface{}) *bool
 ```
@@ -472,7 +472,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.kafkaconnectCustomPlugin.KafkaconnectCustomPlugin.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectcustomplugin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kafkaconnectcustomplugin"
 
 kafkaconnectcustomplugin.KafkaconnectCustomPlugin_IsTerraformElement(x interface{}) *bool
 ```
@@ -486,7 +486,7 @@ kafkaconnectcustomplugin.KafkaconnectCustomPlugin_IsTerraformElement(x interface
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.kafkaconnectCustomPlugin.KafkaconnectCustomPlugin.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectcustomplugin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kafkaconnectcustomplugin"
 
 kafkaconnectcustomplugin.KafkaconnectCustomPlugin_IsTerraformResource(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ kafkaconnectcustomplugin.KafkaconnectCustomPlugin_IsTerraformResource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.kafkaconnectCustomPlugin.KafkaconnectCustomPlugin.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectcustomplugin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kafkaconnectcustomplugin"
 
 kafkaconnectcustomplugin.KafkaconnectCustomPlugin_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -529,7 +529,7 @@ The construct id used in the generated config for the KafkaconnectCustomPlugin t
 
 The id of the existing KafkaconnectCustomPlugin that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_custom_plugin#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_custom_plugin#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -883,7 +883,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.kafkaconnectCustomPlugin.KafkaconnectCustomPluginConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectcustomplugin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kafkaconnectcustomplugin"
 
 &kafkaconnectcustomplugin.KafkaconnectCustomPluginConfig {
 	Connection: interface{},
@@ -894,7 +894,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectcustomplug
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	ContentType: *string,
-	Location: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.kafkaconnectCustomPlugin.KafkaconnectCustomPluginLocation,
+	Location: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.kafkaconnectCustomPlugin.KafkaconnectCustomPluginLocation,
 	Name: *string,
 	Description: *string,
 	Tags: interface{},
@@ -1000,7 +1000,7 @@ ContentType *string
 
 The type of the plugin file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_custom_plugin#content_type KafkaconnectCustomPlugin#content_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_custom_plugin#content_type KafkaconnectCustomPlugin#content_type}
 
 ---
 
@@ -1014,7 +1014,7 @@ Location KafkaconnectCustomPluginLocation
 
 Information about the location of a custom plugin.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_custom_plugin#location KafkaconnectCustomPlugin#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_custom_plugin#location KafkaconnectCustomPlugin#location}
 
 ---
 
@@ -1028,7 +1028,7 @@ Name *string
 
 The name of the custom plugin.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_custom_plugin#name KafkaconnectCustomPlugin#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_custom_plugin#name KafkaconnectCustomPlugin#name}
 
 ---
 
@@ -1042,7 +1042,7 @@ Description *string
 
 A summary description of the custom plugin.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_custom_plugin#description KafkaconnectCustomPlugin#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_custom_plugin#description KafkaconnectCustomPlugin#description}
 
 ---
 
@@ -1056,7 +1056,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_custom_plugin#tags KafkaconnectCustomPlugin#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_custom_plugin#tags KafkaconnectCustomPlugin#tags}
 
 ---
 
@@ -1065,7 +1065,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.kafkaconnectCustomPlugin.KafkaconnectCustomPluginFileDescription.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectcustomplugin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kafkaconnectcustomplugin"
 
 &kafkaconnectcustomplugin.KafkaconnectCustomPluginFileDescription {
 
@@ -1078,10 +1078,10 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectcustomplug
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.kafkaconnectCustomPlugin.KafkaconnectCustomPluginLocation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectcustomplugin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kafkaconnectcustomplugin"
 
 &kafkaconnectcustomplugin.KafkaconnectCustomPluginLocation {
-	S3Location: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.kafkaconnectCustomPlugin.KafkaconnectCustomPluginLocationS3Location,
+	S3Location: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.kafkaconnectCustomPlugin.KafkaconnectCustomPluginLocationS3Location,
 }
 ```
 
@@ -1103,7 +1103,7 @@ S3Location KafkaconnectCustomPluginLocationS3Location
 
 The S3 bucket Amazon Resource Name (ARN), file key, and object version of the plugin file stored in Amazon S3.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_custom_plugin#s3_location KafkaconnectCustomPlugin#s3_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_custom_plugin#s3_location KafkaconnectCustomPlugin#s3_location}
 
 ---
 
@@ -1112,7 +1112,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.kafkaconnectCustomPlugin.KafkaconnectCustomPluginLocationS3Location.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectcustomplugin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kafkaconnectcustomplugin"
 
 &kafkaconnectcustomplugin.KafkaconnectCustomPluginLocationS3Location {
 	BucketArn: *string,
@@ -1141,7 +1141,7 @@ BucketArn *string
 
 The Amazon Resource Name (ARN) of an S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_custom_plugin#bucket_arn KafkaconnectCustomPlugin#bucket_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_custom_plugin#bucket_arn KafkaconnectCustomPlugin#bucket_arn}
 
 ---
 
@@ -1155,7 +1155,7 @@ FileKey *string
 
 The file key for an object in an S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_custom_plugin#file_key KafkaconnectCustomPlugin#file_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_custom_plugin#file_key KafkaconnectCustomPlugin#file_key}
 
 ---
 
@@ -1169,7 +1169,7 @@ ObjectVersion *string
 
 The version of an object in an S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_custom_plugin#object_version KafkaconnectCustomPlugin#object_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_custom_plugin#object_version KafkaconnectCustomPlugin#object_version}
 
 ---
 
@@ -1178,7 +1178,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.kafkaconnectCustomPlugin.KafkaconnectCustomPluginTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectcustomplugin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kafkaconnectcustomplugin"
 
 &kafkaconnectcustomplugin.KafkaconnectCustomPluginTags {
 	Key: *string,
@@ -1207,7 +1207,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_custom_plugin#key KafkaconnectCustomPlugin#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_custom_plugin#key KafkaconnectCustomPlugin#key}
 
 ---
 
@@ -1223,7 +1223,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_custom_plugin#value KafkaconnectCustomPlugin#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_custom_plugin#value KafkaconnectCustomPlugin#value}
 
 ---
 
@@ -1234,7 +1234,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kafkaconnectCustomPlugin.KafkaconnectCustomPluginFileDescriptionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectcustomplugin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kafkaconnectcustomplugin"
 
 kafkaconnectcustomplugin.NewKafkaconnectCustomPluginFileDescriptionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) KafkaconnectCustomPluginFileDescriptionOutputReference
 ```
@@ -1505,7 +1505,7 @@ func InternalValue() KafkaconnectCustomPluginFileDescription
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kafkaconnectCustomPlugin.KafkaconnectCustomPluginLocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectcustomplugin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kafkaconnectcustomplugin"
 
 kafkaconnectcustomplugin.NewKafkaconnectCustomPluginLocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) KafkaconnectCustomPluginLocationOutputReference
 ```
@@ -1789,7 +1789,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kafkaconnectCustomPlugin.KafkaconnectCustomPluginLocationS3LocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectcustomplugin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kafkaconnectcustomplugin"
 
 kafkaconnectcustomplugin.NewKafkaconnectCustomPluginLocationS3LocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) KafkaconnectCustomPluginLocationS3LocationOutputReference
 ```
@@ -2111,7 +2111,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kafkaconnectCustomPlugin.KafkaconnectCustomPluginTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectcustomplugin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kafkaconnectcustomplugin"
 
 kafkaconnectcustomplugin.NewKafkaconnectCustomPluginTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) KafkaconnectCustomPluginTagsList
 ```
@@ -2271,7 +2271,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kafkaconnectCustomPlugin.KafkaconnectCustomPluginTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectcustomplugin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kafkaconnectcustomplugin"
 
 kafkaconnectcustomplugin.NewKafkaconnectCustomPluginTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) KafkaconnectCustomPluginTagsOutputReference
 ```

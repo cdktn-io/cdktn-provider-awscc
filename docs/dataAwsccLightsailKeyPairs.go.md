@@ -4,12 +4,12 @@
 
 ### DataAwsccLightsailKeyPairs <a name="DataAwsccLightsailKeyPairs" id="@cdktn/provider-awscc.dataAwsccLightsailKeyPairs.DataAwsccLightsailKeyPairs"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lightsail_key_pairs awscc_lightsail_key_pairs}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lightsail_key_pairs awscc_lightsail_key_pairs}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLightsailKeyPairs.DataAwsccLightsailKeyPairs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailkeypairs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailkeypairs"
 
 dataawscclightsailkeypairs.NewDataAwsccLightsailKeyPairs(scope Construct, id *string, config DataAwsccLightsailKeyPairsConfig) DataAwsccLightsailKeyPairs
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccLightsailKeyPairs.DataAwsccLightsailKeyPairs.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailkeypairs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailkeypairs"
 
 dataawscclightsailkeypairs.DataAwsccLightsailKeyPairs_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccLightsailKeyPairs.DataAwsccLightsailKeyPairs.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailkeypairs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailkeypairs"
 
 dataawscclightsailkeypairs.DataAwsccLightsailKeyPairs_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscclightsailkeypairs.DataAwsccLightsailKeyPairs_IsTerraformElement(x inter
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccLightsailKeyPairs.DataAwsccLightsailKeyPairs.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailkeypairs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailkeypairs"
 
 dataawscclightsailkeypairs.DataAwsccLightsailKeyPairs_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscclightsailkeypairs.DataAwsccLightsailKeyPairs_IsTerraformDataSource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccLightsailKeyPairs.DataAwsccLightsailKeyPairs.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailkeypairs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailkeypairs"
 
 dataawscclightsailkeypairs.DataAwsccLightsailKeyPairs_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLightsailKeyPairs
 
 The id of the existing DataAwsccLightsailKeyPairs that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lightsail_key_pairs#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lightsail_key_pairs#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLightsailKeyPairs.DataAwsccLightsailKeyPairsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailkeypairs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailkeypairs"
 
 &dataawscclightsailkeypairs.DataAwsccLightsailKeyPairsConfig {
 	Connection: interface{},

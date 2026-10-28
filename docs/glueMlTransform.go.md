@@ -4,12 +4,12 @@
 
 ### GlueMlTransform <a name="GlueMlTransform" id="@cdktn/provider-awscc.glueMlTransform.GlueMlTransform"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_ml_transform awscc_glue_ml_transform}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_ml_transform awscc_glue_ml_transform}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueMlTransform.GlueMlTransform.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluemltransform"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluemltransform"
 
 gluemltransform.NewGlueMlTransform(scope Construct, id *string, config GlueMlTransformConfig) GlueMlTransform
 ```
@@ -509,7 +509,7 @@ func ResetWorkerType()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.glueMlTransform.GlueMlTransform.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluemltransform"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluemltransform"
 
 gluemltransform.GlueMlTransform_IsConstruct(x interface{}) *bool
 ```
@@ -541,7 +541,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.glueMlTransform.GlueMlTransform.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluemltransform"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluemltransform"
 
 gluemltransform.GlueMlTransform_IsTerraformElement(x interface{}) *bool
 ```
@@ -555,7 +555,7 @@ gluemltransform.GlueMlTransform_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.glueMlTransform.GlueMlTransform.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluemltransform"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluemltransform"
 
 gluemltransform.GlueMlTransform_IsTerraformResource(x interface{}) *bool
 ```
@@ -569,7 +569,7 @@ gluemltransform.GlueMlTransform_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.glueMlTransform.GlueMlTransform.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluemltransform"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluemltransform"
 
 gluemltransform.GlueMlTransform_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -598,7 +598,7 @@ The construct id used in the generated config for the GlueMlTransform to import.
 
 The id of the existing GlueMlTransform that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_ml_transform#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_ml_transform#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1106,7 +1106,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueMlTransform.GlueMlTransformConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluemltransform"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluemltransform"
 
 &gluemltransform.GlueMlTransformConfig {
 	Connection: interface{},
@@ -1116,9 +1116,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluemltransform"
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	InputRecordTables: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueMlTransform.GlueMlTransformInputRecordTables,
+	InputRecordTables: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueMlTransform.GlueMlTransformInputRecordTables,
 	Role: *string,
-	TransformParameters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueMlTransform.GlueMlTransformTransformParameters,
+	TransformParameters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueMlTransform.GlueMlTransformTransformParameters,
 	Description: *string,
 	GlueVersion: *string,
 	MaxCapacity: *f64,
@@ -1127,7 +1127,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluemltransform"
 	NumberOfWorkers: *f64,
 	Tags: *map[string]*string,
 	Timeout: *f64,
-	TransformEncryption: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueMlTransform.GlueMlTransformTransformEncryption,
+	TransformEncryption: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueMlTransform.GlueMlTransformTransformEncryption,
 	WorkerType: *string,
 }
 ```
@@ -1239,7 +1239,7 @@ InputRecordTables GlueMlTransformInputRecordTables
 
 A list of AWS Glue table definitions used by the transform.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_ml_transform#input_record_tables GlueMlTransform#input_record_tables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_ml_transform#input_record_tables GlueMlTransform#input_record_tables}
 
 ---
 
@@ -1253,7 +1253,7 @@ Role *string
 
 The name or ARN of the IAM role with the required permissions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_ml_transform#role GlueMlTransform#role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_ml_transform#role GlueMlTransform#role}
 
 ---
 
@@ -1267,7 +1267,7 @@ TransformParameters GlueMlTransformTransformParameters
 
 The algorithm-specific parameters that are associated with the machine learning transform.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_ml_transform#transform_parameters GlueMlTransform#transform_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_ml_transform#transform_parameters GlueMlTransform#transform_parameters}
 
 ---
 
@@ -1281,7 +1281,7 @@ Description *string
 
 A user-defined, long-form description text for the machine learning transform.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_ml_transform#description GlueMlTransform#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_ml_transform#description GlueMlTransform#description}
 
 ---
 
@@ -1295,7 +1295,7 @@ GlueVersion *string
 
 The version of AWS Glue this machine learning transform is compatible with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_ml_transform#glue_version GlueMlTransform#glue_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_ml_transform#glue_version GlueMlTransform#glue_version}
 
 ---
 
@@ -1309,7 +1309,7 @@ MaxCapacity *f64
 
 The number of AWS Glue DPUs allocated to task runs for this transform.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_ml_transform#max_capacity GlueMlTransform#max_capacity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_ml_transform#max_capacity GlueMlTransform#max_capacity}
 
 ---
 
@@ -1323,7 +1323,7 @@ MaxRetries *f64
 
 The maximum number of times to retry after an MLTaskRun fails.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_ml_transform#max_retries GlueMlTransform#max_retries}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_ml_transform#max_retries GlueMlTransform#max_retries}
 
 ---
 
@@ -1337,7 +1337,7 @@ Name *string
 
 A user-defined name for the machine learning transform.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_ml_transform#name GlueMlTransform#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_ml_transform#name GlueMlTransform#name}
 
 ---
 
@@ -1351,7 +1351,7 @@ NumberOfWorkers *f64
 
 The number of workers of a defined workerType that are allocated when a task runs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_ml_transform#number_of_workers GlueMlTransform#number_of_workers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_ml_transform#number_of_workers GlueMlTransform#number_of_workers}
 
 ---
 
@@ -1365,7 +1365,7 @@ Tags *map[string]*string
 
 The tags to use with this machine learning transform.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_ml_transform#tags GlueMlTransform#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_ml_transform#tags GlueMlTransform#tags}
 
 ---
 
@@ -1379,7 +1379,7 @@ Timeout *f64
 
 The timeout in minutes of the machine learning transform.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_ml_transform#timeout GlueMlTransform#timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_ml_transform#timeout GlueMlTransform#timeout}
 
 ---
 
@@ -1393,7 +1393,7 @@ TransformEncryption GlueMlTransformTransformEncryption
 
 The encryption-at-rest settings of the transform.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_ml_transform#transform_encryption GlueMlTransform#transform_encryption}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_ml_transform#transform_encryption GlueMlTransform#transform_encryption}
 
 ---
 
@@ -1407,7 +1407,7 @@ WorkerType *string
 
 The type of predefined worker that is allocated when a task runs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_ml_transform#worker_type GlueMlTransform#worker_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_ml_transform#worker_type GlueMlTransform#worker_type}
 
 ---
 
@@ -1416,7 +1416,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueMlTransform.GlueMlTransformInputRecordTables.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluemltransform"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluemltransform"
 
 &gluemltransform.GlueMlTransformInputRecordTables {
 	GlueTables: interface{},
@@ -1441,7 +1441,7 @@ GlueTables interface{}
 
 The database and table in the AWS Glue Data Catalog that is used for input or output data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_ml_transform#glue_tables GlueMlTransform#glue_tables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_ml_transform#glue_tables GlueMlTransform#glue_tables}
 
 ---
 
@@ -1450,7 +1450,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueMlTransform.GlueMlTransformInputRecordTablesGlueTables.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluemltransform"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluemltransform"
 
 &gluemltransform.GlueMlTransformInputRecordTablesGlueTables {
 	CatalogId: *string,
@@ -1481,7 +1481,7 @@ CatalogId *string
 
 A unique identifier for the AWS Glue Data Catalog.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_ml_transform#catalog_id GlueMlTransform#catalog_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_ml_transform#catalog_id GlueMlTransform#catalog_id}
 
 ---
 
@@ -1495,7 +1495,7 @@ ConnectionName *string
 
 The name of the connection to the AWS Glue Data Catalog.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_ml_transform#connection_name GlueMlTransform#connection_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_ml_transform#connection_name GlueMlTransform#connection_name}
 
 ---
 
@@ -1509,7 +1509,7 @@ DatabaseName *string
 
 A database name in the AWS Glue Data Catalog.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_ml_transform#database_name GlueMlTransform#database_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_ml_transform#database_name GlueMlTransform#database_name}
 
 ---
 
@@ -1523,7 +1523,7 @@ TableName *string
 
 A table name in the AWS Glue Data Catalog.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_ml_transform#table_name GlueMlTransform#table_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_ml_transform#table_name GlueMlTransform#table_name}
 
 ---
 
@@ -1532,10 +1532,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueMlTransform.GlueMlTransformTransformEncryption.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluemltransform"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluemltransform"
 
 &gluemltransform.GlueMlTransformTransformEncryption {
-	MlUserDataEncryption: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueMlTransform.GlueMlTransformTransformEncryptionMlUserDataEncryption,
+	MlUserDataEncryption: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueMlTransform.GlueMlTransformTransformEncryptionMlUserDataEncryption,
 	TaskRunSecurityConfigurationName: *string,
 }
 ```
@@ -1559,7 +1559,7 @@ MlUserDataEncryption GlueMlTransformTransformEncryptionMlUserDataEncryption
 
 The encryption-at-rest settings of the transform that apply to accessing user data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_ml_transform#ml_user_data_encryption GlueMlTransform#ml_user_data_encryption}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_ml_transform#ml_user_data_encryption GlueMlTransform#ml_user_data_encryption}
 
 ---
 
@@ -1573,7 +1573,7 @@ TaskRunSecurityConfigurationName *string
 
 The name of the security configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_ml_transform#task_run_security_configuration_name GlueMlTransform#task_run_security_configuration_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_ml_transform#task_run_security_configuration_name GlueMlTransform#task_run_security_configuration_name}
 
 ---
 
@@ -1582,7 +1582,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueMlTransform.GlueMlTransformTransformEncryptionMlUserDataEncryption.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluemltransform"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluemltransform"
 
 &gluemltransform.GlueMlTransformTransformEncryptionMlUserDataEncryption {
 	KmsKeyId: *string,
@@ -1609,7 +1609,7 @@ KmsKeyId *string
 
 The ID for the customer-provided KMS key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_ml_transform#kms_key_id GlueMlTransform#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_ml_transform#kms_key_id GlueMlTransform#kms_key_id}
 
 ---
 
@@ -1623,7 +1623,7 @@ MlUserDataEncryptionMode *string
 
 The encryption mode applied to user data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_ml_transform#ml_user_data_encryption_mode GlueMlTransform#ml_user_data_encryption_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_ml_transform#ml_user_data_encryption_mode GlueMlTransform#ml_user_data_encryption_mode}
 
 ---
 
@@ -1632,11 +1632,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueMlTransform.GlueMlTransformTransformParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluemltransform"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluemltransform"
 
 &gluemltransform.GlueMlTransformTransformParameters {
 	TransformType: *string,
-	FindMatchesParameters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueMlTransform.GlueMlTransformTransformParametersFindMatchesParameters,
+	FindMatchesParameters: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueMlTransform.GlueMlTransformTransformParametersFindMatchesParameters,
 }
 ```
 
@@ -1659,7 +1659,7 @@ TransformType *string
 
 The type of machine learning transform.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_ml_transform#transform_type GlueMlTransform#transform_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_ml_transform#transform_type GlueMlTransform#transform_type}
 
 ---
 
@@ -1673,7 +1673,7 @@ FindMatchesParameters GlueMlTransformTransformParametersFindMatchesParameters
 
 The parameters to configure the find matches transform.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_ml_transform#find_matches_parameters GlueMlTransform#find_matches_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_ml_transform#find_matches_parameters GlueMlTransform#find_matches_parameters}
 
 ---
 
@@ -1682,7 +1682,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueMlTransform.GlueMlTransformTransformParametersFindMatchesParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluemltransform"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluemltransform"
 
 &gluemltransform.GlueMlTransformTransformParametersFindMatchesParameters {
 	AccuracyCostTradeoff: *f64,
@@ -1713,7 +1713,7 @@ AccuracyCostTradeoff *f64
 
 The value for accuracy and cost tradeoff. A value of 0.5 means balance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_ml_transform#accuracy_cost_tradeoff GlueMlTransform#accuracy_cost_tradeoff}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_ml_transform#accuracy_cost_tradeoff GlueMlTransform#accuracy_cost_tradeoff}
 
 ---
 
@@ -1727,7 +1727,7 @@ EnforceProvidedLabels interface{}
 
 If true, forces the output to match the provided labels.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_ml_transform#enforce_provided_labels GlueMlTransform#enforce_provided_labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_ml_transform#enforce_provided_labels GlueMlTransform#enforce_provided_labels}
 
 ---
 
@@ -1741,7 +1741,7 @@ PrecisionRecallTradeoff *f64
 
 The value for precision and recall tradeoff. A value of 0.5 means no preference.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_ml_transform#precision_recall_tradeoff GlueMlTransform#precision_recall_tradeoff}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_ml_transform#precision_recall_tradeoff GlueMlTransform#precision_recall_tradeoff}
 
 ---
 
@@ -1755,7 +1755,7 @@ PrimaryKeyColumnName *string
 
 The name of a column that uniquely identifies rows in the source table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_ml_transform#primary_key_column_name GlueMlTransform#primary_key_column_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_ml_transform#primary_key_column_name GlueMlTransform#primary_key_column_name}
 
 ---
 
@@ -1766,7 +1766,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueMlTransform.GlueMlTransformInputRecordTablesGlueTablesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluemltransform"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluemltransform"
 
 gluemltransform.NewGlueMlTransformInputRecordTablesGlueTablesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GlueMlTransformInputRecordTablesGlueTablesList
 ```
@@ -1926,7 +1926,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueMlTransform.GlueMlTransformInputRecordTablesGlueTablesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluemltransform"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluemltransform"
 
 gluemltransform.NewGlueMlTransformInputRecordTablesGlueTablesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GlueMlTransformInputRecordTablesGlueTablesOutputReference
 ```
@@ -2309,7 +2309,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueMlTransform.GlueMlTransformInputRecordTablesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluemltransform"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluemltransform"
 
 gluemltransform.NewGlueMlTransformInputRecordTablesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueMlTransformInputRecordTablesOutputReference
 ```
@@ -2600,7 +2600,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueMlTransform.GlueMlTransformTransformEncryptionMlUserDataEncryptionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluemltransform"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluemltransform"
 
 gluemltransform.NewGlueMlTransformTransformEncryptionMlUserDataEncryptionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueMlTransformTransformEncryptionMlUserDataEncryptionOutputReference
 ```
@@ -2907,7 +2907,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueMlTransform.GlueMlTransformTransformEncryptionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluemltransform"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluemltransform"
 
 gluemltransform.NewGlueMlTransformTransformEncryptionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueMlTransformTransformEncryptionOutputReference
 ```
@@ -3227,7 +3227,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueMlTransform.GlueMlTransformTransformParametersFindMatchesParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluemltransform"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluemltransform"
 
 gluemltransform.NewGlueMlTransformTransformParametersFindMatchesParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueMlTransformTransformParametersFindMatchesParametersOutputReference
 ```
@@ -3592,7 +3592,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueMlTransform.GlueMlTransformTransformParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluemltransform"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluemltransform"
 
 gluemltransform.NewGlueMlTransformTransformParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueMlTransformTransformParametersOutputReference
 ```

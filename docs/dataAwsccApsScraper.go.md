@@ -4,12 +4,12 @@
 
 ### DataAwsccApsScraper <a name="DataAwsccApsScraper" id="@cdktn/provider-awscc.dataAwsccApsScraper.DataAwsccApsScraper"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/aps_scraper awscc_aps_scraper}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/aps_scraper awscc_aps_scraper}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApsScraper.DataAwsccApsScraper.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapsscraper"
 
 dataawsccapsscraper.NewDataAwsccApsScraper(scope Construct, id *string, config DataAwsccApsScraperConfig) DataAwsccApsScraper
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccApsScraper.DataAwsccApsScraper.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapsscraper"
 
 dataawsccapsscraper.DataAwsccApsScraper_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccApsScraper.DataAwsccApsScraper.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapsscraper"
 
 dataawsccapsscraper.DataAwsccApsScraper_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccapsscraper.DataAwsccApsScraper_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccApsScraper.DataAwsccApsScraper.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapsscraper"
 
 dataawsccapsscraper.DataAwsccApsScraper_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccapsscraper.DataAwsccApsScraper_IsTerraformDataSource(x interface{}) *bo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccApsScraper.DataAwsccApsScraper.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapsscraper"
 
 dataawsccapsscraper.DataAwsccApsScraper_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccApsScraper to imp
 
 The id of the existing DataAwsccApsScraper that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/aps_scraper#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/aps_scraper#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -697,7 +697,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApsScraper.DataAwsccApsScraperConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapsscraper"
 
 &dataawsccapsscraper.DataAwsccApsScraperConfig {
 	Connection: interface{},
@@ -806,7 +806,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/aps_scraper#id DataAwsccApsScraper#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/aps_scraper#id DataAwsccApsScraper#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -818,7 +818,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApsScraper.DataAwsccApsScraperDestination.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapsscraper"
 
 &dataawsccapsscraper.DataAwsccApsScraperDestination {
 
@@ -831,7 +831,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsscraper"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApsScraper.DataAwsccApsScraperDestinationAmpConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapsscraper"
 
 &dataawsccapsscraper.DataAwsccApsScraperDestinationAmpConfiguration {
 
@@ -844,7 +844,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsscraper"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApsScraper.DataAwsccApsScraperDestinationCloudwatchConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapsscraper"
 
 &dataawsccapsscraper.DataAwsccApsScraperDestinationCloudwatchConfiguration {
 
@@ -857,7 +857,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsscraper"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApsScraper.DataAwsccApsScraperRoleConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapsscraper"
 
 &dataawsccapsscraper.DataAwsccApsScraperRoleConfiguration {
 
@@ -870,7 +870,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsscraper"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApsScraper.DataAwsccApsScraperScrapeConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapsscraper"
 
 &dataawsccapsscraper.DataAwsccApsScraperScrapeConfiguration {
 
@@ -883,7 +883,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsscraper"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApsScraper.DataAwsccApsScraperScraperLoggingConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapsscraper"
 
 &dataawsccapsscraper.DataAwsccApsScraperScraperLoggingConfiguration {
 
@@ -896,7 +896,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsscraper"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApsScraper.DataAwsccApsScraperScraperLoggingConfigurationLoggingDestination.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapsscraper"
 
 &dataawsccapsscraper.DataAwsccApsScraperScraperLoggingConfigurationLoggingDestination {
 
@@ -909,7 +909,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsscraper"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApsScraper.DataAwsccApsScraperScraperLoggingConfigurationLoggingDestinationCloudwatchLogs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapsscraper"
 
 &dataawsccapsscraper.DataAwsccApsScraperScraperLoggingConfigurationLoggingDestinationCloudwatchLogs {
 
@@ -922,7 +922,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsscraper"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApsScraper.DataAwsccApsScraperScraperLoggingConfigurationScraperComponents.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapsscraper"
 
 &dataawsccapsscraper.DataAwsccApsScraperScraperLoggingConfigurationScraperComponents {
 
@@ -935,7 +935,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsscraper"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApsScraper.DataAwsccApsScraperScraperLoggingConfigurationScraperComponentsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapsscraper"
 
 &dataawsccapsscraper.DataAwsccApsScraperScraperLoggingConfigurationScraperComponentsConfig {
 
@@ -948,7 +948,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsscraper"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApsScraper.DataAwsccApsScraperSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapsscraper"
 
 &dataawsccapsscraper.DataAwsccApsScraperSource {
 
@@ -961,7 +961,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsscraper"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApsScraper.DataAwsccApsScraperSourceEksConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapsscraper"
 
 &dataawsccapsscraper.DataAwsccApsScraperSourceEksConfiguration {
 
@@ -974,7 +974,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsscraper"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApsScraper.DataAwsccApsScraperSourceVpcConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapsscraper"
 
 &dataawsccapsscraper.DataAwsccApsScraperSourceVpcConfiguration {
 
@@ -987,7 +987,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsscraper"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApsScraper.DataAwsccApsScraperTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapsscraper"
 
 &dataawsccapsscraper.DataAwsccApsScraperTags {
 
@@ -1002,7 +1002,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsscraper"
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApsScraper.DataAwsccApsScraperDestinationAmpConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapsscraper"
 
 dataawsccapsscraper.NewDataAwsccApsScraperDestinationAmpConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApsScraperDestinationAmpConfigurationOutputReference
 ```
@@ -1262,7 +1262,7 @@ func InternalValue() DataAwsccApsScraperDestinationAmpConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApsScraper.DataAwsccApsScraperDestinationCloudwatchConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapsscraper"
 
 dataawsccapsscraper.NewDataAwsccApsScraperDestinationCloudwatchConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApsScraperDestinationCloudwatchConfigurationOutputReference
 ```
@@ -1522,7 +1522,7 @@ func InternalValue() DataAwsccApsScraperDestinationCloudwatchConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApsScraper.DataAwsccApsScraperDestinationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapsscraper"
 
 dataawsccapsscraper.NewDataAwsccApsScraperDestinationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApsScraperDestinationOutputReference
 ```
@@ -1793,7 +1793,7 @@ func InternalValue() DataAwsccApsScraperDestination
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApsScraper.DataAwsccApsScraperRoleConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapsscraper"
 
 dataawsccapsscraper.NewDataAwsccApsScraperRoleConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApsScraperRoleConfigurationOutputReference
 ```
@@ -2064,7 +2064,7 @@ func InternalValue() DataAwsccApsScraperRoleConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApsScraper.DataAwsccApsScraperScrapeConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapsscraper"
 
 dataawsccapsscraper.NewDataAwsccApsScraperScrapeConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApsScraperScrapeConfigurationOutputReference
 ```
@@ -2324,7 +2324,7 @@ func InternalValue() DataAwsccApsScraperScrapeConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApsScraper.DataAwsccApsScraperScraperLoggingConfigurationLoggingDestinationCloudwatchLogsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapsscraper"
 
 dataawsccapsscraper.NewDataAwsccApsScraperScraperLoggingConfigurationLoggingDestinationCloudwatchLogsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApsScraperScraperLoggingConfigurationLoggingDestinationCloudwatchLogsOutputReference
 ```
@@ -2584,7 +2584,7 @@ func InternalValue() DataAwsccApsScraperScraperLoggingConfigurationLoggingDestin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApsScraper.DataAwsccApsScraperScraperLoggingConfigurationLoggingDestinationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapsscraper"
 
 dataawsccapsscraper.NewDataAwsccApsScraperScraperLoggingConfigurationLoggingDestinationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApsScraperScraperLoggingConfigurationLoggingDestinationOutputReference
 ```
@@ -2844,7 +2844,7 @@ func InternalValue() DataAwsccApsScraperScraperLoggingConfigurationLoggingDestin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApsScraper.DataAwsccApsScraperScraperLoggingConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapsscraper"
 
 dataawsccapsscraper.NewDataAwsccApsScraperScraperLoggingConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApsScraperScraperLoggingConfigurationOutputReference
 ```
@@ -3115,7 +3115,7 @@ func InternalValue() DataAwsccApsScraperScraperLoggingConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApsScraper.DataAwsccApsScraperScraperLoggingConfigurationScraperComponentsConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapsscraper"
 
 dataawsccapsscraper.NewDataAwsccApsScraperScraperLoggingConfigurationScraperComponentsConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApsScraperScraperLoggingConfigurationScraperComponentsConfigOutputReference
 ```
@@ -3375,7 +3375,7 @@ func InternalValue() DataAwsccApsScraperScraperLoggingConfigurationScraperCompon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApsScraper.DataAwsccApsScraperScraperLoggingConfigurationScraperComponentsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapsscraper"
 
 dataawsccapsscraper.NewDataAwsccApsScraperScraperLoggingConfigurationScraperComponentsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccApsScraperScraperLoggingConfigurationScraperComponentsList
 ```
@@ -3524,7 +3524,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApsScraper.DataAwsccApsScraperScraperLoggingConfigurationScraperComponentsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapsscraper"
 
 dataawsccapsscraper.NewDataAwsccApsScraperScraperLoggingConfigurationScraperComponentsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccApsScraperScraperLoggingConfigurationScraperComponentsOutputReference
 ```
@@ -3813,7 +3813,7 @@ func InternalValue() DataAwsccApsScraperScraperLoggingConfigurationScraperCompon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApsScraper.DataAwsccApsScraperSourceEksConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapsscraper"
 
 dataawsccapsscraper.NewDataAwsccApsScraperSourceEksConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApsScraperSourceEksConfigurationOutputReference
 ```
@@ -4095,7 +4095,7 @@ func InternalValue() DataAwsccApsScraperSourceEksConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApsScraper.DataAwsccApsScraperSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapsscraper"
 
 dataawsccapsscraper.NewDataAwsccApsScraperSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApsScraperSourceOutputReference
 ```
@@ -4366,7 +4366,7 @@ func InternalValue() DataAwsccApsScraperSource
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApsScraper.DataAwsccApsScraperSourceVpcConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapsscraper"
 
 dataawsccapsscraper.NewDataAwsccApsScraperSourceVpcConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApsScraperSourceVpcConfigurationOutputReference
 ```
@@ -4637,7 +4637,7 @@ func InternalValue() DataAwsccApsScraperSourceVpcConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApsScraper.DataAwsccApsScraperTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapsscraper"
 
 dataawsccapsscraper.NewDataAwsccApsScraperTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccApsScraperTagsList
 ```
@@ -4786,7 +4786,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApsScraper.DataAwsccApsScraperTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapsscraper"
 
 dataawsccapsscraper.NewDataAwsccApsScraperTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccApsScraperTagsOutputReference
 ```

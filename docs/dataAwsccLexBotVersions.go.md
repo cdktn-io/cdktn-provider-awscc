@@ -4,12 +4,12 @@
 
 ### DataAwsccLexBotVersions <a name="DataAwsccLexBotVersions" id="@cdktn/provider-awscc.dataAwsccLexBotVersions.DataAwsccLexBotVersions"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lex_bot_versions awscc_lex_bot_versions}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lex_bot_versions awscc_lex_bot_versions}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBotVersions.DataAwsccLexBotVersions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbotversions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbotversions"
 
 dataawscclexbotversions.NewDataAwsccLexBotVersions(scope Construct, id *string, config DataAwsccLexBotVersionsConfig) DataAwsccLexBotVersions
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccLexBotVersions.DataAwsccLexBotVersions.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbotversions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbotversions"
 
 dataawscclexbotversions.DataAwsccLexBotVersions_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccLexBotVersions.DataAwsccLexBotVersions.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbotversions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbotversions"
 
 dataawscclexbotversions.DataAwsccLexBotVersions_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscclexbotversions.DataAwsccLexBotVersions_IsTerraformElement(x interface{}
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccLexBotVersions.DataAwsccLexBotVersions.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbotversions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbotversions"
 
 dataawscclexbotversions.DataAwsccLexBotVersions_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscclexbotversions.DataAwsccLexBotVersions_IsTerraformDataSource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccLexBotVersions.DataAwsccLexBotVersions.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbotversions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbotversions"
 
 dataawscclexbotversions.DataAwsccLexBotVersions_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLexBotVersions to
 
 The id of the existing DataAwsccLexBotVersions that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lex_bot_versions#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lex_bot_versions#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBotVersions.DataAwsccLexBotVersionsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbotversions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbotversions"
 
 &dataawscclexbotversions.DataAwsccLexBotVersionsConfig {
 	Connection: interface{},

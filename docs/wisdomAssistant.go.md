@@ -4,12 +4,12 @@
 
 ### WisdomAssistant <a name="WisdomAssistant" id="@cdktn/provider-awscc.wisdomAssistant.WisdomAssistant"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_assistant awscc_wisdom_assistant}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_assistant awscc_wisdom_assistant}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.wisdomAssistant.WisdomAssistant.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomassistant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomassistant"
 
 wisdomassistant.NewWisdomAssistant(scope Construct, id *string, config WisdomAssistantConfig) WisdomAssistant
 ```
@@ -447,7 +447,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.wisdomAssistant.WisdomAssistant.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomassistant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomassistant"
 
 wisdomassistant.WisdomAssistant_IsConstruct(x interface{}) *bool
 ```
@@ -479,7 +479,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.wisdomAssistant.WisdomAssistant.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomassistant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomassistant"
 
 wisdomassistant.WisdomAssistant_IsTerraformElement(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ wisdomassistant.WisdomAssistant_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.wisdomAssistant.WisdomAssistant.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomassistant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomassistant"
 
 wisdomassistant.WisdomAssistant_IsTerraformResource(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ wisdomassistant.WisdomAssistant_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.wisdomAssistant.WisdomAssistant.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomassistant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomassistant"
 
 wisdomassistant.WisdomAssistant_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -536,7 +536,7 @@ The construct id used in the generated config for the WisdomAssistant to import.
 
 The id of the existing WisdomAssistant that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_assistant#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_assistant#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -879,7 +879,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.wisdomAssistant.WisdomAssistantConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomassistant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomassistant"
 
 &wisdomassistant.WisdomAssistantConfig {
 	Connection: interface{},
@@ -892,7 +892,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomassistant"
 	Name: *string,
 	Type: *string,
 	Description: *string,
-	ServerSideEncryptionConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.wisdomAssistant.WisdomAssistantServerSideEncryptionConfiguration,
+	ServerSideEncryptionConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.wisdomAssistant.WisdomAssistantServerSideEncryptionConfiguration,
 	Tags: interface{},
 }
 ```
@@ -908,11 +908,11 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomassistant"
 | <code><a href="#@cdktn/provider-awscc.wisdomAssistant.WisdomAssistantConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.wisdomAssistant.WisdomAssistantConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.wisdomAssistant.WisdomAssistantConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.wisdomAssistant.WisdomAssistantConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_assistant#name WisdomAssistant#name}. |
-| <code><a href="#@cdktn/provider-awscc.wisdomAssistant.WisdomAssistantConfig.property.type">Type</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_assistant#type WisdomAssistant#type}. |
-| <code><a href="#@cdktn/provider-awscc.wisdomAssistant.WisdomAssistantConfig.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_assistant#description WisdomAssistant#description}. |
-| <code><a href="#@cdktn/provider-awscc.wisdomAssistant.WisdomAssistantConfig.property.serverSideEncryptionConfiguration">ServerSideEncryptionConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.wisdomAssistant.WisdomAssistantServerSideEncryptionConfiguration">WisdomAssistantServerSideEncryptionConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_assistant#server_side_encryption_configuration WisdomAssistant#server_side_encryption_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.wisdomAssistant.WisdomAssistantConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_assistant#tags WisdomAssistant#tags}. |
+| <code><a href="#@cdktn/provider-awscc.wisdomAssistant.WisdomAssistantConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_assistant#name WisdomAssistant#name}. |
+| <code><a href="#@cdktn/provider-awscc.wisdomAssistant.WisdomAssistantConfig.property.type">Type</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_assistant#type WisdomAssistant#type}. |
+| <code><a href="#@cdktn/provider-awscc.wisdomAssistant.WisdomAssistantConfig.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_assistant#description WisdomAssistant#description}. |
+| <code><a href="#@cdktn/provider-awscc.wisdomAssistant.WisdomAssistantConfig.property.serverSideEncryptionConfiguration">ServerSideEncryptionConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.wisdomAssistant.WisdomAssistantServerSideEncryptionConfiguration">WisdomAssistantServerSideEncryptionConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_assistant#server_side_encryption_configuration WisdomAssistant#server_side_encryption_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.wisdomAssistant.WisdomAssistantConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_assistant#tags WisdomAssistant#tags}. |
 
 ---
 
@@ -994,7 +994,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_assistant#name WisdomAssistant#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_assistant#name WisdomAssistant#name}.
 
 ---
 
@@ -1006,7 +1006,7 @@ Type *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_assistant#type WisdomAssistant#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_assistant#type WisdomAssistant#type}.
 
 ---
 
@@ -1018,7 +1018,7 @@ Description *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_assistant#description WisdomAssistant#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_assistant#description WisdomAssistant#description}.
 
 ---
 
@@ -1030,7 +1030,7 @@ ServerSideEncryptionConfiguration WisdomAssistantServerSideEncryptionConfigurati
 
 - *Type:* <a href="#@cdktn/provider-awscc.wisdomAssistant.WisdomAssistantServerSideEncryptionConfiguration">WisdomAssistantServerSideEncryptionConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_assistant#server_side_encryption_configuration WisdomAssistant#server_side_encryption_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_assistant#server_side_encryption_configuration WisdomAssistant#server_side_encryption_configuration}.
 
 ---
 
@@ -1042,7 +1042,7 @@ Tags interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_assistant#tags WisdomAssistant#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_assistant#tags WisdomAssistant#tags}.
 
 ---
 
@@ -1051,7 +1051,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.wisdomAssistant.WisdomAssistantServerSideEncryptionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomassistant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomassistant"
 
 &wisdomassistant.WisdomAssistantServerSideEncryptionConfiguration {
 	KmsKeyId: *string,
@@ -1062,7 +1062,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomassistant"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.wisdomAssistant.WisdomAssistantServerSideEncryptionConfiguration.property.kmsKeyId">KmsKeyId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_assistant#kms_key_id WisdomAssistant#kms_key_id}. |
+| <code><a href="#@cdktn/provider-awscc.wisdomAssistant.WisdomAssistantServerSideEncryptionConfiguration.property.kmsKeyId">KmsKeyId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_assistant#kms_key_id WisdomAssistant#kms_key_id}. |
 
 ---
 
@@ -1074,7 +1074,7 @@ KmsKeyId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_assistant#kms_key_id WisdomAssistant#kms_key_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_assistant#kms_key_id WisdomAssistant#kms_key_id}.
 
 ---
 
@@ -1083,7 +1083,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.wisdomAssistant.WisdomAssistantTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomassistant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomassistant"
 
 &wisdomassistant.WisdomAssistantTags {
 	Key: *string,
@@ -1095,8 +1095,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomassistant"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.wisdomAssistant.WisdomAssistantTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_assistant#key WisdomAssistant#key}. |
-| <code><a href="#@cdktn/provider-awscc.wisdomAssistant.WisdomAssistantTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_assistant#value WisdomAssistant#value}. |
+| <code><a href="#@cdktn/provider-awscc.wisdomAssistant.WisdomAssistantTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_assistant#key WisdomAssistant#key}. |
+| <code><a href="#@cdktn/provider-awscc.wisdomAssistant.WisdomAssistantTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_assistant#value WisdomAssistant#value}. |
 
 ---
 
@@ -1108,7 +1108,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_assistant#key WisdomAssistant#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_assistant#key WisdomAssistant#key}.
 
 ---
 
@@ -1120,7 +1120,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_assistant#value WisdomAssistant#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_assistant#value WisdomAssistant#value}.
 
 ---
 
@@ -1131,7 +1131,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.wisdomAssistant.WisdomAssistantServerSideEncryptionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomassistant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomassistant"
 
 wisdomassistant.NewWisdomAssistantServerSideEncryptionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) WisdomAssistantServerSideEncryptionConfigurationOutputReference
 ```
@@ -1409,7 +1409,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.wisdomAssistant.WisdomAssistantTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomassistant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomassistant"
 
 wisdomassistant.NewWisdomAssistantTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) WisdomAssistantTagsList
 ```
@@ -1569,7 +1569,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.wisdomAssistant.WisdomAssistantTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomassistant"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomassistant"
 
 wisdomassistant.NewWisdomAssistantTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) WisdomAssistantTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccIotanalyticsDatastore <a name="DataAwsccIotanalyticsDatastore" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDatastore.DataAwsccIotanalyticsDatastore"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotanalytics_datastore awscc_iotanalytics_datastore}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotanalytics_datastore awscc_iotanalytics_datastore}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDatastore.DataAwsccIotanalyticsDatastore.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdatastore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdatastore"
 
 dataawscciotanalyticsdatastore.NewDataAwsccIotanalyticsDatastore(scope Construct, id *string, config DataAwsccIotanalyticsDatastoreConfig) DataAwsccIotanalyticsDatastore
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDatastore.DataAwsccIotanalyticsDatastore.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdatastore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdatastore"
 
 dataawscciotanalyticsdatastore.DataAwsccIotanalyticsDatastore_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDatastore.DataAwsccIotanalyticsDatastore.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdatastore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdatastore"
 
 dataawscciotanalyticsdatastore.DataAwsccIotanalyticsDatastore_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciotanalyticsdatastore.DataAwsccIotanalyticsDatastore_IsTerraformElement
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDatastore.DataAwsccIotanalyticsDatastore.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdatastore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdatastore"
 
 dataawscciotanalyticsdatastore.DataAwsccIotanalyticsDatastore_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciotanalyticsdatastore.DataAwsccIotanalyticsDatastore_IsTerraformDataSou
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDatastore.DataAwsccIotanalyticsDatastore.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdatastore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdatastore"
 
 dataawscciotanalyticsdatastore.DataAwsccIotanalyticsDatastore_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotanalyticsDatas
 
 The id of the existing DataAwsccIotanalyticsDatastore that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotanalytics_datastore#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotanalytics_datastore#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -664,7 +664,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDatastore.DataAwsccIotanalyticsDatastoreConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdatastore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdatastore"
 
 &dataawscciotanalyticsdatastore.DataAwsccIotanalyticsDatastoreConfig {
 	Connection: interface{},
@@ -773,7 +773,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotanalytics_datastore#id DataAwsccIotanalyticsDatastore#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotanalytics_datastore#id DataAwsccIotanalyticsDatastore#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -785,7 +785,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDatastore.DataAwsccIotanalyticsDatastoreDatastorePartitions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdatastore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdatastore"
 
 &dataawscciotanalyticsdatastore.DataAwsccIotanalyticsDatastoreDatastorePartitions {
 
@@ -798,7 +798,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsd
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDatastore.DataAwsccIotanalyticsDatastoreDatastorePartitionsPartitions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdatastore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdatastore"
 
 &dataawscciotanalyticsdatastore.DataAwsccIotanalyticsDatastoreDatastorePartitionsPartitions {
 
@@ -811,7 +811,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsd
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDatastore.DataAwsccIotanalyticsDatastoreDatastorePartitionsPartitionsPartition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdatastore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdatastore"
 
 &dataawscciotanalyticsdatastore.DataAwsccIotanalyticsDatastoreDatastorePartitionsPartitionsPartition {
 
@@ -824,7 +824,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsd
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDatastore.DataAwsccIotanalyticsDatastoreDatastorePartitionsPartitionsTimestampPartition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdatastore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdatastore"
 
 &dataawscciotanalyticsdatastore.DataAwsccIotanalyticsDatastoreDatastorePartitionsPartitionsTimestampPartition {
 
@@ -837,7 +837,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsd
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDatastore.DataAwsccIotanalyticsDatastoreDatastoreStorage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdatastore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdatastore"
 
 &dataawscciotanalyticsdatastore.DataAwsccIotanalyticsDatastoreDatastoreStorage {
 
@@ -850,7 +850,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsd
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDatastore.DataAwsccIotanalyticsDatastoreDatastoreStorageCustomerManagedS3.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdatastore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdatastore"
 
 &dataawscciotanalyticsdatastore.DataAwsccIotanalyticsDatastoreDatastoreStorageCustomerManagedS3 {
 
@@ -863,7 +863,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsd
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDatastore.DataAwsccIotanalyticsDatastoreDatastoreStorageIotSiteWiseMultiLayerStorage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdatastore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdatastore"
 
 &dataawscciotanalyticsdatastore.DataAwsccIotanalyticsDatastoreDatastoreStorageIotSiteWiseMultiLayerStorage {
 
@@ -876,7 +876,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsd
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDatastore.DataAwsccIotanalyticsDatastoreDatastoreStorageIotSiteWiseMultiLayerStorageCustomerManagedS3Storage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdatastore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdatastore"
 
 &dataawscciotanalyticsdatastore.DataAwsccIotanalyticsDatastoreDatastoreStorageIotSiteWiseMultiLayerStorageCustomerManagedS3Storage {
 
@@ -889,7 +889,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsd
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDatastore.DataAwsccIotanalyticsDatastoreFileFormatConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdatastore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdatastore"
 
 &dataawscciotanalyticsdatastore.DataAwsccIotanalyticsDatastoreFileFormatConfiguration {
 
@@ -902,7 +902,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsd
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDatastore.DataAwsccIotanalyticsDatastoreFileFormatConfigurationParquetConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdatastore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdatastore"
 
 &dataawscciotanalyticsdatastore.DataAwsccIotanalyticsDatastoreFileFormatConfigurationParquetConfiguration {
 
@@ -915,7 +915,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsd
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDatastore.DataAwsccIotanalyticsDatastoreFileFormatConfigurationParquetConfigurationSchemaDefinition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdatastore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdatastore"
 
 &dataawscciotanalyticsdatastore.DataAwsccIotanalyticsDatastoreFileFormatConfigurationParquetConfigurationSchemaDefinition {
 
@@ -928,7 +928,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsd
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDatastore.DataAwsccIotanalyticsDatastoreFileFormatConfigurationParquetConfigurationSchemaDefinitionColumns.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdatastore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdatastore"
 
 &dataawscciotanalyticsdatastore.DataAwsccIotanalyticsDatastoreFileFormatConfigurationParquetConfigurationSchemaDefinitionColumns {
 
@@ -941,7 +941,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsd
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDatastore.DataAwsccIotanalyticsDatastoreRetentionPeriod.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdatastore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdatastore"
 
 &dataawscciotanalyticsdatastore.DataAwsccIotanalyticsDatastoreRetentionPeriod {
 
@@ -954,7 +954,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsd
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDatastore.DataAwsccIotanalyticsDatastoreTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdatastore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdatastore"
 
 &dataawscciotanalyticsdatastore.DataAwsccIotanalyticsDatastoreTags {
 
@@ -969,7 +969,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsd
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDatastore.DataAwsccIotanalyticsDatastoreDatastorePartitionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdatastore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdatastore"
 
 dataawscciotanalyticsdatastore.NewDataAwsccIotanalyticsDatastoreDatastorePartitionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotanalyticsDatastoreDatastorePartitionsOutputReference
 ```
@@ -1229,7 +1229,7 @@ func InternalValue() DataAwsccIotanalyticsDatastoreDatastorePartitions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDatastore.DataAwsccIotanalyticsDatastoreDatastorePartitionsPartitionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdatastore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdatastore"
 
 dataawscciotanalyticsdatastore.NewDataAwsccIotanalyticsDatastoreDatastorePartitionsPartitionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIotanalyticsDatastoreDatastorePartitionsPartitionsList
 ```
@@ -1378,7 +1378,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDatastore.DataAwsccIotanalyticsDatastoreDatastorePartitionsPartitionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdatastore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdatastore"
 
 dataawscciotanalyticsdatastore.NewDataAwsccIotanalyticsDatastoreDatastorePartitionsPartitionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIotanalyticsDatastoreDatastorePartitionsPartitionsOutputReference
 ```
@@ -1667,7 +1667,7 @@ func InternalValue() DataAwsccIotanalyticsDatastoreDatastorePartitionsPartitions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDatastore.DataAwsccIotanalyticsDatastoreDatastorePartitionsPartitionsPartitionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdatastore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdatastore"
 
 dataawscciotanalyticsdatastore.NewDataAwsccIotanalyticsDatastoreDatastorePartitionsPartitionsPartitionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotanalyticsDatastoreDatastorePartitionsPartitionsPartitionOutputReference
 ```
@@ -1927,7 +1927,7 @@ func InternalValue() DataAwsccIotanalyticsDatastoreDatastorePartitionsPartitions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDatastore.DataAwsccIotanalyticsDatastoreDatastorePartitionsPartitionsTimestampPartitionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdatastore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdatastore"
 
 dataawscciotanalyticsdatastore.NewDataAwsccIotanalyticsDatastoreDatastorePartitionsPartitionsTimestampPartitionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotanalyticsDatastoreDatastorePartitionsPartitionsTimestampPartitionOutputReference
 ```
@@ -2198,7 +2198,7 @@ func InternalValue() DataAwsccIotanalyticsDatastoreDatastorePartitionsPartitions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDatastore.DataAwsccIotanalyticsDatastoreDatastoreStorageCustomerManagedS3OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdatastore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdatastore"
 
 dataawscciotanalyticsdatastore.NewDataAwsccIotanalyticsDatastoreDatastoreStorageCustomerManagedS3OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotanalyticsDatastoreDatastoreStorageCustomerManagedS3OutputReference
 ```
@@ -2480,7 +2480,7 @@ func InternalValue() DataAwsccIotanalyticsDatastoreDatastoreStorageCustomerManag
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDatastore.DataAwsccIotanalyticsDatastoreDatastoreStorageIotSiteWiseMultiLayerStorageCustomerManagedS3StorageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdatastore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdatastore"
 
 dataawscciotanalyticsdatastore.NewDataAwsccIotanalyticsDatastoreDatastoreStorageIotSiteWiseMultiLayerStorageCustomerManagedS3StorageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotanalyticsDatastoreDatastoreStorageIotSiteWiseMultiLayerStorageCustomerManagedS3StorageOutputReference
 ```
@@ -2751,7 +2751,7 @@ func InternalValue() DataAwsccIotanalyticsDatastoreDatastoreStorageIotSiteWiseMu
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDatastore.DataAwsccIotanalyticsDatastoreDatastoreStorageIotSiteWiseMultiLayerStorageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdatastore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdatastore"
 
 dataawscciotanalyticsdatastore.NewDataAwsccIotanalyticsDatastoreDatastoreStorageIotSiteWiseMultiLayerStorageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotanalyticsDatastoreDatastoreStorageIotSiteWiseMultiLayerStorageOutputReference
 ```
@@ -3011,7 +3011,7 @@ func InternalValue() DataAwsccIotanalyticsDatastoreDatastoreStorageIotSiteWiseMu
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDatastore.DataAwsccIotanalyticsDatastoreDatastoreStorageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdatastore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdatastore"
 
 dataawscciotanalyticsdatastore.NewDataAwsccIotanalyticsDatastoreDatastoreStorageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotanalyticsDatastoreDatastoreStorageOutputReference
 ```
@@ -3293,7 +3293,7 @@ func InternalValue() DataAwsccIotanalyticsDatastoreDatastoreStorage
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDatastore.DataAwsccIotanalyticsDatastoreFileFormatConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdatastore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdatastore"
 
 dataawscciotanalyticsdatastore.NewDataAwsccIotanalyticsDatastoreFileFormatConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotanalyticsDatastoreFileFormatConfigurationOutputReference
 ```
@@ -3564,7 +3564,7 @@ func InternalValue() DataAwsccIotanalyticsDatastoreFileFormatConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDatastore.DataAwsccIotanalyticsDatastoreFileFormatConfigurationParquetConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdatastore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdatastore"
 
 dataawscciotanalyticsdatastore.NewDataAwsccIotanalyticsDatastoreFileFormatConfigurationParquetConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotanalyticsDatastoreFileFormatConfigurationParquetConfigurationOutputReference
 ```
@@ -3824,7 +3824,7 @@ func InternalValue() DataAwsccIotanalyticsDatastoreFileFormatConfigurationParque
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDatastore.DataAwsccIotanalyticsDatastoreFileFormatConfigurationParquetConfigurationSchemaDefinitionColumnsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdatastore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdatastore"
 
 dataawscciotanalyticsdatastore.NewDataAwsccIotanalyticsDatastoreFileFormatConfigurationParquetConfigurationSchemaDefinitionColumnsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIotanalyticsDatastoreFileFormatConfigurationParquetConfigurationSchemaDefinitionColumnsList
 ```
@@ -3973,7 +3973,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDatastore.DataAwsccIotanalyticsDatastoreFileFormatConfigurationParquetConfigurationSchemaDefinitionColumnsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdatastore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdatastore"
 
 dataawscciotanalyticsdatastore.NewDataAwsccIotanalyticsDatastoreFileFormatConfigurationParquetConfigurationSchemaDefinitionColumnsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIotanalyticsDatastoreFileFormatConfigurationParquetConfigurationSchemaDefinitionColumnsOutputReference
 ```
@@ -4262,7 +4262,7 @@ func InternalValue() DataAwsccIotanalyticsDatastoreFileFormatConfigurationParque
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDatastore.DataAwsccIotanalyticsDatastoreFileFormatConfigurationParquetConfigurationSchemaDefinitionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdatastore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdatastore"
 
 dataawscciotanalyticsdatastore.NewDataAwsccIotanalyticsDatastoreFileFormatConfigurationParquetConfigurationSchemaDefinitionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotanalyticsDatastoreFileFormatConfigurationParquetConfigurationSchemaDefinitionOutputReference
 ```
@@ -4522,7 +4522,7 @@ func InternalValue() DataAwsccIotanalyticsDatastoreFileFormatConfigurationParque
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDatastore.DataAwsccIotanalyticsDatastoreRetentionPeriodOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdatastore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdatastore"
 
 dataawscciotanalyticsdatastore.NewDataAwsccIotanalyticsDatastoreRetentionPeriodOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotanalyticsDatastoreRetentionPeriodOutputReference
 ```
@@ -4793,7 +4793,7 @@ func InternalValue() DataAwsccIotanalyticsDatastoreRetentionPeriod
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDatastore.DataAwsccIotanalyticsDatastoreTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdatastore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdatastore"
 
 dataawscciotanalyticsdatastore.NewDataAwsccIotanalyticsDatastoreTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIotanalyticsDatastoreTagsList
 ```
@@ -4942,7 +4942,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDatastore.DataAwsccIotanalyticsDatastoreTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdatastore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdatastore"
 
 dataawscciotanalyticsdatastore.NewDataAwsccIotanalyticsDatastoreTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIotanalyticsDatastoreTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccGuarddutyThreatEntitySets <a name="DataAwsccGuarddutyThreatEntitySets" id="@cdktn/provider-awscc.dataAwsccGuarddutyThreatEntitySets.DataAwsccGuarddutyThreatEntitySets"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/guardduty_threat_entity_sets awscc_guardduty_threat_entity_sets}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/guardduty_threat_entity_sets awscc_guardduty_threat_entity_sets}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGuarddutyThreatEntitySets.DataAwsccGuarddutyThreatEntitySets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccguarddutythreatentitysets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccguarddutythreatentitysets"
 
 dataawsccguarddutythreatentitysets.NewDataAwsccGuarddutyThreatEntitySets(scope Construct, id *string, config DataAwsccGuarddutyThreatEntitySetsConfig) DataAwsccGuarddutyThreatEntitySets
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccGuarddutyThreatEntitySets.DataAwsccGuarddutyThreatEntitySets.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccguarddutythreatentitysets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccguarddutythreatentitysets"
 
 dataawsccguarddutythreatentitysets.DataAwsccGuarddutyThreatEntitySets_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccGuarddutyThreatEntitySets.DataAwsccGuarddutyThreatEntitySets.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccguarddutythreatentitysets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccguarddutythreatentitysets"
 
 dataawsccguarddutythreatentitysets.DataAwsccGuarddutyThreatEntitySets_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccguarddutythreatentitysets.DataAwsccGuarddutyThreatEntitySets_IsTerrafor
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccGuarddutyThreatEntitySets.DataAwsccGuarddutyThreatEntitySets.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccguarddutythreatentitysets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccguarddutythreatentitysets"
 
 dataawsccguarddutythreatentitysets.DataAwsccGuarddutyThreatEntitySets_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccguarddutythreatentitysets.DataAwsccGuarddutyThreatEntitySets_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccGuarddutyThreatEntitySets.DataAwsccGuarddutyThreatEntitySets.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccguarddutythreatentitysets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccguarddutythreatentitysets"
 
 dataawsccguarddutythreatentitysets.DataAwsccGuarddutyThreatEntitySets_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccGuarddutyThreatEn
 
 The id of the existing DataAwsccGuarddutyThreatEntitySets that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/guardduty_threat_entity_sets#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/guardduty_threat_entity_sets#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGuarddutyThreatEntitySets.DataAwsccGuarddutyThreatEntitySetsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccguarddutythreatentitysets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccguarddutythreatentitysets"
 
 &dataawsccguarddutythreatentitysets.DataAwsccGuarddutyThreatEntitySetsConfig {
 	Connection: interface{},

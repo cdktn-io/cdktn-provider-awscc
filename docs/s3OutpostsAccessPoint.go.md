@@ -4,12 +4,12 @@
 
 ### S3OutpostsAccessPoint <a name="S3OutpostsAccessPoint" id="@cdktn/provider-awscc.s3OutpostsAccessPoint.S3OutpostsAccessPoint"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3outposts_access_point awscc_s3outposts_access_point}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3outposts_access_point awscc_s3outposts_access_point}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3OutpostsAccessPoint.S3OutpostsAccessPoint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3outpostsaccesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3outpostsaccesspoint"
 
 s3outpostsaccesspoint.NewS3OutpostsAccessPoint(scope Construct, id *string, config S3OutpostsAccessPointConfig) S3OutpostsAccessPoint
 ```
@@ -420,7 +420,7 @@ func ResetPolicy()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.s3OutpostsAccessPoint.S3OutpostsAccessPoint.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3outpostsaccesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3outpostsaccesspoint"
 
 s3outpostsaccesspoint.S3OutpostsAccessPoint_IsConstruct(x interface{}) *bool
 ```
@@ -452,7 +452,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.s3OutpostsAccessPoint.S3OutpostsAccessPoint.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3outpostsaccesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3outpostsaccesspoint"
 
 s3outpostsaccesspoint.S3OutpostsAccessPoint_IsTerraformElement(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ s3outpostsaccesspoint.S3OutpostsAccessPoint_IsTerraformElement(x interface{}) *b
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.s3OutpostsAccessPoint.S3OutpostsAccessPoint.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3outpostsaccesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3outpostsaccesspoint"
 
 s3outpostsaccesspoint.S3OutpostsAccessPoint_IsTerraformResource(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ s3outpostsaccesspoint.S3OutpostsAccessPoint_IsTerraformResource(x interface{}) *
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.s3OutpostsAccessPoint.S3OutpostsAccessPoint.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3outpostsaccesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3outpostsaccesspoint"
 
 s3outpostsaccesspoint.S3OutpostsAccessPoint_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -509,7 +509,7 @@ The construct id used in the generated config for the S3OutpostsAccessPoint to i
 
 The id of the existing S3OutpostsAccessPoint that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3outposts_access_point#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3outposts_access_point#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -819,7 +819,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.s3OutpostsAccessPoint.S3OutpostsAccessPointConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3outpostsaccesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3outpostsaccesspoint"
 
 &s3outpostsaccesspoint.S3OutpostsAccessPointConfig {
 	Connection: interface{},
@@ -831,7 +831,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3outpostsaccesspoint"
 	Provisioners: *[]interface{},
 	Bucket: *string,
 	Name: *string,
-	VpcConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.s3OutpostsAccessPoint.S3OutpostsAccessPointVpcConfiguration,
+	VpcConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.s3OutpostsAccessPoint.S3OutpostsAccessPointVpcConfiguration,
 	Policy: *string,
 }
 ```
@@ -934,7 +934,7 @@ Bucket *string
 
 The Amazon Resource Name (ARN) of the bucket you want to associate this AccessPoint with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3outposts_access_point#bucket S3OutpostsAccessPoint#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3outposts_access_point#bucket S3OutpostsAccessPoint#bucket}
 
 ---
 
@@ -948,7 +948,7 @@ Name *string
 
 A name for the AccessPoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3outposts_access_point#name S3OutpostsAccessPoint#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3outposts_access_point#name S3OutpostsAccessPoint#name}
 
 ---
 
@@ -962,7 +962,7 @@ VpcConfiguration S3OutpostsAccessPointVpcConfiguration
 
 Virtual Private Cloud (VPC) from which requests can be made to the AccessPoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3outposts_access_point#vpc_configuration S3OutpostsAccessPoint#vpc_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3outposts_access_point#vpc_configuration S3OutpostsAccessPoint#vpc_configuration}
 
 ---
 
@@ -976,7 +976,7 @@ Policy *string
 
 The access point policy associated with this access point.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3outposts_access_point#policy S3OutpostsAccessPoint#policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3outposts_access_point#policy S3OutpostsAccessPoint#policy}
 
 ---
 
@@ -985,7 +985,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.s3OutpostsAccessPoint.S3OutpostsAccessPointVpcConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3outpostsaccesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3outpostsaccesspoint"
 
 &s3outpostsaccesspoint.S3OutpostsAccessPointVpcConfiguration {
 	VpcId: *string,
@@ -1010,7 +1010,7 @@ VpcId *string
 
 Virtual Private Cloud (VPC) Id from which AccessPoint will allow requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3outposts_access_point#vpc_id S3OutpostsAccessPoint#vpc_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3outposts_access_point#vpc_id S3OutpostsAccessPoint#vpc_id}
 
 ---
 
@@ -1021,7 +1021,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3OutpostsAccessPoint.S3OutpostsAccessPointVpcConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3outpostsaccesspoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3outpostsaccesspoint"
 
 s3outpostsaccesspoint.NewS3OutpostsAccessPointVpcConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) S3OutpostsAccessPointVpcConfigurationOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccResiliencehubv2Systems <a name="DataAwsccResiliencehubv2Systems" id="@cdktn/provider-awscc.dataAwsccResiliencehubv2Systems.DataAwsccResiliencehubv2Systems"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/resiliencehubv2_systems awscc_resiliencehubv2_systems}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/resiliencehubv2_systems awscc_resiliencehubv2_systems}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccResiliencehubv2Systems.DataAwsccResiliencehubv2Systems.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresiliencehubv2systems"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresiliencehubv2systems"
 
 dataawsccresiliencehubv2systems.NewDataAwsccResiliencehubv2Systems(scope Construct, id *string, config DataAwsccResiliencehubv2SystemsConfig) DataAwsccResiliencehubv2Systems
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccResiliencehubv2Systems.DataAwsccResiliencehubv2Systems.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresiliencehubv2systems"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresiliencehubv2systems"
 
 dataawsccresiliencehubv2systems.DataAwsccResiliencehubv2Systems_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccResiliencehubv2Systems.DataAwsccResiliencehubv2Systems.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresiliencehubv2systems"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresiliencehubv2systems"
 
 dataawsccresiliencehubv2systems.DataAwsccResiliencehubv2Systems_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccresiliencehubv2systems.DataAwsccResiliencehubv2Systems_IsTerraformEleme
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccResiliencehubv2Systems.DataAwsccResiliencehubv2Systems.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresiliencehubv2systems"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresiliencehubv2systems"
 
 dataawsccresiliencehubv2systems.DataAwsccResiliencehubv2Systems_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccresiliencehubv2systems.DataAwsccResiliencehubv2Systems_IsTerraformDataS
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccResiliencehubv2Systems.DataAwsccResiliencehubv2Systems.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresiliencehubv2systems"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresiliencehubv2systems"
 
 dataawsccresiliencehubv2systems.DataAwsccResiliencehubv2Systems_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccResiliencehubv2Sy
 
 The id of the existing DataAwsccResiliencehubv2Systems that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/resiliencehubv2_systems#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/resiliencehubv2_systems#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccResiliencehubv2Systems.DataAwsccResiliencehubv2SystemsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresiliencehubv2systems"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresiliencehubv2systems"
 
 &dataawsccresiliencehubv2systems.DataAwsccResiliencehubv2SystemsConfig {
 	Connection: interface{},

@@ -4,12 +4,12 @@
 
 ### DataAwsccIotCustomMetrics <a name="DataAwsccIotCustomMetrics" id="@cdktn/provider-awscc.dataAwsccIotCustomMetrics.DataAwsccIotCustomMetrics"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_custom_metrics awscc_iot_custom_metrics}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_custom_metrics awscc_iot_custom_metrics}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotCustomMetrics.DataAwsccIotCustomMetrics.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcustommetrics"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotcustommetrics"
 
 dataawscciotcustommetrics.NewDataAwsccIotCustomMetrics(scope Construct, id *string, config DataAwsccIotCustomMetricsConfig) DataAwsccIotCustomMetrics
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIotCustomMetrics.DataAwsccIotCustomMetrics.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcustommetrics"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotcustommetrics"
 
 dataawscciotcustommetrics.DataAwsccIotCustomMetrics_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIotCustomMetrics.DataAwsccIotCustomMetrics.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcustommetrics"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotcustommetrics"
 
 dataawscciotcustommetrics.DataAwsccIotCustomMetrics_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciotcustommetrics.DataAwsccIotCustomMetrics_IsTerraformElement(x interfa
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIotCustomMetrics.DataAwsccIotCustomMetrics.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcustommetrics"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotcustommetrics"
 
 dataawscciotcustommetrics.DataAwsccIotCustomMetrics_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciotcustommetrics.DataAwsccIotCustomMetrics_IsTerraformDataSource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIotCustomMetrics.DataAwsccIotCustomMetrics.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcustommetrics"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotcustommetrics"
 
 dataawscciotcustommetrics.DataAwsccIotCustomMetrics_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotCustomMetrics 
 
 The id of the existing DataAwsccIotCustomMetrics that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_custom_metrics#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_custom_metrics#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotCustomMetrics.DataAwsccIotCustomMetricsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcustommetrics"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotcustommetrics"
 
 &dataawscciotcustommetrics.DataAwsccIotCustomMetricsConfig {
 	Connection: interface{},

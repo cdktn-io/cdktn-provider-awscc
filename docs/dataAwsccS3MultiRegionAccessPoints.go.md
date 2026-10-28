@@ -4,12 +4,12 @@
 
 ### DataAwsccS3MultiRegionAccessPoints <a name="DataAwsccS3MultiRegionAccessPoints" id="@cdktn/provider-awscc.dataAwsccS3MultiRegionAccessPoints.DataAwsccS3MultiRegionAccessPoints"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3_multi_region_access_points awscc_s3_multi_region_access_points}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3_multi_region_access_points awscc_s3_multi_region_access_points}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3MultiRegionAccessPoints.DataAwsccS3MultiRegionAccessPoints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3multiregionaccesspoints"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3multiregionaccesspoints"
 
 dataawsccs3multiregionaccesspoints.NewDataAwsccS3MultiRegionAccessPoints(scope Construct, id *string, config DataAwsccS3MultiRegionAccessPointsConfig) DataAwsccS3MultiRegionAccessPoints
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccS3MultiRegionAccessPoints.DataAwsccS3MultiRegionAccessPoints.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3multiregionaccesspoints"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3multiregionaccesspoints"
 
 dataawsccs3multiregionaccesspoints.DataAwsccS3MultiRegionAccessPoints_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccS3MultiRegionAccessPoints.DataAwsccS3MultiRegionAccessPoints.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3multiregionaccesspoints"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3multiregionaccesspoints"
 
 dataawsccs3multiregionaccesspoints.DataAwsccS3MultiRegionAccessPoints_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccs3multiregionaccesspoints.DataAwsccS3MultiRegionAccessPoints_IsTerrafor
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccS3MultiRegionAccessPoints.DataAwsccS3MultiRegionAccessPoints.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3multiregionaccesspoints"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3multiregionaccesspoints"
 
 dataawsccs3multiregionaccesspoints.DataAwsccS3MultiRegionAccessPoints_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccs3multiregionaccesspoints.DataAwsccS3MultiRegionAccessPoints_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccS3MultiRegionAccessPoints.DataAwsccS3MultiRegionAccessPoints.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3multiregionaccesspoints"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3multiregionaccesspoints"
 
 dataawsccs3multiregionaccesspoints.DataAwsccS3MultiRegionAccessPoints_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccS3MultiRegionAcce
 
 The id of the existing DataAwsccS3MultiRegionAccessPoints that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3_multi_region_access_points#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3_multi_region_access_points#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3MultiRegionAccessPoints.DataAwsccS3MultiRegionAccessPointsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3multiregionaccesspoints"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3multiregionaccesspoints"
 
 &dataawsccs3multiregionaccesspoints.DataAwsccS3MultiRegionAccessPointsConfig {
 	Connection: interface{},

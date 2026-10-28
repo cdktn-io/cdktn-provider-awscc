@@ -4,12 +4,12 @@
 
 ### DataAwsccGlueUserDefinedFunction <a name="DataAwsccGlueUserDefinedFunction" id="@cdktn/provider-awscc.dataAwsccGlueUserDefinedFunction.DataAwsccGlueUserDefinedFunction"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/glue_user_defined_function awscc_glue_user_defined_function}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/glue_user_defined_function awscc_glue_user_defined_function}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueUserDefinedFunction.DataAwsccGlueUserDefinedFunction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueuserdefinedfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueuserdefinedfunction"
 
 dataawsccglueuserdefinedfunction.NewDataAwsccGlueUserDefinedFunction(scope Construct, id *string, config DataAwsccGlueUserDefinedFunctionConfig) DataAwsccGlueUserDefinedFunction
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccGlueUserDefinedFunction.DataAwsccGlueUserDefinedFunction.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueuserdefinedfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueuserdefinedfunction"
 
 dataawsccglueuserdefinedfunction.DataAwsccGlueUserDefinedFunction_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccGlueUserDefinedFunction.DataAwsccGlueUserDefinedFunction.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueuserdefinedfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueuserdefinedfunction"
 
 dataawsccglueuserdefinedfunction.DataAwsccGlueUserDefinedFunction_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccglueuserdefinedfunction.DataAwsccGlueUserDefinedFunction_IsTerraformEle
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccGlueUserDefinedFunction.DataAwsccGlueUserDefinedFunction.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueuserdefinedfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueuserdefinedfunction"
 
 dataawsccglueuserdefinedfunction.DataAwsccGlueUserDefinedFunction_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccglueuserdefinedfunction.DataAwsccGlueUserDefinedFunction_IsTerraformDat
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccGlueUserDefinedFunction.DataAwsccGlueUserDefinedFunction.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueuserdefinedfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueuserdefinedfunction"
 
 dataawsccglueuserdefinedfunction.DataAwsccGlueUserDefinedFunction_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccGlueUserDefinedFu
 
 The id of the existing DataAwsccGlueUserDefinedFunction that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/glue_user_defined_function#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/glue_user_defined_function#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -675,7 +675,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueUserDefinedFunction.DataAwsccGlueUserDefinedFunctionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueuserdefinedfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueuserdefinedfunction"
 
 &dataawsccglueuserdefinedfunction.DataAwsccGlueUserDefinedFunctionConfig {
 	Connection: interface{},
@@ -784,7 +784,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/glue_user_defined_function#id DataAwsccGlueUserDefinedFunction#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/glue_user_defined_function#id DataAwsccGlueUserDefinedFunction#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -796,7 +796,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueUserDefinedFunction.DataAwsccGlueUserDefinedFunctionResourceUris.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueuserdefinedfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueuserdefinedfunction"
 
 &dataawsccglueuserdefinedfunction.DataAwsccGlueUserDefinedFunctionResourceUris {
 
@@ -811,7 +811,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueuserdefin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueUserDefinedFunction.DataAwsccGlueUserDefinedFunctionResourceUrisList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueuserdefinedfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueuserdefinedfunction"
 
 dataawsccglueuserdefinedfunction.NewDataAwsccGlueUserDefinedFunctionResourceUrisList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccGlueUserDefinedFunctionResourceUrisList
 ```
@@ -960,7 +960,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueUserDefinedFunction.DataAwsccGlueUserDefinedFunctionResourceUrisOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueuserdefinedfunction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueuserdefinedfunction"
 
 dataawsccglueuserdefinedfunction.NewDataAwsccGlueUserDefinedFunctionResourceUrisOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccGlueUserDefinedFunctionResourceUrisOutputReference
 ```

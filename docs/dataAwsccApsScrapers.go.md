@@ -4,12 +4,12 @@
 
 ### DataAwsccApsScrapers <a name="DataAwsccApsScrapers" id="@cdktn/provider-awscc.dataAwsccApsScrapers.DataAwsccApsScrapers"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/aps_scrapers awscc_aps_scrapers}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/aps_scrapers awscc_aps_scrapers}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApsScrapers.DataAwsccApsScrapers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsscrapers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapsscrapers"
 
 dataawsccapsscrapers.NewDataAwsccApsScrapers(scope Construct, id *string, config DataAwsccApsScrapersConfig) DataAwsccApsScrapers
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccApsScrapers.DataAwsccApsScrapers.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsscrapers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapsscrapers"
 
 dataawsccapsscrapers.DataAwsccApsScrapers_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccApsScrapers.DataAwsccApsScrapers.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsscrapers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapsscrapers"
 
 dataawsccapsscrapers.DataAwsccApsScrapers_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccapsscrapers.DataAwsccApsScrapers_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccApsScrapers.DataAwsccApsScrapers.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsscrapers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapsscrapers"
 
 dataawsccapsscrapers.DataAwsccApsScrapers_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccapsscrapers.DataAwsccApsScrapers_IsTerraformDataSource(x interface{}) *
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccApsScrapers.DataAwsccApsScrapers.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsscrapers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapsscrapers"
 
 dataawsccapsscrapers.DataAwsccApsScrapers_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccApsScrapers to im
 
 The id of the existing DataAwsccApsScrapers that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/aps_scrapers#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/aps_scrapers#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApsScrapers.DataAwsccApsScrapersConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsscrapers"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapsscrapers"
 
 &dataawsccapsscrapers.DataAwsccApsScrapersConfig {
 	Connection: interface{},

@@ -4,12 +4,12 @@
 
 ### AcmpcaCertificateAuthorityActivation <a name="AcmpcaCertificateAuthorityActivation" id="@cdktn/provider-awscc.acmpcaCertificateAuthorityActivation.AcmpcaCertificateAuthorityActivation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/acmpca_certificate_authority_activation awscc_acmpca_certificate_authority_activation}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/acmpca_certificate_authority_activation awscc_acmpca_certificate_authority_activation}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.acmpcaCertificateAuthorityActivation.AcmpcaCertificateAuthorityActivation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/acmpcacertificateauthorityactivation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/acmpcacertificateauthorityactivation"
 
 acmpcacertificateauthorityactivation.NewAcmpcaCertificateAuthorityActivation(scope Construct, id *string, config AcmpcaCertificateAuthorityActivationConfig) AcmpcaCertificateAuthorityActivation
 ```
@@ -414,7 +414,7 @@ func ResetStatus()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.acmpcaCertificateAuthorityActivation.AcmpcaCertificateAuthorityActivation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/acmpcacertificateauthorityactivation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/acmpcacertificateauthorityactivation"
 
 acmpcacertificateauthorityactivation.AcmpcaCertificateAuthorityActivation_IsConstruct(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.acmpcaCertificateAuthorityActivation.AcmpcaCertificateAuthorityActivation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/acmpcacertificateauthorityactivation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/acmpcacertificateauthorityactivation"
 
 acmpcacertificateauthorityactivation.AcmpcaCertificateAuthorityActivation_IsTerraformElement(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ acmpcacertificateauthorityactivation.AcmpcaCertificateAuthorityActivation_IsTerr
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.acmpcaCertificateAuthorityActivation.AcmpcaCertificateAuthorityActivation.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/acmpcacertificateauthorityactivation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/acmpcacertificateauthorityactivation"
 
 acmpcacertificateauthorityactivation.AcmpcaCertificateAuthorityActivation_IsTerraformResource(x interface{}) *bool
 ```
@@ -474,7 +474,7 @@ acmpcacertificateauthorityactivation.AcmpcaCertificateAuthorityActivation_IsTerr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.acmpcaCertificateAuthorityActivation.AcmpcaCertificateAuthorityActivation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/acmpcacertificateauthorityactivation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/acmpcacertificateauthorityactivation"
 
 acmpcacertificateauthorityactivation.AcmpcaCertificateAuthorityActivation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -503,7 +503,7 @@ The construct id used in the generated config for the AcmpcaCertificateAuthority
 
 The id of the existing AcmpcaCertificateAuthorityActivation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/acmpca_certificate_authority_activation#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/acmpca_certificate_authority_activation#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -813,7 +813,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.acmpcaCertificateAuthorityActivation.AcmpcaCertificateAuthorityActivationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/acmpcacertificateauthorityactivation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/acmpcacertificateauthorityactivation"
 
 &acmpcacertificateauthorityactivation.AcmpcaCertificateAuthorityActivationConfig {
 	Connection: interface{},
@@ -928,7 +928,7 @@ Certificate *string
 
 Certificate Authority certificate that will be installed in the Certificate Authority.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/acmpca_certificate_authority_activation#certificate AcmpcaCertificateAuthorityActivation#certificate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/acmpca_certificate_authority_activation#certificate AcmpcaCertificateAuthorityActivation#certificate}
 
 ---
 
@@ -942,7 +942,7 @@ CertificateAuthorityArn *string
 
 Arn of the Certificate Authority.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/acmpca_certificate_authority_activation#certificate_authority_arn AcmpcaCertificateAuthorityActivation#certificate_authority_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/acmpca_certificate_authority_activation#certificate_authority_arn AcmpcaCertificateAuthorityActivation#certificate_authority_arn}
 
 ---
 
@@ -956,7 +956,7 @@ CertificateChain *string
 
 Certificate chain for the Certificate Authority certificate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/acmpca_certificate_authority_activation#certificate_chain AcmpcaCertificateAuthorityActivation#certificate_chain}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/acmpca_certificate_authority_activation#certificate_chain AcmpcaCertificateAuthorityActivation#certificate_chain}
 
 ---
 
@@ -970,7 +970,7 @@ Status *string
 
 The status of the Certificate Authority.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/acmpca_certificate_authority_activation#status AcmpcaCertificateAuthorityActivation#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/acmpca_certificate_authority_activation#status AcmpcaCertificateAuthorityActivation#status}
 
 ---
 

@@ -4,12 +4,12 @@
 
 ### DataAwsccVpclatticeRule <a name="DataAwsccVpclatticeRule" id="@cdktn/provider-awscc.dataAwsccVpclatticeRule.DataAwsccVpclatticeRule"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/vpclattice_rule awscc_vpclattice_rule}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/vpclattice_rule awscc_vpclattice_rule}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccVpclatticeRule.DataAwsccVpclatticeRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticerule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticerule"
 
 dataawsccvpclatticerule.NewDataAwsccVpclatticeRule(scope Construct, id *string, config DataAwsccVpclatticeRuleConfig) DataAwsccVpclatticeRule
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccVpclatticeRule.DataAwsccVpclatticeRule.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticerule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticerule"
 
 dataawsccvpclatticerule.DataAwsccVpclatticeRule_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccVpclatticeRule.DataAwsccVpclatticeRule.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticerule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticerule"
 
 dataawsccvpclatticerule.DataAwsccVpclatticeRule_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccvpclatticerule.DataAwsccVpclatticeRule_IsTerraformElement(x interface{}
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccVpclatticeRule.DataAwsccVpclatticeRule.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticerule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticerule"
 
 dataawsccvpclatticerule.DataAwsccVpclatticeRule_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccvpclatticerule.DataAwsccVpclatticeRule_IsTerraformDataSource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccVpclatticeRule.DataAwsccVpclatticeRule.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticerule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticerule"
 
 dataawsccvpclatticerule.DataAwsccVpclatticeRule_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccVpclatticeRule to
 
 The id of the existing DataAwsccVpclatticeRule that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/vpclattice_rule#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/vpclattice_rule#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -686,7 +686,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccVpclatticeRule.DataAwsccVpclatticeRuleAction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticerule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticerule"
 
 &dataawsccvpclatticerule.DataAwsccVpclatticeRuleAction {
 
@@ -699,7 +699,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticerul
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccVpclatticeRule.DataAwsccVpclatticeRuleActionFixedResponse.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticerule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticerule"
 
 &dataawsccvpclatticerule.DataAwsccVpclatticeRuleActionFixedResponse {
 
@@ -712,7 +712,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticerul
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccVpclatticeRule.DataAwsccVpclatticeRuleActionForward.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticerule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticerule"
 
 &dataawsccvpclatticerule.DataAwsccVpclatticeRuleActionForward {
 
@@ -725,7 +725,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticerul
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccVpclatticeRule.DataAwsccVpclatticeRuleActionForwardTargetGroups.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticerule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticerule"
 
 &dataawsccvpclatticerule.DataAwsccVpclatticeRuleActionForwardTargetGroups {
 
@@ -738,7 +738,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticerul
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccVpclatticeRule.DataAwsccVpclatticeRuleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticerule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticerule"
 
 &dataawsccvpclatticerule.DataAwsccVpclatticeRuleConfig {
 	Connection: interface{},
@@ -847,7 +847,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/vpclattice_rule#id DataAwsccVpclatticeRule#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/vpclattice_rule#id DataAwsccVpclatticeRule#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -859,7 +859,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccVpclatticeRule.DataAwsccVpclatticeRuleMatch.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticerule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticerule"
 
 &dataawsccvpclatticerule.DataAwsccVpclatticeRuleMatch {
 
@@ -872,7 +872,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticerul
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccVpclatticeRule.DataAwsccVpclatticeRuleMatchHttpMatch.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticerule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticerule"
 
 &dataawsccvpclatticerule.DataAwsccVpclatticeRuleMatchHttpMatch {
 
@@ -885,7 +885,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticerul
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccVpclatticeRule.DataAwsccVpclatticeRuleMatchHttpMatchHeaderMatches.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticerule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticerule"
 
 &dataawsccvpclatticerule.DataAwsccVpclatticeRuleMatchHttpMatchHeaderMatches {
 
@@ -898,7 +898,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticerul
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccVpclatticeRule.DataAwsccVpclatticeRuleMatchHttpMatchHeaderMatchesMatch.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticerule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticerule"
 
 &dataawsccvpclatticerule.DataAwsccVpclatticeRuleMatchHttpMatchHeaderMatchesMatch {
 
@@ -911,7 +911,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticerul
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccVpclatticeRule.DataAwsccVpclatticeRuleMatchHttpMatchPathMatch.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticerule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticerule"
 
 &dataawsccvpclatticerule.DataAwsccVpclatticeRuleMatchHttpMatchPathMatch {
 
@@ -924,7 +924,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticerul
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccVpclatticeRule.DataAwsccVpclatticeRuleMatchHttpMatchPathMatchMatch.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticerule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticerule"
 
 &dataawsccvpclatticerule.DataAwsccVpclatticeRuleMatchHttpMatchPathMatchMatch {
 
@@ -937,7 +937,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticerul
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccVpclatticeRule.DataAwsccVpclatticeRuleTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticerule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticerule"
 
 &dataawsccvpclatticerule.DataAwsccVpclatticeRuleTags {
 
@@ -952,7 +952,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticerul
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccVpclatticeRule.DataAwsccVpclatticeRuleActionFixedResponseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticerule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticerule"
 
 dataawsccvpclatticerule.NewDataAwsccVpclatticeRuleActionFixedResponseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccVpclatticeRuleActionFixedResponseOutputReference
 ```
@@ -1212,7 +1212,7 @@ func InternalValue() DataAwsccVpclatticeRuleActionFixedResponse
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccVpclatticeRule.DataAwsccVpclatticeRuleActionForwardOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticerule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticerule"
 
 dataawsccvpclatticerule.NewDataAwsccVpclatticeRuleActionForwardOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccVpclatticeRuleActionForwardOutputReference
 ```
@@ -1472,7 +1472,7 @@ func InternalValue() DataAwsccVpclatticeRuleActionForward
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccVpclatticeRule.DataAwsccVpclatticeRuleActionForwardTargetGroupsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticerule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticerule"
 
 dataawsccvpclatticerule.NewDataAwsccVpclatticeRuleActionForwardTargetGroupsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccVpclatticeRuleActionForwardTargetGroupsList
 ```
@@ -1621,7 +1621,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccVpclatticeRule.DataAwsccVpclatticeRuleActionForwardTargetGroupsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticerule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticerule"
 
 dataawsccvpclatticerule.NewDataAwsccVpclatticeRuleActionForwardTargetGroupsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccVpclatticeRuleActionForwardTargetGroupsOutputReference
 ```
@@ -1910,7 +1910,7 @@ func InternalValue() DataAwsccVpclatticeRuleActionForwardTargetGroups
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccVpclatticeRule.DataAwsccVpclatticeRuleActionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticerule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticerule"
 
 dataawsccvpclatticerule.NewDataAwsccVpclatticeRuleActionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccVpclatticeRuleActionOutputReference
 ```
@@ -2181,7 +2181,7 @@ func InternalValue() DataAwsccVpclatticeRuleAction
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccVpclatticeRule.DataAwsccVpclatticeRuleMatchHttpMatchHeaderMatchesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticerule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticerule"
 
 dataawsccvpclatticerule.NewDataAwsccVpclatticeRuleMatchHttpMatchHeaderMatchesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccVpclatticeRuleMatchHttpMatchHeaderMatchesList
 ```
@@ -2330,7 +2330,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccVpclatticeRule.DataAwsccVpclatticeRuleMatchHttpMatchHeaderMatchesMatchOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticerule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticerule"
 
 dataawsccvpclatticerule.NewDataAwsccVpclatticeRuleMatchHttpMatchHeaderMatchesMatchOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccVpclatticeRuleMatchHttpMatchHeaderMatchesMatchOutputReference
 ```
@@ -2612,7 +2612,7 @@ func InternalValue() DataAwsccVpclatticeRuleMatchHttpMatchHeaderMatchesMatch
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccVpclatticeRule.DataAwsccVpclatticeRuleMatchHttpMatchHeaderMatchesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticerule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticerule"
 
 dataawsccvpclatticerule.NewDataAwsccVpclatticeRuleMatchHttpMatchHeaderMatchesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccVpclatticeRuleMatchHttpMatchHeaderMatchesOutputReference
 ```
@@ -2912,7 +2912,7 @@ func InternalValue() DataAwsccVpclatticeRuleMatchHttpMatchHeaderMatches
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccVpclatticeRule.DataAwsccVpclatticeRuleMatchHttpMatchOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticerule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticerule"
 
 dataawsccvpclatticerule.NewDataAwsccVpclatticeRuleMatchHttpMatchOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccVpclatticeRuleMatchHttpMatchOutputReference
 ```
@@ -3194,7 +3194,7 @@ func InternalValue() DataAwsccVpclatticeRuleMatchHttpMatch
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccVpclatticeRule.DataAwsccVpclatticeRuleMatchHttpMatchPathMatchMatchOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticerule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticerule"
 
 dataawsccvpclatticerule.NewDataAwsccVpclatticeRuleMatchHttpMatchPathMatchMatchOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccVpclatticeRuleMatchHttpMatchPathMatchMatchOutputReference
 ```
@@ -3465,7 +3465,7 @@ func InternalValue() DataAwsccVpclatticeRuleMatchHttpMatchPathMatchMatch
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccVpclatticeRule.DataAwsccVpclatticeRuleMatchHttpMatchPathMatchOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticerule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticerule"
 
 dataawsccvpclatticerule.NewDataAwsccVpclatticeRuleMatchHttpMatchPathMatchOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccVpclatticeRuleMatchHttpMatchPathMatchOutputReference
 ```
@@ -3736,7 +3736,7 @@ func InternalValue() DataAwsccVpclatticeRuleMatchHttpMatchPathMatch
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccVpclatticeRule.DataAwsccVpclatticeRuleMatchOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticerule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticerule"
 
 dataawsccvpclatticerule.NewDataAwsccVpclatticeRuleMatchOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccVpclatticeRuleMatchOutputReference
 ```
@@ -3996,7 +3996,7 @@ func InternalValue() DataAwsccVpclatticeRuleMatch
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccVpclatticeRule.DataAwsccVpclatticeRuleTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticerule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticerule"
 
 dataawsccvpclatticerule.NewDataAwsccVpclatticeRuleTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccVpclatticeRuleTagsList
 ```
@@ -4145,7 +4145,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccVpclatticeRule.DataAwsccVpclatticeRuleTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticerule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticerule"
 
 dataawsccvpclatticerule.NewDataAwsccVpclatticeRuleTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccVpclatticeRuleTagsOutputReference
 ```

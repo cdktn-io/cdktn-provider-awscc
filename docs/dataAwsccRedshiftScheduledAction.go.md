@@ -4,12 +4,12 @@
 
 ### DataAwsccRedshiftScheduledAction <a name="DataAwsccRedshiftScheduledAction" id="@cdktn/provider-awscc.dataAwsccRedshiftScheduledAction.DataAwsccRedshiftScheduledAction"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/redshift_scheduled_action awscc_redshift_scheduled_action}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/redshift_scheduled_action awscc_redshift_scheduled_action}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRedshiftScheduledAction.DataAwsccRedshiftScheduledAction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftscheduledaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftscheduledaction"
 
 dataawsccredshiftscheduledaction.NewDataAwsccRedshiftScheduledAction(scope Construct, id *string, config DataAwsccRedshiftScheduledActionConfig) DataAwsccRedshiftScheduledAction
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccRedshiftScheduledAction.DataAwsccRedshiftScheduledAction.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftscheduledaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftscheduledaction"
 
 dataawsccredshiftscheduledaction.DataAwsccRedshiftScheduledAction_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccRedshiftScheduledAction.DataAwsccRedshiftScheduledAction.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftscheduledaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftscheduledaction"
 
 dataawsccredshiftscheduledaction.DataAwsccRedshiftScheduledAction_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccredshiftscheduledaction.DataAwsccRedshiftScheduledAction_IsTerraformEle
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccRedshiftScheduledAction.DataAwsccRedshiftScheduledAction.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftscheduledaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftscheduledaction"
 
 dataawsccredshiftscheduledaction.DataAwsccRedshiftScheduledAction_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccredshiftscheduledaction.DataAwsccRedshiftScheduledAction_IsTerraformDat
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccRedshiftScheduledAction.DataAwsccRedshiftScheduledAction.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftscheduledaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftscheduledaction"
 
 dataawsccredshiftscheduledaction.DataAwsccRedshiftScheduledAction_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRedshiftScheduled
 
 The id of the existing DataAwsccRedshiftScheduledAction that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/redshift_scheduled_action#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/redshift_scheduled_action#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -697,7 +697,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRedshiftScheduledAction.DataAwsccRedshiftScheduledActionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftscheduledaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftscheduledaction"
 
 &dataawsccredshiftscheduledaction.DataAwsccRedshiftScheduledActionConfig {
 	Connection: interface{},
@@ -806,7 +806,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/redshift_scheduled_action#id DataAwsccRedshiftScheduledAction#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/redshift_scheduled_action#id DataAwsccRedshiftScheduledAction#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -818,7 +818,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRedshiftScheduledAction.DataAwsccRedshiftScheduledActionTargetAction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftscheduledaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftscheduledaction"
 
 &dataawsccredshiftscheduledaction.DataAwsccRedshiftScheduledActionTargetAction {
 
@@ -831,7 +831,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftsched
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRedshiftScheduledAction.DataAwsccRedshiftScheduledActionTargetActionPauseCluster.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftscheduledaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftscheduledaction"
 
 &dataawsccredshiftscheduledaction.DataAwsccRedshiftScheduledActionTargetActionPauseCluster {
 
@@ -844,7 +844,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftsched
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRedshiftScheduledAction.DataAwsccRedshiftScheduledActionTargetActionResizeCluster.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftscheduledaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftscheduledaction"
 
 &dataawsccredshiftscheduledaction.DataAwsccRedshiftScheduledActionTargetActionResizeCluster {
 
@@ -857,7 +857,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftsched
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRedshiftScheduledAction.DataAwsccRedshiftScheduledActionTargetActionResumeCluster.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftscheduledaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftscheduledaction"
 
 &dataawsccredshiftscheduledaction.DataAwsccRedshiftScheduledActionTargetActionResumeCluster {
 
@@ -872,7 +872,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftsched
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRedshiftScheduledAction.DataAwsccRedshiftScheduledActionTargetActionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftscheduledaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftscheduledaction"
 
 dataawsccredshiftscheduledaction.NewDataAwsccRedshiftScheduledActionTargetActionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccRedshiftScheduledActionTargetActionOutputReference
 ```
@@ -1154,7 +1154,7 @@ func InternalValue() DataAwsccRedshiftScheduledActionTargetAction
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRedshiftScheduledAction.DataAwsccRedshiftScheduledActionTargetActionPauseClusterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftscheduledaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftscheduledaction"
 
 dataawsccredshiftscheduledaction.NewDataAwsccRedshiftScheduledActionTargetActionPauseClusterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccRedshiftScheduledActionTargetActionPauseClusterOutputReference
 ```
@@ -1414,7 +1414,7 @@ func InternalValue() DataAwsccRedshiftScheduledActionTargetActionPauseCluster
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRedshiftScheduledAction.DataAwsccRedshiftScheduledActionTargetActionResizeClusterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftscheduledaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftscheduledaction"
 
 dataawsccredshiftscheduledaction.NewDataAwsccRedshiftScheduledActionTargetActionResizeClusterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccRedshiftScheduledActionTargetActionResizeClusterOutputReference
 ```
@@ -1718,7 +1718,7 @@ func InternalValue() DataAwsccRedshiftScheduledActionTargetActionResizeCluster
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRedshiftScheduledAction.DataAwsccRedshiftScheduledActionTargetActionResumeClusterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftscheduledaction"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftscheduledaction"
 
 dataawsccredshiftscheduledaction.NewDataAwsccRedshiftScheduledActionTargetActionResumeClusterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccRedshiftScheduledActionTargetActionResumeClusterOutputReference
 ```

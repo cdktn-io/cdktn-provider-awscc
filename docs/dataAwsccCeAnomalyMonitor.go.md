@@ -4,12 +4,12 @@
 
 ### DataAwsccCeAnomalyMonitor <a name="DataAwsccCeAnomalyMonitor" id="@cdktn/provider-awscc.dataAwsccCeAnomalyMonitor.DataAwsccCeAnomalyMonitor"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ce_anomaly_monitor awscc_ce_anomaly_monitor}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ce_anomaly_monitor awscc_ce_anomaly_monitor}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCeAnomalyMonitor.DataAwsccCeAnomalyMonitor.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccceanomalymonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccceanomalymonitor"
 
 dataawsccceanomalymonitor.NewDataAwsccCeAnomalyMonitor(scope Construct, id *string, config DataAwsccCeAnomalyMonitorConfig) DataAwsccCeAnomalyMonitor
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCeAnomalyMonitor.DataAwsccCeAnomalyMonitor.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccceanomalymonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccceanomalymonitor"
 
 dataawsccceanomalymonitor.DataAwsccCeAnomalyMonitor_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCeAnomalyMonitor.DataAwsccCeAnomalyMonitor.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccceanomalymonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccceanomalymonitor"
 
 dataawsccceanomalymonitor.DataAwsccCeAnomalyMonitor_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccceanomalymonitor.DataAwsccCeAnomalyMonitor_IsTerraformElement(x interfa
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCeAnomalyMonitor.DataAwsccCeAnomalyMonitor.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccceanomalymonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccceanomalymonitor"
 
 dataawsccceanomalymonitor.DataAwsccCeAnomalyMonitor_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccceanomalymonitor.DataAwsccCeAnomalyMonitor_IsTerraformDataSource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCeAnomalyMonitor.DataAwsccCeAnomalyMonitor.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccceanomalymonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccceanomalymonitor"
 
 dataawsccceanomalymonitor.DataAwsccCeAnomalyMonitor_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCeAnomalyMonitor 
 
 The id of the existing DataAwsccCeAnomalyMonitor that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ce_anomaly_monitor#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ce_anomaly_monitor#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -697,7 +697,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCeAnomalyMonitor.DataAwsccCeAnomalyMonitorConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccceanomalymonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccceanomalymonitor"
 
 &dataawsccceanomalymonitor.DataAwsccCeAnomalyMonitorConfig {
 	Connection: interface{},
@@ -806,7 +806,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ce_anomaly_monitor#id DataAwsccCeAnomalyMonitor#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ce_anomaly_monitor#id DataAwsccCeAnomalyMonitor#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -818,7 +818,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCeAnomalyMonitor.DataAwsccCeAnomalyMonitorResourceTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccceanomalymonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccceanomalymonitor"
 
 &dataawsccceanomalymonitor.DataAwsccCeAnomalyMonitorResourceTags {
 
@@ -833,7 +833,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccceanomalymoni
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCeAnomalyMonitor.DataAwsccCeAnomalyMonitorResourceTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccceanomalymonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccceanomalymonitor"
 
 dataawsccceanomalymonitor.NewDataAwsccCeAnomalyMonitorResourceTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCeAnomalyMonitorResourceTagsList
 ```
@@ -982,7 +982,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCeAnomalyMonitor.DataAwsccCeAnomalyMonitorResourceTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccceanomalymonitor"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccceanomalymonitor"
 
 dataawsccceanomalymonitor.NewDataAwsccCeAnomalyMonitorResourceTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCeAnomalyMonitorResourceTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### EcsPrimaryTaskSet <a name="EcsPrimaryTaskSet" id="@cdktn/provider-awscc.ecsPrimaryTaskSet.EcsPrimaryTaskSet"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_primary_task_set awscc_ecs_primary_task_set}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_primary_task_set awscc_ecs_primary_task_set}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ecsPrimaryTaskSet.EcsPrimaryTaskSet.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ecsprimarytaskset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ecsprimarytaskset"
 
 ecsprimarytaskset.NewEcsPrimaryTaskSet(scope Construct, id *string, config EcsPrimaryTaskSetConfig) EcsPrimaryTaskSet
 ```
@@ -400,7 +400,7 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.ecsPrimaryTaskSet.EcsPrimaryTaskSet.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ecsprimarytaskset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ecsprimarytaskset"
 
 ecsprimarytaskset.EcsPrimaryTaskSet_IsConstruct(x interface{}) *bool
 ```
@@ -432,7 +432,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.ecsPrimaryTaskSet.EcsPrimaryTaskSet.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ecsprimarytaskset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ecsprimarytaskset"
 
 ecsprimarytaskset.EcsPrimaryTaskSet_IsTerraformElement(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ ecsprimarytaskset.EcsPrimaryTaskSet_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.ecsPrimaryTaskSet.EcsPrimaryTaskSet.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ecsprimarytaskset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ecsprimarytaskset"
 
 ecsprimarytaskset.EcsPrimaryTaskSet_IsTerraformResource(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ ecsprimarytaskset.EcsPrimaryTaskSet_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.ecsPrimaryTaskSet.EcsPrimaryTaskSet.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ecsprimarytaskset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ecsprimarytaskset"
 
 ecsprimarytaskset.EcsPrimaryTaskSet_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -489,7 +489,7 @@ The construct id used in the generated config for the EcsPrimaryTaskSet to impor
 
 The id of the existing EcsPrimaryTaskSet that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_primary_task_set#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_primary_task_set#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -766,7 +766,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ecsPrimaryTaskSet.EcsPrimaryTaskSetConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ecsprimarytaskset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ecsprimarytaskset"
 
 &ecsprimarytaskset.EcsPrimaryTaskSetConfig {
 	Connection: interface{},
@@ -879,7 +879,7 @@ Cluster *string
 
 The short name or full Amazon Resource Name (ARN) of the cluster that hosts the service to create the task set in.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_primary_task_set#cluster EcsPrimaryTaskSet#cluster}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_primary_task_set#cluster EcsPrimaryTaskSet#cluster}
 
 ---
 
@@ -893,7 +893,7 @@ Service *string
 
 The short name or full Amazon Resource Name (ARN) of the service to create the task set in.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_primary_task_set#service EcsPrimaryTaskSet#service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_primary_task_set#service EcsPrimaryTaskSet#service}
 
 ---
 
@@ -907,7 +907,7 @@ TaskSetId *string
 
 The ID or full Amazon Resource Name (ARN) of the task set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_primary_task_set#task_set_id EcsPrimaryTaskSet#task_set_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_primary_task_set#task_set_id EcsPrimaryTaskSet#task_set_id}
 
 ---
 

@@ -4,12 +4,12 @@
 
 ### DataAwsccAthenaCapacityReservations <a name="DataAwsccAthenaCapacityReservations" id="@cdktn/provider-awscc.dataAwsccAthenaCapacityReservations.DataAwsccAthenaCapacityReservations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/athena_capacity_reservations awscc_athena_capacity_reservations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/athena_capacity_reservations awscc_athena_capacity_reservations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAthenaCapacityReservations.DataAwsccAthenaCapacityReservations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccathenacapacityreservations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccathenacapacityreservations"
 
 dataawsccathenacapacityreservations.NewDataAwsccAthenaCapacityReservations(scope Construct, id *string, config DataAwsccAthenaCapacityReservationsConfig) DataAwsccAthenaCapacityReservations
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccAthenaCapacityReservations.DataAwsccAthenaCapacityReservations.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccathenacapacityreservations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccathenacapacityreservations"
 
 dataawsccathenacapacityreservations.DataAwsccAthenaCapacityReservations_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccAthenaCapacityReservations.DataAwsccAthenaCapacityReservations.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccathenacapacityreservations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccathenacapacityreservations"
 
 dataawsccathenacapacityreservations.DataAwsccAthenaCapacityReservations_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccathenacapacityreservations.DataAwsccAthenaCapacityReservations_IsTerraf
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccAthenaCapacityReservations.DataAwsccAthenaCapacityReservations.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccathenacapacityreservations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccathenacapacityreservations"
 
 dataawsccathenacapacityreservations.DataAwsccAthenaCapacityReservations_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccathenacapacityreservations.DataAwsccAthenaCapacityReservations_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccAthenaCapacityReservations.DataAwsccAthenaCapacityReservations.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccathenacapacityreservations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccathenacapacityreservations"
 
 dataawsccathenacapacityreservations.DataAwsccAthenaCapacityReservations_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccAthenaCapacityRes
 
 The id of the existing DataAwsccAthenaCapacityReservations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/athena_capacity_reservations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/athena_capacity_reservations#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAthenaCapacityReservations.DataAwsccAthenaCapacityReservationsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccathenacapacityreservations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccathenacapacityreservations"
 
 &dataawsccathenacapacityreservations.DataAwsccAthenaCapacityReservationsConfig {
 	Connection: interface{},

@@ -4,12 +4,12 @@
 
 ### Ec2Host <a name="Ec2Host" id="@cdktn/provider-awscc.ec2Host.Ec2Host"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_host awscc_ec2_host}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_host awscc_ec2_host}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2Host.Ec2Host.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2host"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2host"
 
 ec2host.NewEc2Host(scope Construct, id *string, config Ec2HostConfig) Ec2Host
 ```
@@ -469,7 +469,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.ec2Host.Ec2Host.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2host"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2host"
 
 ec2host.Ec2Host_IsConstruct(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.ec2Host.Ec2Host.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2host"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2host"
 
 ec2host.Ec2Host_IsTerraformElement(x interface{}) *bool
 ```
@@ -515,7 +515,7 @@ ec2host.Ec2Host_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.ec2Host.Ec2Host.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2host"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2host"
 
 ec2host.Ec2Host_IsTerraformResource(x interface{}) *bool
 ```
@@ -529,7 +529,7 @@ ec2host.Ec2Host_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.ec2Host.Ec2Host.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2host"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2host"
 
 ec2host.Ec2Host_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -558,7 +558,7 @@ The construct id used in the generated config for the Ec2Host to import.
 
 The id of the existing Ec2Host that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_host#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_host#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -978,7 +978,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2Host.Ec2HostConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2host"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2host"
 
 &ec2host.Ec2HostConfig {
 	Connection: interface{},
@@ -1103,7 +1103,7 @@ AvailabilityZone *string
 
 The Availability Zone in which to allocate the Dedicated Host.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_host#availability_zone Ec2Host#availability_zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_host#availability_zone Ec2Host#availability_zone}
 
 ---
 
@@ -1117,7 +1117,7 @@ AssetId *string
 
 The ID of the Outpost hardware asset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_host#asset_id Ec2Host#asset_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_host#asset_id Ec2Host#asset_id}
 
 ---
 
@@ -1131,7 +1131,7 @@ AutoPlacement *string
 
 Indicates whether the host accepts any untargeted instance launches that match its instance type configuration, or if it only accepts Host tenancy instance launches that specify its unique host ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_host#auto_placement Ec2Host#auto_placement}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_host#auto_placement Ec2Host#auto_placement}
 
 ---
 
@@ -1145,7 +1145,7 @@ HostMaintenance *string
 
 Automatically allocates a new dedicated host and moves your instances on to it if a degradation is detected on your current host.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_host#host_maintenance Ec2Host#host_maintenance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_host#host_maintenance Ec2Host#host_maintenance}
 
 ---
 
@@ -1159,7 +1159,7 @@ HostRecovery *string
 
 Indicates whether to enable or disable host recovery for the Dedicated Host. Host recovery is disabled by default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_host#host_recovery Ec2Host#host_recovery}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_host#host_recovery Ec2Host#host_recovery}
 
 ---
 
@@ -1175,7 +1175,7 @@ Specifies the instance family to be supported by the Dedicated Hosts.
 
 If you specify an instance family, the Dedicated Hosts support multiple instance types within that instance family.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_host#instance_family Ec2Host#instance_family}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_host#instance_family Ec2Host#instance_family}
 
 ---
 
@@ -1191,7 +1191,7 @@ Specifies the instance type to be supported by the Dedicated Hosts.
 
 If you specify an instance type, the Dedicated Hosts support instances of the specified instance type only.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_host#instance_type Ec2Host#instance_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_host#instance_type Ec2Host#instance_type}
 
 ---
 
@@ -1205,7 +1205,7 @@ OutpostArn *string
 
 The Amazon Resource Name (ARN) of the Amazon Web Services Outpost on which to allocate the Dedicated Host.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_host#outpost_arn Ec2Host#outpost_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_host#outpost_arn Ec2Host#outpost_arn}
 
 ---
 
@@ -1219,7 +1219,7 @@ Tags interface{}
 
 Any tags assigned to the Host.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_host#tags Ec2Host#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_host#tags Ec2Host#tags}
 
 ---
 
@@ -1228,7 +1228,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2Host.Ec2HostTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2host"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2host"
 
 &ec2host.Ec2HostTags {
 	Key: *string,
@@ -1240,8 +1240,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2host"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2Host.Ec2HostTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_host#key Ec2Host#key}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Host.Ec2HostTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_host#value Ec2Host#value}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Host.Ec2HostTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_host#key Ec2Host#key}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Host.Ec2HostTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_host#value Ec2Host#value}. |
 
 ---
 
@@ -1253,7 +1253,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_host#key Ec2Host#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_host#key Ec2Host#key}.
 
 ---
 
@@ -1265,7 +1265,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_host#value Ec2Host#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_host#value Ec2Host#value}.
 
 ---
 
@@ -1276,7 +1276,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2Host.Ec2HostTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2host"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2host"
 
 ec2host.NewEc2HostTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Ec2HostTagsList
 ```
@@ -1436,7 +1436,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2Host.Ec2HostTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2host"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2host"
 
 ec2host.NewEc2HostTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) Ec2HostTagsOutputReference
 ```

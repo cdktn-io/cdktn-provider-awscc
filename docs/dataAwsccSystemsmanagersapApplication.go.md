@@ -4,12 +4,12 @@
 
 ### DataAwsccSystemsmanagersapApplication <a name="DataAwsccSystemsmanagersapApplication" id="@cdktn/provider-awscc.dataAwsccSystemsmanagersapApplication.DataAwsccSystemsmanagersapApplication"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/systemsmanagersap_application awscc_systemsmanagersap_application}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/systemsmanagersap_application awscc_systemsmanagersap_application}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSystemsmanagersapApplication.DataAwsccSystemsmanagersapApplication.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsystemsmanagersapapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsystemsmanagersapapplication"
 
 dataawsccsystemsmanagersapapplication.NewDataAwsccSystemsmanagersapApplication(scope Construct, id *string, config DataAwsccSystemsmanagersapApplicationConfig) DataAwsccSystemsmanagersapApplication
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSystemsmanagersapApplication.DataAwsccSystemsmanagersapApplication.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsystemsmanagersapapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsystemsmanagersapapplication"
 
 dataawsccsystemsmanagersapapplication.DataAwsccSystemsmanagersapApplication_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSystemsmanagersapApplication.DataAwsccSystemsmanagersapApplication.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsystemsmanagersapapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsystemsmanagersapapplication"
 
 dataawsccsystemsmanagersapapplication.DataAwsccSystemsmanagersapApplication_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsystemsmanagersapapplication.DataAwsccSystemsmanagersapApplication_IsTe
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSystemsmanagersapApplication.DataAwsccSystemsmanagersapApplication.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsystemsmanagersapapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsystemsmanagersapapplication"
 
 dataawsccsystemsmanagersapapplication.DataAwsccSystemsmanagersapApplication_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsystemsmanagersapapplication.DataAwsccSystemsmanagersapApplication_IsTe
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSystemsmanagersapApplication.DataAwsccSystemsmanagersapApplication.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsystemsmanagersapapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsystemsmanagersapapplication"
 
 dataawsccsystemsmanagersapapplication.DataAwsccSystemsmanagersapApplication_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSystemsmanagersap
 
 The id of the existing DataAwsccSystemsmanagersapApplication that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/systemsmanagersap_application#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/systemsmanagersap_application#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -697,7 +697,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSystemsmanagersapApplication.DataAwsccSystemsmanagersapApplicationComponentsInfo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsystemsmanagersapapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsystemsmanagersapapplication"
 
 &dataawsccsystemsmanagersapapplication.DataAwsccSystemsmanagersapApplicationComponentsInfo {
 
@@ -710,7 +710,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsystemsmanage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSystemsmanagersapApplication.DataAwsccSystemsmanagersapApplicationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsystemsmanagersapapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsystemsmanagersapapplication"
 
 &dataawsccsystemsmanagersapapplication.DataAwsccSystemsmanagersapApplicationConfig {
 	Connection: interface{},
@@ -819,7 +819,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/systemsmanagersap_application#id DataAwsccSystemsmanagersapApplication#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/systemsmanagersap_application#id DataAwsccSystemsmanagersapApplication#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -831,7 +831,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSystemsmanagersapApplication.DataAwsccSystemsmanagersapApplicationCredentials.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsystemsmanagersapapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsystemsmanagersapapplication"
 
 &dataawsccsystemsmanagersapapplication.DataAwsccSystemsmanagersapApplicationCredentials {
 
@@ -844,7 +844,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsystemsmanage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSystemsmanagersapApplication.DataAwsccSystemsmanagersapApplicationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsystemsmanagersapapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsystemsmanagersapapplication"
 
 &dataawsccsystemsmanagersapapplication.DataAwsccSystemsmanagersapApplicationTags {
 
@@ -859,7 +859,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsystemsmanage
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSystemsmanagersapApplication.DataAwsccSystemsmanagersapApplicationComponentsInfoList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsystemsmanagersapapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsystemsmanagersapapplication"
 
 dataawsccsystemsmanagersapapplication.NewDataAwsccSystemsmanagersapApplicationComponentsInfoList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSystemsmanagersapApplicationComponentsInfoList
 ```
@@ -1008,7 +1008,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSystemsmanagersapApplication.DataAwsccSystemsmanagersapApplicationComponentsInfoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsystemsmanagersapapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsystemsmanagersapapplication"
 
 dataawsccsystemsmanagersapapplication.NewDataAwsccSystemsmanagersapApplicationComponentsInfoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSystemsmanagersapApplicationComponentsInfoOutputReference
 ```
@@ -1308,7 +1308,7 @@ func InternalValue() DataAwsccSystemsmanagersapApplicationComponentsInfo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSystemsmanagersapApplication.DataAwsccSystemsmanagersapApplicationCredentialsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsystemsmanagersapapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsystemsmanagersapapplication"
 
 dataawsccsystemsmanagersapapplication.NewDataAwsccSystemsmanagersapApplicationCredentialsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSystemsmanagersapApplicationCredentialsList
 ```
@@ -1457,7 +1457,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSystemsmanagersapApplication.DataAwsccSystemsmanagersapApplicationCredentialsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsystemsmanagersapapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsystemsmanagersapapplication"
 
 dataawsccsystemsmanagersapapplication.NewDataAwsccSystemsmanagersapApplicationCredentialsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSystemsmanagersapApplicationCredentialsOutputReference
 ```
@@ -1757,7 +1757,7 @@ func InternalValue() DataAwsccSystemsmanagersapApplicationCredentials
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSystemsmanagersapApplication.DataAwsccSystemsmanagersapApplicationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsystemsmanagersapapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsystemsmanagersapapplication"
 
 dataawsccsystemsmanagersapapplication.NewDataAwsccSystemsmanagersapApplicationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSystemsmanagersapApplicationTagsList
 ```
@@ -1906,7 +1906,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSystemsmanagersapApplication.DataAwsccSystemsmanagersapApplicationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsystemsmanagersapapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsystemsmanagersapapplication"
 
 dataawsccsystemsmanagersapapplication.NewDataAwsccSystemsmanagersapApplicationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSystemsmanagersapApplicationTagsOutputReference
 ```

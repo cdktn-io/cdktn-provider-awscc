@@ -4,12 +4,12 @@
 
 ### IdentitystoreUser <a name="IdentitystoreUser" id="@cdktn/provider-awscc.identitystoreUser.IdentitystoreUser"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/identitystore_user awscc_identitystore_user}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/identitystore_user awscc_identitystore_user}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.identitystoreUser.IdentitystoreUser.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/identitystoreuser"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/identitystoreuser"
 
 identitystoreuser.NewIdentitystoreUser(scope Construct, id *string, config IdentitystoreUserConfig) IdentitystoreUser
 ```
@@ -597,7 +597,7 @@ func ResetWebsite()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.identitystoreUser.IdentitystoreUser.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/identitystoreuser"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/identitystoreuser"
 
 identitystoreuser.IdentitystoreUser_IsConstruct(x interface{}) *bool
 ```
@@ -629,7 +629,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.identitystoreUser.IdentitystoreUser.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/identitystoreuser"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/identitystoreuser"
 
 identitystoreuser.IdentitystoreUser_IsTerraformElement(x interface{}) *bool
 ```
@@ -643,7 +643,7 @@ identitystoreuser.IdentitystoreUser_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.identitystoreUser.IdentitystoreUser.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/identitystoreuser"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/identitystoreuser"
 
 identitystoreuser.IdentitystoreUser_IsTerraformResource(x interface{}) *bool
 ```
@@ -657,7 +657,7 @@ identitystoreuser.IdentitystoreUser_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.identitystoreUser.IdentitystoreUser.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/identitystoreuser"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/identitystoreuser"
 
 identitystoreuser.IdentitystoreUser_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -686,7 +686,7 @@ The construct id used in the generated config for the IdentitystoreUser to impor
 
 The id of the existing IdentitystoreUser that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/identitystore_user#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/identitystore_user#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1370,7 +1370,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.identitystoreUser.IdentitystoreUserAddresses.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/identitystoreuser"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/identitystoreuser"
 
 &identitystoreuser.IdentitystoreUserAddresses {
 	Country: *string,
@@ -1409,7 +1409,7 @@ Country *string
 
 The country of the address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/identitystore_user#country IdentitystoreUser#country}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/identitystore_user#country IdentitystoreUser#country}
 
 ---
 
@@ -1423,7 +1423,7 @@ Formatted *string
 
 A formatted version of the address for display.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/identitystore_user#formatted IdentitystoreUser#formatted}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/identitystore_user#formatted IdentitystoreUser#formatted}
 
 ---
 
@@ -1437,7 +1437,7 @@ Locality *string
 
 A string of the address locality.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/identitystore_user#locality IdentitystoreUser#locality}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/identitystore_user#locality IdentitystoreUser#locality}
 
 ---
 
@@ -1451,7 +1451,7 @@ PostalCode *string
 
 The postal code of the address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/identitystore_user#postal_code IdentitystoreUser#postal_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/identitystore_user#postal_code IdentitystoreUser#postal_code}
 
 ---
 
@@ -1465,7 +1465,7 @@ Primary interface{}
 
 Whether this is the primary address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/identitystore_user#primary IdentitystoreUser#primary}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/identitystore_user#primary IdentitystoreUser#primary}
 
 ---
 
@@ -1479,7 +1479,7 @@ Region *string
 
 The region of the address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/identitystore_user#region IdentitystoreUser#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/identitystore_user#region IdentitystoreUser#region}
 
 ---
 
@@ -1493,7 +1493,7 @@ StreetAddress *string
 
 The street of the address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/identitystore_user#street_address IdentitystoreUser#street_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/identitystore_user#street_address IdentitystoreUser#street_address}
 
 ---
 
@@ -1507,7 +1507,7 @@ Type *string
 
 The type of address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/identitystore_user#type IdentitystoreUser#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/identitystore_user#type IdentitystoreUser#type}
 
 ---
 
@@ -1516,7 +1516,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.identitystoreUser.IdentitystoreUserConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/identitystoreuser"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/identitystoreuser"
 
 &identitystoreuser.IdentitystoreUserConfig {
 	Connection: interface{},
@@ -1532,7 +1532,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/identitystoreuser"
 	DisplayName: *string,
 	Emails: interface{},
 	Locale: *string,
-	Name: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.identitystoreUser.IdentitystoreUserName,
+	Name: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.identitystoreUser.IdentitystoreUserName,
 	NickName: *string,
 	PhoneNumbers: interface{},
 	Photos: interface{},
@@ -1659,7 +1659,7 @@ IdentityStoreId *string
 
 The globally unique identifier for the identity store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/identitystore_user#identity_store_id IdentitystoreUser#identity_store_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/identitystore_user#identity_store_id IdentitystoreUser#identity_store_id}
 
 ---
 
@@ -1673,7 +1673,7 @@ Addresses interface{}
 
 A list of addresses associated with the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/identitystore_user#addresses IdentitystoreUser#addresses}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/identitystore_user#addresses IdentitystoreUser#addresses}
 
 ---
 
@@ -1687,7 +1687,7 @@ Birthdate *string
 
 The user's birthdate in YYYY-MM-DD format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/identitystore_user#birthdate IdentitystoreUser#birthdate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/identitystore_user#birthdate IdentitystoreUser#birthdate}
 
 ---
 
@@ -1701,7 +1701,7 @@ DisplayName *string
 
 A string containing the name of the user for display.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/identitystore_user#display_name IdentitystoreUser#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/identitystore_user#display_name IdentitystoreUser#display_name}
 
 ---
 
@@ -1715,7 +1715,7 @@ Emails interface{}
 
 A list of email addresses associated with the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/identitystore_user#emails IdentitystoreUser#emails}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/identitystore_user#emails IdentitystoreUser#emails}
 
 ---
 
@@ -1729,7 +1729,7 @@ Locale *string
 
 The geographical region or location of the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/identitystore_user#locale IdentitystoreUser#locale}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/identitystore_user#locale IdentitystoreUser#locale}
 
 ---
 
@@ -1743,7 +1743,7 @@ Name IdentitystoreUserName
 
 The name of the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/identitystore_user#name IdentitystoreUser#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/identitystore_user#name IdentitystoreUser#name}
 
 ---
 
@@ -1757,7 +1757,7 @@ NickName *string
 
 An alternate name for the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/identitystore_user#nick_name IdentitystoreUser#nick_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/identitystore_user#nick_name IdentitystoreUser#nick_name}
 
 ---
 
@@ -1771,7 +1771,7 @@ PhoneNumbers interface{}
 
 A list of phone numbers associated with the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/identitystore_user#phone_numbers IdentitystoreUser#phone_numbers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/identitystore_user#phone_numbers IdentitystoreUser#phone_numbers}
 
 ---
 
@@ -1785,7 +1785,7 @@ Photos interface{}
 
 A list of photos associated with the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/identitystore_user#photos IdentitystoreUser#photos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/identitystore_user#photos IdentitystoreUser#photos}
 
 ---
 
@@ -1799,7 +1799,7 @@ PreferredLanguage *string
 
 The preferred language of the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/identitystore_user#preferred_language IdentitystoreUser#preferred_language}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/identitystore_user#preferred_language IdentitystoreUser#preferred_language}
 
 ---
 
@@ -1813,7 +1813,7 @@ ProfileUrl *string
 
 A URL associated with the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/identitystore_user#profile_url IdentitystoreUser#profile_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/identitystore_user#profile_url IdentitystoreUser#profile_url}
 
 ---
 
@@ -1827,7 +1827,7 @@ Roles interface{}
 
 A list of roles associated with the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/identitystore_user#roles IdentitystoreUser#roles}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/identitystore_user#roles IdentitystoreUser#roles}
 
 ---
 
@@ -1841,7 +1841,7 @@ Timezone *string
 
 The time zone for the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/identitystore_user#timezone IdentitystoreUser#timezone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/identitystore_user#timezone IdentitystoreUser#timezone}
 
 ---
 
@@ -1855,7 +1855,7 @@ Title *string
 
 The title of the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/identitystore_user#title IdentitystoreUser#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/identitystore_user#title IdentitystoreUser#title}
 
 ---
 
@@ -1869,7 +1869,7 @@ UserName *string
 
 A unique string used to identify the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/identitystore_user#user_name IdentitystoreUser#user_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/identitystore_user#user_name IdentitystoreUser#user_name}
 
 ---
 
@@ -1883,7 +1883,7 @@ UserType *string
 
 A string indicating the type of user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/identitystore_user#user_type IdentitystoreUser#user_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/identitystore_user#user_type IdentitystoreUser#user_type}
 
 ---
 
@@ -1897,7 +1897,7 @@ Website *string
 
 The user's personal website or blog URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/identitystore_user#website IdentitystoreUser#website}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/identitystore_user#website IdentitystoreUser#website}
 
 ---
 
@@ -1906,7 +1906,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.identitystoreUser.IdentitystoreUserEmails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/identitystoreuser"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/identitystoreuser"
 
 &identitystoreuser.IdentitystoreUserEmails {
 	Primary: interface{},
@@ -1935,7 +1935,7 @@ Primary interface{}
 
 Whether this is the primary email address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/identitystore_user#primary IdentitystoreUser#primary}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/identitystore_user#primary IdentitystoreUser#primary}
 
 ---
 
@@ -1949,7 +1949,7 @@ Type *string
 
 The type of email address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/identitystore_user#type IdentitystoreUser#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/identitystore_user#type IdentitystoreUser#type}
 
 ---
 
@@ -1963,7 +1963,7 @@ Value *string
 
 The email address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/identitystore_user#value IdentitystoreUser#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/identitystore_user#value IdentitystoreUser#value}
 
 ---
 
@@ -1972,7 +1972,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.identitystoreUser.IdentitystoreUserName.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/identitystoreuser"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/identitystoreuser"
 
 &identitystoreuser.IdentitystoreUserName {
 	FamilyName: *string,
@@ -2007,7 +2007,7 @@ FamilyName *string
 
 The family name of the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/identitystore_user#family_name IdentitystoreUser#family_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/identitystore_user#family_name IdentitystoreUser#family_name}
 
 ---
 
@@ -2021,7 +2021,7 @@ Formatted *string
 
 A string containing a formatted version of the name for display.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/identitystore_user#formatted IdentitystoreUser#formatted}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/identitystore_user#formatted IdentitystoreUser#formatted}
 
 ---
 
@@ -2035,7 +2035,7 @@ GivenName *string
 
 The given name of the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/identitystore_user#given_name IdentitystoreUser#given_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/identitystore_user#given_name IdentitystoreUser#given_name}
 
 ---
 
@@ -2049,7 +2049,7 @@ HonorificPrefix *string
 
 The honorific prefix of the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/identitystore_user#honorific_prefix IdentitystoreUser#honorific_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/identitystore_user#honorific_prefix IdentitystoreUser#honorific_prefix}
 
 ---
 
@@ -2063,7 +2063,7 @@ HonorificSuffix *string
 
 The honorific suffix of the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/identitystore_user#honorific_suffix IdentitystoreUser#honorific_suffix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/identitystore_user#honorific_suffix IdentitystoreUser#honorific_suffix}
 
 ---
 
@@ -2077,7 +2077,7 @@ MiddleName *string
 
 The middle name of the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/identitystore_user#middle_name IdentitystoreUser#middle_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/identitystore_user#middle_name IdentitystoreUser#middle_name}
 
 ---
 
@@ -2086,7 +2086,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.identitystoreUser.IdentitystoreUserPhoneNumbers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/identitystoreuser"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/identitystoreuser"
 
 &identitystoreuser.IdentitystoreUserPhoneNumbers {
 	Primary: interface{},
@@ -2115,7 +2115,7 @@ Primary interface{}
 
 Whether this is the primary phone number.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/identitystore_user#primary IdentitystoreUser#primary}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/identitystore_user#primary IdentitystoreUser#primary}
 
 ---
 
@@ -2129,7 +2129,7 @@ Type *string
 
 The type of phone number.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/identitystore_user#type IdentitystoreUser#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/identitystore_user#type IdentitystoreUser#type}
 
 ---
 
@@ -2143,7 +2143,7 @@ Value *string
 
 The phone number.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/identitystore_user#value IdentitystoreUser#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/identitystore_user#value IdentitystoreUser#value}
 
 ---
 
@@ -2152,7 +2152,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.identitystoreUser.IdentitystoreUserPhotos.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/identitystoreuser"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/identitystoreuser"
 
 &identitystoreuser.IdentitystoreUserPhotos {
 	Display: *string,
@@ -2183,7 +2183,7 @@ Display *string
 
 A display name for the photo.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/identitystore_user#display IdentitystoreUser#display}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/identitystore_user#display IdentitystoreUser#display}
 
 ---
 
@@ -2197,7 +2197,7 @@ Primary interface{}
 
 Whether this is the primary photo.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/identitystore_user#primary IdentitystoreUser#primary}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/identitystore_user#primary IdentitystoreUser#primary}
 
 ---
 
@@ -2211,7 +2211,7 @@ Type *string
 
 The type of photo.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/identitystore_user#type IdentitystoreUser#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/identitystore_user#type IdentitystoreUser#type}
 
 ---
 
@@ -2225,7 +2225,7 @@ Value *string
 
 The photo data or URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/identitystore_user#value IdentitystoreUser#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/identitystore_user#value IdentitystoreUser#value}
 
 ---
 
@@ -2234,7 +2234,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.identitystoreUser.IdentitystoreUserRoles.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/identitystoreuser"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/identitystoreuser"
 
 &identitystoreuser.IdentitystoreUserRoles {
 	Primary: interface{},
@@ -2263,7 +2263,7 @@ Primary interface{}
 
 Whether this is the primary role.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/identitystore_user#primary IdentitystoreUser#primary}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/identitystore_user#primary IdentitystoreUser#primary}
 
 ---
 
@@ -2277,7 +2277,7 @@ Type *string
 
 The type of role.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/identitystore_user#type IdentitystoreUser#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/identitystore_user#type IdentitystoreUser#type}
 
 ---
 
@@ -2291,7 +2291,7 @@ Value *string
 
 The role name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/identitystore_user#value IdentitystoreUser#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/identitystore_user#value IdentitystoreUser#value}
 
 ---
 
@@ -2302,7 +2302,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.identitystoreUser.IdentitystoreUserAddressesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/identitystoreuser"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/identitystoreuser"
 
 identitystoreuser.NewIdentitystoreUserAddressesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IdentitystoreUserAddressesList
 ```
@@ -2462,7 +2462,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.identitystoreUser.IdentitystoreUserAddressesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/identitystoreuser"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/identitystoreuser"
 
 identitystoreuser.NewIdentitystoreUserAddressesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IdentitystoreUserAddressesOutputReference
 ```
@@ -2961,7 +2961,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.identitystoreUser.IdentitystoreUserEmailsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/identitystoreuser"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/identitystoreuser"
 
 identitystoreuser.NewIdentitystoreUserEmailsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IdentitystoreUserEmailsList
 ```
@@ -3121,7 +3121,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.identitystoreUser.IdentitystoreUserEmailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/identitystoreuser"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/identitystoreuser"
 
 identitystoreuser.NewIdentitystoreUserEmailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IdentitystoreUserEmailsOutputReference
 ```
@@ -3475,7 +3475,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.identitystoreUser.IdentitystoreUserNameOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/identitystoreuser"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/identitystoreuser"
 
 identitystoreuser.NewIdentitystoreUserNameOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IdentitystoreUserNameOutputReference
 ```
@@ -3898,7 +3898,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.identitystoreUser.IdentitystoreUserPhoneNumbersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/identitystoreuser"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/identitystoreuser"
 
 identitystoreuser.NewIdentitystoreUserPhoneNumbersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IdentitystoreUserPhoneNumbersList
 ```
@@ -4058,7 +4058,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.identitystoreUser.IdentitystoreUserPhoneNumbersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/identitystoreuser"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/identitystoreuser"
 
 identitystoreuser.NewIdentitystoreUserPhoneNumbersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IdentitystoreUserPhoneNumbersOutputReference
 ```
@@ -4412,7 +4412,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.identitystoreUser.IdentitystoreUserPhotosList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/identitystoreuser"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/identitystoreuser"
 
 identitystoreuser.NewIdentitystoreUserPhotosList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IdentitystoreUserPhotosList
 ```
@@ -4572,7 +4572,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.identitystoreUser.IdentitystoreUserPhotosOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/identitystoreuser"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/identitystoreuser"
 
 identitystoreuser.NewIdentitystoreUserPhotosOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IdentitystoreUserPhotosOutputReference
 ```
@@ -4955,7 +4955,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.identitystoreUser.IdentitystoreUserRolesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/identitystoreuser"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/identitystoreuser"
 
 identitystoreuser.NewIdentitystoreUserRolesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IdentitystoreUserRolesList
 ```
@@ -5115,7 +5115,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.identitystoreUser.IdentitystoreUserRolesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/identitystoreuser"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/identitystoreuser"
 
 identitystoreuser.NewIdentitystoreUserRolesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IdentitystoreUserRolesOutputReference
 ```

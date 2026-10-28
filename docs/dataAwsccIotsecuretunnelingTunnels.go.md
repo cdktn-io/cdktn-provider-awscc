@@ -4,12 +4,12 @@
 
 ### DataAwsccIotsecuretunnelingTunnels <a name="DataAwsccIotsecuretunnelingTunnels" id="@cdktn/provider-awscc.dataAwsccIotsecuretunnelingTunnels.DataAwsccIotsecuretunnelingTunnels"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotsecuretunneling_tunnels awscc_iotsecuretunneling_tunnels}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotsecuretunneling_tunnels awscc_iotsecuretunneling_tunnels}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotsecuretunnelingTunnels.DataAwsccIotsecuretunnelingTunnels.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsecuretunnelingtunnels"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsecuretunnelingtunnels"
 
 dataawscciotsecuretunnelingtunnels.NewDataAwsccIotsecuretunnelingTunnels(scope Construct, id *string, config DataAwsccIotsecuretunnelingTunnelsConfig) DataAwsccIotsecuretunnelingTunnels
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIotsecuretunnelingTunnels.DataAwsccIotsecuretunnelingTunnels.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsecuretunnelingtunnels"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsecuretunnelingtunnels"
 
 dataawscciotsecuretunnelingtunnels.DataAwsccIotsecuretunnelingTunnels_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIotsecuretunnelingTunnels.DataAwsccIotsecuretunnelingTunnels.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsecuretunnelingtunnels"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsecuretunnelingtunnels"
 
 dataawscciotsecuretunnelingtunnels.DataAwsccIotsecuretunnelingTunnels_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciotsecuretunnelingtunnels.DataAwsccIotsecuretunnelingTunnels_IsTerrafor
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIotsecuretunnelingTunnels.DataAwsccIotsecuretunnelingTunnels.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsecuretunnelingtunnels"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsecuretunnelingtunnels"
 
 dataawscciotsecuretunnelingtunnels.DataAwsccIotsecuretunnelingTunnels_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciotsecuretunnelingtunnels.DataAwsccIotsecuretunnelingTunnels_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIotsecuretunnelingTunnels.DataAwsccIotsecuretunnelingTunnels.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsecuretunnelingtunnels"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsecuretunnelingtunnels"
 
 dataawscciotsecuretunnelingtunnels.DataAwsccIotsecuretunnelingTunnels_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotsecuretunnelin
 
 The id of the existing DataAwsccIotsecuretunnelingTunnels that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotsecuretunneling_tunnels#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotsecuretunneling_tunnels#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotsecuretunnelingTunnels.DataAwsccIotsecuretunnelingTunnelsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsecuretunnelingtunnels"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsecuretunnelingtunnels"
 
 &dataawscciotsecuretunnelingtunnels.DataAwsccIotsecuretunnelingTunnelsConfig {
 	Connection: interface{},

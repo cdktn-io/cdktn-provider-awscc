@@ -4,12 +4,12 @@
 
 ### DataAwsccCasesRelatedItem <a name="DataAwsccCasesRelatedItem" id="@cdktn/provider-awscc.dataAwsccCasesRelatedItem.DataAwsccCasesRelatedItem"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cases_related_item awscc_cases_related_item}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cases_related_item awscc_cases_related_item}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCasesRelatedItem.DataAwsccCasesRelatedItem.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasesrelateditem"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasesrelateditem"
 
 dataawscccasesrelateditem.NewDataAwsccCasesRelatedItem(scope Construct, id *string, config DataAwsccCasesRelatedItemConfig) DataAwsccCasesRelatedItem
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCasesRelatedItem.DataAwsccCasesRelatedItem.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasesrelateditem"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasesrelateditem"
 
 dataawscccasesrelateditem.DataAwsccCasesRelatedItem_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCasesRelatedItem.DataAwsccCasesRelatedItem.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasesrelateditem"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasesrelateditem"
 
 dataawscccasesrelateditem.DataAwsccCasesRelatedItem_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccasesrelateditem.DataAwsccCasesRelatedItem_IsTerraformElement(x interfa
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCasesRelatedItem.DataAwsccCasesRelatedItem.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasesrelateditem"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasesrelateditem"
 
 dataawscccasesrelateditem.DataAwsccCasesRelatedItem_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccasesrelateditem.DataAwsccCasesRelatedItem_IsTerraformDataSource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCasesRelatedItem.DataAwsccCasesRelatedItem.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasesrelateditem"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasesrelateditem"
 
 dataawscccasesrelateditem.DataAwsccCasesRelatedItem_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCasesRelatedItem 
 
 The id of the existing DataAwsccCasesRelatedItem that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cases_related_item#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cases_related_item#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -664,7 +664,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCasesRelatedItem.DataAwsccCasesRelatedItemConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasesrelateditem"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasesrelateditem"
 
 &dataawscccasesrelateditem.DataAwsccCasesRelatedItemConfig {
 	Connection: interface{},
@@ -773,7 +773,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cases_related_item#id DataAwsccCasesRelatedItem#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cases_related_item#id DataAwsccCasesRelatedItem#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -785,7 +785,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCasesRelatedItem.DataAwsccCasesRelatedItemContent.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasesrelateditem"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasesrelateditem"
 
 &dataawscccasesrelateditem.DataAwsccCasesRelatedItemContent {
 
@@ -798,7 +798,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasesrelatedi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCasesRelatedItem.DataAwsccCasesRelatedItemContentComment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasesrelateditem"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasesrelateditem"
 
 &dataawscccasesrelateditem.DataAwsccCasesRelatedItemContentComment {
 
@@ -811,7 +811,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasesrelatedi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCasesRelatedItem.DataAwsccCasesRelatedItemTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasesrelateditem"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasesrelateditem"
 
 &dataawscccasesrelateditem.DataAwsccCasesRelatedItemTags {
 
@@ -826,7 +826,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasesrelatedi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCasesRelatedItem.DataAwsccCasesRelatedItemContentCommentOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasesrelateditem"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasesrelateditem"
 
 dataawscccasesrelateditem.NewDataAwsccCasesRelatedItemContentCommentOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCasesRelatedItemContentCommentOutputReference
 ```
@@ -1097,7 +1097,7 @@ func InternalValue() DataAwsccCasesRelatedItemContentComment
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCasesRelatedItem.DataAwsccCasesRelatedItemContentOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasesrelateditem"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasesrelateditem"
 
 dataawscccasesrelateditem.NewDataAwsccCasesRelatedItemContentOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCasesRelatedItemContentOutputReference
 ```
@@ -1357,7 +1357,7 @@ func InternalValue() DataAwsccCasesRelatedItemContent
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCasesRelatedItem.DataAwsccCasesRelatedItemTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasesrelateditem"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasesrelateditem"
 
 dataawscccasesrelateditem.NewDataAwsccCasesRelatedItemTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCasesRelatedItemTagsList
 ```
@@ -1506,7 +1506,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCasesRelatedItem.DataAwsccCasesRelatedItemTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasesrelateditem"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasesrelateditem"
 
 dataawscccasesrelateditem.NewDataAwsccCasesRelatedItemTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCasesRelatedItemTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### TransferConnector <a name="TransferConnector" id="@cdktn/provider-awscc.transferConnector.TransferConnector"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_connector awscc_transfer_connector}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_connector awscc_transfer_connector}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.transferConnector.TransferConnector.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferconnector"
 
 transferconnector.NewTransferConnector(scope Construct, id *string, config TransferConnectorConfig) TransferConnector
 ```
@@ -515,7 +515,7 @@ func ResetUrl()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.transferConnector.TransferConnector.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferconnector"
 
 transferconnector.TransferConnector_IsConstruct(x interface{}) *bool
 ```
@@ -547,7 +547,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.transferConnector.TransferConnector.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferconnector"
 
 transferconnector.TransferConnector_IsTerraformElement(x interface{}) *bool
 ```
@@ -561,7 +561,7 @@ transferconnector.TransferConnector_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.transferConnector.TransferConnector.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferconnector"
 
 transferconnector.TransferConnector_IsTerraformResource(x interface{}) *bool
 ```
@@ -575,7 +575,7 @@ transferconnector.TransferConnector_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.transferConnector.TransferConnector.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferconnector"
 
 transferconnector.TransferConnector_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -604,7 +604,7 @@ The construct id used in the generated config for the TransferConnector to impor
 
 The id of the existing TransferConnector that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_connector#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_connector#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1090,10 +1090,10 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.transferConnector.TransferConnectorAs2Config.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferconnector"
 
 &transferconnector.TransferConnectorAs2Config {
-	AsyncMdnConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.transferConnector.TransferConnectorAs2ConfigAsyncMdnConfig,
+	AsyncMdnConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.transferConnector.TransferConnectorAs2ConfigAsyncMdnConfig,
 	BasicAuthSecretId: *string,
 	Compression: *string,
 	EncryptionAlgorithm: *string,
@@ -1135,7 +1135,7 @@ AsyncMdnConfig TransferConnectorAs2ConfigAsyncMdnConfig
 
 Configuration for an AS2 connector with ASYNC MDN Response.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_connector#async_mdn_config TransferConnector#async_mdn_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_connector#async_mdn_config TransferConnector#async_mdn_config}
 
 ---
 
@@ -1151,7 +1151,7 @@ ARN or name of the secret in AWS Secrets Manager which contains the credentials 
 
 If empty, Basic authentication is disabled for the AS2 connector
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_connector#basic_auth_secret_id TransferConnector#basic_auth_secret_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_connector#basic_auth_secret_id TransferConnector#basic_auth_secret_id}
 
 ---
 
@@ -1165,7 +1165,7 @@ Compression *string
 
 Compression setting for this AS2 connector configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_connector#compression TransferConnector#compression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_connector#compression TransferConnector#compression}
 
 ---
 
@@ -1179,7 +1179,7 @@ EncryptionAlgorithm *string
 
 Encryption algorithm for this AS2 connector configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_connector#encryption_algorithm TransferConnector#encryption_algorithm}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_connector#encryption_algorithm TransferConnector#encryption_algorithm}
 
 ---
 
@@ -1193,7 +1193,7 @@ LocalProfileId *string
 
 A unique identifier for the local profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_connector#local_profile_id TransferConnector#local_profile_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_connector#local_profile_id TransferConnector#local_profile_id}
 
 ---
 
@@ -1207,7 +1207,7 @@ MdnResponse *string
 
 MDN Response setting for this AS2 connector configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_connector#mdn_response TransferConnector#mdn_response}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_connector#mdn_response TransferConnector#mdn_response}
 
 ---
 
@@ -1221,7 +1221,7 @@ MdnSigningAlgorithm *string
 
 MDN Signing algorithm for this AS2 connector configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_connector#mdn_signing_algorithm TransferConnector#mdn_signing_algorithm}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_connector#mdn_signing_algorithm TransferConnector#mdn_signing_algorithm}
 
 ---
 
@@ -1235,7 +1235,7 @@ MessageSubject *string
 
 The message subject for this AS2 connector configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_connector#message_subject TransferConnector#message_subject}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_connector#message_subject TransferConnector#message_subject}
 
 ---
 
@@ -1249,7 +1249,7 @@ PartnerProfileId *string
 
 A unique identifier for the partner profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_connector#partner_profile_id TransferConnector#partner_profile_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_connector#partner_profile_id TransferConnector#partner_profile_id}
 
 ---
 
@@ -1263,7 +1263,7 @@ PreserveContentType *string
 
 Specifies whether to use the AWS S3 object content-type as the content-type for the AS2 message.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_connector#preserve_content_type TransferConnector#preserve_content_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_connector#preserve_content_type TransferConnector#preserve_content_type}
 
 ---
 
@@ -1277,7 +1277,7 @@ SigningAlgorithm *string
 
 Signing algorithm for this AS2 connector configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_connector#signing_algorithm TransferConnector#signing_algorithm}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_connector#signing_algorithm TransferConnector#signing_algorithm}
 
 ---
 
@@ -1286,7 +1286,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.transferConnector.TransferConnectorAs2ConfigAsyncMdnConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferconnector"
 
 &transferconnector.TransferConnectorAs2ConfigAsyncMdnConfig {
 	ServerIds: *[]*string,
@@ -1298,7 +1298,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferconnector"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.transferConnector.TransferConnectorAs2ConfigAsyncMdnConfig.property.serverIds">ServerIds</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_connector#server_ids TransferConnector#server_ids}. |
+| <code><a href="#@cdktn/provider-awscc.transferConnector.TransferConnectorAs2ConfigAsyncMdnConfig.property.serverIds">ServerIds</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_connector#server_ids TransferConnector#server_ids}. |
 | <code><a href="#@cdktn/provider-awscc.transferConnector.TransferConnectorAs2ConfigAsyncMdnConfig.property.url">Url</a></code> | <code>*string</code> | URL of the server to receive the MDN response on. |
 
 ---
@@ -1311,7 +1311,7 @@ ServerIds *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_connector#server_ids TransferConnector#server_ids}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_connector#server_ids TransferConnector#server_ids}.
 
 ---
 
@@ -1325,7 +1325,7 @@ Url *string
 
 URL of the server to receive the MDN response on.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_connector#url TransferConnector#url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_connector#url TransferConnector#url}
 
 ---
 
@@ -1334,7 +1334,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.transferConnector.TransferConnectorConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferconnector"
 
 &transferconnector.TransferConnectorConfig {
 	Connection: interface{},
@@ -1345,13 +1345,13 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferconnector"
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	AccessRole: *string,
-	As2Config: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.transferConnector.TransferConnectorAs2Config,
-	EgressConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.transferConnector.TransferConnectorEgressConfig,
+	As2Config: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.transferConnector.TransferConnectorAs2Config,
+	EgressConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.transferConnector.TransferConnectorEgressConfig,
 	EgressType: *string,
 	IpAddressType: *string,
 	LoggingRole: *string,
 	SecurityPolicyName: *string,
-	SftpConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.transferConnector.TransferConnectorSftpConfig,
+	SftpConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.transferConnector.TransferConnectorSftpConfig,
 	Tags: interface{},
 	Url: *string,
 }
@@ -1461,7 +1461,7 @@ AccessRole *string
 
 Specifies the access role for the connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_connector#access_role TransferConnector#access_role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_connector#access_role TransferConnector#access_role}
 
 ---
 
@@ -1475,7 +1475,7 @@ As2Config TransferConnectorAs2Config
 
 Configuration for an AS2 connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_connector#as_2_config TransferConnector#as_2_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_connector#as_2_config TransferConnector#as_2_config}
 
 ---
 
@@ -1489,7 +1489,7 @@ EgressConfig TransferConnectorEgressConfig
 
 Egress configuration for the connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_connector#egress_config TransferConnector#egress_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_connector#egress_config TransferConnector#egress_config}
 
 ---
 
@@ -1503,7 +1503,7 @@ EgressType *string
 
 Specifies the egress type for the connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_connector#egress_type TransferConnector#egress_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_connector#egress_type TransferConnector#egress_type}
 
 ---
 
@@ -1517,7 +1517,7 @@ IpAddressType *string
 
 IP address type for Connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_connector#ip_address_type TransferConnector#ip_address_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_connector#ip_address_type TransferConnector#ip_address_type}
 
 ---
 
@@ -1531,7 +1531,7 @@ LoggingRole *string
 
 Specifies the logging role for the connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_connector#logging_role TransferConnector#logging_role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_connector#logging_role TransferConnector#logging_role}
 
 ---
 
@@ -1545,7 +1545,7 @@ SecurityPolicyName *string
 
 Security policy for SFTP Connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_connector#security_policy_name TransferConnector#security_policy_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_connector#security_policy_name TransferConnector#security_policy_name}
 
 ---
 
@@ -1559,7 +1559,7 @@ SftpConfig TransferConnectorSftpConfig
 
 Configuration for an SFTP connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_connector#sftp_config TransferConnector#sftp_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_connector#sftp_config TransferConnector#sftp_config}
 
 ---
 
@@ -1575,7 +1575,7 @@ Key-value pairs that can be used to group and search for connectors.
 
 Tags are metadata attached to connectors for any purpose.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_connector#tags TransferConnector#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_connector#tags TransferConnector#tags}
 
 ---
 
@@ -1589,7 +1589,7 @@ Url *string
 
 URL for Connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_connector#url TransferConnector#url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_connector#url TransferConnector#url}
 
 ---
 
@@ -1598,10 +1598,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.transferConnector.TransferConnectorEgressConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferconnector"
 
 &transferconnector.TransferConnectorEgressConfig {
-	VpcLattice: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.transferConnector.TransferConnectorEgressConfigVpcLattice,
+	VpcLattice: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.transferConnector.TransferConnectorEgressConfigVpcLattice,
 }
 ```
 
@@ -1609,7 +1609,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferconnector"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.transferConnector.TransferConnectorEgressConfig.property.vpcLattice">VpcLattice</a></code> | <code><a href="#@cdktn/provider-awscc.transferConnector.TransferConnectorEgressConfigVpcLattice">TransferConnectorEgressConfigVpcLattice</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_connector#vpc_lattice TransferConnector#vpc_lattice}. |
+| <code><a href="#@cdktn/provider-awscc.transferConnector.TransferConnectorEgressConfig.property.vpcLattice">VpcLattice</a></code> | <code><a href="#@cdktn/provider-awscc.transferConnector.TransferConnectorEgressConfigVpcLattice">TransferConnectorEgressConfigVpcLattice</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_connector#vpc_lattice TransferConnector#vpc_lattice}. |
 
 ---
 
@@ -1621,7 +1621,7 @@ VpcLattice TransferConnectorEgressConfigVpcLattice
 
 - *Type:* <a href="#@cdktn/provider-awscc.transferConnector.TransferConnectorEgressConfigVpcLattice">TransferConnectorEgressConfigVpcLattice</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_connector#vpc_lattice TransferConnector#vpc_lattice}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_connector#vpc_lattice TransferConnector#vpc_lattice}.
 
 ---
 
@@ -1630,7 +1630,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.transferConnector.TransferConnectorEgressConfigVpcLattice.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferconnector"
 
 &transferconnector.TransferConnectorEgressConfigVpcLattice {
 	PortNumber: *f64,
@@ -1657,7 +1657,7 @@ PortNumber *f64
 
 Port to connect to on the target VPC Lattice resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_connector#port_number TransferConnector#port_number}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_connector#port_number TransferConnector#port_number}
 
 ---
 
@@ -1671,7 +1671,7 @@ ResourceConfigurationArn *string
 
 ARN of the VPC Lattice resource configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_connector#resource_configuration_arn TransferConnector#resource_configuration_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_connector#resource_configuration_arn TransferConnector#resource_configuration_arn}
 
 ---
 
@@ -1680,7 +1680,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.transferConnector.TransferConnectorSftpConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferconnector"
 
 &transferconnector.TransferConnectorSftpConfig {
 	MaxConcurrentConnections: *f64,
@@ -1711,7 +1711,7 @@ MaxConcurrentConnections *f64
 
 Specifies the number of active connections that your connector can establish with the remote server at the same time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_connector#max_concurrent_connections TransferConnector#max_concurrent_connections}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_connector#max_concurrent_connections TransferConnector#max_concurrent_connections}
 
 ---
 
@@ -1727,7 +1727,7 @@ Specifies the order in which the connector attempts to use secret versions durin
 
 This enables fallback to alternative credentials if the primary version fails.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_connector#ordered_user_secret_version_stages TransferConnector#ordered_user_secret_version_stages}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_connector#ordered_user_secret_version_stages TransferConnector#ordered_user_secret_version_stages}
 
 ---
 
@@ -1741,7 +1741,7 @@ TrustedHostKeys *[]*string
 
 List of public host keys, for the external server to which you are connecting.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_connector#trusted_host_keys TransferConnector#trusted_host_keys}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_connector#trusted_host_keys TransferConnector#trusted_host_keys}
 
 ---
 
@@ -1755,7 +1755,7 @@ UserSecretId *string
 
 ARN or name of the secret in AWS Secrets Manager which contains the SFTP user's private keys or passwords.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_connector#user_secret_id TransferConnector#user_secret_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_connector#user_secret_id TransferConnector#user_secret_id}
 
 ---
 
@@ -1764,7 +1764,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.transferConnector.TransferConnectorTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferconnector"
 
 &transferconnector.TransferConnectorTags {
 	Key: *string,
@@ -1791,7 +1791,7 @@ Key *string
 
 The name assigned to the tag that you create.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_connector#key TransferConnector#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_connector#key TransferConnector#key}
 
 ---
 
@@ -1805,7 +1805,7 @@ Value *string
 
 Contains one or more values that you assigned to the key name you create.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_connector#value TransferConnector#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_connector#value TransferConnector#value}
 
 ---
 
@@ -1816,7 +1816,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.transferConnector.TransferConnectorAs2ConfigAsyncMdnConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferconnector"
 
 transferconnector.NewTransferConnectorAs2ConfigAsyncMdnConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) TransferConnectorAs2ConfigAsyncMdnConfigOutputReference
 ```
@@ -2123,7 +2123,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.transferConnector.TransferConnectorAs2ConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferconnector"
 
 transferconnector.NewTransferConnectorAs2ConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) TransferConnectorAs2ConfigOutputReference
 ```
@@ -2704,7 +2704,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.transferConnector.TransferConnectorEgressConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferconnector"
 
 transferconnector.NewTransferConnectorEgressConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) TransferConnectorEgressConfigOutputReference
 ```
@@ -2995,7 +2995,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.transferConnector.TransferConnectorEgressConfigVpcLatticeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferconnector"
 
 transferconnector.NewTransferConnectorEgressConfigVpcLatticeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) TransferConnectorEgressConfigVpcLatticeOutputReference
 ```
@@ -3302,7 +3302,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.transferConnector.TransferConnectorSftpConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferconnector"
 
 transferconnector.NewTransferConnectorSftpConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) TransferConnectorSftpConfigOutputReference
 ```
@@ -3667,7 +3667,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.transferConnector.TransferConnectorTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferconnector"
 
 transferconnector.NewTransferConnectorTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) TransferConnectorTagsList
 ```
@@ -3827,7 +3827,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.transferConnector.TransferConnectorTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferconnector"
 
 transferconnector.NewTransferConnectorTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) TransferConnectorTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DatasyncTask <a name="DatasyncTask" id="@cdktn/provider-awscc.datasyncTask.DatasyncTask"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_task awscc_datasync_task}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_task awscc_datasync_task}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datasyncTask.DatasyncTask.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynctask"
 
 datasynctask.NewDatasyncTask(scope Construct, id *string, config DatasyncTaskConfig) DatasyncTask
 ```
@@ -561,7 +561,7 @@ func ResetTaskReportConfig()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.datasyncTask.DatasyncTask.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynctask"
 
 datasynctask.DatasyncTask_IsConstruct(x interface{}) *bool
 ```
@@ -593,7 +593,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.datasyncTask.DatasyncTask.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynctask"
 
 datasynctask.DatasyncTask_IsTerraformElement(x interface{}) *bool
 ```
@@ -607,7 +607,7 @@ datasynctask.DatasyncTask_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.datasyncTask.DatasyncTask.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynctask"
 
 datasynctask.DatasyncTask_IsTerraformResource(x interface{}) *bool
 ```
@@ -621,7 +621,7 @@ datasynctask.DatasyncTask_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.datasyncTask.DatasyncTask.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynctask"
 
 datasynctask.DatasyncTask_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -650,7 +650,7 @@ The construct id used in the generated config for the DatasyncTask to import.
 
 The id of the existing DatasyncTask that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_task#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_task#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1169,7 +1169,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.datasyncTask.DatasyncTaskConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynctask"
 
 &datasynctask.DatasyncTaskConfig {
 	Connection: interface{},
@@ -1184,13 +1184,13 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynctask"
 	CloudwatchLogGroupArn: *string,
 	Excludes: interface{},
 	Includes: interface{},
-	ManifestConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.datasyncTask.DatasyncTaskManifestConfig,
+	ManifestConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.datasyncTask.DatasyncTaskManifestConfig,
 	Name: *string,
-	Options: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.datasyncTask.DatasyncTaskOptions,
-	Schedule: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.datasyncTask.DatasyncTaskSchedule,
+	Options: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.datasyncTask.DatasyncTaskOptions,
+	Schedule: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.datasyncTask.DatasyncTaskSchedule,
 	Tags: interface{},
 	TaskMode: *string,
-	TaskReportConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.datasyncTask.DatasyncTaskTaskReportConfig,
+	TaskReportConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.datasyncTask.DatasyncTaskTaskReportConfig,
 }
 ```
 
@@ -1208,8 +1208,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynctask"
 | <code><a href="#@cdktn/provider-awscc.datasyncTask.DatasyncTaskConfig.property.destinationLocationArn">DestinationLocationArn</a></code> | <code>*string</code> | The ARN of an AWS storage resource's location. |
 | <code><a href="#@cdktn/provider-awscc.datasyncTask.DatasyncTaskConfig.property.sourceLocationArn">SourceLocationArn</a></code> | <code>*string</code> | The ARN of the source location for the task. |
 | <code><a href="#@cdktn/provider-awscc.datasyncTask.DatasyncTaskConfig.property.cloudwatchLogGroupArn">CloudwatchLogGroupArn</a></code> | <code>*string</code> | The ARN of the Amazon CloudWatch log group that is used to monitor and log events in the task. |
-| <code><a href="#@cdktn/provider-awscc.datasyncTask.DatasyncTaskConfig.property.excludes">Excludes</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_task#excludes DatasyncTask#excludes}. |
-| <code><a href="#@cdktn/provider-awscc.datasyncTask.DatasyncTaskConfig.property.includes">Includes</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_task#includes DatasyncTask#includes}. |
+| <code><a href="#@cdktn/provider-awscc.datasyncTask.DatasyncTaskConfig.property.excludes">Excludes</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_task#excludes DatasyncTask#excludes}. |
+| <code><a href="#@cdktn/provider-awscc.datasyncTask.DatasyncTaskConfig.property.includes">Includes</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_task#includes DatasyncTask#includes}. |
 | <code><a href="#@cdktn/provider-awscc.datasyncTask.DatasyncTaskConfig.property.manifestConfig">ManifestConfig</a></code> | <code><a href="#@cdktn/provider-awscc.datasyncTask.DatasyncTaskManifestConfig">DatasyncTaskManifestConfig</a></code> | Configures a manifest, which is a list of files or objects that you want DataSync to transfer. |
 | <code><a href="#@cdktn/provider-awscc.datasyncTask.DatasyncTaskConfig.property.name">Name</a></code> | <code>*string</code> | The name of a task. |
 | <code><a href="#@cdktn/provider-awscc.datasyncTask.DatasyncTaskConfig.property.options">Options</a></code> | <code><a href="#@cdktn/provider-awscc.datasyncTask.DatasyncTaskOptions">DatasyncTaskOptions</a></code> | Represents the options that are available to control the behavior of a StartTaskExecution operation. |
@@ -1300,7 +1300,7 @@ DestinationLocationArn *string
 
 The ARN of an AWS storage resource's location.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_task#destination_location_arn DatasyncTask#destination_location_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_task#destination_location_arn DatasyncTask#destination_location_arn}
 
 ---
 
@@ -1314,7 +1314,7 @@ SourceLocationArn *string
 
 The ARN of the source location for the task.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_task#source_location_arn DatasyncTask#source_location_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_task#source_location_arn DatasyncTask#source_location_arn}
 
 ---
 
@@ -1328,7 +1328,7 @@ CloudwatchLogGroupArn *string
 
 The ARN of the Amazon CloudWatch log group that is used to monitor and log events in the task.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_task#cloudwatch_log_group_arn DatasyncTask#cloudwatch_log_group_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_task#cloudwatch_log_group_arn DatasyncTask#cloudwatch_log_group_arn}
 
 ---
 
@@ -1340,7 +1340,7 @@ Excludes interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_task#excludes DatasyncTask#excludes}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_task#excludes DatasyncTask#excludes}.
 
 ---
 
@@ -1352,7 +1352,7 @@ Includes interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_task#includes DatasyncTask#includes}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_task#includes DatasyncTask#includes}.
 
 ---
 
@@ -1366,7 +1366,7 @@ ManifestConfig DatasyncTaskManifestConfig
 
 Configures a manifest, which is a list of files or objects that you want DataSync to transfer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_task#manifest_config DatasyncTask#manifest_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_task#manifest_config DatasyncTask#manifest_config}
 
 ---
 
@@ -1382,7 +1382,7 @@ The name of a task.
 
 This value is a text reference that is used to identify the task in the console.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_task#name DatasyncTask#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_task#name DatasyncTask#name}
 
 ---
 
@@ -1396,7 +1396,7 @@ Options DatasyncTaskOptions
 
 Represents the options that are available to control the behavior of a StartTaskExecution operation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_task#options DatasyncTask#options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_task#options DatasyncTask#options}
 
 ---
 
@@ -1410,7 +1410,7 @@ Schedule DatasyncTaskSchedule
 
 Specifies the schedule you want your task to use for repeated executions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_task#schedule DatasyncTask#schedule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_task#schedule DatasyncTask#schedule}
 
 ---
 
@@ -1424,7 +1424,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_task#tags DatasyncTask#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_task#tags DatasyncTask#tags}
 
 ---
 
@@ -1438,7 +1438,7 @@ TaskMode *string
 
 Specifies the task mode for the task.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_task#task_mode DatasyncTask#task_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_task#task_mode DatasyncTask#task_mode}
 
 ---
 
@@ -1452,7 +1452,7 @@ TaskReportConfig DatasyncTaskTaskReportConfig
 
 Specifies how you want to configure a task report, which provides detailed information about for your Datasync transfer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_task#task_report_config DatasyncTask#task_report_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_task#task_report_config DatasyncTask#task_report_config}
 
 ---
 
@@ -1461,7 +1461,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.datasyncTask.DatasyncTaskExcludes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynctask"
 
 &datasynctask.DatasyncTaskExcludes {
 	FilterType: *string,
@@ -1488,7 +1488,7 @@ FilterType *string
 
 The type of filter rule to apply. AWS DataSync only supports the SIMPLE_PATTERN rule type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_task#filter_type DatasyncTask#filter_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_task#filter_type DatasyncTask#filter_type}
 
 ---
 
@@ -1502,7 +1502,7 @@ Value *string
 
 A single filter string that consists of the patterns to include or exclude. The patterns are delimited by "|".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_task#value DatasyncTask#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_task#value DatasyncTask#value}
 
 ---
 
@@ -1511,7 +1511,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.datasyncTask.DatasyncTaskIncludes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynctask"
 
 &datasynctask.DatasyncTaskIncludes {
 	FilterType: *string,
@@ -1538,7 +1538,7 @@ FilterType *string
 
 The type of filter rule to apply. AWS DataSync only supports the SIMPLE_PATTERN rule type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_task#filter_type DatasyncTask#filter_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_task#filter_type DatasyncTask#filter_type}
 
 ---
 
@@ -1552,7 +1552,7 @@ Value *string
 
 A single filter string that consists of the patterns to include or exclude. The patterns are delimited by "|".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_task#value DatasyncTask#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_task#value DatasyncTask#value}
 
 ---
 
@@ -1561,12 +1561,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.datasyncTask.DatasyncTaskManifestConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynctask"
 
 &datasynctask.DatasyncTaskManifestConfig {
 	Action: *string,
 	Format: *string,
-	Source: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.datasyncTask.DatasyncTaskManifestConfigSource,
+	Source: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.datasyncTask.DatasyncTaskManifestConfigSource,
 }
 ```
 
@@ -1590,7 +1590,7 @@ Action *string
 
 Specifies what DataSync uses the manifest for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_task#action DatasyncTask#action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_task#action DatasyncTask#action}
 
 ---
 
@@ -1604,7 +1604,7 @@ Format *string
 
 Specifies the file format of your manifest.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_task#format DatasyncTask#format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_task#format DatasyncTask#format}
 
 ---
 
@@ -1618,7 +1618,7 @@ Source DatasyncTaskManifestConfigSource
 
 Specifies the manifest that you want DataSync to use and where it's hosted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_task#source DatasyncTask#source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_task#source DatasyncTask#source}
 
 ---
 
@@ -1627,10 +1627,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.datasyncTask.DatasyncTaskManifestConfigSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynctask"
 
 &datasynctask.DatasyncTaskManifestConfigSource {
-	S3: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.datasyncTask.DatasyncTaskManifestConfigSourceS3,
+	S3: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.datasyncTask.DatasyncTaskManifestConfigSourceS3,
 }
 ```
 
@@ -1652,7 +1652,7 @@ S3 DatasyncTaskManifestConfigSourceS3
 
 Specifies the S3 bucket where you're hosting the manifest that you want AWS DataSync to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_task#s3 DatasyncTask#s3}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_task#s3 DatasyncTask#s3}
 
 ---
 
@@ -1661,7 +1661,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.datasyncTask.DatasyncTaskManifestConfigSourceS3.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynctask"
 
 &datasynctask.DatasyncTaskManifestConfigSourceS3 {
 	BucketAccessRoleArn: *string,
@@ -1692,7 +1692,7 @@ BucketAccessRoleArn *string
 
 Specifies the AWS Identity and Access Management (IAM) role that allows DataSync to access your manifest.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_task#bucket_access_role_arn DatasyncTask#bucket_access_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_task#bucket_access_role_arn DatasyncTask#bucket_access_role_arn}
 
 ---
 
@@ -1706,7 +1706,7 @@ ManifestObjectPath *string
 
 Specifies the Amazon S3 object key of your manifest.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_task#manifest_object_path DatasyncTask#manifest_object_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_task#manifest_object_path DatasyncTask#manifest_object_path}
 
 ---
 
@@ -1720,7 +1720,7 @@ ManifestObjectVersionId *string
 
 Specifies the object version ID of the manifest that you want DataSync to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_task#manifest_object_version_id DatasyncTask#manifest_object_version_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_task#manifest_object_version_id DatasyncTask#manifest_object_version_id}
 
 ---
 
@@ -1734,7 +1734,7 @@ S3BucketArn *string
 
 Specifies the Amazon Resource Name (ARN) of the S3 bucket where you're hosting your manifest.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_task#s3_bucket_arn DatasyncTask#s3_bucket_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_task#s3_bucket_arn DatasyncTask#s3_bucket_arn}
 
 ---
 
@@ -1743,7 +1743,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.datasyncTask.DatasyncTaskOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynctask"
 
 &datasynctask.DatasyncTaskOptions {
 	Atime: *string,
@@ -1798,7 +1798,7 @@ Atime *string
 
 A file metadata value that shows the last time a file was accessed (that is, when the file was read or written to).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_task#atime DatasyncTask#atime}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_task#atime DatasyncTask#atime}
 
 ---
 
@@ -1812,7 +1812,7 @@ BytesPerSecond *f64
 
 A value that limits the bandwidth used by AWS DataSync.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_task#bytes_per_second DatasyncTask#bytes_per_second}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_task#bytes_per_second DatasyncTask#bytes_per_second}
 
 ---
 
@@ -1826,7 +1826,7 @@ Gid *string
 
 The group ID (GID) of the file's owners.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_task#gid DatasyncTask#gid}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_task#gid DatasyncTask#gid}
 
 ---
 
@@ -1840,7 +1840,7 @@ LogLevel *string
 
 A value that determines the types of logs that DataSync publishes to a log stream in the Amazon CloudWatch log group that you provide.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_task#log_level DatasyncTask#log_level}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_task#log_level DatasyncTask#log_level}
 
 ---
 
@@ -1854,7 +1854,7 @@ Mtime *string
 
 A value that indicates the last time that a file was modified (that is, a file was written to) before the PREPARING phase.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_task#mtime DatasyncTask#mtime}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_task#mtime DatasyncTask#mtime}
 
 ---
 
@@ -1870,7 +1870,7 @@ A value that determines whether source object metadata should be copied to the d
 
 PRESERVE copies metadata; NONE copies only file-mtime.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_task#object_metadata DatasyncTask#object_metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_task#object_metadata DatasyncTask#object_metadata}
 
 ---
 
@@ -1884,7 +1884,7 @@ ObjectTags *string
 
 A value that determines whether object tags should be read from the source object store and written to the destination object store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_task#object_tags DatasyncTask#object_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_task#object_tags DatasyncTask#object_tags}
 
 ---
 
@@ -1898,7 +1898,7 @@ OverwriteMode *string
 
 A value that determines whether files at the destination should be overwritten or preserved when copying files.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_task#overwrite_mode DatasyncTask#overwrite_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_task#overwrite_mode DatasyncTask#overwrite_mode}
 
 ---
 
@@ -1912,7 +1912,7 @@ PosixPermissions *string
 
 A value that determines which users or groups can access a file for a specific purpose such as reading, writing, or execution of the file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_task#posix_permissions DatasyncTask#posix_permissions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_task#posix_permissions DatasyncTask#posix_permissions}
 
 ---
 
@@ -1926,7 +1926,7 @@ PreserveDeletedFiles *string
 
 A value that specifies whether files in the destination that don't exist in the source file system should be preserved.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_task#preserve_deleted_files DatasyncTask#preserve_deleted_files}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_task#preserve_deleted_files DatasyncTask#preserve_deleted_files}
 
 ---
 
@@ -1940,7 +1940,7 @@ PreserveDevices *string
 
 A value that determines whether AWS DataSync should preserve the metadata of block and character devices in the source file system, and recreate the files with that device name and metadata on the destination.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_task#preserve_devices DatasyncTask#preserve_devices}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_task#preserve_devices DatasyncTask#preserve_devices}
 
 ---
 
@@ -1954,7 +1954,7 @@ SecurityDescriptorCopyFlags *string
 
 A value that determines which components of the SMB security descriptor are copied during transfer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_task#security_descriptor_copy_flags DatasyncTask#security_descriptor_copy_flags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_task#security_descriptor_copy_flags DatasyncTask#security_descriptor_copy_flags}
 
 ---
 
@@ -1968,7 +1968,7 @@ TaskQueueing *string
 
 A value that determines whether tasks should be queued before executing the tasks.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_task#task_queueing DatasyncTask#task_queueing}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_task#task_queueing DatasyncTask#task_queueing}
 
 ---
 
@@ -1982,7 +1982,7 @@ TransferMode *string
 
 A value that determines whether DataSync transfers only the data and metadata that differ between the source and the destination location, or whether DataSync transfers all the content from the source, without comparing to the destination location.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_task#transfer_mode DatasyncTask#transfer_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_task#transfer_mode DatasyncTask#transfer_mode}
 
 ---
 
@@ -1996,7 +1996,7 @@ Uid *string
 
 The user ID (UID) of the file's owner.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_task#uid DatasyncTask#uid}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_task#uid DatasyncTask#uid}
 
 ---
 
@@ -2010,7 +2010,7 @@ VerifyMode *string
 
 A value that determines whether a data integrity verification should be performed at the end of a task execution after all data and metadata have been transferred.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_task#verify_mode DatasyncTask#verify_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_task#verify_mode DatasyncTask#verify_mode}
 
 ---
 
@@ -2019,7 +2019,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.datasyncTask.DatasyncTaskSchedule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynctask"
 
 &datasynctask.DatasyncTaskSchedule {
 	ScheduleExpression: *string,
@@ -2046,7 +2046,7 @@ ScheduleExpression *string
 
 A cron expression that specifies when AWS DataSync initiates a scheduled transfer from a source to a destination location.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_task#schedule_expression DatasyncTask#schedule_expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_task#schedule_expression DatasyncTask#schedule_expression}
 
 ---
 
@@ -2060,7 +2060,7 @@ Status *string
 
 Specifies status of a schedule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_task#status DatasyncTask#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_task#status DatasyncTask#status}
 
 ---
 
@@ -2069,7 +2069,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.datasyncTask.DatasyncTaskTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynctask"
 
 &datasynctask.DatasyncTaskTags {
 	Key: *string,
@@ -2096,7 +2096,7 @@ Key *string
 
 The key for an AWS resource tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_task#key DatasyncTask#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_task#key DatasyncTask#key}
 
 ---
 
@@ -2110,7 +2110,7 @@ Value *string
 
 The value for an AWS resource tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_task#value DatasyncTask#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_task#value DatasyncTask#value}
 
 ---
 
@@ -2119,13 +2119,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.datasyncTask.DatasyncTaskTaskReportConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynctask"
 
 &datasynctask.DatasyncTaskTaskReportConfig {
-	Destination: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.datasyncTask.DatasyncTaskTaskReportConfigDestination,
+	Destination: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.datasyncTask.DatasyncTaskTaskReportConfigDestination,
 	ObjectVersionIds: *string,
 	OutputType: *string,
-	Overrides: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.datasyncTask.DatasyncTaskTaskReportConfigOverrides,
+	Overrides: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.datasyncTask.DatasyncTaskTaskReportConfigOverrides,
 	ReportLevel: *string,
 }
 ```
@@ -2152,7 +2152,7 @@ Destination DatasyncTaskTaskReportConfigDestination
 
 Specifies where DataSync uploads your task report.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_task#destination DatasyncTask#destination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_task#destination DatasyncTask#destination}
 
 ---
 
@@ -2166,7 +2166,7 @@ ObjectVersionIds *string
 
 Specifies whether your task report includes the new version of each object transferred into an S3 bucket, this only applies if you enable versioning on your bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_task#object_version_ids DatasyncTask#object_version_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_task#object_version_ids DatasyncTask#object_version_ids}
 
 ---
 
@@ -2180,7 +2180,7 @@ OutputType *string
 
 Specifies the type of task report that you want.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_task#output_type DatasyncTask#output_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_task#output_type DatasyncTask#output_type}
 
 ---
 
@@ -2196,7 +2196,7 @@ Customizes the reporting level for aspects of your task report.
 
 For example, your report might generally only include errors, but you could specify that you want a list of successes and errors just for the files that Datasync attempted to delete in your destination location.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_task#overrides DatasyncTask#overrides}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_task#overrides DatasyncTask#overrides}
 
 ---
 
@@ -2210,7 +2210,7 @@ ReportLevel *string
 
 Specifies whether you want your task report to include only what went wrong with your transfer or a list of what succeeded and didn't.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_task#report_level DatasyncTask#report_level}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_task#report_level DatasyncTask#report_level}
 
 ---
 
@@ -2219,10 +2219,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.datasyncTask.DatasyncTaskTaskReportConfigDestination.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynctask"
 
 &datasynctask.DatasyncTaskTaskReportConfigDestination {
-	S3: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.datasyncTask.DatasyncTaskTaskReportConfigDestinationS3,
+	S3: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.datasyncTask.DatasyncTaskTaskReportConfigDestinationS3,
 }
 ```
 
@@ -2244,7 +2244,7 @@ S3 DatasyncTaskTaskReportConfigDestinationS3
 
 Specifies the Amazon S3 bucket where DataSync uploads your task report.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_task#s3 DatasyncTask#s3}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_task#s3 DatasyncTask#s3}
 
 ---
 
@@ -2253,7 +2253,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.datasyncTask.DatasyncTaskTaskReportConfigDestinationS3.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynctask"
 
 &datasynctask.DatasyncTaskTaskReportConfigDestinationS3 {
 	BucketAccessRoleArn: *string,
@@ -2282,7 +2282,7 @@ BucketAccessRoleArn *string
 
 Specifies the Amazon Resource Name (ARN) of the IAM policy that allows Datasync to upload a task report to your S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_task#bucket_access_role_arn DatasyncTask#bucket_access_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_task#bucket_access_role_arn DatasyncTask#bucket_access_role_arn}
 
 ---
 
@@ -2296,7 +2296,7 @@ S3BucketArn *string
 
 Specifies the ARN of the S3 bucket where Datasync uploads your report.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_task#s3_bucket_arn DatasyncTask#s3_bucket_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_task#s3_bucket_arn DatasyncTask#s3_bucket_arn}
 
 ---
 
@@ -2310,7 +2310,7 @@ Subdirectory *string
 
 Specifies a bucket prefix for your report.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_task#subdirectory DatasyncTask#subdirectory}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_task#subdirectory DatasyncTask#subdirectory}
 
 ---
 
@@ -2319,13 +2319,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.datasyncTask.DatasyncTaskTaskReportConfigOverrides.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynctask"
 
 &datasynctask.DatasyncTaskTaskReportConfigOverrides {
-	Deleted: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.datasyncTask.DatasyncTaskTaskReportConfigOverridesDeleted,
-	Skipped: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.datasyncTask.DatasyncTaskTaskReportConfigOverridesSkipped,
-	Transferred: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.datasyncTask.DatasyncTaskTaskReportConfigOverridesTransferred,
-	Verified: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.datasyncTask.DatasyncTaskTaskReportConfigOverridesVerified,
+	Deleted: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.datasyncTask.DatasyncTaskTaskReportConfigOverridesDeleted,
+	Skipped: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.datasyncTask.DatasyncTaskTaskReportConfigOverridesSkipped,
+	Transferred: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.datasyncTask.DatasyncTaskTaskReportConfigOverridesTransferred,
+	Verified: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.datasyncTask.DatasyncTaskTaskReportConfigOverridesVerified,
 }
 ```
 
@@ -2352,7 +2352,7 @@ Specifies the level of reporting for the files, objects, and directories that Da
 
 This only applies if you configure your task to delete data in the destination that isn't in the source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_task#deleted DatasyncTask#deleted}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_task#deleted DatasyncTask#deleted}
 
 ---
 
@@ -2366,7 +2366,7 @@ Skipped DatasyncTaskTaskReportConfigOverridesSkipped
 
 Specifies the level of reporting for the files, objects, and directories that Datasync attempted to skip during your transfer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_task#skipped DatasyncTask#skipped}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_task#skipped DatasyncTask#skipped}
 
 ---
 
@@ -2380,7 +2380,7 @@ Transferred DatasyncTaskTaskReportConfigOverridesTransferred
 
 Specifies the level of reporting for the files, objects, and directories that Datasync attempted to transfer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_task#transferred DatasyncTask#transferred}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_task#transferred DatasyncTask#transferred}
 
 ---
 
@@ -2396,7 +2396,7 @@ Specifies the level of reporting for the files, objects, and directories that Da
 
 This only applies if you configure your task to verify data during and after the transfer (which Datasync does by default)
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_task#verified DatasyncTask#verified}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_task#verified DatasyncTask#verified}
 
 ---
 
@@ -2405,7 +2405,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.datasyncTask.DatasyncTaskTaskReportConfigOverridesDeleted.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynctask"
 
 &datasynctask.DatasyncTaskTaskReportConfigOverridesDeleted {
 	ReportLevel: *string,
@@ -2430,7 +2430,7 @@ ReportLevel *string
 
 Specifies whether you want your task report to include only what went wrong with your transfer or a list of what succeeded and didn't.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_task#report_level DatasyncTask#report_level}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_task#report_level DatasyncTask#report_level}
 
 ---
 
@@ -2439,7 +2439,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.datasyncTask.DatasyncTaskTaskReportConfigOverridesSkipped.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynctask"
 
 &datasynctask.DatasyncTaskTaskReportConfigOverridesSkipped {
 	ReportLevel: *string,
@@ -2464,7 +2464,7 @@ ReportLevel *string
 
 Specifies whether you want your task report to include only what went wrong with your transfer or a list of what succeeded and didn't.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_task#report_level DatasyncTask#report_level}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_task#report_level DatasyncTask#report_level}
 
 ---
 
@@ -2473,7 +2473,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.datasyncTask.DatasyncTaskTaskReportConfigOverridesTransferred.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynctask"
 
 &datasynctask.DatasyncTaskTaskReportConfigOverridesTransferred {
 	ReportLevel: *string,
@@ -2498,7 +2498,7 @@ ReportLevel *string
 
 Specifies whether you want your task report to include only what went wrong with your transfer or a list of what succeeded and didn't.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_task#report_level DatasyncTask#report_level}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_task#report_level DatasyncTask#report_level}
 
 ---
 
@@ -2507,7 +2507,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.datasyncTask.DatasyncTaskTaskReportConfigOverridesVerified.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynctask"
 
 &datasynctask.DatasyncTaskTaskReportConfigOverridesVerified {
 	ReportLevel: *string,
@@ -2532,7 +2532,7 @@ ReportLevel *string
 
 Specifies whether you want your task report to include only what went wrong with your transfer or a list of what succeeded and didn't.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_task#report_level DatasyncTask#report_level}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_task#report_level DatasyncTask#report_level}
 
 ---
 
@@ -2543,7 +2543,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datasyncTask.DatasyncTaskExcludesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynctask"
 
 datasynctask.NewDatasyncTaskExcludesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DatasyncTaskExcludesList
 ```
@@ -2703,7 +2703,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datasyncTask.DatasyncTaskExcludesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynctask"
 
 datasynctask.NewDatasyncTaskExcludesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DatasyncTaskExcludesOutputReference
 ```
@@ -3028,7 +3028,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datasyncTask.DatasyncTaskIncludesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynctask"
 
 datasynctask.NewDatasyncTaskIncludesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DatasyncTaskIncludesList
 ```
@@ -3188,7 +3188,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datasyncTask.DatasyncTaskIncludesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynctask"
 
 datasynctask.NewDatasyncTaskIncludesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DatasyncTaskIncludesOutputReference
 ```
@@ -3513,7 +3513,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datasyncTask.DatasyncTaskManifestConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynctask"
 
 datasynctask.NewDatasyncTaskManifestConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DatasyncTaskManifestConfigOutputReference
 ```
@@ -3862,7 +3862,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datasyncTask.DatasyncTaskManifestConfigSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynctask"
 
 datasynctask.NewDatasyncTaskManifestConfigSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DatasyncTaskManifestConfigSourceOutputReference
 ```
@@ -4153,7 +4153,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datasyncTask.DatasyncTaskManifestConfigSourceS3OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynctask"
 
 datasynctask.NewDatasyncTaskManifestConfigSourceS3OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DatasyncTaskManifestConfigSourceS3OutputReference
 ```
@@ -4518,7 +4518,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datasyncTask.DatasyncTaskOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynctask"
 
 datasynctask.NewDatasyncTaskOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DatasyncTaskOptionsOutputReference
 ```
@@ -5231,7 +5231,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datasyncTask.DatasyncTaskScheduleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynctask"
 
 datasynctask.NewDatasyncTaskScheduleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DatasyncTaskScheduleOutputReference
 ```
@@ -5538,7 +5538,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datasyncTask.DatasyncTaskTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynctask"
 
 datasynctask.NewDatasyncTaskTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DatasyncTaskTagsList
 ```
@@ -5698,7 +5698,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datasyncTask.DatasyncTaskTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynctask"
 
 datasynctask.NewDatasyncTaskTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DatasyncTaskTagsOutputReference
 ```
@@ -6023,7 +6023,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datasyncTask.DatasyncTaskTaskReportConfigDestinationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynctask"
 
 datasynctask.NewDatasyncTaskTaskReportConfigDestinationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DatasyncTaskTaskReportConfigDestinationOutputReference
 ```
@@ -6314,7 +6314,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datasyncTask.DatasyncTaskTaskReportConfigDestinationS3OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynctask"
 
 datasynctask.NewDatasyncTaskTaskReportConfigDestinationS3OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DatasyncTaskTaskReportConfigDestinationS3OutputReference
 ```
@@ -6650,7 +6650,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datasyncTask.DatasyncTaskTaskReportConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynctask"
 
 datasynctask.NewDatasyncTaskTaskReportConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DatasyncTaskTaskReportConfigOutputReference
 ```
@@ -7070,7 +7070,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datasyncTask.DatasyncTaskTaskReportConfigOverridesDeletedOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynctask"
 
 datasynctask.NewDatasyncTaskTaskReportConfigOverridesDeletedOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DatasyncTaskTaskReportConfigOverridesDeletedOutputReference
 ```
@@ -7348,7 +7348,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datasyncTask.DatasyncTaskTaskReportConfigOverridesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynctask"
 
 datasynctask.NewDatasyncTaskTaskReportConfigOverridesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DatasyncTaskTaskReportConfigOverridesOutputReference
 ```
@@ -7765,7 +7765,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datasyncTask.DatasyncTaskTaskReportConfigOverridesSkippedOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynctask"
 
 datasynctask.NewDatasyncTaskTaskReportConfigOverridesSkippedOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DatasyncTaskTaskReportConfigOverridesSkippedOutputReference
 ```
@@ -8043,7 +8043,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datasyncTask.DatasyncTaskTaskReportConfigOverridesTransferredOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynctask"
 
 datasynctask.NewDatasyncTaskTaskReportConfigOverridesTransferredOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DatasyncTaskTaskReportConfigOverridesTransferredOutputReference
 ```
@@ -8321,7 +8321,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datasyncTask.DatasyncTaskTaskReportConfigOverridesVerifiedOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynctask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynctask"
 
 datasynctask.NewDatasyncTaskTaskReportConfigOverridesVerifiedOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DatasyncTaskTaskReportConfigOverridesVerifiedOutputReference
 ```

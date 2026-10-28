@@ -4,12 +4,12 @@
 
 ### DataAwsccSagemakerAppImageConfigs <a name="DataAwsccSagemakerAppImageConfigs" id="@cdktn/provider-awscc.dataAwsccSagemakerAppImageConfigs.DataAwsccSagemakerAppImageConfigs"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_app_image_configs awscc_sagemaker_app_image_configs}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_app_image_configs awscc_sagemaker_app_image_configs}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerAppImageConfigs.DataAwsccSagemakerAppImageConfigs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerappimageconfigs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerappimageconfigs"
 
 dataawsccsagemakerappimageconfigs.NewDataAwsccSagemakerAppImageConfigs(scope Construct, id *string, config DataAwsccSagemakerAppImageConfigsConfig) DataAwsccSagemakerAppImageConfigs
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSagemakerAppImageConfigs.DataAwsccSagemakerAppImageConfigs.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerappimageconfigs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerappimageconfigs"
 
 dataawsccsagemakerappimageconfigs.DataAwsccSagemakerAppImageConfigs_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSagemakerAppImageConfigs.DataAwsccSagemakerAppImageConfigs.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerappimageconfigs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerappimageconfigs"
 
 dataawsccsagemakerappimageconfigs.DataAwsccSagemakerAppImageConfigs_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsagemakerappimageconfigs.DataAwsccSagemakerAppImageConfigs_IsTerraformE
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSagemakerAppImageConfigs.DataAwsccSagemakerAppImageConfigs.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerappimageconfigs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerappimageconfigs"
 
 dataawsccsagemakerappimageconfigs.DataAwsccSagemakerAppImageConfigs_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsagemakerappimageconfigs.DataAwsccSagemakerAppImageConfigs_IsTerraformD
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSagemakerAppImageConfigs.DataAwsccSagemakerAppImageConfigs.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerappimageconfigs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerappimageconfigs"
 
 dataawsccsagemakerappimageconfigs.DataAwsccSagemakerAppImageConfigs_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSagemakerAppImage
 
 The id of the existing DataAwsccSagemakerAppImageConfigs that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_app_image_configs#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_app_image_configs#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerAppImageConfigs.DataAwsccSagemakerAppImageConfigsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerappimageconfigs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerappimageconfigs"
 
 &dataawsccsagemakerappimageconfigs.DataAwsccSagemakerAppImageConfigsConfig {
 	Connection: interface{},

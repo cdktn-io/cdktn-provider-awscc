@@ -4,12 +4,12 @@
 
 ### BedrockBlueprint <a name="BedrockBlueprint" id="@cdktn/provider-awscc.bedrockBlueprint.BedrockBlueprint"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_blueprint awscc_bedrock_blueprint}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_blueprint awscc_bedrock_blueprint}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockBlueprint.BedrockBlueprint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockblueprint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockblueprint"
 
 bedrockblueprint.NewBedrockBlueprint(scope Construct, id *string, config BedrockBlueprintConfig) BedrockBlueprint
 ```
@@ -434,7 +434,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.bedrockBlueprint.BedrockBlueprint.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockblueprint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockblueprint"
 
 bedrockblueprint.BedrockBlueprint_IsConstruct(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.bedrockBlueprint.BedrockBlueprint.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockblueprint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockblueprint"
 
 bedrockblueprint.BedrockBlueprint_IsTerraformElement(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ bedrockblueprint.BedrockBlueprint_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.bedrockBlueprint.BedrockBlueprint.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockblueprint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockblueprint"
 
 bedrockblueprint.BedrockBlueprint_IsTerraformResource(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ bedrockblueprint.BedrockBlueprint_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.bedrockBlueprint.BedrockBlueprint.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockblueprint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockblueprint"
 
 bedrockblueprint.BedrockBlueprint_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -523,7 +523,7 @@ The construct id used in the generated config for the BedrockBlueprint to import
 
 The id of the existing BedrockBlueprint that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_blueprint#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_blueprint#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -910,7 +910,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockBlueprint.BedrockBlueprintConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockblueprint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockblueprint"
 
 &bedrockblueprint.BedrockBlueprintConfig {
 	Connection: interface{},
@@ -1029,7 +1029,7 @@ BlueprintName *string
 
 Name of the Blueprint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_blueprint#blueprint_name BedrockBlueprint#blueprint_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_blueprint#blueprint_name BedrockBlueprint#blueprint_name}
 
 ---
 
@@ -1043,7 +1043,7 @@ Schema *string
 
 Schema of the blueprint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_blueprint#schema BedrockBlueprint#schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_blueprint#schema BedrockBlueprint#schema}
 
 ---
 
@@ -1057,7 +1057,7 @@ Type *string
 
 Modality Type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_blueprint#type BedrockBlueprint#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_blueprint#type BedrockBlueprint#type}
 
 ---
 
@@ -1071,7 +1071,7 @@ KmsEncryptionContext *map[string]*string
 
 KMS encryption context.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_blueprint#kms_encryption_context BedrockBlueprint#kms_encryption_context}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_blueprint#kms_encryption_context BedrockBlueprint#kms_encryption_context}
 
 ---
 
@@ -1085,7 +1085,7 @@ KmsKeyId *string
 
 KMS key identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_blueprint#kms_key_id BedrockBlueprint#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_blueprint#kms_key_id BedrockBlueprint#kms_key_id}
 
 ---
 
@@ -1099,7 +1099,7 @@ Tags interface{}
 
 List of Tags.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_blueprint#tags BedrockBlueprint#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_blueprint#tags BedrockBlueprint#tags}
 
 ---
 
@@ -1108,7 +1108,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockBlueprint.BedrockBlueprintTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockblueprint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockblueprint"
 
 &bedrockblueprint.BedrockBlueprintTags {
 	Key: *string,
@@ -1135,7 +1135,7 @@ Key *string
 
 Key for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_blueprint#key BedrockBlueprint#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_blueprint#key BedrockBlueprint#key}
 
 ---
 
@@ -1149,7 +1149,7 @@ Value *string
 
 Value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_blueprint#value BedrockBlueprint#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_blueprint#value BedrockBlueprint#value}
 
 ---
 
@@ -1160,7 +1160,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockBlueprint.BedrockBlueprintTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockblueprint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockblueprint"
 
 bedrockblueprint.NewBedrockBlueprintTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BedrockBlueprintTagsList
 ```
@@ -1320,7 +1320,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockBlueprint.BedrockBlueprintTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockblueprint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockblueprint"
 
 bedrockblueprint.NewBedrockBlueprintTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) BedrockBlueprintTagsOutputReference
 ```

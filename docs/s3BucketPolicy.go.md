@@ -4,12 +4,12 @@
 
 ### S3BucketPolicy <a name="S3BucketPolicy" id="@cdktn/provider-awscc.s3BucketPolicy.S3BucketPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket_policy awscc_s3_bucket_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_bucket_policy awscc_s3_bucket_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3BucketPolicy.S3BucketPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3bucketpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3bucketpolicy"
 
 s3bucketpolicy.NewS3BucketPolicy(scope Construct, id *string, config S3BucketPolicyConfig) S3BucketPolicy
 ```
@@ -400,7 +400,7 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.s3BucketPolicy.S3BucketPolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3bucketpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3bucketpolicy"
 
 s3bucketpolicy.S3BucketPolicy_IsConstruct(x interface{}) *bool
 ```
@@ -432,7 +432,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.s3BucketPolicy.S3BucketPolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3bucketpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3bucketpolicy"
 
 s3bucketpolicy.S3BucketPolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ s3bucketpolicy.S3BucketPolicy_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.s3BucketPolicy.S3BucketPolicy.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3bucketpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3bucketpolicy"
 
 s3bucketpolicy.S3BucketPolicy_IsTerraformResource(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ s3bucketpolicy.S3BucketPolicy_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.s3BucketPolicy.S3BucketPolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3bucketpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3bucketpolicy"
 
 s3bucketpolicy.S3BucketPolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -489,7 +489,7 @@ The construct id used in the generated config for the S3BucketPolicy to import.
 
 The id of the existing S3BucketPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_bucket_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -744,7 +744,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.s3BucketPolicy.S3BucketPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3bucketpolicy"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3bucketpolicy"
 
 &s3bucketpolicy.S3BucketPolicyConfig {
 	Connection: interface{},
@@ -855,7 +855,7 @@ Bucket *string
 
 The name of the Amazon S3 bucket to which the policy applies.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket_policy#bucket S3BucketPolicy#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_bucket_policy#bucket S3BucketPolicy#bucket}
 
 ---
 
@@ -871,7 +871,7 @@ A policy document containing permissions to add to the specified bucket.
 
 In IAM, you must provide policy documents in JSON format. However, in CloudFormation you can provide the policy in JSON or YAML format because CloudFormation converts YAML to JSON before submitting it to IAM. For more information, see the AWS::IAM::Policy [PolicyDocument](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-policy.html#cfn-iam-policy-policydocument) resource description in this guide and [Access Policy Language Overview](https://docs.aws.amazon.com/AmazonS3/latest/dev/access-policy-language-overview.html) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket_policy#policy_document S3BucketPolicy#policy_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_bucket_policy#policy_document S3BucketPolicy#policy_document}
 
 ---
 

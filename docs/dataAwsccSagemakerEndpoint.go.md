@@ -4,12 +4,12 @@
 
 ### DataAwsccSagemakerEndpoint <a name="DataAwsccSagemakerEndpoint" id="@cdktn/provider-awscc.dataAwsccSagemakerEndpoint.DataAwsccSagemakerEndpoint"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_endpoint awscc_sagemaker_endpoint}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_endpoint awscc_sagemaker_endpoint}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerEndpoint.DataAwsccSagemakerEndpoint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerendpoint"
 
 dataawsccsagemakerendpoint.NewDataAwsccSagemakerEndpoint(scope Construct, id *string, config DataAwsccSagemakerEndpointConfig) DataAwsccSagemakerEndpoint
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSagemakerEndpoint.DataAwsccSagemakerEndpoint.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerendpoint"
 
 dataawsccsagemakerendpoint.DataAwsccSagemakerEndpoint_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSagemakerEndpoint.DataAwsccSagemakerEndpoint.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerendpoint"
 
 dataawsccsagemakerendpoint.DataAwsccSagemakerEndpoint_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsagemakerendpoint.DataAwsccSagemakerEndpoint_IsTerraformElement(x inter
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSagemakerEndpoint.DataAwsccSagemakerEndpoint.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerendpoint"
 
 dataawsccsagemakerendpoint.DataAwsccSagemakerEndpoint_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsagemakerendpoint.DataAwsccSagemakerEndpoint_IsTerraformDataSource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSagemakerEndpoint.DataAwsccSagemakerEndpoint.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerendpoint"
 
 dataawsccsagemakerendpoint.DataAwsccSagemakerEndpoint_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSagemakerEndpoint
 
 The id of the existing DataAwsccSagemakerEndpoint that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_endpoint#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_endpoint#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -675,7 +675,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerEndpoint.DataAwsccSagemakerEndpointConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerendpoint"
 
 &dataawsccsagemakerendpoint.DataAwsccSagemakerEndpointConfig {
 	Connection: interface{},
@@ -784,7 +784,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_endpoint#id DataAwsccSagemakerEndpoint#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_endpoint#id DataAwsccSagemakerEndpoint#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -796,7 +796,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerEndpoint.DataAwsccSagemakerEndpointDeploymentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerendpoint"
 
 &dataawsccsagemakerendpoint.DataAwsccSagemakerEndpointDeploymentConfig {
 
@@ -809,7 +809,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerendp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerEndpoint.DataAwsccSagemakerEndpointDeploymentConfigAutoRollbackConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerendpoint"
 
 &dataawsccsagemakerendpoint.DataAwsccSagemakerEndpointDeploymentConfigAutoRollbackConfiguration {
 
@@ -822,7 +822,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerendp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerEndpoint.DataAwsccSagemakerEndpointDeploymentConfigAutoRollbackConfigurationAlarms.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerendpoint"
 
 &dataawsccsagemakerendpoint.DataAwsccSagemakerEndpointDeploymentConfigAutoRollbackConfigurationAlarms {
 
@@ -835,7 +835,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerendp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerEndpoint.DataAwsccSagemakerEndpointDeploymentConfigBlueGreenUpdatePolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerendpoint"
 
 &dataawsccsagemakerendpoint.DataAwsccSagemakerEndpointDeploymentConfigBlueGreenUpdatePolicy {
 
@@ -848,7 +848,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerendp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerEndpoint.DataAwsccSagemakerEndpointDeploymentConfigBlueGreenUpdatePolicyTrafficRoutingConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerendpoint"
 
 &dataawsccsagemakerendpoint.DataAwsccSagemakerEndpointDeploymentConfigBlueGreenUpdatePolicyTrafficRoutingConfiguration {
 
@@ -861,7 +861,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerendp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerEndpoint.DataAwsccSagemakerEndpointDeploymentConfigBlueGreenUpdatePolicyTrafficRoutingConfigurationCanarySize.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerendpoint"
 
 &dataawsccsagemakerendpoint.DataAwsccSagemakerEndpointDeploymentConfigBlueGreenUpdatePolicyTrafficRoutingConfigurationCanarySize {
 
@@ -874,7 +874,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerendp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerEndpoint.DataAwsccSagemakerEndpointDeploymentConfigBlueGreenUpdatePolicyTrafficRoutingConfigurationLinearStepSize.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerendpoint"
 
 &dataawsccsagemakerendpoint.DataAwsccSagemakerEndpointDeploymentConfigBlueGreenUpdatePolicyTrafficRoutingConfigurationLinearStepSize {
 
@@ -887,7 +887,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerendp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerEndpoint.DataAwsccSagemakerEndpointDeploymentConfigRollingUpdatePolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerendpoint"
 
 &dataawsccsagemakerendpoint.DataAwsccSagemakerEndpointDeploymentConfigRollingUpdatePolicy {
 
@@ -900,7 +900,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerendp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerEndpoint.DataAwsccSagemakerEndpointDeploymentConfigRollingUpdatePolicyMaximumBatchSize.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerendpoint"
 
 &dataawsccsagemakerendpoint.DataAwsccSagemakerEndpointDeploymentConfigRollingUpdatePolicyMaximumBatchSize {
 
@@ -913,7 +913,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerendp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerEndpoint.DataAwsccSagemakerEndpointDeploymentConfigRollingUpdatePolicyRollbackMaximumBatchSize.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerendpoint"
 
 &dataawsccsagemakerendpoint.DataAwsccSagemakerEndpointDeploymentConfigRollingUpdatePolicyRollbackMaximumBatchSize {
 
@@ -926,7 +926,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerendp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerEndpoint.DataAwsccSagemakerEndpointExcludeRetainedVariantProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerendpoint"
 
 &dataawsccsagemakerendpoint.DataAwsccSagemakerEndpointExcludeRetainedVariantProperties {
 
@@ -939,7 +939,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerendp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerEndpoint.DataAwsccSagemakerEndpointTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerendpoint"
 
 &dataawsccsagemakerendpoint.DataAwsccSagemakerEndpointTags {
 
@@ -954,7 +954,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerendp
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerEndpoint.DataAwsccSagemakerEndpointDeploymentConfigAutoRollbackConfigurationAlarmsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerendpoint"
 
 dataawsccsagemakerendpoint.NewDataAwsccSagemakerEndpointDeploymentConfigAutoRollbackConfigurationAlarmsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSagemakerEndpointDeploymentConfigAutoRollbackConfigurationAlarmsList
 ```
@@ -1103,7 +1103,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerEndpoint.DataAwsccSagemakerEndpointDeploymentConfigAutoRollbackConfigurationAlarmsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerendpoint"
 
 dataawsccsagemakerendpoint.NewDataAwsccSagemakerEndpointDeploymentConfigAutoRollbackConfigurationAlarmsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSagemakerEndpointDeploymentConfigAutoRollbackConfigurationAlarmsOutputReference
 ```
@@ -1381,7 +1381,7 @@ func InternalValue() DataAwsccSagemakerEndpointDeploymentConfigAutoRollbackConfi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerEndpoint.DataAwsccSagemakerEndpointDeploymentConfigAutoRollbackConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerendpoint"
 
 dataawsccsagemakerendpoint.NewDataAwsccSagemakerEndpointDeploymentConfigAutoRollbackConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerEndpointDeploymentConfigAutoRollbackConfigurationOutputReference
 ```
@@ -1641,7 +1641,7 @@ func InternalValue() DataAwsccSagemakerEndpointDeploymentConfigAutoRollbackConfi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerEndpoint.DataAwsccSagemakerEndpointDeploymentConfigBlueGreenUpdatePolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerendpoint"
 
 dataawsccsagemakerendpoint.NewDataAwsccSagemakerEndpointDeploymentConfigBlueGreenUpdatePolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerEndpointDeploymentConfigBlueGreenUpdatePolicyOutputReference
 ```
@@ -1923,7 +1923,7 @@ func InternalValue() DataAwsccSagemakerEndpointDeploymentConfigBlueGreenUpdatePo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerEndpoint.DataAwsccSagemakerEndpointDeploymentConfigBlueGreenUpdatePolicyTrafficRoutingConfigurationCanarySizeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerendpoint"
 
 dataawsccsagemakerendpoint.NewDataAwsccSagemakerEndpointDeploymentConfigBlueGreenUpdatePolicyTrafficRoutingConfigurationCanarySizeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerEndpointDeploymentConfigBlueGreenUpdatePolicyTrafficRoutingConfigurationCanarySizeOutputReference
 ```
@@ -2194,7 +2194,7 @@ func InternalValue() DataAwsccSagemakerEndpointDeploymentConfigBlueGreenUpdatePo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerEndpoint.DataAwsccSagemakerEndpointDeploymentConfigBlueGreenUpdatePolicyTrafficRoutingConfigurationLinearStepSizeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerendpoint"
 
 dataawsccsagemakerendpoint.NewDataAwsccSagemakerEndpointDeploymentConfigBlueGreenUpdatePolicyTrafficRoutingConfigurationLinearStepSizeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerEndpointDeploymentConfigBlueGreenUpdatePolicyTrafficRoutingConfigurationLinearStepSizeOutputReference
 ```
@@ -2465,7 +2465,7 @@ func InternalValue() DataAwsccSagemakerEndpointDeploymentConfigBlueGreenUpdatePo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerEndpoint.DataAwsccSagemakerEndpointDeploymentConfigBlueGreenUpdatePolicyTrafficRoutingConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerendpoint"
 
 dataawsccsagemakerendpoint.NewDataAwsccSagemakerEndpointDeploymentConfigBlueGreenUpdatePolicyTrafficRoutingConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerEndpointDeploymentConfigBlueGreenUpdatePolicyTrafficRoutingConfigurationOutputReference
 ```
@@ -2758,7 +2758,7 @@ func InternalValue() DataAwsccSagemakerEndpointDeploymentConfigBlueGreenUpdatePo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerEndpoint.DataAwsccSagemakerEndpointDeploymentConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerendpoint"
 
 dataawsccsagemakerendpoint.NewDataAwsccSagemakerEndpointDeploymentConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerEndpointDeploymentConfigOutputReference
 ```
@@ -3040,7 +3040,7 @@ func InternalValue() DataAwsccSagemakerEndpointDeploymentConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerEndpoint.DataAwsccSagemakerEndpointDeploymentConfigRollingUpdatePolicyMaximumBatchSizeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerendpoint"
 
 dataawsccsagemakerendpoint.NewDataAwsccSagemakerEndpointDeploymentConfigRollingUpdatePolicyMaximumBatchSizeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerEndpointDeploymentConfigRollingUpdatePolicyMaximumBatchSizeOutputReference
 ```
@@ -3311,7 +3311,7 @@ func InternalValue() DataAwsccSagemakerEndpointDeploymentConfigRollingUpdatePoli
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerEndpoint.DataAwsccSagemakerEndpointDeploymentConfigRollingUpdatePolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerendpoint"
 
 dataawsccsagemakerendpoint.NewDataAwsccSagemakerEndpointDeploymentConfigRollingUpdatePolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerEndpointDeploymentConfigRollingUpdatePolicyOutputReference
 ```
@@ -3604,7 +3604,7 @@ func InternalValue() DataAwsccSagemakerEndpointDeploymentConfigRollingUpdatePoli
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerEndpoint.DataAwsccSagemakerEndpointDeploymentConfigRollingUpdatePolicyRollbackMaximumBatchSizeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerendpoint"
 
 dataawsccsagemakerendpoint.NewDataAwsccSagemakerEndpointDeploymentConfigRollingUpdatePolicyRollbackMaximumBatchSizeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerEndpointDeploymentConfigRollingUpdatePolicyRollbackMaximumBatchSizeOutputReference
 ```
@@ -3875,7 +3875,7 @@ func InternalValue() DataAwsccSagemakerEndpointDeploymentConfigRollingUpdatePoli
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerEndpoint.DataAwsccSagemakerEndpointExcludeRetainedVariantPropertiesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerendpoint"
 
 dataawsccsagemakerendpoint.NewDataAwsccSagemakerEndpointExcludeRetainedVariantPropertiesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSagemakerEndpointExcludeRetainedVariantPropertiesList
 ```
@@ -4024,7 +4024,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerEndpoint.DataAwsccSagemakerEndpointExcludeRetainedVariantPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerendpoint"
 
 dataawsccsagemakerendpoint.NewDataAwsccSagemakerEndpointExcludeRetainedVariantPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSagemakerEndpointExcludeRetainedVariantPropertiesOutputReference
 ```
@@ -4302,7 +4302,7 @@ func InternalValue() DataAwsccSagemakerEndpointExcludeRetainedVariantProperties
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerEndpoint.DataAwsccSagemakerEndpointTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerendpoint"
 
 dataawsccsagemakerendpoint.NewDataAwsccSagemakerEndpointTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSagemakerEndpointTagsList
 ```
@@ -4451,7 +4451,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerEndpoint.DataAwsccSagemakerEndpointTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerendpoint"
 
 dataawsccsagemakerendpoint.NewDataAwsccSagemakerEndpointTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSagemakerEndpointTagsOutputReference
 ```

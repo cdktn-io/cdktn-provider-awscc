@@ -4,12 +4,12 @@
 
 ### KinesisStreamConsumer <a name="KinesisStreamConsumer" id="@cdktn/provider-awscc.kinesisStreamConsumer.KinesisStreamConsumer"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesis_stream_consumer awscc_kinesis_stream_consumer}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesis_stream_consumer awscc_kinesis_stream_consumer}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kinesisStreamConsumer.KinesisStreamConsumer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kinesisstreamconsumer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kinesisstreamconsumer"
 
 kinesisstreamconsumer.NewKinesisStreamConsumer(scope Construct, id *string, config KinesisStreamConsumerConfig) KinesisStreamConsumer
 ```
@@ -420,7 +420,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.kinesisStreamConsumer.KinesisStreamConsumer.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kinesisstreamconsumer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kinesisstreamconsumer"
 
 kinesisstreamconsumer.KinesisStreamConsumer_IsConstruct(x interface{}) *bool
 ```
@@ -452,7 +452,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.kinesisStreamConsumer.KinesisStreamConsumer.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kinesisstreamconsumer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kinesisstreamconsumer"
 
 kinesisstreamconsumer.KinesisStreamConsumer_IsTerraformElement(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ kinesisstreamconsumer.KinesisStreamConsumer_IsTerraformElement(x interface{}) *b
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.kinesisStreamConsumer.KinesisStreamConsumer.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kinesisstreamconsumer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kinesisstreamconsumer"
 
 kinesisstreamconsumer.KinesisStreamConsumer_IsTerraformResource(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ kinesisstreamconsumer.KinesisStreamConsumer_IsTerraformResource(x interface{}) *
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.kinesisStreamConsumer.KinesisStreamConsumer.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kinesisstreamconsumer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kinesisstreamconsumer"
 
 kinesisstreamconsumer.KinesisStreamConsumer_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -509,7 +509,7 @@ The construct id used in the generated config for the KinesisStreamConsumer to i
 
 The id of the existing KinesisStreamConsumer that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesis_stream_consumer#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesis_stream_consumer#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -819,7 +819,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.kinesisStreamConsumer.KinesisStreamConsumerConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kinesisstreamconsumer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kinesisstreamconsumer"
 
 &kinesisstreamconsumer.KinesisStreamConsumerConfig {
 	Connection: interface{},
@@ -934,7 +934,7 @@ The name of the Kinesis Stream Consumer.
 
 For a given Kinesis data stream, each consumer must have a unique name. However, consumer names don't have to be unique across data streams.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesis_stream_consumer#consumer_name KinesisStreamConsumer#consumer_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesis_stream_consumer#consumer_name KinesisStreamConsumer#consumer_name}
 
 ---
 
@@ -948,7 +948,7 @@ StreamArn *string
 
 The Amazon resource name (ARN) of the Kinesis data stream that you want to register the consumer with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesis_stream_consumer#stream_arn KinesisStreamConsumer#stream_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesis_stream_consumer#stream_arn KinesisStreamConsumer#stream_arn}
 
 ---
 
@@ -962,7 +962,7 @@ Tags interface{}
 
 An arbitrary set of tags (key–value pairs) to associate with the Kinesis consumer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesis_stream_consumer#tags KinesisStreamConsumer#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesis_stream_consumer#tags KinesisStreamConsumer#tags}
 
 ---
 
@@ -971,7 +971,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.kinesisStreamConsumer.KinesisStreamConsumerTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kinesisstreamconsumer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kinesisstreamconsumer"
 
 &kinesisstreamconsumer.KinesisStreamConsumerTags {
 	Key: *string,
@@ -1000,7 +1000,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesis_stream_consumer#key KinesisStreamConsumer#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesis_stream_consumer#key KinesisStreamConsumer#key}
 
 ---
 
@@ -1016,7 +1016,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesis_stream_consumer#value KinesisStreamConsumer#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesis_stream_consumer#value KinesisStreamConsumer#value}
 
 ---
 
@@ -1027,7 +1027,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kinesisStreamConsumer.KinesisStreamConsumerTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kinesisstreamconsumer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kinesisstreamconsumer"
 
 kinesisstreamconsumer.NewKinesisStreamConsumerTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) KinesisStreamConsumerTagsList
 ```
@@ -1187,7 +1187,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kinesisStreamConsumer.KinesisStreamConsumerTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kinesisstreamconsumer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kinesisstreamconsumer"
 
 kinesisstreamconsumer.NewKinesisStreamConsumerTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) KinesisStreamConsumerTagsOutputReference
 ```

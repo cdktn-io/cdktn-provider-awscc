@@ -4,12 +4,12 @@
 
 ### CloudfrontTrustStore <a name="CloudfrontTrustStore" id="@cdktn/provider-awscc.cloudfrontTrustStore.CloudfrontTrustStore"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_trust_store awscc_cloudfront_trust_store}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_trust_store awscc_cloudfront_trust_store}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudfrontTrustStore.CloudfrontTrustStore.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfronttruststore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfronttruststore"
 
 cloudfronttruststore.NewCloudfrontTrustStore(scope Construct, id *string, config CloudfrontTrustStoreConfig) CloudfrontTrustStore
 ```
@@ -447,7 +447,7 @@ func ResetUseClientCertificateOcspEndpoint()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.cloudfrontTrustStore.CloudfrontTrustStore.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfronttruststore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfronttruststore"
 
 cloudfronttruststore.CloudfrontTrustStore_IsConstruct(x interface{}) *bool
 ```
@@ -479,7 +479,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.cloudfrontTrustStore.CloudfrontTrustStore.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfronttruststore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfronttruststore"
 
 cloudfronttruststore.CloudfrontTrustStore_IsTerraformElement(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ cloudfronttruststore.CloudfrontTrustStore_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.cloudfrontTrustStore.CloudfrontTrustStore.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfronttruststore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfronttruststore"
 
 cloudfronttruststore.CloudfrontTrustStore_IsTerraformResource(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ cloudfronttruststore.CloudfrontTrustStore_IsTerraformResource(x interface{}) *bo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.cloudfrontTrustStore.CloudfrontTrustStore.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfronttruststore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfronttruststore"
 
 cloudfronttruststore.CloudfrontTrustStore_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -536,7 +536,7 @@ The construct id used in the generated config for the CloudfrontTrustStore to im
 
 The id of the existing CloudfrontTrustStore that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_trust_store#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_trust_store#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -901,10 +901,10 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudfrontTrustStore.CloudfrontTrustStoreCaCertificatesBundleSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfronttruststore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfronttruststore"
 
 &cloudfronttruststore.CloudfrontTrustStoreCaCertificatesBundleSource {
-	CaCertificatesBundleS3Location: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.cloudfrontTrustStore.CloudfrontTrustStoreCaCertificatesBundleSourceCaCertificatesBundleS3Location,
+	CaCertificatesBundleS3Location: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.cloudfrontTrustStore.CloudfrontTrustStoreCaCertificatesBundleSourceCaCertificatesBundleS3Location,
 }
 ```
 
@@ -926,7 +926,7 @@ CaCertificatesBundleS3Location CloudfrontTrustStoreCaCertificatesBundleSourceCaC
 
 The CA certificates bundle location in Amazon S3.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_trust_store#ca_certificates_bundle_s3_location CloudfrontTrustStore#ca_certificates_bundle_s3_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_trust_store#ca_certificates_bundle_s3_location CloudfrontTrustStore#ca_certificates_bundle_s3_location}
 
 ---
 
@@ -935,7 +935,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudfrontTrustStore.CloudfrontTrustStoreCaCertificatesBundleSourceCaCertificatesBundleS3Location.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfronttruststore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfronttruststore"
 
 &cloudfronttruststore.CloudfrontTrustStoreCaCertificatesBundleSourceCaCertificatesBundleS3Location {
 	Bucket: *string,
@@ -966,7 +966,7 @@ Bucket *string
 
 The S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_trust_store#bucket CloudfrontTrustStore#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_trust_store#bucket CloudfrontTrustStore#bucket}
 
 ---
 
@@ -980,7 +980,7 @@ Key *string
 
 The location's key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_trust_store#key CloudfrontTrustStore#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_trust_store#key CloudfrontTrustStore#key}
 
 ---
 
@@ -994,7 +994,7 @@ Region *string
 
 The location's Region.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_trust_store#region CloudfrontTrustStore#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_trust_store#region CloudfrontTrustStore#region}
 
 ---
 
@@ -1008,7 +1008,7 @@ Version *string
 
 The location's version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_trust_store#version CloudfrontTrustStore#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_trust_store#version CloudfrontTrustStore#version}
 
 ---
 
@@ -1017,7 +1017,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudfrontTrustStore.CloudfrontTrustStoreConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfronttruststore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfronttruststore"
 
 &cloudfronttruststore.CloudfrontTrustStoreConfig {
 	Connection: interface{},
@@ -1028,7 +1028,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfronttruststore"
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	Name: *string,
-	CaCertificatesBundleSource: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.cloudfrontTrustStore.CloudfrontTrustStoreCaCertificatesBundleSource,
+	CaCertificatesBundleSource: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.cloudfrontTrustStore.CloudfrontTrustStoreCaCertificatesBundleSource,
 	Tags: interface{},
 	UseClientCertificateOcspEndpoint: interface{},
 }
@@ -1132,7 +1132,7 @@ Name *string
 
 The trust store's name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_trust_store#name CloudfrontTrustStore#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_trust_store#name CloudfrontTrustStore#name}
 
 ---
 
@@ -1146,7 +1146,7 @@ CaCertificatesBundleSource CloudfrontTrustStoreCaCertificatesBundleSource
 
 A CA certificates bundle source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_trust_store#ca_certificates_bundle_source CloudfrontTrustStore#ca_certificates_bundle_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_trust_store#ca_certificates_bundle_source CloudfrontTrustStore#ca_certificates_bundle_source}
 
 ---
 
@@ -1160,7 +1160,7 @@ Tags interface{}
 
 A complex type that contains zero or more ``Tag`` elements.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_trust_store#tags CloudfrontTrustStore#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_trust_store#tags CloudfrontTrustStore#tags}
 
 ---
 
@@ -1174,7 +1174,7 @@ UseClientCertificateOcspEndpoint interface{}
 
 A boolean. When true, performs real-time certificate revocation checks by querying the OCSP endpoint specified within the client certificate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_trust_store#use_client_certificate_ocsp_endpoint CloudfrontTrustStore#use_client_certificate_ocsp_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_trust_store#use_client_certificate_ocsp_endpoint CloudfrontTrustStore#use_client_certificate_ocsp_endpoint}
 
 ---
 
@@ -1183,7 +1183,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudfrontTrustStore.CloudfrontTrustStoreTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfronttruststore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfronttruststore"
 
 &cloudfronttruststore.CloudfrontTrustStoreTags {
 	Key: *string,
@@ -1235,7 +1235,7 @@ The string length should be between 0 and 256 characters. Valid characters inclu
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudfrontTrustStore.CloudfrontTrustStoreCaCertificatesBundleSourceCaCertificatesBundleS3LocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfronttruststore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfronttruststore"
 
 cloudfronttruststore.NewCloudfrontTrustStoreCaCertificatesBundleSourceCaCertificatesBundleS3LocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CloudfrontTrustStoreCaCertificatesBundleSourceCaCertificatesBundleS3LocationOutputReference
 ```
@@ -1600,7 +1600,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudfrontTrustStore.CloudfrontTrustStoreCaCertificatesBundleSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfronttruststore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfronttruststore"
 
 cloudfronttruststore.NewCloudfrontTrustStoreCaCertificatesBundleSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CloudfrontTrustStoreCaCertificatesBundleSourceOutputReference
 ```
@@ -1891,7 +1891,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudfrontTrustStore.CloudfrontTrustStoreTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfronttruststore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfronttruststore"
 
 cloudfronttruststore.NewCloudfrontTrustStoreTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CloudfrontTrustStoreTagsList
 ```
@@ -2051,7 +2051,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudfrontTrustStore.CloudfrontTrustStoreTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfronttruststore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfronttruststore"
 
 cloudfronttruststore.NewCloudfrontTrustStoreTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CloudfrontTrustStoreTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2GatewayRouteTableAssociation <a name="DataAwsccEc2GatewayRouteTableAssociation" id="@cdktn/provider-awscc.dataAwsccEc2GatewayRouteTableAssociation.DataAwsccEc2GatewayRouteTableAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_gateway_route_table_association awscc_ec2_gateway_route_table_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_gateway_route_table_association awscc_ec2_gateway_route_table_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2GatewayRouteTableAssociation.DataAwsccEc2GatewayRouteTableAssociation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2gatewayroutetableassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2gatewayroutetableassociation"
 
 dataawsccec2gatewayroutetableassociation.NewDataAwsccEc2GatewayRouteTableAssociation(scope Construct, id *string, config DataAwsccEc2GatewayRouteTableAssociationConfig) DataAwsccEc2GatewayRouteTableAssociation
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2GatewayRouteTableAssociation.DataAwsccEc2GatewayRouteTableAssociation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2gatewayroutetableassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2gatewayroutetableassociation"
 
 dataawsccec2gatewayroutetableassociation.DataAwsccEc2GatewayRouteTableAssociation_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2GatewayRouteTableAssociation.DataAwsccEc2GatewayRouteTableAssociation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2gatewayroutetableassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2gatewayroutetableassociation"
 
 dataawsccec2gatewayroutetableassociation.DataAwsccEc2GatewayRouteTableAssociation_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2gatewayroutetableassociation.DataAwsccEc2GatewayRouteTableAssociatio
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2GatewayRouteTableAssociation.DataAwsccEc2GatewayRouteTableAssociation.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2gatewayroutetableassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2gatewayroutetableassociation"
 
 dataawsccec2gatewayroutetableassociation.DataAwsccEc2GatewayRouteTableAssociation_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2gatewayroutetableassociation.DataAwsccEc2GatewayRouteTableAssociatio
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2GatewayRouteTableAssociation.DataAwsccEc2GatewayRouteTableAssociation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2gatewayroutetableassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2gatewayroutetableassociation"
 
 dataawsccec2gatewayroutetableassociation.DataAwsccEc2GatewayRouteTableAssociation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2GatewayRouteTa
 
 The id of the existing DataAwsccEc2GatewayRouteTableAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_gateway_route_table_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_gateway_route_table_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -620,7 +620,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2GatewayRouteTableAssociation.DataAwsccEc2GatewayRouteTableAssociationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2gatewayroutetableassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2gatewayroutetableassociation"
 
 &dataawsccec2gatewayroutetableassociation.DataAwsccEc2GatewayRouteTableAssociationConfig {
 	Connection: interface{},
@@ -729,7 +729,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_gateway_route_table_association#id DataAwsccEc2GatewayRouteTableAssociation#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_gateway_route_table_association#id DataAwsccEc2GatewayRouteTableAssociation#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

@@ -4,12 +4,12 @@
 
 ### LaunchwizardDeployment <a name="LaunchwizardDeployment" id="@cdktn/provider-awscc.launchwizardDeployment.LaunchwizardDeployment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/launchwizard_deployment awscc_launchwizard_deployment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/launchwizard_deployment awscc_launchwizard_deployment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.launchwizardDeployment.LaunchwizardDeployment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/launchwizarddeployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/launchwizarddeployment"
 
 launchwizarddeployment.NewLaunchwizardDeployment(scope Construct, id *string, config LaunchwizardDeploymentConfig) LaunchwizardDeployment
 ```
@@ -427,7 +427,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.launchwizardDeployment.LaunchwizardDeployment.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/launchwizarddeployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/launchwizarddeployment"
 
 launchwizarddeployment.LaunchwizardDeployment_IsConstruct(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.launchwizardDeployment.LaunchwizardDeployment.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/launchwizarddeployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/launchwizarddeployment"
 
 launchwizarddeployment.LaunchwizardDeployment_IsTerraformElement(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ launchwizarddeployment.LaunchwizardDeployment_IsTerraformElement(x interface{}) 
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.launchwizardDeployment.LaunchwizardDeployment.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/launchwizarddeployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/launchwizarddeployment"
 
 launchwizarddeployment.LaunchwizardDeployment_IsTerraformResource(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ launchwizarddeployment.LaunchwizardDeployment_IsTerraformResource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.launchwizardDeployment.LaunchwizardDeployment.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/launchwizarddeployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/launchwizarddeployment"
 
 launchwizarddeployment.LaunchwizardDeployment_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -516,7 +516,7 @@ The construct id used in the generated config for the LaunchwizardDeployment to 
 
 The id of the existing LaunchwizardDeployment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/launchwizard_deployment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/launchwizard_deployment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -903,7 +903,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.launchwizardDeployment.LaunchwizardDeploymentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/launchwizarddeployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/launchwizarddeployment"
 
 &launchwizarddeployment.LaunchwizardDeploymentConfig {
 	Connection: interface{},
@@ -1020,7 +1020,7 @@ DeploymentPatternName *string
 
 Workload deployment pattern name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/launchwizard_deployment#deployment_pattern_name LaunchwizardDeployment#deployment_pattern_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/launchwizard_deployment#deployment_pattern_name LaunchwizardDeployment#deployment_pattern_name}
 
 ---
 
@@ -1034,7 +1034,7 @@ Name *string
 
 Name of LaunchWizard deployment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/launchwizard_deployment#name LaunchwizardDeployment#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/launchwizard_deployment#name LaunchwizardDeployment#name}
 
 ---
 
@@ -1048,7 +1048,7 @@ WorkloadName *string
 
 Workload Name for LaunchWizard deployment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/launchwizard_deployment#workload_name LaunchwizardDeployment#workload_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/launchwizard_deployment#workload_name LaunchwizardDeployment#workload_name}
 
 ---
 
@@ -1062,7 +1062,7 @@ Specifications *map[string]*string
 
 LaunchWizard deployment specifications.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/launchwizard_deployment#specifications LaunchwizardDeployment#specifications}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/launchwizard_deployment#specifications LaunchwizardDeployment#specifications}
 
 ---
 
@@ -1076,7 +1076,7 @@ Tags interface{}
 
 Tags for LaunchWizard deployment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/launchwizard_deployment#tags LaunchwizardDeployment#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/launchwizard_deployment#tags LaunchwizardDeployment#tags}
 
 ---
 
@@ -1085,7 +1085,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.launchwizardDeployment.LaunchwizardDeploymentTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/launchwizarddeployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/launchwizarddeployment"
 
 &launchwizarddeployment.LaunchwizardDeploymentTags {
 	Key: *string,
@@ -1114,7 +1114,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/launchwizard_deployment#key LaunchwizardDeployment#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/launchwizard_deployment#key LaunchwizardDeployment#key}
 
 ---
 
@@ -1130,7 +1130,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/launchwizard_deployment#value LaunchwizardDeployment#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/launchwizard_deployment#value LaunchwizardDeployment#value}
 
 ---
 
@@ -1141,7 +1141,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.launchwizardDeployment.LaunchwizardDeploymentTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/launchwizarddeployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/launchwizarddeployment"
 
 launchwizarddeployment.NewLaunchwizardDeploymentTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LaunchwizardDeploymentTagsList
 ```
@@ -1301,7 +1301,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.launchwizardDeployment.LaunchwizardDeploymentTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/launchwizarddeployment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/launchwizarddeployment"
 
 launchwizarddeployment.NewLaunchwizardDeploymentTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LaunchwizardDeploymentTagsOutputReference
 ```

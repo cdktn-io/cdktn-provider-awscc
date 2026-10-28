@@ -4,12 +4,12 @@
 
 ### DataAwsccCodedeployDeploymentGroup <a name="DataAwsccCodedeployDeploymentGroup" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/codedeploy_deployment_group awscc_codedeploy_deployment_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/codedeploy_deployment_group awscc_codedeploy_deployment_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 dataawscccodedeploydeploymentgroup.NewDataAwsccCodedeployDeploymentGroup(scope Construct, id *string, config DataAwsccCodedeployDeploymentGroupConfig) DataAwsccCodedeployDeploymentGroup
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroup.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 dataawscccodedeploydeploymentgroup.DataAwsccCodedeployDeploymentGroup_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroup.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 dataawscccodedeploydeploymentgroup.DataAwsccCodedeployDeploymentGroup_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccodedeploydeploymentgroup.DataAwsccCodedeployDeploymentGroup_IsTerrafor
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroup.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 dataawscccodedeploydeploymentgroup.DataAwsccCodedeployDeploymentGroup_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccodedeploydeploymentgroup.DataAwsccCodedeployDeploymentGroup_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroup.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 dataawscccodedeploydeploymentgroup.DataAwsccCodedeployDeploymentGroup_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCodedeployDeploym
 
 The id of the existing DataAwsccCodedeployDeploymentGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/codedeploy_deployment_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/codedeploy_deployment_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -807,7 +807,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupAlarmConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 &dataawscccodedeploydeploymentgroup.DataAwsccCodedeployDeploymentGroupAlarmConfiguration {
 
@@ -820,7 +820,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupAlarmConfigurationAlarms.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 &dataawscccodedeploydeploymentgroup.DataAwsccCodedeployDeploymentGroupAlarmConfigurationAlarms {
 
@@ -833,7 +833,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupAutoRollbackConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 &dataawscccodedeploydeploymentgroup.DataAwsccCodedeployDeploymentGroupAutoRollbackConfiguration {
 
@@ -846,7 +846,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupBlueGreenDeploymentConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 &dataawscccodedeploydeploymentgroup.DataAwsccCodedeployDeploymentGroupBlueGreenDeploymentConfiguration {
 
@@ -859,7 +859,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupBlueGreenDeploymentConfigurationDeploymentReadyOption.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 &dataawscccodedeploydeploymentgroup.DataAwsccCodedeployDeploymentGroupBlueGreenDeploymentConfigurationDeploymentReadyOption {
 
@@ -872,7 +872,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupBlueGreenDeploymentConfigurationGreenFleetProvisioningOption.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 &dataawscccodedeploydeploymentgroup.DataAwsccCodedeployDeploymentGroupBlueGreenDeploymentConfigurationGreenFleetProvisioningOption {
 
@@ -885,7 +885,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupBlueGreenDeploymentConfigurationTerminateBlueInstancesOnDeploymentSuccess.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 &dataawscccodedeploydeploymentgroup.DataAwsccCodedeployDeploymentGroupBlueGreenDeploymentConfigurationTerminateBlueInstancesOnDeploymentSuccess {
 
@@ -898,7 +898,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 &dataawscccodedeploydeploymentgroup.DataAwsccCodedeployDeploymentGroupConfig {
 	Connection: interface{},
@@ -1007,7 +1007,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/codedeploy_deployment_group#id DataAwsccCodedeployDeploymentGroup#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/codedeploy_deployment_group#id DataAwsccCodedeployDeploymentGroup#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1019,7 +1019,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupDeployment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 &dataawscccodedeploydeploymentgroup.DataAwsccCodedeployDeploymentGroupDeployment {
 
@@ -1032,7 +1032,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupDeploymentRevision.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 &dataawscccodedeploydeploymentgroup.DataAwsccCodedeployDeploymentGroupDeploymentRevision {
 
@@ -1045,7 +1045,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupDeploymentRevisionGitHubLocation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 &dataawscccodedeploydeploymentgroup.DataAwsccCodedeployDeploymentGroupDeploymentRevisionGitHubLocation {
 
@@ -1058,7 +1058,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupDeploymentRevisionS3Location.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 &dataawscccodedeploydeploymentgroup.DataAwsccCodedeployDeploymentGroupDeploymentRevisionS3Location {
 
@@ -1071,7 +1071,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupDeploymentStyle.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 &dataawscccodedeploydeploymentgroup.DataAwsccCodedeployDeploymentGroupDeploymentStyle {
 
@@ -1084,7 +1084,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupEc2TagFilters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 &dataawscccodedeploydeploymentgroup.DataAwsccCodedeployDeploymentGroupEc2TagFilters {
 
@@ -1097,7 +1097,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupEc2TagSet.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 &dataawscccodedeploydeploymentgroup.DataAwsccCodedeployDeploymentGroupEc2TagSet {
 
@@ -1110,7 +1110,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupEc2TagSetEc2TagSetListEc2TagGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 &dataawscccodedeploydeploymentgroup.DataAwsccCodedeployDeploymentGroupEc2TagSetEc2TagSetListEc2TagGroup {
 
@@ -1123,7 +1123,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupEc2TagSetEc2TagSetListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 &dataawscccodedeploydeploymentgroup.DataAwsccCodedeployDeploymentGroupEc2TagSetEc2TagSetListStruct {
 
@@ -1136,7 +1136,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupEcsServices.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 &dataawscccodedeploydeploymentgroup.DataAwsccCodedeployDeploymentGroupEcsServices {
 
@@ -1149,7 +1149,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupLoadBalancerInfo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 &dataawscccodedeploydeploymentgroup.DataAwsccCodedeployDeploymentGroupLoadBalancerInfo {
 
@@ -1162,7 +1162,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupLoadBalancerInfoElbInfoListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 &dataawscccodedeploydeploymentgroup.DataAwsccCodedeployDeploymentGroupLoadBalancerInfoElbInfoListStruct {
 
@@ -1175,7 +1175,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupLoadBalancerInfoTargetGroupInfoListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 &dataawscccodedeploydeploymentgroup.DataAwsccCodedeployDeploymentGroupLoadBalancerInfoTargetGroupInfoListStruct {
 
@@ -1188,7 +1188,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupLoadBalancerInfoTargetGroupPairInfoListProdTrafficRoute.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 &dataawscccodedeploydeploymentgroup.DataAwsccCodedeployDeploymentGroupLoadBalancerInfoTargetGroupPairInfoListProdTrafficRoute {
 
@@ -1201,7 +1201,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupLoadBalancerInfoTargetGroupPairInfoListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 &dataawscccodedeploydeploymentgroup.DataAwsccCodedeployDeploymentGroupLoadBalancerInfoTargetGroupPairInfoListStruct {
 
@@ -1214,7 +1214,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupLoadBalancerInfoTargetGroupPairInfoListTargetGroups.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 &dataawscccodedeploydeploymentgroup.DataAwsccCodedeployDeploymentGroupLoadBalancerInfoTargetGroupPairInfoListTargetGroups {
 
@@ -1227,7 +1227,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupLoadBalancerInfoTargetGroupPairInfoListTestTrafficRoute.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 &dataawscccodedeploydeploymentgroup.DataAwsccCodedeployDeploymentGroupLoadBalancerInfoTargetGroupPairInfoListTestTrafficRoute {
 
@@ -1240,7 +1240,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupOnPremisesInstanceTagFilters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 &dataawscccodedeploydeploymentgroup.DataAwsccCodedeployDeploymentGroupOnPremisesInstanceTagFilters {
 
@@ -1253,7 +1253,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupOnPremisesTagSet.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 &dataawscccodedeploydeploymentgroup.DataAwsccCodedeployDeploymentGroupOnPremisesTagSet {
 
@@ -1266,7 +1266,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupOnPremisesTagSetOnPremisesTagSetListOnPremisesTagGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 &dataawscccodedeploydeploymentgroup.DataAwsccCodedeployDeploymentGroupOnPremisesTagSetOnPremisesTagSetListOnPremisesTagGroup {
 
@@ -1279,7 +1279,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupOnPremisesTagSetOnPremisesTagSetListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 &dataawscccodedeploydeploymentgroup.DataAwsccCodedeployDeploymentGroupOnPremisesTagSetOnPremisesTagSetListStruct {
 
@@ -1292,7 +1292,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 &dataawscccodedeploydeploymentgroup.DataAwsccCodedeployDeploymentGroupTags {
 
@@ -1305,7 +1305,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydep
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupTriggerConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 &dataawscccodedeploydeploymentgroup.DataAwsccCodedeployDeploymentGroupTriggerConfigurations {
 
@@ -1320,7 +1320,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydep
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupAlarmConfigurationAlarmsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 dataawscccodedeploydeploymentgroup.NewDataAwsccCodedeployDeploymentGroupAlarmConfigurationAlarmsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCodedeployDeploymentGroupAlarmConfigurationAlarmsList
 ```
@@ -1469,7 +1469,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupAlarmConfigurationAlarmsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 dataawscccodedeploydeploymentgroup.NewDataAwsccCodedeployDeploymentGroupAlarmConfigurationAlarmsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCodedeployDeploymentGroupAlarmConfigurationAlarmsOutputReference
 ```
@@ -1747,7 +1747,7 @@ func InternalValue() DataAwsccCodedeployDeploymentGroupAlarmConfigurationAlarms
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupAlarmConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 dataawscccodedeploydeploymentgroup.NewDataAwsccCodedeployDeploymentGroupAlarmConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCodedeployDeploymentGroupAlarmConfigurationOutputReference
 ```
@@ -2029,7 +2029,7 @@ func InternalValue() DataAwsccCodedeployDeploymentGroupAlarmConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupAutoRollbackConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 dataawscccodedeploydeploymentgroup.NewDataAwsccCodedeployDeploymentGroupAutoRollbackConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCodedeployDeploymentGroupAutoRollbackConfigurationOutputReference
 ```
@@ -2300,7 +2300,7 @@ func InternalValue() DataAwsccCodedeployDeploymentGroupAutoRollbackConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupBlueGreenDeploymentConfigurationDeploymentReadyOptionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 dataawscccodedeploydeploymentgroup.NewDataAwsccCodedeployDeploymentGroupBlueGreenDeploymentConfigurationDeploymentReadyOptionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCodedeployDeploymentGroupBlueGreenDeploymentConfigurationDeploymentReadyOptionOutputReference
 ```
@@ -2571,7 +2571,7 @@ func InternalValue() DataAwsccCodedeployDeploymentGroupBlueGreenDeploymentConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupBlueGreenDeploymentConfigurationGreenFleetProvisioningOptionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 dataawscccodedeploydeploymentgroup.NewDataAwsccCodedeployDeploymentGroupBlueGreenDeploymentConfigurationGreenFleetProvisioningOptionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCodedeployDeploymentGroupBlueGreenDeploymentConfigurationGreenFleetProvisioningOptionOutputReference
 ```
@@ -2831,7 +2831,7 @@ func InternalValue() DataAwsccCodedeployDeploymentGroupBlueGreenDeploymentConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupBlueGreenDeploymentConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 dataawscccodedeploydeploymentgroup.NewDataAwsccCodedeployDeploymentGroupBlueGreenDeploymentConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCodedeployDeploymentGroupBlueGreenDeploymentConfigurationOutputReference
 ```
@@ -3113,7 +3113,7 @@ func InternalValue() DataAwsccCodedeployDeploymentGroupBlueGreenDeploymentConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupBlueGreenDeploymentConfigurationTerminateBlueInstancesOnDeploymentSuccessOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 dataawscccodedeploydeploymentgroup.NewDataAwsccCodedeployDeploymentGroupBlueGreenDeploymentConfigurationTerminateBlueInstancesOnDeploymentSuccessOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCodedeployDeploymentGroupBlueGreenDeploymentConfigurationTerminateBlueInstancesOnDeploymentSuccessOutputReference
 ```
@@ -3384,7 +3384,7 @@ func InternalValue() DataAwsccCodedeployDeploymentGroupBlueGreenDeploymentConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupDeploymentOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 dataawscccodedeploydeploymentgroup.NewDataAwsccCodedeployDeploymentGroupDeploymentOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCodedeployDeploymentGroupDeploymentOutputReference
 ```
@@ -3666,7 +3666,7 @@ func InternalValue() DataAwsccCodedeployDeploymentGroupDeployment
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupDeploymentRevisionGitHubLocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 dataawscccodedeploydeploymentgroup.NewDataAwsccCodedeployDeploymentGroupDeploymentRevisionGitHubLocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCodedeployDeploymentGroupDeploymentRevisionGitHubLocationOutputReference
 ```
@@ -3937,7 +3937,7 @@ func InternalValue() DataAwsccCodedeployDeploymentGroupDeploymentRevisionGitHubL
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupDeploymentRevisionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 dataawscccodedeploydeploymentgroup.NewDataAwsccCodedeployDeploymentGroupDeploymentRevisionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCodedeployDeploymentGroupDeploymentRevisionOutputReference
 ```
@@ -4219,7 +4219,7 @@ func InternalValue() DataAwsccCodedeployDeploymentGroupDeploymentRevision
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupDeploymentRevisionS3LocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 dataawscccodedeploydeploymentgroup.NewDataAwsccCodedeployDeploymentGroupDeploymentRevisionS3LocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCodedeployDeploymentGroupDeploymentRevisionS3LocationOutputReference
 ```
@@ -4523,7 +4523,7 @@ func InternalValue() DataAwsccCodedeployDeploymentGroupDeploymentRevisionS3Locat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupDeploymentStyleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 dataawscccodedeploydeploymentgroup.NewDataAwsccCodedeployDeploymentGroupDeploymentStyleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCodedeployDeploymentGroupDeploymentStyleOutputReference
 ```
@@ -4794,7 +4794,7 @@ func InternalValue() DataAwsccCodedeployDeploymentGroupDeploymentStyle
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupEc2TagFiltersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 dataawscccodedeploydeploymentgroup.NewDataAwsccCodedeployDeploymentGroupEc2TagFiltersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCodedeployDeploymentGroupEc2TagFiltersList
 ```
@@ -4943,7 +4943,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupEc2TagFiltersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 dataawscccodedeploydeploymentgroup.NewDataAwsccCodedeployDeploymentGroupEc2TagFiltersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCodedeployDeploymentGroupEc2TagFiltersOutputReference
 ```
@@ -5243,7 +5243,7 @@ func InternalValue() DataAwsccCodedeployDeploymentGroupEc2TagFilters
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupEc2TagSetEc2TagSetListEc2TagGroupList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 dataawscccodedeploydeploymentgroup.NewDataAwsccCodedeployDeploymentGroupEc2TagSetEc2TagSetListEc2TagGroupList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCodedeployDeploymentGroupEc2TagSetEc2TagSetListEc2TagGroupList
 ```
@@ -5392,7 +5392,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupEc2TagSetEc2TagSetListEc2TagGroupOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 dataawscccodedeploydeploymentgroup.NewDataAwsccCodedeployDeploymentGroupEc2TagSetEc2TagSetListEc2TagGroupOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCodedeployDeploymentGroupEc2TagSetEc2TagSetListEc2TagGroupOutputReference
 ```
@@ -5692,7 +5692,7 @@ func InternalValue() DataAwsccCodedeployDeploymentGroupEc2TagSetEc2TagSetListEc2
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupEc2TagSetEc2TagSetListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 dataawscccodedeploydeploymentgroup.NewDataAwsccCodedeployDeploymentGroupEc2TagSetEc2TagSetListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCodedeployDeploymentGroupEc2TagSetEc2TagSetListStructList
 ```
@@ -5841,7 +5841,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupEc2TagSetEc2TagSetListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 dataawscccodedeploydeploymentgroup.NewDataAwsccCodedeployDeploymentGroupEc2TagSetEc2TagSetListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCodedeployDeploymentGroupEc2TagSetEc2TagSetListStructOutputReference
 ```
@@ -6119,7 +6119,7 @@ func InternalValue() DataAwsccCodedeployDeploymentGroupEc2TagSetEc2TagSetListStr
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupEc2TagSetOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 dataawscccodedeploydeploymentgroup.NewDataAwsccCodedeployDeploymentGroupEc2TagSetOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCodedeployDeploymentGroupEc2TagSetOutputReference
 ```
@@ -6379,7 +6379,7 @@ func InternalValue() DataAwsccCodedeployDeploymentGroupEc2TagSet
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupEcsServicesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 dataawscccodedeploydeploymentgroup.NewDataAwsccCodedeployDeploymentGroupEcsServicesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCodedeployDeploymentGroupEcsServicesList
 ```
@@ -6528,7 +6528,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupEcsServicesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 dataawscccodedeploydeploymentgroup.NewDataAwsccCodedeployDeploymentGroupEcsServicesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCodedeployDeploymentGroupEcsServicesOutputReference
 ```
@@ -6817,7 +6817,7 @@ func InternalValue() DataAwsccCodedeployDeploymentGroupEcsServices
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupLoadBalancerInfoElbInfoListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 dataawscccodedeploydeploymentgroup.NewDataAwsccCodedeployDeploymentGroupLoadBalancerInfoElbInfoListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCodedeployDeploymentGroupLoadBalancerInfoElbInfoListStructList
 ```
@@ -6966,7 +6966,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupLoadBalancerInfoElbInfoListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 dataawscccodedeploydeploymentgroup.NewDataAwsccCodedeployDeploymentGroupLoadBalancerInfoElbInfoListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCodedeployDeploymentGroupLoadBalancerInfoElbInfoListStructOutputReference
 ```
@@ -7244,7 +7244,7 @@ func InternalValue() DataAwsccCodedeployDeploymentGroupLoadBalancerInfoElbInfoLi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupLoadBalancerInfoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 dataawscccodedeploydeploymentgroup.NewDataAwsccCodedeployDeploymentGroupLoadBalancerInfoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCodedeployDeploymentGroupLoadBalancerInfoOutputReference
 ```
@@ -7526,7 +7526,7 @@ func InternalValue() DataAwsccCodedeployDeploymentGroupLoadBalancerInfo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupLoadBalancerInfoTargetGroupInfoListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 dataawscccodedeploydeploymentgroup.NewDataAwsccCodedeployDeploymentGroupLoadBalancerInfoTargetGroupInfoListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCodedeployDeploymentGroupLoadBalancerInfoTargetGroupInfoListStructList
 ```
@@ -7675,7 +7675,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupLoadBalancerInfoTargetGroupInfoListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 dataawscccodedeploydeploymentgroup.NewDataAwsccCodedeployDeploymentGroupLoadBalancerInfoTargetGroupInfoListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCodedeployDeploymentGroupLoadBalancerInfoTargetGroupInfoListStructOutputReference
 ```
@@ -7953,7 +7953,7 @@ func InternalValue() DataAwsccCodedeployDeploymentGroupLoadBalancerInfoTargetGro
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupLoadBalancerInfoTargetGroupPairInfoListProdTrafficRouteOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 dataawscccodedeploydeploymentgroup.NewDataAwsccCodedeployDeploymentGroupLoadBalancerInfoTargetGroupPairInfoListProdTrafficRouteOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCodedeployDeploymentGroupLoadBalancerInfoTargetGroupPairInfoListProdTrafficRouteOutputReference
 ```
@@ -8213,7 +8213,7 @@ func InternalValue() DataAwsccCodedeployDeploymentGroupLoadBalancerInfoTargetGro
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupLoadBalancerInfoTargetGroupPairInfoListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 dataawscccodedeploydeploymentgroup.NewDataAwsccCodedeployDeploymentGroupLoadBalancerInfoTargetGroupPairInfoListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCodedeployDeploymentGroupLoadBalancerInfoTargetGroupPairInfoListStructList
 ```
@@ -8362,7 +8362,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupLoadBalancerInfoTargetGroupPairInfoListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 dataawscccodedeploydeploymentgroup.NewDataAwsccCodedeployDeploymentGroupLoadBalancerInfoTargetGroupPairInfoListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCodedeployDeploymentGroupLoadBalancerInfoTargetGroupPairInfoListStructOutputReference
 ```
@@ -8662,7 +8662,7 @@ func InternalValue() DataAwsccCodedeployDeploymentGroupLoadBalancerInfoTargetGro
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupLoadBalancerInfoTargetGroupPairInfoListTargetGroupsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 dataawscccodedeploydeploymentgroup.NewDataAwsccCodedeployDeploymentGroupLoadBalancerInfoTargetGroupPairInfoListTargetGroupsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCodedeployDeploymentGroupLoadBalancerInfoTargetGroupPairInfoListTargetGroupsList
 ```
@@ -8811,7 +8811,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupLoadBalancerInfoTargetGroupPairInfoListTargetGroupsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 dataawscccodedeploydeploymentgroup.NewDataAwsccCodedeployDeploymentGroupLoadBalancerInfoTargetGroupPairInfoListTargetGroupsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCodedeployDeploymentGroupLoadBalancerInfoTargetGroupPairInfoListTargetGroupsOutputReference
 ```
@@ -9089,7 +9089,7 @@ func InternalValue() DataAwsccCodedeployDeploymentGroupLoadBalancerInfoTargetGro
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupLoadBalancerInfoTargetGroupPairInfoListTestTrafficRouteOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 dataawscccodedeploydeploymentgroup.NewDataAwsccCodedeployDeploymentGroupLoadBalancerInfoTargetGroupPairInfoListTestTrafficRouteOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCodedeployDeploymentGroupLoadBalancerInfoTargetGroupPairInfoListTestTrafficRouteOutputReference
 ```
@@ -9349,7 +9349,7 @@ func InternalValue() DataAwsccCodedeployDeploymentGroupLoadBalancerInfoTargetGro
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupOnPremisesInstanceTagFiltersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 dataawscccodedeploydeploymentgroup.NewDataAwsccCodedeployDeploymentGroupOnPremisesInstanceTagFiltersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCodedeployDeploymentGroupOnPremisesInstanceTagFiltersList
 ```
@@ -9498,7 +9498,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupOnPremisesInstanceTagFiltersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 dataawscccodedeploydeploymentgroup.NewDataAwsccCodedeployDeploymentGroupOnPremisesInstanceTagFiltersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCodedeployDeploymentGroupOnPremisesInstanceTagFiltersOutputReference
 ```
@@ -9798,7 +9798,7 @@ func InternalValue() DataAwsccCodedeployDeploymentGroupOnPremisesInstanceTagFilt
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupOnPremisesTagSetOnPremisesTagSetListOnPremisesTagGroupList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 dataawscccodedeploydeploymentgroup.NewDataAwsccCodedeployDeploymentGroupOnPremisesTagSetOnPremisesTagSetListOnPremisesTagGroupList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCodedeployDeploymentGroupOnPremisesTagSetOnPremisesTagSetListOnPremisesTagGroupList
 ```
@@ -9947,7 +9947,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupOnPremisesTagSetOnPremisesTagSetListOnPremisesTagGroupOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 dataawscccodedeploydeploymentgroup.NewDataAwsccCodedeployDeploymentGroupOnPremisesTagSetOnPremisesTagSetListOnPremisesTagGroupOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCodedeployDeploymentGroupOnPremisesTagSetOnPremisesTagSetListOnPremisesTagGroupOutputReference
 ```
@@ -10247,7 +10247,7 @@ func InternalValue() DataAwsccCodedeployDeploymentGroupOnPremisesTagSetOnPremise
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupOnPremisesTagSetOnPremisesTagSetListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 dataawscccodedeploydeploymentgroup.NewDataAwsccCodedeployDeploymentGroupOnPremisesTagSetOnPremisesTagSetListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCodedeployDeploymentGroupOnPremisesTagSetOnPremisesTagSetListStructList
 ```
@@ -10396,7 +10396,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupOnPremisesTagSetOnPremisesTagSetListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 dataawscccodedeploydeploymentgroup.NewDataAwsccCodedeployDeploymentGroupOnPremisesTagSetOnPremisesTagSetListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCodedeployDeploymentGroupOnPremisesTagSetOnPremisesTagSetListStructOutputReference
 ```
@@ -10674,7 +10674,7 @@ func InternalValue() DataAwsccCodedeployDeploymentGroupOnPremisesTagSetOnPremise
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupOnPremisesTagSetOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 dataawscccodedeploydeploymentgroup.NewDataAwsccCodedeployDeploymentGroupOnPremisesTagSetOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCodedeployDeploymentGroupOnPremisesTagSetOutputReference
 ```
@@ -10934,7 +10934,7 @@ func InternalValue() DataAwsccCodedeployDeploymentGroupOnPremisesTagSet
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 dataawscccodedeploydeploymentgroup.NewDataAwsccCodedeployDeploymentGroupTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCodedeployDeploymentGroupTagsList
 ```
@@ -11083,7 +11083,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 dataawscccodedeploydeploymentgroup.NewDataAwsccCodedeployDeploymentGroupTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCodedeployDeploymentGroupTagsOutputReference
 ```
@@ -11372,7 +11372,7 @@ func InternalValue() DataAwsccCodedeployDeploymentGroupTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupTriggerConfigurationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 dataawscccodedeploydeploymentgroup.NewDataAwsccCodedeployDeploymentGroupTriggerConfigurationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCodedeployDeploymentGroupTriggerConfigurationsList
 ```
@@ -11521,7 +11521,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodedeployDeploymentGroup.DataAwsccCodedeployDeploymentGroupTriggerConfigurationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup"
 
 dataawscccodedeploydeploymentgroup.NewDataAwsccCodedeployDeploymentGroupTriggerConfigurationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCodedeployDeploymentGroupTriggerConfigurationsOutputReference
 ```

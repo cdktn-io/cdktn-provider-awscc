@@ -4,12 +4,12 @@
 
 ### NetworkmanagerSite <a name="NetworkmanagerSite" id="@cdktn/provider-awscc.networkmanagerSite.NetworkmanagerSite"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_site awscc_networkmanager_site}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_site awscc_networkmanager_site}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmanagerSite.NetworkmanagerSite.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagersite"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagersite"
 
 networkmanagersite.NewNetworkmanagerSite(scope Construct, id *string, config NetworkmanagerSiteConfig) NetworkmanagerSite
 ```
@@ -447,7 +447,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.networkmanagerSite.NetworkmanagerSite.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagersite"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagersite"
 
 networkmanagersite.NetworkmanagerSite_IsConstruct(x interface{}) *bool
 ```
@@ -479,7 +479,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.networkmanagerSite.NetworkmanagerSite.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagersite"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagersite"
 
 networkmanagersite.NetworkmanagerSite_IsTerraformElement(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ networkmanagersite.NetworkmanagerSite_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.networkmanagerSite.NetworkmanagerSite.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagersite"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagersite"
 
 networkmanagersite.NetworkmanagerSite_IsTerraformResource(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ networkmanagersite.NetworkmanagerSite_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.networkmanagerSite.NetworkmanagerSite.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagersite"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagersite"
 
 networkmanagersite.NetworkmanagerSite_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -536,7 +536,7 @@ The construct id used in the generated config for the NetworkmanagerSite to impo
 
 The id of the existing NetworkmanagerSite that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_site#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_site#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -879,7 +879,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.networkmanagerSite.NetworkmanagerSiteConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagersite"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagersite"
 
 &networkmanagersite.NetworkmanagerSiteConfig {
 	Connection: interface{},
@@ -891,7 +891,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagersite"
 	Provisioners: *[]interface{},
 	GlobalNetworkId: *string,
 	Description: *string,
-	Location: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.networkmanagerSite.NetworkmanagerSiteLocation,
+	Location: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.networkmanagerSite.NetworkmanagerSiteLocation,
 	Tags: interface{},
 }
 ```
@@ -994,7 +994,7 @@ GlobalNetworkId *string
 
 The ID of the global network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_site#global_network_id NetworkmanagerSite#global_network_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_site#global_network_id NetworkmanagerSite#global_network_id}
 
 ---
 
@@ -1008,7 +1008,7 @@ Description *string
 
 The description of the site.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_site#description NetworkmanagerSite#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_site#description NetworkmanagerSite#description}
 
 ---
 
@@ -1022,7 +1022,7 @@ Location NetworkmanagerSiteLocation
 
 The location of the site.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_site#location NetworkmanagerSite#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_site#location NetworkmanagerSite#location}
 
 ---
 
@@ -1036,7 +1036,7 @@ Tags interface{}
 
 The tags for the site.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_site#tags NetworkmanagerSite#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_site#tags NetworkmanagerSite#tags}
 
 ---
 
@@ -1045,7 +1045,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.networkmanagerSite.NetworkmanagerSiteLocation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagersite"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagersite"
 
 &networkmanagersite.NetworkmanagerSiteLocation {
 	Address: *string,
@@ -1074,7 +1074,7 @@ Address *string
 
 The physical address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_site#address NetworkmanagerSite#address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_site#address NetworkmanagerSite#address}
 
 ---
 
@@ -1088,7 +1088,7 @@ Latitude *string
 
 The latitude.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_site#latitude NetworkmanagerSite#latitude}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_site#latitude NetworkmanagerSite#latitude}
 
 ---
 
@@ -1102,7 +1102,7 @@ Longitude *string
 
 The longitude.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_site#longitude NetworkmanagerSite#longitude}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_site#longitude NetworkmanagerSite#longitude}
 
 ---
 
@@ -1111,7 +1111,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.networkmanagerSite.NetworkmanagerSiteTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagersite"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagersite"
 
 &networkmanagersite.NetworkmanagerSiteTags {
 	Key: *string,
@@ -1140,7 +1140,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_site#key NetworkmanagerSite#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_site#key NetworkmanagerSite#key}
 
 ---
 
@@ -1156,7 +1156,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_site#value NetworkmanagerSite#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_site#value NetworkmanagerSite#value}
 
 ---
 
@@ -1167,7 +1167,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmanagerSite.NetworkmanagerSiteLocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagersite"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagersite"
 
 networkmanagersite.NewNetworkmanagerSiteLocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) NetworkmanagerSiteLocationOutputReference
 ```
@@ -1503,7 +1503,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmanagerSite.NetworkmanagerSiteTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagersite"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagersite"
 
 networkmanagersite.NewNetworkmanagerSiteTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) NetworkmanagerSiteTagsList
 ```
@@ -1663,7 +1663,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmanagerSite.NetworkmanagerSiteTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagersite"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagersite"
 
 networkmanagersite.NewNetworkmanagerSiteTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) NetworkmanagerSiteTagsOutputReference
 ```

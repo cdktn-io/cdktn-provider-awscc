@@ -4,12 +4,12 @@
 
 ### DataAwsccIotsitewiseDashboards <a name="DataAwsccIotsitewiseDashboards" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDashboards.DataAwsccIotsitewiseDashboards"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotsitewise_dashboards awscc_iotsitewise_dashboards}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotsitewise_dashboards awscc_iotsitewise_dashboards}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDashboards.DataAwsccIotsitewiseDashboards.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewisedashboards"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewisedashboards"
 
 dataawscciotsitewisedashboards.NewDataAwsccIotsitewiseDashboards(scope Construct, id *string, config DataAwsccIotsitewiseDashboardsConfig) DataAwsccIotsitewiseDashboards
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDashboards.DataAwsccIotsitewiseDashboards.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewisedashboards"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewisedashboards"
 
 dataawscciotsitewisedashboards.DataAwsccIotsitewiseDashboards_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDashboards.DataAwsccIotsitewiseDashboards.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewisedashboards"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewisedashboards"
 
 dataawscciotsitewisedashboards.DataAwsccIotsitewiseDashboards_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciotsitewisedashboards.DataAwsccIotsitewiseDashboards_IsTerraformElement
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDashboards.DataAwsccIotsitewiseDashboards.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewisedashboards"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewisedashboards"
 
 dataawscciotsitewisedashboards.DataAwsccIotsitewiseDashboards_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciotsitewisedashboards.DataAwsccIotsitewiseDashboards_IsTerraformDataSou
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDashboards.DataAwsccIotsitewiseDashboards.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewisedashboards"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewisedashboards"
 
 dataawscciotsitewisedashboards.DataAwsccIotsitewiseDashboards_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotsitewiseDashbo
 
 The id of the existing DataAwsccIotsitewiseDashboards that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotsitewise_dashboards#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotsitewise_dashboards#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDashboards.DataAwsccIotsitewiseDashboardsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewisedashboards"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewisedashboards"
 
 &dataawscciotsitewisedashboards.DataAwsccIotsitewiseDashboardsConfig {
 	Connection: interface{},

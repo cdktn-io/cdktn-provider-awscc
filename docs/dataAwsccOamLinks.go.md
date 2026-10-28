@@ -4,12 +4,12 @@
 
 ### DataAwsccOamLinks <a name="DataAwsccOamLinks" id="@cdktn/provider-awscc.dataAwsccOamLinks.DataAwsccOamLinks"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/oam_links awscc_oam_links}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/oam_links awscc_oam_links}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOamLinks.DataAwsccOamLinks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccoamlinks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccoamlinks"
 
 dataawsccoamlinks.NewDataAwsccOamLinks(scope Construct, id *string, config DataAwsccOamLinksConfig) DataAwsccOamLinks
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccOamLinks.DataAwsccOamLinks.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccoamlinks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccoamlinks"
 
 dataawsccoamlinks.DataAwsccOamLinks_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccOamLinks.DataAwsccOamLinks.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccoamlinks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccoamlinks"
 
 dataawsccoamlinks.DataAwsccOamLinks_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccoamlinks.DataAwsccOamLinks_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccOamLinks.DataAwsccOamLinks.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccoamlinks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccoamlinks"
 
 dataawsccoamlinks.DataAwsccOamLinks_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccoamlinks.DataAwsccOamLinks_IsTerraformDataSource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccOamLinks.DataAwsccOamLinks.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccoamlinks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccoamlinks"
 
 dataawsccoamlinks.DataAwsccOamLinks_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccOamLinks to impor
 
 The id of the existing DataAwsccOamLinks that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/oam_links#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/oam_links#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOamLinks.DataAwsccOamLinksConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccoamlinks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccoamlinks"
 
 &dataawsccoamlinks.DataAwsccOamLinksConfig {
 	Connection: interface{},

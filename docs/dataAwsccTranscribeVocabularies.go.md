@@ -4,12 +4,12 @@
 
 ### DataAwsccTranscribeVocabularies <a name="DataAwsccTranscribeVocabularies" id="@cdktn/provider-awscc.dataAwsccTranscribeVocabularies.DataAwsccTranscribeVocabularies"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/transcribe_vocabularies awscc_transcribe_vocabularies}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/transcribe_vocabularies awscc_transcribe_vocabularies}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTranscribeVocabularies.DataAwsccTranscribeVocabularies.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribevocabularies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranscribevocabularies"
 
 dataawscctranscribevocabularies.NewDataAwsccTranscribeVocabularies(scope Construct, id *string, config DataAwsccTranscribeVocabulariesConfig) DataAwsccTranscribeVocabularies
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccTranscribeVocabularies.DataAwsccTranscribeVocabularies.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribevocabularies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranscribevocabularies"
 
 dataawscctranscribevocabularies.DataAwsccTranscribeVocabularies_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccTranscribeVocabularies.DataAwsccTranscribeVocabularies.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribevocabularies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranscribevocabularies"
 
 dataawscctranscribevocabularies.DataAwsccTranscribeVocabularies_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscctranscribevocabularies.DataAwsccTranscribeVocabularies_IsTerraformEleme
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccTranscribeVocabularies.DataAwsccTranscribeVocabularies.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribevocabularies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranscribevocabularies"
 
 dataawscctranscribevocabularies.DataAwsccTranscribeVocabularies_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscctranscribevocabularies.DataAwsccTranscribeVocabularies_IsTerraformDataS
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccTranscribeVocabularies.DataAwsccTranscribeVocabularies.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribevocabularies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranscribevocabularies"
 
 dataawscctranscribevocabularies.DataAwsccTranscribeVocabularies_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccTranscribeVocabul
 
 The id of the existing DataAwsccTranscribeVocabularies that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/transcribe_vocabularies#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/transcribe_vocabularies#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTranscribeVocabularies.DataAwsccTranscribeVocabulariesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribevocabularies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranscribevocabularies"
 
 &dataawscctranscribevocabularies.DataAwsccTranscribeVocabulariesConfig {
 	Connection: interface{},

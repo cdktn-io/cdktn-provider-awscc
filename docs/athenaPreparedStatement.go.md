@@ -4,12 +4,12 @@
 
 ### AthenaPreparedStatement <a name="AthenaPreparedStatement" id="@cdktn/provider-awscc.athenaPreparedStatement.AthenaPreparedStatement"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_prepared_statement awscc_athena_prepared_statement}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_prepared_statement awscc_athena_prepared_statement}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.athenaPreparedStatement.AthenaPreparedStatement.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenapreparedstatement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenapreparedstatement"
 
 athenapreparedstatement.NewAthenaPreparedStatement(scope Construct, id *string, config AthenaPreparedStatementConfig) AthenaPreparedStatement
 ```
@@ -407,7 +407,7 @@ func ResetDescription()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.athenaPreparedStatement.AthenaPreparedStatement.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenapreparedstatement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenapreparedstatement"
 
 athenapreparedstatement.AthenaPreparedStatement_IsConstruct(x interface{}) *bool
 ```
@@ -439,7 +439,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.athenaPreparedStatement.AthenaPreparedStatement.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenapreparedstatement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenapreparedstatement"
 
 athenapreparedstatement.AthenaPreparedStatement_IsTerraformElement(x interface{}) *bool
 ```
@@ -453,7 +453,7 @@ athenapreparedstatement.AthenaPreparedStatement_IsTerraformElement(x interface{}
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.athenaPreparedStatement.AthenaPreparedStatement.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenapreparedstatement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenapreparedstatement"
 
 athenapreparedstatement.AthenaPreparedStatement_IsTerraformResource(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ athenapreparedstatement.AthenaPreparedStatement_IsTerraformResource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.athenaPreparedStatement.AthenaPreparedStatement.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenapreparedstatement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenapreparedstatement"
 
 athenapreparedstatement.AthenaPreparedStatement_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -496,7 +496,7 @@ The construct id used in the generated config for the AthenaPreparedStatement to
 
 The id of the existing AthenaPreparedStatement that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_prepared_statement#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_prepared_statement#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -795,7 +795,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.athenaPreparedStatement.AthenaPreparedStatementConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenapreparedstatement"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenapreparedstatement"
 
 &athenapreparedstatement.AthenaPreparedStatementConfig {
 	Connection: interface{},
@@ -910,7 +910,7 @@ QueryStatement *string
 
 The query string for the prepared statement.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_prepared_statement#query_statement AthenaPreparedStatement#query_statement}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_prepared_statement#query_statement AthenaPreparedStatement#query_statement}
 
 ---
 
@@ -924,7 +924,7 @@ StatementName *string
 
 The name of the prepared statement.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_prepared_statement#statement_name AthenaPreparedStatement#statement_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_prepared_statement#statement_name AthenaPreparedStatement#statement_name}
 
 ---
 
@@ -938,7 +938,7 @@ WorkGroup *string
 
 The name of the workgroup to which the prepared statement belongs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_prepared_statement#work_group AthenaPreparedStatement#work_group}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_prepared_statement#work_group AthenaPreparedStatement#work_group}
 
 ---
 
@@ -952,7 +952,7 @@ Description *string
 
 The description of the prepared statement.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_prepared_statement#description AthenaPreparedStatement#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_prepared_statement#description AthenaPreparedStatement#description}
 
 ---
 

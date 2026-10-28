@@ -4,12 +4,12 @@
 
 ### GlueConnection <a name="GlueConnection" id="@cdktn/provider-awscc.glueConnection.GlueConnection"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection awscc_glue_connection}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection awscc_glue_connection}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnection.GlueConnection.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnection"
 
 glueconnection.NewGlueConnection(scope Construct, id *string, config GlueConnectionConfig) GlueConnection
 ```
@@ -420,7 +420,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.glueConnection.GlueConnection.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnection"
 
 glueconnection.GlueConnection_IsConstruct(x interface{}) *bool
 ```
@@ -452,7 +452,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.glueConnection.GlueConnection.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnection"
 
 glueconnection.GlueConnection_IsTerraformElement(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ glueconnection.GlueConnection_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.glueConnection.GlueConnection.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnection"
 
 glueconnection.GlueConnection_IsTerraformResource(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ glueconnection.GlueConnection_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.glueConnection.GlueConnection.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnection"
 
 glueconnection.GlueConnection_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -509,7 +509,7 @@ The construct id used in the generated config for the GlueConnection to import.
 
 The id of the existing GlueConnection that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -797,7 +797,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnection.GlueConnectionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnection"
 
 &glueconnection.GlueConnectionConfig {
 	Connection: interface{},
@@ -808,7 +808,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnection"
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	CatalogId: *string,
-	ConnectionInput: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueConnection.GlueConnectionConnectionInput,
+	ConnectionInput: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueConnection.GlueConnectionConnectionInput,
 	Tags: *string,
 }
 ```
@@ -912,7 +912,7 @@ The ID of the data catalog to create the catalog object in.
 
 Currently, this should be the AWS account ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection#catalog_id GlueConnection#catalog_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection#catalog_id GlueConnection#catalog_id}
 
 ---
 
@@ -926,7 +926,7 @@ ConnectionInput GlueConnectionConnectionInput
 
 The connection properties used for this connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection#connection_input GlueConnection#connection_input}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection#connection_input GlueConnection#connection_input}
 
 ---
 
@@ -940,7 +940,7 @@ Tags *string
 
 The collection of tags. Each tag element is associated with a given resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection#tags GlueConnection#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection#tags GlueConnection#tags}
 
 ---
 
@@ -949,17 +949,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnection.GlueConnectionConnectionInput.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnection"
 
 &glueconnection.GlueConnectionConnectionInput {
 	ConnectionType: *string,
 	AthenaProperties: *string,
-	AuthenticationConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueConnection.GlueConnectionConnectionInputAuthenticationConfiguration,
+	AuthenticationConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueConnection.GlueConnectionConnectionInputAuthenticationConfiguration,
 	ConnectionProperties: *string,
 	Description: *string,
 	MatchCriteria: *[]*string,
 	Name: *string,
-	PhysicalConnectionRequirements: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueConnection.GlueConnectionConnectionInputPhysicalConnectionRequirements,
+	PhysicalConnectionRequirements: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueConnection.GlueConnectionConnectionInputPhysicalConnectionRequirements,
 	PythonProperties: *string,
 	SparkProperties: *string,
 	ValidateCredentials: interface{},
@@ -982,7 +982,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnection"
 | <code><a href="#@cdktn/provider-awscc.glueConnection.GlueConnectionConnectionInput.property.pythonProperties">PythonProperties</a></code> | <code>*string</code> | Connection properties specific to the Python compute environment. |
 | <code><a href="#@cdktn/provider-awscc.glueConnection.GlueConnectionConnectionInput.property.sparkProperties">SparkProperties</a></code> | <code>*string</code> | Connection properties specific to the Spark compute environment. |
 | <code><a href="#@cdktn/provider-awscc.glueConnection.GlueConnectionConnectionInput.property.validateCredentials">ValidateCredentials</a></code> | <code>interface{}</code> | A flag to validate the credentials during create connection. Default is true. |
-| <code><a href="#@cdktn/provider-awscc.glueConnection.GlueConnectionConnectionInput.property.validateForComputeEnvironments">ValidateForComputeEnvironments</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection#validate_for_compute_environments GlueConnection#validate_for_compute_environments}. |
+| <code><a href="#@cdktn/provider-awscc.glueConnection.GlueConnectionConnectionInput.property.validateForComputeEnvironments">ValidateForComputeEnvironments</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection#validate_for_compute_environments GlueConnection#validate_for_compute_environments}. |
 
 ---
 
@@ -996,7 +996,7 @@ ConnectionType *string
 
 The type of the connection that needs to be created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection#connection_type GlueConnection#connection_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection#connection_type GlueConnection#connection_type}
 
 ---
 
@@ -1010,7 +1010,7 @@ AthenaProperties *string
 
 Connection properties specific to the Athena compute environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection#athena_properties GlueConnection#athena_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection#athena_properties GlueConnection#athena_properties}
 
 ---
 
@@ -1024,7 +1024,7 @@ AuthenticationConfiguration GlueConnectionConnectionInputAuthenticationConfigura
 
 The authentication configuration used to connect to the connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection#authentication_configuration GlueConnection#authentication_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection#authentication_configuration GlueConnection#authentication_configuration}
 
 ---
 
@@ -1038,7 +1038,7 @@ ConnectionProperties *string
 
 A map of key-value pairs used as parameters for this connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection#connection_properties GlueConnection#connection_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection#connection_properties GlueConnection#connection_properties}
 
 ---
 
@@ -1052,7 +1052,7 @@ Description *string
 
 A description of the connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection#description GlueConnection#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection#description GlueConnection#description}
 
 ---
 
@@ -1066,7 +1066,7 @@ MatchCriteria *[]*string
 
 A list of criteria that can be used in selecting this connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection#match_criteria GlueConnection#match_criteria}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection#match_criteria GlueConnection#match_criteria}
 
 ---
 
@@ -1080,7 +1080,7 @@ Name *string
 
 The name of the connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection#name GlueConnection#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection#name GlueConnection#name}
 
 ---
 
@@ -1094,7 +1094,7 @@ PhysicalConnectionRequirements GlueConnectionConnectionInputPhysicalConnectionRe
 
 The physical connection requirements.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection#physical_connection_requirements GlueConnection#physical_connection_requirements}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection#physical_connection_requirements GlueConnection#physical_connection_requirements}
 
 ---
 
@@ -1108,7 +1108,7 @@ PythonProperties *string
 
 Connection properties specific to the Python compute environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection#python_properties GlueConnection#python_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection#python_properties GlueConnection#python_properties}
 
 ---
 
@@ -1122,7 +1122,7 @@ SparkProperties *string
 
 Connection properties specific to the Spark compute environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection#spark_properties GlueConnection#spark_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection#spark_properties GlueConnection#spark_properties}
 
 ---
 
@@ -1136,7 +1136,7 @@ ValidateCredentials interface{}
 
 A flag to validate the credentials during create connection. Default is true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection#validate_credentials GlueConnection#validate_credentials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection#validate_credentials GlueConnection#validate_credentials}
 
 ---
 
@@ -1148,7 +1148,7 @@ ValidateForComputeEnvironments *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection#validate_for_compute_environments GlueConnection#validate_for_compute_environments}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection#validate_for_compute_environments GlueConnection#validate_for_compute_environments}.
 
 ---
 
@@ -1157,14 +1157,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnection.GlueConnectionConnectionInputAuthenticationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnection"
 
 &glueconnection.GlueConnectionConnectionInputAuthenticationConfiguration {
 	AuthenticationType: *string,
-	BasicAuthenticationCredentials: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueConnection.GlueConnectionConnectionInputAuthenticationConfigurationBasicAuthenticationCredentials,
+	BasicAuthenticationCredentials: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueConnection.GlueConnectionConnectionInputAuthenticationConfigurationBasicAuthenticationCredentials,
 	CustomAuthenticationCredentials: *string,
 	KmsKeyArn: *string,
-	OAuth2Properties: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueConnection.GlueConnectionConnectionInputAuthenticationConfigurationOAuth2Properties,
+	OAuth2Properties: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueConnection.GlueConnectionConnectionInputAuthenticationConfigurationOAuth2Properties,
 	SecretArn: *string,
 }
 ```
@@ -1192,7 +1192,7 @@ AuthenticationType *string
 
 A structure containing the authentication configuration in the CreateConnection request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection#authentication_type GlueConnection#authentication_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection#authentication_type GlueConnection#authentication_type}
 
 ---
 
@@ -1206,7 +1206,7 @@ BasicAuthenticationCredentials GlueConnectionConnectionInputAuthenticationConfig
 
 For supplying basic auth credentials when not providing a SecretArn value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection#basic_authentication_credentials GlueConnection#basic_authentication_credentials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection#basic_authentication_credentials GlueConnection#basic_authentication_credentials}
 
 ---
 
@@ -1220,7 +1220,7 @@ CustomAuthenticationCredentials *string
 
 A structure containing the authentication credentials in the CreateConnection request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection#custom_authentication_credentials GlueConnection#custom_authentication_credentials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection#custom_authentication_credentials GlueConnection#custom_authentication_credentials}
 
 ---
 
@@ -1234,7 +1234,7 @@ KmsKeyArn *string
 
 The Amazon Resource Name (ARN) of the KMS key used in the authentication configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection#kms_key_arn GlueConnection#kms_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection#kms_key_arn GlueConnection#kms_key_arn}
 
 ---
 
@@ -1248,7 +1248,7 @@ OAuth2Properties GlueConnectionConnectionInputAuthenticationConfigurationOAuth2P
 
 A structure containing properties for OAuth2 in the CreateConnection request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection#o_auth_2_properties GlueConnection#o_auth_2_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection#o_auth_2_properties GlueConnection#o_auth_2_properties}
 
 ---
 
@@ -1262,7 +1262,7 @@ SecretArn *string
 
 The secret manager ARN to store credentials in the CreateConnection request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection#secret_arn GlueConnection#secret_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection#secret_arn GlueConnection#secret_arn}
 
 ---
 
@@ -1271,7 +1271,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnection.GlueConnectionConnectionInputAuthenticationConfigurationBasicAuthenticationCredentials.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnection"
 
 &glueconnection.GlueConnectionConnectionInputAuthenticationConfigurationBasicAuthenticationCredentials {
 	Password: *string,
@@ -1298,7 +1298,7 @@ Password *string
 
 The password used in the authentication configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection#password GlueConnection#password}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection#password GlueConnection#password}
 
 ---
 
@@ -1312,7 +1312,7 @@ Username *string
 
 The username used in the authentication configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection#username GlueConnection#username}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection#username GlueConnection#username}
 
 ---
 
@@ -1321,12 +1321,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnection.GlueConnectionConnectionInputAuthenticationConfigurationOAuth2Properties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnection"
 
 &glueconnection.GlueConnectionConnectionInputAuthenticationConfigurationOAuth2Properties {
-	AuthorizationCodeProperties: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueConnection.GlueConnectionConnectionInputAuthenticationConfigurationOAuth2PropertiesAuthorizationCodeProperties,
-	OAuth2ClientApplication: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueConnection.GlueConnectionConnectionInputAuthenticationConfigurationOAuth2PropertiesOAuth2ClientApplication,
-	OAuth2Credentials: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueConnection.GlueConnectionConnectionInputAuthenticationConfigurationOAuth2PropertiesOAuth2Credentials,
+	AuthorizationCodeProperties: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueConnection.GlueConnectionConnectionInputAuthenticationConfigurationOAuth2PropertiesAuthorizationCodeProperties,
+	OAuth2ClientApplication: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueConnection.GlueConnectionConnectionInputAuthenticationConfigurationOAuth2PropertiesOAuth2ClientApplication,
+	OAuth2Credentials: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueConnection.GlueConnectionConnectionInputAuthenticationConfigurationOAuth2PropertiesOAuth2Credentials,
 	OAuth2GrantType: *string,
 	TokenUrl: *string,
 	TokenUrlParametersMap: *string,
@@ -1356,7 +1356,7 @@ AuthorizationCodeProperties GlueConnectionConnectionInputAuthenticationConfigura
 
 The set of properties required for the the OAuth2 AUTHORIZATION_CODE grant type workflow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection#authorization_code_properties GlueConnection#authorization_code_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection#authorization_code_properties GlueConnection#authorization_code_properties}
 
 ---
 
@@ -1370,7 +1370,7 @@ OAuth2ClientApplication GlueConnectionConnectionInputAuthenticationConfiguration
 
 The OAuth2 client app used for the connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection#o_auth_2_client_application GlueConnection#o_auth_2_client_application}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection#o_auth_2_client_application GlueConnection#o_auth_2_client_application}
 
 ---
 
@@ -1384,7 +1384,7 @@ OAuth2Credentials GlueConnectionConnectionInputAuthenticationConfigurationOAuth2
 
 A structure containing the OAuth2 credentials used in the authentication configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection#o_auth_2_credentials GlueConnection#o_auth_2_credentials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection#o_auth_2_credentials GlueConnection#o_auth_2_credentials}
 
 ---
 
@@ -1398,7 +1398,7 @@ OAuth2GrantType *string
 
 The grant type used in the authentication configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection#o_auth_2_grant_type GlueConnection#o_auth_2_grant_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection#o_auth_2_grant_type GlueConnection#o_auth_2_grant_type}
 
 ---
 
@@ -1412,7 +1412,7 @@ TokenUrl *string
 
 The URL used in the authentication configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection#token_url GlueConnection#token_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection#token_url GlueConnection#token_url}
 
 ---
 
@@ -1426,7 +1426,7 @@ TokenUrlParametersMap *string
 
 A map of key-value pairs used in the authentication configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection#token_url_parameters_map GlueConnection#token_url_parameters_map}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection#token_url_parameters_map GlueConnection#token_url_parameters_map}
 
 ---
 
@@ -1435,7 +1435,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnection.GlueConnectionConnectionInputAuthenticationConfigurationOAuth2PropertiesAuthorizationCodeProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnection"
 
 &glueconnection.GlueConnectionConnectionInputAuthenticationConfigurationOAuth2PropertiesAuthorizationCodeProperties {
 	AuthorizationCode: *string,
@@ -1462,7 +1462,7 @@ AuthorizationCode *string
 
 The authorization code used in the authentication configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection#authorization_code GlueConnection#authorization_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection#authorization_code GlueConnection#authorization_code}
 
 ---
 
@@ -1476,7 +1476,7 @@ RedirectUri *string
 
 The redirect URI where the user gets redirected to by authorization server when issuing an authorization code.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection#redirect_uri GlueConnection#redirect_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection#redirect_uri GlueConnection#redirect_uri}
 
 ---
 
@@ -1485,7 +1485,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnection.GlueConnectionConnectionInputAuthenticationConfigurationOAuth2PropertiesOAuth2ClientApplication.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnection"
 
 &glueconnection.GlueConnectionConnectionInputAuthenticationConfigurationOAuth2PropertiesOAuth2ClientApplication {
 	AwsManagedClientApplicationReference: *string,
@@ -1512,7 +1512,7 @@ AwsManagedClientApplicationReference *string
 
 The reference to the SaaS-side client app that is AWS managed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection#aws_managed_client_application_reference GlueConnection#aws_managed_client_application_reference}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection#aws_managed_client_application_reference GlueConnection#aws_managed_client_application_reference}
 
 ---
 
@@ -1526,7 +1526,7 @@ UserManagedClientApplicationClientId *string
 
 The client application clientID if the ClientAppType is USER_MANAGED.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection#user_managed_client_application_client_id GlueConnection#user_managed_client_application_client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection#user_managed_client_application_client_id GlueConnection#user_managed_client_application_client_id}
 
 ---
 
@@ -1535,7 +1535,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnection.GlueConnectionConnectionInputAuthenticationConfigurationOAuth2PropertiesOAuth2Credentials.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnection"
 
 &glueconnection.GlueConnectionConnectionInputAuthenticationConfigurationOAuth2PropertiesOAuth2Credentials {
 	AccessToken: *string,
@@ -1566,7 +1566,7 @@ AccessToken *string
 
 The access token used in the authentication configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection#access_token GlueConnection#access_token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection#access_token GlueConnection#access_token}
 
 ---
 
@@ -1580,7 +1580,7 @@ JwtToken *string
 
 The JSON Web Token (JWT) used when the authentication type is OAuth2.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection#jwt_token GlueConnection#jwt_token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection#jwt_token GlueConnection#jwt_token}
 
 ---
 
@@ -1594,7 +1594,7 @@ RefreshToken *string
 
 The refresh token used when the authentication type is OAuth2.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection#refresh_token GlueConnection#refresh_token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection#refresh_token GlueConnection#refresh_token}
 
 ---
 
@@ -1608,7 +1608,7 @@ UserManagedClientApplicationClientSecret *string
 
 The client application client secret if the client application is user managed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection#user_managed_client_application_client_secret GlueConnection#user_managed_client_application_client_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection#user_managed_client_application_client_secret GlueConnection#user_managed_client_application_client_secret}
 
 ---
 
@@ -1617,7 +1617,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueConnection.GlueConnectionConnectionInputPhysicalConnectionRequirements.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnection"
 
 &glueconnection.GlueConnectionConnectionInputPhysicalConnectionRequirements {
 	AvailabilityZone: *string,
@@ -1646,7 +1646,7 @@ AvailabilityZone *string
 
 The availability zone where the connection is located.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection#availability_zone GlueConnection#availability_zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection#availability_zone GlueConnection#availability_zone}
 
 ---
 
@@ -1660,7 +1660,7 @@ SecurityGroupIdList *[]*string
 
 The security group ID list used by the connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection#security_group_id_list GlueConnection#security_group_id_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection#security_group_id_list GlueConnection#security_group_id_list}
 
 ---
 
@@ -1674,7 +1674,7 @@ SubnetId *string
 
 The subnet ID used by the connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection#subnet_id GlueConnection#subnet_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection#subnet_id GlueConnection#subnet_id}
 
 ---
 
@@ -1685,7 +1685,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnection.GlueConnectionConnectionInputAuthenticationConfigurationBasicAuthenticationCredentialsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnection"
 
 glueconnection.NewGlueConnectionConnectionInputAuthenticationConfigurationBasicAuthenticationCredentialsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueConnectionConnectionInputAuthenticationConfigurationBasicAuthenticationCredentialsOutputReference
 ```
@@ -1992,7 +1992,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnection.GlueConnectionConnectionInputAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnection"
 
 glueconnection.NewGlueConnectionConnectionInputAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueConnectionConnectionInputAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesOutputReference
 ```
@@ -2299,7 +2299,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnection.GlueConnectionConnectionInputAuthenticationConfigurationOAuth2PropertiesOAuth2ClientApplicationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnection"
 
 glueconnection.NewGlueConnectionConnectionInputAuthenticationConfigurationOAuth2PropertiesOAuth2ClientApplicationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueConnectionConnectionInputAuthenticationConfigurationOAuth2PropertiesOAuth2ClientApplicationOutputReference
 ```
@@ -2606,7 +2606,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnection.GlueConnectionConnectionInputAuthenticationConfigurationOAuth2PropertiesOAuth2CredentialsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnection"
 
 glueconnection.NewGlueConnectionConnectionInputAuthenticationConfigurationOAuth2PropertiesOAuth2CredentialsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueConnectionConnectionInputAuthenticationConfigurationOAuth2PropertiesOAuth2CredentialsOutputReference
 ```
@@ -2971,7 +2971,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnection.GlueConnectionConnectionInputAuthenticationConfigurationOAuth2PropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnection"
 
 glueconnection.NewGlueConnectionConnectionInputAuthenticationConfigurationOAuth2PropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueConnectionConnectionInputAuthenticationConfigurationOAuth2PropertiesOutputReference
 ```
@@ -3433,7 +3433,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnection.GlueConnectionConnectionInputAuthenticationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnection"
 
 glueconnection.NewGlueConnectionConnectionInputAuthenticationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueConnectionConnectionInputAuthenticationConfigurationOutputReference
 ```
@@ -3882,7 +3882,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnection.GlueConnectionConnectionInputOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnection"
 
 glueconnection.NewGlueConnectionConnectionInputOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueConnectionConnectionInputOutputReference
 ```
@@ -4498,7 +4498,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueConnection.GlueConnectionConnectionInputPhysicalConnectionRequirementsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnection"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnection"
 
 glueconnection.NewGlueConnectionConnectionInputPhysicalConnectionRequirementsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueConnectionConnectionInputPhysicalConnectionRequirementsOutputReference
 ```

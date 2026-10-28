@@ -4,12 +4,12 @@
 
 ### DataAwsccVoiceidDomains <a name="DataAwsccVoiceidDomains" id="@cdktn/provider-awscc.dataAwsccVoiceidDomains.DataAwsccVoiceidDomains"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/voiceid_domains awscc_voiceid_domains}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/voiceid_domains awscc_voiceid_domains}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccVoiceidDomains.DataAwsccVoiceidDomains.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvoiceiddomains"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvoiceiddomains"
 
 dataawsccvoiceiddomains.NewDataAwsccVoiceidDomains(scope Construct, id *string, config DataAwsccVoiceidDomainsConfig) DataAwsccVoiceidDomains
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccVoiceidDomains.DataAwsccVoiceidDomains.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvoiceiddomains"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvoiceiddomains"
 
 dataawsccvoiceiddomains.DataAwsccVoiceidDomains_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccVoiceidDomains.DataAwsccVoiceidDomains.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvoiceiddomains"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvoiceiddomains"
 
 dataawsccvoiceiddomains.DataAwsccVoiceidDomains_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccvoiceiddomains.DataAwsccVoiceidDomains_IsTerraformElement(x interface{}
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccVoiceidDomains.DataAwsccVoiceidDomains.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvoiceiddomains"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvoiceiddomains"
 
 dataawsccvoiceiddomains.DataAwsccVoiceidDomains_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccvoiceiddomains.DataAwsccVoiceidDomains_IsTerraformDataSource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccVoiceidDomains.DataAwsccVoiceidDomains.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvoiceiddomains"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvoiceiddomains"
 
 dataawsccvoiceiddomains.DataAwsccVoiceidDomains_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccVoiceidDomains to
 
 The id of the existing DataAwsccVoiceidDomains that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/voiceid_domains#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/voiceid_domains#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccVoiceidDomains.DataAwsccVoiceidDomainsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvoiceiddomains"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvoiceiddomains"
 
 &dataawsccvoiceiddomains.DataAwsccVoiceidDomainsConfig {
 	Connection: interface{},

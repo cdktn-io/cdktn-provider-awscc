@@ -4,12 +4,12 @@
 
 ### DataAwsccSesVdmAttributes <a name="DataAwsccSesVdmAttributes" id="@cdktn/provider-awscc.dataAwsccSesVdmAttributes.DataAwsccSesVdmAttributes"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_vdm_attributes awscc_ses_vdm_attributes}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ses_vdm_attributes awscc_ses_vdm_attributes}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesVdmAttributes.DataAwsccSesVdmAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesvdmattributes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesvdmattributes"
 
 dataawsccsesvdmattributes.NewDataAwsccSesVdmAttributes(scope Construct, id *string, config DataAwsccSesVdmAttributesConfig) DataAwsccSesVdmAttributes
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSesVdmAttributes.DataAwsccSesVdmAttributes.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesvdmattributes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesvdmattributes"
 
 dataawsccsesvdmattributes.DataAwsccSesVdmAttributes_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSesVdmAttributes.DataAwsccSesVdmAttributes.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesvdmattributes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesvdmattributes"
 
 dataawsccsesvdmattributes.DataAwsccSesVdmAttributes_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsesvdmattributes.DataAwsccSesVdmAttributes_IsTerraformElement(x interfa
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSesVdmAttributes.DataAwsccSesVdmAttributes.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesvdmattributes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesvdmattributes"
 
 dataawsccsesvdmattributes.DataAwsccSesVdmAttributes_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsesvdmattributes.DataAwsccSesVdmAttributes_IsTerraformDataSource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSesVdmAttributes.DataAwsccSesVdmAttributes.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesvdmattributes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesvdmattributes"
 
 dataawsccsesvdmattributes.DataAwsccSesVdmAttributes_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSesVdmAttributes 
 
 The id of the existing DataAwsccSesVdmAttributes that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_vdm_attributes#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ses_vdm_attributes#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -620,7 +620,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesVdmAttributes.DataAwsccSesVdmAttributesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesvdmattributes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesvdmattributes"
 
 &dataawsccsesvdmattributes.DataAwsccSesVdmAttributesConfig {
 	Connection: interface{},
@@ -729,7 +729,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_vdm_attributes#id DataAwsccSesVdmAttributes#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ses_vdm_attributes#id DataAwsccSesVdmAttributes#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -741,7 +741,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesVdmAttributes.DataAwsccSesVdmAttributesDashboardAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesvdmattributes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesvdmattributes"
 
 &dataawsccsesvdmattributes.DataAwsccSesVdmAttributesDashboardAttributes {
 
@@ -754,7 +754,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesvdmattribu
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesVdmAttributes.DataAwsccSesVdmAttributesGuardianAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesvdmattributes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesvdmattributes"
 
 &dataawsccsesvdmattributes.DataAwsccSesVdmAttributesGuardianAttributes {
 
@@ -769,7 +769,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesvdmattribu
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesVdmAttributes.DataAwsccSesVdmAttributesDashboardAttributesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesvdmattributes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesvdmattributes"
 
 dataawsccsesvdmattributes.NewDataAwsccSesVdmAttributesDashboardAttributesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesVdmAttributesDashboardAttributesOutputReference
 ```
@@ -1029,7 +1029,7 @@ func InternalValue() DataAwsccSesVdmAttributesDashboardAttributes
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesVdmAttributes.DataAwsccSesVdmAttributesGuardianAttributesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesvdmattributes"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesvdmattributes"
 
 dataawsccsesvdmattributes.NewDataAwsccSesVdmAttributesGuardianAttributesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesVdmAttributesGuardianAttributesOutputReference
 ```

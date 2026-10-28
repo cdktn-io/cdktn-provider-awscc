@@ -4,12 +4,12 @@
 
 ### AcmpcaPermission <a name="AcmpcaPermission" id="@cdktn/provider-awscc.acmpcaPermission.AcmpcaPermission"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/acmpca_permission awscc_acmpca_permission}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/acmpca_permission awscc_acmpca_permission}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.acmpcaPermission.AcmpcaPermission.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/acmpcapermission"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/acmpcapermission"
 
 acmpcapermission.NewAcmpcaPermission(scope Construct, id *string, config AcmpcaPermissionConfig) AcmpcaPermission
 ```
@@ -407,7 +407,7 @@ func ResetSourceAccount()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.acmpcaPermission.AcmpcaPermission.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/acmpcapermission"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/acmpcapermission"
 
 acmpcapermission.AcmpcaPermission_IsConstruct(x interface{}) *bool
 ```
@@ -439,7 +439,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.acmpcaPermission.AcmpcaPermission.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/acmpcapermission"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/acmpcapermission"
 
 acmpcapermission.AcmpcaPermission_IsTerraformElement(x interface{}) *bool
 ```
@@ -453,7 +453,7 @@ acmpcapermission.AcmpcaPermission_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.acmpcaPermission.AcmpcaPermission.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/acmpcapermission"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/acmpcapermission"
 
 acmpcapermission.AcmpcaPermission_IsTerraformResource(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ acmpcapermission.AcmpcaPermission_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.acmpcaPermission.AcmpcaPermission.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/acmpcapermission"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/acmpcapermission"
 
 acmpcapermission.AcmpcaPermission_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -496,7 +496,7 @@ The construct id used in the generated config for the AcmpcaPermission to import
 
 The id of the existing AcmpcaPermission that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/acmpca_permission#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/acmpca_permission#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -795,7 +795,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.acmpcaPermission.AcmpcaPermissionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/acmpcapermission"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/acmpcapermission"
 
 &acmpcapermission.AcmpcaPermissionConfig {
 	Connection: interface{},
@@ -910,7 +910,7 @@ Actions *[]*string
 
 The actions that the specified AWS service principal can use. Actions IssueCertificate, GetCertificate and ListPermissions must be provided.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/acmpca_permission#actions AcmpcaPermission#actions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/acmpca_permission#actions AcmpcaPermission#actions}
 
 ---
 
@@ -924,7 +924,7 @@ CertificateAuthorityArn *string
 
 The Amazon Resource Name (ARN) of the Private Certificate Authority that grants the permission.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/acmpca_permission#certificate_authority_arn AcmpcaPermission#certificate_authority_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/acmpca_permission#certificate_authority_arn AcmpcaPermission#certificate_authority_arn}
 
 ---
 
@@ -938,7 +938,7 @@ Principal *string
 
 The AWS service or identity that receives the permission. At this time, the only valid principal is acm.amazonaws.com.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/acmpca_permission#principal AcmpcaPermission#principal}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/acmpca_permission#principal AcmpcaPermission#principal}
 
 ---
 
@@ -952,7 +952,7 @@ SourceAccount *string
 
 The ID of the calling account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/acmpca_permission#source_account AcmpcaPermission#source_account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/acmpca_permission#source_account AcmpcaPermission#source_account}
 
 ---
 

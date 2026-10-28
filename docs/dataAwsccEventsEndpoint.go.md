@@ -4,12 +4,12 @@
 
 ### DataAwsccEventsEndpoint <a name="DataAwsccEventsEndpoint" id="@cdktn/provider-awscc.dataAwsccEventsEndpoint.DataAwsccEventsEndpoint"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/events_endpoint awscc_events_endpoint}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/events_endpoint awscc_events_endpoint}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsEndpoint.DataAwsccEventsEndpoint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsendpoint"
 
 dataawscceventsendpoint.NewDataAwsccEventsEndpoint(scope Construct, id *string, config DataAwsccEventsEndpointConfig) DataAwsccEventsEndpoint
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEventsEndpoint.DataAwsccEventsEndpoint.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsendpoint"
 
 dataawscceventsendpoint.DataAwsccEventsEndpoint_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEventsEndpoint.DataAwsccEventsEndpoint.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsendpoint"
 
 dataawscceventsendpoint.DataAwsccEventsEndpoint_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscceventsendpoint.DataAwsccEventsEndpoint_IsTerraformElement(x interface{}
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEventsEndpoint.DataAwsccEventsEndpoint.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsendpoint"
 
 dataawscceventsendpoint.DataAwsccEventsEndpoint_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscceventsendpoint.DataAwsccEventsEndpoint_IsTerraformDataSource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEventsEndpoint.DataAwsccEventsEndpoint.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsendpoint"
 
 dataawscceventsendpoint.DataAwsccEventsEndpoint_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEventsEndpoint to
 
 The id of the existing DataAwsccEventsEndpoint that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/events_endpoint#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/events_endpoint#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -708,7 +708,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventsEndpoint.DataAwsccEventsEndpointConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsendpoint"
 
 &dataawscceventsendpoint.DataAwsccEventsEndpointConfig {
 	Connection: interface{},
@@ -817,7 +817,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/events_endpoint#id DataAwsccEventsEndpoint#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/events_endpoint#id DataAwsccEventsEndpoint#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -829,7 +829,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventsEndpoint.DataAwsccEventsEndpointEventBuses.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsendpoint"
 
 &dataawscceventsendpoint.DataAwsccEventsEndpointEventBuses {
 
@@ -842,7 +842,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsendpoin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventsEndpoint.DataAwsccEventsEndpointReplicationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsendpoint"
 
 &dataawscceventsendpoint.DataAwsccEventsEndpointReplicationConfig {
 
@@ -855,7 +855,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsendpoin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventsEndpoint.DataAwsccEventsEndpointRoutingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsendpoint"
 
 &dataawscceventsendpoint.DataAwsccEventsEndpointRoutingConfig {
 
@@ -868,7 +868,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsendpoin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventsEndpoint.DataAwsccEventsEndpointRoutingConfigFailoverConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsendpoint"
 
 &dataawscceventsendpoint.DataAwsccEventsEndpointRoutingConfigFailoverConfig {
 
@@ -881,7 +881,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsendpoin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventsEndpoint.DataAwsccEventsEndpointRoutingConfigFailoverConfigPrimary.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsendpoint"
 
 &dataawscceventsendpoint.DataAwsccEventsEndpointRoutingConfigFailoverConfigPrimary {
 
@@ -894,7 +894,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsendpoin
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventsEndpoint.DataAwsccEventsEndpointRoutingConfigFailoverConfigSecondary.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsendpoint"
 
 &dataawscceventsendpoint.DataAwsccEventsEndpointRoutingConfigFailoverConfigSecondary {
 
@@ -909,7 +909,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsendpoin
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsEndpoint.DataAwsccEventsEndpointEventBusesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsendpoint"
 
 dataawscceventsendpoint.NewDataAwsccEventsEndpointEventBusesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEventsEndpointEventBusesList
 ```
@@ -1058,7 +1058,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsEndpoint.DataAwsccEventsEndpointEventBusesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsendpoint"
 
 dataawscceventsendpoint.NewDataAwsccEventsEndpointEventBusesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEventsEndpointEventBusesOutputReference
 ```
@@ -1336,7 +1336,7 @@ func InternalValue() DataAwsccEventsEndpointEventBuses
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsEndpoint.DataAwsccEventsEndpointReplicationConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsendpoint"
 
 dataawscceventsendpoint.NewDataAwsccEventsEndpointReplicationConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEventsEndpointReplicationConfigOutputReference
 ```
@@ -1596,7 +1596,7 @@ func InternalValue() DataAwsccEventsEndpointReplicationConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsEndpoint.DataAwsccEventsEndpointRoutingConfigFailoverConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsendpoint"
 
 dataawscceventsendpoint.NewDataAwsccEventsEndpointRoutingConfigFailoverConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEventsEndpointRoutingConfigFailoverConfigOutputReference
 ```
@@ -1867,7 +1867,7 @@ func InternalValue() DataAwsccEventsEndpointRoutingConfigFailoverConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsEndpoint.DataAwsccEventsEndpointRoutingConfigFailoverConfigPrimaryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsendpoint"
 
 dataawscceventsendpoint.NewDataAwsccEventsEndpointRoutingConfigFailoverConfigPrimaryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEventsEndpointRoutingConfigFailoverConfigPrimaryOutputReference
 ```
@@ -2127,7 +2127,7 @@ func InternalValue() DataAwsccEventsEndpointRoutingConfigFailoverConfigPrimary
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsEndpoint.DataAwsccEventsEndpointRoutingConfigFailoverConfigSecondaryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsendpoint"
 
 dataawscceventsendpoint.NewDataAwsccEventsEndpointRoutingConfigFailoverConfigSecondaryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEventsEndpointRoutingConfigFailoverConfigSecondaryOutputReference
 ```
@@ -2387,7 +2387,7 @@ func InternalValue() DataAwsccEventsEndpointRoutingConfigFailoverConfigSecondary
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsEndpoint.DataAwsccEventsEndpointRoutingConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsendpoint"
 
 dataawscceventsendpoint.NewDataAwsccEventsEndpointRoutingConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEventsEndpointRoutingConfigOutputReference
 ```

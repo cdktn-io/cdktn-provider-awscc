@@ -4,12 +4,12 @@
 
 ### DataAwsccCloudfrontKeyValueStore <a name="DataAwsccCloudfrontKeyValueStore" id="@cdktn/provider-awscc.dataAwsccCloudfrontKeyValueStore.DataAwsccCloudfrontKeyValueStore"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudfront_key_value_store awscc_cloudfront_key_value_store}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudfront_key_value_store awscc_cloudfront_key_value_store}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudfrontKeyValueStore.DataAwsccCloudfrontKeyValueStore.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontkeyvaluestore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontkeyvaluestore"
 
 dataawscccloudfrontkeyvaluestore.NewDataAwsccCloudfrontKeyValueStore(scope Construct, id *string, config DataAwsccCloudfrontKeyValueStoreConfig) DataAwsccCloudfrontKeyValueStore
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCloudfrontKeyValueStore.DataAwsccCloudfrontKeyValueStore.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontkeyvaluestore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontkeyvaluestore"
 
 dataawscccloudfrontkeyvaluestore.DataAwsccCloudfrontKeyValueStore_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCloudfrontKeyValueStore.DataAwsccCloudfrontKeyValueStore.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontkeyvaluestore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontkeyvaluestore"
 
 dataawscccloudfrontkeyvaluestore.DataAwsccCloudfrontKeyValueStore_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccloudfrontkeyvaluestore.DataAwsccCloudfrontKeyValueStore_IsTerraformEle
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCloudfrontKeyValueStore.DataAwsccCloudfrontKeyValueStore.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontkeyvaluestore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontkeyvaluestore"
 
 dataawscccloudfrontkeyvaluestore.DataAwsccCloudfrontKeyValueStore_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccloudfrontkeyvaluestore.DataAwsccCloudfrontKeyValueStore_IsTerraformDat
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCloudfrontKeyValueStore.DataAwsccCloudfrontKeyValueStore.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontkeyvaluestore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontkeyvaluestore"
 
 dataawscccloudfrontkeyvaluestore.DataAwsccCloudfrontKeyValueStore_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCloudfrontKeyValu
 
 The id of the existing DataAwsccCloudfrontKeyValueStore that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudfront_key_value_store#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudfront_key_value_store#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -664,7 +664,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloudfrontKeyValueStore.DataAwsccCloudfrontKeyValueStoreConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontkeyvaluestore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontkeyvaluestore"
 
 &dataawscccloudfrontkeyvaluestore.DataAwsccCloudfrontKeyValueStoreConfig {
 	Connection: interface{},
@@ -773,7 +773,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudfront_key_value_store#id DataAwsccCloudfrontKeyValueStore#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudfront_key_value_store#id DataAwsccCloudfrontKeyValueStore#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -785,7 +785,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloudfrontKeyValueStore.DataAwsccCloudfrontKeyValueStoreImportSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontkeyvaluestore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontkeyvaluestore"
 
 &dataawscccloudfrontkeyvaluestore.DataAwsccCloudfrontKeyValueStoreImportSource {
 
@@ -798,7 +798,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontkey
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloudfrontKeyValueStore.DataAwsccCloudfrontKeyValueStoreTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontkeyvaluestore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontkeyvaluestore"
 
 &dataawscccloudfrontkeyvaluestore.DataAwsccCloudfrontKeyValueStoreTags {
 
@@ -813,7 +813,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontkey
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudfrontKeyValueStore.DataAwsccCloudfrontKeyValueStoreImportSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontkeyvaluestore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontkeyvaluestore"
 
 dataawscccloudfrontkeyvaluestore.NewDataAwsccCloudfrontKeyValueStoreImportSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCloudfrontKeyValueStoreImportSourceOutputReference
 ```
@@ -1084,7 +1084,7 @@ func InternalValue() DataAwsccCloudfrontKeyValueStoreImportSource
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudfrontKeyValueStore.DataAwsccCloudfrontKeyValueStoreTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontkeyvaluestore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontkeyvaluestore"
 
 dataawscccloudfrontkeyvaluestore.NewDataAwsccCloudfrontKeyValueStoreTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCloudfrontKeyValueStoreTagsList
 ```
@@ -1233,7 +1233,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudfrontKeyValueStore.DataAwsccCloudfrontKeyValueStoreTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontkeyvaluestore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontkeyvaluestore"
 
 dataawscccloudfrontkeyvaluestore.NewDataAwsccCloudfrontKeyValueStoreTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCloudfrontKeyValueStoreTagsOutputReference
 ```

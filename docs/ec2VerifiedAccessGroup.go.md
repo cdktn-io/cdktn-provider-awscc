@@ -4,12 +4,12 @@
 
 ### Ec2VerifiedAccessGroup <a name="Ec2VerifiedAccessGroup" id="@cdktn/provider-awscc.ec2VerifiedAccessGroup.Ec2VerifiedAccessGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_group awscc_ec2_verified_access_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_group awscc_ec2_verified_access_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2VerifiedAccessGroup.Ec2VerifiedAccessGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2verifiedaccessgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2verifiedaccessgroup"
 
 ec2verifiedaccessgroup.NewEc2VerifiedAccessGroup(scope Construct, id *string, config Ec2VerifiedAccessGroupConfig) Ec2VerifiedAccessGroup
 ```
@@ -461,7 +461,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.ec2VerifiedAccessGroup.Ec2VerifiedAccessGroup.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2verifiedaccessgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2verifiedaccessgroup"
 
 ec2verifiedaccessgroup.Ec2VerifiedAccessGroup_IsConstruct(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.ec2VerifiedAccessGroup.Ec2VerifiedAccessGroup.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2verifiedaccessgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2verifiedaccessgroup"
 
 ec2verifiedaccessgroup.Ec2VerifiedAccessGroup_IsTerraformElement(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ ec2verifiedaccessgroup.Ec2VerifiedAccessGroup_IsTerraformElement(x interface{}) 
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.ec2VerifiedAccessGroup.Ec2VerifiedAccessGroup.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2verifiedaccessgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2verifiedaccessgroup"
 
 ec2verifiedaccessgroup.Ec2VerifiedAccessGroup_IsTerraformResource(x interface{}) *bool
 ```
@@ -521,7 +521,7 @@ ec2verifiedaccessgroup.Ec2VerifiedAccessGroup_IsTerraformResource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.ec2VerifiedAccessGroup.Ec2VerifiedAccessGroup.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2verifiedaccessgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2verifiedaccessgroup"
 
 ec2verifiedaccessgroup.Ec2VerifiedAccessGroup_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -550,7 +550,7 @@ The construct id used in the generated config for the Ec2VerifiedAccessGroup to 
 
 The id of the existing Ec2VerifiedAccessGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -948,7 +948,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2VerifiedAccessGroup.Ec2VerifiedAccessGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2verifiedaccessgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2verifiedaccessgroup"
 
 &ec2verifiedaccessgroup.Ec2VerifiedAccessGroupConfig {
 	Connection: interface{},
@@ -962,7 +962,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2verifiedaccessgroup
 	Description: *string,
 	PolicyDocument: *string,
 	PolicyEnabled: interface{},
-	SseSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ec2VerifiedAccessGroup.Ec2VerifiedAccessGroupSseSpecification,
+	SseSpecification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ec2VerifiedAccessGroup.Ec2VerifiedAccessGroupSseSpecification,
 	Tags: interface{},
 }
 ```
@@ -1067,7 +1067,7 @@ VerifiedAccessInstanceId *string
 
 The ID of the AWS Verified Access instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_group#verified_access_instance_id Ec2VerifiedAccessGroup#verified_access_instance_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_group#verified_access_instance_id Ec2VerifiedAccessGroup#verified_access_instance_id}
 
 ---
 
@@ -1081,7 +1081,7 @@ Description *string
 
 A description for the AWS Verified Access group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_group#description Ec2VerifiedAccessGroup#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_group#description Ec2VerifiedAccessGroup#description}
 
 ---
 
@@ -1095,7 +1095,7 @@ PolicyDocument *string
 
 The AWS Verified Access policy document.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_group#policy_document Ec2VerifiedAccessGroup#policy_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_group#policy_document Ec2VerifiedAccessGroup#policy_document}
 
 ---
 
@@ -1109,7 +1109,7 @@ PolicyEnabled interface{}
 
 The status of the Verified Access policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_group#policy_enabled Ec2VerifiedAccessGroup#policy_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_group#policy_enabled Ec2VerifiedAccessGroup#policy_enabled}
 
 ---
 
@@ -1123,7 +1123,7 @@ SseSpecification Ec2VerifiedAccessGroupSseSpecification
 
 The configuration options for customer provided KMS encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_group#sse_specification Ec2VerifiedAccessGroup#sse_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_group#sse_specification Ec2VerifiedAccessGroup#sse_specification}
 
 ---
 
@@ -1137,7 +1137,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_group#tags Ec2VerifiedAccessGroup#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_group#tags Ec2VerifiedAccessGroup#tags}
 
 ---
 
@@ -1146,7 +1146,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2VerifiedAccessGroup.Ec2VerifiedAccessGroupSseSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2verifiedaccessgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2verifiedaccessgroup"
 
 &ec2verifiedaccessgroup.Ec2VerifiedAccessGroupSseSpecification {
 	CustomerManagedKeyEnabled: interface{},
@@ -1173,7 +1173,7 @@ CustomerManagedKeyEnabled interface{}
 
 Whether to encrypt the policy with the provided key or disable encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_group#customer_managed_key_enabled Ec2VerifiedAccessGroup#customer_managed_key_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_group#customer_managed_key_enabled Ec2VerifiedAccessGroup#customer_managed_key_enabled}
 
 ---
 
@@ -1187,7 +1187,7 @@ KmsKeyArn *string
 
 KMS Key Arn used to encrypt the group policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_group#kms_key_arn Ec2VerifiedAccessGroup#kms_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_group#kms_key_arn Ec2VerifiedAccessGroup#kms_key_arn}
 
 ---
 
@@ -1196,7 +1196,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2VerifiedAccessGroup.Ec2VerifiedAccessGroupTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2verifiedaccessgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2verifiedaccessgroup"
 
 &ec2verifiedaccessgroup.Ec2VerifiedAccessGroupTags {
 	Key: *string,
@@ -1225,7 +1225,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_group#key Ec2VerifiedAccessGroup#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_group#key Ec2VerifiedAccessGroup#key}
 
 ---
 
@@ -1241,7 +1241,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_group#value Ec2VerifiedAccessGroup#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_group#value Ec2VerifiedAccessGroup#value}
 
 ---
 
@@ -1252,7 +1252,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2VerifiedAccessGroup.Ec2VerifiedAccessGroupSseSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2verifiedaccessgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2verifiedaccessgroup"
 
 ec2verifiedaccessgroup.NewEc2VerifiedAccessGroupSseSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Ec2VerifiedAccessGroupSseSpecificationOutputReference
 ```
@@ -1559,7 +1559,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2VerifiedAccessGroup.Ec2VerifiedAccessGroupTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2verifiedaccessgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2verifiedaccessgroup"
 
 ec2verifiedaccessgroup.NewEc2VerifiedAccessGroupTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Ec2VerifiedAccessGroupTagsList
 ```
@@ -1719,7 +1719,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2VerifiedAccessGroup.Ec2VerifiedAccessGroupTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2verifiedaccessgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2verifiedaccessgroup"
 
 ec2verifiedaccessgroup.NewEc2VerifiedAccessGroupTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) Ec2VerifiedAccessGroupTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### RefactorspacesService <a name="RefactorspacesService" id="@cdktn/provider-awscc.refactorspacesService.RefactorspacesService"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/refactorspaces_service awscc_refactorspaces_service}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/refactorspaces_service awscc_refactorspaces_service}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.refactorspacesService.RefactorspacesService.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/refactorspacesservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/refactorspacesservice"
 
 refactorspacesservice.NewRefactorspacesService(scope Construct, id *string, config RefactorspacesServiceConfig) RefactorspacesService
 ```
@@ -474,7 +474,7 @@ func ResetVpcId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.refactorspacesService.RefactorspacesService.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/refactorspacesservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/refactorspacesservice"
 
 refactorspacesservice.RefactorspacesService_IsConstruct(x interface{}) *bool
 ```
@@ -506,7 +506,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.refactorspacesService.RefactorspacesService.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/refactorspacesservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/refactorspacesservice"
 
 refactorspacesservice.RefactorspacesService_IsTerraformElement(x interface{}) *bool
 ```
@@ -520,7 +520,7 @@ refactorspacesservice.RefactorspacesService_IsTerraformElement(x interface{}) *b
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.refactorspacesService.RefactorspacesService.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/refactorspacesservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/refactorspacesservice"
 
 refactorspacesservice.RefactorspacesService_IsTerraformResource(x interface{}) *bool
 ```
@@ -534,7 +534,7 @@ refactorspacesservice.RefactorspacesService_IsTerraformResource(x interface{}) *
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.refactorspacesService.RefactorspacesService.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/refactorspacesservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/refactorspacesservice"
 
 refactorspacesservice.RefactorspacesService_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -563,7 +563,7 @@ The construct id used in the generated config for the RefactorspacesService to i
 
 The id of the existing RefactorspacesService that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/refactorspaces_service#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/refactorspaces_service#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -994,7 +994,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.refactorspacesService.RefactorspacesServiceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/refactorspacesservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/refactorspacesservice"
 
 &refactorspacesservice.RefactorspacesServiceConfig {
 	Connection: interface{},
@@ -1009,9 +1009,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/refactorspacesservice"
 	EnvironmentIdentifier: *string,
 	Name: *string,
 	Description: *string,
-	LambdaEndpoint: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.refactorspacesService.RefactorspacesServiceLambdaEndpoint,
+	LambdaEndpoint: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.refactorspacesService.RefactorspacesServiceLambdaEndpoint,
 	Tags: interface{},
-	UrlEndpoint: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.refactorspacesService.RefactorspacesServiceUrlEndpoint,
+	UrlEndpoint: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.refactorspacesService.RefactorspacesServiceUrlEndpoint,
 	VpcId: *string,
 }
 ```
@@ -1027,15 +1027,15 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/refactorspacesservice"
 | <code><a href="#@cdktn/provider-awscc.refactorspacesService.RefactorspacesServiceConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.refactorspacesService.RefactorspacesServiceConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.refactorspacesService.RefactorspacesServiceConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.refactorspacesService.RefactorspacesServiceConfig.property.applicationIdentifier">ApplicationIdentifier</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/refactorspaces_service#application_identifier RefactorspacesService#application_identifier}. |
-| <code><a href="#@cdktn/provider-awscc.refactorspacesService.RefactorspacesServiceConfig.property.endpointType">EndpointType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/refactorspaces_service#endpoint_type RefactorspacesService#endpoint_type}. |
-| <code><a href="#@cdktn/provider-awscc.refactorspacesService.RefactorspacesServiceConfig.property.environmentIdentifier">EnvironmentIdentifier</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/refactorspaces_service#environment_identifier RefactorspacesService#environment_identifier}. |
-| <code><a href="#@cdktn/provider-awscc.refactorspacesService.RefactorspacesServiceConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/refactorspaces_service#name RefactorspacesService#name}. |
-| <code><a href="#@cdktn/provider-awscc.refactorspacesService.RefactorspacesServiceConfig.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/refactorspaces_service#description RefactorspacesService#description}. |
-| <code><a href="#@cdktn/provider-awscc.refactorspacesService.RefactorspacesServiceConfig.property.lambdaEndpoint">LambdaEndpoint</a></code> | <code><a href="#@cdktn/provider-awscc.refactorspacesService.RefactorspacesServiceLambdaEndpoint">RefactorspacesServiceLambdaEndpoint</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/refactorspaces_service#lambda_endpoint RefactorspacesService#lambda_endpoint}. |
+| <code><a href="#@cdktn/provider-awscc.refactorspacesService.RefactorspacesServiceConfig.property.applicationIdentifier">ApplicationIdentifier</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/refactorspaces_service#application_identifier RefactorspacesService#application_identifier}. |
+| <code><a href="#@cdktn/provider-awscc.refactorspacesService.RefactorspacesServiceConfig.property.endpointType">EndpointType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/refactorspaces_service#endpoint_type RefactorspacesService#endpoint_type}. |
+| <code><a href="#@cdktn/provider-awscc.refactorspacesService.RefactorspacesServiceConfig.property.environmentIdentifier">EnvironmentIdentifier</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/refactorspaces_service#environment_identifier RefactorspacesService#environment_identifier}. |
+| <code><a href="#@cdktn/provider-awscc.refactorspacesService.RefactorspacesServiceConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/refactorspaces_service#name RefactorspacesService#name}. |
+| <code><a href="#@cdktn/provider-awscc.refactorspacesService.RefactorspacesServiceConfig.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/refactorspaces_service#description RefactorspacesService#description}. |
+| <code><a href="#@cdktn/provider-awscc.refactorspacesService.RefactorspacesServiceConfig.property.lambdaEndpoint">LambdaEndpoint</a></code> | <code><a href="#@cdktn/provider-awscc.refactorspacesService.RefactorspacesServiceLambdaEndpoint">RefactorspacesServiceLambdaEndpoint</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/refactorspaces_service#lambda_endpoint RefactorspacesService#lambda_endpoint}. |
 | <code><a href="#@cdktn/provider-awscc.refactorspacesService.RefactorspacesServiceConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Metadata that you can assign to help organize the frameworks that you create. Each tag is a key-value pair. |
-| <code><a href="#@cdktn/provider-awscc.refactorspacesService.RefactorspacesServiceConfig.property.urlEndpoint">UrlEndpoint</a></code> | <code><a href="#@cdktn/provider-awscc.refactorspacesService.RefactorspacesServiceUrlEndpoint">RefactorspacesServiceUrlEndpoint</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/refactorspaces_service#url_endpoint RefactorspacesService#url_endpoint}. |
-| <code><a href="#@cdktn/provider-awscc.refactorspacesService.RefactorspacesServiceConfig.property.vpcId">VpcId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/refactorspaces_service#vpc_id RefactorspacesService#vpc_id}. |
+| <code><a href="#@cdktn/provider-awscc.refactorspacesService.RefactorspacesServiceConfig.property.urlEndpoint">UrlEndpoint</a></code> | <code><a href="#@cdktn/provider-awscc.refactorspacesService.RefactorspacesServiceUrlEndpoint">RefactorspacesServiceUrlEndpoint</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/refactorspaces_service#url_endpoint RefactorspacesService#url_endpoint}. |
+| <code><a href="#@cdktn/provider-awscc.refactorspacesService.RefactorspacesServiceConfig.property.vpcId">VpcId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/refactorspaces_service#vpc_id RefactorspacesService#vpc_id}. |
 
 ---
 
@@ -1117,7 +1117,7 @@ ApplicationIdentifier *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/refactorspaces_service#application_identifier RefactorspacesService#application_identifier}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/refactorspaces_service#application_identifier RefactorspacesService#application_identifier}.
 
 ---
 
@@ -1129,7 +1129,7 @@ EndpointType *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/refactorspaces_service#endpoint_type RefactorspacesService#endpoint_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/refactorspaces_service#endpoint_type RefactorspacesService#endpoint_type}.
 
 ---
 
@@ -1141,7 +1141,7 @@ EnvironmentIdentifier *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/refactorspaces_service#environment_identifier RefactorspacesService#environment_identifier}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/refactorspaces_service#environment_identifier RefactorspacesService#environment_identifier}.
 
 ---
 
@@ -1153,7 +1153,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/refactorspaces_service#name RefactorspacesService#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/refactorspaces_service#name RefactorspacesService#name}.
 
 ---
 
@@ -1165,7 +1165,7 @@ Description *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/refactorspaces_service#description RefactorspacesService#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/refactorspaces_service#description RefactorspacesService#description}.
 
 ---
 
@@ -1177,7 +1177,7 @@ LambdaEndpoint RefactorspacesServiceLambdaEndpoint
 
 - *Type:* <a href="#@cdktn/provider-awscc.refactorspacesService.RefactorspacesServiceLambdaEndpoint">RefactorspacesServiceLambdaEndpoint</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/refactorspaces_service#lambda_endpoint RefactorspacesService#lambda_endpoint}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/refactorspaces_service#lambda_endpoint RefactorspacesService#lambda_endpoint}.
 
 ---
 
@@ -1191,7 +1191,7 @@ Tags interface{}
 
 Metadata that you can assign to help organize the frameworks that you create. Each tag is a key-value pair.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/refactorspaces_service#tags RefactorspacesService#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/refactorspaces_service#tags RefactorspacesService#tags}
 
 ---
 
@@ -1203,7 +1203,7 @@ UrlEndpoint RefactorspacesServiceUrlEndpoint
 
 - *Type:* <a href="#@cdktn/provider-awscc.refactorspacesService.RefactorspacesServiceUrlEndpoint">RefactorspacesServiceUrlEndpoint</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/refactorspaces_service#url_endpoint RefactorspacesService#url_endpoint}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/refactorspaces_service#url_endpoint RefactorspacesService#url_endpoint}.
 
 ---
 
@@ -1215,7 +1215,7 @@ VpcId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/refactorspaces_service#vpc_id RefactorspacesService#vpc_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/refactorspaces_service#vpc_id RefactorspacesService#vpc_id}.
 
 ---
 
@@ -1224,7 +1224,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.refactorspacesService.RefactorspacesServiceLambdaEndpoint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/refactorspacesservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/refactorspacesservice"
 
 &refactorspacesservice.RefactorspacesServiceLambdaEndpoint {
 	Arn: *string,
@@ -1235,7 +1235,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/refactorspacesservice"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.refactorspacesService.RefactorspacesServiceLambdaEndpoint.property.arn">Arn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/refactorspaces_service#arn RefactorspacesService#arn}. |
+| <code><a href="#@cdktn/provider-awscc.refactorspacesService.RefactorspacesServiceLambdaEndpoint.property.arn">Arn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/refactorspaces_service#arn RefactorspacesService#arn}. |
 
 ---
 
@@ -1247,7 +1247,7 @@ Arn *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/refactorspaces_service#arn RefactorspacesService#arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/refactorspaces_service#arn RefactorspacesService#arn}.
 
 ---
 
@@ -1256,7 +1256,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.refactorspacesService.RefactorspacesServiceTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/refactorspacesservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/refactorspacesservice"
 
 &refactorspacesservice.RefactorspacesServiceTags {
 	Key: *string,
@@ -1283,7 +1283,7 @@ Key *string
 
 A string used to identify this tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/refactorspaces_service#key RefactorspacesService#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/refactorspaces_service#key RefactorspacesService#key}
 
 ---
 
@@ -1297,7 +1297,7 @@ Value *string
 
 A string containing the value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/refactorspaces_service#value RefactorspacesService#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/refactorspaces_service#value RefactorspacesService#value}
 
 ---
 
@@ -1306,7 +1306,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.refactorspacesService.RefactorspacesServiceUrlEndpoint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/refactorspacesservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/refactorspacesservice"
 
 &refactorspacesservice.RefactorspacesServiceUrlEndpoint {
 	HealthUrl: *string,
@@ -1318,8 +1318,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/refactorspacesservice"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.refactorspacesService.RefactorspacesServiceUrlEndpoint.property.healthUrl">HealthUrl</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/refactorspaces_service#health_url RefactorspacesService#health_url}. |
-| <code><a href="#@cdktn/provider-awscc.refactorspacesService.RefactorspacesServiceUrlEndpoint.property.url">Url</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/refactorspaces_service#url RefactorspacesService#url}. |
+| <code><a href="#@cdktn/provider-awscc.refactorspacesService.RefactorspacesServiceUrlEndpoint.property.healthUrl">HealthUrl</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/refactorspaces_service#health_url RefactorspacesService#health_url}. |
+| <code><a href="#@cdktn/provider-awscc.refactorspacesService.RefactorspacesServiceUrlEndpoint.property.url">Url</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/refactorspaces_service#url RefactorspacesService#url}. |
 
 ---
 
@@ -1331,7 +1331,7 @@ HealthUrl *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/refactorspaces_service#health_url RefactorspacesService#health_url}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/refactorspaces_service#health_url RefactorspacesService#health_url}.
 
 ---
 
@@ -1343,7 +1343,7 @@ Url *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/refactorspaces_service#url RefactorspacesService#url}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/refactorspaces_service#url RefactorspacesService#url}.
 
 ---
 
@@ -1354,7 +1354,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.refactorspacesService.RefactorspacesServiceLambdaEndpointOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/refactorspacesservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/refactorspacesservice"
 
 refactorspacesservice.NewRefactorspacesServiceLambdaEndpointOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) RefactorspacesServiceLambdaEndpointOutputReference
 ```
@@ -1632,7 +1632,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.refactorspacesService.RefactorspacesServiceTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/refactorspacesservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/refactorspacesservice"
 
 refactorspacesservice.NewRefactorspacesServiceTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) RefactorspacesServiceTagsList
 ```
@@ -1792,7 +1792,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.refactorspacesService.RefactorspacesServiceTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/refactorspacesservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/refactorspacesservice"
 
 refactorspacesservice.NewRefactorspacesServiceTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) RefactorspacesServiceTagsOutputReference
 ```
@@ -2117,7 +2117,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.refactorspacesService.RefactorspacesServiceUrlEndpointOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/refactorspacesservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/refactorspacesservice"
 
 refactorspacesservice.NewRefactorspacesServiceUrlEndpointOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) RefactorspacesServiceUrlEndpointOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### SagemakerInferenceExperiment <a name="SagemakerInferenceExperiment" id="@cdktn/provider-awscc.sagemakerInferenceExperiment.SagemakerInferenceExperiment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_inference_experiment awscc_sagemaker_inference_experiment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_inference_experiment awscc_sagemaker_inference_experiment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerInferenceExperiment.SagemakerInferenceExperiment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerinferenceexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerinferenceexperiment"
 
 sagemakerinferenceexperiment.NewSagemakerInferenceExperiment(scope Construct, id *string, config SagemakerInferenceExperimentConfig) SagemakerInferenceExperiment
 ```
@@ -521,7 +521,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.sagemakerInferenceExperiment.SagemakerInferenceExperiment.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerinferenceexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerinferenceexperiment"
 
 sagemakerinferenceexperiment.SagemakerInferenceExperiment_IsConstruct(x interface{}) *bool
 ```
@@ -553,7 +553,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.sagemakerInferenceExperiment.SagemakerInferenceExperiment.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerinferenceexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerinferenceexperiment"
 
 sagemakerinferenceexperiment.SagemakerInferenceExperiment_IsTerraformElement(x interface{}) *bool
 ```
@@ -567,7 +567,7 @@ sagemakerinferenceexperiment.SagemakerInferenceExperiment_IsTerraformElement(x i
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.sagemakerInferenceExperiment.SagemakerInferenceExperiment.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerinferenceexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerinferenceexperiment"
 
 sagemakerinferenceexperiment.SagemakerInferenceExperiment_IsTerraformResource(x interface{}) *bool
 ```
@@ -581,7 +581,7 @@ sagemakerinferenceexperiment.SagemakerInferenceExperiment_IsTerraformResource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.sagemakerInferenceExperiment.SagemakerInferenceExperiment.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerinferenceexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerinferenceexperiment"
 
 sagemakerinferenceexperiment.SagemakerInferenceExperiment_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -610,7 +610,7 @@ The construct id used in the generated config for the SagemakerInferenceExperime
 
 The id of the existing SagemakerInferenceExperiment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_inference_experiment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_inference_experiment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1162,7 +1162,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sagemakerInferenceExperiment.SagemakerInferenceExperimentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerinferenceexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerinferenceexperiment"
 
 &sagemakerinferenceexperiment.SagemakerInferenceExperimentConfig {
 	Connection: interface{},
@@ -1177,12 +1177,12 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerinferenceexpe
 	Name: *string,
 	RoleArn: *string,
 	Type: *string,
-	DataStorageConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.sagemakerInferenceExperiment.SagemakerInferenceExperimentDataStorageConfig,
+	DataStorageConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.sagemakerInferenceExperiment.SagemakerInferenceExperimentDataStorageConfig,
 	Description: *string,
 	DesiredState: *string,
 	KmsKey: *string,
-	Schedule: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.sagemakerInferenceExperiment.SagemakerInferenceExperimentSchedule,
-	ShadowModeConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.sagemakerInferenceExperiment.SagemakerInferenceExperimentShadowModeConfig,
+	Schedule: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.sagemakerInferenceExperiment.SagemakerInferenceExperimentSchedule,
+	ShadowModeConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.sagemakerInferenceExperiment.SagemakerInferenceExperimentShadowModeConfig,
 	StatusReason: *string,
 	Tags: interface{},
 }
@@ -1295,7 +1295,7 @@ EndpointName *string
 
 The name of the endpoint used to run the inference experiment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_inference_experiment#endpoint_name SagemakerInferenceExperiment#endpoint_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_inference_experiment#endpoint_name SagemakerInferenceExperiment#endpoint_name}
 
 ---
 
@@ -1309,7 +1309,7 @@ ModelVariants interface{}
 
 An array of ModelVariantConfig objects. Each ModelVariantConfig object in the array describes the infrastructure configuration for the corresponding variant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_inference_experiment#model_variants SagemakerInferenceExperiment#model_variants}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_inference_experiment#model_variants SagemakerInferenceExperiment#model_variants}
 
 ---
 
@@ -1323,7 +1323,7 @@ Name *string
 
 The name for the inference experiment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_inference_experiment#name SagemakerInferenceExperiment#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_inference_experiment#name SagemakerInferenceExperiment#name}
 
 ---
 
@@ -1337,7 +1337,7 @@ RoleArn *string
 
 The Amazon Resource Name (ARN) of an IAM role that Amazon SageMaker can assume to access model artifacts and container images, and manage Amazon SageMaker Inference endpoints for model deployment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_inference_experiment#role_arn SagemakerInferenceExperiment#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_inference_experiment#role_arn SagemakerInferenceExperiment#role_arn}
 
 ---
 
@@ -1351,7 +1351,7 @@ Type *string
 
 The type of the inference experiment that you want to run.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_inference_experiment#type SagemakerInferenceExperiment#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_inference_experiment#type SagemakerInferenceExperiment#type}
 
 ---
 
@@ -1365,7 +1365,7 @@ DataStorageConfig SagemakerInferenceExperimentDataStorageConfig
 
 The Amazon S3 location and configuration for storing inference request and response data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_inference_experiment#data_storage_config SagemakerInferenceExperiment#data_storage_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_inference_experiment#data_storage_config SagemakerInferenceExperiment#data_storage_config}
 
 ---
 
@@ -1379,7 +1379,7 @@ Description *string
 
 The description of the inference experiment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_inference_experiment#description SagemakerInferenceExperiment#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_inference_experiment#description SagemakerInferenceExperiment#description}
 
 ---
 
@@ -1393,7 +1393,7 @@ DesiredState *string
 
 The desired state of the experiment after starting or stopping operation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_inference_experiment#desired_state SagemakerInferenceExperiment#desired_state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_inference_experiment#desired_state SagemakerInferenceExperiment#desired_state}
 
 ---
 
@@ -1407,7 +1407,7 @@ KmsKey *string
 
 The AWS Key Management Service (AWS KMS) key that Amazon SageMaker uses to encrypt data on the storage volume attached to the ML compute instance that hosts the endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_inference_experiment#kms_key SagemakerInferenceExperiment#kms_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_inference_experiment#kms_key SagemakerInferenceExperiment#kms_key}
 
 ---
 
@@ -1421,7 +1421,7 @@ Schedule SagemakerInferenceExperimentSchedule
 
 The duration for which you want the inference experiment to run.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_inference_experiment#schedule SagemakerInferenceExperiment#schedule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_inference_experiment#schedule SagemakerInferenceExperiment#schedule}
 
 ---
 
@@ -1437,7 +1437,7 @@ The configuration of ShadowMode inference experiment type.
 
 Use this field to specify a production variant which takes all the inference requests, and a shadow variant to which Amazon SageMaker replicates a percentage of the inference requests. For the shadow variant also specify the percentage of requests that Amazon SageMaker replicates.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_inference_experiment#shadow_mode_config SagemakerInferenceExperiment#shadow_mode_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_inference_experiment#shadow_mode_config SagemakerInferenceExperiment#shadow_mode_config}
 
 ---
 
@@ -1451,7 +1451,7 @@ StatusReason *string
 
 The error message or client-specified reason from the StopInferenceExperiment API, that explains the status of the inference experiment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_inference_experiment#status_reason SagemakerInferenceExperiment#status_reason}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_inference_experiment#status_reason SagemakerInferenceExperiment#status_reason}
 
 ---
 
@@ -1465,7 +1465,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_inference_experiment#tags SagemakerInferenceExperiment#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_inference_experiment#tags SagemakerInferenceExperiment#tags}
 
 ---
 
@@ -1474,10 +1474,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sagemakerInferenceExperiment.SagemakerInferenceExperimentDataStorageConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerinferenceexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerinferenceexperiment"
 
 &sagemakerinferenceexperiment.SagemakerInferenceExperimentDataStorageConfig {
-	ContentType: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.sagemakerInferenceExperiment.SagemakerInferenceExperimentDataStorageConfigContentType,
+	ContentType: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.sagemakerInferenceExperiment.SagemakerInferenceExperimentDataStorageConfigContentType,
 	Destination: *string,
 	KmsKey: *string,
 }
@@ -1505,7 +1505,7 @@ Configuration specifying how to treat different headers.
 
 If no headers are specified SageMaker will by default base64 encode when capturing the data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_inference_experiment#content_type SagemakerInferenceExperiment#content_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_inference_experiment#content_type SagemakerInferenceExperiment#content_type}
 
 ---
 
@@ -1519,7 +1519,7 @@ Destination *string
 
 The Amazon S3 bucket where the inference request and response data is stored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_inference_experiment#destination SagemakerInferenceExperiment#destination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_inference_experiment#destination SagemakerInferenceExperiment#destination}
 
 ---
 
@@ -1533,7 +1533,7 @@ KmsKey *string
 
 The AWS Key Management Service key that Amazon SageMaker uses to encrypt captured data at rest using Amazon S3 server-side encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_inference_experiment#kms_key SagemakerInferenceExperiment#kms_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_inference_experiment#kms_key SagemakerInferenceExperiment#kms_key}
 
 ---
 
@@ -1542,7 +1542,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sagemakerInferenceExperiment.SagemakerInferenceExperimentDataStorageConfigContentType.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerinferenceexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerinferenceexperiment"
 
 &sagemakerinferenceexperiment.SagemakerInferenceExperimentDataStorageConfigContentType {
 	CsvContentTypes: *[]*string,
@@ -1569,7 +1569,7 @@ CsvContentTypes *[]*string
 
 The list of all content type headers that SageMaker will treat as CSV and capture accordingly.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_inference_experiment#csv_content_types SagemakerInferenceExperiment#csv_content_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_inference_experiment#csv_content_types SagemakerInferenceExperiment#csv_content_types}
 
 ---
 
@@ -1583,7 +1583,7 @@ JsonContentTypes *[]*string
 
 The list of all content type headers that SageMaker will treat as JSON and capture accordingly.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_inference_experiment#json_content_types SagemakerInferenceExperiment#json_content_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_inference_experiment#json_content_types SagemakerInferenceExperiment#json_content_types}
 
 ---
 
@@ -1592,7 +1592,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sagemakerInferenceExperiment.SagemakerInferenceExperimentEndpointMetadata.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerinferenceexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerinferenceexperiment"
 
 &sagemakerinferenceexperiment.SagemakerInferenceExperimentEndpointMetadata {
 
@@ -1605,10 +1605,10 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerinferenceexpe
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sagemakerInferenceExperiment.SagemakerInferenceExperimentModelVariants.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerinferenceexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerinferenceexperiment"
 
 &sagemakerinferenceexperiment.SagemakerInferenceExperimentModelVariants {
-	InfrastructureConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.sagemakerInferenceExperiment.SagemakerInferenceExperimentModelVariantsInfrastructureConfig,
+	InfrastructureConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.sagemakerInferenceExperiment.SagemakerInferenceExperimentModelVariantsInfrastructureConfig,
 	ModelName: *string,
 	VariantName: *string,
 }
@@ -1634,7 +1634,7 @@ InfrastructureConfig SagemakerInferenceExperimentModelVariantsInfrastructureConf
 
 The configuration for the infrastructure that the model will be deployed to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_inference_experiment#infrastructure_config SagemakerInferenceExperiment#infrastructure_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_inference_experiment#infrastructure_config SagemakerInferenceExperiment#infrastructure_config}
 
 ---
 
@@ -1648,7 +1648,7 @@ ModelName *string
 
 The name of the Amazon SageMaker Model entity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_inference_experiment#model_name SagemakerInferenceExperiment#model_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_inference_experiment#model_name SagemakerInferenceExperiment#model_name}
 
 ---
 
@@ -1662,7 +1662,7 @@ VariantName *string
 
 The name of the variant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_inference_experiment#variant_name SagemakerInferenceExperiment#variant_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_inference_experiment#variant_name SagemakerInferenceExperiment#variant_name}
 
 ---
 
@@ -1671,11 +1671,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sagemakerInferenceExperiment.SagemakerInferenceExperimentModelVariantsInfrastructureConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerinferenceexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerinferenceexperiment"
 
 &sagemakerinferenceexperiment.SagemakerInferenceExperimentModelVariantsInfrastructureConfig {
 	InfrastructureType: *string,
-	RealTimeInferenceConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.sagemakerInferenceExperiment.SagemakerInferenceExperimentModelVariantsInfrastructureConfigRealTimeInferenceConfig,
+	RealTimeInferenceConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.sagemakerInferenceExperiment.SagemakerInferenceExperimentModelVariantsInfrastructureConfigRealTimeInferenceConfig,
 }
 ```
 
@@ -1698,7 +1698,7 @@ InfrastructureType *string
 
 The type of the inference experiment that you want to run.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_inference_experiment#infrastructure_type SagemakerInferenceExperiment#infrastructure_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_inference_experiment#infrastructure_type SagemakerInferenceExperiment#infrastructure_type}
 
 ---
 
@@ -1712,7 +1712,7 @@ RealTimeInferenceConfig SagemakerInferenceExperimentModelVariantsInfrastructureC
 
 The infrastructure configuration for deploying the model to a real-time inference endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_inference_experiment#real_time_inference_config SagemakerInferenceExperiment#real_time_inference_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_inference_experiment#real_time_inference_config SagemakerInferenceExperiment#real_time_inference_config}
 
 ---
 
@@ -1721,7 +1721,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sagemakerInferenceExperiment.SagemakerInferenceExperimentModelVariantsInfrastructureConfigRealTimeInferenceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerinferenceexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerinferenceexperiment"
 
 &sagemakerinferenceexperiment.SagemakerInferenceExperimentModelVariantsInfrastructureConfigRealTimeInferenceConfig {
 	InstanceCount: *f64,
@@ -1748,7 +1748,7 @@ InstanceCount *f64
 
 The number of instances of the type specified by InstanceType.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_inference_experiment#instance_count SagemakerInferenceExperiment#instance_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_inference_experiment#instance_count SagemakerInferenceExperiment#instance_count}
 
 ---
 
@@ -1762,7 +1762,7 @@ InstanceType *string
 
 The instance type the model is deployed to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_inference_experiment#instance_type SagemakerInferenceExperiment#instance_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_inference_experiment#instance_type SagemakerInferenceExperiment#instance_type}
 
 ---
 
@@ -1771,7 +1771,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sagemakerInferenceExperiment.SagemakerInferenceExperimentSchedule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerinferenceexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerinferenceexperiment"
 
 &sagemakerinferenceexperiment.SagemakerInferenceExperimentSchedule {
 	EndTime: *string,
@@ -1798,7 +1798,7 @@ EndTime *string
 
 The timestamp at which the inference experiment ended or will end.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_inference_experiment#end_time SagemakerInferenceExperiment#end_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_inference_experiment#end_time SagemakerInferenceExperiment#end_time}
 
 ---
 
@@ -1812,7 +1812,7 @@ StartTime *string
 
 The timestamp at which the inference experiment started or will start.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_inference_experiment#start_time SagemakerInferenceExperiment#start_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_inference_experiment#start_time SagemakerInferenceExperiment#start_time}
 
 ---
 
@@ -1821,7 +1821,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sagemakerInferenceExperiment.SagemakerInferenceExperimentShadowModeConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerinferenceexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerinferenceexperiment"
 
 &sagemakerinferenceexperiment.SagemakerInferenceExperimentShadowModeConfig {
 	ShadowModelVariants: interface{},
@@ -1848,7 +1848,7 @@ ShadowModelVariants interface{}
 
 List of shadow variant configurations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_inference_experiment#shadow_model_variants SagemakerInferenceExperiment#shadow_model_variants}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_inference_experiment#shadow_model_variants SagemakerInferenceExperiment#shadow_model_variants}
 
 ---
 
@@ -1862,7 +1862,7 @@ SourceModelVariantName *string
 
 The name of the production variant, which takes all the inference requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_inference_experiment#source_model_variant_name SagemakerInferenceExperiment#source_model_variant_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_inference_experiment#source_model_variant_name SagemakerInferenceExperiment#source_model_variant_name}
 
 ---
 
@@ -1871,7 +1871,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sagemakerInferenceExperiment.SagemakerInferenceExperimentShadowModeConfigShadowModelVariants.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerinferenceexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerinferenceexperiment"
 
 &sagemakerinferenceexperiment.SagemakerInferenceExperimentShadowModeConfigShadowModelVariants {
 	SamplingPercentage: *f64,
@@ -1898,7 +1898,7 @@ SamplingPercentage *f64
 
 The percentage of inference requests that Amazon SageMaker replicates from the production variant to the shadow variant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_inference_experiment#sampling_percentage SagemakerInferenceExperiment#sampling_percentage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_inference_experiment#sampling_percentage SagemakerInferenceExperiment#sampling_percentage}
 
 ---
 
@@ -1912,7 +1912,7 @@ ShadowModelVariantName *string
 
 The name of the shadow variant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_inference_experiment#shadow_model_variant_name SagemakerInferenceExperiment#shadow_model_variant_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_inference_experiment#shadow_model_variant_name SagemakerInferenceExperiment#shadow_model_variant_name}
 
 ---
 
@@ -1921,7 +1921,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sagemakerInferenceExperiment.SagemakerInferenceExperimentTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerinferenceexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerinferenceexperiment"
 
 &sagemakerinferenceexperiment.SagemakerInferenceExperimentTags {
 	Key: *string,
@@ -1950,7 +1950,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_inference_experiment#key SagemakerInferenceExperiment#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_inference_experiment#key SagemakerInferenceExperiment#key}
 
 ---
 
@@ -1966,7 +1966,7 @@ The value for the tag.
 
 You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_inference_experiment#value SagemakerInferenceExperiment#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_inference_experiment#value SagemakerInferenceExperiment#value}
 
 ---
 
@@ -1977,7 +1977,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerInferenceExperiment.SagemakerInferenceExperimentDataStorageConfigContentTypeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerinferenceexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerinferenceexperiment"
 
 sagemakerinferenceexperiment.NewSagemakerInferenceExperimentDataStorageConfigContentTypeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SagemakerInferenceExperimentDataStorageConfigContentTypeOutputReference
 ```
@@ -2284,7 +2284,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerInferenceExperiment.SagemakerInferenceExperimentDataStorageConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerinferenceexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerinferenceexperiment"
 
 sagemakerinferenceexperiment.NewSagemakerInferenceExperimentDataStorageConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SagemakerInferenceExperimentDataStorageConfigOutputReference
 ```
@@ -2633,7 +2633,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerInferenceExperiment.SagemakerInferenceExperimentEndpointMetadataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerinferenceexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerinferenceexperiment"
 
 sagemakerinferenceexperiment.NewSagemakerInferenceExperimentEndpointMetadataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SagemakerInferenceExperimentEndpointMetadataOutputReference
 ```
@@ -2915,7 +2915,7 @@ func InternalValue() SagemakerInferenceExperimentEndpointMetadata
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerInferenceExperiment.SagemakerInferenceExperimentModelVariantsInfrastructureConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerinferenceexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerinferenceexperiment"
 
 sagemakerinferenceexperiment.NewSagemakerInferenceExperimentModelVariantsInfrastructureConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SagemakerInferenceExperimentModelVariantsInfrastructureConfigOutputReference
 ```
@@ -3221,7 +3221,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerInferenceExperiment.SagemakerInferenceExperimentModelVariantsInfrastructureConfigRealTimeInferenceConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerinferenceexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerinferenceexperiment"
 
 sagemakerinferenceexperiment.NewSagemakerInferenceExperimentModelVariantsInfrastructureConfigRealTimeInferenceConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SagemakerInferenceExperimentModelVariantsInfrastructureConfigRealTimeInferenceConfigOutputReference
 ```
@@ -3514,7 +3514,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerInferenceExperiment.SagemakerInferenceExperimentModelVariantsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerinferenceexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerinferenceexperiment"
 
 sagemakerinferenceexperiment.NewSagemakerInferenceExperimentModelVariantsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SagemakerInferenceExperimentModelVariantsList
 ```
@@ -3674,7 +3674,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerInferenceExperiment.SagemakerInferenceExperimentModelVariantsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerinferenceexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerinferenceexperiment"
 
 sagemakerinferenceexperiment.NewSagemakerInferenceExperimentModelVariantsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SagemakerInferenceExperimentModelVariantsOutputReference
 ```
@@ -4020,7 +4020,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerInferenceExperiment.SagemakerInferenceExperimentScheduleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerinferenceexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerinferenceexperiment"
 
 sagemakerinferenceexperiment.NewSagemakerInferenceExperimentScheduleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SagemakerInferenceExperimentScheduleOutputReference
 ```
@@ -4327,7 +4327,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerInferenceExperiment.SagemakerInferenceExperimentShadowModeConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerinferenceexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerinferenceexperiment"
 
 sagemakerinferenceexperiment.NewSagemakerInferenceExperimentShadowModeConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SagemakerInferenceExperimentShadowModeConfigOutputReference
 ```
@@ -4647,7 +4647,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerInferenceExperiment.SagemakerInferenceExperimentShadowModeConfigShadowModelVariantsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerinferenceexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerinferenceexperiment"
 
 sagemakerinferenceexperiment.NewSagemakerInferenceExperimentShadowModeConfigShadowModelVariantsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SagemakerInferenceExperimentShadowModeConfigShadowModelVariantsList
 ```
@@ -4807,7 +4807,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerInferenceExperiment.SagemakerInferenceExperimentShadowModeConfigShadowModelVariantsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerinferenceexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerinferenceexperiment"
 
 sagemakerinferenceexperiment.NewSagemakerInferenceExperimentShadowModeConfigShadowModelVariantsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SagemakerInferenceExperimentShadowModeConfigShadowModelVariantsOutputReference
 ```
@@ -5132,7 +5132,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerInferenceExperiment.SagemakerInferenceExperimentTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerinferenceexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerinferenceexperiment"
 
 sagemakerinferenceexperiment.NewSagemakerInferenceExperimentTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SagemakerInferenceExperimentTagsList
 ```
@@ -5292,7 +5292,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerInferenceExperiment.SagemakerInferenceExperimentTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerinferenceexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerinferenceexperiment"
 
 sagemakerinferenceexperiment.NewSagemakerInferenceExperimentTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SagemakerInferenceExperimentTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccS3OutpostsAccessPoints <a name="DataAwsccS3OutpostsAccessPoints" id="@cdktn/provider-awscc.dataAwsccS3OutpostsAccessPoints.DataAwsccS3OutpostsAccessPoints"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3outposts_access_points awscc_s3outposts_access_points}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3outposts_access_points awscc_s3outposts_access_points}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3OutpostsAccessPoints.DataAwsccS3OutpostsAccessPoints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3outpostsaccesspoints"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3outpostsaccesspoints"
 
 dataawsccs3outpostsaccesspoints.NewDataAwsccS3OutpostsAccessPoints(scope Construct, id *string, config DataAwsccS3OutpostsAccessPointsConfig) DataAwsccS3OutpostsAccessPoints
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccS3OutpostsAccessPoints.DataAwsccS3OutpostsAccessPoints.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3outpostsaccesspoints"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3outpostsaccesspoints"
 
 dataawsccs3outpostsaccesspoints.DataAwsccS3OutpostsAccessPoints_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccS3OutpostsAccessPoints.DataAwsccS3OutpostsAccessPoints.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3outpostsaccesspoints"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3outpostsaccesspoints"
 
 dataawsccs3outpostsaccesspoints.DataAwsccS3OutpostsAccessPoints_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccs3outpostsaccesspoints.DataAwsccS3OutpostsAccessPoints_IsTerraformEleme
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccS3OutpostsAccessPoints.DataAwsccS3OutpostsAccessPoints.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3outpostsaccesspoints"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3outpostsaccesspoints"
 
 dataawsccs3outpostsaccesspoints.DataAwsccS3OutpostsAccessPoints_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccs3outpostsaccesspoints.DataAwsccS3OutpostsAccessPoints_IsTerraformDataS
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccS3OutpostsAccessPoints.DataAwsccS3OutpostsAccessPoints.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3outpostsaccesspoints"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3outpostsaccesspoints"
 
 dataawsccs3outpostsaccesspoints.DataAwsccS3OutpostsAccessPoints_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccS3OutpostsAccessP
 
 The id of the existing DataAwsccS3OutpostsAccessPoints that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3outposts_access_points#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3outposts_access_points#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3OutpostsAccessPoints.DataAwsccS3OutpostsAccessPointsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3outpostsaccesspoints"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3outpostsaccesspoints"
 
 &dataawsccs3outpostsaccesspoints.DataAwsccS3OutpostsAccessPointsConfig {
 	Connection: interface{},

@@ -4,12 +4,12 @@
 
 ### DataAwsccBedrockIntelligentPromptRouter <a name="DataAwsccBedrockIntelligentPromptRouter" id="@cdktn/provider-awscc.dataAwsccBedrockIntelligentPromptRouter.DataAwsccBedrockIntelligentPromptRouter"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrock_intelligent_prompt_router awscc_bedrock_intelligent_prompt_router}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrock_intelligent_prompt_router awscc_bedrock_intelligent_prompt_router}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockIntelligentPromptRouter.DataAwsccBedrockIntelligentPromptRouter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockintelligentpromptrouter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockintelligentpromptrouter"
 
 dataawsccbedrockintelligentpromptrouter.NewDataAwsccBedrockIntelligentPromptRouter(scope Construct, id *string, config DataAwsccBedrockIntelligentPromptRouterConfig) DataAwsccBedrockIntelligentPromptRouter
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccBedrockIntelligentPromptRouter.DataAwsccBedrockIntelligentPromptRouter.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockintelligentpromptrouter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockintelligentpromptrouter"
 
 dataawsccbedrockintelligentpromptrouter.DataAwsccBedrockIntelligentPromptRouter_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccBedrockIntelligentPromptRouter.DataAwsccBedrockIntelligentPromptRouter.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockintelligentpromptrouter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockintelligentpromptrouter"
 
 dataawsccbedrockintelligentpromptrouter.DataAwsccBedrockIntelligentPromptRouter_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccbedrockintelligentpromptrouter.DataAwsccBedrockIntelligentPromptRouter_
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccBedrockIntelligentPromptRouter.DataAwsccBedrockIntelligentPromptRouter.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockintelligentpromptrouter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockintelligentpromptrouter"
 
 dataawsccbedrockintelligentpromptrouter.DataAwsccBedrockIntelligentPromptRouter_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccbedrockintelligentpromptrouter.DataAwsccBedrockIntelligentPromptRouter_
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccBedrockIntelligentPromptRouter.DataAwsccBedrockIntelligentPromptRouter.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockintelligentpromptrouter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockintelligentpromptrouter"
 
 dataawsccbedrockintelligentpromptrouter.DataAwsccBedrockIntelligentPromptRouter_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccBedrockIntelligen
 
 The id of the existing DataAwsccBedrockIntelligentPromptRouter that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrock_intelligent_prompt_router#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrock_intelligent_prompt_router#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -708,7 +708,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockIntelligentPromptRouter.DataAwsccBedrockIntelligentPromptRouterConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockintelligentpromptrouter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockintelligentpromptrouter"
 
 &dataawsccbedrockintelligentpromptrouter.DataAwsccBedrockIntelligentPromptRouterConfig {
 	Connection: interface{},
@@ -817,7 +817,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrock_intelligent_prompt_router#id DataAwsccBedrockIntelligentPromptRouter#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrock_intelligent_prompt_router#id DataAwsccBedrockIntelligentPromptRouter#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -829,7 +829,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockIntelligentPromptRouter.DataAwsccBedrockIntelligentPromptRouterFallbackModel.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockintelligentpromptrouter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockintelligentpromptrouter"
 
 &dataawsccbedrockintelligentpromptrouter.DataAwsccBedrockIntelligentPromptRouterFallbackModel {
 
@@ -842,7 +842,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockintell
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockIntelligentPromptRouter.DataAwsccBedrockIntelligentPromptRouterModels.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockintelligentpromptrouter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockintelligentpromptrouter"
 
 &dataawsccbedrockintelligentpromptrouter.DataAwsccBedrockIntelligentPromptRouterModels {
 
@@ -855,7 +855,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockintell
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockIntelligentPromptRouter.DataAwsccBedrockIntelligentPromptRouterRoutingCriteria.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockintelligentpromptrouter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockintelligentpromptrouter"
 
 &dataawsccbedrockintelligentpromptrouter.DataAwsccBedrockIntelligentPromptRouterRoutingCriteria {
 
@@ -868,7 +868,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockintell
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockIntelligentPromptRouter.DataAwsccBedrockIntelligentPromptRouterTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockintelligentpromptrouter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockintelligentpromptrouter"
 
 &dataawsccbedrockintelligentpromptrouter.DataAwsccBedrockIntelligentPromptRouterTags {
 
@@ -883,7 +883,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockintell
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockIntelligentPromptRouter.DataAwsccBedrockIntelligentPromptRouterFallbackModelOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockintelligentpromptrouter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockintelligentpromptrouter"
 
 dataawsccbedrockintelligentpromptrouter.NewDataAwsccBedrockIntelligentPromptRouterFallbackModelOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockIntelligentPromptRouterFallbackModelOutputReference
 ```
@@ -1143,7 +1143,7 @@ func InternalValue() DataAwsccBedrockIntelligentPromptRouterFallbackModel
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockIntelligentPromptRouter.DataAwsccBedrockIntelligentPromptRouterModelsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockintelligentpromptrouter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockintelligentpromptrouter"
 
 dataawsccbedrockintelligentpromptrouter.NewDataAwsccBedrockIntelligentPromptRouterModelsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBedrockIntelligentPromptRouterModelsList
 ```
@@ -1292,7 +1292,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockIntelligentPromptRouter.DataAwsccBedrockIntelligentPromptRouterModelsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockintelligentpromptrouter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockintelligentpromptrouter"
 
 dataawsccbedrockintelligentpromptrouter.NewDataAwsccBedrockIntelligentPromptRouterModelsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBedrockIntelligentPromptRouterModelsOutputReference
 ```
@@ -1570,7 +1570,7 @@ func InternalValue() DataAwsccBedrockIntelligentPromptRouterModels
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockIntelligentPromptRouter.DataAwsccBedrockIntelligentPromptRouterRoutingCriteriaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockintelligentpromptrouter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockintelligentpromptrouter"
 
 dataawsccbedrockintelligentpromptrouter.NewDataAwsccBedrockIntelligentPromptRouterRoutingCriteriaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockIntelligentPromptRouterRoutingCriteriaOutputReference
 ```
@@ -1830,7 +1830,7 @@ func InternalValue() DataAwsccBedrockIntelligentPromptRouterRoutingCriteria
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockIntelligentPromptRouter.DataAwsccBedrockIntelligentPromptRouterTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockintelligentpromptrouter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockintelligentpromptrouter"
 
 dataawsccbedrockintelligentpromptrouter.NewDataAwsccBedrockIntelligentPromptRouterTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBedrockIntelligentPromptRouterTagsList
 ```
@@ -1979,7 +1979,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockIntelligentPromptRouter.DataAwsccBedrockIntelligentPromptRouterTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockintelligentpromptrouter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockintelligentpromptrouter"
 
 dataawsccbedrockintelligentpromptrouter.NewDataAwsccBedrockIntelligentPromptRouterTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBedrockIntelligentPromptRouterTagsOutputReference
 ```

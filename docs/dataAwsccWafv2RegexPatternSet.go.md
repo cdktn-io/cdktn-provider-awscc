@@ -4,12 +4,12 @@
 
 ### DataAwsccWafv2RegexPatternSet <a name="DataAwsccWafv2RegexPatternSet" id="@cdktn/provider-awscc.dataAwsccWafv2RegexPatternSet.DataAwsccWafv2RegexPatternSet"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/wafv2_regex_pattern_set awscc_wafv2_regex_pattern_set}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/wafv2_regex_pattern_set awscc_wafv2_regex_pattern_set}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWafv2RegexPatternSet.DataAwsccWafv2RegexPatternSet.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwafv2regexpatternset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwafv2regexpatternset"
 
 dataawsccwafv2regexpatternset.NewDataAwsccWafv2RegexPatternSet(scope Construct, id *string, config DataAwsccWafv2RegexPatternSetConfig) DataAwsccWafv2RegexPatternSet
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccWafv2RegexPatternSet.DataAwsccWafv2RegexPatternSet.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwafv2regexpatternset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwafv2regexpatternset"
 
 dataawsccwafv2regexpatternset.DataAwsccWafv2RegexPatternSet_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccWafv2RegexPatternSet.DataAwsccWafv2RegexPatternSet.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwafv2regexpatternset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwafv2regexpatternset"
 
 dataawsccwafv2regexpatternset.DataAwsccWafv2RegexPatternSet_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccwafv2regexpatternset.DataAwsccWafv2RegexPatternSet_IsTerraformElement(x
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccWafv2RegexPatternSet.DataAwsccWafv2RegexPatternSet.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwafv2regexpatternset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwafv2regexpatternset"
 
 dataawsccwafv2regexpatternset.DataAwsccWafv2RegexPatternSet_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccwafv2regexpatternset.DataAwsccWafv2RegexPatternSet_IsTerraformDataSourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccWafv2RegexPatternSet.DataAwsccWafv2RegexPatternSet.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwafv2regexpatternset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwafv2regexpatternset"
 
 dataawsccwafv2regexpatternset.DataAwsccWafv2RegexPatternSet_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccWafv2RegexPattern
 
 The id of the existing DataAwsccWafv2RegexPatternSet that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/wafv2_regex_pattern_set#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/wafv2_regex_pattern_set#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -664,7 +664,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWafv2RegexPatternSet.DataAwsccWafv2RegexPatternSetConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwafv2regexpatternset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwafv2regexpatternset"
 
 &dataawsccwafv2regexpatternset.DataAwsccWafv2RegexPatternSetConfig {
 	Connection: interface{},
@@ -773,7 +773,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/wafv2_regex_pattern_set#id DataAwsccWafv2RegexPatternSet#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/wafv2_regex_pattern_set#id DataAwsccWafv2RegexPatternSet#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -785,7 +785,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWafv2RegexPatternSet.DataAwsccWafv2RegexPatternSetTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwafv2regexpatternset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwafv2regexpatternset"
 
 &dataawsccwafv2regexpatternset.DataAwsccWafv2RegexPatternSetTags {
 
@@ -800,7 +800,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwafv2regexpat
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWafv2RegexPatternSet.DataAwsccWafv2RegexPatternSetTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwafv2regexpatternset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwafv2regexpatternset"
 
 dataawsccwafv2regexpatternset.NewDataAwsccWafv2RegexPatternSetTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccWafv2RegexPatternSetTagsList
 ```
@@ -949,7 +949,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWafv2RegexPatternSet.DataAwsccWafv2RegexPatternSetTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwafv2regexpatternset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwafv2regexpatternset"
 
 dataawsccwafv2regexpatternset.NewDataAwsccWafv2RegexPatternSetTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccWafv2RegexPatternSetTagsOutputReference
 ```

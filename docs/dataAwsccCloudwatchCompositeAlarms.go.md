@@ -4,12 +4,12 @@
 
 ### DataAwsccCloudwatchCompositeAlarms <a name="DataAwsccCloudwatchCompositeAlarms" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarms.DataAwsccCloudwatchCompositeAlarms"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudwatch_composite_alarms awscc_cloudwatch_composite_alarms}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudwatch_composite_alarms awscc_cloudwatch_composite_alarms}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarms.DataAwsccCloudwatchCompositeAlarms.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudwatchcompositealarms"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudwatchcompositealarms"
 
 dataawscccloudwatchcompositealarms.NewDataAwsccCloudwatchCompositeAlarms(scope Construct, id *string, config DataAwsccCloudwatchCompositeAlarmsConfig) DataAwsccCloudwatchCompositeAlarms
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarms.DataAwsccCloudwatchCompositeAlarms.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudwatchcompositealarms"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudwatchcompositealarms"
 
 dataawscccloudwatchcompositealarms.DataAwsccCloudwatchCompositeAlarms_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarms.DataAwsccCloudwatchCompositeAlarms.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudwatchcompositealarms"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudwatchcompositealarms"
 
 dataawscccloudwatchcompositealarms.DataAwsccCloudwatchCompositeAlarms_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccloudwatchcompositealarms.DataAwsccCloudwatchCompositeAlarms_IsTerrafor
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarms.DataAwsccCloudwatchCompositeAlarms.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudwatchcompositealarms"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudwatchcompositealarms"
 
 dataawscccloudwatchcompositealarms.DataAwsccCloudwatchCompositeAlarms_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccloudwatchcompositealarms.DataAwsccCloudwatchCompositeAlarms_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarms.DataAwsccCloudwatchCompositeAlarms.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudwatchcompositealarms"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudwatchcompositealarms"
 
 dataawscccloudwatchcompositealarms.DataAwsccCloudwatchCompositeAlarms_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCloudwatchComposi
 
 The id of the existing DataAwsccCloudwatchCompositeAlarms that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudwatch_composite_alarms#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudwatch_composite_alarms#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloudwatchCompositeAlarms.DataAwsccCloudwatchCompositeAlarmsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudwatchcompositealarms"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudwatchcompositealarms"
 
 &dataawscccloudwatchcompositealarms.DataAwsccCloudwatchCompositeAlarmsConfig {
 	Connection: interface{},

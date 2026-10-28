@@ -4,12 +4,12 @@
 
 ### DataAwsccSagemakerModelBiasJobDefinition <a name="DataAwsccSagemakerModelBiasJobDefinition" id="@cdktn/provider-awscc.dataAwsccSagemakerModelBiasJobDefinition.DataAwsccSagemakerModelBiasJobDefinition"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_model_bias_job_definition awscc_sagemaker_model_bias_job_definition}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_model_bias_job_definition awscc_sagemaker_model_bias_job_definition}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelBiasJobDefinition.DataAwsccSagemakerModelBiasJobDefinition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelbiasjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelbiasjobdefinition"
 
 dataawsccsagemakermodelbiasjobdefinition.NewDataAwsccSagemakerModelBiasJobDefinition(scope Construct, id *string, config DataAwsccSagemakerModelBiasJobDefinitionConfig) DataAwsccSagemakerModelBiasJobDefinition
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSagemakerModelBiasJobDefinition.DataAwsccSagemakerModelBiasJobDefinition.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelbiasjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelbiasjobdefinition"
 
 dataawsccsagemakermodelbiasjobdefinition.DataAwsccSagemakerModelBiasJobDefinition_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSagemakerModelBiasJobDefinition.DataAwsccSagemakerModelBiasJobDefinition.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelbiasjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelbiasjobdefinition"
 
 dataawsccsagemakermodelbiasjobdefinition.DataAwsccSagemakerModelBiasJobDefinition_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsagemakermodelbiasjobdefinition.DataAwsccSagemakerModelBiasJobDefinitio
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSagemakerModelBiasJobDefinition.DataAwsccSagemakerModelBiasJobDefinition.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelbiasjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelbiasjobdefinition"
 
 dataawsccsagemakermodelbiasjobdefinition.DataAwsccSagemakerModelBiasJobDefinition_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsagemakermodelbiasjobdefinition.DataAwsccSagemakerModelBiasJobDefinitio
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSagemakerModelBiasJobDefinition.DataAwsccSagemakerModelBiasJobDefinition.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelbiasjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelbiasjobdefinition"
 
 dataawsccsagemakermodelbiasjobdefinition.DataAwsccSagemakerModelBiasJobDefinition_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSagemakerModelBia
 
 The id of the existing DataAwsccSagemakerModelBiasJobDefinition that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_model_bias_job_definition#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_model_bias_job_definition#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -730,7 +730,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelBiasJobDefinition.DataAwsccSagemakerModelBiasJobDefinitionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelbiasjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelbiasjobdefinition"
 
 &dataawsccsagemakermodelbiasjobdefinition.DataAwsccSagemakerModelBiasJobDefinitionConfig {
 	Connection: interface{},
@@ -839,7 +839,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_model_bias_job_definition#id DataAwsccSagemakerModelBiasJobDefinition#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_model_bias_job_definition#id DataAwsccSagemakerModelBiasJobDefinition#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -851,7 +851,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelBiasJobDefinition.DataAwsccSagemakerModelBiasJobDefinitionJobResources.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelbiasjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelbiasjobdefinition"
 
 &dataawsccsagemakermodelbiasjobdefinition.DataAwsccSagemakerModelBiasJobDefinitionJobResources {
 
@@ -864,7 +864,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelBiasJobDefinition.DataAwsccSagemakerModelBiasJobDefinitionJobResourcesClusterConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelbiasjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelbiasjobdefinition"
 
 &dataawsccsagemakermodelbiasjobdefinition.DataAwsccSagemakerModelBiasJobDefinitionJobResourcesClusterConfig {
 
@@ -877,7 +877,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelBiasJobDefinition.DataAwsccSagemakerModelBiasJobDefinitionModelBiasAppSpecification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelbiasjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelbiasjobdefinition"
 
 &dataawsccsagemakermodelbiasjobdefinition.DataAwsccSagemakerModelBiasJobDefinitionModelBiasAppSpecification {
 
@@ -890,7 +890,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelBiasJobDefinition.DataAwsccSagemakerModelBiasJobDefinitionModelBiasBaselineConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelbiasjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelbiasjobdefinition"
 
 &dataawsccsagemakermodelbiasjobdefinition.DataAwsccSagemakerModelBiasJobDefinitionModelBiasBaselineConfig {
 
@@ -903,7 +903,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelBiasJobDefinition.DataAwsccSagemakerModelBiasJobDefinitionModelBiasBaselineConfigConstraintsResource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelbiasjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelbiasjobdefinition"
 
 &dataawsccsagemakermodelbiasjobdefinition.DataAwsccSagemakerModelBiasJobDefinitionModelBiasBaselineConfigConstraintsResource {
 
@@ -916,7 +916,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelBiasJobDefinition.DataAwsccSagemakerModelBiasJobDefinitionModelBiasJobInput.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelbiasjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelbiasjobdefinition"
 
 &dataawsccsagemakermodelbiasjobdefinition.DataAwsccSagemakerModelBiasJobDefinitionModelBiasJobInput {
 
@@ -929,7 +929,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelBiasJobDefinition.DataAwsccSagemakerModelBiasJobDefinitionModelBiasJobInputBatchTransformInput.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelbiasjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelbiasjobdefinition"
 
 &dataawsccsagemakermodelbiasjobdefinition.DataAwsccSagemakerModelBiasJobDefinitionModelBiasJobInputBatchTransformInput {
 
@@ -942,7 +942,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelBiasJobDefinition.DataAwsccSagemakerModelBiasJobDefinitionModelBiasJobInputBatchTransformInputDatasetFormat.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelbiasjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelbiasjobdefinition"
 
 &dataawsccsagemakermodelbiasjobdefinition.DataAwsccSagemakerModelBiasJobDefinitionModelBiasJobInputBatchTransformInputDatasetFormat {
 
@@ -955,7 +955,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelBiasJobDefinition.DataAwsccSagemakerModelBiasJobDefinitionModelBiasJobInputBatchTransformInputDatasetFormatCsv.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelbiasjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelbiasjobdefinition"
 
 &dataawsccsagemakermodelbiasjobdefinition.DataAwsccSagemakerModelBiasJobDefinitionModelBiasJobInputBatchTransformInputDatasetFormatCsv {
 
@@ -968,7 +968,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelBiasJobDefinition.DataAwsccSagemakerModelBiasJobDefinitionModelBiasJobInputBatchTransformInputDatasetFormatJson.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelbiasjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelbiasjobdefinition"
 
 &dataawsccsagemakermodelbiasjobdefinition.DataAwsccSagemakerModelBiasJobDefinitionModelBiasJobInputBatchTransformInputDatasetFormatJson {
 
@@ -981,7 +981,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelBiasJobDefinition.DataAwsccSagemakerModelBiasJobDefinitionModelBiasJobInputEndpointInput.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelbiasjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelbiasjobdefinition"
 
 &dataawsccsagemakermodelbiasjobdefinition.DataAwsccSagemakerModelBiasJobDefinitionModelBiasJobInputEndpointInput {
 
@@ -994,7 +994,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelBiasJobDefinition.DataAwsccSagemakerModelBiasJobDefinitionModelBiasJobInputGroundTruthS3Input.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelbiasjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelbiasjobdefinition"
 
 &dataawsccsagemakermodelbiasjobdefinition.DataAwsccSagemakerModelBiasJobDefinitionModelBiasJobInputGroundTruthS3Input {
 
@@ -1007,7 +1007,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelBiasJobDefinition.DataAwsccSagemakerModelBiasJobDefinitionModelBiasJobOutputConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelbiasjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelbiasjobdefinition"
 
 &dataawsccsagemakermodelbiasjobdefinition.DataAwsccSagemakerModelBiasJobDefinitionModelBiasJobOutputConfig {
 
@@ -1020,7 +1020,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelBiasJobDefinition.DataAwsccSagemakerModelBiasJobDefinitionModelBiasJobOutputConfigMonitoringOutputs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelbiasjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelbiasjobdefinition"
 
 &dataawsccsagemakermodelbiasjobdefinition.DataAwsccSagemakerModelBiasJobDefinitionModelBiasJobOutputConfigMonitoringOutputs {
 
@@ -1033,7 +1033,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelBiasJobDefinition.DataAwsccSagemakerModelBiasJobDefinitionModelBiasJobOutputConfigMonitoringOutputsS3Output.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelbiasjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelbiasjobdefinition"
 
 &dataawsccsagemakermodelbiasjobdefinition.DataAwsccSagemakerModelBiasJobDefinitionModelBiasJobOutputConfigMonitoringOutputsS3Output {
 
@@ -1046,7 +1046,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelBiasJobDefinition.DataAwsccSagemakerModelBiasJobDefinitionNetworkConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelbiasjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelbiasjobdefinition"
 
 &dataawsccsagemakermodelbiasjobdefinition.DataAwsccSagemakerModelBiasJobDefinitionNetworkConfig {
 
@@ -1059,7 +1059,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelBiasJobDefinition.DataAwsccSagemakerModelBiasJobDefinitionNetworkConfigVpcConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelbiasjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelbiasjobdefinition"
 
 &dataawsccsagemakermodelbiasjobdefinition.DataAwsccSagemakerModelBiasJobDefinitionNetworkConfigVpcConfig {
 
@@ -1072,7 +1072,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelBiasJobDefinition.DataAwsccSagemakerModelBiasJobDefinitionStoppingCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelbiasjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelbiasjobdefinition"
 
 &dataawsccsagemakermodelbiasjobdefinition.DataAwsccSagemakerModelBiasJobDefinitionStoppingCondition {
 
@@ -1085,7 +1085,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSagemakerModelBiasJobDefinition.DataAwsccSagemakerModelBiasJobDefinitionTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelbiasjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelbiasjobdefinition"
 
 &dataawsccsagemakermodelbiasjobdefinition.DataAwsccSagemakerModelBiasJobDefinitionTags {
 
@@ -1100,7 +1100,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermode
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelBiasJobDefinition.DataAwsccSagemakerModelBiasJobDefinitionJobResourcesClusterConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelbiasjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelbiasjobdefinition"
 
 dataawsccsagemakermodelbiasjobdefinition.NewDataAwsccSagemakerModelBiasJobDefinitionJobResourcesClusterConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerModelBiasJobDefinitionJobResourcesClusterConfigOutputReference
 ```
@@ -1393,7 +1393,7 @@ func InternalValue() DataAwsccSagemakerModelBiasJobDefinitionJobResourcesCluster
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelBiasJobDefinition.DataAwsccSagemakerModelBiasJobDefinitionJobResourcesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelbiasjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelbiasjobdefinition"
 
 dataawsccsagemakermodelbiasjobdefinition.NewDataAwsccSagemakerModelBiasJobDefinitionJobResourcesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerModelBiasJobDefinitionJobResourcesOutputReference
 ```
@@ -1653,7 +1653,7 @@ func InternalValue() DataAwsccSagemakerModelBiasJobDefinitionJobResources
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelBiasJobDefinition.DataAwsccSagemakerModelBiasJobDefinitionModelBiasAppSpecificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelbiasjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelbiasjobdefinition"
 
 dataawsccsagemakermodelbiasjobdefinition.NewDataAwsccSagemakerModelBiasJobDefinitionModelBiasAppSpecificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerModelBiasJobDefinitionModelBiasAppSpecificationOutputReference
 ```
@@ -1935,7 +1935,7 @@ func InternalValue() DataAwsccSagemakerModelBiasJobDefinitionModelBiasAppSpecifi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelBiasJobDefinition.DataAwsccSagemakerModelBiasJobDefinitionModelBiasBaselineConfigConstraintsResourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelbiasjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelbiasjobdefinition"
 
 dataawsccsagemakermodelbiasjobdefinition.NewDataAwsccSagemakerModelBiasJobDefinitionModelBiasBaselineConfigConstraintsResourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerModelBiasJobDefinitionModelBiasBaselineConfigConstraintsResourceOutputReference
 ```
@@ -2195,7 +2195,7 @@ func InternalValue() DataAwsccSagemakerModelBiasJobDefinitionModelBiasBaselineCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelBiasJobDefinition.DataAwsccSagemakerModelBiasJobDefinitionModelBiasBaselineConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelbiasjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelbiasjobdefinition"
 
 dataawsccsagemakermodelbiasjobdefinition.NewDataAwsccSagemakerModelBiasJobDefinitionModelBiasBaselineConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerModelBiasJobDefinitionModelBiasBaselineConfigOutputReference
 ```
@@ -2466,7 +2466,7 @@ func InternalValue() DataAwsccSagemakerModelBiasJobDefinitionModelBiasBaselineCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelBiasJobDefinition.DataAwsccSagemakerModelBiasJobDefinitionModelBiasJobInputBatchTransformInputDatasetFormatCsvOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelbiasjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelbiasjobdefinition"
 
 dataawsccsagemakermodelbiasjobdefinition.NewDataAwsccSagemakerModelBiasJobDefinitionModelBiasJobInputBatchTransformInputDatasetFormatCsvOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerModelBiasJobDefinitionModelBiasJobInputBatchTransformInputDatasetFormatCsvOutputReference
 ```
@@ -2726,7 +2726,7 @@ func InternalValue() DataAwsccSagemakerModelBiasJobDefinitionModelBiasJobInputBa
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelBiasJobDefinition.DataAwsccSagemakerModelBiasJobDefinitionModelBiasJobInputBatchTransformInputDatasetFormatJsonOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelbiasjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelbiasjobdefinition"
 
 dataawsccsagemakermodelbiasjobdefinition.NewDataAwsccSagemakerModelBiasJobDefinitionModelBiasJobInputBatchTransformInputDatasetFormatJsonOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerModelBiasJobDefinitionModelBiasJobInputBatchTransformInputDatasetFormatJsonOutputReference
 ```
@@ -2986,7 +2986,7 @@ func InternalValue() DataAwsccSagemakerModelBiasJobDefinitionModelBiasJobInputBa
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelBiasJobDefinition.DataAwsccSagemakerModelBiasJobDefinitionModelBiasJobInputBatchTransformInputDatasetFormatOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelbiasjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelbiasjobdefinition"
 
 dataawsccsagemakermodelbiasjobdefinition.NewDataAwsccSagemakerModelBiasJobDefinitionModelBiasJobInputBatchTransformInputDatasetFormatOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerModelBiasJobDefinitionModelBiasJobInputBatchTransformInputDatasetFormatOutputReference
 ```
@@ -3268,7 +3268,7 @@ func InternalValue() DataAwsccSagemakerModelBiasJobDefinitionModelBiasJobInputBa
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelBiasJobDefinition.DataAwsccSagemakerModelBiasJobDefinitionModelBiasJobInputBatchTransformInputOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelbiasjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelbiasjobdefinition"
 
 dataawsccsagemakermodelbiasjobdefinition.NewDataAwsccSagemakerModelBiasJobDefinitionModelBiasJobInputBatchTransformInputOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerModelBiasJobDefinitionModelBiasJobInputBatchTransformInputOutputReference
 ```
@@ -3638,7 +3638,7 @@ func InternalValue() DataAwsccSagemakerModelBiasJobDefinitionModelBiasJobInputBa
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelBiasJobDefinition.DataAwsccSagemakerModelBiasJobDefinitionModelBiasJobInputEndpointInputOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelbiasjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelbiasjobdefinition"
 
 dataawsccsagemakermodelbiasjobdefinition.NewDataAwsccSagemakerModelBiasJobDefinitionModelBiasJobInputEndpointInputOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerModelBiasJobDefinitionModelBiasJobInputEndpointInputOutputReference
 ```
@@ -3997,7 +3997,7 @@ func InternalValue() DataAwsccSagemakerModelBiasJobDefinitionModelBiasJobInputEn
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelBiasJobDefinition.DataAwsccSagemakerModelBiasJobDefinitionModelBiasJobInputGroundTruthS3InputOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelbiasjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelbiasjobdefinition"
 
 dataawsccsagemakermodelbiasjobdefinition.NewDataAwsccSagemakerModelBiasJobDefinitionModelBiasJobInputGroundTruthS3InputOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerModelBiasJobDefinitionModelBiasJobInputGroundTruthS3InputOutputReference
 ```
@@ -4257,7 +4257,7 @@ func InternalValue() DataAwsccSagemakerModelBiasJobDefinitionModelBiasJobInputGr
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelBiasJobDefinition.DataAwsccSagemakerModelBiasJobDefinitionModelBiasJobInputOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelbiasjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelbiasjobdefinition"
 
 dataawsccsagemakermodelbiasjobdefinition.NewDataAwsccSagemakerModelBiasJobDefinitionModelBiasJobInputOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerModelBiasJobDefinitionModelBiasJobInputOutputReference
 ```
@@ -4539,7 +4539,7 @@ func InternalValue() DataAwsccSagemakerModelBiasJobDefinitionModelBiasJobInput
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelBiasJobDefinition.DataAwsccSagemakerModelBiasJobDefinitionModelBiasJobOutputConfigMonitoringOutputsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelbiasjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelbiasjobdefinition"
 
 dataawsccsagemakermodelbiasjobdefinition.NewDataAwsccSagemakerModelBiasJobDefinitionModelBiasJobOutputConfigMonitoringOutputsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSagemakerModelBiasJobDefinitionModelBiasJobOutputConfigMonitoringOutputsList
 ```
@@ -4688,7 +4688,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelBiasJobDefinition.DataAwsccSagemakerModelBiasJobDefinitionModelBiasJobOutputConfigMonitoringOutputsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelbiasjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelbiasjobdefinition"
 
 dataawsccsagemakermodelbiasjobdefinition.NewDataAwsccSagemakerModelBiasJobDefinitionModelBiasJobOutputConfigMonitoringOutputsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSagemakerModelBiasJobDefinitionModelBiasJobOutputConfigMonitoringOutputsOutputReference
 ```
@@ -4966,7 +4966,7 @@ func InternalValue() DataAwsccSagemakerModelBiasJobDefinitionModelBiasJobOutputC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelBiasJobDefinition.DataAwsccSagemakerModelBiasJobDefinitionModelBiasJobOutputConfigMonitoringOutputsS3OutputOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelbiasjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelbiasjobdefinition"
 
 dataawsccsagemakermodelbiasjobdefinition.NewDataAwsccSagemakerModelBiasJobDefinitionModelBiasJobOutputConfigMonitoringOutputsS3OutputOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerModelBiasJobDefinitionModelBiasJobOutputConfigMonitoringOutputsS3OutputOutputReference
 ```
@@ -5248,7 +5248,7 @@ func InternalValue() DataAwsccSagemakerModelBiasJobDefinitionModelBiasJobOutputC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelBiasJobDefinition.DataAwsccSagemakerModelBiasJobDefinitionModelBiasJobOutputConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelbiasjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelbiasjobdefinition"
 
 dataawsccsagemakermodelbiasjobdefinition.NewDataAwsccSagemakerModelBiasJobDefinitionModelBiasJobOutputConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerModelBiasJobDefinitionModelBiasJobOutputConfigOutputReference
 ```
@@ -5519,7 +5519,7 @@ func InternalValue() DataAwsccSagemakerModelBiasJobDefinitionModelBiasJobOutputC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelBiasJobDefinition.DataAwsccSagemakerModelBiasJobDefinitionNetworkConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelbiasjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelbiasjobdefinition"
 
 dataawsccsagemakermodelbiasjobdefinition.NewDataAwsccSagemakerModelBiasJobDefinitionNetworkConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerModelBiasJobDefinitionNetworkConfigOutputReference
 ```
@@ -5801,7 +5801,7 @@ func InternalValue() DataAwsccSagemakerModelBiasJobDefinitionNetworkConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelBiasJobDefinition.DataAwsccSagemakerModelBiasJobDefinitionNetworkConfigVpcConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelbiasjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelbiasjobdefinition"
 
 dataawsccsagemakermodelbiasjobdefinition.NewDataAwsccSagemakerModelBiasJobDefinitionNetworkConfigVpcConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerModelBiasJobDefinitionNetworkConfigVpcConfigOutputReference
 ```
@@ -6072,7 +6072,7 @@ func InternalValue() DataAwsccSagemakerModelBiasJobDefinitionNetworkConfigVpcCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelBiasJobDefinition.DataAwsccSagemakerModelBiasJobDefinitionStoppingConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelbiasjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelbiasjobdefinition"
 
 dataawsccsagemakermodelbiasjobdefinition.NewDataAwsccSagemakerModelBiasJobDefinitionStoppingConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSagemakerModelBiasJobDefinitionStoppingConditionOutputReference
 ```
@@ -6332,7 +6332,7 @@ func InternalValue() DataAwsccSagemakerModelBiasJobDefinitionStoppingCondition
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelBiasJobDefinition.DataAwsccSagemakerModelBiasJobDefinitionTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelbiasjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelbiasjobdefinition"
 
 dataawsccsagemakermodelbiasjobdefinition.NewDataAwsccSagemakerModelBiasJobDefinitionTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSagemakerModelBiasJobDefinitionTagsList
 ```
@@ -6481,7 +6481,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModelBiasJobDefinition.DataAwsccSagemakerModelBiasJobDefinitionTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelbiasjobdefinition"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelbiasjobdefinition"
 
 dataawsccsagemakermodelbiasjobdefinition.NewDataAwsccSagemakerModelBiasJobDefinitionTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSagemakerModelBiasJobDefinitionTagsOutputReference
 ```

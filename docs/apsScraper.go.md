@@ -4,12 +4,12 @@
 
 ### ApsScraper <a name="ApsScraper" id="@cdktn/provider-awscc.apsScraper.ApsScraper"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aps_scraper awscc_aps_scraper}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aps_scraper awscc_aps_scraper}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apsScraper.ApsScraper.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apsscraper"
 
 apsscraper.NewApsScraper(scope Construct, id *string, config ApsScraperConfig) ApsScraper
 ```
@@ -506,7 +506,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.apsScraper.ApsScraper.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apsscraper"
 
 apsscraper.ApsScraper_IsConstruct(x interface{}) *bool
 ```
@@ -538,7 +538,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.apsScraper.ApsScraper.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apsscraper"
 
 apsscraper.ApsScraper_IsTerraformElement(x interface{}) *bool
 ```
@@ -552,7 +552,7 @@ apsscraper.ApsScraper_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.apsScraper.ApsScraper.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apsscraper"
 
 apsscraper.ApsScraper_IsTerraformResource(x interface{}) *bool
 ```
@@ -566,7 +566,7 @@ apsscraper.ApsScraper_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.apsScraper.ApsScraper.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apsscraper"
 
 apsscraper.ApsScraper_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -595,7 +595,7 @@ The construct id used in the generated config for the ApsScraper to import.
 
 The id of the existing ApsScraper that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aps_scraper#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aps_scraper#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -993,7 +993,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.apsScraper.ApsScraperConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apsscraper"
 
 &apsscraper.ApsScraperConfig {
 	Connection: interface{},
@@ -1003,12 +1003,12 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsscraper"
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	Destination: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.apsScraper.ApsScraperDestination,
-	ScrapeConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.apsScraper.ApsScraperScrapeConfiguration,
-	Source: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.apsScraper.ApsScraperSource,
+	Destination: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.apsScraper.ApsScraperDestination,
+	ScrapeConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.apsScraper.ApsScraperScrapeConfiguration,
+	Source: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.apsScraper.ApsScraperSource,
 	Alias: *string,
-	RoleConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.apsScraper.ApsScraperRoleConfiguration,
-	ScraperLoggingConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.apsScraper.ApsScraperScraperLoggingConfiguration,
+	RoleConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.apsScraper.ApsScraperRoleConfiguration,
+	ScraperLoggingConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.apsScraper.ApsScraperScraperLoggingConfiguration,
 	Tags: interface{},
 }
 ```
@@ -1114,7 +1114,7 @@ Destination ApsScraperDestination
 
 Scraper metrics destination.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aps_scraper#destination ApsScraper#destination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aps_scraper#destination ApsScraper#destination}
 
 ---
 
@@ -1128,7 +1128,7 @@ ScrapeConfiguration ApsScraperScrapeConfiguration
 
 Scraper configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aps_scraper#scrape_configuration ApsScraper#scrape_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aps_scraper#scrape_configuration ApsScraper#scrape_configuration}
 
 ---
 
@@ -1142,7 +1142,7 @@ Source ApsScraperSource
 
 Scraper metrics source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aps_scraper#source ApsScraper#source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aps_scraper#source ApsScraper#source}
 
 ---
 
@@ -1156,7 +1156,7 @@ Alias *string
 
 Scraper alias.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aps_scraper#alias ApsScraper#alias}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aps_scraper#alias ApsScraper#alias}
 
 ---
 
@@ -1170,7 +1170,7 @@ RoleConfiguration ApsScraperRoleConfiguration
 
 Role configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aps_scraper#role_configuration ApsScraper#role_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aps_scraper#role_configuration ApsScraper#role_configuration}
 
 ---
 
@@ -1184,7 +1184,7 @@ ScraperLoggingConfiguration ApsScraperScraperLoggingConfiguration
 
 Configuration for scraper logging.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aps_scraper#scraper_logging_configuration ApsScraper#scraper_logging_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aps_scraper#scraper_logging_configuration ApsScraper#scraper_logging_configuration}
 
 ---
 
@@ -1198,7 +1198,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aps_scraper#tags ApsScraper#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aps_scraper#tags ApsScraper#tags}
 
 ---
 
@@ -1207,11 +1207,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.apsScraper.ApsScraperDestination.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apsscraper"
 
 &apsscraper.ApsScraperDestination {
-	AmpConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.apsScraper.ApsScraperDestinationAmpConfiguration,
-	CloudwatchConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.apsScraper.ApsScraperDestinationCloudwatchConfiguration,
+	AmpConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.apsScraper.ApsScraperDestinationAmpConfiguration,
+	CloudwatchConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.apsScraper.ApsScraperDestinationCloudwatchConfiguration,
 }
 ```
 
@@ -1234,7 +1234,7 @@ AmpConfiguration ApsScraperDestinationAmpConfiguration
 
 Configuration for Amazon Managed Prometheus metrics destination.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aps_scraper#amp_configuration ApsScraper#amp_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aps_scraper#amp_configuration ApsScraper#amp_configuration}
 
 ---
 
@@ -1248,7 +1248,7 @@ CloudwatchConfiguration ApsScraperDestinationCloudwatchConfiguration
 
 Configuration for CloudWatch metrics destination.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aps_scraper#cloudwatch_configuration ApsScraper#cloudwatch_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aps_scraper#cloudwatch_configuration ApsScraper#cloudwatch_configuration}
 
 ---
 
@@ -1257,7 +1257,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.apsScraper.ApsScraperDestinationAmpConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apsscraper"
 
 &apsscraper.ApsScraperDestinationAmpConfiguration {
 	WorkspaceArn: *string,
@@ -1282,7 +1282,7 @@ WorkspaceArn *string
 
 ARN of an Amazon Managed Prometheus workspace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aps_scraper#workspace_arn ApsScraper#workspace_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aps_scraper#workspace_arn ApsScraper#workspace_arn}
 
 ---
 
@@ -1291,7 +1291,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.apsScraper.ApsScraperDestinationCloudwatchConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apsscraper"
 
 &apsscraper.ApsScraperDestinationCloudwatchConfiguration {
 	DatasetArn: *string,
@@ -1316,7 +1316,7 @@ DatasetArn *string
 
 ARN of a CloudWatch dataset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aps_scraper#dataset_arn ApsScraper#dataset_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aps_scraper#dataset_arn ApsScraper#dataset_arn}
 
 ---
 
@@ -1325,7 +1325,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.apsScraper.ApsScraperRoleConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apsscraper"
 
 &apsscraper.ApsScraperRoleConfiguration {
 	SourceRoleArn: *string,
@@ -1352,7 +1352,7 @@ SourceRoleArn *string
 
 IAM Role in source account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aps_scraper#source_role_arn ApsScraper#source_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aps_scraper#source_role_arn ApsScraper#source_role_arn}
 
 ---
 
@@ -1366,7 +1366,7 @@ TargetRoleArn *string
 
 IAM Role in the target account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aps_scraper#target_role_arn ApsScraper#target_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aps_scraper#target_role_arn ApsScraper#target_role_arn}
 
 ---
 
@@ -1375,7 +1375,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.apsScraper.ApsScraperScrapeConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apsscraper"
 
 &apsscraper.ApsScraperScrapeConfiguration {
 	ConfigurationBlob: *string,
@@ -1400,7 +1400,7 @@ ConfigurationBlob *string
 
 Prometheus compatible scrape configuration in base64 encoded blob format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aps_scraper#configuration_blob ApsScraper#configuration_blob}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aps_scraper#configuration_blob ApsScraper#configuration_blob}
 
 ---
 
@@ -1409,10 +1409,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.apsScraper.ApsScraperScraperLoggingConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apsscraper"
 
 &apsscraper.ApsScraperScraperLoggingConfiguration {
-	LoggingDestination: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.apsScraper.ApsScraperScraperLoggingConfigurationLoggingDestination,
+	LoggingDestination: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.apsScraper.ApsScraperScraperLoggingConfigurationLoggingDestination,
 	ScraperComponents: interface{},
 }
 ```
@@ -1422,7 +1422,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsscraper"
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.apsScraper.ApsScraperScraperLoggingConfiguration.property.loggingDestination">LoggingDestination</a></code> | <code><a href="#@cdktn/provider-awscc.apsScraper.ApsScraperScraperLoggingConfigurationLoggingDestination">ApsScraperScraperLoggingConfigurationLoggingDestination</a></code> | Destination for scraper logging. |
-| <code><a href="#@cdktn/provider-awscc.apsScraper.ApsScraperScraperLoggingConfiguration.property.scraperComponents">ScraperComponents</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aps_scraper#scraper_components ApsScraper#scraper_components}. |
+| <code><a href="#@cdktn/provider-awscc.apsScraper.ApsScraperScraperLoggingConfiguration.property.scraperComponents">ScraperComponents</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aps_scraper#scraper_components ApsScraper#scraper_components}. |
 
 ---
 
@@ -1436,7 +1436,7 @@ LoggingDestination ApsScraperScraperLoggingConfigurationLoggingDestination
 
 Destination for scraper logging.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aps_scraper#logging_destination ApsScraper#logging_destination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aps_scraper#logging_destination ApsScraper#logging_destination}
 
 ---
 
@@ -1448,7 +1448,7 @@ ScraperComponents interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aps_scraper#scraper_components ApsScraper#scraper_components}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aps_scraper#scraper_components ApsScraper#scraper_components}.
 
 ---
 
@@ -1457,10 +1457,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.apsScraper.ApsScraperScraperLoggingConfigurationLoggingDestination.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apsscraper"
 
 &apsscraper.ApsScraperScraperLoggingConfigurationLoggingDestination {
-	CloudwatchLogs: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.apsScraper.ApsScraperScraperLoggingConfigurationLoggingDestinationCloudwatchLogs,
+	CloudwatchLogs: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.apsScraper.ApsScraperScraperLoggingConfigurationLoggingDestinationCloudwatchLogs,
 }
 ```
 
@@ -1482,7 +1482,7 @@ CloudwatchLogs ApsScraperScraperLoggingConfigurationLoggingDestinationCloudwatch
 
 Represents a cloudwatch logs destination for scraper logging.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aps_scraper#cloudwatch_logs ApsScraper#cloudwatch_logs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aps_scraper#cloudwatch_logs ApsScraper#cloudwatch_logs}
 
 ---
 
@@ -1491,7 +1491,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.apsScraper.ApsScraperScraperLoggingConfigurationLoggingDestinationCloudwatchLogs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apsscraper"
 
 &apsscraper.ApsScraperScraperLoggingConfigurationLoggingDestinationCloudwatchLogs {
 	LogGroupArn: *string,
@@ -1516,7 +1516,7 @@ LogGroupArn *string
 
 ARN of the CloudWatch log group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aps_scraper#log_group_arn ApsScraper#log_group_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aps_scraper#log_group_arn ApsScraper#log_group_arn}
 
 ---
 
@@ -1525,10 +1525,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.apsScraper.ApsScraperScraperLoggingConfigurationScraperComponents.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apsscraper"
 
 &apsscraper.ApsScraperScraperLoggingConfigurationScraperComponents {
-	Config: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.apsScraper.ApsScraperScraperLoggingConfigurationScraperComponentsConfig,
+	Config: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.apsScraper.ApsScraperScraperLoggingConfigurationScraperComponentsConfig,
 	Type: *string,
 }
 ```
@@ -1537,7 +1537,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsscraper"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.apsScraper.ApsScraperScraperLoggingConfigurationScraperComponents.property.config">Config</a></code> | <code><a href="#@cdktn/provider-awscc.apsScraper.ApsScraperScraperLoggingConfigurationScraperComponentsConfig">ApsScraperScraperLoggingConfigurationScraperComponentsConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aps_scraper#config ApsScraper#config}. |
+| <code><a href="#@cdktn/provider-awscc.apsScraper.ApsScraperScraperLoggingConfigurationScraperComponents.property.config">Config</a></code> | <code><a href="#@cdktn/provider-awscc.apsScraper.ApsScraperScraperLoggingConfigurationScraperComponentsConfig">ApsScraperScraperLoggingConfigurationScraperComponentsConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aps_scraper#config ApsScraper#config}. |
 | <code><a href="#@cdktn/provider-awscc.apsScraper.ApsScraperScraperLoggingConfigurationScraperComponents.property.type">Type</a></code> | <code>*string</code> | Type of scraper component. |
 
 ---
@@ -1550,7 +1550,7 @@ Config ApsScraperScraperLoggingConfigurationScraperComponentsConfig
 
 - *Type:* <a href="#@cdktn/provider-awscc.apsScraper.ApsScraperScraperLoggingConfigurationScraperComponentsConfig">ApsScraperScraperLoggingConfigurationScraperComponentsConfig</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aps_scraper#config ApsScraper#config}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aps_scraper#config ApsScraper#config}.
 
 ---
 
@@ -1564,7 +1564,7 @@ Type *string
 
 Type of scraper component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aps_scraper#type ApsScraper#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aps_scraper#type ApsScraper#type}
 
 ---
 
@@ -1573,7 +1573,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.apsScraper.ApsScraperScraperLoggingConfigurationScraperComponentsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apsscraper"
 
 &apsscraper.ApsScraperScraperLoggingConfigurationScraperComponentsConfig {
 	Options: *map[string]*string,
@@ -1584,7 +1584,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsscraper"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.apsScraper.ApsScraperScraperLoggingConfigurationScraperComponentsConfig.property.options">Options</a></code> | <code>*map[string]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aps_scraper#options ApsScraper#options}. |
+| <code><a href="#@cdktn/provider-awscc.apsScraper.ApsScraperScraperLoggingConfigurationScraperComponentsConfig.property.options">Options</a></code> | <code>*map[string]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aps_scraper#options ApsScraper#options}. |
 
 ---
 
@@ -1596,7 +1596,7 @@ Options *map[string]*string
 
 - *Type:* *map[string]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aps_scraper#options ApsScraper#options}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aps_scraper#options ApsScraper#options}.
 
 ---
 
@@ -1605,11 +1605,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.apsScraper.ApsScraperSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apsscraper"
 
 &apsscraper.ApsScraperSource {
-	EksConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.apsScraper.ApsScraperSourceEksConfiguration,
-	VpcConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.apsScraper.ApsScraperSourceVpcConfiguration,
+	EksConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.apsScraper.ApsScraperSourceEksConfiguration,
+	VpcConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.apsScraper.ApsScraperSourceVpcConfiguration,
 }
 ```
 
@@ -1632,7 +1632,7 @@ EksConfiguration ApsScraperSourceEksConfiguration
 
 Configuration for EKS metrics source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aps_scraper#eks_configuration ApsScraper#eks_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aps_scraper#eks_configuration ApsScraper#eks_configuration}
 
 ---
 
@@ -1646,7 +1646,7 @@ VpcConfiguration ApsScraperSourceVpcConfiguration
 
 Configuration for VPC metrics source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aps_scraper#vpc_configuration ApsScraper#vpc_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aps_scraper#vpc_configuration ApsScraper#vpc_configuration}
 
 ---
 
@@ -1655,7 +1655,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.apsScraper.ApsScraperSourceEksConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apsscraper"
 
 &apsscraper.ApsScraperSourceEksConfiguration {
 	ClusterArn: *string,
@@ -1684,7 +1684,7 @@ ClusterArn *string
 
 ARN of an EKS cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aps_scraper#cluster_arn ApsScraper#cluster_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aps_scraper#cluster_arn ApsScraper#cluster_arn}
 
 ---
 
@@ -1698,7 +1698,7 @@ SecurityGroupIds *[]*string
 
 List of security group IDs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aps_scraper#security_group_ids ApsScraper#security_group_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aps_scraper#security_group_ids ApsScraper#security_group_ids}
 
 ---
 
@@ -1712,7 +1712,7 @@ SubnetIds *[]*string
 
 List of subnet IDs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aps_scraper#subnet_ids ApsScraper#subnet_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aps_scraper#subnet_ids ApsScraper#subnet_ids}
 
 ---
 
@@ -1721,7 +1721,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.apsScraper.ApsScraperSourceVpcConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apsscraper"
 
 &apsscraper.ApsScraperSourceVpcConfiguration {
 	SecurityGroupIds: *[]*string,
@@ -1748,7 +1748,7 @@ SecurityGroupIds *[]*string
 
 List of security group IDs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aps_scraper#security_group_ids ApsScraper#security_group_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aps_scraper#security_group_ids ApsScraper#security_group_ids}
 
 ---
 
@@ -1762,7 +1762,7 @@ SubnetIds *[]*string
 
 List of subnet IDs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aps_scraper#subnet_ids ApsScraper#subnet_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aps_scraper#subnet_ids ApsScraper#subnet_ids}
 
 ---
 
@@ -1771,7 +1771,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.apsScraper.ApsScraperTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apsscraper"
 
 &apsscraper.ApsScraperTags {
 	Key: *string,
@@ -1800,7 +1800,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aps_scraper#key ApsScraper#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aps_scraper#key ApsScraper#key}
 
 ---
 
@@ -1816,7 +1816,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aps_scraper#value ApsScraper#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aps_scraper#value ApsScraper#value}
 
 ---
 
@@ -1827,7 +1827,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apsScraper.ApsScraperDestinationAmpConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apsscraper"
 
 apsscraper.NewApsScraperDestinationAmpConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApsScraperDestinationAmpConfigurationOutputReference
 ```
@@ -2105,7 +2105,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apsScraper.ApsScraperDestinationCloudwatchConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apsscraper"
 
 apsscraper.NewApsScraperDestinationCloudwatchConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApsScraperDestinationCloudwatchConfigurationOutputReference
 ```
@@ -2383,7 +2383,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apsScraper.ApsScraperDestinationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apsscraper"
 
 apsscraper.NewApsScraperDestinationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApsScraperDestinationOutputReference
 ```
@@ -2716,7 +2716,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apsScraper.ApsScraperRoleConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apsscraper"
 
 apsscraper.NewApsScraperRoleConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApsScraperRoleConfigurationOutputReference
 ```
@@ -3023,7 +3023,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apsScraper.ApsScraperScrapeConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apsscraper"
 
 apsscraper.NewApsScraperScrapeConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApsScraperScrapeConfigurationOutputReference
 ```
@@ -3301,7 +3301,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apsScraper.ApsScraperScraperLoggingConfigurationLoggingDestinationCloudwatchLogsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apsscraper"
 
 apsscraper.NewApsScraperScraperLoggingConfigurationLoggingDestinationCloudwatchLogsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApsScraperScraperLoggingConfigurationLoggingDestinationCloudwatchLogsOutputReference
 ```
@@ -3579,7 +3579,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apsScraper.ApsScraperScraperLoggingConfigurationLoggingDestinationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apsscraper"
 
 apsscraper.NewApsScraperScraperLoggingConfigurationLoggingDestinationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApsScraperScraperLoggingConfigurationLoggingDestinationOutputReference
 ```
@@ -3870,7 +3870,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apsScraper.ApsScraperScraperLoggingConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apsscraper"
 
 apsscraper.NewApsScraperScraperLoggingConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApsScraperScraperLoggingConfigurationOutputReference
 ```
@@ -4203,7 +4203,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apsScraper.ApsScraperScraperLoggingConfigurationScraperComponentsConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apsscraper"
 
 apsscraper.NewApsScraperScraperLoggingConfigurationScraperComponentsConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApsScraperScraperLoggingConfigurationScraperComponentsConfigOutputReference
 ```
@@ -4481,7 +4481,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apsScraper.ApsScraperScraperLoggingConfigurationScraperComponentsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apsscraper"
 
 apsscraper.NewApsScraperScraperLoggingConfigurationScraperComponentsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApsScraperScraperLoggingConfigurationScraperComponentsList
 ```
@@ -4641,7 +4641,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apsScraper.ApsScraperScraperLoggingConfigurationScraperComponentsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apsscraper"
 
 apsscraper.NewApsScraperScraperLoggingConfigurationScraperComponentsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ApsScraperScraperLoggingConfigurationScraperComponentsOutputReference
 ```
@@ -4979,7 +4979,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apsScraper.ApsScraperSourceEksConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apsscraper"
 
 apsscraper.NewApsScraperSourceEksConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApsScraperSourceEksConfigurationOutputReference
 ```
@@ -5315,7 +5315,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apsScraper.ApsScraperSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apsscraper"
 
 apsscraper.NewApsScraperSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApsScraperSourceOutputReference
 ```
@@ -5648,7 +5648,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apsScraper.ApsScraperSourceVpcConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apsscraper"
 
 apsscraper.NewApsScraperSourceVpcConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApsScraperSourceVpcConfigurationOutputReference
 ```
@@ -5955,7 +5955,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apsScraper.ApsScraperTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apsscraper"
 
 apsscraper.NewApsScraperTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApsScraperTagsList
 ```
@@ -6115,7 +6115,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apsScraper.ApsScraperTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsscraper"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apsscraper"
 
 apsscraper.NewApsScraperTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ApsScraperTagsOutputReference
 ```

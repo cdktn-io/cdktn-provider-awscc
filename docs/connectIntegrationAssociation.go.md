@@ -4,12 +4,12 @@
 
 ### ConnectIntegrationAssociation <a name="ConnectIntegrationAssociation" id="@cdktn/provider-awscc.connectIntegrationAssociation.ConnectIntegrationAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_integration_association awscc_connect_integration_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_integration_association awscc_connect_integration_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectIntegrationAssociation.ConnectIntegrationAssociation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectintegrationassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectintegrationassociation"
 
 connectintegrationassociation.NewConnectIntegrationAssociation(scope Construct, id *string, config ConnectIntegrationAssociationConfig) ConnectIntegrationAssociation
 ```
@@ -441,7 +441,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.connectIntegrationAssociation.ConnectIntegrationAssociation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectintegrationassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectintegrationassociation"
 
 connectintegrationassociation.ConnectIntegrationAssociation_IsConstruct(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.connectIntegrationAssociation.ConnectIntegrationAssociation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectintegrationassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectintegrationassociation"
 
 connectintegrationassociation.ConnectIntegrationAssociation_IsTerraformElement(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ connectintegrationassociation.ConnectIntegrationAssociation_IsTerraformElement(x
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.connectIntegrationAssociation.ConnectIntegrationAssociation.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectintegrationassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectintegrationassociation"
 
 connectintegrationassociation.ConnectIntegrationAssociation_IsTerraformResource(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ connectintegrationassociation.ConnectIntegrationAssociation_IsTerraformResource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.connectIntegrationAssociation.ConnectIntegrationAssociation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectintegrationassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectintegrationassociation"
 
 connectintegrationassociation.ConnectIntegrationAssociation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -530,7 +530,7 @@ The construct id used in the generated config for the ConnectIntegrationAssociat
 
 The id of the existing ConnectIntegrationAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_integration_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_integration_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -906,7 +906,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectIntegrationAssociation.ConnectIntegrationAssociationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectintegrationassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectintegrationassociation"
 
 &connectintegrationassociation.ConnectIntegrationAssociationConfig {
 	Connection: interface{},
@@ -1027,7 +1027,7 @@ InstanceId *string
 
 Amazon Connect instance identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_integration_association#instance_id ConnectIntegrationAssociation#instance_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_integration_association#instance_id ConnectIntegrationAssociation#instance_id}
 
 ---
 
@@ -1041,7 +1041,7 @@ IntegrationArn *string
 
 ARN of Integration being associated with the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_integration_association#integration_arn ConnectIntegrationAssociation#integration_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_integration_association#integration_arn ConnectIntegrationAssociation#integration_arn}
 
 ---
 
@@ -1055,7 +1055,7 @@ IntegrationType *string
 
 Specifies the integration type to be associated with the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_integration_association#integration_type ConnectIntegrationAssociation#integration_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_integration_association#integration_type ConnectIntegrationAssociation#integration_type}
 
 ---
 
@@ -1069,7 +1069,7 @@ SourceApplicationName *string
 
 The name of the external application. This is only supported for the EVENT integration type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_integration_association#source_application_name ConnectIntegrationAssociation#source_application_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_integration_association#source_application_name ConnectIntegrationAssociation#source_application_name}
 
 ---
 
@@ -1083,7 +1083,7 @@ SourceApplicationUrl *string
 
 The URL for the external application. This is only supported for the EVENT integration type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_integration_association#source_application_url ConnectIntegrationAssociation#source_application_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_integration_association#source_application_url ConnectIntegrationAssociation#source_application_url}
 
 ---
 
@@ -1097,7 +1097,7 @@ SourceType *string
 
 The type of the data source. This is only supported for the EVENT integration type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_integration_association#source_type ConnectIntegrationAssociation#source_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_integration_association#source_type ConnectIntegrationAssociation#source_type}
 
 ---
 
@@ -1111,7 +1111,7 @@ Tags interface{}
 
 The tags used to organize, track, or control access for this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_integration_association#tags ConnectIntegrationAssociation#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_integration_association#tags ConnectIntegrationAssociation#tags}
 
 ---
 
@@ -1120,7 +1120,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectIntegrationAssociation.ConnectIntegrationAssociationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectintegrationassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectintegrationassociation"
 
 &connectintegrationassociation.ConnectIntegrationAssociationTags {
 	Key: *string,
@@ -1147,7 +1147,7 @@ Key *string
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_integration_association#key ConnectIntegrationAssociation#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_integration_association#key ConnectIntegrationAssociation#key}
 
 ---
 
@@ -1161,7 +1161,7 @@ Value *string
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_integration_association#value ConnectIntegrationAssociation#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_integration_association#value ConnectIntegrationAssociation#value}
 
 ---
 
@@ -1172,7 +1172,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectIntegrationAssociation.ConnectIntegrationAssociationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectintegrationassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectintegrationassociation"
 
 connectintegrationassociation.NewConnectIntegrationAssociationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ConnectIntegrationAssociationTagsList
 ```
@@ -1332,7 +1332,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectIntegrationAssociation.ConnectIntegrationAssociationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectintegrationassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectintegrationassociation"
 
 connectintegrationassociation.NewConnectIntegrationAssociationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ConnectIntegrationAssociationTagsOutputReference
 ```

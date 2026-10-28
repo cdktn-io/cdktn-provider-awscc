@@ -4,12 +4,12 @@
 
 ### Ec2IPv4Pool <a name="Ec2IPv4Pool" id="@cdktn/provider-awscc.ec2IPv4Pool.Ec2IPv4Pool"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_i_pv_4_pool awscc_ec2_i_pv_4_pool}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_i_pv_4_pool awscc_ec2_i_pv_4_pool}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2IPv4Pool.Ec2IPv4Pool.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2ipv4pool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2ipv4pool"
 
 ec2ipv4pool.NewEc2IPv4Pool(scope Construct, id *string, config Ec2IPv4PoolConfig) Ec2IPv4Pool
 ```
@@ -420,7 +420,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.ec2IPv4Pool.Ec2IPv4Pool.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2ipv4pool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2ipv4pool"
 
 ec2ipv4pool.Ec2IPv4Pool_IsConstruct(x interface{}) *bool
 ```
@@ -452,7 +452,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.ec2IPv4Pool.Ec2IPv4Pool.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2ipv4pool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2ipv4pool"
 
 ec2ipv4pool.Ec2IPv4Pool_IsTerraformElement(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ ec2ipv4pool.Ec2IPv4Pool_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.ec2IPv4Pool.Ec2IPv4Pool.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2ipv4pool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2ipv4pool"
 
 ec2ipv4pool.Ec2IPv4Pool_IsTerraformResource(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ ec2ipv4pool.Ec2IPv4Pool_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.ec2IPv4Pool.Ec2IPv4Pool.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2ipv4pool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2ipv4pool"
 
 ec2ipv4pool.Ec2IPv4Pool_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -509,7 +509,7 @@ The construct id used in the generated config for the Ec2IPv4Pool to import.
 
 The id of the existing Ec2IPv4Pool that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_i_pv_4_pool#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_i_pv_4_pool#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -808,7 +808,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2IPv4Pool.Ec2IPv4PoolConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2ipv4pool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2ipv4pool"
 
 &ec2ipv4pool.Ec2IPv4PoolConfig {
 	Connection: interface{},
@@ -917,7 +917,7 @@ Tags interface{}
 
 Any tags assigned to the public IPv4 pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_i_pv_4_pool#tags Ec2IPv4Pool#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_i_pv_4_pool#tags Ec2IPv4Pool#tags}
 
 ---
 
@@ -926,7 +926,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2IPv4Pool.Ec2IPv4PoolTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2ipv4pool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2ipv4pool"
 
 &ec2ipv4pool.Ec2IPv4PoolTags {
 	Key: *string,
@@ -953,7 +953,7 @@ Key *string
 
 The tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_i_pv_4_pool#key Ec2IPv4Pool#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_i_pv_4_pool#key Ec2IPv4Pool#key}
 
 ---
 
@@ -967,7 +967,7 @@ Value *string
 
 The tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_i_pv_4_pool#value Ec2IPv4Pool#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_i_pv_4_pool#value Ec2IPv4Pool#value}
 
 ---
 
@@ -978,7 +978,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2IPv4Pool.Ec2IPv4PoolTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2ipv4pool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2ipv4pool"
 
 ec2ipv4pool.NewEc2IPv4PoolTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Ec2IPv4PoolTagsList
 ```
@@ -1138,7 +1138,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2IPv4Pool.Ec2IPv4PoolTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2ipv4pool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2ipv4pool"
 
 ec2ipv4pool.NewEc2IPv4PoolTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) Ec2IPv4PoolTagsOutputReference
 ```

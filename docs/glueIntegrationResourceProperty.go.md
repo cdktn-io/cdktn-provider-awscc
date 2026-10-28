@@ -4,12 +4,12 @@
 
 ### GlueIntegrationResourceProperty <a name="GlueIntegrationResourceProperty" id="@cdktn/provider-awscc.glueIntegrationResourceProperty.GlueIntegrationResourceProperty"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_integration_resource_property awscc_glue_integration_resource_property}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_integration_resource_property awscc_glue_integration_resource_property}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueIntegrationResourceProperty.GlueIntegrationResourceProperty.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueintegrationresourceproperty"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueintegrationresourceproperty"
 
 glueintegrationresourceproperty.NewGlueIntegrationResourceProperty(scope Construct, id *string, config GlueIntegrationResourcePropertyConfig) GlueIntegrationResourceProperty
 ```
@@ -460,7 +460,7 @@ func ResetTargetProcessingProperties()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.glueIntegrationResourceProperty.GlueIntegrationResourceProperty.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueintegrationresourceproperty"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueintegrationresourceproperty"
 
 glueintegrationresourceproperty.GlueIntegrationResourceProperty_IsConstruct(x interface{}) *bool
 ```
@@ -492,7 +492,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.glueIntegrationResourceProperty.GlueIntegrationResourceProperty.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueintegrationresourceproperty"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueintegrationresourceproperty"
 
 glueintegrationresourceproperty.GlueIntegrationResourceProperty_IsTerraformElement(x interface{}) *bool
 ```
@@ -506,7 +506,7 @@ glueintegrationresourceproperty.GlueIntegrationResourceProperty_IsTerraformEleme
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.glueIntegrationResourceProperty.GlueIntegrationResourceProperty.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueintegrationresourceproperty"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueintegrationresourceproperty"
 
 glueintegrationresourceproperty.GlueIntegrationResourceProperty_IsTerraformResource(x interface{}) *bool
 ```
@@ -520,7 +520,7 @@ glueintegrationresourceproperty.GlueIntegrationResourceProperty_IsTerraformResou
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.glueIntegrationResourceProperty.GlueIntegrationResourceProperty.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueintegrationresourceproperty"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueintegrationresourceproperty"
 
 glueintegrationresourceproperty.GlueIntegrationResourceProperty_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -549,7 +549,7 @@ The construct id used in the generated config for the GlueIntegrationResourcePro
 
 The id of the existing GlueIntegrationResourceProperty that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_integration_resource_property#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_integration_resource_property#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -859,7 +859,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueIntegrationResourceProperty.GlueIntegrationResourcePropertyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueintegrationresourceproperty"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueintegrationresourceproperty"
 
 &glueintegrationresourceproperty.GlueIntegrationResourcePropertyConfig {
 	Connection: interface{},
@@ -870,9 +870,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueintegrationresourc
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	ResourceArn: *string,
-	SourceProcessingProperties: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueIntegrationResourceProperty.GlueIntegrationResourcePropertySourceProcessingProperties,
+	SourceProcessingProperties: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueIntegrationResourceProperty.GlueIntegrationResourcePropertySourceProcessingProperties,
 	Tags: interface{},
-	TargetProcessingProperties: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueIntegrationResourceProperty.GlueIntegrationResourcePropertyTargetProcessingProperties,
+	TargetProcessingProperties: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueIntegrationResourceProperty.GlueIntegrationResourcePropertyTargetProcessingProperties,
 }
 ```
 
@@ -974,7 +974,7 @@ ResourceArn *string
 
 The connection ARN of the source, or the database ARN of the target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_integration_resource_property#resource_arn GlueIntegrationResourceProperty#resource_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_integration_resource_property#resource_arn GlueIntegrationResourceProperty#resource_arn}
 
 ---
 
@@ -988,7 +988,7 @@ SourceProcessingProperties GlueIntegrationResourcePropertySourceProcessingProper
 
 The resource properties associated with the integration source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_integration_resource_property#source_processing_properties GlueIntegrationResourceProperty#source_processing_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_integration_resource_property#source_processing_properties GlueIntegrationResourceProperty#source_processing_properties}
 
 ---
 
@@ -1002,7 +1002,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_integration_resource_property#tags GlueIntegrationResourceProperty#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_integration_resource_property#tags GlueIntegrationResourceProperty#tags}
 
 ---
 
@@ -1016,7 +1016,7 @@ TargetProcessingProperties GlueIntegrationResourcePropertyTargetProcessingProper
 
 The resource properties associated with the integration target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_integration_resource_property#target_processing_properties GlueIntegrationResourceProperty#target_processing_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_integration_resource_property#target_processing_properties GlueIntegrationResourceProperty#target_processing_properties}
 
 ---
 
@@ -1025,7 +1025,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueIntegrationResourceProperty.GlueIntegrationResourcePropertySourceProcessingProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueintegrationresourceproperty"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueintegrationresourceproperty"
 
 &glueintegrationresourceproperty.GlueIntegrationResourcePropertySourceProcessingProperties {
 	RoleArn: *string,
@@ -1050,7 +1050,7 @@ RoleArn *string
 
 The IAM role to access the Glue connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_integration_resource_property#role_arn GlueIntegrationResourceProperty#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_integration_resource_property#role_arn GlueIntegrationResourceProperty#role_arn}
 
 ---
 
@@ -1059,7 +1059,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueIntegrationResourceProperty.GlueIntegrationResourcePropertyTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueintegrationresourceproperty"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueintegrationresourceproperty"
 
 &glueintegrationresourceproperty.GlueIntegrationResourcePropertyTags {
 	Key: *string,
@@ -1088,7 +1088,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_integration_resource_property#key GlueIntegrationResourceProperty#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_integration_resource_property#key GlueIntegrationResourceProperty#key}
 
 ---
 
@@ -1104,7 +1104,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_integration_resource_property#value GlueIntegrationResourceProperty#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_integration_resource_property#value GlueIntegrationResourceProperty#value}
 
 ---
 
@@ -1113,7 +1113,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueIntegrationResourceProperty.GlueIntegrationResourcePropertyTargetProcessingProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueintegrationresourceproperty"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueintegrationresourceproperty"
 
 &glueintegrationresourceproperty.GlueIntegrationResourcePropertyTargetProcessingProperties {
 	ConnectionName: *string,
@@ -1144,7 +1144,7 @@ ConnectionName *string
 
 The Glue network connection to configure the Glue job running in the customer VPC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_integration_resource_property#connection_name GlueIntegrationResourceProperty#connection_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_integration_resource_property#connection_name GlueIntegrationResourceProperty#connection_name}
 
 ---
 
@@ -1158,7 +1158,7 @@ EventBusArn *string
 
 The ARN of an Eventbridge event bus to receive the integration status notification.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_integration_resource_property#event_bus_arn GlueIntegrationResourceProperty#event_bus_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_integration_resource_property#event_bus_arn GlueIntegrationResourceProperty#event_bus_arn}
 
 ---
 
@@ -1172,7 +1172,7 @@ KmsArn *string
 
 The ARN of the KMS key used for encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_integration_resource_property#kms_arn GlueIntegrationResourceProperty#kms_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_integration_resource_property#kms_arn GlueIntegrationResourceProperty#kms_arn}
 
 ---
 
@@ -1186,7 +1186,7 @@ RoleArn *string
 
 The IAM role to access the Glue database.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_integration_resource_property#role_arn GlueIntegrationResourceProperty#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_integration_resource_property#role_arn GlueIntegrationResourceProperty#role_arn}
 
 ---
 
@@ -1197,7 +1197,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueIntegrationResourceProperty.GlueIntegrationResourcePropertySourceProcessingPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueintegrationresourceproperty"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueintegrationresourceproperty"
 
 glueintegrationresourceproperty.NewGlueIntegrationResourcePropertySourceProcessingPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueIntegrationResourcePropertySourceProcessingPropertiesOutputReference
 ```
@@ -1475,7 +1475,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueIntegrationResourceProperty.GlueIntegrationResourcePropertyTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueintegrationresourceproperty"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueintegrationresourceproperty"
 
 glueintegrationresourceproperty.NewGlueIntegrationResourcePropertyTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GlueIntegrationResourcePropertyTagsList
 ```
@@ -1635,7 +1635,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueIntegrationResourceProperty.GlueIntegrationResourcePropertyTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueintegrationresourceproperty"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueintegrationresourceproperty"
 
 glueintegrationresourceproperty.NewGlueIntegrationResourcePropertyTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GlueIntegrationResourcePropertyTagsOutputReference
 ```
@@ -1960,7 +1960,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueIntegrationResourceProperty.GlueIntegrationResourcePropertyTargetProcessingPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueintegrationresourceproperty"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueintegrationresourceproperty"
 
 glueintegrationresourceproperty.NewGlueIntegrationResourcePropertyTargetProcessingPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueIntegrationResourcePropertyTargetProcessingPropertiesOutputReference
 ```

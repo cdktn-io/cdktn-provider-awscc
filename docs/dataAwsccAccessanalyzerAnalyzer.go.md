@@ -4,12 +4,12 @@
 
 ### DataAwsccAccessanalyzerAnalyzer <a name="DataAwsccAccessanalyzerAnalyzer" id="@cdktn/provider-awscc.dataAwsccAccessanalyzerAnalyzer.DataAwsccAccessanalyzerAnalyzer"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/accessanalyzer_analyzer awscc_accessanalyzer_analyzer}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/accessanalyzer_analyzer awscc_accessanalyzer_analyzer}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAccessanalyzerAnalyzer.DataAwsccAccessanalyzerAnalyzer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccessanalyzeranalyzer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaccessanalyzeranalyzer"
 
 dataawsccaccessanalyzeranalyzer.NewDataAwsccAccessanalyzerAnalyzer(scope Construct, id *string, config DataAwsccAccessanalyzerAnalyzerConfig) DataAwsccAccessanalyzerAnalyzer
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccAccessanalyzerAnalyzer.DataAwsccAccessanalyzerAnalyzer.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccessanalyzeranalyzer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaccessanalyzeranalyzer"
 
 dataawsccaccessanalyzeranalyzer.DataAwsccAccessanalyzerAnalyzer_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccAccessanalyzerAnalyzer.DataAwsccAccessanalyzerAnalyzer.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccessanalyzeranalyzer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaccessanalyzeranalyzer"
 
 dataawsccaccessanalyzeranalyzer.DataAwsccAccessanalyzerAnalyzer_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccaccessanalyzeranalyzer.DataAwsccAccessanalyzerAnalyzer_IsTerraformEleme
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccAccessanalyzerAnalyzer.DataAwsccAccessanalyzerAnalyzer.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccessanalyzeranalyzer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaccessanalyzeranalyzer"
 
 dataawsccaccessanalyzeranalyzer.DataAwsccAccessanalyzerAnalyzer_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccaccessanalyzeranalyzer.DataAwsccAccessanalyzerAnalyzer_IsTerraformDataS
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccAccessanalyzerAnalyzer.DataAwsccAccessanalyzerAnalyzer.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccessanalyzeranalyzer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaccessanalyzeranalyzer"
 
 dataawsccaccessanalyzeranalyzer.DataAwsccAccessanalyzerAnalyzer_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccAccessanalyzerAna
 
 The id of the existing DataAwsccAccessanalyzerAnalyzer that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/accessanalyzer_analyzer#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/accessanalyzer_analyzer#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -653,7 +653,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAccessanalyzerAnalyzer.DataAwsccAccessanalyzerAnalyzerAnalyzerConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccessanalyzeranalyzer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaccessanalyzeranalyzer"
 
 &dataawsccaccessanalyzeranalyzer.DataAwsccAccessanalyzerAnalyzerAnalyzerConfiguration {
 
@@ -666,7 +666,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccessanalyze
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAccessanalyzerAnalyzer.DataAwsccAccessanalyzerAnalyzerAnalyzerConfigurationInternalAccessConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccessanalyzeranalyzer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaccessanalyzeranalyzer"
 
 &dataawsccaccessanalyzeranalyzer.DataAwsccAccessanalyzerAnalyzerAnalyzerConfigurationInternalAccessConfiguration {
 
@@ -679,7 +679,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccessanalyze
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAccessanalyzerAnalyzer.DataAwsccAccessanalyzerAnalyzerAnalyzerConfigurationInternalAccessConfigurationInternalAccessAnalysisRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccessanalyzeranalyzer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaccessanalyzeranalyzer"
 
 &dataawsccaccessanalyzeranalyzer.DataAwsccAccessanalyzerAnalyzerAnalyzerConfigurationInternalAccessConfigurationInternalAccessAnalysisRule {
 
@@ -692,7 +692,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccessanalyze
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAccessanalyzerAnalyzer.DataAwsccAccessanalyzerAnalyzerAnalyzerConfigurationInternalAccessConfigurationInternalAccessAnalysisRuleInclusions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccessanalyzeranalyzer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaccessanalyzeranalyzer"
 
 &dataawsccaccessanalyzeranalyzer.DataAwsccAccessanalyzerAnalyzerAnalyzerConfigurationInternalAccessConfigurationInternalAccessAnalysisRuleInclusions {
 
@@ -705,7 +705,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccessanalyze
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAccessanalyzerAnalyzer.DataAwsccAccessanalyzerAnalyzerAnalyzerConfigurationUnusedAccessConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccessanalyzeranalyzer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaccessanalyzeranalyzer"
 
 &dataawsccaccessanalyzeranalyzer.DataAwsccAccessanalyzerAnalyzerAnalyzerConfigurationUnusedAccessConfiguration {
 
@@ -718,7 +718,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccessanalyze
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAccessanalyzerAnalyzer.DataAwsccAccessanalyzerAnalyzerAnalyzerConfigurationUnusedAccessConfigurationAnalysisRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccessanalyzeranalyzer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaccessanalyzeranalyzer"
 
 &dataawsccaccessanalyzeranalyzer.DataAwsccAccessanalyzerAnalyzerAnalyzerConfigurationUnusedAccessConfigurationAnalysisRule {
 
@@ -731,7 +731,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccessanalyze
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAccessanalyzerAnalyzer.DataAwsccAccessanalyzerAnalyzerAnalyzerConfigurationUnusedAccessConfigurationAnalysisRuleExclusions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccessanalyzeranalyzer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaccessanalyzeranalyzer"
 
 &dataawsccaccessanalyzeranalyzer.DataAwsccAccessanalyzerAnalyzerAnalyzerConfigurationUnusedAccessConfigurationAnalysisRuleExclusions {
 
@@ -744,7 +744,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccessanalyze
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAccessanalyzerAnalyzer.DataAwsccAccessanalyzerAnalyzerAnalyzerConfigurationUnusedAccessConfigurationAnalysisRuleExclusionsResourceTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccessanalyzeranalyzer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaccessanalyzeranalyzer"
 
 &dataawsccaccessanalyzeranalyzer.DataAwsccAccessanalyzerAnalyzerAnalyzerConfigurationUnusedAccessConfigurationAnalysisRuleExclusionsResourceTags {
 
@@ -757,7 +757,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccessanalyze
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAccessanalyzerAnalyzer.DataAwsccAccessanalyzerAnalyzerArchiveRules.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccessanalyzeranalyzer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaccessanalyzeranalyzer"
 
 &dataawsccaccessanalyzeranalyzer.DataAwsccAccessanalyzerAnalyzerArchiveRules {
 
@@ -770,7 +770,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccessanalyze
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAccessanalyzerAnalyzer.DataAwsccAccessanalyzerAnalyzerArchiveRulesFilter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccessanalyzeranalyzer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaccessanalyzeranalyzer"
 
 &dataawsccaccessanalyzeranalyzer.DataAwsccAccessanalyzerAnalyzerArchiveRulesFilter {
 
@@ -783,7 +783,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccessanalyze
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAccessanalyzerAnalyzer.DataAwsccAccessanalyzerAnalyzerConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccessanalyzeranalyzer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaccessanalyzeranalyzer"
 
 &dataawsccaccessanalyzeranalyzer.DataAwsccAccessanalyzerAnalyzerConfig {
 	Connection: interface{},
@@ -892,7 +892,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/accessanalyzer_analyzer#id DataAwsccAccessanalyzerAnalyzer#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/accessanalyzer_analyzer#id DataAwsccAccessanalyzerAnalyzer#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -904,7 +904,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAccessanalyzerAnalyzer.DataAwsccAccessanalyzerAnalyzerTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccessanalyzeranalyzer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaccessanalyzeranalyzer"
 
 &dataawsccaccessanalyzeranalyzer.DataAwsccAccessanalyzerAnalyzerTags {
 
@@ -919,7 +919,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccessanalyze
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAccessanalyzerAnalyzer.DataAwsccAccessanalyzerAnalyzerAnalyzerConfigurationInternalAccessConfigurationInternalAccessAnalysisRuleInclusionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccessanalyzeranalyzer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaccessanalyzeranalyzer"
 
 dataawsccaccessanalyzeranalyzer.NewDataAwsccAccessanalyzerAnalyzerAnalyzerConfigurationInternalAccessConfigurationInternalAccessAnalysisRuleInclusionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccAccessanalyzerAnalyzerAnalyzerConfigurationInternalAccessConfigurationInternalAccessAnalysisRuleInclusionsList
 ```
@@ -1068,7 +1068,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAccessanalyzerAnalyzer.DataAwsccAccessanalyzerAnalyzerAnalyzerConfigurationInternalAccessConfigurationInternalAccessAnalysisRuleInclusionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccessanalyzeranalyzer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaccessanalyzeranalyzer"
 
 dataawsccaccessanalyzeranalyzer.NewDataAwsccAccessanalyzerAnalyzerAnalyzerConfigurationInternalAccessConfigurationInternalAccessAnalysisRuleInclusionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccAccessanalyzerAnalyzerAnalyzerConfigurationInternalAccessConfigurationInternalAccessAnalysisRuleInclusionsOutputReference
 ```
@@ -1368,7 +1368,7 @@ func InternalValue() DataAwsccAccessanalyzerAnalyzerAnalyzerConfigurationInterna
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAccessanalyzerAnalyzer.DataAwsccAccessanalyzerAnalyzerAnalyzerConfigurationInternalAccessConfigurationInternalAccessAnalysisRuleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccessanalyzeranalyzer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaccessanalyzeranalyzer"
 
 dataawsccaccessanalyzeranalyzer.NewDataAwsccAccessanalyzerAnalyzerAnalyzerConfigurationInternalAccessConfigurationInternalAccessAnalysisRuleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAccessanalyzerAnalyzerAnalyzerConfigurationInternalAccessConfigurationInternalAccessAnalysisRuleOutputReference
 ```
@@ -1628,7 +1628,7 @@ func InternalValue() DataAwsccAccessanalyzerAnalyzerAnalyzerConfigurationInterna
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAccessanalyzerAnalyzer.DataAwsccAccessanalyzerAnalyzerAnalyzerConfigurationInternalAccessConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccessanalyzeranalyzer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaccessanalyzeranalyzer"
 
 dataawsccaccessanalyzeranalyzer.NewDataAwsccAccessanalyzerAnalyzerAnalyzerConfigurationInternalAccessConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAccessanalyzerAnalyzerAnalyzerConfigurationInternalAccessConfigurationOutputReference
 ```
@@ -1888,7 +1888,7 @@ func InternalValue() DataAwsccAccessanalyzerAnalyzerAnalyzerConfigurationInterna
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAccessanalyzerAnalyzer.DataAwsccAccessanalyzerAnalyzerAnalyzerConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccessanalyzeranalyzer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaccessanalyzeranalyzer"
 
 dataawsccaccessanalyzeranalyzer.NewDataAwsccAccessanalyzerAnalyzerAnalyzerConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAccessanalyzerAnalyzerAnalyzerConfigurationOutputReference
 ```
@@ -2159,7 +2159,7 @@ func InternalValue() DataAwsccAccessanalyzerAnalyzerAnalyzerConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAccessanalyzerAnalyzer.DataAwsccAccessanalyzerAnalyzerAnalyzerConfigurationUnusedAccessConfigurationAnalysisRuleExclusionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccessanalyzeranalyzer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaccessanalyzeranalyzer"
 
 dataawsccaccessanalyzeranalyzer.NewDataAwsccAccessanalyzerAnalyzerAnalyzerConfigurationUnusedAccessConfigurationAnalysisRuleExclusionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccAccessanalyzerAnalyzerAnalyzerConfigurationUnusedAccessConfigurationAnalysisRuleExclusionsList
 ```
@@ -2308,7 +2308,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAccessanalyzerAnalyzer.DataAwsccAccessanalyzerAnalyzerAnalyzerConfigurationUnusedAccessConfigurationAnalysisRuleExclusionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccessanalyzeranalyzer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaccessanalyzeranalyzer"
 
 dataawsccaccessanalyzeranalyzer.NewDataAwsccAccessanalyzerAnalyzerAnalyzerConfigurationUnusedAccessConfigurationAnalysisRuleExclusionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccAccessanalyzerAnalyzerAnalyzerConfigurationUnusedAccessConfigurationAnalysisRuleExclusionsOutputReference
 ```
@@ -2597,7 +2597,7 @@ func InternalValue() DataAwsccAccessanalyzerAnalyzerAnalyzerConfigurationUnusedA
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAccessanalyzerAnalyzer.DataAwsccAccessanalyzerAnalyzerAnalyzerConfigurationUnusedAccessConfigurationAnalysisRuleExclusionsResourceTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccessanalyzeranalyzer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaccessanalyzeranalyzer"
 
 dataawsccaccessanalyzeranalyzer.NewDataAwsccAccessanalyzerAnalyzerAnalyzerConfigurationUnusedAccessConfigurationAnalysisRuleExclusionsResourceTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccAccessanalyzerAnalyzerAnalyzerConfigurationUnusedAccessConfigurationAnalysisRuleExclusionsResourceTagsList
 ```
@@ -2746,7 +2746,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAccessanalyzerAnalyzer.DataAwsccAccessanalyzerAnalyzerAnalyzerConfigurationUnusedAccessConfigurationAnalysisRuleExclusionsResourceTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccessanalyzeranalyzer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaccessanalyzeranalyzer"
 
 dataawsccaccessanalyzeranalyzer.NewDataAwsccAccessanalyzerAnalyzerAnalyzerConfigurationUnusedAccessConfigurationAnalysisRuleExclusionsResourceTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccAccessanalyzerAnalyzerAnalyzerConfigurationUnusedAccessConfigurationAnalysisRuleExclusionsResourceTagsOutputReference
 ```
@@ -3013,7 +3013,7 @@ func InternalValue() DataAwsccAccessanalyzerAnalyzerAnalyzerConfigurationUnusedA
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAccessanalyzerAnalyzer.DataAwsccAccessanalyzerAnalyzerAnalyzerConfigurationUnusedAccessConfigurationAnalysisRuleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccessanalyzeranalyzer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaccessanalyzeranalyzer"
 
 dataawsccaccessanalyzeranalyzer.NewDataAwsccAccessanalyzerAnalyzerAnalyzerConfigurationUnusedAccessConfigurationAnalysisRuleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAccessanalyzerAnalyzerAnalyzerConfigurationUnusedAccessConfigurationAnalysisRuleOutputReference
 ```
@@ -3273,7 +3273,7 @@ func InternalValue() DataAwsccAccessanalyzerAnalyzerAnalyzerConfigurationUnusedA
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAccessanalyzerAnalyzer.DataAwsccAccessanalyzerAnalyzerAnalyzerConfigurationUnusedAccessConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccessanalyzeranalyzer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaccessanalyzeranalyzer"
 
 dataawsccaccessanalyzeranalyzer.NewDataAwsccAccessanalyzerAnalyzerAnalyzerConfigurationUnusedAccessConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAccessanalyzerAnalyzerAnalyzerConfigurationUnusedAccessConfigurationOutputReference
 ```
@@ -3544,7 +3544,7 @@ func InternalValue() DataAwsccAccessanalyzerAnalyzerAnalyzerConfigurationUnusedA
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAccessanalyzerAnalyzer.DataAwsccAccessanalyzerAnalyzerArchiveRulesFilterList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccessanalyzeranalyzer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaccessanalyzeranalyzer"
 
 dataawsccaccessanalyzeranalyzer.NewDataAwsccAccessanalyzerAnalyzerArchiveRulesFilterList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccAccessanalyzerAnalyzerArchiveRulesFilterList
 ```
@@ -3693,7 +3693,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAccessanalyzerAnalyzer.DataAwsccAccessanalyzerAnalyzerArchiveRulesFilterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccessanalyzeranalyzer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaccessanalyzeranalyzer"
 
 dataawsccaccessanalyzeranalyzer.NewDataAwsccAccessanalyzerAnalyzerArchiveRulesFilterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccAccessanalyzerAnalyzerArchiveRulesFilterOutputReference
 ```
@@ -4015,7 +4015,7 @@ func InternalValue() DataAwsccAccessanalyzerAnalyzerArchiveRulesFilter
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAccessanalyzerAnalyzer.DataAwsccAccessanalyzerAnalyzerArchiveRulesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccessanalyzeranalyzer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaccessanalyzeranalyzer"
 
 dataawsccaccessanalyzeranalyzer.NewDataAwsccAccessanalyzerAnalyzerArchiveRulesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccAccessanalyzerAnalyzerArchiveRulesList
 ```
@@ -4164,7 +4164,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAccessanalyzerAnalyzer.DataAwsccAccessanalyzerAnalyzerArchiveRulesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccessanalyzeranalyzer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaccessanalyzeranalyzer"
 
 dataawsccaccessanalyzeranalyzer.NewDataAwsccAccessanalyzerAnalyzerArchiveRulesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccAccessanalyzerAnalyzerArchiveRulesOutputReference
 ```
@@ -4453,7 +4453,7 @@ func InternalValue() DataAwsccAccessanalyzerAnalyzerArchiveRules
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAccessanalyzerAnalyzer.DataAwsccAccessanalyzerAnalyzerTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccessanalyzeranalyzer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaccessanalyzeranalyzer"
 
 dataawsccaccessanalyzeranalyzer.NewDataAwsccAccessanalyzerAnalyzerTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccAccessanalyzerAnalyzerTagsList
 ```
@@ -4602,7 +4602,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAccessanalyzerAnalyzer.DataAwsccAccessanalyzerAnalyzerTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccessanalyzeranalyzer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaccessanalyzeranalyzer"
 
 dataawsccaccessanalyzeranalyzer.NewDataAwsccAccessanalyzerAnalyzerTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccAccessanalyzerAnalyzerTagsOutputReference
 ```

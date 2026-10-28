@@ -4,12 +4,12 @@
 
 ### DataAwsccInspectorv2Filter <a name="DataAwsccInspectorv2Filter" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2Filter"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/inspectorv2_filter awscc_inspectorv2_filter}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/inspectorv2_filter awscc_inspectorv2_filter}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2Filter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2Filter(scope Construct, id *string, config DataAwsccInspectorv2FilterConfig) DataAwsccInspectorv2Filter
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2Filter.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.DataAwsccInspectorv2Filter_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2Filter.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.DataAwsccInspectorv2Filter_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccinspectorv2filter.DataAwsccInspectorv2Filter_IsTerraformElement(x inter
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2Filter.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.DataAwsccInspectorv2Filter_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccinspectorv2filter.DataAwsccInspectorv2Filter_IsTerraformDataSource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2Filter.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.DataAwsccInspectorv2Filter_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccInspectorv2Filter
 
 The id of the existing DataAwsccInspectorv2Filter that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/inspectorv2_filter#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/inspectorv2_filter#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -653,7 +653,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 &dataawsccinspectorv2filter.DataAwsccInspectorv2FilterConfig {
 	Connection: interface{},
@@ -762,7 +762,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/inspectorv2_filter#id DataAwsccInspectorv2Filter#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/inspectorv2_filter#id DataAwsccInspectorv2Filter#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -774,7 +774,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteria.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 &dataawsccinspectorv2filter.DataAwsccInspectorv2FilterFilterCriteria {
 
@@ -787,7 +787,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2fi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaAwsAccountId.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 &dataawsccinspectorv2filter.DataAwsccInspectorv2FilterFilterCriteriaAwsAccountId {
 
@@ -800,7 +800,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2fi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaCodeVulnerabilityDetectorName.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 &dataawsccinspectorv2filter.DataAwsccInspectorv2FilterFilterCriteriaCodeVulnerabilityDetectorName {
 
@@ -813,7 +813,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2fi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaCodeVulnerabilityDetectorTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 &dataawsccinspectorv2filter.DataAwsccInspectorv2FilterFilterCriteriaCodeVulnerabilityDetectorTags {
 
@@ -826,7 +826,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2fi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaCodeVulnerabilityFilePath.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 &dataawsccinspectorv2filter.DataAwsccInspectorv2FilterFilterCriteriaCodeVulnerabilityFilePath {
 
@@ -839,7 +839,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2fi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaComponentId.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 &dataawsccinspectorv2filter.DataAwsccInspectorv2FilterFilterCriteriaComponentId {
 
@@ -852,7 +852,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2fi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaComponentType.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 &dataawsccinspectorv2filter.DataAwsccInspectorv2FilterFilterCriteriaComponentType {
 
@@ -865,7 +865,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2fi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEc2InstanceImageId.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 &dataawsccinspectorv2filter.DataAwsccInspectorv2FilterFilterCriteriaEc2InstanceImageId {
 
@@ -878,7 +878,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2fi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEc2InstanceSubnetId.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 &dataawsccinspectorv2filter.DataAwsccInspectorv2FilterFilterCriteriaEc2InstanceSubnetId {
 
@@ -891,7 +891,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2fi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEc2InstanceVpcId.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 &dataawsccinspectorv2filter.DataAwsccInspectorv2FilterFilterCriteriaEc2InstanceVpcId {
 
@@ -904,7 +904,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2fi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageArchitecture.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 &dataawsccinspectorv2filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageArchitecture {
 
@@ -917,9 +917,22 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2fi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageHash.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 &dataawsccinspectorv2filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageHash {
+
+}
+```
+
+
+### DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCount <a name="DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCount" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCount"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCount.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
+
+&dataawsccinspectorv2filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCount {
 
 }
 ```
@@ -930,7 +943,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2fi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImagePushedAt.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 &dataawsccinspectorv2filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImagePushedAt {
 
@@ -943,7 +956,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2fi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageRegistry.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 &dataawsccinspectorv2filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageRegistry {
 
@@ -956,7 +969,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2fi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageRepositoryName.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 &dataawsccinspectorv2filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageRepositoryName {
 
@@ -969,7 +982,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2fi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 &dataawsccinspectorv2filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageTags {
 
@@ -982,7 +995,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2fi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEpssScore.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 &dataawsccinspectorv2filter.DataAwsccInspectorv2FilterFilterCriteriaEpssScore {
 
@@ -995,7 +1008,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2fi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaExploitAvailable.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 &dataawsccinspectorv2filter.DataAwsccInspectorv2FilterFilterCriteriaExploitAvailable {
 
@@ -1008,7 +1021,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2fi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaFindingArn.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 &dataawsccinspectorv2filter.DataAwsccInspectorv2FilterFilterCriteriaFindingArn {
 
@@ -1021,7 +1034,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2fi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaFindingStatus.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 &dataawsccinspectorv2filter.DataAwsccInspectorv2FilterFilterCriteriaFindingStatus {
 
@@ -1034,7 +1047,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2fi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaFindingType.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 &dataawsccinspectorv2filter.DataAwsccInspectorv2FilterFilterCriteriaFindingType {
 
@@ -1047,7 +1060,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2fi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaFirstObservedAt.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 &dataawsccinspectorv2filter.DataAwsccInspectorv2FilterFilterCriteriaFirstObservedAt {
 
@@ -1060,7 +1073,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2fi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaFixAvailable.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 &dataawsccinspectorv2filter.DataAwsccInspectorv2FilterFilterCriteriaFixAvailable {
 
@@ -1073,7 +1086,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2fi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaInspectorScore.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 &dataawsccinspectorv2filter.DataAwsccInspectorv2FilterFilterCriteriaInspectorScore {
 
@@ -1086,7 +1099,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2fi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaLambdaFunctionExecutionRoleArn.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 &dataawsccinspectorv2filter.DataAwsccInspectorv2FilterFilterCriteriaLambdaFunctionExecutionRoleArn {
 
@@ -1099,7 +1112,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2fi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaLambdaFunctionLastModifiedAt.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 &dataawsccinspectorv2filter.DataAwsccInspectorv2FilterFilterCriteriaLambdaFunctionLastModifiedAt {
 
@@ -1112,7 +1125,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2fi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaLambdaFunctionLayers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 &dataawsccinspectorv2filter.DataAwsccInspectorv2FilterFilterCriteriaLambdaFunctionLayers {
 
@@ -1125,7 +1138,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2fi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaLambdaFunctionName.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 &dataawsccinspectorv2filter.DataAwsccInspectorv2FilterFilterCriteriaLambdaFunctionName {
 
@@ -1138,7 +1151,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2fi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaLambdaFunctionRuntime.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 &dataawsccinspectorv2filter.DataAwsccInspectorv2FilterFilterCriteriaLambdaFunctionRuntime {
 
@@ -1151,7 +1164,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2fi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaLastObservedAt.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 &dataawsccinspectorv2filter.DataAwsccInspectorv2FilterFilterCriteriaLastObservedAt {
 
@@ -1164,7 +1177,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2fi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaNetworkProtocol.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 &dataawsccinspectorv2filter.DataAwsccInspectorv2FilterFilterCriteriaNetworkProtocol {
 
@@ -1177,7 +1190,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2fi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaPortRange.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 &dataawsccinspectorv2filter.DataAwsccInspectorv2FilterFilterCriteriaPortRange {
 
@@ -1190,7 +1203,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2fi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaRelatedVulnerabilities.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 &dataawsccinspectorv2filter.DataAwsccInspectorv2FilterFilterCriteriaRelatedVulnerabilities {
 
@@ -1203,7 +1216,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2fi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaResourceId.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 &dataawsccinspectorv2filter.DataAwsccInspectorv2FilterFilterCriteriaResourceId {
 
@@ -1216,7 +1229,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2fi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaResourceTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 &dataawsccinspectorv2filter.DataAwsccInspectorv2FilterFilterCriteriaResourceTags {
 
@@ -1229,7 +1242,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2fi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaResourceType.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 &dataawsccinspectorv2filter.DataAwsccInspectorv2FilterFilterCriteriaResourceType {
 
@@ -1242,7 +1255,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2fi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaSeverity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 &dataawsccinspectorv2filter.DataAwsccInspectorv2FilterFilterCriteriaSeverity {
 
@@ -1255,7 +1268,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2fi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaTitle.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 &dataawsccinspectorv2filter.DataAwsccInspectorv2FilterFilterCriteriaTitle {
 
@@ -1268,7 +1281,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2fi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaUpdatedAt.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 &dataawsccinspectorv2filter.DataAwsccInspectorv2FilterFilterCriteriaUpdatedAt {
 
@@ -1281,7 +1294,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2fi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaVendorSeverity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 &dataawsccinspectorv2filter.DataAwsccInspectorv2FilterFilterCriteriaVendorSeverity {
 
@@ -1294,7 +1307,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2fi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaVulnerabilityId.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 &dataawsccinspectorv2filter.DataAwsccInspectorv2FilterFilterCriteriaVulnerabilityId {
 
@@ -1307,7 +1320,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2fi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaVulnerabilitySource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 &dataawsccinspectorv2filter.DataAwsccInspectorv2FilterFilterCriteriaVulnerabilitySource {
 
@@ -1320,7 +1333,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2fi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaVulnerablePackages.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 &dataawsccinspectorv2filter.DataAwsccInspectorv2FilterFilterCriteriaVulnerablePackages {
 
@@ -1333,7 +1346,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2fi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaVulnerablePackagesArchitecture.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 &dataawsccinspectorv2filter.DataAwsccInspectorv2FilterFilterCriteriaVulnerablePackagesArchitecture {
 
@@ -1346,7 +1359,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2fi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaVulnerablePackagesEpoch.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 &dataawsccinspectorv2filter.DataAwsccInspectorv2FilterFilterCriteriaVulnerablePackagesEpoch {
 
@@ -1359,7 +1372,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2fi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaVulnerablePackagesFilePath.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 &dataawsccinspectorv2filter.DataAwsccInspectorv2FilterFilterCriteriaVulnerablePackagesFilePath {
 
@@ -1372,7 +1385,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2fi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaVulnerablePackagesName.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 &dataawsccinspectorv2filter.DataAwsccInspectorv2FilterFilterCriteriaVulnerablePackagesName {
 
@@ -1385,7 +1398,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2fi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaVulnerablePackagesRelease.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 &dataawsccinspectorv2filter.DataAwsccInspectorv2FilterFilterCriteriaVulnerablePackagesRelease {
 
@@ -1398,7 +1411,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2fi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaVulnerablePackagesSourceLambdaLayerArn.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 &dataawsccinspectorv2filter.DataAwsccInspectorv2FilterFilterCriteriaVulnerablePackagesSourceLambdaLayerArn {
 
@@ -1411,7 +1424,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2fi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaVulnerablePackagesSourceLayerHash.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 &dataawsccinspectorv2filter.DataAwsccInspectorv2FilterFilterCriteriaVulnerablePackagesSourceLayerHash {
 
@@ -1424,7 +1437,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2fi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaVulnerablePackagesVersion.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 &dataawsccinspectorv2filter.DataAwsccInspectorv2FilterFilterCriteriaVulnerablePackagesVersion {
 
@@ -1439,7 +1452,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2fi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaAwsAccountIdList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaAwsAccountIdList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccInspectorv2FilterFilterCriteriaAwsAccountIdList
 ```
@@ -1588,7 +1601,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaAwsAccountIdOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaAwsAccountIdOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccInspectorv2FilterFilterCriteriaAwsAccountIdOutputReference
 ```
@@ -1877,7 +1890,7 @@ func InternalValue() DataAwsccInspectorv2FilterFilterCriteriaAwsAccountId
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaCodeVulnerabilityDetectorNameList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaCodeVulnerabilityDetectorNameList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccInspectorv2FilterFilterCriteriaCodeVulnerabilityDetectorNameList
 ```
@@ -2026,7 +2039,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaCodeVulnerabilityDetectorNameOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaCodeVulnerabilityDetectorNameOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccInspectorv2FilterFilterCriteriaCodeVulnerabilityDetectorNameOutputReference
 ```
@@ -2315,7 +2328,7 @@ func InternalValue() DataAwsccInspectorv2FilterFilterCriteriaCodeVulnerabilityDe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaCodeVulnerabilityDetectorTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaCodeVulnerabilityDetectorTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccInspectorv2FilterFilterCriteriaCodeVulnerabilityDetectorTagsList
 ```
@@ -2464,7 +2477,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaCodeVulnerabilityDetectorTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaCodeVulnerabilityDetectorTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccInspectorv2FilterFilterCriteriaCodeVulnerabilityDetectorTagsOutputReference
 ```
@@ -2753,7 +2766,7 @@ func InternalValue() DataAwsccInspectorv2FilterFilterCriteriaCodeVulnerabilityDe
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaCodeVulnerabilityFilePathList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaCodeVulnerabilityFilePathList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccInspectorv2FilterFilterCriteriaCodeVulnerabilityFilePathList
 ```
@@ -2902,7 +2915,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaCodeVulnerabilityFilePathOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaCodeVulnerabilityFilePathOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccInspectorv2FilterFilterCriteriaCodeVulnerabilityFilePathOutputReference
 ```
@@ -3191,7 +3204,7 @@ func InternalValue() DataAwsccInspectorv2FilterFilterCriteriaCodeVulnerabilityFi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaComponentIdList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaComponentIdList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccInspectorv2FilterFilterCriteriaComponentIdList
 ```
@@ -3340,7 +3353,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaComponentIdOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaComponentIdOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccInspectorv2FilterFilterCriteriaComponentIdOutputReference
 ```
@@ -3629,7 +3642,7 @@ func InternalValue() DataAwsccInspectorv2FilterFilterCriteriaComponentId
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaComponentTypeList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaComponentTypeList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccInspectorv2FilterFilterCriteriaComponentTypeList
 ```
@@ -3778,7 +3791,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaComponentTypeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaComponentTypeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccInspectorv2FilterFilterCriteriaComponentTypeOutputReference
 ```
@@ -4067,7 +4080,7 @@ func InternalValue() DataAwsccInspectorv2FilterFilterCriteriaComponentType
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEc2InstanceImageIdList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaEc2InstanceImageIdList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccInspectorv2FilterFilterCriteriaEc2InstanceImageIdList
 ```
@@ -4216,7 +4229,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEc2InstanceImageIdOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaEc2InstanceImageIdOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccInspectorv2FilterFilterCriteriaEc2InstanceImageIdOutputReference
 ```
@@ -4505,7 +4518,7 @@ func InternalValue() DataAwsccInspectorv2FilterFilterCriteriaEc2InstanceImageId
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEc2InstanceSubnetIdList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaEc2InstanceSubnetIdList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccInspectorv2FilterFilterCriteriaEc2InstanceSubnetIdList
 ```
@@ -4654,7 +4667,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEc2InstanceSubnetIdOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaEc2InstanceSubnetIdOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccInspectorv2FilterFilterCriteriaEc2InstanceSubnetIdOutputReference
 ```
@@ -4943,7 +4956,7 @@ func InternalValue() DataAwsccInspectorv2FilterFilterCriteriaEc2InstanceSubnetId
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEc2InstanceVpcIdList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaEc2InstanceVpcIdList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccInspectorv2FilterFilterCriteriaEc2InstanceVpcIdList
 ```
@@ -5092,7 +5105,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEc2InstanceVpcIdOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaEc2InstanceVpcIdOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccInspectorv2FilterFilterCriteriaEc2InstanceVpcIdOutputReference
 ```
@@ -5381,7 +5394,7 @@ func InternalValue() DataAwsccInspectorv2FilterFilterCriteriaEc2InstanceVpcId
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageArchitectureList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaEcrImageArchitectureList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccInspectorv2FilterFilterCriteriaEcrImageArchitectureList
 ```
@@ -5530,7 +5543,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageArchitectureOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaEcrImageArchitectureOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccInspectorv2FilterFilterCriteriaEcrImageArchitectureOutputReference
 ```
@@ -5819,7 +5832,7 @@ func InternalValue() DataAwsccInspectorv2FilterFilterCriteriaEcrImageArchitectur
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageHashList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaEcrImageHashList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccInspectorv2FilterFilterCriteriaEcrImageHashList
 ```
@@ -5968,7 +5981,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageHashOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaEcrImageHashOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccInspectorv2FilterFilterCriteriaEcrImageHashOutputReference
 ```
@@ -6252,12 +6265,450 @@ func InternalValue() DataAwsccInspectorv2FilterFilterCriteriaEcrImageHash
 ---
 
 
+### DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountList <a name="DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountList" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountList.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
+
+dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountList
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* *bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountList.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountList.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountList.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountList.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountList.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `Get` <a name="Get" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountList.get"></a>
+
+```go
+func Get(index *f64) DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountList.get.parameter.index"></a>
+
+- *Type:* *f64
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountList.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountList.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountList.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountList.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+
+### DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference <a name="DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
+
+dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>*f64</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* *f64
+
+the index of this item in the list.
+
+---
+
+##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* *bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.property.lowerInclusive">LowerInclusive</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.property.upperInclusive">UpperInclusive</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCount">DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCount</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `LowerInclusive`<sup>Required</sup> <a name="LowerInclusive" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.property.lowerInclusive"></a>
+
+```go
+func LowerInclusive() *f64
+```
+
+- *Type:* *f64
+
+---
+
+##### `UpperInclusive`<sup>Required</sup> <a name="UpperInclusive" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.property.upperInclusive"></a>
+
+```go
+func UpperInclusive() *f64
+```
+
+- *Type:* *f64
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCount
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCount">DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCount</a>
+
+---
+
+
 ### DataAwsccInspectorv2FilterFilterCriteriaEcrImagePushedAtList <a name="DataAwsccInspectorv2FilterFilterCriteriaEcrImagePushedAtList" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImagePushedAtList"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImagePushedAtList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaEcrImagePushedAtList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccInspectorv2FilterFilterCriteriaEcrImagePushedAtList
 ```
@@ -6406,7 +6857,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImagePushedAtOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaEcrImagePushedAtOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccInspectorv2FilterFilterCriteriaEcrImagePushedAtOutputReference
 ```
@@ -6695,7 +7146,7 @@ func InternalValue() DataAwsccInspectorv2FilterFilterCriteriaEcrImagePushedAt
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageRegistryList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaEcrImageRegistryList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccInspectorv2FilterFilterCriteriaEcrImageRegistryList
 ```
@@ -6844,7 +7295,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageRegistryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaEcrImageRegistryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccInspectorv2FilterFilterCriteriaEcrImageRegistryOutputReference
 ```
@@ -7133,7 +7584,7 @@ func InternalValue() DataAwsccInspectorv2FilterFilterCriteriaEcrImageRegistry
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageRepositoryNameList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaEcrImageRepositoryNameList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccInspectorv2FilterFilterCriteriaEcrImageRepositoryNameList
 ```
@@ -7282,7 +7733,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageRepositoryNameOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaEcrImageRepositoryNameOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccInspectorv2FilterFilterCriteriaEcrImageRepositoryNameOutputReference
 ```
@@ -7571,7 +8022,7 @@ func InternalValue() DataAwsccInspectorv2FilterFilterCriteriaEcrImageRepositoryN
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaEcrImageTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccInspectorv2FilterFilterCriteriaEcrImageTagsList
 ```
@@ -7720,7 +8171,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaEcrImageTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccInspectorv2FilterFilterCriteriaEcrImageTagsOutputReference
 ```
@@ -8009,7 +8460,7 @@ func InternalValue() DataAwsccInspectorv2FilterFilterCriteriaEcrImageTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEpssScoreList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaEpssScoreList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccInspectorv2FilterFilterCriteriaEpssScoreList
 ```
@@ -8158,7 +8609,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEpssScoreOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaEpssScoreOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccInspectorv2FilterFilterCriteriaEpssScoreOutputReference
 ```
@@ -8447,7 +8898,7 @@ func InternalValue() DataAwsccInspectorv2FilterFilterCriteriaEpssScore
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaExploitAvailableList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaExploitAvailableList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccInspectorv2FilterFilterCriteriaExploitAvailableList
 ```
@@ -8596,7 +9047,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaExploitAvailableOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaExploitAvailableOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccInspectorv2FilterFilterCriteriaExploitAvailableOutputReference
 ```
@@ -8885,7 +9336,7 @@ func InternalValue() DataAwsccInspectorv2FilterFilterCriteriaExploitAvailable
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaFindingArnList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaFindingArnList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccInspectorv2FilterFilterCriteriaFindingArnList
 ```
@@ -9034,7 +9485,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaFindingArnOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaFindingArnOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccInspectorv2FilterFilterCriteriaFindingArnOutputReference
 ```
@@ -9323,7 +9774,7 @@ func InternalValue() DataAwsccInspectorv2FilterFilterCriteriaFindingArn
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaFindingStatusList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaFindingStatusList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccInspectorv2FilterFilterCriteriaFindingStatusList
 ```
@@ -9472,7 +9923,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaFindingStatusOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaFindingStatusOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccInspectorv2FilterFilterCriteriaFindingStatusOutputReference
 ```
@@ -9761,7 +10212,7 @@ func InternalValue() DataAwsccInspectorv2FilterFilterCriteriaFindingStatus
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaFindingTypeList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaFindingTypeList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccInspectorv2FilterFilterCriteriaFindingTypeList
 ```
@@ -9910,7 +10361,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaFindingTypeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaFindingTypeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccInspectorv2FilterFilterCriteriaFindingTypeOutputReference
 ```
@@ -10199,7 +10650,7 @@ func InternalValue() DataAwsccInspectorv2FilterFilterCriteriaFindingType
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaFirstObservedAtList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaFirstObservedAtList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccInspectorv2FilterFilterCriteriaFirstObservedAtList
 ```
@@ -10348,7 +10799,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaFirstObservedAtOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaFirstObservedAtOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccInspectorv2FilterFilterCriteriaFirstObservedAtOutputReference
 ```
@@ -10637,7 +11088,7 @@ func InternalValue() DataAwsccInspectorv2FilterFilterCriteriaFirstObservedAt
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaFixAvailableList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaFixAvailableList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccInspectorv2FilterFilterCriteriaFixAvailableList
 ```
@@ -10786,7 +11237,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaFixAvailableOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaFixAvailableOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccInspectorv2FilterFilterCriteriaFixAvailableOutputReference
 ```
@@ -11075,7 +11526,7 @@ func InternalValue() DataAwsccInspectorv2FilterFilterCriteriaFixAvailable
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaInspectorScoreList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaInspectorScoreList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccInspectorv2FilterFilterCriteriaInspectorScoreList
 ```
@@ -11224,7 +11675,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaInspectorScoreOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaInspectorScoreOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccInspectorv2FilterFilterCriteriaInspectorScoreOutputReference
 ```
@@ -11513,7 +11964,7 @@ func InternalValue() DataAwsccInspectorv2FilterFilterCriteriaInspectorScore
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaLambdaFunctionExecutionRoleArnList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaLambdaFunctionExecutionRoleArnList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccInspectorv2FilterFilterCriteriaLambdaFunctionExecutionRoleArnList
 ```
@@ -11662,7 +12113,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaLambdaFunctionExecutionRoleArnOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaLambdaFunctionExecutionRoleArnOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccInspectorv2FilterFilterCriteriaLambdaFunctionExecutionRoleArnOutputReference
 ```
@@ -11951,7 +12402,7 @@ func InternalValue() DataAwsccInspectorv2FilterFilterCriteriaLambdaFunctionExecu
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaLambdaFunctionLastModifiedAtList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaLambdaFunctionLastModifiedAtList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccInspectorv2FilterFilterCriteriaLambdaFunctionLastModifiedAtList
 ```
@@ -12100,7 +12551,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaLambdaFunctionLastModifiedAtOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaLambdaFunctionLastModifiedAtOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccInspectorv2FilterFilterCriteriaLambdaFunctionLastModifiedAtOutputReference
 ```
@@ -12389,7 +12840,7 @@ func InternalValue() DataAwsccInspectorv2FilterFilterCriteriaLambdaFunctionLastM
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaLambdaFunctionLayersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaLambdaFunctionLayersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccInspectorv2FilterFilterCriteriaLambdaFunctionLayersList
 ```
@@ -12538,7 +12989,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaLambdaFunctionLayersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaLambdaFunctionLayersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccInspectorv2FilterFilterCriteriaLambdaFunctionLayersOutputReference
 ```
@@ -12827,7 +13278,7 @@ func InternalValue() DataAwsccInspectorv2FilterFilterCriteriaLambdaFunctionLayer
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaLambdaFunctionNameList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaLambdaFunctionNameList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccInspectorv2FilterFilterCriteriaLambdaFunctionNameList
 ```
@@ -12976,7 +13427,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaLambdaFunctionNameOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaLambdaFunctionNameOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccInspectorv2FilterFilterCriteriaLambdaFunctionNameOutputReference
 ```
@@ -13265,7 +13716,7 @@ func InternalValue() DataAwsccInspectorv2FilterFilterCriteriaLambdaFunctionName
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaLambdaFunctionRuntimeList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaLambdaFunctionRuntimeList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccInspectorv2FilterFilterCriteriaLambdaFunctionRuntimeList
 ```
@@ -13414,7 +13865,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaLambdaFunctionRuntimeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaLambdaFunctionRuntimeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccInspectorv2FilterFilterCriteriaLambdaFunctionRuntimeOutputReference
 ```
@@ -13703,7 +14154,7 @@ func InternalValue() DataAwsccInspectorv2FilterFilterCriteriaLambdaFunctionRunti
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaLastObservedAtList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaLastObservedAtList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccInspectorv2FilterFilterCriteriaLastObservedAtList
 ```
@@ -13852,7 +14303,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaLastObservedAtOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaLastObservedAtOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccInspectorv2FilterFilterCriteriaLastObservedAtOutputReference
 ```
@@ -14141,7 +14592,7 @@ func InternalValue() DataAwsccInspectorv2FilterFilterCriteriaLastObservedAt
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaNetworkProtocolList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaNetworkProtocolList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccInspectorv2FilterFilterCriteriaNetworkProtocolList
 ```
@@ -14290,7 +14741,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaNetworkProtocolOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaNetworkProtocolOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccInspectorv2FilterFilterCriteriaNetworkProtocolOutputReference
 ```
@@ -14579,7 +15030,7 @@ func InternalValue() DataAwsccInspectorv2FilterFilterCriteriaNetworkProtocol
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccInspectorv2FilterFilterCriteriaOutputReference
 ```
@@ -14795,6 +15246,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaOutputReference.property.ec2InstanceVpcId">Ec2InstanceVpcId</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEc2InstanceVpcIdList">DataAwsccInspectorv2FilterFilterCriteriaEc2InstanceVpcIdList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaOutputReference.property.ecrImageArchitecture">EcrImageArchitecture</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageArchitectureList">DataAwsccInspectorv2FilterFilterCriteriaEcrImageArchitectureList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaOutputReference.property.ecrImageHash">EcrImageHash</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageHashList">DataAwsccInspectorv2FilterFilterCriteriaEcrImageHashList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaOutputReference.property.ecrImageInUseCount">EcrImageInUseCount</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountList">DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaOutputReference.property.ecrImagePushedAt">EcrImagePushedAt</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImagePushedAtList">DataAwsccInspectorv2FilterFilterCriteriaEcrImagePushedAtList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaOutputReference.property.ecrImageRegistry">EcrImageRegistry</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageRegistryList">DataAwsccInspectorv2FilterFilterCriteriaEcrImageRegistryList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaOutputReference.property.ecrImageRepositoryName">EcrImageRepositoryName</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageRepositoryNameList">DataAwsccInspectorv2FilterFilterCriteriaEcrImageRepositoryNameList</a></code> | *No description.* |
@@ -14961,6 +15413,16 @@ func EcrImageHash() DataAwsccInspectorv2FilterFilterCriteriaEcrImageHashList
 ```
 
 - *Type:* <a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageHashList">DataAwsccInspectorv2FilterFilterCriteriaEcrImageHashList</a>
+
+---
+
+##### `EcrImageInUseCount`<sup>Required</sup> <a name="EcrImageInUseCount" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaOutputReference.property.ecrImageInUseCount"></a>
+
+```go
+func EcrImageInUseCount() DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountList
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountList">DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountList</a>
 
 ---
 
@@ -15290,7 +15752,7 @@ func InternalValue() DataAwsccInspectorv2FilterFilterCriteria
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaPortRangeList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaPortRangeList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccInspectorv2FilterFilterCriteriaPortRangeList
 ```
@@ -15439,7 +15901,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaPortRangeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaPortRangeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccInspectorv2FilterFilterCriteriaPortRangeOutputReference
 ```
@@ -15728,7 +16190,7 @@ func InternalValue() DataAwsccInspectorv2FilterFilterCriteriaPortRange
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaRelatedVulnerabilitiesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaRelatedVulnerabilitiesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccInspectorv2FilterFilterCriteriaRelatedVulnerabilitiesList
 ```
@@ -15877,7 +16339,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaRelatedVulnerabilitiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaRelatedVulnerabilitiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccInspectorv2FilterFilterCriteriaRelatedVulnerabilitiesOutputReference
 ```
@@ -16166,7 +16628,7 @@ func InternalValue() DataAwsccInspectorv2FilterFilterCriteriaRelatedVulnerabilit
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaResourceIdList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaResourceIdList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccInspectorv2FilterFilterCriteriaResourceIdList
 ```
@@ -16315,7 +16777,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaResourceIdOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaResourceIdOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccInspectorv2FilterFilterCriteriaResourceIdOutputReference
 ```
@@ -16604,7 +17066,7 @@ func InternalValue() DataAwsccInspectorv2FilterFilterCriteriaResourceId
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaResourceTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaResourceTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccInspectorv2FilterFilterCriteriaResourceTagsList
 ```
@@ -16753,7 +17215,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaResourceTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaResourceTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccInspectorv2FilterFilterCriteriaResourceTagsOutputReference
 ```
@@ -17053,7 +17515,7 @@ func InternalValue() DataAwsccInspectorv2FilterFilterCriteriaResourceTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaResourceTypeList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaResourceTypeList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccInspectorv2FilterFilterCriteriaResourceTypeList
 ```
@@ -17202,7 +17664,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaResourceTypeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaResourceTypeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccInspectorv2FilterFilterCriteriaResourceTypeOutputReference
 ```
@@ -17491,7 +17953,7 @@ func InternalValue() DataAwsccInspectorv2FilterFilterCriteriaResourceType
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaSeverityList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaSeverityList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccInspectorv2FilterFilterCriteriaSeverityList
 ```
@@ -17640,7 +18102,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaSeverityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaSeverityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccInspectorv2FilterFilterCriteriaSeverityOutputReference
 ```
@@ -17929,7 +18391,7 @@ func InternalValue() DataAwsccInspectorv2FilterFilterCriteriaSeverity
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaTitleList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaTitleList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccInspectorv2FilterFilterCriteriaTitleList
 ```
@@ -18078,7 +18540,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaTitleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaTitleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccInspectorv2FilterFilterCriteriaTitleOutputReference
 ```
@@ -18367,7 +18829,7 @@ func InternalValue() DataAwsccInspectorv2FilterFilterCriteriaTitle
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaUpdatedAtList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaUpdatedAtList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccInspectorv2FilterFilterCriteriaUpdatedAtList
 ```
@@ -18516,7 +18978,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaUpdatedAtOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaUpdatedAtOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccInspectorv2FilterFilterCriteriaUpdatedAtOutputReference
 ```
@@ -18805,7 +19267,7 @@ func InternalValue() DataAwsccInspectorv2FilterFilterCriteriaUpdatedAt
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaVendorSeverityList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaVendorSeverityList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccInspectorv2FilterFilterCriteriaVendorSeverityList
 ```
@@ -18954,7 +19416,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaVendorSeverityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaVendorSeverityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccInspectorv2FilterFilterCriteriaVendorSeverityOutputReference
 ```
@@ -19243,7 +19705,7 @@ func InternalValue() DataAwsccInspectorv2FilterFilterCriteriaVendorSeverity
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaVulnerabilityIdList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaVulnerabilityIdList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccInspectorv2FilterFilterCriteriaVulnerabilityIdList
 ```
@@ -19392,7 +19854,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaVulnerabilityIdOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaVulnerabilityIdOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccInspectorv2FilterFilterCriteriaVulnerabilityIdOutputReference
 ```
@@ -19681,7 +20143,7 @@ func InternalValue() DataAwsccInspectorv2FilterFilterCriteriaVulnerabilityId
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaVulnerabilitySourceList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaVulnerabilitySourceList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccInspectorv2FilterFilterCriteriaVulnerabilitySourceList
 ```
@@ -19830,7 +20292,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaVulnerabilitySourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaVulnerabilitySourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccInspectorv2FilterFilterCriteriaVulnerabilitySourceOutputReference
 ```
@@ -20119,7 +20581,7 @@ func InternalValue() DataAwsccInspectorv2FilterFilterCriteriaVulnerabilitySource
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaVulnerablePackagesArchitectureOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaVulnerablePackagesArchitectureOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccInspectorv2FilterFilterCriteriaVulnerablePackagesArchitectureOutputReference
 ```
@@ -20390,7 +20852,7 @@ func InternalValue() DataAwsccInspectorv2FilterFilterCriteriaVulnerablePackagesA
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaVulnerablePackagesEpochOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaVulnerablePackagesEpochOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccInspectorv2FilterFilterCriteriaVulnerablePackagesEpochOutputReference
 ```
@@ -20661,7 +21123,7 @@ func InternalValue() DataAwsccInspectorv2FilterFilterCriteriaVulnerablePackagesE
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaVulnerablePackagesFilePathOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaVulnerablePackagesFilePathOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccInspectorv2FilterFilterCriteriaVulnerablePackagesFilePathOutputReference
 ```
@@ -20932,7 +21394,7 @@ func InternalValue() DataAwsccInspectorv2FilterFilterCriteriaVulnerablePackagesF
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaVulnerablePackagesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaVulnerablePackagesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccInspectorv2FilterFilterCriteriaVulnerablePackagesList
 ```
@@ -21081,7 +21543,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaVulnerablePackagesNameOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaVulnerablePackagesNameOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccInspectorv2FilterFilterCriteriaVulnerablePackagesNameOutputReference
 ```
@@ -21352,7 +21814,7 @@ func InternalValue() DataAwsccInspectorv2FilterFilterCriteriaVulnerablePackagesN
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaVulnerablePackagesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaVulnerablePackagesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccInspectorv2FilterFilterCriteriaVulnerablePackagesOutputReference
 ```
@@ -21707,7 +22169,7 @@ func InternalValue() DataAwsccInspectorv2FilterFilterCriteriaVulnerablePackages
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaVulnerablePackagesReleaseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaVulnerablePackagesReleaseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccInspectorv2FilterFilterCriteriaVulnerablePackagesReleaseOutputReference
 ```
@@ -21978,7 +22440,7 @@ func InternalValue() DataAwsccInspectorv2FilterFilterCriteriaVulnerablePackagesR
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaVulnerablePackagesSourceLambdaLayerArnOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaVulnerablePackagesSourceLambdaLayerArnOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccInspectorv2FilterFilterCriteriaVulnerablePackagesSourceLambdaLayerArnOutputReference
 ```
@@ -22249,7 +22711,7 @@ func InternalValue() DataAwsccInspectorv2FilterFilterCriteriaVulnerablePackagesS
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaVulnerablePackagesSourceLayerHashOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaVulnerablePackagesSourceLayerHashOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccInspectorv2FilterFilterCriteriaVulnerablePackagesSourceLayerHashOutputReference
 ```
@@ -22520,7 +22982,7 @@ func InternalValue() DataAwsccInspectorv2FilterFilterCriteriaVulnerablePackagesS
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaVulnerablePackagesVersionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter"
 
 dataawsccinspectorv2filter.NewDataAwsccInspectorv2FilterFilterCriteriaVulnerablePackagesVersionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccInspectorv2FilterFilterCriteriaVulnerablePackagesVersionOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccEventschemasSchema <a name="DataAwsccEventschemasSchema" id="@cdktn/provider-awscc.dataAwsccEventschemasSchema.DataAwsccEventschemasSchema"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/eventschemas_schema awscc_eventschemas_schema}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/eventschemas_schema awscc_eventschemas_schema}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventschemasSchema.DataAwsccEventschemasSchema.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventschemasschema"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventschemasschema"
 
 dataawscceventschemasschema.NewDataAwsccEventschemasSchema(scope Construct, id *string, config DataAwsccEventschemasSchemaConfig) DataAwsccEventschemasSchema
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEventschemasSchema.DataAwsccEventschemasSchema.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventschemasschema"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventschemasschema"
 
 dataawscceventschemasschema.DataAwsccEventschemasSchema_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEventschemasSchema.DataAwsccEventschemasSchema.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventschemasschema"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventschemasschema"
 
 dataawscceventschemasschema.DataAwsccEventschemasSchema_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscceventschemasschema.DataAwsccEventschemasSchema_IsTerraformElement(x int
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEventschemasSchema.DataAwsccEventschemasSchema.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventschemasschema"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventschemasschema"
 
 dataawscceventschemasschema.DataAwsccEventschemasSchema_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscceventschemasschema.DataAwsccEventschemasSchema_IsTerraformDataSource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEventschemasSchema.DataAwsccEventschemasSchema.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventschemasschema"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventschemasschema"
 
 dataawscceventschemasschema.DataAwsccEventschemasSchema_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEventschemasSchem
 
 The id of the existing DataAwsccEventschemasSchema that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/eventschemas_schema#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/eventschemas_schema#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -697,7 +697,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventschemasSchema.DataAwsccEventschemasSchemaConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventschemasschema"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventschemasschema"
 
 &dataawscceventschemasschema.DataAwsccEventschemasSchemaConfig {
 	Connection: interface{},
@@ -806,7 +806,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/eventschemas_schema#id DataAwsccEventschemasSchema#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/eventschemas_schema#id DataAwsccEventschemasSchema#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -818,7 +818,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventschemasSchema.DataAwsccEventschemasSchemaTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventschemasschema"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventschemasschema"
 
 &dataawscceventschemasschema.DataAwsccEventschemasSchemaTags {
 
@@ -833,7 +833,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventschemass
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventschemasSchema.DataAwsccEventschemasSchemaTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventschemasschema"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventschemasschema"
 
 dataawscceventschemasschema.NewDataAwsccEventschemasSchemaTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEventschemasSchemaTagsList
 ```
@@ -982,7 +982,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventschemasSchema.DataAwsccEventschemasSchemaTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventschemasschema"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventschemasschema"
 
 dataawscceventschemasschema.NewDataAwsccEventschemasSchemaTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEventschemasSchemaTagsOutputReference
 ```

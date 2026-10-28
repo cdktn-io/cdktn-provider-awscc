@@ -4,12 +4,12 @@
 
 ### OutpostsOutpost <a name="OutpostsOutpost" id="@cdktn/provider-awscc.outpostsOutpost.OutpostsOutpost"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/outposts_outpost awscc_outposts_outpost}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/outposts_outpost awscc_outposts_outpost}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.outpostsOutpost.OutpostsOutpost.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/outpostsoutpost"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/outpostsoutpost"
 
 outpostsoutpost.NewOutpostsOutpost(scope Construct, id *string, config OutpostsOutpostConfig) OutpostsOutpost
 ```
@@ -448,7 +448,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.outpostsOutpost.OutpostsOutpost.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/outpostsoutpost"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/outpostsoutpost"
 
 outpostsoutpost.OutpostsOutpost_IsConstruct(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.outpostsOutpost.OutpostsOutpost.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/outpostsoutpost"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/outpostsoutpost"
 
 outpostsoutpost.OutpostsOutpost_IsTerraformElement(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ outpostsoutpost.OutpostsOutpost_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.outpostsOutpost.OutpostsOutpost.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/outpostsoutpost"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/outpostsoutpost"
 
 outpostsoutpost.OutpostsOutpost_IsTerraformResource(x interface{}) *bool
 ```
@@ -508,7 +508,7 @@ outpostsoutpost.OutpostsOutpost_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.outpostsOutpost.OutpostsOutpost.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/outpostsoutpost"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/outpostsoutpost"
 
 outpostsoutpost.OutpostsOutpost_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -537,7 +537,7 @@ The construct id used in the generated config for the OutpostsOutpost to import.
 
 The id of the existing OutpostsOutpost that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/outposts_outpost#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/outposts_outpost#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -957,7 +957,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.outpostsOutpost.OutpostsOutpostConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/outpostsoutpost"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/outpostsoutpost"
 
 &outpostsoutpost.OutpostsOutpostConfig {
 	Connection: interface{},
@@ -988,13 +988,13 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/outpostsoutpost"
 | <code><a href="#@cdktn/provider-awscc.outpostsOutpost.OutpostsOutpostConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.outpostsOutpost.OutpostsOutpostConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.outpostsOutpost.OutpostsOutpostConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.outpostsOutpost.OutpostsOutpostConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/outposts_outpost#name OutpostsOutpost#name}. |
-| <code><a href="#@cdktn/provider-awscc.outpostsOutpost.OutpostsOutpostConfig.property.siteId">SiteId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/outposts_outpost#site_id OutpostsOutpost#site_id}. |
-| <code><a href="#@cdktn/provider-awscc.outpostsOutpost.OutpostsOutpostConfig.property.availabilityZone">AvailabilityZone</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/outposts_outpost#availability_zone OutpostsOutpost#availability_zone}. |
-| <code><a href="#@cdktn/provider-awscc.outpostsOutpost.OutpostsOutpostConfig.property.availabilityZoneId">AvailabilityZoneId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/outposts_outpost#availability_zone_id OutpostsOutpost#availability_zone_id}. |
-| <code><a href="#@cdktn/provider-awscc.outpostsOutpost.OutpostsOutpostConfig.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/outposts_outpost#description OutpostsOutpost#description}. |
-| <code><a href="#@cdktn/provider-awscc.outpostsOutpost.OutpostsOutpostConfig.property.supportedHardwareType">SupportedHardwareType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/outposts_outpost#supported_hardware_type OutpostsOutpost#supported_hardware_type}. |
-| <code><a href="#@cdktn/provider-awscc.outpostsOutpost.OutpostsOutpostConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/outposts_outpost#tags OutpostsOutpost#tags}. |
+| <code><a href="#@cdktn/provider-awscc.outpostsOutpost.OutpostsOutpostConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/outposts_outpost#name OutpostsOutpost#name}. |
+| <code><a href="#@cdktn/provider-awscc.outpostsOutpost.OutpostsOutpostConfig.property.siteId">SiteId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/outposts_outpost#site_id OutpostsOutpost#site_id}. |
+| <code><a href="#@cdktn/provider-awscc.outpostsOutpost.OutpostsOutpostConfig.property.availabilityZone">AvailabilityZone</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/outposts_outpost#availability_zone OutpostsOutpost#availability_zone}. |
+| <code><a href="#@cdktn/provider-awscc.outpostsOutpost.OutpostsOutpostConfig.property.availabilityZoneId">AvailabilityZoneId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/outposts_outpost#availability_zone_id OutpostsOutpost#availability_zone_id}. |
+| <code><a href="#@cdktn/provider-awscc.outpostsOutpost.OutpostsOutpostConfig.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/outposts_outpost#description OutpostsOutpost#description}. |
+| <code><a href="#@cdktn/provider-awscc.outpostsOutpost.OutpostsOutpostConfig.property.supportedHardwareType">SupportedHardwareType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/outposts_outpost#supported_hardware_type OutpostsOutpost#supported_hardware_type}. |
+| <code><a href="#@cdktn/provider-awscc.outpostsOutpost.OutpostsOutpostConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/outposts_outpost#tags OutpostsOutpost#tags}. |
 
 ---
 
@@ -1076,7 +1076,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/outposts_outpost#name OutpostsOutpost#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/outposts_outpost#name OutpostsOutpost#name}.
 
 ---
 
@@ -1088,7 +1088,7 @@ SiteId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/outposts_outpost#site_id OutpostsOutpost#site_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/outposts_outpost#site_id OutpostsOutpost#site_id}.
 
 ---
 
@@ -1100,7 +1100,7 @@ AvailabilityZone *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/outposts_outpost#availability_zone OutpostsOutpost#availability_zone}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/outposts_outpost#availability_zone OutpostsOutpost#availability_zone}.
 
 ---
 
@@ -1112,7 +1112,7 @@ AvailabilityZoneId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/outposts_outpost#availability_zone_id OutpostsOutpost#availability_zone_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/outposts_outpost#availability_zone_id OutpostsOutpost#availability_zone_id}.
 
 ---
 
@@ -1124,7 +1124,7 @@ Description *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/outposts_outpost#description OutpostsOutpost#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/outposts_outpost#description OutpostsOutpost#description}.
 
 ---
 
@@ -1136,7 +1136,7 @@ SupportedHardwareType *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/outposts_outpost#supported_hardware_type OutpostsOutpost#supported_hardware_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/outposts_outpost#supported_hardware_type OutpostsOutpost#supported_hardware_type}.
 
 ---
 
@@ -1148,7 +1148,7 @@ Tags interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/outposts_outpost#tags OutpostsOutpost#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/outposts_outpost#tags OutpostsOutpost#tags}.
 
 ---
 
@@ -1157,7 +1157,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.outpostsOutpost.OutpostsOutpostTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/outpostsoutpost"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/outpostsoutpost"
 
 &outpostsoutpost.OutpostsOutpostTags {
 	Key: *string,
@@ -1169,8 +1169,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/outpostsoutpost"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.outpostsOutpost.OutpostsOutpostTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/outposts_outpost#key OutpostsOutpost#key}. |
-| <code><a href="#@cdktn/provider-awscc.outpostsOutpost.OutpostsOutpostTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/outposts_outpost#value OutpostsOutpost#value}. |
+| <code><a href="#@cdktn/provider-awscc.outpostsOutpost.OutpostsOutpostTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/outposts_outpost#key OutpostsOutpost#key}. |
+| <code><a href="#@cdktn/provider-awscc.outpostsOutpost.OutpostsOutpostTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/outposts_outpost#value OutpostsOutpost#value}. |
 
 ---
 
@@ -1182,7 +1182,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/outposts_outpost#key OutpostsOutpost#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/outposts_outpost#key OutpostsOutpost#key}.
 
 ---
 
@@ -1194,7 +1194,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/outposts_outpost#value OutpostsOutpost#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/outposts_outpost#value OutpostsOutpost#value}.
 
 ---
 
@@ -1205,7 +1205,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.outpostsOutpost.OutpostsOutpostTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/outpostsoutpost"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/outpostsoutpost"
 
 outpostsoutpost.NewOutpostsOutpostTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OutpostsOutpostTagsList
 ```
@@ -1365,7 +1365,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.outpostsOutpost.OutpostsOutpostTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/outpostsoutpost"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/outpostsoutpost"
 
 outpostsoutpost.NewOutpostsOutpostTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) OutpostsOutpostTagsOutputReference
 ```

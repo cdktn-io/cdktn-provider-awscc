@@ -4,12 +4,12 @@
 
 ### LambdaLayerVersionPermission <a name="LambdaLayerVersionPermission" id="@cdktn/provider-awscc.lambdaLayerVersionPermission.LambdaLayerVersionPermission"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_layer_version_permission awscc_lambda_layer_version_permission}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_layer_version_permission awscc_lambda_layer_version_permission}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lambdaLayerVersionPermission.LambdaLayerVersionPermission.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdalayerversionpermission"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdalayerversionpermission"
 
 lambdalayerversionpermission.NewLambdaLayerVersionPermission(scope Construct, id *string, config LambdaLayerVersionPermissionConfig) LambdaLayerVersionPermission
 ```
@@ -407,7 +407,7 @@ func ResetOrganizationId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.lambdaLayerVersionPermission.LambdaLayerVersionPermission.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdalayerversionpermission"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdalayerversionpermission"
 
 lambdalayerversionpermission.LambdaLayerVersionPermission_IsConstruct(x interface{}) *bool
 ```
@@ -439,7 +439,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.lambdaLayerVersionPermission.LambdaLayerVersionPermission.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdalayerversionpermission"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdalayerversionpermission"
 
 lambdalayerversionpermission.LambdaLayerVersionPermission_IsTerraformElement(x interface{}) *bool
 ```
@@ -453,7 +453,7 @@ lambdalayerversionpermission.LambdaLayerVersionPermission_IsTerraformElement(x i
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.lambdaLayerVersionPermission.LambdaLayerVersionPermission.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdalayerversionpermission"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdalayerversionpermission"
 
 lambdalayerversionpermission.LambdaLayerVersionPermission_IsTerraformResource(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ lambdalayerversionpermission.LambdaLayerVersionPermission_IsTerraformResource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.lambdaLayerVersionPermission.LambdaLayerVersionPermission.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdalayerversionpermission"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdalayerversionpermission"
 
 lambdalayerversionpermission.LambdaLayerVersionPermission_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -496,7 +496,7 @@ The construct id used in the generated config for the LambdaLayerVersionPermissi
 
 The id of the existing LambdaLayerVersionPermission that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_layer_version_permission#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_layer_version_permission#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -806,7 +806,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lambdaLayerVersionPermission.LambdaLayerVersionPermissionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdalayerversionpermission"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdalayerversionpermission"
 
 &lambdalayerversionpermission.LambdaLayerVersionPermissionConfig {
 	Connection: interface{},
@@ -921,7 +921,7 @@ Action *string
 
 The API action that grants access to the layer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_layer_version_permission#action LambdaLayerVersionPermission#action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_layer_version_permission#action LambdaLayerVersionPermission#action}
 
 ---
 
@@ -935,7 +935,7 @@ LayerVersionArn *string
 
 The name or Amazon Resource Name (ARN) of the layer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_layer_version_permission#layer_version_arn LambdaLayerVersionPermission#layer_version_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_layer_version_permission#layer_version_arn LambdaLayerVersionPermission#layer_version_arn}
 
 ---
 
@@ -949,7 +949,7 @@ Principal *string
 
 An account ID, or * to grant layer usage permission to all accounts in an organization, or all AWS accounts (if organizationId is not specified).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_layer_version_permission#principal LambdaLayerVersionPermission#principal}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_layer_version_permission#principal LambdaLayerVersionPermission#principal}
 
 ---
 
@@ -963,7 +963,7 @@ OrganizationId *string
 
 With the principal set to *, grant permission to all accounts in the specified organization.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_layer_version_permission#organization_id LambdaLayerVersionPermission#organization_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_layer_version_permission#organization_id LambdaLayerVersionPermission#organization_id}
 
 ---
 

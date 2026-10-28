@@ -4,12 +4,12 @@
 
 ### SesConfigurationSet <a name="SesConfigurationSet" id="@cdktn/provider-awscc.sesConfigurationSet.SesConfigurationSet"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_configuration_set awscc_ses_configuration_set}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_configuration_set awscc_ses_configuration_set}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesConfigurationSet.SesConfigurationSet.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesconfigurationset"
 
 sesconfigurationset.NewSesConfigurationSet(scope Construct, id *string, config SesConfigurationSetConfig) SesConfigurationSet
 ```
@@ -567,7 +567,7 @@ func ResetVdmOptions()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.sesConfigurationSet.SesConfigurationSet.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesconfigurationset"
 
 sesconfigurationset.SesConfigurationSet_IsConstruct(x interface{}) *bool
 ```
@@ -599,7 +599,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.sesConfigurationSet.SesConfigurationSet.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesconfigurationset"
 
 sesconfigurationset.SesConfigurationSet_IsTerraformElement(x interface{}) *bool
 ```
@@ -613,7 +613,7 @@ sesconfigurationset.SesConfigurationSet_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.sesConfigurationSet.SesConfigurationSet.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesconfigurationset"
 
 sesconfigurationset.SesConfigurationSet_IsTerraformResource(x interface{}) *bool
 ```
@@ -627,7 +627,7 @@ sesconfigurationset.SesConfigurationSet_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.sesConfigurationSet.SesConfigurationSet.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesconfigurationset"
 
 sesconfigurationset.SesConfigurationSet_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -656,7 +656,7 @@ The construct id used in the generated config for the SesConfigurationSet to imp
 
 The id of the existing SesConfigurationSet that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_configuration_set#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_configuration_set#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1065,7 +1065,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sesConfigurationSet.SesConfigurationSetArchivingOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesconfigurationset"
 
 &sesconfigurationset.SesConfigurationSetArchivingOptions {
 	ArchiveArn: *string,
@@ -1090,7 +1090,7 @@ ArchiveArn *string
 
 The ARN of the MailManager archive to associate with the configuration set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_configuration_set#archive_arn SesConfigurationSet#archive_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_configuration_set#archive_arn SesConfigurationSet#archive_arn}
 
 ---
 
@@ -1099,7 +1099,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sesConfigurationSet.SesConfigurationSetConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesconfigurationset"
 
 &sesconfigurationset.SesConfigurationSetConfig {
 	Connection: interface{},
@@ -1109,15 +1109,15 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesconfigurationset"
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	ArchivingOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.sesConfigurationSet.SesConfigurationSetArchivingOptions,
-	DeliveryOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.sesConfigurationSet.SesConfigurationSetDeliveryOptions,
+	ArchivingOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.sesConfigurationSet.SesConfigurationSetArchivingOptions,
+	DeliveryOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.sesConfigurationSet.SesConfigurationSetDeliveryOptions,
 	Name: *string,
-	ReputationOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.sesConfigurationSet.SesConfigurationSetReputationOptions,
-	SendingOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.sesConfigurationSet.SesConfigurationSetSendingOptions,
-	SuppressionOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.sesConfigurationSet.SesConfigurationSetSuppressionOptions,
+	ReputationOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.sesConfigurationSet.SesConfigurationSetReputationOptions,
+	SendingOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.sesConfigurationSet.SesConfigurationSetSendingOptions,
+	SuppressionOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.sesConfigurationSet.SesConfigurationSetSuppressionOptions,
 	Tags: interface{},
-	TrackingOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.sesConfigurationSet.SesConfigurationSetTrackingOptions,
-	VdmOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.sesConfigurationSet.SesConfigurationSetVdmOptions,
+	TrackingOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.sesConfigurationSet.SesConfigurationSetTrackingOptions,
+	VdmOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.sesConfigurationSet.SesConfigurationSetVdmOptions,
 }
 ```
 
@@ -1224,7 +1224,7 @@ ArchivingOptions SesConfigurationSetArchivingOptions
 
 An object that defines a MailManager archive that is used to preserve emails that you send using the configuration set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_configuration_set#archiving_options SesConfigurationSet#archiving_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_configuration_set#archiving_options SesConfigurationSet#archiving_options}
 
 ---
 
@@ -1238,7 +1238,7 @@ DeliveryOptions SesConfigurationSetDeliveryOptions
 
 An object that defines the dedicated IP pool that is used to send emails that you send using the configuration set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_configuration_set#delivery_options SesConfigurationSet#delivery_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_configuration_set#delivery_options SesConfigurationSet#delivery_options}
 
 ---
 
@@ -1252,7 +1252,7 @@ Name *string
 
 The name of the configuration set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_configuration_set#name SesConfigurationSet#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_configuration_set#name SesConfigurationSet#name}
 
 ---
 
@@ -1266,7 +1266,7 @@ ReputationOptions SesConfigurationSetReputationOptions
 
 An object that defines whether or not Amazon SES collects reputation metrics for the emails that you send that use the configuration set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_configuration_set#reputation_options SesConfigurationSet#reputation_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_configuration_set#reputation_options SesConfigurationSet#reputation_options}
 
 ---
 
@@ -1280,7 +1280,7 @@ SendingOptions SesConfigurationSetSendingOptions
 
 An object that defines whether or not Amazon SES can send email that you send using the configuration set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_configuration_set#sending_options SesConfigurationSet#sending_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_configuration_set#sending_options SesConfigurationSet#sending_options}
 
 ---
 
@@ -1294,7 +1294,7 @@ SuppressionOptions SesConfigurationSetSuppressionOptions
 
 An object that contains information about the suppression list preferences for your account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_configuration_set#suppression_options SesConfigurationSet#suppression_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_configuration_set#suppression_options SesConfigurationSet#suppression_options}
 
 ---
 
@@ -1308,7 +1308,7 @@ Tags interface{}
 
 The tags (keys and values) associated with the contact list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_configuration_set#tags SesConfigurationSet#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_configuration_set#tags SesConfigurationSet#tags}
 
 ---
 
@@ -1322,7 +1322,7 @@ TrackingOptions SesConfigurationSetTrackingOptions
 
 An object that defines the open and click tracking options for emails that you send using the configuration set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_configuration_set#tracking_options SesConfigurationSet#tracking_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_configuration_set#tracking_options SesConfigurationSet#tracking_options}
 
 ---
 
@@ -1336,7 +1336,7 @@ VdmOptions SesConfigurationSetVdmOptions
 
 An object that contains Virtual Deliverability Manager (VDM) settings for this configuration set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_configuration_set#vdm_options SesConfigurationSet#vdm_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_configuration_set#vdm_options SesConfigurationSet#vdm_options}
 
 ---
 
@@ -1345,7 +1345,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sesConfigurationSet.SesConfigurationSetDeliveryOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesconfigurationset"
 
 &sesconfigurationset.SesConfigurationSetDeliveryOptions {
 	MaxDeliverySeconds: *f64,
@@ -1374,7 +1374,7 @@ MaxDeliverySeconds *f64
 
 Specifies the maximum time until which SES will retry sending emails.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_configuration_set#max_delivery_seconds SesConfigurationSet#max_delivery_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_configuration_set#max_delivery_seconds SesConfigurationSet#max_delivery_seconds}
 
 ---
 
@@ -1388,7 +1388,7 @@ SendingPoolName *string
 
 The name of the dedicated IP pool to associate with the configuration set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_configuration_set#sending_pool_name SesConfigurationSet#sending_pool_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_configuration_set#sending_pool_name SesConfigurationSet#sending_pool_name}
 
 ---
 
@@ -1404,7 +1404,7 @@ Specifies whether messages that use the configuration set are required to use Tr
 
 If the value is Require , messages are only delivered if a TLS connection can be established. If the value is Optional , messages can be delivered in plain text if a TLS connection can't be established.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_configuration_set#tls_policy SesConfigurationSet#tls_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_configuration_set#tls_policy SesConfigurationSet#tls_policy}
 
 ---
 
@@ -1413,7 +1413,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sesConfigurationSet.SesConfigurationSetReputationOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesconfigurationset"
 
 &sesconfigurationset.SesConfigurationSetReputationOptions {
 	ReputationMetricsEnabled: interface{},
@@ -1440,7 +1440,7 @@ If true , tracking of reputation metrics is enabled for the configuration set.
 
 If false , tracking of reputation metrics is disabled for the configuration set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_configuration_set#reputation_metrics_enabled SesConfigurationSet#reputation_metrics_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_configuration_set#reputation_metrics_enabled SesConfigurationSet#reputation_metrics_enabled}
 
 ---
 
@@ -1449,7 +1449,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sesConfigurationSet.SesConfigurationSetSendingOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesconfigurationset"
 
 &sesconfigurationset.SesConfigurationSetSendingOptions {
 	SendingEnabled: interface{},
@@ -1460,7 +1460,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesconfigurationset"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sesConfigurationSet.SesConfigurationSetSendingOptions.property.sendingEnabled">SendingEnabled</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_configuration_set#sending_enabled SesConfigurationSet#sending_enabled}. |
+| <code><a href="#@cdktn/provider-awscc.sesConfigurationSet.SesConfigurationSetSendingOptions.property.sendingEnabled">SendingEnabled</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_configuration_set#sending_enabled SesConfigurationSet#sending_enabled}. |
 
 ---
 
@@ -1472,7 +1472,7 @@ SendingEnabled interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_configuration_set#sending_enabled SesConfigurationSet#sending_enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_configuration_set#sending_enabled SesConfigurationSet#sending_enabled}.
 
 ---
 
@@ -1481,11 +1481,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sesConfigurationSet.SesConfigurationSetSuppressionOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesconfigurationset"
 
 &sesconfigurationset.SesConfigurationSetSuppressionOptions {
 	SuppressedReasons: *[]*string,
-	ValidationOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.sesConfigurationSet.SesConfigurationSetSuppressionOptionsValidationOptions,
+	ValidationOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.sesConfigurationSet.SesConfigurationSetSuppressionOptionsValidationOptions,
 }
 ```
 
@@ -1508,7 +1508,7 @@ SuppressedReasons *[]*string
 
 A list that contains the reasons that email addresses are automatically added to the suppression list for your account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_configuration_set#suppressed_reasons SesConfigurationSet#suppressed_reasons}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_configuration_set#suppressed_reasons SesConfigurationSet#suppressed_reasons}
 
 ---
 
@@ -1522,7 +1522,7 @@ ValidationOptions SesConfigurationSetSuppressionOptionsValidationOptions
 
 An object that contains information about the validation options for your account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_configuration_set#validation_options SesConfigurationSet#validation_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_configuration_set#validation_options SesConfigurationSet#validation_options}
 
 ---
 
@@ -1531,10 +1531,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sesConfigurationSet.SesConfigurationSetSuppressionOptionsValidationOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesconfigurationset"
 
 &sesconfigurationset.SesConfigurationSetSuppressionOptionsValidationOptions {
-	ConditionThreshold: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.sesConfigurationSet.SesConfigurationSetSuppressionOptionsValidationOptionsConditionThreshold,
+	ConditionThreshold: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.sesConfigurationSet.SesConfigurationSetSuppressionOptionsValidationOptionsConditionThreshold,
 }
 ```
 
@@ -1556,7 +1556,7 @@ ConditionThreshold SesConfigurationSetSuppressionOptionsValidationOptionsConditi
 
 The condition threshold settings for suppression validation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_configuration_set#condition_threshold SesConfigurationSet#condition_threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_configuration_set#condition_threshold SesConfigurationSet#condition_threshold}
 
 ---
 
@@ -1565,11 +1565,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sesConfigurationSet.SesConfigurationSetSuppressionOptionsValidationOptionsConditionThreshold.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesconfigurationset"
 
 &sesconfigurationset.SesConfigurationSetSuppressionOptionsValidationOptionsConditionThreshold {
 	ConditionThresholdEnabled: *string,
-	OverallConfidenceThreshold: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.sesConfigurationSet.SesConfigurationSetSuppressionOptionsValidationOptionsConditionThresholdOverallConfidenceThreshold,
+	OverallConfidenceThreshold: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.sesConfigurationSet.SesConfigurationSetSuppressionOptionsValidationOptionsConditionThresholdOverallConfidenceThreshold,
 }
 ```
 
@@ -1592,7 +1592,7 @@ ConditionThresholdEnabled *string
 
 Whether the condition threshold is enabled or disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_configuration_set#condition_threshold_enabled SesConfigurationSet#condition_threshold_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_configuration_set#condition_threshold_enabled SesConfigurationSet#condition_threshold_enabled}
 
 ---
 
@@ -1606,7 +1606,7 @@ OverallConfidenceThreshold SesConfigurationSetSuppressionOptionsValidationOption
 
 The overall confidence threshold settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_configuration_set#overall_confidence_threshold SesConfigurationSet#overall_confidence_threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_configuration_set#overall_confidence_threshold SesConfigurationSet#overall_confidence_threshold}
 
 ---
 
@@ -1615,7 +1615,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sesConfigurationSet.SesConfigurationSetSuppressionOptionsValidationOptionsConditionThresholdOverallConfidenceThreshold.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesconfigurationset"
 
 &sesconfigurationset.SesConfigurationSetSuppressionOptionsValidationOptionsConditionThresholdOverallConfidenceThreshold {
 	ConfidenceVerdictThreshold: *string,
@@ -1640,7 +1640,7 @@ ConfidenceVerdictThreshold *string
 
 The confidence verdict threshold level.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_configuration_set#confidence_verdict_threshold SesConfigurationSet#confidence_verdict_threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_configuration_set#confidence_verdict_threshold SesConfigurationSet#confidence_verdict_threshold}
 
 ---
 
@@ -1649,7 +1649,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sesConfigurationSet.SesConfigurationSetTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesconfigurationset"
 
 &sesconfigurationset.SesConfigurationSetTags {
 	Key: *string,
@@ -1661,8 +1661,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesconfigurationset"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sesConfigurationSet.SesConfigurationSetTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_configuration_set#key SesConfigurationSet#key}. |
-| <code><a href="#@cdktn/provider-awscc.sesConfigurationSet.SesConfigurationSetTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_configuration_set#value SesConfigurationSet#value}. |
+| <code><a href="#@cdktn/provider-awscc.sesConfigurationSet.SesConfigurationSetTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_configuration_set#key SesConfigurationSet#key}. |
+| <code><a href="#@cdktn/provider-awscc.sesConfigurationSet.SesConfigurationSetTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_configuration_set#value SesConfigurationSet#value}. |
 
 ---
 
@@ -1674,7 +1674,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_configuration_set#key SesConfigurationSet#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_configuration_set#key SesConfigurationSet#key}.
 
 ---
 
@@ -1686,7 +1686,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_configuration_set#value SesConfigurationSet#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_configuration_set#value SesConfigurationSet#value}.
 
 ---
 
@@ -1695,7 +1695,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sesConfigurationSet.SesConfigurationSetTrackingOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesconfigurationset"
 
 &sesconfigurationset.SesConfigurationSetTrackingOptions {
 	CustomRedirectDomain: *string,
@@ -1722,7 +1722,7 @@ CustomRedirectDomain *string
 
 The domain to use for tracking open and click events.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_configuration_set#custom_redirect_domain SesConfigurationSet#custom_redirect_domain}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_configuration_set#custom_redirect_domain SesConfigurationSet#custom_redirect_domain}
 
 ---
 
@@ -1736,7 +1736,7 @@ HttpsPolicy *string
 
 The https policy to use for tracking open and click events.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_configuration_set#https_policy SesConfigurationSet#https_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_configuration_set#https_policy SesConfigurationSet#https_policy}
 
 ---
 
@@ -1745,11 +1745,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sesConfigurationSet.SesConfigurationSetVdmOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesconfigurationset"
 
 &sesconfigurationset.SesConfigurationSetVdmOptions {
-	DashboardOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.sesConfigurationSet.SesConfigurationSetVdmOptionsDashboardOptions,
-	GuardianOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.sesConfigurationSet.SesConfigurationSetVdmOptionsGuardianOptions,
+	DashboardOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.sesConfigurationSet.SesConfigurationSetVdmOptionsDashboardOptions,
+	GuardianOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.sesConfigurationSet.SesConfigurationSetVdmOptionsGuardianOptions,
 }
 ```
 
@@ -1772,7 +1772,7 @@ DashboardOptions SesConfigurationSetVdmOptionsDashboardOptions
 
 Preferences regarding the Dashboard feature.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_configuration_set#dashboard_options SesConfigurationSet#dashboard_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_configuration_set#dashboard_options SesConfigurationSet#dashboard_options}
 
 ---
 
@@ -1786,7 +1786,7 @@ GuardianOptions SesConfigurationSetVdmOptionsGuardianOptions
 
 Preferences regarding the Guardian feature.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_configuration_set#guardian_options SesConfigurationSet#guardian_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_configuration_set#guardian_options SesConfigurationSet#guardian_options}
 
 ---
 
@@ -1795,7 +1795,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sesConfigurationSet.SesConfigurationSetVdmOptionsDashboardOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesconfigurationset"
 
 &sesconfigurationset.SesConfigurationSetVdmOptionsDashboardOptions {
 	EngagementMetrics: *string,
@@ -1820,7 +1820,7 @@ EngagementMetrics *string
 
 Whether emails sent with this configuration set have engagement tracking enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_configuration_set#engagement_metrics SesConfigurationSet#engagement_metrics}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_configuration_set#engagement_metrics SesConfigurationSet#engagement_metrics}
 
 ---
 
@@ -1829,7 +1829,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sesConfigurationSet.SesConfigurationSetVdmOptionsGuardianOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesconfigurationset"
 
 &sesconfigurationset.SesConfigurationSetVdmOptionsGuardianOptions {
 	OptimizedSharedDelivery: *string,
@@ -1854,7 +1854,7 @@ OptimizedSharedDelivery *string
 
 Whether emails sent with this configuration set have optimized delivery algorithm enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_configuration_set#optimized_shared_delivery SesConfigurationSet#optimized_shared_delivery}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_configuration_set#optimized_shared_delivery SesConfigurationSet#optimized_shared_delivery}
 
 ---
 
@@ -1865,7 +1865,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesConfigurationSet.SesConfigurationSetArchivingOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesconfigurationset"
 
 sesconfigurationset.NewSesConfigurationSetArchivingOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SesConfigurationSetArchivingOptionsOutputReference
 ```
@@ -2143,7 +2143,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesConfigurationSet.SesConfigurationSetDeliveryOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesconfigurationset"
 
 sesconfigurationset.NewSesConfigurationSetDeliveryOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SesConfigurationSetDeliveryOptionsOutputReference
 ```
@@ -2479,7 +2479,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesConfigurationSet.SesConfigurationSetReputationOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesconfigurationset"
 
 sesconfigurationset.NewSesConfigurationSetReputationOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SesConfigurationSetReputationOptionsOutputReference
 ```
@@ -2757,7 +2757,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesConfigurationSet.SesConfigurationSetSendingOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesconfigurationset"
 
 sesconfigurationset.NewSesConfigurationSetSendingOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SesConfigurationSetSendingOptionsOutputReference
 ```
@@ -3035,7 +3035,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesConfigurationSet.SesConfigurationSetSuppressionOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesconfigurationset"
 
 sesconfigurationset.NewSesConfigurationSetSuppressionOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SesConfigurationSetSuppressionOptionsOutputReference
 ```
@@ -3355,7 +3355,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesConfigurationSet.SesConfigurationSetSuppressionOptionsValidationOptionsConditionThresholdOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesconfigurationset"
 
 sesconfigurationset.NewSesConfigurationSetSuppressionOptionsValidationOptionsConditionThresholdOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SesConfigurationSetSuppressionOptionsValidationOptionsConditionThresholdOutputReference
 ```
@@ -3675,7 +3675,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesConfigurationSet.SesConfigurationSetSuppressionOptionsValidationOptionsConditionThresholdOverallConfidenceThresholdOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesconfigurationset"
 
 sesconfigurationset.NewSesConfigurationSetSuppressionOptionsValidationOptionsConditionThresholdOverallConfidenceThresholdOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SesConfigurationSetSuppressionOptionsValidationOptionsConditionThresholdOverallConfidenceThresholdOutputReference
 ```
@@ -3953,7 +3953,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesConfigurationSet.SesConfigurationSetSuppressionOptionsValidationOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesconfigurationset"
 
 sesconfigurationset.NewSesConfigurationSetSuppressionOptionsValidationOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SesConfigurationSetSuppressionOptionsValidationOptionsOutputReference
 ```
@@ -4244,7 +4244,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesConfigurationSet.SesConfigurationSetTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesconfigurationset"
 
 sesconfigurationset.NewSesConfigurationSetTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SesConfigurationSetTagsList
 ```
@@ -4404,7 +4404,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesConfigurationSet.SesConfigurationSetTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesconfigurationset"
 
 sesconfigurationset.NewSesConfigurationSetTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SesConfigurationSetTagsOutputReference
 ```
@@ -4729,7 +4729,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesConfigurationSet.SesConfigurationSetTrackingOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesconfigurationset"
 
 sesconfigurationset.NewSesConfigurationSetTrackingOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SesConfigurationSetTrackingOptionsOutputReference
 ```
@@ -5036,7 +5036,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesConfigurationSet.SesConfigurationSetVdmOptionsDashboardOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesconfigurationset"
 
 sesconfigurationset.NewSesConfigurationSetVdmOptionsDashboardOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SesConfigurationSetVdmOptionsDashboardOptionsOutputReference
 ```
@@ -5314,7 +5314,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesConfigurationSet.SesConfigurationSetVdmOptionsGuardianOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesconfigurationset"
 
 sesconfigurationset.NewSesConfigurationSetVdmOptionsGuardianOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SesConfigurationSetVdmOptionsGuardianOptionsOutputReference
 ```
@@ -5592,7 +5592,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesConfigurationSet.SesConfigurationSetVdmOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesconfigurationset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesconfigurationset"
 
 sesconfigurationset.NewSesConfigurationSetVdmOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SesConfigurationSetVdmOptionsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccEventsEventBuses <a name="DataAwsccEventsEventBuses" id="@cdktn/provider-awscc.dataAwsccEventsEventBuses.DataAwsccEventsEventBuses"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/events_event_buses awscc_events_event_buses}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/events_event_buses awscc_events_event_buses}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsEventBuses.DataAwsccEventsEventBuses.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventseventbuses"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventseventbuses"
 
 dataawscceventseventbuses.NewDataAwsccEventsEventBuses(scope Construct, id *string, config DataAwsccEventsEventBusesConfig) DataAwsccEventsEventBuses
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEventsEventBuses.DataAwsccEventsEventBuses.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventseventbuses"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventseventbuses"
 
 dataawscceventseventbuses.DataAwsccEventsEventBuses_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEventsEventBuses.DataAwsccEventsEventBuses.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventseventbuses"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventseventbuses"
 
 dataawscceventseventbuses.DataAwsccEventsEventBuses_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscceventseventbuses.DataAwsccEventsEventBuses_IsTerraformElement(x interfa
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEventsEventBuses.DataAwsccEventsEventBuses.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventseventbuses"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventseventbuses"
 
 dataawscceventseventbuses.DataAwsccEventsEventBuses_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscceventseventbuses.DataAwsccEventsEventBuses_IsTerraformDataSource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEventsEventBuses.DataAwsccEventsEventBuses.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventseventbuses"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventseventbuses"
 
 dataawscceventseventbuses.DataAwsccEventsEventBuses_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEventsEventBuses 
 
 The id of the existing DataAwsccEventsEventBuses that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/events_event_buses#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/events_event_buses#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventsEventBuses.DataAwsccEventsEventBusesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventseventbuses"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventseventbuses"
 
 &dataawscceventseventbuses.DataAwsccEventsEventBusesConfig {
 	Connection: interface{},

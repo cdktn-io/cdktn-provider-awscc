@@ -4,12 +4,12 @@
 
 ### DataAwsccSsmquicksetupConfigurationManager <a name="DataAwsccSsmquicksetupConfigurationManager" id="@cdktn/provider-awscc.dataAwsccSsmquicksetupConfigurationManager.DataAwsccSsmquicksetupConfigurationManager"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ssmquicksetup_configuration_manager awscc_ssmquicksetup_configuration_manager}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ssmquicksetup_configuration_manager awscc_ssmquicksetup_configuration_manager}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmquicksetupConfigurationManager.DataAwsccSsmquicksetupConfigurationManager.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmquicksetupconfigurationmanager"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmquicksetupconfigurationmanager"
 
 dataawsccssmquicksetupconfigurationmanager.NewDataAwsccSsmquicksetupConfigurationManager(scope Construct, id *string, config DataAwsccSsmquicksetupConfigurationManagerConfig) DataAwsccSsmquicksetupConfigurationManager
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSsmquicksetupConfigurationManager.DataAwsccSsmquicksetupConfigurationManager.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmquicksetupconfigurationmanager"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmquicksetupconfigurationmanager"
 
 dataawsccssmquicksetupconfigurationmanager.DataAwsccSsmquicksetupConfigurationManager_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSsmquicksetupConfigurationManager.DataAwsccSsmquicksetupConfigurationManager.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmquicksetupconfigurationmanager"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmquicksetupconfigurationmanager"
 
 dataawsccssmquicksetupconfigurationmanager.DataAwsccSsmquicksetupConfigurationManager_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccssmquicksetupconfigurationmanager.DataAwsccSsmquicksetupConfigurationMa
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSsmquicksetupConfigurationManager.DataAwsccSsmquicksetupConfigurationManager.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmquicksetupconfigurationmanager"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmquicksetupconfigurationmanager"
 
 dataawsccssmquicksetupconfigurationmanager.DataAwsccSsmquicksetupConfigurationManager_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccssmquicksetupconfigurationmanager.DataAwsccSsmquicksetupConfigurationMa
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSsmquicksetupConfigurationManager.DataAwsccSsmquicksetupConfigurationManager.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmquicksetupconfigurationmanager"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmquicksetupconfigurationmanager"
 
 dataawsccssmquicksetupconfigurationmanager.DataAwsccSsmquicksetupConfigurationManager_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSsmquicksetupConf
 
 The id of the existing DataAwsccSsmquicksetupConfigurationManager that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ssmquicksetup_configuration_manager#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ssmquicksetup_configuration_manager#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -675,7 +675,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSsmquicksetupConfigurationManager.DataAwsccSsmquicksetupConfigurationManagerConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmquicksetupconfigurationmanager"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmquicksetupconfigurationmanager"
 
 &dataawsccssmquicksetupconfigurationmanager.DataAwsccSsmquicksetupConfigurationManagerConfig {
 	Connection: interface{},
@@ -784,7 +784,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ssmquicksetup_configuration_manager#id DataAwsccSsmquicksetupConfigurationManager#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ssmquicksetup_configuration_manager#id DataAwsccSsmquicksetupConfigurationManager#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -796,7 +796,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSsmquicksetupConfigurationManager.DataAwsccSsmquicksetupConfigurationManagerConfigurationDefinitions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmquicksetupconfigurationmanager"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmquicksetupconfigurationmanager"
 
 &dataawsccssmquicksetupconfigurationmanager.DataAwsccSsmquicksetupConfigurationManagerConfigurationDefinitions {
 
@@ -809,7 +809,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmquicksetup
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSsmquicksetupConfigurationManager.DataAwsccSsmquicksetupConfigurationManagerStatusSummaries.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmquicksetupconfigurationmanager"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmquicksetupconfigurationmanager"
 
 &dataawsccssmquicksetupconfigurationmanager.DataAwsccSsmquicksetupConfigurationManagerStatusSummaries {
 
@@ -824,7 +824,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmquicksetup
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmquicksetupConfigurationManager.DataAwsccSsmquicksetupConfigurationManagerConfigurationDefinitionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmquicksetupconfigurationmanager"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmquicksetupconfigurationmanager"
 
 dataawsccssmquicksetupconfigurationmanager.NewDataAwsccSsmquicksetupConfigurationManagerConfigurationDefinitionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSsmquicksetupConfigurationManagerConfigurationDefinitionsList
 ```
@@ -973,7 +973,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmquicksetupConfigurationManager.DataAwsccSsmquicksetupConfigurationManagerConfigurationDefinitionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmquicksetupconfigurationmanager"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmquicksetupconfigurationmanager"
 
 dataawsccssmquicksetupconfigurationmanager.NewDataAwsccSsmquicksetupConfigurationManagerConfigurationDefinitionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSsmquicksetupConfigurationManagerConfigurationDefinitionsOutputReference
 ```
@@ -1306,7 +1306,7 @@ func InternalValue() DataAwsccSsmquicksetupConfigurationManagerConfigurationDefi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmquicksetupConfigurationManager.DataAwsccSsmquicksetupConfigurationManagerStatusSummariesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmquicksetupconfigurationmanager"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmquicksetupconfigurationmanager"
 
 dataawsccssmquicksetupconfigurationmanager.NewDataAwsccSsmquicksetupConfigurationManagerStatusSummariesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSsmquicksetupConfigurationManagerStatusSummariesList
 ```
@@ -1455,7 +1455,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmquicksetupConfigurationManager.DataAwsccSsmquicksetupConfigurationManagerStatusSummariesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmquicksetupconfigurationmanager"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmquicksetupconfigurationmanager"
 
 dataawsccssmquicksetupconfigurationmanager.NewDataAwsccSsmquicksetupConfigurationManagerStatusSummariesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSsmquicksetupConfigurationManagerStatusSummariesOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### ApigatewayBasePathMappingV2 <a name="ApigatewayBasePathMappingV2" id="@cdktn/provider-awscc.apigatewayBasePathMappingV2.ApigatewayBasePathMappingV2"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigateway_base_path_mapping_v2 awscc_apigateway_base_path_mapping_v2}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigateway_base_path_mapping_v2 awscc_apigateway_base_path_mapping_v2}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apigatewayBasePathMappingV2.ApigatewayBasePathMappingV2.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewaybasepathmappingv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewaybasepathmappingv2"
 
 apigatewaybasepathmappingv2.NewApigatewayBasePathMappingV2(scope Construct, id *string, config ApigatewayBasePathMappingV2Config) ApigatewayBasePathMappingV2
 ```
@@ -414,7 +414,7 @@ func ResetStage()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.apigatewayBasePathMappingV2.ApigatewayBasePathMappingV2.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewaybasepathmappingv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewaybasepathmappingv2"
 
 apigatewaybasepathmappingv2.ApigatewayBasePathMappingV2_IsConstruct(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.apigatewayBasePathMappingV2.ApigatewayBasePathMappingV2.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewaybasepathmappingv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewaybasepathmappingv2"
 
 apigatewaybasepathmappingv2.ApigatewayBasePathMappingV2_IsTerraformElement(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ apigatewaybasepathmappingv2.ApigatewayBasePathMappingV2_IsTerraformElement(x int
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.apigatewayBasePathMappingV2.ApigatewayBasePathMappingV2.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewaybasepathmappingv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewaybasepathmappingv2"
 
 apigatewaybasepathmappingv2.ApigatewayBasePathMappingV2_IsTerraformResource(x interface{}) *bool
 ```
@@ -474,7 +474,7 @@ apigatewaybasepathmappingv2.ApigatewayBasePathMappingV2_IsTerraformResource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.apigatewayBasePathMappingV2.ApigatewayBasePathMappingV2.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewaybasepathmappingv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewaybasepathmappingv2"
 
 apigatewaybasepathmappingv2.ApigatewayBasePathMappingV2_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -503,7 +503,7 @@ The construct id used in the generated config for the ApigatewayBasePathMappingV
 
 The id of the existing ApigatewayBasePathMappingV2 that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigateway_base_path_mapping_v2#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigateway_base_path_mapping_v2#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -813,7 +813,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.apigatewayBasePathMappingV2.ApigatewayBasePathMappingV2Config.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewaybasepathmappingv2"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewaybasepathmappingv2"
 
 &apigatewaybasepathmappingv2.ApigatewayBasePathMappingV2Config {
 	Connection: interface{},
@@ -928,7 +928,7 @@ DomainNameArn *string
 
 The Arn of an AWS::ApiGateway::DomainNameV2 resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigateway_base_path_mapping_v2#domain_name_arn ApigatewayBasePathMappingV2#domain_name_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigateway_base_path_mapping_v2#domain_name_arn ApigatewayBasePathMappingV2#domain_name_arn}
 
 ---
 
@@ -942,7 +942,7 @@ RestApiId *string
 
 The ID of the API.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigateway_base_path_mapping_v2#rest_api_id ApigatewayBasePathMappingV2#rest_api_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigateway_base_path_mapping_v2#rest_api_id ApigatewayBasePathMappingV2#rest_api_id}
 
 ---
 
@@ -956,7 +956,7 @@ BasePath *string
 
 The base path name that callers of the API must provide in the URL after the domain name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigateway_base_path_mapping_v2#base_path ApigatewayBasePathMappingV2#base_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigateway_base_path_mapping_v2#base_path ApigatewayBasePathMappingV2#base_path}
 
 ---
 
@@ -970,7 +970,7 @@ Stage *string
 
 The name of the API's stage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigateway_base_path_mapping_v2#stage ApigatewayBasePathMappingV2#stage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigateway_base_path_mapping_v2#stage ApigatewayBasePathMappingV2#stage}
 
 ---
 

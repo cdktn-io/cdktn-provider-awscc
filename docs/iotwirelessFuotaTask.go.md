@@ -4,12 +4,12 @@
 
 ### IotwirelessFuotaTask <a name="IotwirelessFuotaTask" id="@cdktn/provider-awscc.iotwirelessFuotaTask.IotwirelessFuotaTask"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_fuota_task awscc_iotwireless_fuota_task}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_fuota_task awscc_iotwireless_fuota_task}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotwirelessFuotaTask.IotwirelessFuotaTask.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotwirelessfuotatask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotwirelessfuotatask"
 
 iotwirelessfuotatask.NewIotwirelessFuotaTask(scope Construct, id *string, config IotwirelessFuotaTaskConfig) IotwirelessFuotaTask
 ```
@@ -475,7 +475,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.iotwirelessFuotaTask.IotwirelessFuotaTask.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotwirelessfuotatask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotwirelessfuotatask"
 
 iotwirelessfuotatask.IotwirelessFuotaTask_IsConstruct(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.iotwirelessFuotaTask.IotwirelessFuotaTask.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotwirelessfuotatask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotwirelessfuotatask"
 
 iotwirelessfuotatask.IotwirelessFuotaTask_IsTerraformElement(x interface{}) *bool
 ```
@@ -521,7 +521,7 @@ iotwirelessfuotatask.IotwirelessFuotaTask_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.iotwirelessFuotaTask.IotwirelessFuotaTask.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotwirelessfuotatask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotwirelessfuotatask"
 
 iotwirelessfuotatask.IotwirelessFuotaTask_IsTerraformResource(x interface{}) *bool
 ```
@@ -535,7 +535,7 @@ iotwirelessfuotatask.IotwirelessFuotaTask_IsTerraformResource(x interface{}) *bo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.iotwirelessFuotaTask.IotwirelessFuotaTask.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotwirelessfuotatask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotwirelessfuotatask"
 
 iotwirelessfuotatask.IotwirelessFuotaTask_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -564,7 +564,7 @@ The construct id used in the generated config for the IotwirelessFuotaTask to im
 
 The id of the existing IotwirelessFuotaTask that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_fuota_task#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_fuota_task#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1028,7 +1028,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotwirelessFuotaTask.IotwirelessFuotaTaskConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotwirelessfuotatask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotwirelessfuotatask"
 
 &iotwirelessfuotatask.IotwirelessFuotaTaskConfig {
 	Connection: interface{},
@@ -1040,7 +1040,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotwirelessfuotatask"
 	Provisioners: *[]interface{},
 	FirmwareUpdateImage: *string,
 	FirmwareUpdateRole: *string,
-	LoRaWan: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.iotwirelessFuotaTask.IotwirelessFuotaTaskLoRaWan,
+	LoRaWan: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.iotwirelessFuotaTask.IotwirelessFuotaTaskLoRaWan,
 	AssociateMulticastGroup: *string,
 	AssociateWirelessDevice: *string,
 	Description: *string,
@@ -1155,7 +1155,7 @@ FirmwareUpdateImage *string
 
 FUOTA task firmware update image binary S3 link.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_fuota_task#firmware_update_image IotwirelessFuotaTask#firmware_update_image}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_fuota_task#firmware_update_image IotwirelessFuotaTask#firmware_update_image}
 
 ---
 
@@ -1169,7 +1169,7 @@ FirmwareUpdateRole *string
 
 FUOTA task firmware IAM role for reading S3.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_fuota_task#firmware_update_role IotwirelessFuotaTask#firmware_update_role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_fuota_task#firmware_update_role IotwirelessFuotaTask#firmware_update_role}
 
 ---
 
@@ -1183,7 +1183,7 @@ LoRaWan IotwirelessFuotaTaskLoRaWan
 
 FUOTA task LoRaWAN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_fuota_task#lo_ra_wan IotwirelessFuotaTask#lo_ra_wan}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_fuota_task#lo_ra_wan IotwirelessFuotaTask#lo_ra_wan}
 
 ---
 
@@ -1197,7 +1197,7 @@ AssociateMulticastGroup *string
 
 Multicast group to associate. Only for update request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_fuota_task#associate_multicast_group IotwirelessFuotaTask#associate_multicast_group}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_fuota_task#associate_multicast_group IotwirelessFuotaTask#associate_multicast_group}
 
 ---
 
@@ -1211,7 +1211,7 @@ AssociateWirelessDevice *string
 
 Wireless device to associate. Only for update request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_fuota_task#associate_wireless_device IotwirelessFuotaTask#associate_wireless_device}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_fuota_task#associate_wireless_device IotwirelessFuotaTask#associate_wireless_device}
 
 ---
 
@@ -1225,7 +1225,7 @@ Description *string
 
 FUOTA task description.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_fuota_task#description IotwirelessFuotaTask#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_fuota_task#description IotwirelessFuotaTask#description}
 
 ---
 
@@ -1239,7 +1239,7 @@ DisassociateMulticastGroup *string
 
 Multicast group to disassociate. Only for update request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_fuota_task#disassociate_multicast_group IotwirelessFuotaTask#disassociate_multicast_group}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_fuota_task#disassociate_multicast_group IotwirelessFuotaTask#disassociate_multicast_group}
 
 ---
 
@@ -1253,7 +1253,7 @@ DisassociateWirelessDevice *string
 
 Wireless device to disassociate. Only for update request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_fuota_task#disassociate_wireless_device IotwirelessFuotaTask#disassociate_wireless_device}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_fuota_task#disassociate_wireless_device IotwirelessFuotaTask#disassociate_wireless_device}
 
 ---
 
@@ -1267,7 +1267,7 @@ Name *string
 
 Name of FUOTA task.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_fuota_task#name IotwirelessFuotaTask#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_fuota_task#name IotwirelessFuotaTask#name}
 
 ---
 
@@ -1281,7 +1281,7 @@ Tags interface{}
 
 A list of key-value pairs that contain metadata for the FUOTA task.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_fuota_task#tags IotwirelessFuotaTask#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_fuota_task#tags IotwirelessFuotaTask#tags}
 
 ---
 
@@ -1290,7 +1290,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotwirelessFuotaTask.IotwirelessFuotaTaskLoRaWan.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotwirelessfuotatask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotwirelessfuotatask"
 
 &iotwirelessfuotatask.IotwirelessFuotaTaskLoRaWan {
 	RfRegion: *string,
@@ -1315,7 +1315,7 @@ RfRegion *string
 
 FUOTA task LoRaWAN RF region.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_fuota_task#rf_region IotwirelessFuotaTask#rf_region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_fuota_task#rf_region IotwirelessFuotaTask#rf_region}
 
 ---
 
@@ -1324,7 +1324,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotwirelessFuotaTask.IotwirelessFuotaTaskTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotwirelessfuotatask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotwirelessfuotatask"
 
 &iotwirelessfuotatask.IotwirelessFuotaTaskTags {
 	Key: *string,
@@ -1336,8 +1336,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotwirelessfuotatask"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotwirelessFuotaTask.IotwirelessFuotaTaskTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_fuota_task#key IotwirelessFuotaTask#key}. |
-| <code><a href="#@cdktn/provider-awscc.iotwirelessFuotaTask.IotwirelessFuotaTaskTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_fuota_task#value IotwirelessFuotaTask#value}. |
+| <code><a href="#@cdktn/provider-awscc.iotwirelessFuotaTask.IotwirelessFuotaTaskTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_fuota_task#key IotwirelessFuotaTask#key}. |
+| <code><a href="#@cdktn/provider-awscc.iotwirelessFuotaTask.IotwirelessFuotaTaskTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_fuota_task#value IotwirelessFuotaTask#value}. |
 
 ---
 
@@ -1349,7 +1349,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_fuota_task#key IotwirelessFuotaTask#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_fuota_task#key IotwirelessFuotaTask#key}.
 
 ---
 
@@ -1361,7 +1361,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_fuota_task#value IotwirelessFuotaTask#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_fuota_task#value IotwirelessFuotaTask#value}.
 
 ---
 
@@ -1372,7 +1372,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotwirelessFuotaTask.IotwirelessFuotaTaskLoRaWanOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotwirelessfuotatask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotwirelessfuotatask"
 
 iotwirelessfuotatask.NewIotwirelessFuotaTaskLoRaWanOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IotwirelessFuotaTaskLoRaWanOutputReference
 ```
@@ -1654,7 +1654,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotwirelessFuotaTask.IotwirelessFuotaTaskTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotwirelessfuotatask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotwirelessfuotatask"
 
 iotwirelessfuotatask.NewIotwirelessFuotaTaskTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IotwirelessFuotaTaskTagsList
 ```
@@ -1814,7 +1814,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotwirelessFuotaTask.IotwirelessFuotaTaskTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotwirelessfuotatask"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotwirelessfuotatask"
 
 iotwirelessfuotatask.NewIotwirelessFuotaTaskTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IotwirelessFuotaTaskTagsOutputReference
 ```

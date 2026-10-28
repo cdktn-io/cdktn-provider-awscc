@@ -4,12 +4,12 @@
 
 ### DataAwsccWisdomMessageTemplate <a name="DataAwsccWisdomMessageTemplate" id="@cdktn/provider-awscc.dataAwsccWisdomMessageTemplate.DataAwsccWisdomMessageTemplate"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/wisdom_message_template awscc_wisdom_message_template}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/wisdom_message_template awscc_wisdom_message_template}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomMessageTemplate.DataAwsccWisdomMessageTemplate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdommessagetemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdommessagetemplate"
 
 dataawsccwisdommessagetemplate.NewDataAwsccWisdomMessageTemplate(scope Construct, id *string, config DataAwsccWisdomMessageTemplateConfig) DataAwsccWisdomMessageTemplate
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccWisdomMessageTemplate.DataAwsccWisdomMessageTemplate.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdommessagetemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdommessagetemplate"
 
 dataawsccwisdommessagetemplate.DataAwsccWisdomMessageTemplate_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccWisdomMessageTemplate.DataAwsccWisdomMessageTemplate.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdommessagetemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdommessagetemplate"
 
 dataawsccwisdommessagetemplate.DataAwsccWisdomMessageTemplate_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccwisdommessagetemplate.DataAwsccWisdomMessageTemplate_IsTerraformElement
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccWisdomMessageTemplate.DataAwsccWisdomMessageTemplate.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdommessagetemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdommessagetemplate"
 
 dataawsccwisdommessagetemplate.DataAwsccWisdomMessageTemplate_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccwisdommessagetemplate.DataAwsccWisdomMessageTemplate_IsTerraformDataSou
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccWisdomMessageTemplate.DataAwsccWisdomMessageTemplate.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdommessagetemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdommessagetemplate"
 
 dataawsccwisdommessagetemplate.DataAwsccWisdomMessageTemplate_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccWisdomMessageTemp
 
 The id of the existing DataAwsccWisdomMessageTemplate that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/wisdom_message_template#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/wisdom_message_template#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -730,7 +730,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomMessageTemplate.DataAwsccWisdomMessageTemplateConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdommessagetemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdommessagetemplate"
 
 &dataawsccwisdommessagetemplate.DataAwsccWisdomMessageTemplateConfig {
 	Connection: interface{},
@@ -839,7 +839,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/wisdom_message_template#id DataAwsccWisdomMessageTemplate#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/wisdom_message_template#id DataAwsccWisdomMessageTemplate#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -851,7 +851,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomMessageTemplate.DataAwsccWisdomMessageTemplateContent.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdommessagetemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdommessagetemplate"
 
 &dataawsccwisdommessagetemplate.DataAwsccWisdomMessageTemplateContent {
 
@@ -864,7 +864,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdommessage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomMessageTemplate.DataAwsccWisdomMessageTemplateContentEmailMessageTemplateContent.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdommessagetemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdommessagetemplate"
 
 &dataawsccwisdommessagetemplate.DataAwsccWisdomMessageTemplateContentEmailMessageTemplateContent {
 
@@ -877,7 +877,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdommessage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomMessageTemplate.DataAwsccWisdomMessageTemplateContentEmailMessageTemplateContentBody.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdommessagetemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdommessagetemplate"
 
 &dataawsccwisdommessagetemplate.DataAwsccWisdomMessageTemplateContentEmailMessageTemplateContentBody {
 
@@ -890,7 +890,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdommessage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomMessageTemplate.DataAwsccWisdomMessageTemplateContentEmailMessageTemplateContentBodyHtml.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdommessagetemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdommessagetemplate"
 
 &dataawsccwisdommessagetemplate.DataAwsccWisdomMessageTemplateContentEmailMessageTemplateContentBodyHtml {
 
@@ -903,7 +903,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdommessage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomMessageTemplate.DataAwsccWisdomMessageTemplateContentEmailMessageTemplateContentBodyPlainText.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdommessagetemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdommessagetemplate"
 
 &dataawsccwisdommessagetemplate.DataAwsccWisdomMessageTemplateContentEmailMessageTemplateContentBodyPlainText {
 
@@ -916,7 +916,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdommessage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomMessageTemplate.DataAwsccWisdomMessageTemplateContentEmailMessageTemplateContentHeaders.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdommessagetemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdommessagetemplate"
 
 &dataawsccwisdommessagetemplate.DataAwsccWisdomMessageTemplateContentEmailMessageTemplateContentHeaders {
 
@@ -929,7 +929,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdommessage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomMessageTemplate.DataAwsccWisdomMessageTemplateContentSmsMessageTemplateContent.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdommessagetemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdommessagetemplate"
 
 &dataawsccwisdommessagetemplate.DataAwsccWisdomMessageTemplateContentSmsMessageTemplateContent {
 
@@ -942,7 +942,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdommessage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomMessageTemplate.DataAwsccWisdomMessageTemplateContentSmsMessageTemplateContentBody.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdommessagetemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdommessagetemplate"
 
 &dataawsccwisdommessagetemplate.DataAwsccWisdomMessageTemplateContentSmsMessageTemplateContentBody {
 
@@ -955,7 +955,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdommessage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomMessageTemplate.DataAwsccWisdomMessageTemplateContentSmsMessageTemplateContentBodyPlainText.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdommessagetemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdommessagetemplate"
 
 &dataawsccwisdommessagetemplate.DataAwsccWisdomMessageTemplateContentSmsMessageTemplateContentBodyPlainText {
 
@@ -968,7 +968,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdommessage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomMessageTemplate.DataAwsccWisdomMessageTemplateDefaultAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdommessagetemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdommessagetemplate"
 
 &dataawsccwisdommessagetemplate.DataAwsccWisdomMessageTemplateDefaultAttributes {
 
@@ -981,7 +981,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdommessage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomMessageTemplate.DataAwsccWisdomMessageTemplateDefaultAttributesAgentAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdommessagetemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdommessagetemplate"
 
 &dataawsccwisdommessagetemplate.DataAwsccWisdomMessageTemplateDefaultAttributesAgentAttributes {
 
@@ -994,7 +994,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdommessage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomMessageTemplate.DataAwsccWisdomMessageTemplateDefaultAttributesCustomerProfileAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdommessagetemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdommessagetemplate"
 
 &dataawsccwisdommessagetemplate.DataAwsccWisdomMessageTemplateDefaultAttributesCustomerProfileAttributes {
 
@@ -1007,7 +1007,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdommessage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomMessageTemplate.DataAwsccWisdomMessageTemplateDefaultAttributesSystemAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdommessagetemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdommessagetemplate"
 
 &dataawsccwisdommessagetemplate.DataAwsccWisdomMessageTemplateDefaultAttributesSystemAttributes {
 
@@ -1020,7 +1020,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdommessage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomMessageTemplate.DataAwsccWisdomMessageTemplateDefaultAttributesSystemAttributesCustomerEndpoint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdommessagetemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdommessagetemplate"
 
 &dataawsccwisdommessagetemplate.DataAwsccWisdomMessageTemplateDefaultAttributesSystemAttributesCustomerEndpoint {
 
@@ -1033,7 +1033,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdommessage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomMessageTemplate.DataAwsccWisdomMessageTemplateDefaultAttributesSystemAttributesSystemEndpoint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdommessagetemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdommessagetemplate"
 
 &dataawsccwisdommessagetemplate.DataAwsccWisdomMessageTemplateDefaultAttributesSystemAttributesSystemEndpoint {
 
@@ -1046,7 +1046,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdommessage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomMessageTemplate.DataAwsccWisdomMessageTemplateGroupingConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdommessagetemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdommessagetemplate"
 
 &dataawsccwisdommessagetemplate.DataAwsccWisdomMessageTemplateGroupingConfiguration {
 
@@ -1059,7 +1059,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdommessage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomMessageTemplate.DataAwsccWisdomMessageTemplateMessageTemplateAttachments.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdommessagetemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdommessagetemplate"
 
 &dataawsccwisdommessagetemplate.DataAwsccWisdomMessageTemplateMessageTemplateAttachments {
 
@@ -1072,7 +1072,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdommessage
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomMessageTemplate.DataAwsccWisdomMessageTemplateTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdommessagetemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdommessagetemplate"
 
 &dataawsccwisdommessagetemplate.DataAwsccWisdomMessageTemplateTags {
 
@@ -1087,7 +1087,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdommessage
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomMessageTemplate.DataAwsccWisdomMessageTemplateContentEmailMessageTemplateContentBodyHtmlOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdommessagetemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdommessagetemplate"
 
 dataawsccwisdommessagetemplate.NewDataAwsccWisdomMessageTemplateContentEmailMessageTemplateContentBodyHtmlOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWisdomMessageTemplateContentEmailMessageTemplateContentBodyHtmlOutputReference
 ```
@@ -1347,7 +1347,7 @@ func InternalValue() DataAwsccWisdomMessageTemplateContentEmailMessageTemplateCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomMessageTemplate.DataAwsccWisdomMessageTemplateContentEmailMessageTemplateContentBodyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdommessagetemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdommessagetemplate"
 
 dataawsccwisdommessagetemplate.NewDataAwsccWisdomMessageTemplateContentEmailMessageTemplateContentBodyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWisdomMessageTemplateContentEmailMessageTemplateContentBodyOutputReference
 ```
@@ -1618,7 +1618,7 @@ func InternalValue() DataAwsccWisdomMessageTemplateContentEmailMessageTemplateCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomMessageTemplate.DataAwsccWisdomMessageTemplateContentEmailMessageTemplateContentBodyPlainTextOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdommessagetemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdommessagetemplate"
 
 dataawsccwisdommessagetemplate.NewDataAwsccWisdomMessageTemplateContentEmailMessageTemplateContentBodyPlainTextOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWisdomMessageTemplateContentEmailMessageTemplateContentBodyPlainTextOutputReference
 ```
@@ -1878,7 +1878,7 @@ func InternalValue() DataAwsccWisdomMessageTemplateContentEmailMessageTemplateCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomMessageTemplate.DataAwsccWisdomMessageTemplateContentEmailMessageTemplateContentHeadersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdommessagetemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdommessagetemplate"
 
 dataawsccwisdommessagetemplate.NewDataAwsccWisdomMessageTemplateContentEmailMessageTemplateContentHeadersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccWisdomMessageTemplateContentEmailMessageTemplateContentHeadersList
 ```
@@ -2027,7 +2027,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomMessageTemplate.DataAwsccWisdomMessageTemplateContentEmailMessageTemplateContentHeadersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdommessagetemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdommessagetemplate"
 
 dataawsccwisdommessagetemplate.NewDataAwsccWisdomMessageTemplateContentEmailMessageTemplateContentHeadersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccWisdomMessageTemplateContentEmailMessageTemplateContentHeadersOutputReference
 ```
@@ -2316,7 +2316,7 @@ func InternalValue() DataAwsccWisdomMessageTemplateContentEmailMessageTemplateCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomMessageTemplate.DataAwsccWisdomMessageTemplateContentEmailMessageTemplateContentOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdommessagetemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdommessagetemplate"
 
 dataawsccwisdommessagetemplate.NewDataAwsccWisdomMessageTemplateContentEmailMessageTemplateContentOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWisdomMessageTemplateContentEmailMessageTemplateContentOutputReference
 ```
@@ -2598,7 +2598,7 @@ func InternalValue() DataAwsccWisdomMessageTemplateContentEmailMessageTemplateCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomMessageTemplate.DataAwsccWisdomMessageTemplateContentOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdommessagetemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdommessagetemplate"
 
 dataawsccwisdommessagetemplate.NewDataAwsccWisdomMessageTemplateContentOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWisdomMessageTemplateContentOutputReference
 ```
@@ -2869,7 +2869,7 @@ func InternalValue() DataAwsccWisdomMessageTemplateContent
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomMessageTemplate.DataAwsccWisdomMessageTemplateContentSmsMessageTemplateContentBodyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdommessagetemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdommessagetemplate"
 
 dataawsccwisdommessagetemplate.NewDataAwsccWisdomMessageTemplateContentSmsMessageTemplateContentBodyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWisdomMessageTemplateContentSmsMessageTemplateContentBodyOutputReference
 ```
@@ -3129,7 +3129,7 @@ func InternalValue() DataAwsccWisdomMessageTemplateContentSmsMessageTemplateCont
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomMessageTemplate.DataAwsccWisdomMessageTemplateContentSmsMessageTemplateContentBodyPlainTextOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdommessagetemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdommessagetemplate"
 
 dataawsccwisdommessagetemplate.NewDataAwsccWisdomMessageTemplateContentSmsMessageTemplateContentBodyPlainTextOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWisdomMessageTemplateContentSmsMessageTemplateContentBodyPlainTextOutputReference
 ```
@@ -3389,7 +3389,7 @@ func InternalValue() DataAwsccWisdomMessageTemplateContentSmsMessageTemplateCont
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomMessageTemplate.DataAwsccWisdomMessageTemplateContentSmsMessageTemplateContentOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdommessagetemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdommessagetemplate"
 
 dataawsccwisdommessagetemplate.NewDataAwsccWisdomMessageTemplateContentSmsMessageTemplateContentOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWisdomMessageTemplateContentSmsMessageTemplateContentOutputReference
 ```
@@ -3649,7 +3649,7 @@ func InternalValue() DataAwsccWisdomMessageTemplateContentSmsMessageTemplateCont
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomMessageTemplate.DataAwsccWisdomMessageTemplateDefaultAttributesAgentAttributesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdommessagetemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdommessagetemplate"
 
 dataawsccwisdommessagetemplate.NewDataAwsccWisdomMessageTemplateDefaultAttributesAgentAttributesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWisdomMessageTemplateDefaultAttributesAgentAttributesOutputReference
 ```
@@ -3920,7 +3920,7 @@ func InternalValue() DataAwsccWisdomMessageTemplateDefaultAttributesAgentAttribu
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomMessageTemplate.DataAwsccWisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdommessagetemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdommessagetemplate"
 
 dataawsccwisdommessagetemplate.NewDataAwsccWisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutputReference
 ```
@@ -4807,7 +4807,7 @@ func InternalValue() DataAwsccWisdomMessageTemplateDefaultAttributesCustomerProf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomMessageTemplate.DataAwsccWisdomMessageTemplateDefaultAttributesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdommessagetemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdommessagetemplate"
 
 dataawsccwisdommessagetemplate.NewDataAwsccWisdomMessageTemplateDefaultAttributesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWisdomMessageTemplateDefaultAttributesOutputReference
 ```
@@ -5100,7 +5100,7 @@ func InternalValue() DataAwsccWisdomMessageTemplateDefaultAttributes
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomMessageTemplate.DataAwsccWisdomMessageTemplateDefaultAttributesSystemAttributesCustomerEndpointOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdommessagetemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdommessagetemplate"
 
 dataawsccwisdommessagetemplate.NewDataAwsccWisdomMessageTemplateDefaultAttributesSystemAttributesCustomerEndpointOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWisdomMessageTemplateDefaultAttributesSystemAttributesCustomerEndpointOutputReference
 ```
@@ -5360,7 +5360,7 @@ func InternalValue() DataAwsccWisdomMessageTemplateDefaultAttributesSystemAttrib
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomMessageTemplate.DataAwsccWisdomMessageTemplateDefaultAttributesSystemAttributesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdommessagetemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdommessagetemplate"
 
 dataawsccwisdommessagetemplate.NewDataAwsccWisdomMessageTemplateDefaultAttributesSystemAttributesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWisdomMessageTemplateDefaultAttributesSystemAttributesOutputReference
 ```
@@ -5642,7 +5642,7 @@ func InternalValue() DataAwsccWisdomMessageTemplateDefaultAttributesSystemAttrib
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomMessageTemplate.DataAwsccWisdomMessageTemplateDefaultAttributesSystemAttributesSystemEndpointOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdommessagetemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdommessagetemplate"
 
 dataawsccwisdommessagetemplate.NewDataAwsccWisdomMessageTemplateDefaultAttributesSystemAttributesSystemEndpointOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWisdomMessageTemplateDefaultAttributesSystemAttributesSystemEndpointOutputReference
 ```
@@ -5902,7 +5902,7 @@ func InternalValue() DataAwsccWisdomMessageTemplateDefaultAttributesSystemAttrib
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomMessageTemplate.DataAwsccWisdomMessageTemplateGroupingConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdommessagetemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdommessagetemplate"
 
 dataawsccwisdommessagetemplate.NewDataAwsccWisdomMessageTemplateGroupingConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWisdomMessageTemplateGroupingConfigurationOutputReference
 ```
@@ -6173,7 +6173,7 @@ func InternalValue() DataAwsccWisdomMessageTemplateGroupingConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomMessageTemplate.DataAwsccWisdomMessageTemplateMessageTemplateAttachmentsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdommessagetemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdommessagetemplate"
 
 dataawsccwisdommessagetemplate.NewDataAwsccWisdomMessageTemplateMessageTemplateAttachmentsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccWisdomMessageTemplateMessageTemplateAttachmentsList
 ```
@@ -6322,7 +6322,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomMessageTemplate.DataAwsccWisdomMessageTemplateMessageTemplateAttachmentsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdommessagetemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdommessagetemplate"
 
 dataawsccwisdommessagetemplate.NewDataAwsccWisdomMessageTemplateMessageTemplateAttachmentsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccWisdomMessageTemplateMessageTemplateAttachmentsOutputReference
 ```
@@ -6622,7 +6622,7 @@ func InternalValue() DataAwsccWisdomMessageTemplateMessageTemplateAttachments
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomMessageTemplate.DataAwsccWisdomMessageTemplateTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdommessagetemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdommessagetemplate"
 
 dataawsccwisdommessagetemplate.NewDataAwsccWisdomMessageTemplateTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccWisdomMessageTemplateTagsList
 ```
@@ -6771,7 +6771,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomMessageTemplate.DataAwsccWisdomMessageTemplateTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdommessagetemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdommessagetemplate"
 
 dataawsccwisdommessagetemplate.NewDataAwsccWisdomMessageTemplateTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccWisdomMessageTemplateTagsOutputReference
 ```

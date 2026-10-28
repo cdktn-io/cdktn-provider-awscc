@@ -4,12 +4,12 @@
 
 ### DataAwsccCodeconnectionsHost <a name="DataAwsccCodeconnectionsHost" id="@cdktn/provider-awscc.dataAwsccCodeconnectionsHost.DataAwsccCodeconnectionsHost"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/codeconnections_host awscc_codeconnections_host}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/codeconnections_host awscc_codeconnections_host}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodeconnectionsHost.DataAwsccCodeconnectionsHost.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodeconnectionshost"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodeconnectionshost"
 
 dataawscccodeconnectionshost.NewDataAwsccCodeconnectionsHost(scope Construct, id *string, config DataAwsccCodeconnectionsHostConfig) DataAwsccCodeconnectionsHost
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCodeconnectionsHost.DataAwsccCodeconnectionsHost.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodeconnectionshost"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodeconnectionshost"
 
 dataawscccodeconnectionshost.DataAwsccCodeconnectionsHost_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCodeconnectionsHost.DataAwsccCodeconnectionsHost.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodeconnectionshost"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodeconnectionshost"
 
 dataawscccodeconnectionshost.DataAwsccCodeconnectionsHost_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccodeconnectionshost.DataAwsccCodeconnectionsHost_IsTerraformElement(x i
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCodeconnectionsHost.DataAwsccCodeconnectionsHost.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodeconnectionshost"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodeconnectionshost"
 
 dataawscccodeconnectionshost.DataAwsccCodeconnectionsHost_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccodeconnectionshost.DataAwsccCodeconnectionsHost_IsTerraformDataSource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCodeconnectionsHost.DataAwsccCodeconnectionsHost.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodeconnectionshost"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodeconnectionshost"
 
 dataawscccodeconnectionshost.DataAwsccCodeconnectionsHost_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCodeconnectionsHo
 
 The id of the existing DataAwsccCodeconnectionsHost that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/codeconnections_host#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/codeconnections_host#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -675,7 +675,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodeconnectionsHost.DataAwsccCodeconnectionsHostConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodeconnectionshost"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodeconnectionshost"
 
 &dataawscccodeconnectionshost.DataAwsccCodeconnectionsHostConfig {
 	Connection: interface{},
@@ -784,7 +784,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/codeconnections_host#id DataAwsccCodeconnectionsHost#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/codeconnections_host#id DataAwsccCodeconnectionsHost#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -796,7 +796,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodeconnectionsHost.DataAwsccCodeconnectionsHostTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodeconnectionshost"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodeconnectionshost"
 
 &dataawscccodeconnectionshost.DataAwsccCodeconnectionsHostTags {
 
@@ -809,7 +809,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodeconnectio
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodeconnectionsHost.DataAwsccCodeconnectionsHostVpcConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodeconnectionshost"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodeconnectionshost"
 
 &dataawscccodeconnectionshost.DataAwsccCodeconnectionsHostVpcConfiguration {
 
@@ -824,7 +824,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodeconnectio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodeconnectionsHost.DataAwsccCodeconnectionsHostTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodeconnectionshost"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodeconnectionshost"
 
 dataawscccodeconnectionshost.NewDataAwsccCodeconnectionsHostTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCodeconnectionsHostTagsList
 ```
@@ -973,7 +973,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodeconnectionsHost.DataAwsccCodeconnectionsHostTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodeconnectionshost"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodeconnectionshost"
 
 dataawscccodeconnectionshost.NewDataAwsccCodeconnectionsHostTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCodeconnectionsHostTagsOutputReference
 ```
@@ -1262,7 +1262,7 @@ func InternalValue() DataAwsccCodeconnectionsHostTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodeconnectionsHost.DataAwsccCodeconnectionsHostVpcConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodeconnectionshost"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodeconnectionshost"
 
 dataawscccodeconnectionshost.NewDataAwsccCodeconnectionsHostVpcConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCodeconnectionsHostVpcConfigurationOutputReference
 ```

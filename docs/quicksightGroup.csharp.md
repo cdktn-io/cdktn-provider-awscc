@@ -4,7 +4,7 @@
 
 ### QuicksightGroup <a name="QuicksightGroup" id="@cdktn/provider-awscc.quicksightGroup.QuicksightGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_group awscc_quicksight_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_group awscc_quicksight_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightGroup.QuicksightGroup.Initializer"></a>
 
@@ -496,7 +496,7 @@ The construct id used in the generated config for the QuicksightGroup to import.
 
 The id of the existing QuicksightGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -908,7 +908,7 @@ public string GroupName { get; set; }
 
 A name for the group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_group#group_name QuicksightGroup#group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_group#group_name QuicksightGroup#group_name}
 
 ---
 
@@ -922,7 +922,7 @@ public string Namespace { get; set; }
 
 The namespace that you want the group to be a part of.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_group#namespace QuicksightGroup#namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_group#namespace QuicksightGroup#namespace}
 
 ---
 
@@ -936,7 +936,7 @@ public string Description { get; set; }
 
 A description for the group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_group#description QuicksightGroup#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_group#description QuicksightGroup#description}
 
 ---
 

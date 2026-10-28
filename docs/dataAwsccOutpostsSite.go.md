@@ -4,12 +4,12 @@
 
 ### DataAwsccOutpostsSite <a name="DataAwsccOutpostsSite" id="@cdktn/provider-awscc.dataAwsccOutpostsSite.DataAwsccOutpostsSite"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/outposts_site awscc_outposts_site}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/outposts_site awscc_outposts_site}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOutpostsSite.DataAwsccOutpostsSite.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccoutpostssite"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccoutpostssite"
 
 dataawsccoutpostssite.NewDataAwsccOutpostsSite(scope Construct, id *string, config DataAwsccOutpostsSiteConfig) DataAwsccOutpostsSite
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccOutpostsSite.DataAwsccOutpostsSite.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccoutpostssite"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccoutpostssite"
 
 dataawsccoutpostssite.DataAwsccOutpostsSite_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccOutpostsSite.DataAwsccOutpostsSite.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccoutpostssite"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccoutpostssite"
 
 dataawsccoutpostssite.DataAwsccOutpostsSite_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccoutpostssite.DataAwsccOutpostsSite_IsTerraformElement(x interface{}) *b
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccOutpostsSite.DataAwsccOutpostsSite.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccoutpostssite"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccoutpostssite"
 
 dataawsccoutpostssite.DataAwsccOutpostsSite_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccoutpostssite.DataAwsccOutpostsSite_IsTerraformDataSource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccOutpostsSite.DataAwsccOutpostsSite.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccoutpostssite"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccoutpostssite"
 
 dataawsccoutpostssite.DataAwsccOutpostsSite_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccOutpostsSite to i
 
 The id of the existing DataAwsccOutpostsSite that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/outposts_site#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/outposts_site#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -686,7 +686,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOutpostsSite.DataAwsccOutpostsSiteConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccoutpostssite"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccoutpostssite"
 
 &dataawsccoutpostssite.DataAwsccOutpostsSiteConfig {
 	Connection: interface{},
@@ -795,7 +795,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/outposts_site#id DataAwsccOutpostsSite#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/outposts_site#id DataAwsccOutpostsSite#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -807,7 +807,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOutpostsSite.DataAwsccOutpostsSiteOperatingAddress.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccoutpostssite"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccoutpostssite"
 
 &dataawsccoutpostssite.DataAwsccOutpostsSiteOperatingAddress {
 
@@ -820,7 +820,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccoutpostssite"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOutpostsSite.DataAwsccOutpostsSiteRackPhysicalProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccoutpostssite"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccoutpostssite"
 
 &dataawsccoutpostssite.DataAwsccOutpostsSiteRackPhysicalProperties {
 
@@ -833,7 +833,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccoutpostssite"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOutpostsSite.DataAwsccOutpostsSiteShippingAddress.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccoutpostssite"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccoutpostssite"
 
 &dataawsccoutpostssite.DataAwsccOutpostsSiteShippingAddress {
 
@@ -846,7 +846,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccoutpostssite"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOutpostsSite.DataAwsccOutpostsSiteTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccoutpostssite"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccoutpostssite"
 
 &dataawsccoutpostssite.DataAwsccOutpostsSiteTags {
 
@@ -861,7 +861,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccoutpostssite"
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOutpostsSite.DataAwsccOutpostsSiteOperatingAddressOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccoutpostssite"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccoutpostssite"
 
 dataawsccoutpostssite.NewDataAwsccOutpostsSiteOperatingAddressOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccOutpostsSiteOperatingAddressOutputReference
 ```
@@ -1231,7 +1231,7 @@ func InternalValue() DataAwsccOutpostsSiteOperatingAddress
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOutpostsSite.DataAwsccOutpostsSiteRackPhysicalPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccoutpostssite"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccoutpostssite"
 
 dataawsccoutpostssite.NewDataAwsccOutpostsSiteRackPhysicalPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccOutpostsSiteRackPhysicalPropertiesOutputReference
 ```
@@ -1579,7 +1579,7 @@ func InternalValue() DataAwsccOutpostsSiteRackPhysicalProperties
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOutpostsSite.DataAwsccOutpostsSiteShippingAddressOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccoutpostssite"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccoutpostssite"
 
 dataawsccoutpostssite.NewDataAwsccOutpostsSiteShippingAddressOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccOutpostsSiteShippingAddressOutputReference
 ```
@@ -1949,7 +1949,7 @@ func InternalValue() DataAwsccOutpostsSiteShippingAddress
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOutpostsSite.DataAwsccOutpostsSiteTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccoutpostssite"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccoutpostssite"
 
 dataawsccoutpostssite.NewDataAwsccOutpostsSiteTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccOutpostsSiteTagsList
 ```
@@ -2098,7 +2098,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOutpostsSite.DataAwsccOutpostsSiteTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccoutpostssite"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccoutpostssite"
 
 dataawsccoutpostssite.NewDataAwsccOutpostsSiteTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccOutpostsSiteTagsOutputReference
 ```

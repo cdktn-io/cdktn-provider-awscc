@@ -4,12 +4,12 @@
 
 ### MediatailorProgram <a name="MediatailorProgram" id="@cdktn/provider-awscc.mediatailorProgram.MediatailorProgram"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program awscc_mediatailor_program}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program awscc_mediatailor_program}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediatailorProgram.MediatailorProgram.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorprogram"
 
 mediatailorprogram.NewMediatailorProgram(scope Construct, id *string, config MediatailorProgramConfig) MediatailorProgram
 ```
@@ -474,7 +474,7 @@ func ResetVodSourceName()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.mediatailorProgram.MediatailorProgram.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorprogram"
 
 mediatailorprogram.MediatailorProgram_IsConstruct(x interface{}) *bool
 ```
@@ -506,7 +506,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.mediatailorProgram.MediatailorProgram.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorprogram"
 
 mediatailorprogram.MediatailorProgram_IsTerraformElement(x interface{}) *bool
 ```
@@ -520,7 +520,7 @@ mediatailorprogram.MediatailorProgram_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.mediatailorProgram.MediatailorProgram.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorprogram"
 
 mediatailorprogram.MediatailorProgram_IsTerraformResource(x interface{}) *bool
 ```
@@ -534,7 +534,7 @@ mediatailorprogram.MediatailorProgram_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.mediatailorProgram.MediatailorProgram.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorprogram"
 
 mediatailorprogram.MediatailorProgram_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -563,7 +563,7 @@ The construct id used in the generated config for the MediatailorProgram to impo
 
 The id of the existing MediatailorProgram that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1005,15 +1005,15 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediatailorProgram.MediatailorProgramAdBreaks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorprogram"
 
 &mediatailorprogram.MediatailorProgramAdBreaks {
 	AdBreakMetadata: interface{},
 	MessageType: *string,
 	OffsetMillis: *f64,
-	Slate: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.mediatailorProgram.MediatailorProgramAdBreaksSlate,
-	SpliceInsertMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.mediatailorProgram.MediatailorProgramAdBreaksSpliceInsertMessage,
-	TimeSignalMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.mediatailorProgram.MediatailorProgramAdBreaksTimeSignalMessage,
+	Slate: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.mediatailorProgram.MediatailorProgramAdBreaksSlate,
+	SpliceInsertMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.mediatailorProgram.MediatailorProgramAdBreaksSpliceInsertMessage,
+	TimeSignalMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.mediatailorProgram.MediatailorProgramAdBreaksTimeSignalMessage,
 }
 ```
 
@@ -1040,7 +1040,7 @@ AdBreakMetadata interface{}
 
 Defines a list of key/value pairs that MediaTailor generates within the EXT-X-ASSET tag for SCTE35_ENHANCED output.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#ad_break_metadata MediatailorProgram#ad_break_metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#ad_break_metadata MediatailorProgram#ad_break_metadata}
 
 ---
 
@@ -1054,7 +1054,7 @@ MessageType *string
 
 The SCTE-35 ad insertion type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#message_type MediatailorProgram#message_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#message_type MediatailorProgram#message_type}
 
 ---
 
@@ -1068,7 +1068,7 @@ OffsetMillis *f64
 
 How long (in milliseconds) after the beginning of the program that an ad starts.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#offset_millis MediatailorProgram#offset_millis}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#offset_millis MediatailorProgram#offset_millis}
 
 ---
 
@@ -1082,7 +1082,7 @@ Slate MediatailorProgramAdBreaksSlate
 
 Slate VOD source configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#slate MediatailorProgram#slate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#slate MediatailorProgram#slate}
 
 ---
 
@@ -1096,7 +1096,7 @@ SpliceInsertMessage MediatailorProgramAdBreaksSpliceInsertMessage
 
 Splice insert message configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#splice_insert_message MediatailorProgram#splice_insert_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#splice_insert_message MediatailorProgram#splice_insert_message}
 
 ---
 
@@ -1110,7 +1110,7 @@ TimeSignalMessage MediatailorProgramAdBreaksTimeSignalMessage
 
 The SCTE-35 time_signal message configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#time_signal_message MediatailorProgram#time_signal_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#time_signal_message MediatailorProgram#time_signal_message}
 
 ---
 
@@ -1119,7 +1119,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediatailorProgram.MediatailorProgramAdBreaksAdBreakMetadata.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorprogram"
 
 &mediatailorprogram.MediatailorProgramAdBreaksAdBreakMetadata {
 	Key: *string,
@@ -1146,7 +1146,7 @@ Key *string
 
 The key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#key MediatailorProgram#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#key MediatailorProgram#key}
 
 ---
 
@@ -1160,7 +1160,7 @@ Value *string
 
 The value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#value MediatailorProgram#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#value MediatailorProgram#value}
 
 ---
 
@@ -1169,7 +1169,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediatailorProgram.MediatailorProgramAdBreaksSlate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorprogram"
 
 &mediatailorprogram.MediatailorProgramAdBreaksSlate {
 	SourceLocationName: *string,
@@ -1196,7 +1196,7 @@ SourceLocationName *string
 
 The name of the source location where the slate VOD source is stored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#source_location_name MediatailorProgram#source_location_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#source_location_name MediatailorProgram#source_location_name}
 
 ---
 
@@ -1210,7 +1210,7 @@ VodSourceName *string
 
 The slate VOD source name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#vod_source_name MediatailorProgram#vod_source_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#vod_source_name MediatailorProgram#vod_source_name}
 
 ---
 
@@ -1219,7 +1219,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediatailorProgram.MediatailorProgramAdBreaksSpliceInsertMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorprogram"
 
 &mediatailorprogram.MediatailorProgramAdBreaksSpliceInsertMessage {
 	AvailNum: *f64,
@@ -1250,7 +1250,7 @@ AvailNum *f64
 
 This is written to splice_insert.avail_num.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#avail_num MediatailorProgram#avail_num}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#avail_num MediatailorProgram#avail_num}
 
 ---
 
@@ -1264,7 +1264,7 @@ AvailsExpected *f64
 
 This is written to splice_insert.avails_expected.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#avails_expected MediatailorProgram#avails_expected}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#avails_expected MediatailorProgram#avails_expected}
 
 ---
 
@@ -1278,7 +1278,7 @@ SpliceEventId *f64
 
 This is written to splice_insert.splice_event_id.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#splice_event_id MediatailorProgram#splice_event_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#splice_event_id MediatailorProgram#splice_event_id}
 
 ---
 
@@ -1292,7 +1292,7 @@ UniqueProgramId *f64
 
 This is written to splice_insert.unique_program_id.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#unique_program_id MediatailorProgram#unique_program_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#unique_program_id MediatailorProgram#unique_program_id}
 
 ---
 
@@ -1301,7 +1301,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediatailorProgram.MediatailorProgramAdBreaksTimeSignalMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorprogram"
 
 &mediatailorprogram.MediatailorProgramAdBreaksTimeSignalMessage {
 	SegmentationDescriptors: interface{},
@@ -1326,7 +1326,7 @@ SegmentationDescriptors interface{}
 
 The configurations for the SCTE-35 segmentation_descriptor message(s).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#segmentation_descriptors MediatailorProgram#segmentation_descriptors}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#segmentation_descriptors MediatailorProgram#segmentation_descriptors}
 
 ---
 
@@ -1335,7 +1335,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediatailorProgram.MediatailorProgramAdBreaksTimeSignalMessageSegmentationDescriptors.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorprogram"
 
 &mediatailorprogram.MediatailorProgramAdBreaksTimeSignalMessageSegmentationDescriptors {
 	SegmentationEventId: *f64,
@@ -1374,7 +1374,7 @@ SegmentationEventId *f64
 
 The Event Identifier to assign.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#segmentation_event_id MediatailorProgram#segmentation_event_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#segmentation_event_id MediatailorProgram#segmentation_event_id}
 
 ---
 
@@ -1388,7 +1388,7 @@ SegmentationTypeId *f64
 
 The Type Identifier to assign.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#segmentation_type_id MediatailorProgram#segmentation_type_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#segmentation_type_id MediatailorProgram#segmentation_type_id}
 
 ---
 
@@ -1402,7 +1402,7 @@ SegmentationUpid *string
 
 The Upid to assign.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#segmentation_upid MediatailorProgram#segmentation_upid}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#segmentation_upid MediatailorProgram#segmentation_upid}
 
 ---
 
@@ -1416,7 +1416,7 @@ SegmentationUpidType *f64
 
 The Upid Type to assign.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#segmentation_upid_type MediatailorProgram#segmentation_upid_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#segmentation_upid_type MediatailorProgram#segmentation_upid_type}
 
 ---
 
@@ -1430,7 +1430,7 @@ SegmentNum *f64
 
 The segment number to assign.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#segment_num MediatailorProgram#segment_num}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#segment_num MediatailorProgram#segment_num}
 
 ---
 
@@ -1444,7 +1444,7 @@ SegmentsExpected *f64
 
 The number of segments expected.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#segments_expected MediatailorProgram#segments_expected}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#segments_expected MediatailorProgram#segments_expected}
 
 ---
 
@@ -1458,7 +1458,7 @@ SubSegmentNum *f64
 
 The sub-segment number to assign.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#sub_segment_num MediatailorProgram#sub_segment_num}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#sub_segment_num MediatailorProgram#sub_segment_num}
 
 ---
 
@@ -1472,7 +1472,7 @@ SubSegmentsExpected *f64
 
 The number of sub-segments expected.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#sub_segments_expected MediatailorProgram#sub_segments_expected}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#sub_segments_expected MediatailorProgram#sub_segments_expected}
 
 ---
 
@@ -1481,7 +1481,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediatailorProgram.MediatailorProgramAudienceMedia.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorprogram"
 
 &mediatailorprogram.MediatailorProgramAudienceMedia {
 	AlternateMedia: interface{},
@@ -1508,7 +1508,7 @@ AlternateMedia interface{}
 
 The list of AlternateMedia defined in AudienceMedia.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#alternate_media MediatailorProgram#alternate_media}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#alternate_media MediatailorProgram#alternate_media}
 
 ---
 
@@ -1522,7 +1522,7 @@ Audience *string
 
 The Audience defined in AudienceMedia.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#audience MediatailorProgram#audience}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#audience MediatailorProgram#audience}
 
 ---
 
@@ -1531,11 +1531,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediatailorProgram.MediatailorProgramAudienceMediaAlternateMedia.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorprogram"
 
 &mediatailorprogram.MediatailorProgramAudienceMediaAlternateMedia {
 	AdBreaks: interface{},
-	ClipRange: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.mediatailorProgram.MediatailorProgramAudienceMediaAlternateMediaClipRange,
+	ClipRange: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.mediatailorProgram.MediatailorProgramAudienceMediaAlternateMediaClipRange,
 	DurationMillis: *f64,
 	LiveSourceName: *string,
 	ScheduledStartTimeMillis: *f64,
@@ -1568,7 +1568,7 @@ AdBreaks interface{}
 
 Ad break configuration parameters defined in AlternateMedia.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#ad_breaks MediatailorProgram#ad_breaks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#ad_breaks MediatailorProgram#ad_breaks}
 
 ---
 
@@ -1582,7 +1582,7 @@ ClipRange MediatailorProgramAudienceMediaAlternateMediaClipRange
 
 Clip range configuration for the VOD source associated with the program.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#clip_range MediatailorProgram#clip_range}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#clip_range MediatailorProgram#clip_range}
 
 ---
 
@@ -1596,7 +1596,7 @@ DurationMillis *f64
 
 The duration of the alternateMedia in milliseconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#duration_millis MediatailorProgram#duration_millis}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#duration_millis MediatailorProgram#duration_millis}
 
 ---
 
@@ -1610,7 +1610,7 @@ LiveSourceName *string
 
 The name of the live source for alternateMedia.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#live_source_name MediatailorProgram#live_source_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#live_source_name MediatailorProgram#live_source_name}
 
 ---
 
@@ -1624,7 +1624,7 @@ ScheduledStartTimeMillis *f64
 
 The date and time that the alternateMedia is scheduled to start, in epoch milliseconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#scheduled_start_time_millis MediatailorProgram#scheduled_start_time_millis}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#scheduled_start_time_millis MediatailorProgram#scheduled_start_time_millis}
 
 ---
 
@@ -1638,7 +1638,7 @@ SourceLocationName *string
 
 The name of the source location for alternateMedia.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#source_location_name MediatailorProgram#source_location_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#source_location_name MediatailorProgram#source_location_name}
 
 ---
 
@@ -1652,7 +1652,7 @@ VodSourceName *string
 
 The name of the VOD source for alternateMedia.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#vod_source_name MediatailorProgram#vod_source_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#vod_source_name MediatailorProgram#vod_source_name}
 
 ---
 
@@ -1661,15 +1661,15 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediatailorProgram.MediatailorProgramAudienceMediaAlternateMediaAdBreaks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorprogram"
 
 &mediatailorprogram.MediatailorProgramAudienceMediaAlternateMediaAdBreaks {
 	AdBreakMetadata: interface{},
 	MessageType: *string,
 	OffsetMillis: *f64,
-	Slate: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.mediatailorProgram.MediatailorProgramAudienceMediaAlternateMediaAdBreaksSlate,
-	SpliceInsertMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.mediatailorProgram.MediatailorProgramAudienceMediaAlternateMediaAdBreaksSpliceInsertMessage,
-	TimeSignalMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.mediatailorProgram.MediatailorProgramAudienceMediaAlternateMediaAdBreaksTimeSignalMessage,
+	Slate: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.mediatailorProgram.MediatailorProgramAudienceMediaAlternateMediaAdBreaksSlate,
+	SpliceInsertMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.mediatailorProgram.MediatailorProgramAudienceMediaAlternateMediaAdBreaksSpliceInsertMessage,
+	TimeSignalMessage: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.mediatailorProgram.MediatailorProgramAudienceMediaAlternateMediaAdBreaksTimeSignalMessage,
 }
 ```
 
@@ -1696,7 +1696,7 @@ AdBreakMetadata interface{}
 
 Defines a list of key/value pairs that MediaTailor generates within the EXT-X-ASSET tag for SCTE35_ENHANCED output.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#ad_break_metadata MediatailorProgram#ad_break_metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#ad_break_metadata MediatailorProgram#ad_break_metadata}
 
 ---
 
@@ -1710,7 +1710,7 @@ MessageType *string
 
 The SCTE-35 ad insertion type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#message_type MediatailorProgram#message_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#message_type MediatailorProgram#message_type}
 
 ---
 
@@ -1724,7 +1724,7 @@ OffsetMillis *f64
 
 How long (in milliseconds) after the beginning of the program that an ad starts.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#offset_millis MediatailorProgram#offset_millis}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#offset_millis MediatailorProgram#offset_millis}
 
 ---
 
@@ -1738,7 +1738,7 @@ Slate MediatailorProgramAudienceMediaAlternateMediaAdBreaksSlate
 
 Slate VOD source configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#slate MediatailorProgram#slate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#slate MediatailorProgram#slate}
 
 ---
 
@@ -1752,7 +1752,7 @@ SpliceInsertMessage MediatailorProgramAudienceMediaAlternateMediaAdBreaksSpliceI
 
 Splice insert message configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#splice_insert_message MediatailorProgram#splice_insert_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#splice_insert_message MediatailorProgram#splice_insert_message}
 
 ---
 
@@ -1766,7 +1766,7 @@ TimeSignalMessage MediatailorProgramAudienceMediaAlternateMediaAdBreaksTimeSigna
 
 The SCTE-35 time_signal message configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#time_signal_message MediatailorProgram#time_signal_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#time_signal_message MediatailorProgram#time_signal_message}
 
 ---
 
@@ -1775,7 +1775,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediatailorProgram.MediatailorProgramAudienceMediaAlternateMediaAdBreaksAdBreakMetadata.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorprogram"
 
 &mediatailorprogram.MediatailorProgramAudienceMediaAlternateMediaAdBreaksAdBreakMetadata {
 	Key: *string,
@@ -1802,7 +1802,7 @@ Key *string
 
 The key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#key MediatailorProgram#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#key MediatailorProgram#key}
 
 ---
 
@@ -1816,7 +1816,7 @@ Value *string
 
 The value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#value MediatailorProgram#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#value MediatailorProgram#value}
 
 ---
 
@@ -1825,7 +1825,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediatailorProgram.MediatailorProgramAudienceMediaAlternateMediaAdBreaksSlate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorprogram"
 
 &mediatailorprogram.MediatailorProgramAudienceMediaAlternateMediaAdBreaksSlate {
 	SourceLocationName: *string,
@@ -1852,7 +1852,7 @@ SourceLocationName *string
 
 The name of the source location where the slate VOD source is stored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#source_location_name MediatailorProgram#source_location_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#source_location_name MediatailorProgram#source_location_name}
 
 ---
 
@@ -1866,7 +1866,7 @@ VodSourceName *string
 
 The slate VOD source name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#vod_source_name MediatailorProgram#vod_source_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#vod_source_name MediatailorProgram#vod_source_name}
 
 ---
 
@@ -1875,7 +1875,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediatailorProgram.MediatailorProgramAudienceMediaAlternateMediaAdBreaksSpliceInsertMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorprogram"
 
 &mediatailorprogram.MediatailorProgramAudienceMediaAlternateMediaAdBreaksSpliceInsertMessage {
 	AvailNum: *f64,
@@ -1906,7 +1906,7 @@ AvailNum *f64
 
 This is written to splice_insert.avail_num.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#avail_num MediatailorProgram#avail_num}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#avail_num MediatailorProgram#avail_num}
 
 ---
 
@@ -1920,7 +1920,7 @@ AvailsExpected *f64
 
 This is written to splice_insert.avails_expected.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#avails_expected MediatailorProgram#avails_expected}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#avails_expected MediatailorProgram#avails_expected}
 
 ---
 
@@ -1934,7 +1934,7 @@ SpliceEventId *f64
 
 This is written to splice_insert.splice_event_id.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#splice_event_id MediatailorProgram#splice_event_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#splice_event_id MediatailorProgram#splice_event_id}
 
 ---
 
@@ -1948,7 +1948,7 @@ UniqueProgramId *f64
 
 This is written to splice_insert.unique_program_id.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#unique_program_id MediatailorProgram#unique_program_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#unique_program_id MediatailorProgram#unique_program_id}
 
 ---
 
@@ -1957,7 +1957,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediatailorProgram.MediatailorProgramAudienceMediaAlternateMediaAdBreaksTimeSignalMessage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorprogram"
 
 &mediatailorprogram.MediatailorProgramAudienceMediaAlternateMediaAdBreaksTimeSignalMessage {
 	SegmentationDescriptors: interface{},
@@ -1982,7 +1982,7 @@ SegmentationDescriptors interface{}
 
 The configurations for the SCTE-35 segmentation_descriptor message(s).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#segmentation_descriptors MediatailorProgram#segmentation_descriptors}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#segmentation_descriptors MediatailorProgram#segmentation_descriptors}
 
 ---
 
@@ -1991,7 +1991,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediatailorProgram.MediatailorProgramAudienceMediaAlternateMediaAdBreaksTimeSignalMessageSegmentationDescriptors.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorprogram"
 
 &mediatailorprogram.MediatailorProgramAudienceMediaAlternateMediaAdBreaksTimeSignalMessageSegmentationDescriptors {
 	SegmentationEventId: *f64,
@@ -2030,7 +2030,7 @@ SegmentationEventId *f64
 
 The Event Identifier to assign.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#segmentation_event_id MediatailorProgram#segmentation_event_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#segmentation_event_id MediatailorProgram#segmentation_event_id}
 
 ---
 
@@ -2044,7 +2044,7 @@ SegmentationTypeId *f64
 
 The Type Identifier to assign.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#segmentation_type_id MediatailorProgram#segmentation_type_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#segmentation_type_id MediatailorProgram#segmentation_type_id}
 
 ---
 
@@ -2058,7 +2058,7 @@ SegmentationUpid *string
 
 The Upid to assign.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#segmentation_upid MediatailorProgram#segmentation_upid}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#segmentation_upid MediatailorProgram#segmentation_upid}
 
 ---
 
@@ -2072,7 +2072,7 @@ SegmentationUpidType *f64
 
 The Upid Type to assign.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#segmentation_upid_type MediatailorProgram#segmentation_upid_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#segmentation_upid_type MediatailorProgram#segmentation_upid_type}
 
 ---
 
@@ -2086,7 +2086,7 @@ SegmentNum *f64
 
 The segment number to assign.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#segment_num MediatailorProgram#segment_num}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#segment_num MediatailorProgram#segment_num}
 
 ---
 
@@ -2100,7 +2100,7 @@ SegmentsExpected *f64
 
 The number of segments expected.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#segments_expected MediatailorProgram#segments_expected}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#segments_expected MediatailorProgram#segments_expected}
 
 ---
 
@@ -2114,7 +2114,7 @@ SubSegmentNum *f64
 
 The sub-segment number to assign.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#sub_segment_num MediatailorProgram#sub_segment_num}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#sub_segment_num MediatailorProgram#sub_segment_num}
 
 ---
 
@@ -2128,7 +2128,7 @@ SubSegmentsExpected *f64
 
 The number of sub-segments expected.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#sub_segments_expected MediatailorProgram#sub_segments_expected}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#sub_segments_expected MediatailorProgram#sub_segments_expected}
 
 ---
 
@@ -2137,7 +2137,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediatailorProgram.MediatailorProgramAudienceMediaAlternateMediaClipRange.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorprogram"
 
 &mediatailorprogram.MediatailorProgramAudienceMediaAlternateMediaClipRange {
 	EndOffsetMillis: *f64,
@@ -2164,7 +2164,7 @@ EndOffsetMillis *f64
 
 The end offset of the clip range, in milliseconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#end_offset_millis MediatailorProgram#end_offset_millis}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#end_offset_millis MediatailorProgram#end_offset_millis}
 
 ---
 
@@ -2178,7 +2178,7 @@ StartOffsetMillis *f64
 
 The start offset of the clip range, in milliseconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#start_offset_millis MediatailorProgram#start_offset_millis}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#start_offset_millis MediatailorProgram#start_offset_millis}
 
 ---
 
@@ -2187,7 +2187,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediatailorProgram.MediatailorProgramClipRange.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorprogram"
 
 &mediatailorprogram.MediatailorProgramClipRange {
 
@@ -2200,7 +2200,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorprogram"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediatailorProgram.MediatailorProgramConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorprogram"
 
 &mediatailorprogram.MediatailorProgramConfig {
 	Connection: interface{},
@@ -2216,7 +2216,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorprogram"
 	AdBreaks: interface{},
 	AudienceMedia: interface{},
 	LiveSourceName: *string,
-	ScheduleConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.mediatailorProgram.MediatailorProgramScheduleConfiguration,
+	ScheduleConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.mediatailorProgram.MediatailorProgramScheduleConfiguration,
 	VodSourceName: *string,
 }
 ```
@@ -2323,7 +2323,7 @@ ChannelName *string
 
 The name of the channel for this Program.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#channel_name MediatailorProgram#channel_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#channel_name MediatailorProgram#channel_name}
 
 ---
 
@@ -2337,7 +2337,7 @@ ProgramName *string
 
 The name of the Program.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#program_name MediatailorProgram#program_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#program_name MediatailorProgram#program_name}
 
 ---
 
@@ -2351,7 +2351,7 @@ SourceLocationName *string
 
 The name of the source location.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#source_location_name MediatailorProgram#source_location_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#source_location_name MediatailorProgram#source_location_name}
 
 ---
 
@@ -2365,7 +2365,7 @@ AdBreaks interface{}
 
 The ad break configuration settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#ad_breaks MediatailorProgram#ad_breaks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#ad_breaks MediatailorProgram#ad_breaks}
 
 ---
 
@@ -2379,7 +2379,7 @@ AudienceMedia interface{}
 
 The list of AudienceMedia defined in program.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#audience_media MediatailorProgram#audience_media}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#audience_media MediatailorProgram#audience_media}
 
 ---
 
@@ -2393,7 +2393,7 @@ LiveSourceName *string
 
 The name of the LiveSource for this Program.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#live_source_name MediatailorProgram#live_source_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#live_source_name MediatailorProgram#live_source_name}
 
 ---
 
@@ -2407,7 +2407,7 @@ ScheduleConfiguration MediatailorProgramScheduleConfiguration
 
 The schedule configuration settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#schedule_configuration MediatailorProgram#schedule_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#schedule_configuration MediatailorProgram#schedule_configuration}
 
 ---
 
@@ -2421,7 +2421,7 @@ VodSourceName *string
 
 The name that's used to refer to a VOD source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#vod_source_name MediatailorProgram#vod_source_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#vod_source_name MediatailorProgram#vod_source_name}
 
 ---
 
@@ -2430,11 +2430,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediatailorProgram.MediatailorProgramScheduleConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorprogram"
 
 &mediatailorprogram.MediatailorProgramScheduleConfiguration {
-	ClipRange: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.mediatailorProgram.MediatailorProgramScheduleConfigurationClipRange,
-	Transition: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.mediatailorProgram.MediatailorProgramScheduleConfigurationTransition,
+	ClipRange: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.mediatailorProgram.MediatailorProgramScheduleConfigurationClipRange,
+	Transition: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.mediatailorProgram.MediatailorProgramScheduleConfigurationTransition,
 }
 ```
 
@@ -2457,7 +2457,7 @@ ClipRange MediatailorProgramScheduleConfigurationClipRange
 
 Clip range configuration for the VOD source associated with the program.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#clip_range MediatailorProgram#clip_range}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#clip_range MediatailorProgram#clip_range}
 
 ---
 
@@ -2471,7 +2471,7 @@ Transition MediatailorProgramScheduleConfigurationTransition
 
 Program transition configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#transition MediatailorProgram#transition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#transition MediatailorProgram#transition}
 
 ---
 
@@ -2480,7 +2480,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediatailorProgram.MediatailorProgramScheduleConfigurationClipRange.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorprogram"
 
 &mediatailorprogram.MediatailorProgramScheduleConfigurationClipRange {
 	EndOffsetMillis: *f64,
@@ -2507,7 +2507,7 @@ EndOffsetMillis *f64
 
 The end offset of the clip range, in milliseconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#end_offset_millis MediatailorProgram#end_offset_millis}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#end_offset_millis MediatailorProgram#end_offset_millis}
 
 ---
 
@@ -2521,7 +2521,7 @@ StartOffsetMillis *f64
 
 The start offset of the clip range, in milliseconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#start_offset_millis MediatailorProgram#start_offset_millis}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#start_offset_millis MediatailorProgram#start_offset_millis}
 
 ---
 
@@ -2530,7 +2530,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediatailorProgram.MediatailorProgramScheduleConfigurationTransition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorprogram"
 
 &mediatailorprogram.MediatailorProgramScheduleConfigurationTransition {
 	DurationMillis: *f64,
@@ -2563,7 +2563,7 @@ DurationMillis *f64
 
 The duration of the live program in seconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#duration_millis MediatailorProgram#duration_millis}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#duration_millis MediatailorProgram#duration_millis}
 
 ---
 
@@ -2577,7 +2577,7 @@ RelativePosition *string
 
 The position where this program will be inserted relative to the RelativePosition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#relative_position MediatailorProgram#relative_position}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#relative_position MediatailorProgram#relative_position}
 
 ---
 
@@ -2591,7 +2591,7 @@ RelativeProgram *string
 
 The name of the program that this program will be inserted next to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#relative_program MediatailorProgram#relative_program}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#relative_program MediatailorProgram#relative_program}
 
 ---
 
@@ -2605,7 +2605,7 @@ ScheduledStartTimeMillis *f64
 
 The date and time that the program is scheduled to start, in epoch milliseconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#scheduled_start_time_millis MediatailorProgram#scheduled_start_time_millis}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#scheduled_start_time_millis MediatailorProgram#scheduled_start_time_millis}
 
 ---
 
@@ -2619,7 +2619,7 @@ Type *string
 
 Defines when the program plays in the schedule. You can set the value to ABSOLUTE or RELATIVE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#type MediatailorProgram#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#type MediatailorProgram#type}
 
 ---
 
@@ -2630,7 +2630,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediatailorProgram.MediatailorProgramAdBreaksAdBreakMetadataList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorprogram"
 
 mediatailorprogram.NewMediatailorProgramAdBreaksAdBreakMetadataList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MediatailorProgramAdBreaksAdBreakMetadataList
 ```
@@ -2790,7 +2790,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediatailorProgram.MediatailorProgramAdBreaksAdBreakMetadataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorprogram"
 
 mediatailorprogram.NewMediatailorProgramAdBreaksAdBreakMetadataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) MediatailorProgramAdBreaksAdBreakMetadataOutputReference
 ```
@@ -3115,7 +3115,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediatailorProgram.MediatailorProgramAdBreaksList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorprogram"
 
 mediatailorprogram.NewMediatailorProgramAdBreaksList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MediatailorProgramAdBreaksList
 ```
@@ -3275,7 +3275,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediatailorProgram.MediatailorProgramAdBreaksOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorprogram"
 
 mediatailorprogram.NewMediatailorProgramAdBreaksOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) MediatailorProgramAdBreaksOutputReference
 ```
@@ -3768,7 +3768,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediatailorProgram.MediatailorProgramAdBreaksSlateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorprogram"
 
 mediatailorprogram.NewMediatailorProgramAdBreaksSlateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) MediatailorProgramAdBreaksSlateOutputReference
 ```
@@ -4075,7 +4075,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediatailorProgram.MediatailorProgramAdBreaksSpliceInsertMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorprogram"
 
 mediatailorprogram.NewMediatailorProgramAdBreaksSpliceInsertMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) MediatailorProgramAdBreaksSpliceInsertMessageOutputReference
 ```
@@ -4440,7 +4440,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediatailorProgram.MediatailorProgramAdBreaksTimeSignalMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorprogram"
 
 mediatailorprogram.NewMediatailorProgramAdBreaksTimeSignalMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) MediatailorProgramAdBreaksTimeSignalMessageOutputReference
 ```
@@ -4731,7 +4731,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediatailorProgram.MediatailorProgramAdBreaksTimeSignalMessageSegmentationDescriptorsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorprogram"
 
 mediatailorprogram.NewMediatailorProgramAdBreaksTimeSignalMessageSegmentationDescriptorsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MediatailorProgramAdBreaksTimeSignalMessageSegmentationDescriptorsList
 ```
@@ -4891,7 +4891,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediatailorProgram.MediatailorProgramAdBreaksTimeSignalMessageSegmentationDescriptorsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorprogram"
 
 mediatailorprogram.NewMediatailorProgramAdBreaksTimeSignalMessageSegmentationDescriptorsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) MediatailorProgramAdBreaksTimeSignalMessageSegmentationDescriptorsOutputReference
 ```
@@ -5390,7 +5390,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediatailorProgram.MediatailorProgramAudienceMediaAlternateMediaAdBreaksAdBreakMetadataList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorprogram"
 
 mediatailorprogram.NewMediatailorProgramAudienceMediaAlternateMediaAdBreaksAdBreakMetadataList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MediatailorProgramAudienceMediaAlternateMediaAdBreaksAdBreakMetadataList
 ```
@@ -5550,7 +5550,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediatailorProgram.MediatailorProgramAudienceMediaAlternateMediaAdBreaksAdBreakMetadataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorprogram"
 
 mediatailorprogram.NewMediatailorProgramAudienceMediaAlternateMediaAdBreaksAdBreakMetadataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) MediatailorProgramAudienceMediaAlternateMediaAdBreaksAdBreakMetadataOutputReference
 ```
@@ -5875,7 +5875,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediatailorProgram.MediatailorProgramAudienceMediaAlternateMediaAdBreaksList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorprogram"
 
 mediatailorprogram.NewMediatailorProgramAudienceMediaAlternateMediaAdBreaksList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MediatailorProgramAudienceMediaAlternateMediaAdBreaksList
 ```
@@ -6035,7 +6035,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediatailorProgram.MediatailorProgramAudienceMediaAlternateMediaAdBreaksOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorprogram"
 
 mediatailorprogram.NewMediatailorProgramAudienceMediaAlternateMediaAdBreaksOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) MediatailorProgramAudienceMediaAlternateMediaAdBreaksOutputReference
 ```
@@ -6528,7 +6528,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediatailorProgram.MediatailorProgramAudienceMediaAlternateMediaAdBreaksSlateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorprogram"
 
 mediatailorprogram.NewMediatailorProgramAudienceMediaAlternateMediaAdBreaksSlateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) MediatailorProgramAudienceMediaAlternateMediaAdBreaksSlateOutputReference
 ```
@@ -6835,7 +6835,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediatailorProgram.MediatailorProgramAudienceMediaAlternateMediaAdBreaksSpliceInsertMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorprogram"
 
 mediatailorprogram.NewMediatailorProgramAudienceMediaAlternateMediaAdBreaksSpliceInsertMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) MediatailorProgramAudienceMediaAlternateMediaAdBreaksSpliceInsertMessageOutputReference
 ```
@@ -7200,7 +7200,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediatailorProgram.MediatailorProgramAudienceMediaAlternateMediaAdBreaksTimeSignalMessageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorprogram"
 
 mediatailorprogram.NewMediatailorProgramAudienceMediaAlternateMediaAdBreaksTimeSignalMessageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) MediatailorProgramAudienceMediaAlternateMediaAdBreaksTimeSignalMessageOutputReference
 ```
@@ -7491,7 +7491,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediatailorProgram.MediatailorProgramAudienceMediaAlternateMediaAdBreaksTimeSignalMessageSegmentationDescriptorsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorprogram"
 
 mediatailorprogram.NewMediatailorProgramAudienceMediaAlternateMediaAdBreaksTimeSignalMessageSegmentationDescriptorsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MediatailorProgramAudienceMediaAlternateMediaAdBreaksTimeSignalMessageSegmentationDescriptorsList
 ```
@@ -7651,7 +7651,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediatailorProgram.MediatailorProgramAudienceMediaAlternateMediaAdBreaksTimeSignalMessageSegmentationDescriptorsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorprogram"
 
 mediatailorprogram.NewMediatailorProgramAudienceMediaAlternateMediaAdBreaksTimeSignalMessageSegmentationDescriptorsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) MediatailorProgramAudienceMediaAlternateMediaAdBreaksTimeSignalMessageSegmentationDescriptorsOutputReference
 ```
@@ -8150,7 +8150,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediatailorProgram.MediatailorProgramAudienceMediaAlternateMediaClipRangeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorprogram"
 
 mediatailorprogram.NewMediatailorProgramAudienceMediaAlternateMediaClipRangeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) MediatailorProgramAudienceMediaAlternateMediaClipRangeOutputReference
 ```
@@ -8457,7 +8457,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediatailorProgram.MediatailorProgramAudienceMediaAlternateMediaList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorprogram"
 
 mediatailorprogram.NewMediatailorProgramAudienceMediaAlternateMediaList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MediatailorProgramAudienceMediaAlternateMediaList
 ```
@@ -8617,7 +8617,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediatailorProgram.MediatailorProgramAudienceMediaAlternateMediaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorprogram"
 
 mediatailorprogram.NewMediatailorProgramAudienceMediaAlternateMediaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) MediatailorProgramAudienceMediaAlternateMediaOutputReference
 ```
@@ -9113,7 +9113,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediatailorProgram.MediatailorProgramAudienceMediaList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorprogram"
 
 mediatailorprogram.NewMediatailorProgramAudienceMediaList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MediatailorProgramAudienceMediaList
 ```
@@ -9273,7 +9273,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediatailorProgram.MediatailorProgramAudienceMediaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorprogram"
 
 mediatailorprogram.NewMediatailorProgramAudienceMediaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) MediatailorProgramAudienceMediaOutputReference
 ```
@@ -9611,7 +9611,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediatailorProgram.MediatailorProgramClipRangeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorprogram"
 
 mediatailorprogram.NewMediatailorProgramClipRangeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) MediatailorProgramClipRangeOutputReference
 ```
@@ -9882,7 +9882,7 @@ func InternalValue() MediatailorProgramClipRange
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediatailorProgram.MediatailorProgramScheduleConfigurationClipRangeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorprogram"
 
 mediatailorprogram.NewMediatailorProgramScheduleConfigurationClipRangeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) MediatailorProgramScheduleConfigurationClipRangeOutputReference
 ```
@@ -10189,7 +10189,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediatailorProgram.MediatailorProgramScheduleConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorprogram"
 
 mediatailorprogram.NewMediatailorProgramScheduleConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) MediatailorProgramScheduleConfigurationOutputReference
 ```
@@ -10522,7 +10522,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediatailorProgram.MediatailorProgramScheduleConfigurationTransitionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorprogram"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorprogram"
 
 mediatailorprogram.NewMediatailorProgramScheduleConfigurationTransitionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) MediatailorProgramScheduleConfigurationTransitionOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccSdbDomain <a name="DataAwsccSdbDomain" id="@cdktn/provider-awscc.dataAwsccSdbDomain.DataAwsccSdbDomain"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sdb_domain awscc_sdb_domain}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sdb_domain awscc_sdb_domain}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSdbDomain.DataAwsccSdbDomain.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsdbdomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsdbdomain"
 
 dataawsccsdbdomain.NewDataAwsccSdbDomain(scope Construct, id *string, config DataAwsccSdbDomainConfig) DataAwsccSdbDomain
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSdbDomain.DataAwsccSdbDomain.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsdbdomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsdbdomain"
 
 dataawsccsdbdomain.DataAwsccSdbDomain_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSdbDomain.DataAwsccSdbDomain.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsdbdomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsdbdomain"
 
 dataawsccsdbdomain.DataAwsccSdbDomain_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsdbdomain.DataAwsccSdbDomain_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSdbDomain.DataAwsccSdbDomain.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsdbdomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsdbdomain"
 
 dataawsccsdbdomain.DataAwsccSdbDomain_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsdbdomain.DataAwsccSdbDomain_IsTerraformDataSource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSdbDomain.DataAwsccSdbDomain.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsdbdomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsdbdomain"
 
 dataawsccsdbdomain.DataAwsccSdbDomain_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSdbDomain to impo
 
 The id of the existing DataAwsccSdbDomain that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sdb_domain#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sdb_domain#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -609,7 +609,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSdbDomain.DataAwsccSdbDomainConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsdbdomain"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsdbdomain"
 
 &dataawsccsdbdomain.DataAwsccSdbDomainConfig {
 	Connection: interface{},
@@ -718,7 +718,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sdb_domain#id DataAwsccSdbDomain#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sdb_domain#id DataAwsccSdbDomain#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

@@ -4,12 +4,12 @@
 
 ### WellarchitectedAgentGoal <a name="WellarchitectedAgentGoal" id="@cdktn/provider-awscc.wellarchitectedAgentGoal.WellarchitectedAgentGoal"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wellarchitected_agent_goal awscc_wellarchitected_agent_goal}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wellarchitected_agent_goal awscc_wellarchitected_agent_goal}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.wellarchitectedAgentGoal.WellarchitectedAgentGoal.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wellarchitectedagentgoal"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wellarchitectedagentgoal"
 
 wellarchitectedagentgoal.NewWellarchitectedAgentGoal(scope Construct, id *string, config WellarchitectedAgentGoalConfig) WellarchitectedAgentGoal
 ```
@@ -407,7 +407,7 @@ func ResetDescription()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.wellarchitectedAgentGoal.WellarchitectedAgentGoal.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wellarchitectedagentgoal"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wellarchitectedagentgoal"
 
 wellarchitectedagentgoal.WellarchitectedAgentGoal_IsConstruct(x interface{}) *bool
 ```
@@ -439,7 +439,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.wellarchitectedAgentGoal.WellarchitectedAgentGoal.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wellarchitectedagentgoal"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wellarchitectedagentgoal"
 
 wellarchitectedagentgoal.WellarchitectedAgentGoal_IsTerraformElement(x interface{}) *bool
 ```
@@ -453,7 +453,7 @@ wellarchitectedagentgoal.WellarchitectedAgentGoal_IsTerraformElement(x interface
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.wellarchitectedAgentGoal.WellarchitectedAgentGoal.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wellarchitectedagentgoal"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wellarchitectedagentgoal"
 
 wellarchitectedagentgoal.WellarchitectedAgentGoal_IsTerraformResource(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ wellarchitectedagentgoal.WellarchitectedAgentGoal_IsTerraformResource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.wellarchitectedAgentGoal.WellarchitectedAgentGoal.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wellarchitectedagentgoal"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wellarchitectedagentgoal"
 
 wellarchitectedagentgoal.WellarchitectedAgentGoal_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -496,7 +496,7 @@ The construct id used in the generated config for the WellarchitectedAgentGoal t
 
 The id of the existing WellarchitectedAgentGoal that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wellarchitected_agent_goal#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wellarchitected_agent_goal#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -861,7 +861,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.wellarchitectedAgentGoal.WellarchitectedAgentGoalConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wellarchitectedagentgoal"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wellarchitectedagentgoal"
 
 &wellarchitectedagentgoal.WellarchitectedAgentGoalConfig {
 	Connection: interface{},
@@ -976,7 +976,7 @@ Pillars *[]*string
 
 The list of Well-Architected pillars this goal targets.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wellarchitected_agent_goal#pillars WellarchitectedAgentGoal#pillars}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wellarchitected_agent_goal#pillars WellarchitectedAgentGoal#pillars}
 
 ---
 
@@ -992,7 +992,7 @@ The Amazon Resource Name (ARN) of the parent Agent Profile that owns this goal.
 
 Pass `!Ref` of the parent AWS::WellArchitected::AgentProfile to flow its ARN here.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wellarchitected_agent_goal#profile_arn WellarchitectedAgentGoal#profile_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wellarchitected_agent_goal#profile_arn WellarchitectedAgentGoal#profile_arn}
 
 ---
 
@@ -1006,7 +1006,7 @@ Title *string
 
 The title of the Agent Goal.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wellarchitected_agent_goal#title WellarchitectedAgentGoal#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wellarchitected_agent_goal#title WellarchitectedAgentGoal#title}
 
 ---
 
@@ -1020,7 +1020,7 @@ Description *string
 
 A description of the Agent Goal.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wellarchitected_agent_goal#description WellarchitectedAgentGoal#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wellarchitected_agent_goal#description WellarchitectedAgentGoal#description}
 
 ---
 

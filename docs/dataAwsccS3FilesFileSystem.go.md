@@ -4,12 +4,12 @@
 
 ### DataAwsccS3FilesFileSystem <a name="DataAwsccS3FilesFileSystem" id="@cdktn/provider-awscc.dataAwsccS3FilesFileSystem.DataAwsccS3FilesFileSystem"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3files_file_system awscc_s3files_file_system}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3files_file_system awscc_s3files_file_system}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3FilesFileSystem.DataAwsccS3FilesFileSystem.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3filesfilesystem"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3filesfilesystem"
 
 dataawsccs3filesfilesystem.NewDataAwsccS3FilesFileSystem(scope Construct, id *string, config DataAwsccS3FilesFileSystemConfig) DataAwsccS3FilesFileSystem
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccS3FilesFileSystem.DataAwsccS3FilesFileSystem.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3filesfilesystem"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3filesfilesystem"
 
 dataawsccs3filesfilesystem.DataAwsccS3FilesFileSystem_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccS3FilesFileSystem.DataAwsccS3FilesFileSystem.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3filesfilesystem"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3filesfilesystem"
 
 dataawsccs3filesfilesystem.DataAwsccS3FilesFileSystem_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccs3filesfilesystem.DataAwsccS3FilesFileSystem_IsTerraformElement(x inter
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccS3FilesFileSystem.DataAwsccS3FilesFileSystem.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3filesfilesystem"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3filesfilesystem"
 
 dataawsccs3filesfilesystem.DataAwsccS3FilesFileSystem_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccs3filesfilesystem.DataAwsccS3FilesFileSystem_IsTerraformDataSource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccS3FilesFileSystem.DataAwsccS3FilesFileSystem.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3filesfilesystem"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3filesfilesystem"
 
 dataawsccs3filesfilesystem.DataAwsccS3FilesFileSystem_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccS3FilesFileSystem
 
 The id of the existing DataAwsccS3FilesFileSystem that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3files_file_system#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3files_file_system#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -741,7 +741,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3FilesFileSystem.DataAwsccS3FilesFileSystemConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3filesfilesystem"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3filesfilesystem"
 
 &dataawsccs3filesfilesystem.DataAwsccS3FilesFileSystemConfig {
 	Connection: interface{},
@@ -850,7 +850,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3files_file_system#id DataAwsccS3FilesFileSystem#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3files_file_system#id DataAwsccS3FilesFileSystem#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -862,7 +862,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3FilesFileSystem.DataAwsccS3FilesFileSystemSynchronizationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3filesfilesystem"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3filesfilesystem"
 
 &dataawsccs3filesfilesystem.DataAwsccS3FilesFileSystemSynchronizationConfiguration {
 
@@ -875,7 +875,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3filesfilesy
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3FilesFileSystem.DataAwsccS3FilesFileSystemSynchronizationConfigurationExpirationDataRules.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3filesfilesystem"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3filesfilesystem"
 
 &dataawsccs3filesfilesystem.DataAwsccS3FilesFileSystemSynchronizationConfigurationExpirationDataRules {
 
@@ -888,7 +888,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3filesfilesy
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3FilesFileSystem.DataAwsccS3FilesFileSystemSynchronizationConfigurationImportDataRules.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3filesfilesystem"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3filesfilesystem"
 
 &dataawsccs3filesfilesystem.DataAwsccS3FilesFileSystemSynchronizationConfigurationImportDataRules {
 
@@ -901,7 +901,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3filesfilesy
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3FilesFileSystem.DataAwsccS3FilesFileSystemTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3filesfilesystem"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3filesfilesystem"
 
 &dataawsccs3filesfilesystem.DataAwsccS3FilesFileSystemTags {
 
@@ -916,7 +916,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3filesfilesy
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3FilesFileSystem.DataAwsccS3FilesFileSystemSynchronizationConfigurationExpirationDataRulesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3filesfilesystem"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3filesfilesystem"
 
 dataawsccs3filesfilesystem.NewDataAwsccS3FilesFileSystemSynchronizationConfigurationExpirationDataRulesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccS3FilesFileSystemSynchronizationConfigurationExpirationDataRulesList
 ```
@@ -1065,7 +1065,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3FilesFileSystem.DataAwsccS3FilesFileSystemSynchronizationConfigurationExpirationDataRulesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3filesfilesystem"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3filesfilesystem"
 
 dataawsccs3filesfilesystem.NewDataAwsccS3FilesFileSystemSynchronizationConfigurationExpirationDataRulesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccS3FilesFileSystemSynchronizationConfigurationExpirationDataRulesOutputReference
 ```
@@ -1343,7 +1343,7 @@ func InternalValue() DataAwsccS3FilesFileSystemSynchronizationConfigurationExpir
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3FilesFileSystem.DataAwsccS3FilesFileSystemSynchronizationConfigurationImportDataRulesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3filesfilesystem"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3filesfilesystem"
 
 dataawsccs3filesfilesystem.NewDataAwsccS3FilesFileSystemSynchronizationConfigurationImportDataRulesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccS3FilesFileSystemSynchronizationConfigurationImportDataRulesList
 ```
@@ -1492,7 +1492,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3FilesFileSystem.DataAwsccS3FilesFileSystemSynchronizationConfigurationImportDataRulesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3filesfilesystem"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3filesfilesystem"
 
 dataawsccs3filesfilesystem.NewDataAwsccS3FilesFileSystemSynchronizationConfigurationImportDataRulesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccS3FilesFileSystemSynchronizationConfigurationImportDataRulesOutputReference
 ```
@@ -1792,7 +1792,7 @@ func InternalValue() DataAwsccS3FilesFileSystemSynchronizationConfigurationImpor
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3FilesFileSystem.DataAwsccS3FilesFileSystemSynchronizationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3filesfilesystem"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3filesfilesystem"
 
 dataawsccs3filesfilesystem.NewDataAwsccS3FilesFileSystemSynchronizationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3FilesFileSystemSynchronizationConfigurationOutputReference
 ```
@@ -2074,7 +2074,7 @@ func InternalValue() DataAwsccS3FilesFileSystemSynchronizationConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3FilesFileSystem.DataAwsccS3FilesFileSystemTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3filesfilesystem"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3filesfilesystem"
 
 dataawsccs3filesfilesystem.NewDataAwsccS3FilesFileSystemTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccS3FilesFileSystemTagsList
 ```
@@ -2223,7 +2223,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3FilesFileSystem.DataAwsccS3FilesFileSystemTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3filesfilesystem"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3filesfilesystem"
 
 dataawsccs3filesfilesystem.NewDataAwsccS3FilesFileSystemTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccS3FilesFileSystemTagsOutputReference
 ```

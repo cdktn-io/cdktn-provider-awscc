@@ -4,12 +4,12 @@
 
 ### DataAwsccRoute53GlobalresolverFirewallDomainList <a name="DataAwsccRoute53GlobalresolverFirewallDomainList" id="@cdktn/provider-awscc.dataAwsccRoute53GlobalresolverFirewallDomainList.DataAwsccRoute53GlobalresolverFirewallDomainList"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53globalresolver_firewall_domain_list awscc_route53globalresolver_firewall_domain_list}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53globalresolver_firewall_domain_list awscc_route53globalresolver_firewall_domain_list}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53GlobalresolverFirewallDomainList.DataAwsccRoute53GlobalresolverFirewallDomainList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53globalresolverfirewalldomainlist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53globalresolverfirewalldomainlist"
 
 dataawsccroute53globalresolverfirewalldomainlist.NewDataAwsccRoute53GlobalresolverFirewallDomainList(scope Construct, id *string, config DataAwsccRoute53GlobalresolverFirewallDomainListConfig) DataAwsccRoute53GlobalresolverFirewallDomainList
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccRoute53GlobalresolverFirewallDomainList.DataAwsccRoute53GlobalresolverFirewallDomainList.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53globalresolverfirewalldomainlist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53globalresolverfirewalldomainlist"
 
 dataawsccroute53globalresolverfirewalldomainlist.DataAwsccRoute53GlobalresolverFirewallDomainList_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccRoute53GlobalresolverFirewallDomainList.DataAwsccRoute53GlobalresolverFirewallDomainList.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53globalresolverfirewalldomainlist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53globalresolverfirewalldomainlist"
 
 dataawsccroute53globalresolverfirewalldomainlist.DataAwsccRoute53GlobalresolverFirewallDomainList_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccroute53globalresolverfirewalldomainlist.DataAwsccRoute53GlobalresolverF
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccRoute53GlobalresolverFirewallDomainList.DataAwsccRoute53GlobalresolverFirewallDomainList.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53globalresolverfirewalldomainlist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53globalresolverfirewalldomainlist"
 
 dataawsccroute53globalresolverfirewalldomainlist.DataAwsccRoute53GlobalresolverFirewallDomainList_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccroute53globalresolverfirewalldomainlist.DataAwsccRoute53GlobalresolverF
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccRoute53GlobalresolverFirewallDomainList.DataAwsccRoute53GlobalresolverFirewallDomainList.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53globalresolverfirewalldomainlist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53globalresolverfirewalldomainlist"
 
 dataawsccroute53globalresolverfirewalldomainlist.DataAwsccRoute53GlobalresolverFirewallDomainList_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRoute53Globalreso
 
 The id of the existing DataAwsccRoute53GlobalresolverFirewallDomainList that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53globalresolver_firewall_domain_list#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53globalresolver_firewall_domain_list#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -741,7 +741,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRoute53GlobalresolverFirewallDomainList.DataAwsccRoute53GlobalresolverFirewallDomainListConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53globalresolverfirewalldomainlist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53globalresolverfirewalldomainlist"
 
 &dataawsccroute53globalresolverfirewalldomainlist.DataAwsccRoute53GlobalresolverFirewallDomainListConfig {
 	Connection: interface{},
@@ -850,7 +850,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53globalresolver_firewall_domain_list#id DataAwsccRoute53GlobalresolverFirewallDomainList#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53globalresolver_firewall_domain_list#id DataAwsccRoute53GlobalresolverFirewallDomainList#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -862,7 +862,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRoute53GlobalresolverFirewallDomainList.DataAwsccRoute53GlobalresolverFirewallDomainListTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53globalresolverfirewalldomainlist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53globalresolverfirewalldomainlist"
 
 &dataawsccroute53globalresolverfirewalldomainlist.DataAwsccRoute53GlobalresolverFirewallDomainListTags {
 
@@ -877,7 +877,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53global
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53GlobalresolverFirewallDomainList.DataAwsccRoute53GlobalresolverFirewallDomainListTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53globalresolverfirewalldomainlist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53globalresolverfirewalldomainlist"
 
 dataawsccroute53globalresolverfirewalldomainlist.NewDataAwsccRoute53GlobalresolverFirewallDomainListTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccRoute53GlobalresolverFirewallDomainListTagsList
 ```
@@ -1026,7 +1026,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53GlobalresolverFirewallDomainList.DataAwsccRoute53GlobalresolverFirewallDomainListTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53globalresolverfirewalldomainlist"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53globalresolverfirewalldomainlist"
 
 dataawsccroute53globalresolverfirewalldomainlist.NewDataAwsccRoute53GlobalresolverFirewallDomainListTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccRoute53GlobalresolverFirewallDomainListTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### ElasticbeanstalkApplication <a name="ElasticbeanstalkApplication" id="@cdktn/provider-awscc.elasticbeanstalkApplication.ElasticbeanstalkApplication"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticbeanstalk_application awscc_elasticbeanstalk_application}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticbeanstalk_application awscc_elasticbeanstalk_application}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.elasticbeanstalkApplication.ElasticbeanstalkApplication.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticbeanstalkapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticbeanstalkapplication"
 
 elasticbeanstalkapplication.NewElasticbeanstalkApplication(scope Construct, id *string, config ElasticbeanstalkApplicationConfig) ElasticbeanstalkApplication
 ```
@@ -434,7 +434,7 @@ func ResetResourceLifecycleConfig()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.elasticbeanstalkApplication.ElasticbeanstalkApplication.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticbeanstalkapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticbeanstalkapplication"
 
 elasticbeanstalkapplication.ElasticbeanstalkApplication_IsConstruct(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.elasticbeanstalkApplication.ElasticbeanstalkApplication.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticbeanstalkapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticbeanstalkapplication"
 
 elasticbeanstalkapplication.ElasticbeanstalkApplication_IsTerraformElement(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ elasticbeanstalkapplication.ElasticbeanstalkApplication_IsTerraformElement(x int
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.elasticbeanstalkApplication.ElasticbeanstalkApplication.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticbeanstalkapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticbeanstalkapplication"
 
 elasticbeanstalkapplication.ElasticbeanstalkApplication_IsTerraformResource(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ elasticbeanstalkapplication.ElasticbeanstalkApplication_IsTerraformResource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.elasticbeanstalkApplication.ElasticbeanstalkApplication.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticbeanstalkapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticbeanstalkapplication"
 
 elasticbeanstalkapplication.ElasticbeanstalkApplication_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -523,7 +523,7 @@ The construct id used in the generated config for the ElasticbeanstalkApplicatio
 
 The id of the existing ElasticbeanstalkApplication that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticbeanstalk_application#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticbeanstalk_application#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -800,7 +800,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.elasticbeanstalkApplication.ElasticbeanstalkApplicationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticbeanstalkapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticbeanstalkapplication"
 
 &elasticbeanstalkapplication.ElasticbeanstalkApplicationConfig {
 	Connection: interface{},
@@ -812,7 +812,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticbeanstalkapplic
 	Provisioners: *[]interface{},
 	ApplicationName: *string,
 	Description: *string,
-	ResourceLifecycleConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.elasticbeanstalkApplication.ElasticbeanstalkApplicationResourceLifecycleConfig,
+	ResourceLifecycleConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.elasticbeanstalkApplication.ElasticbeanstalkApplicationResourceLifecycleConfig,
 }
 ```
 
@@ -915,7 +915,7 @@ A name for the Elastic Beanstalk application.
 
 If you don't specify a name, AWS CloudFormation generates a unique physical ID and uses that ID for the application name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticbeanstalk_application#application_name ElasticbeanstalkApplication#application_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticbeanstalk_application#application_name ElasticbeanstalkApplication#application_name}
 
 ---
 
@@ -929,7 +929,7 @@ Description *string
 
 Your description of the application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticbeanstalk_application#description ElasticbeanstalkApplication#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticbeanstalk_application#description ElasticbeanstalkApplication#description}
 
 ---
 
@@ -943,7 +943,7 @@ ResourceLifecycleConfig ElasticbeanstalkApplicationResourceLifecycleConfig
 
 Specifies an application resource lifecycle configuration to prevent your application from accumulating too many versions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticbeanstalk_application#resource_lifecycle_config ElasticbeanstalkApplication#resource_lifecycle_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticbeanstalk_application#resource_lifecycle_config ElasticbeanstalkApplication#resource_lifecycle_config}
 
 ---
 
@@ -952,11 +952,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.elasticbeanstalkApplication.ElasticbeanstalkApplicationResourceLifecycleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticbeanstalkapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticbeanstalkapplication"
 
 &elasticbeanstalkapplication.ElasticbeanstalkApplicationResourceLifecycleConfig {
 	ServiceRole: *string,
-	VersionLifecycleConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.elasticbeanstalkApplication.ElasticbeanstalkApplicationResourceLifecycleConfigVersionLifecycleConfig,
+	VersionLifecycleConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.elasticbeanstalkApplication.ElasticbeanstalkApplicationResourceLifecycleConfigVersionLifecycleConfig,
 }
 ```
 
@@ -981,7 +981,7 @@ The ARN of an IAM service role that Elastic Beanstalk has permission to assume.
 
 The ServiceRole property is required the first time that you provide a ResourceLifecycleConfig for the application. After you provide it once, Elastic Beanstalk persists the Service Role with the application, and you don't need to specify it again. You can, however, specify it in subsequent updates to change the Service Role to another value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticbeanstalk_application#service_role ElasticbeanstalkApplication#service_role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticbeanstalk_application#service_role ElasticbeanstalkApplication#service_role}
 
 ---
 
@@ -995,7 +995,7 @@ VersionLifecycleConfig ElasticbeanstalkApplicationResourceLifecycleConfigVersion
 
 Defines lifecycle settings for application versions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticbeanstalk_application#version_lifecycle_config ElasticbeanstalkApplication#version_lifecycle_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticbeanstalk_application#version_lifecycle_config ElasticbeanstalkApplication#version_lifecycle_config}
 
 ---
 
@@ -1004,11 +1004,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.elasticbeanstalkApplication.ElasticbeanstalkApplicationResourceLifecycleConfigVersionLifecycleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticbeanstalkapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticbeanstalkapplication"
 
 &elasticbeanstalkapplication.ElasticbeanstalkApplicationResourceLifecycleConfigVersionLifecycleConfig {
-	MaxAgeRule: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.elasticbeanstalkApplication.ElasticbeanstalkApplicationResourceLifecycleConfigVersionLifecycleConfigMaxAgeRule,
-	MaxCountRule: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.elasticbeanstalkApplication.ElasticbeanstalkApplicationResourceLifecycleConfigVersionLifecycleConfigMaxCountRule,
+	MaxAgeRule: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.elasticbeanstalkApplication.ElasticbeanstalkApplicationResourceLifecycleConfigVersionLifecycleConfigMaxAgeRule,
+	MaxCountRule: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.elasticbeanstalkApplication.ElasticbeanstalkApplicationResourceLifecycleConfigVersionLifecycleConfigMaxCountRule,
 }
 ```
 
@@ -1031,7 +1031,7 @@ MaxAgeRule ElasticbeanstalkApplicationResourceLifecycleConfigVersionLifecycleCon
 
 Specify a max age rule to restrict the length of time that application versions are retained for an application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticbeanstalk_application#max_age_rule ElasticbeanstalkApplication#max_age_rule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticbeanstalk_application#max_age_rule ElasticbeanstalkApplication#max_age_rule}
 
 ---
 
@@ -1045,7 +1045,7 @@ MaxCountRule ElasticbeanstalkApplicationResourceLifecycleConfigVersionLifecycleC
 
 Specify a max count rule to restrict the number of application versions that are retained for an application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticbeanstalk_application#max_count_rule ElasticbeanstalkApplication#max_count_rule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticbeanstalk_application#max_count_rule ElasticbeanstalkApplication#max_count_rule}
 
 ---
 
@@ -1054,7 +1054,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.elasticbeanstalkApplication.ElasticbeanstalkApplicationResourceLifecycleConfigVersionLifecycleConfigMaxAgeRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticbeanstalkapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticbeanstalkapplication"
 
 &elasticbeanstalkapplication.ElasticbeanstalkApplicationResourceLifecycleConfigVersionLifecycleConfigMaxAgeRule {
 	DeleteSourceFromS3: interface{},
@@ -1083,7 +1083,7 @@ DeleteSourceFromS3 interface{}
 
 Set to true to delete a version's source bundle from Amazon S3 when Elastic Beanstalk deletes the application version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticbeanstalk_application#delete_source_from_s3 ElasticbeanstalkApplication#delete_source_from_s3}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticbeanstalk_application#delete_source_from_s3 ElasticbeanstalkApplication#delete_source_from_s3}
 
 ---
 
@@ -1097,7 +1097,7 @@ Enabled interface{}
 
 Specify true to apply the rule, or false to disable it.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticbeanstalk_application#enabled ElasticbeanstalkApplication#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticbeanstalk_application#enabled ElasticbeanstalkApplication#enabled}
 
 ---
 
@@ -1111,7 +1111,7 @@ MaxAgeInDays *f64
 
 Specify the number of days to retain an application versions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticbeanstalk_application#max_age_in_days ElasticbeanstalkApplication#max_age_in_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticbeanstalk_application#max_age_in_days ElasticbeanstalkApplication#max_age_in_days}
 
 ---
 
@@ -1120,7 +1120,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.elasticbeanstalkApplication.ElasticbeanstalkApplicationResourceLifecycleConfigVersionLifecycleConfigMaxCountRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticbeanstalkapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticbeanstalkapplication"
 
 &elasticbeanstalkapplication.ElasticbeanstalkApplicationResourceLifecycleConfigVersionLifecycleConfigMaxCountRule {
 	DeleteSourceFromS3: interface{},
@@ -1149,7 +1149,7 @@ DeleteSourceFromS3 interface{}
 
 Set to true to delete a version's source bundle from Amazon S3 when Elastic Beanstalk deletes the application version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticbeanstalk_application#delete_source_from_s3 ElasticbeanstalkApplication#delete_source_from_s3}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticbeanstalk_application#delete_source_from_s3 ElasticbeanstalkApplication#delete_source_from_s3}
 
 ---
 
@@ -1163,7 +1163,7 @@ Enabled interface{}
 
 Specify true to apply the rule, or false to disable it.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticbeanstalk_application#enabled ElasticbeanstalkApplication#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticbeanstalk_application#enabled ElasticbeanstalkApplication#enabled}
 
 ---
 
@@ -1177,7 +1177,7 @@ MaxCount *f64
 
 Specify the maximum number of application versions to retain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticbeanstalk_application#max_count ElasticbeanstalkApplication#max_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticbeanstalk_application#max_count ElasticbeanstalkApplication#max_count}
 
 ---
 
@@ -1188,7 +1188,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.elasticbeanstalkApplication.ElasticbeanstalkApplicationResourceLifecycleConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticbeanstalkapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticbeanstalkapplication"
 
 elasticbeanstalkapplication.NewElasticbeanstalkApplicationResourceLifecycleConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ElasticbeanstalkApplicationResourceLifecycleConfigOutputReference
 ```
@@ -1508,7 +1508,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.elasticbeanstalkApplication.ElasticbeanstalkApplicationResourceLifecycleConfigVersionLifecycleConfigMaxAgeRuleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticbeanstalkapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticbeanstalkapplication"
 
 elasticbeanstalkapplication.NewElasticbeanstalkApplicationResourceLifecycleConfigVersionLifecycleConfigMaxAgeRuleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ElasticbeanstalkApplicationResourceLifecycleConfigVersionLifecycleConfigMaxAgeRuleOutputReference
 ```
@@ -1844,7 +1844,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.elasticbeanstalkApplication.ElasticbeanstalkApplicationResourceLifecycleConfigVersionLifecycleConfigMaxCountRuleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticbeanstalkapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticbeanstalkapplication"
 
 elasticbeanstalkapplication.NewElasticbeanstalkApplicationResourceLifecycleConfigVersionLifecycleConfigMaxCountRuleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ElasticbeanstalkApplicationResourceLifecycleConfigVersionLifecycleConfigMaxCountRuleOutputReference
 ```
@@ -2180,7 +2180,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.elasticbeanstalkApplication.ElasticbeanstalkApplicationResourceLifecycleConfigVersionLifecycleConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticbeanstalkapplication"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticbeanstalkapplication"
 
 elasticbeanstalkapplication.NewElasticbeanstalkApplicationResourceLifecycleConfigVersionLifecycleConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ElasticbeanstalkApplicationResourceLifecycleConfigVersionLifecycleConfigOutputReference
 ```

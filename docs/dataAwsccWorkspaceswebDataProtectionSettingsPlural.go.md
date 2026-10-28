@@ -4,12 +4,12 @@
 
 ### DataAwsccWorkspaceswebDataProtectionSettingsPlural <a name="DataAwsccWorkspaceswebDataProtectionSettingsPlural" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebDataProtectionSettingsPlural.DataAwsccWorkspaceswebDataProtectionSettingsPlural"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspacesweb_data_protection_settings_plural awscc_workspacesweb_data_protection_settings_plural}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspacesweb_data_protection_settings_plural awscc_workspacesweb_data_protection_settings_plural}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebDataProtectionSettingsPlural.DataAwsccWorkspaceswebDataProtectionSettingsPlural.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebdataprotectionsettingsplural"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebdataprotectionsettingsplural"
 
 dataawsccworkspaceswebdataprotectionsettingsplural.NewDataAwsccWorkspaceswebDataProtectionSettingsPlural(scope Construct, id *string, config DataAwsccWorkspaceswebDataProtectionSettingsPluralConfig) DataAwsccWorkspaceswebDataProtectionSettingsPlural
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebDataProtectionSettingsPlural.DataAwsccWorkspaceswebDataProtectionSettingsPlural.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebdataprotectionsettingsplural"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebdataprotectionsettingsplural"
 
 dataawsccworkspaceswebdataprotectionsettingsplural.DataAwsccWorkspaceswebDataProtectionSettingsPlural_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebDataProtectionSettingsPlural.DataAwsccWorkspaceswebDataProtectionSettingsPlural.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebdataprotectionsettingsplural"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebdataprotectionsettingsplural"
 
 dataawsccworkspaceswebdataprotectionsettingsplural.DataAwsccWorkspaceswebDataProtectionSettingsPlural_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccworkspaceswebdataprotectionsettingsplural.DataAwsccWorkspaceswebDataPro
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebDataProtectionSettingsPlural.DataAwsccWorkspaceswebDataProtectionSettingsPlural.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebdataprotectionsettingsplural"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebdataprotectionsettingsplural"
 
 dataawsccworkspaceswebdataprotectionsettingsplural.DataAwsccWorkspaceswebDataProtectionSettingsPlural_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccworkspaceswebdataprotectionsettingsplural.DataAwsccWorkspaceswebDataPro
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebDataProtectionSettingsPlural.DataAwsccWorkspaceswebDataProtectionSettingsPlural.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebdataprotectionsettingsplural"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebdataprotectionsettingsplural"
 
 dataawsccworkspaceswebdataprotectionsettingsplural.DataAwsccWorkspaceswebDataProtectionSettingsPlural_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccWorkspaceswebData
 
 The id of the existing DataAwsccWorkspaceswebDataProtectionSettingsPlural that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspacesweb_data_protection_settings_plural#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspacesweb_data_protection_settings_plural#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebDataProtectionSettingsPlural.DataAwsccWorkspaceswebDataProtectionSettingsPluralConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebdataprotectionsettingsplural"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebdataprotectionsettingsplural"
 
 &dataawsccworkspaceswebdataprotectionsettingsplural.DataAwsccWorkspaceswebDataProtectionSettingsPluralConfig {
 	Connection: interface{},

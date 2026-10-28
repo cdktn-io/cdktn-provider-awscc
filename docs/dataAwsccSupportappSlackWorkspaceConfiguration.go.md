@@ -4,12 +4,12 @@
 
 ### DataAwsccSupportappSlackWorkspaceConfiguration <a name="DataAwsccSupportappSlackWorkspaceConfiguration" id="@cdktn/provider-awscc.dataAwsccSupportappSlackWorkspaceConfiguration.DataAwsccSupportappSlackWorkspaceConfiguration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/supportapp_slack_workspace_configuration awscc_supportapp_slack_workspace_configuration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/supportapp_slack_workspace_configuration awscc_supportapp_slack_workspace_configuration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSupportappSlackWorkspaceConfiguration.DataAwsccSupportappSlackWorkspaceConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsupportappslackworkspaceconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsupportappslackworkspaceconfiguration"
 
 dataawsccsupportappslackworkspaceconfiguration.NewDataAwsccSupportappSlackWorkspaceConfiguration(scope Construct, id *string, config DataAwsccSupportappSlackWorkspaceConfigurationConfig) DataAwsccSupportappSlackWorkspaceConfiguration
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSupportappSlackWorkspaceConfiguration.DataAwsccSupportappSlackWorkspaceConfiguration.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsupportappslackworkspaceconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsupportappslackworkspaceconfiguration"
 
 dataawsccsupportappslackworkspaceconfiguration.DataAwsccSupportappSlackWorkspaceConfiguration_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSupportappSlackWorkspaceConfiguration.DataAwsccSupportappSlackWorkspaceConfiguration.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsupportappslackworkspaceconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsupportappslackworkspaceconfiguration"
 
 dataawsccsupportappslackworkspaceconfiguration.DataAwsccSupportappSlackWorkspaceConfiguration_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsupportappslackworkspaceconfiguration.DataAwsccSupportappSlackWorkspace
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSupportappSlackWorkspaceConfiguration.DataAwsccSupportappSlackWorkspaceConfiguration.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsupportappslackworkspaceconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsupportappslackworkspaceconfiguration"
 
 dataawsccsupportappslackworkspaceconfiguration.DataAwsccSupportappSlackWorkspaceConfiguration_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsupportappslackworkspaceconfiguration.DataAwsccSupportappSlackWorkspace
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSupportappSlackWorkspaceConfiguration.DataAwsccSupportappSlackWorkspaceConfiguration.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsupportappslackworkspaceconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsupportappslackworkspaceconfiguration"
 
 dataawsccsupportappslackworkspaceconfiguration.DataAwsccSupportappSlackWorkspaceConfiguration_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSupportappSlackWo
 
 The id of the existing DataAwsccSupportappSlackWorkspaceConfiguration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/supportapp_slack_workspace_configuration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/supportapp_slack_workspace_configuration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -609,7 +609,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSupportappSlackWorkspaceConfiguration.DataAwsccSupportappSlackWorkspaceConfigurationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsupportappslackworkspaceconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsupportappslackworkspaceconfiguration"
 
 &dataawsccsupportappslackworkspaceconfiguration.DataAwsccSupportappSlackWorkspaceConfigurationConfig {
 	Connection: interface{},
@@ -718,7 +718,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/supportapp_slack_workspace_configuration#id DataAwsccSupportappSlackWorkspaceConfiguration#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/supportapp_slack_workspace_configuration#id DataAwsccSupportappSlackWorkspaceConfiguration#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

@@ -4,12 +4,12 @@
 
 ### DataAwsccSesMailManagerAddonSubscriptions <a name="DataAwsccSesMailManagerAddonSubscriptions" id="@cdktn/provider-awscc.dataAwsccSesMailManagerAddonSubscriptions.DataAwsccSesMailManagerAddonSubscriptions"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_mail_manager_addon_subscriptions awscc_ses_mail_manager_addon_subscriptions}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ses_mail_manager_addon_subscriptions awscc_ses_mail_manager_addon_subscriptions}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMailManagerAddonSubscriptions.DataAwsccSesMailManagerAddonSubscriptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanageraddonsubscriptions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanageraddonsubscriptions"
 
 dataawsccsesmailmanageraddonsubscriptions.NewDataAwsccSesMailManagerAddonSubscriptions(scope Construct, id *string, config DataAwsccSesMailManagerAddonSubscriptionsConfig) DataAwsccSesMailManagerAddonSubscriptions
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSesMailManagerAddonSubscriptions.DataAwsccSesMailManagerAddonSubscriptions.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanageraddonsubscriptions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanageraddonsubscriptions"
 
 dataawsccsesmailmanageraddonsubscriptions.DataAwsccSesMailManagerAddonSubscriptions_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSesMailManagerAddonSubscriptions.DataAwsccSesMailManagerAddonSubscriptions.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanageraddonsubscriptions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanageraddonsubscriptions"
 
 dataawsccsesmailmanageraddonsubscriptions.DataAwsccSesMailManagerAddonSubscriptions_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsesmailmanageraddonsubscriptions.DataAwsccSesMailManagerAddonSubscripti
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSesMailManagerAddonSubscriptions.DataAwsccSesMailManagerAddonSubscriptions.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanageraddonsubscriptions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanageraddonsubscriptions"
 
 dataawsccsesmailmanageraddonsubscriptions.DataAwsccSesMailManagerAddonSubscriptions_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsesmailmanageraddonsubscriptions.DataAwsccSesMailManagerAddonSubscripti
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSesMailManagerAddonSubscriptions.DataAwsccSesMailManagerAddonSubscriptions.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanageraddonsubscriptions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanageraddonsubscriptions"
 
 dataawsccsesmailmanageraddonsubscriptions.DataAwsccSesMailManagerAddonSubscriptions_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSesMailManagerAdd
 
 The id of the existing DataAwsccSesMailManagerAddonSubscriptions that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_mail_manager_addon_subscriptions#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ses_mail_manager_addon_subscriptions#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesMailManagerAddonSubscriptions.DataAwsccSesMailManagerAddonSubscriptionsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanageraddonsubscriptions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanageraddonsubscriptions"
 
 &dataawsccsesmailmanageraddonsubscriptions.DataAwsccSesMailManagerAddonSubscriptionsConfig {
 	Connection: interface{},

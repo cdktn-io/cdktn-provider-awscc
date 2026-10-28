@@ -4,12 +4,12 @@
 
 ### DataAwsccIotanalyticsPipelines <a name="DataAwsccIotanalyticsPipelines" id="@cdktn/provider-awscc.dataAwsccIotanalyticsPipelines.DataAwsccIotanalyticsPipelines"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotanalytics_pipelines awscc_iotanalytics_pipelines}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotanalytics_pipelines awscc_iotanalytics_pipelines}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsPipelines.DataAwsccIotanalyticsPipelines.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticspipelines"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticspipelines"
 
 dataawscciotanalyticspipelines.NewDataAwsccIotanalyticsPipelines(scope Construct, id *string, config DataAwsccIotanalyticsPipelinesConfig) DataAwsccIotanalyticsPipelines
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIotanalyticsPipelines.DataAwsccIotanalyticsPipelines.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticspipelines"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticspipelines"
 
 dataawscciotanalyticspipelines.DataAwsccIotanalyticsPipelines_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIotanalyticsPipelines.DataAwsccIotanalyticsPipelines.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticspipelines"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticspipelines"
 
 dataawscciotanalyticspipelines.DataAwsccIotanalyticsPipelines_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciotanalyticspipelines.DataAwsccIotanalyticsPipelines_IsTerraformElement
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIotanalyticsPipelines.DataAwsccIotanalyticsPipelines.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticspipelines"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticspipelines"
 
 dataawscciotanalyticspipelines.DataAwsccIotanalyticsPipelines_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciotanalyticspipelines.DataAwsccIotanalyticsPipelines_IsTerraformDataSou
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIotanalyticsPipelines.DataAwsccIotanalyticsPipelines.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticspipelines"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticspipelines"
 
 dataawscciotanalyticspipelines.DataAwsccIotanalyticsPipelines_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotanalyticsPipel
 
 The id of the existing DataAwsccIotanalyticsPipelines that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotanalytics_pipelines#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotanalytics_pipelines#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotanalyticsPipelines.DataAwsccIotanalyticsPipelinesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticspipelines"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticspipelines"
 
 &dataawscciotanalyticspipelines.DataAwsccIotanalyticsPipelinesConfig {
 	Connection: interface{},

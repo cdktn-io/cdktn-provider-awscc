@@ -4,12 +4,12 @@
 
 ### DataAwsccChimeMediaInsightsPipelineConfigurations <a name="DataAwsccChimeMediaInsightsPipelineConfigurations" id="@cdktn/provider-awscc.dataAwsccChimeMediaInsightsPipelineConfigurations.DataAwsccChimeMediaInsightsPipelineConfigurations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/chime_media_insights_pipeline_configurations awscc_chime_media_insights_pipeline_configurations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/chime_media_insights_pipeline_configurations awscc_chime_media_insights_pipeline_configurations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccChimeMediaInsightsPipelineConfigurations.DataAwsccChimeMediaInsightsPipelineConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimemediainsightspipelineconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchimemediainsightspipelineconfigurations"
 
 dataawsccchimemediainsightspipelineconfigurations.NewDataAwsccChimeMediaInsightsPipelineConfigurations(scope Construct, id *string, config DataAwsccChimeMediaInsightsPipelineConfigurationsConfig) DataAwsccChimeMediaInsightsPipelineConfigurations
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccChimeMediaInsightsPipelineConfigurations.DataAwsccChimeMediaInsightsPipelineConfigurations.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimemediainsightspipelineconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchimemediainsightspipelineconfigurations"
 
 dataawsccchimemediainsightspipelineconfigurations.DataAwsccChimeMediaInsightsPipelineConfigurations_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccChimeMediaInsightsPipelineConfigurations.DataAwsccChimeMediaInsightsPipelineConfigurations.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimemediainsightspipelineconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchimemediainsightspipelineconfigurations"
 
 dataawsccchimemediainsightspipelineconfigurations.DataAwsccChimeMediaInsightsPipelineConfigurations_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccchimemediainsightspipelineconfigurations.DataAwsccChimeMediaInsightsPip
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccChimeMediaInsightsPipelineConfigurations.DataAwsccChimeMediaInsightsPipelineConfigurations.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimemediainsightspipelineconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchimemediainsightspipelineconfigurations"
 
 dataawsccchimemediainsightspipelineconfigurations.DataAwsccChimeMediaInsightsPipelineConfigurations_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccchimemediainsightspipelineconfigurations.DataAwsccChimeMediaInsightsPip
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccChimeMediaInsightsPipelineConfigurations.DataAwsccChimeMediaInsightsPipelineConfigurations.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimemediainsightspipelineconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchimemediainsightspipelineconfigurations"
 
 dataawsccchimemediainsightspipelineconfigurations.DataAwsccChimeMediaInsightsPipelineConfigurations_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccChimeMediaInsight
 
 The id of the existing DataAwsccChimeMediaInsightsPipelineConfigurations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/chime_media_insights_pipeline_configurations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/chime_media_insights_pipeline_configurations#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccChimeMediaInsightsPipelineConfigurations.DataAwsccChimeMediaInsightsPipelineConfigurationsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimemediainsightspipelineconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchimemediainsightspipelineconfigurations"
 
 &dataawsccchimemediainsightspipelineconfigurations.DataAwsccChimeMediaInsightsPipelineConfigurationsConfig {
 	Connection: interface{},

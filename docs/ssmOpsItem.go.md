@@ -4,12 +4,12 @@
 
 ### SsmOpsItem <a name="SsmOpsItem" id="@cdktn/provider-awscc.ssmOpsItem.SsmOpsItem"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_ops_item awscc_ssm_ops_item}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_ops_item awscc_ssm_ops_item}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssmOpsItem.SsmOpsItem.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmopsitem"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmopsitem"
 
 ssmopsitem.NewSsmOpsItem(scope Construct, id *string, config SsmOpsItemConfig) SsmOpsItem
 ```
@@ -441,7 +441,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.ssmOpsItem.SsmOpsItem.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmopsitem"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmopsitem"
 
 ssmopsitem.SsmOpsItem_IsConstruct(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.ssmOpsItem.SsmOpsItem.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmopsitem"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmopsitem"
 
 ssmopsitem.SsmOpsItem_IsTerraformElement(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ ssmopsitem.SsmOpsItem_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.ssmOpsItem.SsmOpsItem.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmopsitem"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmopsitem"
 
 ssmopsitem.SsmOpsItem_IsTerraformResource(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ ssmopsitem.SsmOpsItem_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.ssmOpsItem.SsmOpsItem.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmopsitem"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmopsitem"
 
 ssmopsitem.SsmOpsItem_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -530,7 +530,7 @@ The construct id used in the generated config for the SsmOpsItem to import.
 
 The id of the existing SsmOpsItem that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_ops_item#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_ops_item#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -994,7 +994,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ssmOpsItem.SsmOpsItemConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmopsitem"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmopsitem"
 
 &ssmopsitem.SsmOpsItemConfig {
 	Connection: interface{},
@@ -1115,7 +1115,7 @@ Description *string
 
 The description of the OpsItem.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_ops_item#description SsmOpsItem#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_ops_item#description SsmOpsItem#description}
 
 ---
 
@@ -1129,7 +1129,7 @@ Source *string
 
 The origin of the OpsItem.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_ops_item#source SsmOpsItem#source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_ops_item#source SsmOpsItem#source}
 
 ---
 
@@ -1143,7 +1143,7 @@ Title *string
 
 The title of the OpsItem.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_ops_item#title SsmOpsItem#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_ops_item#title SsmOpsItem#title}
 
 ---
 
@@ -1157,7 +1157,7 @@ Category *string
 
 The category of the OpsItem.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_ops_item#category SsmOpsItem#category}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_ops_item#category SsmOpsItem#category}
 
 ---
 
@@ -1171,7 +1171,7 @@ Priority *f64
 
 The priority of the OpsItem.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_ops_item#priority SsmOpsItem#priority}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_ops_item#priority SsmOpsItem#priority}
 
 ---
 
@@ -1185,7 +1185,7 @@ Severity *string
 
 The severity of the OpsItem.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_ops_item#severity SsmOpsItem#severity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_ops_item#severity SsmOpsItem#severity}
 
 ---
 
@@ -1199,7 +1199,7 @@ Tags interface{}
 
 Tags for the OpsItem.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_ops_item#tags SsmOpsItem#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_ops_item#tags SsmOpsItem#tags}
 
 ---
 
@@ -1208,7 +1208,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ssmOpsItem.SsmOpsItemTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmopsitem"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmopsitem"
 
 &ssmopsitem.SsmOpsItemTags {
 	Key: *string,
@@ -1220,8 +1220,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmopsitem"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ssmOpsItem.SsmOpsItemTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_ops_item#key SsmOpsItem#key}. |
-| <code><a href="#@cdktn/provider-awscc.ssmOpsItem.SsmOpsItemTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_ops_item#value SsmOpsItem#value}. |
+| <code><a href="#@cdktn/provider-awscc.ssmOpsItem.SsmOpsItemTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_ops_item#key SsmOpsItem#key}. |
+| <code><a href="#@cdktn/provider-awscc.ssmOpsItem.SsmOpsItemTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_ops_item#value SsmOpsItem#value}. |
 
 ---
 
@@ -1233,7 +1233,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_ops_item#key SsmOpsItem#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_ops_item#key SsmOpsItem#key}.
 
 ---
 
@@ -1245,7 +1245,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_ops_item#value SsmOpsItem#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_ops_item#value SsmOpsItem#value}.
 
 ---
 
@@ -1256,7 +1256,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssmOpsItem.SsmOpsItemTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmopsitem"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmopsitem"
 
 ssmopsitem.NewSsmOpsItemTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SsmOpsItemTagsList
 ```
@@ -1416,7 +1416,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssmOpsItem.SsmOpsItemTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmopsitem"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmopsitem"
 
 ssmopsitem.NewSsmOpsItemTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SsmOpsItemTagsOutputReference
 ```

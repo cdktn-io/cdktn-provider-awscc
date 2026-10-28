@@ -4,12 +4,12 @@
 
 ### DataAwsccGlueTable <a name="DataAwsccGlueTable" id="@cdktn/provider-awscc.dataAwsccGlueTable.DataAwsccGlueTable"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/glue_table awscc_glue_table}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/glue_table awscc_glue_table}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueTable.DataAwsccGlueTable.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetable"
 
 dataawsccgluetable.NewDataAwsccGlueTable(scope Construct, id *string, config DataAwsccGlueTableConfig) DataAwsccGlueTable
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccGlueTable.DataAwsccGlueTable.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetable"
 
 dataawsccgluetable.DataAwsccGlueTable_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccGlueTable.DataAwsccGlueTable.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetable"
 
 dataawsccgluetable.DataAwsccGlueTable_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccgluetable.DataAwsccGlueTable_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccGlueTable.DataAwsccGlueTable.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetable"
 
 dataawsccgluetable.DataAwsccGlueTable_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccgluetable.DataAwsccGlueTable_IsTerraformDataSource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccGlueTable.DataAwsccGlueTable.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetable"
 
 dataawsccgluetable.DataAwsccGlueTable_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccGlueTable to impo
 
 The id of the existing DataAwsccGlueTable that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/glue_table#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/glue_table#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -642,7 +642,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueTable.DataAwsccGlueTableConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetable"
 
 &dataawsccgluetable.DataAwsccGlueTableConfig {
 	Connection: interface{},
@@ -751,7 +751,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/glue_table#id DataAwsccGlueTable#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/glue_table#id DataAwsccGlueTable#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -763,7 +763,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueTable.DataAwsccGlueTableOpenTableFormatInput.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetable"
 
 &dataawsccgluetable.DataAwsccGlueTableOpenTableFormatInput {
 
@@ -776,7 +776,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueTable.DataAwsccGlueTableOpenTableFormatInputIcebergInput.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetable"
 
 &dataawsccgluetable.DataAwsccGlueTableOpenTableFormatInputIcebergInput {
 
@@ -789,7 +789,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueTable.DataAwsccGlueTableOpenTableFormatInputIcebergInputIcebergTableInput.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetable"
 
 &dataawsccgluetable.DataAwsccGlueTableOpenTableFormatInputIcebergInputIcebergTableInput {
 
@@ -802,7 +802,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueTable.DataAwsccGlueTableOpenTableFormatInputIcebergInputIcebergTableInputPartitionSpec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetable"
 
 &dataawsccgluetable.DataAwsccGlueTableOpenTableFormatInputIcebergInputIcebergTableInputPartitionSpec {
 
@@ -815,7 +815,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueTable.DataAwsccGlueTableOpenTableFormatInputIcebergInputIcebergTableInputPartitionSpecFields.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetable"
 
 &dataawsccgluetable.DataAwsccGlueTableOpenTableFormatInputIcebergInputIcebergTableInputPartitionSpecFields {
 
@@ -828,7 +828,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueTable.DataAwsccGlueTableOpenTableFormatInputIcebergInputIcebergTableInputSchema.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetable"
 
 &dataawsccgluetable.DataAwsccGlueTableOpenTableFormatInputIcebergInputIcebergTableInputSchema {
 
@@ -841,7 +841,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueTable.DataAwsccGlueTableOpenTableFormatInputIcebergInputIcebergTableInputSchemaFields.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetable"
 
 &dataawsccgluetable.DataAwsccGlueTableOpenTableFormatInputIcebergInputIcebergTableInputSchemaFields {
 
@@ -854,7 +854,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueTable.DataAwsccGlueTableOpenTableFormatInputIcebergInputIcebergTableInputWriteOrder.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetable"
 
 &dataawsccgluetable.DataAwsccGlueTableOpenTableFormatInputIcebergInputIcebergTableInputWriteOrder {
 
@@ -867,7 +867,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueTable.DataAwsccGlueTableOpenTableFormatInputIcebergInputIcebergTableInputWriteOrderFields.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetable"
 
 &dataawsccgluetable.DataAwsccGlueTableOpenTableFormatInputIcebergInputIcebergTableInputWriteOrderFields {
 
@@ -880,7 +880,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueTable.DataAwsccGlueTableTableInput.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetable"
 
 &dataawsccgluetable.DataAwsccGlueTableTableInput {
 
@@ -893,7 +893,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueTable.DataAwsccGlueTableTableInputPartitionKeys.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetable"
 
 &dataawsccgluetable.DataAwsccGlueTableTableInputPartitionKeys {
 
@@ -906,7 +906,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueTable.DataAwsccGlueTableTableInputStorageDescriptor.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetable"
 
 &dataawsccgluetable.DataAwsccGlueTableTableInputStorageDescriptor {
 
@@ -919,7 +919,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueTable.DataAwsccGlueTableTableInputStorageDescriptorColumns.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetable"
 
 &dataawsccgluetable.DataAwsccGlueTableTableInputStorageDescriptorColumns {
 
@@ -932,7 +932,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueTable.DataAwsccGlueTableTableInputStorageDescriptorSchemaReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetable"
 
 &dataawsccgluetable.DataAwsccGlueTableTableInputStorageDescriptorSchemaReference {
 
@@ -945,7 +945,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueTable.DataAwsccGlueTableTableInputStorageDescriptorSchemaReferenceSchemaId.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetable"
 
 &dataawsccgluetable.DataAwsccGlueTableTableInputStorageDescriptorSchemaReferenceSchemaId {
 
@@ -958,7 +958,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueTable.DataAwsccGlueTableTableInputStorageDescriptorSerdeInfo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetable"
 
 &dataawsccgluetable.DataAwsccGlueTableTableInputStorageDescriptorSerdeInfo {
 
@@ -971,7 +971,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueTable.DataAwsccGlueTableTableInputStorageDescriptorSkewedInfo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetable"
 
 &dataawsccgluetable.DataAwsccGlueTableTableInputStorageDescriptorSkewedInfo {
 
@@ -984,7 +984,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueTable.DataAwsccGlueTableTableInputStorageDescriptorSortColumns.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetable"
 
 &dataawsccgluetable.DataAwsccGlueTableTableInputStorageDescriptorSortColumns {
 
@@ -997,7 +997,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueTable.DataAwsccGlueTableTableInputTargetTable.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetable"
 
 &dataawsccgluetable.DataAwsccGlueTableTableInputTargetTable {
 
@@ -1010,7 +1010,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueTable.DataAwsccGlueTableTableInputViewDefinition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetable"
 
 &dataawsccgluetable.DataAwsccGlueTableTableInputViewDefinition {
 
@@ -1023,7 +1023,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueTable.DataAwsccGlueTableTableInputViewDefinitionRepresentations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetable"
 
 &dataawsccgluetable.DataAwsccGlueTableTableInputViewDefinitionRepresentations {
 
@@ -1038,7 +1038,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueTable.DataAwsccGlueTableOpenTableFormatInputIcebergInputIcebergTableInputOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetable"
 
 dataawsccgluetable.NewDataAwsccGlueTableOpenTableFormatInputIcebergInputIcebergTableInputOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGlueTableOpenTableFormatInputIcebergInputIcebergTableInputOutputReference
 ```
@@ -1342,7 +1342,7 @@ func InternalValue() DataAwsccGlueTableOpenTableFormatInputIcebergInputIcebergTa
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueTable.DataAwsccGlueTableOpenTableFormatInputIcebergInputIcebergTableInputPartitionSpecFieldsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetable"
 
 dataawsccgluetable.NewDataAwsccGlueTableOpenTableFormatInputIcebergInputIcebergTableInputPartitionSpecFieldsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccGlueTableOpenTableFormatInputIcebergInputIcebergTableInputPartitionSpecFieldsList
 ```
@@ -1491,7 +1491,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueTable.DataAwsccGlueTableOpenTableFormatInputIcebergInputIcebergTableInputPartitionSpecFieldsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetable"
 
 dataawsccgluetable.NewDataAwsccGlueTableOpenTableFormatInputIcebergInputIcebergTableInputPartitionSpecFieldsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccGlueTableOpenTableFormatInputIcebergInputIcebergTableInputPartitionSpecFieldsOutputReference
 ```
@@ -1802,7 +1802,7 @@ func InternalValue() DataAwsccGlueTableOpenTableFormatInputIcebergInputIcebergTa
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueTable.DataAwsccGlueTableOpenTableFormatInputIcebergInputIcebergTableInputPartitionSpecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetable"
 
 dataawsccgluetable.NewDataAwsccGlueTableOpenTableFormatInputIcebergInputIcebergTableInputPartitionSpecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGlueTableOpenTableFormatInputIcebergInputIcebergTableInputPartitionSpecOutputReference
 ```
@@ -2073,7 +2073,7 @@ func InternalValue() DataAwsccGlueTableOpenTableFormatInputIcebergInputIcebergTa
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueTable.DataAwsccGlueTableOpenTableFormatInputIcebergInputIcebergTableInputSchemaFieldsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetable"
 
 dataawsccgluetable.NewDataAwsccGlueTableOpenTableFormatInputIcebergInputIcebergTableInputSchemaFieldsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccGlueTableOpenTableFormatInputIcebergInputIcebergTableInputSchemaFieldsList
 ```
@@ -2222,7 +2222,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueTable.DataAwsccGlueTableOpenTableFormatInputIcebergInputIcebergTableInputSchemaFieldsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetable"
 
 dataawsccgluetable.NewDataAwsccGlueTableOpenTableFormatInputIcebergInputIcebergTableInputSchemaFieldsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccGlueTableOpenTableFormatInputIcebergInputIcebergTableInputSchemaFieldsOutputReference
 ```
@@ -2544,7 +2544,7 @@ func InternalValue() DataAwsccGlueTableOpenTableFormatInputIcebergInputIcebergTa
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueTable.DataAwsccGlueTableOpenTableFormatInputIcebergInputIcebergTableInputSchemaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetable"
 
 dataawsccgluetable.NewDataAwsccGlueTableOpenTableFormatInputIcebergInputIcebergTableInputSchemaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGlueTableOpenTableFormatInputIcebergInputIcebergTableInputSchemaOutputReference
 ```
@@ -2837,7 +2837,7 @@ func InternalValue() DataAwsccGlueTableOpenTableFormatInputIcebergInputIcebergTa
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueTable.DataAwsccGlueTableOpenTableFormatInputIcebergInputIcebergTableInputWriteOrderFieldsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetable"
 
 dataawsccgluetable.NewDataAwsccGlueTableOpenTableFormatInputIcebergInputIcebergTableInputWriteOrderFieldsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccGlueTableOpenTableFormatInputIcebergInputIcebergTableInputWriteOrderFieldsList
 ```
@@ -2986,7 +2986,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueTable.DataAwsccGlueTableOpenTableFormatInputIcebergInputIcebergTableInputWriteOrderFieldsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetable"
 
 dataawsccgluetable.NewDataAwsccGlueTableOpenTableFormatInputIcebergInputIcebergTableInputWriteOrderFieldsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccGlueTableOpenTableFormatInputIcebergInputIcebergTableInputWriteOrderFieldsOutputReference
 ```
@@ -3297,7 +3297,7 @@ func InternalValue() DataAwsccGlueTableOpenTableFormatInputIcebergInputIcebergTa
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueTable.DataAwsccGlueTableOpenTableFormatInputIcebergInputIcebergTableInputWriteOrderOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetable"
 
 dataawsccgluetable.NewDataAwsccGlueTableOpenTableFormatInputIcebergInputIcebergTableInputWriteOrderOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGlueTableOpenTableFormatInputIcebergInputIcebergTableInputWriteOrderOutputReference
 ```
@@ -3568,7 +3568,7 @@ func InternalValue() DataAwsccGlueTableOpenTableFormatInputIcebergInputIcebergTa
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueTable.DataAwsccGlueTableOpenTableFormatInputIcebergInputOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetable"
 
 dataawsccgluetable.NewDataAwsccGlueTableOpenTableFormatInputIcebergInputOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGlueTableOpenTableFormatInputIcebergInputOutputReference
 ```
@@ -3850,7 +3850,7 @@ func InternalValue() DataAwsccGlueTableOpenTableFormatInputIcebergInput
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueTable.DataAwsccGlueTableOpenTableFormatInputOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetable"
 
 dataawsccgluetable.NewDataAwsccGlueTableOpenTableFormatInputOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGlueTableOpenTableFormatInputOutputReference
 ```
@@ -4110,7 +4110,7 @@ func InternalValue() DataAwsccGlueTableOpenTableFormatInput
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueTable.DataAwsccGlueTableTableInputOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetable"
 
 dataawsccgluetable.NewDataAwsccGlueTableTableInputOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGlueTableTableInputOutputReference
 ```
@@ -4491,7 +4491,7 @@ func InternalValue() DataAwsccGlueTableTableInput
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueTable.DataAwsccGlueTableTableInputPartitionKeysList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetable"
 
 dataawsccgluetable.NewDataAwsccGlueTableTableInputPartitionKeysList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccGlueTableTableInputPartitionKeysList
 ```
@@ -4640,7 +4640,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueTable.DataAwsccGlueTableTableInputPartitionKeysOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetable"
 
 dataawsccgluetable.NewDataAwsccGlueTableTableInputPartitionKeysOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccGlueTableTableInputPartitionKeysOutputReference
 ```
@@ -4940,7 +4940,7 @@ func InternalValue() DataAwsccGlueTableTableInputPartitionKeys
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueTable.DataAwsccGlueTableTableInputStorageDescriptorColumnsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetable"
 
 dataawsccgluetable.NewDataAwsccGlueTableTableInputStorageDescriptorColumnsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccGlueTableTableInputStorageDescriptorColumnsList
 ```
@@ -5089,7 +5089,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueTable.DataAwsccGlueTableTableInputStorageDescriptorColumnsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetable"
 
 dataawsccgluetable.NewDataAwsccGlueTableTableInputStorageDescriptorColumnsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccGlueTableTableInputStorageDescriptorColumnsOutputReference
 ```
@@ -5389,7 +5389,7 @@ func InternalValue() DataAwsccGlueTableTableInputStorageDescriptorColumns
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueTable.DataAwsccGlueTableTableInputStorageDescriptorOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetable"
 
 dataawsccgluetable.NewDataAwsccGlueTableTableInputStorageDescriptorOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGlueTableTableInputStorageDescriptorOutputReference
 ```
@@ -5781,7 +5781,7 @@ func InternalValue() DataAwsccGlueTableTableInputStorageDescriptor
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueTable.DataAwsccGlueTableTableInputStorageDescriptorSchemaReferenceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetable"
 
 dataawsccgluetable.NewDataAwsccGlueTableTableInputStorageDescriptorSchemaReferenceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGlueTableTableInputStorageDescriptorSchemaReferenceOutputReference
 ```
@@ -6063,7 +6063,7 @@ func InternalValue() DataAwsccGlueTableTableInputStorageDescriptorSchemaReferenc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueTable.DataAwsccGlueTableTableInputStorageDescriptorSchemaReferenceSchemaIdOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetable"
 
 dataawsccgluetable.NewDataAwsccGlueTableTableInputStorageDescriptorSchemaReferenceSchemaIdOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGlueTableTableInputStorageDescriptorSchemaReferenceSchemaIdOutputReference
 ```
@@ -6345,7 +6345,7 @@ func InternalValue() DataAwsccGlueTableTableInputStorageDescriptorSchemaReferenc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueTable.DataAwsccGlueTableTableInputStorageDescriptorSerdeInfoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetable"
 
 dataawsccgluetable.NewDataAwsccGlueTableTableInputStorageDescriptorSerdeInfoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGlueTableTableInputStorageDescriptorSerdeInfoOutputReference
 ```
@@ -6627,7 +6627,7 @@ func InternalValue() DataAwsccGlueTableTableInputStorageDescriptorSerdeInfo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueTable.DataAwsccGlueTableTableInputStorageDescriptorSkewedInfoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetable"
 
 dataawsccgluetable.NewDataAwsccGlueTableTableInputStorageDescriptorSkewedInfoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGlueTableTableInputStorageDescriptorSkewedInfoOutputReference
 ```
@@ -6909,7 +6909,7 @@ func InternalValue() DataAwsccGlueTableTableInputStorageDescriptorSkewedInfo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueTable.DataAwsccGlueTableTableInputStorageDescriptorSortColumnsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetable"
 
 dataawsccgluetable.NewDataAwsccGlueTableTableInputStorageDescriptorSortColumnsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccGlueTableTableInputStorageDescriptorSortColumnsList
 ```
@@ -7058,7 +7058,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueTable.DataAwsccGlueTableTableInputStorageDescriptorSortColumnsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetable"
 
 dataawsccgluetable.NewDataAwsccGlueTableTableInputStorageDescriptorSortColumnsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccGlueTableTableInputStorageDescriptorSortColumnsOutputReference
 ```
@@ -7347,7 +7347,7 @@ func InternalValue() DataAwsccGlueTableTableInputStorageDescriptorSortColumns
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueTable.DataAwsccGlueTableTableInputTargetTableOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetable"
 
 dataawsccgluetable.NewDataAwsccGlueTableTableInputTargetTableOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGlueTableTableInputTargetTableOutputReference
 ```
@@ -7640,7 +7640,7 @@ func InternalValue() DataAwsccGlueTableTableInputTargetTable
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueTable.DataAwsccGlueTableTableInputViewDefinitionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetable"
 
 dataawsccgluetable.NewDataAwsccGlueTableTableInputViewDefinitionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGlueTableTableInputViewDefinitionOutputReference
 ```
@@ -7933,7 +7933,7 @@ func InternalValue() DataAwsccGlueTableTableInputViewDefinition
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueTable.DataAwsccGlueTableTableInputViewDefinitionRepresentationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetable"
 
 dataawsccgluetable.NewDataAwsccGlueTableTableInputViewDefinitionRepresentationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccGlueTableTableInputViewDefinitionRepresentationsList
 ```
@@ -8082,7 +8082,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueTable.DataAwsccGlueTableTableInputViewDefinitionRepresentationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetable"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetable"
 
 dataawsccgluetable.NewDataAwsccGlueTableTableInputViewDefinitionRepresentationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccGlueTableTableInputViewDefinitionRepresentationsOutputReference
 ```

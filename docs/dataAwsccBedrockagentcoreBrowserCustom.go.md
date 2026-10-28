@@ -4,12 +4,12 @@
 
 ### DataAwsccBedrockagentcoreBrowserCustom <a name="DataAwsccBedrockagentcoreBrowserCustom" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreBrowserCustom.DataAwsccBedrockagentcoreBrowserCustom"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockagentcore_browser_custom awscc_bedrockagentcore_browser_custom}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockagentcore_browser_custom awscc_bedrockagentcore_browser_custom}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreBrowserCustom.DataAwsccBedrockagentcoreBrowserCustom.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcorebrowsercustom"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcorebrowsercustom"
 
 dataawsccbedrockagentcorebrowsercustom.NewDataAwsccBedrockagentcoreBrowserCustom(scope Construct, id *string, config DataAwsccBedrockagentcoreBrowserCustomConfig) DataAwsccBedrockagentcoreBrowserCustom
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreBrowserCustom.DataAwsccBedrockagentcoreBrowserCustom.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcorebrowsercustom"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcorebrowsercustom"
 
 dataawsccbedrockagentcorebrowsercustom.DataAwsccBedrockagentcoreBrowserCustom_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreBrowserCustom.DataAwsccBedrockagentcoreBrowserCustom.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcorebrowsercustom"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcorebrowsercustom"
 
 dataawsccbedrockagentcorebrowsercustom.DataAwsccBedrockagentcoreBrowserCustom_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccbedrockagentcorebrowsercustom.DataAwsccBedrockagentcoreBrowserCustom_Is
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreBrowserCustom.DataAwsccBedrockagentcoreBrowserCustom.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcorebrowsercustom"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcorebrowsercustom"
 
 dataawsccbedrockagentcorebrowsercustom.DataAwsccBedrockagentcoreBrowserCustom_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccbedrockagentcorebrowsercustom.DataAwsccBedrockagentcoreBrowserCustom_Is
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreBrowserCustom.DataAwsccBedrockagentcoreBrowserCustom.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcorebrowsercustom"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcorebrowsercustom"
 
 dataawsccbedrockagentcorebrowsercustom.DataAwsccBedrockagentcoreBrowserCustom_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccBedrockagentcoreB
 
 The id of the existing DataAwsccBedrockagentcoreBrowserCustom that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockagentcore_browser_custom#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockagentcore_browser_custom#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -752,7 +752,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreBrowserCustom.DataAwsccBedrockagentcoreBrowserCustomBrowserSigning.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcorebrowsercustom"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcorebrowsercustom"
 
 &dataawsccbedrockagentcorebrowsercustom.DataAwsccBedrockagentcoreBrowserCustomBrowserSigning {
 
@@ -765,7 +765,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreBrowserCustom.DataAwsccBedrockagentcoreBrowserCustomCertificates.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcorebrowsercustom"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcorebrowsercustom"
 
 &dataawsccbedrockagentcorebrowsercustom.DataAwsccBedrockagentcoreBrowserCustomCertificates {
 
@@ -778,7 +778,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreBrowserCustom.DataAwsccBedrockagentcoreBrowserCustomCertificatesCertificateLocation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcorebrowsercustom"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcorebrowsercustom"
 
 &dataawsccbedrockagentcorebrowsercustom.DataAwsccBedrockagentcoreBrowserCustomCertificatesCertificateLocation {
 
@@ -791,7 +791,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreBrowserCustom.DataAwsccBedrockagentcoreBrowserCustomConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcorebrowsercustom"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcorebrowsercustom"
 
 &dataawsccbedrockagentcorebrowsercustom.DataAwsccBedrockagentcoreBrowserCustomConfig {
 	Connection: interface{},
@@ -900,7 +900,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockagentcore_browser_custom#id DataAwsccBedrockagentcoreBrowserCustom#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockagentcore_browser_custom#id DataAwsccBedrockagentcoreBrowserCustom#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -912,7 +912,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreBrowserCustom.DataAwsccBedrockagentcoreBrowserCustomEnterprisePolicies.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcorebrowsercustom"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcorebrowsercustom"
 
 &dataawsccbedrockagentcorebrowsercustom.DataAwsccBedrockagentcoreBrowserCustomEnterprisePolicies {
 
@@ -925,7 +925,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreBrowserCustom.DataAwsccBedrockagentcoreBrowserCustomEnterprisePoliciesLocation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcorebrowsercustom"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcorebrowsercustom"
 
 &dataawsccbedrockagentcorebrowsercustom.DataAwsccBedrockagentcoreBrowserCustomEnterprisePoliciesLocation {
 
@@ -938,7 +938,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreBrowserCustom.DataAwsccBedrockagentcoreBrowserCustomNetworkConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcorebrowsercustom"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcorebrowsercustom"
 
 &dataawsccbedrockagentcorebrowsercustom.DataAwsccBedrockagentcoreBrowserCustomNetworkConfiguration {
 
@@ -951,7 +951,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreBrowserCustom.DataAwsccBedrockagentcoreBrowserCustomNetworkConfigurationVpcConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcorebrowsercustom"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcorebrowsercustom"
 
 &dataawsccbedrockagentcorebrowsercustom.DataAwsccBedrockagentcoreBrowserCustomNetworkConfigurationVpcConfig {
 
@@ -964,7 +964,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreBrowserCustom.DataAwsccBedrockagentcoreBrowserCustomRecordingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcorebrowsercustom"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcorebrowsercustom"
 
 &dataawsccbedrockagentcorebrowsercustom.DataAwsccBedrockagentcoreBrowserCustomRecordingConfig {
 
@@ -977,7 +977,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreBrowserCustom.DataAwsccBedrockagentcoreBrowserCustomRecordingConfigS3Location.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcorebrowsercustom"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcorebrowsercustom"
 
 &dataawsccbedrockagentcorebrowsercustom.DataAwsccBedrockagentcoreBrowserCustomRecordingConfigS3Location {
 
@@ -992,7 +992,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreBrowserCustom.DataAwsccBedrockagentcoreBrowserCustomBrowserSigningOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcorebrowsercustom"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcorebrowsercustom"
 
 dataawsccbedrockagentcorebrowsercustom.NewDataAwsccBedrockagentcoreBrowserCustomBrowserSigningOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockagentcoreBrowserCustomBrowserSigningOutputReference
 ```
@@ -1252,7 +1252,7 @@ func InternalValue() DataAwsccBedrockagentcoreBrowserCustomBrowserSigning
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreBrowserCustom.DataAwsccBedrockagentcoreBrowserCustomCertificatesCertificateLocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcorebrowsercustom"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcorebrowsercustom"
 
 dataawsccbedrockagentcorebrowsercustom.NewDataAwsccBedrockagentcoreBrowserCustomCertificatesCertificateLocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockagentcoreBrowserCustomCertificatesCertificateLocationOutputReference
 ```
@@ -1512,7 +1512,7 @@ func InternalValue() DataAwsccBedrockagentcoreBrowserCustomCertificatesCertifica
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreBrowserCustom.DataAwsccBedrockagentcoreBrowserCustomCertificatesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcorebrowsercustom"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcorebrowsercustom"
 
 dataawsccbedrockagentcorebrowsercustom.NewDataAwsccBedrockagentcoreBrowserCustomCertificatesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBedrockagentcoreBrowserCustomCertificatesList
 ```
@@ -1661,7 +1661,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreBrowserCustom.DataAwsccBedrockagentcoreBrowserCustomCertificatesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcorebrowsercustom"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcorebrowsercustom"
 
 dataawsccbedrockagentcorebrowsercustom.NewDataAwsccBedrockagentcoreBrowserCustomCertificatesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBedrockagentcoreBrowserCustomCertificatesOutputReference
 ```
@@ -1939,7 +1939,7 @@ func InternalValue() DataAwsccBedrockagentcoreBrowserCustomCertificates
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreBrowserCustom.DataAwsccBedrockagentcoreBrowserCustomEnterprisePoliciesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcorebrowsercustom"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcorebrowsercustom"
 
 dataawsccbedrockagentcorebrowsercustom.NewDataAwsccBedrockagentcoreBrowserCustomEnterprisePoliciesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBedrockagentcoreBrowserCustomEnterprisePoliciesList
 ```
@@ -2088,7 +2088,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreBrowserCustom.DataAwsccBedrockagentcoreBrowserCustomEnterprisePoliciesLocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcorebrowsercustom"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcorebrowsercustom"
 
 dataawsccbedrockagentcorebrowsercustom.NewDataAwsccBedrockagentcoreBrowserCustomEnterprisePoliciesLocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockagentcoreBrowserCustomEnterprisePoliciesLocationOutputReference
 ```
@@ -2359,7 +2359,7 @@ func InternalValue() DataAwsccBedrockagentcoreBrowserCustomEnterprisePoliciesLoc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreBrowserCustom.DataAwsccBedrockagentcoreBrowserCustomEnterprisePoliciesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcorebrowsercustom"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcorebrowsercustom"
 
 dataawsccbedrockagentcorebrowsercustom.NewDataAwsccBedrockagentcoreBrowserCustomEnterprisePoliciesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBedrockagentcoreBrowserCustomEnterprisePoliciesOutputReference
 ```
@@ -2648,7 +2648,7 @@ func InternalValue() DataAwsccBedrockagentcoreBrowserCustomEnterprisePolicies
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreBrowserCustom.DataAwsccBedrockagentcoreBrowserCustomNetworkConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcorebrowsercustom"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcorebrowsercustom"
 
 dataawsccbedrockagentcorebrowsercustom.NewDataAwsccBedrockagentcoreBrowserCustomNetworkConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockagentcoreBrowserCustomNetworkConfigurationOutputReference
 ```
@@ -2919,7 +2919,7 @@ func InternalValue() DataAwsccBedrockagentcoreBrowserCustomNetworkConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreBrowserCustom.DataAwsccBedrockagentcoreBrowserCustomNetworkConfigurationVpcConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcorebrowsercustom"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcorebrowsercustom"
 
 dataawsccbedrockagentcorebrowsercustom.NewDataAwsccBedrockagentcoreBrowserCustomNetworkConfigurationVpcConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockagentcoreBrowserCustomNetworkConfigurationVpcConfigOutputReference
 ```
@@ -3190,7 +3190,7 @@ func InternalValue() DataAwsccBedrockagentcoreBrowserCustomNetworkConfigurationV
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreBrowserCustom.DataAwsccBedrockagentcoreBrowserCustomRecordingConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcorebrowsercustom"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcorebrowsercustom"
 
 dataawsccbedrockagentcorebrowsercustom.NewDataAwsccBedrockagentcoreBrowserCustomRecordingConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockagentcoreBrowserCustomRecordingConfigOutputReference
 ```
@@ -3461,7 +3461,7 @@ func InternalValue() DataAwsccBedrockagentcoreBrowserCustomRecordingConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreBrowserCustom.DataAwsccBedrockagentcoreBrowserCustomRecordingConfigS3LocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcorebrowsercustom"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcorebrowsercustom"
 
 dataawsccbedrockagentcorebrowsercustom.NewDataAwsccBedrockagentcoreBrowserCustomRecordingConfigS3LocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccBedrockagentcoreBrowserCustomRecordingConfigS3LocationOutputReference
 ```

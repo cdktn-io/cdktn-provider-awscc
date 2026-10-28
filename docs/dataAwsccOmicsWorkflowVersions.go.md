@@ -4,12 +4,12 @@
 
 ### DataAwsccOmicsWorkflowVersions <a name="DataAwsccOmicsWorkflowVersions" id="@cdktn/provider-awscc.dataAwsccOmicsWorkflowVersions.DataAwsccOmicsWorkflowVersions"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/omics_workflow_versions awscc_omics_workflow_versions}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/omics_workflow_versions awscc_omics_workflow_versions}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOmicsWorkflowVersions.DataAwsccOmicsWorkflowVersions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccomicsworkflowversions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccomicsworkflowversions"
 
 dataawsccomicsworkflowversions.NewDataAwsccOmicsWorkflowVersions(scope Construct, id *string, config DataAwsccOmicsWorkflowVersionsConfig) DataAwsccOmicsWorkflowVersions
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccOmicsWorkflowVersions.DataAwsccOmicsWorkflowVersions.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccomicsworkflowversions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccomicsworkflowversions"
 
 dataawsccomicsworkflowversions.DataAwsccOmicsWorkflowVersions_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccOmicsWorkflowVersions.DataAwsccOmicsWorkflowVersions.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccomicsworkflowversions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccomicsworkflowversions"
 
 dataawsccomicsworkflowversions.DataAwsccOmicsWorkflowVersions_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccomicsworkflowversions.DataAwsccOmicsWorkflowVersions_IsTerraformElement
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccOmicsWorkflowVersions.DataAwsccOmicsWorkflowVersions.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccomicsworkflowversions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccomicsworkflowversions"
 
 dataawsccomicsworkflowversions.DataAwsccOmicsWorkflowVersions_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccomicsworkflowversions.DataAwsccOmicsWorkflowVersions_IsTerraformDataSou
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccOmicsWorkflowVersions.DataAwsccOmicsWorkflowVersions.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccomicsworkflowversions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccomicsworkflowversions"
 
 dataawsccomicsworkflowversions.DataAwsccOmicsWorkflowVersions_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccOmicsWorkflowVers
 
 The id of the existing DataAwsccOmicsWorkflowVersions that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/omics_workflow_versions#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/omics_workflow_versions#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOmicsWorkflowVersions.DataAwsccOmicsWorkflowVersionsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccomicsworkflowversions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccomicsworkflowversions"
 
 &dataawsccomicsworkflowversions.DataAwsccOmicsWorkflowVersionsConfig {
 	Connection: interface{},

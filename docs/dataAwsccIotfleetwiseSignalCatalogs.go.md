@@ -4,12 +4,12 @@
 
 ### DataAwsccIotfleetwiseSignalCatalogs <a name="DataAwsccIotfleetwiseSignalCatalogs" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseSignalCatalogs.DataAwsccIotfleetwiseSignalCatalogs"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotfleetwise_signal_catalogs awscc_iotfleetwise_signal_catalogs}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotfleetwise_signal_catalogs awscc_iotfleetwise_signal_catalogs}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseSignalCatalogs.DataAwsccIotfleetwiseSignalCatalogs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisesignalcatalogs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisesignalcatalogs"
 
 dataawscciotfleetwisesignalcatalogs.NewDataAwsccIotfleetwiseSignalCatalogs(scope Construct, id *string, config DataAwsccIotfleetwiseSignalCatalogsConfig) DataAwsccIotfleetwiseSignalCatalogs
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseSignalCatalogs.DataAwsccIotfleetwiseSignalCatalogs.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisesignalcatalogs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisesignalcatalogs"
 
 dataawscciotfleetwisesignalcatalogs.DataAwsccIotfleetwiseSignalCatalogs_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseSignalCatalogs.DataAwsccIotfleetwiseSignalCatalogs.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisesignalcatalogs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisesignalcatalogs"
 
 dataawscciotfleetwisesignalcatalogs.DataAwsccIotfleetwiseSignalCatalogs_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciotfleetwisesignalcatalogs.DataAwsccIotfleetwiseSignalCatalogs_IsTerraf
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseSignalCatalogs.DataAwsccIotfleetwiseSignalCatalogs.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisesignalcatalogs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisesignalcatalogs"
 
 dataawscciotfleetwisesignalcatalogs.DataAwsccIotfleetwiseSignalCatalogs_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciotfleetwisesignalcatalogs.DataAwsccIotfleetwiseSignalCatalogs_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseSignalCatalogs.DataAwsccIotfleetwiseSignalCatalogs.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisesignalcatalogs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisesignalcatalogs"
 
 dataawscciotfleetwisesignalcatalogs.DataAwsccIotfleetwiseSignalCatalogs_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotfleetwiseSigna
 
 The id of the existing DataAwsccIotfleetwiseSignalCatalogs that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotfleetwise_signal_catalogs#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotfleetwise_signal_catalogs#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseSignalCatalogs.DataAwsccIotfleetwiseSignalCatalogsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotfleetwisesignalcatalogs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotfleetwisesignalcatalogs"
 
 &dataawscciotfleetwisesignalcatalogs.DataAwsccIotfleetwiseSignalCatalogsConfig {
 	Connection: interface{},

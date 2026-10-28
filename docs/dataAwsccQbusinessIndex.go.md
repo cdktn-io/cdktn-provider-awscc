@@ -4,12 +4,12 @@
 
 ### DataAwsccQbusinessIndex <a name="DataAwsccQbusinessIndex" id="@cdktn/provider-awscc.dataAwsccQbusinessIndex.DataAwsccQbusinessIndex"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/qbusiness_index awscc_qbusiness_index}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/qbusiness_index awscc_qbusiness_index}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQbusinessIndex.DataAwsccQbusinessIndex.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessindex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessindex"
 
 dataawsccqbusinessindex.NewDataAwsccQbusinessIndex(scope Construct, id *string, config DataAwsccQbusinessIndexConfig) DataAwsccQbusinessIndex
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccQbusinessIndex.DataAwsccQbusinessIndex.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessindex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessindex"
 
 dataawsccqbusinessindex.DataAwsccQbusinessIndex_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccQbusinessIndex.DataAwsccQbusinessIndex.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessindex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessindex"
 
 dataawsccqbusinessindex.DataAwsccQbusinessIndex_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccqbusinessindex.DataAwsccQbusinessIndex_IsTerraformElement(x interface{}
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccQbusinessIndex.DataAwsccQbusinessIndex.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessindex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessindex"
 
 dataawsccqbusinessindex.DataAwsccQbusinessIndex_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccqbusinessindex.DataAwsccQbusinessIndex_IsTerraformDataSource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccQbusinessIndex.DataAwsccQbusinessIndex.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessindex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessindex"
 
 dataawsccqbusinessindex.DataAwsccQbusinessIndex_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccQbusinessIndex to
 
 The id of the existing DataAwsccQbusinessIndex that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/qbusiness_index#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/qbusiness_index#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -730,7 +730,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQbusinessIndex.DataAwsccQbusinessIndexCapacityConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessindex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessindex"
 
 &dataawsccqbusinessindex.DataAwsccQbusinessIndexCapacityConfiguration {
 
@@ -743,7 +743,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessinde
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQbusinessIndex.DataAwsccQbusinessIndexConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessindex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessindex"
 
 &dataawsccqbusinessindex.DataAwsccQbusinessIndexConfig {
 	Connection: interface{},
@@ -852,7 +852,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/qbusiness_index#id DataAwsccQbusinessIndex#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/qbusiness_index#id DataAwsccQbusinessIndex#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -864,7 +864,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQbusinessIndex.DataAwsccQbusinessIndexDocumentAttributeConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessindex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessindex"
 
 &dataawsccqbusinessindex.DataAwsccQbusinessIndexDocumentAttributeConfigurations {
 
@@ -877,7 +877,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessinde
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQbusinessIndex.DataAwsccQbusinessIndexIndexStatistics.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessindex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessindex"
 
 &dataawsccqbusinessindex.DataAwsccQbusinessIndexIndexStatistics {
 
@@ -890,7 +890,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessinde
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQbusinessIndex.DataAwsccQbusinessIndexIndexStatisticsTextDocumentStatistics.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessindex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessindex"
 
 &dataawsccqbusinessindex.DataAwsccQbusinessIndexIndexStatisticsTextDocumentStatistics {
 
@@ -903,7 +903,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessinde
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQbusinessIndex.DataAwsccQbusinessIndexTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessindex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessindex"
 
 &dataawsccqbusinessindex.DataAwsccQbusinessIndexTags {
 
@@ -918,7 +918,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessinde
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQbusinessIndex.DataAwsccQbusinessIndexCapacityConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessindex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessindex"
 
 dataawsccqbusinessindex.NewDataAwsccQbusinessIndexCapacityConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQbusinessIndexCapacityConfigurationOutputReference
 ```
@@ -1178,7 +1178,7 @@ func InternalValue() DataAwsccQbusinessIndexCapacityConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQbusinessIndex.DataAwsccQbusinessIndexDocumentAttributeConfigurationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessindex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessindex"
 
 dataawsccqbusinessindex.NewDataAwsccQbusinessIndexDocumentAttributeConfigurationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccQbusinessIndexDocumentAttributeConfigurationsList
 ```
@@ -1327,7 +1327,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQbusinessIndex.DataAwsccQbusinessIndexDocumentAttributeConfigurationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessindex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessindex"
 
 dataawsccqbusinessindex.NewDataAwsccQbusinessIndexDocumentAttributeConfigurationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccQbusinessIndexDocumentAttributeConfigurationsOutputReference
 ```
@@ -1627,7 +1627,7 @@ func InternalValue() DataAwsccQbusinessIndexDocumentAttributeConfigurations
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQbusinessIndex.DataAwsccQbusinessIndexIndexStatisticsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessindex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessindex"
 
 dataawsccqbusinessindex.NewDataAwsccQbusinessIndexIndexStatisticsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQbusinessIndexIndexStatisticsOutputReference
 ```
@@ -1887,7 +1887,7 @@ func InternalValue() DataAwsccQbusinessIndexIndexStatistics
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQbusinessIndex.DataAwsccQbusinessIndexIndexStatisticsTextDocumentStatisticsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessindex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessindex"
 
 dataawsccqbusinessindex.NewDataAwsccQbusinessIndexIndexStatisticsTextDocumentStatisticsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQbusinessIndexIndexStatisticsTextDocumentStatisticsOutputReference
 ```
@@ -2158,7 +2158,7 @@ func InternalValue() DataAwsccQbusinessIndexIndexStatisticsTextDocumentStatistic
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQbusinessIndex.DataAwsccQbusinessIndexTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessindex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessindex"
 
 dataawsccqbusinessindex.NewDataAwsccQbusinessIndexTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccQbusinessIndexTagsList
 ```
@@ -2307,7 +2307,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQbusinessIndex.DataAwsccQbusinessIndexTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessindex"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessindex"
 
 dataawsccqbusinessindex.NewDataAwsccQbusinessIndexTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccQbusinessIndexTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccRoute53ResolverResolverQueryLoggingConfigAssociations <a name="DataAwsccRoute53ResolverResolverQueryLoggingConfigAssociations" id="@cdktn/provider-awscc.dataAwsccRoute53ResolverResolverQueryLoggingConfigAssociations.DataAwsccRoute53ResolverResolverQueryLoggingConfigAssociations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53resolver_resolver_query_logging_config_associations awscc_route53resolver_resolver_query_logging_config_associations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53resolver_resolver_query_logging_config_associations awscc_route53resolver_resolver_query_logging_config_associations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53ResolverResolverQueryLoggingConfigAssociations.DataAwsccRoute53ResolverResolverQueryLoggingConfigAssociations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53resolverresolverqueryloggingconfigassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53resolverresolverqueryloggingconfigassociations"
 
 dataawsccroute53resolverresolverqueryloggingconfigassociations.NewDataAwsccRoute53ResolverResolverQueryLoggingConfigAssociations(scope Construct, id *string, config DataAwsccRoute53ResolverResolverQueryLoggingConfigAssociationsConfig) DataAwsccRoute53ResolverResolverQueryLoggingConfigAssociations
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccRoute53ResolverResolverQueryLoggingConfigAssociations.DataAwsccRoute53ResolverResolverQueryLoggingConfigAssociations.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53resolverresolverqueryloggingconfigassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53resolverresolverqueryloggingconfigassociations"
 
 dataawsccroute53resolverresolverqueryloggingconfigassociations.DataAwsccRoute53ResolverResolverQueryLoggingConfigAssociations_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccRoute53ResolverResolverQueryLoggingConfigAssociations.DataAwsccRoute53ResolverResolverQueryLoggingConfigAssociations.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53resolverresolverqueryloggingconfigassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53resolverresolverqueryloggingconfigassociations"
 
 dataawsccroute53resolverresolverqueryloggingconfigassociations.DataAwsccRoute53ResolverResolverQueryLoggingConfigAssociations_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccroute53resolverresolverqueryloggingconfigassociations.DataAwsccRoute53R
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccRoute53ResolverResolverQueryLoggingConfigAssociations.DataAwsccRoute53ResolverResolverQueryLoggingConfigAssociations.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53resolverresolverqueryloggingconfigassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53resolverresolverqueryloggingconfigassociations"
 
 dataawsccroute53resolverresolverqueryloggingconfigassociations.DataAwsccRoute53ResolverResolverQueryLoggingConfigAssociations_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccroute53resolverresolverqueryloggingconfigassociations.DataAwsccRoute53R
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccRoute53ResolverResolverQueryLoggingConfigAssociations.DataAwsccRoute53ResolverResolverQueryLoggingConfigAssociations.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53resolverresolverqueryloggingconfigassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53resolverresolverqueryloggingconfigassociations"
 
 dataawsccroute53resolverresolverqueryloggingconfigassociations.DataAwsccRoute53ResolverResolverQueryLoggingConfigAssociations_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRoute53ResolverRe
 
 The id of the existing DataAwsccRoute53ResolverResolverQueryLoggingConfigAssociations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53resolver_resolver_query_logging_config_associations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53resolver_resolver_query_logging_config_associations#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRoute53ResolverResolverQueryLoggingConfigAssociations.DataAwsccRoute53ResolverResolverQueryLoggingConfigAssociationsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53resolverresolverqueryloggingconfigassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53resolverresolverqueryloggingconfigassociations"
 
 &dataawsccroute53resolverresolverqueryloggingconfigassociations.DataAwsccRoute53ResolverResolverQueryLoggingConfigAssociationsConfig {
 	Connection: interface{},

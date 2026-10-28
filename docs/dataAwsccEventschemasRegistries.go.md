@@ -4,12 +4,12 @@
 
 ### DataAwsccEventschemasRegistries <a name="DataAwsccEventschemasRegistries" id="@cdktn/provider-awscc.dataAwsccEventschemasRegistries.DataAwsccEventschemasRegistries"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/eventschemas_registries awscc_eventschemas_registries}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/eventschemas_registries awscc_eventschemas_registries}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventschemasRegistries.DataAwsccEventschemasRegistries.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventschemasregistries"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventschemasregistries"
 
 dataawscceventschemasregistries.NewDataAwsccEventschemasRegistries(scope Construct, id *string, config DataAwsccEventschemasRegistriesConfig) DataAwsccEventschemasRegistries
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEventschemasRegistries.DataAwsccEventschemasRegistries.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventschemasregistries"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventschemasregistries"
 
 dataawscceventschemasregistries.DataAwsccEventschemasRegistries_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEventschemasRegistries.DataAwsccEventschemasRegistries.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventschemasregistries"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventschemasregistries"
 
 dataawscceventschemasregistries.DataAwsccEventschemasRegistries_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscceventschemasregistries.DataAwsccEventschemasRegistries_IsTerraformEleme
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEventschemasRegistries.DataAwsccEventschemasRegistries.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventschemasregistries"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventschemasregistries"
 
 dataawscceventschemasregistries.DataAwsccEventschemasRegistries_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscceventschemasregistries.DataAwsccEventschemasRegistries_IsTerraformDataS
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEventschemasRegistries.DataAwsccEventschemasRegistries.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventschemasregistries"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventschemasregistries"
 
 dataawscceventschemasregistries.DataAwsccEventschemasRegistries_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEventschemasRegis
 
 The id of the existing DataAwsccEventschemasRegistries that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/eventschemas_registries#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/eventschemas_registries#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventschemasRegistries.DataAwsccEventschemasRegistriesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventschemasregistries"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventschemasregistries"
 
 &dataawscceventschemasregistries.DataAwsccEventschemasRegistriesConfig {
 	Connection: interface{},

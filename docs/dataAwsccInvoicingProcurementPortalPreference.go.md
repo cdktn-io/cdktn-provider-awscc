@@ -4,12 +4,12 @@
 
 ### DataAwsccInvoicingProcurementPortalPreference <a name="DataAwsccInvoicingProcurementPortalPreference" id="@cdktn/provider-awscc.dataAwsccInvoicingProcurementPortalPreference.DataAwsccInvoicingProcurementPortalPreference"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/invoicing_procurement_portal_preference awscc_invoicing_procurement_portal_preference}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/invoicing_procurement_portal_preference awscc_invoicing_procurement_portal_preference}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInvoicingProcurementPortalPreference.DataAwsccInvoicingProcurementPortalPreference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinvoicingprocurementportalpreference"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinvoicingprocurementportalpreference"
 
 dataawsccinvoicingprocurementportalpreference.NewDataAwsccInvoicingProcurementPortalPreference(scope Construct, id *string, config DataAwsccInvoicingProcurementPortalPreferenceConfig) DataAwsccInvoicingProcurementPortalPreference
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccInvoicingProcurementPortalPreference.DataAwsccInvoicingProcurementPortalPreference.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinvoicingprocurementportalpreference"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinvoicingprocurementportalpreference"
 
 dataawsccinvoicingprocurementportalpreference.DataAwsccInvoicingProcurementPortalPreference_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccInvoicingProcurementPortalPreference.DataAwsccInvoicingProcurementPortalPreference.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinvoicingprocurementportalpreference"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinvoicingprocurementportalpreference"
 
 dataawsccinvoicingprocurementportalpreference.DataAwsccInvoicingProcurementPortalPreference_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccinvoicingprocurementportalpreference.DataAwsccInvoicingProcurementPorta
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccInvoicingProcurementPortalPreference.DataAwsccInvoicingProcurementPortalPreference.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinvoicingprocurementportalpreference"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinvoicingprocurementportalpreference"
 
 dataawsccinvoicingprocurementportalpreference.DataAwsccInvoicingProcurementPortalPreference_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccinvoicingprocurementportalpreference.DataAwsccInvoicingProcurementPorta
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccInvoicingProcurementPortalPreference.DataAwsccInvoicingProcurementPortalPreference.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinvoicingprocurementportalpreference"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinvoicingprocurementportalpreference"
 
 dataawsccinvoicingprocurementportalpreference.DataAwsccInvoicingProcurementPortalPreference_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccInvoicingProcurem
 
 The id of the existing DataAwsccInvoicingProcurementPortalPreference that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/invoicing_procurement_portal_preference#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/invoicing_procurement_portal_preference#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -829,7 +829,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInvoicingProcurementPortalPreference.DataAwsccInvoicingProcurementPortalPreferenceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinvoicingprocurementportalpreference"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinvoicingprocurementportalpreference"
 
 &dataawsccinvoicingprocurementportalpreference.DataAwsccInvoicingProcurementPortalPreferenceConfig {
 	Connection: interface{},
@@ -938,7 +938,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/invoicing_procurement_portal_preference#id DataAwsccInvoicingProcurementPortalPreference#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/invoicing_procurement_portal_preference#id DataAwsccInvoicingProcurementPortalPreference#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -950,7 +950,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInvoicingProcurementPortalPreference.DataAwsccInvoicingProcurementPortalPreferenceContacts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinvoicingprocurementportalpreference"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinvoicingprocurementportalpreference"
 
 &dataawsccinvoicingprocurementportalpreference.DataAwsccInvoicingProcurementPortalPreferenceContacts {
 
@@ -963,7 +963,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinvoicingproc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInvoicingProcurementPortalPreference.DataAwsccInvoicingProcurementPortalPreferenceEinvoiceDeliveryPreference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinvoicingprocurementportalpreference"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinvoicingprocurementportalpreference"
 
 &dataawsccinvoicingprocurementportalpreference.DataAwsccInvoicingProcurementPortalPreferenceEinvoiceDeliveryPreference {
 
@@ -976,7 +976,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinvoicingproc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInvoicingProcurementPortalPreference.DataAwsccInvoicingProcurementPortalPreferenceEinvoiceDeliveryPreferencePurchaseOrderDataSources.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinvoicingprocurementportalpreference"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinvoicingprocurementportalpreference"
 
 &dataawsccinvoicingprocurementportalpreference.DataAwsccInvoicingProcurementPortalPreferenceEinvoiceDeliveryPreferencePurchaseOrderDataSources {
 
@@ -989,7 +989,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinvoicingproc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInvoicingProcurementPortalPreference.DataAwsccInvoicingProcurementPortalPreferenceSelector.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinvoicingprocurementportalpreference"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinvoicingprocurementportalpreference"
 
 &dataawsccinvoicingprocurementportalpreference.DataAwsccInvoicingProcurementPortalPreferenceSelector {
 
@@ -1002,7 +1002,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinvoicingproc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInvoicingProcurementPortalPreference.DataAwsccInvoicingProcurementPortalPreferenceTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinvoicingprocurementportalpreference"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinvoicingprocurementportalpreference"
 
 &dataawsccinvoicingprocurementportalpreference.DataAwsccInvoicingProcurementPortalPreferenceTags {
 
@@ -1015,7 +1015,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinvoicingproc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInvoicingProcurementPortalPreference.DataAwsccInvoicingProcurementPortalPreferenceTestEnvPreference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinvoicingprocurementportalpreference"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinvoicingprocurementportalpreference"
 
 &dataawsccinvoicingprocurementportalpreference.DataAwsccInvoicingProcurementPortalPreferenceTestEnvPreference {
 
@@ -1030,7 +1030,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinvoicingproc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInvoicingProcurementPortalPreference.DataAwsccInvoicingProcurementPortalPreferenceContactsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinvoicingprocurementportalpreference"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinvoicingprocurementportalpreference"
 
 dataawsccinvoicingprocurementportalpreference.NewDataAwsccInvoicingProcurementPortalPreferenceContactsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccInvoicingProcurementPortalPreferenceContactsList
 ```
@@ -1179,7 +1179,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInvoicingProcurementPortalPreference.DataAwsccInvoicingProcurementPortalPreferenceContactsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinvoicingprocurementportalpreference"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinvoicingprocurementportalpreference"
 
 dataawsccinvoicingprocurementportalpreference.NewDataAwsccInvoicingProcurementPortalPreferenceContactsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccInvoicingProcurementPortalPreferenceContactsOutputReference
 ```
@@ -1468,7 +1468,7 @@ func InternalValue() DataAwsccInvoicingProcurementPortalPreferenceContacts
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInvoicingProcurementPortalPreference.DataAwsccInvoicingProcurementPortalPreferenceEinvoiceDeliveryPreferenceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinvoicingprocurementportalpreference"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinvoicingprocurementportalpreference"
 
 dataawsccinvoicingprocurementportalpreference.NewDataAwsccInvoicingProcurementPortalPreferenceEinvoiceDeliveryPreferenceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccInvoicingProcurementPortalPreferenceEinvoiceDeliveryPreferenceOutputReference
 ```
@@ -1783,7 +1783,7 @@ func InternalValue() DataAwsccInvoicingProcurementPortalPreferenceEinvoiceDelive
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInvoicingProcurementPortalPreference.DataAwsccInvoicingProcurementPortalPreferenceEinvoiceDeliveryPreferencePurchaseOrderDataSourcesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinvoicingprocurementportalpreference"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinvoicingprocurementportalpreference"
 
 dataawsccinvoicingprocurementportalpreference.NewDataAwsccInvoicingProcurementPortalPreferenceEinvoiceDeliveryPreferencePurchaseOrderDataSourcesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccInvoicingProcurementPortalPreferenceEinvoiceDeliveryPreferencePurchaseOrderDataSourcesList
 ```
@@ -1932,7 +1932,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInvoicingProcurementPortalPreference.DataAwsccInvoicingProcurementPortalPreferenceEinvoiceDeliveryPreferencePurchaseOrderDataSourcesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinvoicingprocurementportalpreference"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinvoicingprocurementportalpreference"
 
 dataawsccinvoicingprocurementportalpreference.NewDataAwsccInvoicingProcurementPortalPreferenceEinvoiceDeliveryPreferencePurchaseOrderDataSourcesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccInvoicingProcurementPortalPreferenceEinvoiceDeliveryPreferencePurchaseOrderDataSourcesOutputReference
 ```
@@ -2221,7 +2221,7 @@ func InternalValue() DataAwsccInvoicingProcurementPortalPreferenceEinvoiceDelive
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInvoicingProcurementPortalPreference.DataAwsccInvoicingProcurementPortalPreferenceSelectorOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinvoicingprocurementportalpreference"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinvoicingprocurementportalpreference"
 
 dataawsccinvoicingprocurementportalpreference.NewDataAwsccInvoicingProcurementPortalPreferenceSelectorOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccInvoicingProcurementPortalPreferenceSelectorOutputReference
 ```
@@ -2481,7 +2481,7 @@ func InternalValue() DataAwsccInvoicingProcurementPortalPreferenceSelector
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInvoicingProcurementPortalPreference.DataAwsccInvoicingProcurementPortalPreferenceTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinvoicingprocurementportalpreference"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinvoicingprocurementportalpreference"
 
 dataawsccinvoicingprocurementportalpreference.NewDataAwsccInvoicingProcurementPortalPreferenceTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccInvoicingProcurementPortalPreferenceTagsList
 ```
@@ -2630,7 +2630,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInvoicingProcurementPortalPreference.DataAwsccInvoicingProcurementPortalPreferenceTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinvoicingprocurementportalpreference"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinvoicingprocurementportalpreference"
 
 dataawsccinvoicingprocurementportalpreference.NewDataAwsccInvoicingProcurementPortalPreferenceTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccInvoicingProcurementPortalPreferenceTagsOutputReference
 ```
@@ -2919,7 +2919,7 @@ func InternalValue() DataAwsccInvoicingProcurementPortalPreferenceTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInvoicingProcurementPortalPreference.DataAwsccInvoicingProcurementPortalPreferenceTestEnvPreferenceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinvoicingprocurementportalpreference"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinvoicingprocurementportalpreference"
 
 dataawsccinvoicingprocurementportalpreference.NewDataAwsccInvoicingProcurementPortalPreferenceTestEnvPreferenceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccInvoicingProcurementPortalPreferenceTestEnvPreferenceOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccAmplifyDomains <a name="DataAwsccAmplifyDomains" id="@cdktn/provider-awscc.dataAwsccAmplifyDomains.DataAwsccAmplifyDomains"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/amplify_domains awscc_amplify_domains}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/amplify_domains awscc_amplify_domains}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAmplifyDomains.DataAwsccAmplifyDomains.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifydomains"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamplifydomains"
 
 dataawsccamplifydomains.NewDataAwsccAmplifyDomains(scope Construct, id *string, config DataAwsccAmplifyDomainsConfig) DataAwsccAmplifyDomains
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccAmplifyDomains.DataAwsccAmplifyDomains.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifydomains"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamplifydomains"
 
 dataawsccamplifydomains.DataAwsccAmplifyDomains_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccAmplifyDomains.DataAwsccAmplifyDomains.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifydomains"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamplifydomains"
 
 dataawsccamplifydomains.DataAwsccAmplifyDomains_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccamplifydomains.DataAwsccAmplifyDomains_IsTerraformElement(x interface{}
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccAmplifyDomains.DataAwsccAmplifyDomains.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifydomains"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamplifydomains"
 
 dataawsccamplifydomains.DataAwsccAmplifyDomains_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccamplifydomains.DataAwsccAmplifyDomains_IsTerraformDataSource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccAmplifyDomains.DataAwsccAmplifyDomains.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifydomains"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamplifydomains"
 
 dataawsccamplifydomains.DataAwsccAmplifyDomains_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccAmplifyDomains to
 
 The id of the existing DataAwsccAmplifyDomains that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/amplify_domains#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/amplify_domains#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAmplifyDomains.DataAwsccAmplifyDomainsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifydomains"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamplifydomains"
 
 &dataawsccamplifydomains.DataAwsccAmplifyDomainsConfig {
 	Connection: interface{},

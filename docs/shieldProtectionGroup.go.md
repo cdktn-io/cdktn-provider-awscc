@@ -4,12 +4,12 @@
 
 ### ShieldProtectionGroup <a name="ShieldProtectionGroup" id="@cdktn/provider-awscc.shieldProtectionGroup.ShieldProtectionGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/shield_protection_group awscc_shield_protection_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/shield_protection_group awscc_shield_protection_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.shieldProtectionGroup.ShieldProtectionGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/shieldprotectiongroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/shieldprotectiongroup"
 
 shieldprotectiongroup.NewShieldProtectionGroup(scope Construct, id *string, config ShieldProtectionGroupConfig) ShieldProtectionGroup
 ```
@@ -434,7 +434,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.shieldProtectionGroup.ShieldProtectionGroup.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/shieldprotectiongroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/shieldprotectiongroup"
 
 shieldprotectiongroup.ShieldProtectionGroup_IsConstruct(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.shieldProtectionGroup.ShieldProtectionGroup.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/shieldprotectiongroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/shieldprotectiongroup"
 
 shieldprotectiongroup.ShieldProtectionGroup_IsTerraformElement(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ shieldprotectiongroup.ShieldProtectionGroup_IsTerraformElement(x interface{}) *b
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.shieldProtectionGroup.ShieldProtectionGroup.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/shieldprotectiongroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/shieldprotectiongroup"
 
 shieldprotectiongroup.ShieldProtectionGroup_IsTerraformResource(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ shieldprotectiongroup.ShieldProtectionGroup_IsTerraformResource(x interface{}) *
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.shieldProtectionGroup.ShieldProtectionGroup.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/shieldprotectiongroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/shieldprotectiongroup"
 
 shieldprotectiongroup.ShieldProtectionGroup_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -523,7 +523,7 @@ The construct id used in the generated config for the ShieldProtectionGroup to i
 
 The id of the existing ShieldProtectionGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/shield_protection_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/shield_protection_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -877,7 +877,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.shieldProtectionGroup.ShieldProtectionGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/shieldprotectiongroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/shieldprotectiongroup"
 
 &shieldprotectiongroup.ShieldProtectionGroupConfig {
 	Connection: interface{},
@@ -1000,7 +1000,7 @@ Defines how AWS Shield combines resource data for the group in order to detect, 
 * Mean - Use the average of the traffic across the group. This is a good choice for resources that share traffic uniformly. Examples include accelerators and load balancers.
 * Max - Use the highest traffic from each resource. This is useful for resources that don't share traffic and for resources that share that traffic in a non-uniform way. Examples include Amazon CloudFront and origin resources for CloudFront distributions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/shield_protection_group#aggregation ShieldProtectionGroup#aggregation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/shield_protection_group#aggregation ShieldProtectionGroup#aggregation}
 
 ---
 
@@ -1016,7 +1016,7 @@ The criteria to use to choose the protected resources for inclusion in the group
 
 You can include all resources that have protections, provide a list of resource Amazon Resource Names (ARNs), or include all resources of a specified resource type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/shield_protection_group#pattern ShieldProtectionGroup#pattern}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/shield_protection_group#pattern ShieldProtectionGroup#pattern}
 
 ---
 
@@ -1032,7 +1032,7 @@ The name of the protection group.
 
 You use this to identify the protection group in lists and to manage the protection group, for example to update, delete, or describe it.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/shield_protection_group#protection_group_id ShieldProtectionGroup#protection_group_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/shield_protection_group#protection_group_id ShieldProtectionGroup#protection_group_id}
 
 ---
 
@@ -1048,7 +1048,7 @@ The Amazon Resource Names (ARNs) of the resources to include in the protection g
 
 You must set this when you set `Pattern` to `ARBITRARY` and you must not set it for any other `Pattern` setting.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/shield_protection_group#members ShieldProtectionGroup#members}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/shield_protection_group#members ShieldProtectionGroup#members}
 
 ---
 
@@ -1064,7 +1064,7 @@ The resource type to include in the protection group.
 
 All protected resources of this type are included in the protection group. Newly protected resources of this type are automatically added to the group. You must set this when you set `Pattern` to `BY_RESOURCE_TYPE` and you must not set it for any other `Pattern` setting.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/shield_protection_group#resource_type ShieldProtectionGroup#resource_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/shield_protection_group#resource_type ShieldProtectionGroup#resource_type}
 
 ---
 
@@ -1078,7 +1078,7 @@ Tags interface{}
 
 One or more tag key-value pairs for the Protection object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/shield_protection_group#tags ShieldProtectionGroup#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/shield_protection_group#tags ShieldProtectionGroup#tags}
 
 ---
 
@@ -1087,7 +1087,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.shieldProtectionGroup.ShieldProtectionGroupTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/shieldprotectiongroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/shieldprotectiongroup"
 
 &shieldprotectiongroup.ShieldProtectionGroupTags {
 	Key: *string,
@@ -1116,7 +1116,7 @@ Part of the key:value pair that defines a tag.
 
 You can use a tag key to describe a category of information, such as "customer." Tag keys are case-sensitive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/shield_protection_group#key ShieldProtectionGroup#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/shield_protection_group#key ShieldProtectionGroup#key}
 
 ---
 
@@ -1132,7 +1132,7 @@ Part of the key:value pair that defines a tag.
 
 You can use a tag value to describe a specific value within a category, such as "companyA" or "companyB." Tag values are case-sensitive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/shield_protection_group#value ShieldProtectionGroup#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/shield_protection_group#value ShieldProtectionGroup#value}
 
 ---
 
@@ -1143,7 +1143,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.shieldProtectionGroup.ShieldProtectionGroupTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/shieldprotectiongroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/shieldprotectiongroup"
 
 shieldprotectiongroup.NewShieldProtectionGroupTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ShieldProtectionGroupTagsList
 ```
@@ -1303,7 +1303,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.shieldProtectionGroup.ShieldProtectionGroupTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/shieldprotectiongroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/shieldprotectiongroup"
 
 shieldprotectiongroup.NewShieldProtectionGroupTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ShieldProtectionGroupTagsOutputReference
 ```

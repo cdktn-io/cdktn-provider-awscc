@@ -4,12 +4,12 @@
 
 ### DataAwsccCeCostCategory <a name="DataAwsccCeCostCategory" id="@cdktn/provider-awscc.dataAwsccCeCostCategory.DataAwsccCeCostCategory"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ce_cost_category awscc_ce_cost_category}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ce_cost_category awscc_ce_cost_category}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCeCostCategory.DataAwsccCeCostCategory.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccecostcategory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccecostcategory"
 
 dataawscccecostcategory.NewDataAwsccCeCostCategory(scope Construct, id *string, config DataAwsccCeCostCategoryConfig) DataAwsccCeCostCategory
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCeCostCategory.DataAwsccCeCostCategory.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccecostcategory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccecostcategory"
 
 dataawscccecostcategory.DataAwsccCeCostCategory_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCeCostCategory.DataAwsccCeCostCategory.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccecostcategory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccecostcategory"
 
 dataawscccecostcategory.DataAwsccCeCostCategory_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccecostcategory.DataAwsccCeCostCategory_IsTerraformElement(x interface{}
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCeCostCategory.DataAwsccCeCostCategory.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccecostcategory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccecostcategory"
 
 dataawscccecostcategory.DataAwsccCeCostCategory_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccecostcategory.DataAwsccCeCostCategory_IsTerraformDataSource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCeCostCategory.DataAwsccCeCostCategory.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccecostcategory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccecostcategory"
 
 dataawscccecostcategory.DataAwsccCeCostCategory_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCeCostCategory to
 
 The id of the existing DataAwsccCeCostCategory that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ce_cost_category#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ce_cost_category#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -675,7 +675,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCeCostCategory.DataAwsccCeCostCategoryConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccecostcategory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccecostcategory"
 
 &dataawscccecostcategory.DataAwsccCeCostCategoryConfig {
 	Connection: interface{},
@@ -784,7 +784,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ce_cost_category#id DataAwsccCeCostCategory#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ce_cost_category#id DataAwsccCeCostCategory#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -796,7 +796,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCeCostCategory.DataAwsccCeCostCategoryTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccecostcategory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccecostcategory"
 
 &dataawscccecostcategory.DataAwsccCeCostCategoryTags {
 
@@ -811,7 +811,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccecostcategor
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCeCostCategory.DataAwsccCeCostCategoryTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccecostcategory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccecostcategory"
 
 dataawscccecostcategory.NewDataAwsccCeCostCategoryTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCeCostCategoryTagsList
 ```
@@ -960,7 +960,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCeCostCategory.DataAwsccCeCostCategoryTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccecostcategory"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccecostcategory"
 
 dataawscccecostcategory.NewDataAwsccCeCostCategoryTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCeCostCategoryTagsOutputReference
 ```

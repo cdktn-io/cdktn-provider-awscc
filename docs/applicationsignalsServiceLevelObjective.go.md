@@ -4,12 +4,12 @@
 
 ### ApplicationsignalsServiceLevelObjective <a name="ApplicationsignalsServiceLevelObjective" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjective"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective awscc_applicationsignals_service_level_objective}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective awscc_applicationsignals_service_level_objective}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjective.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 applicationsignalsservicelevelobjective.NewApplicationsignalsServiceLevelObjective(scope Construct, id *string, config ApplicationsignalsServiceLevelObjectiveConfig) ApplicationsignalsServiceLevelObjective
 ```
@@ -527,7 +527,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjective.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 applicationsignalsservicelevelobjective.ApplicationsignalsServiceLevelObjective_IsConstruct(x interface{}) *bool
 ```
@@ -559,7 +559,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjective.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 applicationsignalsservicelevelobjective.ApplicationsignalsServiceLevelObjective_IsTerraformElement(x interface{}) *bool
 ```
@@ -573,7 +573,7 @@ applicationsignalsservicelevelobjective.ApplicationsignalsServiceLevelObjective_
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjective.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 applicationsignalsservicelevelobjective.ApplicationsignalsServiceLevelObjective_IsTerraformResource(x interface{}) *bool
 ```
@@ -587,7 +587,7 @@ applicationsignalsservicelevelobjective.ApplicationsignalsServiceLevelObjective_
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjective.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 applicationsignalsservicelevelobjective.ApplicationsignalsServiceLevelObjective_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -616,7 +616,7 @@ The construct id used in the generated config for the ApplicationsignalsServiceL
 
 The id of the existing ApplicationsignalsServiceLevelObjective that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1047,7 +1047,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveBurnRateConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 &applicationsignalsservicelevelobjective.ApplicationsignalsServiceLevelObjectiveBurnRateConfigurations {
 	LookBackWindowMinutes: *f64,
@@ -1072,7 +1072,7 @@ LookBackWindowMinutes *f64
 
 The number of minutes to use as the look-back window.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#look_back_window_minutes ApplicationsignalsServiceLevelObjective#look_back_window_minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#look_back_window_minutes ApplicationsignalsServiceLevelObjective#look_back_window_minutes}
 
 ---
 
@@ -1081,7 +1081,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 &applicationsignalsservicelevelobjective.ApplicationsignalsServiceLevelObjectiveConfig {
 	Connection: interface{},
@@ -1095,9 +1095,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsserv
 	BurnRateConfigurations: interface{},
 	Description: *string,
 	ExclusionWindows: interface{},
-	Goal: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveGoal,
-	RequestBasedSli: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSli,
-	Sli: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSli,
+	Goal: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveGoal,
+	RequestBasedSli: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSli,
+	Sli: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSli,
 	Tags: interface{},
 }
 ```
@@ -1204,7 +1204,7 @@ Name *string
 
 The name of this SLO.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#name ApplicationsignalsServiceLevelObjective#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#name ApplicationsignalsServiceLevelObjective#name}
 
 ---
 
@@ -1220,7 +1220,7 @@ Each object in this array defines the length of the look-back window used to cal
 
 The burn rate measures how fast the service is consuming the error budget, relative to the attainment goal of the SLO.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#burn_rate_configurations ApplicationsignalsServiceLevelObjective#burn_rate_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#burn_rate_configurations ApplicationsignalsServiceLevelObjective#burn_rate_configurations}
 
 ---
 
@@ -1234,7 +1234,7 @@ Description *string
 
 An optional description for this SLO. Default is 'No description'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#description ApplicationsignalsServiceLevelObjective#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#description ApplicationsignalsServiceLevelObjective#description}
 
 ---
 
@@ -1250,7 +1250,7 @@ Each object in this array defines a time exclusion window for this SLO.
 
 The time exclusion window is used to exclude breaching data points from affecting attainment rate, error budget, and burn rate metrics.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#exclusion_windows ApplicationsignalsServiceLevelObjective#exclusion_windows}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#exclusion_windows ApplicationsignalsServiceLevelObjective#exclusion_windows}
 
 ---
 
@@ -1266,7 +1266,7 @@ A structure that contains the attributes that determine the goal of the SLO.
 
 This includes the time period for evaluation and the attainment threshold.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#goal ApplicationsignalsServiceLevelObjective#goal}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#goal ApplicationsignalsServiceLevelObjective#goal}
 
 ---
 
@@ -1280,7 +1280,7 @@ RequestBasedSli ApplicationsignalsServiceLevelObjectiveRequestBasedSli
 
 This structure contains information about the performance metric that a request-based SLO monitors.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#request_based_sli ApplicationsignalsServiceLevelObjective#request_based_sli}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#request_based_sli ApplicationsignalsServiceLevelObjective#request_based_sli}
 
 ---
 
@@ -1294,7 +1294,7 @@ Sli ApplicationsignalsServiceLevelObjectiveSli
 
 This structure contains information about the performance metric that an SLO monitors.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#sli ApplicationsignalsServiceLevelObjective#sli}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#sli ApplicationsignalsServiceLevelObjective#sli}
 
 ---
 
@@ -1308,7 +1308,7 @@ Tags interface{}
 
 The list of tag keys and values associated with the resource you specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#tags ApplicationsignalsServiceLevelObjective#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#tags ApplicationsignalsServiceLevelObjective#tags}
 
 ---
 
@@ -1317,13 +1317,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveExclusionWindows.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 &applicationsignalsservicelevelobjective.ApplicationsignalsServiceLevelObjectiveExclusionWindows {
 	Reason: *string,
-	RecurrenceRule: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveExclusionWindowsRecurrenceRule,
+	RecurrenceRule: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveExclusionWindowsRecurrenceRule,
 	StartTime: *string,
-	Window: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveExclusionWindowsWindow,
+	Window: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveExclusionWindowsWindow,
 }
 ```
 
@@ -1348,7 +1348,7 @@ Reason *string
 
 An optional reason for scheduling this time exclusion window. Default is 'No reason'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#reason ApplicationsignalsServiceLevelObjective#reason}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#reason ApplicationsignalsServiceLevelObjective#reason}
 
 ---
 
@@ -1362,7 +1362,7 @@ RecurrenceRule ApplicationsignalsServiceLevelObjectiveExclusionWindowsRecurrence
 
 This object defines how often to repeat a time exclusion window.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#recurrence_rule ApplicationsignalsServiceLevelObjective#recurrence_rule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#recurrence_rule ApplicationsignalsServiceLevelObjective#recurrence_rule}
 
 ---
 
@@ -1378,7 +1378,7 @@ The time you want the exclusion window to start at.
 
 Note that time exclusion windows can only be scheduled in the future, not the past.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#start_time ApplicationsignalsServiceLevelObjective#start_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#start_time ApplicationsignalsServiceLevelObjective#start_time}
 
 ---
 
@@ -1392,7 +1392,7 @@ Window ApplicationsignalsServiceLevelObjectiveExclusionWindowsWindow
 
 This object defines the length of time an exclusion window should span.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#window ApplicationsignalsServiceLevelObjective#window}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#window ApplicationsignalsServiceLevelObjective#window}
 
 ---
 
@@ -1401,7 +1401,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveExclusionWindowsRecurrenceRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 &applicationsignalsservicelevelobjective.ApplicationsignalsServiceLevelObjectiveExclusionWindowsRecurrenceRule {
 	Expression: *string,
@@ -1426,7 +1426,7 @@ Expression *string
 
 A cron or rate expression denoting how often to repeat this exclusion window.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#expression ApplicationsignalsServiceLevelObjective#expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#expression ApplicationsignalsServiceLevelObjective#expression}
 
 ---
 
@@ -1435,7 +1435,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveExclusionWindowsWindow.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 &applicationsignalsservicelevelobjective.ApplicationsignalsServiceLevelObjectiveExclusionWindowsWindow {
 	Duration: *f64,
@@ -1464,7 +1464,7 @@ Specifies the duration of each interval.
 
 For example, if `Duration` is 1 and `DurationUnit` is `MONTH`, each interval is one month, aligned with the calendar.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#duration ApplicationsignalsServiceLevelObjective#duration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#duration ApplicationsignalsServiceLevelObjective#duration}
 
 ---
 
@@ -1478,7 +1478,7 @@ DurationUnit *string
 
 Specifies the interval unit.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#duration_unit ApplicationsignalsServiceLevelObjective#duration_unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#duration_unit ApplicationsignalsServiceLevelObjective#duration_unit}
 
 ---
 
@@ -1487,11 +1487,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveGoal.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 &applicationsignalsservicelevelobjective.ApplicationsignalsServiceLevelObjectiveGoal {
 	AttainmentGoal: *f64,
-	Interval: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveGoalInterval,
+	Interval: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveGoalInterval,
 	WarningThreshold: *f64,
 }
 ```
@@ -1519,7 +1519,7 @@ The threshold that determines if the goal is being met.
 An attainment goal is the ratio of good periods that meet the threshold requirements to the total periods within the interval. For example, an attainment goal of 99.9% means that within your interval, you are targeting 99.9% of the periods to be in healthy state.
 If you omit this parameter, 99 is used to represent 99% as the attainment goal.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#attainment_goal ApplicationsignalsServiceLevelObjective#attainment_goal}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#attainment_goal ApplicationsignalsServiceLevelObjective#attainment_goal}
 
 ---
 
@@ -1536,7 +1536,7 @@ The time period used to evaluate the SLO.
 It can be either a calendar interval or rolling interval.
 If you omit this parameter, a rolling interval of 7 days is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#interval ApplicationsignalsServiceLevelObjective#interval}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#interval ApplicationsignalsServiceLevelObjective#interval}
 
 ---
 
@@ -1552,7 +1552,7 @@ The percentage of remaining budget over total budget that you want to get warnin
 
 If you omit this parameter, the default of 50.0 is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#warning_threshold ApplicationsignalsServiceLevelObjective#warning_threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#warning_threshold ApplicationsignalsServiceLevelObjective#warning_threshold}
 
 ---
 
@@ -1561,11 +1561,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveGoalInterval.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 &applicationsignalsservicelevelobjective.ApplicationsignalsServiceLevelObjectiveGoalInterval {
-	CalendarInterval: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveGoalIntervalCalendarInterval,
-	RollingInterval: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveGoalIntervalRollingInterval,
+	CalendarInterval: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveGoalIntervalCalendarInterval,
+	RollingInterval: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveGoalIntervalRollingInterval,
 }
 ```
 
@@ -1588,7 +1588,7 @@ CalendarInterval ApplicationsignalsServiceLevelObjectiveGoalIntervalCalendarInte
 
 If the interval for this service level objective is a calendar interval, this structure contains the interval specifications.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#calendar_interval ApplicationsignalsServiceLevelObjective#calendar_interval}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#calendar_interval ApplicationsignalsServiceLevelObjective#calendar_interval}
 
 ---
 
@@ -1602,7 +1602,7 @@ RollingInterval ApplicationsignalsServiceLevelObjectiveGoalIntervalRollingInterv
 
 If the interval is a calendar interval, this structure contains the interval specifications.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#rolling_interval ApplicationsignalsServiceLevelObjective#rolling_interval}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#rolling_interval ApplicationsignalsServiceLevelObjective#rolling_interval}
 
 ---
 
@@ -1611,7 +1611,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveGoalIntervalCalendarInterval.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 &applicationsignalsservicelevelobjective.ApplicationsignalsServiceLevelObjectiveGoalIntervalCalendarInterval {
 	Duration: *f64,
@@ -1642,7 +1642,7 @@ Specifies the duration of each interval.
 
 For example, if `Duration` is 1 and `DurationUnit` is `MONTH`, each interval is one month, aligned with the calendar.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#duration ApplicationsignalsServiceLevelObjective#duration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#duration ApplicationsignalsServiceLevelObjective#duration}
 
 ---
 
@@ -1656,7 +1656,7 @@ DurationUnit *string
 
 Specifies the interval unit.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#duration_unit ApplicationsignalsServiceLevelObjective#duration_unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#duration_unit ApplicationsignalsServiceLevelObjective#duration_unit}
 
 ---
 
@@ -1673,7 +1673,7 @@ Epoch time in seconds you want the first interval to start.
 Be sure to choose a time that configures the intervals the way that you want. For example, if you want weekly intervals starting on Mondays at 6 a.m., be sure to specify a start time that is a Monday at 6 a.m.
 As soon as one calendar interval ends, another automatically begins.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#start_time ApplicationsignalsServiceLevelObjective#start_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#start_time ApplicationsignalsServiceLevelObjective#start_time}
 
 ---
 
@@ -1682,7 +1682,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveGoalIntervalRollingInterval.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 &applicationsignalsservicelevelobjective.ApplicationsignalsServiceLevelObjectiveGoalIntervalRollingInterval {
 	Duration: *f64,
@@ -1711,7 +1711,7 @@ Specifies the duration of each interval.
 
 For example, if `Duration` is 1 and `DurationUnit` is `MONTH`, each interval is one month, aligned with the calendar.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#duration ApplicationsignalsServiceLevelObjective#duration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#duration ApplicationsignalsServiceLevelObjective#duration}
 
 ---
 
@@ -1725,7 +1725,7 @@ DurationUnit *string
 
 Specifies the interval unit.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#duration_unit ApplicationsignalsServiceLevelObjective#duration_unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#duration_unit ApplicationsignalsServiceLevelObjective#duration_unit}
 
 ---
 
@@ -1734,12 +1734,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSli.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 &applicationsignalsservicelevelobjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSli {
 	ComparisonOperator: *string,
 	MetricThreshold: *f64,
-	RequestBasedSliMetric: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetric,
+	RequestBasedSliMetric: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetric,
 }
 ```
 
@@ -1763,7 +1763,7 @@ ComparisonOperator *string
 
 The arithmetic operation used when comparing the specified metric to the threshold.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#comparison_operator ApplicationsignalsServiceLevelObjective#comparison_operator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#comparison_operator ApplicationsignalsServiceLevelObjective#comparison_operator}
 
 ---
 
@@ -1777,7 +1777,7 @@ MetricThreshold *f64
 
 The value that the SLI metric is compared to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#metric_threshold ApplicationsignalsServiceLevelObjective#metric_threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#metric_threshold ApplicationsignalsServiceLevelObjective#metric_threshold}
 
 ---
 
@@ -1791,7 +1791,7 @@ RequestBasedSliMetric ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequ
 
 This structure contains the information about the metric that is used for a request-based SLO.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#request_based_sli_metric ApplicationsignalsServiceLevelObjective#request_based_sli_metric}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#request_based_sli_metric ApplicationsignalsServiceLevelObjective#request_based_sli_metric}
 
 ---
 
@@ -1800,16 +1800,16 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetric.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 &applicationsignalsservicelevelobjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetric {
-	CompositeSliConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfig,
-	DependencyConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricDependencyConfig,
+	CompositeSliConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfig,
+	DependencyConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricDependencyConfig,
 	KeyAttributes: *map[string]*string,
 	MetricName: *string,
-	MetricSource: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMetricSource,
+	MetricSource: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMetricSource,
 	MetricType: *string,
-	MonitoredRequestCountMetric: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMonitoredRequestCountMetric,
+	MonitoredRequestCountMetric: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMonitoredRequestCountMetric,
 	OperationName: *string,
 	TotalRequestCountMetric: interface{},
 }
@@ -1819,7 +1819,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsserv
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetric.property.compositeSliConfig">CompositeSliConfig</a></code> | <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfig">ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#composite_sli_config ApplicationsignalsServiceLevelObjective#composite_sli_config}. |
+| <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetric.property.compositeSliConfig">CompositeSliConfig</a></code> | <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfig">ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#composite_sli_config ApplicationsignalsServiceLevelObjective#composite_sli_config}. |
 | <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetric.property.dependencyConfig">DependencyConfig</a></code> | <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricDependencyConfig">ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricDependencyConfig</a></code> | Configuration for identifying a dependency and its operation. |
 | <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetric.property.keyAttributes">KeyAttributes</a></code> | <code>*map[string]*string</code> | This is a string-to-string map that contains information about the type of object that this SLO is related to. |
 | <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetric.property.metricName">MetricName</a></code> | <code>*string</code> | The name of the metric for non-Application Signals services. |
@@ -1839,7 +1839,7 @@ CompositeSliConfig ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequest
 
 - *Type:* <a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfig">ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfig</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#composite_sli_config ApplicationsignalsServiceLevelObjective#composite_sli_config}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#composite_sli_config ApplicationsignalsServiceLevelObjective#composite_sli_config}.
 
 ---
 
@@ -1853,7 +1853,7 @@ DependencyConfig ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBa
 
 Configuration for identifying a dependency and its operation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#dependency_config ApplicationsignalsServiceLevelObjective#dependency_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#dependency_config ApplicationsignalsServiceLevelObjective#dependency_config}
 
 ---
 
@@ -1867,7 +1867,7 @@ KeyAttributes *map[string]*string
 
 This is a string-to-string map that contains information about the type of object that this SLO is related to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#key_attributes ApplicationsignalsServiceLevelObjective#key_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#key_attributes ApplicationsignalsServiceLevelObjective#key_attributes}
 
 ---
 
@@ -1881,7 +1881,7 @@ MetricName *string
 
 The name of the metric for non-Application Signals services.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#metric_name ApplicationsignalsServiceLevelObjective#metric_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#metric_name ApplicationsignalsServiceLevelObjective#metric_name}
 
 ---
 
@@ -1895,7 +1895,7 @@ MetricSource ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedS
 
 Configuration for identifying the source of metrics for non-Application Signals services.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#metric_source ApplicationsignalsServiceLevelObjective#metric_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#metric_source ApplicationsignalsServiceLevelObjective#metric_source}
 
 ---
 
@@ -1909,7 +1909,7 @@ MetricType *string
 
 If the SLO monitors either the LATENCY or AVAILABILITY metric that Application Signals collects, this field displays which of those metrics is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#metric_type ApplicationsignalsServiceLevelObjective#metric_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#metric_type ApplicationsignalsServiceLevelObjective#metric_type}
 
 ---
 
@@ -1925,7 +1925,7 @@ This structure defines the metric that is used as the "good request" or "bad req
 
 This value observed for the metric defined in `TotalRequestCountMetric` is divided by the number found for `MonitoredRequestCountMetric` to determine the percentage of successful requests that this SLO tracks.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#monitored_request_count_metric ApplicationsignalsServiceLevelObjective#monitored_request_count_metric}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#monitored_request_count_metric ApplicationsignalsServiceLevelObjective#monitored_request_count_metric}
 
 ---
 
@@ -1939,7 +1939,7 @@ OperationName *string
 
 If the SLO monitors a specific operation of the service, this field displays that operation name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#operation_name ApplicationsignalsServiceLevelObjective#operation_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#operation_name ApplicationsignalsServiceLevelObjective#operation_name}
 
 ---
 
@@ -1955,7 +1955,7 @@ This structure defines the metric that is used as the "total requests" number fo
 
 The number observed for this metric is divided by the number of "good requests" or "bad requests" that is observed for the metric defined in `MonitoredRequestCountMetric`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#total_request_count_metric ApplicationsignalsServiceLevelObjective#total_request_count_metric}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#total_request_count_metric ApplicationsignalsServiceLevelObjective#total_request_count_metric}
 
 ---
 
@@ -1964,11 +1964,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 &applicationsignalsservicelevelobjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfig {
 	CompositeSliComponents: interface{},
-	SelectionConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfigSelectionConfig,
+	SelectionConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfigSelectionConfig,
 }
 ```
 
@@ -1976,8 +1976,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsserv
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfig.property.compositeSliComponents">CompositeSliComponents</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#composite_sli_components ApplicationsignalsServiceLevelObjective#composite_sli_components}. |
-| <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfig.property.selectionConfig">SelectionConfig</a></code> | <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfigSelectionConfig">ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfigSelectionConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#selection_config ApplicationsignalsServiceLevelObjective#selection_config}. |
+| <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfig.property.compositeSliComponents">CompositeSliComponents</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#composite_sli_components ApplicationsignalsServiceLevelObjective#composite_sli_components}. |
+| <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfig.property.selectionConfig">SelectionConfig</a></code> | <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfigSelectionConfig">ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfigSelectionConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#selection_config ApplicationsignalsServiceLevelObjective#selection_config}. |
 
 ---
 
@@ -1989,7 +1989,7 @@ CompositeSliComponents interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#composite_sli_components ApplicationsignalsServiceLevelObjective#composite_sli_components}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#composite_sli_components ApplicationsignalsServiceLevelObjective#composite_sli_components}.
 
 ---
 
@@ -2001,7 +2001,7 @@ SelectionConfig ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBas
 
 - *Type:* <a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfigSelectionConfig">ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfigSelectionConfig</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#selection_config ApplicationsignalsServiceLevelObjective#selection_config}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#selection_config ApplicationsignalsServiceLevelObjective#selection_config}.
 
 ---
 
@@ -2010,7 +2010,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfigCompositeSliComponents.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 &applicationsignalsservicelevelobjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfigCompositeSliComponents {
 	OperationName: *string,
@@ -2021,7 +2021,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsserv
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfigCompositeSliComponents.property.operationName">OperationName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#operation_name ApplicationsignalsServiceLevelObjective#operation_name}. |
+| <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfigCompositeSliComponents.property.operationName">OperationName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#operation_name ApplicationsignalsServiceLevelObjective#operation_name}. |
 
 ---
 
@@ -2033,7 +2033,7 @@ OperationName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#operation_name ApplicationsignalsServiceLevelObjective#operation_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#operation_name ApplicationsignalsServiceLevelObjective#operation_name}.
 
 ---
 
@@ -2042,7 +2042,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfigSelectionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 &applicationsignalsservicelevelobjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfigSelectionConfig {
 	Pattern: *string,
@@ -2054,8 +2054,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsserv
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfigSelectionConfig.property.pattern">Pattern</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#pattern ApplicationsignalsServiceLevelObjective#pattern}. |
-| <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfigSelectionConfig.property.type">Type</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#type ApplicationsignalsServiceLevelObjective#type}. |
+| <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfigSelectionConfig.property.pattern">Pattern</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#pattern ApplicationsignalsServiceLevelObjective#pattern}. |
+| <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfigSelectionConfig.property.type">Type</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#type ApplicationsignalsServiceLevelObjective#type}. |
 
 ---
 
@@ -2067,7 +2067,7 @@ Pattern *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#pattern ApplicationsignalsServiceLevelObjective#pattern}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#pattern ApplicationsignalsServiceLevelObjective#pattern}.
 
 ---
 
@@ -2079,7 +2079,7 @@ Type *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#type ApplicationsignalsServiceLevelObjective#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#type ApplicationsignalsServiceLevelObjective#type}.
 
 ---
 
@@ -2088,7 +2088,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricDependencyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 &applicationsignalsservicelevelobjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricDependencyConfig {
 	DependencyKeyAttributes: *map[string]*string,
@@ -2115,7 +2115,7 @@ DependencyKeyAttributes *map[string]*string
 
 If this SLO is related to a metric collected by Application Signals, you must use this field to specify which dependency the SLO metric is related to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#dependency_key_attributes ApplicationsignalsServiceLevelObjective#dependency_key_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#dependency_key_attributes ApplicationsignalsServiceLevelObjective#dependency_key_attributes}
 
 ---
 
@@ -2129,7 +2129,7 @@ DependencyOperationName *string
 
 When the SLO monitors a specific operation of the dependency, this field specifies the name of that operation in the dependency.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#dependency_operation_name ApplicationsignalsServiceLevelObjective#dependency_operation_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#dependency_operation_name ApplicationsignalsServiceLevelObjective#dependency_operation_name}
 
 ---
 
@@ -2138,7 +2138,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMetricSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 &applicationsignalsservicelevelobjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMetricSource {
 	MetricSourceAttributes: *map[string]*string,
@@ -2165,7 +2165,7 @@ MetricSourceAttributes *map[string]*string
 
 Optional additional attributes for the metric source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#metric_source_attributes ApplicationsignalsServiceLevelObjective#metric_source_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#metric_source_attributes ApplicationsignalsServiceLevelObjective#metric_source_attributes}
 
 ---
 
@@ -2179,7 +2179,7 @@ MetricSourceKeyAttributes *map[string]*string
 
 Required attributes that identify the metric source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#metric_source_key_attributes ApplicationsignalsServiceLevelObjective#metric_source_key_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#metric_source_key_attributes ApplicationsignalsServiceLevelObjective#metric_source_key_attributes}
 
 ---
 
@@ -2188,7 +2188,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMonitoredRequestCountMetric.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 &applicationsignalsservicelevelobjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMonitoredRequestCountMetric {
 	BadCountMetric: interface{},
@@ -2215,7 +2215,7 @@ BadCountMetric interface{}
 
 If you want to count "bad requests" to determine the percentage of successful requests for this request-based SLO, specify the metric to use as "bad requests" in this structure.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#bad_count_metric ApplicationsignalsServiceLevelObjective#bad_count_metric}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#bad_count_metric ApplicationsignalsServiceLevelObjective#bad_count_metric}
 
 ---
 
@@ -2229,7 +2229,7 @@ GoodCountMetric interface{}
 
 If you want to count "good requests" to determine the percentage of successful requests for this request-based SLO, specify the metric to use as "good requests" in this structure.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#good_count_metric ApplicationsignalsServiceLevelObjective#good_count_metric}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#good_count_metric ApplicationsignalsServiceLevelObjective#good_count_metric}
 
 ---
 
@@ -2238,13 +2238,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMonitoredRequestCountMetricBadCountMetric.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 &applicationsignalsservicelevelobjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMonitoredRequestCountMetricBadCountMetric {
 	AccountId: *string,
 	Expression: *string,
 	Id: *string,
-	MetricStat: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMonitoredRequestCountMetricBadCountMetricMetricStat,
+	MetricStat: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMonitoredRequestCountMetricBadCountMetricMetricStat,
 	ReturnData: interface{},
 }
 ```
@@ -2271,7 +2271,7 @@ AccountId *string
 
 The ID of the account where the metrics are located, if this is a cross-account alarm.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#account_id ApplicationsignalsServiceLevelObjective#account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#account_id ApplicationsignalsServiceLevelObjective#account_id}
 
 ---
 
@@ -2285,7 +2285,7 @@ Expression *string
 
 The math expression to be performed on the returned data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#expression ApplicationsignalsServiceLevelObjective#expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#expression ApplicationsignalsServiceLevelObjective#expression}
 
 ---
 
@@ -2299,7 +2299,7 @@ Id *string
 
 A short name used to tie this object to the results in the response.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#id ApplicationsignalsServiceLevelObjective#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#id ApplicationsignalsServiceLevelObjective#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2318,7 +2318,7 @@ A metric to be used directly for the SLO, or to be used in the math expression t
 
 Within one MetricDataQuery, you must specify either Expression or MetricStat but not both.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#metric_stat ApplicationsignalsServiceLevelObjective#metric_stat}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#metric_stat ApplicationsignalsServiceLevelObjective#metric_stat}
 
 ---
 
@@ -2332,7 +2332,7 @@ ReturnData interface{}
 
 This option indicates whether to return the timestamps and raw data values of this metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#return_data ApplicationsignalsServiceLevelObjective#return_data}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#return_data ApplicationsignalsServiceLevelObjective#return_data}
 
 ---
 
@@ -2341,10 +2341,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMonitoredRequestCountMetricBadCountMetricMetricStat.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 &applicationsignalsservicelevelobjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMonitoredRequestCountMetricBadCountMetricMetricStat {
-	Metric: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMonitoredRequestCountMetricBadCountMetricMetricStatMetric,
+	Metric: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMonitoredRequestCountMetricBadCountMetricMetricStatMetric,
 	Period: *f64,
 	Stat: *string,
 	Unit: *string,
@@ -2372,7 +2372,7 @@ Metric ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetr
 
 This structure defines the metric used for a service level indicator, including the metric name, namespace, and dimensions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#metric ApplicationsignalsServiceLevelObjective#metric}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#metric ApplicationsignalsServiceLevelObjective#metric}
 
 ---
 
@@ -2386,7 +2386,7 @@ Period *f64
 
 The granularity, in seconds, to be used for the metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#period ApplicationsignalsServiceLevelObjective#period}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#period ApplicationsignalsServiceLevelObjective#period}
 
 ---
 
@@ -2400,7 +2400,7 @@ Stat *string
 
 The statistic to use for comparison to the threshold. It can be any CloudWatch statistic or extended statistic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#stat ApplicationsignalsServiceLevelObjective#stat}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#stat ApplicationsignalsServiceLevelObjective#stat}
 
 ---
 
@@ -2416,7 +2416,7 @@ If you omit Unit then all data that was collected with any unit is returned, alo
 
 If you specify a unit, the operation returns only data that was collected with that unit specified. If you specify a unit that does not match the data collected, the results of the operation are null. CloudWatch does not perform unit conversions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#unit ApplicationsignalsServiceLevelObjective#unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#unit ApplicationsignalsServiceLevelObjective#unit}
 
 ---
 
@@ -2425,7 +2425,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMonitoredRequestCountMetricBadCountMetricMetricStatMetric.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 &applicationsignalsservicelevelobjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMonitoredRequestCountMetricBadCountMetricMetricStatMetric {
 	Dimensions: interface{},
@@ -2454,7 +2454,7 @@ Dimensions interface{}
 
 An array of one or more dimensions to use to define the metric that you want to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#dimensions ApplicationsignalsServiceLevelObjective#dimensions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#dimensions ApplicationsignalsServiceLevelObjective#dimensions}
 
 ---
 
@@ -2468,7 +2468,7 @@ MetricName *string
 
 The name of the metric to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#metric_name ApplicationsignalsServiceLevelObjective#metric_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#metric_name ApplicationsignalsServiceLevelObjective#metric_name}
 
 ---
 
@@ -2482,7 +2482,7 @@ Namespace *string
 
 The namespace of the metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#namespace ApplicationsignalsServiceLevelObjective#namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#namespace ApplicationsignalsServiceLevelObjective#namespace}
 
 ---
 
@@ -2491,7 +2491,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMonitoredRequestCountMetricBadCountMetricMetricStatMetricDimensions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 &applicationsignalsservicelevelobjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMonitoredRequestCountMetricBadCountMetricMetricStatMetricDimensions {
 	Name: *string,
@@ -2520,7 +2520,7 @@ The name of the dimension.
 
 Dimension names must contain only ASCII characters, must include at least one non-whitespace character, and cannot start with a colon (:). ASCII control characters are not supported as part of dimension names.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#name ApplicationsignalsServiceLevelObjective#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#name ApplicationsignalsServiceLevelObjective#name}
 
 ---
 
@@ -2536,7 +2536,7 @@ The value of the dimension.
 
 Dimension values must contain only ASCII characters and must include at least one non-whitespace character. ASCII control characters are not supported as part of dimension values
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#value ApplicationsignalsServiceLevelObjective#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#value ApplicationsignalsServiceLevelObjective#value}
 
 ---
 
@@ -2545,13 +2545,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMonitoredRequestCountMetricGoodCountMetric.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 &applicationsignalsservicelevelobjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMonitoredRequestCountMetricGoodCountMetric {
 	AccountId: *string,
 	Expression: *string,
 	Id: *string,
-	MetricStat: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMonitoredRequestCountMetricGoodCountMetricMetricStat,
+	MetricStat: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMonitoredRequestCountMetricGoodCountMetricMetricStat,
 	ReturnData: interface{},
 }
 ```
@@ -2578,7 +2578,7 @@ AccountId *string
 
 The ID of the account where the metrics are located, if this is a cross-account alarm.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#account_id ApplicationsignalsServiceLevelObjective#account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#account_id ApplicationsignalsServiceLevelObjective#account_id}
 
 ---
 
@@ -2592,7 +2592,7 @@ Expression *string
 
 The math expression to be performed on the returned data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#expression ApplicationsignalsServiceLevelObjective#expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#expression ApplicationsignalsServiceLevelObjective#expression}
 
 ---
 
@@ -2606,7 +2606,7 @@ Id *string
 
 A short name used to tie this object to the results in the response.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#id ApplicationsignalsServiceLevelObjective#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#id ApplicationsignalsServiceLevelObjective#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2625,7 +2625,7 @@ A metric to be used directly for the SLO, or to be used in the math expression t
 
 Within one MetricDataQuery, you must specify either Expression or MetricStat but not both.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#metric_stat ApplicationsignalsServiceLevelObjective#metric_stat}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#metric_stat ApplicationsignalsServiceLevelObjective#metric_stat}
 
 ---
 
@@ -2639,7 +2639,7 @@ ReturnData interface{}
 
 This option indicates whether to return the timestamps and raw data values of this metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#return_data ApplicationsignalsServiceLevelObjective#return_data}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#return_data ApplicationsignalsServiceLevelObjective#return_data}
 
 ---
 
@@ -2648,10 +2648,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMonitoredRequestCountMetricGoodCountMetricMetricStat.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 &applicationsignalsservicelevelobjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMonitoredRequestCountMetricGoodCountMetricMetricStat {
-	Metric: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMonitoredRequestCountMetricGoodCountMetricMetricStatMetric,
+	Metric: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMonitoredRequestCountMetricGoodCountMetricMetricStatMetric,
 	Period: *f64,
 	Stat: *string,
 	Unit: *string,
@@ -2679,7 +2679,7 @@ Metric ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetr
 
 This structure defines the metric used for a service level indicator, including the metric name, namespace, and dimensions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#metric ApplicationsignalsServiceLevelObjective#metric}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#metric ApplicationsignalsServiceLevelObjective#metric}
 
 ---
 
@@ -2693,7 +2693,7 @@ Period *f64
 
 The granularity, in seconds, to be used for the metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#period ApplicationsignalsServiceLevelObjective#period}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#period ApplicationsignalsServiceLevelObjective#period}
 
 ---
 
@@ -2707,7 +2707,7 @@ Stat *string
 
 The statistic to use for comparison to the threshold. It can be any CloudWatch statistic or extended statistic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#stat ApplicationsignalsServiceLevelObjective#stat}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#stat ApplicationsignalsServiceLevelObjective#stat}
 
 ---
 
@@ -2723,7 +2723,7 @@ If you omit Unit then all data that was collected with any unit is returned, alo
 
 If you specify a unit, the operation returns only data that was collected with that unit specified. If you specify a unit that does not match the data collected, the results of the operation are null. CloudWatch does not perform unit conversions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#unit ApplicationsignalsServiceLevelObjective#unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#unit ApplicationsignalsServiceLevelObjective#unit}
 
 ---
 
@@ -2732,7 +2732,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMonitoredRequestCountMetricGoodCountMetricMetricStatMetric.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 &applicationsignalsservicelevelobjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMonitoredRequestCountMetricGoodCountMetricMetricStatMetric {
 	Dimensions: interface{},
@@ -2761,7 +2761,7 @@ Dimensions interface{}
 
 An array of one or more dimensions to use to define the metric that you want to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#dimensions ApplicationsignalsServiceLevelObjective#dimensions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#dimensions ApplicationsignalsServiceLevelObjective#dimensions}
 
 ---
 
@@ -2775,7 +2775,7 @@ MetricName *string
 
 The name of the metric to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#metric_name ApplicationsignalsServiceLevelObjective#metric_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#metric_name ApplicationsignalsServiceLevelObjective#metric_name}
 
 ---
 
@@ -2789,7 +2789,7 @@ Namespace *string
 
 The namespace of the metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#namespace ApplicationsignalsServiceLevelObjective#namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#namespace ApplicationsignalsServiceLevelObjective#namespace}
 
 ---
 
@@ -2798,7 +2798,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMonitoredRequestCountMetricGoodCountMetricMetricStatMetricDimensions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 &applicationsignalsservicelevelobjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMonitoredRequestCountMetricGoodCountMetricMetricStatMetricDimensions {
 	Name: *string,
@@ -2827,7 +2827,7 @@ The name of the dimension.
 
 Dimension names must contain only ASCII characters, must include at least one non-whitespace character, and cannot start with a colon (:). ASCII control characters are not supported as part of dimension names.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#name ApplicationsignalsServiceLevelObjective#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#name ApplicationsignalsServiceLevelObjective#name}
 
 ---
 
@@ -2843,7 +2843,7 @@ The value of the dimension.
 
 Dimension values must contain only ASCII characters and must include at least one non-whitespace character. ASCII control characters are not supported as part of dimension values
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#value ApplicationsignalsServiceLevelObjective#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#value ApplicationsignalsServiceLevelObjective#value}
 
 ---
 
@@ -2852,13 +2852,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricTotalRequestCountMetric.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 &applicationsignalsservicelevelobjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricTotalRequestCountMetric {
 	AccountId: *string,
 	Expression: *string,
 	Id: *string,
-	MetricStat: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricTotalRequestCountMetricMetricStat,
+	MetricStat: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricTotalRequestCountMetricMetricStat,
 	ReturnData: interface{},
 }
 ```
@@ -2885,7 +2885,7 @@ AccountId *string
 
 The ID of the account where the metrics are located, if this is a cross-account alarm.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#account_id ApplicationsignalsServiceLevelObjective#account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#account_id ApplicationsignalsServiceLevelObjective#account_id}
 
 ---
 
@@ -2899,7 +2899,7 @@ Expression *string
 
 The math expression to be performed on the returned data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#expression ApplicationsignalsServiceLevelObjective#expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#expression ApplicationsignalsServiceLevelObjective#expression}
 
 ---
 
@@ -2913,7 +2913,7 @@ Id *string
 
 A short name used to tie this object to the results in the response.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#id ApplicationsignalsServiceLevelObjective#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#id ApplicationsignalsServiceLevelObjective#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2932,7 +2932,7 @@ A metric to be used directly for the SLO, or to be used in the math expression t
 
 Within one MetricDataQuery, you must specify either Expression or MetricStat but not both.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#metric_stat ApplicationsignalsServiceLevelObjective#metric_stat}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#metric_stat ApplicationsignalsServiceLevelObjective#metric_stat}
 
 ---
 
@@ -2946,7 +2946,7 @@ ReturnData interface{}
 
 This option indicates whether to return the timestamps and raw data values of this metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#return_data ApplicationsignalsServiceLevelObjective#return_data}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#return_data ApplicationsignalsServiceLevelObjective#return_data}
 
 ---
 
@@ -2955,10 +2955,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricTotalRequestCountMetricMetricStat.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 &applicationsignalsservicelevelobjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricTotalRequestCountMetricMetricStat {
-	Metric: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricTotalRequestCountMetricMetricStatMetric,
+	Metric: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricTotalRequestCountMetricMetricStatMetric,
 	Period: *f64,
 	Stat: *string,
 	Unit: *string,
@@ -2986,7 +2986,7 @@ Metric ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetr
 
 This structure defines the metric used for a service level indicator, including the metric name, namespace, and dimensions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#metric ApplicationsignalsServiceLevelObjective#metric}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#metric ApplicationsignalsServiceLevelObjective#metric}
 
 ---
 
@@ -3000,7 +3000,7 @@ Period *f64
 
 The granularity, in seconds, to be used for the metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#period ApplicationsignalsServiceLevelObjective#period}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#period ApplicationsignalsServiceLevelObjective#period}
 
 ---
 
@@ -3014,7 +3014,7 @@ Stat *string
 
 The statistic to use for comparison to the threshold. It can be any CloudWatch statistic or extended statistic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#stat ApplicationsignalsServiceLevelObjective#stat}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#stat ApplicationsignalsServiceLevelObjective#stat}
 
 ---
 
@@ -3030,7 +3030,7 @@ If you omit Unit then all data that was collected with any unit is returned, alo
 
 If you specify a unit, the operation returns only data that was collected with that unit specified. If you specify a unit that does not match the data collected, the results of the operation are null. CloudWatch does not perform unit conversions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#unit ApplicationsignalsServiceLevelObjective#unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#unit ApplicationsignalsServiceLevelObjective#unit}
 
 ---
 
@@ -3039,7 +3039,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricTotalRequestCountMetricMetricStatMetric.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 &applicationsignalsservicelevelobjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricTotalRequestCountMetricMetricStatMetric {
 	Dimensions: interface{},
@@ -3068,7 +3068,7 @@ Dimensions interface{}
 
 An array of one or more dimensions to use to define the metric that you want to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#dimensions ApplicationsignalsServiceLevelObjective#dimensions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#dimensions ApplicationsignalsServiceLevelObjective#dimensions}
 
 ---
 
@@ -3082,7 +3082,7 @@ MetricName *string
 
 The name of the metric to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#metric_name ApplicationsignalsServiceLevelObjective#metric_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#metric_name ApplicationsignalsServiceLevelObjective#metric_name}
 
 ---
 
@@ -3096,7 +3096,7 @@ Namespace *string
 
 The namespace of the metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#namespace ApplicationsignalsServiceLevelObjective#namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#namespace ApplicationsignalsServiceLevelObjective#namespace}
 
 ---
 
@@ -3105,7 +3105,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricTotalRequestCountMetricMetricStatMetricDimensions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 &applicationsignalsservicelevelobjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricTotalRequestCountMetricMetricStatMetricDimensions {
 	Name: *string,
@@ -3134,7 +3134,7 @@ The name of the dimension.
 
 Dimension names must contain only ASCII characters, must include at least one non-whitespace character, and cannot start with a colon (:). ASCII control characters are not supported as part of dimension names.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#name ApplicationsignalsServiceLevelObjective#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#name ApplicationsignalsServiceLevelObjective#name}
 
 ---
 
@@ -3150,7 +3150,7 @@ The value of the dimension.
 
 Dimension values must contain only ASCII characters and must include at least one non-whitespace character. ASCII control characters are not supported as part of dimension values
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#value ApplicationsignalsServiceLevelObjective#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#value ApplicationsignalsServiceLevelObjective#value}
 
 ---
 
@@ -3159,12 +3159,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSli.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 &applicationsignalsservicelevelobjective.ApplicationsignalsServiceLevelObjectiveSli {
 	ComparisonOperator: *string,
 	MetricThreshold: *f64,
-	SliMetric: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetric,
+	SliMetric: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetric,
 }
 ```
 
@@ -3188,7 +3188,7 @@ ComparisonOperator *string
 
 The arithmetic operation used when comparing the specified metric to the threshold.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#comparison_operator ApplicationsignalsServiceLevelObjective#comparison_operator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#comparison_operator ApplicationsignalsServiceLevelObjective#comparison_operator}
 
 ---
 
@@ -3202,7 +3202,7 @@ MetricThreshold *f64
 
 The value that the SLI metric is compared to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#metric_threshold ApplicationsignalsServiceLevelObjective#metric_threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#metric_threshold ApplicationsignalsServiceLevelObjective#metric_threshold}
 
 ---
 
@@ -3216,7 +3216,7 @@ SliMetric ApplicationsignalsServiceLevelObjectiveSliSliMetric
 
 A structure that contains information about the metric that the SLO monitors.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#sli_metric ApplicationsignalsServiceLevelObjective#sli_metric}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#sli_metric ApplicationsignalsServiceLevelObjective#sli_metric}
 
 ---
 
@@ -3225,15 +3225,15 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetric.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 &applicationsignalsservicelevelobjective.ApplicationsignalsServiceLevelObjectiveSliSliMetric {
-	CompositeSliConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfig,
-	DependencyConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricDependencyConfig,
+	CompositeSliConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfig,
+	DependencyConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricDependencyConfig,
 	KeyAttributes: *map[string]*string,
 	MetricDataQueries: interface{},
 	MetricName: *string,
-	MetricSource: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricMetricSource,
+	MetricSource: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricMetricSource,
 	MetricType: *string,
 	OperationName: *string,
 	PeriodSeconds: *f64,
@@ -3245,7 +3245,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsserv
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetric.property.compositeSliConfig">CompositeSliConfig</a></code> | <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfig">ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#composite_sli_config ApplicationsignalsServiceLevelObjective#composite_sli_config}. |
+| <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetric.property.compositeSliConfig">CompositeSliConfig</a></code> | <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfig">ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#composite_sli_config ApplicationsignalsServiceLevelObjective#composite_sli_config}. |
 | <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetric.property.dependencyConfig">DependencyConfig</a></code> | <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricDependencyConfig">ApplicationsignalsServiceLevelObjectiveSliSliMetricDependencyConfig</a></code> | Configuration for identifying a dependency and its operation. |
 | <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetric.property.keyAttributes">KeyAttributes</a></code> | <code>*map[string]*string</code> | This is a string-to-string map that contains information about the type of object that this SLO is related to. |
 | <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetric.property.metricDataQueries">MetricDataQueries</a></code> | <code>interface{}</code> | If this SLO monitors a CloudWatch metric or the result of a CloudWatch metric math expression, this structure includes the information about that metric or expression. |
@@ -3266,7 +3266,7 @@ CompositeSliConfig ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeS
 
 - *Type:* <a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfig">ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfig</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#composite_sli_config ApplicationsignalsServiceLevelObjective#composite_sli_config}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#composite_sli_config ApplicationsignalsServiceLevelObjective#composite_sli_config}.
 
 ---
 
@@ -3280,7 +3280,7 @@ DependencyConfig ApplicationsignalsServiceLevelObjectiveSliSliMetricDependencyCo
 
 Configuration for identifying a dependency and its operation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#dependency_config ApplicationsignalsServiceLevelObjective#dependency_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#dependency_config ApplicationsignalsServiceLevelObjective#dependency_config}
 
 ---
 
@@ -3294,7 +3294,7 @@ KeyAttributes *map[string]*string
 
 This is a string-to-string map that contains information about the type of object that this SLO is related to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#key_attributes ApplicationsignalsServiceLevelObjective#key_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#key_attributes ApplicationsignalsServiceLevelObjective#key_attributes}
 
 ---
 
@@ -3308,7 +3308,7 @@ MetricDataQueries interface{}
 
 If this SLO monitors a CloudWatch metric or the result of a CloudWatch metric math expression, this structure includes the information about that metric or expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#metric_data_queries ApplicationsignalsServiceLevelObjective#metric_data_queries}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#metric_data_queries ApplicationsignalsServiceLevelObjective#metric_data_queries}
 
 ---
 
@@ -3322,7 +3322,7 @@ MetricName *string
 
 The name of the metric for non-Application Signals services.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#metric_name ApplicationsignalsServiceLevelObjective#metric_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#metric_name ApplicationsignalsServiceLevelObjective#metric_name}
 
 ---
 
@@ -3336,7 +3336,7 @@ MetricSource ApplicationsignalsServiceLevelObjectiveSliSliMetricMetricSource
 
 Configuration for identifying the source of metrics for non-Application Signals services.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#metric_source ApplicationsignalsServiceLevelObjective#metric_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#metric_source ApplicationsignalsServiceLevelObjective#metric_source}
 
 ---
 
@@ -3350,7 +3350,7 @@ MetricType *string
 
 If the SLO monitors either the LATENCY or AVAILABILITY metric that Application Signals collects, this field displays which of those metrics is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#metric_type ApplicationsignalsServiceLevelObjective#metric_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#metric_type ApplicationsignalsServiceLevelObjective#metric_type}
 
 ---
 
@@ -3364,7 +3364,7 @@ OperationName *string
 
 If the SLO monitors a specific operation of the service, this field displays that operation name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#operation_name ApplicationsignalsServiceLevelObjective#operation_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#operation_name ApplicationsignalsServiceLevelObjective#operation_name}
 
 ---
 
@@ -3380,7 +3380,7 @@ The number of seconds to use as the period for SLO evaluation.
 
 Your application's performance is compared to the SLI during each period. For each period, the application is determined to have either achieved or not achieved the necessary performance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#period_seconds ApplicationsignalsServiceLevelObjective#period_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#period_seconds ApplicationsignalsServiceLevelObjective#period_seconds}
 
 ---
 
@@ -3394,7 +3394,7 @@ Statistic *string
 
 The statistic to use for comparison to the threshold. It can be any CloudWatch statistic or extended statistic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#statistic ApplicationsignalsServiceLevelObjective#statistic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#statistic ApplicationsignalsServiceLevelObjective#statistic}
 
 ---
 
@@ -3403,11 +3403,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 &applicationsignalsservicelevelobjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfig {
 	CompositeSliComponents: interface{},
-	SelectionConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigSelectionConfig,
+	SelectionConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigSelectionConfig,
 }
 ```
 
@@ -3415,8 +3415,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsserv
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfig.property.compositeSliComponents">CompositeSliComponents</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#composite_sli_components ApplicationsignalsServiceLevelObjective#composite_sli_components}. |
-| <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfig.property.selectionConfig">SelectionConfig</a></code> | <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigSelectionConfig">ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigSelectionConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#selection_config ApplicationsignalsServiceLevelObjective#selection_config}. |
+| <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfig.property.compositeSliComponents">CompositeSliComponents</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#composite_sli_components ApplicationsignalsServiceLevelObjective#composite_sli_components}. |
+| <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfig.property.selectionConfig">SelectionConfig</a></code> | <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigSelectionConfig">ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigSelectionConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#selection_config ApplicationsignalsServiceLevelObjective#selection_config}. |
 
 ---
 
@@ -3428,7 +3428,7 @@ CompositeSliComponents interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#composite_sli_components ApplicationsignalsServiceLevelObjective#composite_sli_components}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#composite_sli_components ApplicationsignalsServiceLevelObjective#composite_sli_components}.
 
 ---
 
@@ -3440,7 +3440,7 @@ SelectionConfig ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliC
 
 - *Type:* <a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigSelectionConfig">ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigSelectionConfig</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#selection_config ApplicationsignalsServiceLevelObjective#selection_config}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#selection_config ApplicationsignalsServiceLevelObjective#selection_config}.
 
 ---
 
@@ -3449,7 +3449,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigCompositeSliComponents.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 &applicationsignalsservicelevelobjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigCompositeSliComponents {
 	OperationName: *string,
@@ -3460,7 +3460,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsserv
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigCompositeSliComponents.property.operationName">OperationName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#operation_name ApplicationsignalsServiceLevelObjective#operation_name}. |
+| <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigCompositeSliComponents.property.operationName">OperationName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#operation_name ApplicationsignalsServiceLevelObjective#operation_name}. |
 
 ---
 
@@ -3472,7 +3472,7 @@ OperationName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#operation_name ApplicationsignalsServiceLevelObjective#operation_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#operation_name ApplicationsignalsServiceLevelObjective#operation_name}.
 
 ---
 
@@ -3481,7 +3481,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigSelectionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 &applicationsignalsservicelevelobjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigSelectionConfig {
 	Pattern: *string,
@@ -3493,8 +3493,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsserv
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigSelectionConfig.property.pattern">Pattern</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#pattern ApplicationsignalsServiceLevelObjective#pattern}. |
-| <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigSelectionConfig.property.type">Type</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#type ApplicationsignalsServiceLevelObjective#type}. |
+| <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigSelectionConfig.property.pattern">Pattern</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#pattern ApplicationsignalsServiceLevelObjective#pattern}. |
+| <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigSelectionConfig.property.type">Type</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#type ApplicationsignalsServiceLevelObjective#type}. |
 
 ---
 
@@ -3506,7 +3506,7 @@ Pattern *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#pattern ApplicationsignalsServiceLevelObjective#pattern}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#pattern ApplicationsignalsServiceLevelObjective#pattern}.
 
 ---
 
@@ -3518,7 +3518,7 @@ Type *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#type ApplicationsignalsServiceLevelObjective#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#type ApplicationsignalsServiceLevelObjective#type}.
 
 ---
 
@@ -3527,7 +3527,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricDependencyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 &applicationsignalsservicelevelobjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricDependencyConfig {
 	DependencyKeyAttributes: *map[string]*string,
@@ -3554,7 +3554,7 @@ DependencyKeyAttributes *map[string]*string
 
 If this SLO is related to a metric collected by Application Signals, you must use this field to specify which dependency the SLO metric is related to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#dependency_key_attributes ApplicationsignalsServiceLevelObjective#dependency_key_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#dependency_key_attributes ApplicationsignalsServiceLevelObjective#dependency_key_attributes}
 
 ---
 
@@ -3568,7 +3568,7 @@ DependencyOperationName *string
 
 When the SLO monitors a specific operation of the dependency, this field specifies the name of that operation in the dependency.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#dependency_operation_name ApplicationsignalsServiceLevelObjective#dependency_operation_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#dependency_operation_name ApplicationsignalsServiceLevelObjective#dependency_operation_name}
 
 ---
 
@@ -3577,13 +3577,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricMetricDataQueries.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 &applicationsignalsservicelevelobjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricMetricDataQueries {
 	AccountId: *string,
 	Expression: *string,
 	Id: *string,
-	MetricStat: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricMetricDataQueriesMetricStat,
+	MetricStat: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricMetricDataQueriesMetricStat,
 	ReturnData: interface{},
 }
 ```
@@ -3610,7 +3610,7 @@ AccountId *string
 
 The ID of the account where the metrics are located, if this is a cross-account alarm.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#account_id ApplicationsignalsServiceLevelObjective#account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#account_id ApplicationsignalsServiceLevelObjective#account_id}
 
 ---
 
@@ -3624,7 +3624,7 @@ Expression *string
 
 The math expression to be performed on the returned data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#expression ApplicationsignalsServiceLevelObjective#expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#expression ApplicationsignalsServiceLevelObjective#expression}
 
 ---
 
@@ -3638,7 +3638,7 @@ Id *string
 
 A short name used to tie this object to the results in the response.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#id ApplicationsignalsServiceLevelObjective#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#id ApplicationsignalsServiceLevelObjective#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3657,7 +3657,7 @@ A metric to be used directly for the SLO, or to be used in the math expression t
 
 Within one MetricDataQuery, you must specify either Expression or MetricStat but not both.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#metric_stat ApplicationsignalsServiceLevelObjective#metric_stat}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#metric_stat ApplicationsignalsServiceLevelObjective#metric_stat}
 
 ---
 
@@ -3671,7 +3671,7 @@ ReturnData interface{}
 
 This option indicates whether to return the timestamps and raw data values of this metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#return_data ApplicationsignalsServiceLevelObjective#return_data}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#return_data ApplicationsignalsServiceLevelObjective#return_data}
 
 ---
 
@@ -3680,10 +3680,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricMetricDataQueriesMetricStat.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 &applicationsignalsservicelevelobjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricMetricDataQueriesMetricStat {
-	Metric: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricMetricDataQueriesMetricStatMetric,
+	Metric: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricMetricDataQueriesMetricStatMetric,
 	Period: *f64,
 	Stat: *string,
 	Unit: *string,
@@ -3711,7 +3711,7 @@ Metric ApplicationsignalsServiceLevelObjectiveSliSliMetricMetricDataQueriesMetri
 
 This structure defines the metric used for a service level indicator, including the metric name, namespace, and dimensions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#metric ApplicationsignalsServiceLevelObjective#metric}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#metric ApplicationsignalsServiceLevelObjective#metric}
 
 ---
 
@@ -3725,7 +3725,7 @@ Period *f64
 
 The granularity, in seconds, to be used for the metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#period ApplicationsignalsServiceLevelObjective#period}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#period ApplicationsignalsServiceLevelObjective#period}
 
 ---
 
@@ -3739,7 +3739,7 @@ Stat *string
 
 The statistic to use for comparison to the threshold. It can be any CloudWatch statistic or extended statistic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#stat ApplicationsignalsServiceLevelObjective#stat}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#stat ApplicationsignalsServiceLevelObjective#stat}
 
 ---
 
@@ -3755,7 +3755,7 @@ If you omit Unit then all data that was collected with any unit is returned, alo
 
 If you specify a unit, the operation returns only data that was collected with that unit specified. If you specify a unit that does not match the data collected, the results of the operation are null. CloudWatch does not perform unit conversions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#unit ApplicationsignalsServiceLevelObjective#unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#unit ApplicationsignalsServiceLevelObjective#unit}
 
 ---
 
@@ -3764,7 +3764,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricMetricDataQueriesMetricStatMetric.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 &applicationsignalsservicelevelobjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricMetricDataQueriesMetricStatMetric {
 	Dimensions: interface{},
@@ -3793,7 +3793,7 @@ Dimensions interface{}
 
 An array of one or more dimensions to use to define the metric that you want to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#dimensions ApplicationsignalsServiceLevelObjective#dimensions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#dimensions ApplicationsignalsServiceLevelObjective#dimensions}
 
 ---
 
@@ -3807,7 +3807,7 @@ MetricName *string
 
 The name of the metric to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#metric_name ApplicationsignalsServiceLevelObjective#metric_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#metric_name ApplicationsignalsServiceLevelObjective#metric_name}
 
 ---
 
@@ -3821,7 +3821,7 @@ Namespace *string
 
 The namespace of the metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#namespace ApplicationsignalsServiceLevelObjective#namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#namespace ApplicationsignalsServiceLevelObjective#namespace}
 
 ---
 
@@ -3830,7 +3830,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricMetricDataQueriesMetricStatMetricDimensions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 &applicationsignalsservicelevelobjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricMetricDataQueriesMetricStatMetricDimensions {
 	Name: *string,
@@ -3859,7 +3859,7 @@ The name of the dimension.
 
 Dimension names must contain only ASCII characters, must include at least one non-whitespace character, and cannot start with a colon (:). ASCII control characters are not supported as part of dimension names.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#name ApplicationsignalsServiceLevelObjective#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#name ApplicationsignalsServiceLevelObjective#name}
 
 ---
 
@@ -3875,7 +3875,7 @@ The value of the dimension.
 
 Dimension values must contain only ASCII characters and must include at least one non-whitespace character. ASCII control characters are not supported as part of dimension values
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#value ApplicationsignalsServiceLevelObjective#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#value ApplicationsignalsServiceLevelObjective#value}
 
 ---
 
@@ -3884,7 +3884,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricMetricSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 &applicationsignalsservicelevelobjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricMetricSource {
 	MetricSourceAttributes: *map[string]*string,
@@ -3911,7 +3911,7 @@ MetricSourceAttributes *map[string]*string
 
 Optional additional attributes for the metric source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#metric_source_attributes ApplicationsignalsServiceLevelObjective#metric_source_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#metric_source_attributes ApplicationsignalsServiceLevelObjective#metric_source_attributes}
 
 ---
 
@@ -3925,7 +3925,7 @@ MetricSourceKeyAttributes *map[string]*string
 
 Required attributes that identify the metric source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#metric_source_key_attributes ApplicationsignalsServiceLevelObjective#metric_source_key_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#metric_source_key_attributes ApplicationsignalsServiceLevelObjective#metric_source_key_attributes}
 
 ---
 
@@ -3934,7 +3934,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 &applicationsignalsservicelevelobjective.ApplicationsignalsServiceLevelObjectiveTags {
 	Key: *string,
@@ -3963,7 +3963,7 @@ A string that you can use to assign a value.
 
 The combination of tag keys and values can help you organize and categorize your resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#key ApplicationsignalsServiceLevelObjective#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#key ApplicationsignalsServiceLevelObjective#key}
 
 ---
 
@@ -3977,7 +3977,7 @@ Value *string
 
 The value for the specified tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective#value ApplicationsignalsServiceLevelObjective#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective#value ApplicationsignalsServiceLevelObjective#value}
 
 ---
 
@@ -3988,7 +3988,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveBurnRateConfigurationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 applicationsignalsservicelevelobjective.NewApplicationsignalsServiceLevelObjectiveBurnRateConfigurationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApplicationsignalsServiceLevelObjectiveBurnRateConfigurationsList
 ```
@@ -4148,7 +4148,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveBurnRateConfigurationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 applicationsignalsservicelevelobjective.NewApplicationsignalsServiceLevelObjectiveBurnRateConfigurationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ApplicationsignalsServiceLevelObjectiveBurnRateConfigurationsOutputReference
 ```
@@ -4444,7 +4444,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveExclusionWindowsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 applicationsignalsservicelevelobjective.NewApplicationsignalsServiceLevelObjectiveExclusionWindowsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApplicationsignalsServiceLevelObjectiveExclusionWindowsList
 ```
@@ -4604,7 +4604,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveExclusionWindowsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 applicationsignalsservicelevelobjective.NewApplicationsignalsServiceLevelObjectiveExclusionWindowsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ApplicationsignalsServiceLevelObjectiveExclusionWindowsOutputReference
 ```
@@ -5013,7 +5013,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveExclusionWindowsRecurrenceRuleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 applicationsignalsservicelevelobjective.NewApplicationsignalsServiceLevelObjectiveExclusionWindowsRecurrenceRuleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApplicationsignalsServiceLevelObjectiveExclusionWindowsRecurrenceRuleOutputReference
 ```
@@ -5291,7 +5291,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveExclusionWindowsWindowOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 applicationsignalsservicelevelobjective.NewApplicationsignalsServiceLevelObjectiveExclusionWindowsWindowOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApplicationsignalsServiceLevelObjectiveExclusionWindowsWindowOutputReference
 ```
@@ -5598,7 +5598,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveGoalIntervalCalendarIntervalOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 applicationsignalsservicelevelobjective.NewApplicationsignalsServiceLevelObjectiveGoalIntervalCalendarIntervalOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApplicationsignalsServiceLevelObjectiveGoalIntervalCalendarIntervalOutputReference
 ```
@@ -5934,7 +5934,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveGoalIntervalOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 applicationsignalsservicelevelobjective.NewApplicationsignalsServiceLevelObjectiveGoalIntervalOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApplicationsignalsServiceLevelObjectiveGoalIntervalOutputReference
 ```
@@ -6267,7 +6267,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveGoalIntervalRollingIntervalOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 applicationsignalsservicelevelobjective.NewApplicationsignalsServiceLevelObjectiveGoalIntervalRollingIntervalOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApplicationsignalsServiceLevelObjectiveGoalIntervalRollingIntervalOutputReference
 ```
@@ -6574,7 +6574,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveGoalOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 applicationsignalsservicelevelobjective.NewApplicationsignalsServiceLevelObjectiveGoalOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApplicationsignalsServiceLevelObjectiveGoalOutputReference
 ```
@@ -6923,7 +6923,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 applicationsignalsservicelevelobjective.NewApplicationsignalsServiceLevelObjectiveRequestBasedSliOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApplicationsignalsServiceLevelObjectiveRequestBasedSliOutputReference
 ```
@@ -7272,7 +7272,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfigCompositeSliComponentsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 applicationsignalsservicelevelobjective.NewApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfigCompositeSliComponentsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfigCompositeSliComponentsList
 ```
@@ -7432,7 +7432,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfigCompositeSliComponentsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 applicationsignalsservicelevelobjective.NewApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfigCompositeSliComponentsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfigCompositeSliComponentsOutputReference
 ```
@@ -7728,7 +7728,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 applicationsignalsservicelevelobjective.NewApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfigOutputReference
 ```
@@ -8061,7 +8061,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfigSelectionConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 applicationsignalsservicelevelobjective.NewApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfigSelectionConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfigSelectionConfigOutputReference
 ```
@@ -8368,7 +8368,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricDependencyConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 applicationsignalsservicelevelobjective.NewApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricDependencyConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricDependencyConfigOutputReference
 ```
@@ -8675,7 +8675,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMetricSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 applicationsignalsservicelevelobjective.NewApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMetricSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMetricSourceOutputReference
 ```
@@ -8982,7 +8982,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMonitoredRequestCountMetricBadCountMetricList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 applicationsignalsservicelevelobjective.NewApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMonitoredRequestCountMetricBadCountMetricList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMonitoredRequestCountMetricBadCountMetricList
 ```
@@ -9142,7 +9142,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMonitoredRequestCountMetricBadCountMetricMetricStatMetricDimensionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 applicationsignalsservicelevelobjective.NewApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMonitoredRequestCountMetricBadCountMetricMetricStatMetricDimensionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMonitoredRequestCountMetricBadCountMetricMetricStatMetricDimensionsList
 ```
@@ -9302,7 +9302,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMonitoredRequestCountMetricBadCountMetricMetricStatMetricDimensionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 applicationsignalsservicelevelobjective.NewApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMonitoredRequestCountMetricBadCountMetricMetricStatMetricDimensionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMonitoredRequestCountMetricBadCountMetricMetricStatMetricDimensionsOutputReference
 ```
@@ -9627,7 +9627,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMonitoredRequestCountMetricBadCountMetricMetricStatMetricOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 applicationsignalsservicelevelobjective.NewApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMonitoredRequestCountMetricBadCountMetricMetricStatMetricOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMonitoredRequestCountMetricBadCountMetricMetricStatMetricOutputReference
 ```
@@ -9976,7 +9976,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMonitoredRequestCountMetricBadCountMetricMetricStatOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 applicationsignalsservicelevelobjective.NewApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMonitoredRequestCountMetricBadCountMetricMetricStatOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMonitoredRequestCountMetricBadCountMetricMetricStatOutputReference
 ```
@@ -10354,7 +10354,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMonitoredRequestCountMetricBadCountMetricOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 applicationsignalsservicelevelobjective.NewApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMonitoredRequestCountMetricBadCountMetricOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMonitoredRequestCountMetricBadCountMetricOutputReference
 ```
@@ -10779,7 +10779,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMonitoredRequestCountMetricGoodCountMetricList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 applicationsignalsservicelevelobjective.NewApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMonitoredRequestCountMetricGoodCountMetricList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMonitoredRequestCountMetricGoodCountMetricList
 ```
@@ -10939,7 +10939,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMonitoredRequestCountMetricGoodCountMetricMetricStatMetricDimensionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 applicationsignalsservicelevelobjective.NewApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMonitoredRequestCountMetricGoodCountMetricMetricStatMetricDimensionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMonitoredRequestCountMetricGoodCountMetricMetricStatMetricDimensionsList
 ```
@@ -11099,7 +11099,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMonitoredRequestCountMetricGoodCountMetricMetricStatMetricDimensionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 applicationsignalsservicelevelobjective.NewApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMonitoredRequestCountMetricGoodCountMetricMetricStatMetricDimensionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMonitoredRequestCountMetricGoodCountMetricMetricStatMetricDimensionsOutputReference
 ```
@@ -11424,7 +11424,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMonitoredRequestCountMetricGoodCountMetricMetricStatMetricOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 applicationsignalsservicelevelobjective.NewApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMonitoredRequestCountMetricGoodCountMetricMetricStatMetricOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMonitoredRequestCountMetricGoodCountMetricMetricStatMetricOutputReference
 ```
@@ -11773,7 +11773,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMonitoredRequestCountMetricGoodCountMetricMetricStatOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 applicationsignalsservicelevelobjective.NewApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMonitoredRequestCountMetricGoodCountMetricMetricStatOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMonitoredRequestCountMetricGoodCountMetricMetricStatOutputReference
 ```
@@ -12151,7 +12151,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMonitoredRequestCountMetricGoodCountMetricOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 applicationsignalsservicelevelobjective.NewApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMonitoredRequestCountMetricGoodCountMetricOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMonitoredRequestCountMetricGoodCountMetricOutputReference
 ```
@@ -12576,7 +12576,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMonitoredRequestCountMetricOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 applicationsignalsservicelevelobjective.NewApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMonitoredRequestCountMetricOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricMonitoredRequestCountMetricOutputReference
 ```
@@ -12909,7 +12909,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 applicationsignalsservicelevelobjective.NewApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricOutputReference
 ```
@@ -13484,7 +13484,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricTotalRequestCountMetricList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 applicationsignalsservicelevelobjective.NewApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricTotalRequestCountMetricList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricTotalRequestCountMetricList
 ```
@@ -13644,7 +13644,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricTotalRequestCountMetricMetricStatMetricDimensionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 applicationsignalsservicelevelobjective.NewApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricTotalRequestCountMetricMetricStatMetricDimensionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricTotalRequestCountMetricMetricStatMetricDimensionsList
 ```
@@ -13804,7 +13804,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricTotalRequestCountMetricMetricStatMetricDimensionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 applicationsignalsservicelevelobjective.NewApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricTotalRequestCountMetricMetricStatMetricDimensionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricTotalRequestCountMetricMetricStatMetricDimensionsOutputReference
 ```
@@ -14129,7 +14129,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricTotalRequestCountMetricMetricStatMetricOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 applicationsignalsservicelevelobjective.NewApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricTotalRequestCountMetricMetricStatMetricOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricTotalRequestCountMetricMetricStatMetricOutputReference
 ```
@@ -14478,7 +14478,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricTotalRequestCountMetricMetricStatOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 applicationsignalsservicelevelobjective.NewApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricTotalRequestCountMetricMetricStatOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricTotalRequestCountMetricMetricStatOutputReference
 ```
@@ -14856,7 +14856,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricTotalRequestCountMetricOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 applicationsignalsservicelevelobjective.NewApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricTotalRequestCountMetricOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricTotalRequestCountMetricOutputReference
 ```
@@ -15281,7 +15281,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 applicationsignalsservicelevelobjective.NewApplicationsignalsServiceLevelObjectiveSliOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApplicationsignalsServiceLevelObjectiveSliOutputReference
 ```
@@ -15630,7 +15630,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigCompositeSliComponentsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 applicationsignalsservicelevelobjective.NewApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigCompositeSliComponentsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigCompositeSliComponentsList
 ```
@@ -15790,7 +15790,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigCompositeSliComponentsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 applicationsignalsservicelevelobjective.NewApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigCompositeSliComponentsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigCompositeSliComponentsOutputReference
 ```
@@ -16086,7 +16086,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 applicationsignalsservicelevelobjective.NewApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigOutputReference
 ```
@@ -16419,7 +16419,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigSelectionConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 applicationsignalsservicelevelobjective.NewApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigSelectionConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigSelectionConfigOutputReference
 ```
@@ -16726,7 +16726,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricDependencyConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 applicationsignalsservicelevelobjective.NewApplicationsignalsServiceLevelObjectiveSliSliMetricDependencyConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApplicationsignalsServiceLevelObjectiveSliSliMetricDependencyConfigOutputReference
 ```
@@ -17033,7 +17033,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricMetricDataQueriesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 applicationsignalsservicelevelobjective.NewApplicationsignalsServiceLevelObjectiveSliSliMetricMetricDataQueriesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApplicationsignalsServiceLevelObjectiveSliSliMetricMetricDataQueriesList
 ```
@@ -17193,7 +17193,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricMetricDataQueriesMetricStatMetricDimensionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 applicationsignalsservicelevelobjective.NewApplicationsignalsServiceLevelObjectiveSliSliMetricMetricDataQueriesMetricStatMetricDimensionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApplicationsignalsServiceLevelObjectiveSliSliMetricMetricDataQueriesMetricStatMetricDimensionsList
 ```
@@ -17353,7 +17353,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricMetricDataQueriesMetricStatMetricDimensionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 applicationsignalsservicelevelobjective.NewApplicationsignalsServiceLevelObjectiveSliSliMetricMetricDataQueriesMetricStatMetricDimensionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ApplicationsignalsServiceLevelObjectiveSliSliMetricMetricDataQueriesMetricStatMetricDimensionsOutputReference
 ```
@@ -17678,7 +17678,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricMetricDataQueriesMetricStatMetricOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 applicationsignalsservicelevelobjective.NewApplicationsignalsServiceLevelObjectiveSliSliMetricMetricDataQueriesMetricStatMetricOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApplicationsignalsServiceLevelObjectiveSliSliMetricMetricDataQueriesMetricStatMetricOutputReference
 ```
@@ -18027,7 +18027,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricMetricDataQueriesMetricStatOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 applicationsignalsservicelevelobjective.NewApplicationsignalsServiceLevelObjectiveSliSliMetricMetricDataQueriesMetricStatOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApplicationsignalsServiceLevelObjectiveSliSliMetricMetricDataQueriesMetricStatOutputReference
 ```
@@ -18405,7 +18405,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricMetricDataQueriesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 applicationsignalsservicelevelobjective.NewApplicationsignalsServiceLevelObjectiveSliSliMetricMetricDataQueriesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ApplicationsignalsServiceLevelObjectiveSliSliMetricMetricDataQueriesOutputReference
 ```
@@ -18830,7 +18830,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricMetricSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 applicationsignalsservicelevelobjective.NewApplicationsignalsServiceLevelObjectiveSliSliMetricMetricSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApplicationsignalsServiceLevelObjectiveSliSliMetricMetricSourceOutputReference
 ```
@@ -19137,7 +19137,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 applicationsignalsservicelevelobjective.NewApplicationsignalsServiceLevelObjectiveSliSliMetricOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ApplicationsignalsServiceLevelObjectiveSliSliMetricOutputReference
 ```
@@ -19728,7 +19728,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 applicationsignalsservicelevelobjective.NewApplicationsignalsServiceLevelObjectiveTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApplicationsignalsServiceLevelObjectiveTagsList
 ```
@@ -19888,7 +19888,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective"
 
 applicationsignalsservicelevelobjective.NewApplicationsignalsServiceLevelObjectiveTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ApplicationsignalsServiceLevelObjectiveTagsOutputReference
 ```

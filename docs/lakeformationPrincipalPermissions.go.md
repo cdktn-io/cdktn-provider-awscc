@@ -4,12 +4,12 @@
 
 ### LakeformationPrincipalPermissions <a name="LakeformationPrincipalPermissions" id="@cdktn/provider-awscc.lakeformationPrincipalPermissions.LakeformationPrincipalPermissions"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lakeformation_principal_permissions awscc_lakeformation_principal_permissions}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lakeformation_principal_permissions awscc_lakeformation_principal_permissions}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lakeformationPrincipalPermissions.LakeformationPrincipalPermissions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lakeformationprincipalpermissions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lakeformationprincipalpermissions"
 
 lakeformationprincipalpermissions.NewLakeformationPrincipalPermissions(scope Construct, id *string, config LakeformationPrincipalPermissionsConfig) LakeformationPrincipalPermissions
 ```
@@ -433,7 +433,7 @@ func ResetCatalog()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.lakeformationPrincipalPermissions.LakeformationPrincipalPermissions.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lakeformationprincipalpermissions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lakeformationprincipalpermissions"
 
 lakeformationprincipalpermissions.LakeformationPrincipalPermissions_IsConstruct(x interface{}) *bool
 ```
@@ -465,7 +465,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.lakeformationPrincipalPermissions.LakeformationPrincipalPermissions.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lakeformationprincipalpermissions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lakeformationprincipalpermissions"
 
 lakeformationprincipalpermissions.LakeformationPrincipalPermissions_IsTerraformElement(x interface{}) *bool
 ```
@@ -479,7 +479,7 @@ lakeformationprincipalpermissions.LakeformationPrincipalPermissions_IsTerraformE
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.lakeformationPrincipalPermissions.LakeformationPrincipalPermissions.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lakeformationprincipalpermissions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lakeformationprincipalpermissions"
 
 lakeformationprincipalpermissions.LakeformationPrincipalPermissions_IsTerraformResource(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ lakeformationprincipalpermissions.LakeformationPrincipalPermissions_IsTerraformR
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.lakeformationPrincipalPermissions.LakeformationPrincipalPermissions.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lakeformationprincipalpermissions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lakeformationprincipalpermissions"
 
 lakeformationprincipalpermissions.LakeformationPrincipalPermissions_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -522,7 +522,7 @@ The construct id used in the generated config for the LakeformationPrincipalPerm
 
 The id of the existing LakeformationPrincipalPermissions that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lakeformation_principal_permissions#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lakeformation_principal_permissions#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -865,7 +865,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lakeformationPrincipalPermissions.LakeformationPrincipalPermissionsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lakeformationprincipalpermissions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lakeformationprincipalpermissions"
 
 &lakeformationprincipalpermissions.LakeformationPrincipalPermissionsConfig {
 	Connection: interface{},
@@ -877,8 +877,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lakeformationprincipal
 	Provisioners: *[]interface{},
 	Permissions: *[]*string,
 	PermissionsWithGrantOption: *[]*string,
-	Principal: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lakeformationPrincipalPermissions.LakeformationPrincipalPermissionsPrincipal,
-	Resource: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lakeformationPrincipalPermissions.LakeformationPrincipalPermissionsResource,
+	Principal: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lakeformationPrincipalPermissions.LakeformationPrincipalPermissionsPrincipal,
+	Resource: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lakeformationPrincipalPermissions.LakeformationPrincipalPermissionsResource,
 	Catalog: *string,
 }
 ```
@@ -982,7 +982,7 @@ Permissions *[]*string
 
 The permissions granted or revoked.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lakeformation_principal_permissions#permissions LakeformationPrincipalPermissions#permissions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lakeformation_principal_permissions#permissions LakeformationPrincipalPermissions#permissions}
 
 ---
 
@@ -996,7 +996,7 @@ PermissionsWithGrantOption *[]*string
 
 Indicates the ability to grant permissions (as a subset of permissions granted).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lakeformation_principal_permissions#permissions_with_grant_option LakeformationPrincipalPermissions#permissions_with_grant_option}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lakeformation_principal_permissions#permissions_with_grant_option LakeformationPrincipalPermissions#permissions_with_grant_option}
 
 ---
 
@@ -1010,7 +1010,7 @@ Principal LakeformationPrincipalPermissionsPrincipal
 
 The principal to be granted a permission.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lakeformation_principal_permissions#principal LakeformationPrincipalPermissions#principal}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lakeformation_principal_permissions#principal LakeformationPrincipalPermissions#principal}
 
 ---
 
@@ -1024,7 +1024,7 @@ Resource LakeformationPrincipalPermissionsResource
 
 The resource to be granted or revoked permissions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lakeformation_principal_permissions#resource LakeformationPrincipalPermissions#resource}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lakeformation_principal_permissions#resource LakeformationPrincipalPermissions#resource}
 
 ---
 
@@ -1040,7 +1040,7 @@ The identifier for the GLUDC.
 
 By default, the account ID. The GLUDC is the persistent metadata store. It contains database definitions, table definitions, and other control information to manage your Lake Formation environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lakeformation_principal_permissions#catalog LakeformationPrincipalPermissions#catalog}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lakeformation_principal_permissions#catalog LakeformationPrincipalPermissions#catalog}
 
 ---
 
@@ -1049,7 +1049,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lakeformationPrincipalPermissions.LakeformationPrincipalPermissionsPrincipal.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lakeformationprincipalpermissions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lakeformationprincipalpermissions"
 
 &lakeformationprincipalpermissions.LakeformationPrincipalPermissionsPrincipal {
 	DataLakePrincipalIdentifier: *string,
@@ -1074,7 +1074,7 @@ DataLakePrincipalIdentifier *string
 
 An identifier for the LFlong principal.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lakeformation_principal_permissions#data_lake_principal_identifier LakeformationPrincipalPermissions#data_lake_principal_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lakeformation_principal_permissions#data_lake_principal_identifier LakeformationPrincipalPermissions#data_lake_principal_identifier}
 
 ---
 
@@ -1083,17 +1083,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lakeformationPrincipalPermissions.LakeformationPrincipalPermissionsResource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lakeformationprincipalpermissions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lakeformationprincipalpermissions"
 
 &lakeformationprincipalpermissions.LakeformationPrincipalPermissionsResource {
-	Catalog: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lakeformationPrincipalPermissions.LakeformationPrincipalPermissionsResourceCatalog,
-	Database: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lakeformationPrincipalPermissions.LakeformationPrincipalPermissionsResourceDatabase,
-	DataCellsFilter: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lakeformationPrincipalPermissions.LakeformationPrincipalPermissionsResourceDataCellsFilter,
-	DataLocation: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lakeformationPrincipalPermissions.LakeformationPrincipalPermissionsResourceDataLocation,
-	LfTag: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lakeformationPrincipalPermissions.LakeformationPrincipalPermissionsResourceLfTag,
-	LfTagPolicy: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lakeformationPrincipalPermissions.LakeformationPrincipalPermissionsResourceLfTagPolicy,
-	Table: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lakeformationPrincipalPermissions.LakeformationPrincipalPermissionsResourceTable,
-	TableWithColumns: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lakeformationPrincipalPermissions.LakeformationPrincipalPermissionsResourceTableWithColumns,
+	Catalog: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lakeformationPrincipalPermissions.LakeformationPrincipalPermissionsResourceCatalog,
+	Database: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lakeformationPrincipalPermissions.LakeformationPrincipalPermissionsResourceDatabase,
+	DataCellsFilter: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lakeformationPrincipalPermissions.LakeformationPrincipalPermissionsResourceDataCellsFilter,
+	DataLocation: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lakeformationPrincipalPermissions.LakeformationPrincipalPermissionsResourceDataLocation,
+	LfTag: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lakeformationPrincipalPermissions.LakeformationPrincipalPermissionsResourceLfTag,
+	LfTagPolicy: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lakeformationPrincipalPermissions.LakeformationPrincipalPermissionsResourceLfTagPolicy,
+	Table: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lakeformationPrincipalPermissions.LakeformationPrincipalPermissionsResourceTable,
+	TableWithColumns: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lakeformationPrincipalPermissions.LakeformationPrincipalPermissionsResourceTableWithColumns,
 }
 ```
 
@@ -1124,7 +1124,7 @@ The identifier for the Data Catalog.
 
 By default, the account ID. The Data Catalog is the persistent metadata store. It contains database definitions, table definitions, and other control information to manage your LFlong environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lakeformation_principal_permissions#catalog LakeformationPrincipalPermissions#catalog}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lakeformation_principal_permissions#catalog LakeformationPrincipalPermissions#catalog}
 
 ---
 
@@ -1140,7 +1140,7 @@ The database for the resource.
 
 Unique to the Data Catalog. A database is a set of associated table definitions organized into a logical group. You can Grant and Revoke database permissions to a principal.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lakeformation_principal_permissions#database LakeformationPrincipalPermissions#database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lakeformation_principal_permissions#database LakeformationPrincipalPermissions#database}
 
 ---
 
@@ -1154,7 +1154,7 @@ DataCellsFilter LakeformationPrincipalPermissionsResourceDataCellsFilter
 
 A data cell filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lakeformation_principal_permissions#data_cells_filter LakeformationPrincipalPermissions#data_cells_filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lakeformation_principal_permissions#data_cells_filter LakeformationPrincipalPermissions#data_cells_filter}
 
 ---
 
@@ -1168,7 +1168,7 @@ DataLocation LakeformationPrincipalPermissionsResourceDataLocation
 
 The location of an Amazon S3 path where permissions are granted or revoked.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lakeformation_principal_permissions#data_location LakeformationPrincipalPermissions#data_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lakeformation_principal_permissions#data_location LakeformationPrincipalPermissions#data_location}
 
 ---
 
@@ -1182,7 +1182,7 @@ LfTag LakeformationPrincipalPermissionsResourceLfTag
 
 The LF-tag key and values attached to a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lakeformation_principal_permissions#lf_tag LakeformationPrincipalPermissions#lf_tag}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lakeformation_principal_permissions#lf_tag LakeformationPrincipalPermissions#lf_tag}
 
 ---
 
@@ -1196,7 +1196,7 @@ LfTagPolicy LakeformationPrincipalPermissionsResourceLfTagPolicy
 
 A list of LF-tag conditions that define a resource's LF-tag policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lakeformation_principal_permissions#lf_tag_policy LakeformationPrincipalPermissions#lf_tag_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lakeformation_principal_permissions#lf_tag_policy LakeformationPrincipalPermissions#lf_tag_policy}
 
 ---
 
@@ -1212,7 +1212,7 @@ The table for the resource.
 
 A table is a metadata definition that represents your data. You can Grant and Revoke table privileges to a principal.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lakeformation_principal_permissions#table LakeformationPrincipalPermissions#table}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lakeformation_principal_permissions#table LakeformationPrincipalPermissions#table}
 
 ---
 
@@ -1228,7 +1228,7 @@ The table with columns for the resource.
 
 A principal with permissions to this resource can select metadata from the columns of a table in the Data Catalog and the underlying data in Amazon S3.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lakeformation_principal_permissions#table_with_columns LakeformationPrincipalPermissions#table_with_columns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lakeformation_principal_permissions#table_with_columns LakeformationPrincipalPermissions#table_with_columns}
 
 ---
 
@@ -1237,7 +1237,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lakeformationPrincipalPermissions.LakeformationPrincipalPermissionsResourceCatalog.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lakeformationprincipalpermissions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lakeformationprincipalpermissions"
 
 &lakeformationprincipalpermissions.LakeformationPrincipalPermissionsResourceCatalog {
 	Id: *string,
@@ -1262,7 +1262,7 @@ Id *string
 
 An identifier for the catalog resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lakeformation_principal_permissions#id LakeformationPrincipalPermissions#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lakeformation_principal_permissions#id LakeformationPrincipalPermissions#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1274,7 +1274,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lakeformationPrincipalPermissions.LakeformationPrincipalPermissionsResourceDatabase.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lakeformationprincipalpermissions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lakeformationprincipalpermissions"
 
 &lakeformationprincipalpermissions.LakeformationPrincipalPermissionsResourceDatabase {
 	CatalogId: *string,
@@ -1301,7 +1301,7 @@ CatalogId *string
 
 The identifier for the Data Catalog. By default, it is the account ID of the caller.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lakeformation_principal_permissions#catalog_id LakeformationPrincipalPermissions#catalog_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lakeformation_principal_permissions#catalog_id LakeformationPrincipalPermissions#catalog_id}
 
 ---
 
@@ -1315,7 +1315,7 @@ Name *string
 
 The name of the database resource. Unique to the Data Catalog.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lakeformation_principal_permissions#name LakeformationPrincipalPermissions#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lakeformation_principal_permissions#name LakeformationPrincipalPermissions#name}
 
 ---
 
@@ -1324,7 +1324,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lakeformationPrincipalPermissions.LakeformationPrincipalPermissionsResourceDataCellsFilter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lakeformationprincipalpermissions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lakeformationprincipalpermissions"
 
 &lakeformationprincipalpermissions.LakeformationPrincipalPermissionsResourceDataCellsFilter {
 	DatabaseName: *string,
@@ -1355,7 +1355,7 @@ DatabaseName *string
 
 A database in the GLUDC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lakeformation_principal_permissions#database_name LakeformationPrincipalPermissions#database_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lakeformation_principal_permissions#database_name LakeformationPrincipalPermissions#database_name}
 
 ---
 
@@ -1369,7 +1369,7 @@ Name *string
 
 The name given by the user to the data filter cell.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lakeformation_principal_permissions#name LakeformationPrincipalPermissions#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lakeformation_principal_permissions#name LakeformationPrincipalPermissions#name}
 
 ---
 
@@ -1383,7 +1383,7 @@ TableCatalogId *string
 
 The ID of the catalog to which the table belongs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lakeformation_principal_permissions#table_catalog_id LakeformationPrincipalPermissions#table_catalog_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lakeformation_principal_permissions#table_catalog_id LakeformationPrincipalPermissions#table_catalog_id}
 
 ---
 
@@ -1397,7 +1397,7 @@ TableName *string
 
 The name of the table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lakeformation_principal_permissions#table_name LakeformationPrincipalPermissions#table_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lakeformation_principal_permissions#table_name LakeformationPrincipalPermissions#table_name}
 
 ---
 
@@ -1406,7 +1406,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lakeformationPrincipalPermissions.LakeformationPrincipalPermissionsResourceDataLocation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lakeformationprincipalpermissions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lakeformationprincipalpermissions"
 
 &lakeformationprincipalpermissions.LakeformationPrincipalPermissionsResourceDataLocation {
 	CatalogId: *string,
@@ -1433,7 +1433,7 @@ CatalogId *string
 
 The identifier for the GLUDC where the location is registered with LFlong.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lakeformation_principal_permissions#catalog_id LakeformationPrincipalPermissions#catalog_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lakeformation_principal_permissions#catalog_id LakeformationPrincipalPermissions#catalog_id}
 
 ---
 
@@ -1447,7 +1447,7 @@ ResourceArn *string
 
 The Amazon Resource Name (ARN) that uniquely identifies the data location resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lakeformation_principal_permissions#resource_arn LakeformationPrincipalPermissions#resource_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lakeformation_principal_permissions#resource_arn LakeformationPrincipalPermissions#resource_arn}
 
 ---
 
@@ -1456,7 +1456,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lakeformationPrincipalPermissions.LakeformationPrincipalPermissionsResourceLfTag.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lakeformationprincipalpermissions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lakeformationprincipalpermissions"
 
 &lakeformationprincipalpermissions.LakeformationPrincipalPermissionsResourceLfTag {
 	CatalogId: *string,
@@ -1485,7 +1485,7 @@ CatalogId *string
 
 The identifier for the GLUDC where the location is registered with GLUDC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lakeformation_principal_permissions#catalog_id LakeformationPrincipalPermissions#catalog_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lakeformation_principal_permissions#catalog_id LakeformationPrincipalPermissions#catalog_id}
 
 ---
 
@@ -1499,7 +1499,7 @@ TagKey *string
 
 The key-name for the LF-tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lakeformation_principal_permissions#tag_key LakeformationPrincipalPermissions#tag_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lakeformation_principal_permissions#tag_key LakeformationPrincipalPermissions#tag_key}
 
 ---
 
@@ -1513,7 +1513,7 @@ TagValues *[]*string
 
 A list of possible values for the corresponding ``TagKey`` of an LF-tag key-value pair.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lakeformation_principal_permissions#tag_values LakeformationPrincipalPermissions#tag_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lakeformation_principal_permissions#tag_values LakeformationPrincipalPermissions#tag_values}
 
 ---
 
@@ -1522,7 +1522,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lakeformationPrincipalPermissions.LakeformationPrincipalPermissionsResourceLfTagPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lakeformationprincipalpermissions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lakeformationprincipalpermissions"
 
 &lakeformationprincipalpermissions.LakeformationPrincipalPermissionsResourceLfTagPolicy {
 	CatalogId: *string,
@@ -1553,7 +1553,7 @@ The identifier for the GLUDC.
 
 The GLUDC is the persistent metadata store. It contains database definitions, table definitions, and other control information to manage your LFlong environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lakeformation_principal_permissions#catalog_id LakeformationPrincipalPermissions#catalog_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lakeformation_principal_permissions#catalog_id LakeformationPrincipalPermissions#catalog_id}
 
 ---
 
@@ -1567,7 +1567,7 @@ Expression interface{}
 
 A list of LF-tag conditions that apply to the resource's LF-tag policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lakeformation_principal_permissions#expression LakeformationPrincipalPermissions#expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lakeformation_principal_permissions#expression LakeformationPrincipalPermissions#expression}
 
 ---
 
@@ -1581,7 +1581,7 @@ ResourceType *string
 
 The resource type for which the LF-tag policy applies.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lakeformation_principal_permissions#resource_type LakeformationPrincipalPermissions#resource_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lakeformation_principal_permissions#resource_type LakeformationPrincipalPermissions#resource_type}
 
 ---
 
@@ -1590,7 +1590,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lakeformationPrincipalPermissions.LakeformationPrincipalPermissionsResourceLfTagPolicyExpression.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lakeformationprincipalpermissions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lakeformationprincipalpermissions"
 
 &lakeformationprincipalpermissions.LakeformationPrincipalPermissionsResourceLfTagPolicyExpression {
 	TagKey: *string,
@@ -1617,7 +1617,7 @@ TagKey *string
 
 The key-name for the LF-tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lakeformation_principal_permissions#tag_key LakeformationPrincipalPermissions#tag_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lakeformation_principal_permissions#tag_key LakeformationPrincipalPermissions#tag_key}
 
 ---
 
@@ -1631,7 +1631,7 @@ TagValues *[]*string
 
 A list of possible values of the corresponding ``TagKey`` of an LF-tag key-value pair.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lakeformation_principal_permissions#tag_values LakeformationPrincipalPermissions#tag_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lakeformation_principal_permissions#tag_values LakeformationPrincipalPermissions#tag_values}
 
 ---
 
@@ -1640,7 +1640,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lakeformationPrincipalPermissions.LakeformationPrincipalPermissionsResourceTable.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lakeformationprincipalpermissions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lakeformationprincipalpermissions"
 
 &lakeformationprincipalpermissions.LakeformationPrincipalPermissionsResourceTable {
 	CatalogId: *string,
@@ -1671,7 +1671,7 @@ CatalogId *string
 
 The identifier for the Data Catalog. By default, it is the account ID of the caller.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lakeformation_principal_permissions#catalog_id LakeformationPrincipalPermissions#catalog_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lakeformation_principal_permissions#catalog_id LakeformationPrincipalPermissions#catalog_id}
 
 ---
 
@@ -1687,7 +1687,7 @@ The name of the database for the table.
 
 Unique to a Data Catalog. A database is a set of associated table definitions organized into a logical group. You can Grant and Revoke database privileges to a principal.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lakeformation_principal_permissions#database_name LakeformationPrincipalPermissions#database_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lakeformation_principal_permissions#database_name LakeformationPrincipalPermissions#database_name}
 
 ---
 
@@ -1701,7 +1701,7 @@ Name *string
 
 The name of the table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lakeformation_principal_permissions#name LakeformationPrincipalPermissions#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lakeformation_principal_permissions#name LakeformationPrincipalPermissions#name}
 
 ---
 
@@ -1715,7 +1715,7 @@ TableWildcard *string
 
 A wildcard object representing every table under a database.  At least one of ``TableResource$Name`` or ``TableResource$TableWildcard`` is required.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lakeformation_principal_permissions#table_wildcard LakeformationPrincipalPermissions#table_wildcard}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lakeformation_principal_permissions#table_wildcard LakeformationPrincipalPermissions#table_wildcard}
 
 ---
 
@@ -1724,12 +1724,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lakeformationPrincipalPermissions.LakeformationPrincipalPermissionsResourceTableWithColumns.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lakeformationprincipalpermissions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lakeformationprincipalpermissions"
 
 &lakeformationprincipalpermissions.LakeformationPrincipalPermissionsResourceTableWithColumns {
 	CatalogId: *string,
 	ColumnNames: *[]*string,
-	ColumnWildcard: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lakeformationPrincipalPermissions.LakeformationPrincipalPermissionsResourceTableWithColumnsColumnWildcard,
+	ColumnWildcard: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lakeformationPrincipalPermissions.LakeformationPrincipalPermissionsResourceTableWithColumnsColumnWildcard,
 	DatabaseName: *string,
 	Name: *string,
 }
@@ -1757,7 +1757,7 @@ CatalogId *string
 
 The identifier for the GLUDC where the location is registered with LFlong.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lakeformation_principal_permissions#catalog_id LakeformationPrincipalPermissions#catalog_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lakeformation_principal_permissions#catalog_id LakeformationPrincipalPermissions#catalog_id}
 
 ---
 
@@ -1771,7 +1771,7 @@ ColumnNames *[]*string
 
 The list of column names for the table. At least one of ``ColumnNames`` or ``ColumnWildcard`` is required.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lakeformation_principal_permissions#column_names LakeformationPrincipalPermissions#column_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lakeformation_principal_permissions#column_names LakeformationPrincipalPermissions#column_names}
 
 ---
 
@@ -1785,7 +1785,7 @@ ColumnWildcard LakeformationPrincipalPermissionsResourceTableWithColumnsColumnWi
 
 A wildcard specified by a ``ColumnWildcard`` object. At least one of ``ColumnNames`` or ``ColumnWildcard`` is required.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lakeformation_principal_permissions#column_wildcard LakeformationPrincipalPermissions#column_wildcard}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lakeformation_principal_permissions#column_wildcard LakeformationPrincipalPermissions#column_wildcard}
 
 ---
 
@@ -1801,7 +1801,7 @@ The name of the database for the table with columns resource.
 
 Unique to the Data Catalog. A database is a set of associated table definitions organized into a logical group. You can Grant and Revoke database privileges to a principal.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lakeformation_principal_permissions#database_name LakeformationPrincipalPermissions#database_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lakeformation_principal_permissions#database_name LakeformationPrincipalPermissions#database_name}
 
 ---
 
@@ -1817,7 +1817,7 @@ The name of the table resource.
 
 A table is a metadata definition that represents your data. You can Grant and Revoke table privileges to a principal.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lakeformation_principal_permissions#name LakeformationPrincipalPermissions#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lakeformation_principal_permissions#name LakeformationPrincipalPermissions#name}
 
 ---
 
@@ -1826,7 +1826,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lakeformationPrincipalPermissions.LakeformationPrincipalPermissionsResourceTableWithColumnsColumnWildcard.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lakeformationprincipalpermissions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lakeformationprincipalpermissions"
 
 &lakeformationprincipalpermissions.LakeformationPrincipalPermissionsResourceTableWithColumnsColumnWildcard {
 	ExcludedColumnNames: *[]*string,
@@ -1851,7 +1851,7 @@ ExcludedColumnNames *[]*string
 
 Excludes column names. Any column with this name will be excluded.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lakeformation_principal_permissions#excluded_column_names LakeformationPrincipalPermissions#excluded_column_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lakeformation_principal_permissions#excluded_column_names LakeformationPrincipalPermissions#excluded_column_names}
 
 ---
 
@@ -1862,7 +1862,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lakeformationPrincipalPermissions.LakeformationPrincipalPermissionsPrincipalOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lakeformationprincipalpermissions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lakeformationprincipalpermissions"
 
 lakeformationprincipalpermissions.NewLakeformationPrincipalPermissionsPrincipalOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LakeformationPrincipalPermissionsPrincipalOutputReference
 ```
@@ -2140,7 +2140,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lakeformationPrincipalPermissions.LakeformationPrincipalPermissionsResourceCatalogOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lakeformationprincipalpermissions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lakeformationprincipalpermissions"
 
 lakeformationprincipalpermissions.NewLakeformationPrincipalPermissionsResourceCatalogOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LakeformationPrincipalPermissionsResourceCatalogOutputReference
 ```
@@ -2418,7 +2418,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lakeformationPrincipalPermissions.LakeformationPrincipalPermissionsResourceDatabaseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lakeformationprincipalpermissions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lakeformationprincipalpermissions"
 
 lakeformationprincipalpermissions.NewLakeformationPrincipalPermissionsResourceDatabaseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LakeformationPrincipalPermissionsResourceDatabaseOutputReference
 ```
@@ -2725,7 +2725,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lakeformationPrincipalPermissions.LakeformationPrincipalPermissionsResourceDataCellsFilterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lakeformationprincipalpermissions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lakeformationprincipalpermissions"
 
 lakeformationprincipalpermissions.NewLakeformationPrincipalPermissionsResourceDataCellsFilterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LakeformationPrincipalPermissionsResourceDataCellsFilterOutputReference
 ```
@@ -3090,7 +3090,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lakeformationPrincipalPermissions.LakeformationPrincipalPermissionsResourceDataLocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lakeformationprincipalpermissions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lakeformationprincipalpermissions"
 
 lakeformationprincipalpermissions.NewLakeformationPrincipalPermissionsResourceDataLocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LakeformationPrincipalPermissionsResourceDataLocationOutputReference
 ```
@@ -3397,7 +3397,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lakeformationPrincipalPermissions.LakeformationPrincipalPermissionsResourceLfTagOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lakeformationprincipalpermissions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lakeformationprincipalpermissions"
 
 lakeformationprincipalpermissions.NewLakeformationPrincipalPermissionsResourceLfTagOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LakeformationPrincipalPermissionsResourceLfTagOutputReference
 ```
@@ -3733,7 +3733,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lakeformationPrincipalPermissions.LakeformationPrincipalPermissionsResourceLfTagPolicyExpressionList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lakeformationprincipalpermissions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lakeformationprincipalpermissions"
 
 lakeformationprincipalpermissions.NewLakeformationPrincipalPermissionsResourceLfTagPolicyExpressionList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LakeformationPrincipalPermissionsResourceLfTagPolicyExpressionList
 ```
@@ -3893,7 +3893,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lakeformationPrincipalPermissions.LakeformationPrincipalPermissionsResourceLfTagPolicyExpressionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lakeformationprincipalpermissions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lakeformationprincipalpermissions"
 
 lakeformationprincipalpermissions.NewLakeformationPrincipalPermissionsResourceLfTagPolicyExpressionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LakeformationPrincipalPermissionsResourceLfTagPolicyExpressionOutputReference
 ```
@@ -4218,7 +4218,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lakeformationPrincipalPermissions.LakeformationPrincipalPermissionsResourceLfTagPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lakeformationprincipalpermissions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lakeformationprincipalpermissions"
 
 lakeformationprincipalpermissions.NewLakeformationPrincipalPermissionsResourceLfTagPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LakeformationPrincipalPermissionsResourceLfTagPolicyOutputReference
 ```
@@ -4567,7 +4567,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lakeformationPrincipalPermissions.LakeformationPrincipalPermissionsResourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lakeformationprincipalpermissions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lakeformationprincipalpermissions"
 
 lakeformationprincipalpermissions.NewLakeformationPrincipalPermissionsResourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LakeformationPrincipalPermissionsResourceOutputReference
 ```
@@ -5152,7 +5152,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lakeformationPrincipalPermissions.LakeformationPrincipalPermissionsResourceTableOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lakeformationprincipalpermissions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lakeformationprincipalpermissions"
 
 lakeformationprincipalpermissions.NewLakeformationPrincipalPermissionsResourceTableOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LakeformationPrincipalPermissionsResourceTableOutputReference
 ```
@@ -5517,7 +5517,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lakeformationPrincipalPermissions.LakeformationPrincipalPermissionsResourceTableWithColumnsColumnWildcardOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lakeformationprincipalpermissions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lakeformationprincipalpermissions"
 
 lakeformationprincipalpermissions.NewLakeformationPrincipalPermissionsResourceTableWithColumnsColumnWildcardOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LakeformationPrincipalPermissionsResourceTableWithColumnsColumnWildcardOutputReference
 ```
@@ -5795,7 +5795,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lakeformationPrincipalPermissions.LakeformationPrincipalPermissionsResourceTableWithColumnsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lakeformationprincipalpermissions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lakeformationprincipalpermissions"
 
 lakeformationprincipalpermissions.NewLakeformationPrincipalPermissionsResourceTableWithColumnsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LakeformationPrincipalPermissionsResourceTableWithColumnsOutputReference
 ```

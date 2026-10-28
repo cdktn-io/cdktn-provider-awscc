@@ -4,12 +4,12 @@
 
 ### NeptunegraphGraphSnapshot <a name="NeptunegraphGraphSnapshot" id="@cdktn/provider-awscc.neptunegraphGraphSnapshot.NeptunegraphGraphSnapshot"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/neptunegraph_graph_snapshot awscc_neptunegraph_graph_snapshot}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/neptunegraph_graph_snapshot awscc_neptunegraph_graph_snapshot}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.neptunegraphGraphSnapshot.NeptunegraphGraphSnapshot.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/neptunegraphgraphsnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/neptunegraphgraphsnapshot"
 
 neptunegraphgraphsnapshot.NewNeptunegraphGraphSnapshot(scope Construct, id *string, config NeptunegraphGraphSnapshotConfig) NeptunegraphGraphSnapshot
 ```
@@ -420,7 +420,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.neptunegraphGraphSnapshot.NeptunegraphGraphSnapshot.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/neptunegraphgraphsnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/neptunegraphgraphsnapshot"
 
 neptunegraphgraphsnapshot.NeptunegraphGraphSnapshot_IsConstruct(x interface{}) *bool
 ```
@@ -452,7 +452,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.neptunegraphGraphSnapshot.NeptunegraphGraphSnapshot.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/neptunegraphgraphsnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/neptunegraphgraphsnapshot"
 
 neptunegraphgraphsnapshot.NeptunegraphGraphSnapshot_IsTerraformElement(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ neptunegraphgraphsnapshot.NeptunegraphGraphSnapshot_IsTerraformElement(x interfa
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.neptunegraphGraphSnapshot.NeptunegraphGraphSnapshot.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/neptunegraphgraphsnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/neptunegraphgraphsnapshot"
 
 neptunegraphgraphsnapshot.NeptunegraphGraphSnapshot_IsTerraformResource(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ neptunegraphgraphsnapshot.NeptunegraphGraphSnapshot_IsTerraformResource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.neptunegraphGraphSnapshot.NeptunegraphGraphSnapshot.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/neptunegraphgraphsnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/neptunegraphgraphsnapshot"
 
 neptunegraphgraphsnapshot.NeptunegraphGraphSnapshot_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -509,7 +509,7 @@ The construct id used in the generated config for the NeptunegraphGraphSnapshot 
 
 The id of the existing NeptunegraphGraphSnapshot that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/neptunegraph_graph_snapshot#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/neptunegraph_graph_snapshot#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -841,7 +841,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.neptunegraphGraphSnapshot.NeptunegraphGraphSnapshotConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/neptunegraphgraphsnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/neptunegraphgraphsnapshot"
 
 &neptunegraphgraphsnapshot.NeptunegraphGraphSnapshotConfig {
 	Connection: interface{},
@@ -954,7 +954,7 @@ GraphIdentifier *string
 
 The unique identifier of the Neptune Analytics graph to create the snapshot from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/neptunegraph_graph_snapshot#graph_identifier NeptunegraphGraphSnapshot#graph_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/neptunegraph_graph_snapshot#graph_identifier NeptunegraphGraphSnapshot#graph_identifier}
 
 ---
 
@@ -968,7 +968,7 @@ SnapshotName *string
 
 The snapshot name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/neptunegraph_graph_snapshot#snapshot_name NeptunegraphGraphSnapshot#snapshot_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/neptunegraph_graph_snapshot#snapshot_name NeptunegraphGraphSnapshot#snapshot_name}
 
 ---
 
@@ -982,7 +982,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/neptunegraph_graph_snapshot#tags NeptunegraphGraphSnapshot#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/neptunegraph_graph_snapshot#tags NeptunegraphGraphSnapshot#tags}
 
 ---
 
@@ -991,7 +991,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.neptunegraphGraphSnapshot.NeptunegraphGraphSnapshotTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/neptunegraphgraphsnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/neptunegraphgraphsnapshot"
 
 &neptunegraphgraphsnapshot.NeptunegraphGraphSnapshotTags {
 	Key: *string,
@@ -1018,7 +1018,7 @@ Key *string
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/neptunegraph_graph_snapshot#key NeptunegraphGraphSnapshot#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/neptunegraph_graph_snapshot#key NeptunegraphGraphSnapshot#key}
 
 ---
 
@@ -1032,7 +1032,7 @@ Value *string
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/neptunegraph_graph_snapshot#value NeptunegraphGraphSnapshot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/neptunegraph_graph_snapshot#value NeptunegraphGraphSnapshot#value}
 
 ---
 
@@ -1043,7 +1043,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.neptunegraphGraphSnapshot.NeptunegraphGraphSnapshotTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/neptunegraphgraphsnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/neptunegraphgraphsnapshot"
 
 neptunegraphgraphsnapshot.NewNeptunegraphGraphSnapshotTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) NeptunegraphGraphSnapshotTagsList
 ```
@@ -1203,7 +1203,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.neptunegraphGraphSnapshot.NeptunegraphGraphSnapshotTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/neptunegraphgraphsnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/neptunegraphgraphsnapshot"
 
 neptunegraphgraphsnapshot.NewNeptunegraphGraphSnapshotTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) NeptunegraphGraphSnapshotTagsOutputReference
 ```

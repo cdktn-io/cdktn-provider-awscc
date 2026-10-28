@@ -4,12 +4,12 @@
 
 ### DataAwsccLogsMetricFilter <a name="DataAwsccLogsMetricFilter" id="@cdktn/provider-awscc.dataAwsccLogsMetricFilter.DataAwsccLogsMetricFilter"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/logs_metric_filter awscc_logs_metric_filter}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/logs_metric_filter awscc_logs_metric_filter}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLogsMetricFilter.DataAwsccLogsMetricFilter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclogsmetricfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclogsmetricfilter"
 
 dataawscclogsmetricfilter.NewDataAwsccLogsMetricFilter(scope Construct, id *string, config DataAwsccLogsMetricFilterConfig) DataAwsccLogsMetricFilter
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccLogsMetricFilter.DataAwsccLogsMetricFilter.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclogsmetricfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclogsmetricfilter"
 
 dataawscclogsmetricfilter.DataAwsccLogsMetricFilter_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccLogsMetricFilter.DataAwsccLogsMetricFilter.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclogsmetricfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclogsmetricfilter"
 
 dataawscclogsmetricfilter.DataAwsccLogsMetricFilter_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscclogsmetricfilter.DataAwsccLogsMetricFilter_IsTerraformElement(x interfa
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccLogsMetricFilter.DataAwsccLogsMetricFilter.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclogsmetricfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclogsmetricfilter"
 
 dataawscclogsmetricfilter.DataAwsccLogsMetricFilter_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscclogsmetricfilter.DataAwsccLogsMetricFilter_IsTerraformDataSource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccLogsMetricFilter.DataAwsccLogsMetricFilter.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclogsmetricfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclogsmetricfilter"
 
 dataawscclogsmetricfilter.DataAwsccLogsMetricFilter_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLogsMetricFilter 
 
 The id of the existing DataAwsccLogsMetricFilter that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/logs_metric_filter#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/logs_metric_filter#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -664,7 +664,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLogsMetricFilter.DataAwsccLogsMetricFilterConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclogsmetricfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclogsmetricfilter"
 
 &dataawscclogsmetricfilter.DataAwsccLogsMetricFilterConfig {
 	Connection: interface{},
@@ -773,7 +773,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/logs_metric_filter#id DataAwsccLogsMetricFilter#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/logs_metric_filter#id DataAwsccLogsMetricFilter#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -785,7 +785,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLogsMetricFilter.DataAwsccLogsMetricFilterMetricTransformations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclogsmetricfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclogsmetricfilter"
 
 &dataawscclogsmetricfilter.DataAwsccLogsMetricFilterMetricTransformations {
 
@@ -798,7 +798,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclogsmetricfil
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLogsMetricFilter.DataAwsccLogsMetricFilterMetricTransformationsDimensions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclogsmetricfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclogsmetricfilter"
 
 &dataawscclogsmetricfilter.DataAwsccLogsMetricFilterMetricTransformationsDimensions {
 
@@ -813,7 +813,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclogsmetricfil
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLogsMetricFilter.DataAwsccLogsMetricFilterMetricTransformationsDimensionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclogsmetricfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclogsmetricfilter"
 
 dataawscclogsmetricfilter.NewDataAwsccLogsMetricFilterMetricTransformationsDimensionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLogsMetricFilterMetricTransformationsDimensionsList
 ```
@@ -962,7 +962,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLogsMetricFilter.DataAwsccLogsMetricFilterMetricTransformationsDimensionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclogsmetricfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclogsmetricfilter"
 
 dataawscclogsmetricfilter.NewDataAwsccLogsMetricFilterMetricTransformationsDimensionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLogsMetricFilterMetricTransformationsDimensionsOutputReference
 ```
@@ -1251,7 +1251,7 @@ func InternalValue() DataAwsccLogsMetricFilterMetricTransformationsDimensions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLogsMetricFilter.DataAwsccLogsMetricFilterMetricTransformationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclogsmetricfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclogsmetricfilter"
 
 dataawscclogsmetricfilter.NewDataAwsccLogsMetricFilterMetricTransformationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLogsMetricFilterMetricTransformationsList
 ```
@@ -1400,7 +1400,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLogsMetricFilter.DataAwsccLogsMetricFilterMetricTransformationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclogsmetricfilter"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclogsmetricfilter"
 
 dataawscclogsmetricfilter.NewDataAwsccLogsMetricFilterMetricTransformationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLogsMetricFilterMetricTransformationsOutputReference
 ```

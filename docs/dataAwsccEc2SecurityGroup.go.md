@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2SecurityGroup <a name="DataAwsccEc2SecurityGroup" id="@cdktn/provider-awscc.dataAwsccEc2SecurityGroup.DataAwsccEc2SecurityGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_security_group awscc_ec2_security_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_security_group awscc_ec2_security_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SecurityGroup.DataAwsccEc2SecurityGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2securitygroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2securitygroup"
 
 dataawsccec2securitygroup.NewDataAwsccEc2SecurityGroup(scope Construct, id *string, config DataAwsccEc2SecurityGroupConfig) DataAwsccEc2SecurityGroup
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2SecurityGroup.DataAwsccEc2SecurityGroup.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2securitygroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2securitygroup"
 
 dataawsccec2securitygroup.DataAwsccEc2SecurityGroup_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2SecurityGroup.DataAwsccEc2SecurityGroup.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2securitygroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2securitygroup"
 
 dataawsccec2securitygroup.DataAwsccEc2SecurityGroup_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2securitygroup.DataAwsccEc2SecurityGroup_IsTerraformElement(x interfa
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2SecurityGroup.DataAwsccEc2SecurityGroup.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2securitygroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2securitygroup"
 
 dataawsccec2securitygroup.DataAwsccEc2SecurityGroup_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2securitygroup.DataAwsccEc2SecurityGroup_IsTerraformDataSource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2SecurityGroup.DataAwsccEc2SecurityGroup.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2securitygroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2securitygroup"
 
 dataawsccec2securitygroup.DataAwsccEc2SecurityGroup_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2SecurityGroup 
 
 The id of the existing DataAwsccEc2SecurityGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_security_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_security_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -675,7 +675,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2SecurityGroup.DataAwsccEc2SecurityGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2securitygroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2securitygroup"
 
 &dataawsccec2securitygroup.DataAwsccEc2SecurityGroupConfig {
 	Connection: interface{},
@@ -784,7 +784,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_security_group#id DataAwsccEc2SecurityGroup#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_security_group#id DataAwsccEc2SecurityGroup#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -796,7 +796,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2SecurityGroup.DataAwsccEc2SecurityGroupSecurityGroupEgress.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2securitygroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2securitygroup"
 
 &dataawsccec2securitygroup.DataAwsccEc2SecurityGroupSecurityGroupEgress {
 
@@ -809,7 +809,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2securitygr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2SecurityGroup.DataAwsccEc2SecurityGroupSecurityGroupIngress.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2securitygroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2securitygroup"
 
 &dataawsccec2securitygroup.DataAwsccEc2SecurityGroupSecurityGroupIngress {
 
@@ -822,7 +822,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2securitygr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2SecurityGroup.DataAwsccEc2SecurityGroupTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2securitygroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2securitygroup"
 
 &dataawsccec2securitygroup.DataAwsccEc2SecurityGroupTags {
 
@@ -837,7 +837,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2securitygr
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SecurityGroup.DataAwsccEc2SecurityGroupSecurityGroupEgressList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2securitygroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2securitygroup"
 
 dataawsccec2securitygroup.NewDataAwsccEc2SecurityGroupSecurityGroupEgressList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEc2SecurityGroupSecurityGroupEgressList
 ```
@@ -986,7 +986,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SecurityGroup.DataAwsccEc2SecurityGroupSecurityGroupEgressOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2securitygroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2securitygroup"
 
 dataawsccec2securitygroup.NewDataAwsccEc2SecurityGroupSecurityGroupEgressOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEc2SecurityGroupSecurityGroupEgressOutputReference
 ```
@@ -1341,7 +1341,7 @@ func InternalValue() DataAwsccEc2SecurityGroupSecurityGroupEgress
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SecurityGroup.DataAwsccEc2SecurityGroupSecurityGroupIngressList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2securitygroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2securitygroup"
 
 dataawsccec2securitygroup.NewDataAwsccEc2SecurityGroupSecurityGroupIngressList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEc2SecurityGroupSecurityGroupIngressList
 ```
@@ -1490,7 +1490,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SecurityGroup.DataAwsccEc2SecurityGroupSecurityGroupIngressOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2securitygroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2securitygroup"
 
 dataawsccec2securitygroup.NewDataAwsccEc2SecurityGroupSecurityGroupIngressOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEc2SecurityGroupSecurityGroupIngressOutputReference
 ```
@@ -1867,7 +1867,7 @@ func InternalValue() DataAwsccEc2SecurityGroupSecurityGroupIngress
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SecurityGroup.DataAwsccEc2SecurityGroupTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2securitygroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2securitygroup"
 
 dataawsccec2securitygroup.NewDataAwsccEc2SecurityGroupTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEc2SecurityGroupTagsList
 ```
@@ -2016,7 +2016,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SecurityGroup.DataAwsccEc2SecurityGroupTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2securitygroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2securitygroup"
 
 dataawsccec2securitygroup.NewDataAwsccEc2SecurityGroupTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEc2SecurityGroupTagsOutputReference
 ```

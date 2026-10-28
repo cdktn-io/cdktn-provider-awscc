@@ -4,12 +4,12 @@
 
 ### PersonalizeEventTracker <a name="PersonalizeEventTracker" id="@cdktn/provider-awscc.personalizeEventTracker.PersonalizeEventTracker"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_event_tracker awscc_personalize_event_tracker}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/personalize_event_tracker awscc_personalize_event_tracker}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.personalizeEventTracker.PersonalizeEventTracker.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/personalizeeventtracker"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/personalizeeventtracker"
 
 personalizeeventtracker.NewPersonalizeEventTracker(scope Construct, id *string, config PersonalizeEventTrackerConfig) PersonalizeEventTracker
 ```
@@ -420,7 +420,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.personalizeEventTracker.PersonalizeEventTracker.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/personalizeeventtracker"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/personalizeeventtracker"
 
 personalizeeventtracker.PersonalizeEventTracker_IsConstruct(x interface{}) *bool
 ```
@@ -452,7 +452,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.personalizeEventTracker.PersonalizeEventTracker.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/personalizeeventtracker"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/personalizeeventtracker"
 
 personalizeeventtracker.PersonalizeEventTracker_IsTerraformElement(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ personalizeeventtracker.PersonalizeEventTracker_IsTerraformElement(x interface{}
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.personalizeEventTracker.PersonalizeEventTracker.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/personalizeeventtracker"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/personalizeeventtracker"
 
 personalizeeventtracker.PersonalizeEventTracker_IsTerraformResource(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ personalizeeventtracker.PersonalizeEventTracker_IsTerraformResource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.personalizeEventTracker.PersonalizeEventTracker.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/personalizeeventtracker"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/personalizeeventtracker"
 
 personalizeeventtracker.PersonalizeEventTracker_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -509,7 +509,7 @@ The construct id used in the generated config for the PersonalizeEventTracker to
 
 The id of the existing PersonalizeEventTracker that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_event_tracker#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/personalize_event_tracker#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -808,7 +808,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.personalizeEventTracker.PersonalizeEventTrackerConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/personalizeeventtracker"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/personalizeeventtracker"
 
 &personalizeeventtracker.PersonalizeEventTrackerConfig {
 	Connection: interface{},
@@ -921,7 +921,7 @@ DatasetGroupArn *string
 
 The Amazon Resource Name (ARN) of the dataset group that receives the event data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_event_tracker#dataset_group_arn PersonalizeEventTracker#dataset_group_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/personalize_event_tracker#dataset_group_arn PersonalizeEventTracker#dataset_group_arn}
 
 ---
 
@@ -935,7 +935,7 @@ Name *string
 
 The name for the event tracker.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_event_tracker#name PersonalizeEventTracker#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/personalize_event_tracker#name PersonalizeEventTracker#name}
 
 ---
 
@@ -949,7 +949,7 @@ Tags interface{}
 
 A list of tags to apply to the event tracker.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_event_tracker#tags PersonalizeEventTracker#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/personalize_event_tracker#tags PersonalizeEventTracker#tags}
 
 ---
 
@@ -958,7 +958,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.personalizeEventTracker.PersonalizeEventTrackerTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/personalizeeventtracker"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/personalizeeventtracker"
 
 &personalizeeventtracker.PersonalizeEventTrackerTags {
 	Key: *string,
@@ -985,7 +985,7 @@ Key *string
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_event_tracker#key PersonalizeEventTracker#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/personalize_event_tracker#key PersonalizeEventTracker#key}
 
 ---
 
@@ -999,7 +999,7 @@ Value *string
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_event_tracker#value PersonalizeEventTracker#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/personalize_event_tracker#value PersonalizeEventTracker#value}
 
 ---
 
@@ -1010,7 +1010,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.personalizeEventTracker.PersonalizeEventTrackerTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/personalizeeventtracker"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/personalizeeventtracker"
 
 personalizeeventtracker.NewPersonalizeEventTrackerTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) PersonalizeEventTrackerTagsList
 ```
@@ -1170,7 +1170,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.personalizeEventTracker.PersonalizeEventTrackerTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/personalizeeventtracker"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/personalizeeventtracker"
 
 personalizeeventtracker.NewPersonalizeEventTrackerTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) PersonalizeEventTrackerTagsOutputReference
 ```

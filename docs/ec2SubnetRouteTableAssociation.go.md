@@ -4,12 +4,12 @@
 
 ### Ec2SubnetRouteTableAssociation <a name="Ec2SubnetRouteTableAssociation" id="@cdktn/provider-awscc.ec2SubnetRouteTableAssociation.Ec2SubnetRouteTableAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_subnet_route_table_association awscc_ec2_subnet_route_table_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_subnet_route_table_association awscc_ec2_subnet_route_table_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2SubnetRouteTableAssociation.Ec2SubnetRouteTableAssociation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2subnetroutetableassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2subnetroutetableassociation"
 
 ec2subnetroutetableassociation.NewEc2SubnetRouteTableAssociation(scope Construct, id *string, config Ec2SubnetRouteTableAssociationConfig) Ec2SubnetRouteTableAssociation
 ```
@@ -400,7 +400,7 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.ec2SubnetRouteTableAssociation.Ec2SubnetRouteTableAssociation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2subnetroutetableassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2subnetroutetableassociation"
 
 ec2subnetroutetableassociation.Ec2SubnetRouteTableAssociation_IsConstruct(x interface{}) *bool
 ```
@@ -432,7 +432,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.ec2SubnetRouteTableAssociation.Ec2SubnetRouteTableAssociation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2subnetroutetableassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2subnetroutetableassociation"
 
 ec2subnetroutetableassociation.Ec2SubnetRouteTableAssociation_IsTerraformElement(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ ec2subnetroutetableassociation.Ec2SubnetRouteTableAssociation_IsTerraformElement
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.ec2SubnetRouteTableAssociation.Ec2SubnetRouteTableAssociation.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2subnetroutetableassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2subnetroutetableassociation"
 
 ec2subnetroutetableassociation.Ec2SubnetRouteTableAssociation_IsTerraformResource(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ ec2subnetroutetableassociation.Ec2SubnetRouteTableAssociation_IsTerraformResourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.ec2SubnetRouteTableAssociation.Ec2SubnetRouteTableAssociation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2subnetroutetableassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2subnetroutetableassociation"
 
 ec2subnetroutetableassociation.Ec2SubnetRouteTableAssociation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -489,7 +489,7 @@ The construct id used in the generated config for the Ec2SubnetRouteTableAssocia
 
 The id of the existing Ec2SubnetRouteTableAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_subnet_route_table_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_subnet_route_table_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -755,7 +755,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2SubnetRouteTableAssociation.Ec2SubnetRouteTableAssociationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2subnetroutetableassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2subnetroutetableassociation"
 
 &ec2subnetroutetableassociation.Ec2SubnetRouteTableAssociationConfig {
 	Connection: interface{},
@@ -866,7 +866,7 @@ RouteTableId *string
 
 The ID of the route table.  The physical ID changes when the route table ID is changed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_subnet_route_table_association#route_table_id Ec2SubnetRouteTableAssociation#route_table_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_subnet_route_table_association#route_table_id Ec2SubnetRouteTableAssociation#route_table_id}
 
 ---
 
@@ -880,7 +880,7 @@ SubnetId *string
 
 The ID of the subnet.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_subnet_route_table_association#subnet_id Ec2SubnetRouteTableAssociation#subnet_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_subnet_route_table_association#subnet_id Ec2SubnetRouteTableAssociation#subnet_id}
 
 ---
 

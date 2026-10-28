@@ -4,12 +4,12 @@
 
 ### GlueDataQualityRuleset <a name="GlueDataQualityRuleset" id="@cdktn/provider-awscc.glueDataQualityRuleset.GlueDataQualityRuleset"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_data_quality_ruleset awscc_glue_data_quality_ruleset}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_data_quality_ruleset awscc_glue_data_quality_ruleset}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueDataQualityRuleset.GlueDataQualityRuleset.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluedataqualityruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluedataqualityruleset"
 
 gluedataqualityruleset.NewGlueDataQualityRuleset(scope Construct, id *string, config GlueDataQualityRulesetConfig) GlueDataQualityRuleset
 ```
@@ -448,7 +448,7 @@ func ResetTargetTable()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.glueDataQualityRuleset.GlueDataQualityRuleset.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluedataqualityruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluedataqualityruleset"
 
 gluedataqualityruleset.GlueDataQualityRuleset_IsConstruct(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.glueDataQualityRuleset.GlueDataQualityRuleset.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluedataqualityruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluedataqualityruleset"
 
 gluedataqualityruleset.GlueDataQualityRuleset_IsTerraformElement(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ gluedataqualityruleset.GlueDataQualityRuleset_IsTerraformElement(x interface{}) 
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.glueDataQualityRuleset.GlueDataQualityRuleset.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluedataqualityruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluedataqualityruleset"
 
 gluedataqualityruleset.GlueDataQualityRuleset_IsTerraformResource(x interface{}) *bool
 ```
@@ -508,7 +508,7 @@ gluedataqualityruleset.GlueDataQualityRuleset_IsTerraformResource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.glueDataQualityRuleset.GlueDataQualityRuleset.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluedataqualityruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluedataqualityruleset"
 
 gluedataqualityruleset.GlueDataQualityRuleset_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -537,7 +537,7 @@ The construct id used in the generated config for the GlueDataQualityRuleset to 
 
 The id of the existing GlueDataQualityRuleset that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_data_quality_ruleset#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_data_quality_ruleset#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -880,7 +880,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueDataQualityRuleset.GlueDataQualityRulesetConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluedataqualityruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluedataqualityruleset"
 
 &gluedataqualityruleset.GlueDataQualityRulesetConfig {
 	Connection: interface{},
@@ -895,7 +895,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluedataqualityruleset
 	Description: *string,
 	Ruleset: *string,
 	Tags: *map[string]*string,
-	TargetTable: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueDataQualityRuleset.GlueDataQualityRulesetTargetTable,
+	TargetTable: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueDataQualityRuleset.GlueDataQualityRulesetTargetTable,
 }
 ```
 
@@ -999,7 +999,7 @@ Name *string
 
 A unique name for the data quality ruleset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_data_quality_ruleset#name GlueDataQualityRuleset#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_data_quality_ruleset#name GlueDataQualityRuleset#name}
 
 ---
 
@@ -1013,7 +1013,7 @@ ClientToken *string
 
 A unique token for idempotency.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_data_quality_ruleset#client_token GlueDataQualityRuleset#client_token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_data_quality_ruleset#client_token GlueDataQualityRuleset#client_token}
 
 ---
 
@@ -1027,7 +1027,7 @@ Description *string
 
 A description of the data quality ruleset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_data_quality_ruleset#description GlueDataQualityRuleset#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_data_quality_ruleset#description GlueDataQualityRuleset#description}
 
 ---
 
@@ -1041,7 +1041,7 @@ Ruleset *string
 
 A Data Quality Definition Language (DQDL) ruleset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_data_quality_ruleset#ruleset GlueDataQualityRuleset#ruleset}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_data_quality_ruleset#ruleset GlueDataQualityRuleset#ruleset}
 
 ---
 
@@ -1055,7 +1055,7 @@ Tags *map[string]*string
 
 A map of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_data_quality_ruleset#tags GlueDataQualityRuleset#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_data_quality_ruleset#tags GlueDataQualityRuleset#tags}
 
 ---
 
@@ -1069,7 +1069,7 @@ TargetTable GlueDataQualityRulesetTargetTable
 
 An object representing an AWS Glue table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_data_quality_ruleset#target_table GlueDataQualityRuleset#target_table}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_data_quality_ruleset#target_table GlueDataQualityRuleset#target_table}
 
 ---
 
@@ -1078,7 +1078,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueDataQualityRuleset.GlueDataQualityRulesetTargetTable.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluedataqualityruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluedataqualityruleset"
 
 &gluedataqualityruleset.GlueDataQualityRulesetTargetTable {
 	DatabaseName: *string,
@@ -1105,7 +1105,7 @@ DatabaseName *string
 
 The name of the database where the AWS Glue table exists.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_data_quality_ruleset#database_name GlueDataQualityRuleset#database_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_data_quality_ruleset#database_name GlueDataQualityRuleset#database_name}
 
 ---
 
@@ -1119,7 +1119,7 @@ TableName *string
 
 The name of the AWS Glue table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_data_quality_ruleset#table_name GlueDataQualityRuleset#table_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_data_quality_ruleset#table_name GlueDataQualityRuleset#table_name}
 
 ---
 
@@ -1130,7 +1130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueDataQualityRuleset.GlueDataQualityRulesetTargetTableOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluedataqualityruleset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluedataqualityruleset"
 
 gluedataqualityruleset.NewGlueDataQualityRulesetTargetTableOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueDataQualityRulesetTargetTableOutputReference
 ```

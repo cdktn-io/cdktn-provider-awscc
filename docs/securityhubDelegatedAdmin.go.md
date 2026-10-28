@@ -4,12 +4,12 @@
 
 ### SecurityhubDelegatedAdmin <a name="SecurityhubDelegatedAdmin" id="@cdktn/provider-awscc.securityhubDelegatedAdmin.SecurityhubDelegatedAdmin"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_delegated_admin awscc_securityhub_delegated_admin}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_delegated_admin awscc_securityhub_delegated_admin}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubDelegatedAdmin.SecurityhubDelegatedAdmin.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubdelegatedadmin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubdelegatedadmin"
 
 securityhubdelegatedadmin.NewSecurityhubDelegatedAdmin(scope Construct, id *string, config SecurityhubDelegatedAdminConfig) SecurityhubDelegatedAdmin
 ```
@@ -400,7 +400,7 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.securityhubDelegatedAdmin.SecurityhubDelegatedAdmin.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubdelegatedadmin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubdelegatedadmin"
 
 securityhubdelegatedadmin.SecurityhubDelegatedAdmin_IsConstruct(x interface{}) *bool
 ```
@@ -432,7 +432,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.securityhubDelegatedAdmin.SecurityhubDelegatedAdmin.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubdelegatedadmin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubdelegatedadmin"
 
 securityhubdelegatedadmin.SecurityhubDelegatedAdmin_IsTerraformElement(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ securityhubdelegatedadmin.SecurityhubDelegatedAdmin_IsTerraformElement(x interfa
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.securityhubDelegatedAdmin.SecurityhubDelegatedAdmin.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubdelegatedadmin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubdelegatedadmin"
 
 securityhubdelegatedadmin.SecurityhubDelegatedAdmin_IsTerraformResource(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ securityhubdelegatedadmin.SecurityhubDelegatedAdmin_IsTerraformResource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.securityhubDelegatedAdmin.SecurityhubDelegatedAdmin.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubdelegatedadmin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubdelegatedadmin"
 
 securityhubdelegatedadmin.SecurityhubDelegatedAdmin_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -489,7 +489,7 @@ The construct id used in the generated config for the SecurityhubDelegatedAdmin 
 
 The id of the existing SecurityhubDelegatedAdmin that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_delegated_admin#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_delegated_admin#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -744,7 +744,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubDelegatedAdmin.SecurityhubDelegatedAdminConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubdelegatedadmin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubdelegatedadmin"
 
 &securityhubdelegatedadmin.SecurityhubDelegatedAdminConfig {
 	Connection: interface{},
@@ -853,7 +853,7 @@ AdminAccountId *string
 
 The AWS-account identifier of the account to designate as the Security Hub CSPM administrator account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_delegated_admin#admin_account_id SecurityhubDelegatedAdmin#admin_account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_delegated_admin#admin_account_id SecurityhubDelegatedAdmin#admin_account_id}
 
 ---
 

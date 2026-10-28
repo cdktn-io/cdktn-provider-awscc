@@ -4,12 +4,12 @@
 
 ### DataAwsccDrsLaunchConfigurationTemplates <a name="DataAwsccDrsLaunchConfigurationTemplates" id="@cdktn/provider-awscc.dataAwsccDrsLaunchConfigurationTemplates.DataAwsccDrsLaunchConfigurationTemplates"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/drs_launch_configuration_templates awscc_drs_launch_configuration_templates}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/drs_launch_configuration_templates awscc_drs_launch_configuration_templates}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDrsLaunchConfigurationTemplates.DataAwsccDrsLaunchConfigurationTemplates.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdrslaunchconfigurationtemplates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdrslaunchconfigurationtemplates"
 
 dataawsccdrslaunchconfigurationtemplates.NewDataAwsccDrsLaunchConfigurationTemplates(scope Construct, id *string, config DataAwsccDrsLaunchConfigurationTemplatesConfig) DataAwsccDrsLaunchConfigurationTemplates
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccDrsLaunchConfigurationTemplates.DataAwsccDrsLaunchConfigurationTemplates.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdrslaunchconfigurationtemplates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdrslaunchconfigurationtemplates"
 
 dataawsccdrslaunchconfigurationtemplates.DataAwsccDrsLaunchConfigurationTemplates_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccDrsLaunchConfigurationTemplates.DataAwsccDrsLaunchConfigurationTemplates.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdrslaunchconfigurationtemplates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdrslaunchconfigurationtemplates"
 
 dataawsccdrslaunchconfigurationtemplates.DataAwsccDrsLaunchConfigurationTemplates_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccdrslaunchconfigurationtemplates.DataAwsccDrsLaunchConfigurationTemplate
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccDrsLaunchConfigurationTemplates.DataAwsccDrsLaunchConfigurationTemplates.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdrslaunchconfigurationtemplates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdrslaunchconfigurationtemplates"
 
 dataawsccdrslaunchconfigurationtemplates.DataAwsccDrsLaunchConfigurationTemplates_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccdrslaunchconfigurationtemplates.DataAwsccDrsLaunchConfigurationTemplate
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccDrsLaunchConfigurationTemplates.DataAwsccDrsLaunchConfigurationTemplates.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdrslaunchconfigurationtemplates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdrslaunchconfigurationtemplates"
 
 dataawsccdrslaunchconfigurationtemplates.DataAwsccDrsLaunchConfigurationTemplates_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDrsLaunchConfigur
 
 The id of the existing DataAwsccDrsLaunchConfigurationTemplates that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/drs_launch_configuration_templates#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/drs_launch_configuration_templates#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDrsLaunchConfigurationTemplates.DataAwsccDrsLaunchConfigurationTemplatesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdrslaunchconfigurationtemplates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdrslaunchconfigurationtemplates"
 
 &dataawsccdrslaunchconfigurationtemplates.DataAwsccDrsLaunchConfigurationTemplatesConfig {
 	Connection: interface{},

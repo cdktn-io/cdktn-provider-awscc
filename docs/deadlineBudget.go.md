@@ -4,12 +4,12 @@
 
 ### DeadlineBudget <a name="DeadlineBudget" id="@cdktn/provider-awscc.deadlineBudget.DeadlineBudget"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_budget awscc_deadline_budget}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_budget awscc_deadline_budget}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.deadlineBudget.DeadlineBudget.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/deadlinebudget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/deadlinebudget"
 
 deadlinebudget.NewDeadlineBudget(scope Construct, id *string, config DeadlineBudgetConfig) DeadlineBudget
 ```
@@ -466,7 +466,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.deadlineBudget.DeadlineBudget.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/deadlinebudget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/deadlinebudget"
 
 deadlinebudget.DeadlineBudget_IsConstruct(x interface{}) *bool
 ```
@@ -498,7 +498,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.deadlineBudget.DeadlineBudget.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/deadlinebudget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/deadlinebudget"
 
 deadlinebudget.DeadlineBudget_IsTerraformElement(x interface{}) *bool
 ```
@@ -512,7 +512,7 @@ deadlinebudget.DeadlineBudget_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.deadlineBudget.DeadlineBudget.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/deadlinebudget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/deadlinebudget"
 
 deadlinebudget.DeadlineBudget_IsTerraformResource(x interface{}) *bool
 ```
@@ -526,7 +526,7 @@ deadlinebudget.DeadlineBudget_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.deadlineBudget.DeadlineBudget.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/deadlinebudget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/deadlinebudget"
 
 deadlinebudget.DeadlineBudget_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -555,7 +555,7 @@ The construct id used in the generated config for the DeadlineBudget to import.
 
 The id of the existing DeadlineBudget that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_budget#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_budget#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -975,7 +975,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.deadlineBudget.DeadlineBudgetActions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/deadlinebudget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/deadlinebudget"
 
 &deadlinebudget.DeadlineBudgetActions {
 	ThresholdPercentage: *f64,
@@ -1004,7 +1004,7 @@ ThresholdPercentage *f64
 
 The percentage threshold for the budget action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_budget#threshold_percentage DeadlineBudget#threshold_percentage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_budget#threshold_percentage DeadlineBudget#threshold_percentage}
 
 ---
 
@@ -1018,7 +1018,7 @@ Type *string
 
 The type of budget action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_budget#type DeadlineBudget#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_budget#type DeadlineBudget#type}
 
 ---
 
@@ -1032,7 +1032,7 @@ Description *string
 
 A description for the budget action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_budget#description DeadlineBudget#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_budget#description DeadlineBudget#description}
 
 ---
 
@@ -1041,7 +1041,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.deadlineBudget.DeadlineBudgetConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/deadlinebudget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/deadlinebudget"
 
 &deadlinebudget.DeadlineBudgetConfig {
 	Connection: interface{},
@@ -1055,8 +1055,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/deadlinebudget"
 	ApproximateDollarLimit: *f64,
 	DisplayName: *string,
 	FarmId: *string,
-	Schedule: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.deadlineBudget.DeadlineBudgetSchedule,
-	UsageTrackingResource: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.deadlineBudget.DeadlineBudgetUsageTrackingResource,
+	Schedule: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.deadlineBudget.DeadlineBudgetSchedule,
+	UsageTrackingResource: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.deadlineBudget.DeadlineBudgetUsageTrackingResource,
 	Description: *string,
 	Tags: interface{},
 }
@@ -1164,7 +1164,7 @@ Actions interface{}
 
 The budget actions to specify what happens when the budget runs out.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_budget#actions DeadlineBudget#actions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_budget#actions DeadlineBudget#actions}
 
 ---
 
@@ -1178,7 +1178,7 @@ ApproximateDollarLimit *f64
 
 The dollar limit based on consumed usage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_budget#approximate_dollar_limit DeadlineBudget#approximate_dollar_limit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_budget#approximate_dollar_limit DeadlineBudget#approximate_dollar_limit}
 
 ---
 
@@ -1192,7 +1192,7 @@ DisplayName *string
 
 The display name of the budget.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_budget#display_name DeadlineBudget#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_budget#display_name DeadlineBudget#display_name}
 
 ---
 
@@ -1206,7 +1206,7 @@ FarmId *string
 
 The farm ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_budget#farm_id DeadlineBudget#farm_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_budget#farm_id DeadlineBudget#farm_id}
 
 ---
 
@@ -1220,7 +1220,7 @@ Schedule DeadlineBudgetSchedule
 
 The start and end time of the budget.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_budget#schedule DeadlineBudget#schedule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_budget#schedule DeadlineBudget#schedule}
 
 ---
 
@@ -1234,7 +1234,7 @@ UsageTrackingResource DeadlineBudgetUsageTrackingResource
 
 The usage details of the allotted budget.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_budget#usage_tracking_resource DeadlineBudget#usage_tracking_resource}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_budget#usage_tracking_resource DeadlineBudget#usage_tracking_resource}
 
 ---
 
@@ -1248,7 +1248,7 @@ Description *string
 
 The description of the budget.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_budget#description DeadlineBudget#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_budget#description DeadlineBudget#description}
 
 ---
 
@@ -1262,7 +1262,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_budget#tags DeadlineBudget#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_budget#tags DeadlineBudget#tags}
 
 ---
 
@@ -1271,10 +1271,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.deadlineBudget.DeadlineBudgetSchedule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/deadlinebudget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/deadlinebudget"
 
 &deadlinebudget.DeadlineBudgetSchedule {
-	Fixed: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.deadlineBudget.DeadlineBudgetScheduleFixed,
+	Fixed: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.deadlineBudget.DeadlineBudgetScheduleFixed,
 }
 ```
 
@@ -1296,7 +1296,7 @@ Fixed DeadlineBudgetScheduleFixed
 
 The details of a fixed budget schedule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_budget#fixed DeadlineBudget#fixed}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_budget#fixed DeadlineBudget#fixed}
 
 ---
 
@@ -1305,7 +1305,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.deadlineBudget.DeadlineBudgetScheduleFixed.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/deadlinebudget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/deadlinebudget"
 
 &deadlinebudget.DeadlineBudgetScheduleFixed {
 	EndTime: *string,
@@ -1332,7 +1332,7 @@ EndTime *string
 
 When the budget ends.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_budget#end_time DeadlineBudget#end_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_budget#end_time DeadlineBudget#end_time}
 
 ---
 
@@ -1346,7 +1346,7 @@ StartTime *string
 
 When the budget starts.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_budget#start_time DeadlineBudget#start_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_budget#start_time DeadlineBudget#start_time}
 
 ---
 
@@ -1355,7 +1355,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.deadlineBudget.DeadlineBudgetTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/deadlinebudget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/deadlinebudget"
 
 &deadlinebudget.DeadlineBudgetTags {
 	Key: *string,
@@ -1382,7 +1382,7 @@ Key *string
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_budget#key DeadlineBudget#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_budget#key DeadlineBudget#key}
 
 ---
 
@@ -1396,7 +1396,7 @@ Value *string
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_budget#value DeadlineBudget#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_budget#value DeadlineBudget#value}
 
 ---
 
@@ -1405,7 +1405,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.deadlineBudget.DeadlineBudgetUsageTrackingResource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/deadlinebudget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/deadlinebudget"
 
 &deadlinebudget.DeadlineBudgetUsageTrackingResource {
 	QueueId: *string,
@@ -1430,7 +1430,7 @@ QueueId *string
 
 The queue ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_budget#queue_id DeadlineBudget#queue_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_budget#queue_id DeadlineBudget#queue_id}
 
 ---
 
@@ -1441,7 +1441,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.deadlineBudget.DeadlineBudgetActionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/deadlinebudget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/deadlinebudget"
 
 deadlinebudget.NewDeadlineBudgetActionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DeadlineBudgetActionsList
 ```
@@ -1601,7 +1601,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.deadlineBudget.DeadlineBudgetActionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/deadlinebudget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/deadlinebudget"
 
 deadlinebudget.NewDeadlineBudgetActionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DeadlineBudgetActionsOutputReference
 ```
@@ -1941,7 +1941,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.deadlineBudget.DeadlineBudgetScheduleFixedOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/deadlinebudget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/deadlinebudget"
 
 deadlinebudget.NewDeadlineBudgetScheduleFixedOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DeadlineBudgetScheduleFixedOutputReference
 ```
@@ -2234,7 +2234,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.deadlineBudget.DeadlineBudgetScheduleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/deadlinebudget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/deadlinebudget"
 
 deadlinebudget.NewDeadlineBudgetScheduleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DeadlineBudgetScheduleOutputReference
 ```
@@ -2518,7 +2518,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.deadlineBudget.DeadlineBudgetTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/deadlinebudget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/deadlinebudget"
 
 deadlinebudget.NewDeadlineBudgetTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DeadlineBudgetTagsList
 ```
@@ -2678,7 +2678,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.deadlineBudget.DeadlineBudgetTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/deadlinebudget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/deadlinebudget"
 
 deadlinebudget.NewDeadlineBudgetTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DeadlineBudgetTagsOutputReference
 ```
@@ -3003,7 +3003,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.deadlineBudget.DeadlineBudgetUsageTrackingResourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/deadlinebudget"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/deadlinebudget"
 
 deadlinebudget.NewDeadlineBudgetUsageTrackingResourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DeadlineBudgetUsageTrackingResourceOutputReference
 ```

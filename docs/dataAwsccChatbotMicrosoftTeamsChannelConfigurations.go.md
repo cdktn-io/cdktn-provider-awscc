@@ -4,12 +4,12 @@
 
 ### DataAwsccChatbotMicrosoftTeamsChannelConfigurations <a name="DataAwsccChatbotMicrosoftTeamsChannelConfigurations" id="@cdktn/provider-awscc.dataAwsccChatbotMicrosoftTeamsChannelConfigurations.DataAwsccChatbotMicrosoftTeamsChannelConfigurations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/chatbot_microsoft_teams_channel_configurations awscc_chatbot_microsoft_teams_channel_configurations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/chatbot_microsoft_teams_channel_configurations awscc_chatbot_microsoft_teams_channel_configurations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccChatbotMicrosoftTeamsChannelConfigurations.DataAwsccChatbotMicrosoftTeamsChannelConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchatbotmicrosoftteamschannelconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchatbotmicrosoftteamschannelconfigurations"
 
 dataawsccchatbotmicrosoftteamschannelconfigurations.NewDataAwsccChatbotMicrosoftTeamsChannelConfigurations(scope Construct, id *string, config DataAwsccChatbotMicrosoftTeamsChannelConfigurationsConfig) DataAwsccChatbotMicrosoftTeamsChannelConfigurations
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccChatbotMicrosoftTeamsChannelConfigurations.DataAwsccChatbotMicrosoftTeamsChannelConfigurations.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchatbotmicrosoftteamschannelconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchatbotmicrosoftteamschannelconfigurations"
 
 dataawsccchatbotmicrosoftteamschannelconfigurations.DataAwsccChatbotMicrosoftTeamsChannelConfigurations_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccChatbotMicrosoftTeamsChannelConfigurations.DataAwsccChatbotMicrosoftTeamsChannelConfigurations.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchatbotmicrosoftteamschannelconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchatbotmicrosoftteamschannelconfigurations"
 
 dataawsccchatbotmicrosoftteamschannelconfigurations.DataAwsccChatbotMicrosoftTeamsChannelConfigurations_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccchatbotmicrosoftteamschannelconfigurations.DataAwsccChatbotMicrosoftTea
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccChatbotMicrosoftTeamsChannelConfigurations.DataAwsccChatbotMicrosoftTeamsChannelConfigurations.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchatbotmicrosoftteamschannelconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchatbotmicrosoftteamschannelconfigurations"
 
 dataawsccchatbotmicrosoftteamschannelconfigurations.DataAwsccChatbotMicrosoftTeamsChannelConfigurations_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccchatbotmicrosoftteamschannelconfigurations.DataAwsccChatbotMicrosoftTea
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccChatbotMicrosoftTeamsChannelConfigurations.DataAwsccChatbotMicrosoftTeamsChannelConfigurations.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchatbotmicrosoftteamschannelconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchatbotmicrosoftteamschannelconfigurations"
 
 dataawsccchatbotmicrosoftteamschannelconfigurations.DataAwsccChatbotMicrosoftTeamsChannelConfigurations_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccChatbotMicrosoftT
 
 The id of the existing DataAwsccChatbotMicrosoftTeamsChannelConfigurations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/chatbot_microsoft_teams_channel_configurations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/chatbot_microsoft_teams_channel_configurations#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccChatbotMicrosoftTeamsChannelConfigurations.DataAwsccChatbotMicrosoftTeamsChannelConfigurationsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchatbotmicrosoftteamschannelconfigurations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchatbotmicrosoftteamschannelconfigurations"
 
 &dataawsccchatbotmicrosoftteamschannelconfigurations.DataAwsccChatbotMicrosoftTeamsChannelConfigurationsConfig {
 	Connection: interface{},

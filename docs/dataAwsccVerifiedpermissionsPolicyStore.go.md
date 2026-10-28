@@ -4,12 +4,12 @@
 
 ### DataAwsccVerifiedpermissionsPolicyStore <a name="DataAwsccVerifiedpermissionsPolicyStore" id="@cdktn/provider-awscc.dataAwsccVerifiedpermissionsPolicyStore.DataAwsccVerifiedpermissionsPolicyStore"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/verifiedpermissions_policy_store awscc_verifiedpermissions_policy_store}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/verifiedpermissions_policy_store awscc_verifiedpermissions_policy_store}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccVerifiedpermissionsPolicyStore.DataAwsccVerifiedpermissionsPolicyStore.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccverifiedpermissionspolicystore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccverifiedpermissionspolicystore"
 
 dataawsccverifiedpermissionspolicystore.NewDataAwsccVerifiedpermissionsPolicyStore(scope Construct, id *string, config DataAwsccVerifiedpermissionsPolicyStoreConfig) DataAwsccVerifiedpermissionsPolicyStore
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccVerifiedpermissionsPolicyStore.DataAwsccVerifiedpermissionsPolicyStore.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccverifiedpermissionspolicystore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccverifiedpermissionspolicystore"
 
 dataawsccverifiedpermissionspolicystore.DataAwsccVerifiedpermissionsPolicyStore_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccVerifiedpermissionsPolicyStore.DataAwsccVerifiedpermissionsPolicyStore.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccverifiedpermissionspolicystore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccverifiedpermissionspolicystore"
 
 dataawsccverifiedpermissionspolicystore.DataAwsccVerifiedpermissionsPolicyStore_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccverifiedpermissionspolicystore.DataAwsccVerifiedpermissionsPolicyStore_
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccVerifiedpermissionsPolicyStore.DataAwsccVerifiedpermissionsPolicyStore.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccverifiedpermissionspolicystore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccverifiedpermissionspolicystore"
 
 dataawsccverifiedpermissionspolicystore.DataAwsccVerifiedpermissionsPolicyStore_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccverifiedpermissionspolicystore.DataAwsccVerifiedpermissionsPolicyStore_
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccVerifiedpermissionsPolicyStore.DataAwsccVerifiedpermissionsPolicyStore.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccverifiedpermissionspolicystore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccverifiedpermissionspolicystore"
 
 dataawsccverifiedpermissionspolicystore.DataAwsccVerifiedpermissionsPolicyStore_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccVerifiedpermissio
 
 The id of the existing DataAwsccVerifiedpermissionsPolicyStore that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/verifiedpermissions_policy_store#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/verifiedpermissions_policy_store#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -686,7 +686,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccVerifiedpermissionsPolicyStore.DataAwsccVerifiedpermissionsPolicyStoreConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccverifiedpermissionspolicystore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccverifiedpermissionspolicystore"
 
 &dataawsccverifiedpermissionspolicystore.DataAwsccVerifiedpermissionsPolicyStoreConfig {
 	Connection: interface{},
@@ -795,7 +795,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/verifiedpermissions_policy_store#id DataAwsccVerifiedpermissionsPolicyStore#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/verifiedpermissions_policy_store#id DataAwsccVerifiedpermissionsPolicyStore#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -807,7 +807,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccVerifiedpermissionsPolicyStore.DataAwsccVerifiedpermissionsPolicyStoreDeletionProtection.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccverifiedpermissionspolicystore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccverifiedpermissionspolicystore"
 
 &dataawsccverifiedpermissionspolicystore.DataAwsccVerifiedpermissionsPolicyStoreDeletionProtection {
 
@@ -820,7 +820,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccverifiedpermi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccVerifiedpermissionsPolicyStore.DataAwsccVerifiedpermissionsPolicyStoreEncryptionSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccverifiedpermissionspolicystore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccverifiedpermissionspolicystore"
 
 &dataawsccverifiedpermissionspolicystore.DataAwsccVerifiedpermissionsPolicyStoreEncryptionSettings {
 
@@ -833,7 +833,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccverifiedpermi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccVerifiedpermissionsPolicyStore.DataAwsccVerifiedpermissionsPolicyStoreEncryptionSettingsKmsEncryptionSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccverifiedpermissionspolicystore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccverifiedpermissionspolicystore"
 
 &dataawsccverifiedpermissionspolicystore.DataAwsccVerifiedpermissionsPolicyStoreEncryptionSettingsKmsEncryptionSettings {
 
@@ -846,7 +846,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccverifiedpermi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccVerifiedpermissionsPolicyStore.DataAwsccVerifiedpermissionsPolicyStoreEncryptionState.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccverifiedpermissionspolicystore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccverifiedpermissionspolicystore"
 
 &dataawsccverifiedpermissionspolicystore.DataAwsccVerifiedpermissionsPolicyStoreEncryptionState {
 
@@ -859,7 +859,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccverifiedpermi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccVerifiedpermissionsPolicyStore.DataAwsccVerifiedpermissionsPolicyStoreEncryptionStateKmsEncryptionState.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccverifiedpermissionspolicystore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccverifiedpermissionspolicystore"
 
 &dataawsccverifiedpermissionspolicystore.DataAwsccVerifiedpermissionsPolicyStoreEncryptionStateKmsEncryptionState {
 
@@ -872,7 +872,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccverifiedpermi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccVerifiedpermissionsPolicyStore.DataAwsccVerifiedpermissionsPolicyStoreSchema.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccverifiedpermissionspolicystore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccverifiedpermissionspolicystore"
 
 &dataawsccverifiedpermissionspolicystore.DataAwsccVerifiedpermissionsPolicyStoreSchema {
 
@@ -885,7 +885,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccverifiedpermi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccVerifiedpermissionsPolicyStore.DataAwsccVerifiedpermissionsPolicyStoreTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccverifiedpermissionspolicystore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccverifiedpermissionspolicystore"
 
 &dataawsccverifiedpermissionspolicystore.DataAwsccVerifiedpermissionsPolicyStoreTags {
 
@@ -898,7 +898,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccverifiedpermi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccVerifiedpermissionsPolicyStore.DataAwsccVerifiedpermissionsPolicyStoreValidationSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccverifiedpermissionspolicystore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccverifiedpermissionspolicystore"
 
 &dataawsccverifiedpermissionspolicystore.DataAwsccVerifiedpermissionsPolicyStoreValidationSettings {
 
@@ -913,7 +913,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccverifiedpermi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccVerifiedpermissionsPolicyStore.DataAwsccVerifiedpermissionsPolicyStoreDeletionProtectionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccverifiedpermissionspolicystore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccverifiedpermissionspolicystore"
 
 dataawsccverifiedpermissionspolicystore.NewDataAwsccVerifiedpermissionsPolicyStoreDeletionProtectionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccVerifiedpermissionsPolicyStoreDeletionProtectionOutputReference
 ```
@@ -1173,7 +1173,7 @@ func InternalValue() DataAwsccVerifiedpermissionsPolicyStoreDeletionProtection
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccVerifiedpermissionsPolicyStore.DataAwsccVerifiedpermissionsPolicyStoreEncryptionSettingsKmsEncryptionSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccverifiedpermissionspolicystore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccverifiedpermissionspolicystore"
 
 dataawsccverifiedpermissionspolicystore.NewDataAwsccVerifiedpermissionsPolicyStoreEncryptionSettingsKmsEncryptionSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccVerifiedpermissionsPolicyStoreEncryptionSettingsKmsEncryptionSettingsOutputReference
 ```
@@ -1444,7 +1444,7 @@ func InternalValue() DataAwsccVerifiedpermissionsPolicyStoreEncryptionSettingsKm
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccVerifiedpermissionsPolicyStore.DataAwsccVerifiedpermissionsPolicyStoreEncryptionSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccverifiedpermissionspolicystore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccverifiedpermissionspolicystore"
 
 dataawsccverifiedpermissionspolicystore.NewDataAwsccVerifiedpermissionsPolicyStoreEncryptionSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccVerifiedpermissionsPolicyStoreEncryptionSettingsOutputReference
 ```
@@ -1715,7 +1715,7 @@ func InternalValue() DataAwsccVerifiedpermissionsPolicyStoreEncryptionSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccVerifiedpermissionsPolicyStore.DataAwsccVerifiedpermissionsPolicyStoreEncryptionStateKmsEncryptionStateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccverifiedpermissionspolicystore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccverifiedpermissionspolicystore"
 
 dataawsccverifiedpermissionspolicystore.NewDataAwsccVerifiedpermissionsPolicyStoreEncryptionStateKmsEncryptionStateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccVerifiedpermissionsPolicyStoreEncryptionStateKmsEncryptionStateOutputReference
 ```
@@ -1986,7 +1986,7 @@ func InternalValue() DataAwsccVerifiedpermissionsPolicyStoreEncryptionStateKmsEn
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccVerifiedpermissionsPolicyStore.DataAwsccVerifiedpermissionsPolicyStoreEncryptionStateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccverifiedpermissionspolicystore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccverifiedpermissionspolicystore"
 
 dataawsccverifiedpermissionspolicystore.NewDataAwsccVerifiedpermissionsPolicyStoreEncryptionStateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccVerifiedpermissionsPolicyStoreEncryptionStateOutputReference
 ```
@@ -2257,7 +2257,7 @@ func InternalValue() DataAwsccVerifiedpermissionsPolicyStoreEncryptionState
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccVerifiedpermissionsPolicyStore.DataAwsccVerifiedpermissionsPolicyStoreSchemaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccverifiedpermissionspolicystore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccverifiedpermissionspolicystore"
 
 dataawsccverifiedpermissionspolicystore.NewDataAwsccVerifiedpermissionsPolicyStoreSchemaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccVerifiedpermissionsPolicyStoreSchemaOutputReference
 ```
@@ -2517,7 +2517,7 @@ func InternalValue() DataAwsccVerifiedpermissionsPolicyStoreSchema
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccVerifiedpermissionsPolicyStore.DataAwsccVerifiedpermissionsPolicyStoreTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccverifiedpermissionspolicystore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccverifiedpermissionspolicystore"
 
 dataawsccverifiedpermissionspolicystore.NewDataAwsccVerifiedpermissionsPolicyStoreTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccVerifiedpermissionsPolicyStoreTagsList
 ```
@@ -2666,7 +2666,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccVerifiedpermissionsPolicyStore.DataAwsccVerifiedpermissionsPolicyStoreTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccverifiedpermissionspolicystore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccverifiedpermissionspolicystore"
 
 dataawsccverifiedpermissionspolicystore.NewDataAwsccVerifiedpermissionsPolicyStoreTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccVerifiedpermissionsPolicyStoreTagsOutputReference
 ```
@@ -2955,7 +2955,7 @@ func InternalValue() DataAwsccVerifiedpermissionsPolicyStoreTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccVerifiedpermissionsPolicyStore.DataAwsccVerifiedpermissionsPolicyStoreValidationSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccverifiedpermissionspolicystore"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccverifiedpermissionspolicystore"
 
 dataawsccverifiedpermissionspolicystore.NewDataAwsccVerifiedpermissionsPolicyStoreValidationSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccVerifiedpermissionsPolicyStoreValidationSettingsOutputReference
 ```

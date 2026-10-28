@@ -4,12 +4,12 @@
 
 ### DataAwsccSimspaceweaverSimulation <a name="DataAwsccSimspaceweaverSimulation" id="@cdktn/provider-awscc.dataAwsccSimspaceweaverSimulation.DataAwsccSimspaceweaverSimulation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/simspaceweaver_simulation awscc_simspaceweaver_simulation}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/simspaceweaver_simulation awscc_simspaceweaver_simulation}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSimspaceweaverSimulation.DataAwsccSimspaceweaverSimulation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsimspaceweaversimulation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsimspaceweaversimulation"
 
 dataawsccsimspaceweaversimulation.NewDataAwsccSimspaceweaverSimulation(scope Construct, id *string, config DataAwsccSimspaceweaverSimulationConfig) DataAwsccSimspaceweaverSimulation
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSimspaceweaverSimulation.DataAwsccSimspaceweaverSimulation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsimspaceweaversimulation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsimspaceweaversimulation"
 
 dataawsccsimspaceweaversimulation.DataAwsccSimspaceweaverSimulation_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSimspaceweaverSimulation.DataAwsccSimspaceweaverSimulation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsimspaceweaversimulation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsimspaceweaversimulation"
 
 dataawsccsimspaceweaversimulation.DataAwsccSimspaceweaverSimulation_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsimspaceweaversimulation.DataAwsccSimspaceweaverSimulation_IsTerraformE
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSimspaceweaverSimulation.DataAwsccSimspaceweaverSimulation.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsimspaceweaversimulation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsimspaceweaversimulation"
 
 dataawsccsimspaceweaversimulation.DataAwsccSimspaceweaverSimulation_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsimspaceweaversimulation.DataAwsccSimspaceweaverSimulation_IsTerraformD
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSimspaceweaverSimulation.DataAwsccSimspaceweaverSimulation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsimspaceweaversimulation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsimspaceweaversimulation"
 
 dataawsccsimspaceweaversimulation.DataAwsccSimspaceweaverSimulation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSimspaceweaverSim
 
 The id of the existing DataAwsccSimspaceweaverSimulation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/simspaceweaver_simulation#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/simspaceweaver_simulation#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -653,7 +653,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSimspaceweaverSimulation.DataAwsccSimspaceweaverSimulationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsimspaceweaversimulation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsimspaceweaversimulation"
 
 &dataawsccsimspaceweaversimulation.DataAwsccSimspaceweaverSimulationConfig {
 	Connection: interface{},
@@ -762,7 +762,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/simspaceweaver_simulation#id DataAwsccSimspaceweaverSimulation#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/simspaceweaver_simulation#id DataAwsccSimspaceweaverSimulation#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -774,7 +774,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSimspaceweaverSimulation.DataAwsccSimspaceweaverSimulationSchemaS3Location.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsimspaceweaversimulation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsimspaceweaversimulation"
 
 &dataawsccsimspaceweaversimulation.DataAwsccSimspaceweaverSimulationSchemaS3Location {
 
@@ -787,7 +787,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsimspaceweave
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSimspaceweaverSimulation.DataAwsccSimspaceweaverSimulationSnapshotS3Location.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsimspaceweaversimulation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsimspaceweaversimulation"
 
 &dataawsccsimspaceweaversimulation.DataAwsccSimspaceweaverSimulationSnapshotS3Location {
 
@@ -802,7 +802,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsimspaceweave
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSimspaceweaverSimulation.DataAwsccSimspaceweaverSimulationSchemaS3LocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsimspaceweaversimulation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsimspaceweaversimulation"
 
 dataawsccsimspaceweaversimulation.NewDataAwsccSimspaceweaverSimulationSchemaS3LocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSimspaceweaverSimulationSchemaS3LocationOutputReference
 ```
@@ -1073,7 +1073,7 @@ func InternalValue() DataAwsccSimspaceweaverSimulationSchemaS3Location
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSimspaceweaverSimulation.DataAwsccSimspaceweaverSimulationSnapshotS3LocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsimspaceweaversimulation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsimspaceweaversimulation"
 
 dataawsccsimspaceweaversimulation.NewDataAwsccSimspaceweaverSimulationSnapshotS3LocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSimspaceweaverSimulationSnapshotS3LocationOutputReference
 ```

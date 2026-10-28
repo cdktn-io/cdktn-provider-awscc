@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2CapacityReservationFleet <a name="DataAwsccEc2CapacityReservationFleet" id="@cdktn/provider-awscc.dataAwsccEc2CapacityReservationFleet.DataAwsccEc2CapacityReservationFleet"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_capacity_reservation_fleet awscc_ec2_capacity_reservation_fleet}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_capacity_reservation_fleet awscc_ec2_capacity_reservation_fleet}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2CapacityReservationFleet.DataAwsccEc2CapacityReservationFleet.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2capacityreservationfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2capacityreservationfleet"
 
 dataawsccec2capacityreservationfleet.NewDataAwsccEc2CapacityReservationFleet(scope Construct, id *string, config DataAwsccEc2CapacityReservationFleetConfig) DataAwsccEc2CapacityReservationFleet
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2CapacityReservationFleet.DataAwsccEc2CapacityReservationFleet.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2capacityreservationfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2capacityreservationfleet"
 
 dataawsccec2capacityreservationfleet.DataAwsccEc2CapacityReservationFleet_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2CapacityReservationFleet.DataAwsccEc2CapacityReservationFleet.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2capacityreservationfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2capacityreservationfleet"
 
 dataawsccec2capacityreservationfleet.DataAwsccEc2CapacityReservationFleet_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2capacityreservationfleet.DataAwsccEc2CapacityReservationFleet_IsTerr
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2CapacityReservationFleet.DataAwsccEc2CapacityReservationFleet.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2capacityreservationfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2capacityreservationfleet"
 
 dataawsccec2capacityreservationfleet.DataAwsccEc2CapacityReservationFleet_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2capacityreservationfleet.DataAwsccEc2CapacityReservationFleet_IsTerr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2CapacityReservationFleet.DataAwsccEc2CapacityReservationFleet.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2capacityreservationfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2capacityreservationfleet"
 
 dataawsccec2capacityreservationfleet.DataAwsccEc2CapacityReservationFleet_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2CapacityReserv
 
 The id of the existing DataAwsccEc2CapacityReservationFleet that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_capacity_reservation_fleet#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_capacity_reservation_fleet#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -697,7 +697,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2CapacityReservationFleet.DataAwsccEc2CapacityReservationFleetConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2capacityreservationfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2capacityreservationfleet"
 
 &dataawsccec2capacityreservationfleet.DataAwsccEc2CapacityReservationFleetConfig {
 	Connection: interface{},
@@ -806,7 +806,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_capacity_reservation_fleet#id DataAwsccEc2CapacityReservationFleet#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_capacity_reservation_fleet#id DataAwsccEc2CapacityReservationFleet#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -818,7 +818,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2CapacityReservationFleet.DataAwsccEc2CapacityReservationFleetInstanceTypeSpecifications.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2capacityreservationfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2capacityreservationfleet"
 
 &dataawsccec2capacityreservationfleet.DataAwsccEc2CapacityReservationFleetInstanceTypeSpecifications {
 
@@ -831,7 +831,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2capacityre
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2CapacityReservationFleet.DataAwsccEc2CapacityReservationFleetTagSpecifications.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2capacityreservationfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2capacityreservationfleet"
 
 &dataawsccec2capacityreservationfleet.DataAwsccEc2CapacityReservationFleetTagSpecifications {
 
@@ -844,7 +844,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2capacityre
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2CapacityReservationFleet.DataAwsccEc2CapacityReservationFleetTagSpecificationsTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2capacityreservationfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2capacityreservationfleet"
 
 &dataawsccec2capacityreservationfleet.DataAwsccEc2CapacityReservationFleetTagSpecificationsTags {
 
@@ -859,7 +859,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2capacityre
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2CapacityReservationFleet.DataAwsccEc2CapacityReservationFleetInstanceTypeSpecificationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2capacityreservationfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2capacityreservationfleet"
 
 dataawsccec2capacityreservationfleet.NewDataAwsccEc2CapacityReservationFleetInstanceTypeSpecificationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEc2CapacityReservationFleetInstanceTypeSpecificationsList
 ```
@@ -1008,7 +1008,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2CapacityReservationFleet.DataAwsccEc2CapacityReservationFleetInstanceTypeSpecificationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2capacityreservationfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2capacityreservationfleet"
 
 dataawsccec2capacityreservationfleet.NewDataAwsccEc2CapacityReservationFleetInstanceTypeSpecificationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEc2CapacityReservationFleetInstanceTypeSpecificationsOutputReference
 ```
@@ -1352,7 +1352,7 @@ func InternalValue() DataAwsccEc2CapacityReservationFleetInstanceTypeSpecificati
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2CapacityReservationFleet.DataAwsccEc2CapacityReservationFleetTagSpecificationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2capacityreservationfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2capacityreservationfleet"
 
 dataawsccec2capacityreservationfleet.NewDataAwsccEc2CapacityReservationFleetTagSpecificationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEc2CapacityReservationFleetTagSpecificationsList
 ```
@@ -1501,7 +1501,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2CapacityReservationFleet.DataAwsccEc2CapacityReservationFleetTagSpecificationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2capacityreservationfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2capacityreservationfleet"
 
 dataawsccec2capacityreservationfleet.NewDataAwsccEc2CapacityReservationFleetTagSpecificationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEc2CapacityReservationFleetTagSpecificationsOutputReference
 ```
@@ -1790,7 +1790,7 @@ func InternalValue() DataAwsccEc2CapacityReservationFleetTagSpecifications
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2CapacityReservationFleet.DataAwsccEc2CapacityReservationFleetTagSpecificationsTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2capacityreservationfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2capacityreservationfleet"
 
 dataawsccec2capacityreservationfleet.NewDataAwsccEc2CapacityReservationFleetTagSpecificationsTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccEc2CapacityReservationFleetTagSpecificationsTagsList
 ```
@@ -1939,7 +1939,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2CapacityReservationFleet.DataAwsccEc2CapacityReservationFleetTagSpecificationsTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2capacityreservationfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2capacityreservationfleet"
 
 dataawsccec2capacityreservationfleet.NewDataAwsccEc2CapacityReservationFleetTagSpecificationsTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccEc2CapacityReservationFleetTagSpecificationsTagsOutputReference
 ```

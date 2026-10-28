@@ -4,12 +4,12 @@
 
 ### DataAwsccS3ExpressBucketPolicies <a name="DataAwsccS3ExpressBucketPolicies" id="@cdktn/provider-awscc.dataAwsccS3ExpressBucketPolicies.DataAwsccS3ExpressBucketPolicies"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3express_bucket_policies awscc_s3express_bucket_policies}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3express_bucket_policies awscc_s3express_bucket_policies}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3ExpressBucketPolicies.DataAwsccS3ExpressBucketPolicies.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3expressbucketpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3expressbucketpolicies"
 
 dataawsccs3expressbucketpolicies.NewDataAwsccS3ExpressBucketPolicies(scope Construct, id *string, config DataAwsccS3ExpressBucketPoliciesConfig) DataAwsccS3ExpressBucketPolicies
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccS3ExpressBucketPolicies.DataAwsccS3ExpressBucketPolicies.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3expressbucketpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3expressbucketpolicies"
 
 dataawsccs3expressbucketpolicies.DataAwsccS3ExpressBucketPolicies_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccS3ExpressBucketPolicies.DataAwsccS3ExpressBucketPolicies.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3expressbucketpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3expressbucketpolicies"
 
 dataawsccs3expressbucketpolicies.DataAwsccS3ExpressBucketPolicies_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccs3expressbucketpolicies.DataAwsccS3ExpressBucketPolicies_IsTerraformEle
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccS3ExpressBucketPolicies.DataAwsccS3ExpressBucketPolicies.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3expressbucketpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3expressbucketpolicies"
 
 dataawsccs3expressbucketpolicies.DataAwsccS3ExpressBucketPolicies_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccs3expressbucketpolicies.DataAwsccS3ExpressBucketPolicies_IsTerraformDat
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccS3ExpressBucketPolicies.DataAwsccS3ExpressBucketPolicies.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3expressbucketpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3expressbucketpolicies"
 
 dataawsccs3expressbucketpolicies.DataAwsccS3ExpressBucketPolicies_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccS3ExpressBucketPo
 
 The id of the existing DataAwsccS3ExpressBucketPolicies that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3express_bucket_policies#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3express_bucket_policies#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3ExpressBucketPolicies.DataAwsccS3ExpressBucketPoliciesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3expressbucketpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3expressbucketpolicies"
 
 &dataawsccs3expressbucketpolicies.DataAwsccS3ExpressBucketPoliciesConfig {
 	Connection: interface{},

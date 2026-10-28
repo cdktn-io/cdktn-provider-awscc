@@ -4,12 +4,12 @@
 
 ### KendraFeaturedResultsSet <a name="KendraFeaturedResultsSet" id="@cdktn/provider-awscc.kendraFeaturedResultsSet.KendraFeaturedResultsSet"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kendra_featured_results_set awscc_kendra_featured_results_set}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kendra_featured_results_set awscc_kendra_featured_results_set}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kendraFeaturedResultsSet.KendraFeaturedResultsSet.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kendrafeaturedresultsset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kendrafeaturedresultsset"
 
 kendrafeaturedresultsset.NewKendraFeaturedResultsSet(scope Construct, id *string, config KendraFeaturedResultsSetConfig) KendraFeaturedResultsSet
 ```
@@ -461,7 +461,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.kendraFeaturedResultsSet.KendraFeaturedResultsSet.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kendrafeaturedresultsset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kendrafeaturedresultsset"
 
 kendrafeaturedresultsset.KendraFeaturedResultsSet_IsConstruct(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.kendraFeaturedResultsSet.KendraFeaturedResultsSet.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kendrafeaturedresultsset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kendrafeaturedresultsset"
 
 kendrafeaturedresultsset.KendraFeaturedResultsSet_IsTerraformElement(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ kendrafeaturedresultsset.KendraFeaturedResultsSet_IsTerraformElement(x interface
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.kendraFeaturedResultsSet.KendraFeaturedResultsSet.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kendrafeaturedresultsset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kendrafeaturedresultsset"
 
 kendrafeaturedresultsset.KendraFeaturedResultsSet_IsTerraformResource(x interface{}) *bool
 ```
@@ -521,7 +521,7 @@ kendrafeaturedresultsset.KendraFeaturedResultsSet_IsTerraformResource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.kendraFeaturedResultsSet.KendraFeaturedResultsSet.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kendrafeaturedresultsset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kendrafeaturedresultsset"
 
 kendrafeaturedresultsset.KendraFeaturedResultsSet_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -550,7 +550,7 @@ The construct id used in the generated config for the KendraFeaturedResultsSet t
 
 The id of the existing KendraFeaturedResultsSet that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kendra_featured_results_set#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kendra_featured_results_set#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -937,7 +937,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.kendraFeaturedResultsSet.KendraFeaturedResultsSetConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kendrafeaturedresultsset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kendrafeaturedresultsset"
 
 &kendrafeaturedresultsset.KendraFeaturedResultsSetConfig {
 	Connection: interface{},
@@ -1058,7 +1058,7 @@ FeaturedResultsSetName *string
 
 A name for the set of featured results.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kendra_featured_results_set#featured_results_set_name KendraFeaturedResultsSet#featured_results_set_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kendra_featured_results_set#featured_results_set_name KendraFeaturedResultsSet#featured_results_set_name}
 
 ---
 
@@ -1072,7 +1072,7 @@ IndexId *string
 
 The identifier of the index that you want to use for featuring results.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kendra_featured_results_set#index_id KendraFeaturedResultsSet#index_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kendra_featured_results_set#index_id KendraFeaturedResultsSet#index_id}
 
 ---
 
@@ -1086,7 +1086,7 @@ Description *string
 
 A description for the set of featured results.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kendra_featured_results_set#description KendraFeaturedResultsSet#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kendra_featured_results_set#description KendraFeaturedResultsSet#description}
 
 ---
 
@@ -1100,7 +1100,7 @@ FeaturedDocuments interface{}
 
 A list of document IDs for the documents you want to feature at the top of the search results page.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kendra_featured_results_set#featured_documents KendraFeaturedResultsSet#featured_documents}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kendra_featured_results_set#featured_documents KendraFeaturedResultsSet#featured_documents}
 
 ---
 
@@ -1114,7 +1114,7 @@ QueryTexts *[]*string
 
 A list of queries for featuring results.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kendra_featured_results_set#query_texts KendraFeaturedResultsSet#query_texts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kendra_featured_results_set#query_texts KendraFeaturedResultsSet#query_texts}
 
 ---
 
@@ -1130,7 +1130,7 @@ The current status of the set of featured results.
 
 When the value is ACTIVE, featured results are ready for use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kendra_featured_results_set#status KendraFeaturedResultsSet#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kendra_featured_results_set#status KendraFeaturedResultsSet#status}
 
 ---
 
@@ -1144,7 +1144,7 @@ Tags interface{}
 
 A list of key-value pairs that identify or categorize the featured results set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kendra_featured_results_set#tags KendraFeaturedResultsSet#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kendra_featured_results_set#tags KendraFeaturedResultsSet#tags}
 
 ---
 
@@ -1153,7 +1153,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.kendraFeaturedResultsSet.KendraFeaturedResultsSetFeaturedDocuments.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kendrafeaturedresultsset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kendrafeaturedresultsset"
 
 &kendrafeaturedresultsset.KendraFeaturedResultsSetFeaturedDocuments {
 	Id: *string,
@@ -1178,7 +1178,7 @@ Id *string
 
 The identifier of the document to feature in the search results.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kendra_featured_results_set#id KendraFeaturedResultsSet#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kendra_featured_results_set#id KendraFeaturedResultsSet#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1190,7 +1190,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.kendraFeaturedResultsSet.KendraFeaturedResultsSetTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kendrafeaturedresultsset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kendrafeaturedresultsset"
 
 &kendrafeaturedresultsset.KendraFeaturedResultsSetTags {
 	Key: *string,
@@ -1217,7 +1217,7 @@ Key *string
 
 The key for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kendra_featured_results_set#key KendraFeaturedResultsSet#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kendra_featured_results_set#key KendraFeaturedResultsSet#key}
 
 ---
 
@@ -1231,7 +1231,7 @@ Value *string
 
 The value associated with the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kendra_featured_results_set#value KendraFeaturedResultsSet#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kendra_featured_results_set#value KendraFeaturedResultsSet#value}
 
 ---
 
@@ -1242,7 +1242,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kendraFeaturedResultsSet.KendraFeaturedResultsSetFeaturedDocumentsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kendrafeaturedresultsset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kendrafeaturedresultsset"
 
 kendrafeaturedresultsset.NewKendraFeaturedResultsSetFeaturedDocumentsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) KendraFeaturedResultsSetFeaturedDocumentsList
 ```
@@ -1402,7 +1402,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kendraFeaturedResultsSet.KendraFeaturedResultsSetFeaturedDocumentsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kendrafeaturedresultsset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kendrafeaturedresultsset"
 
 kendrafeaturedresultsset.NewKendraFeaturedResultsSetFeaturedDocumentsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) KendraFeaturedResultsSetFeaturedDocumentsOutputReference
 ```
@@ -1698,7 +1698,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kendraFeaturedResultsSet.KendraFeaturedResultsSetTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kendrafeaturedresultsset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kendrafeaturedresultsset"
 
 kendrafeaturedresultsset.NewKendraFeaturedResultsSetTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) KendraFeaturedResultsSetTagsList
 ```
@@ -1858,7 +1858,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kendraFeaturedResultsSet.KendraFeaturedResultsSetTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kendrafeaturedresultsset"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kendrafeaturedresultsset"
 
 kendrafeaturedresultsset.NewKendraFeaturedResultsSetTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) KendraFeaturedResultsSetTagsOutputReference
 ```

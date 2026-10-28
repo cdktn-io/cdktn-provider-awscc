@@ -4,12 +4,12 @@
 
 ### DataAwsccIotPolicies <a name="DataAwsccIotPolicies" id="@cdktn/provider-awscc.dataAwsccIotPolicies.DataAwsccIotPolicies"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_policies awscc_iot_policies}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_policies awscc_iot_policies}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotPolicies.DataAwsccIotPolicies.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotpolicies"
 
 dataawscciotpolicies.NewDataAwsccIotPolicies(scope Construct, id *string, config DataAwsccIotPoliciesConfig) DataAwsccIotPolicies
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIotPolicies.DataAwsccIotPolicies.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotpolicies"
 
 dataawscciotpolicies.DataAwsccIotPolicies_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIotPolicies.DataAwsccIotPolicies.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotpolicies"
 
 dataawscciotpolicies.DataAwsccIotPolicies_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciotpolicies.DataAwsccIotPolicies_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIotPolicies.DataAwsccIotPolicies.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotpolicies"
 
 dataawscciotpolicies.DataAwsccIotPolicies_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciotpolicies.DataAwsccIotPolicies_IsTerraformDataSource(x interface{}) *
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIotPolicies.DataAwsccIotPolicies.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotpolicies"
 
 dataawscciotpolicies.DataAwsccIotPolicies_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotPolicies to im
 
 The id of the existing DataAwsccIotPolicies that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_policies#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_policies#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotPolicies.DataAwsccIotPoliciesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotpolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotpolicies"
 
 &dataawscciotpolicies.DataAwsccIotPoliciesConfig {
 	Connection: interface{},

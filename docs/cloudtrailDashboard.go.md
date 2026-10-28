@@ -4,12 +4,12 @@
 
 ### CloudtrailDashboard <a name="CloudtrailDashboard" id="@cdktn/provider-awscc.cloudtrailDashboard.CloudtrailDashboard"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudtrail_dashboard awscc_cloudtrail_dashboard}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudtrail_dashboard awscc_cloudtrail_dashboard}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudtrailDashboard.CloudtrailDashboard.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudtraildashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudtraildashboard"
 
 cloudtraildashboard.NewCloudtrailDashboard(scope Construct, id *string, config CloudtrailDashboardConfig) CloudtrailDashboard
 ```
@@ -474,7 +474,7 @@ func ResetWidgets()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.cloudtrailDashboard.CloudtrailDashboard.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudtraildashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudtraildashboard"
 
 cloudtraildashboard.CloudtrailDashboard_IsConstruct(x interface{}) *bool
 ```
@@ -506,7 +506,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.cloudtrailDashboard.CloudtrailDashboard.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudtraildashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudtraildashboard"
 
 cloudtraildashboard.CloudtrailDashboard_IsTerraformElement(x interface{}) *bool
 ```
@@ -520,7 +520,7 @@ cloudtraildashboard.CloudtrailDashboard_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.cloudtrailDashboard.CloudtrailDashboard.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudtraildashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudtraildashboard"
 
 cloudtraildashboard.CloudtrailDashboard_IsTerraformResource(x interface{}) *bool
 ```
@@ -534,7 +534,7 @@ cloudtraildashboard.CloudtrailDashboard_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.cloudtrailDashboard.CloudtrailDashboard.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudtraildashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudtraildashboard"
 
 cloudtraildashboard.CloudtrailDashboard_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -563,7 +563,7 @@ The construct id used in the generated config for the CloudtrailDashboard to imp
 
 The id of the existing CloudtrailDashboard that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudtrail_dashboard#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudtrail_dashboard#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -939,7 +939,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudtrailDashboard.CloudtrailDashboardConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudtraildashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudtraildashboard"
 
 &cloudtraildashboard.CloudtrailDashboardConfig {
 	Connection: interface{},
@@ -950,7 +950,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudtraildashboard"
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	Name: *string,
-	RefreshSchedule: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.cloudtrailDashboard.CloudtrailDashboardRefreshSchedule,
+	RefreshSchedule: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.cloudtrailDashboard.CloudtrailDashboardRefreshSchedule,
 	Tags: interface{},
 	TerminationProtectionEnabled: interface{},
 	Widgets: interface{},
@@ -970,7 +970,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudtraildashboard"
 | <code><a href="#@cdktn/provider-awscc.cloudtrailDashboard.CloudtrailDashboardConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudtrailDashboard.CloudtrailDashboardConfig.property.name">Name</a></code> | <code>*string</code> | The name of the dashboard. |
 | <code><a href="#@cdktn/provider-awscc.cloudtrailDashboard.CloudtrailDashboardConfig.property.refreshSchedule">RefreshSchedule</a></code> | <code><a href="#@cdktn/provider-awscc.cloudtrailDashboard.CloudtrailDashboardRefreshSchedule">CloudtrailDashboardRefreshSchedule</a></code> | Configures the automatic refresh schedule for the dashboard. |
-| <code><a href="#@cdktn/provider-awscc.cloudtrailDashboard.CloudtrailDashboardConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudtrail_dashboard#tags CloudtrailDashboard#tags}. |
+| <code><a href="#@cdktn/provider-awscc.cloudtrailDashboard.CloudtrailDashboardConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudtrail_dashboard#tags CloudtrailDashboard#tags}. |
 | <code><a href="#@cdktn/provider-awscc.cloudtrailDashboard.CloudtrailDashboardConfig.property.terminationProtectionEnabled">TerminationProtectionEnabled</a></code> | <code>interface{}</code> | Indicates whether the dashboard is protected from termination. |
 | <code><a href="#@cdktn/provider-awscc.cloudtrailDashboard.CloudtrailDashboardConfig.property.widgets">Widgets</a></code> | <code>interface{}</code> | List of widgets on the dashboard. |
 
@@ -1056,7 +1056,7 @@ Name *string
 
 The name of the dashboard.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudtrail_dashboard#name CloudtrailDashboard#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudtrail_dashboard#name CloudtrailDashboard#name}
 
 ---
 
@@ -1072,7 +1072,7 @@ Configures the automatic refresh schedule for the dashboard.
 
 Includes the frequency unit (DAYS or HOURS) and value, as well as the status (ENABLED or DISABLED) of the refresh schedule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudtrail_dashboard#refresh_schedule CloudtrailDashboard#refresh_schedule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudtrail_dashboard#refresh_schedule CloudtrailDashboard#refresh_schedule}
 
 ---
 
@@ -1084,7 +1084,7 @@ Tags interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudtrail_dashboard#tags CloudtrailDashboard#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudtrail_dashboard#tags CloudtrailDashboard#tags}.
 
 ---
 
@@ -1098,7 +1098,7 @@ TerminationProtectionEnabled interface{}
 
 Indicates whether the dashboard is protected from termination.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudtrail_dashboard#termination_protection_enabled CloudtrailDashboard#termination_protection_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudtrail_dashboard#termination_protection_enabled CloudtrailDashboard#termination_protection_enabled}
 
 ---
 
@@ -1112,7 +1112,7 @@ Widgets interface{}
 
 List of widgets on the dashboard.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudtrail_dashboard#widgets CloudtrailDashboard#widgets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudtrail_dashboard#widgets CloudtrailDashboard#widgets}
 
 ---
 
@@ -1121,10 +1121,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudtrailDashboard.CloudtrailDashboardRefreshSchedule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudtraildashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudtraildashboard"
 
 &cloudtraildashboard.CloudtrailDashboardRefreshSchedule {
-	Frequency: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.cloudtrailDashboard.CloudtrailDashboardRefreshScheduleFrequency,
+	Frequency: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.cloudtrailDashboard.CloudtrailDashboardRefreshScheduleFrequency,
 	Status: *string,
 	TimeOfDay: *string,
 }
@@ -1134,7 +1134,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudtraildashboard"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.cloudtrailDashboard.CloudtrailDashboardRefreshSchedule.property.frequency">Frequency</a></code> | <code><a href="#@cdktn/provider-awscc.cloudtrailDashboard.CloudtrailDashboardRefreshScheduleFrequency">CloudtrailDashboardRefreshScheduleFrequency</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudtrail_dashboard#frequency CloudtrailDashboard#frequency}. |
+| <code><a href="#@cdktn/provider-awscc.cloudtrailDashboard.CloudtrailDashboardRefreshSchedule.property.frequency">Frequency</a></code> | <code><a href="#@cdktn/provider-awscc.cloudtrailDashboard.CloudtrailDashboardRefreshScheduleFrequency">CloudtrailDashboardRefreshScheduleFrequency</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudtrail_dashboard#frequency CloudtrailDashboard#frequency}. |
 | <code><a href="#@cdktn/provider-awscc.cloudtrailDashboard.CloudtrailDashboardRefreshSchedule.property.status">Status</a></code> | <code>*string</code> | The status of the schedule. Supported values are ENABLED and DISABLED. |
 | <code><a href="#@cdktn/provider-awscc.cloudtrailDashboard.CloudtrailDashboardRefreshSchedule.property.timeOfDay">TimeOfDay</a></code> | <code>*string</code> | StartTime of the automatic schedule refresh. |
 
@@ -1148,7 +1148,7 @@ Frequency CloudtrailDashboardRefreshScheduleFrequency
 
 - *Type:* <a href="#@cdktn/provider-awscc.cloudtrailDashboard.CloudtrailDashboardRefreshScheduleFrequency">CloudtrailDashboardRefreshScheduleFrequency</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudtrail_dashboard#frequency CloudtrailDashboard#frequency}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudtrail_dashboard#frequency CloudtrailDashboard#frequency}.
 
 ---
 
@@ -1162,7 +1162,7 @@ Status *string
 
 The status of the schedule. Supported values are ENABLED and DISABLED.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudtrail_dashboard#status CloudtrailDashboard#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudtrail_dashboard#status CloudtrailDashboard#status}
 
 ---
 
@@ -1176,7 +1176,7 @@ TimeOfDay *string
 
 StartTime of the automatic schedule refresh.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudtrail_dashboard#time_of_day CloudtrailDashboard#time_of_day}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudtrail_dashboard#time_of_day CloudtrailDashboard#time_of_day}
 
 ---
 
@@ -1185,7 +1185,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudtrailDashboard.CloudtrailDashboardRefreshScheduleFrequency.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudtraildashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudtraildashboard"
 
 &cloudtraildashboard.CloudtrailDashboardRefreshScheduleFrequency {
 	Unit: *string,
@@ -1212,7 +1212,7 @@ Unit *string
 
 The frequency unit. Supported values are HOURS and DAYS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudtrail_dashboard#unit CloudtrailDashboard#unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudtrail_dashboard#unit CloudtrailDashboard#unit}
 
 ---
 
@@ -1226,7 +1226,7 @@ Value *f64
 
 The frequency value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudtrail_dashboard#value CloudtrailDashboard#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudtrail_dashboard#value CloudtrailDashboard#value}
 
 ---
 
@@ -1235,7 +1235,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudtrailDashboard.CloudtrailDashboardTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudtraildashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudtraildashboard"
 
 &cloudtraildashboard.CloudtrailDashboardTags {
 	Key: *string,
@@ -1264,7 +1264,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudtrail_dashboard#key CloudtrailDashboard#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudtrail_dashboard#key CloudtrailDashboard#key}
 
 ---
 
@@ -1280,7 +1280,7 @@ The value for the tag.
 
 You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudtrail_dashboard#value CloudtrailDashboard#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudtrail_dashboard#value CloudtrailDashboard#value}
 
 ---
 
@@ -1289,7 +1289,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudtrailDashboard.CloudtrailDashboardWidgets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudtraildashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudtraildashboard"
 
 &cloudtraildashboard.CloudtrailDashboardWidgets {
 	QueryParameters: *[]*string,
@@ -1318,7 +1318,7 @@ QueryParameters *[]*string
 
 The placeholder keys in the QueryStatement. For example: $StartTime$, $EndTime$, $Period$.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudtrail_dashboard#query_parameters CloudtrailDashboard#query_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudtrail_dashboard#query_parameters CloudtrailDashboard#query_parameters}
 
 ---
 
@@ -1332,7 +1332,7 @@ QueryStatement *string
 
 The SQL query statement on one or more event data stores.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudtrail_dashboard#query_statement CloudtrailDashboard#query_statement}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudtrail_dashboard#query_statement CloudtrailDashboard#query_statement}
 
 ---
 
@@ -1346,7 +1346,7 @@ ViewProperties *map[string]*string
 
 The view properties of the widget.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudtrail_dashboard#view_properties CloudtrailDashboard#view_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudtrail_dashboard#view_properties CloudtrailDashboard#view_properties}
 
 ---
 
@@ -1357,7 +1357,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudtrailDashboard.CloudtrailDashboardRefreshScheduleFrequencyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudtraildashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudtraildashboard"
 
 cloudtraildashboard.NewCloudtrailDashboardRefreshScheduleFrequencyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CloudtrailDashboardRefreshScheduleFrequencyOutputReference
 ```
@@ -1664,7 +1664,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudtrailDashboard.CloudtrailDashboardRefreshScheduleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudtraildashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudtraildashboard"
 
 cloudtraildashboard.NewCloudtrailDashboardRefreshScheduleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CloudtrailDashboardRefreshScheduleOutputReference
 ```
@@ -2013,7 +2013,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudtrailDashboard.CloudtrailDashboardTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudtraildashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudtraildashboard"
 
 cloudtraildashboard.NewCloudtrailDashboardTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CloudtrailDashboardTagsList
 ```
@@ -2173,7 +2173,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudtrailDashboard.CloudtrailDashboardTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudtraildashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudtraildashboard"
 
 cloudtraildashboard.NewCloudtrailDashboardTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CloudtrailDashboardTagsOutputReference
 ```
@@ -2498,7 +2498,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudtrailDashboard.CloudtrailDashboardWidgetsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudtraildashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudtraildashboard"
 
 cloudtraildashboard.NewCloudtrailDashboardWidgetsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CloudtrailDashboardWidgetsList
 ```
@@ -2658,7 +2658,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudtrailDashboard.CloudtrailDashboardWidgetsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudtraildashboard"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudtraildashboard"
 
 cloudtraildashboard.NewCloudtrailDashboardWidgetsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CloudtrailDashboardWidgetsOutputReference
 ```

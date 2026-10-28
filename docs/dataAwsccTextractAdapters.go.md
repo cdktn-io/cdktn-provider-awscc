@@ -4,12 +4,12 @@
 
 ### DataAwsccTextractAdapters <a name="DataAwsccTextractAdapters" id="@cdktn/provider-awscc.dataAwsccTextractAdapters.DataAwsccTextractAdapters"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/textract_adapters awscc_textract_adapters}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/textract_adapters awscc_textract_adapters}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTextractAdapters.DataAwsccTextractAdapters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctextractadapters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctextractadapters"
 
 dataawscctextractadapters.NewDataAwsccTextractAdapters(scope Construct, id *string, config DataAwsccTextractAdaptersConfig) DataAwsccTextractAdapters
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccTextractAdapters.DataAwsccTextractAdapters.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctextractadapters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctextractadapters"
 
 dataawscctextractadapters.DataAwsccTextractAdapters_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccTextractAdapters.DataAwsccTextractAdapters.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctextractadapters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctextractadapters"
 
 dataawscctextractadapters.DataAwsccTextractAdapters_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscctextractadapters.DataAwsccTextractAdapters_IsTerraformElement(x interfa
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccTextractAdapters.DataAwsccTextractAdapters.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctextractadapters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctextractadapters"
 
 dataawscctextractadapters.DataAwsccTextractAdapters_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscctextractadapters.DataAwsccTextractAdapters_IsTerraformDataSource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccTextractAdapters.DataAwsccTextractAdapters.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctextractadapters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctextractadapters"
 
 dataawscctextractadapters.DataAwsccTextractAdapters_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccTextractAdapters 
 
 The id of the existing DataAwsccTextractAdapters that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/textract_adapters#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/textract_adapters#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTextractAdapters.DataAwsccTextractAdaptersConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctextractadapters"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctextractadapters"
 
 &dataawscctextractadapters.DataAwsccTextractAdaptersConfig {
 	Connection: interface{},

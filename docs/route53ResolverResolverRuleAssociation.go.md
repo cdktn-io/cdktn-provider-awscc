@@ -4,12 +4,12 @@
 
 ### Route53ResolverResolverRuleAssociation <a name="Route53ResolverResolverRuleAssociation" id="@cdktn/provider-awscc.route53ResolverResolverRuleAssociation.Route53ResolverResolverRuleAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53resolver_resolver_rule_association awscc_route53resolver_resolver_rule_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53resolver_resolver_rule_association awscc_route53resolver_resolver_rule_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.route53ResolverResolverRuleAssociation.Route53ResolverResolverRuleAssociation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53resolverresolverruleassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53resolverresolverruleassociation"
 
 route53resolverresolverruleassociation.NewRoute53ResolverResolverRuleAssociation(scope Construct, id *string, config Route53ResolverResolverRuleAssociationConfig) Route53ResolverResolverRuleAssociation
 ```
@@ -407,7 +407,7 @@ func ResetName()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.route53ResolverResolverRuleAssociation.Route53ResolverResolverRuleAssociation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53resolverresolverruleassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53resolverresolverruleassociation"
 
 route53resolverresolverruleassociation.Route53ResolverResolverRuleAssociation_IsConstruct(x interface{}) *bool
 ```
@@ -439,7 +439,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.route53ResolverResolverRuleAssociation.Route53ResolverResolverRuleAssociation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53resolverresolverruleassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53resolverresolverruleassociation"
 
 route53resolverresolverruleassociation.Route53ResolverResolverRuleAssociation_IsTerraformElement(x interface{}) *bool
 ```
@@ -453,7 +453,7 @@ route53resolverresolverruleassociation.Route53ResolverResolverRuleAssociation_Is
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.route53ResolverResolverRuleAssociation.Route53ResolverResolverRuleAssociation.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53resolverresolverruleassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53resolverresolverruleassociation"
 
 route53resolverresolverruleassociation.Route53ResolverResolverRuleAssociation_IsTerraformResource(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ route53resolverresolverruleassociation.Route53ResolverResolverRuleAssociation_Is
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.route53ResolverResolverRuleAssociation.Route53ResolverResolverRuleAssociation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53resolverresolverruleassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53resolverresolverruleassociation"
 
 route53resolverresolverruleassociation.Route53ResolverResolverRuleAssociation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -496,7 +496,7 @@ The construct id used in the generated config for the Route53ResolverResolverRul
 
 The id of the existing Route53ResolverResolverRuleAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53resolver_resolver_rule_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53resolver_resolver_rule_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -784,7 +784,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.route53ResolverResolverRuleAssociation.Route53ResolverResolverRuleAssociationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53resolverresolverruleassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53resolverresolverruleassociation"
 
 &route53resolverresolverruleassociation.Route53ResolverResolverRuleAssociationConfig {
 	Connection: interface{},
@@ -897,7 +897,7 @@ ResolverRuleId *string
 
 The ID of the Resolver rule that you associated with the VPC that is specified by ``VPCId``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53resolver_resolver_rule_association#resolver_rule_id Route53ResolverResolverRuleAssociation#resolver_rule_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53resolver_resolver_rule_association#resolver_rule_id Route53ResolverResolverRuleAssociation#resolver_rule_id}
 
 ---
 
@@ -911,7 +911,7 @@ VpcId *string
 
 The ID of the VPC that you associated the Resolver rule with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53resolver_resolver_rule_association#vpc_id Route53ResolverResolverRuleAssociation#vpc_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53resolver_resolver_rule_association#vpc_id Route53ResolverResolverRuleAssociation#vpc_id}
 
 ---
 
@@ -927,7 +927,7 @@ The name of an association between a Resolver rule and a VPC.
 
 The name can be up to 64 characters long and can contain letters (a-z, A-Z), numbers (0-9), hyphens (-), underscores (_), and spaces. The name cannot consist of only numbers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53resolver_resolver_rule_association#name Route53ResolverResolverRuleAssociation#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53resolver_resolver_rule_association#name Route53ResolverResolverRuleAssociation#name}
 
 ---
 

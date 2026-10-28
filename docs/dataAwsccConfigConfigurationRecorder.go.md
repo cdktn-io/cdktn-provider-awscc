@@ -4,12 +4,12 @@
 
 ### DataAwsccConfigConfigurationRecorder <a name="DataAwsccConfigConfigurationRecorder" id="@cdktn/provider-awscc.dataAwsccConfigConfigurationRecorder.DataAwsccConfigConfigurationRecorder"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/config_configuration_recorder awscc_config_configuration_recorder}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/config_configuration_recorder awscc_config_configuration_recorder}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConfigConfigurationRecorder.DataAwsccConfigConfigurationRecorder.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconfigurationrecorder"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconfigurationrecorder"
 
 dataawsccconfigconfigurationrecorder.NewDataAwsccConfigConfigurationRecorder(scope Construct, id *string, config DataAwsccConfigConfigurationRecorderConfig) DataAwsccConfigConfigurationRecorder
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccConfigConfigurationRecorder.DataAwsccConfigConfigurationRecorder.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconfigurationrecorder"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconfigurationrecorder"
 
 dataawsccconfigconfigurationrecorder.DataAwsccConfigConfigurationRecorder_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccConfigConfigurationRecorder.DataAwsccConfigConfigurationRecorder.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconfigurationrecorder"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconfigurationrecorder"
 
 dataawsccconfigconfigurationrecorder.DataAwsccConfigConfigurationRecorder_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccconfigconfigurationrecorder.DataAwsccConfigConfigurationRecorder_IsTerr
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccConfigConfigurationRecorder.DataAwsccConfigConfigurationRecorder.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconfigurationrecorder"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconfigurationrecorder"
 
 dataawsccconfigconfigurationrecorder.DataAwsccConfigConfigurationRecorder_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccconfigconfigurationrecorder.DataAwsccConfigConfigurationRecorder_IsTerr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccConfigConfigurationRecorder.DataAwsccConfigConfigurationRecorder.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconfigurationrecorder"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconfigurationrecorder"
 
 dataawsccconfigconfigurationrecorder.DataAwsccConfigConfigurationRecorder_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccConfigConfigurati
 
 The id of the existing DataAwsccConfigConfigurationRecorder that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/config_configuration_recorder#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/config_configuration_recorder#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -653,7 +653,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConfigConfigurationRecorder.DataAwsccConfigConfigurationRecorderConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconfigurationrecorder"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconfigurationrecorder"
 
 &dataawsccconfigconfigurationrecorder.DataAwsccConfigConfigurationRecorderConfig {
 	Connection: interface{},
@@ -762,7 +762,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/config_configuration_recorder#id DataAwsccConfigConfigurationRecorder#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/config_configuration_recorder#id DataAwsccConfigConfigurationRecorder#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -774,7 +774,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConfigConfigurationRecorder.DataAwsccConfigConfigurationRecorderRecordingGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconfigurationrecorder"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconfigurationrecorder"
 
 &dataawsccconfigconfigurationrecorder.DataAwsccConfigConfigurationRecorderRecordingGroup {
 
@@ -787,7 +787,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconfigu
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConfigConfigurationRecorder.DataAwsccConfigConfigurationRecorderRecordingGroupExclusionByResourceTypes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconfigurationrecorder"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconfigurationrecorder"
 
 &dataawsccconfigconfigurationrecorder.DataAwsccConfigConfigurationRecorderRecordingGroupExclusionByResourceTypes {
 
@@ -800,7 +800,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconfigu
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConfigConfigurationRecorder.DataAwsccConfigConfigurationRecorderRecordingGroupRecordingStrategy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconfigurationrecorder"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconfigurationrecorder"
 
 &dataawsccconfigconfigurationrecorder.DataAwsccConfigConfigurationRecorderRecordingGroupRecordingStrategy {
 
@@ -813,7 +813,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconfigu
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConfigConfigurationRecorder.DataAwsccConfigConfigurationRecorderRecordingMode.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconfigurationrecorder"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconfigurationrecorder"
 
 &dataawsccconfigconfigurationrecorder.DataAwsccConfigConfigurationRecorderRecordingMode {
 
@@ -826,7 +826,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconfigu
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConfigConfigurationRecorder.DataAwsccConfigConfigurationRecorderRecordingModeRecordingModeOverrides.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconfigurationrecorder"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconfigurationrecorder"
 
 &dataawsccconfigconfigurationrecorder.DataAwsccConfigConfigurationRecorderRecordingModeRecordingModeOverrides {
 
@@ -841,7 +841,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconfigu
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConfigConfigurationRecorder.DataAwsccConfigConfigurationRecorderRecordingGroupExclusionByResourceTypesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconfigurationrecorder"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconfigurationrecorder"
 
 dataawsccconfigconfigurationrecorder.NewDataAwsccConfigConfigurationRecorderRecordingGroupExclusionByResourceTypesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConfigConfigurationRecorderRecordingGroupExclusionByResourceTypesOutputReference
 ```
@@ -1101,7 +1101,7 @@ func InternalValue() DataAwsccConfigConfigurationRecorderRecordingGroupExclusion
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConfigConfigurationRecorder.DataAwsccConfigConfigurationRecorderRecordingGroupOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconfigurationrecorder"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconfigurationrecorder"
 
 dataawsccconfigconfigurationrecorder.NewDataAwsccConfigConfigurationRecorderRecordingGroupOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConfigConfigurationRecorderRecordingGroupOutputReference
 ```
@@ -1405,7 +1405,7 @@ func InternalValue() DataAwsccConfigConfigurationRecorderRecordingGroup
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConfigConfigurationRecorder.DataAwsccConfigConfigurationRecorderRecordingGroupRecordingStrategyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconfigurationrecorder"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconfigurationrecorder"
 
 dataawsccconfigconfigurationrecorder.NewDataAwsccConfigConfigurationRecorderRecordingGroupRecordingStrategyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConfigConfigurationRecorderRecordingGroupRecordingStrategyOutputReference
 ```
@@ -1665,7 +1665,7 @@ func InternalValue() DataAwsccConfigConfigurationRecorderRecordingGroupRecording
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConfigConfigurationRecorder.DataAwsccConfigConfigurationRecorderRecordingModeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconfigurationrecorder"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconfigurationrecorder"
 
 dataawsccconfigconfigurationrecorder.NewDataAwsccConfigConfigurationRecorderRecordingModeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccConfigConfigurationRecorderRecordingModeOutputReference
 ```
@@ -1936,7 +1936,7 @@ func InternalValue() DataAwsccConfigConfigurationRecorderRecordingMode
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConfigConfigurationRecorder.DataAwsccConfigConfigurationRecorderRecordingModeRecordingModeOverridesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconfigurationrecorder"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconfigurationrecorder"
 
 dataawsccconfigconfigurationrecorder.NewDataAwsccConfigConfigurationRecorderRecordingModeRecordingModeOverridesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccConfigConfigurationRecorderRecordingModeRecordingModeOverridesList
 ```
@@ -2085,7 +2085,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConfigConfigurationRecorder.DataAwsccConfigConfigurationRecorderRecordingModeRecordingModeOverridesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigconfigurationrecorder"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigconfigurationrecorder"
 
 dataawsccconfigconfigurationrecorder.NewDataAwsccConfigConfigurationRecorderRecordingModeRecordingModeOverridesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccConfigConfigurationRecorderRecordingModeRecordingModeOverridesOutputReference
 ```

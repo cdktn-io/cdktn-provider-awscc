@@ -4,12 +4,12 @@
 
 ### KendraThesaurus <a name="KendraThesaurus" id="@cdktn/provider-awscc.kendraThesaurus.KendraThesaurus"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kendra_thesaurus awscc_kendra_thesaurus}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kendra_thesaurus awscc_kendra_thesaurus}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kendraThesaurus.KendraThesaurus.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kendrathesaurus"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kendrathesaurus"
 
 kendrathesaurus.NewKendraThesaurus(scope Construct, id *string, config KendraThesaurusConfig) KendraThesaurus
 ```
@@ -440,7 +440,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.kendraThesaurus.KendraThesaurus.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kendrathesaurus"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kendrathesaurus"
 
 kendrathesaurus.KendraThesaurus_IsConstruct(x interface{}) *bool
 ```
@@ -472,7 +472,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.kendraThesaurus.KendraThesaurus.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kendrathesaurus"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kendrathesaurus"
 
 kendrathesaurus.KendraThesaurus_IsTerraformElement(x interface{}) *bool
 ```
@@ -486,7 +486,7 @@ kendrathesaurus.KendraThesaurus_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.kendraThesaurus.KendraThesaurus.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kendrathesaurus"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kendrathesaurus"
 
 kendrathesaurus.KendraThesaurus_IsTerraformResource(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ kendrathesaurus.KendraThesaurus_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.kendraThesaurus.KendraThesaurus.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kendrathesaurus"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kendrathesaurus"
 
 kendrathesaurus.KendraThesaurus_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -529,7 +529,7 @@ The construct id used in the generated config for the KendraThesaurus to import.
 
 The id of the existing KendraThesaurus that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kendra_thesaurus#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kendra_thesaurus#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -894,7 +894,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.kendraThesaurus.KendraThesaurusConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kendrathesaurus"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kendrathesaurus"
 
 &kendrathesaurus.KendraThesaurusConfig {
 	Connection: interface{},
@@ -907,7 +907,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kendrathesaurus"
 	IndexId: *string,
 	Name: *string,
 	RoleArn: *string,
-	SourceS3Path: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.kendraThesaurus.KendraThesaurusSourceS3Path,
+	SourceS3Path: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.kendraThesaurus.KendraThesaurusSourceS3Path,
 	Description: *string,
 	Tags: interface{},
 }
@@ -1013,7 +1013,7 @@ IndexId *string
 
 The identifier of the index for the thesaurus.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kendra_thesaurus#index_id KendraThesaurus#index_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kendra_thesaurus#index_id KendraThesaurus#index_id}
 
 ---
 
@@ -1027,7 +1027,7 @@ Name *string
 
 A name for the thesaurus.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kendra_thesaurus#name KendraThesaurus#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kendra_thesaurus#name KendraThesaurus#name}
 
 ---
 
@@ -1041,7 +1041,7 @@ RoleArn *string
 
 An IAM role that gives Amazon Kendra permissions to access the thesaurus file specified in SourceS3Path.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kendra_thesaurus#role_arn KendraThesaurus#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kendra_thesaurus#role_arn KendraThesaurus#role_arn}
 
 ---
 
@@ -1055,7 +1055,7 @@ SourceS3Path KendraThesaurusSourceS3Path
 
 Information required to find a specific file in an Amazon S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kendra_thesaurus#source_s3_path KendraThesaurus#source_s3_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kendra_thesaurus#source_s3_path KendraThesaurus#source_s3_path}
 
 ---
 
@@ -1069,7 +1069,7 @@ Description *string
 
 A description for the thesaurus.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kendra_thesaurus#description KendraThesaurus#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kendra_thesaurus#description KendraThesaurus#description}
 
 ---
 
@@ -1083,7 +1083,7 @@ Tags interface{}
 
 A list of key-value pairs that identify or categorize the thesaurus.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kendra_thesaurus#tags KendraThesaurus#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kendra_thesaurus#tags KendraThesaurus#tags}
 
 ---
 
@@ -1092,7 +1092,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.kendraThesaurus.KendraThesaurusSourceS3Path.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kendrathesaurus"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kendrathesaurus"
 
 &kendrathesaurus.KendraThesaurusSourceS3Path {
 	Bucket: *string,
@@ -1119,7 +1119,7 @@ Bucket *string
 
 The name of the S3 bucket that contains the file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kendra_thesaurus#bucket KendraThesaurus#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kendra_thesaurus#bucket KendraThesaurus#bucket}
 
 ---
 
@@ -1133,7 +1133,7 @@ Key *string
 
 The name of the file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kendra_thesaurus#key KendraThesaurus#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kendra_thesaurus#key KendraThesaurus#key}
 
 ---
 
@@ -1142,7 +1142,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.kendraThesaurus.KendraThesaurusTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kendrathesaurus"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kendrathesaurus"
 
 &kendrathesaurus.KendraThesaurusTags {
 	Key: *string,
@@ -1169,7 +1169,7 @@ Key *string
 
 The key for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kendra_thesaurus#key KendraThesaurus#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kendra_thesaurus#key KendraThesaurus#key}
 
 ---
 
@@ -1183,7 +1183,7 @@ Value *string
 
 The value associated with the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kendra_thesaurus#value KendraThesaurus#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kendra_thesaurus#value KendraThesaurus#value}
 
 ---
 
@@ -1194,7 +1194,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kendraThesaurus.KendraThesaurusSourceS3PathOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kendrathesaurus"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kendrathesaurus"
 
 kendrathesaurus.NewKendraThesaurusSourceS3PathOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) KendraThesaurusSourceS3PathOutputReference
 ```
@@ -1487,7 +1487,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kendraThesaurus.KendraThesaurusTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kendrathesaurus"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kendrathesaurus"
 
 kendrathesaurus.NewKendraThesaurusTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) KendraThesaurusTagsList
 ```
@@ -1647,7 +1647,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kendraThesaurus.KendraThesaurusTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kendrathesaurus"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kendrathesaurus"
 
 kendrathesaurus.NewKendraThesaurusTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) KendraThesaurusTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### KendrarankingExecutionPlan <a name="KendrarankingExecutionPlan" id="@cdktn/provider-awscc.kendrarankingExecutionPlan.KendrarankingExecutionPlan"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kendraranking_execution_plan awscc_kendraranking_execution_plan}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kendraranking_execution_plan awscc_kendraranking_execution_plan}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kendrarankingExecutionPlan.KendrarankingExecutionPlan.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kendrarankingexecutionplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kendrarankingexecutionplan"
 
 kendrarankingexecutionplan.NewKendrarankingExecutionPlan(scope Construct, id *string, config KendrarankingExecutionPlanConfig) KendrarankingExecutionPlan
 ```
@@ -447,7 +447,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.kendrarankingExecutionPlan.KendrarankingExecutionPlan.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kendrarankingexecutionplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kendrarankingexecutionplan"
 
 kendrarankingexecutionplan.KendrarankingExecutionPlan_IsConstruct(x interface{}) *bool
 ```
@@ -479,7 +479,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.kendrarankingExecutionPlan.KendrarankingExecutionPlan.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kendrarankingexecutionplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kendrarankingexecutionplan"
 
 kendrarankingexecutionplan.KendrarankingExecutionPlan_IsTerraformElement(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ kendrarankingexecutionplan.KendrarankingExecutionPlan_IsTerraformElement(x inter
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.kendrarankingExecutionPlan.KendrarankingExecutionPlan.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kendrarankingexecutionplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kendrarankingexecutionplan"
 
 kendrarankingexecutionplan.KendrarankingExecutionPlan_IsTerraformResource(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ kendrarankingexecutionplan.KendrarankingExecutionPlan_IsTerraformResource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.kendrarankingExecutionPlan.KendrarankingExecutionPlan.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kendrarankingexecutionplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kendrarankingexecutionplan"
 
 kendrarankingexecutionplan.KendrarankingExecutionPlan_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -536,7 +536,7 @@ The construct id used in the generated config for the KendrarankingExecutionPlan
 
 The id of the existing KendrarankingExecutionPlan that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kendraranking_execution_plan#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kendraranking_execution_plan#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -857,7 +857,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.kendrarankingExecutionPlan.KendrarankingExecutionPlanCapacityUnits.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kendrarankingexecutionplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kendrarankingexecutionplan"
 
 &kendrarankingexecutionplan.KendrarankingExecutionPlanCapacityUnits {
 	RescoreCapacityUnits: *f64,
@@ -868,7 +868,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kendrarankingexecution
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendrarankingExecutionPlan.KendrarankingExecutionPlanCapacityUnits.property.rescoreCapacityUnits">RescoreCapacityUnits</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kendraranking_execution_plan#rescore_capacity_units KendrarankingExecutionPlan#rescore_capacity_units}. |
+| <code><a href="#@cdktn/provider-awscc.kendrarankingExecutionPlan.KendrarankingExecutionPlanCapacityUnits.property.rescoreCapacityUnits">RescoreCapacityUnits</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kendraranking_execution_plan#rescore_capacity_units KendrarankingExecutionPlan#rescore_capacity_units}. |
 
 ---
 
@@ -880,7 +880,7 @@ RescoreCapacityUnits *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kendraranking_execution_plan#rescore_capacity_units KendrarankingExecutionPlan#rescore_capacity_units}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kendraranking_execution_plan#rescore_capacity_units KendrarankingExecutionPlan#rescore_capacity_units}.
 
 ---
 
@@ -889,7 +889,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.kendrarankingExecutionPlan.KendrarankingExecutionPlanConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kendrarankingexecutionplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kendrarankingexecutionplan"
 
 &kendrarankingexecutionplan.KendrarankingExecutionPlanConfig {
 	Connection: interface{},
@@ -900,7 +900,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kendrarankingexecution
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	Name: *string,
-	CapacityUnits: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.kendrarankingExecutionPlan.KendrarankingExecutionPlanCapacityUnits,
+	CapacityUnits: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.kendrarankingExecutionPlan.KendrarankingExecutionPlanCapacityUnits,
 	Description: *string,
 	Tags: interface{},
 }
@@ -1004,7 +1004,7 @@ Name *string
 
 Name of kendra ranking rescore execution plan.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kendraranking_execution_plan#name KendrarankingExecutionPlan#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kendraranking_execution_plan#name KendrarankingExecutionPlan#name}
 
 ---
 
@@ -1018,7 +1018,7 @@ CapacityUnits KendrarankingExecutionPlanCapacityUnits
 
 Capacity units.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kendraranking_execution_plan#capacity_units KendrarankingExecutionPlan#capacity_units}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kendraranking_execution_plan#capacity_units KendrarankingExecutionPlan#capacity_units}
 
 ---
 
@@ -1032,7 +1032,7 @@ Description *string
 
 A description for the execution plan.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kendraranking_execution_plan#description KendrarankingExecutionPlan#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kendraranking_execution_plan#description KendrarankingExecutionPlan#description}
 
 ---
 
@@ -1046,7 +1046,7 @@ Tags interface{}
 
 Tags for labeling the execution plan.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kendraranking_execution_plan#tags KendrarankingExecutionPlan#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kendraranking_execution_plan#tags KendrarankingExecutionPlan#tags}
 
 ---
 
@@ -1055,7 +1055,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.kendrarankingExecutionPlan.KendrarankingExecutionPlanTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kendrarankingexecutionplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kendrarankingexecutionplan"
 
 &kendrarankingexecutionplan.KendrarankingExecutionPlanTags {
 	Key: *string,
@@ -1082,7 +1082,7 @@ Key *string
 
 A string used to identify this tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kendraranking_execution_plan#key KendrarankingExecutionPlan#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kendraranking_execution_plan#key KendrarankingExecutionPlan#key}
 
 ---
 
@@ -1096,7 +1096,7 @@ Value *string
 
 A string containing the value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kendraranking_execution_plan#value KendrarankingExecutionPlan#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kendraranking_execution_plan#value KendrarankingExecutionPlan#value}
 
 ---
 
@@ -1107,7 +1107,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kendrarankingExecutionPlan.KendrarankingExecutionPlanCapacityUnitsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kendrarankingexecutionplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kendrarankingexecutionplan"
 
 kendrarankingexecutionplan.NewKendrarankingExecutionPlanCapacityUnitsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) KendrarankingExecutionPlanCapacityUnitsOutputReference
 ```
@@ -1385,7 +1385,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kendrarankingExecutionPlan.KendrarankingExecutionPlanTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kendrarankingexecutionplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kendrarankingexecutionplan"
 
 kendrarankingexecutionplan.NewKendrarankingExecutionPlanTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) KendrarankingExecutionPlanTagsList
 ```
@@ -1545,7 +1545,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kendrarankingExecutionPlan.KendrarankingExecutionPlanTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kendrarankingexecutionplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kendrarankingexecutionplan"
 
 kendrarankingexecutionplan.NewKendrarankingExecutionPlanTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) KendrarankingExecutionPlanTagsOutputReference
 ```

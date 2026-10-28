@@ -4,12 +4,12 @@
 
 ### DataAwsccBillingconductorPricingPlan <a name="DataAwsccBillingconductorPricingPlan" id="@cdktn/provider-awscc.dataAwsccBillingconductorPricingPlan.DataAwsccBillingconductorPricingPlan"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/billingconductor_pricing_plan awscc_billingconductor_pricing_plan}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/billingconductor_pricing_plan awscc_billingconductor_pricing_plan}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBillingconductorPricingPlan.DataAwsccBillingconductorPricingPlan.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingconductorpricingplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbillingconductorpricingplan"
 
 dataawsccbillingconductorpricingplan.NewDataAwsccBillingconductorPricingPlan(scope Construct, id *string, config DataAwsccBillingconductorPricingPlanConfig) DataAwsccBillingconductorPricingPlan
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccBillingconductorPricingPlan.DataAwsccBillingconductorPricingPlan.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingconductorpricingplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbillingconductorpricingplan"
 
 dataawsccbillingconductorpricingplan.DataAwsccBillingconductorPricingPlan_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccBillingconductorPricingPlan.DataAwsccBillingconductorPricingPlan.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingconductorpricingplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbillingconductorpricingplan"
 
 dataawsccbillingconductorpricingplan.DataAwsccBillingconductorPricingPlan_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccbillingconductorpricingplan.DataAwsccBillingconductorPricingPlan_IsTerr
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccBillingconductorPricingPlan.DataAwsccBillingconductorPricingPlan.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingconductorpricingplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbillingconductorpricingplan"
 
 dataawsccbillingconductorpricingplan.DataAwsccBillingconductorPricingPlan_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccbillingconductorpricingplan.DataAwsccBillingconductorPricingPlan_IsTerr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccBillingconductorPricingPlan.DataAwsccBillingconductorPricingPlan.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingconductorpricingplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbillingconductorpricingplan"
 
 dataawsccbillingconductorpricingplan.DataAwsccBillingconductorPricingPlan_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccBillingconductorP
 
 The id of the existing DataAwsccBillingconductorPricingPlan that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/billingconductor_pricing_plan#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/billingconductor_pricing_plan#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -675,7 +675,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBillingconductorPricingPlan.DataAwsccBillingconductorPricingPlanConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingconductorpricingplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbillingconductorpricingplan"
 
 &dataawsccbillingconductorpricingplan.DataAwsccBillingconductorPricingPlanConfig {
 	Connection: interface{},
@@ -784,7 +784,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/billingconductor_pricing_plan#id DataAwsccBillingconductorPricingPlan#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/billingconductor_pricing_plan#id DataAwsccBillingconductorPricingPlan#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -796,7 +796,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBillingconductorPricingPlan.DataAwsccBillingconductorPricingPlanTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingconductorpricingplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbillingconductorpricingplan"
 
 &dataawsccbillingconductorpricingplan.DataAwsccBillingconductorPricingPlanTags {
 
@@ -811,7 +811,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingconduc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBillingconductorPricingPlan.DataAwsccBillingconductorPricingPlanTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingconductorpricingplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbillingconductorpricingplan"
 
 dataawsccbillingconductorpricingplan.NewDataAwsccBillingconductorPricingPlanTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccBillingconductorPricingPlanTagsList
 ```
@@ -960,7 +960,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBillingconductorPricingPlan.DataAwsccBillingconductorPricingPlanTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbillingconductorpricingplan"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbillingconductorpricingplan"
 
 dataawsccbillingconductorpricingplan.NewDataAwsccBillingconductorPricingPlanTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccBillingconductorPricingPlanTagsOutputReference
 ```

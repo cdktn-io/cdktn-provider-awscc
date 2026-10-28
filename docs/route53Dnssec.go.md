@@ -4,12 +4,12 @@
 
 ### Route53Dnssec <a name="Route53Dnssec" id="@cdktn/provider-awscc.route53Dnssec.Route53Dnssec"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53_dnssec awscc_route53_dnssec}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53_dnssec awscc_route53_dnssec}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.route53Dnssec.Route53Dnssec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53dnssec"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53dnssec"
 
 route53dnssec.NewRoute53Dnssec(scope Construct, id *string, config Route53DnssecConfig) Route53Dnssec
 ```
@@ -400,7 +400,7 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.route53Dnssec.Route53Dnssec.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53dnssec"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53dnssec"
 
 route53dnssec.Route53Dnssec_IsConstruct(x interface{}) *bool
 ```
@@ -432,7 +432,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.route53Dnssec.Route53Dnssec.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53dnssec"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53dnssec"
 
 route53dnssec.Route53Dnssec_IsTerraformElement(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ route53dnssec.Route53Dnssec_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.route53Dnssec.Route53Dnssec.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53dnssec"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53dnssec"
 
 route53dnssec.Route53Dnssec_IsTerraformResource(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ route53dnssec.Route53Dnssec_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.route53Dnssec.Route53Dnssec.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53dnssec"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53dnssec"
 
 route53dnssec.Route53Dnssec_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -489,7 +489,7 @@ The construct id used in the generated config for the Route53Dnssec to import.
 
 The id of the existing Route53Dnssec that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53_dnssec#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53_dnssec#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -722,7 +722,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.route53Dnssec.Route53DnssecConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53dnssec"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53dnssec"
 
 &route53dnssec.Route53DnssecConfig {
 	Connection: interface{},
@@ -831,7 +831,7 @@ HostedZoneId *string
 
 The unique string (ID) used to identify a hosted zone.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53_dnssec#hosted_zone_id Route53Dnssec#hosted_zone_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53_dnssec#hosted_zone_id Route53Dnssec#hosted_zone_id}
 
 ---
 

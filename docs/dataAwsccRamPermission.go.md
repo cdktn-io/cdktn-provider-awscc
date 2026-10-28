@@ -4,12 +4,12 @@
 
 ### DataAwsccRamPermission <a name="DataAwsccRamPermission" id="@cdktn/provider-awscc.dataAwsccRamPermission.DataAwsccRamPermission"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ram_permission awscc_ram_permission}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ram_permission awscc_ram_permission}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRamPermission.DataAwsccRamPermission.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrampermission"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrampermission"
 
 dataawsccrampermission.NewDataAwsccRamPermission(scope Construct, id *string, config DataAwsccRamPermissionConfig) DataAwsccRamPermission
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccRamPermission.DataAwsccRamPermission.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrampermission"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrampermission"
 
 dataawsccrampermission.DataAwsccRamPermission_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccRamPermission.DataAwsccRamPermission.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrampermission"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrampermission"
 
 dataawsccrampermission.DataAwsccRamPermission_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccrampermission.DataAwsccRamPermission_IsTerraformElement(x interface{}) 
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccRamPermission.DataAwsccRamPermission.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrampermission"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrampermission"
 
 dataawsccrampermission.DataAwsccRamPermission_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccrampermission.DataAwsccRamPermission_IsTerraformDataSource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccRamPermission.DataAwsccRamPermission.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrampermission"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrampermission"
 
 dataawsccrampermission.DataAwsccRamPermission_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRamPermission to 
 
 The id of the existing DataAwsccRamPermission that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ram_permission#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ram_permission#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -675,7 +675,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRamPermission.DataAwsccRamPermissionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrampermission"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrampermission"
 
 &dataawsccrampermission.DataAwsccRamPermissionConfig {
 	Connection: interface{},
@@ -784,7 +784,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ram_permission#id DataAwsccRamPermission#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ram_permission#id DataAwsccRamPermission#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -796,7 +796,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRamPermission.DataAwsccRamPermissionTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrampermission"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrampermission"
 
 &dataawsccrampermission.DataAwsccRamPermissionTags {
 
@@ -811,7 +811,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrampermission
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRamPermission.DataAwsccRamPermissionTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrampermission"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrampermission"
 
 dataawsccrampermission.NewDataAwsccRamPermissionTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccRamPermissionTagsList
 ```
@@ -960,7 +960,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRamPermission.DataAwsccRamPermissionTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrampermission"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrampermission"
 
 dataawsccrampermission.NewDataAwsccRamPermissionTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccRamPermissionTagsOutputReference
 ```

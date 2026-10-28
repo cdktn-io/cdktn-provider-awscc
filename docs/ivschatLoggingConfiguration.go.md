@@ -4,12 +4,12 @@
 
 ### IvschatLoggingConfiguration <a name="IvschatLoggingConfiguration" id="@cdktn/provider-awscc.ivschatLoggingConfiguration.IvschatLoggingConfiguration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivschat_logging_configuration awscc_ivschat_logging_configuration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivschat_logging_configuration awscc_ivschat_logging_configuration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ivschatLoggingConfiguration.IvschatLoggingConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivschatloggingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivschatloggingconfiguration"
 
 ivschatloggingconfiguration.NewIvschatLoggingConfiguration(scope Construct, id *string, config IvschatLoggingConfigurationConfig) IvschatLoggingConfiguration
 ```
@@ -440,7 +440,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.ivschatLoggingConfiguration.IvschatLoggingConfiguration.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivschatloggingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivschatloggingconfiguration"
 
 ivschatloggingconfiguration.IvschatLoggingConfiguration_IsConstruct(x interface{}) *bool
 ```
@@ -472,7 +472,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.ivschatLoggingConfiguration.IvschatLoggingConfiguration.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivschatloggingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivschatloggingconfiguration"
 
 ivschatloggingconfiguration.IvschatLoggingConfiguration_IsTerraformElement(x interface{}) *bool
 ```
@@ -486,7 +486,7 @@ ivschatloggingconfiguration.IvschatLoggingConfiguration_IsTerraformElement(x int
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.ivschatLoggingConfiguration.IvschatLoggingConfiguration.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivschatloggingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivschatloggingconfiguration"
 
 ivschatloggingconfiguration.IvschatLoggingConfiguration_IsTerraformResource(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ ivschatloggingconfiguration.IvschatLoggingConfiguration_IsTerraformResource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.ivschatLoggingConfiguration.IvschatLoggingConfiguration.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivschatloggingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivschatloggingconfiguration"
 
 ivschatloggingconfiguration.IvschatLoggingConfiguration_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -529,7 +529,7 @@ The construct id used in the generated config for the IvschatLoggingConfiguratio
 
 The id of the existing IvschatLoggingConfiguration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivschat_logging_configuration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivschat_logging_configuration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -839,7 +839,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ivschatLoggingConfiguration.IvschatLoggingConfigurationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivschatloggingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivschatloggingconfiguration"
 
 &ivschatloggingconfiguration.IvschatLoggingConfigurationConfig {
 	Connection: interface{},
@@ -849,7 +849,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivschatloggingconfigur
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	DestinationConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ivschatLoggingConfiguration.IvschatLoggingConfigurationDestinationConfiguration,
+	DestinationConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ivschatLoggingConfiguration.IvschatLoggingConfigurationDestinationConfiguration,
 	Name: *string,
 	Tags: interface{},
 }
@@ -952,7 +952,7 @@ DestinationConfiguration IvschatLoggingConfigurationDestinationConfiguration
 
 Destination configuration for IVS Chat logging.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivschat_logging_configuration#destination_configuration IvschatLoggingConfiguration#destination_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivschat_logging_configuration#destination_configuration IvschatLoggingConfiguration#destination_configuration}
 
 ---
 
@@ -966,7 +966,7 @@ Name *string
 
 The name of the logging configuration. The value does not need to be unique.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivschat_logging_configuration#name IvschatLoggingConfiguration#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivschat_logging_configuration#name IvschatLoggingConfiguration#name}
 
 ---
 
@@ -980,7 +980,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivschat_logging_configuration#tags IvschatLoggingConfiguration#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivschat_logging_configuration#tags IvschatLoggingConfiguration#tags}
 
 ---
 
@@ -989,12 +989,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ivschatLoggingConfiguration.IvschatLoggingConfigurationDestinationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivschatloggingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivschatloggingconfiguration"
 
 &ivschatloggingconfiguration.IvschatLoggingConfigurationDestinationConfiguration {
-	CloudwatchLogs: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ivschatLoggingConfiguration.IvschatLoggingConfigurationDestinationConfigurationCloudwatchLogs,
-	Firehose: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ivschatLoggingConfiguration.IvschatLoggingConfigurationDestinationConfigurationFirehose,
-	S3: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ivschatLoggingConfiguration.IvschatLoggingConfigurationDestinationConfigurationS3,
+	CloudwatchLogs: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ivschatLoggingConfiguration.IvschatLoggingConfigurationDestinationConfigurationCloudwatchLogs,
+	Firehose: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ivschatLoggingConfiguration.IvschatLoggingConfigurationDestinationConfigurationFirehose,
+	S3: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ivschatLoggingConfiguration.IvschatLoggingConfigurationDestinationConfigurationS3,
 }
 ```
 
@@ -1018,7 +1018,7 @@ CloudwatchLogs IvschatLoggingConfigurationDestinationConfigurationCloudwatchLogs
 
 CloudWatch destination configuration for IVS Chat logging.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivschat_logging_configuration#cloudwatch_logs IvschatLoggingConfiguration#cloudwatch_logs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivschat_logging_configuration#cloudwatch_logs IvschatLoggingConfiguration#cloudwatch_logs}
 
 ---
 
@@ -1032,7 +1032,7 @@ Firehose IvschatLoggingConfigurationDestinationConfigurationFirehose
 
 Kinesis Firehose destination configuration for IVS Chat logging.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivschat_logging_configuration#firehose IvschatLoggingConfiguration#firehose}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivschat_logging_configuration#firehose IvschatLoggingConfiguration#firehose}
 
 ---
 
@@ -1046,7 +1046,7 @@ S3 IvschatLoggingConfigurationDestinationConfigurationS3
 
 S3 destination configuration for IVS Chat logging.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivschat_logging_configuration#s3 IvschatLoggingConfiguration#s3}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivschat_logging_configuration#s3 IvschatLoggingConfiguration#s3}
 
 ---
 
@@ -1055,7 +1055,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ivschatLoggingConfiguration.IvschatLoggingConfigurationDestinationConfigurationCloudwatchLogs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivschatloggingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivschatloggingconfiguration"
 
 &ivschatloggingconfiguration.IvschatLoggingConfigurationDestinationConfigurationCloudwatchLogs {
 	LogGroupName: *string,
@@ -1080,7 +1080,7 @@ LogGroupName *string
 
 Name of the Amazon CloudWatch Logs log group where chat activity will be logged.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivschat_logging_configuration#log_group_name IvschatLoggingConfiguration#log_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivschat_logging_configuration#log_group_name IvschatLoggingConfiguration#log_group_name}
 
 ---
 
@@ -1089,7 +1089,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ivschatLoggingConfiguration.IvschatLoggingConfigurationDestinationConfigurationFirehose.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivschatloggingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivschatloggingconfiguration"
 
 &ivschatloggingconfiguration.IvschatLoggingConfigurationDestinationConfigurationFirehose {
 	DeliveryStreamName: *string,
@@ -1114,7 +1114,7 @@ DeliveryStreamName *string
 
 Name of the Amazon Kinesis Firehose delivery stream where chat activity will be logged.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivschat_logging_configuration#delivery_stream_name IvschatLoggingConfiguration#delivery_stream_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivschat_logging_configuration#delivery_stream_name IvschatLoggingConfiguration#delivery_stream_name}
 
 ---
 
@@ -1123,7 +1123,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ivschatLoggingConfiguration.IvschatLoggingConfigurationDestinationConfigurationS3.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivschatloggingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivschatloggingconfiguration"
 
 &ivschatloggingconfiguration.IvschatLoggingConfigurationDestinationConfigurationS3 {
 	BucketName: *string,
@@ -1148,7 +1148,7 @@ BucketName *string
 
 Name of the Amazon S3 bucket where chat activity will be logged.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivschat_logging_configuration#bucket_name IvschatLoggingConfiguration#bucket_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivschat_logging_configuration#bucket_name IvschatLoggingConfiguration#bucket_name}
 
 ---
 
@@ -1157,7 +1157,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ivschatLoggingConfiguration.IvschatLoggingConfigurationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivschatloggingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivschatloggingconfiguration"
 
 &ivschatloggingconfiguration.IvschatLoggingConfigurationTags {
 	Key: *string,
@@ -1186,7 +1186,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivschat_logging_configuration#key IvschatLoggingConfiguration#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivschat_logging_configuration#key IvschatLoggingConfiguration#key}
 
 ---
 
@@ -1202,7 +1202,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivschat_logging_configuration#value IvschatLoggingConfiguration#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivschat_logging_configuration#value IvschatLoggingConfiguration#value}
 
 ---
 
@@ -1213,7 +1213,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ivschatLoggingConfiguration.IvschatLoggingConfigurationDestinationConfigurationCloudwatchLogsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivschatloggingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivschatloggingconfiguration"
 
 ivschatloggingconfiguration.NewIvschatLoggingConfigurationDestinationConfigurationCloudwatchLogsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IvschatLoggingConfigurationDestinationConfigurationCloudwatchLogsOutputReference
 ```
@@ -1491,7 +1491,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ivschatLoggingConfiguration.IvschatLoggingConfigurationDestinationConfigurationFirehoseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivschatloggingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivschatloggingconfiguration"
 
 ivschatloggingconfiguration.NewIvschatLoggingConfigurationDestinationConfigurationFirehoseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IvschatLoggingConfigurationDestinationConfigurationFirehoseOutputReference
 ```
@@ -1769,7 +1769,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ivschatLoggingConfiguration.IvschatLoggingConfigurationDestinationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivschatloggingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivschatloggingconfiguration"
 
 ivschatloggingconfiguration.NewIvschatLoggingConfigurationDestinationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IvschatLoggingConfigurationDestinationConfigurationOutputReference
 ```
@@ -2144,7 +2144,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ivschatLoggingConfiguration.IvschatLoggingConfigurationDestinationConfigurationS3OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivschatloggingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivschatloggingconfiguration"
 
 ivschatloggingconfiguration.NewIvschatLoggingConfigurationDestinationConfigurationS3OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IvschatLoggingConfigurationDestinationConfigurationS3OutputReference
 ```
@@ -2422,7 +2422,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ivschatLoggingConfiguration.IvschatLoggingConfigurationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivschatloggingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivschatloggingconfiguration"
 
 ivschatloggingconfiguration.NewIvschatLoggingConfigurationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IvschatLoggingConfigurationTagsList
 ```
@@ -2582,7 +2582,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ivschatLoggingConfiguration.IvschatLoggingConfigurationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivschatloggingconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivschatloggingconfiguration"
 
 ivschatloggingconfiguration.NewIvschatLoggingConfigurationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IvschatLoggingConfigurationTagsOutputReference
 ```

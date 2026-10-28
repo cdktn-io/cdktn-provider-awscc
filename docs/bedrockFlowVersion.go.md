@@ -4,12 +4,12 @@
 
 ### BedrockFlowVersion <a name="BedrockFlowVersion" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersion"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_flow_version awscc_bedrock_flow_version}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_flow_version awscc_bedrock_flow_version}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersion.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 bedrockflowversion.NewBedrockFlowVersion(scope Construct, id *string, config BedrockFlowVersionConfig) BedrockFlowVersion
 ```
@@ -407,7 +407,7 @@ func ResetDescription()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersion.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 bedrockflowversion.BedrockFlowVersion_IsConstruct(x interface{}) *bool
 ```
@@ -439,7 +439,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersion.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 bedrockflowversion.BedrockFlowVersion_IsTerraformElement(x interface{}) *bool
 ```
@@ -453,7 +453,7 @@ bedrockflowversion.BedrockFlowVersion_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersion.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 bedrockflowversion.BedrockFlowVersion_IsTerraformResource(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ bedrockflowversion.BedrockFlowVersion_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersion.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 bedrockflowversion.BedrockFlowVersion_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -496,7 +496,7 @@ The construct id used in the generated config for the BedrockFlowVersion to impo
 
 The id of the existing BedrockFlowVersion that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_flow_version#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_flow_version#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -839,7 +839,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 &bedrockflowversion.BedrockFlowVersionConfig {
 	Connection: interface{},
@@ -950,7 +950,7 @@ FlowArn *string
 
 Arn representation of the Flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_flow_version#flow_arn BedrockFlowVersion#flow_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_flow_version#flow_arn BedrockFlowVersion#flow_arn}
 
 ---
 
@@ -964,7 +964,7 @@ Description *string
 
 Description of the flow version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_flow_version#description BedrockFlowVersion#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_flow_version#description BedrockFlowVersion#description}
 
 ---
 
@@ -973,7 +973,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 &bedrockflowversion.BedrockFlowVersionDefinition {
 
@@ -986,7 +986,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinitionConnections.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 &bedrockflowversion.BedrockFlowVersionDefinitionConnections {
 
@@ -999,7 +999,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinitionConnectionsConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 &bedrockflowversion.BedrockFlowVersionDefinitionConnectionsConfiguration {
 
@@ -1012,7 +1012,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinitionConnectionsConfigurationConditional.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 &bedrockflowversion.BedrockFlowVersionDefinitionConnectionsConfigurationConditional {
 
@@ -1025,7 +1025,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinitionConnectionsConfigurationData.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 &bedrockflowversion.BedrockFlowVersionDefinitionConnectionsConfigurationData {
 
@@ -1038,7 +1038,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinitionNodes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 &bedrockflowversion.BedrockFlowVersionDefinitionNodes {
 
@@ -1051,7 +1051,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinitionNodesConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 &bedrockflowversion.BedrockFlowVersionDefinitionNodesConfiguration {
 
@@ -1064,7 +1064,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinitionNodesConfigurationAgent.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 &bedrockflowversion.BedrockFlowVersionDefinitionNodesConfigurationAgent {
 
@@ -1077,7 +1077,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinitionNodesConfigurationCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 &bedrockflowversion.BedrockFlowVersionDefinitionNodesConfigurationCondition {
 
@@ -1090,7 +1090,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinitionNodesConfigurationConditionConditions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 &bedrockflowversion.BedrockFlowVersionDefinitionNodesConfigurationConditionConditions {
 
@@ -1103,7 +1103,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinitionNodesConfigurationInlineCode.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 &bedrockflowversion.BedrockFlowVersionDefinitionNodesConfigurationInlineCode {
 
@@ -1116,7 +1116,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinitionNodesConfigurationKnowledgeBase.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 &bedrockflowversion.BedrockFlowVersionDefinitionNodesConfigurationKnowledgeBase {
 
@@ -1129,7 +1129,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinitionNodesConfigurationKnowledgeBaseGuardrailConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 &bedrockflowversion.BedrockFlowVersionDefinitionNodesConfigurationKnowledgeBaseGuardrailConfiguration {
 
@@ -1142,7 +1142,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinitionNodesConfigurationLambdaFunction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 &bedrockflowversion.BedrockFlowVersionDefinitionNodesConfigurationLambdaFunction {
 
@@ -1155,7 +1155,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinitionNodesConfigurationLex.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 &bedrockflowversion.BedrockFlowVersionDefinitionNodesConfigurationLex {
 
@@ -1168,7 +1168,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinitionNodesConfigurationPrompt.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 &bedrockflowversion.BedrockFlowVersionDefinitionNodesConfigurationPrompt {
 
@@ -1181,7 +1181,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinitionNodesConfigurationPromptGuardrailConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 &bedrockflowversion.BedrockFlowVersionDefinitionNodesConfigurationPromptGuardrailConfiguration {
 
@@ -1194,7 +1194,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinitionNodesConfigurationPromptSourceConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 &bedrockflowversion.BedrockFlowVersionDefinitionNodesConfigurationPromptSourceConfiguration {
 
@@ -1207,7 +1207,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinitionNodesConfigurationPromptSourceConfigurationInline.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 &bedrockflowversion.BedrockFlowVersionDefinitionNodesConfigurationPromptSourceConfigurationInline {
 
@@ -1220,7 +1220,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinitionNodesConfigurationPromptSourceConfigurationInlineInferenceConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 &bedrockflowversion.BedrockFlowVersionDefinitionNodesConfigurationPromptSourceConfigurationInlineInferenceConfiguration {
 
@@ -1233,7 +1233,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinitionNodesConfigurationPromptSourceConfigurationInlineInferenceConfigurationText.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 &bedrockflowversion.BedrockFlowVersionDefinitionNodesConfigurationPromptSourceConfigurationInlineInferenceConfigurationText {
 
@@ -1246,7 +1246,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinitionNodesConfigurationPromptSourceConfigurationInlineTemplateConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 &bedrockflowversion.BedrockFlowVersionDefinitionNodesConfigurationPromptSourceConfigurationInlineTemplateConfiguration {
 
@@ -1259,7 +1259,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinitionNodesConfigurationPromptSourceConfigurationInlineTemplateConfigurationText.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 &bedrockflowversion.BedrockFlowVersionDefinitionNodesConfigurationPromptSourceConfigurationInlineTemplateConfigurationText {
 
@@ -1272,7 +1272,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinitionNodesConfigurationPromptSourceConfigurationInlineTemplateConfigurationTextInputVariables.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 &bedrockflowversion.BedrockFlowVersionDefinitionNodesConfigurationPromptSourceConfigurationInlineTemplateConfigurationTextInputVariables {
 
@@ -1285,7 +1285,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinitionNodesConfigurationPromptSourceConfigurationResource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 &bedrockflowversion.BedrockFlowVersionDefinitionNodesConfigurationPromptSourceConfigurationResource {
 
@@ -1298,7 +1298,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinitionNodesConfigurationRetrieval.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 &bedrockflowversion.BedrockFlowVersionDefinitionNodesConfigurationRetrieval {
 
@@ -1311,7 +1311,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinitionNodesConfigurationRetrievalServiceConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 &bedrockflowversion.BedrockFlowVersionDefinitionNodesConfigurationRetrievalServiceConfiguration {
 
@@ -1324,7 +1324,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinitionNodesConfigurationRetrievalServiceConfigurationS3.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 &bedrockflowversion.BedrockFlowVersionDefinitionNodesConfigurationRetrievalServiceConfigurationS3 {
 
@@ -1337,7 +1337,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinitionNodesConfigurationStorage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 &bedrockflowversion.BedrockFlowVersionDefinitionNodesConfigurationStorage {
 
@@ -1350,7 +1350,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinitionNodesConfigurationStorageServiceConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 &bedrockflowversion.BedrockFlowVersionDefinitionNodesConfigurationStorageServiceConfiguration {
 
@@ -1363,7 +1363,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinitionNodesConfigurationStorageServiceConfigurationS3.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 &bedrockflowversion.BedrockFlowVersionDefinitionNodesConfigurationStorageServiceConfigurationS3 {
 
@@ -1376,7 +1376,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinitionNodesInputs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 &bedrockflowversion.BedrockFlowVersionDefinitionNodesInputs {
 
@@ -1389,7 +1389,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinitionNodesOutputs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 &bedrockflowversion.BedrockFlowVersionDefinitionNodesOutputs {
 
@@ -1404,7 +1404,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinitionConnectionsConfigurationConditionalOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 bedrockflowversion.NewBedrockFlowVersionDefinitionConnectionsConfigurationConditionalOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockFlowVersionDefinitionConnectionsConfigurationConditionalOutputReference
 ```
@@ -1664,7 +1664,7 @@ func InternalValue() BedrockFlowVersionDefinitionConnectionsConfigurationConditi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinitionConnectionsConfigurationDataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 bedrockflowversion.NewBedrockFlowVersionDefinitionConnectionsConfigurationDataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockFlowVersionDefinitionConnectionsConfigurationDataOutputReference
 ```
@@ -1935,7 +1935,7 @@ func InternalValue() BedrockFlowVersionDefinitionConnectionsConfigurationData
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinitionConnectionsConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 bedrockflowversion.NewBedrockFlowVersionDefinitionConnectionsConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockFlowVersionDefinitionConnectionsConfigurationOutputReference
 ```
@@ -2206,7 +2206,7 @@ func InternalValue() BedrockFlowVersionDefinitionConnectionsConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinitionConnectionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 bedrockflowversion.NewBedrockFlowVersionDefinitionConnectionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BedrockFlowVersionDefinitionConnectionsList
 ```
@@ -2355,7 +2355,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinitionConnectionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 bedrockflowversion.NewBedrockFlowVersionDefinitionConnectionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) BedrockFlowVersionDefinitionConnectionsOutputReference
 ```
@@ -2677,7 +2677,7 @@ func InternalValue() BedrockFlowVersionDefinitionConnections
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinitionNodesConfigurationAgentOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 bedrockflowversion.NewBedrockFlowVersionDefinitionNodesConfigurationAgentOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockFlowVersionDefinitionNodesConfigurationAgentOutputReference
 ```
@@ -2937,7 +2937,7 @@ func InternalValue() BedrockFlowVersionDefinitionNodesConfigurationAgent
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinitionNodesConfigurationConditionConditionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 bedrockflowversion.NewBedrockFlowVersionDefinitionNodesConfigurationConditionConditionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BedrockFlowVersionDefinitionNodesConfigurationConditionConditionsList
 ```
@@ -3086,7 +3086,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinitionNodesConfigurationConditionConditionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 bedrockflowversion.NewBedrockFlowVersionDefinitionNodesConfigurationConditionConditionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) BedrockFlowVersionDefinitionNodesConfigurationConditionConditionsOutputReference
 ```
@@ -3375,7 +3375,7 @@ func InternalValue() BedrockFlowVersionDefinitionNodesConfigurationConditionCond
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinitionNodesConfigurationConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 bedrockflowversion.NewBedrockFlowVersionDefinitionNodesConfigurationConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockFlowVersionDefinitionNodesConfigurationConditionOutputReference
 ```
@@ -3635,7 +3635,7 @@ func InternalValue() BedrockFlowVersionDefinitionNodesConfigurationCondition
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinitionNodesConfigurationInlineCodeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 bedrockflowversion.NewBedrockFlowVersionDefinitionNodesConfigurationInlineCodeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockFlowVersionDefinitionNodesConfigurationInlineCodeOutputReference
 ```
@@ -3906,7 +3906,7 @@ func InternalValue() BedrockFlowVersionDefinitionNodesConfigurationInlineCode
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinitionNodesConfigurationKnowledgeBaseGuardrailConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 bedrockflowversion.NewBedrockFlowVersionDefinitionNodesConfigurationKnowledgeBaseGuardrailConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockFlowVersionDefinitionNodesConfigurationKnowledgeBaseGuardrailConfigurationOutputReference
 ```
@@ -4177,7 +4177,7 @@ func InternalValue() BedrockFlowVersionDefinitionNodesConfigurationKnowledgeBase
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinitionNodesConfigurationKnowledgeBaseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 bedrockflowversion.NewBedrockFlowVersionDefinitionNodesConfigurationKnowledgeBaseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockFlowVersionDefinitionNodesConfigurationKnowledgeBaseOutputReference
 ```
@@ -4459,7 +4459,7 @@ func InternalValue() BedrockFlowVersionDefinitionNodesConfigurationKnowledgeBase
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinitionNodesConfigurationLambdaFunctionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 bedrockflowversion.NewBedrockFlowVersionDefinitionNodesConfigurationLambdaFunctionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockFlowVersionDefinitionNodesConfigurationLambdaFunctionOutputReference
 ```
@@ -4719,7 +4719,7 @@ func InternalValue() BedrockFlowVersionDefinitionNodesConfigurationLambdaFunctio
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinitionNodesConfigurationLexOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 bedrockflowversion.NewBedrockFlowVersionDefinitionNodesConfigurationLexOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockFlowVersionDefinitionNodesConfigurationLexOutputReference
 ```
@@ -4990,7 +4990,7 @@ func InternalValue() BedrockFlowVersionDefinitionNodesConfigurationLex
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinitionNodesConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 bedrockflowversion.NewBedrockFlowVersionDefinitionNodesConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockFlowVersionDefinitionNodesConfigurationOutputReference
 ```
@@ -5382,7 +5382,7 @@ func InternalValue() BedrockFlowVersionDefinitionNodesConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinitionNodesConfigurationPromptGuardrailConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 bedrockflowversion.NewBedrockFlowVersionDefinitionNodesConfigurationPromptGuardrailConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockFlowVersionDefinitionNodesConfigurationPromptGuardrailConfigurationOutputReference
 ```
@@ -5653,7 +5653,7 @@ func InternalValue() BedrockFlowVersionDefinitionNodesConfigurationPromptGuardra
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinitionNodesConfigurationPromptOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 bedrockflowversion.NewBedrockFlowVersionDefinitionNodesConfigurationPromptOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockFlowVersionDefinitionNodesConfigurationPromptOutputReference
 ```
@@ -5924,7 +5924,7 @@ func InternalValue() BedrockFlowVersionDefinitionNodesConfigurationPrompt
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinitionNodesConfigurationPromptSourceConfigurationInlineInferenceConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 bedrockflowversion.NewBedrockFlowVersionDefinitionNodesConfigurationPromptSourceConfigurationInlineInferenceConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockFlowVersionDefinitionNodesConfigurationPromptSourceConfigurationInlineInferenceConfigurationOutputReference
 ```
@@ -6184,7 +6184,7 @@ func InternalValue() BedrockFlowVersionDefinitionNodesConfigurationPromptSourceC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinitionNodesConfigurationPromptSourceConfigurationInlineInferenceConfigurationTextOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 bedrockflowversion.NewBedrockFlowVersionDefinitionNodesConfigurationPromptSourceConfigurationInlineInferenceConfigurationTextOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockFlowVersionDefinitionNodesConfigurationPromptSourceConfigurationInlineInferenceConfigurationTextOutputReference
 ```
@@ -6477,7 +6477,7 @@ func InternalValue() BedrockFlowVersionDefinitionNodesConfigurationPromptSourceC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinitionNodesConfigurationPromptSourceConfigurationInlineOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 bedrockflowversion.NewBedrockFlowVersionDefinitionNodesConfigurationPromptSourceConfigurationInlineOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockFlowVersionDefinitionNodesConfigurationPromptSourceConfigurationInlineOutputReference
 ```
@@ -6770,7 +6770,7 @@ func InternalValue() BedrockFlowVersionDefinitionNodesConfigurationPromptSourceC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinitionNodesConfigurationPromptSourceConfigurationInlineTemplateConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 bedrockflowversion.NewBedrockFlowVersionDefinitionNodesConfigurationPromptSourceConfigurationInlineTemplateConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockFlowVersionDefinitionNodesConfigurationPromptSourceConfigurationInlineTemplateConfigurationOutputReference
 ```
@@ -7030,7 +7030,7 @@ func InternalValue() BedrockFlowVersionDefinitionNodesConfigurationPromptSourceC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinitionNodesConfigurationPromptSourceConfigurationInlineTemplateConfigurationTextInputVariablesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 bedrockflowversion.NewBedrockFlowVersionDefinitionNodesConfigurationPromptSourceConfigurationInlineTemplateConfigurationTextInputVariablesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BedrockFlowVersionDefinitionNodesConfigurationPromptSourceConfigurationInlineTemplateConfigurationTextInputVariablesList
 ```
@@ -7179,7 +7179,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinitionNodesConfigurationPromptSourceConfigurationInlineTemplateConfigurationTextInputVariablesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 bedrockflowversion.NewBedrockFlowVersionDefinitionNodesConfigurationPromptSourceConfigurationInlineTemplateConfigurationTextInputVariablesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) BedrockFlowVersionDefinitionNodesConfigurationPromptSourceConfigurationInlineTemplateConfigurationTextInputVariablesOutputReference
 ```
@@ -7457,7 +7457,7 @@ func InternalValue() BedrockFlowVersionDefinitionNodesConfigurationPromptSourceC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinitionNodesConfigurationPromptSourceConfigurationInlineTemplateConfigurationTextOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 bedrockflowversion.NewBedrockFlowVersionDefinitionNodesConfigurationPromptSourceConfigurationInlineTemplateConfigurationTextOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockFlowVersionDefinitionNodesConfigurationPromptSourceConfigurationInlineTemplateConfigurationTextOutputReference
 ```
@@ -7728,7 +7728,7 @@ func InternalValue() BedrockFlowVersionDefinitionNodesConfigurationPromptSourceC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinitionNodesConfigurationPromptSourceConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 bedrockflowversion.NewBedrockFlowVersionDefinitionNodesConfigurationPromptSourceConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockFlowVersionDefinitionNodesConfigurationPromptSourceConfigurationOutputReference
 ```
@@ -7999,7 +7999,7 @@ func InternalValue() BedrockFlowVersionDefinitionNodesConfigurationPromptSourceC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinitionNodesConfigurationPromptSourceConfigurationResourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 bedrockflowversion.NewBedrockFlowVersionDefinitionNodesConfigurationPromptSourceConfigurationResourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockFlowVersionDefinitionNodesConfigurationPromptSourceConfigurationResourceOutputReference
 ```
@@ -8259,7 +8259,7 @@ func InternalValue() BedrockFlowVersionDefinitionNodesConfigurationPromptSourceC
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinitionNodesConfigurationRetrievalOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 bedrockflowversion.NewBedrockFlowVersionDefinitionNodesConfigurationRetrievalOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockFlowVersionDefinitionNodesConfigurationRetrievalOutputReference
 ```
@@ -8519,7 +8519,7 @@ func InternalValue() BedrockFlowVersionDefinitionNodesConfigurationRetrieval
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinitionNodesConfigurationRetrievalServiceConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 bedrockflowversion.NewBedrockFlowVersionDefinitionNodesConfigurationRetrievalServiceConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockFlowVersionDefinitionNodesConfigurationRetrievalServiceConfigurationOutputReference
 ```
@@ -8779,7 +8779,7 @@ func InternalValue() BedrockFlowVersionDefinitionNodesConfigurationRetrievalServ
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinitionNodesConfigurationRetrievalServiceConfigurationS3OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 bedrockflowversion.NewBedrockFlowVersionDefinitionNodesConfigurationRetrievalServiceConfigurationS3OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockFlowVersionDefinitionNodesConfigurationRetrievalServiceConfigurationS3OutputReference
 ```
@@ -9039,7 +9039,7 @@ func InternalValue() BedrockFlowVersionDefinitionNodesConfigurationRetrievalServ
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinitionNodesConfigurationStorageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 bedrockflowversion.NewBedrockFlowVersionDefinitionNodesConfigurationStorageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockFlowVersionDefinitionNodesConfigurationStorageOutputReference
 ```
@@ -9299,7 +9299,7 @@ func InternalValue() BedrockFlowVersionDefinitionNodesConfigurationStorage
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinitionNodesConfigurationStorageServiceConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 bedrockflowversion.NewBedrockFlowVersionDefinitionNodesConfigurationStorageServiceConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockFlowVersionDefinitionNodesConfigurationStorageServiceConfigurationOutputReference
 ```
@@ -9559,7 +9559,7 @@ func InternalValue() BedrockFlowVersionDefinitionNodesConfigurationStorageServic
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinitionNodesConfigurationStorageServiceConfigurationS3OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 bedrockflowversion.NewBedrockFlowVersionDefinitionNodesConfigurationStorageServiceConfigurationS3OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockFlowVersionDefinitionNodesConfigurationStorageServiceConfigurationS3OutputReference
 ```
@@ -9819,7 +9819,7 @@ func InternalValue() BedrockFlowVersionDefinitionNodesConfigurationStorageServic
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinitionNodesInputsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 bedrockflowversion.NewBedrockFlowVersionDefinitionNodesInputsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BedrockFlowVersionDefinitionNodesInputsList
 ```
@@ -9968,7 +9968,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinitionNodesInputsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 bedrockflowversion.NewBedrockFlowVersionDefinitionNodesInputsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) BedrockFlowVersionDefinitionNodesInputsOutputReference
 ```
@@ -10268,7 +10268,7 @@ func InternalValue() BedrockFlowVersionDefinitionNodesInputs
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinitionNodesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 bedrockflowversion.NewBedrockFlowVersionDefinitionNodesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BedrockFlowVersionDefinitionNodesList
 ```
@@ -10417,7 +10417,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinitionNodesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 bedrockflowversion.NewBedrockFlowVersionDefinitionNodesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) BedrockFlowVersionDefinitionNodesOutputReference
 ```
@@ -10739,7 +10739,7 @@ func InternalValue() BedrockFlowVersionDefinitionNodes
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinitionNodesOutputsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 bedrockflowversion.NewBedrockFlowVersionDefinitionNodesOutputsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BedrockFlowVersionDefinitionNodesOutputsList
 ```
@@ -10888,7 +10888,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinitionNodesOutputsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 bedrockflowversion.NewBedrockFlowVersionDefinitionNodesOutputsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) BedrockFlowVersionDefinitionNodesOutputsOutputReference
 ```
@@ -11177,7 +11177,7 @@ func InternalValue() BedrockFlowVersionDefinitionNodesOutputs
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockFlowVersion.BedrockFlowVersionDefinitionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockflowversion"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockflowversion"
 
 bedrockflowversion.NewBedrockFlowVersionDefinitionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BedrockFlowVersionDefinitionOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccLightsailLoadBalancerTlsCertificates <a name="DataAwsccLightsailLoadBalancerTlsCertificates" id="@cdktn/provider-awscc.dataAwsccLightsailLoadBalancerTlsCertificates.DataAwsccLightsailLoadBalancerTlsCertificates"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lightsail_load_balancer_tls_certificates awscc_lightsail_load_balancer_tls_certificates}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lightsail_load_balancer_tls_certificates awscc_lightsail_load_balancer_tls_certificates}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLightsailLoadBalancerTlsCertificates.DataAwsccLightsailLoadBalancerTlsCertificates.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailloadbalancertlscertificates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailloadbalancertlscertificates"
 
 dataawscclightsailloadbalancertlscertificates.NewDataAwsccLightsailLoadBalancerTlsCertificates(scope Construct, id *string, config DataAwsccLightsailLoadBalancerTlsCertificatesConfig) DataAwsccLightsailLoadBalancerTlsCertificates
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccLightsailLoadBalancerTlsCertificates.DataAwsccLightsailLoadBalancerTlsCertificates.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailloadbalancertlscertificates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailloadbalancertlscertificates"
 
 dataawscclightsailloadbalancertlscertificates.DataAwsccLightsailLoadBalancerTlsCertificates_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccLightsailLoadBalancerTlsCertificates.DataAwsccLightsailLoadBalancerTlsCertificates.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailloadbalancertlscertificates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailloadbalancertlscertificates"
 
 dataawscclightsailloadbalancertlscertificates.DataAwsccLightsailLoadBalancerTlsCertificates_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscclightsailloadbalancertlscertificates.DataAwsccLightsailLoadBalancerTlsC
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccLightsailLoadBalancerTlsCertificates.DataAwsccLightsailLoadBalancerTlsCertificates.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailloadbalancertlscertificates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailloadbalancertlscertificates"
 
 dataawscclightsailloadbalancertlscertificates.DataAwsccLightsailLoadBalancerTlsCertificates_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscclightsailloadbalancertlscertificates.DataAwsccLightsailLoadBalancerTlsC
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccLightsailLoadBalancerTlsCertificates.DataAwsccLightsailLoadBalancerTlsCertificates.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailloadbalancertlscertificates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailloadbalancertlscertificates"
 
 dataawscclightsailloadbalancertlscertificates.DataAwsccLightsailLoadBalancerTlsCertificates_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLightsailLoadBala
 
 The id of the existing DataAwsccLightsailLoadBalancerTlsCertificates that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lightsail_load_balancer_tls_certificates#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lightsail_load_balancer_tls_certificates#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLightsailLoadBalancerTlsCertificates.DataAwsccLightsailLoadBalancerTlsCertificatesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailloadbalancertlscertificates"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailloadbalancertlscertificates"
 
 &dataawscclightsailloadbalancertlscertificates.DataAwsccLightsailLoadBalancerTlsCertificatesConfig {
 	Connection: interface{},

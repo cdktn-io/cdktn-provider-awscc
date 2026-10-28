@@ -4,12 +4,12 @@
 
 ### DataAwsccIotRoleAlias <a name="DataAwsccIotRoleAlias" id="@cdktn/provider-awscc.dataAwsccIotRoleAlias.DataAwsccIotRoleAlias"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_role_alias awscc_iot_role_alias}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_role_alias awscc_iot_role_alias}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotRoleAlias.DataAwsccIotRoleAlias.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotrolealias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotrolealias"
 
 dataawscciotrolealias.NewDataAwsccIotRoleAlias(scope Construct, id *string, config DataAwsccIotRoleAliasConfig) DataAwsccIotRoleAlias
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIotRoleAlias.DataAwsccIotRoleAlias.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotrolealias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotrolealias"
 
 dataawscciotrolealias.DataAwsccIotRoleAlias_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIotRoleAlias.DataAwsccIotRoleAlias.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotrolealias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotrolealias"
 
 dataawscciotrolealias.DataAwsccIotRoleAlias_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciotrolealias.DataAwsccIotRoleAlias_IsTerraformElement(x interface{}) *b
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIotRoleAlias.DataAwsccIotRoleAlias.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotrolealias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotrolealias"
 
 dataawscciotrolealias.DataAwsccIotRoleAlias_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciotrolealias.DataAwsccIotRoleAlias_IsTerraformDataSource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIotRoleAlias.DataAwsccIotRoleAlias.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotrolealias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotrolealias"
 
 dataawscciotrolealias.DataAwsccIotRoleAlias_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotRoleAlias to i
 
 The id of the existing DataAwsccIotRoleAlias that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_role_alias#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_role_alias#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -642,7 +642,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotRoleAlias.DataAwsccIotRoleAliasConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotrolealias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotrolealias"
 
 &dataawscciotrolealias.DataAwsccIotRoleAliasConfig {
 	Connection: interface{},
@@ -751,7 +751,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_role_alias#id DataAwsccIotRoleAlias#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_role_alias#id DataAwsccIotRoleAlias#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -763,7 +763,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotRoleAlias.DataAwsccIotRoleAliasTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotrolealias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotrolealias"
 
 &dataawscciotrolealias.DataAwsccIotRoleAliasTags {
 
@@ -778,7 +778,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotrolealias"
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotRoleAlias.DataAwsccIotRoleAliasTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotrolealias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotrolealias"
 
 dataawscciotrolealias.NewDataAwsccIotRoleAliasTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIotRoleAliasTagsList
 ```
@@ -927,7 +927,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotRoleAlias.DataAwsccIotRoleAliasTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotrolealias"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotrolealias"
 
 dataawscciotrolealias.NewDataAwsccIotRoleAliasTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIotRoleAliasTagsOutputReference
 ```

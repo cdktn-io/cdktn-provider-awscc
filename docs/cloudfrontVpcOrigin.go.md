@@ -4,12 +4,12 @@
 
 ### CloudfrontVpcOrigin <a name="CloudfrontVpcOrigin" id="@cdktn/provider-awscc.cloudfrontVpcOrigin.CloudfrontVpcOrigin"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_vpc_origin awscc_cloudfront_vpc_origin}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_vpc_origin awscc_cloudfront_vpc_origin}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudfrontVpcOrigin.CloudfrontVpcOrigin.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontvpcorigin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontvpcorigin"
 
 cloudfrontvpcorigin.NewCloudfrontVpcOrigin(scope Construct, id *string, config CloudfrontVpcOriginConfig) CloudfrontVpcOrigin
 ```
@@ -433,7 +433,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.cloudfrontVpcOrigin.CloudfrontVpcOrigin.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontvpcorigin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontvpcorigin"
 
 cloudfrontvpcorigin.CloudfrontVpcOrigin_IsConstruct(x interface{}) *bool
 ```
@@ -465,7 +465,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.cloudfrontVpcOrigin.CloudfrontVpcOrigin.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontvpcorigin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontvpcorigin"
 
 cloudfrontvpcorigin.CloudfrontVpcOrigin_IsTerraformElement(x interface{}) *bool
 ```
@@ -479,7 +479,7 @@ cloudfrontvpcorigin.CloudfrontVpcOrigin_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.cloudfrontVpcOrigin.CloudfrontVpcOrigin.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontvpcorigin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontvpcorigin"
 
 cloudfrontvpcorigin.CloudfrontVpcOrigin_IsTerraformResource(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ cloudfrontvpcorigin.CloudfrontVpcOrigin_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.cloudfrontVpcOrigin.CloudfrontVpcOrigin.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontvpcorigin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontvpcorigin"
 
 cloudfrontvpcorigin.CloudfrontVpcOrigin_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -522,7 +522,7 @@ The construct id used in the generated config for the CloudfrontVpcOrigin to imp
 
 The id of the existing CloudfrontVpcOrigin that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_vpc_origin#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_vpc_origin#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -843,7 +843,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudfrontVpcOrigin.CloudfrontVpcOriginConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontvpcorigin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontvpcorigin"
 
 &cloudfrontvpcorigin.CloudfrontVpcOriginConfig {
 	Connection: interface{},
@@ -853,7 +853,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontvpcorigin"
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	VpcOriginEndpointConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.cloudfrontVpcOrigin.CloudfrontVpcOriginVpcOriginEndpointConfig,
+	VpcOriginEndpointConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.cloudfrontVpcOrigin.CloudfrontVpcOriginVpcOriginEndpointConfig,
 	Tags: interface{},
 }
 ```
@@ -954,7 +954,7 @@ VpcOriginEndpointConfig CloudfrontVpcOriginVpcOriginEndpointConfig
 
 The VPC origin endpoint configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_vpc_origin#vpc_origin_endpoint_config CloudfrontVpcOrigin#vpc_origin_endpoint_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_vpc_origin#vpc_origin_endpoint_config CloudfrontVpcOrigin#vpc_origin_endpoint_config}
 
 ---
 
@@ -968,7 +968,7 @@ Tags interface{}
 
 A complex type that contains zero or more ``Tag`` elements.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_vpc_origin#tags CloudfrontVpcOrigin#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_vpc_origin#tags CloudfrontVpcOrigin#tags}
 
 ---
 
@@ -977,7 +977,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudfrontVpcOrigin.CloudfrontVpcOriginTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontvpcorigin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontvpcorigin"
 
 &cloudfrontvpcorigin.CloudfrontVpcOriginTags {
 	Key: *string,
@@ -1027,7 +1027,7 @@ The string length should be between 0 and 256 characters. Valid characters inclu
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudfrontVpcOrigin.CloudfrontVpcOriginVpcOriginEndpointConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontvpcorigin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontvpcorigin"
 
 &cloudfrontvpcorigin.CloudfrontVpcOriginVpcOriginEndpointConfig {
 	Arn: *string,
@@ -1048,7 +1048,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontvpcorigin"
 | <code><a href="#@cdktn/provider-awscc.cloudfrontVpcOrigin.CloudfrontVpcOriginVpcOriginEndpointConfig.property.name">Name</a></code> | <code>*string</code> | The name of the CloudFront VPC origin endpoint configuration. |
 | <code><a href="#@cdktn/provider-awscc.cloudfrontVpcOrigin.CloudfrontVpcOriginVpcOriginEndpointConfig.property.httpPort">HttpPort</a></code> | <code>*f64</code> | The HTTP port for the CloudFront VPC origin endpoint configuration. The default value is ``80``. |
 | <code><a href="#@cdktn/provider-awscc.cloudfrontVpcOrigin.CloudfrontVpcOriginVpcOriginEndpointConfig.property.httpsPort">HttpsPort</a></code> | <code>*f64</code> | The HTTPS port of the CloudFront VPC origin endpoint configuration. The default value is ``443``. |
-| <code><a href="#@cdktn/provider-awscc.cloudfrontVpcOrigin.CloudfrontVpcOriginVpcOriginEndpointConfig.property.ipAddressType">IpAddressType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_vpc_origin#ip_address_type CloudfrontVpcOrigin#ip_address_type}. |
+| <code><a href="#@cdktn/provider-awscc.cloudfrontVpcOrigin.CloudfrontVpcOriginVpcOriginEndpointConfig.property.ipAddressType">IpAddressType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_vpc_origin#ip_address_type CloudfrontVpcOrigin#ip_address_type}. |
 | <code><a href="#@cdktn/provider-awscc.cloudfrontVpcOrigin.CloudfrontVpcOriginVpcOriginEndpointConfig.property.originProtocolPolicy">OriginProtocolPolicy</a></code> | <code>*string</code> | The origin protocol policy for the CloudFront VPC origin endpoint configuration. |
 | <code><a href="#@cdktn/provider-awscc.cloudfrontVpcOrigin.CloudfrontVpcOriginVpcOriginEndpointConfig.property.originSslProtocols">OriginSslProtocols</a></code> | <code>*[]*string</code> | Specifies the minimum SSL/TLS protocol that CloudFront uses when connecting to your origin over HTTPS. |
 
@@ -1064,7 +1064,7 @@ Arn *string
 
 The ARN of the CloudFront VPC origin endpoint configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_vpc_origin#arn CloudfrontVpcOrigin#arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_vpc_origin#arn CloudfrontVpcOrigin#arn}
 
 ---
 
@@ -1078,7 +1078,7 @@ Name *string
 
 The name of the CloudFront VPC origin endpoint configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_vpc_origin#name CloudfrontVpcOrigin#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_vpc_origin#name CloudfrontVpcOrigin#name}
 
 ---
 
@@ -1092,7 +1092,7 @@ HttpPort *f64
 
 The HTTP port for the CloudFront VPC origin endpoint configuration. The default value is ``80``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_vpc_origin#http_port CloudfrontVpcOrigin#http_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_vpc_origin#http_port CloudfrontVpcOrigin#http_port}
 
 ---
 
@@ -1106,7 +1106,7 @@ HttpsPort *f64
 
 The HTTPS port of the CloudFront VPC origin endpoint configuration. The default value is ``443``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_vpc_origin#https_port CloudfrontVpcOrigin#https_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_vpc_origin#https_port CloudfrontVpcOrigin#https_port}
 
 ---
 
@@ -1118,7 +1118,7 @@ IpAddressType *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_vpc_origin#ip_address_type CloudfrontVpcOrigin#ip_address_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_vpc_origin#ip_address_type CloudfrontVpcOrigin#ip_address_type}.
 
 ---
 
@@ -1132,7 +1132,7 @@ OriginProtocolPolicy *string
 
 The origin protocol policy for the CloudFront VPC origin endpoint configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_vpc_origin#origin_protocol_policy CloudfrontVpcOrigin#origin_protocol_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_vpc_origin#origin_protocol_policy CloudfrontVpcOrigin#origin_protocol_policy}
 
 ---
 
@@ -1149,7 +1149,7 @@ Specifies the minimum SSL/TLS protocol that CloudFront uses when connecting to y
 Valid values include `SSLv3`, `TLSv1`, `TLSv1.1`, and `TLSv1.2`.
 For more information, see [Minimum Origin SSL Protocol](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/DownloadDistValuesOrigin.html#DownloadDistValuesOriginSSLProtocols) in the *Amazon CloudFront Developer Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_vpc_origin#origin_ssl_protocols CloudfrontVpcOrigin#origin_ssl_protocols}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_vpc_origin#origin_ssl_protocols CloudfrontVpcOrigin#origin_ssl_protocols}
 
 ---
 
@@ -1160,7 +1160,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudfrontVpcOrigin.CloudfrontVpcOriginTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontvpcorigin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontvpcorigin"
 
 cloudfrontvpcorigin.NewCloudfrontVpcOriginTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CloudfrontVpcOriginTagsList
 ```
@@ -1320,7 +1320,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudfrontVpcOrigin.CloudfrontVpcOriginTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontvpcorigin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontvpcorigin"
 
 cloudfrontvpcorigin.NewCloudfrontVpcOriginTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CloudfrontVpcOriginTagsOutputReference
 ```
@@ -1645,7 +1645,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudfrontVpcOrigin.CloudfrontVpcOriginVpcOriginEndpointConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontvpcorigin"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontvpcorigin"
 
 cloudfrontvpcorigin.NewCloudfrontVpcOriginVpcOriginEndpointConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CloudfrontVpcOriginVpcOriginEndpointConfigOutputReference
 ```

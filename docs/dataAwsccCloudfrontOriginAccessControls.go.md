@@ -4,12 +4,12 @@
 
 ### DataAwsccCloudfrontOriginAccessControls <a name="DataAwsccCloudfrontOriginAccessControls" id="@cdktn/provider-awscc.dataAwsccCloudfrontOriginAccessControls.DataAwsccCloudfrontOriginAccessControls"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudfront_origin_access_controls awscc_cloudfront_origin_access_controls}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudfront_origin_access_controls awscc_cloudfront_origin_access_controls}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudfrontOriginAccessControls.DataAwsccCloudfrontOriginAccessControls.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontoriginaccesscontrols"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontoriginaccesscontrols"
 
 dataawscccloudfrontoriginaccesscontrols.NewDataAwsccCloudfrontOriginAccessControls(scope Construct, id *string, config DataAwsccCloudfrontOriginAccessControlsConfig) DataAwsccCloudfrontOriginAccessControls
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCloudfrontOriginAccessControls.DataAwsccCloudfrontOriginAccessControls.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontoriginaccesscontrols"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontoriginaccesscontrols"
 
 dataawscccloudfrontoriginaccesscontrols.DataAwsccCloudfrontOriginAccessControls_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCloudfrontOriginAccessControls.DataAwsccCloudfrontOriginAccessControls.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontoriginaccesscontrols"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontoriginaccesscontrols"
 
 dataawscccloudfrontoriginaccesscontrols.DataAwsccCloudfrontOriginAccessControls_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccloudfrontoriginaccesscontrols.DataAwsccCloudfrontOriginAccessControls_
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCloudfrontOriginAccessControls.DataAwsccCloudfrontOriginAccessControls.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontoriginaccesscontrols"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontoriginaccesscontrols"
 
 dataawscccloudfrontoriginaccesscontrols.DataAwsccCloudfrontOriginAccessControls_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccloudfrontoriginaccesscontrols.DataAwsccCloudfrontOriginAccessControls_
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCloudfrontOriginAccessControls.DataAwsccCloudfrontOriginAccessControls.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontoriginaccesscontrols"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontoriginaccesscontrols"
 
 dataawscccloudfrontoriginaccesscontrols.DataAwsccCloudfrontOriginAccessControls_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCloudfrontOriginA
 
 The id of the existing DataAwsccCloudfrontOriginAccessControls that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudfront_origin_access_controls#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudfront_origin_access_controls#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloudfrontOriginAccessControls.DataAwsccCloudfrontOriginAccessControlsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontoriginaccesscontrols"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontoriginaccesscontrols"
 
 &dataawscccloudfrontoriginaccesscontrols.DataAwsccCloudfrontOriginAccessControlsConfig {
 	Connection: interface{},

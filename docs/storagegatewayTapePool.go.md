@@ -4,12 +4,12 @@
 
 ### StoragegatewayTapePool <a name="StoragegatewayTapePool" id="@cdktn/provider-awscc.storagegatewayTapePool.StoragegatewayTapePool"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_tape_pool awscc_storagegateway_tape_pool}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/storagegateway_tape_pool awscc_storagegateway_tape_pool}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.storagegatewayTapePool.StoragegatewayTapePool.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/storagegatewaytapepool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/storagegatewaytapepool"
 
 storagegatewaytapepool.NewStoragegatewayTapePool(scope Construct, id *string, config StoragegatewayTapePoolConfig) StoragegatewayTapePool
 ```
@@ -434,7 +434,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.storagegatewayTapePool.StoragegatewayTapePool.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/storagegatewaytapepool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/storagegatewaytapepool"
 
 storagegatewaytapepool.StoragegatewayTapePool_IsConstruct(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.storagegatewayTapePool.StoragegatewayTapePool.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/storagegatewaytapepool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/storagegatewaytapepool"
 
 storagegatewaytapepool.StoragegatewayTapePool_IsTerraformElement(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ storagegatewaytapepool.StoragegatewayTapePool_IsTerraformElement(x interface{}) 
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.storagegatewayTapePool.StoragegatewayTapePool.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/storagegatewaytapepool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/storagegatewaytapepool"
 
 storagegatewaytapepool.StoragegatewayTapePool_IsTerraformResource(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ storagegatewaytapepool.StoragegatewayTapePool_IsTerraformResource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.storagegatewayTapePool.StoragegatewayTapePool.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/storagegatewaytapepool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/storagegatewaytapepool"
 
 storagegatewaytapepool.StoragegatewayTapePool_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -523,7 +523,7 @@ The construct id used in the generated config for the StoragegatewayTapePool to 
 
 The id of the existing StoragegatewayTapePool that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_tape_pool#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/storagegateway_tape_pool#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -866,7 +866,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.storagegatewayTapePool.StoragegatewayTapePoolConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/storagegatewaytapepool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/storagegatewaytapepool"
 
 &storagegatewaytapepool.StoragegatewayTapePoolConfig {
 	Connection: interface{},
@@ -983,7 +983,7 @@ PoolName *string
 
 The name of the custom tape pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_tape_pool#pool_name StoragegatewayTapePool#pool_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/storagegateway_tape_pool#pool_name StoragegatewayTapePool#pool_name}
 
 ---
 
@@ -997,7 +997,7 @@ StorageClass *string
 
 The storage class associated with the custom pool (S3 Glacier or S3 Glacier Deep Archive).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_tape_pool#storage_class StoragegatewayTapePool#storage_class}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/storagegateway_tape_pool#storage_class StoragegatewayTapePool#storage_class}
 
 ---
 
@@ -1011,7 +1011,7 @@ RetentionLockTimeInDays *f64
 
 Tape retention lock time in days (up to 36,500 days / 100 years).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_tape_pool#retention_lock_time_in_days StoragegatewayTapePool#retention_lock_time_in_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/storagegateway_tape_pool#retention_lock_time_in_days StoragegatewayTapePool#retention_lock_time_in_days}
 
 ---
 
@@ -1025,7 +1025,7 @@ RetentionLockType *string
 
 Tape retention lock type. Governance mode allows authorized removal; compliance mode prevents all removal.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_tape_pool#retention_lock_type StoragegatewayTapePool#retention_lock_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/storagegateway_tape_pool#retention_lock_type StoragegatewayTapePool#retention_lock_type}
 
 ---
 
@@ -1039,7 +1039,7 @@ Tags interface{}
 
 A list of up to 50 tags for the tape pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_tape_pool#tags StoragegatewayTapePool#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/storagegateway_tape_pool#tags StoragegatewayTapePool#tags}
 
 ---
 
@@ -1048,7 +1048,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.storagegatewayTapePool.StoragegatewayTapePoolTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/storagegatewaytapepool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/storagegatewaytapepool"
 
 &storagegatewaytapepool.StoragegatewayTapePoolTags {
 	Key: *string,
@@ -1075,7 +1075,7 @@ Key *string
 
 The tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_tape_pool#key StoragegatewayTapePool#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/storagegateway_tape_pool#key StoragegatewayTapePool#key}
 
 ---
 
@@ -1089,7 +1089,7 @@ Value *string
 
 The tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_tape_pool#value StoragegatewayTapePool#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/storagegateway_tape_pool#value StoragegatewayTapePool#value}
 
 ---
 
@@ -1100,7 +1100,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.storagegatewayTapePool.StoragegatewayTapePoolTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/storagegatewaytapepool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/storagegatewaytapepool"
 
 storagegatewaytapepool.NewStoragegatewayTapePoolTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) StoragegatewayTapePoolTagsList
 ```
@@ -1260,7 +1260,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.storagegatewayTapePool.StoragegatewayTapePoolTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/storagegatewaytapepool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/storagegatewaytapepool"
 
 storagegatewaytapepool.NewStoragegatewayTapePoolTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) StoragegatewayTapePoolTagsOutputReference
 ```

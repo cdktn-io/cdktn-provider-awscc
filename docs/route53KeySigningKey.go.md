@@ -4,12 +4,12 @@
 
 ### Route53KeySigningKey <a name="Route53KeySigningKey" id="@cdktn/provider-awscc.route53KeySigningKey.Route53KeySigningKey"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53_key_signing_key awscc_route53_key_signing_key}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53_key_signing_key awscc_route53_key_signing_key}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.route53KeySigningKey.Route53KeySigningKey.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53keysigningkey"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53keysigningkey"
 
 route53keysigningkey.NewRoute53KeySigningKey(scope Construct, id *string, config Route53KeySigningKeyConfig) Route53KeySigningKey
 ```
@@ -400,7 +400,7 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.route53KeySigningKey.Route53KeySigningKey.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53keysigningkey"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53keysigningkey"
 
 route53keysigningkey.Route53KeySigningKey_IsConstruct(x interface{}) *bool
 ```
@@ -432,7 +432,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.route53KeySigningKey.Route53KeySigningKey.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53keysigningkey"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53keysigningkey"
 
 route53keysigningkey.Route53KeySigningKey_IsTerraformElement(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ route53keysigningkey.Route53KeySigningKey_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.route53KeySigningKey.Route53KeySigningKey.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53keysigningkey"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53keysigningkey"
 
 route53keysigningkey.Route53KeySigningKey_IsTerraformResource(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ route53keysigningkey.Route53KeySigningKey_IsTerraformResource(x interface{}) *bo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.route53KeySigningKey.Route53KeySigningKey.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53keysigningkey"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53keysigningkey"
 
 route53keysigningkey.Route53KeySigningKey_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -489,7 +489,7 @@ The construct id used in the generated config for the Route53KeySigningKey to im
 
 The id of the existing Route53KeySigningKey that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53_key_signing_key#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53_key_signing_key#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -788,7 +788,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.route53KeySigningKey.Route53KeySigningKeyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53keysigningkey"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53keysigningkey"
 
 &route53keysigningkey.Route53KeySigningKeyConfig {
 	Connection: interface{},
@@ -903,7 +903,7 @@ HostedZoneId *string
 
 The unique string (ID) used to identify a hosted zone.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53_key_signing_key#hosted_zone_id Route53KeySigningKey#hosted_zone_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53_key_signing_key#hosted_zone_id Route53KeySigningKey#hosted_zone_id}
 
 ---
 
@@ -919,7 +919,7 @@ The Amazon resource name (ARN) for a customer managed key (CMK) in AWS Key Manag
 
 The KeyManagementServiceArn must be unique for each key signing key (KSK) in a single hosted zone.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53_key_signing_key#key_management_service_arn Route53KeySigningKey#key_management_service_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53_key_signing_key#key_management_service_arn Route53KeySigningKey#key_management_service_arn}
 
 ---
 
@@ -935,7 +935,7 @@ An alphanumeric string used to identify a key signing key (KSK).
 
 Name must be unique for each key signing key in the same hosted zone.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53_key_signing_key#name Route53KeySigningKey#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53_key_signing_key#name Route53KeySigningKey#name}
 
 ---
 
@@ -951,7 +951,7 @@ A string specifying the initial status of the key signing key (KSK).
 
 You can set the value to ACTIVE or INACTIVE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53_key_signing_key#status Route53KeySigningKey#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53_key_signing_key#status Route53KeySigningKey#status}
 
 ---
 

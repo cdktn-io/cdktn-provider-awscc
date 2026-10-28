@@ -4,12 +4,12 @@
 
 ### DataAwsccCodecommitRepositories <a name="DataAwsccCodecommitRepositories" id="@cdktn/provider-awscc.dataAwsccCodecommitRepositories.DataAwsccCodecommitRepositories"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/codecommit_repositories awscc_codecommit_repositories}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/codecommit_repositories awscc_codecommit_repositories}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodecommitRepositories.DataAwsccCodecommitRepositories.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodecommitrepositories"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodecommitrepositories"
 
 dataawscccodecommitrepositories.NewDataAwsccCodecommitRepositories(scope Construct, id *string, config DataAwsccCodecommitRepositoriesConfig) DataAwsccCodecommitRepositories
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCodecommitRepositories.DataAwsccCodecommitRepositories.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodecommitrepositories"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodecommitrepositories"
 
 dataawscccodecommitrepositories.DataAwsccCodecommitRepositories_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCodecommitRepositories.DataAwsccCodecommitRepositories.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodecommitrepositories"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodecommitrepositories"
 
 dataawscccodecommitrepositories.DataAwsccCodecommitRepositories_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccodecommitrepositories.DataAwsccCodecommitRepositories_IsTerraformEleme
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCodecommitRepositories.DataAwsccCodecommitRepositories.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodecommitrepositories"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodecommitrepositories"
 
 dataawscccodecommitrepositories.DataAwsccCodecommitRepositories_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccodecommitrepositories.DataAwsccCodecommitRepositories_IsTerraformDataS
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCodecommitRepositories.DataAwsccCodecommitRepositories.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodecommitrepositories"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodecommitrepositories"
 
 dataawscccodecommitrepositories.DataAwsccCodecommitRepositories_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCodecommitReposit
 
 The id of the existing DataAwsccCodecommitRepositories that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/codecommit_repositories#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/codecommit_repositories#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodecommitRepositories.DataAwsccCodecommitRepositoriesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodecommitrepositories"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodecommitrepositories"
 
 &dataawscccodecommitrepositories.DataAwsccCodecommitRepositoriesConfig {
 	Connection: interface{},

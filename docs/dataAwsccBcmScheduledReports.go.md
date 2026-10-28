@@ -4,12 +4,12 @@
 
 ### DataAwsccBcmScheduledReports <a name="DataAwsccBcmScheduledReports" id="@cdktn/provider-awscc.dataAwsccBcmScheduledReports.DataAwsccBcmScheduledReports"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bcm_scheduled_reports awscc_bcm_scheduled_reports}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bcm_scheduled_reports awscc_bcm_scheduled_reports}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBcmScheduledReports.DataAwsccBcmScheduledReports.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmscheduledreports"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbcmscheduledreports"
 
 dataawsccbcmscheduledreports.NewDataAwsccBcmScheduledReports(scope Construct, id *string, config DataAwsccBcmScheduledReportsConfig) DataAwsccBcmScheduledReports
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccBcmScheduledReports.DataAwsccBcmScheduledReports.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmscheduledreports"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbcmscheduledreports"
 
 dataawsccbcmscheduledreports.DataAwsccBcmScheduledReports_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccBcmScheduledReports.DataAwsccBcmScheduledReports.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmscheduledreports"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbcmscheduledreports"
 
 dataawsccbcmscheduledreports.DataAwsccBcmScheduledReports_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccbcmscheduledreports.DataAwsccBcmScheduledReports_IsTerraformElement(x i
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccBcmScheduledReports.DataAwsccBcmScheduledReports.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmscheduledreports"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbcmscheduledreports"
 
 dataawsccbcmscheduledreports.DataAwsccBcmScheduledReports_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccbcmscheduledreports.DataAwsccBcmScheduledReports_IsTerraformDataSource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccBcmScheduledReports.DataAwsccBcmScheduledReports.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmscheduledreports"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbcmscheduledreports"
 
 dataawsccbcmscheduledreports.DataAwsccBcmScheduledReports_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccBcmScheduledRepor
 
 The id of the existing DataAwsccBcmScheduledReports that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bcm_scheduled_reports#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bcm_scheduled_reports#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccBcmScheduledReports.DataAwsccBcmScheduledReportsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbcmscheduledreports"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbcmscheduledreports"
 
 &dataawsccbcmscheduledreports.DataAwsccBcmScheduledReportsConfig {
 	Connection: interface{},

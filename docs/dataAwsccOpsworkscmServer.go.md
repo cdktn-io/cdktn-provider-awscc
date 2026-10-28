@@ -4,12 +4,12 @@
 
 ### DataAwsccOpsworkscmServer <a name="DataAwsccOpsworkscmServer" id="@cdktn/provider-awscc.dataAwsccOpsworkscmServer.DataAwsccOpsworkscmServer"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/opsworkscm_server awscc_opsworkscm_server}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/opsworkscm_server awscc_opsworkscm_server}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOpsworkscmServer.DataAwsccOpsworkscmServer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopsworkscmserver"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccopsworkscmserver"
 
 dataawsccopsworkscmserver.NewDataAwsccOpsworkscmServer(scope Construct, id *string, config DataAwsccOpsworkscmServerConfig) DataAwsccOpsworkscmServer
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccOpsworkscmServer.DataAwsccOpsworkscmServer.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopsworkscmserver"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccopsworkscmserver"
 
 dataawsccopsworkscmserver.DataAwsccOpsworkscmServer_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccOpsworkscmServer.DataAwsccOpsworkscmServer.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopsworkscmserver"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccopsworkscmserver"
 
 dataawsccopsworkscmserver.DataAwsccOpsworkscmServer_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccopsworkscmserver.DataAwsccOpsworkscmServer_IsTerraformElement(x interfa
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccOpsworkscmServer.DataAwsccOpsworkscmServer.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopsworkscmserver"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccopsworkscmserver"
 
 dataawsccopsworkscmserver.DataAwsccOpsworkscmServer_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccopsworkscmserver.DataAwsccOpsworkscmServer_IsTerraformDataSource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccOpsworkscmServer.DataAwsccOpsworkscmServer.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopsworkscmserver"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccopsworkscmserver"
 
 dataawsccopsworkscmserver.DataAwsccOpsworkscmServer_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccOpsworkscmServer 
 
 The id of the existing DataAwsccOpsworkscmServer that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/opsworkscm_server#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/opsworkscm_server#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -851,7 +851,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOpsworkscmServer.DataAwsccOpsworkscmServerConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopsworkscmserver"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccopsworkscmserver"
 
 &dataawsccopsworkscmserver.DataAwsccOpsworkscmServerConfig {
 	Connection: interface{},
@@ -960,7 +960,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/opsworkscm_server#id DataAwsccOpsworkscmServer#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/opsworkscm_server#id DataAwsccOpsworkscmServer#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -972,7 +972,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOpsworkscmServer.DataAwsccOpsworkscmServerEngineAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopsworkscmserver"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccopsworkscmserver"
 
 &dataawsccopsworkscmserver.DataAwsccOpsworkscmServerEngineAttributes {
 
@@ -985,7 +985,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopsworkscmser
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOpsworkscmServer.DataAwsccOpsworkscmServerTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopsworkscmserver"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccopsworkscmserver"
 
 &dataawsccopsworkscmserver.DataAwsccOpsworkscmServerTags {
 
@@ -1000,7 +1000,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopsworkscmser
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOpsworkscmServer.DataAwsccOpsworkscmServerEngineAttributesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopsworkscmserver"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccopsworkscmserver"
 
 dataawsccopsworkscmserver.NewDataAwsccOpsworkscmServerEngineAttributesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccOpsworkscmServerEngineAttributesList
 ```
@@ -1149,7 +1149,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOpsworkscmServer.DataAwsccOpsworkscmServerEngineAttributesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopsworkscmserver"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccopsworkscmserver"
 
 dataawsccopsworkscmserver.NewDataAwsccOpsworkscmServerEngineAttributesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccOpsworkscmServerEngineAttributesOutputReference
 ```
@@ -1438,7 +1438,7 @@ func InternalValue() DataAwsccOpsworkscmServerEngineAttributes
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOpsworkscmServer.DataAwsccOpsworkscmServerTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopsworkscmserver"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccopsworkscmserver"
 
 dataawsccopsworkscmserver.NewDataAwsccOpsworkscmServerTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccOpsworkscmServerTagsList
 ```
@@ -1587,7 +1587,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOpsworkscmServer.DataAwsccOpsworkscmServerTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopsworkscmserver"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccopsworkscmserver"
 
 dataawsccopsworkscmserver.NewDataAwsccOpsworkscmServerTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccOpsworkscmServerTagsOutputReference
 ```

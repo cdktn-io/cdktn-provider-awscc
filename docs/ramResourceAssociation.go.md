@@ -4,12 +4,12 @@
 
 ### RamResourceAssociation <a name="RamResourceAssociation" id="@cdktn/provider-awscc.ramResourceAssociation.RamResourceAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ram_resource_association awscc_ram_resource_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ram_resource_association awscc_ram_resource_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ramResourceAssociation.RamResourceAssociation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ramresourceassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ramresourceassociation"
 
 ramresourceassociation.NewRamResourceAssociation(scope Construct, id *string, config RamResourceAssociationConfig) RamResourceAssociation
 ```
@@ -400,7 +400,7 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.ramResourceAssociation.RamResourceAssociation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ramresourceassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ramresourceassociation"
 
 ramresourceassociation.RamResourceAssociation_IsConstruct(x interface{}) *bool
 ```
@@ -432,7 +432,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.ramResourceAssociation.RamResourceAssociation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ramresourceassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ramresourceassociation"
 
 ramresourceassociation.RamResourceAssociation_IsTerraformElement(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ ramresourceassociation.RamResourceAssociation_IsTerraformElement(x interface{}) 
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.ramResourceAssociation.RamResourceAssociation.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ramresourceassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ramresourceassociation"
 
 ramresourceassociation.RamResourceAssociation_IsTerraformResource(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ ramresourceassociation.RamResourceAssociation_IsTerraformResource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.ramResourceAssociation.RamResourceAssociation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ramresourceassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ramresourceassociation"
 
 ramresourceassociation.RamResourceAssociation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -489,7 +489,7 @@ The construct id used in the generated config for the RamResourceAssociation to 
 
 The id of the existing RamResourceAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ram_resource_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ram_resource_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -799,7 +799,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ramResourceAssociation.RamResourceAssociationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ramresourceassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ramresourceassociation"
 
 &ramresourceassociation.RamResourceAssociationConfig {
 	Connection: interface{},
@@ -910,7 +910,7 @@ ResourceArn *string
 
 Specifies the [Amazon Resource Name (ARN)](https://docs.aws.amazon.com/general/latest/gr/aws-arns-and-namespaces.html) of the resource to associate with the resource share.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ram_resource_association#resource_arn RamResourceAssociation#resource_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ram_resource_association#resource_arn RamResourceAssociation#resource_arn}
 
 ---
 
@@ -924,7 +924,7 @@ ResourceShareArn *string
 
 Specifies the [Amazon Resource Name (ARN)](https://docs.aws.amazon.com/general/latest/gr/aws-arns-and-namespaces.html) of the resource share.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ram_resource_association#resource_share_arn RamResourceAssociation#resource_share_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ram_resource_association#resource_share_arn RamResourceAssociation#resource_share_arn}
 
 ---
 

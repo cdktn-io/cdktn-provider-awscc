@@ -4,12 +4,12 @@
 
 ### ServicecatalogLaunchTemplateConstraint <a name="ServicecatalogLaunchTemplateConstraint" id="@cdktn/provider-awscc.servicecatalogLaunchTemplateConstraint.ServicecatalogLaunchTemplateConstraint"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicecatalog_launch_template_constraint awscc_servicecatalog_launch_template_constraint}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicecatalog_launch_template_constraint awscc_servicecatalog_launch_template_constraint}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.servicecatalogLaunchTemplateConstraint.ServicecatalogLaunchTemplateConstraint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/servicecataloglaunchtemplateconstraint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/servicecataloglaunchtemplateconstraint"
 
 servicecataloglaunchtemplateconstraint.NewServicecatalogLaunchTemplateConstraint(scope Construct, id *string, config ServicecatalogLaunchTemplateConstraintConfig) ServicecatalogLaunchTemplateConstraint
 ```
@@ -414,7 +414,7 @@ func ResetDescription()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.servicecatalogLaunchTemplateConstraint.ServicecatalogLaunchTemplateConstraint.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/servicecataloglaunchtemplateconstraint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/servicecataloglaunchtemplateconstraint"
 
 servicecataloglaunchtemplateconstraint.ServicecatalogLaunchTemplateConstraint_IsConstruct(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.servicecatalogLaunchTemplateConstraint.ServicecatalogLaunchTemplateConstraint.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/servicecataloglaunchtemplateconstraint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/servicecataloglaunchtemplateconstraint"
 
 servicecataloglaunchtemplateconstraint.ServicecatalogLaunchTemplateConstraint_IsTerraformElement(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ servicecataloglaunchtemplateconstraint.ServicecatalogLaunchTemplateConstraint_Is
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.servicecatalogLaunchTemplateConstraint.ServicecatalogLaunchTemplateConstraint.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/servicecataloglaunchtemplateconstraint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/servicecataloglaunchtemplateconstraint"
 
 servicecataloglaunchtemplateconstraint.ServicecatalogLaunchTemplateConstraint_IsTerraformResource(x interface{}) *bool
 ```
@@ -474,7 +474,7 @@ servicecataloglaunchtemplateconstraint.ServicecatalogLaunchTemplateConstraint_Is
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.servicecatalogLaunchTemplateConstraint.ServicecatalogLaunchTemplateConstraint.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/servicecataloglaunchtemplateconstraint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/servicecataloglaunchtemplateconstraint"
 
 servicecataloglaunchtemplateconstraint.ServicecatalogLaunchTemplateConstraint_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -503,7 +503,7 @@ The construct id used in the generated config for the ServicecatalogLaunchTempla
 
 The id of the existing ServicecatalogLaunchTemplateConstraint that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicecatalog_launch_template_constraint#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicecatalog_launch_template_constraint#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -835,7 +835,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.servicecatalogLaunchTemplateConstraint.ServicecatalogLaunchTemplateConstraintConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/servicecataloglaunchtemplateconstraint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/servicecataloglaunchtemplateconstraint"
 
 &servicecataloglaunchtemplateconstraint.ServicecatalogLaunchTemplateConstraintConfig {
 	Connection: interface{},
@@ -952,7 +952,7 @@ PortfolioId *string
 
 The portfolio identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicecatalog_launch_template_constraint#portfolio_id ServicecatalogLaunchTemplateConstraint#portfolio_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicecatalog_launch_template_constraint#portfolio_id ServicecatalogLaunchTemplateConstraint#portfolio_id}
 
 ---
 
@@ -966,7 +966,7 @@ ProductId *string
 
 The product identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicecatalog_launch_template_constraint#product_id ServicecatalogLaunchTemplateConstraint#product_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicecatalog_launch_template_constraint#product_id ServicecatalogLaunchTemplateConstraint#product_id}
 
 ---
 
@@ -980,7 +980,7 @@ Rules *string
 
 A json encoded string of the template constraint rules.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicecatalog_launch_template_constraint#rules ServicecatalogLaunchTemplateConstraint#rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicecatalog_launch_template_constraint#rules ServicecatalogLaunchTemplateConstraint#rules}
 
 ---
 
@@ -994,7 +994,7 @@ AcceptLanguage *string
 
 The language code.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicecatalog_launch_template_constraint#accept_language ServicecatalogLaunchTemplateConstraint#accept_language}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicecatalog_launch_template_constraint#accept_language ServicecatalogLaunchTemplateConstraint#accept_language}
 
 ---
 
@@ -1008,7 +1008,7 @@ Description *string
 
 The description of the constraint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicecatalog_launch_template_constraint#description ServicecatalogLaunchTemplateConstraint#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicecatalog_launch_template_constraint#description ServicecatalogLaunchTemplateConstraint#description}
 
 ---
 

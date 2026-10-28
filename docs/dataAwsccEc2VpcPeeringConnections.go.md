@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2VpcPeeringConnections <a name="DataAwsccEc2VpcPeeringConnections" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnections.DataAwsccEc2VpcPeeringConnections"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_vpc_peering_connections awscc_ec2_vpc_peering_connections}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_vpc_peering_connections awscc_ec2_vpc_peering_connections}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnections.DataAwsccEc2VpcPeeringConnections.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2vpcpeeringconnections"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2vpcpeeringconnections"
 
 dataawsccec2vpcpeeringconnections.NewDataAwsccEc2VpcPeeringConnections(scope Construct, id *string, config DataAwsccEc2VpcPeeringConnectionsConfig) DataAwsccEc2VpcPeeringConnections
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnections.DataAwsccEc2VpcPeeringConnections.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2vpcpeeringconnections"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2vpcpeeringconnections"
 
 dataawsccec2vpcpeeringconnections.DataAwsccEc2VpcPeeringConnections_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnections.DataAwsccEc2VpcPeeringConnections.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2vpcpeeringconnections"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2vpcpeeringconnections"
 
 dataawsccec2vpcpeeringconnections.DataAwsccEc2VpcPeeringConnections_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2vpcpeeringconnections.DataAwsccEc2VpcPeeringConnections_IsTerraformE
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnections.DataAwsccEc2VpcPeeringConnections.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2vpcpeeringconnections"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2vpcpeeringconnections"
 
 dataawsccec2vpcpeeringconnections.DataAwsccEc2VpcPeeringConnections_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2vpcpeeringconnections.DataAwsccEc2VpcPeeringConnections_IsTerraformD
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnections.DataAwsccEc2VpcPeeringConnections.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2vpcpeeringconnections"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2vpcpeeringconnections"
 
 dataawsccec2vpcpeeringconnections.DataAwsccEc2VpcPeeringConnections_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2VpcPeeringConn
 
 The id of the existing DataAwsccEc2VpcPeeringConnections that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_vpc_peering_connections#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_vpc_peering_connections#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnections.DataAwsccEc2VpcPeeringConnectionsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2vpcpeeringconnections"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2vpcpeeringconnections"
 
 &dataawsccec2vpcpeeringconnections.DataAwsccEc2VpcPeeringConnectionsConfig {
 	Connection: interface{},

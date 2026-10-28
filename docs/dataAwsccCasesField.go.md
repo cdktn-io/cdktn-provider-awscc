@@ -4,12 +4,12 @@
 
 ### DataAwsccCasesField <a name="DataAwsccCasesField" id="@cdktn/provider-awscc.dataAwsccCasesField.DataAwsccCasesField"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cases_field awscc_cases_field}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cases_field awscc_cases_field}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCasesField.DataAwsccCasesField.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasesfield"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasesfield"
 
 dataawscccasesfield.NewDataAwsccCasesField(scope Construct, id *string, config DataAwsccCasesFieldConfig) DataAwsccCasesField
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCasesField.DataAwsccCasesField.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasesfield"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasesfield"
 
 dataawscccasesfield.DataAwsccCasesField_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCasesField.DataAwsccCasesField.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasesfield"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasesfield"
 
 dataawscccasesfield.DataAwsccCasesField_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccasesfield.DataAwsccCasesField_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCasesField.DataAwsccCasesField.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasesfield"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasesfield"
 
 dataawscccasesfield.DataAwsccCasesField_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccasesfield.DataAwsccCasesField_IsTerraformDataSource(x interface{}) *bo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCasesField.DataAwsccCasesField.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasesfield"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasesfield"
 
 dataawscccasesfield.DataAwsccCasesField_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCasesField to imp
 
 The id of the existing DataAwsccCasesField that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cases_field#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cases_field#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -708,7 +708,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCasesField.DataAwsccCasesFieldAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasesfield"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasesfield"
 
 &dataawscccasesfield.DataAwsccCasesFieldAttributes {
 
@@ -721,7 +721,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasesfield"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCasesField.DataAwsccCasesFieldAttributesText.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasesfield"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasesfield"
 
 &dataawscccasesfield.DataAwsccCasesFieldAttributesText {
 
@@ -734,7 +734,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasesfield"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCasesField.DataAwsccCasesFieldConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasesfield"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasesfield"
 
 &dataawscccasesfield.DataAwsccCasesFieldConfig {
 	Connection: interface{},
@@ -843,7 +843,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cases_field#id DataAwsccCasesField#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cases_field#id DataAwsccCasesField#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -855,7 +855,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCasesField.DataAwsccCasesFieldTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasesfield"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasesfield"
 
 &dataawscccasesfield.DataAwsccCasesFieldTags {
 
@@ -870,7 +870,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasesfield"
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCasesField.DataAwsccCasesFieldAttributesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasesfield"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasesfield"
 
 dataawscccasesfield.NewDataAwsccCasesFieldAttributesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCasesFieldAttributesOutputReference
 ```
@@ -1130,7 +1130,7 @@ func InternalValue() DataAwsccCasesFieldAttributes
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCasesField.DataAwsccCasesFieldAttributesTextOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasesfield"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasesfield"
 
 dataawscccasesfield.NewDataAwsccCasesFieldAttributesTextOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCasesFieldAttributesTextOutputReference
 ```
@@ -1390,7 +1390,7 @@ func InternalValue() DataAwsccCasesFieldAttributesText
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCasesField.DataAwsccCasesFieldTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasesfield"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasesfield"
 
 dataawscccasesfield.NewDataAwsccCasesFieldTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCasesFieldTagsList
 ```
@@ -1539,7 +1539,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCasesField.DataAwsccCasesFieldTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasesfield"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasesfield"
 
 dataawscccasesfield.NewDataAwsccCasesFieldTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCasesFieldTagsOutputReference
 ```

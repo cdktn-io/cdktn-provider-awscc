@@ -4,12 +4,12 @@
 
 ### DevopsagentService <a name="DevopsagentService" id="@cdktn/provider-awscc.devopsagentService.DevopsagentService"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service awscc_devopsagent_service}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service awscc_devopsagent_service}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentService.DevopsagentService.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 devopsagentservice.NewDevopsagentService(scope Construct, id *string, config DevopsagentServiceConfig) DevopsagentService
 ```
@@ -475,7 +475,7 @@ func ResetTargetUrlPrivateConnectionName()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.devopsagentService.DevopsagentService.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 devopsagentservice.DevopsagentService_IsConstruct(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.devopsagentService.DevopsagentService.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 devopsagentservice.DevopsagentService_IsTerraformElement(x interface{}) *bool
 ```
@@ -521,7 +521,7 @@ devopsagentservice.DevopsagentService_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.devopsagentService.DevopsagentService.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 devopsagentservice.DevopsagentService_IsTerraformResource(x interface{}) *bool
 ```
@@ -535,7 +535,7 @@ devopsagentservice.DevopsagentService_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.devopsagentService.DevopsagentService.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 devopsagentservice.DevopsagentService_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -564,7 +564,7 @@ The construct id used in the generated config for the DevopsagentService to impo
 
 The id of the existing DevopsagentService that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -995,7 +995,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 &devopsagentservice.DevopsagentServiceAdditionalServiceDetails {
 
@@ -1008,7 +1008,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsAzureIdentity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 &devopsagentservice.DevopsagentServiceAdditionalServiceDetailsAzureIdentity {
 
@@ -1021,7 +1021,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsDynatrace.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 &devopsagentservice.DevopsagentServiceAdditionalServiceDetailsDynatrace {
 
@@ -1034,7 +1034,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHub.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 &devopsagentservice.DevopsagentServiceAdditionalServiceDetailsGitHub {
 
@@ -1047,7 +1047,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitLab.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 &devopsagentservice.DevopsagentServiceAdditionalServiceDetailsGitLab {
 
@@ -1060,7 +1060,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsMcpServer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 &devopsagentservice.DevopsagentServiceAdditionalServiceDetailsMcpServer {
 
@@ -1073,7 +1073,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsMcpServerGrafana.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 &devopsagentservice.DevopsagentServiceAdditionalServiceDetailsMcpServerGrafana {
 
@@ -1086,7 +1086,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsMcpServerNewRelic.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 &devopsagentservice.DevopsagentServiceAdditionalServiceDetailsMcpServerNewRelic {
 
@@ -1099,7 +1099,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsMcpServerSigV4.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 &devopsagentservice.DevopsagentServiceAdditionalServiceDetailsMcpServerSigV4 {
 
@@ -1112,7 +1112,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsMcpServerSplunk.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 &devopsagentservice.DevopsagentServiceAdditionalServiceDetailsMcpServerSplunk {
 
@@ -1125,7 +1125,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsPagerDuty.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 &devopsagentservice.DevopsagentServiceAdditionalServiceDetailsPagerDuty {
 
@@ -1138,7 +1138,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsServiceNow.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 &devopsagentservice.DevopsagentServiceAdditionalServiceDetailsServiceNow {
 
@@ -1151,7 +1151,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 &devopsagentservice.DevopsagentServiceConfig {
 	Connection: interface{},
@@ -1166,7 +1166,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
 	KmsKeyArn: *string,
 	Name: *string,
 	PrivateConnectionName: *string,
-	ServiceDetails: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.devopsagentService.DevopsagentServiceServiceDetails,
+	ServiceDetails: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.devopsagentService.DevopsagentServiceServiceDetails,
 	Tags: interface{},
 	TargetUrlPrivateConnectionName: *string,
 }
@@ -1274,7 +1274,7 @@ ServiceType *string
 
 The type of service being registered.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#service_type DevopsagentService#service_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#service_type DevopsagentService#service_type}
 
 ---
 
@@ -1290,7 +1290,7 @@ The name of the private connection to use for OAuth token exchange requests only
 
 Cannot be specified when PrivateConnectionName is provided.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#exchange_url_private_connection_name DevopsagentService#exchange_url_private_connection_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#exchange_url_private_connection_name DevopsagentService#exchange_url_private_connection_name}
 
 ---
 
@@ -1304,7 +1304,7 @@ KmsKeyArn *string
 
 The ARN of the KMS key to use for encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#kms_key_arn DevopsagentService#kms_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#kms_key_arn DevopsagentService#kms_key_arn}
 
 ---
 
@@ -1318,7 +1318,7 @@ Name *string
 
 The display name for the service registration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#name DevopsagentService#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#name DevopsagentService#name}
 
 ---
 
@@ -1332,7 +1332,7 @@ PrivateConnectionName *string
 
 The name of the private connection to use for VPC connectivity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#private_connection_name DevopsagentService#private_connection_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#private_connection_name DevopsagentService#private_connection_name}
 
 ---
 
@@ -1346,7 +1346,7 @@ ServiceDetails DevopsagentServiceServiceDetails
 
 Service-specific configuration details for create operation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#service_details DevopsagentService#service_details}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#service_details DevopsagentService#service_details}
 
 ---
 
@@ -1360,7 +1360,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#tags DevopsagentService#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#tags DevopsagentService#tags}
 
 ---
 
@@ -1376,7 +1376,7 @@ The name of the private connection to use for API calls (target URL) only.
 
 Cannot be specified when PrivateConnectionName is provided.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#target_url_private_connection_name DevopsagentService#target_url_private_connection_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#target_url_private_connection_name DevopsagentService#target_url_private_connection_name}
 
 ---
 
@@ -1385,20 +1385,20 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 &devopsagentservice.DevopsagentServiceServiceDetails {
-	AzureIdentity: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.devopsagentService.DevopsagentServiceServiceDetailsAzureIdentity,
-	Dynatrace: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.devopsagentService.DevopsagentServiceServiceDetailsDynatrace,
-	GitHub: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHub,
-	GitLab: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.devopsagentService.DevopsagentServiceServiceDetailsGitLab,
-	McpServer: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.devopsagentService.DevopsagentServiceServiceDetailsMcpServer,
-	McpServerGrafana: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.devopsagentService.DevopsagentServiceServiceDetailsMcpServerGrafana,
-	McpServerNewRelic: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.devopsagentService.DevopsagentServiceServiceDetailsMcpServerNewRelic,
-	McpServerSigV4: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.devopsagentService.DevopsagentServiceServiceDetailsMcpServerSigV4,
-	McpServerSplunk: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.devopsagentService.DevopsagentServiceServiceDetailsMcpServerSplunk,
-	PagerDuty: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.devopsagentService.DevopsagentServiceServiceDetailsPagerDuty,
-	ServiceNow: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.devopsagentService.DevopsagentServiceServiceDetailsServiceNow,
+	AzureIdentity: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.devopsagentService.DevopsagentServiceServiceDetailsAzureIdentity,
+	Dynatrace: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.devopsagentService.DevopsagentServiceServiceDetailsDynatrace,
+	GitHub: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.devopsagentService.DevopsagentServiceServiceDetailsGitHub,
+	GitLab: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.devopsagentService.DevopsagentServiceServiceDetailsGitLab,
+	McpServer: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.devopsagentService.DevopsagentServiceServiceDetailsMcpServer,
+	McpServerGrafana: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.devopsagentService.DevopsagentServiceServiceDetailsMcpServerGrafana,
+	McpServerNewRelic: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.devopsagentService.DevopsagentServiceServiceDetailsMcpServerNewRelic,
+	McpServerSigV4: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.devopsagentService.DevopsagentServiceServiceDetailsMcpServerSigV4,
+	McpServerSplunk: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.devopsagentService.DevopsagentServiceServiceDetailsMcpServerSplunk,
+	PagerDuty: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.devopsagentService.DevopsagentServiceServiceDetailsPagerDuty,
+	ServiceNow: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.devopsagentService.DevopsagentServiceServiceDetailsServiceNow,
 }
 ```
 
@@ -1430,7 +1430,7 @@ AzureIdentity DevopsagentServiceServiceDetailsAzureIdentity
 
 Azure Identity service configuration for federated identity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#azure_identity DevopsagentService#azure_identity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#azure_identity DevopsagentService#azure_identity}
 
 ---
 
@@ -1444,7 +1444,7 @@ Dynatrace DevopsagentServiceServiceDetailsDynatrace
 
 Dynatrace service configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#dynatrace DevopsagentService#dynatrace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#dynatrace DevopsagentService#dynatrace}
 
 ---
 
@@ -1458,7 +1458,7 @@ GitHub DevopsagentServiceServiceDetailsGitHub
 
 GitHub personal access token (PAT) service configuration. Exactly one of AppVerification or DirectAccess selects how the token is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#git_hub DevopsagentService#git_hub}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#git_hub DevopsagentService#git_hub}
 
 ---
 
@@ -1472,7 +1472,7 @@ GitLab DevopsagentServiceServiceDetailsGitLab
 
 GitLab service configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#git_lab DevopsagentService#git_lab}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#git_lab DevopsagentService#git_lab}
 
 ---
 
@@ -1486,7 +1486,7 @@ McpServer DevopsagentServiceServiceDetailsMcpServer
 
 MCP server configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#mcp_server DevopsagentService#mcp_server}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#mcp_server DevopsagentService#mcp_server}
 
 ---
 
@@ -1500,7 +1500,7 @@ McpServerGrafana DevopsagentServiceServiceDetailsMcpServerGrafana
 
 Grafana MCP server configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#mcp_server_grafana DevopsagentService#mcp_server_grafana}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#mcp_server_grafana DevopsagentService#mcp_server_grafana}
 
 ---
 
@@ -1514,7 +1514,7 @@ McpServerNewRelic DevopsagentServiceServiceDetailsMcpServerNewRelic
 
 New Relic service configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#mcp_server_new_relic DevopsagentService#mcp_server_new_relic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#mcp_server_new_relic DevopsagentService#mcp_server_new_relic}
 
 ---
 
@@ -1528,7 +1528,7 @@ McpServerSigV4 DevopsagentServiceServiceDetailsMcpServerSigV4
 
 SigV4-authenticated MCP server configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#mcp_server_sig_v4 DevopsagentService#mcp_server_sig_v4}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#mcp_server_sig_v4 DevopsagentService#mcp_server_sig_v4}
 
 ---
 
@@ -1542,7 +1542,7 @@ McpServerSplunk DevopsagentServiceServiceDetailsMcpServerSplunk
 
 Splunk MCP server configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#mcp_server_splunk DevopsagentService#mcp_server_splunk}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#mcp_server_splunk DevopsagentService#mcp_server_splunk}
 
 ---
 
@@ -1556,7 +1556,7 @@ PagerDuty DevopsagentServiceServiceDetailsPagerDuty
 
 PagerDuty service configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#pager_duty DevopsagentService#pager_duty}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#pager_duty DevopsagentService#pager_duty}
 
 ---
 
@@ -1570,7 +1570,7 @@ ServiceNow DevopsagentServiceServiceDetailsServiceNow
 
 ServiceNow service configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#service_now DevopsagentService#service_now}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#service_now DevopsagentService#service_now}
 
 ---
 
@@ -1579,7 +1579,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsAzureIdentity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 &devopsagentservice.DevopsagentServiceServiceDetailsAzureIdentity {
 	ClientId: *string,
@@ -1610,7 +1610,7 @@ ClientId *string
 
 Azure AD application client ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#client_id DevopsagentService#client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#client_id DevopsagentService#client_id}
 
 ---
 
@@ -1624,7 +1624,7 @@ TenantId *string
 
 Azure AD tenant ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#tenant_id DevopsagentService#tenant_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#tenant_id DevopsagentService#tenant_id}
 
 ---
 
@@ -1638,7 +1638,7 @@ WebIdentityRoleArn *string
 
 ARN of the IAM role for web identity token exchange.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#web_identity_role_arn DevopsagentService#web_identity_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#web_identity_role_arn DevopsagentService#web_identity_role_arn}
 
 ---
 
@@ -1652,7 +1652,7 @@ WebIdentityTokenAudiences *[]*string
 
 List of audiences for the web identity token.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#web_identity_token_audiences DevopsagentService#web_identity_token_audiences}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#web_identity_token_audiences DevopsagentService#web_identity_token_audiences}
 
 ---
 
@@ -1661,11 +1661,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsDynatrace.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 &devopsagentservice.DevopsagentServiceServiceDetailsDynatrace {
 	AccountUrn: *string,
-	AuthorizationConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.devopsagentService.DevopsagentServiceServiceDetailsDynatraceAuthorizationConfig,
+	AuthorizationConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.devopsagentService.DevopsagentServiceServiceDetailsDynatraceAuthorizationConfig,
 }
 ```
 
@@ -1688,7 +1688,7 @@ AccountUrn *string
 
 Dynatrace resource account URN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#account_urn DevopsagentService#account_urn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#account_urn DevopsagentService#account_urn}
 
 ---
 
@@ -1702,7 +1702,7 @@ AuthorizationConfig DevopsagentServiceServiceDetailsDynatraceAuthorizationConfig
 
 Dynatrace OAuth authorization configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
 
 ---
 
@@ -1711,10 +1711,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsDynatraceAuthorizationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 &devopsagentservice.DevopsagentServiceServiceDetailsDynatraceAuthorizationConfig {
-	OAuthClientCredentials: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.devopsagentService.DevopsagentServiceServiceDetailsDynatraceAuthorizationConfigOAuthClientCredentials,
+	OAuthClientCredentials: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.devopsagentService.DevopsagentServiceServiceDetailsDynatraceAuthorizationConfigOAuthClientCredentials,
 }
 ```
 
@@ -1736,7 +1736,7 @@ OAuthClientCredentials DevopsagentServiceServiceDetailsDynatraceAuthorizationCon
 
 OAuth client credentials.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#o_auth_client_credentials DevopsagentService#o_auth_client_credentials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#o_auth_client_credentials DevopsagentService#o_auth_client_credentials}
 
 ---
 
@@ -1745,7 +1745,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsDynatraceAuthorizationConfigOAuthClientCredentials.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 &devopsagentservice.DevopsagentServiceServiceDetailsDynatraceAuthorizationConfigOAuthClientCredentials {
 	ClientId: *string,
@@ -1776,7 +1776,7 @@ ClientId *string
 
 OAuth client ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#client_id DevopsagentService#client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#client_id DevopsagentService#client_id}
 
 ---
 
@@ -1790,7 +1790,7 @@ ClientName *string
 
 User friendly OAuth client name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#client_name DevopsagentService#client_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#client_name DevopsagentService#client_name}
 
 ---
 
@@ -1804,7 +1804,7 @@ ClientSecret *string
 
 OAuth client secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#client_secret DevopsagentService#client_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#client_secret DevopsagentService#client_secret}
 
 ---
 
@@ -1818,7 +1818,7 @@ ExchangeParameters *string
 
 OAuth token exchange parameters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#exchange_parameters DevopsagentService#exchange_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#exchange_parameters DevopsagentService#exchange_parameters}
 
 ---
 
@@ -1827,11 +1827,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHub.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 &devopsagentservice.DevopsagentServiceServiceDetailsGitHub {
-	AppVerification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerification,
-	DirectAccess: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccess,
+	AppVerification: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerification,
+	DirectAccess: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccess,
 }
 ```
 
@@ -1854,7 +1854,7 @@ AppVerification DevopsagentServiceServiceDetailsGitHubAppVerification
 
 The token verifies an existing DevOps Agent GitHub App installation on github.com and is then discarded. Not supported for GitHub Enterprise Server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#app_verification DevopsagentService#app_verification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#app_verification DevopsagentService#app_verification}
 
 ---
 
@@ -1868,7 +1868,7 @@ DirectAccess DevopsagentServiceServiceDetailsGitHubDirectAccess
 
 The token is stored and used as the long-lived credential for GitHub API access.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#direct_access DevopsagentService#direct_access}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#direct_access DevopsagentService#direct_access}
 
 ---
 
@@ -1877,7 +1877,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 &devopsagentservice.DevopsagentServiceServiceDetailsGitHubAppVerification {
 	AppVariant: *string,
@@ -1908,7 +1908,7 @@ AppVariant *string
 
 Permission variant of the DevOps Agent GitHub App that must already be installed on the organization or account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#app_variant DevopsagentService#app_variant}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#app_variant DevopsagentService#app_variant}
 
 ---
 
@@ -1924,7 +1924,7 @@ GitHub organization to scope the service to.
 
 The token must be an active member of the organization and only that organization's repositories are accessible. Omit to register the token's own user account
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#organization_name DevopsagentService#organization_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#organization_name DevopsagentService#organization_name}
 
 ---
 
@@ -1940,7 +1940,7 @@ GitHub instance URL.
 
 Omit for github.com. Provide the instance host for GitHub Enterprise Server or GitHub Enterprise Cloud with data residency (e.g. https://github.example.com)
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#target_url DevopsagentService#target_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#target_url DevopsagentService#target_url}
 
 ---
 
@@ -1954,7 +1954,7 @@ TokenValue *string
 
 GitHub personal access token (PAT) value. Accepts classic PATs (ghp_...), fine-grained PATs (github_pat_...), and GitHub Enterprise Server token formats.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#token_value DevopsagentService#token_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#token_value DevopsagentService#token_value}
 
 ---
 
@@ -1963,7 +1963,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccess.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 &devopsagentservice.DevopsagentServiceServiceDetailsGitHubDirectAccess {
 	OrganizationName: *string,
@@ -1994,7 +1994,7 @@ GitHub organization to scope the service to.
 
 The token must be an active member of the organization and only that organization's repositories are accessible. Omit to register the token's own user account
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#organization_name DevopsagentService#organization_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#organization_name DevopsagentService#organization_name}
 
 ---
 
@@ -2010,7 +2010,7 @@ GitHub instance URL.
 
 Omit for github.com. Provide the instance host for GitHub Enterprise Server or GitHub Enterprise Cloud with data residency (e.g. https://github.example.com)
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#target_url DevopsagentService#target_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#target_url DevopsagentService#target_url}
 
 ---
 
@@ -2024,7 +2024,7 @@ TokenValue *string
 
 GitHub personal access token (PAT) value. Accepts classic PATs (ghp_...), fine-grained PATs (github_pat_...), and GitHub Enterprise Server token formats.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#token_value DevopsagentService#token_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#token_value DevopsagentService#token_value}
 
 ---
 
@@ -2033,7 +2033,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitLab.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 &devopsagentservice.DevopsagentServiceServiceDetailsGitLab {
 	GroupId: *string,
@@ -2064,7 +2064,7 @@ GroupId *string
 
 Optional GitLab group ID for group-level access tokens.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#group_id DevopsagentService#group_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#group_id DevopsagentService#group_id}
 
 ---
 
@@ -2078,7 +2078,7 @@ TargetUrl *string
 
 GitLab instance URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#target_url DevopsagentService#target_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#target_url DevopsagentService#target_url}
 
 ---
 
@@ -2092,7 +2092,7 @@ TokenType *string
 
 Type of GitLab access token.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#token_type DevopsagentService#token_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#token_type DevopsagentService#token_type}
 
 ---
 
@@ -2106,7 +2106,7 @@ TokenValue *string
 
 GitLab access token value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#token_value DevopsagentService#token_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#token_value DevopsagentService#token_value}
 
 ---
 
@@ -2115,10 +2115,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsMcpServer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 &devopsagentservice.DevopsagentServiceServiceDetailsMcpServer {
-	AuthorizationConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.devopsagentService.DevopsagentServiceServiceDetailsMcpServerAuthorizationConfig,
+	AuthorizationConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.devopsagentService.DevopsagentServiceServiceDetailsMcpServerAuthorizationConfig,
 	Description: *string,
 	Endpoint: *string,
 	Name: *string,
@@ -2146,7 +2146,7 @@ AuthorizationConfig DevopsagentServiceServiceDetailsMcpServerAuthorizationConfig
 
 MCP server authorization configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
 
 ---
 
@@ -2160,7 +2160,7 @@ Description *string
 
 Optional description for the MCP server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#description DevopsagentService#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#description DevopsagentService#description}
 
 ---
 
@@ -2174,7 +2174,7 @@ Endpoint *string
 
 MCP server endpoint URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#endpoint DevopsagentService#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#endpoint DevopsagentService#endpoint}
 
 ---
 
@@ -2188,7 +2188,7 @@ Name *string
 
 MCP server name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#name DevopsagentService#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#name DevopsagentService#name}
 
 ---
 
@@ -2197,12 +2197,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsMcpServerAuthorizationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 &devopsagentservice.DevopsagentServiceServiceDetailsMcpServerAuthorizationConfig {
-	ApiKey: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.devopsagentService.DevopsagentServiceServiceDetailsMcpServerAuthorizationConfigApiKey,
-	BearerToken: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.devopsagentService.DevopsagentServiceServiceDetailsMcpServerAuthorizationConfigBearerToken,
-	OAuthClientCredentials: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.devopsagentService.DevopsagentServiceServiceDetailsMcpServerAuthorizationConfigOAuthClientCredentials,
+	ApiKey: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.devopsagentService.DevopsagentServiceServiceDetailsMcpServerAuthorizationConfigApiKey,
+	BearerToken: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.devopsagentService.DevopsagentServiceServiceDetailsMcpServerAuthorizationConfigBearerToken,
+	OAuthClientCredentials: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.devopsagentService.DevopsagentServiceServiceDetailsMcpServerAuthorizationConfigOAuthClientCredentials,
 }
 ```
 
@@ -2226,7 +2226,7 @@ ApiKey DevopsagentServiceServiceDetailsMcpServerAuthorizationConfigApiKey
 
 API key authentication details.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#api_key DevopsagentService#api_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#api_key DevopsagentService#api_key}
 
 ---
 
@@ -2240,7 +2240,7 @@ BearerToken DevopsagentServiceServiceDetailsMcpServerAuthorizationConfigBearerTo
 
 Bearer token authentication details.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#bearer_token DevopsagentService#bearer_token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#bearer_token DevopsagentService#bearer_token}
 
 ---
 
@@ -2254,7 +2254,7 @@ OAuthClientCredentials DevopsagentServiceServiceDetailsMcpServerAuthorizationCon
 
 MCP server OAuth client credentials configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#o_auth_client_credentials DevopsagentService#o_auth_client_credentials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#o_auth_client_credentials DevopsagentService#o_auth_client_credentials}
 
 ---
 
@@ -2263,7 +2263,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsMcpServerAuthorizationConfigApiKey.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 &devopsagentservice.DevopsagentServiceServiceDetailsMcpServerAuthorizationConfigApiKey {
 	ApiKeyHeader: *string,
@@ -2292,7 +2292,7 @@ ApiKeyHeader *string
 
 HTTP header name to send the API key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#api_key_header DevopsagentService#api_key_header}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#api_key_header DevopsagentService#api_key_header}
 
 ---
 
@@ -2306,7 +2306,7 @@ ApiKeyName *string
 
 User friendly API key name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#api_key_name DevopsagentService#api_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#api_key_name DevopsagentService#api_key_name}
 
 ---
 
@@ -2320,7 +2320,7 @@ ApiKeyValue *string
 
 API key value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#api_key_value DevopsagentService#api_key_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#api_key_value DevopsagentService#api_key_value}
 
 ---
 
@@ -2329,7 +2329,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsMcpServerAuthorizationConfigBearerToken.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 &devopsagentservice.DevopsagentServiceServiceDetailsMcpServerAuthorizationConfigBearerToken {
 	AuthorizationHeader: *string,
@@ -2358,7 +2358,7 @@ AuthorizationHeader *string
 
 HTTP header name to send the bearer token.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#authorization_header DevopsagentService#authorization_header}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#authorization_header DevopsagentService#authorization_header}
 
 ---
 
@@ -2372,7 +2372,7 @@ TokenName *string
 
 User friendly bearer token name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#token_name DevopsagentService#token_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#token_name DevopsagentService#token_name}
 
 ---
 
@@ -2386,7 +2386,7 @@ TokenValue *string
 
 Bearer token value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#token_value DevopsagentService#token_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#token_value DevopsagentService#token_value}
 
 ---
 
@@ -2395,7 +2395,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsMcpServerAuthorizationConfigOAuthClientCredentials.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 &devopsagentservice.DevopsagentServiceServiceDetailsMcpServerAuthorizationConfigOAuthClientCredentials {
 	ClientId: *string,
@@ -2430,7 +2430,7 @@ ClientId *string
 
 OAuth client ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#client_id DevopsagentService#client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#client_id DevopsagentService#client_id}
 
 ---
 
@@ -2444,7 +2444,7 @@ ClientName *string
 
 User friendly OAuth client name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#client_name DevopsagentService#client_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#client_name DevopsagentService#client_name}
 
 ---
 
@@ -2458,7 +2458,7 @@ ClientSecret *string
 
 OAuth client secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#client_secret DevopsagentService#client_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#client_secret DevopsagentService#client_secret}
 
 ---
 
@@ -2472,7 +2472,7 @@ ExchangeParameters *string
 
 OAuth token exchange parameters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#exchange_parameters DevopsagentService#exchange_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#exchange_parameters DevopsagentService#exchange_parameters}
 
 ---
 
@@ -2486,7 +2486,7 @@ ExchangeUrl *string
 
 OAuth token exchange URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#exchange_url DevopsagentService#exchange_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#exchange_url DevopsagentService#exchange_url}
 
 ---
 
@@ -2500,7 +2500,7 @@ Scopes *[]*string
 
 OAuth scopes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#scopes DevopsagentService#scopes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#scopes DevopsagentService#scopes}
 
 ---
 
@@ -2509,10 +2509,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsMcpServerGrafana.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 &devopsagentservice.DevopsagentServiceServiceDetailsMcpServerGrafana {
-	AuthorizationConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.devopsagentService.DevopsagentServiceServiceDetailsMcpServerGrafanaAuthorizationConfig,
+	AuthorizationConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.devopsagentService.DevopsagentServiceServiceDetailsMcpServerGrafanaAuthorizationConfig,
 	Description: *string,
 	Endpoint: *string,
 	Name: *string,
@@ -2540,7 +2540,7 @@ AuthorizationConfig DevopsagentServiceServiceDetailsMcpServerGrafanaAuthorizatio
 
 Grafana MCP server authorization configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
 
 ---
 
@@ -2554,7 +2554,7 @@ Description *string
 
 Optional description for the MCP server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#description DevopsagentService#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#description DevopsagentService#description}
 
 ---
 
@@ -2568,7 +2568,7 @@ Endpoint *string
 
 MCP server endpoint URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#endpoint DevopsagentService#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#endpoint DevopsagentService#endpoint}
 
 ---
 
@@ -2582,7 +2582,7 @@ Name *string
 
 MCP server name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#name DevopsagentService#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#name DevopsagentService#name}
 
 ---
 
@@ -2591,10 +2591,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsMcpServerGrafanaAuthorizationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 &devopsagentservice.DevopsagentServiceServiceDetailsMcpServerGrafanaAuthorizationConfig {
-	BearerToken: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.devopsagentService.DevopsagentServiceServiceDetailsMcpServerGrafanaAuthorizationConfigBearerToken,
+	BearerToken: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.devopsagentService.DevopsagentServiceServiceDetailsMcpServerGrafanaAuthorizationConfigBearerToken,
 }
 ```
 
@@ -2616,7 +2616,7 @@ BearerToken DevopsagentServiceServiceDetailsMcpServerGrafanaAuthorizationConfigB
 
 Bearer token authentication details.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#bearer_token DevopsagentService#bearer_token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#bearer_token DevopsagentService#bearer_token}
 
 ---
 
@@ -2625,7 +2625,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsMcpServerGrafanaAuthorizationConfigBearerToken.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 &devopsagentservice.DevopsagentServiceServiceDetailsMcpServerGrafanaAuthorizationConfigBearerToken {
 	AuthorizationHeader: *string,
@@ -2654,7 +2654,7 @@ AuthorizationHeader *string
 
 HTTP header name to send the bearer token.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#authorization_header DevopsagentService#authorization_header}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#authorization_header DevopsagentService#authorization_header}
 
 ---
 
@@ -2668,7 +2668,7 @@ TokenName *string
 
 User friendly bearer token name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#token_name DevopsagentService#token_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#token_name DevopsagentService#token_name}
 
 ---
 
@@ -2682,7 +2682,7 @@ TokenValue *string
 
 Bearer token value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#token_value DevopsagentService#token_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#token_value DevopsagentService#token_value}
 
 ---
 
@@ -2691,10 +2691,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsMcpServerNewRelic.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 &devopsagentservice.DevopsagentServiceServiceDetailsMcpServerNewRelic {
-	AuthorizationConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.devopsagentService.DevopsagentServiceServiceDetailsMcpServerNewRelicAuthorizationConfig,
+	AuthorizationConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.devopsagentService.DevopsagentServiceServiceDetailsMcpServerNewRelicAuthorizationConfig,
 }
 ```
 
@@ -2716,7 +2716,7 @@ AuthorizationConfig DevopsagentServiceServiceDetailsMcpServerNewRelicAuthorizati
 
 New Relic authorization configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
 
 ---
 
@@ -2725,10 +2725,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsMcpServerNewRelicAuthorizationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 &devopsagentservice.DevopsagentServiceServiceDetailsMcpServerNewRelicAuthorizationConfig {
-	ApiKey: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.devopsagentService.DevopsagentServiceServiceDetailsMcpServerNewRelicAuthorizationConfigApiKey,
+	ApiKey: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.devopsagentService.DevopsagentServiceServiceDetailsMcpServerNewRelicAuthorizationConfigApiKey,
 }
 ```
 
@@ -2750,7 +2750,7 @@ ApiKey DevopsagentServiceServiceDetailsMcpServerNewRelicAuthorizationConfigApiKe
 
 New Relic API key configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#api_key DevopsagentService#api_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#api_key DevopsagentService#api_key}
 
 ---
 
@@ -2759,7 +2759,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsMcpServerNewRelicAuthorizationConfigApiKey.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 &devopsagentservice.DevopsagentServiceServiceDetailsMcpServerNewRelicAuthorizationConfigApiKey {
 	AccountId: *string,
@@ -2794,7 +2794,7 @@ AccountId *string
 
 New Relic Account ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#account_id DevopsagentService#account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#account_id DevopsagentService#account_id}
 
 ---
 
@@ -2808,7 +2808,7 @@ AlertPolicyIds *[]*string
 
 List of alert policy IDs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#alert_policy_ids DevopsagentService#alert_policy_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#alert_policy_ids DevopsagentService#alert_policy_ids}
 
 ---
 
@@ -2822,7 +2822,7 @@ ApiKey *string
 
 New Relic User API Key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#api_key DevopsagentService#api_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#api_key DevopsagentService#api_key}
 
 ---
 
@@ -2836,7 +2836,7 @@ ApplicationIds *[]*string
 
 List of monitored APM application IDs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#application_ids DevopsagentService#application_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#application_ids DevopsagentService#application_ids}
 
 ---
 
@@ -2850,7 +2850,7 @@ EntityGuids *[]*string
 
 List of globally unique IDs for New Relic resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#entity_guids DevopsagentService#entity_guids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#entity_guids DevopsagentService#entity_guids}
 
 ---
 
@@ -2864,7 +2864,7 @@ Region *string
 
 New Relic region.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#region DevopsagentService#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#region DevopsagentService#region}
 
 ---
 
@@ -2873,10 +2873,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsMcpServerSigV4.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 &devopsagentservice.DevopsagentServiceServiceDetailsMcpServerSigV4 {
-	AuthorizationConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.devopsagentService.DevopsagentServiceServiceDetailsMcpServerSigV4AuthorizationConfig,
+	AuthorizationConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.devopsagentService.DevopsagentServiceServiceDetailsMcpServerSigV4AuthorizationConfig,
 	Description: *string,
 	Endpoint: *string,
 	Name: *string,
@@ -2904,7 +2904,7 @@ AuthorizationConfig DevopsagentServiceServiceDetailsMcpServerSigV4AuthorizationC
 
 SigV4 authorization configuration for MCP server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
 
 ---
 
@@ -2918,7 +2918,7 @@ Description *string
 
 Optional description for the MCP server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#description DevopsagentService#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#description DevopsagentService#description}
 
 ---
 
@@ -2932,7 +2932,7 @@ Endpoint *string
 
 MCP server endpoint URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#endpoint DevopsagentService#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#endpoint DevopsagentService#endpoint}
 
 ---
 
@@ -2946,7 +2946,7 @@ Name *string
 
 MCP server name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#name DevopsagentService#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#name DevopsagentService#name}
 
 ---
 
@@ -2955,7 +2955,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsMcpServerSigV4AuthorizationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 &devopsagentservice.DevopsagentServiceServiceDetailsMcpServerSigV4AuthorizationConfig {
 	CustomHeaders: *map[string]*string,
@@ -2988,7 +2988,7 @@ CustomHeaders *map[string]*string
 
 Custom headers for the SigV4 MCP server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#custom_headers DevopsagentService#custom_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#custom_headers DevopsagentService#custom_headers}
 
 ---
 
@@ -3004,7 +3004,7 @@ IAM role ARN to assume for SigV4 signing.
 
 Optional - when omitted, credentials are resolved at runtime via a monitor account association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#mcp_role_arn DevopsagentService#mcp_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#mcp_role_arn DevopsagentService#mcp_role_arn}
 
 ---
 
@@ -3018,7 +3018,7 @@ Region *string
 
 AWS region for SigV4 signing. Use '*' for SigV4a multi-region signing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#region DevopsagentService#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#region DevopsagentService#region}
 
 ---
 
@@ -3034,7 +3034,7 @@ Deprecated - use McpRoleArn instead.
 
 IAM role ARN to assume for SigV4 signing. Set to an empty string to remove a previously configured role and make the server role-less (cross-account).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#role_arn DevopsagentService#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#role_arn DevopsagentService#role_arn}
 
 ---
 
@@ -3048,7 +3048,7 @@ Service *string
 
 AWS service name for SigV4 signing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#service DevopsagentService#service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#service DevopsagentService#service}
 
 ---
 
@@ -3057,10 +3057,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsMcpServerSplunk.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 &devopsagentservice.DevopsagentServiceServiceDetailsMcpServerSplunk {
-	AuthorizationConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.devopsagentService.DevopsagentServiceServiceDetailsMcpServerSplunkAuthorizationConfig,
+	AuthorizationConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.devopsagentService.DevopsagentServiceServiceDetailsMcpServerSplunkAuthorizationConfig,
 	Description: *string,
 	Endpoint: *string,
 	Name: *string,
@@ -3088,7 +3088,7 @@ AuthorizationConfig DevopsagentServiceServiceDetailsMcpServerSplunkAuthorization
 
 MCP server splunk authorization configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
 
 ---
 
@@ -3102,7 +3102,7 @@ Description *string
 
 Optional description for the MCP server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#description DevopsagentService#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#description DevopsagentService#description}
 
 ---
 
@@ -3116,7 +3116,7 @@ Endpoint *string
 
 MCP server endpoint URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#endpoint DevopsagentService#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#endpoint DevopsagentService#endpoint}
 
 ---
 
@@ -3130,7 +3130,7 @@ Name *string
 
 MCP server name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#name DevopsagentService#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#name DevopsagentService#name}
 
 ---
 
@@ -3139,10 +3139,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsMcpServerSplunkAuthorizationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 &devopsagentservice.DevopsagentServiceServiceDetailsMcpServerSplunkAuthorizationConfig {
-	BearerToken: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.devopsagentService.DevopsagentServiceServiceDetailsMcpServerSplunkAuthorizationConfigBearerToken,
+	BearerToken: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.devopsagentService.DevopsagentServiceServiceDetailsMcpServerSplunkAuthorizationConfigBearerToken,
 }
 ```
 
@@ -3164,7 +3164,7 @@ BearerToken DevopsagentServiceServiceDetailsMcpServerSplunkAuthorizationConfigBe
 
 Bearer token authentication details.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#bearer_token DevopsagentService#bearer_token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#bearer_token DevopsagentService#bearer_token}
 
 ---
 
@@ -3173,7 +3173,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsMcpServerSplunkAuthorizationConfigBearerToken.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 &devopsagentservice.DevopsagentServiceServiceDetailsMcpServerSplunkAuthorizationConfigBearerToken {
 	AuthorizationHeader: *string,
@@ -3202,7 +3202,7 @@ AuthorizationHeader *string
 
 HTTP header name to send the bearer token.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#authorization_header DevopsagentService#authorization_header}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#authorization_header DevopsagentService#authorization_header}
 
 ---
 
@@ -3216,7 +3216,7 @@ TokenName *string
 
 User friendly bearer token name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#token_name DevopsagentService#token_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#token_name DevopsagentService#token_name}
 
 ---
 
@@ -3230,7 +3230,7 @@ TokenValue *string
 
 Bearer token value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#token_value DevopsagentService#token_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#token_value DevopsagentService#token_value}
 
 ---
 
@@ -3239,10 +3239,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsPagerDuty.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 &devopsagentservice.DevopsagentServiceServiceDetailsPagerDuty {
-	AuthorizationConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.devopsagentService.DevopsagentServiceServiceDetailsPagerDutyAuthorizationConfig,
+	AuthorizationConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.devopsagentService.DevopsagentServiceServiceDetailsPagerDutyAuthorizationConfig,
 	Scopes: *[]*string,
 }
 ```
@@ -3266,7 +3266,7 @@ AuthorizationConfig DevopsagentServiceServiceDetailsPagerDutyAuthorizationConfig
 
 PagerDuty OAuth authorization configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
 
 ---
 
@@ -3280,7 +3280,7 @@ Scopes *[]*string
 
 PagerDuty scopes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#scopes DevopsagentService#scopes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#scopes DevopsagentService#scopes}
 
 ---
 
@@ -3289,10 +3289,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsPagerDutyAuthorizationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 &devopsagentservice.DevopsagentServiceServiceDetailsPagerDutyAuthorizationConfig {
-	OAuthClientCredentials: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.devopsagentService.DevopsagentServiceServiceDetailsPagerDutyAuthorizationConfigOAuthClientCredentials,
+	OAuthClientCredentials: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.devopsagentService.DevopsagentServiceServiceDetailsPagerDutyAuthorizationConfigOAuthClientCredentials,
 }
 ```
 
@@ -3314,7 +3314,7 @@ OAuthClientCredentials DevopsagentServiceServiceDetailsPagerDutyAuthorizationCon
 
 OAuth client credentials.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#o_auth_client_credentials DevopsagentService#o_auth_client_credentials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#o_auth_client_credentials DevopsagentService#o_auth_client_credentials}
 
 ---
 
@@ -3323,7 +3323,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsPagerDutyAuthorizationConfigOAuthClientCredentials.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 &devopsagentservice.DevopsagentServiceServiceDetailsPagerDutyAuthorizationConfigOAuthClientCredentials {
 	ClientId: *string,
@@ -3354,7 +3354,7 @@ ClientId *string
 
 OAuth client ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#client_id DevopsagentService#client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#client_id DevopsagentService#client_id}
 
 ---
 
@@ -3368,7 +3368,7 @@ ClientName *string
 
 User friendly OAuth client name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#client_name DevopsagentService#client_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#client_name DevopsagentService#client_name}
 
 ---
 
@@ -3382,7 +3382,7 @@ ClientSecret *string
 
 OAuth client secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#client_secret DevopsagentService#client_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#client_secret DevopsagentService#client_secret}
 
 ---
 
@@ -3396,7 +3396,7 @@ ExchangeParameters *string
 
 OAuth token exchange parameters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#exchange_parameters DevopsagentService#exchange_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#exchange_parameters DevopsagentService#exchange_parameters}
 
 ---
 
@@ -3405,10 +3405,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsServiceNow.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 &devopsagentservice.DevopsagentServiceServiceDetailsServiceNow {
-	AuthorizationConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.devopsagentService.DevopsagentServiceServiceDetailsServiceNowAuthorizationConfig,
+	AuthorizationConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.devopsagentService.DevopsagentServiceServiceDetailsServiceNowAuthorizationConfig,
 	InstanceUrl: *string,
 }
 ```
@@ -3432,7 +3432,7 @@ AuthorizationConfig DevopsagentServiceServiceDetailsServiceNowAuthorizationConfi
 
 ServiceNow OAuth authorization configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
 
 ---
 
@@ -3446,7 +3446,7 @@ InstanceUrl *string
 
 ServiceNow instance URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#instance_url DevopsagentService#instance_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#instance_url DevopsagentService#instance_url}
 
 ---
 
@@ -3455,10 +3455,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsServiceNowAuthorizationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 &devopsagentservice.DevopsagentServiceServiceDetailsServiceNowAuthorizationConfig {
-	OAuthClientCredentials: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.devopsagentService.DevopsagentServiceServiceDetailsServiceNowAuthorizationConfigOAuthClientCredentials,
+	OAuthClientCredentials: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.devopsagentService.DevopsagentServiceServiceDetailsServiceNowAuthorizationConfigOAuthClientCredentials,
 }
 ```
 
@@ -3480,7 +3480,7 @@ OAuthClientCredentials DevopsagentServiceServiceDetailsServiceNowAuthorizationCo
 
 OAuth client credentials.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#o_auth_client_credentials DevopsagentService#o_auth_client_credentials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#o_auth_client_credentials DevopsagentService#o_auth_client_credentials}
 
 ---
 
@@ -3489,7 +3489,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsServiceNowAuthorizationConfigOAuthClientCredentials.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 &devopsagentservice.DevopsagentServiceServiceDetailsServiceNowAuthorizationConfigOAuthClientCredentials {
 	ClientId: *string,
@@ -3520,7 +3520,7 @@ ClientId *string
 
 OAuth client ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#client_id DevopsagentService#client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#client_id DevopsagentService#client_id}
 
 ---
 
@@ -3534,7 +3534,7 @@ ClientName *string
 
 User friendly OAuth client name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#client_name DevopsagentService#client_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#client_name DevopsagentService#client_name}
 
 ---
 
@@ -3548,7 +3548,7 @@ ClientSecret *string
 
 OAuth client secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#client_secret DevopsagentService#client_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#client_secret DevopsagentService#client_secret}
 
 ---
 
@@ -3562,7 +3562,7 @@ ExchangeParameters *string
 
 OAuth token exchange parameters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#exchange_parameters DevopsagentService#exchange_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#exchange_parameters DevopsagentService#exchange_parameters}
 
 ---
 
@@ -3571,7 +3571,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 &devopsagentservice.DevopsagentServiceTags {
 	Key: *string,
@@ -3598,7 +3598,7 @@ Key *string
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#key DevopsagentService#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#key DevopsagentService#key}
 
 ---
 
@@ -3612,7 +3612,7 @@ Value *string
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#value DevopsagentService#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#value DevopsagentService#value}
 
 ---
 
@@ -3623,7 +3623,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsAzureIdentityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 devopsagentservice.NewDevopsagentServiceAdditionalServiceDetailsAzureIdentityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DevopsagentServiceAdditionalServiceDetailsAzureIdentityOutputReference
 ```
@@ -3916,7 +3916,7 @@ func InternalValue() DevopsagentServiceAdditionalServiceDetailsAzureIdentity
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsDynatraceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 devopsagentservice.NewDevopsagentServiceAdditionalServiceDetailsDynatraceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DevopsagentServiceAdditionalServiceDetailsDynatraceOutputReference
 ```
@@ -4176,7 +4176,7 @@ func InternalValue() DevopsagentServiceAdditionalServiceDetailsDynatrace
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 devopsagentservice.NewDevopsagentServiceAdditionalServiceDetailsGitHubOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference
 ```
@@ -4491,7 +4491,7 @@ func InternalValue() DevopsagentServiceAdditionalServiceDetailsGitHub
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitLabOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 devopsagentservice.NewDevopsagentServiceAdditionalServiceDetailsGitLabOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DevopsagentServiceAdditionalServiceDetailsGitLabOutputReference
 ```
@@ -4773,7 +4773,7 @@ func InternalValue() DevopsagentServiceAdditionalServiceDetailsGitLab
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsMcpServerGrafanaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 devopsagentservice.NewDevopsagentServiceAdditionalServiceDetailsMcpServerGrafanaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DevopsagentServiceAdditionalServiceDetailsMcpServerGrafanaOutputReference
 ```
@@ -5066,7 +5066,7 @@ func InternalValue() DevopsagentServiceAdditionalServiceDetailsMcpServerGrafana
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsMcpServerNewRelicOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 devopsagentservice.NewDevopsagentServiceAdditionalServiceDetailsMcpServerNewRelicOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DevopsagentServiceAdditionalServiceDetailsMcpServerNewRelicOutputReference
 ```
@@ -5348,7 +5348,7 @@ func InternalValue() DevopsagentServiceAdditionalServiceDetailsMcpServerNewRelic
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsMcpServerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 devopsagentservice.NewDevopsagentServiceAdditionalServiceDetailsMcpServerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DevopsagentServiceAdditionalServiceDetailsMcpServerOutputReference
 ```
@@ -5652,7 +5652,7 @@ func InternalValue() DevopsagentServiceAdditionalServiceDetailsMcpServer
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsMcpServerSigV4OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 devopsagentservice.NewDevopsagentServiceAdditionalServiceDetailsMcpServerSigV4OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DevopsagentServiceAdditionalServiceDetailsMcpServerSigV4OutputReference
 ```
@@ -5989,7 +5989,7 @@ func InternalValue() DevopsagentServiceAdditionalServiceDetailsMcpServerSigV4
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsMcpServerSplunkOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 devopsagentservice.NewDevopsagentServiceAdditionalServiceDetailsMcpServerSplunkOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DevopsagentServiceAdditionalServiceDetailsMcpServerSplunkOutputReference
 ```
@@ -6293,7 +6293,7 @@ func InternalValue() DevopsagentServiceAdditionalServiceDetailsMcpServerSplunk
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 devopsagentservice.NewDevopsagentServiceAdditionalServiceDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DevopsagentServiceAdditionalServiceDetailsOutputReference
 ```
@@ -6663,7 +6663,7 @@ func InternalValue() DevopsagentServiceAdditionalServiceDetails
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsPagerDutyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 devopsagentservice.NewDevopsagentServiceAdditionalServiceDetailsPagerDutyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DevopsagentServiceAdditionalServiceDetailsPagerDutyOutputReference
 ```
@@ -6923,7 +6923,7 @@ func InternalValue() DevopsagentServiceAdditionalServiceDetailsPagerDuty
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsServiceNowOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 devopsagentservice.NewDevopsagentServiceAdditionalServiceDetailsServiceNowOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DevopsagentServiceAdditionalServiceDetailsServiceNowOutputReference
 ```
@@ -7183,7 +7183,7 @@ func InternalValue() DevopsagentServiceAdditionalServiceDetailsServiceNow
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsAzureIdentityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 devopsagentservice.NewDevopsagentServiceServiceDetailsAzureIdentityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DevopsagentServiceServiceDetailsAzureIdentityOutputReference
 ```
@@ -7548,7 +7548,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsDynatraceAuthorizationConfigOAuthClientCredentialsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 devopsagentservice.NewDevopsagentServiceServiceDetailsDynatraceAuthorizationConfigOAuthClientCredentialsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DevopsagentServiceServiceDetailsDynatraceAuthorizationConfigOAuthClientCredentialsOutputReference
 ```
@@ -7913,7 +7913,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsDynatraceAuthorizationConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 devopsagentservice.NewDevopsagentServiceServiceDetailsDynatraceAuthorizationConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DevopsagentServiceServiceDetailsDynatraceAuthorizationConfigOutputReference
 ```
@@ -8204,7 +8204,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsDynatraceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 devopsagentservice.NewDevopsagentServiceServiceDetailsDynatraceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DevopsagentServiceServiceDetailsDynatraceOutputReference
 ```
@@ -8524,7 +8524,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 devopsagentservice.NewDevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference
 ```
@@ -8889,7 +8889,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 devopsagentservice.NewDevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference
 ```
@@ -9225,7 +9225,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 devopsagentservice.NewDevopsagentServiceServiceDetailsGitHubOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DevopsagentServiceServiceDetailsGitHubOutputReference
 ```
@@ -9558,7 +9558,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitLabOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 devopsagentservice.NewDevopsagentServiceServiceDetailsGitLabOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DevopsagentServiceServiceDetailsGitLabOutputReference
 ```
@@ -9923,7 +9923,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsMcpServerAuthorizationConfigApiKeyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 devopsagentservice.NewDevopsagentServiceServiceDetailsMcpServerAuthorizationConfigApiKeyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DevopsagentServiceServiceDetailsMcpServerAuthorizationConfigApiKeyOutputReference
 ```
@@ -10259,7 +10259,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsMcpServerAuthorizationConfigBearerTokenOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 devopsagentservice.NewDevopsagentServiceServiceDetailsMcpServerAuthorizationConfigBearerTokenOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DevopsagentServiceServiceDetailsMcpServerAuthorizationConfigBearerTokenOutputReference
 ```
@@ -10595,7 +10595,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsMcpServerAuthorizationConfigOAuthClientCredentialsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 devopsagentservice.NewDevopsagentServiceServiceDetailsMcpServerAuthorizationConfigOAuthClientCredentialsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DevopsagentServiceServiceDetailsMcpServerAuthorizationConfigOAuthClientCredentialsOutputReference
 ```
@@ -11018,7 +11018,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsMcpServerAuthorizationConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 devopsagentservice.NewDevopsagentServiceServiceDetailsMcpServerAuthorizationConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DevopsagentServiceServiceDetailsMcpServerAuthorizationConfigOutputReference
 ```
@@ -11393,7 +11393,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsMcpServerGrafanaAuthorizationConfigBearerTokenOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 devopsagentservice.NewDevopsagentServiceServiceDetailsMcpServerGrafanaAuthorizationConfigBearerTokenOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DevopsagentServiceServiceDetailsMcpServerGrafanaAuthorizationConfigBearerTokenOutputReference
 ```
@@ -11729,7 +11729,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsMcpServerGrafanaAuthorizationConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 devopsagentservice.NewDevopsagentServiceServiceDetailsMcpServerGrafanaAuthorizationConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DevopsagentServiceServiceDetailsMcpServerGrafanaAuthorizationConfigOutputReference
 ```
@@ -12020,7 +12020,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsMcpServerGrafanaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 devopsagentservice.NewDevopsagentServiceServiceDetailsMcpServerGrafanaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DevopsagentServiceServiceDetailsMcpServerGrafanaOutputReference
 ```
@@ -12398,7 +12398,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsMcpServerNewRelicAuthorizationConfigApiKeyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 devopsagentservice.NewDevopsagentServiceServiceDetailsMcpServerNewRelicAuthorizationConfigApiKeyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DevopsagentServiceServiceDetailsMcpServerNewRelicAuthorizationConfigApiKeyOutputReference
 ```
@@ -12821,7 +12821,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsMcpServerNewRelicAuthorizationConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 devopsagentservice.NewDevopsagentServiceServiceDetailsMcpServerNewRelicAuthorizationConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DevopsagentServiceServiceDetailsMcpServerNewRelicAuthorizationConfigOutputReference
 ```
@@ -13112,7 +13112,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsMcpServerNewRelicOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 devopsagentservice.NewDevopsagentServiceServiceDetailsMcpServerNewRelicOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DevopsagentServiceServiceDetailsMcpServerNewRelicOutputReference
 ```
@@ -13403,7 +13403,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsMcpServerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 devopsagentservice.NewDevopsagentServiceServiceDetailsMcpServerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DevopsagentServiceServiceDetailsMcpServerOutputReference
 ```
@@ -13781,7 +13781,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsMcpServerSigV4AuthorizationConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 devopsagentservice.NewDevopsagentServiceServiceDetailsMcpServerSigV4AuthorizationConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DevopsagentServiceServiceDetailsMcpServerSigV4AuthorizationConfigOutputReference
 ```
@@ -14175,7 +14175,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsMcpServerSigV4OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 devopsagentservice.NewDevopsagentServiceServiceDetailsMcpServerSigV4OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DevopsagentServiceServiceDetailsMcpServerSigV4OutputReference
 ```
@@ -14553,7 +14553,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsMcpServerSplunkAuthorizationConfigBearerTokenOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 devopsagentservice.NewDevopsagentServiceServiceDetailsMcpServerSplunkAuthorizationConfigBearerTokenOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DevopsagentServiceServiceDetailsMcpServerSplunkAuthorizationConfigBearerTokenOutputReference
 ```
@@ -14889,7 +14889,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsMcpServerSplunkAuthorizationConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 devopsagentservice.NewDevopsagentServiceServiceDetailsMcpServerSplunkAuthorizationConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DevopsagentServiceServiceDetailsMcpServerSplunkAuthorizationConfigOutputReference
 ```
@@ -15180,7 +15180,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsMcpServerSplunkOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 devopsagentservice.NewDevopsagentServiceServiceDetailsMcpServerSplunkOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DevopsagentServiceServiceDetailsMcpServerSplunkOutputReference
 ```
@@ -15558,7 +15558,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 devopsagentservice.NewDevopsagentServiceServiceDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DevopsagentServiceServiceDetailsOutputReference
 ```
@@ -16269,7 +16269,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsPagerDutyAuthorizationConfigOAuthClientCredentialsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 devopsagentservice.NewDevopsagentServiceServiceDetailsPagerDutyAuthorizationConfigOAuthClientCredentialsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DevopsagentServiceServiceDetailsPagerDutyAuthorizationConfigOAuthClientCredentialsOutputReference
 ```
@@ -16634,7 +16634,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsPagerDutyAuthorizationConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 devopsagentservice.NewDevopsagentServiceServiceDetailsPagerDutyAuthorizationConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DevopsagentServiceServiceDetailsPagerDutyAuthorizationConfigOutputReference
 ```
@@ -16925,7 +16925,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsPagerDutyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 devopsagentservice.NewDevopsagentServiceServiceDetailsPagerDutyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DevopsagentServiceServiceDetailsPagerDutyOutputReference
 ```
@@ -17245,7 +17245,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsServiceNowAuthorizationConfigOAuthClientCredentialsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 devopsagentservice.NewDevopsagentServiceServiceDetailsServiceNowAuthorizationConfigOAuthClientCredentialsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DevopsagentServiceServiceDetailsServiceNowAuthorizationConfigOAuthClientCredentialsOutputReference
 ```
@@ -17610,7 +17610,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsServiceNowAuthorizationConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 devopsagentservice.NewDevopsagentServiceServiceDetailsServiceNowAuthorizationConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DevopsagentServiceServiceDetailsServiceNowAuthorizationConfigOutputReference
 ```
@@ -17901,7 +17901,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsServiceNowOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 devopsagentservice.NewDevopsagentServiceServiceDetailsServiceNowOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DevopsagentServiceServiceDetailsServiceNowOutputReference
 ```
@@ -18221,7 +18221,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 devopsagentservice.NewDevopsagentServiceTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DevopsagentServiceTagsList
 ```
@@ -18381,7 +18381,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice"
 
 devopsagentservice.NewDevopsagentServiceTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DevopsagentServiceTagsOutputReference
 ```

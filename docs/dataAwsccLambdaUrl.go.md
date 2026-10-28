@@ -4,12 +4,12 @@
 
 ### DataAwsccLambdaUrl <a name="DataAwsccLambdaUrl" id="@cdktn/provider-awscc.dataAwsccLambdaUrl.DataAwsccLambdaUrl"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lambda_url awscc_lambda_url}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lambda_url awscc_lambda_url}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaUrl.DataAwsccLambdaUrl.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaurl"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaurl"
 
 dataawscclambdaurl.NewDataAwsccLambdaUrl(scope Construct, id *string, config DataAwsccLambdaUrlConfig) DataAwsccLambdaUrl
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccLambdaUrl.DataAwsccLambdaUrl.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaurl"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaurl"
 
 dataawscclambdaurl.DataAwsccLambdaUrl_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccLambdaUrl.DataAwsccLambdaUrl.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaurl"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaurl"
 
 dataawscclambdaurl.DataAwsccLambdaUrl_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscclambdaurl.DataAwsccLambdaUrl_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccLambdaUrl.DataAwsccLambdaUrl.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaurl"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaurl"
 
 dataawscclambdaurl.DataAwsccLambdaUrl_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscclambdaurl.DataAwsccLambdaUrl_IsTerraformDataSource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccLambdaUrl.DataAwsccLambdaUrl.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaurl"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaurl"
 
 dataawscclambdaurl.DataAwsccLambdaUrl_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLambdaUrl to impo
 
 The id of the existing DataAwsccLambdaUrl that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lambda_url#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lambda_url#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -664,7 +664,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaUrl.DataAwsccLambdaUrlConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaurl"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaurl"
 
 &dataawscclambdaurl.DataAwsccLambdaUrlConfig {
 	Connection: interface{},
@@ -773,7 +773,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lambda_url#id DataAwsccLambdaUrl#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lambda_url#id DataAwsccLambdaUrl#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -785,7 +785,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaUrl.DataAwsccLambdaUrlCors.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaurl"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaurl"
 
 &dataawscclambdaurl.DataAwsccLambdaUrlCors {
 
@@ -800,7 +800,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaurl"
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaUrl.DataAwsccLambdaUrlCorsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaurl"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaurl"
 
 dataawscclambdaurl.NewDataAwsccLambdaUrlCorsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLambdaUrlCorsOutputReference
 ```

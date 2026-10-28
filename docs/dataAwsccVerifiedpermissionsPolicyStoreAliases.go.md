@@ -4,12 +4,12 @@
 
 ### DataAwsccVerifiedpermissionsPolicyStoreAliases <a name="DataAwsccVerifiedpermissionsPolicyStoreAliases" id="@cdktn/provider-awscc.dataAwsccVerifiedpermissionsPolicyStoreAliases.DataAwsccVerifiedpermissionsPolicyStoreAliases"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/verifiedpermissions_policy_store_aliases awscc_verifiedpermissions_policy_store_aliases}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/verifiedpermissions_policy_store_aliases awscc_verifiedpermissions_policy_store_aliases}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccVerifiedpermissionsPolicyStoreAliases.DataAwsccVerifiedpermissionsPolicyStoreAliases.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccverifiedpermissionspolicystorealiases"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccverifiedpermissionspolicystorealiases"
 
 dataawsccverifiedpermissionspolicystorealiases.NewDataAwsccVerifiedpermissionsPolicyStoreAliases(scope Construct, id *string, config DataAwsccVerifiedpermissionsPolicyStoreAliasesConfig) DataAwsccVerifiedpermissionsPolicyStoreAliases
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccVerifiedpermissionsPolicyStoreAliases.DataAwsccVerifiedpermissionsPolicyStoreAliases.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccverifiedpermissionspolicystorealiases"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccverifiedpermissionspolicystorealiases"
 
 dataawsccverifiedpermissionspolicystorealiases.DataAwsccVerifiedpermissionsPolicyStoreAliases_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccVerifiedpermissionsPolicyStoreAliases.DataAwsccVerifiedpermissionsPolicyStoreAliases.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccverifiedpermissionspolicystorealiases"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccverifiedpermissionspolicystorealiases"
 
 dataawsccverifiedpermissionspolicystorealiases.DataAwsccVerifiedpermissionsPolicyStoreAliases_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccverifiedpermissionspolicystorealiases.DataAwsccVerifiedpermissionsPolic
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccVerifiedpermissionsPolicyStoreAliases.DataAwsccVerifiedpermissionsPolicyStoreAliases.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccverifiedpermissionspolicystorealiases"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccverifiedpermissionspolicystorealiases"
 
 dataawsccverifiedpermissionspolicystorealiases.DataAwsccVerifiedpermissionsPolicyStoreAliases_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccverifiedpermissionspolicystorealiases.DataAwsccVerifiedpermissionsPolic
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccVerifiedpermissionsPolicyStoreAliases.DataAwsccVerifiedpermissionsPolicyStoreAliases.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccverifiedpermissionspolicystorealiases"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccverifiedpermissionspolicystorealiases"
 
 dataawsccverifiedpermissionspolicystorealiases.DataAwsccVerifiedpermissionsPolicyStoreAliases_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccVerifiedpermissio
 
 The id of the existing DataAwsccVerifiedpermissionsPolicyStoreAliases that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/verifiedpermissions_policy_store_aliases#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/verifiedpermissions_policy_store_aliases#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccVerifiedpermissionsPolicyStoreAliases.DataAwsccVerifiedpermissionsPolicyStoreAliasesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccverifiedpermissionspolicystorealiases"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccverifiedpermissionspolicystorealiases"
 
 &dataawsccverifiedpermissionspolicystorealiases.DataAwsccVerifiedpermissionsPolicyStoreAliasesConfig {
 	Connection: interface{},

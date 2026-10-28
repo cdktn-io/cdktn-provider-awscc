@@ -4,12 +4,12 @@
 
 ### Ec2VerifiedAccessInstance <a name="Ec2VerifiedAccessInstance" id="@cdktn/provider-awscc.ec2VerifiedAccessInstance.Ec2VerifiedAccessInstance"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_instance awscc_ec2_verified_access_instance}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_instance awscc_ec2_verified_access_instance}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2VerifiedAccessInstance.Ec2VerifiedAccessInstance.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2verifiedaccessinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2verifiedaccessinstance"
 
 ec2verifiedaccessinstance.NewEc2VerifiedAccessInstance(scope Construct, id *string, config Ec2VerifiedAccessInstanceConfig) Ec2VerifiedAccessInstance
 ```
@@ -488,7 +488,7 @@ func ResetVerifiedAccessTrustProviders()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.ec2VerifiedAccessInstance.Ec2VerifiedAccessInstance.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2verifiedaccessinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2verifiedaccessinstance"
 
 ec2verifiedaccessinstance.Ec2VerifiedAccessInstance_IsConstruct(x interface{}) *bool
 ```
@@ -520,7 +520,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.ec2VerifiedAccessInstance.Ec2VerifiedAccessInstance.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2verifiedaccessinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2verifiedaccessinstance"
 
 ec2verifiedaccessinstance.Ec2VerifiedAccessInstance_IsTerraformElement(x interface{}) *bool
 ```
@@ -534,7 +534,7 @@ ec2verifiedaccessinstance.Ec2VerifiedAccessInstance_IsTerraformElement(x interfa
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.ec2VerifiedAccessInstance.Ec2VerifiedAccessInstance.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2verifiedaccessinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2verifiedaccessinstance"
 
 ec2verifiedaccessinstance.Ec2VerifiedAccessInstance_IsTerraformResource(x interface{}) *bool
 ```
@@ -548,7 +548,7 @@ ec2verifiedaccessinstance.Ec2VerifiedAccessInstance_IsTerraformResource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.ec2VerifiedAccessInstance.Ec2VerifiedAccessInstance.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2verifiedaccessinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2verifiedaccessinstance"
 
 ec2verifiedaccessinstance.Ec2VerifiedAccessInstance_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -577,7 +577,7 @@ The construct id used in the generated config for the Ec2VerifiedAccessInstance 
 
 The id of the existing Ec2VerifiedAccessInstance that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_instance#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_instance#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -986,7 +986,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2VerifiedAccessInstance.Ec2VerifiedAccessInstanceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2verifiedaccessinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2verifiedaccessinstance"
 
 &ec2verifiedaccessinstance.Ec2VerifiedAccessInstanceConfig {
 	Connection: interface{},
@@ -999,7 +999,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2verifiedaccessinsta
 	CidrEndpointsCustomSubDomain: *string,
 	Description: *string,
 	FipsEnabled: interface{},
-	LoggingConfigurations: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ec2VerifiedAccessInstance.Ec2VerifiedAccessInstanceLoggingConfigurations,
+	LoggingConfigurations: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ec2VerifiedAccessInstance.Ec2VerifiedAccessInstanceLoggingConfigurations,
 	Tags: interface{},
 	VerifiedAccessTrustProviderIds: *[]*string,
 	VerifiedAccessTrustProviders: interface{},
@@ -1107,7 +1107,7 @@ CidrEndpointsCustomSubDomain *string
 
 Introduce CidrEndpointsCustomSubDomain property to represent the domain (say, ava.my-company.com).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_instance#cidr_endpoints_custom_sub_domain Ec2VerifiedAccessInstance#cidr_endpoints_custom_sub_domain}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_instance#cidr_endpoints_custom_sub_domain Ec2VerifiedAccessInstance#cidr_endpoints_custom_sub_domain}
 
 ---
 
@@ -1121,7 +1121,7 @@ Description *string
 
 A description for the AWS Verified Access instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_instance#description Ec2VerifiedAccessInstance#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_instance#description Ec2VerifiedAccessInstance#description}
 
 ---
 
@@ -1135,7 +1135,7 @@ FipsEnabled interface{}
 
 Indicates whether FIPS is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_instance#fips_enabled Ec2VerifiedAccessInstance#fips_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_instance#fips_enabled Ec2VerifiedAccessInstance#fips_enabled}
 
 ---
 
@@ -1149,7 +1149,7 @@ LoggingConfigurations Ec2VerifiedAccessInstanceLoggingConfigurations
 
 The configuration options for AWS Verified Access instances.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_instance#logging_configurations Ec2VerifiedAccessInstance#logging_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_instance#logging_configurations Ec2VerifiedAccessInstance#logging_configurations}
 
 ---
 
@@ -1163,7 +1163,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_instance#tags Ec2VerifiedAccessInstance#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_instance#tags Ec2VerifiedAccessInstance#tags}
 
 ---
 
@@ -1177,7 +1177,7 @@ VerifiedAccessTrustProviderIds *[]*string
 
 The IDs of the AWS Verified Access trust providers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_instance#verified_access_trust_provider_ids Ec2VerifiedAccessInstance#verified_access_trust_provider_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_instance#verified_access_trust_provider_ids Ec2VerifiedAccessInstance#verified_access_trust_provider_ids}
 
 ---
 
@@ -1191,7 +1191,7 @@ VerifiedAccessTrustProviders interface{}
 
 AWS Verified Access trust providers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_instance#verified_access_trust_providers Ec2VerifiedAccessInstance#verified_access_trust_providers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_instance#verified_access_trust_providers Ec2VerifiedAccessInstance#verified_access_trust_providers}
 
 ---
 
@@ -1200,14 +1200,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2VerifiedAccessInstance.Ec2VerifiedAccessInstanceLoggingConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2verifiedaccessinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2verifiedaccessinstance"
 
 &ec2verifiedaccessinstance.Ec2VerifiedAccessInstanceLoggingConfigurations {
-	CloudwatchLogs: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ec2VerifiedAccessInstance.Ec2VerifiedAccessInstanceLoggingConfigurationsCloudwatchLogs,
+	CloudwatchLogs: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ec2VerifiedAccessInstance.Ec2VerifiedAccessInstanceLoggingConfigurationsCloudwatchLogs,
 	IncludeTrustContext: interface{},
-	KinesisDataFirehose: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ec2VerifiedAccessInstance.Ec2VerifiedAccessInstanceLoggingConfigurationsKinesisDataFirehose,
+	KinesisDataFirehose: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ec2VerifiedAccessInstance.Ec2VerifiedAccessInstanceLoggingConfigurationsKinesisDataFirehose,
 	LogVersion: *string,
-	S3: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ec2VerifiedAccessInstance.Ec2VerifiedAccessInstanceLoggingConfigurationsS3,
+	S3: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ec2VerifiedAccessInstance.Ec2VerifiedAccessInstanceLoggingConfigurationsS3,
 }
 ```
 
@@ -1233,7 +1233,7 @@ CloudwatchLogs Ec2VerifiedAccessInstanceLoggingConfigurationsCloudwatchLogs
 
 Sends Verified Access logs to CloudWatch Logs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_instance#cloudwatch_logs Ec2VerifiedAccessInstance#cloudwatch_logs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_instance#cloudwatch_logs Ec2VerifiedAccessInstance#cloudwatch_logs}
 
 ---
 
@@ -1247,7 +1247,7 @@ IncludeTrustContext interface{}
 
 Include claims from trust providers in Verified Access logs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_instance#include_trust_context Ec2VerifiedAccessInstance#include_trust_context}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_instance#include_trust_context Ec2VerifiedAccessInstance#include_trust_context}
 
 ---
 
@@ -1261,7 +1261,7 @@ KinesisDataFirehose Ec2VerifiedAccessInstanceLoggingConfigurationsKinesisDataFir
 
 Sends Verified Access logs to Kinesis.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_instance#kinesis_data_firehose Ec2VerifiedAccessInstance#kinesis_data_firehose}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_instance#kinesis_data_firehose Ec2VerifiedAccessInstance#kinesis_data_firehose}
 
 ---
 
@@ -1275,7 +1275,7 @@ LogVersion *string
 
 Select log version for Verified Access logs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_instance#log_version Ec2VerifiedAccessInstance#log_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_instance#log_version Ec2VerifiedAccessInstance#log_version}
 
 ---
 
@@ -1289,7 +1289,7 @@ S3 Ec2VerifiedAccessInstanceLoggingConfigurationsS3
 
 Sends Verified Access logs to Amazon S3.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_instance#s3 Ec2VerifiedAccessInstance#s3}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_instance#s3 Ec2VerifiedAccessInstance#s3}
 
 ---
 
@@ -1298,7 +1298,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2VerifiedAccessInstance.Ec2VerifiedAccessInstanceLoggingConfigurationsCloudwatchLogs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2verifiedaccessinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2verifiedaccessinstance"
 
 &ec2verifiedaccessinstance.Ec2VerifiedAccessInstanceLoggingConfigurationsCloudwatchLogs {
 	Enabled: interface{},
@@ -1325,7 +1325,7 @@ Enabled interface{}
 
 Indicates whether logging is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_instance#enabled Ec2VerifiedAccessInstance#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_instance#enabled Ec2VerifiedAccessInstance#enabled}
 
 ---
 
@@ -1339,7 +1339,7 @@ LogGroup *string
 
 The ID of the CloudWatch Logs log group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_instance#log_group Ec2VerifiedAccessInstance#log_group}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_instance#log_group Ec2VerifiedAccessInstance#log_group}
 
 ---
 
@@ -1348,7 +1348,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2VerifiedAccessInstance.Ec2VerifiedAccessInstanceLoggingConfigurationsKinesisDataFirehose.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2verifiedaccessinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2verifiedaccessinstance"
 
 &ec2verifiedaccessinstance.Ec2VerifiedAccessInstanceLoggingConfigurationsKinesisDataFirehose {
 	DeliveryStream: *string,
@@ -1375,7 +1375,7 @@ DeliveryStream *string
 
 The ID of the delivery stream.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_instance#delivery_stream Ec2VerifiedAccessInstance#delivery_stream}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_instance#delivery_stream Ec2VerifiedAccessInstance#delivery_stream}
 
 ---
 
@@ -1389,7 +1389,7 @@ Enabled interface{}
 
 Indicates whether logging is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_instance#enabled Ec2VerifiedAccessInstance#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_instance#enabled Ec2VerifiedAccessInstance#enabled}
 
 ---
 
@@ -1398,7 +1398,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2VerifiedAccessInstance.Ec2VerifiedAccessInstanceLoggingConfigurationsS3.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2verifiedaccessinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2verifiedaccessinstance"
 
 &ec2verifiedaccessinstance.Ec2VerifiedAccessInstanceLoggingConfigurationsS3 {
 	BucketName: *string,
@@ -1429,7 +1429,7 @@ BucketName *string
 
 The bucket name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_instance#bucket_name Ec2VerifiedAccessInstance#bucket_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_instance#bucket_name Ec2VerifiedAccessInstance#bucket_name}
 
 ---
 
@@ -1443,7 +1443,7 @@ BucketOwner *string
 
 The ID of the AWS account that owns the Amazon S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_instance#bucket_owner Ec2VerifiedAccessInstance#bucket_owner}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_instance#bucket_owner Ec2VerifiedAccessInstance#bucket_owner}
 
 ---
 
@@ -1457,7 +1457,7 @@ Enabled interface{}
 
 Indicates whether logging is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_instance#enabled Ec2VerifiedAccessInstance#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_instance#enabled Ec2VerifiedAccessInstance#enabled}
 
 ---
 
@@ -1471,7 +1471,7 @@ Prefix *string
 
 The bucket prefix.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_instance#prefix Ec2VerifiedAccessInstance#prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_instance#prefix Ec2VerifiedAccessInstance#prefix}
 
 ---
 
@@ -1480,7 +1480,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2VerifiedAccessInstance.Ec2VerifiedAccessInstanceTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2verifiedaccessinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2verifiedaccessinstance"
 
 &ec2verifiedaccessinstance.Ec2VerifiedAccessInstanceTags {
 	Key: *string,
@@ -1509,7 +1509,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_instance#key Ec2VerifiedAccessInstance#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_instance#key Ec2VerifiedAccessInstance#key}
 
 ---
 
@@ -1525,7 +1525,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_instance#value Ec2VerifiedAccessInstance#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_instance#value Ec2VerifiedAccessInstance#value}
 
 ---
 
@@ -1534,7 +1534,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2VerifiedAccessInstance.Ec2VerifiedAccessInstanceVerifiedAccessTrustProviders.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2verifiedaccessinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2verifiedaccessinstance"
 
 &ec2verifiedaccessinstance.Ec2VerifiedAccessInstanceVerifiedAccessTrustProviders {
 	Description: *string,
@@ -1567,7 +1567,7 @@ Description *string
 
 The description of trust provider.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_instance#description Ec2VerifiedAccessInstance#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_instance#description Ec2VerifiedAccessInstance#description}
 
 ---
 
@@ -1581,7 +1581,7 @@ DeviceTrustProviderType *string
 
 The type of device-based trust provider.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_instance#device_trust_provider_type Ec2VerifiedAccessInstance#device_trust_provider_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_instance#device_trust_provider_type Ec2VerifiedAccessInstance#device_trust_provider_type}
 
 ---
 
@@ -1595,7 +1595,7 @@ TrustProviderType *string
 
 The type of trust provider (user- or device-based).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_instance#trust_provider_type Ec2VerifiedAccessInstance#trust_provider_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_instance#trust_provider_type Ec2VerifiedAccessInstance#trust_provider_type}
 
 ---
 
@@ -1609,7 +1609,7 @@ UserTrustProviderType *string
 
 The type of user-based trust provider.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_instance#user_trust_provider_type Ec2VerifiedAccessInstance#user_trust_provider_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_instance#user_trust_provider_type Ec2VerifiedAccessInstance#user_trust_provider_type}
 
 ---
 
@@ -1623,7 +1623,7 @@ VerifiedAccessTrustProviderId *string
 
 The ID of the trust provider.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_instance#verified_access_trust_provider_id Ec2VerifiedAccessInstance#verified_access_trust_provider_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_instance#verified_access_trust_provider_id Ec2VerifiedAccessInstance#verified_access_trust_provider_id}
 
 ---
 
@@ -1634,7 +1634,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2VerifiedAccessInstance.Ec2VerifiedAccessInstanceLoggingConfigurationsCloudwatchLogsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2verifiedaccessinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2verifiedaccessinstance"
 
 ec2verifiedaccessinstance.NewEc2VerifiedAccessInstanceLoggingConfigurationsCloudwatchLogsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Ec2VerifiedAccessInstanceLoggingConfigurationsCloudwatchLogsOutputReference
 ```
@@ -1941,7 +1941,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2VerifiedAccessInstance.Ec2VerifiedAccessInstanceLoggingConfigurationsKinesisDataFirehoseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2verifiedaccessinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2verifiedaccessinstance"
 
 ec2verifiedaccessinstance.NewEc2VerifiedAccessInstanceLoggingConfigurationsKinesisDataFirehoseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Ec2VerifiedAccessInstanceLoggingConfigurationsKinesisDataFirehoseOutputReference
 ```
@@ -2248,7 +2248,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2VerifiedAccessInstance.Ec2VerifiedAccessInstanceLoggingConfigurationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2verifiedaccessinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2verifiedaccessinstance"
 
 ec2verifiedaccessinstance.NewEc2VerifiedAccessInstanceLoggingConfigurationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Ec2VerifiedAccessInstanceLoggingConfigurationsOutputReference
 ```
@@ -2681,7 +2681,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2VerifiedAccessInstance.Ec2VerifiedAccessInstanceLoggingConfigurationsS3OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2verifiedaccessinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2verifiedaccessinstance"
 
 ec2verifiedaccessinstance.NewEc2VerifiedAccessInstanceLoggingConfigurationsS3OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) Ec2VerifiedAccessInstanceLoggingConfigurationsS3OutputReference
 ```
@@ -3046,7 +3046,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2VerifiedAccessInstance.Ec2VerifiedAccessInstanceTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2verifiedaccessinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2verifiedaccessinstance"
 
 ec2verifiedaccessinstance.NewEc2VerifiedAccessInstanceTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Ec2VerifiedAccessInstanceTagsList
 ```
@@ -3206,7 +3206,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2VerifiedAccessInstance.Ec2VerifiedAccessInstanceTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2verifiedaccessinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2verifiedaccessinstance"
 
 ec2verifiedaccessinstance.NewEc2VerifiedAccessInstanceTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) Ec2VerifiedAccessInstanceTagsOutputReference
 ```
@@ -3531,7 +3531,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2VerifiedAccessInstance.Ec2VerifiedAccessInstanceVerifiedAccessTrustProvidersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2verifiedaccessinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2verifiedaccessinstance"
 
 ec2verifiedaccessinstance.NewEc2VerifiedAccessInstanceVerifiedAccessTrustProvidersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Ec2VerifiedAccessInstanceVerifiedAccessTrustProvidersList
 ```
@@ -3691,7 +3691,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2VerifiedAccessInstance.Ec2VerifiedAccessInstanceVerifiedAccessTrustProvidersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2verifiedaccessinstance"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2verifiedaccessinstance"
 
 ec2verifiedaccessinstance.NewEc2VerifiedAccessInstanceVerifiedAccessTrustProvidersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) Ec2VerifiedAccessInstanceVerifiedAccessTrustProvidersOutputReference
 ```

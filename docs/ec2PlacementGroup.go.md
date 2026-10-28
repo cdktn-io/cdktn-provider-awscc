@@ -4,12 +4,12 @@
 
 ### Ec2PlacementGroup <a name="Ec2PlacementGroup" id="@cdktn/provider-awscc.ec2PlacementGroup.Ec2PlacementGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_placement_group awscc_ec2_placement_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_placement_group awscc_ec2_placement_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2PlacementGroup.Ec2PlacementGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2placementgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2placementgroup"
 
 ec2placementgroup.NewEc2PlacementGroup(scope Construct, id *string, config Ec2PlacementGroupConfig) Ec2PlacementGroup
 ```
@@ -448,7 +448,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.ec2PlacementGroup.Ec2PlacementGroup.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2placementgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2placementgroup"
 
 ec2placementgroup.Ec2PlacementGroup_IsConstruct(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.ec2PlacementGroup.Ec2PlacementGroup.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2placementgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2placementgroup"
 
 ec2placementgroup.Ec2PlacementGroup_IsTerraformElement(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ ec2placementgroup.Ec2PlacementGroup_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.ec2PlacementGroup.Ec2PlacementGroup.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2placementgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2placementgroup"
 
 ec2placementgroup.Ec2PlacementGroup_IsTerraformResource(x interface{}) *bool
 ```
@@ -508,7 +508,7 @@ ec2placementgroup.Ec2PlacementGroup_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.ec2PlacementGroup.Ec2PlacementGroup.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2placementgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2placementgroup"
 
 ec2placementgroup.Ec2PlacementGroup_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -537,7 +537,7 @@ The construct id used in the generated config for the Ec2PlacementGroup to impor
 
 The id of the existing Ec2PlacementGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_placement_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_placement_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -880,7 +880,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2PlacementGroup.Ec2PlacementGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2placementgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2placementgroup"
 
 &ec2placementgroup.Ec2PlacementGroupConfig {
 	Connection: interface{},
@@ -997,7 +997,7 @@ ParentGroupId *string
 
 The ID of a parent placement group. Valid for strategies that support parent group linking.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_placement_group#parent_group_id Ec2PlacementGroup#parent_group_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_placement_group#parent_group_id Ec2PlacementGroup#parent_group_id}
 
 ---
 
@@ -1011,7 +1011,7 @@ PartitionCount *f64
 
 The number of partitions. Valid only when **Strategy** is set to `partition`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_placement_group#partition_count Ec2PlacementGroup#partition_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_placement_group#partition_count Ec2PlacementGroup#partition_count}
 
 ---
 
@@ -1025,7 +1025,7 @@ SpreadLevel *string
 
 The Spread Level of Placement Group is an enum where it accepts either host or rack when strategy is spread.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_placement_group#spread_level Ec2PlacementGroup#spread_level}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_placement_group#spread_level Ec2PlacementGroup#spread_level}
 
 ---
 
@@ -1039,7 +1039,7 @@ Strategy *string
 
 The placement strategy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_placement_group#strategy Ec2PlacementGroup#strategy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_placement_group#strategy Ec2PlacementGroup#strategy}
 
 ---
 
@@ -1053,7 +1053,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_placement_group#tags Ec2PlacementGroup#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_placement_group#tags Ec2PlacementGroup#tags}
 
 ---
 
@@ -1062,7 +1062,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2PlacementGroup.Ec2PlacementGroupTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2placementgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2placementgroup"
 
 &ec2placementgroup.Ec2PlacementGroupTags {
 	Key: *string,
@@ -1091,7 +1091,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_placement_group#key Ec2PlacementGroup#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_placement_group#key Ec2PlacementGroup#key}
 
 ---
 
@@ -1107,7 +1107,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_placement_group#value Ec2PlacementGroup#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_placement_group#value Ec2PlacementGroup#value}
 
 ---
 
@@ -1118,7 +1118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2PlacementGroup.Ec2PlacementGroupTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2placementgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2placementgroup"
 
 ec2placementgroup.NewEc2PlacementGroupTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Ec2PlacementGroupTagsList
 ```
@@ -1278,7 +1278,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2PlacementGroup.Ec2PlacementGroupTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2placementgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2placementgroup"
 
 ec2placementgroup.NewEc2PlacementGroupTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) Ec2PlacementGroupTagsOutputReference
 ```

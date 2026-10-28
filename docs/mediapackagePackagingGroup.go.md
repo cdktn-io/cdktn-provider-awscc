@@ -4,12 +4,12 @@
 
 ### MediapackagePackagingGroup <a name="MediapackagePackagingGroup" id="@cdktn/provider-awscc.mediapackagePackagingGroup.MediapackagePackagingGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediapackage_packaging_group awscc_mediapackage_packaging_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediapackage_packaging_group awscc_mediapackage_packaging_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediapackagePackagingGroup.MediapackagePackagingGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediapackagepackaginggroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediapackagepackaginggroup"
 
 mediapackagepackaginggroup.NewMediapackagePackagingGroup(scope Construct, id *string, config MediapackagePackagingGroupConfig) MediapackagePackagingGroup
 ```
@@ -460,7 +460,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.mediapackagePackagingGroup.MediapackagePackagingGroup.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediapackagepackaginggroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediapackagepackaginggroup"
 
 mediapackagepackaginggroup.MediapackagePackagingGroup_IsConstruct(x interface{}) *bool
 ```
@@ -492,7 +492,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.mediapackagePackagingGroup.MediapackagePackagingGroup.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediapackagepackaginggroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediapackagepackaginggroup"
 
 mediapackagepackaginggroup.MediapackagePackagingGroup_IsTerraformElement(x interface{}) *bool
 ```
@@ -506,7 +506,7 @@ mediapackagepackaginggroup.MediapackagePackagingGroup_IsTerraformElement(x inter
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.mediapackagePackagingGroup.MediapackagePackagingGroup.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediapackagepackaginggroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediapackagepackaginggroup"
 
 mediapackagepackaginggroup.MediapackagePackagingGroup_IsTerraformResource(x interface{}) *bool
 ```
@@ -520,7 +520,7 @@ mediapackagepackaginggroup.MediapackagePackagingGroup_IsTerraformResource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.mediapackagePackagingGroup.MediapackagePackagingGroup.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediapackagepackaginggroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediapackagepackaginggroup"
 
 mediapackagepackaginggroup.MediapackagePackagingGroup_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -549,7 +549,7 @@ The construct id used in the generated config for the MediapackagePackagingGroup
 
 The id of the existing MediapackagePackagingGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediapackage_packaging_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediapackage_packaging_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -870,7 +870,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediapackagePackagingGroup.MediapackagePackagingGroupAuthorization.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediapackagepackaginggroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediapackagepackaginggroup"
 
 &mediapackagepackaginggroup.MediapackagePackagingGroupAuthorization {
 	CdnIdentifierSecret: *string,
@@ -897,7 +897,7 @@ CdnIdentifierSecret *string
 
 The Amazon Resource Name (ARN) for the secret in AWS Secrets Manager that is used for CDN authorization.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediapackage_packaging_group#cdn_identifier_secret MediapackagePackagingGroup#cdn_identifier_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediapackage_packaging_group#cdn_identifier_secret MediapackagePackagingGroup#cdn_identifier_secret}
 
 ---
 
@@ -911,7 +911,7 @@ SecretsRoleArn *string
 
 The Amazon Resource Name (ARN) for the IAM role that allows MediaPackage to communicate with AWS Secrets Manager.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediapackage_packaging_group#secrets_role_arn MediapackagePackagingGroup#secrets_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediapackage_packaging_group#secrets_role_arn MediapackagePackagingGroup#secrets_role_arn}
 
 ---
 
@@ -920,7 +920,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediapackagePackagingGroup.MediapackagePackagingGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediapackagepackaginggroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediapackagepackaginggroup"
 
 &mediapackagepackaginggroup.MediapackagePackagingGroupConfig {
 	Connection: interface{},
@@ -931,8 +931,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediapackagepackagingg
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	PackagingGroupId: *string,
-	Authorization: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.mediapackagePackagingGroup.MediapackagePackagingGroupAuthorization,
-	EgressAccessLogs: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.mediapackagePackagingGroup.MediapackagePackagingGroupEgressAccessLogs,
+	Authorization: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.mediapackagePackagingGroup.MediapackagePackagingGroupAuthorization,
+	EgressAccessLogs: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.mediapackagePackagingGroup.MediapackagePackagingGroupEgressAccessLogs,
 	Tags: interface{},
 }
 ```
@@ -1035,7 +1035,7 @@ PackagingGroupId *string
 
 The ID of the PackagingGroup.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediapackage_packaging_group#packaging_group_id MediapackagePackagingGroup#packaging_group_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediapackage_packaging_group#packaging_group_id MediapackagePackagingGroup#packaging_group_id}
 
 ---
 
@@ -1049,7 +1049,7 @@ Authorization MediapackagePackagingGroupAuthorization
 
 CDN Authorization.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediapackage_packaging_group#authorization MediapackagePackagingGroup#authorization}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediapackage_packaging_group#authorization MediapackagePackagingGroup#authorization}
 
 ---
 
@@ -1063,7 +1063,7 @@ EgressAccessLogs MediapackagePackagingGroupEgressAccessLogs
 
 The configuration parameters for egress access logging.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediapackage_packaging_group#egress_access_logs MediapackagePackagingGroup#egress_access_logs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediapackage_packaging_group#egress_access_logs MediapackagePackagingGroup#egress_access_logs}
 
 ---
 
@@ -1077,7 +1077,7 @@ Tags interface{}
 
 A collection of tags associated with a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediapackage_packaging_group#tags MediapackagePackagingGroup#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediapackage_packaging_group#tags MediapackagePackagingGroup#tags}
 
 ---
 
@@ -1086,7 +1086,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediapackagePackagingGroup.MediapackagePackagingGroupEgressAccessLogs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediapackagepackaginggroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediapackagepackaginggroup"
 
 &mediapackagepackaginggroup.MediapackagePackagingGroupEgressAccessLogs {
 	LogGroupName: *string,
@@ -1113,7 +1113,7 @@ Sets a custom AWS CloudWatch log group name for egress logs.
 
 If a log group name isn't specified, the default name is used: /aws/MediaPackage/VodEgressAccessLogs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediapackage_packaging_group#log_group_name MediapackagePackagingGroup#log_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediapackage_packaging_group#log_group_name MediapackagePackagingGroup#log_group_name}
 
 ---
 
@@ -1122,7 +1122,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediapackagePackagingGroup.MediapackagePackagingGroupTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediapackagepackaginggroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediapackagepackaginggroup"
 
 &mediapackagepackaginggroup.MediapackagePackagingGroupTags {
 	Key: *string,
@@ -1134,8 +1134,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediapackagepackagingg
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.mediapackagePackagingGroup.MediapackagePackagingGroupTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediapackage_packaging_group#key MediapackagePackagingGroup#key}. |
-| <code><a href="#@cdktn/provider-awscc.mediapackagePackagingGroup.MediapackagePackagingGroupTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediapackage_packaging_group#value MediapackagePackagingGroup#value}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagePackagingGroup.MediapackagePackagingGroupTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediapackage_packaging_group#key MediapackagePackagingGroup#key}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagePackagingGroup.MediapackagePackagingGroupTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediapackage_packaging_group#value MediapackagePackagingGroup#value}. |
 
 ---
 
@@ -1147,7 +1147,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediapackage_packaging_group#key MediapackagePackagingGroup#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediapackage_packaging_group#key MediapackagePackagingGroup#key}.
 
 ---
 
@@ -1159,7 +1159,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediapackage_packaging_group#value MediapackagePackagingGroup#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediapackage_packaging_group#value MediapackagePackagingGroup#value}.
 
 ---
 
@@ -1170,7 +1170,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediapackagePackagingGroup.MediapackagePackagingGroupAuthorizationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediapackagepackaginggroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediapackagepackaginggroup"
 
 mediapackagepackaginggroup.NewMediapackagePackagingGroupAuthorizationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) MediapackagePackagingGroupAuthorizationOutputReference
 ```
@@ -1477,7 +1477,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediapackagePackagingGroup.MediapackagePackagingGroupEgressAccessLogsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediapackagepackaginggroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediapackagepackaginggroup"
 
 mediapackagepackaginggroup.NewMediapackagePackagingGroupEgressAccessLogsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) MediapackagePackagingGroupEgressAccessLogsOutputReference
 ```
@@ -1755,7 +1755,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediapackagePackagingGroup.MediapackagePackagingGroupTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediapackagepackaginggroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediapackagepackaginggroup"
 
 mediapackagepackaginggroup.NewMediapackagePackagingGroupTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MediapackagePackagingGroupTagsList
 ```
@@ -1915,7 +1915,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediapackagePackagingGroup.MediapackagePackagingGroupTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediapackagepackaginggroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediapackagepackaginggroup"
 
 mediapackagepackaginggroup.NewMediapackagePackagingGroupTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) MediapackagePackagingGroupTagsOutputReference
 ```

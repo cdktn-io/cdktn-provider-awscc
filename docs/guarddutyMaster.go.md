@@ -4,12 +4,12 @@
 
 ### GuarddutyMaster <a name="GuarddutyMaster" id="@cdktn/provider-awscc.guarddutyMaster.GuarddutyMaster"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/guardduty_master awscc_guardduty_master}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/guardduty_master awscc_guardduty_master}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.guarddutyMaster.GuarddutyMaster.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/guarddutymaster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/guarddutymaster"
 
 guarddutymaster.NewGuarddutyMaster(scope Construct, id *string, config GuarddutyMasterConfig) GuarddutyMaster
 ```
@@ -407,7 +407,7 @@ func ResetInvitationId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.guarddutyMaster.GuarddutyMaster.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/guarddutymaster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/guarddutymaster"
 
 guarddutymaster.GuarddutyMaster_IsConstruct(x interface{}) *bool
 ```
@@ -439,7 +439,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.guarddutyMaster.GuarddutyMaster.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/guarddutymaster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/guarddutymaster"
 
 guarddutymaster.GuarddutyMaster_IsTerraformElement(x interface{}) *bool
 ```
@@ -453,7 +453,7 @@ guarddutymaster.GuarddutyMaster_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.guarddutyMaster.GuarddutyMaster.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/guarddutymaster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/guarddutymaster"
 
 guarddutymaster.GuarddutyMaster_IsTerraformResource(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ guarddutymaster.GuarddutyMaster_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.guarddutyMaster.GuarddutyMaster.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/guarddutymaster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/guarddutymaster"
 
 guarddutymaster.GuarddutyMaster_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -496,7 +496,7 @@ The construct id used in the generated config for the GuarddutyMaster to import.
 
 The id of the existing GuarddutyMaster that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/guardduty_master#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/guardduty_master#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -773,7 +773,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.guarddutyMaster.GuarddutyMasterConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/guarddutymaster"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/guarddutymaster"
 
 &guarddutymaster.GuarddutyMasterConfig {
 	Connection: interface{},
@@ -886,7 +886,7 @@ DetectorId *string
 
 Unique ID of the detector of the GuardDuty member account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/guardduty_master#detector_id GuarddutyMaster#detector_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/guardduty_master#detector_id GuarddutyMaster#detector_id}
 
 ---
 
@@ -900,7 +900,7 @@ MasterId *string
 
 ID of the account used as the master account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/guardduty_master#master_id GuarddutyMaster#master_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/guardduty_master#master_id GuarddutyMaster#master_id}
 
 ---
 
@@ -914,7 +914,7 @@ InvitationId *string
 
 Value used to validate the master account to the member account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/guardduty_master#invitation_id GuarddutyMaster#invitation_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/guardduty_master#invitation_id GuarddutyMaster#invitation_id}
 
 ---
 

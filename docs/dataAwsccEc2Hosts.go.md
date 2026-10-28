@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2Hosts <a name="DataAwsccEc2Hosts" id="@cdktn/provider-awscc.dataAwsccEc2Hosts.DataAwsccEc2Hosts"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_hosts awscc_ec2_hosts}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_hosts awscc_ec2_hosts}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2Hosts.DataAwsccEc2Hosts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2hosts"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2hosts"
 
 dataawsccec2hosts.NewDataAwsccEc2Hosts(scope Construct, id *string, config DataAwsccEc2HostsConfig) DataAwsccEc2Hosts
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2Hosts.DataAwsccEc2Hosts.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2hosts"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2hosts"
 
 dataawsccec2hosts.DataAwsccEc2Hosts_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2Hosts.DataAwsccEc2Hosts.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2hosts"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2hosts"
 
 dataawsccec2hosts.DataAwsccEc2Hosts_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2hosts.DataAwsccEc2Hosts_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2Hosts.DataAwsccEc2Hosts.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2hosts"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2hosts"
 
 dataawsccec2hosts.DataAwsccEc2Hosts_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2hosts.DataAwsccEc2Hosts_IsTerraformDataSource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2Hosts.DataAwsccEc2Hosts.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2hosts"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2hosts"
 
 dataawsccec2hosts.DataAwsccEc2Hosts_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2Hosts to impor
 
 The id of the existing DataAwsccEc2Hosts that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_hosts#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_hosts#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2Hosts.DataAwsccEc2HostsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2hosts"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2hosts"
 
 &dataawsccec2hosts.DataAwsccEc2HostsConfig {
 	Connection: interface{},

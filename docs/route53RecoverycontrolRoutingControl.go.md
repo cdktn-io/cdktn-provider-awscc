@@ -4,12 +4,12 @@
 
 ### Route53RecoverycontrolRoutingControl <a name="Route53RecoverycontrolRoutingControl" id="@cdktn/provider-awscc.route53RecoverycontrolRoutingControl.Route53RecoverycontrolRoutingControl"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53recoverycontrol_routing_control awscc_route53recoverycontrol_routing_control}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53recoverycontrol_routing_control awscc_route53recoverycontrol_routing_control}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.route53RecoverycontrolRoutingControl.Route53RecoverycontrolRoutingControl.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53recoverycontrolroutingcontrol"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53recoverycontrolroutingcontrol"
 
 route53recoverycontrolroutingcontrol.NewRoute53RecoverycontrolRoutingControl(scope Construct, id *string, config Route53RecoverycontrolRoutingControlConfig) Route53RecoverycontrolRoutingControl
 ```
@@ -414,7 +414,7 @@ func ResetControlPanelArn()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.route53RecoverycontrolRoutingControl.Route53RecoverycontrolRoutingControl.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53recoverycontrolroutingcontrol"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53recoverycontrolroutingcontrol"
 
 route53recoverycontrolroutingcontrol.Route53RecoverycontrolRoutingControl_IsConstruct(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.route53RecoverycontrolRoutingControl.Route53RecoverycontrolRoutingControl.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53recoverycontrolroutingcontrol"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53recoverycontrolroutingcontrol"
 
 route53recoverycontrolroutingcontrol.Route53RecoverycontrolRoutingControl_IsTerraformElement(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ route53recoverycontrolroutingcontrol.Route53RecoverycontrolRoutingControl_IsTerr
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.route53RecoverycontrolRoutingControl.Route53RecoverycontrolRoutingControl.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53recoverycontrolroutingcontrol"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53recoverycontrolroutingcontrol"
 
 route53recoverycontrolroutingcontrol.Route53RecoverycontrolRoutingControl_IsTerraformResource(x interface{}) *bool
 ```
@@ -474,7 +474,7 @@ route53recoverycontrolroutingcontrol.Route53RecoverycontrolRoutingControl_IsTerr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.route53RecoverycontrolRoutingControl.Route53RecoverycontrolRoutingControl.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53recoverycontrolroutingcontrol"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53recoverycontrolroutingcontrol"
 
 route53recoverycontrolroutingcontrol.Route53RecoverycontrolRoutingControl_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -503,7 +503,7 @@ The construct id used in the generated config for the Route53RecoverycontrolRout
 
 The id of the existing Route53RecoverycontrolRoutingControl that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53recoverycontrol_routing_control#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53recoverycontrol_routing_control#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -802,7 +802,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.route53RecoverycontrolRoutingControl.Route53RecoverycontrolRoutingControlConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53recoverycontrolroutingcontrol"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53recoverycontrolroutingcontrol"
 
 &route53recoverycontrolroutingcontrol.Route53RecoverycontrolRoutingControlConfig {
 	Connection: interface{},
@@ -915,7 +915,7 @@ Name *string
 
 The name of the routing control. You can use any non-white space character in the name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53recoverycontrol_routing_control#name Route53RecoverycontrolRoutingControl#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53recoverycontrol_routing_control#name Route53RecoverycontrolRoutingControl#name}
 
 ---
 
@@ -929,7 +929,7 @@ ClusterArn *string
 
 Arn associated with Control Panel.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53recoverycontrol_routing_control#cluster_arn Route53RecoverycontrolRoutingControl#cluster_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53recoverycontrol_routing_control#cluster_arn Route53RecoverycontrolRoutingControl#cluster_arn}
 
 ---
 
@@ -943,7 +943,7 @@ ControlPanelArn *string
 
 The Amazon Resource Name (ARN) of the control panel.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53recoverycontrol_routing_control#control_panel_arn Route53RecoverycontrolRoutingControl#control_panel_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53recoverycontrol_routing_control#control_panel_arn Route53RecoverycontrolRoutingControl#control_panel_arn}
 
 ---
 

@@ -4,12 +4,12 @@
 
 ### DataAwsccFisExperimentTemplate <a name="DataAwsccFisExperimentTemplate" id="@cdktn/provider-awscc.dataAwsccFisExperimentTemplate.DataAwsccFisExperimentTemplate"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/fis_experiment_template awscc_fis_experiment_template}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/fis_experiment_template awscc_fis_experiment_template}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFisExperimentTemplate.DataAwsccFisExperimentTemplate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfisexperimenttemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfisexperimenttemplate"
 
 dataawsccfisexperimenttemplate.NewDataAwsccFisExperimentTemplate(scope Construct, id *string, config DataAwsccFisExperimentTemplateConfig) DataAwsccFisExperimentTemplate
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccFisExperimentTemplate.DataAwsccFisExperimentTemplate.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfisexperimenttemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfisexperimenttemplate"
 
 dataawsccfisexperimenttemplate.DataAwsccFisExperimentTemplate_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccFisExperimentTemplate.DataAwsccFisExperimentTemplate.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfisexperimenttemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfisexperimenttemplate"
 
 dataawsccfisexperimenttemplate.DataAwsccFisExperimentTemplate_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccfisexperimenttemplate.DataAwsccFisExperimentTemplate_IsTerraformElement
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccFisExperimentTemplate.DataAwsccFisExperimentTemplate.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfisexperimenttemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfisexperimenttemplate"
 
 dataawsccfisexperimenttemplate.DataAwsccFisExperimentTemplate_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccfisexperimenttemplate.DataAwsccFisExperimentTemplate_IsTerraformDataSou
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccFisExperimentTemplate.DataAwsccFisExperimentTemplate.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfisexperimenttemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfisexperimenttemplate"
 
 dataawsccfisexperimenttemplate.DataAwsccFisExperimentTemplate_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccFisExperimentTemp
 
 The id of the existing DataAwsccFisExperimentTemplate that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/fis_experiment_template#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/fis_experiment_template#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -697,7 +697,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccFisExperimentTemplate.DataAwsccFisExperimentTemplateActions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfisexperimenttemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfisexperimenttemplate"
 
 &dataawsccfisexperimenttemplate.DataAwsccFisExperimentTemplateActions {
 
@@ -710,7 +710,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfisexperiment
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccFisExperimentTemplate.DataAwsccFisExperimentTemplateConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfisexperimenttemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfisexperimenttemplate"
 
 &dataawsccfisexperimenttemplate.DataAwsccFisExperimentTemplateConfig {
 	Connection: interface{},
@@ -819,7 +819,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/fis_experiment_template#id DataAwsccFisExperimentTemplate#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/fis_experiment_template#id DataAwsccFisExperimentTemplate#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -831,7 +831,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccFisExperimentTemplate.DataAwsccFisExperimentTemplateExperimentOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfisexperimenttemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfisexperimenttemplate"
 
 &dataawsccfisexperimenttemplate.DataAwsccFisExperimentTemplateExperimentOptions {
 
@@ -844,7 +844,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfisexperiment
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccFisExperimentTemplate.DataAwsccFisExperimentTemplateExperimentReportConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfisexperimenttemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfisexperimenttemplate"
 
 &dataawsccfisexperimenttemplate.DataAwsccFisExperimentTemplateExperimentReportConfiguration {
 
@@ -857,7 +857,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfisexperiment
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccFisExperimentTemplate.DataAwsccFisExperimentTemplateExperimentReportConfigurationDataSources.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfisexperimenttemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfisexperimenttemplate"
 
 &dataawsccfisexperimenttemplate.DataAwsccFisExperimentTemplateExperimentReportConfigurationDataSources {
 
@@ -870,7 +870,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfisexperiment
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccFisExperimentTemplate.DataAwsccFisExperimentTemplateExperimentReportConfigurationDataSourcesCloudwatchDashboards.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfisexperimenttemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfisexperimenttemplate"
 
 &dataawsccfisexperimenttemplate.DataAwsccFisExperimentTemplateExperimentReportConfigurationDataSourcesCloudwatchDashboards {
 
@@ -883,7 +883,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfisexperiment
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccFisExperimentTemplate.DataAwsccFisExperimentTemplateExperimentReportConfigurationOutputs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfisexperimenttemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfisexperimenttemplate"
 
 &dataawsccfisexperimenttemplate.DataAwsccFisExperimentTemplateExperimentReportConfigurationOutputs {
 
@@ -896,7 +896,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfisexperiment
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccFisExperimentTemplate.DataAwsccFisExperimentTemplateExperimentReportConfigurationOutputsExperimentReportS3Configuration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfisexperimenttemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfisexperimenttemplate"
 
 &dataawsccfisexperimenttemplate.DataAwsccFisExperimentTemplateExperimentReportConfigurationOutputsExperimentReportS3Configuration {
 
@@ -909,7 +909,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfisexperiment
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccFisExperimentTemplate.DataAwsccFisExperimentTemplateLogConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfisexperimenttemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfisexperimenttemplate"
 
 &dataawsccfisexperimenttemplate.DataAwsccFisExperimentTemplateLogConfiguration {
 
@@ -922,7 +922,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfisexperiment
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccFisExperimentTemplate.DataAwsccFisExperimentTemplateLogConfigurationCloudwatchLogsConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfisexperimenttemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfisexperimenttemplate"
 
 &dataawsccfisexperimenttemplate.DataAwsccFisExperimentTemplateLogConfigurationCloudwatchLogsConfiguration {
 
@@ -935,7 +935,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfisexperiment
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccFisExperimentTemplate.DataAwsccFisExperimentTemplateLogConfigurationS3Configuration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfisexperimenttemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfisexperimenttemplate"
 
 &dataawsccfisexperimenttemplate.DataAwsccFisExperimentTemplateLogConfigurationS3Configuration {
 
@@ -948,7 +948,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfisexperiment
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccFisExperimentTemplate.DataAwsccFisExperimentTemplateStopConditions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfisexperimenttemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfisexperimenttemplate"
 
 &dataawsccfisexperimenttemplate.DataAwsccFisExperimentTemplateStopConditions {
 
@@ -961,7 +961,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfisexperiment
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccFisExperimentTemplate.DataAwsccFisExperimentTemplateTargets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfisexperimenttemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfisexperimenttemplate"
 
 &dataawsccfisexperimenttemplate.DataAwsccFisExperimentTemplateTargets {
 
@@ -974,7 +974,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfisexperiment
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccFisExperimentTemplate.DataAwsccFisExperimentTemplateTargetsFilters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfisexperimenttemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfisexperimenttemplate"
 
 &dataawsccfisexperimenttemplate.DataAwsccFisExperimentTemplateTargetsFilters {
 
@@ -989,7 +989,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfisexperiment
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFisExperimentTemplate.DataAwsccFisExperimentTemplateActionsMap.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfisexperimenttemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfisexperimenttemplate"
 
 dataawsccfisexperimenttemplate.NewDataAwsccFisExperimentTemplateActionsMap(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccFisExperimentTemplateActionsMap
 ```
@@ -1125,7 +1125,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFisExperimentTemplate.DataAwsccFisExperimentTemplateActionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfisexperimenttemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfisexperimenttemplate"
 
 dataawsccfisexperimenttemplate.NewDataAwsccFisExperimentTemplateActionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectKey *string) DataAwsccFisExperimentTemplateActionsOutputReference
 ```
@@ -1438,7 +1438,7 @@ func InternalValue() DataAwsccFisExperimentTemplateActions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFisExperimentTemplate.DataAwsccFisExperimentTemplateExperimentOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfisexperimenttemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfisexperimenttemplate"
 
 dataawsccfisexperimenttemplate.NewDataAwsccFisExperimentTemplateExperimentOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccFisExperimentTemplateExperimentOptionsOutputReference
 ```
@@ -1709,7 +1709,7 @@ func InternalValue() DataAwsccFisExperimentTemplateExperimentOptions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFisExperimentTemplate.DataAwsccFisExperimentTemplateExperimentReportConfigurationDataSourcesCloudwatchDashboardsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfisexperimenttemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfisexperimenttemplate"
 
 dataawsccfisexperimenttemplate.NewDataAwsccFisExperimentTemplateExperimentReportConfigurationDataSourcesCloudwatchDashboardsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccFisExperimentTemplateExperimentReportConfigurationDataSourcesCloudwatchDashboardsList
 ```
@@ -1858,7 +1858,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFisExperimentTemplate.DataAwsccFisExperimentTemplateExperimentReportConfigurationDataSourcesCloudwatchDashboardsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfisexperimenttemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfisexperimenttemplate"
 
 dataawsccfisexperimenttemplate.NewDataAwsccFisExperimentTemplateExperimentReportConfigurationDataSourcesCloudwatchDashboardsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccFisExperimentTemplateExperimentReportConfigurationDataSourcesCloudwatchDashboardsOutputReference
 ```
@@ -2136,7 +2136,7 @@ func InternalValue() DataAwsccFisExperimentTemplateExperimentReportConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFisExperimentTemplate.DataAwsccFisExperimentTemplateExperimentReportConfigurationDataSourcesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfisexperimenttemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfisexperimenttemplate"
 
 dataawsccfisexperimenttemplate.NewDataAwsccFisExperimentTemplateExperimentReportConfigurationDataSourcesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccFisExperimentTemplateExperimentReportConfigurationDataSourcesOutputReference
 ```
@@ -2396,7 +2396,7 @@ func InternalValue() DataAwsccFisExperimentTemplateExperimentReportConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFisExperimentTemplate.DataAwsccFisExperimentTemplateExperimentReportConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfisexperimenttemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfisexperimenttemplate"
 
 dataawsccfisexperimenttemplate.NewDataAwsccFisExperimentTemplateExperimentReportConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccFisExperimentTemplateExperimentReportConfigurationOutputReference
 ```
@@ -2689,7 +2689,7 @@ func InternalValue() DataAwsccFisExperimentTemplateExperimentReportConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFisExperimentTemplate.DataAwsccFisExperimentTemplateExperimentReportConfigurationOutputsExperimentReportS3ConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfisexperimenttemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfisexperimenttemplate"
 
 dataawsccfisexperimenttemplate.NewDataAwsccFisExperimentTemplateExperimentReportConfigurationOutputsExperimentReportS3ConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccFisExperimentTemplateExperimentReportConfigurationOutputsExperimentReportS3ConfigurationOutputReference
 ```
@@ -2960,7 +2960,7 @@ func InternalValue() DataAwsccFisExperimentTemplateExperimentReportConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFisExperimentTemplate.DataAwsccFisExperimentTemplateExperimentReportConfigurationOutputsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfisexperimenttemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfisexperimenttemplate"
 
 dataawsccfisexperimenttemplate.NewDataAwsccFisExperimentTemplateExperimentReportConfigurationOutputsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccFisExperimentTemplateExperimentReportConfigurationOutputsOutputReference
 ```
@@ -3220,7 +3220,7 @@ func InternalValue() DataAwsccFisExperimentTemplateExperimentReportConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFisExperimentTemplate.DataAwsccFisExperimentTemplateLogConfigurationCloudwatchLogsConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfisexperimenttemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfisexperimenttemplate"
 
 dataawsccfisexperimenttemplate.NewDataAwsccFisExperimentTemplateLogConfigurationCloudwatchLogsConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccFisExperimentTemplateLogConfigurationCloudwatchLogsConfigurationOutputReference
 ```
@@ -3480,7 +3480,7 @@ func InternalValue() DataAwsccFisExperimentTemplateLogConfigurationCloudwatchLog
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFisExperimentTemplate.DataAwsccFisExperimentTemplateLogConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfisexperimenttemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfisexperimenttemplate"
 
 dataawsccfisexperimenttemplate.NewDataAwsccFisExperimentTemplateLogConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccFisExperimentTemplateLogConfigurationOutputReference
 ```
@@ -3762,7 +3762,7 @@ func InternalValue() DataAwsccFisExperimentTemplateLogConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFisExperimentTemplate.DataAwsccFisExperimentTemplateLogConfigurationS3ConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfisexperimenttemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfisexperimenttemplate"
 
 dataawsccfisexperimenttemplate.NewDataAwsccFisExperimentTemplateLogConfigurationS3ConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccFisExperimentTemplateLogConfigurationS3ConfigurationOutputReference
 ```
@@ -4033,7 +4033,7 @@ func InternalValue() DataAwsccFisExperimentTemplateLogConfigurationS3Configurati
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFisExperimentTemplate.DataAwsccFisExperimentTemplateStopConditionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfisexperimenttemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfisexperimenttemplate"
 
 dataawsccfisexperimenttemplate.NewDataAwsccFisExperimentTemplateStopConditionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccFisExperimentTemplateStopConditionsList
 ```
@@ -4182,7 +4182,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFisExperimentTemplate.DataAwsccFisExperimentTemplateStopConditionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfisexperimenttemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfisexperimenttemplate"
 
 dataawsccfisexperimenttemplate.NewDataAwsccFisExperimentTemplateStopConditionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccFisExperimentTemplateStopConditionsOutputReference
 ```
@@ -4471,7 +4471,7 @@ func InternalValue() DataAwsccFisExperimentTemplateStopConditions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFisExperimentTemplate.DataAwsccFisExperimentTemplateTargetsFiltersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfisexperimenttemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfisexperimenttemplate"
 
 dataawsccfisexperimenttemplate.NewDataAwsccFisExperimentTemplateTargetsFiltersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccFisExperimentTemplateTargetsFiltersList
 ```
@@ -4620,7 +4620,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFisExperimentTemplate.DataAwsccFisExperimentTemplateTargetsFiltersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfisexperimenttemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfisexperimenttemplate"
 
 dataawsccfisexperimenttemplate.NewDataAwsccFisExperimentTemplateTargetsFiltersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccFisExperimentTemplateTargetsFiltersOutputReference
 ```
@@ -4909,7 +4909,7 @@ func InternalValue() DataAwsccFisExperimentTemplateTargetsFilters
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFisExperimentTemplate.DataAwsccFisExperimentTemplateTargetsMap.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfisexperimenttemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfisexperimenttemplate"
 
 dataawsccfisexperimenttemplate.NewDataAwsccFisExperimentTemplateTargetsMap(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccFisExperimentTemplateTargetsMap
 ```
@@ -5045,7 +5045,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFisExperimentTemplate.DataAwsccFisExperimentTemplateTargetsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfisexperimenttemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfisexperimenttemplate"
 
 dataawsccfisexperimenttemplate.NewDataAwsccFisExperimentTemplateTargetsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectKey *string) DataAwsccFisExperimentTemplateTargetsOutputReference
 ```

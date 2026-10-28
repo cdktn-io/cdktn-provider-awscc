@@ -4,12 +4,12 @@
 
 ### ScnDataIntegrationFlow <a name="ScnDataIntegrationFlow" id="@cdktn/provider-awscc.scnDataIntegrationFlow.ScnDataIntegrationFlow"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_data_integration_flow awscc_scn_data_integration_flow}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_data_integration_flow awscc_scn_data_integration_flow}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.scnDataIntegrationFlow.ScnDataIntegrationFlow.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scndataintegrationflow"
 
 scndataintegrationflow.NewScnDataIntegrationFlow(scope Construct, id *string, config ScnDataIntegrationFlowConfig) ScnDataIntegrationFlow
 ```
@@ -459,7 +459,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.scnDataIntegrationFlow.ScnDataIntegrationFlow.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scndataintegrationflow"
 
 scndataintegrationflow.ScnDataIntegrationFlow_IsConstruct(x interface{}) *bool
 ```
@@ -491,7 +491,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.scnDataIntegrationFlow.ScnDataIntegrationFlow.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scndataintegrationflow"
 
 scndataintegrationflow.ScnDataIntegrationFlow_IsTerraformElement(x interface{}) *bool
 ```
@@ -505,7 +505,7 @@ scndataintegrationflow.ScnDataIntegrationFlow_IsTerraformElement(x interface{}) 
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.scnDataIntegrationFlow.ScnDataIntegrationFlow.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scndataintegrationflow"
 
 scndataintegrationflow.ScnDataIntegrationFlow_IsTerraformResource(x interface{}) *bool
 ```
@@ -519,7 +519,7 @@ scndataintegrationflow.ScnDataIntegrationFlow_IsTerraformResource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.scnDataIntegrationFlow.ScnDataIntegrationFlow.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scndataintegrationflow"
 
 scndataintegrationflow.ScnDataIntegrationFlow_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -548,7 +548,7 @@ The construct id used in the generated config for the ScnDataIntegrationFlow to 
 
 The id of the existing ScnDataIntegrationFlow that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_data_integration_flow#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_data_integration_flow#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -924,7 +924,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.scnDataIntegrationFlow.ScnDataIntegrationFlowConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scndataintegrationflow"
 
 &scndataintegrationflow.ScnDataIntegrationFlowConfig {
 	Connection: interface{},
@@ -937,8 +937,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scndataintegrationflow
 	InstanceId: *string,
 	Name: *string,
 	Sources: interface{},
-	Target: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.scnDataIntegrationFlow.ScnDataIntegrationFlowTarget,
-	Transformation: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.scnDataIntegrationFlow.ScnDataIntegrationFlowTransformation,
+	Target: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.scnDataIntegrationFlow.ScnDataIntegrationFlowTarget,
+	Transformation: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.scnDataIntegrationFlow.ScnDataIntegrationFlowTransformation,
 	Tags: interface{},
 }
 ```
@@ -1043,7 +1043,7 @@ InstanceId *string
 
 The Amazon Web Services Supply Chain instance identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_data_integration_flow#instance_id ScnDataIntegrationFlow#instance_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_data_integration_flow#instance_id ScnDataIntegrationFlow#instance_id}
 
 ---
 
@@ -1057,7 +1057,7 @@ Name *string
 
 The name of the DataIntegrationFlow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_data_integration_flow#name ScnDataIntegrationFlow#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_data_integration_flow#name ScnDataIntegrationFlow#name}
 
 ---
 
@@ -1071,7 +1071,7 @@ Sources interface{}
 
 The source configurations for the DataIntegrationFlow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_data_integration_flow#sources ScnDataIntegrationFlow#sources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_data_integration_flow#sources ScnDataIntegrationFlow#sources}
 
 ---
 
@@ -1085,7 +1085,7 @@ Target ScnDataIntegrationFlowTarget
 
 The DataIntegrationFlow target parameters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_data_integration_flow#target ScnDataIntegrationFlow#target}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_data_integration_flow#target ScnDataIntegrationFlow#target}
 
 ---
 
@@ -1099,7 +1099,7 @@ Transformation ScnDataIntegrationFlowTransformation
 
 The DataIntegrationFlow transformation parameters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_data_integration_flow#transformation ScnDataIntegrationFlow#transformation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_data_integration_flow#transformation ScnDataIntegrationFlow#transformation}
 
 ---
 
@@ -1113,7 +1113,7 @@ Tags interface{}
 
 The tags for the DataIntegrationFlow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_data_integration_flow#tags ScnDataIntegrationFlow#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_data_integration_flow#tags ScnDataIntegrationFlow#tags}
 
 ---
 
@@ -1122,13 +1122,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.scnDataIntegrationFlow.ScnDataIntegrationFlowSources.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scndataintegrationflow"
 
 &scndataintegrationflow.ScnDataIntegrationFlowSources {
 	SourceName: *string,
 	SourceType: *string,
-	DatasetSource: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.scnDataIntegrationFlow.ScnDataIntegrationFlowSourcesDatasetSource,
-	S3Source: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.scnDataIntegrationFlow.ScnDataIntegrationFlowSourcesS3Source,
+	DatasetSource: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.scnDataIntegrationFlow.ScnDataIntegrationFlowSourcesDatasetSource,
+	S3Source: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.scnDataIntegrationFlow.ScnDataIntegrationFlowSourcesS3Source,
 }
 ```
 
@@ -1153,7 +1153,7 @@ SourceName *string
 
 The source name that can be used as table alias in SQL transformation query.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_data_integration_flow#source_name ScnDataIntegrationFlow#source_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_data_integration_flow#source_name ScnDataIntegrationFlow#source_name}
 
 ---
 
@@ -1167,7 +1167,7 @@ SourceType *string
 
 The source type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_data_integration_flow#source_type ScnDataIntegrationFlow#source_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_data_integration_flow#source_type ScnDataIntegrationFlow#source_type}
 
 ---
 
@@ -1181,7 +1181,7 @@ DatasetSource ScnDataIntegrationFlowSourcesDatasetSource
 
 The dataset source configuration parameters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_data_integration_flow#dataset_source ScnDataIntegrationFlow#dataset_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_data_integration_flow#dataset_source ScnDataIntegrationFlow#dataset_source}
 
 ---
 
@@ -1195,7 +1195,7 @@ S3Source ScnDataIntegrationFlowSourcesS3Source
 
 The S3 source configuration parameters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_data_integration_flow#s3_source ScnDataIntegrationFlow#s3_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_data_integration_flow#s3_source ScnDataIntegrationFlow#s3_source}
 
 ---
 
@@ -1204,11 +1204,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.scnDataIntegrationFlow.ScnDataIntegrationFlowSourcesDatasetSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scndataintegrationflow"
 
 &scndataintegrationflow.ScnDataIntegrationFlowSourcesDatasetSource {
 	DatasetIdentifier: *string,
-	Options: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.scnDataIntegrationFlow.ScnDataIntegrationFlowSourcesDatasetSourceOptions,
+	Options: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.scnDataIntegrationFlow.ScnDataIntegrationFlowSourcesDatasetSourceOptions,
 }
 ```
 
@@ -1231,7 +1231,7 @@ DatasetIdentifier *string
 
 The ARN of the dataset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_data_integration_flow#dataset_identifier ScnDataIntegrationFlow#dataset_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_data_integration_flow#dataset_identifier ScnDataIntegrationFlow#dataset_identifier}
 
 ---
 
@@ -1245,7 +1245,7 @@ Options ScnDataIntegrationFlowSourcesDatasetSourceOptions
 
 The dataset options.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_data_integration_flow#options ScnDataIntegrationFlow#options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_data_integration_flow#options ScnDataIntegrationFlow#options}
 
 ---
 
@@ -1254,11 +1254,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.scnDataIntegrationFlow.ScnDataIntegrationFlowSourcesDatasetSourceOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scndataintegrationflow"
 
 &scndataintegrationflow.ScnDataIntegrationFlowSourcesDatasetSourceOptions {
 	DedupeRecords: interface{},
-	DedupeStrategy: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.scnDataIntegrationFlow.ScnDataIntegrationFlowSourcesDatasetSourceOptionsDedupeStrategy,
+	DedupeStrategy: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.scnDataIntegrationFlow.ScnDataIntegrationFlowSourcesDatasetSourceOptionsDedupeStrategy,
 	LoadType: *string,
 }
 ```
@@ -1283,7 +1283,7 @@ DedupeRecords interface{}
 
 The option to perform deduplication on data records sharing same primary key values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_data_integration_flow#dedupe_records ScnDataIntegrationFlow#dedupe_records}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_data_integration_flow#dedupe_records ScnDataIntegrationFlow#dedupe_records}
 
 ---
 
@@ -1297,7 +1297,7 @@ DedupeStrategy ScnDataIntegrationFlowSourcesDatasetSourceOptionsDedupeStrategy
 
 The deduplication strategy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_data_integration_flow#dedupe_strategy ScnDataIntegrationFlow#dedupe_strategy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_data_integration_flow#dedupe_strategy ScnDataIntegrationFlow#dedupe_strategy}
 
 ---
 
@@ -1311,7 +1311,7 @@ LoadType *string
 
 The load type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_data_integration_flow#load_type ScnDataIntegrationFlow#load_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_data_integration_flow#load_type ScnDataIntegrationFlow#load_type}
 
 ---
 
@@ -1320,10 +1320,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.scnDataIntegrationFlow.ScnDataIntegrationFlowSourcesDatasetSourceOptionsDedupeStrategy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scndataintegrationflow"
 
 &scndataintegrationflow.ScnDataIntegrationFlowSourcesDatasetSourceOptionsDedupeStrategy {
-	FieldPriority: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.scnDataIntegrationFlow.ScnDataIntegrationFlowSourcesDatasetSourceOptionsDedupeStrategyFieldPriority,
+	FieldPriority: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.scnDataIntegrationFlow.ScnDataIntegrationFlowSourcesDatasetSourceOptionsDedupeStrategyFieldPriority,
 	Type: *string,
 }
 ```
@@ -1347,7 +1347,7 @@ FieldPriority ScnDataIntegrationFlowSourcesDatasetSourceOptionsDedupeStrategyFie
 
 The field priority deduplication strategy configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_data_integration_flow#field_priority ScnDataIntegrationFlow#field_priority}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_data_integration_flow#field_priority ScnDataIntegrationFlow#field_priority}
 
 ---
 
@@ -1361,7 +1361,7 @@ Type *string
 
 The deduplication strategy type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_data_integration_flow#type ScnDataIntegrationFlow#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_data_integration_flow#type ScnDataIntegrationFlow#type}
 
 ---
 
@@ -1370,7 +1370,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.scnDataIntegrationFlow.ScnDataIntegrationFlowSourcesDatasetSourceOptionsDedupeStrategyFieldPriority.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scndataintegrationflow"
 
 &scndataintegrationflow.ScnDataIntegrationFlowSourcesDatasetSourceOptionsDedupeStrategyFieldPriority {
 	Fields: interface{},
@@ -1395,7 +1395,7 @@ Fields interface{}
 
 The list of field names and their sort order for deduplication.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_data_integration_flow#fields ScnDataIntegrationFlow#fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_data_integration_flow#fields ScnDataIntegrationFlow#fields}
 
 ---
 
@@ -1404,7 +1404,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.scnDataIntegrationFlow.ScnDataIntegrationFlowSourcesDatasetSourceOptionsDedupeStrategyFieldPriorityFields.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scndataintegrationflow"
 
 &scndataintegrationflow.ScnDataIntegrationFlowSourcesDatasetSourceOptionsDedupeStrategyFieldPriorityFields {
 	Name: *string,
@@ -1431,7 +1431,7 @@ Name *string
 
 The name of the deduplication field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_data_integration_flow#name ScnDataIntegrationFlow#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_data_integration_flow#name ScnDataIntegrationFlow#name}
 
 ---
 
@@ -1445,7 +1445,7 @@ SortOrder *string
 
 The sort order.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_data_integration_flow#sort_order ScnDataIntegrationFlow#sort_order}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_data_integration_flow#sort_order ScnDataIntegrationFlow#sort_order}
 
 ---
 
@@ -1454,11 +1454,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.scnDataIntegrationFlow.ScnDataIntegrationFlowSourcesS3Source.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scndataintegrationflow"
 
 &scndataintegrationflow.ScnDataIntegrationFlowSourcesS3Source {
 	BucketName: *string,
-	Options: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.scnDataIntegrationFlow.ScnDataIntegrationFlowSourcesS3SourceOptions,
+	Options: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.scnDataIntegrationFlow.ScnDataIntegrationFlowSourcesS3SourceOptions,
 	Prefix: *string,
 }
 ```
@@ -1483,7 +1483,7 @@ BucketName *string
 
 The S3 bucket name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_data_integration_flow#bucket_name ScnDataIntegrationFlow#bucket_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_data_integration_flow#bucket_name ScnDataIntegrationFlow#bucket_name}
 
 ---
 
@@ -1497,7 +1497,7 @@ Options ScnDataIntegrationFlowSourcesS3SourceOptions
 
 The Amazon S3 options.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_data_integration_flow#options ScnDataIntegrationFlow#options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_data_integration_flow#options ScnDataIntegrationFlow#options}
 
 ---
 
@@ -1511,7 +1511,7 @@ Prefix *string
 
 The S3 prefix.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_data_integration_flow#prefix ScnDataIntegrationFlow#prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_data_integration_flow#prefix ScnDataIntegrationFlow#prefix}
 
 ---
 
@@ -1520,7 +1520,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.scnDataIntegrationFlow.ScnDataIntegrationFlowSourcesS3SourceOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scndataintegrationflow"
 
 &scndataintegrationflow.ScnDataIntegrationFlowSourcesS3SourceOptions {
 	FileType: *string,
@@ -1545,7 +1545,7 @@ FileType *string
 
 The file type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_data_integration_flow#file_type ScnDataIntegrationFlow#file_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_data_integration_flow#file_type ScnDataIntegrationFlow#file_type}
 
 ---
 
@@ -1554,7 +1554,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.scnDataIntegrationFlow.ScnDataIntegrationFlowTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scndataintegrationflow"
 
 &scndataintegrationflow.ScnDataIntegrationFlowTags {
 	Key: *string,
@@ -1581,7 +1581,7 @@ Key *string
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_data_integration_flow#key ScnDataIntegrationFlow#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_data_integration_flow#key ScnDataIntegrationFlow#key}
 
 ---
 
@@ -1595,7 +1595,7 @@ Value *string
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_data_integration_flow#value ScnDataIntegrationFlow#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_data_integration_flow#value ScnDataIntegrationFlow#value}
 
 ---
 
@@ -1604,11 +1604,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.scnDataIntegrationFlow.ScnDataIntegrationFlowTarget.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scndataintegrationflow"
 
 &scndataintegrationflow.ScnDataIntegrationFlowTarget {
 	TargetType: *string,
-	DatasetTarget: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.scnDataIntegrationFlow.ScnDataIntegrationFlowTargetDatasetTarget,
+	DatasetTarget: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.scnDataIntegrationFlow.ScnDataIntegrationFlowTargetDatasetTarget,
 }
 ```
 
@@ -1631,7 +1631,7 @@ TargetType *string
 
 The target type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_data_integration_flow#target_type ScnDataIntegrationFlow#target_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_data_integration_flow#target_type ScnDataIntegrationFlow#target_type}
 
 ---
 
@@ -1645,7 +1645,7 @@ DatasetTarget ScnDataIntegrationFlowTargetDatasetTarget
 
 The dataset target configuration parameters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_data_integration_flow#dataset_target ScnDataIntegrationFlow#dataset_target}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_data_integration_flow#dataset_target ScnDataIntegrationFlow#dataset_target}
 
 ---
 
@@ -1654,11 +1654,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.scnDataIntegrationFlow.ScnDataIntegrationFlowTargetDatasetTarget.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scndataintegrationflow"
 
 &scndataintegrationflow.ScnDataIntegrationFlowTargetDatasetTarget {
 	DatasetIdentifier: *string,
-	Options: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.scnDataIntegrationFlow.ScnDataIntegrationFlowTargetDatasetTargetOptions,
+	Options: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.scnDataIntegrationFlow.ScnDataIntegrationFlowTargetDatasetTargetOptions,
 }
 ```
 
@@ -1681,7 +1681,7 @@ DatasetIdentifier *string
 
 The dataset ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_data_integration_flow#dataset_identifier ScnDataIntegrationFlow#dataset_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_data_integration_flow#dataset_identifier ScnDataIntegrationFlow#dataset_identifier}
 
 ---
 
@@ -1695,7 +1695,7 @@ Options ScnDataIntegrationFlowTargetDatasetTargetOptions
 
 The dataset options.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_data_integration_flow#options ScnDataIntegrationFlow#options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_data_integration_flow#options ScnDataIntegrationFlow#options}
 
 ---
 
@@ -1704,11 +1704,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.scnDataIntegrationFlow.ScnDataIntegrationFlowTargetDatasetTargetOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scndataintegrationflow"
 
 &scndataintegrationflow.ScnDataIntegrationFlowTargetDatasetTargetOptions {
 	DedupeRecords: interface{},
-	DedupeStrategy: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.scnDataIntegrationFlow.ScnDataIntegrationFlowTargetDatasetTargetOptionsDedupeStrategy,
+	DedupeStrategy: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.scnDataIntegrationFlow.ScnDataIntegrationFlowTargetDatasetTargetOptionsDedupeStrategy,
 	LoadType: *string,
 }
 ```
@@ -1733,7 +1733,7 @@ DedupeRecords interface{}
 
 The option to perform deduplication on data records sharing same primary key values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_data_integration_flow#dedupe_records ScnDataIntegrationFlow#dedupe_records}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_data_integration_flow#dedupe_records ScnDataIntegrationFlow#dedupe_records}
 
 ---
 
@@ -1747,7 +1747,7 @@ DedupeStrategy ScnDataIntegrationFlowTargetDatasetTargetOptionsDedupeStrategy
 
 The deduplication strategy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_data_integration_flow#dedupe_strategy ScnDataIntegrationFlow#dedupe_strategy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_data_integration_flow#dedupe_strategy ScnDataIntegrationFlow#dedupe_strategy}
 
 ---
 
@@ -1761,7 +1761,7 @@ LoadType *string
 
 The load type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_data_integration_flow#load_type ScnDataIntegrationFlow#load_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_data_integration_flow#load_type ScnDataIntegrationFlow#load_type}
 
 ---
 
@@ -1770,10 +1770,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.scnDataIntegrationFlow.ScnDataIntegrationFlowTargetDatasetTargetOptionsDedupeStrategy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scndataintegrationflow"
 
 &scndataintegrationflow.ScnDataIntegrationFlowTargetDatasetTargetOptionsDedupeStrategy {
-	FieldPriority: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.scnDataIntegrationFlow.ScnDataIntegrationFlowTargetDatasetTargetOptionsDedupeStrategyFieldPriority,
+	FieldPriority: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.scnDataIntegrationFlow.ScnDataIntegrationFlowTargetDatasetTargetOptionsDedupeStrategyFieldPriority,
 	Type: *string,
 }
 ```
@@ -1797,7 +1797,7 @@ FieldPriority ScnDataIntegrationFlowTargetDatasetTargetOptionsDedupeStrategyFiel
 
 The field priority deduplication strategy configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_data_integration_flow#field_priority ScnDataIntegrationFlow#field_priority}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_data_integration_flow#field_priority ScnDataIntegrationFlow#field_priority}
 
 ---
 
@@ -1811,7 +1811,7 @@ Type *string
 
 The deduplication strategy type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_data_integration_flow#type ScnDataIntegrationFlow#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_data_integration_flow#type ScnDataIntegrationFlow#type}
 
 ---
 
@@ -1820,7 +1820,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.scnDataIntegrationFlow.ScnDataIntegrationFlowTargetDatasetTargetOptionsDedupeStrategyFieldPriority.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scndataintegrationflow"
 
 &scndataintegrationflow.ScnDataIntegrationFlowTargetDatasetTargetOptionsDedupeStrategyFieldPriority {
 	Fields: interface{},
@@ -1845,7 +1845,7 @@ Fields interface{}
 
 The list of field names and their sort order for deduplication.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_data_integration_flow#fields ScnDataIntegrationFlow#fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_data_integration_flow#fields ScnDataIntegrationFlow#fields}
 
 ---
 
@@ -1854,7 +1854,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.scnDataIntegrationFlow.ScnDataIntegrationFlowTargetDatasetTargetOptionsDedupeStrategyFieldPriorityFields.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scndataintegrationflow"
 
 &scndataintegrationflow.ScnDataIntegrationFlowTargetDatasetTargetOptionsDedupeStrategyFieldPriorityFields {
 	Name: *string,
@@ -1881,7 +1881,7 @@ Name *string
 
 The name of the deduplication field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_data_integration_flow#name ScnDataIntegrationFlow#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_data_integration_flow#name ScnDataIntegrationFlow#name}
 
 ---
 
@@ -1895,7 +1895,7 @@ SortOrder *string
 
 The sort order.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_data_integration_flow#sort_order ScnDataIntegrationFlow#sort_order}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_data_integration_flow#sort_order ScnDataIntegrationFlow#sort_order}
 
 ---
 
@@ -1904,11 +1904,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.scnDataIntegrationFlow.ScnDataIntegrationFlowTransformation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scndataintegrationflow"
 
 &scndataintegrationflow.ScnDataIntegrationFlowTransformation {
 	TransformationType: *string,
-	SqlTransformation: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.scnDataIntegrationFlow.ScnDataIntegrationFlowTransformationSqlTransformation,
+	SqlTransformation: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.scnDataIntegrationFlow.ScnDataIntegrationFlowTransformationSqlTransformation,
 }
 ```
 
@@ -1931,7 +1931,7 @@ TransformationType *string
 
 The transformation type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_data_integration_flow#transformation_type ScnDataIntegrationFlow#transformation_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_data_integration_flow#transformation_type ScnDataIntegrationFlow#transformation_type}
 
 ---
 
@@ -1945,7 +1945,7 @@ SqlTransformation ScnDataIntegrationFlowTransformationSqlTransformation
 
 The SQL transformation configuration parameters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_data_integration_flow#sql_transformation ScnDataIntegrationFlow#sql_transformation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_data_integration_flow#sql_transformation ScnDataIntegrationFlow#sql_transformation}
 
 ---
 
@@ -1954,7 +1954,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.scnDataIntegrationFlow.ScnDataIntegrationFlowTransformationSqlTransformation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scndataintegrationflow"
 
 &scndataintegrationflow.ScnDataIntegrationFlowTransformationSqlTransformation {
 	Query: *string,
@@ -1979,7 +1979,7 @@ Query *string
 
 The transformation SQL query body based on SparkSQL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_data_integration_flow#query ScnDataIntegrationFlow#query}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_data_integration_flow#query ScnDataIntegrationFlow#query}
 
 ---
 
@@ -1990,7 +1990,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.scnDataIntegrationFlow.ScnDataIntegrationFlowSourcesDatasetSourceOptionsDedupeStrategyFieldPriorityFieldsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scndataintegrationflow"
 
 scndataintegrationflow.NewScnDataIntegrationFlowSourcesDatasetSourceOptionsDedupeStrategyFieldPriorityFieldsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ScnDataIntegrationFlowSourcesDatasetSourceOptionsDedupeStrategyFieldPriorityFieldsList
 ```
@@ -2150,7 +2150,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.scnDataIntegrationFlow.ScnDataIntegrationFlowSourcesDatasetSourceOptionsDedupeStrategyFieldPriorityFieldsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scndataintegrationflow"
 
 scndataintegrationflow.NewScnDataIntegrationFlowSourcesDatasetSourceOptionsDedupeStrategyFieldPriorityFieldsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ScnDataIntegrationFlowSourcesDatasetSourceOptionsDedupeStrategyFieldPriorityFieldsOutputReference
 ```
@@ -2475,7 +2475,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.scnDataIntegrationFlow.ScnDataIntegrationFlowSourcesDatasetSourceOptionsDedupeStrategyFieldPriorityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scndataintegrationflow"
 
 scndataintegrationflow.NewScnDataIntegrationFlowSourcesDatasetSourceOptionsDedupeStrategyFieldPriorityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ScnDataIntegrationFlowSourcesDatasetSourceOptionsDedupeStrategyFieldPriorityOutputReference
 ```
@@ -2766,7 +2766,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.scnDataIntegrationFlow.ScnDataIntegrationFlowSourcesDatasetSourceOptionsDedupeStrategyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scndataintegrationflow"
 
 scndataintegrationflow.NewScnDataIntegrationFlowSourcesDatasetSourceOptionsDedupeStrategyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ScnDataIntegrationFlowSourcesDatasetSourceOptionsDedupeStrategyOutputReference
 ```
@@ -3086,7 +3086,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.scnDataIntegrationFlow.ScnDataIntegrationFlowSourcesDatasetSourceOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scndataintegrationflow"
 
 scndataintegrationflow.NewScnDataIntegrationFlowSourcesDatasetSourceOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ScnDataIntegrationFlowSourcesDatasetSourceOptionsOutputReference
 ```
@@ -3435,7 +3435,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.scnDataIntegrationFlow.ScnDataIntegrationFlowSourcesDatasetSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scndataintegrationflow"
 
 scndataintegrationflow.NewScnDataIntegrationFlowSourcesDatasetSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ScnDataIntegrationFlowSourcesDatasetSourceOutputReference
 ```
@@ -3755,7 +3755,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.scnDataIntegrationFlow.ScnDataIntegrationFlowSourcesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scndataintegrationflow"
 
 scndataintegrationflow.NewScnDataIntegrationFlowSourcesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ScnDataIntegrationFlowSourcesList
 ```
@@ -3915,7 +3915,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.scnDataIntegrationFlow.ScnDataIntegrationFlowSourcesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scndataintegrationflow"
 
 scndataintegrationflow.NewScnDataIntegrationFlowSourcesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ScnDataIntegrationFlowSourcesOutputReference
 ```
@@ -4310,7 +4310,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.scnDataIntegrationFlow.ScnDataIntegrationFlowSourcesS3SourceOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scndataintegrationflow"
 
 scndataintegrationflow.NewScnDataIntegrationFlowSourcesS3SourceOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ScnDataIntegrationFlowSourcesS3SourceOptionsOutputReference
 ```
@@ -4588,7 +4588,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.scnDataIntegrationFlow.ScnDataIntegrationFlowSourcesS3SourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scndataintegrationflow"
 
 scndataintegrationflow.NewScnDataIntegrationFlowSourcesS3SourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ScnDataIntegrationFlowSourcesS3SourceOutputReference
 ```
@@ -4937,7 +4937,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.scnDataIntegrationFlow.ScnDataIntegrationFlowTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scndataintegrationflow"
 
 scndataintegrationflow.NewScnDataIntegrationFlowTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ScnDataIntegrationFlowTagsList
 ```
@@ -5097,7 +5097,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.scnDataIntegrationFlow.ScnDataIntegrationFlowTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scndataintegrationflow"
 
 scndataintegrationflow.NewScnDataIntegrationFlowTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ScnDataIntegrationFlowTagsOutputReference
 ```
@@ -5422,7 +5422,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.scnDataIntegrationFlow.ScnDataIntegrationFlowTargetDatasetTargetOptionsDedupeStrategyFieldPriorityFieldsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scndataintegrationflow"
 
 scndataintegrationflow.NewScnDataIntegrationFlowTargetDatasetTargetOptionsDedupeStrategyFieldPriorityFieldsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ScnDataIntegrationFlowTargetDatasetTargetOptionsDedupeStrategyFieldPriorityFieldsList
 ```
@@ -5582,7 +5582,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.scnDataIntegrationFlow.ScnDataIntegrationFlowTargetDatasetTargetOptionsDedupeStrategyFieldPriorityFieldsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scndataintegrationflow"
 
 scndataintegrationflow.NewScnDataIntegrationFlowTargetDatasetTargetOptionsDedupeStrategyFieldPriorityFieldsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ScnDataIntegrationFlowTargetDatasetTargetOptionsDedupeStrategyFieldPriorityFieldsOutputReference
 ```
@@ -5907,7 +5907,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.scnDataIntegrationFlow.ScnDataIntegrationFlowTargetDatasetTargetOptionsDedupeStrategyFieldPriorityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scndataintegrationflow"
 
 scndataintegrationflow.NewScnDataIntegrationFlowTargetDatasetTargetOptionsDedupeStrategyFieldPriorityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ScnDataIntegrationFlowTargetDatasetTargetOptionsDedupeStrategyFieldPriorityOutputReference
 ```
@@ -6198,7 +6198,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.scnDataIntegrationFlow.ScnDataIntegrationFlowTargetDatasetTargetOptionsDedupeStrategyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scndataintegrationflow"
 
 scndataintegrationflow.NewScnDataIntegrationFlowTargetDatasetTargetOptionsDedupeStrategyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ScnDataIntegrationFlowTargetDatasetTargetOptionsDedupeStrategyOutputReference
 ```
@@ -6518,7 +6518,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.scnDataIntegrationFlow.ScnDataIntegrationFlowTargetDatasetTargetOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scndataintegrationflow"
 
 scndataintegrationflow.NewScnDataIntegrationFlowTargetDatasetTargetOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ScnDataIntegrationFlowTargetDatasetTargetOptionsOutputReference
 ```
@@ -6867,7 +6867,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.scnDataIntegrationFlow.ScnDataIntegrationFlowTargetDatasetTargetOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scndataintegrationflow"
 
 scndataintegrationflow.NewScnDataIntegrationFlowTargetDatasetTargetOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ScnDataIntegrationFlowTargetDatasetTargetOutputReference
 ```
@@ -7187,7 +7187,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.scnDataIntegrationFlow.ScnDataIntegrationFlowTargetOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scndataintegrationflow"
 
 scndataintegrationflow.NewScnDataIntegrationFlowTargetOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ScnDataIntegrationFlowTargetOutputReference
 ```
@@ -7500,7 +7500,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.scnDataIntegrationFlow.ScnDataIntegrationFlowTransformationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scndataintegrationflow"
 
 scndataintegrationflow.NewScnDataIntegrationFlowTransformationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ScnDataIntegrationFlowTransformationOutputReference
 ```
@@ -7813,7 +7813,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.scnDataIntegrationFlow.ScnDataIntegrationFlowTransformationSqlTransformationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scndataintegrationflow"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scndataintegrationflow"
 
 scndataintegrationflow.NewScnDataIntegrationFlowTransformationSqlTransformationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ScnDataIntegrationFlowTransformationSqlTransformationOutputReference
 ```

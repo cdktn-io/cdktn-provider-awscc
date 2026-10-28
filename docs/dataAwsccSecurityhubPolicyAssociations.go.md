@@ -4,12 +4,12 @@
 
 ### DataAwsccSecurityhubPolicyAssociations <a name="DataAwsccSecurityhubPolicyAssociations" id="@cdktn/provider-awscc.dataAwsccSecurityhubPolicyAssociations.DataAwsccSecurityhubPolicyAssociations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securityhub_policy_associations awscc_securityhub_policy_associations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securityhub_policy_associations awscc_securityhub_policy_associations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubPolicyAssociations.DataAwsccSecurityhubPolicyAssociations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubpolicyassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubpolicyassociations"
 
 dataawsccsecurityhubpolicyassociations.NewDataAwsccSecurityhubPolicyAssociations(scope Construct, id *string, config DataAwsccSecurityhubPolicyAssociationsConfig) DataAwsccSecurityhubPolicyAssociations
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSecurityhubPolicyAssociations.DataAwsccSecurityhubPolicyAssociations.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubpolicyassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubpolicyassociations"
 
 dataawsccsecurityhubpolicyassociations.DataAwsccSecurityhubPolicyAssociations_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSecurityhubPolicyAssociations.DataAwsccSecurityhubPolicyAssociations.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubpolicyassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubpolicyassociations"
 
 dataawsccsecurityhubpolicyassociations.DataAwsccSecurityhubPolicyAssociations_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsecurityhubpolicyassociations.DataAwsccSecurityhubPolicyAssociations_Is
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSecurityhubPolicyAssociations.DataAwsccSecurityhubPolicyAssociations.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubpolicyassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubpolicyassociations"
 
 dataawsccsecurityhubpolicyassociations.DataAwsccSecurityhubPolicyAssociations_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsecurityhubpolicyassociations.DataAwsccSecurityhubPolicyAssociations_Is
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSecurityhubPolicyAssociations.DataAwsccSecurityhubPolicyAssociations.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubpolicyassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubpolicyassociations"
 
 dataawsccsecurityhubpolicyassociations.DataAwsccSecurityhubPolicyAssociations_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSecurityhubPolicy
 
 The id of the existing DataAwsccSecurityhubPolicyAssociations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securityhub_policy_associations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securityhub_policy_associations#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubPolicyAssociations.DataAwsccSecurityhubPolicyAssociationsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubpolicyassociations"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubpolicyassociations"
 
 &dataawsccsecurityhubpolicyassociations.DataAwsccSecurityhubPolicyAssociationsConfig {
 	Connection: interface{},

@@ -4,12 +4,12 @@
 
 ### DataAwsccQuicksightDlpSetting <a name="DataAwsccQuicksightDlpSetting" id="@cdktn/provider-awscc.dataAwsccQuicksightDlpSetting.DataAwsccQuicksightDlpSetting"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/quicksight_dlp_setting awscc_quicksight_dlp_setting}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_dlp_setting awscc_quicksight_dlp_setting}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDlpSetting.DataAwsccQuicksightDlpSetting.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdlpsetting"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdlpsetting"
 
 dataawsccquicksightdlpsetting.NewDataAwsccQuicksightDlpSetting(scope Construct, id *string, config DataAwsccQuicksightDlpSettingConfig) DataAwsccQuicksightDlpSetting
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccQuicksightDlpSetting.DataAwsccQuicksightDlpSetting.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdlpsetting"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdlpsetting"
 
 dataawsccquicksightdlpsetting.DataAwsccQuicksightDlpSetting_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccQuicksightDlpSetting.DataAwsccQuicksightDlpSetting.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdlpsetting"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdlpsetting"
 
 dataawsccquicksightdlpsetting.DataAwsccQuicksightDlpSetting_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccquicksightdlpsetting.DataAwsccQuicksightDlpSetting_IsTerraformElement(x
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightDlpSetting.DataAwsccQuicksightDlpSetting.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdlpsetting"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdlpsetting"
 
 dataawsccquicksightdlpsetting.DataAwsccQuicksightDlpSetting_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccquicksightdlpsetting.DataAwsccQuicksightDlpSetting_IsTerraformDataSourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccQuicksightDlpSetting.DataAwsccQuicksightDlpSetting.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdlpsetting"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdlpsetting"
 
 dataawsccquicksightdlpsetting.DataAwsccQuicksightDlpSetting_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccQuicksightDlpSett
 
 The id of the existing DataAwsccQuicksightDlpSetting that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/quicksight_dlp_setting#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_dlp_setting#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -719,7 +719,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDlpSetting.DataAwsccQuicksightDlpSettingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdlpsetting"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdlpsetting"
 
 &dataawsccquicksightdlpsetting.DataAwsccQuicksightDlpSettingConfig {
 	Connection: interface{},
@@ -828,7 +828,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/quicksight_dlp_setting#id DataAwsccQuicksightDlpSetting#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_dlp_setting#id DataAwsccQuicksightDlpSetting#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -840,7 +840,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDlpSetting.DataAwsccQuicksightDlpSettingProviderConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdlpsetting"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdlpsetting"
 
 &dataawsccquicksightdlpsetting.DataAwsccQuicksightDlpSettingProviderConfig {
 
@@ -853,7 +853,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdlp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDlpSetting.DataAwsccQuicksightDlpSettingProviderConfigMicrosoftPurview.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdlpsetting"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdlpsetting"
 
 &dataawsccquicksightdlpsetting.DataAwsccQuicksightDlpSettingProviderConfigMicrosoftPurview {
 
@@ -866,7 +866,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdlp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDlpSetting.DataAwsccQuicksightDlpSettingProviderConfigMicrosoftPurviewCredentials.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdlpsetting"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdlpsetting"
 
 &dataawsccquicksightdlpsetting.DataAwsccQuicksightDlpSettingProviderConfigMicrosoftPurviewCredentials {
 
@@ -879,7 +879,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdlp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDlpSetting.DataAwsccQuicksightDlpSettingProviderConfigMicrosoftPurviewLabelActionMappings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdlpsetting"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdlpsetting"
 
 &dataawsccquicksightdlpsetting.DataAwsccQuicksightDlpSettingProviderConfigMicrosoftPurviewLabelActionMappings {
 
@@ -892,7 +892,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdlp
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightDlpSetting.DataAwsccQuicksightDlpSettingTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdlpsetting"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdlpsetting"
 
 &dataawsccquicksightdlpsetting.DataAwsccQuicksightDlpSettingTags {
 
@@ -907,7 +907,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdlp
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDlpSetting.DataAwsccQuicksightDlpSettingProviderConfigMicrosoftPurviewCredentialsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdlpsetting"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdlpsetting"
 
 dataawsccquicksightdlpsetting.NewDataAwsccQuicksightDlpSettingProviderConfigMicrosoftPurviewCredentialsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDlpSettingProviderConfigMicrosoftPurviewCredentialsOutputReference
 ```
@@ -1167,7 +1167,7 @@ func InternalValue() DataAwsccQuicksightDlpSettingProviderConfigMicrosoftPurview
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDlpSetting.DataAwsccQuicksightDlpSettingProviderConfigMicrosoftPurviewLabelActionMappingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdlpsetting"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdlpsetting"
 
 dataawsccquicksightdlpsetting.NewDataAwsccQuicksightDlpSettingProviderConfigMicrosoftPurviewLabelActionMappingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccQuicksightDlpSettingProviderConfigMicrosoftPurviewLabelActionMappingsList
 ```
@@ -1316,7 +1316,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDlpSetting.DataAwsccQuicksightDlpSettingProviderConfigMicrosoftPurviewLabelActionMappingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdlpsetting"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdlpsetting"
 
 dataawsccquicksightdlpsetting.NewDataAwsccQuicksightDlpSettingProviderConfigMicrosoftPurviewLabelActionMappingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccQuicksightDlpSettingProviderConfigMicrosoftPurviewLabelActionMappingsOutputReference
 ```
@@ -1616,7 +1616,7 @@ func InternalValue() DataAwsccQuicksightDlpSettingProviderConfigMicrosoftPurview
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDlpSetting.DataAwsccQuicksightDlpSettingProviderConfigMicrosoftPurviewOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdlpsetting"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdlpsetting"
 
 dataawsccquicksightdlpsetting.NewDataAwsccQuicksightDlpSettingProviderConfigMicrosoftPurviewOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDlpSettingProviderConfigMicrosoftPurviewOutputReference
 ```
@@ -1898,7 +1898,7 @@ func InternalValue() DataAwsccQuicksightDlpSettingProviderConfigMicrosoftPurview
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDlpSetting.DataAwsccQuicksightDlpSettingProviderConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdlpsetting"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdlpsetting"
 
 dataawsccquicksightdlpsetting.NewDataAwsccQuicksightDlpSettingProviderConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccQuicksightDlpSettingProviderConfigOutputReference
 ```
@@ -2158,7 +2158,7 @@ func InternalValue() DataAwsccQuicksightDlpSettingProviderConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDlpSetting.DataAwsccQuicksightDlpSettingTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdlpsetting"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdlpsetting"
 
 dataawsccquicksightdlpsetting.NewDataAwsccQuicksightDlpSettingTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccQuicksightDlpSettingTagsList
 ```
@@ -2307,7 +2307,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDlpSetting.DataAwsccQuicksightDlpSettingTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightdlpsetting"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightdlpsetting"
 
 dataawsccquicksightdlpsetting.NewDataAwsccQuicksightDlpSettingTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccQuicksightDlpSettingTagsOutputReference
 ```

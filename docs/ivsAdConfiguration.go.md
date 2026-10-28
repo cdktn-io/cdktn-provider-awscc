@@ -4,12 +4,12 @@
 
 ### IvsAdConfiguration <a name="IvsAdConfiguration" id="@cdktn/provider-awscc.ivsAdConfiguration.IvsAdConfiguration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_ad_configuration awscc_ivs_ad_configuration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_ad_configuration awscc_ivs_ad_configuration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ivsAdConfiguration.IvsAdConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivsadconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivsadconfiguration"
 
 ivsadconfiguration.NewIvsAdConfiguration(scope Construct, id *string, config IvsAdConfigurationConfig) IvsAdConfiguration
 ```
@@ -460,7 +460,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.ivsAdConfiguration.IvsAdConfiguration.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivsadconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivsadconfiguration"
 
 ivsadconfiguration.IvsAdConfiguration_IsConstruct(x interface{}) *bool
 ```
@@ -492,7 +492,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.ivsAdConfiguration.IvsAdConfiguration.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivsadconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivsadconfiguration"
 
 ivsadconfiguration.IvsAdConfiguration_IsTerraformElement(x interface{}) *bool
 ```
@@ -506,7 +506,7 @@ ivsadconfiguration.IvsAdConfiguration_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.ivsAdConfiguration.IvsAdConfiguration.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivsadconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivsadconfiguration"
 
 ivsadconfiguration.IvsAdConfiguration_IsTerraformResource(x interface{}) *bool
 ```
@@ -520,7 +520,7 @@ ivsadconfiguration.IvsAdConfiguration_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.ivsAdConfiguration.IvsAdConfiguration.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivsadconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivsadconfiguration"
 
 ivsadconfiguration.IvsAdConfiguration_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -549,7 +549,7 @@ The construct id used in the generated config for the IvsAdConfiguration to impo
 
 The id of the existing IvsAdConfiguration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_ad_configuration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_ad_configuration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -859,7 +859,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ivsAdConfiguration.IvsAdConfigurationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivsadconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivsadconfiguration"
 
 &ivsadconfiguration.IvsAdConfigurationConfig {
 	Connection: interface{},
@@ -871,7 +871,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivsadconfiguration"
 	Provisioners: *[]interface{},
 	MediaTailorPlaybackConfigurations: interface{},
 	Name: *string,
-	PostRollConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.ivsAdConfiguration.IvsAdConfigurationPostRollConfiguration,
+	PostRollConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.ivsAdConfiguration.IvsAdConfigurationPostRollConfiguration,
 	Tags: interface{},
 }
 ```
@@ -976,7 +976,7 @@ List of integration configurations with MediaTailor resources.
 
 The first item in the list is the default playback configuration used for the ad configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_ad_configuration#media_tailor_playback_configurations IvsAdConfiguration#media_tailor_playback_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_ad_configuration#media_tailor_playback_configurations IvsAdConfiguration#media_tailor_playback_configurations}
 
 ---
 
@@ -990,7 +990,7 @@ Name *string
 
 Ad configuration name. The value does not need to be unique.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_ad_configuration#name IvsAdConfiguration#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_ad_configuration#name IvsAdConfiguration#name}
 
 ---
 
@@ -1004,7 +1004,7 @@ PostRollConfiguration IvsAdConfigurationPostRollConfiguration
 
 Configuration for the post-roll ad break to use for this ad configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_ad_configuration#post_roll_configuration IvsAdConfiguration#post_roll_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_ad_configuration#post_roll_configuration IvsAdConfiguration#post_roll_configuration}
 
 ---
 
@@ -1018,7 +1018,7 @@ Tags interface{}
 
 Tags attached to the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_ad_configuration#tags IvsAdConfiguration#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_ad_configuration#tags IvsAdConfiguration#tags}
 
 ---
 
@@ -1027,7 +1027,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ivsAdConfiguration.IvsAdConfigurationMediaTailorPlaybackConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivsadconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivsadconfiguration"
 
 &ivsadconfiguration.IvsAdConfigurationMediaTailorPlaybackConfigurations {
 	PlaybackConfigurationArn: *string,
@@ -1052,7 +1052,7 @@ PlaybackConfigurationArn *string
 
 ARN of the customer-created EMT PlaybackConfiguration resource in the same region and account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_ad_configuration#playback_configuration_arn IvsAdConfiguration#playback_configuration_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_ad_configuration#playback_configuration_arn IvsAdConfiguration#playback_configuration_arn}
 
 ---
 
@@ -1061,7 +1061,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ivsAdConfiguration.IvsAdConfigurationPostRollConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivsadconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivsadconfiguration"
 
 &ivsadconfiguration.IvsAdConfigurationPostRollConfiguration {
 	DurationSeconds: *f64,
@@ -1088,7 +1088,7 @@ DurationSeconds *f64
 
 Duration of the post-roll ad break, in seconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_ad_configuration#duration_seconds IvsAdConfiguration#duration_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_ad_configuration#duration_seconds IvsAdConfiguration#duration_seconds}
 
 ---
 
@@ -1102,7 +1102,7 @@ Enabled interface{}
 
 Whether the post-roll ad configuration is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_ad_configuration#enabled IvsAdConfiguration#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_ad_configuration#enabled IvsAdConfiguration#enabled}
 
 ---
 
@@ -1111,7 +1111,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ivsAdConfiguration.IvsAdConfigurationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivsadconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivsadconfiguration"
 
 &ivsadconfiguration.IvsAdConfigurationTags {
 	Key: *string,
@@ -1138,7 +1138,7 @@ Key *string
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_ad_configuration#key IvsAdConfiguration#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_ad_configuration#key IvsAdConfiguration#key}
 
 ---
 
@@ -1152,7 +1152,7 @@ Value *string
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_ad_configuration#value IvsAdConfiguration#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_ad_configuration#value IvsAdConfiguration#value}
 
 ---
 
@@ -1163,7 +1163,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ivsAdConfiguration.IvsAdConfigurationMediaTailorPlaybackConfigurationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivsadconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivsadconfiguration"
 
 ivsadconfiguration.NewIvsAdConfigurationMediaTailorPlaybackConfigurationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IvsAdConfigurationMediaTailorPlaybackConfigurationsList
 ```
@@ -1323,7 +1323,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ivsAdConfiguration.IvsAdConfigurationMediaTailorPlaybackConfigurationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivsadconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivsadconfiguration"
 
 ivsadconfiguration.NewIvsAdConfigurationMediaTailorPlaybackConfigurationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IvsAdConfigurationMediaTailorPlaybackConfigurationsOutputReference
 ```
@@ -1619,7 +1619,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ivsAdConfiguration.IvsAdConfigurationPostRollConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivsadconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivsadconfiguration"
 
 ivsadconfiguration.NewIvsAdConfigurationPostRollConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) IvsAdConfigurationPostRollConfigurationOutputReference
 ```
@@ -1926,7 +1926,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ivsAdConfiguration.IvsAdConfigurationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivsadconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivsadconfiguration"
 
 ivsadconfiguration.NewIvsAdConfigurationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IvsAdConfigurationTagsList
 ```
@@ -2086,7 +2086,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ivsAdConfiguration.IvsAdConfigurationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivsadconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivsadconfiguration"
 
 ivsadconfiguration.NewIvsAdConfigurationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) IvsAdConfigurationTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccMedialiveEventBridgeRuleTemplate <a name="DataAwsccMedialiveEventBridgeRuleTemplate" id="@cdktn/provider-awscc.dataAwsccMedialiveEventBridgeRuleTemplate.DataAwsccMedialiveEventBridgeRuleTemplate"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/medialive_event_bridge_rule_template awscc_medialive_event_bridge_rule_template}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/medialive_event_bridge_rule_template awscc_medialive_event_bridge_rule_template}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMedialiveEventBridgeRuleTemplate.DataAwsccMedialiveEventBridgeRuleTemplate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmedialiveeventbridgeruletemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmedialiveeventbridgeruletemplate"
 
 dataawsccmedialiveeventbridgeruletemplate.NewDataAwsccMedialiveEventBridgeRuleTemplate(scope Construct, id *string, config DataAwsccMedialiveEventBridgeRuleTemplateConfig) DataAwsccMedialiveEventBridgeRuleTemplate
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccMedialiveEventBridgeRuleTemplate.DataAwsccMedialiveEventBridgeRuleTemplate.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmedialiveeventbridgeruletemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmedialiveeventbridgeruletemplate"
 
 dataawsccmedialiveeventbridgeruletemplate.DataAwsccMedialiveEventBridgeRuleTemplate_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccMedialiveEventBridgeRuleTemplate.DataAwsccMedialiveEventBridgeRuleTemplate.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmedialiveeventbridgeruletemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmedialiveeventbridgeruletemplate"
 
 dataawsccmedialiveeventbridgeruletemplate.DataAwsccMedialiveEventBridgeRuleTemplate_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccmedialiveeventbridgeruletemplate.DataAwsccMedialiveEventBridgeRuleTempl
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccMedialiveEventBridgeRuleTemplate.DataAwsccMedialiveEventBridgeRuleTemplate.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmedialiveeventbridgeruletemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmedialiveeventbridgeruletemplate"
 
 dataawsccmedialiveeventbridgeruletemplate.DataAwsccMedialiveEventBridgeRuleTemplate_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccmedialiveeventbridgeruletemplate.DataAwsccMedialiveEventBridgeRuleTempl
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccMedialiveEventBridgeRuleTemplate.DataAwsccMedialiveEventBridgeRuleTemplate.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmedialiveeventbridgeruletemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmedialiveeventbridgeruletemplate"
 
 dataawsccmedialiveeventbridgeruletemplate.DataAwsccMedialiveEventBridgeRuleTemplate_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccMedialiveEventBri
 
 The id of the existing DataAwsccMedialiveEventBridgeRuleTemplate that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/medialive_event_bridge_rule_template#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/medialive_event_bridge_rule_template#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -719,7 +719,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMedialiveEventBridgeRuleTemplate.DataAwsccMedialiveEventBridgeRuleTemplateConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmedialiveeventbridgeruletemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmedialiveeventbridgeruletemplate"
 
 &dataawsccmedialiveeventbridgeruletemplate.DataAwsccMedialiveEventBridgeRuleTemplateConfig {
 	Connection: interface{},
@@ -828,7 +828,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/medialive_event_bridge_rule_template#id DataAwsccMedialiveEventBridgeRuleTemplate#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/medialive_event_bridge_rule_template#id DataAwsccMedialiveEventBridgeRuleTemplate#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -840,7 +840,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMedialiveEventBridgeRuleTemplate.DataAwsccMedialiveEventBridgeRuleTemplateEventTargets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmedialiveeventbridgeruletemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmedialiveeventbridgeruletemplate"
 
 &dataawsccmedialiveeventbridgeruletemplate.DataAwsccMedialiveEventBridgeRuleTemplateEventTargets {
 
@@ -855,7 +855,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmedialiveeven
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMedialiveEventBridgeRuleTemplate.DataAwsccMedialiveEventBridgeRuleTemplateEventTargetsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmedialiveeventbridgeruletemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmedialiveeventbridgeruletemplate"
 
 dataawsccmedialiveeventbridgeruletemplate.NewDataAwsccMedialiveEventBridgeRuleTemplateEventTargetsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccMedialiveEventBridgeRuleTemplateEventTargetsList
 ```
@@ -1004,7 +1004,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMedialiveEventBridgeRuleTemplate.DataAwsccMedialiveEventBridgeRuleTemplateEventTargetsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmedialiveeventbridgeruletemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmedialiveeventbridgeruletemplate"
 
 dataawsccmedialiveeventbridgeruletemplate.NewDataAwsccMedialiveEventBridgeRuleTemplateEventTargetsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccMedialiveEventBridgeRuleTemplateEventTargetsOutputReference
 ```

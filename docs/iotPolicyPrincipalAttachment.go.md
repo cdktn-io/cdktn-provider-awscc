@@ -4,12 +4,12 @@
 
 ### IotPolicyPrincipalAttachment <a name="IotPolicyPrincipalAttachment" id="@cdktn/provider-awscc.iotPolicyPrincipalAttachment.IotPolicyPrincipalAttachment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_policy_principal_attachment awscc_iot_policy_principal_attachment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_policy_principal_attachment awscc_iot_policy_principal_attachment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotPolicyPrincipalAttachment.IotPolicyPrincipalAttachment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotpolicyprincipalattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotpolicyprincipalattachment"
 
 iotpolicyprincipalattachment.NewIotPolicyPrincipalAttachment(scope Construct, id *string, config IotPolicyPrincipalAttachmentConfig) IotPolicyPrincipalAttachment
 ```
@@ -400,7 +400,7 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.iotPolicyPrincipalAttachment.IotPolicyPrincipalAttachment.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotpolicyprincipalattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotpolicyprincipalattachment"
 
 iotpolicyprincipalattachment.IotPolicyPrincipalAttachment_IsConstruct(x interface{}) *bool
 ```
@@ -432,7 +432,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.iotPolicyPrincipalAttachment.IotPolicyPrincipalAttachment.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotpolicyprincipalattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotpolicyprincipalattachment"
 
 iotpolicyprincipalattachment.IotPolicyPrincipalAttachment_IsTerraformElement(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ iotpolicyprincipalattachment.IotPolicyPrincipalAttachment_IsTerraformElement(x i
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.iotPolicyPrincipalAttachment.IotPolicyPrincipalAttachment.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotpolicyprincipalattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotpolicyprincipalattachment"
 
 iotpolicyprincipalattachment.IotPolicyPrincipalAttachment_IsTerraformResource(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ iotpolicyprincipalattachment.IotPolicyPrincipalAttachment_IsTerraformResource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.iotPolicyPrincipalAttachment.IotPolicyPrincipalAttachment.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotpolicyprincipalattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotpolicyprincipalattachment"
 
 iotpolicyprincipalattachment.IotPolicyPrincipalAttachment_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -489,7 +489,7 @@ The construct id used in the generated config for the IotPolicyPrincipalAttachme
 
 The id of the existing IotPolicyPrincipalAttachment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_policy_principal_attachment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_policy_principal_attachment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -744,7 +744,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotPolicyPrincipalAttachment.IotPolicyPrincipalAttachmentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotpolicyprincipalattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotpolicyprincipalattachment"
 
 &iotpolicyprincipalattachment.IotPolicyPrincipalAttachmentConfig {
 	Connection: interface{},
@@ -855,7 +855,7 @@ PolicyName *string
 
 The name of the AWS IoT policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_policy_principal_attachment#policy_name IotPolicyPrincipalAttachment#policy_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_policy_principal_attachment#policy_name IotPolicyPrincipalAttachment#policy_name}
 
 ---
 
@@ -869,7 +869,7 @@ Principal *string
 
 The principal, which can be a certificate ARN (as returned from the CreateCertificate operation) or an Amazon Cognito ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_policy_principal_attachment#principal IotPolicyPrincipalAttachment#principal}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_policy_principal_attachment#principal IotPolicyPrincipalAttachment#principal}
 
 ---
 

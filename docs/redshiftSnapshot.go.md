@@ -4,12 +4,12 @@
 
 ### RedshiftSnapshot <a name="RedshiftSnapshot" id="@cdktn/provider-awscc.redshiftSnapshot.RedshiftSnapshot"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_snapshot awscc_redshift_snapshot}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_snapshot awscc_redshift_snapshot}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.redshiftSnapshot.RedshiftSnapshot.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftsnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftsnapshot"
 
 redshiftsnapshot.NewRedshiftSnapshot(scope Construct, id *string, config RedshiftSnapshotConfig) RedshiftSnapshot
 ```
@@ -427,7 +427,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.redshiftSnapshot.RedshiftSnapshot.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftsnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftsnapshot"
 
 redshiftsnapshot.RedshiftSnapshot_IsConstruct(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.redshiftSnapshot.RedshiftSnapshot.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftsnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftsnapshot"
 
 redshiftsnapshot.RedshiftSnapshot_IsTerraformElement(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ redshiftsnapshot.RedshiftSnapshot_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.redshiftSnapshot.RedshiftSnapshot.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftsnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftsnapshot"
 
 redshiftsnapshot.RedshiftSnapshot_IsTerraformResource(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ redshiftsnapshot.RedshiftSnapshot_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.redshiftSnapshot.RedshiftSnapshot.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftsnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftsnapshot"
 
 redshiftsnapshot.RedshiftSnapshot_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -516,7 +516,7 @@ The construct id used in the generated config for the RedshiftSnapshot to import
 
 The id of the existing RedshiftSnapshot that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_snapshot#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_snapshot#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1035,7 +1035,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.redshiftSnapshot.RedshiftSnapshotConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftsnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftsnapshot"
 
 &redshiftsnapshot.RedshiftSnapshotConfig {
 	Connection: interface{},
@@ -1150,7 +1150,7 @@ ClusterIdentifier *string
 
 The cluster identifier for which you want a snapshot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_snapshot#cluster_identifier RedshiftSnapshot#cluster_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_snapshot#cluster_identifier RedshiftSnapshot#cluster_identifier}
 
 ---
 
@@ -1166,7 +1166,7 @@ A unique identifier for the snapshot that you are requesting.
 
 This identifier must be unique for all snapshots within the Amazon Web Services account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_snapshot#snapshot_identifier RedshiftSnapshot#snapshot_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_snapshot#snapshot_identifier RedshiftSnapshot#snapshot_identifier}
 
 ---
 
@@ -1182,7 +1182,7 @@ The number of days that a manual snapshot is retained.
 
 If the value is -1, the manual snapshot is retained indefinitely. The value must be either -1 or an integer between 1 and 3653.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_snapshot#manual_snapshot_retention_period RedshiftSnapshot#manual_snapshot_retention_period}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_snapshot#manual_snapshot_retention_period RedshiftSnapshot#manual_snapshot_retention_period}
 
 ---
 
@@ -1196,7 +1196,7 @@ Tags interface{}
 
 A list of tag instances.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_snapshot#tags RedshiftSnapshot#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_snapshot#tags RedshiftSnapshot#tags}
 
 ---
 
@@ -1205,7 +1205,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.redshiftSnapshot.RedshiftSnapshotTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftsnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftsnapshot"
 
 &redshiftsnapshot.RedshiftSnapshotTags {
 	Key: *string,
@@ -1232,7 +1232,7 @@ Key *string
 
 The key, or name, for the resource tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_snapshot#key RedshiftSnapshot#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_snapshot#key RedshiftSnapshot#key}
 
 ---
 
@@ -1246,7 +1246,7 @@ Value *string
 
 The value for the resource tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_snapshot#value RedshiftSnapshot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_snapshot#value RedshiftSnapshot#value}
 
 ---
 
@@ -1257,7 +1257,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.redshiftSnapshot.RedshiftSnapshotTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftsnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftsnapshot"
 
 redshiftsnapshot.NewRedshiftSnapshotTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) RedshiftSnapshotTagsList
 ```
@@ -1417,7 +1417,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.redshiftSnapshot.RedshiftSnapshotTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftsnapshot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftsnapshot"
 
 redshiftsnapshot.NewRedshiftSnapshotTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) RedshiftSnapshotTagsOutputReference
 ```

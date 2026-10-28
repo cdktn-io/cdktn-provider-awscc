@@ -4,12 +4,12 @@
 
 ### QuicksightAssignment <a name="QuicksightAssignment" id="@cdktn/provider-awscc.quicksightAssignment.QuicksightAssignment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_assignment awscc_quicksight_assignment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_assignment awscc_quicksight_assignment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightAssignment.QuicksightAssignment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightassignment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightassignment"
 
 quicksightassignment.NewQuicksightAssignment(scope Construct, id *string, config QuicksightAssignmentConfig) QuicksightAssignment
 ```
@@ -414,7 +414,7 @@ func ResetPolicyArn()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.quicksightAssignment.QuicksightAssignment.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightassignment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightassignment"
 
 quicksightassignment.QuicksightAssignment_IsConstruct(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.quicksightAssignment.QuicksightAssignment.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightassignment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightassignment"
 
 quicksightassignment.QuicksightAssignment_IsTerraformElement(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ quicksightassignment.QuicksightAssignment_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.quicksightAssignment.QuicksightAssignment.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightassignment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightassignment"
 
 quicksightassignment.QuicksightAssignment_IsTerraformResource(x interface{}) *bool
 ```
@@ -474,7 +474,7 @@ quicksightassignment.QuicksightAssignment_IsTerraformResource(x interface{}) *bo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.quicksightAssignment.QuicksightAssignment.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightassignment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightassignment"
 
 quicksightassignment.QuicksightAssignment_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -503,7 +503,7 @@ The construct id used in the generated config for the QuicksightAssignment to im
 
 The id of the existing QuicksightAssignment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_assignment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_assignment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -846,7 +846,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.quicksightAssignment.QuicksightAssignmentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightassignment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightassignment"
 
 &quicksightassignment.QuicksightAssignmentConfig {
 	Connection: interface{},
@@ -963,7 +963,7 @@ AssignmentName *string
 
 The name of the assignment, also called a rule. The name must be unique within the AWS account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_assignment#assignment_name QuicksightAssignment#assignment_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_assignment#assignment_name QuicksightAssignment#assignment_name}
 
 ---
 
@@ -977,7 +977,7 @@ AssignmentStatus *string
 
 The status of the assignment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_assignment#assignment_status QuicksightAssignment#assignment_status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_assignment#assignment_status QuicksightAssignment#assignment_status}
 
 ---
 
@@ -991,7 +991,7 @@ Namespace *string
 
 The namespace that contains the assignment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_assignment#namespace QuicksightAssignment#namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_assignment#namespace QuicksightAssignment#namespace}
 
 ---
 
@@ -1007,7 +1007,7 @@ The QuickSight users, groups, or both that you want to assign the policy to.
 
 This maps identity type to a list of identity names.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_assignment#identities QuicksightAssignment#identities}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_assignment#identities QuicksightAssignment#identities}
 
 ---
 
@@ -1021,7 +1021,7 @@ PolicyArn *string
 
 The ARN for the IAM policy to apply to the QuickSight users and groups specified in this assignment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_assignment#policy_arn QuicksightAssignment#policy_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_assignment#policy_arn QuicksightAssignment#policy_arn}
 
 ---
 

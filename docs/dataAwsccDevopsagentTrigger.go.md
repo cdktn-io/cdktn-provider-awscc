@@ -4,12 +4,12 @@
 
 ### DataAwsccDevopsagentTrigger <a name="DataAwsccDevopsagentTrigger" id="@cdktn/provider-awscc.dataAwsccDevopsagentTrigger.DataAwsccDevopsagentTrigger"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/devopsagent_trigger awscc_devopsagent_trigger}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/devopsagent_trigger awscc_devopsagent_trigger}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDevopsagentTrigger.DataAwsccDevopsagentTrigger.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagenttrigger"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagenttrigger"
 
 dataawsccdevopsagenttrigger.NewDataAwsccDevopsagentTrigger(scope Construct, id *string, config DataAwsccDevopsagentTriggerConfig) DataAwsccDevopsagentTrigger
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccDevopsagentTrigger.DataAwsccDevopsagentTrigger.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagenttrigger"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagenttrigger"
 
 dataawsccdevopsagenttrigger.DataAwsccDevopsagentTrigger_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccDevopsagentTrigger.DataAwsccDevopsagentTrigger.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagenttrigger"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagenttrigger"
 
 dataawsccdevopsagenttrigger.DataAwsccDevopsagentTrigger_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccdevopsagenttrigger.DataAwsccDevopsagentTrigger_IsTerraformElement(x int
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccDevopsagentTrigger.DataAwsccDevopsagentTrigger.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagenttrigger"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagenttrigger"
 
 dataawsccdevopsagenttrigger.DataAwsccDevopsagentTrigger_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccdevopsagenttrigger.DataAwsccDevopsagentTrigger_IsTerraformDataSource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccDevopsagentTrigger.DataAwsccDevopsagentTrigger.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagenttrigger"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagenttrigger"
 
 dataawsccdevopsagenttrigger.DataAwsccDevopsagentTrigger_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDevopsagentTrigge
 
 The id of the existing DataAwsccDevopsagentTrigger that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/devopsagent_trigger#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/devopsagent_trigger#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -686,7 +686,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDevopsagentTrigger.DataAwsccDevopsagentTriggerCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagenttrigger"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagenttrigger"
 
 &dataawsccdevopsagenttrigger.DataAwsccDevopsagentTriggerCondition {
 
@@ -699,7 +699,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagenttr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDevopsagentTrigger.DataAwsccDevopsagentTriggerConditionSchedule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagenttrigger"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagenttrigger"
 
 &dataawsccdevopsagenttrigger.DataAwsccDevopsagentTriggerConditionSchedule {
 
@@ -712,7 +712,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagenttr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDevopsagentTrigger.DataAwsccDevopsagentTriggerConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagenttrigger"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagenttrigger"
 
 &dataawsccdevopsagenttrigger.DataAwsccDevopsagentTriggerConfig {
 	Connection: interface{},
@@ -821,7 +821,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/devopsagent_trigger#id DataAwsccDevopsagentTrigger#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/devopsagent_trigger#id DataAwsccDevopsagentTrigger#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -835,7 +835,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDevopsagentTrigger.DataAwsccDevopsagentTriggerConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagenttrigger"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagenttrigger"
 
 dataawsccdevopsagenttrigger.NewDataAwsccDevopsagentTriggerConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDevopsagentTriggerConditionOutputReference
 ```
@@ -1095,7 +1095,7 @@ func InternalValue() DataAwsccDevopsagentTriggerCondition
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDevopsagentTrigger.DataAwsccDevopsagentTriggerConditionScheduleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdevopsagenttrigger"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdevopsagenttrigger"
 
 dataawsccdevopsagenttrigger.NewDataAwsccDevopsagentTriggerConditionScheduleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccDevopsagentTriggerConditionScheduleOutputReference
 ```

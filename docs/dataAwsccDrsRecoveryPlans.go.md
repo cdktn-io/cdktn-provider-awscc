@@ -4,12 +4,12 @@
 
 ### DataAwsccDrsRecoveryPlans <a name="DataAwsccDrsRecoveryPlans" id="@cdktn/provider-awscc.dataAwsccDrsRecoveryPlans.DataAwsccDrsRecoveryPlans"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/drs_recovery_plans awscc_drs_recovery_plans}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/drs_recovery_plans awscc_drs_recovery_plans}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDrsRecoveryPlans.DataAwsccDrsRecoveryPlans.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdrsrecoveryplans"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdrsrecoveryplans"
 
 dataawsccdrsrecoveryplans.NewDataAwsccDrsRecoveryPlans(scope Construct, id *string, config DataAwsccDrsRecoveryPlansConfig) DataAwsccDrsRecoveryPlans
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccDrsRecoveryPlans.DataAwsccDrsRecoveryPlans.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdrsrecoveryplans"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdrsrecoveryplans"
 
 dataawsccdrsrecoveryplans.DataAwsccDrsRecoveryPlans_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccDrsRecoveryPlans.DataAwsccDrsRecoveryPlans.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdrsrecoveryplans"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdrsrecoveryplans"
 
 dataawsccdrsrecoveryplans.DataAwsccDrsRecoveryPlans_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccdrsrecoveryplans.DataAwsccDrsRecoveryPlans_IsTerraformElement(x interfa
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccDrsRecoveryPlans.DataAwsccDrsRecoveryPlans.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdrsrecoveryplans"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdrsrecoveryplans"
 
 dataawsccdrsrecoveryplans.DataAwsccDrsRecoveryPlans_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccdrsrecoveryplans.DataAwsccDrsRecoveryPlans_IsTerraformDataSource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccDrsRecoveryPlans.DataAwsccDrsRecoveryPlans.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdrsrecoveryplans"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdrsrecoveryplans"
 
 dataawsccdrsrecoveryplans.DataAwsccDrsRecoveryPlans_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDrsRecoveryPlans 
 
 The id of the existing DataAwsccDrsRecoveryPlans that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/drs_recovery_plans#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/drs_recovery_plans#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDrsRecoveryPlans.DataAwsccDrsRecoveryPlansConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdrsrecoveryplans"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdrsrecoveryplans"
 
 &dataawsccdrsrecoveryplans.DataAwsccDrsRecoveryPlansConfig {
 	Connection: interface{},

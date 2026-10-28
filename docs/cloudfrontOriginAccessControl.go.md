@@ -4,12 +4,12 @@
 
 ### CloudfrontOriginAccessControl <a name="CloudfrontOriginAccessControl" id="@cdktn/provider-awscc.cloudfrontOriginAccessControl.CloudfrontOriginAccessControl"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_origin_access_control awscc_cloudfront_origin_access_control}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_origin_access_control awscc_cloudfront_origin_access_control}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudfrontOriginAccessControl.CloudfrontOriginAccessControl.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontoriginaccesscontrol"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontoriginaccesscontrol"
 
 cloudfrontoriginaccesscontrol.NewCloudfrontOriginAccessControl(scope Construct, id *string, config CloudfrontOriginAccessControlConfig) CloudfrontOriginAccessControl
 ```
@@ -413,7 +413,7 @@ func PutOriginAccessControlConfig(value CloudfrontOriginAccessControlOriginAcces
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.cloudfrontOriginAccessControl.CloudfrontOriginAccessControl.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontoriginaccesscontrol"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontoriginaccesscontrol"
 
 cloudfrontoriginaccesscontrol.CloudfrontOriginAccessControl_IsConstruct(x interface{}) *bool
 ```
@@ -445,7 +445,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.cloudfrontOriginAccessControl.CloudfrontOriginAccessControl.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontoriginaccesscontrol"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontoriginaccesscontrol"
 
 cloudfrontoriginaccesscontrol.CloudfrontOriginAccessControl_IsTerraformElement(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ cloudfrontoriginaccesscontrol.CloudfrontOriginAccessControl_IsTerraformElement(x
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.cloudfrontOriginAccessControl.CloudfrontOriginAccessControl.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontoriginaccesscontrol"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontoriginaccesscontrol"
 
 cloudfrontoriginaccesscontrol.CloudfrontOriginAccessControl_IsTerraformResource(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ cloudfrontoriginaccesscontrol.CloudfrontOriginAccessControl_IsTerraformResource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.cloudfrontOriginAccessControl.CloudfrontOriginAccessControl.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontoriginaccesscontrol"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontoriginaccesscontrol"
 
 cloudfrontoriginaccesscontrol.CloudfrontOriginAccessControl_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -502,7 +502,7 @@ The construct id used in the generated config for the CloudfrontOriginAccessCont
 
 The id of the existing CloudfrontOriginAccessControl that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_origin_access_control#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_origin_access_control#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -746,7 +746,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudfrontOriginAccessControl.CloudfrontOriginAccessControlConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontoriginaccesscontrol"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontoriginaccesscontrol"
 
 &cloudfrontoriginaccesscontrol.CloudfrontOriginAccessControlConfig {
 	Connection: interface{},
@@ -756,7 +756,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontoriginaccess
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	OriginAccessControlConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.cloudfrontOriginAccessControl.CloudfrontOriginAccessControlOriginAccessControlConfig,
+	OriginAccessControlConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.cloudfrontOriginAccessControl.CloudfrontOriginAccessControlOriginAccessControlConfig,
 }
 ```
 
@@ -855,7 +855,7 @@ OriginAccessControlConfig CloudfrontOriginAccessControlOriginAccessControlConfig
 
 The origin access control.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_origin_access_control#origin_access_control_config CloudfrontOriginAccessControl#origin_access_control_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_origin_access_control#origin_access_control_config CloudfrontOriginAccessControl#origin_access_control_config}
 
 ---
 
@@ -864,7 +864,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudfrontOriginAccessControl.CloudfrontOriginAccessControlOriginAccessControlConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontoriginaccesscontrol"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontoriginaccesscontrol"
 
 &cloudfrontoriginaccesscontrol.CloudfrontOriginAccessControlOriginAccessControlConfig {
 	Name: *string,
@@ -897,7 +897,7 @@ Name *string
 
 A name to identify the origin access control. You can specify up to 64 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_origin_access_control#name CloudfrontOriginAccessControl#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_origin_access_control#name CloudfrontOriginAccessControl#name}
 
 ---
 
@@ -911,7 +911,7 @@ OriginAccessControlOriginType *string
 
 The type of origin that this origin access control is for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_origin_access_control#origin_access_control_origin_type CloudfrontOriginAccessControl#origin_access_control_origin_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_origin_access_control#origin_access_control_origin_type CloudfrontOriginAccessControl#origin_access_control_origin_type}
 
 ---
 
@@ -932,7 +932,7 @@ This field can have one of the following values:
 * `never` ? CloudFront doesn't sign any origin requests. This value turns off origin access control for all origins in all distributions that use this origin access control.
 * `no-override` ? If the viewer request doesn't contain the `Authorization` header, then CloudFront signs the origin request. If the viewer request contains the `Authorization` header, then CloudFront doesn't sign the origin request and instead passes along the `Authorization` header from the viewer request. *WARNING: To pass along the Authorization header from the viewer request, you must add the Authorization header to a cache policy for all cache behaviors that use origins associated with this origin access control.*
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_origin_access_control#signing_behavior CloudfrontOriginAccessControl#signing_behavior}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_origin_access_control#signing_behavior CloudfrontOriginAccessControl#signing_behavior}
 
 ---
 
@@ -948,7 +948,7 @@ The signing protocol of the origin access control, which determines how CloudFro
 
 The only valid value is `sigv4`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_origin_access_control#signing_protocol CloudfrontOriginAccessControl#signing_protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_origin_access_control#signing_protocol CloudfrontOriginAccessControl#signing_protocol}
 
 ---
 
@@ -962,7 +962,7 @@ Description *string
 
 A description of the origin access control.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_origin_access_control#description CloudfrontOriginAccessControl#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_origin_access_control#description CloudfrontOriginAccessControl#description}
 
 ---
 
@@ -973,7 +973,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudfrontOriginAccessControl.CloudfrontOriginAccessControlOriginAccessControlConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontoriginaccesscontrol"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontoriginaccesscontrol"
 
 cloudfrontoriginaccesscontrol.NewCloudfrontOriginAccessControlOriginAccessControlConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CloudfrontOriginAccessControlOriginAccessControlConfigOutputReference
 ```

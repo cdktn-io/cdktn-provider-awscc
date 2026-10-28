@@ -4,12 +4,12 @@
 
 ### DataAwsccIvsStreamKey <a name="DataAwsccIvsStreamKey" id="@cdktn/provider-awscc.dataAwsccIvsStreamKey.DataAwsccIvsStreamKey"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ivs_stream_key awscc_ivs_stream_key}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ivs_stream_key awscc_ivs_stream_key}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIvsStreamKey.DataAwsccIvsStreamKey.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsstreamkey"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsstreamkey"
 
 dataawsccivsstreamkey.NewDataAwsccIvsStreamKey(scope Construct, id *string, config DataAwsccIvsStreamKeyConfig) DataAwsccIvsStreamKey
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIvsStreamKey.DataAwsccIvsStreamKey.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsstreamkey"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsstreamkey"
 
 dataawsccivsstreamkey.DataAwsccIvsStreamKey_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIvsStreamKey.DataAwsccIvsStreamKey.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsstreamkey"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsstreamkey"
 
 dataawsccivsstreamkey.DataAwsccIvsStreamKey_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccivsstreamkey.DataAwsccIvsStreamKey_IsTerraformElement(x interface{}) *b
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIvsStreamKey.DataAwsccIvsStreamKey.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsstreamkey"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsstreamkey"
 
 dataawsccivsstreamkey.DataAwsccIvsStreamKey_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccivsstreamkey.DataAwsccIvsStreamKey_IsTerraformDataSource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIvsStreamKey.DataAwsccIvsStreamKey.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsstreamkey"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsstreamkey"
 
 dataawsccivsstreamkey.DataAwsccIvsStreamKey_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIvsStreamKey to i
 
 The id of the existing DataAwsccIvsStreamKey that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ivs_stream_key#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ivs_stream_key#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -631,7 +631,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIvsStreamKey.DataAwsccIvsStreamKeyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsstreamkey"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsstreamkey"
 
 &dataawsccivsstreamkey.DataAwsccIvsStreamKeyConfig {
 	Connection: interface{},
@@ -740,7 +740,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ivs_stream_key#id DataAwsccIvsStreamKey#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ivs_stream_key#id DataAwsccIvsStreamKey#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -752,7 +752,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIvsStreamKey.DataAwsccIvsStreamKeyTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsstreamkey"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsstreamkey"
 
 &dataawsccivsstreamkey.DataAwsccIvsStreamKeyTags {
 
@@ -767,7 +767,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsstreamkey"
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIvsStreamKey.DataAwsccIvsStreamKeyTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsstreamkey"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsstreamkey"
 
 dataawsccivsstreamkey.NewDataAwsccIvsStreamKeyTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIvsStreamKeyTagsList
 ```
@@ -916,7 +916,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIvsStreamKey.DataAwsccIvsStreamKeyTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsstreamkey"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsstreamkey"
 
 dataawsccivsstreamkey.NewDataAwsccIvsStreamKeyTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIvsStreamKeyTagsOutputReference
 ```

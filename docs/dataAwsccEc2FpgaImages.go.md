@@ -4,12 +4,12 @@
 
 ### DataAwsccEc2FpgaImages <a name="DataAwsccEc2FpgaImages" id="@cdktn/provider-awscc.dataAwsccEc2FpgaImages.DataAwsccEc2FpgaImages"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_fpga_images awscc_ec2_fpga_images}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_fpga_images awscc_ec2_fpga_images}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2FpgaImages.DataAwsccEc2FpgaImages.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2fpgaimages"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2fpgaimages"
 
 dataawsccec2fpgaimages.NewDataAwsccEc2FpgaImages(scope Construct, id *string, config DataAwsccEc2FpgaImagesConfig) DataAwsccEc2FpgaImages
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEc2FpgaImages.DataAwsccEc2FpgaImages.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2fpgaimages"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2fpgaimages"
 
 dataawsccec2fpgaimages.DataAwsccEc2FpgaImages_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEc2FpgaImages.DataAwsccEc2FpgaImages.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2fpgaimages"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2fpgaimages"
 
 dataawsccec2fpgaimages.DataAwsccEc2FpgaImages_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccec2fpgaimages.DataAwsccEc2FpgaImages_IsTerraformElement(x interface{}) 
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEc2FpgaImages.DataAwsccEc2FpgaImages.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2fpgaimages"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2fpgaimages"
 
 dataawsccec2fpgaimages.DataAwsccEc2FpgaImages_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccec2fpgaimages.DataAwsccEc2FpgaImages_IsTerraformDataSource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEc2FpgaImages.DataAwsccEc2FpgaImages.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2fpgaimages"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2fpgaimages"
 
 dataawsccec2fpgaimages.DataAwsccEc2FpgaImages_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2FpgaImages to 
 
 The id of the existing DataAwsccEc2FpgaImages that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_fpga_images#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_fpga_images#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2FpgaImages.DataAwsccEc2FpgaImagesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2fpgaimages"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2fpgaimages"
 
 &dataawsccec2fpgaimages.DataAwsccEc2FpgaImagesConfig {
 	Connection: interface{},

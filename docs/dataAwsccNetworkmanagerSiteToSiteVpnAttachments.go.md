@@ -4,12 +4,12 @@
 
 ### DataAwsccNetworkmanagerSiteToSiteVpnAttachments <a name="DataAwsccNetworkmanagerSiteToSiteVpnAttachments" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerSiteToSiteVpnAttachments.DataAwsccNetworkmanagerSiteToSiteVpnAttachments"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/networkmanager_site_to_site_vpn_attachments awscc_networkmanager_site_to_site_vpn_attachments}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/networkmanager_site_to_site_vpn_attachments awscc_networkmanager_site_to_site_vpn_attachments}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerSiteToSiteVpnAttachments.DataAwsccNetworkmanagerSiteToSiteVpnAttachments.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagersitetositevpnattachments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagersitetositevpnattachments"
 
 dataawsccnetworkmanagersitetositevpnattachments.NewDataAwsccNetworkmanagerSiteToSiteVpnAttachments(scope Construct, id *string, config DataAwsccNetworkmanagerSiteToSiteVpnAttachmentsConfig) DataAwsccNetworkmanagerSiteToSiteVpnAttachments
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerSiteToSiteVpnAttachments.DataAwsccNetworkmanagerSiteToSiteVpnAttachments.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagersitetositevpnattachments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagersitetositevpnattachments"
 
 dataawsccnetworkmanagersitetositevpnattachments.DataAwsccNetworkmanagerSiteToSiteVpnAttachments_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerSiteToSiteVpnAttachments.DataAwsccNetworkmanagerSiteToSiteVpnAttachments.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagersitetositevpnattachments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagersitetositevpnattachments"
 
 dataawsccnetworkmanagersitetositevpnattachments.DataAwsccNetworkmanagerSiteToSiteVpnAttachments_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccnetworkmanagersitetositevpnattachments.DataAwsccNetworkmanagerSiteToSit
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerSiteToSiteVpnAttachments.DataAwsccNetworkmanagerSiteToSiteVpnAttachments.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagersitetositevpnattachments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagersitetositevpnattachments"
 
 dataawsccnetworkmanagersitetositevpnattachments.DataAwsccNetworkmanagerSiteToSiteVpnAttachments_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccnetworkmanagersitetositevpnattachments.DataAwsccNetworkmanagerSiteToSit
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerSiteToSiteVpnAttachments.DataAwsccNetworkmanagerSiteToSiteVpnAttachments.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagersitetositevpnattachments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagersitetositevpnattachments"
 
 dataawsccnetworkmanagersitetositevpnattachments.DataAwsccNetworkmanagerSiteToSiteVpnAttachments_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccNetworkmanagerSit
 
 The id of the existing DataAwsccNetworkmanagerSiteToSiteVpnAttachments that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/networkmanager_site_to_site_vpn_attachments#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/networkmanager_site_to_site_vpn_attachments#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerSiteToSiteVpnAttachments.DataAwsccNetworkmanagerSiteToSiteVpnAttachmentsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagersitetositevpnattachments"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagersitetositevpnattachments"
 
 &dataawsccnetworkmanagersitetositevpnattachments.DataAwsccNetworkmanagerSiteToSiteVpnAttachmentsConfig {
 	Connection: interface{},

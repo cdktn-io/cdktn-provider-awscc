@@ -4,12 +4,12 @@
 
 ### GlueSchemaVersionMetadata <a name="GlueSchemaVersionMetadata" id="@cdktn/provider-awscc.glueSchemaVersionMetadata.GlueSchemaVersionMetadata"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_schema_version_metadata awscc_glue_schema_version_metadata}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_schema_version_metadata awscc_glue_schema_version_metadata}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueSchemaVersionMetadata.GlueSchemaVersionMetadata.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueschemaversionmetadata"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueschemaversionmetadata"
 
 glueschemaversionmetadata.NewGlueSchemaVersionMetadata(scope Construct, id *string, config GlueSchemaVersionMetadataConfig) GlueSchemaVersionMetadata
 ```
@@ -400,7 +400,7 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.glueSchemaVersionMetadata.GlueSchemaVersionMetadata.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueschemaversionmetadata"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueschemaversionmetadata"
 
 glueschemaversionmetadata.GlueSchemaVersionMetadata_IsConstruct(x interface{}) *bool
 ```
@@ -432,7 +432,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.glueSchemaVersionMetadata.GlueSchemaVersionMetadata.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueschemaversionmetadata"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueschemaversionmetadata"
 
 glueschemaversionmetadata.GlueSchemaVersionMetadata_IsTerraformElement(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ glueschemaversionmetadata.GlueSchemaVersionMetadata_IsTerraformElement(x interfa
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.glueSchemaVersionMetadata.GlueSchemaVersionMetadata.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueschemaversionmetadata"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueschemaversionmetadata"
 
 glueschemaversionmetadata.GlueSchemaVersionMetadata_IsTerraformResource(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ glueschemaversionmetadata.GlueSchemaVersionMetadata_IsTerraformResource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.glueSchemaVersionMetadata.GlueSchemaVersionMetadata.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueschemaversionmetadata"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueschemaversionmetadata"
 
 glueschemaversionmetadata.GlueSchemaVersionMetadata_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -489,7 +489,7 @@ The construct id used in the generated config for the GlueSchemaVersionMetadata 
 
 The id of the existing GlueSchemaVersionMetadata that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_schema_version_metadata#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_schema_version_metadata#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -766,7 +766,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueSchemaVersionMetadata.GlueSchemaVersionMetadataConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueschemaversionmetadata"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueschemaversionmetadata"
 
 &glueschemaversionmetadata.GlueSchemaVersionMetadataConfig {
 	Connection: interface{},
@@ -879,7 +879,7 @@ Key *string
 
 Metadata key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_schema_version_metadata#key GlueSchemaVersionMetadata#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_schema_version_metadata#key GlueSchemaVersionMetadata#key}
 
 ---
 
@@ -893,7 +893,7 @@ SchemaVersionId *string
 
 Represents the version ID associated with the schema version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_schema_version_metadata#schema_version_id GlueSchemaVersionMetadata#schema_version_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_schema_version_metadata#schema_version_id GlueSchemaVersionMetadata#schema_version_id}
 
 ---
 
@@ -907,7 +907,7 @@ Value *string
 
 Metadata value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_schema_version_metadata#value GlueSchemaVersionMetadata#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_schema_version_metadata#value GlueSchemaVersionMetadata#value}
 
 ---
 

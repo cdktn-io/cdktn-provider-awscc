@@ -4,12 +4,12 @@
 
 ### DataAwsccS3OutpostsBucket <a name="DataAwsccS3OutpostsBucket" id="@cdktn/provider-awscc.dataAwsccS3OutpostsBucket.DataAwsccS3OutpostsBucket"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3outposts_bucket awscc_s3outposts_bucket}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3outposts_bucket awscc_s3outposts_bucket}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3OutpostsBucket.DataAwsccS3OutpostsBucket.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3outpostsbucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3outpostsbucket"
 
 dataawsccs3outpostsbucket.NewDataAwsccS3OutpostsBucket(scope Construct, id *string, config DataAwsccS3OutpostsBucketConfig) DataAwsccS3OutpostsBucket
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccS3OutpostsBucket.DataAwsccS3OutpostsBucket.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3outpostsbucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3outpostsbucket"
 
 dataawsccs3outpostsbucket.DataAwsccS3OutpostsBucket_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccS3OutpostsBucket.DataAwsccS3OutpostsBucket.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3outpostsbucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3outpostsbucket"
 
 dataawsccs3outpostsbucket.DataAwsccS3OutpostsBucket_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccs3outpostsbucket.DataAwsccS3OutpostsBucket_IsTerraformElement(x interfa
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccS3OutpostsBucket.DataAwsccS3OutpostsBucket.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3outpostsbucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3outpostsbucket"
 
 dataawsccs3outpostsbucket.DataAwsccS3OutpostsBucket_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccs3outpostsbucket.DataAwsccS3OutpostsBucket_IsTerraformDataSource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccS3OutpostsBucket.DataAwsccS3OutpostsBucket.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3outpostsbucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3outpostsbucket"
 
 dataawsccs3outpostsbucket.DataAwsccS3OutpostsBucket_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccS3OutpostsBucket 
 
 The id of the existing DataAwsccS3OutpostsBucket that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3outposts_bucket#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3outposts_bucket#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -642,7 +642,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3OutpostsBucket.DataAwsccS3OutpostsBucketConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3outpostsbucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3outpostsbucket"
 
 &dataawsccs3outpostsbucket.DataAwsccS3OutpostsBucketConfig {
 	Connection: interface{},
@@ -751,7 +751,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3outposts_bucket#id DataAwsccS3OutpostsBucket#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3outposts_bucket#id DataAwsccS3OutpostsBucket#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -763,7 +763,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3OutpostsBucket.DataAwsccS3OutpostsBucketLifecycleConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3outpostsbucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3outpostsbucket"
 
 &dataawsccs3outpostsbucket.DataAwsccS3OutpostsBucketLifecycleConfiguration {
 
@@ -776,7 +776,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3outpostsbuc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3OutpostsBucket.DataAwsccS3OutpostsBucketLifecycleConfigurationRules.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3outpostsbucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3outpostsbucket"
 
 &dataawsccs3outpostsbucket.DataAwsccS3OutpostsBucketLifecycleConfigurationRules {
 
@@ -789,7 +789,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3outpostsbuc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3OutpostsBucket.DataAwsccS3OutpostsBucketLifecycleConfigurationRulesAbortIncompleteMultipartUpload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3outpostsbucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3outpostsbucket"
 
 &dataawsccs3outpostsbucket.DataAwsccS3OutpostsBucketLifecycleConfigurationRulesAbortIncompleteMultipartUpload {
 
@@ -802,7 +802,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3outpostsbuc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3OutpostsBucket.DataAwsccS3OutpostsBucketLifecycleConfigurationRulesFilter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3outpostsbucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3outpostsbucket"
 
 &dataawsccs3outpostsbucket.DataAwsccS3OutpostsBucketLifecycleConfigurationRulesFilter {
 
@@ -815,7 +815,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3outpostsbuc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3OutpostsBucket.DataAwsccS3OutpostsBucketLifecycleConfigurationRulesFilterAndOperator.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3outpostsbucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3outpostsbucket"
 
 &dataawsccs3outpostsbucket.DataAwsccS3OutpostsBucketLifecycleConfigurationRulesFilterAndOperator {
 
@@ -828,7 +828,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3outpostsbuc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3OutpostsBucket.DataAwsccS3OutpostsBucketLifecycleConfigurationRulesFilterAndOperatorTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3outpostsbucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3outpostsbucket"
 
 &dataawsccs3outpostsbucket.DataAwsccS3OutpostsBucketLifecycleConfigurationRulesFilterAndOperatorTags {
 
@@ -841,7 +841,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3outpostsbuc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3OutpostsBucket.DataAwsccS3OutpostsBucketLifecycleConfigurationRulesFilterTag.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3outpostsbucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3outpostsbucket"
 
 &dataawsccs3outpostsbucket.DataAwsccS3OutpostsBucketLifecycleConfigurationRulesFilterTag {
 
@@ -854,7 +854,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3outpostsbuc
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3OutpostsBucket.DataAwsccS3OutpostsBucketTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3outpostsbucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3outpostsbucket"
 
 &dataawsccs3outpostsbucket.DataAwsccS3OutpostsBucketTags {
 
@@ -869,7 +869,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3outpostsbuc
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3OutpostsBucket.DataAwsccS3OutpostsBucketLifecycleConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3outpostsbucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3outpostsbucket"
 
 dataawsccs3outpostsbucket.NewDataAwsccS3OutpostsBucketLifecycleConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3OutpostsBucketLifecycleConfigurationOutputReference
 ```
@@ -1129,7 +1129,7 @@ func InternalValue() DataAwsccS3OutpostsBucketLifecycleConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3OutpostsBucket.DataAwsccS3OutpostsBucketLifecycleConfigurationRulesAbortIncompleteMultipartUploadOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3outpostsbucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3outpostsbucket"
 
 dataawsccs3outpostsbucket.NewDataAwsccS3OutpostsBucketLifecycleConfigurationRulesAbortIncompleteMultipartUploadOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3OutpostsBucketLifecycleConfigurationRulesAbortIncompleteMultipartUploadOutputReference
 ```
@@ -1389,7 +1389,7 @@ func InternalValue() DataAwsccS3OutpostsBucketLifecycleConfigurationRulesAbortIn
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3OutpostsBucket.DataAwsccS3OutpostsBucketLifecycleConfigurationRulesFilterAndOperatorOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3outpostsbucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3outpostsbucket"
 
 dataawsccs3outpostsbucket.NewDataAwsccS3OutpostsBucketLifecycleConfigurationRulesFilterAndOperatorOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3OutpostsBucketLifecycleConfigurationRulesFilterAndOperatorOutputReference
 ```
@@ -1660,7 +1660,7 @@ func InternalValue() DataAwsccS3OutpostsBucketLifecycleConfigurationRulesFilterA
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3OutpostsBucket.DataAwsccS3OutpostsBucketLifecycleConfigurationRulesFilterAndOperatorTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3outpostsbucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3outpostsbucket"
 
 dataawsccs3outpostsbucket.NewDataAwsccS3OutpostsBucketLifecycleConfigurationRulesFilterAndOperatorTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccS3OutpostsBucketLifecycleConfigurationRulesFilterAndOperatorTagsList
 ```
@@ -1809,7 +1809,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3OutpostsBucket.DataAwsccS3OutpostsBucketLifecycleConfigurationRulesFilterAndOperatorTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3outpostsbucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3outpostsbucket"
 
 dataawsccs3outpostsbucket.NewDataAwsccS3OutpostsBucketLifecycleConfigurationRulesFilterAndOperatorTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccS3OutpostsBucketLifecycleConfigurationRulesFilterAndOperatorTagsOutputReference
 ```
@@ -2098,7 +2098,7 @@ func InternalValue() DataAwsccS3OutpostsBucketLifecycleConfigurationRulesFilterA
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3OutpostsBucket.DataAwsccS3OutpostsBucketLifecycleConfigurationRulesFilterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3outpostsbucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3outpostsbucket"
 
 dataawsccs3outpostsbucket.NewDataAwsccS3OutpostsBucketLifecycleConfigurationRulesFilterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3OutpostsBucketLifecycleConfigurationRulesFilterOutputReference
 ```
@@ -2380,7 +2380,7 @@ func InternalValue() DataAwsccS3OutpostsBucketLifecycleConfigurationRulesFilter
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3OutpostsBucket.DataAwsccS3OutpostsBucketLifecycleConfigurationRulesFilterTagOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3outpostsbucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3outpostsbucket"
 
 dataawsccs3outpostsbucket.NewDataAwsccS3OutpostsBucketLifecycleConfigurationRulesFilterTagOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3OutpostsBucketLifecycleConfigurationRulesFilterTagOutputReference
 ```
@@ -2651,7 +2651,7 @@ func InternalValue() DataAwsccS3OutpostsBucketLifecycleConfigurationRulesFilterT
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3OutpostsBucket.DataAwsccS3OutpostsBucketLifecycleConfigurationRulesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3outpostsbucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3outpostsbucket"
 
 dataawsccs3outpostsbucket.NewDataAwsccS3OutpostsBucketLifecycleConfigurationRulesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccS3OutpostsBucketLifecycleConfigurationRulesList
 ```
@@ -2800,7 +2800,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3OutpostsBucket.DataAwsccS3OutpostsBucketLifecycleConfigurationRulesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3outpostsbucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3outpostsbucket"
 
 dataawsccs3outpostsbucket.NewDataAwsccS3OutpostsBucketLifecycleConfigurationRulesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccS3OutpostsBucketLifecycleConfigurationRulesOutputReference
 ```
@@ -3133,7 +3133,7 @@ func InternalValue() DataAwsccS3OutpostsBucketLifecycleConfigurationRules
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3OutpostsBucket.DataAwsccS3OutpostsBucketTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3outpostsbucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3outpostsbucket"
 
 dataawsccs3outpostsbucket.NewDataAwsccS3OutpostsBucketTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccS3OutpostsBucketTagsList
 ```
@@ -3282,7 +3282,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3OutpostsBucket.DataAwsccS3OutpostsBucketTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3outpostsbucket"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3outpostsbucket"
 
 dataawsccs3outpostsbucket.NewDataAwsccS3OutpostsBucketTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccS3OutpostsBucketTagsOutputReference
 ```

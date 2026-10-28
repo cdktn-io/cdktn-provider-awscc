@@ -4,12 +4,12 @@
 
 ### MedialiveNode <a name="MedialiveNode" id="@cdktn/provider-awscc.medialiveNode.MedialiveNode"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_node awscc_medialive_node}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_node awscc_medialive_node}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.medialiveNode.MedialiveNode.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivenode"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivenode"
 
 medialivenode.NewMedialiveNode(scope Construct, id *string, config MedialiveNodeConfig) MedialiveNode
 ```
@@ -474,7 +474,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.medialiveNode.MedialiveNode.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivenode"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivenode"
 
 medialivenode.MedialiveNode_IsConstruct(x interface{}) *bool
 ```
@@ -506,7 +506,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.medialiveNode.MedialiveNode.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivenode"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivenode"
 
 medialivenode.MedialiveNode_IsTerraformElement(x interface{}) *bool
 ```
@@ -520,7 +520,7 @@ medialivenode.MedialiveNode_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.medialiveNode.MedialiveNode.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivenode"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivenode"
 
 medialivenode.MedialiveNode_IsTerraformResource(x interface{}) *bool
 ```
@@ -534,7 +534,7 @@ medialivenode.MedialiveNode_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.medialiveNode.MedialiveNode.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivenode"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivenode"
 
 medialivenode.MedialiveNode_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -563,7 +563,7 @@ The construct id used in the generated config for the MedialiveNode to import.
 
 The id of the existing MedialiveNode that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_node#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_node#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -972,7 +972,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.medialiveNode.MedialiveNodeConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivenode"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivenode"
 
 &medialivenode.MedialiveNodeConfig {
 	Connection: interface{},
@@ -1091,7 +1091,7 @@ ClusterId *string
 
 The ID of the Cluster that the Node belongs to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_node#cluster_id MedialiveNode#cluster_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_node#cluster_id MedialiveNode#cluster_id}
 
 ---
 
@@ -1105,7 +1105,7 @@ Name *string
 
 The user-specified name of the Node.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_node#name MedialiveNode#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_node#name MedialiveNode#name}
 
 ---
 
@@ -1119,7 +1119,7 @@ NodeInterfaceMappings interface{}
 
 An array of interface mappings for the Node.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_node#node_interface_mappings MedialiveNode#node_interface_mappings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_node#node_interface_mappings MedialiveNode#node_interface_mappings}
 
 ---
 
@@ -1135,7 +1135,7 @@ The role of the Node in the Cluster.
 
 ACTIVE means the Node is available for encoding. BACKUP means the Node is a redundant Node and might get used if an ACTIVE Node fails.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_node#role MedialiveNode#role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_node#role MedialiveNode#role}
 
 ---
 
@@ -1149,7 +1149,7 @@ SdiSourceMappings interface{}
 
 An array of SDI source mappings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_node#sdi_source_mappings MedialiveNode#sdi_source_mappings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_node#sdi_source_mappings MedialiveNode#sdi_source_mappings}
 
 ---
 
@@ -1163,7 +1163,7 @@ Tags interface{}
 
 A collection of key-value pairs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_node#tags MedialiveNode#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_node#tags MedialiveNode#tags}
 
 ---
 
@@ -1172,7 +1172,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.medialiveNode.MedialiveNodeNodeInterfaceMappings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivenode"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivenode"
 
 &medialivenode.MedialiveNodeNodeInterfaceMappings {
 	LogicalInterfaceName: *string,
@@ -1201,7 +1201,7 @@ LogicalInterfaceName *string
 
 The logical name for this interface.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_node#logical_interface_name MedialiveNode#logical_interface_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_node#logical_interface_name MedialiveNode#logical_interface_name}
 
 ---
 
@@ -1215,7 +1215,7 @@ NetworkInterfaceMode *string
 
 The network interface mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_node#network_interface_mode MedialiveNode#network_interface_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_node#network_interface_mode MedialiveNode#network_interface_mode}
 
 ---
 
@@ -1229,7 +1229,7 @@ PhysicalInterfaceName *string
 
 The physical interface name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_node#physical_interface_name MedialiveNode#physical_interface_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_node#physical_interface_name MedialiveNode#physical_interface_name}
 
 ---
 
@@ -1238,7 +1238,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.medialiveNode.MedialiveNodeSdiSourceMappings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivenode"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivenode"
 
 &medialivenode.MedialiveNodeSdiSourceMappings {
 	CardNumber: *f64,
@@ -1267,7 +1267,7 @@ CardNumber *f64
 
 The card number.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_node#card_number MedialiveNode#card_number}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_node#card_number MedialiveNode#card_number}
 
 ---
 
@@ -1281,7 +1281,7 @@ ChannelNumber *f64
 
 The channel number.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_node#channel_number MedialiveNode#channel_number}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_node#channel_number MedialiveNode#channel_number}
 
 ---
 
@@ -1295,7 +1295,7 @@ SdiSource *string
 
 The SDI source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_node#sdi_source MedialiveNode#sdi_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_node#sdi_source MedialiveNode#sdi_source}
 
 ---
 
@@ -1304,7 +1304,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.medialiveNode.MedialiveNodeTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivenode"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivenode"
 
 &medialivenode.MedialiveNodeTags {
 	Key: *string,
@@ -1331,7 +1331,7 @@ Key *string
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_node#key MedialiveNode#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_node#key MedialiveNode#key}
 
 ---
 
@@ -1345,7 +1345,7 @@ Value *string
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_node#value MedialiveNode#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_node#value MedialiveNode#value}
 
 ---
 
@@ -1356,7 +1356,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.medialiveNode.MedialiveNodeNodeInterfaceMappingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivenode"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivenode"
 
 medialivenode.NewMedialiveNodeNodeInterfaceMappingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MedialiveNodeNodeInterfaceMappingsList
 ```
@@ -1516,7 +1516,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.medialiveNode.MedialiveNodeNodeInterfaceMappingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivenode"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivenode"
 
 medialivenode.NewMedialiveNodeNodeInterfaceMappingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) MedialiveNodeNodeInterfaceMappingsOutputReference
 ```
@@ -1870,7 +1870,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.medialiveNode.MedialiveNodeSdiSourceMappingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivenode"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivenode"
 
 medialivenode.NewMedialiveNodeSdiSourceMappingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MedialiveNodeSdiSourceMappingsList
 ```
@@ -2030,7 +2030,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.medialiveNode.MedialiveNodeSdiSourceMappingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivenode"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivenode"
 
 medialivenode.NewMedialiveNodeSdiSourceMappingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) MedialiveNodeSdiSourceMappingsOutputReference
 ```
@@ -2384,7 +2384,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.medialiveNode.MedialiveNodeTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivenode"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivenode"
 
 medialivenode.NewMedialiveNodeTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MedialiveNodeTagsList
 ```
@@ -2544,7 +2544,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.medialiveNode.MedialiveNodeTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivenode"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivenode"
 
 medialivenode.NewMedialiveNodeTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) MedialiveNodeTagsOutputReference
 ```

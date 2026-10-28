@@ -4,12 +4,12 @@
 
 ### KafkaconnectWorkerConfiguration <a name="KafkaconnectWorkerConfiguration" id="@cdktn/provider-awscc.kafkaconnectWorkerConfiguration.KafkaconnectWorkerConfiguration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_worker_configuration awscc_kafkaconnect_worker_configuration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_worker_configuration awscc_kafkaconnect_worker_configuration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kafkaconnectWorkerConfiguration.KafkaconnectWorkerConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectworkerconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kafkaconnectworkerconfiguration"
 
 kafkaconnectworkerconfiguration.NewKafkaconnectWorkerConfiguration(scope Construct, id *string, config KafkaconnectWorkerConfigurationConfig) KafkaconnectWorkerConfiguration
 ```
@@ -427,7 +427,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.kafkaconnectWorkerConfiguration.KafkaconnectWorkerConfiguration.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectworkerconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kafkaconnectworkerconfiguration"
 
 kafkaconnectworkerconfiguration.KafkaconnectWorkerConfiguration_IsConstruct(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.kafkaconnectWorkerConfiguration.KafkaconnectWorkerConfiguration.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectworkerconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kafkaconnectworkerconfiguration"
 
 kafkaconnectworkerconfiguration.KafkaconnectWorkerConfiguration_IsTerraformElement(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ kafkaconnectworkerconfiguration.KafkaconnectWorkerConfiguration_IsTerraformEleme
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.kafkaconnectWorkerConfiguration.KafkaconnectWorkerConfiguration.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectworkerconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kafkaconnectworkerconfiguration"
 
 kafkaconnectworkerconfiguration.KafkaconnectWorkerConfiguration_IsTerraformResource(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ kafkaconnectworkerconfiguration.KafkaconnectWorkerConfiguration_IsTerraformResou
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.kafkaconnectWorkerConfiguration.KafkaconnectWorkerConfiguration.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectworkerconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kafkaconnectworkerconfiguration"
 
 kafkaconnectworkerconfiguration.KafkaconnectWorkerConfiguration_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -516,7 +516,7 @@ The construct id used in the generated config for the KafkaconnectWorkerConfigur
 
 The id of the existing KafkaconnectWorkerConfiguration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_worker_configuration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_worker_configuration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -837,7 +837,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.kafkaconnectWorkerConfiguration.KafkaconnectWorkerConfigurationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectworkerconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kafkaconnectworkerconfiguration"
 
 &kafkaconnectworkerconfiguration.KafkaconnectWorkerConfigurationConfig {
 	Connection: interface{},
@@ -952,7 +952,7 @@ Name *string
 
 The name of the worker configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_worker_configuration#name KafkaconnectWorkerConfiguration#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_worker_configuration#name KafkaconnectWorkerConfiguration#name}
 
 ---
 
@@ -966,7 +966,7 @@ PropertiesFileContent *string
 
 Base64 encoded contents of connect-distributed.properties file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_worker_configuration#properties_file_content KafkaconnectWorkerConfiguration#properties_file_content}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_worker_configuration#properties_file_content KafkaconnectWorkerConfiguration#properties_file_content}
 
 ---
 
@@ -980,7 +980,7 @@ Description *string
 
 A summary description of the worker configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_worker_configuration#description KafkaconnectWorkerConfiguration#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_worker_configuration#description KafkaconnectWorkerConfiguration#description}
 
 ---
 
@@ -994,7 +994,7 @@ Tags interface{}
 
 A collection of tags associated with a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_worker_configuration#tags KafkaconnectWorkerConfiguration#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_worker_configuration#tags KafkaconnectWorkerConfiguration#tags}
 
 ---
 
@@ -1003,7 +1003,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.kafkaconnectWorkerConfiguration.KafkaconnectWorkerConfigurationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectworkerconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kafkaconnectworkerconfiguration"
 
 &kafkaconnectworkerconfiguration.KafkaconnectWorkerConfigurationTags {
 	Key: *string,
@@ -1015,8 +1015,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectworkerconf
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kafkaconnectWorkerConfiguration.KafkaconnectWorkerConfigurationTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_worker_configuration#key KafkaconnectWorkerConfiguration#key}. |
-| <code><a href="#@cdktn/provider-awscc.kafkaconnectWorkerConfiguration.KafkaconnectWorkerConfigurationTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_worker_configuration#value KafkaconnectWorkerConfiguration#value}. |
+| <code><a href="#@cdktn/provider-awscc.kafkaconnectWorkerConfiguration.KafkaconnectWorkerConfigurationTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_worker_configuration#key KafkaconnectWorkerConfiguration#key}. |
+| <code><a href="#@cdktn/provider-awscc.kafkaconnectWorkerConfiguration.KafkaconnectWorkerConfigurationTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_worker_configuration#value KafkaconnectWorkerConfiguration#value}. |
 
 ---
 
@@ -1028,7 +1028,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_worker_configuration#key KafkaconnectWorkerConfiguration#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_worker_configuration#key KafkaconnectWorkerConfiguration#key}.
 
 ---
 
@@ -1040,7 +1040,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_worker_configuration#value KafkaconnectWorkerConfiguration#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_worker_configuration#value KafkaconnectWorkerConfiguration#value}.
 
 ---
 
@@ -1051,7 +1051,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kafkaconnectWorkerConfiguration.KafkaconnectWorkerConfigurationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectworkerconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kafkaconnectworkerconfiguration"
 
 kafkaconnectworkerconfiguration.NewKafkaconnectWorkerConfigurationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) KafkaconnectWorkerConfigurationTagsList
 ```
@@ -1211,7 +1211,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kafkaconnectWorkerConfiguration.KafkaconnectWorkerConfigurationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectworkerconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kafkaconnectworkerconfiguration"
 
 kafkaconnectworkerconfiguration.NewKafkaconnectWorkerConfigurationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) KafkaconnectWorkerConfigurationTagsOutputReference
 ```

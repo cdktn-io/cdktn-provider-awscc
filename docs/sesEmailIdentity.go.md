@@ -4,12 +4,12 @@
 
 ### SesEmailIdentity <a name="SesEmailIdentity" id="@cdktn/provider-awscc.sesEmailIdentity.SesEmailIdentity"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_email_identity awscc_ses_email_identity}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_email_identity awscc_ses_email_identity}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesEmailIdentity.SesEmailIdentity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesemailidentity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesemailidentity"
 
 sesemailidentity.NewSesEmailIdentity(scope Construct, id *string, config SesEmailIdentityConfig) SesEmailIdentity
 ```
@@ -520,7 +520,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.sesEmailIdentity.SesEmailIdentity.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesemailidentity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesemailidentity"
 
 sesemailidentity.SesEmailIdentity_IsConstruct(x interface{}) *bool
 ```
@@ -552,7 +552,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.sesEmailIdentity.SesEmailIdentity.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesemailidentity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesemailidentity"
 
 sesemailidentity.SesEmailIdentity_IsTerraformElement(x interface{}) *bool
 ```
@@ -566,7 +566,7 @@ sesemailidentity.SesEmailIdentity_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.sesEmailIdentity.SesEmailIdentity.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesemailidentity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesemailidentity"
 
 sesemailidentity.SesEmailIdentity_IsTerraformResource(x interface{}) *bool
 ```
@@ -580,7 +580,7 @@ sesemailidentity.SesEmailIdentity_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.sesEmailIdentity.SesEmailIdentity.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesemailidentity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesemailidentity"
 
 sesemailidentity.SesEmailIdentity_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -609,7 +609,7 @@ The construct id used in the generated config for the SesEmailIdentity to import
 
 The id of the existing SesEmailIdentity that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_email_identity#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_email_identity#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1040,7 +1040,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sesEmailIdentity.SesEmailIdentityConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesemailidentity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesemailidentity"
 
 &sesemailidentity.SesEmailIdentityConfig {
 	Connection: interface{},
@@ -1051,11 +1051,11 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesemailidentity"
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	EmailIdentity: *string,
-	ConfigurationSetAttributes: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.sesEmailIdentity.SesEmailIdentityConfigurationSetAttributes,
-	DkimAttributes: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.sesEmailIdentity.SesEmailIdentityDkimAttributes,
-	DkimSigningAttributes: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.sesEmailIdentity.SesEmailIdentityDkimSigningAttributes,
-	FeedbackAttributes: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.sesEmailIdentity.SesEmailIdentityFeedbackAttributes,
-	MailFromAttributes: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.sesEmailIdentity.SesEmailIdentityMailFromAttributes,
+	ConfigurationSetAttributes: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.sesEmailIdentity.SesEmailIdentityConfigurationSetAttributes,
+	DkimAttributes: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.sesEmailIdentity.SesEmailIdentityDkimAttributes,
+	DkimSigningAttributes: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.sesEmailIdentity.SesEmailIdentityDkimSigningAttributes,
+	FeedbackAttributes: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.sesEmailIdentity.SesEmailIdentityFeedbackAttributes,
+	MailFromAttributes: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.sesEmailIdentity.SesEmailIdentityMailFromAttributes,
 	Tags: interface{},
 }
 ```
@@ -1161,7 +1161,7 @@ EmailIdentity *string
 
 The email address or domain to verify.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_email_identity#email_identity SesEmailIdentity#email_identity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_email_identity#email_identity SesEmailIdentity#email_identity}
 
 ---
 
@@ -1175,7 +1175,7 @@ ConfigurationSetAttributes SesEmailIdentityConfigurationSetAttributes
 
 Used to associate a configuration set with an email identity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_email_identity#configuration_set_attributes SesEmailIdentity#configuration_set_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_email_identity#configuration_set_attributes SesEmailIdentity#configuration_set_attributes}
 
 ---
 
@@ -1189,7 +1189,7 @@ DkimAttributes SesEmailIdentityDkimAttributes
 
 Used to enable or disable DKIM authentication for an email identity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_email_identity#dkim_attributes SesEmailIdentity#dkim_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_email_identity#dkim_attributes SesEmailIdentity#dkim_attributes}
 
 ---
 
@@ -1203,7 +1203,7 @@ DkimSigningAttributes SesEmailIdentityDkimSigningAttributes
 
 If your request includes this object, Amazon SES configures the identity to use Bring Your Own DKIM (BYODKIM) for DKIM authentication purposes, or, configures the key length to be used for Easy DKIM.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_email_identity#dkim_signing_attributes SesEmailIdentity#dkim_signing_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_email_identity#dkim_signing_attributes SesEmailIdentity#dkim_signing_attributes}
 
 ---
 
@@ -1217,7 +1217,7 @@ FeedbackAttributes SesEmailIdentityFeedbackAttributes
 
 Used to enable or disable feedback forwarding for an identity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_email_identity#feedback_attributes SesEmailIdentity#feedback_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_email_identity#feedback_attributes SesEmailIdentity#feedback_attributes}
 
 ---
 
@@ -1231,7 +1231,7 @@ MailFromAttributes SesEmailIdentityMailFromAttributes
 
 Used to enable or disable the custom Mail-From domain configuration for an email identity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_email_identity#mail_from_attributes SesEmailIdentity#mail_from_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_email_identity#mail_from_attributes SesEmailIdentity#mail_from_attributes}
 
 ---
 
@@ -1245,7 +1245,7 @@ Tags interface{}
 
 The tags (keys and values) associated with the email identity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_email_identity#tags SesEmailIdentity#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_email_identity#tags SesEmailIdentity#tags}
 
 ---
 
@@ -1254,7 +1254,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sesEmailIdentity.SesEmailIdentityConfigurationSetAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesemailidentity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesemailidentity"
 
 &sesemailidentity.SesEmailIdentityConfigurationSetAttributes {
 	ConfigurationSetName: *string,
@@ -1281,7 +1281,7 @@ The configuration set to use by default when sending from this identity.
 
 Note that any configuration set defined in the email sending request takes precedence.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_email_identity#configuration_set_name SesEmailIdentity#configuration_set_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_email_identity#configuration_set_name SesEmailIdentity#configuration_set_name}
 
 ---
 
@@ -1290,7 +1290,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sesEmailIdentity.SesEmailIdentityDkimAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesemailidentity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesemailidentity"
 
 &sesemailidentity.SesEmailIdentityDkimAttributes {
 	SigningEnabled: interface{},
@@ -1317,7 +1317,7 @@ Sets the DKIM signing configuration for the identity.
 
 When you set this value true, then the messages that are sent from the identity are signed using DKIM. If you set this value to false, your messages are sent without DKIM signing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_email_identity#signing_enabled SesEmailIdentity#signing_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_email_identity#signing_enabled SesEmailIdentity#signing_enabled}
 
 ---
 
@@ -1326,7 +1326,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sesEmailIdentity.SesEmailIdentityDkimSigningAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesemailidentity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesemailidentity"
 
 &sesemailidentity.SesEmailIdentityDkimSigningAttributes {
 	DomainSigningPrivateKey: *string,
@@ -1357,7 +1357,7 @@ DomainSigningPrivateKey *string
 
 The private key must use 1024 or 2048-bit RSA encryption, and must be encoded using base64 encoding.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_email_identity#domain_signing_private_key SesEmailIdentity#domain_signing_private_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_email_identity#domain_signing_private_key SesEmailIdentity#domain_signing_private_key}
 
 ---
 
@@ -1371,7 +1371,7 @@ DomainSigningSelector *string
 
 [Bring Your Own DKIM] A string that's used to identify a public key in the DNS configuration for a domain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_email_identity#domain_signing_selector SesEmailIdentity#domain_signing_selector}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_email_identity#domain_signing_selector SesEmailIdentity#domain_signing_selector}
 
 ---
 
@@ -1387,7 +1387,7 @@ NextSigningKeyLength *string
 
 This can be changed at most once per day.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_email_identity#next_signing_key_length SesEmailIdentity#next_signing_key_length}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_email_identity#next_signing_key_length SesEmailIdentity#next_signing_key_length}
 
 ---
 
@@ -1396,7 +1396,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sesEmailIdentity.SesEmailIdentityFeedbackAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesemailidentity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesemailidentity"
 
 &sesemailidentity.SesEmailIdentityFeedbackAttributes {
 	EmailForwardingEnabled: interface{},
@@ -1421,7 +1421,7 @@ EmailForwardingEnabled interface{}
 
 If the value is true, you receive email notifications when bounce or complaint events occur.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_email_identity#email_forwarding_enabled SesEmailIdentity#email_forwarding_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_email_identity#email_forwarding_enabled SesEmailIdentity#email_forwarding_enabled}
 
 ---
 
@@ -1430,7 +1430,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sesEmailIdentity.SesEmailIdentityMailFromAttributes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesemailidentity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesemailidentity"
 
 &sesemailidentity.SesEmailIdentityMailFromAttributes {
 	BehaviorOnMxFailure: *string,
@@ -1459,7 +1459,7 @@ The action to take if the required MX record isn't found when you send an email.
 
 When you set this value to UseDefaultValue , the mail is sent using amazonses.com as the MAIL FROM domain. When you set this value to RejectMessage , the Amazon SES API v2 returns a MailFromDomainNotVerified error, and doesn't attempt to deliver the email.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_email_identity#behavior_on_mx_failure SesEmailIdentity#behavior_on_mx_failure}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_email_identity#behavior_on_mx_failure SesEmailIdentity#behavior_on_mx_failure}
 
 ---
 
@@ -1473,7 +1473,7 @@ MailFromDomain *string
 
 The custom MAIL FROM domain that you want the verified identity to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_email_identity#mail_from_domain SesEmailIdentity#mail_from_domain}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_email_identity#mail_from_domain SesEmailIdentity#mail_from_domain}
 
 ---
 
@@ -1482,7 +1482,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sesEmailIdentity.SesEmailIdentityTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesemailidentity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesemailidentity"
 
 &sesemailidentity.SesEmailIdentityTags {
 	Key: *string,
@@ -1494,8 +1494,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesemailidentity"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sesEmailIdentity.SesEmailIdentityTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_email_identity#key SesEmailIdentity#key}. |
-| <code><a href="#@cdktn/provider-awscc.sesEmailIdentity.SesEmailIdentityTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_email_identity#value SesEmailIdentity#value}. |
+| <code><a href="#@cdktn/provider-awscc.sesEmailIdentity.SesEmailIdentityTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_email_identity#key SesEmailIdentity#key}. |
+| <code><a href="#@cdktn/provider-awscc.sesEmailIdentity.SesEmailIdentityTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_email_identity#value SesEmailIdentity#value}. |
 
 ---
 
@@ -1507,7 +1507,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_email_identity#key SesEmailIdentity#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_email_identity#key SesEmailIdentity#key}.
 
 ---
 
@@ -1519,7 +1519,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_email_identity#value SesEmailIdentity#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_email_identity#value SesEmailIdentity#value}.
 
 ---
 
@@ -1530,7 +1530,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesEmailIdentity.SesEmailIdentityConfigurationSetAttributesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesemailidentity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesemailidentity"
 
 sesemailidentity.NewSesEmailIdentityConfigurationSetAttributesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SesEmailIdentityConfigurationSetAttributesOutputReference
 ```
@@ -1808,7 +1808,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesEmailIdentity.SesEmailIdentityDkimAttributesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesemailidentity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesemailidentity"
 
 sesemailidentity.NewSesEmailIdentityDkimAttributesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SesEmailIdentityDkimAttributesOutputReference
 ```
@@ -2086,7 +2086,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesEmailIdentity.SesEmailIdentityDkimSigningAttributesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesemailidentity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesemailidentity"
 
 sesemailidentity.NewSesEmailIdentityDkimSigningAttributesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SesEmailIdentityDkimSigningAttributesOutputReference
 ```
@@ -2422,7 +2422,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesEmailIdentity.SesEmailIdentityFeedbackAttributesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesemailidentity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesemailidentity"
 
 sesemailidentity.NewSesEmailIdentityFeedbackAttributesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SesEmailIdentityFeedbackAttributesOutputReference
 ```
@@ -2700,7 +2700,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesEmailIdentity.SesEmailIdentityMailFromAttributesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesemailidentity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesemailidentity"
 
 sesemailidentity.NewSesEmailIdentityMailFromAttributesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SesEmailIdentityMailFromAttributesOutputReference
 ```
@@ -3007,7 +3007,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesEmailIdentity.SesEmailIdentityTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesemailidentity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesemailidentity"
 
 sesemailidentity.NewSesEmailIdentityTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SesEmailIdentityTagsList
 ```
@@ -3167,7 +3167,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesEmailIdentity.SesEmailIdentityTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesemailidentity"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesemailidentity"
 
 sesemailidentity.NewSesEmailIdentityTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SesEmailIdentityTagsOutputReference
 ```

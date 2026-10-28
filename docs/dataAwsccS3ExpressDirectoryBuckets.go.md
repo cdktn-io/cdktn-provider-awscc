@@ -4,12 +4,12 @@
 
 ### DataAwsccS3ExpressDirectoryBuckets <a name="DataAwsccS3ExpressDirectoryBuckets" id="@cdktn/provider-awscc.dataAwsccS3ExpressDirectoryBuckets.DataAwsccS3ExpressDirectoryBuckets"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3express_directory_buckets awscc_s3express_directory_buckets}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3express_directory_buckets awscc_s3express_directory_buckets}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3ExpressDirectoryBuckets.DataAwsccS3ExpressDirectoryBuckets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3expressdirectorybuckets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3expressdirectorybuckets"
 
 dataawsccs3expressdirectorybuckets.NewDataAwsccS3ExpressDirectoryBuckets(scope Construct, id *string, config DataAwsccS3ExpressDirectoryBucketsConfig) DataAwsccS3ExpressDirectoryBuckets
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccS3ExpressDirectoryBuckets.DataAwsccS3ExpressDirectoryBuckets.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3expressdirectorybuckets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3expressdirectorybuckets"
 
 dataawsccs3expressdirectorybuckets.DataAwsccS3ExpressDirectoryBuckets_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccS3ExpressDirectoryBuckets.DataAwsccS3ExpressDirectoryBuckets.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3expressdirectorybuckets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3expressdirectorybuckets"
 
 dataawsccs3expressdirectorybuckets.DataAwsccS3ExpressDirectoryBuckets_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccs3expressdirectorybuckets.DataAwsccS3ExpressDirectoryBuckets_IsTerrafor
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccS3ExpressDirectoryBuckets.DataAwsccS3ExpressDirectoryBuckets.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3expressdirectorybuckets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3expressdirectorybuckets"
 
 dataawsccs3expressdirectorybuckets.DataAwsccS3ExpressDirectoryBuckets_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccs3expressdirectorybuckets.DataAwsccS3ExpressDirectoryBuckets_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccS3ExpressDirectoryBuckets.DataAwsccS3ExpressDirectoryBuckets.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3expressdirectorybuckets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3expressdirectorybuckets"
 
 dataawsccs3expressdirectorybuckets.DataAwsccS3ExpressDirectoryBuckets_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccS3ExpressDirector
 
 The id of the existing DataAwsccS3ExpressDirectoryBuckets that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3express_directory_buckets#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3express_directory_buckets#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3ExpressDirectoryBuckets.DataAwsccS3ExpressDirectoryBucketsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3expressdirectorybuckets"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3expressdirectorybuckets"
 
 &dataawsccs3expressdirectorybuckets.DataAwsccS3ExpressDirectoryBucketsConfig {
 	Connection: interface{},

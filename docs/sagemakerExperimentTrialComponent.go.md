@@ -4,12 +4,12 @@
 
 ### SagemakerExperimentTrialComponent <a name="SagemakerExperimentTrialComponent" id="@cdktn/provider-awscc.sagemakerExperimentTrialComponent.SagemakerExperimentTrialComponent"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_experiment_trial_component awscc_sagemaker_experiment_trial_component}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_experiment_trial_component awscc_sagemaker_experiment_trial_component}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerExperimentTrialComponent.SagemakerExperimentTrialComponent.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerexperimenttrialcomponent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerexperimenttrialcomponent"
 
 sagemakerexperimenttrialcomponent.NewSagemakerExperimentTrialComponent(scope Construct, id *string, config SagemakerExperimentTrialComponentConfig) SagemakerExperimentTrialComponent
 ```
@@ -481,7 +481,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.sagemakerExperimentTrialComponent.SagemakerExperimentTrialComponent.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerexperimenttrialcomponent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerexperimenttrialcomponent"
 
 sagemakerexperimenttrialcomponent.SagemakerExperimentTrialComponent_IsConstruct(x interface{}) *bool
 ```
@@ -513,7 +513,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.sagemakerExperimentTrialComponent.SagemakerExperimentTrialComponent.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerexperimenttrialcomponent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerexperimenttrialcomponent"
 
 sagemakerexperimenttrialcomponent.SagemakerExperimentTrialComponent_IsTerraformElement(x interface{}) *bool
 ```
@@ -527,7 +527,7 @@ sagemakerexperimenttrialcomponent.SagemakerExperimentTrialComponent_IsTerraformE
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.sagemakerExperimentTrialComponent.SagemakerExperimentTrialComponent.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerexperimenttrialcomponent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerexperimenttrialcomponent"
 
 sagemakerexperimenttrialcomponent.SagemakerExperimentTrialComponent_IsTerraformResource(x interface{}) *bool
 ```
@@ -541,7 +541,7 @@ sagemakerexperimenttrialcomponent.SagemakerExperimentTrialComponent_IsTerraformR
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.sagemakerExperimentTrialComponent.SagemakerExperimentTrialComponent.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerexperimenttrialcomponent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerexperimenttrialcomponent"
 
 sagemakerexperimenttrialcomponent.SagemakerExperimentTrialComponent_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -570,7 +570,7 @@ The construct id used in the generated config for the SagemakerExperimentTrialCo
 
 The id of the existing SagemakerExperimentTrialComponent that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_experiment_trial_component#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_experiment_trial_component#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -979,7 +979,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sagemakerExperimentTrialComponent.SagemakerExperimentTrialComponentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerexperimenttrialcomponent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerexperimenttrialcomponent"
 
 &sagemakerexperimenttrialcomponent.SagemakerExperimentTrialComponentConfig {
 	Connection: interface{},
@@ -992,9 +992,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerexperimenttri
 	TrialComponentName: *string,
 	DisplayName: *string,
 	EndTime: *string,
-	MetadataProperties: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.sagemakerExperimentTrialComponent.SagemakerExperimentTrialComponentMetadataProperties,
+	MetadataProperties: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.sagemakerExperimentTrialComponent.SagemakerExperimentTrialComponentMetadataProperties,
 	StartTime: *string,
-	Status: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.sagemakerExperimentTrialComponent.SagemakerExperimentTrialComponentStatus,
+	Status: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.sagemakerExperimentTrialComponent.SagemakerExperimentTrialComponentStatus,
 	Tags: interface{},
 }
 ```
@@ -1100,7 +1100,7 @@ TrialComponentName *string
 
 The name of the trial component. The name must be unique in your AWS account and is not case-sensitive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_experiment_trial_component#trial_component_name SagemakerExperimentTrialComponent#trial_component_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_experiment_trial_component#trial_component_name SagemakerExperimentTrialComponent#trial_component_name}
 
 ---
 
@@ -1116,7 +1116,7 @@ The name of the component as displayed.
 
 The name doesn't need to be unique. If DisplayName isn't specified, TrialComponentName is displayed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_experiment_trial_component#display_name SagemakerExperimentTrialComponent#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_experiment_trial_component#display_name SagemakerExperimentTrialComponent#display_name}
 
 ---
 
@@ -1130,7 +1130,7 @@ EndTime *string
 
 When the component ended.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_experiment_trial_component#end_time SagemakerExperimentTrialComponent#end_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_experiment_trial_component#end_time SagemakerExperimentTrialComponent#end_time}
 
 ---
 
@@ -1144,7 +1144,7 @@ MetadataProperties SagemakerExperimentTrialComponentMetadataProperties
 
 Metadata properties of the tracking entity, trial, or trial component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_experiment_trial_component#metadata_properties SagemakerExperimentTrialComponent#metadata_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_experiment_trial_component#metadata_properties SagemakerExperimentTrialComponent#metadata_properties}
 
 ---
 
@@ -1158,7 +1158,7 @@ StartTime *string
 
 When the component started.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_experiment_trial_component#start_time SagemakerExperimentTrialComponent#start_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_experiment_trial_component#start_time SagemakerExperimentTrialComponent#start_time}
 
 ---
 
@@ -1172,7 +1172,7 @@ Status SagemakerExperimentTrialComponentStatus
 
 The status of the trial component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_experiment_trial_component#status SagemakerExperimentTrialComponent#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_experiment_trial_component#status SagemakerExperimentTrialComponent#status}
 
 ---
 
@@ -1186,7 +1186,7 @@ Tags interface{}
 
 A list of tags to associate with the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_experiment_trial_component#tags SagemakerExperimentTrialComponent#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_experiment_trial_component#tags SagemakerExperimentTrialComponent#tags}
 
 ---
 
@@ -1195,7 +1195,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sagemakerExperimentTrialComponent.SagemakerExperimentTrialComponentMetadataProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerexperimenttrialcomponent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerexperimenttrialcomponent"
 
 &sagemakerexperimenttrialcomponent.SagemakerExperimentTrialComponentMetadataProperties {
 	CommitId: *string,
@@ -1226,7 +1226,7 @@ CommitId *string
 
 The commit ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_experiment_trial_component#commit_id SagemakerExperimentTrialComponent#commit_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_experiment_trial_component#commit_id SagemakerExperimentTrialComponent#commit_id}
 
 ---
 
@@ -1240,7 +1240,7 @@ GeneratedBy *string
 
 The entity this entity was generated by.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_experiment_trial_component#generated_by SagemakerExperimentTrialComponent#generated_by}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_experiment_trial_component#generated_by SagemakerExperimentTrialComponent#generated_by}
 
 ---
 
@@ -1254,7 +1254,7 @@ ProjectId *string
 
 The project ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_experiment_trial_component#project_id SagemakerExperimentTrialComponent#project_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_experiment_trial_component#project_id SagemakerExperimentTrialComponent#project_id}
 
 ---
 
@@ -1268,7 +1268,7 @@ Repository *string
 
 The repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_experiment_trial_component#repository SagemakerExperimentTrialComponent#repository}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_experiment_trial_component#repository SagemakerExperimentTrialComponent#repository}
 
 ---
 
@@ -1277,7 +1277,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sagemakerExperimentTrialComponent.SagemakerExperimentTrialComponentStatus.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerexperimenttrialcomponent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerexperimenttrialcomponent"
 
 &sagemakerexperimenttrialcomponent.SagemakerExperimentTrialComponentStatus {
 	Message: *string,
@@ -1304,7 +1304,7 @@ Message *string
 
 If the component failed, a message describing why.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_experiment_trial_component#message SagemakerExperimentTrialComponent#message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_experiment_trial_component#message SagemakerExperimentTrialComponent#message}
 
 ---
 
@@ -1318,7 +1318,7 @@ PrimaryStatus *string
 
 The status of the trial component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_experiment_trial_component#primary_status SagemakerExperimentTrialComponent#primary_status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_experiment_trial_component#primary_status SagemakerExperimentTrialComponent#primary_status}
 
 ---
 
@@ -1327,7 +1327,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sagemakerExperimentTrialComponent.SagemakerExperimentTrialComponentTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerexperimenttrialcomponent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerexperimenttrialcomponent"
 
 &sagemakerexperimenttrialcomponent.SagemakerExperimentTrialComponentTags {
 	Key: *string,
@@ -1354,7 +1354,7 @@ Key *string
 
 The tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_experiment_trial_component#key SagemakerExperimentTrialComponent#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_experiment_trial_component#key SagemakerExperimentTrialComponent#key}
 
 ---
 
@@ -1368,7 +1368,7 @@ Value *string
 
 The tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_experiment_trial_component#value SagemakerExperimentTrialComponent#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_experiment_trial_component#value SagemakerExperimentTrialComponent#value}
 
 ---
 
@@ -1379,7 +1379,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerExperimentTrialComponent.SagemakerExperimentTrialComponentMetadataPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerexperimenttrialcomponent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerexperimenttrialcomponent"
 
 sagemakerexperimenttrialcomponent.NewSagemakerExperimentTrialComponentMetadataPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SagemakerExperimentTrialComponentMetadataPropertiesOutputReference
 ```
@@ -1744,7 +1744,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerExperimentTrialComponent.SagemakerExperimentTrialComponentStatusOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerexperimenttrialcomponent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerexperimenttrialcomponent"
 
 sagemakerexperimenttrialcomponent.NewSagemakerExperimentTrialComponentStatusOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SagemakerExperimentTrialComponentStatusOutputReference
 ```
@@ -2051,7 +2051,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerExperimentTrialComponent.SagemakerExperimentTrialComponentTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerexperimenttrialcomponent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerexperimenttrialcomponent"
 
 sagemakerexperimenttrialcomponent.NewSagemakerExperimentTrialComponentTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SagemakerExperimentTrialComponentTagsList
 ```
@@ -2211,7 +2211,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerExperimentTrialComponent.SagemakerExperimentTrialComponentTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerexperimenttrialcomponent"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerexperimenttrialcomponent"
 
 sagemakerexperimenttrialcomponent.NewSagemakerExperimentTrialComponentTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SagemakerExperimentTrialComponentTagsOutputReference
 ```

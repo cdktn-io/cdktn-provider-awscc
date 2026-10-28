@@ -4,12 +4,12 @@
 
 ### DataAwsccForecastDatasetGroup <a name="DataAwsccForecastDatasetGroup" id="@cdktn/provider-awscc.dataAwsccForecastDatasetGroup.DataAwsccForecastDatasetGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/forecast_dataset_group awscc_forecast_dataset_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/forecast_dataset_group awscc_forecast_dataset_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccForecastDatasetGroup.DataAwsccForecastDatasetGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccforecastdatasetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccforecastdatasetgroup"
 
 dataawsccforecastdatasetgroup.NewDataAwsccForecastDatasetGroup(scope Construct, id *string, config DataAwsccForecastDatasetGroupConfig) DataAwsccForecastDatasetGroup
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccForecastDatasetGroup.DataAwsccForecastDatasetGroup.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccforecastdatasetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccforecastdatasetgroup"
 
 dataawsccforecastdatasetgroup.DataAwsccForecastDatasetGroup_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccForecastDatasetGroup.DataAwsccForecastDatasetGroup.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccforecastdatasetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccforecastdatasetgroup"
 
 dataawsccforecastdatasetgroup.DataAwsccForecastDatasetGroup_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccforecastdatasetgroup.DataAwsccForecastDatasetGroup_IsTerraformElement(x
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccForecastDatasetGroup.DataAwsccForecastDatasetGroup.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccforecastdatasetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccforecastdatasetgroup"
 
 dataawsccforecastdatasetgroup.DataAwsccForecastDatasetGroup_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccforecastdatasetgroup.DataAwsccForecastDatasetGroup_IsTerraformDataSourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccForecastDatasetGroup.DataAwsccForecastDatasetGroup.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccforecastdatasetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccforecastdatasetgroup"
 
 dataawsccforecastdatasetgroup.DataAwsccForecastDatasetGroup_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccForecastDatasetGr
 
 The id of the existing DataAwsccForecastDatasetGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/forecast_dataset_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/forecast_dataset_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -642,7 +642,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccForecastDatasetGroup.DataAwsccForecastDatasetGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccforecastdatasetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccforecastdatasetgroup"
 
 &dataawsccforecastdatasetgroup.DataAwsccForecastDatasetGroupConfig {
 	Connection: interface{},
@@ -751,7 +751,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/forecast_dataset_group#id DataAwsccForecastDatasetGroup#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/forecast_dataset_group#id DataAwsccForecastDatasetGroup#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -763,7 +763,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccForecastDatasetGroup.DataAwsccForecastDatasetGroupTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccforecastdatasetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccforecastdatasetgroup"
 
 &dataawsccforecastdatasetgroup.DataAwsccForecastDatasetGroupTags {
 
@@ -778,7 +778,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccforecastdatas
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccForecastDatasetGroup.DataAwsccForecastDatasetGroupTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccforecastdatasetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccforecastdatasetgroup"
 
 dataawsccforecastdatasetgroup.NewDataAwsccForecastDatasetGroupTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccForecastDatasetGroupTagsList
 ```
@@ -927,7 +927,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccForecastDatasetGroup.DataAwsccForecastDatasetGroupTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccforecastdatasetgroup"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccforecastdatasetgroup"
 
 dataawsccforecastdatasetgroup.NewDataAwsccForecastDatasetGroupTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccForecastDatasetGroupTagsOutputReference
 ```

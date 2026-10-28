@@ -4,12 +4,12 @@
 
 ### LambdaEventInvokeConfig <a name="LambdaEventInvokeConfig" id="@cdktn/provider-awscc.lambdaEventInvokeConfig.LambdaEventInvokeConfig"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_event_invoke_config awscc_lambda_event_invoke_config}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_event_invoke_config awscc_lambda_event_invoke_config}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lambdaEventInvokeConfig.LambdaEventInvokeConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdaeventinvokeconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdaeventinvokeconfig"
 
 lambdaeventinvokeconfig.NewLambdaEventInvokeConfig(scope Construct, id *string, config LambdaEventInvokeConfigConfig) LambdaEventInvokeConfig
 ```
@@ -434,7 +434,7 @@ func ResetMaximumRetryAttempts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.lambdaEventInvokeConfig.LambdaEventInvokeConfig.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdaeventinvokeconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdaeventinvokeconfig"
 
 lambdaeventinvokeconfig.LambdaEventInvokeConfig_IsConstruct(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.lambdaEventInvokeConfig.LambdaEventInvokeConfig.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdaeventinvokeconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdaeventinvokeconfig"
 
 lambdaeventinvokeconfig.LambdaEventInvokeConfig_IsTerraformElement(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ lambdaeventinvokeconfig.LambdaEventInvokeConfig_IsTerraformElement(x interface{}
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.lambdaEventInvokeConfig.LambdaEventInvokeConfig.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdaeventinvokeconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdaeventinvokeconfig"
 
 lambdaeventinvokeconfig.LambdaEventInvokeConfig_IsTerraformResource(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ lambdaeventinvokeconfig.LambdaEventInvokeConfig_IsTerraformResource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.lambdaEventInvokeConfig.LambdaEventInvokeConfig.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdaeventinvokeconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdaeventinvokeconfig"
 
 lambdaeventinvokeconfig.LambdaEventInvokeConfig_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -523,7 +523,7 @@ The construct id used in the generated config for the LambdaEventInvokeConfig to
 
 The id of the existing LambdaEventInvokeConfig that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_event_invoke_config#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_event_invoke_config#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -844,7 +844,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lambdaEventInvokeConfig.LambdaEventInvokeConfigConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdaeventinvokeconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdaeventinvokeconfig"
 
 &lambdaeventinvokeconfig.LambdaEventInvokeConfigConfig {
 	Connection: interface{},
@@ -856,7 +856,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdaeventinvokeconfi
 	Provisioners: *[]interface{},
 	FunctionName: *string,
 	Qualifier: *string,
-	DestinationConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lambdaEventInvokeConfig.LambdaEventInvokeConfigDestinationConfig,
+	DestinationConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lambdaEventInvokeConfig.LambdaEventInvokeConfigDestinationConfig,
 	MaximumEventAgeInSeconds: *f64,
 	MaximumRetryAttempts: *f64,
 }
@@ -961,7 +961,7 @@ FunctionName *string
 
 The name of the Lambda function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_event_invoke_config#function_name LambdaEventInvokeConfig#function_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_event_invoke_config#function_name LambdaEventInvokeConfig#function_name}
 
 ---
 
@@ -975,7 +975,7 @@ Qualifier *string
 
 The identifier of a version or alias.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_event_invoke_config#qualifier LambdaEventInvokeConfig#qualifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_event_invoke_config#qualifier LambdaEventInvokeConfig#qualifier}
 
 ---
 
@@ -989,7 +989,7 @@ DestinationConfig LambdaEventInvokeConfigDestinationConfig
 
 A destination for events after they have been sent to a function for processing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_event_invoke_config#destination_config LambdaEventInvokeConfig#destination_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_event_invoke_config#destination_config LambdaEventInvokeConfig#destination_config}
 
 ---
 
@@ -1003,7 +1003,7 @@ MaximumEventAgeInSeconds *f64
 
 The maximum age of a request that Lambda sends to a function for processing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_event_invoke_config#maximum_event_age_in_seconds LambdaEventInvokeConfig#maximum_event_age_in_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_event_invoke_config#maximum_event_age_in_seconds LambdaEventInvokeConfig#maximum_event_age_in_seconds}
 
 ---
 
@@ -1017,7 +1017,7 @@ MaximumRetryAttempts *f64
 
 The maximum number of times to retry when the function returns an error.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_event_invoke_config#maximum_retry_attempts LambdaEventInvokeConfig#maximum_retry_attempts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_event_invoke_config#maximum_retry_attempts LambdaEventInvokeConfig#maximum_retry_attempts}
 
 ---
 
@@ -1026,11 +1026,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lambdaEventInvokeConfig.LambdaEventInvokeConfigDestinationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdaeventinvokeconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdaeventinvokeconfig"
 
 &lambdaeventinvokeconfig.LambdaEventInvokeConfigDestinationConfig {
-	OnFailure: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lambdaEventInvokeConfig.LambdaEventInvokeConfigDestinationConfigOnFailure,
-	OnSuccess: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lambdaEventInvokeConfig.LambdaEventInvokeConfigDestinationConfigOnSuccess,
+	OnFailure: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lambdaEventInvokeConfig.LambdaEventInvokeConfigDestinationConfigOnFailure,
+	OnSuccess: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lambdaEventInvokeConfig.LambdaEventInvokeConfigDestinationConfigOnSuccess,
 }
 ```
 
@@ -1053,7 +1053,7 @@ OnFailure LambdaEventInvokeConfigDestinationConfigOnFailure
 
 The destination configuration for failed invocations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_event_invoke_config#on_failure LambdaEventInvokeConfig#on_failure}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_event_invoke_config#on_failure LambdaEventInvokeConfig#on_failure}
 
 ---
 
@@ -1067,7 +1067,7 @@ OnSuccess LambdaEventInvokeConfigDestinationConfigOnSuccess
 
 The destination configuration for successful invocations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_event_invoke_config#on_success LambdaEventInvokeConfig#on_success}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_event_invoke_config#on_success LambdaEventInvokeConfig#on_success}
 
 ---
 
@@ -1076,7 +1076,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lambdaEventInvokeConfig.LambdaEventInvokeConfigDestinationConfigOnFailure.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdaeventinvokeconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdaeventinvokeconfig"
 
 &lambdaeventinvokeconfig.LambdaEventInvokeConfigDestinationConfigOnFailure {
 	Destination: *string,
@@ -1101,7 +1101,7 @@ Destination *string
 
 The Amazon Resource Name (ARN) of the destination resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_event_invoke_config#destination LambdaEventInvokeConfig#destination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_event_invoke_config#destination LambdaEventInvokeConfig#destination}
 
 ---
 
@@ -1110,7 +1110,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lambdaEventInvokeConfig.LambdaEventInvokeConfigDestinationConfigOnSuccess.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdaeventinvokeconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdaeventinvokeconfig"
 
 &lambdaeventinvokeconfig.LambdaEventInvokeConfigDestinationConfigOnSuccess {
 	Destination: *string,
@@ -1135,7 +1135,7 @@ Destination *string
 
 The Amazon Resource Name (ARN) of the destination resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_event_invoke_config#destination LambdaEventInvokeConfig#destination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_event_invoke_config#destination LambdaEventInvokeConfig#destination}
 
 ---
 
@@ -1146,7 +1146,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lambdaEventInvokeConfig.LambdaEventInvokeConfigDestinationConfigOnFailureOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdaeventinvokeconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdaeventinvokeconfig"
 
 lambdaeventinvokeconfig.NewLambdaEventInvokeConfigDestinationConfigOnFailureOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LambdaEventInvokeConfigDestinationConfigOnFailureOutputReference
 ```
@@ -1424,7 +1424,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lambdaEventInvokeConfig.LambdaEventInvokeConfigDestinationConfigOnSuccessOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdaeventinvokeconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdaeventinvokeconfig"
 
 lambdaeventinvokeconfig.NewLambdaEventInvokeConfigDestinationConfigOnSuccessOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LambdaEventInvokeConfigDestinationConfigOnSuccessOutputReference
 ```
@@ -1702,7 +1702,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lambdaEventInvokeConfig.LambdaEventInvokeConfigDestinationConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdaeventinvokeconfig"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdaeventinvokeconfig"
 
 lambdaeventinvokeconfig.NewLambdaEventInvokeConfigDestinationConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LambdaEventInvokeConfigDestinationConfigOutputReference
 ```

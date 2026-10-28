@@ -4,12 +4,12 @@
 
 ### Ec2SnapshotBlockPublicAccess <a name="Ec2SnapshotBlockPublicAccess" id="@cdktn/provider-awscc.ec2SnapshotBlockPublicAccess.Ec2SnapshotBlockPublicAccess"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_snapshot_block_public_access awscc_ec2_snapshot_block_public_access}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_snapshot_block_public_access awscc_ec2_snapshot_block_public_access}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2SnapshotBlockPublicAccess.Ec2SnapshotBlockPublicAccess.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2snapshotblockpublicaccess"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2snapshotblockpublicaccess"
 
 ec2snapshotblockpublicaccess.NewEc2SnapshotBlockPublicAccess(scope Construct, id *string, config Ec2SnapshotBlockPublicAccessConfig) Ec2SnapshotBlockPublicAccess
 ```
@@ -400,7 +400,7 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.ec2SnapshotBlockPublicAccess.Ec2SnapshotBlockPublicAccess.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2snapshotblockpublicaccess"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2snapshotblockpublicaccess"
 
 ec2snapshotblockpublicaccess.Ec2SnapshotBlockPublicAccess_IsConstruct(x interface{}) *bool
 ```
@@ -432,7 +432,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.ec2SnapshotBlockPublicAccess.Ec2SnapshotBlockPublicAccess.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2snapshotblockpublicaccess"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2snapshotblockpublicaccess"
 
 ec2snapshotblockpublicaccess.Ec2SnapshotBlockPublicAccess_IsTerraformElement(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ ec2snapshotblockpublicaccess.Ec2SnapshotBlockPublicAccess_IsTerraformElement(x i
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.ec2SnapshotBlockPublicAccess.Ec2SnapshotBlockPublicAccess.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2snapshotblockpublicaccess"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2snapshotblockpublicaccess"
 
 ec2snapshotblockpublicaccess.Ec2SnapshotBlockPublicAccess_IsTerraformResource(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ ec2snapshotblockpublicaccess.Ec2SnapshotBlockPublicAccess_IsTerraformResource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.ec2SnapshotBlockPublicAccess.Ec2SnapshotBlockPublicAccess.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2snapshotblockpublicaccess"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2snapshotblockpublicaccess"
 
 ec2snapshotblockpublicaccess.Ec2SnapshotBlockPublicAccess_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -489,7 +489,7 @@ The construct id used in the generated config for the Ec2SnapshotBlockPublicAcce
 
 The id of the existing Ec2SnapshotBlockPublicAccess that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_snapshot_block_public_access#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_snapshot_block_public_access#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -733,7 +733,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2SnapshotBlockPublicAccess.Ec2SnapshotBlockPublicAccessConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2snapshotblockpublicaccess"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2snapshotblockpublicaccess"
 
 &ec2snapshotblockpublicaccess.Ec2SnapshotBlockPublicAccessConfig {
 	Connection: interface{},
@@ -842,7 +842,7 @@ State *string
 
 The state of EBS Snapshot Block Public Access.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_snapshot_block_public_access#state Ec2SnapshotBlockPublicAccess#state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_snapshot_block_public_access#state Ec2SnapshotBlockPublicAccess#state}
 
 ---
 

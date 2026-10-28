@@ -4,12 +4,12 @@
 
 ### DataAwsccPersonalizeMetricAttribution <a name="DataAwsccPersonalizeMetricAttribution" id="@cdktn/provider-awscc.dataAwsccPersonalizeMetricAttribution.DataAwsccPersonalizeMetricAttribution"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/personalize_metric_attribution awscc_personalize_metric_attribution}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/personalize_metric_attribution awscc_personalize_metric_attribution}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPersonalizeMetricAttribution.DataAwsccPersonalizeMetricAttribution.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizemetricattribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizemetricattribution"
 
 dataawsccpersonalizemetricattribution.NewDataAwsccPersonalizeMetricAttribution(scope Construct, id *string, config DataAwsccPersonalizeMetricAttributionConfig) DataAwsccPersonalizeMetricAttribution
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccPersonalizeMetricAttribution.DataAwsccPersonalizeMetricAttribution.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizemetricattribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizemetricattribution"
 
 dataawsccpersonalizemetricattribution.DataAwsccPersonalizeMetricAttribution_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccPersonalizeMetricAttribution.DataAwsccPersonalizeMetricAttribution.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizemetricattribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizemetricattribution"
 
 dataawsccpersonalizemetricattribution.DataAwsccPersonalizeMetricAttribution_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccpersonalizemetricattribution.DataAwsccPersonalizeMetricAttribution_IsTe
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccPersonalizeMetricAttribution.DataAwsccPersonalizeMetricAttribution.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizemetricattribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizemetricattribution"
 
 dataawsccpersonalizemetricattribution.DataAwsccPersonalizeMetricAttribution_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccpersonalizemetricattribution.DataAwsccPersonalizeMetricAttribution_IsTe
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccPersonalizeMetricAttribution.DataAwsccPersonalizeMetricAttribution.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizemetricattribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizemetricattribution"
 
 dataawsccpersonalizemetricattribution.DataAwsccPersonalizeMetricAttribution_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccPersonalizeMetric
 
 The id of the existing DataAwsccPersonalizeMetricAttribution that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/personalize_metric_attribution#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/personalize_metric_attribution#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -653,7 +653,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPersonalizeMetricAttribution.DataAwsccPersonalizeMetricAttributionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizemetricattribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizemetricattribution"
 
 &dataawsccpersonalizemetricattribution.DataAwsccPersonalizeMetricAttributionConfig {
 	Connection: interface{},
@@ -762,7 +762,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/personalize_metric_attribution#id DataAwsccPersonalizeMetricAttribution#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/personalize_metric_attribution#id DataAwsccPersonalizeMetricAttribution#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -774,7 +774,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPersonalizeMetricAttribution.DataAwsccPersonalizeMetricAttributionMetrics.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizemetricattribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizemetricattribution"
 
 &dataawsccpersonalizemetricattribution.DataAwsccPersonalizeMetricAttributionMetrics {
 
@@ -787,7 +787,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizeme
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPersonalizeMetricAttribution.DataAwsccPersonalizeMetricAttributionMetricsOutputConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizemetricattribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizemetricattribution"
 
 &dataawsccpersonalizemetricattribution.DataAwsccPersonalizeMetricAttributionMetricsOutputConfig {
 
@@ -800,7 +800,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizeme
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPersonalizeMetricAttribution.DataAwsccPersonalizeMetricAttributionMetricsOutputConfigS3DataDestination.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizemetricattribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizemetricattribution"
 
 &dataawsccpersonalizemetricattribution.DataAwsccPersonalizeMetricAttributionMetricsOutputConfigS3DataDestination {
 
@@ -815,7 +815,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizeme
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPersonalizeMetricAttribution.DataAwsccPersonalizeMetricAttributionMetricsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizemetricattribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizemetricattribution"
 
 dataawsccpersonalizemetricattribution.NewDataAwsccPersonalizeMetricAttributionMetricsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccPersonalizeMetricAttributionMetricsList
 ```
@@ -964,7 +964,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPersonalizeMetricAttribution.DataAwsccPersonalizeMetricAttributionMetricsOutputConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizemetricattribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizemetricattribution"
 
 dataawsccpersonalizemetricattribution.NewDataAwsccPersonalizeMetricAttributionMetricsOutputConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPersonalizeMetricAttributionMetricsOutputConfigOutputReference
 ```
@@ -1235,7 +1235,7 @@ func InternalValue() DataAwsccPersonalizeMetricAttributionMetricsOutputConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPersonalizeMetricAttribution.DataAwsccPersonalizeMetricAttributionMetricsOutputConfigS3DataDestinationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizemetricattribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizemetricattribution"
 
 dataawsccpersonalizemetricattribution.NewDataAwsccPersonalizeMetricAttributionMetricsOutputConfigS3DataDestinationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPersonalizeMetricAttributionMetricsOutputConfigS3DataDestinationOutputReference
 ```
@@ -1506,7 +1506,7 @@ func InternalValue() DataAwsccPersonalizeMetricAttributionMetricsOutputConfigS3D
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPersonalizeMetricAttribution.DataAwsccPersonalizeMetricAttributionMetricsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizemetricattribution"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizemetricattribution"
 
 dataawsccpersonalizemetricattribution.NewDataAwsccPersonalizeMetricAttributionMetricsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccPersonalizeMetricAttributionMetricsOutputReference
 ```

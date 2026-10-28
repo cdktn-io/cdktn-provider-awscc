@@ -4,12 +4,12 @@
 
 ### DataAwsccApigatewayv2ApiGatewayManagedOverrides <a name="DataAwsccApigatewayv2ApiGatewayManagedOverrides" id="@cdktn/provider-awscc.dataAwsccApigatewayv2ApiGatewayManagedOverrides.DataAwsccApigatewayv2ApiGatewayManagedOverrides"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apigatewayv2_api_gateway_managed_overrides awscc_apigatewayv2_api_gateway_managed_overrides}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apigatewayv2_api_gateway_managed_overrides awscc_apigatewayv2_api_gateway_managed_overrides}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApigatewayv2ApiGatewayManagedOverrides.DataAwsccApigatewayv2ApiGatewayManagedOverrides.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2apigatewaymanagedoverrides"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayv2apigatewaymanagedoverrides"
 
 dataawsccapigatewayv2apigatewaymanagedoverrides.NewDataAwsccApigatewayv2ApiGatewayManagedOverrides(scope Construct, id *string, config DataAwsccApigatewayv2ApiGatewayManagedOverridesConfig) DataAwsccApigatewayv2ApiGatewayManagedOverrides
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccApigatewayv2ApiGatewayManagedOverrides.DataAwsccApigatewayv2ApiGatewayManagedOverrides.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2apigatewaymanagedoverrides"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayv2apigatewaymanagedoverrides"
 
 dataawsccapigatewayv2apigatewaymanagedoverrides.DataAwsccApigatewayv2ApiGatewayManagedOverrides_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccApigatewayv2ApiGatewayManagedOverrides.DataAwsccApigatewayv2ApiGatewayManagedOverrides.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2apigatewaymanagedoverrides"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayv2apigatewaymanagedoverrides"
 
 dataawsccapigatewayv2apigatewaymanagedoverrides.DataAwsccApigatewayv2ApiGatewayManagedOverrides_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccapigatewayv2apigatewaymanagedoverrides.DataAwsccApigatewayv2ApiGatewayM
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccApigatewayv2ApiGatewayManagedOverrides.DataAwsccApigatewayv2ApiGatewayManagedOverrides.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2apigatewaymanagedoverrides"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayv2apigatewaymanagedoverrides"
 
 dataawsccapigatewayv2apigatewaymanagedoverrides.DataAwsccApigatewayv2ApiGatewayManagedOverrides_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccapigatewayv2apigatewaymanagedoverrides.DataAwsccApigatewayv2ApiGatewayM
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccApigatewayv2ApiGatewayManagedOverrides.DataAwsccApigatewayv2ApiGatewayManagedOverrides.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2apigatewaymanagedoverrides"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayv2apigatewaymanagedoverrides"
 
 dataawsccapigatewayv2apigatewaymanagedoverrides.DataAwsccApigatewayv2ApiGatewayManagedOverrides_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccApigatewayv2ApiGa
 
 The id of the existing DataAwsccApigatewayv2ApiGatewayManagedOverrides that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apigatewayv2_api_gateway_managed_overrides#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apigatewayv2_api_gateway_managed_overrides#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -642,7 +642,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApigatewayv2ApiGatewayManagedOverrides.DataAwsccApigatewayv2ApiGatewayManagedOverridesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2apigatewaymanagedoverrides"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayv2apigatewaymanagedoverrides"
 
 &dataawsccapigatewayv2apigatewaymanagedoverrides.DataAwsccApigatewayv2ApiGatewayManagedOverridesConfig {
 	Connection: interface{},
@@ -751,7 +751,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apigatewayv2_api_gateway_managed_overrides#id DataAwsccApigatewayv2ApiGatewayManagedOverrides#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apigatewayv2_api_gateway_managed_overrides#id DataAwsccApigatewayv2ApiGatewayManagedOverrides#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -763,7 +763,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApigatewayv2ApiGatewayManagedOverrides.DataAwsccApigatewayv2ApiGatewayManagedOverridesIntegration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2apigatewaymanagedoverrides"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayv2apigatewaymanagedoverrides"
 
 &dataawsccapigatewayv2apigatewaymanagedoverrides.DataAwsccApigatewayv2ApiGatewayManagedOverridesIntegration {
 
@@ -776,7 +776,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2a
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApigatewayv2ApiGatewayManagedOverrides.DataAwsccApigatewayv2ApiGatewayManagedOverridesRoute.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2apigatewaymanagedoverrides"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayv2apigatewaymanagedoverrides"
 
 &dataawsccapigatewayv2apigatewaymanagedoverrides.DataAwsccApigatewayv2ApiGatewayManagedOverridesRoute {
 
@@ -789,7 +789,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2a
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApigatewayv2ApiGatewayManagedOverrides.DataAwsccApigatewayv2ApiGatewayManagedOverridesStage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2apigatewaymanagedoverrides"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayv2apigatewaymanagedoverrides"
 
 &dataawsccapigatewayv2apigatewaymanagedoverrides.DataAwsccApigatewayv2ApiGatewayManagedOverridesStage {
 
@@ -802,7 +802,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2a
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApigatewayv2ApiGatewayManagedOverrides.DataAwsccApigatewayv2ApiGatewayManagedOverridesStageAccessLogSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2apigatewaymanagedoverrides"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayv2apigatewaymanagedoverrides"
 
 &dataawsccapigatewayv2apigatewaymanagedoverrides.DataAwsccApigatewayv2ApiGatewayManagedOverridesStageAccessLogSettings {
 
@@ -815,7 +815,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2a
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApigatewayv2ApiGatewayManagedOverrides.DataAwsccApigatewayv2ApiGatewayManagedOverridesStageDefaultRouteSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2apigatewaymanagedoverrides"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayv2apigatewaymanagedoverrides"
 
 &dataawsccapigatewayv2apigatewaymanagedoverrides.DataAwsccApigatewayv2ApiGatewayManagedOverridesStageDefaultRouteSettings {
 
@@ -828,7 +828,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2a
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApigatewayv2ApiGatewayManagedOverrides.DataAwsccApigatewayv2ApiGatewayManagedOverridesStageRouteSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2apigatewaymanagedoverrides"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayv2apigatewaymanagedoverrides"
 
 &dataawsccapigatewayv2apigatewaymanagedoverrides.DataAwsccApigatewayv2ApiGatewayManagedOverridesStageRouteSettings {
 
@@ -843,7 +843,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2a
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApigatewayv2ApiGatewayManagedOverrides.DataAwsccApigatewayv2ApiGatewayManagedOverridesIntegrationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2apigatewaymanagedoverrides"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayv2apigatewaymanagedoverrides"
 
 dataawsccapigatewayv2apigatewaymanagedoverrides.NewDataAwsccApigatewayv2ApiGatewayManagedOverridesIntegrationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApigatewayv2ApiGatewayManagedOverridesIntegrationOutputReference
 ```
@@ -1136,7 +1136,7 @@ func InternalValue() DataAwsccApigatewayv2ApiGatewayManagedOverridesIntegration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApigatewayv2ApiGatewayManagedOverrides.DataAwsccApigatewayv2ApiGatewayManagedOverridesRouteOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2apigatewaymanagedoverrides"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayv2apigatewaymanagedoverrides"
 
 dataawsccapigatewayv2apigatewaymanagedoverrides.NewDataAwsccApigatewayv2ApiGatewayManagedOverridesRouteOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApigatewayv2ApiGatewayManagedOverridesRouteOutputReference
 ```
@@ -1440,7 +1440,7 @@ func InternalValue() DataAwsccApigatewayv2ApiGatewayManagedOverridesRoute
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApigatewayv2ApiGatewayManagedOverrides.DataAwsccApigatewayv2ApiGatewayManagedOverridesStageAccessLogSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2apigatewaymanagedoverrides"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayv2apigatewaymanagedoverrides"
 
 dataawsccapigatewayv2apigatewaymanagedoverrides.NewDataAwsccApigatewayv2ApiGatewayManagedOverridesStageAccessLogSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApigatewayv2ApiGatewayManagedOverridesStageAccessLogSettingsOutputReference
 ```
@@ -1711,7 +1711,7 @@ func InternalValue() DataAwsccApigatewayv2ApiGatewayManagedOverridesStageAccessL
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApigatewayv2ApiGatewayManagedOverrides.DataAwsccApigatewayv2ApiGatewayManagedOverridesStageDefaultRouteSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2apigatewaymanagedoverrides"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayv2apigatewaymanagedoverrides"
 
 dataawsccapigatewayv2apigatewaymanagedoverrides.NewDataAwsccApigatewayv2ApiGatewayManagedOverridesStageDefaultRouteSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApigatewayv2ApiGatewayManagedOverridesStageDefaultRouteSettingsOutputReference
 ```
@@ -1993,7 +1993,7 @@ func InternalValue() DataAwsccApigatewayv2ApiGatewayManagedOverridesStageDefault
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApigatewayv2ApiGatewayManagedOverrides.DataAwsccApigatewayv2ApiGatewayManagedOverridesStageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2apigatewaymanagedoverrides"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayv2apigatewaymanagedoverrides"
 
 dataawsccapigatewayv2apigatewaymanagedoverrides.NewDataAwsccApigatewayv2ApiGatewayManagedOverridesStageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApigatewayv2ApiGatewayManagedOverridesStageOutputReference
 ```
@@ -2308,7 +2308,7 @@ func InternalValue() DataAwsccApigatewayv2ApiGatewayManagedOverridesStage
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApigatewayv2ApiGatewayManagedOverrides.DataAwsccApigatewayv2ApiGatewayManagedOverridesStageRouteSettingsMap.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2apigatewaymanagedoverrides"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayv2apigatewaymanagedoverrides"
 
 dataawsccapigatewayv2apigatewaymanagedoverrides.NewDataAwsccApigatewayv2ApiGatewayManagedOverridesStageRouteSettingsMap(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccApigatewayv2ApiGatewayManagedOverridesStageRouteSettingsMap
 ```
@@ -2444,7 +2444,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApigatewayv2ApiGatewayManagedOverrides.DataAwsccApigatewayv2ApiGatewayManagedOverridesStageRouteSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2apigatewaymanagedoverrides"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayv2apigatewaymanagedoverrides"
 
 dataawsccapigatewayv2apigatewaymanagedoverrides.NewDataAwsccApigatewayv2ApiGatewayManagedOverridesStageRouteSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectKey *string) DataAwsccApigatewayv2ApiGatewayManagedOverridesStageRouteSettingsOutputReference
 ```

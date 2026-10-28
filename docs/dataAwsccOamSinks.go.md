@@ -4,12 +4,12 @@
 
 ### DataAwsccOamSinks <a name="DataAwsccOamSinks" id="@cdktn/provider-awscc.dataAwsccOamSinks.DataAwsccOamSinks"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/oam_sinks awscc_oam_sinks}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/oam_sinks awscc_oam_sinks}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOamSinks.DataAwsccOamSinks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccoamsinks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccoamsinks"
 
 dataawsccoamsinks.NewDataAwsccOamSinks(scope Construct, id *string, config DataAwsccOamSinksConfig) DataAwsccOamSinks
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccOamSinks.DataAwsccOamSinks.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccoamsinks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccoamsinks"
 
 dataawsccoamsinks.DataAwsccOamSinks_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccOamSinks.DataAwsccOamSinks.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccoamsinks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccoamsinks"
 
 dataawsccoamsinks.DataAwsccOamSinks_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccoamsinks.DataAwsccOamSinks_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccOamSinks.DataAwsccOamSinks.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccoamsinks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccoamsinks"
 
 dataawsccoamsinks.DataAwsccOamSinks_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccoamsinks.DataAwsccOamSinks_IsTerraformDataSource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccOamSinks.DataAwsccOamSinks.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccoamsinks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccoamsinks"
 
 dataawsccoamsinks.DataAwsccOamSinks_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccOamSinks to impor
 
 The id of the existing DataAwsccOamSinks that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/oam_sinks#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/oam_sinks#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOamSinks.DataAwsccOamSinksConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccoamsinks"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccoamsinks"
 
 &dataawsccoamsinks.DataAwsccOamSinksConfig {
 	Connection: interface{},

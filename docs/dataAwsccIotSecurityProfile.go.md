@@ -4,12 +4,12 @@
 
 ### DataAwsccIotSecurityProfile <a name="DataAwsccIotSecurityProfile" id="@cdktn/provider-awscc.dataAwsccIotSecurityProfile.DataAwsccIotSecurityProfile"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_security_profile awscc_iot_security_profile}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_security_profile awscc_iot_security_profile}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotSecurityProfile.DataAwsccIotSecurityProfile.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsecurityprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsecurityprofile"
 
 dataawscciotsecurityprofile.NewDataAwsccIotSecurityProfile(scope Construct, id *string, config DataAwsccIotSecurityProfileConfig) DataAwsccIotSecurityProfile
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIotSecurityProfile.DataAwsccIotSecurityProfile.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsecurityprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsecurityprofile"
 
 dataawscciotsecurityprofile.DataAwsccIotSecurityProfile_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIotSecurityProfile.DataAwsccIotSecurityProfile.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsecurityprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsecurityprofile"
 
 dataawscciotsecurityprofile.DataAwsccIotSecurityProfile_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciotsecurityprofile.DataAwsccIotSecurityProfile_IsTerraformElement(x int
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIotSecurityProfile.DataAwsccIotSecurityProfile.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsecurityprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsecurityprofile"
 
 dataawscciotsecurityprofile.DataAwsccIotSecurityProfile_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciotsecurityprofile.DataAwsccIotSecurityProfile_IsTerraformDataSource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIotSecurityProfile.DataAwsccIotSecurityProfile.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsecurityprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsecurityprofile"
 
 dataawscciotsecurityprofile.DataAwsccIotSecurityProfile_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotSecurityProfil
 
 The id of the existing DataAwsccIotSecurityProfile that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_security_profile#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_security_profile#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -686,7 +686,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotSecurityProfile.DataAwsccIotSecurityProfileAdditionalMetricsToRetainV2.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsecurityprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsecurityprofile"
 
 &dataawscciotsecurityprofile.DataAwsccIotSecurityProfileAdditionalMetricsToRetainV2 {
 
@@ -699,7 +699,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsecuritypr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotSecurityProfile.DataAwsccIotSecurityProfileAdditionalMetricsToRetainV2MetricDimension.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsecurityprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsecurityprofile"
 
 &dataawscciotsecurityprofile.DataAwsccIotSecurityProfileAdditionalMetricsToRetainV2MetricDimension {
 
@@ -712,7 +712,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsecuritypr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotSecurityProfile.DataAwsccIotSecurityProfileAlertTargets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsecurityprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsecurityprofile"
 
 &dataawscciotsecurityprofile.DataAwsccIotSecurityProfileAlertTargets {
 
@@ -725,7 +725,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsecuritypr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotSecurityProfile.DataAwsccIotSecurityProfileBehaviors.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsecurityprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsecurityprofile"
 
 &dataawscciotsecurityprofile.DataAwsccIotSecurityProfileBehaviors {
 
@@ -738,7 +738,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsecuritypr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotSecurityProfile.DataAwsccIotSecurityProfileBehaviorsCriteria.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsecurityprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsecurityprofile"
 
 &dataawscciotsecurityprofile.DataAwsccIotSecurityProfileBehaviorsCriteria {
 
@@ -751,7 +751,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsecuritypr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotSecurityProfile.DataAwsccIotSecurityProfileBehaviorsCriteriaMlDetectionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsecurityprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsecurityprofile"
 
 &dataawscciotsecurityprofile.DataAwsccIotSecurityProfileBehaviorsCriteriaMlDetectionConfig {
 
@@ -764,7 +764,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsecuritypr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotSecurityProfile.DataAwsccIotSecurityProfileBehaviorsCriteriaStatisticalThreshold.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsecurityprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsecurityprofile"
 
 &dataawscciotsecurityprofile.DataAwsccIotSecurityProfileBehaviorsCriteriaStatisticalThreshold {
 
@@ -777,7 +777,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsecuritypr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotSecurityProfile.DataAwsccIotSecurityProfileBehaviorsCriteriaValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsecurityprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsecurityprofile"
 
 &dataawscciotsecurityprofile.DataAwsccIotSecurityProfileBehaviorsCriteriaValue {
 
@@ -790,7 +790,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsecuritypr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotSecurityProfile.DataAwsccIotSecurityProfileBehaviorsMetricDimension.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsecurityprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsecurityprofile"
 
 &dataawscciotsecurityprofile.DataAwsccIotSecurityProfileBehaviorsMetricDimension {
 
@@ -803,7 +803,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsecuritypr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotSecurityProfile.DataAwsccIotSecurityProfileConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsecurityprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsecurityprofile"
 
 &dataawscciotsecurityprofile.DataAwsccIotSecurityProfileConfig {
 	Connection: interface{},
@@ -912,7 +912,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_security_profile#id DataAwsccIotSecurityProfile#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_security_profile#id DataAwsccIotSecurityProfile#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -924,7 +924,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotSecurityProfile.DataAwsccIotSecurityProfileMetricsExportConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsecurityprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsecurityprofile"
 
 &dataawscciotsecurityprofile.DataAwsccIotSecurityProfileMetricsExportConfig {
 
@@ -937,7 +937,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsecuritypr
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotSecurityProfile.DataAwsccIotSecurityProfileTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsecurityprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsecurityprofile"
 
 &dataawscciotsecurityprofile.DataAwsccIotSecurityProfileTags {
 
@@ -952,7 +952,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsecuritypr
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotSecurityProfile.DataAwsccIotSecurityProfileAdditionalMetricsToRetainV2List.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsecurityprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsecurityprofile"
 
 dataawscciotsecurityprofile.NewDataAwsccIotSecurityProfileAdditionalMetricsToRetainV2List(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIotSecurityProfileAdditionalMetricsToRetainV2List
 ```
@@ -1101,7 +1101,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotSecurityProfile.DataAwsccIotSecurityProfileAdditionalMetricsToRetainV2MetricDimensionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsecurityprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsecurityprofile"
 
 dataawscciotsecurityprofile.NewDataAwsccIotSecurityProfileAdditionalMetricsToRetainV2MetricDimensionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotSecurityProfileAdditionalMetricsToRetainV2MetricDimensionOutputReference
 ```
@@ -1372,7 +1372,7 @@ func InternalValue() DataAwsccIotSecurityProfileAdditionalMetricsToRetainV2Metri
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotSecurityProfile.DataAwsccIotSecurityProfileAdditionalMetricsToRetainV2OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsecurityprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsecurityprofile"
 
 dataawscciotsecurityprofile.NewDataAwsccIotSecurityProfileAdditionalMetricsToRetainV2OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIotSecurityProfileAdditionalMetricsToRetainV2OutputReference
 ```
@@ -1672,7 +1672,7 @@ func InternalValue() DataAwsccIotSecurityProfileAdditionalMetricsToRetainV2
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotSecurityProfile.DataAwsccIotSecurityProfileAlertTargetsMap.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsecurityprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsecurityprofile"
 
 dataawscciotsecurityprofile.NewDataAwsccIotSecurityProfileAlertTargetsMap(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotSecurityProfileAlertTargetsMap
 ```
@@ -1808,7 +1808,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotSecurityProfile.DataAwsccIotSecurityProfileAlertTargetsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsecurityprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsecurityprofile"
 
 dataawscciotsecurityprofile.NewDataAwsccIotSecurityProfileAlertTargetsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectKey *string) DataAwsccIotSecurityProfileAlertTargetsOutputReference
 ```
@@ -2088,7 +2088,7 @@ func InternalValue() DataAwsccIotSecurityProfileAlertTargets
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotSecurityProfile.DataAwsccIotSecurityProfileBehaviorsCriteriaMlDetectionConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsecurityprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsecurityprofile"
 
 dataawscciotsecurityprofile.NewDataAwsccIotSecurityProfileBehaviorsCriteriaMlDetectionConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotSecurityProfileBehaviorsCriteriaMlDetectionConfigOutputReference
 ```
@@ -2348,7 +2348,7 @@ func InternalValue() DataAwsccIotSecurityProfileBehaviorsCriteriaMlDetectionConf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotSecurityProfile.DataAwsccIotSecurityProfileBehaviorsCriteriaOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsecurityprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsecurityprofile"
 
 dataawscciotsecurityprofile.NewDataAwsccIotSecurityProfileBehaviorsCriteriaOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotSecurityProfileBehaviorsCriteriaOutputReference
 ```
@@ -2674,7 +2674,7 @@ func InternalValue() DataAwsccIotSecurityProfileBehaviorsCriteria
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotSecurityProfile.DataAwsccIotSecurityProfileBehaviorsCriteriaStatisticalThresholdOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsecurityprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsecurityprofile"
 
 dataawscciotsecurityprofile.NewDataAwsccIotSecurityProfileBehaviorsCriteriaStatisticalThresholdOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotSecurityProfileBehaviorsCriteriaStatisticalThresholdOutputReference
 ```
@@ -2934,7 +2934,7 @@ func InternalValue() DataAwsccIotSecurityProfileBehaviorsCriteriaStatisticalThre
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotSecurityProfile.DataAwsccIotSecurityProfileBehaviorsCriteriaValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsecurityprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsecurityprofile"
 
 dataawscciotsecurityprofile.NewDataAwsccIotSecurityProfileBehaviorsCriteriaValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotSecurityProfileBehaviorsCriteriaValueOutputReference
 ```
@@ -3249,7 +3249,7 @@ func InternalValue() DataAwsccIotSecurityProfileBehaviorsCriteriaValue
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotSecurityProfile.DataAwsccIotSecurityProfileBehaviorsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsecurityprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsecurityprofile"
 
 dataawscciotsecurityprofile.NewDataAwsccIotSecurityProfileBehaviorsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIotSecurityProfileBehaviorsList
 ```
@@ -3398,7 +3398,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotSecurityProfile.DataAwsccIotSecurityProfileBehaviorsMetricDimensionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsecurityprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsecurityprofile"
 
 dataawscciotsecurityprofile.NewDataAwsccIotSecurityProfileBehaviorsMetricDimensionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotSecurityProfileBehaviorsMetricDimensionOutputReference
 ```
@@ -3669,7 +3669,7 @@ func InternalValue() DataAwsccIotSecurityProfileBehaviorsMetricDimension
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotSecurityProfile.DataAwsccIotSecurityProfileBehaviorsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsecurityprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsecurityprofile"
 
 dataawscciotsecurityprofile.NewDataAwsccIotSecurityProfileBehaviorsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIotSecurityProfileBehaviorsOutputReference
 ```
@@ -4002,7 +4002,7 @@ func InternalValue() DataAwsccIotSecurityProfileBehaviors
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotSecurityProfile.DataAwsccIotSecurityProfileMetricsExportConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsecurityprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsecurityprofile"
 
 dataawscciotsecurityprofile.NewDataAwsccIotSecurityProfileMetricsExportConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotSecurityProfileMetricsExportConfigOutputReference
 ```
@@ -4273,7 +4273,7 @@ func InternalValue() DataAwsccIotSecurityProfileMetricsExportConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotSecurityProfile.DataAwsccIotSecurityProfileTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsecurityprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsecurityprofile"
 
 dataawscciotsecurityprofile.NewDataAwsccIotSecurityProfileTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIotSecurityProfileTagsList
 ```
@@ -4422,7 +4422,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotSecurityProfile.DataAwsccIotSecurityProfileTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsecurityprofile"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsecurityprofile"
 
 dataawscciotsecurityprofile.NewDataAwsccIotSecurityProfileTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIotSecurityProfileTagsOutputReference
 ```

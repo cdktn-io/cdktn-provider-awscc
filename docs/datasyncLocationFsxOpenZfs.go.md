@@ -4,12 +4,12 @@
 
 ### DatasyncLocationFsxOpenZfs <a name="DatasyncLocationFsxOpenZfs" id="@cdktn/provider-awscc.datasyncLocationFsxOpenZfs.DatasyncLocationFsxOpenZfs"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_fsx_open_zfs awscc_datasync_location_fsx_open_zfs}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_fsx_open_zfs awscc_datasync_location_fsx_open_zfs}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datasyncLocationFsxOpenZfs.DatasyncLocationFsxOpenZfs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationfsxopenzfs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationfsxopenzfs"
 
 datasynclocationfsxopenzfs.NewDatasyncLocationFsxOpenZfs(scope Construct, id *string, config DatasyncLocationFsxOpenZfsConfig) DatasyncLocationFsxOpenZfs
 ```
@@ -447,7 +447,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.datasyncLocationFsxOpenZfs.DatasyncLocationFsxOpenZfs.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationfsxopenzfs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationfsxopenzfs"
 
 datasynclocationfsxopenzfs.DatasyncLocationFsxOpenZfs_IsConstruct(x interface{}) *bool
 ```
@@ -479,7 +479,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.datasyncLocationFsxOpenZfs.DatasyncLocationFsxOpenZfs.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationfsxopenzfs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationfsxopenzfs"
 
 datasynclocationfsxopenzfs.DatasyncLocationFsxOpenZfs_IsTerraformElement(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ datasynclocationfsxopenzfs.DatasyncLocationFsxOpenZfs_IsTerraformElement(x inter
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.datasyncLocationFsxOpenZfs.DatasyncLocationFsxOpenZfs.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationfsxopenzfs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationfsxopenzfs"
 
 datasynclocationfsxopenzfs.DatasyncLocationFsxOpenZfs_IsTerraformResource(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ datasynclocationfsxopenzfs.DatasyncLocationFsxOpenZfs_IsTerraformResource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.datasyncLocationFsxOpenZfs.DatasyncLocationFsxOpenZfs.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationfsxopenzfs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationfsxopenzfs"
 
 datasynclocationfsxopenzfs.DatasyncLocationFsxOpenZfs_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -536,7 +536,7 @@ The construct id used in the generated config for the DatasyncLocationFsxOpenZfs
 
 The id of the existing DatasyncLocationFsxOpenZfs that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_fsx_open_zfs#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_fsx_open_zfs#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -879,7 +879,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.datasyncLocationFsxOpenZfs.DatasyncLocationFsxOpenZfsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationfsxopenzfs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationfsxopenzfs"
 
 &datasynclocationfsxopenzfs.DatasyncLocationFsxOpenZfsConfig {
 	Connection: interface{},
@@ -889,7 +889,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationfsxope
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	Protocol: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.datasyncLocationFsxOpenZfs.DatasyncLocationFsxOpenZfsProtocol,
+	Protocol: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.datasyncLocationFsxOpenZfs.DatasyncLocationFsxOpenZfsProtocol,
 	SecurityGroupArns: *[]*string,
 	FsxFilesystemArn: *string,
 	Subdirectory: *string,
@@ -996,7 +996,7 @@ Protocol DatasyncLocationFsxOpenZfsProtocol
 
 Configuration settings for an NFS or SMB protocol, currently only support NFS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_fsx_open_zfs#protocol DatasyncLocationFsxOpenZfs#protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_fsx_open_zfs#protocol DatasyncLocationFsxOpenZfs#protocol}
 
 ---
 
@@ -1010,7 +1010,7 @@ SecurityGroupArns *[]*string
 
 The ARNs of the security groups that are to use to configure the FSx OpenZFS file system.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_fsx_open_zfs#security_group_arns DatasyncLocationFsxOpenZfs#security_group_arns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_fsx_open_zfs#security_group_arns DatasyncLocationFsxOpenZfs#security_group_arns}
 
 ---
 
@@ -1024,7 +1024,7 @@ FsxFilesystemArn *string
 
 The Amazon Resource Name (ARN) for the FSx OpenZFS file system.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_fsx_open_zfs#fsx_filesystem_arn DatasyncLocationFsxOpenZfs#fsx_filesystem_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_fsx_open_zfs#fsx_filesystem_arn DatasyncLocationFsxOpenZfs#fsx_filesystem_arn}
 
 ---
 
@@ -1038,7 +1038,7 @@ Subdirectory *string
 
 A subdirectory in the location's path.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_fsx_open_zfs#subdirectory DatasyncLocationFsxOpenZfs#subdirectory}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_fsx_open_zfs#subdirectory DatasyncLocationFsxOpenZfs#subdirectory}
 
 ---
 
@@ -1052,7 +1052,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_fsx_open_zfs#tags DatasyncLocationFsxOpenZfs#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_fsx_open_zfs#tags DatasyncLocationFsxOpenZfs#tags}
 
 ---
 
@@ -1061,10 +1061,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.datasyncLocationFsxOpenZfs.DatasyncLocationFsxOpenZfsProtocol.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationfsxopenzfs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationfsxopenzfs"
 
 &datasynclocationfsxopenzfs.DatasyncLocationFsxOpenZfsProtocol {
-	Nfs: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.datasyncLocationFsxOpenZfs.DatasyncLocationFsxOpenZfsProtocolNfs,
+	Nfs: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.datasyncLocationFsxOpenZfs.DatasyncLocationFsxOpenZfsProtocolNfs,
 }
 ```
 
@@ -1086,7 +1086,7 @@ Nfs DatasyncLocationFsxOpenZfsProtocolNfs
 
 FSx OpenZFS file system NFS protocol information.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_fsx_open_zfs#nfs DatasyncLocationFsxOpenZfs#nfs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_fsx_open_zfs#nfs DatasyncLocationFsxOpenZfs#nfs}
 
 ---
 
@@ -1095,10 +1095,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.datasyncLocationFsxOpenZfs.DatasyncLocationFsxOpenZfsProtocolNfs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationfsxopenzfs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationfsxopenzfs"
 
 &datasynclocationfsxopenzfs.DatasyncLocationFsxOpenZfsProtocolNfs {
-	MountOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.datasyncLocationFsxOpenZfs.DatasyncLocationFsxOpenZfsProtocolNfsMountOptions,
+	MountOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.datasyncLocationFsxOpenZfs.DatasyncLocationFsxOpenZfsProtocolNfsMountOptions,
 }
 ```
 
@@ -1120,7 +1120,7 @@ MountOptions DatasyncLocationFsxOpenZfsProtocolNfsMountOptions
 
 The NFS mount options that DataSync can use to mount your NFS share.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_fsx_open_zfs#mount_options DatasyncLocationFsxOpenZfs#mount_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_fsx_open_zfs#mount_options DatasyncLocationFsxOpenZfs#mount_options}
 
 ---
 
@@ -1129,7 +1129,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.datasyncLocationFsxOpenZfs.DatasyncLocationFsxOpenZfsProtocolNfsMountOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationfsxopenzfs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationfsxopenzfs"
 
 &datasynclocationfsxopenzfs.DatasyncLocationFsxOpenZfsProtocolNfsMountOptions {
 	Version: *string,
@@ -1154,7 +1154,7 @@ Version *string
 
 The specific NFS version that you want DataSync to use to mount your NFS share.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_fsx_open_zfs#version DatasyncLocationFsxOpenZfs#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_fsx_open_zfs#version DatasyncLocationFsxOpenZfs#version}
 
 ---
 
@@ -1163,7 +1163,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.datasyncLocationFsxOpenZfs.DatasyncLocationFsxOpenZfsTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationfsxopenzfs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationfsxopenzfs"
 
 &datasynclocationfsxopenzfs.DatasyncLocationFsxOpenZfsTags {
 	Key: *string,
@@ -1190,7 +1190,7 @@ Key *string
 
 The key for an AWS resource tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_fsx_open_zfs#key DatasyncLocationFsxOpenZfs#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_fsx_open_zfs#key DatasyncLocationFsxOpenZfs#key}
 
 ---
 
@@ -1204,7 +1204,7 @@ Value *string
 
 The value for an AWS resource tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_fsx_open_zfs#value DatasyncLocationFsxOpenZfs#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_fsx_open_zfs#value DatasyncLocationFsxOpenZfs#value}
 
 ---
 
@@ -1215,7 +1215,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datasyncLocationFsxOpenZfs.DatasyncLocationFsxOpenZfsProtocolNfsMountOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationfsxopenzfs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationfsxopenzfs"
 
 datasynclocationfsxopenzfs.NewDatasyncLocationFsxOpenZfsProtocolNfsMountOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DatasyncLocationFsxOpenZfsProtocolNfsMountOptionsOutputReference
 ```
@@ -1493,7 +1493,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datasyncLocationFsxOpenZfs.DatasyncLocationFsxOpenZfsProtocolNfsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationfsxopenzfs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationfsxopenzfs"
 
 datasynclocationfsxopenzfs.NewDatasyncLocationFsxOpenZfsProtocolNfsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DatasyncLocationFsxOpenZfsProtocolNfsOutputReference
 ```
@@ -1784,7 +1784,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datasyncLocationFsxOpenZfs.DatasyncLocationFsxOpenZfsProtocolOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationfsxopenzfs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationfsxopenzfs"
 
 datasynclocationfsxopenzfs.NewDatasyncLocationFsxOpenZfsProtocolOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DatasyncLocationFsxOpenZfsProtocolOutputReference
 ```
@@ -2075,7 +2075,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datasyncLocationFsxOpenZfs.DatasyncLocationFsxOpenZfsTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationfsxopenzfs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationfsxopenzfs"
 
 datasynclocationfsxopenzfs.NewDatasyncLocationFsxOpenZfsTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DatasyncLocationFsxOpenZfsTagsList
 ```
@@ -2235,7 +2235,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datasyncLocationFsxOpenZfs.DatasyncLocationFsxOpenZfsTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationfsxopenzfs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationfsxopenzfs"
 
 datasynclocationfsxopenzfs.NewDatasyncLocationFsxOpenZfsTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DatasyncLocationFsxOpenZfsTagsOutputReference
 ```

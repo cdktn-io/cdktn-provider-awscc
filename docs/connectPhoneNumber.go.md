@@ -4,12 +4,12 @@
 
 ### ConnectPhoneNumber <a name="ConnectPhoneNumber" id="@cdktn/provider-awscc.connectPhoneNumber.ConnectPhoneNumber"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_phone_number awscc_connect_phone_number}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_phone_number awscc_connect_phone_number}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectPhoneNumber.ConnectPhoneNumber.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectphonenumber"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectphonenumber"
 
 connectphonenumber.NewConnectPhoneNumber(scope Construct, id *string, config ConnectPhoneNumberConfig) ConnectPhoneNumber
 ```
@@ -455,7 +455,7 @@ func ResetType()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.connectPhoneNumber.ConnectPhoneNumber.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectphonenumber"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectphonenumber"
 
 connectphonenumber.ConnectPhoneNumber_IsConstruct(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.connectPhoneNumber.ConnectPhoneNumber.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectphonenumber"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectphonenumber"
 
 connectphonenumber.ConnectPhoneNumber_IsTerraformElement(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ connectphonenumber.ConnectPhoneNumber_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.connectPhoneNumber.ConnectPhoneNumber.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectphonenumber"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectphonenumber"
 
 connectphonenumber.ConnectPhoneNumber_IsTerraformResource(x interface{}) *bool
 ```
@@ -515,7 +515,7 @@ connectphonenumber.ConnectPhoneNumber_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.connectPhoneNumber.ConnectPhoneNumber.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectphonenumber"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectphonenumber"
 
 connectphonenumber.ConnectPhoneNumber_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -544,7 +544,7 @@ The construct id used in the generated config for the ConnectPhoneNumber to impo
 
 The id of the existing ConnectPhoneNumber that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_phone_number#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_phone_number#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -931,7 +931,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectPhoneNumber.ConnectPhoneNumberConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectphonenumber"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectphonenumber"
 
 &connectphonenumber.ConnectPhoneNumberConfig {
 	Connection: interface{},
@@ -1052,7 +1052,7 @@ TargetArn *string
 
 The ARN of the target the phone number is claimed to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_phone_number#target_arn ConnectPhoneNumber#target_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_phone_number#target_arn ConnectPhoneNumber#target_arn}
 
 ---
 
@@ -1066,7 +1066,7 @@ CountryCode *string
 
 The phone number country code.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_phone_number#country_code ConnectPhoneNumber#country_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_phone_number#country_code ConnectPhoneNumber#country_code}
 
 ---
 
@@ -1080,7 +1080,7 @@ Description *string
 
 The description of the phone number.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_phone_number#description ConnectPhoneNumber#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_phone_number#description ConnectPhoneNumber#description}
 
 ---
 
@@ -1094,7 +1094,7 @@ Prefix *string
 
 The phone number prefix.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_phone_number#prefix ConnectPhoneNumber#prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_phone_number#prefix ConnectPhoneNumber#prefix}
 
 ---
 
@@ -1108,7 +1108,7 @@ SourcePhoneNumberArn *string
 
 The source phone number arn.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_phone_number#source_phone_number_arn ConnectPhoneNumber#source_phone_number_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_phone_number#source_phone_number_arn ConnectPhoneNumber#source_phone_number_arn}
 
 ---
 
@@ -1122,7 +1122,7 @@ Tags interface{}
 
 One or more tags.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_phone_number#tags ConnectPhoneNumber#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_phone_number#tags ConnectPhoneNumber#tags}
 
 ---
 
@@ -1136,7 +1136,7 @@ Type *string
 
 The phone number type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_phone_number#type ConnectPhoneNumber#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_phone_number#type ConnectPhoneNumber#type}
 
 ---
 
@@ -1145,7 +1145,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectPhoneNumber.ConnectPhoneNumberTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectphonenumber"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectphonenumber"
 
 &connectphonenumber.ConnectPhoneNumberTags {
 	Key: *string,
@@ -1174,7 +1174,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_phone_number#key ConnectPhoneNumber#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_phone_number#key ConnectPhoneNumber#key}
 
 ---
 
@@ -1190,7 +1190,7 @@ The value for the tag.
 
 You can specify a value that is 1 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_phone_number#value ConnectPhoneNumber#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_phone_number#value ConnectPhoneNumber#value}
 
 ---
 
@@ -1201,7 +1201,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectPhoneNumber.ConnectPhoneNumberTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectphonenumber"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectphonenumber"
 
 connectphonenumber.NewConnectPhoneNumberTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ConnectPhoneNumberTagsList
 ```
@@ -1361,7 +1361,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectPhoneNumber.ConnectPhoneNumberTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectphonenumber"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectphonenumber"
 
 connectphonenumber.NewConnectPhoneNumberTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ConnectPhoneNumberTagsOutputReference
 ```

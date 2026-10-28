@@ -4,12 +4,12 @@
 
 ### DataAwsccEntityresolutionSchemaMappings <a name="DataAwsccEntityresolutionSchemaMappings" id="@cdktn/provider-awscc.dataAwsccEntityresolutionSchemaMappings.DataAwsccEntityresolutionSchemaMappings"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/entityresolution_schema_mappings awscc_entityresolution_schema_mappings}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/entityresolution_schema_mappings awscc_entityresolution_schema_mappings}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEntityresolutionSchemaMappings.DataAwsccEntityresolutionSchemaMappings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccentityresolutionschemamappings"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccentityresolutionschemamappings"
 
 dataawsccentityresolutionschemamappings.NewDataAwsccEntityresolutionSchemaMappings(scope Construct, id *string, config DataAwsccEntityresolutionSchemaMappingsConfig) DataAwsccEntityresolutionSchemaMappings
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEntityresolutionSchemaMappings.DataAwsccEntityresolutionSchemaMappings.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccentityresolutionschemamappings"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccentityresolutionschemamappings"
 
 dataawsccentityresolutionschemamappings.DataAwsccEntityresolutionSchemaMappings_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEntityresolutionSchemaMappings.DataAwsccEntityresolutionSchemaMappings.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccentityresolutionschemamappings"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccentityresolutionschemamappings"
 
 dataawsccentityresolutionschemamappings.DataAwsccEntityresolutionSchemaMappings_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccentityresolutionschemamappings.DataAwsccEntityresolutionSchemaMappings_
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEntityresolutionSchemaMappings.DataAwsccEntityresolutionSchemaMappings.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccentityresolutionschemamappings"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccentityresolutionschemamappings"
 
 dataawsccentityresolutionschemamappings.DataAwsccEntityresolutionSchemaMappings_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccentityresolutionschemamappings.DataAwsccEntityresolutionSchemaMappings_
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEntityresolutionSchemaMappings.DataAwsccEntityresolutionSchemaMappings.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccentityresolutionschemamappings"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccentityresolutionschemamappings"
 
 dataawsccentityresolutionschemamappings.DataAwsccEntityresolutionSchemaMappings_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEntityresolutionS
 
 The id of the existing DataAwsccEntityresolutionSchemaMappings that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/entityresolution_schema_mappings#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/entityresolution_schema_mappings#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEntityresolutionSchemaMappings.DataAwsccEntityresolutionSchemaMappingsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccentityresolutionschemamappings"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccentityresolutionschemamappings"
 
 &dataawsccentityresolutionschemamappings.DataAwsccEntityresolutionSchemaMappingsConfig {
 	Connection: interface{},

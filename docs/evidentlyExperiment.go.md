@@ -4,12 +4,12 @@
 
 ### EvidentlyExperiment <a name="EvidentlyExperiment" id="@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperiment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_experiment awscc_evidently_experiment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_experiment awscc_evidently_experiment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperiment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/evidentlyexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/evidentlyexperiment"
 
 evidentlyexperiment.NewEvidentlyExperiment(scope Construct, id *string, config EvidentlyExperimentConfig) EvidentlyExperiment
 ```
@@ -514,7 +514,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperiment.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/evidentlyexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/evidentlyexperiment"
 
 evidentlyexperiment.EvidentlyExperiment_IsConstruct(x interface{}) *bool
 ```
@@ -546,7 +546,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperiment.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/evidentlyexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/evidentlyexperiment"
 
 evidentlyexperiment.EvidentlyExperiment_IsTerraformElement(x interface{}) *bool
 ```
@@ -560,7 +560,7 @@ evidentlyexperiment.EvidentlyExperiment_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperiment.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/evidentlyexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/evidentlyexperiment"
 
 evidentlyexperiment.EvidentlyExperiment_IsTerraformResource(x interface{}) *bool
 ```
@@ -574,7 +574,7 @@ evidentlyexperiment.EvidentlyExperiment_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperiment.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/evidentlyexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/evidentlyexperiment"
 
 evidentlyexperiment.EvidentlyExperiment_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -603,7 +603,7 @@ The construct id used in the generated config for the EvidentlyExperiment to imp
 
 The id of the existing EvidentlyExperiment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_experiment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_experiment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1089,7 +1089,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperimentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/evidentlyexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/evidentlyexperiment"
 
 &evidentlyexperiment.EvidentlyExperimentConfig {
 	Connection: interface{},
@@ -1101,13 +1101,13 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/evidentlyexperiment"
 	Provisioners: *[]interface{},
 	MetricGoals: interface{},
 	Name: *string,
-	OnlineAbConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.evidentlyExperiment.EvidentlyExperimentOnlineAbConfig,
+	OnlineAbConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.evidentlyExperiment.EvidentlyExperimentOnlineAbConfig,
 	Project: *string,
 	Treatments: interface{},
 	Description: *string,
 	RandomizationSalt: *string,
 	RemoveSegment: interface{},
-	RunningStatus: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.evidentlyExperiment.EvidentlyExperimentRunningStatus,
+	RunningStatus: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.evidentlyExperiment.EvidentlyExperimentRunningStatus,
 	SamplingRate: *f64,
 	Segment: *string,
 	Tags: interface{},
@@ -1125,17 +1125,17 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/evidentlyexperiment"
 | <code><a href="#@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperimentConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperimentConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperimentConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperimentConfig.property.metricGoals">MetricGoals</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_experiment#metric_goals EvidentlyExperiment#metric_goals}. |
-| <code><a href="#@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperimentConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_experiment#name EvidentlyExperiment#name}. |
-| <code><a href="#@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperimentConfig.property.onlineAbConfig">OnlineAbConfig</a></code> | <code><a href="#@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperimentOnlineAbConfig">EvidentlyExperimentOnlineAbConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_experiment#online_ab_config EvidentlyExperiment#online_ab_config}. |
-| <code><a href="#@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperimentConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_experiment#project EvidentlyExperiment#project}. |
-| <code><a href="#@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperimentConfig.property.treatments">Treatments</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_experiment#treatments EvidentlyExperiment#treatments}. |
-| <code><a href="#@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperimentConfig.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_experiment#description EvidentlyExperiment#description}. |
-| <code><a href="#@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperimentConfig.property.randomizationSalt">RandomizationSalt</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_experiment#randomization_salt EvidentlyExperiment#randomization_salt}. |
-| <code><a href="#@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperimentConfig.property.removeSegment">RemoveSegment</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_experiment#remove_segment EvidentlyExperiment#remove_segment}. |
+| <code><a href="#@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperimentConfig.property.metricGoals">MetricGoals</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_experiment#metric_goals EvidentlyExperiment#metric_goals}. |
+| <code><a href="#@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperimentConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_experiment#name EvidentlyExperiment#name}. |
+| <code><a href="#@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperimentConfig.property.onlineAbConfig">OnlineAbConfig</a></code> | <code><a href="#@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperimentOnlineAbConfig">EvidentlyExperimentOnlineAbConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_experiment#online_ab_config EvidentlyExperiment#online_ab_config}. |
+| <code><a href="#@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperimentConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_experiment#project EvidentlyExperiment#project}. |
+| <code><a href="#@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperimentConfig.property.treatments">Treatments</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_experiment#treatments EvidentlyExperiment#treatments}. |
+| <code><a href="#@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperimentConfig.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_experiment#description EvidentlyExperiment#description}. |
+| <code><a href="#@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperimentConfig.property.randomizationSalt">RandomizationSalt</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_experiment#randomization_salt EvidentlyExperiment#randomization_salt}. |
+| <code><a href="#@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperimentConfig.property.removeSegment">RemoveSegment</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_experiment#remove_segment EvidentlyExperiment#remove_segment}. |
 | <code><a href="#@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperimentConfig.property.runningStatus">RunningStatus</a></code> | <code><a href="#@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperimentRunningStatus">EvidentlyExperimentRunningStatus</a></code> | Start Experiment. Default is False. |
-| <code><a href="#@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperimentConfig.property.samplingRate">SamplingRate</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_experiment#sampling_rate EvidentlyExperiment#sampling_rate}. |
-| <code><a href="#@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperimentConfig.property.segment">Segment</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_experiment#segment EvidentlyExperiment#segment}. |
+| <code><a href="#@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperimentConfig.property.samplingRate">SamplingRate</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_experiment#sampling_rate EvidentlyExperiment#sampling_rate}. |
+| <code><a href="#@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperimentConfig.property.segment">Segment</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_experiment#segment EvidentlyExperiment#segment}. |
 | <code><a href="#@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperimentConfig.property.tags">Tags</a></code> | <code>interface{}</code> | An array of key-value pairs to apply to this resource. |
 
 ---
@@ -1218,7 +1218,7 @@ MetricGoals interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_experiment#metric_goals EvidentlyExperiment#metric_goals}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_experiment#metric_goals EvidentlyExperiment#metric_goals}.
 
 ---
 
@@ -1230,7 +1230,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_experiment#name EvidentlyExperiment#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_experiment#name EvidentlyExperiment#name}.
 
 ---
 
@@ -1242,7 +1242,7 @@ OnlineAbConfig EvidentlyExperimentOnlineAbConfig
 
 - *Type:* <a href="#@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperimentOnlineAbConfig">EvidentlyExperimentOnlineAbConfig</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_experiment#online_ab_config EvidentlyExperiment#online_ab_config}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_experiment#online_ab_config EvidentlyExperiment#online_ab_config}.
 
 ---
 
@@ -1254,7 +1254,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_experiment#project EvidentlyExperiment#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_experiment#project EvidentlyExperiment#project}.
 
 ---
 
@@ -1266,7 +1266,7 @@ Treatments interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_experiment#treatments EvidentlyExperiment#treatments}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_experiment#treatments EvidentlyExperiment#treatments}.
 
 ---
 
@@ -1278,7 +1278,7 @@ Description *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_experiment#description EvidentlyExperiment#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_experiment#description EvidentlyExperiment#description}.
 
 ---
 
@@ -1290,7 +1290,7 @@ RandomizationSalt *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_experiment#randomization_salt EvidentlyExperiment#randomization_salt}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_experiment#randomization_salt EvidentlyExperiment#randomization_salt}.
 
 ---
 
@@ -1302,7 +1302,7 @@ RemoveSegment interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_experiment#remove_segment EvidentlyExperiment#remove_segment}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_experiment#remove_segment EvidentlyExperiment#remove_segment}.
 
 ---
 
@@ -1316,7 +1316,7 @@ RunningStatus EvidentlyExperimentRunningStatus
 
 Start Experiment. Default is False.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_experiment#running_status EvidentlyExperiment#running_status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_experiment#running_status EvidentlyExperiment#running_status}
 
 ---
 
@@ -1328,7 +1328,7 @@ SamplingRate *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_experiment#sampling_rate EvidentlyExperiment#sampling_rate}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_experiment#sampling_rate EvidentlyExperiment#sampling_rate}.
 
 ---
 
@@ -1340,7 +1340,7 @@ Segment *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_experiment#segment EvidentlyExperiment#segment}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_experiment#segment EvidentlyExperiment#segment}.
 
 ---
 
@@ -1354,7 +1354,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_experiment#tags EvidentlyExperiment#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_experiment#tags EvidentlyExperiment#tags}
 
 ---
 
@@ -1363,7 +1363,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperimentMetricGoals.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/evidentlyexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/evidentlyexperiment"
 
 &evidentlyexperiment.EvidentlyExperimentMetricGoals {
 	DesiredChange: *string,
@@ -1379,12 +1379,12 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/evidentlyexperiment"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperimentMetricGoals.property.desiredChange">DesiredChange</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_experiment#desired_change EvidentlyExperiment#desired_change}. |
+| <code><a href="#@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperimentMetricGoals.property.desiredChange">DesiredChange</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_experiment#desired_change EvidentlyExperiment#desired_change}. |
 | <code><a href="#@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperimentMetricGoals.property.entityIdKey">EntityIdKey</a></code> | <code>*string</code> | The JSON path to reference the entity id in the event. |
-| <code><a href="#@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperimentMetricGoals.property.metricName">MetricName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_experiment#metric_name EvidentlyExperiment#metric_name}. |
+| <code><a href="#@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperimentMetricGoals.property.metricName">MetricName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_experiment#metric_name EvidentlyExperiment#metric_name}. |
 | <code><a href="#@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperimentMetricGoals.property.valueKey">ValueKey</a></code> | <code>*string</code> | The JSON path to reference the numerical metric value in the event. |
 | <code><a href="#@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperimentMetricGoals.property.eventPattern">EventPattern</a></code> | <code>*string</code> | Event patterns have the same structure as the events they match. |
-| <code><a href="#@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperimentMetricGoals.property.unitLabel">UnitLabel</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_experiment#unit_label EvidentlyExperiment#unit_label}. |
+| <code><a href="#@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperimentMetricGoals.property.unitLabel">UnitLabel</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_experiment#unit_label EvidentlyExperiment#unit_label}. |
 
 ---
 
@@ -1396,7 +1396,7 @@ DesiredChange *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_experiment#desired_change EvidentlyExperiment#desired_change}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_experiment#desired_change EvidentlyExperiment#desired_change}.
 
 ---
 
@@ -1410,7 +1410,7 @@ EntityIdKey *string
 
 The JSON path to reference the entity id in the event.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_experiment#entity_id_key EvidentlyExperiment#entity_id_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_experiment#entity_id_key EvidentlyExperiment#entity_id_key}
 
 ---
 
@@ -1422,7 +1422,7 @@ MetricName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_experiment#metric_name EvidentlyExperiment#metric_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_experiment#metric_name EvidentlyExperiment#metric_name}.
 
 ---
 
@@ -1436,7 +1436,7 @@ ValueKey *string
 
 The JSON path to reference the numerical metric value in the event.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_experiment#value_key EvidentlyExperiment#value_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_experiment#value_key EvidentlyExperiment#value_key}
 
 ---
 
@@ -1452,7 +1452,7 @@ Event patterns have the same structure as the events they match.
 
 Rules use event patterns to select events. An event pattern either matches an event or it doesn't.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_experiment#event_pattern EvidentlyExperiment#event_pattern}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_experiment#event_pattern EvidentlyExperiment#event_pattern}
 
 ---
 
@@ -1464,7 +1464,7 @@ UnitLabel *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_experiment#unit_label EvidentlyExperiment#unit_label}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_experiment#unit_label EvidentlyExperiment#unit_label}.
 
 ---
 
@@ -1473,7 +1473,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperimentOnlineAbConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/evidentlyexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/evidentlyexperiment"
 
 &evidentlyexperiment.EvidentlyExperimentOnlineAbConfig {
 	ControlTreatmentName: *string,
@@ -1485,8 +1485,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/evidentlyexperiment"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperimentOnlineAbConfig.property.controlTreatmentName">ControlTreatmentName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_experiment#control_treatment_name EvidentlyExperiment#control_treatment_name}. |
-| <code><a href="#@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperimentOnlineAbConfig.property.treatmentWeights">TreatmentWeights</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_experiment#treatment_weights EvidentlyExperiment#treatment_weights}. |
+| <code><a href="#@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperimentOnlineAbConfig.property.controlTreatmentName">ControlTreatmentName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_experiment#control_treatment_name EvidentlyExperiment#control_treatment_name}. |
+| <code><a href="#@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperimentOnlineAbConfig.property.treatmentWeights">TreatmentWeights</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_experiment#treatment_weights EvidentlyExperiment#treatment_weights}. |
 
 ---
 
@@ -1498,7 +1498,7 @@ ControlTreatmentName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_experiment#control_treatment_name EvidentlyExperiment#control_treatment_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_experiment#control_treatment_name EvidentlyExperiment#control_treatment_name}.
 
 ---
 
@@ -1510,7 +1510,7 @@ TreatmentWeights interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_experiment#treatment_weights EvidentlyExperiment#treatment_weights}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_experiment#treatment_weights EvidentlyExperiment#treatment_weights}.
 
 ---
 
@@ -1519,7 +1519,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperimentOnlineAbConfigTreatmentWeights.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/evidentlyexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/evidentlyexperiment"
 
 &evidentlyexperiment.EvidentlyExperimentOnlineAbConfigTreatmentWeights {
 	SplitWeight: *f64,
@@ -1531,8 +1531,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/evidentlyexperiment"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperimentOnlineAbConfigTreatmentWeights.property.splitWeight">SplitWeight</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_experiment#split_weight EvidentlyExperiment#split_weight}. |
-| <code><a href="#@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperimentOnlineAbConfigTreatmentWeights.property.treatment">Treatment</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_experiment#treatment EvidentlyExperiment#treatment}. |
+| <code><a href="#@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperimentOnlineAbConfigTreatmentWeights.property.splitWeight">SplitWeight</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_experiment#split_weight EvidentlyExperiment#split_weight}. |
+| <code><a href="#@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperimentOnlineAbConfigTreatmentWeights.property.treatment">Treatment</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_experiment#treatment EvidentlyExperiment#treatment}. |
 
 ---
 
@@ -1544,7 +1544,7 @@ SplitWeight *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_experiment#split_weight EvidentlyExperiment#split_weight}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_experiment#split_weight EvidentlyExperiment#split_weight}.
 
 ---
 
@@ -1556,7 +1556,7 @@ Treatment *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_experiment#treatment EvidentlyExperiment#treatment}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_experiment#treatment EvidentlyExperiment#treatment}.
 
 ---
 
@@ -1565,7 +1565,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperimentRunningStatus.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/evidentlyexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/evidentlyexperiment"
 
 &evidentlyexperiment.EvidentlyExperimentRunningStatus {
 	AnalysisCompleteTime: *string,
@@ -1596,7 +1596,7 @@ AnalysisCompleteTime *string
 
 Provide the analysis Completion time for an experiment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_experiment#analysis_complete_time EvidentlyExperiment#analysis_complete_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_experiment#analysis_complete_time EvidentlyExperiment#analysis_complete_time}
 
 ---
 
@@ -1610,7 +1610,7 @@ DesiredState *string
 
 Provide CANCELLED or COMPLETED desired state when stopping an experiment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_experiment#desired_state EvidentlyExperiment#desired_state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_experiment#desired_state EvidentlyExperiment#desired_state}
 
 ---
 
@@ -1624,7 +1624,7 @@ Reason *string
 
 Reason is a required input for stopping the experiment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_experiment#reason EvidentlyExperiment#reason}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_experiment#reason EvidentlyExperiment#reason}
 
 ---
 
@@ -1638,7 +1638,7 @@ Status *string
 
 Provide START or STOP action to apply on an experiment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_experiment#status EvidentlyExperiment#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_experiment#status EvidentlyExperiment#status}
 
 ---
 
@@ -1647,7 +1647,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperimentTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/evidentlyexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/evidentlyexperiment"
 
 &evidentlyexperiment.EvidentlyExperimentTags {
 	Key: *string,
@@ -1676,7 +1676,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_experiment#key EvidentlyExperiment#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_experiment#key EvidentlyExperiment#key}
 
 ---
 
@@ -1692,7 +1692,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_experiment#value EvidentlyExperiment#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_experiment#value EvidentlyExperiment#value}
 
 ---
 
@@ -1701,7 +1701,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperimentTreatments.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/evidentlyexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/evidentlyexperiment"
 
 &evidentlyexperiment.EvidentlyExperimentTreatments {
 	Feature: *string,
@@ -1715,10 +1715,10 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/evidentlyexperiment"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperimentTreatments.property.feature">Feature</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_experiment#feature EvidentlyExperiment#feature}. |
-| <code><a href="#@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperimentTreatments.property.treatmentName">TreatmentName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_experiment#treatment_name EvidentlyExperiment#treatment_name}. |
-| <code><a href="#@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperimentTreatments.property.variation">Variation</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_experiment#variation EvidentlyExperiment#variation}. |
-| <code><a href="#@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperimentTreatments.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_experiment#description EvidentlyExperiment#description}. |
+| <code><a href="#@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperimentTreatments.property.feature">Feature</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_experiment#feature EvidentlyExperiment#feature}. |
+| <code><a href="#@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperimentTreatments.property.treatmentName">TreatmentName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_experiment#treatment_name EvidentlyExperiment#treatment_name}. |
+| <code><a href="#@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperimentTreatments.property.variation">Variation</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_experiment#variation EvidentlyExperiment#variation}. |
+| <code><a href="#@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperimentTreatments.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_experiment#description EvidentlyExperiment#description}. |
 
 ---
 
@@ -1730,7 +1730,7 @@ Feature *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_experiment#feature EvidentlyExperiment#feature}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_experiment#feature EvidentlyExperiment#feature}.
 
 ---
 
@@ -1742,7 +1742,7 @@ TreatmentName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_experiment#treatment_name EvidentlyExperiment#treatment_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_experiment#treatment_name EvidentlyExperiment#treatment_name}.
 
 ---
 
@@ -1754,7 +1754,7 @@ Variation *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_experiment#variation EvidentlyExperiment#variation}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_experiment#variation EvidentlyExperiment#variation}.
 
 ---
 
@@ -1766,7 +1766,7 @@ Description *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/evidently_experiment#description EvidentlyExperiment#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/evidently_experiment#description EvidentlyExperiment#description}.
 
 ---
 
@@ -1777,7 +1777,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperimentMetricGoalsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/evidentlyexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/evidentlyexperiment"
 
 evidentlyexperiment.NewEvidentlyExperimentMetricGoalsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) EvidentlyExperimentMetricGoalsList
 ```
@@ -1937,7 +1937,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperimentMetricGoalsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/evidentlyexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/evidentlyexperiment"
 
 evidentlyexperiment.NewEvidentlyExperimentMetricGoalsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) EvidentlyExperimentMetricGoalsOutputReference
 ```
@@ -2350,7 +2350,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperimentOnlineAbConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/evidentlyexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/evidentlyexperiment"
 
 evidentlyexperiment.NewEvidentlyExperimentOnlineAbConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) EvidentlyExperimentOnlineAbConfigOutputReference
 ```
@@ -2670,7 +2670,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperimentOnlineAbConfigTreatmentWeightsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/evidentlyexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/evidentlyexperiment"
 
 evidentlyexperiment.NewEvidentlyExperimentOnlineAbConfigTreatmentWeightsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) EvidentlyExperimentOnlineAbConfigTreatmentWeightsList
 ```
@@ -2830,7 +2830,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperimentOnlineAbConfigTreatmentWeightsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/evidentlyexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/evidentlyexperiment"
 
 evidentlyexperiment.NewEvidentlyExperimentOnlineAbConfigTreatmentWeightsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) EvidentlyExperimentOnlineAbConfigTreatmentWeightsOutputReference
 ```
@@ -3155,7 +3155,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperimentRunningStatusOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/evidentlyexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/evidentlyexperiment"
 
 evidentlyexperiment.NewEvidentlyExperimentRunningStatusOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) EvidentlyExperimentRunningStatusOutputReference
 ```
@@ -3520,7 +3520,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperimentTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/evidentlyexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/evidentlyexperiment"
 
 evidentlyexperiment.NewEvidentlyExperimentTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) EvidentlyExperimentTagsList
 ```
@@ -3680,7 +3680,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperimentTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/evidentlyexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/evidentlyexperiment"
 
 evidentlyexperiment.NewEvidentlyExperimentTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) EvidentlyExperimentTagsOutputReference
 ```
@@ -4005,7 +4005,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperimentTreatmentsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/evidentlyexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/evidentlyexperiment"
 
 evidentlyexperiment.NewEvidentlyExperimentTreatmentsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) EvidentlyExperimentTreatmentsList
 ```
@@ -4165,7 +4165,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.evidentlyExperiment.EvidentlyExperimentTreatmentsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/evidentlyexperiment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/evidentlyexperiment"
 
 evidentlyexperiment.NewEvidentlyExperimentTreatmentsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) EvidentlyExperimentTreatmentsOutputReference
 ```

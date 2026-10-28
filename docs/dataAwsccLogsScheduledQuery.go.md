@@ -4,12 +4,12 @@
 
 ### DataAwsccLogsScheduledQuery <a name="DataAwsccLogsScheduledQuery" id="@cdktn/provider-awscc.dataAwsccLogsScheduledQuery.DataAwsccLogsScheduledQuery"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/logs_scheduled_query awscc_logs_scheduled_query}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/logs_scheduled_query awscc_logs_scheduled_query}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLogsScheduledQuery.DataAwsccLogsScheduledQuery.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclogsscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclogsscheduledquery"
 
 dataawscclogsscheduledquery.NewDataAwsccLogsScheduledQuery(scope Construct, id *string, config DataAwsccLogsScheduledQueryConfig) DataAwsccLogsScheduledQuery
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccLogsScheduledQuery.DataAwsccLogsScheduledQuery.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclogsscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclogsscheduledquery"
 
 dataawscclogsscheduledquery.DataAwsccLogsScheduledQuery_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccLogsScheduledQuery.DataAwsccLogsScheduledQuery.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclogsscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclogsscheduledquery"
 
 dataawscclogsscheduledquery.DataAwsccLogsScheduledQuery_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscclogsscheduledquery.DataAwsccLogsScheduledQuery_IsTerraformElement(x int
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccLogsScheduledQuery.DataAwsccLogsScheduledQuery.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclogsscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclogsscheduledquery"
 
 dataawscclogsscheduledquery.DataAwsccLogsScheduledQuery_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscclogsscheduledquery.DataAwsccLogsScheduledQuery_IsTerraformDataSource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccLogsScheduledQuery.DataAwsccLogsScheduledQuery.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclogsscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclogsscheduledquery"
 
 dataawscclogsscheduledquery.DataAwsccLogsScheduledQuery_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLogsScheduledQuer
 
 The id of the existing DataAwsccLogsScheduledQuery that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/logs_scheduled_query#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/logs_scheduled_query#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -796,7 +796,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLogsScheduledQuery.DataAwsccLogsScheduledQueryConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclogsscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclogsscheduledquery"
 
 &dataawscclogsscheduledquery.DataAwsccLogsScheduledQueryConfig {
 	Connection: interface{},
@@ -905,7 +905,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/logs_scheduled_query#id DataAwsccLogsScheduledQuery#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/logs_scheduled_query#id DataAwsccLogsScheduledQuery#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -917,7 +917,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLogsScheduledQuery.DataAwsccLogsScheduledQueryDestinationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclogsscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclogsscheduledquery"
 
 &dataawscclogsscheduledquery.DataAwsccLogsScheduledQueryDestinationConfiguration {
 
@@ -930,7 +930,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclogsscheduled
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLogsScheduledQuery.DataAwsccLogsScheduledQueryDestinationConfigurationS3Configuration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclogsscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclogsscheduledquery"
 
 &dataawscclogsscheduledquery.DataAwsccLogsScheduledQueryDestinationConfigurationS3Configuration {
 
@@ -943,7 +943,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclogsscheduled
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLogsScheduledQuery.DataAwsccLogsScheduledQueryTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclogsscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclogsscheduledquery"
 
 &dataawscclogsscheduledquery.DataAwsccLogsScheduledQueryTags {
 
@@ -958,7 +958,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclogsscheduled
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLogsScheduledQuery.DataAwsccLogsScheduledQueryDestinationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclogsscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclogsscheduledquery"
 
 dataawscclogsscheduledquery.NewDataAwsccLogsScheduledQueryDestinationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLogsScheduledQueryDestinationConfigurationOutputReference
 ```
@@ -1218,7 +1218,7 @@ func InternalValue() DataAwsccLogsScheduledQueryDestinationConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLogsScheduledQuery.DataAwsccLogsScheduledQueryDestinationConfigurationS3ConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclogsscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclogsscheduledquery"
 
 dataawscclogsscheduledquery.NewDataAwsccLogsScheduledQueryDestinationConfigurationS3ConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccLogsScheduledQueryDestinationConfigurationS3ConfigurationOutputReference
 ```
@@ -1489,7 +1489,7 @@ func InternalValue() DataAwsccLogsScheduledQueryDestinationConfigurationS3Config
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLogsScheduledQuery.DataAwsccLogsScheduledQueryTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclogsscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclogsscheduledquery"
 
 dataawscclogsscheduledquery.NewDataAwsccLogsScheduledQueryTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccLogsScheduledQueryTagsList
 ```
@@ -1638,7 +1638,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLogsScheduledQuery.DataAwsccLogsScheduledQueryTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclogsscheduledquery"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclogsscheduledquery"
 
 dataawscclogsscheduledquery.NewDataAwsccLogsScheduledQueryTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccLogsScheduledQueryTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccCloudwatchAnomalyDetectors <a name="DataAwsccCloudwatchAnomalyDetectors" id="@cdktn/provider-awscc.dataAwsccCloudwatchAnomalyDetectors.DataAwsccCloudwatchAnomalyDetectors"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudwatch_anomaly_detectors awscc_cloudwatch_anomaly_detectors}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudwatch_anomaly_detectors awscc_cloudwatch_anomaly_detectors}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudwatchAnomalyDetectors.DataAwsccCloudwatchAnomalyDetectors.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudwatchanomalydetectors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudwatchanomalydetectors"
 
 dataawscccloudwatchanomalydetectors.NewDataAwsccCloudwatchAnomalyDetectors(scope Construct, id *string, config DataAwsccCloudwatchAnomalyDetectorsConfig) DataAwsccCloudwatchAnomalyDetectors
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCloudwatchAnomalyDetectors.DataAwsccCloudwatchAnomalyDetectors.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudwatchanomalydetectors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudwatchanomalydetectors"
 
 dataawscccloudwatchanomalydetectors.DataAwsccCloudwatchAnomalyDetectors_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCloudwatchAnomalyDetectors.DataAwsccCloudwatchAnomalyDetectors.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudwatchanomalydetectors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudwatchanomalydetectors"
 
 dataawscccloudwatchanomalydetectors.DataAwsccCloudwatchAnomalyDetectors_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccloudwatchanomalydetectors.DataAwsccCloudwatchAnomalyDetectors_IsTerraf
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCloudwatchAnomalyDetectors.DataAwsccCloudwatchAnomalyDetectors.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudwatchanomalydetectors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudwatchanomalydetectors"
 
 dataawscccloudwatchanomalydetectors.DataAwsccCloudwatchAnomalyDetectors_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccloudwatchanomalydetectors.DataAwsccCloudwatchAnomalyDetectors_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCloudwatchAnomalyDetectors.DataAwsccCloudwatchAnomalyDetectors.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudwatchanomalydetectors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudwatchanomalydetectors"
 
 dataawscccloudwatchanomalydetectors.DataAwsccCloudwatchAnomalyDetectors_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCloudwatchAnomaly
 
 The id of the existing DataAwsccCloudwatchAnomalyDetectors that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudwatch_anomaly_detectors#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudwatch_anomaly_detectors#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloudwatchAnomalyDetectors.DataAwsccCloudwatchAnomalyDetectorsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudwatchanomalydetectors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudwatchanomalydetectors"
 
 &dataawscccloudwatchanomalydetectors.DataAwsccCloudwatchAnomalyDetectorsConfig {
 	Connection: interface{},

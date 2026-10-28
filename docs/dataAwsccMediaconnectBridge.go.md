@@ -4,12 +4,12 @@
 
 ### DataAwsccMediaconnectBridge <a name="DataAwsccMediaconnectBridge" id="@cdktn/provider-awscc.dataAwsccMediaconnectBridge.DataAwsccMediaconnectBridge"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediaconnect_bridge awscc_mediaconnect_bridge}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediaconnect_bridge awscc_mediaconnect_bridge}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediaconnectBridge.DataAwsccMediaconnectBridge.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectbridge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectbridge"
 
 dataawsccmediaconnectbridge.NewDataAwsccMediaconnectBridge(scope Construct, id *string, config DataAwsccMediaconnectBridgeConfig) DataAwsccMediaconnectBridge
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccMediaconnectBridge.DataAwsccMediaconnectBridge.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectbridge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectbridge"
 
 dataawsccmediaconnectbridge.DataAwsccMediaconnectBridge_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccMediaconnectBridge.DataAwsccMediaconnectBridge.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectbridge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectbridge"
 
 dataawsccmediaconnectbridge.DataAwsccMediaconnectBridge_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccmediaconnectbridge.DataAwsccMediaconnectBridge_IsTerraformElement(x int
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccMediaconnectBridge.DataAwsccMediaconnectBridge.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectbridge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectbridge"
 
 dataawsccmediaconnectbridge.DataAwsccMediaconnectBridge_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccmediaconnectbridge.DataAwsccMediaconnectBridge_IsTerraformDataSource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccMediaconnectBridge.DataAwsccMediaconnectBridge.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectbridge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectbridge"
 
 dataawsccmediaconnectbridge.DataAwsccMediaconnectBridge_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccMediaconnectBridg
 
 The id of the existing DataAwsccMediaconnectBridge that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediaconnect_bridge#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediaconnect_bridge#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -686,7 +686,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediaconnectBridge.DataAwsccMediaconnectBridgeConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectbridge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectbridge"
 
 &dataawsccmediaconnectbridge.DataAwsccMediaconnectBridgeConfig {
 	Connection: interface{},
@@ -795,7 +795,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediaconnect_bridge#id DataAwsccMediaconnectBridge#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediaconnect_bridge#id DataAwsccMediaconnectBridge#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -807,7 +807,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediaconnectBridge.DataAwsccMediaconnectBridgeEgressGatewayBridge.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectbridge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectbridge"
 
 &dataawsccmediaconnectbridge.DataAwsccMediaconnectBridgeEgressGatewayBridge {
 
@@ -820,7 +820,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectb
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediaconnectBridge.DataAwsccMediaconnectBridgeIngressGatewayBridge.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectbridge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectbridge"
 
 &dataawsccmediaconnectbridge.DataAwsccMediaconnectBridgeIngressGatewayBridge {
 
@@ -833,7 +833,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectb
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediaconnectBridge.DataAwsccMediaconnectBridgeOutputs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectbridge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectbridge"
 
 &dataawsccmediaconnectbridge.DataAwsccMediaconnectBridgeOutputs {
 
@@ -846,7 +846,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectb
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediaconnectBridge.DataAwsccMediaconnectBridgeOutputsNetworkOutput.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectbridge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectbridge"
 
 &dataawsccmediaconnectbridge.DataAwsccMediaconnectBridgeOutputsNetworkOutput {
 
@@ -859,7 +859,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectb
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediaconnectBridge.DataAwsccMediaconnectBridgeSourceFailoverConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectbridge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectbridge"
 
 &dataawsccmediaconnectbridge.DataAwsccMediaconnectBridgeSourceFailoverConfig {
 
@@ -872,7 +872,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectb
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediaconnectBridge.DataAwsccMediaconnectBridgeSourceFailoverConfigSourcePriority.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectbridge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectbridge"
 
 &dataawsccmediaconnectbridge.DataAwsccMediaconnectBridgeSourceFailoverConfigSourcePriority {
 
@@ -885,7 +885,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectb
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediaconnectBridge.DataAwsccMediaconnectBridgeSources.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectbridge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectbridge"
 
 &dataawsccmediaconnectbridge.DataAwsccMediaconnectBridgeSources {
 
@@ -898,7 +898,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectb
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediaconnectBridge.DataAwsccMediaconnectBridgeSourcesFlowSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectbridge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectbridge"
 
 &dataawsccmediaconnectbridge.DataAwsccMediaconnectBridgeSourcesFlowSource {
 
@@ -911,7 +911,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectb
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediaconnectBridge.DataAwsccMediaconnectBridgeSourcesFlowSourceFlowVpcInterfaceAttachment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectbridge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectbridge"
 
 &dataawsccmediaconnectbridge.DataAwsccMediaconnectBridgeSourcesFlowSourceFlowVpcInterfaceAttachment {
 
@@ -924,7 +924,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectb
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediaconnectBridge.DataAwsccMediaconnectBridgeSourcesNetworkSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectbridge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectbridge"
 
 &dataawsccmediaconnectbridge.DataAwsccMediaconnectBridgeSourcesNetworkSource {
 
@@ -937,7 +937,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectb
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediaconnectBridge.DataAwsccMediaconnectBridgeSourcesNetworkSourceMulticastSourceSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectbridge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectbridge"
 
 &dataawsccmediaconnectbridge.DataAwsccMediaconnectBridgeSourcesNetworkSourceMulticastSourceSettings {
 
@@ -952,7 +952,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectb
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediaconnectBridge.DataAwsccMediaconnectBridgeEgressGatewayBridgeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectbridge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectbridge"
 
 dataawsccmediaconnectbridge.NewDataAwsccMediaconnectBridgeEgressGatewayBridgeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMediaconnectBridgeEgressGatewayBridgeOutputReference
 ```
@@ -1212,7 +1212,7 @@ func InternalValue() DataAwsccMediaconnectBridgeEgressGatewayBridge
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediaconnectBridge.DataAwsccMediaconnectBridgeIngressGatewayBridgeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectbridge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectbridge"
 
 dataawsccmediaconnectbridge.NewDataAwsccMediaconnectBridgeIngressGatewayBridgeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMediaconnectBridgeIngressGatewayBridgeOutputReference
 ```
@@ -1483,7 +1483,7 @@ func InternalValue() DataAwsccMediaconnectBridgeIngressGatewayBridge
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediaconnectBridge.DataAwsccMediaconnectBridgeOutputsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectbridge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectbridge"
 
 dataawsccmediaconnectbridge.NewDataAwsccMediaconnectBridgeOutputsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccMediaconnectBridgeOutputsList
 ```
@@ -1632,7 +1632,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediaconnectBridge.DataAwsccMediaconnectBridgeOutputsNetworkOutputOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectbridge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectbridge"
 
 dataawsccmediaconnectbridge.NewDataAwsccMediaconnectBridgeOutputsNetworkOutputOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMediaconnectBridgeOutputsNetworkOutputOutputReference
 ```
@@ -1947,7 +1947,7 @@ func InternalValue() DataAwsccMediaconnectBridgeOutputsNetworkOutput
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediaconnectBridge.DataAwsccMediaconnectBridgeOutputsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectbridge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectbridge"
 
 dataawsccmediaconnectbridge.NewDataAwsccMediaconnectBridgeOutputsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccMediaconnectBridgeOutputsOutputReference
 ```
@@ -2225,7 +2225,7 @@ func InternalValue() DataAwsccMediaconnectBridgeOutputs
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediaconnectBridge.DataAwsccMediaconnectBridgeSourceFailoverConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectbridge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectbridge"
 
 dataawsccmediaconnectbridge.NewDataAwsccMediaconnectBridgeSourceFailoverConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMediaconnectBridgeSourceFailoverConfigOutputReference
 ```
@@ -2507,7 +2507,7 @@ func InternalValue() DataAwsccMediaconnectBridgeSourceFailoverConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediaconnectBridge.DataAwsccMediaconnectBridgeSourceFailoverConfigSourcePriorityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectbridge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectbridge"
 
 dataawsccmediaconnectbridge.NewDataAwsccMediaconnectBridgeSourceFailoverConfigSourcePriorityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMediaconnectBridgeSourceFailoverConfigSourcePriorityOutputReference
 ```
@@ -2767,7 +2767,7 @@ func InternalValue() DataAwsccMediaconnectBridgeSourceFailoverConfigSourcePriori
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediaconnectBridge.DataAwsccMediaconnectBridgeSourcesFlowSourceFlowVpcInterfaceAttachmentOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectbridge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectbridge"
 
 dataawsccmediaconnectbridge.NewDataAwsccMediaconnectBridgeSourcesFlowSourceFlowVpcInterfaceAttachmentOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMediaconnectBridgeSourcesFlowSourceFlowVpcInterfaceAttachmentOutputReference
 ```
@@ -3027,7 +3027,7 @@ func InternalValue() DataAwsccMediaconnectBridgeSourcesFlowSourceFlowVpcInterfac
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediaconnectBridge.DataAwsccMediaconnectBridgeSourcesFlowSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectbridge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectbridge"
 
 dataawsccmediaconnectbridge.NewDataAwsccMediaconnectBridgeSourcesFlowSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMediaconnectBridgeSourcesFlowSourceOutputReference
 ```
@@ -3309,7 +3309,7 @@ func InternalValue() DataAwsccMediaconnectBridgeSourcesFlowSource
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediaconnectBridge.DataAwsccMediaconnectBridgeSourcesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectbridge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectbridge"
 
 dataawsccmediaconnectbridge.NewDataAwsccMediaconnectBridgeSourcesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccMediaconnectBridgeSourcesList
 ```
@@ -3458,7 +3458,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediaconnectBridge.DataAwsccMediaconnectBridgeSourcesNetworkSourceMulticastSourceSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectbridge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectbridge"
 
 dataawsccmediaconnectbridge.NewDataAwsccMediaconnectBridgeSourcesNetworkSourceMulticastSourceSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMediaconnectBridgeSourcesNetworkSourceMulticastSourceSettingsOutputReference
 ```
@@ -3718,7 +3718,7 @@ func InternalValue() DataAwsccMediaconnectBridgeSourcesNetworkSourceMulticastSou
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediaconnectBridge.DataAwsccMediaconnectBridgeSourcesNetworkSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectbridge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectbridge"
 
 dataawsccmediaconnectbridge.NewDataAwsccMediaconnectBridgeSourcesNetworkSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccMediaconnectBridgeSourcesNetworkSourceOutputReference
 ```
@@ -4033,7 +4033,7 @@ func InternalValue() DataAwsccMediaconnectBridgeSourcesNetworkSource
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediaconnectBridge.DataAwsccMediaconnectBridgeSourcesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectbridge"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectbridge"
 
 dataawsccmediaconnectbridge.NewDataAwsccMediaconnectBridgeSourcesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccMediaconnectBridgeSourcesOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccGlueTableOptimizer <a name="DataAwsccGlueTableOptimizer" id="@cdktn/provider-awscc.dataAwsccGlueTableOptimizer.DataAwsccGlueTableOptimizer"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/glue_table_optimizer awscc_glue_table_optimizer}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/glue_table_optimizer awscc_glue_table_optimizer}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueTableOptimizer.DataAwsccGlueTableOptimizer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetableoptimizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetableoptimizer"
 
 dataawsccgluetableoptimizer.NewDataAwsccGlueTableOptimizer(scope Construct, id *string, config DataAwsccGlueTableOptimizerConfig) DataAwsccGlueTableOptimizer
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccGlueTableOptimizer.DataAwsccGlueTableOptimizer.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetableoptimizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetableoptimizer"
 
 dataawsccgluetableoptimizer.DataAwsccGlueTableOptimizer_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccGlueTableOptimizer.DataAwsccGlueTableOptimizer.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetableoptimizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetableoptimizer"
 
 dataawsccgluetableoptimizer.DataAwsccGlueTableOptimizer_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccgluetableoptimizer.DataAwsccGlueTableOptimizer_IsTerraformElement(x int
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccGlueTableOptimizer.DataAwsccGlueTableOptimizer.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetableoptimizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetableoptimizer"
 
 dataawsccgluetableoptimizer.DataAwsccGlueTableOptimizer_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccgluetableoptimizer.DataAwsccGlueTableOptimizer_IsTerraformDataSource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccGlueTableOptimizer.DataAwsccGlueTableOptimizer.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetableoptimizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetableoptimizer"
 
 dataawsccgluetableoptimizer.DataAwsccGlueTableOptimizer_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccGlueTableOptimize
 
 The id of the existing DataAwsccGlueTableOptimizer that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/glue_table_optimizer#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/glue_table_optimizer#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -642,7 +642,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueTableOptimizer.DataAwsccGlueTableOptimizerConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetableoptimizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetableoptimizer"
 
 &dataawsccgluetableoptimizer.DataAwsccGlueTableOptimizerConfig {
 	Connection: interface{},
@@ -751,7 +751,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/glue_table_optimizer#id DataAwsccGlueTableOptimizer#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/glue_table_optimizer#id DataAwsccGlueTableOptimizer#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -763,7 +763,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueTableOptimizer.DataAwsccGlueTableOptimizerTableOptimizerConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetableoptimizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetableoptimizer"
 
 &dataawsccgluetableoptimizer.DataAwsccGlueTableOptimizerTableOptimizerConfiguration {
 
@@ -776,7 +776,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetableopti
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueTableOptimizer.DataAwsccGlueTableOptimizerTableOptimizerConfigurationCompactionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetableoptimizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetableoptimizer"
 
 &dataawsccgluetableoptimizer.DataAwsccGlueTableOptimizerTableOptimizerConfigurationCompactionConfiguration {
 
@@ -789,7 +789,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetableopti
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueTableOptimizer.DataAwsccGlueTableOptimizerTableOptimizerConfigurationCompactionConfigurationIcebergConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetableoptimizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetableoptimizer"
 
 &dataawsccgluetableoptimizer.DataAwsccGlueTableOptimizerTableOptimizerConfigurationCompactionConfigurationIcebergConfiguration {
 
@@ -802,7 +802,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetableopti
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueTableOptimizer.DataAwsccGlueTableOptimizerTableOptimizerConfigurationOrphanFileDeletionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetableoptimizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetableoptimizer"
 
 &dataawsccgluetableoptimizer.DataAwsccGlueTableOptimizerTableOptimizerConfigurationOrphanFileDeletionConfiguration {
 
@@ -815,7 +815,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetableopti
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueTableOptimizer.DataAwsccGlueTableOptimizerTableOptimizerConfigurationOrphanFileDeletionConfigurationIcebergConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetableoptimizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetableoptimizer"
 
 &dataawsccgluetableoptimizer.DataAwsccGlueTableOptimizerTableOptimizerConfigurationOrphanFileDeletionConfigurationIcebergConfiguration {
 
@@ -828,7 +828,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetableopti
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueTableOptimizer.DataAwsccGlueTableOptimizerTableOptimizerConfigurationRetentionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetableoptimizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetableoptimizer"
 
 &dataawsccgluetableoptimizer.DataAwsccGlueTableOptimizerTableOptimizerConfigurationRetentionConfiguration {
 
@@ -841,7 +841,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetableopti
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueTableOptimizer.DataAwsccGlueTableOptimizerTableOptimizerConfigurationRetentionConfigurationIcebergConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetableoptimizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetableoptimizer"
 
 &dataawsccgluetableoptimizer.DataAwsccGlueTableOptimizerTableOptimizerConfigurationRetentionConfigurationIcebergConfiguration {
 
@@ -854,7 +854,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetableopti
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGlueTableOptimizer.DataAwsccGlueTableOptimizerTableOptimizerConfigurationVpcConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetableoptimizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetableoptimizer"
 
 &dataawsccgluetableoptimizer.DataAwsccGlueTableOptimizerTableOptimizerConfigurationVpcConfiguration {
 
@@ -869,7 +869,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetableopti
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueTableOptimizer.DataAwsccGlueTableOptimizerTableOptimizerConfigurationCompactionConfigurationIcebergConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetableoptimizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetableoptimizer"
 
 dataawsccgluetableoptimizer.NewDataAwsccGlueTableOptimizerTableOptimizerConfigurationCompactionConfigurationIcebergConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGlueTableOptimizerTableOptimizerConfigurationCompactionConfigurationIcebergConfigurationOutputReference
 ```
@@ -1151,7 +1151,7 @@ func InternalValue() DataAwsccGlueTableOptimizerTableOptimizerConfigurationCompa
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueTableOptimizer.DataAwsccGlueTableOptimizerTableOptimizerConfigurationCompactionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetableoptimizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetableoptimizer"
 
 dataawsccgluetableoptimizer.NewDataAwsccGlueTableOptimizerTableOptimizerConfigurationCompactionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGlueTableOptimizerTableOptimizerConfigurationCompactionConfigurationOutputReference
 ```
@@ -1411,7 +1411,7 @@ func InternalValue() DataAwsccGlueTableOptimizerTableOptimizerConfigurationCompa
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueTableOptimizer.DataAwsccGlueTableOptimizerTableOptimizerConfigurationOrphanFileDeletionConfigurationIcebergConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetableoptimizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetableoptimizer"
 
 dataawsccgluetableoptimizer.NewDataAwsccGlueTableOptimizerTableOptimizerConfigurationOrphanFileDeletionConfigurationIcebergConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGlueTableOptimizerTableOptimizerConfigurationOrphanFileDeletionConfigurationIcebergConfigurationOutputReference
 ```
@@ -1682,7 +1682,7 @@ func InternalValue() DataAwsccGlueTableOptimizerTableOptimizerConfigurationOrpha
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueTableOptimizer.DataAwsccGlueTableOptimizerTableOptimizerConfigurationOrphanFileDeletionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetableoptimizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetableoptimizer"
 
 dataawsccgluetableoptimizer.NewDataAwsccGlueTableOptimizerTableOptimizerConfigurationOrphanFileDeletionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGlueTableOptimizerTableOptimizerConfigurationOrphanFileDeletionConfigurationOutputReference
 ```
@@ -1942,7 +1942,7 @@ func InternalValue() DataAwsccGlueTableOptimizerTableOptimizerConfigurationOrpha
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueTableOptimizer.DataAwsccGlueTableOptimizerTableOptimizerConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetableoptimizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetableoptimizer"
 
 dataawsccgluetableoptimizer.NewDataAwsccGlueTableOptimizerTableOptimizerConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGlueTableOptimizerTableOptimizerConfigurationOutputReference
 ```
@@ -2257,7 +2257,7 @@ func InternalValue() DataAwsccGlueTableOptimizerTableOptimizerConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueTableOptimizer.DataAwsccGlueTableOptimizerTableOptimizerConfigurationRetentionConfigurationIcebergConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetableoptimizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetableoptimizer"
 
 dataawsccgluetableoptimizer.NewDataAwsccGlueTableOptimizerTableOptimizerConfigurationRetentionConfigurationIcebergConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGlueTableOptimizerTableOptimizerConfigurationRetentionConfigurationIcebergConfigurationOutputReference
 ```
@@ -2539,7 +2539,7 @@ func InternalValue() DataAwsccGlueTableOptimizerTableOptimizerConfigurationReten
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueTableOptimizer.DataAwsccGlueTableOptimizerTableOptimizerConfigurationRetentionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetableoptimizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetableoptimizer"
 
 dataawsccgluetableoptimizer.NewDataAwsccGlueTableOptimizerTableOptimizerConfigurationRetentionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGlueTableOptimizerTableOptimizerConfigurationRetentionConfigurationOutputReference
 ```
@@ -2799,7 +2799,7 @@ func InternalValue() DataAwsccGlueTableOptimizerTableOptimizerConfigurationReten
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueTableOptimizer.DataAwsccGlueTableOptimizerTableOptimizerConfigurationVpcConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetableoptimizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetableoptimizer"
 
 dataawsccgluetableoptimizer.NewDataAwsccGlueTableOptimizerTableOptimizerConfigurationVpcConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGlueTableOptimizerTableOptimizerConfigurationVpcConfigurationOutputReference
 ```

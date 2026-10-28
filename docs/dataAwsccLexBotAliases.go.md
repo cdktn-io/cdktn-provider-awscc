@@ -4,12 +4,12 @@
 
 ### DataAwsccLexBotAliases <a name="DataAwsccLexBotAliases" id="@cdktn/provider-awscc.dataAwsccLexBotAliases.DataAwsccLexBotAliases"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lex_bot_aliases awscc_lex_bot_aliases}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lex_bot_aliases awscc_lex_bot_aliases}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLexBotAliases.DataAwsccLexBotAliases.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbotaliases"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbotaliases"
 
 dataawscclexbotaliases.NewDataAwsccLexBotAliases(scope Construct, id *string, config DataAwsccLexBotAliasesConfig) DataAwsccLexBotAliases
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccLexBotAliases.DataAwsccLexBotAliases.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbotaliases"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbotaliases"
 
 dataawscclexbotaliases.DataAwsccLexBotAliases_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccLexBotAliases.DataAwsccLexBotAliases.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbotaliases"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbotaliases"
 
 dataawscclexbotaliases.DataAwsccLexBotAliases_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscclexbotaliases.DataAwsccLexBotAliases_IsTerraformElement(x interface{}) 
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccLexBotAliases.DataAwsccLexBotAliases.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbotaliases"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbotaliases"
 
 dataawscclexbotaliases.DataAwsccLexBotAliases_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscclexbotaliases.DataAwsccLexBotAliases_IsTerraformDataSource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccLexBotAliases.DataAwsccLexBotAliases.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbotaliases"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbotaliases"
 
 dataawscclexbotaliases.DataAwsccLexBotAliases_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLexBotAliases to 
 
 The id of the existing DataAwsccLexBotAliases that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lex_bot_aliases#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lex_bot_aliases#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLexBotAliases.DataAwsccLexBotAliasesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbotaliases"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbotaliases"
 
 &dataawscclexbotaliases.DataAwsccLexBotAliasesConfig {
 	Connection: interface{},

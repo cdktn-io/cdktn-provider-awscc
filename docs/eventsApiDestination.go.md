@@ -4,12 +4,12 @@
 
 ### EventsApiDestination <a name="EventsApiDestination" id="@cdktn/provider-awscc.eventsApiDestination.EventsApiDestination"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_api_destination awscc_events_api_destination}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_api_destination awscc_events_api_destination}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsApiDestination.EventsApiDestination.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsapidestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsapidestination"
 
 eventsapidestination.NewEventsApiDestination(scope Construct, id *string, config EventsApiDestinationConfig) EventsApiDestination
 ```
@@ -421,7 +421,7 @@ func ResetName()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.eventsApiDestination.EventsApiDestination.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsapidestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsapidestination"
 
 eventsapidestination.EventsApiDestination_IsConstruct(x interface{}) *bool
 ```
@@ -453,7 +453,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.eventsApiDestination.EventsApiDestination.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsapidestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsapidestination"
 
 eventsapidestination.EventsApiDestination_IsTerraformElement(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ eventsapidestination.EventsApiDestination_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.eventsApiDestination.EventsApiDestination.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsapidestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsapidestination"
 
 eventsapidestination.EventsApiDestination_IsTerraformResource(x interface{}) *bool
 ```
@@ -481,7 +481,7 @@ eventsapidestination.EventsApiDestination_IsTerraformResource(x interface{}) *bo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.eventsApiDestination.EventsApiDestination.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsapidestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsapidestination"
 
 eventsapidestination.EventsApiDestination_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -510,7 +510,7 @@ The construct id used in the generated config for the EventsApiDestination to im
 
 The id of the existing EventsApiDestination that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_api_destination#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_api_destination#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -875,7 +875,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.eventsApiDestination.EventsApiDestinationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsapidestination"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsapidestination"
 
 &eventsapidestination.EventsApiDestinationConfig {
 	Connection: interface{},
@@ -906,10 +906,10 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsapidestination"
 | <code><a href="#@cdktn/provider-awscc.eventsApiDestination.EventsApiDestinationConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.eventsApiDestination.EventsApiDestinationConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.eventsApiDestination.EventsApiDestinationConfig.property.connectionArn">ConnectionArn</a></code> | <code>*string</code> | The arn of the connection. |
-| <code><a href="#@cdktn/provider-awscc.eventsApiDestination.EventsApiDestinationConfig.property.httpMethod">HttpMethod</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_api_destination#http_method EventsApiDestination#http_method}. |
+| <code><a href="#@cdktn/provider-awscc.eventsApiDestination.EventsApiDestinationConfig.property.httpMethod">HttpMethod</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_api_destination#http_method EventsApiDestination#http_method}. |
 | <code><a href="#@cdktn/provider-awscc.eventsApiDestination.EventsApiDestinationConfig.property.invocationEndpoint">InvocationEndpoint</a></code> | <code>*string</code> | Url endpoint to invoke. |
-| <code><a href="#@cdktn/provider-awscc.eventsApiDestination.EventsApiDestinationConfig.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_api_destination#description EventsApiDestination#description}. |
-| <code><a href="#@cdktn/provider-awscc.eventsApiDestination.EventsApiDestinationConfig.property.invocationRateLimitPerSecond">InvocationRateLimitPerSecond</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_api_destination#invocation_rate_limit_per_second EventsApiDestination#invocation_rate_limit_per_second}. |
+| <code><a href="#@cdktn/provider-awscc.eventsApiDestination.EventsApiDestinationConfig.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_api_destination#description EventsApiDestination#description}. |
+| <code><a href="#@cdktn/provider-awscc.eventsApiDestination.EventsApiDestinationConfig.property.invocationRateLimitPerSecond">InvocationRateLimitPerSecond</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_api_destination#invocation_rate_limit_per_second EventsApiDestination#invocation_rate_limit_per_second}. |
 | <code><a href="#@cdktn/provider-awscc.eventsApiDestination.EventsApiDestinationConfig.property.name">Name</a></code> | <code>*string</code> | Name of the apiDestination. |
 
 ---
@@ -994,7 +994,7 @@ ConnectionArn *string
 
 The arn of the connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_api_destination#connection_arn EventsApiDestination#connection_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_api_destination#connection_arn EventsApiDestination#connection_arn}
 
 ---
 
@@ -1006,7 +1006,7 @@ HttpMethod *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_api_destination#http_method EventsApiDestination#http_method}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_api_destination#http_method EventsApiDestination#http_method}.
 
 ---
 
@@ -1020,7 +1020,7 @@ InvocationEndpoint *string
 
 Url endpoint to invoke.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_api_destination#invocation_endpoint EventsApiDestination#invocation_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_api_destination#invocation_endpoint EventsApiDestination#invocation_endpoint}
 
 ---
 
@@ -1032,7 +1032,7 @@ Description *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_api_destination#description EventsApiDestination#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_api_destination#description EventsApiDestination#description}.
 
 ---
 
@@ -1044,7 +1044,7 @@ InvocationRateLimitPerSecond *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_api_destination#invocation_rate_limit_per_second EventsApiDestination#invocation_rate_limit_per_second}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_api_destination#invocation_rate_limit_per_second EventsApiDestination#invocation_rate_limit_per_second}.
 
 ---
 
@@ -1058,7 +1058,7 @@ Name *string
 
 Name of the apiDestination.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_api_destination#name EventsApiDestination#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_api_destination#name EventsApiDestination#name}
 
 ---
 

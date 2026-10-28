@@ -4,12 +4,12 @@
 
 ### DataAwsccLogsDeliveries <a name="DataAwsccLogsDeliveries" id="@cdktn/provider-awscc.dataAwsccLogsDeliveries.DataAwsccLogsDeliveries"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/logs_deliveries awscc_logs_deliveries}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/logs_deliveries awscc_logs_deliveries}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLogsDeliveries.DataAwsccLogsDeliveries.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclogsdeliveries"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclogsdeliveries"
 
 dataawscclogsdeliveries.NewDataAwsccLogsDeliveries(scope Construct, id *string, config DataAwsccLogsDeliveriesConfig) DataAwsccLogsDeliveries
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccLogsDeliveries.DataAwsccLogsDeliveries.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclogsdeliveries"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclogsdeliveries"
 
 dataawscclogsdeliveries.DataAwsccLogsDeliveries_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccLogsDeliveries.DataAwsccLogsDeliveries.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclogsdeliveries"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclogsdeliveries"
 
 dataawscclogsdeliveries.DataAwsccLogsDeliveries_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscclogsdeliveries.DataAwsccLogsDeliveries_IsTerraformElement(x interface{}
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccLogsDeliveries.DataAwsccLogsDeliveries.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclogsdeliveries"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclogsdeliveries"
 
 dataawscclogsdeliveries.DataAwsccLogsDeliveries_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscclogsdeliveries.DataAwsccLogsDeliveries_IsTerraformDataSource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccLogsDeliveries.DataAwsccLogsDeliveries.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclogsdeliveries"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclogsdeliveries"
 
 dataawscclogsdeliveries.DataAwsccLogsDeliveries_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLogsDeliveries to
 
 The id of the existing DataAwsccLogsDeliveries that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/logs_deliveries#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/logs_deliveries#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLogsDeliveries.DataAwsccLogsDeliveriesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclogsdeliveries"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclogsdeliveries"
 
 &dataawscclogsdeliveries.DataAwsccLogsDeliveriesConfig {
 	Connection: interface{},

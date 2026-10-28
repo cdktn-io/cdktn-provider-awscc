@@ -4,12 +4,12 @@
 
 ### DataAwsccMediapackagev2ChannelGroups <a name="DataAwsccMediapackagev2ChannelGroups" id="@cdktn/provider-awscc.dataAwsccMediapackagev2ChannelGroups.DataAwsccMediapackagev2ChannelGroups"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediapackagev2_channel_groups awscc_mediapackagev2_channel_groups}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediapackagev2_channel_groups awscc_mediapackagev2_channel_groups}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediapackagev2ChannelGroups.DataAwsccMediapackagev2ChannelGroups.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagev2channelgroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagev2channelgroups"
 
 dataawsccmediapackagev2channelgroups.NewDataAwsccMediapackagev2ChannelGroups(scope Construct, id *string, config DataAwsccMediapackagev2ChannelGroupsConfig) DataAwsccMediapackagev2ChannelGroups
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccMediapackagev2ChannelGroups.DataAwsccMediapackagev2ChannelGroups.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagev2channelgroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagev2channelgroups"
 
 dataawsccmediapackagev2channelgroups.DataAwsccMediapackagev2ChannelGroups_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccMediapackagev2ChannelGroups.DataAwsccMediapackagev2ChannelGroups.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagev2channelgroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagev2channelgroups"
 
 dataawsccmediapackagev2channelgroups.DataAwsccMediapackagev2ChannelGroups_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccmediapackagev2channelgroups.DataAwsccMediapackagev2ChannelGroups_IsTerr
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccMediapackagev2ChannelGroups.DataAwsccMediapackagev2ChannelGroups.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagev2channelgroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagev2channelgroups"
 
 dataawsccmediapackagev2channelgroups.DataAwsccMediapackagev2ChannelGroups_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccmediapackagev2channelgroups.DataAwsccMediapackagev2ChannelGroups_IsTerr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccMediapackagev2ChannelGroups.DataAwsccMediapackagev2ChannelGroups.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagev2channelgroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagev2channelgroups"
 
 dataawsccmediapackagev2channelgroups.DataAwsccMediapackagev2ChannelGroups_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccMediapackagev2Cha
 
 The id of the existing DataAwsccMediapackagev2ChannelGroups that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediapackagev2_channel_groups#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediapackagev2_channel_groups#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediapackagev2ChannelGroups.DataAwsccMediapackagev2ChannelGroupsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagev2channelgroups"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagev2channelgroups"
 
 &dataawsccmediapackagev2channelgroups.DataAwsccMediapackagev2ChannelGroupsConfig {
 	Connection: interface{},

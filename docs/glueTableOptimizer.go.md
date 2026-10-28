@@ -4,12 +4,12 @@
 
 ### GlueTableOptimizer <a name="GlueTableOptimizer" id="@cdktn/provider-awscc.glueTableOptimizer.GlueTableOptimizer"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table_optimizer awscc_glue_table_optimizer}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table_optimizer awscc_glue_table_optimizer}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueTableOptimizer.GlueTableOptimizer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetableoptimizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetableoptimizer"
 
 gluetableoptimizer.NewGlueTableOptimizer(scope Construct, id *string, config GlueTableOptimizerConfig) GlueTableOptimizer
 ```
@@ -413,7 +413,7 @@ func PutTableOptimizerConfiguration(value GlueTableOptimizerTableOptimizerConfig
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.glueTableOptimizer.GlueTableOptimizer.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetableoptimizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetableoptimizer"
 
 gluetableoptimizer.GlueTableOptimizer_IsConstruct(x interface{}) *bool
 ```
@@ -445,7 +445,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.glueTableOptimizer.GlueTableOptimizer.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetableoptimizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetableoptimizer"
 
 gluetableoptimizer.GlueTableOptimizer_IsTerraformElement(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ gluetableoptimizer.GlueTableOptimizer_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.glueTableOptimizer.GlueTableOptimizer.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetableoptimizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetableoptimizer"
 
 gluetableoptimizer.GlueTableOptimizer_IsTerraformResource(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ gluetableoptimizer.GlueTableOptimizer_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.glueTableOptimizer.GlueTableOptimizer.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetableoptimizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetableoptimizer"
 
 gluetableoptimizer.GlueTableOptimizer_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -502,7 +502,7 @@ The construct id used in the generated config for the GlueTableOptimizer to impo
 
 The id of the existing GlueTableOptimizer that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table_optimizer#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table_optimizer#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -823,7 +823,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueTableOptimizer.GlueTableOptimizerConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetableoptimizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetableoptimizer"
 
 &gluetableoptimizer.GlueTableOptimizerConfig {
 	Connection: interface{},
@@ -836,7 +836,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetableoptimizer"
 	CatalogId: *string,
 	DatabaseName: *string,
 	TableName: *string,
-	TableOptimizerConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueTableOptimizer.GlueTableOptimizerTableOptimizerConfiguration,
+	TableOptimizerConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueTableOptimizer.GlueTableOptimizerTableOptimizerConfiguration,
 	Type: *string,
 }
 ```
@@ -940,7 +940,7 @@ CatalogId *string
 
 The catalog ID of the table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table_optimizer#catalog_id GlueTableOptimizer#catalog_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table_optimizer#catalog_id GlueTableOptimizer#catalog_id}
 
 ---
 
@@ -954,7 +954,7 @@ DatabaseName *string
 
 The name of the database. For Hive compatibility, this is folded to lowercase when it is stored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table_optimizer#database_name GlueTableOptimizer#database_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table_optimizer#database_name GlueTableOptimizer#database_name}
 
 ---
 
@@ -968,7 +968,7 @@ TableName *string
 
 The table name. For Hive compatibility, this must be entirely lowercase.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table_optimizer#table_name GlueTableOptimizer#table_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table_optimizer#table_name GlueTableOptimizer#table_name}
 
 ---
 
@@ -982,7 +982,7 @@ TableOptimizerConfiguration GlueTableOptimizerTableOptimizerConfiguration
 
 Specifies configuration details of a table optimizer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table_optimizer#table_optimizer_configuration GlueTableOptimizer#table_optimizer_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table_optimizer#table_optimizer_configuration GlueTableOptimizer#table_optimizer_configuration}
 
 ---
 
@@ -996,7 +996,7 @@ Type *string
 
 The type of table optimizer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table_optimizer#type GlueTableOptimizer#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table_optimizer#type GlueTableOptimizer#type}
 
 ---
 
@@ -1005,15 +1005,15 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueTableOptimizer.GlueTableOptimizerTableOptimizerConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetableoptimizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetableoptimizer"
 
 &gluetableoptimizer.GlueTableOptimizerTableOptimizerConfiguration {
 	Enabled: interface{},
 	RoleArn: *string,
-	CompactionConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueTableOptimizer.GlueTableOptimizerTableOptimizerConfigurationCompactionConfiguration,
-	OrphanFileDeletionConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueTableOptimizer.GlueTableOptimizerTableOptimizerConfigurationOrphanFileDeletionConfiguration,
-	RetentionConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueTableOptimizer.GlueTableOptimizerTableOptimizerConfigurationRetentionConfiguration,
-	VpcConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueTableOptimizer.GlueTableOptimizerTableOptimizerConfigurationVpcConfiguration,
+	CompactionConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueTableOptimizer.GlueTableOptimizerTableOptimizerConfigurationCompactionConfiguration,
+	OrphanFileDeletionConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueTableOptimizer.GlueTableOptimizerTableOptimizerConfigurationOrphanFileDeletionConfiguration,
+	RetentionConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueTableOptimizer.GlueTableOptimizerTableOptimizerConfigurationRetentionConfiguration,
+	VpcConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueTableOptimizer.GlueTableOptimizerTableOptimizerConfigurationVpcConfiguration,
 }
 ```
 
@@ -1040,7 +1040,7 @@ Enabled interface{}
 
 Whether the table optimization is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table_optimizer#enabled GlueTableOptimizer#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table_optimizer#enabled GlueTableOptimizer#enabled}
 
 ---
 
@@ -1054,7 +1054,7 @@ RoleArn *string
 
 A role passed by the caller which gives the service permission to update the resources associated with the optimizer on the caller's behalf.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table_optimizer#role_arn GlueTableOptimizer#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table_optimizer#role_arn GlueTableOptimizer#role_arn}
 
 ---
 
@@ -1070,7 +1070,7 @@ The configuration for a compaction optimizer.
 
 This configuration defines how data files in your table will be compacted to improve query performance and reduce storage costs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table_optimizer#compaction_configuration GlueTableOptimizer#compaction_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table_optimizer#compaction_configuration GlueTableOptimizer#compaction_configuration}
 
 ---
 
@@ -1086,7 +1086,7 @@ OrphanFileDeletionConfiguration is a property that can be included within the Ta
 
 It controls the automatic deletion of orphaned files - files that are not tracked by the table metadata, and older than the configured age limit.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table_optimizer#orphan_file_deletion_configuration GlueTableOptimizer#orphan_file_deletion_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table_optimizer#orphan_file_deletion_configuration GlueTableOptimizer#orphan_file_deletion_configuration}
 
 ---
 
@@ -1100,7 +1100,7 @@ RetentionConfiguration GlueTableOptimizerTableOptimizerConfigurationRetentionCon
 
 The configuration for a snapshot retention optimizer for Apache Iceberg tables.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table_optimizer#retention_configuration GlueTableOptimizer#retention_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table_optimizer#retention_configuration GlueTableOptimizer#retention_configuration}
 
 ---
 
@@ -1116,7 +1116,7 @@ An object that describes the VPC configuration for a table optimizer.
 
 This configuration is necessary to perform optimization on tables that are in a customer VPC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table_optimizer#vpc_configuration GlueTableOptimizer#vpc_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table_optimizer#vpc_configuration GlueTableOptimizer#vpc_configuration}
 
 ---
 
@@ -1125,10 +1125,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueTableOptimizer.GlueTableOptimizerTableOptimizerConfigurationCompactionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetableoptimizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetableoptimizer"
 
 &gluetableoptimizer.GlueTableOptimizerTableOptimizerConfigurationCompactionConfiguration {
-	IcebergConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueTableOptimizer.GlueTableOptimizerTableOptimizerConfigurationCompactionConfigurationIcebergConfiguration,
+	IcebergConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueTableOptimizer.GlueTableOptimizerTableOptimizerConfigurationCompactionConfigurationIcebergConfiguration,
 }
 ```
 
@@ -1150,7 +1150,7 @@ IcebergConfiguration GlueTableOptimizerTableOptimizerConfigurationCompactionConf
 
 The configuration for an Iceberg compaction optimizer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table_optimizer#iceberg_configuration GlueTableOptimizer#iceberg_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table_optimizer#iceberg_configuration GlueTableOptimizer#iceberg_configuration}
 
 ---
 
@@ -1159,7 +1159,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueTableOptimizer.GlueTableOptimizerTableOptimizerConfigurationCompactionConfigurationIcebergConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetableoptimizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetableoptimizer"
 
 &gluetableoptimizer.GlueTableOptimizerTableOptimizerConfigurationCompactionConfigurationIcebergConfiguration {
 	DeleteFileThreshold: *f64,
@@ -1188,7 +1188,7 @@ DeleteFileThreshold *f64
 
 The minimum number of deletes in a data file to make it eligible for compaction.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table_optimizer#delete_file_threshold GlueTableOptimizer#delete_file_threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table_optimizer#delete_file_threshold GlueTableOptimizer#delete_file_threshold}
 
 ---
 
@@ -1202,7 +1202,7 @@ MinInputFiles *f64
 
 The minimum number of input files before compaction is triggered.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table_optimizer#min_input_files GlueTableOptimizer#min_input_files}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table_optimizer#min_input_files GlueTableOptimizer#min_input_files}
 
 ---
 
@@ -1216,7 +1216,7 @@ Strategy *string
 
 The compaction strategy to use. Valid values are binpack, sort, and z-order.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table_optimizer#strategy GlueTableOptimizer#strategy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table_optimizer#strategy GlueTableOptimizer#strategy}
 
 ---
 
@@ -1225,10 +1225,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueTableOptimizer.GlueTableOptimizerTableOptimizerConfigurationOrphanFileDeletionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetableoptimizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetableoptimizer"
 
 &gluetableoptimizer.GlueTableOptimizerTableOptimizerConfigurationOrphanFileDeletionConfiguration {
-	IcebergConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueTableOptimizer.GlueTableOptimizerTableOptimizerConfigurationOrphanFileDeletionConfigurationIcebergConfiguration,
+	IcebergConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueTableOptimizer.GlueTableOptimizerTableOptimizerConfigurationOrphanFileDeletionConfigurationIcebergConfiguration,
 }
 ```
 
@@ -1250,7 +1250,7 @@ IcebergConfiguration GlueTableOptimizerTableOptimizerConfigurationOrphanFileDele
 
 The IcebergConfiguration property helps optimize your Iceberg tables in AWS Glue by allowing you to specify format-specific settings that control how data is stored, compressed, and managed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table_optimizer#iceberg_configuration GlueTableOptimizer#iceberg_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table_optimizer#iceberg_configuration GlueTableOptimizer#iceberg_configuration}
 
 ---
 
@@ -1259,7 +1259,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueTableOptimizer.GlueTableOptimizerTableOptimizerConfigurationOrphanFileDeletionConfigurationIcebergConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetableoptimizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetableoptimizer"
 
 &gluetableoptimizer.GlueTableOptimizerTableOptimizerConfigurationOrphanFileDeletionConfigurationIcebergConfiguration {
 	Location: *string,
@@ -1288,7 +1288,7 @@ Specifies a directory in which to look for orphan files (defaults to the table's
 
 You may choose a sub-directory rather than the top-level table location.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table_optimizer#location GlueTableOptimizer#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table_optimizer#location GlueTableOptimizer#location}
 
 ---
 
@@ -1302,7 +1302,7 @@ OrphanFileRetentionPeriodInDays *f64
 
 The specific number of days you want to keep the orphan files.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table_optimizer#orphan_file_retention_period_in_days GlueTableOptimizer#orphan_file_retention_period_in_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table_optimizer#orphan_file_retention_period_in_days GlueTableOptimizer#orphan_file_retention_period_in_days}
 
 ---
 
@@ -1311,10 +1311,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueTableOptimizer.GlueTableOptimizerTableOptimizerConfigurationRetentionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetableoptimizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetableoptimizer"
 
 &gluetableoptimizer.GlueTableOptimizerTableOptimizerConfigurationRetentionConfiguration {
-	IcebergConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.glueTableOptimizer.GlueTableOptimizerTableOptimizerConfigurationRetentionConfigurationIcebergConfiguration,
+	IcebergConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.glueTableOptimizer.GlueTableOptimizerTableOptimizerConfigurationRetentionConfigurationIcebergConfiguration,
 }
 ```
 
@@ -1336,7 +1336,7 @@ IcebergConfiguration GlueTableOptimizerTableOptimizerConfigurationRetentionConfi
 
 The configuration for an Iceberg snapshot retention optimizer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table_optimizer#iceberg_configuration GlueTableOptimizer#iceberg_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table_optimizer#iceberg_configuration GlueTableOptimizer#iceberg_configuration}
 
 ---
 
@@ -1345,7 +1345,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueTableOptimizer.GlueTableOptimizerTableOptimizerConfigurationRetentionConfigurationIcebergConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetableoptimizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetableoptimizer"
 
 &gluetableoptimizer.GlueTableOptimizerTableOptimizerConfigurationRetentionConfigurationIcebergConfiguration {
 	CleanExpiredFiles: interface{},
@@ -1358,9 +1358,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetableoptimizer"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.glueTableOptimizer.GlueTableOptimizerTableOptimizerConfigurationRetentionConfigurationIcebergConfiguration.property.cleanExpiredFiles">CleanExpiredFiles</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table_optimizer#clean_expired_files GlueTableOptimizer#clean_expired_files}. |
-| <code><a href="#@cdktn/provider-awscc.glueTableOptimizer.GlueTableOptimizerTableOptimizerConfigurationRetentionConfigurationIcebergConfiguration.property.numberOfSnapshotsToRetain">NumberOfSnapshotsToRetain</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table_optimizer#number_of_snapshots_to_retain GlueTableOptimizer#number_of_snapshots_to_retain}. |
-| <code><a href="#@cdktn/provider-awscc.glueTableOptimizer.GlueTableOptimizerTableOptimizerConfigurationRetentionConfigurationIcebergConfiguration.property.snapshotRetentionPeriodInDays">SnapshotRetentionPeriodInDays</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table_optimizer#snapshot_retention_period_in_days GlueTableOptimizer#snapshot_retention_period_in_days}. |
+| <code><a href="#@cdktn/provider-awscc.glueTableOptimizer.GlueTableOptimizerTableOptimizerConfigurationRetentionConfigurationIcebergConfiguration.property.cleanExpiredFiles">CleanExpiredFiles</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table_optimizer#clean_expired_files GlueTableOptimizer#clean_expired_files}. |
+| <code><a href="#@cdktn/provider-awscc.glueTableOptimizer.GlueTableOptimizerTableOptimizerConfigurationRetentionConfigurationIcebergConfiguration.property.numberOfSnapshotsToRetain">NumberOfSnapshotsToRetain</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table_optimizer#number_of_snapshots_to_retain GlueTableOptimizer#number_of_snapshots_to_retain}. |
+| <code><a href="#@cdktn/provider-awscc.glueTableOptimizer.GlueTableOptimizerTableOptimizerConfigurationRetentionConfigurationIcebergConfiguration.property.snapshotRetentionPeriodInDays">SnapshotRetentionPeriodInDays</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table_optimizer#snapshot_retention_period_in_days GlueTableOptimizer#snapshot_retention_period_in_days}. |
 
 ---
 
@@ -1372,7 +1372,7 @@ CleanExpiredFiles interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table_optimizer#clean_expired_files GlueTableOptimizer#clean_expired_files}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table_optimizer#clean_expired_files GlueTableOptimizer#clean_expired_files}.
 
 ---
 
@@ -1384,7 +1384,7 @@ NumberOfSnapshotsToRetain *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table_optimizer#number_of_snapshots_to_retain GlueTableOptimizer#number_of_snapshots_to_retain}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table_optimizer#number_of_snapshots_to_retain GlueTableOptimizer#number_of_snapshots_to_retain}.
 
 ---
 
@@ -1396,7 +1396,7 @@ SnapshotRetentionPeriodInDays *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table_optimizer#snapshot_retention_period_in_days GlueTableOptimizer#snapshot_retention_period_in_days}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table_optimizer#snapshot_retention_period_in_days GlueTableOptimizer#snapshot_retention_period_in_days}.
 
 ---
 
@@ -1405,7 +1405,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueTableOptimizer.GlueTableOptimizerTableOptimizerConfigurationVpcConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetableoptimizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetableoptimizer"
 
 &gluetableoptimizer.GlueTableOptimizerTableOptimizerConfigurationVpcConfiguration {
 	GlueConnectionName: *string,
@@ -1430,7 +1430,7 @@ GlueConnectionName *string
 
 The name of the AWS Glue connection used for the VPC for the table optimizer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table_optimizer#glue_connection_name GlueTableOptimizer#glue_connection_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table_optimizer#glue_connection_name GlueTableOptimizer#glue_connection_name}
 
 ---
 
@@ -1441,7 +1441,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueTableOptimizer.GlueTableOptimizerTableOptimizerConfigurationCompactionConfigurationIcebergConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetableoptimizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetableoptimizer"
 
 gluetableoptimizer.NewGlueTableOptimizerTableOptimizerConfigurationCompactionConfigurationIcebergConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueTableOptimizerTableOptimizerConfigurationCompactionConfigurationIcebergConfigurationOutputReference
 ```
@@ -1777,7 +1777,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueTableOptimizer.GlueTableOptimizerTableOptimizerConfigurationCompactionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetableoptimizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetableoptimizer"
 
 gluetableoptimizer.NewGlueTableOptimizerTableOptimizerConfigurationCompactionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueTableOptimizerTableOptimizerConfigurationCompactionConfigurationOutputReference
 ```
@@ -2068,7 +2068,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueTableOptimizer.GlueTableOptimizerTableOptimizerConfigurationOrphanFileDeletionConfigurationIcebergConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetableoptimizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetableoptimizer"
 
 gluetableoptimizer.NewGlueTableOptimizerTableOptimizerConfigurationOrphanFileDeletionConfigurationIcebergConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueTableOptimizerTableOptimizerConfigurationOrphanFileDeletionConfigurationIcebergConfigurationOutputReference
 ```
@@ -2375,7 +2375,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueTableOptimizer.GlueTableOptimizerTableOptimizerConfigurationOrphanFileDeletionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetableoptimizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetableoptimizer"
 
 gluetableoptimizer.NewGlueTableOptimizerTableOptimizerConfigurationOrphanFileDeletionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueTableOptimizerTableOptimizerConfigurationOrphanFileDeletionConfigurationOutputReference
 ```
@@ -2666,7 +2666,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueTableOptimizer.GlueTableOptimizerTableOptimizerConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetableoptimizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetableoptimizer"
 
 gluetableoptimizer.NewGlueTableOptimizerTableOptimizerConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueTableOptimizerTableOptimizerConfigurationOutputReference
 ```
@@ -3127,7 +3127,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueTableOptimizer.GlueTableOptimizerTableOptimizerConfigurationRetentionConfigurationIcebergConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetableoptimizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetableoptimizer"
 
 gluetableoptimizer.NewGlueTableOptimizerTableOptimizerConfigurationRetentionConfigurationIcebergConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueTableOptimizerTableOptimizerConfigurationRetentionConfigurationIcebergConfigurationOutputReference
 ```
@@ -3463,7 +3463,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueTableOptimizer.GlueTableOptimizerTableOptimizerConfigurationRetentionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetableoptimizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetableoptimizer"
 
 gluetableoptimizer.NewGlueTableOptimizerTableOptimizerConfigurationRetentionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueTableOptimizerTableOptimizerConfigurationRetentionConfigurationOutputReference
 ```
@@ -3754,7 +3754,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueTableOptimizer.GlueTableOptimizerTableOptimizerConfigurationVpcConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetableoptimizer"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetableoptimizer"
 
 gluetableoptimizer.NewGlueTableOptimizerTableOptimizerConfigurationVpcConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GlueTableOptimizerTableOptimizerConfigurationVpcConfigurationOutputReference
 ```

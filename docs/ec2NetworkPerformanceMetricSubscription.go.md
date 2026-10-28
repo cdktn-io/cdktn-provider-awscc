@@ -4,12 +4,12 @@
 
 ### Ec2NetworkPerformanceMetricSubscription <a name="Ec2NetworkPerformanceMetricSubscription" id="@cdktn/provider-awscc.ec2NetworkPerformanceMetricSubscription.Ec2NetworkPerformanceMetricSubscription"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_performance_metric_subscription awscc_ec2_network_performance_metric_subscription}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_performance_metric_subscription awscc_ec2_network_performance_metric_subscription}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2NetworkPerformanceMetricSubscription.Ec2NetworkPerformanceMetricSubscription.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkperformancemetricsubscription"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2networkperformancemetricsubscription"
 
 ec2networkperformancemetricsubscription.NewEc2NetworkPerformanceMetricSubscription(scope Construct, id *string, config Ec2NetworkPerformanceMetricSubscriptionConfig) Ec2NetworkPerformanceMetricSubscription
 ```
@@ -400,7 +400,7 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.ec2NetworkPerformanceMetricSubscription.Ec2NetworkPerformanceMetricSubscription.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkperformancemetricsubscription"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2networkperformancemetricsubscription"
 
 ec2networkperformancemetricsubscription.Ec2NetworkPerformanceMetricSubscription_IsConstruct(x interface{}) *bool
 ```
@@ -432,7 +432,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.ec2NetworkPerformanceMetricSubscription.Ec2NetworkPerformanceMetricSubscription.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkperformancemetricsubscription"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2networkperformancemetricsubscription"
 
 ec2networkperformancemetricsubscription.Ec2NetworkPerformanceMetricSubscription_IsTerraformElement(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ ec2networkperformancemetricsubscription.Ec2NetworkPerformanceMetricSubscription_
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.ec2NetworkPerformanceMetricSubscription.Ec2NetworkPerformanceMetricSubscription.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkperformancemetricsubscription"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2networkperformancemetricsubscription"
 
 ec2networkperformancemetricsubscription.Ec2NetworkPerformanceMetricSubscription_IsTerraformResource(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ ec2networkperformancemetricsubscription.Ec2NetworkPerformanceMetricSubscription_
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.ec2NetworkPerformanceMetricSubscription.Ec2NetworkPerformanceMetricSubscription.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkperformancemetricsubscription"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2networkperformancemetricsubscription"
 
 ec2networkperformancemetricsubscription.Ec2NetworkPerformanceMetricSubscription_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -489,7 +489,7 @@ The construct id used in the generated config for the Ec2NetworkPerformanceMetri
 
 The id of the existing Ec2NetworkPerformanceMetricSubscription that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_performance_metric_subscription#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_performance_metric_subscription#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -788,7 +788,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2NetworkPerformanceMetricSubscription.Ec2NetworkPerformanceMetricSubscriptionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkperformancemetricsubscription"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2networkperformancemetricsubscription"
 
 &ec2networkperformancemetricsubscription.Ec2NetworkPerformanceMetricSubscriptionConfig {
 	Connection: interface{},
@@ -903,7 +903,7 @@ Destination *string
 
 The target Region or Availability Zone for the metric to subscribe to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_performance_metric_subscription#destination Ec2NetworkPerformanceMetricSubscription#destination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_performance_metric_subscription#destination Ec2NetworkPerformanceMetricSubscription#destination}
 
 ---
 
@@ -917,7 +917,7 @@ Metric *string
 
 The metric type to subscribe to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_performance_metric_subscription#metric Ec2NetworkPerformanceMetricSubscription#metric}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_performance_metric_subscription#metric Ec2NetworkPerformanceMetricSubscription#metric}
 
 ---
 
@@ -931,7 +931,7 @@ Source *string
 
 The starting Region or Availability Zone for metric to subscribe to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_performance_metric_subscription#source Ec2NetworkPerformanceMetricSubscription#source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_performance_metric_subscription#source Ec2NetworkPerformanceMetricSubscription#source}
 
 ---
 
@@ -945,7 +945,7 @@ Statistic *string
 
 The statistic to subscribe to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_performance_metric_subscription#statistic Ec2NetworkPerformanceMetricSubscription#statistic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_performance_metric_subscription#statistic Ec2NetworkPerformanceMetricSubscription#statistic}
 
 ---
 

@@ -4,12 +4,12 @@
 
 ### LogsLogStream <a name="LogsLogStream" id="@cdktn/provider-awscc.logsLogStream.LogsLogStream"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_log_stream awscc_logs_log_stream}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_log_stream awscc_logs_log_stream}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.logsLogStream.LogsLogStream.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/logslogstream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/logslogstream"
 
 logslogstream.NewLogsLogStream(scope Construct, id *string, config LogsLogStreamConfig) LogsLogStream
 ```
@@ -407,7 +407,7 @@ func ResetLogStreamName()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.logsLogStream.LogsLogStream.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/logslogstream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/logslogstream"
 
 logslogstream.LogsLogStream_IsConstruct(x interface{}) *bool
 ```
@@ -439,7 +439,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.logsLogStream.LogsLogStream.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/logslogstream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/logslogstream"
 
 logslogstream.LogsLogStream_IsTerraformElement(x interface{}) *bool
 ```
@@ -453,7 +453,7 @@ logslogstream.LogsLogStream_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.logsLogStream.LogsLogStream.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/logslogstream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/logslogstream"
 
 logslogstream.LogsLogStream_IsTerraformResource(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ logslogstream.LogsLogStream_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.logsLogStream.LogsLogStream.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/logslogstream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/logslogstream"
 
 logslogstream.LogsLogStream_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -496,7 +496,7 @@ The construct id used in the generated config for the LogsLogStream to import.
 
 The id of the existing LogsLogStream that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_log_stream#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_log_stream#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -751,7 +751,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.logsLogStream.LogsLogStreamConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/logslogstream"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/logslogstream"
 
 &logslogstream.LogsLogStreamConfig {
 	Connection: interface{},
@@ -862,7 +862,7 @@ LogGroupName *string
 
 The name of the log group where the log stream is created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_log_stream#log_group_name LogsLogStream#log_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_log_stream#log_group_name LogsLogStream#log_group_name}
 
 ---
 
@@ -876,7 +876,7 @@ LogStreamName *string
 
 The name of the log stream. The name must be unique wihtin the log group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_log_stream#log_stream_name LogsLogStream#log_stream_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_log_stream#log_stream_name LogsLogStream#log_stream_name}
 
 ---
 

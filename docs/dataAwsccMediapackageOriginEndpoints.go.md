@@ -4,12 +4,12 @@
 
 ### DataAwsccMediapackageOriginEndpoints <a name="DataAwsccMediapackageOriginEndpoints" id="@cdktn/provider-awscc.dataAwsccMediapackageOriginEndpoints.DataAwsccMediapackageOriginEndpoints"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediapackage_origin_endpoints awscc_mediapackage_origin_endpoints}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediapackage_origin_endpoints awscc_mediapackage_origin_endpoints}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediapackageOriginEndpoints.DataAwsccMediapackageOriginEndpoints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackageoriginendpoints"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackageoriginendpoints"
 
 dataawsccmediapackageoriginendpoints.NewDataAwsccMediapackageOriginEndpoints(scope Construct, id *string, config DataAwsccMediapackageOriginEndpointsConfig) DataAwsccMediapackageOriginEndpoints
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccMediapackageOriginEndpoints.DataAwsccMediapackageOriginEndpoints.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackageoriginendpoints"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackageoriginendpoints"
 
 dataawsccmediapackageoriginendpoints.DataAwsccMediapackageOriginEndpoints_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccMediapackageOriginEndpoints.DataAwsccMediapackageOriginEndpoints.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackageoriginendpoints"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackageoriginendpoints"
 
 dataawsccmediapackageoriginendpoints.DataAwsccMediapackageOriginEndpoints_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccmediapackageoriginendpoints.DataAwsccMediapackageOriginEndpoints_IsTerr
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccMediapackageOriginEndpoints.DataAwsccMediapackageOriginEndpoints.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackageoriginendpoints"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackageoriginendpoints"
 
 dataawsccmediapackageoriginendpoints.DataAwsccMediapackageOriginEndpoints_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccmediapackageoriginendpoints.DataAwsccMediapackageOriginEndpoints_IsTerr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccMediapackageOriginEndpoints.DataAwsccMediapackageOriginEndpoints.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackageoriginendpoints"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackageoriginendpoints"
 
 dataawsccmediapackageoriginendpoints.DataAwsccMediapackageOriginEndpoints_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccMediapackageOrigi
 
 The id of the existing DataAwsccMediapackageOriginEndpoints that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediapackage_origin_endpoints#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediapackage_origin_endpoints#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediapackageOriginEndpoints.DataAwsccMediapackageOriginEndpointsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackageoriginendpoints"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackageoriginendpoints"
 
 &dataawsccmediapackageoriginendpoints.DataAwsccMediapackageOriginEndpointsConfig {
 	Connection: interface{},

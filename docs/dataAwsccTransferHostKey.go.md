@@ -4,12 +4,12 @@
 
 ### DataAwsccTransferHostKey <a name="DataAwsccTransferHostKey" id="@cdktn/provider-awscc.dataAwsccTransferHostKey.DataAwsccTransferHostKey"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/transfer_host_key awscc_transfer_host_key}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/transfer_host_key awscc_transfer_host_key}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTransferHostKey.DataAwsccTransferHostKey.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferhostkey"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferhostkey"
 
 dataawscctransferhostkey.NewDataAwsccTransferHostKey(scope Construct, id *string, config DataAwsccTransferHostKeyConfig) DataAwsccTransferHostKey
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccTransferHostKey.DataAwsccTransferHostKey.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferhostkey"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferhostkey"
 
 dataawscctransferhostkey.DataAwsccTransferHostKey_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccTransferHostKey.DataAwsccTransferHostKey.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferhostkey"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferhostkey"
 
 dataawscctransferhostkey.DataAwsccTransferHostKey_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscctransferhostkey.DataAwsccTransferHostKey_IsTerraformElement(x interface
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccTransferHostKey.DataAwsccTransferHostKey.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferhostkey"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferhostkey"
 
 dataawscctransferhostkey.DataAwsccTransferHostKey_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscctransferhostkey.DataAwsccTransferHostKey_IsTerraformDataSource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccTransferHostKey.DataAwsccTransferHostKey.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferhostkey"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferhostkey"
 
 dataawscctransferhostkey.DataAwsccTransferHostKey_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccTransferHostKey t
 
 The id of the existing DataAwsccTransferHostKey that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/transfer_host_key#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/transfer_host_key#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -421,7 +421,10 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.dataAwsccTransferHostKey.DataAwsccTransferHostKey.property.hostKeyBody">HostKeyBody</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccTransferHostKey.DataAwsccTransferHostKey.property.hostKeyFingerprint">HostKeyFingerprint</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccTransferHostKey.DataAwsccTransferHostKey.property.hostKeyId">HostKeyId</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccTransferHostKey.DataAwsccTransferHostKey.property.kmsKey">KmsKey</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccTransferHostKey.DataAwsccTransferHostKey.property.secretId">SecretId</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccTransferHostKey.DataAwsccTransferHostKey.property.serverId">ServerId</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccTransferHostKey.DataAwsccTransferHostKey.property.storageType">StorageType</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccTransferHostKey.DataAwsccTransferHostKey.property.tags">Tags</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccTransferHostKey.DataAwsccTransferHostKeyTagsList">DataAwsccTransferHostKeyTagsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccTransferHostKey.DataAwsccTransferHostKey.property.type">Type</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccTransferHostKey.DataAwsccTransferHostKey.property.idInput">IdInput</a></code> | <code>*string</code> | *No description.* |
@@ -611,10 +614,40 @@ func HostKeyId() *string
 
 ---
 
+##### `KmsKey`<sup>Required</sup> <a name="KmsKey" id="@cdktn/provider-awscc.dataAwsccTransferHostKey.DataAwsccTransferHostKey.property.kmsKey"></a>
+
+```go
+func KmsKey() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `SecretId`<sup>Required</sup> <a name="SecretId" id="@cdktn/provider-awscc.dataAwsccTransferHostKey.DataAwsccTransferHostKey.property.secretId"></a>
+
+```go
+func SecretId() *string
+```
+
+- *Type:* *string
+
+---
+
 ##### `ServerId`<sup>Required</sup> <a name="ServerId" id="@cdktn/provider-awscc.dataAwsccTransferHostKey.DataAwsccTransferHostKey.property.serverId"></a>
 
 ```go
 func ServerId() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `StorageType`<sup>Required</sup> <a name="StorageType" id="@cdktn/provider-awscc.dataAwsccTransferHostKey.DataAwsccTransferHostKey.property.storageType"></a>
+
+```go
+func StorageType() *string
 ```
 
 - *Type:* *string
@@ -686,7 +719,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTransferHostKey.DataAwsccTransferHostKeyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferhostkey"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferhostkey"
 
 &dataawscctransferhostkey.DataAwsccTransferHostKeyConfig {
 	Connection: interface{},
@@ -795,7 +828,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/transfer_host_key#id DataAwsccTransferHostKey#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/transfer_host_key#id DataAwsccTransferHostKey#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -807,7 +840,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTransferHostKey.DataAwsccTransferHostKeyTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferhostkey"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferhostkey"
 
 &dataawscctransferhostkey.DataAwsccTransferHostKeyTags {
 
@@ -822,7 +855,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferhostk
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTransferHostKey.DataAwsccTransferHostKeyTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferhostkey"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferhostkey"
 
 dataawscctransferhostkey.NewDataAwsccTransferHostKeyTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccTransferHostKeyTagsList
 ```
@@ -971,7 +1004,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTransferHostKey.DataAwsccTransferHostKeyTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferhostkey"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferhostkey"
 
 dataawscctransferhostkey.NewDataAwsccTransferHostKeyTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccTransferHostKeyTagsOutputReference
 ```

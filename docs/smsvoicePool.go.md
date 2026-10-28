@@ -4,12 +4,12 @@
 
 ### SmsvoicePool <a name="SmsvoicePool" id="@cdktn/provider-awscc.smsvoicePool.SmsvoicePool"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_pool awscc_smsvoice_pool}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_pool awscc_smsvoice_pool}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.smsvoicePool.SmsvoicePool.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicepool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoicepool"
 
 smsvoicepool.NewSmsvoicePool(scope Construct, id *string, config SmsvoicePoolConfig) SmsvoicePool
 ```
@@ -501,7 +501,7 @@ func ResetTwoWay()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.smsvoicePool.SmsvoicePool.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicepool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoicepool"
 
 smsvoicepool.SmsvoicePool_IsConstruct(x interface{}) *bool
 ```
@@ -533,7 +533,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.smsvoicePool.SmsvoicePool.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicepool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoicepool"
 
 smsvoicepool.SmsvoicePool_IsTerraformElement(x interface{}) *bool
 ```
@@ -547,7 +547,7 @@ smsvoicepool.SmsvoicePool_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.smsvoicePool.SmsvoicePool.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicepool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoicepool"
 
 smsvoicepool.SmsvoicePool_IsTerraformResource(x interface{}) *bool
 ```
@@ -561,7 +561,7 @@ smsvoicepool.SmsvoicePool_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.smsvoicePool.SmsvoicePool.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicepool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoicepool"
 
 smsvoicepool.SmsvoicePool_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -590,7 +590,7 @@ The construct id used in the generated config for the SmsvoicePool to import.
 
 The id of the existing SmsvoicePool that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_pool#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_pool#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1021,7 +1021,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.smsvoicePool.SmsvoicePoolConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicepool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoicepool"
 
 &smsvoicepool.SmsvoicePoolConfig {
 	Connection: interface{},
@@ -1031,7 +1031,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicepool"
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	MandatoryKeywords: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.smsvoicePool.SmsvoicePoolMandatoryKeywords,
+	MandatoryKeywords: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.smsvoicePool.SmsvoicePoolMandatoryKeywords,
 	OriginationIdentities: *[]*string,
 	DeletionProtectionEnabled: interface{},
 	OptionalKeywords: interface{},
@@ -1039,7 +1039,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicepool"
 	SelfManagedOptOutsEnabled: interface{},
 	SharedRoutesEnabled: interface{},
 	Tags: interface{},
-	TwoWay: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.smsvoicePool.SmsvoicePoolTwoWay,
+	TwoWay: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.smsvoicePool.SmsvoicePoolTwoWay,
 }
 ```
 
@@ -1148,7 +1148,7 @@ A keyword is a word that you can search for on a particular phone number or pool
 
 It is also a specific word or phrase that an end user can send to your number to elicit a response, such as an informational message or a special offer. When your number receives a message that begins with a keyword, AWS End User Messaging SMS and Voice responds with a customizable message. Keywords "HELP" and "STOP" are mandatory keywords
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_pool#mandatory_keywords SmsvoicePool#mandatory_keywords}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_pool#mandatory_keywords SmsvoicePool#mandatory_keywords}
 
 ---
 
@@ -1162,7 +1162,7 @@ OriginationIdentities *[]*string
 
 The origination identity to use such as a PhoneNumberId, PhoneNumberArn, SenderId or SenderIdArn and it's IsoCountryCode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_pool#origination_identities SmsvoicePool#origination_identities}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_pool#origination_identities SmsvoicePool#origination_identities}
 
 ---
 
@@ -1176,7 +1176,7 @@ DeletionProtectionEnabled interface{}
 
 When set to true the pool can't be deleted. By default this is set to false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_pool#deletion_protection_enabled SmsvoicePool#deletion_protection_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_pool#deletion_protection_enabled SmsvoicePool#deletion_protection_enabled}
 
 ---
 
@@ -1192,7 +1192,7 @@ A keyword is a word that you can search for on a particular phone number or pool
 
 It is also a specific word or phrase that an end user can send to your number to elicit a response, such as an informational message or a special offer. When your number receives a message that begins with a keyword, AWS End User Messaging SMS and Voice responds with a customizable message.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_pool#optional_keywords SmsvoicePool#optional_keywords}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_pool#optional_keywords SmsvoicePool#optional_keywords}
 
 ---
 
@@ -1206,7 +1206,7 @@ OptOutListName *string
 
 The name of the OptOutList to associate with the pool. You can use the OptOutListName or OptOutListArn.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_pool#opt_out_list_name SmsvoicePool#opt_out_list_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_pool#opt_out_list_name SmsvoicePool#opt_out_list_name}
 
 ---
 
@@ -1222,7 +1222,7 @@ By default this is set to false.
 
 When an end recipient sends a message that begins with HELP or STOP to one of your dedicated numbers, AWS End User Messaging SMS and Voice automatically replies with a customizable message and adds the end recipient to the OptOutList. When set to true you're responsible for responding to HELP and STOP requests. You're also responsible for tracking and honoring opt-out requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_pool#self_managed_opt_outs_enabled SmsvoicePool#self_managed_opt_outs_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_pool#self_managed_opt_outs_enabled SmsvoicePool#self_managed_opt_outs_enabled}
 
 ---
 
@@ -1236,7 +1236,7 @@ SharedRoutesEnabled interface{}
 
 Indicates whether shared routes are enabled for the pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_pool#shared_routes_enabled SmsvoicePool#shared_routes_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_pool#shared_routes_enabled SmsvoicePool#shared_routes_enabled}
 
 ---
 
@@ -1250,7 +1250,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_pool#tags SmsvoicePool#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_pool#tags SmsvoicePool#tags}
 
 ---
 
@@ -1266,7 +1266,7 @@ When you set up two-way SMS, you can receive incoming messages from your custome
 
 When one of your customers sends a message to your phone number, the message body is sent to an Amazon SNS topic or Amazon Connect for processing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_pool#two_way SmsvoicePool#two_way}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_pool#two_way SmsvoicePool#two_way}
 
 ---
 
@@ -1275,11 +1275,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.smsvoicePool.SmsvoicePoolMandatoryKeywords.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicepool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoicepool"
 
 &smsvoicepool.SmsvoicePoolMandatoryKeywords {
-	Help: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.smsvoicePool.SmsvoicePoolMandatoryKeywordsHelp,
-	Stop: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.smsvoicePool.SmsvoicePoolMandatoryKeywordsStop,
+	Help: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.smsvoicePool.SmsvoicePoolMandatoryKeywordsHelp,
+	Stop: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.smsvoicePool.SmsvoicePoolMandatoryKeywordsStop,
 }
 ```
 
@@ -1304,7 +1304,7 @@ A keyword is a word that you can search for on a particular phone number or pool
 
 It is also a specific word or phrase that an end user can send to your number to elicit a response, such as an informational message or a special offer. When your number receives a message that begins with a keyword, AWS End User Messaging SMS and Voice responds with a customizable message. Keywords "HELP" and "STOP" are mandatory keywords
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_pool#help SmsvoicePool#help}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_pool#help SmsvoicePool#help}
 
 ---
 
@@ -1320,7 +1320,7 @@ A keyword is a word that you can search for on a particular phone number or pool
 
 It is also a specific word or phrase that an end user can send to your number to elicit a response, such as an informational message or a special offer. When your number receives a message that begins with a keyword, AWS End User Messaging SMS and Voice responds with a customizable message. Keywords "HELP" and "STOP" are mandatory keywords
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_pool#stop SmsvoicePool#stop}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_pool#stop SmsvoicePool#stop}
 
 ---
 
@@ -1329,7 +1329,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.smsvoicePool.SmsvoicePoolMandatoryKeywordsHelp.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicepool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoicepool"
 
 &smsvoicepool.SmsvoicePoolMandatoryKeywordsHelp {
 	Message: *string,
@@ -1340,7 +1340,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicepool"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.smsvoicePool.SmsvoicePoolMandatoryKeywordsHelp.property.message">Message</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_pool#message SmsvoicePool#message}. |
+| <code><a href="#@cdktn/provider-awscc.smsvoicePool.SmsvoicePoolMandatoryKeywordsHelp.property.message">Message</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_pool#message SmsvoicePool#message}. |
 
 ---
 
@@ -1352,7 +1352,7 @@ Message *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_pool#message SmsvoicePool#message}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_pool#message SmsvoicePool#message}.
 
 ---
 
@@ -1361,7 +1361,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.smsvoicePool.SmsvoicePoolMandatoryKeywordsStop.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicepool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoicepool"
 
 &smsvoicepool.SmsvoicePoolMandatoryKeywordsStop {
 	Message: *string,
@@ -1372,7 +1372,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicepool"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.smsvoicePool.SmsvoicePoolMandatoryKeywordsStop.property.message">Message</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_pool#message SmsvoicePool#message}. |
+| <code><a href="#@cdktn/provider-awscc.smsvoicePool.SmsvoicePoolMandatoryKeywordsStop.property.message">Message</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_pool#message SmsvoicePool#message}. |
 
 ---
 
@@ -1384,7 +1384,7 @@ Message *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_pool#message SmsvoicePool#message}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_pool#message SmsvoicePool#message}.
 
 ---
 
@@ -1393,7 +1393,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.smsvoicePool.SmsvoicePoolOptionalKeywords.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicepool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoicepool"
 
 &smsvoicepool.SmsvoicePoolOptionalKeywords {
 	Action: *string,
@@ -1406,9 +1406,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicepool"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.smsvoicePool.SmsvoicePoolOptionalKeywords.property.action">Action</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_pool#action SmsvoicePool#action}. |
-| <code><a href="#@cdktn/provider-awscc.smsvoicePool.SmsvoicePoolOptionalKeywords.property.keyword">Keyword</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_pool#keyword SmsvoicePool#keyword}. |
-| <code><a href="#@cdktn/provider-awscc.smsvoicePool.SmsvoicePoolOptionalKeywords.property.message">Message</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_pool#message SmsvoicePool#message}. |
+| <code><a href="#@cdktn/provider-awscc.smsvoicePool.SmsvoicePoolOptionalKeywords.property.action">Action</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_pool#action SmsvoicePool#action}. |
+| <code><a href="#@cdktn/provider-awscc.smsvoicePool.SmsvoicePoolOptionalKeywords.property.keyword">Keyword</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_pool#keyword SmsvoicePool#keyword}. |
+| <code><a href="#@cdktn/provider-awscc.smsvoicePool.SmsvoicePoolOptionalKeywords.property.message">Message</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_pool#message SmsvoicePool#message}. |
 
 ---
 
@@ -1420,7 +1420,7 @@ Action *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_pool#action SmsvoicePool#action}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_pool#action SmsvoicePool#action}.
 
 ---
 
@@ -1432,7 +1432,7 @@ Keyword *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_pool#keyword SmsvoicePool#keyword}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_pool#keyword SmsvoicePool#keyword}.
 
 ---
 
@@ -1444,7 +1444,7 @@ Message *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_pool#message SmsvoicePool#message}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_pool#message SmsvoicePool#message}.
 
 ---
 
@@ -1453,7 +1453,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.smsvoicePool.SmsvoicePoolTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicepool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoicepool"
 
 &smsvoicepool.SmsvoicePoolTags {
 	Key: *string,
@@ -1482,7 +1482,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_pool#key SmsvoicePool#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_pool#key SmsvoicePool#key}
 
 ---
 
@@ -1498,7 +1498,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_pool#value SmsvoicePool#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_pool#value SmsvoicePool#value}
 
 ---
 
@@ -1507,7 +1507,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.smsvoicePool.SmsvoicePoolTwoWay.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicepool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoicepool"
 
 &smsvoicepool.SmsvoicePoolTwoWay {
 	ChannelArn: *string,
@@ -1536,7 +1536,7 @@ ChannelArn *string
 
 The Amazon Resource Name (ARN) of the two way channel.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_pool#channel_arn SmsvoicePool#channel_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_pool#channel_arn SmsvoicePool#channel_arn}
 
 ---
 
@@ -1550,7 +1550,7 @@ ChannelRole *string
 
 An optional IAM Role Arn for a service to assume, to be able to post inbound SMS messages.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_pool#channel_role SmsvoicePool#channel_role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_pool#channel_role SmsvoicePool#channel_role}
 
 ---
 
@@ -1566,7 +1566,7 @@ By default this is set to false.
 
 When set to true you can receive incoming text messages from your end recipients.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_pool#enabled SmsvoicePool#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_pool#enabled SmsvoicePool#enabled}
 
 ---
 
@@ -1577,7 +1577,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.smsvoicePool.SmsvoicePoolMandatoryKeywordsHelpOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicepool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoicepool"
 
 smsvoicepool.NewSmsvoicePoolMandatoryKeywordsHelpOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SmsvoicePoolMandatoryKeywordsHelpOutputReference
 ```
@@ -1848,7 +1848,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.smsvoicePool.SmsvoicePoolMandatoryKeywordsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicepool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoicepool"
 
 smsvoicepool.NewSmsvoicePoolMandatoryKeywordsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SmsvoicePoolMandatoryKeywordsOutputReference
 ```
@@ -2167,7 +2167,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.smsvoicePool.SmsvoicePoolMandatoryKeywordsStopOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicepool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoicepool"
 
 smsvoicepool.NewSmsvoicePoolMandatoryKeywordsStopOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SmsvoicePoolMandatoryKeywordsStopOutputReference
 ```
@@ -2438,7 +2438,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.smsvoicePool.SmsvoicePoolOptionalKeywordsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicepool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoicepool"
 
 smsvoicepool.NewSmsvoicePoolOptionalKeywordsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SmsvoicePoolOptionalKeywordsList
 ```
@@ -2598,7 +2598,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.smsvoicePool.SmsvoicePoolOptionalKeywordsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicepool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoicepool"
 
 smsvoicepool.NewSmsvoicePoolOptionalKeywordsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SmsvoicePoolOptionalKeywordsOutputReference
 ```
@@ -2952,7 +2952,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.smsvoicePool.SmsvoicePoolTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicepool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoicepool"
 
 smsvoicepool.NewSmsvoicePoolTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SmsvoicePoolTagsList
 ```
@@ -3112,7 +3112,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.smsvoicePool.SmsvoicePoolTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicepool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoicepool"
 
 smsvoicepool.NewSmsvoicePoolTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SmsvoicePoolTagsOutputReference
 ```
@@ -3437,7 +3437,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.smsvoicePool.SmsvoicePoolTwoWayOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicepool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoicepool"
 
 smsvoicepool.NewSmsvoicePoolTwoWayOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) SmsvoicePoolTwoWayOutputReference
 ```

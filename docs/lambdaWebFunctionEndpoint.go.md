@@ -4,12 +4,12 @@
 
 ### LambdaWebFunctionEndpoint <a name="LambdaWebFunctionEndpoint" id="@cdktn/provider-awscc.lambdaWebFunctionEndpoint.LambdaWebFunctionEndpoint"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function_endpoint awscc_lambda_web_function_endpoint}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function_endpoint awscc_lambda_web_function_endpoint}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lambdaWebFunctionEndpoint.LambdaWebFunctionEndpoint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdawebfunctionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdawebfunctionendpoint"
 
 lambdawebfunctionendpoint.NewLambdaWebFunctionEndpoint(scope Construct, id *string, config LambdaWebFunctionEndpointConfig) LambdaWebFunctionEndpoint
 ```
@@ -474,7 +474,7 @@ func ResetThrottleConfig()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.lambdaWebFunctionEndpoint.LambdaWebFunctionEndpoint.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdawebfunctionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdawebfunctionendpoint"
 
 lambdawebfunctionendpoint.LambdaWebFunctionEndpoint_IsConstruct(x interface{}) *bool
 ```
@@ -506,7 +506,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.lambdaWebFunctionEndpoint.LambdaWebFunctionEndpoint.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdawebfunctionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdawebfunctionendpoint"
 
 lambdawebfunctionendpoint.LambdaWebFunctionEndpoint_IsTerraformElement(x interface{}) *bool
 ```
@@ -520,7 +520,7 @@ lambdawebfunctionendpoint.LambdaWebFunctionEndpoint_IsTerraformElement(x interfa
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.lambdaWebFunctionEndpoint.LambdaWebFunctionEndpoint.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdawebfunctionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdawebfunctionendpoint"
 
 lambdawebfunctionendpoint.LambdaWebFunctionEndpoint_IsTerraformResource(x interface{}) *bool
 ```
@@ -534,7 +534,7 @@ lambdawebfunctionendpoint.LambdaWebFunctionEndpoint_IsTerraformResource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.lambdaWebFunctionEndpoint.LambdaWebFunctionEndpoint.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdawebfunctionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdawebfunctionendpoint"
 
 lambdawebfunctionendpoint.LambdaWebFunctionEndpoint_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -563,7 +563,7 @@ The construct id used in the generated config for the LambdaWebFunctionEndpoint 
 
 The id of the existing LambdaWebFunctionEndpoint that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function_endpoint#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function_endpoint#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1082,7 +1082,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lambdaWebFunctionEndpoint.LambdaWebFunctionEndpointConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdawebfunctionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdawebfunctionendpoint"
 
 &lambdawebfunctionendpoint.LambdaWebFunctionEndpointConfig {
 	Connection: interface{},
@@ -1099,8 +1099,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdawebfunctionendpo
 	Description: *string,
 	Regions: *[]*string,
 	RevisionWeights: interface{},
-	ScalingConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lambdaWebFunctionEndpoint.LambdaWebFunctionEndpointScalingConfig,
-	ThrottleConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.lambdaWebFunctionEndpoint.LambdaWebFunctionEndpointThrottleConfig,
+	ScalingConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lambdaWebFunctionEndpoint.LambdaWebFunctionEndpointScalingConfig,
+	ThrottleConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.lambdaWebFunctionEndpoint.LambdaWebFunctionEndpointThrottleConfig,
 }
 ```
 
@@ -1207,7 +1207,7 @@ AuthType *string
 
 The authentication type for the endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function_endpoint#auth_type LambdaWebFunctionEndpoint#auth_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function_endpoint#auth_type LambdaWebFunctionEndpoint#auth_type}
 
 ---
 
@@ -1221,7 +1221,7 @@ EndpointName *string
 
 The name of the endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function_endpoint#endpoint_name LambdaWebFunctionEndpoint#endpoint_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function_endpoint#endpoint_name LambdaWebFunctionEndpoint#endpoint_name}
 
 ---
 
@@ -1235,7 +1235,7 @@ EndpointType *string
 
 The type of the endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function_endpoint#endpoint_type LambdaWebFunctionEndpoint#endpoint_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function_endpoint#endpoint_type LambdaWebFunctionEndpoint#endpoint_type}
 
 ---
 
@@ -1251,7 +1251,7 @@ The name of the web function this endpoint belongs to.
 
 The length constraint applies only to the full ARN. If you specify only the function name, it is limited to 64 characters in length.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function_endpoint#function_name LambdaWebFunctionEndpoint#function_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function_endpoint#function_name LambdaWebFunctionEndpoint#function_name}
 
 ---
 
@@ -1265,7 +1265,7 @@ Description *string
 
 A description of the endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function_endpoint#description LambdaWebFunctionEndpoint#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function_endpoint#description LambdaWebFunctionEndpoint#description}
 
 ---
 
@@ -1279,7 +1279,7 @@ Regions *[]*string
 
 The list of AWS Regions for the endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function_endpoint#regions LambdaWebFunctionEndpoint#regions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function_endpoint#regions LambdaWebFunctionEndpoint#regions}
 
 ---
 
@@ -1295,7 +1295,7 @@ List of revision routing entries.
 
 1 or 2 entries. With 1 entry, weight must be 100. With 2 entries, weights must sum to 100.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function_endpoint#revision_weights LambdaWebFunctionEndpoint#revision_weights}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function_endpoint#revision_weights LambdaWebFunctionEndpoint#revision_weights}
 
 ---
 
@@ -1311,7 +1311,7 @@ The scaling configuration for the endpoint.
 
 Optionally constrains how many concurrent execution environments the endpoint can use, in addition to your account's vCPU quota.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function_endpoint#scaling_config LambdaWebFunctionEndpoint#scaling_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function_endpoint#scaling_config LambdaWebFunctionEndpoint#scaling_config}
 
 ---
 
@@ -1327,7 +1327,7 @@ The throttling configuration for the endpoint.
 
 Optionally constrains the request rate that the endpoint accepts, in addition to your account's rate limit quota.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function_endpoint#throttle_config LambdaWebFunctionEndpoint#throttle_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function_endpoint#throttle_config LambdaWebFunctionEndpoint#throttle_config}
 
 ---
 
@@ -1336,7 +1336,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lambdaWebFunctionEndpoint.LambdaWebFunctionEndpointRegionalEndpoints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdawebfunctionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdawebfunctionendpoint"
 
 &lambdawebfunctionendpoint.LambdaWebFunctionEndpointRegionalEndpoints {
 
@@ -1349,7 +1349,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdawebfunctionendpo
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lambdaWebFunctionEndpoint.LambdaWebFunctionEndpointRegionalEndpointsRevisionWeights.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdawebfunctionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdawebfunctionendpoint"
 
 &lambdawebfunctionendpoint.LambdaWebFunctionEndpointRegionalEndpointsRevisionWeights {
 
@@ -1362,7 +1362,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdawebfunctionendpo
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lambdaWebFunctionEndpoint.LambdaWebFunctionEndpointRegionalEndpointsScalingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdawebfunctionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdawebfunctionendpoint"
 
 &lambdawebfunctionendpoint.LambdaWebFunctionEndpointRegionalEndpointsScalingConfig {
 
@@ -1375,7 +1375,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdawebfunctionendpo
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lambdaWebFunctionEndpoint.LambdaWebFunctionEndpointRegionalEndpointsThrottleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdawebfunctionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdawebfunctionendpoint"
 
 &lambdawebfunctionendpoint.LambdaWebFunctionEndpointRegionalEndpointsThrottleConfig {
 
@@ -1388,7 +1388,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdawebfunctionendpo
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lambdaWebFunctionEndpoint.LambdaWebFunctionEndpointRevisionWeights.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdawebfunctionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdawebfunctionendpoint"
 
 &lambdawebfunctionendpoint.LambdaWebFunctionEndpointRevisionWeights {
 	RevisionId: *string,
@@ -1415,7 +1415,7 @@ RevisionId *string
 
 The revision identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function_endpoint#revision_id LambdaWebFunctionEndpoint#revision_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function_endpoint#revision_id LambdaWebFunctionEndpoint#revision_id}
 
 ---
 
@@ -1429,7 +1429,7 @@ Weight *f64
 
 The traffic weight for this revision.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function_endpoint#weight LambdaWebFunctionEndpoint#weight}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function_endpoint#weight LambdaWebFunctionEndpoint#weight}
 
 ---
 
@@ -1438,7 +1438,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lambdaWebFunctionEndpoint.LambdaWebFunctionEndpointScalingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdawebfunctionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdawebfunctionendpoint"
 
 &lambdawebfunctionendpoint.LambdaWebFunctionEndpointScalingConfig {
 	MaxEnvironments: *f64,
@@ -1465,7 +1465,7 @@ The maximum number of concurrent execution environments for the endpoint.
 
 This optional limit further constrains the endpoint's scaling. When omitted, the endpoint's scaling is limited only by your account's vCPU quota.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function_endpoint#max_environments LambdaWebFunctionEndpoint#max_environments}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function_endpoint#max_environments LambdaWebFunctionEndpoint#max_environments}
 
 ---
 
@@ -1474,7 +1474,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lambdaWebFunctionEndpoint.LambdaWebFunctionEndpointThrottleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdawebfunctionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdawebfunctionendpoint"
 
 &lambdawebfunctionendpoint.LambdaWebFunctionEndpointThrottleConfig {
 	RateLimit: *f64,
@@ -1501,7 +1501,7 @@ The maximum request rate per second for the endpoint, up to a maximum of 10000.
 
 This optional limit further constrains the endpoint's request rate. When omitted, the endpoint's request rate is limited only by your account's rate limit quota. Specify 0 to reject all new requests. Other supported values are 100 through 1000 in increments of 100, and 2000 through 10000 in increments of 1000. Supported values can vary by Region; if you specify an unsupported value, the error lists the values available in that Region.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function_endpoint#rate_limit LambdaWebFunctionEndpoint#rate_limit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function_endpoint#rate_limit LambdaWebFunctionEndpoint#rate_limit}
 
 ---
 
@@ -1512,7 +1512,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lambdaWebFunctionEndpoint.LambdaWebFunctionEndpointRegionalEndpointsMap.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdawebfunctionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdawebfunctionendpoint"
 
 lambdawebfunctionendpoint.NewLambdaWebFunctionEndpointRegionalEndpointsMap(terraformResource IInterpolatingParent, terraformAttribute *string) LambdaWebFunctionEndpointRegionalEndpointsMap
 ```
@@ -1648,7 +1648,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lambdaWebFunctionEndpoint.LambdaWebFunctionEndpointRegionalEndpointsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdawebfunctionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdawebfunctionendpoint"
 
 lambdawebfunctionendpoint.NewLambdaWebFunctionEndpointRegionalEndpointsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectKey *string) LambdaWebFunctionEndpointRegionalEndpointsOutputReference
 ```
@@ -2005,7 +2005,7 @@ func InternalValue() LambdaWebFunctionEndpointRegionalEndpoints
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lambdaWebFunctionEndpoint.LambdaWebFunctionEndpointRegionalEndpointsRevisionWeightsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdawebfunctionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdawebfunctionendpoint"
 
 lambdawebfunctionendpoint.NewLambdaWebFunctionEndpointRegionalEndpointsRevisionWeightsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LambdaWebFunctionEndpointRegionalEndpointsRevisionWeightsList
 ```
@@ -2154,7 +2154,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lambdaWebFunctionEndpoint.LambdaWebFunctionEndpointRegionalEndpointsRevisionWeightsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdawebfunctionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdawebfunctionendpoint"
 
 lambdawebfunctionendpoint.NewLambdaWebFunctionEndpointRegionalEndpointsRevisionWeightsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LambdaWebFunctionEndpointRegionalEndpointsRevisionWeightsOutputReference
 ```
@@ -2443,7 +2443,7 @@ func InternalValue() LambdaWebFunctionEndpointRegionalEndpointsRevisionWeights
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lambdaWebFunctionEndpoint.LambdaWebFunctionEndpointRegionalEndpointsScalingConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdawebfunctionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdawebfunctionendpoint"
 
 lambdawebfunctionendpoint.NewLambdaWebFunctionEndpointRegionalEndpointsScalingConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LambdaWebFunctionEndpointRegionalEndpointsScalingConfigOutputReference
 ```
@@ -2703,7 +2703,7 @@ func InternalValue() LambdaWebFunctionEndpointRegionalEndpointsScalingConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lambdaWebFunctionEndpoint.LambdaWebFunctionEndpointRegionalEndpointsThrottleConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdawebfunctionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdawebfunctionendpoint"
 
 lambdawebfunctionendpoint.NewLambdaWebFunctionEndpointRegionalEndpointsThrottleConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LambdaWebFunctionEndpointRegionalEndpointsThrottleConfigOutputReference
 ```
@@ -2963,7 +2963,7 @@ func InternalValue() LambdaWebFunctionEndpointRegionalEndpointsThrottleConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lambdaWebFunctionEndpoint.LambdaWebFunctionEndpointRevisionWeightsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdawebfunctionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdawebfunctionendpoint"
 
 lambdawebfunctionendpoint.NewLambdaWebFunctionEndpointRevisionWeightsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LambdaWebFunctionEndpointRevisionWeightsList
 ```
@@ -3123,7 +3123,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lambdaWebFunctionEndpoint.LambdaWebFunctionEndpointRevisionWeightsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdawebfunctionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdawebfunctionendpoint"
 
 lambdawebfunctionendpoint.NewLambdaWebFunctionEndpointRevisionWeightsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) LambdaWebFunctionEndpointRevisionWeightsOutputReference
 ```
@@ -3448,7 +3448,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lambdaWebFunctionEndpoint.LambdaWebFunctionEndpointScalingConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdawebfunctionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdawebfunctionendpoint"
 
 lambdawebfunctionendpoint.NewLambdaWebFunctionEndpointScalingConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LambdaWebFunctionEndpointScalingConfigOutputReference
 ```
@@ -3726,7 +3726,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lambdaWebFunctionEndpoint.LambdaWebFunctionEndpointThrottleConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdawebfunctionendpoint"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdawebfunctionendpoint"
 
 lambdawebfunctionendpoint.NewLambdaWebFunctionEndpointThrottleConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LambdaWebFunctionEndpointThrottleConfigOutputReference
 ```

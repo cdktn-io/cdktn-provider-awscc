@@ -4,12 +4,12 @@
 
 ### DataAwsccDlmLifecyclePolicies <a name="DataAwsccDlmLifecyclePolicies" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicies.DataAwsccDlmLifecyclePolicies"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/dlm_lifecycle_policies awscc_dlm_lifecycle_policies}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/dlm_lifecycle_policies awscc_dlm_lifecycle_policies}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicies.DataAwsccDlmLifecyclePolicies.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicies"
 
 dataawsccdlmlifecyclepolicies.NewDataAwsccDlmLifecyclePolicies(scope Construct, id *string, config DataAwsccDlmLifecyclePoliciesConfig) DataAwsccDlmLifecyclePolicies
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicies.DataAwsccDlmLifecyclePolicies.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicies"
 
 dataawsccdlmlifecyclepolicies.DataAwsccDlmLifecyclePolicies_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicies.DataAwsccDlmLifecyclePolicies.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicies"
 
 dataawsccdlmlifecyclepolicies.DataAwsccDlmLifecyclePolicies_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccdlmlifecyclepolicies.DataAwsccDlmLifecyclePolicies_IsTerraformElement(x
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicies.DataAwsccDlmLifecyclePolicies.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicies"
 
 dataawsccdlmlifecyclepolicies.DataAwsccDlmLifecyclePolicies_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccdlmlifecyclepolicies.DataAwsccDlmLifecyclePolicies_IsTerraformDataSourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicies.DataAwsccDlmLifecyclePolicies.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicies"
 
 dataawsccdlmlifecyclepolicies.DataAwsccDlmLifecyclePolicies_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDlmLifecyclePolic
 
 The id of the existing DataAwsccDlmLifecyclePolicies that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/dlm_lifecycle_policies#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/dlm_lifecycle_policies#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicies.DataAwsccDlmLifecyclePoliciesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicies"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicies"
 
 &dataawsccdlmlifecyclepolicies.DataAwsccDlmLifecyclePoliciesConfig {
 	Connection: interface{},

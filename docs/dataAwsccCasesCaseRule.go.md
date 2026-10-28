@@ -4,12 +4,12 @@
 
 ### DataAwsccCasesCaseRule <a name="DataAwsccCasesCaseRule" id="@cdktn/provider-awscc.dataAwsccCasesCaseRule.DataAwsccCasesCaseRule"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cases_case_rule awscc_cases_case_rule}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cases_case_rule awscc_cases_case_rule}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCasesCaseRule.DataAwsccCasesCaseRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasescaserule"
 
 dataawscccasescaserule.NewDataAwsccCasesCaseRule(scope Construct, id *string, config DataAwsccCasesCaseRuleConfig) DataAwsccCasesCaseRule
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCasesCaseRule.DataAwsccCasesCaseRule.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasescaserule"
 
 dataawscccasescaserule.DataAwsccCasesCaseRule_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCasesCaseRule.DataAwsccCasesCaseRule.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasescaserule"
 
 dataawscccasescaserule.DataAwsccCasesCaseRule_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccasescaserule.DataAwsccCasesCaseRule_IsTerraformElement(x interface{}) 
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCasesCaseRule.DataAwsccCasesCaseRule.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasescaserule"
 
 dataawscccasescaserule.DataAwsccCasesCaseRule_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccasescaserule.DataAwsccCasesCaseRule_IsTerraformDataSource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCasesCaseRule.DataAwsccCasesCaseRule.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasescaserule"
 
 dataawscccasescaserule.DataAwsccCasesCaseRule_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCasesCaseRule to 
 
 The id of the existing DataAwsccCasesCaseRule that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cases_case_rule#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cases_case_rule#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -686,7 +686,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCasesCaseRule.DataAwsccCasesCaseRuleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasescaserule"
 
 &dataawscccasescaserule.DataAwsccCasesCaseRuleConfig {
 	Connection: interface{},
@@ -795,7 +795,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cases_case_rule#id DataAwsccCasesCaseRule#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cases_case_rule#id DataAwsccCasesCaseRule#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -807,7 +807,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCasesCaseRule.DataAwsccCasesCaseRuleRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasescaserule"
 
 &dataawscccasescaserule.DataAwsccCasesCaseRuleRule {
 
@@ -820,7 +820,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasescaserule
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCasesCaseRule.DataAwsccCasesCaseRuleRuleHidden.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasescaserule"
 
 &dataawscccasescaserule.DataAwsccCasesCaseRuleRuleHidden {
 
@@ -833,7 +833,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasescaserule
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCasesCaseRule.DataAwsccCasesCaseRuleRuleHiddenConditions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasescaserule"
 
 &dataawscccasescaserule.DataAwsccCasesCaseRuleRuleHiddenConditions {
 
@@ -846,7 +846,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasescaserule
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCasesCaseRule.DataAwsccCasesCaseRuleRuleHiddenConditionsEqualTo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasescaserule"
 
 &dataawscccasescaserule.DataAwsccCasesCaseRuleRuleHiddenConditionsEqualTo {
 
@@ -859,7 +859,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasescaserule
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCasesCaseRule.DataAwsccCasesCaseRuleRuleHiddenConditionsEqualToOperandOne.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasescaserule"
 
 &dataawscccasescaserule.DataAwsccCasesCaseRuleRuleHiddenConditionsEqualToOperandOne {
 
@@ -872,7 +872,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasescaserule
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCasesCaseRule.DataAwsccCasesCaseRuleRuleHiddenConditionsEqualToOperandTwo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasescaserule"
 
 &dataawscccasescaserule.DataAwsccCasesCaseRuleRuleHiddenConditionsEqualToOperandTwo {
 
@@ -885,7 +885,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasescaserule
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCasesCaseRule.DataAwsccCasesCaseRuleRuleHiddenConditionsNotEqualTo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasescaserule"
 
 &dataawscccasescaserule.DataAwsccCasesCaseRuleRuleHiddenConditionsNotEqualTo {
 
@@ -898,7 +898,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasescaserule
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCasesCaseRule.DataAwsccCasesCaseRuleRuleHiddenConditionsNotEqualToOperandOne.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasescaserule"
 
 &dataawscccasescaserule.DataAwsccCasesCaseRuleRuleHiddenConditionsNotEqualToOperandOne {
 
@@ -911,7 +911,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasescaserule
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCasesCaseRule.DataAwsccCasesCaseRuleRuleHiddenConditionsNotEqualToOperandTwo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasescaserule"
 
 &dataawscccasescaserule.DataAwsccCasesCaseRuleRuleHiddenConditionsNotEqualToOperandTwo {
 
@@ -924,7 +924,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasescaserule
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCasesCaseRule.DataAwsccCasesCaseRuleRuleRequired.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasescaserule"
 
 &dataawscccasescaserule.DataAwsccCasesCaseRuleRuleRequired {
 
@@ -937,7 +937,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasescaserule
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCasesCaseRule.DataAwsccCasesCaseRuleRuleRequiredConditions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasescaserule"
 
 &dataawscccasescaserule.DataAwsccCasesCaseRuleRuleRequiredConditions {
 
@@ -950,7 +950,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasescaserule
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCasesCaseRule.DataAwsccCasesCaseRuleRuleRequiredConditionsEqualTo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasescaserule"
 
 &dataawscccasescaserule.DataAwsccCasesCaseRuleRuleRequiredConditionsEqualTo {
 
@@ -963,7 +963,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasescaserule
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCasesCaseRule.DataAwsccCasesCaseRuleRuleRequiredConditionsEqualToOperandOne.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasescaserule"
 
 &dataawscccasescaserule.DataAwsccCasesCaseRuleRuleRequiredConditionsEqualToOperandOne {
 
@@ -976,7 +976,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasescaserule
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCasesCaseRule.DataAwsccCasesCaseRuleRuleRequiredConditionsEqualToOperandTwo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasescaserule"
 
 &dataawscccasescaserule.DataAwsccCasesCaseRuleRuleRequiredConditionsEqualToOperandTwo {
 
@@ -989,7 +989,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasescaserule
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCasesCaseRule.DataAwsccCasesCaseRuleRuleRequiredConditionsNotEqualTo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasescaserule"
 
 &dataawscccasescaserule.DataAwsccCasesCaseRuleRuleRequiredConditionsNotEqualTo {
 
@@ -1002,7 +1002,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasescaserule
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCasesCaseRule.DataAwsccCasesCaseRuleRuleRequiredConditionsNotEqualToOperandOne.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasescaserule"
 
 &dataawscccasescaserule.DataAwsccCasesCaseRuleRuleRequiredConditionsNotEqualToOperandOne {
 
@@ -1015,7 +1015,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasescaserule
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCasesCaseRule.DataAwsccCasesCaseRuleRuleRequiredConditionsNotEqualToOperandTwo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasescaserule"
 
 &dataawscccasescaserule.DataAwsccCasesCaseRuleRuleRequiredConditionsNotEqualToOperandTwo {
 
@@ -1028,7 +1028,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasescaserule
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCasesCaseRule.DataAwsccCasesCaseRuleTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasescaserule"
 
 &dataawscccasescaserule.DataAwsccCasesCaseRuleTags {
 
@@ -1043,7 +1043,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasescaserule
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCasesCaseRule.DataAwsccCasesCaseRuleRuleHiddenConditionsEqualToOperandOneOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasescaserule"
 
 dataawscccasescaserule.NewDataAwsccCasesCaseRuleRuleHiddenConditionsEqualToOperandOneOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCasesCaseRuleRuleHiddenConditionsEqualToOperandOneOutputReference
 ```
@@ -1303,7 +1303,7 @@ func InternalValue() DataAwsccCasesCaseRuleRuleHiddenConditionsEqualToOperandOne
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCasesCaseRule.DataAwsccCasesCaseRuleRuleHiddenConditionsEqualToOperandTwoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasescaserule"
 
 dataawscccasescaserule.NewDataAwsccCasesCaseRuleRuleHiddenConditionsEqualToOperandTwoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCasesCaseRuleRuleHiddenConditionsEqualToOperandTwoOutputReference
 ```
@@ -1596,7 +1596,7 @@ func InternalValue() DataAwsccCasesCaseRuleRuleHiddenConditionsEqualToOperandTwo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCasesCaseRule.DataAwsccCasesCaseRuleRuleHiddenConditionsEqualToOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasescaserule"
 
 dataawscccasescaserule.NewDataAwsccCasesCaseRuleRuleHiddenConditionsEqualToOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCasesCaseRuleRuleHiddenConditionsEqualToOutputReference
 ```
@@ -1878,7 +1878,7 @@ func InternalValue() DataAwsccCasesCaseRuleRuleHiddenConditionsEqualTo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCasesCaseRule.DataAwsccCasesCaseRuleRuleHiddenConditionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasescaserule"
 
 dataawscccasescaserule.NewDataAwsccCasesCaseRuleRuleHiddenConditionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCasesCaseRuleRuleHiddenConditionsList
 ```
@@ -2027,7 +2027,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCasesCaseRule.DataAwsccCasesCaseRuleRuleHiddenConditionsNotEqualToOperandOneOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasescaserule"
 
 dataawscccasescaserule.NewDataAwsccCasesCaseRuleRuleHiddenConditionsNotEqualToOperandOneOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCasesCaseRuleRuleHiddenConditionsNotEqualToOperandOneOutputReference
 ```
@@ -2287,7 +2287,7 @@ func InternalValue() DataAwsccCasesCaseRuleRuleHiddenConditionsNotEqualToOperand
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCasesCaseRule.DataAwsccCasesCaseRuleRuleHiddenConditionsNotEqualToOperandTwoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasescaserule"
 
 dataawscccasescaserule.NewDataAwsccCasesCaseRuleRuleHiddenConditionsNotEqualToOperandTwoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCasesCaseRuleRuleHiddenConditionsNotEqualToOperandTwoOutputReference
 ```
@@ -2580,7 +2580,7 @@ func InternalValue() DataAwsccCasesCaseRuleRuleHiddenConditionsNotEqualToOperand
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCasesCaseRule.DataAwsccCasesCaseRuleRuleHiddenConditionsNotEqualToOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasescaserule"
 
 dataawscccasescaserule.NewDataAwsccCasesCaseRuleRuleHiddenConditionsNotEqualToOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCasesCaseRuleRuleHiddenConditionsNotEqualToOutputReference
 ```
@@ -2862,7 +2862,7 @@ func InternalValue() DataAwsccCasesCaseRuleRuleHiddenConditionsNotEqualTo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCasesCaseRule.DataAwsccCasesCaseRuleRuleHiddenConditionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasescaserule"
 
 dataawscccasescaserule.NewDataAwsccCasesCaseRuleRuleHiddenConditionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCasesCaseRuleRuleHiddenConditionsOutputReference
 ```
@@ -3151,7 +3151,7 @@ func InternalValue() DataAwsccCasesCaseRuleRuleHiddenConditions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCasesCaseRule.DataAwsccCasesCaseRuleRuleHiddenOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasescaserule"
 
 dataawscccasescaserule.NewDataAwsccCasesCaseRuleRuleHiddenOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCasesCaseRuleRuleHiddenOutputReference
 ```
@@ -3422,7 +3422,7 @@ func InternalValue() DataAwsccCasesCaseRuleRuleHidden
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCasesCaseRule.DataAwsccCasesCaseRuleRuleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasescaserule"
 
 dataawscccasescaserule.NewDataAwsccCasesCaseRuleRuleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCasesCaseRuleRuleOutputReference
 ```
@@ -3693,7 +3693,7 @@ func InternalValue() DataAwsccCasesCaseRuleRule
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCasesCaseRule.DataAwsccCasesCaseRuleRuleRequiredConditionsEqualToOperandOneOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasescaserule"
 
 dataawscccasescaserule.NewDataAwsccCasesCaseRuleRuleRequiredConditionsEqualToOperandOneOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCasesCaseRuleRuleRequiredConditionsEqualToOperandOneOutputReference
 ```
@@ -3953,7 +3953,7 @@ func InternalValue() DataAwsccCasesCaseRuleRuleRequiredConditionsEqualToOperandO
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCasesCaseRule.DataAwsccCasesCaseRuleRuleRequiredConditionsEqualToOperandTwoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasescaserule"
 
 dataawscccasescaserule.NewDataAwsccCasesCaseRuleRuleRequiredConditionsEqualToOperandTwoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCasesCaseRuleRuleRequiredConditionsEqualToOperandTwoOutputReference
 ```
@@ -4246,7 +4246,7 @@ func InternalValue() DataAwsccCasesCaseRuleRuleRequiredConditionsEqualToOperandT
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCasesCaseRule.DataAwsccCasesCaseRuleRuleRequiredConditionsEqualToOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasescaserule"
 
 dataawscccasescaserule.NewDataAwsccCasesCaseRuleRuleRequiredConditionsEqualToOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCasesCaseRuleRuleRequiredConditionsEqualToOutputReference
 ```
@@ -4528,7 +4528,7 @@ func InternalValue() DataAwsccCasesCaseRuleRuleRequiredConditionsEqualTo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCasesCaseRule.DataAwsccCasesCaseRuleRuleRequiredConditionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasescaserule"
 
 dataawscccasescaserule.NewDataAwsccCasesCaseRuleRuleRequiredConditionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCasesCaseRuleRuleRequiredConditionsList
 ```
@@ -4677,7 +4677,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCasesCaseRule.DataAwsccCasesCaseRuleRuleRequiredConditionsNotEqualToOperandOneOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasescaserule"
 
 dataawscccasescaserule.NewDataAwsccCasesCaseRuleRuleRequiredConditionsNotEqualToOperandOneOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCasesCaseRuleRuleRequiredConditionsNotEqualToOperandOneOutputReference
 ```
@@ -4937,7 +4937,7 @@ func InternalValue() DataAwsccCasesCaseRuleRuleRequiredConditionsNotEqualToOpera
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCasesCaseRule.DataAwsccCasesCaseRuleRuleRequiredConditionsNotEqualToOperandTwoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasescaserule"
 
 dataawscccasescaserule.NewDataAwsccCasesCaseRuleRuleRequiredConditionsNotEqualToOperandTwoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCasesCaseRuleRuleRequiredConditionsNotEqualToOperandTwoOutputReference
 ```
@@ -5230,7 +5230,7 @@ func InternalValue() DataAwsccCasesCaseRuleRuleRequiredConditionsNotEqualToOpera
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCasesCaseRule.DataAwsccCasesCaseRuleRuleRequiredConditionsNotEqualToOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasescaserule"
 
 dataawscccasescaserule.NewDataAwsccCasesCaseRuleRuleRequiredConditionsNotEqualToOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCasesCaseRuleRuleRequiredConditionsNotEqualToOutputReference
 ```
@@ -5512,7 +5512,7 @@ func InternalValue() DataAwsccCasesCaseRuleRuleRequiredConditionsNotEqualTo
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCasesCaseRule.DataAwsccCasesCaseRuleRuleRequiredConditionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasescaserule"
 
 dataawscccasescaserule.NewDataAwsccCasesCaseRuleRuleRequiredConditionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCasesCaseRuleRuleRequiredConditionsOutputReference
 ```
@@ -5801,7 +5801,7 @@ func InternalValue() DataAwsccCasesCaseRuleRuleRequiredConditions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCasesCaseRule.DataAwsccCasesCaseRuleRuleRequiredOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasescaserule"
 
 dataawscccasescaserule.NewDataAwsccCasesCaseRuleRuleRequiredOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccCasesCaseRuleRuleRequiredOutputReference
 ```
@@ -6072,7 +6072,7 @@ func InternalValue() DataAwsccCasesCaseRuleRuleRequired
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCasesCaseRule.DataAwsccCasesCaseRuleTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasescaserule"
 
 dataawscccasescaserule.NewDataAwsccCasesCaseRuleTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccCasesCaseRuleTagsList
 ```
@@ -6221,7 +6221,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCasesCaseRule.DataAwsccCasesCaseRuleTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasescaserule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasescaserule"
 
 dataawscccasescaserule.NewDataAwsccCasesCaseRuleTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccCasesCaseRuleTagsOutputReference
 ```

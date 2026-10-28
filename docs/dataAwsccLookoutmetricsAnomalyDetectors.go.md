@@ -4,12 +4,12 @@
 
 ### DataAwsccLookoutmetricsAnomalyDetectors <a name="DataAwsccLookoutmetricsAnomalyDetectors" id="@cdktn/provider-awscc.dataAwsccLookoutmetricsAnomalyDetectors.DataAwsccLookoutmetricsAnomalyDetectors"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lookoutmetrics_anomaly_detectors awscc_lookoutmetrics_anomaly_detectors}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lookoutmetrics_anomaly_detectors awscc_lookoutmetrics_anomaly_detectors}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLookoutmetricsAnomalyDetectors.DataAwsccLookoutmetricsAnomalyDetectors.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetricsanomalydetectors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutmetricsanomalydetectors"
 
 dataawscclookoutmetricsanomalydetectors.NewDataAwsccLookoutmetricsAnomalyDetectors(scope Construct, id *string, config DataAwsccLookoutmetricsAnomalyDetectorsConfig) DataAwsccLookoutmetricsAnomalyDetectors
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccLookoutmetricsAnomalyDetectors.DataAwsccLookoutmetricsAnomalyDetectors.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetricsanomalydetectors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutmetricsanomalydetectors"
 
 dataawscclookoutmetricsanomalydetectors.DataAwsccLookoutmetricsAnomalyDetectors_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccLookoutmetricsAnomalyDetectors.DataAwsccLookoutmetricsAnomalyDetectors.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetricsanomalydetectors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutmetricsanomalydetectors"
 
 dataawscclookoutmetricsanomalydetectors.DataAwsccLookoutmetricsAnomalyDetectors_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscclookoutmetricsanomalydetectors.DataAwsccLookoutmetricsAnomalyDetectors_
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccLookoutmetricsAnomalyDetectors.DataAwsccLookoutmetricsAnomalyDetectors.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetricsanomalydetectors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutmetricsanomalydetectors"
 
 dataawscclookoutmetricsanomalydetectors.DataAwsccLookoutmetricsAnomalyDetectors_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscclookoutmetricsanomalydetectors.DataAwsccLookoutmetricsAnomalyDetectors_
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccLookoutmetricsAnomalyDetectors.DataAwsccLookoutmetricsAnomalyDetectors.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetricsanomalydetectors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutmetricsanomalydetectors"
 
 dataawscclookoutmetricsanomalydetectors.DataAwsccLookoutmetricsAnomalyDetectors_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLookoutmetricsAno
 
 The id of the existing DataAwsccLookoutmetricsAnomalyDetectors that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lookoutmetrics_anomaly_detectors#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lookoutmetrics_anomaly_detectors#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLookoutmetricsAnomalyDetectors.DataAwsccLookoutmetricsAnomalyDetectorsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutmetricsanomalydetectors"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutmetricsanomalydetectors"
 
 &dataawscclookoutmetricsanomalydetectors.DataAwsccLookoutmetricsAnomalyDetectorsConfig {
 	Connection: interface{},

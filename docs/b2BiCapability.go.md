@@ -4,12 +4,12 @@
 
 ### B2BiCapability <a name="B2BiCapability" id="@cdktn/provider-awscc.b2BiCapability.B2BiCapability"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/b2bi_capability awscc_b2bi_capability}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/b2bi_capability awscc_b2bi_capability}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.b2BiCapability.B2BiCapability.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/b2bicapability"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/b2bicapability"
 
 b2bicapability.NewB2BiCapability(scope Construct, id *string, config B2BiCapabilityConfig) B2BiCapability
 ```
@@ -453,7 +453,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.b2BiCapability.B2BiCapability.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/b2bicapability"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/b2bicapability"
 
 b2bicapability.B2BiCapability_IsConstruct(x interface{}) *bool
 ```
@@ -485,7 +485,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.b2BiCapability.B2BiCapability.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/b2bicapability"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/b2bicapability"
 
 b2bicapability.B2BiCapability_IsTerraformElement(x interface{}) *bool
 ```
@@ -499,7 +499,7 @@ b2bicapability.B2BiCapability_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.b2BiCapability.B2BiCapability.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/b2bicapability"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/b2bicapability"
 
 b2bicapability.B2BiCapability_IsTerraformResource(x interface{}) *bool
 ```
@@ -513,7 +513,7 @@ b2bicapability.B2BiCapability_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.b2BiCapability.B2BiCapability.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/b2bicapability"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/b2bicapability"
 
 b2bicapability.B2BiCapability_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -542,7 +542,7 @@ The construct id used in the generated config for the B2BiCapability to import.
 
 The id of the existing B2BiCapability that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/b2bi_capability#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/b2bi_capability#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -907,7 +907,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/b2bicapability"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/b2bicapability"
 
 &b2bicapability.B2BiCapabilityConfig {
 	Connection: interface{},
@@ -917,7 +917,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/b2bicapability"
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	Configuration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.b2BiCapability.B2BiCapabilityConfiguration,
+	Configuration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.b2BiCapability.B2BiCapabilityConfiguration,
 	Name: *string,
 	Type: *string,
 	InstructionsDocuments: interface{},
@@ -936,11 +936,11 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/b2bicapability"
 | <code><a href="#@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityConfig.property.configuration">Configuration</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityConfiguration">B2BiCapabilityConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/b2bi_capability#configuration B2BiCapability#configuration}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/b2bi_capability#name B2BiCapability#name}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityConfig.property.type">Type</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/b2bi_capability#type B2BiCapability#type}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityConfig.property.instructionsDocuments">InstructionsDocuments</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/b2bi_capability#instructions_documents B2BiCapability#instructions_documents}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/b2bi_capability#tags B2BiCapability#tags}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityConfig.property.configuration">Configuration</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityConfiguration">B2BiCapabilityConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/b2bi_capability#configuration B2BiCapability#configuration}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/b2bi_capability#name B2BiCapability#name}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityConfig.property.type">Type</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/b2bi_capability#type B2BiCapability#type}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityConfig.property.instructionsDocuments">InstructionsDocuments</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/b2bi_capability#instructions_documents B2BiCapability#instructions_documents}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/b2bi_capability#tags B2BiCapability#tags}. |
 
 ---
 
@@ -1022,7 +1022,7 @@ Configuration B2BiCapabilityConfiguration
 
 - *Type:* <a href="#@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityConfiguration">B2BiCapabilityConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/b2bi_capability#configuration B2BiCapability#configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/b2bi_capability#configuration B2BiCapability#configuration}.
 
 ---
 
@@ -1034,7 +1034,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/b2bi_capability#name B2BiCapability#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/b2bi_capability#name B2BiCapability#name}.
 
 ---
 
@@ -1046,7 +1046,7 @@ Type *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/b2bi_capability#type B2BiCapability#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/b2bi_capability#type B2BiCapability#type}.
 
 ---
 
@@ -1058,7 +1058,7 @@ InstructionsDocuments interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/b2bi_capability#instructions_documents B2BiCapability#instructions_documents}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/b2bi_capability#instructions_documents B2BiCapability#instructions_documents}.
 
 ---
 
@@ -1070,7 +1070,7 @@ Tags interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/b2bi_capability#tags B2BiCapability#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/b2bi_capability#tags B2BiCapability#tags}.
 
 ---
 
@@ -1079,10 +1079,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/b2bicapability"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/b2bicapability"
 
 &b2bicapability.B2BiCapabilityConfiguration {
-	Edi: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.b2BiCapability.B2BiCapabilityConfigurationEdi,
+	Edi: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.b2BiCapability.B2BiCapabilityConfigurationEdi,
 }
 ```
 
@@ -1090,7 +1090,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/b2bicapability"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityConfiguration.property.edi">Edi</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityConfigurationEdi">B2BiCapabilityConfigurationEdi</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/b2bi_capability#edi B2BiCapability#edi}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityConfiguration.property.edi">Edi</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityConfigurationEdi">B2BiCapabilityConfigurationEdi</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/b2bi_capability#edi B2BiCapability#edi}. |
 
 ---
 
@@ -1102,7 +1102,7 @@ Edi B2BiCapabilityConfigurationEdi
 
 - *Type:* <a href="#@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityConfigurationEdi">B2BiCapabilityConfigurationEdi</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/b2bi_capability#edi B2BiCapability#edi}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/b2bi_capability#edi B2BiCapability#edi}.
 
 ---
 
@@ -1111,14 +1111,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityConfigurationEdi.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/b2bicapability"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/b2bicapability"
 
 &b2bicapability.B2BiCapabilityConfigurationEdi {
 	CapabilityDirection: *string,
-	InputLocation: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.b2BiCapability.B2BiCapabilityConfigurationEdiInputLocation,
-	OutputLocation: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.b2BiCapability.B2BiCapabilityConfigurationEdiOutputLocation,
+	InputLocation: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.b2BiCapability.B2BiCapabilityConfigurationEdiInputLocation,
+	OutputLocation: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.b2BiCapability.B2BiCapabilityConfigurationEdiOutputLocation,
 	TransformerId: *string,
-	Type: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.b2BiCapability.B2BiCapabilityConfigurationEdiType,
+	Type: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.b2BiCapability.B2BiCapabilityConfigurationEdiType,
 }
 ```
 
@@ -1126,11 +1126,11 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/b2bicapability"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityConfigurationEdi.property.capabilityDirection">CapabilityDirection</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/b2bi_capability#capability_direction B2BiCapability#capability_direction}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityConfigurationEdi.property.inputLocation">InputLocation</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityConfigurationEdiInputLocation">B2BiCapabilityConfigurationEdiInputLocation</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/b2bi_capability#input_location B2BiCapability#input_location}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityConfigurationEdi.property.outputLocation">OutputLocation</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityConfigurationEdiOutputLocation">B2BiCapabilityConfigurationEdiOutputLocation</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/b2bi_capability#output_location B2BiCapability#output_location}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityConfigurationEdi.property.transformerId">TransformerId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/b2bi_capability#transformer_id B2BiCapability#transformer_id}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityConfigurationEdi.property.type">Type</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityConfigurationEdiType">B2BiCapabilityConfigurationEdiType</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/b2bi_capability#type B2BiCapability#type}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityConfigurationEdi.property.capabilityDirection">CapabilityDirection</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/b2bi_capability#capability_direction B2BiCapability#capability_direction}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityConfigurationEdi.property.inputLocation">InputLocation</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityConfigurationEdiInputLocation">B2BiCapabilityConfigurationEdiInputLocation</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/b2bi_capability#input_location B2BiCapability#input_location}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityConfigurationEdi.property.outputLocation">OutputLocation</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityConfigurationEdiOutputLocation">B2BiCapabilityConfigurationEdiOutputLocation</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/b2bi_capability#output_location B2BiCapability#output_location}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityConfigurationEdi.property.transformerId">TransformerId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/b2bi_capability#transformer_id B2BiCapability#transformer_id}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityConfigurationEdi.property.type">Type</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityConfigurationEdiType">B2BiCapabilityConfigurationEdiType</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/b2bi_capability#type B2BiCapability#type}. |
 
 ---
 
@@ -1142,7 +1142,7 @@ CapabilityDirection *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/b2bi_capability#capability_direction B2BiCapability#capability_direction}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/b2bi_capability#capability_direction B2BiCapability#capability_direction}.
 
 ---
 
@@ -1154,7 +1154,7 @@ InputLocation B2BiCapabilityConfigurationEdiInputLocation
 
 - *Type:* <a href="#@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityConfigurationEdiInputLocation">B2BiCapabilityConfigurationEdiInputLocation</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/b2bi_capability#input_location B2BiCapability#input_location}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/b2bi_capability#input_location B2BiCapability#input_location}.
 
 ---
 
@@ -1166,7 +1166,7 @@ OutputLocation B2BiCapabilityConfigurationEdiOutputLocation
 
 - *Type:* <a href="#@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityConfigurationEdiOutputLocation">B2BiCapabilityConfigurationEdiOutputLocation</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/b2bi_capability#output_location B2BiCapability#output_location}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/b2bi_capability#output_location B2BiCapability#output_location}.
 
 ---
 
@@ -1178,7 +1178,7 @@ TransformerId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/b2bi_capability#transformer_id B2BiCapability#transformer_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/b2bi_capability#transformer_id B2BiCapability#transformer_id}.
 
 ---
 
@@ -1190,7 +1190,7 @@ Type B2BiCapabilityConfigurationEdiType
 
 - *Type:* <a href="#@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityConfigurationEdiType">B2BiCapabilityConfigurationEdiType</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/b2bi_capability#type B2BiCapability#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/b2bi_capability#type B2BiCapability#type}.
 
 ---
 
@@ -1199,7 +1199,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityConfigurationEdiInputLocation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/b2bicapability"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/b2bicapability"
 
 &b2bicapability.B2BiCapabilityConfigurationEdiInputLocation {
 	BucketName: *string,
@@ -1211,8 +1211,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/b2bicapability"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityConfigurationEdiInputLocation.property.bucketName">BucketName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/b2bi_capability#bucket_name B2BiCapability#bucket_name}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityConfigurationEdiInputLocation.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/b2bi_capability#key B2BiCapability#key}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityConfigurationEdiInputLocation.property.bucketName">BucketName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/b2bi_capability#bucket_name B2BiCapability#bucket_name}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityConfigurationEdiInputLocation.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/b2bi_capability#key B2BiCapability#key}. |
 
 ---
 
@@ -1224,7 +1224,7 @@ BucketName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/b2bi_capability#bucket_name B2BiCapability#bucket_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/b2bi_capability#bucket_name B2BiCapability#bucket_name}.
 
 ---
 
@@ -1236,7 +1236,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/b2bi_capability#key B2BiCapability#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/b2bi_capability#key B2BiCapability#key}.
 
 ---
 
@@ -1245,7 +1245,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityConfigurationEdiOutputLocation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/b2bicapability"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/b2bicapability"
 
 &b2bicapability.B2BiCapabilityConfigurationEdiOutputLocation {
 	BucketName: *string,
@@ -1257,8 +1257,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/b2bicapability"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityConfigurationEdiOutputLocation.property.bucketName">BucketName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/b2bi_capability#bucket_name B2BiCapability#bucket_name}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityConfigurationEdiOutputLocation.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/b2bi_capability#key B2BiCapability#key}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityConfigurationEdiOutputLocation.property.bucketName">BucketName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/b2bi_capability#bucket_name B2BiCapability#bucket_name}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityConfigurationEdiOutputLocation.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/b2bi_capability#key B2BiCapability#key}. |
 
 ---
 
@@ -1270,7 +1270,7 @@ BucketName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/b2bi_capability#bucket_name B2BiCapability#bucket_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/b2bi_capability#bucket_name B2BiCapability#bucket_name}.
 
 ---
 
@@ -1282,7 +1282,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/b2bi_capability#key B2BiCapability#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/b2bi_capability#key B2BiCapability#key}.
 
 ---
 
@@ -1291,10 +1291,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityConfigurationEdiType.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/b2bicapability"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/b2bicapability"
 
 &b2bicapability.B2BiCapabilityConfigurationEdiType {
-	X12Details: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.b2BiCapability.B2BiCapabilityConfigurationEdiTypeX12Details,
+	X12Details: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.b2BiCapability.B2BiCapabilityConfigurationEdiTypeX12Details,
 }
 ```
 
@@ -1302,7 +1302,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/b2bicapability"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityConfigurationEdiType.property.x12Details">X12Details</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityConfigurationEdiTypeX12Details">B2BiCapabilityConfigurationEdiTypeX12Details</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/b2bi_capability#x12_details B2BiCapability#x12_details}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityConfigurationEdiType.property.x12Details">X12Details</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityConfigurationEdiTypeX12Details">B2BiCapabilityConfigurationEdiTypeX12Details</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/b2bi_capability#x12_details B2BiCapability#x12_details}. |
 
 ---
 
@@ -1314,7 +1314,7 @@ X12Details B2BiCapabilityConfigurationEdiTypeX12Details
 
 - *Type:* <a href="#@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityConfigurationEdiTypeX12Details">B2BiCapabilityConfigurationEdiTypeX12Details</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/b2bi_capability#x12_details B2BiCapability#x12_details}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/b2bi_capability#x12_details B2BiCapability#x12_details}.
 
 ---
 
@@ -1323,7 +1323,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityConfigurationEdiTypeX12Details.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/b2bicapability"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/b2bicapability"
 
 &b2bicapability.B2BiCapabilityConfigurationEdiTypeX12Details {
 	TransactionSet: *string,
@@ -1335,8 +1335,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/b2bicapability"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityConfigurationEdiTypeX12Details.property.transactionSet">TransactionSet</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/b2bi_capability#transaction_set B2BiCapability#transaction_set}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityConfigurationEdiTypeX12Details.property.version">Version</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/b2bi_capability#version B2BiCapability#version}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityConfigurationEdiTypeX12Details.property.transactionSet">TransactionSet</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/b2bi_capability#transaction_set B2BiCapability#transaction_set}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityConfigurationEdiTypeX12Details.property.version">Version</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/b2bi_capability#version B2BiCapability#version}. |
 
 ---
 
@@ -1348,7 +1348,7 @@ TransactionSet *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/b2bi_capability#transaction_set B2BiCapability#transaction_set}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/b2bi_capability#transaction_set B2BiCapability#transaction_set}.
 
 ---
 
@@ -1360,7 +1360,7 @@ Version *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/b2bi_capability#version B2BiCapability#version}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/b2bi_capability#version B2BiCapability#version}.
 
 ---
 
@@ -1369,7 +1369,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityInstructionsDocuments.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/b2bicapability"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/b2bicapability"
 
 &b2bicapability.B2BiCapabilityInstructionsDocuments {
 	BucketName: *string,
@@ -1381,8 +1381,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/b2bicapability"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityInstructionsDocuments.property.bucketName">BucketName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/b2bi_capability#bucket_name B2BiCapability#bucket_name}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityInstructionsDocuments.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/b2bi_capability#key B2BiCapability#key}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityInstructionsDocuments.property.bucketName">BucketName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/b2bi_capability#bucket_name B2BiCapability#bucket_name}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityInstructionsDocuments.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/b2bi_capability#key B2BiCapability#key}. |
 
 ---
 
@@ -1394,7 +1394,7 @@ BucketName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/b2bi_capability#bucket_name B2BiCapability#bucket_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/b2bi_capability#bucket_name B2BiCapability#bucket_name}.
 
 ---
 
@@ -1406,7 +1406,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/b2bi_capability#key B2BiCapability#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/b2bi_capability#key B2BiCapability#key}.
 
 ---
 
@@ -1415,7 +1415,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/b2bicapability"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/b2bicapability"
 
 &b2bicapability.B2BiCapabilityTags {
 	Key: *string,
@@ -1427,8 +1427,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/b2bicapability"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/b2bi_capability#key B2BiCapability#key}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/b2bi_capability#value B2BiCapability#value}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/b2bi_capability#key B2BiCapability#key}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/b2bi_capability#value B2BiCapability#value}. |
 
 ---
 
@@ -1440,7 +1440,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/b2bi_capability#key B2BiCapability#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/b2bi_capability#key B2BiCapability#key}.
 
 ---
 
@@ -1452,7 +1452,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/b2bi_capability#value B2BiCapability#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/b2bi_capability#value B2BiCapability#value}.
 
 ---
 
@@ -1463,7 +1463,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityConfigurationEdiInputLocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/b2bicapability"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/b2bicapability"
 
 b2bicapability.NewB2BiCapabilityConfigurationEdiInputLocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) B2BiCapabilityConfigurationEdiInputLocationOutputReference
 ```
@@ -1770,7 +1770,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityConfigurationEdiOutputLocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/b2bicapability"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/b2bicapability"
 
 b2bicapability.NewB2BiCapabilityConfigurationEdiOutputLocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) B2BiCapabilityConfigurationEdiOutputLocationOutputReference
 ```
@@ -2077,7 +2077,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityConfigurationEdiOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/b2bicapability"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/b2bicapability"
 
 b2bicapability.NewB2BiCapabilityConfigurationEdiOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) B2BiCapabilityConfigurationEdiOutputReference
 ```
@@ -2510,7 +2510,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityConfigurationEdiTypeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/b2bicapability"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/b2bicapability"
 
 b2bicapability.NewB2BiCapabilityConfigurationEdiTypeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) B2BiCapabilityConfigurationEdiTypeOutputReference
 ```
@@ -2801,7 +2801,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityConfigurationEdiTypeX12DetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/b2bicapability"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/b2bicapability"
 
 b2bicapability.NewB2BiCapabilityConfigurationEdiTypeX12DetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) B2BiCapabilityConfigurationEdiTypeX12DetailsOutputReference
 ```
@@ -3108,7 +3108,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/b2bicapability"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/b2bicapability"
 
 b2bicapability.NewB2BiCapabilityConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) B2BiCapabilityConfigurationOutputReference
 ```
@@ -3399,7 +3399,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityInstructionsDocumentsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/b2bicapability"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/b2bicapability"
 
 b2bicapability.NewB2BiCapabilityInstructionsDocumentsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) B2BiCapabilityInstructionsDocumentsList
 ```
@@ -3559,7 +3559,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityInstructionsDocumentsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/b2bicapability"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/b2bicapability"
 
 b2bicapability.NewB2BiCapabilityInstructionsDocumentsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) B2BiCapabilityInstructionsDocumentsOutputReference
 ```
@@ -3884,7 +3884,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/b2bicapability"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/b2bicapability"
 
 b2bicapability.NewB2BiCapabilityTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) B2BiCapabilityTagsList
 ```
@@ -4044,7 +4044,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.b2BiCapability.B2BiCapabilityTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/b2bicapability"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/b2bicapability"
 
 b2bicapability.NewB2BiCapabilityTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) B2BiCapabilityTagsOutputReference
 ```

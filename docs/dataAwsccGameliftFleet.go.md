@@ -4,12 +4,12 @@
 
 ### DataAwsccGameliftFleet <a name="DataAwsccGameliftFleet" id="@cdktn/provider-awscc.dataAwsccGameliftFleet.DataAwsccGameliftFleet"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/gamelift_fleet awscc_gamelift_fleet}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/gamelift_fleet awscc_gamelift_fleet}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGameliftFleet.DataAwsccGameliftFleet.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftfleet"
 
 dataawsccgameliftfleet.NewDataAwsccGameliftFleet(scope Construct, id *string, config DataAwsccGameliftFleetConfig) DataAwsccGameliftFleet
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccGameliftFleet.DataAwsccGameliftFleet.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftfleet"
 
 dataawsccgameliftfleet.DataAwsccGameliftFleet_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccGameliftFleet.DataAwsccGameliftFleet.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftfleet"
 
 dataawsccgameliftfleet.DataAwsccGameliftFleet_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccgameliftfleet.DataAwsccGameliftFleet_IsTerraformElement(x interface{}) 
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccGameliftFleet.DataAwsccGameliftFleet.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftfleet"
 
 dataawsccgameliftfleet.DataAwsccGameliftFleet_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccgameliftfleet.DataAwsccGameliftFleet_IsTerraformDataSource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccGameliftFleet.DataAwsccGameliftFleet.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftfleet"
 
 dataawsccgameliftfleet.DataAwsccGameliftFleet_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccGameliftFleet to 
 
 The id of the existing DataAwsccGameliftFleet that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/gamelift_fleet#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/gamelift_fleet#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -939,7 +939,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGameliftFleet.DataAwsccGameliftFleetAnywhereConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftfleet"
 
 &dataawsccgameliftfleet.DataAwsccGameliftFleetAnywhereConfiguration {
 
@@ -952,7 +952,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftfleet
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGameliftFleet.DataAwsccGameliftFleetCertificateConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftfleet"
 
 &dataawsccgameliftfleet.DataAwsccGameliftFleetCertificateConfiguration {
 
@@ -965,7 +965,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftfleet
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGameliftFleet.DataAwsccGameliftFleetConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftfleet"
 
 &dataawsccgameliftfleet.DataAwsccGameliftFleetConfig {
 	Connection: interface{},
@@ -1074,7 +1074,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/gamelift_fleet#id DataAwsccGameliftFleet#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/gamelift_fleet#id DataAwsccGameliftFleet#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1086,7 +1086,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGameliftFleet.DataAwsccGameliftFleetEc2InboundPermissions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftfleet"
 
 &dataawsccgameliftfleet.DataAwsccGameliftFleetEc2InboundPermissions {
 
@@ -1099,7 +1099,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftfleet
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGameliftFleet.DataAwsccGameliftFleetLocations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftfleet"
 
 &dataawsccgameliftfleet.DataAwsccGameliftFleetLocations {
 
@@ -1112,7 +1112,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftfleet
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGameliftFleet.DataAwsccGameliftFleetLocationsLocationCapacity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftfleet"
 
 &dataawsccgameliftfleet.DataAwsccGameliftFleetLocationsLocationCapacity {
 
@@ -1125,7 +1125,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftfleet
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGameliftFleet.DataAwsccGameliftFleetLocationsLocationCapacityManagedCapacityConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftfleet"
 
 &dataawsccgameliftfleet.DataAwsccGameliftFleetLocationsLocationCapacityManagedCapacityConfiguration {
 
@@ -1138,7 +1138,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftfleet
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGameliftFleet.DataAwsccGameliftFleetPlayerGatewayConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftfleet"
 
 &dataawsccgameliftfleet.DataAwsccGameliftFleetPlayerGatewayConfiguration {
 
@@ -1151,7 +1151,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftfleet
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGameliftFleet.DataAwsccGameliftFleetResourceCreationLimitPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftfleet"
 
 &dataawsccgameliftfleet.DataAwsccGameliftFleetResourceCreationLimitPolicy {
 
@@ -1164,7 +1164,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftfleet
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGameliftFleet.DataAwsccGameliftFleetRuntimeConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftfleet"
 
 &dataawsccgameliftfleet.DataAwsccGameliftFleetRuntimeConfiguration {
 
@@ -1177,7 +1177,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftfleet
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGameliftFleet.DataAwsccGameliftFleetRuntimeConfigurationServerProcesses.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftfleet"
 
 &dataawsccgameliftfleet.DataAwsccGameliftFleetRuntimeConfigurationServerProcesses {
 
@@ -1190,7 +1190,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftfleet
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGameliftFleet.DataAwsccGameliftFleetScalingPolicies.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftfleet"
 
 &dataawsccgameliftfleet.DataAwsccGameliftFleetScalingPolicies {
 
@@ -1203,7 +1203,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftfleet
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGameliftFleet.DataAwsccGameliftFleetScalingPoliciesTargetConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftfleet"
 
 &dataawsccgameliftfleet.DataAwsccGameliftFleetScalingPoliciesTargetConfiguration {
 
@@ -1216,7 +1216,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftfleet
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGameliftFleet.DataAwsccGameliftFleetTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftfleet"
 
 &dataawsccgameliftfleet.DataAwsccGameliftFleetTags {
 
@@ -1231,7 +1231,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftfleet
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGameliftFleet.DataAwsccGameliftFleetAnywhereConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftfleet"
 
 dataawsccgameliftfleet.NewDataAwsccGameliftFleetAnywhereConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGameliftFleetAnywhereConfigurationOutputReference
 ```
@@ -1491,7 +1491,7 @@ func InternalValue() DataAwsccGameliftFleetAnywhereConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGameliftFleet.DataAwsccGameliftFleetCertificateConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftfleet"
 
 dataawsccgameliftfleet.NewDataAwsccGameliftFleetCertificateConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGameliftFleetCertificateConfigurationOutputReference
 ```
@@ -1751,7 +1751,7 @@ func InternalValue() DataAwsccGameliftFleetCertificateConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGameliftFleet.DataAwsccGameliftFleetEc2InboundPermissionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftfleet"
 
 dataawsccgameliftfleet.NewDataAwsccGameliftFleetEc2InboundPermissionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccGameliftFleetEc2InboundPermissionsList
 ```
@@ -1900,7 +1900,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGameliftFleet.DataAwsccGameliftFleetEc2InboundPermissionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftfleet"
 
 dataawsccgameliftfleet.NewDataAwsccGameliftFleetEc2InboundPermissionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccGameliftFleetEc2InboundPermissionsOutputReference
 ```
@@ -2211,7 +2211,7 @@ func InternalValue() DataAwsccGameliftFleetEc2InboundPermissions
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGameliftFleet.DataAwsccGameliftFleetLocationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftfleet"
 
 dataawsccgameliftfleet.NewDataAwsccGameliftFleetLocationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccGameliftFleetLocationsList
 ```
@@ -2360,7 +2360,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGameliftFleet.DataAwsccGameliftFleetLocationsLocationCapacityManagedCapacityConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftfleet"
 
 dataawsccgameliftfleet.NewDataAwsccGameliftFleetLocationsLocationCapacityManagedCapacityConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGameliftFleetLocationsLocationCapacityManagedCapacityConfigurationOutputReference
 ```
@@ -2631,7 +2631,7 @@ func InternalValue() DataAwsccGameliftFleetLocationsLocationCapacityManagedCapac
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGameliftFleet.DataAwsccGameliftFleetLocationsLocationCapacityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftfleet"
 
 dataawsccgameliftfleet.NewDataAwsccGameliftFleetLocationsLocationCapacityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGameliftFleetLocationsLocationCapacityOutputReference
 ```
@@ -2924,7 +2924,7 @@ func InternalValue() DataAwsccGameliftFleetLocationsLocationCapacity
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGameliftFleet.DataAwsccGameliftFleetLocationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftfleet"
 
 dataawsccgameliftfleet.NewDataAwsccGameliftFleetLocationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccGameliftFleetLocationsOutputReference
 ```
@@ -3224,7 +3224,7 @@ func InternalValue() DataAwsccGameliftFleetLocations
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGameliftFleet.DataAwsccGameliftFleetPlayerGatewayConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftfleet"
 
 dataawsccgameliftfleet.NewDataAwsccGameliftFleetPlayerGatewayConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGameliftFleetPlayerGatewayConfigurationOutputReference
 ```
@@ -3484,7 +3484,7 @@ func InternalValue() DataAwsccGameliftFleetPlayerGatewayConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGameliftFleet.DataAwsccGameliftFleetResourceCreationLimitPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftfleet"
 
 dataawsccgameliftfleet.NewDataAwsccGameliftFleetResourceCreationLimitPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGameliftFleetResourceCreationLimitPolicyOutputReference
 ```
@@ -3755,7 +3755,7 @@ func InternalValue() DataAwsccGameliftFleetResourceCreationLimitPolicy
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGameliftFleet.DataAwsccGameliftFleetRuntimeConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftfleet"
 
 dataawsccgameliftfleet.NewDataAwsccGameliftFleetRuntimeConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGameliftFleetRuntimeConfigurationOutputReference
 ```
@@ -4037,7 +4037,7 @@ func InternalValue() DataAwsccGameliftFleetRuntimeConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGameliftFleet.DataAwsccGameliftFleetRuntimeConfigurationServerProcessesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftfleet"
 
 dataawsccgameliftfleet.NewDataAwsccGameliftFleetRuntimeConfigurationServerProcessesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccGameliftFleetRuntimeConfigurationServerProcessesList
 ```
@@ -4186,7 +4186,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGameliftFleet.DataAwsccGameliftFleetRuntimeConfigurationServerProcessesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftfleet"
 
 dataawsccgameliftfleet.NewDataAwsccGameliftFleetRuntimeConfigurationServerProcessesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccGameliftFleetRuntimeConfigurationServerProcessesOutputReference
 ```
@@ -4486,7 +4486,7 @@ func InternalValue() DataAwsccGameliftFleetRuntimeConfigurationServerProcesses
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGameliftFleet.DataAwsccGameliftFleetScalingPoliciesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftfleet"
 
 dataawsccgameliftfleet.NewDataAwsccGameliftFleetScalingPoliciesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccGameliftFleetScalingPoliciesList
 ```
@@ -4635,7 +4635,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGameliftFleet.DataAwsccGameliftFleetScalingPoliciesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftfleet"
 
 dataawsccgameliftfleet.NewDataAwsccGameliftFleetScalingPoliciesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccGameliftFleetScalingPoliciesOutputReference
 ```
@@ -5034,7 +5034,7 @@ func InternalValue() DataAwsccGameliftFleetScalingPolicies
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGameliftFleet.DataAwsccGameliftFleetScalingPoliciesTargetConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftfleet"
 
 dataawsccgameliftfleet.NewDataAwsccGameliftFleetScalingPoliciesTargetConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccGameliftFleetScalingPoliciesTargetConfigurationOutputReference
 ```
@@ -5294,7 +5294,7 @@ func InternalValue() DataAwsccGameliftFleetScalingPoliciesTargetConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGameliftFleet.DataAwsccGameliftFleetTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftfleet"
 
 dataawsccgameliftfleet.NewDataAwsccGameliftFleetTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccGameliftFleetTagsList
 ```
@@ -5443,7 +5443,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGameliftFleet.DataAwsccGameliftFleetTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftfleet"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftfleet"
 
 dataawsccgameliftfleet.NewDataAwsccGameliftFleetTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccGameliftFleetTagsOutputReference
 ```

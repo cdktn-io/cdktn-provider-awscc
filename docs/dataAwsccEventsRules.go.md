@@ -4,12 +4,12 @@
 
 ### DataAwsccEventsRules <a name="DataAwsccEventsRules" id="@cdktn/provider-awscc.dataAwsccEventsRules.DataAwsccEventsRules"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/events_rules awscc_events_rules}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/events_rules awscc_events_rules}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsRules.DataAwsccEventsRules.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrules"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsrules"
 
 dataawscceventsrules.NewDataAwsccEventsRules(scope Construct, id *string, config DataAwsccEventsRulesConfig) DataAwsccEventsRules
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccEventsRules.DataAwsccEventsRules.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrules"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsrules"
 
 dataawscceventsrules.DataAwsccEventsRules_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccEventsRules.DataAwsccEventsRules.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrules"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsrules"
 
 dataawscceventsrules.DataAwsccEventsRules_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscceventsrules.DataAwsccEventsRules_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccEventsRules.DataAwsccEventsRules.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrules"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsrules"
 
 dataawscceventsrules.DataAwsccEventsRules_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscceventsrules.DataAwsccEventsRules_IsTerraformDataSource(x interface{}) *
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccEventsRules.DataAwsccEventsRules.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrules"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsrules"
 
 dataawscceventsrules.DataAwsccEventsRules_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEventsRules to im
 
 The id of the existing DataAwsccEventsRules that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/events_rules#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/events_rules#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEventsRules.DataAwsccEventsRulesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsrules"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsrules"
 
 &dataawscceventsrules.DataAwsccEventsRulesConfig {
 	Connection: interface{},

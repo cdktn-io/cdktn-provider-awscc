@@ -4,12 +4,12 @@
 
 ### CloudfrontMonitoringSubscription <a name="CloudfrontMonitoringSubscription" id="@cdktn/provider-awscc.cloudfrontMonitoringSubscription.CloudfrontMonitoringSubscription"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_monitoring_subscription awscc_cloudfront_monitoring_subscription}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_monitoring_subscription awscc_cloudfront_monitoring_subscription}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudfrontMonitoringSubscription.CloudfrontMonitoringSubscription.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontmonitoringsubscription"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontmonitoringsubscription"
 
 cloudfrontmonitoringsubscription.NewCloudfrontMonitoringSubscription(scope Construct, id *string, config CloudfrontMonitoringSubscriptionConfig) CloudfrontMonitoringSubscription
 ```
@@ -413,7 +413,7 @@ func PutMonitoringSubscription(value CloudfrontMonitoringSubscriptionMonitoringS
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.cloudfrontMonitoringSubscription.CloudfrontMonitoringSubscription.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontmonitoringsubscription"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontmonitoringsubscription"
 
 cloudfrontmonitoringsubscription.CloudfrontMonitoringSubscription_IsConstruct(x interface{}) *bool
 ```
@@ -445,7 +445,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.cloudfrontMonitoringSubscription.CloudfrontMonitoringSubscription.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontmonitoringsubscription"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontmonitoringsubscription"
 
 cloudfrontmonitoringsubscription.CloudfrontMonitoringSubscription_IsTerraformElement(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ cloudfrontmonitoringsubscription.CloudfrontMonitoringSubscription_IsTerraformEle
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.cloudfrontMonitoringSubscription.CloudfrontMonitoringSubscription.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontmonitoringsubscription"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontmonitoringsubscription"
 
 cloudfrontmonitoringsubscription.CloudfrontMonitoringSubscription_IsTerraformResource(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ cloudfrontmonitoringsubscription.CloudfrontMonitoringSubscription_IsTerraformRes
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.cloudfrontMonitoringSubscription.CloudfrontMonitoringSubscription.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontmonitoringsubscription"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontmonitoringsubscription"
 
 cloudfrontmonitoringsubscription.CloudfrontMonitoringSubscription_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -502,7 +502,7 @@ The construct id used in the generated config for the CloudfrontMonitoringSubscr
 
 The id of the existing CloudfrontMonitoringSubscription that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_monitoring_subscription#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_monitoring_subscription#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -757,7 +757,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudfrontMonitoringSubscription.CloudfrontMonitoringSubscriptionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontmonitoringsubscription"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontmonitoringsubscription"
 
 &cloudfrontmonitoringsubscription.CloudfrontMonitoringSubscriptionConfig {
 	Connection: interface{},
@@ -768,7 +768,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontmonitoringsu
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	DistributionId: *string,
-	MonitoringSubscription: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.cloudfrontMonitoringSubscription.CloudfrontMonitoringSubscriptionMonitoringSubscription,
+	MonitoringSubscription: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.cloudfrontMonitoringSubscription.CloudfrontMonitoringSubscriptionMonitoringSubscription,
 }
 ```
 
@@ -868,7 +868,7 @@ DistributionId *string
 
 The ID of the distribution that you are enabling metrics for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_monitoring_subscription#distribution_id CloudfrontMonitoringSubscription#distribution_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_monitoring_subscription#distribution_id CloudfrontMonitoringSubscription#distribution_id}
 
 ---
 
@@ -882,7 +882,7 @@ MonitoringSubscription CloudfrontMonitoringSubscriptionMonitoringSubscription
 
 A subscription configuration for additional CloudWatch metrics.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_monitoring_subscription#monitoring_subscription CloudfrontMonitoringSubscription#monitoring_subscription}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_monitoring_subscription#monitoring_subscription CloudfrontMonitoringSubscription#monitoring_subscription}
 
 ---
 
@@ -891,10 +891,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudfrontMonitoringSubscription.CloudfrontMonitoringSubscriptionMonitoringSubscription.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontmonitoringsubscription"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontmonitoringsubscription"
 
 &cloudfrontmonitoringsubscription.CloudfrontMonitoringSubscriptionMonitoringSubscription {
-	RealtimeMetricsSubscriptionConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.cloudfrontMonitoringSubscription.CloudfrontMonitoringSubscriptionMonitoringSubscriptionRealtimeMetricsSubscriptionConfig,
+	RealtimeMetricsSubscriptionConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.cloudfrontMonitoringSubscription.CloudfrontMonitoringSubscriptionMonitoringSubscriptionRealtimeMetricsSubscriptionConfig,
 }
 ```
 
@@ -916,7 +916,7 @@ RealtimeMetricsSubscriptionConfig CloudfrontMonitoringSubscriptionMonitoringSubs
 
 A subscription configuration for additional CloudWatch metrics.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_monitoring_subscription#realtime_metrics_subscription_config CloudfrontMonitoringSubscription#realtime_metrics_subscription_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_monitoring_subscription#realtime_metrics_subscription_config CloudfrontMonitoringSubscription#realtime_metrics_subscription_config}
 
 ---
 
@@ -925,7 +925,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudfrontMonitoringSubscription.CloudfrontMonitoringSubscriptionMonitoringSubscriptionRealtimeMetricsSubscriptionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontmonitoringsubscription"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontmonitoringsubscription"
 
 &cloudfrontmonitoringsubscription.CloudfrontMonitoringSubscriptionMonitoringSubscriptionRealtimeMetricsSubscriptionConfig {
 	RealtimeMetricsSubscriptionStatus: *string,
@@ -950,7 +950,7 @@ RealtimeMetricsSubscriptionStatus *string
 
 A flag that indicates whether additional CloudWatch metrics are enabled for a given CloudFront distribution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_monitoring_subscription#realtime_metrics_subscription_status CloudfrontMonitoringSubscription#realtime_metrics_subscription_status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_monitoring_subscription#realtime_metrics_subscription_status CloudfrontMonitoringSubscription#realtime_metrics_subscription_status}
 
 ---
 
@@ -961,7 +961,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudfrontMonitoringSubscription.CloudfrontMonitoringSubscriptionMonitoringSubscriptionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontmonitoringsubscription"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontmonitoringsubscription"
 
 cloudfrontmonitoringsubscription.NewCloudfrontMonitoringSubscriptionMonitoringSubscriptionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CloudfrontMonitoringSubscriptionMonitoringSubscriptionOutputReference
 ```
@@ -1252,7 +1252,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudfrontMonitoringSubscription.CloudfrontMonitoringSubscriptionMonitoringSubscriptionRealtimeMetricsSubscriptionConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontmonitoringsubscription"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontmonitoringsubscription"
 
 cloudfrontmonitoringsubscription.NewCloudfrontMonitoringSubscriptionMonitoringSubscriptionRealtimeMetricsSubscriptionConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CloudfrontMonitoringSubscriptionMonitoringSubscriptionRealtimeMetricsSubscriptionConfigOutputReference
 ```

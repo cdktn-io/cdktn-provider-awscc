@@ -4,12 +4,12 @@
 
 ### DataAwsccSecuritylakeDataLake <a name="DataAwsccSecuritylakeDataLake" id="@cdktn/provider-awscc.dataAwsccSecuritylakeDataLake.DataAwsccSecuritylakeDataLake"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securitylake_data_lake awscc_securitylake_data_lake}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securitylake_data_lake awscc_securitylake_data_lake}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecuritylakeDataLake.DataAwsccSecuritylakeDataLake.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecuritylakedatalake"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecuritylakedatalake"
 
 dataawsccsecuritylakedatalake.NewDataAwsccSecuritylakeDataLake(scope Construct, id *string, config DataAwsccSecuritylakeDataLakeConfig) DataAwsccSecuritylakeDataLake
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSecuritylakeDataLake.DataAwsccSecuritylakeDataLake.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecuritylakedatalake"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecuritylakedatalake"
 
 dataawsccsecuritylakedatalake.DataAwsccSecuritylakeDataLake_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSecuritylakeDataLake.DataAwsccSecuritylakeDataLake.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecuritylakedatalake"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecuritylakedatalake"
 
 dataawsccsecuritylakedatalake.DataAwsccSecuritylakeDataLake_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsecuritylakedatalake.DataAwsccSecuritylakeDataLake_IsTerraformElement(x
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSecuritylakeDataLake.DataAwsccSecuritylakeDataLake.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecuritylakedatalake"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecuritylakedatalake"
 
 dataawsccsecuritylakedatalake.DataAwsccSecuritylakeDataLake_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsecuritylakedatalake.DataAwsccSecuritylakeDataLake_IsTerraformDataSourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSecuritylakeDataLake.DataAwsccSecuritylakeDataLake.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecuritylakedatalake"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecuritylakedatalake"
 
 dataawsccsecuritylakedatalake.DataAwsccSecuritylakeDataLake_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSecuritylakeDataL
 
 The id of the existing DataAwsccSecuritylakeDataLake that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securitylake_data_lake#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securitylake_data_lake#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -664,7 +664,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecuritylakeDataLake.DataAwsccSecuritylakeDataLakeConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecuritylakedatalake"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecuritylakedatalake"
 
 &dataawsccsecuritylakedatalake.DataAwsccSecuritylakeDataLakeConfig {
 	Connection: interface{},
@@ -773,7 +773,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securitylake_data_lake#id DataAwsccSecuritylakeDataLake#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securitylake_data_lake#id DataAwsccSecuritylakeDataLake#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -785,7 +785,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecuritylakeDataLake.DataAwsccSecuritylakeDataLakeEncryptionConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecuritylakedatalake"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecuritylakedatalake"
 
 &dataawsccsecuritylakedatalake.DataAwsccSecuritylakeDataLakeEncryptionConfiguration {
 
@@ -798,7 +798,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecuritylaked
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecuritylakeDataLake.DataAwsccSecuritylakeDataLakeLifecycleConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecuritylakedatalake"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecuritylakedatalake"
 
 &dataawsccsecuritylakedatalake.DataAwsccSecuritylakeDataLakeLifecycleConfiguration {
 
@@ -811,7 +811,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecuritylaked
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecuritylakeDataLake.DataAwsccSecuritylakeDataLakeLifecycleConfigurationExpiration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecuritylakedatalake"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecuritylakedatalake"
 
 &dataawsccsecuritylakedatalake.DataAwsccSecuritylakeDataLakeLifecycleConfigurationExpiration {
 
@@ -824,7 +824,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecuritylaked
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecuritylakeDataLake.DataAwsccSecuritylakeDataLakeLifecycleConfigurationTransitions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecuritylakedatalake"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecuritylakedatalake"
 
 &dataawsccsecuritylakedatalake.DataAwsccSecuritylakeDataLakeLifecycleConfigurationTransitions {
 
@@ -837,7 +837,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecuritylaked
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecuritylakeDataLake.DataAwsccSecuritylakeDataLakeReplicationConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecuritylakedatalake"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecuritylakedatalake"
 
 &dataawsccsecuritylakedatalake.DataAwsccSecuritylakeDataLakeReplicationConfiguration {
 
@@ -850,7 +850,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecuritylaked
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecuritylakeDataLake.DataAwsccSecuritylakeDataLakeTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecuritylakedatalake"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecuritylakedatalake"
 
 &dataawsccsecuritylakedatalake.DataAwsccSecuritylakeDataLakeTags {
 
@@ -865,7 +865,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecuritylaked
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecuritylakeDataLake.DataAwsccSecuritylakeDataLakeEncryptionConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecuritylakedatalake"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecuritylakedatalake"
 
 dataawsccsecuritylakedatalake.NewDataAwsccSecuritylakeDataLakeEncryptionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSecuritylakeDataLakeEncryptionConfigurationOutputReference
 ```
@@ -1125,7 +1125,7 @@ func InternalValue() DataAwsccSecuritylakeDataLakeEncryptionConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecuritylakeDataLake.DataAwsccSecuritylakeDataLakeLifecycleConfigurationExpirationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecuritylakedatalake"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecuritylakedatalake"
 
 dataawsccsecuritylakedatalake.NewDataAwsccSecuritylakeDataLakeLifecycleConfigurationExpirationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSecuritylakeDataLakeLifecycleConfigurationExpirationOutputReference
 ```
@@ -1385,7 +1385,7 @@ func InternalValue() DataAwsccSecuritylakeDataLakeLifecycleConfigurationExpirati
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecuritylakeDataLake.DataAwsccSecuritylakeDataLakeLifecycleConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecuritylakedatalake"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecuritylakedatalake"
 
 dataawsccsecuritylakedatalake.NewDataAwsccSecuritylakeDataLakeLifecycleConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSecuritylakeDataLakeLifecycleConfigurationOutputReference
 ```
@@ -1656,7 +1656,7 @@ func InternalValue() DataAwsccSecuritylakeDataLakeLifecycleConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecuritylakeDataLake.DataAwsccSecuritylakeDataLakeLifecycleConfigurationTransitionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecuritylakedatalake"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecuritylakedatalake"
 
 dataawsccsecuritylakedatalake.NewDataAwsccSecuritylakeDataLakeLifecycleConfigurationTransitionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecuritylakeDataLakeLifecycleConfigurationTransitionsList
 ```
@@ -1805,7 +1805,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecuritylakeDataLake.DataAwsccSecuritylakeDataLakeLifecycleConfigurationTransitionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecuritylakedatalake"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecuritylakedatalake"
 
 dataawsccsecuritylakedatalake.NewDataAwsccSecuritylakeDataLakeLifecycleConfigurationTransitionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecuritylakeDataLakeLifecycleConfigurationTransitionsOutputReference
 ```
@@ -2094,7 +2094,7 @@ func InternalValue() DataAwsccSecuritylakeDataLakeLifecycleConfigurationTransiti
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecuritylakeDataLake.DataAwsccSecuritylakeDataLakeReplicationConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecuritylakedatalake"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecuritylakedatalake"
 
 dataawsccsecuritylakedatalake.NewDataAwsccSecuritylakeDataLakeReplicationConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSecuritylakeDataLakeReplicationConfigurationOutputReference
 ```
@@ -2365,7 +2365,7 @@ func InternalValue() DataAwsccSecuritylakeDataLakeReplicationConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecuritylakeDataLake.DataAwsccSecuritylakeDataLakeTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecuritylakedatalake"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecuritylakedatalake"
 
 dataawsccsecuritylakedatalake.NewDataAwsccSecuritylakeDataLakeTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSecuritylakeDataLakeTagsList
 ```
@@ -2514,7 +2514,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecuritylakeDataLake.DataAwsccSecuritylakeDataLakeTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecuritylakedatalake"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecuritylakedatalake"
 
 dataawsccsecuritylakedatalake.NewDataAwsccSecuritylakeDataLakeTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSecuritylakeDataLakeTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccServicecatalogTagOptions <a name="DataAwsccServicecatalogTagOptions" id="@cdktn/provider-awscc.dataAwsccServicecatalogTagOptions.DataAwsccServicecatalogTagOptions"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/servicecatalog_tag_options awscc_servicecatalog_tag_options}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/servicecatalog_tag_options awscc_servicecatalog_tag_options}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccServicecatalogTagOptions.DataAwsccServicecatalogTagOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogtagoptions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogtagoptions"
 
 dataawsccservicecatalogtagoptions.NewDataAwsccServicecatalogTagOptions(scope Construct, id *string, config DataAwsccServicecatalogTagOptionsConfig) DataAwsccServicecatalogTagOptions
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccServicecatalogTagOptions.DataAwsccServicecatalogTagOptions.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogtagoptions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogtagoptions"
 
 dataawsccservicecatalogtagoptions.DataAwsccServicecatalogTagOptions_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccServicecatalogTagOptions.DataAwsccServicecatalogTagOptions.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogtagoptions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogtagoptions"
 
 dataawsccservicecatalogtagoptions.DataAwsccServicecatalogTagOptions_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccservicecatalogtagoptions.DataAwsccServicecatalogTagOptions_IsTerraformE
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccServicecatalogTagOptions.DataAwsccServicecatalogTagOptions.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogtagoptions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogtagoptions"
 
 dataawsccservicecatalogtagoptions.DataAwsccServicecatalogTagOptions_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccservicecatalogtagoptions.DataAwsccServicecatalogTagOptions_IsTerraformD
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccServicecatalogTagOptions.DataAwsccServicecatalogTagOptions.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogtagoptions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogtagoptions"
 
 dataawsccservicecatalogtagoptions.DataAwsccServicecatalogTagOptions_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccServicecatalogTag
 
 The id of the existing DataAwsccServicecatalogTagOptions that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/servicecatalog_tag_options#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/servicecatalog_tag_options#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccServicecatalogTagOptions.DataAwsccServicecatalogTagOptionsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogtagoptions"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogtagoptions"
 
 &dataawsccservicecatalogtagoptions.DataAwsccServicecatalogTagOptionsConfig {
 	Connection: interface{},

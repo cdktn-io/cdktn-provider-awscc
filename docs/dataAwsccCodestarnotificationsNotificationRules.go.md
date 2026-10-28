@@ -4,12 +4,12 @@
 
 ### DataAwsccCodestarnotificationsNotificationRules <a name="DataAwsccCodestarnotificationsNotificationRules" id="@cdktn/provider-awscc.dataAwsccCodestarnotificationsNotificationRules.DataAwsccCodestarnotificationsNotificationRules"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/codestarnotifications_notification_rules awscc_codestarnotifications_notification_rules}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/codestarnotifications_notification_rules awscc_codestarnotifications_notification_rules}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodestarnotificationsNotificationRules.DataAwsccCodestarnotificationsNotificationRules.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodestarnotificationsnotificationrules"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodestarnotificationsnotificationrules"
 
 dataawscccodestarnotificationsnotificationrules.NewDataAwsccCodestarnotificationsNotificationRules(scope Construct, id *string, config DataAwsccCodestarnotificationsNotificationRulesConfig) DataAwsccCodestarnotificationsNotificationRules
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccCodestarnotificationsNotificationRules.DataAwsccCodestarnotificationsNotificationRules.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodestarnotificationsnotificationrules"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodestarnotificationsnotificationrules"
 
 dataawscccodestarnotificationsnotificationrules.DataAwsccCodestarnotificationsNotificationRules_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccCodestarnotificationsNotificationRules.DataAwsccCodestarnotificationsNotificationRules.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodestarnotificationsnotificationrules"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodestarnotificationsnotificationrules"
 
 dataawscccodestarnotificationsnotificationrules.DataAwsccCodestarnotificationsNotificationRules_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscccodestarnotificationsnotificationrules.DataAwsccCodestarnotificationsNo
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccCodestarnotificationsNotificationRules.DataAwsccCodestarnotificationsNotificationRules.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodestarnotificationsnotificationrules"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodestarnotificationsnotificationrules"
 
 dataawscccodestarnotificationsnotificationrules.DataAwsccCodestarnotificationsNotificationRules_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscccodestarnotificationsnotificationrules.DataAwsccCodestarnotificationsNo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccCodestarnotificationsNotificationRules.DataAwsccCodestarnotificationsNotificationRules.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodestarnotificationsnotificationrules"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodestarnotificationsnotificationrules"
 
 dataawscccodestarnotificationsnotificationrules.DataAwsccCodestarnotificationsNotificationRules_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCodestarnotificat
 
 The id of the existing DataAwsccCodestarnotificationsNotificationRules that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/codestarnotifications_notification_rules#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/codestarnotifications_notification_rules#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCodestarnotificationsNotificationRules.DataAwsccCodestarnotificationsNotificationRulesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodestarnotificationsnotificationrules"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodestarnotificationsnotificationrules"
 
 &dataawscccodestarnotificationsnotificationrules.DataAwsccCodestarnotificationsNotificationRulesConfig {
 	Connection: interface{},

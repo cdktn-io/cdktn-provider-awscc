@@ -4,12 +4,12 @@
 
 ### DataAwsccAgentregistryRegistryRecord <a name="DataAwsccAgentregistryRegistryRecord" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistryRecord.DataAwsccAgentregistryRegistryRecord"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/agentregistry_registry_record awscc_agentregistry_registry_record}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/agentregistry_registry_record awscc_agentregistry_registry_record}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistryRecord.DataAwsccAgentregistryRegistryRecord.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistryrecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistryrecord"
 
 dataawsccagentregistryregistryrecord.NewDataAwsccAgentregistryRegistryRecord(scope Construct, id *string, config DataAwsccAgentregistryRegistryRecordConfig) DataAwsccAgentregistryRegistryRecord
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistryRecord.DataAwsccAgentregistryRegistryRecord.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistryrecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistryrecord"
 
 dataawsccagentregistryregistryrecord.DataAwsccAgentregistryRegistryRecord_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistryRecord.DataAwsccAgentregistryRegistryRecord.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistryrecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistryrecord"
 
 dataawsccagentregistryregistryrecord.DataAwsccAgentregistryRegistryRecord_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccagentregistryregistryrecord.DataAwsccAgentregistryRegistryRecord_IsTerr
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistryRecord.DataAwsccAgentregistryRegistryRecord.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistryrecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistryrecord"
 
 dataawsccagentregistryregistryrecord.DataAwsccAgentregistryRegistryRecord_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccagentregistryregistryrecord.DataAwsccAgentregistryRegistryRecord_IsTerr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistryRecord.DataAwsccAgentregistryRegistryRecord.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistryrecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistryrecord"
 
 dataawsccagentregistryregistryrecord.DataAwsccAgentregistryRegistryRecord_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccAgentregistryRegi
 
 The id of the existing DataAwsccAgentregistryRegistryRecord that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/agentregistry_registry_record#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/agentregistry_registry_record#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -763,7 +763,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistryRecord.DataAwsccAgentregistryRegistryRecordConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistryrecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistryrecord"
 
 &dataawsccagentregistryregistryrecord.DataAwsccAgentregistryRegistryRecordConfig {
 	Connection: interface{},
@@ -872,7 +872,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/agentregistry_registry_record#id DataAwsccAgentregistryRegistryRecord#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/agentregistry_registry_record#id DataAwsccAgentregistryRegistryRecord#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -884,7 +884,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistryRecord.DataAwsccAgentregistryRegistryRecordDescriptors.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistryrecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistryrecord"
 
 &dataawsccagentregistryregistryrecord.DataAwsccAgentregistryRegistryRecordDescriptors {
 
@@ -897,7 +897,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistry
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistryRecord.DataAwsccAgentregistryRegistryRecordDescriptorsA2AAgentCard.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistryrecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistryrecord"
 
 &dataawsccagentregistryregistryrecord.DataAwsccAgentregistryRegistryRecordDescriptorsA2AAgentCard {
 
@@ -910,7 +910,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistry
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistryRecord.DataAwsccAgentregistryRegistryRecordDescriptorsA2AAgentCardSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistryrecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistryrecord"
 
 &dataawsccagentregistryregistryrecord.DataAwsccAgentregistryRegistryRecordDescriptorsA2AAgentCardSource {
 
@@ -923,7 +923,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistry
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistryRecord.DataAwsccAgentregistryRegistryRecordDescriptorsA2AAgentCardSourceFromUrl.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistryrecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistryrecord"
 
 &dataawsccagentregistryregistryrecord.DataAwsccAgentregistryRegistryRecordDescriptorsA2AAgentCardSourceFromUrl {
 
@@ -936,7 +936,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistry
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistryRecord.DataAwsccAgentregistryRegistryRecordDescriptorsA2AAgentCardSourceFromUrlCredentialProviderConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistryrecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistryrecord"
 
 &dataawsccagentregistryregistryrecord.DataAwsccAgentregistryRegistryRecordDescriptorsA2AAgentCardSourceFromUrlCredentialProviderConfigurations {
 
@@ -949,7 +949,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistry
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistryRecord.DataAwsccAgentregistryRegistryRecordDescriptorsA2AAgentCardSourceFromUrlCredentialProviderConfigurationsCredentialProvider.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistryrecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistryrecord"
 
 &dataawsccagentregistryregistryrecord.DataAwsccAgentregistryRegistryRecordDescriptorsA2AAgentCardSourceFromUrlCredentialProviderConfigurationsCredentialProvider {
 
@@ -962,7 +962,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistry
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistryRecord.DataAwsccAgentregistryRegistryRecordDescriptorsA2AAgentCardSourceFromUrlCredentialProviderConfigurationsCredentialProviderIamCredentialProvider.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistryrecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistryrecord"
 
 &dataawsccagentregistryregistryrecord.DataAwsccAgentregistryRegistryRecordDescriptorsA2AAgentCardSourceFromUrlCredentialProviderConfigurationsCredentialProviderIamCredentialProvider {
 
@@ -975,7 +975,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistry
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistryRecord.DataAwsccAgentregistryRegistryRecordDescriptorsA2AAgentCardSourceFromUrlCredentialProviderConfigurationsCredentialProviderOauthCredentialProvider.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistryrecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistryrecord"
 
 &dataawsccagentregistryregistryrecord.DataAwsccAgentregistryRegistryRecordDescriptorsA2AAgentCardSourceFromUrlCredentialProviderConfigurationsCredentialProviderOauthCredentialProvider {
 
@@ -988,7 +988,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistry
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistryRecord.DataAwsccAgentregistryRegistryRecordDescriptorsAgentSkillsDefinition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistryrecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistryrecord"
 
 &dataawsccagentregistryregistryrecord.DataAwsccAgentregistryRegistryRecordDescriptorsAgentSkillsDefinition {
 
@@ -1001,7 +1001,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistry
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistryRecord.DataAwsccAgentregistryRegistryRecordDescriptorsAgentSkillsDefinitionAdditionalData.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistryrecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistryrecord"
 
 &dataawsccagentregistryregistryrecord.DataAwsccAgentregistryRegistryRecordDescriptorsAgentSkillsDefinitionAdditionalData {
 
@@ -1014,7 +1014,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistry
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistryRecord.DataAwsccAgentregistryRegistryRecordDescriptorsAgentSkillsDefinitionAdditionalDataSkillMd.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistryrecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistryrecord"
 
 &dataawsccagentregistryregistryrecord.DataAwsccAgentregistryRegistryRecordDescriptorsAgentSkillsDefinitionAdditionalDataSkillMd {
 
@@ -1027,7 +1027,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistry
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistryRecord.DataAwsccAgentregistryRegistryRecordDescriptorsAgentSkillsDefinitionAdditionalDataSkillMdSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistryrecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistryrecord"
 
 &dataawsccagentregistryregistryrecord.DataAwsccAgentregistryRegistryRecordDescriptorsAgentSkillsDefinitionAdditionalDataSkillMdSource {
 
@@ -1040,7 +1040,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistry
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistryRecord.DataAwsccAgentregistryRegistryRecordDescriptorsAgentSkillsDefinitionAdditionalDataSkillMdSourceFromUrl.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistryrecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistryrecord"
 
 &dataawsccagentregistryregistryrecord.DataAwsccAgentregistryRegistryRecordDescriptorsAgentSkillsDefinitionAdditionalDataSkillMdSourceFromUrl {
 
@@ -1053,7 +1053,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistry
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistryRecord.DataAwsccAgentregistryRegistryRecordDescriptorsAgui.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistryrecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistryrecord"
 
 &dataawsccagentregistryregistryrecord.DataAwsccAgentregistryRegistryRecordDescriptorsAgui {
 
@@ -1066,7 +1066,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistry
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistryRecord.DataAwsccAgentregistryRegistryRecordDescriptorsAguiSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistryrecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistryrecord"
 
 &dataawsccagentregistryregistryrecord.DataAwsccAgentregistryRegistryRecordDescriptorsAguiSource {
 
@@ -1079,7 +1079,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistry
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistryRecord.DataAwsccAgentregistryRegistryRecordDescriptorsAguiSourceFromUrl.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistryrecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistryrecord"
 
 &dataawsccagentregistryregistryrecord.DataAwsccAgentregistryRegistryRecordDescriptorsAguiSourceFromUrl {
 
@@ -1092,7 +1092,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistry
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistryRecord.DataAwsccAgentregistryRegistryRecordDescriptorsCustom.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistryrecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistryrecord"
 
 &dataawsccagentregistryregistryrecord.DataAwsccAgentregistryRegistryRecordDescriptorsCustom {
 
@@ -1105,7 +1105,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistry
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistryRecord.DataAwsccAgentregistryRegistryRecordDescriptorsHttp.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistryrecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistryrecord"
 
 &dataawsccagentregistryregistryrecord.DataAwsccAgentregistryRegistryRecordDescriptorsHttp {
 
@@ -1118,7 +1118,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistry
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistryRecord.DataAwsccAgentregistryRegistryRecordDescriptorsHttpSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistryrecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistryrecord"
 
 &dataawsccagentregistryregistryrecord.DataAwsccAgentregistryRegistryRecordDescriptorsHttpSource {
 
@@ -1131,7 +1131,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistry
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistryRecord.DataAwsccAgentregistryRegistryRecordDescriptorsHttpSourceFromUrl.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistryrecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistryrecord"
 
 &dataawsccagentregistryregistryrecord.DataAwsccAgentregistryRegistryRecordDescriptorsHttpSourceFromUrl {
 
@@ -1144,7 +1144,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistry
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistryRecord.DataAwsccAgentregistryRegistryRecordDescriptorsMcpServer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistryrecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistryrecord"
 
 &dataawsccagentregistryregistryrecord.DataAwsccAgentregistryRegistryRecordDescriptorsMcpServer {
 
@@ -1157,7 +1157,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistry
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistryRecord.DataAwsccAgentregistryRegistryRecordDescriptorsMcpServerAdditionalData.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistryrecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistryrecord"
 
 &dataawsccagentregistryregistryrecord.DataAwsccAgentregistryRegistryRecordDescriptorsMcpServerAdditionalData {
 
@@ -1170,7 +1170,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistry
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistryRecord.DataAwsccAgentregistryRegistryRecordDescriptorsMcpServerAdditionalDataTools.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistryrecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistryrecord"
 
 &dataawsccagentregistryregistryrecord.DataAwsccAgentregistryRegistryRecordDescriptorsMcpServerAdditionalDataTools {
 
@@ -1183,7 +1183,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistry
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistryRecord.DataAwsccAgentregistryRegistryRecordDescriptorsMcpServerSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistryrecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistryrecord"
 
 &dataawsccagentregistryregistryrecord.DataAwsccAgentregistryRegistryRecordDescriptorsMcpServerSource {
 
@@ -1196,7 +1196,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistry
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistryRecord.DataAwsccAgentregistryRegistryRecordDescriptorsMcpServerSourceFromUrl.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistryrecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistryrecord"
 
 &dataawsccagentregistryregistryrecord.DataAwsccAgentregistryRegistryRecordDescriptorsMcpServerSourceFromUrl {
 
@@ -1209,7 +1209,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistry
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistryRecord.DataAwsccAgentregistryRegistryRecordDescriptorsMcpServerSourceFromUrlCredentialProviderConfigurations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistryrecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistryrecord"
 
 &dataawsccagentregistryregistryrecord.DataAwsccAgentregistryRegistryRecordDescriptorsMcpServerSourceFromUrlCredentialProviderConfigurations {
 
@@ -1222,7 +1222,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistry
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistryRecord.DataAwsccAgentregistryRegistryRecordDescriptorsMcpServerSourceFromUrlCredentialProviderConfigurationsCredentialProvider.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistryrecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistryrecord"
 
 &dataawsccagentregistryregistryrecord.DataAwsccAgentregistryRegistryRecordDescriptorsMcpServerSourceFromUrlCredentialProviderConfigurationsCredentialProvider {
 
@@ -1235,7 +1235,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistry
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistryRecord.DataAwsccAgentregistryRegistryRecordDescriptorsMcpServerSourceFromUrlCredentialProviderConfigurationsCredentialProviderIamCredentialProvider.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistryrecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistryrecord"
 
 &dataawsccagentregistryregistryrecord.DataAwsccAgentregistryRegistryRecordDescriptorsMcpServerSourceFromUrlCredentialProviderConfigurationsCredentialProviderIamCredentialProvider {
 
@@ -1248,7 +1248,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistry
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistryRecord.DataAwsccAgentregistryRegistryRecordDescriptorsMcpServerSourceFromUrlCredentialProviderConfigurationsCredentialProviderOauthCredentialProvider.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistryrecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistryrecord"
 
 &dataawsccagentregistryregistryrecord.DataAwsccAgentregistryRegistryRecordDescriptorsMcpServerSourceFromUrlCredentialProviderConfigurationsCredentialProviderOauthCredentialProvider {
 
@@ -1261,7 +1261,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistry
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistryRecord.DataAwsccAgentregistryRegistryRecordTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistryrecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistryrecord"
 
 &dataawsccagentregistryregistryrecord.DataAwsccAgentregistryRegistryRecordTags {
 
@@ -1276,7 +1276,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistry
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistryRecord.DataAwsccAgentregistryRegistryRecordDescriptorsA2AAgentCardOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistryrecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistryrecord"
 
 dataawsccagentregistryregistryrecord.NewDataAwsccAgentregistryRegistryRecordDescriptorsA2AAgentCardOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAgentregistryRegistryRecordDescriptorsA2AAgentCardOutputReference
 ```
@@ -1558,7 +1558,7 @@ func InternalValue() DataAwsccAgentregistryRegistryRecordDescriptorsA2AAgentCard
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistryRecord.DataAwsccAgentregistryRegistryRecordDescriptorsA2AAgentCardSourceFromUrlCredentialProviderConfigurationsCredentialProviderIamCredentialProviderOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistryrecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistryrecord"
 
 dataawsccagentregistryregistryrecord.NewDataAwsccAgentregistryRegistryRecordDescriptorsA2AAgentCardSourceFromUrlCredentialProviderConfigurationsCredentialProviderIamCredentialProviderOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAgentregistryRegistryRecordDescriptorsA2AAgentCardSourceFromUrlCredentialProviderConfigurationsCredentialProviderIamCredentialProviderOutputReference
 ```
@@ -1840,7 +1840,7 @@ func InternalValue() DataAwsccAgentregistryRegistryRecordDescriptorsA2AAgentCard
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistryRecord.DataAwsccAgentregistryRegistryRecordDescriptorsA2AAgentCardSourceFromUrlCredentialProviderConfigurationsCredentialProviderOauthCredentialProviderOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistryrecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistryrecord"
 
 dataawsccagentregistryregistryrecord.NewDataAwsccAgentregistryRegistryRecordDescriptorsA2AAgentCardSourceFromUrlCredentialProviderConfigurationsCredentialProviderOauthCredentialProviderOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAgentregistryRegistryRecordDescriptorsA2AAgentCardSourceFromUrlCredentialProviderConfigurationsCredentialProviderOauthCredentialProviderOutputReference
 ```
@@ -2133,7 +2133,7 @@ func InternalValue() DataAwsccAgentregistryRegistryRecordDescriptorsA2AAgentCard
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistryRecord.DataAwsccAgentregistryRegistryRecordDescriptorsA2AAgentCardSourceFromUrlCredentialProviderConfigurationsCredentialProviderOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistryrecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistryrecord"
 
 dataawsccagentregistryregistryrecord.NewDataAwsccAgentregistryRegistryRecordDescriptorsA2AAgentCardSourceFromUrlCredentialProviderConfigurationsCredentialProviderOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAgentregistryRegistryRecordDescriptorsA2AAgentCardSourceFromUrlCredentialProviderConfigurationsCredentialProviderOutputReference
 ```
@@ -2404,7 +2404,7 @@ func InternalValue() DataAwsccAgentregistryRegistryRecordDescriptorsA2AAgentCard
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistryRecord.DataAwsccAgentregistryRegistryRecordDescriptorsA2AAgentCardSourceFromUrlCredentialProviderConfigurationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistryrecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistryrecord"
 
 dataawsccagentregistryregistryrecord.NewDataAwsccAgentregistryRegistryRecordDescriptorsA2AAgentCardSourceFromUrlCredentialProviderConfigurationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccAgentregistryRegistryRecordDescriptorsA2AAgentCardSourceFromUrlCredentialProviderConfigurationsList
 ```
@@ -2553,7 +2553,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistryRecord.DataAwsccAgentregistryRegistryRecordDescriptorsA2AAgentCardSourceFromUrlCredentialProviderConfigurationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistryrecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistryrecord"
 
 dataawsccagentregistryregistryrecord.NewDataAwsccAgentregistryRegistryRecordDescriptorsA2AAgentCardSourceFromUrlCredentialProviderConfigurationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccAgentregistryRegistryRecordDescriptorsA2AAgentCardSourceFromUrlCredentialProviderConfigurationsOutputReference
 ```
@@ -2842,7 +2842,7 @@ func InternalValue() DataAwsccAgentregistryRegistryRecordDescriptorsA2AAgentCard
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistryRecord.DataAwsccAgentregistryRegistryRecordDescriptorsA2AAgentCardSourceFromUrlOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistryrecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistryrecord"
 
 dataawsccagentregistryregistryrecord.NewDataAwsccAgentregistryRegistryRecordDescriptorsA2AAgentCardSourceFromUrlOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAgentregistryRegistryRecordDescriptorsA2AAgentCardSourceFromUrlOutputReference
 ```
@@ -3113,7 +3113,7 @@ func InternalValue() DataAwsccAgentregistryRegistryRecordDescriptorsA2AAgentCard
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistryRecord.DataAwsccAgentregistryRegistryRecordDescriptorsA2AAgentCardSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistryrecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistryrecord"
 
 dataawsccagentregistryregistryrecord.NewDataAwsccAgentregistryRegistryRecordDescriptorsA2AAgentCardSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAgentregistryRegistryRecordDescriptorsA2AAgentCardSourceOutputReference
 ```
@@ -3373,7 +3373,7 @@ func InternalValue() DataAwsccAgentregistryRegistryRecordDescriptorsA2AAgentCard
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistryRecord.DataAwsccAgentregistryRegistryRecordDescriptorsAgentSkillsDefinitionAdditionalDataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistryrecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistryrecord"
 
 dataawsccagentregistryregistryrecord.NewDataAwsccAgentregistryRegistryRecordDescriptorsAgentSkillsDefinitionAdditionalDataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAgentregistryRegistryRecordDescriptorsAgentSkillsDefinitionAdditionalDataOutputReference
 ```
@@ -3633,7 +3633,7 @@ func InternalValue() DataAwsccAgentregistryRegistryRecordDescriptorsAgentSkillsD
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistryRecord.DataAwsccAgentregistryRegistryRecordDescriptorsAgentSkillsDefinitionAdditionalDataSkillMdOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistryrecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistryrecord"
 
 dataawsccagentregistryregistryrecord.NewDataAwsccAgentregistryRegistryRecordDescriptorsAgentSkillsDefinitionAdditionalDataSkillMdOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAgentregistryRegistryRecordDescriptorsAgentSkillsDefinitionAdditionalDataSkillMdOutputReference
 ```
@@ -3915,7 +3915,7 @@ func InternalValue() DataAwsccAgentregistryRegistryRecordDescriptorsAgentSkillsD
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistryRecord.DataAwsccAgentregistryRegistryRecordDescriptorsAgentSkillsDefinitionAdditionalDataSkillMdSourceFromUrlOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistryrecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistryrecord"
 
 dataawsccagentregistryregistryrecord.NewDataAwsccAgentregistryRegistryRecordDescriptorsAgentSkillsDefinitionAdditionalDataSkillMdSourceFromUrlOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAgentregistryRegistryRecordDescriptorsAgentSkillsDefinitionAdditionalDataSkillMdSourceFromUrlOutputReference
 ```
@@ -4175,7 +4175,7 @@ func InternalValue() DataAwsccAgentregistryRegistryRecordDescriptorsAgentSkillsD
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistryRecord.DataAwsccAgentregistryRegistryRecordDescriptorsAgentSkillsDefinitionAdditionalDataSkillMdSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistryrecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistryrecord"
 
 dataawsccagentregistryregistryrecord.NewDataAwsccAgentregistryRegistryRecordDescriptorsAgentSkillsDefinitionAdditionalDataSkillMdSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAgentregistryRegistryRecordDescriptorsAgentSkillsDefinitionAdditionalDataSkillMdSourceOutputReference
 ```
@@ -4435,7 +4435,7 @@ func InternalValue() DataAwsccAgentregistryRegistryRecordDescriptorsAgentSkillsD
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistryRecord.DataAwsccAgentregistryRegistryRecordDescriptorsAgentSkillsDefinitionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistryrecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistryrecord"
 
 dataawsccagentregistryregistryrecord.NewDataAwsccAgentregistryRegistryRecordDescriptorsAgentSkillsDefinitionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAgentregistryRegistryRecordDescriptorsAgentSkillsDefinitionOutputReference
 ```
@@ -4717,7 +4717,7 @@ func InternalValue() DataAwsccAgentregistryRegistryRecordDescriptorsAgentSkillsD
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistryRecord.DataAwsccAgentregistryRegistryRecordDescriptorsAguiOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistryrecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistryrecord"
 
 dataawsccagentregistryregistryrecord.NewDataAwsccAgentregistryRegistryRecordDescriptorsAguiOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAgentregistryRegistryRecordDescriptorsAguiOutputReference
 ```
@@ -4977,7 +4977,7 @@ func InternalValue() DataAwsccAgentregistryRegistryRecordDescriptorsAgui
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistryRecord.DataAwsccAgentregistryRegistryRecordDescriptorsAguiSourceFromUrlOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistryrecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistryrecord"
 
 dataawsccagentregistryregistryrecord.NewDataAwsccAgentregistryRegistryRecordDescriptorsAguiSourceFromUrlOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAgentregistryRegistryRecordDescriptorsAguiSourceFromUrlOutputReference
 ```
@@ -5237,7 +5237,7 @@ func InternalValue() DataAwsccAgentregistryRegistryRecordDescriptorsAguiSourceFr
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistryRecord.DataAwsccAgentregistryRegistryRecordDescriptorsAguiSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistryrecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistryrecord"
 
 dataawsccagentregistryregistryrecord.NewDataAwsccAgentregistryRegistryRecordDescriptorsAguiSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAgentregistryRegistryRecordDescriptorsAguiSourceOutputReference
 ```
@@ -5497,7 +5497,7 @@ func InternalValue() DataAwsccAgentregistryRegistryRecordDescriptorsAguiSource
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistryRecord.DataAwsccAgentregistryRegistryRecordDescriptorsCustomOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistryrecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistryrecord"
 
 dataawsccagentregistryregistryrecord.NewDataAwsccAgentregistryRegistryRecordDescriptorsCustomOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAgentregistryRegistryRecordDescriptorsCustomOutputReference
 ```
@@ -5757,7 +5757,7 @@ func InternalValue() DataAwsccAgentregistryRegistryRecordDescriptorsCustom
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistryRecord.DataAwsccAgentregistryRegistryRecordDescriptorsHttpOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistryrecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistryrecord"
 
 dataawsccagentregistryregistryrecord.NewDataAwsccAgentregistryRegistryRecordDescriptorsHttpOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAgentregistryRegistryRecordDescriptorsHttpOutputReference
 ```
@@ -6017,7 +6017,7 @@ func InternalValue() DataAwsccAgentregistryRegistryRecordDescriptorsHttp
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistryRecord.DataAwsccAgentregistryRegistryRecordDescriptorsHttpSourceFromUrlOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistryrecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistryrecord"
 
 dataawsccagentregistryregistryrecord.NewDataAwsccAgentregistryRegistryRecordDescriptorsHttpSourceFromUrlOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAgentregistryRegistryRecordDescriptorsHttpSourceFromUrlOutputReference
 ```
@@ -6277,7 +6277,7 @@ func InternalValue() DataAwsccAgentregistryRegistryRecordDescriptorsHttpSourceFr
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistryRecord.DataAwsccAgentregistryRegistryRecordDescriptorsHttpSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistryrecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistryrecord"
 
 dataawsccagentregistryregistryrecord.NewDataAwsccAgentregistryRegistryRecordDescriptorsHttpSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAgentregistryRegistryRecordDescriptorsHttpSourceOutputReference
 ```
@@ -6537,7 +6537,7 @@ func InternalValue() DataAwsccAgentregistryRegistryRecordDescriptorsHttpSource
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistryRecord.DataAwsccAgentregistryRegistryRecordDescriptorsMcpServerAdditionalDataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistryrecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistryrecord"
 
 dataawsccagentregistryregistryrecord.NewDataAwsccAgentregistryRegistryRecordDescriptorsMcpServerAdditionalDataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAgentregistryRegistryRecordDescriptorsMcpServerAdditionalDataOutputReference
 ```
@@ -6797,7 +6797,7 @@ func InternalValue() DataAwsccAgentregistryRegistryRecordDescriptorsMcpServerAdd
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistryRecord.DataAwsccAgentregistryRegistryRecordDescriptorsMcpServerAdditionalDataToolsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistryrecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistryrecord"
 
 dataawsccagentregistryregistryrecord.NewDataAwsccAgentregistryRegistryRecordDescriptorsMcpServerAdditionalDataToolsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAgentregistryRegistryRecordDescriptorsMcpServerAdditionalDataToolsOutputReference
 ```
@@ -7068,7 +7068,7 @@ func InternalValue() DataAwsccAgentregistryRegistryRecordDescriptorsMcpServerAdd
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistryRecord.DataAwsccAgentregistryRegistryRecordDescriptorsMcpServerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistryrecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistryrecord"
 
 dataawsccagentregistryregistryrecord.NewDataAwsccAgentregistryRegistryRecordDescriptorsMcpServerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAgentregistryRegistryRecordDescriptorsMcpServerOutputReference
 ```
@@ -7361,7 +7361,7 @@ func InternalValue() DataAwsccAgentregistryRegistryRecordDescriptorsMcpServer
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistryRecord.DataAwsccAgentregistryRegistryRecordDescriptorsMcpServerSourceFromUrlCredentialProviderConfigurationsCredentialProviderIamCredentialProviderOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistryrecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistryrecord"
 
 dataawsccagentregistryregistryrecord.NewDataAwsccAgentregistryRegistryRecordDescriptorsMcpServerSourceFromUrlCredentialProviderConfigurationsCredentialProviderIamCredentialProviderOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAgentregistryRegistryRecordDescriptorsMcpServerSourceFromUrlCredentialProviderConfigurationsCredentialProviderIamCredentialProviderOutputReference
 ```
@@ -7643,7 +7643,7 @@ func InternalValue() DataAwsccAgentregistryRegistryRecordDescriptorsMcpServerSou
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistryRecord.DataAwsccAgentregistryRegistryRecordDescriptorsMcpServerSourceFromUrlCredentialProviderConfigurationsCredentialProviderOauthCredentialProviderOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistryrecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistryrecord"
 
 dataawsccagentregistryregistryrecord.NewDataAwsccAgentregistryRegistryRecordDescriptorsMcpServerSourceFromUrlCredentialProviderConfigurationsCredentialProviderOauthCredentialProviderOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAgentregistryRegistryRecordDescriptorsMcpServerSourceFromUrlCredentialProviderConfigurationsCredentialProviderOauthCredentialProviderOutputReference
 ```
@@ -7936,7 +7936,7 @@ func InternalValue() DataAwsccAgentregistryRegistryRecordDescriptorsMcpServerSou
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistryRecord.DataAwsccAgentregistryRegistryRecordDescriptorsMcpServerSourceFromUrlCredentialProviderConfigurationsCredentialProviderOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistryrecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistryrecord"
 
 dataawsccagentregistryregistryrecord.NewDataAwsccAgentregistryRegistryRecordDescriptorsMcpServerSourceFromUrlCredentialProviderConfigurationsCredentialProviderOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAgentregistryRegistryRecordDescriptorsMcpServerSourceFromUrlCredentialProviderConfigurationsCredentialProviderOutputReference
 ```
@@ -8207,7 +8207,7 @@ func InternalValue() DataAwsccAgentregistryRegistryRecordDescriptorsMcpServerSou
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistryRecord.DataAwsccAgentregistryRegistryRecordDescriptorsMcpServerSourceFromUrlCredentialProviderConfigurationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistryrecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistryrecord"
 
 dataawsccagentregistryregistryrecord.NewDataAwsccAgentregistryRegistryRecordDescriptorsMcpServerSourceFromUrlCredentialProviderConfigurationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccAgentregistryRegistryRecordDescriptorsMcpServerSourceFromUrlCredentialProviderConfigurationsList
 ```
@@ -8356,7 +8356,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistryRecord.DataAwsccAgentregistryRegistryRecordDescriptorsMcpServerSourceFromUrlCredentialProviderConfigurationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistryrecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistryrecord"
 
 dataawsccagentregistryregistryrecord.NewDataAwsccAgentregistryRegistryRecordDescriptorsMcpServerSourceFromUrlCredentialProviderConfigurationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccAgentregistryRegistryRecordDescriptorsMcpServerSourceFromUrlCredentialProviderConfigurationsOutputReference
 ```
@@ -8645,7 +8645,7 @@ func InternalValue() DataAwsccAgentregistryRegistryRecordDescriptorsMcpServerSou
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistryRecord.DataAwsccAgentregistryRegistryRecordDescriptorsMcpServerSourceFromUrlOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistryrecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistryrecord"
 
 dataawsccagentregistryregistryrecord.NewDataAwsccAgentregistryRegistryRecordDescriptorsMcpServerSourceFromUrlOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAgentregistryRegistryRecordDescriptorsMcpServerSourceFromUrlOutputReference
 ```
@@ -8916,7 +8916,7 @@ func InternalValue() DataAwsccAgentregistryRegistryRecordDescriptorsMcpServerSou
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistryRecord.DataAwsccAgentregistryRegistryRecordDescriptorsMcpServerSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistryrecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistryrecord"
 
 dataawsccagentregistryregistryrecord.NewDataAwsccAgentregistryRegistryRecordDescriptorsMcpServerSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAgentregistryRegistryRecordDescriptorsMcpServerSourceOutputReference
 ```
@@ -9176,7 +9176,7 @@ func InternalValue() DataAwsccAgentregistryRegistryRecordDescriptorsMcpServerSou
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistryRecord.DataAwsccAgentregistryRegistryRecordDescriptorsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistryrecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistryrecord"
 
 dataawsccagentregistryregistryrecord.NewDataAwsccAgentregistryRegistryRecordDescriptorsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccAgentregistryRegistryRecordDescriptorsOutputReference
 ```
@@ -9491,7 +9491,7 @@ func InternalValue() DataAwsccAgentregistryRegistryRecordDescriptors
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistryRecord.DataAwsccAgentregistryRegistryRecordTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistryrecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistryrecord"
 
 dataawsccagentregistryregistryrecord.NewDataAwsccAgentregistryRegistryRecordTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccAgentregistryRegistryRecordTagsList
 ```
@@ -9640,7 +9640,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAgentregistryRegistryRecord.DataAwsccAgentregistryRegistryRecordTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccagentregistryregistryrecord"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccagentregistryregistryrecord"
 
 dataawsccagentregistryregistryrecord.NewDataAwsccAgentregistryRegistryRecordTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccAgentregistryRegistryRecordTagsOutputReference
 ```

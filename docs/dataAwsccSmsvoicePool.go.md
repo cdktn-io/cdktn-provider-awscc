@@ -4,12 +4,12 @@
 
 ### DataAwsccSmsvoicePool <a name="DataAwsccSmsvoicePool" id="@cdktn/provider-awscc.dataAwsccSmsvoicePool.DataAwsccSmsvoicePool"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/smsvoice_pool awscc_smsvoice_pool}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/smsvoice_pool awscc_smsvoice_pool}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSmsvoicePool.DataAwsccSmsvoicePool.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoicepool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoicepool"
 
 dataawsccsmsvoicepool.NewDataAwsccSmsvoicePool(scope Construct, id *string, config DataAwsccSmsvoicePoolConfig) DataAwsccSmsvoicePool
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccSmsvoicePool.DataAwsccSmsvoicePool.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoicepool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoicepool"
 
 dataawsccsmsvoicepool.DataAwsccSmsvoicePool_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccSmsvoicePool.DataAwsccSmsvoicePool.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoicepool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoicepool"
 
 dataawsccsmsvoicepool.DataAwsccSmsvoicePool_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccsmsvoicepool.DataAwsccSmsvoicePool_IsTerraformElement(x interface{}) *b
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccSmsvoicePool.DataAwsccSmsvoicePool.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoicepool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoicepool"
 
 dataawsccsmsvoicepool.DataAwsccSmsvoicePool_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccsmsvoicepool.DataAwsccSmsvoicePool_IsTerraformDataSource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccSmsvoicePool.DataAwsccSmsvoicePool.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoicepool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoicepool"
 
 dataawsccsmsvoicepool.DataAwsccSmsvoicePool_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSmsvoicePool to i
 
 The id of the existing DataAwsccSmsvoicePool that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/smsvoice_pool#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/smsvoice_pool#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -708,7 +708,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSmsvoicePool.DataAwsccSmsvoicePoolConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoicepool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoicepool"
 
 &dataawsccsmsvoicepool.DataAwsccSmsvoicePoolConfig {
 	Connection: interface{},
@@ -817,7 +817,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/smsvoice_pool#id DataAwsccSmsvoicePool#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/smsvoice_pool#id DataAwsccSmsvoicePool#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -829,7 +829,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSmsvoicePool.DataAwsccSmsvoicePoolMandatoryKeywords.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoicepool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoicepool"
 
 &dataawsccsmsvoicepool.DataAwsccSmsvoicePoolMandatoryKeywords {
 
@@ -842,7 +842,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoicepool"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSmsvoicePool.DataAwsccSmsvoicePoolMandatoryKeywordsHelp.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoicepool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoicepool"
 
 &dataawsccsmsvoicepool.DataAwsccSmsvoicePoolMandatoryKeywordsHelp {
 
@@ -855,7 +855,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoicepool"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSmsvoicePool.DataAwsccSmsvoicePoolMandatoryKeywordsStop.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoicepool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoicepool"
 
 &dataawsccsmsvoicepool.DataAwsccSmsvoicePoolMandatoryKeywordsStop {
 
@@ -868,7 +868,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoicepool"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSmsvoicePool.DataAwsccSmsvoicePoolOptionalKeywords.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoicepool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoicepool"
 
 &dataawsccsmsvoicepool.DataAwsccSmsvoicePoolOptionalKeywords {
 
@@ -881,7 +881,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoicepool"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSmsvoicePool.DataAwsccSmsvoicePoolTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoicepool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoicepool"
 
 &dataawsccsmsvoicepool.DataAwsccSmsvoicePoolTags {
 
@@ -894,7 +894,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoicepool"
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSmsvoicePool.DataAwsccSmsvoicePoolTwoWay.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoicepool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoicepool"
 
 &dataawsccsmsvoicepool.DataAwsccSmsvoicePoolTwoWay {
 
@@ -909,7 +909,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoicepool"
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSmsvoicePool.DataAwsccSmsvoicePoolMandatoryKeywordsHelpOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoicepool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoicepool"
 
 dataawsccsmsvoicepool.NewDataAwsccSmsvoicePoolMandatoryKeywordsHelpOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSmsvoicePoolMandatoryKeywordsHelpOutputReference
 ```
@@ -1169,7 +1169,7 @@ func InternalValue() DataAwsccSmsvoicePoolMandatoryKeywordsHelp
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSmsvoicePool.DataAwsccSmsvoicePoolMandatoryKeywordsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoicepool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoicepool"
 
 dataawsccsmsvoicepool.NewDataAwsccSmsvoicePoolMandatoryKeywordsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSmsvoicePoolMandatoryKeywordsOutputReference
 ```
@@ -1440,7 +1440,7 @@ func InternalValue() DataAwsccSmsvoicePoolMandatoryKeywords
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSmsvoicePool.DataAwsccSmsvoicePoolMandatoryKeywordsStopOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoicepool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoicepool"
 
 dataawsccsmsvoicepool.NewDataAwsccSmsvoicePoolMandatoryKeywordsStopOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSmsvoicePoolMandatoryKeywordsStopOutputReference
 ```
@@ -1700,7 +1700,7 @@ func InternalValue() DataAwsccSmsvoicePoolMandatoryKeywordsStop
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSmsvoicePool.DataAwsccSmsvoicePoolOptionalKeywordsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoicepool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoicepool"
 
 dataawsccsmsvoicepool.NewDataAwsccSmsvoicePoolOptionalKeywordsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSmsvoicePoolOptionalKeywordsList
 ```
@@ -1849,7 +1849,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSmsvoicePool.DataAwsccSmsvoicePoolOptionalKeywordsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoicepool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoicepool"
 
 dataawsccsmsvoicepool.NewDataAwsccSmsvoicePoolOptionalKeywordsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSmsvoicePoolOptionalKeywordsOutputReference
 ```
@@ -2149,7 +2149,7 @@ func InternalValue() DataAwsccSmsvoicePoolOptionalKeywords
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSmsvoicePool.DataAwsccSmsvoicePoolTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoicepool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoicepool"
 
 dataawsccsmsvoicepool.NewDataAwsccSmsvoicePoolTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSmsvoicePoolTagsList
 ```
@@ -2298,7 +2298,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSmsvoicePool.DataAwsccSmsvoicePoolTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoicepool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoicepool"
 
 dataawsccsmsvoicepool.NewDataAwsccSmsvoicePoolTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSmsvoicePoolTagsOutputReference
 ```
@@ -2587,7 +2587,7 @@ func InternalValue() DataAwsccSmsvoicePoolTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSmsvoicePool.DataAwsccSmsvoicePoolTwoWayOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoicepool"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoicepool"
 
 dataawsccsmsvoicepool.NewDataAwsccSmsvoicePoolTwoWayOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSmsvoicePoolTwoWayOutputReference
 ```

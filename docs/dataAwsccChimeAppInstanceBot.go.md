@@ -4,12 +4,12 @@
 
 ### DataAwsccChimeAppInstanceBot <a name="DataAwsccChimeAppInstanceBot" id="@cdktn/provider-awscc.dataAwsccChimeAppInstanceBot.DataAwsccChimeAppInstanceBot"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/chime_app_instance_bot awscc_chime_app_instance_bot}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/chime_app_instance_bot awscc_chime_app_instance_bot}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccChimeAppInstanceBot.DataAwsccChimeAppInstanceBot.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimeappinstancebot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchimeappinstancebot"
 
 dataawsccchimeappinstancebot.NewDataAwsccChimeAppInstanceBot(scope Construct, id *string, config DataAwsccChimeAppInstanceBotConfig) DataAwsccChimeAppInstanceBot
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccChimeAppInstanceBot.DataAwsccChimeAppInstanceBot.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimeappinstancebot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchimeappinstancebot"
 
 dataawsccchimeappinstancebot.DataAwsccChimeAppInstanceBot_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccChimeAppInstanceBot.DataAwsccChimeAppInstanceBot.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimeappinstancebot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchimeappinstancebot"
 
 dataawsccchimeappinstancebot.DataAwsccChimeAppInstanceBot_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccchimeappinstancebot.DataAwsccChimeAppInstanceBot_IsTerraformElement(x i
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccChimeAppInstanceBot.DataAwsccChimeAppInstanceBot.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimeappinstancebot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchimeappinstancebot"
 
 dataawsccchimeappinstancebot.DataAwsccChimeAppInstanceBot_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccchimeappinstancebot.DataAwsccChimeAppInstanceBot_IsTerraformDataSource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccChimeAppInstanceBot.DataAwsccChimeAppInstanceBot.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimeappinstancebot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchimeappinstancebot"
 
 dataawsccchimeappinstancebot.DataAwsccChimeAppInstanceBot_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccChimeAppInstanceB
 
 The id of the existing DataAwsccChimeAppInstanceBot that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/chime_app_instance_bot#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/chime_app_instance_bot#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -675,7 +675,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccChimeAppInstanceBot.DataAwsccChimeAppInstanceBotConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimeappinstancebot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchimeappinstancebot"
 
 &dataawsccchimeappinstancebot.DataAwsccChimeAppInstanceBotConfig {
 	Connection: interface{},
@@ -784,7 +784,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/chime_app_instance_bot#id DataAwsccChimeAppInstanceBot#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/chime_app_instance_bot#id DataAwsccChimeAppInstanceBot#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -796,7 +796,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccChimeAppInstanceBot.DataAwsccChimeAppInstanceBotConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimeappinstancebot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchimeappinstancebot"
 
 &dataawsccchimeappinstancebot.DataAwsccChimeAppInstanceBotConfiguration {
 
@@ -809,7 +809,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimeappinsta
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccChimeAppInstanceBot.DataAwsccChimeAppInstanceBotConfigurationLex.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimeappinstancebot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchimeappinstancebot"
 
 &dataawsccchimeappinstancebot.DataAwsccChimeAppInstanceBotConfigurationLex {
 
@@ -822,7 +822,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimeappinsta
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccChimeAppInstanceBot.DataAwsccChimeAppInstanceBotConfigurationLexInvokedBy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimeappinstancebot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchimeappinstancebot"
 
 &dataawsccchimeappinstancebot.DataAwsccChimeAppInstanceBotConfigurationLexInvokedBy {
 
@@ -835,7 +835,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimeappinsta
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccChimeAppInstanceBot.DataAwsccChimeAppInstanceBotTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimeappinstancebot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchimeappinstancebot"
 
 &dataawsccchimeappinstancebot.DataAwsccChimeAppInstanceBotTags {
 
@@ -850,7 +850,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimeappinsta
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccChimeAppInstanceBot.DataAwsccChimeAppInstanceBotConfigurationLexInvokedByOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimeappinstancebot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchimeappinstancebot"
 
 dataawsccchimeappinstancebot.NewDataAwsccChimeAppInstanceBotConfigurationLexInvokedByOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccChimeAppInstanceBotConfigurationLexInvokedByOutputReference
 ```
@@ -1121,7 +1121,7 @@ func InternalValue() DataAwsccChimeAppInstanceBotConfigurationLexInvokedBy
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccChimeAppInstanceBot.DataAwsccChimeAppInstanceBotConfigurationLexOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimeappinstancebot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchimeappinstancebot"
 
 dataawsccchimeappinstancebot.NewDataAwsccChimeAppInstanceBotConfigurationLexOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccChimeAppInstanceBotConfigurationLexOutputReference
 ```
@@ -1425,7 +1425,7 @@ func InternalValue() DataAwsccChimeAppInstanceBotConfigurationLex
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccChimeAppInstanceBot.DataAwsccChimeAppInstanceBotConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimeappinstancebot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchimeappinstancebot"
 
 dataawsccchimeappinstancebot.NewDataAwsccChimeAppInstanceBotConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccChimeAppInstanceBotConfigurationOutputReference
 ```
@@ -1685,7 +1685,7 @@ func InternalValue() DataAwsccChimeAppInstanceBotConfiguration
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccChimeAppInstanceBot.DataAwsccChimeAppInstanceBotTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimeappinstancebot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchimeappinstancebot"
 
 dataawsccchimeappinstancebot.NewDataAwsccChimeAppInstanceBotTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccChimeAppInstanceBotTagsList
 ```
@@ -1834,7 +1834,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccChimeAppInstanceBot.DataAwsccChimeAppInstanceBotTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimeappinstancebot"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchimeappinstancebot"
 
 dataawsccchimeappinstancebot.NewDataAwsccChimeAppInstanceBotTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccChimeAppInstanceBotTagsOutputReference
 ```

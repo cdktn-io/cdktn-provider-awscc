@@ -4,12 +4,12 @@
 
 ### NetworksecuritymanagerTemplate <a name="NetworksecuritymanagerTemplate" id="@cdktn/provider-awscc.networksecuritymanagerTemplate.NetworksecuritymanagerTemplate"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networksecuritymanager_template awscc_networksecuritymanager_template}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networksecuritymanager_template awscc_networksecuritymanager_template}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networksecuritymanagerTemplate.NetworksecuritymanagerTemplate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networksecuritymanagertemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networksecuritymanagertemplate"
 
 networksecuritymanagertemplate.NewNetworksecuritymanagerTemplate(scope Construct, id *string, config NetworksecuritymanagerTemplateConfig) NetworksecuritymanagerTemplate
 ```
@@ -454,7 +454,7 @@ func ResetTemplateDescription()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.networksecuritymanagerTemplate.NetworksecuritymanagerTemplate.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networksecuritymanagertemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networksecuritymanagertemplate"
 
 networksecuritymanagertemplate.NetworksecuritymanagerTemplate_IsConstruct(x interface{}) *bool
 ```
@@ -486,7 +486,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.networksecuritymanagerTemplate.NetworksecuritymanagerTemplate.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networksecuritymanagertemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networksecuritymanagertemplate"
 
 networksecuritymanagertemplate.NetworksecuritymanagerTemplate_IsTerraformElement(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ networksecuritymanagertemplate.NetworksecuritymanagerTemplate_IsTerraformElement
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.networksecuritymanagerTemplate.NetworksecuritymanagerTemplate.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networksecuritymanagertemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networksecuritymanagertemplate"
 
 networksecuritymanagertemplate.NetworksecuritymanagerTemplate_IsTerraformResource(x interface{}) *bool
 ```
@@ -514,7 +514,7 @@ networksecuritymanagertemplate.NetworksecuritymanagerTemplate_IsTerraformResourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.networksecuritymanagerTemplate.NetworksecuritymanagerTemplate.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networksecuritymanagertemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networksecuritymanagertemplate"
 
 networksecuritymanagertemplate.NetworksecuritymanagerTemplate_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -543,7 +543,7 @@ The construct id used in the generated config for the NetworksecuritymanagerTemp
 
 The id of the existing NetworksecuritymanagerTemplate that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networksecuritymanager_template#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networksecuritymanager_template#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -919,7 +919,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.networksecuritymanagerTemplate.NetworksecuritymanagerTemplateAssociatedRuleListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networksecuritymanagertemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networksecuritymanagertemplate"
 
 &networksecuritymanagertemplate.NetworksecuritymanagerTemplateAssociatedRuleListStruct {
 	RuleArn: *string,
@@ -944,7 +944,7 @@ RuleArn *string
 
 ARN of the associated rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networksecuritymanager_template#rule_arn NetworksecuritymanagerTemplate#rule_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networksecuritymanager_template#rule_arn NetworksecuritymanagerTemplate#rule_arn}
 
 ---
 
@@ -953,7 +953,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.networksecuritymanagerTemplate.NetworksecuritymanagerTemplateConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networksecuritymanagertemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networksecuritymanagertemplate"
 
 &networksecuritymanagertemplate.NetworksecuritymanagerTemplateConfig {
 	Connection: interface{},
@@ -1070,7 +1070,7 @@ TemplateName *string
 
 The name of the template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networksecuritymanager_template#template_name NetworksecuritymanagerTemplate#template_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networksecuritymanager_template#template_name NetworksecuritymanagerTemplate#template_name}
 
 ---
 
@@ -1084,7 +1084,7 @@ AssociatedRuleList interface{}
 
 List of rules associated with this template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networksecuritymanager_template#associated_rule_list NetworksecuritymanagerTemplate#associated_rule_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networksecuritymanager_template#associated_rule_list NetworksecuritymanagerTemplate#associated_rule_list}
 
 ---
 
@@ -1098,7 +1098,7 @@ FirewallType *string
 
 The type of firewall.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networksecuritymanager_template#firewall_type NetworksecuritymanagerTemplate#firewall_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networksecuritymanager_template#firewall_type NetworksecuritymanagerTemplate#firewall_type}
 
 ---
 
@@ -1112,7 +1112,7 @@ Tags interface{}
 
 The tags associated with the template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networksecuritymanager_template#tags NetworksecuritymanagerTemplate#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networksecuritymanager_template#tags NetworksecuritymanagerTemplate#tags}
 
 ---
 
@@ -1126,7 +1126,7 @@ TemplateDescription *string
 
 A description of the template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networksecuritymanager_template#template_description NetworksecuritymanagerTemplate#template_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networksecuritymanager_template#template_description NetworksecuritymanagerTemplate#template_description}
 
 ---
 
@@ -1135,7 +1135,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.networksecuritymanagerTemplate.NetworksecuritymanagerTemplateTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networksecuritymanagertemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networksecuritymanagertemplate"
 
 &networksecuritymanagertemplate.NetworksecuritymanagerTemplateTags {
 	Key: *string,
@@ -1147,8 +1147,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networksecuritymanager
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.networksecuritymanagerTemplate.NetworksecuritymanagerTemplateTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networksecuritymanager_template#key NetworksecuritymanagerTemplate#key}. |
-| <code><a href="#@cdktn/provider-awscc.networksecuritymanagerTemplate.NetworksecuritymanagerTemplateTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networksecuritymanager_template#value NetworksecuritymanagerTemplate#value}. |
+| <code><a href="#@cdktn/provider-awscc.networksecuritymanagerTemplate.NetworksecuritymanagerTemplateTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networksecuritymanager_template#key NetworksecuritymanagerTemplate#key}. |
+| <code><a href="#@cdktn/provider-awscc.networksecuritymanagerTemplate.NetworksecuritymanagerTemplateTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networksecuritymanager_template#value NetworksecuritymanagerTemplate#value}. |
 
 ---
 
@@ -1160,7 +1160,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networksecuritymanager_template#key NetworksecuritymanagerTemplate#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networksecuritymanager_template#key NetworksecuritymanagerTemplate#key}.
 
 ---
 
@@ -1172,7 +1172,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networksecuritymanager_template#value NetworksecuritymanagerTemplate#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networksecuritymanager_template#value NetworksecuritymanagerTemplate#value}.
 
 ---
 
@@ -1183,7 +1183,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networksecuritymanagerTemplate.NetworksecuritymanagerTemplateAssociatedRuleListStructList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networksecuritymanagertemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networksecuritymanagertemplate"
 
 networksecuritymanagertemplate.NewNetworksecuritymanagerTemplateAssociatedRuleListStructList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) NetworksecuritymanagerTemplateAssociatedRuleListStructList
 ```
@@ -1343,7 +1343,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networksecuritymanagerTemplate.NetworksecuritymanagerTemplateAssociatedRuleListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networksecuritymanagertemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networksecuritymanagertemplate"
 
 networksecuritymanagertemplate.NewNetworksecuritymanagerTemplateAssociatedRuleListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) NetworksecuritymanagerTemplateAssociatedRuleListStructOutputReference
 ```
@@ -1639,7 +1639,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networksecuritymanagerTemplate.NetworksecuritymanagerTemplateTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networksecuritymanagertemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networksecuritymanagertemplate"
 
 networksecuritymanagertemplate.NewNetworksecuritymanagerTemplateTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) NetworksecuritymanagerTemplateTagsList
 ```
@@ -1799,7 +1799,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networksecuritymanagerTemplate.NetworksecuritymanagerTemplateTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networksecuritymanagertemplate"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networksecuritymanagertemplate"
 
 networksecuritymanagertemplate.NewNetworksecuritymanagerTemplateTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) NetworksecuritymanagerTemplateTagsOutputReference
 ```

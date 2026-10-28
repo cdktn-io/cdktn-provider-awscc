@@ -4,12 +4,12 @@
 
 ### SmsvoiceRegistrationAttachment <a name="SmsvoiceRegistrationAttachment" id="@cdktn/provider-awscc.smsvoiceRegistrationAttachment.SmsvoiceRegistrationAttachment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_registration_attachment awscc_smsvoice_registration_attachment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_registration_attachment awscc_smsvoice_registration_attachment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.smsvoiceRegistrationAttachment.SmsvoiceRegistrationAttachment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoiceregistrationattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoiceregistrationattachment"
 
 smsvoiceregistrationattachment.NewSmsvoiceRegistrationAttachment(scope Construct, id *string, config SmsvoiceRegistrationAttachmentConfig) SmsvoiceRegistrationAttachment
 ```
@@ -434,7 +434,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.smsvoiceRegistrationAttachment.SmsvoiceRegistrationAttachment.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoiceregistrationattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoiceregistrationattachment"
 
 smsvoiceregistrationattachment.SmsvoiceRegistrationAttachment_IsConstruct(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.smsvoiceRegistrationAttachment.SmsvoiceRegistrationAttachment.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoiceregistrationattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoiceregistrationattachment"
 
 smsvoiceregistrationattachment.SmsvoiceRegistrationAttachment_IsTerraformElement(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ smsvoiceregistrationattachment.SmsvoiceRegistrationAttachment_IsTerraformElement
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.smsvoiceRegistrationAttachment.SmsvoiceRegistrationAttachment.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoiceregistrationattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoiceregistrationattachment"
 
 smsvoiceregistrationattachment.SmsvoiceRegistrationAttachment_IsTerraformResource(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ smsvoiceregistrationattachment.SmsvoiceRegistrationAttachment_IsTerraformResourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.smsvoiceRegistrationAttachment.SmsvoiceRegistrationAttachment.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoiceregistrationattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoiceregistrationattachment"
 
 smsvoiceregistrationattachment.SmsvoiceRegistrationAttachment_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -523,7 +523,7 @@ The construct id used in the generated config for the SmsvoiceRegistrationAttach
 
 The id of the existing SmsvoiceRegistrationAttachment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_registration_attachment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_registration_attachment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -855,7 +855,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.smsvoiceRegistrationAttachment.SmsvoiceRegistrationAttachmentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoiceregistrationattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoiceregistrationattachment"
 
 &smsvoiceregistrationattachment.SmsvoiceRegistrationAttachmentConfig {
 	Connection: interface{},
@@ -970,7 +970,7 @@ The registration file to upload.
 
 The maximum file size is 1500KB and valid file extensions are PDF, JPEG and PNG.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_registration_attachment#attachment_body SmsvoiceRegistrationAttachment#attachment_body}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_registration_attachment#attachment_body SmsvoiceRegistrationAttachment#attachment_body}
 
 ---
 
@@ -984,7 +984,7 @@ AttachmentUrl *string
 
 A URL to the required registration file. For example, the URL to an MMS/shortcode form.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_registration_attachment#attachment_url SmsvoiceRegistrationAttachment#attachment_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_registration_attachment#attachment_url SmsvoiceRegistrationAttachment#attachment_url}
 
 ---
 
@@ -998,7 +998,7 @@ Tags interface{}
 
 An array of tags (key and value pairs) to associate with the registration attachment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_registration_attachment#tags SmsvoiceRegistrationAttachment#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_registration_attachment#tags SmsvoiceRegistrationAttachment#tags}
 
 ---
 
@@ -1007,7 +1007,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.smsvoiceRegistrationAttachment.SmsvoiceRegistrationAttachmentTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoiceregistrationattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoiceregistrationattachment"
 
 &smsvoiceregistrationattachment.SmsvoiceRegistrationAttachmentTags {
 	Key: *string,
@@ -1034,7 +1034,7 @@ Key *string
 
 The key identifier, or name, of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_registration_attachment#key SmsvoiceRegistrationAttachment#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_registration_attachment#key SmsvoiceRegistrationAttachment#key}
 
 ---
 
@@ -1048,7 +1048,7 @@ Value *string
 
 The string value associated with the key of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_registration_attachment#value SmsvoiceRegistrationAttachment#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_registration_attachment#value SmsvoiceRegistrationAttachment#value}
 
 ---
 
@@ -1059,7 +1059,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.smsvoiceRegistrationAttachment.SmsvoiceRegistrationAttachmentTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoiceregistrationattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoiceregistrationattachment"
 
 smsvoiceregistrationattachment.NewSmsvoiceRegistrationAttachmentTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SmsvoiceRegistrationAttachmentTagsList
 ```
@@ -1219,7 +1219,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.smsvoiceRegistrationAttachment.SmsvoiceRegistrationAttachmentTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoiceregistrationattachment"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoiceregistrationattachment"
 
 smsvoiceregistrationattachment.NewSmsvoiceRegistrationAttachmentTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) SmsvoiceRegistrationAttachmentTagsOutputReference
 ```

@@ -4,12 +4,12 @@
 
 ### DataAwsccRoute53ResolverResolverDnssecConfigs <a name="DataAwsccRoute53ResolverResolverDnssecConfigs" id="@cdktn/provider-awscc.dataAwsccRoute53ResolverResolverDnssecConfigs.DataAwsccRoute53ResolverResolverDnssecConfigs"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53resolver_resolver_dnssec_configs awscc_route53resolver_resolver_dnssec_configs}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53resolver_resolver_dnssec_configs awscc_route53resolver_resolver_dnssec_configs}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53ResolverResolverDnssecConfigs.DataAwsccRoute53ResolverResolverDnssecConfigs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53resolverresolverdnssecconfigs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53resolverresolverdnssecconfigs"
 
 dataawsccroute53resolverresolverdnssecconfigs.NewDataAwsccRoute53ResolverResolverDnssecConfigs(scope Construct, id *string, config DataAwsccRoute53ResolverResolverDnssecConfigsConfig) DataAwsccRoute53ResolverResolverDnssecConfigs
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccRoute53ResolverResolverDnssecConfigs.DataAwsccRoute53ResolverResolverDnssecConfigs.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53resolverresolverdnssecconfigs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53resolverresolverdnssecconfigs"
 
 dataawsccroute53resolverresolverdnssecconfigs.DataAwsccRoute53ResolverResolverDnssecConfigs_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccRoute53ResolverResolverDnssecConfigs.DataAwsccRoute53ResolverResolverDnssecConfigs.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53resolverresolverdnssecconfigs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53resolverresolverdnssecconfigs"
 
 dataawsccroute53resolverresolverdnssecconfigs.DataAwsccRoute53ResolverResolverDnssecConfigs_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccroute53resolverresolverdnssecconfigs.DataAwsccRoute53ResolverResolverDn
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccRoute53ResolverResolverDnssecConfigs.DataAwsccRoute53ResolverResolverDnssecConfigs.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53resolverresolverdnssecconfigs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53resolverresolverdnssecconfigs"
 
 dataawsccroute53resolverresolverdnssecconfigs.DataAwsccRoute53ResolverResolverDnssecConfigs_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccroute53resolverresolverdnssecconfigs.DataAwsccRoute53ResolverResolverDn
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccRoute53ResolverResolverDnssecConfigs.DataAwsccRoute53ResolverResolverDnssecConfigs.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53resolverresolverdnssecconfigs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53resolverresolverdnssecconfigs"
 
 dataawsccroute53resolverresolverdnssecconfigs.DataAwsccRoute53ResolverResolverDnssecConfigs_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRoute53ResolverRe
 
 The id of the existing DataAwsccRoute53ResolverResolverDnssecConfigs that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53resolver_resolver_dnssec_configs#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53resolver_resolver_dnssec_configs#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRoute53ResolverResolverDnssecConfigs.DataAwsccRoute53ResolverResolverDnssecConfigsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53resolverresolverdnssecconfigs"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53resolverresolverdnssecconfigs"
 
 &dataawsccroute53resolverresolverdnssecconfigs.DataAwsccRoute53ResolverResolverDnssecConfigsConfig {
 	Connection: interface{},

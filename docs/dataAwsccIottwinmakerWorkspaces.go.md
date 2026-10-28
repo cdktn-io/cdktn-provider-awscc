@@ -4,12 +4,12 @@
 
 ### DataAwsccIottwinmakerWorkspaces <a name="DataAwsccIottwinmakerWorkspaces" id="@cdktn/provider-awscc.dataAwsccIottwinmakerWorkspaces.DataAwsccIottwinmakerWorkspaces"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iottwinmaker_workspaces awscc_iottwinmaker_workspaces}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iottwinmaker_workspaces awscc_iottwinmaker_workspaces}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIottwinmakerWorkspaces.DataAwsccIottwinmakerWorkspaces.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottwinmakerworkspaces"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottwinmakerworkspaces"
 
 dataawscciottwinmakerworkspaces.NewDataAwsccIottwinmakerWorkspaces(scope Construct, id *string, config DataAwsccIottwinmakerWorkspacesConfig) DataAwsccIottwinmakerWorkspaces
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIottwinmakerWorkspaces.DataAwsccIottwinmakerWorkspaces.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottwinmakerworkspaces"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottwinmakerworkspaces"
 
 dataawscciottwinmakerworkspaces.DataAwsccIottwinmakerWorkspaces_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIottwinmakerWorkspaces.DataAwsccIottwinmakerWorkspaces.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottwinmakerworkspaces"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottwinmakerworkspaces"
 
 dataawscciottwinmakerworkspaces.DataAwsccIottwinmakerWorkspaces_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciottwinmakerworkspaces.DataAwsccIottwinmakerWorkspaces_IsTerraformEleme
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIottwinmakerWorkspaces.DataAwsccIottwinmakerWorkspaces.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottwinmakerworkspaces"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottwinmakerworkspaces"
 
 dataawscciottwinmakerworkspaces.DataAwsccIottwinmakerWorkspaces_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciottwinmakerworkspaces.DataAwsccIottwinmakerWorkspaces_IsTerraformDataS
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIottwinmakerWorkspaces.DataAwsccIottwinmakerWorkspaces.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottwinmakerworkspaces"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottwinmakerworkspaces"
 
 dataawscciottwinmakerworkspaces.DataAwsccIottwinmakerWorkspaces_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIottwinmakerWorks
 
 The id of the existing DataAwsccIottwinmakerWorkspaces that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iottwinmaker_workspaces#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iottwinmaker_workspaces#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIottwinmakerWorkspaces.DataAwsccIottwinmakerWorkspacesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottwinmakerworkspaces"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottwinmakerworkspaces"
 
 &dataawscciottwinmakerworkspaces.DataAwsccIottwinmakerWorkspacesConfig {
 	Connection: interface{},

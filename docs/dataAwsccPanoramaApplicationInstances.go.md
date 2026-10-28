@@ -4,12 +4,12 @@
 
 ### DataAwsccPanoramaApplicationInstances <a name="DataAwsccPanoramaApplicationInstances" id="@cdktn/provider-awscc.dataAwsccPanoramaApplicationInstances.DataAwsccPanoramaApplicationInstances"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/panorama_application_instances awscc_panorama_application_instances}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/panorama_application_instances awscc_panorama_application_instances}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPanoramaApplicationInstances.DataAwsccPanoramaApplicationInstances.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpanoramaapplicationinstances"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpanoramaapplicationinstances"
 
 dataawsccpanoramaapplicationinstances.NewDataAwsccPanoramaApplicationInstances(scope Construct, id *string, config DataAwsccPanoramaApplicationInstancesConfig) DataAwsccPanoramaApplicationInstances
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccPanoramaApplicationInstances.DataAwsccPanoramaApplicationInstances.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpanoramaapplicationinstances"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpanoramaapplicationinstances"
 
 dataawsccpanoramaapplicationinstances.DataAwsccPanoramaApplicationInstances_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccPanoramaApplicationInstances.DataAwsccPanoramaApplicationInstances.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpanoramaapplicationinstances"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpanoramaapplicationinstances"
 
 dataawsccpanoramaapplicationinstances.DataAwsccPanoramaApplicationInstances_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccpanoramaapplicationinstances.DataAwsccPanoramaApplicationInstances_IsTe
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccPanoramaApplicationInstances.DataAwsccPanoramaApplicationInstances.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpanoramaapplicationinstances"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpanoramaapplicationinstances"
 
 dataawsccpanoramaapplicationinstances.DataAwsccPanoramaApplicationInstances_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccpanoramaapplicationinstances.DataAwsccPanoramaApplicationInstances_IsTe
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccPanoramaApplicationInstances.DataAwsccPanoramaApplicationInstances.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpanoramaapplicationinstances"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpanoramaapplicationinstances"
 
 dataawsccpanoramaapplicationinstances.DataAwsccPanoramaApplicationInstances_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccPanoramaApplicati
 
 The id of the existing DataAwsccPanoramaApplicationInstances that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/panorama_application_instances#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/panorama_application_instances#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPanoramaApplicationInstances.DataAwsccPanoramaApplicationInstancesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpanoramaapplicationinstances"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpanoramaapplicationinstances"
 
 &dataawsccpanoramaapplicationinstances.DataAwsccPanoramaApplicationInstancesConfig {
 	Connection: interface{},

@@ -4,12 +4,12 @@
 
 ### DataAwsccUxcAccountCustomization <a name="DataAwsccUxcAccountCustomization" id="@cdktn/provider-awscc.dataAwsccUxcAccountCustomization.DataAwsccUxcAccountCustomization"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/uxc_account_customization awscc_uxc_account_customization}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/uxc_account_customization awscc_uxc_account_customization}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccUxcAccountCustomization.DataAwsccUxcAccountCustomization.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccuxcaccountcustomization"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccuxcaccountcustomization"
 
 dataawsccuxcaccountcustomization.NewDataAwsccUxcAccountCustomization(scope Construct, id *string, config DataAwsccUxcAccountCustomizationConfig) DataAwsccUxcAccountCustomization
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccUxcAccountCustomization.DataAwsccUxcAccountCustomization.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccuxcaccountcustomization"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccuxcaccountcustomization"
 
 dataawsccuxcaccountcustomization.DataAwsccUxcAccountCustomization_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccUxcAccountCustomization.DataAwsccUxcAccountCustomization.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccuxcaccountcustomization"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccuxcaccountcustomization"
 
 dataawsccuxcaccountcustomization.DataAwsccUxcAccountCustomization_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccuxcaccountcustomization.DataAwsccUxcAccountCustomization_IsTerraformEle
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccUxcAccountCustomization.DataAwsccUxcAccountCustomization.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccuxcaccountcustomization"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccuxcaccountcustomization"
 
 dataawsccuxcaccountcustomization.DataAwsccUxcAccountCustomization_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccuxcaccountcustomization.DataAwsccUxcAccountCustomization_IsTerraformDat
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccUxcAccountCustomization.DataAwsccUxcAccountCustomization.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccuxcaccountcustomization"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccuxcaccountcustomization"
 
 dataawsccuxcaccountcustomization.DataAwsccUxcAccountCustomization_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccUxcAccountCustomi
 
 The id of the existing DataAwsccUxcAccountCustomization that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/uxc_account_customization#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/uxc_account_customization#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -631,7 +631,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccUxcAccountCustomization.DataAwsccUxcAccountCustomizationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccuxcaccountcustomization"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccuxcaccountcustomization"
 
 &dataawsccuxcaccountcustomization.DataAwsccUxcAccountCustomizationConfig {
 	Connection: interface{},
@@ -740,7 +740,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/uxc_account_customization#id DataAwsccUxcAccountCustomization#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/uxc_account_customization#id DataAwsccUxcAccountCustomization#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

@@ -4,12 +4,12 @@
 
 ### DataAwsccIotDomainConfiguration <a name="DataAwsccIotDomainConfiguration" id="@cdktn/provider-awscc.dataAwsccIotDomainConfiguration.DataAwsccIotDomainConfiguration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_domain_configuration awscc_iot_domain_configuration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_domain_configuration awscc_iot_domain_configuration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotDomainConfiguration.DataAwsccIotDomainConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotdomainconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotdomainconfiguration"
 
 dataawscciotdomainconfiguration.NewDataAwsccIotDomainConfiguration(scope Construct, id *string, config DataAwsccIotDomainConfigurationConfig) DataAwsccIotDomainConfiguration
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIotDomainConfiguration.DataAwsccIotDomainConfiguration.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotdomainconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotdomainconfiguration"
 
 dataawscciotdomainconfiguration.DataAwsccIotDomainConfiguration_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIotDomainConfiguration.DataAwsccIotDomainConfiguration.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotdomainconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotdomainconfiguration"
 
 dataawscciotdomainconfiguration.DataAwsccIotDomainConfiguration_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawscciotdomainconfiguration.DataAwsccIotDomainConfiguration_IsTerraformEleme
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIotDomainConfiguration.DataAwsccIotDomainConfiguration.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotdomainconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotdomainconfiguration"
 
 dataawscciotdomainconfiguration.DataAwsccIotDomainConfiguration_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawscciotdomainconfiguration.DataAwsccIotDomainConfiguration_IsTerraformDataS
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIotDomainConfiguration.DataAwsccIotDomainConfiguration.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotdomainconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotdomainconfiguration"
 
 dataawscciotdomainconfiguration.DataAwsccIotDomainConfiguration_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotDomainConfigur
 
 The id of the existing DataAwsccIotDomainConfiguration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_domain_configuration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_domain_configuration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -763,7 +763,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotDomainConfiguration.DataAwsccIotDomainConfigurationAuthorizerConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotdomainconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotdomainconfiguration"
 
 &dataawscciotdomainconfiguration.DataAwsccIotDomainConfigurationAuthorizerConfig {
 
@@ -776,7 +776,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotdomainconf
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotDomainConfiguration.DataAwsccIotDomainConfigurationClientCertificateConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotdomainconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotdomainconfiguration"
 
 &dataawscciotdomainconfiguration.DataAwsccIotDomainConfigurationClientCertificateConfig {
 
@@ -789,7 +789,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotdomainconf
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotDomainConfiguration.DataAwsccIotDomainConfigurationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotdomainconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotdomainconfiguration"
 
 &dataawscciotdomainconfiguration.DataAwsccIotDomainConfigurationConfig {
 	Connection: interface{},
@@ -898,7 +898,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_domain_configuration#id DataAwsccIotDomainConfiguration#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_domain_configuration#id DataAwsccIotDomainConfiguration#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -910,7 +910,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotDomainConfiguration.DataAwsccIotDomainConfigurationServerCertificateConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotdomainconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotdomainconfiguration"
 
 &dataawscciotdomainconfiguration.DataAwsccIotDomainConfigurationServerCertificateConfig {
 
@@ -923,7 +923,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotdomainconf
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotDomainConfiguration.DataAwsccIotDomainConfigurationServerCertificates.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotdomainconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotdomainconfiguration"
 
 &dataawscciotdomainconfiguration.DataAwsccIotDomainConfigurationServerCertificates {
 
@@ -936,7 +936,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotdomainconf
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotDomainConfiguration.DataAwsccIotDomainConfigurationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotdomainconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotdomainconfiguration"
 
 &dataawscciotdomainconfiguration.DataAwsccIotDomainConfigurationTags {
 
@@ -949,7 +949,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotdomainconf
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotDomainConfiguration.DataAwsccIotDomainConfigurationTlsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotdomainconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotdomainconfiguration"
 
 &dataawscciotdomainconfiguration.DataAwsccIotDomainConfigurationTlsConfig {
 
@@ -964,7 +964,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotdomainconf
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotDomainConfiguration.DataAwsccIotDomainConfigurationAuthorizerConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotdomainconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotdomainconfiguration"
 
 dataawscciotdomainconfiguration.NewDataAwsccIotDomainConfigurationAuthorizerConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotDomainConfigurationAuthorizerConfigOutputReference
 ```
@@ -1235,7 +1235,7 @@ func InternalValue() DataAwsccIotDomainConfigurationAuthorizerConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotDomainConfiguration.DataAwsccIotDomainConfigurationClientCertificateConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotdomainconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotdomainconfiguration"
 
 dataawscciotdomainconfiguration.NewDataAwsccIotDomainConfigurationClientCertificateConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotDomainConfigurationClientCertificateConfigOutputReference
 ```
@@ -1495,7 +1495,7 @@ func InternalValue() DataAwsccIotDomainConfigurationClientCertificateConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotDomainConfiguration.DataAwsccIotDomainConfigurationServerCertificateConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotdomainconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotdomainconfiguration"
 
 dataawscciotdomainconfiguration.NewDataAwsccIotDomainConfigurationServerCertificateConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotDomainConfigurationServerCertificateConfigOutputReference
 ```
@@ -1777,7 +1777,7 @@ func InternalValue() DataAwsccIotDomainConfigurationServerCertificateConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotDomainConfiguration.DataAwsccIotDomainConfigurationServerCertificatesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotdomainconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotdomainconfiguration"
 
 dataawscciotdomainconfiguration.NewDataAwsccIotDomainConfigurationServerCertificatesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIotDomainConfigurationServerCertificatesList
 ```
@@ -1926,7 +1926,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotDomainConfiguration.DataAwsccIotDomainConfigurationServerCertificatesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotdomainconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotdomainconfiguration"
 
 dataawscciotdomainconfiguration.NewDataAwsccIotDomainConfigurationServerCertificatesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIotDomainConfigurationServerCertificatesOutputReference
 ```
@@ -2226,7 +2226,7 @@ func InternalValue() DataAwsccIotDomainConfigurationServerCertificates
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotDomainConfiguration.DataAwsccIotDomainConfigurationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotdomainconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotdomainconfiguration"
 
 dataawscciotdomainconfiguration.NewDataAwsccIotDomainConfigurationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIotDomainConfigurationTagsList
 ```
@@ -2375,7 +2375,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotDomainConfiguration.DataAwsccIotDomainConfigurationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotdomainconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotdomainconfiguration"
 
 dataawscciotdomainconfiguration.NewDataAwsccIotDomainConfigurationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIotDomainConfigurationTagsOutputReference
 ```
@@ -2664,7 +2664,7 @@ func InternalValue() DataAwsccIotDomainConfigurationTags
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotDomainConfiguration.DataAwsccIotDomainConfigurationTlsConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotdomainconfiguration"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotdomainconfiguration"
 
 dataawscciotdomainconfiguration.NewDataAwsccIotDomainConfigurationTlsConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIotDomainConfigurationTlsConfigOutputReference
 ```

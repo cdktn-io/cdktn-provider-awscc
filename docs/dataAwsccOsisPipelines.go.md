@@ -4,12 +4,12 @@
 
 ### DataAwsccOsisPipelines <a name="DataAwsccOsisPipelines" id="@cdktn/provider-awscc.dataAwsccOsisPipelines.DataAwsccOsisPipelines"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/osis_pipelines awscc_osis_pipelines}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/osis_pipelines awscc_osis_pipelines}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOsisPipelines.DataAwsccOsisPipelines.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccosispipelines"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccosispipelines"
 
 dataawsccosispipelines.NewDataAwsccOsisPipelines(scope Construct, id *string, config DataAwsccOsisPipelinesConfig) DataAwsccOsisPipelines
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccOsisPipelines.DataAwsccOsisPipelines.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccosispipelines"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccosispipelines"
 
 dataawsccosispipelines.DataAwsccOsisPipelines_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccOsisPipelines.DataAwsccOsisPipelines.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccosispipelines"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccosispipelines"
 
 dataawsccosispipelines.DataAwsccOsisPipelines_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccosispipelines.DataAwsccOsisPipelines_IsTerraformElement(x interface{}) 
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccOsisPipelines.DataAwsccOsisPipelines.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccosispipelines"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccosispipelines"
 
 dataawsccosispipelines.DataAwsccOsisPipelines_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccosispipelines.DataAwsccOsisPipelines_IsTerraformDataSource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccOsisPipelines.DataAwsccOsisPipelines.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccosispipelines"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccosispipelines"
 
 dataawsccosispipelines.DataAwsccOsisPipelines_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccOsisPipelines to 
 
 The id of the existing DataAwsccOsisPipelines that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/osis_pipelines#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/osis_pipelines#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,7 +587,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccOsisPipelines.DataAwsccOsisPipelinesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccosispipelines"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccosispipelines"
 
 &dataawsccosispipelines.DataAwsccOsisPipelinesConfig {
 	Connection: interface{},

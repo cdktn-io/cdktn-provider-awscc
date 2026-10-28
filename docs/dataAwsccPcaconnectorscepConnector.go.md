@@ -4,12 +4,12 @@
 
 ### DataAwsccPcaconnectorscepConnector <a name="DataAwsccPcaconnectorscepConnector" id="@cdktn/provider-awscc.dataAwsccPcaconnectorscepConnector.DataAwsccPcaconnectorscepConnector"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/pcaconnectorscep_connector awscc_pcaconnectorscep_connector}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/pcaconnectorscep_connector awscc_pcaconnectorscep_connector}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcaconnectorscepConnector.DataAwsccPcaconnectorscepConnector.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectorscepconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectorscepconnector"
 
 dataawsccpcaconnectorscepconnector.NewDataAwsccPcaconnectorscepConnector(scope Construct, id *string, config DataAwsccPcaconnectorscepConnectorConfig) DataAwsccPcaconnectorscepConnector
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccPcaconnectorscepConnector.DataAwsccPcaconnectorscepConnector.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectorscepconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectorscepconnector"
 
 dataawsccpcaconnectorscepconnector.DataAwsccPcaconnectorscepConnector_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccPcaconnectorscepConnector.DataAwsccPcaconnectorscepConnector.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectorscepconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectorscepconnector"
 
 dataawsccpcaconnectorscepconnector.DataAwsccPcaconnectorscepConnector_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccpcaconnectorscepconnector.DataAwsccPcaconnectorscepConnector_IsTerrafor
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccPcaconnectorscepConnector.DataAwsccPcaconnectorscepConnector.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectorscepconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectorscepconnector"
 
 dataawsccpcaconnectorscepconnector.DataAwsccPcaconnectorscepConnector_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccpcaconnectorscepconnector.DataAwsccPcaconnectorscepConnector_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccPcaconnectorscepConnector.DataAwsccPcaconnectorscepConnector.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectorscepconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectorscepconnector"
 
 dataawsccpcaconnectorscepconnector.DataAwsccPcaconnectorscepConnector_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccPcaconnectorscepC
 
 The id of the existing DataAwsccPcaconnectorscepConnector that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/pcaconnectorscep_connector#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/pcaconnectorscep_connector#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -675,7 +675,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcaconnectorscepConnector.DataAwsccPcaconnectorscepConnectorConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectorscepconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectorscepconnector"
 
 &dataawsccpcaconnectorscepconnector.DataAwsccPcaconnectorscepConnectorConfig {
 	Connection: interface{},
@@ -784,7 +784,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/pcaconnectorscep_connector#id DataAwsccPcaconnectorscepConnector#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/pcaconnectorscep_connector#id DataAwsccPcaconnectorscepConnector#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -796,7 +796,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcaconnectorscepConnector.DataAwsccPcaconnectorscepConnectorMobileDeviceManagement.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectorscepconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectorscepconnector"
 
 &dataawsccpcaconnectorscepconnector.DataAwsccPcaconnectorscepConnectorMobileDeviceManagement {
 
@@ -809,7 +809,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectors
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcaconnectorscepConnector.DataAwsccPcaconnectorscepConnectorMobileDeviceManagementIntune.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectorscepconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectorscepconnector"
 
 &dataawsccpcaconnectorscepconnector.DataAwsccPcaconnectorscepConnectorMobileDeviceManagementIntune {
 
@@ -822,7 +822,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectors
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccPcaconnectorscepConnector.DataAwsccPcaconnectorscepConnectorOpenIdConfiguration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectorscepconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectorscepconnector"
 
 &dataawsccpcaconnectorscepconnector.DataAwsccPcaconnectorscepConnectorOpenIdConfiguration {
 
@@ -837,7 +837,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectors
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcaconnectorscepConnector.DataAwsccPcaconnectorscepConnectorMobileDeviceManagementIntuneOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectorscepconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectorscepconnector"
 
 dataawsccpcaconnectorscepconnector.NewDataAwsccPcaconnectorscepConnectorMobileDeviceManagementIntuneOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPcaconnectorscepConnectorMobileDeviceManagementIntuneOutputReference
 ```
@@ -1108,7 +1108,7 @@ func InternalValue() DataAwsccPcaconnectorscepConnectorMobileDeviceManagementInt
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcaconnectorscepConnector.DataAwsccPcaconnectorscepConnectorMobileDeviceManagementOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectorscepconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectorscepconnector"
 
 dataawsccpcaconnectorscepconnector.NewDataAwsccPcaconnectorscepConnectorMobileDeviceManagementOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPcaconnectorscepConnectorMobileDeviceManagementOutputReference
 ```
@@ -1368,7 +1368,7 @@ func InternalValue() DataAwsccPcaconnectorscepConnectorMobileDeviceManagement
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcaconnectorscepConnector.DataAwsccPcaconnectorscepConnectorOpenIdConfigurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectorscepconnector"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectorscepconnector"
 
 dataawsccpcaconnectorscepconnector.NewDataAwsccPcaconnectorscepConnectorOpenIdConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccPcaconnectorscepConnectorOpenIdConfigurationOutputReference
 ```

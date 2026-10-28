@@ -4,12 +4,12 @@
 
 ### DataAwsccIdentitystoreUser <a name="DataAwsccIdentitystoreUser" id="@cdktn/provider-awscc.dataAwsccIdentitystoreUser.DataAwsccIdentitystoreUser"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/identitystore_user awscc_identitystore_user}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/identitystore_user awscc_identitystore_user}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIdentitystoreUser.DataAwsccIdentitystoreUser.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccidentitystoreuser"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccidentitystoreuser"
 
 dataawsccidentitystoreuser.NewDataAwsccIdentitystoreUser(scope Construct, id *string, config DataAwsccIdentitystoreUserConfig) DataAwsccIdentitystoreUser
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccIdentitystoreUser.DataAwsccIdentitystoreUser.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccidentitystoreuser"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccidentitystoreuser"
 
 dataawsccidentitystoreuser.DataAwsccIdentitystoreUser_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccIdentitystoreUser.DataAwsccIdentitystoreUser.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccidentitystoreuser"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccidentitystoreuser"
 
 dataawsccidentitystoreuser.DataAwsccIdentitystoreUser_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccidentitystoreuser.DataAwsccIdentitystoreUser_IsTerraformElement(x inter
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccIdentitystoreUser.DataAwsccIdentitystoreUser.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccidentitystoreuser"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccidentitystoreuser"
 
 dataawsccidentitystoreuser.DataAwsccIdentitystoreUser_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccidentitystoreuser.DataAwsccIdentitystoreUser_IsTerraformDataSource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccIdentitystoreUser.DataAwsccIdentitystoreUser.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccidentitystoreuser"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccidentitystoreuser"
 
 dataawsccidentitystoreuser.DataAwsccIdentitystoreUser_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIdentitystoreUser
 
 The id of the existing DataAwsccIdentitystoreUser that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/identitystore_user#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/identitystore_user#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -862,7 +862,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIdentitystoreUser.DataAwsccIdentitystoreUserAddresses.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccidentitystoreuser"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccidentitystoreuser"
 
 &dataawsccidentitystoreuser.DataAwsccIdentitystoreUserAddresses {
 
@@ -875,7 +875,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccidentitystore
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIdentitystoreUser.DataAwsccIdentitystoreUserConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccidentitystoreuser"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccidentitystoreuser"
 
 &dataawsccidentitystoreuser.DataAwsccIdentitystoreUserConfig {
 	Connection: interface{},
@@ -984,7 +984,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/identitystore_user#id DataAwsccIdentitystoreUser#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/identitystore_user#id DataAwsccIdentitystoreUser#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -996,7 +996,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIdentitystoreUser.DataAwsccIdentitystoreUserEmails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccidentitystoreuser"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccidentitystoreuser"
 
 &dataawsccidentitystoreuser.DataAwsccIdentitystoreUserEmails {
 
@@ -1009,7 +1009,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccidentitystore
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIdentitystoreUser.DataAwsccIdentitystoreUserName.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccidentitystoreuser"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccidentitystoreuser"
 
 &dataawsccidentitystoreuser.DataAwsccIdentitystoreUserName {
 
@@ -1022,7 +1022,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccidentitystore
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIdentitystoreUser.DataAwsccIdentitystoreUserPhoneNumbers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccidentitystoreuser"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccidentitystoreuser"
 
 &dataawsccidentitystoreuser.DataAwsccIdentitystoreUserPhoneNumbers {
 
@@ -1035,7 +1035,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccidentitystore
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIdentitystoreUser.DataAwsccIdentitystoreUserPhotos.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccidentitystoreuser"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccidentitystoreuser"
 
 &dataawsccidentitystoreuser.DataAwsccIdentitystoreUserPhotos {
 
@@ -1048,7 +1048,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccidentitystore
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIdentitystoreUser.DataAwsccIdentitystoreUserRoles.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccidentitystoreuser"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccidentitystoreuser"
 
 &dataawsccidentitystoreuser.DataAwsccIdentitystoreUserRoles {
 
@@ -1063,7 +1063,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccidentitystore
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIdentitystoreUser.DataAwsccIdentitystoreUserAddressesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccidentitystoreuser"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccidentitystoreuser"
 
 dataawsccidentitystoreuser.NewDataAwsccIdentitystoreUserAddressesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIdentitystoreUserAddressesList
 ```
@@ -1212,7 +1212,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIdentitystoreUser.DataAwsccIdentitystoreUserAddressesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccidentitystoreuser"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccidentitystoreuser"
 
 dataawsccidentitystoreuser.NewDataAwsccIdentitystoreUserAddressesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIdentitystoreUserAddressesOutputReference
 ```
@@ -1567,7 +1567,7 @@ func InternalValue() DataAwsccIdentitystoreUserAddresses
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIdentitystoreUser.DataAwsccIdentitystoreUserEmailsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccidentitystoreuser"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccidentitystoreuser"
 
 dataawsccidentitystoreuser.NewDataAwsccIdentitystoreUserEmailsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIdentitystoreUserEmailsList
 ```
@@ -1716,7 +1716,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIdentitystoreUser.DataAwsccIdentitystoreUserEmailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccidentitystoreuser"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccidentitystoreuser"
 
 dataawsccidentitystoreuser.NewDataAwsccIdentitystoreUserEmailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIdentitystoreUserEmailsOutputReference
 ```
@@ -2016,7 +2016,7 @@ func InternalValue() DataAwsccIdentitystoreUserEmails
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIdentitystoreUser.DataAwsccIdentitystoreUserNameOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccidentitystoreuser"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccidentitystoreuser"
 
 dataawsccidentitystoreuser.NewDataAwsccIdentitystoreUserNameOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccIdentitystoreUserNameOutputReference
 ```
@@ -2331,7 +2331,7 @@ func InternalValue() DataAwsccIdentitystoreUserName
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIdentitystoreUser.DataAwsccIdentitystoreUserPhoneNumbersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccidentitystoreuser"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccidentitystoreuser"
 
 dataawsccidentitystoreuser.NewDataAwsccIdentitystoreUserPhoneNumbersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIdentitystoreUserPhoneNumbersList
 ```
@@ -2480,7 +2480,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIdentitystoreUser.DataAwsccIdentitystoreUserPhoneNumbersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccidentitystoreuser"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccidentitystoreuser"
 
 dataawsccidentitystoreuser.NewDataAwsccIdentitystoreUserPhoneNumbersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIdentitystoreUserPhoneNumbersOutputReference
 ```
@@ -2780,7 +2780,7 @@ func InternalValue() DataAwsccIdentitystoreUserPhoneNumbers
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIdentitystoreUser.DataAwsccIdentitystoreUserPhotosList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccidentitystoreuser"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccidentitystoreuser"
 
 dataawsccidentitystoreuser.NewDataAwsccIdentitystoreUserPhotosList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIdentitystoreUserPhotosList
 ```
@@ -2929,7 +2929,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIdentitystoreUser.DataAwsccIdentitystoreUserPhotosOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccidentitystoreuser"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccidentitystoreuser"
 
 dataawsccidentitystoreuser.NewDataAwsccIdentitystoreUserPhotosOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIdentitystoreUserPhotosOutputReference
 ```
@@ -3240,7 +3240,7 @@ func InternalValue() DataAwsccIdentitystoreUserPhotos
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIdentitystoreUser.DataAwsccIdentitystoreUserRolesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccidentitystoreuser"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccidentitystoreuser"
 
 dataawsccidentitystoreuser.NewDataAwsccIdentitystoreUserRolesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccIdentitystoreUserRolesList
 ```
@@ -3389,7 +3389,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIdentitystoreUser.DataAwsccIdentitystoreUserRolesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccidentitystoreuser"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccidentitystoreuser"
 
 dataawsccidentitystoreuser.NewDataAwsccIdentitystoreUserRolesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccIdentitystoreUserRolesOutputReference
 ```

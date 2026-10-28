@@ -4,12 +4,12 @@
 
 ### DataAwsccWisdomAssistantAssociation <a name="DataAwsccWisdomAssistantAssociation" id="@cdktn/provider-awscc.dataAwsccWisdomAssistantAssociation.DataAwsccWisdomAssistantAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/wisdom_assistant_association awscc_wisdom_assistant_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/wisdom_assistant_association awscc_wisdom_assistant_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAssistantAssociation.DataAwsccWisdomAssistantAssociation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomassistantassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomassistantassociation"
 
 dataawsccwisdomassistantassociation.NewDataAwsccWisdomAssistantAssociation(scope Construct, id *string, config DataAwsccWisdomAssistantAssociationConfig) DataAwsccWisdomAssistantAssociation
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.dataAwsccWisdomAssistantAssociation.DataAwsccWisdomAssistantAssociation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomassistantassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomassistantassociation"
 
 dataawsccwisdomassistantassociation.DataAwsccWisdomAssistantAssociation_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.dataAwsccWisdomAssistantAssociation.DataAwsccWisdomAssistantAssociation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomassistantassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomassistantassociation"
 
 dataawsccwisdomassistantassociation.DataAwsccWisdomAssistantAssociation_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ dataawsccwisdomassistantassociation.DataAwsccWisdomAssistantAssociation_IsTerraf
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccWisdomAssistantAssociation.DataAwsccWisdomAssistantAssociation.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomassistantassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomassistantassociation"
 
 dataawsccwisdomassistantassociation.DataAwsccWisdomAssistantAssociation_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ dataawsccwisdomassistantassociation.DataAwsccWisdomAssistantAssociation_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.dataAwsccWisdomAssistantAssociation.DataAwsccWisdomAssistantAssociation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomassistantassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomassistantassociation"
 
 dataawsccwisdomassistantassociation.DataAwsccWisdomAssistantAssociation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccWisdomAssistantAs
 
 The id of the existing DataAwsccWisdomAssistantAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/wisdom_assistant_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/wisdom_assistant_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -664,7 +664,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAssistantAssociation.DataAwsccWisdomAssistantAssociationAssociation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomassistantassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomassistantassociation"
 
 &dataawsccwisdomassistantassociation.DataAwsccWisdomAssistantAssociationAssociation {
 
@@ -677,7 +677,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomassista
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAssistantAssociation.DataAwsccWisdomAssistantAssociationAssociationExternalBedrockKnowledgeBaseConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomassistantassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomassistantassociation"
 
 &dataawsccwisdomassistantassociation.DataAwsccWisdomAssistantAssociationAssociationExternalBedrockKnowledgeBaseConfig {
 
@@ -690,7 +690,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomassista
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAssistantAssociation.DataAwsccWisdomAssistantAssociationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomassistantassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomassistantassociation"
 
 &dataawsccwisdomassistantassociation.DataAwsccWisdomAssistantAssociationConfig {
 	Connection: interface{},
@@ -799,7 +799,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/wisdom_assistant_association#id DataAwsccWisdomAssistantAssociation#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/wisdom_assistant_association#id DataAwsccWisdomAssistantAssociation#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -811,7 +811,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAssistantAssociation.DataAwsccWisdomAssistantAssociationTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomassistantassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomassistantassociation"
 
 &dataawsccwisdomassistantassociation.DataAwsccWisdomAssistantAssociationTags {
 
@@ -826,7 +826,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomassista
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAssistantAssociation.DataAwsccWisdomAssistantAssociationAssociationExternalBedrockKnowledgeBaseConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomassistantassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomassistantassociation"
 
 dataawsccwisdomassistantassociation.NewDataAwsccWisdomAssistantAssociationAssociationExternalBedrockKnowledgeBaseConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWisdomAssistantAssociationAssociationExternalBedrockKnowledgeBaseConfigOutputReference
 ```
@@ -1097,7 +1097,7 @@ func InternalValue() DataAwsccWisdomAssistantAssociationAssociationExternalBedro
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAssistantAssociation.DataAwsccWisdomAssistantAssociationAssociationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomassistantassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomassistantassociation"
 
 dataawsccwisdomassistantassociation.NewDataAwsccWisdomAssistantAssociationAssociationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccWisdomAssistantAssociationAssociationOutputReference
 ```
@@ -1368,7 +1368,7 @@ func InternalValue() DataAwsccWisdomAssistantAssociationAssociation
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAssistantAssociation.DataAwsccWisdomAssistantAssociationTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomassistantassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomassistantassociation"
 
 dataawsccwisdomassistantassociation.NewDataAwsccWisdomAssistantAssociationTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccWisdomAssistantAssociationTagsList
 ```
@@ -1517,7 +1517,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAssistantAssociation.DataAwsccWisdomAssistantAssociationTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomassistantassociation"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomassistantassociation"
 
 dataawsccwisdomassistantassociation.NewDataAwsccWisdomAssistantAssociationTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccWisdomAssistantAssociationTagsOutputReference
 ```

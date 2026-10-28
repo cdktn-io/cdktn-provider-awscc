@@ -4,12 +4,12 @@
 
 ### CloudwatchAlarmMuteRule <a name="CloudwatchAlarmMuteRule" id="@cdktn/provider-awscc.cloudwatchAlarmMuteRule.CloudwatchAlarmMuteRule"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_alarm_mute_rule awscc_cloudwatch_alarm_mute_rule}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_alarm_mute_rule awscc_cloudwatch_alarm_mute_rule}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudwatchAlarmMuteRule.CloudwatchAlarmMuteRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudwatchalarmmuterule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudwatchalarmmuterule"
 
 cloudwatchalarmmuterule.NewCloudwatchAlarmMuteRule(scope Construct, id *string, config CloudwatchAlarmMuteRuleConfig) CloudwatchAlarmMuteRule
 ```
@@ -481,7 +481,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.cloudwatchAlarmMuteRule.CloudwatchAlarmMuteRule.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudwatchalarmmuterule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudwatchalarmmuterule"
 
 cloudwatchalarmmuterule.CloudwatchAlarmMuteRule_IsConstruct(x interface{}) *bool
 ```
@@ -513,7 +513,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.cloudwatchAlarmMuteRule.CloudwatchAlarmMuteRule.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudwatchalarmmuterule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudwatchalarmmuterule"
 
 cloudwatchalarmmuterule.CloudwatchAlarmMuteRule_IsTerraformElement(x interface{}) *bool
 ```
@@ -527,7 +527,7 @@ cloudwatchalarmmuterule.CloudwatchAlarmMuteRule_IsTerraformElement(x interface{}
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.cloudwatchAlarmMuteRule.CloudwatchAlarmMuteRule.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudwatchalarmmuterule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudwatchalarmmuterule"
 
 cloudwatchalarmmuterule.CloudwatchAlarmMuteRule_IsTerraformResource(x interface{}) *bool
 ```
@@ -541,7 +541,7 @@ cloudwatchalarmmuterule.CloudwatchAlarmMuteRule_IsTerraformResource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.cloudwatchAlarmMuteRule.CloudwatchAlarmMuteRule.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudwatchalarmmuterule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudwatchalarmmuterule"
 
 cloudwatchalarmmuterule.CloudwatchAlarmMuteRule_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -570,7 +570,7 @@ The construct id used in the generated config for the CloudwatchAlarmMuteRule to
 
 The id of the existing CloudwatchAlarmMuteRule that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_alarm_mute_rule#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_alarm_mute_rule#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -979,7 +979,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudwatchAlarmMuteRule.CloudwatchAlarmMuteRuleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudwatchalarmmuterule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudwatchalarmmuterule"
 
 &cloudwatchalarmmuterule.CloudwatchAlarmMuteRuleConfig {
 	Connection: interface{},
@@ -989,10 +989,10 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudwatchalarmmuterul
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	Rule: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.cloudwatchAlarmMuteRule.CloudwatchAlarmMuteRuleRule,
+	Rule: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.cloudwatchAlarmMuteRule.CloudwatchAlarmMuteRuleRule,
 	Description: *string,
 	ExpireDate: *string,
-	MuteTargets: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.cloudwatchAlarmMuteRule.CloudwatchAlarmMuteRuleMuteTargets,
+	MuteTargets: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.cloudwatchAlarmMuteRule.CloudwatchAlarmMuteRuleMuteTargets,
 	Name: *string,
 	StartDate: *string,
 	Tags: interface{},
@@ -1100,7 +1100,7 @@ Rule CloudwatchAlarmMuteRuleRule
 
 The rule for the mute.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_alarm_mute_rule#rule CloudwatchAlarmMuteRule#rule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_alarm_mute_rule#rule CloudwatchAlarmMuteRule#rule}
 
 ---
 
@@ -1114,7 +1114,7 @@ Description *string
 
 The description of the AlarmMuteRule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_alarm_mute_rule#description CloudwatchAlarmMuteRule#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_alarm_mute_rule#description CloudwatchAlarmMuteRule#description}
 
 ---
 
@@ -1128,7 +1128,7 @@ ExpireDate *string
 
 The date, with the same timezone offset as "ScheduleTimezone" after which the alarm mute rule will be expired.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_alarm_mute_rule#expire_date CloudwatchAlarmMuteRule#expire_date}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_alarm_mute_rule#expire_date CloudwatchAlarmMuteRule#expire_date}
 
 ---
 
@@ -1142,7 +1142,7 @@ MuteTargets CloudwatchAlarmMuteRuleMuteTargets
 
 Targets to be muted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_alarm_mute_rule#mute_targets CloudwatchAlarmMuteRule#mute_targets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_alarm_mute_rule#mute_targets CloudwatchAlarmMuteRule#mute_targets}
 
 ---
 
@@ -1156,7 +1156,7 @@ Name *string
 
 The name of the AlarmMuteRule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_alarm_mute_rule#name CloudwatchAlarmMuteRule#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_alarm_mute_rule#name CloudwatchAlarmMuteRule#name}
 
 ---
 
@@ -1170,7 +1170,7 @@ StartDate *string
 
 The date, with the same timezone offset as "ScheduleTimezone", after which the alarm mute rule will become active.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_alarm_mute_rule#start_date CloudwatchAlarmMuteRule#start_date}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_alarm_mute_rule#start_date CloudwatchAlarmMuteRule#start_date}
 
 ---
 
@@ -1184,7 +1184,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_alarm_mute_rule#tags CloudwatchAlarmMuteRule#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_alarm_mute_rule#tags CloudwatchAlarmMuteRule#tags}
 
 ---
 
@@ -1193,7 +1193,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudwatchAlarmMuteRule.CloudwatchAlarmMuteRuleMuteTargets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudwatchalarmmuterule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudwatchalarmmuterule"
 
 &cloudwatchalarmmuterule.CloudwatchAlarmMuteRuleMuteTargets {
 	AlarmNames: *[]*string,
@@ -1218,7 +1218,7 @@ AlarmNames *[]*string
 
 The alarm names to be mute by the AlarmMuteRule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_alarm_mute_rule#alarm_names CloudwatchAlarmMuteRule#alarm_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_alarm_mute_rule#alarm_names CloudwatchAlarmMuteRule#alarm_names}
 
 ---
 
@@ -1227,10 +1227,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudwatchAlarmMuteRule.CloudwatchAlarmMuteRuleRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudwatchalarmmuterule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudwatchalarmmuterule"
 
 &cloudwatchalarmmuterule.CloudwatchAlarmMuteRuleRule {
-	Schedule: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.cloudwatchAlarmMuteRule.CloudwatchAlarmMuteRuleRuleSchedule,
+	Schedule: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.cloudwatchAlarmMuteRule.CloudwatchAlarmMuteRuleRuleSchedule,
 }
 ```
 
@@ -1252,7 +1252,7 @@ Schedule CloudwatchAlarmMuteRuleRuleSchedule
 
 Schedule for the mute to be active.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_alarm_mute_rule#schedule CloudwatchAlarmMuteRule#schedule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_alarm_mute_rule#schedule CloudwatchAlarmMuteRule#schedule}
 
 ---
 
@@ -1261,7 +1261,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudwatchAlarmMuteRule.CloudwatchAlarmMuteRuleRuleSchedule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudwatchalarmmuterule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudwatchalarmmuterule"
 
 &cloudwatchalarmmuterule.CloudwatchAlarmMuteRuleRuleSchedule {
 	Duration: *string,
@@ -1290,7 +1290,7 @@ Duration *string
 
 The duration of the schedule when it triggers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_alarm_mute_rule#duration CloudwatchAlarmMuteRule#duration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_alarm_mute_rule#duration CloudwatchAlarmMuteRule#duration}
 
 ---
 
@@ -1304,7 +1304,7 @@ Expression *string
 
 The expression of the schedule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_alarm_mute_rule#expression CloudwatchAlarmMuteRule#expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_alarm_mute_rule#expression CloudwatchAlarmMuteRule#expression}
 
 ---
 
@@ -1318,7 +1318,7 @@ Timezone *string
 
 The timezone of the schedule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_alarm_mute_rule#timezone CloudwatchAlarmMuteRule#timezone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_alarm_mute_rule#timezone CloudwatchAlarmMuteRule#timezone}
 
 ---
 
@@ -1327,7 +1327,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudwatchAlarmMuteRule.CloudwatchAlarmMuteRuleTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudwatchalarmmuterule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudwatchalarmmuterule"
 
 &cloudwatchalarmmuterule.CloudwatchAlarmMuteRuleTags {
 	Key: *string,
@@ -1356,7 +1356,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_alarm_mute_rule#key CloudwatchAlarmMuteRule#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_alarm_mute_rule#key CloudwatchAlarmMuteRule#key}
 
 ---
 
@@ -1372,7 +1372,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_alarm_mute_rule#value CloudwatchAlarmMuteRule#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_alarm_mute_rule#value CloudwatchAlarmMuteRule#value}
 
 ---
 
@@ -1383,7 +1383,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudwatchAlarmMuteRule.CloudwatchAlarmMuteRuleMuteTargetsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudwatchalarmmuterule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudwatchalarmmuterule"
 
 cloudwatchalarmmuterule.NewCloudwatchAlarmMuteRuleMuteTargetsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CloudwatchAlarmMuteRuleMuteTargetsOutputReference
 ```
@@ -1661,7 +1661,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudwatchAlarmMuteRule.CloudwatchAlarmMuteRuleRuleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudwatchalarmmuterule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudwatchalarmmuterule"
 
 cloudwatchalarmmuterule.NewCloudwatchAlarmMuteRuleRuleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CloudwatchAlarmMuteRuleRuleOutputReference
 ```
@@ -1945,7 +1945,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudwatchAlarmMuteRule.CloudwatchAlarmMuteRuleRuleScheduleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudwatchalarmmuterule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudwatchalarmmuterule"
 
 cloudwatchalarmmuterule.NewCloudwatchAlarmMuteRuleRuleScheduleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CloudwatchAlarmMuteRuleRuleScheduleOutputReference
 ```
@@ -2267,7 +2267,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudwatchAlarmMuteRule.CloudwatchAlarmMuteRuleTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudwatchalarmmuterule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudwatchalarmmuterule"
 
 cloudwatchalarmmuterule.NewCloudwatchAlarmMuteRuleTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CloudwatchAlarmMuteRuleTagsList
 ```
@@ -2427,7 +2427,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudwatchAlarmMuteRule.CloudwatchAlarmMuteRuleTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudwatchalarmmuterule"
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudwatchalarmmuterule"
 
 cloudwatchalarmmuterule.NewCloudwatchAlarmMuteRuleTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) CloudwatchAlarmMuteRuleTagsOutputReference
 ```
